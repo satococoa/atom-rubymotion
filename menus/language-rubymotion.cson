@@ -1,13 +1,13 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable language-rubymotion': 'language-rubymotion:toggle'
+      'Enable RubyMotion': 'language-rubymotion:toggle'
 
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'language-rubymotion'
+      'label': 'RubyMotion'
       'submenu': [
         { 'label': 'Toggle', 'command': 'language-rubymotion:toggle' }
       ]
