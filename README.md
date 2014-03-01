@@ -1,3 +1,3 @@
-# language-rubymotion package
+# RubyMotion support in Atom
 
-A short description of your package.
+[RubyMotion](http://www.rubymotion.com) package for [Atom](https://atom.io).

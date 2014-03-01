@@ -3,9 +3,9 @@
   "main": "./lib/language-rubymotion",
   "version": "0.0.0",
   "private": true,
-  "description": "A short description of your package",
+  "description": "RubyMotion package for Atom",
   "activationEvents": ["language-rubymotion:toggle"],
-  "repository": "https://github.com/atom/language-rubymotion",
+  "repository": "https://github.com/satococoa/language-rubymotion",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
