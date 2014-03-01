@@ -1,11 +1,11 @@
 {
-  "name": "language-rubymotion",
-  "main": "./lib/language-rubymotion",
+  "name": "RubyMotion",
+  "main": "./lib/rubymotion",
   "version": "0.0.0",
   "private": true,
   "description": "RubyMotion package for Atom",
   "activationEvents": ["rubymotion:dash"],
-  "repository": "https://github.com/satococoa/language-rubymotion",
+  "repository": "https://github.com/satococoa/atom-rubymotion",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
