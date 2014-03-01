@@ -1,13 +1,16 @@
-LanguageRubymotionView = require './language-rubymotion-view'
+exec = require('child_process').exec
 
 module.exports =
-  languageRubymotionView: null
-
   activate: (state) ->
-    @languageRubymotionView = new LanguageRubymotionView(state.languageRubymotionViewState)
+    atom.workspaceView.command "rubymotion:dash", => @dash()
 
   deactivate: ->
-    @languageRubymotionView.destroy()
 
   serialize: ->
-    languageRubymotionViewState: @languageRubymotionView.serialize()
+
+  dash: ->
+    editor = atom.workspace.getActiveEditor()
+    editor.selectWord()
+    query = editor.getSelectedText()
+    return if query is ""
+    exec "open dash://rubymotion:#{query}"

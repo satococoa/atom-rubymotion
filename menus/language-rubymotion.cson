@@ -1,7 +1,7 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable RubyMotion': 'language-rubymotion:toggle'
+      'Look Up in Dash': 'rubymotion:dash'
 
 'menu': [
   {
@@ -9,7 +9,7 @@
     'submenu': [
       'label': 'RubyMotion'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'language-rubymotion:toggle' }
+        { 'label': 'Look Up in Dash', 'command': 'rubymotion:dash' }
       ]
     ]
   }
