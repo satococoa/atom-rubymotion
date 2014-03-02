@@ -9,4 +9,4 @@
 'patterns': [
   {'include': 'source.ruby'}
 ]
-'scopeName': 'source.ruby-motion'
+'scopeName': 'source.rubymotion'

@@ -1,4 +1,4 @@
-'.source.ruby-motion':
+'.source.rubymotion':
   'if … else … end':
     'prefix': 'ife'
     'body': 'if ${1:condition}\n\t$2\nelse\n\t$3\nend'
@@ -47,7 +47,7 @@
   'while ... end':
     'prefix': 'while'
     'body': 'while ${1:condition}\n\t$0\nend'
-'.source.ruby-motion .comment':
+'.source.rubymotion .comment':
   ':yields:':
     'prefix': 'y'
     'body': ' :yields: ${0:arguments}'

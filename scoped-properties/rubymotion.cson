@@ -1,4 +1,4 @@
-'.source.ruby-motion':
+'.source.rubymotion':
   'editor':
     'commentStart': '# '
     'increaseIndentPattern': /// ^
@@ -32,7 +32,7 @@
       [}\\]](,?\\s*(#|$)|\\.[a-zA-Z_]\\w*\\b)
       | (end|rescue|ensure|else|elsif|when)\\b
     ) ///
-'.source.ruby-motion:not(.string.unquoted.heredoc)':
+'.source.rubymotion:not(.string.unquoted.heredoc)':
   'editor':
     'foldEndPattern': ///
     (   (^|;) \\s*+ end   \\s*+ ([#].*)? $
