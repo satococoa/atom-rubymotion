@@ -4,9 +4,7 @@
   "version": "0.1.4",
   "private": true,
   "description": "RubyMotion package for Atom",
-  "activationEvents": [
-    "rubymotion:dash"
-  ],
+  "activationEvents": [],
   "repository": "https://github.com/satococoa/atom-rubymotion",
   "license": "MIT",
   "engines": {
