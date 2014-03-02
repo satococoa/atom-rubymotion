@@ -1,10 +1,5 @@
 'fileTypes': ['rb']
-'firstLineMatch': /// ^
-  \\s*(class|module)\\s+
-  ([.a-zA-Z0-9_:]+\\s*<\\s*)?
-  ((NS|UI)[.a-zA-Z0-9_:]+)
-  | ([.a-zA-Z0-9_:]*AppDelegate)
-  $ ///
+'firstLineMatch': '^\\s*(class|module)\\s+([.a-zA-Z0-9_:]+\\s*<\\s*)?((NS|UI)[.a-zA-Z0-9_:]+)|([.a-zA-Z0-9_:]*AppDelegate)$'
 'name': 'RubyMotion'
 'patterns': [
   {'include': 'source.ruby'}
