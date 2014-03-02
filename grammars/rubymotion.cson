@@ -1,8 +1,5 @@
-'fileTypes': [
-  'rb'
-  'Rakefile'
-]
-'firstLineMatch': '^\\s*(class|module)\\s+(([.a-zA-Z0-9_:]+\\s*<\\s*)?(NS|UI|AppDelegate)[.a-zA-Z0-9_:]*$)'
+'fileTypes': ['rb']
+'firstLineMatch': '^\\s*(class|module)\\s+([.a-zA-Z0-9_:]+\\s*<\\s*)?((NS|UI)[.a-zA-Z0-9_:]+)|([.a-zA-Z0-9_:]*AppDelegate)$'
 'name': 'RubyMotion'
 'patterns': [
   {
