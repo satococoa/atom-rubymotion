@@ -1,0 +1,1804 @@
+'.source.rubymotion':
+  'NSAddedPersistentStoresKey (NSString*)':
+    'prefix': 'NSAddedPersistentStoresKey'
+    'body': 'NSAddedPersistentStoresKey'
+  'NSAffectedObjectsErrorKey (NSString*)':
+    'prefix': 'NSAffectedObjectsErrorKey'
+    'body': 'NSAffectedObjectsErrorKey'
+  'NSAffectedStoresErrorKey (NSString*)':
+    'prefix': 'NSAffectedStoresErrorKey'
+    'body': 'NSAffectedStoresErrorKey'
+  'NSBinaryStoreType (NSString*)':
+    'prefix': 'NSBinaryStoreType'
+    'body': 'NSBinaryStoreType'
+  'NSCoreDataVersionNumber (double)':
+    'prefix': 'NSCoreDataVersionNumber'
+    'body': 'NSCoreDataVersionNumber'
+  'NSDeletedObjectsKey (NSString*)':
+    'prefix': 'NSDeletedObjectsKey'
+    'body': 'NSDeletedObjectsKey'
+  'NSDetailedErrorsKey (NSString*)':
+    'prefix': 'NSDetailedErrorsKey'
+    'body': 'NSDetailedErrorsKey'
+  'NSErrorMergePolicy (id)':
+    'prefix': 'NSErrorMergePolicy'
+    'body': 'NSErrorMergePolicy'
+  'NSIgnorePersistentStoreVersioningOption (NSString*)':
+    'prefix': 'NSIgnorePersistentStoreVersioningOption'
+    'body': 'NSIgnorePersistentStoreVersioningOption'
+  'NSInMemoryStoreType (NSString*)':
+    'prefix': 'NSInMemoryStoreType'
+    'body': 'NSInMemoryStoreType'
+  'NSInferMappingModelAutomaticallyOption (NSString*)':
+    'prefix': 'NSInferMappingModelAutomaticallyOption'
+    'body': 'NSInferMappingModelAutomaticallyOption'
+  'NSInsertedObjectsKey (NSString*)':
+    'prefix': 'NSInsertedObjectsKey'
+    'body': 'NSInsertedObjectsKey'
+  'NSInvalidatedAllObjectsKey (NSString*)':
+    'prefix': 'NSInvalidatedAllObjectsKey'
+    'body': 'NSInvalidatedAllObjectsKey'
+  'NSInvalidatedObjectsKey (NSString*)':
+    'prefix': 'NSInvalidatedObjectsKey'
+    'body': 'NSInvalidatedObjectsKey'
+  'NSManagedObjectContextDidSaveNotification (NSString*)':
+    'prefix': 'NSManagedObjectContextDidSaveNotification'
+    'body': 'NSManagedObjectContextDidSaveNotification'
+  'NSManagedObjectContextObjectsDidChangeNotification (NSString*)':
+    'prefix': 'NSManagedObjectContextObjectsDidChangeNotification'
+    'body': 'NSManagedObjectContextObjectsDidChangeNotification'
+  'NSManagedObjectContextWillSaveNotification (NSString*)':
+    'prefix': 'NSManagedObjectContextWillSaveNotification'
+    'body': 'NSManagedObjectContextWillSaveNotification'
+  'NSMergeByPropertyObjectTrumpMergePolicy (id)':
+    'prefix': 'NSMergeByPropertyObjectTrumpMergePolicy'
+    'body': 'NSMergeByPropertyObjectTrumpMergePolicy'
+  'NSMergeByPropertyStoreTrumpMergePolicy (id)':
+    'prefix': 'NSMergeByPropertyStoreTrumpMergePolicy'
+    'body': 'NSMergeByPropertyStoreTrumpMergePolicy'
+  'NSMigratePersistentStoresAutomaticallyOption (NSString*)':
+    'prefix': 'NSMigratePersistentStoresAutomaticallyOption'
+    'body': 'NSMigratePersistentStoresAutomaticallyOption'
+  'NSMigrationDestinationObjectKey (NSString*)':
+    'prefix': 'NSMigrationDestinationObjectKey'
+    'body': 'NSMigrationDestinationObjectKey'
+  'NSMigrationEntityMappingKey (NSString*)':
+    'prefix': 'NSMigrationEntityMappingKey'
+    'body': 'NSMigrationEntityMappingKey'
+  'NSMigrationEntityPolicyKey (NSString*)':
+    'prefix': 'NSMigrationEntityPolicyKey'
+    'body': 'NSMigrationEntityPolicyKey'
+  'NSMigrationManagerKey (NSString*)':
+    'prefix': 'NSMigrationManagerKey'
+    'body': 'NSMigrationManagerKey'
+  'NSMigrationPropertyMappingKey (NSString*)':
+    'prefix': 'NSMigrationPropertyMappingKey'
+    'body': 'NSMigrationPropertyMappingKey'
+  'NSMigrationSourceObjectKey (NSString*)':
+    'prefix': 'NSMigrationSourceObjectKey'
+    'body': 'NSMigrationSourceObjectKey'
+  'NSOverwriteMergePolicy (id)':
+    'prefix': 'NSOverwriteMergePolicy'
+    'body': 'NSOverwriteMergePolicy'
+  'NSPersistentStoreCoordinatorStoresDidChangeNotification (NSString*)':
+    'prefix': 'NSPersistentStoreCoordinatorStoresDidChangeNotification'
+    'body': 'NSPersistentStoreCoordinatorStoresDidChangeNotification'
+  'NSPersistentStoreCoordinatorStoresWillChangeNotification (NSString*)':
+    'prefix': 'NSPersistentStoreCoordinatorStoresWillChangeNotification'
+    'body': 'NSPersistentStoreCoordinatorStoresWillChangeNotification'
+  'NSPersistentStoreCoordinatorWillRemoveStoreNotification (NSString*)':
+    'prefix': 'NSPersistentStoreCoordinatorWillRemoveStoreNotification'
+    'body': 'NSPersistentStoreCoordinatorWillRemoveStoreNotification'
+  'NSPersistentStoreDidImportUbiquitousContentChangesNotification (NSString*)':
+    'prefix': 'NSPersistentStoreDidImportUbiquitousContentChangesNotification'
+    'body': 'NSPersistentStoreDidImportUbiquitousContentChangesNotification'
+  'NSPersistentStoreFileProtectionKey (NSString*)':
+    'prefix': 'NSPersistentStoreFileProtectionKey'
+    'body': 'NSPersistentStoreFileProtectionKey'
+  'NSPersistentStoreOSCompatibility (NSString*)':
+    'prefix': 'NSPersistentStoreOSCompatibility'
+    'body': 'NSPersistentStoreOSCompatibility'
+  'NSPersistentStoreRebuildFromUbiquitousContentOption (NSString*)':
+    'prefix': 'NSPersistentStoreRebuildFromUbiquitousContentOption'
+    'body': 'NSPersistentStoreRebuildFromUbiquitousContentOption'
+  'NSPersistentStoreRemoveUbiquitousMetadataOption (NSString*)':
+    'prefix': 'NSPersistentStoreRemoveUbiquitousMetadataOption'
+    'body': 'NSPersistentStoreRemoveUbiquitousMetadataOption'
+  'NSPersistentStoreSaveConflictsErrorKey (NSString*)':
+    'prefix': 'NSPersistentStoreSaveConflictsErrorKey'
+    'body': 'NSPersistentStoreSaveConflictsErrorKey'
+  'NSPersistentStoreTimeoutOption (NSString*)':
+    'prefix': 'NSPersistentStoreTimeoutOption'
+    'body': 'NSPersistentStoreTimeoutOption'
+  'NSPersistentStoreUbiquitousContainerIdentifierKey (NSString*)':
+    'prefix': 'NSPersistentStoreUbiquitousContainerIdentifierKey'
+    'body': 'NSPersistentStoreUbiquitousContainerIdentifierKey'
+  'NSPersistentStoreUbiquitousContentNameKey (NSString*)':
+    'prefix': 'NSPersistentStoreUbiquitousContentNameKey'
+    'body': 'NSPersistentStoreUbiquitousContentNameKey'
+  'NSPersistentStoreUbiquitousContentURLKey (NSString*)':
+    'prefix': 'NSPersistentStoreUbiquitousContentURLKey'
+    'body': 'NSPersistentStoreUbiquitousContentURLKey'
+  'NSPersistentStoreUbiquitousPeerTokenOption (NSString*)':
+    'prefix': 'NSPersistentStoreUbiquitousPeerTokenOption'
+    'body': 'NSPersistentStoreUbiquitousPeerTokenOption'
+  'NSPersistentStoreUbiquitousTransitionTypeKey (NSString*)':
+    'prefix': 'NSPersistentStoreUbiquitousTransitionTypeKey'
+    'body': 'NSPersistentStoreUbiquitousTransitionTypeKey'
+  'NSReadOnlyPersistentStoreOption (NSString*)':
+    'prefix': 'NSReadOnlyPersistentStoreOption'
+    'body': 'NSReadOnlyPersistentStoreOption'
+  'NSRefreshedObjectsKey (NSString*)':
+    'prefix': 'NSRefreshedObjectsKey'
+    'body': 'NSRefreshedObjectsKey'
+  'NSRemovedPersistentStoresKey (NSString*)':
+    'prefix': 'NSRemovedPersistentStoresKey'
+    'body': 'NSRemovedPersistentStoresKey'
+  'NSRollbackMergePolicy (id)':
+    'prefix': 'NSRollbackMergePolicy'
+    'body': 'NSRollbackMergePolicy'
+  'NSSQLiteAnalyzeOption (NSString*)':
+    'prefix': 'NSSQLiteAnalyzeOption'
+    'body': 'NSSQLiteAnalyzeOption'
+  'NSSQLiteErrorDomain (NSString*)':
+    'prefix': 'NSSQLiteErrorDomain'
+    'body': 'NSSQLiteErrorDomain'
+  'NSSQLiteManualVacuumOption (NSString*)':
+    'prefix': 'NSSQLiteManualVacuumOption'
+    'body': 'NSSQLiteManualVacuumOption'
+  'NSSQLitePragmasOption (NSString*)':
+    'prefix': 'NSSQLitePragmasOption'
+    'body': 'NSSQLitePragmasOption'
+  'NSSQLiteStoreType (NSString*)':
+    'prefix': 'NSSQLiteStoreType'
+    'body': 'NSSQLiteStoreType'
+  'NSStoreModelVersionHashesKey (NSString*)':
+    'prefix': 'NSStoreModelVersionHashesKey'
+    'body': 'NSStoreModelVersionHashesKey'
+  'NSStoreModelVersionIdentifiersKey (NSString*)':
+    'prefix': 'NSStoreModelVersionIdentifiersKey'
+    'body': 'NSStoreModelVersionIdentifiersKey'
+  'NSStoreTypeKey (NSString*)':
+    'prefix': 'NSStoreTypeKey'
+    'body': 'NSStoreTypeKey'
+  'NSStoreUUIDKey (NSString*)':
+    'prefix': 'NSStoreUUIDKey'
+    'body': 'NSStoreUUIDKey'
+  'NSUUIDChangedPersistentStoresKey (NSString*)':
+    'prefix': 'NSUUIDChangedPersistentStoresKey'
+    'body': 'NSUUIDChangedPersistentStoresKey'
+  'NSUpdatedObjectsKey (NSString*)':
+    'prefix': 'NSUpdatedObjectsKey'
+    'body': 'NSUpdatedObjectsKey'
+  'NSValidationKeyErrorKey (NSString*)':
+    'prefix': 'NSValidationKeyErrorKey'
+    'body': 'NSValidationKeyErrorKey'
+  'NSValidationObjectErrorKey (NSString*)':
+    'prefix': 'NSValidationObjectErrorKey'
+    'body': 'NSValidationObjectErrorKey'
+  'NSValidationPredicateErrorKey (NSString*)':
+    'prefix': 'NSValidationPredicateErrorKey'
+    'body': 'NSValidationPredicateErrorKey'
+  'NSValidationValueErrorKey (NSString*)':
+    'prefix': 'NSValidationValueErrorKey'
+    'body': 'NSValidationValueErrorKey'
+  'NSAddEntityMappingType (2)':
+    'prefix': 'NSAddEntityMappingType'
+    'body': 'NSAddEntityMappingType'
+  'NSBinaryDataAttributeType (1000)':
+    'prefix': 'NSBinaryDataAttributeType'
+    'body': 'NSBinaryDataAttributeType'
+  'NSBooleanAttributeType (800)':
+    'prefix': 'NSBooleanAttributeType'
+    'body': 'NSBooleanAttributeType'
+  'NSCascadeDeleteRule (2)':
+    'prefix': 'NSCascadeDeleteRule'
+    'body': 'NSCascadeDeleteRule'
+  'NSConfinementConcurrencyType (0)':
+    'prefix': 'NSConfinementConcurrencyType'
+    'body': 'NSConfinementConcurrencyType'
+  'NSCopyEntityMappingType (4)':
+    'prefix': 'NSCopyEntityMappingType'
+    'body': 'NSCopyEntityMappingType'
+  'NSCoreDataError (134060)':
+    'prefix': 'NSCoreDataError'
+    'body': 'NSCoreDataError'
+  'NSCoreDataVersionNumber10_4 (46.0)':
+    'prefix': 'NSCoreDataVersionNumber10_4'
+    'body': 'NSCoreDataVersionNumber10_4'
+  'NSCoreDataVersionNumber10_4_3 (77.0)':
+    'prefix': 'NSCoreDataVersionNumber10_4_3'
+    'body': 'NSCoreDataVersionNumber10_4_3'
+  'NSCoreDataVersionNumber10_5 (185.0)':
+    'prefix': 'NSCoreDataVersionNumber10_5'
+    'body': 'NSCoreDataVersionNumber10_5'
+  'NSCoreDataVersionNumber10_5_3 (186.0)':
+    'prefix': 'NSCoreDataVersionNumber10_5_3'
+    'body': 'NSCoreDataVersionNumber10_5_3'
+  'NSCoreDataVersionNumber10_6 (246.0)':
+    'prefix': 'NSCoreDataVersionNumber10_6'
+    'body': 'NSCoreDataVersionNumber10_6'
+  'NSCoreDataVersionNumber10_6_2 (250.0)':
+    'prefix': 'NSCoreDataVersionNumber10_6_2'
+    'body': 'NSCoreDataVersionNumber10_6_2'
+  'NSCoreDataVersionNumber10_6_3 (251.0)':
+    'prefix': 'NSCoreDataVersionNumber10_6_3'
+    'body': 'NSCoreDataVersionNumber10_6_3'
+  'NSCoreDataVersionNumber10_7 (358.4)':
+    'prefix': 'NSCoreDataVersionNumber10_7'
+    'body': 'NSCoreDataVersionNumber10_7'
+  'NSCoreDataVersionNumber10_7_2 (358.12)':
+    'prefix': 'NSCoreDataVersionNumber10_7_2'
+    'body': 'NSCoreDataVersionNumber10_7_2'
+  'NSCoreDataVersionNumber10_7_3 (358.13)':
+    'prefix': 'NSCoreDataVersionNumber10_7_3'
+    'body': 'NSCoreDataVersionNumber10_7_3'
+  'NSCoreDataVersionNumber10_7_4 (358.14)':
+    'prefix': 'NSCoreDataVersionNumber10_7_4'
+    'body': 'NSCoreDataVersionNumber10_7_4'
+  'NSCoreDataVersionNumber10_8 (407.5)':
+    'prefix': 'NSCoreDataVersionNumber10_8'
+    'body': 'NSCoreDataVersionNumber10_8'
+  'NSCoreDataVersionNumber10_8_2 (407.7)':
+    'prefix': 'NSCoreDataVersionNumber10_8_2'
+    'body': 'NSCoreDataVersionNumber10_8_2'
+  'NSCoreDataVersionNumber_iPhoneOS_3_0 (241.0)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_3_0'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_3_0'
+  'NSCoreDataVersionNumber_iPhoneOS_3_1 (248.0)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_3_1'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_3_1'
+  'NSCoreDataVersionNumber_iPhoneOS_3_2 (310.2)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_3_2'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_3_2'
+  'NSCoreDataVersionNumber_iPhoneOS_4_0 (320.5)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_4_0'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_4_0'
+  'NSCoreDataVersionNumber_iPhoneOS_4_1 (320.11)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_4_1'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_4_1'
+  'NSCoreDataVersionNumber_iPhoneOS_4_2 (320.15)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_4_2'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_4_2'
+  'NSCoreDataVersionNumber_iPhoneOS_4_3 (320.17)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_4_3'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_4_3'
+  'NSCoreDataVersionNumber_iPhoneOS_5_0 (386.1)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_5_0'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_5_0'
+  'NSCoreDataVersionNumber_iPhoneOS_5_1 (386.5)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_5_1'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_5_1'
+  'NSCoreDataVersionNumber_iPhoneOS_6_0 (419.0)':
+    'prefix': 'NSCoreDataVersionNumber_iPhoneOS_6_0'
+    'body': 'NSCoreDataVersionNumber_iPhoneOS_6_0'
+  'NSCountResultType (4)':
+    'prefix': 'NSCountResultType'
+    'body': 'NSCountResultType'
+  'NSCustomEntityMappingType (1)':
+    'prefix': 'NSCustomEntityMappingType'
+    'body': 'NSCustomEntityMappingType'
+  'NSDateAttributeType (900)':
+    'prefix': 'NSDateAttributeType'
+    'body': 'NSDateAttributeType'
+  'NSDecimalAttributeType (400)':
+    'prefix': 'NSDecimalAttributeType'
+    'body': 'NSDecimalAttributeType'
+  'NSDenyDeleteRule (3)':
+    'prefix': 'NSDenyDeleteRule'
+    'body': 'NSDenyDeleteRule'
+  'NSDictionaryResultType (2)':
+    'prefix': 'NSDictionaryResultType'
+    'body': 'NSDictionaryResultType'
+  'NSDoubleAttributeType (500)':
+    'prefix': 'NSDoubleAttributeType'
+    'body': 'NSDoubleAttributeType'
+  'NSEntityMigrationPolicyError (134170)':
+    'prefix': 'NSEntityMigrationPolicyError'
+    'body': 'NSEntityMigrationPolicyError'
+  'NSErrorMergePolicyType (0)':
+    'prefix': 'NSErrorMergePolicyType'
+    'body': 'NSErrorMergePolicyType'
+  'NSExternalRecordImportError (134200)':
+    'prefix': 'NSExternalRecordImportError'
+    'body': 'NSExternalRecordImportError'
+  'NSFetchRequestExpressionType (50)':
+    'prefix': 'NSFetchRequestExpressionType'
+    'body': 'NSFetchRequestExpressionType'
+  'NSFetchRequestType (1)':
+    'prefix': 'NSFetchRequestType'
+    'body': 'NSFetchRequestType'
+  'NSFetchedResultsChangeDelete (2)':
+    'prefix': 'NSFetchedResultsChangeDelete'
+    'body': 'NSFetchedResultsChangeDelete'
+  'NSFetchedResultsChangeInsert (1)':
+    'prefix': 'NSFetchedResultsChangeInsert'
+    'body': 'NSFetchedResultsChangeInsert'
+  'NSFetchedResultsChangeMove (3)':
+    'prefix': 'NSFetchedResultsChangeMove'
+    'body': 'NSFetchedResultsChangeMove'
+  'NSFetchedResultsChangeUpdate (4)':
+    'prefix': 'NSFetchedResultsChangeUpdate'
+    'body': 'NSFetchedResultsChangeUpdate'
+  'NSFloatAttributeType (600)':
+    'prefix': 'NSFloatAttributeType'
+    'body': 'NSFloatAttributeType'
+  'NSInferredMappingModelError (134190)':
+    'prefix': 'NSInferredMappingModelError'
+    'body': 'NSInferredMappingModelError'
+  'NSInteger16AttributeType (100)':
+    'prefix': 'NSInteger16AttributeType'
+    'body': 'NSInteger16AttributeType'
+  'NSInteger32AttributeType (200)':
+    'prefix': 'NSInteger32AttributeType'
+    'body': 'NSInteger32AttributeType'
+  'NSInteger64AttributeType (300)':
+    'prefix': 'NSInteger64AttributeType'
+    'body': 'NSInteger64AttributeType'
+  'NSMainQueueConcurrencyType (2)':
+    'prefix': 'NSMainQueueConcurrencyType'
+    'body': 'NSMainQueueConcurrencyType'
+  'NSManagedObjectContextLockingError (132000)':
+    'prefix': 'NSManagedObjectContextLockingError'
+    'body': 'NSManagedObjectContextLockingError'
+  'NSManagedObjectExternalRelationshipError (133010)':
+    'prefix': 'NSManagedObjectExternalRelationshipError'
+    'body': 'NSManagedObjectExternalRelationshipError'
+  'NSManagedObjectIDResultType (1)':
+    'prefix': 'NSManagedObjectIDResultType'
+    'body': 'NSManagedObjectIDResultType'
+  'NSManagedObjectMergeError (133020)':
+    'prefix': 'NSManagedObjectMergeError'
+    'body': 'NSManagedObjectMergeError'
+  'NSManagedObjectReferentialIntegrityError (133000)':
+    'prefix': 'NSManagedObjectReferentialIntegrityError'
+    'body': 'NSManagedObjectReferentialIntegrityError'
+  'NSManagedObjectResultType (0)':
+    'prefix': 'NSManagedObjectResultType'
+    'body': 'NSManagedObjectResultType'
+  'NSManagedObjectValidationError (1550)':
+    'prefix': 'NSManagedObjectValidationError'
+    'body': 'NSManagedObjectValidationError'
+  'NSMergeByPropertyObjectTrumpMergePolicyType (2)':
+    'prefix': 'NSMergeByPropertyObjectTrumpMergePolicyType'
+    'body': 'NSMergeByPropertyObjectTrumpMergePolicyType'
+  'NSMergeByPropertyStoreTrumpMergePolicyType (1)':
+    'prefix': 'NSMergeByPropertyStoreTrumpMergePolicyType'
+    'body': 'NSMergeByPropertyStoreTrumpMergePolicyType'
+  'NSMigrationCancelledError (134120)':
+    'prefix': 'NSMigrationCancelledError'
+    'body': 'NSMigrationCancelledError'
+  'NSMigrationError (134110)':
+    'prefix': 'NSMigrationError'
+    'body': 'NSMigrationError'
+  'NSMigrationManagerDestinationStoreError (134160)':
+    'prefix': 'NSMigrationManagerDestinationStoreError'
+    'body': 'NSMigrationManagerDestinationStoreError'
+  'NSMigrationManagerSourceStoreError (134150)':
+    'prefix': 'NSMigrationManagerSourceStoreError'
+    'body': 'NSMigrationManagerSourceStoreError'
+  'NSMigrationMissingMappingModelError (134140)':
+    'prefix': 'NSMigrationMissingMappingModelError'
+    'body': 'NSMigrationMissingMappingModelError'
+  'NSMigrationMissingSourceModelError (134130)':
+    'prefix': 'NSMigrationMissingSourceModelError'
+    'body': 'NSMigrationMissingSourceModelError'
+  'NSNoActionDeleteRule (0)':
+    'prefix': 'NSNoActionDeleteRule'
+    'body': 'NSNoActionDeleteRule'
+  'NSNullifyDeleteRule (1)':
+    'prefix': 'NSNullifyDeleteRule'
+    'body': 'NSNullifyDeleteRule'
+  'NSObjectIDAttributeType (2000)':
+    'prefix': 'NSObjectIDAttributeType'
+    'body': 'NSObjectIDAttributeType'
+  'NSOverwriteMergePolicyType (3)':
+    'prefix': 'NSOverwriteMergePolicyType'
+    'body': 'NSOverwriteMergePolicyType'
+  'NSPersistentStoreCoordinatorLockingError (132010)':
+    'prefix': 'NSPersistentStoreCoordinatorLockingError'
+    'body': 'NSPersistentStoreCoordinatorLockingError'
+  'NSPersistentStoreIncompatibleSchemaError (134020)':
+    'prefix': 'NSPersistentStoreIncompatibleSchemaError'
+    'body': 'NSPersistentStoreIncompatibleSchemaError'
+  'NSPersistentStoreIncompatibleVersionHashError (134100)':
+    'prefix': 'NSPersistentStoreIncompatibleVersionHashError'
+    'body': 'NSPersistentStoreIncompatibleVersionHashError'
+  'NSPersistentStoreIncompleteSaveError (134040)':
+    'prefix': 'NSPersistentStoreIncompleteSaveError'
+    'body': 'NSPersistentStoreIncompleteSaveError'
+  'NSPersistentStoreInvalidTypeError (134000)':
+    'prefix': 'NSPersistentStoreInvalidTypeError'
+    'body': 'NSPersistentStoreInvalidTypeError'
+  'NSPersistentStoreOpenError (134080)':
+    'prefix': 'NSPersistentStoreOpenError'
+    'body': 'NSPersistentStoreOpenError'
+  'NSPersistentStoreOperationError (134070)':
+    'prefix': 'NSPersistentStoreOperationError'
+    'body': 'NSPersistentStoreOperationError'
+  'NSPersistentStoreSaveConflictsError (134050)':
+    'prefix': 'NSPersistentStoreSaveConflictsError'
+    'body': 'NSPersistentStoreSaveConflictsError'
+  'NSPersistentStoreSaveError (134030)':
+    'prefix': 'NSPersistentStoreSaveError'
+    'body': 'NSPersistentStoreSaveError'
+  'NSPersistentStoreTimeoutError (134090)':
+    'prefix': 'NSPersistentStoreTimeoutError'
+    'body': 'NSPersistentStoreTimeoutError'
+  'NSPersistentStoreTypeMismatchError (134010)':
+    'prefix': 'NSPersistentStoreTypeMismatchError'
+    'body': 'NSPersistentStoreTypeMismatchError'
+  'NSPersistentStoreUbiquitousTransitionTypeAccountAdded (1)':
+    'prefix': 'NSPersistentStoreUbiquitousTransitionTypeAccountAdded'
+    'body': 'NSPersistentStoreUbiquitousTransitionTypeAccountAdded'
+  'NSPersistentStoreUbiquitousTransitionTypeAccountRemoved (2)':
+    'prefix': 'NSPersistentStoreUbiquitousTransitionTypeAccountRemoved'
+    'body': 'NSPersistentStoreUbiquitousTransitionTypeAccountRemoved'
+  'NSPersistentStoreUbiquitousTransitionTypeContentRemoved (3)':
+    'prefix': 'NSPersistentStoreUbiquitousTransitionTypeContentRemoved'
+    'body': 'NSPersistentStoreUbiquitousTransitionTypeContentRemoved'
+  'NSPersistentStoreUbiquitousTransitionTypeInitialImportCompleted (4)':
+    'prefix': 'NSPersistentStoreUbiquitousTransitionTypeInitialImportCompleted'
+    'body': 'NSPersistentStoreUbiquitousTransitionTypeInitialImportCompleted'
+  'NSPersistentStoreUnsupportedRequestTypeError (134091)':
+    'prefix': 'NSPersistentStoreUnsupportedRequestTypeError'
+    'body': 'NSPersistentStoreUnsupportedRequestTypeError'
+  'NSPrivateQueueConcurrencyType (1)':
+    'prefix': 'NSPrivateQueueConcurrencyType'
+    'body': 'NSPrivateQueueConcurrencyType'
+  'NSRemoveEntityMappingType (3)':
+    'prefix': 'NSRemoveEntityMappingType'
+    'body': 'NSRemoveEntityMappingType'
+  'NSRollbackMergePolicyType (4)':
+    'prefix': 'NSRollbackMergePolicyType'
+    'body': 'NSRollbackMergePolicyType'
+  'NSSQLiteError (134180)':
+    'prefix': 'NSSQLiteError'
+    'body': 'NSSQLiteError'
+  'NSSaveRequestType (2)':
+    'prefix': 'NSSaveRequestType'
+    'body': 'NSSaveRequestType'
+  'NSSnapshotEventMergePolicy (64)':
+    'prefix': 'NSSnapshotEventMergePolicy'
+    'body': 'NSSnapshotEventMergePolicy'
+  'NSSnapshotEventRefresh (32)':
+    'prefix': 'NSSnapshotEventRefresh'
+    'body': 'NSSnapshotEventRefresh'
+  'NSSnapshotEventRollback (16)':
+    'prefix': 'NSSnapshotEventRollback'
+    'body': 'NSSnapshotEventRollback'
+  'NSSnapshotEventUndoDeletion (4)':
+    'prefix': 'NSSnapshotEventUndoDeletion'
+    'body': 'NSSnapshotEventUndoDeletion'
+  'NSSnapshotEventUndoInsertion (2)':
+    'prefix': 'NSSnapshotEventUndoInsertion'
+    'body': 'NSSnapshotEventUndoInsertion'
+  'NSSnapshotEventUndoUpdate (8)':
+    'prefix': 'NSSnapshotEventUndoUpdate'
+    'body': 'NSSnapshotEventUndoUpdate'
+  'NSStringAttributeType (700)':
+    'prefix': 'NSStringAttributeType'
+    'body': 'NSStringAttributeType'
+  'NSTransformEntityMappingType (5)':
+    'prefix': 'NSTransformEntityMappingType'
+    'body': 'NSTransformEntityMappingType'
+  'NSTransformableAttributeType (1800)':
+    'prefix': 'NSTransformableAttributeType'
+    'body': 'NSTransformableAttributeType'
+  'NSUndefinedAttributeType (0)':
+    'prefix': 'NSUndefinedAttributeType'
+    'body': 'NSUndefinedAttributeType'
+  'NSUndefinedEntityMappingType (0)':
+    'prefix': 'NSUndefinedEntityMappingType'
+    'body': 'NSUndefinedEntityMappingType'
+  'NSValidationDateTooLateError (1630)':
+    'prefix': 'NSValidationDateTooLateError'
+    'body': 'NSValidationDateTooLateError'
+  'NSValidationDateTooSoonError (1640)':
+    'prefix': 'NSValidationDateTooSoonError'
+    'body': 'NSValidationDateTooSoonError'
+  'NSValidationInvalidDateError (1650)':
+    'prefix': 'NSValidationInvalidDateError'
+    'body': 'NSValidationInvalidDateError'
+  'NSValidationMissingMandatoryPropertyError (1570)':
+    'prefix': 'NSValidationMissingMandatoryPropertyError'
+    'body': 'NSValidationMissingMandatoryPropertyError'
+  'NSValidationMultipleErrorsError (1560)':
+    'prefix': 'NSValidationMultipleErrorsError'
+    'body': 'NSValidationMultipleErrorsError'
+  'NSValidationNumberTooLargeError (1610)':
+    'prefix': 'NSValidationNumberTooLargeError'
+    'body': 'NSValidationNumberTooLargeError'
+  'NSValidationNumberTooSmallError (1620)':
+    'prefix': 'NSValidationNumberTooSmallError'
+    'body': 'NSValidationNumberTooSmallError'
+  'NSValidationRelationshipDeniedDeleteError (1600)':
+    'prefix': 'NSValidationRelationshipDeniedDeleteError'
+    'body': 'NSValidationRelationshipDeniedDeleteError'
+  'NSValidationRelationshipExceedsMaximumCountError (1590)':
+    'prefix': 'NSValidationRelationshipExceedsMaximumCountError'
+    'body': 'NSValidationRelationshipExceedsMaximumCountError'
+  'NSValidationRelationshipLacksMinimumCountError (1580)':
+    'prefix': 'NSValidationRelationshipLacksMinimumCountError'
+    'body': 'NSValidationRelationshipLacksMinimumCountError'
+  'NSValidationStringPatternMatchingError (1680)':
+    'prefix': 'NSValidationStringPatternMatchingError'
+    'body': 'NSValidationStringPatternMatchingError'
+  'NSValidationStringTooLongError (1660)':
+    'prefix': 'NSValidationStringTooLongError'
+    'body': 'NSValidationStringTooLongError'
+  'NSValidationStringTooShortError (1670)':
+    'prefix': 'NSValidationStringTooShortError'
+    'body': 'NSValidationStringTooShortError'
+  'addCacheNodes:':
+    'prefix': 'addCacheNodes:'
+    'body': 'addCacheNodes(${1:NSSet* cacheNodes})'
+  'cacheNodeForObjectID:':
+    'prefix': 'cacheNodeForObjectID:'
+    'body': 'cacheNodeForObjectID(${1:NSManagedObjectID* objectID})'
+  'cacheNodes':
+    'prefix': 'cacheNodes'
+    'body': 'cacheNodes()'
+  'initWithPersistentStoreCoordinator:configurationName:URL:options:':
+    'prefix': 'initWithPersistentStoreCoordinator:configurationName:URL:options:'
+    'body': 'initWithPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, configurationName:${2:NSString* configurationName}, URL:${3:NSURL* url}, options:${4:NSDictionary* options})'
+  'load:':
+    'prefix': 'load:'
+    'body': 'load(${1:NSError** error})'
+  'newCacheNodeForManagedObject:':
+    'prefix': 'newCacheNodeForManagedObject:'
+    'body': 'newCacheNodeForManagedObject(${1:NSManagedObject* managedObject})'
+  'newReferenceObjectForManagedObject:':
+    'prefix': 'newReferenceObjectForManagedObject:'
+    'body': 'newReferenceObjectForManagedObject(${1:NSManagedObject* managedObject})'
+  'objectIDForEntity:referenceObject:':
+    'prefix': 'objectIDForEntity:referenceObject:'
+    'body': 'objectIDForEntity(${1:NSEntityDescription* entity}, referenceObject:${2:id data})'
+  'referenceObjectForObjectID:':
+    'prefix': 'referenceObjectForObjectID:'
+    'body': 'referenceObjectForObjectID(${1:NSManagedObjectID* objectID})'
+  'save:':
+    'prefix': 'save:'
+    'body': 'save(${1:NSError** error})'
+  'updateCacheNode:fromManagedObject:':
+    'prefix': 'updateCacheNode:fromManagedObject:'
+    'body': 'updateCacheNode(${1:NSAtomicStoreCacheNode* node}, fromManagedObject:${2:NSManagedObject* managedObject})'
+  'willRemoveCacheNodes:':
+    'prefix': 'willRemoveCacheNodes:'
+    'body': 'willRemoveCacheNodes(${1:NSSet* cacheNodes})'
+  'initWithObjectID:':
+    'prefix': 'initWithObjectID:'
+    'body': 'initWithObjectID(${1:NSManagedObjectID* moid})'
+  'objectID':
+    'prefix': 'objectID'
+    'body': 'objectID()'
+  'propertyCache':
+    'prefix': 'propertyCache'
+    'body': 'propertyCache()'
+  'setPropertyCache:':
+    'prefix': 'setPropertyCache:'
+    'body': 'setPropertyCache(${1:NSMutableDictionary* propertyCache})'
+  'setValue:forKey:':
+    'prefix': 'setValue:forKey:'
+    'body': 'setValue(${1:id value}, forKey:${2:NSString* key})'
+  'valueForKey:':
+    'prefix': 'valueForKey:'
+    'body': 'valueForKey(${1:NSString* key})'
+  'allowsExternalBinaryDataStorage':
+    'prefix': 'allowsExternalBinaryDataStorage'
+    'body': 'allowsExternalBinaryDataStorage()'
+  'attributeType':
+    'prefix': 'attributeType'
+    'body': 'attributeType()'
+  'attributeValueClassName':
+    'prefix': 'attributeValueClassName'
+    'body': 'attributeValueClassName()'
+  'defaultValue':
+    'prefix': 'defaultValue'
+    'body': 'defaultValue()'
+  'setAllowsExternalBinaryDataStorage:':
+    'prefix': 'setAllowsExternalBinaryDataStorage:'
+    'body': 'setAllowsExternalBinaryDataStorage(${1:BOOL flag})'
+  'setAttributeType:':
+    'prefix': 'setAttributeType:'
+    'body': 'setAttributeType(${1:NSAttributeType type})'
+  'setAttributeValueClassName:':
+    'prefix': 'setAttributeValueClassName:'
+    'body': 'setAttributeValueClassName(${1:NSString* className})'
+  'setDefaultValue:':
+    'prefix': 'setDefaultValue:'
+    'body': 'setDefaultValue(${1:id value})'
+  'setValueTransformerName:':
+    'prefix': 'setValueTransformerName:'
+    'body': 'setValueTransformerName(${1:NSString* string})'
+  'valueTransformerName':
+    'prefix': 'valueTransformerName'
+    'body': 'valueTransformerName()'
+  'versionHash':
+    'prefix': 'versionHash'
+    'body': 'versionHash()'
+  'attributesByName':
+    'prefix': 'attributesByName'
+    'body': 'attributesByName()'
+  'compoundIndexes':
+    'prefix': 'compoundIndexes'
+    'body': 'compoundIndexes()'
+  'NSEntityDescription.entityForName:inManagedObjectContext:':
+    'prefix': 'entityForName:inManagedObjectContext:'
+    'body': 'NSEntityDescription.entityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
+  'NSEntityDescription.insertNewObjectForEntityForName:inManagedObjectContext:':
+    'prefix': 'insertNewObjectForEntityForName:inManagedObjectContext:'
+    'body': 'NSEntityDescription.insertNewObjectForEntityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
+  'isAbstract':
+    'prefix': 'isAbstract'
+    'body': 'isAbstract()'
+  'isKindOfEntity:':
+    'prefix': 'isKindOfEntity:'
+    'body': 'isKindOfEntity(${1:NSEntityDescription* entity})'
+  'managedObjectClassName':
+    'prefix': 'managedObjectClassName'
+    'body': 'managedObjectClassName()'
+  'managedObjectModel':
+    'prefix': 'managedObjectModel'
+    'body': 'managedObjectModel()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'propertiesByName':
+    'prefix': 'propertiesByName'
+    'body': 'propertiesByName()'
+  'relationshipsByName':
+    'prefix': 'relationshipsByName'
+    'body': 'relationshipsByName()'
+  'relationshipsWithDestinationEntity:':
+    'prefix': 'relationshipsWithDestinationEntity:'
+    'body': 'relationshipsWithDestinationEntity(${1:NSEntityDescription* entity})'
+  'renamingIdentifier':
+    'prefix': 'renamingIdentifier'
+    'body': 'renamingIdentifier()'
+  'setAbstract:':
+    'prefix': 'setAbstract:'
+    'body': 'setAbstract(${1:BOOL flag})'
+  'setCompoundIndexes:':
+    'prefix': 'setCompoundIndexes:'
+    'body': 'setCompoundIndexes(${1:NSArray* value})'
+  'setManagedObjectClassName:':
+    'prefix': 'setManagedObjectClassName:'
+    'body': 'setManagedObjectClassName(${1:NSString* name})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setProperties:':
+    'prefix': 'setProperties:'
+    'body': 'setProperties(${1:NSArray* properties})'
+  'setRenamingIdentifier:':
+    'prefix': 'setRenamingIdentifier:'
+    'body': 'setRenamingIdentifier(${1:NSString* value})'
+  'setSubentities:':
+    'prefix': 'setSubentities:'
+    'body': 'setSubentities(${1:NSArray* array})'
+  'setUserInfo:':
+    'prefix': 'setUserInfo:'
+    'body': 'setUserInfo(${1:NSDictionary* dictionary})'
+  'setVersionHashModifier:':
+    'prefix': 'setVersionHashModifier:'
+    'body': 'setVersionHashModifier(${1:NSString* modifierString})'
+  'subentities':
+    'prefix': 'subentities'
+    'body': 'subentities()'
+  'subentitiesByName':
+    'prefix': 'subentitiesByName'
+    'body': 'subentitiesByName()'
+  'superentity':
+    'prefix': 'superentity'
+    'body': 'superentity()'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'versionHash':
+    'prefix': 'versionHash'
+    'body': 'versionHash()'
+  'versionHashModifier':
+    'prefix': 'versionHashModifier'
+    'body': 'versionHashModifier()'
+  'attributeMappings':
+    'prefix': 'attributeMappings'
+    'body': 'attributeMappings()'
+  'destinationEntityName':
+    'prefix': 'destinationEntityName'
+    'body': 'destinationEntityName()'
+  'destinationEntityVersionHash':
+    'prefix': 'destinationEntityVersionHash'
+    'body': 'destinationEntityVersionHash()'
+  'entityMigrationPolicyClassName':
+    'prefix': 'entityMigrationPolicyClassName'
+    'body': 'entityMigrationPolicyClassName()'
+  'mappingType':
+    'prefix': 'mappingType'
+    'body': 'mappingType()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'relationshipMappings':
+    'prefix': 'relationshipMappings'
+    'body': 'relationshipMappings()'
+  'setAttributeMappings:':
+    'prefix': 'setAttributeMappings:'
+    'body': 'setAttributeMappings(${1:NSArray* mappings})'
+  'setDestinationEntityName:':
+    'prefix': 'setDestinationEntityName:'
+    'body': 'setDestinationEntityName(${1:NSString* name})'
+  'setDestinationEntityVersionHash:':
+    'prefix': 'setDestinationEntityVersionHash:'
+    'body': 'setDestinationEntityVersionHash(${1:NSData* vhash})'
+  'setEntityMigrationPolicyClassName:':
+    'prefix': 'setEntityMigrationPolicyClassName:'
+    'body': 'setEntityMigrationPolicyClassName(${1:NSString* name})'
+  'setMappingType:':
+    'prefix': 'setMappingType:'
+    'body': 'setMappingType(${1:NSEntityMappingType type})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setRelationshipMappings:':
+    'prefix': 'setRelationshipMappings:'
+    'body': 'setRelationshipMappings(${1:NSArray* mappings})'
+  'setSourceEntityName:':
+    'prefix': 'setSourceEntityName:'
+    'body': 'setSourceEntityName(${1:NSString* name})'
+  'setSourceEntityVersionHash:':
+    'prefix': 'setSourceEntityVersionHash:'
+    'body': 'setSourceEntityVersionHash(${1:NSData* vhash})'
+  'setSourceExpression:':
+    'prefix': 'setSourceExpression:'
+    'body': 'setSourceExpression(${1:NSExpression* source})'
+  'setUserInfo:':
+    'prefix': 'setUserInfo:'
+    'body': 'setUserInfo(${1:NSDictionary* dict})'
+  'sourceEntityName':
+    'prefix': 'sourceEntityName'
+    'body': 'sourceEntityName()'
+  'sourceEntityVersionHash':
+    'prefix': 'sourceEntityVersionHash'
+    'body': 'sourceEntityVersionHash()'
+  'sourceExpression':
+    'prefix': 'sourceExpression'
+    'body': 'sourceExpression()'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'beginEntityMapping:manager:error:':
+    'prefix': 'beginEntityMapping:manager:error:'
+    'body': 'beginEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
+  'createDestinationInstancesForSourceInstance:entityMapping:manager:error:':
+    'prefix': 'createDestinationInstancesForSourceInstance:entityMapping:manager:error:'
+    'body': 'createDestinationInstancesForSourceInstance(${1:NSManagedObject* sInstance}, entityMapping:${2:NSEntityMapping* mapping}, manager:${3:NSMigrationManager* manager}, error:${4:NSError** error})'
+  'createRelationshipsForDestinationInstance:entityMapping:manager:error:':
+    'prefix': 'createRelationshipsForDestinationInstance:entityMapping:manager:error:'
+    'body': 'createRelationshipsForDestinationInstance(${1:NSManagedObject* dInstance}, entityMapping:${2:NSEntityMapping* mapping}, manager:${3:NSMigrationManager* manager}, error:${4:NSError** error})'
+  'endEntityMapping:manager:error:':
+    'prefix': 'endEntityMapping:manager:error:'
+    'body': 'endEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
+  'endInstanceCreationForEntityMapping:manager:error:':
+    'prefix': 'endInstanceCreationForEntityMapping:manager:error:'
+    'body': 'endInstanceCreationForEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
+  'endRelationshipCreationForEntityMapping:manager:error:':
+    'prefix': 'endRelationshipCreationForEntityMapping:manager:error:'
+    'body': 'endRelationshipCreationForEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
+  'performCustomValidationForEntityMapping:manager:error:':
+    'prefix': 'performCustomValidationForEntityMapping:manager:error:'
+    'body': 'performCustomValidationForEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
+  'expression':
+    'prefix': 'expression'
+    'body': 'expression()'
+  'expressionResultType':
+    'prefix': 'expressionResultType'
+    'body': 'expressionResultType()'
+  'setExpression:':
+    'prefix': 'setExpression:'
+    'body': 'setExpression(${1:NSExpression* expression})'
+  'setExpressionResultType:':
+    'prefix': 'setExpressionResultType:'
+    'body': 'setExpressionResultType(${1:NSAttributeType type})'
+  'affectedStores':
+    'prefix': 'affectedStores'
+    'body': 'affectedStores()'
+  'entity':
+    'prefix': 'entity'
+    'body': 'entity()'
+  'entityName':
+    'prefix': 'entityName'
+    'body': 'entityName()'
+  'fetchBatchSize':
+    'prefix': 'fetchBatchSize'
+    'body': 'fetchBatchSize()'
+  'fetchLimit':
+    'prefix': 'fetchLimit'
+    'body': 'fetchLimit()'
+  'fetchOffset':
+    'prefix': 'fetchOffset'
+    'body': 'fetchOffset()'
+  'NSFetchRequest.fetchRequestWithEntityName:':
+    'prefix': 'fetchRequestWithEntityName:'
+    'body': 'NSFetchRequest.fetchRequestWithEntityName(${1:NSString* entityName})'
+  'havingPredicate':
+    'prefix': 'havingPredicate'
+    'body': 'havingPredicate()'
+  'includesPendingChanges':
+    'prefix': 'includesPendingChanges'
+    'body': 'includesPendingChanges()'
+  'includesPropertyValues':
+    'prefix': 'includesPropertyValues'
+    'body': 'includesPropertyValues()'
+  'includesSubentities':
+    'prefix': 'includesSubentities'
+    'body': 'includesSubentities()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithEntityName:':
+    'prefix': 'initWithEntityName:'
+    'body': 'initWithEntityName(${1:NSString* entityName})'
+  'predicate':
+    'prefix': 'predicate'
+    'body': 'predicate()'
+  'propertiesToFetch':
+    'prefix': 'propertiesToFetch'
+    'body': 'propertiesToFetch()'
+  'propertiesToGroupBy':
+    'prefix': 'propertiesToGroupBy'
+    'body': 'propertiesToGroupBy()'
+  'relationshipKeyPathsForPrefetching':
+    'prefix': 'relationshipKeyPathsForPrefetching'
+    'body': 'relationshipKeyPathsForPrefetching()'
+  'resultType':
+    'prefix': 'resultType'
+    'body': 'resultType()'
+  'returnsDistinctResults':
+    'prefix': 'returnsDistinctResults'
+    'body': 'returnsDistinctResults()'
+  'returnsObjectsAsFaults':
+    'prefix': 'returnsObjectsAsFaults'
+    'body': 'returnsObjectsAsFaults()'
+  'setAffectedStores:':
+    'prefix': 'setAffectedStores:'
+    'body': 'setAffectedStores(${1:NSArray* stores})'
+  'setEntity:':
+    'prefix': 'setEntity:'
+    'body': 'setEntity(${1:NSEntityDescription* entity})'
+  'setFetchBatchSize:':
+    'prefix': 'setFetchBatchSize:'
+    'body': 'setFetchBatchSize(${1:NSUInteger bsize})'
+  'setFetchLimit:':
+    'prefix': 'setFetchLimit:'
+    'body': 'setFetchLimit(${1:NSUInteger limit})'
+  'setFetchOffset:':
+    'prefix': 'setFetchOffset:'
+    'body': 'setFetchOffset(${1:NSUInteger offset})'
+  'setHavingPredicate:':
+    'prefix': 'setHavingPredicate:'
+    'body': 'setHavingPredicate(${1:NSPredicate* predicate})'
+  'setIncludesPendingChanges:':
+    'prefix': 'setIncludesPendingChanges:'
+    'body': 'setIncludesPendingChanges(${1:BOOL flag})'
+  'setIncludesPropertyValues:':
+    'prefix': 'setIncludesPropertyValues:'
+    'body': 'setIncludesPropertyValues(${1:BOOL yesNo})'
+  'setIncludesSubentities:':
+    'prefix': 'setIncludesSubentities:'
+    'body': 'setIncludesSubentities(${1:BOOL yesNo})'
+  'setPredicate:':
+    'prefix': 'setPredicate:'
+    'body': 'setPredicate(${1:NSPredicate* predicate})'
+  'setPropertiesToFetch:':
+    'prefix': 'setPropertiesToFetch:'
+    'body': 'setPropertiesToFetch(${1:NSArray* values})'
+  'setPropertiesToGroupBy:':
+    'prefix': 'setPropertiesToGroupBy:'
+    'body': 'setPropertiesToGroupBy(${1:NSArray* array})'
+  'setRelationshipKeyPathsForPrefetching:':
+    'prefix': 'setRelationshipKeyPathsForPrefetching:'
+    'body': 'setRelationshipKeyPathsForPrefetching(${1:NSArray* keys})'
+  'setResultType:':
+    'prefix': 'setResultType:'
+    'body': 'setResultType(${1:NSFetchRequestResultType type})'
+  'setReturnsDistinctResults:':
+    'prefix': 'setReturnsDistinctResults:'
+    'body': 'setReturnsDistinctResults(${1:BOOL flag})'
+  'setReturnsObjectsAsFaults:':
+    'prefix': 'setReturnsObjectsAsFaults:'
+    'body': 'setReturnsObjectsAsFaults(${1:BOOL yesNo})'
+  'setShouldRefreshRefetchedObjects:':
+    'prefix': 'setShouldRefreshRefetchedObjects:'
+    'body': 'setShouldRefreshRefetchedObjects(${1:BOOL flag})'
+  'setSortDescriptors:':
+    'prefix': 'setSortDescriptors:'
+    'body': 'setSortDescriptors(${1:NSArray* sortDescriptors})'
+  'shouldRefreshRefetchedObjects':
+    'prefix': 'shouldRefreshRefetchedObjects'
+    'body': 'shouldRefreshRefetchedObjects()'
+  'sortDescriptors':
+    'prefix': 'sortDescriptors'
+    'body': 'sortDescriptors()'
+  'contextExpression':
+    'prefix': 'contextExpression'
+    'body': 'contextExpression()'
+  'NSFetchRequestExpression.expressionForFetch:context:countOnly:':
+    'prefix': 'expressionForFetch:context:countOnly:'
+    'body': 'NSFetchRequestExpression.expressionForFetch(${1:NSExpression* fetch}, context:${2:NSExpression* context}, countOnly:${3:BOOL countFlag})'
+  'isCountOnlyRequest':
+    'prefix': 'isCountOnlyRequest'
+    'body': 'isCountOnlyRequest()'
+  'requestExpression':
+    'prefix': 'requestExpression'
+    'body': 'requestExpression()'
+  'fetchRequest':
+    'prefix': 'fetchRequest'
+    'body': 'fetchRequest()'
+  'setFetchRequest:':
+    'prefix': 'setFetchRequest:'
+    'body': 'setFetchRequest(${1:NSFetchRequest* fetchRequest})'
+  'cacheName':
+    'prefix': 'cacheName'
+    'body': 'cacheName()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'NSFetchedResultsController.deleteCacheWithName:':
+    'prefix': 'deleteCacheWithName:'
+    'body': 'NSFetchedResultsController.deleteCacheWithName(${1:NSString* name})'
+  'fetchRequest':
+    'prefix': 'fetchRequest'
+    'body': 'fetchRequest()'
+  'fetchedObjects':
+    'prefix': 'fetchedObjects'
+    'body': 'fetchedObjects()'
+  'indexPathForObject:':
+    'prefix': 'indexPathForObject:'
+    'body': 'indexPathForObject(${1:id object})'
+  'initWithFetchRequest:managedObjectContext:sectionNameKeyPath:cacheName:':
+    'prefix': 'initWithFetchRequest:managedObjectContext:sectionNameKeyPath:cacheName:'
+    'body': 'initWithFetchRequest(${1:NSFetchRequest* fetchRequest}, managedObjectContext:${2:NSManagedObjectContext* context}, sectionNameKeyPath:${3:NSString* sectionNameKeyPath}, cacheName:${4:NSString* name})'
+  'managedObjectContext':
+    'prefix': 'managedObjectContext'
+    'body': 'managedObjectContext()'
+  'objectAtIndexPath:':
+    'prefix': 'objectAtIndexPath:'
+    'body': 'objectAtIndexPath(${1:NSIndexPath* indexPath})'
+  'performFetch:':
+    'prefix': 'performFetch:'
+    'body': 'performFetch(${1:NSError** error})'
+  'sectionForSectionIndexTitle:atIndex:':
+    'prefix': 'sectionForSectionIndexTitle:atIndex:'
+    'body': 'sectionForSectionIndexTitle(${1:NSString* title}, atIndex:${2:NSInteger sectionIndex})'
+  'sectionIndexTitleForSectionName:':
+    'prefix': 'sectionIndexTitleForSectionName:'
+    'body': 'sectionIndexTitleForSectionName(${1:NSString* sectionName})'
+  'sectionIndexTitles':
+    'prefix': 'sectionIndexTitles'
+    'body': 'sectionIndexTitles()'
+  'sectionNameKeyPath':
+    'prefix': 'sectionNameKeyPath'
+    'body': 'sectionNameKeyPath()'
+  'sections':
+    'prefix': 'sections'
+    'body': 'sections()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'executeRequest:withContext:error:':
+    'prefix': 'executeRequest:withContext:error:'
+    'body': 'executeRequest(${1:NSPersistentStoreRequest* request}, withContext:${2:NSManagedObjectContext* context}, error:${3:NSError** error})'
+  'NSIncrementalStore.identifierForNewStoreAtURL:':
+    'prefix': 'identifierForNewStoreAtURL:'
+    'body': 'NSIncrementalStore.identifierForNewStoreAtURL(${1:NSURL* storeURL})'
+  'loadMetadata:':
+    'prefix': 'loadMetadata:'
+    'body': 'loadMetadata(${1:NSError** error})'
+  'managedObjectContextDidRegisterObjectsWithIDs:':
+    'prefix': 'managedObjectContextDidRegisterObjectsWithIDs:'
+    'body': 'managedObjectContextDidRegisterObjectsWithIDs(${1:NSArray* objectIDs})'
+  'managedObjectContextDidUnregisterObjectsWithIDs:':
+    'prefix': 'managedObjectContextDidUnregisterObjectsWithIDs:'
+    'body': 'managedObjectContextDidUnregisterObjectsWithIDs(${1:NSArray* objectIDs})'
+  'newObjectIDForEntity:referenceObject:':
+    'prefix': 'newObjectIDForEntity:referenceObject:'
+    'body': 'newObjectIDForEntity(${1:NSEntityDescription* entity}, referenceObject:${2:id data})'
+  'newValueForRelationship:forObjectWithID:withContext:error:':
+    'prefix': 'newValueForRelationship:forObjectWithID:withContext:error:'
+    'body': 'newValueForRelationship(${1:NSRelationshipDescription* relationship}, forObjectWithID:${2:NSManagedObjectID* objectID}, withContext:${3:NSManagedObjectContext* context}, error:${4:NSError** error})'
+  'newValuesForObjectWithID:withContext:error:':
+    'prefix': 'newValuesForObjectWithID:withContext:error:'
+    'body': 'newValuesForObjectWithID(${1:NSManagedObjectID* objectID}, withContext:${2:NSManagedObjectContext* context}, error:${3:NSError** error})'
+  'obtainPermanentIDsForObjects:error:':
+    'prefix': 'obtainPermanentIDsForObjects:error:'
+    'body': 'obtainPermanentIDsForObjects(${1:NSArray* array}, error:${2:NSError** error})'
+  'referenceObjectForObjectID:':
+    'prefix': 'referenceObjectForObjectID:'
+    'body': 'referenceObjectForObjectID(${1:NSManagedObjectID* objectID})'
+  'initWithObjectID:withValues:version:':
+    'prefix': 'initWithObjectID:withValues:version:'
+    'body': 'initWithObjectID(${1:NSManagedObjectID* objectID}, withValues:${2:NSDictionary* values}, version:${3:uint64_t version})'
+  'objectID':
+    'prefix': 'objectID'
+    'body': 'objectID()'
+  'updateWithValues:version:':
+    'prefix': 'updateWithValues:version:'
+    'body': 'updateWithValues(${1:NSDictionary* values}, version:${2:uint64_t version})'
+  'valueForPropertyDescription:':
+    'prefix': 'valueForPropertyDescription:'
+    'body': 'valueForPropertyDescription(${1:NSPropertyDescription* prop})'
+  'version':
+    'prefix': 'version'
+    'body': 'version()'
+  'awakeFromFetch':
+    'prefix': 'awakeFromFetch'
+    'body': 'awakeFromFetch()'
+  'awakeFromInsert':
+    'prefix': 'awakeFromInsert'
+    'body': 'awakeFromInsert()'
+  'awakeFromSnapshotEvents:':
+    'prefix': 'awakeFromSnapshotEvents:'
+    'body': 'awakeFromSnapshotEvents(${1:NSSnapshotEventType flags})'
+  'changedValues':
+    'prefix': 'changedValues'
+    'body': 'changedValues()'
+  'changedValuesForCurrentEvent':
+    'prefix': 'changedValuesForCurrentEvent'
+    'body': 'changedValuesForCurrentEvent()'
+  'committedValuesForKeys:':
+    'prefix': 'committedValuesForKeys:'
+    'body': 'committedValuesForKeys(${1:NSArray* keys})'
+  'NSManagedObject.contextShouldIgnoreUnmodeledPropertyChanges':
+    'prefix': 'contextShouldIgnoreUnmodeledPropertyChanges'
+    'body': 'NSManagedObject.contextShouldIgnoreUnmodeledPropertyChanges()'
+  'didAccessValueForKey:':
+    'prefix': 'didAccessValueForKey:'
+    'body': 'didAccessValueForKey(${1:NSString* key})'
+  'didChangeValueForKey:':
+    'prefix': 'didChangeValueForKey:'
+    'body': 'didChangeValueForKey(${1:NSString* key})'
+  'didChangeValueForKey:withSetMutation:usingObjects:':
+    'prefix': 'didChangeValueForKey:withSetMutation:usingObjects:'
+    'body': 'didChangeValueForKey(${1:NSString* inKey}, withSetMutation:${2:NSKeyValueSetMutationKind inMutationKind}, usingObjects:${3:NSSet* inObjects})'
+  'didSave':
+    'prefix': 'didSave'
+    'body': 'didSave()'
+  'didTurnIntoFault':
+    'prefix': 'didTurnIntoFault'
+    'body': 'didTurnIntoFault()'
+  'entity':
+    'prefix': 'entity'
+    'body': 'entity()'
+  'faultingState':
+    'prefix': 'faultingState'
+    'body': 'faultingState()'
+  'hasChanges':
+    'prefix': 'hasChanges'
+    'body': 'hasChanges()'
+  'hasFaultForRelationshipNamed:':
+    'prefix': 'hasFaultForRelationshipNamed:'
+    'body': 'hasFaultForRelationshipNamed(${1:NSString* key})'
+  'initWithEntity:insertIntoManagedObjectContext:':
+    'prefix': 'initWithEntity:insertIntoManagedObjectContext:'
+    'body': 'initWithEntity(${1:NSEntityDescription* entity}, insertIntoManagedObjectContext:${2:NSManagedObjectContext* context})'
+  'isDeleted':
+    'prefix': 'isDeleted'
+    'body': 'isDeleted()'
+  'isFault':
+    'prefix': 'isFault'
+    'body': 'isFault()'
+  'isInserted':
+    'prefix': 'isInserted'
+    'body': 'isInserted()'
+  'isUpdated':
+    'prefix': 'isUpdated'
+    'body': 'isUpdated()'
+  'managedObjectContext':
+    'prefix': 'managedObjectContext'
+    'body': 'managedObjectContext()'
+  'objectID':
+    'prefix': 'objectID'
+    'body': 'objectID()'
+  'observationInfo':
+    'prefix': 'observationInfo'
+    'body': 'observationInfo()'
+  'prepareForDeletion':
+    'prefix': 'prepareForDeletion'
+    'body': 'prepareForDeletion()'
+  'primitiveValueForKey:':
+    'prefix': 'primitiveValueForKey:'
+    'body': 'primitiveValueForKey(${1:NSString* key})'
+  'setObservationInfo:':
+    'prefix': 'setObservationInfo:'
+    'body': 'setObservationInfo(${1:id inObservationInfo})'
+  'setPrimitiveValue:forKey:':
+    'prefix': 'setPrimitiveValue:forKey:'
+    'body': 'setPrimitiveValue(${1:id value}, forKey:${2:NSString* key})'
+  'setValue:forKey:':
+    'prefix': 'setValue:forKey:'
+    'body': 'setValue(${1:id value}, forKey:${2:NSString* key})'
+  'validateForDelete:':
+    'prefix': 'validateForDelete:'
+    'body': 'validateForDelete(${1:NSError** error})'
+  'validateForInsert:':
+    'prefix': 'validateForInsert:'
+    'body': 'validateForInsert(${1:NSError** error})'
+  'validateForUpdate:':
+    'prefix': 'validateForUpdate:'
+    'body': 'validateForUpdate(${1:NSError** error})'
+  'validateValue:forKey:error:':
+    'prefix': 'validateValue:forKey:error:'
+    'body': 'validateValue(${1:id* value}, forKey:${2:NSString* key}, error:${3:NSError** error})'
+  'valueForKey:':
+    'prefix': 'valueForKey:'
+    'body': 'valueForKey(${1:NSString* key})'
+  'willAccessValueForKey:':
+    'prefix': 'willAccessValueForKey:'
+    'body': 'willAccessValueForKey(${1:NSString* key})'
+  'willChangeValueForKey:':
+    'prefix': 'willChangeValueForKey:'
+    'body': 'willChangeValueForKey(${1:NSString* key})'
+  'willChangeValueForKey:withSetMutation:usingObjects:':
+    'prefix': 'willChangeValueForKey:withSetMutation:usingObjects:'
+    'body': 'willChangeValueForKey(${1:NSString* inKey}, withSetMutation:${2:NSKeyValueSetMutationKind inMutationKind}, usingObjects:${3:NSSet* inObjects})'
+  'willSave':
+    'prefix': 'willSave'
+    'body': 'willSave()'
+  'willTurnIntoFault':
+    'prefix': 'willTurnIntoFault'
+    'body': 'willTurnIntoFault()'
+  'assignObject:toPersistentStore:':
+    'prefix': 'assignObject:toPersistentStore:'
+    'body': 'assignObject(${1:id object}, toPersistentStore:${2:NSPersistentStore* store})'
+  'concurrencyType':
+    'prefix': 'concurrencyType'
+    'body': 'concurrencyType()'
+  'countForFetchRequest:error:':
+    'prefix': 'countForFetchRequest:error:'
+    'body': 'countForFetchRequest(${1:NSFetchRequest* request}, error:${2:NSError** error})'
+  'deleteObject:':
+    'prefix': 'deleteObject:'
+    'body': 'deleteObject(${1:NSManagedObject* object})'
+  'deletedObjects':
+    'prefix': 'deletedObjects'
+    'body': 'deletedObjects()'
+  'detectConflictsForObject:':
+    'prefix': 'detectConflictsForObject:'
+    'body': 'detectConflictsForObject(${1:NSManagedObject* object})'
+  'executeFetchRequest:error:':
+    'prefix': 'executeFetchRequest:error:'
+    'body': 'executeFetchRequest(${1:NSFetchRequest* request}, error:${2:NSError** error})'
+  'existingObjectWithID:error:':
+    'prefix': 'existingObjectWithID:error:'
+    'body': 'existingObjectWithID(${1:NSManagedObjectID* objectID}, error:${2:NSError** error})'
+  'hasChanges':
+    'prefix': 'hasChanges'
+    'body': 'hasChanges()'
+  'initWithConcurrencyType:':
+    'prefix': 'initWithConcurrencyType:'
+    'body': 'initWithConcurrencyType(${1:NSManagedObjectContextConcurrencyType ct})'
+  'insertObject:':
+    'prefix': 'insertObject:'
+    'body': 'insertObject(${1:NSManagedObject* object})'
+  'insertedObjects':
+    'prefix': 'insertedObjects'
+    'body': 'insertedObjects()'
+  'lock':
+    'prefix': 'lock'
+    'body': 'lock()'
+  'mergeChangesFromContextDidSaveNotification:':
+    'prefix': 'mergeChangesFromContextDidSaveNotification:'
+    'body': 'mergeChangesFromContextDidSaveNotification(${1:NSNotification* notification})'
+  'mergePolicy':
+    'prefix': 'mergePolicy'
+    'body': 'mergePolicy()'
+  'objectRegisteredForID:':
+    'prefix': 'objectRegisteredForID:'
+    'body': 'objectRegisteredForID(${1:NSManagedObjectID* objectID})'
+  'objectWithID:':
+    'prefix': 'objectWithID:'
+    'body': 'objectWithID(${1:NSManagedObjectID* objectID})'
+  'observeValueForKeyPath:ofObject:change:context:':
+    'prefix': 'observeValueForKeyPath:ofObject:change:context:'
+    'body': 'observeValueForKeyPath(${1:NSString* keyPath}, ofObject:${2:id object}, change:${3:NSDictionary* change}, context:${4:void* context})'
+  'obtainPermanentIDsForObjects:error:':
+    'prefix': 'obtainPermanentIDsForObjects:error:'
+    'body': 'obtainPermanentIDsForObjects(${1:NSArray* objects}, error:${2:NSError** error})'
+  'parentContext':
+    'prefix': 'parentContext'
+    'body': 'parentContext()'
+  'performBlock:':
+    'prefix': 'performBlock:'
+    'body': 'performBlock(${1:void (^)() block})'
+  'performBlockAndWait:':
+    'prefix': 'performBlockAndWait:'
+    'body': 'performBlockAndWait(${1:void (^)() block})'
+  'persistentStoreCoordinator':
+    'prefix': 'persistentStoreCoordinator'
+    'body': 'persistentStoreCoordinator()'
+  'processPendingChanges':
+    'prefix': 'processPendingChanges'
+    'body': 'processPendingChanges()'
+  'propagatesDeletesAtEndOfEvent':
+    'prefix': 'propagatesDeletesAtEndOfEvent'
+    'body': 'propagatesDeletesAtEndOfEvent()'
+  'redo':
+    'prefix': 'redo'
+    'body': 'redo()'
+  'refreshObject:mergeChanges:':
+    'prefix': 'refreshObject:mergeChanges:'
+    'body': 'refreshObject(${1:NSManagedObject* object}, mergeChanges:${2:BOOL flag})'
+  'registeredObjects':
+    'prefix': 'registeredObjects'
+    'body': 'registeredObjects()'
+  'reset':
+    'prefix': 'reset'
+    'body': 'reset()'
+  'retainsRegisteredObjects':
+    'prefix': 'retainsRegisteredObjects'
+    'body': 'retainsRegisteredObjects()'
+  'rollback':
+    'prefix': 'rollback'
+    'body': 'rollback()'
+  'save:':
+    'prefix': 'save:'
+    'body': 'save(${1:NSError** error})'
+  'setMergePolicy:':
+    'prefix': 'setMergePolicy:'
+    'body': 'setMergePolicy(${1:id mergePolicy})'
+  'setParentContext:':
+    'prefix': 'setParentContext:'
+    'body': 'setParentContext(${1:NSManagedObjectContext* parent})'
+  'setPersistentStoreCoordinator:':
+    'prefix': 'setPersistentStoreCoordinator:'
+    'body': 'setPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'setPropagatesDeletesAtEndOfEvent:':
+    'prefix': 'setPropagatesDeletesAtEndOfEvent:'
+    'body': 'setPropagatesDeletesAtEndOfEvent(${1:BOOL flag})'
+  'setRetainsRegisteredObjects:':
+    'prefix': 'setRetainsRegisteredObjects:'
+    'body': 'setRetainsRegisteredObjects(${1:BOOL flag})'
+  'setStalenessInterval:':
+    'prefix': 'setStalenessInterval:'
+    'body': 'setStalenessInterval(${1:NSTimeInterval expiration})'
+  'setUndoManager:':
+    'prefix': 'setUndoManager:'
+    'body': 'setUndoManager(${1:NSUndoManager* undoManager})'
+  'stalenessInterval':
+    'prefix': 'stalenessInterval'
+    'body': 'stalenessInterval()'
+  'tryLock':
+    'prefix': 'tryLock'
+    'body': 'tryLock()'
+  'undo':
+    'prefix': 'undo'
+    'body': 'undo()'
+  'undoManager':
+    'prefix': 'undoManager'
+    'body': 'undoManager()'
+  'unlock':
+    'prefix': 'unlock'
+    'body': 'unlock()'
+  'updatedObjects':
+    'prefix': 'updatedObjects'
+    'body': 'updatedObjects()'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'URIRepresentation':
+    'prefix': 'URIRepresentation'
+    'body': 'URIRepresentation()'
+  'entity':
+    'prefix': 'entity'
+    'body': 'entity()'
+  'isTemporaryID':
+    'prefix': 'isTemporaryID'
+    'body': 'isTemporaryID()'
+  'persistentStore':
+    'prefix': 'persistentStore'
+    'body': 'persistentStore()'
+  'configurations':
+    'prefix': 'configurations'
+    'body': 'configurations()'
+  'entities':
+    'prefix': 'entities'
+    'body': 'entities()'
+  'entitiesByName':
+    'prefix': 'entitiesByName'
+    'body': 'entitiesByName()'
+  'entitiesForConfiguration:':
+    'prefix': 'entitiesForConfiguration:'
+    'body': 'entitiesForConfiguration(${1:NSString* configuration})'
+  'entityVersionHashesByName':
+    'prefix': 'entityVersionHashesByName'
+    'body': 'entityVersionHashesByName()'
+  'fetchRequestFromTemplateWithName:substitutionVariables:':
+    'prefix': 'fetchRequestFromTemplateWithName:substitutionVariables:'
+    'body': 'fetchRequestFromTemplateWithName(${1:NSString* name}, substitutionVariables:${2:NSDictionary* variables})'
+  'fetchRequestTemplateForName:':
+    'prefix': 'fetchRequestTemplateForName:'
+    'body': 'fetchRequestTemplateForName(${1:NSString* name})'
+  'fetchRequestTemplatesByName':
+    'prefix': 'fetchRequestTemplatesByName'
+    'body': 'fetchRequestTemplatesByName()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithContentsOfURL:':
+    'prefix': 'initWithContentsOfURL:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url})'
+  'isConfiguration:compatibleWithStoreMetadata:':
+    'prefix': 'isConfiguration:compatibleWithStoreMetadata:'
+    'body': 'isConfiguration(${1:NSString* configuration}, compatibleWithStoreMetadata:${2:NSDictionary* metadata})'
+  'localizationDictionary':
+    'prefix': 'localizationDictionary'
+    'body': 'localizationDictionary()'
+  'NSManagedObjectModel.mergedModelFromBundles:':
+    'prefix': 'mergedModelFromBundles:'
+    'body': 'NSManagedObjectModel.mergedModelFromBundles(${1:NSArray* bundles})'
+  'NSManagedObjectModel.mergedModelFromBundles:forStoreMetadata:':
+    'prefix': 'mergedModelFromBundles:forStoreMetadata:'
+    'body': 'NSManagedObjectModel.mergedModelFromBundles(${1:NSArray* bundles}, forStoreMetadata:${2:NSDictionary* metadata})'
+  'NSManagedObjectModel.modelByMergingModels:':
+    'prefix': 'modelByMergingModels:'
+    'body': 'NSManagedObjectModel.modelByMergingModels(${1:NSArray* models})'
+  'NSManagedObjectModel.modelByMergingModels:forStoreMetadata:':
+    'prefix': 'modelByMergingModels:forStoreMetadata:'
+    'body': 'NSManagedObjectModel.modelByMergingModels(${1:NSArray* models}, forStoreMetadata:${2:NSDictionary* metadata})'
+  'setEntities:':
+    'prefix': 'setEntities:'
+    'body': 'setEntities(${1:NSArray* entities})'
+  'setEntities:forConfiguration:':
+    'prefix': 'setEntities:forConfiguration:'
+    'body': 'setEntities(${1:NSArray* entities}, forConfiguration:${2:NSString* configuration})'
+  'setFetchRequestTemplate:forName:':
+    'prefix': 'setFetchRequestTemplate:forName:'
+    'body': 'setFetchRequestTemplate(${1:NSFetchRequest* fetchRequestTemplate}, forName:${2:NSString* name})'
+  'setLocalizationDictionary:':
+    'prefix': 'setLocalizationDictionary:'
+    'body': 'setLocalizationDictionary(${1:NSDictionary* localizationDictionary})'
+  'setVersionIdentifiers:':
+    'prefix': 'setVersionIdentifiers:'
+    'body': 'setVersionIdentifiers(${1:NSSet* identifiers})'
+  'versionIdentifiers':
+    'prefix': 'versionIdentifiers'
+    'body': 'versionIdentifiers()'
+  'entityMappings':
+    'prefix': 'entityMappings'
+    'body': 'entityMappings()'
+  'entityMappingsByName':
+    'prefix': 'entityMappingsByName'
+    'body': 'entityMappingsByName()'
+  'NSMappingModel.inferredMappingModelForSourceModel:destinationModel:error:':
+    'prefix': 'inferredMappingModelForSourceModel:destinationModel:error:'
+    'body': 'NSMappingModel.inferredMappingModelForSourceModel(${1:NSManagedObjectModel* sourceModel}, destinationModel:${2:NSManagedObjectModel* destinationModel}, error:${3:NSError** error})'
+  'initWithContentsOfURL:':
+    'prefix': 'initWithContentsOfURL:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url})'
+  'NSMappingModel.mappingModelFromBundles:forSourceModel:destinationModel:':
+    'prefix': 'mappingModelFromBundles:forSourceModel:destinationModel:'
+    'body': 'NSMappingModel.mappingModelFromBundles(${1:NSArray* bundles}, forSourceModel:${2:NSManagedObjectModel* sourceModel}, destinationModel:${3:NSManagedObjectModel* destinationModel})'
+  'setEntityMappings:':
+    'prefix': 'setEntityMappings:'
+    'body': 'setEntityMappings(${1:NSArray* mappings})'
+  'cachedSnapshot':
+    'prefix': 'cachedSnapshot'
+    'body': 'cachedSnapshot()'
+  'initWithSource:newVersion:oldVersion:cachedSnapshot:persistedSnapshot:':
+    'prefix': 'initWithSource:newVersion:oldVersion:cachedSnapshot:persistedSnapshot:'
+    'body': 'initWithSource(${1:NSManagedObject* srcObject}, newVersion:${2:NSUInteger newvers}, oldVersion:${3:NSUInteger oldvers}, cachedSnapshot:${4:NSDictionary* cachesnap}, persistedSnapshot:${5:NSDictionary* persnap})'
+  'newVersionNumber':
+    'prefix': 'newVersionNumber'
+    'body': 'newVersionNumber()'
+  'objectSnapshot':
+    'prefix': 'objectSnapshot'
+    'body': 'objectSnapshot()'
+  'oldVersionNumber':
+    'prefix': 'oldVersionNumber'
+    'body': 'oldVersionNumber()'
+  'persistedSnapshot':
+    'prefix': 'persistedSnapshot'
+    'body': 'persistedSnapshot()'
+  'sourceObject':
+    'prefix': 'sourceObject'
+    'body': 'sourceObject()'
+  'initWithMergeType:':
+    'prefix': 'initWithMergeType:'
+    'body': 'initWithMergeType(${1:NSMergePolicyType ty})'
+  'mergeType':
+    'prefix': 'mergeType'
+    'body': 'mergeType()'
+  'resolveConflicts:error:':
+    'prefix': 'resolveConflicts:error:'
+    'body': 'resolveConflicts(${1:NSArray* list}, error:${2:NSError** error})'
+  'associateSourceInstance:withDestinationInstance:forEntityMapping:':
+    'prefix': 'associateSourceInstance:withDestinationInstance:forEntityMapping:'
+    'body': 'associateSourceInstance(${1:NSManagedObject* sourceInstance}, withDestinationInstance:${2:NSManagedObject* destinationInstance}, forEntityMapping:${3:NSEntityMapping* entityMapping})'
+  'cancelMigrationWithError:':
+    'prefix': 'cancelMigrationWithError:'
+    'body': 'cancelMigrationWithError(${1:NSError* error})'
+  'currentEntityMapping':
+    'prefix': 'currentEntityMapping'
+    'body': 'currentEntityMapping()'
+  'destinationContext':
+    'prefix': 'destinationContext'
+    'body': 'destinationContext()'
+  'destinationEntityForEntityMapping:':
+    'prefix': 'destinationEntityForEntityMapping:'
+    'body': 'destinationEntityForEntityMapping(${1:NSEntityMapping* mEntity})'
+  'destinationInstancesForEntityMappingNamed:sourceInstances:':
+    'prefix': 'destinationInstancesForEntityMappingNamed:sourceInstances:'
+    'body': 'destinationInstancesForEntityMappingNamed(${1:NSString* mappingName}, sourceInstances:${2:NSArray* sourceInstances})'
+  'destinationModel':
+    'prefix': 'destinationModel'
+    'body': 'destinationModel()'
+  'initWithSourceModel:destinationModel:':
+    'prefix': 'initWithSourceModel:destinationModel:'
+    'body': 'initWithSourceModel(${1:NSManagedObjectModel* sourceModel}, destinationModel:${2:NSManagedObjectModel* destinationModel})'
+  'mappingModel':
+    'prefix': 'mappingModel'
+    'body': 'mappingModel()'
+  'migrateStoreFromURL:type:options:withMappingModel:toDestinationURL:destinationType:destinationOptions:error:':
+    'prefix': 'migrateStoreFromURL:type:options:withMappingModel:toDestinationURL:destinationType:destinationOptions:error:'
+    'body': 'migrateStoreFromURL(${1:NSURL* sourceURL}, type:${2:NSString* sStoreType}, options:${3:NSDictionary* sOptions}, withMappingModel:${4:NSMappingModel* mappings}, toDestinationURL:${5:NSURL* dURL}, destinationType:${6:NSString* dStoreType}, destinationOptions:${7:NSDictionary* dOptions}, error:${8:NSError** error})'
+  'migrationProgress':
+    'prefix': 'migrationProgress'
+    'body': 'migrationProgress()'
+  'reset':
+    'prefix': 'reset'
+    'body': 'reset()'
+  'setUserInfo:':
+    'prefix': 'setUserInfo:'
+    'body': 'setUserInfo(${1:NSDictionary* dict})'
+  'setUsesStoreSpecificMigrationManager:':
+    'prefix': 'setUsesStoreSpecificMigrationManager:'
+    'body': 'setUsesStoreSpecificMigrationManager(${1:BOOL flag})'
+  'sourceContext':
+    'prefix': 'sourceContext'
+    'body': 'sourceContext()'
+  'sourceEntityForEntityMapping:':
+    'prefix': 'sourceEntityForEntityMapping:'
+    'body': 'sourceEntityForEntityMapping(${1:NSEntityMapping* mEntity})'
+  'sourceInstancesForEntityMappingNamed:destinationInstances:':
+    'prefix': 'sourceInstancesForEntityMappingNamed:destinationInstances:'
+    'body': 'sourceInstancesForEntityMappingNamed(${1:NSString* mappingName}, destinationInstances:${2:NSArray* destinationInstances})'
+  'sourceModel':
+    'prefix': 'sourceModel'
+    'body': 'sourceModel()'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'usesStoreSpecificMigrationManager':
+    'prefix': 'usesStoreSpecificMigrationManager'
+    'body': 'usesStoreSpecificMigrationManager()'
+  'controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:':
+    'prefix': 'controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:'
+    'body': 'controller(${1:NSFetchedResultsController* controller}, didChangeObject:${2:id anObject}, atIndexPath:${3:NSIndexPath* indexPath}, forChangeType:${4:NSFetchedResultsChangeType type}, newIndexPath:${5:NSIndexPath* newIndexPath})'
+  'controller:didChangeSection:atIndex:forChangeType:':
+    'prefix': 'controller:didChangeSection:atIndex:forChangeType:'
+    'body': 'controller(${1:NSFetchedResultsController* controller}, didChangeSection:${2:id sectionInfo}, atIndex:${3:NSUInteger sectionIndex}, forChangeType:${4:NSFetchedResultsChangeType type})'
+  'controller:sectionIndexTitleForSectionName:':
+    'prefix': 'controller:sectionIndexTitleForSectionName:'
+    'body': 'controller(${1:NSFetchedResultsController* controller}, sectionIndexTitleForSectionName:${2:NSString* sectionName})'
+  'controllerDidChangeContent:':
+    'prefix': 'controllerDidChangeContent:'
+    'body': 'controllerDidChangeContent(${1:NSFetchedResultsController* controller})'
+  'controllerWillChangeContent:':
+    'prefix': 'controllerWillChangeContent:'
+    'body': 'controllerWillChangeContent(${1:NSFetchedResultsController* controller})'
+  'indexTitle':
+    'prefix': 'indexTitle'
+    'body': 'indexTitle()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'numberOfObjects':
+    'prefix': 'numberOfObjects'
+    'body': 'numberOfObjects()'
+  'objects':
+    'prefix': 'objects'
+    'body': 'objects()'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'configurationName':
+    'prefix': 'configurationName'
+    'body': 'configurationName()'
+  'didAddToPersistentStoreCoordinator:':
+    'prefix': 'didAddToPersistentStoreCoordinator:'
+    'body': 'didAddToPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'initWithPersistentStoreCoordinator:configurationName:URL:options:':
+    'prefix': 'initWithPersistentStoreCoordinator:configurationName:URL:options:'
+    'body': 'initWithPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* root}, configurationName:${2:NSString* name}, URL:${3:NSURL* url}, options:${4:NSDictionary* options})'
+  'isReadOnly':
+    'prefix': 'isReadOnly'
+    'body': 'isReadOnly()'
+  'loadMetadata:':
+    'prefix': 'loadMetadata:'
+    'body': 'loadMetadata(${1:NSError** error})'
+  'metadata':
+    'prefix': 'metadata'
+    'body': 'metadata()'
+  'NSPersistentStore.metadataForPersistentStoreWithURL:error:':
+    'prefix': 'metadataForPersistentStoreWithURL:error:'
+    'body': 'NSPersistentStore.metadataForPersistentStoreWithURL(${1:NSURL* url}, error:${2:NSError** error})'
+  'NSPersistentStore.migrationManagerClass':
+    'prefix': 'migrationManagerClass'
+    'body': 'NSPersistentStore.migrationManagerClass()'
+  'options':
+    'prefix': 'options'
+    'body': 'options()'
+  'persistentStoreCoordinator':
+    'prefix': 'persistentStoreCoordinator'
+    'body': 'persistentStoreCoordinator()'
+  'setIdentifier:':
+    'prefix': 'setIdentifier:'
+    'body': 'setIdentifier(${1:NSString* identifier})'
+  'setMetadata:':
+    'prefix': 'setMetadata:'
+    'body': 'setMetadata(${1:NSDictionary* storeMetadata})'
+  'NSPersistentStore.setMetadata:forPersistentStoreWithURL:error:':
+    'prefix': 'setMetadata:forPersistentStoreWithURL:error:'
+    'body': 'NSPersistentStore.setMetadata(${1:NSDictionary* metadata}, forPersistentStoreWithURL:${2:NSURL* url}, error:${3:NSError** error})'
+  'setReadOnly:':
+    'prefix': 'setReadOnly:'
+    'body': 'setReadOnly(${1:BOOL flag})'
+  'setURL:':
+    'prefix': 'setURL:'
+    'body': 'setURL(${1:NSURL* url})'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'willRemoveFromPersistentStoreCoordinator:':
+    'prefix': 'willRemoveFromPersistentStoreCoordinator:'
+    'body': 'willRemoveFromPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'URLForPersistentStore:':
+    'prefix': 'URLForPersistentStore:'
+    'body': 'URLForPersistentStore(${1:NSPersistentStore* store})'
+  'addPersistentStoreWithType:configuration:URL:options:error:':
+    'prefix': 'addPersistentStoreWithType:configuration:URL:options:error:'
+    'body': 'addPersistentStoreWithType(${1:NSString* storeType}, configuration:${2:NSString* configuration}, URL:${3:NSURL* storeURL}, options:${4:NSDictionary* options}, error:${5:NSError** error})'
+  'executeRequest:withContext:error:':
+    'prefix': 'executeRequest:withContext:error:'
+    'body': 'executeRequest(${1:NSPersistentStoreRequest* request}, withContext:${2:NSManagedObjectContext* context}, error:${3:NSError** error})'
+  'initWithManagedObjectModel:':
+    'prefix': 'initWithManagedObjectModel:'
+    'body': 'initWithManagedObjectModel(${1:NSManagedObjectModel* model})'
+  'lock':
+    'prefix': 'lock'
+    'body': 'lock()'
+  'managedObjectIDForURIRepresentation:':
+    'prefix': 'managedObjectIDForURIRepresentation:'
+    'body': 'managedObjectIDForURIRepresentation(${1:NSURL* url})'
+  'managedObjectModel':
+    'prefix': 'managedObjectModel'
+    'body': 'managedObjectModel()'
+  'metadataForPersistentStore:':
+    'prefix': 'metadataForPersistentStore:'
+    'body': 'metadataForPersistentStore(${1:NSPersistentStore* store})'
+  'NSPersistentStoreCoordinator.metadataForPersistentStoreOfType:URL:error:':
+    'prefix': 'metadataForPersistentStoreOfType:URL:error:'
+    'body': 'NSPersistentStoreCoordinator.metadataForPersistentStoreOfType(${1:NSString* storeType}, URL:${2:NSURL* url}, error:${3:NSError** error})'
+  'migratePersistentStore:toURL:options:withType:error:':
+    'prefix': 'migratePersistentStore:toURL:options:withType:error:'
+    'body': 'migratePersistentStore(${1:NSPersistentStore* store}, toURL:${2:NSURL* URL}, options:${3:NSDictionary* options}, withType:${4:NSString* storeType}, error:${5:NSError** error})'
+  'persistentStoreForURL:':
+    'prefix': 'persistentStoreForURL:'
+    'body': 'persistentStoreForURL(${1:NSURL* URL})'
+  'persistentStores':
+    'prefix': 'persistentStores'
+    'body': 'persistentStores()'
+  'NSPersistentStoreCoordinator.registerStoreClass:forStoreType:':
+    'prefix': 'registerStoreClass:forStoreType:'
+    'body': 'NSPersistentStoreCoordinator.registerStoreClass(${1:Class storeClass}, forStoreType:${2:NSString* storeType})'
+  'NSPersistentStoreCoordinator.registeredStoreTypes':
+    'prefix': 'registeredStoreTypes'
+    'body': 'NSPersistentStoreCoordinator.registeredStoreTypes()'
+  'removePersistentStore:error:':
+    'prefix': 'removePersistentStore:error:'
+    'body': 'removePersistentStore(${1:NSPersistentStore* store}, error:${2:NSError** error})'
+  'NSPersistentStoreCoordinator.removeUbiquitousContentAndPersistentStoreAtURL:options:error:':
+    'prefix': 'removeUbiquitousContentAndPersistentStoreAtURL:options:error:'
+    'body': 'NSPersistentStoreCoordinator.removeUbiquitousContentAndPersistentStoreAtURL(${1:NSURL* storeURL}, options:${2:NSDictionary* options}, error:${3:NSError** error})'
+  'setMetadata:forPersistentStore:':
+    'prefix': 'setMetadata:forPersistentStore:'
+    'body': 'setMetadata(${1:NSDictionary* metadata}, forPersistentStore:${2:NSPersistentStore* store})'
+  'NSPersistentStoreCoordinator.setMetadata:forPersistentStoreOfType:URL:error:':
+    'prefix': 'setMetadata:forPersistentStoreOfType:URL:error:'
+    'body': 'NSPersistentStoreCoordinator.setMetadata(${1:NSDictionary* metadata}, forPersistentStoreOfType:${2:NSString* storeType}, URL:${3:NSURL* url}, error:${4:NSError** error})'
+  'setURL:forPersistentStore:':
+    'prefix': 'setURL:forPersistentStore:'
+    'body': 'setURL(${1:NSURL* url}, forPersistentStore:${2:NSPersistentStore* store})'
+  'tryLock':
+    'prefix': 'tryLock'
+    'body': 'tryLock()'
+  'unlock':
+    'prefix': 'unlock'
+    'body': 'unlock()'
+  'affectedStores':
+    'prefix': 'affectedStores'
+    'body': 'affectedStores()'
+  'requestType':
+    'prefix': 'requestType'
+    'body': 'requestType()'
+  'setAffectedStores:':
+    'prefix': 'setAffectedStores:'
+    'body': 'setAffectedStores(${1:NSArray* stores})'
+  'entity':
+    'prefix': 'entity'
+    'body': 'entity()'
+  'isIndexed':
+    'prefix': 'isIndexed'
+    'body': 'isIndexed()'
+  'isIndexedBySpotlight':
+    'prefix': 'isIndexedBySpotlight'
+    'body': 'isIndexedBySpotlight()'
+  'isOptional':
+    'prefix': 'isOptional'
+    'body': 'isOptional()'
+  'isStoredInExternalRecord':
+    'prefix': 'isStoredInExternalRecord'
+    'body': 'isStoredInExternalRecord()'
+  'isTransient':
+    'prefix': 'isTransient'
+    'body': 'isTransient()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'renamingIdentifier':
+    'prefix': 'renamingIdentifier'
+    'body': 'renamingIdentifier()'
+  'setIndexed:':
+    'prefix': 'setIndexed:'
+    'body': 'setIndexed(${1:BOOL flag})'
+  'setIndexedBySpotlight:':
+    'prefix': 'setIndexedBySpotlight:'
+    'body': 'setIndexedBySpotlight(${1:BOOL flag})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setOptional:':
+    'prefix': 'setOptional:'
+    'body': 'setOptional(${1:BOOL flag})'
+  'setRenamingIdentifier:':
+    'prefix': 'setRenamingIdentifier:'
+    'body': 'setRenamingIdentifier(${1:NSString* value})'
+  'setStoredInExternalRecord:':
+    'prefix': 'setStoredInExternalRecord:'
+    'body': 'setStoredInExternalRecord(${1:BOOL flag})'
+  'setTransient:':
+    'prefix': 'setTransient:'
+    'body': 'setTransient(${1:BOOL flag})'
+  'setUserInfo:':
+    'prefix': 'setUserInfo:'
+    'body': 'setUserInfo(${1:NSDictionary* dictionary})'
+  'setValidationPredicates:withValidationWarnings:':
+    'prefix': 'setValidationPredicates:withValidationWarnings:'
+    'body': 'setValidationPredicates(${1:NSArray* validationPredicates}, withValidationWarnings:${2:NSArray* validationWarnings})'
+  'setVersionHashModifier:':
+    'prefix': 'setVersionHashModifier:'
+    'body': 'setVersionHashModifier(${1:NSString* modifierString})'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'validationPredicates':
+    'prefix': 'validationPredicates'
+    'body': 'validationPredicates()'
+  'validationWarnings':
+    'prefix': 'validationWarnings'
+    'body': 'validationWarnings()'
+  'versionHash':
+    'prefix': 'versionHash'
+    'body': 'versionHash()'
+  'versionHashModifier':
+    'prefix': 'versionHashModifier'
+    'body': 'versionHashModifier()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setUserInfo:':
+    'prefix': 'setUserInfo:'
+    'body': 'setUserInfo(${1:NSDictionary* userInfo})'
+  'setValueExpression:':
+    'prefix': 'setValueExpression:'
+    'body': 'setValueExpression(${1:NSExpression* expression})'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'valueExpression':
+    'prefix': 'valueExpression'
+    'body': 'valueExpression()'
+  'deleteRule':
+    'prefix': 'deleteRule'
+    'body': 'deleteRule()'
+  'destinationEntity':
+    'prefix': 'destinationEntity'
+    'body': 'destinationEntity()'
+  'inverseRelationship':
+    'prefix': 'inverseRelationship'
+    'body': 'inverseRelationship()'
+  'isOrdered':
+    'prefix': 'isOrdered'
+    'body': 'isOrdered()'
+  'isToMany':
+    'prefix': 'isToMany'
+    'body': 'isToMany()'
+  'maxCount':
+    'prefix': 'maxCount'
+    'body': 'maxCount()'
+  'minCount':
+    'prefix': 'minCount'
+    'body': 'minCount()'
+  'setDeleteRule:':
+    'prefix': 'setDeleteRule:'
+    'body': 'setDeleteRule(${1:NSDeleteRule rule})'
+  'setDestinationEntity:':
+    'prefix': 'setDestinationEntity:'
+    'body': 'setDestinationEntity(${1:NSEntityDescription* entity})'
+  'setInverseRelationship:':
+    'prefix': 'setInverseRelationship:'
+    'body': 'setInverseRelationship(${1:NSRelationshipDescription* relationship})'
+  'setMaxCount:':
+    'prefix': 'setMaxCount:'
+    'body': 'setMaxCount(${1:NSUInteger maxCount})'
+  'setMinCount:':
+    'prefix': 'setMinCount:'
+    'body': 'setMinCount(${1:NSUInteger minCount})'
+  'setOrdered:':
+    'prefix': 'setOrdered:'
+    'body': 'setOrdered(${1:BOOL flag})'
+  'versionHash':
+    'prefix': 'versionHash'
+    'body': 'versionHash()'
+  'deletedObjects':
+    'prefix': 'deletedObjects'
+    'body': 'deletedObjects()'
+  'initWithInsertedObjects:updatedObjects:deletedObjects:lockedObjects:':
+    'prefix': 'initWithInsertedObjects:updatedObjects:deletedObjects:lockedObjects:'
+    'body': 'initWithInsertedObjects(${1:NSSet* insertedObjects}, updatedObjects:${2:NSSet* updatedObjects}, deletedObjects:${3:NSSet* deletedObjects}, lockedObjects:${4:NSSet* lockedObjects})'
+  'insertedObjects':
+    'prefix': 'insertedObjects'
+    'body': 'insertedObjects()'
+  'lockedObjects':
+    'prefix': 'lockedObjects'
+    'body': 'lockedObjects()'
+  'updatedObjects':
+    'prefix': 'updatedObjects'
+    'body': 'updatedObjects()'
+  'controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:':
+    'prefix': 'controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:'
+    'body': 'controller(${1:NSFetchedResultsController* controller}, didChangeObject:${2:id anObject}, atIndexPath:${3:NSIndexPath* indexPath}, forChangeType:${4:NSFetchedResultsChangeType type}, newIndexPath:${5:NSIndexPath* newIndexPath})'
+  'controller:didChangeSection:atIndex:forChangeType:':
+    'prefix': 'controller:didChangeSection:atIndex:forChangeType:'
+    'body': 'controller(${1:NSFetchedResultsController* controller}, didChangeSection:${2:id sectionInfo}, atIndex:${3:NSUInteger sectionIndex}, forChangeType:${4:NSFetchedResultsChangeType type})'
+  'controller:sectionIndexTitleForSectionName:':
+    'prefix': 'controller:sectionIndexTitleForSectionName:'
+    'body': 'controller(${1:NSFetchedResultsController* controller}, sectionIndexTitleForSectionName:${2:NSString* sectionName})'
+  'controllerDidChangeContent:':
+    'prefix': 'controllerDidChangeContent:'
+    'body': 'controllerDidChangeContent(${1:NSFetchedResultsController* controller})'
+  'controllerWillChangeContent:':
+    'prefix': 'controllerWillChangeContent:'
+    'body': 'controllerWillChangeContent(${1:NSFetchedResultsController* controller})'
+  'indexTitle':
+    'prefix': 'indexTitle'
+    'body': 'indexTitle()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'numberOfObjects':
+    'prefix': 'numberOfObjects'
+    'body': 'numberOfObjects()'
+  'objects':
+    'prefix': 'objects'
+    'body': 'objects()'

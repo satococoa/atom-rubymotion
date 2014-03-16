@@ -1,0 +1,622 @@
+'.source.rubymotion':
+  'CIDetectorAccuracy (NSString*)':
+    'prefix': 'CIDetectorAccuracy'
+    'body': 'CIDetectorAccuracy'
+  'CIDetectorAccuracyHigh (NSString*)':
+    'prefix': 'CIDetectorAccuracyHigh'
+    'body': 'CIDetectorAccuracyHigh'
+  'CIDetectorAccuracyLow (NSString*)':
+    'prefix': 'CIDetectorAccuracyLow'
+    'body': 'CIDetectorAccuracyLow'
+  'CIDetectorEyeBlink (NSString*)':
+    'prefix': 'CIDetectorEyeBlink'
+    'body': 'CIDetectorEyeBlink'
+  'CIDetectorImageOrientation (NSString*)':
+    'prefix': 'CIDetectorImageOrientation'
+    'body': 'CIDetectorImageOrientation'
+  'CIDetectorMinFeatureSize (NSString*)':
+    'prefix': 'CIDetectorMinFeatureSize'
+    'body': 'CIDetectorMinFeatureSize'
+  'CIDetectorSmile (NSString*)':
+    'prefix': 'CIDetectorSmile'
+    'body': 'CIDetectorSmile'
+  'CIDetectorTracking (NSString*)':
+    'prefix': 'CIDetectorTracking'
+    'body': 'CIDetectorTracking'
+  'CIDetectorTypeFace (NSString*)':
+    'prefix': 'CIDetectorTypeFace'
+    'body': 'CIDetectorTypeFace'
+  'CIFeatureTypeFace (NSString*)':
+    'prefix': 'CIFeatureTypeFace'
+    'body': 'CIFeatureTypeFace'
+  'kCIAttributeClass (NSString*)':
+    'prefix': 'kCIAttributeClass'
+    'body': 'KCIAttributeClass'
+  'kCIAttributeDefault (NSString*)':
+    'prefix': 'kCIAttributeDefault'
+    'body': 'KCIAttributeDefault'
+  'kCIAttributeDisplayName (NSString*)':
+    'prefix': 'kCIAttributeDisplayName'
+    'body': 'KCIAttributeDisplayName'
+  'kCIAttributeFilterCategories (NSString*)':
+    'prefix': 'kCIAttributeFilterCategories'
+    'body': 'KCIAttributeFilterCategories'
+  'kCIAttributeFilterDisplayName (NSString*)':
+    'prefix': 'kCIAttributeFilterDisplayName'
+    'body': 'KCIAttributeFilterDisplayName'
+  'kCIAttributeFilterName (NSString*)':
+    'prefix': 'kCIAttributeFilterName'
+    'body': 'KCIAttributeFilterName'
+  'kCIAttributeIdentity (NSString*)':
+    'prefix': 'kCIAttributeIdentity'
+    'body': 'KCIAttributeIdentity'
+  'kCIAttributeMax (NSString*)':
+    'prefix': 'kCIAttributeMax'
+    'body': 'KCIAttributeMax'
+  'kCIAttributeMin (NSString*)':
+    'prefix': 'kCIAttributeMin'
+    'body': 'KCIAttributeMin'
+  'kCIAttributeName (NSString*)':
+    'prefix': 'kCIAttributeName'
+    'body': 'KCIAttributeName'
+  'kCIAttributeSliderMax (NSString*)':
+    'prefix': 'kCIAttributeSliderMax'
+    'body': 'KCIAttributeSliderMax'
+  'kCIAttributeSliderMin (NSString*)':
+    'prefix': 'kCIAttributeSliderMin'
+    'body': 'KCIAttributeSliderMin'
+  'kCIAttributeType (NSString*)':
+    'prefix': 'kCIAttributeType'
+    'body': 'KCIAttributeType'
+  'kCIAttributeTypeAngle (NSString*)':
+    'prefix': 'kCIAttributeTypeAngle'
+    'body': 'KCIAttributeTypeAngle'
+  'kCIAttributeTypeBoolean (NSString*)':
+    'prefix': 'kCIAttributeTypeBoolean'
+    'body': 'KCIAttributeTypeBoolean'
+  'kCIAttributeTypeColor (NSString*)':
+    'prefix': 'kCIAttributeTypeColor'
+    'body': 'KCIAttributeTypeColor'
+  'kCIAttributeTypeCount (NSString*)':
+    'prefix': 'kCIAttributeTypeCount'
+    'body': 'KCIAttributeTypeCount'
+  'kCIAttributeTypeDistance (NSString*)':
+    'prefix': 'kCIAttributeTypeDistance'
+    'body': 'KCIAttributeTypeDistance'
+  'kCIAttributeTypeImage (NSString*)':
+    'prefix': 'kCIAttributeTypeImage'
+    'body': 'KCIAttributeTypeImage'
+  'kCIAttributeTypeInteger (NSString*)':
+    'prefix': 'kCIAttributeTypeInteger'
+    'body': 'KCIAttributeTypeInteger'
+  'kCIAttributeTypeOffset (NSString*)':
+    'prefix': 'kCIAttributeTypeOffset'
+    'body': 'KCIAttributeTypeOffset'
+  'kCIAttributeTypePosition (NSString*)':
+    'prefix': 'kCIAttributeTypePosition'
+    'body': 'KCIAttributeTypePosition'
+  'kCIAttributeTypePosition3 (NSString*)':
+    'prefix': 'kCIAttributeTypePosition3'
+    'body': 'KCIAttributeTypePosition3'
+  'kCIAttributeTypeRectangle (NSString*)':
+    'prefix': 'kCIAttributeTypeRectangle'
+    'body': 'KCIAttributeTypeRectangle'
+  'kCIAttributeTypeScalar (NSString*)':
+    'prefix': 'kCIAttributeTypeScalar'
+    'body': 'KCIAttributeTypeScalar'
+  'kCIAttributeTypeTime (NSString*)':
+    'prefix': 'kCIAttributeTypeTime'
+    'body': 'KCIAttributeTypeTime'
+  'kCIAttributeTypeTransform (NSString*)':
+    'prefix': 'kCIAttributeTypeTransform'
+    'body': 'KCIAttributeTypeTransform'
+  'kCICategoryBlur (NSString*)':
+    'prefix': 'kCICategoryBlur'
+    'body': 'KCICategoryBlur'
+  'kCICategoryBuiltIn (NSString*)':
+    'prefix': 'kCICategoryBuiltIn'
+    'body': 'KCICategoryBuiltIn'
+  'kCICategoryColorAdjustment (NSString*)':
+    'prefix': 'kCICategoryColorAdjustment'
+    'body': 'KCICategoryColorAdjustment'
+  'kCICategoryColorEffect (NSString*)':
+    'prefix': 'kCICategoryColorEffect'
+    'body': 'KCICategoryColorEffect'
+  'kCICategoryCompositeOperation (NSString*)':
+    'prefix': 'kCICategoryCompositeOperation'
+    'body': 'KCICategoryCompositeOperation'
+  'kCICategoryDistortionEffect (NSString*)':
+    'prefix': 'kCICategoryDistortionEffect'
+    'body': 'KCICategoryDistortionEffect'
+  'kCICategoryGenerator (NSString*)':
+    'prefix': 'kCICategoryGenerator'
+    'body': 'KCICategoryGenerator'
+  'kCICategoryGeometryAdjustment (NSString*)':
+    'prefix': 'kCICategoryGeometryAdjustment'
+    'body': 'KCICategoryGeometryAdjustment'
+  'kCICategoryGradient (NSString*)':
+    'prefix': 'kCICategoryGradient'
+    'body': 'KCICategoryGradient'
+  'kCICategoryHalftoneEffect (NSString*)':
+    'prefix': 'kCICategoryHalftoneEffect'
+    'body': 'KCICategoryHalftoneEffect'
+  'kCICategoryHighDynamicRange (NSString*)':
+    'prefix': 'kCICategoryHighDynamicRange'
+    'body': 'KCICategoryHighDynamicRange'
+  'kCICategoryInterlaced (NSString*)':
+    'prefix': 'kCICategoryInterlaced'
+    'body': 'KCICategoryInterlaced'
+  'kCICategoryNonSquarePixels (NSString*)':
+    'prefix': 'kCICategoryNonSquarePixels'
+    'body': 'KCICategoryNonSquarePixels'
+  'kCICategoryReduction (NSString*)':
+    'prefix': 'kCICategoryReduction'
+    'body': 'KCICategoryReduction'
+  'kCICategorySharpen (NSString*)':
+    'prefix': 'kCICategorySharpen'
+    'body': 'KCICategorySharpen'
+  'kCICategoryStillImage (NSString*)':
+    'prefix': 'kCICategoryStillImage'
+    'body': 'KCICategoryStillImage'
+  'kCICategoryStylize (NSString*)':
+    'prefix': 'kCICategoryStylize'
+    'body': 'KCICategoryStylize'
+  'kCICategoryTileEffect (NSString*)':
+    'prefix': 'kCICategoryTileEffect'
+    'body': 'KCICategoryTileEffect'
+  'kCICategoryTransition (NSString*)':
+    'prefix': 'kCICategoryTransition'
+    'body': 'KCICategoryTransition'
+  'kCICategoryVideo (NSString*)':
+    'prefix': 'kCICategoryVideo'
+    'body': 'KCICategoryVideo'
+  'kCIContextOutputColorSpace (NSString*)':
+    'prefix': 'kCIContextOutputColorSpace'
+    'body': 'KCIContextOutputColorSpace'
+  'kCIContextUseSoftwareRenderer (NSString*)':
+    'prefix': 'kCIContextUseSoftwareRenderer'
+    'body': 'KCIContextUseSoftwareRenderer'
+  'kCIContextWorkingColorSpace (NSString*)':
+    'prefix': 'kCIContextWorkingColorSpace'
+    'body': 'KCIContextWorkingColorSpace'
+  'kCIFormatARGB8 (CIFormat)':
+    'prefix': 'kCIFormatARGB8'
+    'body': 'KCIFormatARGB8'
+  'kCIFormatBGRA8 (CIFormat)':
+    'prefix': 'kCIFormatBGRA8'
+    'body': 'KCIFormatBGRA8'
+  'kCIFormatRGBA8 (CIFormat)':
+    'prefix': 'kCIFormatRGBA8'
+    'body': 'KCIFormatRGBA8'
+  'kCIFormatRGBAh (CIFormat)':
+    'prefix': 'kCIFormatRGBAh'
+    'body': 'KCIFormatRGBAh'
+  'kCIImageAutoAdjustEnhance (NSString*)':
+    'prefix': 'kCIImageAutoAdjustEnhance'
+    'body': 'KCIImageAutoAdjustEnhance'
+  'kCIImageAutoAdjustFeatures (NSString*)':
+    'prefix': 'kCIImageAutoAdjustFeatures'
+    'body': 'KCIImageAutoAdjustFeatures'
+  'kCIImageAutoAdjustRedEye (NSString*)':
+    'prefix': 'kCIImageAutoAdjustRedEye'
+    'body': 'KCIImageAutoAdjustRedEye'
+  'kCIImageColorSpace (NSString*)':
+    'prefix': 'kCIImageColorSpace'
+    'body': 'KCIImageColorSpace'
+  'kCIImageProperties (NSString*)':
+    'prefix': 'kCIImageProperties'
+    'body': 'KCIImageProperties'
+  'kCIInputAngleKey (NSString*)':
+    'prefix': 'kCIInputAngleKey'
+    'body': 'KCIInputAngleKey'
+  'kCIInputAspectRatioKey (NSString*)':
+    'prefix': 'kCIInputAspectRatioKey'
+    'body': 'KCIInputAspectRatioKey'
+  'kCIInputBackgroundImageKey (NSString*)':
+    'prefix': 'kCIInputBackgroundImageKey'
+    'body': 'KCIInputBackgroundImageKey'
+  'kCIInputBrightnessKey (NSString*)':
+    'prefix': 'kCIInputBrightnessKey'
+    'body': 'KCIInputBrightnessKey'
+  'kCIInputCenterKey (NSString*)':
+    'prefix': 'kCIInputCenterKey'
+    'body': 'KCIInputCenterKey'
+  'kCIInputColorKey (NSString*)':
+    'prefix': 'kCIInputColorKey'
+    'body': 'KCIInputColorKey'
+  'kCIInputContrastKey (NSString*)':
+    'prefix': 'kCIInputContrastKey'
+    'body': 'KCIInputContrastKey'
+  'kCIInputEVKey (NSString*)':
+    'prefix': 'kCIInputEVKey'
+    'body': 'KCIInputEVKey'
+  'kCIInputExtentKey (NSString*)':
+    'prefix': 'kCIInputExtentKey'
+    'body': 'KCIInputExtentKey'
+  'kCIInputImageKey (NSString*)':
+    'prefix': 'kCIInputImageKey'
+    'body': 'KCIInputImageKey'
+  'kCIInputIntensityKey (NSString*)':
+    'prefix': 'kCIInputIntensityKey'
+    'body': 'KCIInputIntensityKey'
+  'kCIInputMaskImageKey (NSString*)':
+    'prefix': 'kCIInputMaskImageKey'
+    'body': 'KCIInputMaskImageKey'
+  'kCIInputRadiusKey (NSString*)':
+    'prefix': 'kCIInputRadiusKey'
+    'body': 'KCIInputRadiusKey'
+  'kCIInputSaturationKey (NSString*)':
+    'prefix': 'kCIInputSaturationKey'
+    'body': 'KCIInputSaturationKey'
+  'kCIInputScaleKey (NSString*)':
+    'prefix': 'kCIInputScaleKey'
+    'body': 'KCIInputScaleKey'
+  'kCIInputSharpnessKey (NSString*)':
+    'prefix': 'kCIInputSharpnessKey'
+    'body': 'KCIInputSharpnessKey'
+  'kCIInputTargetImageKey (NSString*)':
+    'prefix': 'kCIInputTargetImageKey'
+    'body': 'KCIInputTargetImageKey'
+  'kCIInputTimeKey (NSString*)':
+    'prefix': 'kCIInputTimeKey'
+    'body': 'KCIInputTimeKey'
+  'kCIInputTransformKey (NSString*)':
+    'prefix': 'kCIInputTransformKey'
+    'body': 'KCIInputTransformKey'
+  'kCIInputVersionKey (NSString*)':
+    'prefix': 'kCIInputVersionKey'
+    'body': 'KCIInputVersionKey'
+  'kCIInputWidthKey (NSString*)':
+    'prefix': 'kCIInputWidthKey'
+    'body': 'KCIInputWidthKey'
+  'kCIOutputImageKey (NSString*)':
+    'prefix': 'kCIOutputImageKey'
+    'body': 'KCIOutputImageKey'
+  'alpha':
+    'prefix': 'alpha'
+    'body': 'alpha()'
+  'blue':
+    'prefix': 'blue'
+    'body': 'blue()'
+  'colorSpace':
+    'prefix': 'colorSpace'
+    'body': 'colorSpace()'
+  'CIColor.colorWithCGColor:':
+    'prefix': 'colorWithCGColor:'
+    'body': 'CIColor.colorWithCGColor(${1:CGColorRef c})'
+  'CIColor.colorWithRed:green:blue:':
+    'prefix': 'colorWithRed:green:blue:'
+    'body': 'CIColor.colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b})'
+  'CIColor.colorWithRed:green:blue:alpha:':
+    'prefix': 'colorWithRed:green:blue:alpha:'
+    'body': 'CIColor.colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b}, alpha:${4:CGFloat a})'
+  'CIColor.colorWithString:':
+    'prefix': 'colorWithString:'
+    'body': 'CIColor.colorWithString(${1:NSString* representation})'
+  'components':
+    'prefix': 'components'
+    'body': 'components()'
+  'green':
+    'prefix': 'green'
+    'body': 'green()'
+  'initWithCGColor:':
+    'prefix': 'initWithCGColor:'
+    'body': 'initWithCGColor(${1:CGColorRef c})'
+  'numberOfComponents':
+    'prefix': 'numberOfComponents'
+    'body': 'numberOfComponents()'
+  'red':
+    'prefix': 'red'
+    'body': 'red()'
+  'stringRepresentation':
+    'prefix': 'stringRepresentation'
+    'body': 'stringRepresentation()'
+  'CIContext.contextWithEAGLContext:':
+    'prefix': 'contextWithEAGLContext:'
+    'body': 'CIContext.contextWithEAGLContext(${1:EAGLContext* eaglContext})'
+  'CIContext.contextWithEAGLContext:options:':
+    'prefix': 'contextWithEAGLContext:options:'
+    'body': 'CIContext.contextWithEAGLContext(${1:EAGLContext* eaglContext}, options:${2:NSDictionary* dict})'
+  'CIContext.contextWithOptions:':
+    'prefix': 'contextWithOptions:'
+    'body': 'CIContext.contextWithOptions(${1:NSDictionary* dict})'
+  'createCGImage:fromRect:':
+    'prefix': 'createCGImage:fromRect:'
+    'body': 'createCGImage(${1:CIImage* im}, fromRect:${2:CGRect r})'
+  'createCGImage:fromRect:format:colorSpace:':
+    'prefix': 'createCGImage:fromRect:format:colorSpace:'
+    'body': 'createCGImage(${1:CIImage* im}, fromRect:${2:CGRect r}, format:${3:CIFormat f}, colorSpace:${4:CGColorSpaceRef cs})'
+  'drawImage:atPoint:fromRect:':
+    'prefix': 'drawImage:atPoint:fromRect:'
+    'body': 'drawImage(${1:CIImage* im}, atPoint:${2:CGPoint p}, fromRect:${3:CGRect src})'
+  'drawImage:inRect:fromRect:':
+    'prefix': 'drawImage:inRect:fromRect:'
+    'body': 'drawImage(${1:CIImage* im}, inRect:${2:CGRect dest}, fromRect:${3:CGRect src})'
+  'inputImageMaximumSize':
+    'prefix': 'inputImageMaximumSize'
+    'body': 'inputImageMaximumSize()'
+  'outputImageMaximumSize':
+    'prefix': 'outputImageMaximumSize'
+    'body': 'outputImageMaximumSize()'
+  'render:toBitmap:rowBytes:bounds:format:colorSpace:':
+    'prefix': 'render:toBitmap:rowBytes:bounds:format:colorSpace:'
+    'body': 'render(${1:CIImage* im}, toBitmap:${2:void* data}, rowBytes:${3:ptrdiff_t rb}, bounds:${4:CGRect r}, format:${5:CIFormat f}, colorSpace:${6:CGColorSpaceRef cs})'
+  'render:toCVPixelBuffer:':
+    'prefix': 'render:toCVPixelBuffer:'
+    'body': 'render(${1:CIImage* image}, toCVPixelBuffer:${2:CVPixelBufferRef buffer})'
+  'render:toCVPixelBuffer:bounds:colorSpace:':
+    'prefix': 'render:toCVPixelBuffer:bounds:colorSpace:'
+    'body': 'render(${1:CIImage* image}, toCVPixelBuffer:${2:CVPixelBufferRef buffer}, bounds:${3:CGRect r}, colorSpace:${4:CGColorSpaceRef cs})'
+  'CIDetector.detectorOfType:context:options:':
+    'prefix': 'detectorOfType:context:options:'
+    'body': 'CIDetector.detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
+  'featuresInImage:':
+    'prefix': 'featuresInImage:'
+    'body': 'featuresInImage(${1:CIImage* image})'
+  'featuresInImage:options:':
+    'prefix': 'featuresInImage:options:'
+    'body': 'featuresInImage(${1:CIImage* image}, options:${2:NSDictionary* options})'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'faceAngle':
+    'prefix': 'faceAngle'
+    'body': 'faceAngle()'
+  'hasFaceAngle':
+    'prefix': 'hasFaceAngle'
+    'body': 'hasFaceAngle()'
+  'hasLeftEyePosition':
+    'prefix': 'hasLeftEyePosition'
+    'body': 'hasLeftEyePosition()'
+  'hasMouthPosition':
+    'prefix': 'hasMouthPosition'
+    'body': 'hasMouthPosition()'
+  'hasRightEyePosition':
+    'prefix': 'hasRightEyePosition'
+    'body': 'hasRightEyePosition()'
+  'hasSmile':
+    'prefix': 'hasSmile'
+    'body': 'hasSmile()'
+  'hasTrackingFrameCount':
+    'prefix': 'hasTrackingFrameCount'
+    'body': 'hasTrackingFrameCount()'
+  'hasTrackingID':
+    'prefix': 'hasTrackingID'
+    'body': 'hasTrackingID()'
+  'leftEyeClosed':
+    'prefix': 'leftEyeClosed'
+    'body': 'leftEyeClosed()'
+  'leftEyePosition':
+    'prefix': 'leftEyePosition'
+    'body': 'leftEyePosition()'
+  'mouthPosition':
+    'prefix': 'mouthPosition'
+    'body': 'mouthPosition()'
+  'rightEyeClosed':
+    'prefix': 'rightEyeClosed'
+    'body': 'rightEyeClosed()'
+  'rightEyePosition':
+    'prefix': 'rightEyePosition'
+    'body': 'rightEyePosition()'
+  'trackingFrameCount':
+    'prefix': 'trackingFrameCount'
+    'body': 'trackingFrameCount()'
+  'trackingID':
+    'prefix': 'trackingID'
+    'body': 'trackingID()'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'attributes':
+    'prefix': 'attributes'
+    'body': 'attributes()'
+  'CIFilter.filterArrayFromSerializedXMP:inputImageExtent:error:':
+    'prefix': 'filterArrayFromSerializedXMP:inputImageExtent:error:'
+    'body': 'CIFilter.filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
+  'CIFilter.filterNamesInCategories:':
+    'prefix': 'filterNamesInCategories:'
+    'body': 'CIFilter.filterNamesInCategories(${1:NSArray* categories})'
+  'CIFilter.filterNamesInCategory:':
+    'prefix': 'filterNamesInCategory:'
+    'body': 'CIFilter.filterNamesInCategory(${1:NSString* category})'
+  'CIFilter.filterWithName:':
+    'prefix': 'filterWithName:'
+    'body': 'CIFilter.filterWithName(${1:NSString* name})'
+  'CIFilter.filterWithName:keysAndValues:':
+    'prefix': 'filterWithName:keysAndValues:'
+    'body': 'CIFilter.filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
+  'inputKeys':
+    'prefix': 'inputKeys'
+    'body': 'inputKeys()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'outputImage':
+    'prefix': 'outputImage'
+    'body': 'outputImage()'
+  'outputKeys':
+    'prefix': 'outputKeys'
+    'body': 'outputKeys()'
+  'CIFilter.serializedXMPFromFilters:inputImageExtent:':
+    'prefix': 'serializedXMPFromFilters:inputImageExtent:'
+    'body': 'CIFilter.serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
+  'setDefaults':
+    'prefix': 'setDefaults'
+    'body': 'setDefaults()'
+  'autoAdjustmentFilters':
+    'prefix': 'autoAdjustmentFilters'
+    'body': 'autoAdjustmentFilters()'
+  'autoAdjustmentFiltersWithOptions:':
+    'prefix': 'autoAdjustmentFiltersWithOptions:'
+    'body': 'autoAdjustmentFiltersWithOptions(${1:NSDictionary* dict})'
+  'CIImage.emptyImage':
+    'prefix': 'emptyImage'
+    'body': 'CIImage.emptyImage()'
+  'extent':
+    'prefix': 'extent'
+    'body': 'extent()'
+  'imageByApplyingTransform:':
+    'prefix': 'imageByApplyingTransform:'
+    'body': 'imageByApplyingTransform(${1:CGAffineTransform matrix})'
+  'imageByCroppingToRect:':
+    'prefix': 'imageByCroppingToRect:'
+    'body': 'imageByCroppingToRect(${1:CGRect r})'
+  'CIImage.imageWithBitmapData:bytesPerRow:size:format:colorSpace:':
+    'prefix': 'imageWithBitmapData:bytesPerRow:size:format:colorSpace:'
+    'body': 'CIImage.imageWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs})'
+  'CIImage.imageWithCGImage:':
+    'prefix': 'imageWithCGImage:'
+    'body': 'CIImage.imageWithCGImage(${1:CGImageRef image})'
+  'CIImage.imageWithCGImage:options:':
+    'prefix': 'imageWithCGImage:options:'
+    'body': 'CIImage.imageWithCGImage(${1:CGImageRef image}, options:${2:NSDictionary* d})'
+  'CIImage.imageWithCVPixelBuffer:':
+    'prefix': 'imageWithCVPixelBuffer:'
+    'body': 'CIImage.imageWithCVPixelBuffer(${1:CVPixelBufferRef buffer})'
+  'CIImage.imageWithCVPixelBuffer:options:':
+    'prefix': 'imageWithCVPixelBuffer:options:'
+    'body': 'CIImage.imageWithCVPixelBuffer(${1:CVPixelBufferRef buffer}, options:${2:NSDictionary* dict})'
+  'CIImage.imageWithColor:':
+    'prefix': 'imageWithColor:'
+    'body': 'CIImage.imageWithColor(${1:CIColor* color})'
+  'CIImage.imageWithContentsOfURL:':
+    'prefix': 'imageWithContentsOfURL:'
+    'body': 'CIImage.imageWithContentsOfURL(${1:NSURL* url})'
+  'CIImage.imageWithContentsOfURL:options:':
+    'prefix': 'imageWithContentsOfURL:options:'
+    'body': 'CIImage.imageWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* d})'
+  'CIImage.imageWithData:':
+    'prefix': 'imageWithData:'
+    'body': 'CIImage.imageWithData(${1:NSData* data})'
+  'CIImage.imageWithData:options:':
+    'prefix': 'imageWithData:options:'
+    'body': 'CIImage.imageWithData(${1:NSData* data}, options:${2:NSDictionary* d})'
+  'CIImage.imageWithTexture:size:flipped:colorSpace:':
+    'prefix': 'imageWithTexture:size:flipped:colorSpace:'
+    'body': 'CIImage.imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
+  'initWithBitmapData:bytesPerRow:size:format:colorSpace:':
+    'prefix': 'initWithBitmapData:bytesPerRow:size:format:colorSpace:'
+    'body': 'initWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef c})'
+  'initWithCGImage:':
+    'prefix': 'initWithCGImage:'
+    'body': 'initWithCGImage(${1:CGImageRef image})'
+  'initWithCGImage:options:':
+    'prefix': 'initWithCGImage:options:'
+    'body': 'initWithCGImage(${1:CGImageRef image}, options:${2:NSDictionary* d})'
+  'initWithCVPixelBuffer:':
+    'prefix': 'initWithCVPixelBuffer:'
+    'body': 'initWithCVPixelBuffer(${1:CVPixelBufferRef buffer})'
+  'initWithCVPixelBuffer:options:':
+    'prefix': 'initWithCVPixelBuffer:options:'
+    'body': 'initWithCVPixelBuffer(${1:CVPixelBufferRef buffer}, options:${2:NSDictionary* dict})'
+  'initWithColor:':
+    'prefix': 'initWithColor:'
+    'body': 'initWithColor(${1:CIColor* color})'
+  'initWithContentsOfURL:':
+    'prefix': 'initWithContentsOfURL:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url})'
+  'initWithContentsOfURL:options:':
+    'prefix': 'initWithContentsOfURL:options:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* d})'
+  'initWithData:':
+    'prefix': 'initWithData:'
+    'body': 'initWithData(${1:NSData* data})'
+  'initWithData:options:':
+    'prefix': 'initWithData:options:'
+    'body': 'initWithData(${1:NSData* data}, options:${2:NSDictionary* d})'
+  'initWithTexture:size:flipped:colorSpace:':
+    'prefix': 'initWithTexture:size:flipped:colorSpace:'
+    'body': 'initWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'regionOfInterestForImage:inRect:':
+    'prefix': 'regionOfInterestForImage:inRect:'
+    'body': 'regionOfInterestForImage(${1:CIImage* im}, inRect:${2:CGRect r})'
+  'CGAffineTransformValue':
+    'prefix': 'CGAffineTransformValue'
+    'body': 'CGAffineTransformValue()'
+  'CGPointValue':
+    'prefix': 'CGPointValue'
+    'body': 'CGPointValue()'
+  'CGRectValue':
+    'prefix': 'CGRectValue'
+    'body': 'CGRectValue()'
+  'W':
+    'prefix': 'W'
+    'body': 'W()'
+  'X':
+    'prefix': 'X'
+    'body': 'X()'
+  'Y':
+    'prefix': 'Y'
+    'body': 'Y()'
+  'Z':
+    'prefix': 'Z'
+    'body': 'Z()'
+  'count':
+    'prefix': 'count'
+    'body': 'count()'
+  'initWithCGAffineTransform:':
+    'prefix': 'initWithCGAffineTransform:'
+    'body': 'initWithCGAffineTransform(${1:CGAffineTransform r})'
+  'initWithCGPoint:':
+    'prefix': 'initWithCGPoint:'
+    'body': 'initWithCGPoint(${1:CGPoint p})'
+  'initWithCGRect:':
+    'prefix': 'initWithCGRect:'
+    'body': 'initWithCGRect(${1:CGRect r})'
+  'initWithString:':
+    'prefix': 'initWithString:'
+    'body': 'initWithString(${1:NSString* representation})'
+  'initWithValues:count:':
+    'prefix': 'initWithValues:count:'
+    'body': 'initWithValues(${1:CGFloat* values}, count:${2:size_t count})'
+  'initWithX:':
+    'prefix': 'initWithX:'
+    'body': 'initWithX(${1:CGFloat x})'
+  'initWithX:Y:':
+    'prefix': 'initWithX:Y:'
+    'body': 'initWithX(${1:CGFloat x}, Y:${2:CGFloat y})'
+  'initWithX:Y:Z:':
+    'prefix': 'initWithX:Y:Z:'
+    'body': 'initWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z})'
+  'initWithX:Y:Z:W:':
+    'prefix': 'initWithX:Y:Z:W:'
+    'body': 'initWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
+  'stringRepresentation':
+    'prefix': 'stringRepresentation'
+    'body': 'stringRepresentation()'
+  'valueAtIndex:':
+    'prefix': 'valueAtIndex:'
+    'body': 'valueAtIndex(${1:size_t index})'
+  'CIVector.vectorWithCGAffineTransform:':
+    'prefix': 'vectorWithCGAffineTransform:'
+    'body': 'CIVector.vectorWithCGAffineTransform(${1:CGAffineTransform t})'
+  'CIVector.vectorWithCGPoint:':
+    'prefix': 'vectorWithCGPoint:'
+    'body': 'CIVector.vectorWithCGPoint(${1:CGPoint p})'
+  'CIVector.vectorWithCGRect:':
+    'prefix': 'vectorWithCGRect:'
+    'body': 'CIVector.vectorWithCGRect(${1:CGRect r})'
+  'CIVector.vectorWithString:':
+    'prefix': 'vectorWithString:'
+    'body': 'CIVector.vectorWithString(${1:NSString* representation})'
+  'CIVector.vectorWithValues:count:':
+    'prefix': 'vectorWithValues:count:'
+    'body': 'CIVector.vectorWithValues(${1:CGFloat* values}, count:${2:size_t count})'
+  'CIVector.vectorWithX:':
+    'prefix': 'vectorWithX:'
+    'body': 'CIVector.vectorWithX(${1:CGFloat x})'
+  'CIVector.vectorWithX:Y:':
+    'prefix': 'vectorWithX:Y:'
+    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y})'
+  'CIVector.vectorWithX:Y:Z:':
+    'prefix': 'vectorWithX:Y:Z:'
+    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z})'
+  'CIVector.vectorWithX:Y:Z:W:':
+    'prefix': 'vectorWithX:Y:Z:W:'
+    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'

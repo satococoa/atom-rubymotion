@@ -1,0 +1,178 @@
+'.source.rubymotion':
+  'ACAccountStoreDidChangeNotification (NSString*)':
+    'prefix': 'ACAccountStoreDidChangeNotification'
+    'body': 'ACAccountStoreDidChangeNotification'
+  'ACAccountTypeIdentifierFacebook (NSString*)':
+    'prefix': 'ACAccountTypeIdentifierFacebook'
+    'body': 'ACAccountTypeIdentifierFacebook'
+  'ACAccountTypeIdentifierSinaWeibo (NSString*)':
+    'prefix': 'ACAccountTypeIdentifierSinaWeibo'
+    'body': 'ACAccountTypeIdentifierSinaWeibo'
+  'ACAccountTypeIdentifierTencentWeibo (NSString*)':
+    'prefix': 'ACAccountTypeIdentifierTencentWeibo'
+    'body': 'ACAccountTypeIdentifierTencentWeibo'
+  'ACAccountTypeIdentifierTwitter (NSString*)':
+    'prefix': 'ACAccountTypeIdentifierTwitter'
+    'body': 'ACAccountTypeIdentifierTwitter'
+  'ACErrorDomain (NSString*)':
+    'prefix': 'ACErrorDomain'
+    'body': 'ACErrorDomain'
+  'ACFacebookAppIdKey (NSString*)':
+    'prefix': 'ACFacebookAppIdKey'
+    'body': 'ACFacebookAppIdKey'
+  'ACFacebookAudienceEveryone (NSString*)':
+    'prefix': 'ACFacebookAudienceEveryone'
+    'body': 'ACFacebookAudienceEveryone'
+  'ACFacebookAudienceFriends (NSString*)':
+    'prefix': 'ACFacebookAudienceFriends'
+    'body': 'ACFacebookAudienceFriends'
+  'ACFacebookAudienceKey (NSString*)':
+    'prefix': 'ACFacebookAudienceKey'
+    'body': 'ACFacebookAudienceKey'
+  'ACFacebookAudienceOnlyMe (NSString*)':
+    'prefix': 'ACFacebookAudienceOnlyMe'
+    'body': 'ACFacebookAudienceOnlyMe'
+  'ACFacebookPermissionsKey (NSString*)':
+    'prefix': 'ACFacebookPermissionsKey'
+    'body': 'ACFacebookPermissionsKey'
+  'ACTencentWeiboAppIdKey (NSString*)':
+    'prefix': 'ACTencentWeiboAppIdKey'
+    'body': 'ACTencentWeiboAppIdKey'
+  'ACAccountCredentialRenewResultFailed (2)':
+    'prefix': 'ACAccountCredentialRenewResultFailed'
+    'body': 'ACAccountCredentialRenewResultFailed'
+  'ACAccountCredentialRenewResultRejected (1)':
+    'prefix': 'ACAccountCredentialRenewResultRejected'
+    'body': 'ACAccountCredentialRenewResultRejected'
+  'ACAccountCredentialRenewResultRenewed (0)':
+    'prefix': 'ACAccountCredentialRenewResultRenewed'
+    'body': 'ACAccountCredentialRenewResultRenewed'
+  'ACErrorAccessDeniedByProtectionPolicy (10)':
+    'prefix': 'ACErrorAccessDeniedByProtectionPolicy'
+    'body': 'ACErrorAccessDeniedByProtectionPolicy'
+  'ACErrorAccessInfoInvalid (8)':
+    'prefix': 'ACErrorAccessInfoInvalid'
+    'body': 'ACErrorAccessInfoInvalid'
+  'ACErrorAccountAlreadyExists (5)':
+    'prefix': 'ACErrorAccountAlreadyExists'
+    'body': 'ACErrorAccountAlreadyExists'
+  'ACErrorAccountAuthenticationFailed (3)':
+    'prefix': 'ACErrorAccountAuthenticationFailed'
+    'body': 'ACErrorAccountAuthenticationFailed'
+  'ACErrorAccountMissingRequiredProperty (2)':
+    'prefix': 'ACErrorAccountMissingRequiredProperty'
+    'body': 'ACErrorAccountMissingRequiredProperty'
+  'ACErrorAccountNotFound (6)':
+    'prefix': 'ACErrorAccountNotFound'
+    'body': 'ACErrorAccountNotFound'
+  'ACErrorAccountTypeInvalid (4)':
+    'prefix': 'ACErrorAccountTypeInvalid'
+    'body': 'ACErrorAccountTypeInvalid'
+  'ACErrorClientPermissionDenied (9)':
+    'prefix': 'ACErrorClientPermissionDenied'
+    'body': 'ACErrorClientPermissionDenied'
+  'ACErrorCredentialNotFound (11)':
+    'prefix': 'ACErrorCredentialNotFound'
+    'body': 'ACErrorCredentialNotFound'
+  'ACErrorFetchCredentialFailed (12)':
+    'prefix': 'ACErrorFetchCredentialFailed'
+    'body': 'ACErrorFetchCredentialFailed'
+  'ACErrorInvalidClientBundleID (16)':
+    'prefix': 'ACErrorInvalidClientBundleID'
+    'body': 'ACErrorInvalidClientBundleID'
+  'ACErrorPermissionDenied (7)':
+    'prefix': 'ACErrorPermissionDenied'
+    'body': 'ACErrorPermissionDenied'
+  'ACErrorRemoveCredentialFailed (14)':
+    'prefix': 'ACErrorRemoveCredentialFailed'
+    'body': 'ACErrorRemoveCredentialFailed'
+  'ACErrorStoreCredentialFailed (13)':
+    'prefix': 'ACErrorStoreCredentialFailed'
+    'body': 'ACErrorStoreCredentialFailed'
+  'ACErrorUnknown (1)':
+    'prefix': 'ACErrorUnknown'
+    'body': 'ACErrorUnknown'
+  'ACErrorUpdatingNonexistentAccount (15)':
+    'prefix': 'ACErrorUpdatingNonexistentAccount'
+    'body': 'ACErrorUpdatingNonexistentAccount'
+  'accountDescription':
+    'prefix': 'accountDescription'
+    'body': 'accountDescription()'
+  'accountType':
+    'prefix': 'accountType'
+    'body': 'accountType()'
+  'credential':
+    'prefix': 'credential'
+    'body': 'credential()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'initWithAccountType:':
+    'prefix': 'initWithAccountType:'
+    'body': 'initWithAccountType(${1:ACAccountType* type})'
+  'setAccountDescription:':
+    'prefix': 'setAccountDescription:'
+    'body': 'setAccountDescription(${1:NSString* accountDescription})'
+  'setAccountType:':
+    'prefix': 'setAccountType:'
+    'body': 'setAccountType(${1:ACAccountType* accountType})'
+  'setCredential:':
+    'prefix': 'setCredential:'
+    'body': 'setCredential(${1:ACAccountCredential* credential})'
+  'setUsername:':
+    'prefix': 'setUsername:'
+    'body': 'setUsername(${1:NSString* username})'
+  'userFullName':
+    'prefix': 'userFullName'
+    'body': 'userFullName()'
+  'username':
+    'prefix': 'username'
+    'body': 'username()'
+  'initWithOAuth2Token:refreshToken:expiryDate:':
+    'prefix': 'initWithOAuth2Token:refreshToken:expiryDate:'
+    'body': 'initWithOAuth2Token(${1:NSString* token}, refreshToken:${2:NSString* refreshToken}, expiryDate:${3:NSDate* expiryDate})'
+  'initWithOAuthToken:tokenSecret:':
+    'prefix': 'initWithOAuthToken:tokenSecret:'
+    'body': 'initWithOAuthToken(${1:NSString* token}, tokenSecret:${2:NSString* secret})'
+  'oauthToken':
+    'prefix': 'oauthToken'
+    'body': 'oauthToken()'
+  'setOauthToken:':
+    'prefix': 'setOauthToken:'
+    'body': 'setOauthToken(${1:NSString* oauthToken})'
+  'accountTypeWithAccountTypeIdentifier:':
+    'prefix': 'accountTypeWithAccountTypeIdentifier:'
+    'body': 'accountTypeWithAccountTypeIdentifier(${1:NSString* typeIdentifier})'
+  'accountWithIdentifier:':
+    'prefix': 'accountWithIdentifier:'
+    'body': 'accountWithIdentifier(${1:NSString* identifier})'
+  'accounts':
+    'prefix': 'accounts'
+    'body': 'accounts()'
+  'accountsWithAccountType:':
+    'prefix': 'accountsWithAccountType:'
+    'body': 'accountsWithAccountType(${1:ACAccountType* accountType})'
+  'removeAccount:withCompletionHandler:':
+    'prefix': 'removeAccount:withCompletionHandler:'
+    'body': 'removeAccount(${1:ACAccount* account}, withCompletionHandler:${2:ACAccountStoreRemoveCompletionHandler completionHandler})'
+  'renewCredentialsForAccount:completion:':
+    'prefix': 'renewCredentialsForAccount:completion:'
+    'body': 'renewCredentialsForAccount(${1:ACAccount* account}, completion:${2:ACAccountStoreCredentialRenewalHandler completionHandler})'
+  'requestAccessToAccountsWithType:options:completion:':
+    'prefix': 'requestAccessToAccountsWithType:options:completion:'
+    'body': 'requestAccessToAccountsWithType(${1:ACAccountType* accountType}, options:${2:NSDictionary* options}, completion:${3:ACAccountStoreRequestAccessCompletionHandler completion})'
+  'requestAccessToAccountsWithType:withCompletionHandler:':
+    'prefix': 'requestAccessToAccountsWithType:withCompletionHandler:'
+    'body': 'requestAccessToAccountsWithType(${1:ACAccountType* accountType}, withCompletionHandler:${2:ACAccountStoreRequestAccessCompletionHandler handler})'
+  'saveAccount:withCompletionHandler:':
+    'prefix': 'saveAccount:withCompletionHandler:'
+    'body': 'saveAccount(${1:ACAccount* account}, withCompletionHandler:${2:ACAccountStoreSaveCompletionHandler completionHandler})'
+  'accessGranted':
+    'prefix': 'accessGranted'
+    'body': 'accessGranted()'
+  'accountTypeDescription':
+    'prefix': 'accountTypeDescription'
+    'body': 'accountTypeDescription()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'

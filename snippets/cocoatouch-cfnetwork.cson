@@ -1,0 +1,1036 @@
+'.source.rubymotion':
+  'kCFDNSServiceFailureKey (CFStringRef)':
+    'prefix': 'kCFDNSServiceFailureKey'
+    'body': 'KCFDNSServiceFailureKey'
+  'kCFErrorDomainCFNetwork (CFStringRef)':
+    'prefix': 'kCFErrorDomainCFNetwork'
+    'body': 'KCFErrorDomainCFNetwork'
+  'kCFErrorDomainWinSock (CFStringRef)':
+    'prefix': 'kCFErrorDomainWinSock'
+    'body': 'KCFErrorDomainWinSock'
+  'kCFFTPResourceGroup (CFStringRef)':
+    'prefix': 'kCFFTPResourceGroup'
+    'body': 'KCFFTPResourceGroup'
+  'kCFFTPResourceLink (CFStringRef)':
+    'prefix': 'kCFFTPResourceLink'
+    'body': 'KCFFTPResourceLink'
+  'kCFFTPResourceModDate (CFStringRef)':
+    'prefix': 'kCFFTPResourceModDate'
+    'body': 'KCFFTPResourceModDate'
+  'kCFFTPResourceMode (CFStringRef)':
+    'prefix': 'kCFFTPResourceMode'
+    'body': 'KCFFTPResourceMode'
+  'kCFFTPResourceName (CFStringRef)':
+    'prefix': 'kCFFTPResourceName'
+    'body': 'KCFFTPResourceName'
+  'kCFFTPResourceOwner (CFStringRef)':
+    'prefix': 'kCFFTPResourceOwner'
+    'body': 'KCFFTPResourceOwner'
+  'kCFFTPResourceSize (CFStringRef)':
+    'prefix': 'kCFFTPResourceSize'
+    'body': 'KCFFTPResourceSize'
+  'kCFFTPResourceType (CFStringRef)':
+    'prefix': 'kCFFTPResourceType'
+    'body': 'KCFFTPResourceType'
+  'kCFFTPStatusCodeKey (CFStringRef)':
+    'prefix': 'kCFFTPStatusCodeKey'
+    'body': 'KCFFTPStatusCodeKey'
+  'kCFGetAddrInfoFailureKey (CFStringRef)':
+    'prefix': 'kCFGetAddrInfoFailureKey'
+    'body': 'KCFGetAddrInfoFailureKey'
+  'kCFHTTPAuthenticationAccountDomain (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationAccountDomain'
+    'body': 'KCFHTTPAuthenticationAccountDomain'
+  'kCFHTTPAuthenticationPassword (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationPassword'
+    'body': 'KCFHTTPAuthenticationPassword'
+  'kCFHTTPAuthenticationSchemeBasic (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeBasic'
+    'body': 'KCFHTTPAuthenticationSchemeBasic'
+  'kCFHTTPAuthenticationSchemeDigest (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeDigest'
+    'body': 'KCFHTTPAuthenticationSchemeDigest'
+  'kCFHTTPAuthenticationSchemeKerberos (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeKerberos'
+    'body': 'KCFHTTPAuthenticationSchemeKerberos'
+  'kCFHTTPAuthenticationSchemeNTLM (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeNTLM'
+    'body': 'KCFHTTPAuthenticationSchemeNTLM'
+  'kCFHTTPAuthenticationSchemeNegotiate (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeNegotiate'
+    'body': 'KCFHTTPAuthenticationSchemeNegotiate'
+  'kCFHTTPAuthenticationSchemeNegotiate2 (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeNegotiate2'
+    'body': 'KCFHTTPAuthenticationSchemeNegotiate2'
+  'kCFHTTPAuthenticationSchemeOAuth1 (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeOAuth1'
+    'body': 'KCFHTTPAuthenticationSchemeOAuth1'
+  'kCFHTTPAuthenticationSchemeXMobileMeAuthToken (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationSchemeXMobileMeAuthToken'
+    'body': 'KCFHTTPAuthenticationSchemeXMobileMeAuthToken'
+  'kCFHTTPAuthenticationUsername (CFStringRef)':
+    'prefix': 'kCFHTTPAuthenticationUsername'
+    'body': 'KCFHTTPAuthenticationUsername'
+  'kCFHTTPVersion1_0 (CFStringRef)':
+    'prefix': 'kCFHTTPVersion1_0'
+    'body': 'KCFHTTPVersion1_0'
+  'kCFHTTPVersion1_1 (CFStringRef)':
+    'prefix': 'kCFHTTPVersion1_1'
+    'body': 'KCFHTTPVersion1_1'
+  'kCFNetworkProxiesHTTPEnable (CFStringRef)':
+    'prefix': 'kCFNetworkProxiesHTTPEnable'
+    'body': 'KCFNetworkProxiesHTTPEnable'
+  'kCFNetworkProxiesHTTPPort (CFStringRef)':
+    'prefix': 'kCFNetworkProxiesHTTPPort'
+    'body': 'KCFNetworkProxiesHTTPPort'
+  'kCFNetworkProxiesHTTPProxy (CFStringRef)':
+    'prefix': 'kCFNetworkProxiesHTTPProxy'
+    'body': 'KCFNetworkProxiesHTTPProxy'
+  'kCFNetworkProxiesProxyAutoConfigEnable (CFStringRef)':
+    'prefix': 'kCFNetworkProxiesProxyAutoConfigEnable'
+    'body': 'KCFNetworkProxiesProxyAutoConfigEnable'
+  'kCFNetworkProxiesProxyAutoConfigJavaScript (CFStringRef)':
+    'prefix': 'kCFNetworkProxiesProxyAutoConfigJavaScript'
+    'body': 'KCFNetworkProxiesProxyAutoConfigJavaScript'
+  'kCFNetworkProxiesProxyAutoConfigURLString (CFStringRef)':
+    'prefix': 'kCFNetworkProxiesProxyAutoConfigURLString'
+    'body': 'KCFNetworkProxiesProxyAutoConfigURLString'
+  'kCFProxyAutoConfigurationHTTPResponseKey (CFStringRef)':
+    'prefix': 'kCFProxyAutoConfigurationHTTPResponseKey'
+    'body': 'KCFProxyAutoConfigurationHTTPResponseKey'
+  'kCFProxyAutoConfigurationJavaScriptKey (CFStringRef)':
+    'prefix': 'kCFProxyAutoConfigurationJavaScriptKey'
+    'body': 'KCFProxyAutoConfigurationJavaScriptKey'
+  'kCFProxyAutoConfigurationURLKey (CFStringRef)':
+    'prefix': 'kCFProxyAutoConfigurationURLKey'
+    'body': 'KCFProxyAutoConfigurationURLKey'
+  'kCFProxyHostNameKey (CFStringRef)':
+    'prefix': 'kCFProxyHostNameKey'
+    'body': 'KCFProxyHostNameKey'
+  'kCFProxyPasswordKey (CFStringRef)':
+    'prefix': 'kCFProxyPasswordKey'
+    'body': 'KCFProxyPasswordKey'
+  'kCFProxyPortNumberKey (CFStringRef)':
+    'prefix': 'kCFProxyPortNumberKey'
+    'body': 'KCFProxyPortNumberKey'
+  'kCFProxyTypeAutoConfigurationJavaScript (CFStringRef)':
+    'prefix': 'kCFProxyTypeAutoConfigurationJavaScript'
+    'body': 'KCFProxyTypeAutoConfigurationJavaScript'
+  'kCFProxyTypeAutoConfigurationURL (CFStringRef)':
+    'prefix': 'kCFProxyTypeAutoConfigurationURL'
+    'body': 'KCFProxyTypeAutoConfigurationURL'
+  'kCFProxyTypeFTP (CFStringRef)':
+    'prefix': 'kCFProxyTypeFTP'
+    'body': 'KCFProxyTypeFTP'
+  'kCFProxyTypeHTTP (CFStringRef)':
+    'prefix': 'kCFProxyTypeHTTP'
+    'body': 'KCFProxyTypeHTTP'
+  'kCFProxyTypeHTTPS (CFStringRef)':
+    'prefix': 'kCFProxyTypeHTTPS'
+    'body': 'KCFProxyTypeHTTPS'
+  'kCFProxyTypeKey (CFStringRef)':
+    'prefix': 'kCFProxyTypeKey'
+    'body': 'KCFProxyTypeKey'
+  'kCFProxyTypeNone (CFStringRef)':
+    'prefix': 'kCFProxyTypeNone'
+    'body': 'KCFProxyTypeNone'
+  'kCFProxyTypeSOCKS (CFStringRef)':
+    'prefix': 'kCFProxyTypeSOCKS'
+    'body': 'KCFProxyTypeSOCKS'
+  'kCFProxyUsernameKey (CFStringRef)':
+    'prefix': 'kCFProxyUsernameKey'
+    'body': 'KCFProxyUsernameKey'
+  'kCFSOCKSNegotiationMethodKey (CFStringRef)':
+    'prefix': 'kCFSOCKSNegotiationMethodKey'
+    'body': 'KCFSOCKSNegotiationMethodKey'
+  'kCFSOCKSStatusCodeKey (CFStringRef)':
+    'prefix': 'kCFSOCKSStatusCodeKey'
+    'body': 'KCFSOCKSStatusCodeKey'
+  'kCFSOCKSVersionKey (CFStringRef)':
+    'prefix': 'kCFSOCKSVersionKey'
+    'body': 'KCFSOCKSVersionKey'
+  'kCFStreamErrorDomainFTP (SInt32)':
+    'prefix': 'kCFStreamErrorDomainFTP'
+    'body': 'KCFStreamErrorDomainFTP'
+  'kCFStreamErrorDomainHTTP (SInt32)':
+    'prefix': 'kCFStreamErrorDomainHTTP'
+    'body': 'KCFStreamErrorDomainHTTP'
+  'kCFStreamErrorDomainMach (SInt32)':
+    'prefix': 'kCFStreamErrorDomainMach'
+    'body': 'KCFStreamErrorDomainMach'
+  'kCFStreamErrorDomainNetDB (SInt32)':
+    'prefix': 'kCFStreamErrorDomainNetDB'
+    'body': 'KCFStreamErrorDomainNetDB'
+  'kCFStreamErrorDomainNetServices (SInt32)':
+    'prefix': 'kCFStreamErrorDomainNetServices'
+    'body': 'KCFStreamErrorDomainNetServices'
+  'kCFStreamErrorDomainSOCKS (int)':
+    'prefix': 'kCFStreamErrorDomainSOCKS'
+    'body': 'KCFStreamErrorDomainSOCKS'
+  'kCFStreamErrorDomainSSL (int)':
+    'prefix': 'kCFStreamErrorDomainSSL'
+    'body': 'KCFStreamErrorDomainSSL'
+  'kCFStreamErrorDomainSystemConfiguration (SInt32)':
+    'prefix': 'kCFStreamErrorDomainSystemConfiguration'
+    'body': 'KCFStreamErrorDomainSystemConfiguration'
+  'kCFStreamErrorDomainWinSock (CFIndex)':
+    'prefix': 'kCFStreamErrorDomainWinSock'
+    'body': 'KCFStreamErrorDomainWinSock'
+  'kCFStreamNetworkServiceType (CFStringRef)':
+    'prefix': 'kCFStreamNetworkServiceType'
+    'body': 'KCFStreamNetworkServiceType'
+  'kCFStreamNetworkServiceTypeBackground (CFStringRef)':
+    'prefix': 'kCFStreamNetworkServiceTypeBackground'
+    'body': 'KCFStreamNetworkServiceTypeBackground'
+  'kCFStreamNetworkServiceTypeVideo (CFStringRef)':
+    'prefix': 'kCFStreamNetworkServiceTypeVideo'
+    'body': 'KCFStreamNetworkServiceTypeVideo'
+  'kCFStreamNetworkServiceTypeVoIP (CFStringRef)':
+    'prefix': 'kCFStreamNetworkServiceTypeVoIP'
+    'body': 'KCFStreamNetworkServiceTypeVoIP'
+  'kCFStreamNetworkServiceTypeVoice (CFStringRef)':
+    'prefix': 'kCFStreamNetworkServiceTypeVoice'
+    'body': 'KCFStreamNetworkServiceTypeVoice'
+  'kCFStreamPropertyConnectionIsCellular (CFStringRef)':
+    'prefix': 'kCFStreamPropertyConnectionIsCellular'
+    'body': 'KCFStreamPropertyConnectionIsCellular'
+  'kCFStreamPropertyFTPAttemptPersistentConnection (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPAttemptPersistentConnection'
+    'body': 'KCFStreamPropertyFTPAttemptPersistentConnection'
+  'kCFStreamPropertyFTPFetchResourceInfo (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPFetchResourceInfo'
+    'body': 'KCFStreamPropertyFTPFetchResourceInfo'
+  'kCFStreamPropertyFTPFileTransferOffset (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPFileTransferOffset'
+    'body': 'KCFStreamPropertyFTPFileTransferOffset'
+  'kCFStreamPropertyFTPPassword (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPPassword'
+    'body': 'KCFStreamPropertyFTPPassword'
+  'kCFStreamPropertyFTPProxy (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPProxy'
+    'body': 'KCFStreamPropertyFTPProxy'
+  'kCFStreamPropertyFTPProxyHost (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPProxyHost'
+    'body': 'KCFStreamPropertyFTPProxyHost'
+  'kCFStreamPropertyFTPProxyPassword (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPProxyPassword'
+    'body': 'KCFStreamPropertyFTPProxyPassword'
+  'kCFStreamPropertyFTPProxyPort (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPProxyPort'
+    'body': 'KCFStreamPropertyFTPProxyPort'
+  'kCFStreamPropertyFTPProxyUser (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPProxyUser'
+    'body': 'KCFStreamPropertyFTPProxyUser'
+  'kCFStreamPropertyFTPResourceSize (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPResourceSize'
+    'body': 'KCFStreamPropertyFTPResourceSize'
+  'kCFStreamPropertyFTPUsePassiveMode (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPUsePassiveMode'
+    'body': 'KCFStreamPropertyFTPUsePassiveMode'
+  'kCFStreamPropertyFTPUserName (CFStringRef)':
+    'prefix': 'kCFStreamPropertyFTPUserName'
+    'body': 'KCFStreamPropertyFTPUserName'
+  'kCFStreamPropertyHTTPAttemptPersistentConnection (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPAttemptPersistentConnection'
+    'body': 'KCFStreamPropertyHTTPAttemptPersistentConnection'
+  'kCFStreamPropertyHTTPFinalRequest (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPFinalRequest'
+    'body': 'KCFStreamPropertyHTTPFinalRequest'
+  'kCFStreamPropertyHTTPFinalURL (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPFinalURL'
+    'body': 'KCFStreamPropertyHTTPFinalURL'
+  'kCFStreamPropertyHTTPProxy (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPProxy'
+    'body': 'KCFStreamPropertyHTTPProxy'
+  'kCFStreamPropertyHTTPProxyHost (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPProxyHost'
+    'body': 'KCFStreamPropertyHTTPProxyHost'
+  'kCFStreamPropertyHTTPProxyPort (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPProxyPort'
+    'body': 'KCFStreamPropertyHTTPProxyPort'
+  'kCFStreamPropertyHTTPRequestBytesWrittenCount (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPRequestBytesWrittenCount'
+    'body': 'KCFStreamPropertyHTTPRequestBytesWrittenCount'
+  'kCFStreamPropertyHTTPResponseHeader (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPResponseHeader'
+    'body': 'KCFStreamPropertyHTTPResponseHeader'
+  'kCFStreamPropertyHTTPSProxyHost (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPSProxyHost'
+    'body': 'KCFStreamPropertyHTTPSProxyHost'
+  'kCFStreamPropertyHTTPSProxyPort (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPSProxyPort'
+    'body': 'KCFStreamPropertyHTTPSProxyPort'
+  'kCFStreamPropertyHTTPShouldAutoredirect (CFStringRef)':
+    'prefix': 'kCFStreamPropertyHTTPShouldAutoredirect'
+    'body': 'KCFStreamPropertyHTTPShouldAutoredirect'
+  'kCFStreamPropertyNoCellular (CFStringRef)':
+    'prefix': 'kCFStreamPropertyNoCellular'
+    'body': 'KCFStreamPropertyNoCellular'
+  'kCFStreamPropertyProxyLocalBypass (CFStringRef)':
+    'prefix': 'kCFStreamPropertyProxyLocalBypass'
+    'body': 'KCFStreamPropertyProxyLocalBypass'
+  'kCFStreamPropertySOCKSPassword (CFStringRef)':
+    'prefix': 'kCFStreamPropertySOCKSPassword'
+    'body': 'KCFStreamPropertySOCKSPassword'
+  'kCFStreamPropertySOCKSProxy (CFStringRef)':
+    'prefix': 'kCFStreamPropertySOCKSProxy'
+    'body': 'KCFStreamPropertySOCKSProxy'
+  'kCFStreamPropertySOCKSProxyHost (CFStringRef)':
+    'prefix': 'kCFStreamPropertySOCKSProxyHost'
+    'body': 'KCFStreamPropertySOCKSProxyHost'
+  'kCFStreamPropertySOCKSProxyPort (CFStringRef)':
+    'prefix': 'kCFStreamPropertySOCKSProxyPort'
+    'body': 'KCFStreamPropertySOCKSProxyPort'
+  'kCFStreamPropertySOCKSUser (CFStringRef)':
+    'prefix': 'kCFStreamPropertySOCKSUser'
+    'body': 'KCFStreamPropertySOCKSUser'
+  'kCFStreamPropertySOCKSVersion (CFStringRef)':
+    'prefix': 'kCFStreamPropertySOCKSVersion'
+    'body': 'KCFStreamPropertySOCKSVersion'
+  'kCFStreamPropertySSLContext (CFStringRef)':
+    'prefix': 'kCFStreamPropertySSLContext'
+    'body': 'KCFStreamPropertySSLContext'
+  'kCFStreamPropertySSLPeerCertificates (CFStringRef)':
+    'prefix': 'kCFStreamPropertySSLPeerCertificates'
+    'body': 'KCFStreamPropertySSLPeerCertificates'
+  'kCFStreamPropertySSLPeerTrust (CFStringRef)':
+    'prefix': 'kCFStreamPropertySSLPeerTrust'
+    'body': 'KCFStreamPropertySSLPeerTrust'
+  'kCFStreamPropertySSLSettings (CFStringRef)':
+    'prefix': 'kCFStreamPropertySSLSettings'
+    'body': 'KCFStreamPropertySSLSettings'
+  'kCFStreamPropertyShouldCloseNativeSocket (CFStringRef)':
+    'prefix': 'kCFStreamPropertyShouldCloseNativeSocket'
+    'body': 'KCFStreamPropertyShouldCloseNativeSocket'
+  'kCFStreamPropertySocketRemoteHost (CFStringRef)':
+    'prefix': 'kCFStreamPropertySocketRemoteHost'
+    'body': 'KCFStreamPropertySocketRemoteHost'
+  'kCFStreamPropertySocketRemoteNetService (CFStringRef)':
+    'prefix': 'kCFStreamPropertySocketRemoteNetService'
+    'body': 'KCFStreamPropertySocketRemoteNetService'
+  'kCFStreamPropertySocketSecurityLevel (CFStringRef)':
+    'prefix': 'kCFStreamPropertySocketSecurityLevel'
+    'body': 'KCFStreamPropertySocketSecurityLevel'
+  'kCFStreamSSLAllowsAnyRoot (CFStringRef)':
+    'prefix': 'kCFStreamSSLAllowsAnyRoot'
+    'body': 'KCFStreamSSLAllowsAnyRoot'
+  'kCFStreamSSLAllowsExpiredCertificates (CFStringRef)':
+    'prefix': 'kCFStreamSSLAllowsExpiredCertificates'
+    'body': 'KCFStreamSSLAllowsExpiredCertificates'
+  'kCFStreamSSLAllowsExpiredRoots (CFStringRef)':
+    'prefix': 'kCFStreamSSLAllowsExpiredRoots'
+    'body': 'KCFStreamSSLAllowsExpiredRoots'
+  'kCFStreamSSLCertificates (CFStringRef)':
+    'prefix': 'kCFStreamSSLCertificates'
+    'body': 'KCFStreamSSLCertificates'
+  'kCFStreamSSLIsServer (CFStringRef)':
+    'prefix': 'kCFStreamSSLIsServer'
+    'body': 'KCFStreamSSLIsServer'
+  'kCFStreamSSLLevel (CFStringRef)':
+    'prefix': 'kCFStreamSSLLevel'
+    'body': 'KCFStreamSSLLevel'
+  'kCFStreamSSLPeerName (CFStringRef)':
+    'prefix': 'kCFStreamSSLPeerName'
+    'body': 'KCFStreamSSLPeerName'
+  'kCFStreamSSLValidatesCertificateChain (CFStringRef)':
+    'prefix': 'kCFStreamSSLValidatesCertificateChain'
+    'body': 'KCFStreamSSLValidatesCertificateChain'
+  'kCFStreamSocketSOCKSVersion4 (CFStringRef)':
+    'prefix': 'kCFStreamSocketSOCKSVersion4'
+    'body': 'KCFStreamSocketSOCKSVersion4'
+  'kCFStreamSocketSOCKSVersion5 (CFStringRef)':
+    'prefix': 'kCFStreamSocketSOCKSVersion5'
+    'body': 'KCFStreamSocketSOCKSVersion5'
+  'kCFStreamSocketSecurityLevelNegotiatedSSL (CFStringRef)':
+    'prefix': 'kCFStreamSocketSecurityLevelNegotiatedSSL'
+    'body': 'KCFStreamSocketSecurityLevelNegotiatedSSL'
+  'kCFStreamSocketSecurityLevelNone (CFStringRef)':
+    'prefix': 'kCFStreamSocketSecurityLevelNone'
+    'body': 'KCFStreamSocketSecurityLevelNone'
+  'kCFStreamSocketSecurityLevelSSLv2 (CFStringRef)':
+    'prefix': 'kCFStreamSocketSecurityLevelSSLv2'
+    'body': 'KCFStreamSocketSecurityLevelSSLv2'
+  'kCFStreamSocketSecurityLevelSSLv3 (CFStringRef)':
+    'prefix': 'kCFStreamSocketSecurityLevelSSLv3'
+    'body': 'KCFStreamSocketSecurityLevelSSLv3'
+  'kCFStreamSocketSecurityLevelTLSv1 (CFStringRef)':
+    'prefix': 'kCFStreamSocketSecurityLevelTLSv1'
+    'body': 'KCFStreamSocketSecurityLevelTLSv1'
+  'kCFURLErrorFailingURLErrorKey (CFStringRef)':
+    'prefix': 'kCFURLErrorFailingURLErrorKey'
+    'body': 'KCFURLErrorFailingURLErrorKey'
+  'kCFURLErrorFailingURLStringErrorKey (CFStringRef)':
+    'prefix': 'kCFURLErrorFailingURLStringErrorKey'
+    'body': 'KCFURLErrorFailingURLStringErrorKey'
+  'kCFErrorHTTPAuthenticationTypeUnsupported (300)':
+    'prefix': 'kCFErrorHTTPAuthenticationTypeUnsupported'
+    'body': 'KCFErrorHTTPAuthenticationTypeUnsupported'
+  'kCFErrorHTTPBadCredentials (301)':
+    'prefix': 'kCFErrorHTTPBadCredentials'
+    'body': 'KCFErrorHTTPBadCredentials'
+  'kCFErrorHTTPBadProxyCredentials (307)':
+    'prefix': 'kCFErrorHTTPBadProxyCredentials'
+    'body': 'KCFErrorHTTPBadProxyCredentials'
+  'kCFErrorHTTPBadURL (305)':
+    'prefix': 'kCFErrorHTTPBadURL'
+    'body': 'KCFErrorHTTPBadURL'
+  'kCFErrorHTTPConnectionLost (302)':
+    'prefix': 'kCFErrorHTTPConnectionLost'
+    'body': 'KCFErrorHTTPConnectionLost'
+  'kCFErrorHTTPParseFailure (303)':
+    'prefix': 'kCFErrorHTTPParseFailure'
+    'body': 'KCFErrorHTTPParseFailure'
+  'kCFErrorHTTPProxyConnectionFailure (306)':
+    'prefix': 'kCFErrorHTTPProxyConnectionFailure'
+    'body': 'KCFErrorHTTPProxyConnectionFailure'
+  'kCFErrorHTTPRedirectionLoopDetected (304)':
+    'prefix': 'kCFErrorHTTPRedirectionLoopDetected'
+    'body': 'KCFErrorHTTPRedirectionLoopDetected'
+  'kCFErrorHTTPSProxyConnectionFailure (310)':
+    'prefix': 'kCFErrorHTTPSProxyConnectionFailure'
+    'body': 'KCFErrorHTTPSProxyConnectionFailure'
+  'kCFErrorPACFileAuth (309)':
+    'prefix': 'kCFErrorPACFileAuth'
+    'body': 'KCFErrorPACFileAuth'
+  'kCFErrorPACFileError (308)':
+    'prefix': 'kCFErrorPACFileError'
+    'body': 'KCFErrorPACFileError'
+  'kCFFTPErrorUnexpectedStatusCode (200)':
+    'prefix': 'kCFFTPErrorUnexpectedStatusCode'
+    'body': 'KCFFTPErrorUnexpectedStatusCode'
+  'kCFHTTPCookieCannotParseCookieFile (-4000)':
+    'prefix': 'kCFHTTPCookieCannotParseCookieFile'
+    'body': 'KCFHTTPCookieCannotParseCookieFile'
+  'kCFHostAddresses (0)':
+    'prefix': 'kCFHostAddresses'
+    'body': 'KCFHostAddresses'
+  'kCFHostErrorHostNotFound (1)':
+    'prefix': 'kCFHostErrorHostNotFound'
+    'body': 'KCFHostErrorHostNotFound'
+  'kCFHostErrorUnknown (2)':
+    'prefix': 'kCFHostErrorUnknown'
+    'body': 'KCFHostErrorUnknown'
+  'kCFHostNames (1)':
+    'prefix': 'kCFHostNames'
+    'body': 'KCFHostNames'
+  'kCFHostReachability (2)':
+    'prefix': 'kCFHostReachability'
+    'body': 'KCFHostReachability'
+  'kCFNetDiagnosticConnectionDown (-66557)':
+    'prefix': 'kCFNetDiagnosticConnectionDown'
+    'body': 'KCFNetDiagnosticConnectionDown'
+  'kCFNetDiagnosticConnectionIndeterminate (-66558)':
+    'prefix': 'kCFNetDiagnosticConnectionIndeterminate'
+    'body': 'KCFNetDiagnosticConnectionIndeterminate'
+  'kCFNetDiagnosticConnectionUp (-66559)':
+    'prefix': 'kCFNetDiagnosticConnectionUp'
+    'body': 'KCFNetDiagnosticConnectionUp'
+  'kCFNetDiagnosticErr (-66560)':
+    'prefix': 'kCFNetDiagnosticErr'
+    'body': 'KCFNetDiagnosticErr'
+  'kCFNetDiagnosticNoErr (0)':
+    'prefix': 'kCFNetDiagnosticNoErr'
+    'body': 'KCFNetDiagnosticNoErr'
+  'kCFNetServiceErrorBadArgument (-72004)':
+    'prefix': 'kCFNetServiceErrorBadArgument'
+    'body': 'KCFNetServiceErrorBadArgument'
+  'kCFNetServiceErrorCancel (-72005)':
+    'prefix': 'kCFNetServiceErrorCancel'
+    'body': 'KCFNetServiceErrorCancel'
+  'kCFNetServiceErrorCollision (-72001)':
+    'prefix': 'kCFNetServiceErrorCollision'
+    'body': 'KCFNetServiceErrorCollision'
+  'kCFNetServiceErrorDNSServiceFailure (-73000)':
+    'prefix': 'kCFNetServiceErrorDNSServiceFailure'
+    'body': 'KCFNetServiceErrorDNSServiceFailure'
+  'kCFNetServiceErrorInProgress (-72003)':
+    'prefix': 'kCFNetServiceErrorInProgress'
+    'body': 'KCFNetServiceErrorInProgress'
+  'kCFNetServiceErrorInvalid (-72006)':
+    'prefix': 'kCFNetServiceErrorInvalid'
+    'body': 'KCFNetServiceErrorInvalid'
+  'kCFNetServiceErrorNotFound (-72002)':
+    'prefix': 'kCFNetServiceErrorNotFound'
+    'body': 'KCFNetServiceErrorNotFound'
+  'kCFNetServiceErrorTimeout (-72007)':
+    'prefix': 'kCFNetServiceErrorTimeout'
+    'body': 'KCFNetServiceErrorTimeout'
+  'kCFNetServiceErrorUnknown (-72000)':
+    'prefix': 'kCFNetServiceErrorUnknown'
+    'body': 'KCFNetServiceErrorUnknown'
+  'kCFNetServiceFlagIsDefault (4)':
+    'prefix': 'kCFNetServiceFlagIsDefault'
+    'body': 'KCFNetServiceFlagIsDefault'
+  'kCFNetServiceFlagIsDomain (2)':
+    'prefix': 'kCFNetServiceFlagIsDomain'
+    'body': 'KCFNetServiceFlagIsDomain'
+  'kCFNetServiceFlagIsRegistrationDomain (4)':
+    'prefix': 'kCFNetServiceFlagIsRegistrationDomain'
+    'body': 'KCFNetServiceFlagIsRegistrationDomain'
+  'kCFNetServiceFlagMoreComing (1)':
+    'prefix': 'kCFNetServiceFlagMoreComing'
+    'body': 'KCFNetServiceFlagMoreComing'
+  'kCFNetServiceFlagNoAutoRename (1)':
+    'prefix': 'kCFNetServiceFlagNoAutoRename'
+    'body': 'KCFNetServiceFlagNoAutoRename'
+  'kCFNetServiceFlagRemove (8)':
+    'prefix': 'kCFNetServiceFlagRemove'
+    'body': 'KCFNetServiceFlagRemove'
+  'kCFNetServiceMonitorTXT (1)':
+    'prefix': 'kCFNetServiceMonitorTXT'
+    'body': 'KCFNetServiceMonitorTXT'
+  'kCFNetServicesErrorBadArgument (-72004)':
+    'prefix': 'kCFNetServicesErrorBadArgument'
+    'body': 'KCFNetServicesErrorBadArgument'
+  'kCFNetServicesErrorCancel (-72005)':
+    'prefix': 'kCFNetServicesErrorCancel'
+    'body': 'KCFNetServicesErrorCancel'
+  'kCFNetServicesErrorCollision (-72001)':
+    'prefix': 'kCFNetServicesErrorCollision'
+    'body': 'KCFNetServicesErrorCollision'
+  'kCFNetServicesErrorInProgress (-72003)':
+    'prefix': 'kCFNetServicesErrorInProgress'
+    'body': 'KCFNetServicesErrorInProgress'
+  'kCFNetServicesErrorInvalid (-72006)':
+    'prefix': 'kCFNetServicesErrorInvalid'
+    'body': 'KCFNetServicesErrorInvalid'
+  'kCFNetServicesErrorNotFound (-72002)':
+    'prefix': 'kCFNetServicesErrorNotFound'
+    'body': 'KCFNetServicesErrorNotFound'
+  'kCFNetServicesErrorTimeout (-72007)':
+    'prefix': 'kCFNetServicesErrorTimeout'
+    'body': 'KCFNetServicesErrorTimeout'
+  'kCFNetServicesErrorUnknown (-72000)':
+    'prefix': 'kCFNetServicesErrorUnknown'
+    'body': 'KCFNetServicesErrorUnknown'
+  'kCFSOCKS4ErrorIdConflict (112)':
+    'prefix': 'kCFSOCKS4ErrorIdConflict'
+    'body': 'KCFSOCKS4ErrorIdConflict'
+  'kCFSOCKS4ErrorIdentdFailed (111)':
+    'prefix': 'kCFSOCKS4ErrorIdentdFailed'
+    'body': 'KCFSOCKS4ErrorIdentdFailed'
+  'kCFSOCKS4ErrorRequestFailed (110)':
+    'prefix': 'kCFSOCKS4ErrorRequestFailed'
+    'body': 'KCFSOCKS4ErrorRequestFailed'
+  'kCFSOCKS4ErrorUnknownStatusCode (113)':
+    'prefix': 'kCFSOCKS4ErrorUnknownStatusCode'
+    'body': 'KCFSOCKS4ErrorUnknownStatusCode'
+  'kCFSOCKS5ErrorBadCredentials (122)':
+    'prefix': 'kCFSOCKS5ErrorBadCredentials'
+    'body': 'KCFSOCKS5ErrorBadCredentials'
+  'kCFSOCKS5ErrorBadResponseAddr (121)':
+    'prefix': 'kCFSOCKS5ErrorBadResponseAddr'
+    'body': 'KCFSOCKS5ErrorBadResponseAddr'
+  'kCFSOCKS5ErrorBadState (120)':
+    'prefix': 'kCFSOCKS5ErrorBadState'
+    'body': 'KCFSOCKS5ErrorBadState'
+  'kCFSOCKS5ErrorNoAcceptableMethod (124)':
+    'prefix': 'kCFSOCKS5ErrorNoAcceptableMethod'
+    'body': 'KCFSOCKS5ErrorNoAcceptableMethod'
+  'kCFSOCKS5ErrorUnsupportedNegotiationMethod (123)':
+    'prefix': 'kCFSOCKS5ErrorUnsupportedNegotiationMethod'
+    'body': 'KCFSOCKS5ErrorUnsupportedNegotiationMethod'
+  'kCFSOCKSErrorUnknownClientVersion (100)':
+    'prefix': 'kCFSOCKSErrorUnknownClientVersion'
+    'body': 'KCFSOCKSErrorUnknownClientVersion'
+  'kCFSOCKSErrorUnsupportedServerVersion (101)':
+    'prefix': 'kCFSOCKSErrorUnsupportedServerVersion'
+    'body': 'KCFSOCKSErrorUnsupportedServerVersion'
+  'kCFStreamErrorHTTPAuthenticationBadPassword (-1002)':
+    'prefix': 'kCFStreamErrorHTTPAuthenticationBadPassword'
+    'body': 'KCFStreamErrorHTTPAuthenticationBadPassword'
+  'kCFStreamErrorHTTPAuthenticationBadUserName (-1001)':
+    'prefix': 'kCFStreamErrorHTTPAuthenticationBadUserName'
+    'body': 'KCFStreamErrorHTTPAuthenticationBadUserName'
+  'kCFStreamErrorHTTPAuthenticationTypeUnsupported (-1000)':
+    'prefix': 'kCFStreamErrorHTTPAuthenticationTypeUnsupported'
+    'body': 'KCFStreamErrorHTTPAuthenticationTypeUnsupported'
+  'kCFStreamErrorHTTPBadURL (-3)':
+    'prefix': 'kCFStreamErrorHTTPBadURL'
+    'body': 'KCFStreamErrorHTTPBadURL'
+  'kCFStreamErrorHTTPParseFailure (-1)':
+    'prefix': 'kCFStreamErrorHTTPParseFailure'
+    'body': 'KCFStreamErrorHTTPParseFailure'
+  'kCFStreamErrorHTTPRedirectionLoop (-2)':
+    'prefix': 'kCFStreamErrorHTTPRedirectionLoop'
+    'body': 'KCFStreamErrorHTTPRedirectionLoop'
+  'kCFStreamErrorHTTPSProxyFailureUnexpectedResponseToCONNECTMethod (311)':
+    'prefix': 'kCFStreamErrorHTTPSProxyFailureUnexpectedResponseToCONNECTMethod'
+    'body': 'KCFStreamErrorHTTPSProxyFailureUnexpectedResponseToCONNECTMethod'
+  'kCFStreamErrorSOCKS4IdConflict (93)':
+    'prefix': 'kCFStreamErrorSOCKS4IdConflict'
+    'body': 'KCFStreamErrorSOCKS4IdConflict'
+  'kCFStreamErrorSOCKS4IdentdFailed (92)':
+    'prefix': 'kCFStreamErrorSOCKS4IdentdFailed'
+    'body': 'KCFStreamErrorSOCKS4IdentdFailed'
+  'kCFStreamErrorSOCKS4RequestFailed (91)':
+    'prefix': 'kCFStreamErrorSOCKS4RequestFailed'
+    'body': 'KCFStreamErrorSOCKS4RequestFailed'
+  'kCFStreamErrorSOCKS4SubDomainResponse (2)':
+    'prefix': 'kCFStreamErrorSOCKS4SubDomainResponse'
+    'body': 'KCFStreamErrorSOCKS4SubDomainResponse'
+  'kCFStreamErrorSOCKS5BadResponseAddr (1)':
+    'prefix': 'kCFStreamErrorSOCKS5BadResponseAddr'
+    'body': 'KCFStreamErrorSOCKS5BadResponseAddr'
+  'kCFStreamErrorSOCKS5BadState (2)':
+    'prefix': 'kCFStreamErrorSOCKS5BadState'
+    'body': 'KCFStreamErrorSOCKS5BadState'
+  'kCFStreamErrorSOCKS5SubDomainMethod (4)':
+    'prefix': 'kCFStreamErrorSOCKS5SubDomainMethod'
+    'body': 'KCFStreamErrorSOCKS5SubDomainMethod'
+  'kCFStreamErrorSOCKS5SubDomainResponse (5)':
+    'prefix': 'kCFStreamErrorSOCKS5SubDomainResponse'
+    'body': 'KCFStreamErrorSOCKS5SubDomainResponse'
+  'kCFStreamErrorSOCKS5SubDomainUserPass (3)':
+    'prefix': 'kCFStreamErrorSOCKS5SubDomainUserPass'
+    'body': 'KCFStreamErrorSOCKS5SubDomainUserPass'
+  'kCFStreamErrorSOCKSSubDomainNone (0)':
+    'prefix': 'kCFStreamErrorSOCKSSubDomainNone'
+    'body': 'KCFStreamErrorSOCKSSubDomainNone'
+  'kCFStreamErrorSOCKSSubDomainVersionCode (1)':
+    'prefix': 'kCFStreamErrorSOCKSSubDomainVersionCode'
+    'body': 'KCFStreamErrorSOCKSSubDomainVersionCode'
+  'kCFStreamErrorSOCKSUnknownClientVersion (3)':
+    'prefix': 'kCFStreamErrorSOCKSUnknownClientVersion'
+    'body': 'KCFStreamErrorSOCKSUnknownClientVersion'
+  'kCFStreamSocketSecurityNone (0)':
+    'prefix': 'kCFStreamSocketSecurityNone'
+    'body': 'KCFStreamSocketSecurityNone'
+  'kCFStreamSocketSecuritySSLv2 (1)':
+    'prefix': 'kCFStreamSocketSecuritySSLv2'
+    'body': 'KCFStreamSocketSecuritySSLv2'
+  'kCFStreamSocketSecuritySSLv23 (3)':
+    'prefix': 'kCFStreamSocketSecuritySSLv23'
+    'body': 'KCFStreamSocketSecuritySSLv23'
+  'kCFStreamSocketSecuritySSLv3 (2)':
+    'prefix': 'kCFStreamSocketSecuritySSLv3'
+    'body': 'KCFStreamSocketSecuritySSLv3'
+  'kCFStreamSocketSecurityTLSv1 (4)':
+    'prefix': 'kCFStreamSocketSecurityTLSv1'
+    'body': 'KCFStreamSocketSecurityTLSv1'
+  'kCFURLErrorBadServerResponse (-1011)':
+    'prefix': 'kCFURLErrorBadServerResponse'
+    'body': 'KCFURLErrorBadServerResponse'
+  'kCFURLErrorBadURL (-1000)':
+    'prefix': 'kCFURLErrorBadURL'
+    'body': 'KCFURLErrorBadURL'
+  'kCFURLErrorCallIsActive (-1019)':
+    'prefix': 'kCFURLErrorCallIsActive'
+    'body': 'KCFURLErrorCallIsActive'
+  'kCFURLErrorCancelled (-999)':
+    'prefix': 'kCFURLErrorCancelled'
+    'body': 'KCFURLErrorCancelled'
+  'kCFURLErrorCannotCloseFile (-3002)':
+    'prefix': 'kCFURLErrorCannotCloseFile'
+    'body': 'KCFURLErrorCannotCloseFile'
+  'kCFURLErrorCannotConnectToHost (-1004)':
+    'prefix': 'kCFURLErrorCannotConnectToHost'
+    'body': 'KCFURLErrorCannotConnectToHost'
+  'kCFURLErrorCannotCreateFile (-3000)':
+    'prefix': 'kCFURLErrorCannotCreateFile'
+    'body': 'KCFURLErrorCannotCreateFile'
+  'kCFURLErrorCannotDecodeContentData (-1016)':
+    'prefix': 'kCFURLErrorCannotDecodeContentData'
+    'body': 'KCFURLErrorCannotDecodeContentData'
+  'kCFURLErrorCannotDecodeRawData (-1015)':
+    'prefix': 'kCFURLErrorCannotDecodeRawData'
+    'body': 'KCFURLErrorCannotDecodeRawData'
+  'kCFURLErrorCannotFindHost (-1003)':
+    'prefix': 'kCFURLErrorCannotFindHost'
+    'body': 'KCFURLErrorCannotFindHost'
+  'kCFURLErrorCannotLoadFromNetwork (-2000)':
+    'prefix': 'kCFURLErrorCannotLoadFromNetwork'
+    'body': 'KCFURLErrorCannotLoadFromNetwork'
+  'kCFURLErrorCannotMoveFile (-3005)':
+    'prefix': 'kCFURLErrorCannotMoveFile'
+    'body': 'KCFURLErrorCannotMoveFile'
+  'kCFURLErrorCannotOpenFile (-3001)':
+    'prefix': 'kCFURLErrorCannotOpenFile'
+    'body': 'KCFURLErrorCannotOpenFile'
+  'kCFURLErrorCannotParseResponse (-1017)':
+    'prefix': 'kCFURLErrorCannotParseResponse'
+    'body': 'KCFURLErrorCannotParseResponse'
+  'kCFURLErrorCannotRemoveFile (-3004)':
+    'prefix': 'kCFURLErrorCannotRemoveFile'
+    'body': 'KCFURLErrorCannotRemoveFile'
+  'kCFURLErrorCannotWriteToFile (-3003)':
+    'prefix': 'kCFURLErrorCannotWriteToFile'
+    'body': 'KCFURLErrorCannotWriteToFile'
+  'kCFURLErrorClientCertificateRejected (-1205)':
+    'prefix': 'kCFURLErrorClientCertificateRejected'
+    'body': 'KCFURLErrorClientCertificateRejected'
+  'kCFURLErrorClientCertificateRequired (-1206)':
+    'prefix': 'kCFURLErrorClientCertificateRequired'
+    'body': 'KCFURLErrorClientCertificateRequired'
+  'kCFURLErrorDNSLookupFailed (-1006)':
+    'prefix': 'kCFURLErrorDNSLookupFailed'
+    'body': 'KCFURLErrorDNSLookupFailed'
+  'kCFURLErrorDataLengthExceedsMaximum (-1103)':
+    'prefix': 'kCFURLErrorDataLengthExceedsMaximum'
+    'body': 'KCFURLErrorDataLengthExceedsMaximum'
+  'kCFURLErrorDataNotAllowed (-1020)':
+    'prefix': 'kCFURLErrorDataNotAllowed'
+    'body': 'KCFURLErrorDataNotAllowed'
+  'kCFURLErrorDownloadDecodingFailedMidStream (-3006)':
+    'prefix': 'kCFURLErrorDownloadDecodingFailedMidStream'
+    'body': 'KCFURLErrorDownloadDecodingFailedMidStream'
+  'kCFURLErrorDownloadDecodingFailedToComplete (-3007)':
+    'prefix': 'kCFURLErrorDownloadDecodingFailedToComplete'
+    'body': 'KCFURLErrorDownloadDecodingFailedToComplete'
+  'kCFURLErrorFileDoesNotExist (-1100)':
+    'prefix': 'kCFURLErrorFileDoesNotExist'
+    'body': 'KCFURLErrorFileDoesNotExist'
+  'kCFURLErrorFileIsDirectory (-1101)':
+    'prefix': 'kCFURLErrorFileIsDirectory'
+    'body': 'KCFURLErrorFileIsDirectory'
+  'kCFURLErrorHTTPTooManyRedirects (-1007)':
+    'prefix': 'kCFURLErrorHTTPTooManyRedirects'
+    'body': 'KCFURLErrorHTTPTooManyRedirects'
+  'kCFURLErrorInternationalRoamingOff (-1018)':
+    'prefix': 'kCFURLErrorInternationalRoamingOff'
+    'body': 'KCFURLErrorInternationalRoamingOff'
+  'kCFURLErrorNetworkConnectionLost (-1005)':
+    'prefix': 'kCFURLErrorNetworkConnectionLost'
+    'body': 'KCFURLErrorNetworkConnectionLost'
+  'kCFURLErrorNoPermissionsToReadFile (-1102)':
+    'prefix': 'kCFURLErrorNoPermissionsToReadFile'
+    'body': 'KCFURLErrorNoPermissionsToReadFile'
+  'kCFURLErrorNotConnectedToInternet (-1009)':
+    'prefix': 'kCFURLErrorNotConnectedToInternet'
+    'body': 'KCFURLErrorNotConnectedToInternet'
+  'kCFURLErrorRedirectToNonExistentLocation (-1010)':
+    'prefix': 'kCFURLErrorRedirectToNonExistentLocation'
+    'body': 'KCFURLErrorRedirectToNonExistentLocation'
+  'kCFURLErrorRequestBodyStreamExhausted (-1021)':
+    'prefix': 'kCFURLErrorRequestBodyStreamExhausted'
+    'body': 'KCFURLErrorRequestBodyStreamExhausted'
+  'kCFURLErrorResourceUnavailable (-1008)':
+    'prefix': 'kCFURLErrorResourceUnavailable'
+    'body': 'KCFURLErrorResourceUnavailable'
+  'kCFURLErrorSecureConnectionFailed (-1200)':
+    'prefix': 'kCFURLErrorSecureConnectionFailed'
+    'body': 'KCFURLErrorSecureConnectionFailed'
+  'kCFURLErrorServerCertificateHasBadDate (-1201)':
+    'prefix': 'kCFURLErrorServerCertificateHasBadDate'
+    'body': 'KCFURLErrorServerCertificateHasBadDate'
+  'kCFURLErrorServerCertificateHasUnknownRoot (-1203)':
+    'prefix': 'kCFURLErrorServerCertificateHasUnknownRoot'
+    'body': 'KCFURLErrorServerCertificateHasUnknownRoot'
+  'kCFURLErrorServerCertificateNotYetValid (-1204)':
+    'prefix': 'kCFURLErrorServerCertificateNotYetValid'
+    'body': 'KCFURLErrorServerCertificateNotYetValid'
+  'kCFURLErrorServerCertificateUntrusted (-1202)':
+    'prefix': 'kCFURLErrorServerCertificateUntrusted'
+    'body': 'KCFURLErrorServerCertificateUntrusted'
+  'kCFURLErrorTimedOut (-1001)':
+    'prefix': 'kCFURLErrorTimedOut'
+    'body': 'KCFURLErrorTimedOut'
+  'kCFURLErrorUnknown (-998)':
+    'prefix': 'kCFURLErrorUnknown'
+    'body': 'KCFURLErrorUnknown'
+  'kCFURLErrorUnsupportedURL (-1002)':
+    'prefix': 'kCFURLErrorUnsupportedURL'
+    'body': 'KCFURLErrorUnsupportedURL'
+  'kCFURLErrorUserAuthenticationRequired (-1013)':
+    'prefix': 'kCFURLErrorUserAuthenticationRequired'
+    'body': 'KCFURLErrorUserAuthenticationRequired'
+  'kCFURLErrorUserCancelledAuthentication (-1012)':
+    'prefix': 'kCFURLErrorUserCancelledAuthentication'
+    'body': 'KCFURLErrorUserCancelledAuthentication'
+  'kCFURLErrorZeroByteResource (-1014)':
+    'prefix': 'kCFURLErrorZeroByteResource'
+    'body': 'KCFURLErrorZeroByteResource'
+  'kSOCKS5NoAcceptableMethod (255)':
+    'prefix': 'kSOCKS5NoAcceptableMethod'
+    'body': 'KSOCKS5NoAcceptableMethod'
+  'CFFTPCreateParsedResourceListing':
+    'prefix': 'CFFTPCreateParsedResourceListing'
+    'body': 'CFFTPCreateParsedResourceListing(${1:CFAllocatorRef alloc}, ${2:UInt8* buffer}, ${3:CFIndex bufferLength}, ${4:CFDictionaryRef* parsed})'
+  'CFHTTPAuthenticationAppliesToRequest':
+    'prefix': 'CFHTTPAuthenticationAppliesToRequest'
+    'body': 'CFHTTPAuthenticationAppliesToRequest(${1:CFHTTPAuthenticationRef auth}, ${2:CFHTTPMessageRef request})'
+  'CFHTTPAuthenticationCopyDomains':
+    'prefix': 'CFHTTPAuthenticationCopyDomains'
+    'body': 'CFHTTPAuthenticationCopyDomains(${1:CFHTTPAuthenticationRef auth})'
+  'CFHTTPAuthenticationCopyMethod':
+    'prefix': 'CFHTTPAuthenticationCopyMethod'
+    'body': 'CFHTTPAuthenticationCopyMethod(${1:CFHTTPAuthenticationRef auth})'
+  'CFHTTPAuthenticationCopyRealm':
+    'prefix': 'CFHTTPAuthenticationCopyRealm'
+    'body': 'CFHTTPAuthenticationCopyRealm(${1:CFHTTPAuthenticationRef auth})'
+  'CFHTTPAuthenticationCreateFromResponse':
+    'prefix': 'CFHTTPAuthenticationCreateFromResponse'
+    'body': 'CFHTTPAuthenticationCreateFromResponse(${1:CFAllocatorRef alloc}, ${2:CFHTTPMessageRef response})'
+  'CFHTTPAuthenticationGetTypeID':
+    'prefix': 'CFHTTPAuthenticationGetTypeID'
+    'body': 'CFHTTPAuthenticationGetTypeID()'
+  'CFHTTPAuthenticationIsValid':
+    'prefix': 'CFHTTPAuthenticationIsValid'
+    'body': 'CFHTTPAuthenticationIsValid(${1:CFHTTPAuthenticationRef auth}, ${2:CFStreamError* error})'
+  'CFHTTPAuthenticationRequiresAccountDomain':
+    'prefix': 'CFHTTPAuthenticationRequiresAccountDomain'
+    'body': 'CFHTTPAuthenticationRequiresAccountDomain(${1:CFHTTPAuthenticationRef auth})'
+  'CFHTTPAuthenticationRequiresOrderedRequests':
+    'prefix': 'CFHTTPAuthenticationRequiresOrderedRequests'
+    'body': 'CFHTTPAuthenticationRequiresOrderedRequests(${1:CFHTTPAuthenticationRef auth})'
+  'CFHTTPAuthenticationRequiresUserNameAndPassword':
+    'prefix': 'CFHTTPAuthenticationRequiresUserNameAndPassword'
+    'body': 'CFHTTPAuthenticationRequiresUserNameAndPassword(${1:CFHTTPAuthenticationRef auth})'
+  'CFHTTPMessageAddAuthentication':
+    'prefix': 'CFHTTPMessageAddAuthentication'
+    'body': 'CFHTTPMessageAddAuthentication(${1:CFHTTPMessageRef request}, ${2:CFHTTPMessageRef authenticationFailureResponse}, ${3:CFStringRef username}, ${4:CFStringRef password}, ${5:CFStringRef authenticationScheme}, ${6:Boolean forProxy})'
+  'CFHTTPMessageAppendBytes':
+    'prefix': 'CFHTTPMessageAppendBytes'
+    'body': 'CFHTTPMessageAppendBytes(${1:CFHTTPMessageRef message}, ${2:UInt8* newBytes}, ${3:CFIndex numBytes})'
+  'CFHTTPMessageApplyCredentialDictionary':
+    'prefix': 'CFHTTPMessageApplyCredentialDictionary'
+    'body': 'CFHTTPMessageApplyCredentialDictionary(${1:CFHTTPMessageRef request}, ${2:CFHTTPAuthenticationRef auth}, ${3:CFDictionaryRef dict}, ${4:CFStreamError* error})'
+  'CFHTTPMessageApplyCredentials':
+    'prefix': 'CFHTTPMessageApplyCredentials'
+    'body': 'CFHTTPMessageApplyCredentials(${1:CFHTTPMessageRef request}, ${2:CFHTTPAuthenticationRef auth}, ${3:CFStringRef username}, ${4:CFStringRef password}, ${5:CFStreamError* error})'
+  'CFHTTPMessageCopyAllHeaderFields':
+    'prefix': 'CFHTTPMessageCopyAllHeaderFields'
+    'body': 'CFHTTPMessageCopyAllHeaderFields(${1:CFHTTPMessageRef message})'
+  'CFHTTPMessageCopyBody':
+    'prefix': 'CFHTTPMessageCopyBody'
+    'body': 'CFHTTPMessageCopyBody(${1:CFHTTPMessageRef message})'
+  'CFHTTPMessageCopyHeaderFieldValue':
+    'prefix': 'CFHTTPMessageCopyHeaderFieldValue'
+    'body': 'CFHTTPMessageCopyHeaderFieldValue(${1:CFHTTPMessageRef message}, ${2:CFStringRef headerField})'
+  'CFHTTPMessageCopyRequestMethod':
+    'prefix': 'CFHTTPMessageCopyRequestMethod'
+    'body': 'CFHTTPMessageCopyRequestMethod(${1:CFHTTPMessageRef request})'
+  'CFHTTPMessageCopyRequestURL':
+    'prefix': 'CFHTTPMessageCopyRequestURL'
+    'body': 'CFHTTPMessageCopyRequestURL(${1:CFHTTPMessageRef request})'
+  'CFHTTPMessageCopyResponseStatusLine':
+    'prefix': 'CFHTTPMessageCopyResponseStatusLine'
+    'body': 'CFHTTPMessageCopyResponseStatusLine(${1:CFHTTPMessageRef response})'
+  'CFHTTPMessageCopySerializedMessage':
+    'prefix': 'CFHTTPMessageCopySerializedMessage'
+    'body': 'CFHTTPMessageCopySerializedMessage(${1:CFHTTPMessageRef message})'
+  'CFHTTPMessageCopyVersion':
+    'prefix': 'CFHTTPMessageCopyVersion'
+    'body': 'CFHTTPMessageCopyVersion(${1:CFHTTPMessageRef message})'
+  'CFHTTPMessageCreateCopy':
+    'prefix': 'CFHTTPMessageCreateCopy'
+    'body': 'CFHTTPMessageCreateCopy(${1:CFAllocatorRef alloc}, ${2:CFHTTPMessageRef message})'
+  'CFHTTPMessageCreateEmpty':
+    'prefix': 'CFHTTPMessageCreateEmpty'
+    'body': 'CFHTTPMessageCreateEmpty(${1:CFAllocatorRef alloc}, ${2:Boolean isRequest})'
+  'CFHTTPMessageCreateRequest':
+    'prefix': 'CFHTTPMessageCreateRequest'
+    'body': 'CFHTTPMessageCreateRequest(${1:CFAllocatorRef alloc}, ${2:CFStringRef requestMethod}, ${3:CFURLRef url}, ${4:CFStringRef httpVersion})'
+  'CFHTTPMessageCreateResponse':
+    'prefix': 'CFHTTPMessageCreateResponse'
+    'body': 'CFHTTPMessageCreateResponse(${1:CFAllocatorRef alloc}, ${2:CFIndex statusCode}, ${3:CFStringRef statusDescription}, ${4:CFStringRef httpVersion})'
+  'CFHTTPMessageGetResponseStatusCode':
+    'prefix': 'CFHTTPMessageGetResponseStatusCode'
+    'body': 'CFHTTPMessageGetResponseStatusCode(${1:CFHTTPMessageRef response})'
+  'CFHTTPMessageGetTypeID':
+    'prefix': 'CFHTTPMessageGetTypeID'
+    'body': 'CFHTTPMessageGetTypeID()'
+  'CFHTTPMessageIsHeaderComplete':
+    'prefix': 'CFHTTPMessageIsHeaderComplete'
+    'body': 'CFHTTPMessageIsHeaderComplete(${1:CFHTTPMessageRef message})'
+  'CFHTTPMessageIsRequest':
+    'prefix': 'CFHTTPMessageIsRequest'
+    'body': 'CFHTTPMessageIsRequest(${1:CFHTTPMessageRef message})'
+  'CFHTTPMessageSetBody':
+    'prefix': 'CFHTTPMessageSetBody'
+    'body': 'CFHTTPMessageSetBody(${1:CFHTTPMessageRef message}, ${2:CFDataRef bodyData})'
+  'CFHTTPMessageSetHeaderFieldValue':
+    'prefix': 'CFHTTPMessageSetHeaderFieldValue'
+    'body': 'CFHTTPMessageSetHeaderFieldValue(${1:CFHTTPMessageRef message}, ${2:CFStringRef headerField}, ${3:CFStringRef value})'
+  'CFHostCancelInfoResolution':
+    'prefix': 'CFHostCancelInfoResolution'
+    'body': 'CFHostCancelInfoResolution(${1:CFHostRef theHost}, ${2:CFHostInfoType info})'
+  'CFHostCreateCopy':
+    'prefix': 'CFHostCreateCopy'
+    'body': 'CFHostCreateCopy(${1:CFAllocatorRef alloc}, ${2:CFHostRef host})'
+  'CFHostCreateWithAddress':
+    'prefix': 'CFHostCreateWithAddress'
+    'body': 'CFHostCreateWithAddress(${1:CFAllocatorRef allocator}, ${2:CFDataRef addr})'
+  'CFHostCreateWithName':
+    'prefix': 'CFHostCreateWithName'
+    'body': 'CFHostCreateWithName(${1:CFAllocatorRef allocator}, ${2:CFStringRef hostname})'
+  'CFHostGetAddressing':
+    'prefix': 'CFHostGetAddressing'
+    'body': 'CFHostGetAddressing(${1:CFHostRef theHost}, ${2:Boolean* hasBeenResolved})'
+  'CFHostGetNames':
+    'prefix': 'CFHostGetNames'
+    'body': 'CFHostGetNames(${1:CFHostRef theHost}, ${2:Boolean* hasBeenResolved})'
+  'CFHostGetReachability':
+    'prefix': 'CFHostGetReachability'
+    'body': 'CFHostGetReachability(${1:CFHostRef theHost}, ${2:Boolean* hasBeenResolved})'
+  'CFHostGetTypeID':
+    'prefix': 'CFHostGetTypeID'
+    'body': 'CFHostGetTypeID()'
+  'CFHostScheduleWithRunLoop':
+    'prefix': 'CFHostScheduleWithRunLoop'
+    'body': 'CFHostScheduleWithRunLoop(${1:CFHostRef theHost}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFHostSetClient':
+    'prefix': 'CFHostSetClient'
+    'body': 'CFHostSetClient(${1:CFHostRef theHost}, ${2:CFHostClientCallBack clientCB}, ${3:CFHostClientContext* clientContext})'
+  'CFHostStartInfoResolution':
+    'prefix': 'CFHostStartInfoResolution'
+    'body': 'CFHostStartInfoResolution(${1:CFHostRef theHost}, ${2:CFHostInfoType info}, ${3:CFStreamError* error})'
+  'CFHostUnscheduleFromRunLoop':
+    'prefix': 'CFHostUnscheduleFromRunLoop'
+    'body': 'CFHostUnscheduleFromRunLoop(${1:CFHostRef theHost}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetDiagnosticCopyNetworkStatusPassively':
+    'prefix': 'CFNetDiagnosticCopyNetworkStatusPassively'
+    'body': 'CFNetDiagnosticCopyNetworkStatusPassively(${1:CFNetDiagnosticRef details}, ${2:CFStringRef* description})'
+  'CFNetDiagnosticCreateWithStreams':
+    'prefix': 'CFNetDiagnosticCreateWithStreams'
+    'body': 'CFNetDiagnosticCreateWithStreams(${1:CFAllocatorRef alloc}, ${2:CFReadStreamRef readStream}, ${3:CFWriteStreamRef writeStream})'
+  'CFNetDiagnosticCreateWithURL':
+    'prefix': 'CFNetDiagnosticCreateWithURL'
+    'body': 'CFNetDiagnosticCreateWithURL(${1:CFAllocatorRef alloc}, ${2:CFURLRef url})'
+  'CFNetDiagnosticDiagnoseProblemInteractively':
+    'prefix': 'CFNetDiagnosticDiagnoseProblemInteractively'
+    'body': 'CFNetDiagnosticDiagnoseProblemInteractively(${1:CFNetDiagnosticRef details})'
+  'CFNetDiagnosticSetName':
+    'prefix': 'CFNetDiagnosticSetName'
+    'body': 'CFNetDiagnosticSetName(${1:CFNetDiagnosticRef details}, ${2:CFStringRef name})'
+  'CFNetServiceBrowserCreate':
+    'prefix': 'CFNetServiceBrowserCreate'
+    'body': 'CFNetServiceBrowserCreate(${1:CFAllocatorRef alloc}, ${2:CFNetServiceBrowserClientCallBack clientCB}, ${3:CFNetServiceClientContext* clientContext})'
+  'CFNetServiceBrowserGetTypeID':
+    'prefix': 'CFNetServiceBrowserGetTypeID'
+    'body': 'CFNetServiceBrowserGetTypeID()'
+  'CFNetServiceBrowserInvalidate':
+    'prefix': 'CFNetServiceBrowserInvalidate'
+    'body': 'CFNetServiceBrowserInvalidate(${1:CFNetServiceBrowserRef browser})'
+  'CFNetServiceBrowserScheduleWithRunLoop':
+    'prefix': 'CFNetServiceBrowserScheduleWithRunLoop'
+    'body': 'CFNetServiceBrowserScheduleWithRunLoop(${1:CFNetServiceBrowserRef browser}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetServiceBrowserSearchForDomains':
+    'prefix': 'CFNetServiceBrowserSearchForDomains'
+    'body': 'CFNetServiceBrowserSearchForDomains(${1:CFNetServiceBrowserRef browser}, ${2:Boolean registrationDomains}, ${3:CFStreamError* error})'
+  'CFNetServiceBrowserSearchForServices':
+    'prefix': 'CFNetServiceBrowserSearchForServices'
+    'body': 'CFNetServiceBrowserSearchForServices(${1:CFNetServiceBrowserRef browser}, ${2:CFStringRef domain}, ${3:CFStringRef serviceType}, ${4:CFStreamError* error})'
+  'CFNetServiceBrowserStopSearch':
+    'prefix': 'CFNetServiceBrowserStopSearch'
+    'body': 'CFNetServiceBrowserStopSearch(${1:CFNetServiceBrowserRef browser}, ${2:CFStreamError* error})'
+  'CFNetServiceBrowserUnscheduleFromRunLoop':
+    'prefix': 'CFNetServiceBrowserUnscheduleFromRunLoop'
+    'body': 'CFNetServiceBrowserUnscheduleFromRunLoop(${1:CFNetServiceBrowserRef browser}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetServiceCancel':
+    'prefix': 'CFNetServiceCancel'
+    'body': 'CFNetServiceCancel(${1:CFNetServiceRef theService})'
+  'CFNetServiceCreate':
+    'prefix': 'CFNetServiceCreate'
+    'body': 'CFNetServiceCreate(${1:CFAllocatorRef alloc}, ${2:CFStringRef domain}, ${3:CFStringRef serviceType}, ${4:CFStringRef name}, ${5:SInt32 port})'
+  'CFNetServiceCreateCopy':
+    'prefix': 'CFNetServiceCreateCopy'
+    'body': 'CFNetServiceCreateCopy(${1:CFAllocatorRef alloc}, ${2:CFNetServiceRef service})'
+  'CFNetServiceCreateDictionaryWithTXTData':
+    'prefix': 'CFNetServiceCreateDictionaryWithTXTData'
+    'body': 'CFNetServiceCreateDictionaryWithTXTData(${1:CFAllocatorRef alloc}, ${2:CFDataRef txtRecord})'
+  'CFNetServiceCreateTXTDataWithDictionary':
+    'prefix': 'CFNetServiceCreateTXTDataWithDictionary'
+    'body': 'CFNetServiceCreateTXTDataWithDictionary(${1:CFAllocatorRef alloc}, ${2:CFDictionaryRef keyValuePairs})'
+  'CFNetServiceGetAddressing':
+    'prefix': 'CFNetServiceGetAddressing'
+    'body': 'CFNetServiceGetAddressing(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetDomain':
+    'prefix': 'CFNetServiceGetDomain'
+    'body': 'CFNetServiceGetDomain(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetName':
+    'prefix': 'CFNetServiceGetName'
+    'body': 'CFNetServiceGetName(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetPortNumber':
+    'prefix': 'CFNetServiceGetPortNumber'
+    'body': 'CFNetServiceGetPortNumber(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetTXTData':
+    'prefix': 'CFNetServiceGetTXTData'
+    'body': 'CFNetServiceGetTXTData(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetTargetHost':
+    'prefix': 'CFNetServiceGetTargetHost'
+    'body': 'CFNetServiceGetTargetHost(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetType':
+    'prefix': 'CFNetServiceGetType'
+    'body': 'CFNetServiceGetType(${1:CFNetServiceRef theService})'
+  'CFNetServiceGetTypeID':
+    'prefix': 'CFNetServiceGetTypeID'
+    'body': 'CFNetServiceGetTypeID()'
+  'CFNetServiceMonitorCreate':
+    'prefix': 'CFNetServiceMonitorCreate'
+    'body': 'CFNetServiceMonitorCreate(${1:CFAllocatorRef alloc}, ${2:CFNetServiceRef theService}, ${3:CFNetServiceMonitorClientCallBack clientCB}, ${4:CFNetServiceClientContext* clientContext})'
+  'CFNetServiceMonitorGetTypeID':
+    'prefix': 'CFNetServiceMonitorGetTypeID'
+    'body': 'CFNetServiceMonitorGetTypeID()'
+  'CFNetServiceMonitorInvalidate':
+    'prefix': 'CFNetServiceMonitorInvalidate'
+    'body': 'CFNetServiceMonitorInvalidate(${1:CFNetServiceMonitorRef monitor})'
+  'CFNetServiceMonitorScheduleWithRunLoop':
+    'prefix': 'CFNetServiceMonitorScheduleWithRunLoop'
+    'body': 'CFNetServiceMonitorScheduleWithRunLoop(${1:CFNetServiceMonitorRef monitor}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetServiceMonitorStart':
+    'prefix': 'CFNetServiceMonitorStart'
+    'body': 'CFNetServiceMonitorStart(${1:CFNetServiceMonitorRef monitor}, ${2:CFNetServiceMonitorType recordType}, ${3:CFStreamError* error})'
+  'CFNetServiceMonitorStop':
+    'prefix': 'CFNetServiceMonitorStop'
+    'body': 'CFNetServiceMonitorStop(${1:CFNetServiceMonitorRef monitor}, ${2:CFStreamError* error})'
+  'CFNetServiceMonitorUnscheduleFromRunLoop':
+    'prefix': 'CFNetServiceMonitorUnscheduleFromRunLoop'
+    'body': 'CFNetServiceMonitorUnscheduleFromRunLoop(${1:CFNetServiceMonitorRef monitor}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetServiceRegisterWithOptions':
+    'prefix': 'CFNetServiceRegisterWithOptions'
+    'body': 'CFNetServiceRegisterWithOptions(${1:CFNetServiceRef theService}, ${2:CFOptionFlags options}, ${3:CFStreamError* error})'
+  'CFNetServiceResolveWithTimeout':
+    'prefix': 'CFNetServiceResolveWithTimeout'
+    'body': 'CFNetServiceResolveWithTimeout(${1:CFNetServiceRef theService}, ${2:CFTimeInterval timeout}, ${3:CFStreamError* error})'
+  'CFNetServiceScheduleWithRunLoop':
+    'prefix': 'CFNetServiceScheduleWithRunLoop'
+    'body': 'CFNetServiceScheduleWithRunLoop(${1:CFNetServiceRef theService}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetServiceSetClient':
+    'prefix': 'CFNetServiceSetClient'
+    'body': 'CFNetServiceSetClient(${1:CFNetServiceRef theService}, ${2:CFNetServiceClientCallBack clientCB}, ${3:CFNetServiceClientContext* clientContext})'
+  'CFNetServiceSetTXTData':
+    'prefix': 'CFNetServiceSetTXTData'
+    'body': 'CFNetServiceSetTXTData(${1:CFNetServiceRef theService}, ${2:CFDataRef txtRecord})'
+  'CFNetServiceUnscheduleFromRunLoop':
+    'prefix': 'CFNetServiceUnscheduleFromRunLoop'
+    'body': 'CFNetServiceUnscheduleFromRunLoop(${1:CFNetServiceRef theService}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'CFNetworkCopyProxiesForAutoConfigurationScript':
+    'prefix': 'CFNetworkCopyProxiesForAutoConfigurationScript'
+    'body': 'CFNetworkCopyProxiesForAutoConfigurationScript(${1:CFStringRef proxyAutoConfigurationScript}, ${2:CFURLRef targetURL}, ${3:CFErrorRef* error})'
+  'CFNetworkCopyProxiesForURL':
+    'prefix': 'CFNetworkCopyProxiesForURL'
+    'body': 'CFNetworkCopyProxiesForURL(${1:CFURLRef url}, ${2:CFDictionaryRef proxySettings})'
+  'CFNetworkCopySystemProxySettings':
+    'prefix': 'CFNetworkCopySystemProxySettings'
+    'body': 'CFNetworkCopySystemProxySettings()'
+  'CFNetworkExecuteProxyAutoConfigurationScript':
+    'prefix': 'CFNetworkExecuteProxyAutoConfigurationScript'
+    'body': 'CFNetworkExecuteProxyAutoConfigurationScript(${1:CFStringRef proxyAutoConfigurationScript}, ${2:CFURLRef targetURL}, ${3:CFProxyAutoConfigurationResultCallback cb}, ${4:CFStreamClientContext* clientContext})'
+  'CFNetworkExecuteProxyAutoConfigurationURL':
+    'prefix': 'CFNetworkExecuteProxyAutoConfigurationURL'
+    'body': 'CFNetworkExecuteProxyAutoConfigurationURL(${1:CFURLRef proxyAutoConfigURL}, ${2:CFURLRef targetURL}, ${3:CFProxyAutoConfigurationResultCallback cb}, ${4:CFStreamClientContext* clientContext})'
+  'CFReadStreamCreateForHTTPRequest':
+    'prefix': 'CFReadStreamCreateForHTTPRequest'
+    'body': 'CFReadStreamCreateForHTTPRequest(${1:CFAllocatorRef alloc}, ${2:CFHTTPMessageRef request})'
+  'CFReadStreamCreateForStreamedHTTPRequest':
+    'prefix': 'CFReadStreamCreateForStreamedHTTPRequest'
+    'body': 'CFReadStreamCreateForStreamedHTTPRequest(${1:CFAllocatorRef alloc}, ${2:CFHTTPMessageRef requestHeaders}, ${3:CFReadStreamRef requestBody})'
+  'CFReadStreamCreateWithFTPURL':
+    'prefix': 'CFReadStreamCreateWithFTPURL'
+    'body': 'CFReadStreamCreateWithFTPURL(${1:CFAllocatorRef alloc}, ${2:CFURLRef ftpURL})'
+  'CFSocketStreamSOCKSGetError':
+    'prefix': 'CFSocketStreamSOCKSGetError'
+    'body': 'CFSocketStreamSOCKSGetError(${1:CFStreamError* error})'
+  'CFSocketStreamSOCKSGetErrorSubdomain':
+    'prefix': 'CFSocketStreamSOCKSGetErrorSubdomain'
+    'body': 'CFSocketStreamSOCKSGetErrorSubdomain(${1:CFStreamError* error})'
+  'CFStreamCreatePairWithSocketToCFHost':
+    'prefix': 'CFStreamCreatePairWithSocketToCFHost'
+    'body': 'CFStreamCreatePairWithSocketToCFHost(${1:CFAllocatorRef alloc}, ${2:CFHostRef host}, ${3:SInt32 port}, ${4:CFReadStreamRef* readStream}, ${5:CFWriteStreamRef* writeStream})'
+  'CFStreamCreatePairWithSocketToNetService':
+    'prefix': 'CFStreamCreatePairWithSocketToNetService'
+    'body': 'CFStreamCreatePairWithSocketToNetService(${1:CFAllocatorRef alloc}, ${2:CFNetServiceRef service}, ${3:CFReadStreamRef* readStream}, ${4:CFWriteStreamRef* writeStream})'
+  'CFWriteStreamCreateWithFTPURL':
+    'prefix': 'CFWriteStreamCreateWithFTPURL'
+    'body': 'CFWriteStreamCreateWithFTPURL(${1:CFAllocatorRef alloc}, ${2:CFURLRef ftpURL})'

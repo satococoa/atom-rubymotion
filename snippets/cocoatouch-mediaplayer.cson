@@ -1,0 +1,1360 @@
+'.source.rubymotion':
+  'MPMediaEntityPropertyPersistentID (NSString*)':
+    'prefix': 'MPMediaEntityPropertyPersistentID'
+    'body': 'MPMediaEntityPropertyPersistentID'
+  'MPMediaItemPropertyAlbumArtist (NSString*)':
+    'prefix': 'MPMediaItemPropertyAlbumArtist'
+    'body': 'MPMediaItemPropertyAlbumArtist'
+  'MPMediaItemPropertyAlbumArtistPersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyAlbumArtistPersistentID'
+    'body': 'MPMediaItemPropertyAlbumArtistPersistentID'
+  'MPMediaItemPropertyAlbumPersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyAlbumPersistentID'
+    'body': 'MPMediaItemPropertyAlbumPersistentID'
+  'MPMediaItemPropertyAlbumTitle (NSString*)':
+    'prefix': 'MPMediaItemPropertyAlbumTitle'
+    'body': 'MPMediaItemPropertyAlbumTitle'
+  'MPMediaItemPropertyAlbumTrackCount (NSString*)':
+    'prefix': 'MPMediaItemPropertyAlbumTrackCount'
+    'body': 'MPMediaItemPropertyAlbumTrackCount'
+  'MPMediaItemPropertyAlbumTrackNumber (NSString*)':
+    'prefix': 'MPMediaItemPropertyAlbumTrackNumber'
+    'body': 'MPMediaItemPropertyAlbumTrackNumber'
+  'MPMediaItemPropertyArtist (NSString*)':
+    'prefix': 'MPMediaItemPropertyArtist'
+    'body': 'MPMediaItemPropertyArtist'
+  'MPMediaItemPropertyArtistPersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyArtistPersistentID'
+    'body': 'MPMediaItemPropertyArtistPersistentID'
+  'MPMediaItemPropertyArtwork (NSString*)':
+    'prefix': 'MPMediaItemPropertyArtwork'
+    'body': 'MPMediaItemPropertyArtwork'
+  'MPMediaItemPropertyAssetURL (NSString*)':
+    'prefix': 'MPMediaItemPropertyAssetURL'
+    'body': 'MPMediaItemPropertyAssetURL'
+  'MPMediaItemPropertyBeatsPerMinute (NSString*)':
+    'prefix': 'MPMediaItemPropertyBeatsPerMinute'
+    'body': 'MPMediaItemPropertyBeatsPerMinute'
+  'MPMediaItemPropertyBookmarkTime (NSString*)':
+    'prefix': 'MPMediaItemPropertyBookmarkTime'
+    'body': 'MPMediaItemPropertyBookmarkTime'
+  'MPMediaItemPropertyComments (NSString*)':
+    'prefix': 'MPMediaItemPropertyComments'
+    'body': 'MPMediaItemPropertyComments'
+  'MPMediaItemPropertyComposer (NSString*)':
+    'prefix': 'MPMediaItemPropertyComposer'
+    'body': 'MPMediaItemPropertyComposer'
+  'MPMediaItemPropertyComposerPersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyComposerPersistentID'
+    'body': 'MPMediaItemPropertyComposerPersistentID'
+  'MPMediaItemPropertyDiscCount (NSString*)':
+    'prefix': 'MPMediaItemPropertyDiscCount'
+    'body': 'MPMediaItemPropertyDiscCount'
+  'MPMediaItemPropertyDiscNumber (NSString*)':
+    'prefix': 'MPMediaItemPropertyDiscNumber'
+    'body': 'MPMediaItemPropertyDiscNumber'
+  'MPMediaItemPropertyGenre (NSString*)':
+    'prefix': 'MPMediaItemPropertyGenre'
+    'body': 'MPMediaItemPropertyGenre'
+  'MPMediaItemPropertyGenrePersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyGenrePersistentID'
+    'body': 'MPMediaItemPropertyGenrePersistentID'
+  'MPMediaItemPropertyIsCloudItem (NSString*)':
+    'prefix': 'MPMediaItemPropertyIsCloudItem'
+    'body': 'MPMediaItemPropertyIsCloudItem'
+  'MPMediaItemPropertyIsCompilation (NSString*)':
+    'prefix': 'MPMediaItemPropertyIsCompilation'
+    'body': 'MPMediaItemPropertyIsCompilation'
+  'MPMediaItemPropertyLastPlayedDate (NSString*)':
+    'prefix': 'MPMediaItemPropertyLastPlayedDate'
+    'body': 'MPMediaItemPropertyLastPlayedDate'
+  'MPMediaItemPropertyLyrics (NSString*)':
+    'prefix': 'MPMediaItemPropertyLyrics'
+    'body': 'MPMediaItemPropertyLyrics'
+  'MPMediaItemPropertyMediaType (NSString*)':
+    'prefix': 'MPMediaItemPropertyMediaType'
+    'body': 'MPMediaItemPropertyMediaType'
+  'MPMediaItemPropertyPersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyPersistentID'
+    'body': 'MPMediaItemPropertyPersistentID'
+  'MPMediaItemPropertyPlayCount (NSString*)':
+    'prefix': 'MPMediaItemPropertyPlayCount'
+    'body': 'MPMediaItemPropertyPlayCount'
+  'MPMediaItemPropertyPlaybackDuration (NSString*)':
+    'prefix': 'MPMediaItemPropertyPlaybackDuration'
+    'body': 'MPMediaItemPropertyPlaybackDuration'
+  'MPMediaItemPropertyPodcastPersistentID (NSString*)':
+    'prefix': 'MPMediaItemPropertyPodcastPersistentID'
+    'body': 'MPMediaItemPropertyPodcastPersistentID'
+  'MPMediaItemPropertyPodcastTitle (NSString*)':
+    'prefix': 'MPMediaItemPropertyPodcastTitle'
+    'body': 'MPMediaItemPropertyPodcastTitle'
+  'MPMediaItemPropertyRating (NSString*)':
+    'prefix': 'MPMediaItemPropertyRating'
+    'body': 'MPMediaItemPropertyRating'
+  'MPMediaItemPropertyReleaseDate (NSString*)':
+    'prefix': 'MPMediaItemPropertyReleaseDate'
+    'body': 'MPMediaItemPropertyReleaseDate'
+  'MPMediaItemPropertySkipCount (NSString*)':
+    'prefix': 'MPMediaItemPropertySkipCount'
+    'body': 'MPMediaItemPropertySkipCount'
+  'MPMediaItemPropertyTitle (NSString*)':
+    'prefix': 'MPMediaItemPropertyTitle'
+    'body': 'MPMediaItemPropertyTitle'
+  'MPMediaItemPropertyUserGrouping (NSString*)':
+    'prefix': 'MPMediaItemPropertyUserGrouping'
+    'body': 'MPMediaItemPropertyUserGrouping'
+  'MPMediaLibraryDidChangeNotification (NSString*)':
+    'prefix': 'MPMediaLibraryDidChangeNotification'
+    'body': 'MPMediaLibraryDidChangeNotification'
+  'MPMediaPlaybackIsPreparedToPlayDidChangeNotification (NSString*)':
+    'prefix': 'MPMediaPlaybackIsPreparedToPlayDidChangeNotification'
+    'body': 'MPMediaPlaybackIsPreparedToPlayDidChangeNotification'
+  'MPMediaPlaylistPropertyName (NSString*)':
+    'prefix': 'MPMediaPlaylistPropertyName'
+    'body': 'MPMediaPlaylistPropertyName'
+  'MPMediaPlaylistPropertyPersistentID (NSString*)':
+    'prefix': 'MPMediaPlaylistPropertyPersistentID'
+    'body': 'MPMediaPlaylistPropertyPersistentID'
+  'MPMediaPlaylistPropertyPlaylistAttributes (NSString*)':
+    'prefix': 'MPMediaPlaylistPropertyPlaylistAttributes'
+    'body': 'MPMediaPlaylistPropertyPlaylistAttributes'
+  'MPMediaPlaylistPropertySeedItems (NSString*)':
+    'prefix': 'MPMediaPlaylistPropertySeedItems'
+    'body': 'MPMediaPlaylistPropertySeedItems'
+  'MPMovieDurationAvailableNotification (NSString*)':
+    'prefix': 'MPMovieDurationAvailableNotification'
+    'body': 'MPMovieDurationAvailableNotification'
+  'MPMovieMediaTypesAvailableNotification (NSString*)':
+    'prefix': 'MPMovieMediaTypesAvailableNotification'
+    'body': 'MPMovieMediaTypesAvailableNotification'
+  'MPMovieNaturalSizeAvailableNotification (NSString*)':
+    'prefix': 'MPMovieNaturalSizeAvailableNotification'
+    'body': 'MPMovieNaturalSizeAvailableNotification'
+  'MPMoviePlayerContentPreloadDidFinishNotification (NSString*)':
+    'prefix': 'MPMoviePlayerContentPreloadDidFinishNotification'
+    'body': 'MPMoviePlayerContentPreloadDidFinishNotification'
+  'MPMoviePlayerDidEnterFullscreenNotification (NSString*)':
+    'prefix': 'MPMoviePlayerDidEnterFullscreenNotification'
+    'body': 'MPMoviePlayerDidEnterFullscreenNotification'
+  'MPMoviePlayerDidExitFullscreenNotification (NSString*)':
+    'prefix': 'MPMoviePlayerDidExitFullscreenNotification'
+    'body': 'MPMoviePlayerDidExitFullscreenNotification'
+  'MPMoviePlayerFullscreenAnimationCurveUserInfoKey (NSString*)':
+    'prefix': 'MPMoviePlayerFullscreenAnimationCurveUserInfoKey'
+    'body': 'MPMoviePlayerFullscreenAnimationCurveUserInfoKey'
+  'MPMoviePlayerFullscreenAnimationDurationUserInfoKey (NSString*)':
+    'prefix': 'MPMoviePlayerFullscreenAnimationDurationUserInfoKey'
+    'body': 'MPMoviePlayerFullscreenAnimationDurationUserInfoKey'
+  'MPMoviePlayerIsAirPlayVideoActiveDidChangeNotification (NSString*)':
+    'prefix': 'MPMoviePlayerIsAirPlayVideoActiveDidChangeNotification'
+    'body': 'MPMoviePlayerIsAirPlayVideoActiveDidChangeNotification'
+  'MPMoviePlayerLoadStateDidChangeNotification (NSString*)':
+    'prefix': 'MPMoviePlayerLoadStateDidChangeNotification'
+    'body': 'MPMoviePlayerLoadStateDidChangeNotification'
+  'MPMoviePlayerNowPlayingMovieDidChangeNotification (NSString*)':
+    'prefix': 'MPMoviePlayerNowPlayingMovieDidChangeNotification'
+    'body': 'MPMoviePlayerNowPlayingMovieDidChangeNotification'
+  'MPMoviePlayerPlaybackDidFinishNotification (NSString*)':
+    'prefix': 'MPMoviePlayerPlaybackDidFinishNotification'
+    'body': 'MPMoviePlayerPlaybackDidFinishNotification'
+  'MPMoviePlayerPlaybackDidFinishReasonUserInfoKey (NSString*)':
+    'prefix': 'MPMoviePlayerPlaybackDidFinishReasonUserInfoKey'
+    'body': 'MPMoviePlayerPlaybackDidFinishReasonUserInfoKey'
+  'MPMoviePlayerPlaybackStateDidChangeNotification (NSString*)':
+    'prefix': 'MPMoviePlayerPlaybackStateDidChangeNotification'
+    'body': 'MPMoviePlayerPlaybackStateDidChangeNotification'
+  'MPMoviePlayerReadyForDisplayDidChangeNotification (NSString*)':
+    'prefix': 'MPMoviePlayerReadyForDisplayDidChangeNotification'
+    'body': 'MPMoviePlayerReadyForDisplayDidChangeNotification'
+  'MPMoviePlayerScalingModeDidChangeNotification (NSString*)':
+    'prefix': 'MPMoviePlayerScalingModeDidChangeNotification'
+    'body': 'MPMoviePlayerScalingModeDidChangeNotification'
+  'MPMoviePlayerThumbnailErrorKey (NSString*)':
+    'prefix': 'MPMoviePlayerThumbnailErrorKey'
+    'body': 'MPMoviePlayerThumbnailErrorKey'
+  'MPMoviePlayerThumbnailImageKey (NSString*)':
+    'prefix': 'MPMoviePlayerThumbnailImageKey'
+    'body': 'MPMoviePlayerThumbnailImageKey'
+  'MPMoviePlayerThumbnailImageRequestDidFinishNotification (NSString*)':
+    'prefix': 'MPMoviePlayerThumbnailImageRequestDidFinishNotification'
+    'body': 'MPMoviePlayerThumbnailImageRequestDidFinishNotification'
+  'MPMoviePlayerThumbnailTimeKey (NSString*)':
+    'prefix': 'MPMoviePlayerThumbnailTimeKey'
+    'body': 'MPMoviePlayerThumbnailTimeKey'
+  'MPMoviePlayerTimedMetadataKeyDataType (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataKeyDataType'
+    'body': 'MPMoviePlayerTimedMetadataKeyDataType'
+  'MPMoviePlayerTimedMetadataKeyInfo (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataKeyInfo'
+    'body': 'MPMoviePlayerTimedMetadataKeyInfo'
+  'MPMoviePlayerTimedMetadataKeyLanguageCode (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataKeyLanguageCode'
+    'body': 'MPMoviePlayerTimedMetadataKeyLanguageCode'
+  'MPMoviePlayerTimedMetadataKeyMIMEType (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataKeyMIMEType'
+    'body': 'MPMoviePlayerTimedMetadataKeyMIMEType'
+  'MPMoviePlayerTimedMetadataKeyName (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataKeyName'
+    'body': 'MPMoviePlayerTimedMetadataKeyName'
+  'MPMoviePlayerTimedMetadataUpdatedNotification (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataUpdatedNotification'
+    'body': 'MPMoviePlayerTimedMetadataUpdatedNotification'
+  'MPMoviePlayerTimedMetadataUserInfoKey (NSString*)':
+    'prefix': 'MPMoviePlayerTimedMetadataUserInfoKey'
+    'body': 'MPMoviePlayerTimedMetadataUserInfoKey'
+  'MPMoviePlayerWillEnterFullscreenNotification (NSString*)':
+    'prefix': 'MPMoviePlayerWillEnterFullscreenNotification'
+    'body': 'MPMoviePlayerWillEnterFullscreenNotification'
+  'MPMoviePlayerWillExitFullscreenNotification (NSString*)':
+    'prefix': 'MPMoviePlayerWillExitFullscreenNotification'
+    'body': 'MPMoviePlayerWillExitFullscreenNotification'
+  'MPMovieSourceTypeAvailableNotification (NSString*)':
+    'prefix': 'MPMovieSourceTypeAvailableNotification'
+    'body': 'MPMovieSourceTypeAvailableNotification'
+  'MPMusicPlayerControllerNowPlayingItemDidChangeNotification (NSString*)':
+    'prefix': 'MPMusicPlayerControllerNowPlayingItemDidChangeNotification'
+    'body': 'MPMusicPlayerControllerNowPlayingItemDidChangeNotification'
+  'MPMusicPlayerControllerPlaybackStateDidChangeNotification (NSString*)':
+    'prefix': 'MPMusicPlayerControllerPlaybackStateDidChangeNotification'
+    'body': 'MPMusicPlayerControllerPlaybackStateDidChangeNotification'
+  'MPMusicPlayerControllerVolumeDidChangeNotification (NSString*)':
+    'prefix': 'MPMusicPlayerControllerVolumeDidChangeNotification'
+    'body': 'MPMusicPlayerControllerVolumeDidChangeNotification'
+  'MPNowPlayingInfoPropertyChapterCount (NSString*)':
+    'prefix': 'MPNowPlayingInfoPropertyChapterCount'
+    'body': 'MPNowPlayingInfoPropertyChapterCount'
+  'MPNowPlayingInfoPropertyChapterNumber (NSString*)':
+    'prefix': 'MPNowPlayingInfoPropertyChapterNumber'
+    'body': 'MPNowPlayingInfoPropertyChapterNumber'
+  'MPNowPlayingInfoPropertyElapsedPlaybackTime (NSString*)':
+    'prefix': 'MPNowPlayingInfoPropertyElapsedPlaybackTime'
+    'body': 'MPNowPlayingInfoPropertyElapsedPlaybackTime'
+  'MPNowPlayingInfoPropertyPlaybackQueueCount (NSString*)':
+    'prefix': 'MPNowPlayingInfoPropertyPlaybackQueueCount'
+    'body': 'MPNowPlayingInfoPropertyPlaybackQueueCount'
+  'MPNowPlayingInfoPropertyPlaybackQueueIndex (NSString*)':
+    'prefix': 'MPNowPlayingInfoPropertyPlaybackQueueIndex'
+    'body': 'MPNowPlayingInfoPropertyPlaybackQueueIndex'
+  'MPNowPlayingInfoPropertyPlaybackRate (NSString*)':
+    'prefix': 'MPNowPlayingInfoPropertyPlaybackRate'
+    'body': 'MPNowPlayingInfoPropertyPlaybackRate'
+  'MPVolumeViewWirelessRouteActiveDidChangeNotification (NSString*)':
+    'prefix': 'MPVolumeViewWirelessRouteActiveDidChangeNotification'
+    'body': 'MPVolumeViewWirelessRouteActiveDidChangeNotification'
+  'MPVolumeViewWirelessRoutesAvailableDidChangeNotification (NSString*)':
+    'prefix': 'MPVolumeViewWirelessRoutesAvailableDidChangeNotification'
+    'body': 'MPVolumeViewWirelessRoutesAvailableDidChangeNotification'
+  'MPMediaGroupingAlbum (1)':
+    'prefix': 'MPMediaGroupingAlbum'
+    'body': 'MPMediaGroupingAlbum'
+  'MPMediaGroupingAlbumArtist (3)':
+    'prefix': 'MPMediaGroupingAlbumArtist'
+    'body': 'MPMediaGroupingAlbumArtist'
+  'MPMediaGroupingArtist (2)':
+    'prefix': 'MPMediaGroupingArtist'
+    'body': 'MPMediaGroupingArtist'
+  'MPMediaGroupingComposer (4)':
+    'prefix': 'MPMediaGroupingComposer'
+    'body': 'MPMediaGroupingComposer'
+  'MPMediaGroupingGenre (5)':
+    'prefix': 'MPMediaGroupingGenre'
+    'body': 'MPMediaGroupingGenre'
+  'MPMediaGroupingPlaylist (6)':
+    'prefix': 'MPMediaGroupingPlaylist'
+    'body': 'MPMediaGroupingPlaylist'
+  'MPMediaGroupingPodcastTitle (7)':
+    'prefix': 'MPMediaGroupingPodcastTitle'
+    'body': 'MPMediaGroupingPodcastTitle'
+  'MPMediaGroupingTitle (0)':
+    'prefix': 'MPMediaGroupingTitle'
+    'body': 'MPMediaGroupingTitle'
+  'MPMediaPlaylistAttributeGenius (4)':
+    'prefix': 'MPMediaPlaylistAttributeGenius'
+    'body': 'MPMediaPlaylistAttributeGenius'
+  'MPMediaPlaylistAttributeNone (0)':
+    'prefix': 'MPMediaPlaylistAttributeNone'
+    'body': 'MPMediaPlaylistAttributeNone'
+  'MPMediaPlaylistAttributeOnTheGo (1)':
+    'prefix': 'MPMediaPlaylistAttributeOnTheGo'
+    'body': 'MPMediaPlaylistAttributeOnTheGo'
+  'MPMediaPlaylistAttributeSmart (2)':
+    'prefix': 'MPMediaPlaylistAttributeSmart'
+    'body': 'MPMediaPlaylistAttributeSmart'
+  'MPMediaPredicateComparisonContains (1)':
+    'prefix': 'MPMediaPredicateComparisonContains'
+    'body': 'MPMediaPredicateComparisonContains'
+  'MPMediaPredicateComparisonEqualTo (0)':
+    'prefix': 'MPMediaPredicateComparisonEqualTo'
+    'body': 'MPMediaPredicateComparisonEqualTo'
+  'MPMediaTypeAny (4294967295)':
+    'prefix': 'MPMediaTypeAny'
+    'body': 'MPMediaTypeAny'
+  'MPMediaTypeAnyAudio (255)':
+    'prefix': 'MPMediaTypeAnyAudio'
+    'body': 'MPMediaTypeAnyAudio'
+  'MPMediaTypeAnyVideo (65280)':
+    'prefix': 'MPMediaTypeAnyVideo'
+    'body': 'MPMediaTypeAnyVideo'
+  'MPMediaTypeAudioBook (4)':
+    'prefix': 'MPMediaTypeAudioBook'
+    'body': 'MPMediaTypeAudioBook'
+  'MPMediaTypeAudioITunesU (8)':
+    'prefix': 'MPMediaTypeAudioITunesU'
+    'body': 'MPMediaTypeAudioITunesU'
+  'MPMediaTypeHomeVideo (8192)':
+    'prefix': 'MPMediaTypeHomeVideo'
+    'body': 'MPMediaTypeHomeVideo'
+  'MPMediaTypeMovie (256)':
+    'prefix': 'MPMediaTypeMovie'
+    'body': 'MPMediaTypeMovie'
+  'MPMediaTypeMusic (1)':
+    'prefix': 'MPMediaTypeMusic'
+    'body': 'MPMediaTypeMusic'
+  'MPMediaTypeMusicVideo (2048)':
+    'prefix': 'MPMediaTypeMusicVideo'
+    'body': 'MPMediaTypeMusicVideo'
+  'MPMediaTypePodcast (2)':
+    'prefix': 'MPMediaTypePodcast'
+    'body': 'MPMediaTypePodcast'
+  'MPMediaTypeTVShow (512)':
+    'prefix': 'MPMediaTypeTVShow'
+    'body': 'MPMediaTypeTVShow'
+  'MPMediaTypeVideoITunesU (4096)':
+    'prefix': 'MPMediaTypeVideoITunesU'
+    'body': 'MPMediaTypeVideoITunesU'
+  'MPMediaTypeVideoPodcast (1024)':
+    'prefix': 'MPMediaTypeVideoPodcast'
+    'body': 'MPMediaTypeVideoPodcast'
+  'MPMovieControlModeDefault (0)':
+    'prefix': 'MPMovieControlModeDefault'
+    'body': 'MPMovieControlModeDefault'
+  'MPMovieControlModeHidden (2)':
+    'prefix': 'MPMovieControlModeHidden'
+    'body': 'MPMovieControlModeHidden'
+  'MPMovieControlModeVolumeOnly (1)':
+    'prefix': 'MPMovieControlModeVolumeOnly'
+    'body': 'MPMovieControlModeVolumeOnly'
+  'MPMovieControlStyleDefault (1)':
+    'prefix': 'MPMovieControlStyleDefault'
+    'body': 'MPMovieControlStyleDefault'
+  'MPMovieControlStyleEmbedded (1)':
+    'prefix': 'MPMovieControlStyleEmbedded'
+    'body': 'MPMovieControlStyleEmbedded'
+  'MPMovieControlStyleFullscreen (2)':
+    'prefix': 'MPMovieControlStyleFullscreen'
+    'body': 'MPMovieControlStyleFullscreen'
+  'MPMovieControlStyleNone (0)':
+    'prefix': 'MPMovieControlStyleNone'
+    'body': 'MPMovieControlStyleNone'
+  'MPMovieFinishReasonPlaybackEnded (0)':
+    'prefix': 'MPMovieFinishReasonPlaybackEnded'
+    'body': 'MPMovieFinishReasonPlaybackEnded'
+  'MPMovieFinishReasonPlaybackError (1)':
+    'prefix': 'MPMovieFinishReasonPlaybackError'
+    'body': 'MPMovieFinishReasonPlaybackError'
+  'MPMovieFinishReasonUserExited (2)':
+    'prefix': 'MPMovieFinishReasonUserExited'
+    'body': 'MPMovieFinishReasonUserExited'
+  'MPMovieLoadStatePlayable (1)':
+    'prefix': 'MPMovieLoadStatePlayable'
+    'body': 'MPMovieLoadStatePlayable'
+  'MPMovieLoadStatePlaythroughOK (2)':
+    'prefix': 'MPMovieLoadStatePlaythroughOK'
+    'body': 'MPMovieLoadStatePlaythroughOK'
+  'MPMovieLoadStateStalled (4)':
+    'prefix': 'MPMovieLoadStateStalled'
+    'body': 'MPMovieLoadStateStalled'
+  'MPMovieLoadStateUnknown (0)':
+    'prefix': 'MPMovieLoadStateUnknown'
+    'body': 'MPMovieLoadStateUnknown'
+  'MPMovieMediaTypeMaskAudio (2)':
+    'prefix': 'MPMovieMediaTypeMaskAudio'
+    'body': 'MPMovieMediaTypeMaskAudio'
+  'MPMovieMediaTypeMaskNone (0)':
+    'prefix': 'MPMovieMediaTypeMaskNone'
+    'body': 'MPMovieMediaTypeMaskNone'
+  'MPMovieMediaTypeMaskVideo (1)':
+    'prefix': 'MPMovieMediaTypeMaskVideo'
+    'body': 'MPMovieMediaTypeMaskVideo'
+  'MPMoviePlaybackStateInterrupted (3)':
+    'prefix': 'MPMoviePlaybackStateInterrupted'
+    'body': 'MPMoviePlaybackStateInterrupted'
+  'MPMoviePlaybackStatePaused (2)':
+    'prefix': 'MPMoviePlaybackStatePaused'
+    'body': 'MPMoviePlaybackStatePaused'
+  'MPMoviePlaybackStatePlaying (1)':
+    'prefix': 'MPMoviePlaybackStatePlaying'
+    'body': 'MPMoviePlaybackStatePlaying'
+  'MPMoviePlaybackStateSeekingBackward (5)':
+    'prefix': 'MPMoviePlaybackStateSeekingBackward'
+    'body': 'MPMoviePlaybackStateSeekingBackward'
+  'MPMoviePlaybackStateSeekingForward (4)':
+    'prefix': 'MPMoviePlaybackStateSeekingForward'
+    'body': 'MPMoviePlaybackStateSeekingForward'
+  'MPMoviePlaybackStateStopped (0)':
+    'prefix': 'MPMoviePlaybackStateStopped'
+    'body': 'MPMoviePlaybackStateStopped'
+  'MPMovieRepeatModeNone (0)':
+    'prefix': 'MPMovieRepeatModeNone'
+    'body': 'MPMovieRepeatModeNone'
+  'MPMovieRepeatModeOne (1)':
+    'prefix': 'MPMovieRepeatModeOne'
+    'body': 'MPMovieRepeatModeOne'
+  'MPMovieScalingModeAspectFill (2)':
+    'prefix': 'MPMovieScalingModeAspectFill'
+    'body': 'MPMovieScalingModeAspectFill'
+  'MPMovieScalingModeAspectFit (1)':
+    'prefix': 'MPMovieScalingModeAspectFit'
+    'body': 'MPMovieScalingModeAspectFit'
+  'MPMovieScalingModeFill (3)':
+    'prefix': 'MPMovieScalingModeFill'
+    'body': 'MPMovieScalingModeFill'
+  'MPMovieScalingModeNone (0)':
+    'prefix': 'MPMovieScalingModeNone'
+    'body': 'MPMovieScalingModeNone'
+  'MPMovieSourceTypeFile (1)':
+    'prefix': 'MPMovieSourceTypeFile'
+    'body': 'MPMovieSourceTypeFile'
+  'MPMovieSourceTypeStreaming (2)':
+    'prefix': 'MPMovieSourceTypeStreaming'
+    'body': 'MPMovieSourceTypeStreaming'
+  'MPMovieSourceTypeUnknown (0)':
+    'prefix': 'MPMovieSourceTypeUnknown'
+    'body': 'MPMovieSourceTypeUnknown'
+  'MPMovieTimeOptionExact (1)':
+    'prefix': 'MPMovieTimeOptionExact'
+    'body': 'MPMovieTimeOptionExact'
+  'MPMovieTimeOptionNearestKeyFrame (0)':
+    'prefix': 'MPMovieTimeOptionNearestKeyFrame'
+    'body': 'MPMovieTimeOptionNearestKeyFrame'
+  'MPMusicPlaybackStateInterrupted (3)':
+    'prefix': 'MPMusicPlaybackStateInterrupted'
+    'body': 'MPMusicPlaybackStateInterrupted'
+  'MPMusicPlaybackStatePaused (2)':
+    'prefix': 'MPMusicPlaybackStatePaused'
+    'body': 'MPMusicPlaybackStatePaused'
+  'MPMusicPlaybackStatePlaying (1)':
+    'prefix': 'MPMusicPlaybackStatePlaying'
+    'body': 'MPMusicPlaybackStatePlaying'
+  'MPMusicPlaybackStateSeekingBackward (5)':
+    'prefix': 'MPMusicPlaybackStateSeekingBackward'
+    'body': 'MPMusicPlaybackStateSeekingBackward'
+  'MPMusicPlaybackStateSeekingForward (4)':
+    'prefix': 'MPMusicPlaybackStateSeekingForward'
+    'body': 'MPMusicPlaybackStateSeekingForward'
+  'MPMusicPlaybackStateStopped (0)':
+    'prefix': 'MPMusicPlaybackStateStopped'
+    'body': 'MPMusicPlaybackStateStopped'
+  'MPMusicRepeatModeAll (3)':
+    'prefix': 'MPMusicRepeatModeAll'
+    'body': 'MPMusicRepeatModeAll'
+  'MPMusicRepeatModeDefault (0)':
+    'prefix': 'MPMusicRepeatModeDefault'
+    'body': 'MPMusicRepeatModeDefault'
+  'MPMusicRepeatModeNone (1)':
+    'prefix': 'MPMusicRepeatModeNone'
+    'body': 'MPMusicRepeatModeNone'
+  'MPMusicRepeatModeOne (2)':
+    'prefix': 'MPMusicRepeatModeOne'
+    'body': 'MPMusicRepeatModeOne'
+  'MPMusicShuffleModeAlbums (3)':
+    'prefix': 'MPMusicShuffleModeAlbums'
+    'body': 'MPMusicShuffleModeAlbums'
+  'MPMusicShuffleModeDefault (0)':
+    'prefix': 'MPMusicShuffleModeDefault'
+    'body': 'MPMusicShuffleModeDefault'
+  'MPMusicShuffleModeOff (1)':
+    'prefix': 'MPMusicShuffleModeOff'
+    'body': 'MPMusicShuffleModeOff'
+  'MPMusicShuffleModeSongs (2)':
+    'prefix': 'MPMusicShuffleModeSongs'
+    'body': 'MPMusicShuffleModeSongs'
+  'MPRemoteCommandHandlerStatusCommandFailed (200)':
+    'prefix': 'MPRemoteCommandHandlerStatusCommandFailed'
+    'body': 'MPRemoteCommandHandlerStatusCommandFailed'
+  'MPRemoteCommandHandlerStatusNoSuchContent (100)':
+    'prefix': 'MPRemoteCommandHandlerStatusNoSuchContent'
+    'body': 'MPRemoteCommandHandlerStatusNoSuchContent'
+  'MPRemoteCommandHandlerStatusSuccess (0)':
+    'prefix': 'MPRemoteCommandHandlerStatusSuccess'
+    'body': 'MPRemoteCommandHandlerStatusSuccess'
+  'MPSeekCommandEventTypeBeginSeeking (0)':
+    'prefix': 'MPSeekCommandEventTypeBeginSeeking'
+    'body': 'MPSeekCommandEventTypeBeginSeeking'
+  'MPSeekCommandEventTypeEndSeeking (1)':
+    'prefix': 'MPSeekCommandEventTypeEndSeeking'
+    'body': 'MPSeekCommandEventTypeEndSeeking'
+  'MPVolumeSettingsAlertHide':
+    'prefix': 'MPVolumeSettingsAlertHide'
+    'body': 'MPVolumeSettingsAlertHide()'
+  'MPVolumeSettingsAlertIsVisible':
+    'prefix': 'MPVolumeSettingsAlertIsVisible'
+    'body': 'MPVolumeSettingsAlertIsVisible()'
+  'MPVolumeSettingsAlertShow':
+    'prefix': 'MPVolumeSettingsAlertShow'
+    'body': 'MPVolumeSettingsAlertShow()'
+  'setSupportedPlaybackRates:':
+    'prefix': 'setSupportedPlaybackRates:'
+    'body': 'setSupportedPlaybackRates(${1:NSArray* supportedPlaybackRates})'
+  'supportedPlaybackRates':
+    'prefix': 'supportedPlaybackRates'
+    'body': 'supportedPlaybackRates()'
+  'playbackRate':
+    'prefix': 'playbackRate'
+    'body': 'playbackRate()'
+  'artwork':
+    'prefix': 'artwork'
+    'body': 'artwork()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'initWithIdentifier:':
+    'prefix': 'initWithIdentifier:'
+    'body': 'initWithIdentifier(${1:NSString* identifier})'
+  'isContainer':
+    'prefix': 'isContainer'
+    'body': 'isContainer()'
+  'isPlayable':
+    'prefix': 'isPlayable'
+    'body': 'isPlayable()'
+  'playbackProgress':
+    'prefix': 'playbackProgress'
+    'body': 'playbackProgress()'
+  'setArtwork:':
+    'prefix': 'setArtwork:'
+    'body': 'setArtwork(${1:MPMediaItemArtwork* artwork})'
+  'setContainer:':
+    'prefix': 'setContainer:'
+    'body': 'setContainer(${1:BOOL container})'
+  'setPlayable:':
+    'prefix': 'setPlayable:'
+    'body': 'setPlayable(${1:BOOL playable})'
+  'setPlaybackProgress:':
+    'prefix': 'setPlaybackProgress:'
+    'body': 'setPlaybackProgress(${1:float playbackProgress})'
+  'setSubtitle:':
+    'prefix': 'setSubtitle:'
+    'body': 'setSubtitle(${1:NSString* subtitle})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* title})'
+  'subtitle':
+    'prefix': 'subtitle'
+    'body': 'subtitle()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'isActive':
+    'prefix': 'isActive'
+    'body': 'isActive()'
+  'localizedTitle':
+    'prefix': 'localizedTitle'
+    'body': 'localizedTitle()'
+  'setActive:':
+    'prefix': 'setActive:'
+    'body': 'setActive(${1:BOOL active})'
+  'setLocalizedTitle:':
+    'prefix': 'setLocalizedTitle:'
+    'body': 'setLocalizedTitle(${1:NSString* localizedTitle})'
+  'MPMediaEntity.canFilterByProperty:':
+    'prefix': 'canFilterByProperty:'
+    'body': 'MPMediaEntity.canFilterByProperty(${1:NSString* property})'
+  'enumerateValuesForProperties:usingBlock:':
+    'prefix': 'enumerateValuesForProperties:usingBlock:'
+    'body': 'enumerateValuesForProperties(${1:NSSet* properties}, usingBlock:${2:void (^)(NSString *, id, BOOL *) block})'
+  'valueForProperty:':
+    'prefix': 'valueForProperty:'
+    'body': 'valueForProperty(${1:NSString* property})'
+  'MPMediaItem.persistentIDPropertyForGroupingType:':
+    'prefix': 'persistentIDPropertyForGroupingType:'
+    'body': 'MPMediaItem.persistentIDPropertyForGroupingType(${1:MPMediaGrouping groupingType})'
+  'MPMediaItem.titlePropertyForGroupingType:':
+    'prefix': 'titlePropertyForGroupingType:'
+    'body': 'MPMediaItem.titlePropertyForGroupingType(${1:MPMediaGrouping groupingType})'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'imageCropRect':
+    'prefix': 'imageCropRect'
+    'body': 'imageCropRect()'
+  'imageWithSize:':
+    'prefix': 'imageWithSize:'
+    'body': 'imageWithSize(${1:CGSize size})'
+  'initWithImage:':
+    'prefix': 'initWithImage:'
+    'body': 'initWithImage(${1:UIImage* image})'
+  'MPMediaItemCollection.collectionWithItems:':
+    'prefix': 'collectionWithItems:'
+    'body': 'MPMediaItemCollection.collectionWithItems(${1:NSArray* items})'
+  'count':
+    'prefix': 'count'
+    'body': 'count()'
+  'initWithItems:':
+    'prefix': 'initWithItems:'
+    'body': 'initWithItems(${1:NSArray* items})'
+  'items':
+    'prefix': 'items'
+    'body': 'items()'
+  'mediaTypes':
+    'prefix': 'mediaTypes'
+    'body': 'mediaTypes()'
+  'representativeItem':
+    'prefix': 'representativeItem'
+    'body': 'representativeItem()'
+  'beginGeneratingLibraryChangeNotifications':
+    'prefix': 'beginGeneratingLibraryChangeNotifications'
+    'body': 'beginGeneratingLibraryChangeNotifications()'
+  'MPMediaLibrary.defaultMediaLibrary':
+    'prefix': 'defaultMediaLibrary'
+    'body': 'MPMediaLibrary.defaultMediaLibrary()'
+  'endGeneratingLibraryChangeNotifications':
+    'prefix': 'endGeneratingLibraryChangeNotifications'
+    'body': 'endGeneratingLibraryChangeNotifications()'
+  'lastModifiedDate':
+    'prefix': 'lastModifiedDate'
+    'body': 'lastModifiedDate()'
+  'allowsPickingMultipleItems':
+    'prefix': 'allowsPickingMultipleItems'
+    'body': 'allowsPickingMultipleItems()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithMediaTypes:':
+    'prefix': 'initWithMediaTypes:'
+    'body': 'initWithMediaTypes(${1:MPMediaType mediaTypes})'
+  'mediaTypes':
+    'prefix': 'mediaTypes'
+    'body': 'mediaTypes()'
+  'prompt':
+    'prefix': 'prompt'
+    'body': 'prompt()'
+  'setAllowsPickingMultipleItems:':
+    'prefix': 'setAllowsPickingMultipleItems:'
+    'body': 'setAllowsPickingMultipleItems(${1:BOOL allowsPickingMultipleItems})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setPrompt:':
+    'prefix': 'setPrompt:'
+    'body': 'setPrompt(${1:NSString* prompt})'
+  'setShowsCloudItems:':
+    'prefix': 'setShowsCloudItems:'
+    'body': 'setShowsCloudItems(${1:BOOL showsCloudItems})'
+  'showsCloudItems':
+    'prefix': 'showsCloudItems'
+    'body': 'showsCloudItems()'
+  'comparisonType':
+    'prefix': 'comparisonType'
+    'body': 'comparisonType()'
+  'MPMediaPropertyPredicate.predicateWithValue:forProperty:':
+    'prefix': 'predicateWithValue:forProperty:'
+    'body': 'MPMediaPropertyPredicate.predicateWithValue(${1:id value}, forProperty:${2:NSString* property})'
+  'MPMediaPropertyPredicate.predicateWithValue:forProperty:comparisonType:':
+    'prefix': 'predicateWithValue:forProperty:comparisonType:'
+    'body': 'MPMediaPropertyPredicate.predicateWithValue(${1:id value}, forProperty:${2:NSString* property}, comparisonType:${3:MPMediaPredicateComparison comparisonType})'
+  'property':
+    'prefix': 'property'
+    'body': 'property()'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'addFilterPredicate:':
+    'prefix': 'addFilterPredicate:'
+    'body': 'addFilterPredicate(${1:MPMediaPredicate* predicate})'
+  'MPMediaQuery.albumsQuery':
+    'prefix': 'albumsQuery'
+    'body': 'MPMediaQuery.albumsQuery()'
+  'MPMediaQuery.artistsQuery':
+    'prefix': 'artistsQuery'
+    'body': 'MPMediaQuery.artistsQuery()'
+  'MPMediaQuery.audiobooksQuery':
+    'prefix': 'audiobooksQuery'
+    'body': 'MPMediaQuery.audiobooksQuery()'
+  'collectionSections':
+    'prefix': 'collectionSections'
+    'body': 'collectionSections()'
+  'collections':
+    'prefix': 'collections'
+    'body': 'collections()'
+  'MPMediaQuery.compilationsQuery':
+    'prefix': 'compilationsQuery'
+    'body': 'MPMediaQuery.compilationsQuery()'
+  'MPMediaQuery.composersQuery':
+    'prefix': 'composersQuery'
+    'body': 'MPMediaQuery.composersQuery()'
+  'filterPredicates':
+    'prefix': 'filterPredicates'
+    'body': 'filterPredicates()'
+  'MPMediaQuery.genresQuery':
+    'prefix': 'genresQuery'
+    'body': 'MPMediaQuery.genresQuery()'
+  'groupingType':
+    'prefix': 'groupingType'
+    'body': 'groupingType()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithFilterPredicates:':
+    'prefix': 'initWithFilterPredicates:'
+    'body': 'initWithFilterPredicates(${1:NSSet* filterPredicates})'
+  'itemSections':
+    'prefix': 'itemSections'
+    'body': 'itemSections()'
+  'items':
+    'prefix': 'items'
+    'body': 'items()'
+  'MPMediaQuery.playlistsQuery':
+    'prefix': 'playlistsQuery'
+    'body': 'MPMediaQuery.playlistsQuery()'
+  'MPMediaQuery.podcastsQuery':
+    'prefix': 'podcastsQuery'
+    'body': 'MPMediaQuery.podcastsQuery()'
+  'removeFilterPredicate:':
+    'prefix': 'removeFilterPredicate:'
+    'body': 'removeFilterPredicate(${1:MPMediaPredicate* predicate})'
+  'setFilterPredicates:':
+    'prefix': 'setFilterPredicates:'
+    'body': 'setFilterPredicates(${1:NSSet* filterPredicates})'
+  'setGroupingType:':
+    'prefix': 'setGroupingType:'
+    'body': 'setGroupingType(${1:MPMediaGrouping groupingType})'
+  'MPMediaQuery.songsQuery':
+    'prefix': 'songsQuery'
+    'body': 'MPMediaQuery.songsQuery()'
+  'range':
+    'prefix': 'range'
+    'body': 'range()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'events':
+    'prefix': 'events'
+    'body': 'events()'
+  'extendedLogData':
+    'prefix': 'extendedLogData'
+    'body': 'extendedLogData()'
+  'extendedLogDataStringEncoding':
+    'prefix': 'extendedLogDataStringEncoding'
+    'body': 'extendedLogDataStringEncoding()'
+  'URI':
+    'prefix': 'URI'
+    'body': 'URI()'
+  'durationWatched':
+    'prefix': 'durationWatched'
+    'body': 'durationWatched()'
+  'indicatedBitrate':
+    'prefix': 'indicatedBitrate'
+    'body': 'indicatedBitrate()'
+  'numberOfBytesTransferred':
+    'prefix': 'numberOfBytesTransferred'
+    'body': 'numberOfBytesTransferred()'
+  'numberOfDroppedVideoFrames':
+    'prefix': 'numberOfDroppedVideoFrames'
+    'body': 'numberOfDroppedVideoFrames()'
+  'numberOfSegmentsDownloaded':
+    'prefix': 'numberOfSegmentsDownloaded'
+    'body': 'numberOfSegmentsDownloaded()'
+  'numberOfServerAddressChanges':
+    'prefix': 'numberOfServerAddressChanges'
+    'body': 'numberOfServerAddressChanges()'
+  'numberOfStalls':
+    'prefix': 'numberOfStalls'
+    'body': 'numberOfStalls()'
+  'observedBitrate':
+    'prefix': 'observedBitrate'
+    'body': 'observedBitrate()'
+  'playbackSessionID':
+    'prefix': 'playbackSessionID'
+    'body': 'playbackSessionID()'
+  'playbackStartDate':
+    'prefix': 'playbackStartDate'
+    'body': 'playbackStartDate()'
+  'playbackStartOffset':
+    'prefix': 'playbackStartOffset'
+    'body': 'playbackStartOffset()'
+  'segmentsDownloadedDuration':
+    'prefix': 'segmentsDownloadedDuration'
+    'body': 'segmentsDownloadedDuration()'
+  'serverAddress':
+    'prefix': 'serverAddress'
+    'body': 'serverAddress()'
+  'events':
+    'prefix': 'events'
+    'body': 'events()'
+  'extendedLogData':
+    'prefix': 'extendedLogData'
+    'body': 'extendedLogData()'
+  'extendedLogDataStringEncoding':
+    'prefix': 'extendedLogDataStringEncoding'
+    'body': 'extendedLogDataStringEncoding()'
+  'URI':
+    'prefix': 'URI'
+    'body': 'URI()'
+  'date':
+    'prefix': 'date'
+    'body': 'date()'
+  'errorComment':
+    'prefix': 'errorComment'
+    'body': 'errorComment()'
+  'errorDomain':
+    'prefix': 'errorDomain'
+    'body': 'errorDomain()'
+  'errorStatusCode':
+    'prefix': 'errorStatusCode'
+    'body': 'errorStatusCode()'
+  'playbackSessionID':
+    'prefix': 'playbackSessionID'
+    'body': 'playbackSessionID()'
+  'serverAddress':
+    'prefix': 'serverAddress'
+    'body': 'serverAddress()'
+  'accessLog':
+    'prefix': 'accessLog'
+    'body': 'accessLog()'
+  'allowsAirPlay':
+    'prefix': 'allowsAirPlay'
+    'body': 'allowsAirPlay()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'backgroundView':
+    'prefix': 'backgroundView'
+    'body': 'backgroundView()'
+  'cancelAllThumbnailImageRequests':
+    'prefix': 'cancelAllThumbnailImageRequests'
+    'body': 'cancelAllThumbnailImageRequests()'
+  'contentURL':
+    'prefix': 'contentURL'
+    'body': 'contentURL()'
+  'controlStyle':
+    'prefix': 'controlStyle'
+    'body': 'controlStyle()'
+  'duration':
+    'prefix': 'duration'
+    'body': 'duration()'
+  'endPlaybackTime':
+    'prefix': 'endPlaybackTime'
+    'body': 'endPlaybackTime()'
+  'errorLog':
+    'prefix': 'errorLog'
+    'body': 'errorLog()'
+  'initWithContentURL:':
+    'prefix': 'initWithContentURL:'
+    'body': 'initWithContentURL(${1:NSURL* url})'
+  'initialPlaybackTime':
+    'prefix': 'initialPlaybackTime'
+    'body': 'initialPlaybackTime()'
+  'isAirPlayVideoActive':
+    'prefix': 'isAirPlayVideoActive'
+    'body': 'isAirPlayVideoActive()'
+  'isFullscreen':
+    'prefix': 'isFullscreen'
+    'body': 'isFullscreen()'
+  'loadState':
+    'prefix': 'loadState'
+    'body': 'loadState()'
+  'movieControlMode':
+    'prefix': 'movieControlMode'
+    'body': 'movieControlMode()'
+  'movieMediaTypes':
+    'prefix': 'movieMediaTypes'
+    'body': 'movieMediaTypes()'
+  'movieSourceType':
+    'prefix': 'movieSourceType'
+    'body': 'movieSourceType()'
+  'naturalSize':
+    'prefix': 'naturalSize'
+    'body': 'naturalSize()'
+  'playableDuration':
+    'prefix': 'playableDuration'
+    'body': 'playableDuration()'
+  'playbackState':
+    'prefix': 'playbackState'
+    'body': 'playbackState()'
+  'readyForDisplay':
+    'prefix': 'readyForDisplay'
+    'body': 'readyForDisplay()'
+  'repeatMode':
+    'prefix': 'repeatMode'
+    'body': 'repeatMode()'
+  'requestThumbnailImagesAtTimes:timeOption:':
+    'prefix': 'requestThumbnailImagesAtTimes:timeOption:'
+    'body': 'requestThumbnailImagesAtTimes(${1:NSArray* playbackTimes}, timeOption:${2:MPMovieTimeOption option})'
+  'scalingMode':
+    'prefix': 'scalingMode'
+    'body': 'scalingMode()'
+  'setAllowsAirPlay:':
+    'prefix': 'setAllowsAirPlay:'
+    'body': 'setAllowsAirPlay(${1:BOOL allowsAirPlay})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:UIColor* backgroundColor})'
+  'setContentURL:':
+    'prefix': 'setContentURL:'
+    'body': 'setContentURL(${1:NSURL* contentURL})'
+  'setControlStyle:':
+    'prefix': 'setControlStyle:'
+    'body': 'setControlStyle(${1:MPMovieControlStyle controlStyle})'
+  'setEndPlaybackTime:':
+    'prefix': 'setEndPlaybackTime:'
+    'body': 'setEndPlaybackTime(${1:NSTimeInterval endPlaybackTime})'
+  'setFullscreen:':
+    'prefix': 'setFullscreen:'
+    'body': 'setFullscreen(${1:BOOL fullscreen})'
+  'setFullscreen:animated:':
+    'prefix': 'setFullscreen:animated:'
+    'body': 'setFullscreen(${1:BOOL fullscreen}, animated:${2:BOOL animated})'
+  'setInitialPlaybackTime:':
+    'prefix': 'setInitialPlaybackTime:'
+    'body': 'setInitialPlaybackTime(${1:NSTimeInterval initialPlaybackTime})'
+  'setMovieControlMode:':
+    'prefix': 'setMovieControlMode:'
+    'body': 'setMovieControlMode(${1:MPMovieControlMode movieControlMode})'
+  'setMovieSourceType:':
+    'prefix': 'setMovieSourceType:'
+    'body': 'setMovieSourceType(${1:MPMovieSourceType movieSourceType})'
+  'setRepeatMode:':
+    'prefix': 'setRepeatMode:'
+    'body': 'setRepeatMode(${1:MPMovieRepeatMode repeatMode})'
+  'setScalingMode:':
+    'prefix': 'setScalingMode:'
+    'body': 'setScalingMode(${1:MPMovieScalingMode scalingMode})'
+  'setShouldAutoplay:':
+    'prefix': 'setShouldAutoplay:'
+    'body': 'setShouldAutoplay(${1:BOOL shouldAutoplay})'
+  'setUseApplicationAudioSession:':
+    'prefix': 'setUseApplicationAudioSession:'
+    'body': 'setUseApplicationAudioSession(${1:BOOL useApplicationAudioSession})'
+  'shouldAutoplay':
+    'prefix': 'shouldAutoplay'
+    'body': 'shouldAutoplay()'
+  'thumbnailImageAtTime:timeOption:':
+    'prefix': 'thumbnailImageAtTime:timeOption:'
+    'body': 'thumbnailImageAtTime(${1:NSTimeInterval playbackTime}, timeOption:${2:MPMovieTimeOption option})'
+  'timedMetadata':
+    'prefix': 'timedMetadata'
+    'body': 'timedMetadata()'
+  'useApplicationAudioSession':
+    'prefix': 'useApplicationAudioSession'
+    'body': 'useApplicationAudioSession()'
+  'view':
+    'prefix': 'view'
+    'body': 'view()'
+  'initWithContentURL:':
+    'prefix': 'initWithContentURL:'
+    'body': 'initWithContentURL(${1:NSURL* contentURL})'
+  'moviePlayer':
+    'prefix': 'moviePlayer'
+    'body': 'moviePlayer()'
+  'shouldAutorotate':
+    'prefix': 'shouldAutorotate'
+    'body': 'shouldAutorotate()'
+  'supportedInterfaceOrientations':
+    'prefix': 'supportedInterfaceOrientations'
+    'body': 'supportedInterfaceOrientations()'
+  'MPMusicPlayerController.applicationMusicPlayer':
+    'prefix': 'applicationMusicPlayer'
+    'body': 'MPMusicPlayerController.applicationMusicPlayer()'
+  'beginGeneratingPlaybackNotifications':
+    'prefix': 'beginGeneratingPlaybackNotifications'
+    'body': 'beginGeneratingPlaybackNotifications()'
+  'endGeneratingPlaybackNotifications':
+    'prefix': 'endGeneratingPlaybackNotifications'
+    'body': 'endGeneratingPlaybackNotifications()'
+  'MPMusicPlayerController.iPodMusicPlayer':
+    'prefix': 'iPodMusicPlayer'
+    'body': 'MPMusicPlayerController.iPodMusicPlayer()'
+  'indexOfNowPlayingItem':
+    'prefix': 'indexOfNowPlayingItem'
+    'body': 'indexOfNowPlayingItem()'
+  'nowPlayingItem':
+    'prefix': 'nowPlayingItem'
+    'body': 'nowPlayingItem()'
+  'playbackState':
+    'prefix': 'playbackState'
+    'body': 'playbackState()'
+  'repeatMode':
+    'prefix': 'repeatMode'
+    'body': 'repeatMode()'
+  'setNowPlayingItem:':
+    'prefix': 'setNowPlayingItem:'
+    'body': 'setNowPlayingItem(${1:MPMediaItem* nowPlayingItem})'
+  'setQueueWithItemCollection:':
+    'prefix': 'setQueueWithItemCollection:'
+    'body': 'setQueueWithItemCollection(${1:MPMediaItemCollection* itemCollection})'
+  'setQueueWithQuery:':
+    'prefix': 'setQueueWithQuery:'
+    'body': 'setQueueWithQuery(${1:MPMediaQuery* query})'
+  'setRepeatMode:':
+    'prefix': 'setRepeatMode:'
+    'body': 'setRepeatMode(${1:MPMusicRepeatMode repeatMode})'
+  'setShuffleMode:':
+    'prefix': 'setShuffleMode:'
+    'body': 'setShuffleMode(${1:MPMusicShuffleMode shuffleMode})'
+  'setVolume:':
+    'prefix': 'setVolume:'
+    'body': 'setVolume(${1:float volume})'
+  'shuffleMode':
+    'prefix': 'shuffleMode'
+    'body': 'shuffleMode()'
+  'skipToBeginning':
+    'prefix': 'skipToBeginning'
+    'body': 'skipToBeginning()'
+  'skipToNextItem':
+    'prefix': 'skipToNextItem'
+    'body': 'skipToNextItem()'
+  'skipToPreviousItem':
+    'prefix': 'skipToPreviousItem'
+    'body': 'skipToPreviousItem()'
+  'volume':
+    'prefix': 'volume'
+    'body': 'volume()'
+  'elapsedPlaybackTime':
+    'prefix': 'elapsedPlaybackTime'
+    'body': 'elapsedPlaybackTime()'
+  'playbackDuration':
+    'prefix': 'playbackDuration'
+    'body': 'playbackDuration()'
+  'playbackRate':
+    'prefix': 'playbackRate'
+    'body': 'playbackRate()'
+  'setElapsedPlaybackTime:':
+    'prefix': 'setElapsedPlaybackTime:'
+    'body': 'setElapsedPlaybackTime(${1:NSTimeInterval elapsedPlaybackTime})'
+  'setPlaybackDuration:':
+    'prefix': 'setPlaybackDuration:'
+    'body': 'setPlaybackDuration(${1:NSTimeInterval playbackDuration})'
+  'setPlaybackRate:':
+    'prefix': 'setPlaybackRate:'
+    'body': 'setPlaybackRate(${1:float playbackRate})'
+  'MPNowPlayingInfoCenter.defaultCenter':
+    'prefix': 'defaultCenter'
+    'body': 'MPNowPlayingInfoCenter.defaultCenter()'
+  'nowPlayingInfo':
+    'prefix': 'nowPlayingInfo'
+    'body': 'nowPlayingInfo()'
+  'setNowPlayingInfo:':
+    'prefix': 'setNowPlayingInfo:'
+    'body': 'setNowPlayingInfo(${1:NSDictionary* nowPlayingInfo})'
+  'beginUpdates':
+    'prefix': 'beginUpdates'
+    'body': 'beginUpdates()'
+  'dataSource':
+    'prefix': 'dataSource'
+    'body': 'dataSource()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'endUpdates':
+    'prefix': 'endUpdates'
+    'body': 'endUpdates()'
+  'reloadData':
+    'prefix': 'reloadData'
+    'body': 'reloadData()'
+  'setDataSource:':
+    'prefix': 'setDataSource:'
+    'body': 'setDataSource(${1:id dataSource})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'MPPlayableContentManager.sharedContentManager':
+    'prefix': 'sharedContentManager'
+    'body': 'MPPlayableContentManager.sharedContentManager()'
+  'maximumRating':
+    'prefix': 'maximumRating'
+    'body': 'maximumRating()'
+  'minimumRating':
+    'prefix': 'minimumRating'
+    'body': 'minimumRating()'
+  'setMaximumRating:':
+    'prefix': 'setMaximumRating:'
+    'body': 'setMaximumRating(${1:float maximumRating})'
+  'setMinimumRating:':
+    'prefix': 'setMinimumRating:'
+    'body': 'setMinimumRating(${1:float minimumRating})'
+  'rating':
+    'prefix': 'rating'
+    'body': 'rating()'
+  'addTarget:action:':
+    'prefix': 'addTarget:action:'
+    'body': 'addTarget(${1:id target}, action:${2:SEL action})'
+  'addTargetWithHandler:':
+    'prefix': 'addTargetWithHandler:'
+    'body': 'addTargetWithHandler(${1:void (^)(MPRemoteCommandEvent *) handler})'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'removeTarget:':
+    'prefix': 'removeTarget:'
+    'body': 'removeTarget(${1:id target})'
+  'removeTarget:action:':
+    'prefix': 'removeTarget:action:'
+    'body': 'removeTarget(${1:id target}, action:${2:SEL action})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL enabled})'
+  'bookmarkCommand':
+    'prefix': 'bookmarkCommand'
+    'body': 'bookmarkCommand()'
+  'changePlaybackRateCommand':
+    'prefix': 'changePlaybackRateCommand'
+    'body': 'changePlaybackRateCommand()'
+  'dislikeCommand':
+    'prefix': 'dislikeCommand'
+    'body': 'dislikeCommand()'
+  'likeCommand':
+    'prefix': 'likeCommand'
+    'body': 'likeCommand()'
+  'nextTrackCommand':
+    'prefix': 'nextTrackCommand'
+    'body': 'nextTrackCommand()'
+  'pauseCommand':
+    'prefix': 'pauseCommand'
+    'body': 'pauseCommand()'
+  'playCommand':
+    'prefix': 'playCommand'
+    'body': 'playCommand()'
+  'previousTrackCommand':
+    'prefix': 'previousTrackCommand'
+    'body': 'previousTrackCommand()'
+  'ratingCommand':
+    'prefix': 'ratingCommand'
+    'body': 'ratingCommand()'
+  'seekBackwardCommand':
+    'prefix': 'seekBackwardCommand'
+    'body': 'seekBackwardCommand()'
+  'seekForwardCommand':
+    'prefix': 'seekForwardCommand'
+    'body': 'seekForwardCommand()'
+  'MPRemoteCommandCenter.sharedCommandCenter':
+    'prefix': 'sharedCommandCenter'
+    'body': 'MPRemoteCommandCenter.sharedCommandCenter()'
+  'skipBackwardCommand':
+    'prefix': 'skipBackwardCommand'
+    'body': 'skipBackwardCommand()'
+  'skipForwardCommand':
+    'prefix': 'skipForwardCommand'
+    'body': 'skipForwardCommand()'
+  'stopCommand':
+    'prefix': 'stopCommand'
+    'body': 'stopCommand()'
+  'togglePlayPauseCommand':
+    'prefix': 'togglePlayPauseCommand'
+    'body': 'togglePlayPauseCommand()'
+  'command':
+    'prefix': 'command'
+    'body': 'command()'
+  'timestamp':
+    'prefix': 'timestamp'
+    'body': 'timestamp()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'preferredIntervals':
+    'prefix': 'preferredIntervals'
+    'body': 'preferredIntervals()'
+  'setPreferredIntervals:':
+    'prefix': 'setPreferredIntervals:'
+    'body': 'setPreferredIntervals(${1:NSArray* preferredIntervals})'
+  'interval':
+    'prefix': 'interval'
+    'body': 'interval()'
+  'allMetadata':
+    'prefix': 'allMetadata'
+    'body': 'allMetadata()'
+  'key':
+    'prefix': 'key'
+    'body': 'Key()'
+  'keyspace':
+    'prefix': 'keyspace'
+    'body': 'Keyspace()'
+  'timestamp':
+    'prefix': 'timestamp'
+    'body': 'timestamp()'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'areWirelessRoutesAvailable':
+    'prefix': 'areWirelessRoutesAvailable'
+    'body': 'areWirelessRoutesAvailable()'
+  'isWirelessRouteActive':
+    'prefix': 'isWirelessRouteActive'
+    'body': 'isWirelessRouteActive()'
+  'maximumVolumeSliderImageForState:':
+    'prefix': 'maximumVolumeSliderImageForState:'
+    'body': 'maximumVolumeSliderImageForState(${1:UIControlState state})'
+  'minimumVolumeSliderImageForState:':
+    'prefix': 'minimumVolumeSliderImageForState:'
+    'body': 'minimumVolumeSliderImageForState(${1:UIControlState state})'
+  'routeButtonImageForState:':
+    'prefix': 'routeButtonImageForState:'
+    'body': 'routeButtonImageForState(${1:UIControlState state})'
+  'routeButtonRectForBounds:':
+    'prefix': 'routeButtonRectForBounds:'
+    'body': 'routeButtonRectForBounds(${1:CGRect bounds})'
+  'setMaximumVolumeSliderImage:forState:':
+    'prefix': 'setMaximumVolumeSliderImage:forState:'
+    'body': 'setMaximumVolumeSliderImage(${1:UIImage* image}, forState:${2:UIControlState state})'
+  'setMinimumVolumeSliderImage:forState:':
+    'prefix': 'setMinimumVolumeSliderImage:forState:'
+    'body': 'setMinimumVolumeSliderImage(${1:UIImage* image}, forState:${2:UIControlState state})'
+  'setRouteButtonImage:forState:':
+    'prefix': 'setRouteButtonImage:forState:'
+    'body': 'setRouteButtonImage(${1:UIImage* image}, forState:${2:UIControlState state})'
+  'setShowsRouteButton:':
+    'prefix': 'setShowsRouteButton:'
+    'body': 'setShowsRouteButton(${1:BOOL showsRouteButton})'
+  'setShowsVolumeSlider:':
+    'prefix': 'setShowsVolumeSlider:'
+    'body': 'setShowsVolumeSlider(${1:BOOL showsVolumeSlider})'
+  'setVolumeThumbImage:forState:':
+    'prefix': 'setVolumeThumbImage:forState:'
+    'body': 'setVolumeThumbImage(${1:UIImage* image}, forState:${2:UIControlState state})'
+  'setVolumeWarningSliderImage:':
+    'prefix': 'setVolumeWarningSliderImage:'
+    'body': 'setVolumeWarningSliderImage(${1:UIImage* volumeWarningSliderImage})'
+  'showsRouteButton':
+    'prefix': 'showsRouteButton'
+    'body': 'showsRouteButton()'
+  'showsVolumeSlider':
+    'prefix': 'showsVolumeSlider'
+    'body': 'showsVolumeSlider()'
+  'sizeThatFits:':
+    'prefix': 'sizeThatFits:'
+    'body': 'sizeThatFits(${1:CGSize size})'
+  'volumeSliderRectForBounds:':
+    'prefix': 'volumeSliderRectForBounds:'
+    'body': 'volumeSliderRectForBounds(${1:CGRect bounds})'
+  'volumeThumbImageForState:':
+    'prefix': 'volumeThumbImageForState:'
+    'body': 'volumeThumbImageForState(${1:UIControlState state})'
+  'volumeThumbRectForBounds:volumeSliderRect:value:':
+    'prefix': 'volumeThumbRectForBounds:volumeSliderRect:value:'
+    'body': 'volumeThumbRectForBounds(${1:CGRect bounds}, volumeSliderRect:${2:CGRect rect}, value:${3:float value})'
+  'volumeWarningSliderImage':
+    'prefix': 'volumeWarningSliderImage'
+    'body': 'volumeWarningSliderImage()'
+  'beginLoadingChildItemsAtIndexPath:completionHandler:':
+    'prefix': 'beginLoadingChildItemsAtIndexPath:completionHandler:'
+    'body': 'beginLoadingChildItemsAtIndexPath(${1:NSIndexPath* indexPath}, completionHandler:${2:void (^)(NSError *) completionHandler})'
+  'beginSeekingBackward':
+    'prefix': 'beginSeekingBackward'
+    'body': 'beginSeekingBackward()'
+  'beginSeekingForward':
+    'prefix': 'beginSeekingForward'
+    'body': 'beginSeekingForward()'
+  'childItemsDisplayPlaybackProgressAtIndexPath:':
+    'prefix': 'childItemsDisplayPlaybackProgressAtIndexPath:'
+    'body': 'childItemsDisplayPlaybackProgressAtIndexPath(${1:NSIndexPath* indexPath})'
+  'contentItemAtIndexPath:':
+    'prefix': 'contentItemAtIndexPath:'
+    'body': 'contentItemAtIndexPath(${1:NSIndexPath* indexPath})'
+  'currentPlaybackRate':
+    'prefix': 'currentPlaybackRate'
+    'body': 'currentPlaybackRate()'
+  'currentPlaybackTime':
+    'prefix': 'currentPlaybackTime'
+    'body': 'currentPlaybackTime()'
+  'endSeeking':
+    'prefix': 'endSeeking'
+    'body': 'endSeeking()'
+  'isPreparedToPlay':
+    'prefix': 'isPreparedToPlay'
+    'body': 'isPreparedToPlay()'
+  'mediaPicker:didPickMediaItems:':
+    'prefix': 'mediaPicker:didPickMediaItems:'
+    'body': 'mediaPicker(${1:MPMediaPickerController* mediaPicker}, didPickMediaItems:${2:MPMediaItemCollection* mediaItemCollection})'
+  'mediaPickerDidCancel:':
+    'prefix': 'mediaPickerDidCancel:'
+    'body': 'mediaPickerDidCancel(${1:MPMediaPickerController* mediaPicker})'
+  'numberOfChildItemsAtIndexPath:':
+    'prefix': 'numberOfChildItemsAtIndexPath:'
+    'body': 'numberOfChildItemsAtIndexPath(${1:NSIndexPath* indexPath})'
+  'pause':
+    'prefix': 'pause'
+    'body': 'pause()'
+  'play':
+    'prefix': 'play'
+    'body': 'play()'
+  'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:':
+    'prefix': 'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:'
+    'body': 'playableContentManager(${1:MPPlayableContentManager* contentManager}, initiatePlaybackOfContentItemAtIndexPath:${2:NSIndexPath* indexPath}, completionHandler:${3:void (^)(NSError *) completionHandler})'
+  'prepareToPlay':
+    'prefix': 'prepareToPlay'
+    'body': 'prepareToPlay()'
+  'setCurrentPlaybackRate:':
+    'prefix': 'setCurrentPlaybackRate:'
+    'body': 'setCurrentPlaybackRate(${1:float currentPlaybackRate})'
+  'setCurrentPlaybackTime:':
+    'prefix': 'setCurrentPlaybackTime:'
+    'body': 'setCurrentPlaybackTime(${1:NSTimeInterval currentPlaybackTime})'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'dismissMoviePlayerViewControllerAnimated':
+    'prefix': 'dismissMoviePlayerViewControllerAnimated'
+    'body': 'dismissMoviePlayerViewControllerAnimated()'
+  'presentMoviePlayerViewControllerAnimated:':
+    'prefix': 'presentMoviePlayerViewControllerAnimated:'
+    'body': 'presentMoviePlayerViewControllerAnimated(${1:MPMoviePlayerViewController* moviePlayerViewController})'
+  'mediaPicker:didPickMediaItems:':
+    'prefix': 'mediaPicker:didPickMediaItems:'
+    'body': 'mediaPicker(${1:MPMediaPickerController* mediaPicker}, didPickMediaItems:${2:MPMediaItemCollection* mediaItemCollection})'
+  'mediaPickerDidCancel:':
+    'prefix': 'mediaPickerDidCancel:'
+    'body': 'mediaPickerDidCancel(${1:MPMediaPickerController* mediaPicker})'
+  'beginSeekingBackward':
+    'prefix': 'beginSeekingBackward'
+    'body': 'beginSeekingBackward()'
+  'beginSeekingForward':
+    'prefix': 'beginSeekingForward'
+    'body': 'beginSeekingForward()'
+  'currentPlaybackRate':
+    'prefix': 'currentPlaybackRate'
+    'body': 'currentPlaybackRate()'
+  'currentPlaybackTime':
+    'prefix': 'currentPlaybackTime'
+    'body': 'currentPlaybackTime()'
+  'endSeeking':
+    'prefix': 'endSeeking'
+    'body': 'endSeeking()'
+  'isPreparedToPlay':
+    'prefix': 'isPreparedToPlay'
+    'body': 'isPreparedToPlay()'
+  'pause':
+    'prefix': 'pause'
+    'body': 'pause()'
+  'play':
+    'prefix': 'play'
+    'body': 'play()'
+  'prepareToPlay':
+    'prefix': 'prepareToPlay'
+    'body': 'prepareToPlay()'
+  'setCurrentPlaybackRate:':
+    'prefix': 'setCurrentPlaybackRate:'
+    'body': 'setCurrentPlaybackRate(${1:float currentPlaybackRate})'
+  'setCurrentPlaybackTime:':
+    'prefix': 'setCurrentPlaybackTime:'
+    'body': 'setCurrentPlaybackTime(${1:NSTimeInterval currentPlaybackTime})'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'beginLoadingChildItemsAtIndexPath:completionHandler:':
+    'prefix': 'beginLoadingChildItemsAtIndexPath:completionHandler:'
+    'body': 'beginLoadingChildItemsAtIndexPath(${1:NSIndexPath* indexPath}, completionHandler:${2:void (^)(NSError *) completionHandler})'
+  'childItemsDisplayPlaybackProgressAtIndexPath:':
+    'prefix': 'childItemsDisplayPlaybackProgressAtIndexPath:'
+    'body': 'childItemsDisplayPlaybackProgressAtIndexPath(${1:NSIndexPath* indexPath})'
+  'contentItemAtIndexPath:':
+    'prefix': 'contentItemAtIndexPath:'
+    'body': 'contentItemAtIndexPath(${1:NSIndexPath* indexPath})'
+  'numberOfChildItemsAtIndexPath:':
+    'prefix': 'numberOfChildItemsAtIndexPath:'
+    'body': 'numberOfChildItemsAtIndexPath(${1:NSIndexPath* indexPath})'
+  'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:':
+    'prefix': 'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:'
+    'body': 'playableContentManager(${1:MPPlayableContentManager* contentManager}, initiatePlaybackOfContentItemAtIndexPath:${2:NSIndexPath* indexPath}, completionHandler:${3:void (^)(NSError *) completionHandler})'

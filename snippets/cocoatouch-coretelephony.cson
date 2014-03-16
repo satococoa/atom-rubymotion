@@ -1,0 +1,109 @@
+'.source.rubymotion':
+  'CTCallStateConnected (NSString*)':
+    'prefix': 'CTCallStateConnected'
+    'body': 'CTCallStateConnected'
+  'CTCallStateDialing (NSString*)':
+    'prefix': 'CTCallStateDialing'
+    'body': 'CTCallStateDialing'
+  'CTCallStateDisconnected (NSString*)':
+    'prefix': 'CTCallStateDisconnected'
+    'body': 'CTCallStateDisconnected'
+  'CTCallStateIncoming (NSString*)':
+    'prefix': 'CTCallStateIncoming'
+    'body': 'CTCallStateIncoming'
+  'CTRadioAccessTechnologyCDMA1x (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyCDMA1x'
+    'body': 'CTRadioAccessTechnologyCDMA1x'
+  'CTRadioAccessTechnologyCDMAEVDORev0 (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyCDMAEVDORev0'
+    'body': 'CTRadioAccessTechnologyCDMAEVDORev0'
+  'CTRadioAccessTechnologyCDMAEVDORevA (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyCDMAEVDORevA'
+    'body': 'CTRadioAccessTechnologyCDMAEVDORevA'
+  'CTRadioAccessTechnologyCDMAEVDORevB (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyCDMAEVDORevB'
+    'body': 'CTRadioAccessTechnologyCDMAEVDORevB'
+  'CTRadioAccessTechnologyDidChangeNotification (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyDidChangeNotification'
+    'body': 'CTRadioAccessTechnologyDidChangeNotification'
+  'CTRadioAccessTechnologyEdge (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyEdge'
+    'body': 'CTRadioAccessTechnologyEdge'
+  'CTRadioAccessTechnologyGPRS (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyGPRS'
+    'body': 'CTRadioAccessTechnologyGPRS'
+  'CTRadioAccessTechnologyHSDPA (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyHSDPA'
+    'body': 'CTRadioAccessTechnologyHSDPA'
+  'CTRadioAccessTechnologyHSUPA (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyHSUPA'
+    'body': 'CTRadioAccessTechnologyHSUPA'
+  'CTRadioAccessTechnologyLTE (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyLTE'
+    'body': 'CTRadioAccessTechnologyLTE'
+  'CTRadioAccessTechnologyWCDMA (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyWCDMA'
+    'body': 'CTRadioAccessTechnologyWCDMA'
+  'CTRadioAccessTechnologyeHRPD (NSString*)':
+    'prefix': 'CTRadioAccessTechnologyeHRPD'
+    'body': 'CTRadioAccessTechnologyeHRPD'
+  'CTSubscriberTokenRefreshed (NSString*)':
+    'prefix': 'CTSubscriberTokenRefreshed'
+    'body': 'CTSubscriberTokenRefreshed'
+  'kCTErrorDomainMach (2)':
+    'prefix': 'kCTErrorDomainMach'
+    'body': 'KCTErrorDomainMach'
+  'kCTErrorDomainNoError (0)':
+    'prefix': 'kCTErrorDomainNoError'
+    'body': 'KCTErrorDomainNoError'
+  'kCTErrorDomainPOSIX (1)':
+    'prefix': 'kCTErrorDomainPOSIX'
+    'body': 'KCTErrorDomainPOSIX'
+  'callID':
+    'prefix': 'callID'
+    'body': 'callID()'
+  'callState':
+    'prefix': 'callState'
+    'body': 'callState()'
+  'callEventHandler':
+    'prefix': 'callEventHandler'
+    'body': 'callEventHandler()'
+  'currentCalls':
+    'prefix': 'currentCalls'
+    'body': 'currentCalls()'
+  'setCallEventHandler:':
+    'prefix': 'setCallEventHandler:'
+    'body': 'setCallEventHandler(${1:void (^)(CTCall *) callEventHandler})'
+  'allowsVOIP':
+    'prefix': 'allowsVOIP'
+    'body': 'allowsVOIP()'
+  'carrierName':
+    'prefix': 'carrierName'
+    'body': 'carrierName()'
+  'isoCountryCode':
+    'prefix': 'isoCountryCode'
+    'body': 'isoCountryCode()'
+  'mobileCountryCode':
+    'prefix': 'mobileCountryCode'
+    'body': 'mobileCountryCode()'
+  'mobileNetworkCode':
+    'prefix': 'mobileNetworkCode'
+    'body': 'mobileNetworkCode()'
+  'carrierToken':
+    'prefix': 'carrierToken'
+    'body': 'carrierToken()'
+  'CTSubscriberInfo.subscriber':
+    'prefix': 'subscriber'
+    'body': 'CTSubscriberInfo.subscriber()'
+  'currentRadioAccessTechnology':
+    'prefix': 'currentRadioAccessTechnology'
+    'body': 'currentRadioAccessTechnology()'
+  'setSubscriberCellularProviderDidUpdateNotifier:':
+    'prefix': 'setSubscriberCellularProviderDidUpdateNotifier:'
+    'body': 'setSubscriberCellularProviderDidUpdateNotifier(${1:void (^)(CTCarrier *) subscriberCellularProviderDidUpdateNotifier})'
+  'subscriberCellularProvider':
+    'prefix': 'subscriberCellularProvider'
+    'body': 'subscriberCellularProvider()'
+  'subscriberCellularProviderDidUpdateNotifier':
+    'prefix': 'subscriberCellularProviderDidUpdateNotifier'
+    'body': 'subscriberCellularProviderDidUpdateNotifier()'
