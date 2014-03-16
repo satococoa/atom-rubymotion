@@ -1,0 +1,277 @@
+'.source.rubymotion':
+  'kCFErrorDomainSystemConfiguration (CFStringRef)':
+    'prefix': 'kCFErrorDomainSystemConfiguration'
+    'body': 'KCFErrorDomainSystemConfiguration'
+  'kCNNetworkInfoKeyBSSID (CFStringRef)':
+    'prefix': 'kCNNetworkInfoKeyBSSID'
+    'body': 'KCNNetworkInfoKeyBSSID'
+  'kCNNetworkInfoKeySSID (CFStringRef)':
+    'prefix': 'kCNNetworkInfoKeySSID'
+    'body': 'KCNNetworkInfoKeySSID'
+  'kCNNetworkInfoKeySSIDData (CFStringRef)':
+    'prefix': 'kCNNetworkInfoKeySSIDData'
+    'body': 'KCNNetworkInfoKeySSIDData'
+  'kSCNetworkConnectionBytesIn (BytesIn)':
+    'prefix': 'kSCNetworkConnectionBytesIn'
+    'body': 'KSCNetworkConnectionBytesIn'
+  'kSCNetworkConnectionBytesOut (BytesOut)':
+    'prefix': 'kSCNetworkConnectionBytesOut'
+    'body': 'KSCNetworkConnectionBytesOut'
+  'kSCNetworkConnectionErrorsIn (ErrorsIn)':
+    'prefix': 'kSCNetworkConnectionErrorsIn'
+    'body': 'KSCNetworkConnectionErrorsIn'
+  'kSCNetworkConnectionErrorsOut (ErrorsOut)':
+    'prefix': 'kSCNetworkConnectionErrorsOut'
+    'body': 'KSCNetworkConnectionErrorsOut'
+  'kSCNetworkConnectionPacketsIn (PacketsIn)':
+    'prefix': 'kSCNetworkConnectionPacketsIn'
+    'body': 'KSCNetworkConnectionPacketsIn'
+  'kSCNetworkConnectionPacketsOut (PacketsOut)':
+    'prefix': 'kSCNetworkConnectionPacketsOut'
+    'body': 'KSCNetworkConnectionPacketsOut'
+  'kSCNetworkConnectionSelectionOptionOnDemandHostName (OnDemandHostName)':
+    'prefix': 'kSCNetworkConnectionSelectionOptionOnDemandHostName'
+    'body': 'KSCNetworkConnectionSelectionOptionOnDemandHostName'
+  'kSCNetworkConnectionSelectionOptionOnDemandRetry (OnDemandRetry)':
+    'prefix': 'kSCNetworkConnectionSelectionOptionOnDemandRetry'
+    'body': 'KSCNetworkConnectionSelectionOptionOnDemandRetry'
+  'kSCBondStatusLinkInvalid (1)':
+    'prefix': 'kSCBondStatusLinkInvalid'
+    'body': 'KSCBondStatusLinkInvalid'
+  'kSCBondStatusNoPartner (2)':
+    'prefix': 'kSCBondStatusNoPartner'
+    'body': 'KSCBondStatusNoPartner'
+  'kSCBondStatusNotInActiveGroup (3)':
+    'prefix': 'kSCBondStatusNotInActiveGroup'
+    'body': 'KSCBondStatusNotInActiveGroup'
+  'kSCBondStatusOK (0)':
+    'prefix': 'kSCBondStatusOK'
+    'body': 'KSCBondStatusOK'
+  'kSCBondStatusUnknown (999)':
+    'prefix': 'kSCBondStatusUnknown'
+    'body': 'KSCBondStatusUnknown'
+  'kSCNetworkConnectionConnected (2)':
+    'prefix': 'kSCNetworkConnectionConnected'
+    'body': 'KSCNetworkConnectionConnected'
+  'kSCNetworkConnectionConnecting (1)':
+    'prefix': 'kSCNetworkConnectionConnecting'
+    'body': 'KSCNetworkConnectionConnecting'
+  'kSCNetworkConnectionDisconnected (0)':
+    'prefix': 'kSCNetworkConnectionDisconnected'
+    'body': 'KSCNetworkConnectionDisconnected'
+  'kSCNetworkConnectionDisconnecting (3)':
+    'prefix': 'kSCNetworkConnectionDisconnecting'
+    'body': 'KSCNetworkConnectionDisconnecting'
+  'kSCNetworkConnectionInvalid (-1)':
+    'prefix': 'kSCNetworkConnectionInvalid'
+    'body': 'KSCNetworkConnectionInvalid'
+  'kSCNetworkConnectionPPPAuthenticating (5)':
+    'prefix': 'kSCNetworkConnectionPPPAuthenticating'
+    'body': 'KSCNetworkConnectionPPPAuthenticating'
+  'kSCNetworkConnectionPPPConnected (8)':
+    'prefix': 'kSCNetworkConnectionPPPConnected'
+    'body': 'KSCNetworkConnectionPPPConnected'
+  'kSCNetworkConnectionPPPConnectingLink (2)':
+    'prefix': 'kSCNetworkConnectionPPPConnectingLink'
+    'body': 'KSCNetworkConnectionPPPConnectingLink'
+  'kSCNetworkConnectionPPPDialOnTraffic (3)':
+    'prefix': 'kSCNetworkConnectionPPPDialOnTraffic'
+    'body': 'KSCNetworkConnectionPPPDialOnTraffic'
+  'kSCNetworkConnectionPPPDisconnected (0)':
+    'prefix': 'kSCNetworkConnectionPPPDisconnected'
+    'body': 'KSCNetworkConnectionPPPDisconnected'
+  'kSCNetworkConnectionPPPDisconnectingLink (10)':
+    'prefix': 'kSCNetworkConnectionPPPDisconnectingLink'
+    'body': 'KSCNetworkConnectionPPPDisconnectingLink'
+  'kSCNetworkConnectionPPPHoldingLinkOff (11)':
+    'prefix': 'kSCNetworkConnectionPPPHoldingLinkOff'
+    'body': 'KSCNetworkConnectionPPPHoldingLinkOff'
+  'kSCNetworkConnectionPPPInitializing (1)':
+    'prefix': 'kSCNetworkConnectionPPPInitializing'
+    'body': 'KSCNetworkConnectionPPPInitializing'
+  'kSCNetworkConnectionPPPNegotiatingLink (4)':
+    'prefix': 'kSCNetworkConnectionPPPNegotiatingLink'
+    'body': 'KSCNetworkConnectionPPPNegotiatingLink'
+  'kSCNetworkConnectionPPPNegotiatingNetwork (7)':
+    'prefix': 'kSCNetworkConnectionPPPNegotiatingNetwork'
+    'body': 'KSCNetworkConnectionPPPNegotiatingNetwork'
+  'kSCNetworkConnectionPPPSuspended (12)':
+    'prefix': 'kSCNetworkConnectionPPPSuspended'
+    'body': 'KSCNetworkConnectionPPPSuspended'
+  'kSCNetworkConnectionPPPTerminating (9)':
+    'prefix': 'kSCNetworkConnectionPPPTerminating'
+    'body': 'KSCNetworkConnectionPPPTerminating'
+  'kSCNetworkConnectionPPPWaitingForCallBack (6)':
+    'prefix': 'kSCNetworkConnectionPPPWaitingForCallBack'
+    'body': 'KSCNetworkConnectionPPPWaitingForCallBack'
+  'kSCNetworkConnectionPPPWaitingForRedial (13)':
+    'prefix': 'kSCNetworkConnectionPPPWaitingForRedial'
+    'body': 'KSCNetworkConnectionPPPWaitingForRedial'
+  'kSCNetworkFlagsConnectionAutomatic (8)':
+    'prefix': 'kSCNetworkFlagsConnectionAutomatic'
+    'body': 'KSCNetworkFlagsConnectionAutomatic'
+  'kSCNetworkFlagsConnectionRequired (4)':
+    'prefix': 'kSCNetworkFlagsConnectionRequired'
+    'body': 'KSCNetworkFlagsConnectionRequired'
+  'kSCNetworkFlagsInterventionRequired (16)':
+    'prefix': 'kSCNetworkFlagsInterventionRequired'
+    'body': 'KSCNetworkFlagsInterventionRequired'
+  'kSCNetworkFlagsIsDirect (131072)':
+    'prefix': 'kSCNetworkFlagsIsDirect'
+    'body': 'KSCNetworkFlagsIsDirect'
+  'kSCNetworkFlagsIsLocalAddress (65536)':
+    'prefix': 'kSCNetworkFlagsIsLocalAddress'
+    'body': 'KSCNetworkFlagsIsLocalAddress'
+  'kSCNetworkFlagsReachable (2)':
+    'prefix': 'kSCNetworkFlagsReachable'
+    'body': 'KSCNetworkFlagsReachable'
+  'kSCNetworkFlagsTransientConnection (1)':
+    'prefix': 'kSCNetworkFlagsTransientConnection'
+    'body': 'KSCNetworkFlagsTransientConnection'
+  'kSCNetworkReachabilityFlagsConnectionAutomatic (8)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionAutomatic'
+    'body': 'KSCNetworkReachabilityFlagsConnectionAutomatic'
+  'kSCNetworkReachabilityFlagsConnectionOnDemand (32)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionOnDemand'
+    'body': 'KSCNetworkReachabilityFlagsConnectionOnDemand'
+  'kSCNetworkReachabilityFlagsConnectionOnTraffic (8)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionOnTraffic'
+    'body': 'KSCNetworkReachabilityFlagsConnectionOnTraffic'
+  'kSCNetworkReachabilityFlagsConnectionRequired (4)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionRequired'
+    'body': 'KSCNetworkReachabilityFlagsConnectionRequired'
+  'kSCNetworkReachabilityFlagsInterventionRequired (16)':
+    'prefix': 'kSCNetworkReachabilityFlagsInterventionRequired'
+    'body': 'KSCNetworkReachabilityFlagsInterventionRequired'
+  'kSCNetworkReachabilityFlagsIsDirect (131072)':
+    'prefix': 'kSCNetworkReachabilityFlagsIsDirect'
+    'body': 'KSCNetworkReachabilityFlagsIsDirect'
+  'kSCNetworkReachabilityFlagsIsLocalAddress (65536)':
+    'prefix': 'kSCNetworkReachabilityFlagsIsLocalAddress'
+    'body': 'KSCNetworkReachabilityFlagsIsLocalAddress'
+  'kSCNetworkReachabilityFlagsIsWWAN (262144)':
+    'prefix': 'kSCNetworkReachabilityFlagsIsWWAN'
+    'body': 'KSCNetworkReachabilityFlagsIsWWAN'
+  'kSCNetworkReachabilityFlagsReachable (2)':
+    'prefix': 'kSCNetworkReachabilityFlagsReachable'
+    'body': 'KSCNetworkReachabilityFlagsReachable'
+  'kSCNetworkReachabilityFlagsTransientConnection (1)':
+    'prefix': 'kSCNetworkReachabilityFlagsTransientConnection'
+    'body': 'KSCNetworkReachabilityFlagsTransientConnection'
+  'kSCPreferencesNotificationApply (2)':
+    'prefix': 'kSCPreferencesNotificationApply'
+    'body': 'KSCPreferencesNotificationApply'
+  'kSCPreferencesNotificationCommit (1)':
+    'prefix': 'kSCPreferencesNotificationCommit'
+    'body': 'KSCPreferencesNotificationCommit'
+  'kSCStatusAccessError (1003)':
+    'prefix': 'kSCStatusAccessError'
+    'body': 'KSCStatusAccessError'
+  'kSCStatusConnectionIgnore (5002)':
+    'prefix': 'kSCStatusConnectionIgnore'
+    'body': 'KSCStatusConnectionIgnore'
+  'kSCStatusConnectionNoService (5001)':
+    'prefix': 'kSCStatusConnectionNoService'
+    'body': 'KSCStatusConnectionNoService'
+  'kSCStatusFailed (1001)':
+    'prefix': 'kSCStatusFailed'
+    'body': 'KSCStatusFailed'
+  'kSCStatusInvalidArgument (1002)':
+    'prefix': 'kSCStatusInvalidArgument'
+    'body': 'KSCStatusInvalidArgument'
+  'kSCStatusKeyExists (1005)':
+    'prefix': 'kSCStatusKeyExists'
+    'body': 'KSCStatusKeyExists'
+  'kSCStatusLocked (1006)':
+    'prefix': 'kSCStatusLocked'
+    'body': 'KSCStatusLocked'
+  'kSCStatusMaxLink (3006)':
+    'prefix': 'kSCStatusMaxLink'
+    'body': 'KSCStatusMaxLink'
+  'kSCStatusNeedLock (1007)':
+    'prefix': 'kSCStatusNeedLock'
+    'body': 'KSCStatusNeedLock'
+  'kSCStatusNoConfigFile (3003)':
+    'prefix': 'kSCStatusNoConfigFile'
+    'body': 'KSCStatusNoConfigFile'
+  'kSCStatusNoKey (1004)':
+    'prefix': 'kSCStatusNoKey'
+    'body': 'KSCStatusNoKey'
+  'kSCStatusNoLink (3004)':
+    'prefix': 'kSCStatusNoLink'
+    'body': 'KSCStatusNoLink'
+  'kSCStatusNoPrefsSession (3001)':
+    'prefix': 'kSCStatusNoPrefsSession'
+    'body': 'KSCStatusNoPrefsSession'
+  'kSCStatusNoStoreServer (2002)':
+    'prefix': 'kSCStatusNoStoreServer'
+    'body': 'KSCStatusNoStoreServer'
+  'kSCStatusNoStoreSession (2001)':
+    'prefix': 'kSCStatusNoStoreSession'
+    'body': 'KSCStatusNoStoreSession'
+  'kSCStatusNotifierActive (2003)':
+    'prefix': 'kSCStatusNotifierActive'
+    'body': 'KSCStatusNotifierActive'
+  'kSCStatusOK (0)':
+    'prefix': 'kSCStatusOK'
+    'body': 'KSCStatusOK'
+  'kSCStatusPrefsBusy (3002)':
+    'prefix': 'kSCStatusPrefsBusy'
+    'body': 'KSCStatusPrefsBusy'
+  'kSCStatusReachabilityUnknown (4001)':
+    'prefix': 'kSCStatusReachabilityUnknown'
+    'body': 'KSCStatusReachabilityUnknown'
+  'kSCStatusStale (3005)':
+    'prefix': 'kSCStatusStale'
+    'body': 'KSCStatusStale'
+  'CNCopyCurrentNetworkInfo':
+    'prefix': 'CNCopyCurrentNetworkInfo'
+    'body': 'CNCopyCurrentNetworkInfo(${1:CFStringRef interfaceName})'
+  'CNCopySupportedInterfaces':
+    'prefix': 'CNCopySupportedInterfaces'
+    'body': 'CNCopySupportedInterfaces()'
+  'CNMarkPortalOffline':
+    'prefix': 'CNMarkPortalOffline'
+    'body': 'CNMarkPortalOffline(${1:CFStringRef interfaceName})'
+  'CNMarkPortalOnline':
+    'prefix': 'CNMarkPortalOnline'
+    'body': 'CNMarkPortalOnline(${1:CFStringRef interfaceName})'
+  'CNSetSupportedSSIDs':
+    'prefix': 'CNSetSupportedSSIDs'
+    'body': 'CNSetSupportedSSIDs(${1:CFArrayRef ssidArray})'
+  'SCCopyLastError':
+    'prefix': 'SCCopyLastError'
+    'body': 'SCCopyLastError()'
+  'SCError':
+    'prefix': 'SCError'
+    'body': 'SCError()'
+  'SCErrorString':
+    'prefix': 'SCErrorString'
+    'body': 'SCErrorString(${1:int status})'
+  'SCNetworkReachabilityCreateWithAddress':
+    'prefix': 'SCNetworkReachabilityCreateWithAddress'
+    'body': 'SCNetworkReachabilityCreateWithAddress(${1:CFAllocatorRef allocator}, ${2:struct sockaddr* address})'
+  'SCNetworkReachabilityCreateWithAddressPair':
+    'prefix': 'SCNetworkReachabilityCreateWithAddressPair'
+    'body': 'SCNetworkReachabilityCreateWithAddressPair(${1:CFAllocatorRef allocator}, ${2:struct sockaddr* localAddress}, ${3:struct sockaddr* remoteAddress})'
+  'SCNetworkReachabilityCreateWithName':
+    'prefix': 'SCNetworkReachabilityCreateWithName'
+    'body': 'SCNetworkReachabilityCreateWithName(${1:CFAllocatorRef allocator}, ${2:char* nodename})'
+  'SCNetworkReachabilityGetFlags':
+    'prefix': 'SCNetworkReachabilityGetFlags'
+    'body': 'SCNetworkReachabilityGetFlags(${1:SCNetworkReachabilityRef target}, ${2:SCNetworkReachabilityFlags* flags})'
+  'SCNetworkReachabilityGetTypeID':
+    'prefix': 'SCNetworkReachabilityGetTypeID'
+    'body': 'SCNetworkReachabilityGetTypeID()'
+  'SCNetworkReachabilityScheduleWithRunLoop':
+    'prefix': 'SCNetworkReachabilityScheduleWithRunLoop'
+    'body': 'SCNetworkReachabilityScheduleWithRunLoop(${1:SCNetworkReachabilityRef target}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCNetworkReachabilitySetCallback':
+    'prefix': 'SCNetworkReachabilitySetCallback'
+    'body': 'SCNetworkReachabilitySetCallback(${1:SCNetworkReachabilityRef target}, ${2:SCNetworkReachabilityCallBack callout}, ${3:SCNetworkReachabilityContext* context})'
+  'SCNetworkReachabilitySetDispatchQueue':
+    'prefix': 'SCNetworkReachabilitySetDispatchQueue'
+    'body': 'SCNetworkReachabilitySetDispatchQueue(${1:SCNetworkReachabilityRef target}, ${2:dispatch_queue_t queue})'
+  'SCNetworkReachabilityUnscheduleFromRunLoop':
+    'prefix': 'SCNetworkReachabilityUnscheduleFromRunLoop'
+    'body': 'SCNetworkReachabilityUnscheduleFromRunLoop(${1:SCNetworkReachabilityRef target}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'

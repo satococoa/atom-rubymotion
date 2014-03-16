@@ -1,0 +1,292 @@
+'.source.rubymotion':
+  'ALAssetLibraryDeletedAssetGroupsKey (NSString*)':
+    'prefix': 'ALAssetLibraryDeletedAssetGroupsKey'
+    'body': 'ALAssetLibraryDeletedAssetGroupsKey'
+  'ALAssetLibraryInsertedAssetGroupsKey (NSString*)':
+    'prefix': 'ALAssetLibraryInsertedAssetGroupsKey'
+    'body': 'ALAssetLibraryInsertedAssetGroupsKey'
+  'ALAssetLibraryUpdatedAssetGroupsKey (NSString*)':
+    'prefix': 'ALAssetLibraryUpdatedAssetGroupsKey'
+    'body': 'ALAssetLibraryUpdatedAssetGroupsKey'
+  'ALAssetLibraryUpdatedAssetsKey (NSString*)':
+    'prefix': 'ALAssetLibraryUpdatedAssetsKey'
+    'body': 'ALAssetLibraryUpdatedAssetsKey'
+  'ALAssetPropertyAssetURL (NSString*)':
+    'prefix': 'ALAssetPropertyAssetURL'
+    'body': 'ALAssetPropertyAssetURL'
+  'ALAssetPropertyDate (NSString*)':
+    'prefix': 'ALAssetPropertyDate'
+    'body': 'ALAssetPropertyDate'
+  'ALAssetPropertyDuration (NSString*)':
+    'prefix': 'ALAssetPropertyDuration'
+    'body': 'ALAssetPropertyDuration'
+  'ALAssetPropertyLocation (NSString*)':
+    'prefix': 'ALAssetPropertyLocation'
+    'body': 'ALAssetPropertyLocation'
+  'ALAssetPropertyOrientation (NSString*)':
+    'prefix': 'ALAssetPropertyOrientation'
+    'body': 'ALAssetPropertyOrientation'
+  'ALAssetPropertyRepresentations (NSString*)':
+    'prefix': 'ALAssetPropertyRepresentations'
+    'body': 'ALAssetPropertyRepresentations'
+  'ALAssetPropertyType (NSString*)':
+    'prefix': 'ALAssetPropertyType'
+    'body': 'ALAssetPropertyType'
+  'ALAssetPropertyURLs (NSString*)':
+    'prefix': 'ALAssetPropertyURLs'
+    'body': 'ALAssetPropertyURLs'
+  'ALAssetTypePhoto (NSString*)':
+    'prefix': 'ALAssetTypePhoto'
+    'body': 'ALAssetTypePhoto'
+  'ALAssetTypeUnknown (NSString*)':
+    'prefix': 'ALAssetTypeUnknown'
+    'body': 'ALAssetTypeUnknown'
+  'ALAssetTypeVideo (NSString*)':
+    'prefix': 'ALAssetTypeVideo'
+    'body': 'ALAssetTypeVideo'
+  'ALAssetsGroupPropertyName (NSString*)':
+    'prefix': 'ALAssetsGroupPropertyName'
+    'body': 'ALAssetsGroupPropertyName'
+  'ALAssetsGroupPropertyPersistentID (NSString*)':
+    'prefix': 'ALAssetsGroupPropertyPersistentID'
+    'body': 'ALAssetsGroupPropertyPersistentID'
+  'ALAssetsGroupPropertyType (NSString*)':
+    'prefix': 'ALAssetsGroupPropertyType'
+    'body': 'ALAssetsGroupPropertyType'
+  'ALAssetsGroupPropertyURL (NSString*)':
+    'prefix': 'ALAssetsGroupPropertyURL'
+    'body': 'ALAssetsGroupPropertyURL'
+  'ALAssetsLibraryChangedNotification (NSString*)':
+    'prefix': 'ALAssetsLibraryChangedNotification'
+    'body': 'ALAssetsLibraryChangedNotification'
+  'ALAssetsLibraryErrorDomain (NSString*)':
+    'prefix': 'ALAssetsLibraryErrorDomain'
+    'body': 'ALAssetsLibraryErrorDomain'
+  'ALErrorInvalidProperty (NSString*)':
+    'prefix': 'ALErrorInvalidProperty'
+    'body': 'ALErrorInvalidProperty'
+  'ALAssetOrientationDown (1)':
+    'prefix': 'ALAssetOrientationDown'
+    'body': 'ALAssetOrientationDown'
+  'ALAssetOrientationDownMirrored (5)':
+    'prefix': 'ALAssetOrientationDownMirrored'
+    'body': 'ALAssetOrientationDownMirrored'
+  'ALAssetOrientationLeft (2)':
+    'prefix': 'ALAssetOrientationLeft'
+    'body': 'ALAssetOrientationLeft'
+  'ALAssetOrientationLeftMirrored (6)':
+    'prefix': 'ALAssetOrientationLeftMirrored'
+    'body': 'ALAssetOrientationLeftMirrored'
+  'ALAssetOrientationRight (3)':
+    'prefix': 'ALAssetOrientationRight'
+    'body': 'ALAssetOrientationRight'
+  'ALAssetOrientationRightMirrored (7)':
+    'prefix': 'ALAssetOrientationRightMirrored'
+    'body': 'ALAssetOrientationRightMirrored'
+  'ALAssetOrientationUp (0)':
+    'prefix': 'ALAssetOrientationUp'
+    'body': 'ALAssetOrientationUp'
+  'ALAssetOrientationUpMirrored (4)':
+    'prefix': 'ALAssetOrientationUpMirrored'
+    'body': 'ALAssetOrientationUpMirrored'
+  'ALAssetsGroupAlbum (2)':
+    'prefix': 'ALAssetsGroupAlbum'
+    'body': 'ALAssetsGroupAlbum'
+  'ALAssetsGroupAll (4294967295)':
+    'prefix': 'ALAssetsGroupAll'
+    'body': 'ALAssetsGroupAll'
+  'ALAssetsGroupEvent (4)':
+    'prefix': 'ALAssetsGroupEvent'
+    'body': 'ALAssetsGroupEvent'
+  'ALAssetsGroupFaces (8)':
+    'prefix': 'ALAssetsGroupFaces'
+    'body': 'ALAssetsGroupFaces'
+  'ALAssetsGroupLibrary (1)':
+    'prefix': 'ALAssetsGroupLibrary'
+    'body': 'ALAssetsGroupLibrary'
+  'ALAssetsGroupPhotoStream (32)':
+    'prefix': 'ALAssetsGroupPhotoStream'
+    'body': 'ALAssetsGroupPhotoStream'
+  'ALAssetsGroupSavedPhotos (16)':
+    'prefix': 'ALAssetsGroupSavedPhotos'
+    'body': 'ALAssetsGroupSavedPhotos'
+  'ALAssetsLibraryAccessGloballyDeniedError (-3312)':
+    'prefix': 'ALAssetsLibraryAccessGloballyDeniedError'
+    'body': 'ALAssetsLibraryAccessGloballyDeniedError'
+  'ALAssetsLibraryAccessUserDeniedError (-3311)':
+    'prefix': 'ALAssetsLibraryAccessUserDeniedError'
+    'body': 'ALAssetsLibraryAccessUserDeniedError'
+  'ALAssetsLibraryDataUnavailableError (-3310)':
+    'prefix': 'ALAssetsLibraryDataUnavailableError'
+    'body': 'ALAssetsLibraryDataUnavailableError'
+  'ALAssetsLibraryUnknownError (-1)':
+    'prefix': 'ALAssetsLibraryUnknownError'
+    'body': 'ALAssetsLibraryUnknownError'
+  'ALAssetsLibraryWriteBusyError (-3301)':
+    'prefix': 'ALAssetsLibraryWriteBusyError'
+    'body': 'ALAssetsLibraryWriteBusyError'
+  'ALAssetsLibraryWriteDataEncodingError (-3304)':
+    'prefix': 'ALAssetsLibraryWriteDataEncodingError'
+    'body': 'ALAssetsLibraryWriteDataEncodingError'
+  'ALAssetsLibraryWriteDiskSpaceError (-3305)':
+    'prefix': 'ALAssetsLibraryWriteDiskSpaceError'
+    'body': 'ALAssetsLibraryWriteDiskSpaceError'
+  'ALAssetsLibraryWriteFailedError (-3300)':
+    'prefix': 'ALAssetsLibraryWriteFailedError'
+    'body': 'ALAssetsLibraryWriteFailedError'
+  'ALAssetsLibraryWriteIncompatibleDataError (-3303)':
+    'prefix': 'ALAssetsLibraryWriteIncompatibleDataError'
+    'body': 'ALAssetsLibraryWriteIncompatibleDataError'
+  'ALAssetsLibraryWriteInvalidDataError (-3302)':
+    'prefix': 'ALAssetsLibraryWriteInvalidDataError'
+    'body': 'ALAssetsLibraryWriteInvalidDataError'
+  'ALAuthorizationStatusAuthorized (3)':
+    'prefix': 'ALAuthorizationStatusAuthorized'
+    'body': 'ALAuthorizationStatusAuthorized'
+  'ALAuthorizationStatusDenied (2)':
+    'prefix': 'ALAuthorizationStatusDenied'
+    'body': 'ALAuthorizationStatusDenied'
+  'ALAuthorizationStatusNotDetermined (0)':
+    'prefix': 'ALAuthorizationStatusNotDetermined'
+    'body': 'ALAuthorizationStatusNotDetermined'
+  'ALAuthorizationStatusRestricted (1)':
+    'prefix': 'ALAuthorizationStatusRestricted'
+    'body': 'ALAuthorizationStatusRestricted'
+  'aspectRatioThumbnail':
+    'prefix': 'aspectRatioThumbnail'
+    'body': 'aspectRatioThumbnail()'
+  'defaultRepresentation':
+    'prefix': 'defaultRepresentation'
+    'body': 'defaultRepresentation()'
+  'isEditable':
+    'prefix': 'isEditable'
+    'body': 'isEditable()'
+  'originalAsset':
+    'prefix': 'originalAsset'
+    'body': 'originalAsset()'
+  'representationForUTI:':
+    'prefix': 'representationForUTI:'
+    'body': 'representationForUTI(${1:NSString* representationUTI})'
+  'setImageData:metadata:completionBlock:':
+    'prefix': 'setImageData:metadata:completionBlock:'
+    'body': 'setImageData(${1:NSData* imageData}, metadata:${2:NSDictionary* metadata}, completionBlock:${3:ALAssetsLibraryWriteImageCompletionBlock completionBlock})'
+  'setVideoAtPath:completionBlock:':
+    'prefix': 'setVideoAtPath:completionBlock:'
+    'body': 'setVideoAtPath(${1:NSURL* videoPathURL}, completionBlock:${2:ALAssetsLibraryWriteVideoCompletionBlock completionBlock})'
+  'thumbnail':
+    'prefix': 'thumbnail'
+    'body': 'thumbnail()'
+  'valueForProperty:':
+    'prefix': 'valueForProperty:'
+    'body': 'valueForProperty(${1:NSString* property})'
+  'writeModifiedImageDataToSavedPhotosAlbum:metadata:completionBlock:':
+    'prefix': 'writeModifiedImageDataToSavedPhotosAlbum:metadata:completionBlock:'
+    'body': 'writeModifiedImageDataToSavedPhotosAlbum(${1:NSData* imageData}, metadata:${2:NSDictionary* metadata}, completionBlock:${3:ALAssetsLibraryWriteImageCompletionBlock completionBlock})'
+  'writeModifiedVideoAtPathToSavedPhotosAlbum:completionBlock:':
+    'prefix': 'writeModifiedVideoAtPathToSavedPhotosAlbum:completionBlock:'
+    'body': 'writeModifiedVideoAtPathToSavedPhotosAlbum(${1:NSURL* videoPathURL}, completionBlock:${2:ALAssetsLibraryWriteVideoCompletionBlock completionBlock})'
+  'CGImageWithOptions:':
+    'prefix': 'CGImageWithOptions:'
+    'body': 'CGImageWithOptions(${1:NSDictionary* options})'
+  'UTI':
+    'prefix': 'UTI'
+    'body': 'UTI()'
+  'dimensions':
+    'prefix': 'dimensions'
+    'body': 'dimensions()'
+  'filename':
+    'prefix': 'filename'
+    'body': 'filename()'
+  'fullResolutionImage':
+    'prefix': 'fullResolutionImage'
+    'body': 'fullResolutionImage()'
+  'fullScreenImage':
+    'prefix': 'fullScreenImage'
+    'body': 'fullScreenImage()'
+  'getBytes:fromOffset:length:error:':
+    'prefix': 'getBytes:fromOffset:length:error:'
+    'body': 'getBytes(${1:uint8_t* buffer}, fromOffset:${2:long long offset}, length:${3:NSUInteger length}, error:${4:NSError** error})'
+  'metadata':
+    'prefix': 'metadata'
+    'body': 'metadata()'
+  'orientation':
+    'prefix': 'orientation'
+    'body': 'orientation()'
+  'scale':
+    'prefix': 'scale'
+    'body': 'scale()'
+  'size':
+    'prefix': 'size'
+    'body': 'size()'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'ALAssetsFilter.allAssets':
+    'prefix': 'allAssets'
+    'body': 'ALAssetsFilter.allAssets()'
+  'ALAssetsFilter.allPhotos':
+    'prefix': 'allPhotos'
+    'body': 'ALAssetsFilter.allPhotos()'
+  'ALAssetsFilter.allVideos':
+    'prefix': 'allVideos'
+    'body': 'ALAssetsFilter.allVideos()'
+  'addAsset:':
+    'prefix': 'addAsset:'
+    'body': 'addAsset(${1:ALAsset* asset})'
+  'enumerateAssetsAtIndexes:options:usingBlock:':
+    'prefix': 'enumerateAssetsAtIndexes:options:usingBlock:'
+    'body': 'enumerateAssetsAtIndexes(${1:NSIndexSet* indexSet}, options:${2:NSEnumerationOptions options}, usingBlock:${3:ALAssetsGroupEnumerationResultsBlock enumerationBlock})'
+  'enumerateAssetsUsingBlock:':
+    'prefix': 'enumerateAssetsUsingBlock:'
+    'body': 'enumerateAssetsUsingBlock(${1:ALAssetsGroupEnumerationResultsBlock enumerationBlock})'
+  'enumerateAssetsWithOptions:usingBlock:':
+    'prefix': 'enumerateAssetsWithOptions:usingBlock:'
+    'body': 'enumerateAssetsWithOptions(${1:NSEnumerationOptions options}, usingBlock:${2:ALAssetsGroupEnumerationResultsBlock enumerationBlock})'
+  'isEditable':
+    'prefix': 'isEditable'
+    'body': 'isEditable()'
+  'numberOfAssets':
+    'prefix': 'numberOfAssets'
+    'body': 'numberOfAssets()'
+  'posterImage':
+    'prefix': 'posterImage'
+    'body': 'posterImage()'
+  'setAssetsFilter:':
+    'prefix': 'setAssetsFilter:'
+    'body': 'setAssetsFilter(${1:ALAssetsFilter* filter})'
+  'valueForProperty:':
+    'prefix': 'valueForProperty:'
+    'body': 'valueForProperty(${1:NSString* property})'
+  'addAssetsGroupAlbumWithName:resultBlock:failureBlock:':
+    'prefix': 'addAssetsGroupAlbumWithName:resultBlock:failureBlock:'
+    'body': 'addAssetsGroupAlbumWithName(${1:NSString* name}, resultBlock:${2:ALAssetsLibraryGroupResultBlock resultBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
+  'assetForURL:resultBlock:failureBlock:':
+    'prefix': 'assetForURL:resultBlock:failureBlock:'
+    'body': 'assetForURL(${1:NSURL* assetURL}, resultBlock:${2:ALAssetsLibraryAssetForURLResultBlock resultBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
+  'ALAssetsLibrary.authorizationStatus':
+    'prefix': 'authorizationStatus'
+    'body': 'ALAssetsLibrary.authorizationStatus()'
+  'ALAssetsLibrary.disableSharedPhotoStreamsSupport':
+    'prefix': 'disableSharedPhotoStreamsSupport'
+    'body': 'ALAssetsLibrary.disableSharedPhotoStreamsSupport()'
+  'enumerateGroupsWithTypes:usingBlock:failureBlock:':
+    'prefix': 'enumerateGroupsWithTypes:usingBlock:failureBlock:'
+    'body': 'enumerateGroupsWithTypes(${1:ALAssetsGroupType types}, usingBlock:${2:ALAssetsLibraryGroupsEnumerationResultsBlock enumerationBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
+  'groupForURL:resultBlock:failureBlock:':
+    'prefix': 'groupForURL:resultBlock:failureBlock:'
+    'body': 'groupForURL(${1:NSURL* groupURL}, resultBlock:${2:ALAssetsLibraryGroupResultBlock resultBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
+  'videoAtPathIsCompatibleWithSavedPhotosAlbum:':
+    'prefix': 'videoAtPathIsCompatibleWithSavedPhotosAlbum:'
+    'body': 'videoAtPathIsCompatibleWithSavedPhotosAlbum(${1:NSURL* videoPathURL})'
+  'writeImageDataToSavedPhotosAlbum:metadata:completionBlock:':
+    'prefix': 'writeImageDataToSavedPhotosAlbum:metadata:completionBlock:'
+    'body': 'writeImageDataToSavedPhotosAlbum(${1:NSData* imageData}, metadata:${2:NSDictionary* metadata}, completionBlock:${3:ALAssetsLibraryWriteImageCompletionBlock completionBlock})'
+  'writeImageToSavedPhotosAlbum:metadata:completionBlock:':
+    'prefix': 'writeImageToSavedPhotosAlbum:metadata:completionBlock:'
+    'body': 'writeImageToSavedPhotosAlbum(${1:CGImageRef imageRef}, metadata:${2:NSDictionary* metadata}, completionBlock:${3:ALAssetsLibraryWriteImageCompletionBlock completionBlock})'
+  'writeImageToSavedPhotosAlbum:orientation:completionBlock:':
+    'prefix': 'writeImageToSavedPhotosAlbum:orientation:completionBlock:'
+    'body': 'writeImageToSavedPhotosAlbum(${1:CGImageRef imageRef}, orientation:${2:ALAssetOrientation orientation}, completionBlock:${3:ALAssetsLibraryWriteImageCompletionBlock completionBlock})'
+  'writeVideoAtPathToSavedPhotosAlbum:completionBlock:':
+    'prefix': 'writeVideoAtPathToSavedPhotosAlbum:completionBlock:'
+    'body': 'writeVideoAtPathToSavedPhotosAlbum(${1:NSURL* videoPathURL}, completionBlock:${2:ALAssetsLibraryWriteVideoCompletionBlock completionBlock})'

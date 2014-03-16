@@ -1,0 +1,265 @@
+'.source.rubymotion':
+  'CMErrorDomain (NSString*)':
+    'prefix': 'CMErrorDomain'
+    'body': 'CMErrorDomain'
+  'CMAttitudeReferenceFrameXArbitraryCorrectedZVertical (2)':
+    'prefix': 'CMAttitudeReferenceFrameXArbitraryCorrectedZVertical'
+    'body': 'CMAttitudeReferenceFrameXArbitraryCorrectedZVertical'
+  'CMAttitudeReferenceFrameXArbitraryZVertical (1)':
+    'prefix': 'CMAttitudeReferenceFrameXArbitraryZVertical'
+    'body': 'CMAttitudeReferenceFrameXArbitraryZVertical'
+  'CMAttitudeReferenceFrameXMagneticNorthZVertical (4)':
+    'prefix': 'CMAttitudeReferenceFrameXMagneticNorthZVertical'
+    'body': 'CMAttitudeReferenceFrameXMagneticNorthZVertical'
+  'CMAttitudeReferenceFrameXTrueNorthZVertical (8)':
+    'prefix': 'CMAttitudeReferenceFrameXTrueNorthZVertical'
+    'body': 'CMAttitudeReferenceFrameXTrueNorthZVertical'
+  'CMErrorDeviceRequiresMovement (101)':
+    'prefix': 'CMErrorDeviceRequiresMovement'
+    'body': 'CMErrorDeviceRequiresMovement'
+  'CMErrorInvalidParameter (107)':
+    'prefix': 'CMErrorInvalidParameter'
+    'body': 'CMErrorInvalidParameter'
+  'CMErrorMotionActivityNotAuthorized (105)':
+    'prefix': 'CMErrorMotionActivityNotAuthorized'
+    'body': 'CMErrorMotionActivityNotAuthorized'
+  'CMErrorMotionActivityNotAvailable (104)':
+    'prefix': 'CMErrorMotionActivityNotAvailable'
+    'body': 'CMErrorMotionActivityNotAvailable'
+  'CMErrorMotionActivityNotEntitled (106)':
+    'prefix': 'CMErrorMotionActivityNotEntitled'
+    'body': 'CMErrorMotionActivityNotEntitled'
+  'CMErrorNULL (100)':
+    'prefix': 'CMErrorNULL'
+    'body': 'CMErrorNULL'
+  'CMErrorTrueNorthNotAvailable (102)':
+    'prefix': 'CMErrorTrueNorthNotAvailable'
+    'body': 'CMErrorTrueNorthNotAvailable'
+  'CMErrorUnknown (103)':
+    'prefix': 'CMErrorUnknown'
+    'body': 'CMErrorUnknown'
+  'CMMagneticFieldCalibrationAccuracyHigh (2)':
+    'prefix': 'CMMagneticFieldCalibrationAccuracyHigh'
+    'body': 'CMMagneticFieldCalibrationAccuracyHigh'
+  'CMMagneticFieldCalibrationAccuracyLow (0)':
+    'prefix': 'CMMagneticFieldCalibrationAccuracyLow'
+    'body': 'CMMagneticFieldCalibrationAccuracyLow'
+  'CMMagneticFieldCalibrationAccuracyMedium (1)':
+    'prefix': 'CMMagneticFieldCalibrationAccuracyMedium'
+    'body': 'CMMagneticFieldCalibrationAccuracyMedium'
+  'CMMagneticFieldCalibrationAccuracyUncalibrated (-1)':
+    'prefix': 'CMMagneticFieldCalibrationAccuracyUncalibrated'
+    'body': 'CMMagneticFieldCalibrationAccuracyUncalibrated'
+  'CMMotionActivityConfidenceHigh (2)':
+    'prefix': 'CMMotionActivityConfidenceHigh'
+    'body': 'CMMotionActivityConfidenceHigh'
+  'CMMotionActivityConfidenceLow (0)':
+    'prefix': 'CMMotionActivityConfidenceLow'
+    'body': 'CMMotionActivityConfidenceLow'
+  'CMMotionActivityConfidenceMedium (1)':
+    'prefix': 'CMMotionActivityConfidenceMedium'
+    'body': 'CMMotionActivityConfidenceMedium'
+  'acceleration':
+    'prefix': 'acceleration'
+    'body': 'acceleration()'
+  'multiplyByInverseOfAttitude:':
+    'prefix': 'multiplyByInverseOfAttitude:'
+    'body': 'multiplyByInverseOfAttitude(${1:CMAttitude* attitude})'
+  'pitch':
+    'prefix': 'pitch'
+    'body': 'pitch()'
+  'quaternion':
+    'prefix': 'quaternion'
+    'body': 'quaternion()'
+  'roll':
+    'prefix': 'roll'
+    'body': 'roll()'
+  'rotationMatrix':
+    'prefix': 'rotationMatrix'
+    'body': 'rotationMatrix()'
+  'yaw':
+    'prefix': 'yaw'
+    'body': 'yaw()'
+  'attitude':
+    'prefix': 'attitude'
+    'body': 'attitude()'
+  'gravity':
+    'prefix': 'gravity'
+    'body': 'gravity()'
+  'magneticField':
+    'prefix': 'magneticField'
+    'body': 'magneticField()'
+  'rotationRate':
+    'prefix': 'rotationRate'
+    'body': 'rotationRate()'
+  'userAcceleration':
+    'prefix': 'userAcceleration'
+    'body': 'userAcceleration()'
+  'rotationRate':
+    'prefix': 'rotationRate'
+    'body': 'rotationRate()'
+  'timestamp':
+    'prefix': 'timestamp'
+    'body': 'timestamp()'
+  'magneticField':
+    'prefix': 'magneticField'
+    'body': 'magneticField()'
+  'automotive':
+    'prefix': 'automotive'
+    'body': 'automotive()'
+  'confidence':
+    'prefix': 'confidence'
+    'body': 'confidence()'
+  'running':
+    'prefix': 'running'
+    'body': 'running()'
+  'startDate':
+    'prefix': 'startDate'
+    'body': 'startDate()'
+  'stationary':
+    'prefix': 'stationary'
+    'body': 'stationary()'
+  'unknown':
+    'prefix': 'unknown'
+    'body': 'unknown()'
+  'walking':
+    'prefix': 'walking'
+    'body': 'walking()'
+  'CMMotionActivityManager.isActivityAvailable':
+    'prefix': 'isActivityAvailable'
+    'body': 'CMMotionActivityManager.isActivityAvailable()'
+  'queryActivityStartingFromDate:toDate:toQueue:withHandler:':
+    'prefix': 'queryActivityStartingFromDate:toDate:toQueue:withHandler:'
+    'body': 'queryActivityStartingFromDate(${1:NSDate* start}, toDate:${2:NSDate* end}, toQueue:${3:NSOperationQueue* queue}, withHandler:${4:CMMotionActivityQueryHandler handler})'
+  'startActivityUpdatesToQueue:withHandler:':
+    'prefix': 'startActivityUpdatesToQueue:withHandler:'
+    'body': 'startActivityUpdatesToQueue(${1:NSOperationQueue* queue}, withHandler:${2:CMMotionActivityHandler handler})'
+  'stopActivityUpdates':
+    'prefix': 'stopActivityUpdates'
+    'body': 'stopActivityUpdates()'
+  'accelerometerData':
+    'prefix': 'accelerometerData'
+    'body': 'accelerometerData()'
+  'accelerometerUpdateInterval':
+    'prefix': 'accelerometerUpdateInterval'
+    'body': 'accelerometerUpdateInterval()'
+  'attitudeReferenceFrame':
+    'prefix': 'attitudeReferenceFrame'
+    'body': 'attitudeReferenceFrame()'
+  'CMMotionManager.availableAttitudeReferenceFrames':
+    'prefix': 'availableAttitudeReferenceFrames'
+    'body': 'CMMotionManager.availableAttitudeReferenceFrames()'
+  'deviceMotion':
+    'prefix': 'deviceMotion'
+    'body': 'deviceMotion()'
+  'deviceMotionUpdateInterval':
+    'prefix': 'deviceMotionUpdateInterval'
+    'body': 'deviceMotionUpdateInterval()'
+  'gyroData':
+    'prefix': 'gyroData'
+    'body': 'gyroData()'
+  'gyroUpdateInterval':
+    'prefix': 'gyroUpdateInterval'
+    'body': 'gyroUpdateInterval()'
+  'isAccelerometerActive':
+    'prefix': 'isAccelerometerActive'
+    'body': 'isAccelerometerActive()'
+  'isAccelerometerAvailable':
+    'prefix': 'isAccelerometerAvailable'
+    'body': 'isAccelerometerAvailable()'
+  'isDeviceMotionActive':
+    'prefix': 'isDeviceMotionActive'
+    'body': 'isDeviceMotionActive()'
+  'isDeviceMotionAvailable':
+    'prefix': 'isDeviceMotionAvailable'
+    'body': 'isDeviceMotionAvailable()'
+  'isGyroActive':
+    'prefix': 'isGyroActive'
+    'body': 'isGyroActive()'
+  'isGyroAvailable':
+    'prefix': 'isGyroAvailable'
+    'body': 'isGyroAvailable()'
+  'isMagnetometerActive':
+    'prefix': 'isMagnetometerActive'
+    'body': 'isMagnetometerActive()'
+  'isMagnetometerAvailable':
+    'prefix': 'isMagnetometerAvailable'
+    'body': 'isMagnetometerAvailable()'
+  'magnetometerData':
+    'prefix': 'magnetometerData'
+    'body': 'magnetometerData()'
+  'magnetometerUpdateInterval':
+    'prefix': 'magnetometerUpdateInterval'
+    'body': 'magnetometerUpdateInterval()'
+  'setAccelerometerUpdateInterval:':
+    'prefix': 'setAccelerometerUpdateInterval:'
+    'body': 'setAccelerometerUpdateInterval(${1:NSTimeInterval accelerometerUpdateInterval})'
+  'setDeviceMotionUpdateInterval:':
+    'prefix': 'setDeviceMotionUpdateInterval:'
+    'body': 'setDeviceMotionUpdateInterval(${1:NSTimeInterval deviceMotionUpdateInterval})'
+  'setGyroUpdateInterval:':
+    'prefix': 'setGyroUpdateInterval:'
+    'body': 'setGyroUpdateInterval(${1:NSTimeInterval gyroUpdateInterval})'
+  'setMagnetometerUpdateInterval:':
+    'prefix': 'setMagnetometerUpdateInterval:'
+    'body': 'setMagnetometerUpdateInterval(${1:NSTimeInterval magnetometerUpdateInterval})'
+  'setShowsDeviceMovementDisplay:':
+    'prefix': 'setShowsDeviceMovementDisplay:'
+    'body': 'setShowsDeviceMovementDisplay(${1:BOOL showsDeviceMovementDisplay})'
+  'showsDeviceMovementDisplay':
+    'prefix': 'showsDeviceMovementDisplay'
+    'body': 'showsDeviceMovementDisplay()'
+  'startAccelerometerUpdates':
+    'prefix': 'startAccelerometerUpdates'
+    'body': 'startAccelerometerUpdates()'
+  'startAccelerometerUpdatesToQueue:withHandler:':
+    'prefix': 'startAccelerometerUpdatesToQueue:withHandler:'
+    'body': 'startAccelerometerUpdatesToQueue(${1:NSOperationQueue* queue}, withHandler:${2:CMAccelerometerHandler handler})'
+  'startDeviceMotionUpdates':
+    'prefix': 'startDeviceMotionUpdates'
+    'body': 'startDeviceMotionUpdates()'
+  'startDeviceMotionUpdatesToQueue:withHandler:':
+    'prefix': 'startDeviceMotionUpdatesToQueue:withHandler:'
+    'body': 'startDeviceMotionUpdatesToQueue(${1:NSOperationQueue* queue}, withHandler:${2:CMDeviceMotionHandler handler})'
+  'startDeviceMotionUpdatesUsingReferenceFrame:':
+    'prefix': 'startDeviceMotionUpdatesUsingReferenceFrame:'
+    'body': 'startDeviceMotionUpdatesUsingReferenceFrame(${1:CMAttitudeReferenceFrame referenceFrame})'
+  'startDeviceMotionUpdatesUsingReferenceFrame:toQueue:withHandler:':
+    'prefix': 'startDeviceMotionUpdatesUsingReferenceFrame:toQueue:withHandler:'
+    'body': 'startDeviceMotionUpdatesUsingReferenceFrame(${1:CMAttitudeReferenceFrame referenceFrame}, toQueue:${2:NSOperationQueue* queue}, withHandler:${3:CMDeviceMotionHandler handler})'
+  'startGyroUpdates':
+    'prefix': 'startGyroUpdates'
+    'body': 'startGyroUpdates()'
+  'startGyroUpdatesToQueue:withHandler:':
+    'prefix': 'startGyroUpdatesToQueue:withHandler:'
+    'body': 'startGyroUpdatesToQueue(${1:NSOperationQueue* queue}, withHandler:${2:CMGyroHandler handler})'
+  'startMagnetometerUpdates':
+    'prefix': 'startMagnetometerUpdates'
+    'body': 'startMagnetometerUpdates()'
+  'startMagnetometerUpdatesToQueue:withHandler:':
+    'prefix': 'startMagnetometerUpdatesToQueue:withHandler:'
+    'body': 'startMagnetometerUpdatesToQueue(${1:NSOperationQueue* queue}, withHandler:${2:CMMagnetometerHandler handler})'
+  'stopAccelerometerUpdates':
+    'prefix': 'stopAccelerometerUpdates'
+    'body': 'stopAccelerometerUpdates()'
+  'stopDeviceMotionUpdates':
+    'prefix': 'stopDeviceMotionUpdates'
+    'body': 'stopDeviceMotionUpdates()'
+  'stopGyroUpdates':
+    'prefix': 'stopGyroUpdates'
+    'body': 'stopGyroUpdates()'
+  'stopMagnetometerUpdates':
+    'prefix': 'stopMagnetometerUpdates'
+    'body': 'stopMagnetometerUpdates()'
+  'CMStepCounter.isStepCountingAvailable':
+    'prefix': 'isStepCountingAvailable'
+    'body': 'CMStepCounter.isStepCountingAvailable()'
+  'queryStepCountStartingFrom:to:toQueue:withHandler:':
+    'prefix': 'queryStepCountStartingFrom:to:toQueue:withHandler:'
+    'body': 'queryStepCountStartingFrom(${1:NSDate* start}, to:${2:NSDate* end}, toQueue:${3:NSOperationQueue* queue}, withHandler:${4:CMStepQueryHandler handler})'
+  'startStepCountingUpdatesToQueue:updateOn:withHandler:':
+    'prefix': 'startStepCountingUpdatesToQueue:updateOn:withHandler:'
+    'body': 'startStepCountingUpdatesToQueue(${1:NSOperationQueue* queue}, updateOn:${2:NSInteger stepCounts}, withHandler:${3:CMStepUpdateHandler handler})'
+  'stopStepCountingUpdates':
+    'prefix': 'stopStepCountingUpdates'
+    'body': 'stopStepCountingUpdates()'

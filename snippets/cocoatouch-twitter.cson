@@ -1,0 +1,67 @@
+'.source.rubymotion':
+  'TWRequestMethodDELETE (2)':
+    'prefix': 'TWRequestMethodDELETE'
+    'body': 'TWRequestMethodDELETE'
+  'TWRequestMethodGET (0)':
+    'prefix': 'TWRequestMethodGET'
+    'body': 'TWRequestMethodGET'
+  'TWRequestMethodPOST (1)':
+    'prefix': 'TWRequestMethodPOST'
+    'body': 'TWRequestMethodPOST'
+  'TWTweetComposeViewControllerResultCancelled (0)':
+    'prefix': 'TWTweetComposeViewControllerResultCancelled'
+    'body': 'TWTweetComposeViewControllerResultCancelled'
+  'TWTweetComposeViewControllerResultDone (1)':
+    'prefix': 'TWTweetComposeViewControllerResultDone'
+    'body': 'TWTweetComposeViewControllerResultDone'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'account':
+    'prefix': 'account'
+    'body': 'account()'
+  'addMultiPartData:withName:type:':
+    'prefix': 'addMultiPartData:withName:type:'
+    'body': 'addMultiPartData(${1:NSData* data}, withName:${2:NSString* name}, type:${3:NSString* type})'
+  'initWithURL:parameters:requestMethod:':
+    'prefix': 'initWithURL:parameters:requestMethod:'
+    'body': 'initWithURL(${1:NSURL* url}, parameters:${2:NSDictionary* parameters}, requestMethod:${3:TWRequestMethod requestMethod})'
+  'parameters':
+    'prefix': 'parameters'
+    'body': 'parameters()'
+  'performRequestWithHandler:':
+    'prefix': 'performRequestWithHandler:'
+    'body': 'performRequestWithHandler(${1:TWRequestHandler handler})'
+  'requestMethod':
+    'prefix': 'requestMethod'
+    'body': 'requestMethod()'
+  'setAccount:':
+    'prefix': 'setAccount:'
+    'body': 'setAccount(${1:ACAccount* account})'
+  'signedURLRequest':
+    'prefix': 'signedURLRequest'
+    'body': 'signedURLRequest()'
+  'addImage:':
+    'prefix': 'addImage:'
+    'body': 'addImage(${1:UIImage* image})'
+  'addURL:':
+    'prefix': 'addURL:'
+    'body': 'addURL(${1:NSURL* url})'
+  'TWTweetComposeViewController.canSendTweet':
+    'prefix': 'canSendTweet'
+    'body': 'TWTweetComposeViewController.canSendTweet()'
+  'completionHandler':
+    'prefix': 'completionHandler'
+    'body': 'completionHandler()'
+  'removeAllImages':
+    'prefix': 'removeAllImages'
+    'body': 'removeAllImages()'
+  'removeAllURLs':
+    'prefix': 'removeAllURLs'
+    'body': 'removeAllURLs()'
+  'setCompletionHandler:':
+    'prefix': 'setCompletionHandler:'
+    'body': 'setCompletionHandler(${1:TWTweetComposeViewControllerCompletionHandler completionHandler})'
+  'setInitialText:':
+    'prefix': 'setInitialText:'
+    'body': 'setInitialText(${1:NSString* text})'

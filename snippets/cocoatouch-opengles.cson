@@ -1,0 +1,4543 @@
+'.source.rubymotion':
+  'kEAGLColorFormatRGB565 (NSString*)':
+    'prefix': 'kEAGLColorFormatRGB565'
+    'body': 'KEAGLColorFormatRGB565'
+  'kEAGLColorFormatRGBA8 (NSString*)':
+    'prefix': 'kEAGLColorFormatRGBA8'
+    'body': 'KEAGLColorFormatRGBA8'
+  'kEAGLColorFormatSRGBA8 (NSString*)':
+    'prefix': 'kEAGLColorFormatSRGBA8'
+    'body': 'KEAGLColorFormatSRGBA8'
+  'kEAGLDrawablePropertyColorFormat (NSString*)':
+    'prefix': 'kEAGLDrawablePropertyColorFormat'
+    'body': 'KEAGLDrawablePropertyColorFormat'
+  'kEAGLDrawablePropertyRetainedBacking (NSString*)':
+    'prefix': 'kEAGLDrawablePropertyRetainedBacking'
+    'body': 'KEAGLDrawablePropertyRetainedBacking'
+  'EAGL_MAJOR_VERSION (1)':
+    'prefix': 'EAGL_MAJOR_VERSION'
+    'body': 'EAGL_MAJOR_VERSION'
+  'EAGL_MINOR_VERSION (0)':
+    'prefix': 'EAGL_MINOR_VERSION'
+    'body': 'EAGL_MINOR_VERSION'
+  'GL_ACTIVE_ATTRIBUTES (35721)':
+    'prefix': 'GL_ACTIVE_ATTRIBUTES'
+    'body': 'GL_ACTIVE_ATTRIBUTES'
+  'GL_ACTIVE_ATTRIBUTE_MAX_LENGTH (35722)':
+    'prefix': 'GL_ACTIVE_ATTRIBUTE_MAX_LENGTH'
+    'body': 'GL_ACTIVE_ATTRIBUTE_MAX_LENGTH'
+  'GL_ACTIVE_PROGRAM_EXT (33369)':
+    'prefix': 'GL_ACTIVE_PROGRAM_EXT'
+    'body': 'GL_ACTIVE_PROGRAM_EXT'
+  'GL_ACTIVE_TEXTURE (34016)':
+    'prefix': 'GL_ACTIVE_TEXTURE'
+    'body': 'GL_ACTIVE_TEXTURE'
+  'GL_ACTIVE_UNIFORMS (35718)':
+    'prefix': 'GL_ACTIVE_UNIFORMS'
+    'body': 'GL_ACTIVE_UNIFORMS'
+  'GL_ACTIVE_UNIFORM_BLOCKS (35382)':
+    'prefix': 'GL_ACTIVE_UNIFORM_BLOCKS'
+    'body': 'GL_ACTIVE_UNIFORM_BLOCKS'
+  'GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH (35381)':
+    'prefix': 'GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH'
+    'body': 'GL_ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH'
+  'GL_ACTIVE_UNIFORM_MAX_LENGTH (35719)':
+    'prefix': 'GL_ACTIVE_UNIFORM_MAX_LENGTH'
+    'body': 'GL_ACTIVE_UNIFORM_MAX_LENGTH'
+  'GL_ADD (260)':
+    'prefix': 'GL_ADD'
+    'body': 'GL_ADD'
+  'GL_ADD_SIGNED (34164)':
+    'prefix': 'GL_ADD_SIGNED'
+    'body': 'GL_ADD_SIGNED'
+  'GL_ALIASED_LINE_WIDTH_RANGE (33902)':
+    'prefix': 'GL_ALIASED_LINE_WIDTH_RANGE'
+    'body': 'GL_ALIASED_LINE_WIDTH_RANGE'
+  'GL_ALIASED_POINT_SIZE_RANGE (33901)':
+    'prefix': 'GL_ALIASED_POINT_SIZE_RANGE'
+    'body': 'GL_ALIASED_POINT_SIZE_RANGE'
+  'GL_ALL_SHADER_BITS_EXT (4294967295)':
+    'prefix': 'GL_ALL_SHADER_BITS_EXT'
+    'body': 'GL_ALL_SHADER_BITS_EXT'
+  'GL_ALPHA (6406)':
+    'prefix': 'GL_ALPHA'
+    'body': 'GL_ALPHA'
+  'GL_ALPHA16F_EXT (34844)':
+    'prefix': 'GL_ALPHA16F_EXT'
+    'body': 'GL_ALPHA16F_EXT'
+  'GL_ALPHA32F_EXT (34838)':
+    'prefix': 'GL_ALPHA32F_EXT'
+    'body': 'GL_ALPHA32F_EXT'
+  'GL_ALPHA8_EXT (32828)':
+    'prefix': 'GL_ALPHA8_EXT'
+    'body': 'GL_ALPHA8_EXT'
+  'GL_ALPHA_BITS (3413)':
+    'prefix': 'GL_ALPHA_BITS'
+    'body': 'GL_ALPHA_BITS'
+  'GL_ALPHA_SCALE (3356)':
+    'prefix': 'GL_ALPHA_SCALE'
+    'body': 'GL_ALPHA_SCALE'
+  'GL_ALPHA_TEST (3008)':
+    'prefix': 'GL_ALPHA_TEST'
+    'body': 'GL_ALPHA_TEST'
+  'GL_ALPHA_TEST_FUNC (3009)':
+    'prefix': 'GL_ALPHA_TEST_FUNC'
+    'body': 'GL_ALPHA_TEST_FUNC'
+  'GL_ALPHA_TEST_REF (3010)':
+    'prefix': 'GL_ALPHA_TEST_REF'
+    'body': 'GL_ALPHA_TEST_REF'
+  'GL_ALREADY_SIGNALED (37146)':
+    'prefix': 'GL_ALREADY_SIGNALED'
+    'body': 'GL_ALREADY_SIGNALED'
+  'GL_ALREADY_SIGNALED_APPLE (37146)':
+    'prefix': 'GL_ALREADY_SIGNALED_APPLE'
+    'body': 'GL_ALREADY_SIGNALED_APPLE'
+  'GL_ALWAYS (519)':
+    'prefix': 'GL_ALWAYS'
+    'body': 'GL_ALWAYS'
+  'GL_AMBIENT (4608)':
+    'prefix': 'GL_AMBIENT'
+    'body': 'GL_AMBIENT'
+  'GL_AMBIENT_AND_DIFFUSE (5634)':
+    'prefix': 'GL_AMBIENT_AND_DIFFUSE'
+    'body': 'GL_AMBIENT_AND_DIFFUSE'
+  'GL_AND (5377)':
+    'prefix': 'GL_AND'
+    'body': 'GL_AND'
+  'GL_AND_INVERTED (5380)':
+    'prefix': 'GL_AND_INVERTED'
+    'body': 'GL_AND_INVERTED'
+  'GL_AND_REVERSE (5378)':
+    'prefix': 'GL_AND_REVERSE'
+    'body': 'GL_AND_REVERSE'
+  'GL_ANY_SAMPLES_PASSED (35887)':
+    'prefix': 'GL_ANY_SAMPLES_PASSED'
+    'body': 'GL_ANY_SAMPLES_PASSED'
+  'GL_ANY_SAMPLES_PASSED_CONSERVATIVE (36202)':
+    'prefix': 'GL_ANY_SAMPLES_PASSED_CONSERVATIVE'
+    'body': 'GL_ANY_SAMPLES_PASSED_CONSERVATIVE'
+  'GL_ANY_SAMPLES_PASSED_CONSERVATIVE_EXT (36202)':
+    'prefix': 'GL_ANY_SAMPLES_PASSED_CONSERVATIVE_EXT'
+    'body': 'GL_ANY_SAMPLES_PASSED_CONSERVATIVE_EXT'
+  'GL_ANY_SAMPLES_PASSED_EXT (35887)':
+    'prefix': 'GL_ANY_SAMPLES_PASSED_EXT'
+    'body': 'GL_ANY_SAMPLES_PASSED_EXT'
+  'GL_APPLE_copy_texture_levels (1)':
+    'prefix': 'GL_APPLE_copy_texture_levels'
+    'body': 'GL_APPLE_copy_texture_levels'
+  'GL_APPLE_framebuffer_multisample (1)':
+    'prefix': 'GL_APPLE_framebuffer_multisample'
+    'body': 'GL_APPLE_framebuffer_multisample'
+  'GL_APPLE_rgb_422 (1)':
+    'prefix': 'GL_APPLE_rgb_422'
+    'body': 'GL_APPLE_rgb_422'
+  'GL_APPLE_sync (1)':
+    'prefix': 'GL_APPLE_sync'
+    'body': 'GL_APPLE_sync'
+  'GL_APPLE_texture_2D_limited_npot (1)':
+    'prefix': 'GL_APPLE_texture_2D_limited_npot'
+    'body': 'GL_APPLE_texture_2D_limited_npot'
+  'GL_APPLE_texture_format_BGRA8888 (1)':
+    'prefix': 'GL_APPLE_texture_format_BGRA8888'
+    'body': 'GL_APPLE_texture_format_BGRA8888'
+  'GL_APPLE_texture_max_level (1)':
+    'prefix': 'GL_APPLE_texture_max_level'
+    'body': 'GL_APPLE_texture_max_level'
+  'GL_ARRAY_BUFFER (34962)':
+    'prefix': 'GL_ARRAY_BUFFER'
+    'body': 'GL_ARRAY_BUFFER'
+  'GL_ARRAY_BUFFER_BINDING (34964)':
+    'prefix': 'GL_ARRAY_BUFFER_BINDING'
+    'body': 'GL_ARRAY_BUFFER_BINDING'
+  'GL_ATTACHED_SHADERS (35717)':
+    'prefix': 'GL_ATTACHED_SHADERS'
+    'body': 'GL_ATTACHED_SHADERS'
+  'GL_BACK (1029)':
+    'prefix': 'GL_BACK'
+    'body': 'GL_BACK'
+  'GL_BGRA (32993)':
+    'prefix': 'GL_BGRA'
+    'body': 'GL_BGRA'
+  'GL_BGRA8_EXT (37793)':
+    'prefix': 'GL_BGRA8_EXT'
+    'body': 'GL_BGRA8_EXT'
+  'GL_BGRA_EXT (32993)':
+    'prefix': 'GL_BGRA_EXT'
+    'body': 'GL_BGRA_EXT'
+  'GL_BGRA_IMG (32993)':
+    'prefix': 'GL_BGRA_IMG'
+    'body': 'GL_BGRA_IMG'
+  'GL_BLEND (3042)':
+    'prefix': 'GL_BLEND'
+    'body': 'GL_BLEND'
+  'GL_BLEND_COLOR (32773)':
+    'prefix': 'GL_BLEND_COLOR'
+    'body': 'GL_BLEND_COLOR'
+  'GL_BLEND_DST (3040)':
+    'prefix': 'GL_BLEND_DST'
+    'body': 'GL_BLEND_DST'
+  'GL_BLEND_DST_ALPHA (32970)':
+    'prefix': 'GL_BLEND_DST_ALPHA'
+    'body': 'GL_BLEND_DST_ALPHA'
+  'GL_BLEND_DST_ALPHA_OES (32970)':
+    'prefix': 'GL_BLEND_DST_ALPHA_OES'
+    'body': 'GL_BLEND_DST_ALPHA_OES'
+  'GL_BLEND_DST_RGB (32968)':
+    'prefix': 'GL_BLEND_DST_RGB'
+    'body': 'GL_BLEND_DST_RGB'
+  'GL_BLEND_DST_RGB_OES (32968)':
+    'prefix': 'GL_BLEND_DST_RGB_OES'
+    'body': 'GL_BLEND_DST_RGB_OES'
+  'GL_BLEND_EQUATION (32777)':
+    'prefix': 'GL_BLEND_EQUATION'
+    'body': 'GL_BLEND_EQUATION'
+  'GL_BLEND_EQUATION_ALPHA (34877)':
+    'prefix': 'GL_BLEND_EQUATION_ALPHA'
+    'body': 'GL_BLEND_EQUATION_ALPHA'
+  'GL_BLEND_EQUATION_ALPHA_OES (34877)':
+    'prefix': 'GL_BLEND_EQUATION_ALPHA_OES'
+    'body': 'GL_BLEND_EQUATION_ALPHA_OES'
+  'GL_BLEND_EQUATION_OES (32777)':
+    'prefix': 'GL_BLEND_EQUATION_OES'
+    'body': 'GL_BLEND_EQUATION_OES'
+  'GL_BLEND_EQUATION_RGB (32777)':
+    'prefix': 'GL_BLEND_EQUATION_RGB'
+    'body': 'GL_BLEND_EQUATION_RGB'
+  'GL_BLEND_EQUATION_RGB_OES (32777)':
+    'prefix': 'GL_BLEND_EQUATION_RGB_OES'
+    'body': 'GL_BLEND_EQUATION_RGB_OES'
+  'GL_BLEND_SRC (3041)':
+    'prefix': 'GL_BLEND_SRC'
+    'body': 'GL_BLEND_SRC'
+  'GL_BLEND_SRC_ALPHA (32971)':
+    'prefix': 'GL_BLEND_SRC_ALPHA'
+    'body': 'GL_BLEND_SRC_ALPHA'
+  'GL_BLEND_SRC_ALPHA_OES (32971)':
+    'prefix': 'GL_BLEND_SRC_ALPHA_OES'
+    'body': 'GL_BLEND_SRC_ALPHA_OES'
+  'GL_BLEND_SRC_RGB (32969)':
+    'prefix': 'GL_BLEND_SRC_RGB'
+    'body': 'GL_BLEND_SRC_RGB'
+  'GL_BLEND_SRC_RGB_OES (32969)':
+    'prefix': 'GL_BLEND_SRC_RGB_OES'
+    'body': 'GL_BLEND_SRC_RGB_OES'
+  'GL_BLUE (6405)':
+    'prefix': 'GL_BLUE'
+    'body': 'GL_BLUE'
+  'GL_BLUE_BITS (3412)':
+    'prefix': 'GL_BLUE_BITS'
+    'body': 'GL_BLUE_BITS'
+  'GL_BOOL (35670)':
+    'prefix': 'GL_BOOL'
+    'body': 'GL_BOOL'
+  'GL_BOOL_VEC2 (35671)':
+    'prefix': 'GL_BOOL_VEC2'
+    'body': 'GL_BOOL_VEC2'
+  'GL_BOOL_VEC3 (35672)':
+    'prefix': 'GL_BOOL_VEC3'
+    'body': 'GL_BOOL_VEC3'
+  'GL_BOOL_VEC4 (35673)':
+    'prefix': 'GL_BOOL_VEC4'
+    'body': 'GL_BOOL_VEC4'
+  'GL_BUFFER_ACCESS_FLAGS (37151)':
+    'prefix': 'GL_BUFFER_ACCESS_FLAGS'
+    'body': 'GL_BUFFER_ACCESS_FLAGS'
+  'GL_BUFFER_ACCESS_OES (35003)':
+    'prefix': 'GL_BUFFER_ACCESS_OES'
+    'body': 'GL_BUFFER_ACCESS_OES'
+  'GL_BUFFER_MAPPED (35004)':
+    'prefix': 'GL_BUFFER_MAPPED'
+    'body': 'GL_BUFFER_MAPPED'
+  'GL_BUFFER_MAPPED_OES (35004)':
+    'prefix': 'GL_BUFFER_MAPPED_OES'
+    'body': 'GL_BUFFER_MAPPED_OES'
+  'GL_BUFFER_MAP_LENGTH (37152)':
+    'prefix': 'GL_BUFFER_MAP_LENGTH'
+    'body': 'GL_BUFFER_MAP_LENGTH'
+  'GL_BUFFER_MAP_OFFSET (37153)':
+    'prefix': 'GL_BUFFER_MAP_OFFSET'
+    'body': 'GL_BUFFER_MAP_OFFSET'
+  'GL_BUFFER_MAP_POINTER (35005)':
+    'prefix': 'GL_BUFFER_MAP_POINTER'
+    'body': 'GL_BUFFER_MAP_POINTER'
+  'GL_BUFFER_MAP_POINTER_OES (35005)':
+    'prefix': 'GL_BUFFER_MAP_POINTER_OES'
+    'body': 'GL_BUFFER_MAP_POINTER_OES'
+  'GL_BUFFER_OBJECT_EXT (37201)':
+    'prefix': 'GL_BUFFER_OBJECT_EXT'
+    'body': 'GL_BUFFER_OBJECT_EXT'
+  'GL_BUFFER_SIZE (34660)':
+    'prefix': 'GL_BUFFER_SIZE'
+    'body': 'GL_BUFFER_SIZE'
+  'GL_BUFFER_USAGE (34661)':
+    'prefix': 'GL_BUFFER_USAGE'
+    'body': 'GL_BUFFER_USAGE'
+  'GL_BYTE (5120)':
+    'prefix': 'GL_BYTE'
+    'body': 'GL_BYTE'
+  'GL_CCW (2305)':
+    'prefix': 'GL_CCW'
+    'body': 'GL_CCW'
+  'GL_CLAMP_TO_EDGE (33071)':
+    'prefix': 'GL_CLAMP_TO_EDGE'
+    'body': 'GL_CLAMP_TO_EDGE'
+  'GL_CLEAR (5376)':
+    'prefix': 'GL_CLEAR'
+    'body': 'GL_CLEAR'
+  'GL_CLIENT_ACTIVE_TEXTURE (34017)':
+    'prefix': 'GL_CLIENT_ACTIVE_TEXTURE'
+    'body': 'GL_CLIENT_ACTIVE_TEXTURE'
+  'GL_CLIP_PLANE0 (12288)':
+    'prefix': 'GL_CLIP_PLANE0'
+    'body': 'GL_CLIP_PLANE0'
+  'GL_CLIP_PLANE1 (12289)':
+    'prefix': 'GL_CLIP_PLANE1'
+    'body': 'GL_CLIP_PLANE1'
+  'GL_CLIP_PLANE2 (12290)':
+    'prefix': 'GL_CLIP_PLANE2'
+    'body': 'GL_CLIP_PLANE2'
+  'GL_CLIP_PLANE3 (12291)':
+    'prefix': 'GL_CLIP_PLANE3'
+    'body': 'GL_CLIP_PLANE3'
+  'GL_CLIP_PLANE4 (12292)':
+    'prefix': 'GL_CLIP_PLANE4'
+    'body': 'GL_CLIP_PLANE4'
+  'GL_CLIP_PLANE5 (12293)':
+    'prefix': 'GL_CLIP_PLANE5'
+    'body': 'GL_CLIP_PLANE5'
+  'GL_COLOR (6144)':
+    'prefix': 'GL_COLOR'
+    'body': 'GL_COLOR'
+  'GL_COLOR_ARRAY (32886)':
+    'prefix': 'GL_COLOR_ARRAY'
+    'body': 'GL_COLOR_ARRAY'
+  'GL_COLOR_ARRAY_BUFFER_BINDING (34968)':
+    'prefix': 'GL_COLOR_ARRAY_BUFFER_BINDING'
+    'body': 'GL_COLOR_ARRAY_BUFFER_BINDING'
+  'GL_COLOR_ARRAY_POINTER (32912)':
+    'prefix': 'GL_COLOR_ARRAY_POINTER'
+    'body': 'GL_COLOR_ARRAY_POINTER'
+  'GL_COLOR_ARRAY_SIZE (32897)':
+    'prefix': 'GL_COLOR_ARRAY_SIZE'
+    'body': 'GL_COLOR_ARRAY_SIZE'
+  'GL_COLOR_ARRAY_STRIDE (32899)':
+    'prefix': 'GL_COLOR_ARRAY_STRIDE'
+    'body': 'GL_COLOR_ARRAY_STRIDE'
+  'GL_COLOR_ARRAY_TYPE (32898)':
+    'prefix': 'GL_COLOR_ARRAY_TYPE'
+    'body': 'GL_COLOR_ARRAY_TYPE'
+  'GL_COLOR_ATTACHMENT0 (36064)':
+    'prefix': 'GL_COLOR_ATTACHMENT0'
+    'body': 'GL_COLOR_ATTACHMENT0'
+  'GL_COLOR_ATTACHMENT0_OES (36064)':
+    'prefix': 'GL_COLOR_ATTACHMENT0_OES'
+    'body': 'GL_COLOR_ATTACHMENT0_OES'
+  'GL_COLOR_ATTACHMENT1 (36065)':
+    'prefix': 'GL_COLOR_ATTACHMENT1'
+    'body': 'GL_COLOR_ATTACHMENT1'
+  'GL_COLOR_ATTACHMENT10 (36074)':
+    'prefix': 'GL_COLOR_ATTACHMENT10'
+    'body': 'GL_COLOR_ATTACHMENT10'
+  'GL_COLOR_ATTACHMENT11 (36075)':
+    'prefix': 'GL_COLOR_ATTACHMENT11'
+    'body': 'GL_COLOR_ATTACHMENT11'
+  'GL_COLOR_ATTACHMENT12 (36076)':
+    'prefix': 'GL_COLOR_ATTACHMENT12'
+    'body': 'GL_COLOR_ATTACHMENT12'
+  'GL_COLOR_ATTACHMENT13 (36077)':
+    'prefix': 'GL_COLOR_ATTACHMENT13'
+    'body': 'GL_COLOR_ATTACHMENT13'
+  'GL_COLOR_ATTACHMENT14 (36078)':
+    'prefix': 'GL_COLOR_ATTACHMENT14'
+    'body': 'GL_COLOR_ATTACHMENT14'
+  'GL_COLOR_ATTACHMENT15 (36079)':
+    'prefix': 'GL_COLOR_ATTACHMENT15'
+    'body': 'GL_COLOR_ATTACHMENT15'
+  'GL_COLOR_ATTACHMENT2 (36066)':
+    'prefix': 'GL_COLOR_ATTACHMENT2'
+    'body': 'GL_COLOR_ATTACHMENT2'
+  'GL_COLOR_ATTACHMENT3 (36067)':
+    'prefix': 'GL_COLOR_ATTACHMENT3'
+    'body': 'GL_COLOR_ATTACHMENT3'
+  'GL_COLOR_ATTACHMENT4 (36068)':
+    'prefix': 'GL_COLOR_ATTACHMENT4'
+    'body': 'GL_COLOR_ATTACHMENT4'
+  'GL_COLOR_ATTACHMENT5 (36069)':
+    'prefix': 'GL_COLOR_ATTACHMENT5'
+    'body': 'GL_COLOR_ATTACHMENT5'
+  'GL_COLOR_ATTACHMENT6 (36070)':
+    'prefix': 'GL_COLOR_ATTACHMENT6'
+    'body': 'GL_COLOR_ATTACHMENT6'
+  'GL_COLOR_ATTACHMENT7 (36071)':
+    'prefix': 'GL_COLOR_ATTACHMENT7'
+    'body': 'GL_COLOR_ATTACHMENT7'
+  'GL_COLOR_ATTACHMENT8 (36072)':
+    'prefix': 'GL_COLOR_ATTACHMENT8'
+    'body': 'GL_COLOR_ATTACHMENT8'
+  'GL_COLOR_ATTACHMENT9 (36073)':
+    'prefix': 'GL_COLOR_ATTACHMENT9'
+    'body': 'GL_COLOR_ATTACHMENT9'
+  'GL_COLOR_BUFFER_BIT (16384)':
+    'prefix': 'GL_COLOR_BUFFER_BIT'
+    'body': 'GL_COLOR_BUFFER_BIT'
+  'GL_COLOR_CLEAR_VALUE (3106)':
+    'prefix': 'GL_COLOR_CLEAR_VALUE'
+    'body': 'GL_COLOR_CLEAR_VALUE'
+  'GL_COLOR_EXT (6144)':
+    'prefix': 'GL_COLOR_EXT'
+    'body': 'GL_COLOR_EXT'
+  'GL_COLOR_LOGIC_OP (3058)':
+    'prefix': 'GL_COLOR_LOGIC_OP'
+    'body': 'GL_COLOR_LOGIC_OP'
+  'GL_COLOR_MATERIAL (2903)':
+    'prefix': 'GL_COLOR_MATERIAL'
+    'body': 'GL_COLOR_MATERIAL'
+  'GL_COLOR_WRITEMASK (3107)':
+    'prefix': 'GL_COLOR_WRITEMASK'
+    'body': 'GL_COLOR_WRITEMASK'
+  'GL_COMBINE (34160)':
+    'prefix': 'GL_COMBINE'
+    'body': 'GL_COMBINE'
+  'GL_COMBINE_ALPHA (34162)':
+    'prefix': 'GL_COMBINE_ALPHA'
+    'body': 'GL_COMBINE_ALPHA'
+  'GL_COMBINE_RGB (34161)':
+    'prefix': 'GL_COMBINE_RGB'
+    'body': 'GL_COMBINE_RGB'
+  'GL_COMPARE_REF_TO_TEXTURE (34894)':
+    'prefix': 'GL_COMPARE_REF_TO_TEXTURE'
+    'body': 'GL_COMPARE_REF_TO_TEXTURE'
+  'GL_COMPARE_REF_TO_TEXTURE_EXT (34894)':
+    'prefix': 'GL_COMPARE_REF_TO_TEXTURE_EXT'
+    'body': 'GL_COMPARE_REF_TO_TEXTURE_EXT'
+  'GL_COMPILE_STATUS (35713)':
+    'prefix': 'GL_COMPILE_STATUS'
+    'body': 'GL_COMPILE_STATUS'
+  'GL_COMPRESSED_R11_EAC (37488)':
+    'prefix': 'GL_COMPRESSED_R11_EAC'
+    'body': 'GL_COMPRESSED_R11_EAC'
+  'GL_COMPRESSED_RG11_EAC (37490)':
+    'prefix': 'GL_COMPRESSED_RG11_EAC'
+    'body': 'GL_COMPRESSED_RG11_EAC'
+  'GL_COMPRESSED_RGB8_ETC2 (37492)':
+    'prefix': 'GL_COMPRESSED_RGB8_ETC2'
+    'body': 'GL_COMPRESSED_RGB8_ETC2'
+  'GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2 (37494)':
+    'prefix': 'GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2'
+    'body': 'GL_COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2'
+  'GL_COMPRESSED_RGBA8_ETC2_EAC (37496)':
+    'prefix': 'GL_COMPRESSED_RGBA8_ETC2_EAC'
+    'body': 'GL_COMPRESSED_RGBA8_ETC2_EAC'
+  'GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG (35843)':
+    'prefix': 'GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG'
+    'body': 'GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG'
+  'GL_COMPRESSED_RGBA_PVRTC_4BPPV1_IMG (35842)':
+    'prefix': 'GL_COMPRESSED_RGBA_PVRTC_4BPPV1_IMG'
+    'body': 'GL_COMPRESSED_RGBA_PVRTC_4BPPV1_IMG'
+  'GL_COMPRESSED_RGB_PVRTC_2BPPV1_IMG (35841)':
+    'prefix': 'GL_COMPRESSED_RGB_PVRTC_2BPPV1_IMG'
+    'body': 'GL_COMPRESSED_RGB_PVRTC_2BPPV1_IMG'
+  'GL_COMPRESSED_RGB_PVRTC_4BPPV1_IMG (35840)':
+    'prefix': 'GL_COMPRESSED_RGB_PVRTC_4BPPV1_IMG'
+    'body': 'GL_COMPRESSED_RGB_PVRTC_4BPPV1_IMG'
+  'GL_COMPRESSED_SIGNED_R11_EAC (37489)':
+    'prefix': 'GL_COMPRESSED_SIGNED_R11_EAC'
+    'body': 'GL_COMPRESSED_SIGNED_R11_EAC'
+  'GL_COMPRESSED_SIGNED_RG11_EAC (37491)':
+    'prefix': 'GL_COMPRESSED_SIGNED_RG11_EAC'
+    'body': 'GL_COMPRESSED_SIGNED_RG11_EAC'
+  'GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC (37497)':
+    'prefix': 'GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC'
+    'body': 'GL_COMPRESSED_SRGB8_ALPHA8_ETC2_EAC'
+  'GL_COMPRESSED_SRGB8_ETC2 (37493)':
+    'prefix': 'GL_COMPRESSED_SRGB8_ETC2'
+    'body': 'GL_COMPRESSED_SRGB8_ETC2'
+  'GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2 (37495)':
+    'prefix': 'GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2'
+    'body': 'GL_COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2'
+  'GL_COMPRESSED_SRGB_ALPHA_PVRTC_2BPPV1_EXT (35414)':
+    'prefix': 'GL_COMPRESSED_SRGB_ALPHA_PVRTC_2BPPV1_EXT'
+    'body': 'GL_COMPRESSED_SRGB_ALPHA_PVRTC_2BPPV1_EXT'
+  'GL_COMPRESSED_SRGB_ALPHA_PVRTC_4BPPV1_EXT (35415)':
+    'prefix': 'GL_COMPRESSED_SRGB_ALPHA_PVRTC_4BPPV1_EXT'
+    'body': 'GL_COMPRESSED_SRGB_ALPHA_PVRTC_4BPPV1_EXT'
+  'GL_COMPRESSED_SRGB_PVRTC_2BPPV1_EXT (35412)':
+    'prefix': 'GL_COMPRESSED_SRGB_PVRTC_2BPPV1_EXT'
+    'body': 'GL_COMPRESSED_SRGB_PVRTC_2BPPV1_EXT'
+  'GL_COMPRESSED_SRGB_PVRTC_4BPPV1_EXT (35413)':
+    'prefix': 'GL_COMPRESSED_SRGB_PVRTC_4BPPV1_EXT'
+    'body': 'GL_COMPRESSED_SRGB_PVRTC_4BPPV1_EXT'
+  'GL_COMPRESSED_TEXTURE_FORMATS (34467)':
+    'prefix': 'GL_COMPRESSED_TEXTURE_FORMATS'
+    'body': 'GL_COMPRESSED_TEXTURE_FORMATS'
+  'GL_CONDITION_SATISFIED (37148)':
+    'prefix': 'GL_CONDITION_SATISFIED'
+    'body': 'GL_CONDITION_SATISFIED'
+  'GL_CONDITION_SATISFIED_APPLE (37148)':
+    'prefix': 'GL_CONDITION_SATISFIED_APPLE'
+    'body': 'GL_CONDITION_SATISFIED_APPLE'
+  'GL_CONSTANT (34166)':
+    'prefix': 'GL_CONSTANT'
+    'body': 'GL_CONSTANT'
+  'GL_CONSTANT_ALPHA (32771)':
+    'prefix': 'GL_CONSTANT_ALPHA'
+    'body': 'GL_CONSTANT_ALPHA'
+  'GL_CONSTANT_ATTENUATION (4615)':
+    'prefix': 'GL_CONSTANT_ATTENUATION'
+    'body': 'GL_CONSTANT_ATTENUATION'
+  'GL_CONSTANT_COLOR (32769)':
+    'prefix': 'GL_CONSTANT_COLOR'
+    'body': 'GL_CONSTANT_COLOR'
+  'GL_COORD_REPLACE_OES (34914)':
+    'prefix': 'GL_COORD_REPLACE_OES'
+    'body': 'GL_COORD_REPLACE_OES'
+  'GL_COPY (5379)':
+    'prefix': 'GL_COPY'
+    'body': 'GL_COPY'
+  'GL_COPY_INVERTED (5388)':
+    'prefix': 'GL_COPY_INVERTED'
+    'body': 'GL_COPY_INVERTED'
+  'GL_COPY_READ_BUFFER (36662)':
+    'prefix': 'GL_COPY_READ_BUFFER'
+    'body': 'GL_COPY_READ_BUFFER'
+  'GL_COPY_READ_BUFFER_BINDING (36662)':
+    'prefix': 'GL_COPY_READ_BUFFER_BINDING'
+    'body': 'GL_COPY_READ_BUFFER_BINDING'
+  'GL_COPY_WRITE_BUFFER (36663)':
+    'prefix': 'GL_COPY_WRITE_BUFFER'
+    'body': 'GL_COPY_WRITE_BUFFER'
+  'GL_COPY_WRITE_BUFFER_BINDING (36663)':
+    'prefix': 'GL_COPY_WRITE_BUFFER_BINDING'
+    'body': 'GL_COPY_WRITE_BUFFER_BINDING'
+  'GL_CULL_FACE (2884)':
+    'prefix': 'GL_CULL_FACE'
+    'body': 'GL_CULL_FACE'
+  'GL_CULL_FACE_MODE (2885)':
+    'prefix': 'GL_CULL_FACE_MODE'
+    'body': 'GL_CULL_FACE_MODE'
+  'GL_CURRENT_COLOR (2816)':
+    'prefix': 'GL_CURRENT_COLOR'
+    'body': 'GL_CURRENT_COLOR'
+  'GL_CURRENT_NORMAL (2818)':
+    'prefix': 'GL_CURRENT_NORMAL'
+    'body': 'GL_CURRENT_NORMAL'
+  'GL_CURRENT_PALETTE_MATRIX_OES (34883)':
+    'prefix': 'GL_CURRENT_PALETTE_MATRIX_OES'
+    'body': 'GL_CURRENT_PALETTE_MATRIX_OES'
+  'GL_CURRENT_PROGRAM (35725)':
+    'prefix': 'GL_CURRENT_PROGRAM'
+    'body': 'GL_CURRENT_PROGRAM'
+  'GL_CURRENT_QUERY (34917)':
+    'prefix': 'GL_CURRENT_QUERY'
+    'body': 'GL_CURRENT_QUERY'
+  'GL_CURRENT_QUERY_EXT (34917)':
+    'prefix': 'GL_CURRENT_QUERY_EXT'
+    'body': 'GL_CURRENT_QUERY_EXT'
+  'GL_CURRENT_TEXTURE_COORDS (2819)':
+    'prefix': 'GL_CURRENT_TEXTURE_COORDS'
+    'body': 'GL_CURRENT_TEXTURE_COORDS'
+  'GL_CURRENT_VERTEX_ATTRIB (34342)':
+    'prefix': 'GL_CURRENT_VERTEX_ATTRIB'
+    'body': 'GL_CURRENT_VERTEX_ATTRIB'
+  'GL_CW (2304)':
+    'prefix': 'GL_CW'
+    'body': 'GL_CW'
+  'GL_DECAL (8449)':
+    'prefix': 'GL_DECAL'
+    'body': 'GL_DECAL'
+  'GL_DECR (7683)':
+    'prefix': 'GL_DECR'
+    'body': 'GL_DECR'
+  'GL_DECR_WRAP (34056)':
+    'prefix': 'GL_DECR_WRAP'
+    'body': 'GL_DECR_WRAP'
+  'GL_DECR_WRAP_OES (34056)':
+    'prefix': 'GL_DECR_WRAP_OES'
+    'body': 'GL_DECR_WRAP_OES'
+  'GL_DELETE_STATUS (35712)':
+    'prefix': 'GL_DELETE_STATUS'
+    'body': 'GL_DELETE_STATUS'
+  'GL_DEPTH (6145)':
+    'prefix': 'GL_DEPTH'
+    'body': 'GL_DEPTH'
+  'GL_DEPTH24_STENCIL8 (35056)':
+    'prefix': 'GL_DEPTH24_STENCIL8'
+    'body': 'GL_DEPTH24_STENCIL8'
+  'GL_DEPTH24_STENCIL8_OES (35056)':
+    'prefix': 'GL_DEPTH24_STENCIL8_OES'
+    'body': 'GL_DEPTH24_STENCIL8_OES'
+  'GL_DEPTH32F_STENCIL8 (36013)':
+    'prefix': 'GL_DEPTH32F_STENCIL8'
+    'body': 'GL_DEPTH32F_STENCIL8'
+  'GL_DEPTH_ATTACHMENT (36096)':
+    'prefix': 'GL_DEPTH_ATTACHMENT'
+    'body': 'GL_DEPTH_ATTACHMENT'
+  'GL_DEPTH_ATTACHMENT_OES (36096)':
+    'prefix': 'GL_DEPTH_ATTACHMENT_OES'
+    'body': 'GL_DEPTH_ATTACHMENT_OES'
+  'GL_DEPTH_BITS (3414)':
+    'prefix': 'GL_DEPTH_BITS'
+    'body': 'GL_DEPTH_BITS'
+  'GL_DEPTH_BUFFER_BIT (256)':
+    'prefix': 'GL_DEPTH_BUFFER_BIT'
+    'body': 'GL_DEPTH_BUFFER_BIT'
+  'GL_DEPTH_CLEAR_VALUE (2931)':
+    'prefix': 'GL_DEPTH_CLEAR_VALUE'
+    'body': 'GL_DEPTH_CLEAR_VALUE'
+  'GL_DEPTH_COMPONENT (6402)':
+    'prefix': 'GL_DEPTH_COMPONENT'
+    'body': 'GL_DEPTH_COMPONENT'
+  'GL_DEPTH_COMPONENT16 (33189)':
+    'prefix': 'GL_DEPTH_COMPONENT16'
+    'body': 'GL_DEPTH_COMPONENT16'
+  'GL_DEPTH_COMPONENT16_OES (33189)':
+    'prefix': 'GL_DEPTH_COMPONENT16_OES'
+    'body': 'GL_DEPTH_COMPONENT16_OES'
+  'GL_DEPTH_COMPONENT24 (33190)':
+    'prefix': 'GL_DEPTH_COMPONENT24'
+    'body': 'GL_DEPTH_COMPONENT24'
+  'GL_DEPTH_COMPONENT24_OES (33190)':
+    'prefix': 'GL_DEPTH_COMPONENT24_OES'
+    'body': 'GL_DEPTH_COMPONENT24_OES'
+  'GL_DEPTH_COMPONENT32F (36012)':
+    'prefix': 'GL_DEPTH_COMPONENT32F'
+    'body': 'GL_DEPTH_COMPONENT32F'
+  'GL_DEPTH_COMPONENT32_OES (33191)':
+    'prefix': 'GL_DEPTH_COMPONENT32_OES'
+    'body': 'GL_DEPTH_COMPONENT32_OES'
+  'GL_DEPTH_EXT (6145)':
+    'prefix': 'GL_DEPTH_EXT'
+    'body': 'GL_DEPTH_EXT'
+  'GL_DEPTH_FUNC (2932)':
+    'prefix': 'GL_DEPTH_FUNC'
+    'body': 'GL_DEPTH_FUNC'
+  'GL_DEPTH_RANGE (2928)':
+    'prefix': 'GL_DEPTH_RANGE'
+    'body': 'GL_DEPTH_RANGE'
+  'GL_DEPTH_STENCIL (34041)':
+    'prefix': 'GL_DEPTH_STENCIL'
+    'body': 'GL_DEPTH_STENCIL'
+  'GL_DEPTH_STENCIL_ATTACHMENT (33306)':
+    'prefix': 'GL_DEPTH_STENCIL_ATTACHMENT'
+    'body': 'GL_DEPTH_STENCIL_ATTACHMENT'
+  'GL_DEPTH_STENCIL_OES (34041)':
+    'prefix': 'GL_DEPTH_STENCIL_OES'
+    'body': 'GL_DEPTH_STENCIL_OES'
+  'GL_DEPTH_TEST (2929)':
+    'prefix': 'GL_DEPTH_TEST'
+    'body': 'GL_DEPTH_TEST'
+  'GL_DEPTH_WRITEMASK (2930)':
+    'prefix': 'GL_DEPTH_WRITEMASK'
+    'body': 'GL_DEPTH_WRITEMASK'
+  'GL_DIFFUSE (4609)':
+    'prefix': 'GL_DIFFUSE'
+    'body': 'GL_DIFFUSE'
+  'GL_DITHER (3024)':
+    'prefix': 'GL_DITHER'
+    'body': 'GL_DITHER'
+  'GL_DONT_CARE (4352)':
+    'prefix': 'GL_DONT_CARE'
+    'body': 'GL_DONT_CARE'
+  'GL_DOT3_RGB (34478)':
+    'prefix': 'GL_DOT3_RGB'
+    'body': 'GL_DOT3_RGB'
+  'GL_DOT3_RGBA (34479)':
+    'prefix': 'GL_DOT3_RGBA'
+    'body': 'GL_DOT3_RGBA'
+  'GL_DRAW_BUFFER0 (34853)':
+    'prefix': 'GL_DRAW_BUFFER0'
+    'body': 'GL_DRAW_BUFFER0'
+  'GL_DRAW_BUFFER1 (34854)':
+    'prefix': 'GL_DRAW_BUFFER1'
+    'body': 'GL_DRAW_BUFFER1'
+  'GL_DRAW_BUFFER10 (34863)':
+    'prefix': 'GL_DRAW_BUFFER10'
+    'body': 'GL_DRAW_BUFFER10'
+  'GL_DRAW_BUFFER11 (34864)':
+    'prefix': 'GL_DRAW_BUFFER11'
+    'body': 'GL_DRAW_BUFFER11'
+  'GL_DRAW_BUFFER12 (34865)':
+    'prefix': 'GL_DRAW_BUFFER12'
+    'body': 'GL_DRAW_BUFFER12'
+  'GL_DRAW_BUFFER13 (34866)':
+    'prefix': 'GL_DRAW_BUFFER13'
+    'body': 'GL_DRAW_BUFFER13'
+  'GL_DRAW_BUFFER14 (34867)':
+    'prefix': 'GL_DRAW_BUFFER14'
+    'body': 'GL_DRAW_BUFFER14'
+  'GL_DRAW_BUFFER15 (34868)':
+    'prefix': 'GL_DRAW_BUFFER15'
+    'body': 'GL_DRAW_BUFFER15'
+  'GL_DRAW_BUFFER2 (34855)':
+    'prefix': 'GL_DRAW_BUFFER2'
+    'body': 'GL_DRAW_BUFFER2'
+  'GL_DRAW_BUFFER3 (34856)':
+    'prefix': 'GL_DRAW_BUFFER3'
+    'body': 'GL_DRAW_BUFFER3'
+  'GL_DRAW_BUFFER4 (34857)':
+    'prefix': 'GL_DRAW_BUFFER4'
+    'body': 'GL_DRAW_BUFFER4'
+  'GL_DRAW_BUFFER5 (34858)':
+    'prefix': 'GL_DRAW_BUFFER5'
+    'body': 'GL_DRAW_BUFFER5'
+  'GL_DRAW_BUFFER6 (34859)':
+    'prefix': 'GL_DRAW_BUFFER6'
+    'body': 'GL_DRAW_BUFFER6'
+  'GL_DRAW_BUFFER7 (34860)':
+    'prefix': 'GL_DRAW_BUFFER7'
+    'body': 'GL_DRAW_BUFFER7'
+  'GL_DRAW_BUFFER8 (34861)':
+    'prefix': 'GL_DRAW_BUFFER8'
+    'body': 'GL_DRAW_BUFFER8'
+  'GL_DRAW_BUFFER9 (34862)':
+    'prefix': 'GL_DRAW_BUFFER9'
+    'body': 'GL_DRAW_BUFFER9'
+  'GL_DRAW_FRAMEBUFFER (36009)':
+    'prefix': 'GL_DRAW_FRAMEBUFFER'
+    'body': 'GL_DRAW_FRAMEBUFFER'
+  'GL_DRAW_FRAMEBUFFER_APPLE (36009)':
+    'prefix': 'GL_DRAW_FRAMEBUFFER_APPLE'
+    'body': 'GL_DRAW_FRAMEBUFFER_APPLE'
+  'GL_DRAW_FRAMEBUFFER_BINDING (36006)':
+    'prefix': 'GL_DRAW_FRAMEBUFFER_BINDING'
+    'body': 'GL_DRAW_FRAMEBUFFER_BINDING'
+  'GL_DRAW_FRAMEBUFFER_BINDING_APPLE (36006)':
+    'prefix': 'GL_DRAW_FRAMEBUFFER_BINDING_APPLE'
+    'body': 'GL_DRAW_FRAMEBUFFER_BINDING_APPLE'
+  'GL_DST_ALPHA (772)':
+    'prefix': 'GL_DST_ALPHA'
+    'body': 'GL_DST_ALPHA'
+  'GL_DST_COLOR (774)':
+    'prefix': 'GL_DST_COLOR'
+    'body': 'GL_DST_COLOR'
+  'GL_DYNAMIC_COPY (35050)':
+    'prefix': 'GL_DYNAMIC_COPY'
+    'body': 'GL_DYNAMIC_COPY'
+  'GL_DYNAMIC_DRAW (35048)':
+    'prefix': 'GL_DYNAMIC_DRAW'
+    'body': 'GL_DYNAMIC_DRAW'
+  'GL_DYNAMIC_READ (35049)':
+    'prefix': 'GL_DYNAMIC_READ'
+    'body': 'GL_DYNAMIC_READ'
+  'GL_ELEMENT_ARRAY_BUFFER (34963)':
+    'prefix': 'GL_ELEMENT_ARRAY_BUFFER'
+    'body': 'GL_ELEMENT_ARRAY_BUFFER'
+  'GL_ELEMENT_ARRAY_BUFFER_BINDING (34965)':
+    'prefix': 'GL_ELEMENT_ARRAY_BUFFER_BINDING'
+    'body': 'GL_ELEMENT_ARRAY_BUFFER_BINDING'
+  'GL_EMISSION (5632)':
+    'prefix': 'GL_EMISSION'
+    'body': 'GL_EMISSION'
+  'GL_EQUAL (514)':
+    'prefix': 'GL_EQUAL'
+    'body': 'GL_EQUAL'
+  'GL_EQUIV (5385)':
+    'prefix': 'GL_EQUIV'
+    'body': 'GL_EQUIV'
+  'GL_ES_VERSION_2_0 (1)':
+    'prefix': 'GL_ES_VERSION_2_0'
+    'body': 'GL_ES_VERSION_2_0'
+  'GL_ES_VERSION_3_0 (1)':
+    'prefix': 'GL_ES_VERSION_3_0'
+    'body': 'GL_ES_VERSION_3_0'
+  'GL_EXP (2048)':
+    'prefix': 'GL_EXP'
+    'body': 'GL_EXP'
+  'GL_EXP2 (2049)':
+    'prefix': 'GL_EXP2'
+    'body': 'GL_EXP2'
+  'GL_EXTENSIONS (7939)':
+    'prefix': 'GL_EXTENSIONS'
+    'body': 'GL_EXTENSIONS'
+  'GL_EXT_blend_minmax (1)':
+    'prefix': 'GL_EXT_blend_minmax'
+    'body': 'GL_EXT_blend_minmax'
+  'GL_EXT_color_buffer_half_float (1)':
+    'prefix': 'GL_EXT_color_buffer_half_float'
+    'body': 'GL_EXT_color_buffer_half_float'
+  'GL_EXT_debug_label (1)':
+    'prefix': 'GL_EXT_debug_label'
+    'body': 'GL_EXT_debug_label'
+  'GL_EXT_debug_marker (1)':
+    'prefix': 'GL_EXT_debug_marker'
+    'body': 'GL_EXT_debug_marker'
+  'GL_EXT_discard_framebuffer (1)':
+    'prefix': 'GL_EXT_discard_framebuffer'
+    'body': 'GL_EXT_discard_framebuffer'
+  'GL_EXT_draw_instanced (1)':
+    'prefix': 'GL_EXT_draw_instanced'
+    'body': 'GL_EXT_draw_instanced'
+  'GL_EXT_instanced_arrays (1)':
+    'prefix': 'GL_EXT_instanced_arrays'
+    'body': 'GL_EXT_instanced_arrays'
+  'GL_EXT_map_buffer_range (1)':
+    'prefix': 'GL_EXT_map_buffer_range'
+    'body': 'GL_EXT_map_buffer_range'
+  'GL_EXT_occlusion_query_boolean (1)':
+    'prefix': 'GL_EXT_occlusion_query_boolean'
+    'body': 'GL_EXT_occlusion_query_boolean'
+  'GL_EXT_pvrtc_sRGB (1)':
+    'prefix': 'GL_EXT_pvrtc_sRGB'
+    'body': 'GL_EXT_pvrtc_sRGB'
+  'GL_EXT_read_format_bgra (1)':
+    'prefix': 'GL_EXT_read_format_bgra'
+    'body': 'GL_EXT_read_format_bgra'
+  'GL_EXT_sRGB (1)':
+    'prefix': 'GL_EXT_sRGB'
+    'body': 'GL_EXT_sRGB'
+  'GL_EXT_separate_shader_objects (1)':
+    'prefix': 'GL_EXT_separate_shader_objects'
+    'body': 'GL_EXT_separate_shader_objects'
+  'GL_EXT_shader_framebuffer_fetch (1)':
+    'prefix': 'GL_EXT_shader_framebuffer_fetch'
+    'body': 'GL_EXT_shader_framebuffer_fetch'
+  'GL_EXT_shader_texture_lod (1)':
+    'prefix': 'GL_EXT_shader_texture_lod'
+    'body': 'GL_EXT_shader_texture_lod'
+  'GL_EXT_shadow_samplers (1)':
+    'prefix': 'GL_EXT_shadow_samplers'
+    'body': 'GL_EXT_shadow_samplers'
+  'GL_EXT_texture_filter_anisotropic (1)':
+    'prefix': 'GL_EXT_texture_filter_anisotropic'
+    'body': 'GL_EXT_texture_filter_anisotropic'
+  'GL_EXT_texture_lod_bias (1)':
+    'prefix': 'GL_EXT_texture_lod_bias'
+    'body': 'GL_EXT_texture_lod_bias'
+  'GL_EXT_texture_rg (1)':
+    'prefix': 'GL_EXT_texture_rg'
+    'body': 'GL_EXT_texture_rg'
+  'GL_EXT_texture_storage (1)':
+    'prefix': 'GL_EXT_texture_storage'
+    'body': 'GL_EXT_texture_storage'
+  'GL_FALSE (0)':
+    'prefix': 'GL_FALSE'
+    'body': 'GL_FALSE'
+  'GL_FASTEST (4353)':
+    'prefix': 'GL_FASTEST'
+    'body': 'GL_FASTEST'
+  'GL_FIXED (5132)':
+    'prefix': 'GL_FIXED'
+    'body': 'GL_FIXED'
+  'GL_FLAT (7424)':
+    'prefix': 'GL_FLAT'
+    'body': 'GL_FLAT'
+  'GL_FLOAT (5126)':
+    'prefix': 'GL_FLOAT'
+    'body': 'GL_FLOAT'
+  'GL_FLOAT_32_UNSIGNED_INT_24_8_REV (36269)':
+    'prefix': 'GL_FLOAT_32_UNSIGNED_INT_24_8_REV'
+    'body': 'GL_FLOAT_32_UNSIGNED_INT_24_8_REV'
+  'GL_FLOAT_MAT2 (35674)':
+    'prefix': 'GL_FLOAT_MAT2'
+    'body': 'GL_FLOAT_MAT2'
+  'GL_FLOAT_MAT2x3 (35685)':
+    'prefix': 'GL_FLOAT_MAT2x3'
+    'body': 'GL_FLOAT_MAT2x3'
+  'GL_FLOAT_MAT2x4 (35686)':
+    'prefix': 'GL_FLOAT_MAT2x4'
+    'body': 'GL_FLOAT_MAT2x4'
+  'GL_FLOAT_MAT3 (35675)':
+    'prefix': 'GL_FLOAT_MAT3'
+    'body': 'GL_FLOAT_MAT3'
+  'GL_FLOAT_MAT3x2 (35687)':
+    'prefix': 'GL_FLOAT_MAT3x2'
+    'body': 'GL_FLOAT_MAT3x2'
+  'GL_FLOAT_MAT3x4 (35688)':
+    'prefix': 'GL_FLOAT_MAT3x4'
+    'body': 'GL_FLOAT_MAT3x4'
+  'GL_FLOAT_MAT4 (35676)':
+    'prefix': 'GL_FLOAT_MAT4'
+    'body': 'GL_FLOAT_MAT4'
+  'GL_FLOAT_MAT4x2 (35689)':
+    'prefix': 'GL_FLOAT_MAT4x2'
+    'body': 'GL_FLOAT_MAT4x2'
+  'GL_FLOAT_MAT4x3 (35690)':
+    'prefix': 'GL_FLOAT_MAT4x3'
+    'body': 'GL_FLOAT_MAT4x3'
+  'GL_FLOAT_VEC2 (35664)':
+    'prefix': 'GL_FLOAT_VEC2'
+    'body': 'GL_FLOAT_VEC2'
+  'GL_FLOAT_VEC3 (35665)':
+    'prefix': 'GL_FLOAT_VEC3'
+    'body': 'GL_FLOAT_VEC3'
+  'GL_FLOAT_VEC4 (35666)':
+    'prefix': 'GL_FLOAT_VEC4'
+    'body': 'GL_FLOAT_VEC4'
+  'GL_FOG (2912)':
+    'prefix': 'GL_FOG'
+    'body': 'GL_FOG'
+  'GL_FOG_COLOR (2918)':
+    'prefix': 'GL_FOG_COLOR'
+    'body': 'GL_FOG_COLOR'
+  'GL_FOG_DENSITY (2914)':
+    'prefix': 'GL_FOG_DENSITY'
+    'body': 'GL_FOG_DENSITY'
+  'GL_FOG_END (2916)':
+    'prefix': 'GL_FOG_END'
+    'body': 'GL_FOG_END'
+  'GL_FOG_HINT (3156)':
+    'prefix': 'GL_FOG_HINT'
+    'body': 'GL_FOG_HINT'
+  'GL_FOG_MODE (2917)':
+    'prefix': 'GL_FOG_MODE'
+    'body': 'GL_FOG_MODE'
+  'GL_FOG_START (2915)':
+    'prefix': 'GL_FOG_START'
+    'body': 'GL_FOG_START'
+  'GL_FRAGMENT_SHADER (35632)':
+    'prefix': 'GL_FRAGMENT_SHADER'
+    'body': 'GL_FRAGMENT_SHADER'
+  'GL_FRAGMENT_SHADER_BIT_EXT (2)':
+    'prefix': 'GL_FRAGMENT_SHADER_BIT_EXT'
+    'body': 'GL_FRAGMENT_SHADER_BIT_EXT'
+  'GL_FRAGMENT_SHADER_DERIVATIVE_HINT (35723)':
+    'prefix': 'GL_FRAGMENT_SHADER_DERIVATIVE_HINT'
+    'body': 'GL_FRAGMENT_SHADER_DERIVATIVE_HINT'
+  'GL_FRAGMENT_SHADER_DERIVATIVE_HINT_OES (35723)':
+    'prefix': 'GL_FRAGMENT_SHADER_DERIVATIVE_HINT_OES'
+    'body': 'GL_FRAGMENT_SHADER_DERIVATIVE_HINT_OES'
+  'GL_FRAGMENT_SHADER_DISCARDS_SAMPLES_EXT (35410)':
+    'prefix': 'GL_FRAGMENT_SHADER_DISCARDS_SAMPLES_EXT'
+    'body': 'GL_FRAGMENT_SHADER_DISCARDS_SAMPLES_EXT'
+  'GL_FRAMEBUFFER (36160)':
+    'prefix': 'GL_FRAMEBUFFER'
+    'body': 'GL_FRAMEBUFFER'
+  'GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE (33301)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE'
+  'GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE (33300)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE'
+  'GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING (33296)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING'
+  'GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT (33296)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT'
+  'GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE (33297)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE'
+  'GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT (33297)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT'
+  'GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE (33302)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE'
+  'GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE (33299)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE'
+  'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME (36049)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME'
+  'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME_OES (36049)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME_OES'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME_OES'
+  'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE (36048)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE'
+  'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE_OES (36048)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE_OES'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE_OES'
+  'GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE (33298)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE'
+  'GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE (33303)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE'
+  'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE (36051)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE'
+  'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE_OES (36051)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE_OES'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE_OES'
+  'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER (36052)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER'
+  'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL (36050)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL'
+  'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL_OES (36050)':
+    'prefix': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL_OES'
+    'body': 'GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL_OES'
+  'GL_FRAMEBUFFER_BINDING (36006)':
+    'prefix': 'GL_FRAMEBUFFER_BINDING'
+    'body': 'GL_FRAMEBUFFER_BINDING'
+  'GL_FRAMEBUFFER_BINDING_OES (36006)':
+    'prefix': 'GL_FRAMEBUFFER_BINDING_OES'
+    'body': 'GL_FRAMEBUFFER_BINDING_OES'
+  'GL_FRAMEBUFFER_COMPLETE (36053)':
+    'prefix': 'GL_FRAMEBUFFER_COMPLETE'
+    'body': 'GL_FRAMEBUFFER_COMPLETE'
+  'GL_FRAMEBUFFER_COMPLETE_OES (36053)':
+    'prefix': 'GL_FRAMEBUFFER_COMPLETE_OES'
+    'body': 'GL_FRAMEBUFFER_COMPLETE_OES'
+  'GL_FRAMEBUFFER_DEFAULT (33304)':
+    'prefix': 'GL_FRAMEBUFFER_DEFAULT'
+    'body': 'GL_FRAMEBUFFER_DEFAULT'
+  'GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT (36054)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT'
+  'GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT_OES (36054)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT_OES'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT_OES'
+  'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS (36057)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS'
+  'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_OES (36057)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_OES'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_OES'
+  'GL_FRAMEBUFFER_INCOMPLETE_FORMATS_OES (36058)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_FORMATS_OES'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_FORMATS_OES'
+  'GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT (36055)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT'
+  'GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_OES (36055)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_OES'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_OES'
+  'GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE (36182)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE'
+  'GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE_APPLE (36182)':
+    'prefix': 'GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE_APPLE'
+    'body': 'GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE_APPLE'
+  'GL_FRAMEBUFFER_OES (36160)':
+    'prefix': 'GL_FRAMEBUFFER_OES'
+    'body': 'GL_FRAMEBUFFER_OES'
+  'GL_FRAMEBUFFER_UNDEFINED (33305)':
+    'prefix': 'GL_FRAMEBUFFER_UNDEFINED'
+    'body': 'GL_FRAMEBUFFER_UNDEFINED'
+  'GL_FRAMEBUFFER_UNSUPPORTED (36061)':
+    'prefix': 'GL_FRAMEBUFFER_UNSUPPORTED'
+    'body': 'GL_FRAMEBUFFER_UNSUPPORTED'
+  'GL_FRAMEBUFFER_UNSUPPORTED_OES (36061)':
+    'prefix': 'GL_FRAMEBUFFER_UNSUPPORTED_OES'
+    'body': 'GL_FRAMEBUFFER_UNSUPPORTED_OES'
+  'GL_FRONT (1028)':
+    'prefix': 'GL_FRONT'
+    'body': 'GL_FRONT'
+  'GL_FRONT_AND_BACK (1032)':
+    'prefix': 'GL_FRONT_AND_BACK'
+    'body': 'GL_FRONT_AND_BACK'
+  'GL_FRONT_FACE (2886)':
+    'prefix': 'GL_FRONT_FACE'
+    'body': 'GL_FRONT_FACE'
+  'GL_FUNC_ADD (32774)':
+    'prefix': 'GL_FUNC_ADD'
+    'body': 'GL_FUNC_ADD'
+  'GL_FUNC_ADD_OES (32774)':
+    'prefix': 'GL_FUNC_ADD_OES'
+    'body': 'GL_FUNC_ADD_OES'
+  'GL_FUNC_REVERSE_SUBTRACT (32779)':
+    'prefix': 'GL_FUNC_REVERSE_SUBTRACT'
+    'body': 'GL_FUNC_REVERSE_SUBTRACT'
+  'GL_FUNC_REVERSE_SUBTRACT_OES (32779)':
+    'prefix': 'GL_FUNC_REVERSE_SUBTRACT_OES'
+    'body': 'GL_FUNC_REVERSE_SUBTRACT_OES'
+  'GL_FUNC_SUBTRACT (32778)':
+    'prefix': 'GL_FUNC_SUBTRACT'
+    'body': 'GL_FUNC_SUBTRACT'
+  'GL_FUNC_SUBTRACT_OES (32778)':
+    'prefix': 'GL_FUNC_SUBTRACT_OES'
+    'body': 'GL_FUNC_SUBTRACT_OES'
+  'GL_GENERATE_MIPMAP (33169)':
+    'prefix': 'GL_GENERATE_MIPMAP'
+    'body': 'GL_GENERATE_MIPMAP'
+  'GL_GENERATE_MIPMAP_HINT (33170)':
+    'prefix': 'GL_GENERATE_MIPMAP_HINT'
+    'body': 'GL_GENERATE_MIPMAP_HINT'
+  'GL_GEQUAL (518)':
+    'prefix': 'GL_GEQUAL'
+    'body': 'GL_GEQUAL'
+  'GL_GREATER (516)':
+    'prefix': 'GL_GREATER'
+    'body': 'GL_GREATER'
+  'GL_GREEN (6404)':
+    'prefix': 'GL_GREEN'
+    'body': 'GL_GREEN'
+  'GL_GREEN_BITS (3411)':
+    'prefix': 'GL_GREEN_BITS'
+    'body': 'GL_GREEN_BITS'
+  'GL_HALF_FLOAT (5131)':
+    'prefix': 'GL_HALF_FLOAT'
+    'body': 'GL_HALF_FLOAT'
+  'GL_HALF_FLOAT_OES (36193)':
+    'prefix': 'GL_HALF_FLOAT_OES'
+    'body': 'GL_HALF_FLOAT_OES'
+  'GL_HIGH_FLOAT (36338)':
+    'prefix': 'GL_HIGH_FLOAT'
+    'body': 'GL_HIGH_FLOAT'
+  'GL_HIGH_INT (36341)':
+    'prefix': 'GL_HIGH_INT'
+    'body': 'GL_HIGH_INT'
+  'GL_IMG_read_format (1)':
+    'prefix': 'GL_IMG_read_format'
+    'body': 'GL_IMG_read_format'
+  'GL_IMG_texture_compression_pvrtc (1)':
+    'prefix': 'GL_IMG_texture_compression_pvrtc'
+    'body': 'GL_IMG_texture_compression_pvrtc'
+  'GL_IMPLEMENTATION_COLOR_READ_FORMAT (35739)':
+    'prefix': 'GL_IMPLEMENTATION_COLOR_READ_FORMAT'
+    'body': 'GL_IMPLEMENTATION_COLOR_READ_FORMAT'
+  'GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES (35739)':
+    'prefix': 'GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES'
+    'body': 'GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES'
+  'GL_IMPLEMENTATION_COLOR_READ_TYPE (35738)':
+    'prefix': 'GL_IMPLEMENTATION_COLOR_READ_TYPE'
+    'body': 'GL_IMPLEMENTATION_COLOR_READ_TYPE'
+  'GL_IMPLEMENTATION_COLOR_READ_TYPE_OES (35738)':
+    'prefix': 'GL_IMPLEMENTATION_COLOR_READ_TYPE_OES'
+    'body': 'GL_IMPLEMENTATION_COLOR_READ_TYPE_OES'
+  'GL_INCR (7682)':
+    'prefix': 'GL_INCR'
+    'body': 'GL_INCR'
+  'GL_INCR_WRAP (34055)':
+    'prefix': 'GL_INCR_WRAP'
+    'body': 'GL_INCR_WRAP'
+  'GL_INCR_WRAP_OES (34055)':
+    'prefix': 'GL_INCR_WRAP_OES'
+    'body': 'GL_INCR_WRAP_OES'
+  'GL_INFO_LOG_LENGTH (35716)':
+    'prefix': 'GL_INFO_LOG_LENGTH'
+    'body': 'GL_INFO_LOG_LENGTH'
+  'GL_INT (5124)':
+    'prefix': 'GL_INT'
+    'body': 'GL_INT'
+  'GL_INTERLEAVED_ATTRIBS (35980)':
+    'prefix': 'GL_INTERLEAVED_ATTRIBS'
+    'body': 'GL_INTERLEAVED_ATTRIBS'
+  'GL_INTERPOLATE (34165)':
+    'prefix': 'GL_INTERPOLATE'
+    'body': 'GL_INTERPOLATE'
+  'GL_INT_2_10_10_10_REV (36255)':
+    'prefix': 'GL_INT_2_10_10_10_REV'
+    'body': 'GL_INT_2_10_10_10_REV'
+  'GL_INT_SAMPLER_2D (36298)':
+    'prefix': 'GL_INT_SAMPLER_2D'
+    'body': 'GL_INT_SAMPLER_2D'
+  'GL_INT_SAMPLER_2D_ARRAY (36303)':
+    'prefix': 'GL_INT_SAMPLER_2D_ARRAY'
+    'body': 'GL_INT_SAMPLER_2D_ARRAY'
+  'GL_INT_SAMPLER_3D (36299)':
+    'prefix': 'GL_INT_SAMPLER_3D'
+    'body': 'GL_INT_SAMPLER_3D'
+  'GL_INT_SAMPLER_CUBE (36300)':
+    'prefix': 'GL_INT_SAMPLER_CUBE'
+    'body': 'GL_INT_SAMPLER_CUBE'
+  'GL_INT_VEC2 (35667)':
+    'prefix': 'GL_INT_VEC2'
+    'body': 'GL_INT_VEC2'
+  'GL_INT_VEC3 (35668)':
+    'prefix': 'GL_INT_VEC3'
+    'body': 'GL_INT_VEC3'
+  'GL_INT_VEC4 (35669)':
+    'prefix': 'GL_INT_VEC4'
+    'body': 'GL_INT_VEC4'
+  'GL_INVALID_ENUM (1280)':
+    'prefix': 'GL_INVALID_ENUM'
+    'body': 'GL_INVALID_ENUM'
+  'GL_INVALID_FRAMEBUFFER_OPERATION (1286)':
+    'prefix': 'GL_INVALID_FRAMEBUFFER_OPERATION'
+    'body': 'GL_INVALID_FRAMEBUFFER_OPERATION'
+  'GL_INVALID_FRAMEBUFFER_OPERATION_OES (1286)':
+    'prefix': 'GL_INVALID_FRAMEBUFFER_OPERATION_OES'
+    'body': 'GL_INVALID_FRAMEBUFFER_OPERATION_OES'
+  'GL_INVALID_INDEX (4294967295)':
+    'prefix': 'GL_INVALID_INDEX'
+    'body': 'GL_INVALID_INDEX'
+  'GL_INVALID_OPERATION (1282)':
+    'prefix': 'GL_INVALID_OPERATION'
+    'body': 'GL_INVALID_OPERATION'
+  'GL_INVALID_VALUE (1281)':
+    'prefix': 'GL_INVALID_VALUE'
+    'body': 'GL_INVALID_VALUE'
+  'GL_INVERT (5386)':
+    'prefix': 'GL_INVERT'
+    'body': 'GL_INVERT'
+  'GL_KEEP (7680)':
+    'prefix': 'GL_KEEP'
+    'body': 'GL_KEEP'
+  'GL_LEQUAL (515)':
+    'prefix': 'GL_LEQUAL'
+    'body': 'GL_LEQUAL'
+  'GL_LESS (513)':
+    'prefix': 'GL_LESS'
+    'body': 'GL_LESS'
+  'GL_LIGHT0 (16384)':
+    'prefix': 'GL_LIGHT0'
+    'body': 'GL_LIGHT0'
+  'GL_LIGHT1 (16385)':
+    'prefix': 'GL_LIGHT1'
+    'body': 'GL_LIGHT1'
+  'GL_LIGHT2 (16386)':
+    'prefix': 'GL_LIGHT2'
+    'body': 'GL_LIGHT2'
+  'GL_LIGHT3 (16387)':
+    'prefix': 'GL_LIGHT3'
+    'body': 'GL_LIGHT3'
+  'GL_LIGHT4 (16388)':
+    'prefix': 'GL_LIGHT4'
+    'body': 'GL_LIGHT4'
+  'GL_LIGHT5 (16389)':
+    'prefix': 'GL_LIGHT5'
+    'body': 'GL_LIGHT5'
+  'GL_LIGHT6 (16390)':
+    'prefix': 'GL_LIGHT6'
+    'body': 'GL_LIGHT6'
+  'GL_LIGHT7 (16391)':
+    'prefix': 'GL_LIGHT7'
+    'body': 'GL_LIGHT7'
+  'GL_LIGHTING (2896)':
+    'prefix': 'GL_LIGHTING'
+    'body': 'GL_LIGHTING'
+  'GL_LIGHT_MODEL_AMBIENT (2899)':
+    'prefix': 'GL_LIGHT_MODEL_AMBIENT'
+    'body': 'GL_LIGHT_MODEL_AMBIENT'
+  'GL_LIGHT_MODEL_TWO_SIDE (2898)':
+    'prefix': 'GL_LIGHT_MODEL_TWO_SIDE'
+    'body': 'GL_LIGHT_MODEL_TWO_SIDE'
+  'GL_LINEAR (9729)':
+    'prefix': 'GL_LINEAR'
+    'body': 'GL_LINEAR'
+  'GL_LINEAR_ATTENUATION (4616)':
+    'prefix': 'GL_LINEAR_ATTENUATION'
+    'body': 'GL_LINEAR_ATTENUATION'
+  'GL_LINEAR_MIPMAP_LINEAR (9987)':
+    'prefix': 'GL_LINEAR_MIPMAP_LINEAR'
+    'body': 'GL_LINEAR_MIPMAP_LINEAR'
+  'GL_LINEAR_MIPMAP_NEAREST (9985)':
+    'prefix': 'GL_LINEAR_MIPMAP_NEAREST'
+    'body': 'GL_LINEAR_MIPMAP_NEAREST'
+  'GL_LINES (1)':
+    'prefix': 'GL_LINES'
+    'body': 'GL_LINES'
+  'GL_LINE_LOOP (2)':
+    'prefix': 'GL_LINE_LOOP'
+    'body': 'GL_LINE_LOOP'
+  'GL_LINE_SMOOTH (2848)':
+    'prefix': 'GL_LINE_SMOOTH'
+    'body': 'GL_LINE_SMOOTH'
+  'GL_LINE_SMOOTH_HINT (3154)':
+    'prefix': 'GL_LINE_SMOOTH_HINT'
+    'body': 'GL_LINE_SMOOTH_HINT'
+  'GL_LINE_STRIP (3)':
+    'prefix': 'GL_LINE_STRIP'
+    'body': 'GL_LINE_STRIP'
+  'GL_LINE_WIDTH (2849)':
+    'prefix': 'GL_LINE_WIDTH'
+    'body': 'GL_LINE_WIDTH'
+  'GL_LINK_STATUS (35714)':
+    'prefix': 'GL_LINK_STATUS'
+    'body': 'GL_LINK_STATUS'
+  'GL_LOGIC_OP_MODE (3056)':
+    'prefix': 'GL_LOGIC_OP_MODE'
+    'body': 'GL_LOGIC_OP_MODE'
+  'GL_LOW_FLOAT (36336)':
+    'prefix': 'GL_LOW_FLOAT'
+    'body': 'GL_LOW_FLOAT'
+  'GL_LOW_INT (36339)':
+    'prefix': 'GL_LOW_INT'
+    'body': 'GL_LOW_INT'
+  'GL_LUMINANCE (6409)':
+    'prefix': 'GL_LUMINANCE'
+    'body': 'GL_LUMINANCE'
+  'GL_LUMINANCE16F_EXT (34846)':
+    'prefix': 'GL_LUMINANCE16F_EXT'
+    'body': 'GL_LUMINANCE16F_EXT'
+  'GL_LUMINANCE32F_EXT (34840)':
+    'prefix': 'GL_LUMINANCE32F_EXT'
+    'body': 'GL_LUMINANCE32F_EXT'
+  'GL_LUMINANCE8_ALPHA8_EXT (32837)':
+    'prefix': 'GL_LUMINANCE8_ALPHA8_EXT'
+    'body': 'GL_LUMINANCE8_ALPHA8_EXT'
+  'GL_LUMINANCE8_EXT (32832)':
+    'prefix': 'GL_LUMINANCE8_EXT'
+    'body': 'GL_LUMINANCE8_EXT'
+  'GL_LUMINANCE_ALPHA (6410)':
+    'prefix': 'GL_LUMINANCE_ALPHA'
+    'body': 'GL_LUMINANCE_ALPHA'
+  'GL_LUMINANCE_ALPHA16F_EXT (34847)':
+    'prefix': 'GL_LUMINANCE_ALPHA16F_EXT'
+    'body': 'GL_LUMINANCE_ALPHA16F_EXT'
+  'GL_LUMINANCE_ALPHA32F_EXT (34841)':
+    'prefix': 'GL_LUMINANCE_ALPHA32F_EXT'
+    'body': 'GL_LUMINANCE_ALPHA32F_EXT'
+  'GL_MAJOR_VERSION (33307)':
+    'prefix': 'GL_MAJOR_VERSION'
+    'body': 'GL_MAJOR_VERSION'
+  'GL_MAP_FLUSH_EXPLICIT_BIT (16)':
+    'prefix': 'GL_MAP_FLUSH_EXPLICIT_BIT'
+    'body': 'GL_MAP_FLUSH_EXPLICIT_BIT'
+  'GL_MAP_FLUSH_EXPLICIT_BIT_EXT (16)':
+    'prefix': 'GL_MAP_FLUSH_EXPLICIT_BIT_EXT'
+    'body': 'GL_MAP_FLUSH_EXPLICIT_BIT_EXT'
+  'GL_MAP_INVALIDATE_BUFFER_BIT (8)':
+    'prefix': 'GL_MAP_INVALIDATE_BUFFER_BIT'
+    'body': 'GL_MAP_INVALIDATE_BUFFER_BIT'
+  'GL_MAP_INVALIDATE_BUFFER_BIT_EXT (8)':
+    'prefix': 'GL_MAP_INVALIDATE_BUFFER_BIT_EXT'
+    'body': 'GL_MAP_INVALIDATE_BUFFER_BIT_EXT'
+  'GL_MAP_INVALIDATE_RANGE_BIT (4)':
+    'prefix': 'GL_MAP_INVALIDATE_RANGE_BIT'
+    'body': 'GL_MAP_INVALIDATE_RANGE_BIT'
+  'GL_MAP_INVALIDATE_RANGE_BIT_EXT (4)':
+    'prefix': 'GL_MAP_INVALIDATE_RANGE_BIT_EXT'
+    'body': 'GL_MAP_INVALIDATE_RANGE_BIT_EXT'
+  'GL_MAP_READ_BIT (1)':
+    'prefix': 'GL_MAP_READ_BIT'
+    'body': 'GL_MAP_READ_BIT'
+  'GL_MAP_READ_BIT_EXT (1)':
+    'prefix': 'GL_MAP_READ_BIT_EXT'
+    'body': 'GL_MAP_READ_BIT_EXT'
+  'GL_MAP_UNSYNCHRONIZED_BIT (32)':
+    'prefix': 'GL_MAP_UNSYNCHRONIZED_BIT'
+    'body': 'GL_MAP_UNSYNCHRONIZED_BIT'
+  'GL_MAP_UNSYNCHRONIZED_BIT_EXT (32)':
+    'prefix': 'GL_MAP_UNSYNCHRONIZED_BIT_EXT'
+    'body': 'GL_MAP_UNSYNCHRONIZED_BIT_EXT'
+  'GL_MAP_WRITE_BIT (2)':
+    'prefix': 'GL_MAP_WRITE_BIT'
+    'body': 'GL_MAP_WRITE_BIT'
+  'GL_MAP_WRITE_BIT_EXT (2)':
+    'prefix': 'GL_MAP_WRITE_BIT_EXT'
+    'body': 'GL_MAP_WRITE_BIT_EXT'
+  'GL_MATRIX_INDEX_ARRAY_BUFFER_BINDING_OES (35742)':
+    'prefix': 'GL_MATRIX_INDEX_ARRAY_BUFFER_BINDING_OES'
+    'body': 'GL_MATRIX_INDEX_ARRAY_BUFFER_BINDING_OES'
+  'GL_MATRIX_INDEX_ARRAY_OES (34884)':
+    'prefix': 'GL_MATRIX_INDEX_ARRAY_OES'
+    'body': 'GL_MATRIX_INDEX_ARRAY_OES'
+  'GL_MATRIX_INDEX_ARRAY_POINTER_OES (34889)':
+    'prefix': 'GL_MATRIX_INDEX_ARRAY_POINTER_OES'
+    'body': 'GL_MATRIX_INDEX_ARRAY_POINTER_OES'
+  'GL_MATRIX_INDEX_ARRAY_SIZE_OES (34886)':
+    'prefix': 'GL_MATRIX_INDEX_ARRAY_SIZE_OES'
+    'body': 'GL_MATRIX_INDEX_ARRAY_SIZE_OES'
+  'GL_MATRIX_INDEX_ARRAY_STRIDE_OES (34888)':
+    'prefix': 'GL_MATRIX_INDEX_ARRAY_STRIDE_OES'
+    'body': 'GL_MATRIX_INDEX_ARRAY_STRIDE_OES'
+  'GL_MATRIX_INDEX_ARRAY_TYPE_OES (34887)':
+    'prefix': 'GL_MATRIX_INDEX_ARRAY_TYPE_OES'
+    'body': 'GL_MATRIX_INDEX_ARRAY_TYPE_OES'
+  'GL_MATRIX_MODE (2976)':
+    'prefix': 'GL_MATRIX_MODE'
+    'body': 'GL_MATRIX_MODE'
+  'GL_MATRIX_PALETTE_OES (34880)':
+    'prefix': 'GL_MATRIX_PALETTE_OES'
+    'body': 'GL_MATRIX_PALETTE_OES'
+  'GL_MAX (32776)':
+    'prefix': 'GL_MAX'
+    'body': 'GL_MAX'
+  'GL_MAX_3D_TEXTURE_SIZE (32883)':
+    'prefix': 'GL_MAX_3D_TEXTURE_SIZE'
+    'body': 'GL_MAX_3D_TEXTURE_SIZE'
+  'GL_MAX_ARRAY_TEXTURE_LAYERS (35071)':
+    'prefix': 'GL_MAX_ARRAY_TEXTURE_LAYERS'
+    'body': 'GL_MAX_ARRAY_TEXTURE_LAYERS'
+  'GL_MAX_CLIP_PLANES (3378)':
+    'prefix': 'GL_MAX_CLIP_PLANES'
+    'body': 'GL_MAX_CLIP_PLANES'
+  'GL_MAX_COLOR_ATTACHMENTS (36063)':
+    'prefix': 'GL_MAX_COLOR_ATTACHMENTS'
+    'body': 'GL_MAX_COLOR_ATTACHMENTS'
+  'GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS (35379)':
+    'prefix': 'GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS'
+    'body': 'GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS'
+  'GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS (35661)':
+    'prefix': 'GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS'
+    'body': 'GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS'
+  'GL_MAX_COMBINED_UNIFORM_BLOCKS (35374)':
+    'prefix': 'GL_MAX_COMBINED_UNIFORM_BLOCKS'
+    'body': 'GL_MAX_COMBINED_UNIFORM_BLOCKS'
+  'GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS (35377)':
+    'prefix': 'GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS'
+    'body': 'GL_MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS'
+  'GL_MAX_CUBE_MAP_TEXTURE_SIZE (34076)':
+    'prefix': 'GL_MAX_CUBE_MAP_TEXTURE_SIZE'
+    'body': 'GL_MAX_CUBE_MAP_TEXTURE_SIZE'
+  'GL_MAX_DRAW_BUFFERS (34852)':
+    'prefix': 'GL_MAX_DRAW_BUFFERS'
+    'body': 'GL_MAX_DRAW_BUFFERS'
+  'GL_MAX_ELEMENTS_INDICES (33001)':
+    'prefix': 'GL_MAX_ELEMENTS_INDICES'
+    'body': 'GL_MAX_ELEMENTS_INDICES'
+  'GL_MAX_ELEMENTS_VERTICES (33000)':
+    'prefix': 'GL_MAX_ELEMENTS_VERTICES'
+    'body': 'GL_MAX_ELEMENTS_VERTICES'
+  'GL_MAX_ELEMENT_INDEX (36203)':
+    'prefix': 'GL_MAX_ELEMENT_INDEX'
+    'body': 'GL_MAX_ELEMENT_INDEX'
+  'GL_MAX_EXT (32776)':
+    'prefix': 'GL_MAX_EXT'
+    'body': 'GL_MAX_EXT'
+  'GL_MAX_FRAGMENT_INPUT_COMPONENTS (37157)':
+    'prefix': 'GL_MAX_FRAGMENT_INPUT_COMPONENTS'
+    'body': 'GL_MAX_FRAGMENT_INPUT_COMPONENTS'
+  'GL_MAX_FRAGMENT_UNIFORM_BLOCKS (35373)':
+    'prefix': 'GL_MAX_FRAGMENT_UNIFORM_BLOCKS'
+    'body': 'GL_MAX_FRAGMENT_UNIFORM_BLOCKS'
+  'GL_MAX_FRAGMENT_UNIFORM_COMPONENTS (35657)':
+    'prefix': 'GL_MAX_FRAGMENT_UNIFORM_COMPONENTS'
+    'body': 'GL_MAX_FRAGMENT_UNIFORM_COMPONENTS'
+  'GL_MAX_FRAGMENT_UNIFORM_VECTORS (36349)':
+    'prefix': 'GL_MAX_FRAGMENT_UNIFORM_VECTORS'
+    'body': 'GL_MAX_FRAGMENT_UNIFORM_VECTORS'
+  'GL_MAX_LIGHTS (3377)':
+    'prefix': 'GL_MAX_LIGHTS'
+    'body': 'GL_MAX_LIGHTS'
+  'GL_MAX_MODELVIEW_STACK_DEPTH (3382)':
+    'prefix': 'GL_MAX_MODELVIEW_STACK_DEPTH'
+    'body': 'GL_MAX_MODELVIEW_STACK_DEPTH'
+  'GL_MAX_PALETTE_MATRICES_OES (34882)':
+    'prefix': 'GL_MAX_PALETTE_MATRICES_OES'
+    'body': 'GL_MAX_PALETTE_MATRICES_OES'
+  'GL_MAX_PROGRAM_TEXEL_OFFSET (35077)':
+    'prefix': 'GL_MAX_PROGRAM_TEXEL_OFFSET'
+    'body': 'GL_MAX_PROGRAM_TEXEL_OFFSET'
+  'GL_MAX_PROJECTION_STACK_DEPTH (3384)':
+    'prefix': 'GL_MAX_PROJECTION_STACK_DEPTH'
+    'body': 'GL_MAX_PROJECTION_STACK_DEPTH'
+  'GL_MAX_RENDERBUFFER_SIZE (34024)':
+    'prefix': 'GL_MAX_RENDERBUFFER_SIZE'
+    'body': 'GL_MAX_RENDERBUFFER_SIZE'
+  'GL_MAX_RENDERBUFFER_SIZE_OES (34024)':
+    'prefix': 'GL_MAX_RENDERBUFFER_SIZE_OES'
+    'body': 'GL_MAX_RENDERBUFFER_SIZE_OES'
+  'GL_MAX_SAMPLES (36183)':
+    'prefix': 'GL_MAX_SAMPLES'
+    'body': 'GL_MAX_SAMPLES'
+  'GL_MAX_SAMPLES_APPLE (36183)':
+    'prefix': 'GL_MAX_SAMPLES_APPLE'
+    'body': 'GL_MAX_SAMPLES_APPLE'
+  'GL_MAX_SERVER_WAIT_TIMEOUT (37137)':
+    'prefix': 'GL_MAX_SERVER_WAIT_TIMEOUT'
+    'body': 'GL_MAX_SERVER_WAIT_TIMEOUT'
+  'GL_MAX_SERVER_WAIT_TIMEOUT_APPLE (37137)':
+    'prefix': 'GL_MAX_SERVER_WAIT_TIMEOUT_APPLE'
+    'body': 'GL_MAX_SERVER_WAIT_TIMEOUT_APPLE'
+  'GL_MAX_TEXTURE_IMAGE_UNITS (34930)':
+    'prefix': 'GL_MAX_TEXTURE_IMAGE_UNITS'
+    'body': 'GL_MAX_TEXTURE_IMAGE_UNITS'
+  'GL_MAX_TEXTURE_LOD_BIAS (34045)':
+    'prefix': 'GL_MAX_TEXTURE_LOD_BIAS'
+    'body': 'GL_MAX_TEXTURE_LOD_BIAS'
+  'GL_MAX_TEXTURE_LOD_BIAS_EXT (34045)':
+    'prefix': 'GL_MAX_TEXTURE_LOD_BIAS_EXT'
+    'body': 'GL_MAX_TEXTURE_LOD_BIAS_EXT'
+  'GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT (34047)':
+    'prefix': 'GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT'
+    'body': 'GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT'
+  'GL_MAX_TEXTURE_SIZE (3379)':
+    'prefix': 'GL_MAX_TEXTURE_SIZE'
+    'body': 'GL_MAX_TEXTURE_SIZE'
+  'GL_MAX_TEXTURE_STACK_DEPTH (3385)':
+    'prefix': 'GL_MAX_TEXTURE_STACK_DEPTH'
+    'body': 'GL_MAX_TEXTURE_STACK_DEPTH'
+  'GL_MAX_TEXTURE_UNITS (34018)':
+    'prefix': 'GL_MAX_TEXTURE_UNITS'
+    'body': 'GL_MAX_TEXTURE_UNITS'
+  'GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS (35978)':
+    'prefix': 'GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS'
+    'body': 'GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS'
+  'GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS (35979)':
+    'prefix': 'GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS'
+    'body': 'GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS'
+  'GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS (35968)':
+    'prefix': 'GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS'
+    'body': 'GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS'
+  'GL_MAX_UNIFORM_BLOCK_SIZE (35376)':
+    'prefix': 'GL_MAX_UNIFORM_BLOCK_SIZE'
+    'body': 'GL_MAX_UNIFORM_BLOCK_SIZE'
+  'GL_MAX_UNIFORM_BUFFER_BINDINGS (35375)':
+    'prefix': 'GL_MAX_UNIFORM_BUFFER_BINDINGS'
+    'body': 'GL_MAX_UNIFORM_BUFFER_BINDINGS'
+  'GL_MAX_VARYING_COMPONENTS (35659)':
+    'prefix': 'GL_MAX_VARYING_COMPONENTS'
+    'body': 'GL_MAX_VARYING_COMPONENTS'
+  'GL_MAX_VARYING_VECTORS (36348)':
+    'prefix': 'GL_MAX_VARYING_VECTORS'
+    'body': 'GL_MAX_VARYING_VECTORS'
+  'GL_MAX_VERTEX_ATTRIBS (34921)':
+    'prefix': 'GL_MAX_VERTEX_ATTRIBS'
+    'body': 'GL_MAX_VERTEX_ATTRIBS'
+  'GL_MAX_VERTEX_OUTPUT_COMPONENTS (37154)':
+    'prefix': 'GL_MAX_VERTEX_OUTPUT_COMPONENTS'
+    'body': 'GL_MAX_VERTEX_OUTPUT_COMPONENTS'
+  'GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS (35660)':
+    'prefix': 'GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS'
+    'body': 'GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS'
+  'GL_MAX_VERTEX_UNIFORM_BLOCKS (35371)':
+    'prefix': 'GL_MAX_VERTEX_UNIFORM_BLOCKS'
+    'body': 'GL_MAX_VERTEX_UNIFORM_BLOCKS'
+  'GL_MAX_VERTEX_UNIFORM_COMPONENTS (35658)':
+    'prefix': 'GL_MAX_VERTEX_UNIFORM_COMPONENTS'
+    'body': 'GL_MAX_VERTEX_UNIFORM_COMPONENTS'
+  'GL_MAX_VERTEX_UNIFORM_VECTORS (36347)':
+    'prefix': 'GL_MAX_VERTEX_UNIFORM_VECTORS'
+    'body': 'GL_MAX_VERTEX_UNIFORM_VECTORS'
+  'GL_MAX_VERTEX_UNITS_OES (34468)':
+    'prefix': 'GL_MAX_VERTEX_UNITS_OES'
+    'body': 'GL_MAX_VERTEX_UNITS_OES'
+  'GL_MAX_VIEWPORT_DIMS (3386)':
+    'prefix': 'GL_MAX_VIEWPORT_DIMS'
+    'body': 'GL_MAX_VIEWPORT_DIMS'
+  'GL_MEDIUM_FLOAT (36337)':
+    'prefix': 'GL_MEDIUM_FLOAT'
+    'body': 'GL_MEDIUM_FLOAT'
+  'GL_MEDIUM_INT (36340)':
+    'prefix': 'GL_MEDIUM_INT'
+    'body': 'GL_MEDIUM_INT'
+  'GL_MIN (32775)':
+    'prefix': 'GL_MIN'
+    'body': 'GL_MIN'
+  'GL_MINOR_VERSION (33308)':
+    'prefix': 'GL_MINOR_VERSION'
+    'body': 'GL_MINOR_VERSION'
+  'GL_MIN_EXT (32775)':
+    'prefix': 'GL_MIN_EXT'
+    'body': 'GL_MIN_EXT'
+  'GL_MIN_PROGRAM_TEXEL_OFFSET (35076)':
+    'prefix': 'GL_MIN_PROGRAM_TEXEL_OFFSET'
+    'body': 'GL_MIN_PROGRAM_TEXEL_OFFSET'
+  'GL_MIRRORED_REPEAT (33648)':
+    'prefix': 'GL_MIRRORED_REPEAT'
+    'body': 'GL_MIRRORED_REPEAT'
+  'GL_MIRRORED_REPEAT_OES (33648)':
+    'prefix': 'GL_MIRRORED_REPEAT_OES'
+    'body': 'GL_MIRRORED_REPEAT_OES'
+  'GL_MODELVIEW (5888)':
+    'prefix': 'GL_MODELVIEW'
+    'body': 'GL_MODELVIEW'
+  'GL_MODELVIEW_MATRIX (2982)':
+    'prefix': 'GL_MODELVIEW_MATRIX'
+    'body': 'GL_MODELVIEW_MATRIX'
+  'GL_MODELVIEW_MATRIX_FLOAT_AS_INT_BITS_OES (35213)':
+    'prefix': 'GL_MODELVIEW_MATRIX_FLOAT_AS_INT_BITS_OES'
+    'body': 'GL_MODELVIEW_MATRIX_FLOAT_AS_INT_BITS_OES'
+  'GL_MODELVIEW_STACK_DEPTH (2979)':
+    'prefix': 'GL_MODELVIEW_STACK_DEPTH'
+    'body': 'GL_MODELVIEW_STACK_DEPTH'
+  'GL_MODULATE (8448)':
+    'prefix': 'GL_MODULATE'
+    'body': 'GL_MODULATE'
+  'GL_MULTISAMPLE (32925)':
+    'prefix': 'GL_MULTISAMPLE'
+    'body': 'GL_MULTISAMPLE'
+  'GL_NAND (5390)':
+    'prefix': 'GL_NAND'
+    'body': 'GL_NAND'
+  'GL_NEAREST (9728)':
+    'prefix': 'GL_NEAREST'
+    'body': 'GL_NEAREST'
+  'GL_NEAREST_MIPMAP_LINEAR (9986)':
+    'prefix': 'GL_NEAREST_MIPMAP_LINEAR'
+    'body': 'GL_NEAREST_MIPMAP_LINEAR'
+  'GL_NEAREST_MIPMAP_NEAREST (9984)':
+    'prefix': 'GL_NEAREST_MIPMAP_NEAREST'
+    'body': 'GL_NEAREST_MIPMAP_NEAREST'
+  'GL_NEVER (512)':
+    'prefix': 'GL_NEVER'
+    'body': 'GL_NEVER'
+  'GL_NICEST (4354)':
+    'prefix': 'GL_NICEST'
+    'body': 'GL_NICEST'
+  'GL_NONE (0)':
+    'prefix': 'GL_NONE'
+    'body': 'GL_NONE'
+  'GL_NOOP (5381)':
+    'prefix': 'GL_NOOP'
+    'body': 'GL_NOOP'
+  'GL_NOR (5384)':
+    'prefix': 'GL_NOR'
+    'body': 'GL_NOR'
+  'GL_NORMALIZE (2977)':
+    'prefix': 'GL_NORMALIZE'
+    'body': 'GL_NORMALIZE'
+  'GL_NORMAL_ARRAY (32885)':
+    'prefix': 'GL_NORMAL_ARRAY'
+    'body': 'GL_NORMAL_ARRAY'
+  'GL_NORMAL_ARRAY_BUFFER_BINDING (34967)':
+    'prefix': 'GL_NORMAL_ARRAY_BUFFER_BINDING'
+    'body': 'GL_NORMAL_ARRAY_BUFFER_BINDING'
+  'GL_NORMAL_ARRAY_POINTER (32911)':
+    'prefix': 'GL_NORMAL_ARRAY_POINTER'
+    'body': 'GL_NORMAL_ARRAY_POINTER'
+  'GL_NORMAL_ARRAY_STRIDE (32895)':
+    'prefix': 'GL_NORMAL_ARRAY_STRIDE'
+    'body': 'GL_NORMAL_ARRAY_STRIDE'
+  'GL_NORMAL_ARRAY_TYPE (32894)':
+    'prefix': 'GL_NORMAL_ARRAY_TYPE'
+    'body': 'GL_NORMAL_ARRAY_TYPE'
+  'GL_NOTEQUAL (517)':
+    'prefix': 'GL_NOTEQUAL'
+    'body': 'GL_NOTEQUAL'
+  'GL_NO_ERROR (0)':
+    'prefix': 'GL_NO_ERROR'
+    'body': 'GL_NO_ERROR'
+  'GL_NUM_COMPRESSED_TEXTURE_FORMATS (34466)':
+    'prefix': 'GL_NUM_COMPRESSED_TEXTURE_FORMATS'
+    'body': 'GL_NUM_COMPRESSED_TEXTURE_FORMATS'
+  'GL_NUM_EXTENSIONS (33309)':
+    'prefix': 'GL_NUM_EXTENSIONS'
+    'body': 'GL_NUM_EXTENSIONS'
+  'GL_NUM_PROGRAM_BINARY_FORMATS (34814)':
+    'prefix': 'GL_NUM_PROGRAM_BINARY_FORMATS'
+    'body': 'GL_NUM_PROGRAM_BINARY_FORMATS'
+  'GL_NUM_SAMPLE_COUNTS (37760)':
+    'prefix': 'GL_NUM_SAMPLE_COUNTS'
+    'body': 'GL_NUM_SAMPLE_COUNTS'
+  'GL_NUM_SHADER_BINARY_FORMATS (36345)':
+    'prefix': 'GL_NUM_SHADER_BINARY_FORMATS'
+    'body': 'GL_NUM_SHADER_BINARY_FORMATS'
+  'GL_OBJECT_TYPE (37138)':
+    'prefix': 'GL_OBJECT_TYPE'
+    'body': 'GL_OBJECT_TYPE'
+  'GL_OBJECT_TYPE_APPLE (37138)':
+    'prefix': 'GL_OBJECT_TYPE_APPLE'
+    'body': 'GL_OBJECT_TYPE_APPLE'
+  'GL_OES_VERSION_1_0 (1)':
+    'prefix': 'GL_OES_VERSION_1_0'
+    'body': 'GL_OES_VERSION_1_0'
+  'GL_OES_VERSION_1_1 (1)':
+    'prefix': 'GL_OES_VERSION_1_1'
+    'body': 'GL_OES_VERSION_1_1'
+  'GL_OES_blend_equation_separate (1)':
+    'prefix': 'GL_OES_blend_equation_separate'
+    'body': 'GL_OES_blend_equation_separate'
+  'GL_OES_blend_func_separate (1)':
+    'prefix': 'GL_OES_blend_func_separate'
+    'body': 'GL_OES_blend_func_separate'
+  'GL_OES_blend_subtract (1)':
+    'prefix': 'GL_OES_blend_subtract'
+    'body': 'GL_OES_blend_subtract'
+  'GL_OES_byte_coordinates (1)':
+    'prefix': 'GL_OES_byte_coordinates'
+    'body': 'GL_OES_byte_coordinates'
+  'GL_OES_compressed_paletted_texture (1)':
+    'prefix': 'GL_OES_compressed_paletted_texture'
+    'body': 'GL_OES_compressed_paletted_texture'
+  'GL_OES_depth24 (1)':
+    'prefix': 'GL_OES_depth24'
+    'body': 'GL_OES_depth24'
+  'GL_OES_depth_texture (1)':
+    'prefix': 'GL_OES_depth_texture'
+    'body': 'GL_OES_depth_texture'
+  'GL_OES_draw_texture (1)':
+    'prefix': 'GL_OES_draw_texture'
+    'body': 'GL_OES_draw_texture'
+  'GL_OES_element_index_uint (1)':
+    'prefix': 'GL_OES_element_index_uint'
+    'body': 'GL_OES_element_index_uint'
+  'GL_OES_fbo_render_mipmap (1)':
+    'prefix': 'GL_OES_fbo_render_mipmap'
+    'body': 'GL_OES_fbo_render_mipmap'
+  'GL_OES_fixed_point (1)':
+    'prefix': 'GL_OES_fixed_point'
+    'body': 'GL_OES_fixed_point'
+  'GL_OES_framebuffer_object (1)':
+    'prefix': 'GL_OES_framebuffer_object'
+    'body': 'GL_OES_framebuffer_object'
+  'GL_OES_mapbuffer (1)':
+    'prefix': 'GL_OES_mapbuffer'
+    'body': 'GL_OES_mapbuffer'
+  'GL_OES_matrix_get (1)':
+    'prefix': 'GL_OES_matrix_get'
+    'body': 'GL_OES_matrix_get'
+  'GL_OES_matrix_palette (1)':
+    'prefix': 'GL_OES_matrix_palette'
+    'body': 'GL_OES_matrix_palette'
+  'GL_OES_packed_depth_stencil (1)':
+    'prefix': 'GL_OES_packed_depth_stencil'
+    'body': 'GL_OES_packed_depth_stencil'
+  'GL_OES_point_size_array (1)':
+    'prefix': 'GL_OES_point_size_array'
+    'body': 'GL_OES_point_size_array'
+  'GL_OES_point_sprite (1)':
+    'prefix': 'GL_OES_point_sprite'
+    'body': 'GL_OES_point_sprite'
+  'GL_OES_read_format (1)':
+    'prefix': 'GL_OES_read_format'
+    'body': 'GL_OES_read_format'
+  'GL_OES_rgb8_rgba8 (1)':
+    'prefix': 'GL_OES_rgb8_rgba8'
+    'body': 'GL_OES_rgb8_rgba8'
+  'GL_OES_single_precision (1)':
+    'prefix': 'GL_OES_single_precision'
+    'body': 'GL_OES_single_precision'
+  'GL_OES_standard_derivatives (1)':
+    'prefix': 'GL_OES_standard_derivatives'
+    'body': 'GL_OES_standard_derivatives'
+  'GL_OES_stencil8 (1)':
+    'prefix': 'GL_OES_stencil8'
+    'body': 'GL_OES_stencil8'
+  'GL_OES_stencil_wrap (1)':
+    'prefix': 'GL_OES_stencil_wrap'
+    'body': 'GL_OES_stencil_wrap'
+  'GL_OES_texture_float (1)':
+    'prefix': 'GL_OES_texture_float'
+    'body': 'GL_OES_texture_float'
+  'GL_OES_texture_half_float (1)':
+    'prefix': 'GL_OES_texture_half_float'
+    'body': 'GL_OES_texture_half_float'
+  'GL_OES_texture_half_float_linear (1)':
+    'prefix': 'GL_OES_texture_half_float_linear'
+    'body': 'GL_OES_texture_half_float_linear'
+  'GL_OES_texture_mirrored_repeat (1)':
+    'prefix': 'GL_OES_texture_mirrored_repeat'
+    'body': 'GL_OES_texture_mirrored_repeat'
+  'GL_OES_vertex_array_object (1)':
+    'prefix': 'GL_OES_vertex_array_object'
+    'body': 'GL_OES_vertex_array_object'
+  'GL_ONE (1)':
+    'prefix': 'GL_ONE'
+    'body': 'GL_ONE'
+  'GL_ONE_MINUS_CONSTANT_ALPHA (32772)':
+    'prefix': 'GL_ONE_MINUS_CONSTANT_ALPHA'
+    'body': 'GL_ONE_MINUS_CONSTANT_ALPHA'
+  'GL_ONE_MINUS_CONSTANT_COLOR (32770)':
+    'prefix': 'GL_ONE_MINUS_CONSTANT_COLOR'
+    'body': 'GL_ONE_MINUS_CONSTANT_COLOR'
+  'GL_ONE_MINUS_DST_ALPHA (773)':
+    'prefix': 'GL_ONE_MINUS_DST_ALPHA'
+    'body': 'GL_ONE_MINUS_DST_ALPHA'
+  'GL_ONE_MINUS_DST_COLOR (775)':
+    'prefix': 'GL_ONE_MINUS_DST_COLOR'
+    'body': 'GL_ONE_MINUS_DST_COLOR'
+  'GL_ONE_MINUS_SRC_ALPHA (771)':
+    'prefix': 'GL_ONE_MINUS_SRC_ALPHA'
+    'body': 'GL_ONE_MINUS_SRC_ALPHA'
+  'GL_ONE_MINUS_SRC_COLOR (769)':
+    'prefix': 'GL_ONE_MINUS_SRC_COLOR'
+    'body': 'GL_ONE_MINUS_SRC_COLOR'
+  'GL_OPERAND0_ALPHA (34200)':
+    'prefix': 'GL_OPERAND0_ALPHA'
+    'body': 'GL_OPERAND0_ALPHA'
+  'GL_OPERAND0_RGB (34192)':
+    'prefix': 'GL_OPERAND0_RGB'
+    'body': 'GL_OPERAND0_RGB'
+  'GL_OPERAND1_ALPHA (34201)':
+    'prefix': 'GL_OPERAND1_ALPHA'
+    'body': 'GL_OPERAND1_ALPHA'
+  'GL_OPERAND1_RGB (34193)':
+    'prefix': 'GL_OPERAND1_RGB'
+    'body': 'GL_OPERAND1_RGB'
+  'GL_OPERAND2_ALPHA (34202)':
+    'prefix': 'GL_OPERAND2_ALPHA'
+    'body': 'GL_OPERAND2_ALPHA'
+  'GL_OPERAND2_RGB (34194)':
+    'prefix': 'GL_OPERAND2_RGB'
+    'body': 'GL_OPERAND2_RGB'
+  'GL_OR (5383)':
+    'prefix': 'GL_OR'
+    'body': 'GL_OR'
+  'GL_OR_INVERTED (5389)':
+    'prefix': 'GL_OR_INVERTED'
+    'body': 'GL_OR_INVERTED'
+  'GL_OR_REVERSE (5387)':
+    'prefix': 'GL_OR_REVERSE'
+    'body': 'GL_OR_REVERSE'
+  'GL_OUT_OF_MEMORY (1285)':
+    'prefix': 'GL_OUT_OF_MEMORY'
+    'body': 'GL_OUT_OF_MEMORY'
+  'GL_PACK_ALIGNMENT (3333)':
+    'prefix': 'GL_PACK_ALIGNMENT'
+    'body': 'GL_PACK_ALIGNMENT'
+  'GL_PACK_ROW_LENGTH (3330)':
+    'prefix': 'GL_PACK_ROW_LENGTH'
+    'body': 'GL_PACK_ROW_LENGTH'
+  'GL_PACK_SKIP_PIXELS (3332)':
+    'prefix': 'GL_PACK_SKIP_PIXELS'
+    'body': 'GL_PACK_SKIP_PIXELS'
+  'GL_PACK_SKIP_ROWS (3331)':
+    'prefix': 'GL_PACK_SKIP_ROWS'
+    'body': 'GL_PACK_SKIP_ROWS'
+  'GL_PALETTE4_R5_G6_B5_OES (35730)':
+    'prefix': 'GL_PALETTE4_R5_G6_B5_OES'
+    'body': 'GL_PALETTE4_R5_G6_B5_OES'
+  'GL_PALETTE4_RGB5_A1_OES (35732)':
+    'prefix': 'GL_PALETTE4_RGB5_A1_OES'
+    'body': 'GL_PALETTE4_RGB5_A1_OES'
+  'GL_PALETTE4_RGB8_OES (35728)':
+    'prefix': 'GL_PALETTE4_RGB8_OES'
+    'body': 'GL_PALETTE4_RGB8_OES'
+  'GL_PALETTE4_RGBA4_OES (35731)':
+    'prefix': 'GL_PALETTE4_RGBA4_OES'
+    'body': 'GL_PALETTE4_RGBA4_OES'
+  'GL_PALETTE4_RGBA8_OES (35729)':
+    'prefix': 'GL_PALETTE4_RGBA8_OES'
+    'body': 'GL_PALETTE4_RGBA8_OES'
+  'GL_PALETTE8_R5_G6_B5_OES (35735)':
+    'prefix': 'GL_PALETTE8_R5_G6_B5_OES'
+    'body': 'GL_PALETTE8_R5_G6_B5_OES'
+  'GL_PALETTE8_RGB5_A1_OES (35737)':
+    'prefix': 'GL_PALETTE8_RGB5_A1_OES'
+    'body': 'GL_PALETTE8_RGB5_A1_OES'
+  'GL_PALETTE8_RGB8_OES (35733)':
+    'prefix': 'GL_PALETTE8_RGB8_OES'
+    'body': 'GL_PALETTE8_RGB8_OES'
+  'GL_PALETTE8_RGBA4_OES (35736)':
+    'prefix': 'GL_PALETTE8_RGBA4_OES'
+    'body': 'GL_PALETTE8_RGBA4_OES'
+  'GL_PALETTE8_RGBA8_OES (35734)':
+    'prefix': 'GL_PALETTE8_RGBA8_OES'
+    'body': 'GL_PALETTE8_RGBA8_OES'
+  'GL_PERSPECTIVE_CORRECTION_HINT (3152)':
+    'prefix': 'GL_PERSPECTIVE_CORRECTION_HINT'
+    'body': 'GL_PERSPECTIVE_CORRECTION_HINT'
+  'GL_PIXEL_PACK_BUFFER (35051)':
+    'prefix': 'GL_PIXEL_PACK_BUFFER'
+    'body': 'GL_PIXEL_PACK_BUFFER'
+  'GL_PIXEL_PACK_BUFFER_BINDING (35053)':
+    'prefix': 'GL_PIXEL_PACK_BUFFER_BINDING'
+    'body': 'GL_PIXEL_PACK_BUFFER_BINDING'
+  'GL_PIXEL_UNPACK_BUFFER (35052)':
+    'prefix': 'GL_PIXEL_UNPACK_BUFFER'
+    'body': 'GL_PIXEL_UNPACK_BUFFER'
+  'GL_PIXEL_UNPACK_BUFFER_BINDING (35055)':
+    'prefix': 'GL_PIXEL_UNPACK_BUFFER_BINDING'
+    'body': 'GL_PIXEL_UNPACK_BUFFER_BINDING'
+  'GL_POINTS (0)':
+    'prefix': 'GL_POINTS'
+    'body': 'GL_POINTS'
+  'GL_POINT_DISTANCE_ATTENUATION (33065)':
+    'prefix': 'GL_POINT_DISTANCE_ATTENUATION'
+    'body': 'GL_POINT_DISTANCE_ATTENUATION'
+  'GL_POINT_FADE_THRESHOLD_SIZE (33064)':
+    'prefix': 'GL_POINT_FADE_THRESHOLD_SIZE'
+    'body': 'GL_POINT_FADE_THRESHOLD_SIZE'
+  'GL_POINT_SIZE (2833)':
+    'prefix': 'GL_POINT_SIZE'
+    'body': 'GL_POINT_SIZE'
+  'GL_POINT_SIZE_ARRAY_BUFFER_BINDING_OES (35743)':
+    'prefix': 'GL_POINT_SIZE_ARRAY_BUFFER_BINDING_OES'
+    'body': 'GL_POINT_SIZE_ARRAY_BUFFER_BINDING_OES'
+  'GL_POINT_SIZE_ARRAY_OES (35740)':
+    'prefix': 'GL_POINT_SIZE_ARRAY_OES'
+    'body': 'GL_POINT_SIZE_ARRAY_OES'
+  'GL_POINT_SIZE_ARRAY_POINTER_OES (35212)':
+    'prefix': 'GL_POINT_SIZE_ARRAY_POINTER_OES'
+    'body': 'GL_POINT_SIZE_ARRAY_POINTER_OES'
+  'GL_POINT_SIZE_ARRAY_STRIDE_OES (35211)':
+    'prefix': 'GL_POINT_SIZE_ARRAY_STRIDE_OES'
+    'body': 'GL_POINT_SIZE_ARRAY_STRIDE_OES'
+  'GL_POINT_SIZE_ARRAY_TYPE_OES (35210)':
+    'prefix': 'GL_POINT_SIZE_ARRAY_TYPE_OES'
+    'body': 'GL_POINT_SIZE_ARRAY_TYPE_OES'
+  'GL_POINT_SIZE_MAX (33063)':
+    'prefix': 'GL_POINT_SIZE_MAX'
+    'body': 'GL_POINT_SIZE_MAX'
+  'GL_POINT_SIZE_MIN (33062)':
+    'prefix': 'GL_POINT_SIZE_MIN'
+    'body': 'GL_POINT_SIZE_MIN'
+  'GL_POINT_SMOOTH (2832)':
+    'prefix': 'GL_POINT_SMOOTH'
+    'body': 'GL_POINT_SMOOTH'
+  'GL_POINT_SMOOTH_HINT (3153)':
+    'prefix': 'GL_POINT_SMOOTH_HINT'
+    'body': 'GL_POINT_SMOOTH_HINT'
+  'GL_POINT_SPRITE_OES (34913)':
+    'prefix': 'GL_POINT_SPRITE_OES'
+    'body': 'GL_POINT_SPRITE_OES'
+  'GL_POLYGON_OFFSET_FACTOR (32824)':
+    'prefix': 'GL_POLYGON_OFFSET_FACTOR'
+    'body': 'GL_POLYGON_OFFSET_FACTOR'
+  'GL_POLYGON_OFFSET_FILL (32823)':
+    'prefix': 'GL_POLYGON_OFFSET_FILL'
+    'body': 'GL_POLYGON_OFFSET_FILL'
+  'GL_POLYGON_OFFSET_UNITS (10752)':
+    'prefix': 'GL_POLYGON_OFFSET_UNITS'
+    'body': 'GL_POLYGON_OFFSET_UNITS'
+  'GL_POSITION (4611)':
+    'prefix': 'GL_POSITION'
+    'body': 'GL_POSITION'
+  'GL_PREVIOUS (34168)':
+    'prefix': 'GL_PREVIOUS'
+    'body': 'GL_PREVIOUS'
+  'GL_PRIMARY_COLOR (34167)':
+    'prefix': 'GL_PRIMARY_COLOR'
+    'body': 'GL_PRIMARY_COLOR'
+  'GL_PRIMITIVE_RESTART_FIXED_INDEX (36201)':
+    'prefix': 'GL_PRIMITIVE_RESTART_FIXED_INDEX'
+    'body': 'GL_PRIMITIVE_RESTART_FIXED_INDEX'
+  'GL_PROGRAM_BINARY_FORMATS (34815)':
+    'prefix': 'GL_PROGRAM_BINARY_FORMATS'
+    'body': 'GL_PROGRAM_BINARY_FORMATS'
+  'GL_PROGRAM_BINARY_LENGTH (34625)':
+    'prefix': 'GL_PROGRAM_BINARY_LENGTH'
+    'body': 'GL_PROGRAM_BINARY_LENGTH'
+  'GL_PROGRAM_BINARY_RETRIEVABLE_HINT (33367)':
+    'prefix': 'GL_PROGRAM_BINARY_RETRIEVABLE_HINT'
+    'body': 'GL_PROGRAM_BINARY_RETRIEVABLE_HINT'
+  'GL_PROGRAM_OBJECT_EXT (35648)':
+    'prefix': 'GL_PROGRAM_OBJECT_EXT'
+    'body': 'GL_PROGRAM_OBJECT_EXT'
+  'GL_PROGRAM_PIPELINE_BINDING_EXT (33370)':
+    'prefix': 'GL_PROGRAM_PIPELINE_BINDING_EXT'
+    'body': 'GL_PROGRAM_PIPELINE_BINDING_EXT'
+  'GL_PROGRAM_PIPELINE_OBJECT_EXT (35407)':
+    'prefix': 'GL_PROGRAM_PIPELINE_OBJECT_EXT'
+    'body': 'GL_PROGRAM_PIPELINE_OBJECT_EXT'
+  'GL_PROGRAM_SEPARABLE_EXT (33368)':
+    'prefix': 'GL_PROGRAM_SEPARABLE_EXT'
+    'body': 'GL_PROGRAM_SEPARABLE_EXT'
+  'GL_PROJECTION (5889)':
+    'prefix': 'GL_PROJECTION'
+    'body': 'GL_PROJECTION'
+  'GL_PROJECTION_MATRIX (2983)':
+    'prefix': 'GL_PROJECTION_MATRIX'
+    'body': 'GL_PROJECTION_MATRIX'
+  'GL_PROJECTION_MATRIX_FLOAT_AS_INT_BITS_OES (35214)':
+    'prefix': 'GL_PROJECTION_MATRIX_FLOAT_AS_INT_BITS_OES'
+    'body': 'GL_PROJECTION_MATRIX_FLOAT_AS_INT_BITS_OES'
+  'GL_PROJECTION_STACK_DEPTH (2980)':
+    'prefix': 'GL_PROJECTION_STACK_DEPTH'
+    'body': 'GL_PROJECTION_STACK_DEPTH'
+  'GL_QUADRATIC_ATTENUATION (4617)':
+    'prefix': 'GL_QUADRATIC_ATTENUATION'
+    'body': 'GL_QUADRATIC_ATTENUATION'
+  'GL_QUERY_OBJECT_EXT (37203)':
+    'prefix': 'GL_QUERY_OBJECT_EXT'
+    'body': 'GL_QUERY_OBJECT_EXT'
+  'GL_QUERY_RESULT (34918)':
+    'prefix': 'GL_QUERY_RESULT'
+    'body': 'GL_QUERY_RESULT'
+  'GL_QUERY_RESULT_AVAILABLE (34919)':
+    'prefix': 'GL_QUERY_RESULT_AVAILABLE'
+    'body': 'GL_QUERY_RESULT_AVAILABLE'
+  'GL_QUERY_RESULT_AVAILABLE_EXT (34919)':
+    'prefix': 'GL_QUERY_RESULT_AVAILABLE_EXT'
+    'body': 'GL_QUERY_RESULT_AVAILABLE_EXT'
+  'GL_QUERY_RESULT_EXT (34918)':
+    'prefix': 'GL_QUERY_RESULT_EXT'
+    'body': 'GL_QUERY_RESULT_EXT'
+  'GL_R11F_G11F_B10F (35898)':
+    'prefix': 'GL_R11F_G11F_B10F'
+    'body': 'GL_R11F_G11F_B10F'
+  'GL_R16F (33325)':
+    'prefix': 'GL_R16F'
+    'body': 'GL_R16F'
+  'GL_R16F_EXT (33325)':
+    'prefix': 'GL_R16F_EXT'
+    'body': 'GL_R16F_EXT'
+  'GL_R16I (33331)':
+    'prefix': 'GL_R16I'
+    'body': 'GL_R16I'
+  'GL_R16UI (33332)':
+    'prefix': 'GL_R16UI'
+    'body': 'GL_R16UI'
+  'GL_R32F (33326)':
+    'prefix': 'GL_R32F'
+    'body': 'GL_R32F'
+  'GL_R32F_EXT (33326)':
+    'prefix': 'GL_R32F_EXT'
+    'body': 'GL_R32F_EXT'
+  'GL_R32I (33333)':
+    'prefix': 'GL_R32I'
+    'body': 'GL_R32I'
+  'GL_R32UI (33334)':
+    'prefix': 'GL_R32UI'
+    'body': 'GL_R32UI'
+  'GL_R8 (33321)':
+    'prefix': 'GL_R8'
+    'body': 'GL_R8'
+  'GL_R8I (33329)':
+    'prefix': 'GL_R8I'
+    'body': 'GL_R8I'
+  'GL_R8UI (33330)':
+    'prefix': 'GL_R8UI'
+    'body': 'GL_R8UI'
+  'GL_R8_EXT (33321)':
+    'prefix': 'GL_R8_EXT'
+    'body': 'GL_R8_EXT'
+  'GL_R8_SNORM (36756)':
+    'prefix': 'GL_R8_SNORM'
+    'body': 'GL_R8_SNORM'
+  'GL_RASTERIZER_DISCARD (35977)':
+    'prefix': 'GL_RASTERIZER_DISCARD'
+    'body': 'GL_RASTERIZER_DISCARD'
+  'GL_READ_BUFFER (3074)':
+    'prefix': 'GL_READ_BUFFER'
+    'body': 'GL_READ_BUFFER'
+  'GL_READ_FRAMEBUFFER (36008)':
+    'prefix': 'GL_READ_FRAMEBUFFER'
+    'body': 'GL_READ_FRAMEBUFFER'
+  'GL_READ_FRAMEBUFFER_APPLE (36008)':
+    'prefix': 'GL_READ_FRAMEBUFFER_APPLE'
+    'body': 'GL_READ_FRAMEBUFFER_APPLE'
+  'GL_READ_FRAMEBUFFER_BINDING (36010)':
+    'prefix': 'GL_READ_FRAMEBUFFER_BINDING'
+    'body': 'GL_READ_FRAMEBUFFER_BINDING'
+  'GL_READ_FRAMEBUFFER_BINDING_APPLE (36010)':
+    'prefix': 'GL_READ_FRAMEBUFFER_BINDING_APPLE'
+    'body': 'GL_READ_FRAMEBUFFER_BINDING_APPLE'
+  'GL_RED (6403)':
+    'prefix': 'GL_RED'
+    'body': 'GL_RED'
+  'GL_RED_BITS (3410)':
+    'prefix': 'GL_RED_BITS'
+    'body': 'GL_RED_BITS'
+  'GL_RED_EXT (6403)':
+    'prefix': 'GL_RED_EXT'
+    'body': 'GL_RED_EXT'
+  'GL_RED_INTEGER (36244)':
+    'prefix': 'GL_RED_INTEGER'
+    'body': 'GL_RED_INTEGER'
+  'GL_RENDERBUFFER (36161)':
+    'prefix': 'GL_RENDERBUFFER'
+    'body': 'GL_RENDERBUFFER'
+  'GL_RENDERBUFFER_ALPHA_SIZE (36179)':
+    'prefix': 'GL_RENDERBUFFER_ALPHA_SIZE'
+    'body': 'GL_RENDERBUFFER_ALPHA_SIZE'
+  'GL_RENDERBUFFER_ALPHA_SIZE_OES (36179)':
+    'prefix': 'GL_RENDERBUFFER_ALPHA_SIZE_OES'
+    'body': 'GL_RENDERBUFFER_ALPHA_SIZE_OES'
+  'GL_RENDERBUFFER_BINDING (36007)':
+    'prefix': 'GL_RENDERBUFFER_BINDING'
+    'body': 'GL_RENDERBUFFER_BINDING'
+  'GL_RENDERBUFFER_BINDING_OES (36007)':
+    'prefix': 'GL_RENDERBUFFER_BINDING_OES'
+    'body': 'GL_RENDERBUFFER_BINDING_OES'
+  'GL_RENDERBUFFER_BLUE_SIZE (36178)':
+    'prefix': 'GL_RENDERBUFFER_BLUE_SIZE'
+    'body': 'GL_RENDERBUFFER_BLUE_SIZE'
+  'GL_RENDERBUFFER_BLUE_SIZE_OES (36178)':
+    'prefix': 'GL_RENDERBUFFER_BLUE_SIZE_OES'
+    'body': 'GL_RENDERBUFFER_BLUE_SIZE_OES'
+  'GL_RENDERBUFFER_DEPTH_SIZE (36180)':
+    'prefix': 'GL_RENDERBUFFER_DEPTH_SIZE'
+    'body': 'GL_RENDERBUFFER_DEPTH_SIZE'
+  'GL_RENDERBUFFER_DEPTH_SIZE_OES (36180)':
+    'prefix': 'GL_RENDERBUFFER_DEPTH_SIZE_OES'
+    'body': 'GL_RENDERBUFFER_DEPTH_SIZE_OES'
+  'GL_RENDERBUFFER_GREEN_SIZE (36177)':
+    'prefix': 'GL_RENDERBUFFER_GREEN_SIZE'
+    'body': 'GL_RENDERBUFFER_GREEN_SIZE'
+  'GL_RENDERBUFFER_GREEN_SIZE_OES (36177)':
+    'prefix': 'GL_RENDERBUFFER_GREEN_SIZE_OES'
+    'body': 'GL_RENDERBUFFER_GREEN_SIZE_OES'
+  'GL_RENDERBUFFER_HEIGHT (36163)':
+    'prefix': 'GL_RENDERBUFFER_HEIGHT'
+    'body': 'GL_RENDERBUFFER_HEIGHT'
+  'GL_RENDERBUFFER_HEIGHT_OES (36163)':
+    'prefix': 'GL_RENDERBUFFER_HEIGHT_OES'
+    'body': 'GL_RENDERBUFFER_HEIGHT_OES'
+  'GL_RENDERBUFFER_INTERNAL_FORMAT (36164)':
+    'prefix': 'GL_RENDERBUFFER_INTERNAL_FORMAT'
+    'body': 'GL_RENDERBUFFER_INTERNAL_FORMAT'
+  'GL_RENDERBUFFER_INTERNAL_FORMAT_OES (36164)':
+    'prefix': 'GL_RENDERBUFFER_INTERNAL_FORMAT_OES'
+    'body': 'GL_RENDERBUFFER_INTERNAL_FORMAT_OES'
+  'GL_RENDERBUFFER_OES (36161)':
+    'prefix': 'GL_RENDERBUFFER_OES'
+    'body': 'GL_RENDERBUFFER_OES'
+  'GL_RENDERBUFFER_RED_SIZE (36176)':
+    'prefix': 'GL_RENDERBUFFER_RED_SIZE'
+    'body': 'GL_RENDERBUFFER_RED_SIZE'
+  'GL_RENDERBUFFER_RED_SIZE_OES (36176)':
+    'prefix': 'GL_RENDERBUFFER_RED_SIZE_OES'
+    'body': 'GL_RENDERBUFFER_RED_SIZE_OES'
+  'GL_RENDERBUFFER_SAMPLES (36011)':
+    'prefix': 'GL_RENDERBUFFER_SAMPLES'
+    'body': 'GL_RENDERBUFFER_SAMPLES'
+  'GL_RENDERBUFFER_SAMPLES_APPLE (36011)':
+    'prefix': 'GL_RENDERBUFFER_SAMPLES_APPLE'
+    'body': 'GL_RENDERBUFFER_SAMPLES_APPLE'
+  'GL_RENDERBUFFER_STENCIL_SIZE (36181)':
+    'prefix': 'GL_RENDERBUFFER_STENCIL_SIZE'
+    'body': 'GL_RENDERBUFFER_STENCIL_SIZE'
+  'GL_RENDERBUFFER_STENCIL_SIZE_OES (36181)':
+    'prefix': 'GL_RENDERBUFFER_STENCIL_SIZE_OES'
+    'body': 'GL_RENDERBUFFER_STENCIL_SIZE_OES'
+  'GL_RENDERBUFFER_WIDTH (36162)':
+    'prefix': 'GL_RENDERBUFFER_WIDTH'
+    'body': 'GL_RENDERBUFFER_WIDTH'
+  'GL_RENDERBUFFER_WIDTH_OES (36162)':
+    'prefix': 'GL_RENDERBUFFER_WIDTH_OES'
+    'body': 'GL_RENDERBUFFER_WIDTH_OES'
+  'GL_RENDERER (7937)':
+    'prefix': 'GL_RENDERER'
+    'body': 'GL_RENDERER'
+  'GL_REPEAT (10497)':
+    'prefix': 'GL_REPEAT'
+    'body': 'GL_REPEAT'
+  'GL_REPLACE (7681)':
+    'prefix': 'GL_REPLACE'
+    'body': 'GL_REPLACE'
+  'GL_RESCALE_NORMAL (32826)':
+    'prefix': 'GL_RESCALE_NORMAL'
+    'body': 'GL_RESCALE_NORMAL'
+  'GL_RG (33319)':
+    'prefix': 'GL_RG'
+    'body': 'GL_RG'
+  'GL_RG16F (33327)':
+    'prefix': 'GL_RG16F'
+    'body': 'GL_RG16F'
+  'GL_RG16F_EXT (33327)':
+    'prefix': 'GL_RG16F_EXT'
+    'body': 'GL_RG16F_EXT'
+  'GL_RG16I (33337)':
+    'prefix': 'GL_RG16I'
+    'body': 'GL_RG16I'
+  'GL_RG16UI (33338)':
+    'prefix': 'GL_RG16UI'
+    'body': 'GL_RG16UI'
+  'GL_RG32F (33328)':
+    'prefix': 'GL_RG32F'
+    'body': 'GL_RG32F'
+  'GL_RG32F_EXT (33328)':
+    'prefix': 'GL_RG32F_EXT'
+    'body': 'GL_RG32F_EXT'
+  'GL_RG32I (33339)':
+    'prefix': 'GL_RG32I'
+    'body': 'GL_RG32I'
+  'GL_RG32UI (33340)':
+    'prefix': 'GL_RG32UI'
+    'body': 'GL_RG32UI'
+  'GL_RG8 (33323)':
+    'prefix': 'GL_RG8'
+    'body': 'GL_RG8'
+  'GL_RG8I (33335)':
+    'prefix': 'GL_RG8I'
+    'body': 'GL_RG8I'
+  'GL_RG8UI (33336)':
+    'prefix': 'GL_RG8UI'
+    'body': 'GL_RG8UI'
+  'GL_RG8_EXT (33323)':
+    'prefix': 'GL_RG8_EXT'
+    'body': 'GL_RG8_EXT'
+  'GL_RG8_SNORM (36757)':
+    'prefix': 'GL_RG8_SNORM'
+    'body': 'GL_RG8_SNORM'
+  'GL_RGB (6407)':
+    'prefix': 'GL_RGB'
+    'body': 'GL_RGB'
+  'GL_RGB10_A2 (32857)':
+    'prefix': 'GL_RGB10_A2'
+    'body': 'GL_RGB10_A2'
+  'GL_RGB10_A2UI (36975)':
+    'prefix': 'GL_RGB10_A2UI'
+    'body': 'GL_RGB10_A2UI'
+  'GL_RGB16F (34843)':
+    'prefix': 'GL_RGB16F'
+    'body': 'GL_RGB16F'
+  'GL_RGB16F_EXT (34843)':
+    'prefix': 'GL_RGB16F_EXT'
+    'body': 'GL_RGB16F_EXT'
+  'GL_RGB16I (36233)':
+    'prefix': 'GL_RGB16I'
+    'body': 'GL_RGB16I'
+  'GL_RGB16UI (36215)':
+    'prefix': 'GL_RGB16UI'
+    'body': 'GL_RGB16UI'
+  'GL_RGB32F (34837)':
+    'prefix': 'GL_RGB32F'
+    'body': 'GL_RGB32F'
+  'GL_RGB32F_EXT (34837)':
+    'prefix': 'GL_RGB32F_EXT'
+    'body': 'GL_RGB32F_EXT'
+  'GL_RGB32I (36227)':
+    'prefix': 'GL_RGB32I'
+    'body': 'GL_RGB32I'
+  'GL_RGB32UI (36209)':
+    'prefix': 'GL_RGB32UI'
+    'body': 'GL_RGB32UI'
+  'GL_RGB565 (36194)':
+    'prefix': 'GL_RGB565'
+    'body': 'GL_RGB565'
+  'GL_RGB565_OES (36194)':
+    'prefix': 'GL_RGB565_OES'
+    'body': 'GL_RGB565_OES'
+  'GL_RGB5_A1 (32855)':
+    'prefix': 'GL_RGB5_A1'
+    'body': 'GL_RGB5_A1'
+  'GL_RGB5_A1_OES (32855)':
+    'prefix': 'GL_RGB5_A1_OES'
+    'body': 'GL_RGB5_A1_OES'
+  'GL_RGB8 (32849)':
+    'prefix': 'GL_RGB8'
+    'body': 'GL_RGB8'
+  'GL_RGB8I (36239)':
+    'prefix': 'GL_RGB8I'
+    'body': 'GL_RGB8I'
+  'GL_RGB8UI (36221)':
+    'prefix': 'GL_RGB8UI'
+    'body': 'GL_RGB8UI'
+  'GL_RGB8_OES (32849)':
+    'prefix': 'GL_RGB8_OES'
+    'body': 'GL_RGB8_OES'
+  'GL_RGB8_SNORM (36758)':
+    'prefix': 'GL_RGB8_SNORM'
+    'body': 'GL_RGB8_SNORM'
+  'GL_RGB9_E5 (35901)':
+    'prefix': 'GL_RGB9_E5'
+    'body': 'GL_RGB9_E5'
+  'GL_RGBA (6408)':
+    'prefix': 'GL_RGBA'
+    'body': 'GL_RGBA'
+  'GL_RGBA16F (34842)':
+    'prefix': 'GL_RGBA16F'
+    'body': 'GL_RGBA16F'
+  'GL_RGBA16F_EXT (34842)':
+    'prefix': 'GL_RGBA16F_EXT'
+    'body': 'GL_RGBA16F_EXT'
+  'GL_RGBA16I (36232)':
+    'prefix': 'GL_RGBA16I'
+    'body': 'GL_RGBA16I'
+  'GL_RGBA16UI (36214)':
+    'prefix': 'GL_RGBA16UI'
+    'body': 'GL_RGBA16UI'
+  'GL_RGBA32F (34836)':
+    'prefix': 'GL_RGBA32F'
+    'body': 'GL_RGBA32F'
+  'GL_RGBA32F_EXT (34836)':
+    'prefix': 'GL_RGBA32F_EXT'
+    'body': 'GL_RGBA32F_EXT'
+  'GL_RGBA32I (36226)':
+    'prefix': 'GL_RGBA32I'
+    'body': 'GL_RGBA32I'
+  'GL_RGBA32UI (36208)':
+    'prefix': 'GL_RGBA32UI'
+    'body': 'GL_RGBA32UI'
+  'GL_RGBA4 (32854)':
+    'prefix': 'GL_RGBA4'
+    'body': 'GL_RGBA4'
+  'GL_RGBA4_OES (32854)':
+    'prefix': 'GL_RGBA4_OES'
+    'body': 'GL_RGBA4_OES'
+  'GL_RGBA8 (32856)':
+    'prefix': 'GL_RGBA8'
+    'body': 'GL_RGBA8'
+  'GL_RGBA8I (36238)':
+    'prefix': 'GL_RGBA8I'
+    'body': 'GL_RGBA8I'
+  'GL_RGBA8UI (36220)':
+    'prefix': 'GL_RGBA8UI'
+    'body': 'GL_RGBA8UI'
+  'GL_RGBA8_OES (32856)':
+    'prefix': 'GL_RGBA8_OES'
+    'body': 'GL_RGBA8_OES'
+  'GL_RGBA8_SNORM (36759)':
+    'prefix': 'GL_RGBA8_SNORM'
+    'body': 'GL_RGBA8_SNORM'
+  'GL_RGBA_INTEGER (36249)':
+    'prefix': 'GL_RGBA_INTEGER'
+    'body': 'GL_RGBA_INTEGER'
+  'GL_RGB_422_APPLE (35359)':
+    'prefix': 'GL_RGB_422_APPLE'
+    'body': 'GL_RGB_422_APPLE'
+  'GL_RGB_INTEGER (36248)':
+    'prefix': 'GL_RGB_INTEGER'
+    'body': 'GL_RGB_INTEGER'
+  'GL_RGB_RAW_422_APPLE (35409)':
+    'prefix': 'GL_RGB_RAW_422_APPLE'
+    'body': 'GL_RGB_RAW_422_APPLE'
+  'GL_RGB_SCALE (34163)':
+    'prefix': 'GL_RGB_SCALE'
+    'body': 'GL_RGB_SCALE'
+  'GL_RG_EXT (33319)':
+    'prefix': 'GL_RG_EXT'
+    'body': 'GL_RG_EXT'
+  'GL_RG_INTEGER (33320)':
+    'prefix': 'GL_RG_INTEGER'
+    'body': 'GL_RG_INTEGER'
+  'GL_SAMPLER (33510)':
+    'prefix': 'GL_SAMPLER'
+    'body': 'GL_SAMPLER'
+  'GL_SAMPLER_2D (35678)':
+    'prefix': 'GL_SAMPLER_2D'
+    'body': 'GL_SAMPLER_2D'
+  'GL_SAMPLER_2D_ARRAY (36289)':
+    'prefix': 'GL_SAMPLER_2D_ARRAY'
+    'body': 'GL_SAMPLER_2D_ARRAY'
+  'GL_SAMPLER_2D_ARRAY_SHADOW (36292)':
+    'prefix': 'GL_SAMPLER_2D_ARRAY_SHADOW'
+    'body': 'GL_SAMPLER_2D_ARRAY_SHADOW'
+  'GL_SAMPLER_2D_SHADOW (35682)':
+    'prefix': 'GL_SAMPLER_2D_SHADOW'
+    'body': 'GL_SAMPLER_2D_SHADOW'
+  'GL_SAMPLER_2D_SHADOW_EXT (35682)':
+    'prefix': 'GL_SAMPLER_2D_SHADOW_EXT'
+    'body': 'GL_SAMPLER_2D_SHADOW_EXT'
+  'GL_SAMPLER_3D (35679)':
+    'prefix': 'GL_SAMPLER_3D'
+    'body': 'GL_SAMPLER_3D'
+  'GL_SAMPLER_BINDING (35097)':
+    'prefix': 'GL_SAMPLER_BINDING'
+    'body': 'GL_SAMPLER_BINDING'
+  'GL_SAMPLER_CUBE (35680)':
+    'prefix': 'GL_SAMPLER_CUBE'
+    'body': 'GL_SAMPLER_CUBE'
+  'GL_SAMPLER_CUBE_SHADOW (36293)':
+    'prefix': 'GL_SAMPLER_CUBE_SHADOW'
+    'body': 'GL_SAMPLER_CUBE_SHADOW'
+  'GL_SAMPLES (32937)':
+    'prefix': 'GL_SAMPLES'
+    'body': 'GL_SAMPLES'
+  'GL_SAMPLE_ALPHA_TO_COVERAGE (32926)':
+    'prefix': 'GL_SAMPLE_ALPHA_TO_COVERAGE'
+    'body': 'GL_SAMPLE_ALPHA_TO_COVERAGE'
+  'GL_SAMPLE_ALPHA_TO_ONE (32927)':
+    'prefix': 'GL_SAMPLE_ALPHA_TO_ONE'
+    'body': 'GL_SAMPLE_ALPHA_TO_ONE'
+  'GL_SAMPLE_BUFFERS (32936)':
+    'prefix': 'GL_SAMPLE_BUFFERS'
+    'body': 'GL_SAMPLE_BUFFERS'
+  'GL_SAMPLE_COVERAGE (32928)':
+    'prefix': 'GL_SAMPLE_COVERAGE'
+    'body': 'GL_SAMPLE_COVERAGE'
+  'GL_SAMPLE_COVERAGE_INVERT (32939)':
+    'prefix': 'GL_SAMPLE_COVERAGE_INVERT'
+    'body': 'GL_SAMPLE_COVERAGE_INVERT'
+  'GL_SAMPLE_COVERAGE_VALUE (32938)':
+    'prefix': 'GL_SAMPLE_COVERAGE_VALUE'
+    'body': 'GL_SAMPLE_COVERAGE_VALUE'
+  'GL_SCISSOR_BOX (3088)':
+    'prefix': 'GL_SCISSOR_BOX'
+    'body': 'GL_SCISSOR_BOX'
+  'GL_SCISSOR_TEST (3089)':
+    'prefix': 'GL_SCISSOR_TEST'
+    'body': 'GL_SCISSOR_TEST'
+  'GL_SEPARATE_ATTRIBS (35981)':
+    'prefix': 'GL_SEPARATE_ATTRIBS'
+    'body': 'GL_SEPARATE_ATTRIBS'
+  'GL_SET (5391)':
+    'prefix': 'GL_SET'
+    'body': 'GL_SET'
+  'GL_SHADER_BINARY_FORMATS (36344)':
+    'prefix': 'GL_SHADER_BINARY_FORMATS'
+    'body': 'GL_SHADER_BINARY_FORMATS'
+  'GL_SHADER_COMPILER (36346)':
+    'prefix': 'GL_SHADER_COMPILER'
+    'body': 'GL_SHADER_COMPILER'
+  'GL_SHADER_OBJECT_EXT (35656)':
+    'prefix': 'GL_SHADER_OBJECT_EXT'
+    'body': 'GL_SHADER_OBJECT_EXT'
+  'GL_SHADER_SOURCE_LENGTH (35720)':
+    'prefix': 'GL_SHADER_SOURCE_LENGTH'
+    'body': 'GL_SHADER_SOURCE_LENGTH'
+  'GL_SHADER_TYPE (35663)':
+    'prefix': 'GL_SHADER_TYPE'
+    'body': 'GL_SHADER_TYPE'
+  'GL_SHADE_MODEL (2900)':
+    'prefix': 'GL_SHADE_MODEL'
+    'body': 'GL_SHADE_MODEL'
+  'GL_SHADING_LANGUAGE_VERSION (35724)':
+    'prefix': 'GL_SHADING_LANGUAGE_VERSION'
+    'body': 'GL_SHADING_LANGUAGE_VERSION'
+  'GL_SHININESS (5633)':
+    'prefix': 'GL_SHININESS'
+    'body': 'GL_SHININESS'
+  'GL_SHORT (5122)':
+    'prefix': 'GL_SHORT'
+    'body': 'GL_SHORT'
+  'GL_SIGNALED (37145)':
+    'prefix': 'GL_SIGNALED'
+    'body': 'GL_SIGNALED'
+  'GL_SIGNALED_APPLE (37145)':
+    'prefix': 'GL_SIGNALED_APPLE'
+    'body': 'GL_SIGNALED_APPLE'
+  'GL_SIGNED_NORMALIZED (36764)':
+    'prefix': 'GL_SIGNED_NORMALIZED'
+    'body': 'GL_SIGNED_NORMALIZED'
+  'GL_SMOOTH (7425)':
+    'prefix': 'GL_SMOOTH'
+    'body': 'GL_SMOOTH'
+  'GL_SMOOTH_LINE_WIDTH_RANGE (2850)':
+    'prefix': 'GL_SMOOTH_LINE_WIDTH_RANGE'
+    'body': 'GL_SMOOTH_LINE_WIDTH_RANGE'
+  'GL_SMOOTH_POINT_SIZE_RANGE (2834)':
+    'prefix': 'GL_SMOOTH_POINT_SIZE_RANGE'
+    'body': 'GL_SMOOTH_POINT_SIZE_RANGE'
+  'GL_SPECULAR (4610)':
+    'prefix': 'GL_SPECULAR'
+    'body': 'GL_SPECULAR'
+  'GL_SPOT_CUTOFF (4614)':
+    'prefix': 'GL_SPOT_CUTOFF'
+    'body': 'GL_SPOT_CUTOFF'
+  'GL_SPOT_DIRECTION (4612)':
+    'prefix': 'GL_SPOT_DIRECTION'
+    'body': 'GL_SPOT_DIRECTION'
+  'GL_SPOT_EXPONENT (4613)':
+    'prefix': 'GL_SPOT_EXPONENT'
+    'body': 'GL_SPOT_EXPONENT'
+  'GL_SRC0_ALPHA (34184)':
+    'prefix': 'GL_SRC0_ALPHA'
+    'body': 'GL_SRC0_ALPHA'
+  'GL_SRC0_RGB (34176)':
+    'prefix': 'GL_SRC0_RGB'
+    'body': 'GL_SRC0_RGB'
+  'GL_SRC1_ALPHA (34185)':
+    'prefix': 'GL_SRC1_ALPHA'
+    'body': 'GL_SRC1_ALPHA'
+  'GL_SRC1_RGB (34177)':
+    'prefix': 'GL_SRC1_RGB'
+    'body': 'GL_SRC1_RGB'
+  'GL_SRC2_ALPHA (34186)':
+    'prefix': 'GL_SRC2_ALPHA'
+    'body': 'GL_SRC2_ALPHA'
+  'GL_SRC2_RGB (34178)':
+    'prefix': 'GL_SRC2_RGB'
+    'body': 'GL_SRC2_RGB'
+  'GL_SRC_ALPHA (770)':
+    'prefix': 'GL_SRC_ALPHA'
+    'body': 'GL_SRC_ALPHA'
+  'GL_SRC_ALPHA_SATURATE (776)':
+    'prefix': 'GL_SRC_ALPHA_SATURATE'
+    'body': 'GL_SRC_ALPHA_SATURATE'
+  'GL_SRC_COLOR (768)':
+    'prefix': 'GL_SRC_COLOR'
+    'body': 'GL_SRC_COLOR'
+  'GL_SRGB (35904)':
+    'prefix': 'GL_SRGB'
+    'body': 'GL_SRGB'
+  'GL_SRGB8 (35905)':
+    'prefix': 'GL_SRGB8'
+    'body': 'GL_SRGB8'
+  'GL_SRGB8_ALPHA8 (35907)':
+    'prefix': 'GL_SRGB8_ALPHA8'
+    'body': 'GL_SRGB8_ALPHA8'
+  'GL_SRGB8_ALPHA8_EXT (35907)':
+    'prefix': 'GL_SRGB8_ALPHA8_EXT'
+    'body': 'GL_SRGB8_ALPHA8_EXT'
+  'GL_SRGB_ALPHA_EXT (35906)':
+    'prefix': 'GL_SRGB_ALPHA_EXT'
+    'body': 'GL_SRGB_ALPHA_EXT'
+  'GL_SRGB_EXT (35904)':
+    'prefix': 'GL_SRGB_EXT'
+    'body': 'GL_SRGB_EXT'
+  'GL_STACK_OVERFLOW (1283)':
+    'prefix': 'GL_STACK_OVERFLOW'
+    'body': 'GL_STACK_OVERFLOW'
+  'GL_STACK_UNDERFLOW (1284)':
+    'prefix': 'GL_STACK_UNDERFLOW'
+    'body': 'GL_STACK_UNDERFLOW'
+  'GL_STATIC_COPY (35046)':
+    'prefix': 'GL_STATIC_COPY'
+    'body': 'GL_STATIC_COPY'
+  'GL_STATIC_DRAW (35044)':
+    'prefix': 'GL_STATIC_DRAW'
+    'body': 'GL_STATIC_DRAW'
+  'GL_STATIC_READ (35045)':
+    'prefix': 'GL_STATIC_READ'
+    'body': 'GL_STATIC_READ'
+  'GL_STENCIL (6146)':
+    'prefix': 'GL_STENCIL'
+    'body': 'GL_STENCIL'
+  'GL_STENCIL_ATTACHMENT (36128)':
+    'prefix': 'GL_STENCIL_ATTACHMENT'
+    'body': 'GL_STENCIL_ATTACHMENT'
+  'GL_STENCIL_ATTACHMENT_OES (36128)':
+    'prefix': 'GL_STENCIL_ATTACHMENT_OES'
+    'body': 'GL_STENCIL_ATTACHMENT_OES'
+  'GL_STENCIL_BACK_FAIL (34817)':
+    'prefix': 'GL_STENCIL_BACK_FAIL'
+    'body': 'GL_STENCIL_BACK_FAIL'
+  'GL_STENCIL_BACK_FUNC (34816)':
+    'prefix': 'GL_STENCIL_BACK_FUNC'
+    'body': 'GL_STENCIL_BACK_FUNC'
+  'GL_STENCIL_BACK_PASS_DEPTH_FAIL (34818)':
+    'prefix': 'GL_STENCIL_BACK_PASS_DEPTH_FAIL'
+    'body': 'GL_STENCIL_BACK_PASS_DEPTH_FAIL'
+  'GL_STENCIL_BACK_PASS_DEPTH_PASS (34819)':
+    'prefix': 'GL_STENCIL_BACK_PASS_DEPTH_PASS'
+    'body': 'GL_STENCIL_BACK_PASS_DEPTH_PASS'
+  'GL_STENCIL_BACK_REF (36003)':
+    'prefix': 'GL_STENCIL_BACK_REF'
+    'body': 'GL_STENCIL_BACK_REF'
+  'GL_STENCIL_BACK_VALUE_MASK (36004)':
+    'prefix': 'GL_STENCIL_BACK_VALUE_MASK'
+    'body': 'GL_STENCIL_BACK_VALUE_MASK'
+  'GL_STENCIL_BACK_WRITEMASK (36005)':
+    'prefix': 'GL_STENCIL_BACK_WRITEMASK'
+    'body': 'GL_STENCIL_BACK_WRITEMASK'
+  'GL_STENCIL_BITS (3415)':
+    'prefix': 'GL_STENCIL_BITS'
+    'body': 'GL_STENCIL_BITS'
+  'GL_STENCIL_BUFFER_BIT (1024)':
+    'prefix': 'GL_STENCIL_BUFFER_BIT'
+    'body': 'GL_STENCIL_BUFFER_BIT'
+  'GL_STENCIL_CLEAR_VALUE (2961)':
+    'prefix': 'GL_STENCIL_CLEAR_VALUE'
+    'body': 'GL_STENCIL_CLEAR_VALUE'
+  'GL_STENCIL_EXT (6146)':
+    'prefix': 'GL_STENCIL_EXT'
+    'body': 'GL_STENCIL_EXT'
+  'GL_STENCIL_FAIL (2964)':
+    'prefix': 'GL_STENCIL_FAIL'
+    'body': 'GL_STENCIL_FAIL'
+  'GL_STENCIL_FUNC (2962)':
+    'prefix': 'GL_STENCIL_FUNC'
+    'body': 'GL_STENCIL_FUNC'
+  'GL_STENCIL_INDEX8 (36168)':
+    'prefix': 'GL_STENCIL_INDEX8'
+    'body': 'GL_STENCIL_INDEX8'
+  'GL_STENCIL_INDEX8_OES (36168)':
+    'prefix': 'GL_STENCIL_INDEX8_OES'
+    'body': 'GL_STENCIL_INDEX8_OES'
+  'GL_STENCIL_PASS_DEPTH_FAIL (2965)':
+    'prefix': 'GL_STENCIL_PASS_DEPTH_FAIL'
+    'body': 'GL_STENCIL_PASS_DEPTH_FAIL'
+  'GL_STENCIL_PASS_DEPTH_PASS (2966)':
+    'prefix': 'GL_STENCIL_PASS_DEPTH_PASS'
+    'body': 'GL_STENCIL_PASS_DEPTH_PASS'
+  'GL_STENCIL_REF (2967)':
+    'prefix': 'GL_STENCIL_REF'
+    'body': 'GL_STENCIL_REF'
+  'GL_STENCIL_TEST (2960)':
+    'prefix': 'GL_STENCIL_TEST'
+    'body': 'GL_STENCIL_TEST'
+  'GL_STENCIL_VALUE_MASK (2963)':
+    'prefix': 'GL_STENCIL_VALUE_MASK'
+    'body': 'GL_STENCIL_VALUE_MASK'
+  'GL_STENCIL_WRITEMASK (2968)':
+    'prefix': 'GL_STENCIL_WRITEMASK'
+    'body': 'GL_STENCIL_WRITEMASK'
+  'GL_STREAM_COPY (35042)':
+    'prefix': 'GL_STREAM_COPY'
+    'body': 'GL_STREAM_COPY'
+  'GL_STREAM_DRAW (35040)':
+    'prefix': 'GL_STREAM_DRAW'
+    'body': 'GL_STREAM_DRAW'
+  'GL_STREAM_READ (35041)':
+    'prefix': 'GL_STREAM_READ'
+    'body': 'GL_STREAM_READ'
+  'GL_SUBPIXEL_BITS (3408)':
+    'prefix': 'GL_SUBPIXEL_BITS'
+    'body': 'GL_SUBPIXEL_BITS'
+  'GL_SUBTRACT (34023)':
+    'prefix': 'GL_SUBTRACT'
+    'body': 'GL_SUBTRACT'
+  'GL_SYNC_CONDITION (37139)':
+    'prefix': 'GL_SYNC_CONDITION'
+    'body': 'GL_SYNC_CONDITION'
+  'GL_SYNC_CONDITION_APPLE (37139)':
+    'prefix': 'GL_SYNC_CONDITION_APPLE'
+    'body': 'GL_SYNC_CONDITION_APPLE'
+  'GL_SYNC_FENCE (37142)':
+    'prefix': 'GL_SYNC_FENCE'
+    'body': 'GL_SYNC_FENCE'
+  'GL_SYNC_FENCE_APPLE (37142)':
+    'prefix': 'GL_SYNC_FENCE_APPLE'
+    'body': 'GL_SYNC_FENCE_APPLE'
+  'GL_SYNC_FLAGS (37141)':
+    'prefix': 'GL_SYNC_FLAGS'
+    'body': 'GL_SYNC_FLAGS'
+  'GL_SYNC_FLAGS_APPLE (37141)':
+    'prefix': 'GL_SYNC_FLAGS_APPLE'
+    'body': 'GL_SYNC_FLAGS_APPLE'
+  'GL_SYNC_FLUSH_COMMANDS_BIT (1)':
+    'prefix': 'GL_SYNC_FLUSH_COMMANDS_BIT'
+    'body': 'GL_SYNC_FLUSH_COMMANDS_BIT'
+  'GL_SYNC_FLUSH_COMMANDS_BIT_APPLE (1)':
+    'prefix': 'GL_SYNC_FLUSH_COMMANDS_BIT_APPLE'
+    'body': 'GL_SYNC_FLUSH_COMMANDS_BIT_APPLE'
+  'GL_SYNC_GPU_COMMANDS_COMPLETE (37143)':
+    'prefix': 'GL_SYNC_GPU_COMMANDS_COMPLETE'
+    'body': 'GL_SYNC_GPU_COMMANDS_COMPLETE'
+  'GL_SYNC_GPU_COMMANDS_COMPLETE_APPLE (37143)':
+    'prefix': 'GL_SYNC_GPU_COMMANDS_COMPLETE_APPLE'
+    'body': 'GL_SYNC_GPU_COMMANDS_COMPLETE_APPLE'
+  'GL_SYNC_OBJECT_APPLE (35411)':
+    'prefix': 'GL_SYNC_OBJECT_APPLE'
+    'body': 'GL_SYNC_OBJECT_APPLE'
+  'GL_SYNC_STATUS (37140)':
+    'prefix': 'GL_SYNC_STATUS'
+    'body': 'GL_SYNC_STATUS'
+  'GL_SYNC_STATUS_APPLE (37140)':
+    'prefix': 'GL_SYNC_STATUS_APPLE'
+    'body': 'GL_SYNC_STATUS_APPLE'
+  'GL_TEXTURE (5890)':
+    'prefix': 'GL_TEXTURE'
+    'body': 'GL_TEXTURE'
+  'GL_TEXTURE0 (33984)':
+    'prefix': 'GL_TEXTURE0'
+    'body': 'GL_TEXTURE0'
+  'GL_TEXTURE1 (33985)':
+    'prefix': 'GL_TEXTURE1'
+    'body': 'GL_TEXTURE1'
+  'GL_TEXTURE10 (33994)':
+    'prefix': 'GL_TEXTURE10'
+    'body': 'GL_TEXTURE10'
+  'GL_TEXTURE11 (33995)':
+    'prefix': 'GL_TEXTURE11'
+    'body': 'GL_TEXTURE11'
+  'GL_TEXTURE12 (33996)':
+    'prefix': 'GL_TEXTURE12'
+    'body': 'GL_TEXTURE12'
+  'GL_TEXTURE13 (33997)':
+    'prefix': 'GL_TEXTURE13'
+    'body': 'GL_TEXTURE13'
+  'GL_TEXTURE14 (33998)':
+    'prefix': 'GL_TEXTURE14'
+    'body': 'GL_TEXTURE14'
+  'GL_TEXTURE15 (33999)':
+    'prefix': 'GL_TEXTURE15'
+    'body': 'GL_TEXTURE15'
+  'GL_TEXTURE16 (34000)':
+    'prefix': 'GL_TEXTURE16'
+    'body': 'GL_TEXTURE16'
+  'GL_TEXTURE17 (34001)':
+    'prefix': 'GL_TEXTURE17'
+    'body': 'GL_TEXTURE17'
+  'GL_TEXTURE18 (34002)':
+    'prefix': 'GL_TEXTURE18'
+    'body': 'GL_TEXTURE18'
+  'GL_TEXTURE19 (34003)':
+    'prefix': 'GL_TEXTURE19'
+    'body': 'GL_TEXTURE19'
+  'GL_TEXTURE2 (33986)':
+    'prefix': 'GL_TEXTURE2'
+    'body': 'GL_TEXTURE2'
+  'GL_TEXTURE20 (34004)':
+    'prefix': 'GL_TEXTURE20'
+    'body': 'GL_TEXTURE20'
+  'GL_TEXTURE21 (34005)':
+    'prefix': 'GL_TEXTURE21'
+    'body': 'GL_TEXTURE21'
+  'GL_TEXTURE22 (34006)':
+    'prefix': 'GL_TEXTURE22'
+    'body': 'GL_TEXTURE22'
+  'GL_TEXTURE23 (34007)':
+    'prefix': 'GL_TEXTURE23'
+    'body': 'GL_TEXTURE23'
+  'GL_TEXTURE24 (34008)':
+    'prefix': 'GL_TEXTURE24'
+    'body': 'GL_TEXTURE24'
+  'GL_TEXTURE25 (34009)':
+    'prefix': 'GL_TEXTURE25'
+    'body': 'GL_TEXTURE25'
+  'GL_TEXTURE26 (34010)':
+    'prefix': 'GL_TEXTURE26'
+    'body': 'GL_TEXTURE26'
+  'GL_TEXTURE27 (34011)':
+    'prefix': 'GL_TEXTURE27'
+    'body': 'GL_TEXTURE27'
+  'GL_TEXTURE28 (34012)':
+    'prefix': 'GL_TEXTURE28'
+    'body': 'GL_TEXTURE28'
+  'GL_TEXTURE29 (34013)':
+    'prefix': 'GL_TEXTURE29'
+    'body': 'GL_TEXTURE29'
+  'GL_TEXTURE3 (33987)':
+    'prefix': 'GL_TEXTURE3'
+    'body': 'GL_TEXTURE3'
+  'GL_TEXTURE30 (34014)':
+    'prefix': 'GL_TEXTURE30'
+    'body': 'GL_TEXTURE30'
+  'GL_TEXTURE31 (34015)':
+    'prefix': 'GL_TEXTURE31'
+    'body': 'GL_TEXTURE31'
+  'GL_TEXTURE4 (33988)':
+    'prefix': 'GL_TEXTURE4'
+    'body': 'GL_TEXTURE4'
+  'GL_TEXTURE5 (33989)':
+    'prefix': 'GL_TEXTURE5'
+    'body': 'GL_TEXTURE5'
+  'GL_TEXTURE6 (33990)':
+    'prefix': 'GL_TEXTURE6'
+    'body': 'GL_TEXTURE6'
+  'GL_TEXTURE7 (33991)':
+    'prefix': 'GL_TEXTURE7'
+    'body': 'GL_TEXTURE7'
+  'GL_TEXTURE8 (33992)':
+    'prefix': 'GL_TEXTURE8'
+    'body': 'GL_TEXTURE8'
+  'GL_TEXTURE9 (33993)':
+    'prefix': 'GL_TEXTURE9'
+    'body': 'GL_TEXTURE9'
+  'GL_TEXTURE_2D (3553)':
+    'prefix': 'GL_TEXTURE_2D'
+    'body': 'GL_TEXTURE_2D'
+  'GL_TEXTURE_2D_ARRAY (35866)':
+    'prefix': 'GL_TEXTURE_2D_ARRAY'
+    'body': 'GL_TEXTURE_2D_ARRAY'
+  'GL_TEXTURE_3D (32879)':
+    'prefix': 'GL_TEXTURE_3D'
+    'body': 'GL_TEXTURE_3D'
+  'GL_TEXTURE_BASE_LEVEL (33084)':
+    'prefix': 'GL_TEXTURE_BASE_LEVEL'
+    'body': 'GL_TEXTURE_BASE_LEVEL'
+  'GL_TEXTURE_BINDING_2D (32873)':
+    'prefix': 'GL_TEXTURE_BINDING_2D'
+    'body': 'GL_TEXTURE_BINDING_2D'
+  'GL_TEXTURE_BINDING_2D_ARRAY (35869)':
+    'prefix': 'GL_TEXTURE_BINDING_2D_ARRAY'
+    'body': 'GL_TEXTURE_BINDING_2D_ARRAY'
+  'GL_TEXTURE_BINDING_3D (32874)':
+    'prefix': 'GL_TEXTURE_BINDING_3D'
+    'body': 'GL_TEXTURE_BINDING_3D'
+  'GL_TEXTURE_BINDING_CUBE_MAP (34068)':
+    'prefix': 'GL_TEXTURE_BINDING_CUBE_MAP'
+    'body': 'GL_TEXTURE_BINDING_CUBE_MAP'
+  'GL_TEXTURE_COMPARE_FUNC (34893)':
+    'prefix': 'GL_TEXTURE_COMPARE_FUNC'
+    'body': 'GL_TEXTURE_COMPARE_FUNC'
+  'GL_TEXTURE_COMPARE_FUNC_EXT (34893)':
+    'prefix': 'GL_TEXTURE_COMPARE_FUNC_EXT'
+    'body': 'GL_TEXTURE_COMPARE_FUNC_EXT'
+  'GL_TEXTURE_COMPARE_MODE (34892)':
+    'prefix': 'GL_TEXTURE_COMPARE_MODE'
+    'body': 'GL_TEXTURE_COMPARE_MODE'
+  'GL_TEXTURE_COMPARE_MODE_EXT (34892)':
+    'prefix': 'GL_TEXTURE_COMPARE_MODE_EXT'
+    'body': 'GL_TEXTURE_COMPARE_MODE_EXT'
+  'GL_TEXTURE_COORD_ARRAY (32888)':
+    'prefix': 'GL_TEXTURE_COORD_ARRAY'
+    'body': 'GL_TEXTURE_COORD_ARRAY'
+  'GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING (34970)':
+    'prefix': 'GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING'
+    'body': 'GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING'
+  'GL_TEXTURE_COORD_ARRAY_POINTER (32914)':
+    'prefix': 'GL_TEXTURE_COORD_ARRAY_POINTER'
+    'body': 'GL_TEXTURE_COORD_ARRAY_POINTER'
+  'GL_TEXTURE_COORD_ARRAY_SIZE (32904)':
+    'prefix': 'GL_TEXTURE_COORD_ARRAY_SIZE'
+    'body': 'GL_TEXTURE_COORD_ARRAY_SIZE'
+  'GL_TEXTURE_COORD_ARRAY_STRIDE (32906)':
+    'prefix': 'GL_TEXTURE_COORD_ARRAY_STRIDE'
+    'body': 'GL_TEXTURE_COORD_ARRAY_STRIDE'
+  'GL_TEXTURE_COORD_ARRAY_TYPE (32905)':
+    'prefix': 'GL_TEXTURE_COORD_ARRAY_TYPE'
+    'body': 'GL_TEXTURE_COORD_ARRAY_TYPE'
+  'GL_TEXTURE_CROP_RECT_OES (35741)':
+    'prefix': 'GL_TEXTURE_CROP_RECT_OES'
+    'body': 'GL_TEXTURE_CROP_RECT_OES'
+  'GL_TEXTURE_CUBE_MAP (34067)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP'
+    'body': 'GL_TEXTURE_CUBE_MAP'
+  'GL_TEXTURE_CUBE_MAP_NEGATIVE_X (34070)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP_NEGATIVE_X'
+    'body': 'GL_TEXTURE_CUBE_MAP_NEGATIVE_X'
+  'GL_TEXTURE_CUBE_MAP_NEGATIVE_Y (34072)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP_NEGATIVE_Y'
+    'body': 'GL_TEXTURE_CUBE_MAP_NEGATIVE_Y'
+  'GL_TEXTURE_CUBE_MAP_NEGATIVE_Z (34074)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP_NEGATIVE_Z'
+    'body': 'GL_TEXTURE_CUBE_MAP_NEGATIVE_Z'
+  'GL_TEXTURE_CUBE_MAP_POSITIVE_X (34069)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP_POSITIVE_X'
+    'body': 'GL_TEXTURE_CUBE_MAP_POSITIVE_X'
+  'GL_TEXTURE_CUBE_MAP_POSITIVE_Y (34071)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP_POSITIVE_Y'
+    'body': 'GL_TEXTURE_CUBE_MAP_POSITIVE_Y'
+  'GL_TEXTURE_CUBE_MAP_POSITIVE_Z (34073)':
+    'prefix': 'GL_TEXTURE_CUBE_MAP_POSITIVE_Z'
+    'body': 'GL_TEXTURE_CUBE_MAP_POSITIVE_Z'
+  'GL_TEXTURE_ENV (8960)':
+    'prefix': 'GL_TEXTURE_ENV'
+    'body': 'GL_TEXTURE_ENV'
+  'GL_TEXTURE_ENV_COLOR (8705)':
+    'prefix': 'GL_TEXTURE_ENV_COLOR'
+    'body': 'GL_TEXTURE_ENV_COLOR'
+  'GL_TEXTURE_ENV_MODE (8704)':
+    'prefix': 'GL_TEXTURE_ENV_MODE'
+    'body': 'GL_TEXTURE_ENV_MODE'
+  'GL_TEXTURE_FILTER_CONTROL_EXT (34048)':
+    'prefix': 'GL_TEXTURE_FILTER_CONTROL_EXT'
+    'body': 'GL_TEXTURE_FILTER_CONTROL_EXT'
+  'GL_TEXTURE_IMMUTABLE_FORMAT (37167)':
+    'prefix': 'GL_TEXTURE_IMMUTABLE_FORMAT'
+    'body': 'GL_TEXTURE_IMMUTABLE_FORMAT'
+  'GL_TEXTURE_IMMUTABLE_FORMAT_EXT (37167)':
+    'prefix': 'GL_TEXTURE_IMMUTABLE_FORMAT_EXT'
+    'body': 'GL_TEXTURE_IMMUTABLE_FORMAT_EXT'
+  'GL_TEXTURE_IMMUTABLE_LEVELS (33503)':
+    'prefix': 'GL_TEXTURE_IMMUTABLE_LEVELS'
+    'body': 'GL_TEXTURE_IMMUTABLE_LEVELS'
+  'GL_TEXTURE_LOD_BIAS_EXT (34049)':
+    'prefix': 'GL_TEXTURE_LOD_BIAS_EXT'
+    'body': 'GL_TEXTURE_LOD_BIAS_EXT'
+  'GL_TEXTURE_MAG_FILTER (10240)':
+    'prefix': 'GL_TEXTURE_MAG_FILTER'
+    'body': 'GL_TEXTURE_MAG_FILTER'
+  'GL_TEXTURE_MATRIX (2984)':
+    'prefix': 'GL_TEXTURE_MATRIX'
+    'body': 'GL_TEXTURE_MATRIX'
+  'GL_TEXTURE_MATRIX_FLOAT_AS_INT_BITS_OES (35215)':
+    'prefix': 'GL_TEXTURE_MATRIX_FLOAT_AS_INT_BITS_OES'
+    'body': 'GL_TEXTURE_MATRIX_FLOAT_AS_INT_BITS_OES'
+  'GL_TEXTURE_MAX_ANISOTROPY_EXT (34046)':
+    'prefix': 'GL_TEXTURE_MAX_ANISOTROPY_EXT'
+    'body': 'GL_TEXTURE_MAX_ANISOTROPY_EXT'
+  'GL_TEXTURE_MAX_LEVEL (33085)':
+    'prefix': 'GL_TEXTURE_MAX_LEVEL'
+    'body': 'GL_TEXTURE_MAX_LEVEL'
+  'GL_TEXTURE_MAX_LEVEL_APPLE (33085)':
+    'prefix': 'GL_TEXTURE_MAX_LEVEL_APPLE'
+    'body': 'GL_TEXTURE_MAX_LEVEL_APPLE'
+  'GL_TEXTURE_MAX_LOD (33083)':
+    'prefix': 'GL_TEXTURE_MAX_LOD'
+    'body': 'GL_TEXTURE_MAX_LOD'
+  'GL_TEXTURE_MIN_FILTER (10241)':
+    'prefix': 'GL_TEXTURE_MIN_FILTER'
+    'body': 'GL_TEXTURE_MIN_FILTER'
+  'GL_TEXTURE_MIN_LOD (33082)':
+    'prefix': 'GL_TEXTURE_MIN_LOD'
+    'body': 'GL_TEXTURE_MIN_LOD'
+  'GL_TEXTURE_STACK_DEPTH (2981)':
+    'prefix': 'GL_TEXTURE_STACK_DEPTH'
+    'body': 'GL_TEXTURE_STACK_DEPTH'
+  'GL_TEXTURE_SWIZZLE_A (36421)':
+    'prefix': 'GL_TEXTURE_SWIZZLE_A'
+    'body': 'GL_TEXTURE_SWIZZLE_A'
+  'GL_TEXTURE_SWIZZLE_B (36420)':
+    'prefix': 'GL_TEXTURE_SWIZZLE_B'
+    'body': 'GL_TEXTURE_SWIZZLE_B'
+  'GL_TEXTURE_SWIZZLE_G (36419)':
+    'prefix': 'GL_TEXTURE_SWIZZLE_G'
+    'body': 'GL_TEXTURE_SWIZZLE_G'
+  'GL_TEXTURE_SWIZZLE_R (36418)':
+    'prefix': 'GL_TEXTURE_SWIZZLE_R'
+    'body': 'GL_TEXTURE_SWIZZLE_R'
+  'GL_TEXTURE_WRAP_R (32882)':
+    'prefix': 'GL_TEXTURE_WRAP_R'
+    'body': 'GL_TEXTURE_WRAP_R'
+  'GL_TEXTURE_WRAP_S (10242)':
+    'prefix': 'GL_TEXTURE_WRAP_S'
+    'body': 'GL_TEXTURE_WRAP_S'
+  'GL_TEXTURE_WRAP_T (10243)':
+    'prefix': 'GL_TEXTURE_WRAP_T'
+    'body': 'GL_TEXTURE_WRAP_T'
+  'GL_TIMEOUT_EXPIRED (37147)':
+    'prefix': 'GL_TIMEOUT_EXPIRED'
+    'body': 'GL_TIMEOUT_EXPIRED'
+  'GL_TIMEOUT_EXPIRED_APPLE (37147)':
+    'prefix': 'GL_TIMEOUT_EXPIRED_APPLE'
+    'body': 'GL_TIMEOUT_EXPIRED_APPLE'
+  'GL_TIMEOUT_IGNORED (18446744073709551615)':
+    'prefix': 'GL_TIMEOUT_IGNORED'
+    'body': 'GL_TIMEOUT_IGNORED'
+  'GL_TIMEOUT_IGNORED_APPLE (18446744073709551615)':
+    'prefix': 'GL_TIMEOUT_IGNORED_APPLE'
+    'body': 'GL_TIMEOUT_IGNORED_APPLE'
+  'GL_TRANSFORM_FEEDBACK (36386)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK'
+    'body': 'GL_TRANSFORM_FEEDBACK'
+  'GL_TRANSFORM_FEEDBACK_ACTIVE (36388)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_ACTIVE'
+    'body': 'GL_TRANSFORM_FEEDBACK_ACTIVE'
+  'GL_TRANSFORM_FEEDBACK_BINDING (36389)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_BINDING'
+    'body': 'GL_TRANSFORM_FEEDBACK_BINDING'
+  'GL_TRANSFORM_FEEDBACK_BUFFER (35982)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_BUFFER'
+    'body': 'GL_TRANSFORM_FEEDBACK_BUFFER'
+  'GL_TRANSFORM_FEEDBACK_BUFFER_BINDING (35983)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_BUFFER_BINDING'
+    'body': 'GL_TRANSFORM_FEEDBACK_BUFFER_BINDING'
+  'GL_TRANSFORM_FEEDBACK_BUFFER_MODE (35967)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_BUFFER_MODE'
+    'body': 'GL_TRANSFORM_FEEDBACK_BUFFER_MODE'
+  'GL_TRANSFORM_FEEDBACK_BUFFER_SIZE (35973)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_BUFFER_SIZE'
+    'body': 'GL_TRANSFORM_FEEDBACK_BUFFER_SIZE'
+  'GL_TRANSFORM_FEEDBACK_BUFFER_START (35972)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_BUFFER_START'
+    'body': 'GL_TRANSFORM_FEEDBACK_BUFFER_START'
+  'GL_TRANSFORM_FEEDBACK_PAUSED (36387)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_PAUSED'
+    'body': 'GL_TRANSFORM_FEEDBACK_PAUSED'
+  'GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN (35976)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN'
+    'body': 'GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN'
+  'GL_TRANSFORM_FEEDBACK_VARYINGS (35971)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_VARYINGS'
+    'body': 'GL_TRANSFORM_FEEDBACK_VARYINGS'
+  'GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH (35958)':
+    'prefix': 'GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH'
+    'body': 'GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH'
+  'GL_TRIANGLES (4)':
+    'prefix': 'GL_TRIANGLES'
+    'body': 'GL_TRIANGLES'
+  'GL_TRIANGLE_FAN (6)':
+    'prefix': 'GL_TRIANGLE_FAN'
+    'body': 'GL_TRIANGLE_FAN'
+  'GL_TRIANGLE_STRIP (5)':
+    'prefix': 'GL_TRIANGLE_STRIP'
+    'body': 'GL_TRIANGLE_STRIP'
+  'GL_TRUE (1)':
+    'prefix': 'GL_TRUE'
+    'body': 'GL_TRUE'
+  'GL_UNIFORM_ARRAY_STRIDE (35388)':
+    'prefix': 'GL_UNIFORM_ARRAY_STRIDE'
+    'body': 'GL_UNIFORM_ARRAY_STRIDE'
+  'GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS (35394)':
+    'prefix': 'GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS'
+    'body': 'GL_UNIFORM_BLOCK_ACTIVE_UNIFORMS'
+  'GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES (35395)':
+    'prefix': 'GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES'
+    'body': 'GL_UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES'
+  'GL_UNIFORM_BLOCK_BINDING (35391)':
+    'prefix': 'GL_UNIFORM_BLOCK_BINDING'
+    'body': 'GL_UNIFORM_BLOCK_BINDING'
+  'GL_UNIFORM_BLOCK_DATA_SIZE (35392)':
+    'prefix': 'GL_UNIFORM_BLOCK_DATA_SIZE'
+    'body': 'GL_UNIFORM_BLOCK_DATA_SIZE'
+  'GL_UNIFORM_BLOCK_INDEX (35386)':
+    'prefix': 'GL_UNIFORM_BLOCK_INDEX'
+    'body': 'GL_UNIFORM_BLOCK_INDEX'
+  'GL_UNIFORM_BLOCK_NAME_LENGTH (35393)':
+    'prefix': 'GL_UNIFORM_BLOCK_NAME_LENGTH'
+    'body': 'GL_UNIFORM_BLOCK_NAME_LENGTH'
+  'GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER (35398)':
+    'prefix': 'GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER'
+    'body': 'GL_UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER'
+  'GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER (35396)':
+    'prefix': 'GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER'
+    'body': 'GL_UNIFORM_BLOCK_REFERENCED_BY_VERTEX_SHADER'
+  'GL_UNIFORM_BUFFER (35345)':
+    'prefix': 'GL_UNIFORM_BUFFER'
+    'body': 'GL_UNIFORM_BUFFER'
+  'GL_UNIFORM_BUFFER_BINDING (35368)':
+    'prefix': 'GL_UNIFORM_BUFFER_BINDING'
+    'body': 'GL_UNIFORM_BUFFER_BINDING'
+  'GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT (35380)':
+    'prefix': 'GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT'
+    'body': 'GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT'
+  'GL_UNIFORM_BUFFER_SIZE (35370)':
+    'prefix': 'GL_UNIFORM_BUFFER_SIZE'
+    'body': 'GL_UNIFORM_BUFFER_SIZE'
+  'GL_UNIFORM_BUFFER_START (35369)':
+    'prefix': 'GL_UNIFORM_BUFFER_START'
+    'body': 'GL_UNIFORM_BUFFER_START'
+  'GL_UNIFORM_IS_ROW_MAJOR (35390)':
+    'prefix': 'GL_UNIFORM_IS_ROW_MAJOR'
+    'body': 'GL_UNIFORM_IS_ROW_MAJOR'
+  'GL_UNIFORM_MATRIX_STRIDE (35389)':
+    'prefix': 'GL_UNIFORM_MATRIX_STRIDE'
+    'body': 'GL_UNIFORM_MATRIX_STRIDE'
+  'GL_UNIFORM_NAME_LENGTH (35385)':
+    'prefix': 'GL_UNIFORM_NAME_LENGTH'
+    'body': 'GL_UNIFORM_NAME_LENGTH'
+  'GL_UNIFORM_OFFSET (35387)':
+    'prefix': 'GL_UNIFORM_OFFSET'
+    'body': 'GL_UNIFORM_OFFSET'
+  'GL_UNIFORM_SIZE (35384)':
+    'prefix': 'GL_UNIFORM_SIZE'
+    'body': 'GL_UNIFORM_SIZE'
+  'GL_UNIFORM_TYPE (35383)':
+    'prefix': 'GL_UNIFORM_TYPE'
+    'body': 'GL_UNIFORM_TYPE'
+  'GL_UNPACK_ALIGNMENT (3317)':
+    'prefix': 'GL_UNPACK_ALIGNMENT'
+    'body': 'GL_UNPACK_ALIGNMENT'
+  'GL_UNPACK_IMAGE_HEIGHT (32878)':
+    'prefix': 'GL_UNPACK_IMAGE_HEIGHT'
+    'body': 'GL_UNPACK_IMAGE_HEIGHT'
+  'GL_UNPACK_ROW_LENGTH (3314)':
+    'prefix': 'GL_UNPACK_ROW_LENGTH'
+    'body': 'GL_UNPACK_ROW_LENGTH'
+  'GL_UNPACK_SKIP_IMAGES (32877)':
+    'prefix': 'GL_UNPACK_SKIP_IMAGES'
+    'body': 'GL_UNPACK_SKIP_IMAGES'
+  'GL_UNPACK_SKIP_PIXELS (3316)':
+    'prefix': 'GL_UNPACK_SKIP_PIXELS'
+    'body': 'GL_UNPACK_SKIP_PIXELS'
+  'GL_UNPACK_SKIP_ROWS (3315)':
+    'prefix': 'GL_UNPACK_SKIP_ROWS'
+    'body': 'GL_UNPACK_SKIP_ROWS'
+  'GL_UNSIGNALED (37144)':
+    'prefix': 'GL_UNSIGNALED'
+    'body': 'GL_UNSIGNALED'
+  'GL_UNSIGNALED_APPLE (37144)':
+    'prefix': 'GL_UNSIGNALED_APPLE'
+    'body': 'GL_UNSIGNALED_APPLE'
+  'GL_UNSIGNED_BYTE (5121)':
+    'prefix': 'GL_UNSIGNED_BYTE'
+    'body': 'GL_UNSIGNED_BYTE'
+  'GL_UNSIGNED_INT (5125)':
+    'prefix': 'GL_UNSIGNED_INT'
+    'body': 'GL_UNSIGNED_INT'
+  'GL_UNSIGNED_INT_10F_11F_11F_REV (35899)':
+    'prefix': 'GL_UNSIGNED_INT_10F_11F_11F_REV'
+    'body': 'GL_UNSIGNED_INT_10F_11F_11F_REV'
+  'GL_UNSIGNED_INT_24_8 (34042)':
+    'prefix': 'GL_UNSIGNED_INT_24_8'
+    'body': 'GL_UNSIGNED_INT_24_8'
+  'GL_UNSIGNED_INT_24_8_OES (34042)':
+    'prefix': 'GL_UNSIGNED_INT_24_8_OES'
+    'body': 'GL_UNSIGNED_INT_24_8_OES'
+  'GL_UNSIGNED_INT_2_10_10_10_REV (33640)':
+    'prefix': 'GL_UNSIGNED_INT_2_10_10_10_REV'
+    'body': 'GL_UNSIGNED_INT_2_10_10_10_REV'
+  'GL_UNSIGNED_INT_5_9_9_9_REV (35902)':
+    'prefix': 'GL_UNSIGNED_INT_5_9_9_9_REV'
+    'body': 'GL_UNSIGNED_INT_5_9_9_9_REV'
+  'GL_UNSIGNED_INT_OES (5125)':
+    'prefix': 'GL_UNSIGNED_INT_OES'
+    'body': 'GL_UNSIGNED_INT_OES'
+  'GL_UNSIGNED_INT_SAMPLER_2D (36306)':
+    'prefix': 'GL_UNSIGNED_INT_SAMPLER_2D'
+    'body': 'GL_UNSIGNED_INT_SAMPLER_2D'
+  'GL_UNSIGNED_INT_SAMPLER_2D_ARRAY (36311)':
+    'prefix': 'GL_UNSIGNED_INT_SAMPLER_2D_ARRAY'
+    'body': 'GL_UNSIGNED_INT_SAMPLER_2D_ARRAY'
+  'GL_UNSIGNED_INT_SAMPLER_3D (36307)':
+    'prefix': 'GL_UNSIGNED_INT_SAMPLER_3D'
+    'body': 'GL_UNSIGNED_INT_SAMPLER_3D'
+  'GL_UNSIGNED_INT_SAMPLER_CUBE (36308)':
+    'prefix': 'GL_UNSIGNED_INT_SAMPLER_CUBE'
+    'body': 'GL_UNSIGNED_INT_SAMPLER_CUBE'
+  'GL_UNSIGNED_INT_VEC2 (36294)':
+    'prefix': 'GL_UNSIGNED_INT_VEC2'
+    'body': 'GL_UNSIGNED_INT_VEC2'
+  'GL_UNSIGNED_INT_VEC3 (36295)':
+    'prefix': 'GL_UNSIGNED_INT_VEC3'
+    'body': 'GL_UNSIGNED_INT_VEC3'
+  'GL_UNSIGNED_INT_VEC4 (36296)':
+    'prefix': 'GL_UNSIGNED_INT_VEC4'
+    'body': 'GL_UNSIGNED_INT_VEC4'
+  'GL_UNSIGNED_NORMALIZED (35863)':
+    'prefix': 'GL_UNSIGNED_NORMALIZED'
+    'body': 'GL_UNSIGNED_NORMALIZED'
+  'GL_UNSIGNED_NORMALIZED_EXT (35863)':
+    'prefix': 'GL_UNSIGNED_NORMALIZED_EXT'
+    'body': 'GL_UNSIGNED_NORMALIZED_EXT'
+  'GL_UNSIGNED_SHORT (5123)':
+    'prefix': 'GL_UNSIGNED_SHORT'
+    'body': 'GL_UNSIGNED_SHORT'
+  'GL_UNSIGNED_SHORT_1_5_5_5_REV (33638)':
+    'prefix': 'GL_UNSIGNED_SHORT_1_5_5_5_REV'
+    'body': 'GL_UNSIGNED_SHORT_1_5_5_5_REV'
+  'GL_UNSIGNED_SHORT_1_5_5_5_REV_EXT (33638)':
+    'prefix': 'GL_UNSIGNED_SHORT_1_5_5_5_REV_EXT'
+    'body': 'GL_UNSIGNED_SHORT_1_5_5_5_REV_EXT'
+  'GL_UNSIGNED_SHORT_4_4_4_4 (32819)':
+    'prefix': 'GL_UNSIGNED_SHORT_4_4_4_4'
+    'body': 'GL_UNSIGNED_SHORT_4_4_4_4'
+  'GL_UNSIGNED_SHORT_4_4_4_4_REV (33637)':
+    'prefix': 'GL_UNSIGNED_SHORT_4_4_4_4_REV'
+    'body': 'GL_UNSIGNED_SHORT_4_4_4_4_REV'
+  'GL_UNSIGNED_SHORT_4_4_4_4_REV_EXT (33637)':
+    'prefix': 'GL_UNSIGNED_SHORT_4_4_4_4_REV_EXT'
+    'body': 'GL_UNSIGNED_SHORT_4_4_4_4_REV_EXT'
+  'GL_UNSIGNED_SHORT_4_4_4_4_REV_IMG (33637)':
+    'prefix': 'GL_UNSIGNED_SHORT_4_4_4_4_REV_IMG'
+    'body': 'GL_UNSIGNED_SHORT_4_4_4_4_REV_IMG'
+  'GL_UNSIGNED_SHORT_5_5_5_1 (32820)':
+    'prefix': 'GL_UNSIGNED_SHORT_5_5_5_1'
+    'body': 'GL_UNSIGNED_SHORT_5_5_5_1'
+  'GL_UNSIGNED_SHORT_5_6_5 (33635)':
+    'prefix': 'GL_UNSIGNED_SHORT_5_6_5'
+    'body': 'GL_UNSIGNED_SHORT_5_6_5'
+  'GL_UNSIGNED_SHORT_8_8_APPLE (34234)':
+    'prefix': 'GL_UNSIGNED_SHORT_8_8_APPLE'
+    'body': 'GL_UNSIGNED_SHORT_8_8_APPLE'
+  'GL_UNSIGNED_SHORT_8_8_REV_APPLE (34235)':
+    'prefix': 'GL_UNSIGNED_SHORT_8_8_REV_APPLE'
+    'body': 'GL_UNSIGNED_SHORT_8_8_REV_APPLE'
+  'GL_VALIDATE_STATUS (35715)':
+    'prefix': 'GL_VALIDATE_STATUS'
+    'body': 'GL_VALIDATE_STATUS'
+  'GL_VENDOR (7936)':
+    'prefix': 'GL_VENDOR'
+    'body': 'GL_VENDOR'
+  'GL_VERSION (7938)':
+    'prefix': 'GL_VERSION'
+    'body': 'GL_VERSION'
+  'GL_VERSION_ES_CL_1_0 (1)':
+    'prefix': 'GL_VERSION_ES_CL_1_0'
+    'body': 'GL_VERSION_ES_CL_1_0'
+  'GL_VERSION_ES_CL_1_1 (1)':
+    'prefix': 'GL_VERSION_ES_CL_1_1'
+    'body': 'GL_VERSION_ES_CL_1_1'
+  'GL_VERSION_ES_CM_1_0 (1)':
+    'prefix': 'GL_VERSION_ES_CM_1_0'
+    'body': 'GL_VERSION_ES_CM_1_0'
+  'GL_VERSION_ES_CM_1_1 (1)':
+    'prefix': 'GL_VERSION_ES_CM_1_1'
+    'body': 'GL_VERSION_ES_CM_1_1'
+  'GL_VERTEX_ARRAY (32884)':
+    'prefix': 'GL_VERTEX_ARRAY'
+    'body': 'GL_VERTEX_ARRAY'
+  'GL_VERTEX_ARRAY_BINDING (34229)':
+    'prefix': 'GL_VERTEX_ARRAY_BINDING'
+    'body': 'GL_VERTEX_ARRAY_BINDING'
+  'GL_VERTEX_ARRAY_BINDING_OES (34229)':
+    'prefix': 'GL_VERTEX_ARRAY_BINDING_OES'
+    'body': 'GL_VERTEX_ARRAY_BINDING_OES'
+  'GL_VERTEX_ARRAY_BUFFER_BINDING (34966)':
+    'prefix': 'GL_VERTEX_ARRAY_BUFFER_BINDING'
+    'body': 'GL_VERTEX_ARRAY_BUFFER_BINDING'
+  'GL_VERTEX_ARRAY_OBJECT_EXT (37204)':
+    'prefix': 'GL_VERTEX_ARRAY_OBJECT_EXT'
+    'body': 'GL_VERTEX_ARRAY_OBJECT_EXT'
+  'GL_VERTEX_ARRAY_POINTER (32910)':
+    'prefix': 'GL_VERTEX_ARRAY_POINTER'
+    'body': 'GL_VERTEX_ARRAY_POINTER'
+  'GL_VERTEX_ARRAY_SIZE (32890)':
+    'prefix': 'GL_VERTEX_ARRAY_SIZE'
+    'body': 'GL_VERTEX_ARRAY_SIZE'
+  'GL_VERTEX_ARRAY_STRIDE (32892)':
+    'prefix': 'GL_VERTEX_ARRAY_STRIDE'
+    'body': 'GL_VERTEX_ARRAY_STRIDE'
+  'GL_VERTEX_ARRAY_TYPE (32891)':
+    'prefix': 'GL_VERTEX_ARRAY_TYPE'
+    'body': 'GL_VERTEX_ARRAY_TYPE'
+  'GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING (34975)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING'
+  'GL_VERTEX_ATTRIB_ARRAY_DIVISOR (35070)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_DIVISOR'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_DIVISOR'
+  'GL_VERTEX_ATTRIB_ARRAY_DIVISOR_EXT (35070)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_DIVISOR_EXT'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_DIVISOR_EXT'
+  'GL_VERTEX_ATTRIB_ARRAY_ENABLED (34338)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_ENABLED'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_ENABLED'
+  'GL_VERTEX_ATTRIB_ARRAY_INTEGER (35069)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_INTEGER'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_INTEGER'
+  'GL_VERTEX_ATTRIB_ARRAY_NORMALIZED (34922)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_NORMALIZED'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_NORMALIZED'
+  'GL_VERTEX_ATTRIB_ARRAY_POINTER (34373)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_POINTER'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_POINTER'
+  'GL_VERTEX_ATTRIB_ARRAY_SIZE (34339)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_SIZE'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_SIZE'
+  'GL_VERTEX_ATTRIB_ARRAY_STRIDE (34340)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_STRIDE'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_STRIDE'
+  'GL_VERTEX_ATTRIB_ARRAY_TYPE (34341)':
+    'prefix': 'GL_VERTEX_ATTRIB_ARRAY_TYPE'
+    'body': 'GL_VERTEX_ATTRIB_ARRAY_TYPE'
+  'GL_VERTEX_SHADER (35633)':
+    'prefix': 'GL_VERTEX_SHADER'
+    'body': 'GL_VERTEX_SHADER'
+  'GL_VERTEX_SHADER_BIT_EXT (1)':
+    'prefix': 'GL_VERTEX_SHADER_BIT_EXT'
+    'body': 'GL_VERTEX_SHADER_BIT_EXT'
+  'GL_VIEWPORT (2978)':
+    'prefix': 'GL_VIEWPORT'
+    'body': 'GL_VIEWPORT'
+  'GL_WAIT_FAILED (37149)':
+    'prefix': 'GL_WAIT_FAILED'
+    'body': 'GL_WAIT_FAILED'
+  'GL_WAIT_FAILED_APPLE (37149)':
+    'prefix': 'GL_WAIT_FAILED_APPLE'
+    'body': 'GL_WAIT_FAILED_APPLE'
+  'GL_WEIGHT_ARRAY_BUFFER_BINDING_OES (34974)':
+    'prefix': 'GL_WEIGHT_ARRAY_BUFFER_BINDING_OES'
+    'body': 'GL_WEIGHT_ARRAY_BUFFER_BINDING_OES'
+  'GL_WEIGHT_ARRAY_OES (34477)':
+    'prefix': 'GL_WEIGHT_ARRAY_OES'
+    'body': 'GL_WEIGHT_ARRAY_OES'
+  'GL_WEIGHT_ARRAY_POINTER_OES (34476)':
+    'prefix': 'GL_WEIGHT_ARRAY_POINTER_OES'
+    'body': 'GL_WEIGHT_ARRAY_POINTER_OES'
+  'GL_WEIGHT_ARRAY_SIZE_OES (34475)':
+    'prefix': 'GL_WEIGHT_ARRAY_SIZE_OES'
+    'body': 'GL_WEIGHT_ARRAY_SIZE_OES'
+  'GL_WEIGHT_ARRAY_STRIDE_OES (34474)':
+    'prefix': 'GL_WEIGHT_ARRAY_STRIDE_OES'
+    'body': 'GL_WEIGHT_ARRAY_STRIDE_OES'
+  'GL_WEIGHT_ARRAY_TYPE_OES (34473)':
+    'prefix': 'GL_WEIGHT_ARRAY_TYPE_OES'
+    'body': 'GL_WEIGHT_ARRAY_TYPE_OES'
+  'GL_WRITE_ONLY_OES (35001)':
+    'prefix': 'GL_WRITE_ONLY_OES'
+    'body': 'GL_WRITE_ONLY_OES'
+  'GL_XOR (5382)':
+    'prefix': 'GL_XOR'
+    'body': 'GL_XOR'
+  'GL_ZERO (0)':
+    'prefix': 'GL_ZERO'
+    'body': 'GL_ZERO'
+  'kEAGLRenderingAPIOpenGLES1 (1)':
+    'prefix': 'kEAGLRenderingAPIOpenGLES1'
+    'body': 'KEAGLRenderingAPIOpenGLES1'
+  'kEAGLRenderingAPIOpenGLES2 (2)':
+    'prefix': 'kEAGLRenderingAPIOpenGLES2'
+    'body': 'KEAGLRenderingAPIOpenGLES2'
+  'kEAGLRenderingAPIOpenGLES3 (3)':
+    'prefix': 'kEAGLRenderingAPIOpenGLES3'
+    'body': 'KEAGLRenderingAPIOpenGLES3'
+  'EAGLGetVersion':
+    'prefix': 'EAGLGetVersion'
+    'body': 'EAGLGetVersion(${1:unsigned int* major}, ${2:unsigned int* minor})'
+  'glActiveShaderProgramEXT':
+    'prefix': 'glActiveShaderProgramEXT'
+    'body': 'glActiveShaderProgramEXT(${1:GLuint pipeline}, ${2:GLuint program})'
+  'glActiveTexture':
+    'prefix': 'glActiveTexture'
+    'body': 'glActiveTexture(${1:GLenum texture})'
+  'glAlphaFunc':
+    'prefix': 'glAlphaFunc'
+    'body': 'glAlphaFunc(${1:GLenum func}, ${2:GLclampf ref})'
+  'glAlphaFuncx':
+    'prefix': 'glAlphaFuncx'
+    'body': 'glAlphaFuncx(${1:GLenum func}, ${2:GLclampx ref})'
+  'glAttachShader':
+    'prefix': 'glAttachShader'
+    'body': 'glAttachShader(${1:GLuint program}, ${2:GLuint shader})'
+  'glBeginQuery':
+    'prefix': 'glBeginQuery'
+    'body': 'glBeginQuery(${1:GLenum target}, ${2:GLuint id})'
+  'glBeginQueryEXT':
+    'prefix': 'glBeginQueryEXT'
+    'body': 'glBeginQueryEXT(${1:GLenum target}, ${2:GLuint id})'
+  'glBeginTransformFeedback':
+    'prefix': 'glBeginTransformFeedback'
+    'body': 'glBeginTransformFeedback(${1:GLenum primitiveMode})'
+  'glBindAttribLocation':
+    'prefix': 'glBindAttribLocation'
+    'body': 'glBindAttribLocation(${1:GLuint program}, ${2:GLuint index}, ${3:GLchar* name})'
+  'glBindBuffer':
+    'prefix': 'glBindBuffer'
+    'body': 'glBindBuffer(${1:GLenum target}, ${2:GLuint buffer})'
+  'glBindBufferBase':
+    'prefix': 'glBindBufferBase'
+    'body': 'glBindBufferBase(${1:GLenum target}, ${2:GLuint index}, ${3:GLuint buffer})'
+  'glBindBufferRange':
+    'prefix': 'glBindBufferRange'
+    'body': 'glBindBufferRange(${1:GLenum target}, ${2:GLuint index}, ${3:GLuint buffer}, ${4:GLintptr offset}, ${5:GLsizeiptr size})'
+  'glBindFramebuffer':
+    'prefix': 'glBindFramebuffer'
+    'body': 'glBindFramebuffer(${1:GLenum target}, ${2:GLuint framebuffer})'
+  'glBindFramebufferOES':
+    'prefix': 'glBindFramebufferOES'
+    'body': 'glBindFramebufferOES(${1:GLenum target}, ${2:GLuint framebuffer})'
+  'glBindProgramPipelineEXT':
+    'prefix': 'glBindProgramPipelineEXT'
+    'body': 'glBindProgramPipelineEXT(${1:GLuint pipeline})'
+  'glBindRenderbuffer':
+    'prefix': 'glBindRenderbuffer'
+    'body': 'glBindRenderbuffer(${1:GLenum target}, ${2:GLuint renderbuffer})'
+  'glBindRenderbufferOES':
+    'prefix': 'glBindRenderbufferOES'
+    'body': 'glBindRenderbufferOES(${1:GLenum target}, ${2:GLuint renderbuffer})'
+  'glBindSampler':
+    'prefix': 'glBindSampler'
+    'body': 'glBindSampler(${1:GLuint unit}, ${2:GLuint sampler})'
+  'glBindTexture':
+    'prefix': 'glBindTexture'
+    'body': 'glBindTexture(${1:GLenum target}, ${2:GLuint texture})'
+  'glBindTransformFeedback':
+    'prefix': 'glBindTransformFeedback'
+    'body': 'glBindTransformFeedback(${1:GLenum target}, ${2:GLuint id})'
+  'glBindVertexArray':
+    'prefix': 'glBindVertexArray'
+    'body': 'glBindVertexArray(${1:GLuint array})'
+  'glBindVertexArrayOES':
+    'prefix': 'glBindVertexArrayOES'
+    'body': 'glBindVertexArrayOES(${1:GLuint array})'
+  'glBlendColor':
+    'prefix': 'glBlendColor'
+    'body': 'glBlendColor(${1:GLfloat red}, ${2:GLfloat green}, ${3:GLfloat blue}, ${4:GLfloat alpha})'
+  'glBlendEquation':
+    'prefix': 'glBlendEquation'
+    'body': 'glBlendEquation(${1:GLenum mode})'
+  'glBlendEquationOES':
+    'prefix': 'glBlendEquationOES'
+    'body': 'glBlendEquationOES(${1:GLenum mode})'
+  'glBlendEquationSeparate':
+    'prefix': 'glBlendEquationSeparate'
+    'body': 'glBlendEquationSeparate(${1:GLenum modeRGB}, ${2:GLenum modeAlpha})'
+  'glBlendEquationSeparateOES':
+    'prefix': 'glBlendEquationSeparateOES'
+    'body': 'glBlendEquationSeparateOES(${1:GLenum modeRGB}, ${2:GLenum modeAlpha})'
+  'glBlendFunc':
+    'prefix': 'glBlendFunc'
+    'body': 'glBlendFunc(${1:GLenum sfactor}, ${2:GLenum dfactor})'
+  'glBlendFuncSeparate':
+    'prefix': 'glBlendFuncSeparate'
+    'body': 'glBlendFuncSeparate(${1:GLenum srcRGB}, ${2:GLenum dstRGB}, ${3:GLenum srcAlpha}, ${4:GLenum dstAlpha})'
+  'glBlendFuncSeparateOES':
+    'prefix': 'glBlendFuncSeparateOES'
+    'body': 'glBlendFuncSeparateOES(${1:GLenum srcRGB}, ${2:GLenum dstRGB}, ${3:GLenum srcAlpha}, ${4:GLenum dstAlpha})'
+  'glBlitFramebuffer':
+    'prefix': 'glBlitFramebuffer'
+    'body': 'glBlitFramebuffer(${1:GLint srcX0}, ${2:GLint srcY0}, ${3:GLint srcX1}, ${4:GLint srcY1}, ${5:GLint dstX0}, ${6:GLint dstY0}, ${7:GLint dstX1}, ${8:GLint dstY1}, ${9:GLbitfield mask}, ${10:GLenum filter})'
+  'glBufferData':
+    'prefix': 'glBufferData'
+    'body': 'glBufferData(${1:GLenum target}, ${2:GLsizeiptr size}, ${3:GLvoid* data}, ${4:GLenum usage})'
+  'glBufferSubData':
+    'prefix': 'glBufferSubData'
+    'body': 'glBufferSubData(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr size}, ${4:GLvoid* data})'
+  'glCheckFramebufferStatus':
+    'prefix': 'glCheckFramebufferStatus'
+    'body': 'glCheckFramebufferStatus(${1:GLenum target})'
+  'glCheckFramebufferStatusOES':
+    'prefix': 'glCheckFramebufferStatusOES'
+    'body': 'glCheckFramebufferStatusOES(${1:GLenum target})'
+  'glClear':
+    'prefix': 'glClear'
+    'body': 'glClear(${1:GLbitfield mask})'
+  'glClearBufferfi':
+    'prefix': 'glClearBufferfi'
+    'body': 'glClearBufferfi(${1:GLenum buffer}, ${2:GLint drawbuffer}, ${3:GLfloat depth}, ${4:GLint stencil})'
+  'glClearBufferfv':
+    'prefix': 'glClearBufferfv'
+    'body': 'glClearBufferfv(${1:GLenum buffer}, ${2:GLint drawbuffer}, ${3:GLfloat* value})'
+  'glClearBufferiv':
+    'prefix': 'glClearBufferiv'
+    'body': 'glClearBufferiv(${1:GLenum buffer}, ${2:GLint drawbuffer}, ${3:GLint* value})'
+  'glClearBufferuiv':
+    'prefix': 'glClearBufferuiv'
+    'body': 'glClearBufferuiv(${1:GLenum buffer}, ${2:GLint drawbuffer}, ${3:GLuint* value})'
+  'glClearColor':
+    'prefix': 'glClearColor'
+    'body': 'glClearColor(${1:GLfloat red}, ${2:GLfloat green}, ${3:GLfloat blue}, ${4:GLfloat alpha})'
+  'glClearColorx':
+    'prefix': 'glClearColorx'
+    'body': 'glClearColorx(${1:GLclampx red}, ${2:GLclampx green}, ${3:GLclampx blue}, ${4:GLclampx alpha})'
+  'glClearDepthf':
+    'prefix': 'glClearDepthf'
+    'body': 'glClearDepthf(${1:GLclampf depth})'
+  'glClearDepthx':
+    'prefix': 'glClearDepthx'
+    'body': 'glClearDepthx(${1:GLclampx depth})'
+  'glClearStencil':
+    'prefix': 'glClearStencil'
+    'body': 'glClearStencil(${1:GLint s})'
+  'glClientActiveTexture':
+    'prefix': 'glClientActiveTexture'
+    'body': 'glClientActiveTexture(${1:GLenum texture})'
+  'glClientWaitSync':
+    'prefix': 'glClientWaitSync'
+    'body': 'glClientWaitSync(${1:GLsync sync}, ${2:GLbitfield flags}, ${3:GLuint64 timeout})'
+  'glClientWaitSyncAPPLE':
+    'prefix': 'glClientWaitSyncAPPLE'
+    'body': 'glClientWaitSyncAPPLE(${1:GLsync sync}, ${2:GLbitfield flags}, ${3:GLuint64 timeout})'
+  'glClipPlanef':
+    'prefix': 'glClipPlanef'
+    'body': 'glClipPlanef(${1:GLenum plane}, ${2:GLfloat* equation})'
+  'glClipPlanex':
+    'prefix': 'glClipPlanex'
+    'body': 'glClipPlanex(${1:GLenum plane}, ${2:GLfixed* equation})'
+  'glColor4f':
+    'prefix': 'glColor4f'
+    'body': 'glColor4f(${1:GLfloat red}, ${2:GLfloat green}, ${3:GLfloat blue}, ${4:GLfloat alpha})'
+  'glColor4ub':
+    'prefix': 'glColor4ub'
+    'body': 'glColor4ub(${1:GLubyte red}, ${2:GLubyte green}, ${3:GLubyte blue}, ${4:GLubyte alpha})'
+  'glColor4x':
+    'prefix': 'glColor4x'
+    'body': 'glColor4x(${1:GLfixed red}, ${2:GLfixed green}, ${3:GLfixed blue}, ${4:GLfixed alpha})'
+  'glColorMask':
+    'prefix': 'glColorMask'
+    'body': 'glColorMask(${1:GLboolean red}, ${2:GLboolean green}, ${3:GLboolean blue}, ${4:GLboolean alpha})'
+  'glColorPointer':
+    'prefix': 'glColorPointer'
+    'body': 'glColorPointer(${1:GLint size}, ${2:GLenum type}, ${3:GLsizei stride}, ${4:GLvoid* pointer})'
+  'glCompileShader':
+    'prefix': 'glCompileShader'
+    'body': 'glCompileShader(${1:GLuint shader})'
+  'glCompressedTexImage2D':
+    'prefix': 'glCompressedTexImage2D'
+    'body': 'glCompressedTexImage2D(${1:GLenum target}, ${2:GLint level}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height}, ${6:GLint border}, ${7:GLsizei imageSize}, ${8:GLvoid* data})'
+  'glCompressedTexImage3D':
+    'prefix': 'glCompressedTexImage3D'
+    'body': 'glCompressedTexImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height}, ${6:GLsizei depth}, ${7:GLint border}, ${8:GLsizei imageSize}, ${9:GLvoid* data})'
+  'glCompressedTexSubImage2D':
+    'prefix': 'glCompressedTexSubImage2D'
+    'body': 'glCompressedTexSubImage2D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLsizei width}, ${6:GLsizei height}, ${7:GLenum format}, ${8:GLsizei imageSize}, ${9:GLvoid* data})'
+  'glCompressedTexSubImage3D':
+    'prefix': 'glCompressedTexSubImage3D'
+    'body': 'glCompressedTexSubImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLint zoffset}, ${6:GLsizei width}, ${7:GLsizei height}, ${8:GLsizei depth}, ${9:GLenum format}, ${10:GLsizei imageSize}, ${11:GLvoid* data})'
+  'glCopyBufferSubData':
+    'prefix': 'glCopyBufferSubData'
+    'body': 'glCopyBufferSubData(${1:GLenum readTarget}, ${2:GLenum writeTarget}, ${3:GLintptr readOffset}, ${4:GLintptr writeOffset}, ${5:GLsizeiptr size})'
+  'glCopyTexImage2D':
+    'prefix': 'glCopyTexImage2D'
+    'body': 'glCopyTexImage2D(${1:GLenum target}, ${2:GLint level}, ${3:GLenum internalformat}, ${4:GLint x}, ${5:GLint y}, ${6:GLsizei width}, ${7:GLsizei height}, ${8:GLint border})'
+  'glCopyTexSubImage2D':
+    'prefix': 'glCopyTexSubImage2D'
+    'body': 'glCopyTexSubImage2D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLint x}, ${6:GLint y}, ${7:GLsizei width}, ${8:GLsizei height})'
+  'glCopyTexSubImage3D':
+    'prefix': 'glCopyTexSubImage3D'
+    'body': 'glCopyTexSubImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLint zoffset}, ${6:GLint x}, ${7:GLint y}, ${8:GLsizei width}, ${9:GLsizei height})'
+  'glCopyTextureLevelsAPPLE':
+    'prefix': 'glCopyTextureLevelsAPPLE'
+    'body': 'glCopyTextureLevelsAPPLE(${1:GLuint destinationTexture}, ${2:GLuint sourceTexture}, ${3:GLint sourceBaseLevel}, ${4:GLsizei sourceLevelCount})'
+  'glCreateProgram':
+    'prefix': 'glCreateProgram'
+    'body': 'glCreateProgram()'
+  'glCreateShader':
+    'prefix': 'glCreateShader'
+    'body': 'glCreateShader(${1:GLenum type})'
+  'glCreateShaderProgramvEXT':
+    'prefix': 'glCreateShaderProgramvEXT'
+    'body': 'glCreateShaderProgramvEXT(${1:GLenum type}, ${2:GLsizei count}, ${3:GLchar ** strings})'
+  'glCullFace':
+    'prefix': 'glCullFace'
+    'body': 'glCullFace(${1:GLenum mode})'
+  'glCurrentPaletteMatrixOES':
+    'prefix': 'glCurrentPaletteMatrixOES'
+    'body': 'glCurrentPaletteMatrixOES(${1:GLuint matrixpaletteindex})'
+  'glDeleteBuffers':
+    'prefix': 'glDeleteBuffers'
+    'body': 'glDeleteBuffers(${1:GLsizei n}, ${2:GLuint* buffers})'
+  'glDeleteFramebuffers':
+    'prefix': 'glDeleteFramebuffers'
+    'body': 'glDeleteFramebuffers(${1:GLsizei n}, ${2:GLuint* framebuffers})'
+  'glDeleteFramebuffersOES':
+    'prefix': 'glDeleteFramebuffersOES'
+    'body': 'glDeleteFramebuffersOES(${1:GLsizei n}, ${2:GLuint* framebuffers})'
+  'glDeleteProgram':
+    'prefix': 'glDeleteProgram'
+    'body': 'glDeleteProgram(${1:GLuint program})'
+  'glDeleteProgramPipelinesEXT':
+    'prefix': 'glDeleteProgramPipelinesEXT'
+    'body': 'glDeleteProgramPipelinesEXT(${1:GLsizei n}, ${2:GLuint* pipelines})'
+  'glDeleteQueries':
+    'prefix': 'glDeleteQueries'
+    'body': 'glDeleteQueries(${1:GLsizei n}, ${2:GLuint* ids})'
+  'glDeleteQueriesEXT':
+    'prefix': 'glDeleteQueriesEXT'
+    'body': 'glDeleteQueriesEXT(${1:GLsizei n}, ${2:GLuint* ids})'
+  'glDeleteRenderbuffers':
+    'prefix': 'glDeleteRenderbuffers'
+    'body': 'glDeleteRenderbuffers(${1:GLsizei n}, ${2:GLuint* renderbuffers})'
+  'glDeleteRenderbuffersOES':
+    'prefix': 'glDeleteRenderbuffersOES'
+    'body': 'glDeleteRenderbuffersOES(${1:GLsizei n}, ${2:GLuint* renderbuffers})'
+  'glDeleteSamplers':
+    'prefix': 'glDeleteSamplers'
+    'body': 'glDeleteSamplers(${1:GLsizei count}, ${2:GLuint* samplers})'
+  'glDeleteShader':
+    'prefix': 'glDeleteShader'
+    'body': 'glDeleteShader(${1:GLuint shader})'
+  'glDeleteSync':
+    'prefix': 'glDeleteSync'
+    'body': 'glDeleteSync(${1:GLsync sync})'
+  'glDeleteSyncAPPLE':
+    'prefix': 'glDeleteSyncAPPLE'
+    'body': 'glDeleteSyncAPPLE(${1:GLsync sync})'
+  'glDeleteTextures':
+    'prefix': 'glDeleteTextures'
+    'body': 'glDeleteTextures(${1:GLsizei n}, ${2:GLuint* textures})'
+  'glDeleteTransformFeedbacks':
+    'prefix': 'glDeleteTransformFeedbacks'
+    'body': 'glDeleteTransformFeedbacks(${1:GLsizei n}, ${2:GLuint* ids})'
+  'glDeleteVertexArrays':
+    'prefix': 'glDeleteVertexArrays'
+    'body': 'glDeleteVertexArrays(${1:GLsizei n}, ${2:GLuint* arrays})'
+  'glDeleteVertexArraysOES':
+    'prefix': 'glDeleteVertexArraysOES'
+    'body': 'glDeleteVertexArraysOES(${1:GLsizei n}, ${2:GLuint* arrays})'
+  'glDepthFunc':
+    'prefix': 'glDepthFunc'
+    'body': 'glDepthFunc(${1:GLenum func})'
+  'glDepthMask':
+    'prefix': 'glDepthMask'
+    'body': 'glDepthMask(${1:GLboolean flag})'
+  'glDepthRangef':
+    'prefix': 'glDepthRangef'
+    'body': 'glDepthRangef(${1:GLclampf zNear}, ${2:GLclampf zFar})'
+  'glDepthRangex':
+    'prefix': 'glDepthRangex'
+    'body': 'glDepthRangex(${1:GLclampx zNear}, ${2:GLclampx zFar})'
+  'glDetachShader':
+    'prefix': 'glDetachShader'
+    'body': 'glDetachShader(${1:GLuint program}, ${2:GLuint shader})'
+  'glDisable':
+    'prefix': 'glDisable'
+    'body': 'glDisable(${1:GLenum cap})'
+  'glDisableClientState':
+    'prefix': 'glDisableClientState'
+    'body': 'glDisableClientState(${1:GLenum array})'
+  'glDisableVertexAttribArray':
+    'prefix': 'glDisableVertexAttribArray'
+    'body': 'glDisableVertexAttribArray(${1:GLuint index})'
+  'glDiscardFramebufferEXT':
+    'prefix': 'glDiscardFramebufferEXT'
+    'body': 'glDiscardFramebufferEXT(${1:GLenum target}, ${2:GLsizei numAttachments}, ${3:GLenum* attachments})'
+  'glDrawArrays':
+    'prefix': 'glDrawArrays'
+    'body': 'glDrawArrays(${1:GLenum mode}, ${2:GLint first}, ${3:GLsizei count})'
+  'glDrawArraysInstanced':
+    'prefix': 'glDrawArraysInstanced'
+    'body': 'glDrawArraysInstanced(${1:GLenum mode}, ${2:GLint first}, ${3:GLsizei count}, ${4:GLsizei instancecount})'
+  'glDrawArraysInstancedEXT':
+    'prefix': 'glDrawArraysInstancedEXT'
+    'body': 'glDrawArraysInstancedEXT(${1:GLenum mode}, ${2:GLint first}, ${3:GLsizei count}, ${4:GLsizei instanceCount})'
+  'glDrawBuffers':
+    'prefix': 'glDrawBuffers'
+    'body': 'glDrawBuffers(${1:GLsizei n}, ${2:GLenum* bufs})'
+  'glDrawElements':
+    'prefix': 'glDrawElements'
+    'body': 'glDrawElements(${1:GLenum mode}, ${2:GLsizei count}, ${3:GLenum type}, ${4:GLvoid* indices})'
+  'glDrawElementsInstanced':
+    'prefix': 'glDrawElementsInstanced'
+    'body': 'glDrawElementsInstanced(${1:GLenum mode}, ${2:GLsizei count}, ${3:GLenum type}, ${4:GLvoid* indices}, ${5:GLsizei instancecount})'
+  'glDrawElementsInstancedEXT':
+    'prefix': 'glDrawElementsInstancedEXT'
+    'body': 'glDrawElementsInstancedEXT(${1:GLenum mode}, ${2:GLsizei count}, ${3:GLenum type}, ${4:GLvoid* indices}, ${5:GLsizei instanceCount})'
+  'glDrawRangeElements':
+    'prefix': 'glDrawRangeElements'
+    'body': 'glDrawRangeElements(${1:GLenum mode}, ${2:GLuint start}, ${3:GLuint end}, ${4:GLsizei count}, ${5:GLenum type}, ${6:GLvoid* indices})'
+  'glDrawTexfOES':
+    'prefix': 'glDrawTexfOES'
+    'body': 'glDrawTexfOES(${1:GLfloat x}, ${2:GLfloat y}, ${3:GLfloat z}, ${4:GLfloat width}, ${5:GLfloat height})'
+  'glDrawTexfvOES':
+    'prefix': 'glDrawTexfvOES'
+    'body': 'glDrawTexfvOES(${1:GLfloat* coords})'
+  'glDrawTexiOES':
+    'prefix': 'glDrawTexiOES'
+    'body': 'glDrawTexiOES(${1:GLint x}, ${2:GLint y}, ${3:GLint z}, ${4:GLint width}, ${5:GLint height})'
+  'glDrawTexivOES':
+    'prefix': 'glDrawTexivOES'
+    'body': 'glDrawTexivOES(${1:GLint* coords})'
+  'glDrawTexsOES':
+    'prefix': 'glDrawTexsOES'
+    'body': 'glDrawTexsOES(${1:GLshort x}, ${2:GLshort y}, ${3:GLshort z}, ${4:GLshort width}, ${5:GLshort height})'
+  'glDrawTexsvOES':
+    'prefix': 'glDrawTexsvOES'
+    'body': 'glDrawTexsvOES(${1:GLshort* coords})'
+  'glDrawTexxOES':
+    'prefix': 'glDrawTexxOES'
+    'body': 'glDrawTexxOES(${1:GLfixed x}, ${2:GLfixed y}, ${3:GLfixed z}, ${4:GLfixed width}, ${5:GLfixed height})'
+  'glDrawTexxvOES':
+    'prefix': 'glDrawTexxvOES'
+    'body': 'glDrawTexxvOES(${1:GLfixed* coords})'
+  'glEnable':
+    'prefix': 'glEnable'
+    'body': 'glEnable(${1:GLenum cap})'
+  'glEnableClientState':
+    'prefix': 'glEnableClientState'
+    'body': 'glEnableClientState(${1:GLenum array})'
+  'glEnableVertexAttribArray':
+    'prefix': 'glEnableVertexAttribArray'
+    'body': 'glEnableVertexAttribArray(${1:GLuint index})'
+  'glEndQuery':
+    'prefix': 'glEndQuery'
+    'body': 'glEndQuery(${1:GLenum target})'
+  'glEndQueryEXT':
+    'prefix': 'glEndQueryEXT'
+    'body': 'glEndQueryEXT(${1:GLenum target})'
+  'glEndTransformFeedback':
+    'prefix': 'glEndTransformFeedback'
+    'body': 'glEndTransformFeedback()'
+  'glFenceSync':
+    'prefix': 'glFenceSync'
+    'body': 'glFenceSync(${1:GLenum condition}, ${2:GLbitfield flags})'
+  'glFenceSyncAPPLE':
+    'prefix': 'glFenceSyncAPPLE'
+    'body': 'glFenceSyncAPPLE(${1:GLenum condition}, ${2:GLbitfield flags})'
+  'glFinish':
+    'prefix': 'glFinish'
+    'body': 'glFinish()'
+  'glFlush':
+    'prefix': 'glFlush'
+    'body': 'glFlush()'
+  'glFlushMappedBufferRange':
+    'prefix': 'glFlushMappedBufferRange'
+    'body': 'glFlushMappedBufferRange(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr length})'
+  'glFlushMappedBufferRangeEXT':
+    'prefix': 'glFlushMappedBufferRangeEXT'
+    'body': 'glFlushMappedBufferRangeEXT(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr length})'
+  'glFogf':
+    'prefix': 'glFogf'
+    'body': 'glFogf(${1:GLenum pname}, ${2:GLfloat param})'
+  'glFogfv':
+    'prefix': 'glFogfv'
+    'body': 'glFogfv(${1:GLenum pname}, ${2:GLfloat* params})'
+  'glFogx':
+    'prefix': 'glFogx'
+    'body': 'glFogx(${1:GLenum pname}, ${2:GLfixed param})'
+  'glFogxv':
+    'prefix': 'glFogxv'
+    'body': 'glFogxv(${1:GLenum pname}, ${2:GLfixed* params})'
+  'glFramebufferRenderbuffer':
+    'prefix': 'glFramebufferRenderbuffer'
+    'body': 'glFramebufferRenderbuffer(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLenum renderbuffertarget}, ${4:GLuint renderbuffer})'
+  'glFramebufferRenderbufferOES':
+    'prefix': 'glFramebufferRenderbufferOES'
+    'body': 'glFramebufferRenderbufferOES(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLenum renderbuffertarget}, ${4:GLuint renderbuffer})'
+  'glFramebufferTexture2D':
+    'prefix': 'glFramebufferTexture2D'
+    'body': 'glFramebufferTexture2D(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLenum textarget}, ${4:GLuint texture}, ${5:GLint level})'
+  'glFramebufferTexture2DOES':
+    'prefix': 'glFramebufferTexture2DOES'
+    'body': 'glFramebufferTexture2DOES(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLenum textarget}, ${4:GLuint texture}, ${5:GLint level})'
+  'glFramebufferTextureLayer':
+    'prefix': 'glFramebufferTextureLayer'
+    'body': 'glFramebufferTextureLayer(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLuint texture}, ${4:GLint level}, ${5:GLint layer})'
+  'glFrontFace':
+    'prefix': 'glFrontFace'
+    'body': 'glFrontFace(${1:GLenum mode})'
+  'glFrustumf':
+    'prefix': 'glFrustumf'
+    'body': 'glFrustumf(${1:GLfloat left}, ${2:GLfloat right}, ${3:GLfloat bottom}, ${4:GLfloat top}, ${5:GLfloat zNear}, ${6:GLfloat zFar})'
+  'glFrustumx':
+    'prefix': 'glFrustumx'
+    'body': 'glFrustumx(${1:GLfixed left}, ${2:GLfixed right}, ${3:GLfixed bottom}, ${4:GLfixed top}, ${5:GLfixed zNear}, ${6:GLfixed zFar})'
+  'glGenBuffers':
+    'prefix': 'glGenBuffers'
+    'body': 'glGenBuffers(${1:GLsizei n}, ${2:GLuint* buffers})'
+  'glGenFramebuffers':
+    'prefix': 'glGenFramebuffers'
+    'body': 'glGenFramebuffers(${1:GLsizei n}, ${2:GLuint* framebuffers})'
+  'glGenFramebuffersOES':
+    'prefix': 'glGenFramebuffersOES'
+    'body': 'glGenFramebuffersOES(${1:GLsizei n}, ${2:GLuint* framebuffers})'
+  'glGenProgramPipelinesEXT':
+    'prefix': 'glGenProgramPipelinesEXT'
+    'body': 'glGenProgramPipelinesEXT(${1:GLsizei n}, ${2:GLuint* pipelines})'
+  'glGenQueries':
+    'prefix': 'glGenQueries'
+    'body': 'glGenQueries(${1:GLsizei n}, ${2:GLuint* ids})'
+  'glGenQueriesEXT':
+    'prefix': 'glGenQueriesEXT'
+    'body': 'glGenQueriesEXT(${1:GLsizei n}, ${2:GLuint* ids})'
+  'glGenRenderbuffers':
+    'prefix': 'glGenRenderbuffers'
+    'body': 'glGenRenderbuffers(${1:GLsizei n}, ${2:GLuint* renderbuffers})'
+  'glGenRenderbuffersOES':
+    'prefix': 'glGenRenderbuffersOES'
+    'body': 'glGenRenderbuffersOES(${1:GLsizei n}, ${2:GLuint* renderbuffers})'
+  'glGenSamplers':
+    'prefix': 'glGenSamplers'
+    'body': 'glGenSamplers(${1:GLsizei count}, ${2:GLuint* samplers})'
+  'glGenTextures':
+    'prefix': 'glGenTextures'
+    'body': 'glGenTextures(${1:GLsizei n}, ${2:GLuint* textures})'
+  'glGenTransformFeedbacks':
+    'prefix': 'glGenTransformFeedbacks'
+    'body': 'glGenTransformFeedbacks(${1:GLsizei n}, ${2:GLuint* ids})'
+  'glGenVertexArrays':
+    'prefix': 'glGenVertexArrays'
+    'body': 'glGenVertexArrays(${1:GLsizei n}, ${2:GLuint* arrays})'
+  'glGenVertexArraysOES':
+    'prefix': 'glGenVertexArraysOES'
+    'body': 'glGenVertexArraysOES(${1:GLsizei n}, ${2:GLuint* arrays})'
+  'glGenerateMipmap':
+    'prefix': 'glGenerateMipmap'
+    'body': 'glGenerateMipmap(${1:GLenum target})'
+  'glGenerateMipmapOES':
+    'prefix': 'glGenerateMipmapOES'
+    'body': 'glGenerateMipmapOES(${1:GLenum target})'
+  'glGetActiveAttrib':
+    'prefix': 'glGetActiveAttrib'
+    'body': 'glGetActiveAttrib(${1:GLuint program}, ${2:GLuint index}, ${3:GLsizei bufsize}, ${4:GLsizei* length}, ${5:GLint* size}, ${6:GLenum* type}, ${7:GLchar* name})'
+  'glGetActiveUniform':
+    'prefix': 'glGetActiveUniform'
+    'body': 'glGetActiveUniform(${1:GLuint program}, ${2:GLuint index}, ${3:GLsizei bufsize}, ${4:GLsizei* length}, ${5:GLint* size}, ${6:GLenum* type}, ${7:GLchar* name})'
+  'glGetActiveUniformBlockName':
+    'prefix': 'glGetActiveUniformBlockName'
+    'body': 'glGetActiveUniformBlockName(${1:GLuint program}, ${2:GLuint uniformBlockIndex}, ${3:GLsizei bufSize}, ${4:GLsizei* length}, ${5:GLchar* uniformBlockName})'
+  'glGetActiveUniformBlockiv':
+    'prefix': 'glGetActiveUniformBlockiv'
+    'body': 'glGetActiveUniformBlockiv(${1:GLuint program}, ${2:GLuint uniformBlockIndex}, ${3:GLenum pname}, ${4:GLint* params})'
+  'glGetActiveUniformsiv':
+    'prefix': 'glGetActiveUniformsiv'
+    'body': 'glGetActiveUniformsiv(${1:GLuint program}, ${2:GLsizei uniformCount}, ${3:GLuint* uniformIndices}, ${4:GLenum pname}, ${5:GLint* params})'
+  'glGetAttachedShaders':
+    'prefix': 'glGetAttachedShaders'
+    'body': 'glGetAttachedShaders(${1:GLuint program}, ${2:GLsizei maxcount}, ${3:GLsizei* count}, ${4:GLuint* shaders})'
+  'glGetAttribLocation':
+    'prefix': 'glGetAttribLocation'
+    'body': 'glGetAttribLocation(${1:GLuint program}, ${2:GLchar* name})'
+  'glGetBooleanv':
+    'prefix': 'glGetBooleanv'
+    'body': 'glGetBooleanv(${1:GLenum pname}, ${2:GLboolean* params})'
+  'glGetBufferParameteri64v':
+    'prefix': 'glGetBufferParameteri64v'
+    'body': 'glGetBufferParameteri64v(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint64* params})'
+  'glGetBufferParameteriv':
+    'prefix': 'glGetBufferParameteriv'
+    'body': 'glGetBufferParameteriv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetBufferPointerv':
+    'prefix': 'glGetBufferPointerv'
+    'body': 'glGetBufferPointerv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLvoid** params})'
+  'glGetBufferPointervOES':
+    'prefix': 'glGetBufferPointervOES'
+    'body': 'glGetBufferPointervOES(${1:GLenum target}, ${2:GLenum pname}, ${3:GLvoid** params})'
+  'glGetClipPlanef':
+    'prefix': 'glGetClipPlanef'
+    'body': 'glGetClipPlanef(${1:GLenum pname}, ${2:GLfloat* equation})'
+  'glGetClipPlanex':
+    'prefix': 'glGetClipPlanex'
+    'body': 'glGetClipPlanex(${1:GLenum pname}, ${2:GLfixed* eqn})'
+  'glGetError':
+    'prefix': 'glGetError'
+    'body': 'glGetError()'
+  'glGetFixedv':
+    'prefix': 'glGetFixedv'
+    'body': 'glGetFixedv(${1:GLenum pname}, ${2:GLfixed* params})'
+  'glGetFloatv':
+    'prefix': 'glGetFloatv'
+    'body': 'glGetFloatv(${1:GLenum pname}, ${2:GLfloat* params})'
+  'glGetFragDataLocation':
+    'prefix': 'glGetFragDataLocation'
+    'body': 'glGetFragDataLocation(${1:GLuint program}, ${2:GLchar* name})'
+  'glGetFramebufferAttachmentParameteriv':
+    'prefix': 'glGetFramebufferAttachmentParameteriv'
+    'body': 'glGetFramebufferAttachmentParameteriv(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLenum pname}, ${4:GLint* params})'
+  'glGetFramebufferAttachmentParameterivOES':
+    'prefix': 'glGetFramebufferAttachmentParameterivOES'
+    'body': 'glGetFramebufferAttachmentParameterivOES(${1:GLenum target}, ${2:GLenum attachment}, ${3:GLenum pname}, ${4:GLint* params})'
+  'glGetInteger64i_v':
+    'prefix': 'glGetInteger64i_v'
+    'body': 'glGetInteger64i_v(${1:GLenum target}, ${2:GLuint index}, ${3:GLint64* data})'
+  'glGetInteger64v':
+    'prefix': 'glGetInteger64v'
+    'body': 'glGetInteger64v(${1:GLenum pname}, ${2:GLint64* params})'
+  'glGetInteger64vAPPLE':
+    'prefix': 'glGetInteger64vAPPLE'
+    'body': 'glGetInteger64vAPPLE(${1:GLenum pname}, ${2:GLint64* params})'
+  'glGetIntegeri_v':
+    'prefix': 'glGetIntegeri_v'
+    'body': 'glGetIntegeri_v(${1:GLenum target}, ${2:GLuint index}, ${3:GLint* data})'
+  'glGetIntegerv':
+    'prefix': 'glGetIntegerv'
+    'body': 'glGetIntegerv(${1:GLenum pname}, ${2:GLint* params})'
+  'glGetInternalformativ':
+    'prefix': 'glGetInternalformativ'
+    'body': 'glGetInternalformativ(${1:GLenum target}, ${2:GLenum internalformat}, ${3:GLenum pname}, ${4:GLsizei bufSize}, ${5:GLint* params})'
+  'glGetLightfv':
+    'prefix': 'glGetLightfv'
+    'body': 'glGetLightfv(${1:GLenum light}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glGetLightxv':
+    'prefix': 'glGetLightxv'
+    'body': 'glGetLightxv(${1:GLenum light}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glGetMaterialfv':
+    'prefix': 'glGetMaterialfv'
+    'body': 'glGetMaterialfv(${1:GLenum face}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glGetMaterialxv':
+    'prefix': 'glGetMaterialxv'
+    'body': 'glGetMaterialxv(${1:GLenum face}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glGetObjectLabelEXT':
+    'prefix': 'glGetObjectLabelEXT'
+    'body': 'glGetObjectLabelEXT(${1:GLenum type}, ${2:GLuint object}, ${3:GLsizei bufSize}, ${4:GLsizei* length}, ${5:GLchar* label})'
+  'glGetPointerv':
+    'prefix': 'glGetPointerv'
+    'body': 'glGetPointerv(${1:GLenum pname}, ${2:void** params})'
+  'glGetProgramBinary':
+    'prefix': 'glGetProgramBinary'
+    'body': 'glGetProgramBinary(${1:GLuint program}, ${2:GLsizei bufSize}, ${3:GLsizei* length}, ${4:GLenum* binaryFormat}, ${5:GLvoid* binary})'
+  'glGetProgramInfoLog':
+    'prefix': 'glGetProgramInfoLog'
+    'body': 'glGetProgramInfoLog(${1:GLuint program}, ${2:GLsizei bufsize}, ${3:GLsizei* length}, ${4:GLchar* infolog})'
+  'glGetProgramPipelineInfoLogEXT':
+    'prefix': 'glGetProgramPipelineInfoLogEXT'
+    'body': 'glGetProgramPipelineInfoLogEXT(${1:GLuint pipeline}, ${2:GLsizei bufSize}, ${3:GLsizei* length}, ${4:GLchar* infoLog})'
+  'glGetProgramPipelineivEXT':
+    'prefix': 'glGetProgramPipelineivEXT'
+    'body': 'glGetProgramPipelineivEXT(${1:GLuint pipeline}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetProgramiv':
+    'prefix': 'glGetProgramiv'
+    'body': 'glGetProgramiv(${1:GLuint program}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetQueryObjectuiv':
+    'prefix': 'glGetQueryObjectuiv'
+    'body': 'glGetQueryObjectuiv(${1:GLuint id}, ${2:GLenum pname}, ${3:GLuint* params})'
+  'glGetQueryObjectuivEXT':
+    'prefix': 'glGetQueryObjectuivEXT'
+    'body': 'glGetQueryObjectuivEXT(${1:GLuint id}, ${2:GLenum pname}, ${3:GLuint* params})'
+  'glGetQueryiv':
+    'prefix': 'glGetQueryiv'
+    'body': 'glGetQueryiv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetQueryivEXT':
+    'prefix': 'glGetQueryivEXT'
+    'body': 'glGetQueryivEXT(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetRenderbufferParameteriv':
+    'prefix': 'glGetRenderbufferParameteriv'
+    'body': 'glGetRenderbufferParameteriv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetRenderbufferParameterivOES':
+    'prefix': 'glGetRenderbufferParameterivOES'
+    'body': 'glGetRenderbufferParameterivOES(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetSamplerParameterfv':
+    'prefix': 'glGetSamplerParameterfv'
+    'body': 'glGetSamplerParameterfv(${1:GLuint sampler}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glGetSamplerParameteriv':
+    'prefix': 'glGetSamplerParameteriv'
+    'body': 'glGetSamplerParameteriv(${1:GLuint sampler}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetShaderInfoLog':
+    'prefix': 'glGetShaderInfoLog'
+    'body': 'glGetShaderInfoLog(${1:GLuint shader}, ${2:GLsizei bufsize}, ${3:GLsizei* length}, ${4:GLchar* infolog})'
+  'glGetShaderPrecisionFormat':
+    'prefix': 'glGetShaderPrecisionFormat'
+    'body': 'glGetShaderPrecisionFormat(${1:GLenum shadertype}, ${2:GLenum precisiontype}, ${3:GLint* range}, ${4:GLint* precision})'
+  'glGetShaderSource':
+    'prefix': 'glGetShaderSource'
+    'body': 'glGetShaderSource(${1:GLuint shader}, ${2:GLsizei bufsize}, ${3:GLsizei* length}, ${4:GLchar* source})'
+  'glGetShaderiv':
+    'prefix': 'glGetShaderiv'
+    'body': 'glGetShaderiv(${1:GLuint shader}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetString':
+    'prefix': 'glGetString'
+    'body': 'glGetString(${1:GLenum name})'
+  'glGetStringi':
+    'prefix': 'glGetStringi'
+    'body': 'glGetStringi(${1:GLenum name}, ${2:GLuint index})'
+  'glGetSynciv':
+    'prefix': 'glGetSynciv'
+    'body': 'glGetSynciv(${1:GLsync sync}, ${2:GLenum pname}, ${3:GLsizei bufSize}, ${4:GLsizei* length}, ${5:GLint* values})'
+  'glGetSyncivAPPLE':
+    'prefix': 'glGetSyncivAPPLE'
+    'body': 'glGetSyncivAPPLE(${1:GLsync sync}, ${2:GLenum pname}, ${3:GLsizei bufSize}, ${4:GLsizei* length}, ${5:GLint* values})'
+  'glGetTexEnvfv':
+    'prefix': 'glGetTexEnvfv'
+    'body': 'glGetTexEnvfv(${1:GLenum env}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glGetTexEnviv':
+    'prefix': 'glGetTexEnviv'
+    'body': 'glGetTexEnviv(${1:GLenum env}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetTexEnvxv':
+    'prefix': 'glGetTexEnvxv'
+    'body': 'glGetTexEnvxv(${1:GLenum env}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glGetTexParameterfv':
+    'prefix': 'glGetTexParameterfv'
+    'body': 'glGetTexParameterfv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glGetTexParameteriv':
+    'prefix': 'glGetTexParameteriv'
+    'body': 'glGetTexParameteriv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetTexParameterxv':
+    'prefix': 'glGetTexParameterxv'
+    'body': 'glGetTexParameterxv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glGetTransformFeedbackVarying':
+    'prefix': 'glGetTransformFeedbackVarying'
+    'body': 'glGetTransformFeedbackVarying(${1:GLuint program}, ${2:GLuint index}, ${3:GLsizei bufSize}, ${4:GLsizei* length}, ${5:GLsizei* size}, ${6:GLenum* type}, ${7:GLchar* name})'
+  'glGetUniformBlockIndex':
+    'prefix': 'glGetUniformBlockIndex'
+    'body': 'glGetUniformBlockIndex(${1:GLuint program}, ${2:GLchar* uniformBlockName})'
+  'glGetUniformIndices':
+    'prefix': 'glGetUniformIndices'
+    'body': 'glGetUniformIndices(${1:GLuint program}, ${2:GLsizei uniformCount}, ${3:GLchar ** uniformNames}, ${4:GLuint* uniformIndices})'
+  'glGetUniformLocation':
+    'prefix': 'glGetUniformLocation'
+    'body': 'glGetUniformLocation(${1:GLuint program}, ${2:GLchar* name})'
+  'glGetUniformfv':
+    'prefix': 'glGetUniformfv'
+    'body': 'glGetUniformfv(${1:GLuint program}, ${2:GLint location}, ${3:GLfloat* params})'
+  'glGetUniformiv':
+    'prefix': 'glGetUniformiv'
+    'body': 'glGetUniformiv(${1:GLuint program}, ${2:GLint location}, ${3:GLint* params})'
+  'glGetUniformuiv':
+    'prefix': 'glGetUniformuiv'
+    'body': 'glGetUniformuiv(${1:GLuint program}, ${2:GLint location}, ${3:GLuint* params})'
+  'glGetVertexAttribIiv':
+    'prefix': 'glGetVertexAttribIiv'
+    'body': 'glGetVertexAttribIiv(${1:GLuint index}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glGetVertexAttribIuiv':
+    'prefix': 'glGetVertexAttribIuiv'
+    'body': 'glGetVertexAttribIuiv(${1:GLuint index}, ${2:GLenum pname}, ${3:GLuint* params})'
+  'glGetVertexAttribPointerv':
+    'prefix': 'glGetVertexAttribPointerv'
+    'body': 'glGetVertexAttribPointerv(${1:GLuint index}, ${2:GLenum pname}, ${3:GLvoid** pointer})'
+  'glGetVertexAttribfv':
+    'prefix': 'glGetVertexAttribfv'
+    'body': 'glGetVertexAttribfv(${1:GLuint index}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glGetVertexAttribiv':
+    'prefix': 'glGetVertexAttribiv'
+    'body': 'glGetVertexAttribiv(${1:GLuint index}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glHint':
+    'prefix': 'glHint'
+    'body': 'glHint(${1:GLenum target}, ${2:GLenum mode})'
+  'glInsertEventMarkerEXT':
+    'prefix': 'glInsertEventMarkerEXT'
+    'body': 'glInsertEventMarkerEXT(${1:GLsizei length}, ${2:GLchar* marker})'
+  'glInvalidateFramebuffer':
+    'prefix': 'glInvalidateFramebuffer'
+    'body': 'glInvalidateFramebuffer(${1:GLenum target}, ${2:GLsizei numAttachments}, ${3:GLenum* attachments})'
+  'glInvalidateSubFramebuffer':
+    'prefix': 'glInvalidateSubFramebuffer'
+    'body': 'glInvalidateSubFramebuffer(${1:GLenum target}, ${2:GLsizei numAttachments}, ${3:GLenum* attachments}, ${4:GLint x}, ${5:GLint y}, ${6:GLsizei width}, ${7:GLsizei height})'
+  'glIsBuffer':
+    'prefix': 'glIsBuffer'
+    'body': 'glIsBuffer(${1:GLuint buffer})'
+  'glIsEnabled':
+    'prefix': 'glIsEnabled'
+    'body': 'glIsEnabled(${1:GLenum cap})'
+  'glIsFramebuffer':
+    'prefix': 'glIsFramebuffer'
+    'body': 'glIsFramebuffer(${1:GLuint framebuffer})'
+  'glIsFramebufferOES':
+    'prefix': 'glIsFramebufferOES'
+    'body': 'glIsFramebufferOES(${1:GLuint framebuffer})'
+  'glIsProgram':
+    'prefix': 'glIsProgram'
+    'body': 'glIsProgram(${1:GLuint program})'
+  'glIsProgramPipelineEXT':
+    'prefix': 'glIsProgramPipelineEXT'
+    'body': 'glIsProgramPipelineEXT(${1:GLuint pipeline})'
+  'glIsQuery':
+    'prefix': 'glIsQuery'
+    'body': 'glIsQuery(${1:GLuint id})'
+  'glIsQueryEXT':
+    'prefix': 'glIsQueryEXT'
+    'body': 'glIsQueryEXT(${1:GLuint id})'
+  'glIsRenderbuffer':
+    'prefix': 'glIsRenderbuffer'
+    'body': 'glIsRenderbuffer(${1:GLuint renderbuffer})'
+  'glIsRenderbufferOES':
+    'prefix': 'glIsRenderbufferOES'
+    'body': 'glIsRenderbufferOES(${1:GLuint renderbuffer})'
+  'glIsSampler':
+    'prefix': 'glIsSampler'
+    'body': 'glIsSampler(${1:GLuint sampler})'
+  'glIsShader':
+    'prefix': 'glIsShader'
+    'body': 'glIsShader(${1:GLuint shader})'
+  'glIsSync':
+    'prefix': 'glIsSync'
+    'body': 'glIsSync(${1:GLsync sync})'
+  'glIsSyncAPPLE':
+    'prefix': 'glIsSyncAPPLE'
+    'body': 'glIsSyncAPPLE(${1:GLsync sync})'
+  'glIsTexture':
+    'prefix': 'glIsTexture'
+    'body': 'glIsTexture(${1:GLuint texture})'
+  'glIsTransformFeedback':
+    'prefix': 'glIsTransformFeedback'
+    'body': 'glIsTransformFeedback(${1:GLuint id})'
+  'glIsVertexArray':
+    'prefix': 'glIsVertexArray'
+    'body': 'glIsVertexArray(${1:GLuint array})'
+  'glIsVertexArrayOES':
+    'prefix': 'glIsVertexArrayOES'
+    'body': 'glIsVertexArrayOES(${1:GLuint array})'
+  'glLabelObjectEXT':
+    'prefix': 'glLabelObjectEXT'
+    'body': 'glLabelObjectEXT(${1:GLenum type}, ${2:GLuint object}, ${3:GLsizei length}, ${4:GLchar* label})'
+  'glLightModelf':
+    'prefix': 'glLightModelf'
+    'body': 'glLightModelf(${1:GLenum pname}, ${2:GLfloat param})'
+  'glLightModelfv':
+    'prefix': 'glLightModelfv'
+    'body': 'glLightModelfv(${1:GLenum pname}, ${2:GLfloat* params})'
+  'glLightModelx':
+    'prefix': 'glLightModelx'
+    'body': 'glLightModelx(${1:GLenum pname}, ${2:GLfixed param})'
+  'glLightModelxv':
+    'prefix': 'glLightModelxv'
+    'body': 'glLightModelxv(${1:GLenum pname}, ${2:GLfixed* params})'
+  'glLightf':
+    'prefix': 'glLightf'
+    'body': 'glLightf(${1:GLenum light}, ${2:GLenum pname}, ${3:GLfloat param})'
+  'glLightfv':
+    'prefix': 'glLightfv'
+    'body': 'glLightfv(${1:GLenum light}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glLightx':
+    'prefix': 'glLightx'
+    'body': 'glLightx(${1:GLenum light}, ${2:GLenum pname}, ${3:GLfixed param})'
+  'glLightxv':
+    'prefix': 'glLightxv'
+    'body': 'glLightxv(${1:GLenum light}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glLineWidth':
+    'prefix': 'glLineWidth'
+    'body': 'glLineWidth(${1:GLfloat width})'
+  'glLineWidthx':
+    'prefix': 'glLineWidthx'
+    'body': 'glLineWidthx(${1:GLfixed width})'
+  'glLinkProgram':
+    'prefix': 'glLinkProgram'
+    'body': 'glLinkProgram(${1:GLuint program})'
+  'glLoadIdentity':
+    'prefix': 'glLoadIdentity'
+    'body': 'glLoadIdentity()'
+  'glLoadMatrixf':
+    'prefix': 'glLoadMatrixf'
+    'body': 'glLoadMatrixf(${1:GLfloat* m})'
+  'glLoadMatrixx':
+    'prefix': 'glLoadMatrixx'
+    'body': 'glLoadMatrixx(${1:GLfixed* m})'
+  'glLoadPaletteFromModelViewMatrixOES':
+    'prefix': 'glLoadPaletteFromModelViewMatrixOES'
+    'body': 'glLoadPaletteFromModelViewMatrixOES()'
+  'glLogicOp':
+    'prefix': 'glLogicOp'
+    'body': 'glLogicOp(${1:GLenum opcode})'
+  'glMapBufferOES':
+    'prefix': 'glMapBufferOES'
+    'body': 'glMapBufferOES(${1:GLenum target}, ${2:GLenum access})'
+  'glMapBufferRange':
+    'prefix': 'glMapBufferRange'
+    'body': 'glMapBufferRange(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr length}, ${4:GLbitfield access})'
+  'glMapBufferRangeEXT':
+    'prefix': 'glMapBufferRangeEXT'
+    'body': 'glMapBufferRangeEXT(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr length}, ${4:GLbitfield access})'
+  'glMaterialf':
+    'prefix': 'glMaterialf'
+    'body': 'glMaterialf(${1:GLenum face}, ${2:GLenum pname}, ${3:GLfloat param})'
+  'glMaterialfv':
+    'prefix': 'glMaterialfv'
+    'body': 'glMaterialfv(${1:GLenum face}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glMaterialx':
+    'prefix': 'glMaterialx'
+    'body': 'glMaterialx(${1:GLenum face}, ${2:GLenum pname}, ${3:GLfixed param})'
+  'glMaterialxv':
+    'prefix': 'glMaterialxv'
+    'body': 'glMaterialxv(${1:GLenum face}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glMatrixIndexPointerOES':
+    'prefix': 'glMatrixIndexPointerOES'
+    'body': 'glMatrixIndexPointerOES(${1:GLint size}, ${2:GLenum type}, ${3:GLsizei stride}, ${4:GLvoid* pointer})'
+  'glMatrixMode':
+    'prefix': 'glMatrixMode'
+    'body': 'glMatrixMode(${1:GLenum mode})'
+  'glMultMatrixf':
+    'prefix': 'glMultMatrixf'
+    'body': 'glMultMatrixf(${1:GLfloat* m})'
+  'glMultMatrixx':
+    'prefix': 'glMultMatrixx'
+    'body': 'glMultMatrixx(${1:GLfixed* m})'
+  'glMultiTexCoord4f':
+    'prefix': 'glMultiTexCoord4f'
+    'body': 'glMultiTexCoord4f(${1:GLenum target}, ${2:GLfloat s}, ${3:GLfloat t}, ${4:GLfloat r}, ${5:GLfloat q})'
+  'glMultiTexCoord4x':
+    'prefix': 'glMultiTexCoord4x'
+    'body': 'glMultiTexCoord4x(${1:GLenum target}, ${2:GLfixed s}, ${3:GLfixed t}, ${4:GLfixed r}, ${5:GLfixed q})'
+  'glNormal3f':
+    'prefix': 'glNormal3f'
+    'body': 'glNormal3f(${1:GLfloat nx}, ${2:GLfloat ny}, ${3:GLfloat nz})'
+  'glNormal3x':
+    'prefix': 'glNormal3x'
+    'body': 'glNormal3x(${1:GLfixed nx}, ${2:GLfixed ny}, ${3:GLfixed nz})'
+  'glNormalPointer':
+    'prefix': 'glNormalPointer'
+    'body': 'glNormalPointer(${1:GLenum type}, ${2:GLsizei stride}, ${3:GLvoid* pointer})'
+  'glOrthof':
+    'prefix': 'glOrthof'
+    'body': 'glOrthof(${1:GLfloat left}, ${2:GLfloat right}, ${3:GLfloat bottom}, ${4:GLfloat top}, ${5:GLfloat zNear}, ${6:GLfloat zFar})'
+  'glOrthox':
+    'prefix': 'glOrthox'
+    'body': 'glOrthox(${1:GLfixed left}, ${2:GLfixed right}, ${3:GLfixed bottom}, ${4:GLfixed top}, ${5:GLfixed zNear}, ${6:GLfixed zFar})'
+  'glPauseTransformFeedback':
+    'prefix': 'glPauseTransformFeedback'
+    'body': 'glPauseTransformFeedback()'
+  'glPixelStorei':
+    'prefix': 'glPixelStorei'
+    'body': 'glPixelStorei(${1:GLenum pname}, ${2:GLint param})'
+  'glPointParameterf':
+    'prefix': 'glPointParameterf'
+    'body': 'glPointParameterf(${1:GLenum pname}, ${2:GLfloat param})'
+  'glPointParameterfv':
+    'prefix': 'glPointParameterfv'
+    'body': 'glPointParameterfv(${1:GLenum pname}, ${2:GLfloat* params})'
+  'glPointParameterx':
+    'prefix': 'glPointParameterx'
+    'body': 'glPointParameterx(${1:GLenum pname}, ${2:GLfixed param})'
+  'glPointParameterxv':
+    'prefix': 'glPointParameterxv'
+    'body': 'glPointParameterxv(${1:GLenum pname}, ${2:GLfixed* params})'
+  'glPointSize':
+    'prefix': 'glPointSize'
+    'body': 'glPointSize(${1:GLfloat size})'
+  'glPointSizePointerOES':
+    'prefix': 'glPointSizePointerOES'
+    'body': 'glPointSizePointerOES(${1:GLenum type}, ${2:GLsizei stride}, ${3:GLvoid* pointer})'
+  'glPointSizex':
+    'prefix': 'glPointSizex'
+    'body': 'glPointSizex(${1:GLfixed size})'
+  'glPolygonOffset':
+    'prefix': 'glPolygonOffset'
+    'body': 'glPolygonOffset(${1:GLfloat factor}, ${2:GLfloat units})'
+  'glPolygonOffsetx':
+    'prefix': 'glPolygonOffsetx'
+    'body': 'glPolygonOffsetx(${1:GLfixed factor}, ${2:GLfixed units})'
+  'glPopGroupMarkerEXT':
+    'prefix': 'glPopGroupMarkerEXT'
+    'body': 'glPopGroupMarkerEXT()'
+  'glPopMatrix':
+    'prefix': 'glPopMatrix'
+    'body': 'glPopMatrix()'
+  'glProgramBinary':
+    'prefix': 'glProgramBinary'
+    'body': 'glProgramBinary(${1:GLuint program}, ${2:GLenum binaryFormat}, ${3:GLvoid* binary}, ${4:GLsizei length})'
+  'glProgramParameteri':
+    'prefix': 'glProgramParameteri'
+    'body': 'glProgramParameteri(${1:GLuint program}, ${2:GLenum pname}, ${3:GLint value})'
+  'glProgramParameteriEXT':
+    'prefix': 'glProgramParameteriEXT'
+    'body': 'glProgramParameteriEXT(${1:GLuint program}, ${2:GLenum pname}, ${3:GLint value})'
+  'glProgramUniform1fEXT':
+    'prefix': 'glProgramUniform1fEXT'
+    'body': 'glProgramUniform1fEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLfloat x})'
+  'glProgramUniform1fvEXT':
+    'prefix': 'glProgramUniform1fvEXT'
+    'body': 'glProgramUniform1fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLfloat* value})'
+  'glProgramUniform1iEXT':
+    'prefix': 'glProgramUniform1iEXT'
+    'body': 'glProgramUniform1iEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLint x})'
+  'glProgramUniform1ivEXT':
+    'prefix': 'glProgramUniform1ivEXT'
+    'body': 'glProgramUniform1ivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLint* value})'
+  'glProgramUniform1uiEXT':
+    'prefix': 'glProgramUniform1uiEXT'
+    'body': 'glProgramUniform1uiEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLuint x})'
+  'glProgramUniform1uivEXT':
+    'prefix': 'glProgramUniform1uivEXT'
+    'body': 'glProgramUniform1uivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLuint* value})'
+  'glProgramUniform2fEXT':
+    'prefix': 'glProgramUniform2fEXT'
+    'body': 'glProgramUniform2fEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLfloat x}, ${4:GLfloat y})'
+  'glProgramUniform2fvEXT':
+    'prefix': 'glProgramUniform2fvEXT'
+    'body': 'glProgramUniform2fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLfloat* value})'
+  'glProgramUniform2iEXT':
+    'prefix': 'glProgramUniform2iEXT'
+    'body': 'glProgramUniform2iEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLint x}, ${4:GLint y})'
+  'glProgramUniform2ivEXT':
+    'prefix': 'glProgramUniform2ivEXT'
+    'body': 'glProgramUniform2ivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLint* value})'
+  'glProgramUniform2uiEXT':
+    'prefix': 'glProgramUniform2uiEXT'
+    'body': 'glProgramUniform2uiEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLuint x}, ${4:GLuint y})'
+  'glProgramUniform2uivEXT':
+    'prefix': 'glProgramUniform2uivEXT'
+    'body': 'glProgramUniform2uivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLuint* value})'
+  'glProgramUniform3fEXT':
+    'prefix': 'glProgramUniform3fEXT'
+    'body': 'glProgramUniform3fEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLfloat x}, ${4:GLfloat y}, ${5:GLfloat z})'
+  'glProgramUniform3fvEXT':
+    'prefix': 'glProgramUniform3fvEXT'
+    'body': 'glProgramUniform3fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLfloat* value})'
+  'glProgramUniform3iEXT':
+    'prefix': 'glProgramUniform3iEXT'
+    'body': 'glProgramUniform3iEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLint x}, ${4:GLint y}, ${5:GLint z})'
+  'glProgramUniform3ivEXT':
+    'prefix': 'glProgramUniform3ivEXT'
+    'body': 'glProgramUniform3ivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLint* value})'
+  'glProgramUniform3uiEXT':
+    'prefix': 'glProgramUniform3uiEXT'
+    'body': 'glProgramUniform3uiEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLuint x}, ${4:GLuint y}, ${5:GLuint z})'
+  'glProgramUniform3uivEXT':
+    'prefix': 'glProgramUniform3uivEXT'
+    'body': 'glProgramUniform3uivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLuint* value})'
+  'glProgramUniform4fEXT':
+    'prefix': 'glProgramUniform4fEXT'
+    'body': 'glProgramUniform4fEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLfloat x}, ${4:GLfloat y}, ${5:GLfloat z}, ${6:GLfloat w})'
+  'glProgramUniform4fvEXT':
+    'prefix': 'glProgramUniform4fvEXT'
+    'body': 'glProgramUniform4fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLfloat* value})'
+  'glProgramUniform4iEXT':
+    'prefix': 'glProgramUniform4iEXT'
+    'body': 'glProgramUniform4iEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLint x}, ${4:GLint y}, ${5:GLint z}, ${6:GLint w})'
+  'glProgramUniform4ivEXT':
+    'prefix': 'glProgramUniform4ivEXT'
+    'body': 'glProgramUniform4ivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLint* value})'
+  'glProgramUniform4uiEXT':
+    'prefix': 'glProgramUniform4uiEXT'
+    'body': 'glProgramUniform4uiEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLuint x}, ${4:GLuint y}, ${5:GLuint z}, ${6:GLuint w})'
+  'glProgramUniform4uivEXT':
+    'prefix': 'glProgramUniform4uivEXT'
+    'body': 'glProgramUniform4uivEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLuint* value})'
+  'glProgramUniformMatrix2fvEXT':
+    'prefix': 'glProgramUniformMatrix2fvEXT'
+    'body': 'glProgramUniformMatrix2fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix2x3fvEXT':
+    'prefix': 'glProgramUniformMatrix2x3fvEXT'
+    'body': 'glProgramUniformMatrix2x3fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix2x4fvEXT':
+    'prefix': 'glProgramUniformMatrix2x4fvEXT'
+    'body': 'glProgramUniformMatrix2x4fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix3fvEXT':
+    'prefix': 'glProgramUniformMatrix3fvEXT'
+    'body': 'glProgramUniformMatrix3fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix3x2fvEXT':
+    'prefix': 'glProgramUniformMatrix3x2fvEXT'
+    'body': 'glProgramUniformMatrix3x2fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix3x4fvEXT':
+    'prefix': 'glProgramUniformMatrix3x4fvEXT'
+    'body': 'glProgramUniformMatrix3x4fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix4fvEXT':
+    'prefix': 'glProgramUniformMatrix4fvEXT'
+    'body': 'glProgramUniformMatrix4fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix4x2fvEXT':
+    'prefix': 'glProgramUniformMatrix4x2fvEXT'
+    'body': 'glProgramUniformMatrix4x2fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glProgramUniformMatrix4x3fvEXT':
+    'prefix': 'glProgramUniformMatrix4x3fvEXT'
+    'body': 'glProgramUniformMatrix4x3fvEXT(${1:GLuint program}, ${2:GLint location}, ${3:GLsizei count}, ${4:GLboolean transpose}, ${5:GLfloat* value})'
+  'glPushGroupMarkerEXT':
+    'prefix': 'glPushGroupMarkerEXT'
+    'body': 'glPushGroupMarkerEXT(${1:GLsizei length}, ${2:GLchar* marker})'
+  'glPushMatrix':
+    'prefix': 'glPushMatrix'
+    'body': 'glPushMatrix()'
+  'glReadBuffer':
+    'prefix': 'glReadBuffer'
+    'body': 'glReadBuffer(${1:GLenum mode})'
+  'glReadPixels':
+    'prefix': 'glReadPixels'
+    'body': 'glReadPixels(${1:GLint x}, ${2:GLint y}, ${3:GLsizei width}, ${4:GLsizei height}, ${5:GLenum format}, ${6:GLenum type}, ${7:GLvoid* pixels})'
+  'glReleaseShaderCompiler':
+    'prefix': 'glReleaseShaderCompiler'
+    'body': 'glReleaseShaderCompiler()'
+  'glRenderbufferStorage':
+    'prefix': 'glRenderbufferStorage'
+    'body': 'glRenderbufferStorage(${1:GLenum target}, ${2:GLenum internalformat}, ${3:GLsizei width}, ${4:GLsizei height})'
+  'glRenderbufferStorageMultisample':
+    'prefix': 'glRenderbufferStorageMultisample'
+    'body': 'glRenderbufferStorageMultisample(${1:GLenum target}, ${2:GLsizei samples}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height})'
+  'glRenderbufferStorageMultisampleAPPLE':
+    'prefix': 'glRenderbufferStorageMultisampleAPPLE'
+    'body': 'glRenderbufferStorageMultisampleAPPLE(${1:GLenum target}, ${2:GLsizei samples}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height})'
+  'glRenderbufferStorageOES':
+    'prefix': 'glRenderbufferStorageOES'
+    'body': 'glRenderbufferStorageOES(${1:GLenum target}, ${2:GLenum internalformat}, ${3:GLsizei width}, ${4:GLsizei height})'
+  'glResolveMultisampleFramebufferAPPLE':
+    'prefix': 'glResolveMultisampleFramebufferAPPLE'
+    'body': 'glResolveMultisampleFramebufferAPPLE()'
+  'glResumeTransformFeedback':
+    'prefix': 'glResumeTransformFeedback'
+    'body': 'glResumeTransformFeedback()'
+  'glRotatef':
+    'prefix': 'glRotatef'
+    'body': 'glRotatef(${1:GLfloat angle}, ${2:GLfloat x}, ${3:GLfloat y}, ${4:GLfloat z})'
+  'glRotatex':
+    'prefix': 'glRotatex'
+    'body': 'glRotatex(${1:GLfixed angle}, ${2:GLfixed x}, ${3:GLfixed y}, ${4:GLfixed z})'
+  'glSampleCoverage':
+    'prefix': 'glSampleCoverage'
+    'body': 'glSampleCoverage(${1:GLclampf value}, ${2:GLboolean invert})'
+  'glSampleCoveragex':
+    'prefix': 'glSampleCoveragex'
+    'body': 'glSampleCoveragex(${1:GLclampx value}, ${2:GLboolean invert})'
+  'glSamplerParameterf':
+    'prefix': 'glSamplerParameterf'
+    'body': 'glSamplerParameterf(${1:GLuint sampler}, ${2:GLenum pname}, ${3:GLfloat param})'
+  'glSamplerParameterfv':
+    'prefix': 'glSamplerParameterfv'
+    'body': 'glSamplerParameterfv(${1:GLuint sampler}, ${2:GLenum pname}, ${3:GLfloat* param})'
+  'glSamplerParameteri':
+    'prefix': 'glSamplerParameteri'
+    'body': 'glSamplerParameteri(${1:GLuint sampler}, ${2:GLenum pname}, ${3:GLint param})'
+  'glSamplerParameteriv':
+    'prefix': 'glSamplerParameteriv'
+    'body': 'glSamplerParameteriv(${1:GLuint sampler}, ${2:GLenum pname}, ${3:GLint* param})'
+  'glScalef':
+    'prefix': 'glScalef'
+    'body': 'glScalef(${1:GLfloat x}, ${2:GLfloat y}, ${3:GLfloat z})'
+  'glScalex':
+    'prefix': 'glScalex'
+    'body': 'glScalex(${1:GLfixed x}, ${2:GLfixed y}, ${3:GLfixed z})'
+  'glScissor':
+    'prefix': 'glScissor'
+    'body': 'glScissor(${1:GLint x}, ${2:GLint y}, ${3:GLsizei width}, ${4:GLsizei height})'
+  'glShadeModel':
+    'prefix': 'glShadeModel'
+    'body': 'glShadeModel(${1:GLenum mode})'
+  'glShaderBinary':
+    'prefix': 'glShaderBinary'
+    'body': 'glShaderBinary(${1:GLsizei n}, ${2:GLuint* shaders}, ${3:GLenum binaryformat}, ${4:GLvoid* binary}, ${5:GLsizei length})'
+  'glShaderSource':
+    'prefix': 'glShaderSource'
+    'body': 'glShaderSource(${1:GLuint shader}, ${2:GLsizei count}, ${3:GLchar ** string}, ${4:GLint* length})'
+  'glStencilFunc':
+    'prefix': 'glStencilFunc'
+    'body': 'glStencilFunc(${1:GLenum func}, ${2:GLint ref}, ${3:GLuint mask})'
+  'glStencilFuncSeparate':
+    'prefix': 'glStencilFuncSeparate'
+    'body': 'glStencilFuncSeparate(${1:GLenum face}, ${2:GLenum func}, ${3:GLint ref}, ${4:GLuint mask})'
+  'glStencilMask':
+    'prefix': 'glStencilMask'
+    'body': 'glStencilMask(${1:GLuint mask})'
+  'glStencilMaskSeparate':
+    'prefix': 'glStencilMaskSeparate'
+    'body': 'glStencilMaskSeparate(${1:GLenum face}, ${2:GLuint mask})'
+  'glStencilOp':
+    'prefix': 'glStencilOp'
+    'body': 'glStencilOp(${1:GLenum fail}, ${2:GLenum zfail}, ${3:GLenum zpass})'
+  'glStencilOpSeparate':
+    'prefix': 'glStencilOpSeparate'
+    'body': 'glStencilOpSeparate(${1:GLenum face}, ${2:GLenum fail}, ${3:GLenum zfail}, ${4:GLenum zpass})'
+  'glTexCoordPointer':
+    'prefix': 'glTexCoordPointer'
+    'body': 'glTexCoordPointer(${1:GLint size}, ${2:GLenum type}, ${3:GLsizei stride}, ${4:GLvoid* pointer})'
+  'glTexEnvf':
+    'prefix': 'glTexEnvf'
+    'body': 'glTexEnvf(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfloat param})'
+  'glTexEnvfv':
+    'prefix': 'glTexEnvfv'
+    'body': 'glTexEnvfv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glTexEnvi':
+    'prefix': 'glTexEnvi'
+    'body': 'glTexEnvi(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint param})'
+  'glTexEnviv':
+    'prefix': 'glTexEnviv'
+    'body': 'glTexEnviv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glTexEnvx':
+    'prefix': 'glTexEnvx'
+    'body': 'glTexEnvx(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfixed param})'
+  'glTexEnvxv':
+    'prefix': 'glTexEnvxv'
+    'body': 'glTexEnvxv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glTexImage2D':
+    'prefix': 'glTexImage2D'
+    'body': 'glTexImage2D(${1:GLenum target}, ${2:GLint level}, ${3:GLint internalformat}, ${4:GLsizei width}, ${5:GLsizei height}, ${6:GLint border}, ${7:GLenum format}, ${8:GLenum type}, ${9:GLvoid* pixels})'
+  'glTexImage3D':
+    'prefix': 'glTexImage3D'
+    'body': 'glTexImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLint internalformat}, ${4:GLsizei width}, ${5:GLsizei height}, ${6:GLsizei depth}, ${7:GLint border}, ${8:GLenum format}, ${9:GLenum type}, ${10:GLvoid* pixels})'
+  'glTexParameterf':
+    'prefix': 'glTexParameterf'
+    'body': 'glTexParameterf(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfloat param})'
+  'glTexParameterfv':
+    'prefix': 'glTexParameterfv'
+    'body': 'glTexParameterfv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfloat* params})'
+  'glTexParameteri':
+    'prefix': 'glTexParameteri'
+    'body': 'glTexParameteri(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint param})'
+  'glTexParameteriv':
+    'prefix': 'glTexParameteriv'
+    'body': 'glTexParameteriv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLint* params})'
+  'glTexParameterx':
+    'prefix': 'glTexParameterx'
+    'body': 'glTexParameterx(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfixed param})'
+  'glTexParameterxv':
+    'prefix': 'glTexParameterxv'
+    'body': 'glTexParameterxv(${1:GLenum target}, ${2:GLenum pname}, ${3:GLfixed* params})'
+  'glTexStorage2D':
+    'prefix': 'glTexStorage2D'
+    'body': 'glTexStorage2D(${1:GLenum target}, ${2:GLsizei levels}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height})'
+  'glTexStorage2DEXT':
+    'prefix': 'glTexStorage2DEXT'
+    'body': 'glTexStorage2DEXT(${1:GLenum target}, ${2:GLsizei levels}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height})'
+  'glTexStorage3D':
+    'prefix': 'glTexStorage3D'
+    'body': 'glTexStorage3D(${1:GLenum target}, ${2:GLsizei levels}, ${3:GLenum internalformat}, ${4:GLsizei width}, ${5:GLsizei height}, ${6:GLsizei depth})'
+  'glTexSubImage2D':
+    'prefix': 'glTexSubImage2D'
+    'body': 'glTexSubImage2D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLsizei width}, ${6:GLsizei height}, ${7:GLenum format}, ${8:GLenum type}, ${9:GLvoid* pixels})'
+  'glTexSubImage3D':
+    'prefix': 'glTexSubImage3D'
+    'body': 'glTexSubImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLint zoffset}, ${6:GLsizei width}, ${7:GLsizei height}, ${8:GLsizei depth}, ${9:GLenum format}, ${10:GLenum type}, ${11:GLvoid* pixels})'
+  'glTransformFeedbackVaryings':
+    'prefix': 'glTransformFeedbackVaryings'
+    'body': 'glTransformFeedbackVaryings(${1:GLuint program}, ${2:GLsizei count}, ${3:GLchar ** varyings}, ${4:GLenum bufferMode})'
+  'glTranslatef':
+    'prefix': 'glTranslatef'
+    'body': 'glTranslatef(${1:GLfloat x}, ${2:GLfloat y}, ${3:GLfloat z})'
+  'glTranslatex':
+    'prefix': 'glTranslatex'
+    'body': 'glTranslatex(${1:GLfixed x}, ${2:GLfixed y}, ${3:GLfixed z})'
+  'glUniform1f':
+    'prefix': 'glUniform1f'
+    'body': 'glUniform1f(${1:GLint location}, ${2:GLfloat x})'
+  'glUniform1fv':
+    'prefix': 'glUniform1fv'
+    'body': 'glUniform1fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLfloat* v})'
+  'glUniform1i':
+    'prefix': 'glUniform1i'
+    'body': 'glUniform1i(${1:GLint location}, ${2:GLint x})'
+  'glUniform1iv':
+    'prefix': 'glUniform1iv'
+    'body': 'glUniform1iv(${1:GLint location}, ${2:GLsizei count}, ${3:GLint* v})'
+  'glUniform1ui':
+    'prefix': 'glUniform1ui'
+    'body': 'glUniform1ui(${1:GLint location}, ${2:GLuint v0})'
+  'glUniform1uiv':
+    'prefix': 'glUniform1uiv'
+    'body': 'glUniform1uiv(${1:GLint location}, ${2:GLsizei count}, ${3:GLuint* value})'
+  'glUniform2f':
+    'prefix': 'glUniform2f'
+    'body': 'glUniform2f(${1:GLint location}, ${2:GLfloat x}, ${3:GLfloat y})'
+  'glUniform2fv':
+    'prefix': 'glUniform2fv'
+    'body': 'glUniform2fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLfloat* v})'
+  'glUniform2i':
+    'prefix': 'glUniform2i'
+    'body': 'glUniform2i(${1:GLint location}, ${2:GLint x}, ${3:GLint y})'
+  'glUniform2iv':
+    'prefix': 'glUniform2iv'
+    'body': 'glUniform2iv(${1:GLint location}, ${2:GLsizei count}, ${3:GLint* v})'
+  'glUniform2ui':
+    'prefix': 'glUniform2ui'
+    'body': 'glUniform2ui(${1:GLint location}, ${2:GLuint v0}, ${3:GLuint v1})'
+  'glUniform2uiv':
+    'prefix': 'glUniform2uiv'
+    'body': 'glUniform2uiv(${1:GLint location}, ${2:GLsizei count}, ${3:GLuint* value})'
+  'glUniform3f':
+    'prefix': 'glUniform3f'
+    'body': 'glUniform3f(${1:GLint location}, ${2:GLfloat x}, ${3:GLfloat y}, ${4:GLfloat z})'
+  'glUniform3fv':
+    'prefix': 'glUniform3fv'
+    'body': 'glUniform3fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLfloat* v})'
+  'glUniform3i':
+    'prefix': 'glUniform3i'
+    'body': 'glUniform3i(${1:GLint location}, ${2:GLint x}, ${3:GLint y}, ${4:GLint z})'
+  'glUniform3iv':
+    'prefix': 'glUniform3iv'
+    'body': 'glUniform3iv(${1:GLint location}, ${2:GLsizei count}, ${3:GLint* v})'
+  'glUniform3ui':
+    'prefix': 'glUniform3ui'
+    'body': 'glUniform3ui(${1:GLint location}, ${2:GLuint v0}, ${3:GLuint v1}, ${4:GLuint v2})'
+  'glUniform3uiv':
+    'prefix': 'glUniform3uiv'
+    'body': 'glUniform3uiv(${1:GLint location}, ${2:GLsizei count}, ${3:GLuint* value})'
+  'glUniform4f':
+    'prefix': 'glUniform4f'
+    'body': 'glUniform4f(${1:GLint location}, ${2:GLfloat x}, ${3:GLfloat y}, ${4:GLfloat z}, ${5:GLfloat w})'
+  'glUniform4fv':
+    'prefix': 'glUniform4fv'
+    'body': 'glUniform4fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLfloat* v})'
+  'glUniform4i':
+    'prefix': 'glUniform4i'
+    'body': 'glUniform4i(${1:GLint location}, ${2:GLint x}, ${3:GLint y}, ${4:GLint z}, ${5:GLint w})'
+  'glUniform4iv':
+    'prefix': 'glUniform4iv'
+    'body': 'glUniform4iv(${1:GLint location}, ${2:GLsizei count}, ${3:GLint* v})'
+  'glUniform4ui':
+    'prefix': 'glUniform4ui'
+    'body': 'glUniform4ui(${1:GLint location}, ${2:GLuint v0}, ${3:GLuint v1}, ${4:GLuint v2}, ${5:GLuint v3})'
+  'glUniform4uiv':
+    'prefix': 'glUniform4uiv'
+    'body': 'glUniform4uiv(${1:GLint location}, ${2:GLsizei count}, ${3:GLuint* value})'
+  'glUniformBlockBinding':
+    'prefix': 'glUniformBlockBinding'
+    'body': 'glUniformBlockBinding(${1:GLuint program}, ${2:GLuint uniformBlockIndex}, ${3:GLuint uniformBlockBinding})'
+  'glUniformMatrix2fv':
+    'prefix': 'glUniformMatrix2fv'
+    'body': 'glUniformMatrix2fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix2x3fv':
+    'prefix': 'glUniformMatrix2x3fv'
+    'body': 'glUniformMatrix2x3fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix2x4fv':
+    'prefix': 'glUniformMatrix2x4fv'
+    'body': 'glUniformMatrix2x4fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix3fv':
+    'prefix': 'glUniformMatrix3fv'
+    'body': 'glUniformMatrix3fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix3x2fv':
+    'prefix': 'glUniformMatrix3x2fv'
+    'body': 'glUniformMatrix3x2fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix3x4fv':
+    'prefix': 'glUniformMatrix3x4fv'
+    'body': 'glUniformMatrix3x4fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix4fv':
+    'prefix': 'glUniformMatrix4fv'
+    'body': 'glUniformMatrix4fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix4x2fv':
+    'prefix': 'glUniformMatrix4x2fv'
+    'body': 'glUniformMatrix4x2fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUniformMatrix4x3fv':
+    'prefix': 'glUniformMatrix4x3fv'
+    'body': 'glUniformMatrix4x3fv(${1:GLint location}, ${2:GLsizei count}, ${3:GLboolean transpose}, ${4:GLfloat* value})'
+  'glUnmapBuffer':
+    'prefix': 'glUnmapBuffer'
+    'body': 'glUnmapBuffer(${1:GLenum target})'
+  'glUnmapBufferOES':
+    'prefix': 'glUnmapBufferOES'
+    'body': 'glUnmapBufferOES(${1:GLenum target})'
+  'glUseProgram':
+    'prefix': 'glUseProgram'
+    'body': 'glUseProgram(${1:GLuint program})'
+  'glUseProgramStagesEXT':
+    'prefix': 'glUseProgramStagesEXT'
+    'body': 'glUseProgramStagesEXT(${1:GLuint pipeline}, ${2:GLbitfield stages}, ${3:GLuint program})'
+  'glValidateProgram':
+    'prefix': 'glValidateProgram'
+    'body': 'glValidateProgram(${1:GLuint program})'
+  'glValidateProgramPipelineEXT':
+    'prefix': 'glValidateProgramPipelineEXT'
+    'body': 'glValidateProgramPipelineEXT(${1:GLuint pipeline})'
+  'glVertexAttrib1f':
+    'prefix': 'glVertexAttrib1f'
+    'body': 'glVertexAttrib1f(${1:GLuint indx}, ${2:GLfloat x})'
+  'glVertexAttrib1fv':
+    'prefix': 'glVertexAttrib1fv'
+    'body': 'glVertexAttrib1fv(${1:GLuint indx}, ${2:GLfloat* values})'
+  'glVertexAttrib2f':
+    'prefix': 'glVertexAttrib2f'
+    'body': 'glVertexAttrib2f(${1:GLuint indx}, ${2:GLfloat x}, ${3:GLfloat y})'
+  'glVertexAttrib2fv':
+    'prefix': 'glVertexAttrib2fv'
+    'body': 'glVertexAttrib2fv(${1:GLuint indx}, ${2:GLfloat* values})'
+  'glVertexAttrib3f':
+    'prefix': 'glVertexAttrib3f'
+    'body': 'glVertexAttrib3f(${1:GLuint indx}, ${2:GLfloat x}, ${3:GLfloat y}, ${4:GLfloat z})'
+  'glVertexAttrib3fv':
+    'prefix': 'glVertexAttrib3fv'
+    'body': 'glVertexAttrib3fv(${1:GLuint indx}, ${2:GLfloat* values})'
+  'glVertexAttrib4f':
+    'prefix': 'glVertexAttrib4f'
+    'body': 'glVertexAttrib4f(${1:GLuint indx}, ${2:GLfloat x}, ${3:GLfloat y}, ${4:GLfloat z}, ${5:GLfloat w})'
+  'glVertexAttrib4fv':
+    'prefix': 'glVertexAttrib4fv'
+    'body': 'glVertexAttrib4fv(${1:GLuint indx}, ${2:GLfloat* values})'
+  'glVertexAttribDivisor':
+    'prefix': 'glVertexAttribDivisor'
+    'body': 'glVertexAttribDivisor(${1:GLuint index}, ${2:GLuint divisor})'
+  'glVertexAttribDivisorEXT':
+    'prefix': 'glVertexAttribDivisorEXT'
+    'body': 'glVertexAttribDivisorEXT(${1:GLuint index}, ${2:GLuint divisor})'
+  'glVertexAttribI4i':
+    'prefix': 'glVertexAttribI4i'
+    'body': 'glVertexAttribI4i(${1:GLuint index}, ${2:GLint x}, ${3:GLint y}, ${4:GLint z}, ${5:GLint w})'
+  'glVertexAttribI4iv':
+    'prefix': 'glVertexAttribI4iv'
+    'body': 'glVertexAttribI4iv(${1:GLuint index}, ${2:GLint* v})'
+  'glVertexAttribI4ui':
+    'prefix': 'glVertexAttribI4ui'
+    'body': 'glVertexAttribI4ui(${1:GLuint index}, ${2:GLuint x}, ${3:GLuint y}, ${4:GLuint z}, ${5:GLuint w})'
+  'glVertexAttribI4uiv':
+    'prefix': 'glVertexAttribI4uiv'
+    'body': 'glVertexAttribI4uiv(${1:GLuint index}, ${2:GLuint* v})'
+  'glVertexAttribIPointer':
+    'prefix': 'glVertexAttribIPointer'
+    'body': 'glVertexAttribIPointer(${1:GLuint index}, ${2:GLint size}, ${3:GLenum type}, ${4:GLsizei stride}, ${5:GLvoid* pointer})'
+  'glVertexAttribPointer':
+    'prefix': 'glVertexAttribPointer'
+    'body': 'glVertexAttribPointer(${1:GLuint indx}, ${2:GLint size}, ${3:GLenum type}, ${4:GLboolean normalized}, ${5:GLsizei stride}, ${6:GLvoid* ptr})'
+  'glVertexPointer':
+    'prefix': 'glVertexPointer'
+    'body': 'glVertexPointer(${1:GLint size}, ${2:GLenum type}, ${3:GLsizei stride}, ${4:GLvoid* pointer})'
+  'glViewport':
+    'prefix': 'glViewport'
+    'body': 'glViewport(${1:GLint x}, ${2:GLint y}, ${3:GLsizei width}, ${4:GLsizei height})'
+  'glWaitSync':
+    'prefix': 'glWaitSync'
+    'body': 'glWaitSync(${1:GLsync sync}, ${2:GLbitfield flags}, ${3:GLuint64 timeout})'
+  'glWaitSyncAPPLE':
+    'prefix': 'glWaitSyncAPPLE'
+    'body': 'glWaitSyncAPPLE(${1:GLsync sync}, ${2:GLbitfield flags}, ${3:GLuint64 timeout})'
+  'glWeightPointerOES':
+    'prefix': 'glWeightPointerOES'
+    'body': 'glWeightPointerOES(${1:GLint size}, ${2:GLenum type}, ${3:GLsizei stride}, ${4:GLvoid* pointer})'
+  'API':
+    'prefix': 'API'
+    'body': 'API()'
+  'EAGLContext.currentContext':
+    'prefix': 'currentContext'
+    'body': 'EAGLContext.currentContext()'
+  'debugLabel':
+    'prefix': 'debugLabel'
+    'body': 'debugLabel()'
+  'initWithAPI:':
+    'prefix': 'initWithAPI:'
+    'body': 'initWithAPI(${1:EAGLRenderingAPI api})'
+  'initWithAPI:sharegroup:':
+    'prefix': 'initWithAPI:sharegroup:'
+    'body': 'initWithAPI(${1:EAGLRenderingAPI api}, sharegroup:${2:EAGLSharegroup* sharegroup})'
+  'isMultiThreaded':
+    'prefix': 'isMultiThreaded'
+    'body': 'isMultiThreaded()'
+  'presentRenderbuffer:':
+    'prefix': 'presentRenderbuffer:'
+    'body': 'presentRenderbuffer(${1:NSUInteger target})'
+  'renderbufferStorage:fromDrawable:':
+    'prefix': 'renderbufferStorage:fromDrawable:'
+    'body': 'renderbufferStorage(${1:NSUInteger target}, fromDrawable:${2:id drawable})'
+  'EAGLContext.setCurrentContext:':
+    'prefix': 'setCurrentContext:'
+    'body': 'EAGLContext.setCurrentContext(${1:EAGLContext* context})'
+  'setDebugLabel:':
+    'prefix': 'setDebugLabel:'
+    'body': 'setDebugLabel(${1:NSString* debugLabel})'
+  'setMultiThreaded:':
+    'prefix': 'setMultiThreaded:'
+    'body': 'setMultiThreaded(${1:BOOL multiThreaded})'
+  'sharegroup':
+    'prefix': 'sharegroup'
+    'body': 'sharegroup()'
+  'debugLabel':
+    'prefix': 'debugLabel'
+    'body': 'debugLabel()'
+  'setDebugLabel:':
+    'prefix': 'setDebugLabel:'
+    'body': 'setDebugLabel(${1:NSString* debugLabel})'
+  'drawableProperties':
+    'prefix': 'drawableProperties'
+    'body': 'drawableProperties()'
+  'setDrawableProperties:':
+    'prefix': 'setDrawableProperties:'
+    'body': 'setDrawableProperties(${1:NSDictionary* drawableProperties})'
+  'drawableProperties':
+    'prefix': 'drawableProperties'
+    'body': 'drawableProperties()'
+  'setDrawableProperties:':
+    'prefix': 'setDrawableProperties:'
+    'body': 'setDrawableProperties(${1:NSDictionary* drawableProperties})'

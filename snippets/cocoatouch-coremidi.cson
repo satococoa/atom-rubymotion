@@ -1,0 +1,580 @@
+'.source.rubymotion':
+  'MIDINetworkBonjourServiceType (NSString*)':
+    'prefix': 'MIDINetworkBonjourServiceType'
+    'body': 'MIDINetworkBonjourServiceType'
+  'MIDINetworkNotificationContactsDidChange (NSString*)':
+    'prefix': 'MIDINetworkNotificationContactsDidChange'
+    'body': 'MIDINetworkNotificationContactsDidChange'
+  'MIDINetworkNotificationSessionDidChange (NSString*)':
+    'prefix': 'MIDINetworkNotificationSessionDidChange'
+    'body': 'MIDINetworkNotificationSessionDidChange'
+  'kMIDIPropertyAdvanceScheduleTimeMuSec (CFStringRef)':
+    'prefix': 'kMIDIPropertyAdvanceScheduleTimeMuSec'
+    'body': 'KMIDIPropertyAdvanceScheduleTimeMuSec'
+  'kMIDIPropertyCanRoute (CFStringRef)':
+    'prefix': 'kMIDIPropertyCanRoute'
+    'body': 'KMIDIPropertyCanRoute'
+  'kMIDIPropertyConnectionUniqueID (CFStringRef)':
+    'prefix': 'kMIDIPropertyConnectionUniqueID'
+    'body': 'KMIDIPropertyConnectionUniqueID'
+  'kMIDIPropertyDeviceID (CFStringRef)':
+    'prefix': 'kMIDIPropertyDeviceID'
+    'body': 'KMIDIPropertyDeviceID'
+  'kMIDIPropertyDisplayName (CFStringRef)':
+    'prefix': 'kMIDIPropertyDisplayName'
+    'body': 'KMIDIPropertyDisplayName'
+  'kMIDIPropertyDriverDeviceEditorApp (CFStringRef)':
+    'prefix': 'kMIDIPropertyDriverDeviceEditorApp'
+    'body': 'KMIDIPropertyDriverDeviceEditorApp'
+  'kMIDIPropertyDriverOwner (CFStringRef)':
+    'prefix': 'kMIDIPropertyDriverOwner'
+    'body': 'KMIDIPropertyDriverOwner'
+  'kMIDIPropertyDriverVersion (CFStringRef)':
+    'prefix': 'kMIDIPropertyDriverVersion'
+    'body': 'KMIDIPropertyDriverVersion'
+  'kMIDIPropertyImage (CFStringRef)':
+    'prefix': 'kMIDIPropertyImage'
+    'body': 'KMIDIPropertyImage'
+  'kMIDIPropertyIsBroadcast (CFStringRef)':
+    'prefix': 'kMIDIPropertyIsBroadcast'
+    'body': 'KMIDIPropertyIsBroadcast'
+  'kMIDIPropertyIsDrumMachine (CFStringRef)':
+    'prefix': 'kMIDIPropertyIsDrumMachine'
+    'body': 'KMIDIPropertyIsDrumMachine'
+  'kMIDIPropertyIsEffectUnit (CFStringRef)':
+    'prefix': 'kMIDIPropertyIsEffectUnit'
+    'body': 'KMIDIPropertyIsEffectUnit'
+  'kMIDIPropertyIsEmbeddedEntity (CFStringRef)':
+    'prefix': 'kMIDIPropertyIsEmbeddedEntity'
+    'body': 'KMIDIPropertyIsEmbeddedEntity'
+  'kMIDIPropertyIsMixer (CFStringRef)':
+    'prefix': 'kMIDIPropertyIsMixer'
+    'body': 'KMIDIPropertyIsMixer'
+  'kMIDIPropertyIsSampler (CFStringRef)':
+    'prefix': 'kMIDIPropertyIsSampler'
+    'body': 'KMIDIPropertyIsSampler'
+  'kMIDIPropertyManufacturer (CFStringRef)':
+    'prefix': 'kMIDIPropertyManufacturer'
+    'body': 'KMIDIPropertyManufacturer'
+  'kMIDIPropertyMaxReceiveChannels (CFStringRef)':
+    'prefix': 'kMIDIPropertyMaxReceiveChannels'
+    'body': 'KMIDIPropertyMaxReceiveChannels'
+  'kMIDIPropertyMaxSysExSpeed (CFStringRef)':
+    'prefix': 'kMIDIPropertyMaxSysExSpeed'
+    'body': 'KMIDIPropertyMaxSysExSpeed'
+  'kMIDIPropertyMaxTransmitChannels (CFStringRef)':
+    'prefix': 'kMIDIPropertyMaxTransmitChannels'
+    'body': 'KMIDIPropertyMaxTransmitChannels'
+  'kMIDIPropertyModel (CFStringRef)':
+    'prefix': 'kMIDIPropertyModel'
+    'body': 'KMIDIPropertyModel'
+  'kMIDIPropertyName (CFStringRef)':
+    'prefix': 'kMIDIPropertyName'
+    'body': 'KMIDIPropertyName'
+  'kMIDIPropertyNameConfiguration (CFStringRef)':
+    'prefix': 'kMIDIPropertyNameConfiguration'
+    'body': 'KMIDIPropertyNameConfiguration'
+  'kMIDIPropertyOffline (CFStringRef)':
+    'prefix': 'kMIDIPropertyOffline'
+    'body': 'KMIDIPropertyOffline'
+  'kMIDIPropertyPanDisruptsStereo (CFStringRef)':
+    'prefix': 'kMIDIPropertyPanDisruptsStereo'
+    'body': 'KMIDIPropertyPanDisruptsStereo'
+  'kMIDIPropertyPrivate (CFStringRef)':
+    'prefix': 'kMIDIPropertyPrivate'
+    'body': 'KMIDIPropertyPrivate'
+  'kMIDIPropertyReceiveChannels (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceiveChannels'
+    'body': 'KMIDIPropertyReceiveChannels'
+  'kMIDIPropertyReceivesBankSelectLSB (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceivesBankSelectLSB'
+    'body': 'KMIDIPropertyReceivesBankSelectLSB'
+  'kMIDIPropertyReceivesBankSelectMSB (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceivesBankSelectMSB'
+    'body': 'KMIDIPropertyReceivesBankSelectMSB'
+  'kMIDIPropertyReceivesClock (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceivesClock'
+    'body': 'KMIDIPropertyReceivesClock'
+  'kMIDIPropertyReceivesMTC (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceivesMTC'
+    'body': 'KMIDIPropertyReceivesMTC'
+  'kMIDIPropertyReceivesNotes (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceivesNotes'
+    'body': 'KMIDIPropertyReceivesNotes'
+  'kMIDIPropertyReceivesProgramChanges (CFStringRef)':
+    'prefix': 'kMIDIPropertyReceivesProgramChanges'
+    'body': 'KMIDIPropertyReceivesProgramChanges'
+  'kMIDIPropertySingleRealtimeEntity (CFStringRef)':
+    'prefix': 'kMIDIPropertySingleRealtimeEntity'
+    'body': 'KMIDIPropertySingleRealtimeEntity'
+  'kMIDIPropertySupportsGeneralMIDI (CFStringRef)':
+    'prefix': 'kMIDIPropertySupportsGeneralMIDI'
+    'body': 'KMIDIPropertySupportsGeneralMIDI'
+  'kMIDIPropertySupportsMMC (CFStringRef)':
+    'prefix': 'kMIDIPropertySupportsMMC'
+    'body': 'KMIDIPropertySupportsMMC'
+  'kMIDIPropertySupportsShowControl (CFStringRef)':
+    'prefix': 'kMIDIPropertySupportsShowControl'
+    'body': 'KMIDIPropertySupportsShowControl'
+  'kMIDIPropertyTransmitChannels (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitChannels'
+    'body': 'KMIDIPropertyTransmitChannels'
+  'kMIDIPropertyTransmitsBankSelectLSB (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitsBankSelectLSB'
+    'body': 'KMIDIPropertyTransmitsBankSelectLSB'
+  'kMIDIPropertyTransmitsBankSelectMSB (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitsBankSelectMSB'
+    'body': 'KMIDIPropertyTransmitsBankSelectMSB'
+  'kMIDIPropertyTransmitsClock (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitsClock'
+    'body': 'KMIDIPropertyTransmitsClock'
+  'kMIDIPropertyTransmitsMTC (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitsMTC'
+    'body': 'KMIDIPropertyTransmitsMTC'
+  'kMIDIPropertyTransmitsNotes (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitsNotes'
+    'body': 'KMIDIPropertyTransmitsNotes'
+  'kMIDIPropertyTransmitsProgramChanges (CFStringRef)':
+    'prefix': 'kMIDIPropertyTransmitsProgramChanges'
+    'body': 'KMIDIPropertyTransmitsProgramChanges'
+  'kMIDIPropertyUniqueID (CFStringRef)':
+    'prefix': 'kMIDIPropertyUniqueID'
+    'body': 'KMIDIPropertyUniqueID'
+  'MIDINetworkConnectionPolicy_Anyone (2)':
+    'prefix': 'MIDINetworkConnectionPolicy_Anyone'
+    'body': 'MIDINetworkConnectionPolicy_Anyone'
+  'MIDINetworkConnectionPolicy_HostsInContactList (1)':
+    'prefix': 'MIDINetworkConnectionPolicy_HostsInContactList'
+    'body': 'MIDINetworkConnectionPolicy_HostsInContactList'
+  'MIDINetworkConnectionPolicy_NoOne (0)':
+    'prefix': 'MIDINetworkConnectionPolicy_NoOne'
+    'body': 'MIDINetworkConnectionPolicy_NoOne'
+  'kMIDIControlType_14Bit (1)':
+    'prefix': 'kMIDIControlType_14Bit'
+    'body': 'KMIDIControlType_14Bit'
+  'kMIDIControlType_14BitNRPN (5)':
+    'prefix': 'kMIDIControlType_14BitNRPN'
+    'body': 'KMIDIControlType_14BitNRPN'
+  'kMIDIControlType_14BitRPN (3)':
+    'prefix': 'kMIDIControlType_14BitRPN'
+    'body': 'KMIDIControlType_14BitRPN'
+  'kMIDIControlType_7Bit (0)':
+    'prefix': 'kMIDIControlType_7Bit'
+    'body': 'KMIDIControlType_7Bit'
+  'kMIDIControlType_7BitNRPN (4)':
+    'prefix': 'kMIDIControlType_7BitNRPN'
+    'body': 'KMIDIControlType_7BitNRPN'
+  'kMIDIControlType_7BitRPN (2)':
+    'prefix': 'kMIDIControlType_7BitRPN'
+    'body': 'KMIDIControlType_7BitRPN'
+  'kMIDIIDNotUnique (-10843)':
+    'prefix': 'kMIDIIDNotUnique'
+    'body': 'KMIDIIDNotUnique'
+  'kMIDIInvalidClient (-10830)':
+    'prefix': 'kMIDIInvalidClient'
+    'body': 'KMIDIInvalidClient'
+  'kMIDIInvalidPort (-10831)':
+    'prefix': 'kMIDIInvalidPort'
+    'body': 'KMIDIInvalidPort'
+  'kMIDIInvalidUniqueID (0)':
+    'prefix': 'kMIDIInvalidUniqueID'
+    'body': 'KMIDIInvalidUniqueID'
+  'kMIDIMessageSendErr (-10838)':
+    'prefix': 'kMIDIMessageSendErr'
+    'body': 'KMIDIMessageSendErr'
+  'kMIDIMsgIOError (7)':
+    'prefix': 'kMIDIMsgIOError'
+    'body': 'KMIDIMsgIOError'
+  'kMIDIMsgObjectAdded (2)':
+    'prefix': 'kMIDIMsgObjectAdded'
+    'body': 'KMIDIMsgObjectAdded'
+  'kMIDIMsgObjectRemoved (3)':
+    'prefix': 'kMIDIMsgObjectRemoved'
+    'body': 'KMIDIMsgObjectRemoved'
+  'kMIDIMsgPropertyChanged (4)':
+    'prefix': 'kMIDIMsgPropertyChanged'
+    'body': 'KMIDIMsgPropertyChanged'
+  'kMIDIMsgSerialPortOwnerChanged (6)':
+    'prefix': 'kMIDIMsgSerialPortOwnerChanged'
+    'body': 'KMIDIMsgSerialPortOwnerChanged'
+  'kMIDIMsgSetupChanged (1)':
+    'prefix': 'kMIDIMsgSetupChanged'
+    'body': 'KMIDIMsgSetupChanged'
+  'kMIDIMsgThruConnectionsChanged (5)':
+    'prefix': 'kMIDIMsgThruConnectionsChanged'
+    'body': 'KMIDIMsgThruConnectionsChanged'
+  'kMIDINoConnection (-10833)':
+    'prefix': 'kMIDINoConnection'
+    'body': 'KMIDINoConnection'
+  'kMIDINoCurrentSetup (-10837)':
+    'prefix': 'kMIDINoCurrentSetup'
+    'body': 'KMIDINoCurrentSetup'
+  'kMIDINotPermitted (-10844)':
+    'prefix': 'kMIDINotPermitted'
+    'body': 'KMIDINotPermitted'
+  'kMIDIObjectNotFound (-10842)':
+    'prefix': 'kMIDIObjectNotFound'
+    'body': 'KMIDIObjectNotFound'
+  'kMIDIObjectType_Destination (3)':
+    'prefix': 'kMIDIObjectType_Destination'
+    'body': 'KMIDIObjectType_Destination'
+  'kMIDIObjectType_Device (0)':
+    'prefix': 'kMIDIObjectType_Device'
+    'body': 'KMIDIObjectType_Device'
+  'kMIDIObjectType_Entity (1)':
+    'prefix': 'kMIDIObjectType_Entity'
+    'body': 'KMIDIObjectType_Entity'
+  'kMIDIObjectType_ExternalDestination (19)':
+    'prefix': 'kMIDIObjectType_ExternalDestination'
+    'body': 'KMIDIObjectType_ExternalDestination'
+  'kMIDIObjectType_ExternalDevice (16)':
+    'prefix': 'kMIDIObjectType_ExternalDevice'
+    'body': 'KMIDIObjectType_ExternalDevice'
+  'kMIDIObjectType_ExternalEntity (17)':
+    'prefix': 'kMIDIObjectType_ExternalEntity'
+    'body': 'KMIDIObjectType_ExternalEntity'
+  'kMIDIObjectType_ExternalMask (16)':
+    'prefix': 'kMIDIObjectType_ExternalMask'
+    'body': 'KMIDIObjectType_ExternalMask'
+  'kMIDIObjectType_ExternalSource (18)':
+    'prefix': 'kMIDIObjectType_ExternalSource'
+    'body': 'KMIDIObjectType_ExternalSource'
+  'kMIDIObjectType_Other (-1)':
+    'prefix': 'kMIDIObjectType_Other'
+    'body': 'KMIDIObjectType_Other'
+  'kMIDIObjectType_Source (2)':
+    'prefix': 'kMIDIObjectType_Source'
+    'body': 'KMIDIObjectType_Source'
+  'kMIDIServerStartErr (-10839)':
+    'prefix': 'kMIDIServerStartErr'
+    'body': 'KMIDIServerStartErr'
+  'kMIDISetupFormatErr (-10840)':
+    'prefix': 'kMIDISetupFormatErr'
+    'body': 'KMIDISetupFormatErr'
+  'kMIDIThruConnection_MaxEndpoints (8)':
+    'prefix': 'kMIDIThruConnection_MaxEndpoints'
+    'body': 'KMIDIThruConnection_MaxEndpoints'
+  'kMIDITransform_Add (8)':
+    'prefix': 'kMIDITransform_Add'
+    'body': 'KMIDITransform_Add'
+  'kMIDITransform_FilterOut (1)':
+    'prefix': 'kMIDITransform_FilterOut'
+    'body': 'KMIDITransform_FilterOut'
+  'kMIDITransform_MapControl (2)':
+    'prefix': 'kMIDITransform_MapControl'
+    'body': 'KMIDITransform_MapControl'
+  'kMIDITransform_MapValue (12)':
+    'prefix': 'kMIDITransform_MapValue'
+    'body': 'KMIDITransform_MapValue'
+  'kMIDITransform_MaxValue (11)':
+    'prefix': 'kMIDITransform_MaxValue'
+    'body': 'KMIDITransform_MaxValue'
+  'kMIDITransform_MinValue (10)':
+    'prefix': 'kMIDITransform_MinValue'
+    'body': 'KMIDITransform_MinValue'
+  'kMIDITransform_None (0)':
+    'prefix': 'kMIDITransform_None'
+    'body': 'KMIDITransform_None'
+  'kMIDITransform_Scale (9)':
+    'prefix': 'kMIDITransform_Scale'
+    'body': 'KMIDITransform_Scale'
+  'kMIDIUnknownEndpoint (-10834)':
+    'prefix': 'kMIDIUnknownEndpoint'
+    'body': 'KMIDIUnknownEndpoint'
+  'kMIDIUnknownProperty (-10835)':
+    'prefix': 'kMIDIUnknownProperty'
+    'body': 'KMIDIUnknownProperty'
+  'kMIDIWrongEndpointType (-10832)':
+    'prefix': 'kMIDIWrongEndpointType'
+    'body': 'KMIDIWrongEndpointType'
+  'kMIDIWrongPropertyType (-10836)':
+    'prefix': 'kMIDIWrongPropertyType'
+    'body': 'KMIDIWrongPropertyType'
+  'kMIDIWrongThread (-10841)':
+    'prefix': 'kMIDIWrongThread'
+    'body': 'KMIDIWrongThread'
+  'MIDIClientCreate':
+    'prefix': 'MIDIClientCreate'
+    'body': 'MIDIClientCreate(${1:CFStringRef name}, ${2:MIDINotifyProc notifyProc}, ${3:void* notifyRefCon}, ${4:MIDIClientRef* outClient})'
+  'MIDIClientDispose':
+    'prefix': 'MIDIClientDispose'
+    'body': 'MIDIClientDispose(${1:MIDIClientRef client})'
+  'MIDIDestinationCreate':
+    'prefix': 'MIDIDestinationCreate'
+    'body': 'MIDIDestinationCreate(${1:MIDIClientRef client}, ${2:CFStringRef name}, ${3:MIDIReadProc readProc}, ${4:void* refCon}, ${5:MIDIEndpointRef* outDest})'
+  'MIDIDeviceAddEntity':
+    'prefix': 'MIDIDeviceAddEntity'
+    'body': 'MIDIDeviceAddEntity(${1:MIDIDeviceRef device}, ${2:CFStringRef name}, ${3:Boolean embedded}, ${4:ItemCount numSourceEndpoints}, ${5:ItemCount numDestinationEndpoints}, ${6:MIDIEntityRef* newEntity})'
+  'MIDIDeviceCreate':
+    'prefix': 'MIDIDeviceCreate'
+    'body': 'MIDIDeviceCreate(${1:MIDIDriverRef owner}, ${2:CFStringRef name}, ${3:CFStringRef manufacturer}, ${4:CFStringRef model}, ${5:MIDIDeviceRef* outDevice})'
+  'MIDIDeviceDispose':
+    'prefix': 'MIDIDeviceDispose'
+    'body': 'MIDIDeviceDispose(${1:MIDIDeviceRef device})'
+  'MIDIDeviceGetEntity':
+    'prefix': 'MIDIDeviceGetEntity'
+    'body': 'MIDIDeviceGetEntity(${1:MIDIDeviceRef device}, ${2:ItemCount entityIndex0})'
+  'MIDIDeviceGetNumberOfEntities':
+    'prefix': 'MIDIDeviceGetNumberOfEntities'
+    'body': 'MIDIDeviceGetNumberOfEntities(${1:MIDIDeviceRef device})'
+  'MIDIDeviceListAddDevice':
+    'prefix': 'MIDIDeviceListAddDevice'
+    'body': 'MIDIDeviceListAddDevice(${1:MIDIDeviceListRef devList}, ${2:MIDIDeviceRef dev})'
+  'MIDIDeviceListDispose':
+    'prefix': 'MIDIDeviceListDispose'
+    'body': 'MIDIDeviceListDispose(${1:MIDIDeviceListRef devList})'
+  'MIDIDeviceListGetDevice':
+    'prefix': 'MIDIDeviceListGetDevice'
+    'body': 'MIDIDeviceListGetDevice(${1:MIDIDeviceListRef devList}, ${2:ItemCount index0})'
+  'MIDIDeviceListGetNumberOfDevices':
+    'prefix': 'MIDIDeviceListGetNumberOfDevices'
+    'body': 'MIDIDeviceListGetNumberOfDevices(${1:MIDIDeviceListRef devList})'
+  'MIDIDeviceRemoveEntity':
+    'prefix': 'MIDIDeviceRemoveEntity'
+    'body': 'MIDIDeviceRemoveEntity(${1:MIDIDeviceRef device}, ${2:MIDIEntityRef entity})'
+  'MIDIEndpointDispose':
+    'prefix': 'MIDIEndpointDispose'
+    'body': 'MIDIEndpointDispose(${1:MIDIEndpointRef endpt})'
+  'MIDIEndpointGetEntity':
+    'prefix': 'MIDIEndpointGetEntity'
+    'body': 'MIDIEndpointGetEntity(${1:MIDIEndpointRef inEndpoint}, ${2:MIDIEntityRef* outEntity})'
+  'MIDIEndpointGetRefCons':
+    'prefix': 'MIDIEndpointGetRefCons'
+    'body': 'MIDIEndpointGetRefCons(${1:MIDIEndpointRef endpt}, ${2:void** ref1}, ${3:void** ref2})'
+  'MIDIEndpointSetRefCons':
+    'prefix': 'MIDIEndpointSetRefCons'
+    'body': 'MIDIEndpointSetRefCons(${1:MIDIEndpointRef endpt}, ${2:void* ref1}, ${3:void* ref2})'
+  'MIDIEntityAddOrRemoveEndpoints':
+    'prefix': 'MIDIEntityAddOrRemoveEndpoints'
+    'body': 'MIDIEntityAddOrRemoveEndpoints(${1:MIDIEntityRef entity}, ${2:ItemCount numSourceEndpoints}, ${3:ItemCount numDestinationEndpoints})'
+  'MIDIEntityGetDestination':
+    'prefix': 'MIDIEntityGetDestination'
+    'body': 'MIDIEntityGetDestination(${1:MIDIEntityRef entity}, ${2:ItemCount destIndex0})'
+  'MIDIEntityGetDevice':
+    'prefix': 'MIDIEntityGetDevice'
+    'body': 'MIDIEntityGetDevice(${1:MIDIEntityRef inEntity}, ${2:MIDIDeviceRef* outDevice})'
+  'MIDIEntityGetNumberOfDestinations':
+    'prefix': 'MIDIEntityGetNumberOfDestinations'
+    'body': 'MIDIEntityGetNumberOfDestinations(${1:MIDIEntityRef entity})'
+  'MIDIEntityGetNumberOfSources':
+    'prefix': 'MIDIEntityGetNumberOfSources'
+    'body': 'MIDIEntityGetNumberOfSources(${1:MIDIEntityRef entity})'
+  'MIDIEntityGetSource':
+    'prefix': 'MIDIEntityGetSource'
+    'body': 'MIDIEntityGetSource(${1:MIDIEntityRef entity}, ${2:ItemCount sourceIndex0})'
+  'MIDIExternalDeviceCreate':
+    'prefix': 'MIDIExternalDeviceCreate'
+    'body': 'MIDIExternalDeviceCreate(${1:CFStringRef name}, ${2:CFStringRef manufacturer}, ${3:CFStringRef model}, ${4:MIDIDeviceRef* outDevice})'
+  'MIDIFlushOutput':
+    'prefix': 'MIDIFlushOutput'
+    'body': 'MIDIFlushOutput(${1:MIDIEndpointRef dest})'
+  'MIDIGetDestination':
+    'prefix': 'MIDIGetDestination'
+    'body': 'MIDIGetDestination(${1:ItemCount destIndex0})'
+  'MIDIGetDevice':
+    'prefix': 'MIDIGetDevice'
+    'body': 'MIDIGetDevice(${1:ItemCount deviceIndex0})'
+  'MIDIGetDriverDeviceList':
+    'prefix': 'MIDIGetDriverDeviceList'
+    'body': 'MIDIGetDriverDeviceList(${1:MIDIDriverRef driver})'
+  'MIDIGetDriverIORunLoop':
+    'prefix': 'MIDIGetDriverIORunLoop'
+    'body': 'MIDIGetDriverIORunLoop()'
+  'MIDIGetExternalDevice':
+    'prefix': 'MIDIGetExternalDevice'
+    'body': 'MIDIGetExternalDevice(${1:ItemCount deviceIndex0})'
+  'MIDIGetNumberOfDestinations':
+    'prefix': 'MIDIGetNumberOfDestinations'
+    'body': 'MIDIGetNumberOfDestinations()'
+  'MIDIGetNumberOfDevices':
+    'prefix': 'MIDIGetNumberOfDevices'
+    'body': 'MIDIGetNumberOfDevices()'
+  'MIDIGetNumberOfExternalDevices':
+    'prefix': 'MIDIGetNumberOfExternalDevices'
+    'body': 'MIDIGetNumberOfExternalDevices()'
+  'MIDIGetNumberOfSources':
+    'prefix': 'MIDIGetNumberOfSources'
+    'body': 'MIDIGetNumberOfSources()'
+  'MIDIGetSource':
+    'prefix': 'MIDIGetSource'
+    'body': 'MIDIGetSource(${1:ItemCount sourceIndex0})'
+  'MIDIInputPortCreate':
+    'prefix': 'MIDIInputPortCreate'
+    'body': 'MIDIInputPortCreate(${1:MIDIClientRef client}, ${2:CFStringRef portName}, ${3:MIDIReadProc readProc}, ${4:void* refCon}, ${5:MIDIPortRef* outPort})'
+  'MIDIObjectFindByUniqueID':
+    'prefix': 'MIDIObjectFindByUniqueID'
+    'body': 'MIDIObjectFindByUniqueID(${1:MIDIUniqueID inUniqueID}, ${2:MIDIObjectRef* outObject}, ${3:MIDIObjectType* outObjectType})'
+  'MIDIObjectGetDataProperty':
+    'prefix': 'MIDIObjectGetDataProperty'
+    'body': 'MIDIObjectGetDataProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:CFDataRef* outData})'
+  'MIDIObjectGetDictionaryProperty':
+    'prefix': 'MIDIObjectGetDictionaryProperty'
+    'body': 'MIDIObjectGetDictionaryProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:CFDictionaryRef* outDict})'
+  'MIDIObjectGetIntegerProperty':
+    'prefix': 'MIDIObjectGetIntegerProperty'
+    'body': 'MIDIObjectGetIntegerProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:SInt32* outValue})'
+  'MIDIObjectGetProperties':
+    'prefix': 'MIDIObjectGetProperties'
+    'body': 'MIDIObjectGetProperties(${1:MIDIObjectRef obj}, ${2:CFPropertyListRef* outProperties}, ${3:Boolean deep})'
+  'MIDIObjectGetStringProperty':
+    'prefix': 'MIDIObjectGetStringProperty'
+    'body': 'MIDIObjectGetStringProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:CFStringRef* str})'
+  'MIDIObjectRemoveProperty':
+    'prefix': 'MIDIObjectRemoveProperty'
+    'body': 'MIDIObjectRemoveProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID})'
+  'MIDIObjectSetDataProperty':
+    'prefix': 'MIDIObjectSetDataProperty'
+    'body': 'MIDIObjectSetDataProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:CFDataRef data})'
+  'MIDIObjectSetDictionaryProperty':
+    'prefix': 'MIDIObjectSetDictionaryProperty'
+    'body': 'MIDIObjectSetDictionaryProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:CFDictionaryRef data})'
+  'MIDIObjectSetIntegerProperty':
+    'prefix': 'MIDIObjectSetIntegerProperty'
+    'body': 'MIDIObjectSetIntegerProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:SInt32 value})'
+  'MIDIObjectSetStringProperty':
+    'prefix': 'MIDIObjectSetStringProperty'
+    'body': 'MIDIObjectSetStringProperty(${1:MIDIObjectRef obj}, ${2:CFStringRef propertyID}, ${3:CFStringRef str})'
+  'MIDIOutputPortCreate':
+    'prefix': 'MIDIOutputPortCreate'
+    'body': 'MIDIOutputPortCreate(${1:MIDIClientRef client}, ${2:CFStringRef portName}, ${3:MIDIPortRef* outPort})'
+  'MIDIPacketListAdd':
+    'prefix': 'MIDIPacketListAdd'
+    'body': 'MIDIPacketListAdd(${1:MIDIPacketList* pktlist}, ${2:ByteCount listSize}, ${3:MIDIPacket* curPacket}, ${4:MIDITimeStamp time}, ${5:ByteCount nData}, ${6:Byte* data})'
+  'MIDIPacketListInit':
+    'prefix': 'MIDIPacketListInit'
+    'body': 'MIDIPacketListInit(${1:MIDIPacketList* pktlist})'
+  'MIDIPortConnectSource':
+    'prefix': 'MIDIPortConnectSource'
+    'body': 'MIDIPortConnectSource(${1:MIDIPortRef port}, ${2:MIDIEndpointRef source}, ${3:void* connRefCon})'
+  'MIDIPortDisconnectSource':
+    'prefix': 'MIDIPortDisconnectSource'
+    'body': 'MIDIPortDisconnectSource(${1:MIDIPortRef port}, ${2:MIDIEndpointRef source})'
+  'MIDIPortDispose':
+    'prefix': 'MIDIPortDispose'
+    'body': 'MIDIPortDispose(${1:MIDIPortRef port})'
+  'MIDIReceived':
+    'prefix': 'MIDIReceived'
+    'body': 'MIDIReceived(${1:MIDIEndpointRef src}, ${2:MIDIPacketList* pktlist})'
+  'MIDIRestart':
+    'prefix': 'MIDIRestart'
+    'body': 'MIDIRestart()'
+  'MIDISend':
+    'prefix': 'MIDISend'
+    'body': 'MIDISend(${1:MIDIPortRef port}, ${2:MIDIEndpointRef dest}, ${3:MIDIPacketList* pktlist})'
+  'MIDISendSysex':
+    'prefix': 'MIDISendSysex'
+    'body': 'MIDISendSysex(${1:MIDISysexSendRequest* request})'
+  'MIDISetupAddDevice':
+    'prefix': 'MIDISetupAddDevice'
+    'body': 'MIDISetupAddDevice(${1:MIDIDeviceRef device})'
+  'MIDISetupAddExternalDevice':
+    'prefix': 'MIDISetupAddExternalDevice'
+    'body': 'MIDISetupAddExternalDevice(${1:MIDIDeviceRef device})'
+  'MIDISetupRemoveDevice':
+    'prefix': 'MIDISetupRemoveDevice'
+    'body': 'MIDISetupRemoveDevice(${1:MIDIDeviceRef device})'
+  'MIDISetupRemoveExternalDevice':
+    'prefix': 'MIDISetupRemoveExternalDevice'
+    'body': 'MIDISetupRemoveExternalDevice(${1:MIDIDeviceRef device})'
+  'MIDISourceCreate':
+    'prefix': 'MIDISourceCreate'
+    'body': 'MIDISourceCreate(${1:MIDIClientRef client}, ${2:CFStringRef name}, ${3:MIDIEndpointRef* outSrc})'
+  'MIDIThruConnectionCreate':
+    'prefix': 'MIDIThruConnectionCreate'
+    'body': 'MIDIThruConnectionCreate(${1:CFStringRef inPersistentOwnerID}, ${2:CFDataRef inConnectionParams}, ${3:MIDIThruConnectionRef* outConnection})'
+  'MIDIThruConnectionDispose':
+    'prefix': 'MIDIThruConnectionDispose'
+    'body': 'MIDIThruConnectionDispose(${1:MIDIThruConnectionRef connection})'
+  'MIDIThruConnectionFind':
+    'prefix': 'MIDIThruConnectionFind'
+    'body': 'MIDIThruConnectionFind(${1:CFStringRef inPersistentOwnerID}, ${2:CFDataRef* outConnectionList})'
+  'MIDIThruConnectionGetParams':
+    'prefix': 'MIDIThruConnectionGetParams'
+    'body': 'MIDIThruConnectionGetParams(${1:MIDIThruConnectionRef connection}, ${2:CFDataRef* outConnectionParams})'
+  'MIDIThruConnectionParamsInitialize':
+    'prefix': 'MIDIThruConnectionParamsInitialize'
+    'body': 'MIDIThruConnectionParamsInitialize(${1:MIDIThruConnectionParams* inConnectionParams})'
+  'MIDIThruConnectionSetParams':
+    'prefix': 'MIDIThruConnectionSetParams'
+    'body': 'MIDIThruConnectionSetParams(${1:MIDIThruConnectionRef connection}, ${2:CFDataRef inConnectionParams})'
+  'MIDINetworkConnection.connectionWithHost:':
+    'prefix': 'connectionWithHost:'
+    'body': 'MIDINetworkConnection.connectionWithHost(${1:MIDINetworkHost* host})'
+  'host':
+    'prefix': 'host'
+    'body': 'host()'
+  'address':
+    'prefix': 'address'
+    'body': 'address()'
+  'hasSameAddressAs:':
+    'prefix': 'hasSameAddressAs:'
+    'body': 'hasSameAddressAs(${1:MIDINetworkHost* other})'
+  'MIDINetworkHost.hostWithName:address:port:':
+    'prefix': 'hostWithName:address:port:'
+    'body': 'MIDINetworkHost.hostWithName(${1:NSString* name}, address:${2:NSString* address}, port:${3:NSUInteger port})'
+  'MIDINetworkHost.hostWithName:netService:':
+    'prefix': 'hostWithName:netService:'
+    'body': 'MIDINetworkHost.hostWithName(${1:NSString* name}, netService:${2:NSNetService* netService})'
+  'MIDINetworkHost.hostWithName:netServiceName:netServiceDomain:':
+    'prefix': 'hostWithName:netServiceName:netServiceDomain:'
+    'body': 'MIDINetworkHost.hostWithName(${1:NSString* name}, netServiceName:${2:NSString* netServiceName}, netServiceDomain:${3:NSString* netServiceDomain})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'netServiceDomain':
+    'prefix': 'netServiceDomain'
+    'body': 'netServiceDomain()'
+  'netServiceName':
+    'prefix': 'netServiceName'
+    'body': 'netServiceName()'
+  'port':
+    'prefix': 'port'
+    'body': 'port()'
+  'addConnection:':
+    'prefix': 'addConnection:'
+    'body': 'addConnection(${1:MIDINetworkConnection* connection})'
+  'addContact:':
+    'prefix': 'addContact:'
+    'body': 'addContact(${1:MIDINetworkHost* contact})'
+  'connectionPolicy':
+    'prefix': 'connectionPolicy'
+    'body': 'connectionPolicy()'
+  'connections':
+    'prefix': 'connections'
+    'body': 'connections()'
+  'contacts':
+    'prefix': 'contacts'
+    'body': 'contacts()'
+  'MIDINetworkSession.defaultSession':
+    'prefix': 'defaultSession'
+    'body': 'MIDINetworkSession.defaultSession()'
+  'destinationEndpoint':
+    'prefix': 'destinationEndpoint'
+    'body': 'destinationEndpoint()'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'localName':
+    'prefix': 'localName'
+    'body': 'localName()'
+  'networkName':
+    'prefix': 'networkName'
+    'body': 'networkName()'
+  'networkPort':
+    'prefix': 'networkPort'
+    'body': 'networkPort()'
+  'removeConnection:':
+    'prefix': 'removeConnection:'
+    'body': 'removeConnection(${1:MIDINetworkConnection* connection})'
+  'removeContact:':
+    'prefix': 'removeContact:'
+    'body': 'removeContact(${1:MIDINetworkHost* contact})'
+  'setConnectionPolicy:':
+    'prefix': 'setConnectionPolicy:'
+    'body': 'setConnectionPolicy(${1:MIDINetworkConnectionPolicy connectionPolicy})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL enabled})'
+  'sourceEndpoint':
+    'prefix': 'sourceEndpoint'
+    'body': 'sourceEndpoint()'
