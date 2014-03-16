@@ -44,10 +44,13 @@ def process_node(node)
         name = method_node[:selector]
       end
       trigger = method_node[:selector]
+      selector_tokens = name.split(':')
       args = method_node.xpath('./arg').map.with_index {|n, i|
-        "${#{i+1}:#{n[:declared_type]} #{n[:name]}}"
+        arg = ''
+        arg << "#{selector_tokens[i]}:" if i > 0
+        arg << "${#{i+1}:#{n[:declared_type]} #{n[:name]}}"
       }
-      body = "#{name}(#{args.join(', ')})"
+      body = "#{selector_tokens.first}(#{args.join(', ')})"
       snippets << generate_snippet(name, trigger, body)
     end
   when 'depends_on'
@@ -64,24 +67,24 @@ def process_node(node)
   snippets
 end
 
-File.open('../snippets/cocoatouch.cson', 'w') {|f|
-  f.puts "'.source.rubymotion':"
-
-  BRIDGE_SUPPORT_FILES[:ios].each do |file|
+BRIDGE_SUPPORT_FILES[:ios].each do |file|
+  filename = File.basename(file, '.bridgesupport').downcase
+  File.open("../snippets/cocoatouch-#{filename}.cson", 'w') {|f|
+    f.puts "'.source.rubymotion':"
     doc = Nokogiri::XML(File.read(file))
     doc.xpath('/signatures/*').each do |node|
       f.puts process_node(node)
     end
-  end
-}
+  }
+end
 
-File.open('../snippets/cocoa.cson', 'w') {|f|
-  f.puts "'.source.rubymotion':"
-
-  BRIDGE_SUPPORT_FILES[:osx].each do |file|
-    doc = Nokogiri::XML(File.read(file))
-    doc.xpath('/signatures/*').each do |node|
-      f.puts process_node(node)
-    end
-  end
-}
+# BRIDGE_SUPPORT_FILES[:osx].each do |file|
+#   filename = File.basename(file, '.bridgesupport').downcase
+#   File.open("../snippets/cocoa-#{filename}.cson", 'w') {|f|
+#     f.puts "'.source.rubymotion':"
+#     doc = Nokogiri::XML(File.read(file))
+#     doc.xpath('/signatures/*').each do |node|
+#       f.puts process_node(node)
+#     end
+#   }
+# end

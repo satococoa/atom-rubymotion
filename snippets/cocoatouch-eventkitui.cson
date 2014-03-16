@@ -1,0 +1,148 @@
+'.source.rubymotion':
+  'EKCalendarChooserDisplayAllCalendars (0)':
+    'prefix': 'EKCalendarChooserDisplayAllCalendars'
+    'body': 'EKCalendarChooserDisplayAllCalendars'
+  'EKCalendarChooserDisplayWritableCalendarsOnly (1)':
+    'prefix': 'EKCalendarChooserDisplayWritableCalendarsOnly'
+    'body': 'EKCalendarChooserDisplayWritableCalendarsOnly'
+  'EKCalendarChooserSelectionStyleMultiple (1)':
+    'prefix': 'EKCalendarChooserSelectionStyleMultiple'
+    'body': 'EKCalendarChooserSelectionStyleMultiple'
+  'EKCalendarChooserSelectionStyleSingle (0)':
+    'prefix': 'EKCalendarChooserSelectionStyleSingle'
+    'body': 'EKCalendarChooserSelectionStyleSingle'
+  'EKEventEditViewActionCanceled (0)':
+    'prefix': 'EKEventEditViewActionCanceled'
+    'body': 'EKEventEditViewActionCanceled'
+  'EKEventEditViewActionCancelled (0)':
+    'prefix': 'EKEventEditViewActionCancelled'
+    'body': 'EKEventEditViewActionCancelled'
+  'EKEventEditViewActionDeleted (2)':
+    'prefix': 'EKEventEditViewActionDeleted'
+    'body': 'EKEventEditViewActionDeleted'
+  'EKEventEditViewActionSaved (1)':
+    'prefix': 'EKEventEditViewActionSaved'
+    'body': 'EKEventEditViewActionSaved'
+  'EKEventViewActionDeleted (2)':
+    'prefix': 'EKEventViewActionDeleted'
+    'body': 'EKEventViewActionDeleted'
+  'EKEventViewActionDone (0)':
+    'prefix': 'EKEventViewActionDone'
+    'body': 'EKEventViewActionDone'
+  'EKEventViewActionResponded (1)':
+    'prefix': 'EKEventViewActionResponded'
+    'body': 'EKEventViewActionResponded'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'initWithSelectionStyle:displayStyle:entityType:eventStore:':
+    'prefix': 'initWithSelectionStyle:displayStyle:entityType:eventStore:'
+    'body': 'initWithSelectionStyle(${1:EKCalendarChooserSelectionStyle style}, displayStyle:${2:EKCalendarChooserDisplayStyle displayStyle}, entityType:${3:EKEntityType entityType}, eventStore:${4:EKEventStore* eventStore})'
+  'initWithSelectionStyle:displayStyle:eventStore:':
+    'prefix': 'initWithSelectionStyle:displayStyle:eventStore:'
+    'body': 'initWithSelectionStyle(${1:EKCalendarChooserSelectionStyle selectionStyle}, displayStyle:${2:EKCalendarChooserDisplayStyle displayStyle}, eventStore:${3:EKEventStore* eventStore})'
+  'selectedCalendars':
+    'prefix': 'selectedCalendars'
+    'body': 'selectedCalendars()'
+  'selectionStyle':
+    'prefix': 'selectionStyle'
+    'body': 'selectionStyle()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setSelectedCalendars:':
+    'prefix': 'setSelectedCalendars:'
+    'body': 'setSelectedCalendars(${1:NSSet* selectedCalendars})'
+  'setShowsCancelButton:':
+    'prefix': 'setShowsCancelButton:'
+    'body': 'setShowsCancelButton(${1:BOOL showsCancelButton})'
+  'setShowsDoneButton:':
+    'prefix': 'setShowsDoneButton:'
+    'body': 'setShowsDoneButton(${1:BOOL showsDoneButton})'
+  'showsCancelButton':
+    'prefix': 'showsCancelButton'
+    'body': 'showsCancelButton()'
+  'showsDoneButton':
+    'prefix': 'showsDoneButton'
+    'body': 'showsDoneButton()'
+  'cancelEditing':
+    'prefix': 'cancelEditing'
+    'body': 'cancelEditing()'
+  'editViewDelegate':
+    'prefix': 'editViewDelegate'
+    'body': 'editViewDelegate()'
+  'event':
+    'prefix': 'event'
+    'body': 'event()'
+  'eventStore':
+    'prefix': 'eventStore'
+    'body': 'eventStore()'
+  'setEditViewDelegate:':
+    'prefix': 'setEditViewDelegate:'
+    'body': 'setEditViewDelegate(${1:id editViewDelegate})'
+  'setEvent:':
+    'prefix': 'setEvent:'
+    'body': 'setEvent(${1:EKEvent* event})'
+  'setEventStore:':
+    'prefix': 'setEventStore:'
+    'body': 'setEventStore(${1:EKEventStore* eventStore})'
+  'allowsCalendarPreview':
+    'prefix': 'allowsCalendarPreview'
+    'body': 'allowsCalendarPreview()'
+  'allowsEditing':
+    'prefix': 'allowsEditing'
+    'body': 'allowsEditing()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'event':
+    'prefix': 'event'
+    'body': 'event()'
+  'setAllowsCalendarPreview:':
+    'prefix': 'setAllowsCalendarPreview:'
+    'body': 'setAllowsCalendarPreview(${1:BOOL allowsCalendarPreview})'
+  'setAllowsEditing:':
+    'prefix': 'setAllowsEditing:'
+    'body': 'setAllowsEditing(${1:BOOL allowsEditing})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setEvent:':
+    'prefix': 'setEvent:'
+    'body': 'setEvent(${1:EKEvent* event})'
+  'calendarChooserDidCancel:':
+    'prefix': 'calendarChooserDidCancel:'
+    'body': 'calendarChooserDidCancel(${1:EKCalendarChooser* calendarChooser})'
+  'calendarChooserDidFinish:':
+    'prefix': 'calendarChooserDidFinish:'
+    'body': 'calendarChooserDidFinish(${1:EKCalendarChooser* calendarChooser})'
+  'calendarChooserSelectionDidChange:':
+    'prefix': 'calendarChooserSelectionDidChange:'
+    'body': 'calendarChooserSelectionDidChange(${1:EKCalendarChooser* calendarChooser})'
+  'eventEditViewController:didCompleteWithAction:':
+    'prefix': 'eventEditViewController:didCompleteWithAction:'
+    'body': 'eventEditViewController(${1:EKEventEditViewController* controller}, didCompleteWithAction:${2:EKEventEditViewAction action})'
+  'eventEditViewControllerDefaultCalendarForNewEvents:':
+    'prefix': 'eventEditViewControllerDefaultCalendarForNewEvents:'
+    'body': 'eventEditViewControllerDefaultCalendarForNewEvents(${1:EKEventEditViewController* controller})'
+  'eventViewController:didCompleteWithAction:':
+    'prefix': 'eventViewController:didCompleteWithAction:'
+    'body': 'eventViewController(${1:EKEventViewController* controller}, didCompleteWithAction:${2:EKEventViewAction action})'
+  'calendarChooserDidCancel:':
+    'prefix': 'calendarChooserDidCancel:'
+    'body': 'calendarChooserDidCancel(${1:EKCalendarChooser* calendarChooser})'
+  'calendarChooserDidFinish:':
+    'prefix': 'calendarChooserDidFinish:'
+    'body': 'calendarChooserDidFinish(${1:EKCalendarChooser* calendarChooser})'
+  'calendarChooserSelectionDidChange:':
+    'prefix': 'calendarChooserSelectionDidChange:'
+    'body': 'calendarChooserSelectionDidChange(${1:EKCalendarChooser* calendarChooser})'
+  'eventEditViewController:didCompleteWithAction:':
+    'prefix': 'eventEditViewController:didCompleteWithAction:'
+    'body': 'eventEditViewController(${1:EKEventEditViewController* controller}, didCompleteWithAction:${2:EKEventEditViewAction action})'
+  'eventEditViewControllerDefaultCalendarForNewEvents:':
+    'prefix': 'eventEditViewControllerDefaultCalendarForNewEvents:'
+    'body': 'eventEditViewControllerDefaultCalendarForNewEvents(${1:EKEventEditViewController* controller})'
+  'eventViewController:didCompleteWithAction:':
+    'prefix': 'eventViewController:didCompleteWithAction:'
+    'body': 'eventViewController(${1:EKEventViewController* controller}, didCompleteWithAction:${2:EKEventViewAction action})'

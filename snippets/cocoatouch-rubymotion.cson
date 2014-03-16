@@ -1,0 +1,4 @@
+'.source.rubymotion':
+  'dispatch_object':
+    'prefix': 'dispatch_object'
+    'body': 'dispatch_object()'

@@ -1,0 +1,226 @@
+'.source.rubymotion':
+  'ADBannerContentSizeIdentifier320x50 (NSString*)':
+    'prefix': 'ADBannerContentSizeIdentifier320x50'
+    'body': 'ADBannerContentSizeIdentifier320x50'
+  'ADBannerContentSizeIdentifier480x32 (NSString*)':
+    'prefix': 'ADBannerContentSizeIdentifier480x32'
+    'body': 'ADBannerContentSizeIdentifier480x32'
+  'ADBannerContentSizeIdentifierLandscape (NSString*)':
+    'prefix': 'ADBannerContentSizeIdentifierLandscape'
+    'body': 'ADBannerContentSizeIdentifierLandscape'
+  'ADBannerContentSizeIdentifierPortrait (NSString*)':
+    'prefix': 'ADBannerContentSizeIdentifierPortrait'
+    'body': 'ADBannerContentSizeIdentifierPortrait'
+  'ADErrorDomain (NSString*)':
+    'prefix': 'ADErrorDomain'
+    'body': 'ADErrorDomain'
+  'ADAdTypeBanner (0)':
+    'prefix': 'ADAdTypeBanner'
+    'body': 'ADAdTypeBanner'
+  'ADAdTypeMediumRectangle (1)':
+    'prefix': 'ADAdTypeMediumRectangle'
+    'body': 'ADAdTypeMediumRectangle'
+  'ADErrorAdUnloaded (7)':
+    'prefix': 'ADErrorAdUnloaded'
+    'body': 'ADErrorAdUnloaded'
+  'ADErrorApplicationInactive (6)':
+    'prefix': 'ADErrorApplicationInactive'
+    'body': 'ADErrorApplicationInactive'
+  'ADErrorBannerVisibleWithoutContent (5)':
+    'prefix': 'ADErrorBannerVisibleWithoutContent'
+    'body': 'ADErrorBannerVisibleWithoutContent'
+  'ADErrorConfigurationError (4)':
+    'prefix': 'ADErrorConfigurationError'
+    'body': 'ADErrorConfigurationError'
+  'ADErrorInventoryUnavailable (3)':
+    'prefix': 'ADErrorInventoryUnavailable'
+    'body': 'ADErrorInventoryUnavailable'
+  'ADErrorLoadingThrottled (2)':
+    'prefix': 'ADErrorLoadingThrottled'
+    'body': 'ADErrorLoadingThrottled'
+  'ADErrorServerFailure (1)':
+    'prefix': 'ADErrorServerFailure'
+    'body': 'ADErrorServerFailure'
+  'ADErrorUnknown (0)':
+    'prefix': 'ADErrorUnknown'
+    'body': 'ADErrorUnknown'
+  'ADInterstitialPresentationPolicyAutomatic (1)':
+    'prefix': 'ADInterstitialPresentationPolicyAutomatic'
+    'body': 'ADInterstitialPresentationPolicyAutomatic'
+  'ADInterstitialPresentationPolicyManual (2)':
+    'prefix': 'ADInterstitialPresentationPolicyManual'
+    'body': 'ADInterstitialPresentationPolicyManual'
+  'ADInterstitialPresentationPolicyNone (0)':
+    'prefix': 'ADInterstitialPresentationPolicyNone'
+    'body': 'ADInterstitialPresentationPolicyNone'
+  'adType':
+    'prefix': 'adType'
+    'body': 'adType()'
+  'advertisingSection':
+    'prefix': 'advertisingSection'
+    'body': 'advertisingSection()'
+  'cancelBannerViewAction':
+    'prefix': 'cancelBannerViewAction'
+    'body': 'cancelBannerViewAction()'
+  'currentContentSizeIdentifier':
+    'prefix': 'currentContentSizeIdentifier'
+    'body': 'currentContentSizeIdentifier()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'initWithAdType:':
+    'prefix': 'initWithAdType:'
+    'body': 'initWithAdType(${1:ADAdType type})'
+  'isBannerLoaded':
+    'prefix': 'isBannerLoaded'
+    'body': 'isBannerLoaded()'
+  'isBannerViewActionInProgress':
+    'prefix': 'isBannerViewActionInProgress'
+    'body': 'isBannerViewActionInProgress()'
+  'requiredContentSizeIdentifiers':
+    'prefix': 'requiredContentSizeIdentifiers'
+    'body': 'requiredContentSizeIdentifiers()'
+  'setAdvertisingSection:':
+    'prefix': 'setAdvertisingSection:'
+    'body': 'setAdvertisingSection(${1:NSString* advertisingSection})'
+  'setCurrentContentSizeIdentifier:':
+    'prefix': 'setCurrentContentSizeIdentifier:'
+    'body': 'setCurrentContentSizeIdentifier(${1:NSString* currentContentSizeIdentifier})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setRequiredContentSizeIdentifiers:':
+    'prefix': 'setRequiredContentSizeIdentifiers:'
+    'body': 'setRequiredContentSizeIdentifiers(${1:NSSet* requiredContentSizeIdentifiers})'
+  'ADBannerView.sizeFromBannerContentSizeIdentifier:':
+    'prefix': 'sizeFromBannerContentSizeIdentifier:'
+    'body': 'ADBannerView.sizeFromBannerContentSizeIdentifier(${1:NSString* contentSizeIdentifier})'
+  'determineAppInstallationAttributionWithCompletionHandler:':
+    'prefix': 'determineAppInstallationAttributionWithCompletionHandler:'
+    'body': 'determineAppInstallationAttributionWithCompletionHandler(${1:void (^)(BOOL) completionHandler})'
+  'ADClient.sharedClient':
+    'prefix': 'sharedClient'
+    'body': 'ADClient.sharedClient()'
+  'cancelAction':
+    'prefix': 'cancelAction'
+    'body': 'cancelAction()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'isActionInProgress':
+    'prefix': 'isActionInProgress'
+    'body': 'isActionInProgress()'
+  'isLoaded':
+    'prefix': 'isLoaded'
+    'body': 'isLoaded()'
+  'presentFromViewController:':
+    'prefix': 'presentFromViewController:'
+    'body': 'presentFromViewController(${1:UIViewController* viewController})'
+  'presentInView:':
+    'prefix': 'presentInView:'
+    'body': 'presentInView(${1:UIView* containerView})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'playPrerollAdWithCompletionHandler:':
+    'prefix': 'playPrerollAdWithCompletionHandler:'
+    'body': 'playPrerollAdWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'MPMoviePlayerController.preparePrerollAds':
+    'prefix': 'preparePrerollAds'
+    'body': 'MPMoviePlayerController.preparePrerollAds()'
+  'bannerView:didFailToReceiveAdWithError:':
+    'prefix': 'bannerView:didFailToReceiveAdWithError:'
+    'body': 'bannerView(${1:ADBannerView* banner}, didFailToReceiveAdWithError:${2:NSError* error})'
+  'bannerViewActionDidFinish:':
+    'prefix': 'bannerViewActionDidFinish:'
+    'body': 'bannerViewActionDidFinish(${1:ADBannerView* banner})'
+  'bannerViewActionShouldBegin:willLeaveApplication:':
+    'prefix': 'bannerViewActionShouldBegin:willLeaveApplication:'
+    'body': 'bannerViewActionShouldBegin(${1:ADBannerView* banner}, willLeaveApplication:${2:BOOL willLeave})'
+  'bannerViewDidLoadAd:':
+    'prefix': 'bannerViewDidLoadAd:'
+    'body': 'bannerViewDidLoadAd(${1:ADBannerView* banner})'
+  'bannerViewWillLoadAd:':
+    'prefix': 'bannerViewWillLoadAd:'
+    'body': 'bannerViewWillLoadAd(${1:ADBannerView* banner})'
+  'interstitialAd:didFailWithError:':
+    'prefix': 'interstitialAd:didFailWithError:'
+    'body': 'interstitialAd(${1:ADInterstitialAd* interstitialAd}, didFailWithError:${2:NSError* error})'
+  'interstitialAdActionDidFinish:':
+    'prefix': 'interstitialAdActionDidFinish:'
+    'body': 'interstitialAdActionDidFinish(${1:ADInterstitialAd* interstitialAd})'
+  'interstitialAdActionShouldBegin:willLeaveApplication:':
+    'prefix': 'interstitialAdActionShouldBegin:willLeaveApplication:'
+    'body': 'interstitialAdActionShouldBegin(${1:ADInterstitialAd* interstitialAd}, willLeaveApplication:${2:BOOL willLeave})'
+  'interstitialAdDidLoad:':
+    'prefix': 'interstitialAdDidLoad:'
+    'body': 'interstitialAdDidLoad(${1:ADInterstitialAd* interstitialAd})'
+  'interstitialAdDidUnload:':
+    'prefix': 'interstitialAdDidUnload:'
+    'body': 'interstitialAdDidUnload(${1:ADInterstitialAd* interstitialAd})'
+  'interstitialAdWillLoad:':
+    'prefix': 'interstitialAdWillLoad:'
+    'body': 'interstitialAdWillLoad(${1:ADInterstitialAd* interstitialAd})'
+  'canDisplayBannerAds':
+    'prefix': 'canDisplayBannerAds'
+    'body': 'canDisplayBannerAds()'
+  'interstitialPresentationPolicy':
+    'prefix': 'interstitialPresentationPolicy'
+    'body': 'interstitialPresentationPolicy()'
+  'isDisplayingBannerAd':
+    'prefix': 'isDisplayingBannerAd'
+    'body': 'isDisplayingBannerAd()'
+  'isPresentingFullScreenAd':
+    'prefix': 'isPresentingFullScreenAd'
+    'body': 'isPresentingFullScreenAd()'
+  'originalContentView':
+    'prefix': 'originalContentView'
+    'body': 'originalContentView()'
+  'UIViewController.prepareInterstitialAds':
+    'prefix': 'prepareInterstitialAds'
+    'body': 'UIViewController.prepareInterstitialAds()'
+  'requestInterstitialAdPresentation':
+    'prefix': 'requestInterstitialAdPresentation'
+    'body': 'requestInterstitialAdPresentation()'
+  'setCanDisplayBannerAds:':
+    'prefix': 'setCanDisplayBannerAds:'
+    'body': 'setCanDisplayBannerAds(${1:BOOL canDisplayBannerAds})'
+  'setInterstitialPresentationPolicy:':
+    'prefix': 'setInterstitialPresentationPolicy:'
+    'body': 'setInterstitialPresentationPolicy(${1:ADInterstitialPresentationPolicy interstitialPresentationPolicy})'
+  'shouldPresentInterstitialAd':
+    'prefix': 'shouldPresentInterstitialAd'
+    'body': 'shouldPresentInterstitialAd()'
+  'bannerView:didFailToReceiveAdWithError:':
+    'prefix': 'bannerView:didFailToReceiveAdWithError:'
+    'body': 'bannerView(${1:ADBannerView* banner}, didFailToReceiveAdWithError:${2:NSError* error})'
+  'bannerViewActionDidFinish:':
+    'prefix': 'bannerViewActionDidFinish:'
+    'body': 'bannerViewActionDidFinish(${1:ADBannerView* banner})'
+  'bannerViewActionShouldBegin:willLeaveApplication:':
+    'prefix': 'bannerViewActionShouldBegin:willLeaveApplication:'
+    'body': 'bannerViewActionShouldBegin(${1:ADBannerView* banner}, willLeaveApplication:${2:BOOL willLeave})'
+  'bannerViewDidLoadAd:':
+    'prefix': 'bannerViewDidLoadAd:'
+    'body': 'bannerViewDidLoadAd(${1:ADBannerView* banner})'
+  'bannerViewWillLoadAd:':
+    'prefix': 'bannerViewWillLoadAd:'
+    'body': 'bannerViewWillLoadAd(${1:ADBannerView* banner})'
+  'interstitialAd:didFailWithError:':
+    'prefix': 'interstitialAd:didFailWithError:'
+    'body': 'interstitialAd(${1:ADInterstitialAd* interstitialAd}, didFailWithError:${2:NSError* error})'
+  'interstitialAdActionDidFinish:':
+    'prefix': 'interstitialAdActionDidFinish:'
+    'body': 'interstitialAdActionDidFinish(${1:ADInterstitialAd* interstitialAd})'
+  'interstitialAdActionShouldBegin:willLeaveApplication:':
+    'prefix': 'interstitialAdActionShouldBegin:willLeaveApplication:'
+    'body': 'interstitialAdActionShouldBegin(${1:ADInterstitialAd* interstitialAd}, willLeaveApplication:${2:BOOL willLeave})'
+  'interstitialAdDidLoad:':
+    'prefix': 'interstitialAdDidLoad:'
+    'body': 'interstitialAdDidLoad(${1:ADInterstitialAd* interstitialAd})'
+  'interstitialAdDidUnload:':
+    'prefix': 'interstitialAdDidUnload:'
+    'body': 'interstitialAdDidUnload(${1:ADInterstitialAd* interstitialAd})'
+  'interstitialAdWillLoad:':
+    'prefix': 'interstitialAdWillLoad:'
+    'body': 'interstitialAdWillLoad(${1:ADInterstitialAd* interstitialAd})'

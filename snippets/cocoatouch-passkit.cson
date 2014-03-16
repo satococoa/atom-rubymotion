@@ -1,0 +1,136 @@
+'.source.rubymotion':
+  'PKErrorDomain (NSString*)':
+    'prefix': 'PKErrorDomain'
+    'body': 'PKErrorDomain'
+  'PKPassKitErrorDomain (NSString*)':
+    'prefix': 'PKPassKitErrorDomain'
+    'body': 'PKPassKitErrorDomain'
+  'PKPassLibraryAddedPassesUserInfoKey (NSString*)':
+    'prefix': 'PKPassLibraryAddedPassesUserInfoKey'
+    'body': 'PKPassLibraryAddedPassesUserInfoKey'
+  'PKPassLibraryDidChangeNotification (NSString*)':
+    'prefix': 'PKPassLibraryDidChangeNotification'
+    'body': 'PKPassLibraryDidChangeNotification'
+  'PKPassLibraryPassTypeIdentifierUserInfoKey (NSString*)':
+    'prefix': 'PKPassLibraryPassTypeIdentifierUserInfoKey'
+    'body': 'PKPassLibraryPassTypeIdentifierUserInfoKey'
+  'PKPassLibraryRemovedPassInfosUserInfoKey (NSString*)':
+    'prefix': 'PKPassLibraryRemovedPassInfosUserInfoKey'
+    'body': 'PKPassLibraryRemovedPassInfosUserInfoKey'
+  'PKPassLibraryReplacementPassesUserInfoKey (NSString*)':
+    'prefix': 'PKPassLibraryReplacementPassesUserInfoKey'
+    'body': 'PKPassLibraryReplacementPassesUserInfoKey'
+  'PKPassLibrarySerialNumberUserInfoKey (NSString*)':
+    'prefix': 'PKPassLibrarySerialNumberUserInfoKey'
+    'body': 'PKPassLibrarySerialNumberUserInfoKey'
+  'PKErrorNotEntitled (3)':
+    'prefix': 'PKErrorNotEntitled'
+    'body': 'PKErrorNotEntitled'
+  'PKErrorPassSignatureInvalid (2)':
+    'prefix': 'PKErrorPassSignatureInvalid'
+    'body': 'PKErrorPassSignatureInvalid'
+  'PKErrorPermissionDenied (4)':
+    'prefix': 'PKErrorPermissionDenied'
+    'body': 'PKErrorPermissionDenied'
+  'PKErrorUnknown (1)':
+    'prefix': 'PKErrorUnknown'
+    'body': 'PKErrorUnknown'
+  'PKInvalidDataError (1)':
+    'prefix': 'PKInvalidDataError'
+    'body': 'PKInvalidDataError'
+  'PKInvalidSignature (3)':
+    'prefix': 'PKInvalidSignature'
+    'body': 'PKInvalidSignature'
+  'PKPassLibraryDidAddPasses (0)':
+    'prefix': 'PKPassLibraryDidAddPasses'
+    'body': 'PKPassLibraryDidAddPasses'
+  'PKPassLibraryDidCancelAddPasses (2)':
+    'prefix': 'PKPassLibraryDidCancelAddPasses'
+    'body': 'PKPassLibraryDidCancelAddPasses'
+  'PKPassLibraryShouldReviewPasses (1)':
+    'prefix': 'PKPassLibraryShouldReviewPasses'
+    'body': 'PKPassLibraryShouldReviewPasses'
+  'PKUnknownError (-1)':
+    'prefix': 'PKUnknownError'
+    'body': 'PKUnknownError'
+  'PKUnsupportedVersionError (2)':
+    'prefix': 'PKUnsupportedVersionError'
+    'body': 'PKUnsupportedVersionError'
+  'addPassesViewControllerDidFinish:':
+    'prefix': 'addPassesViewControllerDidFinish:'
+    'body': 'addPassesViewControllerDidFinish(${1:PKAddPassesViewController* controller})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'initWithPass:':
+    'prefix': 'initWithPass:'
+    'body': 'initWithPass(${1:id pass})'
+  'initWithPasses:':
+    'prefix': 'initWithPasses:'
+    'body': 'initWithPasses(${1:NSArray* passes})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'authenticationToken':
+    'prefix': 'authenticationToken'
+    'body': 'authenticationToken()'
+  'icon':
+    'prefix': 'icon'
+    'body': 'icon()'
+  'initWithData:error:':
+    'prefix': 'initWithData:error:'
+    'body': 'initWithData(${1:NSData* data}, error:${2:NSError** error})'
+  'localizedDescription':
+    'prefix': 'localizedDescription'
+    'body': 'localizedDescription()'
+  'localizedName':
+    'prefix': 'localizedName'
+    'body': 'localizedName()'
+  'localizedValueForFieldKey:':
+    'prefix': 'localizedValueForFieldKey:'
+    'body': 'localizedValueForFieldKey(${1:NSString* key})'
+  'organizationName':
+    'prefix': 'organizationName'
+    'body': 'organizationName()'
+  'passTypeIdentifier':
+    'prefix': 'passTypeIdentifier'
+    'body': 'passTypeIdentifier()'
+  'passURL':
+    'prefix': 'passURL'
+    'body': 'passURL()'
+  'relevantDate':
+    'prefix': 'relevantDate'
+    'body': 'relevantDate()'
+  'serialNumber':
+    'prefix': 'serialNumber'
+    'body': 'serialNumber()'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'webServiceURL':
+    'prefix': 'webServiceURL'
+    'body': 'webServiceURL()'
+  'addPasses:withCompletionHandler:':
+    'prefix': 'addPasses:withCompletionHandler:'
+    'body': 'addPasses(${1:NSArray* passes}, withCompletionHandler:${2:void (^)(PKPassLibraryAddPassesStatus) completion})'
+  'containsPass:':
+    'prefix': 'containsPass:'
+    'body': 'containsPass(${1:PKPass* pass})'
+  'PKPassLibrary.isPassLibraryAvailable':
+    'prefix': 'isPassLibraryAvailable'
+    'body': 'PKPassLibrary.isPassLibraryAvailable()'
+  'passWithPassTypeIdentifier:serialNumber:':
+    'prefix': 'passWithPassTypeIdentifier:serialNumber:'
+    'body': 'passWithPassTypeIdentifier(${1:NSString* identifier}, serialNumber:${2:NSString* serialNumber})'
+  'passes':
+    'prefix': 'passes'
+    'body': 'passes()'
+  'removePass:':
+    'prefix': 'removePass:'
+    'body': 'removePass(${1:PKPass* pass})'
+  'replacePassWithPass:':
+    'prefix': 'replacePassWithPass:'
+    'body': 'replacePassWithPass(${1:PKPass* pass})'
+  'addPassesViewControllerDidFinish:':
+    'prefix': 'addPassesViewControllerDidFinish:'
+    'body': 'addPassesViewControllerDidFinish(${1:PKAddPassesViewController* controller})'

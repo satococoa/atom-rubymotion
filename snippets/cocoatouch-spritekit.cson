@@ -1,0 +1,1537 @@
+'.source.rubymotion':
+  'SKActionTimingEaseIn (1)':
+    'prefix': 'SKActionTimingEaseIn'
+    'body': 'SKActionTimingEaseIn'
+  'SKActionTimingEaseInEaseOut (3)':
+    'prefix': 'SKActionTimingEaseInEaseOut'
+    'body': 'SKActionTimingEaseInEaseOut'
+  'SKActionTimingEaseOut (2)':
+    'prefix': 'SKActionTimingEaseOut'
+    'body': 'SKActionTimingEaseOut'
+  'SKActionTimingLinear (0)':
+    'prefix': 'SKActionTimingLinear'
+    'body': 'SKActionTimingLinear'
+  'SKBlendModeAdd (1)':
+    'prefix': 'SKBlendModeAdd'
+    'body': 'SKBlendModeAdd'
+  'SKBlendModeAlpha (0)':
+    'prefix': 'SKBlendModeAlpha'
+    'body': 'SKBlendModeAlpha'
+  'SKBlendModeMultiply (3)':
+    'prefix': 'SKBlendModeMultiply'
+    'body': 'SKBlendModeMultiply'
+  'SKBlendModeMultiplyX2 (4)':
+    'prefix': 'SKBlendModeMultiplyX2'
+    'body': 'SKBlendModeMultiplyX2'
+  'SKBlendModeReplace (6)':
+    'prefix': 'SKBlendModeReplace'
+    'body': 'SKBlendModeReplace'
+  'SKBlendModeScreen (5)':
+    'prefix': 'SKBlendModeScreen'
+    'body': 'SKBlendModeScreen'
+  'SKBlendModeSubtract (2)':
+    'prefix': 'SKBlendModeSubtract'
+    'body': 'SKBlendModeSubtract'
+  'SKInterpolationModeLinear (1)':
+    'prefix': 'SKInterpolationModeLinear'
+    'body': 'SKInterpolationModeLinear'
+  'SKInterpolationModeSpline (2)':
+    'prefix': 'SKInterpolationModeSpline'
+    'body': 'SKInterpolationModeSpline'
+  'SKInterpolationModeStep (3)':
+    'prefix': 'SKInterpolationModeStep'
+    'body': 'SKInterpolationModeStep'
+  'SKLabelHorizontalAlignmentModeCenter (0)':
+    'prefix': 'SKLabelHorizontalAlignmentModeCenter'
+    'body': 'SKLabelHorizontalAlignmentModeCenter'
+  'SKLabelHorizontalAlignmentModeLeft (1)':
+    'prefix': 'SKLabelHorizontalAlignmentModeLeft'
+    'body': 'SKLabelHorizontalAlignmentModeLeft'
+  'SKLabelHorizontalAlignmentModeRight (2)':
+    'prefix': 'SKLabelHorizontalAlignmentModeRight'
+    'body': 'SKLabelHorizontalAlignmentModeRight'
+  'SKLabelVerticalAlignmentModeBaseline (0)':
+    'prefix': 'SKLabelVerticalAlignmentModeBaseline'
+    'body': 'SKLabelVerticalAlignmentModeBaseline'
+  'SKLabelVerticalAlignmentModeBottom (3)':
+    'prefix': 'SKLabelVerticalAlignmentModeBottom'
+    'body': 'SKLabelVerticalAlignmentModeBottom'
+  'SKLabelVerticalAlignmentModeCenter (1)':
+    'prefix': 'SKLabelVerticalAlignmentModeCenter'
+    'body': 'SKLabelVerticalAlignmentModeCenter'
+  'SKLabelVerticalAlignmentModeTop (2)':
+    'prefix': 'SKLabelVerticalAlignmentModeTop'
+    'body': 'SKLabelVerticalAlignmentModeTop'
+  'SKRepeatModeClamp (1)':
+    'prefix': 'SKRepeatModeClamp'
+    'body': 'SKRepeatModeClamp'
+  'SKRepeatModeLoop (2)':
+    'prefix': 'SKRepeatModeLoop'
+    'body': 'SKRepeatModeLoop'
+  'SKSceneScaleModeAspectFill (1)':
+    'prefix': 'SKSceneScaleModeAspectFill'
+    'body': 'SKSceneScaleModeAspectFill'
+  'SKSceneScaleModeAspectFit (2)':
+    'prefix': 'SKSceneScaleModeAspectFit'
+    'body': 'SKSceneScaleModeAspectFit'
+  'SKSceneScaleModeFill (0)':
+    'prefix': 'SKSceneScaleModeFill'
+    'body': 'SKSceneScaleModeFill'
+  'SKSceneScaleModeResizeFill (3)':
+    'prefix': 'SKSceneScaleModeResizeFill'
+    'body': 'SKSceneScaleModeResizeFill'
+  'SKTextureFilteringLinear (1)':
+    'prefix': 'SKTextureFilteringLinear'
+    'body': 'SKTextureFilteringLinear'
+  'SKTextureFilteringNearest (0)':
+    'prefix': 'SKTextureFilteringNearest'
+    'body': 'SKTextureFilteringNearest'
+  'SKTransitionDirectionDown (1)':
+    'prefix': 'SKTransitionDirectionDown'
+    'body': 'SKTransitionDirectionDown'
+  'SKTransitionDirectionLeft (3)':
+    'prefix': 'SKTransitionDirectionLeft'
+    'body': 'SKTransitionDirectionLeft'
+  'SKTransitionDirectionRight (2)':
+    'prefix': 'SKTransitionDirectionRight'
+    'body': 'SKTransitionDirectionRight'
+  'SKTransitionDirectionUp (0)':
+    'prefix': 'SKTransitionDirectionUp'
+    'body': 'SKTransitionDirectionUp'
+  'didBeginContact:':
+    'prefix': 'didBeginContact:'
+    'body': 'didBeginContact(${1:SKPhysicsContact* contact})'
+  'didEndContact:':
+    'prefix': 'didEndContact:'
+    'body': 'didEndContact(${1:SKPhysicsContact* contact})'
+  'SKAction.animateWithTextures:timePerFrame:':
+    'prefix': 'animateWithTextures:timePerFrame:'
+    'body': 'SKAction.animateWithTextures(${1:NSArray* textures}, timePerFrame:${2:NSTimeInterval sec})'
+  'SKAction.animateWithTextures:timePerFrame:resize:restore:':
+    'prefix': 'animateWithTextures:timePerFrame:resize:restore:'
+    'body': 'SKAction.animateWithTextures(${1:NSArray* textures}, timePerFrame:${2:NSTimeInterval sec}, resize:${3:BOOL resize}, restore:${4:BOOL restore})'
+  'SKAction.colorizeWithColor:colorBlendFactor:duration:':
+    'prefix': 'colorizeWithColor:colorBlendFactor:duration:'
+    'body': 'SKAction.colorizeWithColor(${1:UIColor* color}, colorBlendFactor:${2:CGFloat colorBlendFactor}, duration:${3:NSTimeInterval sec})'
+  'SKAction.colorizeWithColorBlendFactor:duration:':
+    'prefix': 'colorizeWithColorBlendFactor:duration:'
+    'body': 'SKAction.colorizeWithColorBlendFactor(${1:CGFloat colorBlendFactor}, duration:${2:NSTimeInterval sec})'
+  'SKAction.customActionWithDuration:actionBlock:':
+    'prefix': 'customActionWithDuration:actionBlock:'
+    'body': 'SKAction.customActionWithDuration(${1:NSTimeInterval seconds}, actionBlock:${2:void (^)(SKNode *, CGFloat) block})'
+  'duration':
+    'prefix': 'duration'
+    'body': 'duration()'
+  'SKAction.fadeAlphaBy:duration:':
+    'prefix': 'fadeAlphaBy:duration:'
+    'body': 'SKAction.fadeAlphaBy(${1:CGFloat factor}, duration:${2:NSTimeInterval sec})'
+  'SKAction.fadeAlphaTo:duration:':
+    'prefix': 'fadeAlphaTo:duration:'
+    'body': 'SKAction.fadeAlphaTo(${1:CGFloat alpha}, duration:${2:NSTimeInterval sec})'
+  'SKAction.fadeInWithDuration:':
+    'prefix': 'fadeInWithDuration:'
+    'body': 'SKAction.fadeInWithDuration(${1:NSTimeInterval sec})'
+  'SKAction.fadeOutWithDuration:':
+    'prefix': 'fadeOutWithDuration:'
+    'body': 'SKAction.fadeOutWithDuration(${1:NSTimeInterval sec})'
+  'SKAction.followPath:asOffset:orientToPath:duration:':
+    'prefix': 'followPath:asOffset:orientToPath:duration:'
+    'body': 'SKAction.followPath(${1:CGPathRef path}, asOffset:${2:BOOL offset}, orientToPath:${3:BOOL orient}, duration:${4:NSTimeInterval sec})'
+  'SKAction.followPath:duration:':
+    'prefix': 'followPath:duration:'
+    'body': 'SKAction.followPath(${1:CGPathRef path}, duration:${2:NSTimeInterval sec})'
+  'SKAction.group:':
+    'prefix': 'group:'
+    'body': 'SKAction.group(${1:NSArray* actions})'
+  'SKAction.moveBy:duration:':
+    'prefix': 'moveBy:duration:'
+    'body': 'SKAction.moveBy(${1:CGVector delta}, duration:${2:NSTimeInterval sec})'
+  'SKAction.moveByX:y:duration:':
+    'prefix': 'moveByX:y:duration:'
+    'body': 'SKAction.moveByX(${1:CGFloat deltaX}, y:${2:CGFloat deltaY}, duration:${3:NSTimeInterval sec})'
+  'SKAction.moveTo:duration:':
+    'prefix': 'moveTo:duration:'
+    'body': 'SKAction.moveTo(${1:CGPoint location}, duration:${2:NSTimeInterval sec})'
+  'SKAction.moveToX:duration:':
+    'prefix': 'moveToX:duration:'
+    'body': 'SKAction.moveToX(${1:CGFloat x}, duration:${2:NSTimeInterval sec})'
+  'SKAction.moveToY:duration:':
+    'prefix': 'moveToY:duration:'
+    'body': 'SKAction.moveToY(${1:CGFloat y}, duration:${2:NSTimeInterval sec})'
+  'SKAction.performSelector:onTarget:':
+    'prefix': 'performSelector:onTarget:'
+    'body': 'SKAction.performSelector(${1:SEL selector}, onTarget:${2:id target})'
+  'SKAction.playSoundFileNamed:waitForCompletion:':
+    'prefix': 'playSoundFileNamed:waitForCompletion:'
+    'body': 'SKAction.playSoundFileNamed(${1:NSString* soundFile}, waitForCompletion:${2:BOOL wait})'
+  'SKAction.removeFromParent':
+    'prefix': 'removeFromParent'
+    'body': 'SKAction.removeFromParent()'
+  'SKAction.repeatAction:count:':
+    'prefix': 'repeatAction:count:'
+    'body': 'SKAction.repeatAction(${1:SKAction* action}, count:${2:NSUInteger count})'
+  'SKAction.repeatActionForever:':
+    'prefix': 'repeatActionForever:'
+    'body': 'SKAction.repeatActionForever(${1:SKAction* action})'
+  'SKAction.resizeByWidth:height:duration:':
+    'prefix': 'resizeByWidth:height:duration:'
+    'body': 'SKAction.resizeByWidth(${1:CGFloat width}, height:${2:CGFloat height}, duration:${3:NSTimeInterval duration})'
+  'SKAction.resizeToHeight:duration:':
+    'prefix': 'resizeToHeight:duration:'
+    'body': 'SKAction.resizeToHeight(${1:CGFloat height}, duration:${2:NSTimeInterval duration})'
+  'SKAction.resizeToWidth:duration:':
+    'prefix': 'resizeToWidth:duration:'
+    'body': 'SKAction.resizeToWidth(${1:CGFloat width}, duration:${2:NSTimeInterval duration})'
+  'SKAction.resizeToWidth:height:duration:':
+    'prefix': 'resizeToWidth:height:duration:'
+    'body': 'SKAction.resizeToWidth(${1:CGFloat width}, height:${2:CGFloat height}, duration:${3:NSTimeInterval duration})'
+  'reversedAction':
+    'prefix': 'reversedAction'
+    'body': 'reversedAction()'
+  'SKAction.rotateByAngle:duration:':
+    'prefix': 'rotateByAngle:duration:'
+    'body': 'SKAction.rotateByAngle(${1:CGFloat radians}, duration:${2:NSTimeInterval sec})'
+  'SKAction.rotateToAngle:duration:':
+    'prefix': 'rotateToAngle:duration:'
+    'body': 'SKAction.rotateToAngle(${1:CGFloat radians}, duration:${2:NSTimeInterval sec})'
+  'SKAction.rotateToAngle:duration:shortestUnitArc:':
+    'prefix': 'rotateToAngle:duration:shortestUnitArc:'
+    'body': 'SKAction.rotateToAngle(${1:CGFloat radians}, duration:${2:NSTimeInterval sec}, shortestUnitArc:${3:BOOL shortestUnitArc})'
+  'SKAction.runAction:onChildWithName:':
+    'prefix': 'runAction:onChildWithName:'
+    'body': 'SKAction.runAction(${1:SKAction* action}, onChildWithName:${2:NSString* name})'
+  'SKAction.runBlock:':
+    'prefix': 'runBlock:'
+    'body': 'SKAction.runBlock(${1:dispatch_block_t block})'
+  'SKAction.runBlock:queue:':
+    'prefix': 'runBlock:queue:'
+    'body': 'SKAction.runBlock(${1:dispatch_block_t block}, queue:${2:dispatch_queue_t queue})'
+  'SKAction.scaleBy:duration:':
+    'prefix': 'scaleBy:duration:'
+    'body': 'SKAction.scaleBy(${1:CGFloat scale}, duration:${2:NSTimeInterval sec})'
+  'SKAction.scaleTo:duration:':
+    'prefix': 'scaleTo:duration:'
+    'body': 'SKAction.scaleTo(${1:CGFloat scale}, duration:${2:NSTimeInterval sec})'
+  'SKAction.scaleXBy:y:duration:':
+    'prefix': 'scaleXBy:y:duration:'
+    'body': 'SKAction.scaleXBy(${1:CGFloat xScale}, y:${2:CGFloat yScale}, duration:${3:NSTimeInterval sec})'
+  'SKAction.scaleXTo:duration:':
+    'prefix': 'scaleXTo:duration:'
+    'body': 'SKAction.scaleXTo(${1:CGFloat scale}, duration:${2:NSTimeInterval sec})'
+  'SKAction.scaleXTo:y:duration:':
+    'prefix': 'scaleXTo:y:duration:'
+    'body': 'SKAction.scaleXTo(${1:CGFloat xScale}, y:${2:CGFloat yScale}, duration:${3:NSTimeInterval sec})'
+  'SKAction.scaleYTo:duration:':
+    'prefix': 'scaleYTo:duration:'
+    'body': 'SKAction.scaleYTo(${1:CGFloat scale}, duration:${2:NSTimeInterval sec})'
+  'SKAction.sequence:':
+    'prefix': 'sequence:'
+    'body': 'SKAction.sequence(${1:NSArray* actions})'
+  'setDuration:':
+    'prefix': 'setDuration:'
+    'body': 'setDuration(${1:NSTimeInterval duration})'
+  'setSpeed:':
+    'prefix': 'setSpeed:'
+    'body': 'setSpeed(${1:CGFloat speed})'
+  'SKAction.setTexture:':
+    'prefix': 'setTexture:'
+    'body': 'SKAction.setTexture(${1:SKTexture* texture})'
+  'SKAction.setTexture:resize:':
+    'prefix': 'setTexture:resize:'
+    'body': 'SKAction.setTexture(${1:SKTexture* texture}, resize:${2:BOOL resize})'
+  'setTimingMode:':
+    'prefix': 'setTimingMode:'
+    'body': 'setTimingMode(${1:SKActionTimingMode timingMode})'
+  'speed':
+    'prefix': 'speed'
+    'body': 'speed()'
+  'SKAction.speedBy:duration:':
+    'prefix': 'speedBy:duration:'
+    'body': 'SKAction.speedBy(${1:CGFloat speed}, duration:${2:NSTimeInterval sec})'
+  'SKAction.speedTo:duration:':
+    'prefix': 'speedTo:duration:'
+    'body': 'SKAction.speedTo(${1:CGFloat speed}, duration:${2:NSTimeInterval sec})'
+  'timingMode':
+    'prefix': 'timingMode'
+    'body': 'timingMode()'
+  'SKAction.waitForDuration:':
+    'prefix': 'waitForDuration:'
+    'body': 'SKAction.waitForDuration(${1:NSTimeInterval sec})'
+  'SKAction.waitForDuration:withRange:':
+    'prefix': 'waitForDuration:withRange:'
+    'body': 'SKAction.waitForDuration(${1:NSTimeInterval sec}, withRange:${2:NSTimeInterval durationRange})'
+  'maskNode':
+    'prefix': 'maskNode'
+    'body': 'maskNode()'
+  'setMaskNode:':
+    'prefix': 'setMaskNode:'
+    'body': 'setMaskNode(${1:SKNode* maskNode})'
+  'blendMode':
+    'prefix': 'blendMode'
+    'body': 'blendMode()'
+  'filter':
+    'prefix': 'filter'
+    'body': 'filter()'
+  'setBlendMode:':
+    'prefix': 'setBlendMode:'
+    'body': 'setBlendMode(${1:SKBlendMode blendMode})'
+  'setFilter:':
+    'prefix': 'setFilter:'
+    'body': 'setFilter(${1:CIFilter* filter})'
+  'setShouldCenterFilter:':
+    'prefix': 'setShouldCenterFilter:'
+    'body': 'setShouldCenterFilter(${1:BOOL shouldCenterFilter})'
+  'setShouldEnableEffects:':
+    'prefix': 'setShouldEnableEffects:'
+    'body': 'setShouldEnableEffects(${1:BOOL shouldEnableEffects})'
+  'setShouldRasterize:':
+    'prefix': 'setShouldRasterize:'
+    'body': 'setShouldRasterize(${1:BOOL shouldRasterize})'
+  'shouldCenterFilter':
+    'prefix': 'shouldCenterFilter'
+    'body': 'shouldCenterFilter()'
+  'shouldEnableEffects':
+    'prefix': 'shouldEnableEffects'
+    'body': 'shouldEnableEffects()'
+  'shouldRasterize':
+    'prefix': 'shouldRasterize'
+    'body': 'shouldRasterize()'
+  'advanceSimulationTime:':
+    'prefix': 'advanceSimulationTime:'
+    'body': 'advanceSimulationTime(${1:NSTimeInterval sec})'
+  'emissionAngle':
+    'prefix': 'emissionAngle'
+    'body': 'emissionAngle()'
+  'emissionAngleRange':
+    'prefix': 'emissionAngleRange'
+    'body': 'emissionAngleRange()'
+  'numParticlesToEmit':
+    'prefix': 'numParticlesToEmit'
+    'body': 'numParticlesToEmit()'
+  'particleAction':
+    'prefix': 'particleAction'
+    'body': 'particleAction()'
+  'particleAlpha':
+    'prefix': 'particleAlpha'
+    'body': 'particleAlpha()'
+  'particleAlphaRange':
+    'prefix': 'particleAlphaRange'
+    'body': 'particleAlphaRange()'
+  'particleAlphaSequence':
+    'prefix': 'particleAlphaSequence'
+    'body': 'particleAlphaSequence()'
+  'particleAlphaSpeed':
+    'prefix': 'particleAlphaSpeed'
+    'body': 'particleAlphaSpeed()'
+  'particleBirthRate':
+    'prefix': 'particleBirthRate'
+    'body': 'particleBirthRate()'
+  'particleBlendMode':
+    'prefix': 'particleBlendMode'
+    'body': 'particleBlendMode()'
+  'particleColor':
+    'prefix': 'particleColor'
+    'body': 'particleColor()'
+  'particleColorAlphaRange':
+    'prefix': 'particleColorAlphaRange'
+    'body': 'particleColorAlphaRange()'
+  'particleColorAlphaSpeed':
+    'prefix': 'particleColorAlphaSpeed'
+    'body': 'particleColorAlphaSpeed()'
+  'particleColorBlendFactor':
+    'prefix': 'particleColorBlendFactor'
+    'body': 'particleColorBlendFactor()'
+  'particleColorBlendFactorRange':
+    'prefix': 'particleColorBlendFactorRange'
+    'body': 'particleColorBlendFactorRange()'
+  'particleColorBlendFactorSequence':
+    'prefix': 'particleColorBlendFactorSequence'
+    'body': 'particleColorBlendFactorSequence()'
+  'particleColorBlendFactorSpeed':
+    'prefix': 'particleColorBlendFactorSpeed'
+    'body': 'particleColorBlendFactorSpeed()'
+  'particleColorBlueRange':
+    'prefix': 'particleColorBlueRange'
+    'body': 'particleColorBlueRange()'
+  'particleColorBlueSpeed':
+    'prefix': 'particleColorBlueSpeed'
+    'body': 'particleColorBlueSpeed()'
+  'particleColorGreenRange':
+    'prefix': 'particleColorGreenRange'
+    'body': 'particleColorGreenRange()'
+  'particleColorGreenSpeed':
+    'prefix': 'particleColorGreenSpeed'
+    'body': 'particleColorGreenSpeed()'
+  'particleColorRedRange':
+    'prefix': 'particleColorRedRange'
+    'body': 'particleColorRedRange()'
+  'particleColorRedSpeed':
+    'prefix': 'particleColorRedSpeed'
+    'body': 'particleColorRedSpeed()'
+  'particleColorSequence':
+    'prefix': 'particleColorSequence'
+    'body': 'particleColorSequence()'
+  'particleLifetime':
+    'prefix': 'particleLifetime'
+    'body': 'particleLifetime()'
+  'particleLifetimeRange':
+    'prefix': 'particleLifetimeRange'
+    'body': 'particleLifetimeRange()'
+  'particlePosition':
+    'prefix': 'particlePosition'
+    'body': 'particlePosition()'
+  'particlePositionRange':
+    'prefix': 'particlePositionRange'
+    'body': 'particlePositionRange()'
+  'particleRotation':
+    'prefix': 'particleRotation'
+    'body': 'particleRotation()'
+  'particleRotationRange':
+    'prefix': 'particleRotationRange'
+    'body': 'particleRotationRange()'
+  'particleRotationSpeed':
+    'prefix': 'particleRotationSpeed'
+    'body': 'particleRotationSpeed()'
+  'particleScale':
+    'prefix': 'particleScale'
+    'body': 'particleScale()'
+  'particleScaleRange':
+    'prefix': 'particleScaleRange'
+    'body': 'particleScaleRange()'
+  'particleScaleSequence':
+    'prefix': 'particleScaleSequence'
+    'body': 'particleScaleSequence()'
+  'particleScaleSpeed':
+    'prefix': 'particleScaleSpeed'
+    'body': 'particleScaleSpeed()'
+  'particleSize':
+    'prefix': 'particleSize'
+    'body': 'particleSize()'
+  'particleSpeed':
+    'prefix': 'particleSpeed'
+    'body': 'particleSpeed()'
+  'particleSpeedRange':
+    'prefix': 'particleSpeedRange'
+    'body': 'particleSpeedRange()'
+  'particleTexture':
+    'prefix': 'particleTexture'
+    'body': 'particleTexture()'
+  'particleZPosition':
+    'prefix': 'particleZPosition'
+    'body': 'particleZPosition()'
+  'particleZPositionRange':
+    'prefix': 'particleZPositionRange'
+    'body': 'particleZPositionRange()'
+  'resetSimulation':
+    'prefix': 'resetSimulation'
+    'body': 'resetSimulation()'
+  'setEmissionAngle:':
+    'prefix': 'setEmissionAngle:'
+    'body': 'setEmissionAngle(${1:CGFloat emissionAngle})'
+  'setEmissionAngleRange:':
+    'prefix': 'setEmissionAngleRange:'
+    'body': 'setEmissionAngleRange(${1:CGFloat emissionAngleRange})'
+  'setNumParticlesToEmit:':
+    'prefix': 'setNumParticlesToEmit:'
+    'body': 'setNumParticlesToEmit(${1:NSUInteger numParticlesToEmit})'
+  'setParticleAction:':
+    'prefix': 'setParticleAction:'
+    'body': 'setParticleAction(${1:SKAction* particleAction})'
+  'setParticleAlpha:':
+    'prefix': 'setParticleAlpha:'
+    'body': 'setParticleAlpha(${1:CGFloat particleAlpha})'
+  'setParticleAlphaRange:':
+    'prefix': 'setParticleAlphaRange:'
+    'body': 'setParticleAlphaRange(${1:CGFloat particleAlphaRange})'
+  'setParticleAlphaSequence:':
+    'prefix': 'setParticleAlphaSequence:'
+    'body': 'setParticleAlphaSequence(${1:SKKeyframeSequence* particleAlphaSequence})'
+  'setParticleAlphaSpeed:':
+    'prefix': 'setParticleAlphaSpeed:'
+    'body': 'setParticleAlphaSpeed(${1:CGFloat particleAlphaSpeed})'
+  'setParticleBirthRate:':
+    'prefix': 'setParticleBirthRate:'
+    'body': 'setParticleBirthRate(${1:CGFloat particleBirthRate})'
+  'setParticleBlendMode:':
+    'prefix': 'setParticleBlendMode:'
+    'body': 'setParticleBlendMode(${1:SKBlendMode particleBlendMode})'
+  'setParticleColor:':
+    'prefix': 'setParticleColor:'
+    'body': 'setParticleColor(${1:UIColor* particleColor})'
+  'setParticleColorAlphaRange:':
+    'prefix': 'setParticleColorAlphaRange:'
+    'body': 'setParticleColorAlphaRange(${1:CGFloat particleColorAlphaRange})'
+  'setParticleColorAlphaSpeed:':
+    'prefix': 'setParticleColorAlphaSpeed:'
+    'body': 'setParticleColorAlphaSpeed(${1:CGFloat particleColorAlphaSpeed})'
+  'setParticleColorBlendFactor:':
+    'prefix': 'setParticleColorBlendFactor:'
+    'body': 'setParticleColorBlendFactor(${1:CGFloat particleColorBlendFactor})'
+  'setParticleColorBlendFactorRange:':
+    'prefix': 'setParticleColorBlendFactorRange:'
+    'body': 'setParticleColorBlendFactorRange(${1:CGFloat particleColorBlendFactorRange})'
+  'setParticleColorBlendFactorSequence:':
+    'prefix': 'setParticleColorBlendFactorSequence:'
+    'body': 'setParticleColorBlendFactorSequence(${1:SKKeyframeSequence* particleColorBlendFactorSequence})'
+  'setParticleColorBlendFactorSpeed:':
+    'prefix': 'setParticleColorBlendFactorSpeed:'
+    'body': 'setParticleColorBlendFactorSpeed(${1:CGFloat particleColorBlendFactorSpeed})'
+  'setParticleColorBlueRange:':
+    'prefix': 'setParticleColorBlueRange:'
+    'body': 'setParticleColorBlueRange(${1:CGFloat particleColorBlueRange})'
+  'setParticleColorBlueSpeed:':
+    'prefix': 'setParticleColorBlueSpeed:'
+    'body': 'setParticleColorBlueSpeed(${1:CGFloat particleColorBlueSpeed})'
+  'setParticleColorGreenRange:':
+    'prefix': 'setParticleColorGreenRange:'
+    'body': 'setParticleColorGreenRange(${1:CGFloat particleColorGreenRange})'
+  'setParticleColorGreenSpeed:':
+    'prefix': 'setParticleColorGreenSpeed:'
+    'body': 'setParticleColorGreenSpeed(${1:CGFloat particleColorGreenSpeed})'
+  'setParticleColorRedRange:':
+    'prefix': 'setParticleColorRedRange:'
+    'body': 'setParticleColorRedRange(${1:CGFloat particleColorRedRange})'
+  'setParticleColorRedSpeed:':
+    'prefix': 'setParticleColorRedSpeed:'
+    'body': 'setParticleColorRedSpeed(${1:CGFloat particleColorRedSpeed})'
+  'setParticleColorSequence:':
+    'prefix': 'setParticleColorSequence:'
+    'body': 'setParticleColorSequence(${1:SKKeyframeSequence* particleColorSequence})'
+  'setParticleLifetime:':
+    'prefix': 'setParticleLifetime:'
+    'body': 'setParticleLifetime(${1:CGFloat particleLifetime})'
+  'setParticleLifetimeRange:':
+    'prefix': 'setParticleLifetimeRange:'
+    'body': 'setParticleLifetimeRange(${1:CGFloat particleLifetimeRange})'
+  'setParticlePosition:':
+    'prefix': 'setParticlePosition:'
+    'body': 'setParticlePosition(${1:CGPoint particlePosition})'
+  'setParticlePositionRange:':
+    'prefix': 'setParticlePositionRange:'
+    'body': 'setParticlePositionRange(${1:CGVector particlePositionRange})'
+  'setParticleRotation:':
+    'prefix': 'setParticleRotation:'
+    'body': 'setParticleRotation(${1:CGFloat particleRotation})'
+  'setParticleRotationRange:':
+    'prefix': 'setParticleRotationRange:'
+    'body': 'setParticleRotationRange(${1:CGFloat particleRotationRange})'
+  'setParticleRotationSpeed:':
+    'prefix': 'setParticleRotationSpeed:'
+    'body': 'setParticleRotationSpeed(${1:CGFloat particleRotationSpeed})'
+  'setParticleScale:':
+    'prefix': 'setParticleScale:'
+    'body': 'setParticleScale(${1:CGFloat particleScale})'
+  'setParticleScaleRange:':
+    'prefix': 'setParticleScaleRange:'
+    'body': 'setParticleScaleRange(${1:CGFloat particleScaleRange})'
+  'setParticleScaleSequence:':
+    'prefix': 'setParticleScaleSequence:'
+    'body': 'setParticleScaleSequence(${1:SKKeyframeSequence* particleScaleSequence})'
+  'setParticleScaleSpeed:':
+    'prefix': 'setParticleScaleSpeed:'
+    'body': 'setParticleScaleSpeed(${1:CGFloat particleScaleSpeed})'
+  'setParticleSize:':
+    'prefix': 'setParticleSize:'
+    'body': 'setParticleSize(${1:CGSize particleSize})'
+  'setParticleSpeed:':
+    'prefix': 'setParticleSpeed:'
+    'body': 'setParticleSpeed(${1:CGFloat particleSpeed})'
+  'setParticleSpeedRange:':
+    'prefix': 'setParticleSpeedRange:'
+    'body': 'setParticleSpeedRange(${1:CGFloat particleSpeedRange})'
+  'setParticleTexture:':
+    'prefix': 'setParticleTexture:'
+    'body': 'setParticleTexture(${1:SKTexture* particleTexture})'
+  'setParticleZPosition:':
+    'prefix': 'setParticleZPosition:'
+    'body': 'setParticleZPosition(${1:CGFloat particleZPosition})'
+  'setParticleZPositionRange:':
+    'prefix': 'setParticleZPositionRange:'
+    'body': 'setParticleZPositionRange(${1:CGFloat particleZPositionRange})'
+  'setTargetNode:':
+    'prefix': 'setTargetNode:'
+    'body': 'setTargetNode(${1:SKNode* targetNode})'
+  'setXAcceleration:':
+    'prefix': 'setXAcceleration:'
+    'body': 'setXAcceleration(${1:CGFloat xAcceleration})'
+  'setYAcceleration:':
+    'prefix': 'setYAcceleration:'
+    'body': 'setYAcceleration(${1:CGFloat yAcceleration})'
+  'targetNode':
+    'prefix': 'targetNode'
+    'body': 'targetNode()'
+  'xAcceleration':
+    'prefix': 'xAcceleration'
+    'body': 'xAcceleration()'
+  'yAcceleration':
+    'prefix': 'yAcceleration'
+    'body': 'yAcceleration()'
+  'addKeyframeValue:time:':
+    'prefix': 'addKeyframeValue:time:'
+    'body': 'addKeyframeValue(${1:id value}, time:${2:CGFloat time})'
+  'count':
+    'prefix': 'count'
+    'body': 'count()'
+  'getKeyframeTimeForIndex:':
+    'prefix': 'getKeyframeTimeForIndex:'
+    'body': 'getKeyframeTimeForIndex(${1:NSUInteger index})'
+  'getKeyframeValueForIndex:':
+    'prefix': 'getKeyframeValueForIndex:'
+    'body': 'getKeyframeValueForIndex(${1:NSUInteger index})'
+  'initWithCapacity:':
+    'prefix': 'initWithCapacity:'
+    'body': 'initWithCapacity(${1:NSUInteger numItems})'
+  'initWithKeyframeValues:times:':
+    'prefix': 'initWithKeyframeValues:times:'
+    'body': 'initWithKeyframeValues(${1:NSArray* values}, times:${2:NSArray* times})'
+  'interpolationMode':
+    'prefix': 'interpolationMode'
+    'body': 'interpolationMode()'
+  'removeKeyframeAtIndex:':
+    'prefix': 'removeKeyframeAtIndex:'
+    'body': 'removeKeyframeAtIndex(${1:NSUInteger index})'
+  'removeLastKeyframe':
+    'prefix': 'removeLastKeyframe'
+    'body': 'removeLastKeyframe()'
+  'repeatMode':
+    'prefix': 'repeatMode'
+    'body': 'repeatMode()'
+  'sampleAtTime:':
+    'prefix': 'sampleAtTime:'
+    'body': 'sampleAtTime(${1:CGFloat time})'
+  'setInterpolationMode:':
+    'prefix': 'setInterpolationMode:'
+    'body': 'setInterpolationMode(${1:SKInterpolationMode interpolationMode})'
+  'setKeyframeTime:forIndex:':
+    'prefix': 'setKeyframeTime:forIndex:'
+    'body': 'setKeyframeTime(${1:CGFloat time}, forIndex:${2:NSUInteger index})'
+  'setKeyframeValue:forIndex:':
+    'prefix': 'setKeyframeValue:forIndex:'
+    'body': 'setKeyframeValue(${1:id value}, forIndex:${2:NSUInteger index})'
+  'setKeyframeValue:time:forIndex:':
+    'prefix': 'setKeyframeValue:time:forIndex:'
+    'body': 'setKeyframeValue(${1:id value}, time:${2:CGFloat time}, forIndex:${3:NSUInteger index})'
+  'setRepeatMode:':
+    'prefix': 'setRepeatMode:'
+    'body': 'setRepeatMode(${1:SKRepeatMode repeatMode})'
+  'blendMode':
+    'prefix': 'blendMode'
+    'body': 'blendMode()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'colorBlendFactor':
+    'prefix': 'colorBlendFactor'
+    'body': 'colorBlendFactor()'
+  'fontColor':
+    'prefix': 'fontColor'
+    'body': 'fontColor()'
+  'fontName':
+    'prefix': 'fontName'
+    'body': 'fontName()'
+  'fontSize':
+    'prefix': 'fontSize'
+    'body': 'fontSize()'
+  'horizontalAlignmentMode':
+    'prefix': 'horizontalAlignmentMode'
+    'body': 'horizontalAlignmentMode()'
+  'initWithFontNamed:':
+    'prefix': 'initWithFontNamed:'
+    'body': 'initWithFontNamed(${1:NSString* fontName})'
+  'SKLabelNode.labelNodeWithFontNamed:':
+    'prefix': 'labelNodeWithFontNamed:'
+    'body': 'SKLabelNode.labelNodeWithFontNamed(${1:NSString* fontName})'
+  'setBlendMode:':
+    'prefix': 'setBlendMode:'
+    'body': 'setBlendMode(${1:SKBlendMode blendMode})'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:UIColor* color})'
+  'setColorBlendFactor:':
+    'prefix': 'setColorBlendFactor:'
+    'body': 'setColorBlendFactor(${1:CGFloat colorBlendFactor})'
+  'setFontColor:':
+    'prefix': 'setFontColor:'
+    'body': 'setFontColor(${1:UIColor* fontColor})'
+  'setFontName:':
+    'prefix': 'setFontName:'
+    'body': 'setFontName(${1:NSString* fontName})'
+  'setFontSize:':
+    'prefix': 'setFontSize:'
+    'body': 'setFontSize(${1:CGFloat fontSize})'
+  'setHorizontalAlignmentMode:':
+    'prefix': 'setHorizontalAlignmentMode:'
+    'body': 'setHorizontalAlignmentMode(${1:SKLabelHorizontalAlignmentMode horizontalAlignmentMode})'
+  'setText:':
+    'prefix': 'setText:'
+    'body': 'setText(${1:NSString* text})'
+  'setVerticalAlignmentMode:':
+    'prefix': 'setVerticalAlignmentMode:'
+    'body': 'setVerticalAlignmentMode(${1:SKLabelVerticalAlignmentMode verticalAlignmentMode})'
+  'text':
+    'prefix': 'text'
+    'body': 'text()'
+  'verticalAlignmentMode':
+    'prefix': 'verticalAlignmentMode'
+    'body': 'verticalAlignmentMode()'
+  'actionForKey:':
+    'prefix': 'actionForKey:'
+    'body': 'actionForKey(${1:NSString* key})'
+  'addChild:':
+    'prefix': 'addChild:'
+    'body': 'addChild(${1:SKNode* node})'
+  'alpha':
+    'prefix': 'alpha'
+    'body': 'alpha()'
+  'calculateAccumulatedFrame':
+    'prefix': 'calculateAccumulatedFrame'
+    'body': 'calculateAccumulatedFrame()'
+  'childNodeWithName:':
+    'prefix': 'childNodeWithName:'
+    'body': 'childNodeWithName(${1:NSString* name})'
+  'children':
+    'prefix': 'children'
+    'body': 'children()'
+  'containsPoint:':
+    'prefix': 'containsPoint:'
+    'body': 'containsPoint(${1:CGPoint p})'
+  'convertPoint:fromNode:':
+    'prefix': 'convertPoint:fromNode:'
+    'body': 'convertPoint(${1:CGPoint point}, fromNode:${2:SKNode* node})'
+  'convertPoint:toNode:':
+    'prefix': 'convertPoint:toNode:'
+    'body': 'convertPoint(${1:CGPoint point}, toNode:${2:SKNode* node})'
+  'enumerateChildNodesWithName:usingBlock:':
+    'prefix': 'enumerateChildNodesWithName:usingBlock:'
+    'body': 'enumerateChildNodesWithName(${1:NSString* name}, usingBlock:${2:void (^)(SKNode *, BOOL *) block})'
+  'frame':
+    'prefix': 'frame'
+    'body': 'frame()'
+  'hasActions':
+    'prefix': 'hasActions'
+    'body': 'hasActions()'
+  'inParentHierarchy:':
+    'prefix': 'inParentHierarchy:'
+    'body': 'inParentHierarchy(${1:SKNode* parent})'
+  'insertChild:atIndex:':
+    'prefix': 'insertChild:atIndex:'
+    'body': 'insertChild(${1:SKNode* node}, atIndex:${2:NSInteger index})'
+  'intersectsNode:':
+    'prefix': 'intersectsNode:'
+    'body': 'intersectsNode(${1:SKNode* node})'
+  'isHidden':
+    'prefix': 'isHidden'
+    'body': 'isHidden()'
+  'isPaused':
+    'prefix': 'isPaused'
+    'body': 'isPaused()'
+  'isUserInteractionEnabled':
+    'prefix': 'isUserInteractionEnabled'
+    'body': 'isUserInteractionEnabled()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'SKNode.node':
+    'prefix': 'node'
+    'body': 'SKNode.node()'
+  'nodeAtPoint:':
+    'prefix': 'nodeAtPoint:'
+    'body': 'nodeAtPoint(${1:CGPoint p})'
+  'nodesAtPoint:':
+    'prefix': 'nodesAtPoint:'
+    'body': 'nodesAtPoint(${1:CGPoint p})'
+  'parent':
+    'prefix': 'parent'
+    'body': 'parent()'
+  'physicsBody':
+    'prefix': 'physicsBody'
+    'body': 'physicsBody()'
+  'position':
+    'prefix': 'position'
+    'body': 'position()'
+  'removeActionForKey:':
+    'prefix': 'removeActionForKey:'
+    'body': 'removeActionForKey(${1:NSString* key})'
+  'removeAllActions':
+    'prefix': 'removeAllActions'
+    'body': 'removeAllActions()'
+  'removeAllChildren':
+    'prefix': 'removeAllChildren'
+    'body': 'removeAllChildren()'
+  'removeChildrenInArray:':
+    'prefix': 'removeChildrenInArray:'
+    'body': 'removeChildrenInArray(${1:NSArray* nodes})'
+  'removeFromParent':
+    'prefix': 'removeFromParent'
+    'body': 'removeFromParent()'
+  'runAction:':
+    'prefix': 'runAction:'
+    'body': 'runAction(${1:SKAction* action})'
+  'runAction:completion:':
+    'prefix': 'runAction:completion:'
+    'body': 'runAction(${1:SKAction* action}, completion:${2:void (^)() block})'
+  'runAction:withKey:':
+    'prefix': 'runAction:withKey:'
+    'body': 'runAction(${1:SKAction* action}, withKey:${2:NSString* key})'
+  'scene':
+    'prefix': 'scene'
+    'body': 'scene()'
+  'setAlpha:':
+    'prefix': 'setAlpha:'
+    'body': 'setAlpha(${1:CGFloat alpha})'
+  'setHidden:':
+    'prefix': 'setHidden:'
+    'body': 'setHidden(${1:BOOL hidden})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setPaused:':
+    'prefix': 'setPaused:'
+    'body': 'setPaused(${1:BOOL paused})'
+  'setPhysicsBody:':
+    'prefix': 'setPhysicsBody:'
+    'body': 'setPhysicsBody(${1:SKPhysicsBody* physicsBody})'
+  'setPosition:':
+    'prefix': 'setPosition:'
+    'body': 'setPosition(${1:CGPoint position})'
+  'setScale:':
+    'prefix': 'setScale:'
+    'body': 'setScale(${1:CGFloat scale})'
+  'setSpeed:':
+    'prefix': 'setSpeed:'
+    'body': 'setSpeed(${1:CGFloat speed})'
+  'setUserData:':
+    'prefix': 'setUserData:'
+    'body': 'setUserData(${1:NSMutableDictionary* userData})'
+  'setUserInteractionEnabled:':
+    'prefix': 'setUserInteractionEnabled:'
+    'body': 'setUserInteractionEnabled(${1:BOOL userInteractionEnabled})'
+  'setXScale:':
+    'prefix': 'setXScale:'
+    'body': 'setXScale(${1:CGFloat xScale})'
+  'setYScale:':
+    'prefix': 'setYScale:'
+    'body': 'setYScale(${1:CGFloat yScale})'
+  'setZPosition:':
+    'prefix': 'setZPosition:'
+    'body': 'setZPosition(${1:CGFloat zPosition})'
+  'setZRotation:':
+    'prefix': 'setZRotation:'
+    'body': 'setZRotation(${1:CGFloat zRotation})'
+  'speed':
+    'prefix': 'speed'
+    'body': 'speed()'
+  'userData':
+    'prefix': 'userData'
+    'body': 'userData()'
+  'xScale':
+    'prefix': 'xScale'
+    'body': 'xScale()'
+  'yScale':
+    'prefix': 'yScale'
+    'body': 'yScale()'
+  'zPosition':
+    'prefix': 'zPosition'
+    'body': 'zPosition()'
+  'zRotation':
+    'prefix': 'zRotation'
+    'body': 'zRotation()'
+  'affectedByGravity':
+    'prefix': 'affectedByGravity'
+    'body': 'affectedByGravity()'
+  'allContactedBodies':
+    'prefix': 'allContactedBodies'
+    'body': 'allContactedBodies()'
+  'allowsRotation':
+    'prefix': 'allowsRotation'
+    'body': 'allowsRotation()'
+  'angularDamping':
+    'prefix': 'angularDamping'
+    'body': 'angularDamping()'
+  'angularVelocity':
+    'prefix': 'angularVelocity'
+    'body': 'angularVelocity()'
+  'applyAngularImpulse:':
+    'prefix': 'applyAngularImpulse:'
+    'body': 'applyAngularImpulse(${1:CGFloat impulse})'
+  'applyForce:':
+    'prefix': 'applyForce:'
+    'body': 'applyForce(${1:CGVector force})'
+  'applyForce:atPoint:':
+    'prefix': 'applyForce:atPoint:'
+    'body': 'applyForce(${1:CGVector force}, atPoint:${2:CGPoint point})'
+  'applyImpulse:':
+    'prefix': 'applyImpulse:'
+    'body': 'applyImpulse(${1:CGVector impulse})'
+  'applyImpulse:atPoint:':
+    'prefix': 'applyImpulse:atPoint:'
+    'body': 'applyImpulse(${1:CGVector impulse}, atPoint:${2:CGPoint point})'
+  'applyTorque:':
+    'prefix': 'applyTorque:'
+    'body': 'applyTorque(${1:CGFloat torque})'
+  'area':
+    'prefix': 'area'
+    'body': 'area()'
+  'SKPhysicsBody.bodyWithBodies:':
+    'prefix': 'bodyWithBodies:'
+    'body': 'SKPhysicsBody.bodyWithBodies(${1:NSArray* bodies})'
+  'SKPhysicsBody.bodyWithCircleOfRadius:':
+    'prefix': 'bodyWithCircleOfRadius:'
+    'body': 'SKPhysicsBody.bodyWithCircleOfRadius(${1:CGFloat r})'
+  'SKPhysicsBody.bodyWithCircleOfRadius:center:':
+    'prefix': 'bodyWithCircleOfRadius:center:'
+    'body': 'SKPhysicsBody.bodyWithCircleOfRadius(${1:CGFloat r}, center:${2:CGPoint center})'
+  'SKPhysicsBody.bodyWithEdgeChainFromPath:':
+    'prefix': 'bodyWithEdgeChainFromPath:'
+    'body': 'SKPhysicsBody.bodyWithEdgeChainFromPath(${1:CGPathRef path})'
+  'SKPhysicsBody.bodyWithEdgeFromPoint:toPoint:':
+    'prefix': 'bodyWithEdgeFromPoint:toPoint:'
+    'body': 'SKPhysicsBody.bodyWithEdgeFromPoint(${1:CGPoint p1}, toPoint:${2:CGPoint p2})'
+  'SKPhysicsBody.bodyWithEdgeLoopFromPath:':
+    'prefix': 'bodyWithEdgeLoopFromPath:'
+    'body': 'SKPhysicsBody.bodyWithEdgeLoopFromPath(${1:CGPathRef path})'
+  'SKPhysicsBody.bodyWithEdgeLoopFromRect:':
+    'prefix': 'bodyWithEdgeLoopFromRect:'
+    'body': 'SKPhysicsBody.bodyWithEdgeLoopFromRect(${1:CGRect rect})'
+  'SKPhysicsBody.bodyWithPolygonFromPath:':
+    'prefix': 'bodyWithPolygonFromPath:'
+    'body': 'SKPhysicsBody.bodyWithPolygonFromPath(${1:CGPathRef path})'
+  'SKPhysicsBody.bodyWithRectangleOfSize:':
+    'prefix': 'bodyWithRectangleOfSize:'
+    'body': 'SKPhysicsBody.bodyWithRectangleOfSize(${1:CGSize s})'
+  'SKPhysicsBody.bodyWithRectangleOfSize:center:':
+    'prefix': 'bodyWithRectangleOfSize:center:'
+    'body': 'SKPhysicsBody.bodyWithRectangleOfSize(${1:CGSize s}, center:${2:CGPoint center})'
+  'categoryBitMask':
+    'prefix': 'categoryBitMask'
+    'body': 'categoryBitMask()'
+  'collisionBitMask':
+    'prefix': 'collisionBitMask'
+    'body': 'collisionBitMask()'
+  'contactTestBitMask':
+    'prefix': 'contactTestBitMask'
+    'body': 'contactTestBitMask()'
+  'density':
+    'prefix': 'density'
+    'body': 'density()'
+  'friction':
+    'prefix': 'friction'
+    'body': 'friction()'
+  'isDynamic':
+    'prefix': 'isDynamic'
+    'body': 'isDynamic()'
+  'isResting':
+    'prefix': 'isResting'
+    'body': 'isResting()'
+  'joints':
+    'prefix': 'joints'
+    'body': 'joints()'
+  'linearDamping':
+    'prefix': 'linearDamping'
+    'body': 'linearDamping()'
+  'mass':
+    'prefix': 'mass'
+    'body': 'mass()'
+  'node':
+    'prefix': 'node'
+    'body': 'node()'
+  'restitution':
+    'prefix': 'restitution'
+    'body': 'restitution()'
+  'setAffectedByGravity:':
+    'prefix': 'setAffectedByGravity:'
+    'body': 'setAffectedByGravity(${1:BOOL affectedByGravity})'
+  'setAllowsRotation:':
+    'prefix': 'setAllowsRotation:'
+    'body': 'setAllowsRotation(${1:BOOL allowsRotation})'
+  'setAngularDamping:':
+    'prefix': 'setAngularDamping:'
+    'body': 'setAngularDamping(${1:CGFloat angularDamping})'
+  'setAngularVelocity:':
+    'prefix': 'setAngularVelocity:'
+    'body': 'setAngularVelocity(${1:CGFloat angularVelocity})'
+  'setCategoryBitMask:':
+    'prefix': 'setCategoryBitMask:'
+    'body': 'setCategoryBitMask(${1:uint32_t categoryBitMask})'
+  'setCollisionBitMask:':
+    'prefix': 'setCollisionBitMask:'
+    'body': 'setCollisionBitMask(${1:uint32_t collisionBitMask})'
+  'setContactTestBitMask:':
+    'prefix': 'setContactTestBitMask:'
+    'body': 'setContactTestBitMask(${1:uint32_t contactTestBitMask})'
+  'setDensity:':
+    'prefix': 'setDensity:'
+    'body': 'setDensity(${1:CGFloat density})'
+  'setDynamic:':
+    'prefix': 'setDynamic:'
+    'body': 'setDynamic(${1:BOOL dynamic})'
+  'setFriction:':
+    'prefix': 'setFriction:'
+    'body': 'setFriction(${1:CGFloat friction})'
+  'setLinearDamping:':
+    'prefix': 'setLinearDamping:'
+    'body': 'setLinearDamping(${1:CGFloat linearDamping})'
+  'setMass:':
+    'prefix': 'setMass:'
+    'body': 'setMass(${1:CGFloat mass})'
+  'setResting:':
+    'prefix': 'setResting:'
+    'body': 'setResting(${1:BOOL resting})'
+  'setRestitution:':
+    'prefix': 'setRestitution:'
+    'body': 'setRestitution(${1:CGFloat restitution})'
+  'setUsesPreciseCollisionDetection:':
+    'prefix': 'setUsesPreciseCollisionDetection:'
+    'body': 'setUsesPreciseCollisionDetection(${1:BOOL usesPreciseCollisionDetection})'
+  'setVelocity:':
+    'prefix': 'setVelocity:'
+    'body': 'setVelocity(${1:CGVector velocity})'
+  'usesPreciseCollisionDetection':
+    'prefix': 'usesPreciseCollisionDetection'
+    'body': 'usesPreciseCollisionDetection()'
+  'velocity':
+    'prefix': 'velocity'
+    'body': 'velocity()'
+  'bodyA':
+    'prefix': 'bodyA'
+    'body': 'bodyA()'
+  'bodyB':
+    'prefix': 'bodyB'
+    'body': 'bodyB()'
+  'collisionImpulse':
+    'prefix': 'collisionImpulse'
+    'body': 'collisionImpulse()'
+  'contactPoint':
+    'prefix': 'contactPoint'
+    'body': 'contactPoint()'
+  'bodyA':
+    'prefix': 'bodyA'
+    'body': 'bodyA()'
+  'bodyB':
+    'prefix': 'bodyB'
+    'body': 'bodyB()'
+  'setBodyA:':
+    'prefix': 'setBodyA:'
+    'body': 'setBodyA(${1:SKPhysicsBody* bodyA})'
+  'setBodyB:':
+    'prefix': 'setBodyB:'
+    'body': 'setBodyB(${1:SKPhysicsBody* bodyB})'
+  'SKPhysicsJointFixed.jointWithBodyA:bodyB:anchor:':
+    'prefix': 'jointWithBodyA:bodyB:anchor:'
+    'body': 'SKPhysicsJointFixed.jointWithBodyA(${1:SKPhysicsBody* bodyA}, bodyB:${2:SKPhysicsBody* bodyB}, anchor:${3:CGPoint anchor})'
+  'SKPhysicsJointLimit.jointWithBodyA:bodyB:anchorA:anchorB:':
+    'prefix': 'jointWithBodyA:bodyB:anchorA:anchorB:'
+    'body': 'SKPhysicsJointLimit.jointWithBodyA(${1:SKPhysicsBody* bodyA}, bodyB:${2:SKPhysicsBody* bodyB}, anchorA:${3:CGPoint anchorA}, anchorB:${4:CGPoint anchorB})'
+  'maxLength':
+    'prefix': 'maxLength'
+    'body': 'maxLength()'
+  'setMaxLength:':
+    'prefix': 'setMaxLength:'
+    'body': 'setMaxLength(${1:CGFloat maxLength})'
+  'frictionTorque':
+    'prefix': 'frictionTorque'
+    'body': 'frictionTorque()'
+  'SKPhysicsJointPin.jointWithBodyA:bodyB:anchor:':
+    'prefix': 'jointWithBodyA:bodyB:anchor:'
+    'body': 'SKPhysicsJointPin.jointWithBodyA(${1:SKPhysicsBody* bodyA}, bodyB:${2:SKPhysicsBody* bodyB}, anchor:${3:CGPoint anchor})'
+  'lowerAngleLimit':
+    'prefix': 'lowerAngleLimit'
+    'body': 'lowerAngleLimit()'
+  'setFrictionTorque:':
+    'prefix': 'setFrictionTorque:'
+    'body': 'setFrictionTorque(${1:CGFloat frictionTorque})'
+  'setLowerAngleLimit:':
+    'prefix': 'setLowerAngleLimit:'
+    'body': 'setLowerAngleLimit(${1:CGFloat lowerAngleLimit})'
+  'setShouldEnableLimits:':
+    'prefix': 'setShouldEnableLimits:'
+    'body': 'setShouldEnableLimits(${1:BOOL shouldEnableLimits})'
+  'setUpperAngleLimit:':
+    'prefix': 'setUpperAngleLimit:'
+    'body': 'setUpperAngleLimit(${1:CGFloat upperAngleLimit})'
+  'shouldEnableLimits':
+    'prefix': 'shouldEnableLimits'
+    'body': 'shouldEnableLimits()'
+  'upperAngleLimit':
+    'prefix': 'upperAngleLimit'
+    'body': 'upperAngleLimit()'
+  'SKPhysicsJointSliding.jointWithBodyA:bodyB:anchor:axis:':
+    'prefix': 'jointWithBodyA:bodyB:anchor:axis:'
+    'body': 'SKPhysicsJointSliding.jointWithBodyA(${1:SKPhysicsBody* bodyA}, bodyB:${2:SKPhysicsBody* bodyB}, anchor:${3:CGPoint anchor}, axis:${4:CGVector axis})'
+  'lowerDistanceLimit':
+    'prefix': 'lowerDistanceLimit'
+    'body': 'lowerDistanceLimit()'
+  'setLowerDistanceLimit:':
+    'prefix': 'setLowerDistanceLimit:'
+    'body': 'setLowerDistanceLimit(${1:CGFloat lowerDistanceLimit})'
+  'setShouldEnableLimits:':
+    'prefix': 'setShouldEnableLimits:'
+    'body': 'setShouldEnableLimits(${1:BOOL shouldEnableLimits})'
+  'setUpperDistanceLimit:':
+    'prefix': 'setUpperDistanceLimit:'
+    'body': 'setUpperDistanceLimit(${1:CGFloat upperDistanceLimit})'
+  'shouldEnableLimits':
+    'prefix': 'shouldEnableLimits'
+    'body': 'shouldEnableLimits()'
+  'upperDistanceLimit':
+    'prefix': 'upperDistanceLimit'
+    'body': 'upperDistanceLimit()'
+  'damping':
+    'prefix': 'damping'
+    'body': 'damping()'
+  'frequency':
+    'prefix': 'frequency'
+    'body': 'frequency()'
+  'SKPhysicsJointSpring.jointWithBodyA:bodyB:anchorA:anchorB:':
+    'prefix': 'jointWithBodyA:bodyB:anchorA:anchorB:'
+    'body': 'SKPhysicsJointSpring.jointWithBodyA(${1:SKPhysicsBody* bodyA}, bodyB:${2:SKPhysicsBody* bodyB}, anchorA:${3:CGPoint anchorA}, anchorB:${4:CGPoint anchorB})'
+  'setDamping:':
+    'prefix': 'setDamping:'
+    'body': 'setDamping(${1:CGFloat damping})'
+  'setFrequency:':
+    'prefix': 'setFrequency:'
+    'body': 'setFrequency(${1:CGFloat frequency})'
+  'addJoint:':
+    'prefix': 'addJoint:'
+    'body': 'addJoint(${1:SKPhysicsJoint* joint})'
+  'bodyAlongRayStart:end:':
+    'prefix': 'bodyAlongRayStart:end:'
+    'body': 'bodyAlongRayStart(${1:CGPoint start}, end:${2:CGPoint end})'
+  'bodyAtPoint:':
+    'prefix': 'bodyAtPoint:'
+    'body': 'bodyAtPoint(${1:CGPoint point})'
+  'bodyInRect:':
+    'prefix': 'bodyInRect:'
+    'body': 'bodyInRect(${1:CGRect rect})'
+  'contactDelegate':
+    'prefix': 'contactDelegate'
+    'body': 'contactDelegate()'
+  'enumerateBodiesAlongRayStart:end:usingBlock:':
+    'prefix': 'enumerateBodiesAlongRayStart:end:usingBlock:'
+    'body': 'enumerateBodiesAlongRayStart(${1:CGPoint start}, end:${2:CGPoint end}, usingBlock:${3:void (^)(SKPhysicsBody *, CGPoint, CGVector, BOOL *) block})'
+  'enumerateBodiesAtPoint:usingBlock:':
+    'prefix': 'enumerateBodiesAtPoint:usingBlock:'
+    'body': 'enumerateBodiesAtPoint(${1:CGPoint point}, usingBlock:${2:void (^)(SKPhysicsBody *, BOOL *) block})'
+  'enumerateBodiesInRect:usingBlock:':
+    'prefix': 'enumerateBodiesInRect:usingBlock:'
+    'body': 'enumerateBodiesInRect(${1:CGRect rect}, usingBlock:${2:void (^)(SKPhysicsBody *, BOOL *) block})'
+  'gravity':
+    'prefix': 'gravity'
+    'body': 'gravity()'
+  'removeAllJoints':
+    'prefix': 'removeAllJoints'
+    'body': 'removeAllJoints()'
+  'removeJoint:':
+    'prefix': 'removeJoint:'
+    'body': 'removeJoint(${1:SKPhysicsJoint* joint})'
+  'setContactDelegate:':
+    'prefix': 'setContactDelegate:'
+    'body': 'setContactDelegate(${1:id contactDelegate})'
+  'setGravity:':
+    'prefix': 'setGravity:'
+    'body': 'setGravity(${1:CGVector gravity})'
+  'setSpeed:':
+    'prefix': 'setSpeed:'
+    'body': 'setSpeed(${1:CGFloat speed})'
+  'speed':
+    'prefix': 'speed'
+    'body': 'speed()'
+  'anchorPoint':
+    'prefix': 'anchorPoint'
+    'body': 'anchorPoint()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'convertPointFromView:':
+    'prefix': 'convertPointFromView:'
+    'body': 'convertPointFromView(${1:CGPoint point})'
+  'convertPointToView:':
+    'prefix': 'convertPointToView:'
+    'body': 'convertPointToView(${1:CGPoint point})'
+  'didChangeSize:':
+    'prefix': 'didChangeSize:'
+    'body': 'didChangeSize(${1:CGSize oldSize})'
+  'didEvaluateActions':
+    'prefix': 'didEvaluateActions'
+    'body': 'didEvaluateActions()'
+  'didMoveToView:':
+    'prefix': 'didMoveToView:'
+    'body': 'didMoveToView(${1:SKView* view})'
+  'didSimulatePhysics':
+    'prefix': 'didSimulatePhysics'
+    'body': 'didSimulatePhysics()'
+  'initWithSize:':
+    'prefix': 'initWithSize:'
+    'body': 'initWithSize(${1:CGSize size})'
+  'physicsWorld':
+    'prefix': 'physicsWorld'
+    'body': 'physicsWorld()'
+  'scaleMode':
+    'prefix': 'scaleMode'
+    'body': 'scaleMode()'
+  'SKScene.sceneWithSize:':
+    'prefix': 'sceneWithSize:'
+    'body': 'SKScene.sceneWithSize(${1:CGSize size})'
+  'setAnchorPoint:':
+    'prefix': 'setAnchorPoint:'
+    'body': 'setAnchorPoint(${1:CGPoint anchorPoint})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:UIColor* backgroundColor})'
+  'setScaleMode:':
+    'prefix': 'setScaleMode:'
+    'body': 'setScaleMode(${1:SKSceneScaleMode scaleMode})'
+  'setSize:':
+    'prefix': 'setSize:'
+    'body': 'setSize(${1:CGSize size})'
+  'setView:':
+    'prefix': 'setView:'
+    'body': 'setView(${1:SKView* view})'
+  'size':
+    'prefix': 'size'
+    'body': 'size()'
+  'update:':
+    'prefix': 'update:'
+    'body': 'update(${1:NSTimeInterval currentTime})'
+  'view':
+    'prefix': 'view'
+    'body': 'view()'
+  'willMoveFromView:':
+    'prefix': 'willMoveFromView:'
+    'body': 'willMoveFromView(${1:SKView* view})'
+  'blendMode':
+    'prefix': 'blendMode'
+    'body': 'blendMode()'
+  'fillColor':
+    'prefix': 'fillColor'
+    'body': 'fillColor()'
+  'glowWidth':
+    'prefix': 'glowWidth'
+    'body': 'glowWidth()'
+  'isAntialiased':
+    'prefix': 'isAntialiased'
+    'body': 'isAntialiased()'
+  'lineWidth':
+    'prefix': 'lineWidth'
+    'body': 'lineWidth()'
+  'path':
+    'prefix': 'path'
+    'body': 'path()'
+  'setAntialiased:':
+    'prefix': 'setAntialiased:'
+    'body': 'setAntialiased(${1:BOOL antialiased})'
+  'setBlendMode:':
+    'prefix': 'setBlendMode:'
+    'body': 'setBlendMode(${1:SKBlendMode blendMode})'
+  'setFillColor:':
+    'prefix': 'setFillColor:'
+    'body': 'setFillColor(${1:UIColor* fillColor})'
+  'setGlowWidth:':
+    'prefix': 'setGlowWidth:'
+    'body': 'setGlowWidth(${1:CGFloat glowWidth})'
+  'setLineWidth:':
+    'prefix': 'setLineWidth:'
+    'body': 'setLineWidth(${1:CGFloat lineWidth})'
+  'setPath:':
+    'prefix': 'setPath:'
+    'body': 'setPath(${1:CGPathRef path})'
+  'setStrokeColor:':
+    'prefix': 'setStrokeColor:'
+    'body': 'setStrokeColor(${1:UIColor* strokeColor})'
+  'strokeColor':
+    'prefix': 'strokeColor'
+    'body': 'strokeColor()'
+  'anchorPoint':
+    'prefix': 'anchorPoint'
+    'body': 'anchorPoint()'
+  'blendMode':
+    'prefix': 'blendMode'
+    'body': 'blendMode()'
+  'centerRect':
+    'prefix': 'centerRect'
+    'body': 'centerRect()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'colorBlendFactor':
+    'prefix': 'colorBlendFactor'
+    'body': 'colorBlendFactor()'
+  'initWithColor:size:':
+    'prefix': 'initWithColor:size:'
+    'body': 'initWithColor(${1:UIColor* color}, size:${2:CGSize size})'
+  'initWithImageNamed:':
+    'prefix': 'initWithImageNamed:'
+    'body': 'initWithImageNamed(${1:NSString* name})'
+  'initWithTexture:':
+    'prefix': 'initWithTexture:'
+    'body': 'initWithTexture(${1:SKTexture* texture})'
+  'initWithTexture:color:size:':
+    'prefix': 'initWithTexture:color:size:'
+    'body': 'initWithTexture(${1:SKTexture* texture}, color:${2:UIColor* color}, size:${3:CGSize size})'
+  'setAnchorPoint:':
+    'prefix': 'setAnchorPoint:'
+    'body': 'setAnchorPoint(${1:CGPoint anchorPoint})'
+  'setBlendMode:':
+    'prefix': 'setBlendMode:'
+    'body': 'setBlendMode(${1:SKBlendMode blendMode})'
+  'setCenterRect:':
+    'prefix': 'setCenterRect:'
+    'body': 'setCenterRect(${1:CGRect centerRect})'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:UIColor* color})'
+  'setColorBlendFactor:':
+    'prefix': 'setColorBlendFactor:'
+    'body': 'setColorBlendFactor(${1:CGFloat colorBlendFactor})'
+  'setSize:':
+    'prefix': 'setSize:'
+    'body': 'setSize(${1:CGSize size})'
+  'setTexture:':
+    'prefix': 'setTexture:'
+    'body': 'setTexture(${1:SKTexture* texture})'
+  'size':
+    'prefix': 'size'
+    'body': 'size()'
+  'SKSpriteNode.spriteNodeWithColor:size:':
+    'prefix': 'spriteNodeWithColor:size:'
+    'body': 'SKSpriteNode.spriteNodeWithColor(${1:UIColor* color}, size:${2:CGSize size})'
+  'SKSpriteNode.spriteNodeWithImageNamed:':
+    'prefix': 'spriteNodeWithImageNamed:'
+    'body': 'SKSpriteNode.spriteNodeWithImageNamed(${1:NSString* name})'
+  'SKSpriteNode.spriteNodeWithTexture:':
+    'prefix': 'spriteNodeWithTexture:'
+    'body': 'SKSpriteNode.spriteNodeWithTexture(${1:SKTexture* texture})'
+  'SKSpriteNode.spriteNodeWithTexture:size:':
+    'prefix': 'spriteNodeWithTexture:size:'
+    'body': 'SKSpriteNode.spriteNodeWithTexture(${1:SKTexture* texture}, size:${2:CGSize size})'
+  'texture':
+    'prefix': 'texture'
+    'body': 'texture()'
+  'filteringMode':
+    'prefix': 'filteringMode'
+    'body': 'filteringMode()'
+  'SKTexture.preloadTextures:withCompletionHandler:':
+    'prefix': 'preloadTextures:withCompletionHandler:'
+    'body': 'SKTexture.preloadTextures(${1:NSArray* textures}, withCompletionHandler:${2:void (^)(void) completionHandler})'
+  'preloadWithCompletionHandler:':
+    'prefix': 'preloadWithCompletionHandler:'
+    'body': 'preloadWithCompletionHandler(${1:void (^)(void) completionHandler})'
+  'setFilteringMode:':
+    'prefix': 'setFilteringMode:'
+    'body': 'setFilteringMode(${1:SKTextureFilteringMode filteringMode})'
+  'setUsesMipmaps:':
+    'prefix': 'setUsesMipmaps:'
+    'body': 'setUsesMipmaps(${1:BOOL usesMipmaps})'
+  'size':
+    'prefix': 'size'
+    'body': 'size()'
+  'textureByApplyingCIFilter:':
+    'prefix': 'textureByApplyingCIFilter:'
+    'body': 'textureByApplyingCIFilter(${1:CIFilter* filter})'
+  'textureRect':
+    'prefix': 'textureRect'
+    'body': 'textureRect()'
+  'SKTexture.textureWithCGImage:':
+    'prefix': 'textureWithCGImage:'
+    'body': 'SKTexture.textureWithCGImage(${1:CGImageRef image})'
+  'SKTexture.textureWithData:size:':
+    'prefix': 'textureWithData:size:'
+    'body': 'SKTexture.textureWithData(${1:NSData* pixelData}, size:${2:CGSize size})'
+  'SKTexture.textureWithData:size:rowLength:alignment:':
+    'prefix': 'textureWithData:size:rowLength:alignment:'
+    'body': 'SKTexture.textureWithData(${1:NSData* pixelData}, size:${2:CGSize size}, rowLength:${3:unsigned int rowLength}, alignment:${4:unsigned int alignment})'
+  'SKTexture.textureWithImage:':
+    'prefix': 'textureWithImage:'
+    'body': 'SKTexture.textureWithImage(${1:UIImage* image})'
+  'SKTexture.textureWithImageNamed:':
+    'prefix': 'textureWithImageNamed:'
+    'body': 'SKTexture.textureWithImageNamed(${1:NSString* name})'
+  'SKTexture.textureWithRect:inTexture:':
+    'prefix': 'textureWithRect:inTexture:'
+    'body': 'SKTexture.textureWithRect(${1:CGRect rect}, inTexture:${2:SKTexture* texture})'
+  'usesMipmaps':
+    'prefix': 'usesMipmaps'
+    'body': 'usesMipmaps()'
+  'SKTextureAtlas.atlasNamed:':
+    'prefix': 'atlasNamed:'
+    'body': 'SKTextureAtlas.atlasNamed(${1:NSString* name})'
+  'SKTextureAtlas.preloadTextureAtlases:withCompletionHandler:':
+    'prefix': 'preloadTextureAtlases:withCompletionHandler:'
+    'body': 'SKTextureAtlas.preloadTextureAtlases(${1:NSArray* textureAtlases}, withCompletionHandler:${2:void (^)(void) completionHandler})'
+  'preloadWithCompletionHandler:':
+    'prefix': 'preloadWithCompletionHandler:'
+    'body': 'preloadWithCompletionHandler(${1:void (^)(void) completionHandler})'
+  'textureNamed:':
+    'prefix': 'textureNamed:'
+    'body': 'textureNamed(${1:NSString* name})'
+  'textureNames':
+    'prefix': 'textureNames'
+    'body': 'textureNames()'
+  'SKTransition.crossFadeWithDuration:':
+    'prefix': 'crossFadeWithDuration:'
+    'body': 'SKTransition.crossFadeWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.doorsCloseHorizontalWithDuration:':
+    'prefix': 'doorsCloseHorizontalWithDuration:'
+    'body': 'SKTransition.doorsCloseHorizontalWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.doorsCloseVerticalWithDuration:':
+    'prefix': 'doorsCloseVerticalWithDuration:'
+    'body': 'SKTransition.doorsCloseVerticalWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.doorsOpenHorizontalWithDuration:':
+    'prefix': 'doorsOpenHorizontalWithDuration:'
+    'body': 'SKTransition.doorsOpenHorizontalWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.doorsOpenVerticalWithDuration:':
+    'prefix': 'doorsOpenVerticalWithDuration:'
+    'body': 'SKTransition.doorsOpenVerticalWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.doorwayWithDuration:':
+    'prefix': 'doorwayWithDuration:'
+    'body': 'SKTransition.doorwayWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.fadeWithColor:duration:':
+    'prefix': 'fadeWithColor:duration:'
+    'body': 'SKTransition.fadeWithColor(${1:UIColor* color}, duration:${2:NSTimeInterval sec})'
+  'SKTransition.fadeWithDuration:':
+    'prefix': 'fadeWithDuration:'
+    'body': 'SKTransition.fadeWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.flipHorizontalWithDuration:':
+    'prefix': 'flipHorizontalWithDuration:'
+    'body': 'SKTransition.flipHorizontalWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.flipVerticalWithDuration:':
+    'prefix': 'flipVerticalWithDuration:'
+    'body': 'SKTransition.flipVerticalWithDuration(${1:NSTimeInterval sec})'
+  'SKTransition.moveInWithDirection:duration:':
+    'prefix': 'moveInWithDirection:duration:'
+    'body': 'SKTransition.moveInWithDirection(${1:SKTransitionDirection direction}, duration:${2:NSTimeInterval sec})'
+  'pausesIncomingScene':
+    'prefix': 'pausesIncomingScene'
+    'body': 'pausesIncomingScene()'
+  'pausesOutgoingScene':
+    'prefix': 'pausesOutgoingScene'
+    'body': 'pausesOutgoingScene()'
+  'SKTransition.pushWithDirection:duration:':
+    'prefix': 'pushWithDirection:duration:'
+    'body': 'SKTransition.pushWithDirection(${1:SKTransitionDirection direction}, duration:${2:NSTimeInterval sec})'
+  'SKTransition.revealWithDirection:duration:':
+    'prefix': 'revealWithDirection:duration:'
+    'body': 'SKTransition.revealWithDirection(${1:SKTransitionDirection direction}, duration:${2:NSTimeInterval sec})'
+  'setPausesIncomingScene:':
+    'prefix': 'setPausesIncomingScene:'
+    'body': 'setPausesIncomingScene(${1:BOOL pausesIncomingScene})'
+  'setPausesOutgoingScene:':
+    'prefix': 'setPausesOutgoingScene:'
+    'body': 'setPausesOutgoingScene(${1:BOOL pausesOutgoingScene})'
+  'SKTransition.transitionWithCIFilter:duration:':
+    'prefix': 'transitionWithCIFilter:duration:'
+    'body': 'SKTransition.transitionWithCIFilter(${1:CIFilter* filter}, duration:${2:NSTimeInterval sec})'
+  'anchorPoint':
+    'prefix': 'anchorPoint'
+    'body': 'anchorPoint()'
+  'initWithAVPlayer:':
+    'prefix': 'initWithAVPlayer:'
+    'body': 'initWithAVPlayer(${1:AVPlayer* player})'
+  'initWithVideoFileNamed:':
+    'prefix': 'initWithVideoFileNamed:'
+    'body': 'initWithVideoFileNamed(${1:NSString* videoFile})'
+  'initWithVideoURL:':
+    'prefix': 'initWithVideoURL:'
+    'body': 'initWithVideoURL(${1:NSURL* url})'
+  'pause':
+    'prefix': 'pause'
+    'body': 'pause()'
+  'play':
+    'prefix': 'play'
+    'body': 'play()'
+  'setAnchorPoint:':
+    'prefix': 'setAnchorPoint:'
+    'body': 'setAnchorPoint(${1:CGPoint anchorPoint})'
+  'setSize:':
+    'prefix': 'setSize:'
+    'body': 'setSize(${1:CGSize size})'
+  'size':
+    'prefix': 'size'
+    'body': 'size()'
+  'SKVideoNode.videoNodeWithAVPlayer:':
+    'prefix': 'videoNodeWithAVPlayer:'
+    'body': 'SKVideoNode.videoNodeWithAVPlayer(${1:AVPlayer* player})'
+  'SKVideoNode.videoNodeWithVideoFileNamed:':
+    'prefix': 'videoNodeWithVideoFileNamed:'
+    'body': 'SKVideoNode.videoNodeWithVideoFileNamed(${1:NSString* videoFile})'
+  'SKVideoNode.videoNodeWithVideoURL:':
+    'prefix': 'videoNodeWithVideoURL:'
+    'body': 'SKVideoNode.videoNodeWithVideoURL(${1:NSURL* videoURL})'
+  'convertPoint:fromScene:':
+    'prefix': 'convertPoint:fromScene:'
+    'body': 'convertPoint(${1:CGPoint point}, fromScene:${2:SKScene* scene})'
+  'convertPoint:toScene:':
+    'prefix': 'convertPoint:toScene:'
+    'body': 'convertPoint(${1:CGPoint point}, toScene:${2:SKScene* scene})'
+  'frameInterval':
+    'prefix': 'frameInterval'
+    'body': 'frameInterval()'
+  'ignoresSiblingOrder':
+    'prefix': 'ignoresSiblingOrder'
+    'body': 'ignoresSiblingOrder()'
+  'isAsynchronous':
+    'prefix': 'isAsynchronous'
+    'body': 'isAsynchronous()'
+  'isPaused':
+    'prefix': 'isPaused'
+    'body': 'isPaused()'
+  'presentScene:':
+    'prefix': 'presentScene:'
+    'body': 'presentScene(${1:SKScene* scene})'
+  'presentScene:transition:':
+    'prefix': 'presentScene:transition:'
+    'body': 'presentScene(${1:SKScene* scene}, transition:${2:SKTransition* transition})'
+  'scene':
+    'prefix': 'scene'
+    'body': 'scene()'
+  'setAsynchronous:':
+    'prefix': 'setAsynchronous:'
+    'body': 'setAsynchronous(${1:BOOL asynchronous})'
+  'setFrameInterval:':
+    'prefix': 'setFrameInterval:'
+    'body': 'setFrameInterval(${1:NSInteger frameInterval})'
+  'setIgnoresSiblingOrder:':
+    'prefix': 'setIgnoresSiblingOrder:'
+    'body': 'setIgnoresSiblingOrder(${1:BOOL ignoresSiblingOrder})'
+  'setPaused:':
+    'prefix': 'setPaused:'
+    'body': 'setPaused(${1:BOOL paused})'
+  'setShowsDrawCount:':
+    'prefix': 'setShowsDrawCount:'
+    'body': 'setShowsDrawCount(${1:BOOL showsDrawCount})'
+  'setShowsFPS:':
+    'prefix': 'setShowsFPS:'
+    'body': 'setShowsFPS(${1:BOOL showsFPS})'
+  'setShowsNodeCount:':
+    'prefix': 'setShowsNodeCount:'
+    'body': 'setShowsNodeCount(${1:BOOL showsNodeCount})'
+  'setShowsPhysics:':
+    'prefix': 'setShowsPhysics:'
+    'body': 'setShowsPhysics(${1:BOOL showsPhysics})'
+  'showsDrawCount':
+    'prefix': 'showsDrawCount'
+    'body': 'showsDrawCount()'
+  'showsFPS':
+    'prefix': 'showsFPS'
+    'body': 'showsFPS()'
+  'showsNodeCount':
+    'prefix': 'showsNodeCount'
+    'body': 'showsNodeCount()'
+  'showsPhysics':
+    'prefix': 'showsPhysics'
+    'body': 'showsPhysics()'
+  'textureFromNode:':
+    'prefix': 'textureFromNode:'
+    'body': 'textureFromNode(${1:SKNode* node})'
+  'locationInNode:':
+    'prefix': 'locationInNode:'
+    'body': 'locationInNode(${1:SKNode* node})'
+  'previousLocationInNode:':
+    'prefix': 'previousLocationInNode:'
+    'body': 'previousLocationInNode(${1:SKNode* node})'
+  'didBeginContact:':
+    'prefix': 'didBeginContact:'
+    'body': 'didBeginContact(${1:SKPhysicsContact* contact})'
+  'didEndContact:':
+    'prefix': 'didEndContact:'
+    'body': 'didEndContact(${1:SKPhysicsContact* contact})'

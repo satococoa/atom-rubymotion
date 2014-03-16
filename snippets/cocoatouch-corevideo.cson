@@ -1,0 +1,757 @@
+'.source.rubymotion':
+  'kCVBufferMovieTimeKey (CFStringRef)':
+    'prefix': 'kCVBufferMovieTimeKey'
+    'body': 'KCVBufferMovieTimeKey'
+  'kCVBufferNonPropagatedAttachmentsKey (CFStringRef)':
+    'prefix': 'kCVBufferNonPropagatedAttachmentsKey'
+    'body': 'KCVBufferNonPropagatedAttachmentsKey'
+  'kCVBufferPropagatedAttachmentsKey (CFStringRef)':
+    'prefix': 'kCVBufferPropagatedAttachmentsKey'
+    'body': 'KCVBufferPropagatedAttachmentsKey'
+  'kCVBufferTimeScaleKey (CFStringRef)':
+    'prefix': 'kCVBufferTimeScaleKey'
+    'body': 'KCVBufferTimeScaleKey'
+  'kCVBufferTimeValueKey (CFStringRef)':
+    'prefix': 'kCVBufferTimeValueKey'
+    'body': 'KCVBufferTimeValueKey'
+  'kCVImageBufferCGColorSpaceKey (CFStringRef)':
+    'prefix': 'kCVImageBufferCGColorSpaceKey'
+    'body': 'KCVImageBufferCGColorSpaceKey'
+  'kCVImageBufferChromaLocationBottomFieldKey (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocationBottomFieldKey'
+    'body': 'KCVImageBufferChromaLocationBottomFieldKey'
+  'kCVImageBufferChromaLocationTopFieldKey (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocationTopFieldKey'
+    'body': 'KCVImageBufferChromaLocationTopFieldKey'
+  'kCVImageBufferChromaLocation_Bottom (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_Bottom'
+    'body': 'KCVImageBufferChromaLocation_Bottom'
+  'kCVImageBufferChromaLocation_BottomLeft (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_BottomLeft'
+    'body': 'KCVImageBufferChromaLocation_BottomLeft'
+  'kCVImageBufferChromaLocation_Center (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_Center'
+    'body': 'KCVImageBufferChromaLocation_Center'
+  'kCVImageBufferChromaLocation_DV420 (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_DV420'
+    'body': 'KCVImageBufferChromaLocation_DV420'
+  'kCVImageBufferChromaLocation_Left (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_Left'
+    'body': 'KCVImageBufferChromaLocation_Left'
+  'kCVImageBufferChromaLocation_Top (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_Top'
+    'body': 'KCVImageBufferChromaLocation_Top'
+  'kCVImageBufferChromaLocation_TopLeft (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaLocation_TopLeft'
+    'body': 'KCVImageBufferChromaLocation_TopLeft'
+  'kCVImageBufferChromaSubsamplingKey (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaSubsamplingKey'
+    'body': 'KCVImageBufferChromaSubsamplingKey'
+  'kCVImageBufferChromaSubsampling_411 (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaSubsampling_411'
+    'body': 'KCVImageBufferChromaSubsampling_411'
+  'kCVImageBufferChromaSubsampling_420 (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaSubsampling_420'
+    'body': 'KCVImageBufferChromaSubsampling_420'
+  'kCVImageBufferChromaSubsampling_422 (CFStringRef)':
+    'prefix': 'kCVImageBufferChromaSubsampling_422'
+    'body': 'KCVImageBufferChromaSubsampling_422'
+  'kCVImageBufferCleanApertureHeightKey (CFStringRef)':
+    'prefix': 'kCVImageBufferCleanApertureHeightKey'
+    'body': 'KCVImageBufferCleanApertureHeightKey'
+  'kCVImageBufferCleanApertureHorizontalOffsetKey (CFStringRef)':
+    'prefix': 'kCVImageBufferCleanApertureHorizontalOffsetKey'
+    'body': 'KCVImageBufferCleanApertureHorizontalOffsetKey'
+  'kCVImageBufferCleanApertureKey (CFStringRef)':
+    'prefix': 'kCVImageBufferCleanApertureKey'
+    'body': 'KCVImageBufferCleanApertureKey'
+  'kCVImageBufferCleanApertureVerticalOffsetKey (CFStringRef)':
+    'prefix': 'kCVImageBufferCleanApertureVerticalOffsetKey'
+    'body': 'KCVImageBufferCleanApertureVerticalOffsetKey'
+  'kCVImageBufferCleanApertureWidthKey (CFStringRef)':
+    'prefix': 'kCVImageBufferCleanApertureWidthKey'
+    'body': 'KCVImageBufferCleanApertureWidthKey'
+  'kCVImageBufferColorPrimariesKey (CFStringRef)':
+    'prefix': 'kCVImageBufferColorPrimariesKey'
+    'body': 'KCVImageBufferColorPrimariesKey'
+  'kCVImageBufferColorPrimaries_EBU_3213 (CFStringRef)':
+    'prefix': 'kCVImageBufferColorPrimaries_EBU_3213'
+    'body': 'KCVImageBufferColorPrimaries_EBU_3213'
+  'kCVImageBufferColorPrimaries_ITU_R_709_2 (CFStringRef)':
+    'prefix': 'kCVImageBufferColorPrimaries_ITU_R_709_2'
+    'body': 'KCVImageBufferColorPrimaries_ITU_R_709_2'
+  'kCVImageBufferColorPrimaries_P22 (CFStringRef)':
+    'prefix': 'kCVImageBufferColorPrimaries_P22'
+    'body': 'KCVImageBufferColorPrimaries_P22'
+  'kCVImageBufferColorPrimaries_SMPTE_C (CFStringRef)':
+    'prefix': 'kCVImageBufferColorPrimaries_SMPTE_C'
+    'body': 'KCVImageBufferColorPrimaries_SMPTE_C'
+  'kCVImageBufferDisplayDimensionsKey (CFStringRef)':
+    'prefix': 'kCVImageBufferDisplayDimensionsKey'
+    'body': 'KCVImageBufferDisplayDimensionsKey'
+  'kCVImageBufferDisplayHeightKey (CFStringRef)':
+    'prefix': 'kCVImageBufferDisplayHeightKey'
+    'body': 'KCVImageBufferDisplayHeightKey'
+  'kCVImageBufferDisplayWidthKey (CFStringRef)':
+    'prefix': 'kCVImageBufferDisplayWidthKey'
+    'body': 'KCVImageBufferDisplayWidthKey'
+  'kCVImageBufferFieldCountKey (CFStringRef)':
+    'prefix': 'kCVImageBufferFieldCountKey'
+    'body': 'KCVImageBufferFieldCountKey'
+  'kCVImageBufferFieldDetailKey (CFStringRef)':
+    'prefix': 'kCVImageBufferFieldDetailKey'
+    'body': 'KCVImageBufferFieldDetailKey'
+  'kCVImageBufferFieldDetailSpatialFirstLineEarly (CFStringRef)':
+    'prefix': 'kCVImageBufferFieldDetailSpatialFirstLineEarly'
+    'body': 'KCVImageBufferFieldDetailSpatialFirstLineEarly'
+  'kCVImageBufferFieldDetailSpatialFirstLineLate (CFStringRef)':
+    'prefix': 'kCVImageBufferFieldDetailSpatialFirstLineLate'
+    'body': 'KCVImageBufferFieldDetailSpatialFirstLineLate'
+  'kCVImageBufferFieldDetailTemporalBottomFirst (CFStringRef)':
+    'prefix': 'kCVImageBufferFieldDetailTemporalBottomFirst'
+    'body': 'KCVImageBufferFieldDetailTemporalBottomFirst'
+  'kCVImageBufferFieldDetailTemporalTopFirst (CFStringRef)':
+    'prefix': 'kCVImageBufferFieldDetailTemporalTopFirst'
+    'body': 'KCVImageBufferFieldDetailTemporalTopFirst'
+  'kCVImageBufferGammaLevelKey (CFStringRef)':
+    'prefix': 'kCVImageBufferGammaLevelKey'
+    'body': 'KCVImageBufferGammaLevelKey'
+  'kCVImageBufferICCProfileKey (CFStringRef)':
+    'prefix': 'kCVImageBufferICCProfileKey'
+    'body': 'KCVImageBufferICCProfileKey'
+  'kCVImageBufferPixelAspectRatioHorizontalSpacingKey (CFStringRef)':
+    'prefix': 'kCVImageBufferPixelAspectRatioHorizontalSpacingKey'
+    'body': 'KCVImageBufferPixelAspectRatioHorizontalSpacingKey'
+  'kCVImageBufferPixelAspectRatioKey (CFStringRef)':
+    'prefix': 'kCVImageBufferPixelAspectRatioKey'
+    'body': 'KCVImageBufferPixelAspectRatioKey'
+  'kCVImageBufferPixelAspectRatioVerticalSpacingKey (CFStringRef)':
+    'prefix': 'kCVImageBufferPixelAspectRatioVerticalSpacingKey'
+    'body': 'KCVImageBufferPixelAspectRatioVerticalSpacingKey'
+  'kCVImageBufferPreferredCleanApertureKey (CFStringRef)':
+    'prefix': 'kCVImageBufferPreferredCleanApertureKey'
+    'body': 'KCVImageBufferPreferredCleanApertureKey'
+  'kCVImageBufferTransferFunctionKey (CFStringRef)':
+    'prefix': 'kCVImageBufferTransferFunctionKey'
+    'body': 'KCVImageBufferTransferFunctionKey'
+  'kCVImageBufferTransferFunction_ITU_R_709_2 (CFStringRef)':
+    'prefix': 'kCVImageBufferTransferFunction_ITU_R_709_2'
+    'body': 'KCVImageBufferTransferFunction_ITU_R_709_2'
+  'kCVImageBufferTransferFunction_SMPTE_240M_1995 (CFStringRef)':
+    'prefix': 'kCVImageBufferTransferFunction_SMPTE_240M_1995'
+    'body': 'KCVImageBufferTransferFunction_SMPTE_240M_1995'
+  'kCVImageBufferTransferFunction_UseGamma (CFStringRef)':
+    'prefix': 'kCVImageBufferTransferFunction_UseGamma'
+    'body': 'KCVImageBufferTransferFunction_UseGamma'
+  'kCVImageBufferYCbCrMatrixKey (CFStringRef)':
+    'prefix': 'kCVImageBufferYCbCrMatrixKey'
+    'body': 'KCVImageBufferYCbCrMatrixKey'
+  'kCVImageBufferYCbCrMatrix_ITU_R_601_4 (CFStringRef)':
+    'prefix': 'kCVImageBufferYCbCrMatrix_ITU_R_601_4'
+    'body': 'KCVImageBufferYCbCrMatrix_ITU_R_601_4'
+  'kCVImageBufferYCbCrMatrix_ITU_R_709_2 (CFStringRef)':
+    'prefix': 'kCVImageBufferYCbCrMatrix_ITU_R_709_2'
+    'body': 'KCVImageBufferYCbCrMatrix_ITU_R_709_2'
+  'kCVImageBufferYCbCrMatrix_SMPTE_240M_1995 (CFStringRef)':
+    'prefix': 'kCVImageBufferYCbCrMatrix_SMPTE_240M_1995'
+    'body': 'KCVImageBufferYCbCrMatrix_SMPTE_240M_1995'
+  'kCVIndefiniteTime (CVTime)':
+    'prefix': 'kCVIndefiniteTime'
+    'body': 'KCVIndefiniteTime'
+  'kCVOpenGLESTextureCacheMaximumTextureAgeKey (CFStringRef)':
+    'prefix': 'kCVOpenGLESTextureCacheMaximumTextureAgeKey'
+    'body': 'KCVOpenGLESTextureCacheMaximumTextureAgeKey'
+  'kCVPixelBufferBytesPerRowAlignmentKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferBytesPerRowAlignmentKey'
+    'body': 'KCVPixelBufferBytesPerRowAlignmentKey'
+  'kCVPixelBufferCGBitmapContextCompatibilityKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferCGBitmapContextCompatibilityKey'
+    'body': 'KCVPixelBufferCGBitmapContextCompatibilityKey'
+  'kCVPixelBufferCGImageCompatibilityKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferCGImageCompatibilityKey'
+    'body': 'KCVPixelBufferCGImageCompatibilityKey'
+  'kCVPixelBufferExtendedPixelsBottomKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferExtendedPixelsBottomKey'
+    'body': 'KCVPixelBufferExtendedPixelsBottomKey'
+  'kCVPixelBufferExtendedPixelsLeftKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferExtendedPixelsLeftKey'
+    'body': 'KCVPixelBufferExtendedPixelsLeftKey'
+  'kCVPixelBufferExtendedPixelsRightKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferExtendedPixelsRightKey'
+    'body': 'KCVPixelBufferExtendedPixelsRightKey'
+  'kCVPixelBufferExtendedPixelsTopKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferExtendedPixelsTopKey'
+    'body': 'KCVPixelBufferExtendedPixelsTopKey'
+  'kCVPixelBufferHeightKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferHeightKey'
+    'body': 'KCVPixelBufferHeightKey'
+  'kCVPixelBufferIOSurfacePropertiesKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferIOSurfacePropertiesKey'
+    'body': 'KCVPixelBufferIOSurfacePropertiesKey'
+  'kCVPixelBufferMemoryAllocatorKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferMemoryAllocatorKey'
+    'body': 'KCVPixelBufferMemoryAllocatorKey'
+  'kCVPixelBufferOpenGLCompatibilityKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferOpenGLCompatibilityKey'
+    'body': 'KCVPixelBufferOpenGLCompatibilityKey'
+  'kCVPixelBufferOpenGLESCompatibilityKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferOpenGLESCompatibilityKey'
+    'body': 'KCVPixelBufferOpenGLESCompatibilityKey'
+  'kCVPixelBufferPixelFormatTypeKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferPixelFormatTypeKey'
+    'body': 'KCVPixelBufferPixelFormatTypeKey'
+  'kCVPixelBufferPlaneAlignmentKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferPlaneAlignmentKey'
+    'body': 'KCVPixelBufferPlaneAlignmentKey'
+  'kCVPixelBufferPoolAllocationThresholdKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferPoolAllocationThresholdKey'
+    'body': 'KCVPixelBufferPoolAllocationThresholdKey'
+  'kCVPixelBufferPoolFreeBufferNotification (CFStringRef)':
+    'prefix': 'kCVPixelBufferPoolFreeBufferNotification'
+    'body': 'KCVPixelBufferPoolFreeBufferNotification'
+  'kCVPixelBufferPoolMaximumBufferAgeKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferPoolMaximumBufferAgeKey'
+    'body': 'KCVPixelBufferPoolMaximumBufferAgeKey'
+  'kCVPixelBufferPoolMinimumBufferCountKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferPoolMinimumBufferCountKey'
+    'body': 'KCVPixelBufferPoolMinimumBufferCountKey'
+  'kCVPixelBufferWidthKey (CFStringRef)':
+    'prefix': 'kCVPixelBufferWidthKey'
+    'body': 'KCVPixelBufferWidthKey'
+  'kCVPixelFormatBitsPerBlock (CFStringRef)':
+    'prefix': 'kCVPixelFormatBitsPerBlock'
+    'body': 'KCVPixelFormatBitsPerBlock'
+  'kCVPixelFormatBlackBlock (CFStringRef)':
+    'prefix': 'kCVPixelFormatBlackBlock'
+    'body': 'KCVPixelFormatBlackBlock'
+  'kCVPixelFormatBlockHeight (CFStringRef)':
+    'prefix': 'kCVPixelFormatBlockHeight'
+    'body': 'KCVPixelFormatBlockHeight'
+  'kCVPixelFormatBlockHorizontalAlignment (CFStringRef)':
+    'prefix': 'kCVPixelFormatBlockHorizontalAlignment'
+    'body': 'KCVPixelFormatBlockHorizontalAlignment'
+  'kCVPixelFormatBlockVerticalAlignment (CFStringRef)':
+    'prefix': 'kCVPixelFormatBlockVerticalAlignment'
+    'body': 'KCVPixelFormatBlockVerticalAlignment'
+  'kCVPixelFormatBlockWidth (CFStringRef)':
+    'prefix': 'kCVPixelFormatBlockWidth'
+    'body': 'KCVPixelFormatBlockWidth'
+  'kCVPixelFormatCGBitmapContextCompatibility (CFStringRef)':
+    'prefix': 'kCVPixelFormatCGBitmapContextCompatibility'
+    'body': 'KCVPixelFormatCGBitmapContextCompatibility'
+  'kCVPixelFormatCGBitmapInfo (CFStringRef)':
+    'prefix': 'kCVPixelFormatCGBitmapInfo'
+    'body': 'KCVPixelFormatCGBitmapInfo'
+  'kCVPixelFormatCGImageCompatibility (CFStringRef)':
+    'prefix': 'kCVPixelFormatCGImageCompatibility'
+    'body': 'KCVPixelFormatCGImageCompatibility'
+  'kCVPixelFormatCodecType (CFStringRef)':
+    'prefix': 'kCVPixelFormatCodecType'
+    'body': 'KCVPixelFormatCodecType'
+  'kCVPixelFormatConstant (CFStringRef)':
+    'prefix': 'kCVPixelFormatConstant'
+    'body': 'KCVPixelFormatConstant'
+  'kCVPixelFormatContainsAlpha (CFStringRef)':
+    'prefix': 'kCVPixelFormatContainsAlpha'
+    'body': 'KCVPixelFormatContainsAlpha'
+  'kCVPixelFormatFillExtendedPixelsCallback (CFStringRef)':
+    'prefix': 'kCVPixelFormatFillExtendedPixelsCallback'
+    'body': 'KCVPixelFormatFillExtendedPixelsCallback'
+  'kCVPixelFormatFourCC (CFStringRef)':
+    'prefix': 'kCVPixelFormatFourCC'
+    'body': 'KCVPixelFormatFourCC'
+  'kCVPixelFormatHorizontalSubsampling (CFStringRef)':
+    'prefix': 'kCVPixelFormatHorizontalSubsampling'
+    'body': 'KCVPixelFormatHorizontalSubsampling'
+  'kCVPixelFormatName (CFStringRef)':
+    'prefix': 'kCVPixelFormatName'
+    'body': 'KCVPixelFormatName'
+  'kCVPixelFormatOpenGLCompatibility (CFStringRef)':
+    'prefix': 'kCVPixelFormatOpenGLCompatibility'
+    'body': 'KCVPixelFormatOpenGLCompatibility'
+  'kCVPixelFormatOpenGLESCompatibility (CFStringRef)':
+    'prefix': 'kCVPixelFormatOpenGLESCompatibility'
+    'body': 'KCVPixelFormatOpenGLESCompatibility'
+  'kCVPixelFormatOpenGLFormat (CFStringRef)':
+    'prefix': 'kCVPixelFormatOpenGLFormat'
+    'body': 'KCVPixelFormatOpenGLFormat'
+  'kCVPixelFormatOpenGLInternalFormat (CFStringRef)':
+    'prefix': 'kCVPixelFormatOpenGLInternalFormat'
+    'body': 'KCVPixelFormatOpenGLInternalFormat'
+  'kCVPixelFormatOpenGLType (CFStringRef)':
+    'prefix': 'kCVPixelFormatOpenGLType'
+    'body': 'KCVPixelFormatOpenGLType'
+  'kCVPixelFormatPlanes (CFStringRef)':
+    'prefix': 'kCVPixelFormatPlanes'
+    'body': 'KCVPixelFormatPlanes'
+  'kCVPixelFormatQDCompatibility (CFStringRef)':
+    'prefix': 'kCVPixelFormatQDCompatibility'
+    'body': 'KCVPixelFormatQDCompatibility'
+  'kCVPixelFormatVerticalSubsampling (CFStringRef)':
+    'prefix': 'kCVPixelFormatVerticalSubsampling'
+    'body': 'KCVPixelFormatVerticalSubsampling'
+  'kCVZeroTime (CVTime)':
+    'prefix': 'kCVZeroTime'
+    'body': 'KCVZeroTime'
+  'COREVIDEO_SUPPORTS_COLORSPACE (0)':
+    'prefix': 'COREVIDEO_SUPPORTS_COLORSPACE'
+    'body': 'COREVIDEO_SUPPORTS_COLORSPACE'
+  'COREVIDEO_SUPPORTS_DIRECT3D (0)':
+    'prefix': 'COREVIDEO_SUPPORTS_DIRECT3D'
+    'body': 'COREVIDEO_SUPPORTS_DIRECT3D'
+  'COREVIDEO_SUPPORTS_DISPLAYLINK (0)':
+    'prefix': 'COREVIDEO_SUPPORTS_DISPLAYLINK'
+    'body': 'COREVIDEO_SUPPORTS_DISPLAYLINK'
+  'COREVIDEO_SUPPORTS_IOSURFACE (0)':
+    'prefix': 'COREVIDEO_SUPPORTS_IOSURFACE'
+    'body': 'COREVIDEO_SUPPORTS_IOSURFACE'
+  'COREVIDEO_SUPPORTS_OPENGL (0)':
+    'prefix': 'COREVIDEO_SUPPORTS_OPENGL'
+    'body': 'COREVIDEO_SUPPORTS_OPENGL'
+  'COREVIDEO_SUPPORTS_OPENGLES (1)':
+    'prefix': 'COREVIDEO_SUPPORTS_OPENGLES'
+    'body': 'COREVIDEO_SUPPORTS_OPENGLES'
+  'COREVIDEO_USE_EAGLCONTEXT_CLASS_IN_API (1)':
+    'prefix': 'COREVIDEO_USE_EAGLCONTEXT_CLASS_IN_API'
+    'body': 'COREVIDEO_USE_EAGLCONTEXT_CLASS_IN_API'
+  'kCVAttachmentMode_ShouldNotPropagate (0)':
+    'prefix': 'kCVAttachmentMode_ShouldNotPropagate'
+    'body': 'KCVAttachmentMode_ShouldNotPropagate'
+  'kCVAttachmentMode_ShouldPropagate (1)':
+    'prefix': 'kCVAttachmentMode_ShouldPropagate'
+    'body': 'KCVAttachmentMode_ShouldPropagate'
+  'kCVPixelBufferLock_ReadOnly (1)':
+    'prefix': 'kCVPixelBufferLock_ReadOnly'
+    'body': 'KCVPixelBufferLock_ReadOnly'
+  'kCVPixelFormatType_128RGBAFloat (1380410945)':
+    'prefix': 'kCVPixelFormatType_128RGBAFloat'
+    'body': 'KCVPixelFormatType_128RGBAFloat'
+  'kCVPixelFormatType_16BE555 (16)':
+    'prefix': 'kCVPixelFormatType_16BE555'
+    'body': 'KCVPixelFormatType_16BE555'
+  'kCVPixelFormatType_16BE565 (1110783541)':
+    'prefix': 'kCVPixelFormatType_16BE565'
+    'body': 'KCVPixelFormatType_16BE565'
+  'kCVPixelFormatType_16Gray (1647392359)':
+    'prefix': 'kCVPixelFormatType_16Gray'
+    'body': 'KCVPixelFormatType_16Gray'
+  'kCVPixelFormatType_16LE555 (1278555445)':
+    'prefix': 'kCVPixelFormatType_16LE555'
+    'body': 'KCVPixelFormatType_16LE555'
+  'kCVPixelFormatType_16LE5551 (892679473)':
+    'prefix': 'kCVPixelFormatType_16LE5551'
+    'body': 'KCVPixelFormatType_16LE5551'
+  'kCVPixelFormatType_16LE565 (1278555701)':
+    'prefix': 'kCVPixelFormatType_16LE565'
+    'body': 'KCVPixelFormatType_16LE565'
+  'kCVPixelFormatType_1IndexedGray_WhiteIsZero (33)':
+    'prefix': 'kCVPixelFormatType_1IndexedGray_WhiteIsZero'
+    'body': 'KCVPixelFormatType_1IndexedGray_WhiteIsZero'
+  'kCVPixelFormatType_1Monochrome (1)':
+    'prefix': 'kCVPixelFormatType_1Monochrome'
+    'body': 'KCVPixelFormatType_1Monochrome'
+  'kCVPixelFormatType_24BGR (842285639)':
+    'prefix': 'kCVPixelFormatType_24BGR'
+    'body': 'KCVPixelFormatType_24BGR'
+  'kCVPixelFormatType_24RGB (24)':
+    'prefix': 'kCVPixelFormatType_24RGB'
+    'body': 'KCVPixelFormatType_24RGB'
+  'kCVPixelFormatType_2Indexed (2)':
+    'prefix': 'kCVPixelFormatType_2Indexed'
+    'body': 'KCVPixelFormatType_2Indexed'
+  'kCVPixelFormatType_2IndexedGray_WhiteIsZero (34)':
+    'prefix': 'kCVPixelFormatType_2IndexedGray_WhiteIsZero'
+    'body': 'KCVPixelFormatType_2IndexedGray_WhiteIsZero'
+  'kCVPixelFormatType_30RGB (1378955371)':
+    'prefix': 'kCVPixelFormatType_30RGB'
+    'body': 'KCVPixelFormatType_30RGB'
+  'kCVPixelFormatType_32ABGR (1094862674)':
+    'prefix': 'kCVPixelFormatType_32ABGR'
+    'body': 'KCVPixelFormatType_32ABGR'
+  'kCVPixelFormatType_32ARGB (32)':
+    'prefix': 'kCVPixelFormatType_32ARGB'
+    'body': 'KCVPixelFormatType_32ARGB'
+  'kCVPixelFormatType_32AlphaGray (1647522401)':
+    'prefix': 'kCVPixelFormatType_32AlphaGray'
+    'body': 'KCVPixelFormatType_32AlphaGray'
+  'kCVPixelFormatType_32BGRA (1111970369)':
+    'prefix': 'kCVPixelFormatType_32BGRA'
+    'body': 'KCVPixelFormatType_32BGRA'
+  'kCVPixelFormatType_32RGBA (1380401729)':
+    'prefix': 'kCVPixelFormatType_32RGBA'
+    'body': 'KCVPixelFormatType_32RGBA'
+  'kCVPixelFormatType_420YpCbCr8BiPlanarFullRange (875704422)':
+    'prefix': 'kCVPixelFormatType_420YpCbCr8BiPlanarFullRange'
+    'body': 'KCVPixelFormatType_420YpCbCr8BiPlanarFullRange'
+  'kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange (875704438)':
+    'prefix': 'kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange'
+    'body': 'KCVPixelFormatType_420YpCbCr8BiPlanarVideoRange'
+  'kCVPixelFormatType_420YpCbCr8Planar (2033463856)':
+    'prefix': 'kCVPixelFormatType_420YpCbCr8Planar'
+    'body': 'KCVPixelFormatType_420YpCbCr8Planar'
+  'kCVPixelFormatType_420YpCbCr8PlanarFullRange (1714696752)':
+    'prefix': 'kCVPixelFormatType_420YpCbCr8PlanarFullRange'
+    'body': 'KCVPixelFormatType_420YpCbCr8PlanarFullRange'
+  'kCVPixelFormatType_422YpCbCr10 (1983000880)':
+    'prefix': 'kCVPixelFormatType_422YpCbCr10'
+    'body': 'KCVPixelFormatType_422YpCbCr10'
+  'kCVPixelFormatType_422YpCbCr16 (1983000886)':
+    'prefix': 'kCVPixelFormatType_422YpCbCr16'
+    'body': 'KCVPixelFormatType_422YpCbCr16'
+  'kCVPixelFormatType_422YpCbCr8 (846624121)':
+    'prefix': 'kCVPixelFormatType_422YpCbCr8'
+    'body': 'KCVPixelFormatType_422YpCbCr8'
+  'kCVPixelFormatType_422YpCbCr8FullRange (2037741158)':
+    'prefix': 'kCVPixelFormatType_422YpCbCr8FullRange'
+    'body': 'KCVPixelFormatType_422YpCbCr8FullRange'
+  'kCVPixelFormatType_422YpCbCr8_yuvs (2037741171)':
+    'prefix': 'kCVPixelFormatType_422YpCbCr8_yuvs'
+    'body': 'KCVPixelFormatType_422YpCbCr8_yuvs'
+  'kCVPixelFormatType_422YpCbCr_4A_8BiPlanar (1630697081)':
+    'prefix': 'kCVPixelFormatType_422YpCbCr_4A_8BiPlanar'
+    'body': 'KCVPixelFormatType_422YpCbCr_4A_8BiPlanar'
+  'kCVPixelFormatType_4444AYpCbCr16 (2033463606)':
+    'prefix': 'kCVPixelFormatType_4444AYpCbCr16'
+    'body': 'KCVPixelFormatType_4444AYpCbCr16'
+  'kCVPixelFormatType_4444AYpCbCr8 (2033463352)':
+    'prefix': 'kCVPixelFormatType_4444AYpCbCr8'
+    'body': 'KCVPixelFormatType_4444AYpCbCr8'
+  'kCVPixelFormatType_4444YpCbCrA8 (1983131704)':
+    'prefix': 'kCVPixelFormatType_4444YpCbCrA8'
+    'body': 'KCVPixelFormatType_4444YpCbCrA8'
+  'kCVPixelFormatType_4444YpCbCrA8R (1916022840)':
+    'prefix': 'kCVPixelFormatType_4444YpCbCrA8R'
+    'body': 'KCVPixelFormatType_4444YpCbCrA8R'
+  'kCVPixelFormatType_444YpCbCr10 (1983131952)':
+    'prefix': 'kCVPixelFormatType_444YpCbCr10'
+    'body': 'KCVPixelFormatType_444YpCbCr10'
+  'kCVPixelFormatType_444YpCbCr8 (1983066168)':
+    'prefix': 'kCVPixelFormatType_444YpCbCr8'
+    'body': 'KCVPixelFormatType_444YpCbCr8'
+  'kCVPixelFormatType_48RGB (1647589490)':
+    'prefix': 'kCVPixelFormatType_48RGB'
+    'body': 'KCVPixelFormatType_48RGB'
+  'kCVPixelFormatType_4Indexed (4)':
+    'prefix': 'kCVPixelFormatType_4Indexed'
+    'body': 'KCVPixelFormatType_4Indexed'
+  'kCVPixelFormatType_4IndexedGray_WhiteIsZero (36)':
+    'prefix': 'kCVPixelFormatType_4IndexedGray_WhiteIsZero'
+    'body': 'KCVPixelFormatType_4IndexedGray_WhiteIsZero'
+  'kCVPixelFormatType_64ARGB (1647719521)':
+    'prefix': 'kCVPixelFormatType_64ARGB'
+    'body': 'KCVPixelFormatType_64ARGB'
+  'kCVPixelFormatType_64RGBAHalf (1380411457)':
+    'prefix': 'kCVPixelFormatType_64RGBAHalf'
+    'body': 'KCVPixelFormatType_64RGBAHalf'
+  'kCVPixelFormatType_8Indexed (8)':
+    'prefix': 'kCVPixelFormatType_8Indexed'
+    'body': 'KCVPixelFormatType_8Indexed'
+  'kCVPixelFormatType_8IndexedGray_WhiteIsZero (40)':
+    'prefix': 'kCVPixelFormatType_8IndexedGray_WhiteIsZero'
+    'body': 'KCVPixelFormatType_8IndexedGray_WhiteIsZero'
+  'kCVPixelFormatType_OneComponent16Half (1278226536)':
+    'prefix': 'kCVPixelFormatType_OneComponent16Half'
+    'body': 'KCVPixelFormatType_OneComponent16Half'
+  'kCVPixelFormatType_OneComponent32Float (1278226534)':
+    'prefix': 'kCVPixelFormatType_OneComponent32Float'
+    'body': 'KCVPixelFormatType_OneComponent32Float'
+  'kCVPixelFormatType_OneComponent8 (1278226488)':
+    'prefix': 'kCVPixelFormatType_OneComponent8'
+    'body': 'KCVPixelFormatType_OneComponent8'
+  'kCVPixelFormatType_TwoComponent16Half (843264104)':
+    'prefix': 'kCVPixelFormatType_TwoComponent16Half'
+    'body': 'KCVPixelFormatType_TwoComponent16Half'
+  'kCVPixelFormatType_TwoComponent32Float (843264102)':
+    'prefix': 'kCVPixelFormatType_TwoComponent32Float'
+    'body': 'KCVPixelFormatType_TwoComponent32Float'
+  'kCVPixelFormatType_TwoComponent8 (843264056)':
+    'prefix': 'kCVPixelFormatType_TwoComponent8'
+    'body': 'KCVPixelFormatType_TwoComponent8'
+  'kCVReturnAllocationFailed (-6662)':
+    'prefix': 'kCVReturnAllocationFailed'
+    'body': 'KCVReturnAllocationFailed'
+  'kCVReturnDisplayLinkAlreadyRunning (-6671)':
+    'prefix': 'kCVReturnDisplayLinkAlreadyRunning'
+    'body': 'KCVReturnDisplayLinkAlreadyRunning'
+  'kCVReturnDisplayLinkCallbacksNotSet (-6673)':
+    'prefix': 'kCVReturnDisplayLinkCallbacksNotSet'
+    'body': 'KCVReturnDisplayLinkCallbacksNotSet'
+  'kCVReturnDisplayLinkNotRunning (-6672)':
+    'prefix': 'kCVReturnDisplayLinkNotRunning'
+    'body': 'KCVReturnDisplayLinkNotRunning'
+  'kCVReturnError (-6660)':
+    'prefix': 'kCVReturnError'
+    'body': 'KCVReturnError'
+  'kCVReturnFirst (-6660)':
+    'prefix': 'kCVReturnFirst'
+    'body': 'KCVReturnFirst'
+  'kCVReturnInvalidArgument (-6661)':
+    'prefix': 'kCVReturnInvalidArgument'
+    'body': 'KCVReturnInvalidArgument'
+  'kCVReturnInvalidDisplay (-6670)':
+    'prefix': 'kCVReturnInvalidDisplay'
+    'body': 'KCVReturnInvalidDisplay'
+  'kCVReturnInvalidPixelBufferAttributes (-6682)':
+    'prefix': 'kCVReturnInvalidPixelBufferAttributes'
+    'body': 'KCVReturnInvalidPixelBufferAttributes'
+  'kCVReturnInvalidPixelFormat (-6680)':
+    'prefix': 'kCVReturnInvalidPixelFormat'
+    'body': 'KCVReturnInvalidPixelFormat'
+  'kCVReturnInvalidPoolAttributes (-6691)':
+    'prefix': 'kCVReturnInvalidPoolAttributes'
+    'body': 'KCVReturnInvalidPoolAttributes'
+  'kCVReturnInvalidSize (-6681)':
+    'prefix': 'kCVReturnInvalidSize'
+    'body': 'KCVReturnInvalidSize'
+  'kCVReturnLast (-6699)':
+    'prefix': 'kCVReturnLast'
+    'body': 'KCVReturnLast'
+  'kCVReturnPixelBufferNotOpenGLCompatible (-6683)':
+    'prefix': 'kCVReturnPixelBufferNotOpenGLCompatible'
+    'body': 'KCVReturnPixelBufferNotOpenGLCompatible'
+  'kCVReturnPoolAllocationFailed (-6690)':
+    'prefix': 'kCVReturnPoolAllocationFailed'
+    'body': 'KCVReturnPoolAllocationFailed'
+  'kCVReturnSuccess (0)':
+    'prefix': 'kCVReturnSuccess'
+    'body': 'KCVReturnSuccess'
+  'kCVReturnWouldExceedAllocationThreshold (-6689)':
+    'prefix': 'kCVReturnWouldExceedAllocationThreshold'
+    'body': 'KCVReturnWouldExceedAllocationThreshold'
+  'kCVSMPTETimeRunning (2)':
+    'prefix': 'kCVSMPTETimeRunning'
+    'body': 'KCVSMPTETimeRunning'
+  'kCVSMPTETimeType24 (0)':
+    'prefix': 'kCVSMPTETimeType24'
+    'body': 'KCVSMPTETimeType24'
+  'kCVSMPTETimeType25 (1)':
+    'prefix': 'kCVSMPTETimeType25'
+    'body': 'KCVSMPTETimeType25'
+  'kCVSMPTETimeType2997 (4)':
+    'prefix': 'kCVSMPTETimeType2997'
+    'body': 'KCVSMPTETimeType2997'
+  'kCVSMPTETimeType2997Drop (5)':
+    'prefix': 'kCVSMPTETimeType2997Drop'
+    'body': 'KCVSMPTETimeType2997Drop'
+  'kCVSMPTETimeType30 (3)':
+    'prefix': 'kCVSMPTETimeType30'
+    'body': 'KCVSMPTETimeType30'
+  'kCVSMPTETimeType30Drop (2)':
+    'prefix': 'kCVSMPTETimeType30Drop'
+    'body': 'KCVSMPTETimeType30Drop'
+  'kCVSMPTETimeType5994 (7)':
+    'prefix': 'kCVSMPTETimeType5994'
+    'body': 'KCVSMPTETimeType5994'
+  'kCVSMPTETimeType60 (6)':
+    'prefix': 'kCVSMPTETimeType60'
+    'body': 'KCVSMPTETimeType60'
+  'kCVSMPTETimeValid (1)':
+    'prefix': 'kCVSMPTETimeValid'
+    'body': 'KCVSMPTETimeValid'
+  'kCVTimeIsIndefinite (1)':
+    'prefix': 'kCVTimeIsIndefinite'
+    'body': 'KCVTimeIsIndefinite'
+  'kCVTimeStampBottomField (131072)':
+    'prefix': 'kCVTimeStampBottomField'
+    'body': 'KCVTimeStampBottomField'
+  'kCVTimeStampHostTimeValid (2)':
+    'prefix': 'kCVTimeStampHostTimeValid'
+    'body': 'KCVTimeStampHostTimeValid'
+  'kCVTimeStampIsInterlaced (196608)':
+    'prefix': 'kCVTimeStampIsInterlaced'
+    'body': 'KCVTimeStampIsInterlaced'
+  'kCVTimeStampRateScalarValid (16)':
+    'prefix': 'kCVTimeStampRateScalarValid'
+    'body': 'KCVTimeStampRateScalarValid'
+  'kCVTimeStampSMPTETimeValid (4)':
+    'prefix': 'kCVTimeStampSMPTETimeValid'
+    'body': 'KCVTimeStampSMPTETimeValid'
+  'kCVTimeStampTopField (65536)':
+    'prefix': 'kCVTimeStampTopField'
+    'body': 'KCVTimeStampTopField'
+  'kCVTimeStampVideoHostTimeValid (3)':
+    'prefix': 'kCVTimeStampVideoHostTimeValid'
+    'body': 'KCVTimeStampVideoHostTimeValid'
+  'kCVTimeStampVideoRefreshPeriodValid (8)':
+    'prefix': 'kCVTimeStampVideoRefreshPeriodValid'
+    'body': 'KCVTimeStampVideoRefreshPeriodValid'
+  'kCVTimeStampVideoTimeValid (1)':
+    'prefix': 'kCVTimeStampVideoTimeValid'
+    'body': 'KCVTimeStampVideoTimeValid'
+  'CVBufferGetAttachment':
+    'prefix': 'CVBufferGetAttachment'
+    'body': 'CVBufferGetAttachment(${1:CVBufferRef buffer}, ${2:CFStringRef key}, ${3:CVAttachmentMode* attachmentMode})'
+  'CVBufferGetAttachments':
+    'prefix': 'CVBufferGetAttachments'
+    'body': 'CVBufferGetAttachments(${1:CVBufferRef buffer}, ${2:CVAttachmentMode attachmentMode})'
+  'CVBufferPropagateAttachments':
+    'prefix': 'CVBufferPropagateAttachments'
+    'body': 'CVBufferPropagateAttachments(${1:CVBufferRef sourceBuffer}, ${2:CVBufferRef destinationBuffer})'
+  'CVBufferRelease':
+    'prefix': 'CVBufferRelease'
+    'body': 'CVBufferRelease(${1:CVBufferRef buffer})'
+  'CVBufferRemoveAllAttachments':
+    'prefix': 'CVBufferRemoveAllAttachments'
+    'body': 'CVBufferRemoveAllAttachments(${1:CVBufferRef buffer})'
+  'CVBufferRemoveAttachment':
+    'prefix': 'CVBufferRemoveAttachment'
+    'body': 'CVBufferRemoveAttachment(${1:CVBufferRef buffer}, ${2:CFStringRef key})'
+  'CVBufferRetain':
+    'prefix': 'CVBufferRetain'
+    'body': 'CVBufferRetain(${1:CVBufferRef buffer})'
+  'CVBufferSetAttachment':
+    'prefix': 'CVBufferSetAttachment'
+    'body': 'CVBufferSetAttachment(${1:CVBufferRef buffer}, ${2:CFStringRef key}, ${3:CFTypeRef value}, ${4:CVAttachmentMode attachmentMode})'
+  'CVBufferSetAttachments':
+    'prefix': 'CVBufferSetAttachments'
+    'body': 'CVBufferSetAttachments(${1:CVBufferRef buffer}, ${2:CFDictionaryRef theAttachments}, ${3:CVAttachmentMode attachmentMode})'
+  'CVGetCurrentHostTime':
+    'prefix': 'CVGetCurrentHostTime'
+    'body': 'CVGetCurrentHostTime()'
+  'CVGetHostClockFrequency':
+    'prefix': 'CVGetHostClockFrequency'
+    'body': 'CVGetHostClockFrequency()'
+  'CVGetHostClockMinimumTimeDelta':
+    'prefix': 'CVGetHostClockMinimumTimeDelta'
+    'body': 'CVGetHostClockMinimumTimeDelta()'
+  'CVImageBufferGetCleanRect':
+    'prefix': 'CVImageBufferGetCleanRect'
+    'body': 'CVImageBufferGetCleanRect(${1:CVImageBufferRef imageBuffer})'
+  'CVImageBufferGetDisplaySize':
+    'prefix': 'CVImageBufferGetDisplaySize'
+    'body': 'CVImageBufferGetDisplaySize(${1:CVImageBufferRef imageBuffer})'
+  'CVImageBufferGetEncodedSize':
+    'prefix': 'CVImageBufferGetEncodedSize'
+    'body': 'CVImageBufferGetEncodedSize(${1:CVImageBufferRef imageBuffer})'
+  'CVImageBufferIsFlipped':
+    'prefix': 'CVImageBufferIsFlipped'
+    'body': 'CVImageBufferIsFlipped(${1:CVImageBufferRef imageBuffer})'
+  'CVOpenGLESTextureCacheCreate':
+    'prefix': 'CVOpenGLESTextureCacheCreate'
+    'body': 'CVOpenGLESTextureCacheCreate(${1:CFAllocatorRef allocator}, ${2:CFDictionaryRef cacheAttributes}, ${3:CVEAGLContext eaglContext}, ${4:CFDictionaryRef textureAttributes}, ${5:CVOpenGLESTextureCacheRef* cacheOut})'
+  'CVOpenGLESTextureCacheCreateTextureFromImage':
+    'prefix': 'CVOpenGLESTextureCacheCreateTextureFromImage'
+    'body': 'CVOpenGLESTextureCacheCreateTextureFromImage(${1:CFAllocatorRef allocator}, ${2:CVOpenGLESTextureCacheRef textureCache}, ${3:CVImageBufferRef sourceImage}, ${4:CFDictionaryRef textureAttributes}, ${5:GLenum target}, ${6:GLint internalFormat}, ${7:GLsizei width}, ${8:GLsizei height}, ${9:GLenum format}, ${10:GLenum type}, ${11:size_t planeIndex}, ${12:CVOpenGLESTextureRef* textureOut})'
+  'CVOpenGLESTextureCacheFlush':
+    'prefix': 'CVOpenGLESTextureCacheFlush'
+    'body': 'CVOpenGLESTextureCacheFlush(${1:CVOpenGLESTextureCacheRef textureCache}, ${2:CVOptionFlags options})'
+  'CVOpenGLESTextureCacheGetTypeID':
+    'prefix': 'CVOpenGLESTextureCacheGetTypeID'
+    'body': 'CVOpenGLESTextureCacheGetTypeID()'
+  'CVOpenGLESTextureGetCleanTexCoords':
+    'prefix': 'CVOpenGLESTextureGetCleanTexCoords'
+    'body': 'CVOpenGLESTextureGetCleanTexCoords(${1:CVOpenGLESTextureRef image}, ${2:GLfloat* lowerLeft}, ${3:GLfloat* lowerRight}, ${4:GLfloat* upperRight}, ${5:GLfloat* upperLeft})'
+  'CVOpenGLESTextureGetName':
+    'prefix': 'CVOpenGLESTextureGetName'
+    'body': 'CVOpenGLESTextureGetName(${1:CVOpenGLESTextureRef image})'
+  'CVOpenGLESTextureGetTarget':
+    'prefix': 'CVOpenGLESTextureGetTarget'
+    'body': 'CVOpenGLESTextureGetTarget(${1:CVOpenGLESTextureRef image})'
+  'CVOpenGLESTextureGetTypeID':
+    'prefix': 'CVOpenGLESTextureGetTypeID'
+    'body': 'CVOpenGLESTextureGetTypeID()'
+  'CVOpenGLESTextureIsFlipped':
+    'prefix': 'CVOpenGLESTextureIsFlipped'
+    'body': 'CVOpenGLESTextureIsFlipped(${1:CVOpenGLESTextureRef image})'
+  'CVPixelBufferCreate':
+    'prefix': 'CVPixelBufferCreate'
+    'body': 'CVPixelBufferCreate(${1:CFAllocatorRef allocator}, ${2:size_t width}, ${3:size_t height}, ${4:OSType pixelFormatType}, ${5:CFDictionaryRef pixelBufferAttributes}, ${6:CVPixelBufferRef* pixelBufferOut})'
+  'CVPixelBufferCreateResolvedAttributesDictionary':
+    'prefix': 'CVPixelBufferCreateResolvedAttributesDictionary'
+    'body': 'CVPixelBufferCreateResolvedAttributesDictionary(${1:CFAllocatorRef allocator}, ${2:CFArrayRef attributes}, ${3:CFDictionaryRef* resolvedDictionaryOut})'
+  'CVPixelBufferCreateWithBytes':
+    'prefix': 'CVPixelBufferCreateWithBytes'
+    'body': 'CVPixelBufferCreateWithBytes(${1:CFAllocatorRef allocator}, ${2:size_t width}, ${3:size_t height}, ${4:OSType pixelFormatType}, ${5:void* baseAddress}, ${6:size_t bytesPerRow}, ${7:CVPixelBufferReleaseBytesCallback releaseCallback}, ${8:void* releaseRefCon}, ${9:CFDictionaryRef pixelBufferAttributes}, ${10:CVPixelBufferRef* pixelBufferOut})'
+  'CVPixelBufferCreateWithPlanarBytes':
+    'prefix': 'CVPixelBufferCreateWithPlanarBytes'
+    'body': 'CVPixelBufferCreateWithPlanarBytes(${1:CFAllocatorRef allocator}, ${2:size_t width}, ${3:size_t height}, ${4:OSType pixelFormatType}, ${5:void* dataPtr}, ${6:size_t dataSize}, ${7:size_t numberOfPlanes}, ${8:void** planeBaseAddress}, ${9:size_t* planeWidth}, ${10:size_t* planeHeight}, ${11:size_t* planeBytesPerRow}, ${12:CVPixelBufferReleasePlanarBytesCallback releaseCallback}, ${13:void* releaseRefCon}, ${14:CFDictionaryRef pixelBufferAttributes}, ${15:CVPixelBufferRef* pixelBufferOut})'
+  'CVPixelBufferFillExtendedPixels':
+    'prefix': 'CVPixelBufferFillExtendedPixels'
+    'body': 'CVPixelBufferFillExtendedPixels(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetBaseAddress':
+    'prefix': 'CVPixelBufferGetBaseAddress'
+    'body': 'CVPixelBufferGetBaseAddress(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetBaseAddressOfPlane':
+    'prefix': 'CVPixelBufferGetBaseAddressOfPlane'
+    'body': 'CVPixelBufferGetBaseAddressOfPlane(${1:CVPixelBufferRef pixelBuffer}, ${2:size_t planeIndex})'
+  'CVPixelBufferGetBytesPerRow':
+    'prefix': 'CVPixelBufferGetBytesPerRow'
+    'body': 'CVPixelBufferGetBytesPerRow(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetBytesPerRowOfPlane':
+    'prefix': 'CVPixelBufferGetBytesPerRowOfPlane'
+    'body': 'CVPixelBufferGetBytesPerRowOfPlane(${1:CVPixelBufferRef pixelBuffer}, ${2:size_t planeIndex})'
+  'CVPixelBufferGetDataSize':
+    'prefix': 'CVPixelBufferGetDataSize'
+    'body': 'CVPixelBufferGetDataSize(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetExtendedPixels':
+    'prefix': 'CVPixelBufferGetExtendedPixels'
+    'body': 'CVPixelBufferGetExtendedPixels(${1:CVPixelBufferRef pixelBuffer}, ${2:size_t* extraColumnsOnLeft}, ${3:size_t* extraColumnsOnRight}, ${4:size_t* extraRowsOnTop}, ${5:size_t* extraRowsOnBottom})'
+  'CVPixelBufferGetHeight':
+    'prefix': 'CVPixelBufferGetHeight'
+    'body': 'CVPixelBufferGetHeight(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetHeightOfPlane':
+    'prefix': 'CVPixelBufferGetHeightOfPlane'
+    'body': 'CVPixelBufferGetHeightOfPlane(${1:CVPixelBufferRef pixelBuffer}, ${2:size_t planeIndex})'
+  'CVPixelBufferGetPixelFormatType':
+    'prefix': 'CVPixelBufferGetPixelFormatType'
+    'body': 'CVPixelBufferGetPixelFormatType(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetPlaneCount':
+    'prefix': 'CVPixelBufferGetPlaneCount'
+    'body': 'CVPixelBufferGetPlaneCount(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetTypeID':
+    'prefix': 'CVPixelBufferGetTypeID'
+    'body': 'CVPixelBufferGetTypeID()'
+  'CVPixelBufferGetWidth':
+    'prefix': 'CVPixelBufferGetWidth'
+    'body': 'CVPixelBufferGetWidth(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferGetWidthOfPlane':
+    'prefix': 'CVPixelBufferGetWidthOfPlane'
+    'body': 'CVPixelBufferGetWidthOfPlane(${1:CVPixelBufferRef pixelBuffer}, ${2:size_t planeIndex})'
+  'CVPixelBufferIsPlanar':
+    'prefix': 'CVPixelBufferIsPlanar'
+    'body': 'CVPixelBufferIsPlanar(${1:CVPixelBufferRef pixelBuffer})'
+  'CVPixelBufferLockBaseAddress':
+    'prefix': 'CVPixelBufferLockBaseAddress'
+    'body': 'CVPixelBufferLockBaseAddress(${1:CVPixelBufferRef pixelBuffer}, ${2:CVOptionFlags lockFlags})'
+  'CVPixelBufferPoolCreate':
+    'prefix': 'CVPixelBufferPoolCreate'
+    'body': 'CVPixelBufferPoolCreate(${1:CFAllocatorRef allocator}, ${2:CFDictionaryRef poolAttributes}, ${3:CFDictionaryRef pixelBufferAttributes}, ${4:CVPixelBufferPoolRef* poolOut})'
+  'CVPixelBufferPoolCreatePixelBuffer':
+    'prefix': 'CVPixelBufferPoolCreatePixelBuffer'
+    'body': 'CVPixelBufferPoolCreatePixelBuffer(${1:CFAllocatorRef allocator}, ${2:CVPixelBufferPoolRef pixelBufferPool}, ${3:CVPixelBufferRef* pixelBufferOut})'
+  'CVPixelBufferPoolCreatePixelBufferWithAuxAttributes':
+    'prefix': 'CVPixelBufferPoolCreatePixelBufferWithAuxAttributes'
+    'body': 'CVPixelBufferPoolCreatePixelBufferWithAuxAttributes(${1:CFAllocatorRef allocator}, ${2:CVPixelBufferPoolRef pixelBufferPool}, ${3:CFDictionaryRef auxAttributes}, ${4:CVPixelBufferRef* pixelBufferOut})'
+  'CVPixelBufferPoolGetAttributes':
+    'prefix': 'CVPixelBufferPoolGetAttributes'
+    'body': 'CVPixelBufferPoolGetAttributes(${1:CVPixelBufferPoolRef pool})'
+  'CVPixelBufferPoolGetPixelBufferAttributes':
+    'prefix': 'CVPixelBufferPoolGetPixelBufferAttributes'
+    'body': 'CVPixelBufferPoolGetPixelBufferAttributes(${1:CVPixelBufferPoolRef pool})'
+  'CVPixelBufferPoolGetTypeID':
+    'prefix': 'CVPixelBufferPoolGetTypeID'
+    'body': 'CVPixelBufferPoolGetTypeID()'
+  'CVPixelBufferPoolRelease':
+    'prefix': 'CVPixelBufferPoolRelease'
+    'body': 'CVPixelBufferPoolRelease(${1:CVPixelBufferPoolRef pixelBufferPool})'
+  'CVPixelBufferPoolRetain':
+    'prefix': 'CVPixelBufferPoolRetain'
+    'body': 'CVPixelBufferPoolRetain(${1:CVPixelBufferPoolRef pixelBufferPool})'
+  'CVPixelBufferRelease':
+    'prefix': 'CVPixelBufferRelease'
+    'body': 'CVPixelBufferRelease(${1:CVPixelBufferRef texture})'
+  'CVPixelBufferRetain':
+    'prefix': 'CVPixelBufferRetain'
+    'body': 'CVPixelBufferRetain(${1:CVPixelBufferRef texture})'
+  'CVPixelBufferUnlockBaseAddress':
+    'prefix': 'CVPixelBufferUnlockBaseAddress'
+    'body': 'CVPixelBufferUnlockBaseAddress(${1:CVPixelBufferRef pixelBuffer}, ${2:CVOptionFlags unlockFlags})'
+  'CVPixelFormatDescriptionArrayCreateWithAllPixelFormatTypes':
+    'prefix': 'CVPixelFormatDescriptionArrayCreateWithAllPixelFormatTypes'
+    'body': 'CVPixelFormatDescriptionArrayCreateWithAllPixelFormatTypes(${1:CFAllocatorRef allocator})'
+  'CVPixelFormatDescriptionCreateWithPixelFormatType':
+    'prefix': 'CVPixelFormatDescriptionCreateWithPixelFormatType'
+    'body': 'CVPixelFormatDescriptionCreateWithPixelFormatType(${1:CFAllocatorRef allocator}, ${2:OSType pixelFormat})'
+  'CVPixelFormatDescriptionRegisterDescriptionWithPixelFormatType':
+    'prefix': 'CVPixelFormatDescriptionRegisterDescriptionWithPixelFormatType'
+    'body': 'CVPixelFormatDescriptionRegisterDescriptionWithPixelFormatType(${1:CFDictionaryRef description}, ${2:OSType pixelFormat})'

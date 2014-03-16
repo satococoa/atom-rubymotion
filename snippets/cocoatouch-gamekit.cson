@@ -1,0 +1,1711 @@
+'.source.rubymotion':
+  'GKErrorDomain (NSString*)':
+    'prefix': 'GKErrorDomain'
+    'body': 'GKErrorDomain'
+  'GKExchangeTimeoutDefault (NSTimeInterval)':
+    'prefix': 'GKExchangeTimeoutDefault'
+    'body': 'GKExchangeTimeoutDefault'
+  'GKExchangeTimeoutNone (NSTimeInterval)':
+    'prefix': 'GKExchangeTimeoutNone'
+    'body': 'GKExchangeTimeoutNone'
+  'GKPlayerAuthenticationDidChangeNotificationName (NSString*)':
+    'prefix': 'GKPlayerAuthenticationDidChangeNotificationName'
+    'body': 'GKPlayerAuthenticationDidChangeNotificationName'
+  'GKPlayerDidChangeNotificationName (NSString*)':
+    'prefix': 'GKPlayerDidChangeNotificationName'
+    'body': 'GKPlayerDidChangeNotificationName'
+  'GKSessionErrorDomain (NSString*)':
+    'prefix': 'GKSessionErrorDomain'
+    'body': 'GKSessionErrorDomain'
+  'GKTurnTimeoutDefault (NSTimeInterval)':
+    'prefix': 'GKTurnTimeoutDefault'
+    'body': 'GKTurnTimeoutDefault'
+  'GKTurnTimeoutNone (NSTimeInterval)':
+    'prefix': 'GKTurnTimeoutNone'
+    'body': 'GKTurnTimeoutNone'
+  'GKVoiceChatServiceErrorDomain (NSString*)':
+    'prefix': 'GKVoiceChatServiceErrorDomain'
+    'body': 'GKVoiceChatServiceErrorDomain'
+  'GKChallengeStateCompleted (2)':
+    'prefix': 'GKChallengeStateCompleted'
+    'body': 'GKChallengeStateCompleted'
+  'GKChallengeStateDeclined (3)':
+    'prefix': 'GKChallengeStateDeclined'
+    'body': 'GKChallengeStateDeclined'
+  'GKChallengeStateInvalid (0)':
+    'prefix': 'GKChallengeStateInvalid'
+    'body': 'GKChallengeStateInvalid'
+  'GKChallengeStatePending (1)':
+    'prefix': 'GKChallengeStatePending'
+    'body': 'GKChallengeStatePending'
+  'GKErrorAuthenticationInProgress (7)':
+    'prefix': 'GKErrorAuthenticationInProgress'
+    'body': 'GKErrorAuthenticationInProgress'
+  'GKErrorCancelled (2)':
+    'prefix': 'GKErrorCancelled'
+    'body': 'GKErrorCancelled'
+  'GKErrorChallengeInvalid (19)':
+    'prefix': 'GKErrorChallengeInvalid'
+    'body': 'GKErrorChallengeInvalid'
+  'GKErrorCommunicationsFailure (3)':
+    'prefix': 'GKErrorCommunicationsFailure'
+    'body': 'GKErrorCommunicationsFailure'
+  'GKErrorGameUnrecognized (15)':
+    'prefix': 'GKErrorGameUnrecognized'
+    'body': 'GKErrorGameUnrecognized'
+  'GKErrorInvalidCredentials (5)':
+    'prefix': 'GKErrorInvalidCredentials'
+    'body': 'GKErrorInvalidCredentials'
+  'GKErrorInvalidParameter (17)':
+    'prefix': 'GKErrorInvalidParameter'
+    'body': 'GKErrorInvalidParameter'
+  'GKErrorInvalidPlayer (8)':
+    'prefix': 'GKErrorInvalidPlayer'
+    'body': 'GKErrorInvalidPlayer'
+  'GKErrorInvitationsDisabled (25)':
+    'prefix': 'GKErrorInvitationsDisabled'
+    'body': 'GKErrorInvitationsDisabled'
+  'GKErrorMatchRequestInvalid (13)':
+    'prefix': 'GKErrorMatchRequestInvalid'
+    'body': 'GKErrorMatchRequestInvalid'
+  'GKErrorNotAuthenticated (6)':
+    'prefix': 'GKErrorNotAuthenticated'
+    'body': 'GKErrorNotAuthenticated'
+  'GKErrorNotSupported (16)':
+    'prefix': 'GKErrorNotSupported'
+    'body': 'GKErrorNotSupported'
+  'GKErrorParentalControlsBlocked (10)':
+    'prefix': 'GKErrorParentalControlsBlocked'
+    'body': 'GKErrorParentalControlsBlocked'
+  'GKErrorPlayerStatusExceedsMaximumLength (11)':
+    'prefix': 'GKErrorPlayerStatusExceedsMaximumLength'
+    'body': 'GKErrorPlayerStatusExceedsMaximumLength'
+  'GKErrorPlayerStatusInvalid (12)':
+    'prefix': 'GKErrorPlayerStatusInvalid'
+    'body': 'GKErrorPlayerStatusInvalid'
+  'GKErrorScoreNotSet (9)':
+    'prefix': 'GKErrorScoreNotSet'
+    'body': 'GKErrorScoreNotSet'
+  'GKErrorTurnBasedInvalidParticipant (22)':
+    'prefix': 'GKErrorTurnBasedInvalidParticipant'
+    'body': 'GKErrorTurnBasedInvalidParticipant'
+  'GKErrorTurnBasedInvalidState (24)':
+    'prefix': 'GKErrorTurnBasedInvalidState'
+    'body': 'GKErrorTurnBasedInvalidState'
+  'GKErrorTurnBasedInvalidTurn (23)':
+    'prefix': 'GKErrorTurnBasedInvalidTurn'
+    'body': 'GKErrorTurnBasedInvalidTurn'
+  'GKErrorTurnBasedMatchDataTooLarge (20)':
+    'prefix': 'GKErrorTurnBasedMatchDataTooLarge'
+    'body': 'GKErrorTurnBasedMatchDataTooLarge'
+  'GKErrorTurnBasedTooManySessions (21)':
+    'prefix': 'GKErrorTurnBasedTooManySessions'
+    'body': 'GKErrorTurnBasedTooManySessions'
+  'GKErrorUnderage (14)':
+    'prefix': 'GKErrorUnderage'
+    'body': 'GKErrorUnderage'
+  'GKErrorUnexpectedConnection (18)':
+    'prefix': 'GKErrorUnexpectedConnection'
+    'body': 'GKErrorUnexpectedConnection'
+  'GKErrorUnknown (1)':
+    'prefix': 'GKErrorUnknown'
+    'body': 'GKErrorUnknown'
+  'GKErrorUserDenied (4)':
+    'prefix': 'GKErrorUserDenied'
+    'body': 'GKErrorUserDenied'
+  'GKGameCenterViewControllerStateAchievements (1)':
+    'prefix': 'GKGameCenterViewControllerStateAchievements'
+    'body': 'GKGameCenterViewControllerStateAchievements'
+  'GKGameCenterViewControllerStateChallenges (2)':
+    'prefix': 'GKGameCenterViewControllerStateChallenges'
+    'body': 'GKGameCenterViewControllerStateChallenges'
+  'GKGameCenterViewControllerStateDefault (-1)':
+    'prefix': 'GKGameCenterViewControllerStateDefault'
+    'body': 'GKGameCenterViewControllerStateDefault'
+  'GKGameCenterViewControllerStateLeaderboards (0)':
+    'prefix': 'GKGameCenterViewControllerStateLeaderboards'
+    'body': 'GKGameCenterViewControllerStateLeaderboards'
+  'GKInviteeResponseAccepted (0)':
+    'prefix': 'GKInviteeResponseAccepted'
+    'body': 'GKInviteeResponseAccepted'
+  'GKInviteeResponseDeclined (1)':
+    'prefix': 'GKInviteeResponseDeclined'
+    'body': 'GKInviteeResponseDeclined'
+  'GKInviteeResponseFailed (2)':
+    'prefix': 'GKInviteeResponseFailed'
+    'body': 'GKInviteeResponseFailed'
+  'GKInviteeResponseIncompatible (3)':
+    'prefix': 'GKInviteeResponseIncompatible'
+    'body': 'GKInviteeResponseIncompatible'
+  'GKInviteeResponseNoAnswer (5)':
+    'prefix': 'GKInviteeResponseNoAnswer'
+    'body': 'GKInviteeResponseNoAnswer'
+  'GKInviteeResponseUnableToConnect (4)':
+    'prefix': 'GKInviteeResponseUnableToConnect'
+    'body': 'GKInviteeResponseUnableToConnect'
+  'GKLeaderboardPlayerScopeFriendsOnly (1)':
+    'prefix': 'GKLeaderboardPlayerScopeFriendsOnly'
+    'body': 'GKLeaderboardPlayerScopeFriendsOnly'
+  'GKLeaderboardPlayerScopeGlobal (0)':
+    'prefix': 'GKLeaderboardPlayerScopeGlobal'
+    'body': 'GKLeaderboardPlayerScopeGlobal'
+  'GKLeaderboardTimeScopeAllTime (2)':
+    'prefix': 'GKLeaderboardTimeScopeAllTime'
+    'body': 'GKLeaderboardTimeScopeAllTime'
+  'GKLeaderboardTimeScopeToday (0)':
+    'prefix': 'GKLeaderboardTimeScopeToday'
+    'body': 'GKLeaderboardTimeScopeToday'
+  'GKLeaderboardTimeScopeWeek (1)':
+    'prefix': 'GKLeaderboardTimeScopeWeek'
+    'body': 'GKLeaderboardTimeScopeWeek'
+  'GKMatchSendDataReliable (0)':
+    'prefix': 'GKMatchSendDataReliable'
+    'body': 'GKMatchSendDataReliable'
+  'GKMatchSendDataUnreliable (1)':
+    'prefix': 'GKMatchSendDataUnreliable'
+    'body': 'GKMatchSendDataUnreliable'
+  'GKMatchTypeHosted (1)':
+    'prefix': 'GKMatchTypeHosted'
+    'body': 'GKMatchTypeHosted'
+  'GKMatchTypePeerToPeer (0)':
+    'prefix': 'GKMatchTypePeerToPeer'
+    'body': 'GKMatchTypePeerToPeer'
+  'GKMatchTypeTurnBased (2)':
+    'prefix': 'GKMatchTypeTurnBased'
+    'body': 'GKMatchTypeTurnBased'
+  'GKPeerPickerConnectionTypeNearby (2)':
+    'prefix': 'GKPeerPickerConnectionTypeNearby'
+    'body': 'GKPeerPickerConnectionTypeNearby'
+  'GKPeerPickerConnectionTypeOnline (1)':
+    'prefix': 'GKPeerPickerConnectionTypeOnline'
+    'body': 'GKPeerPickerConnectionTypeOnline'
+  'GKPeerStateAvailable (0)':
+    'prefix': 'GKPeerStateAvailable'
+    'body': 'GKPeerStateAvailable'
+  'GKPeerStateConnected (2)':
+    'prefix': 'GKPeerStateConnected'
+    'body': 'GKPeerStateConnected'
+  'GKPeerStateConnecting (4)':
+    'prefix': 'GKPeerStateConnecting'
+    'body': 'GKPeerStateConnecting'
+  'GKPeerStateDisconnected (3)':
+    'prefix': 'GKPeerStateDisconnected'
+    'body': 'GKPeerStateDisconnected'
+  'GKPeerStateUnavailable (1)':
+    'prefix': 'GKPeerStateUnavailable'
+    'body': 'GKPeerStateUnavailable'
+  'GKPhotoSizeNormal (1)':
+    'prefix': 'GKPhotoSizeNormal'
+    'body': 'GKPhotoSizeNormal'
+  'GKPhotoSizeSmall (0)':
+    'prefix': 'GKPhotoSizeSmall'
+    'body': 'GKPhotoSizeSmall'
+  'GKPlayerStateConnected (1)':
+    'prefix': 'GKPlayerStateConnected'
+    'body': 'GKPlayerStateConnected'
+  'GKPlayerStateDisconnected (2)':
+    'prefix': 'GKPlayerStateDisconnected'
+    'body': 'GKPlayerStateDisconnected'
+  'GKPlayerStateUnknown (0)':
+    'prefix': 'GKPlayerStateUnknown'
+    'body': 'GKPlayerStateUnknown'
+  'GKSendDataReliable (0)':
+    'prefix': 'GKSendDataReliable'
+    'body': 'GKSendDataReliable'
+  'GKSendDataUnreliable (1)':
+    'prefix': 'GKSendDataUnreliable'
+    'body': 'GKSendDataUnreliable'
+  'GKSessionCancelledError (30504)':
+    'prefix': 'GKSessionCancelledError'
+    'body': 'GKSessionCancelledError'
+  'GKSessionCannotEnableError (30509)':
+    'prefix': 'GKSessionCannotEnableError'
+    'body': 'GKSessionCannotEnableError'
+  'GKSessionConnectionClosedError (30506)':
+    'prefix': 'GKSessionConnectionClosedError'
+    'body': 'GKSessionConnectionClosedError'
+  'GKSessionConnectionFailedError (30505)':
+    'prefix': 'GKSessionConnectionFailedError'
+    'body': 'GKSessionConnectionFailedError'
+  'GKSessionConnectivityError (30201)':
+    'prefix': 'GKSessionConnectivityError'
+    'body': 'GKSessionConnectivityError'
+  'GKSessionDataTooBigError (30507)':
+    'prefix': 'GKSessionDataTooBigError'
+    'body': 'GKSessionDataTooBigError'
+  'GKSessionDeclinedError (30502)':
+    'prefix': 'GKSessionDeclinedError'
+    'body': 'GKSessionDeclinedError'
+  'GKSessionInProgressError (30510)':
+    'prefix': 'GKSessionInProgressError'
+    'body': 'GKSessionInProgressError'
+  'GKSessionInternalError (30203)':
+    'prefix': 'GKSessionInternalError'
+    'body': 'GKSessionInternalError'
+  'GKSessionInvalidParameterError (30500)':
+    'prefix': 'GKSessionInvalidParameterError'
+    'body': 'GKSessionInvalidParameterError'
+  'GKSessionModeClient (1)':
+    'prefix': 'GKSessionModeClient'
+    'body': 'GKSessionModeClient'
+  'GKSessionModePeer (2)':
+    'prefix': 'GKSessionModePeer'
+    'body': 'GKSessionModePeer'
+  'GKSessionModeServer (0)':
+    'prefix': 'GKSessionModeServer'
+    'body': 'GKSessionModeServer'
+  'GKSessionNotConnectedError (30508)':
+    'prefix': 'GKSessionNotConnectedError'
+    'body': 'GKSessionNotConnectedError'
+  'GKSessionPeerNotFoundError (30501)':
+    'prefix': 'GKSessionPeerNotFoundError'
+    'body': 'GKSessionPeerNotFoundError'
+  'GKSessionSystemError (30205)':
+    'prefix': 'GKSessionSystemError'
+    'body': 'GKSessionSystemError'
+  'GKSessionTimedOutError (30503)':
+    'prefix': 'GKSessionTimedOutError'
+    'body': 'GKSessionTimedOutError'
+  'GKSessionTransportError (30202)':
+    'prefix': 'GKSessionTransportError'
+    'body': 'GKSessionTransportError'
+  'GKSessionUnknownError (30204)':
+    'prefix': 'GKSessionUnknownError'
+    'body': 'GKSessionUnknownError'
+  'GKTurnBasedMatchOutcomeCustomRange (16711680)':
+    'prefix': 'GKTurnBasedMatchOutcomeCustomRange'
+    'body': 'GKTurnBasedMatchOutcomeCustomRange'
+  'GKTurnBasedMatchOutcomeFirst (6)':
+    'prefix': 'GKTurnBasedMatchOutcomeFirst'
+    'body': 'GKTurnBasedMatchOutcomeFirst'
+  'GKTurnBasedMatchOutcomeFourth (9)':
+    'prefix': 'GKTurnBasedMatchOutcomeFourth'
+    'body': 'GKTurnBasedMatchOutcomeFourth'
+  'GKTurnBasedMatchOutcomeLost (3)':
+    'prefix': 'GKTurnBasedMatchOutcomeLost'
+    'body': 'GKTurnBasedMatchOutcomeLost'
+  'GKTurnBasedMatchOutcomeNone (0)':
+    'prefix': 'GKTurnBasedMatchOutcomeNone'
+    'body': 'GKTurnBasedMatchOutcomeNone'
+  'GKTurnBasedMatchOutcomeQuit (1)':
+    'prefix': 'GKTurnBasedMatchOutcomeQuit'
+    'body': 'GKTurnBasedMatchOutcomeQuit'
+  'GKTurnBasedMatchOutcomeSecond (7)':
+    'prefix': 'GKTurnBasedMatchOutcomeSecond'
+    'body': 'GKTurnBasedMatchOutcomeSecond'
+  'GKTurnBasedMatchOutcomeThird (8)':
+    'prefix': 'GKTurnBasedMatchOutcomeThird'
+    'body': 'GKTurnBasedMatchOutcomeThird'
+  'GKTurnBasedMatchOutcomeTied (4)':
+    'prefix': 'GKTurnBasedMatchOutcomeTied'
+    'body': 'GKTurnBasedMatchOutcomeTied'
+  'GKTurnBasedMatchOutcomeTimeExpired (5)':
+    'prefix': 'GKTurnBasedMatchOutcomeTimeExpired'
+    'body': 'GKTurnBasedMatchOutcomeTimeExpired'
+  'GKTurnBasedMatchOutcomeWon (2)':
+    'prefix': 'GKTurnBasedMatchOutcomeWon'
+    'body': 'GKTurnBasedMatchOutcomeWon'
+  'GKTurnBasedMatchStatusEnded (2)':
+    'prefix': 'GKTurnBasedMatchStatusEnded'
+    'body': 'GKTurnBasedMatchStatusEnded'
+  'GKTurnBasedMatchStatusMatching (3)':
+    'prefix': 'GKTurnBasedMatchStatusMatching'
+    'body': 'GKTurnBasedMatchStatusMatching'
+  'GKTurnBasedMatchStatusOpen (1)':
+    'prefix': 'GKTurnBasedMatchStatusOpen'
+    'body': 'GKTurnBasedMatchStatusOpen'
+  'GKTurnBasedMatchStatusUnknown (0)':
+    'prefix': 'GKTurnBasedMatchStatusUnknown'
+    'body': 'GKTurnBasedMatchStatusUnknown'
+  'GKTurnBasedParticipantStatusActive (4)':
+    'prefix': 'GKTurnBasedParticipantStatusActive'
+    'body': 'GKTurnBasedParticipantStatusActive'
+  'GKTurnBasedParticipantStatusDeclined (2)':
+    'prefix': 'GKTurnBasedParticipantStatusDeclined'
+    'body': 'GKTurnBasedParticipantStatusDeclined'
+  'GKTurnBasedParticipantStatusDone (5)':
+    'prefix': 'GKTurnBasedParticipantStatusDone'
+    'body': 'GKTurnBasedParticipantStatusDone'
+  'GKTurnBasedParticipantStatusInvited (1)':
+    'prefix': 'GKTurnBasedParticipantStatusInvited'
+    'body': 'GKTurnBasedParticipantStatusInvited'
+  'GKTurnBasedParticipantStatusMatching (3)':
+    'prefix': 'GKTurnBasedParticipantStatusMatching'
+    'body': 'GKTurnBasedParticipantStatusMatching'
+  'GKTurnBasedParticipantStatusUnknown (0)':
+    'prefix': 'GKTurnBasedParticipantStatusUnknown'
+    'body': 'GKTurnBasedParticipantStatusUnknown'
+  'GKVoiceChatPlayerConnected (0)':
+    'prefix': 'GKVoiceChatPlayerConnected'
+    'body': 'GKVoiceChatPlayerConnected'
+  'GKVoiceChatPlayerConnecting (4)':
+    'prefix': 'GKVoiceChatPlayerConnecting'
+    'body': 'GKVoiceChatPlayerConnecting'
+  'GKVoiceChatPlayerDisconnected (1)':
+    'prefix': 'GKVoiceChatPlayerDisconnected'
+    'body': 'GKVoiceChatPlayerDisconnected'
+  'GKVoiceChatPlayerSilent (3)':
+    'prefix': 'GKVoiceChatPlayerSilent'
+    'body': 'GKVoiceChatPlayerSilent'
+  'GKVoiceChatPlayerSpeaking (2)':
+    'prefix': 'GKVoiceChatPlayerSpeaking'
+    'body': 'GKVoiceChatPlayerSpeaking'
+  'GKVoiceChatServiceAudioUnavailableError (32005)':
+    'prefix': 'GKVoiceChatServiceAudioUnavailableError'
+    'body': 'GKVoiceChatServiceAudioUnavailableError'
+  'GKVoiceChatServiceClientMissingRequiredMethodsError (32007)':
+    'prefix': 'GKVoiceChatServiceClientMissingRequiredMethodsError'
+    'body': 'GKVoiceChatServiceClientMissingRequiredMethodsError'
+  'GKVoiceChatServiceInternalError (32000)':
+    'prefix': 'GKVoiceChatServiceInternalError'
+    'body': 'GKVoiceChatServiceInternalError'
+  'GKVoiceChatServiceInvalidCallIDError (32004)':
+    'prefix': 'GKVoiceChatServiceInvalidCallIDError'
+    'body': 'GKVoiceChatServiceInvalidCallIDError'
+  'GKVoiceChatServiceInvalidParameterError (32016)':
+    'prefix': 'GKVoiceChatServiceInvalidParameterError'
+    'body': 'GKVoiceChatServiceInvalidParameterError'
+  'GKVoiceChatServiceMethodCurrentlyInvalidError (32012)':
+    'prefix': 'GKVoiceChatServiceMethodCurrentlyInvalidError'
+    'body': 'GKVoiceChatServiceMethodCurrentlyInvalidError'
+  'GKVoiceChatServiceNetworkConfigurationError (32013)':
+    'prefix': 'GKVoiceChatServiceNetworkConfigurationError'
+    'body': 'GKVoiceChatServiceNetworkConfigurationError'
+  'GKVoiceChatServiceNoRemotePacketsError (32001)':
+    'prefix': 'GKVoiceChatServiceNoRemotePacketsError'
+    'body': 'GKVoiceChatServiceNoRemotePacketsError'
+  'GKVoiceChatServiceOutOfMemoryError (32015)':
+    'prefix': 'GKVoiceChatServiceOutOfMemoryError'
+    'body': 'GKVoiceChatServiceOutOfMemoryError'
+  'GKVoiceChatServiceRemoteParticipantBusyError (32008)':
+    'prefix': 'GKVoiceChatServiceRemoteParticipantBusyError'
+    'body': 'GKVoiceChatServiceRemoteParticipantBusyError'
+  'GKVoiceChatServiceRemoteParticipantCancelledError (32009)':
+    'prefix': 'GKVoiceChatServiceRemoteParticipantCancelledError'
+    'body': 'GKVoiceChatServiceRemoteParticipantCancelledError'
+  'GKVoiceChatServiceRemoteParticipantDeclinedInviteError (32011)':
+    'prefix': 'GKVoiceChatServiceRemoteParticipantDeclinedInviteError'
+    'body': 'GKVoiceChatServiceRemoteParticipantDeclinedInviteError'
+  'GKVoiceChatServiceRemoteParticipantHangupError (32003)':
+    'prefix': 'GKVoiceChatServiceRemoteParticipantHangupError'
+    'body': 'GKVoiceChatServiceRemoteParticipantHangupError'
+  'GKVoiceChatServiceRemoteParticipantResponseInvalidError (32010)':
+    'prefix': 'GKVoiceChatServiceRemoteParticipantResponseInvalidError'
+    'body': 'GKVoiceChatServiceRemoteParticipantResponseInvalidError'
+  'GKVoiceChatServiceUnableToConnectError (32002)':
+    'prefix': 'GKVoiceChatServiceUnableToConnectError'
+    'body': 'GKVoiceChatServiceUnableToConnectError'
+  'GKVoiceChatServiceUninitializedClientError (32006)':
+    'prefix': 'GKVoiceChatServiceUninitializedClientError'
+    'body': 'GKVoiceChatServiceUninitializedClientError'
+  'GKVoiceChatServiceUnsupportedRemoteVersionError (32014)':
+    'prefix': 'GKVoiceChatServiceUnsupportedRemoteVersionError'
+    'body': 'GKVoiceChatServiceUnsupportedRemoteVersionError'
+  'challengeComposeControllerWithPlayers:message:completionHandler:':
+    'prefix': 'challengeComposeControllerWithPlayers:message:completionHandler:'
+    'body': 'challengeComposeControllerWithPlayers(${1:NSArray* playerIDs}, message:${2:NSString* message}, completionHandler:${3:GKChallengeComposeCompletionBlock completionHandler})'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'initWithIdentifier:':
+    'prefix': 'initWithIdentifier:'
+    'body': 'initWithIdentifier(${1:NSString* identifier})'
+  'initWithIdentifier:forPlayer:':
+    'prefix': 'initWithIdentifier:forPlayer:'
+    'body': 'initWithIdentifier(${1:NSString* identifier}, forPlayer:${2:NSString* playerID})'
+  'isCompleted':
+    'prefix': 'isCompleted'
+    'body': 'isCompleted()'
+  'isHidden':
+    'prefix': 'isHidden'
+    'body': 'isHidden()'
+  'issueChallengeToPlayers:message:':
+    'prefix': 'issueChallengeToPlayers:message:'
+    'body': 'issueChallengeToPlayers(${1:NSArray* playerIDs}, message:${2:NSString* message})'
+  'lastReportedDate':
+    'prefix': 'lastReportedDate'
+    'body': 'lastReportedDate()'
+  'GKAchievement.loadAchievementsWithCompletionHandler:':
+    'prefix': 'loadAchievementsWithCompletionHandler:'
+    'body': 'GKAchievement.loadAchievementsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'percentComplete':
+    'prefix': 'percentComplete'
+    'body': 'percentComplete()'
+  'playerID':
+    'prefix': 'playerID'
+    'body': 'playerID()'
+  'reportAchievementWithCompletionHandler:':
+    'prefix': 'reportAchievementWithCompletionHandler:'
+    'body': 'reportAchievementWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'GKAchievement.reportAchievements:withCompletionHandler:':
+    'prefix': 'reportAchievements:withCompletionHandler:'
+    'body': 'GKAchievement.reportAchievements(${1:NSArray* achievements}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+  'GKAchievement.reportAchievements:withEligibleChallenges:withCompletionHandler:':
+    'prefix': 'reportAchievements:withEligibleChallenges:withCompletionHandler:'
+    'body': 'GKAchievement.reportAchievements(${1:NSArray* achievements}, withEligibleChallenges:${2:NSArray* challenges}, withCompletionHandler:${3:void (^)(NSError *) completionHandler})'
+  'GKAchievement.resetAchievementsWithCompletionHandler:':
+    'prefix': 'resetAchievementsWithCompletionHandler:'
+    'body': 'GKAchievement.resetAchievementsWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'selectChallengeablePlayerIDs:withCompletionHandler:':
+    'prefix': 'selectChallengeablePlayerIDs:withCompletionHandler:'
+    'body': 'selectChallengeablePlayerIDs(${1:NSArray* playerIDs}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
+  'setIdentifier:':
+    'prefix': 'setIdentifier:'
+    'body': 'setIdentifier(${1:NSString* identifier})'
+  'setPercentComplete:':
+    'prefix': 'setPercentComplete:'
+    'body': 'setPercentComplete(${1:double percentComplete})'
+  'setShowsCompletionBanner:':
+    'prefix': 'setShowsCompletionBanner:'
+    'body': 'setShowsCompletionBanner(${1:BOOL showsCompletionBanner})'
+  'showsCompletionBanner':
+    'prefix': 'showsCompletionBanner'
+    'body': 'showsCompletionBanner()'
+  'achievement':
+    'prefix': 'achievement'
+    'body': 'achievement()'
+  'achievedDescription':
+    'prefix': 'achievedDescription'
+    'body': 'achievedDescription()'
+  'groupIdentifier':
+    'prefix': 'groupIdentifier'
+    'body': 'groupIdentifier()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'image':
+    'prefix': 'image'
+    'body': 'image()'
+  'GKAchievementDescription.incompleteAchievementImage':
+    'prefix': 'incompleteAchievementImage'
+    'body': 'GKAchievementDescription.incompleteAchievementImage()'
+  'isHidden':
+    'prefix': 'isHidden'
+    'body': 'isHidden()'
+  'isReplayable':
+    'prefix': 'isReplayable'
+    'body': 'isReplayable()'
+  'GKAchievementDescription.loadAchievementDescriptionsWithCompletionHandler:':
+    'prefix': 'loadAchievementDescriptionsWithCompletionHandler:'
+    'body': 'GKAchievementDescription.loadAchievementDescriptionsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'loadImageWithCompletionHandler:':
+    'prefix': 'loadImageWithCompletionHandler:'
+    'body': 'loadImageWithCompletionHandler(${1:void (^)(UIImage *, NSError *) completionHandler})'
+  'maximumPoints':
+    'prefix': 'maximumPoints'
+    'body': 'maximumPoints()'
+  'GKAchievementDescription.placeholderCompletedAchievementImage':
+    'prefix': 'placeholderCompletedAchievementImage'
+    'body': 'GKAchievementDescription.placeholderCompletedAchievementImage()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'unachievedDescription':
+    'prefix': 'unachievedDescription'
+    'body': 'unachievedDescription()'
+  'achievementDelegate':
+    'prefix': 'achievementDelegate'
+    'body': 'achievementDelegate()'
+  'setAchievementDelegate:':
+    'prefix': 'setAchievementDelegate:'
+    'body': 'setAchievementDelegate(${1:id achievementDelegate})'
+  'completionDate':
+    'prefix': 'completionDate'
+    'body': 'completionDate()'
+  'decline':
+    'prefix': 'decline'
+    'body': 'decline()'
+  'issueDate':
+    'prefix': 'issueDate'
+    'body': 'issueDate()'
+  'issuingPlayerID':
+    'prefix': 'issuingPlayerID'
+    'body': 'issuingPlayerID()'
+  'GKChallenge.loadReceivedChallengesWithCompletionHandler:':
+    'prefix': 'loadReceivedChallengesWithCompletionHandler:'
+    'body': 'GKChallenge.loadReceivedChallengesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'message':
+    'prefix': 'message'
+    'body': 'message()'
+  'receivingPlayerID':
+    'prefix': 'receivingPlayerID'
+    'body': 'receivingPlayerID()'
+  'state':
+    'prefix': 'state'
+    'body': 'state()'
+  'GKChallengeEventHandler.challengeEventHandler':
+    'prefix': 'challengeEventHandler'
+    'body': 'GKChallengeEventHandler.challengeEventHandler()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'addRecipientsWithEmailAddresses:':
+    'prefix': 'addRecipientsWithEmailAddresses:'
+    'body': 'addRecipientsWithEmailAddresses(${1:NSArray* emailAddresses})'
+  'addRecipientsWithPlayerIDs:':
+    'prefix': 'addRecipientsWithPlayerIDs:'
+    'body': 'addRecipientsWithPlayerIDs(${1:NSArray* playerIDs})'
+  'composeViewDelegate':
+    'prefix': 'composeViewDelegate'
+    'body': 'composeViewDelegate()'
+  'GKFriendRequestComposeViewController.maxNumberOfRecipients':
+    'prefix': 'maxNumberOfRecipients'
+    'body': 'GKFriendRequestComposeViewController.maxNumberOfRecipients()'
+  'setComposeViewDelegate:':
+    'prefix': 'setComposeViewDelegate:'
+    'body': 'setComposeViewDelegate(${1:id composeViewDelegate})'
+  'setMessage:':
+    'prefix': 'setMessage:'
+    'body': 'setMessage(${1:NSString* message})'
+  'gameCenterDelegate':
+    'prefix': 'gameCenterDelegate'
+    'body': 'gameCenterDelegate()'
+  'leaderboardCategory':
+    'prefix': 'leaderboardCategory'
+    'body': 'leaderboardCategory()'
+  'leaderboardIdentifier':
+    'prefix': 'leaderboardIdentifier'
+    'body': 'leaderboardIdentifier()'
+  'leaderboardTimeScope':
+    'prefix': 'leaderboardTimeScope'
+    'body': 'leaderboardTimeScope()'
+  'setGameCenterDelegate:':
+    'prefix': 'setGameCenterDelegate:'
+    'body': 'setGameCenterDelegate(${1:id gameCenterDelegate})'
+  'setLeaderboardCategory:':
+    'prefix': 'setLeaderboardCategory:'
+    'body': 'setLeaderboardCategory(${1:NSString* leaderboardCategory})'
+  'setLeaderboardIdentifier:':
+    'prefix': 'setLeaderboardIdentifier:'
+    'body': 'setLeaderboardIdentifier(${1:NSString* leaderboardIdentifier})'
+  'setLeaderboardTimeScope:':
+    'prefix': 'setLeaderboardTimeScope:'
+    'body': 'setLeaderboardTimeScope(${1:GKLeaderboardTimeScope leaderboardTimeScope})'
+  'setViewState:':
+    'prefix': 'setViewState:'
+    'body': 'setViewState(${1:GKGameCenterViewControllerState viewState})'
+  'viewState':
+    'prefix': 'viewState'
+    'body': 'viewState()'
+  'inviter':
+    'prefix': 'inviter'
+    'body': 'inviter()'
+  'isHosted':
+    'prefix': 'isHosted'
+    'body': 'isHosted()'
+  'playerAttributes':
+    'prefix': 'playerAttributes'
+    'body': 'playerAttributes()'
+  'playerGroup':
+    'prefix': 'playerGroup'
+    'body': 'playerGroup()'
+  'category':
+    'prefix': 'category'
+    'body': 'category()'
+  'groupIdentifier':
+    'prefix': 'groupIdentifier'
+    'body': 'groupIdentifier()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithPlayerIDs:':
+    'prefix': 'initWithPlayerIDs:'
+    'body': 'initWithPlayerIDs(${1:NSArray* playerIDs})'
+  'isLoading':
+    'prefix': 'isLoading'
+    'body': 'isLoading()'
+  'GKLeaderboard.loadCategoriesWithCompletionHandler:':
+    'prefix': 'loadCategoriesWithCompletionHandler:'
+    'body': 'GKLeaderboard.loadCategoriesWithCompletionHandler(${1:void (^)(NSArray *, NSArray *, NSError *) completionHandler})'
+  'loadImageWithCompletionHandler:':
+    'prefix': 'loadImageWithCompletionHandler:'
+    'body': 'loadImageWithCompletionHandler(${1:void (^)(UIImage *, NSError *) completionHandler})'
+  'GKLeaderboard.loadLeaderboardsWithCompletionHandler:':
+    'prefix': 'loadLeaderboardsWithCompletionHandler:'
+    'body': 'GKLeaderboard.loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'loadScoresWithCompletionHandler:':
+    'prefix': 'loadScoresWithCompletionHandler:'
+    'body': 'loadScoresWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'localPlayerScore':
+    'prefix': 'localPlayerScore'
+    'body': 'localPlayerScore()'
+  'maxRange':
+    'prefix': 'maxRange'
+    'body': 'maxRange()'
+  'playerScope':
+    'prefix': 'playerScope'
+    'body': 'playerScope()'
+  'range':
+    'prefix': 'range'
+    'body': 'range()'
+  'scores':
+    'prefix': 'scores'
+    'body': 'scores()'
+  'setCategory:':
+    'prefix': 'setCategory:'
+    'body': 'setCategory(${1:NSString* category})'
+  'GKLeaderboard.setDefaultLeaderboard:withCompletionHandler:':
+    'prefix': 'setDefaultLeaderboard:withCompletionHandler:'
+    'body': 'GKLeaderboard.setDefaultLeaderboard(${1:NSString* leaderboardIdentifier}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+  'setIdentifier:':
+    'prefix': 'setIdentifier:'
+    'body': 'setIdentifier(${1:NSString* identifier})'
+  'setPlayerScope:':
+    'prefix': 'setPlayerScope:'
+    'body': 'setPlayerScope(${1:GKLeaderboardPlayerScope playerScope})'
+  'setRange:':
+    'prefix': 'setRange:'
+    'body': 'setRange(${1:NSRange range})'
+  'setTimeScope:':
+    'prefix': 'setTimeScope:'
+    'body': 'setTimeScope(${1:GKLeaderboardTimeScope timeScope})'
+  'timeScope':
+    'prefix': 'timeScope'
+    'body': 'timeScope()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'groupIdentifier':
+    'prefix': 'groupIdentifier'
+    'body': 'groupIdentifier()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'loadImageWithCompletionHandler:':
+    'prefix': 'loadImageWithCompletionHandler:'
+    'body': 'loadImageWithCompletionHandler(${1:void (^)(UIImage *, NSError *) completionHandler})'
+  'GKLeaderboardSet.loadLeaderboardSetsWithCompletionHandler:':
+    'prefix': 'loadLeaderboardSetsWithCompletionHandler:'
+    'body': 'GKLeaderboardSet.loadLeaderboardSetsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'loadLeaderboardsWithCompletionHandler:':
+    'prefix': 'loadLeaderboardsWithCompletionHandler:'
+    'body': 'loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'setIdentifier:':
+    'prefix': 'setIdentifier:'
+    'body': 'setIdentifier(${1:NSString* identifier})'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'category':
+    'prefix': 'category'
+    'body': 'category()'
+  'leaderboardDelegate':
+    'prefix': 'leaderboardDelegate'
+    'body': 'leaderboardDelegate()'
+  'setCategory:':
+    'prefix': 'setCategory:'
+    'body': 'setCategory(${1:NSString* category})'
+  'setLeaderboardDelegate:':
+    'prefix': 'setLeaderboardDelegate:'
+    'body': 'setLeaderboardDelegate(${1:id leaderboardDelegate})'
+  'setTimeScope:':
+    'prefix': 'setTimeScope:'
+    'body': 'setTimeScope(${1:GKLeaderboardTimeScope timeScope})'
+  'timeScope':
+    'prefix': 'timeScope'
+    'body': 'timeScope()'
+  'authenticateHandler':
+    'prefix': 'authenticateHandler'
+    'body': 'authenticateHandler()'
+  'authenticateWithCompletionHandler:':
+    'prefix': 'authenticateWithCompletionHandler:'
+    'body': 'authenticateWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'friends':
+    'prefix': 'friends'
+    'body': 'friends()'
+  'generateIdentityVerificationSignatureWithCompletionHandler:':
+    'prefix': 'generateIdentityVerificationSignatureWithCompletionHandler:'
+    'body': 'generateIdentityVerificationSignatureWithCompletionHandler(${1:void (^)(NSURL *, NSData *, NSData *, uint64_t, NSError *) completionHandler})'
+  'isAuthenticated':
+    'prefix': 'isAuthenticated'
+    'body': 'isAuthenticated()'
+  'isUnderage':
+    'prefix': 'isUnderage'
+    'body': 'isUnderage()'
+  'loadDefaultLeaderboardCategoryIDWithCompletionHandler:':
+    'prefix': 'loadDefaultLeaderboardCategoryIDWithCompletionHandler:'
+    'body': 'loadDefaultLeaderboardCategoryIDWithCompletionHandler(${1:void (^)(NSString *, NSError *) completionHandler})'
+  'loadDefaultLeaderboardIdentifierWithCompletionHandler:':
+    'prefix': 'loadDefaultLeaderboardIdentifierWithCompletionHandler:'
+    'body': 'loadDefaultLeaderboardIdentifierWithCompletionHandler(${1:void (^)(NSString *, NSError *) completionHandler})'
+  'loadFriendsWithCompletionHandler:':
+    'prefix': 'loadFriendsWithCompletionHandler:'
+    'body': 'loadFriendsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'GKLocalPlayer.localPlayer':
+    'prefix': 'localPlayer'
+    'body': 'GKLocalPlayer.localPlayer()'
+  'registerListener:':
+    'prefix': 'registerListener:'
+    'body': 'registerListener(${1:id listener})'
+  'setAuthenticateHandler:':
+    'prefix': 'setAuthenticateHandler:'
+    'body': 'setAuthenticateHandler(${1:void (^)(UIViewController *, NSError *) authenticateHandler})'
+  'setDefaultLeaderboardCategoryID:completionHandler:':
+    'prefix': 'setDefaultLeaderboardCategoryID:completionHandler:'
+    'body': 'setDefaultLeaderboardCategoryID(${1:NSString* catogoryID}, completionHandler:${2:void (^)(NSError *) completionHandler})'
+  'setDefaultLeaderboardIdentifier:completionHandler:':
+    'prefix': 'setDefaultLeaderboardIdentifier:completionHandler:'
+    'body': 'setDefaultLeaderboardIdentifier(${1:NSString* leaderboardIdentifier}, completionHandler:${2:void (^)(NSError *) completionHandler})'
+  'unregisterAllListeners':
+    'prefix': 'unregisterAllListeners'
+    'body': 'unregisterAllListeners()'
+  'unregisterListener:':
+    'prefix': 'unregisterListener:'
+    'body': 'unregisterListener(${1:id listener})'
+  'chooseBestHostPlayerWithCompletionHandler:':
+    'prefix': 'chooseBestHostPlayerWithCompletionHandler:'
+    'body': 'chooseBestHostPlayerWithCompletionHandler(${1:void (^)(NSString *) completionHandler})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'disconnect':
+    'prefix': 'disconnect'
+    'body': 'disconnect()'
+  'expectedPlayerCount':
+    'prefix': 'expectedPlayerCount'
+    'body': 'expectedPlayerCount()'
+  'playerIDs':
+    'prefix': 'playerIDs'
+    'body': 'playerIDs()'
+  'rematchWithCompletionHandler:':
+    'prefix': 'rematchWithCompletionHandler:'
+    'body': 'rematchWithCompletionHandler(${1:void (^)(GKMatch *, NSError *) completionHandler})'
+  'sendData:toPlayers:withDataMode:error:':
+    'prefix': 'sendData:toPlayers:withDataMode:error:'
+    'body': 'sendData(${1:NSData* data}, toPlayers:${2:NSArray* playerIDs}, withDataMode:${3:GKMatchSendDataMode mode}, error:${4:NSError** error})'
+  'sendDataToAllPlayers:withDataMode:error:':
+    'prefix': 'sendDataToAllPlayers:withDataMode:error:'
+    'body': 'sendDataToAllPlayers(${1:NSData* data}, withDataMode:${2:GKMatchSendDataMode mode}, error:${3:NSError** error})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'voiceChatWithName:':
+    'prefix': 'voiceChatWithName:'
+    'body': 'voiceChatWithName(${1:NSString* name})'
+  'defaultNumberOfPlayers':
+    'prefix': 'defaultNumberOfPlayers'
+    'body': 'defaultNumberOfPlayers()'
+  'inviteMessage':
+    'prefix': 'inviteMessage'
+    'body': 'inviteMessage()'
+  'inviteeResponseHandler':
+    'prefix': 'inviteeResponseHandler'
+    'body': 'inviteeResponseHandler()'
+  'maxPlayers':
+    'prefix': 'maxPlayers'
+    'body': 'maxPlayers()'
+  'GKMatchRequest.maxPlayersAllowedForMatchOfType:':
+    'prefix': 'maxPlayersAllowedForMatchOfType:'
+    'body': 'GKMatchRequest.maxPlayersAllowedForMatchOfType(${1:GKMatchType matchType})'
+  'minPlayers':
+    'prefix': 'minPlayers'
+    'body': 'minPlayers()'
+  'playerAttributes':
+    'prefix': 'playerAttributes'
+    'body': 'playerAttributes()'
+  'playerGroup':
+    'prefix': 'playerGroup'
+    'body': 'playerGroup()'
+  'playersToInvite':
+    'prefix': 'playersToInvite'
+    'body': 'playersToInvite()'
+  'setDefaultNumberOfPlayers:':
+    'prefix': 'setDefaultNumberOfPlayers:'
+    'body': 'setDefaultNumberOfPlayers(${1:NSUInteger defaultNumberOfPlayers})'
+  'setInviteMessage:':
+    'prefix': 'setInviteMessage:'
+    'body': 'setInviteMessage(${1:NSString* inviteMessage})'
+  'setInviteeResponseHandler:':
+    'prefix': 'setInviteeResponseHandler:'
+    'body': 'setInviteeResponseHandler(${1:void (^)(NSString *, GKInviteeResponse) inviteeResponseHandler})'
+  'setMaxPlayers:':
+    'prefix': 'setMaxPlayers:'
+    'body': 'setMaxPlayers(${1:NSUInteger maxPlayers})'
+  'setMinPlayers:':
+    'prefix': 'setMinPlayers:'
+    'body': 'setMinPlayers(${1:NSUInteger minPlayers})'
+  'setPlayerAttributes:':
+    'prefix': 'setPlayerAttributes:'
+    'body': 'setPlayerAttributes(${1:uint32_t playerAttributes})'
+  'setPlayerGroup:':
+    'prefix': 'setPlayerGroup:'
+    'body': 'setPlayerGroup(${1:NSUInteger playerGroup})'
+  'setPlayersToInvite:':
+    'prefix': 'setPlayersToInvite:'
+    'body': 'setPlayersToInvite(${1:NSArray* playersToInvite})'
+  'addPlayersToMatch:matchRequest:completionHandler:':
+    'prefix': 'addPlayersToMatch:matchRequest:completionHandler:'
+    'body': 'addPlayersToMatch(${1:GKMatch* match}, matchRequest:${2:GKMatchRequest* matchRequest}, completionHandler:${3:void (^)(NSError *) completionHandler})'
+  'cancel':
+    'prefix': 'cancel'
+    'body': 'cancel()'
+  'cancelInviteToPlayer:':
+    'prefix': 'cancelInviteToPlayer:'
+    'body': 'cancelInviteToPlayer(${1:NSString* playerID})'
+  'findMatchForRequest:withCompletionHandler:':
+    'prefix': 'findMatchForRequest:withCompletionHandler:'
+    'body': 'findMatchForRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(GKMatch *, NSError *) completionHandler})'
+  'findPlayersForHostedMatchRequest:withCompletionHandler:':
+    'prefix': 'findPlayersForHostedMatchRequest:withCompletionHandler:'
+    'body': 'findPlayersForHostedMatchRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
+  'finishMatchmakingForMatch:':
+    'prefix': 'finishMatchmakingForMatch:'
+    'body': 'finishMatchmakingForMatch(${1:GKMatch* match})'
+  'inviteHandler':
+    'prefix': 'inviteHandler'
+    'body': 'inviteHandler()'
+  'matchForInvite:completionHandler:':
+    'prefix': 'matchForInvite:completionHandler:'
+    'body': 'matchForInvite(${1:GKInvite* invite}, completionHandler:${2:void (^)(GKMatch *, NSError *) completionHandler})'
+  'queryActivityWithCompletionHandler:':
+    'prefix': 'queryActivityWithCompletionHandler:'
+    'body': 'queryActivityWithCompletionHandler(${1:void (^)(NSInteger, NSError *) completionHandler})'
+  'queryPlayerGroupActivity:withCompletionHandler:':
+    'prefix': 'queryPlayerGroupActivity:withCompletionHandler:'
+    'body': 'queryPlayerGroupActivity(${1:NSUInteger playerGroup}, withCompletionHandler:${2:void (^)(NSInteger, NSError *) completionHandler})'
+  'setInviteHandler:':
+    'prefix': 'setInviteHandler:'
+    'body': 'setInviteHandler(${1:void (^)(GKInvite *, NSArray *) inviteHandler})'
+  'GKMatchmaker.sharedMatchmaker':
+    'prefix': 'sharedMatchmaker'
+    'body': 'GKMatchmaker.sharedMatchmaker()'
+  'startBrowsingForNearbyPlayersWithReachableHandler:':
+    'prefix': 'startBrowsingForNearbyPlayersWithReachableHandler:'
+    'body': 'startBrowsingForNearbyPlayersWithReachableHandler(${1:void (^)(NSString *, BOOL) reachableHandler})'
+  'stopBrowsingForNearbyPlayers':
+    'prefix': 'stopBrowsingForNearbyPlayers'
+    'body': 'stopBrowsingForNearbyPlayers()'
+  'addPlayersToMatch:':
+    'prefix': 'addPlayersToMatch:'
+    'body': 'addPlayersToMatch(${1:GKMatch* match})'
+  'defaultInvitationMessage':
+    'prefix': 'defaultInvitationMessage'
+    'body': 'defaultInvitationMessage()'
+  'initWithInvite:':
+    'prefix': 'initWithInvite:'
+    'body': 'initWithInvite(${1:GKInvite* invite})'
+  'initWithMatchRequest:':
+    'prefix': 'initWithMatchRequest:'
+    'body': 'initWithMatchRequest(${1:GKMatchRequest* request})'
+  'isHosted':
+    'prefix': 'isHosted'
+    'body': 'isHosted()'
+  'matchRequest':
+    'prefix': 'matchRequest'
+    'body': 'matchRequest()'
+  'matchmakerDelegate':
+    'prefix': 'matchmakerDelegate'
+    'body': 'matchmakerDelegate()'
+  'setDefaultInvitationMessage:':
+    'prefix': 'setDefaultInvitationMessage:'
+    'body': 'setDefaultInvitationMessage(${1:NSString* defaultInvitationMessage})'
+  'setHosted:':
+    'prefix': 'setHosted:'
+    'body': 'setHosted(${1:BOOL hosted})'
+  'setHostedPlayer:connected:':
+    'prefix': 'setHostedPlayer:connected:'
+    'body': 'setHostedPlayer(${1:NSString* playerID}, connected:${2:BOOL connected})'
+  'setHostedPlayerReady:':
+    'prefix': 'setHostedPlayerReady:'
+    'body': 'setHostedPlayerReady(${1:NSString* playerID})'
+  'setMatchmakerDelegate:':
+    'prefix': 'setMatchmakerDelegate:'
+    'body': 'setMatchmakerDelegate(${1:id matchmakerDelegate})'
+  'GKNotificationBanner.showBannerWithTitle:message:completionHandler:':
+    'prefix': 'showBannerWithTitle:message:completionHandler:'
+    'body': 'GKNotificationBanner.showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, completionHandler:${3:void (^)(void) completionHandler})'
+  'GKNotificationBanner.showBannerWithTitle:message:duration:completionHandler:':
+    'prefix': 'showBannerWithTitle:message:duration:completionHandler:'
+    'body': 'GKNotificationBanner.showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, duration:${3:NSTimeInterval duration}, completionHandler:${4:void (^)(void) completionHandler})'
+  'connectionTypesMask':
+    'prefix': 'connectionTypesMask'
+    'body': 'connectionTypesMask()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'dismiss':
+    'prefix': 'dismiss'
+    'body': 'dismiss()'
+  'isVisible':
+    'prefix': 'isVisible'
+    'body': 'isVisible()'
+  'setConnectionTypesMask:':
+    'prefix': 'setConnectionTypesMask:'
+    'body': 'setConnectionTypesMask(${1:GKPeerPickerConnectionType connectionTypesMask})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'show':
+    'prefix': 'show'
+    'body': 'show()'
+  'alias':
+    'prefix': 'alias'
+    'body': 'alias()'
+  'displayName':
+    'prefix': 'displayName'
+    'body': 'displayName()'
+  'isFriend':
+    'prefix': 'isFriend'
+    'body': 'isFriend()'
+  'loadPhotoForSize:withCompletionHandler:':
+    'prefix': 'loadPhotoForSize:withCompletionHandler:'
+    'body': 'loadPhotoForSize(${1:GKPhotoSize size}, withCompletionHandler:${2:void (^)(UIImage *, NSError *) completionHandler})'
+  'GKPlayer.loadPlayersForIdentifiers:withCompletionHandler:':
+    'prefix': 'loadPlayersForIdentifiers:withCompletionHandler:'
+    'body': 'GKPlayer.loadPlayersForIdentifiers(${1:NSArray* identifiers}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
+  'playerID':
+    'prefix': 'playerID'
+    'body': 'playerID()'
+  'category':
+    'prefix': 'category'
+    'body': 'category()'
+  'challengeComposeControllerWithPlayers:message:completionHandler:':
+    'prefix': 'challengeComposeControllerWithPlayers:message:completionHandler:'
+    'body': 'challengeComposeControllerWithPlayers(${1:NSArray* playerIDs}, message:${2:NSString* message}, completionHandler:${3:GKChallengeComposeCompletionBlock completionHandler})'
+  'context':
+    'prefix': 'context'
+    'body': 'context()'
+  'date':
+    'prefix': 'date'
+    'body': 'date()'
+  'formattedValue':
+    'prefix': 'formattedValue'
+    'body': 'formattedValue()'
+  'initWithCategory:':
+    'prefix': 'initWithCategory:'
+    'body': 'initWithCategory(${1:NSString* category})'
+  'initWithLeaderboardIdentifier:':
+    'prefix': 'initWithLeaderboardIdentifier:'
+    'body': 'initWithLeaderboardIdentifier(${1:NSString* identifier})'
+  'initWithLeaderboardIdentifier:forPlayer:':
+    'prefix': 'initWithLeaderboardIdentifier:forPlayer:'
+    'body': 'initWithLeaderboardIdentifier(${1:NSString* identifier}, forPlayer:${2:NSString* playerID})'
+  'issueChallengeToPlayers:message:':
+    'prefix': 'issueChallengeToPlayers:message:'
+    'body': 'issueChallengeToPlayers(${1:NSArray* playerIDs}, message:${2:NSString* message})'
+  'leaderboardIdentifier':
+    'prefix': 'leaderboardIdentifier'
+    'body': 'leaderboardIdentifier()'
+  'playerID':
+    'prefix': 'playerID'
+    'body': 'playerID()'
+  'rank':
+    'prefix': 'rank'
+    'body': 'rank()'
+  'reportScoreWithCompletionHandler:':
+    'prefix': 'reportScoreWithCompletionHandler:'
+    'body': 'reportScoreWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'GKScore.reportScores:withCompletionHandler:':
+    'prefix': 'reportScores:withCompletionHandler:'
+    'body': 'GKScore.reportScores(${1:NSArray* scores}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+  'GKScore.reportScores:withEligibleChallenges:withCompletionHandler:':
+    'prefix': 'reportScores:withEligibleChallenges:withCompletionHandler:'
+    'body': 'GKScore.reportScores(${1:NSArray* scores}, withEligibleChallenges:${2:NSArray* challenges}, withCompletionHandler:${3:void (^)(NSError *) completionHandler})'
+  'setCategory:':
+    'prefix': 'setCategory:'
+    'body': 'setCategory(${1:NSString* category})'
+  'setContext:':
+    'prefix': 'setContext:'
+    'body': 'setContext(${1:uint64_t context})'
+  'setLeaderboardIdentifier:':
+    'prefix': 'setLeaderboardIdentifier:'
+    'body': 'setLeaderboardIdentifier(${1:NSString* leaderboardIdentifier})'
+  'setShouldSetDefaultLeaderboard:':
+    'prefix': 'setShouldSetDefaultLeaderboard:'
+    'body': 'setShouldSetDefaultLeaderboard(${1:BOOL shouldSetDefaultLeaderboard})'
+  'setValue:':
+    'prefix': 'setValue:'
+    'body': 'setValue(${1:int64_t value})'
+  'shouldSetDefaultLeaderboard':
+    'prefix': 'shouldSetDefaultLeaderboard'
+    'body': 'shouldSetDefaultLeaderboard()'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'score':
+    'prefix': 'score'
+    'body': 'score()'
+  'acceptConnectionFromPeer:error:':
+    'prefix': 'acceptConnectionFromPeer:error:'
+    'body': 'acceptConnectionFromPeer(${1:NSString* peerID}, error:${2:NSError** error})'
+  'cancelConnectToPeer:':
+    'prefix': 'cancelConnectToPeer:'
+    'body': 'cancelConnectToPeer(${1:NSString* peerID})'
+  'connectToPeer:withTimeout:':
+    'prefix': 'connectToPeer:withTimeout:'
+    'body': 'connectToPeer(${1:NSString* peerID}, withTimeout:${2:NSTimeInterval timeout})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'denyConnectionFromPeer:':
+    'prefix': 'denyConnectionFromPeer:'
+    'body': 'denyConnectionFromPeer(${1:NSString* peerID})'
+  'disconnectFromAllPeers':
+    'prefix': 'disconnectFromAllPeers'
+    'body': 'disconnectFromAllPeers()'
+  'disconnectPeerFromAllPeers:':
+    'prefix': 'disconnectPeerFromAllPeers:'
+    'body': 'disconnectPeerFromAllPeers(${1:NSString* peerID})'
+  'disconnectTimeout':
+    'prefix': 'disconnectTimeout'
+    'body': 'disconnectTimeout()'
+  'displayName':
+    'prefix': 'displayName'
+    'body': 'displayName()'
+  'displayNameForPeer:':
+    'prefix': 'displayNameForPeer:'
+    'body': 'displayNameForPeer(${1:NSString* peerID})'
+  'initWithSessionID:displayName:sessionMode:':
+    'prefix': 'initWithSessionID:displayName:sessionMode:'
+    'body': 'initWithSessionID(${1:NSString* sessionID}, displayName:${2:NSString* name}, sessionMode:${3:GKSessionMode mode})'
+  'isAvailable':
+    'prefix': 'isAvailable'
+    'body': 'isAvailable()'
+  'peerID':
+    'prefix': 'peerID'
+    'body': 'peerID()'
+  'peersWithConnectionState:':
+    'prefix': 'peersWithConnectionState:'
+    'body': 'peersWithConnectionState(${1:GKPeerConnectionState state})'
+  'sendData:toPeers:withDataMode:error:':
+    'prefix': 'sendData:toPeers:withDataMode:error:'
+    'body': 'sendData(${1:NSData* data}, toPeers:${2:NSArray* peers}, withDataMode:${3:GKSendDataMode mode}, error:${4:NSError** error})'
+  'sendDataToAllPeers:withDataMode:error:':
+    'prefix': 'sendDataToAllPeers:withDataMode:error:'
+    'body': 'sendDataToAllPeers(${1:NSData* data}, withDataMode:${2:GKSendDataMode mode}, error:${3:NSError** error})'
+  'sessionID':
+    'prefix': 'sessionID'
+    'body': 'sessionID()'
+  'sessionMode':
+    'prefix': 'sessionMode'
+    'body': 'sessionMode()'
+  'setAvailable:':
+    'prefix': 'setAvailable:'
+    'body': 'setAvailable(${1:BOOL available})'
+  'setDataReceiveHandler:withContext:':
+    'prefix': 'setDataReceiveHandler:withContext:'
+    'body': 'setDataReceiveHandler(${1:id handler}, withContext:${2:void* context})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDisconnectTimeout:':
+    'prefix': 'setDisconnectTimeout:'
+    'body': 'setDisconnectTimeout(${1:NSTimeInterval disconnectTimeout})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:NSObject* delegate})'
+  'GKTurnBasedEventHandler.sharedTurnBasedEventHandler':
+    'prefix': 'sharedTurnBasedEventHandler'
+    'body': 'GKTurnBasedEventHandler.sharedTurnBasedEventHandler()'
+  'cancelWithLocalizableMessageKey:arguments:completionHandler:':
+    'prefix': 'cancelWithLocalizableMessageKey:arguments:completionHandler:'
+    'body': 'cancelWithLocalizableMessageKey(${1:NSString* key}, arguments:${2:NSArray* arguments}, completionHandler:${3:void (^)(NSError *) completionHandler})'
+  'completionDate':
+    'prefix': 'completionDate'
+    'body': 'completionDate()'
+  'data':
+    'prefix': 'data'
+    'body': 'data()'
+  'exchangeID':
+    'prefix': 'exchangeID'
+    'body': 'exchangeID()'
+  'message':
+    'prefix': 'message'
+    'body': 'message()'
+  'recipients':
+    'prefix': 'recipients'
+    'body': 'recipients()'
+  'replies':
+    'prefix': 'replies'
+    'body': 'replies()'
+  'replyWithLocalizableMessageKey:arguments:data:completionHandler:':
+    'prefix': 'replyWithLocalizableMessageKey:arguments:data:completionHandler:'
+    'body': 'replyWithLocalizableMessageKey(${1:NSString* key}, arguments:${2:NSArray* arguments}, data:${3:NSData* data}, completionHandler:${4:void (^)(NSError *) completionHandler})'
+  'sendDate':
+    'prefix': 'sendDate'
+    'body': 'sendDate()'
+  'sender':
+    'prefix': 'sender'
+    'body': 'sender()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'timeoutDate':
+    'prefix': 'timeoutDate'
+    'body': 'timeoutDate()'
+  'data':
+    'prefix': 'data'
+    'body': 'data()'
+  'message':
+    'prefix': 'message'
+    'body': 'message()'
+  'recipient':
+    'prefix': 'recipient'
+    'body': 'recipient()'
+  'acceptInviteWithCompletionHandler:':
+    'prefix': 'acceptInviteWithCompletionHandler:'
+    'body': 'acceptInviteWithCompletionHandler(${1:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+  'activeExchanges':
+    'prefix': 'activeExchanges'
+    'body': 'activeExchanges()'
+  'completedExchanges':
+    'prefix': 'completedExchanges'
+    'body': 'completedExchanges()'
+  'creationDate':
+    'prefix': 'creationDate'
+    'body': 'creationDate()'
+  'currentParticipant':
+    'prefix': 'currentParticipant'
+    'body': 'currentParticipant()'
+  'declineInviteWithCompletionHandler:':
+    'prefix': 'declineInviteWithCompletionHandler:'
+    'body': 'declineInviteWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'endMatchInTurnWithMatchData:completionHandler:':
+    'prefix': 'endMatchInTurnWithMatchData:completionHandler:'
+    'body': 'endMatchInTurnWithMatchData(${1:NSData* matchData}, completionHandler:${2:void (^)(NSError *) completionHandler})'
+  'endMatchInTurnWithMatchData:scores:achievements:completionHandler:':
+    'prefix': 'endMatchInTurnWithMatchData:scores:achievements:completionHandler:'
+    'body': 'endMatchInTurnWithMatchData(${1:NSData* matchData}, scores:${2:NSArray* scores}, achievements:${3:NSArray* achievements}, completionHandler:${4:void (^)(NSError *) completionHandler})'
+  'endTurnWithNextParticipant:matchData:completionHandler:':
+    'prefix': 'endTurnWithNextParticipant:matchData:completionHandler:'
+    'body': 'endTurnWithNextParticipant(${1:GKTurnBasedParticipant* nextParticipant}, matchData:${2:NSData* matchData}, completionHandler:${3:void (^)(NSError *) completionHandler})'
+  'endTurnWithNextParticipants:turnTimeout:matchData:completionHandler:':
+    'prefix': 'endTurnWithNextParticipants:turnTimeout:matchData:completionHandler:'
+    'body': 'endTurnWithNextParticipants(${1:NSArray* nextParticipants}, turnTimeout:${2:NSTimeInterval timeout}, matchData:${3:NSData* matchData}, completionHandler:${4:void (^)(NSError *) completionHandler})'
+  'exchangeDataMaximumSize':
+    'prefix': 'exchangeDataMaximumSize'
+    'body': 'exchangeDataMaximumSize()'
+  'exchangeMaxInitiatedExchangesPerPlayer':
+    'prefix': 'exchangeMaxInitiatedExchangesPerPlayer'
+    'body': 'exchangeMaxInitiatedExchangesPerPlayer()'
+  'exchanges':
+    'prefix': 'exchanges'
+    'body': 'exchanges()'
+  'GKTurnBasedMatch.findMatchForRequest:withCompletionHandler:':
+    'prefix': 'findMatchForRequest:withCompletionHandler:'
+    'body': 'GKTurnBasedMatch.findMatchForRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+  'loadMatchDataWithCompletionHandler:':
+    'prefix': 'loadMatchDataWithCompletionHandler:'
+    'body': 'loadMatchDataWithCompletionHandler(${1:void (^)(NSData *, NSError *) completionHandler})'
+  'GKTurnBasedMatch.loadMatchWithID:withCompletionHandler:':
+    'prefix': 'loadMatchWithID:withCompletionHandler:'
+    'body': 'GKTurnBasedMatch.loadMatchWithID(${1:NSString* matchID}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+  'GKTurnBasedMatch.loadMatchesWithCompletionHandler:':
+    'prefix': 'loadMatchesWithCompletionHandler:'
+    'body': 'GKTurnBasedMatch.loadMatchesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+  'matchData':
+    'prefix': 'matchData'
+    'body': 'matchData()'
+  'matchDataMaximumSize':
+    'prefix': 'matchDataMaximumSize'
+    'body': 'matchDataMaximumSize()'
+  'matchID':
+    'prefix': 'matchID'
+    'body': 'matchID()'
+  'message':
+    'prefix': 'message'
+    'body': 'message()'
+  'participantQuitInTurnWithOutcome:nextParticipant:matchData:completionHandler:':
+    'prefix': 'participantQuitInTurnWithOutcome:nextParticipant:matchData:completionHandler:'
+    'body': 'participantQuitInTurnWithOutcome(${1:GKTurnBasedMatchOutcome matchOutcome}, nextParticipant:${2:GKTurnBasedParticipant* nextParticipant}, matchData:${3:NSData* matchData}, completionHandler:${4:void (^)(NSError *) completionHandler})'
+  'participantQuitInTurnWithOutcome:nextParticipants:turnTimeout:matchData:completionHandler:':
+    'prefix': 'participantQuitInTurnWithOutcome:nextParticipants:turnTimeout:matchData:completionHandler:'
+    'body': 'participantQuitInTurnWithOutcome(${1:GKTurnBasedMatchOutcome matchOutcome}, nextParticipants:${2:NSArray* nextParticipants}, turnTimeout:${3:NSTimeInterval timeout}, matchData:${4:NSData* matchData}, completionHandler:${5:void (^)(NSError *) completionHandler})'
+  'participantQuitOutOfTurnWithOutcome:withCompletionHandler:':
+    'prefix': 'participantQuitOutOfTurnWithOutcome:withCompletionHandler:'
+    'body': 'participantQuitOutOfTurnWithOutcome(${1:GKTurnBasedMatchOutcome matchOutcome}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+  'participants':
+    'prefix': 'participants'
+    'body': 'participants()'
+  'rematchWithCompletionHandler:':
+    'prefix': 'rematchWithCompletionHandler:'
+    'body': 'rematchWithCompletionHandler(${1:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+  'removeWithCompletionHandler:':
+    'prefix': 'removeWithCompletionHandler:'
+    'body': 'removeWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+  'saveCurrentTurnWithMatchData:completionHandler:':
+    'prefix': 'saveCurrentTurnWithMatchData:completionHandler:'
+    'body': 'saveCurrentTurnWithMatchData(${1:NSData* matchData}, completionHandler:${2:void (^)(NSError *) completionHandler})'
+  'saveMergedMatchData:withResolvedExchanges:completionHandler:':
+    'prefix': 'saveMergedMatchData:withResolvedExchanges:completionHandler:'
+    'body': 'saveMergedMatchData(${1:NSData* matchData}, withResolvedExchanges:${2:NSArray* exchanges}, completionHandler:${3:void (^)(NSError *) completionHandler})'
+  'sendExchangeToParticipants:data:localizableMessageKey:arguments:timeout:completionHandler:':
+    'prefix': 'sendExchangeToParticipants:data:localizableMessageKey:arguments:timeout:completionHandler:'
+    'body': 'sendExchangeToParticipants(${1:NSArray* participants}, data:${2:NSData* data}, localizableMessageKey:${3:NSString* key}, arguments:${4:NSArray* arguments}, timeout:${5:NSTimeInterval timeout}, completionHandler:${6:void (^)(GKTurnBasedExchange *, NSError *) completionHandler})'
+  'sendReminderToParticipants:localizableMessageKey:arguments:completionHandler:':
+    'prefix': 'sendReminderToParticipants:localizableMessageKey:arguments:completionHandler:'
+    'body': 'sendReminderToParticipants(${1:NSArray* participants}, localizableMessageKey:${2:NSString* key}, arguments:${3:NSArray* arguments}, completionHandler:${4:void (^)(NSError *) completionHandler})'
+  'setLocalizableMessageWithKey:arguments:':
+    'prefix': 'setLocalizableMessageWithKey:arguments:'
+    'body': 'setLocalizableMessageWithKey(${1:NSString* key}, arguments:${2:NSArray* arguments})'
+  'setMessage:':
+    'prefix': 'setMessage:'
+    'body': 'setMessage(${1:NSString* message})'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'initWithMatchRequest:':
+    'prefix': 'initWithMatchRequest:'
+    'body': 'initWithMatchRequest(${1:GKMatchRequest* request})'
+  'setShowExistingMatches:':
+    'prefix': 'setShowExistingMatches:'
+    'body': 'setShowExistingMatches(${1:BOOL showExistingMatches})'
+  'setTurnBasedMatchmakerDelegate:':
+    'prefix': 'setTurnBasedMatchmakerDelegate:'
+    'body': 'setTurnBasedMatchmakerDelegate(${1:id turnBasedMatchmakerDelegate})'
+  'showExistingMatches':
+    'prefix': 'showExistingMatches'
+    'body': 'showExistingMatches()'
+  'turnBasedMatchmakerDelegate':
+    'prefix': 'turnBasedMatchmakerDelegate'
+    'body': 'turnBasedMatchmakerDelegate()'
+  'lastTurnDate':
+    'prefix': 'lastTurnDate'
+    'body': 'lastTurnDate()'
+  'matchOutcome':
+    'prefix': 'matchOutcome'
+    'body': 'matchOutcome()'
+  'playerID':
+    'prefix': 'playerID'
+    'body': 'playerID()'
+  'setMatchOutcome:':
+    'prefix': 'setMatchOutcome:'
+    'body': 'setMatchOutcome(${1:GKTurnBasedMatchOutcome matchOutcome})'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'timeoutDate':
+    'prefix': 'timeoutDate'
+    'body': 'timeoutDate()'
+  'isActive':
+    'prefix': 'isActive'
+    'body': 'isActive()'
+  'GKVoiceChat.isVoIPAllowed':
+    'prefix': 'isVoIPAllowed'
+    'body': 'GKVoiceChat.isVoIPAllowed()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'playerIDs':
+    'prefix': 'playerIDs'
+    'body': 'playerIDs()'
+  'playerStateUpdateHandler':
+    'prefix': 'playerStateUpdateHandler'
+    'body': 'playerStateUpdateHandler()'
+  'setActive:':
+    'prefix': 'setActive:'
+    'body': 'setActive(${1:BOOL active})'
+  'setMute:forPlayer:':
+    'prefix': 'setMute:forPlayer:'
+    'body': 'setMute(${1:BOOL isMuted}, forPlayer:${2:NSString* playerID})'
+  'setPlayerStateUpdateHandler:':
+    'prefix': 'setPlayerStateUpdateHandler:'
+    'body': 'setPlayerStateUpdateHandler(${1:void (^)(NSString *, GKVoiceChatPlayerState) playerStateUpdateHandler})'
+  'setVolume:':
+    'prefix': 'setVolume:'
+    'body': 'setVolume(${1:float volume})'
+  'start':
+    'prefix': 'start'
+    'body': 'start()'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'volume':
+    'prefix': 'volume'
+    'body': 'volume()'
+  'acceptCallID:error:':
+    'prefix': 'acceptCallID:error:'
+    'body': 'acceptCallID(${1:NSInteger callID}, error:${2:NSError** error})'
+  'client':
+    'prefix': 'client'
+    'body': 'client()'
+  'GKVoiceChatService.defaultVoiceChatService':
+    'prefix': 'defaultVoiceChatService'
+    'body': 'GKVoiceChatService.defaultVoiceChatService()'
+  'denyCallID:':
+    'prefix': 'denyCallID:'
+    'body': 'denyCallID(${1:NSInteger callID})'
+  'inputMeterLevel':
+    'prefix': 'inputMeterLevel'
+    'body': 'inputMeterLevel()'
+  'isInputMeteringEnabled':
+    'prefix': 'isInputMeteringEnabled'
+    'body': 'isInputMeteringEnabled()'
+  'isMicrophoneMuted':
+    'prefix': 'isMicrophoneMuted'
+    'body': 'isMicrophoneMuted()'
+  'isOutputMeteringEnabled':
+    'prefix': 'isOutputMeteringEnabled'
+    'body': 'isOutputMeteringEnabled()'
+  'GKVoiceChatService.isVoIPAllowed':
+    'prefix': 'isVoIPAllowed'
+    'body': 'GKVoiceChatService.isVoIPAllowed()'
+  'outputMeterLevel':
+    'prefix': 'outputMeterLevel'
+    'body': 'outputMeterLevel()'
+  'receivedData:fromParticipantID:':
+    'prefix': 'receivedData:fromParticipantID:'
+    'body': 'receivedData(${1:NSData* arbitraryData}, fromParticipantID:${2:NSString* participantID})'
+  'receivedRealTimeData:fromParticipantID:':
+    'prefix': 'receivedRealTimeData:fromParticipantID:'
+    'body': 'receivedRealTimeData(${1:NSData* audio}, fromParticipantID:${2:NSString* participantID})'
+  'remoteParticipantVolume':
+    'prefix': 'remoteParticipantVolume'
+    'body': 'remoteParticipantVolume()'
+  'setClient:':
+    'prefix': 'setClient:'
+    'body': 'setClient(${1:id client})'
+  'setInputMeteringEnabled:':
+    'prefix': 'setInputMeteringEnabled:'
+    'body': 'setInputMeteringEnabled(${1:BOOL inputMeteringEnabled})'
+  'setMicrophoneMuted:':
+    'prefix': 'setMicrophoneMuted:'
+    'body': 'setMicrophoneMuted(${1:BOOL microphoneMuted})'
+  'setOutputMeteringEnabled:':
+    'prefix': 'setOutputMeteringEnabled:'
+    'body': 'setOutputMeteringEnabled(${1:BOOL outputMeteringEnabled})'
+  'setRemoteParticipantVolume:':
+    'prefix': 'setRemoteParticipantVolume:'
+    'body': 'setRemoteParticipantVolume(${1:float remoteParticipantVolume})'
+  'startVoiceChatWithParticipantID:error:':
+    'prefix': 'startVoiceChatWithParticipantID:error:'
+    'body': 'startVoiceChatWithParticipantID(${1:NSString* participantID}, error:${2:NSError** error})'
+  'stopVoiceChatWithParticipantID:':
+    'prefix': 'stopVoiceChatWithParticipantID:'
+    'body': 'stopVoiceChatWithParticipantID(${1:NSString* participantID})'
+  'achievementViewControllerDidFinish:':
+    'prefix': 'achievementViewControllerDidFinish:'
+    'body': 'achievementViewControllerDidFinish(${1:GKAchievementViewController* viewController})'
+  'friendRequestComposeViewControllerDidFinish:':
+    'prefix': 'friendRequestComposeViewControllerDidFinish:'
+    'body': 'friendRequestComposeViewControllerDidFinish(${1:GKFriendRequestComposeViewController* viewController})'
+  'gameCenterViewControllerDidFinish:':
+    'prefix': 'gameCenterViewControllerDidFinish:'
+    'body': 'gameCenterViewControllerDidFinish(${1:GKGameCenterViewController* gameCenterViewController})'
+  'handleInviteFromGameCenter:':
+    'prefix': 'handleInviteFromGameCenter:'
+    'body': 'handleInviteFromGameCenter(${1:NSArray* playersToInvite})'
+  'handleMatchEnded:':
+    'prefix': 'handleMatchEnded:'
+    'body': 'handleMatchEnded(${1:GKTurnBasedMatch* match})'
+  'handleTurnEventForMatch:':
+    'prefix': 'handleTurnEventForMatch:'
+    'body': 'handleTurnEventForMatch(${1:GKTurnBasedMatch* match})'
+  'handleTurnEventForMatch:didBecomeActive:':
+    'prefix': 'handleTurnEventForMatch:didBecomeActive:'
+    'body': 'handleTurnEventForMatch(${1:GKTurnBasedMatch* match}, didBecomeActive:${2:BOOL didBecomeActive})'
+  'leaderboardViewControllerDidFinish:':
+    'prefix': 'leaderboardViewControllerDidFinish:'
+    'body': 'leaderboardViewControllerDidFinish(${1:GKLeaderboardViewController* viewController})'
+  'localPlayerDidCompleteChallenge:':
+    'prefix': 'localPlayerDidCompleteChallenge:'
+    'body': 'localPlayerDidCompleteChallenge(${1:GKChallenge* challenge})'
+  'localPlayerDidReceiveChallenge:':
+    'prefix': 'localPlayerDidReceiveChallenge:'
+    'body': 'localPlayerDidReceiveChallenge(${1:GKChallenge* challenge})'
+  'localPlayerDidSelectChallenge:':
+    'prefix': 'localPlayerDidSelectChallenge:'
+    'body': 'localPlayerDidSelectChallenge(${1:GKChallenge* challenge})'
+  'match:didFailWithError:':
+    'prefix': 'match:didFailWithError:'
+    'body': 'match(${1:GKMatch* match}, didFailWithError:${2:NSError* error})'
+  'match:didReceiveData:fromPlayer:':
+    'prefix': 'match:didReceiveData:fromPlayer:'
+    'body': 'match(${1:GKMatch* match}, didReceiveData:${2:NSData* data}, fromPlayer:${3:NSString* playerID})'
+  'match:player:didChangeState:':
+    'prefix': 'match:player:didChangeState:'
+    'body': 'match(${1:GKMatch* match}, player:${2:NSString* playerID}, didChangeState:${3:GKPlayerConnectionState state})'
+  'match:shouldReinvitePlayer:':
+    'prefix': 'match:shouldReinvitePlayer:'
+    'body': 'match(${1:GKMatch* match}, shouldReinvitePlayer:${2:NSString* playerID})'
+  'matchmakerViewController:didFailWithError:':
+    'prefix': 'matchmakerViewController:didFailWithError:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didFailWithError:${2:NSError* error})'
+  'matchmakerViewController:didFindMatch:':
+    'prefix': 'matchmakerViewController:didFindMatch:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didFindMatch:${2:GKMatch* match})'
+  'matchmakerViewController:didFindPlayers:':
+    'prefix': 'matchmakerViewController:didFindPlayers:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didFindPlayers:${2:NSArray* playerIDs})'
+  'matchmakerViewController:didReceiveAcceptFromHostedPlayer:':
+    'prefix': 'matchmakerViewController:didReceiveAcceptFromHostedPlayer:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didReceiveAcceptFromHostedPlayer:${2:NSString* playerID})'
+  'matchmakerViewControllerWasCancelled:':
+    'prefix': 'matchmakerViewControllerWasCancelled:'
+    'body': 'matchmakerViewControllerWasCancelled(${1:GKMatchmakerViewController* viewController})'
+  'participantID':
+    'prefix': 'participantID'
+    'body': 'participantID()'
+  'peerPickerController:didConnectPeer:toSession:':
+    'prefix': 'peerPickerController:didConnectPeer:toSession:'
+    'body': 'peerPickerController(${1:GKPeerPickerController* picker}, didConnectPeer:${2:NSString* peerID}, toSession:${3:GKSession* session})'
+  'peerPickerController:didSelectConnectionType:':
+    'prefix': 'peerPickerController:didSelectConnectionType:'
+    'body': 'peerPickerController(${1:GKPeerPickerController* picker}, didSelectConnectionType:${2:GKPeerPickerConnectionType type})'
+  'peerPickerController:sessionForConnectionType:':
+    'prefix': 'peerPickerController:sessionForConnectionType:'
+    'body': 'peerPickerController(${1:GKPeerPickerController* picker}, sessionForConnectionType:${2:GKPeerPickerConnectionType type})'
+  'peerPickerControllerDidCancel:':
+    'prefix': 'peerPickerControllerDidCancel:'
+    'body': 'peerPickerControllerDidCancel(${1:GKPeerPickerController* picker})'
+  'player:didAcceptInvite:':
+    'prefix': 'player:didAcceptInvite:'
+    'body': 'player(${1:GKPlayer* player}, didAcceptInvite:${2:GKInvite* invite})'
+  'player:didCompleteChallenge:issuedByFriend:':
+    'prefix': 'player:didCompleteChallenge:issuedByFriend:'
+    'body': 'player(${1:GKPlayer* player}, didCompleteChallenge:${2:GKChallenge* challenge}, issuedByFriend:${3:GKPlayer* friendPlayer})'
+  'player:didReceiveChallenge:':
+    'prefix': 'player:didReceiveChallenge:'
+    'body': 'player(${1:GKPlayer* player}, didReceiveChallenge:${2:GKChallenge* challenge})'
+  'player:didRequestMatchWithPlayers:':
+    'prefix': 'player:didRequestMatchWithPlayers:'
+    'body': 'player(${1:GKPlayer* player}, didRequestMatchWithPlayers:${2:NSArray* playerIDsToInvite})'
+  'player:issuedChallengeWasCompleted:byFriend:':
+    'prefix': 'player:issuedChallengeWasCompleted:byFriend:'
+    'body': 'player(${1:GKPlayer* player}, issuedChallengeWasCompleted:${2:GKChallenge* challenge}, byFriend:${3:GKPlayer* friendPlayer})'
+  'player:matchEnded:':
+    'prefix': 'player:matchEnded:'
+    'body': 'player(${1:GKPlayer* player}, matchEnded:${2:GKTurnBasedMatch* match})'
+  'player:receivedExchangeCancellation:forMatch:':
+    'prefix': 'player:receivedExchangeCancellation:forMatch:'
+    'body': 'player(${1:GKPlayer* player}, receivedExchangeCancellation:${2:GKTurnBasedExchange* exchange}, forMatch:${3:GKTurnBasedMatch* match})'
+  'player:receivedExchangeReplies:forCompletedExchange:forMatch:':
+    'prefix': 'player:receivedExchangeReplies:forCompletedExchange:forMatch:'
+    'body': 'player(${1:GKPlayer* player}, receivedExchangeReplies:${2:NSArray* replies}, forCompletedExchange:${3:GKTurnBasedExchange* exchange}, forMatch:${4:GKTurnBasedMatch* match})'
+  'player:receivedExchangeRequest:forMatch:':
+    'prefix': 'player:receivedExchangeRequest:forMatch:'
+    'body': 'player(${1:GKPlayer* player}, receivedExchangeRequest:${2:GKTurnBasedExchange* exchange}, forMatch:${3:GKTurnBasedMatch* match})'
+  'player:receivedTurnEventForMatch:didBecomeActive:':
+    'prefix': 'player:receivedTurnEventForMatch:didBecomeActive:'
+    'body': 'player(${1:GKPlayer* player}, receivedTurnEventForMatch:${2:GKTurnBasedMatch* match}, didBecomeActive:${3:BOOL didBecomeActive})'
+  'player:wantsToPlayChallenge:':
+    'prefix': 'player:wantsToPlayChallenge:'
+    'body': 'player(${1:GKPlayer* player}, wantsToPlayChallenge:${2:GKChallenge* challenge})'
+  'remotePlayerDidCompleteChallenge:':
+    'prefix': 'remotePlayerDidCompleteChallenge:'
+    'body': 'remotePlayerDidCompleteChallenge(${1:GKChallenge* challenge})'
+  'session:connectionWithPeerFailed:withError:':
+    'prefix': 'session:connectionWithPeerFailed:withError:'
+    'body': 'session(${1:GKSession* session}, connectionWithPeerFailed:${2:NSString* peerID}, withError:${3:NSError* error})'
+  'session:didFailWithError:':
+    'prefix': 'session:didFailWithError:'
+    'body': 'session(${1:GKSession* session}, didFailWithError:${2:NSError* error})'
+  'session:didReceiveConnectionRequestFromPeer:':
+    'prefix': 'session:didReceiveConnectionRequestFromPeer:'
+    'body': 'session(${1:GKSession* session}, didReceiveConnectionRequestFromPeer:${2:NSString* peerID})'
+  'session:peer:didChangeState:':
+    'prefix': 'session:peer:didChangeState:'
+    'body': 'session(${1:GKSession* session}, peer:${2:NSString* peerID}, didChangeState:${3:GKPeerConnectionState state})'
+  'shouldShowBannerForLocallyCompletedChallenge:':
+    'prefix': 'shouldShowBannerForLocallyCompletedChallenge:'
+    'body': 'shouldShowBannerForLocallyCompletedChallenge(${1:GKChallenge* challenge})'
+  'shouldShowBannerForLocallyReceivedChallenge:':
+    'prefix': 'shouldShowBannerForLocallyReceivedChallenge:'
+    'body': 'shouldShowBannerForLocallyReceivedChallenge(${1:GKChallenge* challenge})'
+  'shouldShowBannerForRemotelyCompletedChallenge:':
+    'prefix': 'shouldShowBannerForRemotelyCompletedChallenge:'
+    'body': 'shouldShowBannerForRemotelyCompletedChallenge(${1:GKChallenge* challenge})'
+  'turnBasedMatchmakerViewController:didFailWithError:':
+    'prefix': 'turnBasedMatchmakerViewController:didFailWithError:'
+    'body': 'turnBasedMatchmakerViewController(${1:GKTurnBasedMatchmakerViewController* viewController}, didFailWithError:${2:NSError* error})'
+  'turnBasedMatchmakerViewController:didFindMatch:':
+    'prefix': 'turnBasedMatchmakerViewController:didFindMatch:'
+    'body': 'turnBasedMatchmakerViewController(${1:GKTurnBasedMatchmakerViewController* viewController}, didFindMatch:${2:GKTurnBasedMatch* match})'
+  'turnBasedMatchmakerViewController:playerQuitForMatch:':
+    'prefix': 'turnBasedMatchmakerViewController:playerQuitForMatch:'
+    'body': 'turnBasedMatchmakerViewController(${1:GKTurnBasedMatchmakerViewController* viewController}, playerQuitForMatch:${2:GKTurnBasedMatch* match})'
+  'turnBasedMatchmakerViewControllerWasCancelled:':
+    'prefix': 'turnBasedMatchmakerViewControllerWasCancelled:'
+    'body': 'turnBasedMatchmakerViewControllerWasCancelled(${1:GKTurnBasedMatchmakerViewController* viewController})'
+  'voiceChatService:didNotStartWithParticipantID:error:':
+    'prefix': 'voiceChatService:didNotStartWithParticipantID:error:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didNotStartWithParticipantID:${2:NSString* participantID}, error:${3:NSError* error})'
+  'voiceChatService:didReceiveInvitationFromParticipantID:callID:':
+    'prefix': 'voiceChatService:didReceiveInvitationFromParticipantID:callID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didReceiveInvitationFromParticipantID:${2:NSString* participantID}, callID:${3:NSInteger callID})'
+  'voiceChatService:didStartWithParticipantID:':
+    'prefix': 'voiceChatService:didStartWithParticipantID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didStartWithParticipantID:${2:NSString* participantID})'
+  'voiceChatService:didStopWithParticipantID:error:':
+    'prefix': 'voiceChatService:didStopWithParticipantID:error:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didStopWithParticipantID:${2:NSString* participantID}, error:${3:NSError* error})'
+  'voiceChatService:sendData:toParticipantID:':
+    'prefix': 'voiceChatService:sendData:toParticipantID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, sendData:${2:NSData* data}, toParticipantID:${3:NSString* participantID})'
+  'voiceChatService:sendRealTimeData:toParticipantID:':
+    'prefix': 'voiceChatService:sendRealTimeData:toParticipantID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, sendRealTimeData:${2:NSData* data}, toParticipantID:${3:NSString* participantID})'
+  'achievementViewControllerDidFinish:':
+    'prefix': 'achievementViewControllerDidFinish:'
+    'body': 'achievementViewControllerDidFinish(${1:GKAchievementViewController* viewController})'
+  'localPlayerDidCompleteChallenge:':
+    'prefix': 'localPlayerDidCompleteChallenge:'
+    'body': 'localPlayerDidCompleteChallenge(${1:GKChallenge* challenge})'
+  'localPlayerDidReceiveChallenge:':
+    'prefix': 'localPlayerDidReceiveChallenge:'
+    'body': 'localPlayerDidReceiveChallenge(${1:GKChallenge* challenge})'
+  'localPlayerDidSelectChallenge:':
+    'prefix': 'localPlayerDidSelectChallenge:'
+    'body': 'localPlayerDidSelectChallenge(${1:GKChallenge* challenge})'
+  'remotePlayerDidCompleteChallenge:':
+    'prefix': 'remotePlayerDidCompleteChallenge:'
+    'body': 'remotePlayerDidCompleteChallenge(${1:GKChallenge* challenge})'
+  'shouldShowBannerForLocallyCompletedChallenge:':
+    'prefix': 'shouldShowBannerForLocallyCompletedChallenge:'
+    'body': 'shouldShowBannerForLocallyCompletedChallenge(${1:GKChallenge* challenge})'
+  'shouldShowBannerForLocallyReceivedChallenge:':
+    'prefix': 'shouldShowBannerForLocallyReceivedChallenge:'
+    'body': 'shouldShowBannerForLocallyReceivedChallenge(${1:GKChallenge* challenge})'
+  'shouldShowBannerForRemotelyCompletedChallenge:':
+    'prefix': 'shouldShowBannerForRemotelyCompletedChallenge:'
+    'body': 'shouldShowBannerForRemotelyCompletedChallenge(${1:GKChallenge* challenge})'
+  'player:didCompleteChallenge:issuedByFriend:':
+    'prefix': 'player:didCompleteChallenge:issuedByFriend:'
+    'body': 'player(${1:GKPlayer* player}, didCompleteChallenge:${2:GKChallenge* challenge}, issuedByFriend:${3:GKPlayer* friendPlayer})'
+  'player:didReceiveChallenge:':
+    'prefix': 'player:didReceiveChallenge:'
+    'body': 'player(${1:GKPlayer* player}, didReceiveChallenge:${2:GKChallenge* challenge})'
+  'player:issuedChallengeWasCompleted:byFriend:':
+    'prefix': 'player:issuedChallengeWasCompleted:byFriend:'
+    'body': 'player(${1:GKPlayer* player}, issuedChallengeWasCompleted:${2:GKChallenge* challenge}, byFriend:${3:GKPlayer* friendPlayer})'
+  'player:wantsToPlayChallenge:':
+    'prefix': 'player:wantsToPlayChallenge:'
+    'body': 'player(${1:GKPlayer* player}, wantsToPlayChallenge:${2:GKChallenge* challenge})'
+  'friendRequestComposeViewControllerDidFinish:':
+    'prefix': 'friendRequestComposeViewControllerDidFinish:'
+    'body': 'friendRequestComposeViewControllerDidFinish(${1:GKFriendRequestComposeViewController* viewController})'
+  'gameCenterViewControllerDidFinish:':
+    'prefix': 'gameCenterViewControllerDidFinish:'
+    'body': 'gameCenterViewControllerDidFinish(${1:GKGameCenterViewController* gameCenterViewController})'
+  'player:didAcceptInvite:':
+    'prefix': 'player:didAcceptInvite:'
+    'body': 'player(${1:GKPlayer* player}, didAcceptInvite:${2:GKInvite* invite})'
+  'player:didRequestMatchWithPlayers:':
+    'prefix': 'player:didRequestMatchWithPlayers:'
+    'body': 'player(${1:GKPlayer* player}, didRequestMatchWithPlayers:${2:NSArray* playerIDsToInvite})'
+  'leaderboardViewControllerDidFinish:':
+    'prefix': 'leaderboardViewControllerDidFinish:'
+    'body': 'leaderboardViewControllerDidFinish(${1:GKLeaderboardViewController* viewController})'
+  'match:didFailWithError:':
+    'prefix': 'match:didFailWithError:'
+    'body': 'match(${1:GKMatch* match}, didFailWithError:${2:NSError* error})'
+  'match:didReceiveData:fromPlayer:':
+    'prefix': 'match:didReceiveData:fromPlayer:'
+    'body': 'match(${1:GKMatch* match}, didReceiveData:${2:NSData* data}, fromPlayer:${3:NSString* playerID})'
+  'match:player:didChangeState:':
+    'prefix': 'match:player:didChangeState:'
+    'body': 'match(${1:GKMatch* match}, player:${2:NSString* playerID}, didChangeState:${3:GKPlayerConnectionState state})'
+  'match:shouldReinvitePlayer:':
+    'prefix': 'match:shouldReinvitePlayer:'
+    'body': 'match(${1:GKMatch* match}, shouldReinvitePlayer:${2:NSString* playerID})'
+  'matchmakerViewController:didFailWithError:':
+    'prefix': 'matchmakerViewController:didFailWithError:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didFailWithError:${2:NSError* error})'
+  'matchmakerViewController:didFindMatch:':
+    'prefix': 'matchmakerViewController:didFindMatch:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didFindMatch:${2:GKMatch* match})'
+  'matchmakerViewController:didFindPlayers:':
+    'prefix': 'matchmakerViewController:didFindPlayers:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didFindPlayers:${2:NSArray* playerIDs})'
+  'matchmakerViewController:didReceiveAcceptFromHostedPlayer:':
+    'prefix': 'matchmakerViewController:didReceiveAcceptFromHostedPlayer:'
+    'body': 'matchmakerViewController(${1:GKMatchmakerViewController* viewController}, didReceiveAcceptFromHostedPlayer:${2:NSString* playerID})'
+  'matchmakerViewControllerWasCancelled:':
+    'prefix': 'matchmakerViewControllerWasCancelled:'
+    'body': 'matchmakerViewControllerWasCancelled(${1:GKMatchmakerViewController* viewController})'
+  'peerPickerController:didConnectPeer:toSession:':
+    'prefix': 'peerPickerController:didConnectPeer:toSession:'
+    'body': 'peerPickerController(${1:GKPeerPickerController* picker}, didConnectPeer:${2:NSString* peerID}, toSession:${3:GKSession* session})'
+  'peerPickerController:didSelectConnectionType:':
+    'prefix': 'peerPickerController:didSelectConnectionType:'
+    'body': 'peerPickerController(${1:GKPeerPickerController* picker}, didSelectConnectionType:${2:GKPeerPickerConnectionType type})'
+  'peerPickerController:sessionForConnectionType:':
+    'prefix': 'peerPickerController:sessionForConnectionType:'
+    'body': 'peerPickerController(${1:GKPeerPickerController* picker}, sessionForConnectionType:${2:GKPeerPickerConnectionType type})'
+  'peerPickerControllerDidCancel:':
+    'prefix': 'peerPickerControllerDidCancel:'
+    'body': 'peerPickerControllerDidCancel(${1:GKPeerPickerController* picker})'
+  'session:connectionWithPeerFailed:withError:':
+    'prefix': 'session:connectionWithPeerFailed:withError:'
+    'body': 'session(${1:GKSession* session}, connectionWithPeerFailed:${2:NSString* peerID}, withError:${3:NSError* error})'
+  'session:didFailWithError:':
+    'prefix': 'session:didFailWithError:'
+    'body': 'session(${1:GKSession* session}, didFailWithError:${2:NSError* error})'
+  'session:didReceiveConnectionRequestFromPeer:':
+    'prefix': 'session:didReceiveConnectionRequestFromPeer:'
+    'body': 'session(${1:GKSession* session}, didReceiveConnectionRequestFromPeer:${2:NSString* peerID})'
+  'session:peer:didChangeState:':
+    'prefix': 'session:peer:didChangeState:'
+    'body': 'session(${1:GKSession* session}, peer:${2:NSString* peerID}, didChangeState:${3:GKPeerConnectionState state})'
+  'handleInviteFromGameCenter:':
+    'prefix': 'handleInviteFromGameCenter:'
+    'body': 'handleInviteFromGameCenter(${1:NSArray* playersToInvite})'
+  'handleMatchEnded:':
+    'prefix': 'handleMatchEnded:'
+    'body': 'handleMatchEnded(${1:GKTurnBasedMatch* match})'
+  'handleTurnEventForMatch:':
+    'prefix': 'handleTurnEventForMatch:'
+    'body': 'handleTurnEventForMatch(${1:GKTurnBasedMatch* match})'
+  'handleTurnEventForMatch:didBecomeActive:':
+    'prefix': 'handleTurnEventForMatch:didBecomeActive:'
+    'body': 'handleTurnEventForMatch(${1:GKTurnBasedMatch* match}, didBecomeActive:${2:BOOL didBecomeActive})'
+  'player:didRequestMatchWithPlayers:':
+    'prefix': 'player:didRequestMatchWithPlayers:'
+    'body': 'player(${1:GKPlayer* player}, didRequestMatchWithPlayers:${2:NSArray* playerIDsToInvite})'
+  'player:matchEnded:':
+    'prefix': 'player:matchEnded:'
+    'body': 'player(${1:GKPlayer* player}, matchEnded:${2:GKTurnBasedMatch* match})'
+  'player:receivedExchangeCancellation:forMatch:':
+    'prefix': 'player:receivedExchangeCancellation:forMatch:'
+    'body': 'player(${1:GKPlayer* player}, receivedExchangeCancellation:${2:GKTurnBasedExchange* exchange}, forMatch:${3:GKTurnBasedMatch* match})'
+  'player:receivedExchangeReplies:forCompletedExchange:forMatch:':
+    'prefix': 'player:receivedExchangeReplies:forCompletedExchange:forMatch:'
+    'body': 'player(${1:GKPlayer* player}, receivedExchangeReplies:${2:NSArray* replies}, forCompletedExchange:${3:GKTurnBasedExchange* exchange}, forMatch:${4:GKTurnBasedMatch* match})'
+  'player:receivedExchangeRequest:forMatch:':
+    'prefix': 'player:receivedExchangeRequest:forMatch:'
+    'body': 'player(${1:GKPlayer* player}, receivedExchangeRequest:${2:GKTurnBasedExchange* exchange}, forMatch:${3:GKTurnBasedMatch* match})'
+  'player:receivedTurnEventForMatch:didBecomeActive:':
+    'prefix': 'player:receivedTurnEventForMatch:didBecomeActive:'
+    'body': 'player(${1:GKPlayer* player}, receivedTurnEventForMatch:${2:GKTurnBasedMatch* match}, didBecomeActive:${3:BOOL didBecomeActive})'
+  'turnBasedMatchmakerViewController:didFailWithError:':
+    'prefix': 'turnBasedMatchmakerViewController:didFailWithError:'
+    'body': 'turnBasedMatchmakerViewController(${1:GKTurnBasedMatchmakerViewController* viewController}, didFailWithError:${2:NSError* error})'
+  'turnBasedMatchmakerViewController:didFindMatch:':
+    'prefix': 'turnBasedMatchmakerViewController:didFindMatch:'
+    'body': 'turnBasedMatchmakerViewController(${1:GKTurnBasedMatchmakerViewController* viewController}, didFindMatch:${2:GKTurnBasedMatch* match})'
+  'turnBasedMatchmakerViewController:playerQuitForMatch:':
+    'prefix': 'turnBasedMatchmakerViewController:playerQuitForMatch:'
+    'body': 'turnBasedMatchmakerViewController(${1:GKTurnBasedMatchmakerViewController* viewController}, playerQuitForMatch:${2:GKTurnBasedMatch* match})'
+  'turnBasedMatchmakerViewControllerWasCancelled:':
+    'prefix': 'turnBasedMatchmakerViewControllerWasCancelled:'
+    'body': 'turnBasedMatchmakerViewControllerWasCancelled(${1:GKTurnBasedMatchmakerViewController* viewController})'
+  'participantID':
+    'prefix': 'participantID'
+    'body': 'participantID()'
+  'voiceChatService:didNotStartWithParticipantID:error:':
+    'prefix': 'voiceChatService:didNotStartWithParticipantID:error:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didNotStartWithParticipantID:${2:NSString* participantID}, error:${3:NSError* error})'
+  'voiceChatService:didReceiveInvitationFromParticipantID:callID:':
+    'prefix': 'voiceChatService:didReceiveInvitationFromParticipantID:callID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didReceiveInvitationFromParticipantID:${2:NSString* participantID}, callID:${3:NSInteger callID})'
+  'voiceChatService:didStartWithParticipantID:':
+    'prefix': 'voiceChatService:didStartWithParticipantID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didStartWithParticipantID:${2:NSString* participantID})'
+  'voiceChatService:didStopWithParticipantID:error:':
+    'prefix': 'voiceChatService:didStopWithParticipantID:error:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, didStopWithParticipantID:${2:NSString* participantID}, error:${3:NSError* error})'
+  'voiceChatService:sendData:toParticipantID:':
+    'prefix': 'voiceChatService:sendData:toParticipantID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, sendData:${2:NSData* data}, toParticipantID:${3:NSString* participantID})'
+  'voiceChatService:sendRealTimeData:toParticipantID:':
+    'prefix': 'voiceChatService:sendRealTimeData:toParticipantID:'
+    'body': 'voiceChatService(${1:GKVoiceChatService* voiceChatService}, sendRealTimeData:${2:NSData* data}, toParticipantID:${3:NSString* participantID})'
