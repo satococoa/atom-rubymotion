@@ -1,0 +1,6 @@
+'.editor':
+  'ctrl-cmd-space': 'rubymotion-autocomplete:toggle'
+
+'.autocomplete .mini.editor input':
+  'enter': 'core:confirm'
+  'tab': 'core:confirm'
