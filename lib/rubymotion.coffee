@@ -2,9 +2,6 @@ _ = require 'underscore-plus'
 RubyMotionAutocompleteView = require './rubymotion-autocomplete-view'
 
 module.exports =
-  configDefaults:
-    includeCompletionsFromAllBuffers: false
-
   autocompleteViews: []
   editorSubscription: null
   snippetPrefixes: []
