@@ -37,5 +37,4 @@ class RubyMotionAutocompleteView extends AutocompleteView
     @replaceSelectedTextWithMatch match
     position = @editor.getCursorBufferPosition()
     @editor.setCursorBufferPosition([position.row, position.column + match.suffix.length])
-    snippet = atom.syntax.propertiesForScope([".source.rubymotion"], "snippets.#{match.word}")[0].snippets[match.word]
-    @editorView.trigger 'snippets:expand' if snippet?
+    @editorView.trigger 'snippets:expand'

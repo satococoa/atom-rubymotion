@@ -8,8 +8,7 @@ RubyMotionAutocompleteView = require '../lib/rubymotion-autocomplete-view'
 _ = require 'underscore-plus'
 
 describe 'RubyMotion', ->
-
-  # see:  https://github.com/atom/autocomplete/blob/master/spec/autocomplete-spec.coffee
+  # see: https://github.com/atom/autocomplete
   describe 'autocompletion', ->
     [activationPromise] = []
 
@@ -70,3 +69,52 @@ describe 'RubyMotion', ->
           expect(
             atom.workspaceView.getActiveView().find('.autocomplete')
           ).not.toExist()
+
+describe "RubyMotionAutocompleteView", ->
+  [autocomplete, editorView, editor, miniEditor] = []
+
+  beforeEach ->
+    atom.workspaceView = new WorkspaceView
+    editorView = new EditorView(editor: atom.project.openSync('sample.rb'))
+    {editor} = editorView
+    autocomplete = new RubyMotionAutocompleteView(editorView)
+    miniEditor = autocomplete.filterEditorView
+
+  describe 'rubymotion-autocomplete:toggle event', ->
+    it "shows autocomplete view and focuses its mini-editor", ->
+      editorView.attachToDom()
+      expect(editorView.find('.autocomplete')).not.toExist()
+
+      editorView.trigger "rubymotion-autocomplete:toggle"
+      expect(editorView.find('.autocomplete')).toExist()
+      expect(autocomplete.editor.isFocused).toBeFalsy()
+      expect(autocomplete.filterEditorView.isFocused).toBeTruthy()
+
+    describe "autocompletion", ->
+      beforeEach ->
+        autocomplete.snippetPrefixes = [
+          'foo:'
+          'foo:bar:'
+        ]
+
+      it 'autocompletes word from snippetsPrefixes', ->
+        editor.getBuffer().insert([2,0] ,"fo")
+        editor.setCursorBufferPosition([2,2])
+        autocomplete.attach()
+
+        expect(editor.lineForBufferRow(2)).toBe 'foo:'
+        expect(editor.getCursorBufferPosition()).toEqual [2,4]
+        expect(editor.getSelection().getBufferRange()).toEqual [[2,2], [2,4]]
+
+        expect(autocomplete.list.find('li').length).toBe 2
+
+      it 'expands snippet after confirm autocompleted word', ->
+        spyOn(editorView, 'trigger').andCallThrough()
+        expect(editorView.trigger).not.toHaveBeenCalled()
+        
+        editor.getBuffer().insert([2,0] ,"fo")
+        editor.setCursorBufferPosition([2,2])
+        autocomplete.attach()
+
+        editorView.trigger 'core:confirm'
+        expect(editorView.trigger).toHaveBeenCalled()
