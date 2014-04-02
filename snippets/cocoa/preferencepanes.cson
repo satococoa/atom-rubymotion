@@ -1,0 +1,94 @@
+'.source.rubymotion':
+  'NSPrefPaneHelpMenuAnchorKey (NSString*)':
+    'prefix': 'NSPrefPaneHelpMenuAnchorKey'
+    'body': 'NSPrefPaneHelpMenuAnchorKey'
+  'NSPrefPaneHelpMenuInfoPListKey (NSString*)':
+    'prefix': 'NSPrefPaneHelpMenuInfoPListKey'
+    'body': 'NSPrefPaneHelpMenuInfoPListKey'
+  'NSPrefPaneHelpMenuTitleKey (NSString*)':
+    'prefix': 'NSPrefPaneHelpMenuTitleKey'
+    'body': 'NSPrefPaneHelpMenuTitleKey'
+  'NSPreferencePaneCancelUnselectNotification (NSString*)':
+    'prefix': 'NSPreferencePaneCancelUnselectNotification'
+    'body': 'NSPreferencePaneCancelUnselectNotification'
+  'NSPreferencePaneDoUnselectNotification (NSString*)':
+    'prefix': 'NSPreferencePaneDoUnselectNotification'
+    'body': 'NSPreferencePaneDoUnselectNotification'
+  'NSUnselectCancel (0)':
+    'prefix': 'NSUnselectCancel'
+    'body': 'NSUnselectCancel'
+  'NSUnselectLater (2)':
+    'prefix': 'NSUnselectLater'
+    'body': 'NSUnselectLater'
+  'NSUnselectNow (1)':
+    'prefix': 'NSUnselectNow'
+    'body': 'NSUnselectNow'
+  'assignMainView':
+    'prefix': 'assignMainView'
+    'body': 'assignMainView()'
+  'autoSaveTextFields':
+    'prefix': 'autoSaveTextFields'
+    'body': 'autoSaveTextFields()'
+  'bundle':
+    'prefix': 'bundle'
+    'body': 'bundle()'
+  'didSelect':
+    'prefix': 'didSelect'
+    'body': 'didSelect()'
+  'didUnselect':
+    'prefix': 'didUnselect'
+    'body': 'didUnselect()'
+  'firstKeyView':
+    'prefix': 'firstKeyView'
+    'body': 'firstKeyView()'
+  'initWithBundle:':
+    'prefix': 'initWithBundle:'
+    'body': 'initWithBundle(${1:NSBundle* bundle})'
+  'initialKeyView':
+    'prefix': 'initialKeyView'
+    'body': 'initialKeyView()'
+  'isSelected':
+    'prefix': 'isSelected'
+    'body': 'isSelected()'
+  'lastKeyView':
+    'prefix': 'lastKeyView'
+    'body': 'lastKeyView()'
+  'loadMainView':
+    'prefix': 'loadMainView'
+    'body': 'loadMainView()'
+  'mainNibName':
+    'prefix': 'mainNibName'
+    'body': 'mainNibName()'
+  'mainView':
+    'prefix': 'mainView'
+    'body': 'mainView()'
+  'mainViewDidLoad':
+    'prefix': 'mainViewDidLoad'
+    'body': 'mainViewDidLoad()'
+  'replyToShouldUnselect:':
+    'prefix': 'replyToShouldUnselect:'
+    'body': 'replyToShouldUnselect(${1:BOOL shouldUnselect})'
+  'setFirstKeyView:':
+    'prefix': 'setFirstKeyView:'
+    'body': 'setFirstKeyView(${1:NSView* view})'
+  'setInitialKeyView:':
+    'prefix': 'setInitialKeyView:'
+    'body': 'setInitialKeyView(${1:NSView* view})'
+  'setLastKeyView:':
+    'prefix': 'setLastKeyView:'
+    'body': 'setLastKeyView(${1:NSView* view})'
+  'setMainView:':
+    'prefix': 'setMainView:'
+    'body': 'setMainView(${1:NSView* view})'
+  'shouldUnselect':
+    'prefix': 'shouldUnselect'
+    'body': 'shouldUnselect()'
+  'updateHelpMenuWithArray:':
+    'prefix': 'updateHelpMenuWithArray:'
+    'body': 'updateHelpMenuWithArray(${1:NSArray* inArrayOfMenuItems})'
+  'willSelect':
+    'prefix': 'willSelect'
+    'body': 'willSelect()'
+  'willUnselect':
+    'prefix': 'willUnselect'
+    'body': 'willUnselect()'

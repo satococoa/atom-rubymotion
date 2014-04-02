@@ -1,0 +1,118 @@
+'.source.rubymotion':
+  'MAMediaCharacteristicDescribesMusicAndSoundForAccessibility (CFStringRef)':
+    'prefix': 'MAMediaCharacteristicDescribesMusicAndSoundForAccessibility'
+    'body': 'MAMediaCharacteristicDescribesMusicAndSoundForAccessibility'
+  'MAMediaCharacteristicTranscribesSpokenDialogForAccessibility (CFStringRef)':
+    'prefix': 'MAMediaCharacteristicTranscribesSpokenDialogForAccessibility'
+    'body': 'MAMediaCharacteristicTranscribesSpokenDialogForAccessibility'
+  'kMACaptionAppearanceSettingsChangedNotification (CFStringRef)':
+    'prefix': 'kMACaptionAppearanceSettingsChangedNotification'
+    'body': 'KMACaptionAppearanceSettingsChangedNotification'
+  'kMACaptionAppearanceBehaviorUseContentIfAvailable (1)':
+    'prefix': 'kMACaptionAppearanceBehaviorUseContentIfAvailable'
+    'body': 'KMACaptionAppearanceBehaviorUseContentIfAvailable'
+  'kMACaptionAppearanceBehaviorUseValue (0)':
+    'prefix': 'kMACaptionAppearanceBehaviorUseValue'
+    'body': 'KMACaptionAppearanceBehaviorUseValue'
+  'kMACaptionAppearanceDisplayTypeAlwaysOn (2)':
+    'prefix': 'kMACaptionAppearanceDisplayTypeAlwaysOn'
+    'body': 'KMACaptionAppearanceDisplayTypeAlwaysOn'
+  'kMACaptionAppearanceDisplayTypeAutomatic (1)':
+    'prefix': 'kMACaptionAppearanceDisplayTypeAutomatic'
+    'body': 'KMACaptionAppearanceDisplayTypeAutomatic'
+  'kMACaptionAppearanceDisplayTypeForcedOnly (0)':
+    'prefix': 'kMACaptionAppearanceDisplayTypeForcedOnly'
+    'body': 'KMACaptionAppearanceDisplayTypeForcedOnly'
+  'kMACaptionAppearanceDomainDefault (0)':
+    'prefix': 'kMACaptionAppearanceDomainDefault'
+    'body': 'KMACaptionAppearanceDomainDefault'
+  'kMACaptionAppearanceDomainUser (1)':
+    'prefix': 'kMACaptionAppearanceDomainUser'
+    'body': 'KMACaptionAppearanceDomainUser'
+  'kMACaptionAppearanceFontStyleCasual (5)':
+    'prefix': 'kMACaptionAppearanceFontStyleCasual'
+    'body': 'KMACaptionAppearanceFontStyleCasual'
+  'kMACaptionAppearanceFontStyleCursive (6)':
+    'prefix': 'kMACaptionAppearanceFontStyleCursive'
+    'body': 'KMACaptionAppearanceFontStyleCursive'
+  'kMACaptionAppearanceFontStyleDefault (0)':
+    'prefix': 'kMACaptionAppearanceFontStyleDefault'
+    'body': 'KMACaptionAppearanceFontStyleDefault'
+  'kMACaptionAppearanceFontStyleMonospacedWithSerif (1)':
+    'prefix': 'kMACaptionAppearanceFontStyleMonospacedWithSerif'
+    'body': 'KMACaptionAppearanceFontStyleMonospacedWithSerif'
+  'kMACaptionAppearanceFontStyleMonospacedWithoutSerif (3)':
+    'prefix': 'kMACaptionAppearanceFontStyleMonospacedWithoutSerif'
+    'body': 'KMACaptionAppearanceFontStyleMonospacedWithoutSerif'
+  'kMACaptionAppearanceFontStyleProportionalWithSerif (2)':
+    'prefix': 'kMACaptionAppearanceFontStyleProportionalWithSerif'
+    'body': 'KMACaptionAppearanceFontStyleProportionalWithSerif'
+  'kMACaptionAppearanceFontStyleProportionalWithoutSerif (4)':
+    'prefix': 'kMACaptionAppearanceFontStyleProportionalWithoutSerif'
+    'body': 'KMACaptionAppearanceFontStyleProportionalWithoutSerif'
+  'kMACaptionAppearanceFontStyleSmallCapital (7)':
+    'prefix': 'kMACaptionAppearanceFontStyleSmallCapital'
+    'body': 'KMACaptionAppearanceFontStyleSmallCapital'
+  'kMACaptionAppearanceTextEdgeStyleDepressed (3)':
+    'prefix': 'kMACaptionAppearanceTextEdgeStyleDepressed'
+    'body': 'KMACaptionAppearanceTextEdgeStyleDepressed'
+  'kMACaptionAppearanceTextEdgeStyleDropShadow (5)':
+    'prefix': 'kMACaptionAppearanceTextEdgeStyleDropShadow'
+    'body': 'KMACaptionAppearanceTextEdgeStyleDropShadow'
+  'kMACaptionAppearanceTextEdgeStyleNone (1)':
+    'prefix': 'kMACaptionAppearanceTextEdgeStyleNone'
+    'body': 'KMACaptionAppearanceTextEdgeStyleNone'
+  'kMACaptionAppearanceTextEdgeStyleRaised (2)':
+    'prefix': 'kMACaptionAppearanceTextEdgeStyleRaised'
+    'body': 'KMACaptionAppearanceTextEdgeStyleRaised'
+  'kMACaptionAppearanceTextEdgeStyleUndefined (0)':
+    'prefix': 'kMACaptionAppearanceTextEdgeStyleUndefined'
+    'body': 'KMACaptionAppearanceTextEdgeStyleUndefined'
+  'kMACaptionAppearanceTextEdgeStyleUniform (4)':
+    'prefix': 'kMACaptionAppearanceTextEdgeStyleUniform'
+    'body': 'KMACaptionAppearanceTextEdgeStyleUniform'
+  'MACaptionAppearanceAddSelectedLanguage':
+    'prefix': 'MACaptionAppearanceAddSelectedLanguage'
+    'body': 'MACaptionAppearanceAddSelectedLanguage(${1:MACaptionAppearanceDomain domain}, ${2:CFStringRef language})'
+  'MACaptionAppearanceCopyBackgroundColor':
+    'prefix': 'MACaptionAppearanceCopyBackgroundColor'
+    'body': 'MACaptionAppearanceCopyBackgroundColor(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceCopyFontDescriptorForStyle':
+    'prefix': 'MACaptionAppearanceCopyFontDescriptorForStyle'
+    'body': 'MACaptionAppearanceCopyFontDescriptorForStyle(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior}, ${3:MACaptionAppearanceFontStyle fontStyle})'
+  'MACaptionAppearanceCopyForegroundColor':
+    'prefix': 'MACaptionAppearanceCopyForegroundColor'
+    'body': 'MACaptionAppearanceCopyForegroundColor(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics':
+    'prefix': 'MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics'
+    'body': 'MACaptionAppearanceCopyPreferredCaptioningMediaCharacteristics(${1:MACaptionAppearanceDomain domain})'
+  'MACaptionAppearanceCopySelectedLanguages':
+    'prefix': 'MACaptionAppearanceCopySelectedLanguages'
+    'body': 'MACaptionAppearanceCopySelectedLanguages(${1:MACaptionAppearanceDomain domain})'
+  'MACaptionAppearanceCopyWindowColor':
+    'prefix': 'MACaptionAppearanceCopyWindowColor'
+    'body': 'MACaptionAppearanceCopyWindowColor(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceGetBackgroundOpacity':
+    'prefix': 'MACaptionAppearanceGetBackgroundOpacity'
+    'body': 'MACaptionAppearanceGetBackgroundOpacity(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceGetDisplayType':
+    'prefix': 'MACaptionAppearanceGetDisplayType'
+    'body': 'MACaptionAppearanceGetDisplayType(${1:MACaptionAppearanceDomain domain})'
+  'MACaptionAppearanceGetForegroundOpacity':
+    'prefix': 'MACaptionAppearanceGetForegroundOpacity'
+    'body': 'MACaptionAppearanceGetForegroundOpacity(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceGetRelativeCharacterSize':
+    'prefix': 'MACaptionAppearanceGetRelativeCharacterSize'
+    'body': 'MACaptionAppearanceGetRelativeCharacterSize(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceGetTextEdgeStyle':
+    'prefix': 'MACaptionAppearanceGetTextEdgeStyle'
+    'body': 'MACaptionAppearanceGetTextEdgeStyle(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceGetWindowOpacity':
+    'prefix': 'MACaptionAppearanceGetWindowOpacity'
+    'body': 'MACaptionAppearanceGetWindowOpacity(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceGetWindowRoundedCornerRadius':
+    'prefix': 'MACaptionAppearanceGetWindowRoundedCornerRadius'
+    'body': 'MACaptionAppearanceGetWindowRoundedCornerRadius(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceBehavior* behavior})'
+  'MACaptionAppearanceSetDisplayType':
+    'prefix': 'MACaptionAppearanceSetDisplayType'
+    'body': 'MACaptionAppearanceSetDisplayType(${1:MACaptionAppearanceDomain domain}, ${2:MACaptionAppearanceDisplayType displayType})'

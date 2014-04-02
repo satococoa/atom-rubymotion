@@ -1,0 +1,190 @@
+'.source.rubymotion':
+  'kNAUIOptionAllowUI (AllowUI)':
+    'prefix': 'kNAUIOptionAllowUI'
+    'body': 'KNAUIOptionAllowUI'
+  'kNAUIOptionForceUI (ForceUI)':
+    'prefix': 'kNAUIOptionForceUI'
+    'body': 'KNAUIOptionForceUI'
+  'kNAUIOptionKey (UIOption)':
+    'prefix': 'kNAUIOptionKey'
+    'body': 'KNAUIOptionKey'
+  'kNAUIOptionNoUI (NoUI)':
+    'prefix': 'kNAUIOptionNoUI'
+    'body': 'KNAUIOptionNoUI'
+  'kNetFSAccessRightsKey (AccessRights)':
+    'prefix': 'kNetFSAccessRightsKey'
+    'body': 'KNetFSAccessRightsKey'
+  'kNetFSAllowLoopbackKey (AllowLoopback)':
+    'prefix': 'kNetFSAllowLoopbackKey'
+    'body': 'KNetFSAllowLoopbackKey'
+  'kNetFSAllowSubMountsKey (AllowSubMounts)':
+    'prefix': 'kNetFSAllowSubMountsKey'
+    'body': 'KNetFSAllowSubMountsKey'
+  'kNetFSAlreadyMountedKey (AlreadyMounted)':
+    'prefix': 'kNetFSAlreadyMountedKey'
+    'body': 'KNetFSAlreadyMountedKey'
+  'kNetFSAlternatePortKey (AlternatePort)':
+    'prefix': 'kNetFSAlternatePortKey'
+    'body': 'KNetFSAlternatePortKey'
+  'kNetFSAuthenticationInfoKey (AuthenticationInfo)':
+    'prefix': 'kNetFSAuthenticationInfoKey'
+    'body': 'KNetFSAuthenticationInfoKey'
+  'kNetFSAuthorityParamsKey (AuthorityParams)':
+    'prefix': 'kNetFSAuthorityParamsKey'
+    'body': 'KNetFSAuthorityParamsKey'
+  'kNetFSChangePasswordKey (ChangePassword)':
+    'prefix': 'kNetFSChangePasswordKey'
+    'body': 'KNetFSChangePasswordKey'
+  'kNetFSConnectedAsGuestKey (MountedByGuest)':
+    'prefix': 'kNetFSConnectedAsGuestKey'
+    'body': 'KNetFSConnectedAsGuestKey'
+  'kNetFSConnectedAsUserKey (MountedByUser)':
+    'prefix': 'kNetFSConnectedAsUserKey'
+    'body': 'KNetFSConnectedAsUserKey'
+  'kNetFSConnectedMultiUserKey (ConnectedMultiUser)':
+    'prefix': 'kNetFSConnectedMultiUserKey'
+    'body': 'KNetFSConnectedMultiUserKey'
+  'kNetFSConnectedWithAuthenticationInfoKey (ConnectedWithAuthenticationInfo)':
+    'prefix': 'kNetFSConnectedWithAuthenticationInfoKey'
+    'body': 'KNetFSConnectedWithAuthenticationInfoKey'
+  'kNetFSDisplayNameKey (DisplayName)':
+    'prefix': 'kNetFSDisplayNameKey'
+    'body': 'KNetFSDisplayNameKey'
+  'kNetFSForceNewSessionKey (ForceNewSession)':
+    'prefix': 'kNetFSForceNewSessionKey'
+    'body': 'KNetFSForceNewSessionKey'
+  'kNetFSGetAccessRightsKey (GetAccessRights)':
+    'prefix': 'kNetFSGetAccessRightsKey'
+    'body': 'KNetFSGetAccessRightsKey'
+  'kNetFSGuestOnlyKey (GuestOnly)':
+    'prefix': 'kNetFSGuestOnlyKey'
+    'body': 'KNetFSGuestOnlyKey'
+  'kNetFSHasPasswordKey (HasPassword)':
+    'prefix': 'kNetFSHasPasswordKey'
+    'body': 'KNetFSHasPasswordKey'
+  'kNetFSHostKey (Host)':
+    'prefix': 'kNetFSHostKey'
+    'body': 'KNetFSHostKey'
+  'kNetFSIsHiddenKey (IsHidden)':
+    'prefix': 'kNetFSIsHiddenKey'
+    'body': 'KNetFSIsHiddenKey'
+  'kNetFSMechTypesSupportedKey (MechTypesSupported)':
+    'prefix': 'kNetFSMechTypesSupportedKey'
+    'body': 'KNetFSMechTypesSupportedKey'
+  'kNetFSMountAtMountDirKey (MountAtMountDir)':
+    'prefix': 'kNetFSMountAtMountDirKey'
+    'body': 'KNetFSMountAtMountDirKey'
+  'kNetFSMountFlagsKey (MountFlags)':
+    'prefix': 'kNetFSMountFlagsKey'
+    'body': 'KNetFSMountFlagsKey'
+  'kNetFSMountPathKey (MountPath)':
+    'prefix': 'kNetFSMountPathKey'
+    'body': 'KNetFSMountPathKey'
+  'kNetFSMountedByGuestKey (MountedByGuest)':
+    'prefix': 'kNetFSMountedByGuestKey'
+    'body': 'KNetFSMountedByGuestKey'
+  'kNetFSMountedByKerberosKey (MountedByKerberos)':
+    'prefix': 'kNetFSMountedByKerberosKey'
+    'body': 'KNetFSMountedByKerberosKey'
+  'kNetFSMountedByUserKey (MountedByUser)':
+    'prefix': 'kNetFSMountedByUserKey'
+    'body': 'KNetFSMountedByUserKey'
+  'kNetFSMountedMultiUserKey (MountedMultiUser)':
+    'prefix': 'kNetFSMountedMultiUserKey'
+    'body': 'KNetFSMountedMultiUserKey'
+  'kNetFSMountedURLKey (MountedURL)':
+    'prefix': 'kNetFSMountedURLKey'
+    'body': 'KNetFSMountedURLKey'
+  'kNetFSMountedWithAuthenticationInfoKey (MountedWithAuthenticationInfo)':
+    'prefix': 'kNetFSMountedWithAuthenticationInfoKey'
+    'body': 'KNetFSMountedWithAuthenticationInfoKey'
+  'kNetFSNoMountAuthenticationKey (NoMountAuthentication)':
+    'prefix': 'kNetFSNoMountAuthenticationKey'
+    'body': 'KNetFSNoMountAuthenticationKey'
+  'kNetFSNoUserPreferencesKey (NoUserPreferences)':
+    'prefix': 'kNetFSNoUserPreferencesKey'
+    'body': 'KNetFSNoUserPreferencesKey'
+  'kNetFSPasswordKey (Password)':
+    'prefix': 'kNetFSPasswordKey'
+    'body': 'KNetFSPasswordKey'
+  'kNetFSPathKey (Path)':
+    'prefix': 'kNetFSPathKey'
+    'body': 'KNetFSPathKey'
+  'kNetFSPrinterShareKey (PrinterShare)':
+    'prefix': 'kNetFSPrinterShareKey'
+    'body': 'KNetFSPrinterShareKey'
+  'kNetFSSchemeKey (Scheme)':
+    'prefix': 'kNetFSSchemeKey'
+    'body': 'KNetFSSchemeKey'
+  'kNetFSServerDisplayNameKey (ServerDisplayName)':
+    'prefix': 'kNetFSServerDisplayNameKey'
+    'body': 'KNetFSServerDisplayNameKey'
+  'kNetFSSoftMountKey (SoftMount)':
+    'prefix': 'kNetFSSoftMountKey'
+    'body': 'KNetFSSoftMountKey'
+  'kNetFSSupportsChangePasswordKey (SupportsChangePassword)':
+    'prefix': 'kNetFSSupportsChangePasswordKey'
+    'body': 'KNetFSSupportsChangePasswordKey'
+  'kNetFSSupportsGuestKey (SupportsGuest)':
+    'prefix': 'kNetFSSupportsGuestKey'
+    'body': 'KNetFSSupportsGuestKey'
+  'kNetFSSupportsKerberosKey (SupportsKerberos)':
+    'prefix': 'kNetFSSupportsKerberosKey'
+    'body': 'KNetFSSupportsKerberosKey'
+  'kNetFSUseAuthenticationInfoKey (UseAuthenticationInfo)':
+    'prefix': 'kNetFSUseAuthenticationInfoKey'
+    'body': 'KNetFSUseAuthenticationInfoKey'
+  'kNetFSUseGuestKey (Guest)':
+    'prefix': 'kNetFSUseGuestKey'
+    'body': 'KNetFSUseGuestKey'
+  'kNetFSUseKerberosKey (Kerberos)':
+    'prefix': 'kNetFSUseKerberosKey'
+    'body': 'KNetFSUseKerberosKey'
+  'kNetFSUserNameKey (UserName)':
+    'prefix': 'kNetFSUserNameKey'
+    'body': 'KNetFSUserNameKey'
+  'ENETFSACCOUNTRESTRICTED (-5999)':
+    'prefix': 'ENETFSACCOUNTRESTRICTED'
+    'body': 'ENETFSACCOUNTRESTRICTED'
+  'ENETFSNOAUTHMECHSUPP (-5997)':
+    'prefix': 'ENETFSNOAUTHMECHSUPP'
+    'body': 'ENETFSNOAUTHMECHSUPP'
+  'ENETFSNOPROTOVERSSUPP (-5996)':
+    'prefix': 'ENETFSNOPROTOVERSSUPP'
+    'body': 'ENETFSNOPROTOVERSSUPP'
+  'ENETFSNOSHARESAVAIL (-5998)':
+    'prefix': 'ENETFSNOSHARESAVAIL'
+    'body': 'ENETFSNOSHARESAVAIL'
+  'ENETFSPWDNEEDSCHANGE (-5045)':
+    'prefix': 'ENETFSPWDNEEDSCHANGE'
+    'body': 'ENETFSPWDNEEDSCHANGE'
+  'ENETFSPWDPOLICY (-5046)':
+    'prefix': 'ENETFSPWDPOLICY'
+    'body': 'ENETFSPWDPOLICY'
+  'NetFSCFStringtoCString':
+    'prefix': 'NetFSCFStringtoCString'
+    'body': 'NetFSCFStringtoCString(${1:CFStringRef })'
+  'NetFSInterface_AddRef':
+    'prefix': 'NetFSInterface_AddRef'
+    'body': 'NetFSInterface_AddRef(${1:void* })'
+  'NetFSInterface_Release':
+    'prefix': 'NetFSInterface_Release'
+    'body': 'NetFSInterface_Release(${1:void* })'
+  'NetFSMountURLAsync':
+    'prefix': 'NetFSMountURLAsync'
+    'body': 'NetFSMountURLAsync(${1:CFURLRef url}, ${2:CFURLRef mountpath}, ${3:CFStringRef user}, ${4:CFStringRef passwd}, ${5:CFMutableDictionaryRef open_options}, ${6:CFMutableDictionaryRef mount_options}, ${7:AsyncRequestID* requestID}, ${8:dispatch_queue_t dispatchq}, ${9:NetFSMountURLBlock mount_report})'
+  'NetFSMountURLCancel':
+    'prefix': 'NetFSMountURLCancel'
+    'body': 'NetFSMountURLCancel(${1:AsyncRequestID requestID})'
+  'NetFSMountURLProbe':
+    'prefix': 'NetFSMountURLProbe'
+    'body': 'NetFSMountURLProbe(${1:CFStringRef hostname})'
+  'NetFSMountURLSync':
+    'prefix': 'NetFSMountURLSync'
+    'body': 'NetFSMountURLSync(${1:CFURLRef url}, ${2:CFURLRef mountpath}, ${3:CFStringRef user}, ${4:CFStringRef passwd}, ${5:CFMutableDictionaryRef open_options}, ${6:CFMutableDictionaryRef mount_options}, ${7:CFArrayRef* mountpoints})'
+  'NetFSQueryInterface':
+    'prefix': 'NetFSQueryInterface'
+    'body': 'NetFSQueryInterface(${1:void* }, ${2:REFIID iid}, ${3:LPVOID* ppv})'
+  'NetFS_CreateInterface':
+    'prefix': 'NetFS_CreateInterface'
+    'body': 'NetFS_CreateInterface(${1:CFUUIDRef factoryID}, ${2:void* interfaceFTbl})'

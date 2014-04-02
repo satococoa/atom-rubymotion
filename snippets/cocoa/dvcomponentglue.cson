@@ -1,0 +1,364 @@
+'.source.rubymotion':
+  'kDeviceControlDoAVCTransactionSelect (1)':
+    'prefix': 'kDeviceControlDoAVCTransactionSelect'
+    'body': 'KDeviceControlDoAVCTransactionSelect'
+  'kIDHCancelNotificationSelect (12)':
+    'prefix': 'kIDHCancelNotificationSelect'
+    'body': 'KIDHCancelNotificationSelect'
+  'kIDHCancelPendingIOSelect (15)':
+    'prefix': 'kIDHCancelPendingIOSelect'
+    'body': 'KIDHCancelPendingIOSelect'
+  'kIDHCloseDeviceSelect (7)':
+    'prefix': 'kIDHCloseDeviceSelect'
+    'body': 'KIDHCloseDeviceSelect'
+  'kIDHCloseForReadTransactions (16)':
+    'prefix': 'kIDHCloseForReadTransactions'
+    'body': 'KIDHCloseForReadTransactions'
+  'kIDHCloseForWriteTransactions (32)':
+    'prefix': 'kIDHCloseForWriteTransactions'
+    'body': 'KIDHCloseForWriteTransactions'
+  'kIDHComponentType (1768451186)':
+    'prefix': 'kIDHComponentType'
+    'body': 'KIDHComponentType'
+  'kIDHDVCPro_25 (30)':
+    'prefix': 'kIDHDVCPro_25'
+    'body': 'KIDHDVCPro_25'
+  'kIDHDVCPro_50 (29)':
+    'prefix': 'kIDHDVCPro_50'
+    'body': 'KIDHDVCPro_50'
+  'kIDHDV_HD (2)':
+    'prefix': 'kIDHDV_HD'
+    'body': 'KIDHDV_HD'
+  'kIDHDV_SD (0)':
+    'prefix': 'kIDHDV_SD'
+    'body': 'KIDHDV_SD'
+  'kIDHDV_SDL (1)':
+    'prefix': 'kIDHDV_SDL'
+    'body': 'KIDHDV_SDL'
+  'kIDHDataBufferSizeAtomType (1684174182)':
+    'prefix': 'kIDHDataBufferSizeAtomType'
+    'body': 'KIDHDataBufferSizeAtomType'
+  'kIDHDataIODirectionAtomType (1684302194)':
+    'prefix': 'kIDHDataIODirectionAtomType'
+    'body': 'KIDHDataIODirectionAtomType'
+  'kIDHDataIntervalAtomType (1768846454)':
+    'prefix': 'kIDHDataIntervalAtomType'
+    'body': 'KIDHDataIntervalAtomType'
+  'kIDHDataSizeAtomType (1685285242)':
+    'prefix': 'kIDHDataSizeAtomType'
+    'body': 'KIDHDataSizeAtomType'
+  'kIDHDataTypeAtomType (1685354864)':
+    'prefix': 'kIDHDataTypeAtomType'
+    'body': 'KIDHDataTypeAtomType'
+  'kIDHDataTypeIsInput (1)':
+    'prefix': 'kIDHDataTypeIsInput'
+    'body': 'KIDHDataTypeIsInput'
+  'kIDHDataTypeIsInputAndOutput (4)':
+    'prefix': 'kIDHDataTypeIsInputAndOutput'
+    'body': 'KIDHDataTypeIsInputAndOutput'
+  'kIDHDataTypeIsOutput (2)':
+    'prefix': 'kIDHDataTypeIsOutput'
+    'body': 'KIDHDataTypeIsOutput'
+  'kIDHDefaultIOType (1684433263)':
+    'prefix': 'kIDHDefaultIOType'
+    'body': 'KIDHDefaultIOType'
+  'kIDHDeviceAtomType (1684371043)':
+    'prefix': 'kIDHDeviceAtomType'
+    'body': 'KIDHDeviceAtomType'
+  'kIDHDeviceIDEveryDevice (-1)':
+    'prefix': 'kIDHDeviceIDEveryDevice'
+    'body': 'KIDHDeviceIDEveryDevice'
+  'kIDHDeviceIDType (1685481828)':
+    'prefix': 'kIDHDeviceIDType'
+    'body': 'KIDHDeviceIDType'
+  'kIDHDeviceListAtomType (1684829044)':
+    'prefix': 'kIDHDeviceListAtomType'
+    'body': 'KIDHDeviceListAtomType'
+  'kIDHDisposeNotificationSelect (13)':
+    'prefix': 'kIDHDisposeNotificationSelect'
+    'body': 'KIDHDisposeNotificationSelect'
+  'kIDHErrCallNotSupported (-14116)':
+    'prefix': 'kIDHErrCallNotSupported'
+    'body': 'KIDHErrCallNotSupported'
+  'kIDHErrCompletionPending (-14111)':
+    'prefix': 'kIDHErrCompletionPending'
+    'body': 'KIDHErrCompletionPending'
+  'kIDHErrDeviceBusy (-14106)':
+    'prefix': 'kIDHErrDeviceBusy'
+    'body': 'KIDHErrDeviceBusy'
+  'kIDHErrDeviceCantRead (-14114)':
+    'prefix': 'kIDHErrDeviceCantRead'
+    'body': 'KIDHErrDeviceCantRead'
+  'kIDHErrDeviceCantWrite (-14115)':
+    'prefix': 'kIDHErrDeviceCantWrite'
+    'body': 'KIDHErrDeviceCantWrite'
+  'kIDHErrDeviceDisconnected (-14101)':
+    'prefix': 'kIDHErrDeviceDisconnected'
+    'body': 'KIDHErrDeviceDisconnected'
+  'kIDHErrDeviceInUse (-14104)':
+    'prefix': 'kIDHErrDeviceInUse'
+    'body': 'KIDHErrDeviceInUse'
+  'kIDHErrDeviceList (-14110)':
+    'prefix': 'kIDHErrDeviceList'
+    'body': 'KIDHErrDeviceList'
+  'kIDHErrDeviceNotConfigured (-14109)':
+    'prefix': 'kIDHErrDeviceNotConfigured'
+    'body': 'KIDHErrDeviceNotConfigured'
+  'kIDHErrDeviceNotOpened (-14105)':
+    'prefix': 'kIDHErrDeviceNotOpened'
+    'body': 'KIDHErrDeviceNotOpened'
+  'kIDHErrDeviceReadError (-14107)':
+    'prefix': 'kIDHErrDeviceReadError'
+    'body': 'KIDHErrDeviceReadError'
+  'kIDHErrDeviceTimeout (-14112)':
+    'prefix': 'kIDHErrDeviceTimeout'
+    'body': 'KIDHErrDeviceTimeout'
+  'kIDHErrDeviceWriteError (-14108)':
+    'prefix': 'kIDHErrDeviceWriteError'
+    'body': 'KIDHErrDeviceWriteError'
+  'kIDHErrInvalidDeviceID (-14102)':
+    'prefix': 'kIDHErrInvalidDeviceID'
+    'body': 'KIDHErrInvalidDeviceID'
+  'kIDHErrInvalidIndex (-14113)':
+    'prefix': 'kIDHErrInvalidIndex'
+    'body': 'KIDHErrInvalidIndex'
+  'kIDHEventDeviceAdded (1)':
+    'prefix': 'kIDHEventDeviceAdded'
+    'body': 'KIDHEventDeviceAdded'
+  'kIDHEventDeviceChanged (4)':
+    'prefix': 'kIDHEventDeviceChanged'
+    'body': 'KIDHEventDeviceChanged'
+  'kIDHEventDeviceRemoved (2)':
+    'prefix': 'kIDHEventDeviceRemoved'
+    'body': 'KIDHEventDeviceRemoved'
+  'kIDHEventEveryEvent (4294967295)':
+    'prefix': 'kIDHEventEveryEvent'
+    'body': 'KIDHEventEveryEvent'
+  'kIDHEventFrameDropped (16)':
+    'prefix': 'kIDHEventFrameDropped'
+    'body': 'KIDHEventFrameDropped'
+  'kIDHEventInvalid (0)':
+    'prefix': 'kIDHEventInvalid'
+    'body': 'KIDHEventInvalid'
+  'kIDHEventReadDisabled (32)':
+    'prefix': 'kIDHEventReadDisabled'
+    'body': 'KIDHEventReadDisabled'
+  'kIDHEventReadEnabled (8)':
+    'prefix': 'kIDHEventReadEnabled'
+    'body': 'KIDHEventReadEnabled'
+  'kIDHEventReserved2 (128)':
+    'prefix': 'kIDHEventReserved2'
+    'body': 'KIDHEventReserved2'
+  'kIDHEventWriteDisabled (256)':
+    'prefix': 'kIDHEventWriteDisabled'
+    'body': 'KIDHEventWriteDisabled'
+  'kIDHEventWriteEnabled (64)':
+    'prefix': 'kIDHEventWriteEnabled'
+    'body': 'KIDHEventWriteEnabled'
+  'kIDHGetDeviceClockSelect (5)':
+    'prefix': 'kIDHGetDeviceClockSelect'
+    'body': 'KIDHGetDeviceClockSelect'
+  'kIDHGetDeviceConfigurationSelect (2)':
+    'prefix': 'kIDHGetDeviceConfigurationSelect'
+    'body': 'KIDHGetDeviceConfigurationSelect'
+  'kIDHGetDeviceControlSelect (16)':
+    'prefix': 'kIDHGetDeviceControlSelect'
+    'body': 'KIDHGetDeviceControlSelect'
+  'kIDHGetDeviceListSelect (1)':
+    'prefix': 'kIDHGetDeviceListSelect'
+    'body': 'KIDHGetDeviceListSelect'
+  'kIDHGetDeviceStatusSelect (4)':
+    'prefix': 'kIDHGetDeviceStatusSelect'
+    'body': 'KIDHGetDeviceStatusSelect'
+  'kIDHGetDeviceTimeSelect (18)':
+    'prefix': 'kIDHGetDeviceTimeSelect'
+    'body': 'KIDHGetDeviceTimeSelect'
+  'kIDHGetFormatSelect (20)':
+    'prefix': 'kIDHGetFormatSelect'
+    'body': 'KIDHGetFormatSelect'
+  'kIDHInterfaceVersion1 (1)':
+    'prefix': 'kIDHInterfaceVersion1'
+    'body': 'KIDHInterfaceVersion1'
+  'kIDHInvalidDeviceID (0)':
+    'prefix': 'kIDHInvalidDeviceID'
+    'body': 'KIDHInvalidDeviceID'
+  'kIDHIsochMediaType (1635131424)':
+    'prefix': 'kIDHIsochMediaType'
+    'body': 'KIDHIsochMediaType'
+  'kIDHIsochModeAtomType (1836016741)':
+    'prefix': 'kIDHIsochModeAtomType'
+    'body': 'KIDHIsochModeAtomType'
+  'kIDHIsochServiceAtomType (1769172835)':
+    'prefix': 'kIDHIsochServiceAtomType'
+    'body': 'KIDHIsochServiceAtomType'
+  'kIDHIsochVersionAtomType (1769366898)':
+    'prefix': 'kIDHIsochVersionAtomType'
+    'body': 'KIDHIsochVersionAtomType'
+  'kIDHNameAtomType (1851878757)':
+    'prefix': 'kIDHNameAtomType'
+    'body': 'KIDHNameAtomType'
+  'kIDHNewNotificationSelect (10)':
+    'prefix': 'kIDHNewNotificationSelect'
+    'body': 'KIDHNewNotificationSelect'
+  'kIDHNotifyMeWhenSelect (11)':
+    'prefix': 'kIDHNotifyMeWhenSelect'
+    'body': 'KIDHNotifyMeWhenSelect'
+  'kIDHOpenDeviceSelect (6)':
+    'prefix': 'kIDHOpenDeviceSelect'
+    'body': 'KIDHOpenDeviceSelect'
+  'kIDHOpenForReadTransactions (1)':
+    'prefix': 'kIDHOpenForReadTransactions'
+    'body': 'KIDHOpenForReadTransactions'
+  'kIDHOpenForWriteTransactions (2)':
+    'prefix': 'kIDHOpenForWriteTransactions'
+    'body': 'KIDHOpenForWriteTransactions'
+  'kIDHOpenWithExclusiveAccess (4)':
+    'prefix': 'kIDHOpenWithExclusiveAccess'
+    'body': 'KIDHOpenWithExclusiveAccess'
+  'kIDHOpenWithHeldBuffers (8)':
+    'prefix': 'kIDHOpenWithHeldBuffers'
+    'body': 'KIDHOpenWithHeldBuffers'
+  'kIDHReadSelect (8)':
+    'prefix': 'kIDHReadSelect'
+    'body': 'KIDHReadSelect'
+  'kIDHReleaseBufferSelect (14)':
+    'prefix': 'kIDHReleaseBufferSelect'
+    'body': 'KIDHReleaseBufferSelect'
+  'kIDHSetDeviceConfigurationSelect (3)':
+    'prefix': 'kIDHSetDeviceConfigurationSelect'
+    'body': 'KIDHSetDeviceConfigurationSelect'
+  'kIDHSetFormatSelect (19)':
+    'prefix': 'kIDHSetFormatSelect'
+    'body': 'KIDHSetFormatSelect'
+  'kIDHSoundChannelCountAtomType (1667460724)':
+    'prefix': 'kIDHSoundChannelCountAtomType'
+    'body': 'KIDHSoundChannelCountAtomType'
+  'kIDHSoundMediaAtomType (1936684398)':
+    'prefix': 'kIDHSoundMediaAtomType'
+    'body': 'KIDHSoundMediaAtomType'
+  'kIDHSoundSampleRateAtomType (1936875892)':
+    'prefix': 'kIDHSoundSampleRateAtomType'
+    'body': 'KIDHSoundSampleRateAtomType'
+  'kIDHSoundSampleSizeAtomType (1936943482)':
+    'prefix': 'kIDHSoundSampleSizeAtomType'
+    'body': 'KIDHSoundSampleSizeAtomType'
+  'kIDHSoundTypeAtomType (1954115685)':
+    'prefix': 'kIDHSoundTypeAtomType'
+    'body': 'KIDHSoundTypeAtomType'
+  'kIDHSubtypeDV (1685463072)':
+    'prefix': 'kIDHSubtypeDV'
+    'body': 'KIDHSubtypeDV'
+  'kIDHSubtypeFireWireConference (1719100192)':
+    'prefix': 'kIDHSubtypeFireWireConference'
+    'body': 'KIDHSubtypeFireWireConference'
+  'kIDHUniqueIDType (1970170212)':
+    'prefix': 'kIDHUniqueIDType'
+    'body': 'KIDHUniqueIDType'
+  'kIDHUpdateDeviceListSelect (17)':
+    'prefix': 'kIDHUpdateDeviceListSelect'
+    'body': 'KIDHUpdateDeviceListSelect'
+  'kIDHUseCMPAtomType (1969450352)':
+    'prefix': 'kIDHUseCMPAtomType'
+    'body': 'KIDHUseCMPAtomType'
+  'kIDHVideoDecompressorAtomType (1684366191)':
+    'prefix': 'kIDHVideoDecompressorAtomType'
+    'body': 'KIDHVideoDecompressorAtomType'
+  'kIDHVideoDecompressorComponentAtomType (1668116596)':
+    'prefix': 'kIDHVideoDecompressorComponentAtomType'
+    'body': 'KIDHVideoDecompressorComponentAtomType'
+  'kIDHVideoDecompressorContinuousAtomType (1668247156)':
+    'prefix': 'kIDHVideoDecompressorContinuousAtomType'
+    'body': 'KIDHVideoDecompressorContinuousAtomType'
+  'kIDHVideoDecompressorTypeAtomType (1684370553)':
+    'prefix': 'kIDHVideoDecompressorTypeAtomType'
+    'body': 'KIDHVideoDecompressorTypeAtomType'
+  'kIDHVideoDimensionsAtomType (1684630894)':
+    'prefix': 'kIDHVideoDimensionsAtomType'
+    'body': 'KIDHVideoDimensionsAtomType'
+  'kIDHVideoMediaAtomType (1986618469)':
+    'prefix': 'kIDHVideoMediaAtomType'
+    'body': 'KIDHVideoMediaAtomType'
+  'kIDHVideoPixelTypeAtomType (1885960300)':
+    'prefix': 'kIDHVideoPixelTypeAtomType'
+    'body': 'KIDHVideoPixelTypeAtomType'
+  'kIDHVideoRefreshRateAtomType (1919247986)':
+    'prefix': 'kIDHVideoRefreshRateAtomType'
+    'body': 'KIDHVideoRefreshRateAtomType'
+  'kIDHVideoResolutionAtomType (1919251308)':
+    'prefix': 'kIDHVideoResolutionAtomType'
+    'body': 'KIDHVideoResolutionAtomType'
+  'kIDHWriteSelect (9)':
+    'prefix': 'kIDHWriteSelect'
+    'body': 'KIDHWriteSelect'
+  'DeviceControlDoAVCTransaction':
+    'prefix': 'DeviceControlDoAVCTransaction'
+    'body': 'DeviceControlDoAVCTransaction(${1:ComponentInstance instance}, ${2:DVCTransactionParams* params})'
+  'DisposeIDHNotificationUPP':
+    'prefix': 'DisposeIDHNotificationUPP'
+    'body': 'DisposeIDHNotificationUPP(${1:IDHNotificationUPP userUPP})'
+  'IDHCancelNotification':
+    'prefix': 'IDHCancelNotification'
+    'body': 'IDHCancelNotification(${1:ComponentInstance idh}, ${2:IDHNotificationID notificationID})'
+  'IDHCancelPendingIO':
+    'prefix': 'IDHCancelPendingIO'
+    'body': 'IDHCancelPendingIO(${1:ComponentInstance idh}, ${2:IDHParameterBlock* pb})'
+  'IDHCloseDevice':
+    'prefix': 'IDHCloseDevice'
+    'body': 'IDHCloseDevice(${1:ComponentInstance idh})'
+  'IDHDisposeNotification':
+    'prefix': 'IDHDisposeNotification'
+    'body': 'IDHDisposeNotification(${1:ComponentInstance idh}, ${2:IDHNotificationID notificationID})'
+  'IDHGetDeviceClock':
+    'prefix': 'IDHGetDeviceClock'
+    'body': 'IDHGetDeviceClock(${1:ComponentInstance idh}, ${2:Component* clock})'
+  'IDHGetDeviceConfiguration':
+    'prefix': 'IDHGetDeviceConfiguration'
+    'body': 'IDHGetDeviceConfiguration(${1:ComponentInstance idh}, ${2:QTAtomSpec* configurationID})'
+  'IDHGetDeviceControl':
+    'prefix': 'IDHGetDeviceControl'
+    'body': 'IDHGetDeviceControl(${1:ComponentInstance idh}, ${2:ComponentInstance* deviceControl})'
+  'IDHGetDeviceList':
+    'prefix': 'IDHGetDeviceList'
+    'body': 'IDHGetDeviceList(${1:ComponentInstance idh}, ${2:QTAtomContainer* deviceList})'
+  'IDHGetDeviceStatus':
+    'prefix': 'IDHGetDeviceStatus'
+    'body': 'IDHGetDeviceStatus(${1:ComponentInstance idh}, ${2:QTAtomSpec* configurationID}, ${3:IDHDeviceStatus* status})'
+  'IDHGetDeviceTime':
+    'prefix': 'IDHGetDeviceTime'
+    'body': 'IDHGetDeviceTime(${1:ComponentInstance idh}, ${2:TimeRecord* deviceTime})'
+  'IDHGetFormat':
+    'prefix': 'IDHGetFormat'
+    'body': 'IDHGetFormat(${1:ComponentInstance idh}, ${2:UInt32* format})'
+  'IDHNewNotification':
+    'prefix': 'IDHNewNotification'
+    'body': 'IDHNewNotification(${1:ComponentInstance idh}, ${2:IDHDeviceID deviceID}, ${3:IDHNotificationUPP notificationProc}, ${4:void* userData}, ${5:IDHNotificationID* notificationID})'
+  'IDHNotifyMeWhen':
+    'prefix': 'IDHNotifyMeWhen'
+    'body': 'IDHNotifyMeWhen(${1:ComponentInstance idh}, ${2:IDHNotificationID notificationID}, ${3:IDHEvent events})'
+  'IDHOpenDevice':
+    'prefix': 'IDHOpenDevice'
+    'body': 'IDHOpenDevice(${1:ComponentInstance idh}, ${2:UInt32 permissions})'
+  'IDHRead':
+    'prefix': 'IDHRead'
+    'body': 'IDHRead(${1:ComponentInstance idh}, ${2:IDHParameterBlock* pb})'
+  'IDHReleaseBuffer':
+    'prefix': 'IDHReleaseBuffer'
+    'body': 'IDHReleaseBuffer(${1:ComponentInstance idh}, ${2:IDHParameterBlock* pb})'
+  'IDHSetDeviceConfiguration':
+    'prefix': 'IDHSetDeviceConfiguration'
+    'body': 'IDHSetDeviceConfiguration(${1:ComponentInstance idh}, ${2:QTAtomSpec* configurationID})'
+  'IDHSetFormat':
+    'prefix': 'IDHSetFormat'
+    'body': 'IDHSetFormat(${1:ComponentInstance idh}, ${2:UInt32 format})'
+  'IDHUpdateDeviceList':
+    'prefix': 'IDHUpdateDeviceList'
+    'body': 'IDHUpdateDeviceList(${1:ComponentInstance idh}, ${2:QTAtomContainer* deviceList})'
+  'IDHWrite':
+    'prefix': 'IDHWrite'
+    'body': 'IDHWrite(${1:ComponentInstance idh}, ${2:IDHParameterBlock* pb})'
+  'InvokeIDHNotificationUPP':
+    'prefix': 'InvokeIDHNotificationUPP'
+    'body': 'InvokeIDHNotificationUPP(${1:IDHGenericEvent* event}, ${2:void* userData}, ${3:IDHNotificationUPP userUPP})'
+  'NewIDHNotificationUPP':
+    'prefix': 'NewIDHNotificationUPP'
+    'body': 'NewIDHNotificationUPP(${1:IDHNotificationProcPtr userRoutine})'

@@ -1,0 +1,31 @@
+'.source.rubymotion':
+  'SFAuthorization.authorization':
+    'prefix': 'authorization'
+    'body': 'SFAuthorization.authorization()'
+  'authorizationRef':
+    'prefix': 'authorizationRef'
+    'body': 'authorizationRef()'
+  'SFAuthorization.authorizationWithFlags:rights:environment:':
+    'prefix': 'authorizationWithFlags:rights:environment:'
+    'body': 'SFAuthorization.authorizationWithFlags(${1:AuthorizationFlags flags}, rights:${2:AuthorizationRights* rights}, environment:${3:AuthorizationEnvironment* environment})'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithFlags:rights:environment:':
+    'prefix': 'initWithFlags:rights:environment:'
+    'body': 'initWithFlags(${1:AuthorizationFlags flags}, rights:${2:AuthorizationRights* rights}, environment:${3:AuthorizationEnvironment* environment})'
+  'invalidateCredentials':
+    'prefix': 'invalidateCredentials'
+    'body': 'invalidateCredentials()'
+  'obtainWithRight:flags:error:':
+    'prefix': 'obtainWithRight:flags:error:'
+    'body': 'obtainWithRight(${1:AuthorizationString rightName}, flags:${2:AuthorizationFlags flags}, error:${3:NSError** error})'
+  'obtainWithRights:flags:environment:authorizedRights:error:':
+    'prefix': 'obtainWithRights:flags:environment:authorizedRights:error:'
+    'body': 'obtainWithRights(${1:AuthorizationRights* rights}, flags:${2:AuthorizationFlags flags}, environment:${3:AuthorizationEnvironment* environment}, authorizedRights:${4:AuthorizationRights** authorizedRights}, error:${5:NSError** error})'
+  'permitWithRight:flags:':
+    'prefix': 'permitWithRight:flags:'
+    'body': 'permitWithRight(${1:AuthorizationString rightName}, flags:${2:AuthorizationFlags flags})'
+  'permitWithRights:flags:environment:authorizedRights:':
+    'prefix': 'permitWithRights:flags:environment:authorizedRights:'
+    'body': 'permitWithRights(${1:AuthorizationRights* rights}, flags:${2:AuthorizationFlags flags}, environment:${3:AuthorizationEnvironment* environment}, authorizedRights:${4:AuthorizationRights* authorizedRights})'

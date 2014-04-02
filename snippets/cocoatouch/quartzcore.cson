@@ -1,0 +1,1750 @@
+'.source.rubymotion':
+  'CATransform3DIdentity (CATransform3D)':
+    'prefix': 'CATransform3DIdentity'
+    'body': 'CATransform3DIdentity'
+  'kCAAlignmentCenter (NSString*)':
+    'prefix': 'kCAAlignmentCenter'
+    'body': 'KCAAlignmentCenter'
+  'kCAAlignmentJustified (NSString*)':
+    'prefix': 'kCAAlignmentJustified'
+    'body': 'KCAAlignmentJustified'
+  'kCAAlignmentLeft (NSString*)':
+    'prefix': 'kCAAlignmentLeft'
+    'body': 'KCAAlignmentLeft'
+  'kCAAlignmentNatural (NSString*)':
+    'prefix': 'kCAAlignmentNatural'
+    'body': 'KCAAlignmentNatural'
+  'kCAAlignmentRight (NSString*)':
+    'prefix': 'kCAAlignmentRight'
+    'body': 'KCAAlignmentRight'
+  'kCAAnimationCubic (NSString*)':
+    'prefix': 'kCAAnimationCubic'
+    'body': 'KCAAnimationCubic'
+  'kCAAnimationCubicPaced (NSString*)':
+    'prefix': 'kCAAnimationCubicPaced'
+    'body': 'KCAAnimationCubicPaced'
+  'kCAAnimationDiscrete (NSString*)':
+    'prefix': 'kCAAnimationDiscrete'
+    'body': 'KCAAnimationDiscrete'
+  'kCAAnimationLinear (NSString*)':
+    'prefix': 'kCAAnimationLinear'
+    'body': 'KCAAnimationLinear'
+  'kCAAnimationPaced (NSString*)':
+    'prefix': 'kCAAnimationPaced'
+    'body': 'KCAAnimationPaced'
+  'kCAAnimationRotateAuto (NSString*)':
+    'prefix': 'kCAAnimationRotateAuto'
+    'body': 'KCAAnimationRotateAuto'
+  'kCAAnimationRotateAutoReverse (NSString*)':
+    'prefix': 'kCAAnimationRotateAutoReverse'
+    'body': 'KCAAnimationRotateAutoReverse'
+  'kCAEmitterBehaviorAlignToMotion (NSString*)':
+    'prefix': 'kCAEmitterBehaviorAlignToMotion'
+    'body': 'KCAEmitterBehaviorAlignToMotion'
+  'kCAEmitterBehaviorAttractor (NSString*)':
+    'prefix': 'kCAEmitterBehaviorAttractor'
+    'body': 'KCAEmitterBehaviorAttractor'
+  'kCAEmitterBehaviorColorOverLife (NSString*)':
+    'prefix': 'kCAEmitterBehaviorColorOverLife'
+    'body': 'KCAEmitterBehaviorColorOverLife'
+  'kCAEmitterBehaviorDrag (NSString*)':
+    'prefix': 'kCAEmitterBehaviorDrag'
+    'body': 'KCAEmitterBehaviorDrag'
+  'kCAEmitterBehaviorLight (NSString*)':
+    'prefix': 'kCAEmitterBehaviorLight'
+    'body': 'KCAEmitterBehaviorLight'
+  'kCAEmitterBehaviorValueOverLife (NSString*)':
+    'prefix': 'kCAEmitterBehaviorValueOverLife'
+    'body': 'KCAEmitterBehaviorValueOverLife'
+  'kCAEmitterBehaviorWave (NSString*)':
+    'prefix': 'kCAEmitterBehaviorWave'
+    'body': 'KCAEmitterBehaviorWave'
+  'kCAEmitterLayerAdditive (NSString*)':
+    'prefix': 'kCAEmitterLayerAdditive'
+    'body': 'KCAEmitterLayerAdditive'
+  'kCAEmitterLayerBackToFront (NSString*)':
+    'prefix': 'kCAEmitterLayerBackToFront'
+    'body': 'KCAEmitterLayerBackToFront'
+  'kCAEmitterLayerCircle (NSString*)':
+    'prefix': 'kCAEmitterLayerCircle'
+    'body': 'KCAEmitterLayerCircle'
+  'kCAEmitterLayerCuboid (NSString*)':
+    'prefix': 'kCAEmitterLayerCuboid'
+    'body': 'KCAEmitterLayerCuboid'
+  'kCAEmitterLayerLine (NSString*)':
+    'prefix': 'kCAEmitterLayerLine'
+    'body': 'KCAEmitterLayerLine'
+  'kCAEmitterLayerOldestFirst (NSString*)':
+    'prefix': 'kCAEmitterLayerOldestFirst'
+    'body': 'KCAEmitterLayerOldestFirst'
+  'kCAEmitterLayerOldestLast (NSString*)':
+    'prefix': 'kCAEmitterLayerOldestLast'
+    'body': 'KCAEmitterLayerOldestLast'
+  'kCAEmitterLayerOutline (NSString*)':
+    'prefix': 'kCAEmitterLayerOutline'
+    'body': 'KCAEmitterLayerOutline'
+  'kCAEmitterLayerPoint (NSString*)':
+    'prefix': 'kCAEmitterLayerPoint'
+    'body': 'KCAEmitterLayerPoint'
+  'kCAEmitterLayerPoints (NSString*)':
+    'prefix': 'kCAEmitterLayerPoints'
+    'body': 'KCAEmitterLayerPoints'
+  'kCAEmitterLayerRectangle (NSString*)':
+    'prefix': 'kCAEmitterLayerRectangle'
+    'body': 'KCAEmitterLayerRectangle'
+  'kCAEmitterLayerSphere (NSString*)':
+    'prefix': 'kCAEmitterLayerSphere'
+    'body': 'KCAEmitterLayerSphere'
+  'kCAEmitterLayerSurface (NSString*)':
+    'prefix': 'kCAEmitterLayerSurface'
+    'body': 'KCAEmitterLayerSurface'
+  'kCAEmitterLayerUnordered (NSString*)':
+    'prefix': 'kCAEmitterLayerUnordered'
+    'body': 'KCAEmitterLayerUnordered'
+  'kCAEmitterLayerVolume (NSString*)':
+    'prefix': 'kCAEmitterLayerVolume'
+    'body': 'KCAEmitterLayerVolume'
+  'kCAFillModeBackwards (NSString*)':
+    'prefix': 'kCAFillModeBackwards'
+    'body': 'KCAFillModeBackwards'
+  'kCAFillModeBoth (NSString*)':
+    'prefix': 'kCAFillModeBoth'
+    'body': 'KCAFillModeBoth'
+  'kCAFillModeForwards (NSString*)':
+    'prefix': 'kCAFillModeForwards'
+    'body': 'KCAFillModeForwards'
+  'kCAFillModeFrozen (NSString*)':
+    'prefix': 'kCAFillModeFrozen'
+    'body': 'KCAFillModeFrozen'
+  'kCAFillModeRemoved (NSString*)':
+    'prefix': 'kCAFillModeRemoved'
+    'body': 'KCAFillModeRemoved'
+  'kCAFillRuleEvenOdd (NSString*)':
+    'prefix': 'kCAFillRuleEvenOdd'
+    'body': 'KCAFillRuleEvenOdd'
+  'kCAFillRuleNonZero (NSString*)':
+    'prefix': 'kCAFillRuleNonZero'
+    'body': 'KCAFillRuleNonZero'
+  'kCAFilterLinear (NSString*)':
+    'prefix': 'kCAFilterLinear'
+    'body': 'KCAFilterLinear'
+  'kCAFilterNearest (NSString*)':
+    'prefix': 'kCAFilterNearest'
+    'body': 'KCAFilterNearest'
+  'kCAFilterTrilinear (NSString*)':
+    'prefix': 'kCAFilterTrilinear'
+    'body': 'KCAFilterTrilinear'
+  'kCAGradientLayerAxial (NSString*)':
+    'prefix': 'kCAGradientLayerAxial'
+    'body': 'KCAGradientLayerAxial'
+  'kCAGravityBottom (NSString*)':
+    'prefix': 'kCAGravityBottom'
+    'body': 'KCAGravityBottom'
+  'kCAGravityBottomLeft (NSString*)':
+    'prefix': 'kCAGravityBottomLeft'
+    'body': 'KCAGravityBottomLeft'
+  'kCAGravityBottomRight (NSString*)':
+    'prefix': 'kCAGravityBottomRight'
+    'body': 'KCAGravityBottomRight'
+  'kCAGravityCenter (NSString*)':
+    'prefix': 'kCAGravityCenter'
+    'body': 'KCAGravityCenter'
+  'kCAGravityLeft (NSString*)':
+    'prefix': 'kCAGravityLeft'
+    'body': 'KCAGravityLeft'
+  'kCAGravityResize (NSString*)':
+    'prefix': 'kCAGravityResize'
+    'body': 'KCAGravityResize'
+  'kCAGravityResizeAspect (NSString*)':
+    'prefix': 'kCAGravityResizeAspect'
+    'body': 'KCAGravityResizeAspect'
+  'kCAGravityResizeAspectFill (NSString*)':
+    'prefix': 'kCAGravityResizeAspectFill'
+    'body': 'KCAGravityResizeAspectFill'
+  'kCAGravityRight (NSString*)':
+    'prefix': 'kCAGravityRight'
+    'body': 'KCAGravityRight'
+  'kCAGravityTop (NSString*)':
+    'prefix': 'kCAGravityTop'
+    'body': 'KCAGravityTop'
+  'kCAGravityTopLeft (NSString*)':
+    'prefix': 'kCAGravityTopLeft'
+    'body': 'KCAGravityTopLeft'
+  'kCAGravityTopRight (NSString*)':
+    'prefix': 'kCAGravityTopRight'
+    'body': 'KCAGravityTopRight'
+  'kCALineCapButt (NSString*)':
+    'prefix': 'kCALineCapButt'
+    'body': 'KCALineCapButt'
+  'kCALineCapRound (NSString*)':
+    'prefix': 'kCALineCapRound'
+    'body': 'KCALineCapRound'
+  'kCALineCapSquare (NSString*)':
+    'prefix': 'kCALineCapSquare'
+    'body': 'KCALineCapSquare'
+  'kCALineJoinBevel (NSString*)':
+    'prefix': 'kCALineJoinBevel'
+    'body': 'KCALineJoinBevel'
+  'kCALineJoinMiter (NSString*)':
+    'prefix': 'kCALineJoinMiter'
+    'body': 'KCALineJoinMiter'
+  'kCALineJoinRound (NSString*)':
+    'prefix': 'kCALineJoinRound'
+    'body': 'KCALineJoinRound'
+  'kCAMediaTimingFunctionDefault (NSString*)':
+    'prefix': 'kCAMediaTimingFunctionDefault'
+    'body': 'KCAMediaTimingFunctionDefault'
+  'kCAMediaTimingFunctionEaseIn (NSString*)':
+    'prefix': 'kCAMediaTimingFunctionEaseIn'
+    'body': 'KCAMediaTimingFunctionEaseIn'
+  'kCAMediaTimingFunctionEaseInEaseOut (NSString*)':
+    'prefix': 'kCAMediaTimingFunctionEaseInEaseOut'
+    'body': 'KCAMediaTimingFunctionEaseInEaseOut'
+  'kCAMediaTimingFunctionEaseOut (NSString*)':
+    'prefix': 'kCAMediaTimingFunctionEaseOut'
+    'body': 'KCAMediaTimingFunctionEaseOut'
+  'kCAMediaTimingFunctionLinear (NSString*)':
+    'prefix': 'kCAMediaTimingFunctionLinear'
+    'body': 'KCAMediaTimingFunctionLinear'
+  'kCAOnOrderIn (NSString*)':
+    'prefix': 'kCAOnOrderIn'
+    'body': 'KCAOnOrderIn'
+  'kCAOnOrderOut (NSString*)':
+    'prefix': 'kCAOnOrderOut'
+    'body': 'KCAOnOrderOut'
+  'kCAScrollBoth (NSString*)':
+    'prefix': 'kCAScrollBoth'
+    'body': 'KCAScrollBoth'
+  'kCAScrollHorizontally (NSString*)':
+    'prefix': 'kCAScrollHorizontally'
+    'body': 'KCAScrollHorizontally'
+  'kCAScrollNone (NSString*)':
+    'prefix': 'kCAScrollNone'
+    'body': 'KCAScrollNone'
+  'kCAScrollVertically (NSString*)':
+    'prefix': 'kCAScrollVertically'
+    'body': 'KCAScrollVertically'
+  'kCATransactionAnimationDuration (NSString*)':
+    'prefix': 'kCATransactionAnimationDuration'
+    'body': 'KCATransactionAnimationDuration'
+  'kCATransactionAnimationTimingFunction (NSString*)':
+    'prefix': 'kCATransactionAnimationTimingFunction'
+    'body': 'KCATransactionAnimationTimingFunction'
+  'kCATransactionCompletionBlock (NSString*)':
+    'prefix': 'kCATransactionCompletionBlock'
+    'body': 'KCATransactionCompletionBlock'
+  'kCATransactionDisableActions (NSString*)':
+    'prefix': 'kCATransactionDisableActions'
+    'body': 'KCATransactionDisableActions'
+  'kCATransition (NSString*)':
+    'prefix': 'kCATransition'
+    'body': 'KCATransition'
+  'kCATransitionFade (NSString*)':
+    'prefix': 'kCATransitionFade'
+    'body': 'KCATransitionFade'
+  'kCATransitionFromBottom (NSString*)':
+    'prefix': 'kCATransitionFromBottom'
+    'body': 'KCATransitionFromBottom'
+  'kCATransitionFromLeft (NSString*)':
+    'prefix': 'kCATransitionFromLeft'
+    'body': 'KCATransitionFromLeft'
+  'kCATransitionFromRight (NSString*)':
+    'prefix': 'kCATransitionFromRight'
+    'body': 'KCATransitionFromRight'
+  'kCATransitionFromTop (NSString*)':
+    'prefix': 'kCATransitionFromTop'
+    'body': 'KCATransitionFromTop'
+  'kCATransitionMoveIn (NSString*)':
+    'prefix': 'kCATransitionMoveIn'
+    'body': 'KCATransitionMoveIn'
+  'kCATransitionPush (NSString*)':
+    'prefix': 'kCATransitionPush'
+    'body': 'KCATransitionPush'
+  'kCATransitionReveal (NSString*)':
+    'prefix': 'kCATransitionReveal'
+    'body': 'KCATransitionReveal'
+  'kCATruncationEnd (NSString*)':
+    'prefix': 'kCATruncationEnd'
+    'body': 'KCATruncationEnd'
+  'kCATruncationMiddle (NSString*)':
+    'prefix': 'kCATruncationMiddle'
+    'body': 'KCATruncationMiddle'
+  'kCATruncationNone (NSString*)':
+    'prefix': 'kCATruncationNone'
+    'body': 'KCATruncationNone'
+  'kCATruncationStart (NSString*)':
+    'prefix': 'kCATruncationStart'
+    'body': 'KCATruncationStart'
+  'kCAValueFunctionRotateX (NSString*)':
+    'prefix': 'kCAValueFunctionRotateX'
+    'body': 'KCAValueFunctionRotateX'
+  'kCAValueFunctionRotateY (NSString*)':
+    'prefix': 'kCAValueFunctionRotateY'
+    'body': 'KCAValueFunctionRotateY'
+  'kCAValueFunctionRotateZ (NSString*)':
+    'prefix': 'kCAValueFunctionRotateZ'
+    'body': 'KCAValueFunctionRotateZ'
+  'kCAValueFunctionScale (NSString*)':
+    'prefix': 'kCAValueFunctionScale'
+    'body': 'KCAValueFunctionScale'
+  'kCAValueFunctionScaleX (NSString*)':
+    'prefix': 'kCAValueFunctionScaleX'
+    'body': 'KCAValueFunctionScaleX'
+  'kCAValueFunctionScaleY (NSString*)':
+    'prefix': 'kCAValueFunctionScaleY'
+    'body': 'KCAValueFunctionScaleY'
+  'kCAValueFunctionScaleZ (NSString*)':
+    'prefix': 'kCAValueFunctionScaleZ'
+    'body': 'KCAValueFunctionScaleZ'
+  'kCAValueFunctionTranslate (NSString*)':
+    'prefix': 'kCAValueFunctionTranslate'
+    'body': 'KCAValueFunctionTranslate'
+  'kCAValueFunctionTranslateX (NSString*)':
+    'prefix': 'kCAValueFunctionTranslateX'
+    'body': 'KCAValueFunctionTranslateX'
+  'kCAValueFunctionTranslateY (NSString*)':
+    'prefix': 'kCAValueFunctionTranslateY'
+    'body': 'KCAValueFunctionTranslateY'
+  'kCAValueFunctionTranslateZ (NSString*)':
+    'prefix': 'kCAValueFunctionTranslateZ'
+    'body': 'KCAValueFunctionTranslateZ'
+  'CA_WARN_DEPRECATED (1)':
+    'prefix': 'CA_WARN_DEPRECATED'
+    'body': 'CA_WARN_DEPRECATED'
+  'kCALayerBottomEdge (4)':
+    'prefix': 'kCALayerBottomEdge'
+    'body': 'KCALayerBottomEdge'
+  'kCALayerLeftEdge (1)':
+    'prefix': 'kCALayerLeftEdge'
+    'body': 'KCALayerLeftEdge'
+  'kCALayerRightEdge (2)':
+    'prefix': 'kCALayerRightEdge'
+    'body': 'KCALayerRightEdge'
+  'kCALayerTopEdge (8)':
+    'prefix': 'kCALayerTopEdge'
+    'body': 'KCALayerTopEdge'
+  'CACurrentMediaTime':
+    'prefix': 'CACurrentMediaTime'
+    'body': 'CACurrentMediaTime()'
+  'CATransform3DConcat':
+    'prefix': 'CATransform3DConcat'
+    'body': 'CATransform3DConcat(${1:CATransform3D a}, ${2:CATransform3D b})'
+  'CATransform3DEqualToTransform':
+    'prefix': 'CATransform3DEqualToTransform'
+    'body': 'CATransform3DEqualToTransform(${1:CATransform3D a}, ${2:CATransform3D b})'
+  'CATransform3DGetAffineTransform':
+    'prefix': 'CATransform3DGetAffineTransform'
+    'body': 'CATransform3DGetAffineTransform(${1:CATransform3D t})'
+  'CATransform3DInvert':
+    'prefix': 'CATransform3DInvert'
+    'body': 'CATransform3DInvert(${1:CATransform3D t})'
+  'CATransform3DIsAffine':
+    'prefix': 'CATransform3DIsAffine'
+    'body': 'CATransform3DIsAffine(${1:CATransform3D t})'
+  'CATransform3DIsIdentity':
+    'prefix': 'CATransform3DIsIdentity'
+    'body': 'CATransform3DIsIdentity(${1:CATransform3D t})'
+  'CATransform3DMakeAffineTransform':
+    'prefix': 'CATransform3DMakeAffineTransform'
+    'body': 'CATransform3DMakeAffineTransform(${1:CGAffineTransform m})'
+  'CATransform3DMakeRotation':
+    'prefix': 'CATransform3DMakeRotation'
+    'body': 'CATransform3DMakeRotation(${1:CGFloat angle}, ${2:CGFloat x}, ${3:CGFloat y}, ${4:CGFloat z})'
+  'CATransform3DMakeScale':
+    'prefix': 'CATransform3DMakeScale'
+    'body': 'CATransform3DMakeScale(${1:CGFloat sx}, ${2:CGFloat sy}, ${3:CGFloat sz})'
+  'CATransform3DMakeTranslation':
+    'prefix': 'CATransform3DMakeTranslation'
+    'body': 'CATransform3DMakeTranslation(${1:CGFloat tx}, ${2:CGFloat ty}, ${3:CGFloat tz})'
+  'CATransform3DRotate':
+    'prefix': 'CATransform3DRotate'
+    'body': 'CATransform3DRotate(${1:CATransform3D t}, ${2:CGFloat angle}, ${3:CGFloat x}, ${4:CGFloat y}, ${5:CGFloat z})'
+  'CATransform3DScale':
+    'prefix': 'CATransform3DScale'
+    'body': 'CATransform3DScale(${1:CATransform3D t}, ${2:CGFloat sx}, ${3:CGFloat sy}, ${4:CGFloat sz})'
+  'CATransform3DTranslate':
+    'prefix': 'CATransform3DTranslate'
+    'body': 'CATransform3DTranslate(${1:CATransform3D t}, ${2:CGFloat tx}, ${3:CGFloat ty}, ${4:CGFloat tz})'
+  'CAAnimation.animation':
+    'prefix': 'animation'
+    'body': 'CAAnimation.animation()'
+  'CAAnimation.defaultValueForKey:':
+    'prefix': 'defaultValueForKey:'
+    'body': 'CAAnimation.defaultValueForKey(${1:NSString* key})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'isRemovedOnCompletion':
+    'prefix': 'isRemovedOnCompletion'
+    'body': 'isRemovedOnCompletion()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setRemovedOnCompletion:':
+    'prefix': 'setRemovedOnCompletion:'
+    'body': 'setRemovedOnCompletion(${1:BOOL removedOnCompletion})'
+  'setTimingFunction:':
+    'prefix': 'setTimingFunction:'
+    'body': 'setTimingFunction(${1:CAMediaTimingFunction* timingFunction})'
+  'shouldArchiveValueForKey:':
+    'prefix': 'shouldArchiveValueForKey:'
+    'body': 'shouldArchiveValueForKey(${1:NSString* key})'
+  'timingFunction':
+    'prefix': 'timingFunction'
+    'body': 'timingFunction()'
+  'animations':
+    'prefix': 'animations'
+    'body': 'animations()'
+  'setAnimations:':
+    'prefix': 'setAnimations:'
+    'body': 'setAnimations(${1:NSArray* animations})'
+  'byValue':
+    'prefix': 'byValue'
+    'body': 'byValue()'
+  'fromValue':
+    'prefix': 'fromValue'
+    'body': 'fromValue()'
+  'setByValue:':
+    'prefix': 'setByValue:'
+    'body': 'setByValue(${1:id byValue})'
+  'setFromValue:':
+    'prefix': 'setFromValue:'
+    'body': 'setFromValue(${1:id fromValue})'
+  'setToValue:':
+    'prefix': 'setToValue:'
+    'body': 'setToValue(${1:id toValue})'
+  'toValue':
+    'prefix': 'toValue'
+    'body': 'toValue()'
+  'addToRunLoop:forMode:':
+    'prefix': 'addToRunLoop:forMode:'
+    'body': 'addToRunLoop(${1:NSRunLoop* runloop}, forMode:${2:NSString* mode})'
+  'CADisplayLink.displayLinkWithTarget:selector:':
+    'prefix': 'displayLinkWithTarget:selector:'
+    'body': 'CADisplayLink.displayLinkWithTarget(${1:id target}, selector:${2:SEL sel})'
+  'duration':
+    'prefix': 'duration'
+    'body': 'duration()'
+  'frameInterval':
+    'prefix': 'frameInterval'
+    'body': 'frameInterval()'
+  'invalidate':
+    'prefix': 'invalidate'
+    'body': 'invalidate()'
+  'isPaused':
+    'prefix': 'isPaused'
+    'body': 'isPaused()'
+  'removeFromRunLoop:forMode:':
+    'prefix': 'removeFromRunLoop:forMode:'
+    'body': 'removeFromRunLoop(${1:NSRunLoop* runloop}, forMode:${2:NSString* mode})'
+  'setFrameInterval:':
+    'prefix': 'setFrameInterval:'
+    'body': 'setFrameInterval(${1:NSInteger frameInterval})'
+  'setPaused:':
+    'prefix': 'setPaused:'
+    'body': 'setPaused(${1:BOOL paused})'
+  'timestamp':
+    'prefix': 'timestamp'
+    'body': 'timestamp()'
+  'CAEmitterBehavior.behaviorTypes':
+    'prefix': 'behaviorTypes'
+    'body': 'CAEmitterBehavior.behaviorTypes()'
+  'CAEmitterBehavior.behaviorWithType:':
+    'prefix': 'behaviorWithType:'
+    'body': 'CAEmitterBehavior.behaviorWithType(${1:NSString* type})'
+  'initWithType:':
+    'prefix': 'initWithType:'
+    'body': 'initWithType(${1:NSString* type})'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL enabled})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'alphaRange':
+    'prefix': 'alphaRange'
+    'body': 'alphaRange()'
+  'alphaSpeed':
+    'prefix': 'alphaSpeed'
+    'body': 'alphaSpeed()'
+  'birthRate':
+    'prefix': 'birthRate'
+    'body': 'birthRate()'
+  'blueRange':
+    'prefix': 'blueRange'
+    'body': 'blueRange()'
+  'blueSpeed':
+    'prefix': 'blueSpeed'
+    'body': 'blueSpeed()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'contents':
+    'prefix': 'contents'
+    'body': 'contents()'
+  'contentsRect':
+    'prefix': 'contentsRect'
+    'body': 'contentsRect()'
+  'CAEmitterCell.defaultValueForKey:':
+    'prefix': 'defaultValueForKey:'
+    'body': 'CAEmitterCell.defaultValueForKey(${1:NSString* key})'
+  'emissionLatitude':
+    'prefix': 'emissionLatitude'
+    'body': 'emissionLatitude()'
+  'emissionLongitude':
+    'prefix': 'emissionLongitude'
+    'body': 'emissionLongitude()'
+  'emissionRange':
+    'prefix': 'emissionRange'
+    'body': 'emissionRange()'
+  'CAEmitterCell.emitterCell':
+    'prefix': 'emitterCell'
+    'body': 'CAEmitterCell.emitterCell()'
+  'emitterCells':
+    'prefix': 'emitterCells'
+    'body': 'emitterCells()'
+  'greenRange':
+    'prefix': 'greenRange'
+    'body': 'greenRange()'
+  'greenSpeed':
+    'prefix': 'greenSpeed'
+    'body': 'greenSpeed()'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'lifetime':
+    'prefix': 'lifetime'
+    'body': 'lifetime()'
+  'lifetimeRange':
+    'prefix': 'lifetimeRange'
+    'body': 'lifetimeRange()'
+  'magnificationFilter':
+    'prefix': 'magnificationFilter'
+    'body': 'magnificationFilter()'
+  'minificationFilter':
+    'prefix': 'minificationFilter'
+    'body': 'minificationFilter()'
+  'minificationFilterBias':
+    'prefix': 'minificationFilterBias'
+    'body': 'minificationFilterBias()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'redRange':
+    'prefix': 'redRange'
+    'body': 'redRange()'
+  'redSpeed':
+    'prefix': 'redSpeed'
+    'body': 'redSpeed()'
+  'scale':
+    'prefix': 'scale'
+    'body': 'scale()'
+  'scaleRange':
+    'prefix': 'scaleRange'
+    'body': 'scaleRange()'
+  'scaleSpeed':
+    'prefix': 'scaleSpeed'
+    'body': 'scaleSpeed()'
+  'setAlphaRange:':
+    'prefix': 'setAlphaRange:'
+    'body': 'setAlphaRange(${1:float alphaRange})'
+  'setAlphaSpeed:':
+    'prefix': 'setAlphaSpeed:'
+    'body': 'setAlphaSpeed(${1:float alphaSpeed})'
+  'setBirthRate:':
+    'prefix': 'setBirthRate:'
+    'body': 'setBirthRate(${1:float birthRate})'
+  'setBlueRange:':
+    'prefix': 'setBlueRange:'
+    'body': 'setBlueRange(${1:float blueRange})'
+  'setBlueSpeed:':
+    'prefix': 'setBlueSpeed:'
+    'body': 'setBlueSpeed(${1:float blueSpeed})'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:CGColorRef color})'
+  'setContents:':
+    'prefix': 'setContents:'
+    'body': 'setContents(${1:id contents})'
+  'setContentsRect:':
+    'prefix': 'setContentsRect:'
+    'body': 'setContentsRect(${1:CGRect contentsRect})'
+  'setEmissionLatitude:':
+    'prefix': 'setEmissionLatitude:'
+    'body': 'setEmissionLatitude(${1:CGFloat emissionLatitude})'
+  'setEmissionLongitude:':
+    'prefix': 'setEmissionLongitude:'
+    'body': 'setEmissionLongitude(${1:CGFloat emissionLongitude})'
+  'setEmissionRange:':
+    'prefix': 'setEmissionRange:'
+    'body': 'setEmissionRange(${1:CGFloat emissionRange})'
+  'setEmitterCells:':
+    'prefix': 'setEmitterCells:'
+    'body': 'setEmitterCells(${1:NSArray* emitterCells})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL enabled})'
+  'setGreenRange:':
+    'prefix': 'setGreenRange:'
+    'body': 'setGreenRange(${1:float greenRange})'
+  'setGreenSpeed:':
+    'prefix': 'setGreenSpeed:'
+    'body': 'setGreenSpeed(${1:float greenSpeed})'
+  'setLifetime:':
+    'prefix': 'setLifetime:'
+    'body': 'setLifetime(${1:float lifetime})'
+  'setLifetimeRange:':
+    'prefix': 'setLifetimeRange:'
+    'body': 'setLifetimeRange(${1:float lifetimeRange})'
+  'setMagnificationFilter:':
+    'prefix': 'setMagnificationFilter:'
+    'body': 'setMagnificationFilter(${1:NSString* magnificationFilter})'
+  'setMinificationFilter:':
+    'prefix': 'setMinificationFilter:'
+    'body': 'setMinificationFilter(${1:NSString* minificationFilter})'
+  'setMinificationFilterBias:':
+    'prefix': 'setMinificationFilterBias:'
+    'body': 'setMinificationFilterBias(${1:float minificationFilterBias})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setRedRange:':
+    'prefix': 'setRedRange:'
+    'body': 'setRedRange(${1:float redRange})'
+  'setRedSpeed:':
+    'prefix': 'setRedSpeed:'
+    'body': 'setRedSpeed(${1:float redSpeed})'
+  'setScale:':
+    'prefix': 'setScale:'
+    'body': 'setScale(${1:CGFloat scale})'
+  'setScaleRange:':
+    'prefix': 'setScaleRange:'
+    'body': 'setScaleRange(${1:CGFloat scaleRange})'
+  'setScaleSpeed:':
+    'prefix': 'setScaleSpeed:'
+    'body': 'setScaleSpeed(${1:CGFloat scaleSpeed})'
+  'setSpin:':
+    'prefix': 'setSpin:'
+    'body': 'setSpin(${1:CGFloat spin})'
+  'setSpinRange:':
+    'prefix': 'setSpinRange:'
+    'body': 'setSpinRange(${1:CGFloat spinRange})'
+  'setStyle:':
+    'prefix': 'setStyle:'
+    'body': 'setStyle(${1:NSDictionary* style})'
+  'setVelocity:':
+    'prefix': 'setVelocity:'
+    'body': 'setVelocity(${1:CGFloat velocity})'
+  'setVelocityRange:':
+    'prefix': 'setVelocityRange:'
+    'body': 'setVelocityRange(${1:CGFloat velocityRange})'
+  'setXAcceleration:':
+    'prefix': 'setXAcceleration:'
+    'body': 'setXAcceleration(${1:CGFloat xAcceleration})'
+  'setYAcceleration:':
+    'prefix': 'setYAcceleration:'
+    'body': 'setYAcceleration(${1:CGFloat yAcceleration})'
+  'setZAcceleration:':
+    'prefix': 'setZAcceleration:'
+    'body': 'setZAcceleration(${1:CGFloat zAcceleration})'
+  'shouldArchiveValueForKey:':
+    'prefix': 'shouldArchiveValueForKey:'
+    'body': 'shouldArchiveValueForKey(${1:NSString* key})'
+  'spin':
+    'prefix': 'spin'
+    'body': 'spin()'
+  'spinRange':
+    'prefix': 'spinRange'
+    'body': 'spinRange()'
+  'style':
+    'prefix': 'style'
+    'body': 'style()'
+  'velocity':
+    'prefix': 'velocity'
+    'body': 'velocity()'
+  'velocityRange':
+    'prefix': 'velocityRange'
+    'body': 'velocityRange()'
+  'xAcceleration':
+    'prefix': 'xAcceleration'
+    'body': 'xAcceleration()'
+  'yAcceleration':
+    'prefix': 'yAcceleration'
+    'body': 'yAcceleration()'
+  'zAcceleration':
+    'prefix': 'zAcceleration'
+    'body': 'zAcceleration()'
+  'birthRate':
+    'prefix': 'birthRate'
+    'body': 'birthRate()'
+  'emitterCells':
+    'prefix': 'emitterCells'
+    'body': 'emitterCells()'
+  'emitterDepth':
+    'prefix': 'emitterDepth'
+    'body': 'emitterDepth()'
+  'emitterMode':
+    'prefix': 'emitterMode'
+    'body': 'emitterMode()'
+  'emitterPosition':
+    'prefix': 'emitterPosition'
+    'body': 'emitterPosition()'
+  'emitterShape':
+    'prefix': 'emitterShape'
+    'body': 'emitterShape()'
+  'emitterSize':
+    'prefix': 'emitterSize'
+    'body': 'emitterSize()'
+  'emitterZPosition':
+    'prefix': 'emitterZPosition'
+    'body': 'emitterZPosition()'
+  'lifetime':
+    'prefix': 'lifetime'
+    'body': 'lifetime()'
+  'preservesDepth':
+    'prefix': 'preservesDepth'
+    'body': 'preservesDepth()'
+  'renderMode':
+    'prefix': 'renderMode'
+    'body': 'renderMode()'
+  'scale':
+    'prefix': 'scale'
+    'body': 'scale()'
+  'seed':
+    'prefix': 'seed'
+    'body': 'seed()'
+  'setBirthRate:':
+    'prefix': 'setBirthRate:'
+    'body': 'setBirthRate(${1:float birthRate})'
+  'setEmitterCells:':
+    'prefix': 'setEmitterCells:'
+    'body': 'setEmitterCells(${1:NSArray* emitterCells})'
+  'setEmitterDepth:':
+    'prefix': 'setEmitterDepth:'
+    'body': 'setEmitterDepth(${1:CGFloat emitterDepth})'
+  'setEmitterMode:':
+    'prefix': 'setEmitterMode:'
+    'body': 'setEmitterMode(${1:NSString* emitterMode})'
+  'setEmitterPosition:':
+    'prefix': 'setEmitterPosition:'
+    'body': 'setEmitterPosition(${1:CGPoint emitterPosition})'
+  'setEmitterShape:':
+    'prefix': 'setEmitterShape:'
+    'body': 'setEmitterShape(${1:NSString* emitterShape})'
+  'setEmitterSize:':
+    'prefix': 'setEmitterSize:'
+    'body': 'setEmitterSize(${1:CGSize emitterSize})'
+  'setEmitterZPosition:':
+    'prefix': 'setEmitterZPosition:'
+    'body': 'setEmitterZPosition(${1:CGFloat emitterZPosition})'
+  'setLifetime:':
+    'prefix': 'setLifetime:'
+    'body': 'setLifetime(${1:float lifetime})'
+  'setPreservesDepth:':
+    'prefix': 'setPreservesDepth:'
+    'body': 'setPreservesDepth(${1:BOOL preservesDepth})'
+  'setRenderMode:':
+    'prefix': 'setRenderMode:'
+    'body': 'setRenderMode(${1:NSString* renderMode})'
+  'setScale:':
+    'prefix': 'setScale:'
+    'body': 'setScale(${1:float scale})'
+  'setSeed:':
+    'prefix': 'setSeed:'
+    'body': 'setSeed(${1:unsigned int seed})'
+  'setSpin:':
+    'prefix': 'setSpin:'
+    'body': 'setSpin(${1:float spin})'
+  'setVelocity:':
+    'prefix': 'setVelocity:'
+    'body': 'setVelocity(${1:float velocity})'
+  'spin':
+    'prefix': 'spin'
+    'body': 'spin()'
+  'velocity':
+    'prefix': 'velocity'
+    'body': 'velocity()'
+  'colors':
+    'prefix': 'colors'
+    'body': 'colors()'
+  'endPoint':
+    'prefix': 'endPoint'
+    'body': 'endPoint()'
+  'locations':
+    'prefix': 'locations'
+    'body': 'locations()'
+  'setColors:':
+    'prefix': 'setColors:'
+    'body': 'setColors(${1:NSArray* colors})'
+  'setEndPoint:':
+    'prefix': 'setEndPoint:'
+    'body': 'setEndPoint(${1:CGPoint endPoint})'
+  'setLocations:':
+    'prefix': 'setLocations:'
+    'body': 'setLocations(${1:NSArray* locations})'
+  'setStartPoint:':
+    'prefix': 'setStartPoint:'
+    'body': 'setStartPoint(${1:CGPoint startPoint})'
+  'setType:':
+    'prefix': 'setType:'
+    'body': 'setType(${1:NSString* type})'
+  'startPoint':
+    'prefix': 'startPoint'
+    'body': 'startPoint()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'biasValues':
+    'prefix': 'biasValues'
+    'body': 'biasValues()'
+  'calculationMode':
+    'prefix': 'calculationMode'
+    'body': 'calculationMode()'
+  'continuityValues':
+    'prefix': 'continuityValues'
+    'body': 'continuityValues()'
+  'keyTimes':
+    'prefix': 'keyTimes'
+    'body': 'KeyTimes()'
+  'path':
+    'prefix': 'path'
+    'body': 'path()'
+  'rotationMode':
+    'prefix': 'rotationMode'
+    'body': 'rotationMode()'
+  'setBiasValues:':
+    'prefix': 'setBiasValues:'
+    'body': 'setBiasValues(${1:NSArray* biasValues})'
+  'setCalculationMode:':
+    'prefix': 'setCalculationMode:'
+    'body': 'setCalculationMode(${1:NSString* calculationMode})'
+  'setContinuityValues:':
+    'prefix': 'setContinuityValues:'
+    'body': 'setContinuityValues(${1:NSArray* continuityValues})'
+  'setKeyTimes:':
+    'prefix': 'setKeyTimes:'
+    'body': 'setKeyTimes(${1:NSArray* keyTimes})'
+  'setPath:':
+    'prefix': 'setPath:'
+    'body': 'setPath(${1:CGPathRef path})'
+  'setRotationMode:':
+    'prefix': 'setRotationMode:'
+    'body': 'setRotationMode(${1:NSString* rotationMode})'
+  'setTensionValues:':
+    'prefix': 'setTensionValues:'
+    'body': 'setTensionValues(${1:NSArray* tensionValues})'
+  'setTimingFunctions:':
+    'prefix': 'setTimingFunctions:'
+    'body': 'setTimingFunctions(${1:NSArray* timingFunctions})'
+  'setValues:':
+    'prefix': 'setValues:'
+    'body': 'setValues(${1:NSArray* values})'
+  'tensionValues':
+    'prefix': 'tensionValues'
+    'body': 'tensionValues()'
+  'timingFunctions':
+    'prefix': 'timingFunctions'
+    'body': 'timingFunctions()'
+  'values':
+    'prefix': 'values'
+    'body': 'values()'
+  'actionForKey:':
+    'prefix': 'actionForKey:'
+    'body': 'actionForKey(${1:NSString* event})'
+  'actions':
+    'prefix': 'actions'
+    'body': 'actions()'
+  'addAnimation:forKey:':
+    'prefix': 'addAnimation:forKey:'
+    'body': 'addAnimation(${1:CAAnimation* anim}, forKey:${2:NSString* key})'
+  'addSublayer:':
+    'prefix': 'addSublayer:'
+    'body': 'addSublayer(${1:CALayer* layer})'
+  'affineTransform':
+    'prefix': 'affineTransform'
+    'body': 'affineTransform()'
+  'allowsEdgeAntialiasing':
+    'prefix': 'allowsEdgeAntialiasing'
+    'body': 'allowsEdgeAntialiasing()'
+  'allowsGroupOpacity':
+    'prefix': 'allowsGroupOpacity'
+    'body': 'allowsGroupOpacity()'
+  'anchorPoint':
+    'prefix': 'anchorPoint'
+    'body': 'anchorPoint()'
+  'anchorPointZ':
+    'prefix': 'anchorPointZ'
+    'body': 'anchorPointZ()'
+  'animationForKey:':
+    'prefix': 'animationForKey:'
+    'body': 'animationForKey(${1:NSString* key})'
+  'animationKeys':
+    'prefix': 'animationKeys'
+    'body': 'animationKeys()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'backgroundFilters':
+    'prefix': 'backgroundFilters'
+    'body': 'backgroundFilters()'
+  'borderColor':
+    'prefix': 'borderColor'
+    'body': 'borderColor()'
+  'borderWidth':
+    'prefix': 'borderWidth'
+    'body': 'borderWidth()'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'compositingFilter':
+    'prefix': 'compositingFilter'
+    'body': 'compositingFilter()'
+  'containsPoint:':
+    'prefix': 'containsPoint:'
+    'body': 'containsPoint(${1:CGPoint p})'
+  'contents':
+    'prefix': 'contents'
+    'body': 'contents()'
+  'contentsAreFlipped':
+    'prefix': 'contentsAreFlipped'
+    'body': 'contentsAreFlipped()'
+  'contentsCenter':
+    'prefix': 'contentsCenter'
+    'body': 'contentsCenter()'
+  'contentsGravity':
+    'prefix': 'contentsGravity'
+    'body': 'contentsGravity()'
+  'contentsRect':
+    'prefix': 'contentsRect'
+    'body': 'contentsRect()'
+  'contentsScale':
+    'prefix': 'contentsScale'
+    'body': 'contentsScale()'
+  'convertPoint:fromLayer:':
+    'prefix': 'convertPoint:fromLayer:'
+    'body': 'convertPoint(${1:CGPoint p}, fromLayer:${2:CALayer* l})'
+  'convertPoint:toLayer:':
+    'prefix': 'convertPoint:toLayer:'
+    'body': 'convertPoint(${1:CGPoint p}, toLayer:${2:CALayer* l})'
+  'convertRect:fromLayer:':
+    'prefix': 'convertRect:fromLayer:'
+    'body': 'convertRect(${1:CGRect r}, fromLayer:${2:CALayer* l})'
+  'convertRect:toLayer:':
+    'prefix': 'convertRect:toLayer:'
+    'body': 'convertRect(${1:CGRect r}, toLayer:${2:CALayer* l})'
+  'convertTime:fromLayer:':
+    'prefix': 'convertTime:fromLayer:'
+    'body': 'convertTime(${1:CFTimeInterval t}, fromLayer:${2:CALayer* l})'
+  'convertTime:toLayer:':
+    'prefix': 'convertTime:toLayer:'
+    'body': 'convertTime(${1:CFTimeInterval t}, toLayer:${2:CALayer* l})'
+  'cornerRadius':
+    'prefix': 'cornerRadius'
+    'body': 'cornerRadius()'
+  'CALayer.defaultActionForKey:':
+    'prefix': 'defaultActionForKey:'
+    'body': 'CALayer.defaultActionForKey(${1:NSString* event})'
+  'CALayer.defaultValueForKey:':
+    'prefix': 'defaultValueForKey:'
+    'body': 'CALayer.defaultValueForKey(${1:NSString* key})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'display':
+    'prefix': 'display'
+    'body': 'display()'
+  'displayIfNeeded':
+    'prefix': 'displayIfNeeded'
+    'body': 'displayIfNeeded()'
+  'drawInContext:':
+    'prefix': 'drawInContext:'
+    'body': 'drawInContext(${1:CGContextRef ctx})'
+  'drawsAsynchronously':
+    'prefix': 'drawsAsynchronously'
+    'body': 'drawsAsynchronously()'
+  'edgeAntialiasingMask':
+    'prefix': 'edgeAntialiasingMask'
+    'body': 'edgeAntialiasingMask()'
+  'filters':
+    'prefix': 'filters'
+    'body': 'filters()'
+  'frame':
+    'prefix': 'frame'
+    'body': 'frame()'
+  'hitTest:':
+    'prefix': 'hitTest:'
+    'body': 'hitTest(${1:CGPoint p})'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithLayer:':
+    'prefix': 'initWithLayer:'
+    'body': 'initWithLayer(${1:id layer})'
+  'insertSublayer:above:':
+    'prefix': 'insertSublayer:above:'
+    'body': 'insertSublayer(${1:CALayer* layer}, above:${2:CALayer* sibling})'
+  'insertSublayer:atIndex:':
+    'prefix': 'insertSublayer:atIndex:'
+    'body': 'insertSublayer(${1:CALayer* layer}, atIndex:${2:unsigned int idx})'
+  'insertSublayer:below:':
+    'prefix': 'insertSublayer:below:'
+    'body': 'insertSublayer(${1:CALayer* layer}, below:${2:CALayer* sibling})'
+  'isDoubleSided':
+    'prefix': 'isDoubleSided'
+    'body': 'isDoubleSided()'
+  'isGeometryFlipped':
+    'prefix': 'isGeometryFlipped'
+    'body': 'isGeometryFlipped()'
+  'isHidden':
+    'prefix': 'isHidden'
+    'body': 'isHidden()'
+  'isOpaque':
+    'prefix': 'isOpaque'
+    'body': 'isOpaque()'
+  'CALayer.layer':
+    'prefix': 'layer'
+    'body': 'CALayer.layer()'
+  'layoutIfNeeded':
+    'prefix': 'layoutIfNeeded'
+    'body': 'layoutIfNeeded()'
+  'layoutSublayers':
+    'prefix': 'layoutSublayers'
+    'body': 'layoutSublayers()'
+  'magnificationFilter':
+    'prefix': 'magnificationFilter'
+    'body': 'magnificationFilter()'
+  'mask':
+    'prefix': 'mask'
+    'body': 'mask()'
+  'masksToBounds':
+    'prefix': 'masksToBounds'
+    'body': 'masksToBounds()'
+  'minificationFilter':
+    'prefix': 'minificationFilter'
+    'body': 'minificationFilter()'
+  'minificationFilterBias':
+    'prefix': 'minificationFilterBias'
+    'body': 'minificationFilterBias()'
+  'modelLayer':
+    'prefix': 'modelLayer'
+    'body': 'modelLayer()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'needsDisplay':
+    'prefix': 'needsDisplay'
+    'body': 'needsDisplay()'
+  'CALayer.needsDisplayForKey:':
+    'prefix': 'needsDisplayForKey:'
+    'body': 'CALayer.needsDisplayForKey(${1:NSString* key})'
+  'needsDisplayOnBoundsChange':
+    'prefix': 'needsDisplayOnBoundsChange'
+    'body': 'needsDisplayOnBoundsChange()'
+  'needsLayout':
+    'prefix': 'needsLayout'
+    'body': 'needsLayout()'
+  'opacity':
+    'prefix': 'opacity'
+    'body': 'opacity()'
+  'position':
+    'prefix': 'position'
+    'body': 'position()'
+  'preferredFrameSize':
+    'prefix': 'preferredFrameSize'
+    'body': 'preferredFrameSize()'
+  'presentationLayer':
+    'prefix': 'presentationLayer'
+    'body': 'presentationLayer()'
+  'rasterizationScale':
+    'prefix': 'rasterizationScale'
+    'body': 'rasterizationScale()'
+  'removeAllAnimations':
+    'prefix': 'removeAllAnimations'
+    'body': 'removeAllAnimations()'
+  'removeAnimationForKey:':
+    'prefix': 'removeAnimationForKey:'
+    'body': 'removeAnimationForKey(${1:NSString* key})'
+  'removeFromSuperlayer':
+    'prefix': 'removeFromSuperlayer'
+    'body': 'removeFromSuperlayer()'
+  'renderInContext:':
+    'prefix': 'renderInContext:'
+    'body': 'renderInContext(${1:CGContextRef ctx})'
+  'replaceSublayer:with:':
+    'prefix': 'replaceSublayer:with:'
+    'body': 'replaceSublayer(${1:CALayer* layer}, with:${2:CALayer* layer2})'
+  'scrollPoint:':
+    'prefix': 'scrollPoint:'
+    'body': 'scrollPoint(${1:CGPoint p})'
+  'scrollRectToVisible:':
+    'prefix': 'scrollRectToVisible:'
+    'body': 'scrollRectToVisible(${1:CGRect r})'
+  'setActions:':
+    'prefix': 'setActions:'
+    'body': 'setActions(${1:NSDictionary* actions})'
+  'setAffineTransform:':
+    'prefix': 'setAffineTransform:'
+    'body': 'setAffineTransform(${1:CGAffineTransform m})'
+  'setAllowsEdgeAntialiasing:':
+    'prefix': 'setAllowsEdgeAntialiasing:'
+    'body': 'setAllowsEdgeAntialiasing(${1:BOOL allowsEdgeAntialiasing})'
+  'setAllowsGroupOpacity:':
+    'prefix': 'setAllowsGroupOpacity:'
+    'body': 'setAllowsGroupOpacity(${1:BOOL allowsGroupOpacity})'
+  'setAnchorPoint:':
+    'prefix': 'setAnchorPoint:'
+    'body': 'setAnchorPoint(${1:CGPoint anchorPoint})'
+  'setAnchorPointZ:':
+    'prefix': 'setAnchorPointZ:'
+    'body': 'setAnchorPointZ(${1:CGFloat anchorPointZ})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:CGColorRef backgroundColor})'
+  'setBackgroundFilters:':
+    'prefix': 'setBackgroundFilters:'
+    'body': 'setBackgroundFilters(${1:NSArray* backgroundFilters})'
+  'setBorderColor:':
+    'prefix': 'setBorderColor:'
+    'body': 'setBorderColor(${1:CGColorRef borderColor})'
+  'setBorderWidth:':
+    'prefix': 'setBorderWidth:'
+    'body': 'setBorderWidth(${1:CGFloat borderWidth})'
+  'setBounds:':
+    'prefix': 'setBounds:'
+    'body': 'setBounds(${1:CGRect bounds})'
+  'setCompositingFilter:':
+    'prefix': 'setCompositingFilter:'
+    'body': 'setCompositingFilter(${1:id compositingFilter})'
+  'setContents:':
+    'prefix': 'setContents:'
+    'body': 'setContents(${1:id contents})'
+  'setContentsCenter:':
+    'prefix': 'setContentsCenter:'
+    'body': 'setContentsCenter(${1:CGRect contentsCenter})'
+  'setContentsGravity:':
+    'prefix': 'setContentsGravity:'
+    'body': 'setContentsGravity(${1:NSString* contentsGravity})'
+  'setContentsRect:':
+    'prefix': 'setContentsRect:'
+    'body': 'setContentsRect(${1:CGRect contentsRect})'
+  'setContentsScale:':
+    'prefix': 'setContentsScale:'
+    'body': 'setContentsScale(${1:CGFloat contentsScale})'
+  'setCornerRadius:':
+    'prefix': 'setCornerRadius:'
+    'body': 'setCornerRadius(${1:CGFloat cornerRadius})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDoubleSided:':
+    'prefix': 'setDoubleSided:'
+    'body': 'setDoubleSided(${1:BOOL doubleSided})'
+  'setDrawsAsynchronously:':
+    'prefix': 'setDrawsAsynchronously:'
+    'body': 'setDrawsAsynchronously(${1:BOOL drawsAsynchronously})'
+  'setEdgeAntialiasingMask:':
+    'prefix': 'setEdgeAntialiasingMask:'
+    'body': 'setEdgeAntialiasingMask(${1:unsigned int edgeAntialiasingMask})'
+  'setFilters:':
+    'prefix': 'setFilters:'
+    'body': 'setFilters(${1:NSArray* filters})'
+  'setFrame:':
+    'prefix': 'setFrame:'
+    'body': 'setFrame(${1:CGRect frame})'
+  'setGeometryFlipped:':
+    'prefix': 'setGeometryFlipped:'
+    'body': 'setGeometryFlipped(${1:BOOL geometryFlipped})'
+  'setHidden:':
+    'prefix': 'setHidden:'
+    'body': 'setHidden(${1:BOOL hidden})'
+  'setMagnificationFilter:':
+    'prefix': 'setMagnificationFilter:'
+    'body': 'setMagnificationFilter(${1:NSString* magnificationFilter})'
+  'setMask:':
+    'prefix': 'setMask:'
+    'body': 'setMask(${1:CALayer* mask})'
+  'setMasksToBounds:':
+    'prefix': 'setMasksToBounds:'
+    'body': 'setMasksToBounds(${1:BOOL masksToBounds})'
+  'setMinificationFilter:':
+    'prefix': 'setMinificationFilter:'
+    'body': 'setMinificationFilter(${1:NSString* minificationFilter})'
+  'setMinificationFilterBias:':
+    'prefix': 'setMinificationFilterBias:'
+    'body': 'setMinificationFilterBias(${1:float minificationFilterBias})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setNeedsDisplay':
+    'prefix': 'setNeedsDisplay'
+    'body': 'setNeedsDisplay()'
+  'setNeedsDisplayInRect:':
+    'prefix': 'setNeedsDisplayInRect:'
+    'body': 'setNeedsDisplayInRect(${1:CGRect r})'
+  'setNeedsDisplayOnBoundsChange:':
+    'prefix': 'setNeedsDisplayOnBoundsChange:'
+    'body': 'setNeedsDisplayOnBoundsChange(${1:BOOL needsDisplayOnBoundsChange})'
+  'setNeedsLayout':
+    'prefix': 'setNeedsLayout'
+    'body': 'setNeedsLayout()'
+  'setOpacity:':
+    'prefix': 'setOpacity:'
+    'body': 'setOpacity(${1:float opacity})'
+  'setOpaque:':
+    'prefix': 'setOpaque:'
+    'body': 'setOpaque(${1:BOOL opaque})'
+  'setPosition:':
+    'prefix': 'setPosition:'
+    'body': 'setPosition(${1:CGPoint position})'
+  'setRasterizationScale:':
+    'prefix': 'setRasterizationScale:'
+    'body': 'setRasterizationScale(${1:CGFloat rasterizationScale})'
+  'setShadowColor:':
+    'prefix': 'setShadowColor:'
+    'body': 'setShadowColor(${1:CGColorRef shadowColor})'
+  'setShadowOffset:':
+    'prefix': 'setShadowOffset:'
+    'body': 'setShadowOffset(${1:CGSize shadowOffset})'
+  'setShadowOpacity:':
+    'prefix': 'setShadowOpacity:'
+    'body': 'setShadowOpacity(${1:float shadowOpacity})'
+  'setShadowPath:':
+    'prefix': 'setShadowPath:'
+    'body': 'setShadowPath(${1:CGPathRef shadowPath})'
+  'setShadowRadius:':
+    'prefix': 'setShadowRadius:'
+    'body': 'setShadowRadius(${1:CGFloat shadowRadius})'
+  'setShouldRasterize:':
+    'prefix': 'setShouldRasterize:'
+    'body': 'setShouldRasterize(${1:BOOL shouldRasterize})'
+  'setStyle:':
+    'prefix': 'setStyle:'
+    'body': 'setStyle(${1:NSDictionary* style})'
+  'setSublayerTransform:':
+    'prefix': 'setSublayerTransform:'
+    'body': 'setSublayerTransform(${1:CATransform3D sublayerTransform})'
+  'setSublayers:':
+    'prefix': 'setSublayers:'
+    'body': 'setSublayers(${1:NSArray* sublayers})'
+  'setTransform:':
+    'prefix': 'setTransform:'
+    'body': 'setTransform(${1:CATransform3D transform})'
+  'setZPosition:':
+    'prefix': 'setZPosition:'
+    'body': 'setZPosition(${1:CGFloat zPosition})'
+  'shadowColor':
+    'prefix': 'shadowColor'
+    'body': 'shadowColor()'
+  'shadowOffset':
+    'prefix': 'shadowOffset'
+    'body': 'shadowOffset()'
+  'shadowOpacity':
+    'prefix': 'shadowOpacity'
+    'body': 'shadowOpacity()'
+  'shadowPath':
+    'prefix': 'shadowPath'
+    'body': 'shadowPath()'
+  'shadowRadius':
+    'prefix': 'shadowRadius'
+    'body': 'shadowRadius()'
+  'shouldArchiveValueForKey:':
+    'prefix': 'shouldArchiveValueForKey:'
+    'body': 'shouldArchiveValueForKey(${1:NSString* key})'
+  'shouldRasterize':
+    'prefix': 'shouldRasterize'
+    'body': 'shouldRasterize()'
+  'style':
+    'prefix': 'style'
+    'body': 'style()'
+  'sublayerTransform':
+    'prefix': 'sublayerTransform'
+    'body': 'sublayerTransform()'
+  'sublayers':
+    'prefix': 'sublayers'
+    'body': 'sublayers()'
+  'superlayer':
+    'prefix': 'superlayer'
+    'body': 'superlayer()'
+  'transform':
+    'prefix': 'transform'
+    'body': 'transform()'
+  'visibleRect':
+    'prefix': 'visibleRect'
+    'body': 'visibleRect()'
+  'zPosition':
+    'prefix': 'zPosition'
+    'body': 'zPosition()'
+  'CAMediaTimingFunction.functionWithControlPoints::::':
+    'prefix': 'functionWithControlPoints::::'
+    'body': 'CAMediaTimingFunction.functionWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
+  'CAMediaTimingFunction.functionWithName:':
+    'prefix': 'functionWithName:'
+    'body': 'CAMediaTimingFunction.functionWithName(${1:NSString* name})'
+  'getControlPointAtIndex:values:':
+    'prefix': 'getControlPointAtIndex:values:'
+    'body': 'getControlPointAtIndex(${1:size_t idx}, values:${2:float* ptr})'
+  'initWithControlPoints::::':
+    'prefix': 'initWithControlPoints::::'
+    'body': 'initWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
+  'CAPropertyAnimation.animationWithKeyPath:':
+    'prefix': 'animationWithKeyPath:'
+    'body': 'CAPropertyAnimation.animationWithKeyPath(${1:NSString* path})'
+  'isAdditive':
+    'prefix': 'isAdditive'
+    'body': 'isAdditive()'
+  'isCumulative':
+    'prefix': 'isCumulative'
+    'body': 'isCumulative()'
+  'keyPath':
+    'prefix': 'keyPath'
+    'body': 'KeyPath()'
+  'setAdditive:':
+    'prefix': 'setAdditive:'
+    'body': 'setAdditive(${1:BOOL additive})'
+  'setCumulative:':
+    'prefix': 'setCumulative:'
+    'body': 'setCumulative(${1:BOOL cumulative})'
+  'setKeyPath:':
+    'prefix': 'setKeyPath:'
+    'body': 'setKeyPath(${1:NSString* keyPath})'
+  'setValueFunction:':
+    'prefix': 'setValueFunction:'
+    'body': 'setValueFunction(${1:CAValueFunction* valueFunction})'
+  'valueFunction':
+    'prefix': 'valueFunction'
+    'body': 'valueFunction()'
+  'instanceAlphaOffset':
+    'prefix': 'instanceAlphaOffset'
+    'body': 'instanceAlphaOffset()'
+  'instanceBlueOffset':
+    'prefix': 'instanceBlueOffset'
+    'body': 'instanceBlueOffset()'
+  'instanceColor':
+    'prefix': 'instanceColor'
+    'body': 'instanceColor()'
+  'instanceCount':
+    'prefix': 'instanceCount'
+    'body': 'instanceCount()'
+  'instanceDelay':
+    'prefix': 'instanceDelay'
+    'body': 'instanceDelay()'
+  'instanceGreenOffset':
+    'prefix': 'instanceGreenOffset'
+    'body': 'instanceGreenOffset()'
+  'instanceRedOffset':
+    'prefix': 'instanceRedOffset'
+    'body': 'instanceRedOffset()'
+  'instanceTransform':
+    'prefix': 'instanceTransform'
+    'body': 'instanceTransform()'
+  'preservesDepth':
+    'prefix': 'preservesDepth'
+    'body': 'preservesDepth()'
+  'setInstanceAlphaOffset:':
+    'prefix': 'setInstanceAlphaOffset:'
+    'body': 'setInstanceAlphaOffset(${1:float instanceAlphaOffset})'
+  'setInstanceBlueOffset:':
+    'prefix': 'setInstanceBlueOffset:'
+    'body': 'setInstanceBlueOffset(${1:float instanceBlueOffset})'
+  'setInstanceColor:':
+    'prefix': 'setInstanceColor:'
+    'body': 'setInstanceColor(${1:CGColorRef instanceColor})'
+  'setInstanceCount:':
+    'prefix': 'setInstanceCount:'
+    'body': 'setInstanceCount(${1:NSInteger instanceCount})'
+  'setInstanceDelay:':
+    'prefix': 'setInstanceDelay:'
+    'body': 'setInstanceDelay(${1:CFTimeInterval instanceDelay})'
+  'setInstanceGreenOffset:':
+    'prefix': 'setInstanceGreenOffset:'
+    'body': 'setInstanceGreenOffset(${1:float instanceGreenOffset})'
+  'setInstanceRedOffset:':
+    'prefix': 'setInstanceRedOffset:'
+    'body': 'setInstanceRedOffset(${1:float instanceRedOffset})'
+  'setInstanceTransform:':
+    'prefix': 'setInstanceTransform:'
+    'body': 'setInstanceTransform(${1:CATransform3D instanceTransform})'
+  'setPreservesDepth:':
+    'prefix': 'setPreservesDepth:'
+    'body': 'setPreservesDepth(${1:BOOL preservesDepth})'
+  'scrollMode':
+    'prefix': 'scrollMode'
+    'body': 'scrollMode()'
+  'scrollToPoint:':
+    'prefix': 'scrollToPoint:'
+    'body': 'scrollToPoint(${1:CGPoint p})'
+  'scrollToRect:':
+    'prefix': 'scrollToRect:'
+    'body': 'scrollToRect(${1:CGRect r})'
+  'setScrollMode:':
+    'prefix': 'setScrollMode:'
+    'body': 'setScrollMode(${1:NSString* scrollMode})'
+  'fillColor':
+    'prefix': 'fillColor'
+    'body': 'fillColor()'
+  'fillRule':
+    'prefix': 'fillRule'
+    'body': 'fillRule()'
+  'lineCap':
+    'prefix': 'lineCap'
+    'body': 'lineCap()'
+  'lineDashPattern':
+    'prefix': 'lineDashPattern'
+    'body': 'lineDashPattern()'
+  'lineDashPhase':
+    'prefix': 'lineDashPhase'
+    'body': 'lineDashPhase()'
+  'lineJoin':
+    'prefix': 'lineJoin'
+    'body': 'lineJoin()'
+  'lineWidth':
+    'prefix': 'lineWidth'
+    'body': 'lineWidth()'
+  'miterLimit':
+    'prefix': 'miterLimit'
+    'body': 'miterLimit()'
+  'path':
+    'prefix': 'path'
+    'body': 'path()'
+  'setFillColor:':
+    'prefix': 'setFillColor:'
+    'body': 'setFillColor(${1:CGColorRef fillColor})'
+  'setFillRule:':
+    'prefix': 'setFillRule:'
+    'body': 'setFillRule(${1:NSString* fillRule})'
+  'setLineCap:':
+    'prefix': 'setLineCap:'
+    'body': 'setLineCap(${1:NSString* lineCap})'
+  'setLineDashPattern:':
+    'prefix': 'setLineDashPattern:'
+    'body': 'setLineDashPattern(${1:NSArray* lineDashPattern})'
+  'setLineDashPhase:':
+    'prefix': 'setLineDashPhase:'
+    'body': 'setLineDashPhase(${1:CGFloat lineDashPhase})'
+  'setLineJoin:':
+    'prefix': 'setLineJoin:'
+    'body': 'setLineJoin(${1:NSString* lineJoin})'
+  'setLineWidth:':
+    'prefix': 'setLineWidth:'
+    'body': 'setLineWidth(${1:CGFloat lineWidth})'
+  'setMiterLimit:':
+    'prefix': 'setMiterLimit:'
+    'body': 'setMiterLimit(${1:CGFloat miterLimit})'
+  'setPath:':
+    'prefix': 'setPath:'
+    'body': 'setPath(${1:CGPathRef path})'
+  'setStrokeColor:':
+    'prefix': 'setStrokeColor:'
+    'body': 'setStrokeColor(${1:CGColorRef strokeColor})'
+  'setStrokeEnd:':
+    'prefix': 'setStrokeEnd:'
+    'body': 'setStrokeEnd(${1:CGFloat strokeEnd})'
+  'setStrokeStart:':
+    'prefix': 'setStrokeStart:'
+    'body': 'setStrokeStart(${1:CGFloat strokeStart})'
+  'strokeColor':
+    'prefix': 'strokeColor'
+    'body': 'strokeColor()'
+  'strokeEnd':
+    'prefix': 'strokeEnd'
+    'body': 'strokeEnd()'
+  'strokeStart':
+    'prefix': 'strokeStart'
+    'body': 'strokeStart()'
+  'alignmentMode':
+    'prefix': 'alignmentMode'
+    'body': 'alignmentMode()'
+  'font':
+    'prefix': 'font'
+    'body': 'font()'
+  'fontSize':
+    'prefix': 'fontSize'
+    'body': 'fontSize()'
+  'foregroundColor':
+    'prefix': 'foregroundColor'
+    'body': 'foregroundColor()'
+  'isWrapped':
+    'prefix': 'isWrapped'
+    'body': 'isWrapped()'
+  'setAlignmentMode:':
+    'prefix': 'setAlignmentMode:'
+    'body': 'setAlignmentMode(${1:NSString* alignmentMode})'
+  'setFont:':
+    'prefix': 'setFont:'
+    'body': 'setFont(${1:CFTypeRef font})'
+  'setFontSize:':
+    'prefix': 'setFontSize:'
+    'body': 'setFontSize(${1:CGFloat fontSize})'
+  'setForegroundColor:':
+    'prefix': 'setForegroundColor:'
+    'body': 'setForegroundColor(${1:CGColorRef foregroundColor})'
+  'setString:':
+    'prefix': 'setString:'
+    'body': 'setString(${1:id string})'
+  'setTruncationMode:':
+    'prefix': 'setTruncationMode:'
+    'body': 'setTruncationMode(${1:NSString* truncationMode})'
+  'setWrapped:':
+    'prefix': 'setWrapped:'
+    'body': 'setWrapped(${1:BOOL wrapped})'
+  'string':
+    'prefix': 'string'
+    'body': 'string()'
+  'truncationMode':
+    'prefix': 'truncationMode'
+    'body': 'truncationMode()'
+  'CATiledLayer.fadeDuration':
+    'prefix': 'fadeDuration'
+    'body': 'CATiledLayer.fadeDuration()'
+  'levelsOfDetail':
+    'prefix': 'levelsOfDetail'
+    'body': 'levelsOfDetail()'
+  'levelsOfDetailBias':
+    'prefix': 'levelsOfDetailBias'
+    'body': 'levelsOfDetailBias()'
+  'setLevelsOfDetail:':
+    'prefix': 'setLevelsOfDetail:'
+    'body': 'setLevelsOfDetail(${1:size_t levelsOfDetail})'
+  'setLevelsOfDetailBias:':
+    'prefix': 'setLevelsOfDetailBias:'
+    'body': 'setLevelsOfDetailBias(${1:size_t levelsOfDetailBias})'
+  'setTileSize:':
+    'prefix': 'setTileSize:'
+    'body': 'setTileSize(${1:CGSize tileSize})'
+  'tileSize':
+    'prefix': 'tileSize'
+    'body': 'tileSize()'
+  'CATransaction.animationDuration':
+    'prefix': 'animationDuration'
+    'body': 'CATransaction.animationDuration()'
+  'CATransaction.animationTimingFunction':
+    'prefix': 'animationTimingFunction'
+    'body': 'CATransaction.animationTimingFunction()'
+  'CATransaction.begin':
+    'prefix': 'begin'
+    'body': 'CATransaction.begin()'
+  'CATransaction.commit':
+    'prefix': 'commit'
+    'body': 'CATransaction.commit()'
+  'CATransaction.completionBlock':
+    'prefix': 'completionBlock'
+    'body': 'CATransaction.completionBlock()'
+  'CATransaction.disableActions':
+    'prefix': 'disableActions'
+    'body': 'CATransaction.disableActions()'
+  'CATransaction.flush':
+    'prefix': 'flush'
+    'body': 'CATransaction.flush()'
+  'CATransaction.lock':
+    'prefix': 'lock'
+    'body': 'CATransaction.lock()'
+  'CATransaction.setAnimationDuration:':
+    'prefix': 'setAnimationDuration:'
+    'body': 'CATransaction.setAnimationDuration(${1:CFTimeInterval dur})'
+  'CATransaction.setAnimationTimingFunction:':
+    'prefix': 'setAnimationTimingFunction:'
+    'body': 'CATransaction.setAnimationTimingFunction(${1:CAMediaTimingFunction* function})'
+  'CATransaction.setCompletionBlock:':
+    'prefix': 'setCompletionBlock:'
+    'body': 'CATransaction.setCompletionBlock(${1:void (^)(void) block})'
+  'CATransaction.setDisableActions:':
+    'prefix': 'setDisableActions:'
+    'body': 'CATransaction.setDisableActions(${1:BOOL flag})'
+  'CATransaction.setValue:forKey:':
+    'prefix': 'setValue:forKey:'
+    'body': 'CATransaction.setValue(${1:id anObject}, forKey:${2:NSString* key})'
+  'CATransaction.unlock':
+    'prefix': 'unlock'
+    'body': 'CATransaction.unlock()'
+  'CATransaction.valueForKey:':
+    'prefix': 'valueForKey:'
+    'body': 'CATransaction.valueForKey(${1:NSString* key})'
+  'endProgress':
+    'prefix': 'endProgress'
+    'body': 'endProgress()'
+  'filter':
+    'prefix': 'filter'
+    'body': 'filter()'
+  'setEndProgress:':
+    'prefix': 'setEndProgress:'
+    'body': 'setEndProgress(${1:float endProgress})'
+  'setFilter:':
+    'prefix': 'setFilter:'
+    'body': 'setFilter(${1:id filter})'
+  'setStartProgress:':
+    'prefix': 'setStartProgress:'
+    'body': 'setStartProgress(${1:float startProgress})'
+  'setSubtype:':
+    'prefix': 'setSubtype:'
+    'body': 'setSubtype(${1:NSString* subtype})'
+  'setType:':
+    'prefix': 'setType:'
+    'body': 'setType(${1:NSString* type})'
+  'startProgress':
+    'prefix': 'startProgress'
+    'body': 'startProgress()'
+  'subtype':
+    'prefix': 'subtype'
+    'body': 'subtype()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'CAValueFunction.functionWithName:':
+    'prefix': 'functionWithName:'
+    'body': 'CAValueFunction.functionWithName(${1:NSString* name})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'actionForLayer:forKey:':
+    'prefix': 'actionForLayer:forKey:'
+    'body': 'actionForLayer(${1:CALayer* layer}, forKey:${2:NSString* event})'
+  'animationDidStart:':
+    'prefix': 'animationDidStart:'
+    'body': 'animationDidStart(${1:CAAnimation* anim})'
+  'animationDidStop:finished:':
+    'prefix': 'animationDidStop:finished:'
+    'body': 'animationDidStop(${1:CAAnimation* anim}, finished:${2:BOOL flag})'
+  'autoreverses':
+    'prefix': 'autoreverses'
+    'body': 'autoreverses()'
+  'beginTime':
+    'prefix': 'beginTime'
+    'body': 'beginTime()'
+  'displayLayer:':
+    'prefix': 'displayLayer:'
+    'body': 'displayLayer(${1:CALayer* layer})'
+  'drawLayer:inContext:':
+    'prefix': 'drawLayer:inContext:'
+    'body': 'drawLayer(${1:CALayer* layer}, inContext:${2:CGContextRef ctx})'
+  'duration':
+    'prefix': 'duration'
+    'body': 'duration()'
+  'fillMode':
+    'prefix': 'fillMode'
+    'body': 'fillMode()'
+  'layoutSublayersOfLayer:':
+    'prefix': 'layoutSublayersOfLayer:'
+    'body': 'layoutSublayersOfLayer(${1:CALayer* layer})'
+  'repeatCount':
+    'prefix': 'repeatCount'
+    'body': 'repeatCount()'
+  'repeatDuration':
+    'prefix': 'repeatDuration'
+    'body': 'repeatDuration()'
+  'runActionForKey:object:arguments:':
+    'prefix': 'runActionForKey:object:arguments:'
+    'body': 'runActionForKey(${1:NSString* event}, object:${2:id anObject}, arguments:${3:NSDictionary* dict})'
+  'setAutoreverses:':
+    'prefix': 'setAutoreverses:'
+    'body': 'setAutoreverses(${1:BOOL autoreverses})'
+  'setBeginTime:':
+    'prefix': 'setBeginTime:'
+    'body': 'setBeginTime(${1:CFTimeInterval beginTime})'
+  'setDuration:':
+    'prefix': 'setDuration:'
+    'body': 'setDuration(${1:CFTimeInterval duration})'
+  'setFillMode:':
+    'prefix': 'setFillMode:'
+    'body': 'setFillMode(${1:NSString* fillMode})'
+  'setRepeatCount:':
+    'prefix': 'setRepeatCount:'
+    'body': 'setRepeatCount(${1:float repeatCount})'
+  'setRepeatDuration:':
+    'prefix': 'setRepeatDuration:'
+    'body': 'setRepeatDuration(${1:CFTimeInterval repeatDuration})'
+  'setSpeed:':
+    'prefix': 'setSpeed:'
+    'body': 'setSpeed(${1:float speed})'
+  'setTimeOffset:':
+    'prefix': 'setTimeOffset:'
+    'body': 'setTimeOffset(${1:CFTimeInterval timeOffset})'
+  'speed':
+    'prefix': 'speed'
+    'body': 'speed()'
+  'timeOffset':
+    'prefix': 'timeOffset'
+    'body': 'timeOffset()'
+  'CATransform3DValue':
+    'prefix': 'CATransform3DValue'
+    'body': 'CATransform3DValue()'
+  'NSValue.valueWithCATransform3D:':
+    'prefix': 'valueWithCATransform3D:'
+    'body': 'NSValue.valueWithCATransform3D(${1:CATransform3D t})'
+  'runActionForKey:object:arguments:':
+    'prefix': 'runActionForKey:object:arguments:'
+    'body': 'runActionForKey(${1:NSString* event}, object:${2:id anObject}, arguments:${3:NSDictionary* dict})'
+  'animationDidStart:':
+    'prefix': 'animationDidStart:'
+    'body': 'animationDidStart(${1:CAAnimation* anim})'
+  'animationDidStop:finished:':
+    'prefix': 'animationDidStop:finished:'
+    'body': 'animationDidStop(${1:CAAnimation* anim}, finished:${2:BOOL flag})'
+  'actionForLayer:forKey:':
+    'prefix': 'actionForLayer:forKey:'
+    'body': 'actionForLayer(${1:CALayer* layer}, forKey:${2:NSString* event})'
+  'displayLayer:':
+    'prefix': 'displayLayer:'
+    'body': 'displayLayer(${1:CALayer* layer})'
+  'drawLayer:inContext:':
+    'prefix': 'drawLayer:inContext:'
+    'body': 'drawLayer(${1:CALayer* layer}, inContext:${2:CGContextRef ctx})'
+  'layoutSublayersOfLayer:':
+    'prefix': 'layoutSublayersOfLayer:'
+    'body': 'layoutSublayersOfLayer(${1:CALayer* layer})'
+  'autoreverses':
+    'prefix': 'autoreverses'
+    'body': 'autoreverses()'
+  'beginTime':
+    'prefix': 'beginTime'
+    'body': 'beginTime()'
+  'duration':
+    'prefix': 'duration'
+    'body': 'duration()'
+  'fillMode':
+    'prefix': 'fillMode'
+    'body': 'fillMode()'
+  'repeatCount':
+    'prefix': 'repeatCount'
+    'body': 'repeatCount()'
+  'repeatDuration':
+    'prefix': 'repeatDuration'
+    'body': 'repeatDuration()'
+  'setAutoreverses:':
+    'prefix': 'setAutoreverses:'
+    'body': 'setAutoreverses(${1:BOOL autoreverses})'
+  'setBeginTime:':
+    'prefix': 'setBeginTime:'
+    'body': 'setBeginTime(${1:CFTimeInterval beginTime})'
+  'setDuration:':
+    'prefix': 'setDuration:'
+    'body': 'setDuration(${1:CFTimeInterval duration})'
+  'setFillMode:':
+    'prefix': 'setFillMode:'
+    'body': 'setFillMode(${1:NSString* fillMode})'
+  'setRepeatCount:':
+    'prefix': 'setRepeatCount:'
+    'body': 'setRepeatCount(${1:float repeatCount})'
+  'setRepeatDuration:':
+    'prefix': 'setRepeatDuration:'
+    'body': 'setRepeatDuration(${1:CFTimeInterval repeatDuration})'
+  'setSpeed:':
+    'prefix': 'setSpeed:'
+    'body': 'setSpeed(${1:float speed})'
+  'setTimeOffset:':
+    'prefix': 'setTimeOffset:'
+    'body': 'setTimeOffset(${1:CFTimeInterval timeOffset})'
+  'speed':
+    'prefix': 'speed'
+    'body': 'speed()'
+  'timeOffset':
+    'prefix': 'timeOffset'
+    'body': 'timeOffset()'

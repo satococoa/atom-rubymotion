@@ -1,0 +1,649 @@
+'.source.rubymotion':
+  'CWBSSIDDidChangeNotification (NSString*)':
+    'prefix': 'CWBSSIDDidChangeNotification'
+    'body': 'CWBSSIDDidChangeNotification'
+  'CWCountryCodeDidChangeNotification (NSString*)':
+    'prefix': 'CWCountryCodeDidChangeNotification'
+    'body': 'CWCountryCodeDidChangeNotification'
+  'CWErrorDomain (NSString*)':
+    'prefix': 'CWErrorDomain'
+    'body': 'CWErrorDomain'
+  'CWLinkDidChangeNotification (NSString*)':
+    'prefix': 'CWLinkDidChangeNotification'
+    'body': 'CWLinkDidChangeNotification'
+  'CWLinkQualityDidChangeNotification (NSString*)':
+    'prefix': 'CWLinkQualityDidChangeNotification'
+    'body': 'CWLinkQualityDidChangeNotification'
+  'CWLinkQualityNotificationRSSIKey (NSString*)':
+    'prefix': 'CWLinkQualityNotificationRSSIKey'
+    'body': 'CWLinkQualityNotificationRSSIKey'
+  'CWLinkQualityNotificationTransmitRateKey (NSString*)':
+    'prefix': 'CWLinkQualityNotificationTransmitRateKey'
+    'body': 'CWLinkQualityNotificationTransmitRateKey'
+  'CWModeDidChangeNotification (NSString*)':
+    'prefix': 'CWModeDidChangeNotification'
+    'body': 'CWModeDidChangeNotification'
+  'CWPowerDidChangeNotification (NSString*)':
+    'prefix': 'CWPowerDidChangeNotification'
+    'body': 'CWPowerDidChangeNotification'
+  'CWSSIDDidChangeNotification (NSString*)':
+    'prefix': 'CWSSIDDidChangeNotification'
+    'body': 'CWSSIDDidChangeNotification'
+  'CWScanCacheDidUpdateNotification (NSString*)':
+    'prefix': 'CWScanCacheDidUpdateNotification'
+    'body': 'CWScanCacheDidUpdateNotification'
+  'CWServiceDidChangeNotification (NSString*)':
+    'prefix': 'CWServiceDidChangeNotification'
+    'body': 'CWServiceDidChangeNotification'
+  'CoreWLANFrameworkVersionNumber (double)':
+    'prefix': 'CoreWLANFrameworkVersionNumber'
+    'body': 'CoreWLANFrameworkVersionNumber'
+  'CoreWLANFrameworkVersionNumber2_0 (200)':
+    'prefix': 'CoreWLANFrameworkVersionNumber2_0'
+    'body': 'CoreWLANFrameworkVersionNumber2_0'
+  'kCWAPFullErr (-3913)':
+    'prefix': 'kCWAPFullErr'
+    'body': 'KCWAPFullErr'
+  'kCWAssociationDeniedErr (-3909)':
+    'prefix': 'kCWAssociationDeniedErr'
+    'body': 'KCWAssociationDeniedErr'
+  'kCWAuthenticationAlgorithmUnsupportedErr (-3910)':
+    'prefix': 'kCWAuthenticationAlgorithmUnsupportedErr'
+    'body': 'KCWAuthenticationAlgorithmUnsupportedErr'
+  'kCWChallengeFailureErr (-3912)':
+    'prefix': 'kCWChallengeFailureErr'
+    'body': 'KCWChallengeFailureErr'
+  'kCWChannelBand2GHz (1)':
+    'prefix': 'kCWChannelBand2GHz'
+    'body': 'KCWChannelBand2GHz'
+  'kCWChannelBand5GHz (2)':
+    'prefix': 'kCWChannelBand5GHz'
+    'body': 'KCWChannelBand5GHz'
+  'kCWChannelBandUnknown (0)':
+    'prefix': 'kCWChannelBandUnknown'
+    'body': 'KCWChannelBandUnknown'
+  'kCWChannelWidth160MHz (4)':
+    'prefix': 'kCWChannelWidth160MHz'
+    'body': 'KCWChannelWidth160MHz'
+  'kCWChannelWidth20MHz (1)':
+    'prefix': 'kCWChannelWidth20MHz'
+    'body': 'KCWChannelWidth20MHz'
+  'kCWChannelWidth40MHz (2)':
+    'prefix': 'kCWChannelWidth40MHz'
+    'body': 'KCWChannelWidth40MHz'
+  'kCWChannelWidth80MHz (3)':
+    'prefix': 'kCWChannelWidth80MHz'
+    'body': 'KCWChannelWidth80MHz'
+  'kCWChannelWidthUnknown (0)':
+    'prefix': 'kCWChannelWidthUnknown'
+    'body': 'KCWChannelWidthUnknown'
+  'kCWCipherKeyFlagsMulticast (4)':
+    'prefix': 'kCWCipherKeyFlagsMulticast'
+    'body': 'KCWCipherKeyFlagsMulticast'
+  'kCWCipherKeyFlagsNone (0)':
+    'prefix': 'kCWCipherKeyFlagsNone'
+    'body': 'KCWCipherKeyFlagsNone'
+  'kCWCipherKeyFlagsRx (16)':
+    'prefix': 'kCWCipherKeyFlagsRx'
+    'body': 'KCWCipherKeyFlagsRx'
+  'kCWCipherKeyFlagsTx (8)':
+    'prefix': 'kCWCipherKeyFlagsTx'
+    'body': 'KCWCipherKeyFlagsTx'
+  'kCWCipherKeyFlagsUnicast (2)':
+    'prefix': 'kCWCipherKeyFlagsUnicast'
+    'body': 'KCWCipherKeyFlagsUnicast'
+  'kCWCipherSuiteRejectedErr (-3923)':
+    'prefix': 'kCWCipherSuiteRejectedErr'
+    'body': 'KCWCipherSuiteRejectedErr'
+  'kCWDSSSOFDMUnsupportedErr (-3916)':
+    'prefix': 'kCWDSSSOFDMUnsupportedErr'
+    'body': 'KCWDSSSOFDMUnsupportedErr'
+  'kCWEAPOLErr (1)':
+    'prefix': 'kCWEAPOLErr'
+    'body': 'KCWEAPOLErr'
+  'kCWErr (-3931)':
+    'prefix': 'kCWErr'
+    'body': 'KCWErr'
+  'kCWHTFeaturesNotSupportedErr (-3926)':
+    'prefix': 'kCWHTFeaturesNotSupportedErr'
+    'body': 'KCWHTFeaturesNotSupportedErr'
+  'kCWIBSSModeSecurityNone (0)':
+    'prefix': 'kCWIBSSModeSecurityNone'
+    'body': 'KCWIBSSModeSecurityNone'
+  'kCWIBSSModeSecurityWEP104 (2)':
+    'prefix': 'kCWIBSSModeSecurityWEP104'
+    'body': 'KCWIBSSModeSecurityWEP104'
+  'kCWIBSSModeSecurityWEP40 (1)':
+    'prefix': 'kCWIBSSModeSecurityWEP40'
+    'body': 'KCWIBSSModeSecurityWEP40'
+  'kCWIPCFailureErr (-3929)':
+    'prefix': 'kCWIPCFailureErr'
+    'body': 'KCWIPCFailureErr'
+  'kCWInterfaceModeHostAP (3)':
+    'prefix': 'kCWInterfaceModeHostAP'
+    'body': 'KCWInterfaceModeHostAP'
+  'kCWInterfaceModeIBSS (2)':
+    'prefix': 'kCWInterfaceModeIBSS'
+    'body': 'KCWInterfaceModeIBSS'
+  'kCWInterfaceModeNone (0)':
+    'prefix': 'kCWInterfaceModeNone'
+    'body': 'KCWInterfaceModeNone'
+  'kCWInterfaceModeStation (1)':
+    'prefix': 'kCWInterfaceModeStation'
+    'body': 'KCWInterfaceModeStation'
+  'kCWInvalidAKMPErr (-3920)':
+    'prefix': 'kCWInvalidAKMPErr'
+    'body': 'KCWInvalidAKMPErr'
+  'kCWInvalidAuthenticationSequenceNumberErr (-3911)':
+    'prefix': 'kCWInvalidAuthenticationSequenceNumberErr'
+    'body': 'KCWInvalidAuthenticationSequenceNumberErr'
+  'kCWInvalidFormatErr (-3904)':
+    'prefix': 'kCWInvalidFormatErr'
+    'body': 'KCWInvalidFormatErr'
+  'kCWInvalidGroupCipherErr (-3918)':
+    'prefix': 'kCWInvalidGroupCipherErr'
+    'body': 'KCWInvalidGroupCipherErr'
+  'kCWInvalidInformationElementErr (-3917)':
+    'prefix': 'kCWInvalidInformationElementErr'
+    'body': 'KCWInvalidInformationElementErr'
+  'kCWInvalidPMKErr (-3924)':
+    'prefix': 'kCWInvalidPMKErr'
+    'body': 'KCWInvalidPMKErr'
+  'kCWInvalidPairwiseCipherErr (-3919)':
+    'prefix': 'kCWInvalidPairwiseCipherErr'
+    'body': 'KCWInvalidPairwiseCipherErr'
+  'kCWInvalidParameterErr (-3900)':
+    'prefix': 'kCWInvalidParameterErr'
+    'body': 'KCWInvalidParameterErr'
+  'kCWInvalidRSNCapabilitiesErr (-3922)':
+    'prefix': 'kCWInvalidRSNCapabilitiesErr'
+    'body': 'KCWInvalidRSNCapabilitiesErr'
+  'kCWKeychainDomainNone (0)':
+    'prefix': 'kCWKeychainDomainNone'
+    'body': 'KCWKeychainDomainNone'
+  'kCWKeychainDomainSystem (2)':
+    'prefix': 'kCWKeychainDomainSystem'
+    'body': 'KCWKeychainDomainSystem'
+  'kCWKeychainDomainUser (1)':
+    'prefix': 'kCWKeychainDomainUser'
+    'body': 'KCWKeychainDomainUser'
+  'kCWNoErr (0)':
+    'prefix': 'kCWNoErr'
+    'body': 'KCWNoErr'
+  'kCWNoMemoryErr (-3901)':
+    'prefix': 'kCWNoMemoryErr'
+    'body': 'KCWNoMemoryErr'
+  'kCWNotSupportedErr (-3903)':
+    'prefix': 'kCWNotSupportedErr'
+    'body': 'KCWNotSupportedErr'
+  'kCWOperationNotPermittedErr (-3930)':
+    'prefix': 'kCWOperationNotPermittedErr'
+    'body': 'KCWOperationNotPermittedErr'
+  'kCWPCOTransitionTimeNotSupportedErr (-3927)':
+    'prefix': 'kCWPCOTransitionTimeNotSupportedErr'
+    'body': 'KCWPCOTransitionTimeNotSupportedErr'
+  'kCWPHYMode11a (1)':
+    'prefix': 'kCWPHYMode11a'
+    'body': 'KCWPHYMode11a'
+  'kCWPHYMode11ac (5)':
+    'prefix': 'kCWPHYMode11ac'
+    'body': 'KCWPHYMode11ac'
+  'kCWPHYMode11b (2)':
+    'prefix': 'kCWPHYMode11b'
+    'body': 'KCWPHYMode11b'
+  'kCWPHYMode11g (3)':
+    'prefix': 'kCWPHYMode11g'
+    'body': 'KCWPHYMode11g'
+  'kCWPHYMode11n (4)':
+    'prefix': 'kCWPHYMode11n'
+    'body': 'KCWPHYMode11n'
+  'kCWPHYModeNone (0)':
+    'prefix': 'kCWPHYModeNone'
+    'body': 'KCWPHYModeNone'
+  'kCWReassociationDeniedErr (-3908)':
+    'prefix': 'kCWReassociationDeniedErr'
+    'body': 'KCWReassociationDeniedErr'
+  'kCWReferenceNotBoundErr (-3928)':
+    'prefix': 'kCWReferenceNotBoundErr'
+    'body': 'KCWReferenceNotBoundErr'
+  'kCWSecurityDynamicWEP (6)':
+    'prefix': 'kCWSecurityDynamicWEP'
+    'body': 'KCWSecurityDynamicWEP'
+  'kCWSecurityEnterprise (10)':
+    'prefix': 'kCWSecurityEnterprise'
+    'body': 'KCWSecurityEnterprise'
+  'kCWSecurityNone (0)':
+    'prefix': 'kCWSecurityNone'
+    'body': 'KCWSecurityNone'
+  'kCWSecurityPersonal (5)':
+    'prefix': 'kCWSecurityPersonal'
+    'body': 'KCWSecurityPersonal'
+  'kCWSecurityUnknown (2147483647)':
+    'prefix': 'kCWSecurityUnknown'
+    'body': 'KCWSecurityUnknown'
+  'kCWSecurityWEP (1)':
+    'prefix': 'kCWSecurityWEP'
+    'body': 'KCWSecurityWEP'
+  'kCWSecurityWPA2Enterprise (9)':
+    'prefix': 'kCWSecurityWPA2Enterprise'
+    'body': 'KCWSecurityWPA2Enterprise'
+  'kCWSecurityWPA2Personal (4)':
+    'prefix': 'kCWSecurityWPA2Personal'
+    'body': 'KCWSecurityWPA2Personal'
+  'kCWSecurityWPAEnterprise (7)':
+    'prefix': 'kCWSecurityWPAEnterprise'
+    'body': 'KCWSecurityWPAEnterprise'
+  'kCWSecurityWPAEnterpriseMixed (8)':
+    'prefix': 'kCWSecurityWPAEnterpriseMixed'
+    'body': 'KCWSecurityWPAEnterpriseMixed'
+  'kCWSecurityWPAPersonal (2)':
+    'prefix': 'kCWSecurityWPAPersonal'
+    'body': 'KCWSecurityWPAPersonal'
+  'kCWSecurityWPAPersonalMixed (3)':
+    'prefix': 'kCWSecurityWPAPersonalMixed'
+    'body': 'KCWSecurityWPAPersonalMixed'
+  'kCWShortSlotUnsupportedErr (-3915)':
+    'prefix': 'kCWShortSlotUnsupportedErr'
+    'body': 'KCWShortSlotUnsupportedErr'
+  'kCWSupplicantTimeoutErr (-3925)':
+    'prefix': 'kCWSupplicantTimeoutErr'
+    'body': 'KCWSupplicantTimeoutErr'
+  'kCWTimeoutErr (-3905)':
+    'prefix': 'kCWTimeoutErr'
+    'body': 'KCWTimeoutErr'
+  'kCWUnknownErr (-3902)':
+    'prefix': 'kCWUnknownErr'
+    'body': 'KCWUnknownErr'
+  'kCWUnspecifiedFailureErr (-3906)':
+    'prefix': 'kCWUnspecifiedFailureErr'
+    'body': 'KCWUnspecifiedFailureErr'
+  'kCWUnsupportedCapabilitiesErr (-3907)':
+    'prefix': 'kCWUnsupportedCapabilitiesErr'
+    'body': 'KCWUnsupportedCapabilitiesErr'
+  'kCWUnsupportedRSNVersionErr (-3921)':
+    'prefix': 'kCWUnsupportedRSNVersionErr'
+    'body': 'KCWUnsupportedRSNVersionErr'
+  'kCWUnsupportedRateSetErr (-3914)':
+    'prefix': 'kCWUnsupportedRateSetErr'
+    'body': 'KCWUnsupportedRateSetErr'
+  'CWKeychainCopyEAPIdentity':
+    'prefix': 'CWKeychainCopyEAPIdentity'
+    'body': 'CWKeychainCopyEAPIdentity(${1:CFDataRef ssidData}, ${2:SecIdentityRef* identity})'
+  'CWKeychainCopyEAPIdentityList':
+    'prefix': 'CWKeychainCopyEAPIdentityList'
+    'body': 'CWKeychainCopyEAPIdentityList(${1:CFArrayRef* list})'
+  'CWKeychainCopyEAPUsernameAndPassword':
+    'prefix': 'CWKeychainCopyEAPUsernameAndPassword'
+    'body': 'CWKeychainCopyEAPUsernameAndPassword(${1:CFDataRef ssidData}, ${2:CFStringRef* username}, ${3:CFStringRef* password})'
+  'CWKeychainCopyPassword':
+    'prefix': 'CWKeychainCopyPassword'
+    'body': 'CWKeychainCopyPassword(${1:CFDataRef ssidData}, ${2:CFStringRef* password})'
+  'CWKeychainCopyWiFiEAPIdentity':
+    'prefix': 'CWKeychainCopyWiFiEAPIdentity'
+    'body': 'CWKeychainCopyWiFiEAPIdentity(${1:CWKeychainDomain domain}, ${2:NSData* ssid}, ${3:SecIdentityRef* identity})'
+  'CWKeychainDeleteEAPUsernameAndPassword':
+    'prefix': 'CWKeychainDeleteEAPUsernameAndPassword'
+    'body': 'CWKeychainDeleteEAPUsernameAndPassword(${1:CFDataRef ssidData})'
+  'CWKeychainDeletePassword':
+    'prefix': 'CWKeychainDeletePassword'
+    'body': 'CWKeychainDeletePassword(${1:CFDataRef ssidData})'
+  'CWKeychainDeleteWiFiEAPUsernameAndPassword':
+    'prefix': 'CWKeychainDeleteWiFiEAPUsernameAndPassword'
+    'body': 'CWKeychainDeleteWiFiEAPUsernameAndPassword(${1:CWKeychainDomain domain}, ${2:NSData* ssid})'
+  'CWKeychainDeleteWiFiPassword':
+    'prefix': 'CWKeychainDeleteWiFiPassword'
+    'body': 'CWKeychainDeleteWiFiPassword(${1:CWKeychainDomain domain}, ${2:NSData* ssid})'
+  'CWKeychainFindWiFiEAPUsernameAndPassword':
+    'prefix': 'CWKeychainFindWiFiEAPUsernameAndPassword'
+    'body': 'CWKeychainFindWiFiEAPUsernameAndPassword(${1:CWKeychainDomain domain}, ${2:NSData* ssid}, ${3:NSString** username}, ${4:NSString** password})'
+  'CWKeychainFindWiFiPassword':
+    'prefix': 'CWKeychainFindWiFiPassword'
+    'body': 'CWKeychainFindWiFiPassword(${1:CWKeychainDomain domain}, ${2:NSData* ssid}, ${3:NSString** password})'
+  'CWKeychainSetEAPIdentity':
+    'prefix': 'CWKeychainSetEAPIdentity'
+    'body': 'CWKeychainSetEAPIdentity(${1:CFDataRef ssidData}, ${2:SecIdentityRef identity})'
+  'CWKeychainSetEAPUsernameAndPassword':
+    'prefix': 'CWKeychainSetEAPUsernameAndPassword'
+    'body': 'CWKeychainSetEAPUsernameAndPassword(${1:CFDataRef ssidData}, ${2:CFStringRef username}, ${3:CFStringRef password})'
+  'CWKeychainSetPassword':
+    'prefix': 'CWKeychainSetPassword'
+    'body': 'CWKeychainSetPassword(${1:CFDataRef ssidData}, ${2:CFStringRef password})'
+  'CWKeychainSetWiFiEAPIdentity':
+    'prefix': 'CWKeychainSetWiFiEAPIdentity'
+    'body': 'CWKeychainSetWiFiEAPIdentity(${1:CWKeychainDomain domain}, ${2:NSData* ssid}, ${3:SecIdentityRef identity})'
+  'CWKeychainSetWiFiEAPUsernameAndPassword':
+    'prefix': 'CWKeychainSetWiFiEAPUsernameAndPassword'
+    'body': 'CWKeychainSetWiFiEAPUsernameAndPassword(${1:CWKeychainDomain domain}, ${2:NSData* ssid}, ${3:NSString* username}, ${4:NSString* password})'
+  'CWKeychainSetWiFiPassword':
+    'prefix': 'CWKeychainSetWiFiPassword'
+    'body': 'CWKeychainSetWiFiPassword(${1:CWKeychainDomain domain}, ${2:NSData* ssid}, ${3:NSString* password})'
+  'CWMergeNetworks':
+    'prefix': 'CWMergeNetworks'
+    'body': 'CWMergeNetworks(${1:NSSet* networks})'
+  'CW8021XProfile.allUser8021XProfiles':
+    'prefix': 'allUser8021XProfiles'
+    'body': 'CW8021XProfile.allUser8021XProfiles()'
+  'alwaysPromptForPassword':
+    'prefix': 'alwaysPromptForPassword'
+    'body': 'alwaysPromptForPassword()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'isEqualToProfile:':
+    'prefix': 'isEqualToProfile:'
+    'body': 'isEqualToProfile(${1:CW8021XProfile* profile})'
+  'password':
+    'prefix': 'password'
+    'body': 'password()'
+  'CW8021XProfile.profile':
+    'prefix': 'profile'
+    'body': 'CW8021XProfile.profile()'
+  'setAlwaysPromptForPassword:':
+    'prefix': 'setAlwaysPromptForPassword:'
+    'body': 'setAlwaysPromptForPassword(${1:BOOL alwaysPromptForPassword})'
+  'setPassword:':
+    'prefix': 'setPassword:'
+    'body': 'setPassword(${1:NSString* password})'
+  'setSsid:':
+    'prefix': 'setSsid:'
+    'body': 'setSsid(${1:NSString* ssid})'
+  'setUserDefinedName:':
+    'prefix': 'setUserDefinedName:'
+    'body': 'setUserDefinedName(${1:NSString* userDefinedName})'
+  'setUsername:':
+    'prefix': 'setUsername:'
+    'body': 'setUsername(${1:NSString* username})'
+  'ssid':
+    'prefix': 'ssid'
+    'body': 'ssid()'
+  'userDefinedName':
+    'prefix': 'userDefinedName'
+    'body': 'userDefinedName()'
+  'username':
+    'prefix': 'username'
+    'body': 'username()'
+  'channelBand':
+    'prefix': 'channelBand'
+    'body': 'channelBand()'
+  'channelNumber':
+    'prefix': 'channelNumber'
+    'body': 'channelNumber()'
+  'channelWidth':
+    'prefix': 'channelWidth'
+    'body': 'channelWidth()'
+  'isEqualToChannel:':
+    'prefix': 'isEqualToChannel:'
+    'body': 'isEqualToChannel(${1:CWChannel* channel})'
+  'CWConfiguration.configuration':
+    'prefix': 'configuration'
+    'body': 'CWConfiguration.configuration()'
+  'CWConfiguration.configurationWithConfiguration:':
+    'prefix': 'configurationWithConfiguration:'
+    'body': 'CWConfiguration.configurationWithConfiguration(${1:CWConfiguration* configuration})'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithConfiguration:':
+    'prefix': 'initWithConfiguration:'
+    'body': 'initWithConfiguration(${1:CWConfiguration* configuration})'
+  'isEqualToConfiguration:':
+    'prefix': 'isEqualToConfiguration:'
+    'body': 'isEqualToConfiguration(${1:CWConfiguration* configuration})'
+  'networkProfiles':
+    'prefix': 'networkProfiles'
+    'body': 'networkProfiles()'
+  'rememberJoinedNetworks':
+    'prefix': 'rememberJoinedNetworks'
+    'body': 'rememberJoinedNetworks()'
+  'requireAdministratorForAssociation':
+    'prefix': 'requireAdministratorForAssociation'
+    'body': 'requireAdministratorForAssociation()'
+  'requireAdministratorForIBSSMode':
+    'prefix': 'requireAdministratorForIBSSMode'
+    'body': 'requireAdministratorForIBSSMode()'
+  'requireAdministratorForPower':
+    'prefix': 'requireAdministratorForPower'
+    'body': 'requireAdministratorForPower()'
+  'activePHYMode':
+    'prefix': 'activePHYMode'
+    'body': 'activePHYMode()'
+  'associateToEnterpriseNetwork:identity:username:password:error:':
+    'prefix': 'associateToEnterpriseNetwork:identity:username:password:error:'
+    'body': 'associateToEnterpriseNetwork(${1:CWNetwork* network}, identity:${2:SecIdentityRef identity}, username:${3:NSString* username}, password:${4:NSString* password}, error:${5:NSError** error})'
+  'associateToNetwork:password:error:':
+    'prefix': 'associateToNetwork:password:error:'
+    'body': 'associateToNetwork(${1:CWNetwork* network}, password:${2:NSString* password}, error:${3:NSError** error})'
+  'bssid':
+    'prefix': 'bssid'
+    'body': 'bssid()'
+  'cachedScanResults':
+    'prefix': 'cachedScanResults'
+    'body': 'cachedScanResults()'
+  'commitConfiguration:authorization:error:':
+    'prefix': 'commitConfiguration:authorization:error:'
+    'body': 'commitConfiguration(${1:CWConfiguration* configuration}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
+  'configuration':
+    'prefix': 'configuration'
+    'body': 'configuration()'
+  'countryCode':
+    'prefix': 'countryCode'
+    'body': 'countryCode()'
+  'deviceAttached':
+    'prefix': 'deviceAttached'
+    'body': 'deviceAttached()'
+  'disassociate':
+    'prefix': 'disassociate'
+    'body': 'disassociate()'
+  'hardwareAddress':
+    'prefix': 'hardwareAddress'
+    'body': 'hardwareAddress()'
+  'initWithInterfaceName:':
+    'prefix': 'initWithInterfaceName:'
+    'body': 'initWithInterfaceName(${1:NSString* name})'
+  'CWInterface.interface':
+    'prefix': 'interface'
+    'body': 'CWInterface.interface()'
+  'interfaceMode':
+    'prefix': 'interfaceMode'
+    'body': 'interfaceMode()'
+  'interfaceName':
+    'prefix': 'interfaceName'
+    'body': 'interfaceName()'
+  'CWInterface.interfaceNames':
+    'prefix': 'interfaceNames'
+    'body': 'CWInterface.interfaceNames()'
+  'CWInterface.interfaceWithName:':
+    'prefix': 'interfaceWithName:'
+    'body': 'CWInterface.interfaceWithName(${1:NSString* name})'
+  'noiseMeasurement':
+    'prefix': 'noiseMeasurement'
+    'body': 'noiseMeasurement()'
+  'powerOn':
+    'prefix': 'powerOn'
+    'body': 'powerOn()'
+  'rssiValue':
+    'prefix': 'rssiValue'
+    'body': 'rssiValue()'
+  'scanForNetworksWithName:error:':
+    'prefix': 'scanForNetworksWithName:error:'
+    'body': 'scanForNetworksWithName(${1:NSString* networkName}, error:${2:NSError** error})'
+  'scanForNetworksWithSSID:error:':
+    'prefix': 'scanForNetworksWithSSID:error:'
+    'body': 'scanForNetworksWithSSID(${1:NSData* ssid}, error:${2:NSError** error})'
+  'security':
+    'prefix': 'security'
+    'body': 'security()'
+  'serviceActive':
+    'prefix': 'serviceActive'
+    'body': 'serviceActive()'
+  'setPairwiseMasterKey:error:':
+    'prefix': 'setPairwiseMasterKey:error:'
+    'body': 'setPairwiseMasterKey(${1:NSData* key}, error:${2:NSError** error})'
+  'setPower:error:':
+    'prefix': 'setPower:error:'
+    'body': 'setPower(${1:BOOL power}, error:${2:NSError** error})'
+  'setWEPKey:flags:index:error:':
+    'prefix': 'setWEPKey:flags:index:error:'
+    'body': 'setWEPKey(${1:NSData* key}, flags:${2:CWCipherKeyFlags flags}, index:${3:NSUInteger index}, error:${4:NSError** error})'
+  'setWLANChannel:error:':
+    'prefix': 'setWLANChannel:error:'
+    'body': 'setWLANChannel(${1:CWChannel* channel}, error:${2:NSError** error})'
+  'ssid':
+    'prefix': 'ssid'
+    'body': 'ssid()'
+  'ssidData':
+    'prefix': 'ssidData'
+    'body': 'ssidData()'
+  'startIBSSModeWithSSID:security:channel:password:error:':
+    'prefix': 'startIBSSModeWithSSID:security:channel:password:error:'
+    'body': 'startIBSSModeWithSSID(${1:NSData* ssidData}, security:${2:CWIBSSModeSecurity security}, channel:${3:NSUInteger channel}, password:${4:NSString* password}, error:${5:NSError** error})'
+  'supportedWLANChannels':
+    'prefix': 'supportedWLANChannels'
+    'body': 'supportedWLANChannels()'
+  'transmitPower':
+    'prefix': 'transmitPower'
+    'body': 'transmitPower()'
+  'transmitRate':
+    'prefix': 'transmitRate'
+    'body': 'transmitRate()'
+  'wlanChannel':
+    'prefix': 'wlanChannel'
+    'body': 'wlanChannel()'
+  'networkProfiles':
+    'prefix': 'networkProfiles'
+    'body': 'networkProfiles()'
+  'rememberJoinedNetworks':
+    'prefix': 'rememberJoinedNetworks'
+    'body': 'rememberJoinedNetworks()'
+  'requireAdministratorForAssociation':
+    'prefix': 'requireAdministratorForAssociation'
+    'body': 'requireAdministratorForAssociation()'
+  'requireAdministratorForIBSSMode':
+    'prefix': 'requireAdministratorForIBSSMode'
+    'body': 'requireAdministratorForIBSSMode()'
+  'requireAdministratorForPower':
+    'prefix': 'requireAdministratorForPower'
+    'body': 'requireAdministratorForPower()'
+  'setNetworkProfiles:':
+    'prefix': 'setNetworkProfiles:'
+    'body': 'setNetworkProfiles(${1:NSOrderedSet* networkProfiles})'
+  'setRememberJoinedNetworks:':
+    'prefix': 'setRememberJoinedNetworks:'
+    'body': 'setRememberJoinedNetworks(${1:BOOL rememberJoinedNetworks})'
+  'setRequireAdministratorForAssociation:':
+    'prefix': 'setRequireAdministratorForAssociation:'
+    'body': 'setRequireAdministratorForAssociation(${1:BOOL requireAdministratorForAssociation})'
+  'setRequireAdministratorForIBSSMode:':
+    'prefix': 'setRequireAdministratorForIBSSMode:'
+    'body': 'setRequireAdministratorForIBSSMode(${1:BOOL requireAdministratorForIBSSMode})'
+  'setRequireAdministratorForPower:':
+    'prefix': 'setRequireAdministratorForPower:'
+    'body': 'setRequireAdministratorForPower(${1:BOOL requireAdministratorForPower})'
+  'security':
+    'prefix': 'security'
+    'body': 'security()'
+  'setSecurity:':
+    'prefix': 'setSecurity:'
+    'body': 'setSecurity(${1:CWSecurity security})'
+  'setSsidData:':
+    'prefix': 'setSsidData:'
+    'body': 'setSsidData(${1:NSData* ssidData})'
+  'ssidData':
+    'prefix': 'ssidData'
+    'body': 'ssidData()'
+  'beaconInterval':
+    'prefix': 'beaconInterval'
+    'body': 'beaconInterval()'
+  'bssid':
+    'prefix': 'bssid'
+    'body': 'bssid()'
+  'countryCode':
+    'prefix': 'countryCode'
+    'body': 'countryCode()'
+  'ibss':
+    'prefix': 'ibss'
+    'body': 'ibss()'
+  'informationElementData':
+    'prefix': 'informationElementData'
+    'body': 'informationElementData()'
+  'isEqualToNetwork:':
+    'prefix': 'isEqualToNetwork:'
+    'body': 'isEqualToNetwork(${1:CWNetwork* network})'
+  'noiseMeasurement':
+    'prefix': 'noiseMeasurement'
+    'body': 'noiseMeasurement()'
+  'rssiValue':
+    'prefix': 'rssiValue'
+    'body': 'rssiValue()'
+  'ssid':
+    'prefix': 'ssid'
+    'body': 'ssid()'
+  'ssidData':
+    'prefix': 'ssidData'
+    'body': 'ssidData()'
+  'supportsPHYMode:':
+    'prefix': 'supportsPHYMode:'
+    'body': 'supportsPHYMode(${1:CWPHYMode phyMode})'
+  'supportsSecurity:':
+    'prefix': 'supportsSecurity:'
+    'body': 'supportsSecurity(${1:CWSecurity security})'
+  'wlanChannel':
+    'prefix': 'wlanChannel'
+    'body': 'wlanChannel()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithNetworkProfile:':
+    'prefix': 'initWithNetworkProfile:'
+    'body': 'initWithNetworkProfile(${1:CWNetworkProfile* networkProfile})'
+  'isEqualToNetworkProfile:':
+    'prefix': 'isEqualToNetworkProfile:'
+    'body': 'isEqualToNetworkProfile(${1:CWNetworkProfile* networkProfile})'
+  'CWNetworkProfile.networkProfile':
+    'prefix': 'networkProfile'
+    'body': 'CWNetworkProfile.networkProfile()'
+  'CWNetworkProfile.networkProfileWithNetworkProfile:':
+    'prefix': 'networkProfileWithNetworkProfile:'
+    'body': 'CWNetworkProfile.networkProfileWithNetworkProfile(${1:CWNetworkProfile* networkProfile})'
+  'security':
+    'prefix': 'security'
+    'body': 'security()'
+  'ssid':
+    'prefix': 'ssid'
+    'body': 'ssid()'
+  'ssidData':
+    'prefix': 'ssidData'
+    'body': 'ssidData()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'isEqualToProfile:':
+    'prefix': 'isEqualToProfile:'
+    'body': 'isEqualToProfile(${1:CWWirelessProfile* profile})'
+  'passphrase':
+    'prefix': 'passphrase'
+    'body': 'passphrase()'
+  'CWWirelessProfile.profile':
+    'prefix': 'profile'
+    'body': 'CWWirelessProfile.profile()'
+  'securityMode':
+    'prefix': 'securityMode'
+    'body': 'securityMode()'
+  'setPassphrase:':
+    'prefix': 'setPassphrase:'
+    'body': 'setPassphrase(${1:NSString* passphrase})'
+  'setSecurityMode:':
+    'prefix': 'setSecurityMode:'
+    'body': 'setSecurityMode(${1:NSNumber* securityMode})'
+  'setSsid:':
+    'prefix': 'setSsid:'
+    'body': 'setSsid(${1:NSString* ssid})'
+  'setUser8021XProfile:':
+    'prefix': 'setUser8021XProfile:'
+    'body': 'setUser8021XProfile(${1:CW8021XProfile* user8021XProfile})'
+  'ssid':
+    'prefix': 'ssid'
+    'body': 'ssid()'
+  'user8021XProfile':
+    'prefix': 'user8021XProfile'
+    'body': 'user8021XProfile()'

@@ -1,0 +1,1168 @@
+'.source.rubymotion':
+  'AVBErrorDomain (NSString*)':
+    'prefix': 'AVBErrorDomain'
+    'body': 'AVBErrorDomain'
+  'AVB17221ACMPFlagsClassB (1)':
+    'prefix': 'AVB17221ACMPFlagsClassB'
+    'body': 'AVB17221ACMPFlagsClassB'
+  'AVB17221ACMPFlagsFastConnect (2)':
+    'prefix': 'AVB17221ACMPFlagsFastConnect'
+    'body': 'AVB17221ACMPFlagsFastConnect'
+  'AVB17221ACMPFlagsNone (0)':
+    'prefix': 'AVB17221ACMPFlagsNone'
+    'body': 'AVB17221ACMPFlagsNone'
+  'AVB17221ACMPFlagsSavedState (4)':
+    'prefix': 'AVB17221ACMPFlagsSavedState'
+    'body': 'AVB17221ACMPFlagsSavedState'
+  'AVB17221ACMPFlagsStreamingWait (8)':
+    'prefix': 'AVB17221ACMPFlagsStreamingWait'
+    'body': 'AVB17221ACMPFlagsStreamingWait'
+  'AVB17221ACMPMessageTypeConnectRXCommand (6)':
+    'prefix': 'AVB17221ACMPMessageTypeConnectRXCommand'
+    'body': 'AVB17221ACMPMessageTypeConnectRXCommand'
+  'AVB17221ACMPMessageTypeConnectRXResponse (7)':
+    'prefix': 'AVB17221ACMPMessageTypeConnectRXResponse'
+    'body': 'AVB17221ACMPMessageTypeConnectRXResponse'
+  'AVB17221ACMPMessageTypeConnectTXCommand (0)':
+    'prefix': 'AVB17221ACMPMessageTypeConnectTXCommand'
+    'body': 'AVB17221ACMPMessageTypeConnectTXCommand'
+  'AVB17221ACMPMessageTypeConnectTXResponse (1)':
+    'prefix': 'AVB17221ACMPMessageTypeConnectTXResponse'
+    'body': 'AVB17221ACMPMessageTypeConnectTXResponse'
+  'AVB17221ACMPMessageTypeDisconnectRXCommand (8)':
+    'prefix': 'AVB17221ACMPMessageTypeDisconnectRXCommand'
+    'body': 'AVB17221ACMPMessageTypeDisconnectRXCommand'
+  'AVB17221ACMPMessageTypeDisconnectRXResponse (9)':
+    'prefix': 'AVB17221ACMPMessageTypeDisconnectRXResponse'
+    'body': 'AVB17221ACMPMessageTypeDisconnectRXResponse'
+  'AVB17221ACMPMessageTypeDisconnectTXCommand (2)':
+    'prefix': 'AVB17221ACMPMessageTypeDisconnectTXCommand'
+    'body': 'AVB17221ACMPMessageTypeDisconnectTXCommand'
+  'AVB17221ACMPMessageTypeDisconnectTXResponse (3)':
+    'prefix': 'AVB17221ACMPMessageTypeDisconnectTXResponse'
+    'body': 'AVB17221ACMPMessageTypeDisconnectTXResponse'
+  'AVB17221ACMPMessageTypeGetRXStateCommand (10)':
+    'prefix': 'AVB17221ACMPMessageTypeGetRXStateCommand'
+    'body': 'AVB17221ACMPMessageTypeGetRXStateCommand'
+  'AVB17221ACMPMessageTypeGetRXStateResponse (11)':
+    'prefix': 'AVB17221ACMPMessageTypeGetRXStateResponse'
+    'body': 'AVB17221ACMPMessageTypeGetRXStateResponse'
+  'AVB17221ACMPMessageTypeGetTXConnectionCommand (12)':
+    'prefix': 'AVB17221ACMPMessageTypeGetTXConnectionCommand'
+    'body': 'AVB17221ACMPMessageTypeGetTXConnectionCommand'
+  'AVB17221ACMPMessageTypeGetTXConnectionResponse (13)':
+    'prefix': 'AVB17221ACMPMessageTypeGetTXConnectionResponse'
+    'body': 'AVB17221ACMPMessageTypeGetTXConnectionResponse'
+  'AVB17221ACMPMessageTypeGetTXStateCommand (4)':
+    'prefix': 'AVB17221ACMPMessageTypeGetTXStateCommand'
+    'body': 'AVB17221ACMPMessageTypeGetTXStateCommand'
+  'AVB17221ACMPMessageTypeGetTXStateResponse (5)':
+    'prefix': 'AVB17221ACMPMessageTypeGetTXStateResponse'
+    'body': 'AVB17221ACMPMessageTypeGetTXStateResponse'
+  'AVB17221ACMPStatusControllerNotAuthorized (16)':
+    'prefix': 'AVB17221ACMPStatusControllerNotAuthorized'
+    'body': 'AVB17221ACMPStatusControllerNotAuthorized'
+  'AVB17221ACMPStatusIncompatibleRequest (17)':
+    'prefix': 'AVB17221ACMPStatusIncompatibleRequest'
+    'body': 'AVB17221ACMPStatusIncompatibleRequest'
+  'AVB17221ACMPStatusListenerExclusive (8)':
+    'prefix': 'AVB17221ACMPStatusListenerExclusive'
+    'body': 'AVB17221ACMPStatusListenerExclusive'
+  'AVB17221ACMPStatusListenerMisbehaving (14)':
+    'prefix': 'AVB17221ACMPStatusListenerMisbehaving'
+    'body': 'AVB17221ACMPStatusListenerMisbehaving'
+  'AVB17221ACMPStatusListenerTalkerTimeout (7)':
+    'prefix': 'AVB17221ACMPStatusListenerTalkerTimeout'
+    'body': 'AVB17221ACMPStatusListenerTalkerTimeout'
+  'AVB17221ACMPStatusListenerUnknownID (1)':
+    'prefix': 'AVB17221ACMPStatusListenerUnknownID'
+    'body': 'AVB17221ACMPStatusListenerUnknownID'
+  'AVB17221ACMPStatusNoSuchConnection (11)':
+    'prefix': 'AVB17221ACMPStatusNoSuchConnection'
+    'body': 'AVB17221ACMPStatusNoSuchConnection'
+  'AVB17221ACMPStatusNotConnected (10)':
+    'prefix': 'AVB17221ACMPStatusNotConnected'
+    'body': 'AVB17221ACMPStatusNotConnected'
+  'AVB17221ACMPStatusNotSupported (31)':
+    'prefix': 'AVB17221ACMPStatusNotSupported'
+    'body': 'AVB17221ACMPStatusNotSupported'
+  'AVB17221ACMPStatusSRPFace (15)':
+    'prefix': 'AVB17221ACMPStatusSRPFace'
+    'body': 'AVB17221ACMPStatusSRPFace'
+  'AVB17221ACMPStatusStateUnavailable (9)':
+    'prefix': 'AVB17221ACMPStatusStateUnavailable'
+    'body': 'AVB17221ACMPStatusStateUnavailable'
+  'AVB17221ACMPStatusSuccess (0)':
+    'prefix': 'AVB17221ACMPStatusSuccess'
+    'body': 'AVB17221ACMPStatusSuccess'
+  'AVB17221ACMPStatusTalkerDestMACFail (3)':
+    'prefix': 'AVB17221ACMPStatusTalkerDestMACFail'
+    'body': 'AVB17221ACMPStatusTalkerDestMACFail'
+  'AVB17221ACMPStatusTalkerExclusive (6)':
+    'prefix': 'AVB17221ACMPStatusTalkerExclusive'
+    'body': 'AVB17221ACMPStatusTalkerExclusive'
+  'AVB17221ACMPStatusTalkerMisbehaving (13)':
+    'prefix': 'AVB17221ACMPStatusTalkerMisbehaving'
+    'body': 'AVB17221ACMPStatusTalkerMisbehaving'
+  'AVB17221ACMPStatusTalkerNoBandwidth (5)':
+    'prefix': 'AVB17221ACMPStatusTalkerNoBandwidth'
+    'body': 'AVB17221ACMPStatusTalkerNoBandwidth'
+  'AVB17221ACMPStatusTalkerNoStreamIndex (4)':
+    'prefix': 'AVB17221ACMPStatusTalkerNoStreamIndex'
+    'body': 'AVB17221ACMPStatusTalkerNoStreamIndex'
+  'AVB17221ACMPStatusTalkerUnknownID (2)':
+    'prefix': 'AVB17221ACMPStatusTalkerUnknownID'
+    'body': 'AVB17221ACMPStatusTalkerUnknownID'
+  'AVB17221ACMPStatusUnableToSendMessage (12)':
+    'prefix': 'AVB17221ACMPStatusUnableToSendMessage'
+    'body': 'AVB17221ACMPStatusUnableToSendMessage'
+  'AVB17221ADPControllerCapabilitiesHasLayer3Proxy (2)':
+    'prefix': 'AVB17221ADPControllerCapabilitiesHasLayer3Proxy'
+    'body': 'AVB17221ADPControllerCapabilitiesHasLayer3Proxy'
+  'AVB17221ADPControllerCapabilitiesImplemented (1)':
+    'prefix': 'AVB17221ADPControllerCapabilitiesImplemented'
+    'body': 'AVB17221ADPControllerCapabilitiesImplemented'
+  'AVB17221ADPEntityCapabilitiesAEMAuthenticationRequired (4096)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAEMAuthenticationRequired'
+    'body': 'AVB17221ADPEntityCapabilitiesAEMAuthenticationRequired'
+  'AVB17221ADPEntityCapabilitiesAEMAuthenticationSupported (2048)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAEMAuthenticationSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesAEMAuthenticationSupported'
+  'AVB17221ADPEntityCapabilitiesAEMIdenitifyControlIndexValid (16384)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAEMIdenitifyControlIndexValid'
+    'body': 'AVB17221ADPEntityCapabilitiesAEMIdenitifyControlIndexValid'
+  'AVB17221ADPEntityCapabilitiesAEMInterfaceIndexValid (32768)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAEMInterfaceIndexValid'
+    'body': 'AVB17221ADPEntityCapabilitiesAEMInterfaceIndexValid'
+  'AVB17221ADPEntityCapabilitiesAEMPersistentAcquireSupported (8192)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAEMPersistentAcquireSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesAEMPersistentAcquireSupported'
+  'AVB17221ADPEntityCapabilitiesAEMSupported (8)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAEMSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesAEMSupported'
+  'AVB17221ADPEntityCapabilitiesASSupported (1024)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesASSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesASSupported'
+  'AVB17221ADPEntityCapabilitiesAddressAccessSupported (2)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAddressAccessSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesAddressAccessSupported'
+  'AVB17221ADPEntityCapabilitiesAssociationIDSupported (32)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAssociationIDSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesAssociationIDSupported'
+  'AVB17221ADPEntityCapabilitiesAssociationIDValid (64)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesAssociationIDValid'
+    'body': 'AVB17221ADPEntityCapabilitiesAssociationIDValid'
+  'AVB17221ADPEntityCapabilitiesClassASupported (256)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesClassASupported'
+    'body': 'AVB17221ADPEntityCapabilitiesClassASupported'
+  'AVB17221ADPEntityCapabilitiesClassBSupported (512)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesClassBSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesClassBSupported'
+  'AVB17221ADPEntityCapabilitiesDFUMode (1)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesDFUMode'
+    'body': 'AVB17221ADPEntityCapabilitiesDFUMode'
+  'AVB17221ADPEntityCapabilitiesEFUMode (1)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesEFUMode'
+    'body': 'AVB17221ADPEntityCapabilitiesEFUMode'
+  'AVB17221ADPEntityCapabilitiesEntityNotReady (131072)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesEntityNotReady'
+    'body': 'AVB17221ADPEntityCapabilitiesEntityNotReady'
+  'AVB17221ADPEntityCapabilitiesGPTPSupported (1024)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesGPTPSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesGPTPSupported'
+  'AVB17221ADPEntityCapabilitiesGatewayEntity (4)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesGatewayEntity'
+    'body': 'AVB17221ADPEntityCapabilitiesGatewayEntity'
+  'AVB17221ADPEntityCapabilitiesGeneralControllerIgnore (65536)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesGeneralControllerIgnore'
+    'body': 'AVB17221ADPEntityCapabilitiesGeneralControllerIgnore'
+  'AVB17221ADPEntityCapabilitiesLegacyAVC (16)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesLegacyAVC'
+    'body': 'AVB17221ADPEntityCapabilitiesLegacyAVC'
+  'AVB17221ADPEntityCapabilitiesVendorUniqueSupported (128)':
+    'prefix': 'AVB17221ADPEntityCapabilitiesVendorUniqueSupported'
+    'body': 'AVB17221ADPEntityCapabilitiesVendorUniqueSupported'
+  'AVB17221ADPListenerCapabilitiesHasAudioSink (16384)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasAudioSink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasAudioSink'
+  'AVB17221ADPListenerCapabilitiesHasControlSink (1024)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasControlSink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasControlSink'
+  'AVB17221ADPListenerCapabilitiesHasMIDISink (8192)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasMIDISink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasMIDISink'
+  'AVB17221ADPListenerCapabilitiesHasMediaClockSink (2048)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasMediaClockSink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasMediaClockSink'
+  'AVB17221ADPListenerCapabilitiesHasOtherSink (512)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasOtherSink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasOtherSink'
+  'AVB17221ADPListenerCapabilitiesHasSMPTESink (4096)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasSMPTESink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasSMPTESink'
+  'AVB17221ADPListenerCapabilitiesHasVideoSink (32768)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesHasVideoSink'
+    'body': 'AVB17221ADPListenerCapabilitiesHasVideoSink'
+  'AVB17221ADPListenerCapabilitiesImplemented (1)':
+    'prefix': 'AVB17221ADPListenerCapabilitiesImplemented'
+    'body': 'AVB17221ADPListenerCapabilitiesImplemented'
+  'AVB17221ADPTalkerCapabilitiesHasAudioSource (16384)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasAudioSource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasAudioSource'
+  'AVB17221ADPTalkerCapabilitiesHasControlSource (1024)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasControlSource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasControlSource'
+  'AVB17221ADPTalkerCapabilitiesHasMIDISource (8192)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasMIDISource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasMIDISource'
+  'AVB17221ADPTalkerCapabilitiesHasMediaClockSource (2048)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasMediaClockSource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasMediaClockSource'
+  'AVB17221ADPTalkerCapabilitiesHasOtherSource (512)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasOtherSource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasOtherSource'
+  'AVB17221ADPTalkerCapabilitiesHasSMPTESource (4096)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasSMPTESource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasSMPTESource'
+  'AVB17221ADPTalkerCapabilitiesHasVideoSource (32768)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesHasVideoSource'
+    'body': 'AVB17221ADPTalkerCapabilitiesHasVideoSource'
+  'AVB17221ADPTalkerCapabilitiesImplemented (1)':
+    'prefix': 'AVB17221ADPTalkerCapabilitiesImplemented'
+    'body': 'AVB17221ADPTalkerCapabilitiesImplemented'
+  'AVB17221AECPAddressAccessTLVModeExecute (2)':
+    'prefix': 'AVB17221AECPAddressAccessTLVModeExecute'
+    'body': 'AVB17221AECPAddressAccessTLVModeExecute'
+  'AVB17221AECPAddressAccessTLVModeRead (0)':
+    'prefix': 'AVB17221AECPAddressAccessTLVModeRead'
+    'body': 'AVB17221AECPAddressAccessTLVModeRead'
+  'AVB17221AECPAddressAccessTLVModeWrite (1)':
+    'prefix': 'AVB17221AECPAddressAccessTLVModeWrite'
+    'body': 'AVB17221AECPAddressAccessTLVModeWrite'
+  'AVB17221AECPMessageTypeAEMCommand (0)':
+    'prefix': 'AVB17221AECPMessageTypeAEMCommand'
+    'body': 'AVB17221AECPMessageTypeAEMCommand'
+  'AVB17221AECPMessageTypeAEMResponse (1)':
+    'prefix': 'AVB17221AECPMessageTypeAEMResponse'
+    'body': 'AVB17221AECPMessageTypeAEMResponse'
+  'AVB17221AECPMessageTypeAddressAccessCommand (2)':
+    'prefix': 'AVB17221AECPMessageTypeAddressAccessCommand'
+    'body': 'AVB17221AECPMessageTypeAddressAccessCommand'
+  'AVB17221AECPMessageTypeAddressAccessResponse (3)':
+    'prefix': 'AVB17221AECPMessageTypeAddressAccessResponse'
+    'body': 'AVB17221AECPMessageTypeAddressAccessResponse'
+  'AVB17221AECPMessageTypeLegacyAVCCommand (4)':
+    'prefix': 'AVB17221AECPMessageTypeLegacyAVCCommand'
+    'body': 'AVB17221AECPMessageTypeLegacyAVCCommand'
+  'AVB17221AECPMessageTypeLegacyAVCResponse (5)':
+    'prefix': 'AVB17221AECPMessageTypeLegacyAVCResponse'
+    'body': 'AVB17221AECPMessageTypeLegacyAVCResponse'
+  'AVB17221AECPMessageTypeVendorUniqueCommand (6)':
+    'prefix': 'AVB17221AECPMessageTypeVendorUniqueCommand'
+    'body': 'AVB17221AECPMessageTypeVendorUniqueCommand'
+  'AVB17221AECPMessageTypeVendorUniqueResponse (7)':
+    'prefix': 'AVB17221AECPMessageTypeVendorUniqueResponse'
+    'body': 'AVB17221AECPMessageTypeVendorUniqueResponse'
+  'AVB17221AECPStatusAVCFailure (2)':
+    'prefix': 'AVB17221AECPStatusAVCFailure'
+    'body': 'AVB17221AECPStatusAVCFailure'
+  'AVB17221AECPStatusAddressAccessAddressInvalid (4)':
+    'prefix': 'AVB17221AECPStatusAddressAccessAddressInvalid'
+    'body': 'AVB17221AECPStatusAddressAccessAddressInvalid'
+  'AVB17221AECPStatusAddressAccessAddressTooHigh (3)':
+    'prefix': 'AVB17221AECPStatusAddressAccessAddressTooHigh'
+    'body': 'AVB17221AECPStatusAddressAccessAddressTooHigh'
+  'AVB17221AECPStatusAddressAccessAddressTooLow (2)':
+    'prefix': 'AVB17221AECPStatusAddressAccessAddressTooLow'
+    'body': 'AVB17221AECPStatusAddressAccessAddressTooLow'
+  'AVB17221AECPStatusAddressAccessDataInvalid (6)':
+    'prefix': 'AVB17221AECPStatusAddressAccessDataInvalid'
+    'body': 'AVB17221AECPStatusAddressAccessDataInvalid'
+  'AVB17221AECPStatusAddressAccessTLVInvalid (5)':
+    'prefix': 'AVB17221AECPStatusAddressAccessTLVInvalid'
+    'body': 'AVB17221AECPStatusAddressAccessTLVInvalid'
+  'AVB17221AECPStatusAddressAccessUnsupported (7)':
+    'prefix': 'AVB17221AECPStatusAddressAccessUnsupported'
+    'body': 'AVB17221AECPStatusAddressAccessUnsupported'
+  'AVB17221AECPStatusBadArguments (7)':
+    'prefix': 'AVB17221AECPStatusBadArguments'
+    'body': 'AVB17221AECPStatusBadArguments'
+  'AVB17221AECPStatusEntityAcquired (4)':
+    'prefix': 'AVB17221AECPStatusEntityAcquired'
+    'body': 'AVB17221AECPStatusEntityAcquired'
+  'AVB17221AECPStatusEntityLocked (3)':
+    'prefix': 'AVB17221AECPStatusEntityLocked'
+    'body': 'AVB17221AECPStatusEntityLocked'
+  'AVB17221AECPStatusEntityMisbehaving (10)':
+    'prefix': 'AVB17221AECPStatusEntityMisbehaving'
+    'body': 'AVB17221AECPStatusEntityMisbehaving'
+  'AVB17221AECPStatusInProgress (9)':
+    'prefix': 'AVB17221AECPStatusInProgress'
+    'body': 'AVB17221AECPStatusInProgress'
+  'AVB17221AECPStatusInsufficientPrivileges (6)':
+    'prefix': 'AVB17221AECPStatusInsufficientPrivileges'
+    'body': 'AVB17221AECPStatusInsufficientPrivileges'
+  'AVB17221AECPStatusNoResources (8)':
+    'prefix': 'AVB17221AECPStatusNoResources'
+    'body': 'AVB17221AECPStatusNoResources'
+  'AVB17221AECPStatusNoSuchDescriptor (2)':
+    'prefix': 'AVB17221AECPStatusNoSuchDescriptor'
+    'body': 'AVB17221AECPStatusNoSuchDescriptor'
+  'AVB17221AECPStatusNotAuthorized (5)':
+    'prefix': 'AVB17221AECPStatusNotAuthorized'
+    'body': 'AVB17221AECPStatusNotAuthorized'
+  'AVB17221AECPStatusNotImplemented (1)':
+    'prefix': 'AVB17221AECPStatusNotImplemented'
+    'body': 'AVB17221AECPStatusNotImplemented'
+  'AVB17221AECPStatusNotSupported (11)':
+    'prefix': 'AVB17221AECPStatusNotSupported'
+    'body': 'AVB17221AECPStatusNotSupported'
+  'AVB17221AECPStatusSuccess (0)':
+    'prefix': 'AVB17221AECPStatusSuccess'
+    'body': 'AVB17221AECPStatusSuccess'
+  'AVB17221AEMCommandTypeAbortOperation (53)':
+    'prefix': 'AVB17221AEMCommandTypeAbortOperation'
+    'body': 'AVB17221AEMCommandTypeAbortOperation'
+  'AVB17221AEMCommandTypeAcquireEntity (0)':
+    'prefix': 'AVB17221AEMCommandTypeAcquireEntity'
+    'body': 'AVB17221AEMCommandTypeAcquireEntity'
+  'AVB17221AEMCommandTypeAddAudioMapping (44)':
+    'prefix': 'AVB17221AEMCommandTypeAddAudioMapping'
+    'body': 'AVB17221AEMCommandTypeAddAudioMapping'
+  'AVB17221AEMCommandTypeAddSensorMapping (50)':
+    'prefix': 'AVB17221AEMCommandTypeAddSensorMapping'
+    'body': 'AVB17221AEMCommandTypeAddSensorMapping'
+  'AVB17221AEMCommandTypeAddVideoMapping (47)':
+    'prefix': 'AVB17221AEMCommandTypeAddVideoMapping'
+    'body': 'AVB17221AEMCommandTypeAddVideoMapping'
+  'AVB17221AEMCommandTypeAuthenticate (59)':
+    'prefix': 'AVB17221AEMCommandTypeAuthenticate'
+    'body': 'AVB17221AEMCommandTypeAuthenticate'
+  'AVB17221AEMCommandTypeAuthenticateAddKey (55)':
+    'prefix': 'AVB17221AEMCommandTypeAuthenticateAddKey'
+    'body': 'AVB17221AEMCommandTypeAuthenticateAddKey'
+  'AVB17221AEMCommandTypeAuthenticateDeleteKey (56)':
+    'prefix': 'AVB17221AEMCommandTypeAuthenticateDeleteKey'
+    'body': 'AVB17221AEMCommandTypeAuthenticateDeleteKey'
+  'AVB17221AEMCommandTypeAuthenticateGetKey (58)':
+    'prefix': 'AVB17221AEMCommandTypeAuthenticateGetKey'
+    'body': 'AVB17221AEMCommandTypeAuthenticateGetKey'
+  'AVB17221AEMCommandTypeAuthenticateGetKeyCount (57)':
+    'prefix': 'AVB17221AEMCommandTypeAuthenticateGetKeyCount'
+    'body': 'AVB17221AEMCommandTypeAuthenticateGetKeyCount'
+  'AVB17221AEMCommandTypeControllerAvailable (3)':
+    'prefix': 'AVB17221AEMCommandTypeControllerAvailable'
+    'body': 'AVB17221AEMCommandTypeControllerAvailable'
+  'AVB17221AEMCommandTypeDeauthenticate (60)':
+    'prefix': 'AVB17221AEMCommandTypeDeauthenticate'
+    'body': 'AVB17221AEMCommandTypeDeauthenticate'
+  'AVB17221AEMCommandTypeDecrementControl (27)':
+    'prefix': 'AVB17221AEMCommandTypeDecrementControl'
+    'body': 'AVB17221AEMCommandTypeDecrementControl'
+  'AVB17221AEMCommandTypeDeregisterUnsolicitedNotification (37)':
+    'prefix': 'AVB17221AEMCommandTypeDeregisterUnsolicitedNotification'
+    'body': 'AVB17221AEMCommandTypeDeregisterUnsolicitedNotification'
+  'AVB17221AEMCommandTypeEntityAvailable (2)':
+    'prefix': 'AVB17221AEMCommandTypeEntityAvailable'
+    'body': 'AVB17221AEMCommandTypeEntityAvailable'
+  'AVB17221AEMCommandTypeGetASPath (40)':
+    'prefix': 'AVB17221AEMCommandTypeGetASPath'
+    'body': 'AVB17221AEMCommandTypeGetASPath'
+  'AVB17221AEMCommandTypeGetAVBInfo (39)':
+    'prefix': 'AVB17221AEMCommandTypeGetAVBInfo'
+    'body': 'AVB17221AEMCommandTypeGetAVBInfo'
+  'AVB17221AEMCommandTypeGetAssociationID (19)':
+    'prefix': 'AVB17221AEMCommandTypeGetAssociationID'
+    'body': 'AVB17221AEMCommandTypeGetAssociationID'
+  'AVB17221AEMCommandTypeGetAudioMap (43)':
+    'prefix': 'AVB17221AEMCommandTypeGetAudioMap'
+    'body': 'AVB17221AEMCommandTypeGetAudioMap'
+  'AVB17221AEMCommandTypeGetClockSource (23)':
+    'prefix': 'AVB17221AEMCommandTypeGetClockSource'
+    'body': 'AVB17221AEMCommandTypeGetClockSource'
+  'AVB17221AEMCommandTypeGetConfiguration (7)':
+    'prefix': 'AVB17221AEMCommandTypeGetConfiguration'
+    'body': 'AVB17221AEMCommandTypeGetConfiguration'
+  'AVB17221AEMCommandTypeGetControl (25)':
+    'prefix': 'AVB17221AEMCommandTypeGetControl'
+    'body': 'AVB17221AEMCommandTypeGetControl'
+  'AVB17221AEMCommandTypeGetCounters (41)':
+    'prefix': 'AVB17221AEMCommandTypeGetCounters'
+    'body': 'AVB17221AEMCommandTypeGetCounters'
+  'AVB17221AEMCommandTypeGetMatrix (33)':
+    'prefix': 'AVB17221AEMCommandTypeGetMatrix'
+    'body': 'AVB17221AEMCommandTypeGetMatrix'
+  'AVB17221AEMCommandTypeGetMixer (31)':
+    'prefix': 'AVB17221AEMCommandTypeGetMixer'
+    'body': 'AVB17221AEMCommandTypeGetMixer'
+  'AVB17221AEMCommandTypeGetName (17)':
+    'prefix': 'AVB17221AEMCommandTypeGetName'
+    'body': 'AVB17221AEMCommandTypeGetName'
+  'AVB17221AEMCommandTypeGetSamplingRate (21)':
+    'prefix': 'AVB17221AEMCommandTypeGetSamplingRate'
+    'body': 'AVB17221AEMCommandTypeGetSamplingRate'
+  'AVB17221AEMCommandTypeGetSensorFormat (13)':
+    'prefix': 'AVB17221AEMCommandTypeGetSensorFormat'
+    'body': 'AVB17221AEMCommandTypeGetSensorFormat'
+  'AVB17221AEMCommandTypeGetSensorMap (49)':
+    'prefix': 'AVB17221AEMCommandTypeGetSensorMap'
+    'body': 'AVB17221AEMCommandTypeGetSensorMap'
+  'AVB17221AEMCommandTypeGetSignalSelector (29)':
+    'prefix': 'AVB17221AEMCommandTypeGetSignalSelector'
+    'body': 'AVB17221AEMCommandTypeGetSignalSelector'
+  'AVB17221AEMCommandTypeGetStreamFormat (9)':
+    'prefix': 'AVB17221AEMCommandTypeGetStreamFormat'
+    'body': 'AVB17221AEMCommandTypeGetStreamFormat'
+  'AVB17221AEMCommandTypeGetStreamInfo (15)':
+    'prefix': 'AVB17221AEMCommandTypeGetStreamInfo'
+    'body': 'AVB17221AEMCommandTypeGetStreamInfo'
+  'AVB17221AEMCommandTypeGetVideoFormat (11)':
+    'prefix': 'AVB17221AEMCommandTypeGetVideoFormat'
+    'body': 'AVB17221AEMCommandTypeGetVideoFormat'
+  'AVB17221AEMCommandTypeGetVideoMap (46)':
+    'prefix': 'AVB17221AEMCommandTypeGetVideoMap'
+    'body': 'AVB17221AEMCommandTypeGetVideoMap'
+  'AVB17221AEMCommandTypeIdentifyNotification (38)':
+    'prefix': 'AVB17221AEMCommandTypeIdentifyNotification'
+    'body': 'AVB17221AEMCommandTypeIdentifyNotification'
+  'AVB17221AEMCommandTypeIncrementControl (26)':
+    'prefix': 'AVB17221AEMCommandTypeIncrementControl'
+    'body': 'AVB17221AEMCommandTypeIncrementControl'
+  'AVB17221AEMCommandTypeLockEntity (1)':
+    'prefix': 'AVB17221AEMCommandTypeLockEntity'
+    'body': 'AVB17221AEMCommandTypeLockEntity'
+  'AVB17221AEMCommandTypeOperationStatus (54)':
+    'prefix': 'AVB17221AEMCommandTypeOperationStatus'
+    'body': 'AVB17221AEMCommandTypeOperationStatus'
+  'AVB17221AEMCommandTypeReadDescriptor (4)':
+    'prefix': 'AVB17221AEMCommandTypeReadDescriptor'
+    'body': 'AVB17221AEMCommandTypeReadDescriptor'
+  'AVB17221AEMCommandTypeReboot (42)':
+    'prefix': 'AVB17221AEMCommandTypeReboot'
+    'body': 'AVB17221AEMCommandTypeReboot'
+  'AVB17221AEMCommandTypeRegisterUnsolicitedNotification (36)':
+    'prefix': 'AVB17221AEMCommandTypeRegisterUnsolicitedNotification'
+    'body': 'AVB17221AEMCommandTypeRegisterUnsolicitedNotification'
+  'AVB17221AEMCommandTypeRemoveAudioMapping (45)':
+    'prefix': 'AVB17221AEMCommandTypeRemoveAudioMapping'
+    'body': 'AVB17221AEMCommandTypeRemoveAudioMapping'
+  'AVB17221AEMCommandTypeRemoveSensorMapping (51)':
+    'prefix': 'AVB17221AEMCommandTypeRemoveSensorMapping'
+    'body': 'AVB17221AEMCommandTypeRemoveSensorMapping'
+  'AVB17221AEMCommandTypeRemoveVideoMapping (48)':
+    'prefix': 'AVB17221AEMCommandTypeRemoveVideoMapping'
+    'body': 'AVB17221AEMCommandTypeRemoveVideoMapping'
+  'AVB17221AEMCommandTypeSetAssociationID (18)':
+    'prefix': 'AVB17221AEMCommandTypeSetAssociationID'
+    'body': 'AVB17221AEMCommandTypeSetAssociationID'
+  'AVB17221AEMCommandTypeSetClockSource (22)':
+    'prefix': 'AVB17221AEMCommandTypeSetClockSource'
+    'body': 'AVB17221AEMCommandTypeSetClockSource'
+  'AVB17221AEMCommandTypeSetConfiguration (6)':
+    'prefix': 'AVB17221AEMCommandTypeSetConfiguration'
+    'body': 'AVB17221AEMCommandTypeSetConfiguration'
+  'AVB17221AEMCommandTypeSetControl (24)':
+    'prefix': 'AVB17221AEMCommandTypeSetControl'
+    'body': 'AVB17221AEMCommandTypeSetControl'
+  'AVB17221AEMCommandTypeSetMatrix (32)':
+    'prefix': 'AVB17221AEMCommandTypeSetMatrix'
+    'body': 'AVB17221AEMCommandTypeSetMatrix'
+  'AVB17221AEMCommandTypeSetMixer (30)':
+    'prefix': 'AVB17221AEMCommandTypeSetMixer'
+    'body': 'AVB17221AEMCommandTypeSetMixer'
+  'AVB17221AEMCommandTypeSetName (16)':
+    'prefix': 'AVB17221AEMCommandTypeSetName'
+    'body': 'AVB17221AEMCommandTypeSetName'
+  'AVB17221AEMCommandTypeSetSamplingRate (20)':
+    'prefix': 'AVB17221AEMCommandTypeSetSamplingRate'
+    'body': 'AVB17221AEMCommandTypeSetSamplingRate'
+  'AVB17221AEMCommandTypeSetSensorFormat (12)':
+    'prefix': 'AVB17221AEMCommandTypeSetSensorFormat'
+    'body': 'AVB17221AEMCommandTypeSetSensorFormat'
+  'AVB17221AEMCommandTypeSetSignalSelector (28)':
+    'prefix': 'AVB17221AEMCommandTypeSetSignalSelector'
+    'body': 'AVB17221AEMCommandTypeSetSignalSelector'
+  'AVB17221AEMCommandTypeSetStreamFormat (8)':
+    'prefix': 'AVB17221AEMCommandTypeSetStreamFormat'
+    'body': 'AVB17221AEMCommandTypeSetStreamFormat'
+  'AVB17221AEMCommandTypeSetStreamInfo (14)':
+    'prefix': 'AVB17221AEMCommandTypeSetStreamInfo'
+    'body': 'AVB17221AEMCommandTypeSetStreamInfo'
+  'AVB17221AEMCommandTypeSetVideoFormat (10)':
+    'prefix': 'AVB17221AEMCommandTypeSetVideoFormat'
+    'body': 'AVB17221AEMCommandTypeSetVideoFormat'
+  'AVB17221AEMCommandTypeStartOperation (52)':
+    'prefix': 'AVB17221AEMCommandTypeStartOperation'
+    'body': 'AVB17221AEMCommandTypeStartOperation'
+  'AVB17221AEMCommandTypeStartStreaming (34)':
+    'prefix': 'AVB17221AEMCommandTypeStartStreaming'
+    'body': 'AVB17221AEMCommandTypeStartStreaming'
+  'AVB17221AEMCommandTypeStopStreaming (35)':
+    'prefix': 'AVB17221AEMCommandTypeStopStreaming'
+    'body': 'AVB17221AEMCommandTypeStopStreaming'
+  'AVB17221AEMCommandTypeWriteDescriptor (5)':
+    'prefix': 'AVB17221AEMCommandTypeWriteDescriptor'
+    'body': 'AVB17221AEMCommandTypeWriteDescriptor'
+  'AVB17221EntityPropertyChangedASGrandmasterID (2048)':
+    'prefix': 'AVB17221EntityPropertyChangedASGrandmasterID'
+    'body': 'AVB17221EntityPropertyChangedASGrandmasterID'
+  'AVB17221EntityPropertyChangedAssociationID (32768)':
+    'prefix': 'AVB17221EntityPropertyChangedAssociationID'
+    'body': 'AVB17221EntityPropertyChangedAssociationID'
+  'AVB17221EntityPropertyChangedAvailableIndex (1024)':
+    'prefix': 'AVB17221EntityPropertyChangedAvailableIndex'
+    'body': 'AVB17221EntityPropertyChangedAvailableIndex'
+  'AVB17221EntityPropertyChangedControllerCapabilities (512)':
+    'prefix': 'AVB17221EntityPropertyChangedControllerCapabilities'
+    'body': 'AVB17221EntityPropertyChangedControllerCapabilities'
+  'AVB17221EntityPropertyChangedEntityCapabilities (16)':
+    'prefix': 'AVB17221EntityPropertyChangedEntityCapabilities'
+    'body': 'AVB17221EntityPropertyChangedEntityCapabilities'
+  'AVB17221EntityPropertyChangedEntityID (2)':
+    'prefix': 'AVB17221EntityPropertyChangedEntityID'
+    'body': 'AVB17221EntityPropertyChangedEntityID'
+  'AVB17221EntityPropertyChangedEntityType (65536)':
+    'prefix': 'AVB17221EntityPropertyChangedEntityType'
+    'body': 'AVB17221EntityPropertyChangedEntityType'
+  'AVB17221EntityPropertyChangedGPTPDomainNumber (524288)':
+    'prefix': 'AVB17221EntityPropertyChangedGPTPDomainNumber'
+    'body': 'AVB17221EntityPropertyChangedGPTPDomainNumber'
+  'AVB17221EntityPropertyChangedGPTPGrandmasterID (2048)':
+    'prefix': 'AVB17221EntityPropertyChangedGPTPGrandmasterID'
+    'body': 'AVB17221EntityPropertyChangedGPTPGrandmasterID'
+  'AVB17221EntityPropertyChangedGUID (2)':
+    'prefix': 'AVB17221EntityPropertyChangedGUID'
+    'body': 'AVB17221EntityPropertyChangedGUID'
+  'AVB17221EntityPropertyChangedIdentifyControlIndex (131072)':
+    'prefix': 'AVB17221EntityPropertyChangedIdentifyControlIndex'
+    'body': 'AVB17221EntityPropertyChangedIdentifyControlIndex'
+  'AVB17221EntityPropertyChangedInterfaceIndex (262144)':
+    'prefix': 'AVB17221EntityPropertyChangedInterfaceIndex'
+    'body': 'AVB17221EntityPropertyChangedInterfaceIndex'
+  'AVB17221EntityPropertyChangedListenerCapabilities (256)':
+    'prefix': 'AVB17221EntityPropertyChangedListenerCapabilities'
+    'body': 'AVB17221EntityPropertyChangedListenerCapabilities'
+  'AVB17221EntityPropertyChangedListenerStreamSinks (128)':
+    'prefix': 'AVB17221EntityPropertyChangedListenerStreamSinks'
+    'body': 'AVB17221EntityPropertyChangedListenerStreamSinks'
+  'AVB17221EntityPropertyChangedMACAddress (4096)':
+    'prefix': 'AVB17221EntityPropertyChangedMACAddress'
+    'body': 'AVB17221EntityPropertyChangedMACAddress'
+  'AVB17221EntityPropertyChangedModelID (8)':
+    'prefix': 'AVB17221EntityPropertyChangedModelID'
+    'body': 'AVB17221EntityPropertyChangedModelID'
+  'AVB17221EntityPropertyChangedTalkerCapabilities (64)':
+    'prefix': 'AVB17221EntityPropertyChangedTalkerCapabilities'
+    'body': 'AVB17221EntityPropertyChangedTalkerCapabilities'
+  'AVB17221EntityPropertyChangedTalkerStreamSources (32)':
+    'prefix': 'AVB17221EntityPropertyChangedTalkerStreamSources'
+    'body': 'AVB17221EntityPropertyChangedTalkerStreamSources'
+  'AVB17221EntityPropertyChangedTimeToLive (1)':
+    'prefix': 'AVB17221EntityPropertyChangedTimeToLive'
+    'body': 'AVB17221EntityPropertyChangedTimeToLive'
+  'AVB17221EntityPropertyChangedVendorID (4)':
+    'prefix': 'AVB17221EntityPropertyChangedVendorID'
+    'body': 'AVB17221EntityPropertyChangedVendorID'
+  'AVBMACAddressSize (6)':
+    'prefix': 'AVBMACAddressSize'
+    'body': 'AVBMACAddressSize'
+  'kAVB17221EntityPropertyChangedCanChangeMask (527361)':
+    'prefix': 'kAVB17221EntityPropertyChangedCanChangeMask'
+    'body': 'KAVB17221EntityPropertyChangedCanChangeMask'
+  'kAVB17221EntityPropertyChangedShouldntChangeMask (496622)':
+    'prefix': 'kAVB17221EntityPropertyChangedShouldntChangeMask'
+    'body': 'KAVB17221EntityPropertyChangedShouldntChangeMask'
+  'AVB17221ACMPInterface.ACMPInterfaceWithInterface:':
+    'prefix': 'ACMPInterfaceWithInterface:'
+    'body': 'AVB17221ACMPInterface.ACMPInterfaceWithInterface(${1:AVBInterface* anInterface})'
+  'AVB17221ACMPInterface.ACMPInterfaceWithInterfaceNamed:':
+    'prefix': 'ACMPInterfaceWithInterfaceNamed:'
+    'body': 'AVB17221ACMPInterface.ACMPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
+  'multicastDestinationAddress':
+    'prefix': 'multicastDestinationAddress'
+    'body': 'multicastDestinationAddress()'
+  'removeHandlerForEntityID:':
+    'prefix': 'removeHandlerForEntityID:'
+    'body': 'removeHandlerForEntityID(${1:uint64_t targetEntityID})'
+  'removeHandlerForGUID:':
+    'prefix': 'removeHandlerForGUID:'
+    'body': 'removeHandlerForGUID(${1:uint64_t targetGUID})'
+  'sendACMPCommandMessage:completionHandler:':
+    'prefix': 'sendACMPCommandMessage:completionHandler:'
+    'body': 'sendACMPCommandMessage(${1:AVB17221ACMPMessage* message}, completionHandler:${2:AVB17221ACMPInterfaceCompletion completionHandler})'
+  'sendACMPResponseMessage:error:':
+    'prefix': 'sendACMPResponseMessage:error:'
+    'body': 'sendACMPResponseMessage(${1:AVB17221ACMPMessage* message}, error:${2:NSError** error})'
+  'setHandler:forEntityID:':
+    'prefix': 'setHandler:forEntityID:'
+    'body': 'setHandler(${1:id handler}, forEntityID:${2:uint64_t targetEntityID})'
+  'setHandler:forGUID:':
+    'prefix': 'setHandler:forGUID:'
+    'body': 'setHandler(${1:id handler}, forGUID:${2:uint64_t targetGUID})'
+  'setMulticastDestinationAddress:':
+    'prefix': 'setMulticastDestinationAddress:'
+    'body': 'setMulticastDestinationAddress(${1:AVBMACAddress* multicastDestinationAddress})'
+  'connectionCount':
+    'prefix': 'connectionCount'
+    'body': 'connectionCount()'
+  'controllerEntityID':
+    'prefix': 'controllerEntityID'
+    'body': 'controllerEntityID()'
+  'controllerGUID':
+    'prefix': 'controllerGUID'
+    'body': 'controllerGUID()'
+  'destinationMAC':
+    'prefix': 'destinationMAC'
+    'body': 'destinationMAC()'
+  'flags':
+    'prefix': 'flags'
+    'body': 'flags()'
+  'listenerEntityID':
+    'prefix': 'listenerEntityID'
+    'body': 'listenerEntityID()'
+  'listenerGUID':
+    'prefix': 'listenerGUID'
+    'body': 'listenerGUID()'
+  'listenerUniqueID':
+    'prefix': 'listenerUniqueID'
+    'body': 'listenerUniqueID()'
+  'messageType':
+    'prefix': 'messageType'
+    'body': 'messageType()'
+  'sequenceID':
+    'prefix': 'sequenceID'
+    'body': 'sequenceID()'
+  'setConnectionCount:':
+    'prefix': 'setConnectionCount:'
+    'body': 'setConnectionCount(${1:uint16_t connectionCount})'
+  'setControllerEntityID:':
+    'prefix': 'setControllerEntityID:'
+    'body': 'setControllerEntityID(${1:uint64_t controllerEntityID})'
+  'setControllerGUID:':
+    'prefix': 'setControllerGUID:'
+    'body': 'setControllerGUID(${1:uint64_t controllerGUID})'
+  'setDestinationMAC:':
+    'prefix': 'setDestinationMAC:'
+    'body': 'setDestinationMAC(${1:AVBMACAddress* destinationMAC})'
+  'setFlags:':
+    'prefix': 'setFlags:'
+    'body': 'setFlags(${1:AVB17221ACMPFlags flags})'
+  'setListenerEntityID:':
+    'prefix': 'setListenerEntityID:'
+    'body': 'setListenerEntityID(${1:uint64_t listenerEntityID})'
+  'setListenerGUID:':
+    'prefix': 'setListenerGUID:'
+    'body': 'setListenerGUID(${1:uint64_t listenerGUID})'
+  'setListenerUniqueID:':
+    'prefix': 'setListenerUniqueID:'
+    'body': 'setListenerUniqueID(${1:uint16_t listenerUniqueID})'
+  'setMessageType:':
+    'prefix': 'setMessageType:'
+    'body': 'setMessageType(${1:AVB17221ACMPMessageType messageType})'
+  'setSequenceID:':
+    'prefix': 'setSequenceID:'
+    'body': 'setSequenceID(${1:uint16_t sequenceID})'
+  'setSourceMAC:':
+    'prefix': 'setSourceMAC:'
+    'body': 'setSourceMAC(${1:AVBMACAddress* sourceMAC})'
+  'setStatus:':
+    'prefix': 'setStatus:'
+    'body': 'setStatus(${1:AVB17221ACMPStatusCode status})'
+  'setStreamID:':
+    'prefix': 'setStreamID:'
+    'body': 'setStreamID(${1:uint64_t streamID})'
+  'setTalkerEntityID:':
+    'prefix': 'setTalkerEntityID:'
+    'body': 'setTalkerEntityID(${1:uint64_t talkerEntityID})'
+  'setTalkerGUID:':
+    'prefix': 'setTalkerGUID:'
+    'body': 'setTalkerGUID(${1:uint64_t talkerGUID})'
+  'setTalkerUniqueID:':
+    'prefix': 'setTalkerUniqueID:'
+    'body': 'setTalkerUniqueID(${1:uint16_t talkerUniqueID})'
+  'sourceMAC':
+    'prefix': 'sourceMAC'
+    'body': 'sourceMAC()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'streamID':
+    'prefix': 'streamID'
+    'body': 'streamID()'
+  'talkerEntityID':
+    'prefix': 'talkerEntityID'
+    'body': 'talkerEntityID()'
+  'talkerGUID':
+    'prefix': 'talkerGUID'
+    'body': 'talkerGUID()'
+  'talkerUniqueID':
+    'prefix': 'talkerUniqueID'
+    'body': 'talkerUniqueID()'
+  'AVB17221AECPAEMMessage.commandMessage':
+    'prefix': 'commandMessage'
+    'body': 'AVB17221AECPAEMMessage.commandMessage()'
+  'commandSpecificData':
+    'prefix': 'commandSpecificData'
+    'body': 'commandSpecificData()'
+  'commandType':
+    'prefix': 'commandType'
+    'body': 'commandType()'
+  'isControllerRequest':
+    'prefix': 'isControllerRequest'
+    'body': 'isControllerRequest()'
+  'isUnsolicited':
+    'prefix': 'isUnsolicited'
+    'body': 'isUnsolicited()'
+  'AVB17221AECPAEMMessage.responseMessage':
+    'prefix': 'responseMessage'
+    'body': 'AVB17221AECPAEMMessage.responseMessage()'
+  'setCommandSpecificData:':
+    'prefix': 'setCommandSpecificData:'
+    'body': 'setCommandSpecificData(${1:NSData* commandSpecificData})'
+  'setCommandType:':
+    'prefix': 'setCommandType:'
+    'body': 'setCommandType(${1:AVB17221AEMCommandType commandType})'
+  'setControllerRequest:':
+    'prefix': 'setControllerRequest:'
+    'body': 'setControllerRequest(${1:BOOL controllerRequest})'
+  'setUnsolicited:':
+    'prefix': 'setUnsolicited:'
+    'body': 'setUnsolicited(${1:BOOL unsolicited})'
+  'commandResponse':
+    'prefix': 'commandResponse'
+    'body': 'commandResponse()'
+  'setCommandResponse:':
+    'prefix': 'setCommandResponse:'
+    'body': 'setCommandResponse(${1:NSData* commandResponse})'
+  'AVB17221AECPAddressAccessMessage.commandMessage':
+    'prefix': 'commandMessage'
+    'body': 'AVB17221AECPAddressAccessMessage.commandMessage()'
+  'AVB17221AECPAddressAccessMessage.responseMessage':
+    'prefix': 'responseMessage'
+    'body': 'AVB17221AECPAddressAccessMessage.responseMessage()'
+  'setTlvs:':
+    'prefix': 'setTlvs:'
+    'body': 'setTlvs(${1:NSArray* tlvs})'
+  'tlvs':
+    'prefix': 'tlvs'
+    'body': 'tlvs()'
+  'address':
+    'prefix': 'address'
+    'body': 'address()'
+  'memoryData':
+    'prefix': 'memoryData'
+    'body': 'memoryData()'
+  'mode':
+    'prefix': 'mode'
+    'body': 'mode()'
+  'setAddress:':
+    'prefix': 'setAddress:'
+    'body': 'setAddress(${1:uint64_t address})'
+  'setMemoryData:':
+    'prefix': 'setMemoryData:'
+    'body': 'setMemoryData(${1:NSData* memoryData})'
+  'setMode:':
+    'prefix': 'setMode:'
+    'body': 'setMode(${1:AVB17221AECPAddressAccessTLVMode mode})'
+  'AVB17221AECPInterface.AECPInterfaceWithInterface:':
+    'prefix': 'AECPInterfaceWithInterface:'
+    'body': 'AVB17221AECPInterface.AECPInterfaceWithInterface(${1:AVBInterface* anInterface})'
+  'AVB17221AECPInterface.AECPInterfaceWithInterfaceNamed:':
+    'prefix': 'AECPInterfaceWithInterfaceNamed:'
+    'body': 'AVB17221AECPInterface.AECPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
+  'removeHandlerForEntityID:':
+    'prefix': 'removeHandlerForEntityID:'
+    'body': 'removeHandlerForEntityID(${1:uint64_t targetEntityID})'
+  'removeHandlerForGUID:':
+    'prefix': 'removeHandlerForGUID:'
+    'body': 'removeHandlerForGUID(${1:uint64_t targetGUID})'
+  'sendCommand:toMACAddress:completionHandler:':
+    'prefix': 'sendCommand:toMACAddress:completionHandler:'
+    'body': 'sendCommand(${1:AVB17221AECPMessage* message}, toMACAddress:${2:AVBMACAddress* destMAC}, completionHandler:${3:AVB17221AECPInterfaceCompletion completionHandler})'
+  'sendResponse:toMACAddress:error:':
+    'prefix': 'sendResponse:toMACAddress:error:'
+    'body': 'sendResponse(${1:AVB17221AECPMessage* message}, toMACAddress:${2:AVBMACAddress* destMAC}, error:${3:NSError** error})'
+  'setHandler:forEntityID:':
+    'prefix': 'setHandler:forEntityID:'
+    'body': 'setHandler(${1:id handler}, forEntityID:${2:uint64_t targetEntityID})'
+  'setHandler:forGUID:':
+    'prefix': 'setHandler:forGUID:'
+    'body': 'setHandler(${1:id handler}, forGUID:${2:uint64_t targetGUID})'
+  'controllerEntityID':
+    'prefix': 'controllerEntityID'
+    'body': 'controllerEntityID()'
+  'controllerGUID':
+    'prefix': 'controllerGUID'
+    'body': 'controllerGUID()'
+  'messageType':
+    'prefix': 'messageType'
+    'body': 'messageType()'
+  'sequenceID':
+    'prefix': 'sequenceID'
+    'body': 'sequenceID()'
+  'setControllerEntityID:':
+    'prefix': 'setControllerEntityID:'
+    'body': 'setControllerEntityID(${1:uint64_t controllerEntityID})'
+  'setControllerGUID:':
+    'prefix': 'setControllerGUID:'
+    'body': 'setControllerGUID(${1:uint64_t controllerGUID})'
+  'setMessageType:':
+    'prefix': 'setMessageType:'
+    'body': 'setMessageType(${1:AVB17221AECPMessageType messageType})'
+  'setSequenceID:':
+    'prefix': 'setSequenceID:'
+    'body': 'setSequenceID(${1:uint16_t sequenceID})'
+  'setSourceMAC:':
+    'prefix': 'setSourceMAC:'
+    'body': 'setSourceMAC(${1:AVBMACAddress* sourceMAC})'
+  'setStatus:':
+    'prefix': 'setStatus:'
+    'body': 'setStatus(${1:AVB17221AECPStatusCode status})'
+  'setTargetEntityID:':
+    'prefix': 'setTargetEntityID:'
+    'body': 'setTargetEntityID(${1:uint64_t targetEntityID})'
+  'setTargetGUID:':
+    'prefix': 'setTargetGUID:'
+    'body': 'setTargetGUID(${1:uint64_t targetGUID})'
+  'sourceMAC':
+    'prefix': 'sourceMAC'
+    'body': 'sourceMAC()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'targetEntityID':
+    'prefix': 'targetEntityID'
+    'body': 'targetEntityID()'
+  'targetGUID':
+    'prefix': 'targetGUID'
+    'body': 'targetGUID()'
+  'protocolID':
+    'prefix': 'protocolID'
+    'body': 'protocolID()'
+  'protocolSpecificData':
+    'prefix': 'protocolSpecificData'
+    'body': 'protocolSpecificData()'
+  'setProtocolID:':
+    'prefix': 'setProtocolID:'
+    'body': 'setProtocolID(${1:uint64_t protocolID})'
+  'setProtocolSpecificData:':
+    'prefix': 'setProtocolSpecificData:'
+    'body': 'setProtocolSpecificData(${1:NSData* protocolSpecificData})'
+  'asGrandmasterID':
+    'prefix': 'asGrandmasterID'
+    'body': 'asGrandmasterID()'
+  'associationID':
+    'prefix': 'associationID'
+    'body': 'associationID()'
+  'availableIndex':
+    'prefix': 'availableIndex'
+    'body': 'availableIndex()'
+  'controllerCapabilities':
+    'prefix': 'controllerCapabilities'
+    'body': 'controllerCapabilities()'
+  'entityCapabilities':
+    'prefix': 'entityCapabilities'
+    'body': 'entityCapabilities()'
+  'entityDiscovery':
+    'prefix': 'entityDiscovery'
+    'body': 'entityDiscovery()'
+  'entityID':
+    'prefix': 'entityID'
+    'body': 'entityID()'
+  'entityModelID':
+    'prefix': 'entityModelID'
+    'body': 'entityModelID()'
+  'gPTPDomainNumber':
+    'prefix': 'gPTPDomainNumber'
+    'body': 'gPTPDomainNumber()'
+  'gPTPGrandmasterID':
+    'prefix': 'gPTPGrandmasterID'
+    'body': 'gPTPGrandmasterID()'
+  'guid':
+    'prefix': 'guid'
+    'body': 'guid()'
+  'identifyControlIndex':
+    'prefix': 'identifyControlIndex'
+    'body': 'identifyControlIndex()'
+  'interfaceIndex':
+    'prefix': 'interfaceIndex'
+    'body': 'interfaceIndex()'
+  'isLocalEntity':
+    'prefix': 'isLocalEntity'
+    'body': 'isLocalEntity()'
+  'listenerCapabilities':
+    'prefix': 'listenerCapabilities'
+    'body': 'listenerCapabilities()'
+  'listenerStreamSinks':
+    'prefix': 'listenerStreamSinks'
+    'body': 'listenerStreamSinks()'
+  'macAddresses':
+    'prefix': 'macAddresses'
+    'body': 'macAddresses()'
+  'modelID':
+    'prefix': 'modelID'
+    'body': 'modelID()'
+  'setAsGrandmasterID:':
+    'prefix': 'setAsGrandmasterID:'
+    'body': 'setAsGrandmasterID(${1:uint64_t asGrandmasterID})'
+  'setAssociationID:':
+    'prefix': 'setAssociationID:'
+    'body': 'setAssociationID(${1:uint64_t associationID})'
+  'setAvailableIndex:':
+    'prefix': 'setAvailableIndex:'
+    'body': 'setAvailableIndex(${1:uint32_t availableIndex})'
+  'setControllerCapabilities:':
+    'prefix': 'setControllerCapabilities:'
+    'body': 'setControllerCapabilities(${1:AVB17221ADPControllerCapabilities controllerCapabilities})'
+  'setEntityCapabilities:':
+    'prefix': 'setEntityCapabilities:'
+    'body': 'setEntityCapabilities(${1:AVB17221ADPEntityCapabilities entityCapabilities})'
+  'setEntityDiscovery:':
+    'prefix': 'setEntityDiscovery:'
+    'body': 'setEntityDiscovery(${1:AVB17221EntityDiscovery* entityDiscovery})'
+  'setEntityID:':
+    'prefix': 'setEntityID:'
+    'body': 'setEntityID(${1:uint64_t entityID})'
+  'setEntityModelID:':
+    'prefix': 'setEntityModelID:'
+    'body': 'setEntityModelID(${1:uint64_t entityModelID})'
+  'setGPTPDomainNumber:':
+    'prefix': 'setGPTPDomainNumber:'
+    'body': 'setGPTPDomainNumber(${1:uint8_t gPTPDomainNumber})'
+  'setGPTPGrandmasterID:':
+    'prefix': 'setGPTPGrandmasterID:'
+    'body': 'setGPTPGrandmasterID(${1:uint64_t gPTPGrandmasterID})'
+  'setGuid:':
+    'prefix': 'setGuid:'
+    'body': 'setGuid(${1:uint64_t guid})'
+  'setIdentifyControlIndex:':
+    'prefix': 'setIdentifyControlIndex:'
+    'body': 'setIdentifyControlIndex(${1:uint16_t identifyControlIndex})'
+  'setInterfaceIndex:':
+    'prefix': 'setInterfaceIndex:'
+    'body': 'setInterfaceIndex(${1:uint16_t interfaceIndex})'
+  'setListenerCapabilities:':
+    'prefix': 'setListenerCapabilities:'
+    'body': 'setListenerCapabilities(${1:AVB17221ADPListenerCapabilities listenerCapabilities})'
+  'setListenerStreamSinks:':
+    'prefix': 'setListenerStreamSinks:'
+    'body': 'setListenerStreamSinks(${1:uint16_t listenerStreamSinks})'
+  'setLocalEntity:':
+    'prefix': 'setLocalEntity:'
+    'body': 'setLocalEntity(${1:BOOL localEntity})'
+  'setMacAddresses:':
+    'prefix': 'setMacAddresses:'
+    'body': 'setMacAddresses(${1:NSArray* macAddresses})'
+  'setModelID:':
+    'prefix': 'setModelID:'
+    'body': 'setModelID(${1:uint32_t modelID})'
+  'setTalkerCapabilities:':
+    'prefix': 'setTalkerCapabilities:'
+    'body': 'setTalkerCapabilities(${1:AVB17221ADPTalkerCapabilities talkerCapabilities})'
+  'setTalkerStreamSources:':
+    'prefix': 'setTalkerStreamSources:'
+    'body': 'setTalkerStreamSources(${1:uint16_t talkerStreamSources})'
+  'setTimeToLive:':
+    'prefix': 'setTimeToLive:'
+    'body': 'setTimeToLive(${1:uint8_t timeToLive})'
+  'setVendorID:':
+    'prefix': 'setVendorID:'
+    'body': 'setVendorID(${1:uint32_t vendorID})'
+  'talkerCapabilities':
+    'prefix': 'talkerCapabilities'
+    'body': 'talkerCapabilities()'
+  'talkerStreamSources':
+    'prefix': 'talkerStreamSources'
+    'body': 'talkerStreamSources()'
+  'timeToLive':
+    'prefix': 'timeToLive'
+    'body': 'timeToLive()'
+  'vendorID':
+    'prefix': 'vendorID'
+    'body': 'vendorID()'
+  'addLocalEntity:error:':
+    'prefix': 'addLocalEntity:error:'
+    'body': 'addLocalEntity(${1:AVB17221Entity* anEntity}, error:${2:NSError** error})'
+  'changeEntityWithEntityID:toNewGPTPGrandmasterID:error:':
+    'prefix': 'changeEntityWithEntityID:toNewGPTPGrandmasterID:error:'
+    'body': 'changeEntityWithEntityID(${1:uint64_t entityID}, toNewGPTPGrandmasterID:${2:uint64_t gPTPGrandmasterID}, error:${3:NSError** error})'
+  'changeEntityWithGUID:toNewASGrandmasterID:error:':
+    'prefix': 'changeEntityWithGUID:toNewASGrandmasterID:error:'
+    'body': 'changeEntityWithGUID(${1:uint64_t entityGUID}, toNewASGrandmasterID:${2:uint64_t asGrandmasterID}, error:${3:NSError** error})'
+  'discoverEntities':
+    'prefix': 'discoverEntities'
+    'body': 'discoverEntities()'
+  'discoverEntity:':
+    'prefix': 'discoverEntity:'
+    'body': 'discoverEntity(${1:uint64_t entityID})'
+  'discoveryDelegate':
+    'prefix': 'discoveryDelegate'
+    'body': 'discoveryDelegate()'
+  'initWithInterfaceName:':
+    'prefix': 'initWithInterfaceName:'
+    'body': 'initWithInterfaceName(${1:NSString* anInterfaceName})'
+  'interface':
+    'prefix': 'interface'
+    'body': 'interface()'
+  'interfaceName':
+    'prefix': 'interfaceName'
+    'body': 'interfaceName()'
+  'primeIterators':
+    'prefix': 'primeIterators'
+    'body': 'primeIterators()'
+  'removeLocalEntity:error:':
+    'prefix': 'removeLocalEntity:error:'
+    'body': 'removeLocalEntity(${1:uint64_t guid}, error:${2:NSError** error})'
+  'setDiscoveryDelegate:':
+    'prefix': 'setDiscoveryDelegate:'
+    'body': 'setDiscoveryDelegate(${1:id discoveryDelegate})'
+  'setInterfaceName:':
+    'prefix': 'setInterfaceName:'
+    'body': 'setInterfaceName(${1:NSString* interfaceName})'
+  'initWithInterfaceName:':
+    'prefix': 'initWithInterfaceName:'
+    'body': 'initWithInterfaceName(${1:NSString* anInterfaceName})'
+  'initWithService:onInterface:':
+    'prefix': 'initWithService:onInterface:'
+    'body': 'initWithService(${1:io_object_t aService}, onInterface:${2:AVBInterface* anInterface})'
+  'initWithService:onInterfaceNamed:':
+    'prefix': 'initWithService:onInterfaceNamed:'
+    'body': 'initWithService(${1:io_object_t aService}, onInterfaceNamed:${2:NSString* anInterfaceName})'
+  'interface':
+    'prefix': 'interface'
+    'body': 'interface()'
+  'interfaceName':
+    'prefix': 'interfaceName'
+    'body': 'interfaceName()'
+  'setInterfaceName:':
+    'prefix': 'setInterfaceName:'
+    'body': 'setInterfaceName(${1:NSString* interfaceName})'
+  'acmp':
+    'prefix': 'acmp'
+    'body': 'acmp()'
+  'aecp':
+    'prefix': 'aecp'
+    'body': 'aecp()'
+  'entityDiscovery':
+    'prefix': 'entityDiscovery'
+    'body': 'entityDiscovery()'
+  'initWithInterfaceName:':
+    'prefix': 'initWithInterfaceName:'
+    'body': 'initWithInterfaceName(${1:NSString* anInterfaceName})'
+  'interfaceName':
+    'prefix': 'interfaceName'
+    'body': 'interfaceName()'
+  'AVBInterface.isAVBCapableInterfaceNamed:':
+    'prefix': 'isAVBCapableInterfaceNamed:'
+    'body': 'AVBInterface.isAVBCapableInterfaceNamed(${1:NSString* anInterfaceName})'
+  'AVBInterface.isAVBEnabledOnInterfaceNamed:':
+    'prefix': 'isAVBEnabledOnInterfaceNamed:'
+    'body': 'AVBInterface.isAVBEnabledOnInterfaceNamed(${1:NSString* anInterfaceName})'
+  'AVBInterface.macAddressForInterfaceNamed:':
+    'prefix': 'macAddressForInterfaceNamed:'
+    'body': 'AVBInterface.macAddressForInterfaceNamed(${1:NSString* anInterfaceName})'
+  'AVBInterface.myEntityID':
+    'prefix': 'myEntityID'
+    'body': 'AVBInterface.myEntityID()'
+  'AVBInterface.myGUID':
+    'prefix': 'myGUID'
+    'body': 'AVBInterface.myGUID()'
+  'AVBInterface.supportedInterfaces':
+    'prefix': 'supportedInterfaces'
+    'body': 'AVBInterface.supportedInterfaces()'
+  'bytes':
+    'prefix': 'bytes'
+    'body': 'bytes()'
+  'dataRepresentation':
+    'prefix': 'dataRepresentation'
+    'body': 'dataRepresentation()'
+  'initWithBytes:':
+    'prefix': 'initWithBytes:'
+    'body': 'initWithBytes(${1:uint8_t* bytes})'
+  'isMulticast':
+    'prefix': 'isMulticast'
+    'body': 'isMulticast()'
+  'setDataRepresentation:':
+    'prefix': 'setDataRepresentation:'
+    'body': 'setDataRepresentation(${1:NSData* dataRepresentation})'
+  'setMulticast:':
+    'prefix': 'setMulticast:'
+    'body': 'setMulticast(${1:BOOL multicast})'
+  'setStringRepresentation:':
+    'prefix': 'setStringRepresentation:'
+    'body': 'setStringRepresentation(${1:NSString* stringRepresentation})'
+  'stringRepresentation':
+    'prefix': 'stringRepresentation'
+    'body': 'stringRepresentation()'
+  'ACMPDidReceiveCommand:onInterface:':
+    'prefix': 'ACMPDidReceiveCommand:onInterface:'
+    'body': 'ACMPDidReceiveCommand(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
+  'ACMPDidReceiveResponse:onInterface:':
+    'prefix': 'ACMPDidReceiveResponse:onInterface:'
+    'body': 'ACMPDidReceiveResponse(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
+  'AECPDidReceiveCommand:onInterface:':
+    'prefix': 'AECPDidReceiveCommand:onInterface:'
+    'body': 'AECPDidReceiveCommand(${1:AVB17221AECPMessage* message}, onInterface:${2:AVB17221AECPInterface* anInterface})'
+  'AECPDidReceiveResponse:onInterface:':
+    'prefix': 'AECPDidReceiveResponse:onInterface:'
+    'body': 'AECPDidReceiveResponse(${1:AVB17221AECPMessage* message}, onInterface:${2:AVB17221AECPInterface* anInterface})'
+  'didAddLocalEntity:on17221EntityDiscovery:':
+    'prefix': 'didAddLocalEntity:on17221EntityDiscovery:'
+    'body': 'didAddLocalEntity(${1:AVB17221Entity* newEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didAddRemoteEntity:on17221EntityDiscovery:':
+    'prefix': 'didAddRemoteEntity:on17221EntityDiscovery:'
+    'body': 'didAddRemoteEntity(${1:AVB17221Entity* newEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRediscoverLocalEntity:on17221EntityDiscovery:':
+    'prefix': 'didRediscoverLocalEntity:on17221EntityDiscovery:'
+    'body': 'didRediscoverLocalEntity(${1:AVB17221Entity* entity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRediscoverRemoteEntity:on17221EntityDiscovery:':
+    'prefix': 'didRediscoverRemoteEntity:on17221EntityDiscovery:'
+    'body': 'didRediscoverRemoteEntity(${1:AVB17221Entity* entity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRemoveLocalEntity:on17221EntityDiscovery:':
+    'prefix': 'didRemoveLocalEntity:on17221EntityDiscovery:'
+    'body': 'didRemoveLocalEntity(${1:AVB17221Entity* oldEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRemoveRemoteEntity:on17221EntityDiscovery:':
+    'prefix': 'didRemoveRemoteEntity:on17221EntityDiscovery:'
+    'body': 'didRemoveRemoteEntity(${1:AVB17221Entity* oldEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didUpdateLocalEntity:changedProperties:on17221EntityDiscovery:':
+    'prefix': 'didUpdateLocalEntity:changedProperties:on17221EntityDiscovery:'
+    'body': 'didUpdateLocalEntity(${1:AVB17221Entity* entity}, changedProperties:${2:AVB17221EntityPropertyChanged changedProperties}, on17221EntityDiscovery:${3:AVB17221EntityDiscovery* entityDiscovery})'
+  'didUpdateRemoteEntity:changedProperties:on17221EntityDiscovery:':
+    'prefix': 'didUpdateRemoteEntity:changedProperties:on17221EntityDiscovery:'
+    'body': 'didUpdateRemoteEntity(${1:AVB17221Entity* entity}, changedProperties:${2:AVB17221EntityPropertyChanged changedProperties}, on17221EntityDiscovery:${3:AVB17221EntityDiscovery* entityDiscovery})'
+  'ACMPDidReceiveCommand:onInterface:':
+    'prefix': 'ACMPDidReceiveCommand:onInterface:'
+    'body': 'ACMPDidReceiveCommand(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
+  'ACMPDidReceiveResponse:onInterface:':
+    'prefix': 'ACMPDidReceiveResponse:onInterface:'
+    'body': 'ACMPDidReceiveResponse(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
+  'AECPDidReceiveCommand:onInterface:':
+    'prefix': 'AECPDidReceiveCommand:onInterface:'
+    'body': 'AECPDidReceiveCommand(${1:AVB17221AECPMessage* message}, onInterface:${2:AVB17221AECPInterface* anInterface})'
+  'AECPDidReceiveResponse:onInterface:':
+    'prefix': 'AECPDidReceiveResponse:onInterface:'
+    'body': 'AECPDidReceiveResponse(${1:AVB17221AECPMessage* message}, onInterface:${2:AVB17221AECPInterface* anInterface})'
+  'didAddLocalEntity:on17221EntityDiscovery:':
+    'prefix': 'didAddLocalEntity:on17221EntityDiscovery:'
+    'body': 'didAddLocalEntity(${1:AVB17221Entity* newEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didAddRemoteEntity:on17221EntityDiscovery:':
+    'prefix': 'didAddRemoteEntity:on17221EntityDiscovery:'
+    'body': 'didAddRemoteEntity(${1:AVB17221Entity* newEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRediscoverLocalEntity:on17221EntityDiscovery:':
+    'prefix': 'didRediscoverLocalEntity:on17221EntityDiscovery:'
+    'body': 'didRediscoverLocalEntity(${1:AVB17221Entity* entity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRediscoverRemoteEntity:on17221EntityDiscovery:':
+    'prefix': 'didRediscoverRemoteEntity:on17221EntityDiscovery:'
+    'body': 'didRediscoverRemoteEntity(${1:AVB17221Entity* entity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRemoveLocalEntity:on17221EntityDiscovery:':
+    'prefix': 'didRemoveLocalEntity:on17221EntityDiscovery:'
+    'body': 'didRemoveLocalEntity(${1:AVB17221Entity* oldEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didRemoveRemoteEntity:on17221EntityDiscovery:':
+    'prefix': 'didRemoveRemoteEntity:on17221EntityDiscovery:'
+    'body': 'didRemoveRemoteEntity(${1:AVB17221Entity* oldEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'
+  'didUpdateLocalEntity:changedProperties:on17221EntityDiscovery:':
+    'prefix': 'didUpdateLocalEntity:changedProperties:on17221EntityDiscovery:'
+    'body': 'didUpdateLocalEntity(${1:AVB17221Entity* entity}, changedProperties:${2:AVB17221EntityPropertyChanged changedProperties}, on17221EntityDiscovery:${3:AVB17221EntityDiscovery* entityDiscovery})'
+  'didUpdateRemoteEntity:changedProperties:on17221EntityDiscovery:':
+    'prefix': 'didUpdateRemoteEntity:changedProperties:on17221EntityDiscovery:'
+    'body': 'didUpdateRemoteEntity(${1:AVB17221Entity* entity}, changedProperties:${2:AVB17221EntityPropertyChanged changedProperties}, on17221EntityDiscovery:${3:AVB17221EntityDiscovery* entityDiscovery})'

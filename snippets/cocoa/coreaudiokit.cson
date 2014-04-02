@@ -1,0 +1,43 @@
+'.source.rubymotion':
+  'AUViewParametersDisplayFlag (4)':
+    'prefix': 'AUViewParametersDisplayFlag'
+    'body': 'AUViewParametersDisplayFlag'
+  'AUViewPropertiesDisplayFlag (2)':
+    'prefix': 'AUViewPropertiesDisplayFlag'
+    'body': 'AUViewPropertiesDisplayFlag'
+  'AUViewTitleDisplayFlag (1)':
+    'prefix': 'AUViewTitleDisplayFlag'
+    'body': 'AUViewTitleDisplayFlag'
+  'audioUnit':
+    'prefix': 'audioUnit'
+    'body': 'audioUnit()'
+  'initWithAudioUnit:':
+    'prefix': 'initWithAudioUnit:'
+    'body': 'initWithAudioUnit(${1:AudioUnit au})'
+  'initWithAudioUnit:displayFlags:':
+    'prefix': 'initWithAudioUnit:displayFlags:'
+    'body': 'initWithAudioUnit(${1:AudioUnit inAudioUnit}, displayFlags:${2:UInt32 inFlags})'
+  'setShowsExpertParameters:':
+    'prefix': 'setShowsExpertParameters:'
+    'body': 'setShowsExpertParameters(${1:BOOL inShowsExpertParameters})'
+  'showsExpertParameters':
+    'prefix': 'showsExpertParameters'
+    'body': 'showsExpertParameters()'
+  'AUPannerView.AUPannerViewWithAudioUnit:':
+    'prefix': 'AUPannerViewWithAudioUnit:'
+    'body': 'AUPannerView.AUPannerViewWithAudioUnit(${1:AudioUnit au})'
+  'audioUnit':
+    'prefix': 'audioUnit'
+    'body': 'audioUnit()'
+  'customViewPersistentData':
+    'prefix': 'customViewPersistentData'
+    'body': 'customViewPersistentData()'
+  'setCustomViewPersistentData:':
+    'prefix': 'setCustomViewPersistentData:'
+    'body': 'setCustomViewPersistentData(${1:NSDictionary* data})'
+  'customViewPersistentData':
+    'prefix': 'customViewPersistentData'
+    'body': 'customViewPersistentData()'
+  'setCustomViewPersistentData:':
+    'prefix': 'setCustomViewPersistentData:'
+    'body': 'setCustomViewPersistentData(${1:NSDictionary* data})'

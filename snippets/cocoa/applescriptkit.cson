@@ -1,0 +1,4 @@
+'.source.rubymotion':
+  'ASKPluginObject.pluginDidLoad:':
+    'prefix': 'pluginDidLoad:'
+    'body': 'ASKPluginObject.pluginDidLoad(${1:NSBundle* bundle})'

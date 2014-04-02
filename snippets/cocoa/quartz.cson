@@ -1,0 +1,3886 @@
+'.source.rubymotion':
+  'IKFilterBrowserDefaultInputImage (NSString*)':
+    'prefix': 'IKFilterBrowserDefaultInputImage'
+    'body': 'IKFilterBrowserDefaultInputImage'
+  'IKFilterBrowserExcludeCategories (NSString*)':
+    'prefix': 'IKFilterBrowserExcludeCategories'
+    'body': 'IKFilterBrowserExcludeCategories'
+  'IKFilterBrowserExcludeFilters (NSString*)':
+    'prefix': 'IKFilterBrowserExcludeFilters'
+    'body': 'IKFilterBrowserExcludeFilters'
+  'IKFilterBrowserFilterDoubleClickNotification (NSString*)':
+    'prefix': 'IKFilterBrowserFilterDoubleClickNotification'
+    'body': 'IKFilterBrowserFilterDoubleClickNotification'
+  'IKFilterBrowserFilterSelectedNotification (NSString*)':
+    'prefix': 'IKFilterBrowserFilterSelectedNotification'
+    'body': 'IKFilterBrowserFilterSelectedNotification'
+  'IKFilterBrowserShowCategories (NSString*)':
+    'prefix': 'IKFilterBrowserShowCategories'
+    'body': 'IKFilterBrowserShowCategories'
+  'IKFilterBrowserShowPreview (NSString*)':
+    'prefix': 'IKFilterBrowserShowPreview'
+    'body': 'IKFilterBrowserShowPreview'
+  'IKFilterBrowserWillPreviewFilterNotification (NSString*)':
+    'prefix': 'IKFilterBrowserWillPreviewFilterNotification'
+    'body': 'IKFilterBrowserWillPreviewFilterNotification'
+  'IKImageBrowserBackgroundColorKey (NSString*)':
+    'prefix': 'IKImageBrowserBackgroundColorKey'
+    'body': 'IKImageBrowserBackgroundColorKey'
+  'IKImageBrowserCGImageRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserCGImageRepresentationType'
+    'body': 'IKImageBrowserCGImageRepresentationType'
+  'IKImageBrowserCGImageSourceRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserCGImageSourceRepresentationType'
+    'body': 'IKImageBrowserCGImageSourceRepresentationType'
+  'IKImageBrowserCellBackgroundLayer (NSString*)':
+    'prefix': 'IKImageBrowserCellBackgroundLayer'
+    'body': 'IKImageBrowserCellBackgroundLayer'
+  'IKImageBrowserCellForegroundLayer (NSString*)':
+    'prefix': 'IKImageBrowserCellForegroundLayer'
+    'body': 'IKImageBrowserCellForegroundLayer'
+  'IKImageBrowserCellPlaceHolderLayer (NSString*)':
+    'prefix': 'IKImageBrowserCellPlaceHolderLayer'
+    'body': 'IKImageBrowserCellPlaceHolderLayer'
+  'IKImageBrowserCellSelectionLayer (NSString*)':
+    'prefix': 'IKImageBrowserCellSelectionLayer'
+    'body': 'IKImageBrowserCellSelectionLayer'
+  'IKImageBrowserCellsHighlightedTitleAttributesKey (NSString*)':
+    'prefix': 'IKImageBrowserCellsHighlightedTitleAttributesKey'
+    'body': 'IKImageBrowserCellsHighlightedTitleAttributesKey'
+  'IKImageBrowserCellsOutlineColorKey (NSString*)':
+    'prefix': 'IKImageBrowserCellsOutlineColorKey'
+    'body': 'IKImageBrowserCellsOutlineColorKey'
+  'IKImageBrowserCellsSubtitleAttributesKey (NSString*)':
+    'prefix': 'IKImageBrowserCellsSubtitleAttributesKey'
+    'body': 'IKImageBrowserCellsSubtitleAttributesKey'
+  'IKImageBrowserCellsTitleAttributesKey (NSString*)':
+    'prefix': 'IKImageBrowserCellsTitleAttributesKey'
+    'body': 'IKImageBrowserCellsTitleAttributesKey'
+  'IKImageBrowserGroupBackgroundColorKey (NSString*)':
+    'prefix': 'IKImageBrowserGroupBackgroundColorKey'
+    'body': 'IKImageBrowserGroupBackgroundColorKey'
+  'IKImageBrowserGroupFooterLayer (NSString*)':
+    'prefix': 'IKImageBrowserGroupFooterLayer'
+    'body': 'IKImageBrowserGroupFooterLayer'
+  'IKImageBrowserGroupHeaderLayer (NSString*)':
+    'prefix': 'IKImageBrowserGroupHeaderLayer'
+    'body': 'IKImageBrowserGroupHeaderLayer'
+  'IKImageBrowserGroupRangeKey (NSString*)':
+    'prefix': 'IKImageBrowserGroupRangeKey'
+    'body': 'IKImageBrowserGroupRangeKey'
+  'IKImageBrowserGroupStyleKey (NSString*)':
+    'prefix': 'IKImageBrowserGroupStyleKey'
+    'body': 'IKImageBrowserGroupStyleKey'
+  'IKImageBrowserGroupTitleKey (NSString*)':
+    'prefix': 'IKImageBrowserGroupTitleKey'
+    'body': 'IKImageBrowserGroupTitleKey'
+  'IKImageBrowserIconRefPathRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserIconRefPathRepresentationType'
+    'body': 'IKImageBrowserIconRefPathRepresentationType'
+  'IKImageBrowserIconRefRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserIconRefRepresentationType'
+    'body': 'IKImageBrowserIconRefRepresentationType'
+  'IKImageBrowserNSBitmapImageRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserNSBitmapImageRepresentationType'
+    'body': 'IKImageBrowserNSBitmapImageRepresentationType'
+  'IKImageBrowserNSDataRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserNSDataRepresentationType'
+    'body': 'IKImageBrowserNSDataRepresentationType'
+  'IKImageBrowserNSImageRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserNSImageRepresentationType'
+    'body': 'IKImageBrowserNSImageRepresentationType'
+  'IKImageBrowserNSURLRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserNSURLRepresentationType'
+    'body': 'IKImageBrowserNSURLRepresentationType'
+  'IKImageBrowserPDFPageRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserPDFPageRepresentationType'
+    'body': 'IKImageBrowserPDFPageRepresentationType'
+  'IKImageBrowserPathRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserPathRepresentationType'
+    'body': 'IKImageBrowserPathRepresentationType'
+  'IKImageBrowserQCCompositionPathRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserQCCompositionPathRepresentationType'
+    'body': 'IKImageBrowserQCCompositionPathRepresentationType'
+  'IKImageBrowserQCCompositionRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserQCCompositionRepresentationType'
+    'body': 'IKImageBrowserQCCompositionRepresentationType'
+  'IKImageBrowserQTMoviePathRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserQTMoviePathRepresentationType'
+    'body': 'IKImageBrowserQTMoviePathRepresentationType'
+  'IKImageBrowserQTMovieRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserQTMovieRepresentationType'
+    'body': 'IKImageBrowserQTMovieRepresentationType'
+  'IKImageBrowserQuickLookPathRepresentationType (NSString*)':
+    'prefix': 'IKImageBrowserQuickLookPathRepresentationType'
+    'body': 'IKImageBrowserQuickLookPathRepresentationType'
+  'IKImageBrowserSelectionColorKey (NSString*)':
+    'prefix': 'IKImageBrowserSelectionColorKey'
+    'body': 'IKImageBrowserSelectionColorKey'
+  'IKOverlayTypeBackground (NSString*)':
+    'prefix': 'IKOverlayTypeBackground'
+    'body': 'IKOverlayTypeBackground'
+  'IKOverlayTypeImage (NSString*)':
+    'prefix': 'IKOverlayTypeImage'
+    'body': 'IKOverlayTypeImage'
+  'IKPictureTakerAllowsEditingKey (NSString*)':
+    'prefix': 'IKPictureTakerAllowsEditingKey'
+    'body': 'IKPictureTakerAllowsEditingKey'
+  'IKPictureTakerAllowsFileChoosingKey (NSString*)':
+    'prefix': 'IKPictureTakerAllowsFileChoosingKey'
+    'body': 'IKPictureTakerAllowsFileChoosingKey'
+  'IKPictureTakerAllowsVideoCaptureKey (NSString*)':
+    'prefix': 'IKPictureTakerAllowsVideoCaptureKey'
+    'body': 'IKPictureTakerAllowsVideoCaptureKey'
+  'IKPictureTakerCropAreaSizeKey (NSString*)':
+    'prefix': 'IKPictureTakerCropAreaSizeKey'
+    'body': 'IKPictureTakerCropAreaSizeKey'
+  'IKPictureTakerImageTransformsKey (NSString*)':
+    'prefix': 'IKPictureTakerImageTransformsKey'
+    'body': 'IKPictureTakerImageTransformsKey'
+  'IKPictureTakerInformationalTextKey (NSString*)':
+    'prefix': 'IKPictureTakerInformationalTextKey'
+    'body': 'IKPictureTakerInformationalTextKey'
+  'IKPictureTakerOutputImageMaxSizeKey (NSString*)':
+    'prefix': 'IKPictureTakerOutputImageMaxSizeKey'
+    'body': 'IKPictureTakerOutputImageMaxSizeKey'
+  'IKPictureTakerRemainOpenAfterValidateKey (NSString*)':
+    'prefix': 'IKPictureTakerRemainOpenAfterValidateKey'
+    'body': 'IKPictureTakerRemainOpenAfterValidateKey'
+  'IKPictureTakerShowAddressBookPicture (NSString*)':
+    'prefix': 'IKPictureTakerShowAddressBookPicture'
+    'body': 'IKPictureTakerShowAddressBookPicture'
+  'IKPictureTakerShowAddressBookPictureKey (NSString*)':
+    'prefix': 'IKPictureTakerShowAddressBookPictureKey'
+    'body': 'IKPictureTakerShowAddressBookPictureKey'
+  'IKPictureTakerShowEffectsKey (NSString*)':
+    'prefix': 'IKPictureTakerShowEffectsKey'
+    'body': 'IKPictureTakerShowEffectsKey'
+  'IKPictureTakerShowEmptyPicture (NSString*)':
+    'prefix': 'IKPictureTakerShowEmptyPicture'
+    'body': 'IKPictureTakerShowEmptyPicture'
+  'IKPictureTakerShowEmptyPictureKey (NSString*)':
+    'prefix': 'IKPictureTakerShowEmptyPictureKey'
+    'body': 'IKPictureTakerShowEmptyPictureKey'
+  'IKPictureTakerShowRecentPictureKey (NSString*)':
+    'prefix': 'IKPictureTakerShowRecentPictureKey'
+    'body': 'IKPictureTakerShowRecentPictureKey'
+  'IKPictureTakerUpdateRecentPictureKey (NSString*)':
+    'prefix': 'IKPictureTakerUpdateRecentPictureKey'
+    'body': 'IKPictureTakerUpdateRecentPictureKey'
+  'IKSlideshowAudioFile (NSString*)':
+    'prefix': 'IKSlideshowAudioFile'
+    'body': 'IKSlideshowAudioFile'
+  'IKSlideshowModeImages (NSString*)':
+    'prefix': 'IKSlideshowModeImages'
+    'body': 'IKSlideshowModeImages'
+  'IKSlideshowModeOther (NSString*)':
+    'prefix': 'IKSlideshowModeOther'
+    'body': 'IKSlideshowModeOther'
+  'IKSlideshowModePDF (NSString*)':
+    'prefix': 'IKSlideshowModePDF'
+    'body': 'IKSlideshowModePDF'
+  'IKSlideshowPDFDisplayBox (NSString*)':
+    'prefix': 'IKSlideshowPDFDisplayBox'
+    'body': 'IKSlideshowPDFDisplayBox'
+  'IKSlideshowPDFDisplayMode (NSString*)':
+    'prefix': 'IKSlideshowPDFDisplayMode'
+    'body': 'IKSlideshowPDFDisplayMode'
+  'IKSlideshowPDFDisplaysAsBook (NSString*)':
+    'prefix': 'IKSlideshowPDFDisplaysAsBook'
+    'body': 'IKSlideshowPDFDisplaysAsBook'
+  'IKSlideshowScreen (NSString*)':
+    'prefix': 'IKSlideshowScreen'
+    'body': 'IKSlideshowScreen'
+  'IKSlideshowStartIndex (NSString*)':
+    'prefix': 'IKSlideshowStartIndex'
+    'body': 'IKSlideshowStartIndex'
+  'IKSlideshowStartPaused (NSString*)':
+    'prefix': 'IKSlideshowStartPaused'
+    'body': 'IKSlideshowStartPaused'
+  'IKSlideshowWrapAround (NSString*)':
+    'prefix': 'IKSlideshowWrapAround'
+    'body': 'IKSlideshowWrapAround'
+  'IKToolModeAnnotate (NSString*)':
+    'prefix': 'IKToolModeAnnotate'
+    'body': 'IKToolModeAnnotate'
+  'IKToolModeCrop (NSString*)':
+    'prefix': 'IKToolModeCrop'
+    'body': 'IKToolModeCrop'
+  'IKToolModeMove (NSString*)':
+    'prefix': 'IKToolModeMove'
+    'body': 'IKToolModeMove'
+  'IKToolModeNone (NSString*)':
+    'prefix': 'IKToolModeNone'
+    'body': 'IKToolModeNone'
+  'IKToolModeRotate (NSString*)':
+    'prefix': 'IKToolModeRotate'
+    'body': 'IKToolModeRotate'
+  'IKToolModeSelect (NSString*)':
+    'prefix': 'IKToolModeSelect'
+    'body': 'IKToolModeSelect'
+  'IKToolModeSelectEllipse (NSString*)':
+    'prefix': 'IKToolModeSelectEllipse'
+    'body': 'IKToolModeSelectEllipse'
+  'IKToolModeSelectLasso (NSString*)':
+    'prefix': 'IKToolModeSelectLasso'
+    'body': 'IKToolModeSelectLasso'
+  'IKToolModeSelectRect (NSString*)':
+    'prefix': 'IKToolModeSelectRect'
+    'body': 'IKToolModeSelectRect'
+  'IKUIFlavorAllowFallback (NSString*)':
+    'prefix': 'IKUIFlavorAllowFallback'
+    'body': 'IKUIFlavorAllowFallback'
+  'IKUISizeFlavor (NSString*)':
+    'prefix': 'IKUISizeFlavor'
+    'body': 'IKUISizeFlavor'
+  'IKUISizeMini (NSString*)':
+    'prefix': 'IKUISizeMini'
+    'body': 'IKUISizeMini'
+  'IKUISizeRegular (NSString*)':
+    'prefix': 'IKUISizeRegular'
+    'body': 'IKUISizeRegular'
+  'IKUISizeSmall (NSString*)':
+    'prefix': 'IKUISizeSmall'
+    'body': 'IKUISizeSmall'
+  'IKUImaxSize (NSString*)':
+    'prefix': 'IKUImaxSize'
+    'body': 'IKUImaxSize'
+  'IK_ApertureBundleIdentifier (NSString*)':
+    'prefix': 'IK_ApertureBundleIdentifier'
+    'body': 'IK_ApertureBundleIdentifier'
+  'IK_MailBundleIdentifier (NSString*)':
+    'prefix': 'IK_MailBundleIdentifier'
+    'body': 'IK_MailBundleIdentifier'
+  'IK_iPhotoBundleIdentifier (NSString*)':
+    'prefix': 'IK_iPhotoBundleIdentifier'
+    'body': 'IK_iPhotoBundleIdentifier'
+  'IKCameraDeviceViewDisplayModeIcon (1)':
+    'prefix': 'IKCameraDeviceViewDisplayModeIcon'
+    'body': 'IKCameraDeviceViewDisplayModeIcon'
+  'IKCameraDeviceViewDisplayModeTable (0)':
+    'prefix': 'IKCameraDeviceViewDisplayModeTable'
+    'body': 'IKCameraDeviceViewDisplayModeTable'
+  'IKCameraDeviceViewTransferModeFileBased (0)':
+    'prefix': 'IKCameraDeviceViewTransferModeFileBased'
+    'body': 'IKCameraDeviceViewTransferModeFileBased'
+  'IKCameraDeviceViewTransferModeMemoryBased (1)':
+    'prefix': 'IKCameraDeviceViewTransferModeMemoryBased'
+    'body': 'IKCameraDeviceViewTransferModeMemoryBased'
+  'IKCellsStyleNone (0)':
+    'prefix': 'IKCellsStyleNone'
+    'body': 'IKCellsStyleNone'
+  'IKCellsStyleOutlined (2)':
+    'prefix': 'IKCellsStyleOutlined'
+    'body': 'IKCellsStyleOutlined'
+  'IKCellsStyleShadowed (1)':
+    'prefix': 'IKCellsStyleShadowed'
+    'body': 'IKCellsStyleShadowed'
+  'IKCellsStyleSubtitled (8)':
+    'prefix': 'IKCellsStyleSubtitled'
+    'body': 'IKCellsStyleSubtitled'
+  'IKCellsStyleTitled (4)':
+    'prefix': 'IKCellsStyleTitled'
+    'body': 'IKCellsStyleTitled'
+  'IKDeviceBrowserViewDisplayModeIcon (2)':
+    'prefix': 'IKDeviceBrowserViewDisplayModeIcon'
+    'body': 'IKDeviceBrowserViewDisplayModeIcon'
+  'IKDeviceBrowserViewDisplayModeOutline (1)':
+    'prefix': 'IKDeviceBrowserViewDisplayModeOutline'
+    'body': 'IKDeviceBrowserViewDisplayModeOutline'
+  'IKDeviceBrowserViewDisplayModeTable (0)':
+    'prefix': 'IKDeviceBrowserViewDisplayModeTable'
+    'body': 'IKDeviceBrowserViewDisplayModeTable'
+  'IKGroupBezelStyle (0)':
+    'prefix': 'IKGroupBezelStyle'
+    'body': 'IKGroupBezelStyle'
+  'IKGroupDisclosureStyle (1)':
+    'prefix': 'IKGroupDisclosureStyle'
+    'body': 'IKGroupDisclosureStyle'
+  'IKImageBrowserDropBefore (1)':
+    'prefix': 'IKImageBrowserDropBefore'
+    'body': 'IKImageBrowserDropBefore'
+  'IKImageBrowserDropOn (0)':
+    'prefix': 'IKImageBrowserDropOn'
+    'body': 'IKImageBrowserDropOn'
+  'IKImageStateInvalid (1)':
+    'prefix': 'IKImageStateInvalid'
+    'body': 'IKImageStateInvalid'
+  'IKImageStateNoImage (0)':
+    'prefix': 'IKImageStateNoImage'
+    'body': 'IKImageStateNoImage'
+  'IKImageStateReady (2)':
+    'prefix': 'IKImageStateReady'
+    'body': 'IKImageStateReady'
+  'IKScannerDeviceViewDisplayModeAdvanced (1)':
+    'prefix': 'IKScannerDeviceViewDisplayModeAdvanced'
+    'body': 'IKScannerDeviceViewDisplayModeAdvanced'
+  'IKScannerDeviceViewDisplayModeSimple (0)':
+    'prefix': 'IKScannerDeviceViewDisplayModeSimple'
+    'body': 'IKScannerDeviceViewDisplayModeSimple'
+  'IKScannerDeviceViewTransferModeFileBased (0)':
+    'prefix': 'IKScannerDeviceViewTransferModeFileBased'
+    'body': 'IKScannerDeviceViewTransferModeFileBased'
+  'IKScannerDeviceViewTransferModeMemoryBased (1)':
+    'prefix': 'IKScannerDeviceViewTransferModeMemoryBased'
+    'body': 'IKScannerDeviceViewTransferModeMemoryBased'
+  'viewForUIConfiguration:excludedKeys:':
+    'prefix': 'viewForUIConfiguration:excludedKeys:'
+    'body': 'viewForUIConfiguration(${1:NSDictionary* inUIConfiguration}, excludedKeys:${2:NSArray* inKeys})'
+  'cameraDevice':
+    'prefix': 'cameraDevice'
+    'body': 'cameraDevice()'
+  'canDeleteSelectedItems':
+    'prefix': 'canDeleteSelectedItems'
+    'body': 'canDeleteSelectedItems()'
+  'canDownloadSelectedItems':
+    'prefix': 'canDownloadSelectedItems'
+    'body': 'canDownloadSelectedItems()'
+  'canRotateSelectedItemsLeft':
+    'prefix': 'canRotateSelectedItemsLeft'
+    'body': 'canRotateSelectedItemsLeft()'
+  'canRotateSelectedItemsRight':
+    'prefix': 'canRotateSelectedItemsRight'
+    'body': 'canRotateSelectedItemsRight()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'deleteSelectedItems:':
+    'prefix': 'deleteSelectedItems:'
+    'body': 'deleteSelectedItems(${1:id sender})'
+  'displaysDownloadsDirectoryControl':
+    'prefix': 'displaysDownloadsDirectoryControl'
+    'body': 'displaysDownloadsDirectoryControl()'
+  'displaysPostProcessApplicationControl':
+    'prefix': 'displaysPostProcessApplicationControl'
+    'body': 'displaysPostProcessApplicationControl()'
+  'downloadAllControlLabel':
+    'prefix': 'downloadAllControlLabel'
+    'body': 'downloadAllControlLabel()'
+  'downloadAllItems:':
+    'prefix': 'downloadAllItems:'
+    'body': 'downloadAllItems(${1:id sender})'
+  'downloadSelectedControlLabel':
+    'prefix': 'downloadSelectedControlLabel'
+    'body': 'downloadSelectedControlLabel()'
+  'downloadSelectedItems:':
+    'prefix': 'downloadSelectedItems:'
+    'body': 'downloadSelectedItems(${1:id sender})'
+  'downloadsDirectory':
+    'prefix': 'downloadsDirectory'
+    'body': 'downloadsDirectory()'
+  'hasDisplayModeIcon':
+    'prefix': 'hasDisplayModeIcon'
+    'body': 'hasDisplayModeIcon()'
+  'hasDisplayModeTable':
+    'prefix': 'hasDisplayModeTable'
+    'body': 'hasDisplayModeTable()'
+  'iconSize':
+    'prefix': 'iconSize'
+    'body': 'iconSize()'
+  'mode':
+    'prefix': 'mode'
+    'body': 'mode()'
+  'postProcessApplication':
+    'prefix': 'postProcessApplication'
+    'body': 'postProcessApplication()'
+  'rotateLeft:':
+    'prefix': 'rotateLeft:'
+    'body': 'rotateLeft(${1:id sender})'
+  'rotateRight:':
+    'prefix': 'rotateRight:'
+    'body': 'rotateRight(${1:id sender})'
+  'selectIndexes:byExtendingSelection:':
+    'prefix': 'selectIndexes:byExtendingSelection:'
+    'body': 'selectIndexes(${1:NSIndexSet* indexes}, byExtendingSelection:${2:BOOL extend})'
+  'selectedIndexes':
+    'prefix': 'selectedIndexes'
+    'body': 'selectedIndexes()'
+  'setCameraDevice:':
+    'prefix': 'setCameraDevice:'
+    'body': 'setCameraDevice(${1:ICCameraDevice* cameraDevice})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDisplaysDownloadsDirectoryControl:':
+    'prefix': 'setDisplaysDownloadsDirectoryControl:'
+    'body': 'setDisplaysDownloadsDirectoryControl(${1:BOOL displaysDownloadsDirectoryControl})'
+  'setDisplaysPostProcessApplicationControl:':
+    'prefix': 'setDisplaysPostProcessApplicationControl:'
+    'body': 'setDisplaysPostProcessApplicationControl(${1:BOOL displaysPostProcessApplicationControl})'
+  'setDownloadAllControlLabel:':
+    'prefix': 'setDownloadAllControlLabel:'
+    'body': 'setDownloadAllControlLabel(${1:NSString* downloadAllControlLabel})'
+  'setDownloadSelectedControlLabel:':
+    'prefix': 'setDownloadSelectedControlLabel:'
+    'body': 'setDownloadSelectedControlLabel(${1:NSString* downloadSelectedControlLabel})'
+  'setDownloadsDirectory:':
+    'prefix': 'setDownloadsDirectory:'
+    'body': 'setDownloadsDirectory(${1:NSURL* downloadsDirectory})'
+  'setHasDisplayModeIcon:':
+    'prefix': 'setHasDisplayModeIcon:'
+    'body': 'setHasDisplayModeIcon(${1:BOOL hasDisplayModeIcon})'
+  'setHasDisplayModeTable:':
+    'prefix': 'setHasDisplayModeTable:'
+    'body': 'setHasDisplayModeTable(${1:BOOL hasDisplayModeTable})'
+  'setIconSize:':
+    'prefix': 'setIconSize:'
+    'body': 'setIconSize(${1:NSUInteger iconSize})'
+  'setMode:':
+    'prefix': 'setMode:'
+    'body': 'setMode(${1:IKCameraDeviceViewDisplayMode mode})'
+  'setPostProcessApplication:':
+    'prefix': 'setPostProcessApplication:'
+    'body': 'setPostProcessApplication(${1:NSURL* postProcessApplication})'
+  'setTransferMode:':
+    'prefix': 'setTransferMode:'
+    'body': 'setTransferMode(${1:IKCameraDeviceViewTransferMode transferMode})'
+  'transferMode':
+    'prefix': 'transferMode'
+    'body': 'transferMode()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'displaysLocalCameras':
+    'prefix': 'displaysLocalCameras'
+    'body': 'displaysLocalCameras()'
+  'displaysLocalScanners':
+    'prefix': 'displaysLocalScanners'
+    'body': 'displaysLocalScanners()'
+  'displaysNetworkCameras':
+    'prefix': 'displaysNetworkCameras'
+    'body': 'displaysNetworkCameras()'
+  'displaysNetworkScanners':
+    'prefix': 'displaysNetworkScanners'
+    'body': 'displaysNetworkScanners()'
+  'mode':
+    'prefix': 'mode'
+    'body': 'mode()'
+  'selectedDevice':
+    'prefix': 'selectedDevice'
+    'body': 'selectedDevice()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDisplaysLocalCameras:':
+    'prefix': 'setDisplaysLocalCameras:'
+    'body': 'setDisplaysLocalCameras(${1:BOOL displaysLocalCameras})'
+  'setDisplaysLocalScanners:':
+    'prefix': 'setDisplaysLocalScanners:'
+    'body': 'setDisplaysLocalScanners(${1:BOOL displaysLocalScanners})'
+  'setDisplaysNetworkCameras:':
+    'prefix': 'setDisplaysNetworkCameras:'
+    'body': 'setDisplaysNetworkCameras(${1:BOOL displaysNetworkCameras})'
+  'setDisplaysNetworkScanners:':
+    'prefix': 'setDisplaysNetworkScanners:'
+    'body': 'setDisplaysNetworkScanners(${1:BOOL displaysNetworkScanners})'
+  'setMode:':
+    'prefix': 'setMode:'
+    'body': 'setMode(${1:IKDeviceBrowserViewDisplayMode mode})'
+  'beginSheetWithOptions:modalForWindow:modalDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginSheetWithOptions:modalForWindow:modalDelegate:didEndSelector:contextInfo:'
+    'body': 'beginSheetWithOptions(${1:NSDictionary* inOptions}, modalForWindow:${2:NSWindow* docWindow}, modalDelegate:${3:id modalDelegate}, didEndSelector:${4:SEL didEndSelector}, contextInfo:${5:void* contextInfo})'
+  'beginWithOptions:modelessDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginWithOptions:modelessDelegate:didEndSelector:contextInfo:'
+    'body': 'beginWithOptions(${1:NSDictionary* inOptions}, modelessDelegate:${2:id modelessDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'IKFilterBrowserPanel.filterBrowserPanelWithStyleMask:':
+    'prefix': 'filterBrowserPanelWithStyleMask:'
+    'body': 'IKFilterBrowserPanel.filterBrowserPanelWithStyleMask(${1:unsigned int styleMask})'
+  'filterBrowserViewWithOptions:':
+    'prefix': 'filterBrowserViewWithOptions:'
+    'body': 'filterBrowserViewWithOptions(${1:NSDictionary* inOptions})'
+  'filterName':
+    'prefix': 'filterName'
+    'body': 'filterName()'
+  'finish:':
+    'prefix': 'finish:'
+    'body': 'finish(${1:id sender})'
+  'runModalWithOptions:':
+    'prefix': 'runModalWithOptions:'
+    'body': 'runModalWithOptions(${1:NSDictionary* inOptions})'
+  'filterName':
+    'prefix': 'filterName'
+    'body': 'filterName()'
+  'setPreviewState:':
+    'prefix': 'setPreviewState:'
+    'body': 'setPreviewState(${1:BOOL inState})'
+  'filter':
+    'prefix': 'filter'
+    'body': 'filter()'
+  'initWithFrame:filter:':
+    'prefix': 'initWithFrame:filter:'
+    'body': 'initWithFrame(${1:NSRect frameRect}, filter:${2:CIFilter* inFilter})'
+  'objectController':
+    'prefix': 'objectController'
+    'body': 'objectController()'
+  'IKFilterUIView.viewWithFrame:filter:':
+    'prefix': 'viewWithFrame:filter:'
+    'body': 'IKFilterUIView.viewWithFrame(${1:NSRect frameRect}, filter:${2:CIFilter* inFilter})'
+  'cellState':
+    'prefix': 'cellState'
+    'body': 'cellState()'
+  'frame':
+    'prefix': 'frame'
+    'body': 'frame()'
+  'imageAlignment':
+    'prefix': 'imageAlignment'
+    'body': 'imageAlignment()'
+  'imageBrowserView':
+    'prefix': 'imageBrowserView'
+    'body': 'imageBrowserView()'
+  'imageContainerFrame':
+    'prefix': 'imageContainerFrame'
+    'body': 'imageContainerFrame()'
+  'imageFrame':
+    'prefix': 'imageFrame'
+    'body': 'imageFrame()'
+  'indexOfRepresentedItem':
+    'prefix': 'indexOfRepresentedItem'
+    'body': 'indexOfRepresentedItem()'
+  'isSelected':
+    'prefix': 'isSelected'
+    'body': 'isSelected()'
+  'layerForType:':
+    'prefix': 'layerForType:'
+    'body': 'layerForType(${1:NSString* type})'
+  'opacity':
+    'prefix': 'opacity'
+    'body': 'opacity()'
+  'representedItem':
+    'prefix': 'representedItem'
+    'body': 'representedItem()'
+  'selectionFrame':
+    'prefix': 'selectionFrame'
+    'body': 'selectionFrame()'
+  'subtitleFrame':
+    'prefix': 'subtitleFrame'
+    'body': 'subtitleFrame()'
+  'titleFrame':
+    'prefix': 'titleFrame'
+    'body': 'titleFrame()'
+  'allowsDroppingOnItems':
+    'prefix': 'allowsDroppingOnItems'
+    'body': 'allowsDroppingOnItems()'
+  'allowsEmptySelection':
+    'prefix': 'allowsEmptySelection'
+    'body': 'allowsEmptySelection()'
+  'allowsMultipleSelection':
+    'prefix': 'allowsMultipleSelection'
+    'body': 'allowsMultipleSelection()'
+  'allowsReordering':
+    'prefix': 'allowsReordering'
+    'body': 'allowsReordering()'
+  'animates':
+    'prefix': 'animates'
+    'body': 'animates()'
+  'backgroundLayer':
+    'prefix': 'backgroundLayer'
+    'body': 'backgroundLayer()'
+  'canControlQuickLookPanel':
+    'prefix': 'canControlQuickLookPanel'
+    'body': 'canControlQuickLookPanel()'
+  'cellForItemAtIndex:':
+    'prefix': 'cellForItemAtIndex:'
+    'body': 'cellForItemAtIndex(${1:NSUInteger index})'
+  'cellSize':
+    'prefix': 'cellSize'
+    'body': 'cellSize()'
+  'cellsStyleMask':
+    'prefix': 'cellsStyleMask'
+    'body': 'cellsStyleMask()'
+  'collapseGroupAtIndex:':
+    'prefix': 'collapseGroupAtIndex:'
+    'body': 'collapseGroupAtIndex(${1:NSUInteger index})'
+  'columnIndexesInRect:':
+    'prefix': 'columnIndexesInRect:'
+    'body': 'columnIndexesInRect(${1:NSRect rect})'
+  'constrainsToOriginalSize':
+    'prefix': 'constrainsToOriginalSize'
+    'body': 'constrainsToOriginalSize()'
+  'contentResizingMask':
+    'prefix': 'contentResizingMask'
+    'body': 'contentResizingMask()'
+  'dataSource':
+    'prefix': 'dataSource'
+    'body': 'dataSource()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'draggingDestinationDelegate':
+    'prefix': 'draggingDestinationDelegate'
+    'body': 'draggingDestinationDelegate()'
+  'dropOperation':
+    'prefix': 'dropOperation'
+    'body': 'dropOperation()'
+  'expandGroupAtIndex:':
+    'prefix': 'expandGroupAtIndex:'
+    'body': 'expandGroupAtIndex(${1:NSUInteger index})'
+  'foregroundLayer':
+    'prefix': 'foregroundLayer'
+    'body': 'foregroundLayer()'
+  'indexAtLocationOfDroppedItem':
+    'prefix': 'indexAtLocationOfDroppedItem'
+    'body': 'indexAtLocationOfDroppedItem()'
+  'indexOfItemAtPoint:':
+    'prefix': 'indexOfItemAtPoint:'
+    'body': 'indexOfItemAtPoint(${1:NSPoint point})'
+  'initWithFrame:':
+    'prefix': 'initWithFrame:'
+    'body': 'initWithFrame(${1:NSRect frame})'
+  'intercellSpacing':
+    'prefix': 'intercellSpacing'
+    'body': 'intercellSpacing()'
+  'isGroupExpandedAtIndex:':
+    'prefix': 'isGroupExpandedAtIndex:'
+    'body': 'isGroupExpandedAtIndex(${1:NSUInteger index})'
+  'itemFrameAtIndex:':
+    'prefix': 'itemFrameAtIndex:'
+    'body': 'itemFrameAtIndex(${1:NSInteger index})'
+  'newCellForRepresentedItem:':
+    'prefix': 'newCellForRepresentedItem:'
+    'body': 'newCellForRepresentedItem(${1:id anItem})'
+  'numberOfColumns':
+    'prefix': 'numberOfColumns'
+    'body': 'numberOfColumns()'
+  'numberOfRows':
+    'prefix': 'numberOfRows'
+    'body': 'numberOfRows()'
+  'rectOfColumn:':
+    'prefix': 'rectOfColumn:'
+    'body': 'rectOfColumn(${1:NSUInteger columnIndex})'
+  'rectOfRow:':
+    'prefix': 'rectOfRow:'
+    'body': 'rectOfRow(${1:NSUInteger rowIndex})'
+  'reloadData':
+    'prefix': 'reloadData'
+    'body': 'reloadData()'
+  'rowIndexesInRect:':
+    'prefix': 'rowIndexesInRect:'
+    'body': 'rowIndexesInRect(${1:NSRect rect})'
+  'scrollIndexToVisible:':
+    'prefix': 'scrollIndexToVisible:'
+    'body': 'scrollIndexToVisible(${1:NSInteger index})'
+  'selectionIndexes':
+    'prefix': 'selectionIndexes'
+    'body': 'selectionIndexes()'
+  'setAllowsDroppingOnItems:':
+    'prefix': 'setAllowsDroppingOnItems:'
+    'body': 'setAllowsDroppingOnItems(${1:BOOL flag})'
+  'setAllowsEmptySelection:':
+    'prefix': 'setAllowsEmptySelection:'
+    'body': 'setAllowsEmptySelection(${1:BOOL flag})'
+  'setAllowsMultipleSelection:':
+    'prefix': 'setAllowsMultipleSelection:'
+    'body': 'setAllowsMultipleSelection(${1:BOOL flag})'
+  'setAllowsReordering:':
+    'prefix': 'setAllowsReordering:'
+    'body': 'setAllowsReordering(${1:BOOL flag})'
+  'setAnimates:':
+    'prefix': 'setAnimates:'
+    'body': 'setAnimates(${1:BOOL flag})'
+  'setBackgroundLayer:':
+    'prefix': 'setBackgroundLayer:'
+    'body': 'setBackgroundLayer(${1:CALayer* aLayer})'
+  'setCanControlQuickLookPanel:':
+    'prefix': 'setCanControlQuickLookPanel:'
+    'body': 'setCanControlQuickLookPanel(${1:BOOL flag})'
+  'setCellSize:':
+    'prefix': 'setCellSize:'
+    'body': 'setCellSize(${1:NSSize size})'
+  'setCellsStyleMask:':
+    'prefix': 'setCellsStyleMask:'
+    'body': 'setCellsStyleMask(${1:NSUInteger mask})'
+  'setConstrainsToOriginalSize:':
+    'prefix': 'setConstrainsToOriginalSize:'
+    'body': 'setConstrainsToOriginalSize(${1:BOOL flag})'
+  'setContentResizingMask:':
+    'prefix': 'setContentResizingMask:'
+    'body': 'setContentResizingMask(${1:NSUInteger mask})'
+  'setDataSource:':
+    'prefix': 'setDataSource:'
+    'body': 'setDataSource(${1:id source})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id aDelegate})'
+  'setDraggingDestinationDelegate:':
+    'prefix': 'setDraggingDestinationDelegate:'
+    'body': 'setDraggingDestinationDelegate(${1:id delegate})'
+  'setDropIndex:dropOperation:':
+    'prefix': 'setDropIndex:dropOperation:'
+    'body': 'setDropIndex(${1:NSInteger index}, dropOperation:${2:IKImageBrowserDropOperation operation})'
+  'setForegroundLayer:':
+    'prefix': 'setForegroundLayer:'
+    'body': 'setForegroundLayer(${1:CALayer* aLayer})'
+  'setIntercellSpacing:':
+    'prefix': 'setIntercellSpacing:'
+    'body': 'setIntercellSpacing(${1:NSSize aSize})'
+  'setSelectionIndexes:byExtendingSelection:':
+    'prefix': 'setSelectionIndexes:byExtendingSelection:'
+    'body': 'setSelectionIndexes(${1:NSIndexSet* indexes}, byExtendingSelection:${2:BOOL extendSelection})'
+  'setZoomValue:':
+    'prefix': 'setZoomValue:'
+    'body': 'setZoomValue(${1:float aValue})'
+  'visibleItemIndexes':
+    'prefix': 'visibleItemIndexes'
+    'body': 'visibleItemIndexes()'
+  'zoomValue':
+    'prefix': 'zoomValue'
+    'body': 'zoomValue()'
+  'dataSource':
+    'prefix': 'dataSource'
+    'body': 'dataSource()'
+  'filterArray':
+    'prefix': 'filterArray'
+    'body': 'filterArray()'
+  'reloadData':
+    'prefix': 'reloadData'
+    'body': 'reloadData()'
+  'setDataSource:':
+    'prefix': 'setDataSource:'
+    'body': 'setDataSource(${1:id dataSource})'
+  'IKImageEditPanel.sharedImageEditPanel':
+    'prefix': 'sharedImageEditPanel'
+    'body': 'IKImageEditPanel.sharedImageEditPanel()'
+  'autohidesScrollers':
+    'prefix': 'autohidesScrollers'
+    'body': 'autohidesScrollers()'
+  'autoresizes':
+    'prefix': 'autoresizes'
+    'body': 'autoresizes()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'convertImagePointToViewPoint:':
+    'prefix': 'convertImagePointToViewPoint:'
+    'body': 'convertImagePointToViewPoint(${1:NSPoint imagePoint})'
+  'convertImageRectToViewRect:':
+    'prefix': 'convertImageRectToViewRect:'
+    'body': 'convertImageRectToViewRect(${1:NSRect imageRect})'
+  'convertViewPointToImagePoint:':
+    'prefix': 'convertViewPointToImagePoint:'
+    'body': 'convertViewPointToImagePoint(${1:NSPoint viewPoint})'
+  'convertViewRectToImageRect:':
+    'prefix': 'convertViewRectToImageRect:'
+    'body': 'convertViewRectToImageRect(${1:NSRect viewRect})'
+  'crop:':
+    'prefix': 'crop:'
+    'body': 'crop(${1:id sender})'
+  'currentToolMode':
+    'prefix': 'currentToolMode'
+    'body': 'currentToolMode()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'doubleClickOpensImageEditPanel':
+    'prefix': 'doubleClickOpensImageEditPanel'
+    'body': 'doubleClickOpensImageEditPanel()'
+  'editable':
+    'prefix': 'editable'
+    'body': 'editable()'
+  'flipImageHorizontal:':
+    'prefix': 'flipImageHorizontal:'
+    'body': 'flipImageHorizontal(${1:id sender})'
+  'flipImageVertical:':
+    'prefix': 'flipImageVertical:'
+    'body': 'flipImageVertical(${1:id sender})'
+  'hasHorizontalScroller':
+    'prefix': 'hasHorizontalScroller'
+    'body': 'hasHorizontalScroller()'
+  'hasVerticalScroller':
+    'prefix': 'hasVerticalScroller'
+    'body': 'hasVerticalScroller()'
+  'image':
+    'prefix': 'image'
+    'body': 'image()'
+  'imageCorrection':
+    'prefix': 'imageCorrection'
+    'body': 'imageCorrection()'
+  'imageProperties':
+    'prefix': 'imageProperties'
+    'body': 'imageProperties()'
+  'imageSize':
+    'prefix': 'imageSize'
+    'body': 'imageSize()'
+  'overlayForType:':
+    'prefix': 'overlayForType:'
+    'body': 'overlayForType(${1:NSString* layerType})'
+  'rotateImageLeft:':
+    'prefix': 'rotateImageLeft:'
+    'body': 'rotateImageLeft(${1:id sender})'
+  'rotateImageRight:':
+    'prefix': 'rotateImageRight:'
+    'body': 'rotateImageRight(${1:id sender})'
+  'rotationAngle':
+    'prefix': 'rotationAngle'
+    'body': 'rotationAngle()'
+  'scrollToPoint:':
+    'prefix': 'scrollToPoint:'
+    'body': 'scrollToPoint(${1:NSPoint point})'
+  'scrollToRect:':
+    'prefix': 'scrollToRect:'
+    'body': 'scrollToRect(${1:NSRect rect})'
+  'setAutohidesScrollers:':
+    'prefix': 'setAutohidesScrollers:'
+    'body': 'setAutohidesScrollers(${1:BOOL autohidesScrollers})'
+  'setAutoresizes:':
+    'prefix': 'setAutoresizes:'
+    'body': 'setAutoresizes(${1:BOOL autoresizes})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* backgroundColor})'
+  'setCurrentToolMode:':
+    'prefix': 'setCurrentToolMode:'
+    'body': 'setCurrentToolMode(${1:NSString* currentToolMode})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDoubleClickOpensImageEditPanel:':
+    'prefix': 'setDoubleClickOpensImageEditPanel:'
+    'body': 'setDoubleClickOpensImageEditPanel(${1:BOOL doubleClickOpensImageEditPanel})'
+  'setEditable:':
+    'prefix': 'setEditable:'
+    'body': 'setEditable(${1:BOOL editable})'
+  'setHasHorizontalScroller:':
+    'prefix': 'setHasHorizontalScroller:'
+    'body': 'setHasHorizontalScroller(${1:BOOL hasHorizontalScroller})'
+  'setHasVerticalScroller:':
+    'prefix': 'setHasVerticalScroller:'
+    'body': 'setHasVerticalScroller(${1:BOOL hasVerticalScroller})'
+  'setImage:imageProperties:':
+    'prefix': 'setImage:imageProperties:'
+    'body': 'setImage(${1:CGImageRef image}, imageProperties:${2:NSDictionary* metaData})'
+  'setImageCorrection:':
+    'prefix': 'setImageCorrection:'
+    'body': 'setImageCorrection(${1:CIFilter* imageCorrection})'
+  'setImageWithURL:':
+    'prefix': 'setImageWithURL:'
+    'body': 'setImageWithURL(${1:NSURL* url})'
+  'setImageZoomFactor:centerPoint:':
+    'prefix': 'setImageZoomFactor:centerPoint:'
+    'body': 'setImageZoomFactor(${1:CGFloat zoomFactor}, centerPoint:${2:NSPoint centerPoint})'
+  'setOverlay:forType:':
+    'prefix': 'setOverlay:forType:'
+    'body': 'setOverlay(${1:CALayer* layer}, forType:${2:NSString* layerType})'
+  'setRotationAngle:':
+    'prefix': 'setRotationAngle:'
+    'body': 'setRotationAngle(${1:CGFloat rotationAngle})'
+  'setRotationAngle:centerPoint:':
+    'prefix': 'setRotationAngle:centerPoint:'
+    'body': 'setRotationAngle(${1:CGFloat rotationAngle}, centerPoint:${2:NSPoint centerPoint})'
+  'setSupportsDragAndDrop:':
+    'prefix': 'setSupportsDragAndDrop:'
+    'body': 'setSupportsDragAndDrop(${1:BOOL supportsDragAndDrop})'
+  'setZoomFactor:':
+    'prefix': 'setZoomFactor:'
+    'body': 'setZoomFactor(${1:CGFloat zoomFactor})'
+  'supportsDragAndDrop':
+    'prefix': 'supportsDragAndDrop'
+    'body': 'supportsDragAndDrop()'
+  'zoomFactor':
+    'prefix': 'zoomFactor'
+    'body': 'zoomFactor()'
+  'zoomImageToActualSize:':
+    'prefix': 'zoomImageToActualSize:'
+    'body': 'zoomImageToActualSize(${1:id sender})'
+  'zoomImageToFit:':
+    'prefix': 'zoomImageToFit:'
+    'body': 'zoomImageToFit(${1:id sender})'
+  'zoomImageToRect:':
+    'prefix': 'zoomImageToRect:'
+    'body': 'zoomImageToRect(${1:NSRect rect})'
+  'zoomIn:':
+    'prefix': 'zoomIn:'
+    'body': 'zoomIn(${1:id sender})'
+  'zoomOut:':
+    'prefix': 'zoomOut:'
+    'body': 'zoomOut(${1:id sender})'
+  'beginPictureTakerSheetForWindow:withDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginPictureTakerSheetForWindow:withDelegate:didEndSelector:contextInfo:'
+    'body': 'beginPictureTakerSheetForWindow(${1:NSWindow* aWindow}, withDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'beginPictureTakerWithDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginPictureTakerWithDelegate:didEndSelector:contextInfo:'
+    'body': 'beginPictureTakerWithDelegate(${1:id delegate}, didEndSelector:${2:SEL didEndSelector}, contextInfo:${3:void* contextInfo})'
+  'inputImage':
+    'prefix': 'inputImage'
+    'body': 'inputImage()'
+  'mirroring':
+    'prefix': 'mirroring'
+    'body': 'mirroring()'
+  'outputImage':
+    'prefix': 'outputImage'
+    'body': 'outputImage()'
+  'IKPictureTaker.pictureTaker':
+    'prefix': 'pictureTaker'
+    'body': 'IKPictureTaker.pictureTaker()'
+  'popUpRecentsMenuForView:withDelegate:didEndSelector:contextInfo:':
+    'prefix': 'popUpRecentsMenuForView:withDelegate:didEndSelector:contextInfo:'
+    'body': 'popUpRecentsMenuForView(${1:NSView* aView}, withDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'runModal':
+    'prefix': 'runModal'
+    'body': 'runModal()'
+  'setInputImage:':
+    'prefix': 'setInputImage:'
+    'body': 'setInputImage(${1:NSImage* image})'
+  'setMirroring:':
+    'prefix': 'setMirroring:'
+    'body': 'setMirroring(${1:BOOL b})'
+  'addSaveOptionsAccessoryViewToSavePanel:':
+    'prefix': 'addSaveOptionsAccessoryViewToSavePanel:'
+    'body': 'addSaveOptionsAccessoryViewToSavePanel(${1:NSSavePanel* savePanel})'
+  'addSaveOptionsToView:':
+    'prefix': 'addSaveOptionsToView:'
+    'body': 'addSaveOptionsToView(${1:NSView* view})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'imageProperties':
+    'prefix': 'imageProperties'
+    'body': 'imageProperties()'
+  'imageUTType':
+    'prefix': 'imageUTType'
+    'body': 'imageUTType()'
+  'initWithImageProperties:imageUTType:':
+    'prefix': 'initWithImageProperties:imageUTType:'
+    'body': 'initWithImageProperties(${1:NSDictionary* imageProperties}, imageUTType:${2:NSString* imageUTType})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'userSelection':
+    'prefix': 'userSelection'
+    'body': 'userSelection()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'displaysDownloadsDirectoryControl':
+    'prefix': 'displaysDownloadsDirectoryControl'
+    'body': 'displaysDownloadsDirectoryControl()'
+  'displaysPostProcessApplicationControl':
+    'prefix': 'displaysPostProcessApplicationControl'
+    'body': 'displaysPostProcessApplicationControl()'
+  'documentName':
+    'prefix': 'documentName'
+    'body': 'documentName()'
+  'downloadsDirectory':
+    'prefix': 'downloadsDirectory'
+    'body': 'downloadsDirectory()'
+  'hasDisplayModeAdvanced':
+    'prefix': 'hasDisplayModeAdvanced'
+    'body': 'hasDisplayModeAdvanced()'
+  'hasDisplayModeSimple':
+    'prefix': 'hasDisplayModeSimple'
+    'body': 'hasDisplayModeSimple()'
+  'mode':
+    'prefix': 'mode'
+    'body': 'mode()'
+  'overviewControlLabel':
+    'prefix': 'overviewControlLabel'
+    'body': 'overviewControlLabel()'
+  'postProcessApplication':
+    'prefix': 'postProcessApplication'
+    'body': 'postProcessApplication()'
+  'scanControlLabel':
+    'prefix': 'scanControlLabel'
+    'body': 'scanControlLabel()'
+  'scannerDevice':
+    'prefix': 'scannerDevice'
+    'body': 'scannerDevice()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDisplaysDownloadsDirectoryControl:':
+    'prefix': 'setDisplaysDownloadsDirectoryControl:'
+    'body': 'setDisplaysDownloadsDirectoryControl(${1:BOOL displaysDownloadsDirectoryControl})'
+  'setDisplaysPostProcessApplicationControl:':
+    'prefix': 'setDisplaysPostProcessApplicationControl:'
+    'body': 'setDisplaysPostProcessApplicationControl(${1:BOOL displaysPostProcessApplicationControl})'
+  'setDocumentName:':
+    'prefix': 'setDocumentName:'
+    'body': 'setDocumentName(${1:NSString* documentName})'
+  'setDownloadsDirectory:':
+    'prefix': 'setDownloadsDirectory:'
+    'body': 'setDownloadsDirectory(${1:NSURL* downloadsDirectory})'
+  'setHasDisplayModeAdvanced:':
+    'prefix': 'setHasDisplayModeAdvanced:'
+    'body': 'setHasDisplayModeAdvanced(${1:BOOL hasDisplayModeAdvanced})'
+  'setHasDisplayModeSimple:':
+    'prefix': 'setHasDisplayModeSimple:'
+    'body': 'setHasDisplayModeSimple(${1:BOOL hasDisplayModeSimple})'
+  'setMode:':
+    'prefix': 'setMode:'
+    'body': 'setMode(${1:IKScannerDeviceViewDisplayMode mode})'
+  'setOverviewControlLabel:':
+    'prefix': 'setOverviewControlLabel:'
+    'body': 'setOverviewControlLabel(${1:NSString* overviewControlLabel})'
+  'setPostProcessApplication:':
+    'prefix': 'setPostProcessApplication:'
+    'body': 'setPostProcessApplication(${1:NSURL* postProcessApplication})'
+  'setScanControlLabel:':
+    'prefix': 'setScanControlLabel:'
+    'body': 'setScanControlLabel(${1:NSString* scanControlLabel})'
+  'setScannerDevice:':
+    'prefix': 'setScannerDevice:'
+    'body': 'setScannerDevice(${1:ICScannerDevice* scannerDevice})'
+  'setTransferMode:':
+    'prefix': 'setTransferMode:'
+    'body': 'setTransferMode(${1:IKScannerDeviceViewTransferMode transferMode})'
+  'transferMode':
+    'prefix': 'transferMode'
+    'body': 'transferMode()'
+  'autoPlayDelay':
+    'prefix': 'autoPlayDelay'
+    'body': 'autoPlayDelay()'
+  'IKSlideshow.canExportToApplication:':
+    'prefix': 'canExportToApplication:'
+    'body': 'IKSlideshow.canExportToApplication(${1:NSString* applicationBundleIdentifier})'
+  'IKSlideshow.exportSlideshowItem:toApplication:':
+    'prefix': 'exportSlideshowItem:toApplication:'
+    'body': 'IKSlideshow.exportSlideshowItem(${1:id item}, toApplication:${2:NSString* applicationBundleIdentifier})'
+  'indexOfCurrentSlideshowItem':
+    'prefix': 'indexOfCurrentSlideshowItem'
+    'body': 'indexOfCurrentSlideshowItem()'
+  'reloadData':
+    'prefix': 'reloadData'
+    'body': 'reloadData()'
+  'reloadSlideshowItemAtIndex:':
+    'prefix': 'reloadSlideshowItemAtIndex:'
+    'body': 'reloadSlideshowItemAtIndex(${1:NSUInteger index})'
+  'runSlideshowWithDataSource:inMode:options:':
+    'prefix': 'runSlideshowWithDataSource:inMode:options:'
+    'body': 'runSlideshowWithDataSource(${1:id dataSource}, inMode:${2:NSString* slideshowMode}, options:${3:NSDictionary* slideshowOptions})'
+  'setAutoPlayDelay:':
+    'prefix': 'setAutoPlayDelay:'
+    'body': 'setAutoPlayDelay(${1:NSTimeInterval autoPlayDelay})'
+  'IKSlideshow.sharedSlideshow':
+    'prefix': 'sharedSlideshow'
+    'body': 'IKSlideshow.sharedSlideshow()'
+  'stopSlideshow:':
+    'prefix': 'stopSlideshow:'
+    'body': 'stopSlideshow(${1:id sender})'
+  'cameraDeviceView:didDownloadFile:location:fileData:error:':
+    'prefix': 'cameraDeviceView:didDownloadFile:location:fileData:error:'
+    'body': 'cameraDeviceView(${1:IKCameraDeviceView* cameraDeviceView}, didDownloadFile:${2:ICCameraFile* file}, location:${3:NSURL* url}, fileData:${4:NSData* data}, error:${5:NSError* error})'
+  'cameraDeviceView:didEncounterError:':
+    'prefix': 'cameraDeviceView:didEncounterError:'
+    'body': 'cameraDeviceView(${1:IKCameraDeviceView* cameraDeviceView}, didEncounterError:${2:NSError* error})'
+  'cameraDeviceViewSelectionDidChange:':
+    'prefix': 'cameraDeviceViewSelectionDidChange:'
+    'body': 'cameraDeviceViewSelectionDidChange(${1:IKCameraDeviceView* cameraDeviceView})'
+  'canExportSlideshowItemAtIndex:toApplication:':
+    'prefix': 'canExportSlideshowItemAtIndex:toApplication:'
+    'body': 'canExportSlideshowItemAtIndex(${1:NSUInteger index}, toApplication:${2:NSString* applicationBundleIdentifier})'
+  'deviceBrowserView:didEncounterError:':
+    'prefix': 'deviceBrowserView:didEncounterError:'
+    'body': 'deviceBrowserView(${1:IKDeviceBrowserView* deviceBrowserView}, didEncounterError:${2:NSError* error})'
+  'deviceBrowserView:selectionDidChange:':
+    'prefix': 'deviceBrowserView:selectionDidChange:'
+    'body': 'deviceBrowserView(${1:IKDeviceBrowserView* deviceBrowserView}, selectionDidChange:${2:ICDevice* device})'
+  'hasAdjustMode':
+    'prefix': 'hasAdjustMode'
+    'body': 'hasAdjustMode()'
+  'hasDetailsMode':
+    'prefix': 'hasDetailsMode'
+    'body': 'hasDetailsMode()'
+  'hasEffectsMode':
+    'prefix': 'hasEffectsMode'
+    'body': 'hasEffectsMode()'
+  'image':
+    'prefix': 'image'
+    'body': 'image()'
+  'imageBrowser:backgroundWasRightClickedWithEvent:':
+    'prefix': 'imageBrowser:backgroundWasRightClickedWithEvent:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, backgroundWasRightClickedWithEvent:${2:NSEvent* event})'
+  'imageBrowser:cellWasDoubleClickedAtIndex:':
+    'prefix': 'imageBrowser:cellWasDoubleClickedAtIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, cellWasDoubleClickedAtIndex:${2:NSUInteger index})'
+  'imageBrowser:cellWasRightClickedAtIndex:withEvent:':
+    'prefix': 'imageBrowser:cellWasRightClickedAtIndex:withEvent:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, cellWasRightClickedAtIndex:${2:NSUInteger index}, withEvent:${3:NSEvent* event})'
+  'imageBrowser:groupAtIndex:':
+    'prefix': 'imageBrowser:groupAtIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, groupAtIndex:${2:NSUInteger index})'
+  'imageBrowser:itemAtIndex:':
+    'prefix': 'imageBrowser:itemAtIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, itemAtIndex:${2:NSUInteger index})'
+  'imageBrowser:moveItemsAtIndexes:toIndex:':
+    'prefix': 'imageBrowser:moveItemsAtIndexes:toIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, moveItemsAtIndexes:${2:NSIndexSet* indexes}, toIndex:${3:NSUInteger destinationIndex})'
+  'imageBrowser:removeItemsAtIndexes:':
+    'prefix': 'imageBrowser:removeItemsAtIndexes:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, removeItemsAtIndexes:${2:NSIndexSet* indexes})'
+  'imageBrowser:writeItemsAtIndexes:toPasteboard:':
+    'prefix': 'imageBrowser:writeItemsAtIndexes:toPasteboard:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, writeItemsAtIndexes:${2:NSIndexSet* itemIndexes}, toPasteboard:${3:NSPasteboard* pasteboard})'
+  'imageBrowserSelectionDidChange:':
+    'prefix': 'imageBrowserSelectionDidChange:'
+    'body': 'imageBrowserSelectionDidChange(${1:IKImageBrowserView* aBrowser})'
+  'imageProperties':
+    'prefix': 'imageProperties'
+    'body': 'imageProperties()'
+  'imageRepresentation':
+    'prefix': 'imageRepresentation'
+    'body': 'imageRepresentation()'
+  'imageRepresentationType':
+    'prefix': 'imageRepresentationType'
+    'body': 'imageRepresentationType()'
+  'imageSubtitle':
+    'prefix': 'imageSubtitle'
+    'body': 'imageSubtitle()'
+  'imageTitle':
+    'prefix': 'imageTitle'
+    'body': 'imageTitle()'
+  'imageUID':
+    'prefix': 'imageUID'
+    'body': 'imageUID()'
+  'imageVersion':
+    'prefix': 'imageVersion'
+    'body': 'imageVersion()'
+  'isSelectable':
+    'prefix': 'isSelectable'
+    'body': 'isSelectable()'
+  'nameOfSlideshowItemAtIndex:':
+    'prefix': 'nameOfSlideshowItemAtIndex:'
+    'body': 'nameOfSlideshowItemAtIndex(${1:NSUInteger index})'
+  'numberOfGroupsInImageBrowser:':
+    'prefix': 'numberOfGroupsInImageBrowser:'
+    'body': 'numberOfGroupsInImageBrowser(${1:IKImageBrowserView* aBrowser})'
+  'numberOfItemsInImageBrowser:':
+    'prefix': 'numberOfItemsInImageBrowser:'
+    'body': 'numberOfItemsInImageBrowser(${1:IKImageBrowserView* aBrowser})'
+  'numberOfSlideshowItems':
+    'prefix': 'numberOfSlideshowItems'
+    'body': 'numberOfSlideshowItems()'
+  'provideViewForUIConfiguration:excludedKeys:':
+    'prefix': 'provideViewForUIConfiguration:excludedKeys:'
+    'body': 'provideViewForUIConfiguration(${1:NSDictionary* inUIConfiguration}, excludedKeys:${2:NSArray* inKeys})'
+  'saveOptions:shouldShowUTType:':
+    'prefix': 'saveOptions:shouldShowUTType:'
+    'body': 'saveOptions(${1:IKSaveOptions* saveOptions}, shouldShowUTType:${2:NSString* utType})'
+  'scannerDeviceView:didEncounterError:':
+    'prefix': 'scannerDeviceView:didEncounterError:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didEncounterError:${2:NSError* error})'
+  'scannerDeviceView:didScanToBandData:scanInfo:error:':
+    'prefix': 'scannerDeviceView:didScanToBandData:scanInfo:error:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didScanToBandData:${2:ICScannerBandData* data}, scanInfo:${3:NSDictionary* scanInfo}, error:${4:NSError* error})'
+  'scannerDeviceView:didScanToURL:error:':
+    'prefix': 'scannerDeviceView:didScanToURL:error:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didScanToURL:${2:NSURL* url}, error:${3:NSError* error})'
+  'scannerDeviceView:didScanToURL:fileData:error:':
+    'prefix': 'scannerDeviceView:didScanToURL:fileData:error:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didScanToURL:${2:NSURL* url}, fileData:${3:NSData* data}, error:${4:NSError* error})'
+  'setImage:imageProperties:':
+    'prefix': 'setImage:imageProperties:'
+    'body': 'setImage(${1:CGImageRef image}, imageProperties:${2:NSDictionary* metaData})'
+  'slideshowDidChangeCurrentIndex:':
+    'prefix': 'slideshowDidChangeCurrentIndex:'
+    'body': 'slideshowDidChangeCurrentIndex(${1:NSUInteger newIndex})'
+  'slideshowDidStop':
+    'prefix': 'slideshowDidStop'
+    'body': 'slideshowDidStop()'
+  'slideshowItemAtIndex:':
+    'prefix': 'slideshowItemAtIndex:'
+    'body': 'slideshowItemAtIndex(${1:NSUInteger index})'
+  'slideshowWillStart':
+    'prefix': 'slideshowWillStart'
+    'body': 'slideshowWillStart()'
+  'thumbnailWithMaximumSize:':
+    'prefix': 'thumbnailWithMaximumSize:'
+    'body': 'thumbnailWithMaximumSize(${1:NSSize size})'
+  'cameraDeviceView:didDownloadFile:location:fileData:error:':
+    'prefix': 'cameraDeviceView:didDownloadFile:location:fileData:error:'
+    'body': 'cameraDeviceView(${1:IKCameraDeviceView* cameraDeviceView}, didDownloadFile:${2:ICCameraFile* file}, location:${3:NSURL* url}, fileData:${4:NSData* data}, error:${5:NSError* error})'
+  'cameraDeviceView:didEncounterError:':
+    'prefix': 'cameraDeviceView:didEncounterError:'
+    'body': 'cameraDeviceView(${1:IKCameraDeviceView* cameraDeviceView}, didEncounterError:${2:NSError* error})'
+  'cameraDeviceViewSelectionDidChange:':
+    'prefix': 'cameraDeviceViewSelectionDidChange:'
+    'body': 'cameraDeviceViewSelectionDidChange(${1:IKCameraDeviceView* cameraDeviceView})'
+  'deviceBrowserView:didEncounterError:':
+    'prefix': 'deviceBrowserView:didEncounterError:'
+    'body': 'deviceBrowserView(${1:IKDeviceBrowserView* deviceBrowserView}, didEncounterError:${2:NSError* error})'
+  'deviceBrowserView:selectionDidChange:':
+    'prefix': 'deviceBrowserView:selectionDidChange:'
+    'body': 'deviceBrowserView(${1:IKDeviceBrowserView* deviceBrowserView}, selectionDidChange:${2:ICDevice* device})'
+  'provideViewForUIConfiguration:excludedKeys:':
+    'prefix': 'provideViewForUIConfiguration:excludedKeys:'
+    'body': 'provideViewForUIConfiguration(${1:NSDictionary* inUIConfiguration}, excludedKeys:${2:NSArray* inKeys})'
+  'imageBrowser:groupAtIndex:':
+    'prefix': 'imageBrowser:groupAtIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, groupAtIndex:${2:NSUInteger index})'
+  'imageBrowser:itemAtIndex:':
+    'prefix': 'imageBrowser:itemAtIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, itemAtIndex:${2:NSUInteger index})'
+  'imageBrowser:moveItemsAtIndexes:toIndex:':
+    'prefix': 'imageBrowser:moveItemsAtIndexes:toIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, moveItemsAtIndexes:${2:NSIndexSet* indexes}, toIndex:${3:NSUInteger destinationIndex})'
+  'imageBrowser:removeItemsAtIndexes:':
+    'prefix': 'imageBrowser:removeItemsAtIndexes:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, removeItemsAtIndexes:${2:NSIndexSet* indexes})'
+  'imageBrowser:writeItemsAtIndexes:toPasteboard:':
+    'prefix': 'imageBrowser:writeItemsAtIndexes:toPasteboard:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, writeItemsAtIndexes:${2:NSIndexSet* itemIndexes}, toPasteboard:${3:NSPasteboard* pasteboard})'
+  'numberOfGroupsInImageBrowser:':
+    'prefix': 'numberOfGroupsInImageBrowser:'
+    'body': 'numberOfGroupsInImageBrowser(${1:IKImageBrowserView* aBrowser})'
+  'numberOfItemsInImageBrowser:':
+    'prefix': 'numberOfItemsInImageBrowser:'
+    'body': 'numberOfItemsInImageBrowser(${1:IKImageBrowserView* aBrowser})'
+  'imageBrowser:backgroundWasRightClickedWithEvent:':
+    'prefix': 'imageBrowser:backgroundWasRightClickedWithEvent:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, backgroundWasRightClickedWithEvent:${2:NSEvent* event})'
+  'imageBrowser:cellWasDoubleClickedAtIndex:':
+    'prefix': 'imageBrowser:cellWasDoubleClickedAtIndex:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, cellWasDoubleClickedAtIndex:${2:NSUInteger index})'
+  'imageBrowser:cellWasRightClickedAtIndex:withEvent:':
+    'prefix': 'imageBrowser:cellWasRightClickedAtIndex:withEvent:'
+    'body': 'imageBrowser(${1:IKImageBrowserView* aBrowser}, cellWasRightClickedAtIndex:${2:NSUInteger index}, withEvent:${3:NSEvent* event})'
+  'imageBrowserSelectionDidChange:':
+    'prefix': 'imageBrowserSelectionDidChange:'
+    'body': 'imageBrowserSelectionDidChange(${1:IKImageBrowserView* aBrowser})'
+  'imageRepresentation':
+    'prefix': 'imageRepresentation'
+    'body': 'imageRepresentation()'
+  'imageRepresentationType':
+    'prefix': 'imageRepresentationType'
+    'body': 'imageRepresentationType()'
+  'imageSubtitle':
+    'prefix': 'imageSubtitle'
+    'body': 'imageSubtitle()'
+  'imageTitle':
+    'prefix': 'imageTitle'
+    'body': 'imageTitle()'
+  'imageUID':
+    'prefix': 'imageUID'
+    'body': 'imageUID()'
+  'imageVersion':
+    'prefix': 'imageVersion'
+    'body': 'imageVersion()'
+  'isSelectable':
+    'prefix': 'isSelectable'
+    'body': 'isSelectable()'
+  'hasAdjustMode':
+    'prefix': 'hasAdjustMode'
+    'body': 'hasAdjustMode()'
+  'hasDetailsMode':
+    'prefix': 'hasDetailsMode'
+    'body': 'hasDetailsMode()'
+  'hasEffectsMode':
+    'prefix': 'hasEffectsMode'
+    'body': 'hasEffectsMode()'
+  'image':
+    'prefix': 'image'
+    'body': 'image()'
+  'imageProperties':
+    'prefix': 'imageProperties'
+    'body': 'imageProperties()'
+  'setImage:imageProperties:':
+    'prefix': 'setImage:imageProperties:'
+    'body': 'setImage(${1:CGImageRef image}, imageProperties:${2:NSDictionary* metaData})'
+  'thumbnailWithMaximumSize:':
+    'prefix': 'thumbnailWithMaximumSize:'
+    'body': 'thumbnailWithMaximumSize(${1:NSSize size})'
+  'saveOptions:shouldShowUTType:':
+    'prefix': 'saveOptions:shouldShowUTType:'
+    'body': 'saveOptions(${1:IKSaveOptions* saveOptions}, shouldShowUTType:${2:NSString* utType})'
+  'scannerDeviceView:didEncounterError:':
+    'prefix': 'scannerDeviceView:didEncounterError:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didEncounterError:${2:NSError* error})'
+  'scannerDeviceView:didScanToBandData:scanInfo:error:':
+    'prefix': 'scannerDeviceView:didScanToBandData:scanInfo:error:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didScanToBandData:${2:ICScannerBandData* data}, scanInfo:${3:NSDictionary* scanInfo}, error:${4:NSError* error})'
+  'scannerDeviceView:didScanToURL:error:':
+    'prefix': 'scannerDeviceView:didScanToURL:error:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didScanToURL:${2:NSURL* url}, error:${3:NSError* error})'
+  'scannerDeviceView:didScanToURL:fileData:error:':
+    'prefix': 'scannerDeviceView:didScanToURL:fileData:error:'
+    'body': 'scannerDeviceView(${1:IKScannerDeviceView* scannerDeviceView}, didScanToURL:${2:NSURL* url}, fileData:${3:NSData* data}, error:${4:NSError* error})'
+  'canExportSlideshowItemAtIndex:toApplication:':
+    'prefix': 'canExportSlideshowItemAtIndex:toApplication:'
+    'body': 'canExportSlideshowItemAtIndex(${1:NSUInteger index}, toApplication:${2:NSString* applicationBundleIdentifier})'
+  'nameOfSlideshowItemAtIndex:':
+    'prefix': 'nameOfSlideshowItemAtIndex:'
+    'body': 'nameOfSlideshowItemAtIndex(${1:NSUInteger index})'
+  'numberOfSlideshowItems':
+    'prefix': 'numberOfSlideshowItems'
+    'body': 'numberOfSlideshowItems()'
+  'slideshowDidChangeCurrentIndex:':
+    'prefix': 'slideshowDidChangeCurrentIndex:'
+    'body': 'slideshowDidChangeCurrentIndex(${1:NSUInteger newIndex})'
+  'slideshowDidStop':
+    'prefix': 'slideshowDidStop'
+    'body': 'slideshowDidStop()'
+  'slideshowItemAtIndex:':
+    'prefix': 'slideshowItemAtIndex:'
+    'body': 'slideshowItemAtIndex(${1:NSUInteger index})'
+  'slideshowWillStart':
+    'prefix': 'slideshowWillStart'
+    'body': 'slideshowWillStart()'
+  'PDFDocumentAuthorAttribute (NSString*)':
+    'prefix': 'PDFDocumentAuthorAttribute'
+    'body': 'PDFDocumentAuthorAttribute'
+  'PDFDocumentCreationDateAttribute (NSString*)':
+    'prefix': 'PDFDocumentCreationDateAttribute'
+    'body': 'PDFDocumentCreationDateAttribute'
+  'PDFDocumentCreatorAttribute (NSString*)':
+    'prefix': 'PDFDocumentCreatorAttribute'
+    'body': 'PDFDocumentCreatorAttribute'
+  'PDFDocumentDidBeginFindNotification (NSString*)':
+    'prefix': 'PDFDocumentDidBeginFindNotification'
+    'body': 'PDFDocumentDidBeginFindNotification'
+  'PDFDocumentDidBeginPageFindNotification (NSString*)':
+    'prefix': 'PDFDocumentDidBeginPageFindNotification'
+    'body': 'PDFDocumentDidBeginPageFindNotification'
+  'PDFDocumentDidBeginPageWriteNotification (NSString*)':
+    'prefix': 'PDFDocumentDidBeginPageWriteNotification'
+    'body': 'PDFDocumentDidBeginPageWriteNotification'
+  'PDFDocumentDidBeginWriteNotification (NSString*)':
+    'prefix': 'PDFDocumentDidBeginWriteNotification'
+    'body': 'PDFDocumentDidBeginWriteNotification'
+  'PDFDocumentDidEndFindNotification (NSString*)':
+    'prefix': 'PDFDocumentDidEndFindNotification'
+    'body': 'PDFDocumentDidEndFindNotification'
+  'PDFDocumentDidEndPageFindNotification (NSString*)':
+    'prefix': 'PDFDocumentDidEndPageFindNotification'
+    'body': 'PDFDocumentDidEndPageFindNotification'
+  'PDFDocumentDidEndPageWriteNotification (NSString*)':
+    'prefix': 'PDFDocumentDidEndPageWriteNotification'
+    'body': 'PDFDocumentDidEndPageWriteNotification'
+  'PDFDocumentDidEndWriteNotification (NSString*)':
+    'prefix': 'PDFDocumentDidEndWriteNotification'
+    'body': 'PDFDocumentDidEndWriteNotification'
+  'PDFDocumentDidFindMatchNotification (NSString*)':
+    'prefix': 'PDFDocumentDidFindMatchNotification'
+    'body': 'PDFDocumentDidFindMatchNotification'
+  'PDFDocumentDidUnlockNotification (NSString*)':
+    'prefix': 'PDFDocumentDidUnlockNotification'
+    'body': 'PDFDocumentDidUnlockNotification'
+  'PDFDocumentKeywordsAttribute (NSString*)':
+    'prefix': 'PDFDocumentKeywordsAttribute'
+    'body': 'PDFDocumentKeywordsAttribute'
+  'PDFDocumentModificationDateAttribute (NSString*)':
+    'prefix': 'PDFDocumentModificationDateAttribute'
+    'body': 'PDFDocumentModificationDateAttribute'
+  'PDFDocumentProducerAttribute (NSString*)':
+    'prefix': 'PDFDocumentProducerAttribute'
+    'body': 'PDFDocumentProducerAttribute'
+  'PDFDocumentSubjectAttribute (NSString*)':
+    'prefix': 'PDFDocumentSubjectAttribute'
+    'body': 'PDFDocumentSubjectAttribute'
+  'PDFDocumentTitleAttribute (NSString*)':
+    'prefix': 'PDFDocumentTitleAttribute'
+    'body': 'PDFDocumentTitleAttribute'
+  'PDFThumbnailViewDocumentEditedNotification (NSString*)':
+    'prefix': 'PDFThumbnailViewDocumentEditedNotification'
+    'body': 'PDFThumbnailViewDocumentEditedNotification'
+  'PDFViewAnnotationHitNotification (NSString*)':
+    'prefix': 'PDFViewAnnotationHitNotification'
+    'body': 'PDFViewAnnotationHitNotification'
+  'PDFViewAnnotationWillHitNotification (NSString*)':
+    'prefix': 'PDFViewAnnotationWillHitNotification'
+    'body': 'PDFViewAnnotationWillHitNotification'
+  'PDFViewChangedHistoryNotification (NSString*)':
+    'prefix': 'PDFViewChangedHistoryNotification'
+    'body': 'PDFViewChangedHistoryNotification'
+  'PDFViewCopyPermissionNotification (NSString*)':
+    'prefix': 'PDFViewCopyPermissionNotification'
+    'body': 'PDFViewCopyPermissionNotification'
+  'PDFViewDisplayBoxChangedNotification (NSString*)':
+    'prefix': 'PDFViewDisplayBoxChangedNotification'
+    'body': 'PDFViewDisplayBoxChangedNotification'
+  'PDFViewDisplayModeChangedNotification (NSString*)':
+    'prefix': 'PDFViewDisplayModeChangedNotification'
+    'body': 'PDFViewDisplayModeChangedNotification'
+  'PDFViewDocumentChangedNotification (NSString*)':
+    'prefix': 'PDFViewDocumentChangedNotification'
+    'body': 'PDFViewDocumentChangedNotification'
+  'PDFViewPageChangedNotification (NSString*)':
+    'prefix': 'PDFViewPageChangedNotification'
+    'body': 'PDFViewPageChangedNotification'
+  'PDFViewPrintPermissionNotification (NSString*)':
+    'prefix': 'PDFViewPrintPermissionNotification'
+    'body': 'PDFViewPrintPermissionNotification'
+  'PDFViewScaleChangedNotification (NSString*)':
+    'prefix': 'PDFViewScaleChangedNotification'
+    'body': 'PDFViewScaleChangedNotification'
+  'PDFViewSelectionChangedNotification (NSString*)':
+    'prefix': 'PDFViewSelectionChangedNotification'
+    'body': 'PDFViewSelectionChangedNotification'
+  'kPDFActionNamedFind (8)':
+    'prefix': 'kPDFActionNamedFind'
+    'body': 'KPDFActionNamedFind'
+  'kPDFActionNamedFirstPage (3)':
+    'prefix': 'kPDFActionNamedFirstPage'
+    'body': 'KPDFActionNamedFirstPage'
+  'kPDFActionNamedGoBack (5)':
+    'prefix': 'kPDFActionNamedGoBack'
+    'body': 'KPDFActionNamedGoBack'
+  'kPDFActionNamedGoForward (6)':
+    'prefix': 'kPDFActionNamedGoForward'
+    'body': 'KPDFActionNamedGoForward'
+  'kPDFActionNamedGoToPage (7)':
+    'prefix': 'kPDFActionNamedGoToPage'
+    'body': 'KPDFActionNamedGoToPage'
+  'kPDFActionNamedLastPage (4)':
+    'prefix': 'kPDFActionNamedLastPage'
+    'body': 'KPDFActionNamedLastPage'
+  'kPDFActionNamedNextPage (1)':
+    'prefix': 'kPDFActionNamedNextPage'
+    'body': 'KPDFActionNamedNextPage'
+  'kPDFActionNamedNone (0)':
+    'prefix': 'kPDFActionNamedNone'
+    'body': 'KPDFActionNamedNone'
+  'kPDFActionNamedPreviousPage (2)':
+    'prefix': 'kPDFActionNamedPreviousPage'
+    'body': 'KPDFActionNamedPreviousPage'
+  'kPDFActionNamedPrint (9)':
+    'prefix': 'kPDFActionNamedPrint'
+    'body': 'KPDFActionNamedPrint'
+  'kPDFActionNamedZoomIn (10)':
+    'prefix': 'kPDFActionNamedZoomIn'
+    'body': 'KPDFActionNamedZoomIn'
+  'kPDFActionNamedZoomOut (11)':
+    'prefix': 'kPDFActionNamedZoomOut'
+    'body': 'KPDFActionNamedZoomOut'
+  'kPDFAnnotationArea (4)':
+    'prefix': 'kPDFAnnotationArea'
+    'body': 'KPDFAnnotationArea'
+  'kPDFBorderStyleBeveled (2)':
+    'prefix': 'kPDFBorderStyleBeveled'
+    'body': 'KPDFBorderStyleBeveled'
+  'kPDFBorderStyleDashed (1)':
+    'prefix': 'kPDFBorderStyleDashed'
+    'body': 'KPDFBorderStyleDashed'
+  'kPDFBorderStyleInset (3)':
+    'prefix': 'kPDFBorderStyleInset'
+    'body': 'KPDFBorderStyleInset'
+  'kPDFBorderStyleSolid (0)':
+    'prefix': 'kPDFBorderStyleSolid'
+    'body': 'KPDFBorderStyleSolid'
+  'kPDFBorderStyleUnderline (4)':
+    'prefix': 'kPDFBorderStyleUnderline'
+    'body': 'KPDFBorderStyleUnderline'
+  'kPDFControlArea (16)':
+    'prefix': 'kPDFControlArea'
+    'body': 'KPDFControlArea'
+  'kPDFDestinationUnspecifiedValue (3.4028235E+38)':
+    'prefix': 'kPDFDestinationUnspecifiedValue'
+    'body': 'KPDFDestinationUnspecifiedValue'
+  'kPDFDisplayBoxArtBox (4)':
+    'prefix': 'kPDFDisplayBoxArtBox'
+    'body': 'KPDFDisplayBoxArtBox'
+  'kPDFDisplayBoxBleedBox (2)':
+    'prefix': 'kPDFDisplayBoxBleedBox'
+    'body': 'KPDFDisplayBoxBleedBox'
+  'kPDFDisplayBoxCropBox (1)':
+    'prefix': 'kPDFDisplayBoxCropBox'
+    'body': 'KPDFDisplayBoxCropBox'
+  'kPDFDisplayBoxMediaBox (0)':
+    'prefix': 'kPDFDisplayBoxMediaBox'
+    'body': 'KPDFDisplayBoxMediaBox'
+  'kPDFDisplayBoxTrimBox (3)':
+    'prefix': 'kPDFDisplayBoxTrimBox'
+    'body': 'KPDFDisplayBoxTrimBox'
+  'kPDFDisplaySinglePage (0)':
+    'prefix': 'kPDFDisplaySinglePage'
+    'body': 'KPDFDisplaySinglePage'
+  'kPDFDisplaySinglePageContinuous (1)':
+    'prefix': 'kPDFDisplaySinglePageContinuous'
+    'body': 'KPDFDisplaySinglePageContinuous'
+  'kPDFDisplayTwoUp (2)':
+    'prefix': 'kPDFDisplayTwoUp'
+    'body': 'KPDFDisplayTwoUp'
+  'kPDFDisplayTwoUpContinuous (3)':
+    'prefix': 'kPDFDisplayTwoUpContinuous'
+    'body': 'KPDFDisplayTwoUpContinuous'
+  'kPDFDocumentPermissionsNone (0)':
+    'prefix': 'kPDFDocumentPermissionsNone'
+    'body': 'KPDFDocumentPermissionsNone'
+  'kPDFDocumentPermissionsOwner (2)':
+    'prefix': 'kPDFDocumentPermissionsOwner'
+    'body': 'KPDFDocumentPermissionsOwner'
+  'kPDFDocumentPermissionsUser (1)':
+    'prefix': 'kPDFDocumentPermissionsUser'
+    'body': 'KPDFDocumentPermissionsUser'
+  'kPDFIconArea (64)':
+    'prefix': 'kPDFIconArea'
+    'body': 'KPDFIconArea'
+  'kPDFInterpolationQualityHigh (2)':
+    'prefix': 'kPDFInterpolationQualityHigh'
+    'body': 'KPDFInterpolationQualityHigh'
+  'kPDFInterpolationQualityLow (1)':
+    'prefix': 'kPDFInterpolationQualityLow'
+    'body': 'KPDFInterpolationQualityLow'
+  'kPDFInterpolationQualityNone (0)':
+    'prefix': 'kPDFInterpolationQualityNone'
+    'body': 'KPDFInterpolationQualityNone'
+  'kPDFLineStyleCircle (2)':
+    'prefix': 'kPDFLineStyleCircle'
+    'body': 'KPDFLineStyleCircle'
+  'kPDFLineStyleClosedArrow (5)':
+    'prefix': 'kPDFLineStyleClosedArrow'
+    'body': 'KPDFLineStyleClosedArrow'
+  'kPDFLineStyleDiamond (3)':
+    'prefix': 'kPDFLineStyleDiamond'
+    'body': 'KPDFLineStyleDiamond'
+  'kPDFLineStyleNone (0)':
+    'prefix': 'kPDFLineStyleNone'
+    'body': 'KPDFLineStyleNone'
+  'kPDFLineStyleOpenArrow (4)':
+    'prefix': 'kPDFLineStyleOpenArrow'
+    'body': 'KPDFLineStyleOpenArrow'
+  'kPDFLineStyleSquare (1)':
+    'prefix': 'kPDFLineStyleSquare'
+    'body': 'KPDFLineStyleSquare'
+  'kPDFLinkArea (8)':
+    'prefix': 'kPDFLinkArea'
+    'body': 'KPDFLinkArea'
+  'kPDFMarkupTypeHighlight (0)':
+    'prefix': 'kPDFMarkupTypeHighlight'
+    'body': 'KPDFMarkupTypeHighlight'
+  'kPDFMarkupTypeStrikeOut (1)':
+    'prefix': 'kPDFMarkupTypeStrikeOut'
+    'body': 'KPDFMarkupTypeStrikeOut'
+  'kPDFMarkupTypeUnderline (2)':
+    'prefix': 'kPDFMarkupTypeUnderline'
+    'body': 'KPDFMarkupTypeUnderline'
+  'kPDFNoArea (0)':
+    'prefix': 'kPDFNoArea'
+    'body': 'KPDFNoArea'
+  'kPDFPageArea (1)':
+    'prefix': 'kPDFPageArea'
+    'body': 'KPDFPageArea'
+  'kPDFPopupArea (128)':
+    'prefix': 'kPDFPopupArea'
+    'body': 'KPDFPopupArea'
+  'kPDFPrintPageScaleDownToFit (2)':
+    'prefix': 'kPDFPrintPageScaleDownToFit'
+    'body': 'KPDFPrintPageScaleDownToFit'
+  'kPDFPrintPageScaleNone (0)':
+    'prefix': 'kPDFPrintPageScaleNone'
+    'body': 'KPDFPrintPageScaleNone'
+  'kPDFPrintPageScaleToFit (1)':
+    'prefix': 'kPDFPrintPageScaleToFit'
+    'body': 'KPDFPrintPageScaleToFit'
+  'kPDFTextAnnotationIconComment (0)':
+    'prefix': 'kPDFTextAnnotationIconComment'
+    'body': 'KPDFTextAnnotationIconComment'
+  'kPDFTextAnnotationIconHelp (3)':
+    'prefix': 'kPDFTextAnnotationIconHelp'
+    'body': 'KPDFTextAnnotationIconHelp'
+  'kPDFTextAnnotationIconInsert (6)':
+    'prefix': 'kPDFTextAnnotationIconInsert'
+    'body': 'KPDFTextAnnotationIconInsert'
+  'kPDFTextAnnotationIconKey (1)':
+    'prefix': 'kPDFTextAnnotationIconKey'
+    'body': 'KPDFTextAnnotationIconKey'
+  'kPDFTextAnnotationIconNewParagraph (4)':
+    'prefix': 'kPDFTextAnnotationIconNewParagraph'
+    'body': 'KPDFTextAnnotationIconNewParagraph'
+  'kPDFTextAnnotationIconNote (2)':
+    'prefix': 'kPDFTextAnnotationIconNote'
+    'body': 'KPDFTextAnnotationIconNote'
+  'kPDFTextAnnotationIconParagraph (5)':
+    'prefix': 'kPDFTextAnnotationIconParagraph'
+    'body': 'KPDFTextAnnotationIconParagraph'
+  'kPDFTextArea (2)':
+    'prefix': 'kPDFTextArea'
+    'body': 'KPDFTextArea'
+  'kPDFTextFieldArea (32)':
+    'prefix': 'kPDFTextFieldArea'
+    'body': 'KPDFTextFieldArea'
+  'kPDFWidgetCheckBoxControl (2)':
+    'prefix': 'kPDFWidgetCheckBoxControl'
+    'body': 'KPDFWidgetCheckBoxControl'
+  'kPDFWidgetPushButtonControl (0)':
+    'prefix': 'kPDFWidgetPushButtonControl'
+    'body': 'KPDFWidgetPushButtonControl'
+  'kPDFWidgetRadioButtonControl (1)':
+    'prefix': 'kPDFWidgetRadioButtonControl'
+    'body': 'KPDFWidgetRadioButtonControl'
+  'kPDFWidgetUnknownControl (-1)':
+    'prefix': 'kPDFWidgetUnknownControl'
+    'body': 'KPDFWidgetUnknownControl'
+  'PDFViewOpenPDF:forRemoteGoToAction:':
+    'prefix': 'PDFViewOpenPDF:forRemoteGoToAction:'
+    'body': 'PDFViewOpenPDF(${1:PDFView* sender}, forRemoteGoToAction:${2:PDFActionRemoteGoTo* action})'
+  'PDFViewPerformFind:':
+    'prefix': 'PDFViewPerformFind:'
+    'body': 'PDFViewPerformFind(${1:PDFView* sender})'
+  'PDFViewPerformGoToPage:':
+    'prefix': 'PDFViewPerformGoToPage:'
+    'body': 'PDFViewPerformGoToPage(${1:PDFView* sender})'
+  'PDFViewPerformPrint:':
+    'prefix': 'PDFViewPerformPrint:'
+    'body': 'PDFViewPerformPrint(${1:PDFView* sender})'
+  'PDFViewPrintJobTitle:':
+    'prefix': 'PDFViewPrintJobTitle:'
+    'body': 'PDFViewPrintJobTitle(${1:PDFView* sender})'
+  'PDFViewWillChangeScaleFactor:toScale:':
+    'prefix': 'PDFViewWillChangeScaleFactor:toScale:'
+    'body': 'PDFViewWillChangeScaleFactor(${1:PDFView* sender}, toScale:${2:CGFloat scale})'
+  'PDFViewWillClickOnLink:withURL:':
+    'prefix': 'PDFViewWillClickOnLink:withURL:'
+    'body': 'PDFViewWillClickOnLink(${1:PDFView* sender}, withURL:${2:NSURL* url})'
+  'classForAnnotationClass:':
+    'prefix': 'classForAnnotationClass:'
+    'body': 'classForAnnotationClass(${1:Class annotationClass})'
+  'classForPage':
+    'prefix': 'classForPage'
+    'body': 'classForPage()'
+  'didMatchString:':
+    'prefix': 'didMatchString:'
+    'body': 'didMatchString(${1:PDFSelection* instance})'
+  'documentDidBeginDocumentFind:':
+    'prefix': 'documentDidBeginDocumentFind:'
+    'body': 'documentDidBeginDocumentFind(${1:NSNotification* notification})'
+  'documentDidBeginPageFind:':
+    'prefix': 'documentDidBeginPageFind:'
+    'body': 'documentDidBeginPageFind(${1:NSNotification* notification})'
+  'documentDidEndDocumentFind:':
+    'prefix': 'documentDidEndDocumentFind:'
+    'body': 'documentDidEndDocumentFind(${1:NSNotification* notification})'
+  'documentDidEndPageFind:':
+    'prefix': 'documentDidEndPageFind:'
+    'body': 'documentDidEndPageFind(${1:NSNotification* notification})'
+  'documentDidFindMatch:':
+    'prefix': 'documentDidFindMatch:'
+    'body': 'documentDidFindMatch(${1:NSNotification* notification})'
+  'documentDidUnlock:':
+    'prefix': 'documentDidUnlock:'
+    'body': 'documentDidUnlock(${1:NSNotification* notification})'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'destination':
+    'prefix': 'destination'
+    'body': 'destination()'
+  'initWithDestination:':
+    'prefix': 'initWithDestination:'
+    'body': 'initWithDestination(${1:PDFDestination* destination})'
+  'setDestination:':
+    'prefix': 'setDestination:'
+    'body': 'setDestination(${1:PDFDestination* destination})'
+  'initWithName:':
+    'prefix': 'initWithName:'
+    'body': 'initWithName(${1:PDFActionNamedName name})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:PDFActionNamedName name})'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'initWithPageIndex:atPoint:fileURL:':
+    'prefix': 'initWithPageIndex:atPoint:fileURL:'
+    'body': 'initWithPageIndex(${1:NSUInteger pageIndex}, atPoint:${2:NSPoint point}, fileURL:${3:NSURL* url})'
+  'pageIndex':
+    'prefix': 'pageIndex'
+    'body': 'pageIndex()'
+  'point':
+    'prefix': 'point'
+    'body': 'point()'
+  'setPageIndex:':
+    'prefix': 'setPageIndex:'
+    'body': 'setPageIndex(${1:NSUInteger pageIndex})'
+  'setPoint:':
+    'prefix': 'setPoint:'
+    'body': 'setPoint(${1:NSPoint point})'
+  'setURL:':
+    'prefix': 'setURL:'
+    'body': 'setURL(${1:NSURL* url})'
+  'fields':
+    'prefix': 'fields'
+    'body': 'fields()'
+  'fieldsIncludedAreCleared':
+    'prefix': 'fieldsIncludedAreCleared'
+    'body': 'fieldsIncludedAreCleared()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'setFields:':
+    'prefix': 'setFields:'
+    'body': 'setFields(${1:NSArray* fields})'
+  'setFieldsIncludedAreCleared:':
+    'prefix': 'setFieldsIncludedAreCleared:'
+    'body': 'setFieldsIncludedAreCleared(${1:BOOL include})'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'initWithURL:':
+    'prefix': 'initWithURL:'
+    'body': 'initWithURL(${1:NSURL* url})'
+  'setURL:':
+    'prefix': 'setURL:'
+    'body': 'setURL(${1:NSURL* url})'
+  'border':
+    'prefix': 'border'
+    'body': 'border()'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'contents':
+    'prefix': 'contents'
+    'body': 'contents()'
+  'drawWithBox:':
+    'prefix': 'drawWithBox:'
+    'body': 'drawWithBox(${1:PDFDisplayBox box})'
+  'hasAppearanceStream':
+    'prefix': 'hasAppearanceStream'
+    'body': 'hasAppearanceStream()'
+  'initWithBounds:':
+    'prefix': 'initWithBounds:'
+    'body': 'initWithBounds(${1:NSRect bounds})'
+  'modificationDate':
+    'prefix': 'modificationDate'
+    'body': 'modificationDate()'
+  'mouseUpAction':
+    'prefix': 'mouseUpAction'
+    'body': 'mouseUpAction()'
+  'page':
+    'prefix': 'page'
+    'body': 'page()'
+  'popup':
+    'prefix': 'popup'
+    'body': 'popup()'
+  'removeAllAppearanceStreams':
+    'prefix': 'removeAllAppearanceStreams'
+    'body': 'removeAllAppearanceStreams()'
+  'setBorder:':
+    'prefix': 'setBorder:'
+    'body': 'setBorder(${1:PDFBorder* border})'
+  'setBounds:':
+    'prefix': 'setBounds:'
+    'body': 'setBounds(${1:NSRect bounds})'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:NSColor* color})'
+  'setContents:':
+    'prefix': 'setContents:'
+    'body': 'setContents(${1:NSString* contents})'
+  'setModificationDate:':
+    'prefix': 'setModificationDate:'
+    'body': 'setModificationDate(${1:NSDate* date})'
+  'setMouseUpAction:':
+    'prefix': 'setMouseUpAction:'
+    'body': 'setMouseUpAction(${1:PDFAction* action})'
+  'setPopup:':
+    'prefix': 'setPopup:'
+    'body': 'setPopup(${1:PDFAnnotationPopup* popup})'
+  'setShouldDisplay:':
+    'prefix': 'setShouldDisplay:'
+    'body': 'setShouldDisplay(${1:BOOL display})'
+  'setShouldPrint:':
+    'prefix': 'setShouldPrint:'
+    'body': 'setShouldPrint(${1:BOOL print})'
+  'setUserName:':
+    'prefix': 'setUserName:'
+    'body': 'setUserName(${1:NSString* name})'
+  'shouldDisplay':
+    'prefix': 'shouldDisplay'
+    'body': 'shouldDisplay()'
+  'shouldPrint':
+    'prefix': 'shouldPrint'
+    'body': 'shouldPrint()'
+  'toolTip':
+    'prefix': 'toolTip'
+    'body': 'toolTip()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'userName':
+    'prefix': 'userName'
+    'body': 'userName()'
+  'allowsToggleToOff':
+    'prefix': 'allowsToggleToOff'
+    'body': 'allowsToggleToOff()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'caption':
+    'prefix': 'caption'
+    'body': 'caption()'
+  'controlType':
+    'prefix': 'controlType'
+    'body': 'controlType()'
+  'fieldName':
+    'prefix': 'fieldName'
+    'body': 'fieldName()'
+  'font':
+    'prefix': 'font'
+    'body': 'font()'
+  'fontColor':
+    'prefix': 'fontColor'
+    'body': 'fontColor()'
+  'isHighlighted':
+    'prefix': 'isHighlighted'
+    'body': 'isHighlighted()'
+  'onStateValue':
+    'prefix': 'onStateValue'
+    'body': 'onStateValue()'
+  'setAllowsToggleToOff:':
+    'prefix': 'setAllowsToggleToOff:'
+    'body': 'setAllowsToggleToOff(${1:BOOL allowOff})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* color})'
+  'setCaption:':
+    'prefix': 'setCaption:'
+    'body': 'setCaption(${1:NSString* name})'
+  'setControlType:':
+    'prefix': 'setControlType:'
+    'body': 'setControlType(${1:PDFWidgetControlType type})'
+  'setFieldName:':
+    'prefix': 'setFieldName:'
+    'body': 'setFieldName(${1:NSString* name})'
+  'setFont:':
+    'prefix': 'setFont:'
+    'body': 'setFont(${1:NSFont* font})'
+  'setFontColor:':
+    'prefix': 'setFontColor:'
+    'body': 'setFontColor(${1:NSColor* color})'
+  'setHighlighted:':
+    'prefix': 'setHighlighted:'
+    'body': 'setHighlighted(${1:BOOL flag})'
+  'setOnStateValue:':
+    'prefix': 'setOnStateValue:'
+    'body': 'setOnStateValue(${1:NSString* name})'
+  'setState:':
+    'prefix': 'setState:'
+    'body': 'setState(${1:NSInteger value})'
+  'state':
+    'prefix': 'state'
+    'body': 'state()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'choices':
+    'prefix': 'choices'
+    'body': 'choices()'
+  'fieldName':
+    'prefix': 'fieldName'
+    'body': 'fieldName()'
+  'font':
+    'prefix': 'font'
+    'body': 'font()'
+  'fontColor':
+    'prefix': 'fontColor'
+    'body': 'fontColor()'
+  'isListChoice':
+    'prefix': 'isListChoice'
+    'body': 'isListChoice()'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* color})'
+  'setChoices:':
+    'prefix': 'setChoices:'
+    'body': 'setChoices(${1:NSArray* options})'
+  'setFieldName:':
+    'prefix': 'setFieldName:'
+    'body': 'setFieldName(${1:NSString* name})'
+  'setFont:':
+    'prefix': 'setFont:'
+    'body': 'setFont(${1:NSFont* font})'
+  'setFontColor:':
+    'prefix': 'setFontColor:'
+    'body': 'setFontColor(${1:NSColor* color})'
+  'setIsListChoice:':
+    'prefix': 'setIsListChoice:'
+    'body': 'setIsListChoice(${1:BOOL isList})'
+  'setStringValue:':
+    'prefix': 'setStringValue:'
+    'body': 'setStringValue(${1:NSString* value})'
+  'stringValue':
+    'prefix': 'stringValue'
+    'body': 'stringValue()'
+  'interiorColor':
+    'prefix': 'interiorColor'
+    'body': 'interiorColor()'
+  'setInteriorColor:':
+    'prefix': 'setInteriorColor:'
+    'body': 'setInteriorColor(${1:NSColor* color})'
+  'alignment':
+    'prefix': 'alignment'
+    'body': 'alignment()'
+  'font':
+    'prefix': 'font'
+    'body': 'font()'
+  'fontColor':
+    'prefix': 'fontColor'
+    'body': 'fontColor()'
+  'setAlignment:':
+    'prefix': 'setAlignment:'
+    'body': 'setAlignment(${1:NSTextAlignment alignment})'
+  'setFont:':
+    'prefix': 'setFont:'
+    'body': 'setFont(${1:NSFont* font})'
+  'setFontColor:':
+    'prefix': 'setFontColor:'
+    'body': 'setFontColor(${1:NSColor* color})'
+  'addBezierPath:':
+    'prefix': 'addBezierPath:'
+    'body': 'addBezierPath(${1:NSBezierPath* path})'
+  'paths':
+    'prefix': 'paths'
+    'body': 'paths()'
+  'removeBezierPath:':
+    'prefix': 'removeBezierPath:'
+    'body': 'removeBezierPath(${1:NSBezierPath* path})'
+  'endLineStyle':
+    'prefix': 'endLineStyle'
+    'body': 'endLineStyle()'
+  'endPoint':
+    'prefix': 'endPoint'
+    'body': 'endPoint()'
+  'interiorColor':
+    'prefix': 'interiorColor'
+    'body': 'interiorColor()'
+  'setEndLineStyle:':
+    'prefix': 'setEndLineStyle:'
+    'body': 'setEndLineStyle(${1:PDFLineStyle style})'
+  'setEndPoint:':
+    'prefix': 'setEndPoint:'
+    'body': 'setEndPoint(${1:NSPoint point})'
+  'setInteriorColor:':
+    'prefix': 'setInteriorColor:'
+    'body': 'setInteriorColor(${1:NSColor* color})'
+  'setStartLineStyle:':
+    'prefix': 'setStartLineStyle:'
+    'body': 'setStartLineStyle(${1:PDFLineStyle style})'
+  'setStartPoint:':
+    'prefix': 'setStartPoint:'
+    'body': 'setStartPoint(${1:NSPoint point})'
+  'startLineStyle':
+    'prefix': 'startLineStyle'
+    'body': 'startLineStyle()'
+  'startPoint':
+    'prefix': 'startPoint'
+    'body': 'startPoint()'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'destination':
+    'prefix': 'destination'
+    'body': 'destination()'
+  'setDestination:':
+    'prefix': 'setDestination:'
+    'body': 'setDestination(${1:PDFDestination* destination})'
+  'setHighlighted:':
+    'prefix': 'setHighlighted:'
+    'body': 'setHighlighted(${1:BOOL flag})'
+  'setURL:':
+    'prefix': 'setURL:'
+    'body': 'setURL(${1:NSURL* url})'
+  'markupType':
+    'prefix': 'markupType'
+    'body': 'markupType()'
+  'quadrilateralPoints':
+    'prefix': 'quadrilateralPoints'
+    'body': 'quadrilateralPoints()'
+  'setMarkupType:':
+    'prefix': 'setMarkupType:'
+    'body': 'setMarkupType(${1:PDFMarkupType type})'
+  'setQuadrilateralPoints:':
+    'prefix': 'setQuadrilateralPoints:'
+    'body': 'setQuadrilateralPoints(${1:NSArray* points})'
+  'isOpen':
+    'prefix': 'isOpen'
+    'body': 'isOpen()'
+  'setIsOpen:':
+    'prefix': 'setIsOpen:'
+    'body': 'setIsOpen(${1:BOOL isOpen})'
+  'interiorColor':
+    'prefix': 'interiorColor'
+    'body': 'interiorColor()'
+  'setInteriorColor:':
+    'prefix': 'setInteriorColor:'
+    'body': 'setInteriorColor(${1:NSColor* color})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'iconType':
+    'prefix': 'iconType'
+    'body': 'iconType()'
+  'setIconType:':
+    'prefix': 'setIconType:'
+    'body': 'setIconType(${1:PDFTextAnnotationIconType type})'
+  'alignment':
+    'prefix': 'alignment'
+    'body': 'alignment()'
+  'attributedStringValue':
+    'prefix': 'attributedStringValue'
+    'body': 'attributedStringValue()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'fieldName':
+    'prefix': 'fieldName'
+    'body': 'fieldName()'
+  'font':
+    'prefix': 'font'
+    'body': 'font()'
+  'fontColor':
+    'prefix': 'fontColor'
+    'body': 'fontColor()'
+  'maximumLength':
+    'prefix': 'maximumLength'
+    'body': 'maximumLength()'
+  'rotation':
+    'prefix': 'rotation'
+    'body': 'rotation()'
+  'setAlignment:':
+    'prefix': 'setAlignment:'
+    'body': 'setAlignment(${1:NSTextAlignment alignment})'
+  'setAttributedStringValue:':
+    'prefix': 'setAttributedStringValue:'
+    'body': 'setAttributedStringValue(${1:NSAttributedString* value})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* color})'
+  'setFieldName:':
+    'prefix': 'setFieldName:'
+    'body': 'setFieldName(${1:NSString* name})'
+  'setFont:':
+    'prefix': 'setFont:'
+    'body': 'setFont(${1:NSFont* font})'
+  'setFontColor:':
+    'prefix': 'setFontColor:'
+    'body': 'setFontColor(${1:NSColor* color})'
+  'setMaximumLength:':
+    'prefix': 'setMaximumLength:'
+    'body': 'setMaximumLength(${1:NSUInteger maxLen})'
+  'setRotation:':
+    'prefix': 'setRotation:'
+    'body': 'setRotation(${1:int rotation})'
+  'setStringValue:':
+    'prefix': 'setStringValue:'
+    'body': 'setStringValue(${1:NSString* value})'
+  'stringValue':
+    'prefix': 'stringValue'
+    'body': 'stringValue()'
+  'dashPattern':
+    'prefix': 'dashPattern'
+    'body': 'dashPattern()'
+  'drawInRect:':
+    'prefix': 'drawInRect:'
+    'body': 'drawInRect(${1:NSRect rect})'
+  'lineWidth':
+    'prefix': 'lineWidth'
+    'body': 'lineWidth()'
+  'setDashPattern:':
+    'prefix': 'setDashPattern:'
+    'body': 'setDashPattern(${1:NSArray* pattern})'
+  'setLineWidth:':
+    'prefix': 'setLineWidth:'
+    'body': 'setLineWidth(${1:CGFloat width})'
+  'setStyle:':
+    'prefix': 'setStyle:'
+    'body': 'setStyle(${1:PDFBorderStyle style})'
+  'style':
+    'prefix': 'style'
+    'body': 'style()'
+  'compare:':
+    'prefix': 'compare:'
+    'body': 'compare(${1:PDFDestination* destination})'
+  'initWithPage:atPoint:':
+    'prefix': 'initWithPage:atPoint:'
+    'body': 'initWithPage(${1:PDFPage* page}, atPoint:${2:NSPoint point})'
+  'page':
+    'prefix': 'page'
+    'body': 'page()'
+  'point':
+    'prefix': 'point'
+    'body': 'point()'
+  'setZoom:':
+    'prefix': 'setZoom:'
+    'body': 'setZoom(${1:CGFloat zoom})'
+  'zoom':
+    'prefix': 'zoom'
+    'body': 'zoom()'
+  'allowsCopying':
+    'prefix': 'allowsCopying'
+    'body': 'allowsCopying()'
+  'allowsPrinting':
+    'prefix': 'allowsPrinting'
+    'body': 'allowsPrinting()'
+  'beginFindString:withOptions:':
+    'prefix': 'beginFindString:withOptions:'
+    'body': 'beginFindString(${1:NSString* string}, withOptions:${2:NSUInteger options})'
+  'beginFindStrings:withOptions:':
+    'prefix': 'beginFindStrings:withOptions:'
+    'body': 'beginFindStrings(${1:NSArray* strings}, withOptions:${2:NSUInteger options})'
+  'cancelFindString':
+    'prefix': 'cancelFindString'
+    'body': 'cancelFindString()'
+  'dataRepresentation':
+    'prefix': 'dataRepresentation'
+    'body': 'dataRepresentation()'
+  'dataRepresentationWithOptions:':
+    'prefix': 'dataRepresentationWithOptions:'
+    'body': 'dataRepresentationWithOptions(${1:NSDictionary* options})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'documentAttributes':
+    'prefix': 'documentAttributes'
+    'body': 'documentAttributes()'
+  'documentRef':
+    'prefix': 'documentRef'
+    'body': 'documentRef()'
+  'documentURL':
+    'prefix': 'documentURL'
+    'body': 'documentURL()'
+  'exchangePageAtIndex:withPageAtIndex:':
+    'prefix': 'exchangePageAtIndex:withPageAtIndex:'
+    'body': 'exchangePageAtIndex(${1:NSUInteger indexA}, withPageAtIndex:${2:NSUInteger indexB})'
+  'findString:fromSelection:withOptions:':
+    'prefix': 'findString:fromSelection:withOptions:'
+    'body': 'findString(${1:NSString* string}, fromSelection:${2:PDFSelection* selection}, withOptions:${3:NSUInteger options})'
+  'findString:withOptions:':
+    'prefix': 'findString:withOptions:'
+    'body': 'findString(${1:NSString* string}, withOptions:${2:NSUInteger options})'
+  'indexForPage:':
+    'prefix': 'indexForPage:'
+    'body': 'indexForPage(${1:PDFPage* page})'
+  'initWithData:':
+    'prefix': 'initWithData:'
+    'body': 'initWithData(${1:NSData* data})'
+  'initWithURL:':
+    'prefix': 'initWithURL:'
+    'body': 'initWithURL(${1:NSURL* url})'
+  'insertPage:atIndex:':
+    'prefix': 'insertPage:atIndex:'
+    'body': 'insertPage(${1:PDFPage* page}, atIndex:${2:NSUInteger index})'
+  'isEncrypted':
+    'prefix': 'isEncrypted'
+    'body': 'isEncrypted()'
+  'isFinding':
+    'prefix': 'isFinding'
+    'body': 'isFinding()'
+  'isLocked':
+    'prefix': 'isLocked'
+    'body': 'isLocked()'
+  'majorVersion':
+    'prefix': 'majorVersion'
+    'body': 'majorVersion()'
+  'minorVersion':
+    'prefix': 'minorVersion'
+    'body': 'minorVersion()'
+  'outlineItemForSelection:':
+    'prefix': 'outlineItemForSelection:'
+    'body': 'outlineItemForSelection(${1:PDFSelection* selection})'
+  'outlineRoot':
+    'prefix': 'outlineRoot'
+    'body': 'outlineRoot()'
+  'pageAtIndex:':
+    'prefix': 'pageAtIndex:'
+    'body': 'pageAtIndex(${1:NSUInteger index})'
+  'pageClass':
+    'prefix': 'pageClass'
+    'body': 'pageClass()'
+  'pageCount':
+    'prefix': 'pageCount'
+    'body': 'pageCount()'
+  'permissionsStatus':
+    'prefix': 'permissionsStatus'
+    'body': 'permissionsStatus()'
+  'printOperationForPrintInfo:scalingMode:autoRotate:':
+    'prefix': 'printOperationForPrintInfo:scalingMode:autoRotate:'
+    'body': 'printOperationForPrintInfo(${1:NSPrintInfo* printInfo}, scalingMode:${2:PDFPrintScalingMode scaleMode}, autoRotate:${3:BOOL doRotate})'
+  'removePageAtIndex:':
+    'prefix': 'removePageAtIndex:'
+    'body': 'removePageAtIndex(${1:NSUInteger index})'
+  'selectionForEntireDocument':
+    'prefix': 'selectionForEntireDocument'
+    'body': 'selectionForEntireDocument()'
+  'selectionFromPage:atCharacterIndex:toPage:atCharacterIndex:':
+    'prefix': 'selectionFromPage:atCharacterIndex:toPage:atCharacterIndex:'
+    'body': 'selectionFromPage(${1:PDFPage* startPage}, atCharacterIndex:${2:NSUInteger startChar}, toPage:${3:PDFPage* endPage}, atCharacterIndex:${4:NSUInteger endChar})'
+  'selectionFromPage:atPoint:toPage:atPoint:':
+    'prefix': 'selectionFromPage:atPoint:toPage:atPoint:'
+    'body': 'selectionFromPage(${1:PDFPage* startPage}, atPoint:${2:NSPoint startPt}, toPage:${3:PDFPage* endPage}, atPoint:${4:NSPoint endPt})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id anObject})'
+  'setDocumentAttributes:':
+    'prefix': 'setDocumentAttributes:'
+    'body': 'setDocumentAttributes(${1:NSDictionary* attributes})'
+  'setOutlineRoot:':
+    'prefix': 'setOutlineRoot:'
+    'body': 'setOutlineRoot(${1:PDFOutline* outline})'
+  'string':
+    'prefix': 'string'
+    'body': 'string()'
+  'unlockWithPassword:':
+    'prefix': 'unlockWithPassword:'
+    'body': 'unlockWithPassword(${1:NSString* password})'
+  'writeToFile:':
+    'prefix': 'writeToFile:'
+    'body': 'writeToFile(${1:NSString* path})'
+  'writeToFile:withOptions:':
+    'prefix': 'writeToFile:withOptions:'
+    'body': 'writeToFile(${1:NSString* path}, withOptions:${2:NSDictionary* options})'
+  'writeToURL:':
+    'prefix': 'writeToURL:'
+    'body': 'writeToURL(${1:NSURL* url})'
+  'writeToURL:withOptions:':
+    'prefix': 'writeToURL:withOptions:'
+    'body': 'writeToURL(${1:NSURL* url}, withOptions:${2:NSDictionary* options})'
+  'action':
+    'prefix': 'action'
+    'body': 'action()'
+  'childAtIndex:':
+    'prefix': 'childAtIndex:'
+    'body': 'childAtIndex(${1:NSUInteger index})'
+  'destination':
+    'prefix': 'destination'
+    'body': 'destination()'
+  'document':
+    'prefix': 'document'
+    'body': 'document()'
+  'index':
+    'prefix': 'index'
+    'body': 'index()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'insertChild:atIndex:':
+    'prefix': 'insertChild:atIndex:'
+    'body': 'insertChild(${1:PDFOutline* child}, atIndex:${2:NSUInteger index})'
+  'isOpen':
+    'prefix': 'isOpen'
+    'body': 'isOpen()'
+  'label':
+    'prefix': 'label'
+    'body': 'label()'
+  'numberOfChildren':
+    'prefix': 'numberOfChildren'
+    'body': 'numberOfChildren()'
+  'parent':
+    'prefix': 'parent'
+    'body': 'parent()'
+  'removeFromParent':
+    'prefix': 'removeFromParent'
+    'body': 'removeFromParent()'
+  'setAction:':
+    'prefix': 'setAction:'
+    'body': 'setAction(${1:PDFAction* action})'
+  'setDestination:':
+    'prefix': 'setDestination:'
+    'body': 'setDestination(${1:PDFDestination* destination})'
+  'setIsOpen:':
+    'prefix': 'setIsOpen:'
+    'body': 'setIsOpen(${1:BOOL open})'
+  'setLabel:':
+    'prefix': 'setLabel:'
+    'body': 'setLabel(${1:NSString* label})'
+  'addAnnotation:':
+    'prefix': 'addAnnotation:'
+    'body': 'addAnnotation(${1:PDFAnnotation* annotation})'
+  'annotationAtPoint:':
+    'prefix': 'annotationAtPoint:'
+    'body': 'annotationAtPoint(${1:NSPoint point})'
+  'annotations':
+    'prefix': 'annotations'
+    'body': 'annotations()'
+  'attributedString':
+    'prefix': 'attributedString'
+    'body': 'attributedString()'
+  'boundsForBox:':
+    'prefix': 'boundsForBox:'
+    'body': 'boundsForBox(${1:PDFDisplayBox box})'
+  'characterBoundsAtIndex:':
+    'prefix': 'characterBoundsAtIndex:'
+    'body': 'characterBoundsAtIndex(${1:NSInteger index})'
+  'characterIndexAtPoint:':
+    'prefix': 'characterIndexAtPoint:'
+    'body': 'characterIndexAtPoint(${1:NSPoint point})'
+  'dataRepresentation':
+    'prefix': 'dataRepresentation'
+    'body': 'dataRepresentation()'
+  'displaysAnnotations':
+    'prefix': 'displaysAnnotations'
+    'body': 'displaysAnnotations()'
+  'document':
+    'prefix': 'document'
+    'body': 'document()'
+  'drawWithBox:':
+    'prefix': 'drawWithBox:'
+    'body': 'drawWithBox(${1:PDFDisplayBox box})'
+  'initWithImage:':
+    'prefix': 'initWithImage:'
+    'body': 'initWithImage(${1:NSImage* image})'
+  'label':
+    'prefix': 'label'
+    'body': 'label()'
+  'numberOfCharacters':
+    'prefix': 'numberOfCharacters'
+    'body': 'numberOfCharacters()'
+  'pageRef':
+    'prefix': 'pageRef'
+    'body': 'pageRef()'
+  'removeAnnotation:':
+    'prefix': 'removeAnnotation:'
+    'body': 'removeAnnotation(${1:PDFAnnotation* annotation})'
+  'rotation':
+    'prefix': 'rotation'
+    'body': 'rotation()'
+  'selectionForLineAtPoint:':
+    'prefix': 'selectionForLineAtPoint:'
+    'body': 'selectionForLineAtPoint(${1:NSPoint point})'
+  'selectionForRange:':
+    'prefix': 'selectionForRange:'
+    'body': 'selectionForRange(${1:NSRange range})'
+  'selectionForRect:':
+    'prefix': 'selectionForRect:'
+    'body': 'selectionForRect(${1:NSRect rect})'
+  'selectionForWordAtPoint:':
+    'prefix': 'selectionForWordAtPoint:'
+    'body': 'selectionForWordAtPoint(${1:NSPoint point})'
+  'selectionFromPoint:toPoint:':
+    'prefix': 'selectionFromPoint:toPoint:'
+    'body': 'selectionFromPoint(${1:NSPoint startPoint}, toPoint:${2:NSPoint endPoint})'
+  'setBounds:forBox:':
+    'prefix': 'setBounds:forBox:'
+    'body': 'setBounds(${1:NSRect bounds}, forBox:${2:PDFDisplayBox box})'
+  'setDisplaysAnnotations:':
+    'prefix': 'setDisplaysAnnotations:'
+    'body': 'setDisplaysAnnotations(${1:BOOL display})'
+  'setRotation:':
+    'prefix': 'setRotation:'
+    'body': 'setRotation(${1:NSInteger angle})'
+  'string':
+    'prefix': 'string'
+    'body': 'string()'
+  'transformContextForBox:':
+    'prefix': 'transformContextForBox:'
+    'body': 'transformContextForBox(${1:PDFDisplayBox box})'
+  'addSelection:':
+    'prefix': 'addSelection:'
+    'body': 'addSelection(${1:PDFSelection* selection})'
+  'addSelections:':
+    'prefix': 'addSelections:'
+    'body': 'addSelections(${1:NSArray* selections})'
+  'attributedString':
+    'prefix': 'attributedString'
+    'body': 'attributedString()'
+  'boundsForPage:':
+    'prefix': 'boundsForPage:'
+    'body': 'boundsForPage(${1:PDFPage* page})'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'drawForPage:active:':
+    'prefix': 'drawForPage:active:'
+    'body': 'drawForPage(${1:PDFPage* page}, active:${2:BOOL active})'
+  'drawForPage:withBox:active:':
+    'prefix': 'drawForPage:withBox:active:'
+    'body': 'drawForPage(${1:PDFPage* page}, withBox:${2:PDFDisplayBox box}, active:${3:BOOL active})'
+  'extendSelectionAtEnd:':
+    'prefix': 'extendSelectionAtEnd:'
+    'body': 'extendSelectionAtEnd(${1:NSInteger succeed})'
+  'extendSelectionAtStart:':
+    'prefix': 'extendSelectionAtStart:'
+    'body': 'extendSelectionAtStart(${1:NSInteger precede})'
+  'initWithDocument:':
+    'prefix': 'initWithDocument:'
+    'body': 'initWithDocument(${1:PDFDocument* document})'
+  'numberOfTextRangesOnPage:':
+    'prefix': 'numberOfTextRangesOnPage:'
+    'body': 'numberOfTextRangesOnPage(${1:PDFPage* page})'
+  'pages':
+    'prefix': 'pages'
+    'body': 'pages()'
+  'rangeAtIndex:onPage:':
+    'prefix': 'rangeAtIndex:onPage:'
+    'body': 'rangeAtIndex(${1:NSUInteger index}, onPage:${2:PDFPage* page})'
+  'selectionsByLine':
+    'prefix': 'selectionsByLine'
+    'body': 'selectionsByLine()'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:NSColor* color})'
+  'string':
+    'prefix': 'string'
+    'body': 'string()'
+  'PDFView':
+    'prefix': 'PDFView'
+    'body': 'PDFView()'
+  'allowsDragging':
+    'prefix': 'allowsDragging'
+    'body': 'allowsDragging()'
+  'allowsMultipleSelection':
+    'prefix': 'allowsMultipleSelection'
+    'body': 'allowsMultipleSelection()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'labelFont':
+    'prefix': 'labelFont'
+    'body': 'labelFont()'
+  'maximumNumberOfColumns':
+    'prefix': 'maximumNumberOfColumns'
+    'body': 'maximumNumberOfColumns()'
+  'selectedPages':
+    'prefix': 'selectedPages'
+    'body': 'selectedPages()'
+  'setAllowsDragging:':
+    'prefix': 'setAllowsDragging:'
+    'body': 'setAllowsDragging(${1:BOOL allow})'
+  'setAllowsMultipleSelection:':
+    'prefix': 'setAllowsMultipleSelection:'
+    'body': 'setAllowsMultipleSelection(${1:BOOL flag})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* color})'
+  'setLabelFont:':
+    'prefix': 'setLabelFont:'
+    'body': 'setLabelFont(${1:NSFont* font})'
+  'setMaximumNumberOfColumns:':
+    'prefix': 'setMaximumNumberOfColumns:'
+    'body': 'setMaximumNumberOfColumns(${1:NSUInteger maxColumns})'
+  'setPDFView:':
+    'prefix': 'setPDFView:'
+    'body': 'setPDFView(${1:PDFView* view})'
+  'setThumbnailSize:':
+    'prefix': 'setThumbnailSize:'
+    'body': 'setThumbnailSize(${1:NSSize size})'
+  'thumbnailSize':
+    'prefix': 'thumbnailSize'
+    'body': 'thumbnailSize()'
+  'allowsDragging':
+    'prefix': 'allowsDragging'
+    'body': 'allowsDragging()'
+  'annotationsChangedOnPage:':
+    'prefix': 'annotationsChangedOnPage:'
+    'body': 'annotationsChangedOnPage(${1:PDFPage* page})'
+  'areaOfInterestForMouse:':
+    'prefix': 'areaOfInterestForMouse:'
+    'body': 'areaOfInterestForMouse(${1:NSEvent* event})'
+  'autoScales':
+    'prefix': 'autoScales'
+    'body': 'autoScales()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'canGoBack':
+    'prefix': 'canGoBack'
+    'body': 'canGoBack()'
+  'canGoForward':
+    'prefix': 'canGoForward'
+    'body': 'canGoForward()'
+  'canGoToFirstPage':
+    'prefix': 'canGoToFirstPage'
+    'body': 'canGoToFirstPage()'
+  'canGoToLastPage':
+    'prefix': 'canGoToLastPage'
+    'body': 'canGoToLastPage()'
+  'canGoToNextPage':
+    'prefix': 'canGoToNextPage'
+    'body': 'canGoToNextPage()'
+  'canGoToPreviousPage':
+    'prefix': 'canGoToPreviousPage'
+    'body': 'canGoToPreviousPage()'
+  'canZoomIn':
+    'prefix': 'canZoomIn'
+    'body': 'canZoomIn()'
+  'canZoomOut':
+    'prefix': 'canZoomOut'
+    'body': 'canZoomOut()'
+  'clearSelection':
+    'prefix': 'clearSelection'
+    'body': 'clearSelection()'
+  'convertPoint:fromPage:':
+    'prefix': 'convertPoint:fromPage:'
+    'body': 'convertPoint(${1:NSPoint point}, fromPage:${2:PDFPage* page})'
+  'convertPoint:toPage:':
+    'prefix': 'convertPoint:toPage:'
+    'body': 'convertPoint(${1:NSPoint point}, toPage:${2:PDFPage* page})'
+  'convertRect:fromPage:':
+    'prefix': 'convertRect:fromPage:'
+    'body': 'convertRect(${1:NSRect rect}, fromPage:${2:PDFPage* page})'
+  'convertRect:toPage:':
+    'prefix': 'convertRect:toPage:'
+    'body': 'convertRect(${1:NSRect rect}, toPage:${2:PDFPage* page})'
+  'copy:':
+    'prefix': 'copy:'
+    'body': 'copy(${1:id sender})'
+  'currentDestination':
+    'prefix': 'currentDestination'
+    'body': 'currentDestination()'
+  'currentPage':
+    'prefix': 'currentPage'
+    'body': 'currentPage()'
+  'currentSelection':
+    'prefix': 'currentSelection'
+    'body': 'currentSelection()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'displayBox':
+    'prefix': 'displayBox'
+    'body': 'displayBox()'
+  'displayMode':
+    'prefix': 'displayMode'
+    'body': 'displayMode()'
+  'displaysAsBook':
+    'prefix': 'displaysAsBook'
+    'body': 'displaysAsBook()'
+  'displaysPageBreaks':
+    'prefix': 'displaysPageBreaks'
+    'body': 'displaysPageBreaks()'
+  'document':
+    'prefix': 'document'
+    'body': 'document()'
+  'documentView':
+    'prefix': 'documentView'
+    'body': 'documentView()'
+  'drawPage:':
+    'prefix': 'drawPage:'
+    'body': 'drawPage(${1:PDFPage* page})'
+  'drawPagePost:':
+    'prefix': 'drawPagePost:'
+    'body': 'drawPagePost(${1:PDFPage* page})'
+  'enableDataDetectors':
+    'prefix': 'enableDataDetectors'
+    'body': 'enableDataDetectors()'
+  'goBack:':
+    'prefix': 'goBack:'
+    'body': 'goBack(${1:id sender})'
+  'goForward:':
+    'prefix': 'goForward:'
+    'body': 'goForward(${1:id sender})'
+  'goToDestination:':
+    'prefix': 'goToDestination:'
+    'body': 'goToDestination(${1:PDFDestination* destination})'
+  'goToFirstPage:':
+    'prefix': 'goToFirstPage:'
+    'body': 'goToFirstPage(${1:id sender})'
+  'goToLastPage:':
+    'prefix': 'goToLastPage:'
+    'body': 'goToLastPage(${1:id sender})'
+  'goToNextPage:':
+    'prefix': 'goToNextPage:'
+    'body': 'goToNextPage(${1:id sender})'
+  'goToPage:':
+    'prefix': 'goToPage:'
+    'body': 'goToPage(${1:PDFPage* page})'
+  'goToPreviousPage:':
+    'prefix': 'goToPreviousPage:'
+    'body': 'goToPreviousPage(${1:id sender})'
+  'goToRect:onPage:':
+    'prefix': 'goToRect:onPage:'
+    'body': 'goToRect(${1:NSRect rect}, onPage:${2:PDFPage* page})'
+  'goToSelection:':
+    'prefix': 'goToSelection:'
+    'body': 'goToSelection(${1:PDFSelection* selection})'
+  'greekingThreshold':
+    'prefix': 'greekingThreshold'
+    'body': 'greekingThreshold()'
+  'highlightedSelections':
+    'prefix': 'highlightedSelections'
+    'body': 'highlightedSelections()'
+  'interpolationQuality':
+    'prefix': 'interpolationQuality'
+    'body': 'interpolationQuality()'
+  'layoutDocumentView':
+    'prefix': 'layoutDocumentView'
+    'body': 'layoutDocumentView()'
+  'pageForPoint:nearest:':
+    'prefix': 'pageForPoint:nearest:'
+    'body': 'pageForPoint(${1:NSPoint point}, nearest:${2:BOOL nearest})'
+  'performAction:':
+    'prefix': 'performAction:'
+    'body': 'performAction(${1:PDFAction* action})'
+  'printWithInfo:autoRotate:':
+    'prefix': 'printWithInfo:autoRotate:'
+    'body': 'printWithInfo(${1:NSPrintInfo* printInfo}, autoRotate:${2:BOOL doRotate})'
+  'printWithInfo:autoRotate:pageScaling:':
+    'prefix': 'printWithInfo:autoRotate:pageScaling:'
+    'body': 'printWithInfo(${1:NSPrintInfo* printInfo}, autoRotate:${2:BOOL doRotate}, pageScaling:${3:PDFPrintScalingMode scale})'
+  'rowSizeForPage:':
+    'prefix': 'rowSizeForPage:'
+    'body': 'rowSizeForPage(${1:PDFPage* page})'
+  'scaleFactor':
+    'prefix': 'scaleFactor'
+    'body': 'scaleFactor()'
+  'scrollSelectionToVisible:':
+    'prefix': 'scrollSelectionToVisible:'
+    'body': 'scrollSelectionToVisible(${1:id sender})'
+  'selectAll:':
+    'prefix': 'selectAll:'
+    'body': 'selectAll(${1:id sender})'
+  'setAllowsDragging:':
+    'prefix': 'setAllowsDragging:'
+    'body': 'setAllowsDragging(${1:BOOL allow})'
+  'setAutoScales:':
+    'prefix': 'setAutoScales:'
+    'body': 'setAutoScales(${1:BOOL newAuto})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* newColor})'
+  'setCurrentSelection:':
+    'prefix': 'setCurrentSelection:'
+    'body': 'setCurrentSelection(${1:PDFSelection* selection})'
+  'setCurrentSelection:animate:':
+    'prefix': 'setCurrentSelection:animate:'
+    'body': 'setCurrentSelection(${1:PDFSelection* selection}, animate:${2:BOOL animate})'
+  'setCursorForAreaOfInterest:':
+    'prefix': 'setCursorForAreaOfInterest:'
+    'body': 'setCursorForAreaOfInterest(${1:PDFAreaOfInterest area})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id anObject})'
+  'setDisplayBox:':
+    'prefix': 'setDisplayBox:'
+    'body': 'setDisplayBox(${1:PDFDisplayBox box})'
+  'setDisplayMode:':
+    'prefix': 'setDisplayMode:'
+    'body': 'setDisplayMode(${1:PDFDisplayMode mode})'
+  'setDisplaysAsBook:':
+    'prefix': 'setDisplaysAsBook:'
+    'body': 'setDisplaysAsBook(${1:BOOL asBook})'
+  'setDisplaysPageBreaks:':
+    'prefix': 'setDisplaysPageBreaks:'
+    'body': 'setDisplaysPageBreaks(${1:BOOL breaks})'
+  'setDocument:':
+    'prefix': 'setDocument:'
+    'body': 'setDocument(${1:PDFDocument* document})'
+  'setEnableDataDetectors:':
+    'prefix': 'setEnableDataDetectors:'
+    'body': 'setEnableDataDetectors(${1:BOOL enable})'
+  'setGreekingThreshold:':
+    'prefix': 'setGreekingThreshold:'
+    'body': 'setGreekingThreshold(${1:CGFloat threshold})'
+  'setHighlightedSelections:':
+    'prefix': 'setHighlightedSelections:'
+    'body': 'setHighlightedSelections(${1:NSArray* selections})'
+  'setInterpolationQuality:':
+    'prefix': 'setInterpolationQuality:'
+    'body': 'setInterpolationQuality(${1:PDFInterpolationQuality quality})'
+  'setScaleFactor:':
+    'prefix': 'setScaleFactor:'
+    'body': 'setScaleFactor(${1:CGFloat scale})'
+  'setShouldAntiAlias:':
+    'prefix': 'setShouldAntiAlias:'
+    'body': 'setShouldAntiAlias(${1:BOOL aliasing})'
+  'shouldAntiAlias':
+    'prefix': 'shouldAntiAlias'
+    'body': 'shouldAntiAlias()'
+  'takeBackgroundColorFrom:':
+    'prefix': 'takeBackgroundColorFrom:'
+    'body': 'takeBackgroundColorFrom(${1:id sender})'
+  'takePasswordFrom:':
+    'prefix': 'takePasswordFrom:'
+    'body': 'takePasswordFrom(${1:id sender})'
+  'visiblePages':
+    'prefix': 'visiblePages'
+    'body': 'visiblePages()'
+  'zoomIn:':
+    'prefix': 'zoomIn:'
+    'body': 'zoomIn(${1:id sender})'
+  'zoomOut:':
+    'prefix': 'zoomOut:'
+    'body': 'zoomOut(${1:id sender})'
+  'classForAnnotationClass:':
+    'prefix': 'classForAnnotationClass:'
+    'body': 'classForAnnotationClass(${1:Class annotationClass})'
+  'classForPage':
+    'prefix': 'classForPage'
+    'body': 'classForPage()'
+  'didMatchString:':
+    'prefix': 'didMatchString:'
+    'body': 'didMatchString(${1:PDFSelection* instance})'
+  'documentDidBeginDocumentFind:':
+    'prefix': 'documentDidBeginDocumentFind:'
+    'body': 'documentDidBeginDocumentFind(${1:NSNotification* notification})'
+  'documentDidBeginPageFind:':
+    'prefix': 'documentDidBeginPageFind:'
+    'body': 'documentDidBeginPageFind(${1:NSNotification* notification})'
+  'documentDidEndDocumentFind:':
+    'prefix': 'documentDidEndDocumentFind:'
+    'body': 'documentDidEndDocumentFind(${1:NSNotification* notification})'
+  'documentDidEndPageFind:':
+    'prefix': 'documentDidEndPageFind:'
+    'body': 'documentDidEndPageFind(${1:NSNotification* notification})'
+  'documentDidFindMatch:':
+    'prefix': 'documentDidFindMatch:'
+    'body': 'documentDidFindMatch(${1:NSNotification* notification})'
+  'documentDidUnlock:':
+    'prefix': 'documentDidUnlock:'
+    'body': 'documentDidUnlock(${1:NSNotification* notification})'
+  'PDFViewOpenPDF:forRemoteGoToAction:':
+    'prefix': 'PDFViewOpenPDF:forRemoteGoToAction:'
+    'body': 'PDFViewOpenPDF(${1:PDFView* sender}, forRemoteGoToAction:${2:PDFActionRemoteGoTo* action})'
+  'PDFViewPerformFind:':
+    'prefix': 'PDFViewPerformFind:'
+    'body': 'PDFViewPerformFind(${1:PDFView* sender})'
+  'PDFViewPerformGoToPage:':
+    'prefix': 'PDFViewPerformGoToPage:'
+    'body': 'PDFViewPerformGoToPage(${1:PDFView* sender})'
+  'PDFViewPerformPrint:':
+    'prefix': 'PDFViewPerformPrint:'
+    'body': 'PDFViewPerformPrint(${1:PDFView* sender})'
+  'PDFViewPrintJobTitle:':
+    'prefix': 'PDFViewPrintJobTitle:'
+    'body': 'PDFViewPrintJobTitle(${1:PDFView* sender})'
+  'PDFViewWillChangeScaleFactor:toScale:':
+    'prefix': 'PDFViewWillChangeScaleFactor:toScale:'
+    'body': 'PDFViewWillChangeScaleFactor(${1:PDFView* sender}, toScale:${2:CGFloat scale})'
+  'PDFViewWillClickOnLink:withURL:':
+    'prefix': 'PDFViewWillClickOnLink:withURL:'
+    'body': 'PDFViewWillClickOnLink(${1:PDFView* sender}, withURL:${2:NSURL* url})'
+  'QCCompositionAttributeBuiltInKey (NSString*)':
+    'prefix': 'QCCompositionAttributeBuiltInKey'
+    'body': 'QCCompositionAttributeBuiltInKey'
+  'QCCompositionAttributeCategoryKey (NSString*)':
+    'prefix': 'QCCompositionAttributeCategoryKey'
+    'body': 'QCCompositionAttributeCategoryKey'
+  'QCCompositionAttributeCopyrightKey (NSString*)':
+    'prefix': 'QCCompositionAttributeCopyrightKey'
+    'body': 'QCCompositionAttributeCopyrightKey'
+  'QCCompositionAttributeDescriptionKey (NSString*)':
+    'prefix': 'QCCompositionAttributeDescriptionKey'
+    'body': 'QCCompositionAttributeDescriptionKey'
+  'QCCompositionAttributeHasConsumersKey (NSString*)':
+    'prefix': 'QCCompositionAttributeHasConsumersKey'
+    'body': 'QCCompositionAttributeHasConsumersKey'
+  'QCCompositionAttributeIsTimeDependentKey (NSString*)':
+    'prefix': 'QCCompositionAttributeIsTimeDependentKey'
+    'body': 'QCCompositionAttributeIsTimeDependentKey'
+  'QCCompositionAttributeNameKey (NSString*)':
+    'prefix': 'QCCompositionAttributeNameKey'
+    'body': 'QCCompositionAttributeNameKey'
+  'QCCompositionCategoryDistortion (NSString*)':
+    'prefix': 'QCCompositionCategoryDistortion'
+    'body': 'QCCompositionCategoryDistortion'
+  'QCCompositionCategoryStylize (NSString*)':
+    'prefix': 'QCCompositionCategoryStylize'
+    'body': 'QCCompositionCategoryStylize'
+  'QCCompositionCategoryUtility (NSString*)':
+    'prefix': 'QCCompositionCategoryUtility'
+    'body': 'QCCompositionCategoryUtility'
+  'QCCompositionInputAudioPeakKey (NSString*)':
+    'prefix': 'QCCompositionInputAudioPeakKey'
+    'body': 'QCCompositionInputAudioPeakKey'
+  'QCCompositionInputAudioSpectrumKey (NSString*)':
+    'prefix': 'QCCompositionInputAudioSpectrumKey'
+    'body': 'QCCompositionInputAudioSpectrumKey'
+  'QCCompositionInputDestinationImageKey (NSString*)':
+    'prefix': 'QCCompositionInputDestinationImageKey'
+    'body': 'QCCompositionInputDestinationImageKey'
+  'QCCompositionInputImageKey (NSString*)':
+    'prefix': 'QCCompositionInputImageKey'
+    'body': 'QCCompositionInputImageKey'
+  'QCCompositionInputPaceKey (NSString*)':
+    'prefix': 'QCCompositionInputPaceKey'
+    'body': 'QCCompositionInputPaceKey'
+  'QCCompositionInputPreviewModeKey (NSString*)':
+    'prefix': 'QCCompositionInputPreviewModeKey'
+    'body': 'QCCompositionInputPreviewModeKey'
+  'QCCompositionInputPrimaryColorKey (NSString*)':
+    'prefix': 'QCCompositionInputPrimaryColorKey'
+    'body': 'QCCompositionInputPrimaryColorKey'
+  'QCCompositionInputRSSArticleDurationKey (NSString*)':
+    'prefix': 'QCCompositionInputRSSArticleDurationKey'
+    'body': 'QCCompositionInputRSSArticleDurationKey'
+  'QCCompositionInputRSSFeedURLKey (NSString*)':
+    'prefix': 'QCCompositionInputRSSFeedURLKey'
+    'body': 'QCCompositionInputRSSFeedURLKey'
+  'QCCompositionInputScreenImageKey (NSString*)':
+    'prefix': 'QCCompositionInputScreenImageKey'
+    'body': 'QCCompositionInputScreenImageKey'
+  'QCCompositionInputSecondaryColorKey (NSString*)':
+    'prefix': 'QCCompositionInputSecondaryColorKey'
+    'body': 'QCCompositionInputSecondaryColorKey'
+  'QCCompositionInputSourceImageKey (NSString*)':
+    'prefix': 'QCCompositionInputSourceImageKey'
+    'body': 'QCCompositionInputSourceImageKey'
+  'QCCompositionInputTrackInfoKey (NSString*)':
+    'prefix': 'QCCompositionInputTrackInfoKey'
+    'body': 'QCCompositionInputTrackInfoKey'
+  'QCCompositionInputTrackPositionKey (NSString*)':
+    'prefix': 'QCCompositionInputTrackPositionKey'
+    'body': 'QCCompositionInputTrackPositionKey'
+  'QCCompositionInputTrackSignalKey (NSString*)':
+    'prefix': 'QCCompositionInputTrackSignalKey'
+    'body': 'QCCompositionInputTrackSignalKey'
+  'QCCompositionInputXKey (NSString*)':
+    'prefix': 'QCCompositionInputXKey'
+    'body': 'QCCompositionInputXKey'
+  'QCCompositionInputYKey (NSString*)':
+    'prefix': 'QCCompositionInputYKey'
+    'body': 'QCCompositionInputYKey'
+  'QCCompositionOutputImageKey (NSString*)':
+    'prefix': 'QCCompositionOutputImageKey'
+    'body': 'QCCompositionOutputImageKey'
+  'QCCompositionOutputWebPageURLKey (NSString*)':
+    'prefix': 'QCCompositionOutputWebPageURLKey'
+    'body': 'QCCompositionOutputWebPageURLKey'
+  'QCCompositionPickerPanelDidSelectCompositionNotification (NSString*)':
+    'prefix': 'QCCompositionPickerPanelDidSelectCompositionNotification'
+    'body': 'QCCompositionPickerPanelDidSelectCompositionNotification'
+  'QCCompositionPickerViewDidSelectCompositionNotification (NSString*)':
+    'prefix': 'QCCompositionPickerViewDidSelectCompositionNotification'
+    'body': 'QCCompositionPickerViewDidSelectCompositionNotification'
+  'QCCompositionProtocolGraphicAnimation (NSString*)':
+    'prefix': 'QCCompositionProtocolGraphicAnimation'
+    'body': 'QCCompositionProtocolGraphicAnimation'
+  'QCCompositionProtocolGraphicTransition (NSString*)':
+    'prefix': 'QCCompositionProtocolGraphicTransition'
+    'body': 'QCCompositionProtocolGraphicTransition'
+  'QCCompositionProtocolImageFilter (NSString*)':
+    'prefix': 'QCCompositionProtocolImageFilter'
+    'body': 'QCCompositionProtocolImageFilter'
+  'QCCompositionProtocolMusicVisualizer (NSString*)':
+    'prefix': 'QCCompositionProtocolMusicVisualizer'
+    'body': 'QCCompositionProtocolMusicVisualizer'
+  'QCCompositionProtocolRSSVisualizer (NSString*)':
+    'prefix': 'QCCompositionProtocolRSSVisualizer'
+    'body': 'QCCompositionProtocolRSSVisualizer'
+  'QCCompositionProtocolScreenSaver (NSString*)':
+    'prefix': 'QCCompositionProtocolScreenSaver'
+    'body': 'QCCompositionProtocolScreenSaver'
+  'QCCompositionRepositoryDidUpdateNotification (NSString*)':
+    'prefix': 'QCCompositionRepositoryDidUpdateNotification'
+    'body': 'QCCompositionRepositoryDidUpdateNotification'
+  'QCPlugInAttributeCategoriesKey (NSString*)':
+    'prefix': 'QCPlugInAttributeCategoriesKey'
+    'body': 'QCPlugInAttributeCategoriesKey'
+  'QCPlugInAttributeCopyrightKey (NSString*)':
+    'prefix': 'QCPlugInAttributeCopyrightKey'
+    'body': 'QCPlugInAttributeCopyrightKey'
+  'QCPlugInAttributeDescriptionKey (NSString*)':
+    'prefix': 'QCPlugInAttributeDescriptionKey'
+    'body': 'QCPlugInAttributeDescriptionKey'
+  'QCPlugInAttributeExamplesKey (NSString*)':
+    'prefix': 'QCPlugInAttributeExamplesKey'
+    'body': 'QCPlugInAttributeExamplesKey'
+  'QCPlugInAttributeNameKey (NSString*)':
+    'prefix': 'QCPlugInAttributeNameKey'
+    'body': 'QCPlugInAttributeNameKey'
+  'QCPlugInExecutionArgumentEventKey (NSString*)':
+    'prefix': 'QCPlugInExecutionArgumentEventKey'
+    'body': 'QCPlugInExecutionArgumentEventKey'
+  'QCPlugInExecutionArgumentMouseLocationKey (NSString*)':
+    'prefix': 'QCPlugInExecutionArgumentMouseLocationKey'
+    'body': 'QCPlugInExecutionArgumentMouseLocationKey'
+  'QCPlugInPixelFormatARGB8 (NSString*)':
+    'prefix': 'QCPlugInPixelFormatARGB8'
+    'body': 'QCPlugInPixelFormatARGB8'
+  'QCPlugInPixelFormatBGRA8 (NSString*)':
+    'prefix': 'QCPlugInPixelFormatBGRA8'
+    'body': 'QCPlugInPixelFormatBGRA8'
+  'QCPlugInPixelFormatI8 (NSString*)':
+    'prefix': 'QCPlugInPixelFormatI8'
+    'body': 'QCPlugInPixelFormatI8'
+  'QCPlugInPixelFormatIf (NSString*)':
+    'prefix': 'QCPlugInPixelFormatIf'
+    'body': 'QCPlugInPixelFormatIf'
+  'QCPlugInPixelFormatRGBAf (NSString*)':
+    'prefix': 'QCPlugInPixelFormatRGBAf'
+    'body': 'QCPlugInPixelFormatRGBAf'
+  'QCPortAttributeDefaultValueKey (NSString*)':
+    'prefix': 'QCPortAttributeDefaultValueKey'
+    'body': 'QCPortAttributeDefaultValueKey'
+  'QCPortAttributeMaximumValueKey (NSString*)':
+    'prefix': 'QCPortAttributeMaximumValueKey'
+    'body': 'QCPortAttributeMaximumValueKey'
+  'QCPortAttributeMenuItemsKey (NSString*)':
+    'prefix': 'QCPortAttributeMenuItemsKey'
+    'body': 'QCPortAttributeMenuItemsKey'
+  'QCPortAttributeMinimumValueKey (NSString*)':
+    'prefix': 'QCPortAttributeMinimumValueKey'
+    'body': 'QCPortAttributeMinimumValueKey'
+  'QCPortAttributeNameKey (NSString*)':
+    'prefix': 'QCPortAttributeNameKey'
+    'body': 'QCPortAttributeNameKey'
+  'QCPortAttributeTypeKey (NSString*)':
+    'prefix': 'QCPortAttributeTypeKey'
+    'body': 'QCPortAttributeTypeKey'
+  'QCPortTypeBoolean (NSString*)':
+    'prefix': 'QCPortTypeBoolean'
+    'body': 'QCPortTypeBoolean'
+  'QCPortTypeColor (NSString*)':
+    'prefix': 'QCPortTypeColor'
+    'body': 'QCPortTypeColor'
+  'QCPortTypeImage (NSString*)':
+    'prefix': 'QCPortTypeImage'
+    'body': 'QCPortTypeImage'
+  'QCPortTypeIndex (NSString*)':
+    'prefix': 'QCPortTypeIndex'
+    'body': 'QCPortTypeIndex'
+  'QCPortTypeNumber (NSString*)':
+    'prefix': 'QCPortTypeNumber'
+    'body': 'QCPortTypeNumber'
+  'QCPortTypeString (NSString*)':
+    'prefix': 'QCPortTypeString'
+    'body': 'QCPortTypeString'
+  'QCPortTypeStructure (NSString*)':
+    'prefix': 'QCPortTypeStructure'
+    'body': 'QCPortTypeStructure'
+  'QCRendererEventKey (NSString*)':
+    'prefix': 'QCRendererEventKey'
+    'body': 'QCRendererEventKey'
+  'QCRendererMouseLocationKey (NSString*)':
+    'prefix': 'QCRendererMouseLocationKey'
+    'body': 'QCRendererMouseLocationKey'
+  'QCViewDidStartRenderingNotification (NSString*)':
+    'prefix': 'QCViewDidStartRenderingNotification'
+    'body': 'QCViewDidStartRenderingNotification'
+  'QCViewDidStopRenderingNotification (NSString*)':
+    'prefix': 'QCViewDidStopRenderingNotification'
+    'body': 'QCViewDidStopRenderingNotification'
+  'kQCPlugInExecutionModeConsumer (3)':
+    'prefix': 'kQCPlugInExecutionModeConsumer'
+    'body': 'KQCPlugInExecutionModeConsumer'
+  'kQCPlugInExecutionModeProcessor (2)':
+    'prefix': 'kQCPlugInExecutionModeProcessor'
+    'body': 'KQCPlugInExecutionModeProcessor'
+  'kQCPlugInExecutionModeProvider (1)':
+    'prefix': 'kQCPlugInExecutionModeProvider'
+    'body': 'KQCPlugInExecutionModeProvider'
+  'kQCPlugInTimeModeIdle (1)':
+    'prefix': 'kQCPlugInTimeModeIdle'
+    'body': 'KQCPlugInTimeModeIdle'
+  'kQCPlugInTimeModeNone (0)':
+    'prefix': 'kQCPlugInTimeModeNone'
+    'body': 'KQCPlugInTimeModeNone'
+  'kQCPlugInTimeModeTimeBase (2)':
+    'prefix': 'kQCPlugInTimeModeTimeBase'
+    'body': 'KQCPlugInTimeModeTimeBase'
+  'CGLContextObj':
+    'prefix': 'CGLContextObj'
+    'body': 'CGLContextObj()'
+  'attributes':
+    'prefix': 'attributes'
+    'body': 'attributes()'
+  'bindTextureRepresentationToCGLContext:textureUnit:normalizeCoordinates:':
+    'prefix': 'bindTextureRepresentationToCGLContext:textureUnit:normalizeCoordinates:'
+    'body': 'bindTextureRepresentationToCGLContext(${1:CGLContextObj cgl_ctx}, textureUnit:${2:GLenum unit}, normalizeCoordinates:${3:BOOL flag})'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'bufferBaseAddress':
+    'prefix': 'bufferBaseAddress'
+    'body': 'bufferBaseAddress()'
+  'bufferBytesPerRow':
+    'prefix': 'bufferBytesPerRow'
+    'body': 'bufferBytesPerRow()'
+  'bufferColorSpace':
+    'prefix': 'bufferColorSpace'
+    'body': 'bufferColorSpace()'
+  'bufferPixelFormat':
+    'prefix': 'bufferPixelFormat'
+    'body': 'bufferPixelFormat()'
+  'bufferPixelsHigh':
+    'prefix': 'bufferPixelsHigh'
+    'body': 'bufferPixelsHigh()'
+  'bufferPixelsWide':
+    'prefix': 'bufferPixelsWide'
+    'body': 'bufferPixelsWide()'
+  'canRenderWithCGLContext:':
+    'prefix': 'canRenderWithCGLContext:'
+    'body': 'canRenderWithCGLContext(${1:CGLContextObj cgl_ctx})'
+  'colorSpace':
+    'prefix': 'colorSpace'
+    'body': 'colorSpace()'
+  'compositionParameterView:didChangeParameterWithKey:':
+    'prefix': 'compositionParameterView:didChangeParameterWithKey:'
+    'body': 'compositionParameterView(${1:QCCompositionParameterView* parameterView}, didChangeParameterWithKey:${2:NSString* portKey})'
+  'compositionParameterView:shouldDisplayParameterWithKey:attributes:':
+    'prefix': 'compositionParameterView:shouldDisplayParameterWithKey:attributes:'
+    'body': 'compositionParameterView(${1:QCCompositionParameterView* parameterView}, shouldDisplayParameterWithKey:${2:NSString* portKey}, attributes:${3:NSDictionary* portAttributes})'
+  'compositionPickerView:didSelectComposition:':
+    'prefix': 'compositionPickerView:didSelectComposition:'
+    'body': 'compositionPickerView(${1:QCCompositionPickerView* pickerView}, didSelectComposition:${2:QCComposition* composition})'
+  'compositionPickerViewDidStartAnimating:':
+    'prefix': 'compositionPickerViewDidStartAnimating:'
+    'body': 'compositionPickerViewDidStartAnimating(${1:QCCompositionPickerView* pickerView})'
+  'compositionPickerViewWillStopAnimating:':
+    'prefix': 'compositionPickerViewWillStopAnimating:'
+    'body': 'compositionPickerViewWillStopAnimating(${1:QCCompositionPickerView* pickerView})'
+  'compositionURL':
+    'prefix': 'compositionURL'
+    'body': 'compositionURL()'
+  'copyRenderedTextureForCGLContext:pixelFormat:bounds:isFlipped:':
+    'prefix': 'copyRenderedTextureForCGLContext:pixelFormat:bounds:isFlipped:'
+    'body': 'copyRenderedTextureForCGLContext(${1:CGLContextObj cgl_ctx}, pixelFormat:${2:NSString* format}, bounds:${3:NSRect bounds}, isFlipped:${4:BOOL* flipped})'
+  'imageBounds':
+    'prefix': 'imageBounds'
+    'body': 'imageBounds()'
+  'imageColorSpace':
+    'prefix': 'imageColorSpace'
+    'body': 'imageColorSpace()'
+  'inputKeys':
+    'prefix': 'inputKeys'
+    'body': 'inputKeys()'
+  'lockBufferRepresentationWithPixelFormat:colorSpace:forBounds:':
+    'prefix': 'lockBufferRepresentationWithPixelFormat:colorSpace:forBounds:'
+    'body': 'lockBufferRepresentationWithPixelFormat(${1:NSString* format}, colorSpace:${2:CGColorSpaceRef colorSpace}, forBounds:${3:NSRect bounds})'
+  'lockTextureRepresentationWithColorSpace:forBounds:':
+    'prefix': 'lockTextureRepresentationWithColorSpace:forBounds:'
+    'body': 'lockTextureRepresentationWithColorSpace(${1:CGColorSpaceRef colorSpace}, forBounds:${2:NSRect bounds})'
+  'logMessage:':
+    'prefix': 'logMessage:'
+    'body': 'logMessage(${1:NSString* format})'
+  'outputImageProviderFromBufferWithPixelFormat:pixelsWide:pixelsHigh:baseAddress:bytesPerRow:releaseCallback:releaseContext:colorSpace:shouldColorMatch:':
+    'prefix': 'outputImageProviderFromBufferWithPixelFormat:pixelsWide:pixelsHigh:baseAddress:bytesPerRow:releaseCallback:releaseContext:colorSpace:shouldColorMatch:'
+    'body': 'outputImageProviderFromBufferWithPixelFormat(${1:NSString* format}, pixelsWide:${2:NSUInteger width}, pixelsHigh:${3:NSUInteger height}, baseAddress:${4:void* baseAddress}, bytesPerRow:${5:NSUInteger rowBytes}, releaseCallback:${6:QCPlugInBufferReleaseCallback callback}, releaseContext:${7:void* context}, colorSpace:${8:CGColorSpaceRef colorSpace}, shouldColorMatch:${9:BOOL colorMatch})'
+  'outputImageProviderFromTextureWithPixelFormat:pixelsWide:pixelsHigh:name:flipped:releaseCallback:releaseContext:colorSpace:shouldColorMatch:':
+    'prefix': 'outputImageProviderFromTextureWithPixelFormat:pixelsWide:pixelsHigh:name:flipped:releaseCallback:releaseContext:colorSpace:shouldColorMatch:'
+    'body': 'outputImageProviderFromTextureWithPixelFormat(${1:NSString* format}, pixelsWide:${2:NSUInteger width}, pixelsHigh:${3:NSUInteger height}, name:${4:GLuint name}, flipped:${5:BOOL flipped}, releaseCallback:${6:QCPlugInTextureReleaseCallback callback}, releaseContext:${7:void* context}, colorSpace:${8:CGColorSpaceRef colorSpace}, shouldColorMatch:${9:BOOL colorMatch})'
+  'outputKeys':
+    'prefix': 'outputKeys'
+    'body': 'outputKeys()'
+  'propertyListFromInputValues':
+    'prefix': 'propertyListFromInputValues'
+    'body': 'propertyListFromInputValues()'
+  'releaseRenderedTexture:forCGLContext:':
+    'prefix': 'releaseRenderedTexture:forCGLContext:'
+    'body': 'releaseRenderedTexture(${1:GLuint name}, forCGLContext:${2:CGLContextObj cgl_ctx})'
+  'renderToBuffer:withBytesPerRow:pixelFormat:forBounds:':
+    'prefix': 'renderToBuffer:withBytesPerRow:pixelFormat:forBounds:'
+    'body': 'renderToBuffer(${1:void* baseAddress}, withBytesPerRow:${2:NSUInteger rowBytes}, pixelFormat:${3:NSString* format}, forBounds:${4:NSRect bounds})'
+  'renderWithCGLContext:forBounds:':
+    'prefix': 'renderWithCGLContext:forBounds:'
+    'body': 'renderWithCGLContext(${1:CGLContextObj cgl_ctx}, forBounds:${2:NSRect bounds})'
+  'setInputValuesWithPropertyList:':
+    'prefix': 'setInputValuesWithPropertyList:'
+    'body': 'setInputValuesWithPropertyList(${1:id plist})'
+  'setValue:forInputKey:':
+    'prefix': 'setValue:forInputKey:'
+    'body': 'setValue(${1:id value}, forInputKey:${2:NSString* key})'
+  'shouldColorMatch':
+    'prefix': 'shouldColorMatch'
+    'body': 'shouldColorMatch()'
+  'supportedBufferPixelFormats':
+    'prefix': 'supportedBufferPixelFormats'
+    'body': 'supportedBufferPixelFormats()'
+  'supportedRenderedTexturePixelFormats':
+    'prefix': 'supportedRenderedTexturePixelFormats'
+    'body': 'supportedRenderedTexturePixelFormats()'
+  'textureColorSpace':
+    'prefix': 'textureColorSpace'
+    'body': 'textureColorSpace()'
+  'textureFlipped':
+    'prefix': 'textureFlipped'
+    'body': 'textureFlipped()'
+  'textureMatrix':
+    'prefix': 'textureMatrix'
+    'body': 'textureMatrix()'
+  'textureName':
+    'prefix': 'textureName'
+    'body': 'textureName()'
+  'texturePixelsHigh':
+    'prefix': 'texturePixelsHigh'
+    'body': 'texturePixelsHigh()'
+  'texturePixelsWide':
+    'prefix': 'texturePixelsWide'
+    'body': 'texturePixelsWide()'
+  'textureTarget':
+    'prefix': 'textureTarget'
+    'body': 'textureTarget()'
+  'unbindTextureRepresentationFromCGLContext:textureUnit:':
+    'prefix': 'unbindTextureRepresentationFromCGLContext:textureUnit:'
+    'body': 'unbindTextureRepresentationFromCGLContext(${1:CGLContextObj cgl_ctx}, textureUnit:${2:GLenum unit})'
+  'unlockBufferRepresentation':
+    'prefix': 'unlockBufferRepresentation'
+    'body': 'unlockBufferRepresentation()'
+  'unlockTextureRepresentation':
+    'prefix': 'unlockTextureRepresentation'
+    'body': 'unlockTextureRepresentation()'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'valueForInputKey:':
+    'prefix': 'valueForInputKey:'
+    'body': 'valueForInputKey(${1:NSString* key})'
+  'valueForOutputKey:':
+    'prefix': 'valueForOutputKey:'
+    'body': 'valueForOutputKey(${1:NSString* key})'
+  'valueForOutputKey:ofType:':
+    'prefix': 'valueForOutputKey:ofType:'
+    'body': 'valueForOutputKey(${1:NSString* key}, ofType:${2:NSString* type})'
+  'attributes':
+    'prefix': 'attributes'
+    'body': 'attributes()'
+  'QCComposition.compositionWithData:':
+    'prefix': 'compositionWithData:'
+    'body': 'QCComposition.compositionWithData(${1:NSData* data})'
+  'QCComposition.compositionWithFile:':
+    'prefix': 'compositionWithFile:'
+    'body': 'QCComposition.compositionWithFile(${1:NSString* path})'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'inputKeys':
+    'prefix': 'inputKeys'
+    'body': 'inputKeys()'
+  'outputKeys':
+    'prefix': 'outputKeys'
+    'body': 'outputKeys()'
+  'protocols':
+    'prefix': 'protocols'
+    'body': 'protocols()'
+  'composition':
+    'prefix': 'composition'
+    'body': 'composition()'
+  'QCCompositionLayer.compositionLayerWithComposition:':
+    'prefix': 'compositionLayerWithComposition:'
+    'body': 'QCCompositionLayer.compositionLayerWithComposition(${1:QCComposition* composition})'
+  'QCCompositionLayer.compositionLayerWithFile:':
+    'prefix': 'compositionLayerWithFile:'
+    'body': 'QCCompositionLayer.compositionLayerWithFile(${1:NSString* path})'
+  'initWithComposition:':
+    'prefix': 'initWithComposition:'
+    'body': 'initWithComposition(${1:QCComposition* composition})'
+  'initWithFile:':
+    'prefix': 'initWithFile:'
+    'body': 'initWithFile(${1:NSString* path})'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'compositionRenderer':
+    'prefix': 'compositionRenderer'
+    'body': 'compositionRenderer()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'drawsBackground':
+    'prefix': 'drawsBackground'
+    'body': 'drawsBackground()'
+  'hasParameters':
+    'prefix': 'hasParameters'
+    'body': 'hasParameters()'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* color})'
+  'setCompositionRenderer:':
+    'prefix': 'setCompositionRenderer:'
+    'body': 'setCompositionRenderer(${1:id renderer})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDrawsBackground:':
+    'prefix': 'setDrawsBackground:'
+    'body': 'setDrawsBackground(${1:BOOL flag})'
+  'compositionPickerView':
+    'prefix': 'compositionPickerView'
+    'body': 'compositionPickerView()'
+  'QCCompositionPickerPanel.sharedCompositionPickerPanel':
+    'prefix': 'sharedCompositionPickerPanel'
+    'body': 'QCCompositionPickerPanel.sharedCompositionPickerPanel()'
+  'allowsEmptySelection':
+    'prefix': 'allowsEmptySelection'
+    'body': 'allowsEmptySelection()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'compositionAspectRatio':
+    'prefix': 'compositionAspectRatio'
+    'body': 'compositionAspectRatio()'
+  'compositions':
+    'prefix': 'compositions'
+    'body': 'compositions()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'drawsBackground':
+    'prefix': 'drawsBackground'
+    'body': 'drawsBackground()'
+  'isAnimating':
+    'prefix': 'isAnimating'
+    'body': 'isAnimating()'
+  'maxAnimationFrameRate':
+    'prefix': 'maxAnimationFrameRate'
+    'body': 'maxAnimationFrameRate()'
+  'numberOfColumns':
+    'prefix': 'numberOfColumns'
+    'body': 'numberOfColumns()'
+  'numberOfRows':
+    'prefix': 'numberOfRows'
+    'body': 'numberOfRows()'
+  'resetDefaultInputValues':
+    'prefix': 'resetDefaultInputValues'
+    'body': 'resetDefaultInputValues()'
+  'selectedComposition':
+    'prefix': 'selectedComposition'
+    'body': 'selectedComposition()'
+  'setAllowsEmptySelection:':
+    'prefix': 'setAllowsEmptySelection:'
+    'body': 'setAllowsEmptySelection(${1:BOOL flag})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* color})'
+  'setCompositionAspectRatio:':
+    'prefix': 'setCompositionAspectRatio:'
+    'body': 'setCompositionAspectRatio(${1:NSSize ratio})'
+  'setCompositionsFromRepositoryWithProtocol:andAttributes:':
+    'prefix': 'setCompositionsFromRepositoryWithProtocol:andAttributes:'
+    'body': 'setCompositionsFromRepositoryWithProtocol(${1:NSString* protocol}, andAttributes:${2:NSDictionary* attributes})'
+  'setDefaultValue:forInputKey:':
+    'prefix': 'setDefaultValue:forInputKey:'
+    'body': 'setDefaultValue(${1:id value}, forInputKey:${2:NSString* key})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDrawsBackground:':
+    'prefix': 'setDrawsBackground:'
+    'body': 'setDrawsBackground(${1:BOOL flag})'
+  'setMaxAnimationFrameRate:':
+    'prefix': 'setMaxAnimationFrameRate:'
+    'body': 'setMaxAnimationFrameRate(${1:float maxFPS})'
+  'setNumberOfColumns:':
+    'prefix': 'setNumberOfColumns:'
+    'body': 'setNumberOfColumns(${1:NSUInteger columns})'
+  'setNumberOfRows:':
+    'prefix': 'setNumberOfRows:'
+    'body': 'setNumberOfRows(${1:NSUInteger rows})'
+  'setSelectedComposition:':
+    'prefix': 'setSelectedComposition:'
+    'body': 'setSelectedComposition(${1:QCComposition* composition})'
+  'setShowsCompositionNames:':
+    'prefix': 'setShowsCompositionNames:'
+    'body': 'setShowsCompositionNames(${1:BOOL flag})'
+  'showsCompositionNames':
+    'prefix': 'showsCompositionNames'
+    'body': 'showsCompositionNames()'
+  'startAnimation:':
+    'prefix': 'startAnimation:'
+    'body': 'startAnimation(${1:id sender})'
+  'stopAnimation:':
+    'prefix': 'stopAnimation:'
+    'body': 'stopAnimation(${1:id sender})'
+  'allCompositions':
+    'prefix': 'allCompositions'
+    'body': 'allCompositions()'
+  'compositionWithIdentifier:':
+    'prefix': 'compositionWithIdentifier:'
+    'body': 'compositionWithIdentifier(${1:NSString* identifier})'
+  'compositionsWithProtocols:andAttributes:':
+    'prefix': 'compositionsWithProtocols:andAttributes:'
+    'body': 'compositionsWithProtocols(${1:NSArray* protocols}, andAttributes:${2:NSDictionary* attributes})'
+  'QCCompositionRepository.sharedCompositionRepository':
+    'prefix': 'sharedCompositionRepository'
+    'body': 'QCCompositionRepository.sharedCompositionRepository()'
+  'addInputPortWithType:forKey:withAttributes:':
+    'prefix': 'addInputPortWithType:forKey:withAttributes:'
+    'body': 'addInputPortWithType(${1:NSString* type}, forKey:${2:NSString* key}, withAttributes:${3:NSDictionary* attributes})'
+  'addOutputPortWithType:forKey:withAttributes:':
+    'prefix': 'addOutputPortWithType:forKey:withAttributes:'
+    'body': 'addOutputPortWithType(${1:NSString* type}, forKey:${2:NSString* key}, withAttributes:${3:NSDictionary* attributes})'
+  'QCPlugIn.attributes':
+    'prefix': 'attributes'
+    'body': 'QCPlugIn.attributes()'
+  'QCPlugIn.attributesForPropertyPortWithKey:':
+    'prefix': 'attributesForPropertyPortWithKey:'
+    'body': 'QCPlugIn.attributesForPropertyPortWithKey(${1:NSString* key})'
+  'createViewController':
+    'prefix': 'createViewController'
+    'body': 'createViewController()'
+  'didValueForInputKeyChange:':
+    'prefix': 'didValueForInputKeyChange:'
+    'body': 'didValueForInputKeyChange(${1:NSString* key})'
+  'disableExecution:':
+    'prefix': 'disableExecution:'
+    'body': 'disableExecution(${1:id context})'
+  'enableExecution:':
+    'prefix': 'enableExecution:'
+    'body': 'enableExecution(${1:id context})'
+  'execute:atTime:withArguments:':
+    'prefix': 'execute:atTime:withArguments:'
+    'body': 'execute(${1:id context}, atTime:${2:NSTimeInterval time}, withArguments:${3:NSDictionary* arguments})'
+  'QCPlugIn.executionMode':
+    'prefix': 'executionMode'
+    'body': 'QCPlugIn.executionMode()'
+  'executionTimeForContext:atTime:withArguments:':
+    'prefix': 'executionTimeForContext:atTime:withArguments:'
+    'body': 'executionTimeForContext(${1:id context}, atTime:${2:NSTimeInterval time}, withArguments:${3:NSDictionary* arguments})'
+  'QCPlugIn.loadPlugInAtPath:':
+    'prefix': 'loadPlugInAtPath:'
+    'body': 'QCPlugIn.loadPlugInAtPath(${1:NSString* path})'
+  'QCPlugIn.plugInKeys':
+    'prefix': 'plugInKeys'
+    'body': 'QCPlugIn.plugInKeys()'
+  'QCPlugIn.registerPlugInClass:':
+    'prefix': 'registerPlugInClass:'
+    'body': 'QCPlugIn.registerPlugInClass(${1:Class aClass})'
+  'removeInputPortForKey:':
+    'prefix': 'removeInputPortForKey:'
+    'body': 'removeInputPortForKey(${1:NSString* key})'
+  'removeOutputPortForKey:':
+    'prefix': 'removeOutputPortForKey:'
+    'body': 'removeOutputPortForKey(${1:NSString* key})'
+  'serializedValueForKey:':
+    'prefix': 'serializedValueForKey:'
+    'body': 'serializedValueForKey(${1:NSString* key})'
+  'setSerializedValue:forKey:':
+    'prefix': 'setSerializedValue:forKey:'
+    'body': 'setSerializedValue(${1:id serializedValue}, forKey:${2:NSString* key})'
+  'setValue:forOutputKey:':
+    'prefix': 'setValue:forOutputKey:'
+    'body': 'setValue(${1:id value}, forOutputKey:${2:NSString* key})'
+  'QCPlugIn.sortedPropertyPortKeys':
+    'prefix': 'sortedPropertyPortKeys'
+    'body': 'QCPlugIn.sortedPropertyPortKeys()'
+  'startExecution:':
+    'prefix': 'startExecution:'
+    'body': 'startExecution(${1:id context})'
+  'stopExecution:':
+    'prefix': 'stopExecution:'
+    'body': 'stopExecution(${1:id context})'
+  'QCPlugIn.timeMode':
+    'prefix': 'timeMode'
+    'body': 'QCPlugIn.timeMode()'
+  'valueForInputKey:':
+    'prefix': 'valueForInputKey:'
+    'body': 'valueForInputKey(${1:NSString* key})'
+  'initWithPlugIn:viewNibName:':
+    'prefix': 'initWithPlugIn:viewNibName:'
+    'body': 'initWithPlugIn(${1:QCPlugIn* plugIn}, viewNibName:${2:NSString* name})'
+  'plugIn':
+    'prefix': 'plugIn'
+    'body': 'plugIn()'
+  'composition':
+    'prefix': 'composition'
+    'body': 'composition()'
+  'createSnapshotImageOfType:':
+    'prefix': 'createSnapshotImageOfType:'
+    'body': 'createSnapshotImageOfType(${1:NSString* type})'
+  'initOffScreenWithSize:colorSpace:composition:':
+    'prefix': 'initOffScreenWithSize:colorSpace:composition:'
+    'body': 'initOffScreenWithSize(${1:NSSize size}, colorSpace:${2:CGColorSpaceRef colorSpace}, composition:${3:QCComposition* composition})'
+  'initWithCGLContext:pixelFormat:colorSpace:composition:':
+    'prefix': 'initWithCGLContext:pixelFormat:colorSpace:composition:'
+    'body': 'initWithCGLContext(${1:CGLContextObj context}, pixelFormat:${2:CGLPixelFormatObj format}, colorSpace:${3:CGColorSpaceRef colorSpace}, composition:${4:QCComposition* composition})'
+  'initWithComposition:colorSpace:':
+    'prefix': 'initWithComposition:colorSpace:'
+    'body': 'initWithComposition(${1:QCComposition* composition}, colorSpace:${2:CGColorSpaceRef colorSpace})'
+  'initWithOpenGLContext:pixelFormat:file:':
+    'prefix': 'initWithOpenGLContext:pixelFormat:file:'
+    'body': 'initWithOpenGLContext(${1:NSOpenGLContext* context}, pixelFormat:${2:NSOpenGLPixelFormat* format}, file:${3:NSString* path})'
+  'renderAtTime:arguments:':
+    'prefix': 'renderAtTime:arguments:'
+    'body': 'renderAtTime(${1:NSTimeInterval time}, arguments:${2:NSDictionary* arguments})'
+  'renderingTimeForTime:arguments:':
+    'prefix': 'renderingTimeForTime:arguments:'
+    'body': 'renderingTimeForTime(${1:NSTimeInterval time}, arguments:${2:NSDictionary* arguments})'
+  'snapshotImage':
+    'prefix': 'snapshotImage'
+    'body': 'snapshotImage()'
+  'autostartsRendering':
+    'prefix': 'autostartsRendering'
+    'body': 'autostartsRendering()'
+  'createSnapshotImageOfType:':
+    'prefix': 'createSnapshotImageOfType:'
+    'body': 'createSnapshotImageOfType(${1:NSString* type})'
+  'erase':
+    'prefix': 'erase'
+    'body': 'erase()'
+  'eraseColor':
+    'prefix': 'eraseColor'
+    'body': 'eraseColor()'
+  'eventForwardingMask':
+    'prefix': 'eventForwardingMask'
+    'body': 'eventForwardingMask()'
+  'isPausedRendering':
+    'prefix': 'isPausedRendering'
+    'body': 'isPausedRendering()'
+  'isRendering':
+    'prefix': 'isRendering'
+    'body': 'isRendering()'
+  'loadComposition:':
+    'prefix': 'loadComposition:'
+    'body': 'loadComposition(${1:QCComposition* composition})'
+  'loadCompositionFromFile:':
+    'prefix': 'loadCompositionFromFile:'
+    'body': 'loadCompositionFromFile(${1:NSString* path})'
+  'loadedComposition':
+    'prefix': 'loadedComposition'
+    'body': 'loadedComposition()'
+  'maxRenderingFrameRate':
+    'prefix': 'maxRenderingFrameRate'
+    'body': 'maxRenderingFrameRate()'
+  'openGLContext':
+    'prefix': 'openGLContext'
+    'body': 'openGLContext()'
+  'openGLPixelFormat':
+    'prefix': 'openGLPixelFormat'
+    'body': 'openGLPixelFormat()'
+  'pauseRendering':
+    'prefix': 'pauseRendering'
+    'body': 'pauseRendering()'
+  'play:':
+    'prefix': 'play:'
+    'body': 'play(${1:id sender})'
+  'renderAtTime:arguments:':
+    'prefix': 'renderAtTime:arguments:'
+    'body': 'renderAtTime(${1:NSTimeInterval time}, arguments:${2:NSDictionary* arguments})'
+  'resumeRendering':
+    'prefix': 'resumeRendering'
+    'body': 'resumeRendering()'
+  'setAutostartsRendering:':
+    'prefix': 'setAutostartsRendering:'
+    'body': 'setAutostartsRendering(${1:BOOL flag})'
+  'setEraseColor:':
+    'prefix': 'setEraseColor:'
+    'body': 'setEraseColor(${1:NSColor* color})'
+  'setEventForwardingMask:':
+    'prefix': 'setEventForwardingMask:'
+    'body': 'setEventForwardingMask(${1:NSUInteger mask})'
+  'setMaxRenderingFrameRate:':
+    'prefix': 'setMaxRenderingFrameRate:'
+    'body': 'setMaxRenderingFrameRate(${1:float maxFPS})'
+  'snapshotImage':
+    'prefix': 'snapshotImage'
+    'body': 'snapshotImage()'
+  'start:':
+    'prefix': 'start:'
+    'body': 'start(${1:id sender})'
+  'startRendering':
+    'prefix': 'startRendering'
+    'body': 'startRendering()'
+  'stop:':
+    'prefix': 'stop:'
+    'body': 'stop(${1:id sender})'
+  'stopRendering':
+    'prefix': 'stopRendering'
+    'body': 'stopRendering()'
+  'unloadComposition':
+    'prefix': 'unloadComposition'
+    'body': 'unloadComposition()'
+  'compositionParameterView:didChangeParameterWithKey:':
+    'prefix': 'compositionParameterView:didChangeParameterWithKey:'
+    'body': 'compositionParameterView(${1:QCCompositionParameterView* parameterView}, didChangeParameterWithKey:${2:NSString* portKey})'
+  'compositionParameterView:shouldDisplayParameterWithKey:attributes:':
+    'prefix': 'compositionParameterView:shouldDisplayParameterWithKey:attributes:'
+    'body': 'compositionParameterView(${1:QCCompositionParameterView* parameterView}, shouldDisplayParameterWithKey:${2:NSString* portKey}, attributes:${3:NSDictionary* portAttributes})'
+  'compositionPickerView:didSelectComposition:':
+    'prefix': 'compositionPickerView:didSelectComposition:'
+    'body': 'compositionPickerView(${1:QCCompositionPickerView* pickerView}, didSelectComposition:${2:QCComposition* composition})'
+  'compositionPickerViewDidStartAnimating:':
+    'prefix': 'compositionPickerViewDidStartAnimating:'
+    'body': 'compositionPickerViewDidStartAnimating(${1:QCCompositionPickerView* pickerView})'
+  'compositionPickerViewWillStopAnimating:':
+    'prefix': 'compositionPickerViewWillStopAnimating:'
+    'body': 'compositionPickerViewWillStopAnimating(${1:QCCompositionPickerView* pickerView})'
+  'attributes':
+    'prefix': 'attributes'
+    'body': 'attributes()'
+  'inputKeys':
+    'prefix': 'inputKeys'
+    'body': 'inputKeys()'
+  'outputKeys':
+    'prefix': 'outputKeys'
+    'body': 'outputKeys()'
+  'propertyListFromInputValues':
+    'prefix': 'propertyListFromInputValues'
+    'body': 'propertyListFromInputValues()'
+  'setInputValuesWithPropertyList:':
+    'prefix': 'setInputValuesWithPropertyList:'
+    'body': 'setInputValuesWithPropertyList(${1:id plist})'
+  'setValue:forInputKey:':
+    'prefix': 'setValue:forInputKey:'
+    'body': 'setValue(${1:id value}, forInputKey:${2:NSString* key})'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'valueForInputKey:':
+    'prefix': 'valueForInputKey:'
+    'body': 'valueForInputKey(${1:NSString* key})'
+  'valueForOutputKey:':
+    'prefix': 'valueForOutputKey:'
+    'body': 'valueForOutputKey(${1:NSString* key})'
+  'valueForOutputKey:ofType:':
+    'prefix': 'valueForOutputKey:ofType:'
+    'body': 'valueForOutputKey(${1:NSString* key}, ofType:${2:NSString* type})'
+  'CGLContextObj':
+    'prefix': 'CGLContextObj'
+    'body': 'CGLContextObj()'
+  'bounds':
+    'prefix': 'bounds'
+    'body': 'bounds()'
+  'colorSpace':
+    'prefix': 'colorSpace'
+    'body': 'colorSpace()'
+  'compositionURL':
+    'prefix': 'compositionURL'
+    'body': 'compositionURL()'
+  'logMessage:':
+    'prefix': 'logMessage:'
+    'body': 'logMessage(${1:NSString* format})'
+  'outputImageProviderFromBufferWithPixelFormat:pixelsWide:pixelsHigh:baseAddress:bytesPerRow:releaseCallback:releaseContext:colorSpace:shouldColorMatch:':
+    'prefix': 'outputImageProviderFromBufferWithPixelFormat:pixelsWide:pixelsHigh:baseAddress:bytesPerRow:releaseCallback:releaseContext:colorSpace:shouldColorMatch:'
+    'body': 'outputImageProviderFromBufferWithPixelFormat(${1:NSString* format}, pixelsWide:${2:NSUInteger width}, pixelsHigh:${3:NSUInteger height}, baseAddress:${4:void* baseAddress}, bytesPerRow:${5:NSUInteger rowBytes}, releaseCallback:${6:QCPlugInBufferReleaseCallback callback}, releaseContext:${7:void* context}, colorSpace:${8:CGColorSpaceRef colorSpace}, shouldColorMatch:${9:BOOL colorMatch})'
+  'outputImageProviderFromTextureWithPixelFormat:pixelsWide:pixelsHigh:name:flipped:releaseCallback:releaseContext:colorSpace:shouldColorMatch:':
+    'prefix': 'outputImageProviderFromTextureWithPixelFormat:pixelsWide:pixelsHigh:name:flipped:releaseCallback:releaseContext:colorSpace:shouldColorMatch:'
+    'body': 'outputImageProviderFromTextureWithPixelFormat(${1:NSString* format}, pixelsWide:${2:NSUInteger width}, pixelsHigh:${3:NSUInteger height}, name:${4:GLuint name}, flipped:${5:BOOL flipped}, releaseCallback:${6:QCPlugInTextureReleaseCallback callback}, releaseContext:${7:void* context}, colorSpace:${8:CGColorSpaceRef colorSpace}, shouldColorMatch:${9:BOOL colorMatch})'
+  'userInfo':
+    'prefix': 'userInfo'
+    'body': 'userInfo()'
+  'bindTextureRepresentationToCGLContext:textureUnit:normalizeCoordinates:':
+    'prefix': 'bindTextureRepresentationToCGLContext:textureUnit:normalizeCoordinates:'
+    'body': 'bindTextureRepresentationToCGLContext(${1:CGLContextObj cgl_ctx}, textureUnit:${2:GLenum unit}, normalizeCoordinates:${3:BOOL flag})'
+  'bufferBaseAddress':
+    'prefix': 'bufferBaseAddress'
+    'body': 'bufferBaseAddress()'
+  'bufferBytesPerRow':
+    'prefix': 'bufferBytesPerRow'
+    'body': 'bufferBytesPerRow()'
+  'bufferColorSpace':
+    'prefix': 'bufferColorSpace'
+    'body': 'bufferColorSpace()'
+  'bufferPixelFormat':
+    'prefix': 'bufferPixelFormat'
+    'body': 'bufferPixelFormat()'
+  'bufferPixelsHigh':
+    'prefix': 'bufferPixelsHigh'
+    'body': 'bufferPixelsHigh()'
+  'bufferPixelsWide':
+    'prefix': 'bufferPixelsWide'
+    'body': 'bufferPixelsWide()'
+  'imageBounds':
+    'prefix': 'imageBounds'
+    'body': 'imageBounds()'
+  'imageColorSpace':
+    'prefix': 'imageColorSpace'
+    'body': 'imageColorSpace()'
+  'lockBufferRepresentationWithPixelFormat:colorSpace:forBounds:':
+    'prefix': 'lockBufferRepresentationWithPixelFormat:colorSpace:forBounds:'
+    'body': 'lockBufferRepresentationWithPixelFormat(${1:NSString* format}, colorSpace:${2:CGColorSpaceRef colorSpace}, forBounds:${3:NSRect bounds})'
+  'lockTextureRepresentationWithColorSpace:forBounds:':
+    'prefix': 'lockTextureRepresentationWithColorSpace:forBounds:'
+    'body': 'lockTextureRepresentationWithColorSpace(${1:CGColorSpaceRef colorSpace}, forBounds:${2:NSRect bounds})'
+  'shouldColorMatch':
+    'prefix': 'shouldColorMatch'
+    'body': 'shouldColorMatch()'
+  'textureColorSpace':
+    'prefix': 'textureColorSpace'
+    'body': 'textureColorSpace()'
+  'textureFlipped':
+    'prefix': 'textureFlipped'
+    'body': 'textureFlipped()'
+  'textureMatrix':
+    'prefix': 'textureMatrix'
+    'body': 'textureMatrix()'
+  'textureName':
+    'prefix': 'textureName'
+    'body': 'textureName()'
+  'texturePixelsHigh':
+    'prefix': 'texturePixelsHigh'
+    'body': 'texturePixelsHigh()'
+  'texturePixelsWide':
+    'prefix': 'texturePixelsWide'
+    'body': 'texturePixelsWide()'
+  'textureTarget':
+    'prefix': 'textureTarget'
+    'body': 'textureTarget()'
+  'unbindTextureRepresentationFromCGLContext:textureUnit:':
+    'prefix': 'unbindTextureRepresentationFromCGLContext:textureUnit:'
+    'body': 'unbindTextureRepresentationFromCGLContext(${1:CGLContextObj cgl_ctx}, textureUnit:${2:GLenum unit})'
+  'unlockBufferRepresentation':
+    'prefix': 'unlockBufferRepresentation'
+    'body': 'unlockBufferRepresentation()'
+  'unlockTextureRepresentation':
+    'prefix': 'unlockTextureRepresentation'
+    'body': 'unlockTextureRepresentation()'
+  'canRenderWithCGLContext:':
+    'prefix': 'canRenderWithCGLContext:'
+    'body': 'canRenderWithCGLContext(${1:CGLContextObj cgl_ctx})'
+  'copyRenderedTextureForCGLContext:pixelFormat:bounds:isFlipped:':
+    'prefix': 'copyRenderedTextureForCGLContext:pixelFormat:bounds:isFlipped:'
+    'body': 'copyRenderedTextureForCGLContext(${1:CGLContextObj cgl_ctx}, pixelFormat:${2:NSString* format}, bounds:${3:NSRect bounds}, isFlipped:${4:BOOL* flipped})'
+  'imageBounds':
+    'prefix': 'imageBounds'
+    'body': 'imageBounds()'
+  'imageColorSpace':
+    'prefix': 'imageColorSpace'
+    'body': 'imageColorSpace()'
+  'releaseRenderedTexture:forCGLContext:':
+    'prefix': 'releaseRenderedTexture:forCGLContext:'
+    'body': 'releaseRenderedTexture(${1:GLuint name}, forCGLContext:${2:CGLContextObj cgl_ctx})'
+  'renderToBuffer:withBytesPerRow:pixelFormat:forBounds:':
+    'prefix': 'renderToBuffer:withBytesPerRow:pixelFormat:forBounds:'
+    'body': 'renderToBuffer(${1:void* baseAddress}, withBytesPerRow:${2:NSUInteger rowBytes}, pixelFormat:${3:NSString* format}, forBounds:${4:NSRect bounds})'
+  'renderWithCGLContext:forBounds:':
+    'prefix': 'renderWithCGLContext:forBounds:'
+    'body': 'renderWithCGLContext(${1:CGLContextObj cgl_ctx}, forBounds:${2:NSRect bounds})'
+  'shouldColorMatch':
+    'prefix': 'shouldColorMatch'
+    'body': 'shouldColorMatch()'
+  'supportedBufferPixelFormats':
+    'prefix': 'supportedBufferPixelFormats'
+    'body': 'supportedBufferPixelFormats()'
+  'supportedRenderedTexturePixelFormats':
+    'prefix': 'supportedRenderedTexturePixelFormats'
+    'body': 'supportedRenderedTexturePixelFormats()'
+  'globalUpdateOK (Boolean)':
+    'prefix': 'globalUpdateOK'
+    'body': 'globalUpdateOK'
+  'kQuartzFilterApplicationDomain (NSString*)':
+    'prefix': 'kQuartzFilterApplicationDomain'
+    'body': 'KQuartzFilterApplicationDomain'
+  'kQuartzFilterManagerDidAddFilterNotification (NSString*)':
+    'prefix': 'kQuartzFilterManagerDidAddFilterNotification'
+    'body': 'KQuartzFilterManagerDidAddFilterNotification'
+  'kQuartzFilterManagerDidModifyFilterNotification (NSString*)':
+    'prefix': 'kQuartzFilterManagerDidModifyFilterNotification'
+    'body': 'KQuartzFilterManagerDidModifyFilterNotification'
+  'kQuartzFilterManagerDidRemoveFilterNotification (NSString*)':
+    'prefix': 'kQuartzFilterManagerDidRemoveFilterNotification'
+    'body': 'KQuartzFilterManagerDidRemoveFilterNotification'
+  'kQuartzFilterManagerDidSelectFilterNotification (NSString*)':
+    'prefix': 'kQuartzFilterManagerDidSelectFilterNotification'
+    'body': 'KQuartzFilterManagerDidSelectFilterNotification'
+  'kQuartzFilterPDFWorkflowDomain (NSString*)':
+    'prefix': 'kQuartzFilterPDFWorkflowDomain'
+    'body': 'KQuartzFilterPDFWorkflowDomain'
+  'kQuartzFilterPrintingDomain (NSString*)':
+    'prefix': 'kQuartzFilterPrintingDomain'
+    'body': 'KQuartzFilterPrintingDomain'
+  'quartzFilterManager:didAddFilter:':
+    'prefix': 'quartzFilterManager:didAddFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didAddFilter:${2:QuartzFilter* filter})'
+  'quartzFilterManager:didModifyFilter:':
+    'prefix': 'quartzFilterManager:didModifyFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didModifyFilter:${2:QuartzFilter* filter})'
+  'quartzFilterManager:didRemoveFilter:':
+    'prefix': 'quartzFilterManager:didRemoveFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didRemoveFilter:${2:QuartzFilter* filter})'
+  'quartzFilterManager:didSelectFilter:':
+    'prefix': 'quartzFilterManager:didSelectFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didSelectFilter:${2:QuartzFilter* filter})'
+  'applyToContext:':
+    'prefix': 'applyToContext:'
+    'body': 'applyToContext(${1:CGContextRef aContext})'
+  'localizedName':
+    'prefix': 'localizedName'
+    'body': 'localizedName()'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'QuartzFilter.quartzFilterWithOutputIntents:':
+    'prefix': 'quartzFilterWithOutputIntents:'
+    'body': 'QuartzFilter.quartzFilterWithOutputIntents(${1:NSArray* outputIntents})'
+  'QuartzFilter.quartzFilterWithProperties:':
+    'prefix': 'quartzFilterWithProperties:'
+    'body': 'QuartzFilter.quartzFilterWithProperties(${1:NSDictionary* properties})'
+  'QuartzFilter.quartzFilterWithURL:':
+    'prefix': 'quartzFilterWithURL:'
+    'body': 'QuartzFilter.quartzFilterWithURL(${1:NSURL* aURL})'
+  'removeFromContext:':
+    'prefix': 'removeFromContext:'
+    'body': 'removeFromContext(${1:CGContextRef aContext})'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'QuartzFilterManager.filterManager':
+    'prefix': 'filterManager'
+    'body': 'QuartzFilterManager.filterManager()'
+  'filterPanel':
+    'prefix': 'filterPanel'
+    'body': 'filterPanel()'
+  'filterView':
+    'prefix': 'filterView'
+    'body': 'filterView()'
+  'QuartzFilterManager.filtersInDomains:':
+    'prefix': 'filtersInDomains:'
+    'body': 'QuartzFilterManager.filtersInDomains(${1:NSArray* domains})'
+  'importFilter:':
+    'prefix': 'importFilter:'
+    'body': 'importFilter(${1:NSDictionary* filterProperties})'
+  'selectFilter:':
+    'prefix': 'selectFilter:'
+    'body': 'selectFilter(${1:QuartzFilter* filter})'
+  'selectedFilter':
+    'prefix': 'selectedFilter'
+    'body': 'selectedFilter()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id aDelegate})'
+  'sizeToFit':
+    'prefix': 'sizeToFit'
+    'body': 'sizeToFit()'
+  'quartzFilterManager:didAddFilter:':
+    'prefix': 'quartzFilterManager:didAddFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didAddFilter:${2:QuartzFilter* filter})'
+  'quartzFilterManager:didModifyFilter:':
+    'prefix': 'quartzFilterManager:didModifyFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didModifyFilter:${2:QuartzFilter* filter})'
+  'quartzFilterManager:didRemoveFilter:':
+    'prefix': 'quartzFilterManager:didRemoveFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didRemoveFilter:${2:QuartzFilter* filter})'
+  'quartzFilterManager:didSelectFilter:':
+    'prefix': 'quartzFilterManager:didSelectFilter:'
+    'body': 'quartzFilterManager(${1:QuartzFilterManager* sender}, didSelectFilter:${2:QuartzFilter* filter})'
+  'QLPreviewViewStyleCompact (1)':
+    'prefix': 'QLPreviewViewStyleCompact'
+    'body': 'QLPreviewViewStyleCompact'
+  'QLPreviewViewStyleNormal (0)':
+    'prefix': 'QLPreviewViewStyleNormal'
+    'body': 'QLPreviewViewStyleNormal'
+  'acceptsPreviewPanelControl:':
+    'prefix': 'acceptsPreviewPanelControl:'
+    'body': 'acceptsPreviewPanelControl(${1:QLPreviewPanel* panel})'
+  'beginPreviewPanelControl:':
+    'prefix': 'beginPreviewPanelControl:'
+    'body': 'beginPreviewPanelControl(${1:QLPreviewPanel* panel})'
+  'endPreviewPanelControl:':
+    'prefix': 'endPreviewPanelControl:'
+    'body': 'endPreviewPanelControl(${1:QLPreviewPanel* panel})'
+  'numberOfPreviewItemsInPreviewPanel:':
+    'prefix': 'numberOfPreviewItemsInPreviewPanel:'
+    'body': 'numberOfPreviewItemsInPreviewPanel(${1:QLPreviewPanel* panel})'
+  'previewItemDisplayState':
+    'prefix': 'previewItemDisplayState'
+    'body': 'previewItemDisplayState()'
+  'previewItemTitle':
+    'prefix': 'previewItemTitle'
+    'body': 'previewItemTitle()'
+  'previewItemURL':
+    'prefix': 'previewItemURL'
+    'body': 'previewItemURL()'
+  'previewPanel:handleEvent:':
+    'prefix': 'previewPanel:handleEvent:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, handleEvent:${2:NSEvent* event})'
+  'previewPanel:previewItemAtIndex:':
+    'prefix': 'previewPanel:previewItemAtIndex:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, previewItemAtIndex:${2:NSInteger index})'
+  'previewPanel:sourceFrameOnScreenForPreviewItem:':
+    'prefix': 'previewPanel:sourceFrameOnScreenForPreviewItem:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, sourceFrameOnScreenForPreviewItem:${2:id item})'
+  'previewPanel:transitionImageForPreviewItem:contentRect:':
+    'prefix': 'previewPanel:transitionImageForPreviewItem:contentRect:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, transitionImageForPreviewItem:${2:id item}, contentRect:${3:NSRect* contentRect})'
+  'currentController':
+    'prefix': 'currentController'
+    'body': 'currentController()'
+  'currentPreviewItem':
+    'prefix': 'currentPreviewItem'
+    'body': 'currentPreviewItem()'
+  'currentPreviewItemIndex':
+    'prefix': 'currentPreviewItemIndex'
+    'body': 'currentPreviewItemIndex()'
+  'dataSource':
+    'prefix': 'dataSource'
+    'body': 'dataSource()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'displayState':
+    'prefix': 'displayState'
+    'body': 'displayState()'
+  'enterFullScreenMode:withOptions:':
+    'prefix': 'enterFullScreenMode:withOptions:'
+    'body': 'enterFullScreenMode(${1:NSScreen* screen}, withOptions:${2:NSDictionary* options})'
+  'exitFullScreenModeWithOptions:':
+    'prefix': 'exitFullScreenModeWithOptions:'
+    'body': 'exitFullScreenModeWithOptions(${1:NSDictionary* options})'
+  'isInFullScreenMode':
+    'prefix': 'isInFullScreenMode'
+    'body': 'isInFullScreenMode()'
+  'refreshCurrentPreviewItem':
+    'prefix': 'refreshCurrentPreviewItem'
+    'body': 'refreshCurrentPreviewItem()'
+  'reloadData':
+    'prefix': 'reloadData'
+    'body': 'reloadData()'
+  'setCurrentPreviewItemIndex:':
+    'prefix': 'setCurrentPreviewItemIndex:'
+    'body': 'setCurrentPreviewItemIndex(${1:NSInteger currentPreviewItemIndex})'
+  'setDataSource:':
+    'prefix': 'setDataSource:'
+    'body': 'setDataSource(${1:id dataSource})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setDisplayState:':
+    'prefix': 'setDisplayState:'
+    'body': 'setDisplayState(${1:id displayState})'
+  'QLPreviewPanel.sharedPreviewPanel':
+    'prefix': 'sharedPreviewPanel'
+    'body': 'QLPreviewPanel.sharedPreviewPanel()'
+  'QLPreviewPanel.sharedPreviewPanelExists':
+    'prefix': 'sharedPreviewPanelExists'
+    'body': 'QLPreviewPanel.sharedPreviewPanelExists()'
+  'updateController':
+    'prefix': 'updateController'
+    'body': 'updateController()'
+  'autostarts':
+    'prefix': 'autostarts'
+    'body': 'autostarts()'
+  'close':
+    'prefix': 'close'
+    'body': 'close()'
+  'displayState':
+    'prefix': 'displayState'
+    'body': 'displayState()'
+  'initWithFrame:':
+    'prefix': 'initWithFrame:'
+    'body': 'initWithFrame(${1:NSRect frame})'
+  'initWithFrame:style:':
+    'prefix': 'initWithFrame:style:'
+    'body': 'initWithFrame(${1:NSRect frame}, style:${2:QLPreviewViewStyle style})'
+  'previewItem':
+    'prefix': 'previewItem'
+    'body': 'previewItem()'
+  'refreshPreviewItem':
+    'prefix': 'refreshPreviewItem'
+    'body': 'refreshPreviewItem()'
+  'setAutostarts:':
+    'prefix': 'setAutostarts:'
+    'body': 'setAutostarts(${1:BOOL autostarts})'
+  'setDisplayState:':
+    'prefix': 'setDisplayState:'
+    'body': 'setDisplayState(${1:id displayState})'
+  'setPreviewItem:':
+    'prefix': 'setPreviewItem:'
+    'body': 'setPreviewItem(${1:id previewItem})'
+  'setShouldCloseWithWindow:':
+    'prefix': 'setShouldCloseWithWindow:'
+    'body': 'setShouldCloseWithWindow(${1:BOOL shouldCloseWithWindow})'
+  'shouldCloseWithWindow':
+    'prefix': 'shouldCloseWithWindow'
+    'body': 'shouldCloseWithWindow()'
+  'previewItemDisplayState':
+    'prefix': 'previewItemDisplayState'
+    'body': 'previewItemDisplayState()'
+  'previewItemTitle':
+    'prefix': 'previewItemTitle'
+    'body': 'previewItemTitle()'
+  'previewItemURL':
+    'prefix': 'previewItemURL'
+    'body': 'previewItemURL()'
+  'acceptsPreviewPanelControl:':
+    'prefix': 'acceptsPreviewPanelControl:'
+    'body': 'acceptsPreviewPanelControl(${1:QLPreviewPanel* panel})'
+  'beginPreviewPanelControl:':
+    'prefix': 'beginPreviewPanelControl:'
+    'body': 'beginPreviewPanelControl(${1:QLPreviewPanel* panel})'
+  'endPreviewPanelControl:':
+    'prefix': 'endPreviewPanelControl:'
+    'body': 'endPreviewPanelControl(${1:QLPreviewPanel* panel})'
+  'numberOfPreviewItemsInPreviewPanel:':
+    'prefix': 'numberOfPreviewItemsInPreviewPanel:'
+    'body': 'numberOfPreviewItemsInPreviewPanel(${1:QLPreviewPanel* panel})'
+  'previewPanel:previewItemAtIndex:':
+    'prefix': 'previewPanel:previewItemAtIndex:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, previewItemAtIndex:${2:NSInteger index})'
+  'previewPanel:handleEvent:':
+    'prefix': 'previewPanel:handleEvent:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, handleEvent:${2:NSEvent* event})'
+  'previewPanel:sourceFrameOnScreenForPreviewItem:':
+    'prefix': 'previewPanel:sourceFrameOnScreenForPreviewItem:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, sourceFrameOnScreenForPreviewItem:${2:id item})'
+  'previewPanel:transitionImageForPreviewItem:contentRect:':
+    'prefix': 'previewPanel:transitionImageForPreviewItem:contentRect:'
+    'body': 'previewPanel(${1:QLPreviewPanel* panel}, transitionImageForPreviewItem:${2:id item}, contentRect:${3:NSRect* contentRect})'

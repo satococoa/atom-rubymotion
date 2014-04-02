@@ -1,0 +1,814 @@
+'.source.rubymotion':
+  'EKErrorDomain ()':
+    'prefix': 'EKErrorDomain'
+    'body': 'EKErrorDomain'
+  'EKEventStoreChangedNotification ()':
+    'prefix': 'EKEventStoreChangedNotification'
+    'body': 'EKEventStoreChangedNotification'
+  'DATETIME_COMPONENTS ()':
+    'prefix': 'DATETIME_COMPONENTS'
+    'body': 'DATETIME_COMPONENTS'
+  'DATE_COMPONENTS ()':
+    'prefix': 'DATE_COMPONENTS'
+    'body': 'DATE_COMPONENTS'
+  'EKAlarmProximityEnter ()':
+    'prefix': 'EKAlarmProximityEnter'
+    'body': 'EKAlarmProximityEnter'
+  'EKAlarmProximityLeave ()':
+    'prefix': 'EKAlarmProximityLeave'
+    'body': 'EKAlarmProximityLeave'
+  'EKAlarmProximityNone ()':
+    'prefix': 'EKAlarmProximityNone'
+    'body': 'EKAlarmProximityNone'
+  'EKAlarmTypeAudio ()':
+    'prefix': 'EKAlarmTypeAudio'
+    'body': 'EKAlarmTypeAudio'
+  'EKAlarmTypeDisplay ()':
+    'prefix': 'EKAlarmTypeDisplay'
+    'body': 'EKAlarmTypeDisplay'
+  'EKAlarmTypeEmail ()':
+    'prefix': 'EKAlarmTypeEmail'
+    'body': 'EKAlarmTypeEmail'
+  'EKAlarmTypeProcedure ()':
+    'prefix': 'EKAlarmTypeProcedure'
+    'body': 'EKAlarmTypeProcedure'
+  'EKAuthorizationStatusAuthorized ()':
+    'prefix': 'EKAuthorizationStatusAuthorized'
+    'body': 'EKAuthorizationStatusAuthorized'
+  'EKAuthorizationStatusDenied ()':
+    'prefix': 'EKAuthorizationStatusDenied'
+    'body': 'EKAuthorizationStatusDenied'
+  'EKAuthorizationStatusNotDetermined ()':
+    'prefix': 'EKAuthorizationStatusNotDetermined'
+    'body': 'EKAuthorizationStatusNotDetermined'
+  'EKAuthorizationStatusRestricted ()':
+    'prefix': 'EKAuthorizationStatusRestricted'
+    'body': 'EKAuthorizationStatusRestricted'
+  'EKCalendarEventAvailabilityBusy ()':
+    'prefix': 'EKCalendarEventAvailabilityBusy'
+    'body': 'EKCalendarEventAvailabilityBusy'
+  'EKCalendarEventAvailabilityFree ()':
+    'prefix': 'EKCalendarEventAvailabilityFree'
+    'body': 'EKCalendarEventAvailabilityFree'
+  'EKCalendarEventAvailabilityNone ()':
+    'prefix': 'EKCalendarEventAvailabilityNone'
+    'body': 'EKCalendarEventAvailabilityNone'
+  'EKCalendarEventAvailabilityTentative ()':
+    'prefix': 'EKCalendarEventAvailabilityTentative'
+    'body': 'EKCalendarEventAvailabilityTentative'
+  'EKCalendarEventAvailabilityUnavailable ()':
+    'prefix': 'EKCalendarEventAvailabilityUnavailable'
+    'body': 'EKCalendarEventAvailabilityUnavailable'
+  'EKCalendarTypeBirthday ()':
+    'prefix': 'EKCalendarTypeBirthday'
+    'body': 'EKCalendarTypeBirthday'
+  'EKCalendarTypeCalDAV ()':
+    'prefix': 'EKCalendarTypeCalDAV'
+    'body': 'EKCalendarTypeCalDAV'
+  'EKCalendarTypeExchange ()':
+    'prefix': 'EKCalendarTypeExchange'
+    'body': 'EKCalendarTypeExchange'
+  'EKCalendarTypeLocal ()':
+    'prefix': 'EKCalendarTypeLocal'
+    'body': 'EKCalendarTypeLocal'
+  'EKCalendarTypeSubscription ()':
+    'prefix': 'EKCalendarTypeSubscription'
+    'body': 'EKCalendarTypeSubscription'
+  'EKEntityMaskEvent ()':
+    'prefix': 'EKEntityMaskEvent'
+    'body': 'EKEntityMaskEvent'
+  'EKEntityMaskReminder ()':
+    'prefix': 'EKEntityMaskReminder'
+    'body': 'EKEntityMaskReminder'
+  'EKEntityTypeEvent ()':
+    'prefix': 'EKEntityTypeEvent'
+    'body': 'EKEntityTypeEvent'
+  'EKEntityTypeReminder ()':
+    'prefix': 'EKEntityTypeReminder'
+    'body': 'EKEntityTypeReminder'
+  'EKErrorAlarmGreaterThanRecurrence ()':
+    'prefix': 'EKErrorAlarmGreaterThanRecurrence'
+    'body': 'EKErrorAlarmGreaterThanRecurrence'
+  'EKErrorAlarmProximityNotSupported ()':
+    'prefix': 'EKErrorAlarmProximityNotSupported'
+    'body': 'EKErrorAlarmProximityNotSupported'
+  'EKErrorCalendarDoesNotAllowEvents ()':
+    'prefix': 'EKErrorCalendarDoesNotAllowEvents'
+    'body': 'EKErrorCalendarDoesNotAllowEvents'
+  'EKErrorCalendarDoesNotAllowReminders ()':
+    'prefix': 'EKErrorCalendarDoesNotAllowReminders'
+    'body': 'EKErrorCalendarDoesNotAllowReminders'
+  'EKErrorCalendarHasNoSource ()':
+    'prefix': 'EKErrorCalendarHasNoSource'
+    'body': 'EKErrorCalendarHasNoSource'
+  'EKErrorCalendarIsImmutable ()':
+    'prefix': 'EKErrorCalendarIsImmutable'
+    'body': 'EKErrorCalendarIsImmutable'
+  'EKErrorCalendarReadOnly ()':
+    'prefix': 'EKErrorCalendarReadOnly'
+    'body': 'EKErrorCalendarReadOnly'
+  'EKErrorCalendarSourceCannotBeModified ()':
+    'prefix': 'EKErrorCalendarSourceCannotBeModified'
+    'body': 'EKErrorCalendarSourceCannotBeModified'
+  'EKErrorDatesInverted ()':
+    'prefix': 'EKErrorDatesInverted'
+    'body': 'EKErrorDatesInverted'
+  'EKErrorDurationGreaterThanRecurrence ()':
+    'prefix': 'EKErrorDurationGreaterThanRecurrence'
+    'body': 'EKErrorDurationGreaterThanRecurrence'
+  'EKErrorEventNotMutable ()':
+    'prefix': 'EKErrorEventNotMutable'
+    'body': 'EKErrorEventNotMutable'
+  'EKErrorEventStoreNotAuthorized ()':
+    'prefix': 'EKErrorEventStoreNotAuthorized'
+    'body': 'EKErrorEventStoreNotAuthorized'
+  'EKErrorInternalFailure ()':
+    'prefix': 'EKErrorInternalFailure'
+    'body': 'EKErrorInternalFailure'
+  'EKErrorInvalidEntityType ()':
+    'prefix': 'EKErrorInvalidEntityType'
+    'body': 'EKErrorInvalidEntityType'
+  'EKErrorInvalidSpan ()':
+    'prefix': 'EKErrorInvalidSpan'
+    'body': 'EKErrorInvalidSpan'
+  'EKErrorInvitesCannotBeMoved ()':
+    'prefix': 'EKErrorInvitesCannotBeMoved'
+    'body': 'EKErrorInvitesCannotBeMoved'
+  'EKErrorLast ()':
+    'prefix': 'EKErrorLast'
+    'body': 'EKErrorLast'
+  'EKErrorNoCalendar ()':
+    'prefix': 'EKErrorNoCalendar'
+    'body': 'EKErrorNoCalendar'
+  'EKErrorNoEndDate ()':
+    'prefix': 'EKErrorNoEndDate'
+    'body': 'EKErrorNoEndDate'
+  'EKErrorNoStartDate ()':
+    'prefix': 'EKErrorNoStartDate'
+    'body': 'EKErrorNoStartDate'
+  'EKErrorObjectBelongsToDifferentStore ()':
+    'prefix': 'EKErrorObjectBelongsToDifferentStore'
+    'body': 'EKErrorObjectBelongsToDifferentStore'
+  'EKErrorPriorityIsInvalid ()':
+    'prefix': 'EKErrorPriorityIsInvalid'
+    'body': 'EKErrorPriorityIsInvalid'
+  'EKErrorProcedureAlarmsNotMutable ()':
+    'prefix': 'EKErrorProcedureAlarmsNotMutable'
+    'body': 'EKErrorProcedureAlarmsNotMutable'
+  'EKErrorRecurringReminderRequiresDueDate ()':
+    'prefix': 'EKErrorRecurringReminderRequiresDueDate'
+    'body': 'EKErrorRecurringReminderRequiresDueDate'
+  'EKErrorReminderLocationsNotSupported ()':
+    'prefix': 'EKErrorReminderLocationsNotSupported'
+    'body': 'EKErrorReminderLocationsNotSupported'
+  'EKErrorSourceDoesNotAllowCalendarAddDelete ()':
+    'prefix': 'EKErrorSourceDoesNotAllowCalendarAddDelete'
+    'body': 'EKErrorSourceDoesNotAllowCalendarAddDelete'
+  'EKErrorSourceDoesNotAllowEvents ()':
+    'prefix': 'EKErrorSourceDoesNotAllowEvents'
+    'body': 'EKErrorSourceDoesNotAllowEvents'
+  'EKErrorSourceDoesNotAllowReminders ()':
+    'prefix': 'EKErrorSourceDoesNotAllowReminders'
+    'body': 'EKErrorSourceDoesNotAllowReminders'
+  'EKErrorStartDateCollidesWithOtherOccurrence ()':
+    'prefix': 'EKErrorStartDateCollidesWithOtherOccurrence'
+    'body': 'EKErrorStartDateCollidesWithOtherOccurrence'
+  'EKErrorStartDateTooFarInFuture ()':
+    'prefix': 'EKErrorStartDateTooFarInFuture'
+    'body': 'EKErrorStartDateTooFarInFuture'
+  'EKErrorStructuredLocationsNotSupported ()':
+    'prefix': 'EKErrorStructuredLocationsNotSupported'
+    'body': 'EKErrorStructuredLocationsNotSupported'
+  'EKEventAvailabilityBusy ()':
+    'prefix': 'EKEventAvailabilityBusy'
+    'body': 'EKEventAvailabilityBusy'
+  'EKEventAvailabilityFree ()':
+    'prefix': 'EKEventAvailabilityFree'
+    'body': 'EKEventAvailabilityFree'
+  'EKEventAvailabilityNotSupported ()':
+    'prefix': 'EKEventAvailabilityNotSupported'
+    'body': 'EKEventAvailabilityNotSupported'
+  'EKEventAvailabilityTentative ()':
+    'prefix': 'EKEventAvailabilityTentative'
+    'body': 'EKEventAvailabilityTentative'
+  'EKEventAvailabilityUnavailable ()':
+    'prefix': 'EKEventAvailabilityUnavailable'
+    'body': 'EKEventAvailabilityUnavailable'
+  'EKEventStatusCanceled ()':
+    'prefix': 'EKEventStatusCanceled'
+    'body': 'EKEventStatusCanceled'
+  'EKEventStatusConfirmed ()':
+    'prefix': 'EKEventStatusConfirmed'
+    'body': 'EKEventStatusConfirmed'
+  'EKEventStatusNone ()':
+    'prefix': 'EKEventStatusNone'
+    'body': 'EKEventStatusNone'
+  'EKEventStatusTentative ()':
+    'prefix': 'EKEventStatusTentative'
+    'body': 'EKEventStatusTentative'
+  'EKFriday ()':
+    'prefix': 'EKFriday'
+    'body': 'EKFriday'
+  'EKMonday ()':
+    'prefix': 'EKMonday'
+    'body': 'EKMonday'
+  'EKParticipantRoleChair ()':
+    'prefix': 'EKParticipantRoleChair'
+    'body': 'EKParticipantRoleChair'
+  'EKParticipantRoleNonParticipant ()':
+    'prefix': 'EKParticipantRoleNonParticipant'
+    'body': 'EKParticipantRoleNonParticipant'
+  'EKParticipantRoleOptional ()':
+    'prefix': 'EKParticipantRoleOptional'
+    'body': 'EKParticipantRoleOptional'
+  'EKParticipantRoleRequired ()':
+    'prefix': 'EKParticipantRoleRequired'
+    'body': 'EKParticipantRoleRequired'
+  'EKParticipantRoleUnknown ()':
+    'prefix': 'EKParticipantRoleUnknown'
+    'body': 'EKParticipantRoleUnknown'
+  'EKParticipantStatusAccepted ()':
+    'prefix': 'EKParticipantStatusAccepted'
+    'body': 'EKParticipantStatusAccepted'
+  'EKParticipantStatusCompleted ()':
+    'prefix': 'EKParticipantStatusCompleted'
+    'body': 'EKParticipantStatusCompleted'
+  'EKParticipantStatusDeclined ()':
+    'prefix': 'EKParticipantStatusDeclined'
+    'body': 'EKParticipantStatusDeclined'
+  'EKParticipantStatusDelegated ()':
+    'prefix': 'EKParticipantStatusDelegated'
+    'body': 'EKParticipantStatusDelegated'
+  'EKParticipantStatusInProcess ()':
+    'prefix': 'EKParticipantStatusInProcess'
+    'body': 'EKParticipantStatusInProcess'
+  'EKParticipantStatusPending ()':
+    'prefix': 'EKParticipantStatusPending'
+    'body': 'EKParticipantStatusPending'
+  'EKParticipantStatusTentative ()':
+    'prefix': 'EKParticipantStatusTentative'
+    'body': 'EKParticipantStatusTentative'
+  'EKParticipantStatusUnknown ()':
+    'prefix': 'EKParticipantStatusUnknown'
+    'body': 'EKParticipantStatusUnknown'
+  'EKParticipantTypeGroup ()':
+    'prefix': 'EKParticipantTypeGroup'
+    'body': 'EKParticipantTypeGroup'
+  'EKParticipantTypePerson ()':
+    'prefix': 'EKParticipantTypePerson'
+    'body': 'EKParticipantTypePerson'
+  'EKParticipantTypeResource ()':
+    'prefix': 'EKParticipantTypeResource'
+    'body': 'EKParticipantTypeResource'
+  'EKParticipantTypeRoom ()':
+    'prefix': 'EKParticipantTypeRoom'
+    'body': 'EKParticipantTypeRoom'
+  'EKParticipantTypeUnknown ()':
+    'prefix': 'EKParticipantTypeUnknown'
+    'body': 'EKParticipantTypeUnknown'
+  'EKRecurrenceFrequencyDaily ()':
+    'prefix': 'EKRecurrenceFrequencyDaily'
+    'body': 'EKRecurrenceFrequencyDaily'
+  'EKRecurrenceFrequencyMonthly ()':
+    'prefix': 'EKRecurrenceFrequencyMonthly'
+    'body': 'EKRecurrenceFrequencyMonthly'
+  'EKRecurrenceFrequencyWeekly ()':
+    'prefix': 'EKRecurrenceFrequencyWeekly'
+    'body': 'EKRecurrenceFrequencyWeekly'
+  'EKRecurrenceFrequencyYearly ()':
+    'prefix': 'EKRecurrenceFrequencyYearly'
+    'body': 'EKRecurrenceFrequencyYearly'
+  'EKSaturday ()':
+    'prefix': 'EKSaturday'
+    'body': 'EKSaturday'
+  'EKSourceTypeBirthdays ()':
+    'prefix': 'EKSourceTypeBirthdays'
+    'body': 'EKSourceTypeBirthdays'
+  'EKSourceTypeCalDAV ()':
+    'prefix': 'EKSourceTypeCalDAV'
+    'body': 'EKSourceTypeCalDAV'
+  'EKSourceTypeExchange ()':
+    'prefix': 'EKSourceTypeExchange'
+    'body': 'EKSourceTypeExchange'
+  'EKSourceTypeLocal ()':
+    'prefix': 'EKSourceTypeLocal'
+    'body': 'EKSourceTypeLocal'
+  'EKSourceTypeMobileMe ()':
+    'prefix': 'EKSourceTypeMobileMe'
+    'body': 'EKSourceTypeMobileMe'
+  'EKSourceTypeSubscribed ()':
+    'prefix': 'EKSourceTypeSubscribed'
+    'body': 'EKSourceTypeSubscribed'
+  'EKSpanFutureEvents ()':
+    'prefix': 'EKSpanFutureEvents'
+    'body': 'EKSpanFutureEvents'
+  'EKSpanThisEvent ()':
+    'prefix': 'EKSpanThisEvent'
+    'body': 'EKSpanThisEvent'
+  'EKSunday ()':
+    'prefix': 'EKSunday'
+    'body': 'EKSunday'
+  'EKThursday ()':
+    'prefix': 'EKThursday'
+    'body': 'EKThursday'
+  'EKTuesday ()':
+    'prefix': 'EKTuesday'
+    'body': 'EKTuesday'
+  'EKWednesday ()':
+    'prefix': 'EKWednesday'
+    'body': 'EKWednesday'
+  'absoluteDate':
+    'prefix': 'absoluteDate'
+    'body': 'absoluteDate()'
+  'EKAlarm.alarmWithAbsoluteDate:':
+    'prefix': 'alarmWithAbsoluteDate:'
+    'body': 'EKAlarm.alarmWithAbsoluteDate(${1: date})'
+  'EKAlarm.alarmWithRelativeOffset:':
+    'prefix': 'alarmWithRelativeOffset:'
+    'body': 'EKAlarm.alarmWithRelativeOffset(${1: offset})'
+  'emailAddress':
+    'prefix': 'emailAddress'
+    'body': 'emailAddress()'
+  'proximity':
+    'prefix': 'proximity'
+    'body': 'proximity()'
+  'relativeOffset':
+    'prefix': 'relativeOffset'
+    'body': 'relativeOffset()'
+  'setAbsoluteDate:':
+    'prefix': 'setAbsoluteDate:'
+    'body': 'setAbsoluteDate(${1: absoluteDate})'
+  'setEmailAddress:':
+    'prefix': 'setEmailAddress:'
+    'body': 'setEmailAddress(${1: emailAddress})'
+  'setProximity:':
+    'prefix': 'setProximity:'
+    'body': 'setProximity(${1: proximity})'
+  'setRelativeOffset:':
+    'prefix': 'setRelativeOffset:'
+    'body': 'setRelativeOffset(${1: relativeOffset})'
+  'setSoundName:':
+    'prefix': 'setSoundName:'
+    'body': 'setSoundName(${1: soundName})'
+  'setStructuredLocation:':
+    'prefix': 'setStructuredLocation:'
+    'body': 'setStructuredLocation(${1: structuredLocation})'
+  'setUrl:':
+    'prefix': 'setUrl:'
+    'body': 'setUrl(${1: url})'
+  'soundName':
+    'prefix': 'soundName'
+    'body': 'soundName()'
+  'structuredLocation':
+    'prefix': 'structuredLocation'
+    'body': 'structuredLocation()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'allowedEntityTypes':
+    'prefix': 'allowedEntityTypes'
+    'body': 'allowedEntityTypes()'
+  'allowsContentModifications':
+    'prefix': 'allowsContentModifications'
+    'body': 'allowsContentModifications()'
+  'EKCalendar.calendarForEntityType:eventStore:':
+    'prefix': 'calendarForEntityType:eventStore:'
+    'body': 'EKCalendar.calendarForEntityType(${1: entityType}, eventStore:${2: eventStore})'
+  'calendarIdentifier':
+    'prefix': 'calendarIdentifier'
+    'body': 'calendarIdentifier()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'isImmutable':
+    'prefix': 'isImmutable'
+    'body': 'isImmutable()'
+  'isSubscribed':
+    'prefix': 'isSubscribed'
+    'body': 'isSubscribed()'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1: color})'
+  'setSource:':
+    'prefix': 'setSource:'
+    'body': 'setSource(${1: source})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1: title})'
+  'source':
+    'prefix': 'source'
+    'body': 'source()'
+  'supportedEventAvailabilities':
+    'prefix': 'supportedEventAvailabilities'
+    'body': 'supportedEventAvailabilities()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'addAlarm:':
+    'prefix': 'addAlarm:'
+    'body': 'addAlarm(${1: alarm})'
+  'addRecurrenceRule:':
+    'prefix': 'addRecurrenceRule:'
+    'body': 'addRecurrenceRule(${1: rule})'
+  'alarms':
+    'prefix': 'alarms'
+    'body': 'alarms()'
+  'attendees':
+    'prefix': 'attendees'
+    'body': 'attendees()'
+  'calendar':
+    'prefix': 'calendar'
+    'body': 'calendar()'
+  'calendarItemExternalIdentifier':
+    'prefix': 'calendarItemExternalIdentifier'
+    'body': 'calendarItemExternalIdentifier()'
+  'calendarItemIdentifier':
+    'prefix': 'calendarItemIdentifier'
+    'body': 'calendarItemIdentifier()'
+  'creationDate':
+    'prefix': 'creationDate'
+    'body': 'creationDate()'
+  'hasAlarms':
+    'prefix': 'hasAlarms'
+    'body': 'hasAlarms()'
+  'hasAttendees':
+    'prefix': 'hasAttendees'
+    'body': 'hasAttendees()'
+  'hasNotes':
+    'prefix': 'hasNotes'
+    'body': 'hasNotes()'
+  'hasRecurrenceRules':
+    'prefix': 'hasRecurrenceRules'
+    'body': 'hasRecurrenceRules()'
+  'lastModifiedDate':
+    'prefix': 'lastModifiedDate'
+    'body': 'lastModifiedDate()'
+  'location':
+    'prefix': 'location'
+    'body': 'location()'
+  'notes':
+    'prefix': 'notes'
+    'body': 'notes()'
+  'recurrenceRules':
+    'prefix': 'recurrenceRules'
+    'body': 'recurrenceRules()'
+  'removeAlarm:':
+    'prefix': 'removeAlarm:'
+    'body': 'removeAlarm(${1: alarm})'
+  'removeRecurrenceRule:':
+    'prefix': 'removeRecurrenceRule:'
+    'body': 'removeRecurrenceRule(${1: rule})'
+  'setAlarms:':
+    'prefix': 'setAlarms:'
+    'body': 'setAlarms(${1: alarms})'
+  'setCalendar:':
+    'prefix': 'setCalendar:'
+    'body': 'setCalendar(${1: calendar})'
+  'setLocation:':
+    'prefix': 'setLocation:'
+    'body': 'setLocation(${1: location})'
+  'setNotes:':
+    'prefix': 'setNotes:'
+    'body': 'setNotes(${1: notes})'
+  'setRecurrenceRules:':
+    'prefix': 'setRecurrenceRules:'
+    'body': 'setRecurrenceRules(${1: recurrenceRules})'
+  'setTimeZone:':
+    'prefix': 'setTimeZone:'
+    'body': 'setTimeZone(${1: timeZone})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1: title})'
+  'setURL:':
+    'prefix': 'setURL:'
+    'body': 'setURL(${1: URL})'
+  'timeZone':
+    'prefix': 'timeZone'
+    'body': 'timeZone()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'availability':
+    'prefix': 'availability'
+    'body': 'availability()'
+  'birthdayPersonUniqueID':
+    'prefix': 'birthdayPersonUniqueID'
+    'body': 'birthdayPersonUniqueID()'
+  'compareStartDateWithEvent:':
+    'prefix': 'compareStartDateWithEvent:'
+    'body': 'compareStartDateWithEvent(${1: other})'
+  'endDate':
+    'prefix': 'endDate'
+    'body': 'endDate()'
+  'eventIdentifier':
+    'prefix': 'eventIdentifier'
+    'body': 'eventIdentifier()'
+  'EKEvent.eventWithEventStore:':
+    'prefix': 'eventWithEventStore:'
+    'body': 'EKEvent.eventWithEventStore(${1: eventStore})'
+  'isAllDay':
+    'prefix': 'isAllDay'
+    'body': 'isAllDay()'
+  'isDetached':
+    'prefix': 'isDetached'
+    'body': 'isDetached()'
+  'occurrenceDate':
+    'prefix': 'occurrenceDate'
+    'body': 'occurrenceDate()'
+  'organizer':
+    'prefix': 'organizer'
+    'body': 'organizer()'
+  'refresh':
+    'prefix': 'refresh'
+    'body': 'refresh()'
+  'setAllDay:':
+    'prefix': 'setAllDay:'
+    'body': 'setAllDay(${1: allDay})'
+  'setAvailability:':
+    'prefix': 'setAvailability:'
+    'body': 'setAvailability(${1: availability})'
+  'setEndDate:':
+    'prefix': 'setEndDate:'
+    'body': 'setEndDate(${1: endDate})'
+  'setStartDate:':
+    'prefix': 'setStartDate:'
+    'body': 'setStartDate(${1: startDate})'
+  'startDate':
+    'prefix': 'startDate'
+    'body': 'startDate()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'EKEventStore.authorizationStatusForEntityType:':
+    'prefix': 'authorizationStatusForEntityType:'
+    'body': 'EKEventStore.authorizationStatusForEntityType(${1: entityType})'
+  'calendarItemWithIdentifier:':
+    'prefix': 'calendarItemWithIdentifier:'
+    'body': 'calendarItemWithIdentifier(${1: identifier})'
+  'calendarItemsWithExternalIdentifier:':
+    'prefix': 'calendarItemsWithExternalIdentifier:'
+    'body': 'calendarItemsWithExternalIdentifier(${1: externalIdentifier})'
+  'calendarWithIdentifier:':
+    'prefix': 'calendarWithIdentifier:'
+    'body': 'calendarWithIdentifier(${1: identifier})'
+  'calendarsForEntityType:':
+    'prefix': 'calendarsForEntityType:'
+    'body': 'calendarsForEntityType(${1: entityType})'
+  'cancelFetchRequest:':
+    'prefix': 'cancelFetchRequest:'
+    'body': 'cancelFetchRequest(${1: fetchIdentifier})'
+  'commit:':
+    'prefix': 'commit:'
+    'body': 'commit(${1: error})'
+  'defaultCalendarForNewEvents':
+    'prefix': 'defaultCalendarForNewEvents'
+    'body': 'defaultCalendarForNewEvents()'
+  'defaultCalendarForNewReminders':
+    'prefix': 'defaultCalendarForNewReminders'
+    'body': 'defaultCalendarForNewReminders()'
+  'enumerateEventsMatchingPredicate:usingBlock:':
+    'prefix': 'enumerateEventsMatchingPredicate:usingBlock:'
+    'body': 'enumerateEventsMatchingPredicate(${1: predicate}, usingBlock:${2: block})'
+  'eventStoreIdentifier':
+    'prefix': 'eventStoreIdentifier'
+    'body': 'eventStoreIdentifier()'
+  'eventWithIdentifier:':
+    'prefix': 'eventWithIdentifier:'
+    'body': 'eventWithIdentifier(${1: identifier})'
+  'eventsMatchingPredicate:':
+    'prefix': 'eventsMatchingPredicate:'
+    'body': 'eventsMatchingPredicate(${1: predicate})'
+  'fetchRemindersMatchingPredicate:completion:':
+    'prefix': 'fetchRemindersMatchingPredicate:completion:'
+    'body': 'fetchRemindersMatchingPredicate(${1: predicate}, completion:${2: completion})'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithAccessToEntityTypes:':
+    'prefix': 'initWithAccessToEntityTypes:'
+    'body': 'initWithAccessToEntityTypes(${1: entityTypes})'
+  'predicateForCompletedRemindersWithCompletionDateStarting:ending:calendars:':
+    'prefix': 'predicateForCompletedRemindersWithCompletionDateStarting:ending:calendars:'
+    'body': 'predicateForCompletedRemindersWithCompletionDateStarting(${1: startDate}, ending:${2: endDate}, calendars:${3: calendars})'
+  'predicateForEventsWithStartDate:endDate:calendars:':
+    'prefix': 'predicateForEventsWithStartDate:endDate:calendars:'
+    'body': 'predicateForEventsWithStartDate(${1: startDate}, endDate:${2: endDate}, calendars:${3: calendars})'
+  'predicateForIncompleteRemindersWithDueDateStarting:ending:calendars:':
+    'prefix': 'predicateForIncompleteRemindersWithDueDateStarting:ending:calendars:'
+    'body': 'predicateForIncompleteRemindersWithDueDateStarting(${1: startDate}, ending:${2: endDate}, calendars:${3: calendars})'
+  'predicateForRemindersInCalendars:':
+    'prefix': 'predicateForRemindersInCalendars:'
+    'body': 'predicateForRemindersInCalendars(${1: calendars})'
+  'refreshSourcesIfNecessary':
+    'prefix': 'refreshSourcesIfNecessary'
+    'body': 'refreshSourcesIfNecessary()'
+  'removeCalendar:commit:error:':
+    'prefix': 'removeCalendar:commit:error:'
+    'body': 'removeCalendar(${1: calendar}, commit:${2: commit}, error:${3: error})'
+  'removeEvent:span:commit:error:':
+    'prefix': 'removeEvent:span:commit:error:'
+    'body': 'removeEvent(${1: event}, span:${2: span}, commit:${3: commit}, error:${4: error})'
+  'removeReminder:commit:error:':
+    'prefix': 'removeReminder:commit:error:'
+    'body': 'removeReminder(${1: reminder}, commit:${2: commit}, error:${3: error})'
+  'requestAccessToEntityType:completion:':
+    'prefix': 'requestAccessToEntityType:completion:'
+    'body': 'requestAccessToEntityType(${1: entityType}, completion:${2: completion})'
+  'reset':
+    'prefix': 'reset'
+    'body': 'reset()'
+  'saveCalendar:commit:error:':
+    'prefix': 'saveCalendar:commit:error:'
+    'body': 'saveCalendar(${1: calendar}, commit:${2: commit}, error:${3: error})'
+  'saveEvent:span:commit:error:':
+    'prefix': 'saveEvent:span:commit:error:'
+    'body': 'saveEvent(${1: event}, span:${2: span}, commit:${3: commit}, error:${4: error})'
+  'saveReminder:commit:error:':
+    'prefix': 'saveReminder:commit:error:'
+    'body': 'saveReminder(${1: reminder}, commit:${2: commit}, error:${3: error})'
+  'sourceWithIdentifier:':
+    'prefix': 'sourceWithIdentifier:'
+    'body': 'sourceWithIdentifier(${1: identifier})'
+  'sources':
+    'prefix': 'sources'
+    'body': 'sources()'
+  'hasChanges':
+    'prefix': 'hasChanges'
+    'body': 'hasChanges()'
+  'isNew':
+    'prefix': 'isNew'
+    'body': 'isNew()'
+  'refresh':
+    'prefix': 'refresh'
+    'body': 'refresh()'
+  'reset':
+    'prefix': 'reset'
+    'body': 'reset()'
+  'rollback':
+    'prefix': 'rollback'
+    'body': 'rollback()'
+  'ABPersonInAddressBook:':
+    'prefix': 'ABPersonInAddressBook:'
+    'body': 'ABPersonInAddressBook(${1: addressBook})'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'isCurrentUser':
+    'prefix': 'isCurrentUser'
+    'body': 'isCurrentUser()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'participantRole':
+    'prefix': 'participantRole'
+    'body': 'participantRole()'
+  'participantStatus':
+    'prefix': 'participantStatus'
+    'body': 'participantStatus()'
+  'participantType':
+    'prefix': 'participantType'
+    'body': 'participantType()'
+  'dayOfTheWeek':
+    'prefix': 'dayOfTheWeek'
+    'body': 'dayOfTheWeek()'
+  'EKRecurrenceDayOfWeek.dayOfWeek:':
+    'prefix': 'dayOfWeek:'
+    'body': 'EKRecurrenceDayOfWeek.dayOfWeek(${1: dayOfTheWeek})'
+  'EKRecurrenceDayOfWeek.dayOfWeek:weekNumber:':
+    'prefix': 'dayOfWeek:weekNumber:'
+    'body': 'EKRecurrenceDayOfWeek.dayOfWeek(${1: dayOfTheWeek}, weekNumber:${2: weekNumber})'
+  'initWithDayOfTheWeek:weekNumber:':
+    'prefix': 'initWithDayOfTheWeek:weekNumber:'
+    'body': 'initWithDayOfTheWeek(${1: dayOfTheWeek}, weekNumber:${2: weekNumber})'
+  'weekNumber':
+    'prefix': 'weekNumber'
+    'body': 'weekNumber()'
+  'endDate':
+    'prefix': 'endDate'
+    'body': 'endDate()'
+  'occurrenceCount':
+    'prefix': 'occurrenceCount'
+    'body': 'occurrenceCount()'
+  'EKRecurrenceEnd.recurrenceEndWithEndDate:':
+    'prefix': 'recurrenceEndWithEndDate:'
+    'body': 'EKRecurrenceEnd.recurrenceEndWithEndDate(${1: endDate})'
+  'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount:':
+    'prefix': 'recurrenceEndWithOccurrenceCount:'
+    'body': 'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount(${1: occurrenceCount})'
+  'calendarIdentifier':
+    'prefix': 'calendarIdentifier'
+    'body': 'calendarIdentifier()'
+  'daysOfTheMonth':
+    'prefix': 'daysOfTheMonth'
+    'body': 'daysOfTheMonth()'
+  'daysOfTheWeek':
+    'prefix': 'daysOfTheWeek'
+    'body': 'daysOfTheWeek()'
+  'daysOfTheYear':
+    'prefix': 'daysOfTheYear'
+    'body': 'daysOfTheYear()'
+  'firstDayOfTheWeek':
+    'prefix': 'firstDayOfTheWeek'
+    'body': 'firstDayOfTheWeek()'
+  'frequency':
+    'prefix': 'frequency'
+    'body': 'frequency()'
+  'initRecurrenceWithFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end:':
+    'prefix': 'initRecurrenceWithFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end:'
+    'body': 'initRecurrenceWithFrequency(${1: type}, interval:${2: interval}, daysOfTheWeek:${3: days}, daysOfTheMonth:${4: monthDays}, monthsOfTheYear:${5: months}, weeksOfTheYear:${6: weeksOfTheYear}, daysOfTheYear:${7: daysOfTheYear}, setPositions:${8: setPositions}, end:${9: end})'
+  'initRecurrenceWithFrequency:interval:end:':
+    'prefix': 'initRecurrenceWithFrequency:interval:end:'
+    'body': 'initRecurrenceWithFrequency(${1: type}, interval:${2: interval}, end:${3: end})'
+  'interval':
+    'prefix': 'interval'
+    'body': 'interval()'
+  'monthsOfTheYear':
+    'prefix': 'monthsOfTheYear'
+    'body': 'monthsOfTheYear()'
+  'recurrenceEnd':
+    'prefix': 'recurrenceEnd'
+    'body': 'recurrenceEnd()'
+  'setPositions':
+    'prefix': 'setPositions'
+    'body': 'setPositions()'
+  'setRecurrenceEnd:':
+    'prefix': 'setRecurrenceEnd:'
+    'body': 'setRecurrenceEnd(${1: recurrenceEnd})'
+  'weeksOfTheYear':
+    'prefix': 'weeksOfTheYear'
+    'body': 'weeksOfTheYear()'
+  'completionDate':
+    'prefix': 'completionDate'
+    'body': 'completionDate()'
+  'dueDateComponents':
+    'prefix': 'dueDateComponents'
+    'body': 'dueDateComponents()'
+  'isCompleted':
+    'prefix': 'isCompleted'
+    'body': 'isCompleted()'
+  'priority':
+    'prefix': 'priority'
+    'body': 'priority()'
+  'EKReminder.reminderWithEventStore:':
+    'prefix': 'reminderWithEventStore:'
+    'body': 'EKReminder.reminderWithEventStore(${1: eventStore})'
+  'setCompleted:':
+    'prefix': 'setCompleted:'
+    'body': 'setCompleted(${1: completed})'
+  'setCompletionDate:':
+    'prefix': 'setCompletionDate:'
+    'body': 'setCompletionDate(${1: completionDate})'
+  'setDueDateComponents:':
+    'prefix': 'setDueDateComponents:'
+    'body': 'setDueDateComponents(${1: dueDateComponents})'
+  'setPriority:':
+    'prefix': 'setPriority:'
+    'body': 'setPriority(${1: priority})'
+  'setStartDateComponents:':
+    'prefix': 'setStartDateComponents:'
+    'body': 'setStartDateComponents(${1: startDateComponents})'
+  'startDateComponents':
+    'prefix': 'startDateComponents'
+    'body': 'startDateComponents()'
+  'calendarsForEntityType:':
+    'prefix': 'calendarsForEntityType:'
+    'body': 'calendarsForEntityType(${1: entityType})'
+  'sourceIdentifier':
+    'prefix': 'sourceIdentifier'
+    'body': 'sourceIdentifier()'
+  'sourceType':
+    'prefix': 'sourceType'
+    'body': 'sourceType()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'geoLocation':
+    'prefix': 'geoLocation'
+    'body': 'geoLocation()'
+  'EKStructuredLocation.locationWithTitle:':
+    'prefix': 'locationWithTitle:'
+    'body': 'EKStructuredLocation.locationWithTitle(${1: title})'
+  'radius':
+    'prefix': 'radius'
+    'body': 'radius()'
+  'setGeoLocation:':
+    'prefix': 'setGeoLocation:'
+    'body': 'setGeoLocation(${1: geoLocation})'
+  'setRadius:':
+    'prefix': 'setRadius:'
+    'body': 'setRadius(${1: radius})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1: title})'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'

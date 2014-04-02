@@ -1,0 +1,490 @@
+'.source.rubymotion':
+  'PSEnclosureDownloadStateDidChangeNotification (NSString*)':
+    'prefix': 'PSEnclosureDownloadStateDidChangeNotification'
+    'body': 'PSEnclosureDownloadStateDidChangeNotification'
+  'PSErrorDomain (NSString*)':
+    'prefix': 'PSErrorDomain'
+    'body': 'PSErrorDomain'
+  'PSFeedAddedEntriesKey (NSString*)':
+    'prefix': 'PSFeedAddedEntriesKey'
+    'body': 'PSFeedAddedEntriesKey'
+  'PSFeedDidChangeEntryFlagsKey (NSString*)':
+    'prefix': 'PSFeedDidChangeEntryFlagsKey'
+    'body': 'PSFeedDidChangeEntryFlagsKey'
+  'PSFeedEntriesChangedNotification (NSString*)':
+    'prefix': 'PSFeedEntriesChangedNotification'
+    'body': 'PSFeedEntriesChangedNotification'
+  'PSFeedRefreshingNotification (NSString*)':
+    'prefix': 'PSFeedRefreshingNotification'
+    'body': 'PSFeedRefreshingNotification'
+  'PSFeedRemovedEntriesKey (NSString*)':
+    'prefix': 'PSFeedRemovedEntriesKey'
+    'body': 'PSFeedRemovedEntriesKey'
+  'PSFeedUpdatedEntriesKey (NSString*)':
+    'prefix': 'PSFeedUpdatedEntriesKey'
+    'body': 'PSFeedUpdatedEntriesKey'
+  'PSAtomFormat (2)':
+    'prefix': 'PSAtomFormat'
+    'body': 'PSAtomFormat'
+  'PSEnclosureDownloadDidFail (4)':
+    'prefix': 'PSEnclosureDownloadDidFail'
+    'body': 'PSEnclosureDownloadDidFail'
+  'PSEnclosureDownloadDidFinish (3)':
+    'prefix': 'PSEnclosureDownloadDidFinish'
+    'body': 'PSEnclosureDownloadDidFinish'
+  'PSEnclosureDownloadIsActive (2)':
+    'prefix': 'PSEnclosureDownloadIsActive'
+    'body': 'PSEnclosureDownloadIsActive'
+  'PSEnclosureDownloadIsIdle (0)':
+    'prefix': 'PSEnclosureDownloadIsIdle'
+    'body': 'PSEnclosureDownloadIsIdle'
+  'PSEnclosureDownloadIsQueued (1)':
+    'prefix': 'PSEnclosureDownloadIsQueued'
+    'body': 'PSEnclosureDownloadIsQueued'
+  'PSEnclosureDownloadWasDeleted (5)':
+    'prefix': 'PSEnclosureDownloadWasDeleted'
+    'body': 'PSEnclosureDownloadWasDeleted'
+  'PSFeedSettingsIntervalDefault (0.0)':
+    'prefix': 'PSFeedSettingsIntervalDefault'
+    'body': 'PSFeedSettingsIntervalDefault'
+  'PSFeedSettingsIntervalNever (-1.0)':
+    'prefix': 'PSFeedSettingsIntervalNever'
+    'body': 'PSFeedSettingsIntervalNever'
+  'PSFeedSettingsUnlimitedSize (0)':
+    'prefix': 'PSFeedSettingsUnlimitedSize'
+    'body': 'PSFeedSettingsUnlimitedSize'
+  'PSInternalError (1)':
+    'prefix': 'PSInternalError'
+    'body': 'PSInternalError'
+  'PSLinkToAlternate (7)':
+    'prefix': 'PSLinkToAlternate'
+    'body': 'PSLinkToAlternate'
+  'PSLinkToAtom (2)':
+    'prefix': 'PSLinkToAtom'
+    'body': 'PSLinkToAtom'
+  'PSLinkToAtomService (3)':
+    'prefix': 'PSLinkToAtomService'
+    'body': 'PSLinkToAtomService'
+  'PSLinkToFOAF (4)':
+    'prefix': 'PSLinkToFOAF'
+    'body': 'PSLinkToFOAF'
+  'PSLinkToOther (0)':
+    'prefix': 'PSLinkToOther'
+    'body': 'PSLinkToOther'
+  'PSLinkToRSD (5)':
+    'prefix': 'PSLinkToRSD'
+    'body': 'PSLinkToRSD'
+  'PSLinkToRSS (1)':
+    'prefix': 'PSLinkToRSS'
+    'body': 'PSLinkToRSS'
+  'PSLinkToSelf (6)':
+    'prefix': 'PSLinkToSelf'
+    'body': 'PSLinkToSelf'
+  'PSNotAFeedError (2)':
+    'prefix': 'PSNotAFeedError'
+    'body': 'PSNotAFeedError'
+  'PSRSSFormat (1)':
+    'prefix': 'PSRSSFormat'
+    'body': 'PSRSSFormat'
+  'PSUnknownFormat (0)':
+    'prefix': 'PSUnknownFormat'
+    'body': 'PSUnknownFormat'
+  'enclosure:downloadStateDidChange:':
+    'prefix': 'enclosure:downloadStateDidChange:'
+    'body': 'enclosure(${1:PSEnclosure* enclosure}, downloadStateDidChange:${2:PSEnclosureDownloadState state})'
+  'feed:didAddEntries:':
+    'prefix': 'feed:didAddEntries:'
+    'body': 'feed(${1:PSFeed* feed}, didAddEntries:${2:NSArray* entries})'
+  'feed:didChangeFlagsInEntries:':
+    'prefix': 'feed:didChangeFlagsInEntries:'
+    'body': 'feed(${1:PSFeed* feed}, didChangeFlagsInEntries:${2:NSArray* entries})'
+  'feed:didRemoveEntriesWithIdentifiers:':
+    'prefix': 'feed:didRemoveEntriesWithIdentifiers:'
+    'body': 'feed(${1:PSFeed* feed}, didRemoveEntriesWithIdentifiers:${2:NSArray* identifiers})'
+  'feed:didUpdateEntries:':
+    'prefix': 'feed:didUpdateEntries:'
+    'body': 'feed(${1:PSFeed* feed}, didUpdateEntries:${2:NSArray* entries})'
+  'feedDidBeginRefresh:':
+    'prefix': 'feedDidBeginRefresh:'
+    'body': 'feedDidBeginRefresh(${1:PSFeed* feed})'
+  'feedDidEndRefresh:':
+    'prefix': 'feedDidEndRefresh:'
+    'body': 'feedDidEndRefresh(${1:PSFeed* feed})'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'email':
+    'prefix': 'email'
+    'body': 'email()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'person':
+    'prefix': 'person'
+    'body': 'person()'
+  'setPerson:':
+    'prefix': 'setPerson:'
+    'body': 'setPerson(${1:ABPerson* person})'
+  'addFeed:':
+    'prefix': 'addFeed:'
+    'body': 'addFeed(${1:PSFeed* feed})'
+  'addFeedWithURL:':
+    'prefix': 'addFeedWithURL:'
+    'body': 'addFeedWithURL(${1:NSURL* url})'
+  'PSClient.allClientBundleIdentifiers':
+    'prefix': 'allClientBundleIdentifiers'
+    'body': 'PSClient.allClientBundleIdentifiers()'
+  'PSClient.applicationClient':
+    'prefix': 'applicationClient'
+    'body': 'PSClient.applicationClient()'
+  'PSClient.clientForBundleIdentifier:':
+    'prefix': 'clientForBundleIdentifier:'
+    'body': 'PSClient.clientForBundleIdentifier(${1:NSString* bundleIdentifier})'
+  'dateLastUpdated':
+    'prefix': 'dateLastUpdated'
+    'body': 'dateLastUpdated()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'entryWithIdentifier:':
+    'prefix': 'entryWithIdentifier:'
+    'body': 'entryWithIdentifier(${1:NSString* identifier})'
+  'feedWithIdentifier:':
+    'prefix': 'feedWithIdentifier:'
+    'body': 'feedWithIdentifier(${1:NSString* identifier})'
+  'feedWithURL:':
+    'prefix': 'feedWithURL:'
+    'body': 'feedWithURL(${1:NSURL* url})'
+  'feeds':
+    'prefix': 'feeds'
+    'body': 'feeds()'
+  'isPrivate':
+    'prefix': 'isPrivate'
+    'body': 'isPrivate()'
+  'removeFeed:':
+    'prefix': 'removeFeed:'
+    'body': 'removeFeed(${1:PSFeed* feed})'
+  'sendChangesSinceDate:':
+    'prefix': 'sendChangesSinceDate:'
+    'body': 'sendChangesSinceDate(${1:NSDate* dateLastUpdated})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setPrivate:':
+    'prefix': 'setPrivate:'
+    'body': 'setPrivate(${1:BOOL isPrivate})'
+  'setSettings:':
+    'prefix': 'setSettings:'
+    'body': 'setSettings(${1:PSFeedSettings* settings})'
+  'settings':
+    'prefix': 'settings'
+    'body': 'settings()'
+  'signature':
+    'prefix': 'signature'
+    'body': 'signature()'
+  'HTMLString':
+    'prefix': 'HTMLString'
+    'body': 'HTMLString()'
+  'MIMEType':
+    'prefix': 'MIMEType'
+    'body': 'MIMEType()'
+  'data':
+    'prefix': 'data'
+    'body': 'data()'
+  'plainTextString':
+    'prefix': 'plainTextString'
+    'body': 'plainTextString()'
+  'MIMEType':
+    'prefix': 'MIMEType'
+    'body': 'MIMEType()'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'cancelDownload':
+    'prefix': 'cancelDownload'
+    'body': 'cancelDownload()'
+  'deleteDownload':
+    'prefix': 'deleteDownload'
+    'body': 'deleteDownload()'
+  'download:':
+    'prefix': 'download:'
+    'body': 'download(${1:NSError** error})'
+  'downloadError':
+    'prefix': 'downloadError'
+    'body': 'downloadError()'
+  'downloadProgress':
+    'prefix': 'downloadProgress'
+    'body': 'downloadProgress()'
+  'downloadState':
+    'prefix': 'downloadState'
+    'body': 'downloadState()'
+  'downloadedPath':
+    'prefix': 'downloadedPath'
+    'body': 'downloadedPath()'
+  'entry':
+    'prefix': 'entry'
+    'body': 'entry()'
+  'length':
+    'prefix': 'length'
+    'body': 'length()'
+  'XMLRepresentation':
+    'prefix': 'XMLRepresentation'
+    'body': 'XMLRepresentation()'
+  'alternateURL':
+    'prefix': 'alternateURL'
+    'body': 'alternateURL()'
+  'authors':
+    'prefix': 'authors'
+    'body': 'authors()'
+  'authorsForDisplay':
+    'prefix': 'authorsForDisplay'
+    'body': 'authorsForDisplay()'
+  'baseURL':
+    'prefix': 'baseURL'
+    'body': 'baseURL()'
+  'content':
+    'prefix': 'content'
+    'body': 'content()'
+  'contributors':
+    'prefix': 'contributors'
+    'body': 'contributors()'
+  'dateCreated':
+    'prefix': 'dateCreated'
+    'body': 'dateCreated()'
+  'dateForDisplay':
+    'prefix': 'dateForDisplay'
+    'body': 'dateForDisplay()'
+  'datePublished':
+    'prefix': 'datePublished'
+    'body': 'datePublished()'
+  'dateUpdated':
+    'prefix': 'dateUpdated'
+    'body': 'dateUpdated()'
+  'enclosures':
+    'prefix': 'enclosures'
+    'body': 'enclosures()'
+  'extensionXMLElementsUsingNamespace:':
+    'prefix': 'extensionXMLElementsUsingNamespace:'
+    'body': 'extensionXMLElementsUsingNamespace(${1:NSString* nameSpace})'
+  'feed':
+    'prefix': 'feed'
+    'body': 'feed()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'isCurrent':
+    'prefix': 'isCurrent'
+    'body': 'isCurrent()'
+  'isFlagged':
+    'prefix': 'isFlagged'
+    'body': 'isFlagged()'
+  'isRead':
+    'prefix': 'isRead'
+    'body': 'isRead()'
+  'localDateCreated':
+    'prefix': 'localDateCreated'
+    'body': 'localDateCreated()'
+  'localDateUpdated':
+    'prefix': 'localDateUpdated'
+    'body': 'localDateUpdated()'
+  'rights':
+    'prefix': 'rights'
+    'body': 'rights()'
+  'setFlagged:':
+    'prefix': 'setFlagged:'
+    'body': 'setFlagged(${1:BOOL flagged})'
+  'setRead:':
+    'prefix': 'setRead:'
+    'body': 'setRead(${1:BOOL read})'
+  'summary':
+    'prefix': 'summary'
+    'body': 'summary()'
+  'timeZoneCreated':
+    'prefix': 'timeZoneCreated'
+    'body': 'timeZoneCreated()'
+  'timeZonePublished':
+    'prefix': 'timeZonePublished'
+    'body': 'timeZonePublished()'
+  'timeZoneUpdated':
+    'prefix': 'timeZoneUpdated'
+    'body': 'timeZoneUpdated()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'titleForDisplay':
+    'prefix': 'titleForDisplay'
+    'body': 'titleForDisplay()'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'XMLRepresentation':
+    'prefix': 'XMLRepresentation'
+    'body': 'XMLRepresentation()'
+  'XMLRepresentationWithEntries:':
+    'prefix': 'XMLRepresentationWithEntries:'
+    'body': 'XMLRepresentationWithEntries(${1:BOOL withEntries})'
+  'alternateURL':
+    'prefix': 'alternateURL'
+    'body': 'alternateURL()'
+  'client':
+    'prefix': 'client'
+    'body': 'client()'
+  'dateUpdated':
+    'prefix': 'dateUpdated'
+    'body': 'dateUpdated()'
+  'entries':
+    'prefix': 'entries'
+    'body': 'entries()'
+  'entryEnumeratorSortedBy:':
+    'prefix': 'entryEnumeratorSortedBy:'
+    'body': 'entryEnumeratorSortedBy(${1:NSArray* sortDescriptors})'
+  'extensionXMLElementsUsingNamespace:':
+    'prefix': 'extensionXMLElementsUsingNamespace:'
+    'body': 'extensionXMLElementsUsingNamespace(${1:NSString* nameSpace})'
+  'feedFormat':
+    'prefix': 'feedFormat'
+    'body': 'feedFormat()'
+  'iconURL':
+    'prefix': 'iconURL'
+    'body': 'iconURL()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'initWithData:URL:':
+    'prefix': 'initWithData:URL:'
+    'body': 'initWithData(${1:NSData* data}, URL:${2:NSURL* aURL})'
+  'initWithURL:':
+    'prefix': 'initWithURL:'
+    'body': 'initWithURL(${1:NSURL* url})'
+  'isRefreshing':
+    'prefix': 'isRefreshing'
+    'body': 'isRefreshing()'
+  'lastError':
+    'prefix': 'lastError'
+    'body': 'lastError()'
+  'links':
+    'prefix': 'links'
+    'body': 'links()'
+  'localDateUpdated':
+    'prefix': 'localDateUpdated'
+    'body': 'localDateUpdated()'
+  'login':
+    'prefix': 'login'
+    'body': 'login()'
+  'logoURL':
+    'prefix': 'logoURL'
+    'body': 'logoURL()'
+  'redirectedURL':
+    'prefix': 'redirectedURL'
+    'body': 'redirectedURL()'
+  'refresh:':
+    'prefix': 'refresh:'
+    'body': 'refresh(${1:NSError** error})'
+  'rights':
+    'prefix': 'rights'
+    'body': 'rights()'
+  'setLogin:':
+    'prefix': 'setLogin:'
+    'body': 'setLogin(${1:NSString* login})'
+  'setPassword:':
+    'prefix': 'setPassword:'
+    'body': 'setPassword(${1:NSString* password})'
+  'setSettings:':
+    'prefix': 'setSettings:'
+    'body': 'setSettings(${1:PSFeedSettings* settings})'
+  'settings':
+    'prefix': 'settings'
+    'body': 'settings()'
+  'subtitle':
+    'prefix': 'subtitle'
+    'body': 'subtitle()'
+  'timeZoneUpdated':
+    'prefix': 'timeZoneUpdated'
+    'body': 'timeZoneUpdated()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'unreadCount':
+    'prefix': 'unreadCount'
+    'body': 'unreadCount()'
+  'PSFeedSettings.defaultClientSettings':
+    'prefix': 'defaultClientSettings'
+    'body': 'PSFeedSettings.defaultClientSettings()'
+  'PSFeedSettings.defaultFeedSettings':
+    'prefix': 'defaultFeedSettings'
+    'body': 'PSFeedSettings.defaultFeedSettings()'
+  'downloadsEnclosures':
+    'prefix': 'downloadsEnclosures'
+    'body': 'downloadsEnclosures()'
+  'enclosureTypes':
+    'prefix': 'enclosureTypes'
+    'body': 'enclosureTypes()'
+  'expirationInterval':
+    'prefix': 'expirationInterval'
+    'body': 'expirationInterval()'
+  'maxEnclosureSize':
+    'prefix': 'maxEnclosureSize'
+    'body': 'maxEnclosureSize()'
+  'refreshInterval':
+    'prefix': 'refreshInterval'
+    'body': 'refreshInterval()'
+  'refreshesInBackground':
+    'prefix': 'refreshesInBackground'
+    'body': 'refreshesInBackground()'
+  'setDownloadsEnclosures:':
+    'prefix': 'setDownloadsEnclosures:'
+    'body': 'setDownloadsEnclosures(${1:BOOL downloadsEnclosures})'
+  'setEnclosureTypes:':
+    'prefix': 'setEnclosureTypes:'
+    'body': 'setEnclosureTypes(${1:NSArray* enclosureTypes})'
+  'setExpirationInterval:':
+    'prefix': 'setExpirationInterval:'
+    'body': 'setExpirationInterval(${1:NSTimeInterval expirationInterval})'
+  'setMaxEnclosureSize:':
+    'prefix': 'setMaxEnclosureSize:'
+    'body': 'setMaxEnclosureSize(${1:double maxEnclosureSize})'
+  'setRefreshInterval:':
+    'prefix': 'setRefreshInterval:'
+    'body': 'setRefreshInterval(${1:NSTimeInterval refreshInterval})'
+  'setRefreshesInBackground:':
+    'prefix': 'setRefreshesInBackground:'
+    'body': 'setRefreshesInBackground(${1:BOOL refreshesInBackground})'
+  'MIMEType':
+    'prefix': 'MIMEType'
+    'body': 'MIMEType()'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'linkKind':
+    'prefix': 'linkKind'
+    'body': 'linkKind()'
+  'PSLink.linksInXML:baseURL:':
+    'prefix': 'linksInXML:baseURL:'
+    'body': 'PSLink.linksInXML(${1:NSXMLElement* root}, baseURL:${2:NSURL* baseURL})'
+  'relations':
+    'prefix': 'relations'
+    'body': 'relations()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'enclosure:downloadStateDidChange:':
+    'prefix': 'enclosure:downloadStateDidChange:'
+    'body': 'enclosure(${1:PSEnclosure* enclosure}, downloadStateDidChange:${2:PSEnclosureDownloadState state})'
+  'feed:didAddEntries:':
+    'prefix': 'feed:didAddEntries:'
+    'body': 'feed(${1:PSFeed* feed}, didAddEntries:${2:NSArray* entries})'
+  'feed:didChangeFlagsInEntries:':
+    'prefix': 'feed:didChangeFlagsInEntries:'
+    'body': 'feed(${1:PSFeed* feed}, didChangeFlagsInEntries:${2:NSArray* entries})'
+  'feed:didRemoveEntriesWithIdentifiers:':
+    'prefix': 'feed:didRemoveEntriesWithIdentifiers:'
+    'body': 'feed(${1:PSFeed* feed}, didRemoveEntriesWithIdentifiers:${2:NSArray* identifiers})'
+  'feed:didUpdateEntries:':
+    'prefix': 'feed:didUpdateEntries:'
+    'body': 'feed(${1:PSFeed* feed}, didUpdateEntries:${2:NSArray* entries})'
+  'feedDidBeginRefresh:':
+    'prefix': 'feedDidBeginRefresh:'
+    'body': 'feedDidBeginRefresh(${1:PSFeed* feed})'
+  'feedDidEndRefresh:':
+    'prefix': 'feedDidEndRefresh:'
+    'body': 'feedDidEndRefresh(${1:PSFeed* feed})'

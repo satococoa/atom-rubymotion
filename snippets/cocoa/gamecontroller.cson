@@ -1,0 +1,208 @@
+'.source.rubymotion':
+  'GCControllerDidConnectNotification ()':
+    'prefix': 'GCControllerDidConnectNotification'
+    'body': 'GCControllerDidConnectNotification'
+  'GCControllerDidDisconnectNotification ()':
+    'prefix': 'GCControllerDidDisconnectNotification'
+    'body': 'GCControllerDidDisconnectNotification'
+  'GCControllerPlayerIndexUnset ()':
+    'prefix': 'GCControllerPlayerIndexUnset'
+    'body': 'GCControllerPlayerIndexUnset'
+  'GCExtendedGamepadSnapShotDataV100FromNSData':
+    'prefix': 'GCExtendedGamepadSnapShotDataV100FromNSData'
+    'body': 'GCExtendedGamepadSnapShotDataV100FromNSData(${1: snapshotData}, ${2: data})'
+  'GCGamepadSnapShotDataV100FromNSData':
+    'prefix': 'GCGamepadSnapShotDataV100FromNSData'
+    'body': 'GCGamepadSnapShotDataV100FromNSData(${1: snapshotData}, ${2: data})'
+  'NSDataFromGCExtendedGamepadSnapShotDataV100':
+    'prefix': 'NSDataFromGCExtendedGamepadSnapShotDataV100'
+    'body': 'NSDataFromGCExtendedGamepadSnapShotDataV100(${1: snapshotData})'
+  'NSDataFromGCGamepadSnapShotDataV100':
+    'prefix': 'NSDataFromGCGamepadSnapShotDataV100'
+    'body': 'NSDataFromGCGamepadSnapShotDataV100(${1: snapshotData})'
+  'controllerPausedHandler':
+    'prefix': 'controllerPausedHandler'
+    'body': 'controllerPausedHandler()'
+  'GCController.controllers':
+    'prefix': 'controllers'
+    'body': 'GCController.controllers()'
+  'extendedGamepad':
+    'prefix': 'extendedGamepad'
+    'body': 'extendedGamepad()'
+  'gamepad':
+    'prefix': 'gamepad'
+    'body': 'gamepad()'
+  'isAttachedToDevice':
+    'prefix': 'isAttachedToDevice'
+    'body': 'isAttachedToDevice()'
+  'playerIndex':
+    'prefix': 'playerIndex'
+    'body': 'playerIndex()'
+  'setControllerPausedHandler:':
+    'prefix': 'setControllerPausedHandler:'
+    'body': 'setControllerPausedHandler(${1: controllerPausedHandler})'
+  'setPlayerIndex:':
+    'prefix': 'setPlayerIndex:'
+    'body': 'setPlayerIndex(${1: playerIndex})'
+  'GCController.startWirelessControllerDiscoveryWithCompletionHandler:':
+    'prefix': 'startWirelessControllerDiscoveryWithCompletionHandler:'
+    'body': 'GCController.startWirelessControllerDiscoveryWithCompletionHandler(${1: completionHandler})'
+  'GCController.stopWirelessControllerDiscovery':
+    'prefix': 'stopWirelessControllerDiscovery'
+    'body': 'GCController.stopWirelessControllerDiscovery()'
+  'vendorName':
+    'prefix': 'vendorName'
+    'body': 'vendorName()'
+  'setValueChangedHandler:':
+    'prefix': 'setValueChangedHandler:'
+    'body': 'setValueChangedHandler(${1: valueChangedHandler})'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'valueChangedHandler':
+    'prefix': 'valueChangedHandler'
+    'body': 'valueChangedHandler()'
+  'isPressed':
+    'prefix': 'isPressed'
+    'body': 'isPressed()'
+  'setValueChangedHandler:':
+    'prefix': 'setValueChangedHandler:'
+    'body': 'setValueChangedHandler(${1: valueChangedHandler})'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'valueChangedHandler':
+    'prefix': 'valueChangedHandler'
+    'body': 'valueChangedHandler()'
+  'down':
+    'prefix': 'down'
+    'body': 'down()'
+  'left':
+    'prefix': 'left'
+    'body': 'left()'
+  'right':
+    'prefix': 'right'
+    'body': 'right()'
+  'setValueChangedHandler:':
+    'prefix': 'setValueChangedHandler:'
+    'body': 'setValueChangedHandler(${1: valueChangedHandler})'
+  'up':
+    'prefix': 'up'
+    'body': 'up()'
+  'valueChangedHandler':
+    'prefix': 'valueChangedHandler'
+    'body': 'valueChangedHandler()'
+  'xAxis':
+    'prefix': 'xAxis'
+    'body': 'xAxis()'
+  'yAxis':
+    'prefix': 'yAxis'
+    'body': 'yAxis()'
+  'collection':
+    'prefix': 'collection'
+    'body': 'collection()'
+  'isAnalog':
+    'prefix': 'isAnalog'
+    'body': 'isAnalog()'
+  'buttonA':
+    'prefix': 'buttonA'
+    'body': 'buttonA()'
+  'buttonB':
+    'prefix': 'buttonB'
+    'body': 'buttonB()'
+  'buttonX':
+    'prefix': 'buttonX'
+    'body': 'buttonX()'
+  'buttonY':
+    'prefix': 'buttonY'
+    'body': 'buttonY()'
+  'controller':
+    'prefix': 'controller'
+    'body': 'controller()'
+  'dpad':
+    'prefix': 'dpad'
+    'body': 'dpad()'
+  'leftShoulder':
+    'prefix': 'leftShoulder'
+    'body': 'leftShoulder()'
+  'leftThumbstick':
+    'prefix': 'leftThumbstick'
+    'body': 'leftThumbstick()'
+  'leftTrigger':
+    'prefix': 'leftTrigger'
+    'body': 'leftTrigger()'
+  'rightShoulder':
+    'prefix': 'rightShoulder'
+    'body': 'rightShoulder()'
+  'rightThumbstick':
+    'prefix': 'rightThumbstick'
+    'body': 'rightThumbstick()'
+  'rightTrigger':
+    'prefix': 'rightTrigger'
+    'body': 'rightTrigger()'
+  'saveSnapshot':
+    'prefix': 'saveSnapshot'
+    'body': 'saveSnapshot()'
+  'setValueChangedHandler:':
+    'prefix': 'setValueChangedHandler:'
+    'body': 'setValueChangedHandler(${1: valueChangedHandler})'
+  'valueChangedHandler':
+    'prefix': 'valueChangedHandler'
+    'body': 'valueChangedHandler()'
+  'initWithController:snapshotData:':
+    'prefix': 'initWithController:snapshotData:'
+    'body': 'initWithController(${1: controller}, snapshotData:${2: data})'
+  'initWithSnapshotData:':
+    'prefix': 'initWithSnapshotData:'
+    'body': 'initWithSnapshotData(${1: data})'
+  'setSnapshotData:':
+    'prefix': 'setSnapshotData:'
+    'body': 'setSnapshotData(${1: snapshotData})'
+  'snapshotData':
+    'prefix': 'snapshotData'
+    'body': 'snapshotData()'
+  'buttonA':
+    'prefix': 'buttonA'
+    'body': 'buttonA()'
+  'buttonB':
+    'prefix': 'buttonB'
+    'body': 'buttonB()'
+  'buttonX':
+    'prefix': 'buttonX'
+    'body': 'buttonX()'
+  'buttonY':
+    'prefix': 'buttonY'
+    'body': 'buttonY()'
+  'controller':
+    'prefix': 'controller'
+    'body': 'controller()'
+  'dpad':
+    'prefix': 'dpad'
+    'body': 'dpad()'
+  'leftShoulder':
+    'prefix': 'leftShoulder'
+    'body': 'leftShoulder()'
+  'rightShoulder':
+    'prefix': 'rightShoulder'
+    'body': 'rightShoulder()'
+  'saveSnapshot':
+    'prefix': 'saveSnapshot'
+    'body': 'saveSnapshot()'
+  'setValueChangedHandler:':
+    'prefix': 'setValueChangedHandler:'
+    'body': 'setValueChangedHandler(${1: valueChangedHandler})'
+  'valueChangedHandler':
+    'prefix': 'valueChangedHandler'
+    'body': 'valueChangedHandler()'
+  'initWithController:snapshotData:':
+    'prefix': 'initWithController:snapshotData:'
+    'body': 'initWithController(${1: controller}, snapshotData:${2: data})'
+  'initWithSnapshotData:':
+    'prefix': 'initWithSnapshotData:'
+    'body': 'initWithSnapshotData(${1: data})'
+  'setSnapshotData:':
+    'prefix': 'setSnapshotData:'
+    'body': 'setSnapshotData(${1: snapshotData})'
+  'snapshotData':
+    'prefix': 'snapshotData'
+    'body': 'snapshotData()'

@@ -1,0 +1,352 @@
+'.source.rubymotion':
+  'kBluetoothKeyboardANSIReturn (0)':
+    'prefix': 'kBluetoothKeyboardANSIReturn'
+    'body': 'KBluetoothKeyboardANSIReturn'
+  'kBluetoothKeyboardISOReturn (1)':
+    'prefix': 'kBluetoothKeyboardISOReturn'
+    'body': 'KBluetoothKeyboardISOReturn'
+  'kBluetoothKeyboardJISReturn (2)':
+    'prefix': 'kBluetoothKeyboardJISReturn'
+    'body': 'KBluetoothKeyboardJISReturn'
+  'kBluetoothKeyboardNoReturn (3)':
+    'prefix': 'kBluetoothKeyboardNoReturn'
+    'body': 'KBluetoothKeyboardNoReturn'
+  'kIOBluetoothServiceBrowserControllerOptionsAutoStartInquiry (1)':
+    'prefix': 'kIOBluetoothServiceBrowserControllerOptionsAutoStartInquiry'
+    'body': 'KIOBluetoothServiceBrowserControllerOptionsAutoStartInquiry'
+  'kIOBluetoothServiceBrowserControllerOptionsDisconnectWhenDone (2)':
+    'prefix': 'kIOBluetoothServiceBrowserControllerOptionsDisconnectWhenDone'
+    'body': 'KIOBluetoothServiceBrowserControllerOptionsDisconnectWhenDone'
+  'kIOBluetoothServiceBrowserControllerOptionsNone (0)':
+    'prefix': 'kIOBluetoothServiceBrowserControllerOptionsNone'
+    'body': 'KIOBluetoothServiceBrowserControllerOptionsNone'
+  'kIOBluetoothUISuccess (-1000)':
+    'prefix': 'kIOBluetoothUISuccess'
+    'body': 'KIOBluetoothUISuccess'
+  'kIOBluetoothUIUserCanceledErr (-1001)':
+    'prefix': 'kIOBluetoothUIUserCanceledErr'
+    'body': 'KIOBluetoothUIUserCanceledErr'
+  'IOBluetoothDeviceSelectorRunPanelWithAttributes':
+    'prefix': 'IOBluetoothDeviceSelectorRunPanelWithAttributes'
+    'body': 'IOBluetoothDeviceSelectorRunPanelWithAttributes(${1:IOBluetoothDeviceSelectorControllerRef deviceSelector}, ${2:IOBluetoothDeviceSearchAttributes* attributes})'
+  'IOBluetoothGetDeviceSelectorController':
+    'prefix': 'IOBluetoothGetDeviceSelectorController'
+    'body': 'IOBluetoothGetDeviceSelectorController()'
+  'IOBluetoothGetPairingController':
+    'prefix': 'IOBluetoothGetPairingController'
+    'body': 'IOBluetoothGetPairingController()'
+  'IOBluetoothPairingControllerRunPanelWithAttributes':
+    'prefix': 'IOBluetoothPairingControllerRunPanelWithAttributes'
+    'body': 'IOBluetoothPairingControllerRunPanelWithAttributes(${1:IOBluetoothPairingControllerRef pairingController}, ${2:IOBluetoothDeviceSearchAttributes* attributes})'
+  'IOBluetoothServiceBrowserControllerBrowseDevices':
+    'prefix': 'IOBluetoothServiceBrowserControllerBrowseDevices'
+    'body': 'IOBluetoothServiceBrowserControllerBrowseDevices(${1:IOBluetoothSDPServiceRecordRef* outRecord}, ${2:IOBluetoothServiceBrowserControllerOptions inOptions})'
+  'IOBluetoothServiceBrowserControllerCreate':
+    'prefix': 'IOBluetoothServiceBrowserControllerCreate'
+    'body': 'IOBluetoothServiceBrowserControllerCreate(${1:IOBluetoothServiceBrowserControllerOptions inOptions})'
+  'IOBluetoothServiceBrowserControllerDiscover':
+    'prefix': 'IOBluetoothServiceBrowserControllerDiscover'
+    'body': 'IOBluetoothServiceBrowserControllerDiscover(${1:IOBluetoothServiceBrowserControllerRef controller}, ${2:IOBluetoothSDPServiceRecordRef* outRecord})'
+  'IOBluetoothServiceBrowserControllerDiscoverWithDeviceAttributes':
+    'prefix': 'IOBluetoothServiceBrowserControllerDiscoverWithDeviceAttributes'
+    'body': 'IOBluetoothServiceBrowserControllerDiscoverWithDeviceAttributes(${1:IOBluetoothServiceBrowserControllerRef controller}, ${2:IOBluetoothSDPServiceRecordRef* outRecord}, ${3:IOBluetoothDeviceSearchAttributes* deviceAttributes}, ${4:CFArrayRef serviceArray})'
+  'IOBluetoothServiceBrowserControllerSetOptions':
+    'prefix': 'IOBluetoothServiceBrowserControllerSetOptions'
+    'body': 'IOBluetoothServiceBrowserControllerSetOptions(${1:IOBluetoothServiceBrowserControllerRef controller}, ${2:IOBluetoothServiceBrowserControllerOptions inOptions})'
+  'IOBluetoothValidateHardware':
+    'prefix': 'IOBluetoothValidateHardware'
+    'body': 'IOBluetoothValidateHardware(${1:CFStringRef cancelButtonTitle})'
+  'IOBluetoothValidateHardwareWithDescription':
+    'prefix': 'IOBluetoothValidateHardwareWithDescription'
+    'body': 'IOBluetoothValidateHardwareWithDescription(${1:CFStringRef cancelButtonTitle}, ${2:CFStringRef descriptionText})'
+  'addAllowedUUID:':
+    'prefix': 'addAllowedUUID:'
+    'body': 'addAllowedUUID(${1:IOBluetoothSDPUUID* allowedUUID})'
+  'addAllowedUUIDArray:':
+    'prefix': 'addAllowedUUIDArray:'
+    'body': 'addAllowedUUIDArray(${1:NSArray* allowedUUIDArray})'
+  'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:'
+    'body': 'beginSheetModalForWindow(${1:NSWindow* sheetWindow}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'clearAllowedUUIDs':
+    'prefix': 'clearAllowedUUIDs'
+    'body': 'clearAllowedUUIDs()'
+  'IOBluetoothDeviceSelectorController.deviceSelector':
+    'prefix': 'deviceSelector'
+    'body': 'IOBluetoothDeviceSelectorController.deviceSelector()'
+  'getCancel':
+    'prefix': 'getCancel'
+    'body': 'getCancel()'
+  'getDescriptionText':
+    'prefix': 'getDescriptionText'
+    'body': 'getDescriptionText()'
+  'getDeviceSelectorControllerRef':
+    'prefix': 'getDeviceSelectorControllerRef'
+    'body': 'getDeviceSelectorControllerRef()'
+  'getHeader':
+    'prefix': 'getHeader'
+    'body': 'getHeader()'
+  'getOptions':
+    'prefix': 'getOptions'
+    'body': 'getOptions()'
+  'getPrompt':
+    'prefix': 'getPrompt'
+    'body': 'getPrompt()'
+  'getResults':
+    'prefix': 'getResults'
+    'body': 'getResults()'
+  'getSearchAttributes':
+    'prefix': 'getSearchAttributes'
+    'body': 'getSearchAttributes()'
+  'getTitle':
+    'prefix': 'getTitle'
+    'body': 'getTitle()'
+  'runModal':
+    'prefix': 'runModal'
+    'body': 'runModal()'
+  'setCancel:':
+    'prefix': 'setCancel:'
+    'body': 'setCancel(${1:NSString* prompt})'
+  'setDescriptionText:':
+    'prefix': 'setDescriptionText:'
+    'body': 'setDescriptionText(${1:NSString* descriptionText})'
+  'setHeader:':
+    'prefix': 'setHeader:'
+    'body': 'setHeader(${1:NSString* headerText})'
+  'setOptions:':
+    'prefix': 'setOptions:'
+    'body': 'setOptions(${1:IOBluetoothServiceBrowserControllerOptions options})'
+  'setPrompt:':
+    'prefix': 'setPrompt:'
+    'body': 'setPrompt(${1:NSString* prompt})'
+  'setSearchAttributes:':
+    'prefix': 'setSearchAttributes:'
+    'body': 'setSearchAttributes(${1:IOBluetoothDeviceSearchAttributes* searchAttributes})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* windowTitle})'
+  'IOBluetoothDeviceSelectorController.withDeviceSelectorControllerRef:':
+    'prefix': 'withDeviceSelectorControllerRef:'
+    'body': 'IOBluetoothDeviceSelectorController.withDeviceSelectorControllerRef(${1:IOBluetoothDeviceSelectorControllerRef deviceSelectorControllerRef})'
+  'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:'
+    'body': 'beginSheetModalForWindow(${1:NSWindow* sheetWindow}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'getDevice':
+    'prefix': 'getDevice'
+    'body': 'getDevice()'
+  'getTitle':
+    'prefix': 'getTitle'
+    'body': 'getTitle()'
+  'initObjectPushWithBluetoothDevice:withFiles:delegate:':
+    'prefix': 'initObjectPushWithBluetoothDevice:withFiles:delegate:'
+    'body': 'initObjectPushWithBluetoothDevice(${1:IOBluetoothDevice* inDevice}, withFiles:${2:NSArray* inFiles}, delegate:${3:id inDelegate})'
+  'isTransferInProgress':
+    'prefix': 'isTransferInProgress'
+    'body': 'isTransferInProgress()'
+  'runModal':
+    'prefix': 'runModal'
+    'body': 'runModal()'
+  'runPanel':
+    'prefix': 'runPanel'
+    'body': 'runPanel()'
+  'setIconImage:':
+    'prefix': 'setIconImage:'
+    'body': 'setIconImage(${1:NSImage* image})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* windowTitle})'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'addAllowedUUID:':
+    'prefix': 'addAllowedUUID:'
+    'body': 'addAllowedUUID(${1:IOBluetoothSDPUUID* allowedUUID})'
+  'addAllowedUUIDArray:':
+    'prefix': 'addAllowedUUIDArray:'
+    'body': 'addAllowedUUIDArray(${1:NSArray* allowedUUIDArray})'
+  'clearAllowedUUIDs':
+    'prefix': 'clearAllowedUUIDs'
+    'body': 'clearAllowedUUIDs()'
+  'getDescriptionText':
+    'prefix': 'getDescriptionText'
+    'body': 'getDescriptionText()'
+  'getOptions':
+    'prefix': 'getOptions'
+    'body': 'getOptions()'
+  'getPairingControllerRef':
+    'prefix': 'getPairingControllerRef'
+    'body': 'getPairingControllerRef()'
+  'getPrompt':
+    'prefix': 'getPrompt'
+    'body': 'getPrompt()'
+  'getResults':
+    'prefix': 'getResults'
+    'body': 'getResults()'
+  'getSearchAttributes':
+    'prefix': 'getSearchAttributes'
+    'body': 'getSearchAttributes()'
+  'getTitle':
+    'prefix': 'getTitle'
+    'body': 'getTitle()'
+  'IOBluetoothPairingController.pairingController':
+    'prefix': 'pairingController'
+    'body': 'IOBluetoothPairingController.pairingController()'
+  'runModal':
+    'prefix': 'runModal'
+    'body': 'runModal()'
+  'setDescriptionText:':
+    'prefix': 'setDescriptionText:'
+    'body': 'setDescriptionText(${1:NSString* descriptionText})'
+  'setOptions:':
+    'prefix': 'setOptions:'
+    'body': 'setOptions(${1:IOBluetoothServiceBrowserControllerOptions options})'
+  'setPrompt:':
+    'prefix': 'setPrompt:'
+    'body': 'setPrompt(${1:NSString* prompt})'
+  'setSearchAttributes:':
+    'prefix': 'setSearchAttributes:'
+    'body': 'setSearchAttributes(${1:IOBluetoothDeviceSearchAttributes* searchAttributes})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* windowTitle})'
+  'IOBluetoothPairingController.withPairingControllerRef:':
+    'prefix': 'withPairingControllerRef:'
+    'body': 'IOBluetoothPairingController.withPairingControllerRef(${1:IOBluetoothPairingControllerRef pairingControllerRef})'
+  'advancePasskeyIndicator':
+    'prefix': 'advancePasskeyIndicator'
+    'body': 'advancePasskeyIndicator()'
+  'backgroundImageConstraint':
+    'prefix': 'backgroundImageConstraint'
+    'body': 'backgroundImageConstraint()'
+  'centeredView':
+    'prefix': 'centeredView'
+    'body': 'centeredView()'
+  'passkey':
+    'prefix': 'passkey'
+    'body': 'passkey()'
+  'resetAll':
+    'prefix': 'resetAll'
+    'body': 'resetAll()'
+  'resetPasskeyIndicator':
+    'prefix': 'resetPasskeyIndicator'
+    'body': 'resetPasskeyIndicator()'
+  'retreatPasskeyIndicator':
+    'prefix': 'retreatPasskeyIndicator'
+    'body': 'retreatPasskeyIndicator()'
+  'returnHighlightImage':
+    'prefix': 'returnHighlightImage'
+    'body': 'returnHighlightImage()'
+  'returnImage':
+    'prefix': 'returnImage'
+    'body': 'returnImage()'
+  'setBackgroundImageConstraint:':
+    'prefix': 'setBackgroundImageConstraint:'
+    'body': 'setBackgroundImageConstraint(${1:NSLayoutConstraint* backgroundImageConstraint})'
+  'setCenteredView:':
+    'prefix': 'setCenteredView:'
+    'body': 'setCenteredView(${1:NSView* centeredView})'
+  'setPasskey:':
+    'prefix': 'setPasskey:'
+    'body': 'setPasskey(${1:NSString* passkey})'
+  'setPasskey:forDevice:usingSSP:':
+    'prefix': 'setPasskey:forDevice:usingSSP:'
+    'body': 'setPasskey(${1:NSString* inString}, forDevice:${2:IOBluetoothDevice* device}, usingSSP:${3:BOOL isSSP})'
+  'setPasskeyIndicatorEnabled:':
+    'prefix': 'setPasskeyIndicatorEnabled:'
+    'body': 'setPasskeyIndicatorEnabled(${1:BOOL inEnabled})'
+  'setPasskeyString:':
+    'prefix': 'setPasskeyString:'
+    'body': 'setPasskeyString(${1:NSString* inString})'
+  'setReturnHighlightImage:':
+    'prefix': 'setReturnHighlightImage:'
+    'body': 'setReturnHighlightImage(${1:NSImage* returnHighlightImage})'
+  'setReturnImage:':
+    'prefix': 'setReturnImage:'
+    'body': 'setReturnImage(${1:NSImage* returnImage})'
+  'setUsePasskeyNotificaitons:':
+    'prefix': 'setUsePasskeyNotificaitons:'
+    'body': 'setUsePasskeyNotificaitons(${1:BOOL usePasskeyNotificaitons})'
+  'setupUIForDevice:':
+    'prefix': 'setupUIForDevice:'
+    'body': 'setupUIForDevice(${1:IOBluetoothDevice* device})'
+  'setupUIForSSPDevice:':
+    'prefix': 'setupUIForSSPDevice:'
+    'body': 'setupUIForSSPDevice(${1:IOBluetoothDevice* device})'
+  'IOBluetoothPasskeyDisplay.sharedDisplayView':
+    'prefix': 'sharedDisplayView'
+    'body': 'IOBluetoothPasskeyDisplay.sharedDisplayView()'
+  'usePasskeyNotificaitons':
+    'prefix': 'usePasskeyNotificaitons'
+    'body': 'usePasskeyNotificaitons()'
+  'addAllowedUUID:':
+    'prefix': 'addAllowedUUID:'
+    'body': 'addAllowedUUID(${1:IOBluetoothSDPUUID* allowedUUID})'
+  'addAllowedUUIDArray:':
+    'prefix': 'addAllowedUUIDArray:'
+    'body': 'addAllowedUUIDArray(${1:NSArray* allowedUUIDArray})'
+  'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:'
+    'body': 'beginSheetModalForWindow(${1:NSWindow* sheetWindow}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'IOBluetoothServiceBrowserController.browseDevices:options:':
+    'prefix': 'browseDevices:options:'
+    'body': 'IOBluetoothServiceBrowserController.browseDevices(${1:IOBluetoothSDPServiceRecord** outRecord}, options:${2:IOBluetoothServiceBrowserControllerOptions inOptions})'
+  'IOBluetoothServiceBrowserController.browseDevicesAsSheetForWindow:options:window:':
+    'prefix': 'browseDevicesAsSheetForWindow:options:window:'
+    'body': 'IOBluetoothServiceBrowserController.browseDevicesAsSheetForWindow(${1:IOBluetoothSDPServiceRecord** outRecord}, options:${2:IOBluetoothServiceBrowserControllerOptions inOptions}, window:${3:NSWindow* inWindow})'
+  'clearAllowedUUIDs':
+    'prefix': 'clearAllowedUUIDs'
+    'body': 'clearAllowedUUIDs()'
+  'discover:':
+    'prefix': 'discover:'
+    'body': 'discover(${1:IOBluetoothSDPServiceRecord** outRecord})'
+  'discoverAsSheetForWindow:withRecord:':
+    'prefix': 'discoverAsSheetForWindow:withRecord:'
+    'body': 'discoverAsSheetForWindow(${1:NSWindow* sheetWindow}, withRecord:${2:IOBluetoothSDPServiceRecord** outRecord})'
+  'discoverWithDeviceAttributes:serviceList:serviceRecord:':
+    'prefix': 'discoverWithDeviceAttributes:serviceList:serviceRecord:'
+    'body': 'discoverWithDeviceAttributes(${1:IOBluetoothDeviceSearchAttributes* deviceAttributes}, serviceList:${2:NSArray* serviceArray}, serviceRecord:${3:IOBluetoothSDPServiceRecord** outRecord})'
+  'getDescriptionText':
+    'prefix': 'getDescriptionText'
+    'body': 'getDescriptionText()'
+  'getOptions':
+    'prefix': 'getOptions'
+    'body': 'getOptions()'
+  'getPrompt':
+    'prefix': 'getPrompt'
+    'body': 'getPrompt()'
+  'getResults':
+    'prefix': 'getResults'
+    'body': 'getResults()'
+  'getSearchAttributes':
+    'prefix': 'getSearchAttributes'
+    'body': 'getSearchAttributes()'
+  'getServiceBrowserControllerRef':
+    'prefix': 'getServiceBrowserControllerRef'
+    'body': 'getServiceBrowserControllerRef()'
+  'getTitle':
+    'prefix': 'getTitle'
+    'body': 'getTitle()'
+  'runModal':
+    'prefix': 'runModal'
+    'body': 'runModal()'
+  'IOBluetoothServiceBrowserController.serviceBrowserController:':
+    'prefix': 'serviceBrowserController:'
+    'body': 'IOBluetoothServiceBrowserController.serviceBrowserController(${1:IOBluetoothServiceBrowserControllerOptions inOptions})'
+  'setDescriptionText:':
+    'prefix': 'setDescriptionText:'
+    'body': 'setDescriptionText(${1:NSString* descriptionText})'
+  'setOptions:':
+    'prefix': 'setOptions:'
+    'body': 'setOptions(${1:IOBluetoothServiceBrowserControllerOptions inOptions})'
+  'setPrompt:':
+    'prefix': 'setPrompt:'
+    'body': 'setPrompt(${1:NSString* prompt})'
+  'setSearchAttributes:':
+    'prefix': 'setSearchAttributes:'
+    'body': 'setSearchAttributes(${1:IOBluetoothDeviceSearchAttributes* searchAttributes})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* windowTitle})'
+  'IOBluetoothServiceBrowserController.withServiceBrowserControllerRef:':
+    'prefix': 'withServiceBrowserControllerRef:'
+    'body': 'IOBluetoothServiceBrowserController.withServiceBrowserControllerRef(${1:IOBluetoothServiceBrowserControllerRef serviceBrowserControllerRef})'

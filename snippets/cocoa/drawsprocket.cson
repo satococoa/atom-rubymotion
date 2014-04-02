@@ -1,0 +1,169 @@
+'.source.rubymotion':
+  'kDSpAltBufferOption_RowBytesEqualsWidth (1)':
+    'prefix': 'kDSpAltBufferOption_RowBytesEqualsWidth'
+    'body': 'KDSpAltBufferOption_RowBytesEqualsWidth'
+  'kDSpBlitMode_DstKey (2)':
+    'prefix': 'kDSpBlitMode_DstKey'
+    'body': 'KDSpBlitMode_DstKey'
+  'kDSpBlitMode_Interpolation (4)':
+    'prefix': 'kDSpBlitMode_Interpolation'
+    'body': 'KDSpBlitMode_Interpolation'
+  'kDSpBlitMode_Plain (0)':
+    'prefix': 'kDSpBlitMode_Plain'
+    'body': 'KDSpBlitMode_Plain'
+  'kDSpBlitMode_SrcKey (1)':
+    'prefix': 'kDSpBlitMode_SrcKey'
+    'body': 'KDSpBlitMode_SrcKey'
+  'kDSpBufferKind_Normal (0)':
+    'prefix': 'kDSpBufferKind_Normal'
+    'body': 'KDSpBufferKind_Normal'
+  'kDSpColorNeeds_DontCare (0)':
+    'prefix': 'kDSpColorNeeds_DontCare'
+    'body': 'KDSpColorNeeds_DontCare'
+  'kDSpColorNeeds_Request (1)':
+    'prefix': 'kDSpColorNeeds_Request'
+    'body': 'KDSpColorNeeds_Request'
+  'kDSpColorNeeds_Require (2)':
+    'prefix': 'kDSpColorNeeds_Require'
+    'body': 'KDSpColorNeeds_Require'
+  'kDSpContextOption_DontSyncVBL (4)':
+    'prefix': 'kDSpContextOption_DontSyncVBL'
+    'body': 'KDSpContextOption_DontSyncVBL'
+  'kDSpContextOption_PageFlip (2)':
+    'prefix': 'kDSpContextOption_PageFlip'
+    'body': 'KDSpContextOption_PageFlip'
+  'kDSpContextOption_Stereoscopic (8)':
+    'prefix': 'kDSpContextOption_Stereoscopic'
+    'body': 'KDSpContextOption_Stereoscopic'
+  'kDSpContextState_Active (0)':
+    'prefix': 'kDSpContextState_Active'
+    'body': 'KDSpContextState_Active'
+  'kDSpContextState_Inactive (2)':
+    'prefix': 'kDSpContextState_Inactive'
+    'body': 'KDSpContextState_Inactive'
+  'kDSpContextState_Paused (1)':
+    'prefix': 'kDSpContextState_Paused'
+    'body': 'KDSpContextState_Paused'
+  'kDSpDepthMask_1 (1)':
+    'prefix': 'kDSpDepthMask_1'
+    'body': 'KDSpDepthMask_1'
+  'kDSpDepthMask_16 (16)':
+    'prefix': 'kDSpDepthMask_16'
+    'body': 'KDSpDepthMask_16'
+  'kDSpDepthMask_2 (2)':
+    'prefix': 'kDSpDepthMask_2'
+    'body': 'KDSpDepthMask_2'
+  'kDSpDepthMask_32 (32)':
+    'prefix': 'kDSpDepthMask_32'
+    'body': 'KDSpDepthMask_32'
+  'kDSpDepthMask_4 (4)':
+    'prefix': 'kDSpDepthMask_4'
+    'body': 'KDSpDepthMask_4'
+  'kDSpDepthMask_8 (8)':
+    'prefix': 'kDSpDepthMask_8'
+    'body': 'KDSpDepthMask_8'
+  'kDSpDepthMask_All (-1)':
+    'prefix': 'kDSpDepthMask_All'
+    'body': 'KDSpDepthMask_All'
+  'DSpContext_Dispose':
+    'prefix': 'DSpContext_Dispose'
+    'body': 'DSpContext_Dispose(${1:DSpContextReference inContext})'
+  'DSpContext_FadeGamma':
+    'prefix': 'DSpContext_FadeGamma'
+    'body': 'DSpContext_FadeGamma(${1:DSpContextReference inContext}, ${2:SInt32 inPercentOfOriginalIntensity}, ${3:RGBColor* inZeroIntensityColor})'
+  'DSpContext_FadeGammaIn':
+    'prefix': 'DSpContext_FadeGammaIn'
+    'body': 'DSpContext_FadeGammaIn(${1:DSpContextReference inContext}, ${2:RGBColor* inZeroIntensityColor})'
+  'DSpContext_FadeGammaOut':
+    'prefix': 'DSpContext_FadeGammaOut'
+    'body': 'DSpContext_FadeGammaOut(${1:DSpContextReference inContext}, ${2:RGBColor* inZeroIntensityColor})'
+  'DSpContext_GetAttributes':
+    'prefix': 'DSpContext_GetAttributes'
+    'body': 'DSpContext_GetAttributes(${1:DSpContextReferenceConst inContext}, ${2:DSpContextAttributesPtr outAttributes})'
+  'DSpContext_GetBackBuffer':
+    'prefix': 'DSpContext_GetBackBuffer'
+    'body': 'DSpContext_GetBackBuffer(${1:DSpContextReference inContext}, ${2:DSpBufferKind inBufferKind}, ${3:CGrafPtr* outBackBuffer})'
+  'DSpContext_GetCLUTEntries':
+    'prefix': 'DSpContext_GetCLUTEntries'
+    'body': 'DSpContext_GetCLUTEntries(${1:DSpContextReferenceConst inContext}, ${2:ColorSpec* outEntries}, ${3:UInt16 inStartingEntry}, ${4:UInt16 inLastEntry})'
+  'DSpContext_GetDisplayID':
+    'prefix': 'DSpContext_GetDisplayID'
+    'body': 'DSpContext_GetDisplayID(${1:DSpContextReferenceConst inContext}, ${2:DisplayIDType* outDisplayID})'
+  'DSpContext_GetFrontBuffer':
+    'prefix': 'DSpContext_GetFrontBuffer'
+    'body': 'DSpContext_GetFrontBuffer(${1:DSpContextReferenceConst inContext}, ${2:CGrafPtr* outFrontBuffer})'
+  'DSpContext_GetMonitorFrequency':
+    'prefix': 'DSpContext_GetMonitorFrequency'
+    'body': 'DSpContext_GetMonitorFrequency(${1:DSpContextReferenceConst inContext}, ${2:Fixed* outFrequency})'
+  'DSpContext_GetState':
+    'prefix': 'DSpContext_GetState'
+    'body': 'DSpContext_GetState(${1:DSpContextReferenceConst inContext}, ${2:DSpContextState* outState})'
+  'DSpContext_GlobalToLocal':
+    'prefix': 'DSpContext_GlobalToLocal'
+    'body': 'DSpContext_GlobalToLocal(${1:DSpContextReferenceConst inContext}, ${2:Point* ioPoint})'
+  'DSpContext_IsBusy':
+    'prefix': 'DSpContext_IsBusy'
+    'body': 'DSpContext_IsBusy(${1:DSpContextReferenceConst inContext}, ${2:Boolean* outBusyFlag})'
+  'DSpContext_LocalToGlobal':
+    'prefix': 'DSpContext_LocalToGlobal'
+    'body': 'DSpContext_LocalToGlobal(${1:DSpContextReferenceConst inContext}, ${2:Point* ioPoint})'
+  'DSpContext_Queue':
+    'prefix': 'DSpContext_Queue'
+    'body': 'DSpContext_Queue(${1:DSpContextReference inParentContext}, ${2:DSpContextReference inChildContext}, ${3:DSpContextAttributesPtr inDesiredAttributes})'
+  'DSpContext_Release':
+    'prefix': 'DSpContext_Release'
+    'body': 'DSpContext_Release(${1:DSpContextReference inContext})'
+  'DSpContext_Reserve':
+    'prefix': 'DSpContext_Reserve'
+    'body': 'DSpContext_Reserve(${1:DSpContextReference inContext}, ${2:DSpContextAttributesPtr inDesiredAttributes})'
+  'DSpContext_SetCLUTEntries':
+    'prefix': 'DSpContext_SetCLUTEntries'
+    'body': 'DSpContext_SetCLUTEntries(${1:DSpContextReference inContext}, ${2:ColorSpec* inEntries}, ${3:UInt16 inStartingEntry}, ${4:UInt16 inLastEntry})'
+  'DSpContext_SetState':
+    'prefix': 'DSpContext_SetState'
+    'body': 'DSpContext_SetState(${1:DSpContextReference inContext}, ${2:DSpContextState inState})'
+  'DSpContext_SwapBuffers':
+    'prefix': 'DSpContext_SwapBuffers'
+    'body': 'DSpContext_SwapBuffers(${1:DSpContextReference inContext}, ${2:DSpCallbackUPP inBusyProc}, ${3:void* inUserRefCon})'
+  'DSpContext_Switch':
+    'prefix': 'DSpContext_Switch'
+    'body': 'DSpContext_Switch(${1:DSpContextReference inOldContext}, ${2:DSpContextReference inNewContext})'
+  'DSpFindBestContext':
+    'prefix': 'DSpFindBestContext'
+    'body': 'DSpFindBestContext(${1:DSpContextAttributesPtr inDesiredAttributes}, ${2:DSpContextReference* outContext})'
+  'DSpFindBestContextOnDisplayID':
+    'prefix': 'DSpFindBestContextOnDisplayID'
+    'body': 'DSpFindBestContextOnDisplayID(${1:DSpContextAttributesPtr inDesiredAttributes}, ${2:DSpContextReference* outContext}, ${3:DisplayIDType inDisplayID})'
+  'DSpFindContextFromPoint':
+    'prefix': 'DSpFindContextFromPoint'
+    'body': 'DSpFindContextFromPoint(${1:Point inGlobalPoint}, ${2:DSpContextReference* outContext})'
+  'DSpGetCurrentContext':
+    'prefix': 'DSpGetCurrentContext'
+    'body': 'DSpGetCurrentContext(${1:DisplayIDType inDisplayID}, ${2:DSpContextReference* outContext})'
+  'DSpGetFirstContext':
+    'prefix': 'DSpGetFirstContext'
+    'body': 'DSpGetFirstContext(${1:DisplayIDType inDisplayID}, ${2:DSpContextReference* outContext})'
+  'DSpGetMouse':
+    'prefix': 'DSpGetMouse'
+    'body': 'DSpGetMouse(${1:Point* outGlobalPoint})'
+  'DSpGetNextContext':
+    'prefix': 'DSpGetNextContext'
+    'body': 'DSpGetNextContext(${1:DSpContextReference inCurrentContext}, ${2:DSpContextReference* outContext})'
+  'DSpGetVersion':
+    'prefix': 'DSpGetVersion'
+    'body': 'DSpGetVersion()'
+  'DSpProcessEvent':
+    'prefix': 'DSpProcessEvent'
+    'body': 'DSpProcessEvent(${1:EventRecord* inEvent}, ${2:Boolean* outEventWasProcessed})'
+  'DSpSetBlankingColor':
+    'prefix': 'DSpSetBlankingColor'
+    'body': 'DSpSetBlankingColor(${1:RGBColor* inRGBColor})'
+  'DSpSetDebugMode':
+    'prefix': 'DSpSetDebugMode'
+    'body': 'DSpSetDebugMode(${1:Boolean inDebugMode})'
+  'DSpShutdown':
+    'prefix': 'DSpShutdown'
+    'body': 'DSpShutdown()'
+  'DSpStartup':
+    'prefix': 'DSpStartup'
+    'body': 'DSpStartup()'

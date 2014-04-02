@@ -1,0 +1,2884 @@
+'.source.rubymotion':
+  'NSDefaultJavaClassPathKey (NSString*)':
+    'prefix': 'NSDefaultJavaClassPathKey'
+    'body': 'NSDefaultJavaClassPathKey'
+  'NSDefaultJavaCompilerKey (NSString*)':
+    'prefix': 'NSDefaultJavaCompilerKey'
+    'body': 'NSDefaultJavaCompilerKey'
+  'NSDefaultJavaDebugLibraryKey (NSString*)':
+    'prefix': 'NSDefaultJavaDebugLibraryKey'
+    'body': 'NSDefaultJavaDebugLibraryKey'
+  'NSDefaultJavaLibraryKey (NSString*)':
+    'prefix': 'NSDefaultJavaLibraryKey'
+    'body': 'NSDefaultJavaLibraryKey'
+  'NSDefaultJavaVMKey (NSString*)':
+    'prefix': 'NSDefaultJavaVMKey'
+    'body': 'NSDefaultJavaVMKey'
+  'NSDefaultJavaVendorKey (NSString*)':
+    'prefix': 'NSDefaultJavaVendorKey'
+    'body': 'NSDefaultJavaVendorKey'
+  'NSDefaultObjCJavaDebugLibraryKey (NSString*)':
+    'prefix': 'NSDefaultObjCJavaDebugLibraryKey'
+    'body': 'NSDefaultObjCJavaDebugLibraryKey'
+  'NSDefaultObjCJavaLibraryKey (NSString*)':
+    'prefix': 'NSDefaultObjCJavaLibraryKey'
+    'body': 'NSDefaultObjCJavaLibraryKey'
+  'NSInvalidJavaClassException (NSString*)':
+    'prefix': 'NSInvalidJavaClassException'
+    'body': 'NSInvalidJavaClassException'
+  'NSJavaVMArgumentsKey (NSString*)':
+    'prefix': 'NSJavaVMArgumentsKey'
+    'body': 'NSJavaVMArgumentsKey'
+  'JAWT_LOCK_BOUNDS_CHANGED (4)':
+    'prefix': 'JAWT_LOCK_BOUNDS_CHANGED'
+    'body': 'JAWT_LOCK_BOUNDS_CHANGED'
+  'JAWT_LOCK_CLIP_CHANGED (2)':
+    'prefix': 'JAWT_LOCK_CLIP_CHANGED'
+    'body': 'JAWT_LOCK_CLIP_CHANGED'
+  'JAWT_LOCK_ERROR (1)':
+    'prefix': 'JAWT_LOCK_ERROR'
+    'body': 'JAWT_LOCK_ERROR'
+  'JAWT_LOCK_SURFACE_CHANGED (8)':
+    'prefix': 'JAWT_LOCK_SURFACE_CHANGED'
+    'body': 'JAWT_LOCK_SURFACE_CHANGED'
+  'JAWT_MACOSX_USE_CALAYER (2147483648)':
+    'prefix': 'JAWT_MACOSX_USE_CALAYER'
+    'body': 'JAWT_MACOSX_USE_CALAYER'
+  'JAWT_VERSION_1_3 (65539)':
+    'prefix': 'JAWT_VERSION_1_3'
+    'body': 'JAWT_VERSION_1_3'
+  'JAWT_VERSION_1_4 (65540)':
+    'prefix': 'JAWT_VERSION_1_4'
+    'body': 'JAWT_VERSION_1_4'
+  'JDWPTRANSPORT_ERROR_ILLEGAL_ARGUMENT (103)':
+    'prefix': 'JDWPTRANSPORT_ERROR_ILLEGAL_ARGUMENT'
+    'body': 'JDWPTRANSPORT_ERROR_ILLEGAL_ARGUMENT'
+  'JDWPTRANSPORT_ERROR_ILLEGAL_STATE (201)':
+    'prefix': 'JDWPTRANSPORT_ERROR_ILLEGAL_STATE'
+    'body': 'JDWPTRANSPORT_ERROR_ILLEGAL_STATE'
+  'JDWPTRANSPORT_ERROR_INTERNAL (113)':
+    'prefix': 'JDWPTRANSPORT_ERROR_INTERNAL'
+    'body': 'JDWPTRANSPORT_ERROR_INTERNAL'
+  'JDWPTRANSPORT_ERROR_IO_ERROR (202)':
+    'prefix': 'JDWPTRANSPORT_ERROR_IO_ERROR'
+    'body': 'JDWPTRANSPORT_ERROR_IO_ERROR'
+  'JDWPTRANSPORT_ERROR_MSG_NOT_AVAILABLE (204)':
+    'prefix': 'JDWPTRANSPORT_ERROR_MSG_NOT_AVAILABLE'
+    'body': 'JDWPTRANSPORT_ERROR_MSG_NOT_AVAILABLE'
+  'JDWPTRANSPORT_ERROR_NONE (0)':
+    'prefix': 'JDWPTRANSPORT_ERROR_NONE'
+    'body': 'JDWPTRANSPORT_ERROR_NONE'
+  'JDWPTRANSPORT_ERROR_OUT_OF_MEMORY (110)':
+    'prefix': 'JDWPTRANSPORT_ERROR_OUT_OF_MEMORY'
+    'body': 'JDWPTRANSPORT_ERROR_OUT_OF_MEMORY'
+  'JDWPTRANSPORT_ERROR_TIMEOUT (203)':
+    'prefix': 'JDWPTRANSPORT_ERROR_TIMEOUT'
+    'body': 'JDWPTRANSPORT_ERROR_TIMEOUT'
+  'JDWPTRANSPORT_FLAGS_NONE (0)':
+    'prefix': 'JDWPTRANSPORT_FLAGS_NONE'
+    'body': 'JDWPTRANSPORT_FLAGS_NONE'
+  'JDWPTRANSPORT_FLAGS_REPLY (128)':
+    'prefix': 'JDWPTRANSPORT_FLAGS_REPLY'
+    'body': 'JDWPTRANSPORT_FLAGS_REPLY'
+  'JDWPTRANSPORT_VERSION_1_0 (65536)':
+    'prefix': 'JDWPTRANSPORT_VERSION_1_0'
+    'body': 'JDWPTRANSPORT_VERSION_1_0'
+  'JDWP_ArrayReference (13)':
+    'prefix': 'JDWP_ArrayReference'
+    'body': 'JDWP_ArrayReference'
+  'JDWP_ArrayReference_GetValues (2)':
+    'prefix': 'JDWP_ArrayReference_GetValues'
+    'body': 'JDWP_ArrayReference_GetValues'
+  'JDWP_ArrayReference_Length (1)':
+    'prefix': 'JDWP_ArrayReference_Length'
+    'body': 'JDWP_ArrayReference_Length'
+  'JDWP_ArrayReference_SetValues (3)':
+    'prefix': 'JDWP_ArrayReference_SetValues'
+    'body': 'JDWP_ArrayReference_SetValues'
+  'JDWP_ArrayType (4)':
+    'prefix': 'JDWP_ArrayType'
+    'body': 'JDWP_ArrayType'
+  'JDWP_ArrayType_NewInstance (1)':
+    'prefix': 'JDWP_ArrayType_NewInstance'
+    'body': 'JDWP_ArrayType_NewInstance'
+  'JDWP_ClassLoaderReference (14)':
+    'prefix': 'JDWP_ClassLoaderReference'
+    'body': 'JDWP_ClassLoaderReference'
+  'JDWP_ClassLoaderReference_VisibleClasses (1)':
+    'prefix': 'JDWP_ClassLoaderReference_VisibleClasses'
+    'body': 'JDWP_ClassLoaderReference_VisibleClasses'
+  'JDWP_ClassObjectReference (17)':
+    'prefix': 'JDWP_ClassObjectReference'
+    'body': 'JDWP_ClassObjectReference'
+  'JDWP_ClassObjectReference_ReflectedType (1)':
+    'prefix': 'JDWP_ClassObjectReference_ReflectedType'
+    'body': 'JDWP_ClassObjectReference_ReflectedType'
+  'JDWP_ClassStatus_ERROR (8)':
+    'prefix': 'JDWP_ClassStatus_ERROR'
+    'body': 'JDWP_ClassStatus_ERROR'
+  'JDWP_ClassStatus_INITIALIZED (4)':
+    'prefix': 'JDWP_ClassStatus_INITIALIZED'
+    'body': 'JDWP_ClassStatus_INITIALIZED'
+  'JDWP_ClassStatus_PREPARED (2)':
+    'prefix': 'JDWP_ClassStatus_PREPARED'
+    'body': 'JDWP_ClassStatus_PREPARED'
+  'JDWP_ClassStatus_VERIFIED (1)':
+    'prefix': 'JDWP_ClassStatus_VERIFIED'
+    'body': 'JDWP_ClassStatus_VERIFIED'
+  'JDWP_ClassType (3)':
+    'prefix': 'JDWP_ClassType'
+    'body': 'JDWP_ClassType'
+  'JDWP_ClassType_InvokeMethod (3)':
+    'prefix': 'JDWP_ClassType_InvokeMethod'
+    'body': 'JDWP_ClassType_InvokeMethod'
+  'JDWP_ClassType_NewInstance (4)':
+    'prefix': 'JDWP_ClassType_NewInstance'
+    'body': 'JDWP_ClassType_NewInstance'
+  'JDWP_ClassType_SetValues (2)':
+    'prefix': 'JDWP_ClassType_SetValues'
+    'body': 'JDWP_ClassType_SetValues'
+  'JDWP_ClassType_Superclass (1)':
+    'prefix': 'JDWP_ClassType_Superclass'
+    'body': 'JDWP_ClassType_Superclass'
+  'JDWP_Error_ABSENT_INFORMATION (101)':
+    'prefix': 'JDWP_Error_ABSENT_INFORMATION'
+    'body': 'JDWP_Error_ABSENT_INFORMATION'
+  'JDWP_Error_ACCESS_DENIED (111)':
+    'prefix': 'JDWP_Error_ACCESS_DENIED'
+    'body': 'JDWP_Error_ACCESS_DENIED'
+  'JDWP_Error_ADD_METHOD_NOT_IMPLEMENTED (63)':
+    'prefix': 'JDWP_Error_ADD_METHOD_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_ADD_METHOD_NOT_IMPLEMENTED'
+  'JDWP_Error_ALREADY_INVOKING (502)':
+    'prefix': 'JDWP_Error_ALREADY_INVOKING'
+    'body': 'JDWP_Error_ALREADY_INVOKING'
+  'JDWP_Error_CIRCULAR_CLASS_DEFINITION (61)':
+    'prefix': 'JDWP_Error_CIRCULAR_CLASS_DEFINITION'
+    'body': 'JDWP_Error_CIRCULAR_CLASS_DEFINITION'
+  'JDWP_Error_CLASS_MODIFIERS_CHANGE_NOT_IMPLEMENTED (70)':
+    'prefix': 'JDWP_Error_CLASS_MODIFIERS_CHANGE_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_CLASS_MODIFIERS_CHANGE_NOT_IMPLEMENTED'
+  'JDWP_Error_CLASS_NOT_PREPARED (22)':
+    'prefix': 'JDWP_Error_CLASS_NOT_PREPARED'
+    'body': 'JDWP_Error_CLASS_NOT_PREPARED'
+  'JDWP_Error_DELETE_METHOD_NOT_IMPLEMENTED (67)':
+    'prefix': 'JDWP_Error_DELETE_METHOD_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_DELETE_METHOD_NOT_IMPLEMENTED'
+  'JDWP_Error_DUPLICATE (40)':
+    'prefix': 'JDWP_Error_DUPLICATE'
+    'body': 'JDWP_Error_DUPLICATE'
+  'JDWP_Error_FAILS_VERIFICATION (62)':
+    'prefix': 'JDWP_Error_FAILS_VERIFICATION'
+    'body': 'JDWP_Error_FAILS_VERIFICATION'
+  'JDWP_Error_HIERARCHY_CHANGE_NOT_IMPLEMENTED (66)':
+    'prefix': 'JDWP_Error_HIERARCHY_CHANGE_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_HIERARCHY_CHANGE_NOT_IMPLEMENTED'
+  'JDWP_Error_ILLEGAL_ARGUMENT (103)':
+    'prefix': 'JDWP_Error_ILLEGAL_ARGUMENT'
+    'body': 'JDWP_Error_ILLEGAL_ARGUMENT'
+  'JDWP_Error_INTERNAL (113)':
+    'prefix': 'JDWP_Error_INTERNAL'
+    'body': 'JDWP_Error_INTERNAL'
+  'JDWP_Error_INTERRUPT (52)':
+    'prefix': 'JDWP_Error_INTERRUPT'
+    'body': 'JDWP_Error_INTERRUPT'
+  'JDWP_Error_INVALID_ARRAY (508)':
+    'prefix': 'JDWP_Error_INVALID_ARRAY'
+    'body': 'JDWP_Error_INVALID_ARRAY'
+  'JDWP_Error_INVALID_CLASS (21)':
+    'prefix': 'JDWP_Error_INVALID_CLASS'
+    'body': 'JDWP_Error_INVALID_CLASS'
+  'JDWP_Error_INVALID_CLASS_FORMAT (60)':
+    'prefix': 'JDWP_Error_INVALID_CLASS_FORMAT'
+    'body': 'JDWP_Error_INVALID_CLASS_FORMAT'
+  'JDWP_Error_INVALID_CLASS_LOADER (507)':
+    'prefix': 'JDWP_Error_INVALID_CLASS_LOADER'
+    'body': 'JDWP_Error_INVALID_CLASS_LOADER'
+  'JDWP_Error_INVALID_COUNT (512)':
+    'prefix': 'JDWP_Error_INVALID_COUNT'
+    'body': 'JDWP_Error_INVALID_COUNT'
+  'JDWP_Error_INVALID_EVENT_TYPE (102)':
+    'prefix': 'JDWP_Error_INVALID_EVENT_TYPE'
+    'body': 'JDWP_Error_INVALID_EVENT_TYPE'
+  'JDWP_Error_INVALID_FIELDID (25)':
+    'prefix': 'JDWP_Error_INVALID_FIELDID'
+    'body': 'JDWP_Error_INVALID_FIELDID'
+  'JDWP_Error_INVALID_FRAMEID (30)':
+    'prefix': 'JDWP_Error_INVALID_FRAMEID'
+    'body': 'JDWP_Error_INVALID_FRAMEID'
+  'JDWP_Error_INVALID_INDEX (503)':
+    'prefix': 'JDWP_Error_INVALID_INDEX'
+    'body': 'JDWP_Error_INVALID_INDEX'
+  'JDWP_Error_INVALID_LENGTH (504)':
+    'prefix': 'JDWP_Error_INVALID_LENGTH'
+    'body': 'JDWP_Error_INVALID_LENGTH'
+  'JDWP_Error_INVALID_LOCATION (24)':
+    'prefix': 'JDWP_Error_INVALID_LOCATION'
+    'body': 'JDWP_Error_INVALID_LOCATION'
+  'JDWP_Error_INVALID_METHODID (23)':
+    'prefix': 'JDWP_Error_INVALID_METHODID'
+    'body': 'JDWP_Error_INVALID_METHODID'
+  'JDWP_Error_INVALID_MONITOR (50)':
+    'prefix': 'JDWP_Error_INVALID_MONITOR'
+    'body': 'JDWP_Error_INVALID_MONITOR'
+  'JDWP_Error_INVALID_OBJECT (20)':
+    'prefix': 'JDWP_Error_INVALID_OBJECT'
+    'body': 'JDWP_Error_INVALID_OBJECT'
+  'JDWP_Error_INVALID_PRIORITY (12)':
+    'prefix': 'JDWP_Error_INVALID_PRIORITY'
+    'body': 'JDWP_Error_INVALID_PRIORITY'
+  'JDWP_Error_INVALID_SLOT (35)':
+    'prefix': 'JDWP_Error_INVALID_SLOT'
+    'body': 'JDWP_Error_INVALID_SLOT'
+  'JDWP_Error_INVALID_STRING (506)':
+    'prefix': 'JDWP_Error_INVALID_STRING'
+    'body': 'JDWP_Error_INVALID_STRING'
+  'JDWP_Error_INVALID_TAG (500)':
+    'prefix': 'JDWP_Error_INVALID_TAG'
+    'body': 'JDWP_Error_INVALID_TAG'
+  'JDWP_Error_INVALID_THREAD (10)':
+    'prefix': 'JDWP_Error_INVALID_THREAD'
+    'body': 'JDWP_Error_INVALID_THREAD'
+  'JDWP_Error_INVALID_THREAD_GROUP (11)':
+    'prefix': 'JDWP_Error_INVALID_THREAD_GROUP'
+    'body': 'JDWP_Error_INVALID_THREAD_GROUP'
+  'JDWP_Error_INVALID_TYPESTATE (65)':
+    'prefix': 'JDWP_Error_INVALID_TYPESTATE'
+    'body': 'JDWP_Error_INVALID_TYPESTATE'
+  'JDWP_Error_METHOD_MODIFIERS_CHANGE_NOT_IMPLEMENTED (71)':
+    'prefix': 'JDWP_Error_METHOD_MODIFIERS_CHANGE_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_METHOD_MODIFIERS_CHANGE_NOT_IMPLEMENTED'
+  'JDWP_Error_NAMES_DONT_MATCH (69)':
+    'prefix': 'JDWP_Error_NAMES_DONT_MATCH'
+    'body': 'JDWP_Error_NAMES_DONT_MATCH'
+  'JDWP_Error_NATIVE_METHOD (511)':
+    'prefix': 'JDWP_Error_NATIVE_METHOD'
+    'body': 'JDWP_Error_NATIVE_METHOD'
+  'JDWP_Error_NONE (0)':
+    'prefix': 'JDWP_Error_NONE'
+    'body': 'JDWP_Error_NONE'
+  'JDWP_Error_NOT_CURRENT_FRAME (33)':
+    'prefix': 'JDWP_Error_NOT_CURRENT_FRAME'
+    'body': 'JDWP_Error_NOT_CURRENT_FRAME'
+  'JDWP_Error_NOT_FOUND (41)':
+    'prefix': 'JDWP_Error_NOT_FOUND'
+    'body': 'JDWP_Error_NOT_FOUND'
+  'JDWP_Error_NOT_IMPLEMENTED (99)':
+    'prefix': 'JDWP_Error_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_NOT_IMPLEMENTED'
+  'JDWP_Error_NOT_MONITOR_OWNER (51)':
+    'prefix': 'JDWP_Error_NOT_MONITOR_OWNER'
+    'body': 'JDWP_Error_NOT_MONITOR_OWNER'
+  'JDWP_Error_NO_MORE_FRAMES (31)':
+    'prefix': 'JDWP_Error_NO_MORE_FRAMES'
+    'body': 'JDWP_Error_NO_MORE_FRAMES'
+  'JDWP_Error_NULL_POINTER (100)':
+    'prefix': 'JDWP_Error_NULL_POINTER'
+    'body': 'JDWP_Error_NULL_POINTER'
+  'JDWP_Error_OPAQUE_FRAME (32)':
+    'prefix': 'JDWP_Error_OPAQUE_FRAME'
+    'body': 'JDWP_Error_OPAQUE_FRAME'
+  'JDWP_Error_OUT_OF_MEMORY (110)':
+    'prefix': 'JDWP_Error_OUT_OF_MEMORY'
+    'body': 'JDWP_Error_OUT_OF_MEMORY'
+  'JDWP_Error_SCHEMA_CHANGE_NOT_IMPLEMENTED (64)':
+    'prefix': 'JDWP_Error_SCHEMA_CHANGE_NOT_IMPLEMENTED'
+    'body': 'JDWP_Error_SCHEMA_CHANGE_NOT_IMPLEMENTED'
+  'JDWP_Error_THREAD_NOT_ALIVE (15)':
+    'prefix': 'JDWP_Error_THREAD_NOT_ALIVE'
+    'body': 'JDWP_Error_THREAD_NOT_ALIVE'
+  'JDWP_Error_THREAD_NOT_SUSPENDED (13)':
+    'prefix': 'JDWP_Error_THREAD_NOT_SUSPENDED'
+    'body': 'JDWP_Error_THREAD_NOT_SUSPENDED'
+  'JDWP_Error_THREAD_SUSPENDED (14)':
+    'prefix': 'JDWP_Error_THREAD_SUSPENDED'
+    'body': 'JDWP_Error_THREAD_SUSPENDED'
+  'JDWP_Error_TRANSPORT_INIT (510)':
+    'prefix': 'JDWP_Error_TRANSPORT_INIT'
+    'body': 'JDWP_Error_TRANSPORT_INIT'
+  'JDWP_Error_TRANSPORT_LOAD (509)':
+    'prefix': 'JDWP_Error_TRANSPORT_LOAD'
+    'body': 'JDWP_Error_TRANSPORT_LOAD'
+  'JDWP_Error_TYPE_MISMATCH (34)':
+    'prefix': 'JDWP_Error_TYPE_MISMATCH'
+    'body': 'JDWP_Error_TYPE_MISMATCH'
+  'JDWP_Error_UNATTACHED_THREAD (115)':
+    'prefix': 'JDWP_Error_UNATTACHED_THREAD'
+    'body': 'JDWP_Error_UNATTACHED_THREAD'
+  'JDWP_Error_UNSUPPORTED_VERSION (68)':
+    'prefix': 'JDWP_Error_UNSUPPORTED_VERSION'
+    'body': 'JDWP_Error_UNSUPPORTED_VERSION'
+  'JDWP_Error_VM_DEAD (112)':
+    'prefix': 'JDWP_Error_VM_DEAD'
+    'body': 'JDWP_Error_VM_DEAD'
+  'JDWP_Event (64)':
+    'prefix': 'JDWP_Event'
+    'body': 'JDWP_Event'
+  'JDWP_EventKind_BREAKPOINT (2)':
+    'prefix': 'JDWP_EventKind_BREAKPOINT'
+    'body': 'JDWP_EventKind_BREAKPOINT'
+  'JDWP_EventKind_CLASS_LOAD (10)':
+    'prefix': 'JDWP_EventKind_CLASS_LOAD'
+    'body': 'JDWP_EventKind_CLASS_LOAD'
+  'JDWP_EventKind_CLASS_PREPARE (8)':
+    'prefix': 'JDWP_EventKind_CLASS_PREPARE'
+    'body': 'JDWP_EventKind_CLASS_PREPARE'
+  'JDWP_EventKind_CLASS_UNLOAD (9)':
+    'prefix': 'JDWP_EventKind_CLASS_UNLOAD'
+    'body': 'JDWP_EventKind_CLASS_UNLOAD'
+  'JDWP_EventKind_EXCEPTION (4)':
+    'prefix': 'JDWP_EventKind_EXCEPTION'
+    'body': 'JDWP_EventKind_EXCEPTION'
+  'JDWP_EventKind_EXCEPTION_CATCH (30)':
+    'prefix': 'JDWP_EventKind_EXCEPTION_CATCH'
+    'body': 'JDWP_EventKind_EXCEPTION_CATCH'
+  'JDWP_EventKind_FIELD_ACCESS (20)':
+    'prefix': 'JDWP_EventKind_FIELD_ACCESS'
+    'body': 'JDWP_EventKind_FIELD_ACCESS'
+  'JDWP_EventKind_FIELD_MODIFICATION (21)':
+    'prefix': 'JDWP_EventKind_FIELD_MODIFICATION'
+    'body': 'JDWP_EventKind_FIELD_MODIFICATION'
+  'JDWP_EventKind_FRAME_POP (3)':
+    'prefix': 'JDWP_EventKind_FRAME_POP'
+    'body': 'JDWP_EventKind_FRAME_POP'
+  'JDWP_EventKind_METHOD_ENTRY (40)':
+    'prefix': 'JDWP_EventKind_METHOD_ENTRY'
+    'body': 'JDWP_EventKind_METHOD_ENTRY'
+  'JDWP_EventKind_METHOD_EXIT (41)':
+    'prefix': 'JDWP_EventKind_METHOD_EXIT'
+    'body': 'JDWP_EventKind_METHOD_EXIT'
+  'JDWP_EventKind_METHOD_EXIT_WITH_RETURN_VALUE (42)':
+    'prefix': 'JDWP_EventKind_METHOD_EXIT_WITH_RETURN_VALUE'
+    'body': 'JDWP_EventKind_METHOD_EXIT_WITH_RETURN_VALUE'
+  'JDWP_EventKind_MONITOR_CONTENDED_ENTER (43)':
+    'prefix': 'JDWP_EventKind_MONITOR_CONTENDED_ENTER'
+    'body': 'JDWP_EventKind_MONITOR_CONTENDED_ENTER'
+  'JDWP_EventKind_MONITOR_CONTENDED_ENTERED (44)':
+    'prefix': 'JDWP_EventKind_MONITOR_CONTENDED_ENTERED'
+    'body': 'JDWP_EventKind_MONITOR_CONTENDED_ENTERED'
+  'JDWP_EventKind_MONITOR_WAIT (45)':
+    'prefix': 'JDWP_EventKind_MONITOR_WAIT'
+    'body': 'JDWP_EventKind_MONITOR_WAIT'
+  'JDWP_EventKind_MONITOR_WAITED (46)':
+    'prefix': 'JDWP_EventKind_MONITOR_WAITED'
+    'body': 'JDWP_EventKind_MONITOR_WAITED'
+  'JDWP_EventKind_SINGLE_STEP (1)':
+    'prefix': 'JDWP_EventKind_SINGLE_STEP'
+    'body': 'JDWP_EventKind_SINGLE_STEP'
+  'JDWP_EventKind_THREAD_DEATH (7)':
+    'prefix': 'JDWP_EventKind_THREAD_DEATH'
+    'body': 'JDWP_EventKind_THREAD_DEATH'
+  'JDWP_EventKind_THREAD_END (7)':
+    'prefix': 'JDWP_EventKind_THREAD_END'
+    'body': 'JDWP_EventKind_THREAD_END'
+  'JDWP_EventKind_THREAD_START (6)':
+    'prefix': 'JDWP_EventKind_THREAD_START'
+    'body': 'JDWP_EventKind_THREAD_START'
+  'JDWP_EventKind_USER_DEFINED (5)':
+    'prefix': 'JDWP_EventKind_USER_DEFINED'
+    'body': 'JDWP_EventKind_USER_DEFINED'
+  'JDWP_EventKind_VM_DEATH (99)':
+    'prefix': 'JDWP_EventKind_VM_DEATH'
+    'body': 'JDWP_EventKind_VM_DEATH'
+  'JDWP_EventKind_VM_DISCONNECTED (100)':
+    'prefix': 'JDWP_EventKind_VM_DISCONNECTED'
+    'body': 'JDWP_EventKind_VM_DISCONNECTED'
+  'JDWP_EventKind_VM_INIT (90)':
+    'prefix': 'JDWP_EventKind_VM_INIT'
+    'body': 'JDWP_EventKind_VM_INIT'
+  'JDWP_EventKind_VM_START (90)':
+    'prefix': 'JDWP_EventKind_VM_START'
+    'body': 'JDWP_EventKind_VM_START'
+  'JDWP_EventRequest (15)':
+    'prefix': 'JDWP_EventRequest'
+    'body': 'JDWP_EventRequest'
+  'JDWP_EventRequest_Clear (2)':
+    'prefix': 'JDWP_EventRequest_Clear'
+    'body': 'JDWP_EventRequest_Clear'
+  'JDWP_EventRequest_ClearAllBreakpoints (3)':
+    'prefix': 'JDWP_EventRequest_ClearAllBreakpoints'
+    'body': 'JDWP_EventRequest_ClearAllBreakpoints'
+  'JDWP_EventRequest_Set (1)':
+    'prefix': 'JDWP_EventRequest_Set'
+    'body': 'JDWP_EventRequest_Set'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassExclude (6)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassExclude'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassExclude'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassMatch (5)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassMatch'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassMatch'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassOnly (4)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassOnly'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ClassOnly'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_Conditional (2)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_Conditional'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_Conditional'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_Count (1)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_Count'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_Count'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_ExceptionOnly (8)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ExceptionOnly'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ExceptionOnly'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_FieldOnly (9)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_FieldOnly'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_FieldOnly'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_InstanceOnly (11)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_InstanceOnly'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_InstanceOnly'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_LocationOnly (7)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_LocationOnly'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_LocationOnly'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_SourceNameMatch (12)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_SourceNameMatch'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_SourceNameMatch'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_Step (10)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_Step'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_Step'
+  'JDWP_EventRequest_Set_Out_modifiers_Modifier_ThreadOnly (3)':
+    'prefix': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ThreadOnly'
+    'body': 'JDWP_EventRequest_Set_Out_modifiers_Modifier_ThreadOnly'
+  'JDWP_Event_Composite (100)':
+    'prefix': 'JDWP_Event_Composite'
+    'body': 'JDWP_Event_Composite'
+  'JDWP_Field (8)':
+    'prefix': 'JDWP_Field'
+    'body': 'JDWP_Field'
+  'JDWP_HIGHEST_COMMAND_SET (17)':
+    'prefix': 'JDWP_HIGHEST_COMMAND_SET'
+    'body': 'JDWP_HIGHEST_COMMAND_SET'
+  'JDWP_InterfaceType (5)':
+    'prefix': 'JDWP_InterfaceType'
+    'body': 'JDWP_InterfaceType'
+  'JDWP_InvokeOptions_INVOKE_NONVIRTUAL (2)':
+    'prefix': 'JDWP_InvokeOptions_INVOKE_NONVIRTUAL'
+    'body': 'JDWP_InvokeOptions_INVOKE_NONVIRTUAL'
+  'JDWP_InvokeOptions_INVOKE_SINGLE_THREADED (1)':
+    'prefix': 'JDWP_InvokeOptions_INVOKE_SINGLE_THREADED'
+    'body': 'JDWP_InvokeOptions_INVOKE_SINGLE_THREADED'
+  'JDWP_Method (6)':
+    'prefix': 'JDWP_Method'
+    'body': 'JDWP_Method'
+  'JDWP_Method_Bytecodes (3)':
+    'prefix': 'JDWP_Method_Bytecodes'
+    'body': 'JDWP_Method_Bytecodes'
+  'JDWP_Method_IsObsolete (4)':
+    'prefix': 'JDWP_Method_IsObsolete'
+    'body': 'JDWP_Method_IsObsolete'
+  'JDWP_Method_LineTable (1)':
+    'prefix': 'JDWP_Method_LineTable'
+    'body': 'JDWP_Method_LineTable'
+  'JDWP_Method_VariableTable (2)':
+    'prefix': 'JDWP_Method_VariableTable'
+    'body': 'JDWP_Method_VariableTable'
+  'JDWP_Method_VariableTableWithGeneric (5)':
+    'prefix': 'JDWP_Method_VariableTableWithGeneric'
+    'body': 'JDWP_Method_VariableTableWithGeneric'
+  'JDWP_ObjectReference (9)':
+    'prefix': 'JDWP_ObjectReference'
+    'body': 'JDWP_ObjectReference'
+  'JDWP_ObjectReference_DisableCollection (7)':
+    'prefix': 'JDWP_ObjectReference_DisableCollection'
+    'body': 'JDWP_ObjectReference_DisableCollection'
+  'JDWP_ObjectReference_EnableCollection (8)':
+    'prefix': 'JDWP_ObjectReference_EnableCollection'
+    'body': 'JDWP_ObjectReference_EnableCollection'
+  'JDWP_ObjectReference_GetValues (2)':
+    'prefix': 'JDWP_ObjectReference_GetValues'
+    'body': 'JDWP_ObjectReference_GetValues'
+  'JDWP_ObjectReference_InvokeMethod (6)':
+    'prefix': 'JDWP_ObjectReference_InvokeMethod'
+    'body': 'JDWP_ObjectReference_InvokeMethod'
+  'JDWP_ObjectReference_IsCollected (9)':
+    'prefix': 'JDWP_ObjectReference_IsCollected'
+    'body': 'JDWP_ObjectReference_IsCollected'
+  'JDWP_ObjectReference_MonitorInfo (5)':
+    'prefix': 'JDWP_ObjectReference_MonitorInfo'
+    'body': 'JDWP_ObjectReference_MonitorInfo'
+  'JDWP_ObjectReference_ReferenceType (1)':
+    'prefix': 'JDWP_ObjectReference_ReferenceType'
+    'body': 'JDWP_ObjectReference_ReferenceType'
+  'JDWP_ObjectReference_ReferringObjects (10)':
+    'prefix': 'JDWP_ObjectReference_ReferringObjects'
+    'body': 'JDWP_ObjectReference_ReferringObjects'
+  'JDWP_ObjectReference_SetValues (3)':
+    'prefix': 'JDWP_ObjectReference_SetValues'
+    'body': 'JDWP_ObjectReference_SetValues'
+  'JDWP_REQUEST_NONE (-1)':
+    'prefix': 'JDWP_REQUEST_NONE'
+    'body': 'JDWP_REQUEST_NONE'
+  'JDWP_ReferenceType (2)':
+    'prefix': 'JDWP_ReferenceType'
+    'body': 'JDWP_ReferenceType'
+  'JDWP_ReferenceType_ClassFileVersion (17)':
+    'prefix': 'JDWP_ReferenceType_ClassFileVersion'
+    'body': 'JDWP_ReferenceType_ClassFileVersion'
+  'JDWP_ReferenceType_ClassLoader (2)':
+    'prefix': 'JDWP_ReferenceType_ClassLoader'
+    'body': 'JDWP_ReferenceType_ClassLoader'
+  'JDWP_ReferenceType_ClassObject (11)':
+    'prefix': 'JDWP_ReferenceType_ClassObject'
+    'body': 'JDWP_ReferenceType_ClassObject'
+  'JDWP_ReferenceType_ConstantPool (18)':
+    'prefix': 'JDWP_ReferenceType_ConstantPool'
+    'body': 'JDWP_ReferenceType_ConstantPool'
+  'JDWP_ReferenceType_Fields (4)':
+    'prefix': 'JDWP_ReferenceType_Fields'
+    'body': 'JDWP_ReferenceType_Fields'
+  'JDWP_ReferenceType_FieldsWithGeneric (14)':
+    'prefix': 'JDWP_ReferenceType_FieldsWithGeneric'
+    'body': 'JDWP_ReferenceType_FieldsWithGeneric'
+  'JDWP_ReferenceType_GetValues (6)':
+    'prefix': 'JDWP_ReferenceType_GetValues'
+    'body': 'JDWP_ReferenceType_GetValues'
+  'JDWP_ReferenceType_Instances (16)':
+    'prefix': 'JDWP_ReferenceType_Instances'
+    'body': 'JDWP_ReferenceType_Instances'
+  'JDWP_ReferenceType_Interfaces (10)':
+    'prefix': 'JDWP_ReferenceType_Interfaces'
+    'body': 'JDWP_ReferenceType_Interfaces'
+  'JDWP_ReferenceType_Methods (5)':
+    'prefix': 'JDWP_ReferenceType_Methods'
+    'body': 'JDWP_ReferenceType_Methods'
+  'JDWP_ReferenceType_MethodsWithGeneric (15)':
+    'prefix': 'JDWP_ReferenceType_MethodsWithGeneric'
+    'body': 'JDWP_ReferenceType_MethodsWithGeneric'
+  'JDWP_ReferenceType_Modifiers (3)':
+    'prefix': 'JDWP_ReferenceType_Modifiers'
+    'body': 'JDWP_ReferenceType_Modifiers'
+  'JDWP_ReferenceType_NestedTypes (8)':
+    'prefix': 'JDWP_ReferenceType_NestedTypes'
+    'body': 'JDWP_ReferenceType_NestedTypes'
+  'JDWP_ReferenceType_Signature (1)':
+    'prefix': 'JDWP_ReferenceType_Signature'
+    'body': 'JDWP_ReferenceType_Signature'
+  'JDWP_ReferenceType_SignatureWithGeneric (13)':
+    'prefix': 'JDWP_ReferenceType_SignatureWithGeneric'
+    'body': 'JDWP_ReferenceType_SignatureWithGeneric'
+  'JDWP_ReferenceType_SourceDebugExtension (12)':
+    'prefix': 'JDWP_ReferenceType_SourceDebugExtension'
+    'body': 'JDWP_ReferenceType_SourceDebugExtension'
+  'JDWP_ReferenceType_SourceFile (7)':
+    'prefix': 'JDWP_ReferenceType_SourceFile'
+    'body': 'JDWP_ReferenceType_SourceFile'
+  'JDWP_ReferenceType_Status (9)':
+    'prefix': 'JDWP_ReferenceType_Status'
+    'body': 'JDWP_ReferenceType_Status'
+  'JDWP_StackFrame (16)':
+    'prefix': 'JDWP_StackFrame'
+    'body': 'JDWP_StackFrame'
+  'JDWP_StackFrame_GetValues (1)':
+    'prefix': 'JDWP_StackFrame_GetValues'
+    'body': 'JDWP_StackFrame_GetValues'
+  'JDWP_StackFrame_PopFrames (4)':
+    'prefix': 'JDWP_StackFrame_PopFrames'
+    'body': 'JDWP_StackFrame_PopFrames'
+  'JDWP_StackFrame_SetValues (2)':
+    'prefix': 'JDWP_StackFrame_SetValues'
+    'body': 'JDWP_StackFrame_SetValues'
+  'JDWP_StackFrame_ThisObject (3)':
+    'prefix': 'JDWP_StackFrame_ThisObject'
+    'body': 'JDWP_StackFrame_ThisObject'
+  'JDWP_StepDepth_INTO (0)':
+    'prefix': 'JDWP_StepDepth_INTO'
+    'body': 'JDWP_StepDepth_INTO'
+  'JDWP_StepDepth_OUT (2)':
+    'prefix': 'JDWP_StepDepth_OUT'
+    'body': 'JDWP_StepDepth_OUT'
+  'JDWP_StepDepth_OVER (1)':
+    'prefix': 'JDWP_StepDepth_OVER'
+    'body': 'JDWP_StepDepth_OVER'
+  'JDWP_StepSize_LINE (1)':
+    'prefix': 'JDWP_StepSize_LINE'
+    'body': 'JDWP_StepSize_LINE'
+  'JDWP_StepSize_MIN (0)':
+    'prefix': 'JDWP_StepSize_MIN'
+    'body': 'JDWP_StepSize_MIN'
+  'JDWP_StringReference (10)':
+    'prefix': 'JDWP_StringReference'
+    'body': 'JDWP_StringReference'
+  'JDWP_StringReference_Value (1)':
+    'prefix': 'JDWP_StringReference_Value'
+    'body': 'JDWP_StringReference_Value'
+  'JDWP_SuspendPolicy_ALL (2)':
+    'prefix': 'JDWP_SuspendPolicy_ALL'
+    'body': 'JDWP_SuspendPolicy_ALL'
+  'JDWP_SuspendPolicy_EVENT_THREAD (1)':
+    'prefix': 'JDWP_SuspendPolicy_EVENT_THREAD'
+    'body': 'JDWP_SuspendPolicy_EVENT_THREAD'
+  'JDWP_SuspendPolicy_NONE (0)':
+    'prefix': 'JDWP_SuspendPolicy_NONE'
+    'body': 'JDWP_SuspendPolicy_NONE'
+  'JDWP_SuspendStatus_SUSPEND_STATUS_SUSPENDED (1)':
+    'prefix': 'JDWP_SuspendStatus_SUSPEND_STATUS_SUSPENDED'
+    'body': 'JDWP_SuspendStatus_SUSPEND_STATUS_SUSPENDED'
+  'JDWP_Tag_ARRAY (91)':
+    'prefix': 'JDWP_Tag_ARRAY'
+    'body': 'JDWP_Tag_ARRAY'
+  'JDWP_Tag_BOOLEAN (90)':
+    'prefix': 'JDWP_Tag_BOOLEAN'
+    'body': 'JDWP_Tag_BOOLEAN'
+  'JDWP_Tag_BYTE (66)':
+    'prefix': 'JDWP_Tag_BYTE'
+    'body': 'JDWP_Tag_BYTE'
+  'JDWP_Tag_CHAR (67)':
+    'prefix': 'JDWP_Tag_CHAR'
+    'body': 'JDWP_Tag_CHAR'
+  'JDWP_Tag_CLASS_LOADER (108)':
+    'prefix': 'JDWP_Tag_CLASS_LOADER'
+    'body': 'JDWP_Tag_CLASS_LOADER'
+  'JDWP_Tag_CLASS_OBJECT (99)':
+    'prefix': 'JDWP_Tag_CLASS_OBJECT'
+    'body': 'JDWP_Tag_CLASS_OBJECT'
+  'JDWP_Tag_DOUBLE (68)':
+    'prefix': 'JDWP_Tag_DOUBLE'
+    'body': 'JDWP_Tag_DOUBLE'
+  'JDWP_Tag_FLOAT (70)':
+    'prefix': 'JDWP_Tag_FLOAT'
+    'body': 'JDWP_Tag_FLOAT'
+  'JDWP_Tag_INT (73)':
+    'prefix': 'JDWP_Tag_INT'
+    'body': 'JDWP_Tag_INT'
+  'JDWP_Tag_LONG (74)':
+    'prefix': 'JDWP_Tag_LONG'
+    'body': 'JDWP_Tag_LONG'
+  'JDWP_Tag_OBJECT (76)':
+    'prefix': 'JDWP_Tag_OBJECT'
+    'body': 'JDWP_Tag_OBJECT'
+  'JDWP_Tag_SHORT (83)':
+    'prefix': 'JDWP_Tag_SHORT'
+    'body': 'JDWP_Tag_SHORT'
+  'JDWP_Tag_STRING (115)':
+    'prefix': 'JDWP_Tag_STRING'
+    'body': 'JDWP_Tag_STRING'
+  'JDWP_Tag_THREAD (116)':
+    'prefix': 'JDWP_Tag_THREAD'
+    'body': 'JDWP_Tag_THREAD'
+  'JDWP_Tag_THREAD_GROUP (103)':
+    'prefix': 'JDWP_Tag_THREAD_GROUP'
+    'body': 'JDWP_Tag_THREAD_GROUP'
+  'JDWP_Tag_VOID (86)':
+    'prefix': 'JDWP_Tag_VOID'
+    'body': 'JDWP_Tag_VOID'
+  'JDWP_ThreadGroupReference (12)':
+    'prefix': 'JDWP_ThreadGroupReference'
+    'body': 'JDWP_ThreadGroupReference'
+  'JDWP_ThreadGroupReference_Children (3)':
+    'prefix': 'JDWP_ThreadGroupReference_Children'
+    'body': 'JDWP_ThreadGroupReference_Children'
+  'JDWP_ThreadGroupReference_Name (1)':
+    'prefix': 'JDWP_ThreadGroupReference_Name'
+    'body': 'JDWP_ThreadGroupReference_Name'
+  'JDWP_ThreadGroupReference_Parent (2)':
+    'prefix': 'JDWP_ThreadGroupReference_Parent'
+    'body': 'JDWP_ThreadGroupReference_Parent'
+  'JDWP_ThreadReference (11)':
+    'prefix': 'JDWP_ThreadReference'
+    'body': 'JDWP_ThreadReference'
+  'JDWP_ThreadReference_CurrentContendedMonitor (9)':
+    'prefix': 'JDWP_ThreadReference_CurrentContendedMonitor'
+    'body': 'JDWP_ThreadReference_CurrentContendedMonitor'
+  'JDWP_ThreadReference_ForceEarlyReturn (14)':
+    'prefix': 'JDWP_ThreadReference_ForceEarlyReturn'
+    'body': 'JDWP_ThreadReference_ForceEarlyReturn'
+  'JDWP_ThreadReference_FrameCount (7)':
+    'prefix': 'JDWP_ThreadReference_FrameCount'
+    'body': 'JDWP_ThreadReference_FrameCount'
+  'JDWP_ThreadReference_Frames (6)':
+    'prefix': 'JDWP_ThreadReference_Frames'
+    'body': 'JDWP_ThreadReference_Frames'
+  'JDWP_ThreadReference_Interrupt (11)':
+    'prefix': 'JDWP_ThreadReference_Interrupt'
+    'body': 'JDWP_ThreadReference_Interrupt'
+  'JDWP_ThreadReference_Name (1)':
+    'prefix': 'JDWP_ThreadReference_Name'
+    'body': 'JDWP_ThreadReference_Name'
+  'JDWP_ThreadReference_OwnedMonitors (8)':
+    'prefix': 'JDWP_ThreadReference_OwnedMonitors'
+    'body': 'JDWP_ThreadReference_OwnedMonitors'
+  'JDWP_ThreadReference_OwnedMonitorsStackDepthInfo (13)':
+    'prefix': 'JDWP_ThreadReference_OwnedMonitorsStackDepthInfo'
+    'body': 'JDWP_ThreadReference_OwnedMonitorsStackDepthInfo'
+  'JDWP_ThreadReference_Resume (3)':
+    'prefix': 'JDWP_ThreadReference_Resume'
+    'body': 'JDWP_ThreadReference_Resume'
+  'JDWP_ThreadReference_Status (4)':
+    'prefix': 'JDWP_ThreadReference_Status'
+    'body': 'JDWP_ThreadReference_Status'
+  'JDWP_ThreadReference_Stop (10)':
+    'prefix': 'JDWP_ThreadReference_Stop'
+    'body': 'JDWP_ThreadReference_Stop'
+  'JDWP_ThreadReference_Suspend (2)':
+    'prefix': 'JDWP_ThreadReference_Suspend'
+    'body': 'JDWP_ThreadReference_Suspend'
+  'JDWP_ThreadReference_SuspendCount (12)':
+    'prefix': 'JDWP_ThreadReference_SuspendCount'
+    'body': 'JDWP_ThreadReference_SuspendCount'
+  'JDWP_ThreadReference_ThreadGroup (5)':
+    'prefix': 'JDWP_ThreadReference_ThreadGroup'
+    'body': 'JDWP_ThreadReference_ThreadGroup'
+  'JDWP_ThreadStatus_MONITOR (3)':
+    'prefix': 'JDWP_ThreadStatus_MONITOR'
+    'body': 'JDWP_ThreadStatus_MONITOR'
+  'JDWP_ThreadStatus_RUNNING (1)':
+    'prefix': 'JDWP_ThreadStatus_RUNNING'
+    'body': 'JDWP_ThreadStatus_RUNNING'
+  'JDWP_ThreadStatus_SLEEPING (2)':
+    'prefix': 'JDWP_ThreadStatus_SLEEPING'
+    'body': 'JDWP_ThreadStatus_SLEEPING'
+  'JDWP_ThreadStatus_WAIT (4)':
+    'prefix': 'JDWP_ThreadStatus_WAIT'
+    'body': 'JDWP_ThreadStatus_WAIT'
+  'JDWP_ThreadStatus_ZOMBIE (0)':
+    'prefix': 'JDWP_ThreadStatus_ZOMBIE'
+    'body': 'JDWP_ThreadStatus_ZOMBIE'
+  'JDWP_TypeTag_ARRAY (3)':
+    'prefix': 'JDWP_TypeTag_ARRAY'
+    'body': 'JDWP_TypeTag_ARRAY'
+  'JDWP_TypeTag_CLASS (1)':
+    'prefix': 'JDWP_TypeTag_CLASS'
+    'body': 'JDWP_TypeTag_CLASS'
+  'JDWP_TypeTag_INTERFACE (2)':
+    'prefix': 'JDWP_TypeTag_INTERFACE'
+    'body': 'JDWP_TypeTag_INTERFACE'
+  'JDWP_VirtualMachine (1)':
+    'prefix': 'JDWP_VirtualMachine'
+    'body': 'JDWP_VirtualMachine'
+  'JDWP_VirtualMachine_AllClasses (3)':
+    'prefix': 'JDWP_VirtualMachine_AllClasses'
+    'body': 'JDWP_VirtualMachine_AllClasses'
+  'JDWP_VirtualMachine_AllClassesWithGeneric (20)':
+    'prefix': 'JDWP_VirtualMachine_AllClassesWithGeneric'
+    'body': 'JDWP_VirtualMachine_AllClassesWithGeneric'
+  'JDWP_VirtualMachine_AllThreads (4)':
+    'prefix': 'JDWP_VirtualMachine_AllThreads'
+    'body': 'JDWP_VirtualMachine_AllThreads'
+  'JDWP_VirtualMachine_Capabilities (12)':
+    'prefix': 'JDWP_VirtualMachine_Capabilities'
+    'body': 'JDWP_VirtualMachine_Capabilities'
+  'JDWP_VirtualMachine_CapabilitiesNew (17)':
+    'prefix': 'JDWP_VirtualMachine_CapabilitiesNew'
+    'body': 'JDWP_VirtualMachine_CapabilitiesNew'
+  'JDWP_VirtualMachine_ClassPaths (13)':
+    'prefix': 'JDWP_VirtualMachine_ClassPaths'
+    'body': 'JDWP_VirtualMachine_ClassPaths'
+  'JDWP_VirtualMachine_ClassesBySignature (2)':
+    'prefix': 'JDWP_VirtualMachine_ClassesBySignature'
+    'body': 'JDWP_VirtualMachine_ClassesBySignature'
+  'JDWP_VirtualMachine_CreateString (11)':
+    'prefix': 'JDWP_VirtualMachine_CreateString'
+    'body': 'JDWP_VirtualMachine_CreateString'
+  'JDWP_VirtualMachine_Dispose (6)':
+    'prefix': 'JDWP_VirtualMachine_Dispose'
+    'body': 'JDWP_VirtualMachine_Dispose'
+  'JDWP_VirtualMachine_DisposeObjects (14)':
+    'prefix': 'JDWP_VirtualMachine_DisposeObjects'
+    'body': 'JDWP_VirtualMachine_DisposeObjects'
+  'JDWP_VirtualMachine_Exit (10)':
+    'prefix': 'JDWP_VirtualMachine_Exit'
+    'body': 'JDWP_VirtualMachine_Exit'
+  'JDWP_VirtualMachine_HoldEvents (15)':
+    'prefix': 'JDWP_VirtualMachine_HoldEvents'
+    'body': 'JDWP_VirtualMachine_HoldEvents'
+  'JDWP_VirtualMachine_IDSizes (7)':
+    'prefix': 'JDWP_VirtualMachine_IDSizes'
+    'body': 'JDWP_VirtualMachine_IDSizes'
+  'JDWP_VirtualMachine_InstanceCounts (21)':
+    'prefix': 'JDWP_VirtualMachine_InstanceCounts'
+    'body': 'JDWP_VirtualMachine_InstanceCounts'
+  'JDWP_VirtualMachine_RedefineClasses (18)':
+    'prefix': 'JDWP_VirtualMachine_RedefineClasses'
+    'body': 'JDWP_VirtualMachine_RedefineClasses'
+  'JDWP_VirtualMachine_ReleaseEvents (16)':
+    'prefix': 'JDWP_VirtualMachine_ReleaseEvents'
+    'body': 'JDWP_VirtualMachine_ReleaseEvents'
+  'JDWP_VirtualMachine_Resume (9)':
+    'prefix': 'JDWP_VirtualMachine_Resume'
+    'body': 'JDWP_VirtualMachine_Resume'
+  'JDWP_VirtualMachine_SetDefaultStratum (19)':
+    'prefix': 'JDWP_VirtualMachine_SetDefaultStratum'
+    'body': 'JDWP_VirtualMachine_SetDefaultStratum'
+  'JDWP_VirtualMachine_Suspend (8)':
+    'prefix': 'JDWP_VirtualMachine_Suspend'
+    'body': 'JDWP_VirtualMachine_Suspend'
+  'JDWP_VirtualMachine_TopLevelThreadGroups (5)':
+    'prefix': 'JDWP_VirtualMachine_TopLevelThreadGroups'
+    'body': 'JDWP_VirtualMachine_TopLevelThreadGroups'
+  'JDWP_VirtualMachine_Version (1)':
+    'prefix': 'JDWP_VirtualMachine_Version'
+    'body': 'JDWP_VirtualMachine_Version'
+  'JNIGlobalRefType (2)':
+    'prefix': 'JNIGlobalRefType'
+    'body': 'JNIGlobalRefType'
+  'JNIInvalidRefType (0)':
+    'prefix': 'JNIInvalidRefType'
+    'body': 'JNIInvalidRefType'
+  'JNILocalRefType (1)':
+    'prefix': 'JNILocalRefType'
+    'body': 'JNILocalRefType'
+  'JNIWeakGlobalRefType (3)':
+    'prefix': 'JNIWeakGlobalRefType'
+    'body': 'JNIWeakGlobalRefType'
+  'JNI_ABORT (2)':
+    'prefix': 'JNI_ABORT'
+    'body': 'JNI_ABORT'
+  'JNI_COMMIT (1)':
+    'prefix': 'JNI_COMMIT'
+    'body': 'JNI_COMMIT'
+  'JNI_EDETACHED (-2)':
+    'prefix': 'JNI_EDETACHED'
+    'body': 'JNI_EDETACHED'
+  'JNI_EEXIST (-5)':
+    'prefix': 'JNI_EEXIST'
+    'body': 'JNI_EEXIST'
+  'JNI_EINVAL (-6)':
+    'prefix': 'JNI_EINVAL'
+    'body': 'JNI_EINVAL'
+  'JNI_ENOMEM (-4)':
+    'prefix': 'JNI_ENOMEM'
+    'body': 'JNI_ENOMEM'
+  'JNI_ERR (-1)':
+    'prefix': 'JNI_ERR'
+    'body': 'JNI_ERR'
+  'JNI_EVERSION (-3)':
+    'prefix': 'JNI_EVERSION'
+    'body': 'JNI_EVERSION'
+  'JNI_FALSE (0)':
+    'prefix': 'JNI_FALSE'
+    'body': 'JNI_FALSE'
+  'JNI_OK (0)':
+    'prefix': 'JNI_OK'
+    'body': 'JNI_OK'
+  'JNI_TRUE (1)':
+    'prefix': 'JNI_TRUE'
+    'body': 'JNI_TRUE'
+  'JNI_VERSION_1_1 (65537)':
+    'prefix': 'JNI_VERSION_1_1'
+    'body': 'JNI_VERSION_1_1'
+  'JNI_VERSION_1_2 (65538)':
+    'prefix': 'JNI_VERSION_1_2'
+    'body': 'JNI_VERSION_1_2'
+  'JNI_VERSION_1_4 (65540)':
+    'prefix': 'JNI_VERSION_1_4'
+    'body': 'JNI_VERSION_1_4'
+  'JNI_VERSION_1_6 (65542)':
+    'prefix': 'JNI_VERSION_1_6'
+    'body': 'JNI_VERSION_1_6'
+  'JVMTI_CLASS_STATUS_ARRAY (16)':
+    'prefix': 'JVMTI_CLASS_STATUS_ARRAY'
+    'body': 'JVMTI_CLASS_STATUS_ARRAY'
+  'JVMTI_CLASS_STATUS_ERROR (8)':
+    'prefix': 'JVMTI_CLASS_STATUS_ERROR'
+    'body': 'JVMTI_CLASS_STATUS_ERROR'
+  'JVMTI_CLASS_STATUS_INITIALIZED (4)':
+    'prefix': 'JVMTI_CLASS_STATUS_INITIALIZED'
+    'body': 'JVMTI_CLASS_STATUS_INITIALIZED'
+  'JVMTI_CLASS_STATUS_PREPARED (2)':
+    'prefix': 'JVMTI_CLASS_STATUS_PREPARED'
+    'body': 'JVMTI_CLASS_STATUS_PREPARED'
+  'JVMTI_CLASS_STATUS_PRIMITIVE (32)':
+    'prefix': 'JVMTI_CLASS_STATUS_PRIMITIVE'
+    'body': 'JVMTI_CLASS_STATUS_PRIMITIVE'
+  'JVMTI_CLASS_STATUS_VERIFIED (1)':
+    'prefix': 'JVMTI_CLASS_STATUS_VERIFIED'
+    'body': 'JVMTI_CLASS_STATUS_VERIFIED'
+  'JVMTI_DISABLE (0)':
+    'prefix': 'JVMTI_DISABLE'
+    'body': 'JVMTI_DISABLE'
+  'JVMTI_ENABLE (1)':
+    'prefix': 'JVMTI_ENABLE'
+    'body': 'JVMTI_ENABLE'
+  'JVMTI_ERROR_ABSENT_INFORMATION (101)':
+    'prefix': 'JVMTI_ERROR_ABSENT_INFORMATION'
+    'body': 'JVMTI_ERROR_ABSENT_INFORMATION'
+  'JVMTI_ERROR_ACCESS_DENIED (111)':
+    'prefix': 'JVMTI_ERROR_ACCESS_DENIED'
+    'body': 'JVMTI_ERROR_ACCESS_DENIED'
+  'JVMTI_ERROR_CIRCULAR_CLASS_DEFINITION (61)':
+    'prefix': 'JVMTI_ERROR_CIRCULAR_CLASS_DEFINITION'
+    'body': 'JVMTI_ERROR_CIRCULAR_CLASS_DEFINITION'
+  'JVMTI_ERROR_CLASS_LOADER_UNSUPPORTED (106)':
+    'prefix': 'JVMTI_ERROR_CLASS_LOADER_UNSUPPORTED'
+    'body': 'JVMTI_ERROR_CLASS_LOADER_UNSUPPORTED'
+  'JVMTI_ERROR_CLASS_NOT_PREPARED (22)':
+    'prefix': 'JVMTI_ERROR_CLASS_NOT_PREPARED'
+    'body': 'JVMTI_ERROR_CLASS_NOT_PREPARED'
+  'JVMTI_ERROR_DUPLICATE (40)':
+    'prefix': 'JVMTI_ERROR_DUPLICATE'
+    'body': 'JVMTI_ERROR_DUPLICATE'
+  'JVMTI_ERROR_FAILS_VERIFICATION (62)':
+    'prefix': 'JVMTI_ERROR_FAILS_VERIFICATION'
+    'body': 'JVMTI_ERROR_FAILS_VERIFICATION'
+  'JVMTI_ERROR_ILLEGAL_ARGUMENT (103)':
+    'prefix': 'JVMTI_ERROR_ILLEGAL_ARGUMENT'
+    'body': 'JVMTI_ERROR_ILLEGAL_ARGUMENT'
+  'JVMTI_ERROR_INTERNAL (113)':
+    'prefix': 'JVMTI_ERROR_INTERNAL'
+    'body': 'JVMTI_ERROR_INTERNAL'
+  'JVMTI_ERROR_INTERRUPT (52)':
+    'prefix': 'JVMTI_ERROR_INTERRUPT'
+    'body': 'JVMTI_ERROR_INTERRUPT'
+  'JVMTI_ERROR_INVALID_CLASS (21)':
+    'prefix': 'JVMTI_ERROR_INVALID_CLASS'
+    'body': 'JVMTI_ERROR_INVALID_CLASS'
+  'JVMTI_ERROR_INVALID_CLASS_FORMAT (60)':
+    'prefix': 'JVMTI_ERROR_INVALID_CLASS_FORMAT'
+    'body': 'JVMTI_ERROR_INVALID_CLASS_FORMAT'
+  'JVMTI_ERROR_INVALID_ENVIRONMENT (116)':
+    'prefix': 'JVMTI_ERROR_INVALID_ENVIRONMENT'
+    'body': 'JVMTI_ERROR_INVALID_ENVIRONMENT'
+  'JVMTI_ERROR_INVALID_EVENT_TYPE (102)':
+    'prefix': 'JVMTI_ERROR_INVALID_EVENT_TYPE'
+    'body': 'JVMTI_ERROR_INVALID_EVENT_TYPE'
+  'JVMTI_ERROR_INVALID_FIELDID (25)':
+    'prefix': 'JVMTI_ERROR_INVALID_FIELDID'
+    'body': 'JVMTI_ERROR_INVALID_FIELDID'
+  'JVMTI_ERROR_INVALID_LOCATION (24)':
+    'prefix': 'JVMTI_ERROR_INVALID_LOCATION'
+    'body': 'JVMTI_ERROR_INVALID_LOCATION'
+  'JVMTI_ERROR_INVALID_METHODID (23)':
+    'prefix': 'JVMTI_ERROR_INVALID_METHODID'
+    'body': 'JVMTI_ERROR_INVALID_METHODID'
+  'JVMTI_ERROR_INVALID_MONITOR (50)':
+    'prefix': 'JVMTI_ERROR_INVALID_MONITOR'
+    'body': 'JVMTI_ERROR_INVALID_MONITOR'
+  'JVMTI_ERROR_INVALID_OBJECT (20)':
+    'prefix': 'JVMTI_ERROR_INVALID_OBJECT'
+    'body': 'JVMTI_ERROR_INVALID_OBJECT'
+  'JVMTI_ERROR_INVALID_PRIORITY (12)':
+    'prefix': 'JVMTI_ERROR_INVALID_PRIORITY'
+    'body': 'JVMTI_ERROR_INVALID_PRIORITY'
+  'JVMTI_ERROR_INVALID_SLOT (35)':
+    'prefix': 'JVMTI_ERROR_INVALID_SLOT'
+    'body': 'JVMTI_ERROR_INVALID_SLOT'
+  'JVMTI_ERROR_INVALID_THREAD (10)':
+    'prefix': 'JVMTI_ERROR_INVALID_THREAD'
+    'body': 'JVMTI_ERROR_INVALID_THREAD'
+  'JVMTI_ERROR_INVALID_THREAD_GROUP (11)':
+    'prefix': 'JVMTI_ERROR_INVALID_THREAD_GROUP'
+    'body': 'JVMTI_ERROR_INVALID_THREAD_GROUP'
+  'JVMTI_ERROR_INVALID_TYPESTATE (65)':
+    'prefix': 'JVMTI_ERROR_INVALID_TYPESTATE'
+    'body': 'JVMTI_ERROR_INVALID_TYPESTATE'
+  'JVMTI_ERROR_MAX (116)':
+    'prefix': 'JVMTI_ERROR_MAX'
+    'body': 'JVMTI_ERROR_MAX'
+  'JVMTI_ERROR_MUST_POSSESS_CAPABILITY (99)':
+    'prefix': 'JVMTI_ERROR_MUST_POSSESS_CAPABILITY'
+    'body': 'JVMTI_ERROR_MUST_POSSESS_CAPABILITY'
+  'JVMTI_ERROR_NAMES_DONT_MATCH (69)':
+    'prefix': 'JVMTI_ERROR_NAMES_DONT_MATCH'
+    'body': 'JVMTI_ERROR_NAMES_DONT_MATCH'
+  'JVMTI_ERROR_NATIVE_METHOD (104)':
+    'prefix': 'JVMTI_ERROR_NATIVE_METHOD'
+    'body': 'JVMTI_ERROR_NATIVE_METHOD'
+  'JVMTI_ERROR_NONE (0)':
+    'prefix': 'JVMTI_ERROR_NONE'
+    'body': 'JVMTI_ERROR_NONE'
+  'JVMTI_ERROR_NOT_AVAILABLE (98)':
+    'prefix': 'JVMTI_ERROR_NOT_AVAILABLE'
+    'body': 'JVMTI_ERROR_NOT_AVAILABLE'
+  'JVMTI_ERROR_NOT_FOUND (41)':
+    'prefix': 'JVMTI_ERROR_NOT_FOUND'
+    'body': 'JVMTI_ERROR_NOT_FOUND'
+  'JVMTI_ERROR_NOT_MONITOR_OWNER (51)':
+    'prefix': 'JVMTI_ERROR_NOT_MONITOR_OWNER'
+    'body': 'JVMTI_ERROR_NOT_MONITOR_OWNER'
+  'JVMTI_ERROR_NO_MORE_FRAMES (31)':
+    'prefix': 'JVMTI_ERROR_NO_MORE_FRAMES'
+    'body': 'JVMTI_ERROR_NO_MORE_FRAMES'
+  'JVMTI_ERROR_NULL_POINTER (100)':
+    'prefix': 'JVMTI_ERROR_NULL_POINTER'
+    'body': 'JVMTI_ERROR_NULL_POINTER'
+  'JVMTI_ERROR_OPAQUE_FRAME (32)':
+    'prefix': 'JVMTI_ERROR_OPAQUE_FRAME'
+    'body': 'JVMTI_ERROR_OPAQUE_FRAME'
+  'JVMTI_ERROR_OUT_OF_MEMORY (110)':
+    'prefix': 'JVMTI_ERROR_OUT_OF_MEMORY'
+    'body': 'JVMTI_ERROR_OUT_OF_MEMORY'
+  'JVMTI_ERROR_THREAD_NOT_ALIVE (15)':
+    'prefix': 'JVMTI_ERROR_THREAD_NOT_ALIVE'
+    'body': 'JVMTI_ERROR_THREAD_NOT_ALIVE'
+  'JVMTI_ERROR_THREAD_NOT_SUSPENDED (13)':
+    'prefix': 'JVMTI_ERROR_THREAD_NOT_SUSPENDED'
+    'body': 'JVMTI_ERROR_THREAD_NOT_SUSPENDED'
+  'JVMTI_ERROR_THREAD_SUSPENDED (14)':
+    'prefix': 'JVMTI_ERROR_THREAD_SUSPENDED'
+    'body': 'JVMTI_ERROR_THREAD_SUSPENDED'
+  'JVMTI_ERROR_TYPE_MISMATCH (34)':
+    'prefix': 'JVMTI_ERROR_TYPE_MISMATCH'
+    'body': 'JVMTI_ERROR_TYPE_MISMATCH'
+  'JVMTI_ERROR_UNATTACHED_THREAD (115)':
+    'prefix': 'JVMTI_ERROR_UNATTACHED_THREAD'
+    'body': 'JVMTI_ERROR_UNATTACHED_THREAD'
+  'JVMTI_ERROR_UNMODIFIABLE_CLASS (79)':
+    'prefix': 'JVMTI_ERROR_UNMODIFIABLE_CLASS'
+    'body': 'JVMTI_ERROR_UNMODIFIABLE_CLASS'
+  'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_CLASS_MODIFIERS_CHANGED (70)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_CLASS_MODIFIERS_CHANGED'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_CLASS_MODIFIERS_CHANGED'
+  'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_HIERARCHY_CHANGED (66)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_HIERARCHY_CHANGED'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_HIERARCHY_CHANGED'
+  'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_ADDED (63)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_ADDED'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_ADDED'
+  'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_DELETED (67)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_DELETED'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_DELETED'
+  'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_MODIFIERS_CHANGED (71)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_MODIFIERS_CHANGED'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_METHOD_MODIFIERS_CHANGED'
+  'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_SCHEMA_CHANGED (64)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_SCHEMA_CHANGED'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_REDEFINITION_SCHEMA_CHANGED'
+  'JVMTI_ERROR_UNSUPPORTED_VERSION (68)':
+    'prefix': 'JVMTI_ERROR_UNSUPPORTED_VERSION'
+    'body': 'JVMTI_ERROR_UNSUPPORTED_VERSION'
+  'JVMTI_ERROR_WRONG_PHASE (112)':
+    'prefix': 'JVMTI_ERROR_WRONG_PHASE'
+    'body': 'JVMTI_ERROR_WRONG_PHASE'
+  'JVMTI_EVENT_BREAKPOINT (62)':
+    'prefix': 'JVMTI_EVENT_BREAKPOINT'
+    'body': 'JVMTI_EVENT_BREAKPOINT'
+  'JVMTI_EVENT_CLASS_FILE_LOAD_HOOK (54)':
+    'prefix': 'JVMTI_EVENT_CLASS_FILE_LOAD_HOOK'
+    'body': 'JVMTI_EVENT_CLASS_FILE_LOAD_HOOK'
+  'JVMTI_EVENT_CLASS_LOAD (55)':
+    'prefix': 'JVMTI_EVENT_CLASS_LOAD'
+    'body': 'JVMTI_EVENT_CLASS_LOAD'
+  'JVMTI_EVENT_CLASS_PREPARE (56)':
+    'prefix': 'JVMTI_EVENT_CLASS_PREPARE'
+    'body': 'JVMTI_EVENT_CLASS_PREPARE'
+  'JVMTI_EVENT_COMPILED_METHOD_LOAD (68)':
+    'prefix': 'JVMTI_EVENT_COMPILED_METHOD_LOAD'
+    'body': 'JVMTI_EVENT_COMPILED_METHOD_LOAD'
+  'JVMTI_EVENT_COMPILED_METHOD_UNLOAD (69)':
+    'prefix': 'JVMTI_EVENT_COMPILED_METHOD_UNLOAD'
+    'body': 'JVMTI_EVENT_COMPILED_METHOD_UNLOAD'
+  'JVMTI_EVENT_DATA_DUMP_REQUEST (71)':
+    'prefix': 'JVMTI_EVENT_DATA_DUMP_REQUEST'
+    'body': 'JVMTI_EVENT_DATA_DUMP_REQUEST'
+  'JVMTI_EVENT_DYNAMIC_CODE_GENERATED (70)':
+    'prefix': 'JVMTI_EVENT_DYNAMIC_CODE_GENERATED'
+    'body': 'JVMTI_EVENT_DYNAMIC_CODE_GENERATED'
+  'JVMTI_EVENT_EXCEPTION (58)':
+    'prefix': 'JVMTI_EVENT_EXCEPTION'
+    'body': 'JVMTI_EVENT_EXCEPTION'
+  'JVMTI_EVENT_EXCEPTION_CATCH (59)':
+    'prefix': 'JVMTI_EVENT_EXCEPTION_CATCH'
+    'body': 'JVMTI_EVENT_EXCEPTION_CATCH'
+  'JVMTI_EVENT_FIELD_ACCESS (63)':
+    'prefix': 'JVMTI_EVENT_FIELD_ACCESS'
+    'body': 'JVMTI_EVENT_FIELD_ACCESS'
+  'JVMTI_EVENT_FIELD_MODIFICATION (64)':
+    'prefix': 'JVMTI_EVENT_FIELD_MODIFICATION'
+    'body': 'JVMTI_EVENT_FIELD_MODIFICATION'
+  'JVMTI_EVENT_FRAME_POP (61)':
+    'prefix': 'JVMTI_EVENT_FRAME_POP'
+    'body': 'JVMTI_EVENT_FRAME_POP'
+  'JVMTI_EVENT_GARBAGE_COLLECTION_FINISH (82)':
+    'prefix': 'JVMTI_EVENT_GARBAGE_COLLECTION_FINISH'
+    'body': 'JVMTI_EVENT_GARBAGE_COLLECTION_FINISH'
+  'JVMTI_EVENT_GARBAGE_COLLECTION_START (81)':
+    'prefix': 'JVMTI_EVENT_GARBAGE_COLLECTION_START'
+    'body': 'JVMTI_EVENT_GARBAGE_COLLECTION_START'
+  'JVMTI_EVENT_METHOD_ENTRY (65)':
+    'prefix': 'JVMTI_EVENT_METHOD_ENTRY'
+    'body': 'JVMTI_EVENT_METHOD_ENTRY'
+  'JVMTI_EVENT_METHOD_EXIT (66)':
+    'prefix': 'JVMTI_EVENT_METHOD_EXIT'
+    'body': 'JVMTI_EVENT_METHOD_EXIT'
+  'JVMTI_EVENT_MONITOR_CONTENDED_ENTER (75)':
+    'prefix': 'JVMTI_EVENT_MONITOR_CONTENDED_ENTER'
+    'body': 'JVMTI_EVENT_MONITOR_CONTENDED_ENTER'
+  'JVMTI_EVENT_MONITOR_CONTENDED_ENTERED (76)':
+    'prefix': 'JVMTI_EVENT_MONITOR_CONTENDED_ENTERED'
+    'body': 'JVMTI_EVENT_MONITOR_CONTENDED_ENTERED'
+  'JVMTI_EVENT_MONITOR_WAIT (73)':
+    'prefix': 'JVMTI_EVENT_MONITOR_WAIT'
+    'body': 'JVMTI_EVENT_MONITOR_WAIT'
+  'JVMTI_EVENT_MONITOR_WAITED (74)':
+    'prefix': 'JVMTI_EVENT_MONITOR_WAITED'
+    'body': 'JVMTI_EVENT_MONITOR_WAITED'
+  'JVMTI_EVENT_NATIVE_METHOD_BIND (67)':
+    'prefix': 'JVMTI_EVENT_NATIVE_METHOD_BIND'
+    'body': 'JVMTI_EVENT_NATIVE_METHOD_BIND'
+  'JVMTI_EVENT_OBJECT_FREE (83)':
+    'prefix': 'JVMTI_EVENT_OBJECT_FREE'
+    'body': 'JVMTI_EVENT_OBJECT_FREE'
+  'JVMTI_EVENT_RESOURCE_EXHAUSTED (80)':
+    'prefix': 'JVMTI_EVENT_RESOURCE_EXHAUSTED'
+    'body': 'JVMTI_EVENT_RESOURCE_EXHAUSTED'
+  'JVMTI_EVENT_SINGLE_STEP (60)':
+    'prefix': 'JVMTI_EVENT_SINGLE_STEP'
+    'body': 'JVMTI_EVENT_SINGLE_STEP'
+  'JVMTI_EVENT_THREAD_END (53)':
+    'prefix': 'JVMTI_EVENT_THREAD_END'
+    'body': 'JVMTI_EVENT_THREAD_END'
+  'JVMTI_EVENT_THREAD_START (52)':
+    'prefix': 'JVMTI_EVENT_THREAD_START'
+    'body': 'JVMTI_EVENT_THREAD_START'
+  'JVMTI_EVENT_VM_DEATH (51)':
+    'prefix': 'JVMTI_EVENT_VM_DEATH'
+    'body': 'JVMTI_EVENT_VM_DEATH'
+  'JVMTI_EVENT_VM_INIT (50)':
+    'prefix': 'JVMTI_EVENT_VM_INIT'
+    'body': 'JVMTI_EVENT_VM_INIT'
+  'JVMTI_EVENT_VM_OBJECT_ALLOC (84)':
+    'prefix': 'JVMTI_EVENT_VM_OBJECT_ALLOC'
+    'body': 'JVMTI_EVENT_VM_OBJECT_ALLOC'
+  'JVMTI_EVENT_VM_START (57)':
+    'prefix': 'JVMTI_EVENT_VM_START'
+    'body': 'JVMTI_EVENT_VM_START'
+  'JVMTI_HEAP_FILTER_CLASS_TAGGED (16)':
+    'prefix': 'JVMTI_HEAP_FILTER_CLASS_TAGGED'
+    'body': 'JVMTI_HEAP_FILTER_CLASS_TAGGED'
+  'JVMTI_HEAP_FILTER_CLASS_UNTAGGED (32)':
+    'prefix': 'JVMTI_HEAP_FILTER_CLASS_UNTAGGED'
+    'body': 'JVMTI_HEAP_FILTER_CLASS_UNTAGGED'
+  'JVMTI_HEAP_FILTER_TAGGED (4)':
+    'prefix': 'JVMTI_HEAP_FILTER_TAGGED'
+    'body': 'JVMTI_HEAP_FILTER_TAGGED'
+  'JVMTI_HEAP_FILTER_UNTAGGED (8)':
+    'prefix': 'JVMTI_HEAP_FILTER_UNTAGGED'
+    'body': 'JVMTI_HEAP_FILTER_UNTAGGED'
+  'JVMTI_HEAP_OBJECT_EITHER (3)':
+    'prefix': 'JVMTI_HEAP_OBJECT_EITHER'
+    'body': 'JVMTI_HEAP_OBJECT_EITHER'
+  'JVMTI_HEAP_OBJECT_TAGGED (1)':
+    'prefix': 'JVMTI_HEAP_OBJECT_TAGGED'
+    'body': 'JVMTI_HEAP_OBJECT_TAGGED'
+  'JVMTI_HEAP_OBJECT_UNTAGGED (2)':
+    'prefix': 'JVMTI_HEAP_OBJECT_UNTAGGED'
+    'body': 'JVMTI_HEAP_OBJECT_UNTAGGED'
+  'JVMTI_HEAP_REFERENCE_ARRAY_ELEMENT (3)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_ARRAY_ELEMENT'
+    'body': 'JVMTI_HEAP_REFERENCE_ARRAY_ELEMENT'
+  'JVMTI_HEAP_REFERENCE_CLASS (1)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_CLASS'
+    'body': 'JVMTI_HEAP_REFERENCE_CLASS'
+  'JVMTI_HEAP_REFERENCE_CLASS_LOADER (4)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_CLASS_LOADER'
+    'body': 'JVMTI_HEAP_REFERENCE_CLASS_LOADER'
+  'JVMTI_HEAP_REFERENCE_CONSTANT_POOL (9)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_CONSTANT_POOL'
+    'body': 'JVMTI_HEAP_REFERENCE_CONSTANT_POOL'
+  'JVMTI_HEAP_REFERENCE_FIELD (2)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_FIELD'
+    'body': 'JVMTI_HEAP_REFERENCE_FIELD'
+  'JVMTI_HEAP_REFERENCE_INTERFACE (7)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_INTERFACE'
+    'body': 'JVMTI_HEAP_REFERENCE_INTERFACE'
+  'JVMTI_HEAP_REFERENCE_JNI_GLOBAL (21)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_JNI_GLOBAL'
+    'body': 'JVMTI_HEAP_REFERENCE_JNI_GLOBAL'
+  'JVMTI_HEAP_REFERENCE_JNI_LOCAL (25)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_JNI_LOCAL'
+    'body': 'JVMTI_HEAP_REFERENCE_JNI_LOCAL'
+  'JVMTI_HEAP_REFERENCE_MONITOR (23)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_MONITOR'
+    'body': 'JVMTI_HEAP_REFERENCE_MONITOR'
+  'JVMTI_HEAP_REFERENCE_OTHER (27)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_OTHER'
+    'body': 'JVMTI_HEAP_REFERENCE_OTHER'
+  'JVMTI_HEAP_REFERENCE_PROTECTION_DOMAIN (6)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_PROTECTION_DOMAIN'
+    'body': 'JVMTI_HEAP_REFERENCE_PROTECTION_DOMAIN'
+  'JVMTI_HEAP_REFERENCE_SIGNERS (5)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_SIGNERS'
+    'body': 'JVMTI_HEAP_REFERENCE_SIGNERS'
+  'JVMTI_HEAP_REFERENCE_STACK_LOCAL (24)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_STACK_LOCAL'
+    'body': 'JVMTI_HEAP_REFERENCE_STACK_LOCAL'
+  'JVMTI_HEAP_REFERENCE_STATIC_FIELD (8)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_STATIC_FIELD'
+    'body': 'JVMTI_HEAP_REFERENCE_STATIC_FIELD'
+  'JVMTI_HEAP_REFERENCE_SUPERCLASS (10)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_SUPERCLASS'
+    'body': 'JVMTI_HEAP_REFERENCE_SUPERCLASS'
+  'JVMTI_HEAP_REFERENCE_SYSTEM_CLASS (22)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_SYSTEM_CLASS'
+    'body': 'JVMTI_HEAP_REFERENCE_SYSTEM_CLASS'
+  'JVMTI_HEAP_REFERENCE_THREAD (26)':
+    'prefix': 'JVMTI_HEAP_REFERENCE_THREAD'
+    'body': 'JVMTI_HEAP_REFERENCE_THREAD'
+  'JVMTI_HEAP_ROOT_JNI_GLOBAL (1)':
+    'prefix': 'JVMTI_HEAP_ROOT_JNI_GLOBAL'
+    'body': 'JVMTI_HEAP_ROOT_JNI_GLOBAL'
+  'JVMTI_HEAP_ROOT_JNI_LOCAL (5)':
+    'prefix': 'JVMTI_HEAP_ROOT_JNI_LOCAL'
+    'body': 'JVMTI_HEAP_ROOT_JNI_LOCAL'
+  'JVMTI_HEAP_ROOT_MONITOR (3)':
+    'prefix': 'JVMTI_HEAP_ROOT_MONITOR'
+    'body': 'JVMTI_HEAP_ROOT_MONITOR'
+  'JVMTI_HEAP_ROOT_OTHER (7)':
+    'prefix': 'JVMTI_HEAP_ROOT_OTHER'
+    'body': 'JVMTI_HEAP_ROOT_OTHER'
+  'JVMTI_HEAP_ROOT_STACK_LOCAL (4)':
+    'prefix': 'JVMTI_HEAP_ROOT_STACK_LOCAL'
+    'body': 'JVMTI_HEAP_ROOT_STACK_LOCAL'
+  'JVMTI_HEAP_ROOT_SYSTEM_CLASS (2)':
+    'prefix': 'JVMTI_HEAP_ROOT_SYSTEM_CLASS'
+    'body': 'JVMTI_HEAP_ROOT_SYSTEM_CLASS'
+  'JVMTI_HEAP_ROOT_THREAD (6)':
+    'prefix': 'JVMTI_HEAP_ROOT_THREAD'
+    'body': 'JVMTI_HEAP_ROOT_THREAD'
+  'JVMTI_ITERATION_ABORT (0)':
+    'prefix': 'JVMTI_ITERATION_ABORT'
+    'body': 'JVMTI_ITERATION_ABORT'
+  'JVMTI_ITERATION_CONTINUE (1)':
+    'prefix': 'JVMTI_ITERATION_CONTINUE'
+    'body': 'JVMTI_ITERATION_CONTINUE'
+  'JVMTI_ITERATION_IGNORE (2)':
+    'prefix': 'JVMTI_ITERATION_IGNORE'
+    'body': 'JVMTI_ITERATION_IGNORE'
+  'JVMTI_JAVA_LANG_THREAD_STATE_BLOCKED (1025)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_BLOCKED'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_BLOCKED'
+  'JVMTI_JAVA_LANG_THREAD_STATE_MASK (1207)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_MASK'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_MASK'
+  'JVMTI_JAVA_LANG_THREAD_STATE_NEW (0)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_NEW'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_NEW'
+  'JVMTI_JAVA_LANG_THREAD_STATE_RUNNABLE (5)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_RUNNABLE'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_RUNNABLE'
+  'JVMTI_JAVA_LANG_THREAD_STATE_TERMINATED (2)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_TERMINATED'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_TERMINATED'
+  'JVMTI_JAVA_LANG_THREAD_STATE_TIMED_WAITING (161)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_TIMED_WAITING'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_TIMED_WAITING'
+  'JVMTI_JAVA_LANG_THREAD_STATE_WAITING (145)':
+    'prefix': 'JVMTI_JAVA_LANG_THREAD_STATE_WAITING'
+    'body': 'JVMTI_JAVA_LANG_THREAD_STATE_WAITING'
+  'JVMTI_JLOCATION_JVMBCI (1)':
+    'prefix': 'JVMTI_JLOCATION_JVMBCI'
+    'body': 'JVMTI_JLOCATION_JVMBCI'
+  'JVMTI_JLOCATION_MACHINEPC (2)':
+    'prefix': 'JVMTI_JLOCATION_MACHINEPC'
+    'body': 'JVMTI_JLOCATION_MACHINEPC'
+  'JVMTI_JLOCATION_OTHER (0)':
+    'prefix': 'JVMTI_JLOCATION_OTHER'
+    'body': 'JVMTI_JLOCATION_OTHER'
+  'JVMTI_KIND_ALLOC_ALLOC_BUF (95)':
+    'prefix': 'JVMTI_KIND_ALLOC_ALLOC_BUF'
+    'body': 'JVMTI_KIND_ALLOC_ALLOC_BUF'
+  'JVMTI_KIND_ALLOC_BUF (94)':
+    'prefix': 'JVMTI_KIND_ALLOC_BUF'
+    'body': 'JVMTI_KIND_ALLOC_BUF'
+  'JVMTI_KIND_IN (91)':
+    'prefix': 'JVMTI_KIND_IN'
+    'body': 'JVMTI_KIND_IN'
+  'JVMTI_KIND_IN_BUF (93)':
+    'prefix': 'JVMTI_KIND_IN_BUF'
+    'body': 'JVMTI_KIND_IN_BUF'
+  'JVMTI_KIND_IN_PTR (92)':
+    'prefix': 'JVMTI_KIND_IN_PTR'
+    'body': 'JVMTI_KIND_IN_PTR'
+  'JVMTI_KIND_OUT (96)':
+    'prefix': 'JVMTI_KIND_OUT'
+    'body': 'JVMTI_KIND_OUT'
+  'JVMTI_KIND_OUT_BUF (97)':
+    'prefix': 'JVMTI_KIND_OUT_BUF'
+    'body': 'JVMTI_KIND_OUT_BUF'
+  'JVMTI_MAX_EVENT_TYPE_VAL (84)':
+    'prefix': 'JVMTI_MAX_EVENT_TYPE_VAL'
+    'body': 'JVMTI_MAX_EVENT_TYPE_VAL'
+  'JVMTI_MIN_EVENT_TYPE_VAL (50)':
+    'prefix': 'JVMTI_MIN_EVENT_TYPE_VAL'
+    'body': 'JVMTI_MIN_EVENT_TYPE_VAL'
+  'JVMTI_PHASE_DEAD (8)':
+    'prefix': 'JVMTI_PHASE_DEAD'
+    'body': 'JVMTI_PHASE_DEAD'
+  'JVMTI_PHASE_LIVE (4)':
+    'prefix': 'JVMTI_PHASE_LIVE'
+    'body': 'JVMTI_PHASE_LIVE'
+  'JVMTI_PHASE_ONLOAD (1)':
+    'prefix': 'JVMTI_PHASE_ONLOAD'
+    'body': 'JVMTI_PHASE_ONLOAD'
+  'JVMTI_PHASE_PRIMORDIAL (2)':
+    'prefix': 'JVMTI_PHASE_PRIMORDIAL'
+    'body': 'JVMTI_PHASE_PRIMORDIAL'
+  'JVMTI_PHASE_START (6)':
+    'prefix': 'JVMTI_PHASE_START'
+    'body': 'JVMTI_PHASE_START'
+  'JVMTI_PRIMITIVE_TYPE_BOOLEAN (90)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_BOOLEAN'
+    'body': 'JVMTI_PRIMITIVE_TYPE_BOOLEAN'
+  'JVMTI_PRIMITIVE_TYPE_BYTE (66)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_BYTE'
+    'body': 'JVMTI_PRIMITIVE_TYPE_BYTE'
+  'JVMTI_PRIMITIVE_TYPE_CHAR (67)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_CHAR'
+    'body': 'JVMTI_PRIMITIVE_TYPE_CHAR'
+  'JVMTI_PRIMITIVE_TYPE_DOUBLE (68)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_DOUBLE'
+    'body': 'JVMTI_PRIMITIVE_TYPE_DOUBLE'
+  'JVMTI_PRIMITIVE_TYPE_FLOAT (70)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_FLOAT'
+    'body': 'JVMTI_PRIMITIVE_TYPE_FLOAT'
+  'JVMTI_PRIMITIVE_TYPE_INT (73)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_INT'
+    'body': 'JVMTI_PRIMITIVE_TYPE_INT'
+  'JVMTI_PRIMITIVE_TYPE_LONG (74)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_LONG'
+    'body': 'JVMTI_PRIMITIVE_TYPE_LONG'
+  'JVMTI_PRIMITIVE_TYPE_SHORT (83)':
+    'prefix': 'JVMTI_PRIMITIVE_TYPE_SHORT'
+    'body': 'JVMTI_PRIMITIVE_TYPE_SHORT'
+  'JVMTI_REFERENCE_ARRAY_ELEMENT (3)':
+    'prefix': 'JVMTI_REFERENCE_ARRAY_ELEMENT'
+    'body': 'JVMTI_REFERENCE_ARRAY_ELEMENT'
+  'JVMTI_REFERENCE_CLASS (1)':
+    'prefix': 'JVMTI_REFERENCE_CLASS'
+    'body': 'JVMTI_REFERENCE_CLASS'
+  'JVMTI_REFERENCE_CLASS_LOADER (4)':
+    'prefix': 'JVMTI_REFERENCE_CLASS_LOADER'
+    'body': 'JVMTI_REFERENCE_CLASS_LOADER'
+  'JVMTI_REFERENCE_CONSTANT_POOL (9)':
+    'prefix': 'JVMTI_REFERENCE_CONSTANT_POOL'
+    'body': 'JVMTI_REFERENCE_CONSTANT_POOL'
+  'JVMTI_REFERENCE_FIELD (2)':
+    'prefix': 'JVMTI_REFERENCE_FIELD'
+    'body': 'JVMTI_REFERENCE_FIELD'
+  'JVMTI_REFERENCE_INTERFACE (7)':
+    'prefix': 'JVMTI_REFERENCE_INTERFACE'
+    'body': 'JVMTI_REFERENCE_INTERFACE'
+  'JVMTI_REFERENCE_PROTECTION_DOMAIN (6)':
+    'prefix': 'JVMTI_REFERENCE_PROTECTION_DOMAIN'
+    'body': 'JVMTI_REFERENCE_PROTECTION_DOMAIN'
+  'JVMTI_REFERENCE_SIGNERS (5)':
+    'prefix': 'JVMTI_REFERENCE_SIGNERS'
+    'body': 'JVMTI_REFERENCE_SIGNERS'
+  'JVMTI_REFERENCE_STATIC_FIELD (8)':
+    'prefix': 'JVMTI_REFERENCE_STATIC_FIELD'
+    'body': 'JVMTI_REFERENCE_STATIC_FIELD'
+  'JVMTI_RESOURCE_EXHAUSTED_JAVA_HEAP (2)':
+    'prefix': 'JVMTI_RESOURCE_EXHAUSTED_JAVA_HEAP'
+    'body': 'JVMTI_RESOURCE_EXHAUSTED_JAVA_HEAP'
+  'JVMTI_RESOURCE_EXHAUSTED_OOM_ERROR (1)':
+    'prefix': 'JVMTI_RESOURCE_EXHAUSTED_OOM_ERROR'
+    'body': 'JVMTI_RESOURCE_EXHAUSTED_OOM_ERROR'
+  'JVMTI_RESOURCE_EXHAUSTED_THREADS (4)':
+    'prefix': 'JVMTI_RESOURCE_EXHAUSTED_THREADS'
+    'body': 'JVMTI_RESOURCE_EXHAUSTED_THREADS'
+  'JVMTI_THREAD_MAX_PRIORITY (10)':
+    'prefix': 'JVMTI_THREAD_MAX_PRIORITY'
+    'body': 'JVMTI_THREAD_MAX_PRIORITY'
+  'JVMTI_THREAD_MIN_PRIORITY (1)':
+    'prefix': 'JVMTI_THREAD_MIN_PRIORITY'
+    'body': 'JVMTI_THREAD_MIN_PRIORITY'
+  'JVMTI_THREAD_NORM_PRIORITY (5)':
+    'prefix': 'JVMTI_THREAD_NORM_PRIORITY'
+    'body': 'JVMTI_THREAD_NORM_PRIORITY'
+  'JVMTI_THREAD_STATE_ALIVE (1)':
+    'prefix': 'JVMTI_THREAD_STATE_ALIVE'
+    'body': 'JVMTI_THREAD_STATE_ALIVE'
+  'JVMTI_THREAD_STATE_BLOCKED_ON_MONITOR_ENTER (1024)':
+    'prefix': 'JVMTI_THREAD_STATE_BLOCKED_ON_MONITOR_ENTER'
+    'body': 'JVMTI_THREAD_STATE_BLOCKED_ON_MONITOR_ENTER'
+  'JVMTI_THREAD_STATE_INTERRUPTED (2097152)':
+    'prefix': 'JVMTI_THREAD_STATE_INTERRUPTED'
+    'body': 'JVMTI_THREAD_STATE_INTERRUPTED'
+  'JVMTI_THREAD_STATE_IN_NATIVE (4194304)':
+    'prefix': 'JVMTI_THREAD_STATE_IN_NATIVE'
+    'body': 'JVMTI_THREAD_STATE_IN_NATIVE'
+  'JVMTI_THREAD_STATE_IN_OBJECT_WAIT (256)':
+    'prefix': 'JVMTI_THREAD_STATE_IN_OBJECT_WAIT'
+    'body': 'JVMTI_THREAD_STATE_IN_OBJECT_WAIT'
+  'JVMTI_THREAD_STATE_PARKED (512)':
+    'prefix': 'JVMTI_THREAD_STATE_PARKED'
+    'body': 'JVMTI_THREAD_STATE_PARKED'
+  'JVMTI_THREAD_STATE_RUNNABLE (4)':
+    'prefix': 'JVMTI_THREAD_STATE_RUNNABLE'
+    'body': 'JVMTI_THREAD_STATE_RUNNABLE'
+  'JVMTI_THREAD_STATE_SLEEPING (64)':
+    'prefix': 'JVMTI_THREAD_STATE_SLEEPING'
+    'body': 'JVMTI_THREAD_STATE_SLEEPING'
+  'JVMTI_THREAD_STATE_SUSPENDED (1048576)':
+    'prefix': 'JVMTI_THREAD_STATE_SUSPENDED'
+    'body': 'JVMTI_THREAD_STATE_SUSPENDED'
+  'JVMTI_THREAD_STATE_TERMINATED (2)':
+    'prefix': 'JVMTI_THREAD_STATE_TERMINATED'
+    'body': 'JVMTI_THREAD_STATE_TERMINATED'
+  'JVMTI_THREAD_STATE_VENDOR_1 (268435456)':
+    'prefix': 'JVMTI_THREAD_STATE_VENDOR_1'
+    'body': 'JVMTI_THREAD_STATE_VENDOR_1'
+  'JVMTI_THREAD_STATE_VENDOR_2 (536870912)':
+    'prefix': 'JVMTI_THREAD_STATE_VENDOR_2'
+    'body': 'JVMTI_THREAD_STATE_VENDOR_2'
+  'JVMTI_THREAD_STATE_VENDOR_3 (1073741824)':
+    'prefix': 'JVMTI_THREAD_STATE_VENDOR_3'
+    'body': 'JVMTI_THREAD_STATE_VENDOR_3'
+  'JVMTI_THREAD_STATE_WAITING (128)':
+    'prefix': 'JVMTI_THREAD_STATE_WAITING'
+    'body': 'JVMTI_THREAD_STATE_WAITING'
+  'JVMTI_THREAD_STATE_WAITING_INDEFINITELY (16)':
+    'prefix': 'JVMTI_THREAD_STATE_WAITING_INDEFINITELY'
+    'body': 'JVMTI_THREAD_STATE_WAITING_INDEFINITELY'
+  'JVMTI_THREAD_STATE_WAITING_WITH_TIMEOUT (32)':
+    'prefix': 'JVMTI_THREAD_STATE_WAITING_WITH_TIMEOUT'
+    'body': 'JVMTI_THREAD_STATE_WAITING_WITH_TIMEOUT'
+  'JVMTI_TIMER_ELAPSED (32)':
+    'prefix': 'JVMTI_TIMER_ELAPSED'
+    'body': 'JVMTI_TIMER_ELAPSED'
+  'JVMTI_TIMER_TOTAL_CPU (31)':
+    'prefix': 'JVMTI_TIMER_TOTAL_CPU'
+    'body': 'JVMTI_TIMER_TOTAL_CPU'
+  'JVMTI_TIMER_USER_CPU (30)':
+    'prefix': 'JVMTI_TIMER_USER_CPU'
+    'body': 'JVMTI_TIMER_USER_CPU'
+  'JVMTI_TYPE_CCHAR (115)':
+    'prefix': 'JVMTI_TYPE_CCHAR'
+    'body': 'JVMTI_TYPE_CCHAR'
+  'JVMTI_TYPE_CVOID (116)':
+    'prefix': 'JVMTI_TYPE_CVOID'
+    'body': 'JVMTI_TYPE_CVOID'
+  'JVMTI_TYPE_JBOOLEAN (108)':
+    'prefix': 'JVMTI_TYPE_JBOOLEAN'
+    'body': 'JVMTI_TYPE_JBOOLEAN'
+  'JVMTI_TYPE_JBYTE (101)':
+    'prefix': 'JVMTI_TYPE_JBYTE'
+    'body': 'JVMTI_TYPE_JBYTE'
+  'JVMTI_TYPE_JCHAR (102)':
+    'prefix': 'JVMTI_TYPE_JCHAR'
+    'body': 'JVMTI_TYPE_JCHAR'
+  'JVMTI_TYPE_JCLASS (111)':
+    'prefix': 'JVMTI_TYPE_JCLASS'
+    'body': 'JVMTI_TYPE_JCLASS'
+  'JVMTI_TYPE_JDOUBLE (107)':
+    'prefix': 'JVMTI_TYPE_JDOUBLE'
+    'body': 'JVMTI_TYPE_JDOUBLE'
+  'JVMTI_TYPE_JFIELDID (113)':
+    'prefix': 'JVMTI_TYPE_JFIELDID'
+    'body': 'JVMTI_TYPE_JFIELDID'
+  'JVMTI_TYPE_JFLOAT (106)':
+    'prefix': 'JVMTI_TYPE_JFLOAT'
+    'body': 'JVMTI_TYPE_JFLOAT'
+  'JVMTI_TYPE_JINT (104)':
+    'prefix': 'JVMTI_TYPE_JINT'
+    'body': 'JVMTI_TYPE_JINT'
+  'JVMTI_TYPE_JLONG (105)':
+    'prefix': 'JVMTI_TYPE_JLONG'
+    'body': 'JVMTI_TYPE_JLONG'
+  'JVMTI_TYPE_JMETHODID (114)':
+    'prefix': 'JVMTI_TYPE_JMETHODID'
+    'body': 'JVMTI_TYPE_JMETHODID'
+  'JVMTI_TYPE_JNIENV (117)':
+    'prefix': 'JVMTI_TYPE_JNIENV'
+    'body': 'JVMTI_TYPE_JNIENV'
+  'JVMTI_TYPE_JOBJECT (109)':
+    'prefix': 'JVMTI_TYPE_JOBJECT'
+    'body': 'JVMTI_TYPE_JOBJECT'
+  'JVMTI_TYPE_JSHORT (103)':
+    'prefix': 'JVMTI_TYPE_JSHORT'
+    'body': 'JVMTI_TYPE_JSHORT'
+  'JVMTI_TYPE_JTHREAD (110)':
+    'prefix': 'JVMTI_TYPE_JTHREAD'
+    'body': 'JVMTI_TYPE_JTHREAD'
+  'JVMTI_TYPE_JVALUE (112)':
+    'prefix': 'JVMTI_TYPE_JVALUE'
+    'body': 'JVMTI_TYPE_JVALUE'
+  'JVMTI_VERBOSE_CLASS (2)':
+    'prefix': 'JVMTI_VERBOSE_CLASS'
+    'body': 'JVMTI_VERBOSE_CLASS'
+  'JVMTI_VERBOSE_GC (1)':
+    'prefix': 'JVMTI_VERBOSE_GC'
+    'body': 'JVMTI_VERBOSE_GC'
+  'JVMTI_VERBOSE_JNI (4)':
+    'prefix': 'JVMTI_VERBOSE_JNI'
+    'body': 'JVMTI_VERBOSE_JNI'
+  'JVMTI_VERBOSE_OTHER (0)':
+    'prefix': 'JVMTI_VERBOSE_OTHER'
+    'body': 'JVMTI_VERBOSE_OTHER'
+  'JVMTI_VERSION (805372262)':
+    'prefix': 'JVMTI_VERSION'
+    'body': 'JVMTI_VERSION'
+  'JVMTI_VERSION_1 (805371904)':
+    'prefix': 'JVMTI_VERSION_1'
+    'body': 'JVMTI_VERSION_1'
+  'JVMTI_VERSION_1_0 (805371904)':
+    'prefix': 'JVMTI_VERSION_1_0'
+    'body': 'JVMTI_VERSION_1_0'
+  'JVMTI_VERSION_1_1 (805372160)':
+    'prefix': 'JVMTI_VERSION_1_1'
+    'body': 'JVMTI_VERSION_1_1'
+  'JVMTI_VERSION_INTERFACE_JNI (0)':
+    'prefix': 'JVMTI_VERSION_INTERFACE_JNI'
+    'body': 'JVMTI_VERSION_INTERFACE_JNI'
+  'JVMTI_VERSION_INTERFACE_JVMTI (805306368)':
+    'prefix': 'JVMTI_VERSION_INTERFACE_JVMTI'
+    'body': 'JVMTI_VERSION_INTERFACE_JVMTI'
+  'JVMTI_VERSION_MASK_INTERFACE_TYPE (1879048192)':
+    'prefix': 'JVMTI_VERSION_MASK_INTERFACE_TYPE'
+    'body': 'JVMTI_VERSION_MASK_INTERFACE_TYPE'
+  'JVMTI_VERSION_MASK_MAJOR (268369920)':
+    'prefix': 'JVMTI_VERSION_MASK_MAJOR'
+    'body': 'JVMTI_VERSION_MASK_MAJOR'
+  'JVMTI_VERSION_MASK_MICRO (255)':
+    'prefix': 'JVMTI_VERSION_MASK_MICRO'
+    'body': 'JVMTI_VERSION_MASK_MICRO'
+  'JVMTI_VERSION_MASK_MINOR (65280)':
+    'prefix': 'JVMTI_VERSION_MASK_MINOR'
+    'body': 'JVMTI_VERSION_MASK_MINOR'
+  'JVMTI_VERSION_SHIFT_MAJOR (16)':
+    'prefix': 'JVMTI_VERSION_SHIFT_MAJOR'
+    'body': 'JVMTI_VERSION_SHIFT_MAJOR'
+  'JVMTI_VERSION_SHIFT_MICRO (0)':
+    'prefix': 'JVMTI_VERSION_SHIFT_MICRO'
+    'body': 'JVMTI_VERSION_SHIFT_MICRO'
+  'JVMTI_VERSION_SHIFT_MINOR (8)':
+    'prefix': 'JVMTI_VERSION_SHIFT_MINOR'
+    'body': 'JVMTI_VERSION_SHIFT_MINOR'
+  'JVMTI_VISIT_ABORT (32768)':
+    'prefix': 'JVMTI_VISIT_ABORT'
+    'body': 'JVMTI_VISIT_ABORT'
+  'JVMTI_VISIT_OBJECTS (256)':
+    'prefix': 'JVMTI_VISIT_OBJECTS'
+    'body': 'JVMTI_VISIT_OBJECTS'
+  'Agent_OnAttach':
+    'prefix': 'Agent_OnAttach'
+    'body': 'Agent_OnAttach(${1:JavaVM* vm}, ${2:char* options}, ${3:void* reserved})'
+  'Agent_OnLoad':
+    'prefix': 'Agent_OnLoad'
+    'body': 'Agent_OnLoad(${1:JavaVM* vm}, ${2:char* options}, ${3:void* reserved})'
+  'Agent_OnUnload':
+    'prefix': 'Agent_OnUnload'
+    'body': 'Agent_OnUnload(${1:JavaVM* vm})'
+  'JAWT_GetAWT':
+    'prefix': 'JAWT_GetAWT'
+    'body': 'JAWT_GetAWT(${1:JNIEnv* env}, ${2:JAWT* awt})'
+  'JNI_CreateJavaVM':
+    'prefix': 'JNI_CreateJavaVM'
+    'body': 'JNI_CreateJavaVM(${1:JavaVM** pvm}, ${2:void** penv}, ${3:void* args})'
+  'JNI_GetCreatedJavaVMs':
+    'prefix': 'JNI_GetCreatedJavaVMs'
+    'body': 'JNI_GetCreatedJavaVMs(${1:JavaVM** }, ${2:jsize }, ${3:jsize* })'
+  'JNI_GetDefaultJavaVMInitArgs':
+    'prefix': 'JNI_GetDefaultJavaVMInitArgs'
+    'body': 'JNI_GetDefaultJavaVMInitArgs(${1:void* args})'
+  'JNI_OnLoad':
+    'prefix': 'JNI_OnLoad'
+    'body': 'JNI_OnLoad(${1:JavaVM* vm}, ${2:void* reserved})'
+  'JNI_OnUnload':
+    'prefix': 'JNI_OnUnload'
+    'body': 'JNI_OnUnload(${1:JavaVM* vm}, ${2:void* reserved})'
+  'NSJavaConfiguration.configurationForVendor:':
+    'prefix': 'configurationForVendor:'
+    'body': 'NSJavaConfiguration.configurationForVendor(${1:NSString* vendorName})'
+  'NSJavaConfiguration.defaultConfiguration':
+    'prefix': 'defaultConfiguration'
+    'body': 'NSJavaConfiguration.defaultConfiguration()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithVendor:':
+    'prefix': 'initWithVendor:'
+    'body': 'initWithVendor(${1:NSString* vendorName})'
+  'valueForKey:':
+    'prefix': 'valueForKey:'
+    'body': 'valueForKey(${1:NSString* keyName})'
+  'valueForKey:expandEnvironmentVariables:':
+    'prefix': 'valueForKey:expandEnvironmentVariables:'
+    'body': 'valueForKey(${1:NSString* keyName}, expandEnvironmentVariables:${2:BOOL flag})'
+  'vendorName':
+    'prefix': 'vendorName'
+    'body': 'vendorName()'
+  'NSJavaConfiguration.vendorNames':
+    'prefix': 'vendorNames'
+    'body': 'NSJavaConfiguration.vendorNames()'
+  'attachCurrentThread':
+    'prefix': 'attachCurrentThread'
+    'body': 'attachCurrentThread()'
+  'NSJavaVirtualMachine.defaultClassPath':
+    'prefix': 'defaultClassPath'
+    'body': 'NSJavaVirtualMachine.defaultClassPath()'
+  'NSJavaVirtualMachine.defaultVirtualMachine':
+    'prefix': 'defaultVirtualMachine'
+    'body': 'NSJavaVirtualMachine.defaultVirtualMachine()'
+  'defineClass:withName:':
+    'prefix': 'defineClass:withName:'
+    'body': 'defineClass(${1:NSData* javaClassData}, withName:${2:NSString* className})'
+  'detachCurrentThread':
+    'prefix': 'detachCurrentThread'
+    'body': 'detachCurrentThread()'
+  'findClass:':
+    'prefix': 'findClass:'
+    'body': 'findClass(${1:NSString* className})'
+  'initWithClassPath:':
+    'prefix': 'initWithClassPath:'
+    'body': 'initWithClassPath(${1:NSString* classPath})'
+  'awtMessage:message:env:':
+    'prefix': 'awtMessage:message:env:'
+    'body': 'awtMessage(${1:jint messageID}, message:${2:jobject message}, env:${3:JNIEnv* env})'
+  'layer':
+    'prefix': 'layer'
+    'body': 'layer()'
+  'NSObject.newWithSignature:':
+    'prefix': 'newWithSignature:'
+    'body': 'NSObject.newWithSignature(${1:NSString* signature})'
+  'NSObject.newWithSignature:arguments:':
+    'prefix': 'newWithSignature:arguments:'
+    'body': 'NSObject.newWithSignature(${1:NSString* signature}, arguments:${2:va_list args})'
+  'setLayer:':
+    'prefix': 'setLayer:'
+    'body': 'setLayer(${1:CALayer* layer})'
+  'windowLayer':
+    'prefix': 'windowLayer'
+    'body': 'windowLayer()'
+  'awtMessage:message:env:':
+    'prefix': 'awtMessage:message:env:'
+    'body': 'awtMessage(${1:jint messageID}, message:${2:jobject message}, env:${3:JNIEnv* env})'
+  'InstantiatingJavaObjects.newWithSignature:':
+    'prefix': 'newWithSignature:'
+    'body': 'InstantiatingJavaObjects.newWithSignature(${1:NSString* signature})'
+  'InstantiatingJavaObjects.newWithSignature:arguments:':
+    'prefix': 'newWithSignature:arguments:'
+    'body': 'InstantiatingJavaObjects.newWithSignature(${1:NSString* signature}, arguments:${2:va_list args})'
+  'layer':
+    'prefix': 'layer'
+    'body': 'layer()'
+  'setLayer:':
+    'prefix': 'setLayer:'
+    'body': 'setLayer(${1:CALayer* layer})'
+  'windowLayer':
+    'prefix': 'windowLayer'
+    'body': 'windowLayer()'
+  'JNFRunLoopDidStartNotification (NSString*)':
+    'prefix': 'JNFRunLoopDidStartNotification'
+    'body': 'JNFRunLoopDidStartNotification'
+  'kClassNotFoundException (char*)':
+    'prefix': 'kClassNotFoundException'
+    'body': 'KClassNotFoundException'
+  'kIllegalAccessException (char*)':
+    'prefix': 'kIllegalAccessException'
+    'body': 'KIllegalAccessException'
+  'kIllegalArgumentException (char*)':
+    'prefix': 'kIllegalArgumentException'
+    'body': 'KIllegalArgumentException'
+  'kNoSuchFieldException (char*)':
+    'prefix': 'kNoSuchFieldException'
+    'body': 'KNoSuchFieldException'
+  'kNoSuchMethodException (char*)':
+    'prefix': 'kNoSuchMethodException'
+    'body': 'KNoSuchMethodException'
+  'kNullPointerException (char*)':
+    'prefix': 'kNullPointerException'
+    'body': 'KNullPointerException'
+  'kOutOfMemoryError (char*)':
+    'prefix': 'kOutOfMemoryError'
+    'body': 'KOutOfMemoryError'
+  'kRuntimeException (char*)':
+    'prefix': 'kRuntimeException'
+    'body': 'KRuntimeException'
+  'JNFThreadAttachAsDaemon (16)':
+    'prefix': 'JNFThreadAttachAsDaemon'
+    'body': 'JNFThreadAttachAsDaemon'
+  'JNFThreadDetachImmediately (2)':
+    'prefix': 'JNFThreadDetachImmediately'
+    'body': 'JNFThreadDetachImmediately'
+  'JNFThreadDetachOnThreadDeath (4)':
+    'prefix': 'JNFThreadDetachOnThreadDeath'
+    'body': 'JNFThreadDetachOnThreadDeath'
+  'JNFThreadSetSystemClassLoaderOnAttach (8)':
+    'prefix': 'JNFThreadSetSystemClassLoaderOnAttach'
+    'body': 'JNFThreadSetSystemClassLoaderOnAttach'
+  'JNFCFToJavaBoolean':
+    'prefix': 'JNFCFToJavaBoolean'
+    'body': 'JNFCFToJavaBoolean(${1:JNIEnv* env}, ${2:CFBooleanRef b})'
+  'JNFCallBooleanMethod':
+    'prefix': 'JNFCallBooleanMethod'
+    'body': 'JNFCallBooleanMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallByteMethod':
+    'prefix': 'JNFCallByteMethod'
+    'body': 'JNFCallByteMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallCharMethod':
+    'prefix': 'JNFCallCharMethod'
+    'body': 'JNFCallCharMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallDoubleMethod':
+    'prefix': 'JNFCallDoubleMethod'
+    'body': 'JNFCallDoubleMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallFloatMethod':
+    'prefix': 'JNFCallFloatMethod'
+    'body': 'JNFCallFloatMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallIntMethod':
+    'prefix': 'JNFCallIntMethod'
+    'body': 'JNFCallIntMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallLongMethod':
+    'prefix': 'JNFCallLongMethod'
+    'body': 'JNFCallLongMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallObjectMethod':
+    'prefix': 'JNFCallObjectMethod'
+    'body': 'JNFCallObjectMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallShortMethod':
+    'prefix': 'JNFCallShortMethod'
+    'body': 'JNFCallShortMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFCallStaticBooleanMethod':
+    'prefix': 'JNFCallStaticBooleanMethod'
+    'body': 'JNFCallStaticBooleanMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticByteMethod':
+    'prefix': 'JNFCallStaticByteMethod'
+    'body': 'JNFCallStaticByteMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticCharMethod':
+    'prefix': 'JNFCallStaticCharMethod'
+    'body': 'JNFCallStaticCharMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticDoubleMethod':
+    'prefix': 'JNFCallStaticDoubleMethod'
+    'body': 'JNFCallStaticDoubleMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticFloatMethod':
+    'prefix': 'JNFCallStaticFloatMethod'
+    'body': 'JNFCallStaticFloatMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticIntMethod':
+    'prefix': 'JNFCallStaticIntMethod'
+    'body': 'JNFCallStaticIntMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticLongMethod':
+    'prefix': 'JNFCallStaticLongMethod'
+    'body': 'JNFCallStaticLongMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticObjectMethod':
+    'prefix': 'JNFCallStaticObjectMethod'
+    'body': 'JNFCallStaticObjectMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticShortMethod':
+    'prefix': 'JNFCallStaticShortMethod'
+    'body': 'JNFCallStaticShortMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallStaticVoidMethod':
+    'prefix': 'JNFCallStaticVoidMethod'
+    'body': 'JNFCallStaticVoidMethod(${1:JNIEnv* env}, ${2:JNFMemberInfo* method})'
+  'JNFCallVoidMethod':
+    'prefix': 'JNFCallVoidMethod'
+    'body': 'JNFCallVoidMethod(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* method})'
+  'JNFDebugWarning':
+    'prefix': 'JNFDebugWarning'
+    'body': 'JNFDebugWarning(${1:char* fmt})'
+  'JNFDeleteGlobalRef':
+    'prefix': 'JNFDeleteGlobalRef'
+    'body': 'JNFDeleteGlobalRef(${1:JNIEnv* env}, ${2:jobject globalRef})'
+  'JNFDeleteWeakGlobalRef':
+    'prefix': 'JNFDeleteWeakGlobalRef'
+    'body': 'JNFDeleteWeakGlobalRef(${1:JNIEnv* env}, ${2:jobject globalRef})'
+  'JNFDumpJavaStack':
+    'prefix': 'JNFDumpJavaStack'
+    'body': 'JNFDumpJavaStack(${1:JNIEnv* env})'
+  'JNFGetBooleanField':
+    'prefix': 'JNFGetBooleanField'
+    'body': 'JNFGetBooleanField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetByteField':
+    'prefix': 'JNFGetByteField'
+    'body': 'JNFGetByteField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetCharField':
+    'prefix': 'JNFGetCharField'
+    'body': 'JNFGetCharField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetDoubleField':
+    'prefix': 'JNFGetDoubleField'
+    'body': 'JNFGetDoubleField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetFloatField':
+    'prefix': 'JNFGetFloatField'
+    'body': 'JNFGetFloatField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetIntField':
+    'prefix': 'JNFGetIntField'
+    'body': 'JNFGetIntField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetLongField':
+    'prefix': 'JNFGetLongField'
+    'body': 'JNFGetLongField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetObjectField':
+    'prefix': 'JNFGetObjectField'
+    'body': 'JNFGetObjectField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetShortField':
+    'prefix': 'JNFGetShortField'
+    'body': 'JNFGetShortField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field})'
+  'JNFGetStaticBooleanField':
+    'prefix': 'JNFGetStaticBooleanField'
+    'body': 'JNFGetStaticBooleanField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticByteField':
+    'prefix': 'JNFGetStaticByteField'
+    'body': 'JNFGetStaticByteField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticCharField':
+    'prefix': 'JNFGetStaticCharField'
+    'body': 'JNFGetStaticCharField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticDoubleField':
+    'prefix': 'JNFGetStaticDoubleField'
+    'body': 'JNFGetStaticDoubleField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticFloatField':
+    'prefix': 'JNFGetStaticFloatField'
+    'body': 'JNFGetStaticFloatField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticIntField':
+    'prefix': 'JNFGetStaticIntField'
+    'body': 'JNFGetStaticIntField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticLongField':
+    'prefix': 'JNFGetStaticLongField'
+    'body': 'JNFGetStaticLongField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticObjectField':
+    'prefix': 'JNFGetStaticObjectField'
+    'body': 'JNFGetStaticObjectField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStaticShortField':
+    'prefix': 'JNFGetStaticShortField'
+    'body': 'JNFGetStaticShortField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field})'
+  'JNFGetStringUTF16UniChars':
+    'prefix': 'JNFGetStringUTF16UniChars'
+    'body': 'JNFGetStringUTF16UniChars(${1:JNIEnv* env}, ${2:jstring javaString})'
+  'JNFGetStringUTF8Chars':
+    'prefix': 'JNFGetStringUTF8Chars'
+    'body': 'JNFGetStringUTF8Chars(${1:JNIEnv* env}, ${2:jstring javaString})'
+  'JNFIsInstanceOf':
+    'prefix': 'JNFIsInstanceOf'
+    'body': 'JNFIsInstanceOf(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFClassInfo* clazz})'
+  'JNFJavaMillisToNSTimeInterval':
+    'prefix': 'JNFJavaMillisToNSTimeInterval'
+    'body': 'JNFJavaMillisToNSTimeInterval(${1:jlong javaMillisSince1970})'
+  'JNFJavaToCFBoolean':
+    'prefix': 'JNFJavaToCFBoolean'
+    'body': 'JNFJavaToCFBoolean(${1:JNIEnv* env}, ${2:jobject b})'
+  'JNFJavaToNSDate':
+    'prefix': 'JNFJavaToNSDate'
+    'body': 'JNFJavaToNSDate(${1:JNIEnv* env}, ${2:jobject date})'
+  'JNFJavaToNSNumber':
+    'prefix': 'JNFJavaToNSNumber'
+    'body': 'JNFJavaToNSNumber(${1:JNIEnv* env}, ${2:jobject n})'
+  'JNFJavaToNSString':
+    'prefix': 'JNFJavaToNSString'
+    'body': 'JNFJavaToNSString(${1:JNIEnv* env}, ${2:jstring javaString})'
+  'JNFNSTimeIntervalToJavaMillis':
+    'prefix': 'JNFNSTimeIntervalToJavaMillis'
+    'body': 'JNFNSTimeIntervalToJavaMillis(${1:NSTimeInterval intervalSince2001})'
+  'JNFNSToJavaCalendar':
+    'prefix': 'JNFNSToJavaCalendar'
+    'body': 'JNFNSToJavaCalendar(${1:JNIEnv* env}, ${2:NSDate* date})'
+  'JNFNSToJavaNumber':
+    'prefix': 'JNFNSToJavaNumber'
+    'body': 'JNFNSToJavaNumber(${1:JNIEnv* env}, ${2:NSNumber* n})'
+  'JNFNSToJavaString':
+    'prefix': 'JNFNSToJavaString'
+    'body': 'JNFNSToJavaString(${1:JNIEnv* env}, ${2:NSString* nsString})'
+  'JNFNativeMethodEnter':
+    'prefix': 'JNFNativeMethodEnter'
+    'body': 'JNFNativeMethodEnter()'
+  'JNFNativeMethodExit':
+    'prefix': 'JNFNativeMethodExit'
+    'body': 'JNFNativeMethodExit(${1:JNFAutoreleasePoolToken* token})'
+  'JNFNewBooleanArray':
+    'prefix': 'JNFNewBooleanArray'
+    'body': 'JNFNewBooleanArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewByteArray':
+    'prefix': 'JNFNewByteArray'
+    'body': 'JNFNewByteArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewCharArray':
+    'prefix': 'JNFNewCharArray'
+    'body': 'JNFNewCharArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewDoubleArray':
+    'prefix': 'JNFNewDoubleArray'
+    'body': 'JNFNewDoubleArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewFloatArray':
+    'prefix': 'JNFNewFloatArray'
+    'body': 'JNFNewFloatArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewGlobalRef':
+    'prefix': 'JNFNewGlobalRef'
+    'body': 'JNFNewGlobalRef(${1:JNIEnv* env}, ${2:jobject obj})'
+  'JNFNewIntArray':
+    'prefix': 'JNFNewIntArray'
+    'body': 'JNFNewIntArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewLongArray':
+    'prefix': 'JNFNewLongArray'
+    'body': 'JNFNewLongArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewObject':
+    'prefix': 'JNFNewObject'
+    'body': 'JNFNewObject(${1:JNIEnv* env}, ${2:JNFMemberInfo* constructor})'
+  'JNFNewObjectArray':
+    'prefix': 'JNFNewObjectArray'
+    'body': 'JNFNewObjectArray(${1:JNIEnv* env}, ${2:JNFClassInfo* clazz}, ${3:jsize length})'
+  'JNFNewShortArray':
+    'prefix': 'JNFNewShortArray'
+    'body': 'JNFNewShortArray(${1:JNIEnv* env}, ${2:jsize length})'
+  'JNFNewWeakGlobalRef':
+    'prefix': 'JNFNewWeakGlobalRef'
+    'body': 'JNFNewWeakGlobalRef(${1:JNIEnv* env}, ${2:jobject obj})'
+  'JNFNormalizedJavaStringForPath':
+    'prefix': 'JNFNormalizedJavaStringForPath'
+    'body': 'JNFNormalizedJavaStringForPath(${1:JNIEnv* env}, ${2:NSString* path})'
+  'JNFNormalizedNSStringForPath':
+    'prefix': 'JNFNormalizedNSStringForPath'
+    'body': 'JNFNormalizedNSStringForPath(${1:JNIEnv* env}, ${2:jstring path})'
+  'JNFObjectClassName':
+    'prefix': 'JNFObjectClassName'
+    'body': 'JNFObjectClassName(${1:JNIEnv* env}, ${2:jobject obj})'
+  'JNFObjectEquals':
+    'prefix': 'JNFObjectEquals'
+    'body': 'JNFObjectEquals(${1:JNIEnv* env}, ${2:jobject a}, ${3:jobject b})'
+  'JNFObjectToString':
+    'prefix': 'JNFObjectToString'
+    'body': 'JNFObjectToString(${1:JNIEnv* env}, ${2:jobject obj})'
+  'JNFObtainEnv':
+    'prefix': 'JNFObtainEnv'
+    'body': 'JNFObtainEnv(${1:JNFThreadContext* context})'
+  'JNFPerformEnvBlock':
+    'prefix': 'JNFPerformEnvBlock'
+    'body': 'JNFPerformEnvBlock(${1:JNFThreadContext context}, ${2:JNIEnvBlock block})'
+  'JNFReleaseEnv':
+    'prefix': 'JNFReleaseEnv'
+    'body': 'JNFReleaseEnv(${1:JNIEnv* env}, ${2:JNFThreadContext* context})'
+  'JNFReleaseStringUTF16UniChars':
+    'prefix': 'JNFReleaseStringUTF16UniChars'
+    'body': 'JNFReleaseStringUTF16UniChars(${1:JNIEnv* env}, ${2:jstring javaString}, ${3:unichar* unichars})'
+  'JNFReleaseStringUTF8Chars':
+    'prefix': 'JNFReleaseStringUTF8Chars'
+    'body': 'JNFReleaseStringUTF8Chars(${1:JNIEnv* env}, ${2:jstring javaString}, ${3:char* chars})'
+  'JNFSetBooleanField':
+    'prefix': 'JNFSetBooleanField'
+    'body': 'JNFSetBooleanField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jboolean val})'
+  'JNFSetByteField':
+    'prefix': 'JNFSetByteField'
+    'body': 'JNFSetByteField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jbyte val})'
+  'JNFSetCharField':
+    'prefix': 'JNFSetCharField'
+    'body': 'JNFSetCharField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jchar val})'
+  'JNFSetDoubleField':
+    'prefix': 'JNFSetDoubleField'
+    'body': 'JNFSetDoubleField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jdouble val})'
+  'JNFSetFloatField':
+    'prefix': 'JNFSetFloatField'
+    'body': 'JNFSetFloatField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jfloat val})'
+  'JNFSetIntField':
+    'prefix': 'JNFSetIntField'
+    'body': 'JNFSetIntField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jint val})'
+  'JNFSetLongField':
+    'prefix': 'JNFSetLongField'
+    'body': 'JNFSetLongField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jlong val})'
+  'JNFSetObjectField':
+    'prefix': 'JNFSetObjectField'
+    'body': 'JNFSetObjectField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jobject val})'
+  'JNFSetShortField':
+    'prefix': 'JNFSetShortField'
+    'body': 'JNFSetShortField(${1:JNIEnv* env}, ${2:jobject obj}, ${3:JNFMemberInfo* field}, ${4:jshort val})'
+  'JNFSetStaticBooleanField':
+    'prefix': 'JNFSetStaticBooleanField'
+    'body': 'JNFSetStaticBooleanField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jboolean val})'
+  'JNFSetStaticByteField':
+    'prefix': 'JNFSetStaticByteField'
+    'body': 'JNFSetStaticByteField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jbyte val})'
+  'JNFSetStaticCharField':
+    'prefix': 'JNFSetStaticCharField'
+    'body': 'JNFSetStaticCharField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jchar val})'
+  'JNFSetStaticDoubleField':
+    'prefix': 'JNFSetStaticDoubleField'
+    'body': 'JNFSetStaticDoubleField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jdouble val})'
+  'JNFSetStaticFloatField':
+    'prefix': 'JNFSetStaticFloatField'
+    'body': 'JNFSetStaticFloatField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jfloat val})'
+  'JNFSetStaticIntField':
+    'prefix': 'JNFSetStaticIntField'
+    'body': 'JNFSetStaticIntField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jint val})'
+  'JNFSetStaticLongField':
+    'prefix': 'JNFSetStaticLongField'
+    'body': 'JNFSetStaticLongField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jlong val})'
+  'JNFSetStaticObjectField':
+    'prefix': 'JNFSetStaticObjectField'
+    'body': 'JNFSetStaticObjectField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jobject val})'
+  'JNFSetStaticShortField':
+    'prefix': 'JNFSetStaticShortField'
+    'body': 'JNFSetStaticShortField(${1:JNIEnv* env}, ${2:JNFMemberInfo* field}, ${3:jshort val})'
+  'JNF_WARN (JNFDebugWarning)':
+    'prefix': 'JNF_WARN'
+    'body': 'JNF_WARN'
+  'JNFDefaultCoercions.addDateCoercionTo:':
+    'prefix': 'addDateCoercionTo:'
+    'body': 'JNFDefaultCoercions.addDateCoercionTo(${1:JNFTypeCoercer* coercer})'
+  'JNFDefaultCoercions.addListCoercionTo:':
+    'prefix': 'addListCoercionTo:'
+    'body': 'JNFDefaultCoercions.addListCoercionTo(${1:JNFTypeCoercer* coercer})'
+  'JNFDefaultCoercions.addMapCoercionTo:':
+    'prefix': 'addMapCoercionTo:'
+    'body': 'JNFDefaultCoercions.addMapCoercionTo(${1:JNFTypeCoercer* coercer})'
+  'JNFDefaultCoercions.addNumberCoercionTo:':
+    'prefix': 'addNumberCoercionTo:'
+    'body': 'JNFDefaultCoercions.addNumberCoercionTo(${1:JNFTypeCoercer* coercer})'
+  'JNFDefaultCoercions.addSetCoercionTo:':
+    'prefix': 'addSetCoercionTo:'
+    'body': 'JNFDefaultCoercions.addSetCoercionTo(${1:JNFTypeCoercer* coercer})'
+  'JNFDefaultCoercions.addStringCoercionTo:':
+    'prefix': 'addStringCoercionTo:'
+    'body': 'JNFDefaultCoercions.addStringCoercionTo(${1:JNFTypeCoercer* coercer})'
+  'JNFDefaultCoercions.defaultCoercer':
+    'prefix': 'defaultCoercer'
+    'body': 'JNFDefaultCoercions.defaultCoercer()'
+  'init:as:reason:':
+    'prefix': 'init:as:reason:'
+    'body': 'init(${1:JNIEnv* env}, as:${2:char* javaExceptionType}, reason:${3:char* reasonMsg})'
+  'init:throwable:':
+    'prefix': 'init:throwable:'
+    'body': 'init(${1:JNIEnv* env}, throwable:${2:jthrowable throwable})'
+  'JNFException.raise:as:reason:':
+    'prefix': 'raise:as:reason:'
+    'body': 'JNFException.raise(${1:JNIEnv* env}, as:${2:char* javaExceptionType}, reason:${3:char* reasonMsg})'
+  'JNFException.raise:throwable:':
+    'prefix': 'raise:throwable:'
+    'body': 'JNFException.raise(${1:JNIEnv* env}, throwable:${2:jthrowable throwable})'
+  'raiseToJava:':
+    'prefix': 'raiseToJava:'
+    'body': 'raiseToJava(${1:JNIEnv* env})'
+  'JNFException.raiseUnnamedException:':
+    'prefix': 'raiseUnnamedException:'
+    'body': 'JNFException.raiseUnnamedException(${1:JNIEnv* env})'
+  'JNFException.throwToJava:exception:':
+    'prefix': 'throwToJava:exception:'
+    'body': 'JNFException.throwToJava(${1:JNIEnv* env}, exception:${2:NSException* exception})'
+  'JNFException.throwToJava:exception:as:':
+    'prefix': 'throwToJava:exception:as:'
+    'body': 'JNFException.throwToJava(${1:JNIEnv* env}, exception:${2:NSException* exception}, as:${3:char* javaExceptionType})'
+  'initWithJObject:withEnv:':
+    'prefix': 'initWithJObject:withEnv:'
+    'body': 'initWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
+  'jObject':
+    'prefix': 'jObject'
+    'body': 'jObject()'
+  'jObjectWithEnv:':
+    'prefix': 'jObjectWithEnv:'
+    'body': 'jObjectWithEnv(${1:JNIEnv* env})'
+  'setJObject:withEnv:':
+    'prefix': 'setJObject:withEnv:'
+    'body': 'setJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
+  'JNFJObjectWrapper.wrapperWithJObject:withEnv:':
+    'prefix': 'wrapperWithJObject:withEnv:'
+    'body': 'JNFJObjectWrapper.wrapperWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
+  'JNFRunLoop.javaRunLoopMode':
+    'prefix': 'javaRunLoopMode'
+    'body': 'JNFRunLoop.javaRunLoopMode()'
+  'JNFRunLoop.performOnMainThread:on:withObject:waitUntilDone:':
+    'prefix': 'performOnMainThread:on:withObject:waitUntilDone:'
+    'body': 'JNFRunLoop.performOnMainThread(${1:SEL aSelector}, on:${2:id target}, withObject:${3:id arg}, waitUntilDone:${4:BOOL wait})'
+  'JNFRunLoop.performOnMainThreadWaiting:withBlock:':
+    'prefix': 'performOnMainThreadWaiting:withBlock:'
+    'body': 'JNFRunLoop.performOnMainThreadWaiting(${1:BOOL waitUntilDone}, withBlock:${2:void (^)() block})'
+  'JNFRunnable.blockWithRunnable:withEnv:':
+    'prefix': 'blockWithRunnable:withEnv:'
+    'body': 'JNFRunnable.blockWithRunnable(${1:jobject runnable}, withEnv:${2:JNIEnv* env})'
+  'JNFRunnable.invocationWithRunnable:withEnv:':
+    'prefix': 'invocationWithRunnable:withEnv:'
+    'body': 'JNFRunnable.invocationWithRunnable(${1:jobject runnable}, withEnv:${2:JNIEnv* env})'
+  'addCoercion:forNSClass:javaClass:':
+    'prefix': 'addCoercion:forNSClass:javaClass:'
+    'body': 'addCoercion(${1:NSObject* coercion}, forNSClass:${2:Class nsClass}, javaClass:${3:NSString* javaClassName})'
+  'coerceJavaObject:withEnv:':
+    'prefix': 'coerceJavaObject:withEnv:'
+    'body': 'coerceJavaObject(${1:jobject obj}, withEnv:${2:JNIEnv* env})'
+  'coerceNSObject:withEnv:':
+    'prefix': 'coerceNSObject:withEnv:'
+    'body': 'coerceNSObject(${1:id obj}, withEnv:${2:JNIEnv* env})'
+  'deriveCoercer':
+    'prefix': 'deriveCoercer'
+    'body': 'deriveCoercer()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithParent:':
+    'prefix': 'initWithParent:'
+    'body': 'initWithParent(${1:NSObject* parentIn})'
+  'JNFWeakJObjectWrapper.wrapperWithJObject:withEnv:':
+    'prefix': 'wrapperWithJObject:withEnv:'
+    'body': 'JNFWeakJObjectWrapper.wrapperWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
+  'coerceJavaObject:withEnv:usingCoercer:':
+    'prefix': 'coerceJavaObject:withEnv:usingCoercer:'
+    'body': 'coerceJavaObject(${1:jobject obj}, withEnv:${2:JNIEnv* env}, usingCoercer:${3:JNFTypeCoercion* coercer})'
+  'coerceNSObject:withEnv:usingCoercer:':
+    'prefix': 'coerceNSObject:withEnv:usingCoercer:'
+    'body': 'coerceNSObject(${1:id obj}, withEnv:${2:JNIEnv* env}, usingCoercer:${3:JNFTypeCoercion* coercer})'
+  'coerceJavaObject:withEnv:usingCoercer:':
+    'prefix': 'coerceJavaObject:withEnv:usingCoercer:'
+    'body': 'coerceJavaObject(${1:jobject obj}, withEnv:${2:JNIEnv* env}, usingCoercer:${3:JNFTypeCoercion* coercer})'
+  'coerceNSObject:withEnv:usingCoercer:':
+    'prefix': 'coerceNSObject:withEnv:usingCoercer:'
+    'body': 'coerceNSObject(${1:id obj}, withEnv:${2:JNIEnv* env}, usingCoercer:${3:JNFTypeCoercion* coercer})'
+  'JRSMenuDidReuseItemNotification (NSString*)':
+    'prefix': 'JRSMenuDidReuseItemNotification'
+    'body': 'JRSMenuDidReuseItemNotification'
+  'JRSAppIsBackgroundOnlyKey (JRSAppIsBackgroundOnlyKey)':
+    'prefix': 'JRSAppIsBackgroundOnlyKey'
+    'body': 'JRSAppIsBackgroundOnlyKey'
+  'JRSAppIsCommandLineKey (JRSAppIsCommandLineKey)':
+    'prefix': 'JRSAppIsCommandLineKey'
+    'body': 'JRSAppIsCommandLineKey'
+  'JRSAppIsUIElementKey (JRSAppIsUIElementKey)':
+    'prefix': 'JRSAppIsUIElementKey'
+    'body': 'JRSAppIsUIElementKey'
+  'JRSAppNameKey (JRSAppNameKey)':
+    'prefix': 'JRSAppNameKey'
+    'body': 'JRSAppNameKey'
+  'JRSSecurityExecutableCodeSignatureExpired (5)':
+    'prefix': 'JRSSecurityExecutableCodeSignatureExpired'
+    'body': 'JRSSecurityExecutableCodeSignatureExpired'
+  'JRSSecurityExecutableCodeSignatureExplicitlyTrusted (3)':
+    'prefix': 'JRSSecurityExecutableCodeSignatureExplicitlyTrusted'
+    'body': 'JRSSecurityExecutableCodeSignatureExplicitlyTrusted'
+  'JRSSecurityExecutableCodeSignatureExplicitlyUntrusted (4)':
+    'prefix': 'JRSSecurityExecutableCodeSignatureExplicitlyUntrusted'
+    'body': 'JRSSecurityExecutableCodeSignatureExplicitlyUntrusted'
+  'JRSSecurityExecutableCodeSignatureMissing (0)':
+    'prefix': 'JRSSecurityExecutableCodeSignatureMissing'
+    'body': 'JRSSecurityExecutableCodeSignatureMissing'
+  'JRSSecurityExecutableCodeSignatureUnverifiable (1)':
+    'prefix': 'JRSSecurityExecutableCodeSignatureUnverifiable'
+    'body': 'JRSSecurityExecutableCodeSignatureUnverifiable'
+  'JRSSecurityExecutableCodeSignatureValidatedThroughTrustedCA (2)':
+    'prefix': 'JRSSecurityExecutableCodeSignatureValidatedThroughTrustedCA'
+    'body': 'JRSSecurityExecutableCodeSignatureValidatedThroughTrustedCA'
+  'JRSSecurityExecutionPolicyBlockExecution (3)':
+    'prefix': 'JRSSecurityExecutionPolicyBlockExecution'
+    'body': 'JRSSecurityExecutionPolicyBlockExecution'
+  'JRSSecurityExecutionPolicyNoPrompt (0)':
+    'prefix': 'JRSSecurityExecutionPolicyNoPrompt'
+    'body': 'JRSSecurityExecutionPolicyNoPrompt'
+  'JRSSecurityExecutionPolicyOKPrompt (1)':
+    'prefix': 'JRSSecurityExecutionPolicyOKPrompt'
+    'body': 'JRSSecurityExecutionPolicyOKPrompt'
+  'JRSSecurityExecutionPolicyWarnPrompt (2)':
+    'prefix': 'JRSSecurityExecutionPolicyWarnPrompt'
+    'body': 'JRSSecurityExecutionPolicyWarnPrompt'
+  'kJRSUI_AlignmentHorizontal_center (2)':
+    'prefix': 'kJRSUI_AlignmentHorizontal_center'
+    'body': 'KJRSUI_AlignmentHorizontal_center'
+  'kJRSUI_AlignmentHorizontal_left (1)':
+    'prefix': 'kJRSUI_AlignmentHorizontal_left'
+    'body': 'KJRSUI_AlignmentHorizontal_left'
+  'kJRSUI_AlignmentHorizontal_right (3)':
+    'prefix': 'kJRSUI_AlignmentHorizontal_right'
+    'body': 'KJRSUI_AlignmentHorizontal_right'
+  'kJRSUI_AlignmentVertical_bottom (3)':
+    'prefix': 'kJRSUI_AlignmentVertical_bottom'
+    'body': 'KJRSUI_AlignmentVertical_bottom'
+  'kJRSUI_AlignmentVertical_center (2)':
+    'prefix': 'kJRSUI_AlignmentVertical_center'
+    'body': 'KJRSUI_AlignmentVertical_center'
+  'kJRSUI_AlignmentVertical_top (1)':
+    'prefix': 'kJRSUI_AlignmentVertical_top'
+    'body': 'KJRSUI_AlignmentVertical_top'
+  'kJRSUI_Direction_down (3)':
+    'prefix': 'kJRSUI_Direction_down'
+    'body': 'KJRSUI_Direction_down'
+  'kJRSUI_Direction_east (8)':
+    'prefix': 'kJRSUI_Direction_east'
+    'body': 'KJRSUI_Direction_east'
+  'kJRSUI_Direction_left (4)':
+    'prefix': 'kJRSUI_Direction_left'
+    'body': 'KJRSUI_Direction_left'
+  'kJRSUI_Direction_none (1)':
+    'prefix': 'kJRSUI_Direction_none'
+    'body': 'KJRSUI_Direction_none'
+  'kJRSUI_Direction_north (6)':
+    'prefix': 'kJRSUI_Direction_north'
+    'body': 'KJRSUI_Direction_north'
+  'kJRSUI_Direction_right (5)':
+    'prefix': 'kJRSUI_Direction_right'
+    'body': 'KJRSUI_Direction_right'
+  'kJRSUI_Direction_south (7)':
+    'prefix': 'kJRSUI_Direction_south'
+    'body': 'KJRSUI_Direction_south'
+  'kJRSUI_Direction_up (2)':
+    'prefix': 'kJRSUI_Direction_up'
+    'body': 'KJRSUI_Direction_up'
+  'kJRSUI_Direction_west (9)':
+    'prefix': 'kJRSUI_Direction_west'
+    'body': 'KJRSUI_Direction_west'
+  'kJRSUI_Key_animationFrame (23)':
+    'prefix': 'kJRSUI_Key_animationFrame'
+    'body': 'KJRSUI_Key_animationFrame'
+  'kJRSUI_Key_animationStartTime (21)':
+    'prefix': 'kJRSUI_Key_animationStartTime'
+    'body': 'KJRSUI_Key_animationStartTime'
+  'kJRSUI_Key_animationTime (22)':
+    'prefix': 'kJRSUI_Key_animationTime'
+    'body': 'KJRSUI_Key_animationTime'
+  'kJRSUI_Key_arrowsOnly (16)':
+    'prefix': 'kJRSUI_Key_arrowsOnly'
+    'body': 'KJRSUI_Key_arrowsOnly'
+  'kJRSUI_Key_direction (4)':
+    'prefix': 'kJRSUI_Key_direction'
+    'body': 'KJRSUI_Key_direction'
+  'kJRSUI_Key_focused (12)':
+    'prefix': 'kJRSUI_Key_focused'
+    'body': 'KJRSUI_Key_focused'
+  'kJRSUI_Key_frameOnly (17)':
+    'prefix': 'kJRSUI_Key_frameOnly'
+    'body': 'KJRSUI_Key_frameOnly'
+  'kJRSUI_Key_horizontalAlignment (7)':
+    'prefix': 'kJRSUI_Key_horizontalAlignment'
+    'body': 'KJRSUI_Key_horizontalAlignment'
+  'kJRSUI_Key_indicatorOnly (13)':
+    'prefix': 'kJRSUI_Key_indicatorOnly'
+    'body': 'KJRSUI_Key_indicatorOnly'
+  'kJRSUI_Key_maximumValue (19)':
+    'prefix': 'kJRSUI_Key_maximumValue'
+    'body': 'KJRSUI_Key_maximumValue'
+  'kJRSUI_Key_noIndicator (14)':
+    'prefix': 'kJRSUI_Key_noIndicator'
+    'body': 'KJRSUI_Key_noIndicator'
+  'kJRSUI_Key_nothingToScroll (15)':
+    'prefix': 'kJRSUI_Key_nothingToScroll'
+    'body': 'KJRSUI_Key_nothingToScroll'
+  'kJRSUI_Key_orientation (5)':
+    'prefix': 'kJRSUI_Key_orientation'
+    'body': 'KJRSUI_Key_orientation'
+  'kJRSUI_Key_position (8)':
+    'prefix': 'kJRSUI_Key_position'
+    'body': 'KJRSUI_Key_position'
+  'kJRSUI_Key_presentationState (30)':
+    'prefix': 'kJRSUI_Key_presentationState'
+    'body': 'KJRSUI_Key_presentationState'
+  'kJRSUI_Key_pressedPart (9)':
+    'prefix': 'kJRSUI_Key_pressedPart'
+    'body': 'KJRSUI_Key_pressedPart'
+  'kJRSUI_Key_segmentLeadingSeparator (29)':
+    'prefix': 'kJRSUI_Key_segmentLeadingSeparator'
+    'body': 'KJRSUI_Key_segmentLeadingSeparator'
+  'kJRSUI_Key_segmentTrailingSeparator (18)':
+    'prefix': 'kJRSUI_Key_segmentTrailingSeparator'
+    'body': 'KJRSUI_Key_segmentTrailingSeparator'
+  'kJRSUI_Key_size (3)':
+    'prefix': 'kJRSUI_Key_size'
+    'body': 'KJRSUI_Key_size'
+  'kJRSUI_Key_state (2)':
+    'prefix': 'kJRSUI_Key_state'
+    'body': 'KJRSUI_Key_state'
+  'kJRSUI_Key_thumbProportion (24)':
+    'prefix': 'kJRSUI_Key_thumbProportion'
+    'body': 'KJRSUI_Key_thumbProportion'
+  'kJRSUI_Key_thumbStart (25)':
+    'prefix': 'kJRSUI_Key_thumbStart'
+    'body': 'KJRSUI_Key_thumbStart'
+  'kJRSUI_Key_userInterfaceLayoutDirection (31)':
+    'prefix': 'kJRSUI_Key_userInterfaceLayoutDirection'
+    'body': 'KJRSUI_Key_userInterfaceLayoutDirection'
+  'kJRSUI_Key_value (20)':
+    'prefix': 'kJRSUI_Key_value'
+    'body': 'KJRSUI_Key_value'
+  'kJRSUI_Key_variant (10)':
+    'prefix': 'kJRSUI_Key_variant'
+    'body': 'KJRSUI_Key_variant'
+  'kJRSUI_Key_verticalAlignment (6)':
+    'prefix': 'kJRSUI_Key_verticalAlignment'
+    'body': 'KJRSUI_Key_verticalAlignment'
+  'kJRSUI_Key_widget (1)':
+    'prefix': 'kJRSUI_Key_widget'
+    'body': 'KJRSUI_Key_widget'
+  'kJRSUI_Key_windowFrameDrawClipped (26)':
+    'prefix': 'kJRSUI_Key_windowFrameDrawClipped'
+    'body': 'KJRSUI_Key_windowFrameDrawClipped'
+  'kJRSUI_Key_windowFrameDrawTitleSeparator (27)':
+    'prefix': 'kJRSUI_Key_windowFrameDrawTitleSeparator'
+    'body': 'KJRSUI_Key_windowFrameDrawTitleSeparator'
+  'kJRSUI_Key_windowTitleBarHeight (28)':
+    'prefix': 'kJRSUI_Key_windowTitleBarHeight'
+    'body': 'KJRSUI_Key_windowTitleBarHeight'
+  'kJRSUI_Key_windowType (11)':
+    'prefix': 'kJRSUI_Key_windowType'
+    'body': 'KJRSUI_Key_windowType'
+  'kJRSUI_Orientation_horizontal (1)':
+    'prefix': 'kJRSUI_Orientation_horizontal'
+    'body': 'KJRSUI_Orientation_horizontal'
+  'kJRSUI_Orientation_vertical (2)':
+    'prefix': 'kJRSUI_Orientation_vertical'
+    'body': 'KJRSUI_Orientation_vertical'
+  'kJRSUI_PartHit_arrowMax (6)':
+    'prefix': 'kJRSUI_PartHit_arrowMax'
+    'body': 'KJRSUI_PartHit_arrowMax'
+  'kJRSUI_PartHit_arrowMaxInside (7)':
+    'prefix': 'kJRSUI_PartHit_arrowMaxInside'
+    'body': 'KJRSUI_PartHit_arrowMaxInside'
+  'kJRSUI_PartHit_arrowMin (5)':
+    'prefix': 'kJRSUI_PartHit_arrowMin'
+    'body': 'KJRSUI_PartHit_arrowMin'
+  'kJRSUI_PartHit_arrowMinInside (8)':
+    'prefix': 'kJRSUI_PartHit_arrowMinInside'
+    'body': 'KJRSUI_PartHit_arrowMinInside'
+  'kJRSUI_PartHit_hit (1)':
+    'prefix': 'kJRSUI_PartHit_hit'
+    'body': 'KJRSUI_PartHit_hit'
+  'kJRSUI_PartHit_none (0)':
+    'prefix': 'kJRSUI_PartHit_none'
+    'body': 'KJRSUI_PartHit_none'
+  'kJRSUI_PartHit_thumb (2)':
+    'prefix': 'kJRSUI_PartHit_thumb'
+    'body': 'KJRSUI_PartHit_thumb'
+  'kJRSUI_PartHit_trackMax (4)':
+    'prefix': 'kJRSUI_PartHit_trackMax'
+    'body': 'KJRSUI_PartHit_trackMax'
+  'kJRSUI_PartHit_trackMin (3)':
+    'prefix': 'kJRSUI_PartHit_trackMin'
+    'body': 'KJRSUI_PartHit_trackMin'
+  'kJRSUI_PartHit_unknown (-1)':
+    'prefix': 'kJRSUI_PartHit_unknown'
+    'body': 'KJRSUI_PartHit_unknown'
+  'kJRSUI_PresentationState_activeKey (1)':
+    'prefix': 'kJRSUI_PresentationState_activeKey'
+    'body': 'KJRSUI_PresentationState_activeKey'
+  'kJRSUI_PresentationState_activeMain (2)':
+    'prefix': 'kJRSUI_PresentationState_activeMain'
+    'body': 'KJRSUI_PresentationState_activeMain'
+  'kJRSUI_PresentationState_inactive (3)':
+    'prefix': 'kJRSUI_PresentationState_inactive'
+    'body': 'KJRSUI_PresentationState_inactive'
+  'kJRSUI_ScrollBarPart_arrowMax (4)':
+    'prefix': 'kJRSUI_ScrollBarPart_arrowMax'
+    'body': 'KJRSUI_ScrollBarPart_arrowMax'
+  'kJRSUI_ScrollBarPart_arrowMaxInside (5)':
+    'prefix': 'kJRSUI_ScrollBarPart_arrowMaxInside'
+    'body': 'KJRSUI_ScrollBarPart_arrowMaxInside'
+  'kJRSUI_ScrollBarPart_arrowMin (3)':
+    'prefix': 'kJRSUI_ScrollBarPart_arrowMin'
+    'body': 'KJRSUI_ScrollBarPart_arrowMin'
+  'kJRSUI_ScrollBarPart_arrowMinInside (6)':
+    'prefix': 'kJRSUI_ScrollBarPart_arrowMinInside'
+    'body': 'KJRSUI_ScrollBarPart_arrowMinInside'
+  'kJRSUI_ScrollBarPart_none (1)':
+    'prefix': 'kJRSUI_ScrollBarPart_none'
+    'body': 'KJRSUI_ScrollBarPart_none'
+  'kJRSUI_ScrollBarPart_thumb (2)':
+    'prefix': 'kJRSUI_ScrollBarPart_thumb'
+    'body': 'KJRSUI_ScrollBarPart_thumb'
+  'kJRSUI_ScrollBarPart_trackMax (8)':
+    'prefix': 'kJRSUI_ScrollBarPart_trackMax'
+    'body': 'KJRSUI_ScrollBarPart_trackMax'
+  'kJRSUI_ScrollBarPart_trackMin (7)':
+    'prefix': 'kJRSUI_ScrollBarPart_trackMin'
+    'body': 'KJRSUI_ScrollBarPart_trackMin'
+  'kJRSUI_SegmentPosition_first (1)':
+    'prefix': 'kJRSUI_SegmentPosition_first'
+    'body': 'KJRSUI_SegmentPosition_first'
+  'kJRSUI_SegmentPosition_last (3)':
+    'prefix': 'kJRSUI_SegmentPosition_last'
+    'body': 'KJRSUI_SegmentPosition_last'
+  'kJRSUI_SegmentPosition_middle (2)':
+    'prefix': 'kJRSUI_SegmentPosition_middle'
+    'body': 'KJRSUI_SegmentPosition_middle'
+  'kJRSUI_SegmentPosition_only (4)':
+    'prefix': 'kJRSUI_SegmentPosition_only'
+    'body': 'KJRSUI_SegmentPosition_only'
+  'kJRSUI_Size_large (4)':
+    'prefix': 'kJRSUI_Size_large'
+    'body': 'KJRSUI_Size_large'
+  'kJRSUI_Size_mini (1)':
+    'prefix': 'kJRSUI_Size_mini'
+    'body': 'KJRSUI_Size_mini'
+  'kJRSUI_Size_regular (3)':
+    'prefix': 'kJRSUI_Size_regular'
+    'body': 'KJRSUI_Size_regular'
+  'kJRSUI_Size_small (2)':
+    'prefix': 'kJRSUI_Size_small'
+    'body': 'KJRSUI_Size_small'
+  'kJRSUI_State_active (1)':
+    'prefix': 'kJRSUI_State_active'
+    'body': 'KJRSUI_State_active'
+  'kJRSUI_State_disabled (3)':
+    'prefix': 'kJRSUI_State_disabled'
+    'body': 'KJRSUI_State_disabled'
+  'kJRSUI_State_drag (7)':
+    'prefix': 'kJRSUI_State_drag'
+    'body': 'KJRSUI_State_drag'
+  'kJRSUI_State_inactive (2)':
+    'prefix': 'kJRSUI_State_inactive'
+    'body': 'KJRSUI_State_inactive'
+  'kJRSUI_State_pressed (4)':
+    'prefix': 'kJRSUI_State_pressed'
+    'body': 'KJRSUI_State_pressed'
+  'kJRSUI_State_pulsed (5)':
+    'prefix': 'kJRSUI_State_pulsed'
+    'body': 'KJRSUI_State_pulsed'
+  'kJRSUI_State_rollover (6)':
+    'prefix': 'kJRSUI_State_rollover'
+    'body': 'KJRSUI_State_rollover'
+  'kJRSUI_UserInterfaceLayoutDirection_leftToRight (1)':
+    'prefix': 'kJRSUI_UserInterfaceLayoutDirection_leftToRight'
+    'body': 'KJRSUI_UserInterfaceLayoutDirection_leftToRight'
+  'kJRSUI_UserInterfaceLayoutDirection_rightToLeft (2)':
+    'prefix': 'kJRSUI_UserInterfaceLayoutDirection_rightToLeft'
+    'body': 'KJRSUI_UserInterfaceLayoutDirection_rightToLeft'
+  'kJRSUI_Variant_gradientListBackgroundEven (5)':
+    'prefix': 'kJRSUI_Variant_gradientListBackgroundEven'
+    'body': 'KJRSUI_Variant_gradientListBackgroundEven'
+  'kJRSUI_Variant_gradientListBackgroundOdd (6)':
+    'prefix': 'kJRSUI_Variant_gradientListBackgroundOdd'
+    'body': 'KJRSUI_Variant_gradientListBackgroundOdd'
+  'kJRSUI_Variant_gradientSideBar (7)':
+    'prefix': 'kJRSUI_Variant_gradientSideBar'
+    'body': 'KJRSUI_Variant_gradientSideBar'
+  'kJRSUI_Variant_gradientSideBarFocusedSelection (9)':
+    'prefix': 'kJRSUI_Variant_gradientSideBarFocusedSelection'
+    'body': 'KJRSUI_Variant_gradientSideBarFocusedSelection'
+  'kJRSUI_Variant_gradientSideBarSelection (8)':
+    'prefix': 'kJRSUI_Variant_gradientSideBarSelection'
+    'body': 'KJRSUI_Variant_gradientSideBarSelection'
+  'kJRSUI_Variant_menuGlyph (1)':
+    'prefix': 'kJRSUI_Variant_menuGlyph'
+    'body': 'KJRSUI_Variant_menuGlyph'
+  'kJRSUI_Variant_menuHierarchical (4)':
+    'prefix': 'kJRSUI_Variant_menuHierarchical'
+    'body': 'KJRSUI_Variant_menuHierarchical'
+  'kJRSUI_Variant_menuPopup (2)':
+    'prefix': 'kJRSUI_Variant_menuPopup'
+    'body': 'KJRSUI_Variant_menuPopup'
+  'kJRSUI_Variant_menuPulldown (3)':
+    'prefix': 'kJRSUI_Variant_menuPulldown'
+    'body': 'KJRSUI_Variant_menuPulldown'
+  'kJRSUI_Widget_background (1)':
+    'prefix': 'kJRSUI_Widget_background'
+    'body': 'KJRSUI_Widget_background'
+  'kJRSUI_Widget_buttonBevel (2)':
+    'prefix': 'kJRSUI_Widget_buttonBevel'
+    'body': 'KJRSUI_Widget_buttonBevel'
+  'kJRSUI_Widget_buttonBevelInset (3)':
+    'prefix': 'kJRSUI_Widget_buttonBevelInset'
+    'body': 'KJRSUI_Widget_buttonBevelInset'
+  'kJRSUI_Widget_buttonBevelRound (4)':
+    'prefix': 'kJRSUI_Widget_buttonBevelRound'
+    'body': 'KJRSUI_Widget_buttonBevelRound'
+  'kJRSUI_Widget_buttonCheckBox (5)':
+    'prefix': 'kJRSUI_Widget_buttonCheckBox'
+    'body': 'KJRSUI_Widget_buttonCheckBox'
+  'kJRSUI_Widget_buttonComboBox (6)':
+    'prefix': 'kJRSUI_Widget_buttonComboBox'
+    'body': 'KJRSUI_Widget_buttonComboBox'
+  'kJRSUI_Widget_buttonComboBoxInset (7)':
+    'prefix': 'kJRSUI_Widget_buttonComboBoxInset'
+    'body': 'KJRSUI_Widget_buttonComboBoxInset'
+  'kJRSUI_Widget_buttonDisclosure (8)':
+    'prefix': 'kJRSUI_Widget_buttonDisclosure'
+    'body': 'KJRSUI_Widget_buttonDisclosure'
+  'kJRSUI_Widget_buttonListHeader (9)':
+    'prefix': 'kJRSUI_Widget_buttonListHeader'
+    'body': 'KJRSUI_Widget_buttonListHeader'
+  'kJRSUI_Widget_buttonLittleArrows (10)':
+    'prefix': 'kJRSUI_Widget_buttonLittleArrows'
+    'body': 'KJRSUI_Widget_buttonLittleArrows'
+  'kJRSUI_Widget_buttonPopDown (11)':
+    'prefix': 'kJRSUI_Widget_buttonPopDown'
+    'body': 'KJRSUI_Widget_buttonPopDown'
+  'kJRSUI_Widget_buttonPopDownInset (12)':
+    'prefix': 'kJRSUI_Widget_buttonPopDownInset'
+    'body': 'KJRSUI_Widget_buttonPopDownInset'
+  'kJRSUI_Widget_buttonPopDownSquare (13)':
+    'prefix': 'kJRSUI_Widget_buttonPopDownSquare'
+    'body': 'KJRSUI_Widget_buttonPopDownSquare'
+  'kJRSUI_Widget_buttonPopUp (14)':
+    'prefix': 'kJRSUI_Widget_buttonPopUp'
+    'body': 'KJRSUI_Widget_buttonPopUp'
+  'kJRSUI_Widget_buttonPopUpInset (15)':
+    'prefix': 'kJRSUI_Widget_buttonPopUpInset'
+    'body': 'KJRSUI_Widget_buttonPopUpInset'
+  'kJRSUI_Widget_buttonPopUpSquare (16)':
+    'prefix': 'kJRSUI_Widget_buttonPopUpSquare'
+    'body': 'KJRSUI_Widget_buttonPopUpSquare'
+  'kJRSUI_Widget_buttonPush (17)':
+    'prefix': 'kJRSUI_Widget_buttonPush'
+    'body': 'KJRSUI_Widget_buttonPush'
+  'kJRSUI_Widget_buttonPushInset (21)':
+    'prefix': 'kJRSUI_Widget_buttonPushInset'
+    'body': 'KJRSUI_Widget_buttonPushInset'
+  'kJRSUI_Widget_buttonPushInset2 (22)':
+    'prefix': 'kJRSUI_Widget_buttonPushInset2'
+    'body': 'KJRSUI_Widget_buttonPushInset2'
+  'kJRSUI_Widget_buttonPushScope (18)':
+    'prefix': 'kJRSUI_Widget_buttonPushScope'
+    'body': 'KJRSUI_Widget_buttonPushScope'
+  'kJRSUI_Widget_buttonPushScope2 (19)':
+    'prefix': 'kJRSUI_Widget_buttonPushScope2'
+    'body': 'KJRSUI_Widget_buttonPushScope2'
+  'kJRSUI_Widget_buttonPushTextured (20)':
+    'prefix': 'kJRSUI_Widget_buttonPushTextured'
+    'body': 'KJRSUI_Widget_buttonPushTextured'
+  'kJRSUI_Widget_buttonRadio (23)':
+    'prefix': 'kJRSUI_Widget_buttonRadio'
+    'body': 'KJRSUI_Widget_buttonRadio'
+  'kJRSUI_Widget_buttonRound (24)':
+    'prefix': 'kJRSUI_Widget_buttonRound'
+    'body': 'KJRSUI_Widget_buttonRound'
+  'kJRSUI_Widget_buttonRoundHelp (25)':
+    'prefix': 'kJRSUI_Widget_buttonRoundHelp'
+    'body': 'KJRSUI_Widget_buttonRoundHelp'
+  'kJRSUI_Widget_buttonRoundInset (26)':
+    'prefix': 'kJRSUI_Widget_buttonRoundInset'
+    'body': 'KJRSUI_Widget_buttonRoundInset'
+  'kJRSUI_Widget_buttonRoundInset2 (27)':
+    'prefix': 'kJRSUI_Widget_buttonRoundInset2'
+    'body': 'KJRSUI_Widget_buttonRoundInset2'
+  'kJRSUI_Widget_buttonSearchFieldCancel (28)':
+    'prefix': 'kJRSUI_Widget_buttonSearchFieldCancel'
+    'body': 'KJRSUI_Widget_buttonSearchFieldCancel'
+  'kJRSUI_Widget_buttonSearchFieldFind (29)':
+    'prefix': 'kJRSUI_Widget_buttonSearchFieldFind'
+    'body': 'KJRSUI_Widget_buttonSearchFieldFind'
+  'kJRSUI_Widget_buttonSegmented (30)':
+    'prefix': 'kJRSUI_Widget_buttonSegmented'
+    'body': 'KJRSUI_Widget_buttonSegmented'
+  'kJRSUI_Widget_buttonSegmentedInset (31)':
+    'prefix': 'kJRSUI_Widget_buttonSegmentedInset'
+    'body': 'KJRSUI_Widget_buttonSegmentedInset'
+  'kJRSUI_Widget_buttonSegmentedInset2 (32)':
+    'prefix': 'kJRSUI_Widget_buttonSegmentedInset2'
+    'body': 'KJRSUI_Widget_buttonSegmentedInset2'
+  'kJRSUI_Widget_buttonSegmentedSCurve (33)':
+    'prefix': 'kJRSUI_Widget_buttonSegmentedSCurve'
+    'body': 'KJRSUI_Widget_buttonSegmentedSCurve'
+  'kJRSUI_Widget_buttonSegmentedTextured (34)':
+    'prefix': 'kJRSUI_Widget_buttonSegmentedTextured'
+    'body': 'KJRSUI_Widget_buttonSegmentedTextured'
+  'kJRSUI_Widget_buttonSegmentedToolbar (35)':
+    'prefix': 'kJRSUI_Widget_buttonSegmentedToolbar'
+    'body': 'KJRSUI_Widget_buttonSegmentedToolbar'
+  'kJRSUI_Widget_dial (36)':
+    'prefix': 'kJRSUI_Widget_dial'
+    'body': 'KJRSUI_Widget_dial'
+  'kJRSUI_Widget_disclosureTriangle (37)':
+    'prefix': 'kJRSUI_Widget_disclosureTriangle'
+    'body': 'KJRSUI_Widget_disclosureTriangle'
+  'kJRSUI_Widget_dividerGrabber (38)':
+    'prefix': 'kJRSUI_Widget_dividerGrabber'
+    'body': 'KJRSUI_Widget_dividerGrabber'
+  'kJRSUI_Widget_dividerSeparatorBar (39)':
+    'prefix': 'kJRSUI_Widget_dividerSeparatorBar'
+    'body': 'KJRSUI_Widget_dividerSeparatorBar'
+  'kJRSUI_Widget_dividerSplitter (40)':
+    'prefix': 'kJRSUI_Widget_dividerSplitter'
+    'body': 'KJRSUI_Widget_dividerSplitter'
+  'kJRSUI_Widget_focus (41)':
+    'prefix': 'kJRSUI_Widget_focus'
+    'body': 'KJRSUI_Widget_focus'
+  'kJRSUI_Widget_frameGroupBox (42)':
+    'prefix': 'kJRSUI_Widget_frameGroupBox'
+    'body': 'KJRSUI_Widget_frameGroupBox'
+  'kJRSUI_Widget_frameGroupBoxSecondary (43)':
+    'prefix': 'kJRSUI_Widget_frameGroupBoxSecondary'
+    'body': 'KJRSUI_Widget_frameGroupBoxSecondary'
+  'kJRSUI_Widget_frameListBox (44)':
+    'prefix': 'kJRSUI_Widget_frameListBox'
+    'body': 'KJRSUI_Widget_frameListBox'
+  'kJRSUI_Widget_framePlacard (45)':
+    'prefix': 'kJRSUI_Widget_framePlacard'
+    'body': 'KJRSUI_Widget_framePlacard'
+  'kJRSUI_Widget_frameTextField (46)':
+    'prefix': 'kJRSUI_Widget_frameTextField'
+    'body': 'KJRSUI_Widget_frameTextField'
+  'kJRSUI_Widget_frameTextFieldRound (47)':
+    'prefix': 'kJRSUI_Widget_frameTextFieldRound'
+    'body': 'KJRSUI_Widget_frameTextFieldRound'
+  'kJRSUI_Widget_frameWell (48)':
+    'prefix': 'kJRSUI_Widget_frameWell'
+    'body': 'KJRSUI_Widget_frameWell'
+  'kJRSUI_Widget_gradient (51)':
+    'prefix': 'kJRSUI_Widget_gradient'
+    'body': 'KJRSUI_Widget_gradient'
+  'kJRSUI_Widget_growBox (49)':
+    'prefix': 'kJRSUI_Widget_growBox'
+    'body': 'KJRSUI_Widget_growBox'
+  'kJRSUI_Widget_growBoxTextured (50)':
+    'prefix': 'kJRSUI_Widget_growBoxTextured'
+    'body': 'KJRSUI_Widget_growBoxTextured'
+  'kJRSUI_Widget_menu (52)':
+    'prefix': 'kJRSUI_Widget_menu'
+    'body': 'KJRSUI_Widget_menu'
+  'kJRSUI_Widget_menuBar (54)':
+    'prefix': 'kJRSUI_Widget_menuBar'
+    'body': 'KJRSUI_Widget_menuBar'
+  'kJRSUI_Widget_menuItem (53)':
+    'prefix': 'kJRSUI_Widget_menuItem'
+    'body': 'KJRSUI_Widget_menuItem'
+  'kJRSUI_Widget_menuTitle (55)':
+    'prefix': 'kJRSUI_Widget_menuTitle'
+    'body': 'KJRSUI_Widget_menuTitle'
+  'kJRSUI_Widget_progressBar (56)':
+    'prefix': 'kJRSUI_Widget_progressBar'
+    'body': 'KJRSUI_Widget_progressBar'
+  'kJRSUI_Widget_progressIndeterminateBar (57)':
+    'prefix': 'kJRSUI_Widget_progressIndeterminateBar'
+    'body': 'KJRSUI_Widget_progressIndeterminateBar'
+  'kJRSUI_Widget_progressRelevance (58)':
+    'prefix': 'kJRSUI_Widget_progressRelevance'
+    'body': 'KJRSUI_Widget_progressRelevance'
+  'kJRSUI_Widget_progressSpinner (59)':
+    'prefix': 'kJRSUI_Widget_progressSpinner'
+    'body': 'KJRSUI_Widget_progressSpinner'
+  'kJRSUI_Widget_scrollBar (60)':
+    'prefix': 'kJRSUI_Widget_scrollBar'
+    'body': 'KJRSUI_Widget_scrollBar'
+  'kJRSUI_Widget_scrollColumnSizer (61)':
+    'prefix': 'kJRSUI_Widget_scrollColumnSizer'
+    'body': 'KJRSUI_Widget_scrollColumnSizer'
+  'kJRSUI_Widget_slider (62)':
+    'prefix': 'kJRSUI_Widget_slider'
+    'body': 'KJRSUI_Widget_slider'
+  'kJRSUI_Widget_sliderThumb (63)':
+    'prefix': 'kJRSUI_Widget_sliderThumb'
+    'body': 'KJRSUI_Widget_sliderThumb'
+  'kJRSUI_Widget_synchronization (64)':
+    'prefix': 'kJRSUI_Widget_synchronization'
+    'body': 'KJRSUI_Widget_synchronization'
+  'kJRSUI_Widget_tab (65)':
+    'prefix': 'kJRSUI_Widget_tab'
+    'body': 'KJRSUI_Widget_tab'
+  'kJRSUI_Widget_titleBarCloseBox (66)':
+    'prefix': 'kJRSUI_Widget_titleBarCloseBox'
+    'body': 'KJRSUI_Widget_titleBarCloseBox'
+  'kJRSUI_Widget_titleBarCollapseBox (67)':
+    'prefix': 'kJRSUI_Widget_titleBarCollapseBox'
+    'body': 'KJRSUI_Widget_titleBarCollapseBox'
+  'kJRSUI_Widget_titleBarToolbarButton (69)':
+    'prefix': 'kJRSUI_Widget_titleBarToolbarButton'
+    'body': 'KJRSUI_Widget_titleBarToolbarButton'
+  'kJRSUI_Widget_titleBarZoomBox (68)':
+    'prefix': 'kJRSUI_Widget_titleBarZoomBox'
+    'body': 'KJRSUI_Widget_titleBarZoomBox'
+  'kJRSUI_Widget_toolbarItemWell (70)':
+    'prefix': 'kJRSUI_Widget_toolbarItemWell'
+    'body': 'KJRSUI_Widget_toolbarItemWell'
+  'kJRSUI_Widget_windowFrame (71)':
+    'prefix': 'kJRSUI_Widget_windowFrame'
+    'body': 'KJRSUI_Widget_windowFrame'
+  'kJRSUI_WindowType_document (1)':
+    'prefix': 'kJRSUI_WindowType_document'
+    'body': 'KJRSUI_WindowType_document'
+  'kJRSUI_WindowType_titlelessUtility (3)':
+    'prefix': 'kJRSUI_WindowType_titlelessUtility'
+    'body': 'KJRSUI_WindowType_titlelessUtility'
+  'kJRSUI_WindowType_utility (2)':
+    'prefix': 'kJRSUI_WindowType_utility'
+    'body': 'KJRSUI_WindowType_utility'
+  'JRSAccessibilityUnregisterUniqueIdForUIElement':
+    'prefix': 'JRSAccessibilityUnregisterUniqueIdForUIElement'
+    'body': 'JRSAccessibilityUnregisterUniqueIdForUIElement(${1:id element})'
+  'JRSCopyCanonicalLanguageForPrimaryLanguage':
+    'prefix': 'JRSCopyCanonicalLanguageForPrimaryLanguage'
+    'body': 'JRSCopyCanonicalLanguageForPrimaryLanguage(${1:char* primaryLanguage})'
+  'JRSCopyOSJavaSupportVersion':
+    'prefix': 'JRSCopyOSJavaSupportVersion'
+    'body': 'JRSCopyOSJavaSupportVersion()'
+  'JRSCopyOSName':
+    'prefix': 'JRSCopyOSName'
+    'body': 'JRSCopyOSName()'
+  'JRSCopyOSVersion':
+    'prefix': 'JRSCopyOSVersion'
+    'body': 'JRSCopyOSVersion()'
+  'JRSCopyPrimaryLanguage':
+    'prefix': 'JRSCopyPrimaryLanguage'
+    'body': 'JRSCopyPrimaryLanguage()'
+  'JRSFontAlignStyleForFractionalMeasurement':
+    'prefix': 'JRSFontAlignStyleForFractionalMeasurement'
+    'body': 'JRSFontAlignStyleForFractionalMeasurement(${1:JRSFontRenderingStyle style})'
+  'JRSFontAlignStyleForIntegerMeasurement':
+    'prefix': 'JRSFontAlignStyleForIntegerMeasurement'
+    'body': 'JRSFontAlignStyleForIntegerMeasurement(${1:JRSFontRenderingStyle style})'
+  'JRSFontCreateFallbackFontForCharacters':
+    'prefix': 'JRSFontCreateFallbackFontForCharacters'
+    'body': 'JRSFontCreateFallbackFontForCharacters(${1:CTFontRef font}, ${2:UTF16Char* unichars}, ${3:CFIndex length})'
+  'JRSFontGetAdvancesForGlyphsAndStyle':
+    'prefix': 'JRSFontGetAdvancesForGlyphsAndStyle'
+    'body': 'JRSFontGetAdvancesForGlyphsAndStyle(${1:CTFontRef font}, ${2:CGAffineTransform* tx}, ${3:JRSFontRenderingStyle style}, ${4:CGGlyph* glyphs}, ${5:size_t count}, ${6:CGSize* advances})'
+  'JRSFontGetBoundingBoxesForGlyphsAndStyle':
+    'prefix': 'JRSFontGetBoundingBoxesForGlyphsAndStyle'
+    'body': 'JRSFontGetBoundingBoxesForGlyphsAndStyle(${1:CTFontRef font}, ${2:CGAffineTransform* tx}, ${3:JRSFontRenderingStyle style}, ${4:CGGlyph* glyphs}, ${5:size_t count}, ${6:CGRect* bboxes})'
+  'JRSFontGetRenderingStyleForContext':
+    'prefix': 'JRSFontGetRenderingStyleForContext'
+    'body': 'JRSFontGetRenderingStyleForContext(${1:CGContextRef context})'
+  'JRSFontGetRenderingStyleForHints':
+    'prefix': 'JRSFontGetRenderingStyleForHints'
+    'body': 'JRSFontGetRenderingStyleForHints(${1:jint fmHint}, ${2:jint aaHint})'
+  'JRSFontSetRenderingStyleOnContext':
+    'prefix': 'JRSFontSetRenderingStyleOnContext'
+    'body': 'JRSFontSetRenderingStyleOnContext(${1:CGContextRef context}, ${2:JRSFontRenderingStyle style})'
+  'JRSFontStyleIsAntialiased':
+    'prefix': 'JRSFontStyleIsAntialiased'
+    'body': 'JRSFontStyleIsAntialiased(${1:JRSFontRenderingStyle style})'
+  'JRSFontStyleUsesFractionalMetrics':
+    'prefix': 'JRSFontStyleUsesFractionalMetrics'
+    'body': 'JRSFontStyleUsesFractionalMetrics(${1:JRSFontRenderingStyle style})'
+  'JRSSetDefaultLocalization':
+    'prefix': 'JRSSetDefaultLocalization'
+    'body': 'JRSSetDefaultLocalization(${1:char* primaryLanguage})'
+  'JRSUIControlCreate':
+    'prefix': 'JRSUIControlCreate'
+    'body': 'JRSUIControlCreate(${1:Boolean isFlipped})'
+  'JRSUIControlDraw':
+    'prefix': 'JRSUIControlDraw'
+    'body': 'JRSUIControlDraw(${1:JRSUIRendererRef renderer}, ${2:JRSUIControlRef control}, ${3:CGContextRef context}, ${4:CGRect bounds})'
+  'JRSUIControlGetHitPart':
+    'prefix': 'JRSUIControlGetHitPart'
+    'body': 'JRSUIControlGetHitPart(${1:JRSUIRendererRef renderer}, ${2:JRSUIControlRef control}, ${3:CGRect bounds}, ${4:CGPoint point})'
+  'JRSUIControlGetScrollBarOffsetFor':
+    'prefix': 'JRSUIControlGetScrollBarOffsetFor'
+    'body': 'JRSUIControlGetScrollBarOffsetFor(${1:JRSUIControlRef control}, ${2:CGRect frame}, ${3:CGFloat offset}, ${4:CGFloat visibleAmount}, ${5:CGFloat extent})'
+  'JRSUIControlGetScrollBarPartBounds':
+    'prefix': 'JRSUIControlGetScrollBarPartBounds'
+    'body': 'JRSUIControlGetScrollBarPartBounds(${1:JRSUIControlRef control}, ${2:CGRect frame}, ${3:JRSUIScrollBarPart part})'
+  'JRSUIControlRelease':
+    'prefix': 'JRSUIControlRelease'
+    'body': 'JRSUIControlRelease(${1:JRSUIControlRef control})'
+  'JRSUIControlSetAlignmentHorizontal':
+    'prefix': 'JRSUIControlSetAlignmentHorizontal'
+    'body': 'JRSUIControlSetAlignmentHorizontal(${1:JRSUIControlRef control}, ${2:JRSUIAlignmentVertical value})'
+  'JRSUIControlSetAlignmentVertical':
+    'prefix': 'JRSUIControlSetAlignmentVertical'
+    'body': 'JRSUIControlSetAlignmentVertical(${1:JRSUIControlRef control}, ${2:JRSUIAlignmentHorizontal value})'
+  'JRSUIControlSetAnimating':
+    'prefix': 'JRSUIControlSetAnimating'
+    'body': 'JRSUIControlSetAnimating(${1:JRSUIControlRef control}, ${2:Boolean value})'
+  'JRSUIControlSetDirection':
+    'prefix': 'JRSUIControlSetDirection'
+    'body': 'JRSUIControlSetDirection(${1:JRSUIControlRef control}, ${2:JRSUIDirection value})'
+  'JRSUIControlSetOrientation':
+    'prefix': 'JRSUIControlSetOrientation'
+    'body': 'JRSUIControlSetOrientation(${1:JRSUIControlRef control}, ${2:JRSUIOrintation value})'
+  'JRSUIControlSetPresentationState':
+    'prefix': 'JRSUIControlSetPresentationState'
+    'body': 'JRSUIControlSetPresentationState(${1:JRSUIControlRef control}, ${2:JRSUIPresentationState value})'
+  'JRSUIControlSetScrollBarPart':
+    'prefix': 'JRSUIControlSetScrollBarPart'
+    'body': 'JRSUIControlSetScrollBarPart(${1:JRSUIControlRef control}, ${2:JRSUIScrollBarPart value})'
+  'JRSUIControlSetSegmentPosition':
+    'prefix': 'JRSUIControlSetSegmentPosition'
+    'body': 'JRSUIControlSetSegmentPosition(${1:JRSUIControlRef control}, ${2:JRSUISegmentPosition value})'
+  'JRSUIControlSetShowArrows':
+    'prefix': 'JRSUIControlSetShowArrows'
+    'body': 'JRSUIControlSetShowArrows(${1:JRSUIControlRef control}, ${2:Boolean value})'
+  'JRSUIControlSetSize':
+    'prefix': 'JRSUIControlSetSize'
+    'body': 'JRSUIControlSetSize(${1:JRSUIControlRef control}, ${2:JRSUISize value})'
+  'JRSUIControlSetState':
+    'prefix': 'JRSUIControlSetState'
+    'body': 'JRSUIControlSetState(${1:JRSUIControlRef control}, ${2:JRSUIState value})'
+  'JRSUIControlSetUserInterfaceLayoutDirection':
+    'prefix': 'JRSUIControlSetUserInterfaceLayoutDirection'
+    'body': 'JRSUIControlSetUserInterfaceLayoutDirection(${1:JRSUIControlRef control}, ${2:JRSUIUserInterfaceLayoutDirection value})'
+  'JRSUIControlSetValueByKey':
+    'prefix': 'JRSUIControlSetValueByKey'
+    'body': 'JRSUIControlSetValueByKey(${1:JRSUIControlRef control}, ${2:CFTypeRef key}, ${3:CFTypeRef value})'
+  'JRSUIControlSetVariant':
+    'prefix': 'JRSUIControlSetVariant'
+    'body': 'JRSUIControlSetVariant(${1:JRSUIControlRef control}, ${2:JRSUIVariant value})'
+  'JRSUIControlSetWidget':
+    'prefix': 'JRSUIControlSetWidget'
+    'body': 'JRSUIControlSetWidget(${1:JRSUIControlRef control}, ${2:JRSUIWidget value})'
+  'JRSUIControlSetWindowType':
+    'prefix': 'JRSUIControlSetWindowType'
+    'body': 'JRSUIControlSetWindowType(${1:JRSUIControlRef control}, ${2:JRSUIWindowType value})'
+  'JRSUIControlShouldScrollToClick':
+    'prefix': 'JRSUIControlShouldScrollToClick'
+    'body': 'JRSUIControlShouldScrollToClick()'
+  'JRSUIGetKey':
+    'prefix': 'JRSUIGetKey'
+    'body': 'JRSUIGetKey(${1:JRSUIKey value})'
+  'JRSUIRendererCreate':
+    'prefix': 'JRSUIRendererCreate'
+    'body': 'JRSUIRendererCreate()'
+  'JRSUIRendererRelease':
+    'prefix': 'JRSUIRendererRelease'
+    'body': 'JRSUIRendererRelease(${1:JRSUIRendererRef renderer})'
+  'createRemoteLayerBoundTo:':
+    'prefix': 'createRemoteLayerBoundTo:'
+    'body': 'createRemoteLayerBoundTo(${1:mach_port_t serverPort})'
+  'hostRemoteLayer:':
+    'prefix': 'hostRemoteLayer:'
+    'body': 'hostRemoteLayer(${1:uint32_t layerID})'
+  'JRSAppKitAWT.awtAppDelegate':
+    'prefix': 'awtAppDelegate'
+    'body': 'JRSAppKitAWT.awtAppDelegate()'
+  'JRSAppKitAWT.markAppIsDaemon':
+    'prefix': 'markAppIsDaemon'
+    'body': 'JRSAppKitAWT.markAppIsDaemon()'
+  'JRSAppKitAWT.registerAWTAppWithOptions:':
+    'prefix': 'registerAWTAppWithOptions:'
+    'body': 'JRSAppKitAWT.registerAWTAppWithOptions(${1:NSDictionary* options})'
+  'JRSDrag.currentAllowableActions':
+    'prefix': 'currentAllowableActions'
+    'body': 'JRSDrag.currentAllowableActions()'
+  'JRSDrag.currentModifiers':
+    'prefix': 'currentModifiers'
+    'body': 'JRSDrag.currentModifiers()'
+  'availableInputMethodLocales':
+    'prefix': 'availableInputMethodLocales'
+    'body': 'availableInputMethodLocales()'
+  'JRSInputMethodController.controller':
+    'prefix': 'controller'
+    'body': 'JRSInputMethodController.controller()'
+  'currentInputMethodLocale':
+    'prefix': 'currentInputMethodLocale'
+    'body': 'currentInputMethodLocale()'
+  'currentInputMethodName':
+    'prefix': 'currentInputMethodName'
+    'body': 'currentInputMethodName()'
+  'setCurrentInputMethodForLocale:':
+    'prefix': 'setCurrentInputMethodForLocale:'
+    'body': 'setCurrentInputMethodForLocale(${1:NSString* theLocale})'
+  'JRSRenderServer.recieveRenderServer:':
+    'prefix': 'recieveRenderServer:'
+    'body': 'JRSRenderServer.recieveRenderServer(${1:NSString* serverName})'
+  'JRSRenderServer.sendRenderServer:':
+    'prefix': 'sendRenderServer:'
+    'body': 'JRSRenderServer.sendRenderServer(${1:mach_port_t serverPort})'
+  'JRSRenderServer.startRenderServer':
+    'prefix': 'startRenderServer'
+    'body': 'JRSRenderServer.startRenderServer()'
+  'JRSSecurity.executionPolicyForExecutableCodeSignatureEvaluation:':
+    'prefix': 'executionPolicyForExecutableCodeSignatureEvaluation:'
+    'body': 'JRSSecurity.executionPolicyForExecutableCodeSignatureEvaluation(${1:JRSSecurityExecutableCodeSignatureEvaluation evaluation})'
+  'addressForSymbol:':
+    'prefix': 'addressForSymbol:'
+    'body': 'addressForSymbol(${1:NSString* symbolName})'
+  'JRSSymbolicator.symbolicatorForPid:':
+    'prefix': 'symbolicatorForPid:'
+    'body': 'JRSSymbolicator.symbolicatorForPid(${1:pid_t pid})'
+  'NSCursor.javaBusyButClickableCursor':
+    'prefix': 'javaBusyButClickableCursor'
+    'body': 'NSCursor.javaBusyButClickableCursor()'
+  'NSCursor.javaMoveCursor':
+    'prefix': 'javaMoveCursor'
+    'body': 'NSCursor.javaMoveCursor()'
+  'NSCursor.javaResizeNECursor':
+    'prefix': 'javaResizeNECursor'
+    'body': 'NSCursor.javaResizeNECursor()'
+  'NSCursor.javaResizeNWCursor':
+    'prefix': 'javaResizeNWCursor'
+    'body': 'NSCursor.javaResizeNWCursor()'
+  'NSCursor.javaResizeSECursor':
+    'prefix': 'javaResizeSECursor'
+    'body': 'NSCursor.javaResizeSECursor()'
+  'NSCursor.javaResizeSWCursor':
+    'prefix': 'javaResizeSWCursor'
+    'body': 'NSCursor.javaResizeSWCursor()'
+  'NSCursor.javaSetAllowsCursorSetInBackground:':
+    'prefix': 'javaSetAllowsCursorSetInBackground:'
+    'body': 'NSCursor.javaSetAllowsCursorSetInBackground(${1:BOOL allows})'
+  'deadKeyCharacter':
+    'prefix': 'deadKeyCharacter'
+    'body': 'deadKeyCharacter()'
+  'willBeHandledByComplexInputMethod':
+    'prefix': 'willBeHandledByComplexInputMethod'
+    'body': 'willBeHandledByComplexInputMethod()'
+  'isJavaMenu':
+    'prefix': 'isJavaMenu'
+    'body': 'isJavaMenu()'
+  'NSMenu.javaMenuWithTitle:':
+    'prefix': 'javaMenuWithTitle:'
+    'body': 'NSMenu.javaMenuWithTitle(${1:NSString* title})'
+  'setJavaMenuDelegate:':
+    'prefix': 'setJavaMenuDelegate:'
+    'body': 'setJavaMenuDelegate(${1:id delegate})'
+  'handleJavaMenuItemTargetedAtIndex:rect:':
+    'prefix': 'handleJavaMenuItemTargetedAtIndex:rect:'
+    'body': 'handleJavaMenuItemTargetedAtIndex(${1:NSUInteger menuIndex}, rect:${2:NSRect rect})'
+  'handleJavaMouseEvent:':
+    'prefix': 'handleJavaMouseEvent:'
+    'body': 'handleJavaMouseEvent(${1:NSEvent* event})'
+  'layerID':
+    'prefix': 'layerID'
+    'body': 'layerID()'
+  'javaAddToOrderingGroup:':
+    'prefix': 'javaAddToOrderingGroup:'
+    'body': 'javaAddToOrderingGroup(${1:NSWindow* ownedWindow})'
+  'javaRemoveFromOrderingGroup:':
+    'prefix': 'javaRemoveFromOrderingGroup:'
+    'body': 'javaRemoveFromOrderingGroup(${1:NSWindow* ownedWindow})'
+  'handleJavaMenuItemTargetedAtIndex:rect:':
+    'prefix': 'handleJavaMenuItemTargetedAtIndex:rect:'
+    'body': 'handleJavaMenuItemTargetedAtIndex(${1:NSUInteger menuIndex}, rect:${2:NSRect rect})'
+  'handleJavaMouseEvent:':
+    'prefix': 'handleJavaMouseEvent:'
+    'body': 'handleJavaMouseEvent(${1:NSEvent* event})'
+  'layerID':
+    'prefix': 'layerID'
+    'body': 'layerID()'

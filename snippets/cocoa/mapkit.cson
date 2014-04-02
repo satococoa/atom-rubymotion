@@ -1,0 +1,1312 @@
+'.source.rubymotion':
+  'MKAnnotationCalloutInfoDidChangeNotification ()':
+    'prefix': 'MKAnnotationCalloutInfoDidChangeNotification'
+    'body': 'MKAnnotationCalloutInfoDidChangeNotification'
+  'MKErrorDomain ()':
+    'prefix': 'MKErrorDomain'
+    'body': 'MKErrorDomain'
+  'MKLaunchOptionsDirectionsModeDriving ()':
+    'prefix': 'MKLaunchOptionsDirectionsModeDriving'
+    'body': 'MKLaunchOptionsDirectionsModeDriving'
+  'MKLaunchOptionsDirectionsModeKey ()':
+    'prefix': 'MKLaunchOptionsDirectionsModeKey'
+    'body': 'MKLaunchOptionsDirectionsModeKey'
+  'MKLaunchOptionsDirectionsModeWalking ()':
+    'prefix': 'MKLaunchOptionsDirectionsModeWalking'
+    'body': 'MKLaunchOptionsDirectionsModeWalking'
+  'MKLaunchOptionsMapCenterKey ()':
+    'prefix': 'MKLaunchOptionsMapCenterKey'
+    'body': 'MKLaunchOptionsMapCenterKey'
+  'MKLaunchOptionsMapSpanKey ()':
+    'prefix': 'MKLaunchOptionsMapSpanKey'
+    'body': 'MKLaunchOptionsMapSpanKey'
+  'MKLaunchOptionsMapTypeKey ()':
+    'prefix': 'MKLaunchOptionsMapTypeKey'
+    'body': 'MKLaunchOptionsMapTypeKey'
+  'MKLaunchOptionsShowsTrafficKey ()':
+    'prefix': 'MKLaunchOptionsShowsTrafficKey'
+    'body': 'MKLaunchOptionsShowsTrafficKey'
+  'MKMapRectNull ()':
+    'prefix': 'MKMapRectNull'
+    'body': 'MKMapRectNull'
+  'MKMapRectWorld ()':
+    'prefix': 'MKMapRectWorld'
+    'body': 'MKMapRectWorld'
+  'MKMapSizeWorld ()':
+    'prefix': 'MKMapSizeWorld'
+    'body': 'MKMapSizeWorld'
+  'MKAnnotationViewDragStateCanceling ()':
+    'prefix': 'MKAnnotationViewDragStateCanceling'
+    'body': 'MKAnnotationViewDragStateCanceling'
+  'MKAnnotationViewDragStateDragging ()':
+    'prefix': 'MKAnnotationViewDragStateDragging'
+    'body': 'MKAnnotationViewDragStateDragging'
+  'MKAnnotationViewDragStateEnding ()':
+    'prefix': 'MKAnnotationViewDragStateEnding'
+    'body': 'MKAnnotationViewDragStateEnding'
+  'MKAnnotationViewDragStateNone ()':
+    'prefix': 'MKAnnotationViewDragStateNone'
+    'body': 'MKAnnotationViewDragStateNone'
+  'MKAnnotationViewDragStateStarting ()':
+    'prefix': 'MKAnnotationViewDragStateStarting'
+    'body': 'MKAnnotationViewDragStateStarting'
+  'MKDirectionsTransportTypeAny ()':
+    'prefix': 'MKDirectionsTransportTypeAny'
+    'body': 'MKDirectionsTransportTypeAny'
+  'MKDirectionsTransportTypeAutomobile ()':
+    'prefix': 'MKDirectionsTransportTypeAutomobile'
+    'body': 'MKDirectionsTransportTypeAutomobile'
+  'MKDirectionsTransportTypeWalking ()':
+    'prefix': 'MKDirectionsTransportTypeWalking'
+    'body': 'MKDirectionsTransportTypeWalking'
+  'MKDistanceFormatterUnitStyleAbbreviated ()':
+    'prefix': 'MKDistanceFormatterUnitStyleAbbreviated'
+    'body': 'MKDistanceFormatterUnitStyleAbbreviated'
+  'MKDistanceFormatterUnitStyleDefault ()':
+    'prefix': 'MKDistanceFormatterUnitStyleDefault'
+    'body': 'MKDistanceFormatterUnitStyleDefault'
+  'MKDistanceFormatterUnitStyleFull ()':
+    'prefix': 'MKDistanceFormatterUnitStyleFull'
+    'body': 'MKDistanceFormatterUnitStyleFull'
+  'MKDistanceFormatterUnitsDefault ()':
+    'prefix': 'MKDistanceFormatterUnitsDefault'
+    'body': 'MKDistanceFormatterUnitsDefault'
+  'MKDistanceFormatterUnitsImperial ()':
+    'prefix': 'MKDistanceFormatterUnitsImperial'
+    'body': 'MKDistanceFormatterUnitsImperial'
+  'MKDistanceFormatterUnitsImperialWithYards ()':
+    'prefix': 'MKDistanceFormatterUnitsImperialWithYards'
+    'body': 'MKDistanceFormatterUnitsImperialWithYards'
+  'MKDistanceFormatterUnitsMetric ()':
+    'prefix': 'MKDistanceFormatterUnitsMetric'
+    'body': 'MKDistanceFormatterUnitsMetric'
+  'MKErrorDirectionsNotFound ()':
+    'prefix': 'MKErrorDirectionsNotFound'
+    'body': 'MKErrorDirectionsNotFound'
+  'MKErrorLoadingThrottled ()':
+    'prefix': 'MKErrorLoadingThrottled'
+    'body': 'MKErrorLoadingThrottled'
+  'MKErrorPlacemarkNotFound ()':
+    'prefix': 'MKErrorPlacemarkNotFound'
+    'body': 'MKErrorPlacemarkNotFound'
+  'MKErrorServerFailure ()':
+    'prefix': 'MKErrorServerFailure'
+    'body': 'MKErrorServerFailure'
+  'MKErrorUnknown ()':
+    'prefix': 'MKErrorUnknown'
+    'body': 'MKErrorUnknown'
+  'MKMapTypeHybrid ()':
+    'prefix': 'MKMapTypeHybrid'
+    'body': 'MKMapTypeHybrid'
+  'MKMapTypeSatellite ()':
+    'prefix': 'MKMapTypeSatellite'
+    'body': 'MKMapTypeSatellite'
+  'MKMapTypeStandard ()':
+    'prefix': 'MKMapTypeStandard'
+    'body': 'MKMapTypeStandard'
+  'MKOverlayLevelAboveLabels ()':
+    'prefix': 'MKOverlayLevelAboveLabels'
+    'body': 'MKOverlayLevelAboveLabels'
+  'MKOverlayLevelAboveRoads ()':
+    'prefix': 'MKOverlayLevelAboveRoads'
+    'body': 'MKOverlayLevelAboveRoads'
+  'MKPinAnnotationColorGreen ()':
+    'prefix': 'MKPinAnnotationColorGreen'
+    'body': 'MKPinAnnotationColorGreen'
+  'MKPinAnnotationColorPurple ()':
+    'prefix': 'MKPinAnnotationColorPurple'
+    'body': 'MKPinAnnotationColorPurple'
+  'MKPinAnnotationColorRed ()':
+    'prefix': 'MKPinAnnotationColorRed'
+    'body': 'MKPinAnnotationColorRed'
+  'MKUserTrackingModeFollow ()':
+    'prefix': 'MKUserTrackingModeFollow'
+    'body': 'MKUserTrackingModeFollow'
+  'MKUserTrackingModeFollowWithHeading ()':
+    'prefix': 'MKUserTrackingModeFollowWithHeading'
+    'body': 'MKUserTrackingModeFollowWithHeading'
+  'MKUserTrackingModeNone ()':
+    'prefix': 'MKUserTrackingModeNone'
+    'body': 'MKUserTrackingModeNone'
+  'MKCoordinateForMapPoint':
+    'prefix': 'MKCoordinateForMapPoint'
+    'body': 'MKCoordinateForMapPoint(${1: mapPoint})'
+  'MKCoordinateRegionForMapRect':
+    'prefix': 'MKCoordinateRegionForMapRect'
+    'body': 'MKCoordinateRegionForMapRect(${1: rect})'
+  'MKCoordinateRegionMake':
+    'prefix': 'MKCoordinateRegionMake'
+    'body': 'MKCoordinateRegionMake(${1: centerCoordinate}, ${2: span})'
+  'MKCoordinateRegionMakeWithDistance':
+    'prefix': 'MKCoordinateRegionMakeWithDistance'
+    'body': 'MKCoordinateRegionMakeWithDistance(${1: centerCoordinate}, ${2: latitudinalMeters}, ${3: longitudinalMeters})'
+  'MKCoordinateSpanMake':
+    'prefix': 'MKCoordinateSpanMake'
+    'body': 'MKCoordinateSpanMake(${1: latitudeDelta}, ${2: longitudeDelta})'
+  'MKMapPointEqualToPoint':
+    'prefix': 'MKMapPointEqualToPoint'
+    'body': 'MKMapPointEqualToPoint(${1: point1}, ${2: point2})'
+  'MKMapPointForCoordinate':
+    'prefix': 'MKMapPointForCoordinate'
+    'body': 'MKMapPointForCoordinate(${1: coordinate})'
+  'MKMapPointMake':
+    'prefix': 'MKMapPointMake'
+    'body': 'MKMapPointMake(${1: x}, ${2: y})'
+  'MKMapPointsPerMeterAtLatitude':
+    'prefix': 'MKMapPointsPerMeterAtLatitude'
+    'body': 'MKMapPointsPerMeterAtLatitude(${1: latitude})'
+  'MKMapRectContainsPoint':
+    'prefix': 'MKMapRectContainsPoint'
+    'body': 'MKMapRectContainsPoint(${1: rect}, ${2: point})'
+  'MKMapRectContainsRect':
+    'prefix': 'MKMapRectContainsRect'
+    'body': 'MKMapRectContainsRect(${1: rect1}, ${2: rect2})'
+  'MKMapRectDivide':
+    'prefix': 'MKMapRectDivide'
+    'body': 'MKMapRectDivide(${1: rect}, ${2: slice}, ${3: remainder}, ${4: amount}, ${5: edge})'
+  'MKMapRectEqualToRect':
+    'prefix': 'MKMapRectEqualToRect'
+    'body': 'MKMapRectEqualToRect(${1: rect1}, ${2: rect2})'
+  'MKMapRectGetHeight':
+    'prefix': 'MKMapRectGetHeight'
+    'body': 'MKMapRectGetHeight(${1: rect})'
+  'MKMapRectGetMaxX':
+    'prefix': 'MKMapRectGetMaxX'
+    'body': 'MKMapRectGetMaxX(${1: rect})'
+  'MKMapRectGetMaxY':
+    'prefix': 'MKMapRectGetMaxY'
+    'body': 'MKMapRectGetMaxY(${1: rect})'
+  'MKMapRectGetMidX':
+    'prefix': 'MKMapRectGetMidX'
+    'body': 'MKMapRectGetMidX(${1: rect})'
+  'MKMapRectGetMidY':
+    'prefix': 'MKMapRectGetMidY'
+    'body': 'MKMapRectGetMidY(${1: rect})'
+  'MKMapRectGetMinX':
+    'prefix': 'MKMapRectGetMinX'
+    'body': 'MKMapRectGetMinX(${1: rect})'
+  'MKMapRectGetMinY':
+    'prefix': 'MKMapRectGetMinY'
+    'body': 'MKMapRectGetMinY(${1: rect})'
+  'MKMapRectGetWidth':
+    'prefix': 'MKMapRectGetWidth'
+    'body': 'MKMapRectGetWidth(${1: rect})'
+  'MKMapRectInset':
+    'prefix': 'MKMapRectInset'
+    'body': 'MKMapRectInset(${1: rect}, ${2: dx}, ${3: dy})'
+  'MKMapRectIntersection':
+    'prefix': 'MKMapRectIntersection'
+    'body': 'MKMapRectIntersection(${1: rect1}, ${2: rect2})'
+  'MKMapRectIntersectsRect':
+    'prefix': 'MKMapRectIntersectsRect'
+    'body': 'MKMapRectIntersectsRect(${1: rect1}, ${2: rect2})'
+  'MKMapRectIsEmpty':
+    'prefix': 'MKMapRectIsEmpty'
+    'body': 'MKMapRectIsEmpty(${1: rect})'
+  'MKMapRectIsNull':
+    'prefix': 'MKMapRectIsNull'
+    'body': 'MKMapRectIsNull(${1: rect})'
+  'MKMapRectMake':
+    'prefix': 'MKMapRectMake'
+    'body': 'MKMapRectMake(${1: x}, ${2: y}, ${3: width}, ${4: height})'
+  'MKMapRectOffset':
+    'prefix': 'MKMapRectOffset'
+    'body': 'MKMapRectOffset(${1: rect}, ${2: dx}, ${3: dy})'
+  'MKMapRectRemainder':
+    'prefix': 'MKMapRectRemainder'
+    'body': 'MKMapRectRemainder(${1: rect})'
+  'MKMapRectSpans180thMeridian':
+    'prefix': 'MKMapRectSpans180thMeridian'
+    'body': 'MKMapRectSpans180thMeridian(${1: rect})'
+  'MKMapRectUnion':
+    'prefix': 'MKMapRectUnion'
+    'body': 'MKMapRectUnion(${1: rect1}, ${2: rect2})'
+  'MKMapSizeEqualToSize':
+    'prefix': 'MKMapSizeEqualToSize'
+    'body': 'MKMapSizeEqualToSize(${1: size1}, ${2: size2})'
+  'MKMapSizeMake':
+    'prefix': 'MKMapSizeMake'
+    'body': 'MKMapSizeMake(${1: width}, ${2: height})'
+  'MKMetersBetweenMapPoints':
+    'prefix': 'MKMetersBetweenMapPoints'
+    'body': 'MKMetersBetweenMapPoints(${1: a}, ${2: b})'
+  'MKMetersPerMapPointAtLatitude':
+    'prefix': 'MKMetersPerMapPointAtLatitude'
+    'body': 'MKMetersPerMapPointAtLatitude(${1: latitude})'
+  'MKRoadWidthAtZoomScale':
+    'prefix': 'MKRoadWidthAtZoomScale'
+    'body': 'MKRoadWidthAtZoomScale(${1: zoomScale})'
+  'MKStringFromMapPoint':
+    'prefix': 'MKStringFromMapPoint'
+    'body': 'MKStringFromMapPoint(${1: point})'
+  'MKStringFromMapRect':
+    'prefix': 'MKStringFromMapRect'
+    'body': 'MKStringFromMapRect(${1: rect})'
+  'MKStringFromMapSize':
+    'prefix': 'MKStringFromMapSize'
+    'body': 'MKStringFromMapSize(${1: size})'
+  'annotation':
+    'prefix': 'annotation'
+    'body': 'annotation()'
+  'calloutOffset':
+    'prefix': 'calloutOffset'
+    'body': 'calloutOffset()'
+  'canShowCallout':
+    'prefix': 'canShowCallout'
+    'body': 'canShowCallout()'
+  'centerOffset':
+    'prefix': 'centerOffset'
+    'body': 'centerOffset()'
+  'dragState':
+    'prefix': 'dragState'
+    'body': 'dragState()'
+  'image':
+    'prefix': 'image'
+    'body': 'image()'
+  'initWithAnnotation:reuseIdentifier:':
+    'prefix': 'initWithAnnotation:reuseIdentifier:'
+    'body': 'initWithAnnotation(${1: annotation}, reuseIdentifier:${2: reuseIdentifier})'
+  'isDraggable':
+    'prefix': 'isDraggable'
+    'body': 'isDraggable()'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'isHighlighted':
+    'prefix': 'isHighlighted'
+    'body': 'isHighlighted()'
+  'isSelected':
+    'prefix': 'isSelected'
+    'body': 'isSelected()'
+  'leftCalloutAccessoryView':
+    'prefix': 'leftCalloutAccessoryView'
+    'body': 'leftCalloutAccessoryView()'
+  'leftCalloutOffset':
+    'prefix': 'leftCalloutOffset'
+    'body': 'leftCalloutOffset()'
+  'prepareForReuse':
+    'prefix': 'prepareForReuse'
+    'body': 'prepareForReuse()'
+  'reuseIdentifier':
+    'prefix': 'reuseIdentifier'
+    'body': 'reuseIdentifier()'
+  'rightCalloutAccessoryView':
+    'prefix': 'rightCalloutAccessoryView'
+    'body': 'rightCalloutAccessoryView()'
+  'rightCalloutOffset':
+    'prefix': 'rightCalloutOffset'
+    'body': 'rightCalloutOffset()'
+  'setAnnotation:':
+    'prefix': 'setAnnotation:'
+    'body': 'setAnnotation(${1: annotation})'
+  'setCalloutOffset:':
+    'prefix': 'setCalloutOffset:'
+    'body': 'setCalloutOffset(${1: calloutOffset})'
+  'setCanShowCallout:':
+    'prefix': 'setCanShowCallout:'
+    'body': 'setCanShowCallout(${1: canShowCallout})'
+  'setCenterOffset:':
+    'prefix': 'setCenterOffset:'
+    'body': 'setCenterOffset(${1: centerOffset})'
+  'setDragState:':
+    'prefix': 'setDragState:'
+    'body': 'setDragState(${1: dragState})'
+  'setDragState:animated:':
+    'prefix': 'setDragState:animated:'
+    'body': 'setDragState(${1: newDragState}, animated:${2: animated})'
+  'setDraggable:':
+    'prefix': 'setDraggable:'
+    'body': 'setDraggable(${1: draggable})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1: enabled})'
+  'setHighlighted:':
+    'prefix': 'setHighlighted:'
+    'body': 'setHighlighted(${1: highlighted})'
+  'setImage:':
+    'prefix': 'setImage:'
+    'body': 'setImage(${1: image})'
+  'setLeftCalloutAccessoryView:':
+    'prefix': 'setLeftCalloutAccessoryView:'
+    'body': 'setLeftCalloutAccessoryView(${1: leftCalloutAccessoryView})'
+  'setLeftCalloutOffset:':
+    'prefix': 'setLeftCalloutOffset:'
+    'body': 'setLeftCalloutOffset(${1: leftCalloutOffset})'
+  'setRightCalloutAccessoryView:':
+    'prefix': 'setRightCalloutAccessoryView:'
+    'body': 'setRightCalloutAccessoryView(${1: rightCalloutAccessoryView})'
+  'setRightCalloutOffset:':
+    'prefix': 'setRightCalloutOffset:'
+    'body': 'setRightCalloutOffset(${1: rightCalloutOffset})'
+  'setSelected:':
+    'prefix': 'setSelected:'
+    'body': 'setSelected(${1: selected})'
+  'setSelected:animated:':
+    'prefix': 'setSelected:animated:'
+    'body': 'setSelected(${1: selected}, animated:${2: animated})'
+  'boundingMapRect':
+    'prefix': 'boundingMapRect'
+    'body': 'boundingMapRect()'
+  'MKCircle.circleWithCenterCoordinate:radius:':
+    'prefix': 'circleWithCenterCoordinate:radius:'
+    'body': 'MKCircle.circleWithCenterCoordinate(${1: coord}, radius:${2: radius})'
+  'MKCircle.circleWithMapRect:':
+    'prefix': 'circleWithMapRect:'
+    'body': 'MKCircle.circleWithMapRect(${1: mapRect})'
+  'coordinate':
+    'prefix': 'coordinate'
+    'body': 'coordinate()'
+  'radius':
+    'prefix': 'radius'
+    'body': 'radius()'
+  'circle':
+    'prefix': 'circle'
+    'body': 'circle()'
+  'initWithCircle:':
+    'prefix': 'initWithCircle:'
+    'body': 'initWithCircle(${1: circle})'
+  'calculateDirectionsWithCompletionHandler:':
+    'prefix': 'calculateDirectionsWithCompletionHandler:'
+    'body': 'calculateDirectionsWithCompletionHandler(${1: completionHandler})'
+  'calculateETAWithCompletionHandler:':
+    'prefix': 'calculateETAWithCompletionHandler:'
+    'body': 'calculateETAWithCompletionHandler(${1: completionHandler})'
+  'cancel':
+    'prefix': 'cancel'
+    'body': 'cancel()'
+  'initWithRequest:':
+    'prefix': 'initWithRequest:'
+    'body': 'initWithRequest(${1: request})'
+  'isCalculating':
+    'prefix': 'isCalculating'
+    'body': 'isCalculating()'
+  'arrivalDate':
+    'prefix': 'arrivalDate'
+    'body': 'arrivalDate()'
+  'departureDate':
+    'prefix': 'departureDate'
+    'body': 'departureDate()'
+  'destination':
+    'prefix': 'destination'
+    'body': 'destination()'
+  'initWithContentsOfURL:':
+    'prefix': 'initWithContentsOfURL:'
+    'body': 'initWithContentsOfURL(${1: url})'
+  'MKDirectionsRequest.isDirectionsRequestURL:':
+    'prefix': 'isDirectionsRequestURL:'
+    'body': 'MKDirectionsRequest.isDirectionsRequestURL(${1: url})'
+  'requestsAlternateRoutes':
+    'prefix': 'requestsAlternateRoutes'
+    'body': 'requestsAlternateRoutes()'
+  'setArrivalDate:':
+    'prefix': 'setArrivalDate:'
+    'body': 'setArrivalDate(${1: arrivalDate})'
+  'setDepartureDate:':
+    'prefix': 'setDepartureDate:'
+    'body': 'setDepartureDate(${1: departureDate})'
+  'setDestination:':
+    'prefix': 'setDestination:'
+    'body': 'setDestination(${1: destination})'
+  'setRequestsAlternateRoutes:':
+    'prefix': 'setRequestsAlternateRoutes:'
+    'body': 'setRequestsAlternateRoutes(${1: requestsAlternateRoutes})'
+  'setSource:':
+    'prefix': 'setSource:'
+    'body': 'setSource(${1: source})'
+  'setTransportType:':
+    'prefix': 'setTransportType:'
+    'body': 'setTransportType(${1: transportType})'
+  'source':
+    'prefix': 'source'
+    'body': 'source()'
+  'transportType':
+    'prefix': 'transportType'
+    'body': 'transportType()'
+  'destination':
+    'prefix': 'destination'
+    'body': 'destination()'
+  'routes':
+    'prefix': 'routes'
+    'body': 'routes()'
+  'source':
+    'prefix': 'source'
+    'body': 'source()'
+  'distanceFromString:':
+    'prefix': 'distanceFromString:'
+    'body': 'distanceFromString(${1: distance})'
+  'locale':
+    'prefix': 'locale'
+    'body': 'locale()'
+  'setLocale:':
+    'prefix': 'setLocale:'
+    'body': 'setLocale(${1: locale})'
+  'setUnitStyle:':
+    'prefix': 'setUnitStyle:'
+    'body': 'setUnitStyle(${1: unitStyle})'
+  'setUnits:':
+    'prefix': 'setUnits:'
+    'body': 'setUnits(${1: units})'
+  'stringFromDistance:':
+    'prefix': 'stringFromDistance:'
+    'body': 'stringFromDistance(${1: distance})'
+  'unitStyle':
+    'prefix': 'unitStyle'
+    'body': 'unitStyle()'
+  'units':
+    'prefix': 'units'
+    'body': 'units()'
+  'destination':
+    'prefix': 'destination'
+    'body': 'destination()'
+  'expectedTravelTime':
+    'prefix': 'expectedTravelTime'
+    'body': 'expectedTravelTime()'
+  'source':
+    'prefix': 'source'
+    'body': 'source()'
+  'MKGeodesicPolyline.polylineWithCoordinates:count:':
+    'prefix': 'polylineWithCoordinates:count:'
+    'body': 'MKGeodesicPolyline.polylineWithCoordinates(${1: coords}, count:${2: count})'
+  'MKGeodesicPolyline.polylineWithPoints:count:':
+    'prefix': 'polylineWithPoints:count:'
+    'body': 'MKGeodesicPolyline.polylineWithPoints(${1: points}, count:${2: count})'
+  'cancel':
+    'prefix': 'cancel'
+    'body': 'cancel()'
+  'initWithRequest:':
+    'prefix': 'initWithRequest:'
+    'body': 'initWithRequest(${1: request})'
+  'isSearching':
+    'prefix': 'isSearching'
+    'body': 'isSearching()'
+  'startWithCompletionHandler:':
+    'prefix': 'startWithCompletionHandler:'
+    'body': 'startWithCompletionHandler(${1: completionHandler})'
+  'naturalLanguageQuery':
+    'prefix': 'naturalLanguageQuery'
+    'body': 'naturalLanguageQuery()'
+  'region':
+    'prefix': 'region'
+    'body': 'region()'
+  'setNaturalLanguageQuery:':
+    'prefix': 'setNaturalLanguageQuery:'
+    'body': 'setNaturalLanguageQuery(${1: naturalLanguageQuery})'
+  'setRegion:':
+    'prefix': 'setRegion:'
+    'body': 'setRegion(${1: region})'
+  'boundingRegion':
+    'prefix': 'boundingRegion'
+    'body': 'boundingRegion()'
+  'mapItems':
+    'prefix': 'mapItems'
+    'body': 'mapItems()'
+  'altitude':
+    'prefix': 'altitude'
+    'body': 'altitude()'
+  'MKMapCamera.camera':
+    'prefix': 'camera'
+    'body': 'MKMapCamera.camera()'
+  'MKMapCamera.cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:':
+    'prefix': 'cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:'
+    'body': 'MKMapCamera.cameraLookingAtCenterCoordinate(${1: centerCoordinate}, fromEyeCoordinate:${2: eyeCoordinate}, eyeAltitude:${3: eyeAltitude})'
+  'centerCoordinate':
+    'prefix': 'centerCoordinate'
+    'body': 'centerCoordinate()'
+  'heading':
+    'prefix': 'heading'
+    'body': 'heading()'
+  'pitch':
+    'prefix': 'pitch'
+    'body': 'pitch()'
+  'setAltitude:':
+    'prefix': 'setAltitude:'
+    'body': 'setAltitude(${1: altitude})'
+  'setCenterCoordinate:':
+    'prefix': 'setCenterCoordinate:'
+    'body': 'setCenterCoordinate(${1: centerCoordinate})'
+  'setHeading:':
+    'prefix': 'setHeading:'
+    'body': 'setHeading(${1: heading})'
+  'setPitch:':
+    'prefix': 'setPitch:'
+    'body': 'setPitch(${1: pitch})'
+  'initWithPlacemark:':
+    'prefix': 'initWithPlacemark:'
+    'body': 'initWithPlacemark(${1: placemark})'
+  'isCurrentLocation':
+    'prefix': 'isCurrentLocation'
+    'body': 'isCurrentLocation()'
+  'MKMapItem.mapItemForCurrentLocation':
+    'prefix': 'mapItemForCurrentLocation'
+    'body': 'MKMapItem.mapItemForCurrentLocation()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'openInMapsWithLaunchOptions:':
+    'prefix': 'openInMapsWithLaunchOptions:'
+    'body': 'openInMapsWithLaunchOptions(${1: launchOptions})'
+  'MKMapItem.openMapsWithItems:launchOptions:':
+    'prefix': 'openMapsWithItems:launchOptions:'
+    'body': 'MKMapItem.openMapsWithItems(${1: mapItems}, launchOptions:${2: launchOptions})'
+  'phoneNumber':
+    'prefix': 'phoneNumber'
+    'body': 'phoneNumber()'
+  'placemark':
+    'prefix': 'placemark'
+    'body': 'placemark()'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1: name})'
+  'setPhoneNumber:':
+    'prefix': 'setPhoneNumber:'
+    'body': 'setPhoneNumber(${1: phoneNumber})'
+  'setUrl:':
+    'prefix': 'setUrl:'
+    'body': 'setUrl(${1: url})'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'image':
+    'prefix': 'image'
+    'body': 'image()'
+  'pointForCoordinate:':
+    'prefix': 'pointForCoordinate:'
+    'body': 'pointForCoordinate(${1: coordinate})'
+  'camera':
+    'prefix': 'camera'
+    'body': 'camera()'
+  'mapRect':
+    'prefix': 'mapRect'
+    'body': 'mapRect()'
+  'mapType':
+    'prefix': 'mapType'
+    'body': 'mapType()'
+  'region':
+    'prefix': 'region'
+    'body': 'region()'
+  'setCamera:':
+    'prefix': 'setCamera:'
+    'body': 'setCamera(${1: camera})'
+  'setMapRect:':
+    'prefix': 'setMapRect:'
+    'body': 'setMapRect(${1: mapRect})'
+  'setMapType:':
+    'prefix': 'setMapType:'
+    'body': 'setMapType(${1: mapType})'
+  'setRegion:':
+    'prefix': 'setRegion:'
+    'body': 'setRegion(${1: region})'
+  'setShowsBuildings:':
+    'prefix': 'setShowsBuildings:'
+    'body': 'setShowsBuildings(${1: showsBuildings})'
+  'setShowsPointsOfInterest:':
+    'prefix': 'setShowsPointsOfInterest:'
+    'body': 'setShowsPointsOfInterest(${1: showsPointsOfInterest})'
+  'setSize:':
+    'prefix': 'setSize:'
+    'body': 'setSize(${1: size})'
+  'showsBuildings':
+    'prefix': 'showsBuildings'
+    'body': 'showsBuildings()'
+  'showsPointsOfInterest':
+    'prefix': 'showsPointsOfInterest'
+    'body': 'showsPointsOfInterest()'
+  'size':
+    'prefix': 'size'
+    'body': 'size()'
+  'cancel':
+    'prefix': 'cancel'
+    'body': 'cancel()'
+  'initWithOptions:':
+    'prefix': 'initWithOptions:'
+    'body': 'initWithOptions(${1: options})'
+  'isLoading':
+    'prefix': 'isLoading'
+    'body': 'isLoading()'
+  'startWithCompletionHandler:':
+    'prefix': 'startWithCompletionHandler:'
+    'body': 'startWithCompletionHandler(${1: completionHandler})'
+  'startWithQueue:completionHandler:':
+    'prefix': 'startWithQueue:completionHandler:'
+    'body': 'startWithQueue(${1: queue}, completionHandler:${2: completionHandler})'
+  'addAnnotation:':
+    'prefix': 'addAnnotation:'
+    'body': 'addAnnotation(${1: annotation})'
+  'addAnnotations:':
+    'prefix': 'addAnnotations:'
+    'body': 'addAnnotations(${1: annotations})'
+  'addOverlay:':
+    'prefix': 'addOverlay:'
+    'body': 'addOverlay(${1: overlay})'
+  'addOverlay:level:':
+    'prefix': 'addOverlay:level:'
+    'body': 'addOverlay(${1: overlay}, level:${2: level})'
+  'addOverlays:':
+    'prefix': 'addOverlays:'
+    'body': 'addOverlays(${1: overlays})'
+  'addOverlays:level:':
+    'prefix': 'addOverlays:level:'
+    'body': 'addOverlays(${1: overlays}, level:${2: level})'
+  'annotationVisibleRect':
+    'prefix': 'annotationVisibleRect'
+    'body': 'annotationVisibleRect()'
+  'annotations':
+    'prefix': 'annotations'
+    'body': 'annotations()'
+  'annotationsInMapRect:':
+    'prefix': 'annotationsInMapRect:'
+    'body': 'annotationsInMapRect(${1: mapRect})'
+  'camera':
+    'prefix': 'camera'
+    'body': 'camera()'
+  'centerCoordinate':
+    'prefix': 'centerCoordinate'
+    'body': 'centerCoordinate()'
+  'convertCoordinate:toPointToView:':
+    'prefix': 'convertCoordinate:toPointToView:'
+    'body': 'convertCoordinate(${1: coordinate}, toPointToView:${2: view})'
+  'convertPoint:toCoordinateFromView:':
+    'prefix': 'convertPoint:toCoordinateFromView:'
+    'body': 'convertPoint(${1: point}, toCoordinateFromView:${2: view})'
+  'convertRect:toRegionFromView:':
+    'prefix': 'convertRect:toRegionFromView:'
+    'body': 'convertRect(${1: rect}, toRegionFromView:${2: view})'
+  'convertRegion:toRectToView:':
+    'prefix': 'convertRegion:toRectToView:'
+    'body': 'convertRegion(${1: region}, toRectToView:${2: view})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'dequeueReusableAnnotationViewWithIdentifier:':
+    'prefix': 'dequeueReusableAnnotationViewWithIdentifier:'
+    'body': 'dequeueReusableAnnotationViewWithIdentifier(${1: identifier})'
+  'deselectAnnotation:animated:':
+    'prefix': 'deselectAnnotation:animated:'
+    'body': 'deselectAnnotation(${1: annotation}, animated:${2: animated})'
+  'exchangeOverlay:withOverlay:':
+    'prefix': 'exchangeOverlay:withOverlay:'
+    'body': 'exchangeOverlay(${1: overlay1}, withOverlay:${2: overlay2})'
+  'exchangeOverlayAtIndex:withOverlayAtIndex:':
+    'prefix': 'exchangeOverlayAtIndex:withOverlayAtIndex:'
+    'body': 'exchangeOverlayAtIndex(${1: index1}, withOverlayAtIndex:${2: index2})'
+  'insertOverlay:aboveOverlay:':
+    'prefix': 'insertOverlay:aboveOverlay:'
+    'body': 'insertOverlay(${1: overlay}, aboveOverlay:${2: sibling})'
+  'insertOverlay:atIndex:':
+    'prefix': 'insertOverlay:atIndex:'
+    'body': 'insertOverlay(${1: overlay}, atIndex:${2: index})'
+  'insertOverlay:atIndex:level:':
+    'prefix': 'insertOverlay:atIndex:level:'
+    'body': 'insertOverlay(${1: overlay}, atIndex:${2: index}, level:${3: level})'
+  'insertOverlay:belowOverlay:':
+    'prefix': 'insertOverlay:belowOverlay:'
+    'body': 'insertOverlay(${1: overlay}, belowOverlay:${2: sibling})'
+  'isPitchEnabled':
+    'prefix': 'isPitchEnabled'
+    'body': 'isPitchEnabled()'
+  'isRotateEnabled':
+    'prefix': 'isRotateEnabled'
+    'body': 'isRotateEnabled()'
+  'isScrollEnabled':
+    'prefix': 'isScrollEnabled'
+    'body': 'isScrollEnabled()'
+  'isUserLocationVisible':
+    'prefix': 'isUserLocationVisible'
+    'body': 'isUserLocationVisible()'
+  'isZoomEnabled':
+    'prefix': 'isZoomEnabled'
+    'body': 'isZoomEnabled()'
+  'mapRectThatFits:':
+    'prefix': 'mapRectThatFits:'
+    'body': 'mapRectThatFits(${1: mapRect})'
+  'mapRectThatFits:edgePadding:':
+    'prefix': 'mapRectThatFits:edgePadding:'
+    'body': 'mapRectThatFits(${1: mapRect}, edgePadding:${2: insets})'
+  'mapType':
+    'prefix': 'mapType'
+    'body': 'mapType()'
+  'overlays':
+    'prefix': 'overlays'
+    'body': 'overlays()'
+  'overlaysInLevel:':
+    'prefix': 'overlaysInLevel:'
+    'body': 'overlaysInLevel(${1: level})'
+  'region':
+    'prefix': 'region'
+    'body': 'region()'
+  'regionThatFits:':
+    'prefix': 'regionThatFits:'
+    'body': 'regionThatFits(${1: region})'
+  'removeAnnotation:':
+    'prefix': 'removeAnnotation:'
+    'body': 'removeAnnotation(${1: annotation})'
+  'removeAnnotations:':
+    'prefix': 'removeAnnotations:'
+    'body': 'removeAnnotations(${1: annotations})'
+  'removeOverlay:':
+    'prefix': 'removeOverlay:'
+    'body': 'removeOverlay(${1: overlay})'
+  'removeOverlays:':
+    'prefix': 'removeOverlays:'
+    'body': 'removeOverlays(${1: overlays})'
+  'rendererForOverlay:':
+    'prefix': 'rendererForOverlay:'
+    'body': 'rendererForOverlay(${1: overlay})'
+  'selectAnnotation:animated:':
+    'prefix': 'selectAnnotation:animated:'
+    'body': 'selectAnnotation(${1: annotation}, animated:${2: animated})'
+  'selectedAnnotations':
+    'prefix': 'selectedAnnotations'
+    'body': 'selectedAnnotations()'
+  'setCamera:':
+    'prefix': 'setCamera:'
+    'body': 'setCamera(${1: camera})'
+  'setCamera:animated:':
+    'prefix': 'setCamera:animated:'
+    'body': 'setCamera(${1: camera}, animated:${2: animated})'
+  'setCenterCoordinate:':
+    'prefix': 'setCenterCoordinate:'
+    'body': 'setCenterCoordinate(${1: centerCoordinate})'
+  'setCenterCoordinate:animated:':
+    'prefix': 'setCenterCoordinate:animated:'
+    'body': 'setCenterCoordinate(${1: coordinate}, animated:${2: animated})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1: delegate})'
+  'setMapType:':
+    'prefix': 'setMapType:'
+    'body': 'setMapType(${1: mapType})'
+  'setPitchEnabled:':
+    'prefix': 'setPitchEnabled:'
+    'body': 'setPitchEnabled(${1: pitchEnabled})'
+  'setRegion:':
+    'prefix': 'setRegion:'
+    'body': 'setRegion(${1: region})'
+  'setRegion:animated:':
+    'prefix': 'setRegion:animated:'
+    'body': 'setRegion(${1: region}, animated:${2: animated})'
+  'setRotateEnabled:':
+    'prefix': 'setRotateEnabled:'
+    'body': 'setRotateEnabled(${1: rotateEnabled})'
+  'setScrollEnabled:':
+    'prefix': 'setScrollEnabled:'
+    'body': 'setScrollEnabled(${1: scrollEnabled})'
+  'setSelectedAnnotations:':
+    'prefix': 'setSelectedAnnotations:'
+    'body': 'setSelectedAnnotations(${1: selectedAnnotations})'
+  'setShowsBuildings:':
+    'prefix': 'setShowsBuildings:'
+    'body': 'setShowsBuildings(${1: showsBuildings})'
+  'setShowsCompass:':
+    'prefix': 'setShowsCompass:'
+    'body': 'setShowsCompass(${1: showsCompass})'
+  'setShowsPointsOfInterest:':
+    'prefix': 'setShowsPointsOfInterest:'
+    'body': 'setShowsPointsOfInterest(${1: showsPointsOfInterest})'
+  'setShowsUserLocation:':
+    'prefix': 'setShowsUserLocation:'
+    'body': 'setShowsUserLocation(${1: showsUserLocation})'
+  'setShowsZoomControls:':
+    'prefix': 'setShowsZoomControls:'
+    'body': 'setShowsZoomControls(${1: showsZoomControls})'
+  'setVisibleMapRect:':
+    'prefix': 'setVisibleMapRect:'
+    'body': 'setVisibleMapRect(${1: visibleMapRect})'
+  'setVisibleMapRect:animated:':
+    'prefix': 'setVisibleMapRect:animated:'
+    'body': 'setVisibleMapRect(${1: mapRect}, animated:${2: animate})'
+  'setVisibleMapRect:edgePadding:animated:':
+    'prefix': 'setVisibleMapRect:edgePadding:animated:'
+    'body': 'setVisibleMapRect(${1: mapRect}, edgePadding:${2: insets}, animated:${3: animate})'
+  'setZoomEnabled:':
+    'prefix': 'setZoomEnabled:'
+    'body': 'setZoomEnabled(${1: zoomEnabled})'
+  'showAnnotations:animated:':
+    'prefix': 'showAnnotations:animated:'
+    'body': 'showAnnotations(${1: annotations}, animated:${2: animated})'
+  'showsBuildings':
+    'prefix': 'showsBuildings'
+    'body': 'showsBuildings()'
+  'showsCompass':
+    'prefix': 'showsCompass'
+    'body': 'showsCompass()'
+  'showsPointsOfInterest':
+    'prefix': 'showsPointsOfInterest'
+    'body': 'showsPointsOfInterest()'
+  'showsUserLocation':
+    'prefix': 'showsUserLocation'
+    'body': 'showsUserLocation()'
+  'showsZoomControls':
+    'prefix': 'showsZoomControls'
+    'body': 'showsZoomControls()'
+  'userLocation':
+    'prefix': 'userLocation'
+    'body': 'userLocation()'
+  'viewForAnnotation:':
+    'prefix': 'viewForAnnotation:'
+    'body': 'viewForAnnotation(${1: annotation})'
+  'visibleMapRect':
+    'prefix': 'visibleMapRect'
+    'body': 'visibleMapRect()'
+  'getCoordinates:range:':
+    'prefix': 'getCoordinates:range:'
+    'body': 'getCoordinates(${1: coords}, range:${2: range})'
+  'pointCount':
+    'prefix': 'pointCount'
+    'body': 'pointCount()'
+  'points':
+    'prefix': 'points'
+    'body': 'points()'
+  'applyFillPropertiesToContext:atZoomScale:':
+    'prefix': 'applyFillPropertiesToContext:atZoomScale:'
+    'body': 'applyFillPropertiesToContext(${1: context}, atZoomScale:${2: zoomScale})'
+  'applyStrokePropertiesToContext:atZoomScale:':
+    'prefix': 'applyStrokePropertiesToContext:atZoomScale:'
+    'body': 'applyStrokePropertiesToContext(${1: context}, atZoomScale:${2: zoomScale})'
+  'createPath':
+    'prefix': 'createPath'
+    'body': 'createPath()'
+  'fillColor':
+    'prefix': 'fillColor'
+    'body': 'fillColor()'
+  'fillPath:inContext:':
+    'prefix': 'fillPath:inContext:'
+    'body': 'fillPath(${1: path}, inContext:${2: context})'
+  'invalidatePath':
+    'prefix': 'invalidatePath'
+    'body': 'invalidatePath()'
+  'lineCap':
+    'prefix': 'lineCap'
+    'body': 'lineCap()'
+  'lineDashPattern':
+    'prefix': 'lineDashPattern'
+    'body': 'lineDashPattern()'
+  'lineDashPhase':
+    'prefix': 'lineDashPhase'
+    'body': 'lineDashPhase()'
+  'lineJoin':
+    'prefix': 'lineJoin'
+    'body': 'lineJoin()'
+  'lineWidth':
+    'prefix': 'lineWidth'
+    'body': 'lineWidth()'
+  'miterLimit':
+    'prefix': 'miterLimit'
+    'body': 'miterLimit()'
+  'path':
+    'prefix': 'path'
+    'body': 'path()'
+  'setFillColor:':
+    'prefix': 'setFillColor:'
+    'body': 'setFillColor(${1: fillColor})'
+  'setLineCap:':
+    'prefix': 'setLineCap:'
+    'body': 'setLineCap(${1: lineCap})'
+  'setLineDashPattern:':
+    'prefix': 'setLineDashPattern:'
+    'body': 'setLineDashPattern(${1: lineDashPattern})'
+  'setLineDashPhase:':
+    'prefix': 'setLineDashPhase:'
+    'body': 'setLineDashPhase(${1: lineDashPhase})'
+  'setLineJoin:':
+    'prefix': 'setLineJoin:'
+    'body': 'setLineJoin(${1: lineJoin})'
+  'setLineWidth:':
+    'prefix': 'setLineWidth:'
+    'body': 'setLineWidth(${1: lineWidth})'
+  'setMiterLimit:':
+    'prefix': 'setMiterLimit:'
+    'body': 'setMiterLimit(${1: miterLimit})'
+  'setPath:':
+    'prefix': 'setPath:'
+    'body': 'setPath(${1: path})'
+  'setStrokeColor:':
+    'prefix': 'setStrokeColor:'
+    'body': 'setStrokeColor(${1: strokeColor})'
+  'strokeColor':
+    'prefix': 'strokeColor'
+    'body': 'strokeColor()'
+  'strokePath:inContext:':
+    'prefix': 'strokePath:inContext:'
+    'body': 'strokePath(${1: path}, inContext:${2: context})'
+  'alpha':
+    'prefix': 'alpha'
+    'body': 'alpha()'
+  'canDrawMapRect:zoomScale:':
+    'prefix': 'canDrawMapRect:zoomScale:'
+    'body': 'canDrawMapRect(${1: mapRect}, zoomScale:${2: zoomScale})'
+  'contentScaleFactor':
+    'prefix': 'contentScaleFactor'
+    'body': 'contentScaleFactor()'
+  'drawMapRect:zoomScale:inContext:':
+    'prefix': 'drawMapRect:zoomScale:inContext:'
+    'body': 'drawMapRect(${1: mapRect}, zoomScale:${2: zoomScale}, inContext:${3: context})'
+  'initWithOverlay:':
+    'prefix': 'initWithOverlay:'
+    'body': 'initWithOverlay(${1: overlay})'
+  'mapPointForPoint:':
+    'prefix': 'mapPointForPoint:'
+    'body': 'mapPointForPoint(${1: point})'
+  'mapRectForRect:':
+    'prefix': 'mapRectForRect:'
+    'body': 'mapRectForRect(${1: rect})'
+  'overlay':
+    'prefix': 'overlay'
+    'body': 'overlay()'
+  'pointForMapPoint:':
+    'prefix': 'pointForMapPoint:'
+    'body': 'pointForMapPoint(${1: mapPoint})'
+  'rectForMapRect:':
+    'prefix': 'rectForMapRect:'
+    'body': 'rectForMapRect(${1: mapRect})'
+  'setAlpha:':
+    'prefix': 'setAlpha:'
+    'body': 'setAlpha(${1: alpha})'
+  'setNeedsDisplay':
+    'prefix': 'setNeedsDisplay'
+    'body': 'setNeedsDisplay()'
+  'setNeedsDisplayInMapRect:':
+    'prefix': 'setNeedsDisplayInMapRect:'
+    'body': 'setNeedsDisplayInMapRect(${1: mapRect})'
+  'setNeedsDisplayInMapRect:zoomScale:':
+    'prefix': 'setNeedsDisplayInMapRect:zoomScale:'
+    'body': 'setNeedsDisplayInMapRect(${1: mapRect}, zoomScale:${2: zoomScale})'
+  'animatesDrop':
+    'prefix': 'animatesDrop'
+    'body': 'animatesDrop()'
+  'pinColor':
+    'prefix': 'pinColor'
+    'body': 'pinColor()'
+  'setAnimatesDrop:':
+    'prefix': 'setAnimatesDrop:'
+    'body': 'setAnimatesDrop(${1: animatesDrop})'
+  'setPinColor:':
+    'prefix': 'setPinColor:'
+    'body': 'setPinColor(${1: pinColor})'
+  'countryCode':
+    'prefix': 'countryCode'
+    'body': 'countryCode()'
+  'initWithCoordinate:addressDictionary:':
+    'prefix': 'initWithCoordinate:addressDictionary:'
+    'body': 'initWithCoordinate(${1: coordinate}, addressDictionary:${2: addressDictionary})'
+  'coordinate':
+    'prefix': 'coordinate'
+    'body': 'coordinate()'
+  'setCoordinate:':
+    'prefix': 'setCoordinate:'
+    'body': 'setCoordinate(${1: coordinate})'
+  'interiorPolygons':
+    'prefix': 'interiorPolygons'
+    'body': 'interiorPolygons()'
+  'MKPolygon.polygonWithCoordinates:count:':
+    'prefix': 'polygonWithCoordinates:count:'
+    'body': 'MKPolygon.polygonWithCoordinates(${1: coords}, count:${2: count})'
+  'MKPolygon.polygonWithCoordinates:count:interiorPolygons:':
+    'prefix': 'polygonWithCoordinates:count:interiorPolygons:'
+    'body': 'MKPolygon.polygonWithCoordinates(${1: coords}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
+  'MKPolygon.polygonWithPoints:count:':
+    'prefix': 'polygonWithPoints:count:'
+    'body': 'MKPolygon.polygonWithPoints(${1: points}, count:${2: count})'
+  'MKPolygon.polygonWithPoints:count:interiorPolygons:':
+    'prefix': 'polygonWithPoints:count:interiorPolygons:'
+    'body': 'MKPolygon.polygonWithPoints(${1: points}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
+  'initWithPolygon:':
+    'prefix': 'initWithPolygon:'
+    'body': 'initWithPolygon(${1: polygon})'
+  'polygon':
+    'prefix': 'polygon'
+    'body': 'polygon()'
+  'MKPolyline.polylineWithCoordinates:count:':
+    'prefix': 'polylineWithCoordinates:count:'
+    'body': 'MKPolyline.polylineWithCoordinates(${1: coords}, count:${2: count})'
+  'MKPolyline.polylineWithPoints:count:':
+    'prefix': 'polylineWithPoints:count:'
+    'body': 'MKPolyline.polylineWithPoints(${1: points}, count:${2: count})'
+  'initWithPolyline:':
+    'prefix': 'initWithPolyline:'
+    'body': 'initWithPolyline(${1: polyline})'
+  'polyline':
+    'prefix': 'polyline'
+    'body': 'polyline()'
+  'advisoryNotices':
+    'prefix': 'advisoryNotices'
+    'body': 'advisoryNotices()'
+  'distance':
+    'prefix': 'distance'
+    'body': 'distance()'
+  'expectedTravelTime':
+    'prefix': 'expectedTravelTime'
+    'body': 'expectedTravelTime()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'polyline':
+    'prefix': 'polyline'
+    'body': 'polyline()'
+  'steps':
+    'prefix': 'steps'
+    'body': 'steps()'
+  'transportType':
+    'prefix': 'transportType'
+    'body': 'transportType()'
+  'distance':
+    'prefix': 'distance'
+    'body': 'distance()'
+  'instructions':
+    'prefix': 'instructions'
+    'body': 'instructions()'
+  'notice':
+    'prefix': 'notice'
+    'body': 'notice()'
+  'polyline':
+    'prefix': 'polyline'
+    'body': 'polyline()'
+  'transportType':
+    'prefix': 'transportType'
+    'body': 'transportType()'
+  'setSubtitle:':
+    'prefix': 'setSubtitle:'
+    'body': 'setSubtitle(${1: subtitle})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1: title})'
+  'subtitle':
+    'prefix': 'subtitle'
+    'body': 'subtitle()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'URLForTilePath:':
+    'prefix': 'URLForTilePath:'
+    'body': 'URLForTilePath(${1: path})'
+  'URLTemplate':
+    'prefix': 'URLTemplate'
+    'body': 'URLTemplate()'
+  'canReplaceMapContent':
+    'prefix': 'canReplaceMapContent'
+    'body': 'canReplaceMapContent()'
+  'initWithURLTemplate:':
+    'prefix': 'initWithURLTemplate:'
+    'body': 'initWithURLTemplate(${1: URLTemplate})'
+  'isGeometryFlipped':
+    'prefix': 'isGeometryFlipped'
+    'body': 'isGeometryFlipped()'
+  'loadTileAtPath:result:':
+    'prefix': 'loadTileAtPath:result:'
+    'body': 'loadTileAtPath(${1: path}, result:${2: result})'
+  'maximumZ':
+    'prefix': 'maximumZ'
+    'body': 'maximumZ()'
+  'minimumZ':
+    'prefix': 'minimumZ'
+    'body': 'minimumZ()'
+  'setCanReplaceMapContent:':
+    'prefix': 'setCanReplaceMapContent:'
+    'body': 'setCanReplaceMapContent(${1: canReplaceMapContent})'
+  'setGeometryFlipped:':
+    'prefix': 'setGeometryFlipped:'
+    'body': 'setGeometryFlipped(${1: geometryFlipped})'
+  'setMaximumZ:':
+    'prefix': 'setMaximumZ:'
+    'body': 'setMaximumZ(${1: maximumZ})'
+  'setMinimumZ:':
+    'prefix': 'setMinimumZ:'
+    'body': 'setMinimumZ(${1: minimumZ})'
+  'setTileSize:':
+    'prefix': 'setTileSize:'
+    'body': 'setTileSize(${1: tileSize})'
+  'tileSize':
+    'prefix': 'tileSize'
+    'body': 'tileSize()'
+  'initWithTileOverlay:':
+    'prefix': 'initWithTileOverlay:'
+    'body': 'initWithTileOverlay(${1: overlay})'
+  'reloadData':
+    'prefix': 'reloadData'
+    'body': 'reloadData()'
+  'heading':
+    'prefix': 'heading'
+    'body': 'heading()'
+  'isUpdating':
+    'prefix': 'isUpdating'
+    'body': 'isUpdating()'
+  'location':
+    'prefix': 'location'
+    'body': 'location()'
+  'setSubtitle:':
+    'prefix': 'setSubtitle:'
+    'body': 'setSubtitle(${1: subtitle})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1: title})'
+  'subtitle':
+    'prefix': 'subtitle'
+    'body': 'subtitle()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'boundingMapRect':
+    'prefix': 'boundingMapRect'
+    'body': 'boundingMapRect()'
+  'canReplaceMapContent':
+    'prefix': 'canReplaceMapContent'
+    'body': 'canReplaceMapContent()'
+  'coordinate':
+    'prefix': 'coordinate'
+    'body': 'coordinate()'
+  'intersectsMapRect:':
+    'prefix': 'intersectsMapRect:'
+    'body': 'intersectsMapRect(${1: mapRect})'
+  'mapView:annotationView:didChangeDragState:fromOldState:':
+    'prefix': 'mapView:annotationView:didChangeDragState:fromOldState:'
+    'body': 'mapView(${1: mapView}, annotationView:${2: view}, didChangeDragState:${3: newState}, fromOldState:${4: oldState})'
+  'mapView:didAddAnnotationViews:':
+    'prefix': 'mapView:didAddAnnotationViews:'
+    'body': 'mapView(${1: mapView}, didAddAnnotationViews:${2: views})'
+  'mapView:didAddOverlayRenderers:':
+    'prefix': 'mapView:didAddOverlayRenderers:'
+    'body': 'mapView(${1: mapView}, didAddOverlayRenderers:${2: renderers})'
+  'mapView:didDeselectAnnotationView:':
+    'prefix': 'mapView:didDeselectAnnotationView:'
+    'body': 'mapView(${1: mapView}, didDeselectAnnotationView:${2: view})'
+  'mapView:didFailToLocateUserWithError:':
+    'prefix': 'mapView:didFailToLocateUserWithError:'
+    'body': 'mapView(${1: mapView}, didFailToLocateUserWithError:${2: error})'
+  'mapView:didSelectAnnotationView:':
+    'prefix': 'mapView:didSelectAnnotationView:'
+    'body': 'mapView(${1: mapView}, didSelectAnnotationView:${2: view})'
+  'mapView:didUpdateUserLocation:':
+    'prefix': 'mapView:didUpdateUserLocation:'
+    'body': 'mapView(${1: mapView}, didUpdateUserLocation:${2: userLocation})'
+  'mapView:regionDidChangeAnimated:':
+    'prefix': 'mapView:regionDidChangeAnimated:'
+    'body': 'mapView(${1: mapView}, regionDidChangeAnimated:${2: animated})'
+  'mapView:regionWillChangeAnimated:':
+    'prefix': 'mapView:regionWillChangeAnimated:'
+    'body': 'mapView(${1: mapView}, regionWillChangeAnimated:${2: animated})'
+  'mapView:rendererForOverlay:':
+    'prefix': 'mapView:rendererForOverlay:'
+    'body': 'mapView(${1: mapView}, rendererForOverlay:${2: overlay})'
+  'mapView:viewForAnnotation:':
+    'prefix': 'mapView:viewForAnnotation:'
+    'body': 'mapView(${1: mapView}, viewForAnnotation:${2: annotation})'
+  'mapViewDidFailLoadingMap:withError:':
+    'prefix': 'mapViewDidFailLoadingMap:withError:'
+    'body': 'mapViewDidFailLoadingMap(${1: mapView}, withError:${2: error})'
+  'mapViewDidFinishLoadingMap:':
+    'prefix': 'mapViewDidFinishLoadingMap:'
+    'body': 'mapViewDidFinishLoadingMap(${1: mapView})'
+  'mapViewDidFinishRenderingMap:fullyRendered:':
+    'prefix': 'mapViewDidFinishRenderingMap:fullyRendered:'
+    'body': 'mapViewDidFinishRenderingMap(${1: mapView}, fullyRendered:${2: fullyRendered})'
+  'mapViewDidStopLocatingUser:':
+    'prefix': 'mapViewDidStopLocatingUser:'
+    'body': 'mapViewDidStopLocatingUser(${1: mapView})'
+  'mapViewWillStartLoadingMap:':
+    'prefix': 'mapViewWillStartLoadingMap:'
+    'body': 'mapViewWillStartLoadingMap(${1: mapView})'
+  'mapViewWillStartLocatingUser:':
+    'prefix': 'mapViewWillStartLocatingUser:'
+    'body': 'mapViewWillStartLocatingUser(${1: mapView})'
+  'mapViewWillStartRenderingMap:':
+    'prefix': 'mapViewWillStartRenderingMap:'
+    'body': 'mapViewWillStartRenderingMap(${1: mapView})'
+  'setCoordinate:':
+    'prefix': 'setCoordinate:'
+    'body': 'setCoordinate(${1: newCoordinate})'
+  'subtitle':
+    'prefix': 'subtitle'
+    'body': 'subtitle()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'MKCoordinateSpanValue':
+    'prefix': 'MKCoordinateSpanValue'
+    'body': 'MKCoordinateSpanValue()'
+  'MKCoordinateValue':
+    'prefix': 'MKCoordinateValue'
+    'body': 'MKCoordinateValue()'
+  'NSValue.valueWithMKCoordinate:':
+    'prefix': 'valueWithMKCoordinate:'
+    'body': 'NSValue.valueWithMKCoordinate(${1: coordinate})'
+  'NSValue.valueWithMKCoordinateSpan:':
+    'prefix': 'valueWithMKCoordinateSpan:'
+    'body': 'NSValue.valueWithMKCoordinateSpan(${1: span})'
+  'coordinate':
+    'prefix': 'coordinate'
+    'body': 'coordinate()'
+  'setCoordinate:':
+    'prefix': 'setCoordinate:'
+    'body': 'setCoordinate(${1: newCoordinate})'
+  'subtitle':
+    'prefix': 'subtitle'
+    'body': 'subtitle()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'mapView:annotationView:didChangeDragState:fromOldState:':
+    'prefix': 'mapView:annotationView:didChangeDragState:fromOldState:'
+    'body': 'mapView(${1: mapView}, annotationView:${2: view}, didChangeDragState:${3: newState}, fromOldState:${4: oldState})'
+  'mapView:didAddAnnotationViews:':
+    'prefix': 'mapView:didAddAnnotationViews:'
+    'body': 'mapView(${1: mapView}, didAddAnnotationViews:${2: views})'
+  'mapView:didAddOverlayRenderers:':
+    'prefix': 'mapView:didAddOverlayRenderers:'
+    'body': 'mapView(${1: mapView}, didAddOverlayRenderers:${2: renderers})'
+  'mapView:didDeselectAnnotationView:':
+    'prefix': 'mapView:didDeselectAnnotationView:'
+    'body': 'mapView(${1: mapView}, didDeselectAnnotationView:${2: view})'
+  'mapView:didFailToLocateUserWithError:':
+    'prefix': 'mapView:didFailToLocateUserWithError:'
+    'body': 'mapView(${1: mapView}, didFailToLocateUserWithError:${2: error})'
+  'mapView:didSelectAnnotationView:':
+    'prefix': 'mapView:didSelectAnnotationView:'
+    'body': 'mapView(${1: mapView}, didSelectAnnotationView:${2: view})'
+  'mapView:didUpdateUserLocation:':
+    'prefix': 'mapView:didUpdateUserLocation:'
+    'body': 'mapView(${1: mapView}, didUpdateUserLocation:${2: userLocation})'
+  'mapView:regionDidChangeAnimated:':
+    'prefix': 'mapView:regionDidChangeAnimated:'
+    'body': 'mapView(${1: mapView}, regionDidChangeAnimated:${2: animated})'
+  'mapView:regionWillChangeAnimated:':
+    'prefix': 'mapView:regionWillChangeAnimated:'
+    'body': 'mapView(${1: mapView}, regionWillChangeAnimated:${2: animated})'
+  'mapView:rendererForOverlay:':
+    'prefix': 'mapView:rendererForOverlay:'
+    'body': 'mapView(${1: mapView}, rendererForOverlay:${2: overlay})'
+  'mapView:viewForAnnotation:':
+    'prefix': 'mapView:viewForAnnotation:'
+    'body': 'mapView(${1: mapView}, viewForAnnotation:${2: annotation})'
+  'mapViewDidFailLoadingMap:withError:':
+    'prefix': 'mapViewDidFailLoadingMap:withError:'
+    'body': 'mapViewDidFailLoadingMap(${1: mapView}, withError:${2: error})'
+  'mapViewDidFinishLoadingMap:':
+    'prefix': 'mapViewDidFinishLoadingMap:'
+    'body': 'mapViewDidFinishLoadingMap(${1: mapView})'
+  'mapViewDidFinishRenderingMap:fullyRendered:':
+    'prefix': 'mapViewDidFinishRenderingMap:fullyRendered:'
+    'body': 'mapViewDidFinishRenderingMap(${1: mapView}, fullyRendered:${2: fullyRendered})'
+  'mapViewDidStopLocatingUser:':
+    'prefix': 'mapViewDidStopLocatingUser:'
+    'body': 'mapViewDidStopLocatingUser(${1: mapView})'
+  'mapViewWillStartLoadingMap:':
+    'prefix': 'mapViewWillStartLoadingMap:'
+    'body': 'mapViewWillStartLoadingMap(${1: mapView})'
+  'mapViewWillStartLocatingUser:':
+    'prefix': 'mapViewWillStartLocatingUser:'
+    'body': 'mapViewWillStartLocatingUser(${1: mapView})'
+  'mapViewWillStartRenderingMap:':
+    'prefix': 'mapViewWillStartRenderingMap:'
+    'body': 'mapViewWillStartRenderingMap(${1: mapView})'
+  'boundingMapRect':
+    'prefix': 'boundingMapRect'
+    'body': 'boundingMapRect()'
+  'canReplaceMapContent':
+    'prefix': 'canReplaceMapContent'
+    'body': 'canReplaceMapContent()'
+  'coordinate':
+    'prefix': 'coordinate'
+    'body': 'coordinate()'
+  'intersectsMapRect:':
+    'prefix': 'intersectsMapRect:'
+    'body': 'intersectsMapRect(${1: mapRect})'

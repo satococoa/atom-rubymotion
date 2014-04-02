@@ -1,0 +1,334 @@
+'.source.rubymotion':
+  'OSAScriptErrorAppAddressKey (NSString*)':
+    'prefix': 'OSAScriptErrorAppAddressKey'
+    'body': 'OSAScriptErrorAppAddressKey'
+  'OSAScriptErrorAppName (NSString*)':
+    'prefix': 'OSAScriptErrorAppName'
+    'body': 'OSAScriptErrorAppName'
+  'OSAScriptErrorAppNameKey (NSString*)':
+    'prefix': 'OSAScriptErrorAppNameKey'
+    'body': 'OSAScriptErrorAppNameKey'
+  'OSAScriptErrorBriefMessage (NSString*)':
+    'prefix': 'OSAScriptErrorBriefMessage'
+    'body': 'OSAScriptErrorBriefMessage'
+  'OSAScriptErrorBriefMessageKey (NSString*)':
+    'prefix': 'OSAScriptErrorBriefMessageKey'
+    'body': 'OSAScriptErrorBriefMessageKey'
+  'OSAScriptErrorExpectedTypeKey (NSString*)':
+    'prefix': 'OSAScriptErrorExpectedTypeKey'
+    'body': 'OSAScriptErrorExpectedTypeKey'
+  'OSAScriptErrorMessage (NSString*)':
+    'prefix': 'OSAScriptErrorMessage'
+    'body': 'OSAScriptErrorMessage'
+  'OSAScriptErrorMessageKey (NSString*)':
+    'prefix': 'OSAScriptErrorMessageKey'
+    'body': 'OSAScriptErrorMessageKey'
+  'OSAScriptErrorNumber (NSString*)':
+    'prefix': 'OSAScriptErrorNumber'
+    'body': 'OSAScriptErrorNumber'
+  'OSAScriptErrorNumberKey (NSString*)':
+    'prefix': 'OSAScriptErrorNumberKey'
+    'body': 'OSAScriptErrorNumberKey'
+  'OSAScriptErrorOffendingObjectKey (NSString*)':
+    'prefix': 'OSAScriptErrorOffendingObjectKey'
+    'body': 'OSAScriptErrorOffendingObjectKey'
+  'OSAScriptErrorPartialResultKey (NSString*)':
+    'prefix': 'OSAScriptErrorPartialResultKey'
+    'body': 'OSAScriptErrorPartialResultKey'
+  'OSAScriptErrorRange (NSString*)':
+    'prefix': 'OSAScriptErrorRange'
+    'body': 'OSAScriptErrorRange'
+  'OSAScriptErrorRangeKey (NSString*)':
+    'prefix': 'OSAScriptErrorRangeKey'
+    'body': 'OSAScriptErrorRangeKey'
+  'OSAStorageApplicationBundleType (NSString*)':
+    'prefix': 'OSAStorageApplicationBundleType'
+    'body': 'OSAStorageApplicationBundleType'
+  'OSAStorageApplicationType (NSString*)':
+    'prefix': 'OSAStorageApplicationType'
+    'body': 'OSAStorageApplicationType'
+  'OSAStorageScriptBundleType (NSString*)':
+    'prefix': 'OSAStorageScriptBundleType'
+    'body': 'OSAStorageScriptBundleType'
+  'OSAStorageScriptType (NSString*)':
+    'prefix': 'OSAStorageScriptType'
+    'body': 'OSAStorageScriptType'
+  'OSAStorageTextType (NSString*)':
+    'prefix': 'OSAStorageTextType'
+    'body': 'OSAStorageTextType'
+  'OSACompileIntoContext (2)':
+    'prefix': 'OSACompileIntoContext'
+    'body': 'OSACompileIntoContext'
+  'OSADontSetScriptLocation (16777216)':
+    'prefix': 'OSADontSetScriptLocation'
+    'body': 'OSADontSetScriptLocation'
+  'OSANull (0)':
+    'prefix': 'OSANull'
+    'body': 'OSANull'
+  'OSAPreventGetSource (1)':
+    'prefix': 'OSAPreventGetSource'
+    'body': 'OSAPreventGetSource'
+  'OSAScriptRecording (2)':
+    'prefix': 'OSAScriptRecording'
+    'body': 'OSAScriptRecording'
+  'OSAScriptRunning (1)':
+    'prefix': 'OSAScriptRunning'
+    'body': 'OSAScriptRunning'
+  'OSAScriptStopped (0)':
+    'prefix': 'OSAScriptStopped'
+    'body': 'OSAScriptStopped'
+  'OSAShowStartupScreen (536870912)':
+    'prefix': 'OSAShowStartupScreen'
+    'body': 'OSAShowStartupScreen'
+  'OSAStayOpenApplet (268435456)':
+    'prefix': 'OSAStayOpenApplet'
+    'body': 'OSAStayOpenApplet'
+  'OSASupportsAECoercion (8)':
+    'prefix': 'OSASupportsAECoercion'
+    'body': 'OSASupportsAECoercion'
+  'OSASupportsAESending (16)':
+    'prefix': 'OSASupportsAESending'
+    'body': 'OSASupportsAESending'
+  'OSASupportsCompiling (2)':
+    'prefix': 'OSASupportsCompiling'
+    'body': 'OSASupportsCompiling'
+  'OSASupportsConvenience (64)':
+    'prefix': 'OSASupportsConvenience'
+    'body': 'OSASupportsConvenience'
+  'OSASupportsDialects (128)':
+    'prefix': 'OSASupportsDialects'
+    'body': 'OSASupportsDialects'
+  'OSASupportsEventHandling (256)':
+    'prefix': 'OSASupportsEventHandling'
+    'body': 'OSASupportsEventHandling'
+  'OSASupportsGetSource (4)':
+    'prefix': 'OSASupportsGetSource'
+    'body': 'OSASupportsGetSource'
+  'OSASupportsRecording (32)':
+    'prefix': 'OSASupportsRecording'
+    'body': 'OSASupportsRecording'
+  'OSALanguage.availableLanguages':
+    'prefix': 'availableLanguages'
+    'body': 'OSALanguage.availableLanguages()'
+  'componentInstance':
+    'prefix': 'componentInstance'
+    'body': 'componentInstance()'
+  'OSALanguage.defaultLanguage':
+    'prefix': 'defaultLanguage'
+    'body': 'OSALanguage.defaultLanguage()'
+  'features':
+    'prefix': 'features'
+    'body': 'features()'
+  'info':
+    'prefix': 'info'
+    'body': 'info()'
+  'initWithComponent:':
+    'prefix': 'initWithComponent:'
+    'body': 'initWithComponent(${1:Component component})'
+  'isThreadSafe':
+    'prefix': 'isThreadSafe'
+    'body': 'isThreadSafe()'
+  'OSALanguage.languageForName:':
+    'prefix': 'languageForName:'
+    'body': 'OSALanguage.languageForName(${1:NSString* name})'
+  'OSALanguage.languageForScriptDataDescriptor:':
+    'prefix': 'languageForScriptDataDescriptor:'
+    'body': 'OSALanguage.languageForScriptDataDescriptor(${1:NSAppleEventDescriptor* descriptor})'
+  'manufacturer':
+    'prefix': 'manufacturer'
+    'body': 'manufacturer()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'OSALanguage.setDefaultLanguage:':
+    'prefix': 'setDefaultLanguage:'
+    'body': 'OSALanguage.setDefaultLanguage(${1:OSALanguage* defaultLanguage})'
+  'sharedLanguageInstance':
+    'prefix': 'sharedLanguageInstance'
+    'body': 'sharedLanguageInstance()'
+  'subType':
+    'prefix': 'subType'
+    'body': 'subType()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'version':
+    'prefix': 'version'
+    'body': 'version()'
+  'componentInstance':
+    'prefix': 'componentInstance'
+    'body': 'componentInstance()'
+  'initWithLanguage:':
+    'prefix': 'initWithLanguage:'
+    'body': 'initWithLanguage(${1:OSALanguage* language})'
+  'language':
+    'prefix': 'language'
+    'body': 'language()'
+  'OSALanguageInstance.languageInstanceWithLanguage:':
+    'prefix': 'languageInstanceWithLanguage:'
+    'body': 'OSALanguageInstance.languageInstanceWithLanguage(${1:OSALanguage* language})'
+  'compileAndReturnError:':
+    'prefix': 'compileAndReturnError:'
+    'body': 'compileAndReturnError(${1:NSDictionary** errorInfo})'
+  'compiledDataForType:usingStorageOptions:error:':
+    'prefix': 'compiledDataForType:usingStorageOptions:error:'
+    'body': 'compiledDataForType(${1:NSString* type}, usingStorageOptions:${2:OSAStorageOptions storageOptions}, error:${3:NSDictionary** errorInfo})'
+  'executeAndReturnDisplayValue:error:':
+    'prefix': 'executeAndReturnDisplayValue:error:'
+    'body': 'executeAndReturnDisplayValue(${1:NSAttributedString** displayValue}, error:${2:NSDictionary** errorInfo})'
+  'executeAndReturnError:':
+    'prefix': 'executeAndReturnError:'
+    'body': 'executeAndReturnError(${1:NSDictionary** errorInfo})'
+  'executeAppleEvent:error:':
+    'prefix': 'executeAppleEvent:error:'
+    'body': 'executeAppleEvent(${1:NSAppleEventDescriptor* event}, error:${2:NSDictionary** errorInfo})'
+  'executeHandlerWithName:arguments:error:':
+    'prefix': 'executeHandlerWithName:arguments:error:'
+    'body': 'executeHandlerWithName(${1:NSString* name}, arguments:${2:NSArray* arguments}, error:${3:NSDictionary** errorInfo})'
+  'initWithCompiledData:error:':
+    'prefix': 'initWithCompiledData:error:'
+    'body': 'initWithCompiledData(${1:NSData* data}, error:${2:NSDictionary** errorInfo})'
+  'initWithCompiledData:fromURL:usingStorageOptions:error:':
+    'prefix': 'initWithCompiledData:fromURL:usingStorageOptions:error:'
+    'body': 'initWithCompiledData(${1:NSData* data}, fromURL:${2:NSURL* url}, usingStorageOptions:${3:OSAStorageOptions storageOptions}, error:${4:NSError** errorInfo})'
+  'initWithContentsOfURL:error:':
+    'prefix': 'initWithContentsOfURL:error:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url}, error:${2:NSDictionary** errorInfo})'
+  'initWithContentsOfURL:language:error:':
+    'prefix': 'initWithContentsOfURL:language:error:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url}, language:${2:OSALanguage* language}, error:${3:NSDictionary** errorInfo})'
+  'initWithContentsOfURL:languageInstance:usingStorageOptions:error:':
+    'prefix': 'initWithContentsOfURL:languageInstance:usingStorageOptions:error:'
+    'body': 'initWithContentsOfURL(${1:NSURL* url}, languageInstance:${2:OSALanguageInstance* instance}, usingStorageOptions:${3:OSAStorageOptions storageOptions}, error:${4:NSError** errorInfo})'
+  'initWithScriptDataDescriptor:fromURL:languageInstance:usingStorageOptions:error:':
+    'prefix': 'initWithScriptDataDescriptor:fromURL:languageInstance:usingStorageOptions:error:'
+    'body': 'initWithScriptDataDescriptor(${1:NSAppleEventDescriptor* data}, fromURL:${2:NSURL* url}, languageInstance:${3:OSALanguageInstance* instance}, usingStorageOptions:${4:OSAStorageOptions storageOptions}, error:${5:NSError** errorInfo})'
+  'initWithSource:':
+    'prefix': 'initWithSource:'
+    'body': 'initWithSource(${1:NSString* source})'
+  'initWithSource:fromURL:languageInstance:usingStorageOptions:':
+    'prefix': 'initWithSource:fromURL:languageInstance:usingStorageOptions:'
+    'body': 'initWithSource(${1:NSString* source}, fromURL:${2:NSURL* url}, languageInstance:${3:OSALanguageInstance* instance}, usingStorageOptions:${4:OSAStorageOptions storageOptions})'
+  'initWithSource:language:':
+    'prefix': 'initWithSource:language:'
+    'body': 'initWithSource(${1:NSString* source}, language:${2:OSALanguage* language})'
+  'isCompiled':
+    'prefix': 'isCompiled'
+    'body': 'isCompiled()'
+  'language':
+    'prefix': 'language'
+    'body': 'language()'
+  'languageInstance':
+    'prefix': 'languageInstance'
+    'body': 'languageInstance()'
+  'richTextFromDescriptor:':
+    'prefix': 'richTextFromDescriptor:'
+    'body': 'richTextFromDescriptor(${1:NSAppleEventDescriptor* descriptor})'
+  'richTextSource':
+    'prefix': 'richTextSource'
+    'body': 'richTextSource()'
+  'OSAScript.scriptDataDescriptorWithContentsOfURL:':
+    'prefix': 'scriptDataDescriptorWithContentsOfURL:'
+    'body': 'OSAScript.scriptDataDescriptorWithContentsOfURL(${1:NSURL* url})'
+  'setLanguage:':
+    'prefix': 'setLanguage:'
+    'body': 'setLanguage(${1:OSALanguage* language})'
+  'setLanguageInstance:':
+    'prefix': 'setLanguageInstance:'
+    'body': 'setLanguageInstance(${1:OSALanguageInstance* languageInstance})'
+  'source':
+    'prefix': 'source'
+    'body': 'source()'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'writeToURL:ofType:error:':
+    'prefix': 'writeToURL:ofType:error:'
+    'body': 'writeToURL(${1:NSURL* url}, ofType:${2:NSString* type}, error:${3:NSDictionary** errorInfo})'
+  'writeToURL:ofType:usingStorageOptions:error:':
+    'prefix': 'writeToURL:ofType:usingStorageOptions:error:'
+    'body': 'writeToURL(${1:NSURL* url}, ofType:${2:NSString* type}, usingStorageOptions:${3:OSAStorageOptions storageOptions}, error:${4:NSDictionary** errorInfo})'
+  'compileScript:':
+    'prefix': 'compileScript:'
+    'body': 'compileScript(${1:id sender})'
+  'isCompiling':
+    'prefix': 'isCompiling'
+    'body': 'isCompiling()'
+  'language':
+    'prefix': 'language'
+    'body': 'language()'
+  'recordScript:':
+    'prefix': 'recordScript:'
+    'body': 'recordScript(${1:id sender})'
+  'resultView':
+    'prefix': 'resultView'
+    'body': 'resultView()'
+  'runScript:':
+    'prefix': 'runScript:'
+    'body': 'runScript(${1:id sender})'
+  'script':
+    'prefix': 'script'
+    'body': 'script()'
+  'scriptState':
+    'prefix': 'scriptState'
+    'body': 'scriptState()'
+  'scriptView':
+    'prefix': 'scriptView'
+    'body': 'scriptView()'
+  'setLanguage:':
+    'prefix': 'setLanguage:'
+    'body': 'setLanguage(${1:OSALanguage* newLanguage})'
+  'setResultView:':
+    'prefix': 'setResultView:'
+    'body': 'setResultView(${1:NSTextView* newResultView})'
+  'setScript:':
+    'prefix': 'setScript:'
+    'body': 'setScript(${1:OSAScript* newScript})'
+  'setScriptView:':
+    'prefix': 'setScriptView:'
+    'body': 'setScriptView(${1:OSAScriptView* newScriptView})'
+  'stopScript:':
+    'prefix': 'stopScript:'
+    'body': 'stopScript(${1:id sender})'
+  'indentWidth':
+    'prefix': 'indentWidth'
+    'body': 'indentWidth()'
+  'indentsWrappedLines':
+    'prefix': 'indentsWrappedLines'
+    'body': 'indentsWrappedLines()'
+  'setIndentWidth:':
+    'prefix': 'setIndentWidth:'
+    'body': 'setIndentWidth(${1:NSUInteger indentWidth})'
+  'setIndentsWrappedLines:':
+    'prefix': 'setIndentsWrappedLines:'
+    'body': 'setIndentsWrappedLines(${1:BOOL indentsWrappedLines})'
+  'setSource:':
+    'prefix': 'setSource:'
+    'body': 'setSource(${1:NSString* source})'
+  'setTabWidth:':
+    'prefix': 'setTabWidth:'
+    'body': 'setTabWidth(${1:NSUInteger tabWidth})'
+  'setUsesScriptAssistant:':
+    'prefix': 'setUsesScriptAssistant:'
+    'body': 'setUsesScriptAssistant(${1:BOOL usesScriptAssistant})'
+  'setUsesTabs:':
+    'prefix': 'setUsesTabs:'
+    'body': 'setUsesTabs(${1:BOOL usesTabs})'
+  'setWrapsLines:':
+    'prefix': 'setWrapsLines:'
+    'body': 'setWrapsLines(${1:BOOL wrapsLines})'
+  'source':
+    'prefix': 'source'
+    'body': 'source()'
+  'tabWidth':
+    'prefix': 'tabWidth'
+    'body': 'tabWidth()'
+  'usesScriptAssistant':
+    'prefix': 'usesScriptAssistant'
+    'body': 'usesScriptAssistant()'
+  'usesTabs':
+    'prefix': 'usesTabs'
+    'body': 'usesTabs()'
+  'wrapsLines':
+    'prefix': 'wrapsLines'
+    'body': 'wrapsLines()'

@@ -1,0 +1,778 @@
+'.source.rubymotion':
+  'ISyncAvailabilityChangedNotification (NSString*)':
+    'prefix': 'ISyncAvailabilityChangedNotification'
+    'body': 'ISyncAvailabilityChangedNotification'
+  'ISyncChangePropertyActionKey (NSString*)':
+    'prefix': 'ISyncChangePropertyActionKey'
+    'body': 'ISyncChangePropertyActionKey'
+  'ISyncChangePropertyClear (NSString*)':
+    'prefix': 'ISyncChangePropertyClear'
+    'body': 'ISyncChangePropertyClear'
+  'ISyncChangePropertyNameKey (NSString*)':
+    'prefix': 'ISyncChangePropertyNameKey'
+    'body': 'ISyncChangePropertyNameKey'
+  'ISyncChangePropertySet (NSString*)':
+    'prefix': 'ISyncChangePropertySet'
+    'body': 'ISyncChangePropertySet'
+  'ISyncChangePropertyValueIsDefaultKey (NSString*)':
+    'prefix': 'ISyncChangePropertyValueIsDefaultKey'
+    'body': 'ISyncChangePropertyValueIsDefaultKey'
+  'ISyncChangePropertyValueKey (NSString*)':
+    'prefix': 'ISyncChangePropertyValueKey'
+    'body': 'ISyncChangePropertyValueKey'
+  'ISyncClientTypeApplication (NSString*)':
+    'prefix': 'ISyncClientTypeApplication'
+    'body': 'ISyncClientTypeApplication'
+  'ISyncClientTypeDevice (NSString*)':
+    'prefix': 'ISyncClientTypeDevice'
+    'body': 'ISyncClientTypeDevice'
+  'ISyncClientTypePeer (NSString*)':
+    'prefix': 'ISyncClientTypePeer'
+    'body': 'ISyncClientTypePeer'
+  'ISyncClientTypeServer (NSString*)':
+    'prefix': 'ISyncClientTypeServer'
+    'body': 'ISyncClientTypeServer'
+  'ISyncErrorDomain (NSString*)':
+    'prefix': 'ISyncErrorDomain'
+    'body': 'ISyncErrorDomain'
+  'ISyncInvalidArgumentsException (NSString*)':
+    'prefix': 'ISyncInvalidArgumentsException'
+    'body': 'ISyncInvalidArgumentsException'
+  'ISyncInvalidEntityException (NSString*)':
+    'prefix': 'ISyncInvalidEntityException'
+    'body': 'ISyncInvalidEntityException'
+  'ISyncInvalidRecordException (NSString*)':
+    'prefix': 'ISyncInvalidRecordException'
+    'body': 'ISyncInvalidRecordException'
+  'ISyncInvalidRecordIdentifiersKey (NSString*)':
+    'prefix': 'ISyncInvalidRecordIdentifiersKey'
+    'body': 'ISyncInvalidRecordIdentifiersKey'
+  'ISyncInvalidRecordReasonsKey (NSString*)':
+    'prefix': 'ISyncInvalidRecordReasonsKey'
+    'body': 'ISyncInvalidRecordReasonsKey'
+  'ISyncInvalidRecordsKey (NSString*)':
+    'prefix': 'ISyncInvalidRecordsKey'
+    'body': 'ISyncInvalidRecordsKey'
+  'ISyncInvalidSchemaException (NSString*)':
+    'prefix': 'ISyncInvalidSchemaException'
+    'body': 'ISyncInvalidSchemaException'
+  'ISyncRecordEntityNameKey (NSString*)':
+    'prefix': 'ISyncRecordEntityNameKey'
+    'body': 'ISyncRecordEntityNameKey'
+  'ISyncServerUnavailableException (NSString*)':
+    'prefix': 'ISyncServerUnavailableException'
+    'body': 'ISyncServerUnavailableException'
+  'ISyncSessionCancelledException (NSString*)':
+    'prefix': 'ISyncSessionCancelledException'
+    'body': 'ISyncSessionCancelledException'
+  'ISyncSessionUnavailableException (NSString*)':
+    'prefix': 'ISyncSessionUnavailableException'
+    'body': 'ISyncSessionUnavailableException'
+  'ISyncUnsupportedEntityException (NSString*)':
+    'prefix': 'ISyncUnsupportedEntityException'
+    'body': 'ISyncUnsupportedEntityException'
+  'ISyncChangeTypeAdd (1)':
+    'prefix': 'ISyncChangeTypeAdd'
+    'body': 'ISyncChangeTypeAdd'
+  'ISyncChangeTypeDelete (3)':
+    'prefix': 'ISyncChangeTypeDelete'
+    'body': 'ISyncChangeTypeDelete'
+  'ISyncChangeTypeModify (2)':
+    'prefix': 'ISyncChangeTypeModify'
+    'body': 'ISyncChangeTypeModify'
+  'ISyncChangeTypeNone (0)':
+    'prefix': 'ISyncChangeTypeNone'
+    'body': 'ISyncChangeTypeNone'
+  'ISyncServerDisabledReasonByPreference (1001)':
+    'prefix': 'ISyncServerDisabledReasonByPreference'
+    'body': 'ISyncServerDisabledReasonByPreference'
+  'ISyncServerDisabledReasonNone (1000)':
+    'prefix': 'ISyncServerDisabledReasonNone'
+    'body': 'ISyncServerDisabledReasonNone'
+  'ISyncServerDisabledReasonSharedNetworkHome (1002)':
+    'prefix': 'ISyncServerDisabledReasonSharedNetworkHome'
+    'body': 'ISyncServerDisabledReasonSharedNetworkHome'
+  'ISyncServerDisabledReasonUnknown (1004)':
+    'prefix': 'ISyncServerDisabledReasonUnknown'
+    'body': 'ISyncServerDisabledReasonUnknown'
+  'ISyncServerDisabledReasonUnresponsive (1003)':
+    'prefix': 'ISyncServerDisabledReasonUnresponsive'
+    'body': 'ISyncServerDisabledReasonUnresponsive'
+  'ISyncSessionClientAlreadySyncingError (100)':
+    'prefix': 'ISyncSessionClientAlreadySyncingError'
+    'body': 'ISyncSessionClientAlreadySyncingError'
+  'ISyncSessionDriverChangeAccepted (1)':
+    'prefix': 'ISyncSessionDriverChangeAccepted'
+    'body': 'ISyncSessionDriverChangeAccepted'
+  'ISyncSessionDriverChangeError (3)':
+    'prefix': 'ISyncSessionDriverChangeError'
+    'body': 'ISyncSessionDriverChangeError'
+  'ISyncSessionDriverChangeIgnored (2)':
+    'prefix': 'ISyncSessionDriverChangeIgnored'
+    'body': 'ISyncSessionDriverChangeIgnored'
+  'ISyncSessionDriverChangeRefused (0)':
+    'prefix': 'ISyncSessionDriverChangeRefused'
+    'body': 'ISyncSessionDriverChangeRefused'
+  'ISyncSessionDriverFatalError (300)':
+    'prefix': 'ISyncSessionDriverFatalError'
+    'body': 'ISyncSessionDriverFatalError'
+  'ISyncSessionDriverModeFast (1)':
+    'prefix': 'ISyncSessionDriverModeFast'
+    'body': 'ISyncSessionDriverModeFast'
+  'ISyncSessionDriverModeRefresh (3)':
+    'prefix': 'ISyncSessionDriverModeRefresh'
+    'body': 'ISyncSessionDriverModeRefresh'
+  'ISyncSessionDriverModeSlow (2)':
+    'prefix': 'ISyncSessionDriverModeSlow'
+    'body': 'ISyncSessionDriverModeSlow'
+  'ISyncSessionDriverPullFailureError (201)':
+    'prefix': 'ISyncSessionDriverPullFailureError'
+    'body': 'ISyncSessionDriverPullFailureError'
+  'ISyncSessionDriverRegistrationError (200)':
+    'prefix': 'ISyncSessionDriverRegistrationError'
+    'body': 'ISyncSessionDriverRegistrationError'
+  'ISyncSessionUserCanceledSessionError (101)':
+    'prefix': 'ISyncSessionUserCanceledSessionError'
+    'body': 'ISyncSessionUserCanceledSessionError'
+  'ISyncStatusCancelled (5)':
+    'prefix': 'ISyncStatusCancelled'
+    'body': 'ISyncStatusCancelled'
+  'ISyncStatusErrors (4)':
+    'prefix': 'ISyncStatusErrors'
+    'body': 'ISyncStatusErrors'
+  'ISyncStatusFailed (6)':
+    'prefix': 'ISyncStatusFailed'
+    'body': 'ISyncStatusFailed'
+  'ISyncStatusNever (7)':
+    'prefix': 'ISyncStatusNever'
+    'body': 'ISyncStatusNever'
+  'ISyncStatusRunning (1)':
+    'prefix': 'ISyncStatusRunning'
+    'body': 'ISyncStatusRunning'
+  'ISyncStatusSuccess (2)':
+    'prefix': 'ISyncStatusSuccess'
+    'body': 'ISyncStatusSuccess'
+  'ISyncStatusWarnings (3)':
+    'prefix': 'ISyncStatusWarnings'
+    'body': 'ISyncStatusWarnings'
+  'ISyncChange.changeWithType:recordIdentifier:changes:':
+    'prefix': 'changeWithType:recordIdentifier:changes:'
+    'body': 'ISyncChange.changeWithType(${1:ISyncChangeType type}, recordIdentifier:${2:NSString* recordIdentifier}, changes:${3:NSArray* changes})'
+  'changes':
+    'prefix': 'changes'
+    'body': 'changes()'
+  'initWithChangeType:recordIdentifier:changes:':
+    'prefix': 'initWithChangeType:recordIdentifier:changes:'
+    'body': 'initWithChangeType(${1:ISyncChangeType type}, recordIdentifier:${2:NSString* recordIdentifier}, changes:${3:NSArray* changes})'
+  'record':
+    'prefix': 'record'
+    'body': 'record()'
+  'recordIdentifier':
+    'prefix': 'recordIdentifier'
+    'body': 'recordIdentifier()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'canPullChangesForEntityName:':
+    'prefix': 'canPullChangesForEntityName:'
+    'body': 'canPullChangesForEntityName(${1:NSString* entityName})'
+  'canPushChangesForEntityName:':
+    'prefix': 'canPushChangesForEntityName:'
+    'body': 'canPushChangesForEntityName(${1:NSString* entityName})'
+  'clientIdentifier':
+    'prefix': 'clientIdentifier'
+    'body': 'clientIdentifier()'
+  'clientType':
+    'prefix': 'clientType'
+    'body': 'clientType()'
+  'displayName':
+    'prefix': 'displayName'
+    'body': 'displayName()'
+  'enabledEntityNames':
+    'prefix': 'enabledEntityNames'
+    'body': 'enabledEntityNames()'
+  'filters':
+    'prefix': 'filters'
+    'body': 'filters()'
+  'formatsRelationships':
+    'prefix': 'formatsRelationships'
+    'body': 'formatsRelationships()'
+  'imagePath':
+    'prefix': 'imagePath'
+    'body': 'imagePath()'
+  'isEnabledForEntityName:':
+    'prefix': 'isEnabledForEntityName:'
+    'body': 'isEnabledForEntityName(${1:NSString* entityName})'
+  'lastSyncDateForEntityName:':
+    'prefix': 'lastSyncDateForEntityName:'
+    'body': 'lastSyncDateForEntityName(${1:NSString* entityName})'
+  'lastSyncStatusForEntityName:':
+    'prefix': 'lastSyncStatusForEntityName:'
+    'body': 'lastSyncStatusForEntityName(${1:NSString* entityName})'
+  'objectForKey:':
+    'prefix': 'objectForKey:'
+    'body': 'objectForKey(${1:NSString* key})'
+  'setDisplayName:':
+    'prefix': 'setDisplayName:'
+    'body': 'setDisplayName(${1:NSString* displayName})'
+  'setEnabled:forEntityNames:':
+    'prefix': 'setEnabled:forEntityNames:'
+    'body': 'setEnabled(${1:BOOL flag}, forEntityNames:${2:NSArray* entityNames})'
+  'setFilters:':
+    'prefix': 'setFilters:'
+    'body': 'setFilters(${1:NSArray* filters})'
+  'setFormatsRelationships:':
+    'prefix': 'setFormatsRelationships:'
+    'body': 'setFormatsRelationships(${1:BOOL flag})'
+  'setImagePath:':
+    'prefix': 'setImagePath:'
+    'body': 'setImagePath(${1:NSString* path})'
+  'setObject:forKey:':
+    'prefix': 'setObject:forKey:'
+    'body': 'setObject(${1:id value}, forKey:${2:NSString* key})'
+  'setShouldReplaceClientRecords:forEntityNames:':
+    'prefix': 'setShouldReplaceClientRecords:forEntityNames:'
+    'body': 'setShouldReplaceClientRecords(${1:BOOL flag}, forEntityNames:${2:NSArray* entityNames})'
+  'setShouldSynchronize:withClientsOfType:':
+    'prefix': 'setShouldSynchronize:withClientsOfType:'
+    'body': 'setShouldSynchronize(${1:BOOL flag}, withClientsOfType:${2:NSString* clientType})'
+  'setSyncAlertHandler:selector:':
+    'prefix': 'setSyncAlertHandler:selector:'
+    'body': 'setSyncAlertHandler(${1:id handler}, selector:${2:SEL selector})'
+  'setSyncAlertToolPath:':
+    'prefix': 'setSyncAlertToolPath:'
+    'body': 'setSyncAlertToolPath(${1:NSString* path})'
+  'shouldReplaceClientRecordsForEntityName:':
+    'prefix': 'shouldReplaceClientRecordsForEntityName:'
+    'body': 'shouldReplaceClientRecordsForEntityName(${1:NSString* entityName})'
+  'shouldSynchronizeWithClientsOfType:':
+    'prefix': 'shouldSynchronizeWithClientsOfType:'
+    'body': 'shouldSynchronizeWithClientsOfType(${1:NSString* clientType})'
+  'supportedEntityNames':
+    'prefix': 'supportedEntityNames'
+    'body': 'supportedEntityNames()'
+  'syncAlertToolPath':
+    'prefix': 'syncAlertToolPath'
+    'body': 'syncAlertToolPath()'
+  'ISyncFilter.filterMatchingAllFilters:':
+    'prefix': 'filterMatchingAllFilters:'
+    'body': 'ISyncFilter.filterMatchingAllFilters(${1:NSArray* filters})'
+  'ISyncFilter.filterMatchingAtLeastOneFilter:':
+    'prefix': 'filterMatchingAtLeastOneFilter:'
+    'body': 'ISyncFilter.filterMatchingAtLeastOneFilter(${1:NSArray* filters})'
+  'addRequestMode:':
+    'prefix': 'addRequestMode:'
+    'body': 'addRequestMode(${1:NSString* mode})'
+  'clientWithIdentifier:':
+    'prefix': 'clientWithIdentifier:'
+    'body': 'clientWithIdentifier(${1:NSString* clientId})'
+  'clientWithIdentifier:needsSyncing:':
+    'prefix': 'clientWithIdentifier:needsSyncing:'
+    'body': 'clientWithIdentifier(${1:NSString* clientId}, needsSyncing:${2:BOOL flag})'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'registerClientWithIdentifier:descriptionFilePath:':
+    'prefix': 'registerClientWithIdentifier:descriptionFilePath:'
+    'body': 'registerClientWithIdentifier(${1:NSString* clientId}, descriptionFilePath:${2:NSString* descriptionFilePath})'
+  'registerSchemaWithBundlePath:':
+    'prefix': 'registerSchemaWithBundlePath:'
+    'body': 'registerSchemaWithBundlePath(${1:NSString* bundlePath})'
+  'removeRequestMode:':
+    'prefix': 'removeRequestMode:'
+    'body': 'removeRequestMode(${1:NSString* mode})'
+  'requestModes':
+    'prefix': 'requestModes'
+    'body': 'requestModes()'
+  'ISyncManager.sharedManager':
+    'prefix': 'sharedManager'
+    'body': 'ISyncManager.sharedManager()'
+  'snapshotOfRecordsInTruthWithEntityNames:usingIdentifiersForClient:':
+    'prefix': 'snapshotOfRecordsInTruthWithEntityNames:usingIdentifiersForClient:'
+    'body': 'snapshotOfRecordsInTruthWithEntityNames(${1:NSArray* entityNames}, usingIdentifiersForClient:${2:ISyncClient* client})'
+  'syncDisabledReason':
+    'prefix': 'syncDisabledReason'
+    'body': 'syncDisabledReason()'
+  'unregisterClient:':
+    'prefix': 'unregisterClient:'
+    'body': 'unregisterClient(${1:ISyncClient* client})'
+  'unregisterSchemaWithName:':
+    'prefix': 'unregisterSchemaWithName:'
+    'body': 'unregisterSchemaWithName(${1:NSString* schemaName})'
+  'recordIdentifierForReference:isModified:':
+    'prefix': 'recordIdentifierForReference:isModified:'
+    'body': 'recordIdentifierForReference(${1:ISyncRecordReference* reference}, isModified:${2:BOOL* pModified})'
+  'recordReferenceForRecordWithIdentifier:':
+    'prefix': 'recordReferenceForRecordWithIdentifier:'
+    'body': 'recordReferenceForRecordWithIdentifier(${1:NSString* identifier})'
+  'recordsWithIdentifiers:':
+    'prefix': 'recordsWithIdentifiers:'
+    'body': 'recordsWithIdentifiers(${1:NSArray* recordIds})'
+  'recordsWithMatchingAttributes:':
+    'prefix': 'recordsWithMatchingAttributes:'
+    'body': 'recordsWithMatchingAttributes(${1:NSDictionary* attributes})'
+  'sourceIdentifiersForRelationshipName:withTargetIdentifier:':
+    'prefix': 'sourceIdentifiersForRelationshipName:withTargetIdentifier:'
+    'body': 'sourceIdentifiersForRelationshipName(${1:NSString* relationshipName}, withTargetIdentifier:${2:NSString* sourceId})'
+  'targetIdentifiersForRelationshipName:withSourceIdentifier:':
+    'prefix': 'targetIdentifiersForRelationshipName:withSourceIdentifier:'
+    'body': 'targetIdentifiersForRelationshipName(${1:NSString* relationshipName}, withSourceIdentifier:${2:NSString* sourceId})'
+  'ISyncSession.beginSessionInBackgroundWithClient:entityNames:target:selector:':
+    'prefix': 'beginSessionInBackgroundWithClient:entityNames:target:selector:'
+    'body': 'ISyncSession.beginSessionInBackgroundWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, target:${3:id target}, selector:${4:SEL selector})'
+  'ISyncSession.beginSessionInBackgroundWithClient:entityNames:target:selector:lastAnchors:':
+    'prefix': 'beginSessionInBackgroundWithClient:entityNames:target:selector:lastAnchors:'
+    'body': 'ISyncSession.beginSessionInBackgroundWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, target:${3:id target}, selector:${4:SEL selector}, lastAnchors:${5:NSDictionary* anchors})'
+  'ISyncSession.beginSessionWithClient:entityNames:beforeDate:':
+    'prefix': 'beginSessionWithClient:entityNames:beforeDate:'
+    'body': 'ISyncSession.beginSessionWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, beforeDate:${3:NSDate* date})'
+  'ISyncSession.beginSessionWithClient:entityNames:beforeDate:lastAnchors:':
+    'prefix': 'beginSessionWithClient:entityNames:beforeDate:lastAnchors:'
+    'body': 'ISyncSession.beginSessionWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, beforeDate:${3:NSDate* date}, lastAnchors:${4:NSDictionary* anchors})'
+  'ISyncSession.cancelPreviousBeginSessionWithClient:':
+    'prefix': 'cancelPreviousBeginSessionWithClient:'
+    'body': 'ISyncSession.cancelPreviousBeginSessionWithClient(${1:ISyncClient* client})'
+  'cancelSyncing':
+    'prefix': 'cancelSyncing'
+    'body': 'cancelSyncing()'
+  'changeEnumeratorForEntityNames:':
+    'prefix': 'changeEnumeratorForEntityNames:'
+    'body': 'changeEnumeratorForEntityNames(${1:NSArray* entityNames})'
+  'clientAcceptedChangesForRecordWithIdentifier:formattedRecord:newRecordIdentifier:':
+    'prefix': 'clientAcceptedChangesForRecordWithIdentifier:formattedRecord:newRecordIdentifier:'
+    'body': 'clientAcceptedChangesForRecordWithIdentifier(${1:NSString* recordId}, formattedRecord:${2:NSDictionary* formattedRecord}, newRecordIdentifier:${3:NSString* recordId})'
+  'clientChangedRecordIdentifiers:':
+    'prefix': 'clientChangedRecordIdentifiers:'
+    'body': 'clientChangedRecordIdentifiers(${1:NSDictionary* oldToNew})'
+  'clientCommittedAcceptedChanges':
+    'prefix': 'clientCommittedAcceptedChanges'
+    'body': 'clientCommittedAcceptedChanges()'
+  'clientCommittedAcceptedChangesWithNextAnchors:':
+    'prefix': 'clientCommittedAcceptedChangesWithNextAnchors:'
+    'body': 'clientCommittedAcceptedChangesWithNextAnchors(${1:NSDictionary* anchors})'
+  'clientDidResetEntityNames:':
+    'prefix': 'clientDidResetEntityNames:'
+    'body': 'clientDidResetEntityNames(${1:NSArray* entityNames})'
+  'clientFinishedPushingChangesWithNextAnchors:':
+    'prefix': 'clientFinishedPushingChangesWithNextAnchors:'
+    'body': 'clientFinishedPushingChangesWithNextAnchors(${1:NSDictionary* anchors})'
+  'clientInfoForRecordWithIdentifier:':
+    'prefix': 'clientInfoForRecordWithIdentifier:'
+    'body': 'clientInfoForRecordWithIdentifier(${1:NSString* recordId})'
+  'clientLostRecordWithIdentifier:shouldReplaceOnNextSync:':
+    'prefix': 'clientLostRecordWithIdentifier:shouldReplaceOnNextSync:'
+    'body': 'clientLostRecordWithIdentifier(${1:NSString* recordId}, shouldReplaceOnNextSync:${2:BOOL flag})'
+  'clientRefusedChangesForRecordWithIdentifier:':
+    'prefix': 'clientRefusedChangesForRecordWithIdentifier:'
+    'body': 'clientRefusedChangesForRecordWithIdentifier(${1:NSString* recordId})'
+  'clientWantsToPushAllRecordsForEntityNames:':
+    'prefix': 'clientWantsToPushAllRecordsForEntityNames:'
+    'body': 'clientWantsToPushAllRecordsForEntityNames(${1:NSArray* entityNames})'
+  'deleteRecordWithIdentifier:':
+    'prefix': 'deleteRecordWithIdentifier:'
+    'body': 'deleteRecordWithIdentifier(${1:NSString* recordId})'
+  'finishSyncing':
+    'prefix': 'finishSyncing'
+    'body': 'finishSyncing()'
+  'isCancelled':
+    'prefix': 'isCancelled'
+    'body': 'isCancelled()'
+  'ping':
+    'prefix': 'ping'
+    'body': 'ping()'
+  'prepareToPullChangesForEntityNames:beforeDate:':
+    'prefix': 'prepareToPullChangesForEntityNames:beforeDate:'
+    'body': 'prepareToPullChangesForEntityNames(${1:NSArray* entityNames}, beforeDate:${2:NSDate* date})'
+  'prepareToPullChangesInBackgroundForEntityNames:target:selector:':
+    'prefix': 'prepareToPullChangesInBackgroundForEntityNames:target:selector:'
+    'body': 'prepareToPullChangesInBackgroundForEntityNames(${1:NSArray* entityNames}, target:${2:id target}, selector:${3:SEL selector})'
+  'pushChange:':
+    'prefix': 'pushChange:'
+    'body': 'pushChange(${1:ISyncChange* change})'
+  'pushChangesFromRecord:withIdentifier:':
+    'prefix': 'pushChangesFromRecord:withIdentifier:'
+    'body': 'pushChangesFromRecord(${1:NSDictionary* record}, withIdentifier:${2:NSString* recordId})'
+  'setClientInfo:forRecordWithIdentifier:':
+    'prefix': 'setClientInfo:forRecordWithIdentifier:'
+    'body': 'setClientInfo(${1:id clientInfo}, forRecordWithIdentifier:${2:NSString* recordId})'
+  'shouldPullChangesForEntityName:':
+    'prefix': 'shouldPullChangesForEntityName:'
+    'body': 'shouldPullChangesForEntityName(${1:NSString* entityName})'
+  'shouldPushAllRecordsForEntityName:':
+    'prefix': 'shouldPushAllRecordsForEntityName:'
+    'body': 'shouldPushAllRecordsForEntityName(${1:NSString* entityName})'
+  'shouldPushChangesForEntityName:':
+    'prefix': 'shouldPushChangesForEntityName:'
+    'body': 'shouldPushChangesForEntityName(${1:NSString* entityName})'
+  'shouldReplaceAllRecordsOnClientForEntityName:':
+    'prefix': 'shouldReplaceAllRecordsOnClientForEntityName:'
+    'body': 'shouldReplaceAllRecordsOnClientForEntityName(${1:NSString* entityName})'
+  'snapshotOfRecordsInTruth':
+    'prefix': 'snapshotOfRecordsInTruth'
+    'body': 'snapshotOfRecordsInTruth()'
+  'client':
+    'prefix': 'client'
+    'body': 'client()'
+  'dataSource':
+    'prefix': 'dataSource'
+    'body': 'dataSource()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'finishSyncing':
+    'prefix': 'finishSyncing'
+    'body': 'finishSyncing()'
+  'handlesSyncAlerts':
+    'prefix': 'handlesSyncAlerts'
+    'body': 'handlesSyncAlerts()'
+  'lastError':
+    'prefix': 'lastError'
+    'body': 'lastError()'
+  'session':
+    'prefix': 'session'
+    'body': 'session()'
+  'ISyncSessionDriver.sessionDriverWithDataSource:':
+    'prefix': 'sessionDriverWithDataSource:'
+    'body': 'ISyncSessionDriver.sessionDriverWithDataSource(${1:id dataSource})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setHandlesSyncAlerts:':
+    'prefix': 'setHandlesSyncAlerts:'
+    'body': 'setHandlesSyncAlerts(${1:BOOL yesOrNo})'
+  'startAsynchronousSync:':
+    'prefix': 'startAsynchronousSync:'
+    'body': 'startAsynchronousSync(${1:NSError** outError})'
+  'sync':
+    'prefix': 'sync'
+    'body': 'sync()'
+  'applyChange:forEntityName:remappedRecordIdentifier:formattedRecord:error:':
+    'prefix': 'applyChange:forEntityName:remappedRecordIdentifier:formattedRecord:error:'
+    'body': 'applyChange(${1:ISyncChange* change}, forEntityName:${2:NSString* entityName}, remappedRecordIdentifier:${3:NSString** outRecordIdentifier}, formattedRecord:${4:NSDictionary** outRecord}, error:${5:NSError** outError})'
+  'attributedStringForIdentityPropertiesWithNames:inRecord:comparisonRecords:firstLineAttributes:secondLineAttributes:':
+    'prefix': 'attributedStringForIdentityPropertiesWithNames:inRecord:comparisonRecords:firstLineAttributes:secondLineAttributes:'
+    'body': 'attributedStringForIdentityPropertiesWithNames(${1:NSArray* propertyNames}, inRecord:${2:NSDictionary* record}, comparisonRecords:${3:NSArray* comparisonRecords}, firstLineAttributes:${4:NSDictionary* firstLineAttributes}, secondLineAttributes:${5:NSDictionary* secondLineAttributes})'
+  'attributedStringForPropertiesWithNames:inRecord:comparisonRecords:defaultAttributes:':
+    'prefix': 'attributedStringForPropertiesWithNames:inRecord:comparisonRecords:defaultAttributes:'
+    'body': 'attributedStringForPropertiesWithNames(${1:NSArray* propertyNames}, inRecord:${2:NSDictionary* record}, comparisonRecords:${3:NSArray* comparisonRecords}, defaultAttributes:${4:NSDictionary* defaultAttributes})'
+  'changedRecordsForEntityName:moreComing:error:':
+    'prefix': 'changedRecordsForEntityName:moreComing:error:'
+    'body': 'changedRecordsForEntityName(${1:NSString* entity}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'changesForEntityName:moreComing:error:':
+    'prefix': 'changesForEntityName:moreComing:error:'
+    'body': 'changesForEntityName(${1:NSString* entity}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'clientDescriptionURL':
+    'prefix': 'clientDescriptionURL'
+    'body': 'clientDescriptionURL()'
+  'clientIdentifier':
+    'prefix': 'clientIdentifier'
+    'body': 'clientIdentifier()'
+  'deleteAllRecordsForEntityName:error:':
+    'prefix': 'deleteAllRecordsForEntityName:error:'
+    'body': 'deleteAllRecordsForEntityName(${1:NSString* entityName}, error:${2:NSError** outError})'
+  'entityNamesToPull':
+    'prefix': 'entityNamesToPull'
+    'body': 'entityNamesToPull()'
+  'entityNamesToSync':
+    'prefix': 'entityNamesToSync'
+    'body': 'entityNamesToSync()'
+  'enumValues':
+    'prefix': 'enumValues'
+    'body': 'enumValues()'
+  'identifiersForRecordsToDeleteForEntityName:moreComing:error:':
+    'prefix': 'identifiersForRecordsToDeleteForEntityName:moreComing:error:'
+    'body': 'identifiersForRecordsToDeleteForEntityName(${1:NSString* entityName}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'isEqual:':
+    'prefix': 'isEqual:'
+    'body': 'isEqual(${1:id anotherFilter})'
+  'isRelationship':
+    'prefix': 'isRelationship'
+    'body': 'isRelationship()'
+  'isRequired':
+    'prefix': 'isRequired'
+    'body': 'isRequired()'
+  'isToMany':
+    'prefix': 'isToMany'
+    'body': 'isToMany()'
+  'lastAnchorForEntityName:':
+    'prefix': 'lastAnchorForEntityName:'
+    'body': 'lastAnchorForEntityName(${1:NSString* entityName})'
+  'managedObjectContextsToMonitorWhenSyncingPersistentStoreCoordinator:':
+    'prefix': 'managedObjectContextsToMonitorWhenSyncingPersistentStoreCoordinator:'
+    'body': 'managedObjectContextsToMonitorWhenSyncingPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'managedObjectContextsToReloadAfterSyncingPersistentStoreCoordinator:':
+    'prefix': 'managedObjectContextsToReloadAfterSyncingPersistentStoreCoordinator:'
+    'body': 'managedObjectContextsToReloadAfterSyncingPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'nextAnchorForEntityName:':
+    'prefix': 'nextAnchorForEntityName:'
+    'body': 'nextAnchorForEntityName(${1:NSString* entityName})'
+  'persistentStoreCoordinator:didApplyChange:toManagedObject:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didApplyChange:toManagedObject:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didApplyChange:${2:ISyncChange* change}, toManagedObject:${3:NSManagedObject* managedObject}, inSyncSession:${4:ISyncSession* session})'
+  'persistentStoreCoordinator:didCancelSyncSession:error:':
+    'prefix': 'persistentStoreCoordinator:didCancelSyncSession:error:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didCancelSyncSession:${2:ISyncSession* session}, error:${3:NSError* error})'
+  'persistentStoreCoordinator:didCommitChanges:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didCommitChanges:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didCommitChanges:${2:NSDictionary* changes}, inSyncSession:${3:ISyncSession* session})'
+  'persistentStoreCoordinator:didFinishSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didFinishSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didFinishSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:didPullChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didPullChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didPullChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:didPushChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didPushChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didPushChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:willApplyChange:toManagedObject:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willApplyChange:toManagedObject:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willApplyChange:${2:ISyncChange* change}, toManagedObject:${3:NSManagedObject* managedObject}, inSyncSession:${4:ISyncSession* session})'
+  'persistentStoreCoordinator:willDeleteRecordWithIdentifier:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willDeleteRecordWithIdentifier:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willDeleteRecordWithIdentifier:${2:NSString* identifier}, inSyncSession:${3:ISyncSession* session})'
+  'persistentStoreCoordinator:willPullChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willPullChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willPullChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:willPushChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willPushChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willPushChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:willPushRecord:forManagedObject:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willPushRecord:forManagedObject:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willPushRecord:${2:NSDictionary* record}, forManagedObject:${3:NSManagedObject* managedObject}, inSyncSession:${4:ISyncSession* session})'
+  'persistentStoreCoordinatorShouldStartSyncing:':
+    'prefix': 'persistentStoreCoordinatorShouldStartSyncing:'
+    'body': 'persistentStoreCoordinatorShouldStartSyncing(${1:NSPersistentStoreCoordinator* coordinator})'
+  'preferredSyncModeForEntityName:':
+    'prefix': 'preferredSyncModeForEntityName:'
+    'body': 'preferredSyncModeForEntityName(${1:NSString* entity})'
+  'recordsForEntityName:moreComing:error:':
+    'prefix': 'recordsForEntityName:moreComing:error:'
+    'body': 'recordsForEntityName(${1:NSString* entity}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'schemaBundleURLs':
+    'prefix': 'schemaBundleURLs'
+    'body': 'schemaBundleURLs()'
+  'sessionBeginTimeout':
+    'prefix': 'sessionBeginTimeout'
+    'body': 'sessionBeginTimeout()'
+  'sessionDriver:didNegotiateAndReturnError:':
+    'prefix': 'sessionDriver:didNegotiateAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didNegotiateAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didPullAndReturnError:':
+    'prefix': 'sessionDriver:didPullAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didPullAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didPushAndReturnError:':
+    'prefix': 'sessionDriver:didPushAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didPushAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didReceiveSyncAlertAndReturnError:':
+    'prefix': 'sessionDriver:didReceiveSyncAlertAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didReceiveSyncAlertAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didRegisterClientAndReturnError:':
+    'prefix': 'sessionDriver:didRegisterClientAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didRegisterClientAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willFinishSessionAndReturnError:':
+    'prefix': 'sessionDriver:willFinishSessionAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willFinishSessionAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willNegotiateAndReturnError:':
+    'prefix': 'sessionDriver:willNegotiateAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willNegotiateAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willPullAndReturnError:':
+    'prefix': 'sessionDriver:willPullAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willPullAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willPushAndReturnError:':
+    'prefix': 'sessionDriver:willPushAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willPushAndReturnError:${2:NSError** outError})'
+  'sessionDriverDidCancelSession:':
+    'prefix': 'sessionDriverDidCancelSession:'
+    'body': 'sessionDriverDidCancelSession(${1:ISyncSessionDriver* sender})'
+  'sessionDriverDidFinishSession:':
+    'prefix': 'sessionDriverDidFinishSession:'
+    'body': 'sessionDriverDidFinishSession(${1:ISyncSessionDriver* sender})'
+  'sessionDriverWillCancelSession:':
+    'prefix': 'sessionDriverWillCancelSession:'
+    'body': 'sessionDriverWillCancelSession(${1:ISyncSessionDriver* sender})'
+  'sessionPullChangesTimeout':
+    'prefix': 'sessionPullChangesTimeout'
+    'body': 'sessionPullChangesTimeout()'
+  'shouldApplyRecord:withRecordIdentifier:':
+    'prefix': 'shouldApplyRecord:withRecordIdentifier:'
+    'body': 'shouldApplyRecord(${1:NSDictionary* record}, withRecordIdentifier:${2:NSString* recordId})'
+  'subtype':
+    'prefix': 'subtype'
+    'body': 'subtype()'
+  'supportedEntityNames':
+    'prefix': 'supportedEntityNames'
+    'body': 'supportedEntityNames()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'setStoresFastSyncDetailsAtURL:forPersistentStore:':
+    'prefix': 'setStoresFastSyncDetailsAtURL:forPersistentStore:'
+    'body': 'setStoresFastSyncDetailsAtURL(${1:NSURL* url}, forPersistentStore:${2:NSPersistentStore* store})'
+  'syncWithClient:inBackground:handler:error:':
+    'prefix': 'syncWithClient:inBackground:handler:error:'
+    'body': 'syncWithClient(${1:ISyncClient* client}, inBackground:${2:BOOL flag}, handler:${3:id syncHandler}, error:${4:NSError** rError})'
+  'enumValues':
+    'prefix': 'enumValues'
+    'body': 'enumValues()'
+  'isRelationship':
+    'prefix': 'isRelationship'
+    'body': 'isRelationship()'
+  'isRequired':
+    'prefix': 'isRequired'
+    'body': 'isRequired()'
+  'isToMany':
+    'prefix': 'isToMany'
+    'body': 'isToMany()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'subtype':
+    'prefix': 'subtype'
+    'body': 'subtype()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'isEqual:':
+    'prefix': 'isEqual:'
+    'body': 'isEqual(${1:id anotherFilter})'
+  'shouldApplyRecord:withRecordIdentifier:':
+    'prefix': 'shouldApplyRecord:withRecordIdentifier:'
+    'body': 'shouldApplyRecord(${1:NSDictionary* record}, withRecordIdentifier:${2:NSString* recordId})'
+  'supportedEntityNames':
+    'prefix': 'supportedEntityNames'
+    'body': 'supportedEntityNames()'
+  'applyChange:forEntityName:remappedRecordIdentifier:formattedRecord:error:':
+    'prefix': 'applyChange:forEntityName:remappedRecordIdentifier:formattedRecord:error:'
+    'body': 'applyChange(${1:ISyncChange* change}, forEntityName:${2:NSString* entityName}, remappedRecordIdentifier:${3:NSString** outRecordIdentifier}, formattedRecord:${4:NSDictionary** outRecord}, error:${5:NSError** outError})'
+  'changedRecordsForEntityName:moreComing:error:':
+    'prefix': 'changedRecordsForEntityName:moreComing:error:'
+    'body': 'changedRecordsForEntityName(${1:NSString* entity}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'changesForEntityName:moreComing:error:':
+    'prefix': 'changesForEntityName:moreComing:error:'
+    'body': 'changesForEntityName(${1:NSString* entity}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'clientDescriptionURL':
+    'prefix': 'clientDescriptionURL'
+    'body': 'clientDescriptionURL()'
+  'clientIdentifier':
+    'prefix': 'clientIdentifier'
+    'body': 'clientIdentifier()'
+  'deleteAllRecordsForEntityName:error:':
+    'prefix': 'deleteAllRecordsForEntityName:error:'
+    'body': 'deleteAllRecordsForEntityName(${1:NSString* entityName}, error:${2:NSError** outError})'
+  'entityNamesToPull':
+    'prefix': 'entityNamesToPull'
+    'body': 'entityNamesToPull()'
+  'entityNamesToSync':
+    'prefix': 'entityNamesToSync'
+    'body': 'entityNamesToSync()'
+  'identifiersForRecordsToDeleteForEntityName:moreComing:error:':
+    'prefix': 'identifiersForRecordsToDeleteForEntityName:moreComing:error:'
+    'body': 'identifiersForRecordsToDeleteForEntityName(${1:NSString* entityName}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'lastAnchorForEntityName:':
+    'prefix': 'lastAnchorForEntityName:'
+    'body': 'lastAnchorForEntityName(${1:NSString* entityName})'
+  'nextAnchorForEntityName:':
+    'prefix': 'nextAnchorForEntityName:'
+    'body': 'nextAnchorForEntityName(${1:NSString* entityName})'
+  'preferredSyncModeForEntityName:':
+    'prefix': 'preferredSyncModeForEntityName:'
+    'body': 'preferredSyncModeForEntityName(${1:NSString* entity})'
+  'recordsForEntityName:moreComing:error:':
+    'prefix': 'recordsForEntityName:moreComing:error:'
+    'body': 'recordsForEntityName(${1:NSString* entity}, moreComing:${2:BOOL* moreComing}, error:${3:NSError** outError})'
+  'schemaBundleURLs':
+    'prefix': 'schemaBundleURLs'
+    'body': 'schemaBundleURLs()'
+  'sessionBeginTimeout':
+    'prefix': 'sessionBeginTimeout'
+    'body': 'sessionBeginTimeout()'
+  'sessionPullChangesTimeout':
+    'prefix': 'sessionPullChangesTimeout'
+    'body': 'sessionPullChangesTimeout()'
+  'sessionDriver:didNegotiateAndReturnError:':
+    'prefix': 'sessionDriver:didNegotiateAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didNegotiateAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didPullAndReturnError:':
+    'prefix': 'sessionDriver:didPullAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didPullAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didPushAndReturnError:':
+    'prefix': 'sessionDriver:didPushAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didPushAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didReceiveSyncAlertAndReturnError:':
+    'prefix': 'sessionDriver:didReceiveSyncAlertAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didReceiveSyncAlertAndReturnError:${2:NSError** outError})'
+  'sessionDriver:didRegisterClientAndReturnError:':
+    'prefix': 'sessionDriver:didRegisterClientAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, didRegisterClientAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willFinishSessionAndReturnError:':
+    'prefix': 'sessionDriver:willFinishSessionAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willFinishSessionAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willNegotiateAndReturnError:':
+    'prefix': 'sessionDriver:willNegotiateAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willNegotiateAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willPullAndReturnError:':
+    'prefix': 'sessionDriver:willPullAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willPullAndReturnError:${2:NSError** outError})'
+  'sessionDriver:willPushAndReturnError:':
+    'prefix': 'sessionDriver:willPushAndReturnError:'
+    'body': 'sessionDriver(${1:ISyncSessionDriver* sender}, willPushAndReturnError:${2:NSError** outError})'
+  'sessionDriverDidCancelSession:':
+    'prefix': 'sessionDriverDidCancelSession:'
+    'body': 'sessionDriverDidCancelSession(${1:ISyncSessionDriver* sender})'
+  'sessionDriverDidFinishSession:':
+    'prefix': 'sessionDriverDidFinishSession:'
+    'body': 'sessionDriverDidFinishSession(${1:ISyncSessionDriver* sender})'
+  'sessionDriverWillCancelSession:':
+    'prefix': 'sessionDriverWillCancelSession:'
+    'body': 'sessionDriverWillCancelSession(${1:ISyncSessionDriver* sender})'
+  'managedObjectContextsToMonitorWhenSyncingPersistentStoreCoordinator:':
+    'prefix': 'managedObjectContextsToMonitorWhenSyncingPersistentStoreCoordinator:'
+    'body': 'managedObjectContextsToMonitorWhenSyncingPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'managedObjectContextsToReloadAfterSyncingPersistentStoreCoordinator:':
+    'prefix': 'managedObjectContextsToReloadAfterSyncingPersistentStoreCoordinator:'
+    'body': 'managedObjectContextsToReloadAfterSyncingPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'persistentStoreCoordinator:didApplyChange:toManagedObject:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didApplyChange:toManagedObject:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didApplyChange:${2:ISyncChange* change}, toManagedObject:${3:NSManagedObject* managedObject}, inSyncSession:${4:ISyncSession* session})'
+  'persistentStoreCoordinator:didCancelSyncSession:error:':
+    'prefix': 'persistentStoreCoordinator:didCancelSyncSession:error:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didCancelSyncSession:${2:ISyncSession* session}, error:${3:NSError* error})'
+  'persistentStoreCoordinator:didCommitChanges:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didCommitChanges:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didCommitChanges:${2:NSDictionary* changes}, inSyncSession:${3:ISyncSession* session})'
+  'persistentStoreCoordinator:didFinishSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didFinishSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didFinishSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:didPullChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didPullChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didPullChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:didPushChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:didPushChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, didPushChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:willApplyChange:toManagedObject:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willApplyChange:toManagedObject:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willApplyChange:${2:ISyncChange* change}, toManagedObject:${3:NSManagedObject* managedObject}, inSyncSession:${4:ISyncSession* session})'
+  'persistentStoreCoordinator:willDeleteRecordWithIdentifier:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willDeleteRecordWithIdentifier:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willDeleteRecordWithIdentifier:${2:NSString* identifier}, inSyncSession:${3:ISyncSession* session})'
+  'persistentStoreCoordinator:willPullChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willPullChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willPullChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:willPushChangesInSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willPushChangesInSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willPushChangesInSyncSession:${2:ISyncSession* session})'
+  'persistentStoreCoordinator:willPushRecord:forManagedObject:inSyncSession:':
+    'prefix': 'persistentStoreCoordinator:willPushRecord:forManagedObject:inSyncSession:'
+    'body': 'persistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, willPushRecord:${2:NSDictionary* record}, forManagedObject:${3:NSManagedObject* managedObject}, inSyncSession:${4:ISyncSession* session})'
+  'persistentStoreCoordinatorShouldStartSyncing:':
+    'prefix': 'persistentStoreCoordinatorShouldStartSyncing:'
+    'body': 'persistentStoreCoordinatorShouldStartSyncing(${1:NSPersistentStoreCoordinator* coordinator})'
+  'attributedStringForIdentityPropertiesWithNames:inRecord:comparisonRecords:firstLineAttributes:secondLineAttributes:':
+    'prefix': 'attributedStringForIdentityPropertiesWithNames:inRecord:comparisonRecords:firstLineAttributes:secondLineAttributes:'
+    'body': 'attributedStringForIdentityPropertiesWithNames(${1:NSArray* propertyNames}, inRecord:${2:NSDictionary* record}, comparisonRecords:${3:NSArray* comparisonRecords}, firstLineAttributes:${4:NSDictionary* firstLineAttributes}, secondLineAttributes:${5:NSDictionary* secondLineAttributes})'
+  'attributedStringForPropertiesWithNames:inRecord:comparisonRecords:defaultAttributes:':
+    'prefix': 'attributedStringForPropertiesWithNames:inRecord:comparisonRecords:defaultAttributes:'
+    'body': 'attributedStringForPropertiesWithNames(${1:NSArray* propertyNames}, inRecord:${2:NSDictionary* record}, comparisonRecords:${3:NSArray* comparisonRecords}, defaultAttributes:${4:NSDictionary* defaultAttributes})'

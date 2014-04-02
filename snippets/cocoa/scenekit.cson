@@ -1,0 +1,1912 @@
+'.source.rubymotion':
+  'SCNConsistencyElementIDErrorKey (NSString*)':
+    'prefix': 'SCNConsistencyElementIDErrorKey'
+    'body': 'SCNConsistencyElementIDErrorKey'
+  'SCNConsistencyElementTypeErrorKey (NSString*)':
+    'prefix': 'SCNConsistencyElementTypeErrorKey'
+    'body': 'SCNConsistencyElementTypeErrorKey'
+  'SCNConsistencyLineNumberErrorKey (NSString*)':
+    'prefix': 'SCNConsistencyLineNumberErrorKey'
+    'body': 'SCNConsistencyLineNumberErrorKey'
+  'SCNDetailedErrorsKey (NSString*)':
+    'prefix': 'SCNDetailedErrorsKey'
+    'body': 'SCNDetailedErrorsKey'
+  'SCNErrorDomain (NSString*)':
+    'prefix': 'SCNErrorDomain'
+    'body': 'SCNErrorDomain'
+  'SCNGeometrySourceSemanticColor (NSString*)':
+    'prefix': 'SCNGeometrySourceSemanticColor'
+    'body': 'SCNGeometrySourceSemanticColor'
+  'SCNGeometrySourceSemanticNormal (NSString*)':
+    'prefix': 'SCNGeometrySourceSemanticNormal'
+    'body': 'SCNGeometrySourceSemanticNormal'
+  'SCNGeometrySourceSemanticTexcoord (NSString*)':
+    'prefix': 'SCNGeometrySourceSemanticTexcoord'
+    'body': 'SCNGeometrySourceSemanticTexcoord'
+  'SCNGeometrySourceSemanticVertex (NSString*)':
+    'prefix': 'SCNGeometrySourceSemanticVertex'
+    'body': 'SCNGeometrySourceSemanticVertex'
+  'SCNHitTestBackFaceCullingKey (NSString*)':
+    'prefix': 'SCNHitTestBackFaceCullingKey'
+    'body': 'SCNHitTestBackFaceCullingKey'
+  'SCNHitTestBoundingBoxOnlyKey (NSString*)':
+    'prefix': 'SCNHitTestBoundingBoxOnlyKey'
+    'body': 'SCNHitTestBoundingBoxOnlyKey'
+  'SCNHitTestClipToZRangeKey (NSString*)':
+    'prefix': 'SCNHitTestClipToZRangeKey'
+    'body': 'SCNHitTestClipToZRangeKey'
+  'SCNHitTestFirstFoundOnlyKey (NSString*)':
+    'prefix': 'SCNHitTestFirstFoundOnlyKey'
+    'body': 'SCNHitTestFirstFoundOnlyKey'
+  'SCNHitTestIgnoreChildNodesKey (NSString*)':
+    'prefix': 'SCNHitTestIgnoreChildNodesKey'
+    'body': 'SCNHitTestIgnoreChildNodesKey'
+  'SCNHitTestIgnoreHiddenNodesKey (NSString*)':
+    'prefix': 'SCNHitTestIgnoreHiddenNodesKey'
+    'body': 'SCNHitTestIgnoreHiddenNodesKey'
+  'SCNHitTestRootNodeKey (NSString*)':
+    'prefix': 'SCNHitTestRootNodeKey'
+    'body': 'SCNHitTestRootNodeKey'
+  'SCNHitTestSortResultsKey (NSString*)':
+    'prefix': 'SCNHitTestSortResultsKey'
+    'body': 'SCNHitTestSortResultsKey'
+  'SCNLightAttenuationEndKey (NSString*)':
+    'prefix': 'SCNLightAttenuationEndKey'
+    'body': 'SCNLightAttenuationEndKey'
+  'SCNLightAttenuationFalloffExponentKey (NSString*)':
+    'prefix': 'SCNLightAttenuationFalloffExponentKey'
+    'body': 'SCNLightAttenuationFalloffExponentKey'
+  'SCNLightAttenuationStartKey (NSString*)':
+    'prefix': 'SCNLightAttenuationStartKey'
+    'body': 'SCNLightAttenuationStartKey'
+  'SCNLightShadowFarClippingKey (NSString*)':
+    'prefix': 'SCNLightShadowFarClippingKey'
+    'body': 'SCNLightShadowFarClippingKey'
+  'SCNLightShadowNearClippingKey (NSString*)':
+    'prefix': 'SCNLightShadowNearClippingKey'
+    'body': 'SCNLightShadowNearClippingKey'
+  'SCNLightSpotInnerAngleKey (NSString*)':
+    'prefix': 'SCNLightSpotInnerAngleKey'
+    'body': 'SCNLightSpotInnerAngleKey'
+  'SCNLightSpotOuterAngleKey (NSString*)':
+    'prefix': 'SCNLightSpotOuterAngleKey'
+    'body': 'SCNLightSpotOuterAngleKey'
+  'SCNLightTypeAmbient (NSString*)':
+    'prefix': 'SCNLightTypeAmbient'
+    'body': 'SCNLightTypeAmbient'
+  'SCNLightTypeDirectional (NSString*)':
+    'prefix': 'SCNLightTypeDirectional'
+    'body': 'SCNLightTypeDirectional'
+  'SCNLightTypeOmni (NSString*)':
+    'prefix': 'SCNLightTypeOmni'
+    'body': 'SCNLightTypeOmni'
+  'SCNLightTypeSpot (NSString*)':
+    'prefix': 'SCNLightTypeSpot'
+    'body': 'SCNLightTypeSpot'
+  'SCNLightingModelBlinn (NSString*)':
+    'prefix': 'SCNLightingModelBlinn'
+    'body': 'SCNLightingModelBlinn'
+  'SCNLightingModelConstant (NSString*)':
+    'prefix': 'SCNLightingModelConstant'
+    'body': 'SCNLightingModelConstant'
+  'SCNLightingModelLambert (NSString*)':
+    'prefix': 'SCNLightingModelLambert'
+    'body': 'SCNLightingModelLambert'
+  'SCNLightingModelPhong (NSString*)':
+    'prefix': 'SCNLightingModelPhong'
+    'body': 'SCNLightingModelPhong'
+  'SCNModelTransform (NSString*)':
+    'prefix': 'SCNModelTransform'
+    'body': 'SCNModelTransform'
+  'SCNModelViewProjectionTransform (NSString*)':
+    'prefix': 'SCNModelViewProjectionTransform'
+    'body': 'SCNModelViewProjectionTransform'
+  'SCNModelViewTransform (NSString*)':
+    'prefix': 'SCNModelViewTransform'
+    'body': 'SCNModelViewTransform'
+  'SCNNormalTransform (NSString*)':
+    'prefix': 'SCNNormalTransform'
+    'body': 'SCNNormalTransform'
+  'SCNProgramMappingChannelKey (NSString*)':
+    'prefix': 'SCNProgramMappingChannelKey'
+    'body': 'SCNProgramMappingChannelKey'
+  'SCNProjectionTransform (NSString*)':
+    'prefix': 'SCNProjectionTransform'
+    'body': 'SCNProjectionTransform'
+  'SCNSceneEndTimeAttributeKey (NSString*)':
+    'prefix': 'SCNSceneEndTimeAttributeKey'
+    'body': 'SCNSceneEndTimeAttributeKey'
+  'SCNSceneExportDestinationURL (NSString*)':
+    'prefix': 'SCNSceneExportDestinationURL'
+    'body': 'SCNSceneExportDestinationURL'
+  'SCNSceneFrameRateAttributeKey (NSString*)':
+    'prefix': 'SCNSceneFrameRateAttributeKey'
+    'body': 'SCNSceneFrameRateAttributeKey'
+  'SCNSceneSourceAssetAuthorKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetAuthorKey'
+    'body': 'SCNSceneSourceAssetAuthorKey'
+  'SCNSceneSourceAssetAuthoringToolKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetAuthoringToolKey'
+    'body': 'SCNSceneSourceAssetAuthoringToolKey'
+  'SCNSceneSourceAssetContributorsKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetContributorsKey'
+    'body': 'SCNSceneSourceAssetContributorsKey'
+  'SCNSceneSourceAssetCreatedDateKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetCreatedDateKey'
+    'body': 'SCNSceneSourceAssetCreatedDateKey'
+  'SCNSceneSourceAssetDirectoryURLsKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetDirectoryURLsKey'
+    'body': 'SCNSceneSourceAssetDirectoryURLsKey'
+  'SCNSceneSourceAssetModifiedDateKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetModifiedDateKey'
+    'body': 'SCNSceneSourceAssetModifiedDateKey'
+  'SCNSceneSourceAssetUnitKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetUnitKey'
+    'body': 'SCNSceneSourceAssetUnitKey'
+  'SCNSceneSourceAssetUnitMeterKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetUnitMeterKey'
+    'body': 'SCNSceneSourceAssetUnitMeterKey'
+  'SCNSceneSourceAssetUnitNameKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetUnitNameKey'
+    'body': 'SCNSceneSourceAssetUnitNameKey'
+  'SCNSceneSourceAssetUpAxisKey (NSString*)':
+    'prefix': 'SCNSceneSourceAssetUpAxisKey'
+    'body': 'SCNSceneSourceAssetUpAxisKey'
+  'SCNSceneSourceCheckConsistencyKey (NSString*)':
+    'prefix': 'SCNSceneSourceCheckConsistencyKey'
+    'body': 'SCNSceneSourceCheckConsistencyKey'
+  'SCNSceneSourceCreateNormalsIfAbsentKey (NSString*)':
+    'prefix': 'SCNSceneSourceCreateNormalsIfAbsentKey'
+    'body': 'SCNSceneSourceCreateNormalsIfAbsentKey'
+  'SCNSceneSourceFlattenSceneKey (NSString*)':
+    'prefix': 'SCNSceneSourceFlattenSceneKey'
+    'body': 'SCNSceneSourceFlattenSceneKey'
+  'SCNSceneSourceOverrideAssetURLsKey (NSString*)':
+    'prefix': 'SCNSceneSourceOverrideAssetURLsKey'
+    'body': 'SCNSceneSourceOverrideAssetURLsKey'
+  'SCNSceneSourceStrictConformanceKey (NSString*)':
+    'prefix': 'SCNSceneSourceStrictConformanceKey'
+    'body': 'SCNSceneSourceStrictConformanceKey'
+  'SCNSceneSourceUseSafeModeKey (NSString*)':
+    'prefix': 'SCNSceneSourceUseSafeModeKey'
+    'body': 'SCNSceneSourceUseSafeModeKey'
+  'SCNSceneStartTimeAttributeKey (NSString*)':
+    'prefix': 'SCNSceneStartTimeAttributeKey'
+    'body': 'SCNSceneStartTimeAttributeKey'
+  'SCNShaderModifierEntryPointFragment (NSString*)':
+    'prefix': 'SCNShaderModifierEntryPointFragment'
+    'body': 'SCNShaderModifierEntryPointFragment'
+  'SCNShaderModifierEntryPointGeometry (NSString*)':
+    'prefix': 'SCNShaderModifierEntryPointGeometry'
+    'body': 'SCNShaderModifierEntryPointGeometry'
+  'SCNShaderModifierEntryPointLightingModel (NSString*)':
+    'prefix': 'SCNShaderModifierEntryPointLightingModel'
+    'body': 'SCNShaderModifierEntryPointLightingModel'
+  'SCNShaderModifierEntryPointSurface (NSString*)':
+    'prefix': 'SCNShaderModifierEntryPointSurface'
+    'body': 'SCNShaderModifierEntryPointSurface'
+  'SCNViewTransform (NSString*)':
+    'prefix': 'SCNViewTransform'
+    'body': 'SCNViewTransform'
+  'SCNChamferModeBack (2)':
+    'prefix': 'SCNChamferModeBack'
+    'body': 'SCNChamferModeBack'
+  'SCNChamferModeBoth (0)':
+    'prefix': 'SCNChamferModeBoth'
+    'body': 'SCNChamferModeBoth'
+  'SCNChamferModeFront (1)':
+    'prefix': 'SCNChamferModeFront'
+    'body': 'SCNChamferModeFront'
+  'SCNClamp (1)':
+    'prefix': 'SCNClamp'
+    'body': 'SCNClamp'
+  'SCNClampToBorder (3)':
+    'prefix': 'SCNClampToBorder'
+    'body': 'SCNClampToBorder'
+  'SCNConsistencyInvalidArgumentError (1002)':
+    'prefix': 'SCNConsistencyInvalidArgumentError'
+    'body': 'SCNConsistencyInvalidArgumentError'
+  'SCNConsistencyInvalidCountError (1001)':
+    'prefix': 'SCNConsistencyInvalidCountError'
+    'body': 'SCNConsistencyInvalidCountError'
+  'SCNConsistencyInvalidURIError (1000)':
+    'prefix': 'SCNConsistencyInvalidURIError'
+    'body': 'SCNConsistencyInvalidURIError'
+  'SCNConsistencyMissingAttributeError (1004)':
+    'prefix': 'SCNConsistencyMissingAttributeError'
+    'body': 'SCNConsistencyMissingAttributeError'
+  'SCNConsistencyMissingElementError (1003)':
+    'prefix': 'SCNConsistencyMissingElementError'
+    'body': 'SCNConsistencyMissingElementError'
+  'SCNConsistencyXMLSchemaValidationError (1005)':
+    'prefix': 'SCNConsistencyXMLSchemaValidationError'
+    'body': 'SCNConsistencyXMLSchemaValidationError'
+  'SCNCullBack (0)':
+    'prefix': 'SCNCullBack'
+    'body': 'SCNCullBack'
+  'SCNCullFront (1)':
+    'prefix': 'SCNCullFront'
+    'body': 'SCNCullFront'
+  'SCNFilterModeLinear (2)':
+    'prefix': 'SCNFilterModeLinear'
+    'body': 'SCNFilterModeLinear'
+  'SCNFilterModeNearest (1)':
+    'prefix': 'SCNFilterModeNearest'
+    'body': 'SCNFilterModeNearest'
+  'SCNFilterModeNone (0)':
+    'prefix': 'SCNFilterModeNone'
+    'body': 'SCNFilterModeNone'
+  'SCNGeometryPrimitiveTypeLine (2)':
+    'prefix': 'SCNGeometryPrimitiveTypeLine'
+    'body': 'SCNGeometryPrimitiveTypeLine'
+  'SCNGeometryPrimitiveTypePoint (3)':
+    'prefix': 'SCNGeometryPrimitiveTypePoint'
+    'body': 'SCNGeometryPrimitiveTypePoint'
+  'SCNGeometryPrimitiveTypeTriangleStrip (1)':
+    'prefix': 'SCNGeometryPrimitiveTypeTriangleStrip'
+    'body': 'SCNGeometryPrimitiveTypeTriangleStrip'
+  'SCNGeometryPrimitiveTypeTriangles (0)':
+    'prefix': 'SCNGeometryPrimitiveTypeTriangles'
+    'body': 'SCNGeometryPrimitiveTypeTriangles'
+  'SCNLinearFiltering (2)':
+    'prefix': 'SCNLinearFiltering'
+    'body': 'SCNLinearFiltering'
+  'SCNMirror (4)':
+    'prefix': 'SCNMirror'
+    'body': 'SCNMirror'
+  'SCNMorpherCalculationModeAdditive (1)':
+    'prefix': 'SCNMorpherCalculationModeAdditive'
+    'body': 'SCNMorpherCalculationModeAdditive'
+  'SCNMorpherCalculationModeNormalized (0)':
+    'prefix': 'SCNMorpherCalculationModeNormalized'
+    'body': 'SCNMorpherCalculationModeNormalized'
+  'SCNNearestFiltering (1)':
+    'prefix': 'SCNNearestFiltering'
+    'body': 'SCNNearestFiltering'
+  'SCNNoFiltering (0)':
+    'prefix': 'SCNNoFiltering'
+    'body': 'SCNNoFiltering'
+  'SCNProgramCompilationError (1)':
+    'prefix': 'SCNProgramCompilationError'
+    'body': 'SCNProgramCompilationError'
+  'SCNRepeat (2)':
+    'prefix': 'SCNRepeat'
+    'body': 'SCNRepeat'
+  'SCNSceneSourceStatusComplete (16)':
+    'prefix': 'SCNSceneSourceStatusComplete'
+    'body': 'SCNSceneSourceStatusComplete'
+  'SCNSceneSourceStatusError (-1)':
+    'prefix': 'SCNSceneSourceStatusError'
+    'body': 'SCNSceneSourceStatusError'
+  'SCNSceneSourceStatusParsing (4)':
+    'prefix': 'SCNSceneSourceStatusParsing'
+    'body': 'SCNSceneSourceStatusParsing'
+  'SCNSceneSourceStatusProcessing (12)':
+    'prefix': 'SCNSceneSourceStatusProcessing'
+    'body': 'SCNSceneSourceStatusProcessing'
+  'SCNSceneSourceStatusValidating (8)':
+    'prefix': 'SCNSceneSourceStatusValidating'
+    'body': 'SCNSceneSourceStatusValidating'
+  'SCNTransparencyModeAOne (0)':
+    'prefix': 'SCNTransparencyModeAOne'
+    'body': 'SCNTransparencyModeAOne'
+  'SCNTransparencyModeRGBZero (1)':
+    'prefix': 'SCNTransparencyModeRGBZero'
+    'body': 'SCNTransparencyModeRGBZero'
+  'SCNWrapModeClamp (1)':
+    'prefix': 'SCNWrapModeClamp'
+    'body': 'SCNWrapModeClamp'
+  'SCNWrapModeClampToBorder (3)':
+    'prefix': 'SCNWrapModeClampToBorder'
+    'body': 'SCNWrapModeClampToBorder'
+  'SCNWrapModeMirror (4)':
+    'prefix': 'SCNWrapModeMirror'
+    'body': 'SCNWrapModeMirror'
+  'SCNWrapModeRepeat (2)':
+    'prefix': 'SCNWrapModeRepeat'
+    'body': 'SCNWrapModeRepeat'
+  'SCNVector3EqualToVector3':
+    'prefix': 'SCNVector3EqualToVector3'
+    'body': 'SCNVector3EqualToVector3(${1:SCNVector3 a}, ${2:SCNVector3 b})'
+  'SCNVector3FromGLKVector3':
+    'prefix': 'SCNVector3FromGLKVector3'
+    'body': 'SCNVector3FromGLKVector3(${1:GLKVector3 vector})'
+  'SCNVector3Make':
+    'prefix': 'SCNVector3Make'
+    'body': 'SCNVector3Make(${1:CGFloat x}, ${2:CGFloat y}, ${3:CGFloat z})'
+  'SCNVector3ToGLKVector3':
+    'prefix': 'SCNVector3ToGLKVector3'
+    'body': 'SCNVector3ToGLKVector3(${1:SCNVector3 vector})'
+  'SCNVector4EqualToVector4':
+    'prefix': 'SCNVector4EqualToVector4'
+    'body': 'SCNVector4EqualToVector4(${1:SCNVector4 a}, ${2:SCNVector4 b})'
+  'SCNVector4FromGLKVector4':
+    'prefix': 'SCNVector4FromGLKVector4'
+    'body': 'SCNVector4FromGLKVector4(${1:GLKVector4 vector})'
+  'SCNVector4Make':
+    'prefix': 'SCNVector4Make'
+    'body': 'SCNVector4Make(${1:CGFloat x}, ${2:CGFloat y}, ${3:CGFloat z}, ${4:CGFloat w})'
+  'SCNVector4ToGLKVector4':
+    'prefix': 'SCNVector4ToGLKVector4'
+    'body': 'SCNVector4ToGLKVector4(${1:SCNVector4 vector})'
+  'animationEvents':
+    'prefix': 'animationEvents'
+    'body': 'animationEvents()'
+  'fadeInDuration':
+    'prefix': 'fadeInDuration'
+    'body': 'fadeInDuration()'
+  'fadeOutDuration':
+    'prefix': 'fadeOutDuration'
+    'body': 'fadeOutDuration()'
+  'setAnimationEvents:':
+    'prefix': 'setAnimationEvents:'
+    'body': 'setAnimationEvents(${1:NSArray* animationEvents})'
+  'setFadeInDuration:':
+    'prefix': 'setFadeInDuration:'
+    'body': 'setFadeInDuration(${1:CGFloat fadeInDuration})'
+  'setFadeOutDuration:':
+    'prefix': 'setFadeOutDuration:'
+    'body': 'setFadeOutDuration(${1:CGFloat fadeOutDuration})'
+  'setUsesSceneTimeBase:':
+    'prefix': 'setUsesSceneTimeBase:'
+    'body': 'setUsesSceneTimeBase(${1:BOOL usesSceneTimeBase})'
+  'usesSceneTimeBase':
+    'prefix': 'usesSceneTimeBase'
+    'body': 'usesSceneTimeBase()'
+  'addAnimation:forKey:':
+    'prefix': 'addAnimation:forKey:'
+    'body': 'addAnimation(${1:CAAnimation* animation}, forKey:${2:NSString* key})'
+  'animationForKey:':
+    'prefix': 'animationForKey:'
+    'body': 'animationForKey(${1:NSString* key})'
+  'animationKeys':
+    'prefix': 'animationKeys'
+    'body': 'animationKeys()'
+  'autoenablesDefaultLighting':
+    'prefix': 'autoenablesDefaultLighting'
+    'body': 'autoenablesDefaultLighting()'
+  'context':
+    'prefix': 'context'
+    'body': 'context()'
+  'currentTime':
+    'prefix': 'currentTime'
+    'body': 'currentTime()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'getBoundingBoxMin:max:':
+    'prefix': 'getBoundingBoxMin:max:'
+    'body': 'getBoundingBoxMin(${1:SCNVector3* min}, max:${2:SCNVector3* max})'
+  'getBoundingSphereCenter:radius:':
+    'prefix': 'getBoundingSphereCenter:radius:'
+    'body': 'getBoundingSphereCenter(${1:SCNVector3* center}, radius:${2:CGFloat* radius})'
+  'handleBindingOfSymbol:usingBlock:':
+    'prefix': 'handleBindingOfSymbol:usingBlock:'
+    'body': 'handleBindingOfSymbol(${1:NSString* symbol}, usingBlock:${2:SCNBindingBlock block})'
+  'handleUnbindingOfSymbol:usingBlock:':
+    'prefix': 'handleUnbindingOfSymbol:usingBlock:'
+    'body': 'handleUnbindingOfSymbol(${1:NSString* symbol}, usingBlock:${2:SCNBindingBlock block})'
+  'hitTest:options:':
+    'prefix': 'hitTest:options:'
+    'body': 'hitTest(${1:CGPoint thePoint}, options:${2:NSDictionary* options})'
+  'isAnimationForKeyPaused:':
+    'prefix': 'isAnimationForKeyPaused:'
+    'body': 'isAnimationForKeyPaused(${1:NSString* key})'
+  'isJitteringEnabled':
+    'prefix': 'isJitteringEnabled'
+    'body': 'isJitteringEnabled()'
+  'isNodeInsideFrustum:withPointOfView:':
+    'prefix': 'isNodeInsideFrustum:withPointOfView:'
+    'body': 'isNodeInsideFrustum(${1:SCNNode* node}, withPointOfView:${2:SCNNode* pointOfView})'
+  'isPlaying':
+    'prefix': 'isPlaying'
+    'body': 'isPlaying()'
+  'loops':
+    'prefix': 'loops'
+    'body': 'loops()'
+  'pauseAnimationForKey:':
+    'prefix': 'pauseAnimationForKey:'
+    'body': 'pauseAnimationForKey(${1:NSString* key})'
+  'pointOfView':
+    'prefix': 'pointOfView'
+    'body': 'pointOfView()'
+  'prepareObject:shouldAbortBlock:':
+    'prefix': 'prepareObject:shouldAbortBlock:'
+    'body': 'prepareObject(${1:id object}, shouldAbortBlock:${2:BOOL (^)() block})'
+  'program':
+    'prefix': 'program'
+    'body': 'program()'
+  'program:bindValueForSymbol:atLocation:programID:renderer:':
+    'prefix': 'program:bindValueForSymbol:atLocation:programID:renderer:'
+    'body': 'program(${1:SCNProgram* program}, bindValueForSymbol:${2:NSString* symbol}, atLocation:${3:unsigned int location}, programID:${4:unsigned int programID}, renderer:${5:SCNRenderer* renderer})'
+  'program:handleError:':
+    'prefix': 'program:handleError:'
+    'body': 'program(${1:SCNProgram* program}, handleError:${2:NSError* error})'
+  'program:unbindValueForSymbol:atLocation:programID:renderer:':
+    'prefix': 'program:unbindValueForSymbol:atLocation:programID:renderer:'
+    'body': 'program(${1:SCNProgram* program}, unbindValueForSymbol:${2:NSString* symbol}, atLocation:${3:unsigned int location}, programID:${4:unsigned int programID}, renderer:${5:SCNRenderer* renderer})'
+  'programIsOpaque:':
+    'prefix': 'programIsOpaque:'
+    'body': 'programIsOpaque(${1:SCNProgram* program})'
+  'projectPoint:':
+    'prefix': 'projectPoint:'
+    'body': 'projectPoint(${1:SCNVector3 point})'
+  'removeAllAnimations':
+    'prefix': 'removeAllAnimations'
+    'body': 'removeAllAnimations()'
+  'removeAnimationForKey:':
+    'prefix': 'removeAnimationForKey:'
+    'body': 'removeAnimationForKey(${1:NSString* key})'
+  'renderNode:renderer:arguments:':
+    'prefix': 'renderNode:renderer:arguments:'
+    'body': 'renderNode(${1:SCNNode* node}, renderer:${2:SCNRenderer* renderer}, arguments:${3:NSDictionary* arguments})'
+  'renderer:didRenderScene:atTime:':
+    'prefix': 'renderer:didRenderScene:atTime:'
+    'body': 'renderer(${1:id aRenderer}, didRenderScene:${2:SCNScene* scene}, atTime:${3:NSTimeInterval time})'
+  'renderer:willRenderScene:atTime:':
+    'prefix': 'renderer:willRenderScene:atTime:'
+    'body': 'renderer(${1:id aRenderer}, willRenderScene:${2:SCNScene* scene}, atTime:${3:NSTimeInterval time})'
+  'resumeAnimationForKey:':
+    'prefix': 'resumeAnimationForKey:'
+    'body': 'resumeAnimationForKey(${1:NSString* key})'
+  'setAutoenablesDefaultLighting:':
+    'prefix': 'setAutoenablesDefaultLighting:'
+    'body': 'setAutoenablesDefaultLighting(${1:BOOL autoenablesDefaultLighting})'
+  'setBoundingBoxMin:max:':
+    'prefix': 'setBoundingBoxMin:max:'
+    'body': 'setBoundingBoxMin(${1:SCNVector3* min}, max:${2:SCNVector3* max})'
+  'setCurrentTime:':
+    'prefix': 'setCurrentTime:'
+    'body': 'setCurrentTime(${1:NSTimeInterval currentTime})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setJitteringEnabled:':
+    'prefix': 'setJitteringEnabled:'
+    'body': 'setJitteringEnabled(${1:BOOL jitteringEnabled})'
+  'setLoops:':
+    'prefix': 'setLoops:'
+    'body': 'setLoops(${1:BOOL loops})'
+  'setPlaying:':
+    'prefix': 'setPlaying:'
+    'body': 'setPlaying(${1:BOOL playing})'
+  'setPointOfView:':
+    'prefix': 'setPointOfView:'
+    'body': 'setPointOfView(${1:SCNNode* pointOfView})'
+  'setProgram:':
+    'prefix': 'setProgram:'
+    'body': 'setProgram(${1:SCNProgram* program})'
+  'setShaderModifiers:':
+    'prefix': 'setShaderModifiers:'
+    'body': 'setShaderModifiers(${1:NSDictionary* shaderModifiers})'
+  'setShowsStatistics:':
+    'prefix': 'setShowsStatistics:'
+    'body': 'setShowsStatistics(${1:BOOL showsStatistics})'
+  'shaderModifiers':
+    'prefix': 'shaderModifiers'
+    'body': 'shaderModifiers()'
+  'showsStatistics':
+    'prefix': 'showsStatistics'
+    'body': 'showsStatistics()'
+  'unprojectPoint:':
+    'prefix': 'unprojectPoint:'
+    'body': 'unprojectPoint(${1:SCNVector3 point})'
+  'writeImage:withSceneDocumentURL:originalImageURL:':
+    'prefix': 'writeImage:withSceneDocumentURL:originalImageURL:'
+    'body': 'writeImage(${1:NSImage* image}, withSceneDocumentURL:${2:NSURL* documentURL}, originalImageURL:${3:NSURL* originalImageURL})'
+  'SCNVector3Value':
+    'prefix': 'SCNVector3Value'
+    'body': 'SCNVector3Value()'
+  'SCNVector4Value':
+    'prefix': 'SCNVector4Value'
+    'body': 'SCNVector4Value()'
+  'NSValue.valueWithSCNVector3:':
+    'prefix': 'valueWithSCNVector3:'
+    'body': 'NSValue.valueWithSCNVector3(${1:SCNVector3 v})'
+  'NSValue.valueWithSCNVector4:':
+    'prefix': 'valueWithSCNVector4:'
+    'body': 'NSValue.valueWithSCNVector4(${1:SCNVector4 v})'
+  'SCNAnimationEvent.animationEventWithKeyTime:block:':
+    'prefix': 'animationEventWithKeyTime:block:'
+    'body': 'SCNAnimationEvent.animationEventWithKeyTime(${1:CGFloat time}, block:${2:SCNAnimationEventBlock eventBlock})'
+  'SCNBox.boxWithWidth:height:length:chamferRadius:':
+    'prefix': 'boxWithWidth:height:length:chamferRadius:'
+    'body': 'SCNBox.boxWithWidth(${1:CGFloat width}, height:${2:CGFloat height}, length:${3:CGFloat length}, chamferRadius:${4:CGFloat chamferRadius})'
+  'chamferRadius':
+    'prefix': 'chamferRadius'
+    'body': 'chamferRadius()'
+  'chamferSegmentCount':
+    'prefix': 'chamferSegmentCount'
+    'body': 'chamferSegmentCount()'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'length':
+    'prefix': 'length'
+    'body': 'length()'
+  'lengthSegmentCount':
+    'prefix': 'lengthSegmentCount'
+    'body': 'lengthSegmentCount()'
+  'setChamferRadius:':
+    'prefix': 'setChamferRadius:'
+    'body': 'setChamferRadius(${1:CGFloat chamferRadius})'
+  'setChamferSegmentCount:':
+    'prefix': 'setChamferSegmentCount:'
+    'body': 'setChamferSegmentCount(${1:NSInteger chamferSegmentCount})'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setLength:':
+    'prefix': 'setLength:'
+    'body': 'setLength(${1:CGFloat length})'
+  'setLengthSegmentCount:':
+    'prefix': 'setLengthSegmentCount:'
+    'body': 'setLengthSegmentCount(${1:NSInteger lengthSegmentCount})'
+  'setWidth:':
+    'prefix': 'setWidth:'
+    'body': 'setWidth(${1:CGFloat width})'
+  'setWidthSegmentCount:':
+    'prefix': 'setWidthSegmentCount:'
+    'body': 'setWidthSegmentCount(${1:NSInteger widthSegmentCount})'
+  'width':
+    'prefix': 'width'
+    'body': 'width()'
+  'widthSegmentCount':
+    'prefix': 'widthSegmentCount'
+    'body': 'widthSegmentCount()'
+  'aperture':
+    'prefix': 'aperture'
+    'body': 'aperture()'
+  'automaticallyAdjustsZRange':
+    'prefix': 'automaticallyAdjustsZRange'
+    'body': 'automaticallyAdjustsZRange()'
+  'SCNCamera.camera':
+    'prefix': 'camera'
+    'body': 'SCNCamera.camera()'
+  'focalBlurRadius':
+    'prefix': 'focalBlurRadius'
+    'body': 'focalBlurRadius()'
+  'focalDistance':
+    'prefix': 'focalDistance'
+    'body': 'focalDistance()'
+  'focalSize':
+    'prefix': 'focalSize'
+    'body': 'focalSize()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'orthographicScale':
+    'prefix': 'orthographicScale'
+    'body': 'orthographicScale()'
+  'projectionTransform':
+    'prefix': 'projectionTransform'
+    'body': 'projectionTransform()'
+  'setAperture:':
+    'prefix': 'setAperture:'
+    'body': 'setAperture(${1:CGFloat aperture})'
+  'setAutomaticallyAdjustsZRange:':
+    'prefix': 'setAutomaticallyAdjustsZRange:'
+    'body': 'setAutomaticallyAdjustsZRange(${1:BOOL automaticallyAdjustsZRange})'
+  'setFocalBlurRadius:':
+    'prefix': 'setFocalBlurRadius:'
+    'body': 'setFocalBlurRadius(${1:CGFloat focalBlurRadius})'
+  'setFocalDistance:':
+    'prefix': 'setFocalDistance:'
+    'body': 'setFocalDistance(${1:CGFloat focalDistance})'
+  'setFocalSize:':
+    'prefix': 'setFocalSize:'
+    'body': 'setFocalSize(${1:CGFloat focalSize})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setOrthographicScale:':
+    'prefix': 'setOrthographicScale:'
+    'body': 'setOrthographicScale(${1:double orthographicScale})'
+  'setProjectionTransform:':
+    'prefix': 'setProjectionTransform:'
+    'body': 'setProjectionTransform(${1:CATransform3D projectionTransform})'
+  'setUsesOrthographicProjection:':
+    'prefix': 'setUsesOrthographicProjection:'
+    'body': 'setUsesOrthographicProjection(${1:BOOL usesOrthographicProjection})'
+  'setXFov:':
+    'prefix': 'setXFov:'
+    'body': 'setXFov(${1:double xFov})'
+  'setYFov:':
+    'prefix': 'setYFov:'
+    'body': 'setYFov(${1:double yFov})'
+  'setZFar:':
+    'prefix': 'setZFar:'
+    'body': 'setZFar(${1:double zFar})'
+  'setZNear:':
+    'prefix': 'setZNear:'
+    'body': 'setZNear(${1:double zNear})'
+  'usesOrthographicProjection':
+    'prefix': 'usesOrthographicProjection'
+    'body': 'usesOrthographicProjection()'
+  'xFov':
+    'prefix': 'xFov'
+    'body': 'xFov()'
+  'yFov':
+    'prefix': 'yFov'
+    'body': 'yFov()'
+  'zFar':
+    'prefix': 'zFar'
+    'body': 'zFar()'
+  'zNear':
+    'prefix': 'zNear'
+    'body': 'zNear()'
+  'capRadius':
+    'prefix': 'capRadius'
+    'body': 'capRadius()'
+  'capSegmentCount':
+    'prefix': 'capSegmentCount'
+    'body': 'capSegmentCount()'
+  'SCNCapsule.capsuleWithCapRadius:height:':
+    'prefix': 'capsuleWithCapRadius:height:'
+    'body': 'SCNCapsule.capsuleWithCapRadius(${1:CGFloat capRadius}, height:${2:CGFloat height})'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'radialSegmentCount':
+    'prefix': 'radialSegmentCount'
+    'body': 'radialSegmentCount()'
+  'setCapRadius:':
+    'prefix': 'setCapRadius:'
+    'body': 'setCapRadius(${1:CGFloat capRadius})'
+  'setCapSegmentCount:':
+    'prefix': 'setCapSegmentCount:'
+    'body': 'setCapSegmentCount(${1:NSInteger capSegmentCount})'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setRadialSegmentCount:':
+    'prefix': 'setRadialSegmentCount:'
+    'body': 'setRadialSegmentCount(${1:NSInteger radialSegmentCount})'
+  'bottomRadius':
+    'prefix': 'bottomRadius'
+    'body': 'bottomRadius()'
+  'SCNCone.coneWithTopRadius:bottomRadius:height:':
+    'prefix': 'coneWithTopRadius:bottomRadius:height:'
+    'body': 'SCNCone.coneWithTopRadius(${1:CGFloat topRadius}, bottomRadius:${2:CGFloat bottomRadius}, height:${3:CGFloat height})'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'radialSegmentCount':
+    'prefix': 'radialSegmentCount'
+    'body': 'radialSegmentCount()'
+  'setBottomRadius:':
+    'prefix': 'setBottomRadius:'
+    'body': 'setBottomRadius(${1:CGFloat bottomRadius})'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setRadialSegmentCount:':
+    'prefix': 'setRadialSegmentCount:'
+    'body': 'setRadialSegmentCount(${1:NSInteger radialSegmentCount})'
+  'setTopRadius:':
+    'prefix': 'setTopRadius:'
+    'body': 'setTopRadius(${1:CGFloat topRadius})'
+  'topRadius':
+    'prefix': 'topRadius'
+    'body': 'topRadius()'
+  'SCNCylinder.cylinderWithRadius:height:':
+    'prefix': 'cylinderWithRadius:height:'
+    'body': 'SCNCylinder.cylinderWithRadius(${1:CGFloat radius}, height:${2:CGFloat height})'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'radialSegmentCount':
+    'prefix': 'radialSegmentCount'
+    'body': 'radialSegmentCount()'
+  'radius':
+    'prefix': 'radius'
+    'body': 'radius()'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setRadialSegmentCount:':
+    'prefix': 'setRadialSegmentCount:'
+    'body': 'setRadialSegmentCount(${1:NSInteger radialSegmentCount})'
+  'setRadius:':
+    'prefix': 'setRadius:'
+    'body': 'setRadius(${1:CGFloat radius})'
+  'SCNFloor.floor':
+    'prefix': 'floor'
+    'body': 'SCNFloor.floor()'
+  'reflectionFalloffEnd':
+    'prefix': 'reflectionFalloffEnd'
+    'body': 'reflectionFalloffEnd()'
+  'reflectionFalloffStart':
+    'prefix': 'reflectionFalloffStart'
+    'body': 'reflectionFalloffStart()'
+  'reflectivity':
+    'prefix': 'reflectivity'
+    'body': 'reflectivity()'
+  'setReflectionFalloffEnd:':
+    'prefix': 'setReflectionFalloffEnd:'
+    'body': 'setReflectionFalloffEnd(${1:CGFloat reflectionFalloffEnd})'
+  'setReflectionFalloffStart:':
+    'prefix': 'setReflectionFalloffStart:'
+    'body': 'setReflectionFalloffStart(${1:CGFloat reflectionFalloffStart})'
+  'setReflectivity:':
+    'prefix': 'setReflectivity:'
+    'body': 'setReflectivity(${1:CGFloat reflectivity})'
+  'firstMaterial':
+    'prefix': 'firstMaterial'
+    'body': 'firstMaterial()'
+  'SCNGeometry.geometry':
+    'prefix': 'geometry'
+    'body': 'SCNGeometry.geometry()'
+  'geometryElementAtIndex:':
+    'prefix': 'geometryElementAtIndex:'
+    'body': 'geometryElementAtIndex(${1:NSInteger elementIndex})'
+  'geometryElementCount':
+    'prefix': 'geometryElementCount'
+    'body': 'geometryElementCount()'
+  'geometrySourcesForSemantic:':
+    'prefix': 'geometrySourcesForSemantic:'
+    'body': 'geometrySourcesForSemantic(${1:NSString* semantic})'
+  'SCNGeometry.geometryWithSources:elements:':
+    'prefix': 'geometryWithSources:elements:'
+    'body': 'SCNGeometry.geometryWithSources(${1:NSArray* sources}, elements:${2:NSArray* elements})'
+  'insertMaterial:atIndex:':
+    'prefix': 'insertMaterial:atIndex:'
+    'body': 'insertMaterial(${1:SCNMaterial* material}, atIndex:${2:NSUInteger index})'
+  'levelsOfDetail':
+    'prefix': 'levelsOfDetail'
+    'body': 'levelsOfDetail()'
+  'materialWithName:':
+    'prefix': 'materialWithName:'
+    'body': 'materialWithName(${1:NSString* name})'
+  'materials':
+    'prefix': 'materials'
+    'body': 'materials()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'removeMaterialAtIndex:':
+    'prefix': 'removeMaterialAtIndex:'
+    'body': 'removeMaterialAtIndex(${1:NSUInteger index})'
+  'replaceMaterialAtIndex:withMaterial:':
+    'prefix': 'replaceMaterialAtIndex:withMaterial:'
+    'body': 'replaceMaterialAtIndex(${1:NSUInteger index}, withMaterial:${2:SCNMaterial* material})'
+  'setFirstMaterial:':
+    'prefix': 'setFirstMaterial:'
+    'body': 'setFirstMaterial(${1:SCNMaterial* firstMaterial})'
+  'setLevelsOfDetail:':
+    'prefix': 'setLevelsOfDetail:'
+    'body': 'setLevelsOfDetail(${1:NSArray* levelsOfDetail})'
+  'setMaterials:':
+    'prefix': 'setMaterials:'
+    'body': 'setMaterials(${1:NSArray* materials})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'bytesPerIndex':
+    'prefix': 'bytesPerIndex'
+    'body': 'bytesPerIndex()'
+  'data':
+    'prefix': 'data'
+    'body': 'data()'
+  'SCNGeometryElement.geometryElementWithData:primitiveType:primitiveCount:bytesPerIndex:':
+    'prefix': 'geometryElementWithData:primitiveType:primitiveCount:bytesPerIndex:'
+    'body': 'SCNGeometryElement.geometryElementWithData(${1:NSData* data}, primitiveType:${2:SCNGeometryPrimitiveType primitiveType}, primitiveCount:${3:NSInteger primitiveCount}, bytesPerIndex:${4:NSInteger bytesPerIndex})'
+  'primitiveCount':
+    'prefix': 'primitiveCount'
+    'body': 'primitiveCount()'
+  'primitiveType':
+    'prefix': 'primitiveType'
+    'body': 'primitiveType()'
+  'bytesPerComponent':
+    'prefix': 'bytesPerComponent'
+    'body': 'bytesPerComponent()'
+  'componentsPerVector':
+    'prefix': 'componentsPerVector'
+    'body': 'componentsPerVector()'
+  'data':
+    'prefix': 'data'
+    'body': 'data()'
+  'dataOffset':
+    'prefix': 'dataOffset'
+    'body': 'dataOffset()'
+  'dataStride':
+    'prefix': 'dataStride'
+    'body': 'dataStride()'
+  'floatComponents':
+    'prefix': 'floatComponents'
+    'body': 'floatComponents()'
+  'SCNGeometrySource.geometrySourceWithData:semantic:vectorCount:floatComponents:componentsPerVector:bytesPerComponent:dataOffset:dataStride:':
+    'prefix': 'geometrySourceWithData:semantic:vectorCount:floatComponents:componentsPerVector:bytesPerComponent:dataOffset:dataStride:'
+    'body': 'SCNGeometrySource.geometrySourceWithData(${1:NSData* data}, semantic:${2:NSString* semantic}, vectorCount:${3:NSInteger vectorCount}, floatComponents:${4:BOOL floatComponents}, componentsPerVector:${5:NSInteger componentsPerVector}, bytesPerComponent:${6:NSInteger bytesPerComponent}, dataOffset:${7:NSInteger offset}, dataStride:${8:NSInteger stride})'
+  'SCNGeometrySource.geometrySourceWithNormals:count:':
+    'prefix': 'geometrySourceWithNormals:count:'
+    'body': 'SCNGeometrySource.geometrySourceWithNormals(${1:SCNVector3* normals}, count:${2:NSInteger count})'
+  'SCNGeometrySource.geometrySourceWithTextureCoordinates:count:':
+    'prefix': 'geometrySourceWithTextureCoordinates:count:'
+    'body': 'SCNGeometrySource.geometrySourceWithTextureCoordinates(${1:CGPoint* texcoord}, count:${2:NSInteger count})'
+  'SCNGeometrySource.geometrySourceWithVertices:count:':
+    'prefix': 'geometrySourceWithVertices:count:'
+    'body': 'SCNGeometrySource.geometrySourceWithVertices(${1:SCNVector3* vertices}, count:${2:NSInteger count})'
+  'semantic':
+    'prefix': 'semantic'
+    'body': 'semantic()'
+  'vectorCount':
+    'prefix': 'vectorCount'
+    'body': 'vectorCount()'
+  'faceIndex':
+    'prefix': 'faceIndex'
+    'body': 'faceIndex()'
+  'geometryIndex':
+    'prefix': 'geometryIndex'
+    'body': 'geometryIndex()'
+  'localCoordinates':
+    'prefix': 'localCoordinates'
+    'body': 'localCoordinates()'
+  'localNormal':
+    'prefix': 'localNormal'
+    'body': 'localNormal()'
+  'modelTransform':
+    'prefix': 'modelTransform'
+    'body': 'modelTransform()'
+  'node':
+    'prefix': 'node'
+    'body': 'node()'
+  'textureCoordinatesWithMappingChannel:':
+    'prefix': 'textureCoordinatesWithMappingChannel:'
+    'body': 'textureCoordinatesWithMappingChannel(${1:NSInteger channel})'
+  'worldCoordinates':
+    'prefix': 'worldCoordinates'
+    'body': 'worldCoordinates()'
+  'worldNormal':
+    'prefix': 'worldNormal'
+    'body': 'worldNormal()'
+  'scene':
+    'prefix': 'scene'
+    'body': 'scene()'
+  'setScene:':
+    'prefix': 'setScene:'
+    'body': 'setScene(${1:SCNScene* scene})'
+  'geometry':
+    'prefix': 'geometry'
+    'body': 'geometry()'
+  'SCNLevelOfDetail.levelOfDetailWithGeometry:screenSpaceRadius:':
+    'prefix': 'levelOfDetailWithGeometry:screenSpaceRadius:'
+    'body': 'SCNLevelOfDetail.levelOfDetailWithGeometry(${1:SCNGeometry* geometry}, screenSpaceRadius:${2:CGFloat radius})'
+  'SCNLevelOfDetail.levelOfDetailWithGeometry:worldSpaceDistance:':
+    'prefix': 'levelOfDetailWithGeometry:worldSpaceDistance:'
+    'body': 'SCNLevelOfDetail.levelOfDetailWithGeometry(${1:SCNGeometry* geometry}, worldSpaceDistance:${2:CGFloat distance})'
+  'screenSpaceRadius':
+    'prefix': 'screenSpaceRadius'
+    'body': 'screenSpaceRadius()'
+  'worldSpaceDistance':
+    'prefix': 'worldSpaceDistance'
+    'body': 'worldSpaceDistance()'
+  'attributeForKey:':
+    'prefix': 'attributeForKey:'
+    'body': 'attributeForKey(${1:NSString* key})'
+  'castsShadow':
+    'prefix': 'castsShadow'
+    'body': 'castsShadow()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'gobo':
+    'prefix': 'gobo'
+    'body': 'gobo()'
+  'SCNLight.light':
+    'prefix': 'light'
+    'body': 'SCNLight.light()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'setAttribute:forKey:':
+    'prefix': 'setAttribute:forKey:'
+    'body': 'setAttribute(${1:id attribute}, forKey:${2:NSString* key})'
+  'setCastsShadow:':
+    'prefix': 'setCastsShadow:'
+    'body': 'setCastsShadow(${1:BOOL castsShadow})'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:id color})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setShadowColor:':
+    'prefix': 'setShadowColor:'
+    'body': 'setShadowColor(${1:id shadowColor})'
+  'setShadowRadius:':
+    'prefix': 'setShadowRadius:'
+    'body': 'setShadowRadius(${1:CGFloat shadowRadius})'
+  'setType:':
+    'prefix': 'setType:'
+    'body': 'setType(${1:NSString* type})'
+  'shadowColor':
+    'prefix': 'shadowColor'
+    'body': 'shadowColor()'
+  'shadowRadius':
+    'prefix': 'shadowRadius'
+    'body': 'shadowRadius()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'gimbalLockEnabled':
+    'prefix': 'gimbalLockEnabled'
+    'body': 'gimbalLockEnabled()'
+  'SCNLookAtConstraint.lookAtConstraintWithTarget:':
+    'prefix': 'lookAtConstraintWithTarget:'
+    'body': 'SCNLookAtConstraint.lookAtConstraintWithTarget(${1:SCNNode* target})'
+  'setGimbalLockEnabled:':
+    'prefix': 'setGimbalLockEnabled:'
+    'body': 'setGimbalLockEnabled(${1:BOOL gimbalLockEnabled})'
+  'target':
+    'prefix': 'target'
+    'body': 'target()'
+  'ambient':
+    'prefix': 'ambient'
+    'body': 'ambient()'
+  'cullMode':
+    'prefix': 'cullMode'
+    'body': 'cullMode()'
+  'diffuse':
+    'prefix': 'diffuse'
+    'body': 'diffuse()'
+  'emission':
+    'prefix': 'emission'
+    'body': 'emission()'
+  'fresnelExponent':
+    'prefix': 'fresnelExponent'
+    'body': 'fresnelExponent()'
+  'isDoubleSided':
+    'prefix': 'isDoubleSided'
+    'body': 'isDoubleSided()'
+  'isLitPerPixel':
+    'prefix': 'isLitPerPixel'
+    'body': 'isLitPerPixel()'
+  'lightingModelName':
+    'prefix': 'lightingModelName'
+    'body': 'lightingModelName()'
+  'locksAmbientWithDiffuse':
+    'prefix': 'locksAmbientWithDiffuse'
+    'body': 'locksAmbientWithDiffuse()'
+  'SCNMaterial.material':
+    'prefix': 'material'
+    'body': 'SCNMaterial.material()'
+  'multiply':
+    'prefix': 'multiply'
+    'body': 'multiply()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'normal':
+    'prefix': 'normal'
+    'body': 'normal()'
+  'readsFromDepthBuffer':
+    'prefix': 'readsFromDepthBuffer'
+    'body': 'readsFromDepthBuffer()'
+  'reflective':
+    'prefix': 'reflective'
+    'body': 'reflective()'
+  'setCullMode:':
+    'prefix': 'setCullMode:'
+    'body': 'setCullMode(${1:SCNCullMode cullMode})'
+  'setDoubleSided:':
+    'prefix': 'setDoubleSided:'
+    'body': 'setDoubleSided(${1:BOOL doubleSided})'
+  'setFresnelExponent:':
+    'prefix': 'setFresnelExponent:'
+    'body': 'setFresnelExponent(${1:CGFloat fresnelExponent})'
+  'setLightingModelName:':
+    'prefix': 'setLightingModelName:'
+    'body': 'setLightingModelName(${1:NSString* lightingModelName})'
+  'setLitPerPixel:':
+    'prefix': 'setLitPerPixel:'
+    'body': 'setLitPerPixel(${1:BOOL litPerPixel})'
+  'setLocksAmbientWithDiffuse:':
+    'prefix': 'setLocksAmbientWithDiffuse:'
+    'body': 'setLocksAmbientWithDiffuse(${1:BOOL locksAmbientWithDiffuse})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setReadsFromDepthBuffer:':
+    'prefix': 'setReadsFromDepthBuffer:'
+    'body': 'setReadsFromDepthBuffer(${1:BOOL readsFromDepthBuffer})'
+  'setShininess:':
+    'prefix': 'setShininess:'
+    'body': 'setShininess(${1:CGFloat shininess})'
+  'setTransparency:':
+    'prefix': 'setTransparency:'
+    'body': 'setTransparency(${1:CGFloat transparency})'
+  'setTransparencyMode:':
+    'prefix': 'setTransparencyMode:'
+    'body': 'setTransparencyMode(${1:SCNTransparencyMode transparencyMode})'
+  'setWritesToDepthBuffer:':
+    'prefix': 'setWritesToDepthBuffer:'
+    'body': 'setWritesToDepthBuffer(${1:BOOL writesToDepthBuffer})'
+  'shininess':
+    'prefix': 'shininess'
+    'body': 'shininess()'
+  'specular':
+    'prefix': 'specular'
+    'body': 'specular()'
+  'transparency':
+    'prefix': 'transparency'
+    'body': 'transparency()'
+  'transparencyMode':
+    'prefix': 'transparencyMode'
+    'body': 'transparencyMode()'
+  'transparent':
+    'prefix': 'transparent'
+    'body': 'transparent()'
+  'writesToDepthBuffer':
+    'prefix': 'writesToDepthBuffer'
+    'body': 'writesToDepthBuffer()'
+  'borderColor':
+    'prefix': 'borderColor'
+    'body': 'borderColor()'
+  'contents':
+    'prefix': 'contents'
+    'body': 'contents()'
+  'contentsTransform':
+    'prefix': 'contentsTransform'
+    'body': 'contentsTransform()'
+  'intensity':
+    'prefix': 'intensity'
+    'body': 'intensity()'
+  'magnificationFilter':
+    'prefix': 'magnificationFilter'
+    'body': 'magnificationFilter()'
+  'mappingChannel':
+    'prefix': 'mappingChannel'
+    'body': 'mappingChannel()'
+  'SCNMaterialProperty.materialPropertyWithContents:':
+    'prefix': 'materialPropertyWithContents:'
+    'body': 'SCNMaterialProperty.materialPropertyWithContents(${1:id contents})'
+  'maxAnisotropy':
+    'prefix': 'maxAnisotropy'
+    'body': 'maxAnisotropy()'
+  'minificationFilter':
+    'prefix': 'minificationFilter'
+    'body': 'minificationFilter()'
+  'mipFilter':
+    'prefix': 'mipFilter'
+    'body': 'mipFilter()'
+  'setBorderColor:':
+    'prefix': 'setBorderColor:'
+    'body': 'setBorderColor(${1:id borderColor})'
+  'setContents:':
+    'prefix': 'setContents:'
+    'body': 'setContents(${1:id contents})'
+  'setContentsTransform:':
+    'prefix': 'setContentsTransform:'
+    'body': 'setContentsTransform(${1:CATransform3D contentsTransform})'
+  'setIntensity:':
+    'prefix': 'setIntensity:'
+    'body': 'setIntensity(${1:CGFloat intensity})'
+  'setMagnificationFilter:':
+    'prefix': 'setMagnificationFilter:'
+    'body': 'setMagnificationFilter(${1:SCNFilterMode magnificationFilter})'
+  'setMappingChannel:':
+    'prefix': 'setMappingChannel:'
+    'body': 'setMappingChannel(${1:NSInteger mappingChannel})'
+  'setMaxAnisotropy:':
+    'prefix': 'setMaxAnisotropy:'
+    'body': 'setMaxAnisotropy(${1:CGFloat maxAnisotropy})'
+  'setMinificationFilter:':
+    'prefix': 'setMinificationFilter:'
+    'body': 'setMinificationFilter(${1:SCNFilterMode minificationFilter})'
+  'setMipFilter:':
+    'prefix': 'setMipFilter:'
+    'body': 'setMipFilter(${1:SCNFilterMode mipFilter})'
+  'setWrapS:':
+    'prefix': 'setWrapS:'
+    'body': 'setWrapS(${1:SCNWrapMode wrapS})'
+  'setWrapT:':
+    'prefix': 'setWrapT:'
+    'body': 'setWrapT(${1:SCNWrapMode wrapT})'
+  'wrapS':
+    'prefix': 'wrapS'
+    'body': 'wrapS()'
+  'wrapT':
+    'prefix': 'wrapT'
+    'body': 'wrapT()'
+  'calculationMode':
+    'prefix': 'calculationMode'
+    'body': 'calculationMode()'
+  'setCalculationMode:':
+    'prefix': 'setCalculationMode:'
+    'body': 'setCalculationMode(${1:SCNMorpherCalculationMode calculationMode})'
+  'setTargets:':
+    'prefix': 'setTargets:'
+    'body': 'setTargets(${1:NSArray* targets})'
+  'setWeight:forTargetAtIndex:':
+    'prefix': 'setWeight:forTargetAtIndex:'
+    'body': 'setWeight(${1:CGFloat weight}, forTargetAtIndex:${2:NSUInteger targetIndex})'
+  'targets':
+    'prefix': 'targets'
+    'body': 'targets()'
+  'weightForTargetAtIndex:':
+    'prefix': 'weightForTargetAtIndex:'
+    'body': 'weightForTargetAtIndex(${1:NSUInteger targetIndex})'
+  'addChildNode:':
+    'prefix': 'addChildNode:'
+    'body': 'addChildNode(${1:SCNNode* child})'
+  'camera':
+    'prefix': 'camera'
+    'body': 'camera()'
+  'childNodeWithName:recursively:':
+    'prefix': 'childNodeWithName:recursively:'
+    'body': 'childNodeWithName(${1:NSString* name}, recursively:${2:BOOL recursively})'
+  'childNodes':
+    'prefix': 'childNodes'
+    'body': 'childNodes()'
+  'childNodesPassingTest:':
+    'prefix': 'childNodesPassingTest:'
+    'body': 'childNodesPassingTest(${1:BOOL (^)(SCNNode *, BOOL *) predicate})'
+  'clone':
+    'prefix': 'clone'
+    'body': 'clone()'
+  'constraints':
+    'prefix': 'constraints'
+    'body': 'constraints()'
+  'convertPosition:fromNode:':
+    'prefix': 'convertPosition:fromNode:'
+    'body': 'convertPosition(${1:SCNVector3 position}, fromNode:${2:SCNNode* node})'
+  'convertPosition:toNode:':
+    'prefix': 'convertPosition:toNode:'
+    'body': 'convertPosition(${1:SCNVector3 position}, toNode:${2:SCNNode* node})'
+  'convertTransform:fromNode:':
+    'prefix': 'convertTransform:fromNode:'
+    'body': 'convertTransform(${1:CATransform3D transform}, fromNode:${2:SCNNode* node})'
+  'convertTransform:toNode:':
+    'prefix': 'convertTransform:toNode:'
+    'body': 'convertTransform(${1:CATransform3D transform}, toNode:${2:SCNNode* node})'
+  'filters':
+    'prefix': 'filters'
+    'body': 'filters()'
+  'flattenedClone':
+    'prefix': 'flattenedClone'
+    'body': 'flattenedClone()'
+  'geometry':
+    'prefix': 'geometry'
+    'body': 'geometry()'
+  'hitTestWithSegmentFromPoint:toPoint:options:':
+    'prefix': 'hitTestWithSegmentFromPoint:toPoint:options:'
+    'body': 'hitTestWithSegmentFromPoint(${1:SCNVector3 pointA}, toPoint:${2:SCNVector3 pointB}, options:${3:NSDictionary* options})'
+  'insertChildNode:atIndex:':
+    'prefix': 'insertChildNode:atIndex:'
+    'body': 'insertChildNode(${1:SCNNode* child}, atIndex:${2:NSUInteger index})'
+  'isHidden':
+    'prefix': 'isHidden'
+    'body': 'isHidden()'
+  'light':
+    'prefix': 'light'
+    'body': 'light()'
+  'morpher':
+    'prefix': 'morpher'
+    'body': 'morpher()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'SCNNode.node':
+    'prefix': 'node'
+    'body': 'SCNNode.node()'
+  'SCNNode.nodeWithGeometry:':
+    'prefix': 'nodeWithGeometry:'
+    'body': 'SCNNode.nodeWithGeometry(${1:SCNGeometry* geometry})'
+  'opacity':
+    'prefix': 'opacity'
+    'body': 'opacity()'
+  'parentNode':
+    'prefix': 'parentNode'
+    'body': 'parentNode()'
+  'pivot':
+    'prefix': 'pivot'
+    'body': 'pivot()'
+  'position':
+    'prefix': 'position'
+    'body': 'position()'
+  'presentationNode':
+    'prefix': 'presentationNode'
+    'body': 'presentationNode()'
+  'removeFromParentNode':
+    'prefix': 'removeFromParentNode'
+    'body': 'removeFromParentNode()'
+  'rendererDelegate':
+    'prefix': 'rendererDelegate'
+    'body': 'rendererDelegate()'
+  'renderingOrder':
+    'prefix': 'renderingOrder'
+    'body': 'renderingOrder()'
+  'replaceChildNode:with:':
+    'prefix': 'replaceChildNode:with:'
+    'body': 'replaceChildNode(${1:SCNNode* oldChild}, with:${2:SCNNode* newChild})'
+  'rotation':
+    'prefix': 'rotation'
+    'body': 'rotation()'
+  'scale':
+    'prefix': 'scale'
+    'body': 'scale()'
+  'setCamera:':
+    'prefix': 'setCamera:'
+    'body': 'setCamera(${1:SCNCamera* camera})'
+  'setConstraints:':
+    'prefix': 'setConstraints:'
+    'body': 'setConstraints(${1:NSArray* constraints})'
+  'setFilters:':
+    'prefix': 'setFilters:'
+    'body': 'setFilters(${1:NSArray* filters})'
+  'setGeometry:':
+    'prefix': 'setGeometry:'
+    'body': 'setGeometry(${1:SCNGeometry* geometry})'
+  'setHidden:':
+    'prefix': 'setHidden:'
+    'body': 'setHidden(${1:BOOL hidden})'
+  'setLight:':
+    'prefix': 'setLight:'
+    'body': 'setLight(${1:SCNLight* light})'
+  'setMorpher:':
+    'prefix': 'setMorpher:'
+    'body': 'setMorpher(${1:SCNMorpher* morpher})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setOpacity:':
+    'prefix': 'setOpacity:'
+    'body': 'setOpacity(${1:CGFloat opacity})'
+  'setPivot:':
+    'prefix': 'setPivot:'
+    'body': 'setPivot(${1:CATransform3D pivot})'
+  'setPosition:':
+    'prefix': 'setPosition:'
+    'body': 'setPosition(${1:SCNVector3 position})'
+  'setRendererDelegate:':
+    'prefix': 'setRendererDelegate:'
+    'body': 'setRendererDelegate(${1:id rendererDelegate})'
+  'setRenderingOrder:':
+    'prefix': 'setRenderingOrder:'
+    'body': 'setRenderingOrder(${1:NSInteger renderingOrder})'
+  'setRotation:':
+    'prefix': 'setRotation:'
+    'body': 'setRotation(${1:SCNVector4 rotation})'
+  'setScale:':
+    'prefix': 'setScale:'
+    'body': 'setScale(${1:SCNVector3 scale})'
+  'setSkinner:':
+    'prefix': 'setSkinner:'
+    'body': 'setSkinner(${1:SCNSkinner* skinner})'
+  'setTransform:':
+    'prefix': 'setTransform:'
+    'body': 'setTransform(${1:CATransform3D transform})'
+  'skinner':
+    'prefix': 'skinner'
+    'body': 'skinner()'
+  'transform':
+    'prefix': 'transform'
+    'body': 'transform()'
+  'worldTransform':
+    'prefix': 'worldTransform'
+    'body': 'worldTransform()'
+  'cornerRadius':
+    'prefix': 'cornerRadius'
+    'body': 'cornerRadius()'
+  'cornerSegmentCount':
+    'prefix': 'cornerSegmentCount'
+    'body': 'cornerSegmentCount()'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'SCNPlane.planeWithWidth:height:':
+    'prefix': 'planeWithWidth:height:'
+    'body': 'SCNPlane.planeWithWidth(${1:CGFloat width}, height:${2:CGFloat height})'
+  'setCornerRadius:':
+    'prefix': 'setCornerRadius:'
+    'body': 'setCornerRadius(${1:CGFloat cornerRadius})'
+  'setCornerSegmentCount:':
+    'prefix': 'setCornerSegmentCount:'
+    'body': 'setCornerSegmentCount(${1:NSInteger cornerSegmentCount})'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setWidth:':
+    'prefix': 'setWidth:'
+    'body': 'setWidth(${1:CGFloat width})'
+  'setWidthSegmentCount:':
+    'prefix': 'setWidthSegmentCount:'
+    'body': 'setWidthSegmentCount(${1:NSInteger widthSegmentCount})'
+  'width':
+    'prefix': 'width'
+    'body': 'width()'
+  'widthSegmentCount':
+    'prefix': 'widthSegmentCount'
+    'body': 'widthSegmentCount()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'fragmentShader':
+    'prefix': 'fragmentShader'
+    'body': 'fragmentShader()'
+  'SCNProgram.program':
+    'prefix': 'program'
+    'body': 'SCNProgram.program()'
+  'semanticForSymbol:':
+    'prefix': 'semanticForSymbol:'
+    'body': 'semanticForSymbol(${1:NSString* symbol})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setFragmentShader:':
+    'prefix': 'setFragmentShader:'
+    'body': 'setFragmentShader(${1:NSString* fragmentShader})'
+  'setSemantic:forSymbol:options:':
+    'prefix': 'setSemantic:forSymbol:options:'
+    'body': 'setSemantic(${1:NSString* semantic}, forSymbol:${2:NSString* symbol}, options:${3:NSDictionary* options})'
+  'setVertexShader:':
+    'prefix': 'setVertexShader:'
+    'body': 'setVertexShader(${1:NSString* vertexShader})'
+  'vertexShader':
+    'prefix': 'vertexShader'
+    'body': 'vertexShader()'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'length':
+    'prefix': 'length'
+    'body': 'length()'
+  'lengthSegmentCount':
+    'prefix': 'lengthSegmentCount'
+    'body': 'lengthSegmentCount()'
+  'SCNPyramid.pyramidWithWidth:height:length:':
+    'prefix': 'pyramidWithWidth:height:length:'
+    'body': 'SCNPyramid.pyramidWithWidth(${1:CGFloat width}, height:${2:CGFloat height}, length:${3:CGFloat length})'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setLength:':
+    'prefix': 'setLength:'
+    'body': 'setLength(${1:CGFloat length})'
+  'setLengthSegmentCount:':
+    'prefix': 'setLengthSegmentCount:'
+    'body': 'setLengthSegmentCount(${1:NSInteger lengthSegmentCount})'
+  'setWidth:':
+    'prefix': 'setWidth:'
+    'body': 'setWidth(${1:CGFloat width})'
+  'setWidthSegmentCount:':
+    'prefix': 'setWidthSegmentCount:'
+    'body': 'setWidthSegmentCount(${1:NSInteger widthSegmentCount})'
+  'width':
+    'prefix': 'width'
+    'body': 'width()'
+  'widthSegmentCount':
+    'prefix': 'widthSegmentCount'
+    'body': 'widthSegmentCount()'
+  'render':
+    'prefix': 'render'
+    'body': 'render()'
+  'SCNRenderer.rendererWithContext:options:':
+    'prefix': 'rendererWithContext:options:'
+    'body': 'SCNRenderer.rendererWithContext(${1:void* context}, options:${2:NSDictionary* options})'
+  'scene':
+    'prefix': 'scene'
+    'body': 'scene()'
+  'setScene:':
+    'prefix': 'setScene:'
+    'body': 'setScene(${1:SCNScene* scene})'
+  'attributeForKey:':
+    'prefix': 'attributeForKey:'
+    'body': 'attributeForKey(${1:NSString* key})'
+  'background':
+    'prefix': 'background'
+    'body': 'background()'
+  'rootNode':
+    'prefix': 'rootNode'
+    'body': 'rootNode()'
+  'SCNScene.scene':
+    'prefix': 'scene'
+    'body': 'SCNScene.scene()'
+  'SCNScene.sceneNamed:':
+    'prefix': 'sceneNamed:'
+    'body': 'SCNScene.sceneNamed(${1:NSString* name})'
+  'SCNScene.sceneWithURL:options:error:':
+    'prefix': 'sceneWithURL:options:error:'
+    'body': 'SCNScene.sceneWithURL(${1:NSURL* url}, options:${2:NSDictionary* options}, error:${3:NSError** error})'
+  'setAttribute:forKey:':
+    'prefix': 'setAttribute:forKey:'
+    'body': 'setAttribute(${1:id attribute}, forKey:${2:NSString* key})'
+  'writeToURL:options:delegate:progressHandler:':
+    'prefix': 'writeToURL:options:delegate:progressHandler:'
+    'body': 'writeToURL(${1:NSURL* url}, options:${2:NSDictionary* options}, delegate:${3:id delegate}, progressHandler:${4:SCNSceneExportProgressHandler progressHandler})'
+  'data':
+    'prefix': 'data'
+    'body': 'data()'
+  'entriesPassingTest:':
+    'prefix': 'entriesPassingTest:'
+    'body': 'entriesPassingTest(${1:BOOL (^)(id, NSString *, BOOL *) predicate})'
+  'entryWithIdentifier:withClass:':
+    'prefix': 'entryWithIdentifier:withClass:'
+    'body': 'entryWithIdentifier(${1:NSString* uid}, withClass:${2:Class entryClass})'
+  'identifiersOfEntriesWithClass:':
+    'prefix': 'identifiersOfEntriesWithClass:'
+    'body': 'identifiersOfEntriesWithClass(${1:Class entryClass})'
+  'initWithData:options:':
+    'prefix': 'initWithData:options:'
+    'body': 'initWithData(${1:NSData* data}, options:${2:NSDictionary* options})'
+  'initWithURL:options:':
+    'prefix': 'initWithURL:options:'
+    'body': 'initWithURL(${1:NSURL* url}, options:${2:NSDictionary* options})'
+  'propertyForKey:':
+    'prefix': 'propertyForKey:'
+    'body': 'propertyForKey(${1:NSString* key})'
+  'SCNSceneSource.sceneSourceWithData:options:':
+    'prefix': 'sceneSourceWithData:options:'
+    'body': 'SCNSceneSource.sceneSourceWithData(${1:NSData* data}, options:${2:NSDictionary* options})'
+  'SCNSceneSource.sceneSourceWithURL:options:':
+    'prefix': 'sceneSourceWithURL:options:'
+    'body': 'SCNSceneSource.sceneSourceWithURL(${1:NSURL* url}, options:${2:NSDictionary* options})'
+  'sceneWithOptions:error:':
+    'prefix': 'sceneWithOptions:error:'
+    'body': 'sceneWithOptions(${1:NSDictionary* options}, error:${2:NSError** error})'
+  'sceneWithOptions:statusHandler:':
+    'prefix': 'sceneWithOptions:statusHandler:'
+    'body': 'sceneWithOptions(${1:NSDictionary* options}, statusHandler:${2:SCNSceneSourceStatusHandler statusHandler})'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'chamferMode':
+    'prefix': 'chamferMode'
+    'body': 'chamferMode()'
+  'chamferProfile':
+    'prefix': 'chamferProfile'
+    'body': 'chamferProfile()'
+  'chamferRadius':
+    'prefix': 'chamferRadius'
+    'body': 'chamferRadius()'
+  'extrusionDepth':
+    'prefix': 'extrusionDepth'
+    'body': 'extrusionDepth()'
+  'path':
+    'prefix': 'path'
+    'body': 'path()'
+  'setChamferMode:':
+    'prefix': 'setChamferMode:'
+    'body': 'setChamferMode(${1:SCNChamferMode chamferMode})'
+  'setChamferProfile:':
+    'prefix': 'setChamferProfile:'
+    'body': 'setChamferProfile(${1:NSBezierPath* chamferProfile})'
+  'setChamferRadius:':
+    'prefix': 'setChamferRadius:'
+    'body': 'setChamferRadius(${1:CGFloat chamferRadius})'
+  'setExtrusionDepth:':
+    'prefix': 'setExtrusionDepth:'
+    'body': 'setExtrusionDepth(${1:CGFloat extrusionDepth})'
+  'setPath:':
+    'prefix': 'setPath:'
+    'body': 'setPath(${1:NSBezierPath* path})'
+  'SCNShape.shapeWithPath:extrusionDepth:':
+    'prefix': 'shapeWithPath:extrusionDepth:'
+    'body': 'SCNShape.shapeWithPath(${1:NSBezierPath* path}, extrusionDepth:${2:CGFloat extrusionDepth})'
+  'setSkeleton:':
+    'prefix': 'setSkeleton:'
+    'body': 'setSkeleton(${1:SCNNode* skeleton})'
+  'skeleton':
+    'prefix': 'skeleton'
+    'body': 'skeleton()'
+  'isGeodesic':
+    'prefix': 'isGeodesic'
+    'body': 'isGeodesic()'
+  'radius':
+    'prefix': 'radius'
+    'body': 'radius()'
+  'segmentCount':
+    'prefix': 'segmentCount'
+    'body': 'segmentCount()'
+  'setGeodesic:':
+    'prefix': 'setGeodesic:'
+    'body': 'setGeodesic(${1:BOOL geodesic})'
+  'setRadius:':
+    'prefix': 'setRadius:'
+    'body': 'setRadius(${1:CGFloat radius})'
+  'setSegmentCount:':
+    'prefix': 'setSegmentCount:'
+    'body': 'setSegmentCount(${1:NSInteger segmentCount})'
+  'SCNSphere.sphereWithRadius:':
+    'prefix': 'sphereWithRadius:'
+    'body': 'SCNSphere.sphereWithRadius(${1:CGFloat radius})'
+  'alignmentMode':
+    'prefix': 'alignmentMode'
+    'body': 'alignmentMode()'
+  'chamferProfile':
+    'prefix': 'chamferProfile'
+    'body': 'chamferProfile()'
+  'chamferRadius':
+    'prefix': 'chamferRadius'
+    'body': 'chamferRadius()'
+  'chamferSegmentCount':
+    'prefix': 'chamferSegmentCount'
+    'body': 'chamferSegmentCount()'
+  'containerFrame':
+    'prefix': 'containerFrame'
+    'body': 'containerFrame()'
+  'extrusionDepth':
+    'prefix': 'extrusionDepth'
+    'body': 'extrusionDepth()'
+  'flatness':
+    'prefix': 'flatness'
+    'body': 'flatness()'
+  'font':
+    'prefix': 'font'
+    'body': 'font()'
+  'isWrapped':
+    'prefix': 'isWrapped'
+    'body': 'isWrapped()'
+  'setAlignmentMode:':
+    'prefix': 'setAlignmentMode:'
+    'body': 'setAlignmentMode(${1:NSString* alignmentMode})'
+  'setChamferProfile:':
+    'prefix': 'setChamferProfile:'
+    'body': 'setChamferProfile(${1:NSBezierPath* chamferProfile})'
+  'setChamferRadius:':
+    'prefix': 'setChamferRadius:'
+    'body': 'setChamferRadius(${1:CGFloat chamferRadius})'
+  'setChamferSegmentCount:':
+    'prefix': 'setChamferSegmentCount:'
+    'body': 'setChamferSegmentCount(${1:NSInteger chamferSegmentCount})'
+  'setContainerFrame:':
+    'prefix': 'setContainerFrame:'
+    'body': 'setContainerFrame(${1:CGRect containerFrame})'
+  'setExtrusionDepth:':
+    'prefix': 'setExtrusionDepth:'
+    'body': 'setExtrusionDepth(${1:CGFloat extrusionDepth})'
+  'setFlatness:':
+    'prefix': 'setFlatness:'
+    'body': 'setFlatness(${1:CGFloat flatness})'
+  'setFont:':
+    'prefix': 'setFont:'
+    'body': 'setFont(${1:NSFont* font})'
+  'setString:':
+    'prefix': 'setString:'
+    'body': 'setString(${1:id string})'
+  'setTruncationMode:':
+    'prefix': 'setTruncationMode:'
+    'body': 'setTruncationMode(${1:NSString* truncationMode})'
+  'setWrapped:':
+    'prefix': 'setWrapped:'
+    'body': 'setWrapped(${1:BOOL wrapped})'
+  'string':
+    'prefix': 'string'
+    'body': 'string()'
+  'textSize':
+    'prefix': 'textSize'
+    'body': 'textSize()'
+  'SCNText.textWithString:extrusionDepth:':
+    'prefix': 'textWithString:extrusionDepth:'
+    'body': 'SCNText.textWithString(${1:id string}, extrusionDepth:${2:CGFloat extrusionDepth})'
+  'truncationMode':
+    'prefix': 'truncationMode'
+    'body': 'truncationMode()'
+  'pipeRadius':
+    'prefix': 'pipeRadius'
+    'body': 'pipeRadius()'
+  'pipeSegmentCount':
+    'prefix': 'pipeSegmentCount'
+    'body': 'pipeSegmentCount()'
+  'ringRadius':
+    'prefix': 'ringRadius'
+    'body': 'ringRadius()'
+  'ringSegmentCount':
+    'prefix': 'ringSegmentCount'
+    'body': 'ringSegmentCount()'
+  'setPipeRadius:':
+    'prefix': 'setPipeRadius:'
+    'body': 'setPipeRadius(${1:CGFloat pipeRadius})'
+  'setPipeSegmentCount:':
+    'prefix': 'setPipeSegmentCount:'
+    'body': 'setPipeSegmentCount(${1:NSInteger pipeSegmentCount})'
+  'setRingRadius:':
+    'prefix': 'setRingRadius:'
+    'body': 'setRingRadius(${1:CGFloat ringRadius})'
+  'setRingSegmentCount:':
+    'prefix': 'setRingSegmentCount:'
+    'body': 'setRingSegmentCount(${1:NSInteger ringSegmentCount})'
+  'SCNTorus.torusWithRingRadius:pipeRadius:':
+    'prefix': 'torusWithRingRadius:pipeRadius:'
+    'body': 'SCNTorus.torusWithRingRadius(${1:CGFloat ringRadius}, pipeRadius:${2:CGFloat pipeRadius})'
+  'SCNTransaction.animationDuration':
+    'prefix': 'animationDuration'
+    'body': 'SCNTransaction.animationDuration()'
+  'SCNTransaction.animationTimingFunction':
+    'prefix': 'animationTimingFunction'
+    'body': 'SCNTransaction.animationTimingFunction()'
+  'SCNTransaction.begin':
+    'prefix': 'begin'
+    'body': 'SCNTransaction.begin()'
+  'SCNTransaction.commit':
+    'prefix': 'commit'
+    'body': 'SCNTransaction.commit()'
+  'SCNTransaction.completionBlock':
+    'prefix': 'completionBlock'
+    'body': 'SCNTransaction.completionBlock()'
+  'SCNTransaction.disableActions':
+    'prefix': 'disableActions'
+    'body': 'SCNTransaction.disableActions()'
+  'SCNTransaction.flush':
+    'prefix': 'flush'
+    'body': 'SCNTransaction.flush()'
+  'SCNTransaction.lock':
+    'prefix': 'lock'
+    'body': 'SCNTransaction.lock()'
+  'SCNTransaction.setAnimationDuration:':
+    'prefix': 'setAnimationDuration:'
+    'body': 'SCNTransaction.setAnimationDuration(${1:CFTimeInterval duration})'
+  'SCNTransaction.setAnimationTimingFunction:':
+    'prefix': 'setAnimationTimingFunction:'
+    'body': 'SCNTransaction.setAnimationTimingFunction(${1:CAMediaTimingFunction* function})'
+  'SCNTransaction.setCompletionBlock:':
+    'prefix': 'setCompletionBlock:'
+    'body': 'SCNTransaction.setCompletionBlock(${1:void (^)(void) block})'
+  'SCNTransaction.setDisableActions:':
+    'prefix': 'setDisableActions:'
+    'body': 'SCNTransaction.setDisableActions(${1:BOOL flag})'
+  'SCNTransaction.setValue:forKey:':
+    'prefix': 'setValue:forKey:'
+    'body': 'SCNTransaction.setValue(${1:id anObject}, forKey:${2:NSString* key})'
+  'SCNTransaction.unlock':
+    'prefix': 'unlock'
+    'body': 'SCNTransaction.unlock()'
+  'SCNTransaction.valueForKey:':
+    'prefix': 'valueForKey:'
+    'body': 'SCNTransaction.valueForKey(${1:NSString* key})'
+  'SCNTransformConstraint.transformConstraintInWorldSpace:withBlock:':
+    'prefix': 'transformConstraintInWorldSpace:withBlock:'
+    'body': 'SCNTransformConstraint.transformConstraintInWorldSpace(${1:BOOL world}, withBlock:${2:CATransform3D (^)(SCNNode *, CATransform3D) block})'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'heightSegmentCount':
+    'prefix': 'heightSegmentCount'
+    'body': 'heightSegmentCount()'
+  'innerRadius':
+    'prefix': 'innerRadius'
+    'body': 'innerRadius()'
+  'outerRadius':
+    'prefix': 'outerRadius'
+    'body': 'outerRadius()'
+  'radialSegmentCount':
+    'prefix': 'radialSegmentCount'
+    'body': 'radialSegmentCount()'
+  'setHeight:':
+    'prefix': 'setHeight:'
+    'body': 'setHeight(${1:CGFloat height})'
+  'setHeightSegmentCount:':
+    'prefix': 'setHeightSegmentCount:'
+    'body': 'setHeightSegmentCount(${1:NSInteger heightSegmentCount})'
+  'setInnerRadius:':
+    'prefix': 'setInnerRadius:'
+    'body': 'setInnerRadius(${1:CGFloat innerRadius})'
+  'setOuterRadius:':
+    'prefix': 'setOuterRadius:'
+    'body': 'setOuterRadius(${1:CGFloat outerRadius})'
+  'setRadialSegmentCount:':
+    'prefix': 'setRadialSegmentCount:'
+    'body': 'setRadialSegmentCount(${1:NSInteger radialSegmentCount})'
+  'SCNTube.tubeWithInnerRadius:outerRadius:height:':
+    'prefix': 'tubeWithInnerRadius:outerRadius:height:'
+    'body': 'SCNTube.tubeWithInnerRadius(${1:CGFloat innerRadius}, outerRadius:${2:CGFloat outerRadius}, height:${3:CGFloat height})'
+  'allowsCameraControl':
+    'prefix': 'allowsCameraControl'
+    'body': 'allowsCameraControl()'
+  'backgroundColor':
+    'prefix': 'backgroundColor'
+    'body': 'backgroundColor()'
+  'initWithFrame:options:':
+    'prefix': 'initWithFrame:options:'
+    'body': 'initWithFrame(${1:NSRect frame}, options:${2:NSDictionary* options})'
+  'openGLContext':
+    'prefix': 'openGLContext'
+    'body': 'openGLContext()'
+  'pause:':
+    'prefix': 'pause:'
+    'body': 'pause(${1:id sender})'
+  'pixelFormat':
+    'prefix': 'pixelFormat'
+    'body': 'pixelFormat()'
+  'play:':
+    'prefix': 'play:'
+    'body': 'play(${1:id sender})'
+  'scene':
+    'prefix': 'scene'
+    'body': 'scene()'
+  'setAllowsCameraControl:':
+    'prefix': 'setAllowsCameraControl:'
+    'body': 'setAllowsCameraControl(${1:BOOL allowsCameraControl})'
+  'setBackgroundColor:':
+    'prefix': 'setBackgroundColor:'
+    'body': 'setBackgroundColor(${1:NSColor* backgroundColor})'
+  'setOpenGLContext:':
+    'prefix': 'setOpenGLContext:'
+    'body': 'setOpenGLContext(${1:NSOpenGLContext* openGLContext})'
+  'setPixelFormat:':
+    'prefix': 'setPixelFormat:'
+    'body': 'setPixelFormat(${1:NSOpenGLPixelFormat* pixelFormat})'
+  'setScene:':
+    'prefix': 'setScene:'
+    'body': 'setScene(${1:SCNScene* scene})'
+  'stop:':
+    'prefix': 'stop:'
+    'body': 'stop(${1:id sender})'
+  'addAnimation:forKey:':
+    'prefix': 'addAnimation:forKey:'
+    'body': 'addAnimation(${1:CAAnimation* animation}, forKey:${2:NSString* key})'
+  'animationForKey:':
+    'prefix': 'animationForKey:'
+    'body': 'animationForKey(${1:NSString* key})'
+  'animationKeys':
+    'prefix': 'animationKeys'
+    'body': 'animationKeys()'
+  'isAnimationForKeyPaused:':
+    'prefix': 'isAnimationForKeyPaused:'
+    'body': 'isAnimationForKeyPaused(${1:NSString* key})'
+  'pauseAnimationForKey:':
+    'prefix': 'pauseAnimationForKey:'
+    'body': 'pauseAnimationForKey(${1:NSString* key})'
+  'removeAllAnimations':
+    'prefix': 'removeAllAnimations'
+    'body': 'removeAllAnimations()'
+  'removeAnimationForKey:':
+    'prefix': 'removeAnimationForKey:'
+    'body': 'removeAnimationForKey(${1:NSString* key})'
+  'resumeAnimationForKey:':
+    'prefix': 'resumeAnimationForKey:'
+    'body': 'resumeAnimationForKey(${1:NSString* key})'
+  'getBoundingBoxMin:max:':
+    'prefix': 'getBoundingBoxMin:max:'
+    'body': 'getBoundingBoxMin(${1:SCNVector3* min}, max:${2:SCNVector3* max})'
+  'getBoundingSphereCenter:radius:':
+    'prefix': 'getBoundingSphereCenter:radius:'
+    'body': 'getBoundingSphereCenter(${1:SCNVector3* center}, radius:${2:CGFloat* radius})'
+  'setBoundingBoxMin:max:':
+    'prefix': 'setBoundingBoxMin:max:'
+    'body': 'setBoundingBoxMin(${1:SCNVector3* min}, max:${2:SCNVector3* max})'
+  'renderNode:renderer:arguments:':
+    'prefix': 'renderNode:renderer:arguments:'
+    'body': 'renderNode(${1:SCNNode* node}, renderer:${2:SCNRenderer* renderer}, arguments:${3:NSDictionary* arguments})'
+  'program:bindValueForSymbol:atLocation:programID:renderer:':
+    'prefix': 'program:bindValueForSymbol:atLocation:programID:renderer:'
+    'body': 'program(${1:SCNProgram* program}, bindValueForSymbol:${2:NSString* symbol}, atLocation:${3:unsigned int location}, programID:${4:unsigned int programID}, renderer:${5:SCNRenderer* renderer})'
+  'program:handleError:':
+    'prefix': 'program:handleError:'
+    'body': 'program(${1:SCNProgram* program}, handleError:${2:NSError* error})'
+  'program:unbindValueForSymbol:atLocation:programID:renderer:':
+    'prefix': 'program:unbindValueForSymbol:atLocation:programID:renderer:'
+    'body': 'program(${1:SCNProgram* program}, unbindValueForSymbol:${2:NSString* symbol}, atLocation:${3:unsigned int location}, programID:${4:unsigned int programID}, renderer:${5:SCNRenderer* renderer})'
+  'programIsOpaque:':
+    'prefix': 'programIsOpaque:'
+    'body': 'programIsOpaque(${1:SCNProgram* program})'
+  'writeImage:withSceneDocumentURL:originalImageURL:':
+    'prefix': 'writeImage:withSceneDocumentURL:originalImageURL:'
+    'body': 'writeImage(${1:NSImage* image}, withSceneDocumentURL:${2:NSURL* documentURL}, originalImageURL:${3:NSURL* originalImageURL})'
+  'autoenablesDefaultLighting':
+    'prefix': 'autoenablesDefaultLighting'
+    'body': 'autoenablesDefaultLighting()'
+  'context':
+    'prefix': 'context'
+    'body': 'context()'
+  'currentTime':
+    'prefix': 'currentTime'
+    'body': 'currentTime()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'hitTest:options:':
+    'prefix': 'hitTest:options:'
+    'body': 'hitTest(${1:CGPoint thePoint}, options:${2:NSDictionary* options})'
+  'isJitteringEnabled':
+    'prefix': 'isJitteringEnabled'
+    'body': 'isJitteringEnabled()'
+  'isNodeInsideFrustum:withPointOfView:':
+    'prefix': 'isNodeInsideFrustum:withPointOfView:'
+    'body': 'isNodeInsideFrustum(${1:SCNNode* node}, withPointOfView:${2:SCNNode* pointOfView})'
+  'isPlaying':
+    'prefix': 'isPlaying'
+    'body': 'isPlaying()'
+  'loops':
+    'prefix': 'loops'
+    'body': 'loops()'
+  'pointOfView':
+    'prefix': 'pointOfView'
+    'body': 'pointOfView()'
+  'prepareObject:shouldAbortBlock:':
+    'prefix': 'prepareObject:shouldAbortBlock:'
+    'body': 'prepareObject(${1:id object}, shouldAbortBlock:${2:BOOL (^)() block})'
+  'projectPoint:':
+    'prefix': 'projectPoint:'
+    'body': 'projectPoint(${1:SCNVector3 point})'
+  'setAutoenablesDefaultLighting:':
+    'prefix': 'setAutoenablesDefaultLighting:'
+    'body': 'setAutoenablesDefaultLighting(${1:BOOL autoenablesDefaultLighting})'
+  'setCurrentTime:':
+    'prefix': 'setCurrentTime:'
+    'body': 'setCurrentTime(${1:NSTimeInterval currentTime})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setJitteringEnabled:':
+    'prefix': 'setJitteringEnabled:'
+    'body': 'setJitteringEnabled(${1:BOOL jitteringEnabled})'
+  'setLoops:':
+    'prefix': 'setLoops:'
+    'body': 'setLoops(${1:BOOL loops})'
+  'setPlaying:':
+    'prefix': 'setPlaying:'
+    'body': 'setPlaying(${1:BOOL playing})'
+  'setPointOfView:':
+    'prefix': 'setPointOfView:'
+    'body': 'setPointOfView(${1:SCNNode* pointOfView})'
+  'setShowsStatistics:':
+    'prefix': 'setShowsStatistics:'
+    'body': 'setShowsStatistics(${1:BOOL showsStatistics})'
+  'showsStatistics':
+    'prefix': 'showsStatistics'
+    'body': 'showsStatistics()'
+  'unprojectPoint:':
+    'prefix': 'unprojectPoint:'
+    'body': 'unprojectPoint(${1:SCNVector3 point})'
+  'renderer:didRenderScene:atTime:':
+    'prefix': 'renderer:didRenderScene:atTime:'
+    'body': 'renderer(${1:id aRenderer}, didRenderScene:${2:SCNScene* scene}, atTime:${3:NSTimeInterval time})'
+  'renderer:willRenderScene:atTime:':
+    'prefix': 'renderer:willRenderScene:atTime:'
+    'body': 'renderer(${1:id aRenderer}, willRenderScene:${2:SCNScene* scene}, atTime:${3:NSTimeInterval time})'
+  'handleBindingOfSymbol:usingBlock:':
+    'prefix': 'handleBindingOfSymbol:usingBlock:'
+    'body': 'handleBindingOfSymbol(${1:NSString* symbol}, usingBlock:${2:SCNBindingBlock block})'
+  'handleUnbindingOfSymbol:usingBlock:':
+    'prefix': 'handleUnbindingOfSymbol:usingBlock:'
+    'body': 'handleUnbindingOfSymbol(${1:NSString* symbol}, usingBlock:${2:SCNBindingBlock block})'
+  'program':
+    'prefix': 'program'
+    'body': 'program()'
+  'setProgram:':
+    'prefix': 'setProgram:'
+    'body': 'setProgram(${1:SCNProgram* program})'
+  'setShaderModifiers:':
+    'prefix': 'setShaderModifiers:'
+    'body': 'setShaderModifiers(${1:NSDictionary* shaderModifiers})'
+  'shaderModifiers':
+    'prefix': 'shaderModifiers'
+    'body': 'shaderModifiers()'

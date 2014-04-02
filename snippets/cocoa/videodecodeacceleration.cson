@@ -1,0 +1,46 @@
+'.source.rubymotion':
+  'kVDADecoderConfiguration_Height (CFStringRef)':
+    'prefix': 'kVDADecoderConfiguration_Height'
+    'body': 'KVDADecoderConfiguration_Height'
+  'kVDADecoderConfiguration_SourceFormat (CFStringRef)':
+    'prefix': 'kVDADecoderConfiguration_SourceFormat'
+    'body': 'KVDADecoderConfiguration_SourceFormat'
+  'kVDADecoderConfiguration_Width (CFStringRef)':
+    'prefix': 'kVDADecoderConfiguration_Width'
+    'body': 'KVDADecoderConfiguration_Width'
+  'kVDADecoderConfiguration_avcCData (CFStringRef)':
+    'prefix': 'kVDADecoderConfiguration_avcCData'
+    'body': 'KVDADecoderConfiguration_avcCData'
+  'kVDADecoderConfigurationError (-12472)':
+    'prefix': 'kVDADecoderConfigurationError'
+    'body': 'KVDADecoderConfigurationError'
+  'kVDADecoderDecodeFlags_DontEmitFrame (1)':
+    'prefix': 'kVDADecoderDecodeFlags_DontEmitFrame'
+    'body': 'KVDADecoderDecodeFlags_DontEmitFrame'
+  'kVDADecoderDecoderFailedErr (-12473)':
+    'prefix': 'kVDADecoderDecoderFailedErr'
+    'body': 'KVDADecoderDecoderFailedErr'
+  'kVDADecoderFlush_EmitFrames (1)':
+    'prefix': 'kVDADecoderFlush_EmitFrames'
+    'body': 'KVDADecoderFlush_EmitFrames'
+  'kVDADecoderFormatNotSupportedErr (-12471)':
+    'prefix': 'kVDADecoderFormatNotSupportedErr'
+    'body': 'KVDADecoderFormatNotSupportedErr'
+  'kVDADecoderHardwareNotSupportedErr (-12470)':
+    'prefix': 'kVDADecoderHardwareNotSupportedErr'
+    'body': 'KVDADecoderHardwareNotSupportedErr'
+  'kVDADecoderNoErr (0)':
+    'prefix': 'kVDADecoderNoErr'
+    'body': 'KVDADecoderNoErr'
+  'VDADecoderCreate':
+    'prefix': 'VDADecoderCreate'
+    'body': 'VDADecoderCreate(${1:CFDictionaryRef decoderConfiguration}, ${2:CFDictionaryRef destinationImageBufferAttributes}, ${3:VDADecoderOutputCallback* outputCallback}, ${4:void* decoderOutputCallbackRefcon}, ${5:VDADecoder* decoderOut})'
+  'VDADecoderDecode':
+    'prefix': 'VDADecoderDecode'
+    'body': 'VDADecoderDecode(${1:VDADecoder decoder}, ${2:uint32_t decodeFlags}, ${3:CFTypeRef compressedBuffer}, ${4:CFDictionaryRef frameInfo})'
+  'VDADecoderDestroy':
+    'prefix': 'VDADecoderDestroy'
+    'body': 'VDADecoderDestroy(${1:VDADecoder decoder})'
+  'VDADecoderFlush':
+    'prefix': 'VDADecoderFlush'
+    'body': 'VDADecoderFlush(${1:VDADecoder decoder}, ${2:uint32_t flushFlags})'

@@ -1,0 +1,196 @@
+'.source.rubymotion':
+  'kQLPreviewContentIDScheme (CFStringRef)':
+    'prefix': 'kQLPreviewContentIDScheme'
+    'body': 'KQLPreviewContentIDScheme'
+  'kQLPreviewOptionCursorKey (CFStringRef)':
+    'prefix': 'kQLPreviewOptionCursorKey'
+    'body': 'KQLPreviewOptionCursorKey'
+  'kQLPreviewPropertyAttachmentDataKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyAttachmentDataKey'
+    'body': 'KQLPreviewPropertyAttachmentDataKey'
+  'kQLPreviewPropertyAttachmentsKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyAttachmentsKey'
+    'body': 'KQLPreviewPropertyAttachmentsKey'
+  'kQLPreviewPropertyBaseBundlePathKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyBaseBundlePathKey'
+    'body': 'KQLPreviewPropertyBaseBundlePathKey'
+  'kQLPreviewPropertyCursorKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyCursorKey'
+    'body': 'KQLPreviewPropertyCursorKey'
+  'kQLPreviewPropertyDisplayNameKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyDisplayNameKey'
+    'body': 'KQLPreviewPropertyDisplayNameKey'
+  'kQLPreviewPropertyHeightKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyHeightKey'
+    'body': 'KQLPreviewPropertyHeightKey'
+  'kQLPreviewPropertyMIMETypeKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyMIMETypeKey'
+    'body': 'KQLPreviewPropertyMIMETypeKey'
+  'kQLPreviewPropertyPDFStyleKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyPDFStyleKey'
+    'body': 'KQLPreviewPropertyPDFStyleKey'
+  'kQLPreviewPropertyStringEncodingKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyStringEncodingKey'
+    'body': 'KQLPreviewPropertyStringEncodingKey'
+  'kQLPreviewPropertyTextEncodingNameKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyTextEncodingNameKey'
+    'body': 'KQLPreviewPropertyTextEncodingNameKey'
+  'kQLPreviewPropertyWidthKey (CFStringRef)':
+    'prefix': 'kQLPreviewPropertyWidthKey'
+    'body': 'KQLPreviewPropertyWidthKey'
+  'kQLThumbnailOptionIconModeKey (CFStringRef)':
+    'prefix': 'kQLThumbnailOptionIconModeKey'
+    'body': 'KQLThumbnailOptionIconModeKey'
+  'kQLThumbnailOptionScaleFactorKey (CFStringRef)':
+    'prefix': 'kQLThumbnailOptionScaleFactorKey'
+    'body': 'KQLThumbnailOptionScaleFactorKey'
+  'kQLThumbnailPropertyBadgeImageKey (CFStringRef)':
+    'prefix': 'kQLThumbnailPropertyBadgeImageKey'
+    'body': 'KQLThumbnailPropertyBadgeImageKey'
+  'kQLThumbnailPropertyBaseBundlePathKey (CFStringRef)':
+    'prefix': 'kQLThumbnailPropertyBaseBundlePathKey'
+    'body': 'KQLThumbnailPropertyBaseBundlePathKey'
+  'kQLThumbnailPropertyExtensionKey (CFStringRef)':
+    'prefix': 'kQLThumbnailPropertyExtensionKey'
+    'body': 'KQLThumbnailPropertyExtensionKey'
+  'QUICKLOOK_VERSION (6220)':
+    'prefix': 'QUICKLOOK_VERSION'
+    'body': 'QUICKLOOK_VERSION'
+  'kQLPreviewPDFPagesWithThumbnailsOnLeftStyle (4)':
+    'prefix': 'kQLPreviewPDFPagesWithThumbnailsOnLeftStyle'
+    'body': 'KQLPreviewPDFPagesWithThumbnailsOnLeftStyle'
+  'kQLPreviewPDFPagesWithThumbnailsOnRightStyle (3)':
+    'prefix': 'kQLPreviewPDFPagesWithThumbnailsOnRightStyle'
+    'body': 'KQLPreviewPDFPagesWithThumbnailsOnRightStyle'
+  'kQLPreviewPDFStandardStyle (0)':
+    'prefix': 'kQLPreviewPDFStandardStyle'
+    'body': 'KQLPreviewPDFStandardStyle'
+  'kQLReturnHasMore (44810)':
+    'prefix': 'kQLReturnHasMore'
+    'body': 'KQLReturnHasMore'
+  'kQLReturnMask (44800)':
+    'prefix': 'kQLReturnMask'
+    'body': 'KQLReturnMask'
+  'kQLReturnNoError (0)':
+    'prefix': 'kQLReturnNoError'
+    'body': 'KQLReturnNoError'
+  'QLPreviewRequestCopyContentUTI':
+    'prefix': 'QLPreviewRequestCopyContentUTI'
+    'body': 'QLPreviewRequestCopyContentUTI(${1:QLPreviewRequestRef preview})'
+  'QLPreviewRequestCopyOptions':
+    'prefix': 'QLPreviewRequestCopyOptions'
+    'body': 'QLPreviewRequestCopyOptions(${1:QLPreviewRequestRef preview})'
+  'QLPreviewRequestCopyURL':
+    'prefix': 'QLPreviewRequestCopyURL'
+    'body': 'QLPreviewRequestCopyURL(${1:QLPreviewRequestRef preview})'
+  'QLPreviewRequestCreateContext':
+    'prefix': 'QLPreviewRequestCreateContext'
+    'body': 'QLPreviewRequestCreateContext(${1:QLPreviewRequestRef preview}, ${2:CGSize size}, ${3:Boolean isBitmap}, ${4:CFDictionaryRef properties})'
+  'QLPreviewRequestCreatePDFContext':
+    'prefix': 'QLPreviewRequestCreatePDFContext'
+    'body': 'QLPreviewRequestCreatePDFContext(${1:QLPreviewRequestRef preview}, ${2:CGRect* mediaBox}, ${3:CFDictionaryRef auxiliaryInfo}, ${4:CFDictionaryRef properties})'
+  'QLPreviewRequestFlushContext':
+    'prefix': 'QLPreviewRequestFlushContext'
+    'body': 'QLPreviewRequestFlushContext(${1:QLPreviewRequestRef preview}, ${2:CGContextRef context})'
+  'QLPreviewRequestGetDocumentObject':
+    'prefix': 'QLPreviewRequestGetDocumentObject'
+    'body': 'QLPreviewRequestGetDocumentObject(${1:QLPreviewRequestRef preview})'
+  'QLPreviewRequestGetGeneratorBundle':
+    'prefix': 'QLPreviewRequestGetGeneratorBundle'
+    'body': 'QLPreviewRequestGetGeneratorBundle(${1:QLPreviewRequestRef preview})'
+  'QLPreviewRequestGetTypeID':
+    'prefix': 'QLPreviewRequestGetTypeID'
+    'body': 'QLPreviewRequestGetTypeID()'
+  'QLPreviewRequestIsCancelled':
+    'prefix': 'QLPreviewRequestIsCancelled'
+    'body': 'QLPreviewRequestIsCancelled(${1:QLPreviewRequestRef preview})'
+  'QLPreviewRequestSetDataRepresentation':
+    'prefix': 'QLPreviewRequestSetDataRepresentation'
+    'body': 'QLPreviewRequestSetDataRepresentation(${1:QLPreviewRequestRef preview}, ${2:CFDataRef data}, ${3:CFStringRef contentTypeUTI}, ${4:CFDictionaryRef properties})'
+  'QLPreviewRequestSetDocumentObject':
+    'prefix': 'QLPreviewRequestSetDocumentObject'
+    'body': 'QLPreviewRequestSetDocumentObject(${1:QLPreviewRequestRef preview}, ${2:void* object}, ${3:CFArrayCallBacks* callbacks})'
+  'QLPreviewRequestSetURLRepresentation':
+    'prefix': 'QLPreviewRequestSetURLRepresentation'
+    'body': 'QLPreviewRequestSetURLRepresentation(${1:QLPreviewRequestRef preview}, ${2:CFURLRef url}, ${3:CFStringRef contentTypeUTI}, ${4:CFDictionaryRef properties})'
+  'QLThumbnailCancel':
+    'prefix': 'QLThumbnailCancel'
+    'body': 'QLThumbnailCancel(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailCopyDocumentURL':
+    'prefix': 'QLThumbnailCopyDocumentURL'
+    'body': 'QLThumbnailCopyDocumentURL(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailCopyImage':
+    'prefix': 'QLThumbnailCopyImage'
+    'body': 'QLThumbnailCopyImage(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailCopyOptions':
+    'prefix': 'QLThumbnailCopyOptions'
+    'body': 'QLThumbnailCopyOptions(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailCreate':
+    'prefix': 'QLThumbnailCreate'
+    'body': 'QLThumbnailCreate(${1:CFAllocatorRef allocator}, ${2:CFURLRef url}, ${3:CGSize maxThumbnailSize}, ${4:CFDictionaryRef options})'
+  'QLThumbnailDispatchAsync':
+    'prefix': 'QLThumbnailDispatchAsync'
+    'body': 'QLThumbnailDispatchAsync(${1:QLThumbnailRef thumbnail}, ${2:dispatch_queue_t queue}, ${3:dispatch_block_t completion})'
+  'QLThumbnailGetContentRect':
+    'prefix': 'QLThumbnailGetContentRect'
+    'body': 'QLThumbnailGetContentRect(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailGetMaximumSize':
+    'prefix': 'QLThumbnailGetMaximumSize'
+    'body': 'QLThumbnailGetMaximumSize(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailGetTypeID':
+    'prefix': 'QLThumbnailGetTypeID'
+    'body': 'QLThumbnailGetTypeID()'
+  'QLThumbnailImageCreate':
+    'prefix': 'QLThumbnailImageCreate'
+    'body': 'QLThumbnailImageCreate(${1:CFAllocatorRef allocator}, ${2:CFURLRef url}, ${3:CGSize maxThumbnailSize}, ${4:CFDictionaryRef options})'
+  'QLThumbnailIsCancelled':
+    'prefix': 'QLThumbnailIsCancelled'
+    'body': 'QLThumbnailIsCancelled(${1:QLThumbnailRef thumbnail})'
+  'QLThumbnailRequestCopyContentUTI':
+    'prefix': 'QLThumbnailRequestCopyContentUTI'
+    'body': 'QLThumbnailRequestCopyContentUTI(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestCopyOptions':
+    'prefix': 'QLThumbnailRequestCopyOptions'
+    'body': 'QLThumbnailRequestCopyOptions(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestCopyURL':
+    'prefix': 'QLThumbnailRequestCopyURL'
+    'body': 'QLThumbnailRequestCopyURL(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestCreateContext':
+    'prefix': 'QLThumbnailRequestCreateContext'
+    'body': 'QLThumbnailRequestCreateContext(${1:QLThumbnailRequestRef thumbnail}, ${2:CGSize size}, ${3:Boolean isBitmap}, ${4:CFDictionaryRef properties})'
+  'QLThumbnailRequestFlushContext':
+    'prefix': 'QLThumbnailRequestFlushContext'
+    'body': 'QLThumbnailRequestFlushContext(${1:QLThumbnailRequestRef thumbnail}, ${2:CGContextRef context})'
+  'QLThumbnailRequestGetDocumentObject':
+    'prefix': 'QLThumbnailRequestGetDocumentObject'
+    'body': 'QLThumbnailRequestGetDocumentObject(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestGetGeneratorBundle':
+    'prefix': 'QLThumbnailRequestGetGeneratorBundle'
+    'body': 'QLThumbnailRequestGetGeneratorBundle(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestGetMaximumSize':
+    'prefix': 'QLThumbnailRequestGetMaximumSize'
+    'body': 'QLThumbnailRequestGetMaximumSize(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestGetTypeID':
+    'prefix': 'QLThumbnailRequestGetTypeID'
+    'body': 'QLThumbnailRequestGetTypeID()'
+  'QLThumbnailRequestIsCancelled':
+    'prefix': 'QLThumbnailRequestIsCancelled'
+    'body': 'QLThumbnailRequestIsCancelled(${1:QLThumbnailRequestRef thumbnail})'
+  'QLThumbnailRequestSetDocumentObject':
+    'prefix': 'QLThumbnailRequestSetDocumentObject'
+    'body': 'QLThumbnailRequestSetDocumentObject(${1:QLThumbnailRequestRef thumbnail}, ${2:void* object}, ${3:CFArrayCallBacks* callbacks})'
+  'QLThumbnailRequestSetImage':
+    'prefix': 'QLThumbnailRequestSetImage'
+    'body': 'QLThumbnailRequestSetImage(${1:QLThumbnailRequestRef thumbnail}, ${2:CGImageRef image}, ${3:CFDictionaryRef properties})'
+  'QLThumbnailRequestSetImageAtURL':
+    'prefix': 'QLThumbnailRequestSetImageAtURL'
+    'body': 'QLThumbnailRequestSetImageAtURL(${1:QLThumbnailRequestRef thumbnail}, ${2:CFURLRef url}, ${3:CFDictionaryRef properties})'
+  'QLThumbnailRequestSetImageWithData':
+    'prefix': 'QLThumbnailRequestSetImageWithData'
+    'body': 'QLThumbnailRequestSetImageWithData(${1:QLThumbnailRequestRef thumbnail}, ${2:CFDataRef data}, ${3:CFDictionaryRef properties})'
+  'QLThumbnailRequestSetThumbnailWithDataRepresentation':
+    'prefix': 'QLThumbnailRequestSetThumbnailWithDataRepresentation'
+    'body': 'QLThumbnailRequestSetThumbnailWithDataRepresentation(${1:QLThumbnailRequestRef thumbnail}, ${2:CFDataRef data}, ${3:CFStringRef contentTypeUTI}, ${4:CFDictionaryRef previewProperties}, ${5:CFDictionaryRef properties})'
+  'QLThumbnailRequestSetThumbnailWithURLRepresentation':
+    'prefix': 'QLThumbnailRequestSetThumbnailWithURLRepresentation'
+    'body': 'QLThumbnailRequestSetThumbnailWithURLRepresentation(${1:QLThumbnailRequestRef thumbnail}, ${2:CFURLRef url}, ${3:CFStringRef contentTypeUTI}, ${4:CFDictionaryRef previewProperties}, ${5:CFDictionaryRef properties})'

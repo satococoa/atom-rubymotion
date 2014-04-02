@@ -1,0 +1,1381 @@
+'.source.rubymotion':
+  'glutBitmap8By13 (void*)':
+    'prefix': 'glutBitmap8By13'
+    'body': 'glutBitmap8By13'
+  'glutBitmap9By15 (void*)':
+    'prefix': 'glutBitmap9By15'
+    'body': 'glutBitmap9By15'
+  'glutBitmapHelvetica10 (void*)':
+    'prefix': 'glutBitmapHelvetica10'
+    'body': 'glutBitmapHelvetica10'
+  'glutBitmapHelvetica12 (void*)':
+    'prefix': 'glutBitmapHelvetica12'
+    'body': 'glutBitmapHelvetica12'
+  'glutBitmapHelvetica18 (void*)':
+    'prefix': 'glutBitmapHelvetica18'
+    'body': 'glutBitmapHelvetica18'
+  'glutBitmapTimesRoman10 (void*)':
+    'prefix': 'glutBitmapTimesRoman10'
+    'body': 'glutBitmapTimesRoman10'
+  'glutBitmapTimesRoman24 (void*)':
+    'prefix': 'glutBitmapTimesRoman24'
+    'body': 'glutBitmapTimesRoman24'
+  'glutStrokeMonoRoman (void*)':
+    'prefix': 'glutStrokeMonoRoman'
+    'body': 'glutStrokeMonoRoman'
+  'glutStrokeRoman (void*)':
+    'prefix': 'glutStrokeRoman'
+    'body': 'glutStrokeRoman'
+  'BACKWARDS_INTERSECT (2)':
+    'prefix': 'BACKWARDS_INTERSECT'
+    'body': 'BACKWARDS_INTERSECT'
+  'BACK_CAP (4)':
+    'prefix': 'BACK_CAP'
+    'body': 'BACK_CAP'
+  'DEGENERATE_TOLERANCE (0.000002)':
+    'prefix': 'DEGENERATE_TOLERANCE'
+    'body': 'DEGENERATE_TOLERANCE'
+  'FILLET (5)':
+    'prefix': 'FILLET'
+    'body': 'FILLET'
+  'FRONT (1)':
+    'prefix': 'FRONT'
+    'body': 'FRONT'
+  'FRONT_CAP (3)':
+    'prefix': 'FRONT_CAP'
+    'body': 'FRONT_CAP'
+  'GLE_API_VERSION (228)':
+    'prefix': 'GLE_API_VERSION'
+    'body': 'GLE_API_VERSION'
+  'GLE_TEXTURE_ENABLE (65536)':
+    'prefix': 'GLE_TEXTURE_ENABLE'
+    'body': 'GLE_TEXTURE_ENABLE'
+  'GLE_TEXTURE_NORMAL_CYL (4)':
+    'prefix': 'GLE_TEXTURE_NORMAL_CYL'
+    'body': 'GLE_TEXTURE_NORMAL_CYL'
+  'GLE_TEXTURE_NORMAL_FLAT (2)':
+    'prefix': 'GLE_TEXTURE_NORMAL_FLAT'
+    'body': 'GLE_TEXTURE_NORMAL_FLAT'
+  'GLE_TEXTURE_NORMAL_MODEL_CYL (10)':
+    'prefix': 'GLE_TEXTURE_NORMAL_MODEL_CYL'
+    'body': 'GLE_TEXTURE_NORMAL_MODEL_CYL'
+  'GLE_TEXTURE_NORMAL_MODEL_FLAT (8)':
+    'prefix': 'GLE_TEXTURE_NORMAL_MODEL_FLAT'
+    'body': 'GLE_TEXTURE_NORMAL_MODEL_FLAT'
+  'GLE_TEXTURE_NORMAL_MODEL_SPH (12)':
+    'prefix': 'GLE_TEXTURE_NORMAL_MODEL_SPH'
+    'body': 'GLE_TEXTURE_NORMAL_MODEL_SPH'
+  'GLE_TEXTURE_NORMAL_SPH (6)':
+    'prefix': 'GLE_TEXTURE_NORMAL_SPH'
+    'body': 'GLE_TEXTURE_NORMAL_SPH'
+  'GLE_TEXTURE_STYLE_MASK (255)':
+    'prefix': 'GLE_TEXTURE_STYLE_MASK'
+    'body': 'GLE_TEXTURE_STYLE_MASK'
+  'GLE_TEXTURE_VERTEX_CYL (3)':
+    'prefix': 'GLE_TEXTURE_VERTEX_CYL'
+    'body': 'GLE_TEXTURE_VERTEX_CYL'
+  'GLE_TEXTURE_VERTEX_FLAT (1)':
+    'prefix': 'GLE_TEXTURE_VERTEX_FLAT'
+    'body': 'GLE_TEXTURE_VERTEX_FLAT'
+  'GLE_TEXTURE_VERTEX_MODEL_CYL (9)':
+    'prefix': 'GLE_TEXTURE_VERTEX_MODEL_CYL'
+    'body': 'GLE_TEXTURE_VERTEX_MODEL_CYL'
+  'GLE_TEXTURE_VERTEX_MODEL_FLAT (7)':
+    'prefix': 'GLE_TEXTURE_VERTEX_MODEL_FLAT'
+    'body': 'GLE_TEXTURE_VERTEX_MODEL_FLAT'
+  'GLE_TEXTURE_VERTEX_MODEL_SPH (11)':
+    'prefix': 'GLE_TEXTURE_VERTEX_MODEL_SPH'
+    'body': 'GLE_TEXTURE_VERTEX_MODEL_SPH'
+  'GLE_TEXTURE_VERTEX_SPH (5)':
+    'prefix': 'GLE_TEXTURE_VERTEX_SPH'
+    'body': 'GLE_TEXTURE_VERTEX_SPH'
+  'GLUT_3_2_CORE_PROFILE (2048)':
+    'prefix': 'GLUT_3_2_CORE_PROFILE'
+    'body': 'GLUT_3_2_CORE_PROFILE'
+  'GLUT_ACCUM (4)':
+    'prefix': 'GLUT_ACCUM'
+    'body': 'GLUT_ACCUM'
+  'GLUT_ACTIVE_ALT (4)':
+    'prefix': 'GLUT_ACTIVE_ALT'
+    'body': 'GLUT_ACTIVE_ALT'
+  'GLUT_ACTIVE_CTRL (2)':
+    'prefix': 'GLUT_ACTIVE_CTRL'
+    'body': 'GLUT_ACTIVE_CTRL'
+  'GLUT_ACTIVE_SHIFT (1)':
+    'prefix': 'GLUT_ACTIVE_SHIFT'
+    'body': 'GLUT_ACTIVE_SHIFT'
+  'GLUT_ALPHA (8)':
+    'prefix': 'GLUT_ALPHA'
+    'body': 'GLUT_ALPHA'
+  'GLUT_API_VERSION (5)':
+    'prefix': 'GLUT_API_VERSION'
+    'body': 'GLUT_API_VERSION'
+  'GLUT_BLUE (2)':
+    'prefix': 'GLUT_BLUE'
+    'body': 'GLUT_BLUE'
+  'GLUT_CURSOR_BOTTOM_LEFT_CORNER (19)':
+    'prefix': 'GLUT_CURSOR_BOTTOM_LEFT_CORNER'
+    'body': 'GLUT_CURSOR_BOTTOM_LEFT_CORNER'
+  'GLUT_CURSOR_BOTTOM_RIGHT_CORNER (18)':
+    'prefix': 'GLUT_CURSOR_BOTTOM_RIGHT_CORNER'
+    'body': 'GLUT_CURSOR_BOTTOM_RIGHT_CORNER'
+  'GLUT_CURSOR_BOTTOM_SIDE (13)':
+    'prefix': 'GLUT_CURSOR_BOTTOM_SIDE'
+    'body': 'GLUT_CURSOR_BOTTOM_SIDE'
+  'GLUT_CURSOR_CROSSHAIR (9)':
+    'prefix': 'GLUT_CURSOR_CROSSHAIR'
+    'body': 'GLUT_CURSOR_CROSSHAIR'
+  'GLUT_CURSOR_CYCLE (5)':
+    'prefix': 'GLUT_CURSOR_CYCLE'
+    'body': 'GLUT_CURSOR_CYCLE'
+  'GLUT_CURSOR_DESTROY (3)':
+    'prefix': 'GLUT_CURSOR_DESTROY'
+    'body': 'GLUT_CURSOR_DESTROY'
+  'GLUT_CURSOR_FULL_CROSSHAIR (102)':
+    'prefix': 'GLUT_CURSOR_FULL_CROSSHAIR'
+    'body': 'GLUT_CURSOR_FULL_CROSSHAIR'
+  'GLUT_CURSOR_HELP (4)':
+    'prefix': 'GLUT_CURSOR_HELP'
+    'body': 'GLUT_CURSOR_HELP'
+  'GLUT_CURSOR_INFO (2)':
+    'prefix': 'GLUT_CURSOR_INFO'
+    'body': 'GLUT_CURSOR_INFO'
+  'GLUT_CURSOR_INHERIT (100)':
+    'prefix': 'GLUT_CURSOR_INHERIT'
+    'body': 'GLUT_CURSOR_INHERIT'
+  'GLUT_CURSOR_LEFT_ARROW (1)':
+    'prefix': 'GLUT_CURSOR_LEFT_ARROW'
+    'body': 'GLUT_CURSOR_LEFT_ARROW'
+  'GLUT_CURSOR_LEFT_RIGHT (11)':
+    'prefix': 'GLUT_CURSOR_LEFT_RIGHT'
+    'body': 'GLUT_CURSOR_LEFT_RIGHT'
+  'GLUT_CURSOR_LEFT_SIDE (14)':
+    'prefix': 'GLUT_CURSOR_LEFT_SIDE'
+    'body': 'GLUT_CURSOR_LEFT_SIDE'
+  'GLUT_CURSOR_NONE (101)':
+    'prefix': 'GLUT_CURSOR_NONE'
+    'body': 'GLUT_CURSOR_NONE'
+  'GLUT_CURSOR_RIGHT_ARROW (0)':
+    'prefix': 'GLUT_CURSOR_RIGHT_ARROW'
+    'body': 'GLUT_CURSOR_RIGHT_ARROW'
+  'GLUT_CURSOR_RIGHT_SIDE (15)':
+    'prefix': 'GLUT_CURSOR_RIGHT_SIDE'
+    'body': 'GLUT_CURSOR_RIGHT_SIDE'
+  'GLUT_CURSOR_SPRAY (6)':
+    'prefix': 'GLUT_CURSOR_SPRAY'
+    'body': 'GLUT_CURSOR_SPRAY'
+  'GLUT_CURSOR_TEXT (8)':
+    'prefix': 'GLUT_CURSOR_TEXT'
+    'body': 'GLUT_CURSOR_TEXT'
+  'GLUT_CURSOR_TOP_LEFT_CORNER (16)':
+    'prefix': 'GLUT_CURSOR_TOP_LEFT_CORNER'
+    'body': 'GLUT_CURSOR_TOP_LEFT_CORNER'
+  'GLUT_CURSOR_TOP_RIGHT_CORNER (17)':
+    'prefix': 'GLUT_CURSOR_TOP_RIGHT_CORNER'
+    'body': 'GLUT_CURSOR_TOP_RIGHT_CORNER'
+  'GLUT_CURSOR_TOP_SIDE (12)':
+    'prefix': 'GLUT_CURSOR_TOP_SIDE'
+    'body': 'GLUT_CURSOR_TOP_SIDE'
+  'GLUT_CURSOR_UP_DOWN (10)':
+    'prefix': 'GLUT_CURSOR_UP_DOWN'
+    'body': 'GLUT_CURSOR_UP_DOWN'
+  'GLUT_CURSOR_WAIT (7)':
+    'prefix': 'GLUT_CURSOR_WAIT'
+    'body': 'GLUT_CURSOR_WAIT'
+  'GLUT_DEPTH (16)':
+    'prefix': 'GLUT_DEPTH'
+    'body': 'GLUT_DEPTH'
+  'GLUT_DEVICE_IGNORE_KEY_REPEAT (610)':
+    'prefix': 'GLUT_DEVICE_IGNORE_KEY_REPEAT'
+    'body': 'GLUT_DEVICE_IGNORE_KEY_REPEAT'
+  'GLUT_DEVICE_KEY_REPEAT (611)':
+    'prefix': 'GLUT_DEVICE_KEY_REPEAT'
+    'body': 'GLUT_DEVICE_KEY_REPEAT'
+  'GLUT_DISPLAY_MODE_POSSIBLE (400)':
+    'prefix': 'GLUT_DISPLAY_MODE_POSSIBLE'
+    'body': 'GLUT_DISPLAY_MODE_POSSIBLE'
+  'GLUT_DOUBLE (2)':
+    'prefix': 'GLUT_DOUBLE'
+    'body': 'GLUT_DOUBLE'
+  'GLUT_DOWN (0)':
+    'prefix': 'GLUT_DOWN'
+    'body': 'GLUT_DOWN'
+  'GLUT_ELAPSED_TIME (700)':
+    'prefix': 'GLUT_ELAPSED_TIME'
+    'body': 'GLUT_ELAPSED_TIME'
+  'GLUT_ENTERED (1)':
+    'prefix': 'GLUT_ENTERED'
+    'body': 'GLUT_ENTERED'
+  'GLUT_FCB_BUTTON_BOX (12)':
+    'prefix': 'GLUT_FCB_BUTTON_BOX'
+    'body': 'GLUT_FCB_BUTTON_BOX'
+  'GLUT_FCB_DIALS (13)':
+    'prefix': 'GLUT_FCB_DIALS'
+    'body': 'GLUT_FCB_DIALS'
+  'GLUT_FCB_DISPLAY (0)':
+    'prefix': 'GLUT_FCB_DISPLAY'
+    'body': 'GLUT_FCB_DISPLAY'
+  'GLUT_FCB_ENTRY (5)':
+    'prefix': 'GLUT_FCB_ENTRY'
+    'body': 'GLUT_FCB_ENTRY'
+  'GLUT_FCB_JOYSTICK (19)':
+    'prefix': 'GLUT_FCB_JOYSTICK'
+    'body': 'GLUT_FCB_JOYSTICK'
+  'GLUT_FCB_KEYBOARD (6)':
+    'prefix': 'GLUT_FCB_KEYBOARD'
+    'body': 'GLUT_FCB_KEYBOARD'
+  'GLUT_FCB_KEYBOARD_UP (7)':
+    'prefix': 'GLUT_FCB_KEYBOARD_UP'
+    'body': 'GLUT_FCB_KEYBOARD_UP'
+  'GLUT_FCB_MOTION (3)':
+    'prefix': 'GLUT_FCB_MOTION'
+    'body': 'GLUT_FCB_MOTION'
+  'GLUT_FCB_MOUSE (2)':
+    'prefix': 'GLUT_FCB_MOUSE'
+    'body': 'GLUT_FCB_MOUSE'
+  'GLUT_FCB_OVERLAY_DISPLAY (100)':
+    'prefix': 'GLUT_FCB_OVERLAY_DISPLAY'
+    'body': 'GLUT_FCB_OVERLAY_DISPLAY'
+  'GLUT_FCB_PASSIVE (4)':
+    'prefix': 'GLUT_FCB_PASSIVE'
+    'body': 'GLUT_FCB_PASSIVE'
+  'GLUT_FCB_RESHAPE (1)':
+    'prefix': 'GLUT_FCB_RESHAPE'
+    'body': 'GLUT_FCB_RESHAPE'
+  'GLUT_FCB_SELECT (101)':
+    'prefix': 'GLUT_FCB_SELECT'
+    'body': 'GLUT_FCB_SELECT'
+  'GLUT_FCB_SPACE_BUTTON (16)':
+    'prefix': 'GLUT_FCB_SPACE_BUTTON'
+    'body': 'GLUT_FCB_SPACE_BUTTON'
+  'GLUT_FCB_SPACE_MOTION (14)':
+    'prefix': 'GLUT_FCB_SPACE_MOTION'
+    'body': 'GLUT_FCB_SPACE_MOTION'
+  'GLUT_FCB_SPACE_ROTATE (15)':
+    'prefix': 'GLUT_FCB_SPACE_ROTATE'
+    'body': 'GLUT_FCB_SPACE_ROTATE'
+  'GLUT_FCB_SPECIAL (10)':
+    'prefix': 'GLUT_FCB_SPECIAL'
+    'body': 'GLUT_FCB_SPECIAL'
+  'GLUT_FCB_SPECIAL_UP (11)':
+    'prefix': 'GLUT_FCB_SPECIAL_UP'
+    'body': 'GLUT_FCB_SPECIAL_UP'
+  'GLUT_FCB_TABLET_BUTTON (18)':
+    'prefix': 'GLUT_FCB_TABLET_BUTTON'
+    'body': 'GLUT_FCB_TABLET_BUTTON'
+  'GLUT_FCB_TABLET_MOTION (17)':
+    'prefix': 'GLUT_FCB_TABLET_MOTION'
+    'body': 'GLUT_FCB_TABLET_MOTION'
+  'GLUT_FCB_TIMER (102)':
+    'prefix': 'GLUT_FCB_TIMER'
+    'body': 'GLUT_FCB_TIMER'
+  'GLUT_FCB_VISIBILITY (9)':
+    'prefix': 'GLUT_FCB_VISIBILITY'
+    'body': 'GLUT_FCB_VISIBILITY'
+  'GLUT_FCB_WINDOW_STATUS (8)':
+    'prefix': 'GLUT_FCB_WINDOW_STATUS'
+    'body': 'GLUT_FCB_WINDOW_STATUS'
+  'GLUT_FCB_WMCLOSE (20)':
+    'prefix': 'GLUT_FCB_WMCLOSE'
+    'body': 'GLUT_FCB_WMCLOSE'
+  'GLUT_FULLY_COVERED (3)':
+    'prefix': 'GLUT_FULLY_COVERED'
+    'body': 'GLUT_FULLY_COVERED'
+  'GLUT_FULLY_RETAINED (1)':
+    'prefix': 'GLUT_FULLY_RETAINED'
+    'body': 'GLUT_FULLY_RETAINED'
+  'GLUT_GAME_MODE_ACTIVE (0)':
+    'prefix': 'GLUT_GAME_MODE_ACTIVE'
+    'body': 'GLUT_GAME_MODE_ACTIVE'
+  'GLUT_GAME_MODE_DISPLAY_CHANGED (6)':
+    'prefix': 'GLUT_GAME_MODE_DISPLAY_CHANGED'
+    'body': 'GLUT_GAME_MODE_DISPLAY_CHANGED'
+  'GLUT_GAME_MODE_HEIGHT (3)':
+    'prefix': 'GLUT_GAME_MODE_HEIGHT'
+    'body': 'GLUT_GAME_MODE_HEIGHT'
+  'GLUT_GAME_MODE_PIXEL_DEPTH (4)':
+    'prefix': 'GLUT_GAME_MODE_PIXEL_DEPTH'
+    'body': 'GLUT_GAME_MODE_PIXEL_DEPTH'
+  'GLUT_GAME_MODE_POSSIBLE (1)':
+    'prefix': 'GLUT_GAME_MODE_POSSIBLE'
+    'body': 'GLUT_GAME_MODE_POSSIBLE'
+  'GLUT_GAME_MODE_REFRESH_RATE (5)':
+    'prefix': 'GLUT_GAME_MODE_REFRESH_RATE'
+    'body': 'GLUT_GAME_MODE_REFRESH_RATE'
+  'GLUT_GAME_MODE_WIDTH (2)':
+    'prefix': 'GLUT_GAME_MODE_WIDTH'
+    'body': 'GLUT_GAME_MODE_WIDTH'
+  'GLUT_GREEN (1)':
+    'prefix': 'GLUT_GREEN'
+    'body': 'GLUT_GREEN'
+  'GLUT_HAS_DIAL_AND_BUTTON_BOX (603)':
+    'prefix': 'GLUT_HAS_DIAL_AND_BUTTON_BOX'
+    'body': 'GLUT_HAS_DIAL_AND_BUTTON_BOX'
+  'GLUT_HAS_JOYSTICK (612)':
+    'prefix': 'GLUT_HAS_JOYSTICK'
+    'body': 'GLUT_HAS_JOYSTICK'
+  'GLUT_HAS_KEYBOARD (600)':
+    'prefix': 'GLUT_HAS_KEYBOARD'
+    'body': 'GLUT_HAS_KEYBOARD'
+  'GLUT_HAS_MOUSE (601)':
+    'prefix': 'GLUT_HAS_MOUSE'
+    'body': 'GLUT_HAS_MOUSE'
+  'GLUT_HAS_OVERLAY (802)':
+    'prefix': 'GLUT_HAS_OVERLAY'
+    'body': 'GLUT_HAS_OVERLAY'
+  'GLUT_HAS_SPACEBALL (602)':
+    'prefix': 'GLUT_HAS_SPACEBALL'
+    'body': 'GLUT_HAS_SPACEBALL'
+  'GLUT_HAS_TABLET (604)':
+    'prefix': 'GLUT_HAS_TABLET'
+    'body': 'GLUT_HAS_TABLET'
+  'GLUT_HIDDEN (0)':
+    'prefix': 'GLUT_HIDDEN'
+    'body': 'GLUT_HIDDEN'
+  'GLUT_INDEX (1)':
+    'prefix': 'GLUT_INDEX'
+    'body': 'GLUT_INDEX'
+  'GLUT_INIT_DISPLAY_MODE (504)':
+    'prefix': 'GLUT_INIT_DISPLAY_MODE'
+    'body': 'GLUT_INIT_DISPLAY_MODE'
+  'GLUT_INIT_WINDOW_HEIGHT (503)':
+    'prefix': 'GLUT_INIT_WINDOW_HEIGHT'
+    'body': 'GLUT_INIT_WINDOW_HEIGHT'
+  'GLUT_INIT_WINDOW_WIDTH (502)':
+    'prefix': 'GLUT_INIT_WINDOW_WIDTH'
+    'body': 'GLUT_INIT_WINDOW_WIDTH'
+  'GLUT_INIT_WINDOW_X (500)':
+    'prefix': 'GLUT_INIT_WINDOW_X'
+    'body': 'GLUT_INIT_WINDOW_X'
+  'GLUT_INIT_WINDOW_Y (501)':
+    'prefix': 'GLUT_INIT_WINDOW_Y'
+    'body': 'GLUT_INIT_WINDOW_Y'
+  'GLUT_JOYSTICK_AXES (615)':
+    'prefix': 'GLUT_JOYSTICK_AXES'
+    'body': 'GLUT_JOYSTICK_AXES'
+  'GLUT_JOYSTICK_BUTTONS (614)':
+    'prefix': 'GLUT_JOYSTICK_BUTTONS'
+    'body': 'GLUT_JOYSTICK_BUTTONS'
+  'GLUT_JOYSTICK_BUTTON_A (1)':
+    'prefix': 'GLUT_JOYSTICK_BUTTON_A'
+    'body': 'GLUT_JOYSTICK_BUTTON_A'
+  'GLUT_JOYSTICK_BUTTON_B (2)':
+    'prefix': 'GLUT_JOYSTICK_BUTTON_B'
+    'body': 'GLUT_JOYSTICK_BUTTON_B'
+  'GLUT_JOYSTICK_BUTTON_C (4)':
+    'prefix': 'GLUT_JOYSTICK_BUTTON_C'
+    'body': 'GLUT_JOYSTICK_BUTTON_C'
+  'GLUT_JOYSTICK_BUTTON_D (8)':
+    'prefix': 'GLUT_JOYSTICK_BUTTON_D'
+    'body': 'GLUT_JOYSTICK_BUTTON_D'
+  'GLUT_JOYSTICK_POLL_RATE (616)':
+    'prefix': 'GLUT_JOYSTICK_POLL_RATE'
+    'body': 'GLUT_JOYSTICK_POLL_RATE'
+  'GLUT_KEY_DOWN (103)':
+    'prefix': 'GLUT_KEY_DOWN'
+    'body': 'GLUT_KEY_DOWN'
+  'GLUT_KEY_END (107)':
+    'prefix': 'GLUT_KEY_END'
+    'body': 'GLUT_KEY_END'
+  'GLUT_KEY_F1 (1)':
+    'prefix': 'GLUT_KEY_F1'
+    'body': 'GLUT_KEY_F1'
+  'GLUT_KEY_F10 (10)':
+    'prefix': 'GLUT_KEY_F10'
+    'body': 'GLUT_KEY_F10'
+  'GLUT_KEY_F11 (11)':
+    'prefix': 'GLUT_KEY_F11'
+    'body': 'GLUT_KEY_F11'
+  'GLUT_KEY_F12 (12)':
+    'prefix': 'GLUT_KEY_F12'
+    'body': 'GLUT_KEY_F12'
+  'GLUT_KEY_F2 (2)':
+    'prefix': 'GLUT_KEY_F2'
+    'body': 'GLUT_KEY_F2'
+  'GLUT_KEY_F3 (3)':
+    'prefix': 'GLUT_KEY_F3'
+    'body': 'GLUT_KEY_F3'
+  'GLUT_KEY_F4 (4)':
+    'prefix': 'GLUT_KEY_F4'
+    'body': 'GLUT_KEY_F4'
+  'GLUT_KEY_F5 (5)':
+    'prefix': 'GLUT_KEY_F5'
+    'body': 'GLUT_KEY_F5'
+  'GLUT_KEY_F6 (6)':
+    'prefix': 'GLUT_KEY_F6'
+    'body': 'GLUT_KEY_F6'
+  'GLUT_KEY_F7 (7)':
+    'prefix': 'GLUT_KEY_F7'
+    'body': 'GLUT_KEY_F7'
+  'GLUT_KEY_F8 (8)':
+    'prefix': 'GLUT_KEY_F8'
+    'body': 'GLUT_KEY_F8'
+  'GLUT_KEY_F9 (9)':
+    'prefix': 'GLUT_KEY_F9'
+    'body': 'GLUT_KEY_F9'
+  'GLUT_KEY_HOME (106)':
+    'prefix': 'GLUT_KEY_HOME'
+    'body': 'GLUT_KEY_HOME'
+  'GLUT_KEY_INSERT (108)':
+    'prefix': 'GLUT_KEY_INSERT'
+    'body': 'GLUT_KEY_INSERT'
+  'GLUT_KEY_LEFT (100)':
+    'prefix': 'GLUT_KEY_LEFT'
+    'body': 'GLUT_KEY_LEFT'
+  'GLUT_KEY_PAGE_DOWN (105)':
+    'prefix': 'GLUT_KEY_PAGE_DOWN'
+    'body': 'GLUT_KEY_PAGE_DOWN'
+  'GLUT_KEY_PAGE_UP (104)':
+    'prefix': 'GLUT_KEY_PAGE_UP'
+    'body': 'GLUT_KEY_PAGE_UP'
+  'GLUT_KEY_REPEAT_DEFAULT (2)':
+    'prefix': 'GLUT_KEY_REPEAT_DEFAULT'
+    'body': 'GLUT_KEY_REPEAT_DEFAULT'
+  'GLUT_KEY_REPEAT_OFF (0)':
+    'prefix': 'GLUT_KEY_REPEAT_OFF'
+    'body': 'GLUT_KEY_REPEAT_OFF'
+  'GLUT_KEY_REPEAT_ON (1)':
+    'prefix': 'GLUT_KEY_REPEAT_ON'
+    'body': 'GLUT_KEY_REPEAT_ON'
+  'GLUT_KEY_RIGHT (102)':
+    'prefix': 'GLUT_KEY_RIGHT'
+    'body': 'GLUT_KEY_RIGHT'
+  'GLUT_KEY_UP (101)':
+    'prefix': 'GLUT_KEY_UP'
+    'body': 'GLUT_KEY_UP'
+  'GLUT_LAYER_IN_USE (801)':
+    'prefix': 'GLUT_LAYER_IN_USE'
+    'body': 'GLUT_LAYER_IN_USE'
+  'GLUT_LEFT (0)':
+    'prefix': 'GLUT_LEFT'
+    'body': 'GLUT_LEFT'
+  'GLUT_LEFT_BUTTON (0)':
+    'prefix': 'GLUT_LEFT_BUTTON'
+    'body': 'GLUT_LEFT_BUTTON'
+  'GLUT_LUMINANCE (512)':
+    'prefix': 'GLUT_LUMINANCE'
+    'body': 'GLUT_LUMINANCE'
+  'GLUT_MACOSX_IMPLEMENTATION (4)':
+    'prefix': 'GLUT_MACOSX_IMPLEMENTATION'
+    'body': 'GLUT_MACOSX_IMPLEMENTATION'
+  'GLUT_MENU_IN_USE (1)':
+    'prefix': 'GLUT_MENU_IN_USE'
+    'body': 'GLUT_MENU_IN_USE'
+  'GLUT_MENU_NOT_IN_USE (0)':
+    'prefix': 'GLUT_MENU_NOT_IN_USE'
+    'body': 'GLUT_MENU_NOT_IN_USE'
+  'GLUT_MENU_NUM_ITEMS (300)':
+    'prefix': 'GLUT_MENU_NUM_ITEMS'
+    'body': 'GLUT_MENU_NUM_ITEMS'
+  'GLUT_MIDDLE_BUTTON (1)':
+    'prefix': 'GLUT_MIDDLE_BUTTON'
+    'body': 'GLUT_MIDDLE_BUTTON'
+  'GLUT_MULTISAMPLE (128)':
+    'prefix': 'GLUT_MULTISAMPLE'
+    'body': 'GLUT_MULTISAMPLE'
+  'GLUT_NORMAL (0)':
+    'prefix': 'GLUT_NORMAL'
+    'body': 'GLUT_NORMAL'
+  'GLUT_NORMAL_DAMAGED (804)':
+    'prefix': 'GLUT_NORMAL_DAMAGED'
+    'body': 'GLUT_NORMAL_DAMAGED'
+  'GLUT_NOT_VISIBLE (0)':
+    'prefix': 'GLUT_NOT_VISIBLE'
+    'body': 'GLUT_NOT_VISIBLE'
+  'GLUT_NO_RECOVERY (1024)':
+    'prefix': 'GLUT_NO_RECOVERY'
+    'body': 'GLUT_NO_RECOVERY'
+  'GLUT_NUM_BUTTON_BOX_BUTTONS (607)':
+    'prefix': 'GLUT_NUM_BUTTON_BOX_BUTTONS'
+    'body': 'GLUT_NUM_BUTTON_BOX_BUTTONS'
+  'GLUT_NUM_DIALS (608)':
+    'prefix': 'GLUT_NUM_DIALS'
+    'body': 'GLUT_NUM_DIALS'
+  'GLUT_NUM_MOUSE_BUTTONS (605)':
+    'prefix': 'GLUT_NUM_MOUSE_BUTTONS'
+    'body': 'GLUT_NUM_MOUSE_BUTTONS'
+  'GLUT_NUM_SPACEBALL_BUTTONS (606)':
+    'prefix': 'GLUT_NUM_SPACEBALL_BUTTONS'
+    'body': 'GLUT_NUM_SPACEBALL_BUTTONS'
+  'GLUT_NUM_TABLET_BUTTONS (609)':
+    'prefix': 'GLUT_NUM_TABLET_BUTTONS'
+    'body': 'GLUT_NUM_TABLET_BUTTONS'
+  'GLUT_OVERLAY (1)':
+    'prefix': 'GLUT_OVERLAY'
+    'body': 'GLUT_OVERLAY'
+  'GLUT_OVERLAY_DAMAGED (805)':
+    'prefix': 'GLUT_OVERLAY_DAMAGED'
+    'body': 'GLUT_OVERLAY_DAMAGED'
+  'GLUT_OVERLAY_POSSIBLE (800)':
+    'prefix': 'GLUT_OVERLAY_POSSIBLE'
+    'body': 'GLUT_OVERLAY_POSSIBLE'
+  'GLUT_OWNS_JOYSTICK (613)':
+    'prefix': 'GLUT_OWNS_JOYSTICK'
+    'body': 'GLUT_OWNS_JOYSTICK'
+  'GLUT_PARTIALLY_RETAINED (2)':
+    'prefix': 'GLUT_PARTIALLY_RETAINED'
+    'body': 'GLUT_PARTIALLY_RETAINED'
+  'GLUT_RED (0)':
+    'prefix': 'GLUT_RED'
+    'body': 'GLUT_RED'
+  'GLUT_RGB (0)':
+    'prefix': 'GLUT_RGB'
+    'body': 'GLUT_RGB'
+  'GLUT_RGBA (0)':
+    'prefix': 'GLUT_RGBA'
+    'body': 'GLUT_RGBA'
+  'GLUT_RIGHT_BUTTON (2)':
+    'prefix': 'GLUT_RIGHT_BUTTON'
+    'body': 'GLUT_RIGHT_BUTTON'
+  'GLUT_SCREEN_HEIGHT (201)':
+    'prefix': 'GLUT_SCREEN_HEIGHT'
+    'body': 'GLUT_SCREEN_HEIGHT'
+  'GLUT_SCREEN_HEIGHT_MM (203)':
+    'prefix': 'GLUT_SCREEN_HEIGHT_MM'
+    'body': 'GLUT_SCREEN_HEIGHT_MM'
+  'GLUT_SCREEN_WIDTH (200)':
+    'prefix': 'GLUT_SCREEN_WIDTH'
+    'body': 'GLUT_SCREEN_WIDTH'
+  'GLUT_SCREEN_WIDTH_MM (202)':
+    'prefix': 'GLUT_SCREEN_WIDTH_MM'
+    'body': 'GLUT_SCREEN_WIDTH_MM'
+  'GLUT_SINGLE (0)':
+    'prefix': 'GLUT_SINGLE'
+    'body': 'GLUT_SINGLE'
+  'GLUT_STENCIL (32)':
+    'prefix': 'GLUT_STENCIL'
+    'body': 'GLUT_STENCIL'
+  'GLUT_STEREO (256)':
+    'prefix': 'GLUT_STEREO'
+    'body': 'GLUT_STEREO'
+  'GLUT_TRANSPARENT_INDEX (803)':
+    'prefix': 'GLUT_TRANSPARENT_INDEX'
+    'body': 'GLUT_TRANSPARENT_INDEX'
+  'GLUT_UP (1)':
+    'prefix': 'GLUT_UP'
+    'body': 'GLUT_UP'
+  'GLUT_VIDEO_RESIZE_HEIGHT (909)':
+    'prefix': 'GLUT_VIDEO_RESIZE_HEIGHT'
+    'body': 'GLUT_VIDEO_RESIZE_HEIGHT'
+  'GLUT_VIDEO_RESIZE_HEIGHT_DELTA (905)':
+    'prefix': 'GLUT_VIDEO_RESIZE_HEIGHT_DELTA'
+    'body': 'GLUT_VIDEO_RESIZE_HEIGHT_DELTA'
+  'GLUT_VIDEO_RESIZE_IN_USE (901)':
+    'prefix': 'GLUT_VIDEO_RESIZE_IN_USE'
+    'body': 'GLUT_VIDEO_RESIZE_IN_USE'
+  'GLUT_VIDEO_RESIZE_POSSIBLE (900)':
+    'prefix': 'GLUT_VIDEO_RESIZE_POSSIBLE'
+    'body': 'GLUT_VIDEO_RESIZE_POSSIBLE'
+  'GLUT_VIDEO_RESIZE_WIDTH (908)':
+    'prefix': 'GLUT_VIDEO_RESIZE_WIDTH'
+    'body': 'GLUT_VIDEO_RESIZE_WIDTH'
+  'GLUT_VIDEO_RESIZE_WIDTH_DELTA (904)':
+    'prefix': 'GLUT_VIDEO_RESIZE_WIDTH_DELTA'
+    'body': 'GLUT_VIDEO_RESIZE_WIDTH_DELTA'
+  'GLUT_VIDEO_RESIZE_X (906)':
+    'prefix': 'GLUT_VIDEO_RESIZE_X'
+    'body': 'GLUT_VIDEO_RESIZE_X'
+  'GLUT_VIDEO_RESIZE_X_DELTA (902)':
+    'prefix': 'GLUT_VIDEO_RESIZE_X_DELTA'
+    'body': 'GLUT_VIDEO_RESIZE_X_DELTA'
+  'GLUT_VIDEO_RESIZE_Y (907)':
+    'prefix': 'GLUT_VIDEO_RESIZE_Y'
+    'body': 'GLUT_VIDEO_RESIZE_Y'
+  'GLUT_VIDEO_RESIZE_Y_DELTA (903)':
+    'prefix': 'GLUT_VIDEO_RESIZE_Y_DELTA'
+    'body': 'GLUT_VIDEO_RESIZE_Y_DELTA'
+  'GLUT_VISIBLE (1)':
+    'prefix': 'GLUT_VISIBLE'
+    'body': 'GLUT_VISIBLE'
+  'GLUT_WINDOW_ACCUM_ALPHA_SIZE (114)':
+    'prefix': 'GLUT_WINDOW_ACCUM_ALPHA_SIZE'
+    'body': 'GLUT_WINDOW_ACCUM_ALPHA_SIZE'
+  'GLUT_WINDOW_ACCUM_BLUE_SIZE (113)':
+    'prefix': 'GLUT_WINDOW_ACCUM_BLUE_SIZE'
+    'body': 'GLUT_WINDOW_ACCUM_BLUE_SIZE'
+  'GLUT_WINDOW_ACCUM_GREEN_SIZE (112)':
+    'prefix': 'GLUT_WINDOW_ACCUM_GREEN_SIZE'
+    'body': 'GLUT_WINDOW_ACCUM_GREEN_SIZE'
+  'GLUT_WINDOW_ACCUM_RED_SIZE (111)':
+    'prefix': 'GLUT_WINDOW_ACCUM_RED_SIZE'
+    'body': 'GLUT_WINDOW_ACCUM_RED_SIZE'
+  'GLUT_WINDOW_ALPHA_SIZE (110)':
+    'prefix': 'GLUT_WINDOW_ALPHA_SIZE'
+    'body': 'GLUT_WINDOW_ALPHA_SIZE'
+  'GLUT_WINDOW_BLUE_SIZE (109)':
+    'prefix': 'GLUT_WINDOW_BLUE_SIZE'
+    'body': 'GLUT_WINDOW_BLUE_SIZE'
+  'GLUT_WINDOW_BUFFER_SIZE (104)':
+    'prefix': 'GLUT_WINDOW_BUFFER_SIZE'
+    'body': 'GLUT_WINDOW_BUFFER_SIZE'
+  'GLUT_WINDOW_COLORMAP_SIZE (119)':
+    'prefix': 'GLUT_WINDOW_COLORMAP_SIZE'
+    'body': 'GLUT_WINDOW_COLORMAP_SIZE'
+  'GLUT_WINDOW_CURSOR (122)':
+    'prefix': 'GLUT_WINDOW_CURSOR'
+    'body': 'GLUT_WINDOW_CURSOR'
+  'GLUT_WINDOW_DEPTH_SIZE (106)':
+    'prefix': 'GLUT_WINDOW_DEPTH_SIZE'
+    'body': 'GLUT_WINDOW_DEPTH_SIZE'
+  'GLUT_WINDOW_DOUBLEBUFFER (115)':
+    'prefix': 'GLUT_WINDOW_DOUBLEBUFFER'
+    'body': 'GLUT_WINDOW_DOUBLEBUFFER'
+  'GLUT_WINDOW_FORMAT_ID (123)':
+    'prefix': 'GLUT_WINDOW_FORMAT_ID'
+    'body': 'GLUT_WINDOW_FORMAT_ID'
+  'GLUT_WINDOW_GREEN_SIZE (108)':
+    'prefix': 'GLUT_WINDOW_GREEN_SIZE'
+    'body': 'GLUT_WINDOW_GREEN_SIZE'
+  'GLUT_WINDOW_HEIGHT (103)':
+    'prefix': 'GLUT_WINDOW_HEIGHT'
+    'body': 'GLUT_WINDOW_HEIGHT'
+  'GLUT_WINDOW_NUM_CHILDREN (118)':
+    'prefix': 'GLUT_WINDOW_NUM_CHILDREN'
+    'body': 'GLUT_WINDOW_NUM_CHILDREN'
+  'GLUT_WINDOW_NUM_SAMPLES (120)':
+    'prefix': 'GLUT_WINDOW_NUM_SAMPLES'
+    'body': 'GLUT_WINDOW_NUM_SAMPLES'
+  'GLUT_WINDOW_PARENT (117)':
+    'prefix': 'GLUT_WINDOW_PARENT'
+    'body': 'GLUT_WINDOW_PARENT'
+  'GLUT_WINDOW_RED_SIZE (107)':
+    'prefix': 'GLUT_WINDOW_RED_SIZE'
+    'body': 'GLUT_WINDOW_RED_SIZE'
+  'GLUT_WINDOW_RGBA (116)':
+    'prefix': 'GLUT_WINDOW_RGBA'
+    'body': 'GLUT_WINDOW_RGBA'
+  'GLUT_WINDOW_STENCIL_SIZE (105)':
+    'prefix': 'GLUT_WINDOW_STENCIL_SIZE'
+    'body': 'GLUT_WINDOW_STENCIL_SIZE'
+  'GLUT_WINDOW_STEREO (121)':
+    'prefix': 'GLUT_WINDOW_STEREO'
+    'body': 'GLUT_WINDOW_STEREO'
+  'GLUT_WINDOW_WIDTH (102)':
+    'prefix': 'GLUT_WINDOW_WIDTH'
+    'body': 'GLUT_WINDOW_WIDTH'
+  'GLUT_WINDOW_X (100)':
+    'prefix': 'GLUT_WINDOW_X'
+    'body': 'GLUT_WINDOW_X'
+  'GLUT_WINDOW_Y (101)':
+    'prefix': 'GLUT_WINDOW_Y'
+    'body': 'GLUT_WINDOW_Y'
+  'GLUT_XLIB_IMPLEMENTATION (15)':
+    'prefix': 'GLUT_XLIB_IMPLEMENTATION'
+    'body': 'GLUT_XLIB_IMPLEMENTATION'
+  'SMAP_BACK (5)':
+    'prefix': 'SMAP_BACK'
+    'body': 'SMAP_BACK'
+  'SMAP_BOTTOM (2)':
+    'prefix': 'SMAP_BOTTOM'
+    'body': 'SMAP_BOTTOM'
+  'SMAP_CLEAR_SMAP_TEXTURE (1)':
+    'prefix': 'SMAP_CLEAR_SMAP_TEXTURE'
+    'body': 'SMAP_CLEAR_SMAP_TEXTURE'
+  'SMAP_FRONT (0)':
+    'prefix': 'SMAP_FRONT'
+    'body': 'SMAP_FRONT'
+  'SMAP_GENERATE_MIPMAPS (6)':
+    'prefix': 'SMAP_GENERATE_MIPMAPS'
+    'body': 'SMAP_GENERATE_MIPMAPS'
+  'SMAP_GENERATE_SMAP_MIPMAPS (4)':
+    'prefix': 'SMAP_GENERATE_SMAP_MIPMAPS'
+    'body': 'SMAP_GENERATE_SMAP_MIPMAPS'
+  'SMAP_GENERATE_VIEW_MIPMAPS (2)':
+    'prefix': 'SMAP_GENERATE_VIEW_MIPMAPS'
+    'body': 'SMAP_GENERATE_VIEW_MIPMAPS'
+  'SMAP_LEFT (3)':
+    'prefix': 'SMAP_LEFT'
+    'body': 'SMAP_LEFT'
+  'SMAP_RIGHT (4)':
+    'prefix': 'SMAP_RIGHT'
+    'body': 'SMAP_RIGHT'
+  'SMAP_TOP (1)':
+    'prefix': 'SMAP_TOP'
+    'body': 'SMAP_TOP'
+  'TUBE_CONTOUR_CLOSED (4096)':
+    'prefix': 'TUBE_CONTOUR_CLOSED'
+    'body': 'TUBE_CONTOUR_CLOSED'
+  'TUBE_JN_ANGLE (2)':
+    'prefix': 'TUBE_JN_ANGLE'
+    'body': 'TUBE_JN_ANGLE'
+  'TUBE_JN_CAP (16)':
+    'prefix': 'TUBE_JN_CAP'
+    'body': 'TUBE_JN_CAP'
+  'TUBE_JN_CUT (3)':
+    'prefix': 'TUBE_JN_CUT'
+    'body': 'TUBE_JN_CUT'
+  'TUBE_JN_MASK (15)':
+    'prefix': 'TUBE_JN_MASK'
+    'body': 'TUBE_JN_MASK'
+  'TUBE_JN_RAW (1)':
+    'prefix': 'TUBE_JN_RAW'
+    'body': 'TUBE_JN_RAW'
+  'TUBE_JN_ROUND (4)':
+    'prefix': 'TUBE_JN_ROUND'
+    'body': 'TUBE_JN_ROUND'
+  'TUBE_NORM_EDGE (512)':
+    'prefix': 'TUBE_NORM_EDGE'
+    'body': 'TUBE_NORM_EDGE'
+  'TUBE_NORM_FACET (256)':
+    'prefix': 'TUBE_NORM_FACET'
+    'body': 'TUBE_NORM_FACET'
+  'TUBE_NORM_MASK (3840)':
+    'prefix': 'TUBE_NORM_MASK'
+    'body': 'TUBE_NORM_MASK'
+  'TUBE_NORM_PATH_EDGE (1024)':
+    'prefix': 'TUBE_NORM_PATH_EDGE'
+    'body': 'TUBE_NORM_PATH_EDGE'
+  'X (0)':
+    'prefix': 'X'
+    'body': 'X'
+  'Y (1)':
+    'prefix': 'Y'
+    'body': 'Y'
+  'Z (2)':
+    'prefix': 'Z'
+    'body': 'Z'
+  'bisecting_plane':
+    'prefix': 'bisecting_plane'
+    'body': 'bisecting_plane(${1:double* n}, ${2:double* v1}, ${3:double* v2}, ${4:double* v3})'
+  'draw_angle_style_back_cap':
+    'prefix': 'draw_angle_style_back_cap'
+    'body': 'draw_angle_style_back_cap(${1:int ncp}, ${2:double* bi}, ${3:double (*)* point_array})'
+  'draw_angle_style_front_cap':
+    'prefix': 'draw_angle_style_front_cap'
+    'body': 'draw_angle_style_front_cap(${1:int ncp}, ${2:double* bi}, ${3:double (*)* point_array})'
+  'draw_binorm_segment_c_and_edge_n':
+    'prefix': 'draw_binorm_segment_c_and_edge_n'
+    'body': 'draw_binorm_segment_c_and_edge_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* front_norm}, ${5:double (*)* back_norm}, ${6:float* color_last}, ${7:float* color_next}, ${8:int inext}, ${9:double len})'
+  'draw_binorm_segment_c_and_facet_n':
+    'prefix': 'draw_binorm_segment_c_and_facet_n'
+    'body': 'draw_binorm_segment_c_and_facet_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* front_norm}, ${5:double (*)* back_norm}, ${6:float* color_last}, ${7:float* color_next}, ${8:int inext}, ${9:double len})'
+  'draw_binorm_segment_edge_n':
+    'prefix': 'draw_binorm_segment_edge_n'
+    'body': 'draw_binorm_segment_edge_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* front_norm}, ${5:double (*)* back_norm}, ${6:int inext}, ${7:double len})'
+  'draw_binorm_segment_facet_n':
+    'prefix': 'draw_binorm_segment_facet_n'
+    'body': 'draw_binorm_segment_facet_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* front_norm}, ${5:double (*)* back_norm}, ${6:int inext}, ${7:double len})'
+  'draw_raw_style_end_cap':
+    'prefix': 'draw_raw_style_end_cap'
+    'body': 'draw_raw_style_end_cap(${1:int ncp}, ${2:double (*)* contour}, ${3:double zval}, ${4:int frontwards})'
+  'draw_round_style_cap_callback':
+    'prefix': 'draw_round_style_cap_callback'
+    'body': 'draw_round_style_cap_callback(${1:int iloop}, ${2:double (*)* cap}, ${3:float* face_color}, ${4:double* cut_vector}, ${5:double* bisect_vector}, ${6:double (*)* norms}, ${7:int frontwards})'
+  'draw_segment_c_and_edge_n':
+    'prefix': 'draw_segment_c_and_edge_n'
+    'body': 'draw_segment_c_and_edge_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* norm_cont}, ${5:float* color_last}, ${6:float* color_next}, ${7:int inext}, ${8:double len})'
+  'draw_segment_c_and_facet_n':
+    'prefix': 'draw_segment_c_and_facet_n'
+    'body': 'draw_segment_c_and_facet_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* norm_cont}, ${5:float* color_last}, ${6:float* color_next}, ${7:int inext}, ${8:double len})'
+  'draw_segment_color':
+    'prefix': 'draw_segment_color'
+    'body': 'draw_segment_color(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:float* color_last}, ${5:float* color_next}, ${6:int inext}, ${7:double len})'
+  'draw_segment_edge_n':
+    'prefix': 'draw_segment_edge_n'
+    'body': 'draw_segment_edge_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* norm_cont}, ${5:int inext}, ${6:double len})'
+  'draw_segment_facet_n':
+    'prefix': 'draw_segment_facet_n'
+    'body': 'draw_segment_facet_n(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:double (*)* norm_cont}, ${5:int inext}, ${6:double len})'
+  'draw_segment_plain':
+    'prefix': 'draw_segment_plain'
+    'body': 'draw_segment_plain(${1:int ncp}, ${2:double (*)* front_contour}, ${3:double (*)* back_contour}, ${4:int inext}, ${5:double len})'
+  'extrusion_angle_join':
+    'prefix': 'extrusion_angle_join'
+    'body': 'extrusion_angle_join(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array}, ${8:double (*)** xform_array})'
+  'extrusion_raw_join':
+    'prefix': 'extrusion_raw_join'
+    'body': 'extrusion_raw_join(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array}, ${8:double (*)** xform_array})'
+  'extrusion_round_or_cut_join':
+    'prefix': 'extrusion_round_or_cut_join'
+    'body': 'extrusion_round_or_cut_join(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array}, ${8:double (*)** xform_array})'
+  'gleCreateGC':
+    'prefix': 'gleCreateGC'
+    'body': 'gleCreateGC()'
+  'gleExtrusion':
+    'prefix': 'gleExtrusion'
+    'body': 'gleExtrusion(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array})'
+  'gleGetJoinStyle':
+    'prefix': 'gleGetJoinStyle'
+    'body': 'gleGetJoinStyle()'
+  'gleGetNumSlices':
+    'prefix': 'gleGetNumSlices'
+    'body': 'gleGetNumSlices()'
+  'gleHelicoid':
+    'prefix': 'gleHelicoid'
+    'body': 'gleHelicoid(${1:double rToroid}, ${2:double startRadius}, ${3:double drdTheta}, ${4:double startZ}, ${5:double dzdTheta}, ${6:double (*)* startXform}, ${7:double (*)* dXformdTheta}, ${8:double startTheta}, ${9:double sweepTheta})'
+  'gleLathe':
+    'prefix': 'gleLathe'
+    'body': 'gleLathe(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:double startRadius}, ${6:double drdTheta}, ${7:double startZ}, ${8:double dzdTheta}, ${9:double (*)* startXform}, ${10:double (*)* dXformdTheta}, ${11:double startTheta}, ${12:double sweepTheta})'
+  'glePolyCone':
+    'prefix': 'glePolyCone'
+    'body': 'glePolyCone(${1:int npoints}, ${2:double (*)* point_array}, ${3:float (*)* color_array}, ${4:double* radius_array})'
+  'glePolyCylinder':
+    'prefix': 'glePolyCylinder'
+    'body': 'glePolyCylinder(${1:int npoints}, ${2:double (*)* point_array}, ${3:float (*)* color_array}, ${4:double radius})'
+  'gleScrew':
+    'prefix': 'gleScrew'
+    'body': 'gleScrew(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:double startz}, ${6:double endz}, ${7:double twist})'
+  'gleSetJoinStyle':
+    'prefix': 'gleSetJoinStyle'
+    'body': 'gleSetJoinStyle(${1:int style})'
+  'gleSetNumSlices':
+    'prefix': 'gleSetNumSlices'
+    'body': 'gleSetNumSlices(${1:int slices})'
+  'gleSpiral':
+    'prefix': 'gleSpiral'
+    'body': 'gleSpiral(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:double startRadius}, ${6:double drdTheta}, ${7:double startZ}, ${8:double dzdTheta}, ${9:double (*)* startXform}, ${10:double (*)* dXformdTheta}, ${11:double startTheta}, ${12:double sweepTheta})'
+  'gleSuperExtrusion':
+    'prefix': 'gleSuperExtrusion'
+    'body': 'gleSuperExtrusion(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array}, ${8:double (*)** xform_array})'
+  'gleTextureMode':
+    'prefix': 'gleTextureMode'
+    'body': 'gleTextureMode(${1:int mode})'
+  'gleToroid':
+    'prefix': 'gleToroid'
+    'body': 'gleToroid(${1:double rToroid}, ${2:double startRadius}, ${3:double drdTheta}, ${4:double startZ}, ${5:double dzdTheta}, ${6:double (*)* startXform}, ${7:double (*)* dXformdTheta}, ${8:double startTheta}, ${9:double sweepTheta})'
+  'gleTwistExtrusion':
+    'prefix': 'gleTwistExtrusion'
+    'body': 'gleTwistExtrusion(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array}, ${8:double* twist_array})'
+  'glutAddMenuEntry':
+    'prefix': 'glutAddMenuEntry'
+    'body': 'glutAddMenuEntry(${1:char* label}, ${2:int value})'
+  'glutAddSubMenu':
+    'prefix': 'glutAddSubMenu'
+    'body': 'glutAddSubMenu(${1:char* label}, ${2:int submenu})'
+  'glutAttachMenu':
+    'prefix': 'glutAttachMenu'
+    'body': 'glutAttachMenu(${1:int button})'
+  'glutBitmapCharacter':
+    'prefix': 'glutBitmapCharacter'
+    'body': 'glutBitmapCharacter(${1:void* font}, ${2:int character})'
+  'glutBitmapLength':
+    'prefix': 'glutBitmapLength'
+    'body': 'glutBitmapLength(${1:void* font}, ${2:unsigned char* string})'
+  'glutBitmapWidth':
+    'prefix': 'glutBitmapWidth'
+    'body': 'glutBitmapWidth(${1:void* font}, ${2:int character})'
+  'glutButtonBoxFunc':
+    'prefix': 'glutButtonBoxFunc'
+    'body': 'glutButtonBoxFunc(${1:void (*)(int, int) func})'
+  'glutChangeToMenuEntry':
+    'prefix': 'glutChangeToMenuEntry'
+    'body': 'glutChangeToMenuEntry(${1:int item}, ${2:char* label}, ${3:int value})'
+  'glutChangeToSubMenu':
+    'prefix': 'glutChangeToSubMenu'
+    'body': 'glutChangeToSubMenu(${1:int item}, ${2:char* label}, ${3:int submenu})'
+  'glutCheckLoop':
+    'prefix': 'glutCheckLoop'
+    'body': 'glutCheckLoop()'
+  'glutCopyColormap':
+    'prefix': 'glutCopyColormap'
+    'body': 'glutCopyColormap(${1:int win})'
+  'glutCreateMenu':
+    'prefix': 'glutCreateMenu'
+    'body': 'glutCreateMenu(${1:void (*)(int) })'
+  'glutCreateSubWindow':
+    'prefix': 'glutCreateSubWindow'
+    'body': 'glutCreateSubWindow(${1:int win}, ${2:int x}, ${3:int y}, ${4:int width}, ${5:int height})'
+  'glutCreateWindow':
+    'prefix': 'glutCreateWindow'
+    'body': 'glutCreateWindow(${1:char* title})'
+  'glutDestroyMenu':
+    'prefix': 'glutDestroyMenu'
+    'body': 'glutDestroyMenu(${1:int menu})'
+  'glutDestroyWindow':
+    'prefix': 'glutDestroyWindow'
+    'body': 'glutDestroyWindow(${1:int win})'
+  'glutDetachMenu':
+    'prefix': 'glutDetachMenu'
+    'body': 'glutDetachMenu(${1:int button})'
+  'glutDeviceGet':
+    'prefix': 'glutDeviceGet'
+    'body': 'glutDeviceGet(${1:GLenum type})'
+  'glutDialsFunc':
+    'prefix': 'glutDialsFunc'
+    'body': 'glutDialsFunc(${1:void (*)(int, int) func})'
+  'glutDisplayFunc':
+    'prefix': 'glutDisplayFunc'
+    'body': 'glutDisplayFunc(${1:void (*)(void) func})'
+  'glutEnterGameMode':
+    'prefix': 'glutEnterGameMode'
+    'body': 'glutEnterGameMode()'
+  'glutEntryFunc':
+    'prefix': 'glutEntryFunc'
+    'body': 'glutEntryFunc(${1:void (*)(int) func})'
+  'glutEstablishOverlay':
+    'prefix': 'glutEstablishOverlay'
+    'body': 'glutEstablishOverlay()'
+  'glutExtensionSupported':
+    'prefix': 'glutExtensionSupported'
+    'body': 'glutExtensionSupported(${1:char* name})'
+  'glutForceJoystickFunc':
+    'prefix': 'glutForceJoystickFunc'
+    'body': 'glutForceJoystickFunc()'
+  'glutFullScreen':
+    'prefix': 'glutFullScreen'
+    'body': 'glutFullScreen()'
+  'glutGameModeGet':
+    'prefix': 'glutGameModeGet'
+    'body': 'glutGameModeGet(${1:GLenum mode})'
+  'glutGameModeString':
+    'prefix': 'glutGameModeString'
+    'body': 'glutGameModeString(${1:char* string})'
+  'glutGet':
+    'prefix': 'glutGet'
+    'body': 'glutGet(${1:GLenum type})'
+  'glutGetColor':
+    'prefix': 'glutGetColor'
+    'body': 'glutGetColor(${1:int ndx}, ${2:int component})'
+  'glutGetMenu':
+    'prefix': 'glutGetMenu'
+    'body': 'glutGetMenu()'
+  'glutGetModifiers':
+    'prefix': 'glutGetModifiers'
+    'body': 'glutGetModifiers()'
+  'glutGetProcAddress':
+    'prefix': 'glutGetProcAddress'
+    'body': 'glutGetProcAddress(${1:char* procName})'
+  'glutGetWindow':
+    'prefix': 'glutGetWindow'
+    'body': 'glutGetWindow()'
+  'glutHideOverlay':
+    'prefix': 'glutHideOverlay'
+    'body': 'glutHideOverlay()'
+  'glutHideWindow':
+    'prefix': 'glutHideWindow'
+    'body': 'glutHideWindow()'
+  'glutIconifyWindow':
+    'prefix': 'glutIconifyWindow'
+    'body': 'glutIconifyWindow()'
+  'glutIdleFunc':
+    'prefix': 'glutIdleFunc'
+    'body': 'glutIdleFunc(${1:void (*)(void) func})'
+  'glutIgnoreKeyRepeat':
+    'prefix': 'glutIgnoreKeyRepeat'
+    'body': 'glutIgnoreKeyRepeat(${1:int ignore})'
+  'glutInit':
+    'prefix': 'glutInit'
+    'body': 'glutInit(${1:int* argcp}, ${2:char** argv})'
+  'glutInitDisplayMode':
+    'prefix': 'glutInitDisplayMode'
+    'body': 'glutInitDisplayMode(${1:unsigned int mode})'
+  'glutInitDisplayString':
+    'prefix': 'glutInitDisplayString'
+    'body': 'glutInitDisplayString(${1:char* string})'
+  'glutInitWindowPosition':
+    'prefix': 'glutInitWindowPosition'
+    'body': 'glutInitWindowPosition(${1:int x}, ${2:int y})'
+  'glutInitWindowSize':
+    'prefix': 'glutInitWindowSize'
+    'body': 'glutInitWindowSize(${1:int width}, ${2:int height})'
+  'glutJoystickFunc':
+    'prefix': 'glutJoystickFunc'
+    'body': 'glutJoystickFunc(${1:void (*)(unsigned int, int, int, int) func}, ${2:int pollInterval})'
+  'glutKeyboardFunc':
+    'prefix': 'glutKeyboardFunc'
+    'body': 'glutKeyboardFunc(${1:void (*)(unsigned char, int, int) func})'
+  'glutKeyboardUpFunc':
+    'prefix': 'glutKeyboardUpFunc'
+    'body': 'glutKeyboardUpFunc(${1:void (*)(unsigned char, int, int) func})'
+  'glutLayerGet':
+    'prefix': 'glutLayerGet'
+    'body': 'glutLayerGet(${1:GLenum type})'
+  'glutLeaveGameMode':
+    'prefix': 'glutLeaveGameMode'
+    'body': 'glutLeaveGameMode()'
+  'glutMainLoop':
+    'prefix': 'glutMainLoop'
+    'body': 'glutMainLoop()'
+  'glutMenuStateFunc':
+    'prefix': 'glutMenuStateFunc'
+    'body': 'glutMenuStateFunc(${1:void (*)(int) func})'
+  'glutMenuStatusFunc':
+    'prefix': 'glutMenuStatusFunc'
+    'body': 'glutMenuStatusFunc(${1:void (*)(int, int, int) func})'
+  'glutMotionFunc':
+    'prefix': 'glutMotionFunc'
+    'body': 'glutMotionFunc(${1:void (*)(int, int) func})'
+  'glutMouseFunc':
+    'prefix': 'glutMouseFunc'
+    'body': 'glutMouseFunc(${1:void (*)(int, int, int, int) func})'
+  'glutOverlayDisplayFunc':
+    'prefix': 'glutOverlayDisplayFunc'
+    'body': 'glutOverlayDisplayFunc(${1:void (*)(void) func})'
+  'glutPassiveMotionFunc':
+    'prefix': 'glutPassiveMotionFunc'
+    'body': 'glutPassiveMotionFunc(${1:void (*)(int, int) func})'
+  'glutPopWindow':
+    'prefix': 'glutPopWindow'
+    'body': 'glutPopWindow()'
+  'glutPositionWindow':
+    'prefix': 'glutPositionWindow'
+    'body': 'glutPositionWindow(${1:int x}, ${2:int y})'
+  'glutPostOverlayRedisplay':
+    'prefix': 'glutPostOverlayRedisplay'
+    'body': 'glutPostOverlayRedisplay()'
+  'glutPostRedisplay':
+    'prefix': 'glutPostRedisplay'
+    'body': 'glutPostRedisplay()'
+  'glutPostWindowOverlayRedisplay':
+    'prefix': 'glutPostWindowOverlayRedisplay'
+    'body': 'glutPostWindowOverlayRedisplay(${1:int win})'
+  'glutPostWindowRedisplay':
+    'prefix': 'glutPostWindowRedisplay'
+    'body': 'glutPostWindowRedisplay(${1:int win})'
+  'glutPushWindow':
+    'prefix': 'glutPushWindow'
+    'body': 'glutPushWindow()'
+  'glutRemoveMenuItem':
+    'prefix': 'glutRemoveMenuItem'
+    'body': 'glutRemoveMenuItem(${1:int item})'
+  'glutRemoveOverlay':
+    'prefix': 'glutRemoveOverlay'
+    'body': 'glutRemoveOverlay()'
+  'glutReportErrors':
+    'prefix': 'glutReportErrors'
+    'body': 'glutReportErrors()'
+  'glutReshapeFunc':
+    'prefix': 'glutReshapeFunc'
+    'body': 'glutReshapeFunc(${1:void (*)(int, int) func})'
+  'glutReshapeWindow':
+    'prefix': 'glutReshapeWindow'
+    'body': 'glutReshapeWindow(${1:int width}, ${2:int height})'
+  'glutSetColor':
+    'prefix': 'glutSetColor'
+    'body': 'glutSetColor(${1:int }, ${2:GLfloat red}, ${3:GLfloat green}, ${4:GLfloat blue})'
+  'glutSetCursor':
+    'prefix': 'glutSetCursor'
+    'body': 'glutSetCursor(${1:int cursor})'
+  'glutSetIconTitle':
+    'prefix': 'glutSetIconTitle'
+    'body': 'glutSetIconTitle(${1:char* title})'
+  'glutSetKeyRepeat':
+    'prefix': 'glutSetKeyRepeat'
+    'body': 'glutSetKeyRepeat(${1:int repeatMode})'
+  'glutSetMenu':
+    'prefix': 'glutSetMenu'
+    'body': 'glutSetMenu(${1:int menu})'
+  'glutSetWindow':
+    'prefix': 'glutSetWindow'
+    'body': 'glutSetWindow(${1:int win})'
+  'glutSetWindowTitle':
+    'prefix': 'glutSetWindowTitle'
+    'body': 'glutSetWindowTitle(${1:char* title})'
+  'glutSetupVideoResizing':
+    'prefix': 'glutSetupVideoResizing'
+    'body': 'glutSetupVideoResizing()'
+  'glutShowOverlay':
+    'prefix': 'glutShowOverlay'
+    'body': 'glutShowOverlay()'
+  'glutShowWindow':
+    'prefix': 'glutShowWindow'
+    'body': 'glutShowWindow()'
+  'glutSolidCone':
+    'prefix': 'glutSolidCone'
+    'body': 'glutSolidCone(${1:GLdouble base}, ${2:GLdouble height}, ${3:GLint slices}, ${4:GLint stacks})'
+  'glutSolidCube':
+    'prefix': 'glutSolidCube'
+    'body': 'glutSolidCube(${1:GLdouble size})'
+  'glutSolidDodecahedron':
+    'prefix': 'glutSolidDodecahedron'
+    'body': 'glutSolidDodecahedron()'
+  'glutSolidIcosahedron':
+    'prefix': 'glutSolidIcosahedron'
+    'body': 'glutSolidIcosahedron()'
+  'glutSolidOctahedron':
+    'prefix': 'glutSolidOctahedron'
+    'body': 'glutSolidOctahedron()'
+  'glutSolidSphere':
+    'prefix': 'glutSolidSphere'
+    'body': 'glutSolidSphere(${1:GLdouble radius}, ${2:GLint slices}, ${3:GLint stacks})'
+  'glutSolidTeapot':
+    'prefix': 'glutSolidTeapot'
+    'body': 'glutSolidTeapot(${1:GLdouble size})'
+  'glutSolidTetrahedron':
+    'prefix': 'glutSolidTetrahedron'
+    'body': 'glutSolidTetrahedron()'
+  'glutSolidTorus':
+    'prefix': 'glutSolidTorus'
+    'body': 'glutSolidTorus(${1:GLdouble innerRadius}, ${2:GLdouble outerRadius}, ${3:GLint sides}, ${4:GLint rings})'
+  'glutSpaceballButtonFunc':
+    'prefix': 'glutSpaceballButtonFunc'
+    'body': 'glutSpaceballButtonFunc(${1:void (*)(int, int) func})'
+  'glutSpaceballMotionFunc':
+    'prefix': 'glutSpaceballMotionFunc'
+    'body': 'glutSpaceballMotionFunc(${1:void (*)(int, int, int) func})'
+  'glutSpaceballRotateFunc':
+    'prefix': 'glutSpaceballRotateFunc'
+    'body': 'glutSpaceballRotateFunc(${1:void (*)(int, int, int) func})'
+  'glutSpecialFunc':
+    'prefix': 'glutSpecialFunc'
+    'body': 'glutSpecialFunc(${1:void (*)(int, int, int) func})'
+  'glutSpecialUpFunc':
+    'prefix': 'glutSpecialUpFunc'
+    'body': 'glutSpecialUpFunc(${1:void (*)(int, int, int) func})'
+  'glutStopVideoResizing':
+    'prefix': 'glutStopVideoResizing'
+    'body': 'glutStopVideoResizing()'
+  'glutStrokeCharacter':
+    'prefix': 'glutStrokeCharacter'
+    'body': 'glutStrokeCharacter(${1:void* font}, ${2:int character})'
+  'glutStrokeLength':
+    'prefix': 'glutStrokeLength'
+    'body': 'glutStrokeLength(${1:void* font}, ${2:unsigned char* string})'
+  'glutStrokeWidth':
+    'prefix': 'glutStrokeWidth'
+    'body': 'glutStrokeWidth(${1:void* font}, ${2:int character})'
+  'glutSurfaceTexture':
+    'prefix': 'glutSurfaceTexture'
+    'body': 'glutSurfaceTexture(${1:GLenum target}, ${2:GLenum internalformat}, ${3:int surfacewin})'
+  'glutSwapBuffers':
+    'prefix': 'glutSwapBuffers'
+    'body': 'glutSwapBuffers()'
+  'glutTabletButtonFunc':
+    'prefix': 'glutTabletButtonFunc'
+    'body': 'glutTabletButtonFunc(${1:void (*)(int, int, int, int) func})'
+  'glutTabletMotionFunc':
+    'prefix': 'glutTabletMotionFunc'
+    'body': 'glutTabletMotionFunc(${1:void (*)(int, int) func})'
+  'glutTimerFunc':
+    'prefix': 'glutTimerFunc'
+    'body': 'glutTimerFunc(${1:unsigned int millis}, ${2:void (*)(int) func}, ${3:int value})'
+  'glutUseLayer':
+    'prefix': 'glutUseLayer'
+    'body': 'glutUseLayer(${1:GLenum layer})'
+  'glutVideoPan':
+    'prefix': 'glutVideoPan'
+    'body': 'glutVideoPan(${1:int x}, ${2:int y}, ${3:int width}, ${4:int height})'
+  'glutVideoResize':
+    'prefix': 'glutVideoResize'
+    'body': 'glutVideoResize(${1:int x}, ${2:int y}, ${3:int width}, ${4:int height})'
+  'glutVideoResizeGet':
+    'prefix': 'glutVideoResizeGet'
+    'body': 'glutVideoResizeGet(${1:GLenum param})'
+  'glutVisibilityFunc':
+    'prefix': 'glutVisibilityFunc'
+    'body': 'glutVisibilityFunc(${1:void (*)(int) func})'
+  'glutWMCloseFunc':
+    'prefix': 'glutWMCloseFunc'
+    'body': 'glutWMCloseFunc(${1:void (*)(void) func})'
+  'glutWarpPointer':
+    'prefix': 'glutWarpPointer'
+    'body': 'glutWarpPointer(${1:int x}, ${2:int y})'
+  'glutWindowStatusFunc':
+    'prefix': 'glutWindowStatusFunc'
+    'body': 'glutWindowStatusFunc(${1:void (*)(int) func})'
+  'glutWireCone':
+    'prefix': 'glutWireCone'
+    'body': 'glutWireCone(${1:GLdouble base}, ${2:GLdouble height}, ${3:GLint slices}, ${4:GLint stacks})'
+  'glutWireCube':
+    'prefix': 'glutWireCube'
+    'body': 'glutWireCube(${1:GLdouble size})'
+  'glutWireDodecahedron':
+    'prefix': 'glutWireDodecahedron'
+    'body': 'glutWireDodecahedron()'
+  'glutWireIcosahedron':
+    'prefix': 'glutWireIcosahedron'
+    'body': 'glutWireIcosahedron()'
+  'glutWireOctahedron':
+    'prefix': 'glutWireOctahedron'
+    'body': 'glutWireOctahedron()'
+  'glutWireSphere':
+    'prefix': 'glutWireSphere'
+    'body': 'glutWireSphere(${1:GLdouble radius}, ${2:GLint slices}, ${3:GLint stacks})'
+  'glutWireTeapot':
+    'prefix': 'glutWireTeapot'
+    'body': 'glutWireTeapot(${1:GLdouble size})'
+  'glutWireTetrahedron':
+    'prefix': 'glutWireTetrahedron'
+    'body': 'glutWireTetrahedron()'
+  'glutWireTorus':
+    'prefix': 'glutWireTorus'
+    'body': 'glutWireTorus(${1:GLdouble innerRadius}, ${2:GLdouble outerRadius}, ${3:GLint sides}, ${4:GLint rings})'
+  'rot_about_axis_d':
+    'prefix': 'rot_about_axis_d'
+    'body': 'rot_about_axis_d(${1:double angle}, ${2:double* axis})'
+  'rot_about_axis_f':
+    'prefix': 'rot_about_axis_f'
+    'body': 'rot_about_axis_f(${1:float angle}, ${2:float* axis})'
+  'rot_axis_d':
+    'prefix': 'rot_axis_d'
+    'body': 'rot_axis_d(${1:double omega}, ${2:double* axis})'
+  'rot_axis_f':
+    'prefix': 'rot_axis_f'
+    'body': 'rot_axis_f(${1:float omega}, ${2:float* axis})'
+  'rot_omega_d':
+    'prefix': 'rot_omega_d'
+    'body': 'rot_omega_d(${1:double* axis})'
+  'rot_omega_f':
+    'prefix': 'rot_omega_f'
+    'body': 'rot_omega_f(${1:float* axis})'
+  'smapConfigureSphereMapMesh':
+    'prefix': 'smapConfigureSphereMapMesh'
+    'body': 'smapConfigureSphereMapMesh(${1:SphereMap* smap}, ${2:int steps}, ${3:int rings}, ${4:int edgeExtend})'
+  'smapCreateSphereMap':
+    'prefix': 'smapCreateSphereMap'
+    'body': 'smapCreateSphereMap(${1:SphereMap* shareSmap})'
+  'smapDestroySphereMap':
+    'prefix': 'smapDestroySphereMap'
+    'body': 'smapDestroySphereMap(${1:SphereMap* smap})'
+  'smapGenSphereMap':
+    'prefix': 'smapGenSphereMap'
+    'body': 'smapGenSphereMap(${1:SphereMap* smap})'
+  'smapGenSphereMapFromViewTexs':
+    'prefix': 'smapGenSphereMapFromViewTexs'
+    'body': 'smapGenSphereMapFromViewTexs(${1:SphereMap* smap})'
+  'smapGenSphereMapWithOneViewTex':
+    'prefix': 'smapGenSphereMapWithOneViewTex'
+    'body': 'smapGenSphereMapWithOneViewTex(${1:SphereMap* smap})'
+  'smapGenViewTex':
+    'prefix': 'smapGenViewTex'
+    'body': 'smapGenViewTex(${1:SphereMap* smap}, ${2:int view})'
+  'smapGenViewTexs':
+    'prefix': 'smapGenViewTexs'
+    'body': 'smapGenViewTexs(${1:SphereMap* smap})'
+  'smapGetContextData':
+    'prefix': 'smapGetContextData'
+    'body': 'smapGetContextData(${1:SphereMap* smap}, ${2:void** context})'
+  'smapGetDrawViewFunc':
+    'prefix': 'smapGetDrawViewFunc'
+    'body': 'smapGetDrawViewFunc(${1:SphereMap* smap}, ${2:void (**)(int, void *) drawView})'
+  'smapGetEye':
+    'prefix': 'smapGetEye'
+    'body': 'smapGetEye(${1:SphereMap* smap}, ${2:GLfloat* eyex}, ${3:GLfloat* eyey}, ${4:GLfloat* eyez})'
+  'smapGetEyeVector':
+    'prefix': 'smapGetEyeVector'
+    'body': 'smapGetEyeVector(${1:SphereMap* smap}, ${2:GLfloat* eye})'
+  'smapGetFlags':
+    'prefix': 'smapGetFlags'
+    'body': 'smapGetFlags(${1:SphereMap* smap}, ${2:SphereMapFlags* flags})'
+  'smapGetNearFar':
+    'prefix': 'smapGetNearFar'
+    'body': 'smapGetNearFar(${1:SphereMap* smap}, ${2:GLfloat* viewNear}, ${3:GLfloat* viewFar})'
+  'smapGetObject':
+    'prefix': 'smapGetObject'
+    'body': 'smapGetObject(${1:SphereMap* smap}, ${2:GLfloat* objx}, ${3:GLfloat* objy}, ${4:GLfloat* objz})'
+  'smapGetObjectVector':
+    'prefix': 'smapGetObjectVector'
+    'body': 'smapGetObjectVector(${1:SphereMap* smap}, ${2:GLfloat* obj})'
+  'smapGetPositionLightsFunc':
+    'prefix': 'smapGetPositionLightsFunc'
+    'body': 'smapGetPositionLightsFunc(${1:SphereMap* smap}, ${2:void (**)(int, void *) positionLights})'
+  'smapGetSphereMapOrigin':
+    'prefix': 'smapGetSphereMapOrigin'
+    'body': 'smapGetSphereMapOrigin(${1:SphereMap* smap}, ${2:GLint* x}, ${3:GLint* y})'
+  'smapGetSphereMapTexDim':
+    'prefix': 'smapGetSphereMapTexDim'
+    'body': 'smapGetSphereMapTexDim(${1:SphereMap* smap}, ${2:GLsizei* texdim})'
+  'smapGetSphereMapTexObj':
+    'prefix': 'smapGetSphereMapTexObj'
+    'body': 'smapGetSphereMapTexObj(${1:SphereMap* smap}, ${2:GLuint* texobj})'
+  'smapGetUp':
+    'prefix': 'smapGetUp'
+    'body': 'smapGetUp(${1:SphereMap* smap}, ${2:GLfloat* upx}, ${3:GLfloat* upy}, ${4:GLfloat* upz})'
+  'smapGetUpVector':
+    'prefix': 'smapGetUpVector'
+    'body': 'smapGetUpVector(${1:SphereMap* smap}, ${2:GLfloat* up})'
+  'smapGetViewOrigin':
+    'prefix': 'smapGetViewOrigin'
+    'body': 'smapGetViewOrigin(${1:SphereMap* smap}, ${2:GLint* x}, ${3:GLint* y})'
+  'smapGetViewTexDim':
+    'prefix': 'smapGetViewTexDim'
+    'body': 'smapGetViewTexDim(${1:SphereMap* smap}, ${2:GLsizei* texdim})'
+  'smapGetViewTexObj':
+    'prefix': 'smapGetViewTexObj'
+    'body': 'smapGetViewTexObj(${1:SphereMap* smap}, ${2:GLuint* texobj})'
+  'smapGetViewTexObjs':
+    'prefix': 'smapGetViewTexObjs'
+    'body': 'smapGetViewTexObjs(${1:SphereMap* smap}, ${2:GLuint* texobjs})'
+  'smapRvecToSt':
+    'prefix': 'smapRvecToSt'
+    'body': 'smapRvecToSt(${1:float* rvec}, ${2:float* st})'
+  'smapSetContextData':
+    'prefix': 'smapSetContextData'
+    'body': 'smapSetContextData(${1:SphereMap* smap}, ${2:void* context})'
+  'smapSetDrawViewFunc':
+    'prefix': 'smapSetDrawViewFunc'
+    'body': 'smapSetDrawViewFunc(${1:SphereMap* smap}, ${2:void (*)(int, void *) drawView})'
+  'smapSetEye':
+    'prefix': 'smapSetEye'
+    'body': 'smapSetEye(${1:SphereMap* smap}, ${2:GLfloat eyex}, ${3:GLfloat eyey}, ${4:GLfloat eyez})'
+  'smapSetEyeVector':
+    'prefix': 'smapSetEyeVector'
+    'body': 'smapSetEyeVector(${1:SphereMap* smap}, ${2:GLfloat* eye})'
+  'smapSetFlags':
+    'prefix': 'smapSetFlags'
+    'body': 'smapSetFlags(${1:SphereMap* smap}, ${2:SphereMapFlags flags})'
+  'smapSetNearFar':
+    'prefix': 'smapSetNearFar'
+    'body': 'smapSetNearFar(${1:SphereMap* smap}, ${2:GLfloat viewNear}, ${3:GLfloat viewFar})'
+  'smapSetObject':
+    'prefix': 'smapSetObject'
+    'body': 'smapSetObject(${1:SphereMap* smap}, ${2:GLfloat objx}, ${3:GLfloat objy}, ${4:GLfloat objz})'
+  'smapSetObjectVector':
+    'prefix': 'smapSetObjectVector'
+    'body': 'smapSetObjectVector(${1:SphereMap* smap}, ${2:GLfloat* obj})'
+  'smapSetPositionLightsFunc':
+    'prefix': 'smapSetPositionLightsFunc'
+    'body': 'smapSetPositionLightsFunc(${1:SphereMap* smap}, ${2:void (*)(int, void *) positionLights})'
+  'smapSetSphereMapOrigin':
+    'prefix': 'smapSetSphereMapOrigin'
+    'body': 'smapSetSphereMapOrigin(${1:SphereMap* smap}, ${2:GLint x}, ${3:GLint y})'
+  'smapSetSphereMapTexDim':
+    'prefix': 'smapSetSphereMapTexDim'
+    'body': 'smapSetSphereMapTexDim(${1:SphereMap* smap}, ${2:GLsizei texdim})'
+  'smapSetSphereMapTexObj':
+    'prefix': 'smapSetSphereMapTexObj'
+    'body': 'smapSetSphereMapTexObj(${1:SphereMap* smap}, ${2:GLuint texobj})'
+  'smapSetUp':
+    'prefix': 'smapSetUp'
+    'body': 'smapSetUp(${1:SphereMap* smap}, ${2:GLfloat upx}, ${3:GLfloat upy}, ${4:GLfloat upz})'
+  'smapSetUpVector':
+    'prefix': 'smapSetUpVector'
+    'body': 'smapSetUpVector(${1:SphereMap* smap}, ${2:GLfloat* up})'
+  'smapSetViewOrigin':
+    'prefix': 'smapSetViewOrigin'
+    'body': 'smapSetViewOrigin(${1:SphereMap* smap}, ${2:GLint x}, ${3:GLint y})'
+  'smapSetViewTexDim':
+    'prefix': 'smapSetViewTexDim'
+    'body': 'smapSetViewTexDim(${1:SphereMap* smap}, ${2:GLsizei texdim})'
+  'smapSetViewTexObj':
+    'prefix': 'smapSetViewTexObj'
+    'body': 'smapSetViewTexObj(${1:SphereMap* smap}, ${2:GLuint texobj})'
+  'smapSetViewTexObjs':
+    'prefix': 'smapSetViewTexObjs'
+    'body': 'smapSetViewTexObjs(${1:SphereMap* smap}, ${2:GLuint* texobjs})'
+  'smapStToRvec':
+    'prefix': 'smapStToRvec'
+    'body': 'smapStToRvec(${1:float* st}, ${2:float* rvec})'
+  'up_sanity_check':
+    'prefix': 'up_sanity_check'
+    'body': 'up_sanity_check(${1:double* up}, ${2:int npoints}, ${3:double (*)* point_array})'
+  'urot_about_axis_d':
+    'prefix': 'urot_about_axis_d'
+    'body': 'urot_about_axis_d(${1:double (*)* m}, ${2:double angle}, ${3:double* axis})'
+  'urot_about_axis_f':
+    'prefix': 'urot_about_axis_f'
+    'body': 'urot_about_axis_f(${1:float (*)* m}, ${2:float angle}, ${3:float* axis})'
+  'urot_axis_d':
+    'prefix': 'urot_axis_d'
+    'body': 'urot_axis_d(${1:double (*)* m}, ${2:double omega}, ${3:double* axis})'
+  'urot_axis_f':
+    'prefix': 'urot_axis_f'
+    'body': 'urot_axis_f(${1:float (*)* m}, ${2:float omega}, ${3:float* axis})'
+  'urot_omega_d':
+    'prefix': 'urot_omega_d'
+    'body': 'urot_omega_d(${1:double (*)* m}, ${2:double* axis})'
+  'urot_omega_f':
+    'prefix': 'urot_omega_f'
+    'body': 'urot_omega_f(${1:float (*)* m}, ${2:float* axis})'
+  'uview_direction_d':
+    'prefix': 'uview_direction_d'
+    'body': 'uview_direction_d(${1:double (*)* m}, ${2:double* v21}, ${3:double* up})'
+  'uview_direction_f':
+    'prefix': 'uview_direction_f'
+    'body': 'uview_direction_f(${1:float (*)* m}, ${2:float* v21}, ${3:float* up})'
+  'uviewpoint_d':
+    'prefix': 'uviewpoint_d'
+    'body': 'uviewpoint_d(${1:double (*)* m}, ${2:double* v1}, ${3:double* v2}, ${4:double* up})'
+  'uviewpoint_f':
+    'prefix': 'uviewpoint_f'
+    'body': 'uviewpoint_f(${1:float (*)* m}, ${2:float* v1}, ${3:float* v2}, ${4:float* up})'

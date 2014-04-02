@@ -1,0 +1,10 @@
+'.source.rubymotion':
+  'advertisingIdentifier':
+    'prefix': 'advertisingIdentifier'
+    'body': 'advertisingIdentifier()'
+  'isAdvertisingTrackingEnabled':
+    'prefix': 'isAdvertisingTrackingEnabled'
+    'body': 'isAdvertisingTrackingEnabled()'
+  'ASIdentifierManager.sharedManager':
+    'prefix': 'sharedManager'
+    'body': 'ASIdentifierManager.sharedManager()'

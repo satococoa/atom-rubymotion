@@ -1,0 +1,1768 @@
+'.source.rubymotion':
+  'kCMFormatDescriptionColorPrimaries_P22 (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionColorPrimaries_P22'
+    'body': 'KCMFormatDescriptionColorPrimaries_P22'
+  'kCMFormatDescriptionConformsToMPEG2VideoProfile (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionConformsToMPEG2VideoProfile'
+    'body': 'KCMFormatDescriptionConformsToMPEG2VideoProfile'
+  'kCMFormatDescriptionExtensionKey_MetadataKeyTable (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtensionKey_MetadataKeyTable'
+    'body': 'KCMFormatDescriptionExtensionKey_MetadataKeyTable'
+  'kCMFormatDescriptionExtension_BytesPerRow (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_BytesPerRow'
+    'body': 'KCMFormatDescriptionExtension_BytesPerRow'
+  'kCMFormatDescriptionExtension_Depth (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_Depth'
+    'body': 'KCMFormatDescriptionExtension_Depth'
+  'kCMFormatDescriptionExtension_FormatName (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_FormatName'
+    'body': 'KCMFormatDescriptionExtension_FormatName'
+  'kCMFormatDescriptionExtension_FullRangeVideo (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_FullRangeVideo'
+    'body': 'KCMFormatDescriptionExtension_FullRangeVideo'
+  'kCMFormatDescriptionExtension_ICCProfile (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_ICCProfile'
+    'body': 'KCMFormatDescriptionExtension_ICCProfile'
+  'kCMFormatDescriptionExtension_OriginalCompressionSettings (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_OriginalCompressionSettings'
+    'body': 'KCMFormatDescriptionExtension_OriginalCompressionSettings'
+  'kCMFormatDescriptionExtension_RevisionLevel (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_RevisionLevel'
+    'body': 'KCMFormatDescriptionExtension_RevisionLevel'
+  'kCMFormatDescriptionExtension_SampleDescriptionExtensionAtoms (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_SampleDescriptionExtensionAtoms'
+    'body': 'KCMFormatDescriptionExtension_SampleDescriptionExtensionAtoms'
+  'kCMFormatDescriptionExtension_SpatialQuality (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_SpatialQuality'
+    'body': 'KCMFormatDescriptionExtension_SpatialQuality'
+  'kCMFormatDescriptionExtension_TemporalQuality (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_TemporalQuality'
+    'body': 'KCMFormatDescriptionExtension_TemporalQuality'
+  'kCMFormatDescriptionExtension_Vendor (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_Vendor'
+    'body': 'KCMFormatDescriptionExtension_Vendor'
+  'kCMFormatDescriptionExtension_VerbatimISOSampleEntry (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_VerbatimISOSampleEntry'
+    'body': 'KCMFormatDescriptionExtension_VerbatimISOSampleEntry'
+  'kCMFormatDescriptionExtension_VerbatimSampleDescription (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_VerbatimSampleDescription'
+    'body': 'KCMFormatDescriptionExtension_VerbatimSampleDescription'
+  'kCMFormatDescriptionExtension_Version (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionExtension_Version'
+    'body': 'KCMFormatDescriptionExtension_Version'
+  'kCMFormatDescriptionKey_CleanApertureHeightRational (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionKey_CleanApertureHeightRational'
+    'body': 'KCMFormatDescriptionKey_CleanApertureHeightRational'
+  'kCMFormatDescriptionKey_CleanApertureHorizontalOffsetRational (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionKey_CleanApertureHorizontalOffsetRational'
+    'body': 'KCMFormatDescriptionKey_CleanApertureHorizontalOffsetRational'
+  'kCMFormatDescriptionKey_CleanApertureVerticalOffsetRational (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionKey_CleanApertureVerticalOffsetRational'
+    'body': 'KCMFormatDescriptionKey_CleanApertureVerticalOffsetRational'
+  'kCMFormatDescriptionKey_CleanApertureWidthRational (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionKey_CleanApertureWidthRational'
+    'body': 'KCMFormatDescriptionKey_CleanApertureWidthRational'
+  'kCMFormatDescriptionVendor_Apple (CFStringRef)':
+    'prefix': 'kCMFormatDescriptionVendor_Apple'
+    'body': 'KCMFormatDescriptionVendor_Apple'
+  'kCMMemoryPoolOption_AgeOutPeriod (CFStringRef)':
+    'prefix': 'kCMMemoryPoolOption_AgeOutPeriod'
+    'body': 'KCMMemoryPoolOption_AgeOutPeriod'
+  'kCMMetadataFormatDescriptionKey_LocalID (CFStringRef)':
+    'prefix': 'kCMMetadataFormatDescriptionKey_LocalID'
+    'body': 'KCMMetadataFormatDescriptionKey_LocalID'
+  'kCMMetadataFormatDescriptionKey_Namespace (CFStringRef)':
+    'prefix': 'kCMMetadataFormatDescriptionKey_Namespace'
+    'body': 'KCMMetadataFormatDescriptionKey_Namespace'
+  'kCMMetadataFormatDescriptionKey_Value (CFStringRef)':
+    'prefix': 'kCMMetadataFormatDescriptionKey_Value'
+    'body': 'KCMMetadataFormatDescriptionKey_Value'
+  'kCMSampleAttachmentKey_DependsOnOthers (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_DependsOnOthers'
+    'body': 'KCMSampleAttachmentKey_DependsOnOthers'
+  'kCMSampleAttachmentKey_DisplayImmediately (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_DisplayImmediately'
+    'body': 'KCMSampleAttachmentKey_DisplayImmediately'
+  'kCMSampleAttachmentKey_DoNotDisplay (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_DoNotDisplay'
+    'body': 'KCMSampleAttachmentKey_DoNotDisplay'
+  'kCMSampleAttachmentKey_EarlierDisplayTimesAllowed (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_EarlierDisplayTimesAllowed'
+    'body': 'KCMSampleAttachmentKey_EarlierDisplayTimesAllowed'
+  'kCMSampleAttachmentKey_HasRedundantCoding (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_HasRedundantCoding'
+    'body': 'KCMSampleAttachmentKey_HasRedundantCoding'
+  'kCMSampleAttachmentKey_IsDependedOnByOthers (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_IsDependedOnByOthers'
+    'body': 'KCMSampleAttachmentKey_IsDependedOnByOthers'
+  'kCMSampleAttachmentKey_NotSync (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_NotSync'
+    'body': 'KCMSampleAttachmentKey_NotSync'
+  'kCMSampleAttachmentKey_PartialSync (CFStringRef)':
+    'prefix': 'kCMSampleAttachmentKey_PartialSync'
+    'body': 'KCMSampleAttachmentKey_PartialSync'
+  'kCMSampleBufferAttachmentKey_DisplayEmptyMediaImmediately (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_DisplayEmptyMediaImmediately'
+    'body': 'KCMSampleBufferAttachmentKey_DisplayEmptyMediaImmediately'
+  'kCMSampleBufferAttachmentKey_DrainAfterDecoding (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_DrainAfterDecoding'
+    'body': 'KCMSampleBufferAttachmentKey_DrainAfterDecoding'
+  'kCMSampleBufferAttachmentKey_DroppedFrameReason (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_DroppedFrameReason'
+    'body': 'KCMSampleBufferAttachmentKey_DroppedFrameReason'
+  'kCMSampleBufferAttachmentKey_DroppedFrameReasonInfo (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_DroppedFrameReasonInfo'
+    'body': 'KCMSampleBufferAttachmentKey_DroppedFrameReasonInfo'
+  'kCMSampleBufferAttachmentKey_EmptyMedia (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_EmptyMedia'
+    'body': 'KCMSampleBufferAttachmentKey_EmptyMedia'
+  'kCMSampleBufferAttachmentKey_EndsPreviousSampleDuration (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_EndsPreviousSampleDuration'
+    'body': 'KCMSampleBufferAttachmentKey_EndsPreviousSampleDuration'
+  'kCMSampleBufferAttachmentKey_FillDiscontinuitiesWithSilence (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_FillDiscontinuitiesWithSilence'
+    'body': 'KCMSampleBufferAttachmentKey_FillDiscontinuitiesWithSilence'
+  'kCMSampleBufferAttachmentKey_GradualDecoderRefresh (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_GradualDecoderRefresh'
+    'body': 'KCMSampleBufferAttachmentKey_GradualDecoderRefresh'
+  'kCMSampleBufferAttachmentKey_PermanentEmptyMedia (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_PermanentEmptyMedia'
+    'body': 'KCMSampleBufferAttachmentKey_PermanentEmptyMedia'
+  'kCMSampleBufferAttachmentKey_PostNotificationWhenConsumed (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_PostNotificationWhenConsumed'
+    'body': 'KCMSampleBufferAttachmentKey_PostNotificationWhenConsumed'
+  'kCMSampleBufferAttachmentKey_ResetDecoderBeforeDecoding (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_ResetDecoderBeforeDecoding'
+    'body': 'KCMSampleBufferAttachmentKey_ResetDecoderBeforeDecoding'
+  'kCMSampleBufferAttachmentKey_ResumeOutput (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_ResumeOutput'
+    'body': 'KCMSampleBufferAttachmentKey_ResumeOutput'
+  'kCMSampleBufferAttachmentKey_Reverse (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_Reverse'
+    'body': 'KCMSampleBufferAttachmentKey_Reverse'
+  'kCMSampleBufferAttachmentKey_SampleReferenceByteOffset (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_SampleReferenceByteOffset'
+    'body': 'KCMSampleBufferAttachmentKey_SampleReferenceByteOffset'
+  'kCMSampleBufferAttachmentKey_SampleReferenceURL (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_SampleReferenceURL'
+    'body': 'KCMSampleBufferAttachmentKey_SampleReferenceURL'
+  'kCMSampleBufferAttachmentKey_SpeedMultiplier (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_SpeedMultiplier'
+    'body': 'KCMSampleBufferAttachmentKey_SpeedMultiplier'
+  'kCMSampleBufferAttachmentKey_TransitionID (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_TransitionID'
+    'body': 'KCMSampleBufferAttachmentKey_TransitionID'
+  'kCMSampleBufferAttachmentKey_TrimDurationAtEnd (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_TrimDurationAtEnd'
+    'body': 'KCMSampleBufferAttachmentKey_TrimDurationAtEnd'
+  'kCMSampleBufferAttachmentKey_TrimDurationAtStart (CFStringRef)':
+    'prefix': 'kCMSampleBufferAttachmentKey_TrimDurationAtStart'
+    'body': 'KCMSampleBufferAttachmentKey_TrimDurationAtStart'
+  'kCMSampleBufferConduitNotificationParameter_MaxUpcomingOutputPTS (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotificationParameter_MaxUpcomingOutputPTS'
+    'body': 'KCMSampleBufferConduitNotificationParameter_MaxUpcomingOutputPTS'
+  'kCMSampleBufferConduitNotificationParameter_MinUpcomingOutputPTS (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotificationParameter_MinUpcomingOutputPTS'
+    'body': 'KCMSampleBufferConduitNotificationParameter_MinUpcomingOutputPTS'
+  'kCMSampleBufferConduitNotificationParameter_ResumeTag (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotificationParameter_ResumeTag'
+    'body': 'KCMSampleBufferConduitNotificationParameter_ResumeTag'
+  'kCMSampleBufferConduitNotificationParameter_UpcomingOutputPTSRangeMayOverlapQueuedOutputPTSRange (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotificationParameter_UpcomingOutputPTSRangeMayOverlapQueuedOutputPTSRange'
+    'body': 'KCMSampleBufferConduitNotificationParameter_UpcomingOutputPTSRangeMayOverlapQueuedOutputPTSRange'
+  'kCMSampleBufferConduitNotification_InhibitOutputUntil (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotification_InhibitOutputUntil'
+    'body': 'KCMSampleBufferConduitNotification_InhibitOutputUntil'
+  'kCMSampleBufferConduitNotification_ResetOutput (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotification_ResetOutput'
+    'body': 'KCMSampleBufferConduitNotification_ResetOutput'
+  'kCMSampleBufferConduitNotification_UpcomingOutputPTSRangeChanged (CFStringRef)':
+    'prefix': 'kCMSampleBufferConduitNotification_UpcomingOutputPTSRangeChanged'
+    'body': 'KCMSampleBufferConduitNotification_UpcomingOutputPTSRangeChanged'
+  'kCMSampleBufferConsumerNotification_BufferConsumed (CFStringRef)':
+    'prefix': 'kCMSampleBufferConsumerNotification_BufferConsumed'
+    'body': 'KCMSampleBufferConsumerNotification_BufferConsumed'
+  'kCMSampleBufferDroppedFrameReasonInfo_CameraModeSwitch (CFStringRef)':
+    'prefix': 'kCMSampleBufferDroppedFrameReasonInfo_CameraModeSwitch'
+    'body': 'KCMSampleBufferDroppedFrameReasonInfo_CameraModeSwitch'
+  'kCMSampleBufferDroppedFrameReason_Discontinuity (CFStringRef)':
+    'prefix': 'kCMSampleBufferDroppedFrameReason_Discontinuity'
+    'body': 'KCMSampleBufferDroppedFrameReason_Discontinuity'
+  'kCMSampleBufferDroppedFrameReason_FrameWasLate (CFStringRef)':
+    'prefix': 'kCMSampleBufferDroppedFrameReason_FrameWasLate'
+    'body': 'KCMSampleBufferDroppedFrameReason_FrameWasLate'
+  'kCMSampleBufferDroppedFrameReason_OutOfBuffers (CFStringRef)':
+    'prefix': 'kCMSampleBufferDroppedFrameReason_OutOfBuffers'
+    'body': 'KCMSampleBufferDroppedFrameReason_OutOfBuffers'
+  'kCMSampleBufferNotification_DataBecameReady (CFStringRef)':
+    'prefix': 'kCMSampleBufferNotification_DataBecameReady'
+    'body': 'KCMSampleBufferNotification_DataBecameReady'
+  'kCMTextFormatDescriptionColor_Alpha (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionColor_Alpha'
+    'body': 'KCMTextFormatDescriptionColor_Alpha'
+  'kCMTextFormatDescriptionColor_Blue (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionColor_Blue'
+    'body': 'KCMTextFormatDescriptionColor_Blue'
+  'kCMTextFormatDescriptionColor_Green (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionColor_Green'
+    'body': 'KCMTextFormatDescriptionColor_Green'
+  'kCMTextFormatDescriptionColor_Red (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionColor_Red'
+    'body': 'KCMTextFormatDescriptionColor_Red'
+  'kCMTextFormatDescriptionExtension_BackgroundColor (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_BackgroundColor'
+    'body': 'KCMTextFormatDescriptionExtension_BackgroundColor'
+  'kCMTextFormatDescriptionExtension_DefaultFontName (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_DefaultFontName'
+    'body': 'KCMTextFormatDescriptionExtension_DefaultFontName'
+  'kCMTextFormatDescriptionExtension_DefaultStyle (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_DefaultStyle'
+    'body': 'KCMTextFormatDescriptionExtension_DefaultStyle'
+  'kCMTextFormatDescriptionExtension_DefaultTextBox (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_DefaultTextBox'
+    'body': 'KCMTextFormatDescriptionExtension_DefaultTextBox'
+  'kCMTextFormatDescriptionExtension_DisplayFlags (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_DisplayFlags'
+    'body': 'KCMTextFormatDescriptionExtension_DisplayFlags'
+  'kCMTextFormatDescriptionExtension_FontTable (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_FontTable'
+    'body': 'KCMTextFormatDescriptionExtension_FontTable'
+  'kCMTextFormatDescriptionExtension_HorizontalJustification (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_HorizontalJustification'
+    'body': 'KCMTextFormatDescriptionExtension_HorizontalJustification'
+  'kCMTextFormatDescriptionExtension_TextJustification (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_TextJustification'
+    'body': 'KCMTextFormatDescriptionExtension_TextJustification'
+  'kCMTextFormatDescriptionExtension_VerticalJustification (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionExtension_VerticalJustification'
+    'body': 'KCMTextFormatDescriptionExtension_VerticalJustification'
+  'kCMTextFormatDescriptionRect_Bottom (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionRect_Bottom'
+    'body': 'KCMTextFormatDescriptionRect_Bottom'
+  'kCMTextFormatDescriptionRect_Left (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionRect_Left'
+    'body': 'KCMTextFormatDescriptionRect_Left'
+  'kCMTextFormatDescriptionRect_Right (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionRect_Right'
+    'body': 'KCMTextFormatDescriptionRect_Right'
+  'kCMTextFormatDescriptionRect_Top (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionRect_Top'
+    'body': 'KCMTextFormatDescriptionRect_Top'
+  'kCMTextFormatDescriptionStyle_Ascent (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_Ascent'
+    'body': 'KCMTextFormatDescriptionStyle_Ascent'
+  'kCMTextFormatDescriptionStyle_EndChar (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_EndChar'
+    'body': 'KCMTextFormatDescriptionStyle_EndChar'
+  'kCMTextFormatDescriptionStyle_Font (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_Font'
+    'body': 'KCMTextFormatDescriptionStyle_Font'
+  'kCMTextFormatDescriptionStyle_FontFace (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_FontFace'
+    'body': 'KCMTextFormatDescriptionStyle_FontFace'
+  'kCMTextFormatDescriptionStyle_FontSize (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_FontSize'
+    'body': 'KCMTextFormatDescriptionStyle_FontSize'
+  'kCMTextFormatDescriptionStyle_ForegroundColor (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_ForegroundColor'
+    'body': 'KCMTextFormatDescriptionStyle_ForegroundColor'
+  'kCMTextFormatDescriptionStyle_Height (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_Height'
+    'body': 'KCMTextFormatDescriptionStyle_Height'
+  'kCMTextFormatDescriptionStyle_StartChar (CFStringRef)':
+    'prefix': 'kCMTextFormatDescriptionStyle_StartChar'
+    'body': 'KCMTextFormatDescriptionStyle_StartChar'
+  'kCMTextMarkupAlignmentType_End (CFStringRef)':
+    'prefix': 'kCMTextMarkupAlignmentType_End'
+    'body': 'KCMTextMarkupAlignmentType_End'
+  'kCMTextMarkupAlignmentType_Left (CFStringRef)':
+    'prefix': 'kCMTextMarkupAlignmentType_Left'
+    'body': 'KCMTextMarkupAlignmentType_Left'
+  'kCMTextMarkupAlignmentType_Middle (CFStringRef)':
+    'prefix': 'kCMTextMarkupAlignmentType_Middle'
+    'body': 'KCMTextMarkupAlignmentType_Middle'
+  'kCMTextMarkupAlignmentType_Right (CFStringRef)':
+    'prefix': 'kCMTextMarkupAlignmentType_Right'
+    'body': 'KCMTextMarkupAlignmentType_Right'
+  'kCMTextMarkupAlignmentType_Start (CFStringRef)':
+    'prefix': 'kCMTextMarkupAlignmentType_Start'
+    'body': 'KCMTextMarkupAlignmentType_Start'
+  'kCMTextMarkupAttribute_Alignment (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_Alignment'
+    'body': 'KCMTextMarkupAttribute_Alignment'
+  'kCMTextMarkupAttribute_BackgroundColorARGB (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_BackgroundColorARGB'
+    'body': 'KCMTextMarkupAttribute_BackgroundColorARGB'
+  'kCMTextMarkupAttribute_BaseFontSizePercentageRelativeToVideoHeight (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_BaseFontSizePercentageRelativeToVideoHeight'
+    'body': 'KCMTextMarkupAttribute_BaseFontSizePercentageRelativeToVideoHeight'
+  'kCMTextMarkupAttribute_BoldStyle (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_BoldStyle'
+    'body': 'KCMTextMarkupAttribute_BoldStyle'
+  'kCMTextMarkupAttribute_CharacterBackgroundColorARGB (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_CharacterBackgroundColorARGB'
+    'body': 'KCMTextMarkupAttribute_CharacterBackgroundColorARGB'
+  'kCMTextMarkupAttribute_CharacterEdgeStyle (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_CharacterEdgeStyle'
+    'body': 'KCMTextMarkupAttribute_CharacterEdgeStyle'
+  'kCMTextMarkupAttribute_FontFamilyName (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_FontFamilyName'
+    'body': 'KCMTextMarkupAttribute_FontFamilyName'
+  'kCMTextMarkupAttribute_ForegroundColorARGB (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_ForegroundColorARGB'
+    'body': 'KCMTextMarkupAttribute_ForegroundColorARGB'
+  'kCMTextMarkupAttribute_GenericFontFamilyName (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_GenericFontFamilyName'
+    'body': 'KCMTextMarkupAttribute_GenericFontFamilyName'
+  'kCMTextMarkupAttribute_ItalicStyle (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_ItalicStyle'
+    'body': 'KCMTextMarkupAttribute_ItalicStyle'
+  'kCMTextMarkupAttribute_OrthogonalLinePositionPercentageRelativeToWritingDirection (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_OrthogonalLinePositionPercentageRelativeToWritingDirection'
+    'body': 'KCMTextMarkupAttribute_OrthogonalLinePositionPercentageRelativeToWritingDirection'
+  'kCMTextMarkupAttribute_RelativeFontSize (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_RelativeFontSize'
+    'body': 'KCMTextMarkupAttribute_RelativeFontSize'
+  'kCMTextMarkupAttribute_TextPositionPercentageRelativeToWritingDirection (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_TextPositionPercentageRelativeToWritingDirection'
+    'body': 'KCMTextMarkupAttribute_TextPositionPercentageRelativeToWritingDirection'
+  'kCMTextMarkupAttribute_UnderlineStyle (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_UnderlineStyle'
+    'body': 'KCMTextMarkupAttribute_UnderlineStyle'
+  'kCMTextMarkupAttribute_VerticalLayout (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_VerticalLayout'
+    'body': 'KCMTextMarkupAttribute_VerticalLayout'
+  'kCMTextMarkupAttribute_WritingDirectionSizePercentage (CFStringRef)':
+    'prefix': 'kCMTextMarkupAttribute_WritingDirectionSizePercentage'
+    'body': 'KCMTextMarkupAttribute_WritingDirectionSizePercentage'
+  'kCMTextMarkupCharacterEdgeStyle_Depressed (CFStringRef)':
+    'prefix': 'kCMTextMarkupCharacterEdgeStyle_Depressed'
+    'body': 'KCMTextMarkupCharacterEdgeStyle_Depressed'
+  'kCMTextMarkupCharacterEdgeStyle_DropShadow (CFStringRef)':
+    'prefix': 'kCMTextMarkupCharacterEdgeStyle_DropShadow'
+    'body': 'KCMTextMarkupCharacterEdgeStyle_DropShadow'
+  'kCMTextMarkupCharacterEdgeStyle_None (CFStringRef)':
+    'prefix': 'kCMTextMarkupCharacterEdgeStyle_None'
+    'body': 'KCMTextMarkupCharacterEdgeStyle_None'
+  'kCMTextMarkupCharacterEdgeStyle_Raised (CFStringRef)':
+    'prefix': 'kCMTextMarkupCharacterEdgeStyle_Raised'
+    'body': 'KCMTextMarkupCharacterEdgeStyle_Raised'
+  'kCMTextMarkupCharacterEdgeStyle_Uniform (CFStringRef)':
+    'prefix': 'kCMTextMarkupCharacterEdgeStyle_Uniform'
+    'body': 'KCMTextMarkupCharacterEdgeStyle_Uniform'
+  'kCMTextMarkupGenericFontName_Casual (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_Casual'
+    'body': 'KCMTextMarkupGenericFontName_Casual'
+  'kCMTextMarkupGenericFontName_Cursive (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_Cursive'
+    'body': 'KCMTextMarkupGenericFontName_Cursive'
+  'kCMTextMarkupGenericFontName_Default (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_Default'
+    'body': 'KCMTextMarkupGenericFontName_Default'
+  'kCMTextMarkupGenericFontName_Fantasy (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_Fantasy'
+    'body': 'KCMTextMarkupGenericFontName_Fantasy'
+  'kCMTextMarkupGenericFontName_Monospace (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_Monospace'
+    'body': 'KCMTextMarkupGenericFontName_Monospace'
+  'kCMTextMarkupGenericFontName_MonospaceSansSerif (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_MonospaceSansSerif'
+    'body': 'KCMTextMarkupGenericFontName_MonospaceSansSerif'
+  'kCMTextMarkupGenericFontName_MonospaceSerif (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_MonospaceSerif'
+    'body': 'KCMTextMarkupGenericFontName_MonospaceSerif'
+  'kCMTextMarkupGenericFontName_ProportionalSansSerif (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_ProportionalSansSerif'
+    'body': 'KCMTextMarkupGenericFontName_ProportionalSansSerif'
+  'kCMTextMarkupGenericFontName_ProportionalSerif (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_ProportionalSerif'
+    'body': 'KCMTextMarkupGenericFontName_ProportionalSerif'
+  'kCMTextMarkupGenericFontName_SansSerif (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_SansSerif'
+    'body': 'KCMTextMarkupGenericFontName_SansSerif'
+  'kCMTextMarkupGenericFontName_Serif (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_Serif'
+    'body': 'KCMTextMarkupGenericFontName_Serif'
+  'kCMTextMarkupGenericFontName_SmallCapital (CFStringRef)':
+    'prefix': 'kCMTextMarkupGenericFontName_SmallCapital'
+    'body': 'KCMTextMarkupGenericFontName_SmallCapital'
+  'kCMTextVerticalLayout_LeftToRight (CFStringRef)':
+    'prefix': 'kCMTextVerticalLayout_LeftToRight'
+    'body': 'KCMTextVerticalLayout_LeftToRight'
+  'kCMTextVerticalLayout_RightToLeft (CFStringRef)':
+    'prefix': 'kCMTextVerticalLayout_RightToLeft'
+    'body': 'KCMTextVerticalLayout_RightToLeft'
+  'kCMTimeCodeFormatDescriptionExtension_SourceReferenceName (CFStringRef)':
+    'prefix': 'kCMTimeCodeFormatDescriptionExtension_SourceReferenceName'
+    'body': 'KCMTimeCodeFormatDescriptionExtension_SourceReferenceName'
+  'kCMTimeCodeFormatDescriptionKey_LangCode (CFStringRef)':
+    'prefix': 'kCMTimeCodeFormatDescriptionKey_LangCode'
+    'body': 'KCMTimeCodeFormatDescriptionKey_LangCode'
+  'kCMTimeCodeFormatDescriptionKey_Value (CFStringRef)':
+    'prefix': 'kCMTimeCodeFormatDescriptionKey_Value'
+    'body': 'KCMTimeCodeFormatDescriptionKey_Value'
+  'kCMTimeEpochKey (CFStringRef)':
+    'prefix': 'kCMTimeEpochKey'
+    'body': 'KCMTimeEpochKey'
+  'kCMTimeFlagsKey (CFStringRef)':
+    'prefix': 'kCMTimeFlagsKey'
+    'body': 'KCMTimeFlagsKey'
+  'kCMTimeIndefinite (CMTime)':
+    'prefix': 'kCMTimeIndefinite'
+    'body': 'KCMTimeIndefinite'
+  'kCMTimeInvalid (CMTime)':
+    'prefix': 'kCMTimeInvalid'
+    'body': 'KCMTimeInvalid'
+  'kCMTimeNegativeInfinity (CMTime)':
+    'prefix': 'kCMTimeNegativeInfinity'
+    'body': 'KCMTimeNegativeInfinity'
+  'kCMTimePositiveInfinity (CMTime)':
+    'prefix': 'kCMTimePositiveInfinity'
+    'body': 'KCMTimePositiveInfinity'
+  'kCMTimeRangeDurationKey (CFStringRef)':
+    'prefix': 'kCMTimeRangeDurationKey'
+    'body': 'KCMTimeRangeDurationKey'
+  'kCMTimeRangeInvalid (CMTimeRange)':
+    'prefix': 'kCMTimeRangeInvalid'
+    'body': 'KCMTimeRangeInvalid'
+  'kCMTimeRangeStartKey (CFStringRef)':
+    'prefix': 'kCMTimeRangeStartKey'
+    'body': 'KCMTimeRangeStartKey'
+  'kCMTimeRangeZero (CMTimeRange)':
+    'prefix': 'kCMTimeRangeZero'
+    'body': 'KCMTimeRangeZero'
+  'kCMTimeScaleKey (CFStringRef)':
+    'prefix': 'kCMTimeScaleKey'
+    'body': 'KCMTimeScaleKey'
+  'kCMTimeValueKey (CFStringRef)':
+    'prefix': 'kCMTimeValueKey'
+    'body': 'KCMTimeValueKey'
+  'kCMTimeZero (CMTime)':
+    'prefix': 'kCMTimeZero'
+    'body': 'KCMTimeZero'
+  'kCMTimebaseNotificationKey_EventTime (CFStringRef)':
+    'prefix': 'kCMTimebaseNotificationKey_EventTime'
+    'body': 'KCMTimebaseNotificationKey_EventTime'
+  'kCMTimebaseNotification_EffectiveRateChanged (CFStringRef)':
+    'prefix': 'kCMTimebaseNotification_EffectiveRateChanged'
+    'body': 'KCMTimebaseNotification_EffectiveRateChanged'
+  'kCMTimebaseNotification_TimeJumped (CFStringRef)':
+    'prefix': 'kCMTimebaseNotification_TimeJumped'
+    'body': 'KCMTimebaseNotification_TimeJumped'
+  'kCMTimingInfoInvalid (CMSampleTimingInfo)':
+    'prefix': 'kCMTimingInfoInvalid'
+    'body': 'KCMTimingInfoInvalid'
+  'kCMAttachmentMode_ShouldNotPropagate (0)':
+    'prefix': 'kCMAttachmentMode_ShouldNotPropagate'
+    'body': 'KCMAttachmentMode_ShouldNotPropagate'
+  'kCMAttachmentMode_ShouldPropagate (1)':
+    'prefix': 'kCMAttachmentMode_ShouldPropagate'
+    'body': 'KCMAttachmentMode_ShouldPropagate'
+  'kCMAudioCodecType_AAC_AudibleProtected (1633771875)':
+    'prefix': 'kCMAudioCodecType_AAC_AudibleProtected'
+    'body': 'KCMAudioCodecType_AAC_AudibleProtected'
+  'kCMAudioCodecType_AAC_LCProtected (1885430115)':
+    'prefix': 'kCMAudioCodecType_AAC_LCProtected'
+    'body': 'KCMAudioCodecType_AAC_LCProtected'
+  'kCMAudioFormatDescriptionMask_All (15)':
+    'prefix': 'kCMAudioFormatDescriptionMask_All'
+    'body': 'KCMAudioFormatDescriptionMask_All'
+  'kCMAudioFormatDescriptionMask_ChannelLayout (4)':
+    'prefix': 'kCMAudioFormatDescriptionMask_ChannelLayout'
+    'body': 'KCMAudioFormatDescriptionMask_ChannelLayout'
+  'kCMAudioFormatDescriptionMask_Extensions (8)':
+    'prefix': 'kCMAudioFormatDescriptionMask_Extensions'
+    'body': 'KCMAudioFormatDescriptionMask_Extensions'
+  'kCMAudioFormatDescriptionMask_MagicCookie (2)':
+    'prefix': 'kCMAudioFormatDescriptionMask_MagicCookie'
+    'body': 'KCMAudioFormatDescriptionMask_MagicCookie'
+  'kCMAudioFormatDescriptionMask_StreamBasicDescription (1)':
+    'prefix': 'kCMAudioFormatDescriptionMask_StreamBasicDescription'
+    'body': 'KCMAudioFormatDescriptionMask_StreamBasicDescription'
+  'kCMBlockBufferAlwaysCopyDataFlag (2)':
+    'prefix': 'kCMBlockBufferAlwaysCopyDataFlag'
+    'body': 'KCMBlockBufferAlwaysCopyDataFlag'
+  'kCMBlockBufferAssureMemoryNowFlag (1)':
+    'prefix': 'kCMBlockBufferAssureMemoryNowFlag'
+    'body': 'KCMBlockBufferAssureMemoryNowFlag'
+  'kCMBlockBufferBadCustomBlockSourceErr (-12702)':
+    'prefix': 'kCMBlockBufferBadCustomBlockSourceErr'
+    'body': 'KCMBlockBufferBadCustomBlockSourceErr'
+  'kCMBlockBufferBadLengthParameterErr (-12704)':
+    'prefix': 'kCMBlockBufferBadLengthParameterErr'
+    'body': 'KCMBlockBufferBadLengthParameterErr'
+  'kCMBlockBufferBadOffsetParameterErr (-12703)':
+    'prefix': 'kCMBlockBufferBadOffsetParameterErr'
+    'body': 'KCMBlockBufferBadOffsetParameterErr'
+  'kCMBlockBufferBadPointerParameterErr (-12705)':
+    'prefix': 'kCMBlockBufferBadPointerParameterErr'
+    'body': 'KCMBlockBufferBadPointerParameterErr'
+  'kCMBlockBufferBlockAllocationFailedErr (-12701)':
+    'prefix': 'kCMBlockBufferBlockAllocationFailedErr'
+    'body': 'KCMBlockBufferBlockAllocationFailedErr'
+  'kCMBlockBufferCustomBlockSourceVersion (0)':
+    'prefix': 'kCMBlockBufferCustomBlockSourceVersion'
+    'body': 'KCMBlockBufferCustomBlockSourceVersion'
+  'kCMBlockBufferDontOptimizeDepthFlag (4)':
+    'prefix': 'kCMBlockBufferDontOptimizeDepthFlag'
+    'body': 'KCMBlockBufferDontOptimizeDepthFlag'
+  'kCMBlockBufferEmptyBBufErr (-12706)':
+    'prefix': 'kCMBlockBufferEmptyBBufErr'
+    'body': 'KCMBlockBufferEmptyBBufErr'
+  'kCMBlockBufferNoErr (0)':
+    'prefix': 'kCMBlockBufferNoErr'
+    'body': 'KCMBlockBufferNoErr'
+  'kCMBlockBufferPermitEmptyReferenceFlag (8)':
+    'prefix': 'kCMBlockBufferPermitEmptyReferenceFlag'
+    'body': 'KCMBlockBufferPermitEmptyReferenceFlag'
+  'kCMBlockBufferStructureAllocationFailedErr (-12700)':
+    'prefix': 'kCMBlockBufferStructureAllocationFailedErr'
+    'body': 'KCMBlockBufferStructureAllocationFailedErr'
+  'kCMBlockBufferUnallocatedBlockErr (-12707)':
+    'prefix': 'kCMBlockBufferUnallocatedBlockErr'
+    'body': 'KCMBlockBufferUnallocatedBlockErr'
+  'kCMBufferQueueError_AllocationFailed (-12760)':
+    'prefix': 'kCMBufferQueueError_AllocationFailed'
+    'body': 'KCMBufferQueueError_AllocationFailed'
+  'kCMBufferQueueError_BadTriggerDuration (-12765)':
+    'prefix': 'kCMBufferQueueError_BadTriggerDuration'
+    'body': 'KCMBufferQueueError_BadTriggerDuration'
+  'kCMBufferQueueError_CannotModifyQueueFromTriggerCallback (-12766)':
+    'prefix': 'kCMBufferQueueError_CannotModifyQueueFromTriggerCallback'
+    'body': 'KCMBufferQueueError_CannotModifyQueueFromTriggerCallback'
+  'kCMBufferQueueError_EnqueueAfterEndOfData (-12763)':
+    'prefix': 'kCMBufferQueueError_EnqueueAfterEndOfData'
+    'body': 'KCMBufferQueueError_EnqueueAfterEndOfData'
+  'kCMBufferQueueError_InvalidBuffer (-12769)':
+    'prefix': 'kCMBufferQueueError_InvalidBuffer'
+    'body': 'KCMBufferQueueError_InvalidBuffer'
+  'kCMBufferQueueError_InvalidCMBufferCallbacksStruct (-12762)':
+    'prefix': 'kCMBufferQueueError_InvalidCMBufferCallbacksStruct'
+    'body': 'KCMBufferQueueError_InvalidCMBufferCallbacksStruct'
+  'kCMBufferQueueError_InvalidTriggerCondition (-12767)':
+    'prefix': 'kCMBufferQueueError_InvalidTriggerCondition'
+    'body': 'KCMBufferQueueError_InvalidTriggerCondition'
+  'kCMBufferQueueError_InvalidTriggerToken (-12768)':
+    'prefix': 'kCMBufferQueueError_InvalidTriggerToken'
+    'body': 'KCMBufferQueueError_InvalidTriggerToken'
+  'kCMBufferQueueError_QueueIsFull (-12764)':
+    'prefix': 'kCMBufferQueueError_QueueIsFull'
+    'body': 'KCMBufferQueueError_QueueIsFull'
+  'kCMBufferQueueError_RequiredParameterMissing (-12761)':
+    'prefix': 'kCMBufferQueueError_RequiredParameterMissing'
+    'body': 'KCMBufferQueueError_RequiredParameterMissing'
+  'kCMBufferQueueTrigger_WhenBufferCountBecomesGreaterThan (11)':
+    'prefix': 'kCMBufferQueueTrigger_WhenBufferCountBecomesGreaterThan'
+    'body': 'KCMBufferQueueTrigger_WhenBufferCountBecomesGreaterThan'
+  'kCMBufferQueueTrigger_WhenBufferCountBecomesLessThan (10)':
+    'prefix': 'kCMBufferQueueTrigger_WhenBufferCountBecomesLessThan'
+    'body': 'KCMBufferQueueTrigger_WhenBufferCountBecomesLessThan'
+  'kCMBufferQueueTrigger_WhenDataBecomesReady (7)':
+    'prefix': 'kCMBufferQueueTrigger_WhenDataBecomesReady'
+    'body': 'KCMBufferQueueTrigger_WhenDataBecomesReady'
+  'kCMBufferQueueTrigger_WhenDurationBecomesGreaterThan (3)':
+    'prefix': 'kCMBufferQueueTrigger_WhenDurationBecomesGreaterThan'
+    'body': 'KCMBufferQueueTrigger_WhenDurationBecomesGreaterThan'
+  'kCMBufferQueueTrigger_WhenDurationBecomesGreaterThanOrEqualTo (4)':
+    'prefix': 'kCMBufferQueueTrigger_WhenDurationBecomesGreaterThanOrEqualTo'
+    'body': 'KCMBufferQueueTrigger_WhenDurationBecomesGreaterThanOrEqualTo'
+  'kCMBufferQueueTrigger_WhenDurationBecomesLessThan (1)':
+    'prefix': 'kCMBufferQueueTrigger_WhenDurationBecomesLessThan'
+    'body': 'KCMBufferQueueTrigger_WhenDurationBecomesLessThan'
+  'kCMBufferQueueTrigger_WhenDurationBecomesLessThanOrEqualTo (2)':
+    'prefix': 'kCMBufferQueueTrigger_WhenDurationBecomesLessThanOrEqualTo'
+    'body': 'KCMBufferQueueTrigger_WhenDurationBecomesLessThanOrEqualTo'
+  'kCMBufferQueueTrigger_WhenEndOfDataReached (8)':
+    'prefix': 'kCMBufferQueueTrigger_WhenEndOfDataReached'
+    'body': 'KCMBufferQueueTrigger_WhenEndOfDataReached'
+  'kCMBufferQueueTrigger_WhenMaxPresentationTimeStampChanges (6)':
+    'prefix': 'kCMBufferQueueTrigger_WhenMaxPresentationTimeStampChanges'
+    'body': 'KCMBufferQueueTrigger_WhenMaxPresentationTimeStampChanges'
+  'kCMBufferQueueTrigger_WhenMinPresentationTimeStampChanges (5)':
+    'prefix': 'kCMBufferQueueTrigger_WhenMinPresentationTimeStampChanges'
+    'body': 'KCMBufferQueueTrigger_WhenMinPresentationTimeStampChanges'
+  'kCMBufferQueueTrigger_WhenReset (9)':
+    'prefix': 'kCMBufferQueueTrigger_WhenReset'
+    'body': 'KCMBufferQueueTrigger_WhenReset'
+  'kCMClockError_AllocationFailed (-12747)':
+    'prefix': 'kCMClockError_AllocationFailed'
+    'body': 'KCMClockError_AllocationFailed'
+  'kCMClockError_InvalidParameter (-12746)':
+    'prefix': 'kCMClockError_InvalidParameter'
+    'body': 'KCMClockError_InvalidParameter'
+  'kCMClockError_MissingRequiredParameter (-12745)':
+    'prefix': 'kCMClockError_MissingRequiredParameter'
+    'body': 'KCMClockError_MissingRequiredParameter'
+  'kCMClockError_UnsupportedOperation (-12756)':
+    'prefix': 'kCMClockError_UnsupportedOperation'
+    'body': 'KCMClockError_UnsupportedOperation'
+  'kCMClosedCaptionFormatType_ATSC (1635017571)':
+    'prefix': 'kCMClosedCaptionFormatType_ATSC'
+    'body': 'KCMClosedCaptionFormatType_ATSC'
+  'kCMClosedCaptionFormatType_CEA608 (1664495672)':
+    'prefix': 'kCMClosedCaptionFormatType_CEA608'
+    'body': 'KCMClosedCaptionFormatType_CEA608'
+  'kCMClosedCaptionFormatType_CEA708 (1664561208)':
+    'prefix': 'kCMClosedCaptionFormatType_CEA708'
+    'body': 'KCMClosedCaptionFormatType_CEA708'
+  'kCMFormatDescriptionError_AllocationFailed (-12711)':
+    'prefix': 'kCMFormatDescriptionError_AllocationFailed'
+    'body': 'KCMFormatDescriptionError_AllocationFailed'
+  'kCMFormatDescriptionError_InvalidParameter (-12710)':
+    'prefix': 'kCMFormatDescriptionError_InvalidParameter'
+    'body': 'KCMFormatDescriptionError_InvalidParameter'
+  'kCMFormatDescriptionError_ValueNotAvailable (-12718)':
+    'prefix': 'kCMFormatDescriptionError_ValueNotAvailable'
+    'body': 'KCMFormatDescriptionError_ValueNotAvailable'
+  'kCMMPEG2VideoProfile_HDV_1080i50 (1751414323)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_1080i50'
+    'body': 'KCMMPEG2VideoProfile_HDV_1080i50'
+  'kCMMPEG2VideoProfile_HDV_1080i60 (1751414322)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_1080i60'
+    'body': 'KCMMPEG2VideoProfile_HDV_1080i60'
+  'kCMMPEG2VideoProfile_HDV_1080p24 (1751414326)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_1080p24'
+    'body': 'KCMMPEG2VideoProfile_HDV_1080p24'
+  'kCMMPEG2VideoProfile_HDV_1080p25 (1751414327)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_1080p25'
+    'body': 'KCMMPEG2VideoProfile_HDV_1080p25'
+  'kCMMPEG2VideoProfile_HDV_1080p30 (1751414328)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_1080p30'
+    'body': 'KCMMPEG2VideoProfile_HDV_1080p30'
+  'kCMMPEG2VideoProfile_HDV_720p24 (1751414324)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_720p24'
+    'body': 'KCMMPEG2VideoProfile_HDV_720p24'
+  'kCMMPEG2VideoProfile_HDV_720p25 (1751414325)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_720p25'
+    'body': 'KCMMPEG2VideoProfile_HDV_720p25'
+  'kCMMPEG2VideoProfile_HDV_720p30 (1751414321)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_720p30'
+    'body': 'KCMMPEG2VideoProfile_HDV_720p30'
+  'kCMMPEG2VideoProfile_HDV_720p50 (1751414369)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_720p50'
+    'body': 'KCMMPEG2VideoProfile_HDV_720p50'
+  'kCMMPEG2VideoProfile_HDV_720p60 (1751414329)':
+    'prefix': 'kCMMPEG2VideoProfile_HDV_720p60'
+    'body': 'KCMMPEG2VideoProfile_HDV_720p60'
+  'kCMMPEG2VideoProfile_XDCAM_EX_1080i50_VBR35 (2019849827)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_1080i50_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_1080i50_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_1080i60_VBR35 (2019849826)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_1080i60_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_1080i60_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_1080p24_VBR35 (2019849828)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_1080p24_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_1080p24_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_1080p25_VBR35 (2019849829)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_1080p25_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_1080p25_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_1080p30_VBR35 (2019849830)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_1080p30_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_1080p30_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_720p24_VBR35 (2019849780)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_720p24_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_720p24_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_720p25_VBR35 (2019849781)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_720p25_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_720p25_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_720p30_VBR35 (2019849777)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_720p30_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_720p30_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_720p50_VBR35 (2019849825)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_720p50_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_720p50_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_EX_720p60_VBR35 (2019849785)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_EX_720p60_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_EX_720p60_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_1080i50_CBR50 (2019833187)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_1080i50_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_1080i50_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_1080i60_CBR50 (2019833186)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_1080i60_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_1080i60_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_1080p24_CBR50 (2019833188)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_1080p24_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_1080p24_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_1080p25_CBR50 (2019833189)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_1080p25_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_1080p25_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_1080p30_CBR50 (2019833190)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_1080p30_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_1080p30_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_540p (2019846194)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_540p'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_540p'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_720p24_CBR50 (2019833140)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_720p24_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_720p24_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_720p25_CBR50 (2019833141)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_720p25_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_720p25_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_720p30_CBR50 (2019833137)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_720p30_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_720p30_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_720p50_CBR50 (2019833185)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_720p50_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_720p50_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD422_720p60_CBR50 (2019833145)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD422_720p60_CBR50'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD422_720p60_CBR50'
+  'kCMMPEG2VideoProfile_XDCAM_HD_1080i50_VBR35 (2019849779)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD_1080i50_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD_1080i50_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_HD_1080i60_VBR35 (2019849778)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD_1080i60_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD_1080i60_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_HD_1080p24_VBR35 (2019849782)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD_1080p24_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD_1080p24_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_HD_1080p25_VBR35 (2019849783)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD_1080p25_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD_1080p25_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_HD_1080p30_VBR35 (2019849784)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD_1080p30_VBR35'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD_1080p30_VBR35'
+  'kCMMPEG2VideoProfile_XDCAM_HD_540p (2019846244)':
+    'prefix': 'kCMMPEG2VideoProfile_XDCAM_HD_540p'
+    'body': 'KCMMPEG2VideoProfile_XDCAM_HD_540p'
+  'kCMMPEG2VideoProfile_XF (2019981873)':
+    'prefix': 'kCMMPEG2VideoProfile_XF'
+    'body': 'KCMMPEG2VideoProfile_XF'
+  'kCMMediaType_Audio (1936684398)':
+    'prefix': 'kCMMediaType_Audio'
+    'body': 'KCMMediaType_Audio'
+  'kCMMediaType_ClosedCaption (1668047728)':
+    'prefix': 'kCMMediaType_ClosedCaption'
+    'body': 'KCMMediaType_ClosedCaption'
+  'kCMMediaType_Metadata (1835365473)':
+    'prefix': 'kCMMediaType_Metadata'
+    'body': 'KCMMediaType_Metadata'
+  'kCMMediaType_Muxed (1836415096)':
+    'prefix': 'kCMMediaType_Muxed'
+    'body': 'KCMMediaType_Muxed'
+  'kCMMediaType_Subtitle (1935832172)':
+    'prefix': 'kCMMediaType_Subtitle'
+    'body': 'KCMMediaType_Subtitle'
+  'kCMMediaType_Text (1952807028)':
+    'prefix': 'kCMMediaType_Text'
+    'body': 'KCMMediaType_Text'
+  'kCMMediaType_TimeCode (1953325924)':
+    'prefix': 'kCMMediaType_TimeCode'
+    'body': 'KCMMediaType_TimeCode'
+  'kCMMediaType_Video (1986618469)':
+    'prefix': 'kCMMediaType_Video'
+    'body': 'KCMMediaType_Video'
+  'kCMMetadataFormatType_Boxed (1835360888)':
+    'prefix': 'kCMMetadataFormatType_Boxed'
+    'body': 'KCMMetadataFormatType_Boxed'
+  'kCMMetadataFormatType_ICY (1768126752)':
+    'prefix': 'kCMMetadataFormatType_ICY'
+    'body': 'KCMMetadataFormatType_ICY'
+  'kCMMetadataFormatType_ID3 (1768174368)':
+    'prefix': 'kCMMetadataFormatType_ID3'
+    'body': 'KCMMetadataFormatType_ID3'
+  'kCMMuxedStreamType_DV (1685463072)':
+    'prefix': 'kCMMuxedStreamType_DV'
+    'body': 'KCMMuxedStreamType_DV'
+  'kCMMuxedStreamType_MPEG1System (1836069235)':
+    'prefix': 'kCMMuxedStreamType_MPEG1System'
+    'body': 'KCMMuxedStreamType_MPEG1System'
+  'kCMMuxedStreamType_MPEG2Program (1836069488)':
+    'prefix': 'kCMMuxedStreamType_MPEG2Program'
+    'body': 'KCMMuxedStreamType_MPEG2Program'
+  'kCMMuxedStreamType_MPEG2Transport (1836069492)':
+    'prefix': 'kCMMuxedStreamType_MPEG2Transport'
+    'body': 'KCMMuxedStreamType_MPEG2Transport'
+  'kCMPersistentTrackID_Invalid (0)':
+    'prefix': 'kCMPersistentTrackID_Invalid'
+    'body': 'KCMPersistentTrackID_Invalid'
+  'kCMPixelFormat_16BE555 (16)':
+    'prefix': 'kCMPixelFormat_16BE555'
+    'body': 'KCMPixelFormat_16BE555'
+  'kCMPixelFormat_16BE565 (1110783541)':
+    'prefix': 'kCMPixelFormat_16BE565'
+    'body': 'KCMPixelFormat_16BE565'
+  'kCMPixelFormat_16LE555 (1278555445)':
+    'prefix': 'kCMPixelFormat_16LE555'
+    'body': 'KCMPixelFormat_16LE555'
+  'kCMPixelFormat_16LE5551 (892679473)':
+    'prefix': 'kCMPixelFormat_16LE5551'
+    'body': 'KCMPixelFormat_16LE5551'
+  'kCMPixelFormat_16LE565 (1278555701)':
+    'prefix': 'kCMPixelFormat_16LE565'
+    'body': 'KCMPixelFormat_16LE565'
+  'kCMPixelFormat_24RGB (24)':
+    'prefix': 'kCMPixelFormat_24RGB'
+    'body': 'KCMPixelFormat_24RGB'
+  'kCMPixelFormat_32ARGB (32)':
+    'prefix': 'kCMPixelFormat_32ARGB'
+    'body': 'KCMPixelFormat_32ARGB'
+  'kCMPixelFormat_32BGRA (1111970369)':
+    'prefix': 'kCMPixelFormat_32BGRA'
+    'body': 'KCMPixelFormat_32BGRA'
+  'kCMPixelFormat_422YpCbCr10 (1983000880)':
+    'prefix': 'kCMPixelFormat_422YpCbCr10'
+    'body': 'KCMPixelFormat_422YpCbCr10'
+  'kCMPixelFormat_422YpCbCr16 (1983000886)':
+    'prefix': 'kCMPixelFormat_422YpCbCr16'
+    'body': 'KCMPixelFormat_422YpCbCr16'
+  'kCMPixelFormat_422YpCbCr8 (846624121)':
+    'prefix': 'kCMPixelFormat_422YpCbCr8'
+    'body': 'KCMPixelFormat_422YpCbCr8'
+  'kCMPixelFormat_422YpCbCr8_yuvs (2037741171)':
+    'prefix': 'kCMPixelFormat_422YpCbCr8_yuvs'
+    'body': 'KCMPixelFormat_422YpCbCr8_yuvs'
+  'kCMPixelFormat_4444YpCbCrA8 (1983131704)':
+    'prefix': 'kCMPixelFormat_4444YpCbCrA8'
+    'body': 'KCMPixelFormat_4444YpCbCrA8'
+  'kCMPixelFormat_444YpCbCr10 (1983131952)':
+    'prefix': 'kCMPixelFormat_444YpCbCr10'
+    'body': 'KCMPixelFormat_444YpCbCr10'
+  'kCMPixelFormat_444YpCbCr8 (1983066168)':
+    'prefix': 'kCMPixelFormat_444YpCbCr8'
+    'body': 'KCMPixelFormat_444YpCbCr8'
+  'kCMPixelFormat_8IndexedGray_WhiteIsZero (40)':
+    'prefix': 'kCMPixelFormat_8IndexedGray_WhiteIsZero'
+    'body': 'KCMPixelFormat_8IndexedGray_WhiteIsZero'
+  'kCMSampleBufferError_AllocationFailed (-12730)':
+    'prefix': 'kCMSampleBufferError_AllocationFailed'
+    'body': 'KCMSampleBufferError_AllocationFailed'
+  'kCMSampleBufferError_AlreadyHasDataBuffer (-12732)':
+    'prefix': 'kCMSampleBufferError_AlreadyHasDataBuffer'
+    'body': 'KCMSampleBufferError_AlreadyHasDataBuffer'
+  'kCMSampleBufferError_ArrayTooSmall (-12737)':
+    'prefix': 'kCMSampleBufferError_ArrayTooSmall'
+    'body': 'KCMSampleBufferError_ArrayTooSmall'
+  'kCMSampleBufferError_BufferHasNoSampleSizes (-12735)':
+    'prefix': 'kCMSampleBufferError_BufferHasNoSampleSizes'
+    'body': 'KCMSampleBufferError_BufferHasNoSampleSizes'
+  'kCMSampleBufferError_BufferHasNoSampleTimingInfo (-12736)':
+    'prefix': 'kCMSampleBufferError_BufferHasNoSampleTimingInfo'
+    'body': 'KCMSampleBufferError_BufferHasNoSampleTimingInfo'
+  'kCMSampleBufferError_BufferNotReady (-12733)':
+    'prefix': 'kCMSampleBufferError_BufferNotReady'
+    'body': 'KCMSampleBufferError_BufferNotReady'
+  'kCMSampleBufferError_CannotSubdivide (-12739)':
+    'prefix': 'kCMSampleBufferError_CannotSubdivide'
+    'body': 'KCMSampleBufferError_CannotSubdivide'
+  'kCMSampleBufferError_InvalidEntryCount (-12738)':
+    'prefix': 'kCMSampleBufferError_InvalidEntryCount'
+    'body': 'KCMSampleBufferError_InvalidEntryCount'
+  'kCMSampleBufferError_InvalidMediaFormat (-12743)':
+    'prefix': 'kCMSampleBufferError_InvalidMediaFormat'
+    'body': 'KCMSampleBufferError_InvalidMediaFormat'
+  'kCMSampleBufferError_InvalidMediaTypeForOperation (-12741)':
+    'prefix': 'kCMSampleBufferError_InvalidMediaTypeForOperation'
+    'body': 'KCMSampleBufferError_InvalidMediaTypeForOperation'
+  'kCMSampleBufferError_InvalidSampleData (-12742)':
+    'prefix': 'kCMSampleBufferError_InvalidSampleData'
+    'body': 'KCMSampleBufferError_InvalidSampleData'
+  'kCMSampleBufferError_Invalidated (-12744)':
+    'prefix': 'kCMSampleBufferError_Invalidated'
+    'body': 'KCMSampleBufferError_Invalidated'
+  'kCMSampleBufferError_RequiredParameterMissing (-12731)':
+    'prefix': 'kCMSampleBufferError_RequiredParameterMissing'
+    'body': 'KCMSampleBufferError_RequiredParameterMissing'
+  'kCMSampleBufferError_SampleIndexOutOfRange (-12734)':
+    'prefix': 'kCMSampleBufferError_SampleIndexOutOfRange'
+    'body': 'KCMSampleBufferError_SampleIndexOutOfRange'
+  'kCMSampleBufferError_SampleTimingInfoInvalid (-12740)':
+    'prefix': 'kCMSampleBufferError_SampleTimingInfoInvalid'
+    'body': 'KCMSampleBufferError_SampleTimingInfoInvalid'
+  'kCMSampleBufferFlag_AudioBufferList_Assure16ByteAlignment (1)':
+    'prefix': 'kCMSampleBufferFlag_AudioBufferList_Assure16ByteAlignment'
+    'body': 'KCMSampleBufferFlag_AudioBufferList_Assure16ByteAlignment'
+  'kCMSimpleQueueError_AllocationFailed (-12770)':
+    'prefix': 'kCMSimpleQueueError_AllocationFailed'
+    'body': 'KCMSimpleQueueError_AllocationFailed'
+  'kCMSimpleQueueError_ParameterOutOfRange (-12772)':
+    'prefix': 'kCMSimpleQueueError_ParameterOutOfRange'
+    'body': 'KCMSimpleQueueError_ParameterOutOfRange'
+  'kCMSimpleQueueError_QueueIsFull (-12773)':
+    'prefix': 'kCMSimpleQueueError_QueueIsFull'
+    'body': 'KCMSimpleQueueError_QueueIsFull'
+  'kCMSimpleQueueError_RequiredParameterMissing (-12771)':
+    'prefix': 'kCMSimpleQueueError_RequiredParameterMissing'
+    'body': 'KCMSimpleQueueError_RequiredParameterMissing'
+  'kCMSubtitleFormatType_3GText (1954034535)':
+    'prefix': 'kCMSubtitleFormatType_3GText'
+    'body': 'KCMSubtitleFormatType_3GText'
+  'kCMSubtitleFormatType_WebVTT (2004251764)':
+    'prefix': 'kCMSubtitleFormatType_WebVTT'
+    'body': 'KCMSubtitleFormatType_WebVTT'
+  'kCMSyncError_AllocationFailed (-12754)':
+    'prefix': 'kCMSyncError_AllocationFailed'
+    'body': 'KCMSyncError_AllocationFailed'
+  'kCMSyncError_InvalidParameter (-12753)':
+    'prefix': 'kCMSyncError_InvalidParameter'
+    'body': 'KCMSyncError_InvalidParameter'
+  'kCMSyncError_MissingRequiredParameter (-12752)':
+    'prefix': 'kCMSyncError_MissingRequiredParameter'
+    'body': 'KCMSyncError_MissingRequiredParameter'
+  'kCMSyncError_RateMustBeNonZero (-12755)':
+    'prefix': 'kCMSyncError_RateMustBeNonZero'
+    'body': 'KCMSyncError_RateMustBeNonZero'
+  'kCMTextDisplayFlag_allSubtitlesForced (2147483648)':
+    'prefix': 'kCMTextDisplayFlag_allSubtitlesForced'
+    'body': 'KCMTextDisplayFlag_allSubtitlesForced'
+  'kCMTextDisplayFlag_continuousKaraoke (2048)':
+    'prefix': 'kCMTextDisplayFlag_continuousKaraoke'
+    'body': 'KCMTextDisplayFlag_continuousKaraoke'
+  'kCMTextDisplayFlag_fillTextRegion (262144)':
+    'prefix': 'kCMTextDisplayFlag_fillTextRegion'
+    'body': 'KCMTextDisplayFlag_fillTextRegion'
+  'kCMTextDisplayFlag_forcedSubtitlesPresent (1073741824)':
+    'prefix': 'kCMTextDisplayFlag_forcedSubtitlesPresent'
+    'body': 'KCMTextDisplayFlag_forcedSubtitlesPresent'
+  'kCMTextDisplayFlag_obeySubtitleFormatting (536870912)':
+    'prefix': 'kCMTextDisplayFlag_obeySubtitleFormatting'
+    'body': 'KCMTextDisplayFlag_obeySubtitleFormatting'
+  'kCMTextDisplayFlag_scrollDirectionMask (384)':
+    'prefix': 'kCMTextDisplayFlag_scrollDirectionMask'
+    'body': 'KCMTextDisplayFlag_scrollDirectionMask'
+  'kCMTextDisplayFlag_scrollDirection_bottomToTop (0)':
+    'prefix': 'kCMTextDisplayFlag_scrollDirection_bottomToTop'
+    'body': 'KCMTextDisplayFlag_scrollDirection_bottomToTop'
+  'kCMTextDisplayFlag_scrollDirection_leftToRight (384)':
+    'prefix': 'kCMTextDisplayFlag_scrollDirection_leftToRight'
+    'body': 'KCMTextDisplayFlag_scrollDirection_leftToRight'
+  'kCMTextDisplayFlag_scrollDirection_rightToLeft (128)':
+    'prefix': 'kCMTextDisplayFlag_scrollDirection_rightToLeft'
+    'body': 'KCMTextDisplayFlag_scrollDirection_rightToLeft'
+  'kCMTextDisplayFlag_scrollDirection_topToBottom (256)':
+    'prefix': 'kCMTextDisplayFlag_scrollDirection_topToBottom'
+    'body': 'KCMTextDisplayFlag_scrollDirection_topToBottom'
+  'kCMTextDisplayFlag_scrollIn (32)':
+    'prefix': 'kCMTextDisplayFlag_scrollIn'
+    'body': 'KCMTextDisplayFlag_scrollIn'
+  'kCMTextDisplayFlag_scrollOut (64)':
+    'prefix': 'kCMTextDisplayFlag_scrollOut'
+    'body': 'KCMTextDisplayFlag_scrollOut'
+  'kCMTextDisplayFlag_writeTextVertically (131072)':
+    'prefix': 'kCMTextDisplayFlag_writeTextVertically'
+    'body': 'KCMTextDisplayFlag_writeTextVertically'
+  'kCMTextFormatType_3GText (1954034535)':
+    'prefix': 'kCMTextFormatType_3GText'
+    'body': 'KCMTextFormatType_3GText'
+  'kCMTextFormatType_QTText (1952807028)':
+    'prefix': 'kCMTextFormatType_QTText'
+    'body': 'KCMTextFormatType_QTText'
+  'kCMTextJustification_bottom_right (-1)':
+    'prefix': 'kCMTextJustification_bottom_right'
+    'body': 'KCMTextJustification_bottom_right'
+  'kCMTextJustification_centered (1)':
+    'prefix': 'kCMTextJustification_centered'
+    'body': 'KCMTextJustification_centered'
+  'kCMTextJustification_left_top (0)':
+    'prefix': 'kCMTextJustification_left_top'
+    'body': 'KCMTextJustification_left_top'
+  'kCMTimeCodeFlag_24HourMax (2)':
+    'prefix': 'kCMTimeCodeFlag_24HourMax'
+    'body': 'KCMTimeCodeFlag_24HourMax'
+  'kCMTimeCodeFlag_DropFrame (1)':
+    'prefix': 'kCMTimeCodeFlag_DropFrame'
+    'body': 'KCMTimeCodeFlag_DropFrame'
+  'kCMTimeCodeFlag_NegTimesOK (4)':
+    'prefix': 'kCMTimeCodeFlag_NegTimesOK'
+    'body': 'KCMTimeCodeFlag_NegTimesOK'
+  'kCMTimeCodeFormatType_Counter32 (1668166450)':
+    'prefix': 'kCMTimeCodeFormatType_Counter32'
+    'body': 'KCMTimeCodeFormatType_Counter32'
+  'kCMTimeCodeFormatType_Counter64 (1668167220)':
+    'prefix': 'kCMTimeCodeFormatType_Counter64'
+    'body': 'KCMTimeCodeFormatType_Counter64'
+  'kCMTimeCodeFormatType_TimeCode32 (1953325924)':
+    'prefix': 'kCMTimeCodeFormatType_TimeCode32'
+    'body': 'KCMTimeCodeFormatType_TimeCode32'
+  'kCMTimeCodeFormatType_TimeCode64 (1952658996)':
+    'prefix': 'kCMTimeCodeFormatType_TimeCode64'
+    'body': 'KCMTimeCodeFormatType_TimeCode64'
+  'kCMTimeFlags_HasBeenRounded (2)':
+    'prefix': 'kCMTimeFlags_HasBeenRounded'
+    'body': 'KCMTimeFlags_HasBeenRounded'
+  'kCMTimeFlags_ImpliedValueFlagsMask (28)':
+    'prefix': 'kCMTimeFlags_ImpliedValueFlagsMask'
+    'body': 'KCMTimeFlags_ImpliedValueFlagsMask'
+  'kCMTimeFlags_Indefinite (16)':
+    'prefix': 'kCMTimeFlags_Indefinite'
+    'body': 'KCMTimeFlags_Indefinite'
+  'kCMTimeFlags_NegativeInfinity (8)':
+    'prefix': 'kCMTimeFlags_NegativeInfinity'
+    'body': 'KCMTimeFlags_NegativeInfinity'
+  'kCMTimeFlags_PositiveInfinity (4)':
+    'prefix': 'kCMTimeFlags_PositiveInfinity'
+    'body': 'KCMTimeFlags_PositiveInfinity'
+  'kCMTimeFlags_Valid (1)':
+    'prefix': 'kCMTimeFlags_Valid'
+    'body': 'KCMTimeFlags_Valid'
+  'kCMTimeMaxTimescale (2147483647)':
+    'prefix': 'kCMTimeMaxTimescale'
+    'body': 'KCMTimeMaxTimescale'
+  'kCMTimeRoundingMethod_Default (1)':
+    'prefix': 'kCMTimeRoundingMethod_Default'
+    'body': 'KCMTimeRoundingMethod_Default'
+  'kCMTimeRoundingMethod_QuickTime (4)':
+    'prefix': 'kCMTimeRoundingMethod_QuickTime'
+    'body': 'KCMTimeRoundingMethod_QuickTime'
+  'kCMTimeRoundingMethod_RoundAwayFromZero (3)':
+    'prefix': 'kCMTimeRoundingMethod_RoundAwayFromZero'
+    'body': 'KCMTimeRoundingMethod_RoundAwayFromZero'
+  'kCMTimeRoundingMethod_RoundHalfAwayFromZero (1)':
+    'prefix': 'kCMTimeRoundingMethod_RoundHalfAwayFromZero'
+    'body': 'KCMTimeRoundingMethod_RoundHalfAwayFromZero'
+  'kCMTimeRoundingMethod_RoundTowardNegativeInfinity (6)':
+    'prefix': 'kCMTimeRoundingMethod_RoundTowardNegativeInfinity'
+    'body': 'KCMTimeRoundingMethod_RoundTowardNegativeInfinity'
+  'kCMTimeRoundingMethod_RoundTowardPositiveInfinity (5)':
+    'prefix': 'kCMTimeRoundingMethod_RoundTowardPositiveInfinity'
+    'body': 'KCMTimeRoundingMethod_RoundTowardPositiveInfinity'
+  'kCMTimeRoundingMethod_RoundTowardZero (2)':
+    'prefix': 'kCMTimeRoundingMethod_RoundTowardZero'
+    'body': 'KCMTimeRoundingMethod_RoundTowardZero'
+  'kCMTimebaseError_AllocationFailed (-12750)':
+    'prefix': 'kCMTimebaseError_AllocationFailed'
+    'body': 'KCMTimebaseError_AllocationFailed'
+  'kCMTimebaseError_InvalidParameter (-12749)':
+    'prefix': 'kCMTimebaseError_InvalidParameter'
+    'body': 'KCMTimebaseError_InvalidParameter'
+  'kCMTimebaseError_MissingRequiredParameter (-12748)':
+    'prefix': 'kCMTimebaseError_MissingRequiredParameter'
+    'body': 'KCMTimebaseError_MissingRequiredParameter'
+  'kCMTimebaseError_ReadOnly (-12757)':
+    'prefix': 'kCMTimebaseError_ReadOnly'
+    'body': 'KCMTimebaseError_ReadOnly'
+  'kCMTimebaseError_TimerIntervalTooShort (-12751)':
+    'prefix': 'kCMTimebaseError_TimerIntervalTooShort'
+    'body': 'KCMTimebaseError_TimerIntervalTooShort'
+  'kCMTimebaseFarFutureCFAbsoluteTime (8073216000)':
+    'prefix': 'kCMTimebaseFarFutureCFAbsoluteTime'
+    'body': 'KCMTimebaseFarFutureCFAbsoluteTime'
+  'kCMTimebaseVeryLongCFTimeInterval (8073216000)':
+    'prefix': 'kCMTimebaseVeryLongCFTimeInterval'
+    'body': 'KCMTimebaseVeryLongCFTimeInterval'
+  'kCMVideoCodecType_422YpCbCr8 (846624121)':
+    'prefix': 'kCMVideoCodecType_422YpCbCr8'
+    'body': 'KCMVideoCodecType_422YpCbCr8'
+  'kCMVideoCodecType_Animation (1919706400)':
+    'prefix': 'kCMVideoCodecType_Animation'
+    'body': 'KCMVideoCodecType_Animation'
+  'kCMVideoCodecType_AppleProRes422 (1634755438)':
+    'prefix': 'kCMVideoCodecType_AppleProRes422'
+    'body': 'KCMVideoCodecType_AppleProRes422'
+  'kCMVideoCodecType_AppleProRes422HQ (1634755432)':
+    'prefix': 'kCMVideoCodecType_AppleProRes422HQ'
+    'body': 'KCMVideoCodecType_AppleProRes422HQ'
+  'kCMVideoCodecType_AppleProRes422LT (1634755443)':
+    'prefix': 'kCMVideoCodecType_AppleProRes422LT'
+    'body': 'KCMVideoCodecType_AppleProRes422LT'
+  'kCMVideoCodecType_AppleProRes422Proxy (1634755439)':
+    'prefix': 'kCMVideoCodecType_AppleProRes422Proxy'
+    'body': 'KCMVideoCodecType_AppleProRes422Proxy'
+  'kCMVideoCodecType_AppleProRes4444 (1634743400)':
+    'prefix': 'kCMVideoCodecType_AppleProRes4444'
+    'body': 'KCMVideoCodecType_AppleProRes4444'
+  'kCMVideoCodecType_Cinepak (1668704612)':
+    'prefix': 'kCMVideoCodecType_Cinepak'
+    'body': 'KCMVideoCodecType_Cinepak'
+  'kCMVideoCodecType_DVCNTSC (1685480224)':
+    'prefix': 'kCMVideoCodecType_DVCNTSC'
+    'body': 'KCMVideoCodecType_DVCNTSC'
+  'kCMVideoCodecType_DVCPAL (1685480304)':
+    'prefix': 'kCMVideoCodecType_DVCPAL'
+    'body': 'KCMVideoCodecType_DVCPAL'
+  'kCMVideoCodecType_DVCPROHD1080i50 (1685481525)':
+    'prefix': 'kCMVideoCodecType_DVCPROHD1080i50'
+    'body': 'KCMVideoCodecType_DVCPROHD1080i50'
+  'kCMVideoCodecType_DVCPROHD1080i60 (1685481526)':
+    'prefix': 'kCMVideoCodecType_DVCPROHD1080i60'
+    'body': 'KCMVideoCodecType_DVCPROHD1080i60'
+  'kCMVideoCodecType_DVCPROHD1080p25 (1685481522)':
+    'prefix': 'kCMVideoCodecType_DVCPROHD1080p25'
+    'body': 'KCMVideoCodecType_DVCPROHD1080p25'
+  'kCMVideoCodecType_DVCPROHD1080p30 (1685481523)':
+    'prefix': 'kCMVideoCodecType_DVCPROHD1080p30'
+    'body': 'KCMVideoCodecType_DVCPROHD1080p30'
+  'kCMVideoCodecType_DVCPROHD720p50 (1685481585)':
+    'prefix': 'kCMVideoCodecType_DVCPROHD720p50'
+    'body': 'KCMVideoCodecType_DVCPROHD720p50'
+  'kCMVideoCodecType_DVCPROHD720p60 (1685481584)':
+    'prefix': 'kCMVideoCodecType_DVCPROHD720p60'
+    'body': 'KCMVideoCodecType_DVCPROHD720p60'
+  'kCMVideoCodecType_DVCPro50NTSC (1685468526)':
+    'prefix': 'kCMVideoCodecType_DVCPro50NTSC'
+    'body': 'KCMVideoCodecType_DVCPro50NTSC'
+  'kCMVideoCodecType_DVCPro50PAL (1685468528)':
+    'prefix': 'kCMVideoCodecType_DVCPro50PAL'
+    'body': 'KCMVideoCodecType_DVCPro50PAL'
+  'kCMVideoCodecType_DVCProPAL (1685483632)':
+    'prefix': 'kCMVideoCodecType_DVCProPAL'
+    'body': 'KCMVideoCodecType_DVCProPAL'
+  'kCMVideoCodecType_H263 (1748121139)':
+    'prefix': 'kCMVideoCodecType_H263'
+    'body': 'KCMVideoCodecType_H263'
+  'kCMVideoCodecType_H264 (1635148593)':
+    'prefix': 'kCMVideoCodecType_H264'
+    'body': 'KCMVideoCodecType_H264'
+  'kCMVideoCodecType_JPEG (1785750887)':
+    'prefix': 'kCMVideoCodecType_JPEG'
+    'body': 'KCMVideoCodecType_JPEG'
+  'kCMVideoCodecType_JPEG_OpenDML (1684890161)':
+    'prefix': 'kCMVideoCodecType_JPEG_OpenDML'
+    'body': 'KCMVideoCodecType_JPEG_OpenDML'
+  'kCMVideoCodecType_MPEG1Video (1836069238)':
+    'prefix': 'kCMVideoCodecType_MPEG1Video'
+    'body': 'KCMVideoCodecType_MPEG1Video'
+  'kCMVideoCodecType_MPEG2Video (1836069494)':
+    'prefix': 'kCMVideoCodecType_MPEG2Video'
+    'body': 'KCMVideoCodecType_MPEG2Video'
+  'kCMVideoCodecType_MPEG4Video (1836070006)':
+    'prefix': 'kCMVideoCodecType_MPEG4Video'
+    'body': 'KCMVideoCodecType_MPEG4Video'
+  'kCMVideoCodecType_SorensonVideo (1398165809)':
+    'prefix': 'kCMVideoCodecType_SorensonVideo'
+    'body': 'KCMVideoCodecType_SorensonVideo'
+  'kCMVideoCodecType_SorensonVideo3 (1398165811)':
+    'prefix': 'kCMVideoCodecType_SorensonVideo3'
+    'body': 'KCMVideoCodecType_SorensonVideo3'
+  'CMAudioClockCreate':
+    'prefix': 'CMAudioClockCreate'
+    'body': 'CMAudioClockCreate(${1:CFAllocatorRef allocator}, ${2:CMClockRef* clockOut})'
+  'CMAudioFormatDescriptionCreate':
+    'prefix': 'CMAudioFormatDescriptionCreate'
+    'body': 'CMAudioFormatDescriptionCreate(${1:CFAllocatorRef allocator}, ${2:AudioStreamBasicDescription* asbd}, ${3:size_t layoutSize}, ${4:AudioChannelLayout* layout}, ${5:size_t magicCookieSize}, ${6:void* magicCookie}, ${7:CFDictionaryRef extensions}, ${8:CMAudioFormatDescriptionRef* outDesc})'
+  'CMAudioFormatDescriptionCreateSummary':
+    'prefix': 'CMAudioFormatDescriptionCreateSummary'
+    'body': 'CMAudioFormatDescriptionCreateSummary(${1:CFAllocatorRef allocator}, ${2:CFArrayRef formatDescriptionArray}, ${3:uint32_t flags}, ${4:CMAudioFormatDescriptionRef* summaryFormatDescriptionOut})'
+  'CMAudioFormatDescriptionEqual':
+    'prefix': 'CMAudioFormatDescriptionEqual'
+    'body': 'CMAudioFormatDescriptionEqual(${1:CMAudioFormatDescriptionRef desc1}, ${2:CMAudioFormatDescriptionRef desc2}, ${3:CMAudioFormatDescriptionMask equalityMask}, ${4:CMAudioFormatDescriptionMask* equalityMaskOut})'
+  'CMAudioFormatDescriptionGetChannelLayout':
+    'prefix': 'CMAudioFormatDescriptionGetChannelLayout'
+    'body': 'CMAudioFormatDescriptionGetChannelLayout(${1:CMAudioFormatDescriptionRef desc}, ${2:size_t* layoutSize})'
+  'CMAudioFormatDescriptionGetFormatList':
+    'prefix': 'CMAudioFormatDescriptionGetFormatList'
+    'body': 'CMAudioFormatDescriptionGetFormatList(${1:CMAudioFormatDescriptionRef desc}, ${2:size_t* formatListSize})'
+  'CMAudioFormatDescriptionGetMagicCookie':
+    'prefix': 'CMAudioFormatDescriptionGetMagicCookie'
+    'body': 'CMAudioFormatDescriptionGetMagicCookie(${1:CMAudioFormatDescriptionRef desc}, ${2:size_t* cookieSizeOut})'
+  'CMAudioFormatDescriptionGetMostCompatibleFormat':
+    'prefix': 'CMAudioFormatDescriptionGetMostCompatibleFormat'
+    'body': 'CMAudioFormatDescriptionGetMostCompatibleFormat(${1:CMAudioFormatDescriptionRef desc})'
+  'CMAudioFormatDescriptionGetRichestDecodableFormat':
+    'prefix': 'CMAudioFormatDescriptionGetRichestDecodableFormat'
+    'body': 'CMAudioFormatDescriptionGetRichestDecodableFormat(${1:CMAudioFormatDescriptionRef desc})'
+  'CMAudioFormatDescriptionGetStreamBasicDescription':
+    'prefix': 'CMAudioFormatDescriptionGetStreamBasicDescription'
+    'body': 'CMAudioFormatDescriptionGetStreamBasicDescription(${1:CMAudioFormatDescriptionRef desc})'
+  'CMAudioSampleBufferCreateWithPacketDescriptions':
+    'prefix': 'CMAudioSampleBufferCreateWithPacketDescriptions'
+    'body': 'CMAudioSampleBufferCreateWithPacketDescriptions(${1:CFAllocatorRef allocator}, ${2:CMBlockBufferRef dataBuffer}, ${3:Boolean dataReady}, ${4:CMSampleBufferMakeDataReadyCallback makeDataReadyCallback}, ${5:void* makeDataReadyRefcon}, ${6:CMFormatDescriptionRef formatDescription}, ${7:CMItemCount numSamples}, ${8:CMTime sbufPTS}, ${9:AudioStreamPacketDescription* packetDescriptions}, ${10:CMSampleBufferRef* sBufOut})'
+  'CMBlockBufferAccessDataBytes':
+    'prefix': 'CMBlockBufferAccessDataBytes'
+    'body': 'CMBlockBufferAccessDataBytes(${1:CMBlockBufferRef theBuffer}, ${2:size_t offset}, ${3:size_t length}, ${4:void* temporaryBlock}, ${5:char** returnedPointer})'
+  'CMBlockBufferAppendBufferReference':
+    'prefix': 'CMBlockBufferAppendBufferReference'
+    'body': 'CMBlockBufferAppendBufferReference(${1:CMBlockBufferRef theBuffer}, ${2:CMBlockBufferRef targetBBuf}, ${3:size_t offsetToData}, ${4:size_t dataLength}, ${5:CMBlockBufferFlags flags})'
+  'CMBlockBufferAppendMemoryBlock':
+    'prefix': 'CMBlockBufferAppendMemoryBlock'
+    'body': 'CMBlockBufferAppendMemoryBlock(${1:CMBlockBufferRef theBuffer}, ${2:void* memoryBlock}, ${3:size_t blockLength}, ${4:CFAllocatorRef blockAllocator}, ${5:CMBlockBufferCustomBlockSource* customBlockSource}, ${6:size_t offsetToData}, ${7:size_t dataLength}, ${8:CMBlockBufferFlags flags})'
+  'CMBlockBufferAssureBlockMemory':
+    'prefix': 'CMBlockBufferAssureBlockMemory'
+    'body': 'CMBlockBufferAssureBlockMemory(${1:CMBlockBufferRef theBuffer})'
+  'CMBlockBufferCopyDataBytes':
+    'prefix': 'CMBlockBufferCopyDataBytes'
+    'body': 'CMBlockBufferCopyDataBytes(${1:CMBlockBufferRef theSourceBuffer}, ${2:size_t offsetToData}, ${3:size_t dataLength}, ${4:void* destination})'
+  'CMBlockBufferCreateContiguous':
+    'prefix': 'CMBlockBufferCreateContiguous'
+    'body': 'CMBlockBufferCreateContiguous(${1:CFAllocatorRef structureAllocator}, ${2:CMBlockBufferRef sourceBuffer}, ${3:CFAllocatorRef blockAllocator}, ${4:CMBlockBufferCustomBlockSource* customBlockSource}, ${5:size_t offsetToData}, ${6:size_t dataLength}, ${7:CMBlockBufferFlags flags}, ${8:CMBlockBufferRef* newBBufOut})'
+  'CMBlockBufferCreateEmpty':
+    'prefix': 'CMBlockBufferCreateEmpty'
+    'body': 'CMBlockBufferCreateEmpty(${1:CFAllocatorRef structureAllocator}, ${2:uint32_t subBlockCapacity}, ${3:CMBlockBufferFlags flags}, ${4:CMBlockBufferRef* newBBufOut})'
+  'CMBlockBufferCreateWithBufferReference':
+    'prefix': 'CMBlockBufferCreateWithBufferReference'
+    'body': 'CMBlockBufferCreateWithBufferReference(${1:CFAllocatorRef structureAllocator}, ${2:CMBlockBufferRef targetBuffer}, ${3:size_t offsetToData}, ${4:size_t dataLength}, ${5:CMBlockBufferFlags flags}, ${6:CMBlockBufferRef* newBBufOut})'
+  'CMBlockBufferCreateWithMemoryBlock':
+    'prefix': 'CMBlockBufferCreateWithMemoryBlock'
+    'body': 'CMBlockBufferCreateWithMemoryBlock(${1:CFAllocatorRef structureAllocator}, ${2:void* memoryBlock}, ${3:size_t blockLength}, ${4:CFAllocatorRef blockAllocator}, ${5:CMBlockBufferCustomBlockSource* customBlockSource}, ${6:size_t offsetToData}, ${7:size_t dataLength}, ${8:CMBlockBufferFlags flags}, ${9:CMBlockBufferRef* newBBufOut})'
+  'CMBlockBufferFillDataBytes':
+    'prefix': 'CMBlockBufferFillDataBytes'
+    'body': 'CMBlockBufferFillDataBytes(${1:char fillByte}, ${2:CMBlockBufferRef destinationBuffer}, ${3:size_t offsetIntoDestination}, ${4:size_t dataLength})'
+  'CMBlockBufferGetDataLength':
+    'prefix': 'CMBlockBufferGetDataLength'
+    'body': 'CMBlockBufferGetDataLength(${1:CMBlockBufferRef theBuffer})'
+  'CMBlockBufferGetDataPointer':
+    'prefix': 'CMBlockBufferGetDataPointer'
+    'body': 'CMBlockBufferGetDataPointer(${1:CMBlockBufferRef theBuffer}, ${2:size_t offset}, ${3:size_t* lengthAtOffset}, ${4:size_t* totalLength}, ${5:char** dataPointer})'
+  'CMBlockBufferGetTypeID':
+    'prefix': 'CMBlockBufferGetTypeID'
+    'body': 'CMBlockBufferGetTypeID()'
+  'CMBlockBufferIsEmpty':
+    'prefix': 'CMBlockBufferIsEmpty'
+    'body': 'CMBlockBufferIsEmpty(${1:CMBlockBufferRef theBuffer})'
+  'CMBlockBufferIsRangeContiguous':
+    'prefix': 'CMBlockBufferIsRangeContiguous'
+    'body': 'CMBlockBufferIsRangeContiguous(${1:CMBlockBufferRef theBuffer}, ${2:size_t offset}, ${3:size_t length})'
+  'CMBlockBufferReplaceDataBytes':
+    'prefix': 'CMBlockBufferReplaceDataBytes'
+    'body': 'CMBlockBufferReplaceDataBytes(${1:void* sourceBytes}, ${2:CMBlockBufferRef destinationBuffer}, ${3:size_t offsetIntoDestination}, ${4:size_t dataLength})'
+  'CMBufferQueueCallForEachBuffer':
+    'prefix': 'CMBufferQueueCallForEachBuffer'
+    'body': 'CMBufferQueueCallForEachBuffer(${1:CMBufferQueueRef queue}, ${2:OSStatus (*)(CMBufferRef, void *) callback}, ${3:void* refcon})'
+  'CMBufferQueueContainsEndOfData':
+    'prefix': 'CMBufferQueueContainsEndOfData'
+    'body': 'CMBufferQueueContainsEndOfData(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueCreate':
+    'prefix': 'CMBufferQueueCreate'
+    'body': 'CMBufferQueueCreate(${1:CFAllocatorRef allocator}, ${2:CMItemCount capacity}, ${3:CMBufferCallbacks* callbacks}, ${4:CMBufferQueueRef* queueOut})'
+  'CMBufferQueueDequeueAndRetain':
+    'prefix': 'CMBufferQueueDequeueAndRetain'
+    'body': 'CMBufferQueueDequeueAndRetain(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueDequeueIfDataReadyAndRetain':
+    'prefix': 'CMBufferQueueDequeueIfDataReadyAndRetain'
+    'body': 'CMBufferQueueDequeueIfDataReadyAndRetain(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueEnqueue':
+    'prefix': 'CMBufferQueueEnqueue'
+    'body': 'CMBufferQueueEnqueue(${1:CMBufferQueueRef queue}, ${2:CMBufferRef buf})'
+  'CMBufferQueueGetBufferCount':
+    'prefix': 'CMBufferQueueGetBufferCount'
+    'body': 'CMBufferQueueGetBufferCount(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS':
+    'prefix': 'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS'
+    'body': 'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS()'
+  'CMBufferQueueGetCallbacksForUnsortedSampleBuffers':
+    'prefix': 'CMBufferQueueGetCallbacksForUnsortedSampleBuffers'
+    'body': 'CMBufferQueueGetCallbacksForUnsortedSampleBuffers()'
+  'CMBufferQueueGetDuration':
+    'prefix': 'CMBufferQueueGetDuration'
+    'body': 'CMBufferQueueGetDuration(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetEndPresentationTimeStamp':
+    'prefix': 'CMBufferQueueGetEndPresentationTimeStamp'
+    'body': 'CMBufferQueueGetEndPresentationTimeStamp(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetFirstDecodeTimeStamp':
+    'prefix': 'CMBufferQueueGetFirstDecodeTimeStamp'
+    'body': 'CMBufferQueueGetFirstDecodeTimeStamp(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetFirstPresentationTimeStamp':
+    'prefix': 'CMBufferQueueGetFirstPresentationTimeStamp'
+    'body': 'CMBufferQueueGetFirstPresentationTimeStamp(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetHead':
+    'prefix': 'CMBufferQueueGetHead'
+    'body': 'CMBufferQueueGetHead(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetMaxPresentationTimeStamp':
+    'prefix': 'CMBufferQueueGetMaxPresentationTimeStamp'
+    'body': 'CMBufferQueueGetMaxPresentationTimeStamp(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetMinDecodeTimeStamp':
+    'prefix': 'CMBufferQueueGetMinDecodeTimeStamp'
+    'body': 'CMBufferQueueGetMinDecodeTimeStamp(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetMinPresentationTimeStamp':
+    'prefix': 'CMBufferQueueGetMinPresentationTimeStamp'
+    'body': 'CMBufferQueueGetMinPresentationTimeStamp(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetTotalSize':
+    'prefix': 'CMBufferQueueGetTotalSize'
+    'body': 'CMBufferQueueGetTotalSize(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueGetTypeID':
+    'prefix': 'CMBufferQueueGetTypeID'
+    'body': 'CMBufferQueueGetTypeID()'
+  'CMBufferQueueInstallTrigger':
+    'prefix': 'CMBufferQueueInstallTrigger'
+    'body': 'CMBufferQueueInstallTrigger(${1:CMBufferQueueRef queue}, ${2:CMBufferQueueTriggerCallback triggerCallback}, ${3:void* triggerRefcon}, ${4:CMBufferQueueTriggerCondition triggerCondition}, ${5:CMTime triggerTime}, ${6:CMBufferQueueTriggerToken* triggerTokenOut})'
+  'CMBufferQueueInstallTriggerWithIntegerThreshold':
+    'prefix': 'CMBufferQueueInstallTriggerWithIntegerThreshold'
+    'body': 'CMBufferQueueInstallTriggerWithIntegerThreshold(${1:CMBufferQueueRef queue}, ${2:CMBufferQueueTriggerCallback triggerCallback}, ${3:void* triggerRefcon}, ${4:CMBufferQueueTriggerCondition triggerCondition}, ${5:CMItemCount triggerThreshold}, ${6:CMBufferQueueTriggerToken* triggerTokenOut})'
+  'CMBufferQueueIsAtEndOfData':
+    'prefix': 'CMBufferQueueIsAtEndOfData'
+    'body': 'CMBufferQueueIsAtEndOfData(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueIsEmpty':
+    'prefix': 'CMBufferQueueIsEmpty'
+    'body': 'CMBufferQueueIsEmpty(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueMarkEndOfData':
+    'prefix': 'CMBufferQueueMarkEndOfData'
+    'body': 'CMBufferQueueMarkEndOfData(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueRemoveTrigger':
+    'prefix': 'CMBufferQueueRemoveTrigger'
+    'body': 'CMBufferQueueRemoveTrigger(${1:CMBufferQueueRef queue}, ${2:CMBufferQueueTriggerToken triggerToken})'
+  'CMBufferQueueReset':
+    'prefix': 'CMBufferQueueReset'
+    'body': 'CMBufferQueueReset(${1:CMBufferQueueRef queue})'
+  'CMBufferQueueResetWithCallback':
+    'prefix': 'CMBufferQueueResetWithCallback'
+    'body': 'CMBufferQueueResetWithCallback(${1:CMBufferQueueRef queue}, ${2:void (*)(CMBufferRef, void *) callback}, ${3:void* refcon})'
+  'CMBufferQueueSetValidationCallback':
+    'prefix': 'CMBufferQueueSetValidationCallback'
+    'body': 'CMBufferQueueSetValidationCallback(${1:CMBufferQueueRef queue}, ${2:CMBufferValidationCallback validationCallback}, ${3:void* validationRefCon})'
+  'CMBufferQueueTestTrigger':
+    'prefix': 'CMBufferQueueTestTrigger'
+    'body': 'CMBufferQueueTestTrigger(${1:CMBufferQueueRef queue}, ${2:CMBufferQueueTriggerToken triggerToken})'
+  'CMClockConvertHostTimeToSystemUnits':
+    'prefix': 'CMClockConvertHostTimeToSystemUnits'
+    'body': 'CMClockConvertHostTimeToSystemUnits(${1:CMTime hostTime})'
+  'CMClockGetAnchorTime':
+    'prefix': 'CMClockGetAnchorTime'
+    'body': 'CMClockGetAnchorTime(${1:CMClockRef clock}, ${2:CMTime* outClockTime}, ${3:CMTime* outReferenceClockTime})'
+  'CMClockGetHostTimeClock':
+    'prefix': 'CMClockGetHostTimeClock'
+    'body': 'CMClockGetHostTimeClock()'
+  'CMClockGetTime':
+    'prefix': 'CMClockGetTime'
+    'body': 'CMClockGetTime(${1:CMClockRef clock})'
+  'CMClockGetTypeID':
+    'prefix': 'CMClockGetTypeID'
+    'body': 'CMClockGetTypeID()'
+  'CMClockInvalidate':
+    'prefix': 'CMClockInvalidate'
+    'body': 'CMClockInvalidate(${1:CMClockRef clock})'
+  'CMClockMakeHostTimeFromSystemUnits':
+    'prefix': 'CMClockMakeHostTimeFromSystemUnits'
+    'body': 'CMClockMakeHostTimeFromSystemUnits(${1:uint64_t hostTime})'
+  'CMClockMightDrift':
+    'prefix': 'CMClockMightDrift'
+    'body': 'CMClockMightDrift(${1:CMClockRef clock}, ${2:CMClockRef otherClock})'
+  'CMCopyDictionaryOfAttachments':
+    'prefix': 'CMCopyDictionaryOfAttachments'
+    'body': 'CMCopyDictionaryOfAttachments(${1:CFAllocatorRef allocator}, ${2:CMAttachmentBearerRef target}, ${3:CMAttachmentMode attachmentMode})'
+  'CMFormatDescriptionCreate':
+    'prefix': 'CMFormatDescriptionCreate'
+    'body': 'CMFormatDescriptionCreate(${1:CFAllocatorRef allocator}, ${2:CMMediaType mediaType}, ${3:FourCharCode mediaSubtype}, ${4:CFDictionaryRef extensions}, ${5:CMFormatDescriptionRef* descOut})'
+  'CMFormatDescriptionEqual':
+    'prefix': 'CMFormatDescriptionEqual'
+    'body': 'CMFormatDescriptionEqual(${1:CMFormatDescriptionRef desc1}, ${2:CMFormatDescriptionRef desc2})'
+  'CMFormatDescriptionEqualIgnoringExtensionKeys':
+    'prefix': 'CMFormatDescriptionEqualIgnoringExtensionKeys'
+    'body': 'CMFormatDescriptionEqualIgnoringExtensionKeys(${1:CMFormatDescriptionRef desc1}, ${2:CMFormatDescriptionRef desc2}, ${3:CFTypeRef formatDescriptionExtensionKeysToIgnore}, ${4:CFTypeRef sampleDescriptionExtensionAtomKeysToIgnore})'
+  'CMFormatDescriptionGetExtension':
+    'prefix': 'CMFormatDescriptionGetExtension'
+    'body': 'CMFormatDescriptionGetExtension(${1:CMFormatDescriptionRef desc}, ${2:CFStringRef extensionKey})'
+  'CMFormatDescriptionGetExtensions':
+    'prefix': 'CMFormatDescriptionGetExtensions'
+    'body': 'CMFormatDescriptionGetExtensions(${1:CMFormatDescriptionRef desc})'
+  'CMFormatDescriptionGetMediaSubType':
+    'prefix': 'CMFormatDescriptionGetMediaSubType'
+    'body': 'CMFormatDescriptionGetMediaSubType(${1:CMFormatDescriptionRef desc})'
+  'CMFormatDescriptionGetMediaType':
+    'prefix': 'CMFormatDescriptionGetMediaType'
+    'body': 'CMFormatDescriptionGetMediaType(${1:CMFormatDescriptionRef desc})'
+  'CMFormatDescriptionGetTypeID':
+    'prefix': 'CMFormatDescriptionGetTypeID'
+    'body': 'CMFormatDescriptionGetTypeID()'
+  'CMGetAttachment':
+    'prefix': 'CMGetAttachment'
+    'body': 'CMGetAttachment(${1:CMAttachmentBearerRef target}, ${2:CFStringRef key}, ${3:CMAttachmentMode* attachmentModeOut})'
+  'CMMemoryPoolCreate':
+    'prefix': 'CMMemoryPoolCreate'
+    'body': 'CMMemoryPoolCreate(${1:CFDictionaryRef options})'
+  'CMMemoryPoolFlush':
+    'prefix': 'CMMemoryPoolFlush'
+    'body': 'CMMemoryPoolFlush(${1:CMMemoryPoolRef pool})'
+  'CMMemoryPoolGetAllocator':
+    'prefix': 'CMMemoryPoolGetAllocator'
+    'body': 'CMMemoryPoolGetAllocator(${1:CMMemoryPoolRef pool})'
+  'CMMemoryPoolGetTypeID':
+    'prefix': 'CMMemoryPoolGetTypeID'
+    'body': 'CMMemoryPoolGetTypeID()'
+  'CMMemoryPoolInvalidate':
+    'prefix': 'CMMemoryPoolInvalidate'
+    'body': 'CMMemoryPoolInvalidate(${1:CMMemoryPoolRef pool})'
+  'CMMetadataFormatDescriptionCreateWithKeys':
+    'prefix': 'CMMetadataFormatDescriptionCreateWithKeys'
+    'body': 'CMMetadataFormatDescriptionCreateWithKeys(${1:CFAllocatorRef allocator}, ${2:CMMetadataFormatType metadataType}, ${3:CFArrayRef keys}, ${4:CMMetadataFormatDescriptionRef* outDesc})'
+  'CMMetadataFormatDescriptionGetKeyWithLocalID':
+    'prefix': 'CMMetadataFormatDescriptionGetKeyWithLocalID'
+    'body': 'CMMetadataFormatDescriptionGetKeyWithLocalID(${1:CMMetadataFormatDescriptionRef desc}, ${2:OSType localKeyID})'
+  'CMMuxedFormatDescriptionCreate':
+    'prefix': 'CMMuxedFormatDescriptionCreate'
+    'body': 'CMMuxedFormatDescriptionCreate(${1:CFAllocatorRef allocator}, ${2:CMMuxedStreamType muxType}, ${3:CFDictionaryRef extensions}, ${4:CMMuxedFormatDescriptionRef* outDesc})'
+  'CMPropagateAttachments':
+    'prefix': 'CMPropagateAttachments'
+    'body': 'CMPropagateAttachments(${1:CMAttachmentBearerRef source}, ${2:CMAttachmentBearerRef destination})'
+  'CMRemoveAllAttachments':
+    'prefix': 'CMRemoveAllAttachments'
+    'body': 'CMRemoveAllAttachments(${1:CMAttachmentBearerRef target})'
+  'CMRemoveAttachment':
+    'prefix': 'CMRemoveAttachment'
+    'body': 'CMRemoveAttachment(${1:CMAttachmentBearerRef target}, ${2:CFStringRef key})'
+  'CMSampleBufferCallForEachSample':
+    'prefix': 'CMSampleBufferCallForEachSample'
+    'body': 'CMSampleBufferCallForEachSample(${1:CMSampleBufferRef sbuf}, ${2:OSStatus (*)(CMSampleBufferRef, CMItemCount, void *) callback}, ${3:void* refcon})'
+  'CMSampleBufferCopyPCMDataIntoAudioBufferList':
+    'prefix': 'CMSampleBufferCopyPCMDataIntoAudioBufferList'
+    'body': 'CMSampleBufferCopyPCMDataIntoAudioBufferList(${1:CMSampleBufferRef sbuf}, ${2:int32_t frameOffset}, ${3:int32_t numFrames}, ${4:AudioBufferList* bufferList})'
+  'CMSampleBufferCopySampleBufferForRange':
+    'prefix': 'CMSampleBufferCopySampleBufferForRange'
+    'body': 'CMSampleBufferCopySampleBufferForRange(${1:CFAllocatorRef allocator}, ${2:CMSampleBufferRef sbuf}, ${3:CFRange sampleRange}, ${4:CMSampleBufferRef* sBufOut})'
+  'CMSampleBufferCreate':
+    'prefix': 'CMSampleBufferCreate'
+    'body': 'CMSampleBufferCreate(${1:CFAllocatorRef allocator}, ${2:CMBlockBufferRef dataBuffer}, ${3:Boolean dataReady}, ${4:CMSampleBufferMakeDataReadyCallback makeDataReadyCallback}, ${5:void* makeDataReadyRefcon}, ${6:CMFormatDescriptionRef formatDescription}, ${7:CMItemCount numSamples}, ${8:CMItemCount numSampleTimingEntries}, ${9:CMSampleTimingInfo* sampleTimingArray}, ${10:CMItemCount numSampleSizeEntries}, ${11:size_t* sampleSizeArray}, ${12:CMSampleBufferRef* sBufOut})'
+  'CMSampleBufferCreateCopy':
+    'prefix': 'CMSampleBufferCreateCopy'
+    'body': 'CMSampleBufferCreateCopy(${1:CFAllocatorRef allocator}, ${2:CMSampleBufferRef sbuf}, ${3:CMSampleBufferRef* sbufCopyOut})'
+  'CMSampleBufferCreateCopyWithNewTiming':
+    'prefix': 'CMSampleBufferCreateCopyWithNewTiming'
+    'body': 'CMSampleBufferCreateCopyWithNewTiming(${1:CFAllocatorRef allocator}, ${2:CMSampleBufferRef originalSBuf}, ${3:CMItemCount numSampleTimingEntries}, ${4:CMSampleTimingInfo* sampleTimingArray}, ${5:CMSampleBufferRef* sBufCopyOut})'
+  'CMSampleBufferCreateForImageBuffer':
+    'prefix': 'CMSampleBufferCreateForImageBuffer'
+    'body': 'CMSampleBufferCreateForImageBuffer(${1:CFAllocatorRef allocator}, ${2:CVImageBufferRef imageBuffer}, ${3:Boolean dataReady}, ${4:CMSampleBufferMakeDataReadyCallback makeDataReadyCallback}, ${5:void* makeDataReadyRefcon}, ${6:CMVideoFormatDescriptionRef formatDescription}, ${7:CMSampleTimingInfo* sampleTiming}, ${8:CMSampleBufferRef* sBufOut})'
+  'CMSampleBufferDataIsReady':
+    'prefix': 'CMSampleBufferDataIsReady'
+    'body': 'CMSampleBufferDataIsReady(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer':
+    'prefix': 'CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer'
+    'body': 'CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer(${1:CMSampleBufferRef sbuf}, ${2:size_t* bufferListSizeNeededOut}, ${3:AudioBufferList* bufferListOut}, ${4:size_t bufferListSize}, ${5:CFAllocatorRef bbufStructAllocator}, ${6:CFAllocatorRef bbufMemoryAllocator}, ${7:uint32_t flags}, ${8:CMBlockBufferRef* blockBufferOut})'
+  'CMSampleBufferGetAudioStreamPacketDescriptions':
+    'prefix': 'CMSampleBufferGetAudioStreamPacketDescriptions'
+    'body': 'CMSampleBufferGetAudioStreamPacketDescriptions(${1:CMSampleBufferRef sbuf}, ${2:size_t packetDescriptionsSize}, ${3:AudioStreamPacketDescription* packetDescriptionsOut}, ${4:size_t* packetDescriptionsSizeNeededOut})'
+  'CMSampleBufferGetAudioStreamPacketDescriptionsPtr':
+    'prefix': 'CMSampleBufferGetAudioStreamPacketDescriptionsPtr'
+    'body': 'CMSampleBufferGetAudioStreamPacketDescriptionsPtr(${1:CMSampleBufferRef sbuf}, ${2:AudioStreamPacketDescription** packetDescriptionsPtrOut}, ${3:size_t* packetDescriptionsSizeOut})'
+  'CMSampleBufferGetDataBuffer':
+    'prefix': 'CMSampleBufferGetDataBuffer'
+    'body': 'CMSampleBufferGetDataBuffer(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetDecodeTimeStamp':
+    'prefix': 'CMSampleBufferGetDecodeTimeStamp'
+    'body': 'CMSampleBufferGetDecodeTimeStamp(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetDuration':
+    'prefix': 'CMSampleBufferGetDuration'
+    'body': 'CMSampleBufferGetDuration(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetFormatDescription':
+    'prefix': 'CMSampleBufferGetFormatDescription'
+    'body': 'CMSampleBufferGetFormatDescription(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetImageBuffer':
+    'prefix': 'CMSampleBufferGetImageBuffer'
+    'body': 'CMSampleBufferGetImageBuffer(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetNumSamples':
+    'prefix': 'CMSampleBufferGetNumSamples'
+    'body': 'CMSampleBufferGetNumSamples(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetOutputDecodeTimeStamp':
+    'prefix': 'CMSampleBufferGetOutputDecodeTimeStamp'
+    'body': 'CMSampleBufferGetOutputDecodeTimeStamp(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetOutputDuration':
+    'prefix': 'CMSampleBufferGetOutputDuration'
+    'body': 'CMSampleBufferGetOutputDuration(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetOutputPresentationTimeStamp':
+    'prefix': 'CMSampleBufferGetOutputPresentationTimeStamp'
+    'body': 'CMSampleBufferGetOutputPresentationTimeStamp(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetOutputSampleTimingInfoArray':
+    'prefix': 'CMSampleBufferGetOutputSampleTimingInfoArray'
+    'body': 'CMSampleBufferGetOutputSampleTimingInfoArray(${1:CMSampleBufferRef sbuf}, ${2:CMItemCount timingArrayEntries}, ${3:CMSampleTimingInfo* timingArrayOut}, ${4:CMItemCount* timingArrayEntriesNeededOut})'
+  'CMSampleBufferGetPresentationTimeStamp':
+    'prefix': 'CMSampleBufferGetPresentationTimeStamp'
+    'body': 'CMSampleBufferGetPresentationTimeStamp(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetSampleAttachmentsArray':
+    'prefix': 'CMSampleBufferGetSampleAttachmentsArray'
+    'body': 'CMSampleBufferGetSampleAttachmentsArray(${1:CMSampleBufferRef sbuf}, ${2:Boolean createIfNecessary})'
+  'CMSampleBufferGetSampleSize':
+    'prefix': 'CMSampleBufferGetSampleSize'
+    'body': 'CMSampleBufferGetSampleSize(${1:CMSampleBufferRef sbuf}, ${2:CMItemIndex sampleIndex})'
+  'CMSampleBufferGetSampleSizeArray':
+    'prefix': 'CMSampleBufferGetSampleSizeArray'
+    'body': 'CMSampleBufferGetSampleSizeArray(${1:CMSampleBufferRef sbuf}, ${2:CMItemCount sizeArrayEntries}, ${3:size_t* sizeArrayOut}, ${4:CMItemCount* sizeArrayEntriesNeededOut})'
+  'CMSampleBufferGetSampleTimingInfo':
+    'prefix': 'CMSampleBufferGetSampleTimingInfo'
+    'body': 'CMSampleBufferGetSampleTimingInfo(${1:CMSampleBufferRef sbuf}, ${2:CMItemIndex sampleIndex}, ${3:CMSampleTimingInfo* timingInfoOut})'
+  'CMSampleBufferGetSampleTimingInfoArray':
+    'prefix': 'CMSampleBufferGetSampleTimingInfoArray'
+    'body': 'CMSampleBufferGetSampleTimingInfoArray(${1:CMSampleBufferRef sbuf}, ${2:CMItemCount timingArrayEntries}, ${3:CMSampleTimingInfo* timingArrayOut}, ${4:CMItemCount* timingArrayEntriesNeededOut})'
+  'CMSampleBufferGetTotalSampleSize':
+    'prefix': 'CMSampleBufferGetTotalSampleSize'
+    'body': 'CMSampleBufferGetTotalSampleSize(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferGetTypeID':
+    'prefix': 'CMSampleBufferGetTypeID'
+    'body': 'CMSampleBufferGetTypeID()'
+  'CMSampleBufferInvalidate':
+    'prefix': 'CMSampleBufferInvalidate'
+    'body': 'CMSampleBufferInvalidate(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferIsValid':
+    'prefix': 'CMSampleBufferIsValid'
+    'body': 'CMSampleBufferIsValid(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferMakeDataReady':
+    'prefix': 'CMSampleBufferMakeDataReady'
+    'body': 'CMSampleBufferMakeDataReady(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferSetDataBuffer':
+    'prefix': 'CMSampleBufferSetDataBuffer'
+    'body': 'CMSampleBufferSetDataBuffer(${1:CMSampleBufferRef sbuf}, ${2:CMBlockBufferRef dataBuffer})'
+  'CMSampleBufferSetDataBufferFromAudioBufferList':
+    'prefix': 'CMSampleBufferSetDataBufferFromAudioBufferList'
+    'body': 'CMSampleBufferSetDataBufferFromAudioBufferList(${1:CMSampleBufferRef sbuf}, ${2:CFAllocatorRef bbufStructAllocator}, ${3:CFAllocatorRef bbufMemoryAllocator}, ${4:uint32_t flags}, ${5:AudioBufferList* bufferList})'
+  'CMSampleBufferSetDataReady':
+    'prefix': 'CMSampleBufferSetDataReady'
+    'body': 'CMSampleBufferSetDataReady(${1:CMSampleBufferRef sbuf})'
+  'CMSampleBufferSetInvalidateCallback':
+    'prefix': 'CMSampleBufferSetInvalidateCallback'
+    'body': 'CMSampleBufferSetInvalidateCallback(${1:CMSampleBufferRef sbuf}, ${2:CMSampleBufferInvalidateCallback invalidateCallback}, ${3:uint64_t invalidateRefCon})'
+  'CMSampleBufferSetOutputPresentationTimeStamp':
+    'prefix': 'CMSampleBufferSetOutputPresentationTimeStamp'
+    'body': 'CMSampleBufferSetOutputPresentationTimeStamp(${1:CMSampleBufferRef sbuf}, ${2:CMTime outputPresentationTimeStamp})'
+  'CMSampleBufferTrackDataReadiness':
+    'prefix': 'CMSampleBufferTrackDataReadiness'
+    'body': 'CMSampleBufferTrackDataReadiness(${1:CMSampleBufferRef sbuf}, ${2:CMSampleBufferRef sbufToTrack})'
+  'CMSetAttachment':
+    'prefix': 'CMSetAttachment'
+    'body': 'CMSetAttachment(${1:CMAttachmentBearerRef target}, ${2:CFStringRef key}, ${3:CFTypeRef value}, ${4:CMAttachmentMode attachmentMode})'
+  'CMSetAttachments':
+    'prefix': 'CMSetAttachments'
+    'body': 'CMSetAttachments(${1:CMAttachmentBearerRef target}, ${2:CFDictionaryRef theAttachments}, ${3:CMAttachmentMode attachmentMode})'
+  'CMSimpleQueueCreate':
+    'prefix': 'CMSimpleQueueCreate'
+    'body': 'CMSimpleQueueCreate(${1:CFAllocatorRef allocator}, ${2:int32_t capacity}, ${3:CMSimpleQueueRef* queueOut})'
+  'CMSimpleQueueDequeue':
+    'prefix': 'CMSimpleQueueDequeue'
+    'body': 'CMSimpleQueueDequeue(${1:CMSimpleQueueRef queue})'
+  'CMSimpleQueueEnqueue':
+    'prefix': 'CMSimpleQueueEnqueue'
+    'body': 'CMSimpleQueueEnqueue(${1:CMSimpleQueueRef queue}, ${2:void* element})'
+  'CMSimpleQueueGetCapacity':
+    'prefix': 'CMSimpleQueueGetCapacity'
+    'body': 'CMSimpleQueueGetCapacity(${1:CMSimpleQueueRef queue})'
+  'CMSimpleQueueGetCount':
+    'prefix': 'CMSimpleQueueGetCount'
+    'body': 'CMSimpleQueueGetCount(${1:CMSimpleQueueRef queue})'
+  'CMSimpleQueueGetHead':
+    'prefix': 'CMSimpleQueueGetHead'
+    'body': 'CMSimpleQueueGetHead(${1:CMSimpleQueueRef queue})'
+  'CMSimpleQueueGetTypeID':
+    'prefix': 'CMSimpleQueueGetTypeID'
+    'body': 'CMSimpleQueueGetTypeID()'
+  'CMSimpleQueueReset':
+    'prefix': 'CMSimpleQueueReset'
+    'body': 'CMSimpleQueueReset(${1:CMSimpleQueueRef queue})'
+  'CMSyncConvertTime':
+    'prefix': 'CMSyncConvertTime'
+    'body': 'CMSyncConvertTime(${1:CMTime time}, ${2:CMClockOrTimebaseRef fromClockOrTimebase}, ${3:CMClockOrTimebaseRef toClockOrTimebase})'
+  'CMSyncGetRelativeRate':
+    'prefix': 'CMSyncGetRelativeRate'
+    'body': 'CMSyncGetRelativeRate(${1:CMClockOrTimebaseRef ofClockOrTimebase}, ${2:CMClockOrTimebaseRef relativeToClockOrTimebase})'
+  'CMSyncGetRelativeRateAndAnchorTime':
+    'prefix': 'CMSyncGetRelativeRateAndAnchorTime'
+    'body': 'CMSyncGetRelativeRateAndAnchorTime(${1:CMClockOrTimebaseRef ofClockOrTimebase}, ${2:CMClockOrTimebaseRef relativeToClockOrTimebase}, ${3:Float64* outRelativeRate}, ${4:CMTime* outOfClockOrTimebaseAnchorTime}, ${5:CMTime* outRelativeToClockOrTimebaseAnchorTime})'
+  'CMSyncGetTime':
+    'prefix': 'CMSyncGetTime'
+    'body': 'CMSyncGetTime(${1:CMClockOrTimebaseRef clockOrTimebase})'
+  'CMSyncMightDrift':
+    'prefix': 'CMSyncMightDrift'
+    'body': 'CMSyncMightDrift(${1:CMClockOrTimebaseRef clockOrTimebase1}, ${2:CMClockOrTimebaseRef clockOrTimebase2})'
+  'CMTextFormatDescriptionGetDefaultStyle':
+    'prefix': 'CMTextFormatDescriptionGetDefaultStyle'
+    'body': 'CMTextFormatDescriptionGetDefaultStyle(${1:CMFormatDescriptionRef desc}, ${2:uint16_t* outLocalFontID}, ${3:Boolean* outBold}, ${4:Boolean* outItalic}, ${5:Boolean* outUnderline}, ${6:CGFloat* outFontSize}, ${7:CGFloat* outColorComponents})'
+  'CMTextFormatDescriptionGetDefaultTextBox':
+    'prefix': 'CMTextFormatDescriptionGetDefaultTextBox'
+    'body': 'CMTextFormatDescriptionGetDefaultTextBox(${1:CMFormatDescriptionRef desc}, ${2:Boolean originIsAtTopLeft}, ${3:CGFloat heightOfTextTrack}, ${4:CGRect* outDefaultTextBox})'
+  'CMTextFormatDescriptionGetDisplayFlags':
+    'prefix': 'CMTextFormatDescriptionGetDisplayFlags'
+    'body': 'CMTextFormatDescriptionGetDisplayFlags(${1:CMFormatDescriptionRef desc}, ${2:CMTextDisplayFlags* outDisplayFlags})'
+  'CMTextFormatDescriptionGetFontName':
+    'prefix': 'CMTextFormatDescriptionGetFontName'
+    'body': 'CMTextFormatDescriptionGetFontName(${1:CMFormatDescriptionRef desc}, ${2:uint16_t localFontID}, ${3:CFStringRef* outFontName})'
+  'CMTextFormatDescriptionGetJustification':
+    'prefix': 'CMTextFormatDescriptionGetJustification'
+    'body': 'CMTextFormatDescriptionGetJustification(${1:CMFormatDescriptionRef desc}, ${2:CMTextJustificationValue* outHorizontalJust}, ${3:CMTextJustificationValue* outVerticalJust})'
+  'CMTimeAbsoluteValue':
+    'prefix': 'CMTimeAbsoluteValue'
+    'body': 'CMTimeAbsoluteValue(${1:CMTime time})'
+  'CMTimeAdd':
+    'prefix': 'CMTimeAdd'
+    'body': 'CMTimeAdd(${1:CMTime addend1}, ${2:CMTime addend2})'
+  'CMTimeClampToRange':
+    'prefix': 'CMTimeClampToRange'
+    'body': 'CMTimeClampToRange(${1:CMTime time}, ${2:CMTimeRange range})'
+  'CMTimeCodeFormatDescriptionCreate':
+    'prefix': 'CMTimeCodeFormatDescriptionCreate'
+    'body': 'CMTimeCodeFormatDescriptionCreate(${1:CFAllocatorRef allocator}, ${2:CMTimeCodeFormatType timeCodeFormatType}, ${3:CMTime frameDuration}, ${4:uint32_t frameQuanta}, ${5:uint32_t tcFlags}, ${6:CFDictionaryRef extensions}, ${7:CMTimeCodeFormatDescriptionRef* descOut})'
+  'CMTimeCodeFormatDescriptionGetFrameDuration':
+    'prefix': 'CMTimeCodeFormatDescriptionGetFrameDuration'
+    'body': 'CMTimeCodeFormatDescriptionGetFrameDuration(${1:CMTimeCodeFormatDescriptionRef timeCodeFormatDescription})'
+  'CMTimeCodeFormatDescriptionGetFrameQuanta':
+    'prefix': 'CMTimeCodeFormatDescriptionGetFrameQuanta'
+    'body': 'CMTimeCodeFormatDescriptionGetFrameQuanta(${1:CMTimeCodeFormatDescriptionRef timeCodeFormatDescription})'
+  'CMTimeCodeFormatDescriptionGetTimeCodeFlags':
+    'prefix': 'CMTimeCodeFormatDescriptionGetTimeCodeFlags'
+    'body': 'CMTimeCodeFormatDescriptionGetTimeCodeFlags(${1:CMTimeCodeFormatDescriptionRef desc})'
+  'CMTimeCompare':
+    'prefix': 'CMTimeCompare'
+    'body': 'CMTimeCompare(${1:CMTime time1}, ${2:CMTime time2})'
+  'CMTimeConvertScale':
+    'prefix': 'CMTimeConvertScale'
+    'body': 'CMTimeConvertScale(${1:CMTime time}, ${2:int32_t newTimescale}, ${3:CMTimeRoundingMethod method})'
+  'CMTimeCopyAsDictionary':
+    'prefix': 'CMTimeCopyAsDictionary'
+    'body': 'CMTimeCopyAsDictionary(${1:CMTime time}, ${2:CFAllocatorRef allocator})'
+  'CMTimeCopyDescription':
+    'prefix': 'CMTimeCopyDescription'
+    'body': 'CMTimeCopyDescription(${1:CFAllocatorRef allocator}, ${2:CMTime time})'
+  'CMTimeGetSeconds':
+    'prefix': 'CMTimeGetSeconds'
+    'body': 'CMTimeGetSeconds(${1:CMTime time})'
+  'CMTimeMake':
+    'prefix': 'CMTimeMake'
+    'body': 'CMTimeMake(${1:int64_t value}, ${2:int32_t timescale})'
+  'CMTimeMakeFromDictionary':
+    'prefix': 'CMTimeMakeFromDictionary'
+    'body': 'CMTimeMakeFromDictionary(${1:CFDictionaryRef dict})'
+  'CMTimeMakeWithEpoch':
+    'prefix': 'CMTimeMakeWithEpoch'
+    'body': 'CMTimeMakeWithEpoch(${1:int64_t value}, ${2:int32_t timescale}, ${3:int64_t epoch})'
+  'CMTimeMakeWithSeconds':
+    'prefix': 'CMTimeMakeWithSeconds'
+    'body': 'CMTimeMakeWithSeconds(${1:Float64 seconds}, ${2:int32_t preferredTimeScale})'
+  'CMTimeMapDurationFromRangeToRange':
+    'prefix': 'CMTimeMapDurationFromRangeToRange'
+    'body': 'CMTimeMapDurationFromRangeToRange(${1:CMTime dur}, ${2:CMTimeRange fromRange}, ${3:CMTimeRange toRange})'
+  'CMTimeMapTimeFromRangeToRange':
+    'prefix': 'CMTimeMapTimeFromRangeToRange'
+    'body': 'CMTimeMapTimeFromRangeToRange(${1:CMTime t}, ${2:CMTimeRange fromRange}, ${3:CMTimeRange toRange})'
+  'CMTimeMaximum':
+    'prefix': 'CMTimeMaximum'
+    'body': 'CMTimeMaximum(${1:CMTime time1}, ${2:CMTime time2})'
+  'CMTimeMinimum':
+    'prefix': 'CMTimeMinimum'
+    'body': 'CMTimeMinimum(${1:CMTime time1}, ${2:CMTime time2})'
+  'CMTimeMultiply':
+    'prefix': 'CMTimeMultiply'
+    'body': 'CMTimeMultiply(${1:CMTime time}, ${2:int32_t multiplier})'
+  'CMTimeMultiplyByFloat64':
+    'prefix': 'CMTimeMultiplyByFloat64'
+    'body': 'CMTimeMultiplyByFloat64(${1:CMTime time}, ${2:Float64 multiplier})'
+  'CMTimeMultiplyByRatio':
+    'prefix': 'CMTimeMultiplyByRatio'
+    'body': 'CMTimeMultiplyByRatio(${1:CMTime time}, ${2:int32_t multiplier}, ${3:int32_t divisor})'
+  'CMTimeRangeContainsTime':
+    'prefix': 'CMTimeRangeContainsTime'
+    'body': 'CMTimeRangeContainsTime(${1:CMTimeRange range}, ${2:CMTime time})'
+  'CMTimeRangeContainsTimeRange':
+    'prefix': 'CMTimeRangeContainsTimeRange'
+    'body': 'CMTimeRangeContainsTimeRange(${1:CMTimeRange range1}, ${2:CMTimeRange range2})'
+  'CMTimeRangeCopyAsDictionary':
+    'prefix': 'CMTimeRangeCopyAsDictionary'
+    'body': 'CMTimeRangeCopyAsDictionary(${1:CMTimeRange range}, ${2:CFAllocatorRef allocator})'
+  'CMTimeRangeCopyDescription':
+    'prefix': 'CMTimeRangeCopyDescription'
+    'body': 'CMTimeRangeCopyDescription(${1:CFAllocatorRef allocator}, ${2:CMTimeRange range})'
+  'CMTimeRangeEqual':
+    'prefix': 'CMTimeRangeEqual'
+    'body': 'CMTimeRangeEqual(${1:CMTimeRange range1}, ${2:CMTimeRange range2})'
+  'CMTimeRangeFromTimeToTime':
+    'prefix': 'CMTimeRangeFromTimeToTime'
+    'body': 'CMTimeRangeFromTimeToTime(${1:CMTime start}, ${2:CMTime end})'
+  'CMTimeRangeGetEnd':
+    'prefix': 'CMTimeRangeGetEnd'
+    'body': 'CMTimeRangeGetEnd(${1:CMTimeRange range})'
+  'CMTimeRangeGetIntersection':
+    'prefix': 'CMTimeRangeGetIntersection'
+    'body': 'CMTimeRangeGetIntersection(${1:CMTimeRange range1}, ${2:CMTimeRange range2})'
+  'CMTimeRangeGetUnion':
+    'prefix': 'CMTimeRangeGetUnion'
+    'body': 'CMTimeRangeGetUnion(${1:CMTimeRange range1}, ${2:CMTimeRange range2})'
+  'CMTimeRangeMake':
+    'prefix': 'CMTimeRangeMake'
+    'body': 'CMTimeRangeMake(${1:CMTime start}, ${2:CMTime duration})'
+  'CMTimeRangeMakeFromDictionary':
+    'prefix': 'CMTimeRangeMakeFromDictionary'
+    'body': 'CMTimeRangeMakeFromDictionary(${1:CFDictionaryRef dict})'
+  'CMTimeRangeShow':
+    'prefix': 'CMTimeRangeShow'
+    'body': 'CMTimeRangeShow(${1:CMTimeRange range})'
+  'CMTimeShow':
+    'prefix': 'CMTimeShow'
+    'body': 'CMTimeShow(${1:CMTime time})'
+  'CMTimeSubtract':
+    'prefix': 'CMTimeSubtract'
+    'body': 'CMTimeSubtract(${1:CMTime minuend}, ${2:CMTime subtrahend})'
+  'CMTimebaseAddTimer':
+    'prefix': 'CMTimebaseAddTimer'
+    'body': 'CMTimebaseAddTimer(${1:CMTimebaseRef timebase}, ${2:CFRunLoopTimerRef timer}, ${3:CFRunLoopRef runloop})'
+  'CMTimebaseAddTimerDispatchSource':
+    'prefix': 'CMTimebaseAddTimerDispatchSource'
+    'body': 'CMTimebaseAddTimerDispatchSource(${1:CMTimebaseRef timebase}, ${2:dispatch_source_t timerSource})'
+  'CMTimebaseCreateWithMasterClock':
+    'prefix': 'CMTimebaseCreateWithMasterClock'
+    'body': 'CMTimebaseCreateWithMasterClock(${1:CFAllocatorRef allocator}, ${2:CMClockRef masterClock}, ${3:CMTimebaseRef* timebaseOut})'
+  'CMTimebaseCreateWithMasterTimebase':
+    'prefix': 'CMTimebaseCreateWithMasterTimebase'
+    'body': 'CMTimebaseCreateWithMasterTimebase(${1:CFAllocatorRef allocator}, ${2:CMTimebaseRef masterTimebase}, ${3:CMTimebaseRef* timebaseOut})'
+  'CMTimebaseGetEffectiveRate':
+    'prefix': 'CMTimebaseGetEffectiveRate'
+    'body': 'CMTimebaseGetEffectiveRate(${1:CMTimebaseRef timebase})'
+  'CMTimebaseGetMaster':
+    'prefix': 'CMTimebaseGetMaster'
+    'body': 'CMTimebaseGetMaster(${1:CMTimebaseRef timebase})'
+  'CMTimebaseGetMasterClock':
+    'prefix': 'CMTimebaseGetMasterClock'
+    'body': 'CMTimebaseGetMasterClock(${1:CMTimebaseRef timebase})'
+  'CMTimebaseGetMasterTimebase':
+    'prefix': 'CMTimebaseGetMasterTimebase'
+    'body': 'CMTimebaseGetMasterTimebase(${1:CMTimebaseRef timebase})'
+  'CMTimebaseGetRate':
+    'prefix': 'CMTimebaseGetRate'
+    'body': 'CMTimebaseGetRate(${1:CMTimebaseRef timebase})'
+  'CMTimebaseGetTime':
+    'prefix': 'CMTimebaseGetTime'
+    'body': 'CMTimebaseGetTime(${1:CMTimebaseRef timebase})'
+  'CMTimebaseGetTimeAndRate':
+    'prefix': 'CMTimebaseGetTimeAndRate'
+    'body': 'CMTimebaseGetTimeAndRate(${1:CMTimebaseRef timebase}, ${2:CMTime* outTime}, ${3:Float64* outRate})'
+  'CMTimebaseGetTimeWithTimeScale':
+    'prefix': 'CMTimebaseGetTimeWithTimeScale'
+    'body': 'CMTimebaseGetTimeWithTimeScale(${1:CMTimebaseRef timebase}, ${2:CMTimeScale timescale}, ${3:CMTimeRoundingMethod method})'
+  'CMTimebaseGetTypeID':
+    'prefix': 'CMTimebaseGetTypeID'
+    'body': 'CMTimebaseGetTypeID()'
+  'CMTimebaseGetUltimateMasterClock':
+    'prefix': 'CMTimebaseGetUltimateMasterClock'
+    'body': 'CMTimebaseGetUltimateMasterClock(${1:CMTimebaseRef timebase})'
+  'CMTimebaseNotificationBarrier':
+    'prefix': 'CMTimebaseNotificationBarrier'
+    'body': 'CMTimebaseNotificationBarrier(${1:CMTimebaseRef timebase})'
+  'CMTimebaseRemoveTimer':
+    'prefix': 'CMTimebaseRemoveTimer'
+    'body': 'CMTimebaseRemoveTimer(${1:CMTimebaseRef timebase}, ${2:CFRunLoopTimerRef timer})'
+  'CMTimebaseRemoveTimerDispatchSource':
+    'prefix': 'CMTimebaseRemoveTimerDispatchSource'
+    'body': 'CMTimebaseRemoveTimerDispatchSource(${1:CMTimebaseRef timebase}, ${2:dispatch_source_t timerSource})'
+  'CMTimebaseSetAnchorTime':
+    'prefix': 'CMTimebaseSetAnchorTime'
+    'body': 'CMTimebaseSetAnchorTime(${1:CMTimebaseRef timebase}, ${2:CMTime timebaseTime}, ${3:CMTime immediateMasterTime})'
+  'CMTimebaseSetRate':
+    'prefix': 'CMTimebaseSetRate'
+    'body': 'CMTimebaseSetRate(${1:CMTimebaseRef timebase}, ${2:Float64 rate})'
+  'CMTimebaseSetRateAndAnchorTime':
+    'prefix': 'CMTimebaseSetRateAndAnchorTime'
+    'body': 'CMTimebaseSetRateAndAnchorTime(${1:CMTimebaseRef timebase}, ${2:Float64 rate}, ${3:CMTime timebaseTime}, ${4:CMTime immediateMasterTime})'
+  'CMTimebaseSetTime':
+    'prefix': 'CMTimebaseSetTime'
+    'body': 'CMTimebaseSetTime(${1:CMTimebaseRef timebase}, ${2:CMTime time})'
+  'CMTimebaseSetTimerDispatchSourceNextFireTime':
+    'prefix': 'CMTimebaseSetTimerDispatchSourceNextFireTime'
+    'body': 'CMTimebaseSetTimerDispatchSourceNextFireTime(${1:CMTimebaseRef timebase}, ${2:dispatch_source_t timerSource}, ${3:CMTime fireTime}, ${4:uint32_t flags})'
+  'CMTimebaseSetTimerDispatchSourceToFireImmediately':
+    'prefix': 'CMTimebaseSetTimerDispatchSourceToFireImmediately'
+    'body': 'CMTimebaseSetTimerDispatchSourceToFireImmediately(${1:CMTimebaseRef timebase}, ${2:dispatch_source_t timerSource})'
+  'CMTimebaseSetTimerNextFireTime':
+    'prefix': 'CMTimebaseSetTimerNextFireTime'
+    'body': 'CMTimebaseSetTimerNextFireTime(${1:CMTimebaseRef timebase}, ${2:CFRunLoopTimerRef timer}, ${3:CMTime fireTime}, ${4:uint32_t flags})'
+  'CMTimebaseSetTimerToFireImmediately':
+    'prefix': 'CMTimebaseSetTimerToFireImmediately'
+    'body': 'CMTimebaseSetTimerToFireImmediately(${1:CMTimebaseRef timebase}, ${2:CFRunLoopTimerRef timer})'
+  'CMVideoFormatDescriptionCreate':
+    'prefix': 'CMVideoFormatDescriptionCreate'
+    'body': 'CMVideoFormatDescriptionCreate(${1:CFAllocatorRef allocator}, ${2:CMVideoCodecType codecType}, ${3:int32_t width}, ${4:int32_t height}, ${5:CFDictionaryRef extensions}, ${6:CMVideoFormatDescriptionRef* outDesc})'
+  'CMVideoFormatDescriptionCreateForImageBuffer':
+    'prefix': 'CMVideoFormatDescriptionCreateForImageBuffer'
+    'body': 'CMVideoFormatDescriptionCreateForImageBuffer(${1:CFAllocatorRef allocator}, ${2:CVImageBufferRef imageBuffer}, ${3:CMVideoFormatDescriptionRef* outDesc})'
+  'CMVideoFormatDescriptionCreateFromH264ParameterSets':
+    'prefix': 'CMVideoFormatDescriptionCreateFromH264ParameterSets'
+    'body': 'CMVideoFormatDescriptionCreateFromH264ParameterSets(${1:CFAllocatorRef allocator}, ${2:size_t parameterSetCount}, ${3:uint8_t ** parameterSetPointers}, ${4:size_t* parameterSetSizes}, ${5:int NALUnitHeaderLength}, ${6:CMFormatDescriptionRef* formatDescriptionOut})'
+  'CMVideoFormatDescriptionGetCleanAperture':
+    'prefix': 'CMVideoFormatDescriptionGetCleanAperture'
+    'body': 'CMVideoFormatDescriptionGetCleanAperture(${1:CMVideoFormatDescriptionRef videoDesc}, ${2:Boolean originIsAtTopLeft})'
+  'CMVideoFormatDescriptionGetDimensions':
+    'prefix': 'CMVideoFormatDescriptionGetDimensions'
+    'body': 'CMVideoFormatDescriptionGetDimensions(${1:CMVideoFormatDescriptionRef videoDesc})'
+  'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers':
+    'prefix': 'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers'
+    'body': 'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers()'
+  'CMVideoFormatDescriptionGetH264ParameterSetAtIndex':
+    'prefix': 'CMVideoFormatDescriptionGetH264ParameterSetAtIndex'
+    'body': 'CMVideoFormatDescriptionGetH264ParameterSetAtIndex(${1:CMFormatDescriptionRef videoDesc}, ${2:size_t parameterSetIndex}, ${3:uint8_t** parameterSetPointerOut}, ${4:size_t* parameterSetSizeOut}, ${5:size_t* parameterSetCountOut}, ${6:int* NALUnitHeaderLengthOut})'
+  'CMVideoFormatDescriptionGetPresentationDimensions':
+    'prefix': 'CMVideoFormatDescriptionGetPresentationDimensions'
+    'body': 'CMVideoFormatDescriptionGetPresentationDimensions(${1:CMVideoFormatDescriptionRef videoDesc}, ${2:Boolean usePixelAspectRatio}, ${3:Boolean useCleanAperture})'
+  'CMVideoFormatDescriptionMatchesImageBuffer':
+    'prefix': 'CMVideoFormatDescriptionMatchesImageBuffer'
+    'body': 'CMVideoFormatDescriptionMatchesImageBuffer(${1:CMVideoFormatDescriptionRef desc}, ${2:CVImageBufferRef imageBuffer})'

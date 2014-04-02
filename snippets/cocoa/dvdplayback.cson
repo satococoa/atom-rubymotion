@@ -1,0 +1,1303 @@
+'.source.rubymotion':
+  'kDVDAMGMDomain (5)':
+    'prefix': 'kDVDAMGMDomain'
+    'body': 'KDVDAMGMDomain'
+  'kDVDAspectRatio16x9 (3)':
+    'prefix': 'kDVDAspectRatio16x9'
+    'body': 'KDVDAspectRatio16x9'
+  'kDVDAspectRatio4x3 (1)':
+    'prefix': 'kDVDAspectRatio4x3'
+    'body': 'KDVDAspectRatio4x3'
+  'kDVDAspectRatio4x3PanAndScan (2)':
+    'prefix': 'kDVDAspectRatio4x3PanAndScan'
+    'body': 'KDVDAspectRatio4x3PanAndScan'
+  'kDVDAspectRatioLetterBox (4)':
+    'prefix': 'kDVDAspectRatioLetterBox'
+    'body': 'KDVDAspectRatioLetterBox'
+  'kDVDAspectRatioUninitialized (0)':
+    'prefix': 'kDVDAspectRatioUninitialized'
+    'body': 'KDVDAspectRatioUninitialized'
+  'kDVDAudioAC3Format (1)':
+    'prefix': 'kDVDAudioAC3Format'
+    'body': 'KDVDAudioAC3Format'
+  'kDVDAudioDDPlusFormat (8)':
+    'prefix': 'kDVDAudioDDPlusFormat'
+    'body': 'KDVDAudioDDPlusFormat'
+  'kDVDAudioDTSFormat (5)':
+    'prefix': 'kDVDAudioDTSFormat'
+    'body': 'KDVDAudioDTSFormat'
+  'kDVDAudioDTSHDFormat (9)':
+    'prefix': 'kDVDAudioDTSHDFormat'
+    'body': 'KDVDAudioDTSHDFormat'
+  'kDVDAudioExtensionCodeDirectorsComment1 (3)':
+    'prefix': 'kDVDAudioExtensionCodeDirectorsComment1'
+    'body': 'KDVDAudioExtensionCodeDirectorsComment1'
+  'kDVDAudioExtensionCodeDirectorsComment2 (4)':
+    'prefix': 'kDVDAudioExtensionCodeDirectorsComment2'
+    'body': 'KDVDAudioExtensionCodeDirectorsComment2'
+  'kDVDAudioExtensionCodeNVisualImpaired (2)':
+    'prefix': 'kDVDAudioExtensionCodeNVisualImpaired'
+    'body': 'KDVDAudioExtensionCodeNVisualImpaired'
+  'kDVDAudioExtensionCodeNormalCaptions (1)':
+    'prefix': 'kDVDAudioExtensionCodeNormalCaptions'
+    'body': 'KDVDAudioExtensionCodeNormalCaptions'
+  'kDVDAudioExtensionCodeNotSpecified (0)':
+    'prefix': 'kDVDAudioExtensionCodeNotSpecified'
+    'body': 'KDVDAudioExtensionCodeNotSpecified'
+  'kDVDAudioMLPFormat (7)':
+    'prefix': 'kDVDAudioMLPFormat'
+    'body': 'KDVDAudioMLPFormat'
+  'kDVDAudioMPEG1Format (2)':
+    'prefix': 'kDVDAudioMPEG1Format'
+    'body': 'KDVDAudioMPEG1Format'
+  'kDVDAudioMPEG2Format (3)':
+    'prefix': 'kDVDAudioMPEG2Format'
+    'body': 'KDVDAudioMPEG2Format'
+  'kDVDAudioModeProLogic (1)':
+    'prefix': 'kDVDAudioModeProLogic'
+    'body': 'KDVDAudioModeProLogic'
+  'kDVDAudioModeSPDIF (2)':
+    'prefix': 'kDVDAudioModeSPDIF'
+    'body': 'KDVDAudioModeSPDIF'
+  'kDVDAudioModeUninitialized (0)':
+    'prefix': 'kDVDAudioModeUninitialized'
+    'body': 'KDVDAudioModeUninitialized'
+  'kDVDAudioPCMFormat (4)':
+    'prefix': 'kDVDAudioPCMFormat'
+    'body': 'KDVDAudioPCMFormat'
+  'kDVDAudioSDDSFormat (6)':
+    'prefix': 'kDVDAudioSDDSFormat'
+    'body': 'KDVDAudioSDDSFormat'
+  'kDVDAudioUnknownFormat (0)':
+    'prefix': 'kDVDAudioUnknownFormat'
+    'body': 'KDVDAudioUnknownFormat'
+  'kDVDButtonIndexNone (-1)':
+    'prefix': 'kDVDButtonIndexNone'
+    'body': 'KDVDButtonIndexNone'
+  'kDVDErrorAlreadyPlaying (-70006)':
+    'prefix': 'kDVDErrorAlreadyPlaying'
+    'body': 'KDVDErrorAlreadyPlaying'
+  'kDVDErrorAuthentification (-70025)':
+    'prefix': 'kDVDErrorAuthentification'
+    'body': 'KDVDErrorAuthentification'
+  'kDVDErrorDisplayAuthentification (-70034)':
+    'prefix': 'kDVDErrorDisplayAuthentification'
+    'body': 'KDVDErrorDisplayAuthentification'
+  'kDVDErrorDontNeedWakeup (-70009)':
+    'prefix': 'kDVDErrorDontNeedWakeup'
+    'body': 'KDVDErrorDontNeedWakeup'
+  'kDVDErrorGraphicsDevice (-70018)':
+    'prefix': 'kDVDErrorGraphicsDevice'
+    'body': 'KDVDErrorGraphicsDevice'
+  'kDVDErrorInitializingLib (-70002)':
+    'prefix': 'kDVDErrorInitializingLib'
+    'body': 'KDVDErrorInitializingLib'
+  'kDVDErrorInvalidBookmarkForMedia (-70032)':
+    'prefix': 'kDVDErrorInvalidBookmarkForMedia'
+    'body': 'KDVDErrorInvalidBookmarkForMedia'
+  'kDVDErrorInvalidBookmarkSize (-70031)':
+    'prefix': 'kDVDErrorInvalidBookmarkSize'
+    'body': 'KDVDErrorInvalidBookmarkSize'
+  'kDVDErrorInvalidBookmarkVersion (-70030)':
+    'prefix': 'kDVDErrorInvalidBookmarkVersion'
+    'body': 'KDVDErrorInvalidBookmarkVersion'
+  'kDVDErrorInvalidRegionCode (-70020)':
+    'prefix': 'kDVDErrorInvalidRegionCode'
+    'body': 'KDVDErrorInvalidRegionCode'
+  'kDVDErrorIsAlreadySleeping (-70008)':
+    'prefix': 'kDVDErrorIsAlreadySleeping'
+    'body': 'KDVDErrorIsAlreadySleeping'
+  'kDVDErrorMismatchedRegionCode (-70022)':
+    'prefix': 'kDVDErrorMismatchedRegionCode'
+    'body': 'KDVDErrorMismatchedRegionCode'
+  'kDVDErrorMissingDrive (-70012)':
+    'prefix': 'kDVDErrorMissingDrive'
+    'body': 'KDVDErrorMissingDrive'
+  'kDVDErrorMissingGraphicsDevice (-70017)':
+    'prefix': 'kDVDErrorMissingGraphicsDevice'
+    'body': 'KDVDErrorMissingGraphicsDevice'
+  'kDVDErrorNavigation (-70029)':
+    'prefix': 'kDVDErrorNavigation'
+    'body': 'KDVDErrorNavigation'
+  'kDVDErrorNoAudioOutputDevice (-70027)':
+    'prefix': 'kDVDErrorNoAudioOutputDevice'
+    'body': 'KDVDErrorNoAudioOutputDevice'
+  'kDVDErrorNoFatalErrCallBack (-70007)':
+    'prefix': 'kDVDErrorNoFatalErrCallBack'
+    'body': 'KDVDErrorNoFatalErrCallBack'
+  'kDVDErrorNoMoreRegionSets (-70023)':
+    'prefix': 'kDVDErrorNoMoreRegionSets'
+    'body': 'KDVDErrorNoMoreRegionSets'
+  'kDVDErrorNoValidBookmarkForLastPlay (-70033)':
+    'prefix': 'kDVDErrorNoValidBookmarkForLastPlay'
+    'body': 'KDVDErrorNoValidBookmarkForLastPlay'
+  'kDVDErrorNoValidMedia (-70015)':
+    'prefix': 'kDVDErrorNoValidMedia'
+    'body': 'KDVDErrorNoValidMedia'
+  'kDVDErrorNotAllowedDuringPlayback (-70004)':
+    'prefix': 'kDVDErrorNotAllowedDuringPlayback'
+    'body': 'KDVDErrorNotAllowedDuringPlayback'
+  'kDVDErrorNotSupportedConfiguration (-70013)':
+    'prefix': 'kDVDErrorNotSupportedConfiguration'
+    'body': 'KDVDErrorNotSupportedConfiguration'
+  'kDVDErrorNotSupportedFunction (-70014)':
+    'prefix': 'kDVDErrorNotSupportedFunction'
+    'body': 'KDVDErrorNotSupportedFunction'
+  'kDVDErrorOutOfVideoMemory (-70026)':
+    'prefix': 'kDVDErrorOutOfVideoMemory'
+    'body': 'KDVDErrorOutOfVideoMemory'
+  'kDVDErrorPlaybackOpen (-70019)':
+    'prefix': 'kDVDErrorPlaybackOpen'
+    'body': 'KDVDErrorPlaybackOpen'
+  'kDVDErrorRgnMgrInstall (-70021)':
+    'prefix': 'kDVDErrorRgnMgrInstall'
+    'body': 'KDVDErrorRgnMgrInstall'
+  'kDVDErrorSystem (-70028)':
+    'prefix': 'kDVDErrorSystem'
+    'body': 'KDVDErrorSystem'
+  'kDVDErrorTimeOutOfRange (-70010)':
+    'prefix': 'kDVDErrorTimeOutOfRange'
+    'body': 'KDVDErrorTimeOutOfRange'
+  'kDVDErrorUnassignedGrafPort (-70005)':
+    'prefix': 'kDVDErrorUnassignedGrafPort'
+    'body': 'KDVDErrorUnassignedGrafPort'
+  'kDVDErrorUninitializedLib (-70003)':
+    'prefix': 'kDVDErrorUninitializedLib'
+    'body': 'KDVDErrorUninitializedLib'
+  'kDVDErrorUnknown (-70001)':
+    'prefix': 'kDVDErrorUnknown'
+    'body': 'KDVDErrorUnknown'
+  'kDVDErrorUserActionNoOp (-70011)':
+    'prefix': 'kDVDErrorUserActionNoOp'
+    'body': 'KDVDErrorUserActionNoOp'
+  'kDVDErrorWrongParam (-70016)':
+    'prefix': 'kDVDErrorWrongParam'
+    'body': 'KDVDErrorWrongParam'
+  'kDVDErrordRegionCodeUninitialized (-70024)':
+    'prefix': 'kDVDErrordRegionCodeUninitialized'
+    'body': 'KDVDErrordRegionCodeUninitialized'
+  'kDVDEventAngle (4)':
+    'prefix': 'kDVDEventAngle'
+    'body': 'KDVDEventAngle'
+  'kDVDEventAngleNumbers (23)':
+    'prefix': 'kDVDEventAngleNumbers'
+    'body': 'KDVDEventAngleNumbers'
+  'kDVDEventAudioStream (5)':
+    'prefix': 'kDVDEventAudioStream'
+    'body': 'KDVDEventAudioStream'
+  'kDVDEventAudioStreamNumbers (22)':
+    'prefix': 'kDVDEventAudioStreamNumbers'
+    'body': 'KDVDEventAudioStreamNumbers'
+  'kDVDEventBitrate (9)':
+    'prefix': 'kDVDEventBitrate'
+    'body': 'KDVDEventBitrate'
+  'kDVDEventCCInfo (25)':
+    'prefix': 'kDVDEventCCInfo'
+    'body': 'KDVDEventCCInfo'
+  'kDVDEventChapterTime (26)':
+    'prefix': 'kDVDEventChapterTime'
+    'body': 'KDVDEventChapterTime'
+  'kDVDEventDisplayMode (7)':
+    'prefix': 'kDVDEventDisplayMode'
+    'body': 'KDVDEventDisplayMode'
+  'kDVDEventDomain (8)':
+    'prefix': 'kDVDEventDomain'
+    'body': 'KDVDEventDomain'
+  'kDVDEventError (24)':
+    'prefix': 'kDVDEventError'
+    'body': 'KDVDEventError'
+  'kDVDEventGPRM (18)':
+    'prefix': 'kDVDEventGPRM'
+    'body': 'KDVDEventGPRM'
+  'kDVDEventMenuCalled (15)':
+    'prefix': 'kDVDEventMenuCalled'
+    'body': 'KDVDEventMenuCalled'
+  'kDVDEventPGC (17)':
+    'prefix': 'kDVDEventPGC'
+    'body': 'KDVDEventPGC'
+  'kDVDEventPTT (2)':
+    'prefix': 'kDVDEventPTT'
+    'body': 'KDVDEventPTT'
+  'kDVDEventParental (16)':
+    'prefix': 'kDVDEventParental'
+    'body': 'KDVDEventParental'
+  'kDVDEventPlayback (11)':
+    'prefix': 'kDVDEventPlayback'
+    'body': 'KDVDEventPlayback'
+  'kDVDEventRegionMismatch (19)':
+    'prefix': 'kDVDEventRegionMismatch'
+    'body': 'KDVDEventRegionMismatch'
+  'kDVDEventScanSpeed (14)':
+    'prefix': 'kDVDEventScanSpeed'
+    'body': 'KDVDEventScanSpeed'
+  'kDVDEventStill (10)':
+    'prefix': 'kDVDEventStill'
+    'body': 'KDVDEventStill'
+  'kDVDEventStreams (13)':
+    'prefix': 'kDVDEventStreams'
+    'body': 'KDVDEventStreams'
+  'kDVDEventSubpictureStream (6)':
+    'prefix': 'kDVDEventSubpictureStream'
+    'body': 'KDVDEventSubpictureStream'
+  'kDVDEventSubpictureStreamNumbers (21)':
+    'prefix': 'kDVDEventSubpictureStreamNumbers'
+    'body': 'KDVDEventSubpictureStreamNumbers'
+  'kDVDEventTitle (1)':
+    'prefix': 'kDVDEventTitle'
+    'body': 'KDVDEventTitle'
+  'kDVDEventTitleTime (20)':
+    'prefix': 'kDVDEventTitleTime'
+    'body': 'KDVDEventTitleTime'
+  'kDVDEventValidUOP (3)':
+    'prefix': 'kDVDEventValidUOP'
+    'body': 'KDVDEventValidUOP'
+  'kDVDEventVideoStandard (12)':
+    'prefix': 'kDVDEventVideoStandard'
+    'body': 'KDVDEventVideoStandard'
+  'kDVDFPDomain (0)':
+    'prefix': 'kDVDFPDomain'
+    'body': 'KDVDFPDomain'
+  'kDVDFormatNTSC (1)':
+    'prefix': 'kDVDFormatNTSC'
+    'body': 'KDVDFormatNTSC'
+  'kDVDFormatNTSC_HDTV (3)':
+    'prefix': 'kDVDFormatNTSC_HDTV'
+    'body': 'KDVDFormatNTSC_HDTV'
+  'kDVDFormatPAL (2)':
+    'prefix': 'kDVDFormatPAL'
+    'body': 'KDVDFormatPAL'
+  'kDVDFormatPAL_HDTV (4)':
+    'prefix': 'kDVDFormatPAL_HDTV'
+    'body': 'KDVDFormatPAL_HDTV'
+  'kDVDFormatUninitialized (0)':
+    'prefix': 'kDVDFormatUninitialized'
+    'body': 'KDVDFormatUninitialized'
+  'kDVDLanguageCodeAbkhazian (1633820704)':
+    'prefix': 'kDVDLanguageCodeAbkhazian'
+    'body': 'KDVDLanguageCodeAbkhazian'
+  'kDVDLanguageCodeAfar (1633755168)':
+    'prefix': 'kDVDLanguageCodeAfar'
+    'body': 'KDVDLanguageCodeAfar'
+  'kDVDLanguageCodeAfrikaans (1634082848)':
+    'prefix': 'kDVDLanguageCodeAfrikaans'
+    'body': 'KDVDLanguageCodeAfrikaans'
+  'kDVDLanguageCodeAlbanian (1936793632)':
+    'prefix': 'kDVDLanguageCodeAlbanian'
+    'body': 'KDVDLanguageCodeAlbanian'
+  'kDVDLanguageCodeAmharic (1634541600)':
+    'prefix': 'kDVDLanguageCodeAmharic'
+    'body': 'KDVDLanguageCodeAmharic'
+  'kDVDLanguageCodeArabic (1634869280)':
+    'prefix': 'kDVDLanguageCodeArabic'
+    'body': 'KDVDLanguageCodeArabic'
+  'kDVDLanguageCodeArmenian (1752768544)':
+    'prefix': 'kDVDLanguageCodeArmenian'
+    'body': 'KDVDLanguageCodeArmenian'
+  'kDVDLanguageCodeAssamese (1634934816)':
+    'prefix': 'kDVDLanguageCodeAssamese'
+    'body': 'KDVDLanguageCodeAssamese'
+  'kDVDLanguageCodeAymara (1635328032)':
+    'prefix': 'kDVDLanguageCodeAymara'
+    'body': 'KDVDLanguageCodeAymara'
+  'kDVDLanguageCodeAzerbaijani (1635393568)':
+    'prefix': 'kDVDLanguageCodeAzerbaijani'
+    'body': 'KDVDLanguageCodeAzerbaijani'
+  'kDVDLanguageCodeBashkir (1650532384)':
+    'prefix': 'kDVDLanguageCodeBashkir'
+    'body': 'KDVDLanguageCodeBashkir'
+  'kDVDLanguageCodeBasque (1702174752)':
+    'prefix': 'kDVDLanguageCodeBasque'
+    'body': 'KDVDLanguageCodeBasque'
+  'kDVDLanguageCodeBengali (1651384352)':
+    'prefix': 'kDVDLanguageCodeBengali'
+    'body': 'KDVDLanguageCodeBengali'
+  'kDVDLanguageCodeBhutani (1685725216)':
+    'prefix': 'kDVDLanguageCodeBhutani'
+    'body': 'KDVDLanguageCodeBhutani'
+  'kDVDLanguageCodeBihari (1650991136)':
+    'prefix': 'kDVDLanguageCodeBihari'
+    'body': 'KDVDLanguageCodeBihari'
+  'kDVDLanguageCodeBislama (1651056672)':
+    'prefix': 'kDVDLanguageCodeBislama'
+    'body': 'KDVDLanguageCodeBislama'
+  'kDVDLanguageCodeBreton (1651646496)':
+    'prefix': 'kDVDLanguageCodeBreton'
+    'body': 'KDVDLanguageCodeBreton'
+  'kDVDLanguageCodeBulgarian (1650925600)':
+    'prefix': 'kDVDLanguageCodeBulgarian'
+    'body': 'KDVDLanguageCodeBulgarian'
+  'kDVDLanguageCodeBurmese (1836654624)':
+    'prefix': 'kDVDLanguageCodeBurmese'
+    'body': 'KDVDLanguageCodeBurmese'
+  'kDVDLanguageCodeByelorussian (1650794528)':
+    'prefix': 'kDVDLanguageCodeByelorussian'
+    'body': 'KDVDLanguageCodeByelorussian'
+  'kDVDLanguageCodeCambodian (1802313760)':
+    'prefix': 'kDVDLanguageCodeCambodian'
+    'body': 'KDVDLanguageCodeCambodian'
+  'kDVDLanguageCodeCatalan (1667309600)':
+    'prefix': 'kDVDLanguageCodeCatalan'
+    'body': 'KDVDLanguageCodeCatalan'
+  'kDVDLanguageCodeChinese (2053644320)':
+    'prefix': 'kDVDLanguageCodeChinese'
+    'body': 'KDVDLanguageCodeChinese'
+  'kDVDLanguageCodeCorsican (1668227104)':
+    'prefix': 'kDVDLanguageCodeCorsican'
+    'body': 'KDVDLanguageCodeCorsican'
+  'kDVDLanguageCodeCroatian (1752309792)':
+    'prefix': 'kDVDLanguageCodeCroatian'
+    'body': 'KDVDLanguageCodeCroatian'
+  'kDVDLanguageCodeCzech (1668489248)':
+    'prefix': 'kDVDLanguageCodeCzech'
+    'body': 'KDVDLanguageCodeCzech'
+  'kDVDLanguageCodeDanish (1684086816)':
+    'prefix': 'kDVDLanguageCodeDanish'
+    'body': 'KDVDLanguageCodeDanish'
+  'kDVDLanguageCodeDutch (1852579872)':
+    'prefix': 'kDVDLanguageCodeDutch'
+    'body': 'KDVDLanguageCodeDutch'
+  'kDVDLanguageCodeEnglish (1701716000)':
+    'prefix': 'kDVDLanguageCodeEnglish'
+    'body': 'KDVDLanguageCodeEnglish'
+  'kDVDLanguageCodeEsperanto (1701781536)':
+    'prefix': 'kDVDLanguageCodeEsperanto'
+    'body': 'KDVDLanguageCodeEsperanto'
+  'kDVDLanguageCodeEstonian (1702109216)':
+    'prefix': 'kDVDLanguageCodeEstonian'
+    'body': 'KDVDLanguageCodeEstonian'
+  'kDVDLanguageCodeFaeroese (1718558752)':
+    'prefix': 'kDVDLanguageCodeFaeroese'
+    'body': 'KDVDLanguageCodeFaeroese'
+  'kDVDLanguageCodeFiji (1718231072)':
+    'prefix': 'kDVDLanguageCodeFiji'
+    'body': 'KDVDLanguageCodeFiji'
+  'kDVDLanguageCodeFinnish (1718165536)':
+    'prefix': 'kDVDLanguageCodeFinnish'
+    'body': 'KDVDLanguageCodeFinnish'
+  'kDVDLanguageCodeFrench (1718755360)':
+    'prefix': 'kDVDLanguageCodeFrench'
+    'body': 'KDVDLanguageCodeFrench'
+  'kDVDLanguageCodeFrisian (1719214112)':
+    'prefix': 'kDVDLanguageCodeFrisian'
+    'body': 'KDVDLanguageCodeFrisian'
+  'kDVDLanguageCodeGalician (1735139360)':
+    'prefix': 'kDVDLanguageCodeGalician'
+    'body': 'KDVDLanguageCodeGalician'
+  'kDVDLanguageCodeGeorgian (1801527328)':
+    'prefix': 'kDVDLanguageCodeGeorgian'
+    'body': 'KDVDLanguageCodeGeorgian'
+  'kDVDLanguageCodeGerman (1684348960)':
+    'prefix': 'kDVDLanguageCodeGerman'
+    'body': 'KDVDLanguageCodeGerman'
+  'kDVDLanguageCodeGreek (1701584928)':
+    'prefix': 'kDVDLanguageCodeGreek'
+    'body': 'KDVDLanguageCodeGreek'
+  'kDVDLanguageCodeGreenlandic (1802248224)':
+    'prefix': 'kDVDLanguageCodeGreenlandic'
+    'body': 'KDVDLanguageCodeGreenlandic'
+  'kDVDLanguageCodeGuarani (1735270432)':
+    'prefix': 'kDVDLanguageCodeGuarani'
+    'body': 'KDVDLanguageCodeGuarani'
+  'kDVDLanguageCodeGujarati (1735729184)':
+    'prefix': 'kDVDLanguageCodeGujarati'
+    'body': 'KDVDLanguageCodeGujarati'
+  'kDVDLanguageCodeHausa (1751195680)':
+    'prefix': 'kDVDLanguageCodeHausa'
+    'body': 'KDVDLanguageCodeHausa'
+  'kDVDLanguageCodeHebrew (1769414688)':
+    'prefix': 'kDVDLanguageCodeHebrew'
+    'body': 'KDVDLanguageCodeHebrew'
+  'kDVDLanguageCodeHindi (1751719968)':
+    'prefix': 'kDVDLanguageCodeHindi'
+    'body': 'KDVDLanguageCodeHindi'
+  'kDVDLanguageCodeHungarian (1752506400)':
+    'prefix': 'kDVDLanguageCodeHungarian'
+    'body': 'KDVDLanguageCodeHungarian'
+  'kDVDLanguageCodeIcelandic (1769152544)':
+    'prefix': 'kDVDLanguageCodeIcelandic'
+    'body': 'KDVDLanguageCodeIcelandic'
+  'kDVDLanguageCodeIndonesian (1768824864)':
+    'prefix': 'kDVDLanguageCodeIndonesian'
+    'body': 'KDVDLanguageCodeIndonesian'
+  'kDVDLanguageCodeInterlingua (1767972896)':
+    'prefix': 'kDVDLanguageCodeInterlingua'
+    'body': 'KDVDLanguageCodeInterlingua'
+  'kDVDLanguageCodeInterlingue (1768235040)':
+    'prefix': 'kDVDLanguageCodeInterlingue'
+    'body': 'KDVDLanguageCodeInterlingue'
+  'kDVDLanguageCodeInupiak (1768628256)':
+    'prefix': 'kDVDLanguageCodeInupiak'
+    'body': 'KDVDLanguageCodeInupiak'
+  'kDVDLanguageCodeIrish (1734418464)':
+    'prefix': 'kDVDLanguageCodeIrish'
+    'body': 'KDVDLanguageCodeIrish'
+  'kDVDLanguageCodeItalian (1769218080)':
+    'prefix': 'kDVDLanguageCodeItalian'
+    'body': 'KDVDLanguageCodeItalian'
+  'kDVDLanguageCodeJapanese (1784750112)':
+    'prefix': 'kDVDLanguageCodeJapanese'
+    'body': 'KDVDLanguageCodeJapanese'
+  'kDVDLanguageCodeJavanese (1786191904)':
+    'prefix': 'kDVDLanguageCodeJavanese'
+    'body': 'KDVDLanguageCodeJavanese'
+  'kDVDLanguageCodeKannada (1802379296)':
+    'prefix': 'kDVDLanguageCodeKannada'
+    'body': 'KDVDLanguageCodeKannada'
+  'kDVDLanguageCodeKashmiri (1802706976)':
+    'prefix': 'kDVDLanguageCodeKashmiri'
+    'body': 'KDVDLanguageCodeKashmiri'
+  'kDVDLanguageCodeKazakh (1802182688)':
+    'prefix': 'kDVDLanguageCodeKazakh'
+    'body': 'KDVDLanguageCodeKazakh'
+  'kDVDLanguageCodeKinyarwanda (1920409632)':
+    'prefix': 'kDVDLanguageCodeKinyarwanda'
+    'body': 'KDVDLanguageCodeKinyarwanda'
+  'kDVDLanguageCodeKirghiz (1803100192)':
+    'prefix': 'kDVDLanguageCodeKirghiz'
+    'body': 'KDVDLanguageCodeKirghiz'
+  'kDVDLanguageCodeKirundi (1919819808)':
+    'prefix': 'kDVDLanguageCodeKirundi'
+    'body': 'KDVDLanguageCodeKirundi'
+  'kDVDLanguageCodeKorean (1802444832)':
+    'prefix': 'kDVDLanguageCodeKorean'
+    'body': 'KDVDLanguageCodeKorean'
+  'kDVDLanguageCodeKurdish (1802838048)':
+    'prefix': 'kDVDLanguageCodeKurdish'
+    'body': 'KDVDLanguageCodeKurdish'
+  'kDVDLanguageCodeLaothian (1819222048)':
+    'prefix': 'kDVDLanguageCodeLaothian'
+    'body': 'KDVDLanguageCodeLaothian'
+  'kDVDLanguageCodeLatin (1818304544)':
+    'prefix': 'kDVDLanguageCodeLatin'
+    'body': 'KDVDLanguageCodeLatin'
+  'kDVDLanguageCodeLatvian (1819680800)':
+    'prefix': 'kDVDLanguageCodeLatvian'
+    'body': 'KDVDLanguageCodeLatvian'
+  'kDVDLanguageCodeLingala (1819156512)':
+    'prefix': 'kDVDLanguageCodeLingala'
+    'body': 'KDVDLanguageCodeLingala'
+  'kDVDLanguageCodeLithuanian (1819549728)':
+    'prefix': 'kDVDLanguageCodeLithuanian'
+    'body': 'KDVDLanguageCodeLithuanian'
+  'kDVDLanguageCodeMacedonian (1835737120)':
+    'prefix': 'kDVDLanguageCodeMacedonian'
+    'body': 'KDVDLanguageCodeMacedonian'
+  'kDVDLanguageCodeMalagasy (1835474976)':
+    'prefix': 'kDVDLanguageCodeMalagasy'
+    'body': 'KDVDLanguageCodeMalagasy'
+  'kDVDLanguageCodeMalay (1836261408)':
+    'prefix': 'kDVDLanguageCodeMalay'
+    'body': 'KDVDLanguageCodeMalay'
+  'kDVDLanguageCodeMalayalam (1835802656)':
+    'prefix': 'kDVDLanguageCodeMalayalam'
+    'body': 'KDVDLanguageCodeMalayalam'
+  'kDVDLanguageCodeMaltese (1836326944)':
+    'prefix': 'kDVDLanguageCodeMaltese'
+    'body': 'KDVDLanguageCodeMaltese'
+  'kDVDLanguageCodeMaori (1835606048)':
+    'prefix': 'kDVDLanguageCodeMaori'
+    'body': 'KDVDLanguageCodeMaori'
+  'kDVDLanguageCodeMarathi (1836195872)':
+    'prefix': 'kDVDLanguageCodeMarathi'
+    'body': 'KDVDLanguageCodeMarathi'
+  'kDVDLanguageCodeMoldavian (1835999264)':
+    'prefix': 'kDVDLanguageCodeMoldavian'
+    'body': 'KDVDLanguageCodeMoldavian'
+  'kDVDLanguageCodeMongolian (1835933728)':
+    'prefix': 'kDVDLanguageCodeMongolian'
+    'body': 'KDVDLanguageCodeMongolian'
+  'kDVDLanguageCodeNauru (1851858976)':
+    'prefix': 'kDVDLanguageCodeNauru'
+    'body': 'KDVDLanguageCodeNauru'
+  'kDVDLanguageCodeNepali (1852121120)':
+    'prefix': 'kDVDLanguageCodeNepali'
+    'body': 'KDVDLanguageCodeNepali'
+  'kDVDLanguageCodeNone (808460320)':
+    'prefix': 'kDVDLanguageCodeNone'
+    'body': 'KDVDLanguageCodeNone'
+  'kDVDLanguageCodeNorwegian (1852776480)':
+    'prefix': 'kDVDLanguageCodeNorwegian'
+    'body': 'KDVDLanguageCodeNorwegian'
+  'kDVDLanguageCodeOccitan (1868767264)':
+    'prefix': 'kDVDLanguageCodeOccitan'
+    'body': 'KDVDLanguageCodeOccitan'
+  'kDVDLanguageCodeOriya (1869750304)':
+    'prefix': 'kDVDLanguageCodeOriya'
+    'body': 'KDVDLanguageCodeOriya'
+  'kDVDLanguageCodeOromo (1869422624)':
+    'prefix': 'kDVDLanguageCodeOromo'
+    'body': 'KDVDLanguageCodeOromo'
+  'kDVDLanguageCodePashto (1886593056)':
+    'prefix': 'kDVDLanguageCodePashto'
+    'body': 'KDVDLanguageCodePashto'
+  'kDVDLanguageCodePersian (1717641248)':
+    'prefix': 'kDVDLanguageCodePersian'
+    'body': 'KDVDLanguageCodePersian'
+  'kDVDLanguageCodePolish (1886134304)':
+    'prefix': 'kDVDLanguageCodePolish'
+    'body': 'KDVDLanguageCodePolish'
+  'kDVDLanguageCodePortugese (1886658592)':
+    'prefix': 'kDVDLanguageCodePortugese'
+    'body': 'KDVDLanguageCodePortugese'
+  'kDVDLanguageCodePunjabi (1885413408)':
+    'prefix': 'kDVDLanguageCodePunjabi'
+    'body': 'KDVDLanguageCodePunjabi'
+  'kDVDLanguageCodeQuechua (1903501344)':
+    'prefix': 'kDVDLanguageCodeQuechua'
+    'body': 'KDVDLanguageCodeQuechua'
+  'kDVDLanguageCodeRhaetoRomance (1919754272)':
+    'prefix': 'kDVDLanguageCodeRhaetoRomance'
+    'body': 'KDVDLanguageCodeRhaetoRomance'
+  'kDVDLanguageCodeRomanian (1919885344)':
+    'prefix': 'kDVDLanguageCodeRomanian'
+    'body': 'KDVDLanguageCodeRomanian'
+  'kDVDLanguageCodeRussian (1920278560)':
+    'prefix': 'kDVDLanguageCodeRussian'
+    'body': 'KDVDLanguageCodeRussian'
+  'kDVDLanguageCodeSamoan (1936531488)':
+    'prefix': 'kDVDLanguageCodeSamoan'
+    'body': 'KDVDLanguageCodeSamoan'
+  'kDVDLanguageCodeSangro (1936138272)':
+    'prefix': 'kDVDLanguageCodeSangro'
+    'body': 'KDVDLanguageCodeSangro'
+  'kDVDLanguageCodeSanskrit (1935745056)':
+    'prefix': 'kDVDLanguageCodeSanskrit'
+    'body': 'KDVDLanguageCodeSanskrit'
+  'kDVDLanguageCodeScotsGaelic (1734615072)':
+    'prefix': 'kDVDLanguageCodeScotsGaelic'
+    'body': 'KDVDLanguageCodeScotsGaelic'
+  'kDVDLanguageCodeSerbian (1936859168)':
+    'prefix': 'kDVDLanguageCodeSerbian'
+    'body': 'KDVDLanguageCodeSerbian'
+  'kDVDLanguageCodeSerboCroatian (1936203808)':
+    'prefix': 'kDVDLanguageCodeSerboCroatian'
+    'body': 'KDVDLanguageCodeSerboCroatian'
+  'kDVDLanguageCodeSesotho (1936990240)':
+    'prefix': 'kDVDLanguageCodeSesotho'
+    'body': 'KDVDLanguageCodeSesotho'
+  'kDVDLanguageCodeSetswana (1953374240)':
+    'prefix': 'kDVDLanguageCodeSetswana'
+    'body': 'KDVDLanguageCodeSetswana'
+  'kDVDLanguageCodeShona (1936597024)':
+    'prefix': 'kDVDLanguageCodeShona'
+    'body': 'KDVDLanguageCodeShona'
+  'kDVDLanguageCodeSindhi (1935941664)':
+    'prefix': 'kDVDLanguageCodeSindhi'
+    'body': 'KDVDLanguageCodeSindhi'
+  'kDVDLanguageCodeSinghalese (1936269344)':
+    'prefix': 'kDVDLanguageCodeSinghalese'
+    'body': 'KDVDLanguageCodeSinghalese'
+  'kDVDLanguageCodeSiswati (1936924704)':
+    'prefix': 'kDVDLanguageCodeSiswati'
+    'body': 'KDVDLanguageCodeSiswati'
+  'kDVDLanguageCodeSlovak (1936400416)':
+    'prefix': 'kDVDLanguageCodeSlovak'
+    'body': 'KDVDLanguageCodeSlovak'
+  'kDVDLanguageCodeSlovenian (1936465952)':
+    'prefix': 'kDVDLanguageCodeSlovenian'
+    'body': 'KDVDLanguageCodeSlovenian'
+  'kDVDLanguageCodeSomali (1936662560)':
+    'prefix': 'kDVDLanguageCodeSomali'
+    'body': 'KDVDLanguageCodeSomali'
+  'kDVDLanguageCodeSpanish (1702043680)':
+    'prefix': 'kDVDLanguageCodeSpanish'
+    'body': 'KDVDLanguageCodeSpanish'
+  'kDVDLanguageCodeSudanese (1937055776)':
+    'prefix': 'kDVDLanguageCodeSudanese'
+    'body': 'KDVDLanguageCodeSudanese'
+  'kDVDLanguageCodeSwahili (1937186848)':
+    'prefix': 'kDVDLanguageCodeSwahili'
+    'body': 'KDVDLanguageCodeSwahili'
+  'kDVDLanguageCodeSwedish (1937121312)':
+    'prefix': 'kDVDLanguageCodeSwedish'
+    'body': 'KDVDLanguageCodeSwedish'
+  'kDVDLanguageCodeTagalog (1953243168)':
+    'prefix': 'kDVDLanguageCodeTagalog'
+    'body': 'KDVDLanguageCodeTagalog'
+  'kDVDLanguageCodeTajik (1952915488)':
+    'prefix': 'kDVDLanguageCodeTajik'
+    'body': 'KDVDLanguageCodeTajik'
+  'kDVDLanguageCodeTamil (1952522272)':
+    'prefix': 'kDVDLanguageCodeTamil'
+    'body': 'KDVDLanguageCodeTamil'
+  'kDVDLanguageCodeTatar (1953767456)':
+    'prefix': 'kDVDLanguageCodeTatar'
+    'body': 'KDVDLanguageCodeTatar'
+  'kDVDLanguageCodeTelugu (1952784416)':
+    'prefix': 'kDVDLanguageCodeTelugu'
+    'body': 'KDVDLanguageCodeTelugu'
+  'kDVDLanguageCodeThai (1952981024)':
+    'prefix': 'kDVDLanguageCodeThai'
+    'body': 'KDVDLanguageCodeThai'
+  'kDVDLanguageCodeTibetan (1651449888)':
+    'prefix': 'kDVDLanguageCodeTibetan'
+    'body': 'KDVDLanguageCodeTibetan'
+  'kDVDLanguageCodeTigrinya (1953046560)':
+    'prefix': 'kDVDLanguageCodeTigrinya'
+    'body': 'KDVDLanguageCodeTigrinya'
+  'kDVDLanguageCodeTonga (1953439776)':
+    'prefix': 'kDVDLanguageCodeTonga'
+    'body': 'KDVDLanguageCodeTonga'
+  'kDVDLanguageCodeTsonga (1953701920)':
+    'prefix': 'kDVDLanguageCodeTsonga'
+    'body': 'KDVDLanguageCodeTsonga'
+  'kDVDLanguageCodeTurkish (1953636384)':
+    'prefix': 'kDVDLanguageCodeTurkish'
+    'body': 'KDVDLanguageCodeTurkish'
+  'kDVDLanguageCodeTurkmen (1953177632)':
+    'prefix': 'kDVDLanguageCodeTurkmen'
+    'body': 'KDVDLanguageCodeTurkmen'
+  'kDVDLanguageCodeTwi (1953964064)':
+    'prefix': 'kDVDLanguageCodeTwi'
+    'body': 'KDVDLanguageCodeTwi'
+  'kDVDLanguageCodeUkranian (1969954848)':
+    'prefix': 'kDVDLanguageCodeUkranian'
+    'body': 'KDVDLanguageCodeUkranian'
+  'kDVDLanguageCodeUninitialized (1061101600)':
+    'prefix': 'kDVDLanguageCodeUninitialized'
+    'body': 'KDVDLanguageCodeUninitialized'
+  'kDVDLanguageCodeUrdu (1970413600)':
+    'prefix': 'kDVDLanguageCodeUrdu'
+    'body': 'KDVDLanguageCodeUrdu'
+  'kDVDLanguageCodeUzbek (1970937888)':
+    'prefix': 'kDVDLanguageCodeUzbek'
+    'body': 'KDVDLanguageCodeUzbek'
+  'kDVDLanguageCodeVietnamese (1986600992)':
+    'prefix': 'kDVDLanguageCodeVietnamese'
+    'body': 'KDVDLanguageCodeVietnamese'
+  'kDVDLanguageCodeVolapuk (1986994208)':
+    'prefix': 'kDVDLanguageCodeVolapuk'
+    'body': 'KDVDLanguageCodeVolapuk'
+  'kDVDLanguageCodeWelsh (1668882464)':
+    'prefix': 'kDVDLanguageCodeWelsh'
+    'body': 'KDVDLanguageCodeWelsh'
+  'kDVDLanguageCodeWolof (2003771424)':
+    'prefix': 'kDVDLanguageCodeWolof'
+    'body': 'KDVDLanguageCodeWolof'
+  'kDVDLanguageCodeXhosa (2020089888)':
+    'prefix': 'kDVDLanguageCodeXhosa'
+    'body': 'KDVDLanguageCodeXhosa'
+  'kDVDLanguageCodeYiddish (1785274400)':
+    'prefix': 'kDVDLanguageCodeYiddish'
+    'body': 'KDVDLanguageCodeYiddish'
+  'kDVDLanguageCodeYoruba (2037325856)':
+    'prefix': 'kDVDLanguageCodeYoruba'
+    'body': 'KDVDLanguageCodeYoruba'
+  'kDVDLanguageCodeZulu (2054496288)':
+    'prefix': 'kDVDLanguageCodeZulu'
+    'body': 'KDVDLanguageCodeZulu'
+  'kDVDLanguageNoPreference (707403808)':
+    'prefix': 'kDVDLanguageNoPreference'
+    'body': 'KDVDLanguageNoPreference'
+  'kDVDMenuAngle (4)':
+    'prefix': 'kDVDMenuAngle'
+    'body': 'KDVDMenuAngle'
+  'kDVDMenuAudio (3)':
+    'prefix': 'kDVDMenuAudio'
+    'body': 'KDVDMenuAudio'
+  'kDVDMenuNone (6)':
+    'prefix': 'kDVDMenuNone'
+    'body': 'KDVDMenuNone'
+  'kDVDMenuPTT (5)':
+    'prefix': 'kDVDMenuPTT'
+    'body': 'KDVDMenuPTT'
+  'kDVDMenuRoot (1)':
+    'prefix': 'kDVDMenuRoot'
+    'body': 'KDVDMenuRoot'
+  'kDVDMenuSubPicture (2)':
+    'prefix': 'kDVDMenuSubPicture'
+    'body': 'KDVDMenuSubPicture'
+  'kDVDMenuTitle (0)':
+    'prefix': 'kDVDMenuTitle'
+    'body': 'KDVDMenuTitle'
+  'kDVDRegionCode1 (254)':
+    'prefix': 'kDVDRegionCode1'
+    'body': 'KDVDRegionCode1'
+  'kDVDRegionCode2 (253)':
+    'prefix': 'kDVDRegionCode2'
+    'body': 'KDVDRegionCode2'
+  'kDVDRegionCode3 (251)':
+    'prefix': 'kDVDRegionCode3'
+    'body': 'KDVDRegionCode3'
+  'kDVDRegionCode4 (247)':
+    'prefix': 'kDVDRegionCode4'
+    'body': 'KDVDRegionCode4'
+  'kDVDRegionCode5 (239)':
+    'prefix': 'kDVDRegionCode5'
+    'body': 'KDVDRegionCode5'
+  'kDVDRegionCode6 (223)':
+    'prefix': 'kDVDRegionCode6'
+    'body': 'KDVDRegionCode6'
+  'kDVDRegionCode7 (191)':
+    'prefix': 'kDVDRegionCode7'
+    'body': 'KDVDRegionCode7'
+  'kDVDRegionCode8 (127)':
+    'prefix': 'kDVDRegionCode8'
+    'body': 'KDVDRegionCode8'
+  'kDVDRegionCodeUninitialized (255)':
+    'prefix': 'kDVDRegionCodeUninitialized'
+    'body': 'KDVDRegionCodeUninitialized'
+  'kDVDSTOPDomain (4)':
+    'prefix': 'kDVDSTOPDomain'
+    'body': 'KDVDSTOPDomain'
+  'kDVDScanDirectionBackward (1)':
+    'prefix': 'kDVDScanDirectionBackward'
+    'body': 'KDVDScanDirectionBackward'
+  'kDVDScanDirectionForward (0)':
+    'prefix': 'kDVDScanDirectionForward'
+    'body': 'KDVDScanDirectionForward'
+  'kDVDScanRate16x (16)':
+    'prefix': 'kDVDScanRate16x'
+    'body': 'KDVDScanRate16x'
+  'kDVDScanRate1x (1)':
+    'prefix': 'kDVDScanRate1x'
+    'body': 'KDVDScanRate1x'
+  'kDVDScanRate2x (2)':
+    'prefix': 'kDVDScanRate2x'
+    'body': 'KDVDScanRate2x'
+  'kDVDScanRate32x (32)':
+    'prefix': 'kDVDScanRate32x'
+    'body': 'KDVDScanRate32x'
+  'kDVDScanRate4x (4)':
+    'prefix': 'kDVDScanRate4x'
+    'body': 'KDVDScanRate4x'
+  'kDVDScanRate8x (8)':
+    'prefix': 'kDVDScanRate8x'
+    'body': 'KDVDScanRate8x'
+  'kDVDScanRateOneEigth (-8)':
+    'prefix': 'kDVDScanRateOneEigth'
+    'body': 'KDVDScanRateOneEigth'
+  'kDVDScanRateOneFourth (-4)':
+    'prefix': 'kDVDScanRateOneFourth'
+    'body': 'KDVDScanRateOneFourth'
+  'kDVDScanRateOneHalf (-2)':
+    'prefix': 'kDVDScanRateOneHalf'
+    'body': 'KDVDScanRateOneHalf'
+  'kDVDStateIdle (6)':
+    'prefix': 'kDVDStateIdle'
+    'body': 'KDVDStateIdle'
+  'kDVDStatePaused (3)':
+    'prefix': 'kDVDStatePaused'
+    'body': 'KDVDStatePaused'
+  'kDVDStatePlaying (1)':
+    'prefix': 'kDVDStatePlaying'
+    'body': 'KDVDStatePlaying'
+  'kDVDStatePlayingSlow (7)':
+    'prefix': 'kDVDStatePlayingSlow'
+    'body': 'KDVDStatePlayingSlow'
+  'kDVDStatePlayingStill (2)':
+    'prefix': 'kDVDStatePlayingStill'
+    'body': 'KDVDStatePlayingStill'
+  'kDVDStateScanning (5)':
+    'prefix': 'kDVDStateScanning'
+    'body': 'KDVDStateScanning'
+  'kDVDStateStopped (4)':
+    'prefix': 'kDVDStateStopped'
+    'body': 'KDVDStateStopped'
+  'kDVDStateUnknown (0)':
+    'prefix': 'kDVDStateUnknown'
+    'body': 'KDVDStateUnknown'
+  'kDVDSubpictureExtensionCodeCaption4Children (3)':
+    'prefix': 'kDVDSubpictureExtensionCodeCaption4Children'
+    'body': 'KDVDSubpictureExtensionCodeCaption4Children'
+  'kDVDSubpictureExtensionCodeCaptionBiggerSize (2)':
+    'prefix': 'kDVDSubpictureExtensionCodeCaptionBiggerSize'
+    'body': 'KDVDSubpictureExtensionCodeCaptionBiggerSize'
+  'kDVDSubpictureExtensionCodeCaptionNormalSize (1)':
+    'prefix': 'kDVDSubpictureExtensionCodeCaptionNormalSize'
+    'body': 'KDVDSubpictureExtensionCodeCaptionNormalSize'
+  'kDVDSubpictureExtensionCodeClosedCaption4Children (7)':
+    'prefix': 'kDVDSubpictureExtensionCodeClosedCaption4Children'
+    'body': 'KDVDSubpictureExtensionCodeClosedCaption4Children'
+  'kDVDSubpictureExtensionCodeClosedCaptionBiggerSize (6)':
+    'prefix': 'kDVDSubpictureExtensionCodeClosedCaptionBiggerSize'
+    'body': 'KDVDSubpictureExtensionCodeClosedCaptionBiggerSize'
+  'kDVDSubpictureExtensionCodeClosedCaptionNormalSize (5)':
+    'prefix': 'kDVDSubpictureExtensionCodeClosedCaptionNormalSize'
+    'body': 'KDVDSubpictureExtensionCodeClosedCaptionNormalSize'
+  'kDVDSubpictureExtensionCodeForcedCaption (9)':
+    'prefix': 'kDVDSubpictureExtensionCodeForcedCaption'
+    'body': 'KDVDSubpictureExtensionCodeForcedCaption'
+  'kDVDSubpictureExtensionCodeNotSpecified (0)':
+    'prefix': 'kDVDSubpictureExtensionCodeNotSpecified'
+    'body': 'KDVDSubpictureExtensionCodeNotSpecified'
+  'kDVDSubpictureExtensionDirectorsComment4Children (15)':
+    'prefix': 'kDVDSubpictureExtensionDirectorsComment4Children'
+    'body': 'KDVDSubpictureExtensionDirectorsComment4Children'
+  'kDVDSubpictureExtensionDirectorsCommentBiggerSize (14)':
+    'prefix': 'kDVDSubpictureExtensionDirectorsCommentBiggerSize'
+    'body': 'KDVDSubpictureExtensionDirectorsCommentBiggerSize'
+  'kDVDSubpictureExtensionDirectorsCommentNormalSize (13)':
+    'prefix': 'kDVDSubpictureExtensionDirectorsCommentNormalSize'
+    'body': 'KDVDSubpictureExtensionDirectorsCommentNormalSize'
+  'kDVDTTDomain (3)':
+    'prefix': 'kDVDTTDomain'
+    'body': 'KDVDTTDomain'
+  'kDVDTTGRDomain (6)':
+    'prefix': 'kDVDTTGRDomain'
+    'body': 'KDVDTTGRDomain'
+  'kDVDTimeCodeChapterDurationSeconds (6)':
+    'prefix': 'kDVDTimeCodeChapterDurationSeconds'
+    'body': 'KDVDTimeCodeChapterDurationSeconds'
+  'kDVDTimeCodeChapterElapsedSeconds (4)':
+    'prefix': 'kDVDTimeCodeChapterElapsedSeconds'
+    'body': 'KDVDTimeCodeChapterElapsedSeconds'
+  'kDVDTimeCodeChapterRemainingSeconds (5)':
+    'prefix': 'kDVDTimeCodeChapterRemainingSeconds'
+    'body': 'KDVDTimeCodeChapterRemainingSeconds'
+  'kDVDTimeCodeElapsedSeconds (1)':
+    'prefix': 'kDVDTimeCodeElapsedSeconds'
+    'body': 'KDVDTimeCodeElapsedSeconds'
+  'kDVDTimeCodeRemainingSeconds (2)':
+    'prefix': 'kDVDTimeCodeRemainingSeconds'
+    'body': 'KDVDTimeCodeRemainingSeconds'
+  'kDVDTimeCodeTitleDurationSeconds (3)':
+    'prefix': 'kDVDTimeCodeTitleDurationSeconds'
+    'body': 'KDVDTimeCodeTitleDurationSeconds'
+  'kDVDTimeCodeUninitialized (0)':
+    'prefix': 'kDVDTimeCodeUninitialized'
+    'body': 'KDVDTimeCodeUninitialized'
+  'kDVDUOPAngleChange (4194304)':
+    'prefix': 'kDVDUOPAngleChange'
+    'body': 'KDVDUOPAngleChange'
+  'kDVDUOPAudioStreamChange (1048576)':
+    'prefix': 'kDVDUOPAudioStreamChange'
+    'body': 'KDVDUOPAudioStreamChange'
+  'kDVDUOPBackwardScan (512)':
+    'prefix': 'kDVDUOPBackwardScan'
+    'body': 'KDVDUOPBackwardScan'
+  'kDVDUOPButton (131072)':
+    'prefix': 'kDVDUOPButton'
+    'body': 'KDVDUOPButton'
+  'kDVDUOPForwardScan (256)':
+    'prefix': 'kDVDUOPForwardScan'
+    'body': 'KDVDUOPForwardScan'
+  'kDVDUOPGoUp (16)':
+    'prefix': 'kDVDUOPGoUp'
+    'body': 'KDVDUOPGoUp'
+  'kDVDUOPKaraokeModeChange (8388608)':
+    'prefix': 'kDVDUOPKaraokeModeChange'
+    'body': 'KDVDUOPKaraokeModeChange'
+  'kDVDUOPMenuCallAngle (16384)':
+    'prefix': 'kDVDUOPMenuCallAngle'
+    'body': 'KDVDUOPMenuCallAngle'
+  'kDVDUOPMenuCallAudio (8192)':
+    'prefix': 'kDVDUOPMenuCallAudio'
+    'body': 'KDVDUOPMenuCallAudio'
+  'kDVDUOPMenuCallPTT (32768)':
+    'prefix': 'kDVDUOPMenuCallPTT'
+    'body': 'KDVDUOPMenuCallPTT'
+  'kDVDUOPMenuCallRoot (2048)':
+    'prefix': 'kDVDUOPMenuCallRoot'
+    'body': 'KDVDUOPMenuCallRoot'
+  'kDVDUOPMenuCallSubPicture (4096)':
+    'prefix': 'kDVDUOPMenuCallSubPicture'
+    'body': 'KDVDUOPMenuCallSubPicture'
+  'kDVDUOPMenuCallTitle (1024)':
+    'prefix': 'kDVDUOPMenuCallTitle'
+    'body': 'KDVDUOPMenuCallTitle'
+  'kDVDUOPNextPGSearch (128)':
+    'prefix': 'kDVDUOPNextPGSearch'
+    'body': 'KDVDUOPNextPGSearch'
+  'kDVDUOPPTTPlaySearch (2)':
+    'prefix': 'kDVDUOPPTTPlaySearch'
+    'body': 'KDVDUOPPTTPlaySearch'
+  'kDVDUOPPauseOff (67108864)':
+    'prefix': 'kDVDUOPPauseOff'
+    'body': 'KDVDUOPPauseOff'
+  'kDVDUOPPauseOn (524288)':
+    'prefix': 'kDVDUOPPauseOn'
+    'body': 'KDVDUOPPauseOn'
+  'kDVDUOPPrevTopPGSearch (64)':
+    'prefix': 'kDVDUOPPrevTopPGSearch'
+    'body': 'KDVDUOPPrevTopPGSearch'
+  'kDVDUOPResume (65536)':
+    'prefix': 'kDVDUOPResume'
+    'body': 'KDVDUOPResume'
+  'kDVDUOPScanOff (33554432)':
+    'prefix': 'kDVDUOPScanOff'
+    'body': 'KDVDUOPScanOff'
+  'kDVDUOPStillOff (262144)':
+    'prefix': 'kDVDUOPStillOff'
+    'body': 'KDVDUOPStillOff'
+  'kDVDUOPStop (8)':
+    'prefix': 'kDVDUOPStop'
+    'body': 'KDVDUOPStop'
+  'kDVDUOPSubPictureStreamChange (2097152)':
+    'prefix': 'kDVDUOPSubPictureStreamChange'
+    'body': 'KDVDUOPSubPictureStreamChange'
+  'kDVDUOPTimePTTSearch (32)':
+    'prefix': 'kDVDUOPTimePTTSearch'
+    'body': 'KDVDUOPTimePTTSearch'
+  'kDVDUOPTimePlaySearch (1)':
+    'prefix': 'kDVDUOPTimePlaySearch'
+    'body': 'KDVDUOPTimePlaySearch'
+  'kDVDUOPTitlePlay (4)':
+    'prefix': 'kDVDUOPTitlePlay'
+    'body': 'KDVDUOPTitlePlay'
+  'kDVDUOPVideoModeChange (16777216)':
+    'prefix': 'kDVDUOPVideoModeChange'
+    'body': 'KDVDUOPVideoModeChange'
+  'kDVDUserNavigationEnter (5)':
+    'prefix': 'kDVDUserNavigationEnter'
+    'body': 'KDVDUserNavigationEnter'
+  'kDVDUserNavigationMoveDown (2)':
+    'prefix': 'kDVDUserNavigationMoveDown'
+    'body': 'KDVDUserNavigationMoveDown'
+  'kDVDUserNavigationMoveLeft (3)':
+    'prefix': 'kDVDUserNavigationMoveLeft'
+    'body': 'KDVDUserNavigationMoveLeft'
+  'kDVDUserNavigationMoveRight (4)':
+    'prefix': 'kDVDUserNavigationMoveRight'
+    'body': 'KDVDUserNavigationMoveRight'
+  'kDVDUserNavigationMoveUp (1)':
+    'prefix': 'kDVDUserNavigationMoveUp'
+    'body': 'KDVDUserNavigationMoveUp'
+  'kDVDVMGMDomain (1)':
+    'prefix': 'kDVDVMGMDomain'
+    'body': 'KDVDVMGMDomain'
+  'kDVDVTSMDomain (2)':
+    'prefix': 'kDVDVTSMDomain'
+    'body': 'KDVDVTSMDomain'
+  'DVDClearLastPlayBookmark':
+    'prefix': 'DVDClearLastPlayBookmark'
+    'body': 'DVDClearLastPlayBookmark()'
+  'DVDCloseMediaFile':
+    'prefix': 'DVDCloseMediaFile'
+    'body': 'DVDCloseMediaFile()'
+  'DVDCloseMediaVolume':
+    'prefix': 'DVDCloseMediaVolume'
+    'body': 'DVDCloseMediaVolume()'
+  'DVDDisplaySubPicture':
+    'prefix': 'DVDDisplaySubPicture'
+    'body': 'DVDDisplaySubPicture(${1:Boolean inDisplay})'
+  'DVDDispose':
+    'prefix': 'DVDDispose'
+    'body': 'DVDDispose()'
+  'DVDDoButtonActivate':
+    'prefix': 'DVDDoButtonActivate'
+    'body': 'DVDDoButtonActivate(${1:SInt32 inIndex})'
+  'DVDDoMenuCGClick':
+    'prefix': 'DVDDoMenuCGClick'
+    'body': 'DVDDoMenuCGClick(${1:CGPoint* inPt}, ${2:SInt32* outIndex})'
+  'DVDDoMenuCGMouseOver':
+    'prefix': 'DVDDoMenuCGMouseOver'
+    'body': 'DVDDoMenuCGMouseOver(${1:CGPoint* inPt}, ${2:SInt32* outIndex})'
+  'DVDDoUserNavigation':
+    'prefix': 'DVDDoUserNavigation'
+    'body': 'DVDDoUserNavigation(${1:DVDUserNavigation inNavigation})'
+  'DVDEnableWebAccess':
+    'prefix': 'DVDEnableWebAccess'
+    'body': 'DVDEnableWebAccess(${1:Boolean inEnable})'
+  'DVDGetAngle':
+    'prefix': 'DVDGetAngle'
+    'body': 'DVDGetAngle(${1:UInt16* outAngleNum})'
+  'DVDGetAspectRatio':
+    'prefix': 'DVDGetAspectRatio'
+    'body': 'DVDGetAspectRatio(${1:DVDAspectRatio* outRatio})'
+  'DVDGetAudioLanguageCode':
+    'prefix': 'DVDGetAudioLanguageCode'
+    'body': 'DVDGetAudioLanguageCode(${1:DVDLanguageCode* outCode}, ${2:DVDAudioExtensionCode* outExtension})'
+  'DVDGetAudioLanguageCodeByStream':
+    'prefix': 'DVDGetAudioLanguageCodeByStream'
+    'body': 'DVDGetAudioLanguageCodeByStream(${1:UInt16 inStreamNum}, ${2:DVDLanguageCode* outCode}, ${3:DVDAudioExtensionCode* outExtension})'
+  'DVDGetAudioOutputMode':
+    'prefix': 'DVDGetAudioOutputMode'
+    'body': 'DVDGetAudioOutputMode(${1:DVDAudioMode* outMode})'
+  'DVDGetAudioOutputModeCapabilities':
+    'prefix': 'DVDGetAudioOutputModeCapabilities'
+    'body': 'DVDGetAudioOutputModeCapabilities(${1:DVDAudioMode* outModes})'
+  'DVDGetAudioStream':
+    'prefix': 'DVDGetAudioStream'
+    'body': 'DVDGetAudioStream(${1:UInt16* outStreamNum})'
+  'DVDGetAudioStreamFormat':
+    'prefix': 'DVDGetAudioStreamFormat'
+    'body': 'DVDGetAudioStreamFormat(${1:DVDAudioFormat* outFormat}, ${2:UInt32* outBitsPerSample}, ${3:UInt32* outSamplesPerSecond}, ${4:UInt32* outChannels})'
+  'DVDGetAudioStreamFormatByStream':
+    'prefix': 'DVDGetAudioStreamFormatByStream'
+    'body': 'DVDGetAudioStreamFormatByStream(${1:UInt32 inStreamNum}, ${2:DVDAudioFormat* outFormat}, ${3:UInt32* outBitsPerSample}, ${4:UInt32* outSamplesPerSecond}, ${5:UInt32* outChannels})'
+  'DVDGetAudioVolume':
+    'prefix': 'DVDGetAudioVolume'
+    'body': 'DVDGetAudioVolume(${1:UInt16* outVolume})'
+  'DVDGetAudioVolumeInfo':
+    'prefix': 'DVDGetAudioVolumeInfo'
+    'body': 'DVDGetAudioVolumeInfo(${1:UInt16* outMinVolume}, ${2:UInt16* outCurVolume}, ${3:UInt16* outMaxVolume})'
+  'DVDGetBookmark':
+    'prefix': 'DVDGetBookmark'
+    'body': 'DVDGetBookmark(${1:void* outBookMarkData}, ${2:UInt32* ioBookMarkDataSize})'
+  'DVDGetButtonPosition':
+    'prefix': 'DVDGetButtonPosition'
+    'body': 'DVDGetButtonPosition(${1:UInt32 index}, ${2:CGRect* outRect}, ${3:UInt32* autoAction})'
+  'DVDGetButtoninfo':
+    'prefix': 'DVDGetButtoninfo'
+    'body': 'DVDGetButtoninfo(${1:UInt32* numberOfButtons}, ${2:UInt32* selectedButton}, ${3:UInt32* forcedActivateButton}, ${4:UInt32* userButtonOffset}, ${5:UInt32* numberOfUserButtons})'
+  'DVDGetChapter':
+    'prefix': 'DVDGetChapter'
+    'body': 'DVDGetChapter(${1:UInt16* outChapterNum})'
+  'DVDGetDiscRegionCode':
+    'prefix': 'DVDGetDiscRegionCode'
+    'body': 'DVDGetDiscRegionCode(${1:DVDRegionCode* outCode})'
+  'DVDGetDriveRegionCode':
+    'prefix': 'DVDGetDriveRegionCode'
+    'body': 'DVDGetDriveRegionCode(${1:DVDRegionCode* outCode}, ${2:SInt16* outNumberChangesLeft})'
+  'DVDGetFormatStandard':
+    'prefix': 'DVDGetFormatStandard'
+    'body': 'DVDGetFormatStandard(${1:DVDFormat* outFormat})'
+  'DVDGetGPRMValue':
+    'prefix': 'DVDGetGPRMValue'
+    'body': 'DVDGetGPRMValue(${1:UInt32 index}, ${2:UInt32* value})'
+  'DVDGetLastPlayBookmark':
+    'prefix': 'DVDGetLastPlayBookmark'
+    'body': 'DVDGetLastPlayBookmark(${1:void* outBookMarkData}, ${2:UInt32* ioBookMarkDataSize})'
+  'DVDGetMediaUniqueID':
+    'prefix': 'DVDGetMediaUniqueID'
+    'body': 'DVDGetMediaUniqueID(${1:UInt8* outDiscID})'
+  'DVDGetMediaVolumeCFName':
+    'prefix': 'DVDGetMediaVolumeCFName'
+    'body': 'DVDGetMediaVolumeCFName(${1:CFStringRef* outDiscVolumeCFName})'
+  'DVDGetMediaVolumeName':
+    'prefix': 'DVDGetMediaVolumeName'
+    'body': 'DVDGetMediaVolumeName(${1:char** outDiscVolumeName})'
+  'DVDGetMenuLanguageCode':
+    'prefix': 'DVDGetMenuLanguageCode'
+    'body': 'DVDGetMenuLanguageCode(${1:DVDLanguageCode* outCode})'
+  'DVDGetNativeVideoSize':
+    'prefix': 'DVDGetNativeVideoSize'
+    'body': 'DVDGetNativeVideoSize(${1:UInt16* outWidth}, ${2:UInt16* outHeight})'
+  'DVDGetNumAngles':
+    'prefix': 'DVDGetNumAngles'
+    'body': 'DVDGetNumAngles(${1:UInt16* outNumAngles})'
+  'DVDGetNumAudioStreams':
+    'prefix': 'DVDGetNumAudioStreams'
+    'body': 'DVDGetNumAudioStreams(${1:UInt16* outNumStreams})'
+  'DVDGetNumChapters':
+    'prefix': 'DVDGetNumChapters'
+    'body': 'DVDGetNumChapters(${1:UInt16 inTitleNum}, ${2:UInt16* outNumChapters})'
+  'DVDGetNumSubPictureStreams':
+    'prefix': 'DVDGetNumSubPictureStreams'
+    'body': 'DVDGetNumSubPictureStreams(${1:UInt16* outNumStreams})'
+  'DVDGetNumTitles':
+    'prefix': 'DVDGetNumTitles'
+    'body': 'DVDGetNumTitles(${1:UInt16* outNumTitles})'
+  'DVDGetSPDIFDataOutDevice':
+    'prefix': 'DVDGetSPDIFDataOutDevice'
+    'body': 'DVDGetSPDIFDataOutDevice(${1:UInt32* outIndex})'
+  'DVDGetSPDIFDataOutDeviceCFName':
+    'prefix': 'DVDGetSPDIFDataOutDeviceCFName'
+    'body': 'DVDGetSPDIFDataOutDeviceCFName(${1:UInt32 inIndex}, ${2:CFStringRef* outName})'
+  'DVDGetSPDIFDataOutDeviceCount':
+    'prefix': 'DVDGetSPDIFDataOutDeviceCount'
+    'body': 'DVDGetSPDIFDataOutDeviceCount(${1:UInt32* outCount})'
+  'DVDGetScanRate':
+    'prefix': 'DVDGetScanRate'
+    'body': 'DVDGetScanRate(${1:DVDScanRate* outRate}, ${2:DVDScanDirection* outDirection})'
+  'DVDGetState':
+    'prefix': 'DVDGetState'
+    'body': 'DVDGetState(${1:DVDState* outState})'
+  'DVDGetSubPictureLanguageCode':
+    'prefix': 'DVDGetSubPictureLanguageCode'
+    'body': 'DVDGetSubPictureLanguageCode(${1:DVDLanguageCode* outCode}, ${2:DVDSubpictureExtensionCode* outExtension})'
+  'DVDGetSubPictureLanguageCodeByStream':
+    'prefix': 'DVDGetSubPictureLanguageCodeByStream'
+    'body': 'DVDGetSubPictureLanguageCodeByStream(${1:UInt16 inStreamNum}, ${2:DVDLanguageCode* outCode}, ${3:DVDSubpictureExtensionCode* outExtension})'
+  'DVDGetSubPictureStream':
+    'prefix': 'DVDGetSubPictureStream'
+    'body': 'DVDGetSubPictureStream(${1:UInt16* outStreamNum})'
+  'DVDGetTime':
+    'prefix': 'DVDGetTime'
+    'body': 'DVDGetTime(${1:DVDTimeCode inTimeCode}, ${2:DVDTimePosition* outTime}, ${3:UInt16* outFrames})'
+  'DVDGetTimeEventRate':
+    'prefix': 'DVDGetTimeEventRate'
+    'body': 'DVDGetTimeEventRate(${1:UInt32* outMilliseconds})'
+  'DVDGetTitle':
+    'prefix': 'DVDGetTitle'
+    'body': 'DVDGetTitle(${1:UInt16* outTitleNum})'
+  'DVDGetVideoCGBounds':
+    'prefix': 'DVDGetVideoCGBounds'
+    'body': 'DVDGetVideoCGBounds(${1:CGRect* outRect})'
+  'DVDGetVideoDisplay':
+    'prefix': 'DVDGetVideoDisplay'
+    'body': 'DVDGetVideoDisplay(${1:CGDirectDisplayID* outDisplay})'
+  'DVDGetVideoWindowID':
+    'prefix': 'DVDGetVideoWindowID'
+    'body': 'DVDGetVideoWindowID(${1:UInt32* outVidWindowID})'
+  'DVDGetVideoWindowRef':
+    'prefix': 'DVDGetVideoWindowRef'
+    'body': 'DVDGetVideoWindowRef(${1:WindowRef* outWindowRef})'
+  'DVDGoBackOneLevel':
+    'prefix': 'DVDGoBackOneLevel'
+    'body': 'DVDGoBackOneLevel()'
+  'DVDGoToMenu':
+    'prefix': 'DVDGoToMenu'
+    'body': 'DVDGoToMenu(${1:DVDMenu inMenu})'
+  'DVDGotoBookmark':
+    'prefix': 'DVDGotoBookmark'
+    'body': 'DVDGotoBookmark(${1:void* inBookMarkData}, ${2:UInt32 inBookMarkDataSize})'
+  'DVDHasMedia':
+    'prefix': 'DVDHasMedia'
+    'body': 'DVDHasMedia(${1:Boolean* outHasMedia})'
+  'DVDHasMenu':
+    'prefix': 'DVDHasMenu'
+    'body': 'DVDHasMenu(${1:DVDMenu inMenu}, ${2:Boolean* outHasMenu})'
+  'DVDHasNextChapter':
+    'prefix': 'DVDHasNextChapter'
+    'body': 'DVDHasNextChapter(${1:Boolean* outHasChapter})'
+  'DVDHasPreviousChapter':
+    'prefix': 'DVDHasPreviousChapter'
+    'body': 'DVDHasPreviousChapter(${1:Boolean* outHasChapter})'
+  'DVDIdle':
+    'prefix': 'DVDIdle'
+    'body': 'DVDIdle()'
+  'DVDInitialize':
+    'prefix': 'DVDInitialize'
+    'body': 'DVDInitialize()'
+  'DVDIsDisplayingSubPicture':
+    'prefix': 'DVDIsDisplayingSubPicture'
+    'body': 'DVDIsDisplayingSubPicture(${1:Boolean* outDisplayingSubPicture})'
+  'DVDIsMuted':
+    'prefix': 'DVDIsMuted'
+    'body': 'DVDIsMuted(${1:Boolean* outIsMuted})'
+  'DVDIsOnMenu':
+    'prefix': 'DVDIsOnMenu'
+    'body': 'DVDIsOnMenu(${1:Boolean* outOnMenu}, ${2:DVDMenu* outMenu})'
+  'DVDIsPaused':
+    'prefix': 'DVDIsPaused'
+    'body': 'DVDIsPaused(${1:Boolean* outIsPaused})'
+  'DVDIsPlaying':
+    'prefix': 'DVDIsPlaying'
+    'body': 'DVDIsPlaying(${1:Boolean* outIsPlaying})'
+  'DVDIsRegisteredEventCallBack':
+    'prefix': 'DVDIsRegisteredEventCallBack'
+    'body': 'DVDIsRegisteredEventCallBack(${1:DVDEventCallBackRef inCallBackID})'
+  'DVDIsSupportedDisplay':
+    'prefix': 'DVDIsSupportedDisplay'
+    'body': 'DVDIsSupportedDisplay(${1:CGDirectDisplayID inDisplay}, ${2:Boolean* outSupported})'
+  'DVDIsValidMediaRef':
+    'prefix': 'DVDIsValidMediaRef'
+    'body': 'DVDIsValidMediaRef(${1:FSRef* inRef}, ${2:Boolean* outIsValid})'
+  'DVDIsValidMediaURL':
+    'prefix': 'DVDIsValidMediaURL'
+    'body': 'DVDIsValidMediaURL(${1:CFURLRef inRef}, ${2:Boolean* outIsValid})'
+  'DVDMute':
+    'prefix': 'DVDMute'
+    'body': 'DVDMute(${1:Boolean inMute})'
+  'DVDNextChapter':
+    'prefix': 'DVDNextChapter'
+    'body': 'DVDNextChapter()'
+  'DVDOpenMediaFile':
+    'prefix': 'DVDOpenMediaFile'
+    'body': 'DVDOpenMediaFile(${1:FSRef* inFile})'
+  'DVDOpenMediaFileWithURL':
+    'prefix': 'DVDOpenMediaFileWithURL'
+    'body': 'DVDOpenMediaFileWithURL(${1:CFURLRef inFile})'
+  'DVDOpenMediaVolume':
+    'prefix': 'DVDOpenMediaVolume'
+    'body': 'DVDOpenMediaVolume(${1:FSRef* inVolume})'
+  'DVDOpenMediaVolumeWithURL':
+    'prefix': 'DVDOpenMediaVolumeWithURL'
+    'body': 'DVDOpenMediaVolumeWithURL(${1:CFURLRef inVolume})'
+  'DVDPause':
+    'prefix': 'DVDPause'
+    'body': 'DVDPause()'
+  'DVDPlay':
+    'prefix': 'DVDPlay'
+    'body': 'DVDPlay()'
+  'DVDPreviousChapter':
+    'prefix': 'DVDPreviousChapter'
+    'body': 'DVDPreviousChapter()'
+  'DVDRegisterEventCallBack':
+    'prefix': 'DVDRegisterEventCallBack'
+    'body': 'DVDRegisterEventCallBack(${1:DVDEventCallBackFunctionPtr inCallBackProc}, ${2:DVDEventCode* inCode}, ${3:UInt32 inCodeCount}, ${4:void* inRefCon}, ${5:DVDEventCallBackRef* outCallBackID})'
+  'DVDResume':
+    'prefix': 'DVDResume'
+    'body': 'DVDResume()'
+  'DVDReturnToTitle':
+    'prefix': 'DVDReturnToTitle'
+    'body': 'DVDReturnToTitle()'
+  'DVDScan':
+    'prefix': 'DVDScan'
+    'body': 'DVDScan(${1:DVDScanRate inRate}, ${2:DVDScanDirection inDirection})'
+  'DVDSetAngle':
+    'prefix': 'DVDSetAngle'
+    'body': 'DVDSetAngle(${1:UInt16 inAngleNum})'
+  'DVDSetAspectRatio':
+    'prefix': 'DVDSetAspectRatio'
+    'body': 'DVDSetAspectRatio(${1:DVDAspectRatio inRatio})'
+  'DVDSetAudioOutputMode':
+    'prefix': 'DVDSetAudioOutputMode'
+    'body': 'DVDSetAudioOutputMode(${1:DVDAudioMode inMode})'
+  'DVDSetAudioStream':
+    'prefix': 'DVDSetAudioStream'
+    'body': 'DVDSetAudioStream(${1:UInt16 inStreamNum})'
+  'DVDSetAudioVolume':
+    'prefix': 'DVDSetAudioVolume'
+    'body': 'DVDSetAudioVolume(${1:UInt16 inVolume})'
+  'DVDSetChapter':
+    'prefix': 'DVDSetChapter'
+    'body': 'DVDSetChapter(${1:UInt16 inChapterNum})'
+  'DVDSetDefaultAudioLanguageCode':
+    'prefix': 'DVDSetDefaultAudioLanguageCode'
+    'body': 'DVDSetDefaultAudioLanguageCode(${1:DVDLanguageCode inCode}, ${2:DVDAudioExtensionCode inExtension})'
+  'DVDSetDefaultMenuLanguageCode':
+    'prefix': 'DVDSetDefaultMenuLanguageCode'
+    'body': 'DVDSetDefaultMenuLanguageCode(${1:DVDLanguageCode inCode})'
+  'DVDSetDefaultSubPictureLanguageCode':
+    'prefix': 'DVDSetDefaultSubPictureLanguageCode'
+    'body': 'DVDSetDefaultSubPictureLanguageCode(${1:DVDLanguageCode inCode}, ${2:DVDSubpictureExtensionCode inExtension})'
+  'DVDSetDriveRegionCode':
+    'prefix': 'DVDSetDriveRegionCode'
+    'body': 'DVDSetDriveRegionCode(${1:DVDRegionCode inCode}, ${2:AuthorizationRef inAuthorization})'
+  'DVDSetFatalErrorCallBack':
+    'prefix': 'DVDSetFatalErrorCallBack'
+    'body': 'DVDSetFatalErrorCallBack(${1:DVDFatalErrCallBackFunctionPtr inCallBackProc}, ${2:void* inRefCon})'
+  'DVDSetLastPlayBookmark':
+    'prefix': 'DVDSetLastPlayBookmark'
+    'body': 'DVDSetLastPlayBookmark(${1:void* inBookMarkData}, ${2:UInt32 inBookMarkDataSize})'
+  'DVDSetSPDIFDataOutDevice':
+    'prefix': 'DVDSetSPDIFDataOutDevice'
+    'body': 'DVDSetSPDIFDataOutDevice(${1:UInt32 inIndex})'
+  'DVDSetSubPictureStream':
+    'prefix': 'DVDSetSubPictureStream'
+    'body': 'DVDSetSubPictureStream(${1:UInt16 inStreamNum})'
+  'DVDSetTime':
+    'prefix': 'DVDSetTime'
+    'body': 'DVDSetTime(${1:DVDTimeCode inTimeCode}, ${2:DVDTimePosition inTime}, ${3:UInt16 inFrames})'
+  'DVDSetTimeEventRate':
+    'prefix': 'DVDSetTimeEventRate'
+    'body': 'DVDSetTimeEventRate(${1:UInt32 inMilliseconds})'
+  'DVDSetTitle':
+    'prefix': 'DVDSetTitle'
+    'body': 'DVDSetTitle(${1:UInt16 inTitleNum})'
+  'DVDSetVideoCGBounds':
+    'prefix': 'DVDSetVideoCGBounds'
+    'body': 'DVDSetVideoCGBounds(${1:CGRect* inRect})'
+  'DVDSetVideoDisplay':
+    'prefix': 'DVDSetVideoDisplay'
+    'body': 'DVDSetVideoDisplay(${1:CGDirectDisplayID inDisplay})'
+  'DVDSetVideoWindowID':
+    'prefix': 'DVDSetVideoWindowID'
+    'body': 'DVDSetVideoWindowID(${1:UInt32 inVidWindowID})'
+  'DVDSetVideoWindowRef':
+    'prefix': 'DVDSetVideoWindowRef'
+    'body': 'DVDSetVideoWindowRef(${1:WindowRef inWindowRef})'
+  'DVDSleep':
+    'prefix': 'DVDSleep'
+    'body': 'DVDSleep()'
+  'DVDStepFrame':
+    'prefix': 'DVDStepFrame'
+    'body': 'DVDStepFrame(${1:DVDScanDirection inDirection})'
+  'DVDStop':
+    'prefix': 'DVDStop'
+    'body': 'DVDStop()'
+  'DVDSwitchToDisplay':
+    'prefix': 'DVDSwitchToDisplay'
+    'body': 'DVDSwitchToDisplay(${1:CGDirectDisplayID newDisplay}, ${2:Boolean* outSupported})'
+  'DVDUnregisterEventCallBack':
+    'prefix': 'DVDUnregisterEventCallBack'
+    'body': 'DVDUnregisterEventCallBack(${1:DVDEventCallBackRef inCallBackID})'
+  'DVDUpdateVideo':
+    'prefix': 'DVDUpdateVideo'
+    'body': 'DVDUpdateVideo()'
+  'DVDWakeUp':
+    'prefix': 'DVDWakeUp'
+    'body': 'DVDWakeUp()'

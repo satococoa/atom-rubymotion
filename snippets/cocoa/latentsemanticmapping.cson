@@ -1,0 +1,181 @@
+'.source.rubymotion':
+  'kLSMAlgorithmDense (LSMAlgorithmDense)':
+    'prefix': 'kLSMAlgorithmDense'
+    'body': 'KLSMAlgorithmDense'
+  'kLSMAlgorithmKey (LSMAlgorithm)':
+    'prefix': 'kLSMAlgorithmKey'
+    'body': 'KLSMAlgorithmKey'
+  'kLSMAlgorithmSparse (LSMAlgorithmSparse)':
+    'prefix': 'kLSMAlgorithmSparse'
+    'body': 'KLSMAlgorithmSparse'
+  'kLSMDimensionKey (LSMDimension)':
+    'prefix': 'kLSMDimensionKey'
+    'body': 'KLSMDimensionKey'
+  'kLSMIterationsKey (LSMIterations)':
+    'prefix': 'kLSMIterationsKey'
+    'body': 'KLSMIterationsKey'
+  'kLSMPrecisionDouble (LSMPrecisionDouble)':
+    'prefix': 'kLSMPrecisionDouble'
+    'body': 'KLSMPrecisionDouble'
+  'kLSMPrecisionFloat (LSMPrecisionFloat)':
+    'prefix': 'kLSMPrecisionFloat'
+    'body': 'KLSMPrecisionFloat'
+  'kLSMPrecisionKey (LSMPrecision)':
+    'prefix': 'kLSMPrecisionKey'
+    'body': 'KLSMPrecisionKey'
+  'kLSMSweepAgeKey (LSMSweepAge)':
+    'prefix': 'kLSMSweepAgeKey'
+    'body': 'KLSMSweepAgeKey'
+  'kLSMSweepCutoffKey (LSMSweepCutoff)':
+    'prefix': 'kLSMSweepCutoffKey'
+    'body': 'KLSMSweepCutoffKey'
+  'kLSMClusterAgglomerative (4)':
+    'prefix': 'kLSMClusterAgglomerative'
+    'body': 'KLSMClusterAgglomerative'
+  'kLSMClusterCategories (0)':
+    'prefix': 'kLSMClusterCategories'
+    'body': 'KLSMClusterCategories'
+  'kLSMClusterKMeans (0)':
+    'prefix': 'kLSMClusterKMeans'
+    'body': 'KLSMClusterKMeans'
+  'kLSMClusterTokens (2)':
+    'prefix': 'kLSMClusterTokens'
+    'body': 'KLSMClusterTokens'
+  'kLSMClusterWords (1)':
+    'prefix': 'kLSMClusterWords'
+    'body': 'KLSMClusterWords'
+  'kLSMMapBadCluster (-6644)':
+    'prefix': 'kLSMMapBadCluster'
+    'body': 'KLSMMapBadCluster'
+  'kLSMMapBadPath (-6643)':
+    'prefix': 'kLSMMapBadPath'
+    'body': 'KLSMMapBadPath'
+  'kLSMMapDiscardCounts (1)':
+    'prefix': 'kLSMMapDiscardCounts'
+    'body': 'KLSMMapDiscardCounts'
+  'kLSMMapHashText (256)':
+    'prefix': 'kLSMMapHashText'
+    'body': 'KLSMMapHashText'
+  'kLSMMapLoadMutable (2)':
+    'prefix': 'kLSMMapLoadMutable'
+    'body': 'KLSMMapLoadMutable'
+  'kLSMMapNoSuchCategory (-6641)':
+    'prefix': 'kLSMMapNoSuchCategory'
+    'body': 'KLSMMapNoSuchCategory'
+  'kLSMMapOutOfState (-6640)':
+    'prefix': 'kLSMMapOutOfState'
+    'body': 'KLSMMapOutOfState'
+  'kLSMMapOverflow (-6645)':
+    'prefix': 'kLSMMapOverflow'
+    'body': 'KLSMMapOverflow'
+  'kLSMMapPairs (1)':
+    'prefix': 'kLSMMapPairs'
+    'body': 'KLSMMapPairs'
+  'kLSMMapTriplets (2)':
+    'prefix': 'kLSMMapTriplets'
+    'body': 'KLSMMapTriplets'
+  'kLSMMapWriteError (-6642)':
+    'prefix': 'kLSMMapWriteError'
+    'body': 'KLSMMapWriteError'
+  'kLSMResultBestWords (1)':
+    'prefix': 'kLSMResultBestWords'
+    'body': 'KLSMResultBestWords'
+  'kLSMTextApplySpamHeuristics (4)':
+    'prefix': 'kLSMTextApplySpamHeuristics'
+    'body': 'KLSMTextApplySpamHeuristics'
+  'kLSMTextPreserveAcronyms (2)':
+    'prefix': 'kLSMTextPreserveAcronyms'
+    'body': 'KLSMTextPreserveAcronyms'
+  'kLSMTextPreserveCase (1)':
+    'prefix': 'kLSMTextPreserveCase'
+    'body': 'KLSMTextPreserveCase'
+  'LSMMapAddCategory':
+    'prefix': 'LSMMapAddCategory'
+    'body': 'LSMMapAddCategory(${1:LSMMapRef mapref})'
+  'LSMMapAddText':
+    'prefix': 'LSMMapAddText'
+    'body': 'LSMMapAddText(${1:LSMMapRef mapref}, ${2:LSMTextRef textref}, ${3:LSMCategory category})'
+  'LSMMapAddTextWithWeight':
+    'prefix': 'LSMMapAddTextWithWeight'
+    'body': 'LSMMapAddTextWithWeight(${1:LSMMapRef mapref}, ${2:LSMTextRef textref}, ${3:LSMCategory category}, ${4:float weight})'
+  'LSMMapApplyClusters':
+    'prefix': 'LSMMapApplyClusters'
+    'body': 'LSMMapApplyClusters(${1:LSMMapRef mapref}, ${2:CFArrayRef clusters})'
+  'LSMMapCompile':
+    'prefix': 'LSMMapCompile'
+    'body': 'LSMMapCompile(${1:LSMMapRef mapref})'
+  'LSMMapCreate':
+    'prefix': 'LSMMapCreate'
+    'body': 'LSMMapCreate(${1:CFAllocatorRef alloc}, ${2:CFOptionFlags flags})'
+  'LSMMapCreateClusters':
+    'prefix': 'LSMMapCreateClusters'
+    'body': 'LSMMapCreateClusters(${1:CFAllocatorRef alloc}, ${2:LSMMapRef mapref}, ${3:CFArrayRef subset}, ${4:CFIndex numClusters}, ${5:CFOptionFlags flags})'
+  'LSMMapCreateFromURL':
+    'prefix': 'LSMMapCreateFromURL'
+    'body': 'LSMMapCreateFromURL(${1:CFAllocatorRef alloc}, ${2:CFURLRef file}, ${3:CFOptionFlags flags})'
+  'LSMMapGetCategoryCount':
+    'prefix': 'LSMMapGetCategoryCount'
+    'body': 'LSMMapGetCategoryCount(${1:LSMMapRef mapref})'
+  'LSMMapGetProperties':
+    'prefix': 'LSMMapGetProperties'
+    'body': 'LSMMapGetProperties(${1:LSMMapRef mapref})'
+  'LSMMapGetTypeID':
+    'prefix': 'LSMMapGetTypeID'
+    'body': 'LSMMapGetTypeID()'
+  'LSMMapSetProperties':
+    'prefix': 'LSMMapSetProperties'
+    'body': 'LSMMapSetProperties(${1:LSMMapRef mapref}, ${2:CFDictionaryRef properties})'
+  'LSMMapSetStopWords':
+    'prefix': 'LSMMapSetStopWords'
+    'body': 'LSMMapSetStopWords(${1:LSMMapRef mapref}, ${2:LSMTextRef textref})'
+  'LSMMapStartTraining':
+    'prefix': 'LSMMapStartTraining'
+    'body': 'LSMMapStartTraining(${1:LSMMapRef mapref})'
+  'LSMMapWriteToStream':
+    'prefix': 'LSMMapWriteToStream'
+    'body': 'LSMMapWriteToStream(${1:LSMMapRef mapref}, ${2:LSMTextRef textref}, ${3:CFWriteStreamRef stream}, ${4:CFOptionFlags options})'
+  'LSMMapWriteToURL':
+    'prefix': 'LSMMapWriteToURL'
+    'body': 'LSMMapWriteToURL(${1:LSMMapRef mapref}, ${2:CFURLRef file}, ${3:CFOptionFlags flags})'
+  'LSMResultCopyToken':
+    'prefix': 'LSMResultCopyToken'
+    'body': 'LSMResultCopyToken(${1:LSMResultRef mapref}, ${2:CFIndex n})'
+  'LSMResultCopyTokenCluster':
+    'prefix': 'LSMResultCopyTokenCluster'
+    'body': 'LSMResultCopyTokenCluster(${1:LSMResultRef mapref}, ${2:CFIndex n})'
+  'LSMResultCopyWord':
+    'prefix': 'LSMResultCopyWord'
+    'body': 'LSMResultCopyWord(${1:LSMResultRef result}, ${2:CFIndex n})'
+  'LSMResultCopyWordCluster':
+    'prefix': 'LSMResultCopyWordCluster'
+    'body': 'LSMResultCopyWordCluster(${1:LSMResultRef result}, ${2:CFIndex n})'
+  'LSMResultCreate':
+    'prefix': 'LSMResultCreate'
+    'body': 'LSMResultCreate(${1:CFAllocatorRef alloc}, ${2:LSMMapRef mapref}, ${3:LSMTextRef textref}, ${4:CFIndex numResults}, ${5:CFOptionFlags flags})'
+  'LSMResultGetCategory':
+    'prefix': 'LSMResultGetCategory'
+    'body': 'LSMResultGetCategory(${1:LSMResultRef result}, ${2:CFIndex n})'
+  'LSMResultGetCount':
+    'prefix': 'LSMResultGetCount'
+    'body': 'LSMResultGetCount(${1:LSMResultRef result})'
+  'LSMResultGetScore':
+    'prefix': 'LSMResultGetScore'
+    'body': 'LSMResultGetScore(${1:LSMResultRef result}, ${2:CFIndex n})'
+  'LSMResultGetTypeID':
+    'prefix': 'LSMResultGetTypeID'
+    'body': 'LSMResultGetTypeID()'
+  'LSMTextAddToken':
+    'prefix': 'LSMTextAddToken'
+    'body': 'LSMTextAddToken(${1:LSMTextRef textref}, ${2:CFDataRef token})'
+  'LSMTextAddWord':
+    'prefix': 'LSMTextAddWord'
+    'body': 'LSMTextAddWord(${1:LSMTextRef textref}, ${2:CFStringRef word})'
+  'LSMTextAddWords':
+    'prefix': 'LSMTextAddWords'
+    'body': 'LSMTextAddWords(${1:LSMTextRef textref}, ${2:CFStringRef words}, ${3:CFLocaleRef locale}, ${4:CFOptionFlags flags})'
+  'LSMTextCreate':
+    'prefix': 'LSMTextCreate'
+    'body': 'LSMTextCreate(${1:CFAllocatorRef alloc}, ${2:LSMMapRef mapref})'
+  'LSMTextGetTypeID':
+    'prefix': 'LSMTextGetTypeID'
+    'body': 'LSMTextGetTypeID()'

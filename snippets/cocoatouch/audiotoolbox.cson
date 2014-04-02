@@ -1,0 +1,2308 @@
+'.source.rubymotion':
+  'kAudioSessionInputRoute_BluetoothHFP (CFStringRef)':
+    'prefix': 'kAudioSessionInputRoute_BluetoothHFP'
+    'body': 'KAudioSessionInputRoute_BluetoothHFP'
+  'kAudioSessionInputRoute_BuiltInMic (CFStringRef)':
+    'prefix': 'kAudioSessionInputRoute_BuiltInMic'
+    'body': 'KAudioSessionInputRoute_BuiltInMic'
+  'kAudioSessionInputRoute_HeadsetMic (CFStringRef)':
+    'prefix': 'kAudioSessionInputRoute_HeadsetMic'
+    'body': 'KAudioSessionInputRoute_HeadsetMic'
+  'kAudioSessionInputRoute_LineIn (CFStringRef)':
+    'prefix': 'kAudioSessionInputRoute_LineIn'
+    'body': 'KAudioSessionInputRoute_LineIn'
+  'kAudioSessionInputRoute_USBAudio (CFStringRef)':
+    'prefix': 'kAudioSessionInputRoute_USBAudio'
+    'body': 'KAudioSessionInputRoute_USBAudio'
+  'kAudioSessionOutputRoute_AirPlay (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_AirPlay'
+    'body': 'KAudioSessionOutputRoute_AirPlay'
+  'kAudioSessionOutputRoute_BluetoothA2DP (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_BluetoothA2DP'
+    'body': 'KAudioSessionOutputRoute_BluetoothA2DP'
+  'kAudioSessionOutputRoute_BluetoothHFP (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_BluetoothHFP'
+    'body': 'KAudioSessionOutputRoute_BluetoothHFP'
+  'kAudioSessionOutputRoute_BuiltInReceiver (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_BuiltInReceiver'
+    'body': 'KAudioSessionOutputRoute_BuiltInReceiver'
+  'kAudioSessionOutputRoute_BuiltInSpeaker (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_BuiltInSpeaker'
+    'body': 'KAudioSessionOutputRoute_BuiltInSpeaker'
+  'kAudioSessionOutputRoute_HDMI (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_HDMI'
+    'body': 'KAudioSessionOutputRoute_HDMI'
+  'kAudioSessionOutputRoute_Headphones (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_Headphones'
+    'body': 'KAudioSessionOutputRoute_Headphones'
+  'kAudioSessionOutputRoute_LineOut (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_LineOut'
+    'body': 'KAudioSessionOutputRoute_LineOut'
+  'kAudioSessionOutputRoute_USBAudio (CFStringRef)':
+    'prefix': 'kAudioSessionOutputRoute_USBAudio'
+    'body': 'KAudioSessionOutputRoute_USBAudio'
+  'kAudioSession_AudioRouteChangeKey_CurrentRouteDescription (CFStringRef)':
+    'prefix': 'kAudioSession_AudioRouteChangeKey_CurrentRouteDescription'
+    'body': 'KAudioSession_AudioRouteChangeKey_CurrentRouteDescription'
+  'kAudioSession_AudioRouteChangeKey_PreviousRouteDescription (CFStringRef)':
+    'prefix': 'kAudioSession_AudioRouteChangeKey_PreviousRouteDescription'
+    'body': 'KAudioSession_AudioRouteChangeKey_PreviousRouteDescription'
+  'kAudioSession_AudioRouteKey_Inputs (CFStringRef)':
+    'prefix': 'kAudioSession_AudioRouteKey_Inputs'
+    'body': 'KAudioSession_AudioRouteKey_Inputs'
+  'kAudioSession_AudioRouteKey_Outputs (CFStringRef)':
+    'prefix': 'kAudioSession_AudioRouteKey_Outputs'
+    'body': 'KAudioSession_AudioRouteKey_Outputs'
+  'kAudioSession_AudioRouteKey_Type (CFStringRef)':
+    'prefix': 'kAudioSession_AudioRouteKey_Type'
+    'body': 'KAudioSession_AudioRouteKey_Type'
+  'kAudioSession_InputSourceKey_Description (CFStringRef)':
+    'prefix': 'kAudioSession_InputSourceKey_Description'
+    'body': 'KAudioSession_InputSourceKey_Description'
+  'kAudioSession_InputSourceKey_ID (CFStringRef)':
+    'prefix': 'kAudioSession_InputSourceKey_ID'
+    'body': 'KAudioSession_InputSourceKey_ID'
+  'kAudioSession_OutputDestinationKey_Description (CFStringRef)':
+    'prefix': 'kAudioSession_OutputDestinationKey_Description'
+    'body': 'KAudioSession_OutputDestinationKey_Description'
+  'kAudioSession_OutputDestinationKey_ID (CFStringRef)':
+    'prefix': 'kAudioSession_OutputDestinationKey_ID'
+    'body': 'KAudioSession_OutputDestinationKey_ID'
+  'kAudioSession_RouteChangeKey_Reason (CFStringRef)':
+    'prefix': 'kAudioSession_RouteChangeKey_Reason'
+    'body': 'KAudioSession_RouteChangeKey_Reason'
+  'kAFInfoDictionary_Album (album)':
+    'prefix': 'kAFInfoDictionary_Album'
+    'body': 'KAFInfoDictionary_Album'
+  'kAFInfoDictionary_ApproximateDurationInSeconds (approximate duration in seconds)':
+    'prefix': 'kAFInfoDictionary_ApproximateDurationInSeconds'
+    'body': 'KAFInfoDictionary_ApproximateDurationInSeconds'
+  'kAFInfoDictionary_Artist (artist)':
+    'prefix': 'kAFInfoDictionary_Artist'
+    'body': 'KAFInfoDictionary_Artist'
+  'kAFInfoDictionary_ChannelLayout (channel layout)':
+    'prefix': 'kAFInfoDictionary_ChannelLayout'
+    'body': 'KAFInfoDictionary_ChannelLayout'
+  'kAFInfoDictionary_Comments (comments)':
+    'prefix': 'kAFInfoDictionary_Comments'
+    'body': 'KAFInfoDictionary_Comments'
+  'kAFInfoDictionary_Composer (composer)':
+    'prefix': 'kAFInfoDictionary_Composer'
+    'body': 'KAFInfoDictionary_Composer'
+  'kAFInfoDictionary_Copyright (copyright)':
+    'prefix': 'kAFInfoDictionary_Copyright'
+    'body': 'KAFInfoDictionary_Copyright'
+  'kAFInfoDictionary_EncodingApplication (encoding application)':
+    'prefix': 'kAFInfoDictionary_EncodingApplication'
+    'body': 'KAFInfoDictionary_EncodingApplication'
+  'kAFInfoDictionary_Genre (genre)':
+    'prefix': 'kAFInfoDictionary_Genre'
+    'body': 'KAFInfoDictionary_Genre'
+  'kAFInfoDictionary_ISRC (ISRC)':
+    'prefix': 'kAFInfoDictionary_ISRC'
+    'body': 'KAFInfoDictionary_ISRC'
+  'kAFInfoDictionary_KeySignature (key signature)':
+    'prefix': 'kAFInfoDictionary_KeySignature'
+    'body': 'KAFInfoDictionary_KeySignature'
+  'kAFInfoDictionary_Lyricist (lyricist)':
+    'prefix': 'kAFInfoDictionary_Lyricist'
+    'body': 'KAFInfoDictionary_Lyricist'
+  'kAFInfoDictionary_NominalBitRate (nominal bit rate)':
+    'prefix': 'kAFInfoDictionary_NominalBitRate'
+    'body': 'KAFInfoDictionary_NominalBitRate'
+  'kAFInfoDictionary_RecordedDate (recorded date)':
+    'prefix': 'kAFInfoDictionary_RecordedDate'
+    'body': 'KAFInfoDictionary_RecordedDate'
+  'kAFInfoDictionary_SourceBitDepth (source bit depth)':
+    'prefix': 'kAFInfoDictionary_SourceBitDepth'
+    'body': 'KAFInfoDictionary_SourceBitDepth'
+  'kAFInfoDictionary_SourceEncoder (source encoder)':
+    'prefix': 'kAFInfoDictionary_SourceEncoder'
+    'body': 'KAFInfoDictionary_SourceEncoder'
+  'kAFInfoDictionary_SubTitle (subtitle)':
+    'prefix': 'kAFInfoDictionary_SubTitle'
+    'body': 'KAFInfoDictionary_SubTitle'
+  'kAFInfoDictionary_Tempo (tempo)':
+    'prefix': 'kAFInfoDictionary_Tempo'
+    'body': 'KAFInfoDictionary_Tempo'
+  'kAFInfoDictionary_TimeSignature (time signature)':
+    'prefix': 'kAFInfoDictionary_TimeSignature'
+    'body': 'KAFInfoDictionary_TimeSignature'
+  'kAFInfoDictionary_Title (title)':
+    'prefix': 'kAFInfoDictionary_Title'
+    'body': 'KAFInfoDictionary_Title'
+  'kAFInfoDictionary_TrackNumber (track number)':
+    'prefix': 'kAFInfoDictionary_TrackNumber'
+    'body': 'KAFInfoDictionary_TrackNumber'
+  'kAFInfoDictionary_Year (year)':
+    'prefix': 'kAFInfoDictionary_Year'
+    'body': 'KAFInfoDictionary_Year'
+  'kAudioSession_AudioRouteChangeKey_OldRoute (OutputDeviceDidChange_OldRoute)':
+    'prefix': 'kAudioSession_AudioRouteChangeKey_OldRoute'
+    'body': 'KAudioSession_AudioRouteChangeKey_OldRoute'
+  'kAudioSession_AudioRouteChangeKey_Reason (OutputDeviceDidChange_Reason)':
+    'prefix': 'kAudioSession_AudioRouteChangeKey_Reason'
+    'body': 'KAudioSession_AudioRouteChangeKey_Reason'
+  'kInstrumentInfoKey_LSB (LSB)':
+    'prefix': 'kInstrumentInfoKey_LSB'
+    'body': 'KInstrumentInfoKey_LSB'
+  'kInstrumentInfoKey_MSB (MSB)':
+    'prefix': 'kInstrumentInfoKey_MSB'
+    'body': 'KInstrumentInfoKey_MSB'
+  'kInstrumentInfoKey_Name (name)':
+    'prefix': 'kInstrumentInfoKey_Name'
+    'body': 'KInstrumentInfoKey_Name'
+  'kInstrumentInfoKey_Program (program)':
+    'prefix': 'kInstrumentInfoKey_Program'
+    'body': 'KInstrumentInfoKey_Program'
+  'AUDIO_TOOLBOX_VERSION (1060)':
+    'prefix': 'AUDIO_TOOLBOX_VERSION'
+    'body': 'AUDIO_TOOLBOX_VERSION'
+  'kAUGraphErr_CannotDoInCurrentContext (-10863)':
+    'prefix': 'kAUGraphErr_CannotDoInCurrentContext'
+    'body': 'KAUGraphErr_CannotDoInCurrentContext'
+  'kAUGraphErr_InvalidAudioUnit (-10864)':
+    'prefix': 'kAUGraphErr_InvalidAudioUnit'
+    'body': 'KAUGraphErr_InvalidAudioUnit'
+  'kAUGraphErr_InvalidConnection (-10861)':
+    'prefix': 'kAUGraphErr_InvalidConnection'
+    'body': 'KAUGraphErr_InvalidConnection'
+  'kAUGraphErr_NodeNotFound (-10860)':
+    'prefix': 'kAUGraphErr_NodeNotFound'
+    'body': 'KAUGraphErr_NodeNotFound'
+  'kAUGraphErr_OutputNodeErr (-10862)':
+    'prefix': 'kAUGraphErr_OutputNodeErr'
+    'body': 'KAUGraphErr_OutputNodeErr'
+  'kAUNodeInteraction_Connection (1)':
+    'prefix': 'kAUNodeInteraction_Connection'
+    'body': 'KAUNodeInteraction_Connection'
+  'kAUNodeInteraction_InputCallback (2)':
+    'prefix': 'kAUNodeInteraction_InputCallback'
+    'body': 'KAUNodeInteraction_InputCallback'
+  'kAppleHardwareAudioCodecManufacturer (1634756727)':
+    'prefix': 'kAppleHardwareAudioCodecManufacturer'
+    'body': 'KAppleHardwareAudioCodecManufacturer'
+  'kAppleSoftwareAudioCodecManufacturer (1634758764)':
+    'prefix': 'kAppleSoftwareAudioCodecManufacturer'
+    'body': 'KAppleSoftwareAudioCodecManufacturer'
+  'kAudioBalanceFadeType_EqualPower (1)':
+    'prefix': 'kAudioBalanceFadeType_EqualPower'
+    'body': 'KAudioBalanceFadeType_EqualPower'
+  'kAudioBalanceFadeType_MaxUnityGain (0)':
+    'prefix': 'kAudioBalanceFadeType_MaxUnityGain'
+    'body': 'KAudioBalanceFadeType_MaxUnityGain'
+  'kAudioConverterApplicableEncodeBitRates (1634034290)':
+    'prefix': 'kAudioConverterApplicableEncodeBitRates'
+    'body': 'KAudioConverterApplicableEncodeBitRates'
+  'kAudioConverterApplicableEncodeSampleRates (1634038642)':
+    'prefix': 'kAudioConverterApplicableEncodeSampleRates'
+    'body': 'KAudioConverterApplicableEncodeSampleRates'
+  'kAudioConverterAvailableEncodeBitRates (1986355826)':
+    'prefix': 'kAudioConverterAvailableEncodeBitRates'
+    'body': 'KAudioConverterAvailableEncodeBitRates'
+  'kAudioConverterAvailableEncodeChannelLayoutTags (1634034540)':
+    'prefix': 'kAudioConverterAvailableEncodeChannelLayoutTags'
+    'body': 'KAudioConverterAvailableEncodeChannelLayoutTags'
+  'kAudioConverterAvailableEncodeSampleRates (1986360178)':
+    'prefix': 'kAudioConverterAvailableEncodeSampleRates'
+    'body': 'KAudioConverterAvailableEncodeSampleRates'
+  'kAudioConverterChannelMap (1667788144)':
+    'prefix': 'kAudioConverterChannelMap'
+    'body': 'KAudioConverterChannelMap'
+  'kAudioConverterCodecQuality (1667527029)':
+    'prefix': 'kAudioConverterCodecQuality'
+    'body': 'KAudioConverterCodecQuality'
+  'kAudioConverterCompressionMagicCookie (1668114275)':
+    'prefix': 'kAudioConverterCompressionMagicCookie'
+    'body': 'KAudioConverterCompressionMagicCookie'
+  'kAudioConverterCurrentInputStreamDescription (1633904996)':
+    'prefix': 'kAudioConverterCurrentInputStreamDescription'
+    'body': 'KAudioConverterCurrentInputStreamDescription'
+  'kAudioConverterCurrentOutputStreamDescription (1633906532)':
+    'prefix': 'kAudioConverterCurrentOutputStreamDescription'
+    'body': 'KAudioConverterCurrentOutputStreamDescription'
+  'kAudioConverterDecompressionMagicCookie (1684891491)':
+    'prefix': 'kAudioConverterDecompressionMagicCookie'
+    'body': 'KAudioConverterDecompressionMagicCookie'
+  'kAudioConverterEncodeAdjustableSampleRate (1634366322)':
+    'prefix': 'kAudioConverterEncodeAdjustableSampleRate'
+    'body': 'KAudioConverterEncodeAdjustableSampleRate'
+  'kAudioConverterEncodeBitRate (1651663220)':
+    'prefix': 'kAudioConverterEncodeBitRate'
+    'body': 'KAudioConverterEncodeBitRate'
+  'kAudioConverterErr_BadPropertySizeError (561211770)':
+    'prefix': 'kAudioConverterErr_BadPropertySizeError'
+    'body': 'KAudioConverterErr_BadPropertySizeError'
+  'kAudioConverterErr_FormatNotSupported (1718449215)':
+    'prefix': 'kAudioConverterErr_FormatNotSupported'
+    'body': 'KAudioConverterErr_FormatNotSupported'
+  'kAudioConverterErr_HardwareInUse (1752656245)':
+    'prefix': 'kAudioConverterErr_HardwareInUse'
+    'body': 'KAudioConverterErr_HardwareInUse'
+  'kAudioConverterErr_InputSampleRateOutOfRange (560558962)':
+    'prefix': 'kAudioConverterErr_InputSampleRateOutOfRange'
+    'body': 'KAudioConverterErr_InputSampleRateOutOfRange'
+  'kAudioConverterErr_InvalidInputSize (1768846202)':
+    'prefix': 'kAudioConverterErr_InvalidInputSize'
+    'body': 'KAudioConverterErr_InvalidInputSize'
+  'kAudioConverterErr_InvalidOutputSize (1869902714)':
+    'prefix': 'kAudioConverterErr_InvalidOutputSize'
+    'body': 'KAudioConverterErr_InvalidOutputSize'
+  'kAudioConverterErr_NoHardwarePermission (1885696621)':
+    'prefix': 'kAudioConverterErr_NoHardwarePermission'
+    'body': 'KAudioConverterErr_NoHardwarePermission'
+  'kAudioConverterErr_OperationNotSupported (1869627199)':
+    'prefix': 'kAudioConverterErr_OperationNotSupported'
+    'body': 'KAudioConverterErr_OperationNotSupported'
+  'kAudioConverterErr_OutputSampleRateOutOfRange (560952178)':
+    'prefix': 'kAudioConverterErr_OutputSampleRateOutOfRange'
+    'body': 'KAudioConverterErr_OutputSampleRateOutOfRange'
+  'kAudioConverterErr_PropertyNotSupported (1886547824)':
+    'prefix': 'kAudioConverterErr_PropertyNotSupported'
+    'body': 'KAudioConverterErr_PropertyNotSupported'
+  'kAudioConverterErr_RequiresPacketDescriptionsError (561015652)':
+    'prefix': 'kAudioConverterErr_RequiresPacketDescriptionsError'
+    'body': 'KAudioConverterErr_RequiresPacketDescriptionsError'
+  'kAudioConverterErr_UnspecifiedError (2003329396)':
+    'prefix': 'kAudioConverterErr_UnspecifiedError'
+    'body': 'KAudioConverterErr_UnspecifiedError'
+  'kAudioConverterInputChannelLayout (1768123424)':
+    'prefix': 'kAudioConverterInputChannelLayout'
+    'body': 'KAudioConverterInputChannelLayout'
+  'kAudioConverterOutputChannelLayout (1868786720)':
+    'prefix': 'kAudioConverterOutputChannelLayout'
+    'body': 'KAudioConverterOutputChannelLayout'
+  'kAudioConverterPrimeInfo (1886546285)':
+    'prefix': 'kAudioConverterPrimeInfo'
+    'body': 'KAudioConverterPrimeInfo'
+  'kAudioConverterPrimeMethod (1886547309)':
+    'prefix': 'kAudioConverterPrimeMethod'
+    'body': 'KAudioConverterPrimeMethod'
+  'kAudioConverterPropertyBitDepthHint (1633903204)':
+    'prefix': 'kAudioConverterPropertyBitDepthHint'
+    'body': 'KAudioConverterPropertyBitDepthHint'
+  'kAudioConverterPropertyCalculateInputBufferSize (1667850867)':
+    'prefix': 'kAudioConverterPropertyCalculateInputBufferSize'
+    'body': 'KAudioConverterPropertyCalculateInputBufferSize'
+  'kAudioConverterPropertyCalculateOutputBufferSize (1668244083)':
+    'prefix': 'kAudioConverterPropertyCalculateOutputBufferSize'
+    'body': 'KAudioConverterPropertyCalculateOutputBufferSize'
+  'kAudioConverterPropertyCanResumeFromInterruption (1668441705)':
+    'prefix': 'kAudioConverterPropertyCanResumeFromInterruption'
+    'body': 'KAudioConverterPropertyCanResumeFromInterruption'
+  'kAudioConverterPropertyFormatList (1718383476)':
+    'prefix': 'kAudioConverterPropertyFormatList'
+    'body': 'KAudioConverterPropertyFormatList'
+  'kAudioConverterPropertyInputCodecParameters (1768121456)':
+    'prefix': 'kAudioConverterPropertyInputCodecParameters'
+    'body': 'KAudioConverterPropertyInputCodecParameters'
+  'kAudioConverterPropertyMaximumInputBufferSize (2020172403)':
+    'prefix': 'kAudioConverterPropertyMaximumInputBufferSize'
+    'body': 'KAudioConverterPropertyMaximumInputBufferSize'
+  'kAudioConverterPropertyMaximumInputPacketSize (2020175987)':
+    'prefix': 'kAudioConverterPropertyMaximumInputPacketSize'
+    'body': 'KAudioConverterPropertyMaximumInputPacketSize'
+  'kAudioConverterPropertyMaximumOutputPacketSize (2020569203)':
+    'prefix': 'kAudioConverterPropertyMaximumOutputPacketSize'
+    'body': 'KAudioConverterPropertyMaximumOutputPacketSize'
+  'kAudioConverterPropertyMinimumInputBufferSize (1835623027)':
+    'prefix': 'kAudioConverterPropertyMinimumInputBufferSize'
+    'body': 'KAudioConverterPropertyMinimumInputBufferSize'
+  'kAudioConverterPropertyMinimumOutputBufferSize (1836016243)':
+    'prefix': 'kAudioConverterPropertyMinimumOutputBufferSize'
+    'body': 'KAudioConverterPropertyMinimumOutputBufferSize'
+  'kAudioConverterPropertyOutputCodecParameters (1868784752)':
+    'prefix': 'kAudioConverterPropertyOutputCodecParameters'
+    'body': 'KAudioConverterPropertyOutputCodecParameters'
+  'kAudioConverterPropertySettings (1633906803)':
+    'prefix': 'kAudioConverterPropertySettings'
+    'body': 'KAudioConverterPropertySettings'
+  'kAudioConverterQuality_High (96)':
+    'prefix': 'kAudioConverterQuality_High'
+    'body': 'KAudioConverterQuality_High'
+  'kAudioConverterQuality_Low (32)':
+    'prefix': 'kAudioConverterQuality_Low'
+    'body': 'KAudioConverterQuality_Low'
+  'kAudioConverterQuality_Max (127)':
+    'prefix': 'kAudioConverterQuality_Max'
+    'body': 'KAudioConverterQuality_Max'
+  'kAudioConverterQuality_Medium (64)':
+    'prefix': 'kAudioConverterQuality_Medium'
+    'body': 'KAudioConverterQuality_Medium'
+  'kAudioConverterQuality_Min (0)':
+    'prefix': 'kAudioConverterQuality_Min'
+    'body': 'KAudioConverterQuality_Min'
+  'kAudioConverterSampleRateConverterAlgorithm (1936876393)':
+    'prefix': 'kAudioConverterSampleRateConverterAlgorithm'
+    'body': 'KAudioConverterSampleRateConverterAlgorithm'
+  'kAudioConverterSampleRateConverterComplexity (1936876385)':
+    'prefix': 'kAudioConverterSampleRateConverterComplexity'
+    'body': 'KAudioConverterSampleRateConverterComplexity'
+  'kAudioConverterSampleRateConverterComplexity_Linear (1818848869)':
+    'prefix': 'kAudioConverterSampleRateConverterComplexity_Linear'
+    'body': 'KAudioConverterSampleRateConverterComplexity_Linear'
+  'kAudioConverterSampleRateConverterComplexity_Mastering (1650553971)':
+    'prefix': 'kAudioConverterSampleRateConverterComplexity_Mastering'
+    'body': 'KAudioConverterSampleRateConverterComplexity_Mastering'
+  'kAudioConverterSampleRateConverterComplexity_Normal (1852797549)':
+    'prefix': 'kAudioConverterSampleRateConverterComplexity_Normal'
+    'body': 'KAudioConverterSampleRateConverterComplexity_Normal'
+  'kAudioConverterSampleRateConverterInitialPhase (1936876400)':
+    'prefix': 'kAudioConverterSampleRateConverterInitialPhase'
+    'body': 'KAudioConverterSampleRateConverterInitialPhase'
+  'kAudioConverterSampleRateConverterQuality (1936876401)':
+    'prefix': 'kAudioConverterSampleRateConverterQuality'
+    'body': 'KAudioConverterSampleRateConverterQuality'
+  'kAudioDecoderComponentType (1633969507)':
+    'prefix': 'kAudioDecoderComponentType'
+    'body': 'KAudioDecoderComponentType'
+  'kAudioEncoderComponentType (1634037347)':
+    'prefix': 'kAudioEncoderComponentType'
+    'body': 'KAudioEncoderComponentType'
+  'kAudioFile3GP2Type (862416946)':
+    'prefix': 'kAudioFile3GP2Type'
+    'body': 'KAudioFile3GP2Type'
+  'kAudioFile3GPType (862417008)':
+    'prefix': 'kAudioFile3GPType'
+    'body': 'KAudioFile3GPType'
+  'kAudioFileAAC_ADTSType (1633973363)':
+    'prefix': 'kAudioFileAAC_ADTSType'
+    'body': 'KAudioFileAAC_ADTSType'
+  'kAudioFileAC3Type (1633889587)':
+    'prefix': 'kAudioFileAC3Type'
+    'body': 'KAudioFileAC3Type'
+  'kAudioFileAIFCType (1095321155)':
+    'prefix': 'kAudioFileAIFCType'
+    'body': 'KAudioFileAIFCType'
+  'kAudioFileAIFFType (1095321158)':
+    'prefix': 'kAudioFileAIFFType'
+    'body': 'KAudioFileAIFFType'
+  'kAudioFileAMRType (1634562662)':
+    'prefix': 'kAudioFileAMRType'
+    'body': 'KAudioFileAMRType'
+  'kAudioFileBadPropertySizeError (561211770)':
+    'prefix': 'kAudioFileBadPropertySizeError'
+    'body': 'KAudioFileBadPropertySizeError'
+  'kAudioFileCAFType (1667327590)':
+    'prefix': 'kAudioFileCAFType'
+    'body': 'KAudioFileCAFType'
+  'kAudioFileDoesNotAllow64BitDataSizeError (1868981823)':
+    'prefix': 'kAudioFileDoesNotAllow64BitDataSizeError'
+    'body': 'KAudioFileDoesNotAllow64BitDataSizeError'
+  'kAudioFileEndOfFileError (-39)':
+    'prefix': 'kAudioFileEndOfFileError'
+    'body': 'KAudioFileEndOfFileError'
+  'kAudioFileFileNotFoundError (-43)':
+    'prefix': 'kAudioFileFileNotFoundError'
+    'body': 'KAudioFileFileNotFoundError'
+  'kAudioFileFlags_DontPageAlignAudioData (2)':
+    'prefix': 'kAudioFileFlags_DontPageAlignAudioData'
+    'body': 'KAudioFileFlags_DontPageAlignAudioData'
+  'kAudioFileFlags_EraseFile (1)':
+    'prefix': 'kAudioFileFlags_EraseFile'
+    'body': 'KAudioFileFlags_EraseFile'
+  'kAudioFileGlobalInfo_AllExtensions (1634498676)':
+    'prefix': 'kAudioFileGlobalInfo_AllExtensions'
+    'body': 'KAudioFileGlobalInfo_AllExtensions'
+  'kAudioFileGlobalInfo_AllHFSTypeCodes (1634231923)':
+    'prefix': 'kAudioFileGlobalInfo_AllHFSTypeCodes'
+    'body': 'KAudioFileGlobalInfo_AllHFSTypeCodes'
+  'kAudioFileGlobalInfo_AllMIMETypes (1634560365)':
+    'prefix': 'kAudioFileGlobalInfo_AllMIMETypes'
+    'body': 'KAudioFileGlobalInfo_AllMIMETypes'
+  'kAudioFileGlobalInfo_AllUTIs (1635087465)':
+    'prefix': 'kAudioFileGlobalInfo_AllUTIs'
+    'body': 'KAudioFileGlobalInfo_AllUTIs'
+  'kAudioFileGlobalInfo_AvailableFormatIDs (1718446436)':
+    'prefix': 'kAudioFileGlobalInfo_AvailableFormatIDs'
+    'body': 'KAudioFileGlobalInfo_AvailableFormatIDs'
+  'kAudioFileGlobalInfo_AvailableStreamDescriptionsForFormat (1935960420)':
+    'prefix': 'kAudioFileGlobalInfo_AvailableStreamDescriptionsForFormat'
+    'body': 'KAudioFileGlobalInfo_AvailableStreamDescriptionsForFormat'
+  'kAudioFileGlobalInfo_ExtensionsForType (1717926004)':
+    'prefix': 'kAudioFileGlobalInfo_ExtensionsForType'
+    'body': 'KAudioFileGlobalInfo_ExtensionsForType'
+  'kAudioFileGlobalInfo_FileTypeName (1718906477)':
+    'prefix': 'kAudioFileGlobalInfo_FileTypeName'
+    'body': 'KAudioFileGlobalInfo_FileTypeName'
+  'kAudioFileGlobalInfo_HFSTypeCodesForType (1718118003)':
+    'prefix': 'kAudioFileGlobalInfo_HFSTypeCodesForType'
+    'body': 'KAudioFileGlobalInfo_HFSTypeCodesForType'
+  'kAudioFileGlobalInfo_MIMETypesForType (1718446445)':
+    'prefix': 'kAudioFileGlobalInfo_MIMETypesForType'
+    'body': 'KAudioFileGlobalInfo_MIMETypesForType'
+  'kAudioFileGlobalInfo_ReadableTypes (1634103910)':
+    'prefix': 'kAudioFileGlobalInfo_ReadableTypes'
+    'body': 'KAudioFileGlobalInfo_ReadableTypes'
+  'kAudioFileGlobalInfo_TypesForExtension (1952807028)':
+    'prefix': 'kAudioFileGlobalInfo_TypesForExtension'
+    'body': 'KAudioFileGlobalInfo_TypesForExtension'
+  'kAudioFileGlobalInfo_TypesForHFSTypeCode (1952999027)':
+    'prefix': 'kAudioFileGlobalInfo_TypesForHFSTypeCode'
+    'body': 'KAudioFileGlobalInfo_TypesForHFSTypeCode'
+  'kAudioFileGlobalInfo_TypesForMIMEType (1953327469)':
+    'prefix': 'kAudioFileGlobalInfo_TypesForMIMEType'
+    'body': 'KAudioFileGlobalInfo_TypesForMIMEType'
+  'kAudioFileGlobalInfo_TypesForUTI (1953854569)':
+    'prefix': 'kAudioFileGlobalInfo_TypesForUTI'
+    'body': 'KAudioFileGlobalInfo_TypesForUTI'
+  'kAudioFileGlobalInfo_UTIsForType (1718973545)':
+    'prefix': 'kAudioFileGlobalInfo_UTIsForType'
+    'body': 'KAudioFileGlobalInfo_UTIsForType'
+  'kAudioFileGlobalInfo_WritableTypes (1634105190)':
+    'prefix': 'kAudioFileGlobalInfo_WritableTypes'
+    'body': 'KAudioFileGlobalInfo_WritableTypes'
+  'kAudioFileInvalidChunkError (1667787583)':
+    'prefix': 'kAudioFileInvalidChunkError'
+    'body': 'KAudioFileInvalidChunkError'
+  'kAudioFileInvalidFileError (1685348671)':
+    'prefix': 'kAudioFileInvalidFileError'
+    'body': 'KAudioFileInvalidFileError'
+  'kAudioFileInvalidPacketOffsetError (1885563711)':
+    'prefix': 'kAudioFileInvalidPacketOffsetError'
+    'body': 'KAudioFileInvalidPacketOffsetError'
+  'kAudioFileLoopDirection_Backward (3)':
+    'prefix': 'kAudioFileLoopDirection_Backward'
+    'body': 'KAudioFileLoopDirection_Backward'
+  'kAudioFileLoopDirection_Forward (1)':
+    'prefix': 'kAudioFileLoopDirection_Forward'
+    'body': 'KAudioFileLoopDirection_Forward'
+  'kAudioFileLoopDirection_ForwardAndBackward (2)':
+    'prefix': 'kAudioFileLoopDirection_ForwardAndBackward'
+    'body': 'KAudioFileLoopDirection_ForwardAndBackward'
+  'kAudioFileLoopDirection_NoLooping (0)':
+    'prefix': 'kAudioFileLoopDirection_NoLooping'
+    'body': 'KAudioFileLoopDirection_NoLooping'
+  'kAudioFileM4AType (1832149350)':
+    'prefix': 'kAudioFileM4AType'
+    'body': 'KAudioFileM4AType'
+  'kAudioFileM4BType (1832149606)':
+    'prefix': 'kAudioFileM4BType'
+    'body': 'KAudioFileM4BType'
+  'kAudioFileMP1Type (1297106737)':
+    'prefix': 'kAudioFileMP1Type'
+    'body': 'KAudioFileMP1Type'
+  'kAudioFileMP2Type (1297106738)':
+    'prefix': 'kAudioFileMP2Type'
+    'body': 'KAudioFileMP2Type'
+  'kAudioFileMP3Type (1297106739)':
+    'prefix': 'kAudioFileMP3Type'
+    'body': 'KAudioFileMP3Type'
+  'kAudioFileMPEG4Type (1836069990)':
+    'prefix': 'kAudioFileMPEG4Type'
+    'body': 'KAudioFileMPEG4Type'
+  'kAudioFileMarkerType_Generic (0)':
+    'prefix': 'kAudioFileMarkerType_Generic'
+    'body': 'KAudioFileMarkerType_Generic'
+  'kAudioFileNextType (1315264596)':
+    'prefix': 'kAudioFileNextType'
+    'body': 'KAudioFileNextType'
+  'kAudioFileNotOpenError (-38)':
+    'prefix': 'kAudioFileNotOpenError'
+    'body': 'KAudioFileNotOpenError'
+  'kAudioFileNotOptimizedError (1869640813)':
+    'prefix': 'kAudioFileNotOptimizedError'
+    'body': 'KAudioFileNotOptimizedError'
+  'kAudioFileOperationNotSupportedError (1869627199)':
+    'prefix': 'kAudioFileOperationNotSupportedError'
+    'body': 'KAudioFileOperationNotSupportedError'
+  'kAudioFilePermissionsError (1886547263)':
+    'prefix': 'kAudioFilePermissionsError'
+    'body': 'KAudioFilePermissionsError'
+  'kAudioFilePositionError (-40)':
+    'prefix': 'kAudioFilePositionError'
+    'body': 'KAudioFilePositionError'
+  'kAudioFilePropertyAlbumArtwork (1633776244)':
+    'prefix': 'kAudioFilePropertyAlbumArtwork'
+    'body': 'KAudioFilePropertyAlbumArtwork'
+  'kAudioFilePropertyAudioDataByteCount (1650683508)':
+    'prefix': 'kAudioFilePropertyAudioDataByteCount'
+    'body': 'KAudioFilePropertyAudioDataByteCount'
+  'kAudioFilePropertyAudioDataPacketCount (1885564532)':
+    'prefix': 'kAudioFilePropertyAudioDataPacketCount'
+    'body': 'KAudioFilePropertyAudioDataPacketCount'
+  'kAudioFilePropertyAudioTrackCount (1635017588)':
+    'prefix': 'kAudioFilePropertyAudioTrackCount'
+    'body': 'KAudioFilePropertyAudioTrackCount'
+  'kAudioFilePropertyBitRate (1651663220)':
+    'prefix': 'kAudioFilePropertyBitRate'
+    'body': 'KAudioFilePropertyBitRate'
+  'kAudioFilePropertyByteToPacket (1652125803)':
+    'prefix': 'kAudioFilePropertyByteToPacket'
+    'body': 'KAudioFilePropertyByteToPacket'
+  'kAudioFilePropertyChannelLayout (1668112752)':
+    'prefix': 'kAudioFilePropertyChannelLayout'
+    'body': 'KAudioFilePropertyChannelLayout'
+  'kAudioFilePropertyChunkIDs (1667787108)':
+    'prefix': 'kAudioFilePropertyChunkIDs'
+    'body': 'KAudioFilePropertyChunkIDs'
+  'kAudioFilePropertyDataFormat (1684434292)':
+    'prefix': 'kAudioFilePropertyDataFormat'
+    'body': 'KAudioFilePropertyDataFormat'
+  'kAudioFilePropertyDataFormatName (1718512997)':
+    'prefix': 'kAudioFilePropertyDataFormatName'
+    'body': 'KAudioFilePropertyDataFormatName'
+  'kAudioFilePropertyDataOffset (1685022310)':
+    'prefix': 'kAudioFilePropertyDataOffset'
+    'body': 'KAudioFilePropertyDataOffset'
+  'kAudioFilePropertyDeferSizeUpdates (1685289589)':
+    'prefix': 'kAudioFilePropertyDeferSizeUpdates'
+    'body': 'KAudioFilePropertyDeferSizeUpdates'
+  'kAudioFilePropertyEstimatedDuration (1701082482)':
+    'prefix': 'kAudioFilePropertyEstimatedDuration'
+    'body': 'KAudioFilePropertyEstimatedDuration'
+  'kAudioFilePropertyFileFormat (1717988724)':
+    'prefix': 'kAudioFilePropertyFileFormat'
+    'body': 'KAudioFilePropertyFileFormat'
+  'kAudioFilePropertyFormatList (1718383476)':
+    'prefix': 'kAudioFilePropertyFormatList'
+    'body': 'KAudioFilePropertyFormatList'
+  'kAudioFilePropertyFrameToPacket (1718775915)':
+    'prefix': 'kAudioFilePropertyFrameToPacket'
+    'body': 'KAudioFilePropertyFrameToPacket'
+  'kAudioFilePropertyID3Tag (1768174452)':
+    'prefix': 'kAudioFilePropertyID3Tag'
+    'body': 'KAudioFilePropertyID3Tag'
+  'kAudioFilePropertyInfoDictionary (1768842863)':
+    'prefix': 'kAudioFilePropertyInfoDictionary'
+    'body': 'KAudioFilePropertyInfoDictionary'
+  'kAudioFilePropertyIsOptimized (1869640813)':
+    'prefix': 'kAudioFilePropertyIsOptimized'
+    'body': 'KAudioFilePropertyIsOptimized'
+  'kAudioFilePropertyMagicCookieData (1835493731)':
+    'prefix': 'kAudioFilePropertyMagicCookieData'
+    'body': 'KAudioFilePropertyMagicCookieData'
+  'kAudioFilePropertyMarkerList (1835756659)':
+    'prefix': 'kAudioFilePropertyMarkerList'
+    'body': 'KAudioFilePropertyMarkerList'
+  'kAudioFilePropertyMaximumPacketSize (1886616165)':
+    'prefix': 'kAudioFilePropertyMaximumPacketSize'
+    'body': 'KAudioFilePropertyMaximumPacketSize'
+  'kAudioFilePropertyPacketSizeUpperBound (1886090594)':
+    'prefix': 'kAudioFilePropertyPacketSizeUpperBound'
+    'body': 'KAudioFilePropertyPacketSizeUpperBound'
+  'kAudioFilePropertyPacketTableInfo (1886283375)':
+    'prefix': 'kAudioFilePropertyPacketTableInfo'
+    'body': 'KAudioFilePropertyPacketTableInfo'
+  'kAudioFilePropertyPacketToByte (1886085753)':
+    'prefix': 'kAudioFilePropertyPacketToByte'
+    'body': 'KAudioFilePropertyPacketToByte'
+  'kAudioFilePropertyPacketToFrame (1886086770)':
+    'prefix': 'kAudioFilePropertyPacketToFrame'
+    'body': 'KAudioFilePropertyPacketToFrame'
+  'kAudioFilePropertyRegionList (1919380595)':
+    'prefix': 'kAudioFilePropertyRegionList'
+    'body': 'KAudioFilePropertyRegionList'
+  'kAudioFilePropertyReserveDuration (1920168566)':
+    'prefix': 'kAudioFilePropertyReserveDuration'
+    'body': 'KAudioFilePropertyReserveDuration'
+  'kAudioFilePropertySourceBitDepth (1935832164)':
+    'prefix': 'kAudioFilePropertySourceBitDepth'
+    'body': 'KAudioFilePropertySourceBitDepth'
+  'kAudioFilePropertyUseAudioTrack (1969321067)':
+    'prefix': 'kAudioFilePropertyUseAudioTrack'
+    'body': 'KAudioFilePropertyUseAudioTrack'
+  'kAudioFileReadPermission (1)':
+    'prefix': 'kAudioFileReadPermission'
+    'body': 'KAudioFileReadPermission'
+  'kAudioFileReadWritePermission (3)':
+    'prefix': 'kAudioFileReadWritePermission'
+    'body': 'KAudioFileReadWritePermission'
+  'kAudioFileRegionFlag_LoopEnable (1)':
+    'prefix': 'kAudioFileRegionFlag_LoopEnable'
+    'body': 'KAudioFileRegionFlag_LoopEnable'
+  'kAudioFileRegionFlag_PlayBackward (4)':
+    'prefix': 'kAudioFileRegionFlag_PlayBackward'
+    'body': 'KAudioFileRegionFlag_PlayBackward'
+  'kAudioFileRegionFlag_PlayForward (2)':
+    'prefix': 'kAudioFileRegionFlag_PlayForward'
+    'body': 'KAudioFileRegionFlag_PlayForward'
+  'kAudioFileSoundDesigner2Type (1399075430)':
+    'prefix': 'kAudioFileSoundDesigner2Type'
+    'body': 'KAudioFileSoundDesigner2Type'
+  'kAudioFileStreamError_BadPropertySize (561211770)':
+    'prefix': 'kAudioFileStreamError_BadPropertySize'
+    'body': 'KAudioFileStreamError_BadPropertySize'
+  'kAudioFileStreamError_DataUnavailable (1836020325)':
+    'prefix': 'kAudioFileStreamError_DataUnavailable'
+    'body': 'KAudioFileStreamError_DataUnavailable'
+  'kAudioFileStreamError_DiscontinuityCantRecover (1685283617)':
+    'prefix': 'kAudioFileStreamError_DiscontinuityCantRecover'
+    'body': 'KAudioFileStreamError_DiscontinuityCantRecover'
+  'kAudioFileStreamError_IllegalOperation (1852797029)':
+    'prefix': 'kAudioFileStreamError_IllegalOperation'
+    'body': 'KAudioFileStreamError_IllegalOperation'
+  'kAudioFileStreamError_InvalidFile (1685348671)':
+    'prefix': 'kAudioFileStreamError_InvalidFile'
+    'body': 'KAudioFileStreamError_InvalidFile'
+  'kAudioFileStreamError_InvalidPacketOffset (1885563711)':
+    'prefix': 'kAudioFileStreamError_InvalidPacketOffset'
+    'body': 'KAudioFileStreamError_InvalidPacketOffset'
+  'kAudioFileStreamError_NotOptimized (1869640813)':
+    'prefix': 'kAudioFileStreamError_NotOptimized'
+    'body': 'KAudioFileStreamError_NotOptimized'
+  'kAudioFileStreamError_UnspecifiedError (2003334207)':
+    'prefix': 'kAudioFileStreamError_UnspecifiedError'
+    'body': 'KAudioFileStreamError_UnspecifiedError'
+  'kAudioFileStreamError_UnsupportedDataFormat (1718449215)':
+    'prefix': 'kAudioFileStreamError_UnsupportedDataFormat'
+    'body': 'KAudioFileStreamError_UnsupportedDataFormat'
+  'kAudioFileStreamError_UnsupportedFileType (1954115647)':
+    'prefix': 'kAudioFileStreamError_UnsupportedFileType'
+    'body': 'KAudioFileStreamError_UnsupportedFileType'
+  'kAudioFileStreamError_UnsupportedProperty (1886681407)':
+    'prefix': 'kAudioFileStreamError_UnsupportedProperty'
+    'body': 'KAudioFileStreamError_UnsupportedProperty'
+  'kAudioFileStreamError_ValueUnknown (1970170687)':
+    'prefix': 'kAudioFileStreamError_ValueUnknown'
+    'body': 'KAudioFileStreamError_ValueUnknown'
+  'kAudioFileStreamParseFlag_Discontinuity (1)':
+    'prefix': 'kAudioFileStreamParseFlag_Discontinuity'
+    'body': 'KAudioFileStreamParseFlag_Discontinuity'
+  'kAudioFileStreamPropertyFlag_CacheProperty (2)':
+    'prefix': 'kAudioFileStreamPropertyFlag_CacheProperty'
+    'body': 'KAudioFileStreamPropertyFlag_CacheProperty'
+  'kAudioFileStreamPropertyFlag_PropertyIsCached (1)':
+    'prefix': 'kAudioFileStreamPropertyFlag_PropertyIsCached'
+    'body': 'KAudioFileStreamPropertyFlag_PropertyIsCached'
+  'kAudioFileStreamProperty_AudioDataByteCount (1650683508)':
+    'prefix': 'kAudioFileStreamProperty_AudioDataByteCount'
+    'body': 'KAudioFileStreamProperty_AudioDataByteCount'
+  'kAudioFileStreamProperty_AudioDataPacketCount (1885564532)':
+    'prefix': 'kAudioFileStreamProperty_AudioDataPacketCount'
+    'body': 'KAudioFileStreamProperty_AudioDataPacketCount'
+  'kAudioFileStreamProperty_AverageBytesPerPacket (1633841264)':
+    'prefix': 'kAudioFileStreamProperty_AverageBytesPerPacket'
+    'body': 'KAudioFileStreamProperty_AverageBytesPerPacket'
+  'kAudioFileStreamProperty_BitRate (1651663220)':
+    'prefix': 'kAudioFileStreamProperty_BitRate'
+    'body': 'KAudioFileStreamProperty_BitRate'
+  'kAudioFileStreamProperty_ByteToPacket (1652125803)':
+    'prefix': 'kAudioFileStreamProperty_ByteToPacket'
+    'body': 'KAudioFileStreamProperty_ByteToPacket'
+  'kAudioFileStreamProperty_ChannelLayout (1668112752)':
+    'prefix': 'kAudioFileStreamProperty_ChannelLayout'
+    'body': 'KAudioFileStreamProperty_ChannelLayout'
+  'kAudioFileStreamProperty_DataFormat (1684434292)':
+    'prefix': 'kAudioFileStreamProperty_DataFormat'
+    'body': 'KAudioFileStreamProperty_DataFormat'
+  'kAudioFileStreamProperty_DataOffset (1685022310)':
+    'prefix': 'kAudioFileStreamProperty_DataOffset'
+    'body': 'KAudioFileStreamProperty_DataOffset'
+  'kAudioFileStreamProperty_FileFormat (1717988724)':
+    'prefix': 'kAudioFileStreamProperty_FileFormat'
+    'body': 'KAudioFileStreamProperty_FileFormat'
+  'kAudioFileStreamProperty_FormatList (1718383476)':
+    'prefix': 'kAudioFileStreamProperty_FormatList'
+    'body': 'KAudioFileStreamProperty_FormatList'
+  'kAudioFileStreamProperty_FrameToPacket (1718775915)':
+    'prefix': 'kAudioFileStreamProperty_FrameToPacket'
+    'body': 'KAudioFileStreamProperty_FrameToPacket'
+  'kAudioFileStreamProperty_InfoDictionary (1768842863)':
+    'prefix': 'kAudioFileStreamProperty_InfoDictionary'
+    'body': 'KAudioFileStreamProperty_InfoDictionary'
+  'kAudioFileStreamProperty_MagicCookieData (1835493731)':
+    'prefix': 'kAudioFileStreamProperty_MagicCookieData'
+    'body': 'KAudioFileStreamProperty_MagicCookieData'
+  'kAudioFileStreamProperty_MaximumPacketSize (1886616165)':
+    'prefix': 'kAudioFileStreamProperty_MaximumPacketSize'
+    'body': 'KAudioFileStreamProperty_MaximumPacketSize'
+  'kAudioFileStreamProperty_PacketSizeUpperBound (1886090594)':
+    'prefix': 'kAudioFileStreamProperty_PacketSizeUpperBound'
+    'body': 'KAudioFileStreamProperty_PacketSizeUpperBound'
+  'kAudioFileStreamProperty_PacketTableInfo (1886283375)':
+    'prefix': 'kAudioFileStreamProperty_PacketTableInfo'
+    'body': 'KAudioFileStreamProperty_PacketTableInfo'
+  'kAudioFileStreamProperty_PacketToByte (1886085753)':
+    'prefix': 'kAudioFileStreamProperty_PacketToByte'
+    'body': 'KAudioFileStreamProperty_PacketToByte'
+  'kAudioFileStreamProperty_PacketToFrame (1886086770)':
+    'prefix': 'kAudioFileStreamProperty_PacketToFrame'
+    'body': 'KAudioFileStreamProperty_PacketToFrame'
+  'kAudioFileStreamProperty_ReadyToProducePackets (1919247481)':
+    'prefix': 'kAudioFileStreamProperty_ReadyToProducePackets'
+    'body': 'KAudioFileStreamProperty_ReadyToProducePackets'
+  'kAudioFileStreamSeekFlag_OffsetIsEstimated (1)':
+    'prefix': 'kAudioFileStreamSeekFlag_OffsetIsEstimated'
+    'body': 'KAudioFileStreamSeekFlag_OffsetIsEstimated'
+  'kAudioFileUnspecifiedError (2003334207)':
+    'prefix': 'kAudioFileUnspecifiedError'
+    'body': 'KAudioFileUnspecifiedError'
+  'kAudioFileUnsupportedDataFormatError (1718449215)':
+    'prefix': 'kAudioFileUnsupportedDataFormatError'
+    'body': 'KAudioFileUnsupportedDataFormatError'
+  'kAudioFileUnsupportedFileTypeError (1954115647)':
+    'prefix': 'kAudioFileUnsupportedFileTypeError'
+    'body': 'KAudioFileUnsupportedFileTypeError'
+  'kAudioFileUnsupportedPropertyError (1886681407)':
+    'prefix': 'kAudioFileUnsupportedPropertyError'
+    'body': 'KAudioFileUnsupportedPropertyError'
+  'kAudioFileWAVEType (1463899717)':
+    'prefix': 'kAudioFileWAVEType'
+    'body': 'KAudioFileWAVEType'
+  'kAudioFileWritePermission (2)':
+    'prefix': 'kAudioFileWritePermission'
+    'body': 'KAudioFileWritePermission'
+  'kAudioFormatBadPropertySizeError (561211770)':
+    'prefix': 'kAudioFormatBadPropertySizeError'
+    'body': 'KAudioFormatBadPropertySizeError'
+  'kAudioFormatBadSpecifierSizeError (561213539)':
+    'prefix': 'kAudioFormatBadSpecifierSizeError'
+    'body': 'KAudioFormatBadSpecifierSizeError'
+  'kAudioFormatProperty_ASBDFromESDS (1702064996)':
+    'prefix': 'kAudioFormatProperty_ASBDFromESDS'
+    'body': 'KAudioFormatProperty_ASBDFromESDS'
+  'kAudioFormatProperty_ASBDFromMPEGPacket (1633971568)':
+    'prefix': 'kAudioFormatProperty_ASBDFromMPEGPacket'
+    'body': 'KAudioFormatProperty_ASBDFromMPEGPacket'
+  'kAudioFormatProperty_AreChannelLayoutsEquivalent (1667786097)':
+    'prefix': 'kAudioFormatProperty_AreChannelLayoutsEquivalent'
+    'body': 'KAudioFormatProperty_AreChannelLayoutsEquivalent'
+  'kAudioFormatProperty_AvailableEncodeBitRates (1634034290)':
+    'prefix': 'kAudioFormatProperty_AvailableEncodeBitRates'
+    'body': 'KAudioFormatProperty_AvailableEncodeBitRates'
+  'kAudioFormatProperty_AvailableEncodeChannelLayoutTags (1634034540)':
+    'prefix': 'kAudioFormatProperty_AvailableEncodeChannelLayoutTags'
+    'body': 'KAudioFormatProperty_AvailableEncodeChannelLayoutTags'
+  'kAudioFormatProperty_AvailableEncodeNumberChannels (1635151459)':
+    'prefix': 'kAudioFormatProperty_AvailableEncodeNumberChannels'
+    'body': 'KAudioFormatProperty_AvailableEncodeNumberChannels'
+  'kAudioFormatProperty_AvailableEncodeSampleRates (1634038642)':
+    'prefix': 'kAudioFormatProperty_AvailableEncodeSampleRates'
+    'body': 'KAudioFormatProperty_AvailableEncodeSampleRates'
+  'kAudioFormatProperty_BalanceFade (1650551910)':
+    'prefix': 'kAudioFormatProperty_BalanceFade'
+    'body': 'KAudioFormatProperty_BalanceFade'
+  'kAudioFormatProperty_BitmapForLayoutTag (1651340391)':
+    'prefix': 'kAudioFormatProperty_BitmapForLayoutTag'
+    'body': 'KAudioFormatProperty_BitmapForLayoutTag'
+  'kAudioFormatProperty_ChannelLayoutForBitmap (1668116578)':
+    'prefix': 'kAudioFormatProperty_ChannelLayoutForBitmap'
+    'body': 'KAudioFormatProperty_ChannelLayoutForBitmap'
+  'kAudioFormatProperty_ChannelLayoutForTag (1668116588)':
+    'prefix': 'kAudioFormatProperty_ChannelLayoutForTag'
+    'body': 'KAudioFormatProperty_ChannelLayoutForTag'
+  'kAudioFormatProperty_ChannelLayoutFromESDS (1702060908)':
+    'prefix': 'kAudioFormatProperty_ChannelLayoutFromESDS'
+    'body': 'KAudioFormatProperty_ChannelLayoutFromESDS'
+  'kAudioFormatProperty_ChannelLayoutName (1819242093)':
+    'prefix': 'kAudioFormatProperty_ChannelLayoutName'
+    'body': 'KAudioFormatProperty_ChannelLayoutName'
+  'kAudioFormatProperty_ChannelLayoutSimpleName (1819504237)':
+    'prefix': 'kAudioFormatProperty_ChannelLayoutSimpleName'
+    'body': 'KAudioFormatProperty_ChannelLayoutSimpleName'
+  'kAudioFormatProperty_ChannelMap (1667788144)':
+    'prefix': 'kAudioFormatProperty_ChannelMap'
+    'body': 'KAudioFormatProperty_ChannelMap'
+  'kAudioFormatProperty_ChannelName (1668178285)':
+    'prefix': 'kAudioFormatProperty_ChannelName'
+    'body': 'KAudioFormatProperty_ChannelName'
+  'kAudioFormatProperty_ChannelShortName (1668509293)':
+    'prefix': 'kAudioFormatProperty_ChannelShortName'
+    'body': 'KAudioFormatProperty_ChannelShortName'
+  'kAudioFormatProperty_DecodeFormatIDs (1633904998)':
+    'prefix': 'kAudioFormatProperty_DecodeFormatIDs'
+    'body': 'KAudioFormatProperty_DecodeFormatIDs'
+  'kAudioFormatProperty_Decoders (1635148901)':
+    'prefix': 'kAudioFormatProperty_Decoders'
+    'body': 'KAudioFormatProperty_Decoders'
+  'kAudioFormatProperty_EncodeFormatIDs (1633906534)':
+    'prefix': 'kAudioFormatProperty_EncodeFormatIDs'
+    'body': 'KAudioFormatProperty_EncodeFormatIDs'
+  'kAudioFormatProperty_Encoders (1635149166)':
+    'prefix': 'kAudioFormatProperty_Encoders'
+    'body': 'KAudioFormatProperty_Encoders'
+  'kAudioFormatProperty_FirstPlayableFormatFromList (1718642284)':
+    'prefix': 'kAudioFormatProperty_FirstPlayableFormatFromList'
+    'body': 'KAudioFormatProperty_FirstPlayableFormatFromList'
+  'kAudioFormatProperty_FormatInfo (1718449257)':
+    'prefix': 'kAudioFormatProperty_FormatInfo'
+    'body': 'KAudioFormatProperty_FormatInfo'
+  'kAudioFormatProperty_FormatIsEncrypted (1668446576)':
+    'prefix': 'kAudioFormatProperty_FormatIsEncrypted'
+    'body': 'KAudioFormatProperty_FormatIsEncrypted'
+  'kAudioFormatProperty_FormatIsExternallyFramed (1717925990)':
+    'prefix': 'kAudioFormatProperty_FormatIsExternallyFramed'
+    'body': 'KAudioFormatProperty_FormatIsExternallyFramed'
+  'kAudioFormatProperty_FormatIsVBR (1719034482)':
+    'prefix': 'kAudioFormatProperty_FormatIsVBR'
+    'body': 'KAudioFormatProperty_FormatIsVBR'
+  'kAudioFormatProperty_FormatList (1718383476)':
+    'prefix': 'kAudioFormatProperty_FormatList'
+    'body': 'KAudioFormatProperty_FormatList'
+  'kAudioFormatProperty_FormatName (1718509933)':
+    'prefix': 'kAudioFormatProperty_FormatName'
+    'body': 'KAudioFormatProperty_FormatName'
+  'kAudioFormatProperty_HardwareCodecCapabilities (1752654691)':
+    'prefix': 'kAudioFormatProperty_HardwareCodecCapabilities'
+    'body': 'KAudioFormatProperty_HardwareCodecCapabilities'
+  'kAudioFormatProperty_ID3TagSize (1768174451)':
+    'prefix': 'kAudioFormatProperty_ID3TagSize'
+    'body': 'KAudioFormatProperty_ID3TagSize'
+  'kAudioFormatProperty_ID3TagToDictionary (1768174436)':
+    'prefix': 'kAudioFormatProperty_ID3TagToDictionary'
+    'body': 'KAudioFormatProperty_ID3TagToDictionary'
+  'kAudioFormatProperty_MatrixMixMap (1835884912)':
+    'prefix': 'kAudioFormatProperty_MatrixMixMap'
+    'body': 'KAudioFormatProperty_MatrixMixMap'
+  'kAudioFormatProperty_NumberOfChannelsForLayout (1852008557)':
+    'prefix': 'kAudioFormatProperty_NumberOfChannelsForLayout'
+    'body': 'KAudioFormatProperty_NumberOfChannelsForLayout'
+  'kAudioFormatProperty_OutputFormatList (1868983411)':
+    'prefix': 'kAudioFormatProperty_OutputFormatList'
+    'body': 'KAudioFormatProperty_OutputFormatList'
+  'kAudioFormatProperty_PanningMatrix (1885433453)':
+    'prefix': 'kAudioFormatProperty_PanningMatrix'
+    'body': 'KAudioFormatProperty_PanningMatrix'
+  'kAudioFormatProperty_TagForChannelLayout (1668116596)':
+    'prefix': 'kAudioFormatProperty_TagForChannelLayout'
+    'body': 'KAudioFormatProperty_TagForChannelLayout'
+  'kAudioFormatProperty_TagsForNumberOfChannels (1952540515)':
+    'prefix': 'kAudioFormatProperty_TagsForNumberOfChannels'
+    'body': 'KAudioFormatProperty_TagsForNumberOfChannels'
+  'kAudioFormatProperty_ValidateChannelLayout (1986093932)':
+    'prefix': 'kAudioFormatProperty_ValidateChannelLayout'
+    'body': 'KAudioFormatProperty_ValidateChannelLayout'
+  'kAudioFormatUnknownFormatError (560360820)':
+    'prefix': 'kAudioFormatUnknownFormatError'
+    'body': 'KAudioFormatUnknownFormatError'
+  'kAudioFormatUnspecifiedError (2003329396)':
+    'prefix': 'kAudioFormatUnspecifiedError'
+    'body': 'KAudioFormatUnspecifiedError'
+  'kAudioFormatUnsupportedDataFormatError (1718449215)':
+    'prefix': 'kAudioFormatUnsupportedDataFormatError'
+    'body': 'KAudioFormatUnsupportedDataFormatError'
+  'kAudioFormatUnsupportedPropertyError (1886547824)':
+    'prefix': 'kAudioFormatUnsupportedPropertyError'
+    'body': 'KAudioFormatUnsupportedPropertyError'
+  'kAudioQueueDeviceProperty_NumberChannels (1634821219)':
+    'prefix': 'kAudioQueueDeviceProperty_NumberChannels'
+    'body': 'KAudioQueueDeviceProperty_NumberChannels'
+  'kAudioQueueDeviceProperty_SampleRate (1634825074)':
+    'prefix': 'kAudioQueueDeviceProperty_SampleRate'
+    'body': 'KAudioQueueDeviceProperty_SampleRate'
+  'kAudioQueueErr_BufferEmpty (-66686)':
+    'prefix': 'kAudioQueueErr_BufferEmpty'
+    'body': 'KAudioQueueErr_BufferEmpty'
+  'kAudioQueueErr_BufferInQueue (-66679)':
+    'prefix': 'kAudioQueueErr_BufferInQueue'
+    'body': 'KAudioQueueErr_BufferInQueue'
+  'kAudioQueueErr_CannotStart (-66681)':
+    'prefix': 'kAudioQueueErr_CannotStart'
+    'body': 'KAudioQueueErr_CannotStart'
+  'kAudioQueueErr_CodecNotFound (-66673)':
+    'prefix': 'kAudioQueueErr_CodecNotFound'
+    'body': 'KAudioQueueErr_CodecNotFound'
+  'kAudioQueueErr_DisposalPending (-66685)':
+    'prefix': 'kAudioQueueErr_DisposalPending'
+    'body': 'KAudioQueueErr_DisposalPending'
+  'kAudioQueueErr_EnqueueDuringReset (-66632)':
+    'prefix': 'kAudioQueueErr_EnqueueDuringReset'
+    'body': 'KAudioQueueErr_EnqueueDuringReset'
+  'kAudioQueueErr_InvalidBuffer (-66687)':
+    'prefix': 'kAudioQueueErr_InvalidBuffer'
+    'body': 'KAudioQueueErr_InvalidBuffer'
+  'kAudioQueueErr_InvalidCodecAccess (-66672)':
+    'prefix': 'kAudioQueueErr_InvalidCodecAccess'
+    'body': 'KAudioQueueErr_InvalidCodecAccess'
+  'kAudioQueueErr_InvalidDevice (-66680)':
+    'prefix': 'kAudioQueueErr_InvalidDevice'
+    'body': 'KAudioQueueErr_InvalidDevice'
+  'kAudioQueueErr_InvalidOfflineMode (-66626)':
+    'prefix': 'kAudioQueueErr_InvalidOfflineMode'
+    'body': 'KAudioQueueErr_InvalidOfflineMode'
+  'kAudioQueueErr_InvalidParameter (-66682)':
+    'prefix': 'kAudioQueueErr_InvalidParameter'
+    'body': 'KAudioQueueErr_InvalidParameter'
+  'kAudioQueueErr_InvalidProperty (-66684)':
+    'prefix': 'kAudioQueueErr_InvalidProperty'
+    'body': 'KAudioQueueErr_InvalidProperty'
+  'kAudioQueueErr_InvalidPropertySize (-66683)':
+    'prefix': 'kAudioQueueErr_InvalidPropertySize'
+    'body': 'KAudioQueueErr_InvalidPropertySize'
+  'kAudioQueueErr_InvalidPropertyValue (-66675)':
+    'prefix': 'kAudioQueueErr_InvalidPropertyValue'
+    'body': 'KAudioQueueErr_InvalidPropertyValue'
+  'kAudioQueueErr_InvalidQueueType (-66677)':
+    'prefix': 'kAudioQueueErr_InvalidQueueType'
+    'body': 'KAudioQueueErr_InvalidQueueType'
+  'kAudioQueueErr_InvalidRunState (-66678)':
+    'prefix': 'kAudioQueueErr_InvalidRunState'
+    'body': 'KAudioQueueErr_InvalidRunState'
+  'kAudioQueueErr_InvalidTapContext (-66669)':
+    'prefix': 'kAudioQueueErr_InvalidTapContext'
+    'body': 'KAudioQueueErr_InvalidTapContext'
+  'kAudioQueueErr_InvalidTapType (-66667)':
+    'prefix': 'kAudioQueueErr_InvalidTapType'
+    'body': 'KAudioQueueErr_InvalidTapType'
+  'kAudioQueueErr_Permissions (-66676)':
+    'prefix': 'kAudioQueueErr_Permissions'
+    'body': 'KAudioQueueErr_Permissions'
+  'kAudioQueueErr_PrimeTimedOut (-66674)':
+    'prefix': 'kAudioQueueErr_PrimeTimedOut'
+    'body': 'KAudioQueueErr_PrimeTimedOut'
+  'kAudioQueueErr_QueueInvalidated (-66671)':
+    'prefix': 'kAudioQueueErr_QueueInvalidated'
+    'body': 'KAudioQueueErr_QueueInvalidated'
+  'kAudioQueueErr_RecordUnderrun (-66668)':
+    'prefix': 'kAudioQueueErr_RecordUnderrun'
+    'body': 'KAudioQueueErr_RecordUnderrun'
+  'kAudioQueueErr_TooManyTaps (-66670)':
+    'prefix': 'kAudioQueueErr_TooManyTaps'
+    'body': 'KAudioQueueErr_TooManyTaps'
+  'kAudioQueueHardwareCodecPolicy_Default (0)':
+    'prefix': 'kAudioQueueHardwareCodecPolicy_Default'
+    'body': 'KAudioQueueHardwareCodecPolicy_Default'
+  'kAudioQueueHardwareCodecPolicy_PreferHardware (4)':
+    'prefix': 'kAudioQueueHardwareCodecPolicy_PreferHardware'
+    'body': 'KAudioQueueHardwareCodecPolicy_PreferHardware'
+  'kAudioQueueHardwareCodecPolicy_PreferSoftware (3)':
+    'prefix': 'kAudioQueueHardwareCodecPolicy_PreferSoftware'
+    'body': 'KAudioQueueHardwareCodecPolicy_PreferSoftware'
+  'kAudioQueueHardwareCodecPolicy_UseHardwareOnly (2)':
+    'prefix': 'kAudioQueueHardwareCodecPolicy_UseHardwareOnly'
+    'body': 'KAudioQueueHardwareCodecPolicy_UseHardwareOnly'
+  'kAudioQueueHardwareCodecPolicy_UseSoftwareOnly (1)':
+    'prefix': 'kAudioQueueHardwareCodecPolicy_UseSoftwareOnly'
+    'body': 'KAudioQueueHardwareCodecPolicy_UseSoftwareOnly'
+  'kAudioQueueParam_Pan (13)':
+    'prefix': 'kAudioQueueParam_Pan'
+    'body': 'KAudioQueueParam_Pan'
+  'kAudioQueueParam_Pitch (3)':
+    'prefix': 'kAudioQueueParam_Pitch'
+    'body': 'KAudioQueueParam_Pitch'
+  'kAudioQueueParam_PlayRate (2)':
+    'prefix': 'kAudioQueueParam_PlayRate'
+    'body': 'KAudioQueueParam_PlayRate'
+  'kAudioQueueParam_Volume (1)':
+    'prefix': 'kAudioQueueParam_Volume'
+    'body': 'KAudioQueueParam_Volume'
+  'kAudioQueueParam_VolumeRampTime (4)':
+    'prefix': 'kAudioQueueParam_VolumeRampTime'
+    'body': 'KAudioQueueParam_VolumeRampTime'
+  'kAudioQueueProcessingTap_EndOfStream (512)':
+    'prefix': 'kAudioQueueProcessingTap_EndOfStream'
+    'body': 'KAudioQueueProcessingTap_EndOfStream'
+  'kAudioQueueProcessingTap_PostEffects (2)':
+    'prefix': 'kAudioQueueProcessingTap_PostEffects'
+    'body': 'KAudioQueueProcessingTap_PostEffects'
+  'kAudioQueueProcessingTap_PreEffects (1)':
+    'prefix': 'kAudioQueueProcessingTap_PreEffects'
+    'body': 'KAudioQueueProcessingTap_PreEffects'
+  'kAudioQueueProcessingTap_Siphon (4)':
+    'prefix': 'kAudioQueueProcessingTap_Siphon'
+    'body': 'KAudioQueueProcessingTap_Siphon'
+  'kAudioQueueProcessingTap_StartOfStream (256)':
+    'prefix': 'kAudioQueueProcessingTap_StartOfStream'
+    'body': 'KAudioQueueProcessingTap_StartOfStream'
+  'kAudioQueueProperty_ChannelAssignments (1634820961)':
+    'prefix': 'kAudioQueueProperty_ChannelAssignments'
+    'body': 'KAudioQueueProperty_ChannelAssignments'
+  'kAudioQueueProperty_ChannelLayout (1634820972)':
+    'prefix': 'kAudioQueueProperty_ChannelLayout'
+    'body': 'KAudioQueueProperty_ChannelLayout'
+  'kAudioQueueProperty_ConverterError (1902343781)':
+    'prefix': 'kAudioQueueProperty_ConverterError'
+    'body': 'KAudioQueueProperty_ConverterError'
+  'kAudioQueueProperty_CurrentDevice (1634820964)':
+    'prefix': 'kAudioQueueProperty_CurrentDevice'
+    'body': 'KAudioQueueProperty_CurrentDevice'
+  'kAudioQueueProperty_CurrentLevelMeter (1634823542)':
+    'prefix': 'kAudioQueueProperty_CurrentLevelMeter'
+    'body': 'KAudioQueueProperty_CurrentLevelMeter'
+  'kAudioQueueProperty_CurrentLevelMeterDB (1634823524)':
+    'prefix': 'kAudioQueueProperty_CurrentLevelMeterDB'
+    'body': 'KAudioQueueProperty_CurrentLevelMeterDB'
+  'kAudioQueueProperty_DecodeBufferSizeFrames (1684234854)':
+    'prefix': 'kAudioQueueProperty_DecodeBufferSizeFrames'
+    'body': 'KAudioQueueProperty_DecodeBufferSizeFrames'
+  'kAudioQueueProperty_EnableLevelMetering (1634823525)':
+    'prefix': 'kAudioQueueProperty_EnableLevelMetering'
+    'body': 'KAudioQueueProperty_EnableLevelMetering'
+  'kAudioQueueProperty_EnableTimePitch (1902081136)':
+    'prefix': 'kAudioQueueProperty_EnableTimePitch'
+    'body': 'KAudioQueueProperty_EnableTimePitch'
+  'kAudioQueueProperty_HardwareCodecPolicy (1634820976)':
+    'prefix': 'kAudioQueueProperty_HardwareCodecPolicy'
+    'body': 'KAudioQueueProperty_HardwareCodecPolicy'
+  'kAudioQueueProperty_IsRunning (1634824814)':
+    'prefix': 'kAudioQueueProperty_IsRunning'
+    'body': 'KAudioQueueProperty_IsRunning'
+  'kAudioQueueProperty_MagicCookie (1634823523)':
+    'prefix': 'kAudioQueueProperty_MagicCookie'
+    'body': 'KAudioQueueProperty_MagicCookie'
+  'kAudioQueueProperty_MaximumOutputPacketSize (2020569203)':
+    'prefix': 'kAudioQueueProperty_MaximumOutputPacketSize'
+    'body': 'KAudioQueueProperty_MaximumOutputPacketSize'
+  'kAudioQueueProperty_StreamDescription (1634821748)':
+    'prefix': 'kAudioQueueProperty_StreamDescription'
+    'body': 'KAudioQueueProperty_StreamDescription'
+  'kAudioQueueProperty_TimePitchAlgorithm (1903456353)':
+    'prefix': 'kAudioQueueProperty_TimePitchAlgorithm'
+    'body': 'KAudioQueueProperty_TimePitchAlgorithm'
+  'kAudioQueueProperty_TimePitchBypass (1903456354)':
+    'prefix': 'kAudioQueueProperty_TimePitchBypass'
+    'body': 'KAudioQueueProperty_TimePitchBypass'
+  'kAudioQueueTimePitchAlgorithm_LowQualityZeroLatency (1819376236)':
+    'prefix': 'kAudioQueueTimePitchAlgorithm_LowQualityZeroLatency'
+    'body': 'KAudioQueueTimePitchAlgorithm_LowQualityZeroLatency'
+  'kAudioQueueTimePitchAlgorithm_Spectral (1936745827)':
+    'prefix': 'kAudioQueueTimePitchAlgorithm_Spectral'
+    'body': 'KAudioQueueTimePitchAlgorithm_Spectral'
+  'kAudioQueueTimePitchAlgorithm_TimeDomain (1953064047)':
+    'prefix': 'kAudioQueueTimePitchAlgorithm_TimeDomain'
+    'body': 'KAudioQueueTimePitchAlgorithm_TimeDomain'
+  'kAudioQueueTimePitchAlgorithm_Varispeed (1987276900)':
+    'prefix': 'kAudioQueueTimePitchAlgorithm_Varispeed'
+    'body': 'KAudioQueueTimePitchAlgorithm_Varispeed'
+  'kAudioServicesBadPropertySizeError (561211770)':
+    'prefix': 'kAudioServicesBadPropertySizeError'
+    'body': 'KAudioServicesBadPropertySizeError'
+  'kAudioServicesBadSpecifierSizeError (561213539)':
+    'prefix': 'kAudioServicesBadSpecifierSizeError'
+    'body': 'KAudioServicesBadSpecifierSizeError'
+  'kAudioServicesNoError (0)':
+    'prefix': 'kAudioServicesNoError'
+    'body': 'KAudioServicesNoError'
+  'kAudioServicesNoHardwareError (1852794999)':
+    'prefix': 'kAudioServicesNoHardwareError'
+    'body': 'KAudioServicesNoHardwareError'
+  'kAudioServicesPropertyCompletePlaybackIfAppDies (1768318057)':
+    'prefix': 'kAudioServicesPropertyCompletePlaybackIfAppDies'
+    'body': 'KAudioServicesPropertyCompletePlaybackIfAppDies'
+  'kAudioServicesPropertyIsUISound (1769174377)':
+    'prefix': 'kAudioServicesPropertyIsUISound'
+    'body': 'KAudioServicesPropertyIsUISound'
+  'kAudioServicesSystemSoundClientTimedOutError (-1501)':
+    'prefix': 'kAudioServicesSystemSoundClientTimedOutError'
+    'body': 'KAudioServicesSystemSoundClientTimedOutError'
+  'kAudioServicesSystemSoundUnspecifiedError (-1500)':
+    'prefix': 'kAudioServicesSystemSoundUnspecifiedError'
+    'body': 'KAudioServicesSystemSoundUnspecifiedError'
+  'kAudioServicesUnsupportedPropertyError (1886681407)':
+    'prefix': 'kAudioServicesUnsupportedPropertyError'
+    'body': 'KAudioServicesUnsupportedPropertyError'
+  'kAudioSessionAlreadyInitialized (1768843636)':
+    'prefix': 'kAudioSessionAlreadyInitialized'
+    'body': 'KAudioSessionAlreadyInitialized'
+  'kAudioSessionBadPropertySizeError (561211770)':
+    'prefix': 'kAudioSessionBadPropertySizeError'
+    'body': 'KAudioSessionBadPropertySizeError'
+  'kAudioSessionBeginInterruption (1)':
+    'prefix': 'kAudioSessionBeginInterruption'
+    'body': 'KAudioSessionBeginInterruption'
+  'kAudioSessionCategory_AmbientSound (1634558569)':
+    'prefix': 'kAudioSessionCategory_AmbientSound'
+    'body': 'KAudioSessionCategory_AmbientSound'
+  'kAudioSessionCategory_AudioProcessing (1886547811)':
+    'prefix': 'kAudioSessionCategory_AudioProcessing'
+    'body': 'KAudioSessionCategory_AudioProcessing'
+  'kAudioSessionCategory_LiveAudio (1818850917)':
+    'prefix': 'kAudioSessionCategory_LiveAudio'
+    'body': 'KAudioSessionCategory_LiveAudio'
+  'kAudioSessionCategory_MediaPlayback (1835361385)':
+    'prefix': 'kAudioSessionCategory_MediaPlayback'
+    'body': 'KAudioSessionCategory_MediaPlayback'
+  'kAudioSessionCategory_PlayAndRecord (1886151026)':
+    'prefix': 'kAudioSessionCategory_PlayAndRecord'
+    'body': 'KAudioSessionCategory_PlayAndRecord'
+  'kAudioSessionCategory_RecordAudio (1919247201)':
+    'prefix': 'kAudioSessionCategory_RecordAudio'
+    'body': 'KAudioSessionCategory_RecordAudio'
+  'kAudioSessionCategory_SoloAmbientSound (1936682095)':
+    'prefix': 'kAudioSessionCategory_SoloAmbientSound'
+    'body': 'KAudioSessionCategory_SoloAmbientSound'
+  'kAudioSessionCategory_UserInterfaceSoundEffects (1969841784)':
+    'prefix': 'kAudioSessionCategory_UserInterfaceSoundEffects'
+    'body': 'KAudioSessionCategory_UserInterfaceSoundEffects'
+  'kAudioSessionEndInterruption (0)':
+    'prefix': 'kAudioSessionEndInterruption'
+    'body': 'KAudioSessionEndInterruption'
+  'kAudioSessionIncompatibleCategory (560161140)':
+    'prefix': 'kAudioSessionIncompatibleCategory'
+    'body': 'KAudioSessionIncompatibleCategory'
+  'kAudioSessionInitializationError (1768843583)':
+    'prefix': 'kAudioSessionInitializationError'
+    'body': 'KAudioSessionInitializationError'
+  'kAudioSessionInterruptionType_ShouldNotResume (561148781)':
+    'prefix': 'kAudioSessionInterruptionType_ShouldNotResume'
+    'body': 'KAudioSessionInterruptionType_ShouldNotResume'
+  'kAudioSessionInterruptionType_ShouldResume (1769108333)':
+    'prefix': 'kAudioSessionInterruptionType_ShouldResume'
+    'body': 'KAudioSessionInterruptionType_ShouldResume'
+  'kAudioSessionMode_Default (1684434036)':
+    'prefix': 'kAudioSessionMode_Default'
+    'body': 'KAudioSessionMode_Default'
+  'kAudioSessionMode_GameChat (1735222132)':
+    'prefix': 'kAudioSessionMode_GameChat'
+    'body': 'KAudioSessionMode_GameChat'
+  'kAudioSessionMode_Measurement (1836281204)':
+    'prefix': 'kAudioSessionMode_Measurement'
+    'body': 'KAudioSessionMode_Measurement'
+  'kAudioSessionMode_VideoRecording (1987208036)':
+    'prefix': 'kAudioSessionMode_VideoRecording'
+    'body': 'KAudioSessionMode_VideoRecording'
+  'kAudioSessionMode_VoiceChat (1986225012)':
+    'prefix': 'kAudioSessionMode_VoiceChat'
+    'body': 'KAudioSessionMode_VoiceChat'
+  'kAudioSessionNoCategorySet (1063477620)':
+    'prefix': 'kAudioSessionNoCategorySet'
+    'body': 'KAudioSessionNoCategorySet'
+  'kAudioSessionNoError (0)':
+    'prefix': 'kAudioSessionNoError'
+    'body': 'KAudioSessionNoError'
+  'kAudioSessionNotActiveError (560030580)':
+    'prefix': 'kAudioSessionNotActiveError'
+    'body': 'KAudioSessionNotActiveError'
+  'kAudioSessionNotInitialized (560557673)':
+    'prefix': 'kAudioSessionNotInitialized'
+    'body': 'KAudioSessionNotInitialized'
+  'kAudioSessionOverrideAudioRoute_None (0)':
+    'prefix': 'kAudioSessionOverrideAudioRoute_None'
+    'body': 'KAudioSessionOverrideAudioRoute_None'
+  'kAudioSessionOverrideAudioRoute_Speaker (1936747378)':
+    'prefix': 'kAudioSessionOverrideAudioRoute_Speaker'
+    'body': 'KAudioSessionOverrideAudioRoute_Speaker'
+  'kAudioSessionProperty_AudioCategory (1633902964)':
+    'prefix': 'kAudioSessionProperty_AudioCategory'
+    'body': 'KAudioSessionProperty_AudioCategory'
+  'kAudioSessionProperty_AudioInputAvailable (1634296182)':
+    'prefix': 'kAudioSessionProperty_AudioInputAvailable'
+    'body': 'KAudioSessionProperty_AudioInputAvailable'
+  'kAudioSessionProperty_AudioRoute (1919907188)':
+    'prefix': 'kAudioSessionProperty_AudioRoute'
+    'body': 'KAudioSessionProperty_AudioRoute'
+  'kAudioSessionProperty_AudioRouteChange (1919902568)':
+    'prefix': 'kAudioSessionProperty_AudioRouteChange'
+    'body': 'KAudioSessionProperty_AudioRouteChange'
+  'kAudioSessionProperty_AudioRouteDescription (1668440434)':
+    'prefix': 'kAudioSessionProperty_AudioRouteDescription'
+    'body': 'KAudioSessionProperty_AudioRouteDescription'
+  'kAudioSessionProperty_CurrentHardwareIOBufferDuration (1667785316)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareIOBufferDuration'
+    'body': 'KAudioSessionProperty_CurrentHardwareIOBufferDuration'
+  'kAudioSessionProperty_CurrentHardwareInputLatency (1667853428)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareInputLatency'
+    'body': 'KAudioSessionProperty_CurrentHardwareInputLatency'
+  'kAudioSessionProperty_CurrentHardwareInputNumberChannels (1667787107)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareInputNumberChannels'
+    'body': 'KAudioSessionProperty_CurrentHardwareInputNumberChannels'
+  'kAudioSessionProperty_CurrentHardwareOutputLatency (1668246644)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareOutputLatency'
+    'body': 'KAudioSessionProperty_CurrentHardwareOutputLatency'
+  'kAudioSessionProperty_CurrentHardwareOutputNumberChannels (1667788643)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareOutputNumberChannels'
+    'body': 'KAudioSessionProperty_CurrentHardwareOutputNumberChannels'
+  'kAudioSessionProperty_CurrentHardwareOutputVolume (1667788662)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareOutputVolume'
+    'body': 'KAudioSessionProperty_CurrentHardwareOutputVolume'
+  'kAudioSessionProperty_CurrentHardwareSampleRate (1667789682)':
+    'prefix': 'kAudioSessionProperty_CurrentHardwareSampleRate'
+    'body': 'KAudioSessionProperty_CurrentHardwareSampleRate'
+  'kAudioSessionProperty_InputGainAvailable (1768382838)':
+    'prefix': 'kAudioSessionProperty_InputGainAvailable'
+    'body': 'KAudioSessionProperty_InputGainAvailable'
+  'kAudioSessionProperty_InputGainScalar (1768387427)':
+    'prefix': 'kAudioSessionProperty_InputGainScalar'
+    'body': 'KAudioSessionProperty_InputGainScalar'
+  'kAudioSessionProperty_InputSource (1769173603)':
+    'prefix': 'kAudioSessionProperty_InputSource'
+    'body': 'KAudioSessionProperty_InputSource'
+  'kAudioSessionProperty_InputSources (1936876403)':
+    'prefix': 'kAudioSessionProperty_InputSources'
+    'body': 'KAudioSessionProperty_InputSources'
+  'kAudioSessionProperty_InterruptionType (1954115685)':
+    'prefix': 'kAudioSessionProperty_InterruptionType'
+    'body': 'KAudioSessionProperty_InterruptionType'
+  'kAudioSessionProperty_Mode (1836016741)':
+    'prefix': 'kAudioSessionProperty_Mode'
+    'body': 'KAudioSessionProperty_Mode'
+  'kAudioSessionProperty_OtherAudioIsPlaying (1869899890)':
+    'prefix': 'kAudioSessionProperty_OtherAudioIsPlaying'
+    'body': 'KAudioSessionProperty_OtherAudioIsPlaying'
+  'kAudioSessionProperty_OtherMixableAudioShouldDuck (1685414763)':
+    'prefix': 'kAudioSessionProperty_OtherMixableAudioShouldDuck'
+    'body': 'KAudioSessionProperty_OtherMixableAudioShouldDuck'
+  'kAudioSessionProperty_OutputDestination (1868854132)':
+    'prefix': 'kAudioSessionProperty_OutputDestination'
+    'body': 'KAudioSessionProperty_OutputDestination'
+  'kAudioSessionProperty_OutputDestinations (1685288051)':
+    'prefix': 'kAudioSessionProperty_OutputDestinations'
+    'body': 'KAudioSessionProperty_OutputDestinations'
+  'kAudioSessionProperty_OverrideAudioRoute (1870033508)':
+    'prefix': 'kAudioSessionProperty_OverrideAudioRoute'
+    'body': 'KAudioSessionProperty_OverrideAudioRoute'
+  'kAudioSessionProperty_OverrideCategoryDefaultToSpeaker (1668509803)':
+    'prefix': 'kAudioSessionProperty_OverrideCategoryDefaultToSpeaker'
+    'body': 'KAudioSessionProperty_OverrideCategoryDefaultToSpeaker'
+  'kAudioSessionProperty_OverrideCategoryEnableBluetoothInput (1667394677)':
+    'prefix': 'kAudioSessionProperty_OverrideCategoryEnableBluetoothInput'
+    'body': 'KAudioSessionProperty_OverrideCategoryEnableBluetoothInput'
+  'kAudioSessionProperty_OverrideCategoryMixWithOthers (1668114808)':
+    'prefix': 'kAudioSessionProperty_OverrideCategoryMixWithOthers'
+    'body': 'KAudioSessionProperty_OverrideCategoryMixWithOthers'
+  'kAudioSessionProperty_PreferredHardwareIOBufferDuration (1768907364)':
+    'prefix': 'kAudioSessionProperty_PreferredHardwareIOBufferDuration'
+    'body': 'KAudioSessionProperty_PreferredHardwareIOBufferDuration'
+  'kAudioSessionProperty_PreferredHardwareSampleRate (1752658802)':
+    'prefix': 'kAudioSessionProperty_PreferredHardwareSampleRate'
+    'body': 'KAudioSessionProperty_PreferredHardwareSampleRate'
+  'kAudioSessionProperty_ServerDied (1684628836)':
+    'prefix': 'kAudioSessionProperty_ServerDied'
+    'body': 'KAudioSessionProperty_ServerDied'
+  'kAudioSessionRouteChangeReason_CategoryChange (3)':
+    'prefix': 'kAudioSessionRouteChangeReason_CategoryChange'
+    'body': 'KAudioSessionRouteChangeReason_CategoryChange'
+  'kAudioSessionRouteChangeReason_NewDeviceAvailable (1)':
+    'prefix': 'kAudioSessionRouteChangeReason_NewDeviceAvailable'
+    'body': 'KAudioSessionRouteChangeReason_NewDeviceAvailable'
+  'kAudioSessionRouteChangeReason_NoSuitableRouteForCategory (7)':
+    'prefix': 'kAudioSessionRouteChangeReason_NoSuitableRouteForCategory'
+    'body': 'KAudioSessionRouteChangeReason_NoSuitableRouteForCategory'
+  'kAudioSessionRouteChangeReason_OldDeviceUnavailable (2)':
+    'prefix': 'kAudioSessionRouteChangeReason_OldDeviceUnavailable'
+    'body': 'KAudioSessionRouteChangeReason_OldDeviceUnavailable'
+  'kAudioSessionRouteChangeReason_Override (4)':
+    'prefix': 'kAudioSessionRouteChangeReason_Override'
+    'body': 'KAudioSessionRouteChangeReason_Override'
+  'kAudioSessionRouteChangeReason_RouteConfigurationChange (8)':
+    'prefix': 'kAudioSessionRouteChangeReason_RouteConfigurationChange'
+    'body': 'KAudioSessionRouteChangeReason_RouteConfigurationChange'
+  'kAudioSessionRouteChangeReason_Unknown (0)':
+    'prefix': 'kAudioSessionRouteChangeReason_Unknown'
+    'body': 'KAudioSessionRouteChangeReason_Unknown'
+  'kAudioSessionRouteChangeReason_WakeFromSleep (6)':
+    'prefix': 'kAudioSessionRouteChangeReason_WakeFromSleep'
+    'body': 'KAudioSessionRouteChangeReason_WakeFromSleep'
+  'kAudioSessionSetActiveFlag_NotifyOthersOnDeactivation (1)':
+    'prefix': 'kAudioSessionSetActiveFlag_NotifyOthersOnDeactivation'
+    'body': 'KAudioSessionSetActiveFlag_NotifyOthersOnDeactivation'
+  'kAudioSessionUnspecifiedError (2003329396)':
+    'prefix': 'kAudioSessionUnspecifiedError'
+    'body': 'KAudioSessionUnspecifiedError'
+  'kAudioSessionUnsupportedPropertyError (1886681407)':
+    'prefix': 'kAudioSessionUnsupportedPropertyError'
+    'body': 'KAudioSessionUnsupportedPropertyError'
+  'kAudioToolboxErr_CannotDoInCurrentContext (-10863)':
+    'prefix': 'kAudioToolboxErr_CannotDoInCurrentContext'
+    'body': 'KAudioToolboxErr_CannotDoInCurrentContext'
+  'kAudioToolboxErr_EndOfTrack (-10857)':
+    'prefix': 'kAudioToolboxErr_EndOfTrack'
+    'body': 'KAudioToolboxErr_EndOfTrack'
+  'kAudioToolboxErr_IllegalTrackDestination (-10855)':
+    'prefix': 'kAudioToolboxErr_IllegalTrackDestination'
+    'body': 'KAudioToolboxErr_IllegalTrackDestination'
+  'kAudioToolboxErr_InvalidEventType (-10853)':
+    'prefix': 'kAudioToolboxErr_InvalidEventType'
+    'body': 'KAudioToolboxErr_InvalidEventType'
+  'kAudioToolboxErr_InvalidPlayerState (-10852)':
+    'prefix': 'kAudioToolboxErr_InvalidPlayerState'
+    'body': 'KAudioToolboxErr_InvalidPlayerState'
+  'kAudioToolboxErr_InvalidSequenceType (-10846)':
+    'prefix': 'kAudioToolboxErr_InvalidSequenceType'
+    'body': 'KAudioToolboxErr_InvalidSequenceType'
+  'kAudioToolboxErr_NoSequence (-10854)':
+    'prefix': 'kAudioToolboxErr_NoSequence'
+    'body': 'KAudioToolboxErr_NoSequence'
+  'kAudioToolboxErr_StartOfTrack (-10856)':
+    'prefix': 'kAudioToolboxErr_StartOfTrack'
+    'body': 'KAudioToolboxErr_StartOfTrack'
+  'kAudioToolboxErr_TrackIndexError (-10859)':
+    'prefix': 'kAudioToolboxErr_TrackIndexError'
+    'body': 'KAudioToolboxErr_TrackIndexError'
+  'kAudioToolboxErr_TrackNotFound (-10858)':
+    'prefix': 'kAudioToolboxErr_TrackNotFound'
+    'body': 'KAudioToolboxErr_TrackNotFound'
+  'kBytePacketTranslationFlag_IsEstimate (1)':
+    'prefix': 'kBytePacketTranslationFlag_IsEstimate'
+    'body': 'KBytePacketTranslationFlag_IsEstimate'
+  'kCAFLinearPCMFormatFlagIsFloat (1)':
+    'prefix': 'kCAFLinearPCMFormatFlagIsFloat'
+    'body': 'KCAFLinearPCMFormatFlagIsFloat'
+  'kCAFLinearPCMFormatFlagIsLittleEndian (2)':
+    'prefix': 'kCAFLinearPCMFormatFlagIsLittleEndian'
+    'body': 'KCAFLinearPCMFormatFlagIsLittleEndian'
+  'kCAFMarkerChunkHdrSize (8)':
+    'prefix': 'kCAFMarkerChunkHdrSize'
+    'body': 'KCAFMarkerChunkHdrSize'
+  'kCAFMarkerType_EditDestinationBegin (1684170087)':
+    'prefix': 'kCAFMarkerType_EditDestinationBegin'
+    'body': 'KCAFMarkerType_EditDestinationBegin'
+  'kCAFMarkerType_EditDestinationEnd (1684368996)':
+    'prefix': 'kCAFMarkerType_EditDestinationEnd'
+    'body': 'KCAFMarkerType_EditDestinationEnd'
+  'kCAFMarkerType_EditSourceBegin (1667392871)':
+    'prefix': 'kCAFMarkerType_EditSourceBegin'
+    'body': 'KCAFMarkerType_EditSourceBegin'
+  'kCAFMarkerType_EditSourceEnd (1667591780)':
+    'prefix': 'kCAFMarkerType_EditSourceEnd'
+    'body': 'KCAFMarkerType_EditSourceEnd'
+  'kCAFMarkerType_Generic (0)':
+    'prefix': 'kCAFMarkerType_Generic'
+    'body': 'KCAFMarkerType_Generic'
+  'kCAFMarkerType_Index (1768842360)':
+    'prefix': 'kCAFMarkerType_Index'
+    'body': 'KCAFMarkerType_Index'
+  'kCAFMarkerType_KeySignature (1802725735)':
+    'prefix': 'kCAFMarkerType_KeySignature'
+    'body': 'KCAFMarkerType_KeySignature'
+  'kCAFMarkerType_ProgramEnd (1885695588)':
+    'prefix': 'kCAFMarkerType_ProgramEnd'
+    'body': 'KCAFMarkerType_ProgramEnd'
+  'kCAFMarkerType_ProgramStart (1885496679)':
+    'prefix': 'kCAFMarkerType_ProgramStart'
+    'body': 'KCAFMarkerType_ProgramStart'
+  'kCAFMarkerType_RegionEnd (1919250020)':
+    'prefix': 'kCAFMarkerType_RegionEnd'
+    'body': 'KCAFMarkerType_RegionEnd'
+  'kCAFMarkerType_RegionStart (1919051111)':
+    'prefix': 'kCAFMarkerType_RegionStart'
+    'body': 'KCAFMarkerType_RegionStart'
+  'kCAFMarkerType_RegionSyncPoint (1920170339)':
+    'prefix': 'kCAFMarkerType_RegionSyncPoint'
+    'body': 'KCAFMarkerType_RegionSyncPoint'
+  'kCAFMarkerType_ReleaseLoopEnd (1919706478)':
+    'prefix': 'kCAFMarkerType_ReleaseLoopEnd'
+    'body': 'KCAFMarkerType_ReleaseLoopEnd'
+  'kCAFMarkerType_ReleaseLoopStart (1919705703)':
+    'prefix': 'kCAFMarkerType_ReleaseLoopStart'
+    'body': 'KCAFMarkerType_ReleaseLoopStart'
+  'kCAFMarkerType_SavedPlayPosition (1936747641)':
+    'prefix': 'kCAFMarkerType_SavedPlayPosition'
+    'body': 'KCAFMarkerType_SavedPlayPosition'
+  'kCAFMarkerType_SelectionEnd (1936027236)':
+    'prefix': 'kCAFMarkerType_SelectionEnd'
+    'body': 'KCAFMarkerType_SelectionEnd'
+  'kCAFMarkerType_SelectionStart (1935828327)':
+    'prefix': 'kCAFMarkerType_SelectionStart'
+    'body': 'KCAFMarkerType_SelectionStart'
+  'kCAFMarkerType_SustainLoopEnd (1936483694)':
+    'prefix': 'kCAFMarkerType_SustainLoopEnd'
+    'body': 'KCAFMarkerType_SustainLoopEnd'
+  'kCAFMarkerType_SustainLoopStart (1936482919)':
+    'prefix': 'kCAFMarkerType_SustainLoopStart'
+    'body': 'KCAFMarkerType_SustainLoopStart'
+  'kCAFMarkerType_Tempo (1953329263)':
+    'prefix': 'kCAFMarkerType_Tempo'
+    'body': 'KCAFMarkerType_Tempo'
+  'kCAFMarkerType_TimeSignature (1953720679)':
+    'prefix': 'kCAFMarkerType_TimeSignature'
+    'body': 'KCAFMarkerType_TimeSignature'
+  'kCAFMarkerType_TrackEnd (1952804452)':
+    'prefix': 'kCAFMarkerType_TrackEnd'
+    'body': 'KCAFMarkerType_TrackEnd'
+  'kCAFMarkerType_TrackStart (1952605543)':
+    'prefix': 'kCAFMarkerType_TrackStart'
+    'body': 'KCAFMarkerType_TrackStart'
+  'kCAFRegionChunkHdrSize (8)':
+    'prefix': 'kCAFRegionChunkHdrSize'
+    'body': 'KCAFRegionChunkHdrSize'
+  'kCAFRegionFlag_LoopEnable (1)':
+    'prefix': 'kCAFRegionFlag_LoopEnable'
+    'body': 'KCAFRegionFlag_LoopEnable'
+  'kCAFRegionFlag_PlayBackward (4)':
+    'prefix': 'kCAFRegionFlag_PlayBackward'
+    'body': 'KCAFRegionFlag_PlayBackward'
+  'kCAFRegionFlag_PlayForward (2)':
+    'prefix': 'kCAFRegionFlag_PlayForward'
+    'body': 'KCAFRegionFlag_PlayForward'
+  'kCAF_AudioDataChunkID (1684108385)':
+    'prefix': 'kCAF_AudioDataChunkID'
+    'body': 'KCAF_AudioDataChunkID'
+  'kCAF_ChannelLayoutChunkID (1667785070)':
+    'prefix': 'kCAF_ChannelLayoutChunkID'
+    'body': 'KCAF_ChannelLayoutChunkID'
+  'kCAF_EditCommentsChunkID (1701077876)':
+    'prefix': 'kCAF_EditCommentsChunkID'
+    'body': 'KCAF_EditCommentsChunkID'
+  'kCAF_FileType (1667327590)':
+    'prefix': 'kCAF_FileType'
+    'body': 'KCAF_FileType'
+  'kCAF_FileVersion_Initial (1)':
+    'prefix': 'kCAF_FileVersion_Initial'
+    'body': 'KCAF_FileVersion_Initial'
+  'kCAF_FillerChunkID (1718773093)':
+    'prefix': 'kCAF_FillerChunkID'
+    'body': 'KCAF_FillerChunkID'
+  'kCAF_FormatListID (1818522467)':
+    'prefix': 'kCAF_FormatListID'
+    'body': 'KCAF_FormatListID'
+  'kCAF_InfoStringsChunkID (1768842863)':
+    'prefix': 'kCAF_InfoStringsChunkID'
+    'body': 'KCAF_InfoStringsChunkID'
+  'kCAF_InstrumentChunkID (1768846196)':
+    'prefix': 'kCAF_InstrumentChunkID'
+    'body': 'KCAF_InstrumentChunkID'
+  'kCAF_MIDIChunkID (1835623529)':
+    'prefix': 'kCAF_MIDIChunkID'
+    'body': 'KCAF_MIDIChunkID'
+  'kCAF_MagicCookieID (1802857321)':
+    'prefix': 'kCAF_MagicCookieID'
+    'body': 'KCAF_MagicCookieID'
+  'kCAF_MarkerChunkID (1835102827)':
+    'prefix': 'kCAF_MarkerChunkID'
+    'body': 'KCAF_MarkerChunkID'
+  'kCAF_OverviewChunkID (1870034551)':
+    'prefix': 'kCAF_OverviewChunkID'
+    'body': 'KCAF_OverviewChunkID'
+  'kCAF_PacketTableChunkID (1885432692)':
+    'prefix': 'kCAF_PacketTableChunkID'
+    'body': 'KCAF_PacketTableChunkID'
+  'kCAF_PeakChunkID (1885692267)':
+    'prefix': 'kCAF_PeakChunkID'
+    'body': 'KCAF_PeakChunkID'
+  'kCAF_RegionChunkID (1919248238)':
+    'prefix': 'kCAF_RegionChunkID'
+    'body': 'KCAF_RegionChunkID'
+  'kCAF_SMPTE_TimeType2398 (12)':
+    'prefix': 'kCAF_SMPTE_TimeType2398'
+    'body': 'KCAF_SMPTE_TimeType2398'
+  'kCAF_SMPTE_TimeType24 (1)':
+    'prefix': 'kCAF_SMPTE_TimeType24'
+    'body': 'KCAF_SMPTE_TimeType24'
+  'kCAF_SMPTE_TimeType25 (2)':
+    'prefix': 'kCAF_SMPTE_TimeType25'
+    'body': 'KCAF_SMPTE_TimeType25'
+  'kCAF_SMPTE_TimeType2997 (5)':
+    'prefix': 'kCAF_SMPTE_TimeType2997'
+    'body': 'KCAF_SMPTE_TimeType2997'
+  'kCAF_SMPTE_TimeType2997Drop (6)':
+    'prefix': 'kCAF_SMPTE_TimeType2997Drop'
+    'body': 'KCAF_SMPTE_TimeType2997Drop'
+  'kCAF_SMPTE_TimeType30 (4)':
+    'prefix': 'kCAF_SMPTE_TimeType30'
+    'body': 'KCAF_SMPTE_TimeType30'
+  'kCAF_SMPTE_TimeType30Drop (3)':
+    'prefix': 'kCAF_SMPTE_TimeType30Drop'
+    'body': 'KCAF_SMPTE_TimeType30Drop'
+  'kCAF_SMPTE_TimeType50 (11)':
+    'prefix': 'kCAF_SMPTE_TimeType50'
+    'body': 'KCAF_SMPTE_TimeType50'
+  'kCAF_SMPTE_TimeType5994 (8)':
+    'prefix': 'kCAF_SMPTE_TimeType5994'
+    'body': 'KCAF_SMPTE_TimeType5994'
+  'kCAF_SMPTE_TimeType5994Drop (10)':
+    'prefix': 'kCAF_SMPTE_TimeType5994Drop'
+    'body': 'KCAF_SMPTE_TimeType5994Drop'
+  'kCAF_SMPTE_TimeType60 (7)':
+    'prefix': 'kCAF_SMPTE_TimeType60'
+    'body': 'KCAF_SMPTE_TimeType60'
+  'kCAF_SMPTE_TimeType60Drop (9)':
+    'prefix': 'kCAF_SMPTE_TimeType60Drop'
+    'body': 'KCAF_SMPTE_TimeType60Drop'
+  'kCAF_SMPTE_TimeTypeNone (0)':
+    'prefix': 'kCAF_SMPTE_TimeTypeNone'
+    'body': 'KCAF_SMPTE_TimeTypeNone'
+  'kCAF_StreamDescriptionChunkID (1684370275)':
+    'prefix': 'kCAF_StreamDescriptionChunkID'
+    'body': 'KCAF_StreamDescriptionChunkID'
+  'kCAF_StringsChunkID (1937011303)':
+    'prefix': 'kCAF_StringsChunkID'
+    'body': 'KCAF_StringsChunkID'
+  'kCAF_UMIDChunkID (1970104676)':
+    'prefix': 'kCAF_UMIDChunkID'
+    'body': 'KCAF_UMIDChunkID'
+  'kCAF_UUIDChunkID (1970628964)':
+    'prefix': 'kCAF_UUIDChunkID'
+    'body': 'KCAF_UUIDChunkID'
+  'kCAF_iXMLChunkID (1767394636)':
+    'prefix': 'kCAF_iXMLChunkID'
+    'body': 'KCAF_iXMLChunkID'
+  'kConverterPrimeMethod_None (2)':
+    'prefix': 'kConverterPrimeMethod_None'
+    'body': 'KConverterPrimeMethod_None'
+  'kConverterPrimeMethod_Normal (1)':
+    'prefix': 'kConverterPrimeMethod_Normal'
+    'body': 'KConverterPrimeMethod_Normal'
+  'kConverterPrimeMethod_Pre (0)':
+    'prefix': 'kConverterPrimeMethod_Pre'
+    'body': 'KConverterPrimeMethod_Pre'
+  'kExtAudioFileError_AsyncWriteBufferOverflow (-66570)':
+    'prefix': 'kExtAudioFileError_AsyncWriteBufferOverflow'
+    'body': 'KExtAudioFileError_AsyncWriteBufferOverflow'
+  'kExtAudioFileError_AsyncWriteTooLarge (-66569)':
+    'prefix': 'kExtAudioFileError_AsyncWriteTooLarge'
+    'body': 'KExtAudioFileError_AsyncWriteTooLarge'
+  'kExtAudioFileError_CodecUnavailableInputConsumed (-66559)':
+    'prefix': 'kExtAudioFileError_CodecUnavailableInputConsumed'
+    'body': 'KExtAudioFileError_CodecUnavailableInputConsumed'
+  'kExtAudioFileError_CodecUnavailableInputNotConsumed (-66560)':
+    'prefix': 'kExtAudioFileError_CodecUnavailableInputNotConsumed'
+    'body': 'KExtAudioFileError_CodecUnavailableInputNotConsumed'
+  'kExtAudioFileError_InvalidChannelMap (-66564)':
+    'prefix': 'kExtAudioFileError_InvalidChannelMap'
+    'body': 'KExtAudioFileError_InvalidChannelMap'
+  'kExtAudioFileError_InvalidDataFormat (-66566)':
+    'prefix': 'kExtAudioFileError_InvalidDataFormat'
+    'body': 'KExtAudioFileError_InvalidDataFormat'
+  'kExtAudioFileError_InvalidOperationOrder (-66565)':
+    'prefix': 'kExtAudioFileError_InvalidOperationOrder'
+    'body': 'KExtAudioFileError_InvalidOperationOrder'
+  'kExtAudioFileError_InvalidProperty (-66561)':
+    'prefix': 'kExtAudioFileError_InvalidProperty'
+    'body': 'KExtAudioFileError_InvalidProperty'
+  'kExtAudioFileError_InvalidPropertySize (-66562)':
+    'prefix': 'kExtAudioFileError_InvalidPropertySize'
+    'body': 'KExtAudioFileError_InvalidPropertySize'
+  'kExtAudioFileError_InvalidSeek (-66568)':
+    'prefix': 'kExtAudioFileError_InvalidSeek'
+    'body': 'KExtAudioFileError_InvalidSeek'
+  'kExtAudioFileError_MaxPacketSizeUnknown (-66567)':
+    'prefix': 'kExtAudioFileError_MaxPacketSizeUnknown'
+    'body': 'KExtAudioFileError_MaxPacketSizeUnknown'
+  'kExtAudioFileError_NonPCMClientFormat (-66563)':
+    'prefix': 'kExtAudioFileError_NonPCMClientFormat'
+    'body': 'KExtAudioFileError_NonPCMClientFormat'
+  'kExtAudioFileProperty_AudioConverter (1633906294)':
+    'prefix': 'kExtAudioFileProperty_AudioConverter'
+    'body': 'KExtAudioFileProperty_AudioConverter'
+  'kExtAudioFileProperty_AudioFile (1634101612)':
+    'prefix': 'kExtAudioFileProperty_AudioFile'
+    'body': 'KExtAudioFileProperty_AudioFile'
+  'kExtAudioFileProperty_ClientChannelLayout (1667460207)':
+    'prefix': 'kExtAudioFileProperty_ClientChannelLayout'
+    'body': 'KExtAudioFileProperty_ClientChannelLayout'
+  'kExtAudioFileProperty_ClientDataFormat (1667657076)':
+    'prefix': 'kExtAudioFileProperty_ClientDataFormat'
+    'body': 'KExtAudioFileProperty_ClientDataFormat'
+  'kExtAudioFileProperty_ClientMaxPacketSize (1668116595)':
+    'prefix': 'kExtAudioFileProperty_ClientMaxPacketSize'
+    'body': 'KExtAudioFileProperty_ClientMaxPacketSize'
+  'kExtAudioFileProperty_CodecManufacturer (1668112750)':
+    'prefix': 'kExtAudioFileProperty_CodecManufacturer'
+    'body': 'KExtAudioFileProperty_CodecManufacturer'
+  'kExtAudioFileProperty_ConverterConfig (1633903462)':
+    'prefix': 'kExtAudioFileProperty_ConverterConfig'
+    'body': 'KExtAudioFileProperty_ConverterConfig'
+  'kExtAudioFileProperty_FileChannelLayout (1717791855)':
+    'prefix': 'kExtAudioFileProperty_FileChannelLayout'
+    'body': 'KExtAudioFileProperty_FileChannelLayout'
+  'kExtAudioFileProperty_FileDataFormat (1717988724)':
+    'prefix': 'kExtAudioFileProperty_FileDataFormat'
+    'body': 'KExtAudioFileProperty_FileDataFormat'
+  'kExtAudioFileProperty_FileLengthFrames (593916525)':
+    'prefix': 'kExtAudioFileProperty_FileLengthFrames'
+    'body': 'KExtAudioFileProperty_FileLengthFrames'
+  'kExtAudioFileProperty_FileMaxPacketSize (1718448243)':
+    'prefix': 'kExtAudioFileProperty_FileMaxPacketSize'
+    'body': 'KExtAudioFileProperty_FileMaxPacketSize'
+  'kExtAudioFileProperty_IOBuffer (1768907366)':
+    'prefix': 'kExtAudioFileProperty_IOBuffer'
+    'body': 'KExtAudioFileProperty_IOBuffer'
+  'kExtAudioFileProperty_IOBufferSizeBytes (1768907379)':
+    'prefix': 'kExtAudioFileProperty_IOBufferSizeBytes'
+    'body': 'KExtAudioFileProperty_IOBufferSizeBytes'
+  'kExtAudioFileProperty_PacketTable (2020635753)':
+    'prefix': 'kExtAudioFileProperty_PacketTable'
+    'body': 'KExtAudioFileProperty_PacketTable'
+  'kMusicEventType_AUPreset (10)':
+    'prefix': 'kMusicEventType_AUPreset'
+    'body': 'KMusicEventType_AUPreset'
+  'kMusicEventType_ExtendedNote (1)':
+    'prefix': 'kMusicEventType_ExtendedNote'
+    'body': 'KMusicEventType_ExtendedNote'
+  'kMusicEventType_ExtendedTempo (3)':
+    'prefix': 'kMusicEventType_ExtendedTempo'
+    'body': 'KMusicEventType_ExtendedTempo'
+  'kMusicEventType_MIDIChannelMessage (7)':
+    'prefix': 'kMusicEventType_MIDIChannelMessage'
+    'body': 'KMusicEventType_MIDIChannelMessage'
+  'kMusicEventType_MIDINoteMessage (6)':
+    'prefix': 'kMusicEventType_MIDINoteMessage'
+    'body': 'KMusicEventType_MIDINoteMessage'
+  'kMusicEventType_MIDIRawData (8)':
+    'prefix': 'kMusicEventType_MIDIRawData'
+    'body': 'KMusicEventType_MIDIRawData'
+  'kMusicEventType_Meta (5)':
+    'prefix': 'kMusicEventType_Meta'
+    'body': 'KMusicEventType_Meta'
+  'kMusicEventType_NULL (0)':
+    'prefix': 'kMusicEventType_NULL'
+    'body': 'KMusicEventType_NULL'
+  'kMusicEventType_Parameter (9)':
+    'prefix': 'kMusicEventType_Parameter'
+    'body': 'KMusicEventType_Parameter'
+  'kMusicEventType_User (4)':
+    'prefix': 'kMusicEventType_User'
+    'body': 'KMusicEventType_User'
+  'kMusicSequenceFileFlags_EraseFile (1)':
+    'prefix': 'kMusicSequenceFileFlags_EraseFile'
+    'body': 'KMusicSequenceFileFlags_EraseFile'
+  'kMusicSequenceFile_MIDIType (1835623529)':
+    'prefix': 'kMusicSequenceFile_MIDIType'
+    'body': 'KMusicSequenceFile_MIDIType'
+  'kMusicSequenceFile_iMelodyType (1768777068)':
+    'prefix': 'kMusicSequenceFile_iMelodyType'
+    'body': 'KMusicSequenceFile_iMelodyType'
+  'kMusicSequenceLoadSMF_ChannelsToTracks (1)':
+    'prefix': 'kMusicSequenceLoadSMF_ChannelsToTracks'
+    'body': 'KMusicSequenceLoadSMF_ChannelsToTracks'
+  'kMusicSequenceType_Beats (1650811252)':
+    'prefix': 'kMusicSequenceType_Beats'
+    'body': 'KMusicSequenceType_Beats'
+  'kMusicSequenceType_Samples (1935764848)':
+    'prefix': 'kMusicSequenceType_Samples'
+    'body': 'KMusicSequenceType_Samples'
+  'kMusicSequenceType_Seconds (1936024435)':
+    'prefix': 'kMusicSequenceType_Seconds'
+    'body': 'KMusicSequenceType_Seconds'
+  'kMusicTimeStamp_EndOfTrack (1.797693134862316E+308)':
+    'prefix': 'kMusicTimeStamp_EndOfTrack'
+    'body': 'KMusicTimeStamp_EndOfTrack'
+  'kPanningMode_SoundField (3)':
+    'prefix': 'kPanningMode_SoundField'
+    'body': 'KPanningMode_SoundField'
+  'kPanningMode_VectorBasedPanning (4)':
+    'prefix': 'kPanningMode_VectorBasedPanning'
+    'body': 'KPanningMode_VectorBasedPanning'
+  'kSequenceTrackProperty_AutomatedParameters (4)':
+    'prefix': 'kSequenceTrackProperty_AutomatedParameters'
+    'body': 'KSequenceTrackProperty_AutomatedParameters'
+  'kSequenceTrackProperty_LoopInfo (0)':
+    'prefix': 'kSequenceTrackProperty_LoopInfo'
+    'body': 'KSequenceTrackProperty_LoopInfo'
+  'kSequenceTrackProperty_MuteStatus (2)':
+    'prefix': 'kSequenceTrackProperty_MuteStatus'
+    'body': 'KSequenceTrackProperty_MuteStatus'
+  'kSequenceTrackProperty_OffsetTime (1)':
+    'prefix': 'kSequenceTrackProperty_OffsetTime'
+    'body': 'KSequenceTrackProperty_OffsetTime'
+  'kSequenceTrackProperty_SoloStatus (3)':
+    'prefix': 'kSequenceTrackProperty_SoloStatus'
+    'body': 'KSequenceTrackProperty_SoloStatus'
+  'kSequenceTrackProperty_TimeResolution (6)':
+    'prefix': 'kSequenceTrackProperty_TimeResolution'
+    'body': 'KSequenceTrackProperty_TimeResolution'
+  'kSequenceTrackProperty_TrackLength (5)':
+    'prefix': 'kSequenceTrackProperty_TrackLength'
+    'body': 'KSequenceTrackProperty_TrackLength'
+  'kSystemSoundID_Vibrate (4095)':
+    'prefix': 'kSystemSoundID_Vibrate'
+    'body': 'KSystemSoundID_Vibrate'
+  'AUGraphAddNode':
+    'prefix': 'AUGraphAddNode'
+    'body': 'AUGraphAddNode(${1:AUGraph inGraph}, ${2:AudioComponentDescription* inDescription}, ${3:AUNode* outNode})'
+  'AUGraphAddRenderNotify':
+    'prefix': 'AUGraphAddRenderNotify'
+    'body': 'AUGraphAddRenderNotify(${1:AUGraph inGraph}, ${2:AURenderCallback inCallback}, ${3:void* inRefCon})'
+  'AUGraphClearConnections':
+    'prefix': 'AUGraphClearConnections'
+    'body': 'AUGraphClearConnections(${1:AUGraph inGraph})'
+  'AUGraphClose':
+    'prefix': 'AUGraphClose'
+    'body': 'AUGraphClose(${1:AUGraph inGraph})'
+  'AUGraphConnectNodeInput':
+    'prefix': 'AUGraphConnectNodeInput'
+    'body': 'AUGraphConnectNodeInput(${1:AUGraph inGraph}, ${2:AUNode inSourceNode}, ${3:UInt32 inSourceOutputNumber}, ${4:AUNode inDestNode}, ${5:UInt32 inDestInputNumber})'
+  'AUGraphCountNodeInteractions':
+    'prefix': 'AUGraphCountNodeInteractions'
+    'body': 'AUGraphCountNodeInteractions(${1:AUGraph inGraph}, ${2:AUNode inNode}, ${3:UInt32* outNumInteractions})'
+  'AUGraphDisconnectNodeInput':
+    'prefix': 'AUGraphDisconnectNodeInput'
+    'body': 'AUGraphDisconnectNodeInput(${1:AUGraph inGraph}, ${2:AUNode inDestNode}, ${3:UInt32 inDestInputNumber})'
+  'AUGraphGetCPULoad':
+    'prefix': 'AUGraphGetCPULoad'
+    'body': 'AUGraphGetCPULoad(${1:AUGraph inGraph}, ${2:Float32* outAverageCPULoad})'
+  'AUGraphGetIndNode':
+    'prefix': 'AUGraphGetIndNode'
+    'body': 'AUGraphGetIndNode(${1:AUGraph inGraph}, ${2:UInt32 inIndex}, ${3:AUNode* outNode})'
+  'AUGraphGetInteractionInfo':
+    'prefix': 'AUGraphGetInteractionInfo'
+    'body': 'AUGraphGetInteractionInfo(${1:AUGraph inGraph}, ${2:UInt32 inInteractionIndex}, ${3:AUNodeInteraction* outInteraction})'
+  'AUGraphGetMaxCPULoad':
+    'prefix': 'AUGraphGetMaxCPULoad'
+    'body': 'AUGraphGetMaxCPULoad(${1:AUGraph inGraph}, ${2:Float32* outMaxLoad})'
+  'AUGraphGetNodeCount':
+    'prefix': 'AUGraphGetNodeCount'
+    'body': 'AUGraphGetNodeCount(${1:AUGraph inGraph}, ${2:UInt32* outNumberOfNodes})'
+  'AUGraphGetNodeInteractions':
+    'prefix': 'AUGraphGetNodeInteractions'
+    'body': 'AUGraphGetNodeInteractions(${1:AUGraph inGraph}, ${2:AUNode inNode}, ${3:UInt32* ioNumInteractions}, ${4:AUNodeInteraction* outInteractions})'
+  'AUGraphGetNumberOfInteractions':
+    'prefix': 'AUGraphGetNumberOfInteractions'
+    'body': 'AUGraphGetNumberOfInteractions(${1:AUGraph inGraph}, ${2:UInt32* outNumInteractions})'
+  'AUGraphInitialize':
+    'prefix': 'AUGraphInitialize'
+    'body': 'AUGraphInitialize(${1:AUGraph inGraph})'
+  'AUGraphIsInitialized':
+    'prefix': 'AUGraphIsInitialized'
+    'body': 'AUGraphIsInitialized(${1:AUGraph inGraph}, ${2:Boolean* outIsInitialized})'
+  'AUGraphIsOpen':
+    'prefix': 'AUGraphIsOpen'
+    'body': 'AUGraphIsOpen(${1:AUGraph inGraph}, ${2:Boolean* outIsOpen})'
+  'AUGraphIsRunning':
+    'prefix': 'AUGraphIsRunning'
+    'body': 'AUGraphIsRunning(${1:AUGraph inGraph}, ${2:Boolean* outIsRunning})'
+  'AUGraphNodeInfo':
+    'prefix': 'AUGraphNodeInfo'
+    'body': 'AUGraphNodeInfo(${1:AUGraph inGraph}, ${2:AUNode inNode}, ${3:AudioComponentDescription* outDescription}, ${4:AudioUnit* outAudioUnit})'
+  'AUGraphOpen':
+    'prefix': 'AUGraphOpen'
+    'body': 'AUGraphOpen(${1:AUGraph inGraph})'
+  'AUGraphRemoveNode':
+    'prefix': 'AUGraphRemoveNode'
+    'body': 'AUGraphRemoveNode(${1:AUGraph inGraph}, ${2:AUNode inNode})'
+  'AUGraphRemoveRenderNotify':
+    'prefix': 'AUGraphRemoveRenderNotify'
+    'body': 'AUGraphRemoveRenderNotify(${1:AUGraph inGraph}, ${2:AURenderCallback inCallback}, ${3:void* inRefCon})'
+  'AUGraphSetNodeInputCallback':
+    'prefix': 'AUGraphSetNodeInputCallback'
+    'body': 'AUGraphSetNodeInputCallback(${1:AUGraph inGraph}, ${2:AUNode inDestNode}, ${3:UInt32 inDestInputNumber}, ${4:AURenderCallbackStruct* inInputCallback})'
+  'AUGraphStart':
+    'prefix': 'AUGraphStart'
+    'body': 'AUGraphStart(${1:AUGraph inGraph})'
+  'AUGraphStop':
+    'prefix': 'AUGraphStop'
+    'body': 'AUGraphStop(${1:AUGraph inGraph})'
+  'AUGraphUninitialize':
+    'prefix': 'AUGraphUninitialize'
+    'body': 'AUGraphUninitialize(${1:AUGraph inGraph})'
+  'AUGraphUpdate':
+    'prefix': 'AUGraphUpdate'
+    'body': 'AUGraphUpdate(${1:AUGraph inGraph}, ${2:Boolean* outIsUpdated})'
+  'AudioConverterConvertBuffer':
+    'prefix': 'AudioConverterConvertBuffer'
+    'body': 'AudioConverterConvertBuffer(${1:AudioConverterRef inAudioConverter}, ${2:UInt32 inInputDataSize}, ${3:void* inInputData}, ${4:UInt32* ioOutputDataSize}, ${5:void* outOutputData})'
+  'AudioConverterConvertComplexBuffer':
+    'prefix': 'AudioConverterConvertComplexBuffer'
+    'body': 'AudioConverterConvertComplexBuffer(${1:AudioConverterRef inAudioConverter}, ${2:UInt32 inNumberPCMFrames}, ${3:AudioBufferList* inInputData}, ${4:AudioBufferList* outOutputData})'
+  'AudioConverterDispose':
+    'prefix': 'AudioConverterDispose'
+    'body': 'AudioConverterDispose(${1:AudioConverterRef inAudioConverter})'
+  'AudioConverterFillComplexBuffer':
+    'prefix': 'AudioConverterFillComplexBuffer'
+    'body': 'AudioConverterFillComplexBuffer(${1:AudioConverterRef inAudioConverter}, ${2:AudioConverterComplexInputDataProc inInputDataProc}, ${3:void* inInputDataProcUserData}, ${4:UInt32* ioOutputDataPacketSize}, ${5:AudioBufferList* outOutputData}, ${6:AudioStreamPacketDescription* outPacketDescription})'
+  'AudioConverterGetProperty':
+    'prefix': 'AudioConverterGetProperty'
+    'body': 'AudioConverterGetProperty(${1:AudioConverterRef inAudioConverter}, ${2:AudioConverterPropertyID inPropertyID}, ${3:UInt32* ioPropertyDataSize}, ${4:void* outPropertyData})'
+  'AudioConverterGetPropertyInfo':
+    'prefix': 'AudioConverterGetPropertyInfo'
+    'body': 'AudioConverterGetPropertyInfo(${1:AudioConverterRef inAudioConverter}, ${2:AudioConverterPropertyID inPropertyID}, ${3:UInt32* outSize}, ${4:Boolean* outWritable})'
+  'AudioConverterNew':
+    'prefix': 'AudioConverterNew'
+    'body': 'AudioConverterNew(${1:AudioStreamBasicDescription* inSourceFormat}, ${2:AudioStreamBasicDescription* inDestinationFormat}, ${3:AudioConverterRef* outAudioConverter})'
+  'AudioConverterNewSpecific':
+    'prefix': 'AudioConverterNewSpecific'
+    'body': 'AudioConverterNewSpecific(${1:AudioStreamBasicDescription* inSourceFormat}, ${2:AudioStreamBasicDescription* inDestinationFormat}, ${3:UInt32 inNumberClassDescriptions}, ${4:AudioClassDescription* inClassDescriptions}, ${5:AudioConverterRef* outAudioConverter})'
+  'AudioConverterReset':
+    'prefix': 'AudioConverterReset'
+    'body': 'AudioConverterReset(${1:AudioConverterRef inAudioConverter})'
+  'AudioConverterSetProperty':
+    'prefix': 'AudioConverterSetProperty'
+    'body': 'AudioConverterSetProperty(${1:AudioConverterRef inAudioConverter}, ${2:AudioConverterPropertyID inPropertyID}, ${3:UInt32 inPropertyDataSize}, ${4:void* inPropertyData})'
+  'AudioFileClose':
+    'prefix': 'AudioFileClose'
+    'body': 'AudioFileClose(${1:AudioFileID inAudioFile})'
+  'AudioFileCountUserData':
+    'prefix': 'AudioFileCountUserData'
+    'body': 'AudioFileCountUserData(${1:AudioFileID inAudioFile}, ${2:UInt32 inUserDataID}, ${3:UInt32* outNumberItems})'
+  'AudioFileCreateWithURL':
+    'prefix': 'AudioFileCreateWithURL'
+    'body': 'AudioFileCreateWithURL(${1:CFURLRef inFileRef}, ${2:AudioFileTypeID inFileType}, ${3:AudioStreamBasicDescription* inFormat}, ${4:UInt32 inFlags}, ${5:AudioFileID* outAudioFile})'
+  'AudioFileGetGlobalInfo':
+    'prefix': 'AudioFileGetGlobalInfo'
+    'body': 'AudioFileGetGlobalInfo(${1:AudioFilePropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32* ioDataSize}, ${5:void* outPropertyData})'
+  'AudioFileGetGlobalInfoSize':
+    'prefix': 'AudioFileGetGlobalInfoSize'
+    'body': 'AudioFileGetGlobalInfoSize(${1:AudioFilePropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32* outDataSize})'
+  'AudioFileGetProperty':
+    'prefix': 'AudioFileGetProperty'
+    'body': 'AudioFileGetProperty(${1:AudioFileID inAudioFile}, ${2:AudioFilePropertyID inPropertyID}, ${3:UInt32* ioDataSize}, ${4:void* outPropertyData})'
+  'AudioFileGetPropertyInfo':
+    'prefix': 'AudioFileGetPropertyInfo'
+    'body': 'AudioFileGetPropertyInfo(${1:AudioFileID inAudioFile}, ${2:AudioFilePropertyID inPropertyID}, ${3:UInt32* outDataSize}, ${4:UInt32* isWritable})'
+  'AudioFileGetUserData':
+    'prefix': 'AudioFileGetUserData'
+    'body': 'AudioFileGetUserData(${1:AudioFileID inAudioFile}, ${2:UInt32 inUserDataID}, ${3:UInt32 inIndex}, ${4:UInt32* ioUserDataSize}, ${5:void* outUserData})'
+  'AudioFileGetUserDataSize':
+    'prefix': 'AudioFileGetUserDataSize'
+    'body': 'AudioFileGetUserDataSize(${1:AudioFileID inAudioFile}, ${2:UInt32 inUserDataID}, ${3:UInt32 inIndex}, ${4:UInt32* outUserDataSize})'
+  'AudioFileInitializeWithCallbacks':
+    'prefix': 'AudioFileInitializeWithCallbacks'
+    'body': 'AudioFileInitializeWithCallbacks(${1:void* inClientData}, ${2:AudioFile_ReadProc inReadFunc}, ${3:AudioFile_WriteProc inWriteFunc}, ${4:AudioFile_GetSizeProc inGetSizeFunc}, ${5:AudioFile_SetSizeProc inSetSizeFunc}, ${6:AudioFileTypeID inFileType}, ${7:AudioStreamBasicDescription* inFormat}, ${8:UInt32 inFlags}, ${9:AudioFileID* outAudioFile})'
+  'AudioFileOpenURL':
+    'prefix': 'AudioFileOpenURL'
+    'body': 'AudioFileOpenURL(${1:CFURLRef inFileRef}, ${2:SInt8 inPermissions}, ${3:AudioFileTypeID inFileTypeHint}, ${4:AudioFileID* outAudioFile})'
+  'AudioFileOpenWithCallbacks':
+    'prefix': 'AudioFileOpenWithCallbacks'
+    'body': 'AudioFileOpenWithCallbacks(${1:void* inClientData}, ${2:AudioFile_ReadProc inReadFunc}, ${3:AudioFile_WriteProc inWriteFunc}, ${4:AudioFile_GetSizeProc inGetSizeFunc}, ${5:AudioFile_SetSizeProc inSetSizeFunc}, ${6:AudioFileTypeID inFileTypeHint}, ${7:AudioFileID* outAudioFile})'
+  'AudioFileOptimize':
+    'prefix': 'AudioFileOptimize'
+    'body': 'AudioFileOptimize(${1:AudioFileID inAudioFile})'
+  'AudioFileReadBytes':
+    'prefix': 'AudioFileReadBytes'
+    'body': 'AudioFileReadBytes(${1:AudioFileID inAudioFile}, ${2:Boolean inUseCache}, ${3:SInt64 inStartingByte}, ${4:UInt32* ioNumBytes}, ${5:void* outBuffer})'
+  'AudioFileReadPacketData':
+    'prefix': 'AudioFileReadPacketData'
+    'body': 'AudioFileReadPacketData(${1:AudioFileID inAudioFile}, ${2:Boolean inUseCache}, ${3:UInt32* ioNumBytes}, ${4:AudioStreamPacketDescription* outPacketDescriptions}, ${5:SInt64 inStartingPacket}, ${6:UInt32* ioNumPackets}, ${7:void* outBuffer})'
+  'AudioFileReadPackets':
+    'prefix': 'AudioFileReadPackets'
+    'body': 'AudioFileReadPackets(${1:AudioFileID inAudioFile}, ${2:Boolean inUseCache}, ${3:UInt32* outNumBytes}, ${4:AudioStreamPacketDescription* outPacketDescriptions}, ${5:SInt64 inStartingPacket}, ${6:UInt32* ioNumPackets}, ${7:void* outBuffer})'
+  'AudioFileRemoveUserData':
+    'prefix': 'AudioFileRemoveUserData'
+    'body': 'AudioFileRemoveUserData(${1:AudioFileID inAudioFile}, ${2:UInt32 inUserDataID}, ${3:UInt32 inIndex})'
+  'AudioFileSetProperty':
+    'prefix': 'AudioFileSetProperty'
+    'body': 'AudioFileSetProperty(${1:AudioFileID inAudioFile}, ${2:AudioFilePropertyID inPropertyID}, ${3:UInt32 inDataSize}, ${4:void* inPropertyData})'
+  'AudioFileSetUserData':
+    'prefix': 'AudioFileSetUserData'
+    'body': 'AudioFileSetUserData(${1:AudioFileID inAudioFile}, ${2:UInt32 inUserDataID}, ${3:UInt32 inIndex}, ${4:UInt32 inUserDataSize}, ${5:void* inUserData})'
+  'AudioFileStreamClose':
+    'prefix': 'AudioFileStreamClose'
+    'body': 'AudioFileStreamClose(${1:AudioFileStreamID inAudioFileStream})'
+  'AudioFileStreamGetProperty':
+    'prefix': 'AudioFileStreamGetProperty'
+    'body': 'AudioFileStreamGetProperty(${1:AudioFileStreamID inAudioFileStream}, ${2:AudioFileStreamPropertyID inPropertyID}, ${3:UInt32* ioPropertyDataSize}, ${4:void* outPropertyData})'
+  'AudioFileStreamGetPropertyInfo':
+    'prefix': 'AudioFileStreamGetPropertyInfo'
+    'body': 'AudioFileStreamGetPropertyInfo(${1:AudioFileStreamID inAudioFileStream}, ${2:AudioFileStreamPropertyID inPropertyID}, ${3:UInt32* outPropertyDataSize}, ${4:Boolean* outWritable})'
+  'AudioFileStreamOpen':
+    'prefix': 'AudioFileStreamOpen'
+    'body': 'AudioFileStreamOpen(${1:void* inClientData}, ${2:AudioFileStream_PropertyListenerProc inPropertyListenerProc}, ${3:AudioFileStream_PacketsProc inPacketsProc}, ${4:AudioFileTypeID inFileTypeHint}, ${5:AudioFileStreamID* outAudioFileStream})'
+  'AudioFileStreamParseBytes':
+    'prefix': 'AudioFileStreamParseBytes'
+    'body': 'AudioFileStreamParseBytes(${1:AudioFileStreamID inAudioFileStream}, ${2:UInt32 inDataByteSize}, ${3:void* inData}, ${4:UInt32 inFlags})'
+  'AudioFileStreamSeek':
+    'prefix': 'AudioFileStreamSeek'
+    'body': 'AudioFileStreamSeek(${1:AudioFileStreamID inAudioFileStream}, ${2:SInt64 inPacketOffset}, ${3:SInt64* outDataByteOffset}, ${4:UInt32* ioFlags})'
+  'AudioFileStreamSetProperty':
+    'prefix': 'AudioFileStreamSetProperty'
+    'body': 'AudioFileStreamSetProperty(${1:AudioFileStreamID inAudioFileStream}, ${2:AudioFileStreamPropertyID inPropertyID}, ${3:UInt32 inPropertyDataSize}, ${4:void* inPropertyData})'
+  'AudioFileWriteBytes':
+    'prefix': 'AudioFileWriteBytes'
+    'body': 'AudioFileWriteBytes(${1:AudioFileID inAudioFile}, ${2:Boolean inUseCache}, ${3:SInt64 inStartingByte}, ${4:UInt32* ioNumBytes}, ${5:void* inBuffer})'
+  'AudioFileWritePackets':
+    'prefix': 'AudioFileWritePackets'
+    'body': 'AudioFileWritePackets(${1:AudioFileID inAudioFile}, ${2:Boolean inUseCache}, ${3:UInt32 inNumBytes}, ${4:AudioStreamPacketDescription* inPacketDescriptions}, ${5:SInt64 inStartingPacket}, ${6:UInt32* ioNumPackets}, ${7:void* inBuffer})'
+  'AudioFormatGetProperty':
+    'prefix': 'AudioFormatGetProperty'
+    'body': 'AudioFormatGetProperty(${1:AudioFormatPropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32* ioPropertyDataSize}, ${5:void* outPropertyData})'
+  'AudioFormatGetPropertyInfo':
+    'prefix': 'AudioFormatGetPropertyInfo'
+    'body': 'AudioFormatGetPropertyInfo(${1:AudioFormatPropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32* outPropertyDataSize})'
+  'AudioQueueAddPropertyListener':
+    'prefix': 'AudioQueueAddPropertyListener'
+    'body': 'AudioQueueAddPropertyListener(${1:AudioQueueRef inAQ}, ${2:AudioQueuePropertyID inID}, ${3:AudioQueuePropertyListenerProc inProc}, ${4:void* inUserData})'
+  'AudioQueueAllocateBuffer':
+    'prefix': 'AudioQueueAllocateBuffer'
+    'body': 'AudioQueueAllocateBuffer(${1:AudioQueueRef inAQ}, ${2:UInt32 inBufferByteSize}, ${3:AudioQueueBufferRef* outBuffer})'
+  'AudioQueueAllocateBufferWithPacketDescriptions':
+    'prefix': 'AudioQueueAllocateBufferWithPacketDescriptions'
+    'body': 'AudioQueueAllocateBufferWithPacketDescriptions(${1:AudioQueueRef inAQ}, ${2:UInt32 inBufferByteSize}, ${3:UInt32 inNumberPacketDescriptions}, ${4:AudioQueueBufferRef* outBuffer})'
+  'AudioQueueCreateTimeline':
+    'prefix': 'AudioQueueCreateTimeline'
+    'body': 'AudioQueueCreateTimeline(${1:AudioQueueRef inAQ}, ${2:AudioQueueTimelineRef* outTimeline})'
+  'AudioQueueDeviceGetCurrentTime':
+    'prefix': 'AudioQueueDeviceGetCurrentTime'
+    'body': 'AudioQueueDeviceGetCurrentTime(${1:AudioQueueRef inAQ}, ${2:AudioTimeStamp* outTimeStamp})'
+  'AudioQueueDeviceGetNearestStartTime':
+    'prefix': 'AudioQueueDeviceGetNearestStartTime'
+    'body': 'AudioQueueDeviceGetNearestStartTime(${1:AudioQueueRef inAQ}, ${2:AudioTimeStamp* ioRequestedStartTime}, ${3:UInt32 inFlags})'
+  'AudioQueueDeviceTranslateTime':
+    'prefix': 'AudioQueueDeviceTranslateTime'
+    'body': 'AudioQueueDeviceTranslateTime(${1:AudioQueueRef inAQ}, ${2:AudioTimeStamp* inTime}, ${3:AudioTimeStamp* outTime})'
+  'AudioQueueDispose':
+    'prefix': 'AudioQueueDispose'
+    'body': 'AudioQueueDispose(${1:AudioQueueRef inAQ}, ${2:Boolean inImmediate})'
+  'AudioQueueDisposeTimeline':
+    'prefix': 'AudioQueueDisposeTimeline'
+    'body': 'AudioQueueDisposeTimeline(${1:AudioQueueRef inAQ}, ${2:AudioQueueTimelineRef inTimeline})'
+  'AudioQueueEnqueueBuffer':
+    'prefix': 'AudioQueueEnqueueBuffer'
+    'body': 'AudioQueueEnqueueBuffer(${1:AudioQueueRef inAQ}, ${2:AudioQueueBufferRef inBuffer}, ${3:UInt32 inNumPacketDescs}, ${4:AudioStreamPacketDescription* inPacketDescs})'
+  'AudioQueueEnqueueBufferWithParameters':
+    'prefix': 'AudioQueueEnqueueBufferWithParameters'
+    'body': 'AudioQueueEnqueueBufferWithParameters(${1:AudioQueueRef inAQ}, ${2:AudioQueueBufferRef inBuffer}, ${3:UInt32 inNumPacketDescs}, ${4:AudioStreamPacketDescription* inPacketDescs}, ${5:UInt32 inTrimFramesAtStart}, ${6:UInt32 inTrimFramesAtEnd}, ${7:UInt32 inNumParamValues}, ${8:AudioQueueParameterEvent* inParamValues}, ${9:AudioTimeStamp* inStartTime}, ${10:AudioTimeStamp* outActualStartTime})'
+  'AudioQueueFlush':
+    'prefix': 'AudioQueueFlush'
+    'body': 'AudioQueueFlush(${1:AudioQueueRef inAQ})'
+  'AudioQueueFreeBuffer':
+    'prefix': 'AudioQueueFreeBuffer'
+    'body': 'AudioQueueFreeBuffer(${1:AudioQueueRef inAQ}, ${2:AudioQueueBufferRef inBuffer})'
+  'AudioQueueGetCurrentTime':
+    'prefix': 'AudioQueueGetCurrentTime'
+    'body': 'AudioQueueGetCurrentTime(${1:AudioQueueRef inAQ}, ${2:AudioQueueTimelineRef inTimeline}, ${3:AudioTimeStamp* outTimeStamp}, ${4:Boolean* outTimelineDiscontinuity})'
+  'AudioQueueGetParameter':
+    'prefix': 'AudioQueueGetParameter'
+    'body': 'AudioQueueGetParameter(${1:AudioQueueRef inAQ}, ${2:AudioQueueParameterID inParamID}, ${3:AudioQueueParameterValue* outValue})'
+  'AudioQueueGetProperty':
+    'prefix': 'AudioQueueGetProperty'
+    'body': 'AudioQueueGetProperty(${1:AudioQueueRef inAQ}, ${2:AudioQueuePropertyID inID}, ${3:void* outData}, ${4:UInt32* ioDataSize})'
+  'AudioQueueGetPropertySize':
+    'prefix': 'AudioQueueGetPropertySize'
+    'body': 'AudioQueueGetPropertySize(${1:AudioQueueRef inAQ}, ${2:AudioQueuePropertyID inID}, ${3:UInt32* outDataSize})'
+  'AudioQueueNewInput':
+    'prefix': 'AudioQueueNewInput'
+    'body': 'AudioQueueNewInput(${1:AudioStreamBasicDescription* inFormat}, ${2:AudioQueueInputCallback inCallbackProc}, ${3:void* inUserData}, ${4:CFRunLoopRef inCallbackRunLoop}, ${5:CFStringRef inCallbackRunLoopMode}, ${6:UInt32 inFlags}, ${7:AudioQueueRef* outAQ})'
+  'AudioQueueNewOutput':
+    'prefix': 'AudioQueueNewOutput'
+    'body': 'AudioQueueNewOutput(${1:AudioStreamBasicDescription* inFormat}, ${2:AudioQueueOutputCallback inCallbackProc}, ${3:void* inUserData}, ${4:CFRunLoopRef inCallbackRunLoop}, ${5:CFStringRef inCallbackRunLoopMode}, ${6:UInt32 inFlags}, ${7:AudioQueueRef* outAQ})'
+  'AudioQueueOfflineRender':
+    'prefix': 'AudioQueueOfflineRender'
+    'body': 'AudioQueueOfflineRender(${1:AudioQueueRef inAQ}, ${2:AudioTimeStamp* inTimestamp}, ${3:AudioQueueBufferRef ioBuffer}, ${4:UInt32 inNumberFrames})'
+  'AudioQueuePause':
+    'prefix': 'AudioQueuePause'
+    'body': 'AudioQueuePause(${1:AudioQueueRef inAQ})'
+  'AudioQueuePrime':
+    'prefix': 'AudioQueuePrime'
+    'body': 'AudioQueuePrime(${1:AudioQueueRef inAQ}, ${2:UInt32 inNumberOfFramesToPrepare}, ${3:UInt32* outNumberOfFramesPrepared})'
+  'AudioQueueProcessingTapDispose':
+    'prefix': 'AudioQueueProcessingTapDispose'
+    'body': 'AudioQueueProcessingTapDispose(${1:AudioQueueProcessingTapRef inAQTap})'
+  'AudioQueueProcessingTapGetQueueTime':
+    'prefix': 'AudioQueueProcessingTapGetQueueTime'
+    'body': 'AudioQueueProcessingTapGetQueueTime(${1:AudioQueueProcessingTapRef inAQTap}, ${2:Float64* outQueueSampleTime}, ${3:UInt32* outQueueFrameCount})'
+  'AudioQueueProcessingTapGetSourceAudio':
+    'prefix': 'AudioQueueProcessingTapGetSourceAudio'
+    'body': 'AudioQueueProcessingTapGetSourceAudio(${1:AudioQueueProcessingTapRef inAQTap}, ${2:UInt32 inNumberFrames}, ${3:AudioTimeStamp* ioTimeStamp}, ${4:UInt32* outFlags}, ${5:UInt32* outNumberFrames}, ${6:AudioBufferList* ioData})'
+  'AudioQueueProcessingTapNew':
+    'prefix': 'AudioQueueProcessingTapNew'
+    'body': 'AudioQueueProcessingTapNew(${1:AudioQueueRef inAQ}, ${2:AudioQueueProcessingTapCallback inCallback}, ${3:void* inClientData}, ${4:UInt32 inFlags}, ${5:UInt32* outMaxFrames}, ${6:AudioStreamBasicDescription* outProcessingFormat}, ${7:AudioQueueProcessingTapRef* outAQTap})'
+  'AudioQueueRemovePropertyListener':
+    'prefix': 'AudioQueueRemovePropertyListener'
+    'body': 'AudioQueueRemovePropertyListener(${1:AudioQueueRef inAQ}, ${2:AudioQueuePropertyID inID}, ${3:AudioQueuePropertyListenerProc inProc}, ${4:void* inUserData})'
+  'AudioQueueReset':
+    'prefix': 'AudioQueueReset'
+    'body': 'AudioQueueReset(${1:AudioQueueRef inAQ})'
+  'AudioQueueSetOfflineRenderFormat':
+    'prefix': 'AudioQueueSetOfflineRenderFormat'
+    'body': 'AudioQueueSetOfflineRenderFormat(${1:AudioQueueRef inAQ}, ${2:AudioStreamBasicDescription* inFormat}, ${3:AudioChannelLayout* inLayout})'
+  'AudioQueueSetParameter':
+    'prefix': 'AudioQueueSetParameter'
+    'body': 'AudioQueueSetParameter(${1:AudioQueueRef inAQ}, ${2:AudioQueueParameterID inParamID}, ${3:AudioQueueParameterValue inValue})'
+  'AudioQueueSetProperty':
+    'prefix': 'AudioQueueSetProperty'
+    'body': 'AudioQueueSetProperty(${1:AudioQueueRef inAQ}, ${2:AudioQueuePropertyID inID}, ${3:void* inData}, ${4:UInt32 inDataSize})'
+  'AudioQueueStart':
+    'prefix': 'AudioQueueStart'
+    'body': 'AudioQueueStart(${1:AudioQueueRef inAQ}, ${2:AudioTimeStamp* inStartTime})'
+  'AudioQueueStop':
+    'prefix': 'AudioQueueStop'
+    'body': 'AudioQueueStop(${1:AudioQueueRef inAQ}, ${2:Boolean inImmediate})'
+  'AudioServicesAddSystemSoundCompletion':
+    'prefix': 'AudioServicesAddSystemSoundCompletion'
+    'body': 'AudioServicesAddSystemSoundCompletion(${1:SystemSoundID inSystemSoundID}, ${2:CFRunLoopRef inRunLoop}, ${3:CFStringRef inRunLoopMode}, ${4:AudioServicesSystemSoundCompletionProc inCompletionRoutine}, ${5:void* inClientData})'
+  'AudioServicesCreateSystemSoundID':
+    'prefix': 'AudioServicesCreateSystemSoundID'
+    'body': 'AudioServicesCreateSystemSoundID(${1:CFURLRef inFileURL}, ${2:SystemSoundID* outSystemSoundID})'
+  'AudioServicesDisposeSystemSoundID':
+    'prefix': 'AudioServicesDisposeSystemSoundID'
+    'body': 'AudioServicesDisposeSystemSoundID(${1:SystemSoundID inSystemSoundID})'
+  'AudioServicesGetProperty':
+    'prefix': 'AudioServicesGetProperty'
+    'body': 'AudioServicesGetProperty(${1:AudioServicesPropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32* ioPropertyDataSize}, ${5:void* outPropertyData})'
+  'AudioServicesGetPropertyInfo':
+    'prefix': 'AudioServicesGetPropertyInfo'
+    'body': 'AudioServicesGetPropertyInfo(${1:AudioServicesPropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32* outPropertyDataSize}, ${5:Boolean* outWritable})'
+  'AudioServicesPlayAlertSound':
+    'prefix': 'AudioServicesPlayAlertSound'
+    'body': 'AudioServicesPlayAlertSound(${1:SystemSoundID inSystemSoundID})'
+  'AudioServicesPlaySystemSound':
+    'prefix': 'AudioServicesPlaySystemSound'
+    'body': 'AudioServicesPlaySystemSound(${1:SystemSoundID inSystemSoundID})'
+  'AudioServicesRemoveSystemSoundCompletion':
+    'prefix': 'AudioServicesRemoveSystemSoundCompletion'
+    'body': 'AudioServicesRemoveSystemSoundCompletion(${1:SystemSoundID inSystemSoundID})'
+  'AudioServicesSetProperty':
+    'prefix': 'AudioServicesSetProperty'
+    'body': 'AudioServicesSetProperty(${1:AudioServicesPropertyID inPropertyID}, ${2:UInt32 inSpecifierSize}, ${3:void* inSpecifier}, ${4:UInt32 inPropertyDataSize}, ${5:void* inPropertyData})'
+  'AudioSessionAddPropertyListener':
+    'prefix': 'AudioSessionAddPropertyListener'
+    'body': 'AudioSessionAddPropertyListener(${1:AudioSessionPropertyID inID}, ${2:AudioSessionPropertyListener inProc}, ${3:void* inClientData})'
+  'AudioSessionGetProperty':
+    'prefix': 'AudioSessionGetProperty'
+    'body': 'AudioSessionGetProperty(${1:AudioSessionPropertyID inID}, ${2:UInt32* ioDataSize}, ${3:void* outData})'
+  'AudioSessionGetPropertySize':
+    'prefix': 'AudioSessionGetPropertySize'
+    'body': 'AudioSessionGetPropertySize(${1:AudioSessionPropertyID inID}, ${2:UInt32* outDataSize})'
+  'AudioSessionInitialize':
+    'prefix': 'AudioSessionInitialize'
+    'body': 'AudioSessionInitialize(${1:CFRunLoopRef inRunLoop}, ${2:CFStringRef inRunLoopMode}, ${3:AudioSessionInterruptionListener inInterruptionListener}, ${4:void* inClientData})'
+  'AudioSessionRemovePropertyListener':
+    'prefix': 'AudioSessionRemovePropertyListener'
+    'body': 'AudioSessionRemovePropertyListener(${1:AudioSessionPropertyID inID})'
+  'AudioSessionRemovePropertyListenerWithUserData':
+    'prefix': 'AudioSessionRemovePropertyListenerWithUserData'
+    'body': 'AudioSessionRemovePropertyListenerWithUserData(${1:AudioSessionPropertyID inID}, ${2:AudioSessionPropertyListener inProc}, ${3:void* inClientData})'
+  'AudioSessionSetActive':
+    'prefix': 'AudioSessionSetActive'
+    'body': 'AudioSessionSetActive(${1:Boolean active})'
+  'AudioSessionSetActiveWithFlags':
+    'prefix': 'AudioSessionSetActiveWithFlags'
+    'body': 'AudioSessionSetActiveWithFlags(${1:Boolean active}, ${2:UInt32 inFlags})'
+  'AudioSessionSetProperty':
+    'prefix': 'AudioSessionSetProperty'
+    'body': 'AudioSessionSetProperty(${1:AudioSessionPropertyID inID}, ${2:UInt32 inDataSize}, ${3:void* inData})'
+  'CAShow':
+    'prefix': 'CAShow'
+    'body': 'CAShow(${1:void* inObject})'
+  'CAShowFile':
+    'prefix': 'CAShowFile'
+    'body': 'CAShowFile(${1:void* inObject}, ${2:FILE* inFile})'
+  'CopyInstrumentInfoFromSoundBank':
+    'prefix': 'CopyInstrumentInfoFromSoundBank'
+    'body': 'CopyInstrumentInfoFromSoundBank(${1:CFURLRef inURL}, ${2:CFArrayRef* outInstrumentInfo})'
+  'CopyNameFromSoundBank':
+    'prefix': 'CopyNameFromSoundBank'
+    'body': 'CopyNameFromSoundBank(${1:CFURLRef inURL}, ${2:CFStringRef* outName})'
+  'DisposeAUGraph':
+    'prefix': 'DisposeAUGraph'
+    'body': 'DisposeAUGraph(${1:AUGraph inGraph})'
+  'DisposeMusicEventIterator':
+    'prefix': 'DisposeMusicEventIterator'
+    'body': 'DisposeMusicEventIterator(${1:MusicEventIterator inIterator})'
+  'DisposeMusicPlayer':
+    'prefix': 'DisposeMusicPlayer'
+    'body': 'DisposeMusicPlayer(${1:MusicPlayer inPlayer})'
+  'DisposeMusicSequence':
+    'prefix': 'DisposeMusicSequence'
+    'body': 'DisposeMusicSequence(${1:MusicSequence inSequence})'
+  'ExtAudioFileCreateWithURL':
+    'prefix': 'ExtAudioFileCreateWithURL'
+    'body': 'ExtAudioFileCreateWithURL(${1:CFURLRef inURL}, ${2:AudioFileTypeID inFileType}, ${3:AudioStreamBasicDescription* inStreamDesc}, ${4:AudioChannelLayout* inChannelLayout}, ${5:UInt32 inFlags}, ${6:ExtAudioFileRef* outExtAudioFile})'
+  'ExtAudioFileDispose':
+    'prefix': 'ExtAudioFileDispose'
+    'body': 'ExtAudioFileDispose(${1:ExtAudioFileRef inExtAudioFile})'
+  'ExtAudioFileGetProperty':
+    'prefix': 'ExtAudioFileGetProperty'
+    'body': 'ExtAudioFileGetProperty(${1:ExtAudioFileRef inExtAudioFile}, ${2:ExtAudioFilePropertyID inPropertyID}, ${3:UInt32* ioPropertyDataSize}, ${4:void* outPropertyData})'
+  'ExtAudioFileGetPropertyInfo':
+    'prefix': 'ExtAudioFileGetPropertyInfo'
+    'body': 'ExtAudioFileGetPropertyInfo(${1:ExtAudioFileRef inExtAudioFile}, ${2:ExtAudioFilePropertyID inPropertyID}, ${3:UInt32* outSize}, ${4:Boolean* outWritable})'
+  'ExtAudioFileOpenURL':
+    'prefix': 'ExtAudioFileOpenURL'
+    'body': 'ExtAudioFileOpenURL(${1:CFURLRef inURL}, ${2:ExtAudioFileRef* outExtAudioFile})'
+  'ExtAudioFileRead':
+    'prefix': 'ExtAudioFileRead'
+    'body': 'ExtAudioFileRead(${1:ExtAudioFileRef inExtAudioFile}, ${2:UInt32* ioNumberFrames}, ${3:AudioBufferList* ioData})'
+  'ExtAudioFileSeek':
+    'prefix': 'ExtAudioFileSeek'
+    'body': 'ExtAudioFileSeek(${1:ExtAudioFileRef inExtAudioFile}, ${2:SInt64 inFrameOffset})'
+  'ExtAudioFileSetProperty':
+    'prefix': 'ExtAudioFileSetProperty'
+    'body': 'ExtAudioFileSetProperty(${1:ExtAudioFileRef inExtAudioFile}, ${2:ExtAudioFilePropertyID inPropertyID}, ${3:UInt32 inPropertyDataSize}, ${4:void* inPropertyData})'
+  'ExtAudioFileTell':
+    'prefix': 'ExtAudioFileTell'
+    'body': 'ExtAudioFileTell(${1:ExtAudioFileRef inExtAudioFile}, ${2:SInt64* outFrameOffset})'
+  'ExtAudioFileWrapAudioFileID':
+    'prefix': 'ExtAudioFileWrapAudioFileID'
+    'body': 'ExtAudioFileWrapAudioFileID(${1:AudioFileID inFileID}, ${2:Boolean inForWriting}, ${3:ExtAudioFileRef* outExtAudioFile})'
+  'ExtAudioFileWrite':
+    'prefix': 'ExtAudioFileWrite'
+    'body': 'ExtAudioFileWrite(${1:ExtAudioFileRef inExtAudioFile}, ${2:UInt32 inNumberFrames}, ${3:AudioBufferList* ioData})'
+  'ExtAudioFileWriteAsync':
+    'prefix': 'ExtAudioFileWriteAsync'
+    'body': 'ExtAudioFileWriteAsync(${1:ExtAudioFileRef inExtAudioFile}, ${2:UInt32 inNumberFrames}, ${3:AudioBufferList* ioData})'
+  'MusicEventIteratorDeleteEvent':
+    'prefix': 'MusicEventIteratorDeleteEvent'
+    'body': 'MusicEventIteratorDeleteEvent(${1:MusicEventIterator inIterator})'
+  'MusicEventIteratorGetEventInfo':
+    'prefix': 'MusicEventIteratorGetEventInfo'
+    'body': 'MusicEventIteratorGetEventInfo(${1:MusicEventIterator inIterator}, ${2:MusicTimeStamp* outTimeStamp}, ${3:MusicEventType* outEventType}, ${4:void** outEventData}, ${5:UInt32* outEventDataSize})'
+  'MusicEventIteratorHasCurrentEvent':
+    'prefix': 'MusicEventIteratorHasCurrentEvent'
+    'body': 'MusicEventIteratorHasCurrentEvent(${1:MusicEventIterator inIterator}, ${2:Boolean* outHasCurEvent})'
+  'MusicEventIteratorHasNextEvent':
+    'prefix': 'MusicEventIteratorHasNextEvent'
+    'body': 'MusicEventIteratorHasNextEvent(${1:MusicEventIterator inIterator}, ${2:Boolean* outHasNextEvent})'
+  'MusicEventIteratorHasPreviousEvent':
+    'prefix': 'MusicEventIteratorHasPreviousEvent'
+    'body': 'MusicEventIteratorHasPreviousEvent(${1:MusicEventIterator inIterator}, ${2:Boolean* outHasPrevEvent})'
+  'MusicEventIteratorNextEvent':
+    'prefix': 'MusicEventIteratorNextEvent'
+    'body': 'MusicEventIteratorNextEvent(${1:MusicEventIterator inIterator})'
+  'MusicEventIteratorPreviousEvent':
+    'prefix': 'MusicEventIteratorPreviousEvent'
+    'body': 'MusicEventIteratorPreviousEvent(${1:MusicEventIterator inIterator})'
+  'MusicEventIteratorSeek':
+    'prefix': 'MusicEventIteratorSeek'
+    'body': 'MusicEventIteratorSeek(${1:MusicEventIterator inIterator}, ${2:MusicTimeStamp inTimeStamp})'
+  'MusicEventIteratorSetEventInfo':
+    'prefix': 'MusicEventIteratorSetEventInfo'
+    'body': 'MusicEventIteratorSetEventInfo(${1:MusicEventIterator inIterator}, ${2:MusicEventType inEventType}, ${3:void* inEventData})'
+  'MusicEventIteratorSetEventTime':
+    'prefix': 'MusicEventIteratorSetEventTime'
+    'body': 'MusicEventIteratorSetEventTime(${1:MusicEventIterator inIterator}, ${2:MusicTimeStamp inTimeStamp})'
+  'MusicPlayerGetBeatsForHostTime':
+    'prefix': 'MusicPlayerGetBeatsForHostTime'
+    'body': 'MusicPlayerGetBeatsForHostTime(${1:MusicPlayer inPlayer}, ${2:UInt64 inHostTime}, ${3:MusicTimeStamp* outBeats})'
+  'MusicPlayerGetHostTimeForBeats':
+    'prefix': 'MusicPlayerGetHostTimeForBeats'
+    'body': 'MusicPlayerGetHostTimeForBeats(${1:MusicPlayer inPlayer}, ${2:MusicTimeStamp inBeats}, ${3:UInt64* outHostTime})'
+  'MusicPlayerGetPlayRateScalar':
+    'prefix': 'MusicPlayerGetPlayRateScalar'
+    'body': 'MusicPlayerGetPlayRateScalar(${1:MusicPlayer inPlayer}, ${2:Float64* outScaleRate})'
+  'MusicPlayerGetSequence':
+    'prefix': 'MusicPlayerGetSequence'
+    'body': 'MusicPlayerGetSequence(${1:MusicPlayer inPlayer}, ${2:MusicSequence* outSequence})'
+  'MusicPlayerGetTime':
+    'prefix': 'MusicPlayerGetTime'
+    'body': 'MusicPlayerGetTime(${1:MusicPlayer inPlayer}, ${2:MusicTimeStamp* outTime})'
+  'MusicPlayerIsPlaying':
+    'prefix': 'MusicPlayerIsPlaying'
+    'body': 'MusicPlayerIsPlaying(${1:MusicPlayer inPlayer}, ${2:Boolean* outIsPlaying})'
+  'MusicPlayerPreroll':
+    'prefix': 'MusicPlayerPreroll'
+    'body': 'MusicPlayerPreroll(${1:MusicPlayer inPlayer})'
+  'MusicPlayerSetPlayRateScalar':
+    'prefix': 'MusicPlayerSetPlayRateScalar'
+    'body': 'MusicPlayerSetPlayRateScalar(${1:MusicPlayer inPlayer}, ${2:Float64 inScaleRate})'
+  'MusicPlayerSetSequence':
+    'prefix': 'MusicPlayerSetSequence'
+    'body': 'MusicPlayerSetSequence(${1:MusicPlayer inPlayer}, ${2:MusicSequence inSequence})'
+  'MusicPlayerSetTime':
+    'prefix': 'MusicPlayerSetTime'
+    'body': 'MusicPlayerSetTime(${1:MusicPlayer inPlayer}, ${2:MusicTimeStamp inTime})'
+  'MusicPlayerStart':
+    'prefix': 'MusicPlayerStart'
+    'body': 'MusicPlayerStart(${1:MusicPlayer inPlayer})'
+  'MusicPlayerStop':
+    'prefix': 'MusicPlayerStop'
+    'body': 'MusicPlayerStop(${1:MusicPlayer inPlayer})'
+  'MusicSequenceBarBeatTimeToBeats':
+    'prefix': 'MusicSequenceBarBeatTimeToBeats'
+    'body': 'MusicSequenceBarBeatTimeToBeats(${1:MusicSequence inSequence}, ${2:CABarBeatTime* inBarBeatTime}, ${3:MusicTimeStamp* outBeats})'
+  'MusicSequenceBeatsToBarBeatTime':
+    'prefix': 'MusicSequenceBeatsToBarBeatTime'
+    'body': 'MusicSequenceBeatsToBarBeatTime(${1:MusicSequence inSequence}, ${2:MusicTimeStamp inBeats}, ${3:UInt32 inSubbeatDivisor}, ${4:CABarBeatTime* outBarBeatTime})'
+  'MusicSequenceDisposeTrack':
+    'prefix': 'MusicSequenceDisposeTrack'
+    'body': 'MusicSequenceDisposeTrack(${1:MusicSequence inSequence}, ${2:MusicTrack inTrack})'
+  'MusicSequenceFileCreate':
+    'prefix': 'MusicSequenceFileCreate'
+    'body': 'MusicSequenceFileCreate(${1:MusicSequence inSequence}, ${2:CFURLRef inFileRef}, ${3:MusicSequenceFileTypeID inFileType}, ${4:MusicSequenceFileFlags inFlags}, ${5:SInt16 inResolution})'
+  'MusicSequenceFileCreateData':
+    'prefix': 'MusicSequenceFileCreateData'
+    'body': 'MusicSequenceFileCreateData(${1:MusicSequence inSequence}, ${2:MusicSequenceFileTypeID inFileType}, ${3:MusicSequenceFileFlags inFlags}, ${4:SInt16 inResolution}, ${5:CFDataRef* outData})'
+  'MusicSequenceFileLoad':
+    'prefix': 'MusicSequenceFileLoad'
+    'body': 'MusicSequenceFileLoad(${1:MusicSequence inSequence}, ${2:CFURLRef inFileRef}, ${3:MusicSequenceFileTypeID inFileTypeHint}, ${4:MusicSequenceLoadFlags inFlags})'
+  'MusicSequenceFileLoadData':
+    'prefix': 'MusicSequenceFileLoadData'
+    'body': 'MusicSequenceFileLoadData(${1:MusicSequence inSequence}, ${2:CFDataRef inData}, ${3:MusicSequenceFileTypeID inFileTypeHint}, ${4:MusicSequenceLoadFlags inFlags})'
+  'MusicSequenceGetAUGraph':
+    'prefix': 'MusicSequenceGetAUGraph'
+    'body': 'MusicSequenceGetAUGraph(${1:MusicSequence inSequence}, ${2:AUGraph* outGraph})'
+  'MusicSequenceGetBeatsForSeconds':
+    'prefix': 'MusicSequenceGetBeatsForSeconds'
+    'body': 'MusicSequenceGetBeatsForSeconds(${1:MusicSequence inSequence}, ${2:Float64 inSeconds}, ${3:MusicTimeStamp* outBeats})'
+  'MusicSequenceGetIndTrack':
+    'prefix': 'MusicSequenceGetIndTrack'
+    'body': 'MusicSequenceGetIndTrack(${1:MusicSequence inSequence}, ${2:UInt32 inTrackIndex}, ${3:MusicTrack* outTrack})'
+  'MusicSequenceGetInfoDictionary':
+    'prefix': 'MusicSequenceGetInfoDictionary'
+    'body': 'MusicSequenceGetInfoDictionary(${1:MusicSequence inSequence})'
+  'MusicSequenceGetSMPTEResolution':
+    'prefix': 'MusicSequenceGetSMPTEResolution'
+    'body': 'MusicSequenceGetSMPTEResolution(${1:SInt16 inRes}, ${2:SignedByte* fps}, ${3:Byte* ticks})'
+  'MusicSequenceGetSecondsForBeats':
+    'prefix': 'MusicSequenceGetSecondsForBeats'
+    'body': 'MusicSequenceGetSecondsForBeats(${1:MusicSequence inSequence}, ${2:MusicTimeStamp inBeats}, ${3:Float64* outSeconds})'
+  'MusicSequenceGetSequenceType':
+    'prefix': 'MusicSequenceGetSequenceType'
+    'body': 'MusicSequenceGetSequenceType(${1:MusicSequence inSequence}, ${2:MusicSequenceType* outType})'
+  'MusicSequenceGetTempoTrack':
+    'prefix': 'MusicSequenceGetTempoTrack'
+    'body': 'MusicSequenceGetTempoTrack(${1:MusicSequence inSequence}, ${2:MusicTrack* outTrack})'
+  'MusicSequenceGetTrackCount':
+    'prefix': 'MusicSequenceGetTrackCount'
+    'body': 'MusicSequenceGetTrackCount(${1:MusicSequence inSequence}, ${2:UInt32* outNumberOfTracks})'
+  'MusicSequenceGetTrackIndex':
+    'prefix': 'MusicSequenceGetTrackIndex'
+    'body': 'MusicSequenceGetTrackIndex(${1:MusicSequence inSequence}, ${2:MusicTrack inTrack}, ${3:UInt32* outTrackIndex})'
+  'MusicSequenceNewTrack':
+    'prefix': 'MusicSequenceNewTrack'
+    'body': 'MusicSequenceNewTrack(${1:MusicSequence inSequence}, ${2:MusicTrack* outTrack})'
+  'MusicSequenceReverse':
+    'prefix': 'MusicSequenceReverse'
+    'body': 'MusicSequenceReverse(${1:MusicSequence inSequence})'
+  'MusicSequenceSetAUGraph':
+    'prefix': 'MusicSequenceSetAUGraph'
+    'body': 'MusicSequenceSetAUGraph(${1:MusicSequence inSequence}, ${2:AUGraph inGraph})'
+  'MusicSequenceSetMIDIEndpoint':
+    'prefix': 'MusicSequenceSetMIDIEndpoint'
+    'body': 'MusicSequenceSetMIDIEndpoint(${1:MusicSequence inSequence}, ${2:MIDIEndpointRef inEndpoint})'
+  'MusicSequenceSetSMPTEResolution':
+    'prefix': 'MusicSequenceSetSMPTEResolution'
+    'body': 'MusicSequenceSetSMPTEResolution(${1:SignedByte fps}, ${2:Byte ticks})'
+  'MusicSequenceSetSequenceType':
+    'prefix': 'MusicSequenceSetSequenceType'
+    'body': 'MusicSequenceSetSequenceType(${1:MusicSequence inSequence}, ${2:MusicSequenceType inType})'
+  'MusicSequenceSetUserCallback':
+    'prefix': 'MusicSequenceSetUserCallback'
+    'body': 'MusicSequenceSetUserCallback(${1:MusicSequence inSequence}, ${2:MusicSequenceUserCallback inCallback}, ${3:void* inClientData})'
+  'MusicTrackClear':
+    'prefix': 'MusicTrackClear'
+    'body': 'MusicTrackClear(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inStartTime}, ${3:MusicTimeStamp inEndTime})'
+  'MusicTrackCopyInsert':
+    'prefix': 'MusicTrackCopyInsert'
+    'body': 'MusicTrackCopyInsert(${1:MusicTrack inSourceTrack}, ${2:MusicTimeStamp inSourceStartTime}, ${3:MusicTimeStamp inSourceEndTime}, ${4:MusicTrack inDestTrack}, ${5:MusicTimeStamp inDestInsertTime})'
+  'MusicTrackCut':
+    'prefix': 'MusicTrackCut'
+    'body': 'MusicTrackCut(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inStartTime}, ${3:MusicTimeStamp inEndTime})'
+  'MusicTrackGetDestMIDIEndpoint':
+    'prefix': 'MusicTrackGetDestMIDIEndpoint'
+    'body': 'MusicTrackGetDestMIDIEndpoint(${1:MusicTrack inTrack}, ${2:MIDIEndpointRef* outEndpoint})'
+  'MusicTrackGetDestNode':
+    'prefix': 'MusicTrackGetDestNode'
+    'body': 'MusicTrackGetDestNode(${1:MusicTrack inTrack}, ${2:AUNode* outNode})'
+  'MusicTrackGetProperty':
+    'prefix': 'MusicTrackGetProperty'
+    'body': 'MusicTrackGetProperty(${1:MusicTrack inTrack}, ${2:UInt32 inPropertyID}, ${3:void* outData}, ${4:UInt32* ioLength})'
+  'MusicTrackGetSequence':
+    'prefix': 'MusicTrackGetSequence'
+    'body': 'MusicTrackGetSequence(${1:MusicTrack inTrack}, ${2:MusicSequence* outSequence})'
+  'MusicTrackMerge':
+    'prefix': 'MusicTrackMerge'
+    'body': 'MusicTrackMerge(${1:MusicTrack inSourceTrack}, ${2:MusicTimeStamp inSourceStartTime}, ${3:MusicTimeStamp inSourceEndTime}, ${4:MusicTrack inDestTrack}, ${5:MusicTimeStamp inDestInsertTime})'
+  'MusicTrackMoveEvents':
+    'prefix': 'MusicTrackMoveEvents'
+    'body': 'MusicTrackMoveEvents(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inStartTime}, ${3:MusicTimeStamp inEndTime}, ${4:MusicTimeStamp inMoveTime})'
+  'MusicTrackNewAUPresetEvent':
+    'prefix': 'MusicTrackNewAUPresetEvent'
+    'body': 'MusicTrackNewAUPresetEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:AUPresetEvent* inPresetEvent})'
+  'MusicTrackNewExtendedNoteEvent':
+    'prefix': 'MusicTrackNewExtendedNoteEvent'
+    'body': 'MusicTrackNewExtendedNoteEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:ExtendedNoteOnEvent* inInfo})'
+  'MusicTrackNewExtendedTempoEvent':
+    'prefix': 'MusicTrackNewExtendedTempoEvent'
+    'body': 'MusicTrackNewExtendedTempoEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:Float64 inBPM})'
+  'MusicTrackNewMIDIChannelEvent':
+    'prefix': 'MusicTrackNewMIDIChannelEvent'
+    'body': 'MusicTrackNewMIDIChannelEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:MIDIChannelMessage* inMessage})'
+  'MusicTrackNewMIDINoteEvent':
+    'prefix': 'MusicTrackNewMIDINoteEvent'
+    'body': 'MusicTrackNewMIDINoteEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:MIDINoteMessage* inMessage})'
+  'MusicTrackNewMIDIRawDataEvent':
+    'prefix': 'MusicTrackNewMIDIRawDataEvent'
+    'body': 'MusicTrackNewMIDIRawDataEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:MIDIRawData* inRawData})'
+  'MusicTrackNewMetaEvent':
+    'prefix': 'MusicTrackNewMetaEvent'
+    'body': 'MusicTrackNewMetaEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:MIDIMetaEvent* inMetaEvent})'
+  'MusicTrackNewParameterEvent':
+    'prefix': 'MusicTrackNewParameterEvent'
+    'body': 'MusicTrackNewParameterEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:ParameterEvent* inInfo})'
+  'MusicTrackNewUserEvent':
+    'prefix': 'MusicTrackNewUserEvent'
+    'body': 'MusicTrackNewUserEvent(${1:MusicTrack inTrack}, ${2:MusicTimeStamp inTimeStamp}, ${3:MusicEventUserData* inUserData})'
+  'MusicTrackSetDestMIDIEndpoint':
+    'prefix': 'MusicTrackSetDestMIDIEndpoint'
+    'body': 'MusicTrackSetDestMIDIEndpoint(${1:MusicTrack inTrack}, ${2:MIDIEndpointRef inEndpoint})'
+  'MusicTrackSetDestNode':
+    'prefix': 'MusicTrackSetDestNode'
+    'body': 'MusicTrackSetDestNode(${1:MusicTrack inTrack}, ${2:AUNode inNode})'
+  'MusicTrackSetProperty':
+    'prefix': 'MusicTrackSetProperty'
+    'body': 'MusicTrackSetProperty(${1:MusicTrack inTrack}, ${2:UInt32 inPropertyID}, ${3:void* inData}, ${4:UInt32 inLength})'
+  'NewAUGraph':
+    'prefix': 'NewAUGraph'
+    'body': 'NewAUGraph(${1:AUGraph* outGraph})'
+  'NewMusicEventIterator':
+    'prefix': 'NewMusicEventIterator'
+    'body': 'NewMusicEventIterator(${1:MusicTrack inTrack}, ${2:MusicEventIterator* outIterator})'
+  'NewMusicPlayer':
+    'prefix': 'NewMusicPlayer'
+    'body': 'NewMusicPlayer(${1:MusicPlayer* outPlayer})'
+  'NewMusicSequence':
+    'prefix': 'NewMusicSequence'
+    'body': 'NewMusicSequence(${1:MusicSequence* outSequence})'

@@ -1,0 +1,100 @@
+'.source.rubymotion':
+  'EAAccessoryDidConnectNotification (NSString*)':
+    'prefix': 'EAAccessoryDidConnectNotification'
+    'body': 'EAAccessoryDidConnectNotification'
+  'EAAccessoryDidDisconnectNotification (NSString*)':
+    'prefix': 'EAAccessoryDidDisconnectNotification'
+    'body': 'EAAccessoryDidDisconnectNotification'
+  'EAAccessoryKey (NSString*)':
+    'prefix': 'EAAccessoryKey'
+    'body': 'EAAccessoryKey'
+  'EAAccessorySelectedKey (NSString*)':
+    'prefix': 'EAAccessorySelectedKey'
+    'body': 'EAAccessorySelectedKey'
+  'EABluetoothAccessoryPickerErrorDomain (NSString*)':
+    'prefix': 'EABluetoothAccessoryPickerErrorDomain'
+    'body': 'EABluetoothAccessoryPickerErrorDomain'
+  'EABluetoothAccessoryPickerAlreadyConnected (0)':
+    'prefix': 'EABluetoothAccessoryPickerAlreadyConnected'
+    'body': 'EABluetoothAccessoryPickerAlreadyConnected'
+  'EABluetoothAccessoryPickerResultCancelled (2)':
+    'prefix': 'EABluetoothAccessoryPickerResultCancelled'
+    'body': 'EABluetoothAccessoryPickerResultCancelled'
+  'EABluetoothAccessoryPickerResultFailed (3)':
+    'prefix': 'EABluetoothAccessoryPickerResultFailed'
+    'body': 'EABluetoothAccessoryPickerResultFailed'
+  'EABluetoothAccessoryPickerResultNotFound (1)':
+    'prefix': 'EABluetoothAccessoryPickerResultNotFound'
+    'body': 'EABluetoothAccessoryPickerResultNotFound'
+  'EAConnectionIDNone (0)':
+    'prefix': 'EAConnectionIDNone'
+    'body': 'EAConnectionIDNone'
+  'connectionID':
+    'prefix': 'connectionID'
+    'body': 'connectionID()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'firmwareRevision':
+    'prefix': 'firmwareRevision'
+    'body': 'firmwareRevision()'
+  'hardwareRevision':
+    'prefix': 'hardwareRevision'
+    'body': 'hardwareRevision()'
+  'isConnected':
+    'prefix': 'isConnected'
+    'body': 'isConnected()'
+  'manufacturer':
+    'prefix': 'manufacturer'
+    'body': 'manufacturer()'
+  'modelNumber':
+    'prefix': 'modelNumber'
+    'body': 'modelNumber()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'protocolStrings':
+    'prefix': 'protocolStrings'
+    'body': 'protocolStrings()'
+  'serialNumber':
+    'prefix': 'serialNumber'
+    'body': 'serialNumber()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'connectedAccessories':
+    'prefix': 'connectedAccessories'
+    'body': 'connectedAccessories()'
+  'registerForLocalNotifications':
+    'prefix': 'registerForLocalNotifications'
+    'body': 'registerForLocalNotifications()'
+  'EAAccessoryManager.sharedAccessoryManager':
+    'prefix': 'sharedAccessoryManager'
+    'body': 'EAAccessoryManager.sharedAccessoryManager()'
+  'showBluetoothAccessoryPickerWithNameFilter:completion:':
+    'prefix': 'showBluetoothAccessoryPickerWithNameFilter:completion:'
+    'body': 'showBluetoothAccessoryPickerWithNameFilter(${1:NSPredicate* predicate}, completion:${2:EABluetoothAccessoryPickerCompletion completion})'
+  'unregisterForLocalNotifications':
+    'prefix': 'unregisterForLocalNotifications'
+    'body': 'unregisterForLocalNotifications()'
+  'accessory':
+    'prefix': 'accessory'
+    'body': 'accessory()'
+  'initWithAccessory:forProtocol:':
+    'prefix': 'initWithAccessory:forProtocol:'
+    'body': 'initWithAccessory(${1:EAAccessory* accessory}, forProtocol:${2:NSString* protocolString})'
+  'inputStream':
+    'prefix': 'inputStream'
+    'body': 'inputStream()'
+  'outputStream':
+    'prefix': 'outputStream'
+    'body': 'outputStream()'
+  'protocolString':
+    'prefix': 'protocolString'
+    'body': 'protocolString()'
+  'accessoryDidDisconnect:':
+    'prefix': 'accessoryDidDisconnect:'
+    'body': 'accessoryDidDisconnect(${1:EAAccessory* accessory})'
+  'accessoryDidDisconnect:':
+    'prefix': 'accessoryDidDisconnect:'
+    'body': 'accessoryDidDisconnect(${1:EAAccessory* accessory})'

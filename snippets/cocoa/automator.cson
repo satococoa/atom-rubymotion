@@ -1,0 +1,355 @@
+'.source.rubymotion':
+  'AMActionErrorKey (AMActionErrorKey)':
+    'prefix': 'AMActionErrorKey'
+    'body': 'AMActionErrorKey'
+  'AMAutomatorErrorDomain (com.apple.Automator)':
+    'prefix': 'AMAutomatorErrorDomain'
+    'body': 'AMAutomatorErrorDomain'
+  'AMActionApplicationResourceError (-206)':
+    'prefix': 'AMActionApplicationResourceError'
+    'body': 'AMActionApplicationResourceError'
+  'AMActionApplicationVersionResourceError (-207)':
+    'prefix': 'AMActionApplicationVersionResourceError'
+    'body': 'AMActionApplicationVersionResourceError'
+  'AMActionArchitectureMismatchError (-202)':
+    'prefix': 'AMActionArchitectureMismatchError'
+    'body': 'AMActionArchitectureMismatchError'
+  'AMActionExceptionError (-213)':
+    'prefix': 'AMActionExceptionError'
+    'body': 'AMActionExceptionError'
+  'AMActionExecutionError (-212)':
+    'prefix': 'AMActionExecutionError'
+    'body': 'AMActionExecutionError'
+  'AMActionFileResourceError (-208)':
+    'prefix': 'AMActionFileResourceError'
+    'body': 'AMActionFileResourceError'
+  'AMActionInitializationError (-211)':
+    'prefix': 'AMActionInitializationError'
+    'body': 'AMActionInitializationError'
+  'AMActionInsufficientDataError (-215)':
+    'prefix': 'AMActionInsufficientDataError'
+    'body': 'AMActionInsufficientDataError'
+  'AMActionIsDeprecatedError (-216)':
+    'prefix': 'AMActionIsDeprecatedError'
+    'body': 'AMActionIsDeprecatedError'
+  'AMActionLicenseResourceError (-209)':
+    'prefix': 'AMActionLicenseResourceError'
+    'body': 'AMActionLicenseResourceError'
+  'AMActionLinkError (-205)':
+    'prefix': 'AMActionLinkError'
+    'body': 'AMActionLinkError'
+  'AMActionLoadError (-204)':
+    'prefix': 'AMActionLoadError'
+    'body': 'AMActionLoadError'
+  'AMActionNotLoadableError (-201)':
+    'prefix': 'AMActionNotLoadableError'
+    'body': 'AMActionNotLoadableError'
+  'AMActionPropertyListInvalidError (-214)':
+    'prefix': 'AMActionPropertyListInvalidError'
+    'body': 'AMActionPropertyListInvalidError'
+  'AMActionRequiredActionResourceError (-210)':
+    'prefix': 'AMActionRequiredActionResourceError'
+    'body': 'AMActionRequiredActionResourceError'
+  'AMActionRuntimeMismatchError (-203)':
+    'prefix': 'AMActionRuntimeMismatchError'
+    'body': 'AMActionRuntimeMismatchError'
+  'AMConversionFailedError (-302)':
+    'prefix': 'AMConversionFailedError'
+    'body': 'AMConversionFailedError'
+  'AMConversionNoDataError (-301)':
+    'prefix': 'AMConversionNoDataError'
+    'body': 'AMConversionNoDataError'
+  'AMConversionNotPossibleError (-300)':
+    'prefix': 'AMConversionNotPossibleError'
+    'body': 'AMConversionNotPossibleError'
+  'AMLogLevelDebug (0)':
+    'prefix': 'AMLogLevelDebug'
+    'body': 'AMLogLevelDebug'
+  'AMLogLevelError (3)':
+    'prefix': 'AMLogLevelError'
+    'body': 'AMLogLevelError'
+  'AMLogLevelInfo (1)':
+    'prefix': 'AMLogLevelInfo'
+    'body': 'AMLogLevelInfo'
+  'AMLogLevelWarn (2)':
+    'prefix': 'AMLogLevelWarn'
+    'body': 'AMLogLevelWarn'
+  'AMNoSuchActionError (-200)':
+    'prefix': 'AMNoSuchActionError'
+    'body': 'AMNoSuchActionError'
+  'AMUserCanceledError (-128)':
+    'prefix': 'AMUserCanceledError'
+    'body': 'AMUserCanceledError'
+  'AMWorkflowNewerActionVersionError (-111)':
+    'prefix': 'AMWorkflowNewerActionVersionError'
+    'body': 'AMWorkflowNewerActionVersionError'
+  'AMWorkflowNewerVersionError (-100)':
+    'prefix': 'AMWorkflowNewerVersionError'
+    'body': 'AMWorkflowNewerVersionError'
+  'AMWorkflowOlderActionVersionError (-112)':
+    'prefix': 'AMWorkflowOlderActionVersionError'
+    'body': 'AMWorkflowOlderActionVersionError'
+  'AMWorkflowPropertyListInvalidError (-101)':
+    'prefix': 'AMWorkflowPropertyListInvalidError'
+    'body': 'AMWorkflowPropertyListInvalidError'
+  'activated':
+    'prefix': 'activated'
+    'body': 'activated()'
+  'closed':
+    'prefix': 'closed'
+    'body': 'closed()'
+  'definition':
+    'prefix': 'definition'
+    'body': 'definition()'
+  'didFinishRunningWithError:':
+    'prefix': 'didFinishRunningWithError:'
+    'body': 'didFinishRunningWithError(${1:NSDictionary* errorInfo})'
+  'finishRunningWithError:':
+    'prefix': 'finishRunningWithError:'
+    'body': 'finishRunningWithError(${1:NSError* error})'
+  'ignoresInput':
+    'prefix': 'ignoresInput'
+    'body': 'ignoresInput()'
+  'initWithContentsOfURL:error:':
+    'prefix': 'initWithContentsOfURL:error:'
+    'body': 'initWithContentsOfURL(${1:NSURL* fileURL}, error:${2:NSError** outError})'
+  'initWithDefinition:fromArchive:':
+    'prefix': 'initWithDefinition:fromArchive:'
+    'body': 'initWithDefinition(${1:NSDictionary* dict}, fromArchive:${2:BOOL archived})'
+  'isStopped':
+    'prefix': 'isStopped'
+    'body': 'isStopped()'
+  'logMessageWithLevel:format:':
+    'prefix': 'logMessageWithLevel:format:'
+    'body': 'logMessageWithLevel(${1:AMLogLevel level}, format:${2:NSString* format})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'opened':
+    'prefix': 'opened'
+    'body': 'opened()'
+  'output':
+    'prefix': 'output'
+    'body': 'output()'
+  'parametersUpdated':
+    'prefix': 'parametersUpdated'
+    'body': 'parametersUpdated()'
+  'progressValue':
+    'prefix': 'progressValue'
+    'body': 'progressValue()'
+  'reset':
+    'prefix': 'reset'
+    'body': 'reset()'
+  'runAsynchronouslyWithInput:':
+    'prefix': 'runAsynchronouslyWithInput:'
+    'body': 'runAsynchronouslyWithInput(${1:id input})'
+  'runWithInput:error:':
+    'prefix': 'runWithInput:error:'
+    'body': 'runWithInput(${1:id input}, error:${2:NSError** error})'
+  'runWithInput:fromAction:error:':
+    'prefix': 'runWithInput:fromAction:error:'
+    'body': 'runWithInput(${1:id input}, fromAction:${2:AMAction* anAction}, error:${3:NSDictionary** errorInfo})'
+  'selectedInputType':
+    'prefix': 'selectedInputType'
+    'body': 'selectedInputType()'
+  'selectedOutputType':
+    'prefix': 'selectedOutputType'
+    'body': 'selectedOutputType()'
+  'setOutput:':
+    'prefix': 'setOutput:'
+    'body': 'setOutput(${1:id theOutput})'
+  'setProgressValue:':
+    'prefix': 'setProgressValue:'
+    'body': 'setProgressValue(${1:CGFloat value})'
+  'setSelectedInputType:':
+    'prefix': 'setSelectedInputType:'
+    'body': 'setSelectedInputType(${1:NSString* inputType})'
+  'setSelectedOutputType:':
+    'prefix': 'setSelectedOutputType:'
+    'body': 'setSelectedOutputType(${1:NSString* outputType})'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'updateParameters':
+    'prefix': 'updateParameters'
+    'body': 'updateParameters()'
+  'willFinishRunning':
+    'prefix': 'willFinishRunning'
+    'body': 'willFinishRunning()'
+  'writeToDictionary:':
+    'prefix': 'writeToDictionary:'
+    'body': 'writeToDictionary(${1:NSMutableDictionary* dictionary})'
+  'script':
+    'prefix': 'script'
+    'body': 'script()'
+  'setScript:':
+    'prefix': 'setScript:'
+    'body': 'setScript(${1:OSAScript* newScript})'
+  'awakeFromBundle':
+    'prefix': 'awakeFromBundle'
+    'body': 'awakeFromBundle()'
+  'bundle':
+    'prefix': 'bundle'
+    'body': 'bundle()'
+  'hasView':
+    'prefix': 'hasView'
+    'body': 'hasView()'
+  'initWithDefinition:fromArchive:':
+    'prefix': 'initWithDefinition:fromArchive:'
+    'body': 'initWithDefinition(${1:NSDictionary* dict}, fromArchive:${2:BOOL archived})'
+  'parameters':
+    'prefix': 'parameters'
+    'body': 'parameters()'
+  'setParameters:':
+    'prefix': 'setParameters:'
+    'body': 'setParameters(${1:NSMutableDictionary* newParameters})'
+  'view':
+    'prefix': 'view'
+    'body': 'view()'
+  'inputFieldSeparator':
+    'prefix': 'inputFieldSeparator'
+    'body': 'inputFieldSeparator()'
+  'outputFieldSeparator':
+    'prefix': 'outputFieldSeparator'
+    'body': 'outputFieldSeparator()'
+  'remapLineEndings':
+    'prefix': 'remapLineEndings'
+    'body': 'remapLineEndings()'
+  'actions':
+    'prefix': 'actions'
+    'body': 'actions()'
+  'addAction:':
+    'prefix': 'addAction:'
+    'body': 'addAction(${1:AMAction* action})'
+  'fileURL':
+    'prefix': 'fileURL'
+    'body': 'fileURL()'
+  'initWithContentsOfURL:error:':
+    'prefix': 'initWithContentsOfURL:error:'
+    'body': 'initWithContentsOfURL(${1:NSURL* fileURL}, error:${2:NSError** outError})'
+  'input':
+    'prefix': 'input'
+    'body': 'input()'
+  'insertAction:atIndex:':
+    'prefix': 'insertAction:atIndex:'
+    'body': 'insertAction(${1:AMAction* action}, atIndex:${2:NSUInteger index})'
+  'moveActionAtIndex:toIndex:':
+    'prefix': 'moveActionAtIndex:toIndex:'
+    'body': 'moveActionAtIndex(${1:NSUInteger startIndex}, toIndex:${2:NSUInteger endIndex})'
+  'output':
+    'prefix': 'output'
+    'body': 'output()'
+  'removeAction:':
+    'prefix': 'removeAction:'
+    'body': 'removeAction(${1:AMAction* action})'
+  'AMWorkflow.runWorkflowAtURL:withInput:error:':
+    'prefix': 'runWorkflowAtURL:withInput:error:'
+    'body': 'AMWorkflow.runWorkflowAtURL(${1:NSURL* fileURL}, withInput:${2:id input}, error:${3:NSError** error})'
+  'setInput:':
+    'prefix': 'setInput:'
+    'body': 'setInput(${1:id input})'
+  'setValue:forVariableWithName:':
+    'prefix': 'setValue:forVariableWithName:'
+    'body': 'setValue(${1:id value}, forVariableWithName:${2:NSString* variableName})'
+  'valueForVariableWithName:':
+    'prefix': 'valueForVariableWithName:'
+    'body': 'valueForVariableWithName(${1:NSString* variableName})'
+  'writeToURL:error:':
+    'prefix': 'writeToURL:error:'
+    'body': 'writeToURL(${1:NSURL* fileURL}, error:${2:NSError** outError})'
+  'canRun':
+    'prefix': 'canRun'
+    'body': 'canRun()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'isPaused':
+    'prefix': 'isPaused'
+    'body': 'isPaused()'
+  'isRunning':
+    'prefix': 'isRunning'
+    'body': 'isRunning()'
+  'pause:':
+    'prefix': 'pause:'
+    'body': 'pause(${1:id sender})'
+  'reset:':
+    'prefix': 'reset:'
+    'body': 'reset(${1:id sender})'
+  'run:':
+    'prefix': 'run:'
+    'body': 'run(${1:id sender})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setWorkflow:':
+    'prefix': 'setWorkflow:'
+    'body': 'setWorkflow(${1:AMWorkflow* workflow})'
+  'setWorkflowView:':
+    'prefix': 'setWorkflowView:'
+    'body': 'setWorkflowView(${1:AMWorkflowView* view})'
+  'step:':
+    'prefix': 'step:'
+    'body': 'step(${1:id sender})'
+  'stop:':
+    'prefix': 'stop:'
+    'body': 'stop(${1:id sender})'
+  'workflow':
+    'prefix': 'workflow'
+    'body': 'workflow()'
+  'workflowView':
+    'prefix': 'workflowView'
+    'body': 'workflowView()'
+  'isEditable':
+    'prefix': 'isEditable'
+    'body': 'isEditable()'
+  'setEditable:':
+    'prefix': 'setEditable:'
+    'body': 'setEditable(${1:BOOL flag})'
+  'setWorkflowController:':
+    'prefix': 'setWorkflowController:'
+    'body': 'setWorkflowController(${1:AMWorkflowController* workflowController})'
+  'workflowController':
+    'prefix': 'workflowController'
+    'body': 'workflowController()'
+  'workflowController:didError:':
+    'prefix': 'workflowController:didError:'
+    'body': 'workflowController(${1:AMWorkflowController* controller}, didError:${2:NSError* error})'
+  'workflowController:didRunAction:':
+    'prefix': 'workflowController:didRunAction:'
+    'body': 'workflowController(${1:AMWorkflowController* controller}, didRunAction:${2:AMAction* action})'
+  'workflowController:willRunAction:':
+    'prefix': 'workflowController:willRunAction:'
+    'body': 'workflowController(${1:AMWorkflowController* controller}, willRunAction:${2:AMAction* action})'
+  'workflowControllerDidRun:':
+    'prefix': 'workflowControllerDidRun:'
+    'body': 'workflowControllerDidRun(${1:AMWorkflowController* controller})'
+  'workflowControllerDidStop:':
+    'prefix': 'workflowControllerDidStop:'
+    'body': 'workflowControllerDidStop(${1:AMWorkflowController* controller})'
+  'workflowControllerWillRun:':
+    'prefix': 'workflowControllerWillRun:'
+    'body': 'workflowControllerWillRun(${1:AMWorkflowController* controller})'
+  'workflowControllerWillStop:':
+    'prefix': 'workflowControllerWillStop:'
+    'body': 'workflowControllerWillStop(${1:AMWorkflowController* controller})'
+  'workflowController:didError:':
+    'prefix': 'workflowController:didError:'
+    'body': 'workflowController(${1:AMWorkflowController* controller}, didError:${2:NSError* error})'
+  'workflowController:didRunAction:':
+    'prefix': 'workflowController:didRunAction:'
+    'body': 'workflowController(${1:AMWorkflowController* controller}, didRunAction:${2:AMAction* action})'
+  'workflowController:willRunAction:':
+    'prefix': 'workflowController:willRunAction:'
+    'body': 'workflowController(${1:AMWorkflowController* controller}, willRunAction:${2:AMAction* action})'
+  'workflowControllerDidRun:':
+    'prefix': 'workflowControllerDidRun:'
+    'body': 'workflowControllerDidRun(${1:AMWorkflowController* controller})'
+  'workflowControllerDidStop:':
+    'prefix': 'workflowControllerDidStop:'
+    'body': 'workflowControllerDidStop(${1:AMWorkflowController* controller})'
+  'workflowControllerWillRun:':
+    'prefix': 'workflowControllerWillRun:'
+    'body': 'workflowControllerWillRun(${1:AMWorkflowController* controller})'
+  'workflowControllerWillStop:':
+    'prefix': 'workflowControllerWillStop:'
+    'body': 'workflowControllerWillStop(${1:AMWorkflowController* controller})'

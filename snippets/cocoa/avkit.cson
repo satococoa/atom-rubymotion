@@ -1,0 +1,67 @@
+'.source.rubymotion':
+  'AVPlayerViewControlsStyleDefault ()':
+    'prefix': 'AVPlayerViewControlsStyleDefault'
+    'body': 'AVPlayerViewControlsStyleDefault'
+  'AVPlayerViewControlsStyleFloating ()':
+    'prefix': 'AVPlayerViewControlsStyleFloating'
+    'body': 'AVPlayerViewControlsStyleFloating'
+  'AVPlayerViewControlsStyleInline ()':
+    'prefix': 'AVPlayerViewControlsStyleInline'
+    'body': 'AVPlayerViewControlsStyleInline'
+  'AVPlayerViewControlsStyleMinimal ()':
+    'prefix': 'AVPlayerViewControlsStyleMinimal'
+    'body': 'AVPlayerViewControlsStyleMinimal'
+  'AVPlayerViewControlsStyleNone ()':
+    'prefix': 'AVPlayerViewControlsStyleNone'
+    'body': 'AVPlayerViewControlsStyleNone'
+  'AVPlayerViewTrimCancelButton ()':
+    'prefix': 'AVPlayerViewTrimCancelButton'
+    'body': 'AVPlayerViewTrimCancelButton'
+  'AVPlayerViewTrimOKButton ()':
+    'prefix': 'AVPlayerViewTrimOKButton'
+    'body': 'AVPlayerViewTrimOKButton'
+  'actionPopUpButtonMenu':
+    'prefix': 'actionPopUpButtonMenu'
+    'body': 'actionPopUpButtonMenu()'
+  'beginTrimmingWithCompletionHandler:':
+    'prefix': 'beginTrimmingWithCompletionHandler:'
+    'body': 'beginTrimmingWithCompletionHandler(${1: handler})'
+  'canBeginTrimming':
+    'prefix': 'canBeginTrimming'
+    'body': 'canBeginTrimming()'
+  'controlsStyle':
+    'prefix': 'controlsStyle'
+    'body': 'controlsStyle()'
+  'flashChapterNumber:chapterTitle:':
+    'prefix': 'flashChapterNumber:chapterTitle:'
+    'body': 'flashChapterNumber(${1: chapterNumber}, chapterTitle:${2: chapterTitle})'
+  'player':
+    'prefix': 'player'
+    'body': 'player()'
+  'setActionPopUpButtonMenu:':
+    'prefix': 'setActionPopUpButtonMenu:'
+    'body': 'setActionPopUpButtonMenu(${1: actionPopUpButtonMenu})'
+  'setControlsStyle:':
+    'prefix': 'setControlsStyle:'
+    'body': 'setControlsStyle(${1: controlsStyle})'
+  'setPlayer:':
+    'prefix': 'setPlayer:'
+    'body': 'setPlayer(${1: player})'
+  'setShowsFrameSteppingButtons:':
+    'prefix': 'setShowsFrameSteppingButtons:'
+    'body': 'setShowsFrameSteppingButtons(${1: showsFrameSteppingButtons})'
+  'setShowsFullScreenToggleButton:':
+    'prefix': 'setShowsFullScreenToggleButton:'
+    'body': 'setShowsFullScreenToggleButton(${1: showsFullScreenToggleButton})'
+  'setShowsSharingServiceButton:':
+    'prefix': 'setShowsSharingServiceButton:'
+    'body': 'setShowsSharingServiceButton(${1: showsSharingServiceButton})'
+  'showsFrameSteppingButtons':
+    'prefix': 'showsFrameSteppingButtons'
+    'body': 'showsFrameSteppingButtons()'
+  'showsFullScreenToggleButton':
+    'prefix': 'showsFullScreenToggleButton'
+    'body': 'showsFullScreenToggleButton()'
+  'showsSharingServiceButton':
+    'prefix': 'showsSharingServiceButton'
+    'body': 'showsSharingServiceButton()'
