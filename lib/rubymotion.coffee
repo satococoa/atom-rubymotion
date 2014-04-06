@@ -23,7 +23,7 @@ module.exports =
       @autocompleteViews.forEach (v) => v.snippetPrefixes = @snippetPrefixes
 
   collectSnippets: (callback) ->
-    path = atom.packages.getActivePackage('RubyMotion').path + '/snippets/cocoatouch'
+    path = atom.packages.resolvePackagePath('RubyMotion') + '/snippets/cocoatouch'
     Snippets.loadSnippetsDirectory path, ->
       snippets = atom.syntax.propertiesForScope([".source.rubymotion"], "snippets")
       keys = []
