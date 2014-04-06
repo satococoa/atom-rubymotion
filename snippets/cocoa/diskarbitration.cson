@@ -1,0 +1,319 @@
+'.source.rubymotion':
+  'kDADiskDescriptionBusNameKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionBusNameKey'
+    'body': 'KDADiskDescriptionBusNameKey'
+  'kDADiskDescriptionBusPathKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionBusPathKey'
+    'body': 'KDADiskDescriptionBusPathKey'
+  'kDADiskDescriptionDeviceGUIDKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceGUIDKey'
+    'body': 'KDADiskDescriptionDeviceGUIDKey'
+  'kDADiskDescriptionDeviceInternalKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceInternalKey'
+    'body': 'KDADiskDescriptionDeviceInternalKey'
+  'kDADiskDescriptionDeviceModelKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceModelKey'
+    'body': 'KDADiskDescriptionDeviceModelKey'
+  'kDADiskDescriptionDevicePathKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDevicePathKey'
+    'body': 'KDADiskDescriptionDevicePathKey'
+  'kDADiskDescriptionDeviceProtocolKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceProtocolKey'
+    'body': 'KDADiskDescriptionDeviceProtocolKey'
+  'kDADiskDescriptionDeviceRevisionKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceRevisionKey'
+    'body': 'KDADiskDescriptionDeviceRevisionKey'
+  'kDADiskDescriptionDeviceUnitKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceUnitKey'
+    'body': 'KDADiskDescriptionDeviceUnitKey'
+  'kDADiskDescriptionDeviceVendorKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionDeviceVendorKey'
+    'body': 'KDADiskDescriptionDeviceVendorKey'
+  'kDADiskDescriptionMatchMediaUnformatted (CFDictionaryRef)':
+    'prefix': 'kDADiskDescriptionMatchMediaUnformatted'
+    'body': 'KDADiskDescriptionMatchMediaUnformatted'
+  'kDADiskDescriptionMatchMediaWhole (CFDictionaryRef)':
+    'prefix': 'kDADiskDescriptionMatchMediaWhole'
+    'body': 'KDADiskDescriptionMatchMediaWhole'
+  'kDADiskDescriptionMatchVolumeMountable (CFDictionaryRef)':
+    'prefix': 'kDADiskDescriptionMatchVolumeMountable'
+    'body': 'KDADiskDescriptionMatchVolumeMountable'
+  'kDADiskDescriptionMatchVolumeUnrecognized (CFDictionaryRef)':
+    'prefix': 'kDADiskDescriptionMatchVolumeUnrecognized'
+    'body': 'KDADiskDescriptionMatchVolumeUnrecognized'
+  'kDADiskDescriptionMediaBSDMajorKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaBSDMajorKey'
+    'body': 'KDADiskDescriptionMediaBSDMajorKey'
+  'kDADiskDescriptionMediaBSDMinorKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaBSDMinorKey'
+    'body': 'KDADiskDescriptionMediaBSDMinorKey'
+  'kDADiskDescriptionMediaBSDNameKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaBSDNameKey'
+    'body': 'KDADiskDescriptionMediaBSDNameKey'
+  'kDADiskDescriptionMediaBSDUnitKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaBSDUnitKey'
+    'body': 'KDADiskDescriptionMediaBSDUnitKey'
+  'kDADiskDescriptionMediaBlockSizeKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaBlockSizeKey'
+    'body': 'KDADiskDescriptionMediaBlockSizeKey'
+  'kDADiskDescriptionMediaContentKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaContentKey'
+    'body': 'KDADiskDescriptionMediaContentKey'
+  'kDADiskDescriptionMediaEjectableKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaEjectableKey'
+    'body': 'KDADiskDescriptionMediaEjectableKey'
+  'kDADiskDescriptionMediaIconKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaIconKey'
+    'body': 'KDADiskDescriptionMediaIconKey'
+  'kDADiskDescriptionMediaKindKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaKindKey'
+    'body': 'KDADiskDescriptionMediaKindKey'
+  'kDADiskDescriptionMediaLeafKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaLeafKey'
+    'body': 'KDADiskDescriptionMediaLeafKey'
+  'kDADiskDescriptionMediaNameKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaNameKey'
+    'body': 'KDADiskDescriptionMediaNameKey'
+  'kDADiskDescriptionMediaPathKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaPathKey'
+    'body': 'KDADiskDescriptionMediaPathKey'
+  'kDADiskDescriptionMediaRemovableKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaRemovableKey'
+    'body': 'KDADiskDescriptionMediaRemovableKey'
+  'kDADiskDescriptionMediaSizeKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaSizeKey'
+    'body': 'KDADiskDescriptionMediaSizeKey'
+  'kDADiskDescriptionMediaTypeKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaTypeKey'
+    'body': 'KDADiskDescriptionMediaTypeKey'
+  'kDADiskDescriptionMediaUUIDKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaUUIDKey'
+    'body': 'KDADiskDescriptionMediaUUIDKey'
+  'kDADiskDescriptionMediaWholeKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaWholeKey'
+    'body': 'KDADiskDescriptionMediaWholeKey'
+  'kDADiskDescriptionMediaWritableKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionMediaWritableKey'
+    'body': 'KDADiskDescriptionMediaWritableKey'
+  'kDADiskDescriptionVolumeKindKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionVolumeKindKey'
+    'body': 'KDADiskDescriptionVolumeKindKey'
+  'kDADiskDescriptionVolumeMountableKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionVolumeMountableKey'
+    'body': 'KDADiskDescriptionVolumeMountableKey'
+  'kDADiskDescriptionVolumeNameKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionVolumeNameKey'
+    'body': 'KDADiskDescriptionVolumeNameKey'
+  'kDADiskDescriptionVolumeNetworkKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionVolumeNetworkKey'
+    'body': 'KDADiskDescriptionVolumeNetworkKey'
+  'kDADiskDescriptionVolumePathKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionVolumePathKey'
+    'body': 'KDADiskDescriptionVolumePathKey'
+  'kDADiskDescriptionVolumeUUIDKey (CFStringRef)':
+    'prefix': 'kDADiskDescriptionVolumeUUIDKey'
+    'body': 'KDADiskDescriptionVolumeUUIDKey'
+  'kDADiskDescriptionWatchVolumeName (CFArrayRef)':
+    'prefix': 'kDADiskDescriptionWatchVolumeName'
+    'body': 'KDADiskDescriptionWatchVolumeName'
+  'kDADiskDescriptionWatchVolumePath (CFArrayRef)':
+    'prefix': 'kDADiskDescriptionWatchVolumePath'
+    'body': 'KDADiskDescriptionWatchVolumePath'
+  'err_local_diskarbitration (14286848)':
+    'prefix': 'err_local_diskarbitration'
+    'body': 'err_local_diskarbitration'
+  'kDADiskClaimOptionDefault (0)':
+    'prefix': 'kDADiskClaimOptionDefault'
+    'body': 'KDADiskClaimOptionDefault'
+  'kDADiskEjectOptionDefault (0)':
+    'prefix': 'kDADiskEjectOptionDefault'
+    'body': 'KDADiskEjectOptionDefault'
+  'kDADiskMountOptionDefault (0)':
+    'prefix': 'kDADiskMountOptionDefault'
+    'body': 'KDADiskMountOptionDefault'
+  'kDADiskMountOptionWhole (1)':
+    'prefix': 'kDADiskMountOptionWhole'
+    'body': 'KDADiskMountOptionWhole'
+  'kDADiskOptionDefault (0)':
+    'prefix': 'kDADiskOptionDefault'
+    'body': 'KDADiskOptionDefault'
+  'kDADiskOptionEjectUponLogout (1)':
+    'prefix': 'kDADiskOptionEjectUponLogout'
+    'body': 'KDADiskOptionEjectUponLogout'
+  'kDADiskOptionMountAutomatic (16)':
+    'prefix': 'kDADiskOptionMountAutomatic'
+    'body': 'KDADiskOptionMountAutomatic'
+  'kDADiskOptionMountAutomaticNoDefer (32)':
+    'prefix': 'kDADiskOptionMountAutomaticNoDefer'
+    'body': 'KDADiskOptionMountAutomaticNoDefer'
+  'kDADiskOptionPrivate (256)':
+    'prefix': 'kDADiskOptionPrivate'
+    'body': 'KDADiskOptionPrivate'
+  'kDADiskRenameOptionDefault (0)':
+    'prefix': 'kDADiskRenameOptionDefault'
+    'body': 'KDADiskRenameOptionDefault'
+  'kDADiskUnmountOptionDefault (0)':
+    'prefix': 'kDADiskUnmountOptionDefault'
+    'body': 'KDADiskUnmountOptionDefault'
+  'kDADiskUnmountOptionForce (524288)':
+    'prefix': 'kDADiskUnmountOptionForce'
+    'body': 'KDADiskUnmountOptionForce'
+  'kDADiskUnmountOptionWhole (1)':
+    'prefix': 'kDADiskUnmountOptionWhole'
+    'body': 'KDADiskUnmountOptionWhole'
+  'kDAReturnBadArgument (-119930877)':
+    'prefix': 'kDAReturnBadArgument'
+    'body': 'KDAReturnBadArgument'
+  'kDAReturnBusy (-119930878)':
+    'prefix': 'kDAReturnBusy'
+    'body': 'KDAReturnBusy'
+  'kDAReturnError (-119930879)':
+    'prefix': 'kDAReturnError'
+    'body': 'KDAReturnError'
+  'kDAReturnExclusiveAccess (-119930876)':
+    'prefix': 'kDAReturnExclusiveAccess'
+    'body': 'KDAReturnExclusiveAccess'
+  'kDAReturnNoResources (-119930875)':
+    'prefix': 'kDAReturnNoResources'
+    'body': 'KDAReturnNoResources'
+  'kDAReturnNotFound (-119930874)':
+    'prefix': 'kDAReturnNotFound'
+    'body': 'KDAReturnNotFound'
+  'kDAReturnNotMounted (-119930873)':
+    'prefix': 'kDAReturnNotMounted'
+    'body': 'KDAReturnNotMounted'
+  'kDAReturnNotPermitted (-119930872)':
+    'prefix': 'kDAReturnNotPermitted'
+    'body': 'KDAReturnNotPermitted'
+  'kDAReturnNotPrivileged (-119930871)':
+    'prefix': 'kDAReturnNotPrivileged'
+    'body': 'KDAReturnNotPrivileged'
+  'kDAReturnNotReady (-119930870)':
+    'prefix': 'kDAReturnNotReady'
+    'body': 'KDAReturnNotReady'
+  'kDAReturnNotWritable (-119930869)':
+    'prefix': 'kDAReturnNotWritable'
+    'body': 'KDAReturnNotWritable'
+  'kDAReturnSuccess (0)':
+    'prefix': 'kDAReturnSuccess'
+    'body': 'KDAReturnSuccess'
+  'kDAReturnUnsupported (-119930868)':
+    'prefix': 'kDAReturnUnsupported'
+    'body': 'KDAReturnUnsupported'
+  'DAApprovalSessionCreate':
+    'prefix': 'DAApprovalSessionCreate'
+    'body': 'DAApprovalSessionCreate(${1:CFAllocatorRef allocator})'
+  'DAApprovalSessionGetTypeID':
+    'prefix': 'DAApprovalSessionGetTypeID'
+    'body': 'DAApprovalSessionGetTypeID()'
+  'DAApprovalSessionScheduleWithRunLoop':
+    'prefix': 'DAApprovalSessionScheduleWithRunLoop'
+    'body': 'DAApprovalSessionScheduleWithRunLoop(${1:DAApprovalSessionRef session}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'DAApprovalSessionUnscheduleFromRunLoop':
+    'prefix': 'DAApprovalSessionUnscheduleFromRunLoop'
+    'body': 'DAApprovalSessionUnscheduleFromRunLoop(${1:DAApprovalSessionRef session}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'DADiskClaim':
+    'prefix': 'DADiskClaim'
+    'body': 'DADiskClaim(${1:DADiskRef disk}, ${2:DADiskClaimOptions options}, ${3:DADiskClaimReleaseCallback release}, ${4:void* releaseContext}, ${5:DADiskClaimCallback callback}, ${6:void* callbackContext})'
+  'DADiskCopyDescription':
+    'prefix': 'DADiskCopyDescription'
+    'body': 'DADiskCopyDescription(${1:DADiskRef disk})'
+  'DADiskCopyIOMedia':
+    'prefix': 'DADiskCopyIOMedia'
+    'body': 'DADiskCopyIOMedia(${1:DADiskRef disk})'
+  'DADiskCopyWholeDisk':
+    'prefix': 'DADiskCopyWholeDisk'
+    'body': 'DADiskCopyWholeDisk(${1:DADiskRef disk})'
+  'DADiskCreateFromBSDName':
+    'prefix': 'DADiskCreateFromBSDName'
+    'body': 'DADiskCreateFromBSDName(${1:CFAllocatorRef allocator}, ${2:DASessionRef session}, ${3:char* name})'
+  'DADiskCreateFromIOMedia':
+    'prefix': 'DADiskCreateFromIOMedia'
+    'body': 'DADiskCreateFromIOMedia(${1:CFAllocatorRef allocator}, ${2:DASessionRef session}, ${3:io_service_t media})'
+  'DADiskCreateFromVolumePath':
+    'prefix': 'DADiskCreateFromVolumePath'
+    'body': 'DADiskCreateFromVolumePath(${1:CFAllocatorRef allocator}, ${2:DASessionRef session}, ${3:CFURLRef path})'
+  'DADiskEject':
+    'prefix': 'DADiskEject'
+    'body': 'DADiskEject(${1:DADiskRef disk}, ${2:DADiskEjectOptions options}, ${3:DADiskEjectCallback callback}, ${4:void* context})'
+  'DADiskGetBSDName':
+    'prefix': 'DADiskGetBSDName'
+    'body': 'DADiskGetBSDName(${1:DADiskRef disk})'
+  'DADiskGetOptions':
+    'prefix': 'DADiskGetOptions'
+    'body': 'DADiskGetOptions(${1:DADiskRef disk})'
+  'DADiskGetTypeID':
+    'prefix': 'DADiskGetTypeID'
+    'body': 'DADiskGetTypeID()'
+  'DADiskIsClaimed':
+    'prefix': 'DADiskIsClaimed'
+    'body': 'DADiskIsClaimed(${1:DADiskRef disk})'
+  'DADiskMount':
+    'prefix': 'DADiskMount'
+    'body': 'DADiskMount(${1:DADiskRef disk}, ${2:CFURLRef path}, ${3:DADiskMountOptions options}, ${4:DADiskMountCallback callback}, ${5:void* context})'
+  'DADiskMountWithArguments':
+    'prefix': 'DADiskMountWithArguments'
+    'body': 'DADiskMountWithArguments(${1:DADiskRef disk}, ${2:CFURLRef path}, ${3:DADiskMountOptions options}, ${4:DADiskMountCallback callback}, ${5:void* context}, ${6:CFStringRef* arguments})'
+  'DADiskRename':
+    'prefix': 'DADiskRename'
+    'body': 'DADiskRename(${1:DADiskRef disk}, ${2:CFStringRef name}, ${3:DADiskRenameOptions options}, ${4:DADiskRenameCallback callback}, ${5:void* context})'
+  'DADiskSetOptions':
+    'prefix': 'DADiskSetOptions'
+    'body': 'DADiskSetOptions(${1:DADiskRef disk}, ${2:DADiskOptions options}, ${3:Boolean value})'
+  'DADiskUnclaim':
+    'prefix': 'DADiskUnclaim'
+    'body': 'DADiskUnclaim(${1:DADiskRef disk})'
+  'DADiskUnmount':
+    'prefix': 'DADiskUnmount'
+    'body': 'DADiskUnmount(${1:DADiskRef disk}, ${2:DADiskUnmountOptions options}, ${3:DADiskUnmountCallback callback}, ${4:void* context})'
+  'DADissenterCreate':
+    'prefix': 'DADissenterCreate'
+    'body': 'DADissenterCreate(${1:CFAllocatorRef allocator}, ${2:DAReturn status}, ${3:CFStringRef string})'
+  'DADissenterGetStatus':
+    'prefix': 'DADissenterGetStatus'
+    'body': 'DADissenterGetStatus(${1:DADissenterRef dissenter})'
+  'DADissenterGetStatusString':
+    'prefix': 'DADissenterGetStatusString'
+    'body': 'DADissenterGetStatusString(${1:DADissenterRef dissenter})'
+  'DARegisterDiskAppearedCallback':
+    'prefix': 'DARegisterDiskAppearedCallback'
+    'body': 'DARegisterDiskAppearedCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:DADiskAppearedCallback callback}, ${4:void* context})'
+  'DARegisterDiskDescriptionChangedCallback':
+    'prefix': 'DARegisterDiskDescriptionChangedCallback'
+    'body': 'DARegisterDiskDescriptionChangedCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:CFArrayRef watch}, ${4:DADiskDescriptionChangedCallback callback}, ${5:void* context})'
+  'DARegisterDiskDisappearedCallback':
+    'prefix': 'DARegisterDiskDisappearedCallback'
+    'body': 'DARegisterDiskDisappearedCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:DADiskDisappearedCallback callback}, ${4:void* context})'
+  'DARegisterDiskEjectApprovalCallback':
+    'prefix': 'DARegisterDiskEjectApprovalCallback'
+    'body': 'DARegisterDiskEjectApprovalCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:DADiskEjectApprovalCallback callback}, ${4:void* context})'
+  'DARegisterDiskMountApprovalCallback':
+    'prefix': 'DARegisterDiskMountApprovalCallback'
+    'body': 'DARegisterDiskMountApprovalCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:DADiskMountApprovalCallback callback}, ${4:void* context})'
+  'DARegisterDiskPeekCallback':
+    'prefix': 'DARegisterDiskPeekCallback'
+    'body': 'DARegisterDiskPeekCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:CFIndex order}, ${4:DADiskPeekCallback callback}, ${5:void* context})'
+  'DARegisterDiskUnmountApprovalCallback':
+    'prefix': 'DARegisterDiskUnmountApprovalCallback'
+    'body': 'DARegisterDiskUnmountApprovalCallback(${1:DASessionRef session}, ${2:CFDictionaryRef match}, ${3:DADiskUnmountApprovalCallback callback}, ${4:void* context})'
+  'DASessionCreate':
+    'prefix': 'DASessionCreate'
+    'body': 'DASessionCreate(${1:CFAllocatorRef allocator})'
+  'DASessionGetTypeID':
+    'prefix': 'DASessionGetTypeID'
+    'body': 'DASessionGetTypeID()'
+  'DASessionScheduleWithRunLoop':
+    'prefix': 'DASessionScheduleWithRunLoop'
+    'body': 'DASessionScheduleWithRunLoop(${1:DASessionRef session}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'DASessionSetDispatchQueue':
+    'prefix': 'DASessionSetDispatchQueue'
+    'body': 'DASessionSetDispatchQueue(${1:DASessionRef session}, ${2:dispatch_queue_t queue})'
+  'DASessionUnscheduleFromRunLoop':
+    'prefix': 'DASessionUnscheduleFromRunLoop'
+    'body': 'DASessionUnscheduleFromRunLoop(${1:DASessionRef session}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'DAUnregisterApprovalCallback':
+    'prefix': 'DAUnregisterApprovalCallback'
+    'body': 'DAUnregisterApprovalCallback(${1:DASessionRef session}, ${2:void* callback}, ${3:void* context})'
+  'DAUnregisterCallback':
+    'prefix': 'DAUnregisterCallback'
+    'body': 'DAUnregisterCallback(${1:DASessionRef session}, ${2:void* callback}, ${3:void* context})'

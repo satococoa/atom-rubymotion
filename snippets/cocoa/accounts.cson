@@ -1,0 +1,181 @@
+'.source.rubymotion':
+  'ACAccountStoreDidChangeNotification ()':
+    'prefix': 'ACAccountStoreDidChangeNotification'
+    'body': 'ACAccountStoreDidChangeNotification'
+  'ACAccountTypeIdentifierFacebook ()':
+    'prefix': 'ACAccountTypeIdentifierFacebook'
+    'body': 'ACAccountTypeIdentifierFacebook'
+  'ACAccountTypeIdentifierLinkedIn ()':
+    'prefix': 'ACAccountTypeIdentifierLinkedIn'
+    'body': 'ACAccountTypeIdentifierLinkedIn'
+  'ACAccountTypeIdentifierSinaWeibo ()':
+    'prefix': 'ACAccountTypeIdentifierSinaWeibo'
+    'body': 'ACAccountTypeIdentifierSinaWeibo'
+  'ACAccountTypeIdentifierTencentWeibo ()':
+    'prefix': 'ACAccountTypeIdentifierTencentWeibo'
+    'body': 'ACAccountTypeIdentifierTencentWeibo'
+  'ACAccountTypeIdentifierTwitter ()':
+    'prefix': 'ACAccountTypeIdentifierTwitter'
+    'body': 'ACAccountTypeIdentifierTwitter'
+  'ACErrorDomain ()':
+    'prefix': 'ACErrorDomain'
+    'body': 'ACErrorDomain'
+  'ACFacebookAppIdKey ()':
+    'prefix': 'ACFacebookAppIdKey'
+    'body': 'ACFacebookAppIdKey'
+  'ACFacebookAudienceEveryone ()':
+    'prefix': 'ACFacebookAudienceEveryone'
+    'body': 'ACFacebookAudienceEveryone'
+  'ACFacebookAudienceFriends ()':
+    'prefix': 'ACFacebookAudienceFriends'
+    'body': 'ACFacebookAudienceFriends'
+  'ACFacebookAudienceKey ()':
+    'prefix': 'ACFacebookAudienceKey'
+    'body': 'ACFacebookAudienceKey'
+  'ACFacebookAudienceOnlyMe ()':
+    'prefix': 'ACFacebookAudienceOnlyMe'
+    'body': 'ACFacebookAudienceOnlyMe'
+  'ACFacebookPermissionsKey ()':
+    'prefix': 'ACFacebookPermissionsKey'
+    'body': 'ACFacebookPermissionsKey'
+  'ACLinkedInAppIdKey ()':
+    'prefix': 'ACLinkedInAppIdKey'
+    'body': 'ACLinkedInAppIdKey'
+  'ACLinkedInPermissionsKey ()':
+    'prefix': 'ACLinkedInPermissionsKey'
+    'body': 'ACLinkedInPermissionsKey'
+  'ACTencentWeiboAppIdKey ()':
+    'prefix': 'ACTencentWeiboAppIdKey'
+    'body': 'ACTencentWeiboAppIdKey'
+  'ACAccountCredentialRenewResultFailed ()':
+    'prefix': 'ACAccountCredentialRenewResultFailed'
+    'body': 'ACAccountCredentialRenewResultFailed'
+  'ACAccountCredentialRenewResultRejected ()':
+    'prefix': 'ACAccountCredentialRenewResultRejected'
+    'body': 'ACAccountCredentialRenewResultRejected'
+  'ACAccountCredentialRenewResultRenewed ()':
+    'prefix': 'ACAccountCredentialRenewResultRenewed'
+    'body': 'ACAccountCredentialRenewResultRenewed'
+  'ACErrorAccessDeniedByProtectionPolicy ()':
+    'prefix': 'ACErrorAccessDeniedByProtectionPolicy'
+    'body': 'ACErrorAccessDeniedByProtectionPolicy'
+  'ACErrorAccessInfoInvalid ()':
+    'prefix': 'ACErrorAccessInfoInvalid'
+    'body': 'ACErrorAccessInfoInvalid'
+  'ACErrorAccountAlreadyExists ()':
+    'prefix': 'ACErrorAccountAlreadyExists'
+    'body': 'ACErrorAccountAlreadyExists'
+  'ACErrorAccountAuthenticationFailed ()':
+    'prefix': 'ACErrorAccountAuthenticationFailed'
+    'body': 'ACErrorAccountAuthenticationFailed'
+  'ACErrorAccountMissingRequiredProperty ()':
+    'prefix': 'ACErrorAccountMissingRequiredProperty'
+    'body': 'ACErrorAccountMissingRequiredProperty'
+  'ACErrorAccountNotFound ()':
+    'prefix': 'ACErrorAccountNotFound'
+    'body': 'ACErrorAccountNotFound'
+  'ACErrorAccountTypeInvalid ()':
+    'prefix': 'ACErrorAccountTypeInvalid'
+    'body': 'ACErrorAccountTypeInvalid'
+  'ACErrorClientPermissionDenied ()':
+    'prefix': 'ACErrorClientPermissionDenied'
+    'body': 'ACErrorClientPermissionDenied'
+  'ACErrorCredentialNotFound ()':
+    'prefix': 'ACErrorCredentialNotFound'
+    'body': 'ACErrorCredentialNotFound'
+  'ACErrorFetchCredentialFailed ()':
+    'prefix': 'ACErrorFetchCredentialFailed'
+    'body': 'ACErrorFetchCredentialFailed'
+  'ACErrorInvalidClientBundleID ()':
+    'prefix': 'ACErrorInvalidClientBundleID'
+    'body': 'ACErrorInvalidClientBundleID'
+  'ACErrorPermissionDenied ()':
+    'prefix': 'ACErrorPermissionDenied'
+    'body': 'ACErrorPermissionDenied'
+  'ACErrorRemoveCredentialFailed ()':
+    'prefix': 'ACErrorRemoveCredentialFailed'
+    'body': 'ACErrorRemoveCredentialFailed'
+  'ACErrorStoreCredentialFailed ()':
+    'prefix': 'ACErrorStoreCredentialFailed'
+    'body': 'ACErrorStoreCredentialFailed'
+  'ACErrorUnknown ()':
+    'prefix': 'ACErrorUnknown'
+    'body': 'ACErrorUnknown'
+  'ACErrorUpdatingNonexistentAccount ()':
+    'prefix': 'ACErrorUpdatingNonexistentAccount'
+    'body': 'ACErrorUpdatingNonexistentAccount'
+  'accountDescription':
+    'prefix': 'accountDescription'
+    'body': 'accountDescription()'
+  'accountType':
+    'prefix': 'accountType'
+    'body': 'accountType()'
+  'credential':
+    'prefix': 'credential'
+    'body': 'credential()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'initWithAccountType:':
+    'prefix': 'initWithAccountType:'
+    'body': 'initWithAccountType(${1: type})'
+  'setAccountDescription:':
+    'prefix': 'setAccountDescription:'
+    'body': 'setAccountDescription(${1: accountDescription})'
+  'setAccountType:':
+    'prefix': 'setAccountType:'
+    'body': 'setAccountType(${1: accountType})'
+  'setCredential:':
+    'prefix': 'setCredential:'
+    'body': 'setCredential(${1: credential})'
+  'setUsername:':
+    'prefix': 'setUsername:'
+    'body': 'setUsername(${1: username})'
+  'username':
+    'prefix': 'username'
+    'body': 'username()'
+  'initWithOAuth2Token:refreshToken:expiryDate:':
+    'prefix': 'initWithOAuth2Token:refreshToken:expiryDate:'
+    'body': 'initWithOAuth2Token(${1: token}, refreshToken:${2: refreshToken}, expiryDate:${3: expiryDate})'
+  'initWithOAuthToken:tokenSecret:':
+    'prefix': 'initWithOAuthToken:tokenSecret:'
+    'body': 'initWithOAuthToken(${1: token}, tokenSecret:${2: secret})'
+  'oauthToken':
+    'prefix': 'oauthToken'
+    'body': 'oauthToken()'
+  'setOauthToken:':
+    'prefix': 'setOauthToken:'
+    'body': 'setOauthToken(${1: oauthToken})'
+  'accountTypeWithAccountTypeIdentifier:':
+    'prefix': 'accountTypeWithAccountTypeIdentifier:'
+    'body': 'accountTypeWithAccountTypeIdentifier(${1: typeIdentifier})'
+  'accountWithIdentifier:':
+    'prefix': 'accountWithIdentifier:'
+    'body': 'accountWithIdentifier(${1: identifier})'
+  'accounts':
+    'prefix': 'accounts'
+    'body': 'accounts()'
+  'accountsWithAccountType:':
+    'prefix': 'accountsWithAccountType:'
+    'body': 'accountsWithAccountType(${1: accountType})'
+  'removeAccount:withCompletionHandler:':
+    'prefix': 'removeAccount:withCompletionHandler:'
+    'body': 'removeAccount(${1: account}, withCompletionHandler:${2: completionHandler})'
+  'renewCredentialsForAccount:completion:':
+    'prefix': 'renewCredentialsForAccount:completion:'
+    'body': 'renewCredentialsForAccount(${1: account}, completion:${2: completionHandler})'
+  'requestAccessToAccountsWithType:options:completion:':
+    'prefix': 'requestAccessToAccountsWithType:options:completion:'
+    'body': 'requestAccessToAccountsWithType(${1: accountType}, options:${2: options}, completion:${3: completion})'
+  'saveAccount:withCompletionHandler:':
+    'prefix': 'saveAccount:withCompletionHandler:'
+    'body': 'saveAccount(${1: account}, withCompletionHandler:${2: completionHandler})'
+  'accessGranted':
+    'prefix': 'accessGranted'
+    'body': 'accessGranted()'
+  'accountTypeDescription':
+    'prefix': 'accountTypeDescription'
+    'body': 'accountTypeDescription()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'

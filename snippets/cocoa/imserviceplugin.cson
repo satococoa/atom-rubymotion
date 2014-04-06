@@ -1,0 +1,550 @@
+'.source.rubymotion':
+  'IMAccountSettingLoginHandle (NSString*)':
+    'prefix': 'IMAccountSettingLoginHandle'
+    'body': 'IMAccountSettingLoginHandle'
+  'IMAccountSettingPassword (NSString*)':
+    'prefix': 'IMAccountSettingPassword'
+    'body': 'IMAccountSettingPassword'
+  'IMAccountSettingServerHost (NSString*)':
+    'prefix': 'IMAccountSettingServerHost'
+    'body': 'IMAccountSettingServerHost'
+  'IMAccountSettingServerPort (NSString*)':
+    'prefix': 'IMAccountSettingServerPort'
+    'body': 'IMAccountSettingServerPort'
+  'IMAccountSettingUsesSSL (NSString*)':
+    'prefix': 'IMAccountSettingUsesSSL'
+    'body': 'IMAccountSettingUsesSSL'
+  'IMAttributeBackgroundColor (NSString*)':
+    'prefix': 'IMAttributeBackgroundColor'
+    'body': 'IMAttributeBackgroundColor'
+  'IMAttributeBaseWritingDirection (NSString*)':
+    'prefix': 'IMAttributeBaseWritingDirection'
+    'body': 'IMAttributeBaseWritingDirection'
+  'IMAttributeBold (NSString*)':
+    'prefix': 'IMAttributeBold'
+    'body': 'IMAttributeBold'
+  'IMAttributeFontFamily (NSString*)':
+    'prefix': 'IMAttributeFontFamily'
+    'body': 'IMAttributeFontFamily'
+  'IMAttributeFontSize (NSString*)':
+    'prefix': 'IMAttributeFontSize'
+    'body': 'IMAttributeFontSize'
+  'IMAttributeForegroundColor (NSString*)':
+    'prefix': 'IMAttributeForegroundColor'
+    'body': 'IMAttributeForegroundColor'
+  'IMAttributeItalic (NSString*)':
+    'prefix': 'IMAttributeItalic'
+    'body': 'IMAttributeItalic'
+  'IMAttributeLink (NSString*)':
+    'prefix': 'IMAttributeLink'
+    'body': 'IMAttributeLink'
+  'IMAttributeMessageBackgroundColor (NSString*)':
+    'prefix': 'IMAttributeMessageBackgroundColor'
+    'body': 'IMAttributeMessageBackgroundColor'
+  'IMAttributePreformatted (NSString*)':
+    'prefix': 'IMAttributePreformatted'
+    'body': 'IMAttributePreformatted'
+  'IMAttributeStrikethrough (NSString*)':
+    'prefix': 'IMAttributeStrikethrough'
+    'body': 'IMAttributeStrikethrough'
+  'IMAttributeUnderline (NSString*)':
+    'prefix': 'IMAttributeUnderline'
+    'body': 'IMAttributeUnderline'
+  'IMGroupListDefaultGroup (NSString*)':
+    'prefix': 'IMGroupListDefaultGroup'
+    'body': 'IMGroupListDefaultGroup'
+  'IMGroupListHandlesKey (NSString*)':
+    'prefix': 'IMGroupListHandlesKey'
+    'body': 'IMGroupListHandlesKey'
+  'IMGroupListNameKey (NSString*)':
+    'prefix': 'IMGroupListNameKey'
+    'body': 'IMGroupListNameKey'
+  'IMGroupListPermissionsKey (NSString*)':
+    'prefix': 'IMGroupListPermissionsKey'
+    'body': 'IMGroupListPermissionsKey'
+  'IMHandleCapabilityChatRoom (NSString*)':
+    'prefix': 'IMHandleCapabilityChatRoom'
+    'body': 'IMHandleCapabilityChatRoom'
+  'IMHandleCapabilityFileTransfer (NSString*)':
+    'prefix': 'IMHandleCapabilityFileTransfer'
+    'body': 'IMHandleCapabilityFileTransfer'
+  'IMHandleCapabilityHandlePicture (NSString*)':
+    'prefix': 'IMHandleCapabilityHandlePicture'
+    'body': 'IMHandleCapabilityHandlePicture'
+  'IMHandleCapabilityMessaging (NSString*)':
+    'prefix': 'IMHandleCapabilityMessaging'
+    'body': 'IMHandleCapabilityMessaging'
+  'IMHandleCapabilityOfflineMessaging (NSString*)':
+    'prefix': 'IMHandleCapabilityOfflineMessaging'
+    'body': 'IMHandleCapabilityOfflineMessaging'
+  'IMHandlePropertyAlias (NSString*)':
+    'prefix': 'IMHandlePropertyAlias'
+    'body': 'IMHandlePropertyAlias'
+  'IMHandlePropertyAuthorizationStatus (NSString*)':
+    'prefix': 'IMHandlePropertyAuthorizationStatus'
+    'body': 'IMHandlePropertyAuthorizationStatus'
+  'IMHandlePropertyAvailability (NSString*)':
+    'prefix': 'IMHandlePropertyAvailability'
+    'body': 'IMHandlePropertyAvailability'
+  'IMHandlePropertyCapabilities (NSString*)':
+    'prefix': 'IMHandlePropertyCapabilities'
+    'body': 'IMHandlePropertyCapabilities'
+  'IMHandlePropertyEmailAddress (NSString*)':
+    'prefix': 'IMHandlePropertyEmailAddress'
+    'body': 'IMHandlePropertyEmailAddress'
+  'IMHandlePropertyFirstName (NSString*)':
+    'prefix': 'IMHandlePropertyFirstName'
+    'body': 'IMHandlePropertyFirstName'
+  'IMHandlePropertyIdleDate (NSString*)':
+    'prefix': 'IMHandlePropertyIdleDate'
+    'body': 'IMHandlePropertyIdleDate'
+  'IMHandlePropertyLastName (NSString*)':
+    'prefix': 'IMHandlePropertyLastName'
+    'body': 'IMHandlePropertyLastName'
+  'IMHandlePropertyPictureData (NSString*)':
+    'prefix': 'IMHandlePropertyPictureData'
+    'body': 'IMHandlePropertyPictureData'
+  'IMHandlePropertyPictureIdentifier (NSString*)':
+    'prefix': 'IMHandlePropertyPictureIdentifier'
+    'body': 'IMHandlePropertyPictureIdentifier'
+  'IMHandlePropertyStatusMessage (NSString*)':
+    'prefix': 'IMHandlePropertyStatusMessage'
+    'body': 'IMHandlePropertyStatusMessage'
+  'IMSessionPropertyAvailability (NSString*)':
+    'prefix': 'IMSessionPropertyAvailability'
+    'body': 'IMSessionPropertyAvailability'
+  'IMSessionPropertyIdleDate (NSString*)':
+    'prefix': 'IMSessionPropertyIdleDate'
+    'body': 'IMSessionPropertyIdleDate'
+  'IMSessionPropertyIsInvisible (NSString*)':
+    'prefix': 'IMSessionPropertyIsInvisible'
+    'body': 'IMSessionPropertyIsInvisible'
+  'IMSessionPropertyPictureData (NSString*)':
+    'prefix': 'IMSessionPropertyPictureData'
+    'body': 'IMSessionPropertyPictureData'
+  'IMSessionPropertyStatusMessage (NSString*)':
+    'prefix': 'IMSessionPropertyStatusMessage'
+    'body': 'IMSessionPropertyStatusMessage'
+  'IMGroupListCanAddNewMembers (4)':
+    'prefix': 'IMGroupListCanAddNewMembers'
+    'body': 'IMGroupListCanAddNewMembers'
+  'IMGroupListCanRemoveMembers (8)':
+    'prefix': 'IMGroupListCanRemoveMembers'
+    'body': 'IMGroupListCanRemoveMembers'
+  'IMGroupListCanRenameGroup (2)':
+    'prefix': 'IMGroupListCanRenameGroup'
+    'body': 'IMGroupListCanRenameGroup'
+  'IMGroupListCanReorderGroup (1)':
+    'prefix': 'IMGroupListCanReorderGroup'
+    'body': 'IMGroupListCanReorderGroup'
+  'IMGroupListCanReorderMembers (16)':
+    'prefix': 'IMGroupListCanReorderMembers'
+    'body': 'IMGroupListCanReorderMembers'
+  'IMHandleAuthorizationStatusAccepted (0)':
+    'prefix': 'IMHandleAuthorizationStatusAccepted'
+    'body': 'IMHandleAuthorizationStatusAccepted'
+  'IMHandleAuthorizationStatusDeclined (2)':
+    'prefix': 'IMHandleAuthorizationStatusDeclined'
+    'body': 'IMHandleAuthorizationStatusDeclined'
+  'IMHandleAuthorizationStatusPending (1)':
+    'prefix': 'IMHandleAuthorizationStatusPending'
+    'body': 'IMHandleAuthorizationStatusPending'
+  'IMHandleAvailabilityAvailable (1)':
+    'prefix': 'IMHandleAvailabilityAvailable'
+    'body': 'IMHandleAvailabilityAvailable'
+  'IMHandleAvailabilityAway (0)':
+    'prefix': 'IMHandleAvailabilityAway'
+    'body': 'IMHandleAvailabilityAway'
+  'IMHandleAvailabilityOffline (-1)':
+    'prefix': 'IMHandleAvailabilityOffline'
+    'body': 'IMHandleAvailabilityOffline'
+  'IMHandleAvailabilityUnknown (-2)':
+    'prefix': 'IMHandleAvailabilityUnknown'
+    'body': 'IMHandleAvailabilityUnknown'
+  'IMSessionAvailabilityAvailable (1)':
+    'prefix': 'IMSessionAvailabilityAvailable'
+    'body': 'IMSessionAvailabilityAvailable'
+  'IMSessionAvailabilityAway (0)':
+    'prefix': 'IMSessionAvailabilityAway'
+    'body': 'IMSessionAvailabilityAway'
+  'IMServicePlugInFileTransfer.fileTransferWithPath:type:totalBytes:':
+    'prefix': 'fileTransferWithPath:type:totalBytes:'
+    'body': 'IMServicePlugInFileTransfer.fileTransferWithPath(${1:NSString* path}, type:${2:NSString* type}, totalBytes:${3:uint64_t totalBytes})'
+  'guid':
+    'prefix': 'guid'
+    'body': 'guid()'
+  'initWithPath:type:totalBytes:':
+    'prefix': 'initWithPath:type:totalBytes:'
+    'body': 'initWithPath(${1:NSString* path}, type:${2:NSString* type}, totalBytes:${3:uint64_t totalBytes})'
+  'path':
+    'prefix': 'path'
+    'body': 'path()'
+  'session':
+    'prefix': 'session'
+    'body': 'session()'
+  'totalBytes':
+    'prefix': 'totalBytes'
+    'body': 'totalBytes()'
+  'transferredBytes':
+    'prefix': 'transferredBytes'
+    'body': 'transferredBytes()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'containerName':
+    'prefix': 'containerName'
+    'body': 'containerName()'
+  'guid':
+    'prefix': 'guid'
+    'body': 'guid()'
+  'outputStream':
+    'prefix': 'outputStream'
+    'body': 'outputStream()'
+  'resetOutputStream':
+    'prefix': 'resetOutputStream'
+    'body': 'resetOutputStream()'
+  'addIncomingFileTransfer:':
+    'prefix': 'addIncomingFileTransfer:'
+    'body': 'addIncomingFileTransfer(${1:IMServicePlugInIncomingFileTransfer* fileTransfer})'
+  'incomingFileTransferForPath:':
+    'prefix': 'incomingFileTransferForPath:'
+    'body': 'incomingFileTransferForPath(${1:NSString* path})'
+  'incomingFileTransfers':
+    'prefix': 'incomingFileTransfers'
+    'body': 'incomingFileTransfers()'
+  'setContainerName:':
+    'prefix': 'setContainerName:'
+    'body': 'setContainerName(${1:NSString* containerName})'
+  'content':
+    'prefix': 'content'
+    'body': 'content()'
+  'date':
+    'prefix': 'date'
+    'body': 'date()'
+  'guid':
+    'prefix': 'guid'
+    'body': 'guid()'
+  'initWithContent:':
+    'prefix': 'initWithContent:'
+    'body': 'initWithContent(${1:NSAttributedString* content})'
+  'initWithContent:date:':
+    'prefix': 'initWithContent:date:'
+    'body': 'initWithContent(${1:NSAttributedString* content}, date:${2:NSDate* date})'
+  'IMServicePlugInMessage.servicePlugInMessageWithContent:':
+    'prefix': 'servicePlugInMessageWithContent:'
+    'body': 'IMServicePlugInMessage.servicePlugInMessageWithContent(${1:NSAttributedString* content})'
+  'IMServicePlugInMessage.servicePlugInMessageWithContent:date:':
+    'prefix': 'servicePlugInMessageWithContent:date:'
+    'body': 'IMServicePlugInMessage.servicePlugInMessageWithContent(${1:NSAttributedString* content}, date:${2:NSDate* date})'
+  'setContent:':
+    'prefix': 'setContent:'
+    'body': 'setContent(${1:NSAttributedString* content})'
+  'setDate:':
+    'prefix': 'setDate:'
+    'body': 'setDate(${1:NSDate* date})'
+  'inputStream':
+    'prefix': 'inputStream'
+    'body': 'inputStream()'
+  'resetInputStream':
+    'prefix': 'resetInputStream'
+    'body': 'resetInputStream()'
+  'outgoingFileTransferForPath:':
+    'prefix': 'outgoingFileTransferForPath:'
+    'body': 'outgoingFileTransferForPath(${1:NSString* path})'
+  'outgoingFileTransfers':
+    'prefix': 'outgoingFileTransfers'
+    'body': 'outgoingFileTransfers()'
+  'acceptAuthorizationRequestFromHandle:':
+    'prefix': 'acceptAuthorizationRequestFromHandle:'
+    'body': 'acceptAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'acceptIncomingFileTransferSession:':
+    'prefix': 'acceptIncomingFileTransferSession:'
+    'body': 'acceptIncomingFileTransferSession(${1:IMServicePlugInIncomingFileTransferSession* session})'
+  'addGroups:':
+    'prefix': 'addGroups:'
+    'body': 'addGroups(${1:NSArray* groupNames})'
+  'addHandles:toGroup:':
+    'prefix': 'addHandles:toGroup:'
+    'body': 'addHandles(${1:NSArray* handles}, toGroup:${2:NSString* groupName})'
+  'cancelFileTransferSession:':
+    'prefix': 'cancelFileTransferSession:'
+    'body': 'cancelFileTransferSession(${1:IMServicePlugInFileTransferSession* session})'
+  'declineAuthorizationRequestFromHandle:':
+    'prefix': 'declineAuthorizationRequestFromHandle:'
+    'body': 'declineAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'declineChatRoomInvitation:':
+    'prefix': 'declineChatRoomInvitation:'
+    'body': 'declineChatRoomInvitation(${1:NSString* roomName})'
+  'handleDidStartTyping:':
+    'prefix': 'handleDidStartTyping:'
+    'body': 'handleDidStartTyping(${1:NSString* handle})'
+  'handleDidStopTyping:':
+    'prefix': 'handleDidStopTyping:'
+    'body': 'handleDidStopTyping(${1:NSString* handle})'
+  'handles:didJoinChatRoom:':
+    'prefix': 'handles:didJoinChatRoom:'
+    'body': 'handles(${1:NSArray* handles}, didJoinChatRoom:${2:NSString* roomName})'
+  'handles:didLeaveChatRoom:':
+    'prefix': 'handles:didLeaveChatRoom:'
+    'body': 'handles(${1:NSArray* handles}, didLeaveChatRoom:${2:NSString* roomName})'
+  'initWithServiceApplication:':
+    'prefix': 'initWithServiceApplication:'
+    'body': 'initWithServiceApplication(${1:id serviceApplication})'
+  'inviteHandles:toChatRoom:withMessage:':
+    'prefix': 'inviteHandles:toChatRoom:withMessage:'
+    'body': 'inviteHandles(${1:NSArray* handles}, toChatRoom:${2:NSString* roomName}, withMessage:${3:IMServicePlugInMessage* message})'
+  'joinChatRoom:':
+    'prefix': 'joinChatRoom:'
+    'body': 'joinChatRoom(${1:NSString* roomName})'
+  'leaveChatRoom:':
+    'prefix': 'leaveChatRoom:'
+    'body': 'leaveChatRoom(${1:NSString* roomName})'
+  'login':
+    'prefix': 'login'
+    'body': 'login()'
+  'logout':
+    'prefix': 'logout'
+    'body': 'logout()'
+  'plugInDidAcceptOutgoingFileTransferSession:':
+    'prefix': 'plugInDidAcceptOutgoingFileTransferSession:'
+    'body': 'plugInDidAcceptOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session})'
+  'plugInDidFailToAuthenticate':
+    'prefix': 'plugInDidFailToAuthenticate'
+    'body': 'plugInDidFailToAuthenticate()'
+  'plugInDidFinishFileTransferSession:error:':
+    'prefix': 'plugInDidFinishFileTransferSession:error:'
+    'body': 'plugInDidFinishFileTransferSession(${1:IMServicePlugInFileTransferSession* session}, error:${2:NSError* error})'
+  'plugInDidJoinChatRoom:':
+    'prefix': 'plugInDidJoinChatRoom:'
+    'body': 'plugInDidJoinChatRoom(${1:NSString* roomName})'
+  'plugInDidLeaveChatRoom:error:':
+    'prefix': 'plugInDidLeaveChatRoom:error:'
+    'body': 'plugInDidLeaveChatRoom(${1:NSString* roomName}, error:${2:NSError* error})'
+  'plugInDidLogIn':
+    'prefix': 'plugInDidLogIn'
+    'body': 'plugInDidLogIn()'
+  'plugInDidLogOutWithError:reconnect:':
+    'prefix': 'plugInDidLogOutWithError:reconnect:'
+    'body': 'plugInDidLogOutWithError(${1:NSError* error}, reconnect:${2:BOOL reconnect})'
+  'plugInDidReceiveAuthorizationRequestFromHandle:':
+    'prefix': 'plugInDidReceiveAuthorizationRequestFromHandle:'
+    'body': 'plugInDidReceiveAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'plugInDidReceiveIncomingFileTransferSession:fromHandle:':
+    'prefix': 'plugInDidReceiveIncomingFileTransferSession:fromHandle:'
+    'body': 'plugInDidReceiveIncomingFileTransferSession(${1:IMServicePlugInIncomingFileTransferSession* session}, fromHandle:${2:NSString* handle})'
+  'plugInDidReceiveInvitation:forChatRoom:fromHandle:':
+    'prefix': 'plugInDidReceiveInvitation:forChatRoom:fromHandle:'
+    'body': 'plugInDidReceiveInvitation(${1:IMServicePlugInMessage* invitation}, forChatRoom:${2:NSString* roomName}, fromHandle:${3:NSString* handle})'
+  'plugInDidReceiveMessage:forChatRoom:fromHandle:':
+    'prefix': 'plugInDidReceiveMessage:forChatRoom:fromHandle:'
+    'body': 'plugInDidReceiveMessage(${1:IMServicePlugInMessage* message}, forChatRoom:${2:NSString* roomName}, fromHandle:${3:NSString* handle})'
+  'plugInDidReceiveMessage:fromHandle:':
+    'prefix': 'plugInDidReceiveMessage:fromHandle:'
+    'body': 'plugInDidReceiveMessage(${1:IMServicePlugInMessage* message}, fromHandle:${2:NSString* handle})'
+  'plugInDidReceiveNotice:forChatRoom:':
+    'prefix': 'plugInDidReceiveNotice:forChatRoom:'
+    'body': 'plugInDidReceiveNotice(${1:NSString* notice}, forChatRoom:${2:NSString* roomName})'
+  'plugInDidSendMessage:toChatRoom:error:':
+    'prefix': 'plugInDidSendMessage:toChatRoom:error:'
+    'body': 'plugInDidSendMessage(${1:IMServicePlugInMessage* message}, toChatRoom:${2:NSString* roomName}, error:${3:NSError* error})'
+  'plugInDidSendMessage:toHandle:error:':
+    'prefix': 'plugInDidSendMessage:toHandle:error:'
+    'body': 'plugInDidSendMessage(${1:IMServicePlugInMessage* message}, toHandle:${2:NSString* handle}, error:${3:NSError* error})'
+  'plugInDidUpdateGroupList:error:':
+    'prefix': 'plugInDidUpdateGroupList:error:'
+    'body': 'plugInDidUpdateGroupList(${1:NSArray* groups}, error:${2:NSError* error})'
+  'plugInDidUpdateProperties:ofHandle:':
+    'prefix': 'plugInDidUpdateProperties:ofHandle:'
+    'body': 'plugInDidUpdateProperties(${1:NSDictionary* changes}, ofHandle:${2:NSString* handle})'
+  'removeGroups:':
+    'prefix': 'removeGroups:'
+    'body': 'removeGroups(${1:NSArray* groupNames})'
+  'removeHandles:fromGroup:':
+    'prefix': 'removeHandles:fromGroup:'
+    'body': 'removeHandles(${1:NSArray* handles}, fromGroup:${2:NSString* groupName})'
+  'renameGroup:toGroup:':
+    'prefix': 'renameGroup:toGroup:'
+    'body': 'renameGroup(${1:NSString* oldGroupName}, toGroup:${2:NSString* newGroupName})'
+  'reorderGroups:':
+    'prefix': 'reorderGroups:'
+    'body': 'reorderGroups(${1:NSArray* groupNames})'
+  'reorderHandles:inGroup:':
+    'prefix': 'reorderHandles:inGroup:'
+    'body': 'reorderHandles(${1:NSArray* handles}, inGroup:${2:NSString* groupName})'
+  'requestGroupList':
+    'prefix': 'requestGroupList'
+    'body': 'requestGroupList()'
+  'requestPictureForHandle:withIdentifier:':
+    'prefix': 'requestPictureForHandle:withIdentifier:'
+    'body': 'requestPictureForHandle(${1:NSString* handle}, withIdentifier:${2:NSString* identifier})'
+  'sendAuthorizationRequestToHandle:':
+    'prefix': 'sendAuthorizationRequestToHandle:'
+    'body': 'sendAuthorizationRequestToHandle(${1:NSString* handle})'
+  'sendMessage:toChatRoom:':
+    'prefix': 'sendMessage:toChatRoom:'
+    'body': 'sendMessage(${1:IMServicePlugInMessage* message}, toChatRoom:${2:NSString* roomName})'
+  'sendMessage:toHandle:':
+    'prefix': 'sendMessage:toHandle:'
+    'body': 'sendMessage(${1:IMServicePlugInMessage* message}, toHandle:${2:NSString* handle})'
+  'startOutgoingFileTransferSession:toHandle:':
+    'prefix': 'startOutgoingFileTransferSession:toHandle:'
+    'body': 'startOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session}, toHandle:${2:NSString* handle})'
+  'updateAccountSettings:':
+    'prefix': 'updateAccountSettings:'
+    'body': 'updateAccountSettings(${1:NSDictionary* accountSettings})'
+  'updateSessionProperties:':
+    'prefix': 'updateSessionProperties:'
+    'body': 'updateSessionProperties(${1:NSDictionary* properties})'
+  'userDidStartTypingToHandle:':
+    'prefix': 'userDidStartTypingToHandle:'
+    'body': 'userDidStartTypingToHandle(${1:NSString* handle})'
+  'userDidStopTypingToHandle:':
+    'prefix': 'userDidStopTypingToHandle:'
+    'body': 'userDidStopTypingToHandle(${1:NSString* handle})'
+  'plugInDidFailToAuthenticate':
+    'prefix': 'plugInDidFailToAuthenticate'
+    'body': 'plugInDidFailToAuthenticate()'
+  'plugInDidLogIn':
+    'prefix': 'plugInDidLogIn'
+    'body': 'plugInDidLogIn()'
+  'plugInDidLogOutWithError:reconnect:':
+    'prefix': 'plugInDidLogOutWithError:reconnect:'
+    'body': 'plugInDidLogOutWithError(${1:NSError* error}, reconnect:${2:BOOL reconnect})'
+  'plugInDidUpdateProperties:ofHandle:':
+    'prefix': 'plugInDidUpdateProperties:ofHandle:'
+    'body': 'plugInDidUpdateProperties(${1:NSDictionary* changes}, ofHandle:${2:NSString* handle})'
+  'handles:didJoinChatRoom:':
+    'prefix': 'handles:didJoinChatRoom:'
+    'body': 'handles(${1:NSArray* handles}, didJoinChatRoom:${2:NSString* roomName})'
+  'handles:didLeaveChatRoom:':
+    'prefix': 'handles:didLeaveChatRoom:'
+    'body': 'handles(${1:NSArray* handles}, didLeaveChatRoom:${2:NSString* roomName})'
+  'plugInDidJoinChatRoom:':
+    'prefix': 'plugInDidJoinChatRoom:'
+    'body': 'plugInDidJoinChatRoom(${1:NSString* roomName})'
+  'plugInDidLeaveChatRoom:error:':
+    'prefix': 'plugInDidLeaveChatRoom:error:'
+    'body': 'plugInDidLeaveChatRoom(${1:NSString* roomName}, error:${2:NSError* error})'
+  'plugInDidReceiveInvitation:forChatRoom:fromHandle:':
+    'prefix': 'plugInDidReceiveInvitation:forChatRoom:fromHandle:'
+    'body': 'plugInDidReceiveInvitation(${1:IMServicePlugInMessage* invitation}, forChatRoom:${2:NSString* roomName}, fromHandle:${3:NSString* handle})'
+  'plugInDidReceiveMessage:forChatRoom:fromHandle:':
+    'prefix': 'plugInDidReceiveMessage:forChatRoom:fromHandle:'
+    'body': 'plugInDidReceiveMessage(${1:IMServicePlugInMessage* message}, forChatRoom:${2:NSString* roomName}, fromHandle:${3:NSString* handle})'
+  'plugInDidReceiveNotice:forChatRoom:':
+    'prefix': 'plugInDidReceiveNotice:forChatRoom:'
+    'body': 'plugInDidReceiveNotice(${1:NSString* notice}, forChatRoom:${2:NSString* roomName})'
+  'plugInDidSendMessage:toChatRoom:error:':
+    'prefix': 'plugInDidSendMessage:toChatRoom:error:'
+    'body': 'plugInDidSendMessage(${1:IMServicePlugInMessage* message}, toChatRoom:${2:NSString* roomName}, error:${3:NSError* error})'
+  'plugInDidAcceptOutgoingFileTransferSession:':
+    'prefix': 'plugInDidAcceptOutgoingFileTransferSession:'
+    'body': 'plugInDidAcceptOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session})'
+  'plugInDidFinishFileTransferSession:error:':
+    'prefix': 'plugInDidFinishFileTransferSession:error:'
+    'body': 'plugInDidFinishFileTransferSession(${1:IMServicePlugInFileTransferSession* session}, error:${2:NSError* error})'
+  'plugInDidReceiveIncomingFileTransferSession:fromHandle:':
+    'prefix': 'plugInDidReceiveIncomingFileTransferSession:fromHandle:'
+    'body': 'plugInDidReceiveIncomingFileTransferSession(${1:IMServicePlugInIncomingFileTransferSession* session}, fromHandle:${2:NSString* handle})'
+  'plugInDidReceiveAuthorizationRequestFromHandle:':
+    'prefix': 'plugInDidReceiveAuthorizationRequestFromHandle:'
+    'body': 'plugInDidReceiveAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'plugInDidUpdateGroupList:error:':
+    'prefix': 'plugInDidUpdateGroupList:error:'
+    'body': 'plugInDidUpdateGroupList(${1:NSArray* groups}, error:${2:NSError* error})'
+  'handleDidStartTyping:':
+    'prefix': 'handleDidStartTyping:'
+    'body': 'handleDidStartTyping(${1:NSString* handle})'
+  'handleDidStopTyping:':
+    'prefix': 'handleDidStopTyping:'
+    'body': 'handleDidStopTyping(${1:NSString* handle})'
+  'plugInDidReceiveMessage:fromHandle:':
+    'prefix': 'plugInDidReceiveMessage:fromHandle:'
+    'body': 'plugInDidReceiveMessage(${1:IMServicePlugInMessage* message}, fromHandle:${2:NSString* handle})'
+  'plugInDidSendMessage:toHandle:error:':
+    'prefix': 'plugInDidSendMessage:toHandle:error:'
+    'body': 'plugInDidSendMessage(${1:IMServicePlugInMessage* message}, toHandle:${2:NSString* handle}, error:${3:NSError* error})'
+  'initWithServiceApplication:':
+    'prefix': 'initWithServiceApplication:'
+    'body': 'initWithServiceApplication(${1:id serviceApplication})'
+  'login':
+    'prefix': 'login'
+    'body': 'login()'
+  'logout':
+    'prefix': 'logout'
+    'body': 'logout()'
+  'updateAccountSettings:':
+    'prefix': 'updateAccountSettings:'
+    'body': 'updateAccountSettings(${1:NSDictionary* accountSettings})'
+  'declineChatRoomInvitation:':
+    'prefix': 'declineChatRoomInvitation:'
+    'body': 'declineChatRoomInvitation(${1:NSString* roomName})'
+  'inviteHandles:toChatRoom:withMessage:':
+    'prefix': 'inviteHandles:toChatRoom:withMessage:'
+    'body': 'inviteHandles(${1:NSArray* handles}, toChatRoom:${2:NSString* roomName}, withMessage:${3:IMServicePlugInMessage* message})'
+  'joinChatRoom:':
+    'prefix': 'joinChatRoom:'
+    'body': 'joinChatRoom(${1:NSString* roomName})'
+  'leaveChatRoom:':
+    'prefix': 'leaveChatRoom:'
+    'body': 'leaveChatRoom(${1:NSString* roomName})'
+  'sendMessage:toChatRoom:':
+    'prefix': 'sendMessage:toChatRoom:'
+    'body': 'sendMessage(${1:IMServicePlugInMessage* message}, toChatRoom:${2:NSString* roomName})'
+  'acceptIncomingFileTransferSession:':
+    'prefix': 'acceptIncomingFileTransferSession:'
+    'body': 'acceptIncomingFileTransferSession(${1:IMServicePlugInIncomingFileTransferSession* session})'
+  'cancelFileTransferSession:':
+    'prefix': 'cancelFileTransferSession:'
+    'body': 'cancelFileTransferSession(${1:IMServicePlugInFileTransferSession* session})'
+  'startOutgoingFileTransferSession:toHandle:':
+    'prefix': 'startOutgoingFileTransferSession:toHandle:'
+    'body': 'startOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session}, toHandle:${2:NSString* handle})'
+  'acceptAuthorizationRequestFromHandle:':
+    'prefix': 'acceptAuthorizationRequestFromHandle:'
+    'body': 'acceptAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'declineAuthorizationRequestFromHandle:':
+    'prefix': 'declineAuthorizationRequestFromHandle:'
+    'body': 'declineAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'sendAuthorizationRequestToHandle:':
+    'prefix': 'sendAuthorizationRequestToHandle:'
+    'body': 'sendAuthorizationRequestToHandle(${1:NSString* handle})'
+  'addGroups:':
+    'prefix': 'addGroups:'
+    'body': 'addGroups(${1:NSArray* groupNames})'
+  'addHandles:toGroup:':
+    'prefix': 'addHandles:toGroup:'
+    'body': 'addHandles(${1:NSArray* handles}, toGroup:${2:NSString* groupName})'
+  'removeGroups:':
+    'prefix': 'removeGroups:'
+    'body': 'removeGroups(${1:NSArray* groupNames})'
+  'removeHandles:fromGroup:':
+    'prefix': 'removeHandles:fromGroup:'
+    'body': 'removeHandles(${1:NSArray* handles}, fromGroup:${2:NSString* groupName})'
+  'renameGroup:toGroup:':
+    'prefix': 'renameGroup:toGroup:'
+    'body': 'renameGroup(${1:NSString* oldGroupName}, toGroup:${2:NSString* newGroupName})'
+  'requestPictureForHandle:withIdentifier:':
+    'prefix': 'requestPictureForHandle:withIdentifier:'
+    'body': 'requestPictureForHandle(${1:NSString* handle}, withIdentifier:${2:NSString* identifier})'
+  'reorderGroups:':
+    'prefix': 'reorderGroups:'
+    'body': 'reorderGroups(${1:NSArray* groupNames})'
+  'reorderHandles:inGroup:':
+    'prefix': 'reorderHandles:inGroup:'
+    'body': 'reorderHandles(${1:NSArray* handles}, inGroup:${2:NSString* groupName})'
+  'requestGroupList':
+    'prefix': 'requestGroupList'
+    'body': 'requestGroupList()'
+  'sendMessage:toHandle:':
+    'prefix': 'sendMessage:toHandle:'
+    'body': 'sendMessage(${1:IMServicePlugInMessage* message}, toHandle:${2:NSString* handle})'
+  'userDidStartTypingToHandle:':
+    'prefix': 'userDidStartTypingToHandle:'
+    'body': 'userDidStartTypingToHandle(${1:NSString* handle})'
+  'userDidStopTypingToHandle:':
+    'prefix': 'userDidStopTypingToHandle:'
+    'body': 'userDidStopTypingToHandle(${1:NSString* handle})'
+  'updateSessionProperties:':
+    'prefix': 'updateSessionProperties:'
+    'body': 'updateSessionProperties(${1:NSDictionary* properties})'

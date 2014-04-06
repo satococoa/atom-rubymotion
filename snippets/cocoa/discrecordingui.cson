@@ -1,0 +1,307 @@
+'.source.rubymotion':
+  'DRBurnIcon (NSString*)':
+    'prefix': 'DRBurnIcon'
+    'body': 'DRBurnIcon'
+  'DRBurnProgressPanelDidFinishNotification (NSString*)':
+    'prefix': 'DRBurnProgressPanelDidFinishNotification'
+    'body': 'DRBurnProgressPanelDidFinishNotification'
+  'DRBurnProgressPanelWillBeginNotification (NSString*)':
+    'prefix': 'DRBurnProgressPanelWillBeginNotification'
+    'body': 'DRBurnProgressPanelWillBeginNotification'
+  'DRBurnSetupPanelDefaultButtonDefaultTitle (NSString*)':
+    'prefix': 'DRBurnSetupPanelDefaultButtonDefaultTitle'
+    'body': 'DRBurnSetupPanelDefaultButtonDefaultTitle'
+  'DREraseIcon (NSString*)':
+    'prefix': 'DREraseIcon'
+    'body': 'DREraseIcon'
+  'DREraseProgressPanelDidFinishNotification (NSString*)':
+    'prefix': 'DREraseProgressPanelDidFinishNotification'
+    'body': 'DREraseProgressPanelDidFinishNotification'
+  'DREraseProgressPanelWillBeginNotification (NSString*)':
+    'prefix': 'DREraseProgressPanelWillBeginNotification'
+    'body': 'DREraseProgressPanelWillBeginNotification'
+  'DRSetupPanelDeviceSelectionChangedNotification (NSString*)':
+    'prefix': 'DRSetupPanelDeviceSelectionChangedNotification'
+    'body': 'DRSetupPanelDeviceSelectionChangedNotification'
+  'DRSetupPanelSelectedDeviceKey (NSString*)':
+    'prefix': 'DRSetupPanelSelectedDeviceKey'
+    'body': 'DRSetupPanelSelectedDeviceKey'
+  'kBurnSessionProgressDialogDefaultOptions (0)':
+    'prefix': 'kBurnSessionProgressDialogDefaultOptions'
+    'body': 'KBurnSessionProgressDialogDefaultOptions'
+  'kBurnSessionProgressDialogDisplayVerboseProgress (1)':
+    'prefix': 'kBurnSessionProgressDialogDisplayVerboseProgress'
+    'body': 'KBurnSessionProgressDialogDisplayVerboseProgress'
+  'kBurnSessionProgressDialogOptionsCurrentVersion (1)':
+    'prefix': 'kBurnSessionProgressDialogOptionsCurrentVersion'
+    'body': 'KBurnSessionProgressDialogOptionsCurrentVersion'
+  'kBurnSessionSetupDialogAllowTestBurns (2147483652)':
+    'prefix': 'kBurnSessionSetupDialogAllowTestBurns'
+    'body': 'KBurnSessionSetupDialogAllowTestBurns'
+  'kBurnSessionSetupDialogDefaultOptions (0)':
+    'prefix': 'kBurnSessionSetupDialogDefaultOptions'
+    'body': 'KBurnSessionSetupDialogDefaultOptions'
+  'kBurnSessionSetupDialogDontHandleReservations (2)':
+    'prefix': 'kBurnSessionSetupDialogDontHandleReservations'
+    'body': 'KBurnSessionSetupDialogDontHandleReservations'
+  'kBurnSessionSetupDialogForceClosedDiscs (1)':
+    'prefix': 'kBurnSessionSetupDialogForceClosedDiscs'
+    'body': 'KBurnSessionSetupDialogForceClosedDiscs'
+  'kBurnSessionSetupDialogOptionsCurrentVersion (1)':
+    'prefix': 'kBurnSessionSetupDialogOptionsCurrentVersion'
+    'body': 'KBurnSessionSetupDialogOptionsCurrentVersion'
+  'kDRBurnProgressSetupCallbacksCurrentVersion (1)':
+    'prefix': 'kDRBurnProgressSetupCallbacksCurrentVersion'
+    'body': 'KDRBurnProgressSetupCallbacksCurrentVersion'
+  'kDRBurnSessionCancel (0)':
+    'prefix': 'kDRBurnSessionCancel'
+    'body': 'KDRBurnSessionCancel'
+  'kDRBurnSessionOK (1)':
+    'prefix': 'kDRBurnSessionOK'
+    'body': 'KDRBurnSessionOK'
+  'kDRBurnSessionSetupCallbacksCurrentVersion (1)':
+    'prefix': 'kDRBurnSessionSetupCallbacksCurrentVersion'
+    'body': 'KDRBurnSessionSetupCallbacksCurrentVersion'
+  'kDREraseProgressSetupCallbacksCurrentVersion (1)':
+    'prefix': 'kDREraseProgressSetupCallbacksCurrentVersion'
+    'body': 'KDREraseProgressSetupCallbacksCurrentVersion'
+  'kDREraseSessionCancel (0)':
+    'prefix': 'kDREraseSessionCancel'
+    'body': 'KDREraseSessionCancel'
+  'kDREraseSessionOK (1)':
+    'prefix': 'kDREraseSessionOK'
+    'body': 'KDREraseSessionOK'
+  'kDREraseSessionSetupCallbacksCurrentVersion (1)':
+    'prefix': 'kDREraseSessionSetupCallbacksCurrentVersion'
+    'body': 'KDREraseSessionSetupCallbacksCurrentVersion'
+  'kEraseSessionProgressDialogDefaultOptions (0)':
+    'prefix': 'kEraseSessionProgressDialogDefaultOptions'
+    'body': 'KEraseSessionProgressDialogDefaultOptions'
+  'kEraseSessionProgressDialogOptionsCurrentVersion (1)':
+    'prefix': 'kEraseSessionProgressDialogOptionsCurrentVersion'
+    'body': 'KEraseSessionProgressDialogOptionsCurrentVersion'
+  'kEraseSessionSetupDialogDefaultOptions (0)':
+    'prefix': 'kEraseSessionSetupDialogDefaultOptions'
+    'body': 'KEraseSessionSetupDialogDefaultOptions'
+  'kEraseSessionSetupDialogDontHandleReservations (1)':
+    'prefix': 'kEraseSessionSetupDialogDontHandleReservations'
+    'body': 'KEraseSessionSetupDialogDontHandleReservations'
+  'kEraseSessionSetupDialogOptionsCurrentVersion (1)':
+    'prefix': 'kEraseSessionSetupDialogOptionsCurrentVersion'
+    'body': 'KEraseSessionSetupDialogOptionsCurrentVersion'
+  'DRBurnSessionBeginProgressDialog':
+    'prefix': 'DRBurnSessionBeginProgressDialog'
+    'body': 'DRBurnSessionBeginProgressDialog(${1:DRBurnSessionRef burnSession}, ${2:CFTypeRef layout}, ${3:DRBurnSessionProgressDialogOptions* options}, ${4:DRBurnSessionProgressCallbacks* progressCallbacks})'
+  'DRBurnSessionCreate':
+    'prefix': 'DRBurnSessionCreate'
+    'body': 'DRBurnSessionCreate()'
+  'DRBurnSessionGetBurn':
+    'prefix': 'DRBurnSessionGetBurn'
+    'body': 'DRBurnSessionGetBurn(${1:DRBurnSessionRef burnSession})'
+  'DRBurnSessionGetTypeID':
+    'prefix': 'DRBurnSessionGetTypeID'
+    'body': 'DRBurnSessionGetTypeID()'
+  'DRBurnSessionSetBurn':
+    'prefix': 'DRBurnSessionSetBurn'
+    'body': 'DRBurnSessionSetBurn(${1:DRBurnSessionRef burnSession}, ${2:DRBurnRef burn})'
+  'DRBurnSessionSetupDialog':
+    'prefix': 'DRBurnSessionSetupDialog'
+    'body': 'DRBurnSessionSetupDialog(${1:DRBurnSessionRef burnSession}, ${2:DRBurnSessionSetupDialogOptions* options}, ${3:DRBurnSessionSetupCallbacks* setupCallbacks})'
+  'DREraseSessionBeginProgressDialog':
+    'prefix': 'DREraseSessionBeginProgressDialog'
+    'body': 'DREraseSessionBeginProgressDialog(${1:DREraseSessionRef eraseSession}, ${2:DREraseSessionProgressDialogOptions* options}, ${3:DREraseSessionProgressCallbacks* progressCallbacks})'
+  'DREraseSessionCreate':
+    'prefix': 'DREraseSessionCreate'
+    'body': 'DREraseSessionCreate()'
+  'DREraseSessionGetErase':
+    'prefix': 'DREraseSessionGetErase'
+    'body': 'DREraseSessionGetErase(${1:DREraseSessionRef eraseSession})'
+  'DREraseSessionGetTypeID':
+    'prefix': 'DREraseSessionGetTypeID'
+    'body': 'DREraseSessionGetTypeID()'
+  'DREraseSessionSetErase':
+    'prefix': 'DREraseSessionSetErase'
+    'body': 'DREraseSessionSetErase(${1:DREraseSessionRef eraseSession}, ${2:DREraseRef erase})'
+  'DREraseSessionSetupDialog':
+    'prefix': 'DREraseSessionSetupDialog'
+    'body': 'DREraseSessionSetupDialog(${1:DREraseSessionRef eraseSession}, ${2:DREraseSessionSetupDialogOptions* options}, ${3:DREraseSessionSetupCallbacks* setupCallbacks})'
+  'beginProgressPanelForBurn:layout:':
+    'prefix': 'beginProgressPanelForBurn:layout:'
+    'body': 'beginProgressPanelForBurn(${1:DRBurn* burn}, layout:${2:id layout})'
+  'beginProgressSheetForBurn:layout:modalForWindow:':
+    'prefix': 'beginProgressSheetForBurn:layout:modalForWindow:'
+    'body': 'beginProgressSheetForBurn(${1:DRBurn* burn}, layout:${2:id layout}, modalForWindow:${3:NSWindow* docWindow})'
+  'description':
+    'prefix': 'description'
+    'body': 'description()'
+  'DRBurnProgressPanel.progressPanel':
+    'prefix': 'progressPanel'
+    'body': 'DRBurnProgressPanel.progressPanel()'
+  'setDescription:':
+    'prefix': 'setDescription:'
+    'body': 'setDescription(${1:NSString* description})'
+  'setVerboseProgressStatus:':
+    'prefix': 'setVerboseProgressStatus:'
+    'body': 'setVerboseProgressStatus(${1:BOOL verbose})'
+  'stopBurn:':
+    'prefix': 'stopBurn:'
+    'body': 'stopBurn(${1:id sender})'
+  'verboseProgressStatus':
+    'prefix': 'verboseProgressStatus'
+    'body': 'verboseProgressStatus()'
+  'appendable:':
+    'prefix': 'appendable:'
+    'body': 'appendable(${1:id sender})'
+  'burnObject':
+    'prefix': 'burnObject'
+    'body': 'burnObject()'
+  'burnSpeed:':
+    'prefix': 'burnSpeed:'
+    'body': 'burnSpeed(${1:id sender})'
+  'completionAction:':
+    'prefix': 'completionAction:'
+    'body': 'completionAction(${1:id sender})'
+  'expand:':
+    'prefix': 'expand:'
+    'body': 'expand(${1:id sender})'
+  'setCanSelectAppendableMedia:':
+    'prefix': 'setCanSelectAppendableMedia:'
+    'body': 'setCanSelectAppendableMedia(${1:BOOL flag})'
+  'setCanSelectTestBurn:':
+    'prefix': 'setCanSelectTestBurn:'
+    'body': 'setCanSelectTestBurn(${1:BOOL flag})'
+  'setDefaultButtonTitle:':
+    'prefix': 'setDefaultButtonTitle:'
+    'body': 'setDefaultButtonTitle(${1:NSString* title})'
+  'DRBurnSetupPanel.setupPanel':
+    'prefix': 'setupPanel'
+    'body': 'DRBurnSetupPanel.setupPanel()'
+  'testBurn:':
+    'prefix': 'testBurn:'
+    'body': 'testBurn(${1:id sender})'
+  'verifyBurn:':
+    'prefix': 'verifyBurn:'
+    'body': 'verifyBurn(${1:id sender})'
+  'beginProgressPanelForErase:':
+    'prefix': 'beginProgressPanelForErase:'
+    'body': 'beginProgressPanelForErase(${1:DRErase* erase})'
+  'beginProgressSheetForErase:modalForWindow:':
+    'prefix': 'beginProgressSheetForErase:modalForWindow:'
+    'body': 'beginProgressSheetForErase(${1:DRErase* erase}, modalForWindow:${2:NSWindow* docWindow})'
+  'description':
+    'prefix': 'description'
+    'body': 'description()'
+  'DREraseProgressPanel.progressPanel':
+    'prefix': 'progressPanel'
+    'body': 'DREraseProgressPanel.progressPanel()'
+  'setDescription:':
+    'prefix': 'setDescription:'
+    'body': 'setDescription(${1:NSString* description})'
+  'eraseObject':
+    'prefix': 'eraseObject'
+    'body': 'eraseObject()'
+  'eraseType:':
+    'prefix': 'eraseType:'
+    'body': 'eraseType(${1:id sender})'
+  'DREraseSetupPanel.setupPanel':
+    'prefix': 'setupPanel'
+    'body': 'DREraseSetupPanel.setupPanel()'
+  'beginSetupSheetForWindow:modalDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginSetupSheetForWindow:modalDelegate:didEndSelector:contextInfo:'
+    'body': 'beginSetupSheetForWindow(${1:NSWindow* owner}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
+  'cancel:':
+    'prefix': 'cancel:'
+    'body': 'cancel(${1:id sender})'
+  'close:':
+    'prefix': 'close:'
+    'body': 'close(${1:id sender})'
+  'deviceSelectionChanged:':
+    'prefix': 'deviceSelectionChanged:'
+    'body': 'deviceSelectionChanged(${1:DRDevice* device})'
+  'eject:':
+    'prefix': 'eject:'
+    'body': 'eject(${1:id sender})'
+  'initWithNibName:':
+    'prefix': 'initWithNibName:'
+    'body': 'initWithNibName(${1:NSString* nibName})'
+  'mediaStateChanged:':
+    'prefix': 'mediaStateChanged:'
+    'body': 'mediaStateChanged(${1:NSDictionary* status})'
+  'ok:':
+    'prefix': 'ok:'
+    'body': 'ok(${1:id sender})'
+  'open:':
+    'prefix': 'open:'
+    'body': 'open(${1:id sender})'
+  'runSetupPanel':
+    'prefix': 'runSetupPanel'
+    'body': 'runSetupPanel()'
+  'setupForDisplay':
+    'prefix': 'setupForDisplay'
+    'body': 'setupForDisplay()'
+  'burnProgressPanel:burnDidFinish:':
+    'prefix': 'burnProgressPanel:burnDidFinish:'
+    'body': 'burnProgressPanel(${1:DRBurnProgressPanel* theBurnPanel}, burnDidFinish:${2:DRBurn* burn})'
+  'burnProgressPanelDidFinish:':
+    'prefix': 'burnProgressPanelDidFinish:'
+    'body': 'burnProgressPanelDidFinish(${1:NSNotification* aNotification})'
+  'burnProgressPanelWillBegin:':
+    'prefix': 'burnProgressPanelWillBegin:'
+    'body': 'burnProgressPanelWillBegin(${1:NSNotification* aNotification})'
+  'eraseProgressPanel:eraseDidFinish:':
+    'prefix': 'eraseProgressPanel:eraseDidFinish:'
+    'body': 'eraseProgressPanel(${1:DREraseProgressPanel* theErasePanel}, eraseDidFinish:${2:DRErase* erase})'
+  'eraseProgressPanelDidFinish:':
+    'prefix': 'eraseProgressPanelDidFinish:'
+    'body': 'eraseProgressPanelDidFinish(${1:NSNotification* aNotification})'
+  'eraseProgressPanelWillBegin:':
+    'prefix': 'eraseProgressPanelWillBegin:'
+    'body': 'eraseProgressPanelWillBegin(${1:NSNotification* aNotification})'
+  'setupPanel:determineBestDeviceOfA:orB:':
+    'prefix': 'setupPanel:determineBestDeviceOfA:orB:'
+    'body': 'setupPanel(${1:DRSetupPanel* aPanel}, determineBestDeviceOfA:${2:DRDevice* deviceA}, orB:${3:DRDevice* device})'
+  'setupPanel:deviceContainsSuitableMedia:promptString:':
+    'prefix': 'setupPanel:deviceContainsSuitableMedia:promptString:'
+    'body': 'setupPanel(${1:DRSetupPanel* aPanel}, deviceContainsSuitableMedia:${2:DRDevice* device}, promptString:${3:NSString** prompt})'
+  'setupPanel:deviceCouldBeTarget:':
+    'prefix': 'setupPanel:deviceCouldBeTarget:'
+    'body': 'setupPanel(${1:DRSetupPanel* aPanel}, deviceCouldBeTarget:${2:DRDevice* device})'
+  'setupPanelDeviceSelectionChanged:':
+    'prefix': 'setupPanelDeviceSelectionChanged:'
+    'body': 'setupPanelDeviceSelectionChanged(${1:NSNotification* aNotification})'
+  'setupPanelShouldHandleMediaReservations:':
+    'prefix': 'setupPanelShouldHandleMediaReservations:'
+    'body': 'setupPanelShouldHandleMediaReservations(${1:DRSetupPanel* aPanel})'
+  'burnProgressPanel:burnDidFinish:':
+    'prefix': 'burnProgressPanel:burnDidFinish:'
+    'body': 'burnProgressPanel(${1:DRBurnProgressPanel* theBurnPanel}, burnDidFinish:${2:DRBurn* burn})'
+  'burnProgressPanelDidFinish:':
+    'prefix': 'burnProgressPanelDidFinish:'
+    'body': 'burnProgressPanelDidFinish(${1:NSNotification* aNotification})'
+  'burnProgressPanelWillBegin:':
+    'prefix': 'burnProgressPanelWillBegin:'
+    'body': 'burnProgressPanelWillBegin(${1:NSNotification* aNotification})'
+  'eraseProgressPanel:eraseDidFinish:':
+    'prefix': 'eraseProgressPanel:eraseDidFinish:'
+    'body': 'eraseProgressPanel(${1:DREraseProgressPanel* theErasePanel}, eraseDidFinish:${2:DRErase* erase})'
+  'eraseProgressPanelDidFinish:':
+    'prefix': 'eraseProgressPanelDidFinish:'
+    'body': 'eraseProgressPanelDidFinish(${1:NSNotification* aNotification})'
+  'eraseProgressPanelWillBegin:':
+    'prefix': 'eraseProgressPanelWillBegin:'
+    'body': 'eraseProgressPanelWillBegin(${1:NSNotification* aNotification})'
+  'setupPanel:determineBestDeviceOfA:orB:':
+    'prefix': 'setupPanel:determineBestDeviceOfA:orB:'
+    'body': 'setupPanel(${1:DRSetupPanel* aPanel}, determineBestDeviceOfA:${2:DRDevice* deviceA}, orB:${3:DRDevice* device})'
+  'setupPanel:deviceContainsSuitableMedia:promptString:':
+    'prefix': 'setupPanel:deviceContainsSuitableMedia:promptString:'
+    'body': 'setupPanel(${1:DRSetupPanel* aPanel}, deviceContainsSuitableMedia:${2:DRDevice* device}, promptString:${3:NSString** prompt})'
+  'setupPanel:deviceCouldBeTarget:':
+    'prefix': 'setupPanel:deviceCouldBeTarget:'
+    'body': 'setupPanel(${1:DRSetupPanel* aPanel}, deviceCouldBeTarget:${2:DRDevice* device})'
+  'setupPanelDeviceSelectionChanged:':
+    'prefix': 'setupPanelDeviceSelectionChanged:'
+    'body': 'setupPanelDeviceSelectionChanged(${1:NSNotification* aNotification})'
+  'setupPanelShouldHandleMediaReservations:':
+    'prefix': 'setupPanelShouldHandleMediaReservations:'
+    'body': 'setupPanelShouldHandleMediaReservations(${1:DRSetupPanel* aPanel})'

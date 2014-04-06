@@ -111,7 +111,7 @@ describe "RubyMotionAutocompleteView", ->
       it 'expands snippet after confirm autocompleted word', ->
         spyOn(editorView, 'trigger').andCallThrough()
         expect(editorView.trigger).not.toHaveBeenCalled()
-        
+
         editor.getBuffer().insert([2,0] ,"fo")
         editor.setCursorBufferPosition([2,2])
         autocomplete.attach()

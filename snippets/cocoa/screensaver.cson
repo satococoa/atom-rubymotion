@@ -1,0 +1,58 @@
+'.source.rubymotion':
+  'SSCenteredRectInRect':
+    'prefix': 'SSCenteredRectInRect'
+    'body': 'SSCenteredRectInRect(${1:NSRect innerRect}, ${2:NSRect outerRect})'
+  'SSRandomFloatBetween':
+    'prefix': 'SSRandomFloatBetween'
+    'body': 'SSRandomFloatBetween(${1:CGFloat a}, ${2:CGFloat b})'
+  'SSRandomIntBetween':
+    'prefix': 'SSRandomIntBetween'
+    'body': 'SSRandomIntBetween(${1:int a}, ${2:int b})'
+  'SSRandomPointForSizeWithinRect':
+    'prefix': 'SSRandomPointForSizeWithinRect'
+    'body': 'SSRandomPointForSizeWithinRect(${1:NSSize size}, ${2:NSRect rect})'
+  'ScreenSaverDefaults.defaultsForModuleWithName:':
+    'prefix': 'defaultsForModuleWithName:'
+    'body': 'ScreenSaverDefaults.defaultsForModuleWithName(${1:NSString* inModuleName})'
+  'animateOneFrame':
+    'prefix': 'animateOneFrame'
+    'body': 'animateOneFrame()'
+  'animationTimeInterval':
+    'prefix': 'animationTimeInterval'
+    'body': 'animationTimeInterval()'
+  'ScreenSaverView.backingStoreType':
+    'prefix': 'backingStoreType'
+    'body': 'ScreenSaverView.backingStoreType()'
+  'configureSheet':
+    'prefix': 'configureSheet'
+    'body': 'configureSheet()'
+  'drawRect:':
+    'prefix': 'drawRect:'
+    'body': 'drawRect(${1:NSRect rect})'
+  'hasConfigureSheet':
+    'prefix': 'hasConfigureSheet'
+    'body': 'hasConfigureSheet()'
+  'initWithFrame:':
+    'prefix': 'initWithFrame:'
+    'body': 'initWithFrame(${1:NSRect frame})'
+  'initWithFrame:isPreview:':
+    'prefix': 'initWithFrame:isPreview:'
+    'body': 'initWithFrame(${1:NSRect frame}, isPreview:${2:BOOL isPreview})'
+  'isAnimating':
+    'prefix': 'isAnimating'
+    'body': 'isAnimating()'
+  'isPreview':
+    'prefix': 'isPreview'
+    'body': 'isPreview()'
+  'ScreenSaverView.performGammaFade':
+    'prefix': 'performGammaFade'
+    'body': 'ScreenSaverView.performGammaFade()'
+  'setAnimationTimeInterval:':
+    'prefix': 'setAnimationTimeInterval:'
+    'body': 'setAnimationTimeInterval(${1:NSTimeInterval timeInterval})'
+  'startAnimation':
+    'prefix': 'startAnimation'
+    'body': 'startAnimation()'
+  'stopAnimation':
+    'prefix': 'stopAnimation'
+    'body': 'stopAnimation()'

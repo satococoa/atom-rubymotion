@@ -1,0 +1,70 @@
+'.source.rubymotion':
+  'kSMDomainSystemLaunchd (CFStringRef)':
+    'prefix': 'kSMDomainSystemLaunchd'
+    'body': 'KSMDomainSystemLaunchd'
+  'kSMDomainUserLaunchd (CFStringRef)':
+    'prefix': 'kSMDomainUserLaunchd'
+    'body': 'KSMDomainUserLaunchd'
+  'kSMErrorDomainFramework (CFStringRef)':
+    'prefix': 'kSMErrorDomainFramework'
+    'body': 'KSMErrorDomainFramework'
+  'kSMErrorDomainIPC (CFStringRef)':
+    'prefix': 'kSMErrorDomainIPC'
+    'body': 'KSMErrorDomainIPC'
+  'kSMErrorDomainLaunchd (CFStringRef)':
+    'prefix': 'kSMErrorDomainLaunchd'
+    'body': 'KSMErrorDomainLaunchd'
+  'kSMInfoKeyAuthorizedClients (CFStringRef)':
+    'prefix': 'kSMInfoKeyAuthorizedClients'
+    'body': 'KSMInfoKeyAuthorizedClients'
+  'kSMInfoKeyPrivilegedExecutables (CFStringRef)':
+    'prefix': 'kSMInfoKeyPrivilegedExecutables'
+    'body': 'KSMInfoKeyPrivilegedExecutables'
+  'kSMRightBlessPrivilegedHelper (com.apple.ServiceManagement.blesshelper)':
+    'prefix': 'kSMRightBlessPrivilegedHelper'
+    'body': 'KSMRightBlessPrivilegedHelper'
+  'kSMRightModifySystemDaemons (com.apple.ServiceManagement.daemons.modify)':
+    'prefix': 'kSMRightModifySystemDaemons'
+    'body': 'KSMRightModifySystemDaemons'
+  'kSMErrorAuthorizationFailure (4)':
+    'prefix': 'kSMErrorAuthorizationFailure'
+    'body': 'KSMErrorAuthorizationFailure'
+  'kSMErrorInternalFailure (2)':
+    'prefix': 'kSMErrorInternalFailure'
+    'body': 'KSMErrorInternalFailure'
+  'kSMErrorInvalidSignature (3)':
+    'prefix': 'kSMErrorInvalidSignature'
+    'body': 'KSMErrorInvalidSignature'
+  'kSMErrorJobMustBeEnabled (9)':
+    'prefix': 'kSMErrorJobMustBeEnabled'
+    'body': 'KSMErrorJobMustBeEnabled'
+  'kSMErrorJobNotFound (6)':
+    'prefix': 'kSMErrorJobNotFound'
+    'body': 'KSMErrorJobNotFound'
+  'kSMErrorJobPlistNotFound (8)':
+    'prefix': 'kSMErrorJobPlistNotFound'
+    'body': 'KSMErrorJobPlistNotFound'
+  'kSMErrorServiceUnavailable (7)':
+    'prefix': 'kSMErrorServiceUnavailable'
+    'body': 'KSMErrorServiceUnavailable'
+  'kSMErrorToolNotValid (5)':
+    'prefix': 'kSMErrorToolNotValid'
+    'body': 'KSMErrorToolNotValid'
+  'SMCopyAllJobDictionaries':
+    'prefix': 'SMCopyAllJobDictionaries'
+    'body': 'SMCopyAllJobDictionaries(${1:CFStringRef domain})'
+  'SMJobBless':
+    'prefix': 'SMJobBless'
+    'body': 'SMJobBless(${1:CFStringRef domain}, ${2:CFStringRef executableLabel}, ${3:AuthorizationRef auth}, ${4:CFErrorRef* outError})'
+  'SMJobCopyDictionary':
+    'prefix': 'SMJobCopyDictionary'
+    'body': 'SMJobCopyDictionary(${1:CFStringRef domain}, ${2:CFStringRef jobLabel})'
+  'SMJobRemove':
+    'prefix': 'SMJobRemove'
+    'body': 'SMJobRemove(${1:CFStringRef domain}, ${2:CFStringRef jobLabel}, ${3:AuthorizationRef auth}, ${4:Boolean wait}, ${5:CFErrorRef* outError})'
+  'SMJobSubmit':
+    'prefix': 'SMJobSubmit'
+    'body': 'SMJobSubmit(${1:CFStringRef domain}, ${2:CFDictionaryRef job}, ${3:AuthorizationRef auth}, ${4:CFErrorRef* outError})'
+  'SMLoginItemSetEnabled':
+    'prefix': 'SMLoginItemSetEnabled'
+    'body': 'SMLoginItemSetEnabled(${1:CFStringRef identifier}, ${2:Boolean enabled})'

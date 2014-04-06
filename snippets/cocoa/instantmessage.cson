@@ -1,0 +1,343 @@
+'.source.rubymotion':
+  'IMAVManagerStateChangedNotification (NSString*)':
+    'prefix': 'IMAVManagerStateChangedNotification'
+    'body': 'IMAVManagerStateChangedNotification'
+  'IMAVManagerURLToShareChangedNotification (NSString*)':
+    'prefix': 'IMAVManagerURLToShareChangedNotification'
+    'body': 'IMAVManagerURLToShareChangedNotification'
+  'IMCapabilityAudioConference (NSString*)':
+    'prefix': 'IMCapabilityAudioConference'
+    'body': 'IMCapabilityAudioConference'
+  'IMCapabilityDirectIM (NSString*)':
+    'prefix': 'IMCapabilityDirectIM'
+    'body': 'IMCapabilityDirectIM'
+  'IMCapabilityFileSharing (NSString*)':
+    'prefix': 'IMCapabilityFileSharing'
+    'body': 'IMCapabilityFileSharing'
+  'IMCapabilityFileTransfer (NSString*)':
+    'prefix': 'IMCapabilityFileTransfer'
+    'body': 'IMCapabilityFileTransfer'
+  'IMCapabilityText (NSString*)':
+    'prefix': 'IMCapabilityText'
+    'body': 'IMCapabilityText'
+  'IMCapabilityVideoConference (NSString*)':
+    'prefix': 'IMCapabilityVideoConference'
+    'body': 'IMCapabilityVideoConference'
+  'IMMyStatusChangedNotification (NSString*)':
+    'prefix': 'IMMyStatusChangedNotification'
+    'body': 'IMMyStatusChangedNotification'
+  'IMPersonAVBusyKey (NSString*)':
+    'prefix': 'IMPersonAVBusyKey'
+    'body': 'IMPersonAVBusyKey'
+  'IMPersonCapabilitiesKey (NSString*)':
+    'prefix': 'IMPersonCapabilitiesKey'
+    'body': 'IMPersonCapabilitiesKey'
+  'IMPersonEmailKey (NSString*)':
+    'prefix': 'IMPersonEmailKey'
+    'body': 'IMPersonEmailKey'
+  'IMPersonFirstNameKey (NSString*)':
+    'prefix': 'IMPersonFirstNameKey'
+    'body': 'IMPersonFirstNameKey'
+  'IMPersonIdleSinceKey (NSString*)':
+    'prefix': 'IMPersonIdleSinceKey'
+    'body': 'IMPersonIdleSinceKey'
+  'IMPersonInfoChangedNotification (NSString*)':
+    'prefix': 'IMPersonInfoChangedNotification'
+    'body': 'IMPersonInfoChangedNotification'
+  'IMPersonLastNameKey (NSString*)':
+    'prefix': 'IMPersonLastNameKey'
+    'body': 'IMPersonLastNameKey'
+  'IMPersonPictureDataKey (NSString*)':
+    'prefix': 'IMPersonPictureDataKey'
+    'body': 'IMPersonPictureDataKey'
+  'IMPersonScreenNameKey (NSString*)':
+    'prefix': 'IMPersonScreenNameKey'
+    'body': 'IMPersonScreenNameKey'
+  'IMPersonServiceNameKey (NSString*)':
+    'prefix': 'IMPersonServiceNameKey'
+    'body': 'IMPersonServiceNameKey'
+  'IMPersonStatusChangedNotification (NSString*)':
+    'prefix': 'IMPersonStatusChangedNotification'
+    'body': 'IMPersonStatusChangedNotification'
+  'IMPersonStatusKey (NSString*)':
+    'prefix': 'IMPersonStatusKey'
+    'body': 'IMPersonStatusKey'
+  'IMPersonStatusMessageKey (NSString*)':
+    'prefix': 'IMPersonStatusMessageKey'
+    'body': 'IMPersonStatusMessageKey'
+  'IMServiceStatusChangedNotification (NSString*)':
+    'prefix': 'IMServiceStatusChangedNotification'
+    'body': 'IMServiceStatusChangedNotification'
+  'IMStatusImagesChangedAppearanceNotification (NSString*)':
+    'prefix': 'IMStatusImagesChangedAppearanceNotification'
+    'body': 'IMStatusImagesChangedAppearanceNotification'
+  'IMAVInactive (0)':
+    'prefix': 'IMAVInactive'
+    'body': 'IMAVInactive'
+  'IMAVPending (4)':
+    'prefix': 'IMAVPending'
+    'body': 'IMAVPending'
+  'IMAVRequested (1)':
+    'prefix': 'IMAVRequested'
+    'body': 'IMAVRequested'
+  'IMAVRunning (5)':
+    'prefix': 'IMAVRunning'
+    'body': 'IMAVRunning'
+  'IMAVShuttingDown (2)':
+    'prefix': 'IMAVShuttingDown'
+    'body': 'IMAVShuttingDown'
+  'IMAVStartingUp (3)':
+    'prefix': 'IMAVStartingUp'
+    'body': 'IMAVStartingUp'
+  'IMPersonStatusAvailable (4)':
+    'prefix': 'IMPersonStatusAvailable'
+    'body': 'IMPersonStatusAvailable'
+  'IMPersonStatusAway (3)':
+    'prefix': 'IMPersonStatusAway'
+    'body': 'IMPersonStatusAway'
+  'IMPersonStatusIdle (2)':
+    'prefix': 'IMPersonStatusIdle'
+    'body': 'IMPersonStatusIdle'
+  'IMPersonStatusNoStatus (5)':
+    'prefix': 'IMPersonStatusNoStatus'
+    'body': 'IMPersonStatusNoStatus'
+  'IMPersonStatusOffline (1)':
+    'prefix': 'IMPersonStatusOffline'
+    'body': 'IMPersonStatusOffline'
+  'IMPersonStatusUnknown (0)':
+    'prefix': 'IMPersonStatusUnknown'
+    'body': 'IMPersonStatusUnknown'
+  'IMServiceStatusDisconnected (1)':
+    'prefix': 'IMServiceStatusDisconnected'
+    'body': 'IMServiceStatusDisconnected'
+  'IMServiceStatusLoggedIn (4)':
+    'prefix': 'IMServiceStatusLoggedIn'
+    'body': 'IMServiceStatusLoggedIn'
+  'IMServiceStatusLoggedOut (0)':
+    'prefix': 'IMServiceStatusLoggedOut'
+    'body': 'IMServiceStatusLoggedOut'
+  'IMServiceStatusLoggingIn (3)':
+    'prefix': 'IMServiceStatusLoggingIn'
+    'body': 'IMServiceStatusLoggingIn'
+  'IMServiceStatusLoggingOut (2)':
+    'prefix': 'IMServiceStatusLoggingOut'
+    'body': 'IMServiceStatusLoggingOut'
+  'IMVideoOptimizationDefault (0)':
+    'prefix': 'IMVideoOptimizationDefault'
+    'body': 'IMVideoOptimizationDefault'
+  'IMVideoOptimizationReplacement (2)':
+    'prefix': 'IMVideoOptimizationReplacement'
+    'body': 'IMVideoOptimizationReplacement'
+  'IMVideoOptimizationStills (1)':
+    'prefix': 'IMVideoOptimizationStills'
+    'body': 'IMVideoOptimizationStills'
+  'IMComparePersonStatus':
+    'prefix': 'IMComparePersonStatus'
+    'body': 'IMComparePersonStatus(${1:IMPersonStatus status}, ${2:IMPersonStatus compareTo})'
+  'IMAVButton.backwardButton':
+    'prefix': 'backwardButton'
+    'body': 'IMAVButton.backwardButton()'
+  'IMAVButton.forwardButton':
+    'prefix': 'forwardButton'
+    'body': 'IMAVButton.forwardButton()'
+  'IMAVButton.muteButton':
+    'prefix': 'muteButton'
+    'body': 'IMAVButton.muteButton()'
+  'IMAVButton.playPauseButton':
+    'prefix': 'playPauseButton'
+    'body': 'IMAVButton.playPauseButton()'
+  'setState:':
+    'prefix': 'setState:'
+    'body': 'setState(${1:NSInteger value})'
+  'state':
+    'prefix': 'state'
+    'body': 'state()'
+  'action':
+    'prefix': 'action'
+    'body': 'action()'
+  'doubleValue':
+    'prefix': 'doubleValue'
+    'body': 'doubleValue()'
+  'floatValue':
+    'prefix': 'floatValue'
+    'body': 'floatValue()'
+  'intValue':
+    'prefix': 'intValue'
+    'body': 'intValue()'
+  'integerValue':
+    'prefix': 'integerValue'
+    'body': 'integerValue()'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'setAction:':
+    'prefix': 'setAction:'
+    'body': 'setAction(${1:SEL aSelector})'
+  'setDoubleValue:':
+    'prefix': 'setDoubleValue:'
+    'body': 'setDoubleValue(${1:double aDouble})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL flag})'
+  'setFloatValue:':
+    'prefix': 'setFloatValue:'
+    'body': 'setFloatValue(${1:float aFloat})'
+  'setIntValue:':
+    'prefix': 'setIntValue:'
+    'body': 'setIntValue(${1:int anInt})'
+  'setIntegerValue:':
+    'prefix': 'setIntegerValue:'
+    'body': 'setIntegerValue(${1:NSInteger anInteger})'
+  'setTag:':
+    'prefix': 'setTag:'
+    'body': 'setTag(${1:NSInteger anInt})'
+  'setTarget:':
+    'prefix': 'setTarget:'
+    'body': 'setTarget(${1:id anObject})'
+  'tag':
+    'prefix': 'tag'
+    'body': 'tag()'
+  'target':
+    'prefix': 'target'
+    'body': 'target()'
+  'addControl:':
+    'prefix': 'addControl:'
+    'body': 'addControl(${1:IMAVControl* control})'
+  'controls':
+    'prefix': 'controls'
+    'body': 'controls()'
+  'removeAllControls':
+    'prefix': 'removeAllControls'
+    'body': 'removeAllControls()'
+  'removeControl:':
+    'prefix': 'removeControl:'
+    'body': 'removeControl(${1:IMAVControl* control})'
+  'URLToShare':
+    'prefix': 'URLToShare'
+    'body': 'URLToShare()'
+  'audioDeviceChannels':
+    'prefix': 'audioDeviceChannels'
+    'body': 'audioDeviceChannels()'
+  'audioDeviceUID':
+    'prefix': 'audioDeviceUID'
+    'body': 'audioDeviceUID()'
+  'controlBar':
+    'prefix': 'controlBar'
+    'body': 'controlBar()'
+  'numberOfAudioChannels':
+    'prefix': 'numberOfAudioChannels'
+    'body': 'numberOfAudioChannels()'
+  'setNumberOfAudioChannels:':
+    'prefix': 'setNumberOfAudioChannels:'
+    'body': 'setNumberOfAudioChannels(${1:NSInteger count})'
+  'setVideoDataSource:':
+    'prefix': 'setVideoDataSource:'
+    'body': 'setVideoDataSource(${1:id dataSource})'
+  'setVideoOptimizationOptions:':
+    'prefix': 'setVideoOptimizationOptions:'
+    'body': 'setVideoOptimizationOptions(${1:IMVideoOptimizationOptions options})'
+  'IMAVManager.sharedAVManager':
+    'prefix': 'sharedAVManager'
+    'body': 'IMAVManager.sharedAVManager()'
+  'start':
+    'prefix': 'start'
+    'body': 'start()'
+  'state':
+    'prefix': 'state'
+    'body': 'state()'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'videoDataSource':
+    'prefix': 'videoDataSource'
+    'body': 'videoDataSource()'
+  'videoOptimizationOptions':
+    'prefix': 'videoOptimizationOptions'
+    'body': 'videoOptimizationOptions()'
+  'maxValue':
+    'prefix': 'maxValue'
+    'body': 'maxValue()'
+  'minValue':
+    'prefix': 'minValue'
+    'body': 'minValue()'
+  'setMaxValue:':
+    'prefix': 'setMaxValue:'
+    'body': 'setMaxValue(${1:double aDouble})'
+  'setMinValue:':
+    'prefix': 'setMinValue:'
+    'body': 'setMinValue(${1:double aDouble})'
+  'IMAVSlider.timeSlider':
+    'prefix': 'timeSlider'
+    'body': 'IMAVSlider.timeSlider()'
+  'IMService.allServices':
+    'prefix': 'allServices'
+    'body': 'IMService.allServices()'
+  'IMService.imageNameForStatus:':
+    'prefix': 'imageNameForStatus:'
+    'body': 'IMService.imageNameForStatus(${1:IMPersonStatus status})'
+  'IMService.imageURLForStatus:':
+    'prefix': 'imageURLForStatus:'
+    'body': 'IMService.imageURLForStatus(${1:IMPersonStatus status})'
+  'infoForAllScreenNames':
+    'prefix': 'infoForAllScreenNames'
+    'body': 'infoForAllScreenNames()'
+  'infoForPreferredScreenNames':
+    'prefix': 'infoForPreferredScreenNames'
+    'body': 'infoForPreferredScreenNames()'
+  'infoForScreenName:':
+    'prefix': 'infoForScreenName:'
+    'body': 'infoForScreenName(${1:NSString* screenName})'
+  'localizedName':
+    'prefix': 'localizedName'
+    'body': 'localizedName()'
+  'localizedShortName':
+    'prefix': 'localizedShortName'
+    'body': 'localizedShortName()'
+  'IMService.myIdleTime':
+    'prefix': 'myIdleTime'
+    'body': 'IMService.myIdleTime()'
+  'IMService.myStatus':
+    'prefix': 'myStatus'
+    'body': 'IMService.myStatus()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'IMService.notificationCenter':
+    'prefix': 'notificationCenter'
+    'body': 'IMService.notificationCenter()'
+  'peopleWithScreenName:':
+    'prefix': 'peopleWithScreenName:'
+    'body': 'peopleWithScreenName(${1:NSString* screenName})'
+  'screenNamesForPerson:':
+    'prefix': 'screenNamesForPerson:'
+    'body': 'screenNamesForPerson(${1:ABPerson* person})'
+  'IMService.serviceWithName:':
+    'prefix': 'serviceWithName:'
+    'body': 'IMService.serviceWithName(${1:NSString* name})'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'getOpenGLBufferContext:pixelFormat:':
+    'prefix': 'getOpenGLBufferContext:pixelFormat:'
+    'body': 'getOpenGLBufferContext(${1:CGLContextObj* contextOut}, pixelFormat:${2:CGLPixelFormatObj* pixelFormatOut})'
+  'getPixelBufferPixelFormat:':
+    'prefix': 'getPixelBufferPixelFormat:'
+    'body': 'getPixelBufferPixelFormat(${1:OSType* pixelFormatOut})'
+  'renderIntoOpenGLBuffer:onScreen:forTime:':
+    'prefix': 'renderIntoOpenGLBuffer:onScreen:forTime:'
+    'body': 'renderIntoOpenGLBuffer(${1:CVOpenGLBufferRef buffer}, onScreen:${2:int* screenInOut}, forTime:${3:CVTimeStamp* timeStamp})'
+  'renderIntoPixelBuffer:forTime:':
+    'prefix': 'renderIntoPixelBuffer:forTime:'
+    'body': 'renderIntoPixelBuffer(${1:CVPixelBufferRef buffer}, forTime:${2:CVTimeStamp* timeStamp})'
+  'getOpenGLBufferContext:pixelFormat:':
+    'prefix': 'getOpenGLBufferContext:pixelFormat:'
+    'body': 'getOpenGLBufferContext(${1:CGLContextObj* contextOut}, pixelFormat:${2:CGLPixelFormatObj* pixelFormatOut})'
+  'getPixelBufferPixelFormat:':
+    'prefix': 'getPixelBufferPixelFormat:'
+    'body': 'getPixelBufferPixelFormat(${1:OSType* pixelFormatOut})'
+  'renderIntoOpenGLBuffer:onScreen:forTime:':
+    'prefix': 'renderIntoOpenGLBuffer:onScreen:forTime:'
+    'body': 'renderIntoOpenGLBuffer(${1:CVOpenGLBufferRef buffer}, onScreen:${2:int* screenInOut}, forTime:${3:CVTimeStamp* timeStamp})'
+  'renderIntoPixelBuffer:forTime:':
+    'prefix': 'renderIntoPixelBuffer:forTime:'
+    'body': 'renderIntoPixelBuffer(${1:CVPixelBufferRef buffer}, forTime:${2:CVTimeStamp* timeStamp})'

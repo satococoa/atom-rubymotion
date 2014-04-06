@@ -1,0 +1,109 @@
+'.source.rubymotion':
+  'eventDidFail:withError:':
+    'prefix': 'eventDidFail:withError:'
+    'body': 'eventDidFail(${1:AppleEvent* event}, withError:${2:NSError* error})'
+  'activate':
+    'prefix': 'activate'
+    'body': 'activate()'
+  'SBApplication.applicationWithBundleIdentifier:':
+    'prefix': 'applicationWithBundleIdentifier:'
+    'body': 'SBApplication.applicationWithBundleIdentifier(${1:NSString* ident})'
+  'SBApplication.applicationWithProcessIdentifier:':
+    'prefix': 'applicationWithProcessIdentifier:'
+    'body': 'SBApplication.applicationWithProcessIdentifier(${1:pid_t pid})'
+  'SBApplication.applicationWithURL:':
+    'prefix': 'applicationWithURL:'
+    'body': 'SBApplication.applicationWithURL(${1:NSURL* url})'
+  'classForScriptingClass:':
+    'prefix': 'classForScriptingClass:'
+    'body': 'classForScriptingClass(${1:NSString* className})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'initWithBundleIdentifier:':
+    'prefix': 'initWithBundleIdentifier:'
+    'body': 'initWithBundleIdentifier(${1:NSString* ident})'
+  'initWithProcessIdentifier:':
+    'prefix': 'initWithProcessIdentifier:'
+    'body': 'initWithProcessIdentifier(${1:pid_t pid})'
+  'initWithURL:':
+    'prefix': 'initWithURL:'
+    'body': 'initWithURL(${1:NSURL* url})'
+  'isRunning':
+    'prefix': 'isRunning'
+    'body': 'isRunning()'
+  'launchFlags':
+    'prefix': 'launchFlags'
+    'body': 'launchFlags()'
+  'sendMode':
+    'prefix': 'sendMode'
+    'body': 'sendMode()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setLaunchFlags:':
+    'prefix': 'setLaunchFlags:'
+    'body': 'setLaunchFlags(${1:LSLaunchFlags flags})'
+  'setSendMode:':
+    'prefix': 'setSendMode:'
+    'body': 'setSendMode(${1:AESendMode sendMode})'
+  'setTimeout:':
+    'prefix': 'setTimeout:'
+    'body': 'setTimeout(${1:long timeout})'
+  'timeout':
+    'prefix': 'timeout'
+    'body': 'timeout()'
+  'arrayByApplyingSelector:':
+    'prefix': 'arrayByApplyingSelector:'
+    'body': 'arrayByApplyingSelector(${1:SEL selector})'
+  'arrayByApplyingSelector:withObject:':
+    'prefix': 'arrayByApplyingSelector:withObject:'
+    'body': 'arrayByApplyingSelector(${1:SEL aSelector}, withObject:${2:id argument})'
+  'get':
+    'prefix': 'get'
+    'body': 'get()'
+  'objectAtLocation:':
+    'prefix': 'objectAtLocation:'
+    'body': 'objectAtLocation(${1:id location})'
+  'objectWithID:':
+    'prefix': 'objectWithID:'
+    'body': 'objectWithID(${1:id identifier})'
+  'objectWithName:':
+    'prefix': 'objectWithName:'
+    'body': 'objectWithName(${1:NSString* name})'
+  'elementArrayWithCode:':
+    'prefix': 'elementArrayWithCode:'
+    'body': 'elementArrayWithCode(${1:DescType code})'
+  'get':
+    'prefix': 'get'
+    'body': 'get()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'initWithData:':
+    'prefix': 'initWithData:'
+    'body': 'initWithData(${1:id data})'
+  'initWithElementCode:properties:data:':
+    'prefix': 'initWithElementCode:properties:data:'
+    'body': 'initWithElementCode(${1:DescType code}, properties:${2:NSDictionary* properties}, data:${3:id data})'
+  'initWithProperties:':
+    'prefix': 'initWithProperties:'
+    'body': 'initWithProperties(${1:NSDictionary* properties})'
+  'lastError':
+    'prefix': 'lastError'
+    'body': 'lastError()'
+  'propertyWithClass:code:':
+    'prefix': 'propertyWithClass:code:'
+    'body': 'propertyWithClass(${1:Class cls}, code:${2:AEKeyword code})'
+  'propertyWithCode:':
+    'prefix': 'propertyWithCode:'
+    'body': 'propertyWithCode(${1:AEKeyword code})'
+  'sendEvent:id:parameters:':
+    'prefix': 'sendEvent:id:parameters:'
+    'body': 'sendEvent(${1:AEEventClass eventClass}, id:${2:AEEventID eventID}, parameters:${3:DescType firstParamCode})'
+  'setTo:':
+    'prefix': 'setTo:'
+    'body': 'setTo(${1:id value})'
+  'eventDidFail:withError:':
+    'prefix': 'eventDidFail:withError:'
+    'body': 'eventDidFail(${1:AppleEvent* event}, withError:${2:NSError* error})'

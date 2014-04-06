@@ -1,0 +1,3319 @@
+'.source.rubymotion':
+  'CGAffineTransformIdentity (CGAffineTransform)':
+    'prefix': 'CGAffineTransformIdentity'
+    'body': 'CGAffineTransformIdentity'
+  'CGPointZero (CGPoint)':
+    'prefix': 'CGPointZero'
+    'body': 'CGPointZero'
+  'CGRectInfinite (CGRect)':
+    'prefix': 'CGRectInfinite'
+    'body': 'CGRectInfinite'
+  'CGRectNull (CGRect)':
+    'prefix': 'CGRectNull'
+    'body': 'CGRectNull'
+  'CGRectZero (CGRect)':
+    'prefix': 'CGRectZero'
+    'body': 'CGRectZero'
+  'CGSizeZero (CGSize)':
+    'prefix': 'CGSizeZero'
+    'body': 'CGSizeZero'
+  'kCGColorBlack (CFStringRef)':
+    'prefix': 'kCGColorBlack'
+    'body': 'KCGColorBlack'
+  'kCGColorClear (CFStringRef)':
+    'prefix': 'kCGColorClear'
+    'body': 'KCGColorClear'
+  'kCGColorSpaceAdobeRGB1998 (CFStringRef)':
+    'prefix': 'kCGColorSpaceAdobeRGB1998'
+    'body': 'KCGColorSpaceAdobeRGB1998'
+  'kCGColorSpaceGenericCMYK (CFStringRef)':
+    'prefix': 'kCGColorSpaceGenericCMYK'
+    'body': 'KCGColorSpaceGenericCMYK'
+  'kCGColorSpaceGenericGray (CFStringRef)':
+    'prefix': 'kCGColorSpaceGenericGray'
+    'body': 'KCGColorSpaceGenericGray'
+  'kCGColorSpaceGenericGrayGamma2_2 (CFStringRef)':
+    'prefix': 'kCGColorSpaceGenericGrayGamma2_2'
+    'body': 'KCGColorSpaceGenericGrayGamma2_2'
+  'kCGColorSpaceGenericRGB (CFStringRef)':
+    'prefix': 'kCGColorSpaceGenericRGB'
+    'body': 'KCGColorSpaceGenericRGB'
+  'kCGColorSpaceGenericRGBLinear (CFStringRef)':
+    'prefix': 'kCGColorSpaceGenericRGBLinear'
+    'body': 'KCGColorSpaceGenericRGBLinear'
+  'kCGColorSpaceSRGB (CFStringRef)':
+    'prefix': 'kCGColorSpaceSRGB'
+    'body': 'KCGColorSpaceSRGB'
+  'kCGColorWhite (CFStringRef)':
+    'prefix': 'kCGColorWhite'
+    'body': 'KCGColorWhite'
+  'kCGDisplayShowDuplicateLowResolutionModes (CFStringRef)':
+    'prefix': 'kCGDisplayShowDuplicateLowResolutionModes'
+    'body': 'KCGDisplayShowDuplicateLowResolutionModes'
+  'kCGDisplayStreamColorSpace (CFStringRef)':
+    'prefix': 'kCGDisplayStreamColorSpace'
+    'body': 'KCGDisplayStreamColorSpace'
+  'kCGDisplayStreamDestinationRect (CFStringRef)':
+    'prefix': 'kCGDisplayStreamDestinationRect'
+    'body': 'KCGDisplayStreamDestinationRect'
+  'kCGDisplayStreamMinimumFrameTime (CFStringRef)':
+    'prefix': 'kCGDisplayStreamMinimumFrameTime'
+    'body': 'KCGDisplayStreamMinimumFrameTime'
+  'kCGDisplayStreamPreserveAspectRatio (CFStringRef)':
+    'prefix': 'kCGDisplayStreamPreserveAspectRatio'
+    'body': 'KCGDisplayStreamPreserveAspectRatio'
+  'kCGDisplayStreamQueueDepth (CFStringRef)':
+    'prefix': 'kCGDisplayStreamQueueDepth'
+    'body': 'KCGDisplayStreamQueueDepth'
+  'kCGDisplayStreamShowCursor (CFStringRef)':
+    'prefix': 'kCGDisplayStreamShowCursor'
+    'body': 'KCGDisplayStreamShowCursor'
+  'kCGDisplayStreamSourceRect (CFStringRef)':
+    'prefix': 'kCGDisplayStreamSourceRect'
+    'body': 'KCGDisplayStreamSourceRect'
+  'kCGDisplayStreamYCbCrMatrix (CFStringRef)':
+    'prefix': 'kCGDisplayStreamYCbCrMatrix'
+    'body': 'KCGDisplayStreamYCbCrMatrix'
+  'kCGDisplayStreamYCbCrMatrix_ITU_R_601_4 (CFStringRef)':
+    'prefix': 'kCGDisplayStreamYCbCrMatrix_ITU_R_601_4'
+    'body': 'KCGDisplayStreamYCbCrMatrix_ITU_R_601_4'
+  'kCGDisplayStreamYCbCrMatrix_ITU_R_709_2 (CFStringRef)':
+    'prefix': 'kCGDisplayStreamYCbCrMatrix_ITU_R_709_2'
+    'body': 'KCGDisplayStreamYCbCrMatrix_ITU_R_709_2'
+  'kCGDisplayStreamYCbCrMatrix_SMPTE_240M_1995 (CFStringRef)':
+    'prefix': 'kCGDisplayStreamYCbCrMatrix_SMPTE_240M_1995'
+    'body': 'KCGDisplayStreamYCbCrMatrix_SMPTE_240M_1995'
+  'kCGFontVariationAxisDefaultValue (CFStringRef)':
+    'prefix': 'kCGFontVariationAxisDefaultValue'
+    'body': 'KCGFontVariationAxisDefaultValue'
+  'kCGFontVariationAxisMaxValue (CFStringRef)':
+    'prefix': 'kCGFontVariationAxisMaxValue'
+    'body': 'KCGFontVariationAxisMaxValue'
+  'kCGFontVariationAxisMinValue (CFStringRef)':
+    'prefix': 'kCGFontVariationAxisMinValue'
+    'body': 'KCGFontVariationAxisMinValue'
+  'kCGFontVariationAxisName (CFStringRef)':
+    'prefix': 'kCGFontVariationAxisName'
+    'body': 'KCGFontVariationAxisName'
+  'kCGPDFContextAllowsCopying (CFStringRef)':
+    'prefix': 'kCGPDFContextAllowsCopying'
+    'body': 'KCGPDFContextAllowsCopying'
+  'kCGPDFContextAllowsPrinting (CFStringRef)':
+    'prefix': 'kCGPDFContextAllowsPrinting'
+    'body': 'KCGPDFContextAllowsPrinting'
+  'kCGPDFContextArtBox (CFStringRef)':
+    'prefix': 'kCGPDFContextArtBox'
+    'body': 'KCGPDFContextArtBox'
+  'kCGPDFContextAuthor (CFStringRef)':
+    'prefix': 'kCGPDFContextAuthor'
+    'body': 'KCGPDFContextAuthor'
+  'kCGPDFContextBleedBox (CFStringRef)':
+    'prefix': 'kCGPDFContextBleedBox'
+    'body': 'KCGPDFContextBleedBox'
+  'kCGPDFContextCreator (CFStringRef)':
+    'prefix': 'kCGPDFContextCreator'
+    'body': 'KCGPDFContextCreator'
+  'kCGPDFContextCropBox (CFStringRef)':
+    'prefix': 'kCGPDFContextCropBox'
+    'body': 'KCGPDFContextCropBox'
+  'kCGPDFContextEncryptionKeyLength (CFStringRef)':
+    'prefix': 'kCGPDFContextEncryptionKeyLength'
+    'body': 'KCGPDFContextEncryptionKeyLength'
+  'kCGPDFContextKeywords (CFStringRef)':
+    'prefix': 'kCGPDFContextKeywords'
+    'body': 'KCGPDFContextKeywords'
+  'kCGPDFContextMediaBox (CFStringRef)':
+    'prefix': 'kCGPDFContextMediaBox'
+    'body': 'KCGPDFContextMediaBox'
+  'kCGPDFContextOutputIntent (CFStringRef)':
+    'prefix': 'kCGPDFContextOutputIntent'
+    'body': 'KCGPDFContextOutputIntent'
+  'kCGPDFContextOutputIntents (CFStringRef)':
+    'prefix': 'kCGPDFContextOutputIntents'
+    'body': 'KCGPDFContextOutputIntents'
+  'kCGPDFContextOwnerPassword (CFStringRef)':
+    'prefix': 'kCGPDFContextOwnerPassword'
+    'body': 'KCGPDFContextOwnerPassword'
+  'kCGPDFContextSubject (CFStringRef)':
+    'prefix': 'kCGPDFContextSubject'
+    'body': 'KCGPDFContextSubject'
+  'kCGPDFContextTitle (CFStringRef)':
+    'prefix': 'kCGPDFContextTitle'
+    'body': 'KCGPDFContextTitle'
+  'kCGPDFContextTrimBox (CFStringRef)':
+    'prefix': 'kCGPDFContextTrimBox'
+    'body': 'KCGPDFContextTrimBox'
+  'kCGPDFContextUserPassword (CFStringRef)':
+    'prefix': 'kCGPDFContextUserPassword'
+    'body': 'KCGPDFContextUserPassword'
+  'kCGPDFXDestinationOutputProfile (CFStringRef)':
+    'prefix': 'kCGPDFXDestinationOutputProfile'
+    'body': 'KCGPDFXDestinationOutputProfile'
+  'kCGPDFXInfo (CFStringRef)':
+    'prefix': 'kCGPDFXInfo'
+    'body': 'KCGPDFXInfo'
+  'kCGPDFXOutputCondition (CFStringRef)':
+    'prefix': 'kCGPDFXOutputCondition'
+    'body': 'KCGPDFXOutputCondition'
+  'kCGPDFXOutputConditionIdentifier (CFStringRef)':
+    'prefix': 'kCGPDFXOutputConditionIdentifier'
+    'body': 'KCGPDFXOutputConditionIdentifier'
+  'kCGPDFXOutputIntentSubtype (CFStringRef)':
+    'prefix': 'kCGPDFXOutputIntentSubtype'
+    'body': 'KCGPDFXOutputIntentSubtype'
+  'kCGPDFXRegistryName (CFStringRef)':
+    'prefix': 'kCGPDFXRegistryName'
+    'body': 'KCGPDFXRegistryName'
+  'kCGWindowAlpha (CFStringRef)':
+    'prefix': 'kCGWindowAlpha'
+    'body': 'KCGWindowAlpha'
+  'kCGWindowBackingLocationVideoMemory (CFStringRef)':
+    'prefix': 'kCGWindowBackingLocationVideoMemory'
+    'body': 'KCGWindowBackingLocationVideoMemory'
+  'kCGWindowBounds (CFStringRef)':
+    'prefix': 'kCGWindowBounds'
+    'body': 'KCGWindowBounds'
+  'kCGWindowIsOnscreen (CFStringRef)':
+    'prefix': 'kCGWindowIsOnscreen'
+    'body': 'KCGWindowIsOnscreen'
+  'kCGWindowLayer (CFStringRef)':
+    'prefix': 'kCGWindowLayer'
+    'body': 'KCGWindowLayer'
+  'kCGWindowMemoryUsage (CFStringRef)':
+    'prefix': 'kCGWindowMemoryUsage'
+    'body': 'KCGWindowMemoryUsage'
+  'kCGWindowName (CFStringRef)':
+    'prefix': 'kCGWindowName'
+    'body': 'KCGWindowName'
+  'kCGWindowNumber (CFStringRef)':
+    'prefix': 'kCGWindowNumber'
+    'body': 'KCGWindowNumber'
+  'kCGWindowOwnerName (CFStringRef)':
+    'prefix': 'kCGWindowOwnerName'
+    'body': 'KCGWindowOwnerName'
+  'kCGWindowOwnerPID (CFStringRef)':
+    'prefix': 'kCGWindowOwnerPID'
+    'body': 'KCGWindowOwnerPID'
+  'kCGWindowSharingState (CFStringRef)':
+    'prefix': 'kCGWindowSharingState'
+    'body': 'KCGWindowSharingState'
+  'kCGWindowStoreType (CFStringRef)':
+    'prefix': 'kCGWindowStoreType'
+    'body': 'KCGWindowStoreType'
+  'kCGWindowWorkspace (CFStringRef)':
+    'prefix': 'kCGWindowWorkspace'
+    'body': 'KCGWindowWorkspace'
+  'kCGDisplayBitsPerPixel (BitsPerPixel)':
+    'prefix': 'kCGDisplayBitsPerPixel'
+    'body': 'KCGDisplayBitsPerPixel'
+  'kCGDisplayBitsPerSample (BitsPerSample)':
+    'prefix': 'kCGDisplayBitsPerSample'
+    'body': 'KCGDisplayBitsPerSample'
+  'kCGDisplayBytesPerRow (kCGDisplayBytesPerRow)':
+    'prefix': 'kCGDisplayBytesPerRow'
+    'body': 'KCGDisplayBytesPerRow'
+  'kCGDisplayHeight (Height)':
+    'prefix': 'kCGDisplayHeight'
+    'body': 'KCGDisplayHeight'
+  'kCGDisplayIOFlags (IOFlags)':
+    'prefix': 'kCGDisplayIOFlags'
+    'body': 'KCGDisplayIOFlags'
+  'kCGDisplayMode (Mode)':
+    'prefix': 'kCGDisplayMode'
+    'body': 'KCGDisplayMode'
+  'kCGDisplayModeIsInterlaced (kCGDisplayModeIsInterlaced)':
+    'prefix': 'kCGDisplayModeIsInterlaced'
+    'body': 'KCGDisplayModeIsInterlaced'
+  'kCGDisplayModeIsSafeForHardware (kCGDisplayModeIsSafeForHardware)':
+    'prefix': 'kCGDisplayModeIsSafeForHardware'
+    'body': 'KCGDisplayModeIsSafeForHardware'
+  'kCGDisplayModeIsStretched (kCGDisplayModeIsStretched)':
+    'prefix': 'kCGDisplayModeIsStretched'
+    'body': 'KCGDisplayModeIsStretched'
+  'kCGDisplayModeIsTelevisionOutput (kCGDisplayModeIsTelevisionOutput)':
+    'prefix': 'kCGDisplayModeIsTelevisionOutput'
+    'body': 'KCGDisplayModeIsTelevisionOutput'
+  'kCGDisplayModeUsableForDesktopGUI (UsableForDesktopGUI)':
+    'prefix': 'kCGDisplayModeUsableForDesktopGUI'
+    'body': 'KCGDisplayModeUsableForDesktopGUI'
+  'kCGDisplayRefreshRate (RefreshRate)':
+    'prefix': 'kCGDisplayRefreshRate'
+    'body': 'KCGDisplayRefreshRate'
+  'kCGDisplaySamplesPerPixel (SamplesPerPixel)':
+    'prefix': 'kCGDisplaySamplesPerPixel'
+    'body': 'KCGDisplaySamplesPerPixel'
+  'kCGDisplayWidth (Width)':
+    'prefix': 'kCGDisplayWidth'
+    'body': 'KCGDisplayWidth'
+  'kCGIODisplayModeID (IODisplayModeID)':
+    'prefix': 'kCGIODisplayModeID'
+    'body': 'KCGIODisplayModeID'
+  'kCGNotifyEventTapAdded (com.apple.coregraphics.eventTapAdded)':
+    'prefix': 'kCGNotifyEventTapAdded'
+    'body': 'KCGNotifyEventTapAdded'
+  'kCGNotifyEventTapRemoved (com.apple.coregraphics.eventTapRemoved)':
+    'prefix': 'kCGNotifyEventTapRemoved'
+    'body': 'KCGNotifyEventTapRemoved'
+  'kCGNotifyGUIConsoleSessionChanged (com.apple.coregraphics.GUIConsoleSessionChanged)':
+    'prefix': 'kCGNotifyGUIConsoleSessionChanged'
+    'body': 'KCGNotifyGUIConsoleSessionChanged'
+  'kCGNotifyGUISessionUserChanged (com.apple.coregraphics.GUISessionUserChanged)':
+    'prefix': 'kCGNotifyGUISessionUserChanged'
+    'body': 'KCGNotifyGUISessionUserChanged'
+  'kCGSessionConsoleSetKey (kCGSSessionConsoleSetKey)':
+    'prefix': 'kCGSessionConsoleSetKey'
+    'body': 'KCGSessionConsoleSetKey'
+  'kCGSessionLoginDoneKey (kCGSessionLoginDoneKey)':
+    'prefix': 'kCGSessionLoginDoneKey'
+    'body': 'KCGSessionLoginDoneKey'
+  'kCGSessionOnConsoleKey (kCGSSessionOnConsoleKey)':
+    'prefix': 'kCGSessionOnConsoleKey'
+    'body': 'KCGSessionOnConsoleKey'
+  'kCGSessionUserIDKey (kCGSSessionUserIDKey)':
+    'prefix': 'kCGSessionUserIDKey'
+    'body': 'KCGSessionUserIDKey'
+  'kCGSessionUserNameKey (kCGSSessionUserNameKey)':
+    'prefix': 'kCGSessionUserNameKey'
+    'body': 'KCGSessionUserNameKey'
+  'CGDisplayNoErr (0)':
+    'prefix': 'CGDisplayNoErr'
+    'body': 'CGDisplayNoErr'
+  'CGEventNoErr (0)':
+    'prefix': 'CGEventNoErr'
+    'body': 'CGEventNoErr'
+  'CGFLOAT_DEFINED (1)':
+    'prefix': 'CGFLOAT_DEFINED'
+    'body': 'CGFLOAT_DEFINED'
+  'CGFLOAT_IS_DOUBLE (0)':
+    'prefix': 'CGFLOAT_IS_DOUBLE'
+    'body': 'CGFLOAT_IS_DOUBLE'
+  'CGFLOAT_MAX (3.4028235E+38)':
+    'prefix': 'CGFLOAT_MAX'
+    'body': 'CGFLOAT_MAX'
+  'CGFLOAT_MIN (1.1754944E-38)':
+    'prefix': 'CGFLOAT_MIN'
+    'body': 'CGFLOAT_MIN'
+  'CGGlyphMax (1)':
+    'prefix': 'CGGlyphMax'
+    'body': 'CGGlyphMax'
+  'CGGlyphMin (0)':
+    'prefix': 'CGGlyphMin'
+    'body': 'CGGlyphMin'
+  'CGPDFDataFormatJPEG2000 (2)':
+    'prefix': 'CGPDFDataFormatJPEG2000'
+    'body': 'CGPDFDataFormatJPEG2000'
+  'CGPDFDataFormatJPEGEncoded (1)':
+    'prefix': 'CGPDFDataFormatJPEGEncoded'
+    'body': 'CGPDFDataFormatJPEGEncoded'
+  'CGPDFDataFormatRaw (0)':
+    'prefix': 'CGPDFDataFormatRaw'
+    'body': 'CGPDFDataFormatRaw'
+  'CGRectMaxXEdge (2)':
+    'prefix': 'CGRectMaxXEdge'
+    'body': 'CGRectMaxXEdge'
+  'CGRectMaxYEdge (3)':
+    'prefix': 'CGRectMaxYEdge'
+    'body': 'CGRectMaxYEdge'
+  'CGRectMinXEdge (0)':
+    'prefix': 'CGRectMinXEdge'
+    'body': 'CGRectMinXEdge'
+  'CGRectMinYEdge (1)':
+    'prefix': 'CGRectMinYEdge'
+    'body': 'CGRectMinYEdge'
+  'CGVECTOR_DEFINED (1)':
+    'prefix': 'CGVECTOR_DEFINED'
+    'body': 'CGVECTOR_DEFINED'
+  'kCGAnnotatedSessionEventTap (2)':
+    'prefix': 'kCGAnnotatedSessionEventTap'
+    'body': 'KCGAnnotatedSessionEventTap'
+  'kCGAnyInputEventType (4294967295)':
+    'prefix': 'kCGAnyInputEventType'
+    'body': 'KCGAnyInputEventType'
+  'kCGAssistiveTechHighWindowLevel (1500)':
+    'prefix': 'kCGAssistiveTechHighWindowLevel'
+    'body': 'KCGAssistiveTechHighWindowLevel'
+  'kCGAssistiveTechHighWindowLevelKey (20)':
+    'prefix': 'kCGAssistiveTechHighWindowLevelKey'
+    'body': 'KCGAssistiveTechHighWindowLevelKey'
+  'kCGBackingStoreBuffered (2)':
+    'prefix': 'kCGBackingStoreBuffered'
+    'body': 'KCGBackingStoreBuffered'
+  'kCGBackingStoreNonretained (1)':
+    'prefix': 'kCGBackingStoreNonretained'
+    'body': 'KCGBackingStoreNonretained'
+  'kCGBackingStoreRetained (0)':
+    'prefix': 'kCGBackingStoreRetained'
+    'body': 'KCGBackingStoreRetained'
+  'kCGBackstopMenuLevel (-20)':
+    'prefix': 'kCGBackstopMenuLevel'
+    'body': 'KCGBackstopMenuLevel'
+  'kCGBackstopMenuLevelKey (3)':
+    'prefix': 'kCGBackstopMenuLevelKey'
+    'body': 'KCGBackstopMenuLevelKey'
+  'kCGBaseWindowLevel (-2147483648)':
+    'prefix': 'kCGBaseWindowLevel'
+    'body': 'KCGBaseWindowLevel'
+  'kCGBaseWindowLevelKey (0)':
+    'prefix': 'kCGBaseWindowLevelKey'
+    'body': 'KCGBaseWindowLevelKey'
+  'kCGBitmapAlphaInfoMask (31)':
+    'prefix': 'kCGBitmapAlphaInfoMask'
+    'body': 'KCGBitmapAlphaInfoMask'
+  'kCGBitmapByteOrder16Big (12288)':
+    'prefix': 'kCGBitmapByteOrder16Big'
+    'body': 'KCGBitmapByteOrder16Big'
+  'kCGBitmapByteOrder16Host (4096)':
+    'prefix': 'kCGBitmapByteOrder16Host'
+    'body': 'KCGBitmapByteOrder16Host'
+  'kCGBitmapByteOrder16Little (4096)':
+    'prefix': 'kCGBitmapByteOrder16Little'
+    'body': 'KCGBitmapByteOrder16Little'
+  'kCGBitmapByteOrder32Big (16384)':
+    'prefix': 'kCGBitmapByteOrder32Big'
+    'body': 'KCGBitmapByteOrder32Big'
+  'kCGBitmapByteOrder32Host (8192)':
+    'prefix': 'kCGBitmapByteOrder32Host'
+    'body': 'KCGBitmapByteOrder32Host'
+  'kCGBitmapByteOrder32Little (8192)':
+    'prefix': 'kCGBitmapByteOrder32Little'
+    'body': 'KCGBitmapByteOrder32Little'
+  'kCGBitmapByteOrderDefault (0)':
+    'prefix': 'kCGBitmapByteOrderDefault'
+    'body': 'KCGBitmapByteOrderDefault'
+  'kCGBitmapByteOrderMask (28672)':
+    'prefix': 'kCGBitmapByteOrderMask'
+    'body': 'KCGBitmapByteOrderMask'
+  'kCGBitmapFloatComponents (256)':
+    'prefix': 'kCGBitmapFloatComponents'
+    'body': 'KCGBitmapFloatComponents'
+  'kCGBlendModeClear (16)':
+    'prefix': 'kCGBlendModeClear'
+    'body': 'KCGBlendModeClear'
+  'kCGBlendModeColor (14)':
+    'prefix': 'kCGBlendModeColor'
+    'body': 'KCGBlendModeColor'
+  'kCGBlendModeColorBurn (7)':
+    'prefix': 'kCGBlendModeColorBurn'
+    'body': 'KCGBlendModeColorBurn'
+  'kCGBlendModeColorDodge (6)':
+    'prefix': 'kCGBlendModeColorDodge'
+    'body': 'KCGBlendModeColorDodge'
+  'kCGBlendModeCopy (17)':
+    'prefix': 'kCGBlendModeCopy'
+    'body': 'KCGBlendModeCopy'
+  'kCGBlendModeDarken (4)':
+    'prefix': 'kCGBlendModeDarken'
+    'body': 'KCGBlendModeDarken'
+  'kCGBlendModeDestinationAtop (24)':
+    'prefix': 'kCGBlendModeDestinationAtop'
+    'body': 'KCGBlendModeDestinationAtop'
+  'kCGBlendModeDestinationIn (22)':
+    'prefix': 'kCGBlendModeDestinationIn'
+    'body': 'KCGBlendModeDestinationIn'
+  'kCGBlendModeDestinationOut (23)':
+    'prefix': 'kCGBlendModeDestinationOut'
+    'body': 'KCGBlendModeDestinationOut'
+  'kCGBlendModeDestinationOver (21)':
+    'prefix': 'kCGBlendModeDestinationOver'
+    'body': 'KCGBlendModeDestinationOver'
+  'kCGBlendModeDifference (10)':
+    'prefix': 'kCGBlendModeDifference'
+    'body': 'KCGBlendModeDifference'
+  'kCGBlendModeExclusion (11)':
+    'prefix': 'kCGBlendModeExclusion'
+    'body': 'KCGBlendModeExclusion'
+  'kCGBlendModeHardLight (9)':
+    'prefix': 'kCGBlendModeHardLight'
+    'body': 'KCGBlendModeHardLight'
+  'kCGBlendModeHue (12)':
+    'prefix': 'kCGBlendModeHue'
+    'body': 'KCGBlendModeHue'
+  'kCGBlendModeLighten (5)':
+    'prefix': 'kCGBlendModeLighten'
+    'body': 'KCGBlendModeLighten'
+  'kCGBlendModeLuminosity (15)':
+    'prefix': 'kCGBlendModeLuminosity'
+    'body': 'KCGBlendModeLuminosity'
+  'kCGBlendModeMultiply (1)':
+    'prefix': 'kCGBlendModeMultiply'
+    'body': 'KCGBlendModeMultiply'
+  'kCGBlendModeNormal (0)':
+    'prefix': 'kCGBlendModeNormal'
+    'body': 'KCGBlendModeNormal'
+  'kCGBlendModeOverlay (3)':
+    'prefix': 'kCGBlendModeOverlay'
+    'body': 'KCGBlendModeOverlay'
+  'kCGBlendModePlusDarker (26)':
+    'prefix': 'kCGBlendModePlusDarker'
+    'body': 'KCGBlendModePlusDarker'
+  'kCGBlendModePlusLighter (27)':
+    'prefix': 'kCGBlendModePlusLighter'
+    'body': 'KCGBlendModePlusLighter'
+  'kCGBlendModeSaturation (13)':
+    'prefix': 'kCGBlendModeSaturation'
+    'body': 'KCGBlendModeSaturation'
+  'kCGBlendModeScreen (2)':
+    'prefix': 'kCGBlendModeScreen'
+    'body': 'KCGBlendModeScreen'
+  'kCGBlendModeSoftLight (8)':
+    'prefix': 'kCGBlendModeSoftLight'
+    'body': 'KCGBlendModeSoftLight'
+  'kCGBlendModeSourceAtop (20)':
+    'prefix': 'kCGBlendModeSourceAtop'
+    'body': 'KCGBlendModeSourceAtop'
+  'kCGBlendModeSourceIn (18)':
+    'prefix': 'kCGBlendModeSourceIn'
+    'body': 'KCGBlendModeSourceIn'
+  'kCGBlendModeSourceOut (19)':
+    'prefix': 'kCGBlendModeSourceOut'
+    'body': 'KCGBlendModeSourceOut'
+  'kCGBlendModeXOR (25)':
+    'prefix': 'kCGBlendModeXOR'
+    'body': 'KCGBlendModeXOR'
+  'kCGCaptureNoFill (1)':
+    'prefix': 'kCGCaptureNoFill'
+    'body': 'KCGCaptureNoFill'
+  'kCGCaptureNoOptions (0)':
+    'prefix': 'kCGCaptureNoOptions'
+    'body': 'KCGCaptureNoOptions'
+  'kCGColorSpaceModelCMYK (2)':
+    'prefix': 'kCGColorSpaceModelCMYK'
+    'body': 'KCGColorSpaceModelCMYK'
+  'kCGColorSpaceModelDeviceN (4)':
+    'prefix': 'kCGColorSpaceModelDeviceN'
+    'body': 'KCGColorSpaceModelDeviceN'
+  'kCGColorSpaceModelIndexed (5)':
+    'prefix': 'kCGColorSpaceModelIndexed'
+    'body': 'KCGColorSpaceModelIndexed'
+  'kCGColorSpaceModelLab (3)':
+    'prefix': 'kCGColorSpaceModelLab'
+    'body': 'KCGColorSpaceModelLab'
+  'kCGColorSpaceModelMonochrome (0)':
+    'prefix': 'kCGColorSpaceModelMonochrome'
+    'body': 'KCGColorSpaceModelMonochrome'
+  'kCGColorSpaceModelPattern (6)':
+    'prefix': 'kCGColorSpaceModelPattern'
+    'body': 'KCGColorSpaceModelPattern'
+  'kCGColorSpaceModelRGB (1)':
+    'prefix': 'kCGColorSpaceModelRGB'
+    'body': 'KCGColorSpaceModelRGB'
+  'kCGColorSpaceModelUnknown (-1)':
+    'prefix': 'kCGColorSpaceModelUnknown'
+    'body': 'KCGColorSpaceModelUnknown'
+  'kCGConfigureForAppOnly (0)':
+    'prefix': 'kCGConfigureForAppOnly'
+    'body': 'KCGConfigureForAppOnly'
+  'kCGConfigureForSession (1)':
+    'prefix': 'kCGConfigureForSession'
+    'body': 'KCGConfigureForSession'
+  'kCGConfigurePermanently (2)':
+    'prefix': 'kCGConfigurePermanently'
+    'body': 'KCGConfigurePermanently'
+  'kCGCursorWindowLevel (2147483630)':
+    'prefix': 'kCGCursorWindowLevel'
+    'body': 'KCGCursorWindowLevel'
+  'kCGCursorWindowLevelKey (19)':
+    'prefix': 'kCGCursorWindowLevelKey'
+    'body': 'KCGCursorWindowLevelKey'
+  'kCGDesktopIconWindowLevel (-2147483603)':
+    'prefix': 'kCGDesktopIconWindowLevel'
+    'body': 'KCGDesktopIconWindowLevel'
+  'kCGDesktopIconWindowLevelKey (18)':
+    'prefix': 'kCGDesktopIconWindowLevelKey'
+    'body': 'KCGDesktopIconWindowLevelKey'
+  'kCGDesktopWindowLevel (-2147483623)':
+    'prefix': 'kCGDesktopWindowLevel'
+    'body': 'KCGDesktopWindowLevel'
+  'kCGDesktopWindowLevelKey (2)':
+    'prefix': 'kCGDesktopWindowLevelKey'
+    'body': 'KCGDesktopWindowLevelKey'
+  'kCGDirectMainDisplay (69679040)':
+    'prefix': 'kCGDirectMainDisplay'
+    'body': 'KCGDirectMainDisplay'
+  'kCGDisplayAddFlag (16)':
+    'prefix': 'kCGDisplayAddFlag'
+    'body': 'KCGDisplayAddFlag'
+  'kCGDisplayBeginConfigurationFlag (1)':
+    'prefix': 'kCGDisplayBeginConfigurationFlag'
+    'body': 'KCGDisplayBeginConfigurationFlag'
+  'kCGDisplayBlendNormal (0.0)':
+    'prefix': 'kCGDisplayBlendNormal'
+    'body': 'KCGDisplayBlendNormal'
+  'kCGDisplayBlendSolidColor (1.0)':
+    'prefix': 'kCGDisplayBlendSolidColor'
+    'body': 'KCGDisplayBlendSolidColor'
+  'kCGDisplayDesktopShapeChangedFlag (4096)':
+    'prefix': 'kCGDisplayDesktopShapeChangedFlag'
+    'body': 'KCGDisplayDesktopShapeChangedFlag'
+  'kCGDisplayDisabledFlag (512)':
+    'prefix': 'kCGDisplayDisabledFlag'
+    'body': 'KCGDisplayDisabledFlag'
+  'kCGDisplayEnabledFlag (256)':
+    'prefix': 'kCGDisplayEnabledFlag'
+    'body': 'KCGDisplayEnabledFlag'
+  'kCGDisplayFadeReservationInvalidToken (0)':
+    'prefix': 'kCGDisplayFadeReservationInvalidToken'
+    'body': 'KCGDisplayFadeReservationInvalidToken'
+  'kCGDisplayMirrorFlag (1024)':
+    'prefix': 'kCGDisplayMirrorFlag'
+    'body': 'KCGDisplayMirrorFlag'
+  'kCGDisplayMovedFlag (2)':
+    'prefix': 'kCGDisplayMovedFlag'
+    'body': 'KCGDisplayMovedFlag'
+  'kCGDisplayRemoveFlag (32)':
+    'prefix': 'kCGDisplayRemoveFlag'
+    'body': 'KCGDisplayRemoveFlag'
+  'kCGDisplaySetMainFlag (4)':
+    'prefix': 'kCGDisplaySetMainFlag'
+    'body': 'KCGDisplaySetMainFlag'
+  'kCGDisplaySetModeFlag (8)':
+    'prefix': 'kCGDisplaySetModeFlag'
+    'body': 'KCGDisplaySetModeFlag'
+  'kCGDisplayStreamFrameStatusFrameBlank (2)':
+    'prefix': 'kCGDisplayStreamFrameStatusFrameBlank'
+    'body': 'KCGDisplayStreamFrameStatusFrameBlank'
+  'kCGDisplayStreamFrameStatusFrameComplete (0)':
+    'prefix': 'kCGDisplayStreamFrameStatusFrameComplete'
+    'body': 'KCGDisplayStreamFrameStatusFrameComplete'
+  'kCGDisplayStreamFrameStatusFrameIdle (1)':
+    'prefix': 'kCGDisplayStreamFrameStatusFrameIdle'
+    'body': 'KCGDisplayStreamFrameStatusFrameIdle'
+  'kCGDisplayStreamFrameStatusStopped (3)':
+    'prefix': 'kCGDisplayStreamFrameStatusStopped'
+    'body': 'KCGDisplayStreamFrameStatusStopped'
+  'kCGDisplayStreamUpdateDirtyRects (2)':
+    'prefix': 'kCGDisplayStreamUpdateDirtyRects'
+    'body': 'KCGDisplayStreamUpdateDirtyRects'
+  'kCGDisplayStreamUpdateMovedRects (1)':
+    'prefix': 'kCGDisplayStreamUpdateMovedRects'
+    'body': 'KCGDisplayStreamUpdateMovedRects'
+  'kCGDisplayStreamUpdateReducedDirtyRects (3)':
+    'prefix': 'kCGDisplayStreamUpdateReducedDirtyRects'
+    'body': 'KCGDisplayStreamUpdateReducedDirtyRects'
+  'kCGDisplayStreamUpdateRefreshedRects (0)':
+    'prefix': 'kCGDisplayStreamUpdateRefreshedRects'
+    'body': 'KCGDisplayStreamUpdateRefreshedRects'
+  'kCGDisplayUnMirrorFlag (2048)':
+    'prefix': 'kCGDisplayUnMirrorFlag'
+    'body': 'KCGDisplayUnMirrorFlag'
+  'kCGDockWindowLevel (20)':
+    'prefix': 'kCGDockWindowLevel'
+    'body': 'KCGDockWindowLevel'
+  'kCGDockWindowLevelKey (7)':
+    'prefix': 'kCGDockWindowLevelKey'
+    'body': 'KCGDockWindowLevelKey'
+  'kCGDraggingWindowLevel (500)':
+    'prefix': 'kCGDraggingWindowLevel'
+    'body': 'KCGDraggingWindowLevel'
+  'kCGDraggingWindowLevelKey (12)':
+    'prefix': 'kCGDraggingWindowLevelKey'
+    'body': 'KCGDraggingWindowLevelKey'
+  'kCGEncodingFontSpecific (0)':
+    'prefix': 'kCGEncodingFontSpecific'
+    'body': 'KCGEncodingFontSpecific'
+  'kCGEncodingMacRoman (1)':
+    'prefix': 'kCGEncodingMacRoman'
+    'body': 'KCGEncodingMacRoman'
+  'kCGErrorCannotComplete (1004)':
+    'prefix': 'kCGErrorCannotComplete'
+    'body': 'KCGErrorCannotComplete'
+  'kCGErrorFailure (1000)':
+    'prefix': 'kCGErrorFailure'
+    'body': 'KCGErrorFailure'
+  'kCGErrorIllegalArgument (1001)':
+    'prefix': 'kCGErrorIllegalArgument'
+    'body': 'KCGErrorIllegalArgument'
+  'kCGErrorInvalidConnection (1002)':
+    'prefix': 'kCGErrorInvalidConnection'
+    'body': 'KCGErrorInvalidConnection'
+  'kCGErrorInvalidContext (1003)':
+    'prefix': 'kCGErrorInvalidContext'
+    'body': 'KCGErrorInvalidContext'
+  'kCGErrorInvalidOperation (1010)':
+    'prefix': 'kCGErrorInvalidOperation'
+    'body': 'KCGErrorInvalidOperation'
+  'kCGErrorNoneAvailable (1011)':
+    'prefix': 'kCGErrorNoneAvailable'
+    'body': 'KCGErrorNoneAvailable'
+  'kCGErrorNotImplemented (1006)':
+    'prefix': 'kCGErrorNotImplemented'
+    'body': 'KCGErrorNotImplemented'
+  'kCGErrorRangeCheck (1007)':
+    'prefix': 'kCGErrorRangeCheck'
+    'body': 'KCGErrorRangeCheck'
+  'kCGErrorSuccess (0)':
+    'prefix': 'kCGErrorSuccess'
+    'body': 'KCGErrorSuccess'
+  'kCGErrorTypeCheck (1008)':
+    'prefix': 'kCGErrorTypeCheck'
+    'body': 'KCGErrorTypeCheck'
+  'kCGEventFilterMaskPermitAllEvents (7)':
+    'prefix': 'kCGEventFilterMaskPermitAllEvents'
+    'body': 'KCGEventFilterMaskPermitAllEvents'
+  'kCGEventFilterMaskPermitLocalKeyboardEvents (2)':
+    'prefix': 'kCGEventFilterMaskPermitLocalKeyboardEvents'
+    'body': 'KCGEventFilterMaskPermitLocalKeyboardEvents'
+  'kCGEventFilterMaskPermitLocalMouseEvents (1)':
+    'prefix': 'kCGEventFilterMaskPermitLocalMouseEvents'
+    'body': 'KCGEventFilterMaskPermitLocalMouseEvents'
+  'kCGEventFilterMaskPermitSystemDefinedEvents (4)':
+    'prefix': 'kCGEventFilterMaskPermitSystemDefinedEvents'
+    'body': 'KCGEventFilterMaskPermitSystemDefinedEvents'
+  'kCGEventFlagMaskAlphaShift (65536)':
+    'prefix': 'kCGEventFlagMaskAlphaShift'
+    'body': 'KCGEventFlagMaskAlphaShift'
+  'kCGEventFlagMaskAlternate (524288)':
+    'prefix': 'kCGEventFlagMaskAlternate'
+    'body': 'KCGEventFlagMaskAlternate'
+  'kCGEventFlagMaskCommand (1048576)':
+    'prefix': 'kCGEventFlagMaskCommand'
+    'body': 'KCGEventFlagMaskCommand'
+  'kCGEventFlagMaskControl (262144)':
+    'prefix': 'kCGEventFlagMaskControl'
+    'body': 'KCGEventFlagMaskControl'
+  'kCGEventFlagMaskHelp (4194304)':
+    'prefix': 'kCGEventFlagMaskHelp'
+    'body': 'KCGEventFlagMaskHelp'
+  'kCGEventFlagMaskNonCoalesced (256)':
+    'prefix': 'kCGEventFlagMaskNonCoalesced'
+    'body': 'KCGEventFlagMaskNonCoalesced'
+  'kCGEventFlagMaskNumericPad (2097152)':
+    'prefix': 'kCGEventFlagMaskNumericPad'
+    'body': 'KCGEventFlagMaskNumericPad'
+  'kCGEventFlagMaskSecondaryFn (8388608)':
+    'prefix': 'kCGEventFlagMaskSecondaryFn'
+    'body': 'KCGEventFlagMaskSecondaryFn'
+  'kCGEventFlagMaskShift (131072)':
+    'prefix': 'kCGEventFlagMaskShift'
+    'body': 'KCGEventFlagMaskShift'
+  'kCGEventFlagsChanged (12)':
+    'prefix': 'kCGEventFlagsChanged'
+    'body': 'KCGEventFlagsChanged'
+  'kCGEventKeyDown (10)':
+    'prefix': 'kCGEventKeyDown'
+    'body': 'KCGEventKeyDown'
+  'kCGEventKeyUp (11)':
+    'prefix': 'kCGEventKeyUp'
+    'body': 'KCGEventKeyUp'
+  'kCGEventLeftMouseDown (1)':
+    'prefix': 'kCGEventLeftMouseDown'
+    'body': 'KCGEventLeftMouseDown'
+  'kCGEventLeftMouseDragged (6)':
+    'prefix': 'kCGEventLeftMouseDragged'
+    'body': 'KCGEventLeftMouseDragged'
+  'kCGEventLeftMouseUp (2)':
+    'prefix': 'kCGEventLeftMouseUp'
+    'body': 'KCGEventLeftMouseUp'
+  'kCGEventMaskForAllEvents (18446744073709551615)':
+    'prefix': 'kCGEventMaskForAllEvents'
+    'body': 'KCGEventMaskForAllEvents'
+  'kCGEventMouseMoved (5)':
+    'prefix': 'kCGEventMouseMoved'
+    'body': 'KCGEventMouseMoved'
+  'kCGEventMouseSubtypeDefault (0)':
+    'prefix': 'kCGEventMouseSubtypeDefault'
+    'body': 'KCGEventMouseSubtypeDefault'
+  'kCGEventMouseSubtypeTabletPoint (1)':
+    'prefix': 'kCGEventMouseSubtypeTabletPoint'
+    'body': 'KCGEventMouseSubtypeTabletPoint'
+  'kCGEventMouseSubtypeTabletProximity (2)':
+    'prefix': 'kCGEventMouseSubtypeTabletProximity'
+    'body': 'KCGEventMouseSubtypeTabletProximity'
+  'kCGEventNull (0)':
+    'prefix': 'kCGEventNull'
+    'body': 'KCGEventNull'
+  'kCGEventOtherMouseDown (25)':
+    'prefix': 'kCGEventOtherMouseDown'
+    'body': 'KCGEventOtherMouseDown'
+  'kCGEventOtherMouseDragged (27)':
+    'prefix': 'kCGEventOtherMouseDragged'
+    'body': 'KCGEventOtherMouseDragged'
+  'kCGEventOtherMouseUp (26)':
+    'prefix': 'kCGEventOtherMouseUp'
+    'body': 'KCGEventOtherMouseUp'
+  'kCGEventRightMouseDown (3)':
+    'prefix': 'kCGEventRightMouseDown'
+    'body': 'KCGEventRightMouseDown'
+  'kCGEventRightMouseDragged (7)':
+    'prefix': 'kCGEventRightMouseDragged'
+    'body': 'KCGEventRightMouseDragged'
+  'kCGEventRightMouseUp (4)':
+    'prefix': 'kCGEventRightMouseUp'
+    'body': 'KCGEventRightMouseUp'
+  'kCGEventScrollWheel (22)':
+    'prefix': 'kCGEventScrollWheel'
+    'body': 'KCGEventScrollWheel'
+  'kCGEventSourceGroupID (44)':
+    'prefix': 'kCGEventSourceGroupID'
+    'body': 'KCGEventSourceGroupID'
+  'kCGEventSourceStateCombinedSessionState (0)':
+    'prefix': 'kCGEventSourceStateCombinedSessionState'
+    'body': 'KCGEventSourceStateCombinedSessionState'
+  'kCGEventSourceStateHIDSystemState (1)':
+    'prefix': 'kCGEventSourceStateHIDSystemState'
+    'body': 'KCGEventSourceStateHIDSystemState'
+  'kCGEventSourceStateID (45)':
+    'prefix': 'kCGEventSourceStateID'
+    'body': 'KCGEventSourceStateID'
+  'kCGEventSourceStatePrivate (-1)':
+    'prefix': 'kCGEventSourceStatePrivate'
+    'body': 'KCGEventSourceStatePrivate'
+  'kCGEventSourceUnixProcessID (41)':
+    'prefix': 'kCGEventSourceUnixProcessID'
+    'body': 'KCGEventSourceUnixProcessID'
+  'kCGEventSourceUserData (42)':
+    'prefix': 'kCGEventSourceUserData'
+    'body': 'KCGEventSourceUserData'
+  'kCGEventSourceUserID (43)':
+    'prefix': 'kCGEventSourceUserID'
+    'body': 'KCGEventSourceUserID'
+  'kCGEventSuppressionStateRemoteMouseDrag (1)':
+    'prefix': 'kCGEventSuppressionStateRemoteMouseDrag'
+    'body': 'KCGEventSuppressionStateRemoteMouseDrag'
+  'kCGEventSuppressionStateSuppressionInterval (0)':
+    'prefix': 'kCGEventSuppressionStateSuppressionInterval'
+    'body': 'KCGEventSuppressionStateSuppressionInterval'
+  'kCGEventSupressionStateRemoteMouseDrag (1)':
+    'prefix': 'kCGEventSupressionStateRemoteMouseDrag'
+    'body': 'KCGEventSupressionStateRemoteMouseDrag'
+  'kCGEventSupressionStateSupressionInterval (0)':
+    'prefix': 'kCGEventSupressionStateSupressionInterval'
+    'body': 'KCGEventSupressionStateSupressionInterval'
+  'kCGEventTabletPointer (23)':
+    'prefix': 'kCGEventTabletPointer'
+    'body': 'KCGEventTabletPointer'
+  'kCGEventTabletProximity (24)':
+    'prefix': 'kCGEventTabletProximity'
+    'body': 'KCGEventTabletProximity'
+  'kCGEventTapDisabledByTimeout (4294967294)':
+    'prefix': 'kCGEventTapDisabledByTimeout'
+    'body': 'KCGEventTapDisabledByTimeout'
+  'kCGEventTapDisabledByUserInput (4294967295)':
+    'prefix': 'kCGEventTapDisabledByUserInput'
+    'body': 'KCGEventTapDisabledByUserInput'
+  'kCGEventTapOptionDefault (0)':
+    'prefix': 'kCGEventTapOptionDefault'
+    'body': 'KCGEventTapOptionDefault'
+  'kCGEventTapOptionListenOnly (1)':
+    'prefix': 'kCGEventTapOptionListenOnly'
+    'body': 'KCGEventTapOptionListenOnly'
+  'kCGEventTargetProcessSerialNumber (39)':
+    'prefix': 'kCGEventTargetProcessSerialNumber'
+    'body': 'KCGEventTargetProcessSerialNumber'
+  'kCGEventTargetUnixProcessID (40)':
+    'prefix': 'kCGEventTargetUnixProcessID'
+    'body': 'KCGEventTargetUnixProcessID'
+  'kCGFloatingWindowLevel (3)':
+    'prefix': 'kCGFloatingWindowLevel'
+    'body': 'KCGFloatingWindowLevel'
+  'kCGFloatingWindowLevelKey (5)':
+    'prefix': 'kCGFloatingWindowLevelKey'
+    'body': 'KCGFloatingWindowLevelKey'
+  'kCGFontIndexInvalid (65535)':
+    'prefix': 'kCGFontIndexInvalid'
+    'body': 'KCGFontIndexInvalid'
+  'kCGFontIndexMax (65534)':
+    'prefix': 'kCGFontIndexMax'
+    'body': 'KCGFontIndexMax'
+  'kCGFontPostScriptFormatType1 (1)':
+    'prefix': 'kCGFontPostScriptFormatType1'
+    'body': 'KCGFontPostScriptFormatType1'
+  'kCGFontPostScriptFormatType3 (3)':
+    'prefix': 'kCGFontPostScriptFormatType3'
+    'body': 'KCGFontPostScriptFormatType3'
+  'kCGFontPostScriptFormatType42 (42)':
+    'prefix': 'kCGFontPostScriptFormatType42'
+    'body': 'KCGFontPostScriptFormatType42'
+  'kCGGesturePhaseBegan (1)':
+    'prefix': 'kCGGesturePhaseBegan'
+    'body': 'KCGGesturePhaseBegan'
+  'kCGGesturePhaseCancelled (8)':
+    'prefix': 'kCGGesturePhaseCancelled'
+    'body': 'KCGGesturePhaseCancelled'
+  'kCGGesturePhaseChanged (2)':
+    'prefix': 'kCGGesturePhaseChanged'
+    'body': 'KCGGesturePhaseChanged'
+  'kCGGesturePhaseEnded (4)':
+    'prefix': 'kCGGesturePhaseEnded'
+    'body': 'KCGGesturePhaseEnded'
+  'kCGGesturePhaseMayBegin (128)':
+    'prefix': 'kCGGesturePhaseMayBegin'
+    'body': 'KCGGesturePhaseMayBegin'
+  'kCGGesturePhaseNone (0)':
+    'prefix': 'kCGGesturePhaseNone'
+    'body': 'KCGGesturePhaseNone'
+  'kCGGlyphMax (65534)':
+    'prefix': 'kCGGlyphMax'
+    'body': 'KCGGlyphMax'
+  'kCGGradientDrawsAfterEndLocation (2)':
+    'prefix': 'kCGGradientDrawsAfterEndLocation'
+    'body': 'KCGGradientDrawsAfterEndLocation'
+  'kCGGradientDrawsBeforeStartLocation (1)':
+    'prefix': 'kCGGradientDrawsBeforeStartLocation'
+    'body': 'KCGGradientDrawsBeforeStartLocation'
+  'kCGHIDEventTap (0)':
+    'prefix': 'kCGHIDEventTap'
+    'body': 'KCGHIDEventTap'
+  'kCGHeadInsertEventTap (0)':
+    'prefix': 'kCGHeadInsertEventTap'
+    'body': 'KCGHeadInsertEventTap'
+  'kCGHelpWindowLevel (200)':
+    'prefix': 'kCGHelpWindowLevel'
+    'body': 'KCGHelpWindowLevel'
+  'kCGHelpWindowLevelKey (16)':
+    'prefix': 'kCGHelpWindowLevelKey'
+    'body': 'KCGHelpWindowLevelKey'
+  'kCGImageAlphaFirst (4)':
+    'prefix': 'kCGImageAlphaFirst'
+    'body': 'KCGImageAlphaFirst'
+  'kCGImageAlphaLast (3)':
+    'prefix': 'kCGImageAlphaLast'
+    'body': 'KCGImageAlphaLast'
+  'kCGImageAlphaNone (0)':
+    'prefix': 'kCGImageAlphaNone'
+    'body': 'KCGImageAlphaNone'
+  'kCGImageAlphaNoneSkipFirst (6)':
+    'prefix': 'kCGImageAlphaNoneSkipFirst'
+    'body': 'KCGImageAlphaNoneSkipFirst'
+  'kCGImageAlphaNoneSkipLast (5)':
+    'prefix': 'kCGImageAlphaNoneSkipLast'
+    'body': 'KCGImageAlphaNoneSkipLast'
+  'kCGImageAlphaOnly (7)':
+    'prefix': 'kCGImageAlphaOnly'
+    'body': 'KCGImageAlphaOnly'
+  'kCGImageAlphaPremultipliedFirst (2)':
+    'prefix': 'kCGImageAlphaPremultipliedFirst'
+    'body': 'KCGImageAlphaPremultipliedFirst'
+  'kCGImageAlphaPremultipliedLast (1)':
+    'prefix': 'kCGImageAlphaPremultipliedLast'
+    'body': 'KCGImageAlphaPremultipliedLast'
+  'kCGInterpolationDefault (0)':
+    'prefix': 'kCGInterpolationDefault'
+    'body': 'KCGInterpolationDefault'
+  'kCGInterpolationHigh (3)':
+    'prefix': 'kCGInterpolationHigh'
+    'body': 'KCGInterpolationHigh'
+  'kCGInterpolationLow (2)':
+    'prefix': 'kCGInterpolationLow'
+    'body': 'KCGInterpolationLow'
+  'kCGInterpolationMedium (4)':
+    'prefix': 'kCGInterpolationMedium'
+    'body': 'KCGInterpolationMedium'
+  'kCGInterpolationNone (1)':
+    'prefix': 'kCGInterpolationNone'
+    'body': 'KCGInterpolationNone'
+  'kCGKeyboardEventAutorepeat (8)':
+    'prefix': 'kCGKeyboardEventAutorepeat'
+    'body': 'KCGKeyboardEventAutorepeat'
+  'kCGKeyboardEventKeyboardType (10)':
+    'prefix': 'kCGKeyboardEventKeyboardType'
+    'body': 'KCGKeyboardEventKeyboardType'
+  'kCGKeyboardEventKeycode (9)':
+    'prefix': 'kCGKeyboardEventKeycode'
+    'body': 'KCGKeyboardEventKeycode'
+  'kCGLineCapButt (0)':
+    'prefix': 'kCGLineCapButt'
+    'body': 'KCGLineCapButt'
+  'kCGLineCapRound (1)':
+    'prefix': 'kCGLineCapRound'
+    'body': 'KCGLineCapRound'
+  'kCGLineCapSquare (2)':
+    'prefix': 'kCGLineCapSquare'
+    'body': 'KCGLineCapSquare'
+  'kCGLineJoinBevel (2)':
+    'prefix': 'kCGLineJoinBevel'
+    'body': 'KCGLineJoinBevel'
+  'kCGLineJoinMiter (0)':
+    'prefix': 'kCGLineJoinMiter'
+    'body': 'KCGLineJoinMiter'
+  'kCGLineJoinRound (1)':
+    'prefix': 'kCGLineJoinRound'
+    'body': 'KCGLineJoinRound'
+  'kCGMainMenuWindowLevel (24)':
+    'prefix': 'kCGMainMenuWindowLevel'
+    'body': 'KCGMainMenuWindowLevel'
+  'kCGMainMenuWindowLevelKey (8)':
+    'prefix': 'kCGMainMenuWindowLevelKey'
+    'body': 'KCGMainMenuWindowLevelKey'
+  'kCGMaxDisplayReservationInterval (15)':
+    'prefix': 'kCGMaxDisplayReservationInterval'
+    'body': 'KCGMaxDisplayReservationInterval'
+  'kCGMaximumWindowLevel (2147483631)':
+    'prefix': 'kCGMaximumWindowLevel'
+    'body': 'KCGMaximumWindowLevel'
+  'kCGMaximumWindowLevelKey (14)':
+    'prefix': 'kCGMaximumWindowLevelKey'
+    'body': 'KCGMaximumWindowLevelKey'
+  'kCGMinimumWindowLevel (-2147483643)':
+    'prefix': 'kCGMinimumWindowLevel'
+    'body': 'KCGMinimumWindowLevel'
+  'kCGMinimumWindowLevelKey (1)':
+    'prefix': 'kCGMinimumWindowLevelKey'
+    'body': 'KCGMinimumWindowLevelKey'
+  'kCGModalPanelWindowLevel (8)':
+    'prefix': 'kCGModalPanelWindowLevel'
+    'body': 'KCGModalPanelWindowLevel'
+  'kCGModalPanelWindowLevelKey (10)':
+    'prefix': 'kCGModalPanelWindowLevelKey'
+    'body': 'KCGModalPanelWindowLevelKey'
+  'kCGMomentumScrollPhaseBegin (1)':
+    'prefix': 'kCGMomentumScrollPhaseBegin'
+    'body': 'KCGMomentumScrollPhaseBegin'
+  'kCGMomentumScrollPhaseContinue (2)':
+    'prefix': 'kCGMomentumScrollPhaseContinue'
+    'body': 'KCGMomentumScrollPhaseContinue'
+  'kCGMomentumScrollPhaseEnd (3)':
+    'prefix': 'kCGMomentumScrollPhaseEnd'
+    'body': 'KCGMomentumScrollPhaseEnd'
+  'kCGMomentumScrollPhaseNone (0)':
+    'prefix': 'kCGMomentumScrollPhaseNone'
+    'body': 'KCGMomentumScrollPhaseNone'
+  'kCGMouseButtonCenter (2)':
+    'prefix': 'kCGMouseButtonCenter'
+    'body': 'KCGMouseButtonCenter'
+  'kCGMouseButtonLeft (0)':
+    'prefix': 'kCGMouseButtonLeft'
+    'body': 'KCGMouseButtonLeft'
+  'kCGMouseButtonRight (1)':
+    'prefix': 'kCGMouseButtonRight'
+    'body': 'KCGMouseButtonRight'
+  'kCGMouseDownEventMaskingDeadSwitchTimeout (60.0)':
+    'prefix': 'kCGMouseDownEventMaskingDeadSwitchTimeout'
+    'body': 'KCGMouseDownEventMaskingDeadSwitchTimeout'
+  'kCGMouseEventButtonNumber (3)':
+    'prefix': 'kCGMouseEventButtonNumber'
+    'body': 'KCGMouseEventButtonNumber'
+  'kCGMouseEventClickState (1)':
+    'prefix': 'kCGMouseEventClickState'
+    'body': 'KCGMouseEventClickState'
+  'kCGMouseEventDeltaX (4)':
+    'prefix': 'kCGMouseEventDeltaX'
+    'body': 'KCGMouseEventDeltaX'
+  'kCGMouseEventDeltaY (5)':
+    'prefix': 'kCGMouseEventDeltaY'
+    'body': 'KCGMouseEventDeltaY'
+  'kCGMouseEventInstantMouser (6)':
+    'prefix': 'kCGMouseEventInstantMouser'
+    'body': 'KCGMouseEventInstantMouser'
+  'kCGMouseEventNumber (0)':
+    'prefix': 'kCGMouseEventNumber'
+    'body': 'KCGMouseEventNumber'
+  'kCGMouseEventPressure (2)':
+    'prefix': 'kCGMouseEventPressure'
+    'body': 'KCGMouseEventPressure'
+  'kCGMouseEventSubtype (7)':
+    'prefix': 'kCGMouseEventSubtype'
+    'body': 'KCGMouseEventSubtype'
+  'kCGMouseEventWindowUnderMousePointer (91)':
+    'prefix': 'kCGMouseEventWindowUnderMousePointer'
+    'body': 'KCGMouseEventWindowUnderMousePointer'
+  'kCGMouseEventWindowUnderMousePointerThatCanHandleThisEvent (92)':
+    'prefix': 'kCGMouseEventWindowUnderMousePointerThatCanHandleThisEvent'
+    'body': 'KCGMouseEventWindowUnderMousePointerThatCanHandleThisEvent'
+  'kCGNormalWindowLevel (0)':
+    'prefix': 'kCGNormalWindowLevel'
+    'body': 'KCGNormalWindowLevel'
+  'kCGNormalWindowLevelKey (4)':
+    'prefix': 'kCGNormalWindowLevelKey'
+    'body': 'KCGNormalWindowLevelKey'
+  'kCGNullDirectDisplay (0)':
+    'prefix': 'kCGNullDirectDisplay'
+    'body': 'KCGNullDirectDisplay'
+  'kCGNullWindowID (0)':
+    'prefix': 'kCGNullWindowID'
+    'body': 'KCGNullWindowID'
+  'kCGNumReservedWindowLevels (16)':
+    'prefix': 'kCGNumReservedWindowLevels'
+    'body': 'KCGNumReservedWindowLevels'
+  'kCGNumberOfEventSuppressionStates (2)':
+    'prefix': 'kCGNumberOfEventSuppressionStates'
+    'body': 'KCGNumberOfEventSuppressionStates'
+  'kCGNumberOfEventSupressionStates (2)':
+    'prefix': 'kCGNumberOfEventSupressionStates'
+    'body': 'KCGNumberOfEventSupressionStates'
+  'kCGNumberOfWindowLevelKeys (21)':
+    'prefix': 'kCGNumberOfWindowLevelKeys'
+    'body': 'KCGNumberOfWindowLevelKeys'
+  'kCGOverlayWindowLevel (102)':
+    'prefix': 'kCGOverlayWindowLevel'
+    'body': 'KCGOverlayWindowLevel'
+  'kCGOverlayWindowLevelKey (15)':
+    'prefix': 'kCGOverlayWindowLevelKey'
+    'body': 'KCGOverlayWindowLevelKey'
+  'kCGPDFArtBox (4)':
+    'prefix': 'kCGPDFArtBox'
+    'body': 'KCGPDFArtBox'
+  'kCGPDFBleedBox (2)':
+    'prefix': 'kCGPDFBleedBox'
+    'body': 'KCGPDFBleedBox'
+  'kCGPDFCropBox (1)':
+    'prefix': 'kCGPDFCropBox'
+    'body': 'KCGPDFCropBox'
+  'kCGPDFMediaBox (0)':
+    'prefix': 'kCGPDFMediaBox'
+    'body': 'KCGPDFMediaBox'
+  'kCGPDFObjectTypeArray (7)':
+    'prefix': 'kCGPDFObjectTypeArray'
+    'body': 'KCGPDFObjectTypeArray'
+  'kCGPDFObjectTypeBoolean (2)':
+    'prefix': 'kCGPDFObjectTypeBoolean'
+    'body': 'KCGPDFObjectTypeBoolean'
+  'kCGPDFObjectTypeDictionary (8)':
+    'prefix': 'kCGPDFObjectTypeDictionary'
+    'body': 'KCGPDFObjectTypeDictionary'
+  'kCGPDFObjectTypeInteger (3)':
+    'prefix': 'kCGPDFObjectTypeInteger'
+    'body': 'KCGPDFObjectTypeInteger'
+  'kCGPDFObjectTypeName (5)':
+    'prefix': 'kCGPDFObjectTypeName'
+    'body': 'KCGPDFObjectTypeName'
+  'kCGPDFObjectTypeNull (1)':
+    'prefix': 'kCGPDFObjectTypeNull'
+    'body': 'KCGPDFObjectTypeNull'
+  'kCGPDFObjectTypeReal (4)':
+    'prefix': 'kCGPDFObjectTypeReal'
+    'body': 'KCGPDFObjectTypeReal'
+  'kCGPDFObjectTypeStream (9)':
+    'prefix': 'kCGPDFObjectTypeStream'
+    'body': 'KCGPDFObjectTypeStream'
+  'kCGPDFObjectTypeString (6)':
+    'prefix': 'kCGPDFObjectTypeString'
+    'body': 'KCGPDFObjectTypeString'
+  'kCGPDFTrimBox (3)':
+    'prefix': 'kCGPDFTrimBox'
+    'body': 'KCGPDFTrimBox'
+  'kCGPathEOFill (1)':
+    'prefix': 'kCGPathEOFill'
+    'body': 'KCGPathEOFill'
+  'kCGPathEOFillStroke (4)':
+    'prefix': 'kCGPathEOFillStroke'
+    'body': 'KCGPathEOFillStroke'
+  'kCGPathElementAddCurveToPoint (3)':
+    'prefix': 'kCGPathElementAddCurveToPoint'
+    'body': 'KCGPathElementAddCurveToPoint'
+  'kCGPathElementAddLineToPoint (1)':
+    'prefix': 'kCGPathElementAddLineToPoint'
+    'body': 'KCGPathElementAddLineToPoint'
+  'kCGPathElementAddQuadCurveToPoint (2)':
+    'prefix': 'kCGPathElementAddQuadCurveToPoint'
+    'body': 'KCGPathElementAddQuadCurveToPoint'
+  'kCGPathElementCloseSubpath (4)':
+    'prefix': 'kCGPathElementCloseSubpath'
+    'body': 'KCGPathElementCloseSubpath'
+  'kCGPathElementMoveToPoint (0)':
+    'prefix': 'kCGPathElementMoveToPoint'
+    'body': 'KCGPathElementMoveToPoint'
+  'kCGPathFill (0)':
+    'prefix': 'kCGPathFill'
+    'body': 'KCGPathFill'
+  'kCGPathFillStroke (3)':
+    'prefix': 'kCGPathFillStroke'
+    'body': 'KCGPathFillStroke'
+  'kCGPathStroke (2)':
+    'prefix': 'kCGPathStroke'
+    'body': 'KCGPathStroke'
+  'kCGPatternTilingConstantSpacing (2)':
+    'prefix': 'kCGPatternTilingConstantSpacing'
+    'body': 'KCGPatternTilingConstantSpacing'
+  'kCGPatternTilingConstantSpacingMinimalDistortion (1)':
+    'prefix': 'kCGPatternTilingConstantSpacingMinimalDistortion'
+    'body': 'KCGPatternTilingConstantSpacingMinimalDistortion'
+  'kCGPatternTilingNoDistortion (0)':
+    'prefix': 'kCGPatternTilingNoDistortion'
+    'body': 'KCGPatternTilingNoDistortion'
+  'kCGPopUpMenuWindowLevel (101)':
+    'prefix': 'kCGPopUpMenuWindowLevel'
+    'body': 'KCGPopUpMenuWindowLevel'
+  'kCGPopUpMenuWindowLevelKey (11)':
+    'prefix': 'kCGPopUpMenuWindowLevelKey'
+    'body': 'KCGPopUpMenuWindowLevelKey'
+  'kCGRenderingIntentAbsoluteColorimetric (1)':
+    'prefix': 'kCGRenderingIntentAbsoluteColorimetric'
+    'body': 'KCGRenderingIntentAbsoluteColorimetric'
+  'kCGRenderingIntentDefault (0)':
+    'prefix': 'kCGRenderingIntentDefault'
+    'body': 'KCGRenderingIntentDefault'
+  'kCGRenderingIntentPerceptual (3)':
+    'prefix': 'kCGRenderingIntentPerceptual'
+    'body': 'KCGRenderingIntentPerceptual'
+  'kCGRenderingIntentRelativeColorimetric (2)':
+    'prefix': 'kCGRenderingIntentRelativeColorimetric'
+    'body': 'KCGRenderingIntentRelativeColorimetric'
+  'kCGRenderingIntentSaturation (4)':
+    'prefix': 'kCGRenderingIntentSaturation'
+    'body': 'KCGRenderingIntentSaturation'
+  'kCGScreenSaverWindowLevel (1000)':
+    'prefix': 'kCGScreenSaverWindowLevel'
+    'body': 'KCGScreenSaverWindowLevel'
+  'kCGScreenSaverWindowLevelKey (13)':
+    'prefix': 'kCGScreenSaverWindowLevelKey'
+    'body': 'KCGScreenSaverWindowLevelKey'
+  'kCGScreenUpdateOperationMove (1)':
+    'prefix': 'kCGScreenUpdateOperationMove'
+    'body': 'KCGScreenUpdateOperationMove'
+  'kCGScreenUpdateOperationReducedDirtyRectangleCount (2147483648)':
+    'prefix': 'kCGScreenUpdateOperationReducedDirtyRectangleCount'
+    'body': 'KCGScreenUpdateOperationReducedDirtyRectangleCount'
+  'kCGScreenUpdateOperationRefresh (0)':
+    'prefix': 'kCGScreenUpdateOperationRefresh'
+    'body': 'KCGScreenUpdateOperationRefresh'
+  'kCGScrollEventUnitLine (1)':
+    'prefix': 'kCGScrollEventUnitLine'
+    'body': 'KCGScrollEventUnitLine'
+  'kCGScrollEventUnitPixel (0)':
+    'prefix': 'kCGScrollEventUnitPixel'
+    'body': 'KCGScrollEventUnitPixel'
+  'kCGScrollPhaseBegan (1)':
+    'prefix': 'kCGScrollPhaseBegan'
+    'body': 'KCGScrollPhaseBegan'
+  'kCGScrollPhaseCancelled (8)':
+    'prefix': 'kCGScrollPhaseCancelled'
+    'body': 'KCGScrollPhaseCancelled'
+  'kCGScrollPhaseChanged (2)':
+    'prefix': 'kCGScrollPhaseChanged'
+    'body': 'KCGScrollPhaseChanged'
+  'kCGScrollPhaseEnded (4)':
+    'prefix': 'kCGScrollPhaseEnded'
+    'body': 'KCGScrollPhaseEnded'
+  'kCGScrollPhaseMayBegin (128)':
+    'prefix': 'kCGScrollPhaseMayBegin'
+    'body': 'KCGScrollPhaseMayBegin'
+  'kCGScrollWheelEventDeltaAxis1 (11)':
+    'prefix': 'kCGScrollWheelEventDeltaAxis1'
+    'body': 'KCGScrollWheelEventDeltaAxis1'
+  'kCGScrollWheelEventDeltaAxis2 (12)':
+    'prefix': 'kCGScrollWheelEventDeltaAxis2'
+    'body': 'KCGScrollWheelEventDeltaAxis2'
+  'kCGScrollWheelEventDeltaAxis3 (13)':
+    'prefix': 'kCGScrollWheelEventDeltaAxis3'
+    'body': 'KCGScrollWheelEventDeltaAxis3'
+  'kCGScrollWheelEventFixedPtDeltaAxis1 (93)':
+    'prefix': 'kCGScrollWheelEventFixedPtDeltaAxis1'
+    'body': 'KCGScrollWheelEventFixedPtDeltaAxis1'
+  'kCGScrollWheelEventFixedPtDeltaAxis2 (94)':
+    'prefix': 'kCGScrollWheelEventFixedPtDeltaAxis2'
+    'body': 'KCGScrollWheelEventFixedPtDeltaAxis2'
+  'kCGScrollWheelEventFixedPtDeltaAxis3 (95)':
+    'prefix': 'kCGScrollWheelEventFixedPtDeltaAxis3'
+    'body': 'KCGScrollWheelEventFixedPtDeltaAxis3'
+  'kCGScrollWheelEventInstantMouser (14)':
+    'prefix': 'kCGScrollWheelEventInstantMouser'
+    'body': 'KCGScrollWheelEventInstantMouser'
+  'kCGScrollWheelEventIsContinuous (88)':
+    'prefix': 'kCGScrollWheelEventIsContinuous'
+    'body': 'KCGScrollWheelEventIsContinuous'
+  'kCGScrollWheelEventMomentumPhase (123)':
+    'prefix': 'kCGScrollWheelEventMomentumPhase'
+    'body': 'KCGScrollWheelEventMomentumPhase'
+  'kCGScrollWheelEventPointDeltaAxis1 (96)':
+    'prefix': 'kCGScrollWheelEventPointDeltaAxis1'
+    'body': 'KCGScrollWheelEventPointDeltaAxis1'
+  'kCGScrollWheelEventPointDeltaAxis2 (97)':
+    'prefix': 'kCGScrollWheelEventPointDeltaAxis2'
+    'body': 'KCGScrollWheelEventPointDeltaAxis2'
+  'kCGScrollWheelEventPointDeltaAxis3 (98)':
+    'prefix': 'kCGScrollWheelEventPointDeltaAxis3'
+    'body': 'KCGScrollWheelEventPointDeltaAxis3'
+  'kCGScrollWheelEventScrollCount (100)':
+    'prefix': 'kCGScrollWheelEventScrollCount'
+    'body': 'KCGScrollWheelEventScrollCount'
+  'kCGScrollWheelEventScrollPhase (99)':
+    'prefix': 'kCGScrollWheelEventScrollPhase'
+    'body': 'KCGScrollWheelEventScrollPhase'
+  'kCGSessionEventTap (1)':
+    'prefix': 'kCGSessionEventTap'
+    'body': 'KCGSessionEventTap'
+  'kCGStatusWindowLevel (25)':
+    'prefix': 'kCGStatusWindowLevel'
+    'body': 'KCGStatusWindowLevel'
+  'kCGStatusWindowLevelKey (9)':
+    'prefix': 'kCGStatusWindowLevelKey'
+    'body': 'KCGStatusWindowLevelKey'
+  'kCGTabletEventDeviceID (24)':
+    'prefix': 'kCGTabletEventDeviceID'
+    'body': 'KCGTabletEventDeviceID'
+  'kCGTabletEventPointButtons (18)':
+    'prefix': 'kCGTabletEventPointButtons'
+    'body': 'KCGTabletEventPointButtons'
+  'kCGTabletEventPointPressure (19)':
+    'prefix': 'kCGTabletEventPointPressure'
+    'body': 'KCGTabletEventPointPressure'
+  'kCGTabletEventPointX (15)':
+    'prefix': 'kCGTabletEventPointX'
+    'body': 'KCGTabletEventPointX'
+  'kCGTabletEventPointY (16)':
+    'prefix': 'kCGTabletEventPointY'
+    'body': 'KCGTabletEventPointY'
+  'kCGTabletEventPointZ (17)':
+    'prefix': 'kCGTabletEventPointZ'
+    'body': 'KCGTabletEventPointZ'
+  'kCGTabletEventRotation (22)':
+    'prefix': 'kCGTabletEventRotation'
+    'body': 'KCGTabletEventRotation'
+  'kCGTabletEventTangentialPressure (23)':
+    'prefix': 'kCGTabletEventTangentialPressure'
+    'body': 'KCGTabletEventTangentialPressure'
+  'kCGTabletEventTiltX (20)':
+    'prefix': 'kCGTabletEventTiltX'
+    'body': 'KCGTabletEventTiltX'
+  'kCGTabletEventTiltY (21)':
+    'prefix': 'kCGTabletEventTiltY'
+    'body': 'KCGTabletEventTiltY'
+  'kCGTabletEventVendor1 (25)':
+    'prefix': 'kCGTabletEventVendor1'
+    'body': 'KCGTabletEventVendor1'
+  'kCGTabletEventVendor2 (26)':
+    'prefix': 'kCGTabletEventVendor2'
+    'body': 'KCGTabletEventVendor2'
+  'kCGTabletEventVendor3 (27)':
+    'prefix': 'kCGTabletEventVendor3'
+    'body': 'KCGTabletEventVendor3'
+  'kCGTabletProximityEventCapabilityMask (36)':
+    'prefix': 'kCGTabletProximityEventCapabilityMask'
+    'body': 'KCGTabletProximityEventCapabilityMask'
+  'kCGTabletProximityEventDeviceID (31)':
+    'prefix': 'kCGTabletProximityEventDeviceID'
+    'body': 'KCGTabletProximityEventDeviceID'
+  'kCGTabletProximityEventEnterProximity (38)':
+    'prefix': 'kCGTabletProximityEventEnterProximity'
+    'body': 'KCGTabletProximityEventEnterProximity'
+  'kCGTabletProximityEventPointerID (30)':
+    'prefix': 'kCGTabletProximityEventPointerID'
+    'body': 'KCGTabletProximityEventPointerID'
+  'kCGTabletProximityEventPointerType (37)':
+    'prefix': 'kCGTabletProximityEventPointerType'
+    'body': 'KCGTabletProximityEventPointerType'
+  'kCGTabletProximityEventSystemTabletID (32)':
+    'prefix': 'kCGTabletProximityEventSystemTabletID'
+    'body': 'KCGTabletProximityEventSystemTabletID'
+  'kCGTabletProximityEventTabletID (29)':
+    'prefix': 'kCGTabletProximityEventTabletID'
+    'body': 'KCGTabletProximityEventTabletID'
+  'kCGTabletProximityEventVendorID (28)':
+    'prefix': 'kCGTabletProximityEventVendorID'
+    'body': 'KCGTabletProximityEventVendorID'
+  'kCGTabletProximityEventVendorPointerSerialNumber (34)':
+    'prefix': 'kCGTabletProximityEventVendorPointerSerialNumber'
+    'body': 'KCGTabletProximityEventVendorPointerSerialNumber'
+  'kCGTabletProximityEventVendorPointerType (33)':
+    'prefix': 'kCGTabletProximityEventVendorPointerType'
+    'body': 'KCGTabletProximityEventVendorPointerType'
+  'kCGTabletProximityEventVendorUniqueID (35)':
+    'prefix': 'kCGTabletProximityEventVendorUniqueID'
+    'body': 'KCGTabletProximityEventVendorUniqueID'
+  'kCGTailAppendEventTap (1)':
+    'prefix': 'kCGTailAppendEventTap'
+    'body': 'KCGTailAppendEventTap'
+  'kCGTextClip (7)':
+    'prefix': 'kCGTextClip'
+    'body': 'KCGTextClip'
+  'kCGTextFill (0)':
+    'prefix': 'kCGTextFill'
+    'body': 'KCGTextFill'
+  'kCGTextFillClip (4)':
+    'prefix': 'kCGTextFillClip'
+    'body': 'KCGTextFillClip'
+  'kCGTextFillStroke (2)':
+    'prefix': 'kCGTextFillStroke'
+    'body': 'KCGTextFillStroke'
+  'kCGTextFillStrokeClip (6)':
+    'prefix': 'kCGTextFillStrokeClip'
+    'body': 'KCGTextFillStrokeClip'
+  'kCGTextInvisible (3)':
+    'prefix': 'kCGTextInvisible'
+    'body': 'KCGTextInvisible'
+  'kCGTextStroke (1)':
+    'prefix': 'kCGTextStroke'
+    'body': 'KCGTextStroke'
+  'kCGTextStrokeClip (5)':
+    'prefix': 'kCGTextStrokeClip'
+    'body': 'KCGTextStrokeClip'
+  'kCGTornOffMenuWindowLevel (3)':
+    'prefix': 'kCGTornOffMenuWindowLevel'
+    'body': 'KCGTornOffMenuWindowLevel'
+  'kCGTornOffMenuWindowLevelKey (6)':
+    'prefix': 'kCGTornOffMenuWindowLevelKey'
+    'body': 'KCGTornOffMenuWindowLevelKey'
+  'kCGUtilityWindowLevel (19)':
+    'prefix': 'kCGUtilityWindowLevel'
+    'body': 'KCGUtilityWindowLevel'
+  'kCGUtilityWindowLevelKey (17)':
+    'prefix': 'kCGUtilityWindowLevelKey'
+    'body': 'KCGUtilityWindowLevelKey'
+  'kCGWindowBackingCFNumberType (3)':
+    'prefix': 'kCGWindowBackingCFNumberType'
+    'body': 'KCGWindowBackingCFNumberType'
+  'kCGWindowIDCFNumberType (3)':
+    'prefix': 'kCGWindowIDCFNumberType'
+    'body': 'KCGWindowIDCFNumberType'
+  'kCGWindowImageBestResolution (8)':
+    'prefix': 'kCGWindowImageBestResolution'
+    'body': 'KCGWindowImageBestResolution'
+  'kCGWindowImageBoundsIgnoreFraming (1)':
+    'prefix': 'kCGWindowImageBoundsIgnoreFraming'
+    'body': 'KCGWindowImageBoundsIgnoreFraming'
+  'kCGWindowImageDefault (0)':
+    'prefix': 'kCGWindowImageDefault'
+    'body': 'KCGWindowImageDefault'
+  'kCGWindowImageNominalResolution (16)':
+    'prefix': 'kCGWindowImageNominalResolution'
+    'body': 'KCGWindowImageNominalResolution'
+  'kCGWindowImageOnlyShadows (4)':
+    'prefix': 'kCGWindowImageOnlyShadows'
+    'body': 'KCGWindowImageOnlyShadows'
+  'kCGWindowImageShouldBeOpaque (2)':
+    'prefix': 'kCGWindowImageShouldBeOpaque'
+    'body': 'KCGWindowImageShouldBeOpaque'
+  'kCGWindowListExcludeDesktopElements (16)':
+    'prefix': 'kCGWindowListExcludeDesktopElements'
+    'body': 'KCGWindowListExcludeDesktopElements'
+  'kCGWindowListOptionAll (0)':
+    'prefix': 'kCGWindowListOptionAll'
+    'body': 'KCGWindowListOptionAll'
+  'kCGWindowListOptionIncludingWindow (8)':
+    'prefix': 'kCGWindowListOptionIncludingWindow'
+    'body': 'KCGWindowListOptionIncludingWindow'
+  'kCGWindowListOptionOnScreenAboveWindow (2)':
+    'prefix': 'kCGWindowListOptionOnScreenAboveWindow'
+    'body': 'KCGWindowListOptionOnScreenAboveWindow'
+  'kCGWindowListOptionOnScreenBelowWindow (4)':
+    'prefix': 'kCGWindowListOptionOnScreenBelowWindow'
+    'body': 'KCGWindowListOptionOnScreenBelowWindow'
+  'kCGWindowListOptionOnScreenOnly (1)':
+    'prefix': 'kCGWindowListOptionOnScreenOnly'
+    'body': 'KCGWindowListOptionOnScreenOnly'
+  'kCGWindowSharingCFNumberType (3)':
+    'prefix': 'kCGWindowSharingCFNumberType'
+    'body': 'KCGWindowSharingCFNumberType'
+  'kCGWindowSharingNone (0)':
+    'prefix': 'kCGWindowSharingNone'
+    'body': 'KCGWindowSharingNone'
+  'kCGWindowSharingReadOnly (1)':
+    'prefix': 'kCGWindowSharingReadOnly'
+    'body': 'KCGWindowSharingReadOnly'
+  'kCGWindowSharingReadWrite (2)':
+    'prefix': 'kCGWindowSharingReadWrite'
+    'body': 'KCGWindowSharingReadWrite'
+  'CGAcquireDisplayFadeReservation':
+    'prefix': 'CGAcquireDisplayFadeReservation'
+    'body': 'CGAcquireDisplayFadeReservation(${1:CGDisplayReservationInterval seconds}, ${2:CGDisplayFadeReservationToken* token})'
+  'CGAffineTransformConcat':
+    'prefix': 'CGAffineTransformConcat'
+    'body': 'CGAffineTransformConcat(${1:CGAffineTransform t1}, ${2:CGAffineTransform t2})'
+  'CGAffineTransformEqualToTransform':
+    'prefix': 'CGAffineTransformEqualToTransform'
+    'body': 'CGAffineTransformEqualToTransform(${1:CGAffineTransform t1}, ${2:CGAffineTransform t2})'
+  'CGAffineTransformInvert':
+    'prefix': 'CGAffineTransformInvert'
+    'body': 'CGAffineTransformInvert(${1:CGAffineTransform t})'
+  'CGAffineTransformIsIdentity':
+    'prefix': 'CGAffineTransformIsIdentity'
+    'body': 'CGAffineTransformIsIdentity(${1:CGAffineTransform t})'
+  'CGAffineTransformMake':
+    'prefix': 'CGAffineTransformMake'
+    'body': 'CGAffineTransformMake(${1:CGFloat a}, ${2:CGFloat b}, ${3:CGFloat c}, ${4:CGFloat d}, ${5:CGFloat tx}, ${6:CGFloat ty})'
+  'CGAffineTransformMakeRotation':
+    'prefix': 'CGAffineTransformMakeRotation'
+    'body': 'CGAffineTransformMakeRotation(${1:CGFloat angle})'
+  'CGAffineTransformMakeScale':
+    'prefix': 'CGAffineTransformMakeScale'
+    'body': 'CGAffineTransformMakeScale(${1:CGFloat sx}, ${2:CGFloat sy})'
+  'CGAffineTransformMakeTranslation':
+    'prefix': 'CGAffineTransformMakeTranslation'
+    'body': 'CGAffineTransformMakeTranslation(${1:CGFloat tx}, ${2:CGFloat ty})'
+  'CGAffineTransformRotate':
+    'prefix': 'CGAffineTransformRotate'
+    'body': 'CGAffineTransformRotate(${1:CGAffineTransform t}, ${2:CGFloat angle})'
+  'CGAffineTransformScale':
+    'prefix': 'CGAffineTransformScale'
+    'body': 'CGAffineTransformScale(${1:CGAffineTransform t}, ${2:CGFloat sx}, ${3:CGFloat sy})'
+  'CGAffineTransformTranslate':
+    'prefix': 'CGAffineTransformTranslate'
+    'body': 'CGAffineTransformTranslate(${1:CGAffineTransform t}, ${2:CGFloat tx}, ${3:CGFloat ty})'
+  'CGAssociateMouseAndMouseCursorPosition':
+    'prefix': 'CGAssociateMouseAndMouseCursorPosition'
+    'body': 'CGAssociateMouseAndMouseCursorPosition(${1:boolean_t connected})'
+  'CGBeginDisplayConfiguration':
+    'prefix': 'CGBeginDisplayConfiguration'
+    'body': 'CGBeginDisplayConfiguration(${1:CGDisplayConfigRef* config})'
+  'CGBitmapContextCreate':
+    'prefix': 'CGBitmapContextCreate'
+    'body': 'CGBitmapContextCreate(${1:void* data}, ${2:size_t width}, ${3:size_t height}, ${4:size_t bitsPerComponent}, ${5:size_t bytesPerRow}, ${6:CGColorSpaceRef space}, ${7:CGBitmapInfo bitmapInfo})'
+  'CGBitmapContextCreateImage':
+    'prefix': 'CGBitmapContextCreateImage'
+    'body': 'CGBitmapContextCreateImage(${1:CGContextRef context})'
+  'CGBitmapContextCreateWithData':
+    'prefix': 'CGBitmapContextCreateWithData'
+    'body': 'CGBitmapContextCreateWithData(${1:void* data}, ${2:size_t width}, ${3:size_t height}, ${4:size_t bitsPerComponent}, ${5:size_t bytesPerRow}, ${6:CGColorSpaceRef space}, ${7:CGBitmapInfo bitmapInfo}, ${8:CGBitmapContextReleaseDataCallback releaseCallback}, ${9:void* releaseInfo})'
+  'CGBitmapContextGetAlphaInfo':
+    'prefix': 'CGBitmapContextGetAlphaInfo'
+    'body': 'CGBitmapContextGetAlphaInfo(${1:CGContextRef context})'
+  'CGBitmapContextGetBitmapInfo':
+    'prefix': 'CGBitmapContextGetBitmapInfo'
+    'body': 'CGBitmapContextGetBitmapInfo(${1:CGContextRef context})'
+  'CGBitmapContextGetBitsPerComponent':
+    'prefix': 'CGBitmapContextGetBitsPerComponent'
+    'body': 'CGBitmapContextGetBitsPerComponent(${1:CGContextRef context})'
+  'CGBitmapContextGetBitsPerPixel':
+    'prefix': 'CGBitmapContextGetBitsPerPixel'
+    'body': 'CGBitmapContextGetBitsPerPixel(${1:CGContextRef context})'
+  'CGBitmapContextGetBytesPerRow':
+    'prefix': 'CGBitmapContextGetBytesPerRow'
+    'body': 'CGBitmapContextGetBytesPerRow(${1:CGContextRef context})'
+  'CGBitmapContextGetColorSpace':
+    'prefix': 'CGBitmapContextGetColorSpace'
+    'body': 'CGBitmapContextGetColorSpace(${1:CGContextRef context})'
+  'CGBitmapContextGetData':
+    'prefix': 'CGBitmapContextGetData'
+    'body': 'CGBitmapContextGetData(${1:CGContextRef context})'
+  'CGBitmapContextGetHeight':
+    'prefix': 'CGBitmapContextGetHeight'
+    'body': 'CGBitmapContextGetHeight(${1:CGContextRef context})'
+  'CGBitmapContextGetWidth':
+    'prefix': 'CGBitmapContextGetWidth'
+    'body': 'CGBitmapContextGetWidth(${1:CGContextRef context})'
+  'CGCancelDisplayConfiguration':
+    'prefix': 'CGCancelDisplayConfiguration'
+    'body': 'CGCancelDisplayConfiguration(${1:CGDisplayConfigRef config})'
+  'CGCaptureAllDisplays':
+    'prefix': 'CGCaptureAllDisplays'
+    'body': 'CGCaptureAllDisplays()'
+  'CGCaptureAllDisplaysWithOptions':
+    'prefix': 'CGCaptureAllDisplaysWithOptions'
+    'body': 'CGCaptureAllDisplaysWithOptions(${1:CGCaptureOptions options})'
+  'CGColorCreate':
+    'prefix': 'CGColorCreate'
+    'body': 'CGColorCreate(${1:CGColorSpaceRef space}, ${2:CGFloat* components})'
+  'CGColorCreateCopy':
+    'prefix': 'CGColorCreateCopy'
+    'body': 'CGColorCreateCopy(${1:CGColorRef color})'
+  'CGColorCreateCopyWithAlpha':
+    'prefix': 'CGColorCreateCopyWithAlpha'
+    'body': 'CGColorCreateCopyWithAlpha(${1:CGColorRef color}, ${2:CGFloat alpha})'
+  'CGColorCreateGenericCMYK':
+    'prefix': 'CGColorCreateGenericCMYK'
+    'body': 'CGColorCreateGenericCMYK(${1:CGFloat cyan}, ${2:CGFloat magenta}, ${3:CGFloat yellow}, ${4:CGFloat black}, ${5:CGFloat alpha})'
+  'CGColorCreateGenericGray':
+    'prefix': 'CGColorCreateGenericGray'
+    'body': 'CGColorCreateGenericGray(${1:CGFloat gray}, ${2:CGFloat alpha})'
+  'CGColorCreateGenericRGB':
+    'prefix': 'CGColorCreateGenericRGB'
+    'body': 'CGColorCreateGenericRGB(${1:CGFloat red}, ${2:CGFloat green}, ${3:CGFloat blue}, ${4:CGFloat alpha})'
+  'CGColorCreateWithPattern':
+    'prefix': 'CGColorCreateWithPattern'
+    'body': 'CGColorCreateWithPattern(${1:CGColorSpaceRef space}, ${2:CGPatternRef pattern}, ${3:CGFloat* components})'
+  'CGColorEqualToColor':
+    'prefix': 'CGColorEqualToColor'
+    'body': 'CGColorEqualToColor(${1:CGColorRef color1}, ${2:CGColorRef color2})'
+  'CGColorGetAlpha':
+    'prefix': 'CGColorGetAlpha'
+    'body': 'CGColorGetAlpha(${1:CGColorRef color})'
+  'CGColorGetColorSpace':
+    'prefix': 'CGColorGetColorSpace'
+    'body': 'CGColorGetColorSpace(${1:CGColorRef color})'
+  'CGColorGetComponents':
+    'prefix': 'CGColorGetComponents'
+    'body': 'CGColorGetComponents(${1:CGColorRef color})'
+  'CGColorGetConstantColor':
+    'prefix': 'CGColorGetConstantColor'
+    'body': 'CGColorGetConstantColor(${1:CFStringRef colorName})'
+  'CGColorGetNumberOfComponents':
+    'prefix': 'CGColorGetNumberOfComponents'
+    'body': 'CGColorGetNumberOfComponents(${1:CGColorRef color})'
+  'CGColorGetPattern':
+    'prefix': 'CGColorGetPattern'
+    'body': 'CGColorGetPattern(${1:CGColorRef color})'
+  'CGColorGetTypeID':
+    'prefix': 'CGColorGetTypeID'
+    'body': 'CGColorGetTypeID()'
+  'CGColorRelease':
+    'prefix': 'CGColorRelease'
+    'body': 'CGColorRelease(${1:CGColorRef color})'
+  'CGColorRetain':
+    'prefix': 'CGColorRetain'
+    'body': 'CGColorRetain(${1:CGColorRef color})'
+  'CGColorSpaceCopyICCProfile':
+    'prefix': 'CGColorSpaceCopyICCProfile'
+    'body': 'CGColorSpaceCopyICCProfile(${1:CGColorSpaceRef space})'
+  'CGColorSpaceCopyName':
+    'prefix': 'CGColorSpaceCopyName'
+    'body': 'CGColorSpaceCopyName(${1:CGColorSpaceRef space})'
+  'CGColorSpaceCreateCalibratedGray':
+    'prefix': 'CGColorSpaceCreateCalibratedGray'
+    'body': 'CGColorSpaceCreateCalibratedGray(${1:CGFloat* whitePoint}, ${2:CGFloat* blackPoint}, ${3:CGFloat gamma})'
+  'CGColorSpaceCreateCalibratedRGB':
+    'prefix': 'CGColorSpaceCreateCalibratedRGB'
+    'body': 'CGColorSpaceCreateCalibratedRGB(${1:CGFloat* whitePoint}, ${2:CGFloat* blackPoint}, ${3:CGFloat* gamma}, ${4:CGFloat* matrix})'
+  'CGColorSpaceCreateDeviceCMYK':
+    'prefix': 'CGColorSpaceCreateDeviceCMYK'
+    'body': 'CGColorSpaceCreateDeviceCMYK()'
+  'CGColorSpaceCreateDeviceGray':
+    'prefix': 'CGColorSpaceCreateDeviceGray'
+    'body': 'CGColorSpaceCreateDeviceGray()'
+  'CGColorSpaceCreateDeviceRGB':
+    'prefix': 'CGColorSpaceCreateDeviceRGB'
+    'body': 'CGColorSpaceCreateDeviceRGB()'
+  'CGColorSpaceCreateICCBased':
+    'prefix': 'CGColorSpaceCreateICCBased'
+    'body': 'CGColorSpaceCreateICCBased(${1:size_t nComponents}, ${2:CGFloat* range}, ${3:CGDataProviderRef profile}, ${4:CGColorSpaceRef alternate})'
+  'CGColorSpaceCreateIndexed':
+    'prefix': 'CGColorSpaceCreateIndexed'
+    'body': 'CGColorSpaceCreateIndexed(${1:CGColorSpaceRef baseSpace}, ${2:size_t lastIndex}, ${3:unsigned char* colorTable})'
+  'CGColorSpaceCreateLab':
+    'prefix': 'CGColorSpaceCreateLab'
+    'body': 'CGColorSpaceCreateLab(${1:CGFloat* whitePoint}, ${2:CGFloat* blackPoint}, ${3:CGFloat* range})'
+  'CGColorSpaceCreatePattern':
+    'prefix': 'CGColorSpaceCreatePattern'
+    'body': 'CGColorSpaceCreatePattern(${1:CGColorSpaceRef baseSpace})'
+  'CGColorSpaceCreateWithICCProfile':
+    'prefix': 'CGColorSpaceCreateWithICCProfile'
+    'body': 'CGColorSpaceCreateWithICCProfile(${1:CFDataRef data})'
+  'CGColorSpaceCreateWithName':
+    'prefix': 'CGColorSpaceCreateWithName'
+    'body': 'CGColorSpaceCreateWithName(${1:CFStringRef name})'
+  'CGColorSpaceCreateWithPlatformColorSpace':
+    'prefix': 'CGColorSpaceCreateWithPlatformColorSpace'
+    'body': 'CGColorSpaceCreateWithPlatformColorSpace(${1:void* ref})'
+  'CGColorSpaceGetBaseColorSpace':
+    'prefix': 'CGColorSpaceGetBaseColorSpace'
+    'body': 'CGColorSpaceGetBaseColorSpace(${1:CGColorSpaceRef space})'
+  'CGColorSpaceGetColorTable':
+    'prefix': 'CGColorSpaceGetColorTable'
+    'body': 'CGColorSpaceGetColorTable(${1:CGColorSpaceRef space}, ${2:uint8_t* table})'
+  'CGColorSpaceGetColorTableCount':
+    'prefix': 'CGColorSpaceGetColorTableCount'
+    'body': 'CGColorSpaceGetColorTableCount(${1:CGColorSpaceRef space})'
+  'CGColorSpaceGetModel':
+    'prefix': 'CGColorSpaceGetModel'
+    'body': 'CGColorSpaceGetModel(${1:CGColorSpaceRef space})'
+  'CGColorSpaceGetNumberOfComponents':
+    'prefix': 'CGColorSpaceGetNumberOfComponents'
+    'body': 'CGColorSpaceGetNumberOfComponents(${1:CGColorSpaceRef space})'
+  'CGColorSpaceGetTypeID':
+    'prefix': 'CGColorSpaceGetTypeID'
+    'body': 'CGColorSpaceGetTypeID()'
+  'CGColorSpaceRelease':
+    'prefix': 'CGColorSpaceRelease'
+    'body': 'CGColorSpaceRelease(${1:CGColorSpaceRef space})'
+  'CGColorSpaceRetain':
+    'prefix': 'CGColorSpaceRetain'
+    'body': 'CGColorSpaceRetain(${1:CGColorSpaceRef space})'
+  'CGCompleteDisplayConfiguration':
+    'prefix': 'CGCompleteDisplayConfiguration'
+    'body': 'CGCompleteDisplayConfiguration(${1:CGDisplayConfigRef config}, ${2:CGConfigureOption option})'
+  'CGConfigureDisplayFadeEffect':
+    'prefix': 'CGConfigureDisplayFadeEffect'
+    'body': 'CGConfigureDisplayFadeEffect(${1:CGDisplayConfigRef config}, ${2:CGDisplayFadeInterval fadeOutSeconds}, ${3:CGDisplayFadeInterval fadeInSeconds}, ${4:float fadeRed}, ${5:float fadeGreen}, ${6:float fadeBlue})'
+  'CGConfigureDisplayMirrorOfDisplay':
+    'prefix': 'CGConfigureDisplayMirrorOfDisplay'
+    'body': 'CGConfigureDisplayMirrorOfDisplay(${1:CGDisplayConfigRef config}, ${2:CGDirectDisplayID display}, ${3:CGDirectDisplayID master})'
+  'CGConfigureDisplayMode':
+    'prefix': 'CGConfigureDisplayMode'
+    'body': 'CGConfigureDisplayMode(${1:CGDisplayConfigRef config}, ${2:CGDirectDisplayID display}, ${3:CFDictionaryRef mode})'
+  'CGConfigureDisplayOrigin':
+    'prefix': 'CGConfigureDisplayOrigin'
+    'body': 'CGConfigureDisplayOrigin(${1:CGDisplayConfigRef config}, ${2:CGDirectDisplayID display}, ${3:int32_t x}, ${4:int32_t y})'
+  'CGConfigureDisplayStereoOperation':
+    'prefix': 'CGConfigureDisplayStereoOperation'
+    'body': 'CGConfigureDisplayStereoOperation(${1:CGDisplayConfigRef config}, ${2:CGDirectDisplayID display}, ${3:boolean_t stereo}, ${4:boolean_t forceBlueLine})'
+  'CGConfigureDisplayWithDisplayMode':
+    'prefix': 'CGConfigureDisplayWithDisplayMode'
+    'body': 'CGConfigureDisplayWithDisplayMode(${1:CGDisplayConfigRef config}, ${2:CGDirectDisplayID display}, ${3:CGDisplayModeRef mode}, ${4:CFDictionaryRef options})'
+  'CGContextAddArc':
+    'prefix': 'CGContextAddArc'
+    'body': 'CGContextAddArc(${1:CGContextRef c}, ${2:CGFloat x}, ${3:CGFloat y}, ${4:CGFloat radius}, ${5:CGFloat startAngle}, ${6:CGFloat endAngle}, ${7:int clockwise})'
+  'CGContextAddArcToPoint':
+    'prefix': 'CGContextAddArcToPoint'
+    'body': 'CGContextAddArcToPoint(${1:CGContextRef c}, ${2:CGFloat x1}, ${3:CGFloat y1}, ${4:CGFloat x2}, ${5:CGFloat y2}, ${6:CGFloat radius})'
+  'CGContextAddCurveToPoint':
+    'prefix': 'CGContextAddCurveToPoint'
+    'body': 'CGContextAddCurveToPoint(${1:CGContextRef c}, ${2:CGFloat cp1x}, ${3:CGFloat cp1y}, ${4:CGFloat cp2x}, ${5:CGFloat cp2y}, ${6:CGFloat x}, ${7:CGFloat y})'
+  'CGContextAddEllipseInRect':
+    'prefix': 'CGContextAddEllipseInRect'
+    'body': 'CGContextAddEllipseInRect(${1:CGContextRef context}, ${2:CGRect rect})'
+  'CGContextAddLineToPoint':
+    'prefix': 'CGContextAddLineToPoint'
+    'body': 'CGContextAddLineToPoint(${1:CGContextRef c}, ${2:CGFloat x}, ${3:CGFloat y})'
+  'CGContextAddLines':
+    'prefix': 'CGContextAddLines'
+    'body': 'CGContextAddLines(${1:CGContextRef c}, ${2:CGPoint* points}, ${3:size_t count})'
+  'CGContextAddPath':
+    'prefix': 'CGContextAddPath'
+    'body': 'CGContextAddPath(${1:CGContextRef context}, ${2:CGPathRef path})'
+  'CGContextAddQuadCurveToPoint':
+    'prefix': 'CGContextAddQuadCurveToPoint'
+    'body': 'CGContextAddQuadCurveToPoint(${1:CGContextRef c}, ${2:CGFloat cpx}, ${3:CGFloat cpy}, ${4:CGFloat x}, ${5:CGFloat y})'
+  'CGContextAddRect':
+    'prefix': 'CGContextAddRect'
+    'body': 'CGContextAddRect(${1:CGContextRef c}, ${2:CGRect rect})'
+  'CGContextAddRects':
+    'prefix': 'CGContextAddRects'
+    'body': 'CGContextAddRects(${1:CGContextRef c}, ${2:CGRect* rects}, ${3:size_t count})'
+  'CGContextBeginPage':
+    'prefix': 'CGContextBeginPage'
+    'body': 'CGContextBeginPage(${1:CGContextRef c}, ${2:CGRect* mediaBox})'
+  'CGContextBeginPath':
+    'prefix': 'CGContextBeginPath'
+    'body': 'CGContextBeginPath(${1:CGContextRef c})'
+  'CGContextBeginTransparencyLayer':
+    'prefix': 'CGContextBeginTransparencyLayer'
+    'body': 'CGContextBeginTransparencyLayer(${1:CGContextRef context}, ${2:CFDictionaryRef auxiliaryInfo})'
+  'CGContextBeginTransparencyLayerWithRect':
+    'prefix': 'CGContextBeginTransparencyLayerWithRect'
+    'body': 'CGContextBeginTransparencyLayerWithRect(${1:CGContextRef context}, ${2:CGRect rect}, ${3:CFDictionaryRef auxiliaryInfo})'
+  'CGContextClearRect':
+    'prefix': 'CGContextClearRect'
+    'body': 'CGContextClearRect(${1:CGContextRef c}, ${2:CGRect rect})'
+  'CGContextClip':
+    'prefix': 'CGContextClip'
+    'body': 'CGContextClip(${1:CGContextRef c})'
+  'CGContextClipToMask':
+    'prefix': 'CGContextClipToMask'
+    'body': 'CGContextClipToMask(${1:CGContextRef c}, ${2:CGRect rect}, ${3:CGImageRef mask})'
+  'CGContextClipToRect':
+    'prefix': 'CGContextClipToRect'
+    'body': 'CGContextClipToRect(${1:CGContextRef c}, ${2:CGRect rect})'
+  'CGContextClipToRects':
+    'prefix': 'CGContextClipToRects'
+    'body': 'CGContextClipToRects(${1:CGContextRef c}, ${2:CGRect* rects}, ${3:size_t count})'
+  'CGContextClosePath':
+    'prefix': 'CGContextClosePath'
+    'body': 'CGContextClosePath(${1:CGContextRef c})'
+  'CGContextConcatCTM':
+    'prefix': 'CGContextConcatCTM'
+    'body': 'CGContextConcatCTM(${1:CGContextRef c}, ${2:CGAffineTransform transform})'
+  'CGContextConvertPointToDeviceSpace':
+    'prefix': 'CGContextConvertPointToDeviceSpace'
+    'body': 'CGContextConvertPointToDeviceSpace(${1:CGContextRef context}, ${2:CGPoint point})'
+  'CGContextConvertPointToUserSpace':
+    'prefix': 'CGContextConvertPointToUserSpace'
+    'body': 'CGContextConvertPointToUserSpace(${1:CGContextRef context}, ${2:CGPoint point})'
+  'CGContextConvertRectToDeviceSpace':
+    'prefix': 'CGContextConvertRectToDeviceSpace'
+    'body': 'CGContextConvertRectToDeviceSpace(${1:CGContextRef context}, ${2:CGRect rect})'
+  'CGContextConvertRectToUserSpace':
+    'prefix': 'CGContextConvertRectToUserSpace'
+    'body': 'CGContextConvertRectToUserSpace(${1:CGContextRef context}, ${2:CGRect rect})'
+  'CGContextConvertSizeToDeviceSpace':
+    'prefix': 'CGContextConvertSizeToDeviceSpace'
+    'body': 'CGContextConvertSizeToDeviceSpace(${1:CGContextRef context}, ${2:CGSize size})'
+  'CGContextConvertSizeToUserSpace':
+    'prefix': 'CGContextConvertSizeToUserSpace'
+    'body': 'CGContextConvertSizeToUserSpace(${1:CGContextRef context}, ${2:CGSize size})'
+  'CGContextCopyPath':
+    'prefix': 'CGContextCopyPath'
+    'body': 'CGContextCopyPath(${1:CGContextRef context})'
+  'CGContextDrawImage':
+    'prefix': 'CGContextDrawImage'
+    'body': 'CGContextDrawImage(${1:CGContextRef c}, ${2:CGRect rect}, ${3:CGImageRef image})'
+  'CGContextDrawLayerAtPoint':
+    'prefix': 'CGContextDrawLayerAtPoint'
+    'body': 'CGContextDrawLayerAtPoint(${1:CGContextRef context}, ${2:CGPoint point}, ${3:CGLayerRef layer})'
+  'CGContextDrawLayerInRect':
+    'prefix': 'CGContextDrawLayerInRect'
+    'body': 'CGContextDrawLayerInRect(${1:CGContextRef context}, ${2:CGRect rect}, ${3:CGLayerRef layer})'
+  'CGContextDrawLinearGradient':
+    'prefix': 'CGContextDrawLinearGradient'
+    'body': 'CGContextDrawLinearGradient(${1:CGContextRef context}, ${2:CGGradientRef gradient}, ${3:CGPoint startPoint}, ${4:CGPoint endPoint}, ${5:CGGradientDrawingOptions options})'
+  'CGContextDrawPDFDocument':
+    'prefix': 'CGContextDrawPDFDocument'
+    'body': 'CGContextDrawPDFDocument(${1:CGContextRef c}, ${2:CGRect rect}, ${3:CGPDFDocumentRef document}, ${4:int page})'
+  'CGContextDrawPDFPage':
+    'prefix': 'CGContextDrawPDFPage'
+    'body': 'CGContextDrawPDFPage(${1:CGContextRef c}, ${2:CGPDFPageRef page})'
+  'CGContextDrawPath':
+    'prefix': 'CGContextDrawPath'
+    'body': 'CGContextDrawPath(${1:CGContextRef c}, ${2:CGPathDrawingMode mode})'
+  'CGContextDrawRadialGradient':
+    'prefix': 'CGContextDrawRadialGradient'
+    'body': 'CGContextDrawRadialGradient(${1:CGContextRef context}, ${2:CGGradientRef gradient}, ${3:CGPoint startCenter}, ${4:CGFloat startRadius}, ${5:CGPoint endCenter}, ${6:CGFloat endRadius}, ${7:CGGradientDrawingOptions options})'
+  'CGContextDrawShading':
+    'prefix': 'CGContextDrawShading'
+    'body': 'CGContextDrawShading(${1:CGContextRef context}, ${2:CGShadingRef shading})'
+  'CGContextDrawTiledImage':
+    'prefix': 'CGContextDrawTiledImage'
+    'body': 'CGContextDrawTiledImage(${1:CGContextRef c}, ${2:CGRect rect}, ${3:CGImageRef image})'
+  'CGContextEOClip':
+    'prefix': 'CGContextEOClip'
+    'body': 'CGContextEOClip(${1:CGContextRef c})'
+  'CGContextEOFillPath':
+    'prefix': 'CGContextEOFillPath'
+    'body': 'CGContextEOFillPath(${1:CGContextRef c})'
+  'CGContextEndPage':
+    'prefix': 'CGContextEndPage'
+    'body': 'CGContextEndPage(${1:CGContextRef c})'
+  'CGContextEndTransparencyLayer':
+    'prefix': 'CGContextEndTransparencyLayer'
+    'body': 'CGContextEndTransparencyLayer(${1:CGContextRef context})'
+  'CGContextFillEllipseInRect':
+    'prefix': 'CGContextFillEllipseInRect'
+    'body': 'CGContextFillEllipseInRect(${1:CGContextRef context}, ${2:CGRect rect})'
+  'CGContextFillPath':
+    'prefix': 'CGContextFillPath'
+    'body': 'CGContextFillPath(${1:CGContextRef c})'
+  'CGContextFillRect':
+    'prefix': 'CGContextFillRect'
+    'body': 'CGContextFillRect(${1:CGContextRef c}, ${2:CGRect rect})'
+  'CGContextFillRects':
+    'prefix': 'CGContextFillRects'
+    'body': 'CGContextFillRects(${1:CGContextRef c}, ${2:CGRect* rects}, ${3:size_t count})'
+  'CGContextFlush':
+    'prefix': 'CGContextFlush'
+    'body': 'CGContextFlush(${1:CGContextRef c})'
+  'CGContextGetCTM':
+    'prefix': 'CGContextGetCTM'
+    'body': 'CGContextGetCTM(${1:CGContextRef c})'
+  'CGContextGetClipBoundingBox':
+    'prefix': 'CGContextGetClipBoundingBox'
+    'body': 'CGContextGetClipBoundingBox(${1:CGContextRef c})'
+  'CGContextGetInterpolationQuality':
+    'prefix': 'CGContextGetInterpolationQuality'
+    'body': 'CGContextGetInterpolationQuality(${1:CGContextRef context})'
+  'CGContextGetPathBoundingBox':
+    'prefix': 'CGContextGetPathBoundingBox'
+    'body': 'CGContextGetPathBoundingBox(${1:CGContextRef context})'
+  'CGContextGetPathCurrentPoint':
+    'prefix': 'CGContextGetPathCurrentPoint'
+    'body': 'CGContextGetPathCurrentPoint(${1:CGContextRef context})'
+  'CGContextGetTextMatrix':
+    'prefix': 'CGContextGetTextMatrix'
+    'body': 'CGContextGetTextMatrix(${1:CGContextRef c})'
+  'CGContextGetTextPosition':
+    'prefix': 'CGContextGetTextPosition'
+    'body': 'CGContextGetTextPosition(${1:CGContextRef context})'
+  'CGContextGetTypeID':
+    'prefix': 'CGContextGetTypeID'
+    'body': 'CGContextGetTypeID()'
+  'CGContextGetUserSpaceToDeviceSpaceTransform':
+    'prefix': 'CGContextGetUserSpaceToDeviceSpaceTransform'
+    'body': 'CGContextGetUserSpaceToDeviceSpaceTransform(${1:CGContextRef context})'
+  'CGContextIsPathEmpty':
+    'prefix': 'CGContextIsPathEmpty'
+    'body': 'CGContextIsPathEmpty(${1:CGContextRef context})'
+  'CGContextMoveToPoint':
+    'prefix': 'CGContextMoveToPoint'
+    'body': 'CGContextMoveToPoint(${1:CGContextRef c}, ${2:CGFloat x}, ${3:CGFloat y})'
+  'CGContextPathContainsPoint':
+    'prefix': 'CGContextPathContainsPoint'
+    'body': 'CGContextPathContainsPoint(${1:CGContextRef context}, ${2:CGPoint point}, ${3:CGPathDrawingMode mode})'
+  'CGContextRelease':
+    'prefix': 'CGContextRelease'
+    'body': 'CGContextRelease(${1:CGContextRef c})'
+  'CGContextReplacePathWithStrokedPath':
+    'prefix': 'CGContextReplacePathWithStrokedPath'
+    'body': 'CGContextReplacePathWithStrokedPath(${1:CGContextRef c})'
+  'CGContextRestoreGState':
+    'prefix': 'CGContextRestoreGState'
+    'body': 'CGContextRestoreGState(${1:CGContextRef c})'
+  'CGContextRetain':
+    'prefix': 'CGContextRetain'
+    'body': 'CGContextRetain(${1:CGContextRef c})'
+  'CGContextRotateCTM':
+    'prefix': 'CGContextRotateCTM'
+    'body': 'CGContextRotateCTM(${1:CGContextRef c}, ${2:CGFloat angle})'
+  'CGContextSaveGState':
+    'prefix': 'CGContextSaveGState'
+    'body': 'CGContextSaveGState(${1:CGContextRef c})'
+  'CGContextScaleCTM':
+    'prefix': 'CGContextScaleCTM'
+    'body': 'CGContextScaleCTM(${1:CGContextRef c}, ${2:CGFloat sx}, ${3:CGFloat sy})'
+  'CGContextSelectFont':
+    'prefix': 'CGContextSelectFont'
+    'body': 'CGContextSelectFont(${1:CGContextRef c}, ${2:char* name}, ${3:CGFloat size}, ${4:CGTextEncoding textEncoding})'
+  'CGContextSetAllowsAntialiasing':
+    'prefix': 'CGContextSetAllowsAntialiasing'
+    'body': 'CGContextSetAllowsAntialiasing(${1:CGContextRef context}, ${2:_Bool allowsAntialiasing})'
+  'CGContextSetAllowsFontSmoothing':
+    'prefix': 'CGContextSetAllowsFontSmoothing'
+    'body': 'CGContextSetAllowsFontSmoothing(${1:CGContextRef context}, ${2:_Bool allowsFontSmoothing})'
+  'CGContextSetAllowsFontSubpixelPositioning':
+    'prefix': 'CGContextSetAllowsFontSubpixelPositioning'
+    'body': 'CGContextSetAllowsFontSubpixelPositioning(${1:CGContextRef context}, ${2:_Bool allowsFontSubpixelPositioning})'
+  'CGContextSetAllowsFontSubpixelQuantization':
+    'prefix': 'CGContextSetAllowsFontSubpixelQuantization'
+    'body': 'CGContextSetAllowsFontSubpixelQuantization(${1:CGContextRef context}, ${2:_Bool allowsFontSubpixelQuantization})'
+  'CGContextSetAlpha':
+    'prefix': 'CGContextSetAlpha'
+    'body': 'CGContextSetAlpha(${1:CGContextRef c}, ${2:CGFloat alpha})'
+  'CGContextSetBlendMode':
+    'prefix': 'CGContextSetBlendMode'
+    'body': 'CGContextSetBlendMode(${1:CGContextRef context}, ${2:CGBlendMode mode})'
+  'CGContextSetCMYKFillColor':
+    'prefix': 'CGContextSetCMYKFillColor'
+    'body': 'CGContextSetCMYKFillColor(${1:CGContextRef context}, ${2:CGFloat cyan}, ${3:CGFloat magenta}, ${4:CGFloat yellow}, ${5:CGFloat black}, ${6:CGFloat alpha})'
+  'CGContextSetCMYKStrokeColor':
+    'prefix': 'CGContextSetCMYKStrokeColor'
+    'body': 'CGContextSetCMYKStrokeColor(${1:CGContextRef context}, ${2:CGFloat cyan}, ${3:CGFloat magenta}, ${4:CGFloat yellow}, ${5:CGFloat black}, ${6:CGFloat alpha})'
+  'CGContextSetCharacterSpacing':
+    'prefix': 'CGContextSetCharacterSpacing'
+    'body': 'CGContextSetCharacterSpacing(${1:CGContextRef context}, ${2:CGFloat spacing})'
+  'CGContextSetFillColor':
+    'prefix': 'CGContextSetFillColor'
+    'body': 'CGContextSetFillColor(${1:CGContextRef context}, ${2:CGFloat* components})'
+  'CGContextSetFillColorSpace':
+    'prefix': 'CGContextSetFillColorSpace'
+    'body': 'CGContextSetFillColorSpace(${1:CGContextRef context}, ${2:CGColorSpaceRef space})'
+  'CGContextSetFillColorWithColor':
+    'prefix': 'CGContextSetFillColorWithColor'
+    'body': 'CGContextSetFillColorWithColor(${1:CGContextRef c}, ${2:CGColorRef color})'
+  'CGContextSetFillPattern':
+    'prefix': 'CGContextSetFillPattern'
+    'body': 'CGContextSetFillPattern(${1:CGContextRef context}, ${2:CGPatternRef pattern}, ${3:CGFloat* components})'
+  'CGContextSetFlatness':
+    'prefix': 'CGContextSetFlatness'
+    'body': 'CGContextSetFlatness(${1:CGContextRef c}, ${2:CGFloat flatness})'
+  'CGContextSetFont':
+    'prefix': 'CGContextSetFont'
+    'body': 'CGContextSetFont(${1:CGContextRef c}, ${2:CGFontRef font})'
+  'CGContextSetFontSize':
+    'prefix': 'CGContextSetFontSize'
+    'body': 'CGContextSetFontSize(${1:CGContextRef c}, ${2:CGFloat size})'
+  'CGContextSetGrayFillColor':
+    'prefix': 'CGContextSetGrayFillColor'
+    'body': 'CGContextSetGrayFillColor(${1:CGContextRef context}, ${2:CGFloat gray}, ${3:CGFloat alpha})'
+  'CGContextSetGrayStrokeColor':
+    'prefix': 'CGContextSetGrayStrokeColor'
+    'body': 'CGContextSetGrayStrokeColor(${1:CGContextRef context}, ${2:CGFloat gray}, ${3:CGFloat alpha})'
+  'CGContextSetInterpolationQuality':
+    'prefix': 'CGContextSetInterpolationQuality'
+    'body': 'CGContextSetInterpolationQuality(${1:CGContextRef context}, ${2:CGInterpolationQuality quality})'
+  'CGContextSetLineCap':
+    'prefix': 'CGContextSetLineCap'
+    'body': 'CGContextSetLineCap(${1:CGContextRef c}, ${2:CGLineCap cap})'
+  'CGContextSetLineDash':
+    'prefix': 'CGContextSetLineDash'
+    'body': 'CGContextSetLineDash(${1:CGContextRef c}, ${2:CGFloat phase}, ${3:CGFloat* lengths}, ${4:size_t count})'
+  'CGContextSetLineJoin':
+    'prefix': 'CGContextSetLineJoin'
+    'body': 'CGContextSetLineJoin(${1:CGContextRef c}, ${2:CGLineJoin join})'
+  'CGContextSetLineWidth':
+    'prefix': 'CGContextSetLineWidth'
+    'body': 'CGContextSetLineWidth(${1:CGContextRef c}, ${2:CGFloat width})'
+  'CGContextSetMiterLimit':
+    'prefix': 'CGContextSetMiterLimit'
+    'body': 'CGContextSetMiterLimit(${1:CGContextRef c}, ${2:CGFloat limit})'
+  'CGContextSetPatternPhase':
+    'prefix': 'CGContextSetPatternPhase'
+    'body': 'CGContextSetPatternPhase(${1:CGContextRef context}, ${2:CGSize phase})'
+  'CGContextSetRGBFillColor':
+    'prefix': 'CGContextSetRGBFillColor'
+    'body': 'CGContextSetRGBFillColor(${1:CGContextRef context}, ${2:CGFloat red}, ${3:CGFloat green}, ${4:CGFloat blue}, ${5:CGFloat alpha})'
+  'CGContextSetRGBStrokeColor':
+    'prefix': 'CGContextSetRGBStrokeColor'
+    'body': 'CGContextSetRGBStrokeColor(${1:CGContextRef context}, ${2:CGFloat red}, ${3:CGFloat green}, ${4:CGFloat blue}, ${5:CGFloat alpha})'
+  'CGContextSetRenderingIntent':
+    'prefix': 'CGContextSetRenderingIntent'
+    'body': 'CGContextSetRenderingIntent(${1:CGContextRef context}, ${2:CGColorRenderingIntent intent})'
+  'CGContextSetShadow':
+    'prefix': 'CGContextSetShadow'
+    'body': 'CGContextSetShadow(${1:CGContextRef context}, ${2:CGSize offset}, ${3:CGFloat blur})'
+  'CGContextSetShadowWithColor':
+    'prefix': 'CGContextSetShadowWithColor'
+    'body': 'CGContextSetShadowWithColor(${1:CGContextRef context}, ${2:CGSize offset}, ${3:CGFloat blur}, ${4:CGColorRef color})'
+  'CGContextSetShouldAntialias':
+    'prefix': 'CGContextSetShouldAntialias'
+    'body': 'CGContextSetShouldAntialias(${1:CGContextRef context}, ${2:_Bool shouldAntialias})'
+  'CGContextSetShouldSmoothFonts':
+    'prefix': 'CGContextSetShouldSmoothFonts'
+    'body': 'CGContextSetShouldSmoothFonts(${1:CGContextRef context}, ${2:_Bool shouldSmoothFonts})'
+  'CGContextSetShouldSubpixelPositionFonts':
+    'prefix': 'CGContextSetShouldSubpixelPositionFonts'
+    'body': 'CGContextSetShouldSubpixelPositionFonts(${1:CGContextRef context}, ${2:_Bool shouldSubpixelPositionFonts})'
+  'CGContextSetShouldSubpixelQuantizeFonts':
+    'prefix': 'CGContextSetShouldSubpixelQuantizeFonts'
+    'body': 'CGContextSetShouldSubpixelQuantizeFonts(${1:CGContextRef context}, ${2:_Bool shouldSubpixelQuantizeFonts})'
+  'CGContextSetStrokeColor':
+    'prefix': 'CGContextSetStrokeColor'
+    'body': 'CGContextSetStrokeColor(${1:CGContextRef context}, ${2:CGFloat* components})'
+  'CGContextSetStrokeColorSpace':
+    'prefix': 'CGContextSetStrokeColorSpace'
+    'body': 'CGContextSetStrokeColorSpace(${1:CGContextRef context}, ${2:CGColorSpaceRef space})'
+  'CGContextSetStrokeColorWithColor':
+    'prefix': 'CGContextSetStrokeColorWithColor'
+    'body': 'CGContextSetStrokeColorWithColor(${1:CGContextRef c}, ${2:CGColorRef color})'
+  'CGContextSetStrokePattern':
+    'prefix': 'CGContextSetStrokePattern'
+    'body': 'CGContextSetStrokePattern(${1:CGContextRef context}, ${2:CGPatternRef pattern}, ${3:CGFloat* components})'
+  'CGContextSetTextDrawingMode':
+    'prefix': 'CGContextSetTextDrawingMode'
+    'body': 'CGContextSetTextDrawingMode(${1:CGContextRef c}, ${2:CGTextDrawingMode mode})'
+  'CGContextSetTextMatrix':
+    'prefix': 'CGContextSetTextMatrix'
+    'body': 'CGContextSetTextMatrix(${1:CGContextRef c}, ${2:CGAffineTransform t})'
+  'CGContextSetTextPosition':
+    'prefix': 'CGContextSetTextPosition'
+    'body': 'CGContextSetTextPosition(${1:CGContextRef c}, ${2:CGFloat x}, ${3:CGFloat y})'
+  'CGContextShowGlyphs':
+    'prefix': 'CGContextShowGlyphs'
+    'body': 'CGContextShowGlyphs(${1:CGContextRef c}, ${2:CGGlyph* g}, ${3:size_t count})'
+  'CGContextShowGlyphsAtPoint':
+    'prefix': 'CGContextShowGlyphsAtPoint'
+    'body': 'CGContextShowGlyphsAtPoint(${1:CGContextRef context}, ${2:CGFloat x}, ${3:CGFloat y}, ${4:CGGlyph* glyphs}, ${5:size_t count})'
+  'CGContextShowGlyphsAtPositions':
+    'prefix': 'CGContextShowGlyphsAtPositions'
+    'body': 'CGContextShowGlyphsAtPositions(${1:CGContextRef context}, ${2:CGGlyph* glyphs}, ${3:CGPoint* positions}, ${4:size_t count})'
+  'CGContextShowGlyphsWithAdvances':
+    'prefix': 'CGContextShowGlyphsWithAdvances'
+    'body': 'CGContextShowGlyphsWithAdvances(${1:CGContextRef context}, ${2:CGGlyph* glyphs}, ${3:CGSize* advances}, ${4:size_t count})'
+  'CGContextShowText':
+    'prefix': 'CGContextShowText'
+    'body': 'CGContextShowText(${1:CGContextRef c}, ${2:char* string}, ${3:size_t length})'
+  'CGContextShowTextAtPoint':
+    'prefix': 'CGContextShowTextAtPoint'
+    'body': 'CGContextShowTextAtPoint(${1:CGContextRef c}, ${2:CGFloat x}, ${3:CGFloat y}, ${4:char* string}, ${5:size_t length})'
+  'CGContextStrokeEllipseInRect':
+    'prefix': 'CGContextStrokeEllipseInRect'
+    'body': 'CGContextStrokeEllipseInRect(${1:CGContextRef context}, ${2:CGRect rect})'
+  'CGContextStrokeLineSegments':
+    'prefix': 'CGContextStrokeLineSegments'
+    'body': 'CGContextStrokeLineSegments(${1:CGContextRef c}, ${2:CGPoint* points}, ${3:size_t count})'
+  'CGContextStrokePath':
+    'prefix': 'CGContextStrokePath'
+    'body': 'CGContextStrokePath(${1:CGContextRef c})'
+  'CGContextStrokeRect':
+    'prefix': 'CGContextStrokeRect'
+    'body': 'CGContextStrokeRect(${1:CGContextRef c}, ${2:CGRect rect})'
+  'CGContextStrokeRectWithWidth':
+    'prefix': 'CGContextStrokeRectWithWidth'
+    'body': 'CGContextStrokeRectWithWidth(${1:CGContextRef c}, ${2:CGRect rect}, ${3:CGFloat width})'
+  'CGContextSynchronize':
+    'prefix': 'CGContextSynchronize'
+    'body': 'CGContextSynchronize(${1:CGContextRef c})'
+  'CGContextTranslateCTM':
+    'prefix': 'CGContextTranslateCTM'
+    'body': 'CGContextTranslateCTM(${1:CGContextRef c}, ${2:CGFloat tx}, ${3:CGFloat ty})'
+  'CGCursorIsDrawnInFramebuffer':
+    'prefix': 'CGCursorIsDrawnInFramebuffer'
+    'body': 'CGCursorIsDrawnInFramebuffer()'
+  'CGCursorIsVisible':
+    'prefix': 'CGCursorIsVisible'
+    'body': 'CGCursorIsVisible()'
+  'CGDataConsumerCreate':
+    'prefix': 'CGDataConsumerCreate'
+    'body': 'CGDataConsumerCreate(${1:void* info}, ${2:CGDataConsumerCallbacks* callbacks})'
+  'CGDataConsumerCreateWithCFData':
+    'prefix': 'CGDataConsumerCreateWithCFData'
+    'body': 'CGDataConsumerCreateWithCFData(${1:CFMutableDataRef data})'
+  'CGDataConsumerCreateWithURL':
+    'prefix': 'CGDataConsumerCreateWithURL'
+    'body': 'CGDataConsumerCreateWithURL(${1:CFURLRef url})'
+  'CGDataConsumerGetTypeID':
+    'prefix': 'CGDataConsumerGetTypeID'
+    'body': 'CGDataConsumerGetTypeID()'
+  'CGDataConsumerRelease':
+    'prefix': 'CGDataConsumerRelease'
+    'body': 'CGDataConsumerRelease(${1:CGDataConsumerRef consumer})'
+  'CGDataConsumerRetain':
+    'prefix': 'CGDataConsumerRetain'
+    'body': 'CGDataConsumerRetain(${1:CGDataConsumerRef consumer})'
+  'CGDataProviderCopyData':
+    'prefix': 'CGDataProviderCopyData'
+    'body': 'CGDataProviderCopyData(${1:CGDataProviderRef provider})'
+  'CGDataProviderCreateDirect':
+    'prefix': 'CGDataProviderCreateDirect'
+    'body': 'CGDataProviderCreateDirect(${1:void* info}, ${2:off_t size}, ${3:CGDataProviderDirectCallbacks* callbacks})'
+  'CGDataProviderCreateSequential':
+    'prefix': 'CGDataProviderCreateSequential'
+    'body': 'CGDataProviderCreateSequential(${1:void* info}, ${2:CGDataProviderSequentialCallbacks* callbacks})'
+  'CGDataProviderCreateWithCFData':
+    'prefix': 'CGDataProviderCreateWithCFData'
+    'body': 'CGDataProviderCreateWithCFData(${1:CFDataRef data})'
+  'CGDataProviderCreateWithData':
+    'prefix': 'CGDataProviderCreateWithData'
+    'body': 'CGDataProviderCreateWithData(${1:void* info}, ${2:void* data}, ${3:size_t size}, ${4:CGDataProviderReleaseDataCallback releaseData})'
+  'CGDataProviderCreateWithFilename':
+    'prefix': 'CGDataProviderCreateWithFilename'
+    'body': 'CGDataProviderCreateWithFilename(${1:char* filename})'
+  'CGDataProviderCreateWithURL':
+    'prefix': 'CGDataProviderCreateWithURL'
+    'body': 'CGDataProviderCreateWithURL(${1:CFURLRef url})'
+  'CGDataProviderGetTypeID':
+    'prefix': 'CGDataProviderGetTypeID'
+    'body': 'CGDataProviderGetTypeID()'
+  'CGDataProviderRelease':
+    'prefix': 'CGDataProviderRelease'
+    'body': 'CGDataProviderRelease(${1:CGDataProviderRef provider})'
+  'CGDataProviderRetain':
+    'prefix': 'CGDataProviderRetain'
+    'body': 'CGDataProviderRetain(${1:CGDataProviderRef provider})'
+  'CGDisplayAvailableModes':
+    'prefix': 'CGDisplayAvailableModes'
+    'body': 'CGDisplayAvailableModes(${1:CGDirectDisplayID display})'
+  'CGDisplayBestModeForParameters':
+    'prefix': 'CGDisplayBestModeForParameters'
+    'body': 'CGDisplayBestModeForParameters(${1:CGDirectDisplayID display}, ${2:size_t bitsPerPixel}, ${3:size_t width}, ${4:size_t height}, ${5:boolean_t* exactMatch})'
+  'CGDisplayBestModeForParametersAndRefreshRate':
+    'prefix': 'CGDisplayBestModeForParametersAndRefreshRate'
+    'body': 'CGDisplayBestModeForParametersAndRefreshRate(${1:CGDirectDisplayID display}, ${2:size_t bitsPerPixel}, ${3:size_t width}, ${4:size_t height}, ${5:CGRefreshRate refreshRate}, ${6:boolean_t* exactMatch})'
+  'CGDisplayBounds':
+    'prefix': 'CGDisplayBounds'
+    'body': 'CGDisplayBounds(${1:CGDirectDisplayID display})'
+  'CGDisplayCapture':
+    'prefix': 'CGDisplayCapture'
+    'body': 'CGDisplayCapture(${1:CGDirectDisplayID display})'
+  'CGDisplayCaptureWithOptions':
+    'prefix': 'CGDisplayCaptureWithOptions'
+    'body': 'CGDisplayCaptureWithOptions(${1:CGDirectDisplayID display}, ${2:CGCaptureOptions options})'
+  'CGDisplayCopyAllDisplayModes':
+    'prefix': 'CGDisplayCopyAllDisplayModes'
+    'body': 'CGDisplayCopyAllDisplayModes(${1:CGDirectDisplayID display}, ${2:CFDictionaryRef options})'
+  'CGDisplayCopyColorSpace':
+    'prefix': 'CGDisplayCopyColorSpace'
+    'body': 'CGDisplayCopyColorSpace(${1:CGDirectDisplayID display})'
+  'CGDisplayCopyDisplayMode':
+    'prefix': 'CGDisplayCopyDisplayMode'
+    'body': 'CGDisplayCopyDisplayMode(${1:CGDirectDisplayID display})'
+  'CGDisplayCreateImage':
+    'prefix': 'CGDisplayCreateImage'
+    'body': 'CGDisplayCreateImage(${1:CGDirectDisplayID displayID})'
+  'CGDisplayCreateImageForRect':
+    'prefix': 'CGDisplayCreateImageForRect'
+    'body': 'CGDisplayCreateImageForRect(${1:CGDirectDisplayID display}, ${2:CGRect rect})'
+  'CGDisplayCurrentMode':
+    'prefix': 'CGDisplayCurrentMode'
+    'body': 'CGDisplayCurrentMode(${1:CGDirectDisplayID display})'
+  'CGDisplayFade':
+    'prefix': 'CGDisplayFade'
+    'body': 'CGDisplayFade(${1:CGDisplayFadeReservationToken token}, ${2:CGDisplayFadeInterval duration}, ${3:CGDisplayBlendFraction startBlend}, ${4:CGDisplayBlendFraction endBlend}, ${5:float redBlend}, ${6:float greenBlend}, ${7:float blueBlend}, ${8:boolean_t synchronous})'
+  'CGDisplayFadeOperationInProgress':
+    'prefix': 'CGDisplayFadeOperationInProgress'
+    'body': 'CGDisplayFadeOperationInProgress()'
+  'CGDisplayGammaTableCapacity':
+    'prefix': 'CGDisplayGammaTableCapacity'
+    'body': 'CGDisplayGammaTableCapacity(${1:CGDirectDisplayID display})'
+  'CGDisplayGetDrawingContext':
+    'prefix': 'CGDisplayGetDrawingContext'
+    'body': 'CGDisplayGetDrawingContext(${1:CGDirectDisplayID display})'
+  'CGDisplayHideCursor':
+    'prefix': 'CGDisplayHideCursor'
+    'body': 'CGDisplayHideCursor(${1:CGDirectDisplayID display})'
+  'CGDisplayIDToOpenGLDisplayMask':
+    'prefix': 'CGDisplayIDToOpenGLDisplayMask'
+    'body': 'CGDisplayIDToOpenGLDisplayMask(${1:CGDirectDisplayID display})'
+  'CGDisplayIOServicePort':
+    'prefix': 'CGDisplayIOServicePort'
+    'body': 'CGDisplayIOServicePort(${1:CGDirectDisplayID display})'
+  'CGDisplayIsActive':
+    'prefix': 'CGDisplayIsActive'
+    'body': 'CGDisplayIsActive(${1:CGDirectDisplayID display})'
+  'CGDisplayIsAlwaysInMirrorSet':
+    'prefix': 'CGDisplayIsAlwaysInMirrorSet'
+    'body': 'CGDisplayIsAlwaysInMirrorSet(${1:CGDirectDisplayID display})'
+  'CGDisplayIsAsleep':
+    'prefix': 'CGDisplayIsAsleep'
+    'body': 'CGDisplayIsAsleep(${1:CGDirectDisplayID display})'
+  'CGDisplayIsBuiltin':
+    'prefix': 'CGDisplayIsBuiltin'
+    'body': 'CGDisplayIsBuiltin(${1:CGDirectDisplayID display})'
+  'CGDisplayIsCaptured':
+    'prefix': 'CGDisplayIsCaptured'
+    'body': 'CGDisplayIsCaptured(${1:CGDirectDisplayID display})'
+  'CGDisplayIsInHWMirrorSet':
+    'prefix': 'CGDisplayIsInHWMirrorSet'
+    'body': 'CGDisplayIsInHWMirrorSet(${1:CGDirectDisplayID display})'
+  'CGDisplayIsInMirrorSet':
+    'prefix': 'CGDisplayIsInMirrorSet'
+    'body': 'CGDisplayIsInMirrorSet(${1:CGDirectDisplayID display})'
+  'CGDisplayIsMain':
+    'prefix': 'CGDisplayIsMain'
+    'body': 'CGDisplayIsMain(${1:CGDirectDisplayID display})'
+  'CGDisplayIsOnline':
+    'prefix': 'CGDisplayIsOnline'
+    'body': 'CGDisplayIsOnline(${1:CGDirectDisplayID display})'
+  'CGDisplayIsStereo':
+    'prefix': 'CGDisplayIsStereo'
+    'body': 'CGDisplayIsStereo(${1:CGDirectDisplayID display})'
+  'CGDisplayMirrorsDisplay':
+    'prefix': 'CGDisplayMirrorsDisplay'
+    'body': 'CGDisplayMirrorsDisplay(${1:CGDirectDisplayID display})'
+  'CGDisplayModeCopyPixelEncoding':
+    'prefix': 'CGDisplayModeCopyPixelEncoding'
+    'body': 'CGDisplayModeCopyPixelEncoding(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetHeight':
+    'prefix': 'CGDisplayModeGetHeight'
+    'body': 'CGDisplayModeGetHeight(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetIODisplayModeID':
+    'prefix': 'CGDisplayModeGetIODisplayModeID'
+    'body': 'CGDisplayModeGetIODisplayModeID(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetIOFlags':
+    'prefix': 'CGDisplayModeGetIOFlags'
+    'body': 'CGDisplayModeGetIOFlags(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetPixelHeight':
+    'prefix': 'CGDisplayModeGetPixelHeight'
+    'body': 'CGDisplayModeGetPixelHeight(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetPixelWidth':
+    'prefix': 'CGDisplayModeGetPixelWidth'
+    'body': 'CGDisplayModeGetPixelWidth(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetRefreshRate':
+    'prefix': 'CGDisplayModeGetRefreshRate'
+    'body': 'CGDisplayModeGetRefreshRate(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeGetTypeID':
+    'prefix': 'CGDisplayModeGetTypeID'
+    'body': 'CGDisplayModeGetTypeID()'
+  'CGDisplayModeGetWidth':
+    'prefix': 'CGDisplayModeGetWidth'
+    'body': 'CGDisplayModeGetWidth(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeIsUsableForDesktopGUI':
+    'prefix': 'CGDisplayModeIsUsableForDesktopGUI'
+    'body': 'CGDisplayModeIsUsableForDesktopGUI(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeRelease':
+    'prefix': 'CGDisplayModeRelease'
+    'body': 'CGDisplayModeRelease(${1:CGDisplayModeRef mode})'
+  'CGDisplayModeRetain':
+    'prefix': 'CGDisplayModeRetain'
+    'body': 'CGDisplayModeRetain(${1:CGDisplayModeRef mode})'
+  'CGDisplayModelNumber':
+    'prefix': 'CGDisplayModelNumber'
+    'body': 'CGDisplayModelNumber(${1:CGDirectDisplayID display})'
+  'CGDisplayMoveCursorToPoint':
+    'prefix': 'CGDisplayMoveCursorToPoint'
+    'body': 'CGDisplayMoveCursorToPoint(${1:CGDirectDisplayID display}, ${2:CGPoint point})'
+  'CGDisplayPixelsHigh':
+    'prefix': 'CGDisplayPixelsHigh'
+    'body': 'CGDisplayPixelsHigh(${1:CGDirectDisplayID display})'
+  'CGDisplayPixelsWide':
+    'prefix': 'CGDisplayPixelsWide'
+    'body': 'CGDisplayPixelsWide(${1:CGDirectDisplayID display})'
+  'CGDisplayPrimaryDisplay':
+    'prefix': 'CGDisplayPrimaryDisplay'
+    'body': 'CGDisplayPrimaryDisplay(${1:CGDirectDisplayID display})'
+  'CGDisplayRegisterReconfigurationCallback':
+    'prefix': 'CGDisplayRegisterReconfigurationCallback'
+    'body': 'CGDisplayRegisterReconfigurationCallback(${1:CGDisplayReconfigurationCallBack callback}, ${2:void* userInfo})'
+  'CGDisplayRelease':
+    'prefix': 'CGDisplayRelease'
+    'body': 'CGDisplayRelease(${1:CGDirectDisplayID display})'
+  'CGDisplayRemoveReconfigurationCallback':
+    'prefix': 'CGDisplayRemoveReconfigurationCallback'
+    'body': 'CGDisplayRemoveReconfigurationCallback(${1:CGDisplayReconfigurationCallBack callback}, ${2:void* userInfo})'
+  'CGDisplayRestoreColorSyncSettings':
+    'prefix': 'CGDisplayRestoreColorSyncSettings'
+    'body': 'CGDisplayRestoreColorSyncSettings()'
+  'CGDisplayRotation':
+    'prefix': 'CGDisplayRotation'
+    'body': 'CGDisplayRotation(${1:CGDirectDisplayID display})'
+  'CGDisplayScreenSize':
+    'prefix': 'CGDisplayScreenSize'
+    'body': 'CGDisplayScreenSize(${1:CGDirectDisplayID display})'
+  'CGDisplaySerialNumber':
+    'prefix': 'CGDisplaySerialNumber'
+    'body': 'CGDisplaySerialNumber(${1:CGDirectDisplayID display})'
+  'CGDisplaySetDisplayMode':
+    'prefix': 'CGDisplaySetDisplayMode'
+    'body': 'CGDisplaySetDisplayMode(${1:CGDirectDisplayID display}, ${2:CGDisplayModeRef mode}, ${3:CFDictionaryRef options})'
+  'CGDisplaySetStereoOperation':
+    'prefix': 'CGDisplaySetStereoOperation'
+    'body': 'CGDisplaySetStereoOperation(${1:CGDirectDisplayID display}, ${2:boolean_t stereo}, ${3:boolean_t forceBlueLine}, ${4:CGConfigureOption option})'
+  'CGDisplayShowCursor':
+    'prefix': 'CGDisplayShowCursor'
+    'body': 'CGDisplayShowCursor(${1:CGDirectDisplayID display})'
+  'CGDisplayStreamCreate':
+    'prefix': 'CGDisplayStreamCreate'
+    'body': 'CGDisplayStreamCreate(${1:CGDirectDisplayID display}, ${2:size_t outputWidth}, ${3:size_t outputHeight}, ${4:int32_t pixelFormat}, ${5:CFDictionaryRef properties}, ${6:CGDisplayStreamFrameAvailableHandler handler})'
+  'CGDisplayStreamCreateWithDispatchQueue':
+    'prefix': 'CGDisplayStreamCreateWithDispatchQueue'
+    'body': 'CGDisplayStreamCreateWithDispatchQueue(${1:CGDirectDisplayID display}, ${2:size_t outputWidth}, ${3:size_t outputHeight}, ${4:int32_t pixelFormat}, ${5:CFDictionaryRef properties}, ${6:dispatch_queue_t queue}, ${7:CGDisplayStreamFrameAvailableHandler handler})'
+  'CGDisplayStreamGetRunLoopSource':
+    'prefix': 'CGDisplayStreamGetRunLoopSource'
+    'body': 'CGDisplayStreamGetRunLoopSource(${1:CGDisplayStreamRef displayStream})'
+  'CGDisplayStreamGetTypeID':
+    'prefix': 'CGDisplayStreamGetTypeID'
+    'body': 'CGDisplayStreamGetTypeID()'
+  'CGDisplayStreamStart':
+    'prefix': 'CGDisplayStreamStart'
+    'body': 'CGDisplayStreamStart(${1:CGDisplayStreamRef displayStream})'
+  'CGDisplayStreamStop':
+    'prefix': 'CGDisplayStreamStop'
+    'body': 'CGDisplayStreamStop(${1:CGDisplayStreamRef displayStream})'
+  'CGDisplayStreamUpdateCreateMergedUpdate':
+    'prefix': 'CGDisplayStreamUpdateCreateMergedUpdate'
+    'body': 'CGDisplayStreamUpdateCreateMergedUpdate(${1:CGDisplayStreamUpdateRef firstUpdate}, ${2:CGDisplayStreamUpdateRef secondUpdate})'
+  'CGDisplayStreamUpdateGetDropCount':
+    'prefix': 'CGDisplayStreamUpdateGetDropCount'
+    'body': 'CGDisplayStreamUpdateGetDropCount(${1:CGDisplayStreamUpdateRef updateRef})'
+  'CGDisplayStreamUpdateGetMovedRectsDelta':
+    'prefix': 'CGDisplayStreamUpdateGetMovedRectsDelta'
+    'body': 'CGDisplayStreamUpdateGetMovedRectsDelta(${1:CGDisplayStreamUpdateRef updateRef}, ${2:CGFloat* dx}, ${3:CGFloat* dy})'
+  'CGDisplayStreamUpdateGetRects':
+    'prefix': 'CGDisplayStreamUpdateGetRects'
+    'body': 'CGDisplayStreamUpdateGetRects(${1:CGDisplayStreamUpdateRef updateRef}, ${2:CGDisplayStreamUpdateRectType rectType}, ${3:size_t* rectCount})'
+  'CGDisplayStreamUpdateGetTypeID':
+    'prefix': 'CGDisplayStreamUpdateGetTypeID'
+    'body': 'CGDisplayStreamUpdateGetTypeID()'
+  'CGDisplaySwitchToMode':
+    'prefix': 'CGDisplaySwitchToMode'
+    'body': 'CGDisplaySwitchToMode(${1:CGDirectDisplayID display}, ${2:CFDictionaryRef mode})'
+  'CGDisplayUnitNumber':
+    'prefix': 'CGDisplayUnitNumber'
+    'body': 'CGDisplayUnitNumber(${1:CGDirectDisplayID display})'
+  'CGDisplayUsesOpenGLAcceleration':
+    'prefix': 'CGDisplayUsesOpenGLAcceleration'
+    'body': 'CGDisplayUsesOpenGLAcceleration(${1:CGDirectDisplayID display})'
+  'CGDisplayVendorNumber':
+    'prefix': 'CGDisplayVendorNumber'
+    'body': 'CGDisplayVendorNumber(${1:CGDirectDisplayID display})'
+  'CGEnableEventStateCombining':
+    'prefix': 'CGEnableEventStateCombining'
+    'body': 'CGEnableEventStateCombining(${1:boolean_t combineState})'
+  'CGEventCreate':
+    'prefix': 'CGEventCreate'
+    'body': 'CGEventCreate(${1:CGEventSourceRef source})'
+  'CGEventCreateCopy':
+    'prefix': 'CGEventCreateCopy'
+    'body': 'CGEventCreateCopy(${1:CGEventRef event})'
+  'CGEventCreateData':
+    'prefix': 'CGEventCreateData'
+    'body': 'CGEventCreateData(${1:CFAllocatorRef allocator}, ${2:CGEventRef event})'
+  'CGEventCreateFromData':
+    'prefix': 'CGEventCreateFromData'
+    'body': 'CGEventCreateFromData(${1:CFAllocatorRef allocator}, ${2:CFDataRef data})'
+  'CGEventCreateKeyboardEvent':
+    'prefix': 'CGEventCreateKeyboardEvent'
+    'body': 'CGEventCreateKeyboardEvent(${1:CGEventSourceRef source}, ${2:CGKeyCode virtualKey}, ${3:_Bool keyDown})'
+  'CGEventCreateMouseEvent':
+    'prefix': 'CGEventCreateMouseEvent'
+    'body': 'CGEventCreateMouseEvent(${1:CGEventSourceRef source}, ${2:CGEventType mouseType}, ${3:CGPoint mouseCursorPosition}, ${4:CGMouseButton mouseButton})'
+  'CGEventCreateScrollWheelEvent':
+    'prefix': 'CGEventCreateScrollWheelEvent'
+    'body': 'CGEventCreateScrollWheelEvent(${1:CGEventSourceRef source}, ${2:CGScrollEventUnit units}, ${3:uint32_t wheelCount}, ${4:int32_t wheel1})'
+  'CGEventCreateSourceFromEvent':
+    'prefix': 'CGEventCreateSourceFromEvent'
+    'body': 'CGEventCreateSourceFromEvent(${1:CGEventRef event})'
+  'CGEventGetDoubleValueField':
+    'prefix': 'CGEventGetDoubleValueField'
+    'body': 'CGEventGetDoubleValueField(${1:CGEventRef event}, ${2:CGEventField field})'
+  'CGEventGetFlags':
+    'prefix': 'CGEventGetFlags'
+    'body': 'CGEventGetFlags(${1:CGEventRef event})'
+  'CGEventGetIntegerValueField':
+    'prefix': 'CGEventGetIntegerValueField'
+    'body': 'CGEventGetIntegerValueField(${1:CGEventRef event}, ${2:CGEventField field})'
+  'CGEventGetLocation':
+    'prefix': 'CGEventGetLocation'
+    'body': 'CGEventGetLocation(${1:CGEventRef event})'
+  'CGEventGetTimestamp':
+    'prefix': 'CGEventGetTimestamp'
+    'body': 'CGEventGetTimestamp(${1:CGEventRef event})'
+  'CGEventGetType':
+    'prefix': 'CGEventGetType'
+    'body': 'CGEventGetType(${1:CGEventRef event})'
+  'CGEventGetTypeID':
+    'prefix': 'CGEventGetTypeID'
+    'body': 'CGEventGetTypeID()'
+  'CGEventGetUnflippedLocation':
+    'prefix': 'CGEventGetUnflippedLocation'
+    'body': 'CGEventGetUnflippedLocation(${1:CGEventRef event})'
+  'CGEventKeyboardGetUnicodeString':
+    'prefix': 'CGEventKeyboardGetUnicodeString'
+    'body': 'CGEventKeyboardGetUnicodeString(${1:CGEventRef event}, ${2:UniCharCount maxStringLength}, ${3:UniCharCount* actualStringLength}, ${4:UniChar* unicodeString})'
+  'CGEventKeyboardSetUnicodeString':
+    'prefix': 'CGEventKeyboardSetUnicodeString'
+    'body': 'CGEventKeyboardSetUnicodeString(${1:CGEventRef event}, ${2:UniCharCount stringLength}, ${3:UniChar* unicodeString})'
+  'CGEventPost':
+    'prefix': 'CGEventPost'
+    'body': 'CGEventPost(${1:CGEventTapLocation tap}, ${2:CGEventRef event})'
+  'CGEventPostToPSN':
+    'prefix': 'CGEventPostToPSN'
+    'body': 'CGEventPostToPSN(${1:void* processSerialNumber}, ${2:CGEventRef event})'
+  'CGEventSetDoubleValueField':
+    'prefix': 'CGEventSetDoubleValueField'
+    'body': 'CGEventSetDoubleValueField(${1:CGEventRef event}, ${2:CGEventField field}, ${3:double value})'
+  'CGEventSetFlags':
+    'prefix': 'CGEventSetFlags'
+    'body': 'CGEventSetFlags(${1:CGEventRef event}, ${2:CGEventFlags flags})'
+  'CGEventSetIntegerValueField':
+    'prefix': 'CGEventSetIntegerValueField'
+    'body': 'CGEventSetIntegerValueField(${1:CGEventRef event}, ${2:CGEventField field}, ${3:int64_t value})'
+  'CGEventSetLocation':
+    'prefix': 'CGEventSetLocation'
+    'body': 'CGEventSetLocation(${1:CGEventRef event}, ${2:CGPoint location})'
+  'CGEventSetSource':
+    'prefix': 'CGEventSetSource'
+    'body': 'CGEventSetSource(${1:CGEventRef event}, ${2:CGEventSourceRef source})'
+  'CGEventSetTimestamp':
+    'prefix': 'CGEventSetTimestamp'
+    'body': 'CGEventSetTimestamp(${1:CGEventRef event}, ${2:CGEventTimestamp timestamp})'
+  'CGEventSetType':
+    'prefix': 'CGEventSetType'
+    'body': 'CGEventSetType(${1:CGEventRef event}, ${2:CGEventType type})'
+  'CGEventSourceButtonState':
+    'prefix': 'CGEventSourceButtonState'
+    'body': 'CGEventSourceButtonState(${1:CGEventSourceStateID stateID}, ${2:CGMouseButton button})'
+  'CGEventSourceCounterForEventType':
+    'prefix': 'CGEventSourceCounterForEventType'
+    'body': 'CGEventSourceCounterForEventType(${1:CGEventSourceStateID stateID}, ${2:CGEventType eventType})'
+  'CGEventSourceCreate':
+    'prefix': 'CGEventSourceCreate'
+    'body': 'CGEventSourceCreate(${1:CGEventSourceStateID stateID})'
+  'CGEventSourceFlagsState':
+    'prefix': 'CGEventSourceFlagsState'
+    'body': 'CGEventSourceFlagsState(${1:CGEventSourceStateID stateID})'
+  'CGEventSourceGetKeyboardType':
+    'prefix': 'CGEventSourceGetKeyboardType'
+    'body': 'CGEventSourceGetKeyboardType(${1:CGEventSourceRef source})'
+  'CGEventSourceGetLocalEventsFilterDuringSuppressionState':
+    'prefix': 'CGEventSourceGetLocalEventsFilterDuringSuppressionState'
+    'body': 'CGEventSourceGetLocalEventsFilterDuringSuppressionState(${1:CGEventSourceRef source}, ${2:CGEventSuppressionState state})'
+  'CGEventSourceGetLocalEventsSuppressionInterval':
+    'prefix': 'CGEventSourceGetLocalEventsSuppressionInterval'
+    'body': 'CGEventSourceGetLocalEventsSuppressionInterval(${1:CGEventSourceRef source})'
+  'CGEventSourceGetPixelsPerLine':
+    'prefix': 'CGEventSourceGetPixelsPerLine'
+    'body': 'CGEventSourceGetPixelsPerLine(${1:CGEventSourceRef source})'
+  'CGEventSourceGetSourceStateID':
+    'prefix': 'CGEventSourceGetSourceStateID'
+    'body': 'CGEventSourceGetSourceStateID(${1:CGEventSourceRef source})'
+  'CGEventSourceGetTypeID':
+    'prefix': 'CGEventSourceGetTypeID'
+    'body': 'CGEventSourceGetTypeID()'
+  'CGEventSourceGetUserData':
+    'prefix': 'CGEventSourceGetUserData'
+    'body': 'CGEventSourceGetUserData(${1:CGEventSourceRef source})'
+  'CGEventSourceKeyState':
+    'prefix': 'CGEventSourceKeyState'
+    'body': 'CGEventSourceKeyState(${1:CGEventSourceStateID stateID}, ${2:CGKeyCode key})'
+  'CGEventSourceSecondsSinceLastEventType':
+    'prefix': 'CGEventSourceSecondsSinceLastEventType'
+    'body': 'CGEventSourceSecondsSinceLastEventType(${1:CGEventSourceStateID stateID}, ${2:CGEventType eventType})'
+  'CGEventSourceSetKeyboardType':
+    'prefix': 'CGEventSourceSetKeyboardType'
+    'body': 'CGEventSourceSetKeyboardType(${1:CGEventSourceRef source}, ${2:CGEventSourceKeyboardType keyboardType})'
+  'CGEventSourceSetLocalEventsFilterDuringSuppressionState':
+    'prefix': 'CGEventSourceSetLocalEventsFilterDuringSuppressionState'
+    'body': 'CGEventSourceSetLocalEventsFilterDuringSuppressionState(${1:CGEventSourceRef source}, ${2:CGEventFilterMask filter}, ${3:CGEventSuppressionState state})'
+  'CGEventSourceSetLocalEventsSuppressionInterval':
+    'prefix': 'CGEventSourceSetLocalEventsSuppressionInterval'
+    'body': 'CGEventSourceSetLocalEventsSuppressionInterval(${1:CGEventSourceRef source}, ${2:CFTimeInterval seconds})'
+  'CGEventSourceSetPixelsPerLine':
+    'prefix': 'CGEventSourceSetPixelsPerLine'
+    'body': 'CGEventSourceSetPixelsPerLine(${1:CGEventSourceRef source}, ${2:double pixelsPerLine})'
+  'CGEventSourceSetUserData':
+    'prefix': 'CGEventSourceSetUserData'
+    'body': 'CGEventSourceSetUserData(${1:CGEventSourceRef source}, ${2:int64_t userData})'
+  'CGEventTapCreate':
+    'prefix': 'CGEventTapCreate'
+    'body': 'CGEventTapCreate(${1:CGEventTapLocation tap}, ${2:CGEventTapPlacement place}, ${3:CGEventTapOptions options}, ${4:CGEventMask eventsOfInterest}, ${5:CGEventTapCallBack callback}, ${6:void* userInfo})'
+  'CGEventTapCreateForPSN':
+    'prefix': 'CGEventTapCreateForPSN'
+    'body': 'CGEventTapCreateForPSN(${1:void* processSerialNumber}, ${2:CGEventTapPlacement place}, ${3:CGEventTapOptions options}, ${4:CGEventMask eventsOfInterest}, ${5:CGEventTapCallBack callback}, ${6:void* userInfo})'
+  'CGEventTapEnable':
+    'prefix': 'CGEventTapEnable'
+    'body': 'CGEventTapEnable(${1:CFMachPortRef tap}, ${2:_Bool enable})'
+  'CGEventTapIsEnabled':
+    'prefix': 'CGEventTapIsEnabled'
+    'body': 'CGEventTapIsEnabled(${1:CFMachPortRef tap})'
+  'CGEventTapPostEvent':
+    'prefix': 'CGEventTapPostEvent'
+    'body': 'CGEventTapPostEvent(${1:CGEventTapProxy proxy}, ${2:CGEventRef event})'
+  'CGFontCanCreatePostScriptSubset':
+    'prefix': 'CGFontCanCreatePostScriptSubset'
+    'body': 'CGFontCanCreatePostScriptSubset(${1:CGFontRef font}, ${2:CGFontPostScriptFormat format})'
+  'CGFontCopyFullName':
+    'prefix': 'CGFontCopyFullName'
+    'body': 'CGFontCopyFullName(${1:CGFontRef font})'
+  'CGFontCopyGlyphNameForGlyph':
+    'prefix': 'CGFontCopyGlyphNameForGlyph'
+    'body': 'CGFontCopyGlyphNameForGlyph(${1:CGFontRef font}, ${2:CGGlyph glyph})'
+  'CGFontCopyPostScriptName':
+    'prefix': 'CGFontCopyPostScriptName'
+    'body': 'CGFontCopyPostScriptName(${1:CGFontRef font})'
+  'CGFontCopyTableForTag':
+    'prefix': 'CGFontCopyTableForTag'
+    'body': 'CGFontCopyTableForTag(${1:CGFontRef font}, ${2:uint32_t tag})'
+  'CGFontCopyTableTags':
+    'prefix': 'CGFontCopyTableTags'
+    'body': 'CGFontCopyTableTags(${1:CGFontRef font})'
+  'CGFontCopyVariationAxes':
+    'prefix': 'CGFontCopyVariationAxes'
+    'body': 'CGFontCopyVariationAxes(${1:CGFontRef font})'
+  'CGFontCopyVariations':
+    'prefix': 'CGFontCopyVariations'
+    'body': 'CGFontCopyVariations(${1:CGFontRef font})'
+  'CGFontCreateCopyWithVariations':
+    'prefix': 'CGFontCreateCopyWithVariations'
+    'body': 'CGFontCreateCopyWithVariations(${1:CGFontRef font}, ${2:CFDictionaryRef variations})'
+  'CGFontCreatePostScriptEncoding':
+    'prefix': 'CGFontCreatePostScriptEncoding'
+    'body': 'CGFontCreatePostScriptEncoding(${1:CGFontRef font}, ${2:CGGlyph* encoding})'
+  'CGFontCreatePostScriptSubset':
+    'prefix': 'CGFontCreatePostScriptSubset'
+    'body': 'CGFontCreatePostScriptSubset(${1:CGFontRef font}, ${2:CFStringRef subsetName}, ${3:CGFontPostScriptFormat format}, ${4:CGGlyph* glyphs}, ${5:size_t count}, ${6:CGGlyph* encoding})'
+  'CGFontCreateWithDataProvider':
+    'prefix': 'CGFontCreateWithDataProvider'
+    'body': 'CGFontCreateWithDataProvider(${1:CGDataProviderRef provider})'
+  'CGFontCreateWithFontName':
+    'prefix': 'CGFontCreateWithFontName'
+    'body': 'CGFontCreateWithFontName(${1:CFStringRef name})'
+  'CGFontCreateWithPlatformFont':
+    'prefix': 'CGFontCreateWithPlatformFont'
+    'body': 'CGFontCreateWithPlatformFont(${1:void* platformFontReference})'
+  'CGFontGetAscent':
+    'prefix': 'CGFontGetAscent'
+    'body': 'CGFontGetAscent(${1:CGFontRef font})'
+  'CGFontGetCapHeight':
+    'prefix': 'CGFontGetCapHeight'
+    'body': 'CGFontGetCapHeight(${1:CGFontRef font})'
+  'CGFontGetDescent':
+    'prefix': 'CGFontGetDescent'
+    'body': 'CGFontGetDescent(${1:CGFontRef font})'
+  'CGFontGetFontBBox':
+    'prefix': 'CGFontGetFontBBox'
+    'body': 'CGFontGetFontBBox(${1:CGFontRef font})'
+  'CGFontGetGlyphAdvances':
+    'prefix': 'CGFontGetGlyphAdvances'
+    'body': 'CGFontGetGlyphAdvances(${1:CGFontRef font}, ${2:CGGlyph* glyphs}, ${3:size_t count}, ${4:int* advances})'
+  'CGFontGetGlyphBBoxes':
+    'prefix': 'CGFontGetGlyphBBoxes'
+    'body': 'CGFontGetGlyphBBoxes(${1:CGFontRef font}, ${2:CGGlyph* glyphs}, ${3:size_t count}, ${4:CGRect* bboxes})'
+  'CGFontGetGlyphWithGlyphName':
+    'prefix': 'CGFontGetGlyphWithGlyphName'
+    'body': 'CGFontGetGlyphWithGlyphName(${1:CGFontRef font}, ${2:CFStringRef name})'
+  'CGFontGetItalicAngle':
+    'prefix': 'CGFontGetItalicAngle'
+    'body': 'CGFontGetItalicAngle(${1:CGFontRef font})'
+  'CGFontGetLeading':
+    'prefix': 'CGFontGetLeading'
+    'body': 'CGFontGetLeading(${1:CGFontRef font})'
+  'CGFontGetNumberOfGlyphs':
+    'prefix': 'CGFontGetNumberOfGlyphs'
+    'body': 'CGFontGetNumberOfGlyphs(${1:CGFontRef font})'
+  'CGFontGetStemV':
+    'prefix': 'CGFontGetStemV'
+    'body': 'CGFontGetStemV(${1:CGFontRef font})'
+  'CGFontGetTypeID':
+    'prefix': 'CGFontGetTypeID'
+    'body': 'CGFontGetTypeID()'
+  'CGFontGetUnitsPerEm':
+    'prefix': 'CGFontGetUnitsPerEm'
+    'body': 'CGFontGetUnitsPerEm(${1:CGFontRef font})'
+  'CGFontGetXHeight':
+    'prefix': 'CGFontGetXHeight'
+    'body': 'CGFontGetXHeight(${1:CGFontRef font})'
+  'CGFontRelease':
+    'prefix': 'CGFontRelease'
+    'body': 'CGFontRelease(${1:CGFontRef font})'
+  'CGFontRetain':
+    'prefix': 'CGFontRetain'
+    'body': 'CGFontRetain(${1:CGFontRef font})'
+  'CGFunctionCreate':
+    'prefix': 'CGFunctionCreate'
+    'body': 'CGFunctionCreate(${1:void* info}, ${2:size_t domainDimension}, ${3:CGFloat* domain}, ${4:size_t rangeDimension}, ${5:CGFloat* range}, ${6:CGFunctionCallbacks* callbacks})'
+  'CGFunctionGetTypeID':
+    'prefix': 'CGFunctionGetTypeID'
+    'body': 'CGFunctionGetTypeID()'
+  'CGFunctionRelease':
+    'prefix': 'CGFunctionRelease'
+    'body': 'CGFunctionRelease(${1:CGFunctionRef function})'
+  'CGFunctionRetain':
+    'prefix': 'CGFunctionRetain'
+    'body': 'CGFunctionRetain(${1:CGFunctionRef function})'
+  'CGGLContextCreate':
+    'prefix': 'CGGLContextCreate'
+    'body': 'CGGLContextCreate(${1:void* glContext}, ${2:CGSize size}, ${3:CGColorSpaceRef colorspace})'
+  'CGGLContextUpdateViewportSize':
+    'prefix': 'CGGLContextUpdateViewportSize'
+    'body': 'CGGLContextUpdateViewportSize(${1:CGContextRef c}, ${2:CGSize size})'
+  'CGGetActiveDisplayList':
+    'prefix': 'CGGetActiveDisplayList'
+    'body': 'CGGetActiveDisplayList(${1:uint32_t maxDisplays}, ${2:CGDirectDisplayID* activeDisplays}, ${3:uint32_t* displayCount})'
+  'CGGetDisplayTransferByFormula':
+    'prefix': 'CGGetDisplayTransferByFormula'
+    'body': 'CGGetDisplayTransferByFormula(${1:CGDirectDisplayID display}, ${2:CGGammaValue* redMin}, ${3:CGGammaValue* redMax}, ${4:CGGammaValue* redGamma}, ${5:CGGammaValue* greenMin}, ${6:CGGammaValue* greenMax}, ${7:CGGammaValue* greenGamma}, ${8:CGGammaValue* blueMin}, ${9:CGGammaValue* blueMax}, ${10:CGGammaValue* blueGamma})'
+  'CGGetDisplayTransferByTable':
+    'prefix': 'CGGetDisplayTransferByTable'
+    'body': 'CGGetDisplayTransferByTable(${1:CGDirectDisplayID display}, ${2:uint32_t capacity}, ${3:CGGammaValue* redTable}, ${4:CGGammaValue* greenTable}, ${5:CGGammaValue* blueTable}, ${6:uint32_t* sampleCount})'
+  'CGGetDisplaysWithOpenGLDisplayMask':
+    'prefix': 'CGGetDisplaysWithOpenGLDisplayMask'
+    'body': 'CGGetDisplaysWithOpenGLDisplayMask(${1:CGOpenGLDisplayMask mask}, ${2:uint32_t maxDisplays}, ${3:CGDirectDisplayID* displays}, ${4:uint32_t* matchingDisplayCount})'
+  'CGGetDisplaysWithPoint':
+    'prefix': 'CGGetDisplaysWithPoint'
+    'body': 'CGGetDisplaysWithPoint(${1:CGPoint point}, ${2:uint32_t maxDisplays}, ${3:CGDirectDisplayID* displays}, ${4:uint32_t* matchingDisplayCount})'
+  'CGGetDisplaysWithRect':
+    'prefix': 'CGGetDisplaysWithRect'
+    'body': 'CGGetDisplaysWithRect(${1:CGRect rect}, ${2:uint32_t maxDisplays}, ${3:CGDirectDisplayID* displays}, ${4:uint32_t* matchingDisplayCount})'
+  'CGGetEventTapList':
+    'prefix': 'CGGetEventTapList'
+    'body': 'CGGetEventTapList(${1:uint32_t maxNumberOfTaps}, ${2:CGEventTapInformation* tapList}, ${3:uint32_t* eventTapCount})'
+  'CGGetLastMouseDelta':
+    'prefix': 'CGGetLastMouseDelta'
+    'body': 'CGGetLastMouseDelta(${1:int32_t* deltaX}, ${2:int32_t* deltaY})'
+  'CGGetOnlineDisplayList':
+    'prefix': 'CGGetOnlineDisplayList'
+    'body': 'CGGetOnlineDisplayList(${1:uint32_t maxDisplays}, ${2:CGDirectDisplayID* onlineDisplays}, ${3:uint32_t* displayCount})'
+  'CGGradientCreateWithColorComponents':
+    'prefix': 'CGGradientCreateWithColorComponents'
+    'body': 'CGGradientCreateWithColorComponents(${1:CGColorSpaceRef space}, ${2:CGFloat* components}, ${3:CGFloat* locations}, ${4:size_t count})'
+  'CGGradientCreateWithColors':
+    'prefix': 'CGGradientCreateWithColors'
+    'body': 'CGGradientCreateWithColors(${1:CGColorSpaceRef space}, ${2:CFArrayRef colors}, ${3:CGFloat* locations})'
+  'CGGradientGetTypeID':
+    'prefix': 'CGGradientGetTypeID'
+    'body': 'CGGradientGetTypeID()'
+  'CGGradientRelease':
+    'prefix': 'CGGradientRelease'
+    'body': 'CGGradientRelease(${1:CGGradientRef gradient})'
+  'CGGradientRetain':
+    'prefix': 'CGGradientRetain'
+    'body': 'CGGradientRetain(${1:CGGradientRef gradient})'
+  'CGImageCreate':
+    'prefix': 'CGImageCreate'
+    'body': 'CGImageCreate(${1:size_t width}, ${2:size_t height}, ${3:size_t bitsPerComponent}, ${4:size_t bitsPerPixel}, ${5:size_t bytesPerRow}, ${6:CGColorSpaceRef space}, ${7:CGBitmapInfo bitmapInfo}, ${8:CGDataProviderRef provider}, ${9:CGFloat* decode}, ${10:_Bool shouldInterpolate}, ${11:CGColorRenderingIntent intent})'
+  'CGImageCreateCopy':
+    'prefix': 'CGImageCreateCopy'
+    'body': 'CGImageCreateCopy(${1:CGImageRef image})'
+  'CGImageCreateCopyWithColorSpace':
+    'prefix': 'CGImageCreateCopyWithColorSpace'
+    'body': 'CGImageCreateCopyWithColorSpace(${1:CGImageRef image}, ${2:CGColorSpaceRef space})'
+  'CGImageCreateWithImageInRect':
+    'prefix': 'CGImageCreateWithImageInRect'
+    'body': 'CGImageCreateWithImageInRect(${1:CGImageRef image}, ${2:CGRect rect})'
+  'CGImageCreateWithJPEGDataProvider':
+    'prefix': 'CGImageCreateWithJPEGDataProvider'
+    'body': 'CGImageCreateWithJPEGDataProvider(${1:CGDataProviderRef source}, ${2:CGFloat* decode}, ${3:_Bool shouldInterpolate}, ${4:CGColorRenderingIntent intent})'
+  'CGImageCreateWithMask':
+    'prefix': 'CGImageCreateWithMask'
+    'body': 'CGImageCreateWithMask(${1:CGImageRef image}, ${2:CGImageRef mask})'
+  'CGImageCreateWithMaskingColors':
+    'prefix': 'CGImageCreateWithMaskingColors'
+    'body': 'CGImageCreateWithMaskingColors(${1:CGImageRef image}, ${2:CGFloat* components})'
+  'CGImageCreateWithPNGDataProvider':
+    'prefix': 'CGImageCreateWithPNGDataProvider'
+    'body': 'CGImageCreateWithPNGDataProvider(${1:CGDataProviderRef source}, ${2:CGFloat* decode}, ${3:_Bool shouldInterpolate}, ${4:CGColorRenderingIntent intent})'
+  'CGImageGetAlphaInfo':
+    'prefix': 'CGImageGetAlphaInfo'
+    'body': 'CGImageGetAlphaInfo(${1:CGImageRef image})'
+  'CGImageGetBitmapInfo':
+    'prefix': 'CGImageGetBitmapInfo'
+    'body': 'CGImageGetBitmapInfo(${1:CGImageRef image})'
+  'CGImageGetBitsPerComponent':
+    'prefix': 'CGImageGetBitsPerComponent'
+    'body': 'CGImageGetBitsPerComponent(${1:CGImageRef image})'
+  'CGImageGetBitsPerPixel':
+    'prefix': 'CGImageGetBitsPerPixel'
+    'body': 'CGImageGetBitsPerPixel(${1:CGImageRef image})'
+  'CGImageGetBytesPerRow':
+    'prefix': 'CGImageGetBytesPerRow'
+    'body': 'CGImageGetBytesPerRow(${1:CGImageRef image})'
+  'CGImageGetColorSpace':
+    'prefix': 'CGImageGetColorSpace'
+    'body': 'CGImageGetColorSpace(${1:CGImageRef image})'
+  'CGImageGetDataProvider':
+    'prefix': 'CGImageGetDataProvider'
+    'body': 'CGImageGetDataProvider(${1:CGImageRef image})'
+  'CGImageGetDecode':
+    'prefix': 'CGImageGetDecode'
+    'body': 'CGImageGetDecode(${1:CGImageRef image})'
+  'CGImageGetHeight':
+    'prefix': 'CGImageGetHeight'
+    'body': 'CGImageGetHeight(${1:CGImageRef image})'
+  'CGImageGetRenderingIntent':
+    'prefix': 'CGImageGetRenderingIntent'
+    'body': 'CGImageGetRenderingIntent(${1:CGImageRef image})'
+  'CGImageGetShouldInterpolate':
+    'prefix': 'CGImageGetShouldInterpolate'
+    'body': 'CGImageGetShouldInterpolate(${1:CGImageRef image})'
+  'CGImageGetTypeID':
+    'prefix': 'CGImageGetTypeID'
+    'body': 'CGImageGetTypeID()'
+  'CGImageGetWidth':
+    'prefix': 'CGImageGetWidth'
+    'body': 'CGImageGetWidth(${1:CGImageRef image})'
+  'CGImageIsMask':
+    'prefix': 'CGImageIsMask'
+    'body': 'CGImageIsMask(${1:CGImageRef image})'
+  'CGImageMaskCreate':
+    'prefix': 'CGImageMaskCreate'
+    'body': 'CGImageMaskCreate(${1:size_t width}, ${2:size_t height}, ${3:size_t bitsPerComponent}, ${4:size_t bitsPerPixel}, ${5:size_t bytesPerRow}, ${6:CGDataProviderRef provider}, ${7:CGFloat* decode}, ${8:_Bool shouldInterpolate})'
+  'CGImageRelease':
+    'prefix': 'CGImageRelease'
+    'body': 'CGImageRelease(${1:CGImageRef image})'
+  'CGImageRetain':
+    'prefix': 'CGImageRetain'
+    'body': 'CGImageRetain(${1:CGImageRef image})'
+  'CGInhibitLocalEvents':
+    'prefix': 'CGInhibitLocalEvents'
+    'body': 'CGInhibitLocalEvents(${1:boolean_t inhibit})'
+  'CGLayerCreateWithContext':
+    'prefix': 'CGLayerCreateWithContext'
+    'body': 'CGLayerCreateWithContext(${1:CGContextRef context}, ${2:CGSize size}, ${3:CFDictionaryRef auxiliaryInfo})'
+  'CGLayerGetContext':
+    'prefix': 'CGLayerGetContext'
+    'body': 'CGLayerGetContext(${1:CGLayerRef layer})'
+  'CGLayerGetSize':
+    'prefix': 'CGLayerGetSize'
+    'body': 'CGLayerGetSize(${1:CGLayerRef layer})'
+  'CGLayerGetTypeID':
+    'prefix': 'CGLayerGetTypeID'
+    'body': 'CGLayerGetTypeID()'
+  'CGLayerRelease':
+    'prefix': 'CGLayerRelease'
+    'body': 'CGLayerRelease(${1:CGLayerRef layer})'
+  'CGLayerRetain':
+    'prefix': 'CGLayerRetain'
+    'body': 'CGLayerRetain(${1:CGLayerRef layer})'
+  'CGMainDisplayID':
+    'prefix': 'CGMainDisplayID'
+    'body': 'CGMainDisplayID()'
+  'CGOpenGLDisplayMaskToDisplayID':
+    'prefix': 'CGOpenGLDisplayMaskToDisplayID'
+    'body': 'CGOpenGLDisplayMaskToDisplayID(${1:CGOpenGLDisplayMask mask})'
+  'CGPDFArrayGetArray':
+    'prefix': 'CGPDFArrayGetArray'
+    'body': 'CGPDFArrayGetArray(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFArrayRef* value})'
+  'CGPDFArrayGetBoolean':
+    'prefix': 'CGPDFArrayGetBoolean'
+    'body': 'CGPDFArrayGetBoolean(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFBoolean* value})'
+  'CGPDFArrayGetCount':
+    'prefix': 'CGPDFArrayGetCount'
+    'body': 'CGPDFArrayGetCount(${1:CGPDFArrayRef array})'
+  'CGPDFArrayGetDictionary':
+    'prefix': 'CGPDFArrayGetDictionary'
+    'body': 'CGPDFArrayGetDictionary(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFDictionaryRef* value})'
+  'CGPDFArrayGetInteger':
+    'prefix': 'CGPDFArrayGetInteger'
+    'body': 'CGPDFArrayGetInteger(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFInteger* value})'
+  'CGPDFArrayGetName':
+    'prefix': 'CGPDFArrayGetName'
+    'body': 'CGPDFArrayGetName(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:char** value})'
+  'CGPDFArrayGetNull':
+    'prefix': 'CGPDFArrayGetNull'
+    'body': 'CGPDFArrayGetNull(${1:CGPDFArrayRef array}, ${2:size_t index})'
+  'CGPDFArrayGetNumber':
+    'prefix': 'CGPDFArrayGetNumber'
+    'body': 'CGPDFArrayGetNumber(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFReal* value})'
+  'CGPDFArrayGetObject':
+    'prefix': 'CGPDFArrayGetObject'
+    'body': 'CGPDFArrayGetObject(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFObjectRef* value})'
+  'CGPDFArrayGetStream':
+    'prefix': 'CGPDFArrayGetStream'
+    'body': 'CGPDFArrayGetStream(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFStreamRef* value})'
+  'CGPDFArrayGetString':
+    'prefix': 'CGPDFArrayGetString'
+    'body': 'CGPDFArrayGetString(${1:CGPDFArrayRef array}, ${2:size_t index}, ${3:CGPDFStringRef* value})'
+  'CGPDFContentStreamCreateWithPage':
+    'prefix': 'CGPDFContentStreamCreateWithPage'
+    'body': 'CGPDFContentStreamCreateWithPage(${1:CGPDFPageRef page})'
+  'CGPDFContentStreamCreateWithStream':
+    'prefix': 'CGPDFContentStreamCreateWithStream'
+    'body': 'CGPDFContentStreamCreateWithStream(${1:CGPDFStreamRef stream}, ${2:CGPDFDictionaryRef streamResources}, ${3:CGPDFContentStreamRef parent})'
+  'CGPDFContentStreamGetResource':
+    'prefix': 'CGPDFContentStreamGetResource'
+    'body': 'CGPDFContentStreamGetResource(${1:CGPDFContentStreamRef cs}, ${2:char* category}, ${3:char* name})'
+  'CGPDFContentStreamGetStreams':
+    'prefix': 'CGPDFContentStreamGetStreams'
+    'body': 'CGPDFContentStreamGetStreams(${1:CGPDFContentStreamRef cs})'
+  'CGPDFContentStreamRelease':
+    'prefix': 'CGPDFContentStreamRelease'
+    'body': 'CGPDFContentStreamRelease(${1:CGPDFContentStreamRef cs})'
+  'CGPDFContentStreamRetain':
+    'prefix': 'CGPDFContentStreamRetain'
+    'body': 'CGPDFContentStreamRetain(${1:CGPDFContentStreamRef cs})'
+  'CGPDFContextAddDestinationAtPoint':
+    'prefix': 'CGPDFContextAddDestinationAtPoint'
+    'body': 'CGPDFContextAddDestinationAtPoint(${1:CGContextRef context}, ${2:CFStringRef name}, ${3:CGPoint point})'
+  'CGPDFContextAddDocumentMetadata':
+    'prefix': 'CGPDFContextAddDocumentMetadata'
+    'body': 'CGPDFContextAddDocumentMetadata(${1:CGContextRef context}, ${2:CFDataRef metadata})'
+  'CGPDFContextBeginPage':
+    'prefix': 'CGPDFContextBeginPage'
+    'body': 'CGPDFContextBeginPage(${1:CGContextRef context}, ${2:CFDictionaryRef pageInfo})'
+  'CGPDFContextClose':
+    'prefix': 'CGPDFContextClose'
+    'body': 'CGPDFContextClose(${1:CGContextRef context})'
+  'CGPDFContextCreate':
+    'prefix': 'CGPDFContextCreate'
+    'body': 'CGPDFContextCreate(${1:CGDataConsumerRef consumer}, ${2:CGRect* mediaBox}, ${3:CFDictionaryRef auxiliaryInfo})'
+  'CGPDFContextCreateWithURL':
+    'prefix': 'CGPDFContextCreateWithURL'
+    'body': 'CGPDFContextCreateWithURL(${1:CFURLRef url}, ${2:CGRect* mediaBox}, ${3:CFDictionaryRef auxiliaryInfo})'
+  'CGPDFContextEndPage':
+    'prefix': 'CGPDFContextEndPage'
+    'body': 'CGPDFContextEndPage(${1:CGContextRef context})'
+  'CGPDFContextSetDestinationForRect':
+    'prefix': 'CGPDFContextSetDestinationForRect'
+    'body': 'CGPDFContextSetDestinationForRect(${1:CGContextRef context}, ${2:CFStringRef name}, ${3:CGRect rect})'
+  'CGPDFContextSetURLForRect':
+    'prefix': 'CGPDFContextSetURLForRect'
+    'body': 'CGPDFContextSetURLForRect(${1:CGContextRef context}, ${2:CFURLRef url}, ${3:CGRect rect})'
+  'CGPDFDictionaryApplyFunction':
+    'prefix': 'CGPDFDictionaryApplyFunction'
+    'body': 'CGPDFDictionaryApplyFunction(${1:CGPDFDictionaryRef dict}, ${2:CGPDFDictionaryApplierFunction function}, ${3:void* info})'
+  'CGPDFDictionaryGetArray':
+    'prefix': 'CGPDFDictionaryGetArray'
+    'body': 'CGPDFDictionaryGetArray(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFArrayRef* value})'
+  'CGPDFDictionaryGetBoolean':
+    'prefix': 'CGPDFDictionaryGetBoolean'
+    'body': 'CGPDFDictionaryGetBoolean(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFBoolean* value})'
+  'CGPDFDictionaryGetCount':
+    'prefix': 'CGPDFDictionaryGetCount'
+    'body': 'CGPDFDictionaryGetCount(${1:CGPDFDictionaryRef dict})'
+  'CGPDFDictionaryGetDictionary':
+    'prefix': 'CGPDFDictionaryGetDictionary'
+    'body': 'CGPDFDictionaryGetDictionary(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFDictionaryRef* value})'
+  'CGPDFDictionaryGetInteger':
+    'prefix': 'CGPDFDictionaryGetInteger'
+    'body': 'CGPDFDictionaryGetInteger(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFInteger* value})'
+  'CGPDFDictionaryGetName':
+    'prefix': 'CGPDFDictionaryGetName'
+    'body': 'CGPDFDictionaryGetName(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:char** value})'
+  'CGPDFDictionaryGetNumber':
+    'prefix': 'CGPDFDictionaryGetNumber'
+    'body': 'CGPDFDictionaryGetNumber(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFReal* value})'
+  'CGPDFDictionaryGetObject':
+    'prefix': 'CGPDFDictionaryGetObject'
+    'body': 'CGPDFDictionaryGetObject(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFObjectRef* value})'
+  'CGPDFDictionaryGetStream':
+    'prefix': 'CGPDFDictionaryGetStream'
+    'body': 'CGPDFDictionaryGetStream(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFStreamRef* value})'
+  'CGPDFDictionaryGetString':
+    'prefix': 'CGPDFDictionaryGetString'
+    'body': 'CGPDFDictionaryGetString(${1:CGPDFDictionaryRef dict}, ${2:char* key}, ${3:CGPDFStringRef* value})'
+  'CGPDFDocumentAllowsCopying':
+    'prefix': 'CGPDFDocumentAllowsCopying'
+    'body': 'CGPDFDocumentAllowsCopying(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentAllowsPrinting':
+    'prefix': 'CGPDFDocumentAllowsPrinting'
+    'body': 'CGPDFDocumentAllowsPrinting(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentCreateWithProvider':
+    'prefix': 'CGPDFDocumentCreateWithProvider'
+    'body': 'CGPDFDocumentCreateWithProvider(${1:CGDataProviderRef provider})'
+  'CGPDFDocumentCreateWithURL':
+    'prefix': 'CGPDFDocumentCreateWithURL'
+    'body': 'CGPDFDocumentCreateWithURL(${1:CFURLRef url})'
+  'CGPDFDocumentGetArtBox':
+    'prefix': 'CGPDFDocumentGetArtBox'
+    'body': 'CGPDFDocumentGetArtBox(${1:CGPDFDocumentRef document}, ${2:int page})'
+  'CGPDFDocumentGetBleedBox':
+    'prefix': 'CGPDFDocumentGetBleedBox'
+    'body': 'CGPDFDocumentGetBleedBox(${1:CGPDFDocumentRef document}, ${2:int page})'
+  'CGPDFDocumentGetCatalog':
+    'prefix': 'CGPDFDocumentGetCatalog'
+    'body': 'CGPDFDocumentGetCatalog(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentGetCropBox':
+    'prefix': 'CGPDFDocumentGetCropBox'
+    'body': 'CGPDFDocumentGetCropBox(${1:CGPDFDocumentRef document}, ${2:int page})'
+  'CGPDFDocumentGetID':
+    'prefix': 'CGPDFDocumentGetID'
+    'body': 'CGPDFDocumentGetID(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentGetInfo':
+    'prefix': 'CGPDFDocumentGetInfo'
+    'body': 'CGPDFDocumentGetInfo(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentGetMediaBox':
+    'prefix': 'CGPDFDocumentGetMediaBox'
+    'body': 'CGPDFDocumentGetMediaBox(${1:CGPDFDocumentRef document}, ${2:int page})'
+  'CGPDFDocumentGetNumberOfPages':
+    'prefix': 'CGPDFDocumentGetNumberOfPages'
+    'body': 'CGPDFDocumentGetNumberOfPages(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentGetPage':
+    'prefix': 'CGPDFDocumentGetPage'
+    'body': 'CGPDFDocumentGetPage(${1:CGPDFDocumentRef document}, ${2:size_t pageNumber})'
+  'CGPDFDocumentGetRotationAngle':
+    'prefix': 'CGPDFDocumentGetRotationAngle'
+    'body': 'CGPDFDocumentGetRotationAngle(${1:CGPDFDocumentRef document}, ${2:int page})'
+  'CGPDFDocumentGetTrimBox':
+    'prefix': 'CGPDFDocumentGetTrimBox'
+    'body': 'CGPDFDocumentGetTrimBox(${1:CGPDFDocumentRef document}, ${2:int page})'
+  'CGPDFDocumentGetTypeID':
+    'prefix': 'CGPDFDocumentGetTypeID'
+    'body': 'CGPDFDocumentGetTypeID()'
+  'CGPDFDocumentGetVersion':
+    'prefix': 'CGPDFDocumentGetVersion'
+    'body': 'CGPDFDocumentGetVersion(${1:CGPDFDocumentRef document}, ${2:int* majorVersion}, ${3:int* minorVersion})'
+  'CGPDFDocumentIsEncrypted':
+    'prefix': 'CGPDFDocumentIsEncrypted'
+    'body': 'CGPDFDocumentIsEncrypted(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentIsUnlocked':
+    'prefix': 'CGPDFDocumentIsUnlocked'
+    'body': 'CGPDFDocumentIsUnlocked(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentRelease':
+    'prefix': 'CGPDFDocumentRelease'
+    'body': 'CGPDFDocumentRelease(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentRetain':
+    'prefix': 'CGPDFDocumentRetain'
+    'body': 'CGPDFDocumentRetain(${1:CGPDFDocumentRef document})'
+  'CGPDFDocumentUnlockWithPassword':
+    'prefix': 'CGPDFDocumentUnlockWithPassword'
+    'body': 'CGPDFDocumentUnlockWithPassword(${1:CGPDFDocumentRef document}, ${2:char* password})'
+  'CGPDFObjectGetType':
+    'prefix': 'CGPDFObjectGetType'
+    'body': 'CGPDFObjectGetType(${1:CGPDFObjectRef object})'
+  'CGPDFObjectGetValue':
+    'prefix': 'CGPDFObjectGetValue'
+    'body': 'CGPDFObjectGetValue(${1:CGPDFObjectRef object}, ${2:CGPDFObjectType type}, ${3:void* value})'
+  'CGPDFOperatorTableCreate':
+    'prefix': 'CGPDFOperatorTableCreate'
+    'body': 'CGPDFOperatorTableCreate()'
+  'CGPDFOperatorTableRelease':
+    'prefix': 'CGPDFOperatorTableRelease'
+    'body': 'CGPDFOperatorTableRelease(${1:CGPDFOperatorTableRef table})'
+  'CGPDFOperatorTableRetain':
+    'prefix': 'CGPDFOperatorTableRetain'
+    'body': 'CGPDFOperatorTableRetain(${1:CGPDFOperatorTableRef table})'
+  'CGPDFOperatorTableSetCallback':
+    'prefix': 'CGPDFOperatorTableSetCallback'
+    'body': 'CGPDFOperatorTableSetCallback(${1:CGPDFOperatorTableRef table}, ${2:char* name}, ${3:CGPDFOperatorCallback callback})'
+  'CGPDFPageGetBoxRect':
+    'prefix': 'CGPDFPageGetBoxRect'
+    'body': 'CGPDFPageGetBoxRect(${1:CGPDFPageRef page}, ${2:CGPDFBox box})'
+  'CGPDFPageGetDictionary':
+    'prefix': 'CGPDFPageGetDictionary'
+    'body': 'CGPDFPageGetDictionary(${1:CGPDFPageRef page})'
+  'CGPDFPageGetDocument':
+    'prefix': 'CGPDFPageGetDocument'
+    'body': 'CGPDFPageGetDocument(${1:CGPDFPageRef page})'
+  'CGPDFPageGetDrawingTransform':
+    'prefix': 'CGPDFPageGetDrawingTransform'
+    'body': 'CGPDFPageGetDrawingTransform(${1:CGPDFPageRef page}, ${2:CGPDFBox box}, ${3:CGRect rect}, ${4:int rotate}, ${5:_Bool preserveAspectRatio})'
+  'CGPDFPageGetPageNumber':
+    'prefix': 'CGPDFPageGetPageNumber'
+    'body': 'CGPDFPageGetPageNumber(${1:CGPDFPageRef page})'
+  'CGPDFPageGetRotationAngle':
+    'prefix': 'CGPDFPageGetRotationAngle'
+    'body': 'CGPDFPageGetRotationAngle(${1:CGPDFPageRef page})'
+  'CGPDFPageGetTypeID':
+    'prefix': 'CGPDFPageGetTypeID'
+    'body': 'CGPDFPageGetTypeID()'
+  'CGPDFPageRelease':
+    'prefix': 'CGPDFPageRelease'
+    'body': 'CGPDFPageRelease(${1:CGPDFPageRef page})'
+  'CGPDFPageRetain':
+    'prefix': 'CGPDFPageRetain'
+    'body': 'CGPDFPageRetain(${1:CGPDFPageRef page})'
+  'CGPDFScannerCreate':
+    'prefix': 'CGPDFScannerCreate'
+    'body': 'CGPDFScannerCreate(${1:CGPDFContentStreamRef cs}, ${2:CGPDFOperatorTableRef table}, ${3:void* info})'
+  'CGPDFScannerGetContentStream':
+    'prefix': 'CGPDFScannerGetContentStream'
+    'body': 'CGPDFScannerGetContentStream(${1:CGPDFScannerRef scanner})'
+  'CGPDFScannerPopArray':
+    'prefix': 'CGPDFScannerPopArray'
+    'body': 'CGPDFScannerPopArray(${1:CGPDFScannerRef scanner}, ${2:CGPDFArrayRef* value})'
+  'CGPDFScannerPopBoolean':
+    'prefix': 'CGPDFScannerPopBoolean'
+    'body': 'CGPDFScannerPopBoolean(${1:CGPDFScannerRef scanner}, ${2:CGPDFBoolean* value})'
+  'CGPDFScannerPopDictionary':
+    'prefix': 'CGPDFScannerPopDictionary'
+    'body': 'CGPDFScannerPopDictionary(${1:CGPDFScannerRef scanner}, ${2:CGPDFDictionaryRef* value})'
+  'CGPDFScannerPopInteger':
+    'prefix': 'CGPDFScannerPopInteger'
+    'body': 'CGPDFScannerPopInteger(${1:CGPDFScannerRef scanner}, ${2:CGPDFInteger* value})'
+  'CGPDFScannerPopName':
+    'prefix': 'CGPDFScannerPopName'
+    'body': 'CGPDFScannerPopName(${1:CGPDFScannerRef scanner}, ${2:char** value})'
+  'CGPDFScannerPopNumber':
+    'prefix': 'CGPDFScannerPopNumber'
+    'body': 'CGPDFScannerPopNumber(${1:CGPDFScannerRef scanner}, ${2:CGPDFReal* value})'
+  'CGPDFScannerPopObject':
+    'prefix': 'CGPDFScannerPopObject'
+    'body': 'CGPDFScannerPopObject(${1:CGPDFScannerRef scanner}, ${2:CGPDFObjectRef* value})'
+  'CGPDFScannerPopStream':
+    'prefix': 'CGPDFScannerPopStream'
+    'body': 'CGPDFScannerPopStream(${1:CGPDFScannerRef scanner}, ${2:CGPDFStreamRef* value})'
+  'CGPDFScannerPopString':
+    'prefix': 'CGPDFScannerPopString'
+    'body': 'CGPDFScannerPopString(${1:CGPDFScannerRef scanner}, ${2:CGPDFStringRef* value})'
+  'CGPDFScannerRelease':
+    'prefix': 'CGPDFScannerRelease'
+    'body': 'CGPDFScannerRelease(${1:CGPDFScannerRef scanner})'
+  'CGPDFScannerRetain':
+    'prefix': 'CGPDFScannerRetain'
+    'body': 'CGPDFScannerRetain(${1:CGPDFScannerRef scanner})'
+  'CGPDFScannerScan':
+    'prefix': 'CGPDFScannerScan'
+    'body': 'CGPDFScannerScan(${1:CGPDFScannerRef scanner})'
+  'CGPDFStreamCopyData':
+    'prefix': 'CGPDFStreamCopyData'
+    'body': 'CGPDFStreamCopyData(${1:CGPDFStreamRef stream}, ${2:CGPDFDataFormat* format})'
+  'CGPDFStreamGetDictionary':
+    'prefix': 'CGPDFStreamGetDictionary'
+    'body': 'CGPDFStreamGetDictionary(${1:CGPDFStreamRef stream})'
+  'CGPDFStringCopyDate':
+    'prefix': 'CGPDFStringCopyDate'
+    'body': 'CGPDFStringCopyDate(${1:CGPDFStringRef string})'
+  'CGPDFStringCopyTextString':
+    'prefix': 'CGPDFStringCopyTextString'
+    'body': 'CGPDFStringCopyTextString(${1:CGPDFStringRef string})'
+  'CGPDFStringGetBytePtr':
+    'prefix': 'CGPDFStringGetBytePtr'
+    'body': 'CGPDFStringGetBytePtr(${1:CGPDFStringRef string})'
+  'CGPDFStringGetLength':
+    'prefix': 'CGPDFStringGetLength'
+    'body': 'CGPDFStringGetLength(${1:CGPDFStringRef string})'
+  'CGPSConverterAbort':
+    'prefix': 'CGPSConverterAbort'
+    'body': 'CGPSConverterAbort(${1:CGPSConverterRef converter})'
+  'CGPSConverterConvert':
+    'prefix': 'CGPSConverterConvert'
+    'body': 'CGPSConverterConvert(${1:CGPSConverterRef converter}, ${2:CGDataProviderRef provider}, ${3:CGDataConsumerRef consumer}, ${4:CFDictionaryRef options})'
+  'CGPSConverterCreate':
+    'prefix': 'CGPSConverterCreate'
+    'body': 'CGPSConverterCreate(${1:void* info}, ${2:CGPSConverterCallbacks* callbacks}, ${3:CFDictionaryRef options})'
+  'CGPSConverterGetTypeID':
+    'prefix': 'CGPSConverterGetTypeID'
+    'body': 'CGPSConverterGetTypeID()'
+  'CGPSConverterIsConverting':
+    'prefix': 'CGPSConverterIsConverting'
+    'body': 'CGPSConverterIsConverting(${1:CGPSConverterRef converter})'
+  'CGPathAddArc':
+    'prefix': 'CGPathAddArc'
+    'body': 'CGPathAddArc(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGFloat x}, ${4:CGFloat y}, ${5:CGFloat radius}, ${6:CGFloat startAngle}, ${7:CGFloat endAngle}, ${8:_Bool clockwise})'
+  'CGPathAddArcToPoint':
+    'prefix': 'CGPathAddArcToPoint'
+    'body': 'CGPathAddArcToPoint(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGFloat x1}, ${4:CGFloat y1}, ${5:CGFloat x2}, ${6:CGFloat y2}, ${7:CGFloat radius})'
+  'CGPathAddCurveToPoint':
+    'prefix': 'CGPathAddCurveToPoint'
+    'body': 'CGPathAddCurveToPoint(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGFloat cp1x}, ${4:CGFloat cp1y}, ${5:CGFloat cp2x}, ${6:CGFloat cp2y}, ${7:CGFloat x}, ${8:CGFloat y})'
+  'CGPathAddEllipseInRect':
+    'prefix': 'CGPathAddEllipseInRect'
+    'body': 'CGPathAddEllipseInRect(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGRect rect})'
+  'CGPathAddLineToPoint':
+    'prefix': 'CGPathAddLineToPoint'
+    'body': 'CGPathAddLineToPoint(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGFloat x}, ${4:CGFloat y})'
+  'CGPathAddLines':
+    'prefix': 'CGPathAddLines'
+    'body': 'CGPathAddLines(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGPoint* points}, ${4:size_t count})'
+  'CGPathAddPath':
+    'prefix': 'CGPathAddPath'
+    'body': 'CGPathAddPath(${1:CGMutablePathRef path1}, ${2:CGAffineTransform* m}, ${3:CGPathRef path2})'
+  'CGPathAddQuadCurveToPoint':
+    'prefix': 'CGPathAddQuadCurveToPoint'
+    'body': 'CGPathAddQuadCurveToPoint(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGFloat cpx}, ${4:CGFloat cpy}, ${5:CGFloat x}, ${6:CGFloat y})'
+  'CGPathAddRect':
+    'prefix': 'CGPathAddRect'
+    'body': 'CGPathAddRect(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGRect rect})'
+  'CGPathAddRects':
+    'prefix': 'CGPathAddRects'
+    'body': 'CGPathAddRects(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGRect* rects}, ${4:size_t count})'
+  'CGPathAddRelativeArc':
+    'prefix': 'CGPathAddRelativeArc'
+    'body': 'CGPathAddRelativeArc(${1:CGMutablePathRef path}, ${2:CGAffineTransform* matrix}, ${3:CGFloat x}, ${4:CGFloat y}, ${5:CGFloat radius}, ${6:CGFloat startAngle}, ${7:CGFloat delta})'
+  'CGPathAddRoundedRect':
+    'prefix': 'CGPathAddRoundedRect'
+    'body': 'CGPathAddRoundedRect(${1:CGMutablePathRef path}, ${2:CGAffineTransform* transform}, ${3:CGRect rect}, ${4:CGFloat cornerWidth}, ${5:CGFloat cornerHeight})'
+  'CGPathApply':
+    'prefix': 'CGPathApply'
+    'body': 'CGPathApply(${1:CGPathRef path}, ${2:void* info}, ${3:CGPathApplierFunction function})'
+  'CGPathCloseSubpath':
+    'prefix': 'CGPathCloseSubpath'
+    'body': 'CGPathCloseSubpath(${1:CGMutablePathRef path})'
+  'CGPathContainsPoint':
+    'prefix': 'CGPathContainsPoint'
+    'body': 'CGPathContainsPoint(${1:CGPathRef path}, ${2:CGAffineTransform* m}, ${3:CGPoint point}, ${4:_Bool eoFill})'
+  'CGPathCreateCopy':
+    'prefix': 'CGPathCreateCopy'
+    'body': 'CGPathCreateCopy(${1:CGPathRef path})'
+  'CGPathCreateCopyByDashingPath':
+    'prefix': 'CGPathCreateCopyByDashingPath'
+    'body': 'CGPathCreateCopyByDashingPath(${1:CGPathRef path}, ${2:CGAffineTransform* transform}, ${3:CGFloat phase}, ${4:CGFloat* lengths}, ${5:size_t count})'
+  'CGPathCreateCopyByStrokingPath':
+    'prefix': 'CGPathCreateCopyByStrokingPath'
+    'body': 'CGPathCreateCopyByStrokingPath(${1:CGPathRef path}, ${2:CGAffineTransform* transform}, ${3:CGFloat lineWidth}, ${4:CGLineCap lineCap}, ${5:CGLineJoin lineJoin}, ${6:CGFloat miterLimit})'
+  'CGPathCreateCopyByTransformingPath':
+    'prefix': 'CGPathCreateCopyByTransformingPath'
+    'body': 'CGPathCreateCopyByTransformingPath(${1:CGPathRef path}, ${2:CGAffineTransform* transform})'
+  'CGPathCreateMutable':
+    'prefix': 'CGPathCreateMutable'
+    'body': 'CGPathCreateMutable()'
+  'CGPathCreateMutableCopy':
+    'prefix': 'CGPathCreateMutableCopy'
+    'body': 'CGPathCreateMutableCopy(${1:CGPathRef path})'
+  'CGPathCreateMutableCopyByTransformingPath':
+    'prefix': 'CGPathCreateMutableCopyByTransformingPath'
+    'body': 'CGPathCreateMutableCopyByTransformingPath(${1:CGPathRef path}, ${2:CGAffineTransform* transform})'
+  'CGPathCreateWithEllipseInRect':
+    'prefix': 'CGPathCreateWithEllipseInRect'
+    'body': 'CGPathCreateWithEllipseInRect(${1:CGRect rect}, ${2:CGAffineTransform* transform})'
+  'CGPathCreateWithRect':
+    'prefix': 'CGPathCreateWithRect'
+    'body': 'CGPathCreateWithRect(${1:CGRect rect}, ${2:CGAffineTransform* transform})'
+  'CGPathCreateWithRoundedRect':
+    'prefix': 'CGPathCreateWithRoundedRect'
+    'body': 'CGPathCreateWithRoundedRect(${1:CGRect rect}, ${2:CGFloat cornerWidth}, ${3:CGFloat cornerHeight}, ${4:CGAffineTransform* transform})'
+  'CGPathEqualToPath':
+    'prefix': 'CGPathEqualToPath'
+    'body': 'CGPathEqualToPath(${1:CGPathRef path1}, ${2:CGPathRef path2})'
+  'CGPathGetBoundingBox':
+    'prefix': 'CGPathGetBoundingBox'
+    'body': 'CGPathGetBoundingBox(${1:CGPathRef path})'
+  'CGPathGetCurrentPoint':
+    'prefix': 'CGPathGetCurrentPoint'
+    'body': 'CGPathGetCurrentPoint(${1:CGPathRef path})'
+  'CGPathGetPathBoundingBox':
+    'prefix': 'CGPathGetPathBoundingBox'
+    'body': 'CGPathGetPathBoundingBox(${1:CGPathRef path})'
+  'CGPathGetTypeID':
+    'prefix': 'CGPathGetTypeID'
+    'body': 'CGPathGetTypeID()'
+  'CGPathIsEmpty':
+    'prefix': 'CGPathIsEmpty'
+    'body': 'CGPathIsEmpty(${1:CGPathRef path})'
+  'CGPathIsRect':
+    'prefix': 'CGPathIsRect'
+    'body': 'CGPathIsRect(${1:CGPathRef path}, ${2:CGRect* rect})'
+  'CGPathMoveToPoint':
+    'prefix': 'CGPathMoveToPoint'
+    'body': 'CGPathMoveToPoint(${1:CGMutablePathRef path}, ${2:CGAffineTransform* m}, ${3:CGFloat x}, ${4:CGFloat y})'
+  'CGPathRelease':
+    'prefix': 'CGPathRelease'
+    'body': 'CGPathRelease(${1:CGPathRef path})'
+  'CGPathRetain':
+    'prefix': 'CGPathRetain'
+    'body': 'CGPathRetain(${1:CGPathRef path})'
+  'CGPatternCreate':
+    'prefix': 'CGPatternCreate'
+    'body': 'CGPatternCreate(${1:void* info}, ${2:CGRect bounds}, ${3:CGAffineTransform matrix}, ${4:CGFloat xStep}, ${5:CGFloat yStep}, ${6:CGPatternTiling tiling}, ${7:_Bool isColored}, ${8:CGPatternCallbacks* callbacks})'
+  'CGPatternGetTypeID':
+    'prefix': 'CGPatternGetTypeID'
+    'body': 'CGPatternGetTypeID()'
+  'CGPatternRelease':
+    'prefix': 'CGPatternRelease'
+    'body': 'CGPatternRelease(${1:CGPatternRef pattern})'
+  'CGPatternRetain':
+    'prefix': 'CGPatternRetain'
+    'body': 'CGPatternRetain(${1:CGPatternRef pattern})'
+  'CGPointApplyAffineTransform':
+    'prefix': 'CGPointApplyAffineTransform'
+    'body': 'CGPointApplyAffineTransform(${1:CGPoint point}, ${2:CGAffineTransform t})'
+  'CGPointCreateDictionaryRepresentation':
+    'prefix': 'CGPointCreateDictionaryRepresentation'
+    'body': 'CGPointCreateDictionaryRepresentation(${1:CGPoint point})'
+  'CGPointEqualToPoint':
+    'prefix': 'CGPointEqualToPoint'
+    'body': 'CGPointEqualToPoint(${1:CGPoint point1}, ${2:CGPoint point2})'
+  'CGPointMake':
+    'prefix': 'CGPointMake'
+    'body': 'CGPointMake(${1:CGFloat x}, ${2:CGFloat y})'
+  'CGPointMakeWithDictionaryRepresentation':
+    'prefix': 'CGPointMakeWithDictionaryRepresentation'
+    'body': 'CGPointMakeWithDictionaryRepresentation(${1:CFDictionaryRef dict}, ${2:CGPoint* point})'
+  'CGPostKeyboardEvent':
+    'prefix': 'CGPostKeyboardEvent'
+    'body': 'CGPostKeyboardEvent(${1:CGCharCode keyChar}, ${2:CGKeyCode virtualKey}, ${3:boolean_t keyDown})'
+  'CGPostMouseEvent':
+    'prefix': 'CGPostMouseEvent'
+    'body': 'CGPostMouseEvent(${1:CGPoint mouseCursorPosition}, ${2:boolean_t updateMouseCursorPosition}, ${3:CGButtonCount buttonCount}, ${4:boolean_t mouseButtonDown})'
+  'CGPostScrollWheelEvent':
+    'prefix': 'CGPostScrollWheelEvent'
+    'body': 'CGPostScrollWheelEvent(${1:CGWheelCount wheelCount}, ${2:int32_t wheel1})'
+  'CGRectApplyAffineTransform':
+    'prefix': 'CGRectApplyAffineTransform'
+    'body': 'CGRectApplyAffineTransform(${1:CGRect rect}, ${2:CGAffineTransform t})'
+  'CGRectContainsPoint':
+    'prefix': 'CGRectContainsPoint'
+    'body': 'CGRectContainsPoint(${1:CGRect rect}, ${2:CGPoint point})'
+  'CGRectContainsRect':
+    'prefix': 'CGRectContainsRect'
+    'body': 'CGRectContainsRect(${1:CGRect rect1}, ${2:CGRect rect2})'
+  'CGRectCreateDictionaryRepresentation':
+    'prefix': 'CGRectCreateDictionaryRepresentation'
+    'body': 'CGRectCreateDictionaryRepresentation(${1:CGRect })'
+  'CGRectDivide':
+    'prefix': 'CGRectDivide'
+    'body': 'CGRectDivide(${1:CGRect rect}, ${2:CGRect* slice}, ${3:CGRect* remainder}, ${4:CGFloat amount}, ${5:CGRectEdge edge})'
+  'CGRectEqualToRect':
+    'prefix': 'CGRectEqualToRect'
+    'body': 'CGRectEqualToRect(${1:CGRect rect1}, ${2:CGRect rect2})'
+  'CGRectGetHeight':
+    'prefix': 'CGRectGetHeight'
+    'body': 'CGRectGetHeight(${1:CGRect rect})'
+  'CGRectGetMaxX':
+    'prefix': 'CGRectGetMaxX'
+    'body': 'CGRectGetMaxX(${1:CGRect rect})'
+  'CGRectGetMaxY':
+    'prefix': 'CGRectGetMaxY'
+    'body': 'CGRectGetMaxY(${1:CGRect rect})'
+  'CGRectGetMidX':
+    'prefix': 'CGRectGetMidX'
+    'body': 'CGRectGetMidX(${1:CGRect rect})'
+  'CGRectGetMidY':
+    'prefix': 'CGRectGetMidY'
+    'body': 'CGRectGetMidY(${1:CGRect rect})'
+  'CGRectGetMinX':
+    'prefix': 'CGRectGetMinX'
+    'body': 'CGRectGetMinX(${1:CGRect rect})'
+  'CGRectGetMinY':
+    'prefix': 'CGRectGetMinY'
+    'body': 'CGRectGetMinY(${1:CGRect rect})'
+  'CGRectGetWidth':
+    'prefix': 'CGRectGetWidth'
+    'body': 'CGRectGetWidth(${1:CGRect rect})'
+  'CGRectInset':
+    'prefix': 'CGRectInset'
+    'body': 'CGRectInset(${1:CGRect rect}, ${2:CGFloat dx}, ${3:CGFloat dy})'
+  'CGRectIntegral':
+    'prefix': 'CGRectIntegral'
+    'body': 'CGRectIntegral(${1:CGRect rect})'
+  'CGRectIntersection':
+    'prefix': 'CGRectIntersection'
+    'body': 'CGRectIntersection(${1:CGRect r1}, ${2:CGRect r2})'
+  'CGRectIntersectsRect':
+    'prefix': 'CGRectIntersectsRect'
+    'body': 'CGRectIntersectsRect(${1:CGRect rect1}, ${2:CGRect rect2})'
+  'CGRectIsEmpty':
+    'prefix': 'CGRectIsEmpty'
+    'body': 'CGRectIsEmpty(${1:CGRect rect})'
+  'CGRectIsInfinite':
+    'prefix': 'CGRectIsInfinite'
+    'body': 'CGRectIsInfinite(${1:CGRect rect})'
+  'CGRectIsNull':
+    'prefix': 'CGRectIsNull'
+    'body': 'CGRectIsNull(${1:CGRect rect})'
+  'CGRectMake':
+    'prefix': 'CGRectMake'
+    'body': 'CGRectMake(${1:CGFloat x}, ${2:CGFloat y}, ${3:CGFloat width}, ${4:CGFloat height})'
+  'CGRectMakeWithDictionaryRepresentation':
+    'prefix': 'CGRectMakeWithDictionaryRepresentation'
+    'body': 'CGRectMakeWithDictionaryRepresentation(${1:CFDictionaryRef dict}, ${2:CGRect* rect})'
+  'CGRectOffset':
+    'prefix': 'CGRectOffset'
+    'body': 'CGRectOffset(${1:CGRect rect}, ${2:CGFloat dx}, ${3:CGFloat dy})'
+  'CGRectStandardize':
+    'prefix': 'CGRectStandardize'
+    'body': 'CGRectStandardize(${1:CGRect rect})'
+  'CGRectUnion':
+    'prefix': 'CGRectUnion'
+    'body': 'CGRectUnion(${1:CGRect r1}, ${2:CGRect r2})'
+  'CGRegisterScreenRefreshCallback':
+    'prefix': 'CGRegisterScreenRefreshCallback'
+    'body': 'CGRegisterScreenRefreshCallback(${1:CGScreenRefreshCallback callback}, ${2:void* userInfo})'
+  'CGReleaseAllDisplays':
+    'prefix': 'CGReleaseAllDisplays'
+    'body': 'CGReleaseAllDisplays()'
+  'CGReleaseDisplayFadeReservation':
+    'prefix': 'CGReleaseDisplayFadeReservation'
+    'body': 'CGReleaseDisplayFadeReservation(${1:CGDisplayFadeReservationToken token})'
+  'CGReleaseScreenRefreshRects':
+    'prefix': 'CGReleaseScreenRefreshRects'
+    'body': 'CGReleaseScreenRefreshRects(${1:CGRect* rects})'
+  'CGRestorePermanentDisplayConfiguration':
+    'prefix': 'CGRestorePermanentDisplayConfiguration'
+    'body': 'CGRestorePermanentDisplayConfiguration()'
+  'CGScreenRegisterMoveCallback':
+    'prefix': 'CGScreenRegisterMoveCallback'
+    'body': 'CGScreenRegisterMoveCallback(${1:CGScreenUpdateMoveCallback callback}, ${2:void* userInfo})'
+  'CGScreenUnregisterMoveCallback':
+    'prefix': 'CGScreenUnregisterMoveCallback'
+    'body': 'CGScreenUnregisterMoveCallback(${1:CGScreenUpdateMoveCallback callback}, ${2:void* userInfo})'
+  'CGSessionCopyCurrentDictionary':
+    'prefix': 'CGSessionCopyCurrentDictionary'
+    'body': 'CGSessionCopyCurrentDictionary()'
+  'CGSetDisplayTransferByByteTable':
+    'prefix': 'CGSetDisplayTransferByByteTable'
+    'body': 'CGSetDisplayTransferByByteTable(${1:CGDirectDisplayID display}, ${2:uint32_t tableSize}, ${3:uint8_t* redTable}, ${4:uint8_t* greenTable}, ${5:uint8_t* blueTable})'
+  'CGSetDisplayTransferByFormula':
+    'prefix': 'CGSetDisplayTransferByFormula'
+    'body': 'CGSetDisplayTransferByFormula(${1:CGDirectDisplayID display}, ${2:CGGammaValue redMin}, ${3:CGGammaValue redMax}, ${4:CGGammaValue redGamma}, ${5:CGGammaValue greenMin}, ${6:CGGammaValue greenMax}, ${7:CGGammaValue greenGamma}, ${8:CGGammaValue blueMin}, ${9:CGGammaValue blueMax}, ${10:CGGammaValue blueGamma})'
+  'CGSetDisplayTransferByTable':
+    'prefix': 'CGSetDisplayTransferByTable'
+    'body': 'CGSetDisplayTransferByTable(${1:CGDirectDisplayID display}, ${2:uint32_t tableSize}, ${3:CGGammaValue* redTable}, ${4:CGGammaValue* greenTable}, ${5:CGGammaValue* blueTable})'
+  'CGSetLocalEventsFilterDuringSuppressionState':
+    'prefix': 'CGSetLocalEventsFilterDuringSuppressionState'
+    'body': 'CGSetLocalEventsFilterDuringSuppressionState(${1:CGEventFilterMask filter}, ${2:CGEventSuppressionState state})'
+  'CGSetLocalEventsSuppressionInterval':
+    'prefix': 'CGSetLocalEventsSuppressionInterval'
+    'body': 'CGSetLocalEventsSuppressionInterval(${1:CFTimeInterval seconds})'
+  'CGShadingCreateAxial':
+    'prefix': 'CGShadingCreateAxial'
+    'body': 'CGShadingCreateAxial(${1:CGColorSpaceRef space}, ${2:CGPoint start}, ${3:CGPoint end}, ${4:CGFunctionRef function}, ${5:_Bool extendStart}, ${6:_Bool extendEnd})'
+  'CGShadingCreateRadial':
+    'prefix': 'CGShadingCreateRadial'
+    'body': 'CGShadingCreateRadial(${1:CGColorSpaceRef space}, ${2:CGPoint start}, ${3:CGFloat startRadius}, ${4:CGPoint end}, ${5:CGFloat endRadius}, ${6:CGFunctionRef function}, ${7:_Bool extendStart}, ${8:_Bool extendEnd})'
+  'CGShadingGetTypeID':
+    'prefix': 'CGShadingGetTypeID'
+    'body': 'CGShadingGetTypeID()'
+  'CGShadingRelease':
+    'prefix': 'CGShadingRelease'
+    'body': 'CGShadingRelease(${1:CGShadingRef shading})'
+  'CGShadingRetain':
+    'prefix': 'CGShadingRetain'
+    'body': 'CGShadingRetain(${1:CGShadingRef shading})'
+  'CGShieldingWindowID':
+    'prefix': 'CGShieldingWindowID'
+    'body': 'CGShieldingWindowID(${1:CGDirectDisplayID display})'
+  'CGShieldingWindowLevel':
+    'prefix': 'CGShieldingWindowLevel'
+    'body': 'CGShieldingWindowLevel()'
+  'CGSizeApplyAffineTransform':
+    'prefix': 'CGSizeApplyAffineTransform'
+    'body': 'CGSizeApplyAffineTransform(${1:CGSize size}, ${2:CGAffineTransform t})'
+  'CGSizeCreateDictionaryRepresentation':
+    'prefix': 'CGSizeCreateDictionaryRepresentation'
+    'body': 'CGSizeCreateDictionaryRepresentation(${1:CGSize size})'
+  'CGSizeEqualToSize':
+    'prefix': 'CGSizeEqualToSize'
+    'body': 'CGSizeEqualToSize(${1:CGSize size1}, ${2:CGSize size2})'
+  'CGSizeMake':
+    'prefix': 'CGSizeMake'
+    'body': 'CGSizeMake(${1:CGFloat width}, ${2:CGFloat height})'
+  'CGSizeMakeWithDictionaryRepresentation':
+    'prefix': 'CGSizeMakeWithDictionaryRepresentation'
+    'body': 'CGSizeMakeWithDictionaryRepresentation(${1:CFDictionaryRef dict}, ${2:CGSize* size})'
+  'CGUnregisterScreenRefreshCallback':
+    'prefix': 'CGUnregisterScreenRefreshCallback'
+    'body': 'CGUnregisterScreenRefreshCallback(${1:CGScreenRefreshCallback callback}, ${2:void* userInfo})'
+  'CGVectorMake':
+    'prefix': 'CGVectorMake'
+    'body': 'CGVectorMake(${1:CGFloat dx}, ${2:CGFloat dy})'
+  'CGWaitForScreenRefreshRects':
+    'prefix': 'CGWaitForScreenRefreshRects'
+    'body': 'CGWaitForScreenRefreshRects(${1:CGRect** rects}, ${2:uint32_t* count})'
+  'CGWaitForScreenUpdateRects':
+    'prefix': 'CGWaitForScreenUpdateRects'
+    'body': 'CGWaitForScreenUpdateRects(${1:CGScreenUpdateOperation requestedOperations}, ${2:CGScreenUpdateOperation* currentOperation}, ${3:CGRect** rects}, ${4:size_t* rectCount}, ${5:CGScreenUpdateMoveDelta* delta})'
+  'CGWarpMouseCursorPosition':
+    'prefix': 'CGWarpMouseCursorPosition'
+    'body': 'CGWarpMouseCursorPosition(${1:CGPoint newCursorPosition})'
+  'CGWindowLevelForKey':
+    'prefix': 'CGWindowLevelForKey'
+    'body': 'CGWindowLevelForKey(${1:CGWindowLevelKey key})'
+  'CGWindowListCopyWindowInfo':
+    'prefix': 'CGWindowListCopyWindowInfo'
+    'body': 'CGWindowListCopyWindowInfo(${1:CGWindowListOption option}, ${2:CGWindowID relativeToWindow})'
+  'CGWindowListCreate':
+    'prefix': 'CGWindowListCreate'
+    'body': 'CGWindowListCreate(${1:CGWindowListOption option}, ${2:CGWindowID relativeToWindow})'
+  'CGWindowListCreateDescriptionFromArray':
+    'prefix': 'CGWindowListCreateDescriptionFromArray'
+    'body': 'CGWindowListCreateDescriptionFromArray(${1:CFArrayRef windowArray})'
+  'CGWindowListCreateImage':
+    'prefix': 'CGWindowListCreateImage'
+    'body': 'CGWindowListCreateImage(${1:CGRect screenBounds}, ${2:CGWindowListOption listOption}, ${3:CGWindowID windowID}, ${4:CGWindowImageOption imageOption})'
+  'CGWindowListCreateImageFromArray':
+    'prefix': 'CGWindowListCreateImageFromArray'
+    'body': 'CGWindowListCreateImageFromArray(${1:CGRect screenBounds}, ${2:CFArrayRef windowArray}, ${3:CGWindowImageOption imageOption})'
+  'CGWindowServerCFMachPort':
+    'prefix': 'CGWindowServerCFMachPort'
+    'body': 'CGWindowServerCFMachPort()'
+  'CGWindowServerCreateServerPort':
+    'prefix': 'CGWindowServerCreateServerPort'
+    'body': 'CGWindowServerCreateServerPort()'
+  '__CGAffineTransformMake':
+    'prefix': '__CGAffineTransformMake'
+    'body': '__CGAffineTransformMake(${1:CGFloat a}, ${2:CGFloat b}, ${3:CGFloat c}, ${4:CGFloat d}, ${5:CGFloat tx}, ${6:CGFloat ty})'
+  '__CGPointApplyAffineTransform':
+    'prefix': '__CGPointApplyAffineTransform'
+    'body': '__CGPointApplyAffineTransform(${1:CGPoint point}, ${2:CGAffineTransform t})'
+  '__CGPointEqualToPoint':
+    'prefix': '__CGPointEqualToPoint'
+    'body': '__CGPointEqualToPoint(${1:CGPoint point1}, ${2:CGPoint point2})'
+  '__CGSizeApplyAffineTransform':
+    'prefix': '__CGSizeApplyAffineTransform'
+    'body': '__CGSizeApplyAffineTransform(${1:CGSize size}, ${2:CGAffineTransform t})'
+  '__CGSizeEqualToSize':
+    'prefix': '__CGSizeEqualToSize'
+    'body': '__CGSizeEqualToSize(${1:CGSize size1}, ${2:CGSize size2})'
+  'CGAffineTransformMake (__CGAffineTransformMake)':
+    'prefix': 'CGAffineTransformMake'
+    'body': 'CGAffineTransformMake'
+  'CGPointApplyAffineTransform (__CGPointApplyAffineTransform)':
+    'prefix': 'CGPointApplyAffineTransform'
+    'body': 'CGPointApplyAffineTransform'
+  'CGPointEqualToPoint (__CGPointEqualToPoint)':
+    'prefix': 'CGPointEqualToPoint'
+    'body': 'CGPointEqualToPoint'
+  'CGSizeApplyAffineTransform (__CGSizeApplyAffineTransform)':
+    'prefix': 'CGSizeApplyAffineTransform'
+    'body': 'CGSizeApplyAffineTransform'
+  'CGSizeEqualToSize (__CGSizeEqualToSize)':
+    'prefix': 'CGSizeEqualToSize'
+    'body': 'CGSizeEqualToSize'

@@ -1,0 +1,1693 @@
+'.source.rubymotion':
+  'kCFErrorDomainSystemConfiguration (CFStringRef)':
+    'prefix': 'kCFErrorDomainSystemConfiguration'
+    'body': 'KCFErrorDomainSystemConfiguration'
+  'kSCBondStatusDeviceAggregationStatus (CFStringRef)':
+    'prefix': 'kSCBondStatusDeviceAggregationStatus'
+    'body': 'KSCBondStatusDeviceAggregationStatus'
+  'kSCBondStatusDeviceCollecting (CFStringRef)':
+    'prefix': 'kSCBondStatusDeviceCollecting'
+    'body': 'KSCBondStatusDeviceCollecting'
+  'kSCBondStatusDeviceDistributing (CFStringRef)':
+    'prefix': 'kSCBondStatusDeviceDistributing'
+    'body': 'KSCBondStatusDeviceDistributing'
+  'kSCCompAnyRegex (CFStringRef)':
+    'prefix': 'kSCCompAnyRegex'
+    'body': 'KSCCompAnyRegex'
+  'kSCCompGlobal (CFStringRef)':
+    'prefix': 'kSCCompGlobal'
+    'body': 'KSCCompGlobal'
+  'kSCCompHostNames (CFStringRef)':
+    'prefix': 'kSCCompHostNames'
+    'body': 'KSCCompHostNames'
+  'kSCCompInterface (CFStringRef)':
+    'prefix': 'kSCCompInterface'
+    'body': 'KSCCompInterface'
+  'kSCCompNetwork (CFStringRef)':
+    'prefix': 'kSCCompNetwork'
+    'body': 'KSCCompNetwork'
+  'kSCCompService (CFStringRef)':
+    'prefix': 'kSCCompService'
+    'body': 'KSCCompService'
+  'kSCCompSystem (CFStringRef)':
+    'prefix': 'kSCCompSystem'
+    'body': 'KSCCompSystem'
+  'kSCCompUsers (CFStringRef)':
+    'prefix': 'kSCCompUsers'
+    'body': 'KSCCompUsers'
+  'kSCDynamicStoreDomainFile (CFStringRef)':
+    'prefix': 'kSCDynamicStoreDomainFile'
+    'body': 'KSCDynamicStoreDomainFile'
+  'kSCDynamicStoreDomainPlugin (CFStringRef)':
+    'prefix': 'kSCDynamicStoreDomainPlugin'
+    'body': 'KSCDynamicStoreDomainPlugin'
+  'kSCDynamicStoreDomainPrefs (CFStringRef)':
+    'prefix': 'kSCDynamicStoreDomainPrefs'
+    'body': 'KSCDynamicStoreDomainPrefs'
+  'kSCDynamicStoreDomainSetup (CFStringRef)':
+    'prefix': 'kSCDynamicStoreDomainSetup'
+    'body': 'KSCDynamicStoreDomainSetup'
+  'kSCDynamicStoreDomainState (CFStringRef)':
+    'prefix': 'kSCDynamicStoreDomainState'
+    'body': 'KSCDynamicStoreDomainState'
+  'kSCDynamicStorePropNetInterfaces (CFStringRef)':
+    'prefix': 'kSCDynamicStorePropNetInterfaces'
+    'body': 'KSCDynamicStorePropNetInterfaces'
+  'kSCDynamicStorePropNetPrimaryInterface (CFStringRef)':
+    'prefix': 'kSCDynamicStorePropNetPrimaryInterface'
+    'body': 'KSCDynamicStorePropNetPrimaryInterface'
+  'kSCDynamicStorePropNetPrimaryService (CFStringRef)':
+    'prefix': 'kSCDynamicStorePropNetPrimaryService'
+    'body': 'KSCDynamicStorePropNetPrimaryService'
+  'kSCDynamicStorePropNetServiceIDs (CFStringRef)':
+    'prefix': 'kSCDynamicStorePropNetServiceIDs'
+    'body': 'KSCDynamicStorePropNetServiceIDs'
+  'kSCDynamicStorePropSetupCurrentSet (CFStringRef)':
+    'prefix': 'kSCDynamicStorePropSetupCurrentSet'
+    'body': 'KSCDynamicStorePropSetupCurrentSet'
+  'kSCDynamicStorePropSetupLastUpdated (CFStringRef)':
+    'prefix': 'kSCDynamicStorePropSetupLastUpdated'
+    'body': 'KSCDynamicStorePropSetupLastUpdated'
+  'kSCDynamicStoreUseSessionKeys (CFStringRef)':
+    'prefix': 'kSCDynamicStoreUseSessionKeys'
+    'body': 'KSCDynamicStoreUseSessionKeys'
+  'kSCEntNet6to4 (CFStringRef)':
+    'prefix': 'kSCEntNet6to4'
+    'body': 'KSCEntNet6to4'
+  'kSCEntNetAirPort (CFStringRef)':
+    'prefix': 'kSCEntNetAirPort'
+    'body': 'KSCEntNetAirPort'
+  'kSCEntNetAppleTalk (CFStringRef)':
+    'prefix': 'kSCEntNetAppleTalk'
+    'body': 'KSCEntNetAppleTalk'
+  'kSCEntNetDHCP (CFStringRef)':
+    'prefix': 'kSCEntNetDHCP'
+    'body': 'KSCEntNetDHCP'
+  'kSCEntNetDNS (CFStringRef)':
+    'prefix': 'kSCEntNetDNS'
+    'body': 'KSCEntNetDNS'
+  'kSCEntNetEthernet (CFStringRef)':
+    'prefix': 'kSCEntNetEthernet'
+    'body': 'KSCEntNetEthernet'
+  'kSCEntNetFireWire (CFStringRef)':
+    'prefix': 'kSCEntNetFireWire'
+    'body': 'KSCEntNetFireWire'
+  'kSCEntNetIPSec (CFStringRef)':
+    'prefix': 'kSCEntNetIPSec'
+    'body': 'KSCEntNetIPSec'
+  'kSCEntNetIPv4 (CFStringRef)':
+    'prefix': 'kSCEntNetIPv4'
+    'body': 'KSCEntNetIPv4'
+  'kSCEntNetIPv6 (CFStringRef)':
+    'prefix': 'kSCEntNetIPv6'
+    'body': 'KSCEntNetIPv6'
+  'kSCEntNetInterface (CFStringRef)':
+    'prefix': 'kSCEntNetInterface'
+    'body': 'KSCEntNetInterface'
+  'kSCEntNetL2TP (CFStringRef)':
+    'prefix': 'kSCEntNetL2TP'
+    'body': 'KSCEntNetL2TP'
+  'kSCEntNetLink (CFStringRef)':
+    'prefix': 'kSCEntNetLink'
+    'body': 'KSCEntNetLink'
+  'kSCEntNetModem (CFStringRef)':
+    'prefix': 'kSCEntNetModem'
+    'body': 'KSCEntNetModem'
+  'kSCEntNetNetInfo (CFStringRef)':
+    'prefix': 'kSCEntNetNetInfo'
+    'body': 'KSCEntNetNetInfo'
+  'kSCEntNetPPP (CFStringRef)':
+    'prefix': 'kSCEntNetPPP'
+    'body': 'KSCEntNetPPP'
+  'kSCEntNetPPPSerial (CFStringRef)':
+    'prefix': 'kSCEntNetPPPSerial'
+    'body': 'KSCEntNetPPPSerial'
+  'kSCEntNetPPPoE (CFStringRef)':
+    'prefix': 'kSCEntNetPPPoE'
+    'body': 'KSCEntNetPPPoE'
+  'kSCEntNetPPTP (CFStringRef)':
+    'prefix': 'kSCEntNetPPTP'
+    'body': 'KSCEntNetPPTP'
+  'kSCEntNetProxies (CFStringRef)':
+    'prefix': 'kSCEntNetProxies'
+    'body': 'KSCEntNetProxies'
+  'kSCEntNetSMB (CFStringRef)':
+    'prefix': 'kSCEntNetSMB'
+    'body': 'KSCEntNetSMB'
+  'kSCEntUsersConsoleUser (CFStringRef)':
+    'prefix': 'kSCEntUsersConsoleUser'
+    'body': 'KSCEntUsersConsoleUser'
+  'kSCNetworkInterfaceIPv4 (SCNetworkInterfaceRef)':
+    'prefix': 'kSCNetworkInterfaceIPv4'
+    'body': 'KSCNetworkInterfaceIPv4'
+  'kSCNetworkInterfaceType6to4 (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceType6to4'
+    'body': 'KSCNetworkInterfaceType6to4'
+  'kSCNetworkInterfaceTypeBluetooth (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeBluetooth'
+    'body': 'KSCNetworkInterfaceTypeBluetooth'
+  'kSCNetworkInterfaceTypeBond (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeBond'
+    'body': 'KSCNetworkInterfaceTypeBond'
+  'kSCNetworkInterfaceTypeEthernet (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeEthernet'
+    'body': 'KSCNetworkInterfaceTypeEthernet'
+  'kSCNetworkInterfaceTypeFireWire (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeFireWire'
+    'body': 'KSCNetworkInterfaceTypeFireWire'
+  'kSCNetworkInterfaceTypeIEEE80211 (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeIEEE80211'
+    'body': 'KSCNetworkInterfaceTypeIEEE80211'
+  'kSCNetworkInterfaceTypeIPSec (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeIPSec'
+    'body': 'KSCNetworkInterfaceTypeIPSec'
+  'kSCNetworkInterfaceTypeIPv4 (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeIPv4'
+    'body': 'KSCNetworkInterfaceTypeIPv4'
+  'kSCNetworkInterfaceTypeIrDA (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeIrDA'
+    'body': 'KSCNetworkInterfaceTypeIrDA'
+  'kSCNetworkInterfaceTypeL2TP (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeL2TP'
+    'body': 'KSCNetworkInterfaceTypeL2TP'
+  'kSCNetworkInterfaceTypeModem (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeModem'
+    'body': 'KSCNetworkInterfaceTypeModem'
+  'kSCNetworkInterfaceTypePPP (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypePPP'
+    'body': 'KSCNetworkInterfaceTypePPP'
+  'kSCNetworkInterfaceTypePPTP (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypePPTP'
+    'body': 'KSCNetworkInterfaceTypePPTP'
+  'kSCNetworkInterfaceTypeSerial (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeSerial'
+    'body': 'KSCNetworkInterfaceTypeSerial'
+  'kSCNetworkInterfaceTypeVLAN (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeVLAN'
+    'body': 'KSCNetworkInterfaceTypeVLAN'
+  'kSCNetworkInterfaceTypeWWAN (CFStringRef)':
+    'prefix': 'kSCNetworkInterfaceTypeWWAN'
+    'body': 'KSCNetworkInterfaceTypeWWAN'
+  'kSCNetworkProtocolTypeAppleTalk (CFStringRef)':
+    'prefix': 'kSCNetworkProtocolTypeAppleTalk'
+    'body': 'KSCNetworkProtocolTypeAppleTalk'
+  'kSCNetworkProtocolTypeDNS (CFStringRef)':
+    'prefix': 'kSCNetworkProtocolTypeDNS'
+    'body': 'KSCNetworkProtocolTypeDNS'
+  'kSCNetworkProtocolTypeIPv4 (CFStringRef)':
+    'prefix': 'kSCNetworkProtocolTypeIPv4'
+    'body': 'KSCNetworkProtocolTypeIPv4'
+  'kSCNetworkProtocolTypeIPv6 (CFStringRef)':
+    'prefix': 'kSCNetworkProtocolTypeIPv6'
+    'body': 'KSCNetworkProtocolTypeIPv6'
+  'kSCNetworkProtocolTypeProxies (CFStringRef)':
+    'prefix': 'kSCNetworkProtocolTypeProxies'
+    'body': 'KSCNetworkProtocolTypeProxies'
+  'kSCNetworkProtocolTypeSMB (CFStringRef)':
+    'prefix': 'kSCNetworkProtocolTypeSMB'
+    'body': 'KSCNetworkProtocolTypeSMB'
+  'kSCPrefCurrentSet (CFStringRef)':
+    'prefix': 'kSCPrefCurrentSet'
+    'body': 'KSCPrefCurrentSet'
+  'kSCPrefNetworkServices (CFStringRef)':
+    'prefix': 'kSCPrefNetworkServices'
+    'body': 'KSCPrefNetworkServices'
+  'kSCPrefSets (CFStringRef)':
+    'prefix': 'kSCPrefSets'
+    'body': 'KSCPrefSets'
+  'kSCPrefSystem (CFStringRef)':
+    'prefix': 'kSCPrefSystem'
+    'body': 'KSCPrefSystem'
+  'kSCPropInterfaceName (CFStringRef)':
+    'prefix': 'kSCPropInterfaceName'
+    'body': 'KSCPropInterfaceName'
+  'kSCPropMACAddress (CFStringRef)':
+    'prefix': 'kSCPropMACAddress'
+    'body': 'KSCPropMACAddress'
+  'kSCPropNet6to4Relay (CFStringRef)':
+    'prefix': 'kSCPropNet6to4Relay'
+    'body': 'KSCPropNet6to4Relay'
+  'kSCPropNetAirPortAllowNetCreation (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortAllowNetCreation'
+    'body': 'KSCPropNetAirPortAllowNetCreation'
+  'kSCPropNetAirPortAuthPassword (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortAuthPassword'
+    'body': 'KSCPropNetAirPortAuthPassword'
+  'kSCPropNetAirPortAuthPasswordEncryption (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortAuthPasswordEncryption'
+    'body': 'KSCPropNetAirPortAuthPasswordEncryption'
+  'kSCPropNetAirPortJoinMode (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortJoinMode'
+    'body': 'KSCPropNetAirPortJoinMode'
+  'kSCPropNetAirPortPowerEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortPowerEnabled'
+    'body': 'KSCPropNetAirPortPowerEnabled'
+  'kSCPropNetAirPortPreferredNetwork (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortPreferredNetwork'
+    'body': 'KSCPropNetAirPortPreferredNetwork'
+  'kSCPropNetAirPortSavePasswords (CFStringRef)':
+    'prefix': 'kSCPropNetAirPortSavePasswords'
+    'body': 'KSCPropNetAirPortSavePasswords'
+  'kSCPropNetAppleTalkComputerName (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkComputerName'
+    'body': 'KSCPropNetAppleTalkComputerName'
+  'kSCPropNetAppleTalkComputerNameEncoding (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkComputerNameEncoding'
+    'body': 'KSCPropNetAppleTalkComputerNameEncoding'
+  'kSCPropNetAppleTalkConfigMethod (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkConfigMethod'
+    'body': 'KSCPropNetAppleTalkConfigMethod'
+  'kSCPropNetAppleTalkDefaultZone (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkDefaultZone'
+    'body': 'KSCPropNetAppleTalkDefaultZone'
+  'kSCPropNetAppleTalkNetworkID (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkNetworkID'
+    'body': 'KSCPropNetAppleTalkNetworkID'
+  'kSCPropNetAppleTalkNetworkRange (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkNetworkRange'
+    'body': 'KSCPropNetAppleTalkNetworkRange'
+  'kSCPropNetAppleTalkNodeID (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkNodeID'
+    'body': 'KSCPropNetAppleTalkNodeID'
+  'kSCPropNetAppleTalkSeedNetworkRange (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkSeedNetworkRange'
+    'body': 'KSCPropNetAppleTalkSeedNetworkRange'
+  'kSCPropNetAppleTalkSeedZones (CFStringRef)':
+    'prefix': 'kSCPropNetAppleTalkSeedZones'
+    'body': 'KSCPropNetAppleTalkSeedZones'
+  'kSCPropNetDNSDomainName (CFStringRef)':
+    'prefix': 'kSCPropNetDNSDomainName'
+    'body': 'KSCPropNetDNSDomainName'
+  'kSCPropNetDNSOptions (CFStringRef)':
+    'prefix': 'kSCPropNetDNSOptions'
+    'body': 'KSCPropNetDNSOptions'
+  'kSCPropNetDNSSearchDomains (CFStringRef)':
+    'prefix': 'kSCPropNetDNSSearchDomains'
+    'body': 'KSCPropNetDNSSearchDomains'
+  'kSCPropNetDNSSearchOrder (CFStringRef)':
+    'prefix': 'kSCPropNetDNSSearchOrder'
+    'body': 'KSCPropNetDNSSearchOrder'
+  'kSCPropNetDNSServerAddresses (CFStringRef)':
+    'prefix': 'kSCPropNetDNSServerAddresses'
+    'body': 'KSCPropNetDNSServerAddresses'
+  'kSCPropNetDNSServerPort (CFStringRef)':
+    'prefix': 'kSCPropNetDNSServerPort'
+    'body': 'KSCPropNetDNSServerPort'
+  'kSCPropNetDNSServerTimeout (CFStringRef)':
+    'prefix': 'kSCPropNetDNSServerTimeout'
+    'body': 'KSCPropNetDNSServerTimeout'
+  'kSCPropNetDNSSortList (CFStringRef)':
+    'prefix': 'kSCPropNetDNSSortList'
+    'body': 'KSCPropNetDNSSortList'
+  'kSCPropNetDNSSupplementalMatchDomains (CFStringRef)':
+    'prefix': 'kSCPropNetDNSSupplementalMatchDomains'
+    'body': 'KSCPropNetDNSSupplementalMatchDomains'
+  'kSCPropNetDNSSupplementalMatchOrders (CFStringRef)':
+    'prefix': 'kSCPropNetDNSSupplementalMatchOrders'
+    'body': 'KSCPropNetDNSSupplementalMatchOrders'
+  'kSCPropNetEthernetMTU (CFStringRef)':
+    'prefix': 'kSCPropNetEthernetMTU'
+    'body': 'KSCPropNetEthernetMTU'
+  'kSCPropNetEthernetMediaOptions (CFStringRef)':
+    'prefix': 'kSCPropNetEthernetMediaOptions'
+    'body': 'KSCPropNetEthernetMediaOptions'
+  'kSCPropNetEthernetMediaSubType (CFStringRef)':
+    'prefix': 'kSCPropNetEthernetMediaSubType'
+    'body': 'KSCPropNetEthernetMediaSubType'
+  'kSCPropNetIPSecAuthenticationMethod (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecAuthenticationMethod'
+    'body': 'KSCPropNetIPSecAuthenticationMethod'
+  'kSCPropNetIPSecConnectTime (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecConnectTime'
+    'body': 'KSCPropNetIPSecConnectTime'
+  'kSCPropNetIPSecLocalCertificate (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecLocalCertificate'
+    'body': 'KSCPropNetIPSecLocalCertificate'
+  'kSCPropNetIPSecLocalIdentifier (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecLocalIdentifier'
+    'body': 'KSCPropNetIPSecLocalIdentifier'
+  'kSCPropNetIPSecLocalIdentifierType (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecLocalIdentifierType'
+    'body': 'KSCPropNetIPSecLocalIdentifierType'
+  'kSCPropNetIPSecRemoteAddress (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecRemoteAddress'
+    'body': 'KSCPropNetIPSecRemoteAddress'
+  'kSCPropNetIPSecSharedSecret (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecSharedSecret'
+    'body': 'KSCPropNetIPSecSharedSecret'
+  'kSCPropNetIPSecSharedSecretEncryption (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecSharedSecretEncryption'
+    'body': 'KSCPropNetIPSecSharedSecretEncryption'
+  'kSCPropNetIPSecStatus (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecStatus'
+    'body': 'KSCPropNetIPSecStatus'
+  'kSCPropNetIPSecXAuthEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecXAuthEnabled'
+    'body': 'KSCPropNetIPSecXAuthEnabled'
+  'kSCPropNetIPSecXAuthName (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecXAuthName'
+    'body': 'KSCPropNetIPSecXAuthName'
+  'kSCPropNetIPSecXAuthPassword (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecXAuthPassword'
+    'body': 'KSCPropNetIPSecXAuthPassword'
+  'kSCPropNetIPSecXAuthPasswordEncryption (CFStringRef)':
+    'prefix': 'kSCPropNetIPSecXAuthPasswordEncryption'
+    'body': 'KSCPropNetIPSecXAuthPasswordEncryption'
+  'kSCPropNetIPv4Addresses (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4Addresses'
+    'body': 'KSCPropNetIPv4Addresses'
+  'kSCPropNetIPv4BroadcastAddresses (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4BroadcastAddresses'
+    'body': 'KSCPropNetIPv4BroadcastAddresses'
+  'kSCPropNetIPv4ConfigMethod (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4ConfigMethod'
+    'body': 'KSCPropNetIPv4ConfigMethod'
+  'kSCPropNetIPv4DHCPClientID (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4DHCPClientID'
+    'body': 'KSCPropNetIPv4DHCPClientID'
+  'kSCPropNetIPv4DestAddresses (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4DestAddresses'
+    'body': 'KSCPropNetIPv4DestAddresses'
+  'kSCPropNetIPv4Router (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4Router'
+    'body': 'KSCPropNetIPv4Router'
+  'kSCPropNetIPv4SubnetMasks (CFStringRef)':
+    'prefix': 'kSCPropNetIPv4SubnetMasks'
+    'body': 'KSCPropNetIPv4SubnetMasks'
+  'kSCPropNetIPv6Addresses (CFStringRef)':
+    'prefix': 'kSCPropNetIPv6Addresses'
+    'body': 'KSCPropNetIPv6Addresses'
+  'kSCPropNetIPv6ConfigMethod (CFStringRef)':
+    'prefix': 'kSCPropNetIPv6ConfigMethod'
+    'body': 'KSCPropNetIPv6ConfigMethod'
+  'kSCPropNetIPv6DestAddresses (CFStringRef)':
+    'prefix': 'kSCPropNetIPv6DestAddresses'
+    'body': 'KSCPropNetIPv6DestAddresses'
+  'kSCPropNetIPv6Flags (CFStringRef)':
+    'prefix': 'kSCPropNetIPv6Flags'
+    'body': 'KSCPropNetIPv6Flags'
+  'kSCPropNetIPv6PrefixLength (CFStringRef)':
+    'prefix': 'kSCPropNetIPv6PrefixLength'
+    'body': 'KSCPropNetIPv6PrefixLength'
+  'kSCPropNetIPv6Router (CFStringRef)':
+    'prefix': 'kSCPropNetIPv6Router'
+    'body': 'KSCPropNetIPv6Router'
+  'kSCPropNetInterfaceDeviceName (CFStringRef)':
+    'prefix': 'kSCPropNetInterfaceDeviceName'
+    'body': 'KSCPropNetInterfaceDeviceName'
+  'kSCPropNetInterfaceHardware (CFStringRef)':
+    'prefix': 'kSCPropNetInterfaceHardware'
+    'body': 'KSCPropNetInterfaceHardware'
+  'kSCPropNetInterfaceSubType (CFStringRef)':
+    'prefix': 'kSCPropNetInterfaceSubType'
+    'body': 'KSCPropNetInterfaceSubType'
+  'kSCPropNetInterfaceSupportsModemOnHold (CFStringRef)':
+    'prefix': 'kSCPropNetInterfaceSupportsModemOnHold'
+    'body': 'KSCPropNetInterfaceSupportsModemOnHold'
+  'kSCPropNetInterfaceType (CFStringRef)':
+    'prefix': 'kSCPropNetInterfaceType'
+    'body': 'KSCPropNetInterfaceType'
+  'kSCPropNetInterfaces (CFStringRef)':
+    'prefix': 'kSCPropNetInterfaces'
+    'body': 'KSCPropNetInterfaces'
+  'kSCPropNetL2TPIPSecSharedSecret (CFStringRef)':
+    'prefix': 'kSCPropNetL2TPIPSecSharedSecret'
+    'body': 'KSCPropNetL2TPIPSecSharedSecret'
+  'kSCPropNetL2TPIPSecSharedSecretEncryption (CFStringRef)':
+    'prefix': 'kSCPropNetL2TPIPSecSharedSecretEncryption'
+    'body': 'KSCPropNetL2TPIPSecSharedSecretEncryption'
+  'kSCPropNetL2TPTransport (CFStringRef)':
+    'prefix': 'kSCPropNetL2TPTransport'
+    'body': 'KSCPropNetL2TPTransport'
+  'kSCPropNetLinkActive (CFStringRef)':
+    'prefix': 'kSCPropNetLinkActive'
+    'body': 'KSCPropNetLinkActive'
+  'kSCPropNetLinkDetaching (CFStringRef)':
+    'prefix': 'kSCPropNetLinkDetaching'
+    'body': 'KSCPropNetLinkDetaching'
+  'kSCPropNetLocalHostName (CFStringRef)':
+    'prefix': 'kSCPropNetLocalHostName'
+    'body': 'KSCPropNetLocalHostName'
+  'kSCPropNetModemAccessPointName (CFStringRef)':
+    'prefix': 'kSCPropNetModemAccessPointName'
+    'body': 'KSCPropNetModemAccessPointName'
+  'kSCPropNetModemConnectSpeed (CFStringRef)':
+    'prefix': 'kSCPropNetModemConnectSpeed'
+    'body': 'KSCPropNetModemConnectSpeed'
+  'kSCPropNetModemConnectionPersonality (CFStringRef)':
+    'prefix': 'kSCPropNetModemConnectionPersonality'
+    'body': 'KSCPropNetModemConnectionPersonality'
+  'kSCPropNetModemConnectionScript (CFStringRef)':
+    'prefix': 'kSCPropNetModemConnectionScript'
+    'body': 'KSCPropNetModemConnectionScript'
+  'kSCPropNetModemDataCompression (CFStringRef)':
+    'prefix': 'kSCPropNetModemDataCompression'
+    'body': 'KSCPropNetModemDataCompression'
+  'kSCPropNetModemDeviceContextID (CFStringRef)':
+    'prefix': 'kSCPropNetModemDeviceContextID'
+    'body': 'KSCPropNetModemDeviceContextID'
+  'kSCPropNetModemDeviceModel (CFStringRef)':
+    'prefix': 'kSCPropNetModemDeviceModel'
+    'body': 'KSCPropNetModemDeviceModel'
+  'kSCPropNetModemDeviceVendor (CFStringRef)':
+    'prefix': 'kSCPropNetModemDeviceVendor'
+    'body': 'KSCPropNetModemDeviceVendor'
+  'kSCPropNetModemDialMode (CFStringRef)':
+    'prefix': 'kSCPropNetModemDialMode'
+    'body': 'KSCPropNetModemDialMode'
+  'kSCPropNetModemErrorCorrection (CFStringRef)':
+    'prefix': 'kSCPropNetModemErrorCorrection'
+    'body': 'KSCPropNetModemErrorCorrection'
+  'kSCPropNetModemHoldCallWaitingAudibleAlert (CFStringRef)':
+    'prefix': 'kSCPropNetModemHoldCallWaitingAudibleAlert'
+    'body': 'KSCPropNetModemHoldCallWaitingAudibleAlert'
+  'kSCPropNetModemHoldDisconnectOnAnswer (CFStringRef)':
+    'prefix': 'kSCPropNetModemHoldDisconnectOnAnswer'
+    'body': 'KSCPropNetModemHoldDisconnectOnAnswer'
+  'kSCPropNetModemHoldEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetModemHoldEnabled'
+    'body': 'KSCPropNetModemHoldEnabled'
+  'kSCPropNetModemHoldReminder (CFStringRef)':
+    'prefix': 'kSCPropNetModemHoldReminder'
+    'body': 'KSCPropNetModemHoldReminder'
+  'kSCPropNetModemHoldReminderTime (CFStringRef)':
+    'prefix': 'kSCPropNetModemHoldReminderTime'
+    'body': 'KSCPropNetModemHoldReminderTime'
+  'kSCPropNetModemNote (CFStringRef)':
+    'prefix': 'kSCPropNetModemNote'
+    'body': 'KSCPropNetModemNote'
+  'kSCPropNetModemPulseDial (CFStringRef)':
+    'prefix': 'kSCPropNetModemPulseDial'
+    'body': 'KSCPropNetModemPulseDial'
+  'kSCPropNetModemSpeaker (CFStringRef)':
+    'prefix': 'kSCPropNetModemSpeaker'
+    'body': 'KSCPropNetModemSpeaker'
+  'kSCPropNetModemSpeed (CFStringRef)':
+    'prefix': 'kSCPropNetModemSpeed'
+    'body': 'KSCPropNetModemSpeed'
+  'kSCPropNetNetInfoBindingMethods (CFStringRef)':
+    'prefix': 'kSCPropNetNetInfoBindingMethods'
+    'body': 'KSCPropNetNetInfoBindingMethods'
+  'kSCPropNetNetInfoBroadcastServerTag (CFStringRef)':
+    'prefix': 'kSCPropNetNetInfoBroadcastServerTag'
+    'body': 'KSCPropNetNetInfoBroadcastServerTag'
+  'kSCPropNetNetInfoServerAddresses (CFStringRef)':
+    'prefix': 'kSCPropNetNetInfoServerAddresses'
+    'body': 'KSCPropNetNetInfoServerAddresses'
+  'kSCPropNetNetInfoServerTags (CFStringRef)':
+    'prefix': 'kSCPropNetNetInfoServerTags'
+    'body': 'KSCPropNetNetInfoServerTags'
+  'kSCPropNetOverridePrimary (CFStringRef)':
+    'prefix': 'kSCPropNetOverridePrimary'
+    'body': 'KSCPropNetOverridePrimary'
+  'kSCPropNetPPPACSPEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetPPPACSPEnabled'
+    'body': 'KSCPropNetPPPACSPEnabled'
+  'kSCPropNetPPPAuthEAPPlugins (CFStringRef)':
+    'prefix': 'kSCPropNetPPPAuthEAPPlugins'
+    'body': 'KSCPropNetPPPAuthEAPPlugins'
+  'kSCPropNetPPPAuthName (CFStringRef)':
+    'prefix': 'kSCPropNetPPPAuthName'
+    'body': 'KSCPropNetPPPAuthName'
+  'kSCPropNetPPPAuthPassword (CFStringRef)':
+    'prefix': 'kSCPropNetPPPAuthPassword'
+    'body': 'KSCPropNetPPPAuthPassword'
+  'kSCPropNetPPPAuthPasswordEncryption (CFStringRef)':
+    'prefix': 'kSCPropNetPPPAuthPasswordEncryption'
+    'body': 'KSCPropNetPPPAuthPasswordEncryption'
+  'kSCPropNetPPPAuthPrompt (CFStringRef)':
+    'prefix': 'kSCPropNetPPPAuthPrompt'
+    'body': 'KSCPropNetPPPAuthPrompt'
+  'kSCPropNetPPPAuthProtocol (CFStringRef)':
+    'prefix': 'kSCPropNetPPPAuthProtocol'
+    'body': 'KSCPropNetPPPAuthProtocol'
+  'kSCPropNetPPPCCPEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCCPEnabled'
+    'body': 'KSCPropNetPPPCCPEnabled'
+  'kSCPropNetPPPCCPMPPE128Enabled (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCCPMPPE128Enabled'
+    'body': 'KSCPropNetPPPCCPMPPE128Enabled'
+  'kSCPropNetPPPCCPMPPE40Enabled (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCCPMPPE40Enabled'
+    'body': 'KSCPropNetPPPCCPMPPE40Enabled'
+  'kSCPropNetPPPCommAlternateRemoteAddress (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommAlternateRemoteAddress'
+    'body': 'KSCPropNetPPPCommAlternateRemoteAddress'
+  'kSCPropNetPPPCommConnectDelay (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommConnectDelay'
+    'body': 'KSCPropNetPPPCommConnectDelay'
+  'kSCPropNetPPPCommDisplayTerminalWindow (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommDisplayTerminalWindow'
+    'body': 'KSCPropNetPPPCommDisplayTerminalWindow'
+  'kSCPropNetPPPCommRedialCount (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommRedialCount'
+    'body': 'KSCPropNetPPPCommRedialCount'
+  'kSCPropNetPPPCommRedialEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommRedialEnabled'
+    'body': 'KSCPropNetPPPCommRedialEnabled'
+  'kSCPropNetPPPCommRedialInterval (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommRedialInterval'
+    'body': 'KSCPropNetPPPCommRedialInterval'
+  'kSCPropNetPPPCommRemoteAddress (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommRemoteAddress'
+    'body': 'KSCPropNetPPPCommRemoteAddress'
+  'kSCPropNetPPPCommTerminalScript (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommTerminalScript'
+    'body': 'KSCPropNetPPPCommTerminalScript'
+  'kSCPropNetPPPCommUseTerminalScript (CFStringRef)':
+    'prefix': 'kSCPropNetPPPCommUseTerminalScript'
+    'body': 'KSCPropNetPPPCommUseTerminalScript'
+  'kSCPropNetPPPConnectTime (CFStringRef)':
+    'prefix': 'kSCPropNetPPPConnectTime'
+    'body': 'KSCPropNetPPPConnectTime'
+  'kSCPropNetPPPDeviceLastCause (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDeviceLastCause'
+    'body': 'KSCPropNetPPPDeviceLastCause'
+  'kSCPropNetPPPDialOnDemand (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDialOnDemand'
+    'body': 'KSCPropNetPPPDialOnDemand'
+  'kSCPropNetPPPDisconnectOnFastUserSwitch (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDisconnectOnFastUserSwitch'
+    'body': 'KSCPropNetPPPDisconnectOnFastUserSwitch'
+  'kSCPropNetPPPDisconnectOnIdle (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDisconnectOnIdle'
+    'body': 'KSCPropNetPPPDisconnectOnIdle'
+  'kSCPropNetPPPDisconnectOnIdleTimer (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDisconnectOnIdleTimer'
+    'body': 'KSCPropNetPPPDisconnectOnIdleTimer'
+  'kSCPropNetPPPDisconnectOnLogout (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDisconnectOnLogout'
+    'body': 'KSCPropNetPPPDisconnectOnLogout'
+  'kSCPropNetPPPDisconnectOnSleep (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDisconnectOnSleep'
+    'body': 'KSCPropNetPPPDisconnectOnSleep'
+  'kSCPropNetPPPDisconnectTime (CFStringRef)':
+    'prefix': 'kSCPropNetPPPDisconnectTime'
+    'body': 'KSCPropNetPPPDisconnectTime'
+  'kSCPropNetPPPIPCPCompressionVJ (CFStringRef)':
+    'prefix': 'kSCPropNetPPPIPCPCompressionVJ'
+    'body': 'KSCPropNetPPPIPCPCompressionVJ'
+  'kSCPropNetPPPIPCPUsePeerDNS (CFStringRef)':
+    'prefix': 'kSCPropNetPPPIPCPUsePeerDNS'
+    'body': 'KSCPropNetPPPIPCPUsePeerDNS'
+  'kSCPropNetPPPIdleReminder (CFStringRef)':
+    'prefix': 'kSCPropNetPPPIdleReminder'
+    'body': 'KSCPropNetPPPIdleReminder'
+  'kSCPropNetPPPIdleReminderTimer (CFStringRef)':
+    'prefix': 'kSCPropNetPPPIdleReminderTimer'
+    'body': 'KSCPropNetPPPIdleReminderTimer'
+  'kSCPropNetPPPLCPCompressionACField (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPCompressionACField'
+    'body': 'KSCPropNetPPPLCPCompressionACField'
+  'kSCPropNetPPPLCPCompressionPField (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPCompressionPField'
+    'body': 'KSCPropNetPPPLCPCompressionPField'
+  'kSCPropNetPPPLCPEchoEnabled (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPEchoEnabled'
+    'body': 'KSCPropNetPPPLCPEchoEnabled'
+  'kSCPropNetPPPLCPEchoFailure (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPEchoFailure'
+    'body': 'KSCPropNetPPPLCPEchoFailure'
+  'kSCPropNetPPPLCPEchoInterval (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPEchoInterval'
+    'body': 'KSCPropNetPPPLCPEchoInterval'
+  'kSCPropNetPPPLCPMRU (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPMRU'
+    'body': 'KSCPropNetPPPLCPMRU'
+  'kSCPropNetPPPLCPMTU (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPMTU'
+    'body': 'KSCPropNetPPPLCPMTU'
+  'kSCPropNetPPPLCPReceiveACCM (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPReceiveACCM'
+    'body': 'KSCPropNetPPPLCPReceiveACCM'
+  'kSCPropNetPPPLCPTransmitACCM (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLCPTransmitACCM'
+    'body': 'KSCPropNetPPPLCPTransmitACCM'
+  'kSCPropNetPPPLastCause (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLastCause'
+    'body': 'KSCPropNetPPPLastCause'
+  'kSCPropNetPPPLogfile (CFStringRef)':
+    'prefix': 'kSCPropNetPPPLogfile'
+    'body': 'KSCPropNetPPPLogfile'
+  'kSCPropNetPPPOverridePrimary (CFStringRef)':
+    'prefix': 'kSCPropNetPPPOverridePrimary'
+    'body': 'KSCPropNetPPPOverridePrimary'
+  'kSCPropNetPPPPlugins (CFStringRef)':
+    'prefix': 'kSCPropNetPPPPlugins'
+    'body': 'KSCPropNetPPPPlugins'
+  'kSCPropNetPPPRetryConnectTime (CFStringRef)':
+    'prefix': 'kSCPropNetPPPRetryConnectTime'
+    'body': 'KSCPropNetPPPRetryConnectTime'
+  'kSCPropNetPPPSessionTimer (CFStringRef)':
+    'prefix': 'kSCPropNetPPPSessionTimer'
+    'body': 'KSCPropNetPPPSessionTimer'
+  'kSCPropNetPPPStatus (CFStringRef)':
+    'prefix': 'kSCPropNetPPPStatus'
+    'body': 'KSCPropNetPPPStatus'
+  'kSCPropNetPPPUseSessionTimer (CFStringRef)':
+    'prefix': 'kSCPropNetPPPUseSessionTimer'
+    'body': 'KSCPropNetPPPUseSessionTimer'
+  'kSCPropNetPPPVerboseLogging (CFStringRef)':
+    'prefix': 'kSCPropNetPPPVerboseLogging'
+    'body': 'KSCPropNetPPPVerboseLogging'
+  'kSCPropNetProxiesExceptionsList (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesExceptionsList'
+    'body': 'KSCPropNetProxiesExceptionsList'
+  'kSCPropNetProxiesExcludeSimpleHostnames (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesExcludeSimpleHostnames'
+    'body': 'KSCPropNetProxiesExcludeSimpleHostnames'
+  'kSCPropNetProxiesFTPEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesFTPEnable'
+    'body': 'KSCPropNetProxiesFTPEnable'
+  'kSCPropNetProxiesFTPPassive (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesFTPPassive'
+    'body': 'KSCPropNetProxiesFTPPassive'
+  'kSCPropNetProxiesFTPPort (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesFTPPort'
+    'body': 'KSCPropNetProxiesFTPPort'
+  'kSCPropNetProxiesFTPProxy (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesFTPProxy'
+    'body': 'KSCPropNetProxiesFTPProxy'
+  'kSCPropNetProxiesGopherEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesGopherEnable'
+    'body': 'KSCPropNetProxiesGopherEnable'
+  'kSCPropNetProxiesGopherPort (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesGopherPort'
+    'body': 'KSCPropNetProxiesGopherPort'
+  'kSCPropNetProxiesGopherProxy (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesGopherProxy'
+    'body': 'KSCPropNetProxiesGopherProxy'
+  'kSCPropNetProxiesHTTPEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesHTTPEnable'
+    'body': 'KSCPropNetProxiesHTTPEnable'
+  'kSCPropNetProxiesHTTPPort (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesHTTPPort'
+    'body': 'KSCPropNetProxiesHTTPPort'
+  'kSCPropNetProxiesHTTPProxy (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesHTTPProxy'
+    'body': 'KSCPropNetProxiesHTTPProxy'
+  'kSCPropNetProxiesHTTPSEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesHTTPSEnable'
+    'body': 'KSCPropNetProxiesHTTPSEnable'
+  'kSCPropNetProxiesHTTPSPort (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesHTTPSPort'
+    'body': 'KSCPropNetProxiesHTTPSPort'
+  'kSCPropNetProxiesHTTPSProxy (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesHTTPSProxy'
+    'body': 'KSCPropNetProxiesHTTPSProxy'
+  'kSCPropNetProxiesProxyAutoConfigEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesProxyAutoConfigEnable'
+    'body': 'KSCPropNetProxiesProxyAutoConfigEnable'
+  'kSCPropNetProxiesProxyAutoConfigJavaScript (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesProxyAutoConfigJavaScript'
+    'body': 'KSCPropNetProxiesProxyAutoConfigJavaScript'
+  'kSCPropNetProxiesProxyAutoConfigURLString (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesProxyAutoConfigURLString'
+    'body': 'KSCPropNetProxiesProxyAutoConfigURLString'
+  'kSCPropNetProxiesProxyAutoDiscoveryEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesProxyAutoDiscoveryEnable'
+    'body': 'KSCPropNetProxiesProxyAutoDiscoveryEnable'
+  'kSCPropNetProxiesRTSPEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesRTSPEnable'
+    'body': 'KSCPropNetProxiesRTSPEnable'
+  'kSCPropNetProxiesRTSPPort (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesRTSPPort'
+    'body': 'KSCPropNetProxiesRTSPPort'
+  'kSCPropNetProxiesRTSPProxy (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesRTSPProxy'
+    'body': 'KSCPropNetProxiesRTSPProxy'
+  'kSCPropNetProxiesSOCKSEnable (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesSOCKSEnable'
+    'body': 'KSCPropNetProxiesSOCKSEnable'
+  'kSCPropNetProxiesSOCKSPort (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesSOCKSPort'
+    'body': 'KSCPropNetProxiesSOCKSPort'
+  'kSCPropNetProxiesSOCKSProxy (CFStringRef)':
+    'prefix': 'kSCPropNetProxiesSOCKSProxy'
+    'body': 'KSCPropNetProxiesSOCKSProxy'
+  'kSCPropNetSMBNetBIOSName (CFStringRef)':
+    'prefix': 'kSCPropNetSMBNetBIOSName'
+    'body': 'KSCPropNetSMBNetBIOSName'
+  'kSCPropNetSMBNetBIOSNodeType (CFStringRef)':
+    'prefix': 'kSCPropNetSMBNetBIOSNodeType'
+    'body': 'KSCPropNetSMBNetBIOSNodeType'
+  'kSCPropNetSMBNetBIOSScope (CFStringRef)':
+    'prefix': 'kSCPropNetSMBNetBIOSScope'
+    'body': 'KSCPropNetSMBNetBIOSScope'
+  'kSCPropNetSMBWINSAddresses (CFStringRef)':
+    'prefix': 'kSCPropNetSMBWINSAddresses'
+    'body': 'KSCPropNetSMBWINSAddresses'
+  'kSCPropNetSMBWorkgroup (CFStringRef)':
+    'prefix': 'kSCPropNetSMBWorkgroup'
+    'body': 'KSCPropNetSMBWorkgroup'
+  'kSCPropNetServiceOrder (CFStringRef)':
+    'prefix': 'kSCPropNetServiceOrder'
+    'body': 'KSCPropNetServiceOrder'
+  'kSCPropSystemComputerName (CFStringRef)':
+    'prefix': 'kSCPropSystemComputerName'
+    'body': 'KSCPropSystemComputerName'
+  'kSCPropSystemComputerNameEncoding (CFStringRef)':
+    'prefix': 'kSCPropSystemComputerNameEncoding'
+    'body': 'KSCPropSystemComputerNameEncoding'
+  'kSCPropUserDefinedName (CFStringRef)':
+    'prefix': 'kSCPropUserDefinedName'
+    'body': 'KSCPropUserDefinedName'
+  'kSCPropUsersConsoleUserGID (CFStringRef)':
+    'prefix': 'kSCPropUsersConsoleUserGID'
+    'body': 'KSCPropUsersConsoleUserGID'
+  'kSCPropUsersConsoleUserName (CFStringRef)':
+    'prefix': 'kSCPropUsersConsoleUserName'
+    'body': 'KSCPropUsersConsoleUserName'
+  'kSCPropUsersConsoleUserUID (CFStringRef)':
+    'prefix': 'kSCPropUsersConsoleUserUID'
+    'body': 'KSCPropUsersConsoleUserUID'
+  'kSCPropVersion (CFStringRef)':
+    'prefix': 'kSCPropVersion'
+    'body': 'KSCPropVersion'
+  'kSCResvInactive (CFStringRef)':
+    'prefix': 'kSCResvInactive'
+    'body': 'KSCResvInactive'
+  'kSCResvLink (CFStringRef)':
+    'prefix': 'kSCResvLink'
+    'body': 'KSCResvLink'
+  'kSCValNetAirPortAuthPasswordEncryptionKeychain (CFStringRef)':
+    'prefix': 'kSCValNetAirPortAuthPasswordEncryptionKeychain'
+    'body': 'KSCValNetAirPortAuthPasswordEncryptionKeychain'
+  'kSCValNetAirPortJoinModeAutomatic (CFStringRef)':
+    'prefix': 'kSCValNetAirPortJoinModeAutomatic'
+    'body': 'KSCValNetAirPortJoinModeAutomatic'
+  'kSCValNetAirPortJoinModePreferred (CFStringRef)':
+    'prefix': 'kSCValNetAirPortJoinModePreferred'
+    'body': 'KSCValNetAirPortJoinModePreferred'
+  'kSCValNetAirPortJoinModeRanked (CFStringRef)':
+    'prefix': 'kSCValNetAirPortJoinModeRanked'
+    'body': 'KSCValNetAirPortJoinModeRanked'
+  'kSCValNetAirPortJoinModeRecent (CFStringRef)':
+    'prefix': 'kSCValNetAirPortJoinModeRecent'
+    'body': 'KSCValNetAirPortJoinModeRecent'
+  'kSCValNetAirPortJoinModeStrongest (CFStringRef)':
+    'prefix': 'kSCValNetAirPortJoinModeStrongest'
+    'body': 'KSCValNetAirPortJoinModeStrongest'
+  'kSCValNetAppleTalkConfigMethodNode (CFStringRef)':
+    'prefix': 'kSCValNetAppleTalkConfigMethodNode'
+    'body': 'KSCValNetAppleTalkConfigMethodNode'
+  'kSCValNetAppleTalkConfigMethodRouter (CFStringRef)':
+    'prefix': 'kSCValNetAppleTalkConfigMethodRouter'
+    'body': 'KSCValNetAppleTalkConfigMethodRouter'
+  'kSCValNetAppleTalkConfigMethodSeedRouter (CFStringRef)':
+    'prefix': 'kSCValNetAppleTalkConfigMethodSeedRouter'
+    'body': 'KSCValNetAppleTalkConfigMethodSeedRouter'
+  'kSCValNetIPSecAuthenticationMethodCertificate (CFStringRef)':
+    'prefix': 'kSCValNetIPSecAuthenticationMethodCertificate'
+    'body': 'KSCValNetIPSecAuthenticationMethodCertificate'
+  'kSCValNetIPSecAuthenticationMethodHybrid (CFStringRef)':
+    'prefix': 'kSCValNetIPSecAuthenticationMethodHybrid'
+    'body': 'KSCValNetIPSecAuthenticationMethodHybrid'
+  'kSCValNetIPSecAuthenticationMethodSharedSecret (CFStringRef)':
+    'prefix': 'kSCValNetIPSecAuthenticationMethodSharedSecret'
+    'body': 'KSCValNetIPSecAuthenticationMethodSharedSecret'
+  'kSCValNetIPSecLocalIdentifierTypeKeyID (CFStringRef)':
+    'prefix': 'kSCValNetIPSecLocalIdentifierTypeKeyID'
+    'body': 'KSCValNetIPSecLocalIdentifierTypeKeyID'
+  'kSCValNetIPSecSharedSecretEncryptionKeychain (CFStringRef)':
+    'prefix': 'kSCValNetIPSecSharedSecretEncryptionKeychain'
+    'body': 'KSCValNetIPSecSharedSecretEncryptionKeychain'
+  'kSCValNetIPSecXAuthPasswordEncryptionKeychain (CFStringRef)':
+    'prefix': 'kSCValNetIPSecXAuthPasswordEncryptionKeychain'
+    'body': 'KSCValNetIPSecXAuthPasswordEncryptionKeychain'
+  'kSCValNetIPSecXAuthPasswordEncryptionPrompt (CFStringRef)':
+    'prefix': 'kSCValNetIPSecXAuthPasswordEncryptionPrompt'
+    'body': 'KSCValNetIPSecXAuthPasswordEncryptionPrompt'
+  'kSCValNetIPv4ConfigMethodAutomatic (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodAutomatic'
+    'body': 'KSCValNetIPv4ConfigMethodAutomatic'
+  'kSCValNetIPv4ConfigMethodBOOTP (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodBOOTP'
+    'body': 'KSCValNetIPv4ConfigMethodBOOTP'
+  'kSCValNetIPv4ConfigMethodDHCP (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodDHCP'
+    'body': 'KSCValNetIPv4ConfigMethodDHCP'
+  'kSCValNetIPv4ConfigMethodINFORM (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodINFORM'
+    'body': 'KSCValNetIPv4ConfigMethodINFORM'
+  'kSCValNetIPv4ConfigMethodLinkLocal (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodLinkLocal'
+    'body': 'KSCValNetIPv4ConfigMethodLinkLocal'
+  'kSCValNetIPv4ConfigMethodManual (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodManual'
+    'body': 'KSCValNetIPv4ConfigMethodManual'
+  'kSCValNetIPv4ConfigMethodPPP (CFStringRef)':
+    'prefix': 'kSCValNetIPv4ConfigMethodPPP'
+    'body': 'KSCValNetIPv4ConfigMethodPPP'
+  'kSCValNetIPv6ConfigMethod6to4 (CFStringRef)':
+    'prefix': 'kSCValNetIPv6ConfigMethod6to4'
+    'body': 'KSCValNetIPv6ConfigMethod6to4'
+  'kSCValNetIPv6ConfigMethodAutomatic (CFStringRef)':
+    'prefix': 'kSCValNetIPv6ConfigMethodAutomatic'
+    'body': 'KSCValNetIPv6ConfigMethodAutomatic'
+  'kSCValNetIPv6ConfigMethodLinkLocal (CFStringRef)':
+    'prefix': 'kSCValNetIPv6ConfigMethodLinkLocal'
+    'body': 'KSCValNetIPv6ConfigMethodLinkLocal'
+  'kSCValNetIPv6ConfigMethodManual (CFStringRef)':
+    'prefix': 'kSCValNetIPv6ConfigMethodManual'
+    'body': 'KSCValNetIPv6ConfigMethodManual'
+  'kSCValNetIPv6ConfigMethodRouterAdvertisement (CFStringRef)':
+    'prefix': 'kSCValNetIPv6ConfigMethodRouterAdvertisement'
+    'body': 'KSCValNetIPv6ConfigMethodRouterAdvertisement'
+  'kSCValNetInterfaceSubTypeL2TP (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceSubTypeL2TP'
+    'body': 'KSCValNetInterfaceSubTypeL2TP'
+  'kSCValNetInterfaceSubTypePPPSerial (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceSubTypePPPSerial'
+    'body': 'KSCValNetInterfaceSubTypePPPSerial'
+  'kSCValNetInterfaceSubTypePPPoE (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceSubTypePPPoE'
+    'body': 'KSCValNetInterfaceSubTypePPPoE'
+  'kSCValNetInterfaceSubTypePPTP (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceSubTypePPTP'
+    'body': 'KSCValNetInterfaceSubTypePPTP'
+  'kSCValNetInterfaceType6to4 (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceType6to4'
+    'body': 'KSCValNetInterfaceType6to4'
+  'kSCValNetInterfaceTypeEthernet (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceTypeEthernet'
+    'body': 'KSCValNetInterfaceTypeEthernet'
+  'kSCValNetInterfaceTypeFireWire (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceTypeFireWire'
+    'body': 'KSCValNetInterfaceTypeFireWire'
+  'kSCValNetInterfaceTypeIPSec (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceTypeIPSec'
+    'body': 'KSCValNetInterfaceTypeIPSec'
+  'kSCValNetInterfaceTypePPP (CFStringRef)':
+    'prefix': 'kSCValNetInterfaceTypePPP'
+    'body': 'KSCValNetInterfaceTypePPP'
+  'kSCValNetL2TPIPSecSharedSecretEncryptionKeychain (CFStringRef)':
+    'prefix': 'kSCValNetL2TPIPSecSharedSecretEncryptionKeychain'
+    'body': 'KSCValNetL2TPIPSecSharedSecretEncryptionKeychain'
+  'kSCValNetL2TPTransportIP (CFStringRef)':
+    'prefix': 'kSCValNetL2TPTransportIP'
+    'body': 'KSCValNetL2TPTransportIP'
+  'kSCValNetL2TPTransportIPSec (CFStringRef)':
+    'prefix': 'kSCValNetL2TPTransportIPSec'
+    'body': 'KSCValNetL2TPTransportIPSec'
+  'kSCValNetModemDialModeIgnoreDialTone (CFStringRef)':
+    'prefix': 'kSCValNetModemDialModeIgnoreDialTone'
+    'body': 'KSCValNetModemDialModeIgnoreDialTone'
+  'kSCValNetModemDialModeManual (CFStringRef)':
+    'prefix': 'kSCValNetModemDialModeManual'
+    'body': 'KSCValNetModemDialModeManual'
+  'kSCValNetModemDialModeWaitForDialTone (CFStringRef)':
+    'prefix': 'kSCValNetModemDialModeWaitForDialTone'
+    'body': 'KSCValNetModemDialModeWaitForDialTone'
+  'kSCValNetNetInfoBindingMethodsBroadcast (CFStringRef)':
+    'prefix': 'kSCValNetNetInfoBindingMethodsBroadcast'
+    'body': 'KSCValNetNetInfoBindingMethodsBroadcast'
+  'kSCValNetNetInfoBindingMethodsDHCP (CFStringRef)':
+    'prefix': 'kSCValNetNetInfoBindingMethodsDHCP'
+    'body': 'KSCValNetNetInfoBindingMethodsDHCP'
+  'kSCValNetNetInfoBindingMethodsManual (CFStringRef)':
+    'prefix': 'kSCValNetNetInfoBindingMethodsManual'
+    'body': 'KSCValNetNetInfoBindingMethodsManual'
+  'kSCValNetNetInfoDefaultServerTag (CFStringRef)':
+    'prefix': 'kSCValNetNetInfoDefaultServerTag'
+    'body': 'KSCValNetNetInfoDefaultServerTag'
+  'kSCValNetPPPAuthPasswordEncryptionKeychain (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthPasswordEncryptionKeychain'
+    'body': 'KSCValNetPPPAuthPasswordEncryptionKeychain'
+  'kSCValNetPPPAuthPasswordEncryptionToken (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthPasswordEncryptionToken'
+    'body': 'KSCValNetPPPAuthPasswordEncryptionToken'
+  'kSCValNetPPPAuthPromptAfter (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthPromptAfter'
+    'body': 'KSCValNetPPPAuthPromptAfter'
+  'kSCValNetPPPAuthPromptBefore (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthPromptBefore'
+    'body': 'KSCValNetPPPAuthPromptBefore'
+  'kSCValNetPPPAuthProtocolCHAP (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthProtocolCHAP'
+    'body': 'KSCValNetPPPAuthProtocolCHAP'
+  'kSCValNetPPPAuthProtocolEAP (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthProtocolEAP'
+    'body': 'KSCValNetPPPAuthProtocolEAP'
+  'kSCValNetPPPAuthProtocolMSCHAP1 (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthProtocolMSCHAP1'
+    'body': 'KSCValNetPPPAuthProtocolMSCHAP1'
+  'kSCValNetPPPAuthProtocolMSCHAP2 (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthProtocolMSCHAP2'
+    'body': 'KSCValNetPPPAuthProtocolMSCHAP2'
+  'kSCValNetPPPAuthProtocolPAP (CFStringRef)':
+    'prefix': 'kSCValNetPPPAuthProtocolPAP'
+    'body': 'KSCValNetPPPAuthProtocolPAP'
+  'kSCValNetSMBNetBIOSNodeTypeBroadcast (CFStringRef)':
+    'prefix': 'kSCValNetSMBNetBIOSNodeTypeBroadcast'
+    'body': 'KSCValNetSMBNetBIOSNodeTypeBroadcast'
+  'kSCValNetSMBNetBIOSNodeTypeHybrid (CFStringRef)':
+    'prefix': 'kSCValNetSMBNetBIOSNodeTypeHybrid'
+    'body': 'KSCValNetSMBNetBIOSNodeTypeHybrid'
+  'kSCValNetSMBNetBIOSNodeTypeMixed (CFStringRef)':
+    'prefix': 'kSCValNetSMBNetBIOSNodeTypeMixed'
+    'body': 'KSCValNetSMBNetBIOSNodeTypeMixed'
+  'kSCValNetSMBNetBIOSNodeTypePeer (CFStringRef)':
+    'prefix': 'kSCValNetSMBNetBIOSNodeTypePeer'
+    'body': 'KSCValNetSMBNetBIOSNodeTypePeer'
+  'kSCNetworkConnectionBytesIn (BytesIn)':
+    'prefix': 'kSCNetworkConnectionBytesIn'
+    'body': 'KSCNetworkConnectionBytesIn'
+  'kSCNetworkConnectionBytesOut (BytesOut)':
+    'prefix': 'kSCNetworkConnectionBytesOut'
+    'body': 'KSCNetworkConnectionBytesOut'
+  'kSCNetworkConnectionErrorsIn (ErrorsIn)':
+    'prefix': 'kSCNetworkConnectionErrorsIn'
+    'body': 'KSCNetworkConnectionErrorsIn'
+  'kSCNetworkConnectionErrorsOut (ErrorsOut)':
+    'prefix': 'kSCNetworkConnectionErrorsOut'
+    'body': 'KSCNetworkConnectionErrorsOut'
+  'kSCNetworkConnectionPacketsIn (PacketsIn)':
+    'prefix': 'kSCNetworkConnectionPacketsIn'
+    'body': 'KSCNetworkConnectionPacketsIn'
+  'kSCNetworkConnectionPacketsOut (PacketsOut)':
+    'prefix': 'kSCNetworkConnectionPacketsOut'
+    'body': 'KSCNetworkConnectionPacketsOut'
+  'kSCNetworkConnectionSelectionOptionOnDemandHostName (OnDemandHostName)':
+    'prefix': 'kSCNetworkConnectionSelectionOptionOnDemandHostName'
+    'body': 'KSCNetworkConnectionSelectionOptionOnDemandHostName'
+  'kSCNetworkConnectionSelectionOptionOnDemandRetry (OnDemandRetry)':
+    'prefix': 'kSCNetworkConnectionSelectionOptionOnDemandRetry'
+    'body': 'KSCNetworkConnectionSelectionOptionOnDemandRetry'
+  'kSCBondStatusLinkInvalid (1)':
+    'prefix': 'kSCBondStatusLinkInvalid'
+    'body': 'KSCBondStatusLinkInvalid'
+  'kSCBondStatusNoPartner (2)':
+    'prefix': 'kSCBondStatusNoPartner'
+    'body': 'KSCBondStatusNoPartner'
+  'kSCBondStatusNotInActiveGroup (3)':
+    'prefix': 'kSCBondStatusNotInActiveGroup'
+    'body': 'KSCBondStatusNotInActiveGroup'
+  'kSCBondStatusOK (0)':
+    'prefix': 'kSCBondStatusOK'
+    'body': 'KSCBondStatusOK'
+  'kSCBondStatusUnknown (999)':
+    'prefix': 'kSCBondStatusUnknown'
+    'body': 'KSCBondStatusUnknown'
+  'kSCNetworkConnectionConnected (2)':
+    'prefix': 'kSCNetworkConnectionConnected'
+    'body': 'KSCNetworkConnectionConnected'
+  'kSCNetworkConnectionConnecting (1)':
+    'prefix': 'kSCNetworkConnectionConnecting'
+    'body': 'KSCNetworkConnectionConnecting'
+  'kSCNetworkConnectionDisconnected (0)':
+    'prefix': 'kSCNetworkConnectionDisconnected'
+    'body': 'KSCNetworkConnectionDisconnected'
+  'kSCNetworkConnectionDisconnecting (3)':
+    'prefix': 'kSCNetworkConnectionDisconnecting'
+    'body': 'KSCNetworkConnectionDisconnecting'
+  'kSCNetworkConnectionInvalid (-1)':
+    'prefix': 'kSCNetworkConnectionInvalid'
+    'body': 'KSCNetworkConnectionInvalid'
+  'kSCNetworkConnectionPPPAuthenticating (5)':
+    'prefix': 'kSCNetworkConnectionPPPAuthenticating'
+    'body': 'KSCNetworkConnectionPPPAuthenticating'
+  'kSCNetworkConnectionPPPConnected (8)':
+    'prefix': 'kSCNetworkConnectionPPPConnected'
+    'body': 'KSCNetworkConnectionPPPConnected'
+  'kSCNetworkConnectionPPPConnectingLink (2)':
+    'prefix': 'kSCNetworkConnectionPPPConnectingLink'
+    'body': 'KSCNetworkConnectionPPPConnectingLink'
+  'kSCNetworkConnectionPPPDialOnTraffic (3)':
+    'prefix': 'kSCNetworkConnectionPPPDialOnTraffic'
+    'body': 'KSCNetworkConnectionPPPDialOnTraffic'
+  'kSCNetworkConnectionPPPDisconnected (0)':
+    'prefix': 'kSCNetworkConnectionPPPDisconnected'
+    'body': 'KSCNetworkConnectionPPPDisconnected'
+  'kSCNetworkConnectionPPPDisconnectingLink (10)':
+    'prefix': 'kSCNetworkConnectionPPPDisconnectingLink'
+    'body': 'KSCNetworkConnectionPPPDisconnectingLink'
+  'kSCNetworkConnectionPPPHoldingLinkOff (11)':
+    'prefix': 'kSCNetworkConnectionPPPHoldingLinkOff'
+    'body': 'KSCNetworkConnectionPPPHoldingLinkOff'
+  'kSCNetworkConnectionPPPInitializing (1)':
+    'prefix': 'kSCNetworkConnectionPPPInitializing'
+    'body': 'KSCNetworkConnectionPPPInitializing'
+  'kSCNetworkConnectionPPPNegotiatingLink (4)':
+    'prefix': 'kSCNetworkConnectionPPPNegotiatingLink'
+    'body': 'KSCNetworkConnectionPPPNegotiatingLink'
+  'kSCNetworkConnectionPPPNegotiatingNetwork (7)':
+    'prefix': 'kSCNetworkConnectionPPPNegotiatingNetwork'
+    'body': 'KSCNetworkConnectionPPPNegotiatingNetwork'
+  'kSCNetworkConnectionPPPSuspended (12)':
+    'prefix': 'kSCNetworkConnectionPPPSuspended'
+    'body': 'KSCNetworkConnectionPPPSuspended'
+  'kSCNetworkConnectionPPPTerminating (9)':
+    'prefix': 'kSCNetworkConnectionPPPTerminating'
+    'body': 'KSCNetworkConnectionPPPTerminating'
+  'kSCNetworkConnectionPPPWaitingForCallBack (6)':
+    'prefix': 'kSCNetworkConnectionPPPWaitingForCallBack'
+    'body': 'KSCNetworkConnectionPPPWaitingForCallBack'
+  'kSCNetworkConnectionPPPWaitingForRedial (13)':
+    'prefix': 'kSCNetworkConnectionPPPWaitingForRedial'
+    'body': 'KSCNetworkConnectionPPPWaitingForRedial'
+  'kSCNetworkFlagsConnectionAutomatic (8)':
+    'prefix': 'kSCNetworkFlagsConnectionAutomatic'
+    'body': 'KSCNetworkFlagsConnectionAutomatic'
+  'kSCNetworkFlagsConnectionRequired (4)':
+    'prefix': 'kSCNetworkFlagsConnectionRequired'
+    'body': 'KSCNetworkFlagsConnectionRequired'
+  'kSCNetworkFlagsInterventionRequired (16)':
+    'prefix': 'kSCNetworkFlagsInterventionRequired'
+    'body': 'KSCNetworkFlagsInterventionRequired'
+  'kSCNetworkFlagsIsDirect (131072)':
+    'prefix': 'kSCNetworkFlagsIsDirect'
+    'body': 'KSCNetworkFlagsIsDirect'
+  'kSCNetworkFlagsIsLocalAddress (65536)':
+    'prefix': 'kSCNetworkFlagsIsLocalAddress'
+    'body': 'KSCNetworkFlagsIsLocalAddress'
+  'kSCNetworkFlagsReachable (2)':
+    'prefix': 'kSCNetworkFlagsReachable'
+    'body': 'KSCNetworkFlagsReachable'
+  'kSCNetworkFlagsTransientConnection (1)':
+    'prefix': 'kSCNetworkFlagsTransientConnection'
+    'body': 'KSCNetworkFlagsTransientConnection'
+  'kSCNetworkReachabilityFlagsConnectionAutomatic (8)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionAutomatic'
+    'body': 'KSCNetworkReachabilityFlagsConnectionAutomatic'
+  'kSCNetworkReachabilityFlagsConnectionOnDemand (32)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionOnDemand'
+    'body': 'KSCNetworkReachabilityFlagsConnectionOnDemand'
+  'kSCNetworkReachabilityFlagsConnectionOnTraffic (8)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionOnTraffic'
+    'body': 'KSCNetworkReachabilityFlagsConnectionOnTraffic'
+  'kSCNetworkReachabilityFlagsConnectionRequired (4)':
+    'prefix': 'kSCNetworkReachabilityFlagsConnectionRequired'
+    'body': 'KSCNetworkReachabilityFlagsConnectionRequired'
+  'kSCNetworkReachabilityFlagsInterventionRequired (16)':
+    'prefix': 'kSCNetworkReachabilityFlagsInterventionRequired'
+    'body': 'KSCNetworkReachabilityFlagsInterventionRequired'
+  'kSCNetworkReachabilityFlagsIsDirect (131072)':
+    'prefix': 'kSCNetworkReachabilityFlagsIsDirect'
+    'body': 'KSCNetworkReachabilityFlagsIsDirect'
+  'kSCNetworkReachabilityFlagsIsLocalAddress (65536)':
+    'prefix': 'kSCNetworkReachabilityFlagsIsLocalAddress'
+    'body': 'KSCNetworkReachabilityFlagsIsLocalAddress'
+  'kSCNetworkReachabilityFlagsReachable (2)':
+    'prefix': 'kSCNetworkReachabilityFlagsReachable'
+    'body': 'KSCNetworkReachabilityFlagsReachable'
+  'kSCNetworkReachabilityFlagsTransientConnection (1)':
+    'prefix': 'kSCNetworkReachabilityFlagsTransientConnection'
+    'body': 'KSCNetworkReachabilityFlagsTransientConnection'
+  'kSCPreferencesNotificationApply (2)':
+    'prefix': 'kSCPreferencesNotificationApply'
+    'body': 'KSCPreferencesNotificationApply'
+  'kSCPreferencesNotificationCommit (1)':
+    'prefix': 'kSCPreferencesNotificationCommit'
+    'body': 'KSCPreferencesNotificationCommit'
+  'kSCStatusAccessError (1003)':
+    'prefix': 'kSCStatusAccessError'
+    'body': 'KSCStatusAccessError'
+  'kSCStatusConnectionIgnore (5002)':
+    'prefix': 'kSCStatusConnectionIgnore'
+    'body': 'KSCStatusConnectionIgnore'
+  'kSCStatusConnectionNoService (5001)':
+    'prefix': 'kSCStatusConnectionNoService'
+    'body': 'KSCStatusConnectionNoService'
+  'kSCStatusFailed (1001)':
+    'prefix': 'kSCStatusFailed'
+    'body': 'KSCStatusFailed'
+  'kSCStatusInvalidArgument (1002)':
+    'prefix': 'kSCStatusInvalidArgument'
+    'body': 'KSCStatusInvalidArgument'
+  'kSCStatusKeyExists (1005)':
+    'prefix': 'kSCStatusKeyExists'
+    'body': 'KSCStatusKeyExists'
+  'kSCStatusLocked (1006)':
+    'prefix': 'kSCStatusLocked'
+    'body': 'KSCStatusLocked'
+  'kSCStatusMaxLink (3006)':
+    'prefix': 'kSCStatusMaxLink'
+    'body': 'KSCStatusMaxLink'
+  'kSCStatusNeedLock (1007)':
+    'prefix': 'kSCStatusNeedLock'
+    'body': 'KSCStatusNeedLock'
+  'kSCStatusNoConfigFile (3003)':
+    'prefix': 'kSCStatusNoConfigFile'
+    'body': 'KSCStatusNoConfigFile'
+  'kSCStatusNoKey (1004)':
+    'prefix': 'kSCStatusNoKey'
+    'body': 'KSCStatusNoKey'
+  'kSCStatusNoLink (3004)':
+    'prefix': 'kSCStatusNoLink'
+    'body': 'KSCStatusNoLink'
+  'kSCStatusNoPrefsSession (3001)':
+    'prefix': 'kSCStatusNoPrefsSession'
+    'body': 'KSCStatusNoPrefsSession'
+  'kSCStatusNoStoreServer (2002)':
+    'prefix': 'kSCStatusNoStoreServer'
+    'body': 'KSCStatusNoStoreServer'
+  'kSCStatusNoStoreSession (2001)':
+    'prefix': 'kSCStatusNoStoreSession'
+    'body': 'KSCStatusNoStoreSession'
+  'kSCStatusNotifierActive (2003)':
+    'prefix': 'kSCStatusNotifierActive'
+    'body': 'KSCStatusNotifierActive'
+  'kSCStatusOK (0)':
+    'prefix': 'kSCStatusOK'
+    'body': 'KSCStatusOK'
+  'kSCStatusPrefsBusy (3002)':
+    'prefix': 'kSCStatusPrefsBusy'
+    'body': 'KSCStatusPrefsBusy'
+  'kSCStatusReachabilityUnknown (4001)':
+    'prefix': 'kSCStatusReachabilityUnknown'
+    'body': 'KSCStatusReachabilityUnknown'
+  'kSCStatusStale (3005)':
+    'prefix': 'kSCStatusStale'
+    'body': 'KSCStatusStale'
+  'CNCopySupportedInterfaces':
+    'prefix': 'CNCopySupportedInterfaces'
+    'body': 'CNCopySupportedInterfaces()'
+  'CNMarkPortalOffline':
+    'prefix': 'CNMarkPortalOffline'
+    'body': 'CNMarkPortalOffline(${1:CFStringRef interfaceName})'
+  'CNMarkPortalOnline':
+    'prefix': 'CNMarkPortalOnline'
+    'body': 'CNMarkPortalOnline(${1:CFStringRef interfaceName})'
+  'CNSetSupportedSSIDs':
+    'prefix': 'CNSetSupportedSSIDs'
+    'body': 'CNSetSupportedSSIDs(${1:CFArrayRef ssidArray})'
+  'DHCPClientPreferencesCopyApplicationOptions':
+    'prefix': 'DHCPClientPreferencesCopyApplicationOptions'
+    'body': 'DHCPClientPreferencesCopyApplicationOptions(${1:CFStringRef applicationID}, ${2:CFIndex* count})'
+  'DHCPClientPreferencesSetApplicationOptions':
+    'prefix': 'DHCPClientPreferencesSetApplicationOptions'
+    'body': 'DHCPClientPreferencesSetApplicationOptions(${1:CFStringRef applicationID}, ${2:UInt8* options}, ${3:CFIndex count})'
+  'DHCPInfoGetLeaseExpirationTime':
+    'prefix': 'DHCPInfoGetLeaseExpirationTime'
+    'body': 'DHCPInfoGetLeaseExpirationTime(${1:CFDictionaryRef info})'
+  'DHCPInfoGetLeaseStartTime':
+    'prefix': 'DHCPInfoGetLeaseStartTime'
+    'body': 'DHCPInfoGetLeaseStartTime(${1:CFDictionaryRef info})'
+  'DHCPInfoGetOptionData':
+    'prefix': 'DHCPInfoGetOptionData'
+    'body': 'DHCPInfoGetOptionData(${1:CFDictionaryRef info}, ${2:UInt8 code})'
+  'SCBondInterfaceCopyAll':
+    'prefix': 'SCBondInterfaceCopyAll'
+    'body': 'SCBondInterfaceCopyAll(${1:SCPreferencesRef prefs})'
+  'SCBondInterfaceCopyAvailableMemberInterfaces':
+    'prefix': 'SCBondInterfaceCopyAvailableMemberInterfaces'
+    'body': 'SCBondInterfaceCopyAvailableMemberInterfaces(${1:SCPreferencesRef prefs})'
+  'SCBondInterfaceCopyStatus':
+    'prefix': 'SCBondInterfaceCopyStatus'
+    'body': 'SCBondInterfaceCopyStatus(${1:SCBondInterfaceRef bond})'
+  'SCBondInterfaceCreate':
+    'prefix': 'SCBondInterfaceCreate'
+    'body': 'SCBondInterfaceCreate(${1:SCPreferencesRef prefs})'
+  'SCBondInterfaceGetMemberInterfaces':
+    'prefix': 'SCBondInterfaceGetMemberInterfaces'
+    'body': 'SCBondInterfaceGetMemberInterfaces(${1:SCBondInterfaceRef bond})'
+  'SCBondInterfaceGetOptions':
+    'prefix': 'SCBondInterfaceGetOptions'
+    'body': 'SCBondInterfaceGetOptions(${1:SCBondInterfaceRef bond})'
+  'SCBondInterfaceRemove':
+    'prefix': 'SCBondInterfaceRemove'
+    'body': 'SCBondInterfaceRemove(${1:SCBondInterfaceRef bond})'
+  'SCBondInterfaceSetLocalizedDisplayName':
+    'prefix': 'SCBondInterfaceSetLocalizedDisplayName'
+    'body': 'SCBondInterfaceSetLocalizedDisplayName(${1:SCBondInterfaceRef bond}, ${2:CFStringRef newName})'
+  'SCBondInterfaceSetMemberInterfaces':
+    'prefix': 'SCBondInterfaceSetMemberInterfaces'
+    'body': 'SCBondInterfaceSetMemberInterfaces(${1:SCBondInterfaceRef bond}, ${2:CFArrayRef members})'
+  'SCBondInterfaceSetOptions':
+    'prefix': 'SCBondInterfaceSetOptions'
+    'body': 'SCBondInterfaceSetOptions(${1:SCBondInterfaceRef bond}, ${2:CFDictionaryRef newOptions})'
+  'SCBondStatusGetInterfaceStatus':
+    'prefix': 'SCBondStatusGetInterfaceStatus'
+    'body': 'SCBondStatusGetInterfaceStatus(${1:SCBondStatusRef bondStatus}, ${2:SCNetworkInterfaceRef interface})'
+  'SCBondStatusGetMemberInterfaces':
+    'prefix': 'SCBondStatusGetMemberInterfaces'
+    'body': 'SCBondStatusGetMemberInterfaces(${1:SCBondStatusRef bondStatus})'
+  'SCBondStatusGetTypeID':
+    'prefix': 'SCBondStatusGetTypeID'
+    'body': 'SCBondStatusGetTypeID()'
+  'SCCopyLastError':
+    'prefix': 'SCCopyLastError'
+    'body': 'SCCopyLastError()'
+  'SCDynamicStoreAddTemporaryValue':
+    'prefix': 'SCDynamicStoreAddTemporaryValue'
+    'body': 'SCDynamicStoreAddTemporaryValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
+  'SCDynamicStoreAddValue':
+    'prefix': 'SCDynamicStoreAddValue'
+    'body': 'SCDynamicStoreAddValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
+  'SCDynamicStoreCopyComputerName':
+    'prefix': 'SCDynamicStoreCopyComputerName'
+    'body': 'SCDynamicStoreCopyComputerName(${1:SCDynamicStoreRef store}, ${2:CFStringEncoding* nameEncoding})'
+  'SCDynamicStoreCopyConsoleUser':
+    'prefix': 'SCDynamicStoreCopyConsoleUser'
+    'body': 'SCDynamicStoreCopyConsoleUser(${1:SCDynamicStoreRef store}, ${2:uid_t* uid}, ${3:gid_t* gid})'
+  'SCDynamicStoreCopyDHCPInfo':
+    'prefix': 'SCDynamicStoreCopyDHCPInfo'
+    'body': 'SCDynamicStoreCopyDHCPInfo(${1:SCDynamicStoreRef store}, ${2:CFStringRef serviceID})'
+  'SCDynamicStoreCopyKeyList':
+    'prefix': 'SCDynamicStoreCopyKeyList'
+    'body': 'SCDynamicStoreCopyKeyList(${1:SCDynamicStoreRef store}, ${2:CFStringRef pattern})'
+  'SCDynamicStoreCopyLocalHostName':
+    'prefix': 'SCDynamicStoreCopyLocalHostName'
+    'body': 'SCDynamicStoreCopyLocalHostName(${1:SCDynamicStoreRef store})'
+  'SCDynamicStoreCopyLocation':
+    'prefix': 'SCDynamicStoreCopyLocation'
+    'body': 'SCDynamicStoreCopyLocation(${1:SCDynamicStoreRef store})'
+  'SCDynamicStoreCopyMultiple':
+    'prefix': 'SCDynamicStoreCopyMultiple'
+    'body': 'SCDynamicStoreCopyMultiple(${1:SCDynamicStoreRef store}, ${2:CFArrayRef keys}, ${3:CFArrayRef patterns})'
+  'SCDynamicStoreCopyNotifiedKeys':
+    'prefix': 'SCDynamicStoreCopyNotifiedKeys'
+    'body': 'SCDynamicStoreCopyNotifiedKeys(${1:SCDynamicStoreRef store})'
+  'SCDynamicStoreCopyProxies':
+    'prefix': 'SCDynamicStoreCopyProxies'
+    'body': 'SCDynamicStoreCopyProxies(${1:SCDynamicStoreRef store})'
+  'SCDynamicStoreCopyValue':
+    'prefix': 'SCDynamicStoreCopyValue'
+    'body': 'SCDynamicStoreCopyValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key})'
+  'SCDynamicStoreCreate':
+    'prefix': 'SCDynamicStoreCreate'
+    'body': 'SCDynamicStoreCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef name}, ${3:SCDynamicStoreCallBack callout}, ${4:SCDynamicStoreContext* context})'
+  'SCDynamicStoreCreateRunLoopSource':
+    'prefix': 'SCDynamicStoreCreateRunLoopSource'
+    'body': 'SCDynamicStoreCreateRunLoopSource(${1:CFAllocatorRef allocator}, ${2:SCDynamicStoreRef store}, ${3:CFIndex order})'
+  'SCDynamicStoreCreateWithOptions':
+    'prefix': 'SCDynamicStoreCreateWithOptions'
+    'body': 'SCDynamicStoreCreateWithOptions(${1:CFAllocatorRef allocator}, ${2:CFStringRef name}, ${3:CFDictionaryRef storeOptions}, ${4:SCDynamicStoreCallBack callout}, ${5:SCDynamicStoreContext* context})'
+  'SCDynamicStoreGetTypeID':
+    'prefix': 'SCDynamicStoreGetTypeID'
+    'body': 'SCDynamicStoreGetTypeID()'
+  'SCDynamicStoreKeyCreate':
+    'prefix': 'SCDynamicStoreKeyCreate'
+    'body': 'SCDynamicStoreKeyCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef fmt})'
+  'SCDynamicStoreKeyCreateComputerName':
+    'prefix': 'SCDynamicStoreKeyCreateComputerName'
+    'body': 'SCDynamicStoreKeyCreateComputerName(${1:CFAllocatorRef allocator})'
+  'SCDynamicStoreKeyCreateConsoleUser':
+    'prefix': 'SCDynamicStoreKeyCreateConsoleUser'
+    'body': 'SCDynamicStoreKeyCreateConsoleUser(${1:CFAllocatorRef allocator})'
+  'SCDynamicStoreKeyCreateHostNames':
+    'prefix': 'SCDynamicStoreKeyCreateHostNames'
+    'body': 'SCDynamicStoreKeyCreateHostNames(${1:CFAllocatorRef allocator})'
+  'SCDynamicStoreKeyCreateLocation':
+    'prefix': 'SCDynamicStoreKeyCreateLocation'
+    'body': 'SCDynamicStoreKeyCreateLocation(${1:CFAllocatorRef allocator})'
+  'SCDynamicStoreKeyCreateNetworkGlobalEntity':
+    'prefix': 'SCDynamicStoreKeyCreateNetworkGlobalEntity'
+    'body': 'SCDynamicStoreKeyCreateNetworkGlobalEntity(${1:CFAllocatorRef allocator}, ${2:CFStringRef domain}, ${3:CFStringRef entity})'
+  'SCDynamicStoreKeyCreateNetworkInterface':
+    'prefix': 'SCDynamicStoreKeyCreateNetworkInterface'
+    'body': 'SCDynamicStoreKeyCreateNetworkInterface(${1:CFAllocatorRef allocator}, ${2:CFStringRef domain})'
+  'SCDynamicStoreKeyCreateNetworkInterfaceEntity':
+    'prefix': 'SCDynamicStoreKeyCreateNetworkInterfaceEntity'
+    'body': 'SCDynamicStoreKeyCreateNetworkInterfaceEntity(${1:CFAllocatorRef allocator}, ${2:CFStringRef domain}, ${3:CFStringRef ifname}, ${4:CFStringRef entity})'
+  'SCDynamicStoreKeyCreateNetworkServiceEntity':
+    'prefix': 'SCDynamicStoreKeyCreateNetworkServiceEntity'
+    'body': 'SCDynamicStoreKeyCreateNetworkServiceEntity(${1:CFAllocatorRef allocator}, ${2:CFStringRef domain}, ${3:CFStringRef serviceID}, ${4:CFStringRef entity})'
+  'SCDynamicStoreKeyCreateProxies':
+    'prefix': 'SCDynamicStoreKeyCreateProxies'
+    'body': 'SCDynamicStoreKeyCreateProxies(${1:CFAllocatorRef allocator})'
+  'SCDynamicStoreNotifyValue':
+    'prefix': 'SCDynamicStoreNotifyValue'
+    'body': 'SCDynamicStoreNotifyValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key})'
+  'SCDynamicStoreRemoveValue':
+    'prefix': 'SCDynamicStoreRemoveValue'
+    'body': 'SCDynamicStoreRemoveValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key})'
+  'SCDynamicStoreSetDispatchQueue':
+    'prefix': 'SCDynamicStoreSetDispatchQueue'
+    'body': 'SCDynamicStoreSetDispatchQueue(${1:SCDynamicStoreRef store}, ${2:dispatch_queue_t queue})'
+  'SCDynamicStoreSetMultiple':
+    'prefix': 'SCDynamicStoreSetMultiple'
+    'body': 'SCDynamicStoreSetMultiple(${1:SCDynamicStoreRef store}, ${2:CFDictionaryRef keysToSet}, ${3:CFArrayRef keysToRemove}, ${4:CFArrayRef keysToNotify})'
+  'SCDynamicStoreSetNotificationKeys':
+    'prefix': 'SCDynamicStoreSetNotificationKeys'
+    'body': 'SCDynamicStoreSetNotificationKeys(${1:SCDynamicStoreRef store}, ${2:CFArrayRef keys}, ${3:CFArrayRef patterns})'
+  'SCDynamicStoreSetValue':
+    'prefix': 'SCDynamicStoreSetValue'
+    'body': 'SCDynamicStoreSetValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
+  'SCError':
+    'prefix': 'SCError'
+    'body': 'SCError()'
+  'SCErrorString':
+    'prefix': 'SCErrorString'
+    'body': 'SCErrorString(${1:int status})'
+  'SCNetworkCheckReachabilityByAddress':
+    'prefix': 'SCNetworkCheckReachabilityByAddress'
+    'body': 'SCNetworkCheckReachabilityByAddress(${1:struct sockaddr* address}, ${2:socklen_t addrlen}, ${3:SCNetworkConnectionFlags* flags})'
+  'SCNetworkCheckReachabilityByName':
+    'prefix': 'SCNetworkCheckReachabilityByName'
+    'body': 'SCNetworkCheckReachabilityByName(${1:char* nodename}, ${2:SCNetworkConnectionFlags* flags})'
+  'SCNetworkConnectionCopyExtendedStatus':
+    'prefix': 'SCNetworkConnectionCopyExtendedStatus'
+    'body': 'SCNetworkConnectionCopyExtendedStatus(${1:SCNetworkConnectionRef connection})'
+  'SCNetworkConnectionCopyServiceID':
+    'prefix': 'SCNetworkConnectionCopyServiceID'
+    'body': 'SCNetworkConnectionCopyServiceID(${1:SCNetworkConnectionRef connection})'
+  'SCNetworkConnectionCopyStatistics':
+    'prefix': 'SCNetworkConnectionCopyStatistics'
+    'body': 'SCNetworkConnectionCopyStatistics(${1:SCNetworkConnectionRef connection})'
+  'SCNetworkConnectionCopyUserOptions':
+    'prefix': 'SCNetworkConnectionCopyUserOptions'
+    'body': 'SCNetworkConnectionCopyUserOptions(${1:SCNetworkConnectionRef connection})'
+  'SCNetworkConnectionCopyUserPreferences':
+    'prefix': 'SCNetworkConnectionCopyUserPreferences'
+    'body': 'SCNetworkConnectionCopyUserPreferences(${1:CFDictionaryRef selectionOptions}, ${2:CFStringRef* serviceID}, ${3:CFDictionaryRef* userOptions})'
+  'SCNetworkConnectionCreateWithServiceID':
+    'prefix': 'SCNetworkConnectionCreateWithServiceID'
+    'body': 'SCNetworkConnectionCreateWithServiceID(${1:CFAllocatorRef allocator}, ${2:CFStringRef serviceID}, ${3:SCNetworkConnectionCallBack callout}, ${4:SCNetworkConnectionContext* context})'
+  'SCNetworkConnectionGetStatus':
+    'prefix': 'SCNetworkConnectionGetStatus'
+    'body': 'SCNetworkConnectionGetStatus(${1:SCNetworkConnectionRef connection})'
+  'SCNetworkConnectionGetTypeID':
+    'prefix': 'SCNetworkConnectionGetTypeID'
+    'body': 'SCNetworkConnectionGetTypeID()'
+  'SCNetworkConnectionScheduleWithRunLoop':
+    'prefix': 'SCNetworkConnectionScheduleWithRunLoop'
+    'body': 'SCNetworkConnectionScheduleWithRunLoop(${1:SCNetworkConnectionRef connection}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCNetworkConnectionSetDispatchQueue':
+    'prefix': 'SCNetworkConnectionSetDispatchQueue'
+    'body': 'SCNetworkConnectionSetDispatchQueue(${1:SCNetworkConnectionRef connection}, ${2:dispatch_queue_t queue})'
+  'SCNetworkConnectionStart':
+    'prefix': 'SCNetworkConnectionStart'
+    'body': 'SCNetworkConnectionStart(${1:SCNetworkConnectionRef connection}, ${2:CFDictionaryRef userOptions}, ${3:Boolean linger})'
+  'SCNetworkConnectionStop':
+    'prefix': 'SCNetworkConnectionStop'
+    'body': 'SCNetworkConnectionStop(${1:SCNetworkConnectionRef connection}, ${2:Boolean forceDisconnect})'
+  'SCNetworkConnectionUnscheduleFromRunLoop':
+    'prefix': 'SCNetworkConnectionUnscheduleFromRunLoop'
+    'body': 'SCNetworkConnectionUnscheduleFromRunLoop(${1:SCNetworkConnectionRef connection}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCNetworkInterfaceCopyAll':
+    'prefix': 'SCNetworkInterfaceCopyAll'
+    'body': 'SCNetworkInterfaceCopyAll()'
+  'SCNetworkInterfaceCopyMTU':
+    'prefix': 'SCNetworkInterfaceCopyMTU'
+    'body': 'SCNetworkInterfaceCopyMTU(${1:SCNetworkInterfaceRef interface}, ${2:int* mtu_cur}, ${3:int* mtu_min}, ${4:int* mtu_max})'
+  'SCNetworkInterfaceCopyMediaOptions':
+    'prefix': 'SCNetworkInterfaceCopyMediaOptions'
+    'body': 'SCNetworkInterfaceCopyMediaOptions(${1:SCNetworkInterfaceRef interface}, ${2:CFDictionaryRef* current}, ${3:CFDictionaryRef* active}, ${4:CFArrayRef* available}, ${5:Boolean filter})'
+  'SCNetworkInterfaceCopyMediaSubTypeOptions':
+    'prefix': 'SCNetworkInterfaceCopyMediaSubTypeOptions'
+    'body': 'SCNetworkInterfaceCopyMediaSubTypeOptions(${1:CFArrayRef available}, ${2:CFStringRef subType})'
+  'SCNetworkInterfaceCopyMediaSubTypes':
+    'prefix': 'SCNetworkInterfaceCopyMediaSubTypes'
+    'body': 'SCNetworkInterfaceCopyMediaSubTypes(${1:CFArrayRef available})'
+  'SCNetworkInterfaceCreateWithInterface':
+    'prefix': 'SCNetworkInterfaceCreateWithInterface'
+    'body': 'SCNetworkInterfaceCreateWithInterface(${1:SCNetworkInterfaceRef interface}, ${2:CFStringRef interfaceType})'
+  'SCNetworkInterfaceForceConfigurationRefresh':
+    'prefix': 'SCNetworkInterfaceForceConfigurationRefresh'
+    'body': 'SCNetworkInterfaceForceConfigurationRefresh(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetBSDName':
+    'prefix': 'SCNetworkInterfaceGetBSDName'
+    'body': 'SCNetworkInterfaceGetBSDName(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetConfiguration':
+    'prefix': 'SCNetworkInterfaceGetConfiguration'
+    'body': 'SCNetworkInterfaceGetConfiguration(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetExtendedConfiguration':
+    'prefix': 'SCNetworkInterfaceGetExtendedConfiguration'
+    'body': 'SCNetworkInterfaceGetExtendedConfiguration(${1:SCNetworkInterfaceRef interface}, ${2:CFStringRef extendedType})'
+  'SCNetworkInterfaceGetHardwareAddressString':
+    'prefix': 'SCNetworkInterfaceGetHardwareAddressString'
+    'body': 'SCNetworkInterfaceGetHardwareAddressString(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetInterface':
+    'prefix': 'SCNetworkInterfaceGetInterface'
+    'body': 'SCNetworkInterfaceGetInterface(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetInterfaceType':
+    'prefix': 'SCNetworkInterfaceGetInterfaceType'
+    'body': 'SCNetworkInterfaceGetInterfaceType(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetLocalizedDisplayName':
+    'prefix': 'SCNetworkInterfaceGetLocalizedDisplayName'
+    'body': 'SCNetworkInterfaceGetLocalizedDisplayName(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetSupportedInterfaceTypes':
+    'prefix': 'SCNetworkInterfaceGetSupportedInterfaceTypes'
+    'body': 'SCNetworkInterfaceGetSupportedInterfaceTypes(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetSupportedProtocolTypes':
+    'prefix': 'SCNetworkInterfaceGetSupportedProtocolTypes'
+    'body': 'SCNetworkInterfaceGetSupportedProtocolTypes(${1:SCNetworkInterfaceRef interface})'
+  'SCNetworkInterfaceGetTypeID':
+    'prefix': 'SCNetworkInterfaceGetTypeID'
+    'body': 'SCNetworkInterfaceGetTypeID()'
+  'SCNetworkInterfaceRefreshConfiguration':
+    'prefix': 'SCNetworkInterfaceRefreshConfiguration'
+    'body': 'SCNetworkInterfaceRefreshConfiguration(${1:CFStringRef ifName})'
+  'SCNetworkInterfaceSetConfiguration':
+    'prefix': 'SCNetworkInterfaceSetConfiguration'
+    'body': 'SCNetworkInterfaceSetConfiguration(${1:SCNetworkInterfaceRef interface}, ${2:CFDictionaryRef config})'
+  'SCNetworkInterfaceSetExtendedConfiguration':
+    'prefix': 'SCNetworkInterfaceSetExtendedConfiguration'
+    'body': 'SCNetworkInterfaceSetExtendedConfiguration(${1:SCNetworkInterfaceRef interface}, ${2:CFStringRef extendedType}, ${3:CFDictionaryRef config})'
+  'SCNetworkInterfaceSetMTU':
+    'prefix': 'SCNetworkInterfaceSetMTU'
+    'body': 'SCNetworkInterfaceSetMTU(${1:SCNetworkInterfaceRef interface}, ${2:int mtu})'
+  'SCNetworkInterfaceSetMediaOptions':
+    'prefix': 'SCNetworkInterfaceSetMediaOptions'
+    'body': 'SCNetworkInterfaceSetMediaOptions(${1:SCNetworkInterfaceRef interface}, ${2:CFStringRef subtype}, ${3:CFArrayRef options})'
+  'SCNetworkProtocolGetConfiguration':
+    'prefix': 'SCNetworkProtocolGetConfiguration'
+    'body': 'SCNetworkProtocolGetConfiguration(${1:SCNetworkProtocolRef protocol})'
+  'SCNetworkProtocolGetEnabled':
+    'prefix': 'SCNetworkProtocolGetEnabled'
+    'body': 'SCNetworkProtocolGetEnabled(${1:SCNetworkProtocolRef protocol})'
+  'SCNetworkProtocolGetProtocolType':
+    'prefix': 'SCNetworkProtocolGetProtocolType'
+    'body': 'SCNetworkProtocolGetProtocolType(${1:SCNetworkProtocolRef protocol})'
+  'SCNetworkProtocolGetTypeID':
+    'prefix': 'SCNetworkProtocolGetTypeID'
+    'body': 'SCNetworkProtocolGetTypeID()'
+  'SCNetworkProtocolSetConfiguration':
+    'prefix': 'SCNetworkProtocolSetConfiguration'
+    'body': 'SCNetworkProtocolSetConfiguration(${1:SCNetworkProtocolRef protocol}, ${2:CFDictionaryRef config})'
+  'SCNetworkProtocolSetEnabled':
+    'prefix': 'SCNetworkProtocolSetEnabled'
+    'body': 'SCNetworkProtocolSetEnabled(${1:SCNetworkProtocolRef protocol}, ${2:Boolean enabled})'
+  'SCNetworkReachabilityCreateWithAddress':
+    'prefix': 'SCNetworkReachabilityCreateWithAddress'
+    'body': 'SCNetworkReachabilityCreateWithAddress(${1:CFAllocatorRef allocator}, ${2:struct sockaddr* address})'
+  'SCNetworkReachabilityCreateWithAddressPair':
+    'prefix': 'SCNetworkReachabilityCreateWithAddressPair'
+    'body': 'SCNetworkReachabilityCreateWithAddressPair(${1:CFAllocatorRef allocator}, ${2:struct sockaddr* localAddress}, ${3:struct sockaddr* remoteAddress})'
+  'SCNetworkReachabilityCreateWithName':
+    'prefix': 'SCNetworkReachabilityCreateWithName'
+    'body': 'SCNetworkReachabilityCreateWithName(${1:CFAllocatorRef allocator}, ${2:char* nodename})'
+  'SCNetworkReachabilityGetFlags':
+    'prefix': 'SCNetworkReachabilityGetFlags'
+    'body': 'SCNetworkReachabilityGetFlags(${1:SCNetworkReachabilityRef target}, ${2:SCNetworkReachabilityFlags* flags})'
+  'SCNetworkReachabilityGetTypeID':
+    'prefix': 'SCNetworkReachabilityGetTypeID'
+    'body': 'SCNetworkReachabilityGetTypeID()'
+  'SCNetworkReachabilityScheduleWithRunLoop':
+    'prefix': 'SCNetworkReachabilityScheduleWithRunLoop'
+    'body': 'SCNetworkReachabilityScheduleWithRunLoop(${1:SCNetworkReachabilityRef target}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCNetworkReachabilitySetCallback':
+    'prefix': 'SCNetworkReachabilitySetCallback'
+    'body': 'SCNetworkReachabilitySetCallback(${1:SCNetworkReachabilityRef target}, ${2:SCNetworkReachabilityCallBack callout}, ${3:SCNetworkReachabilityContext* context})'
+  'SCNetworkReachabilitySetDispatchQueue':
+    'prefix': 'SCNetworkReachabilitySetDispatchQueue'
+    'body': 'SCNetworkReachabilitySetDispatchQueue(${1:SCNetworkReachabilityRef target}, ${2:dispatch_queue_t queue})'
+  'SCNetworkReachabilityUnscheduleFromRunLoop':
+    'prefix': 'SCNetworkReachabilityUnscheduleFromRunLoop'
+    'body': 'SCNetworkReachabilityUnscheduleFromRunLoop(${1:SCNetworkReachabilityRef target}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCNetworkServiceAddProtocolType':
+    'prefix': 'SCNetworkServiceAddProtocolType'
+    'body': 'SCNetworkServiceAddProtocolType(${1:SCNetworkServiceRef service}, ${2:CFStringRef protocolType})'
+  'SCNetworkServiceCopy':
+    'prefix': 'SCNetworkServiceCopy'
+    'body': 'SCNetworkServiceCopy(${1:SCPreferencesRef prefs}, ${2:CFStringRef serviceID})'
+  'SCNetworkServiceCopyAll':
+    'prefix': 'SCNetworkServiceCopyAll'
+    'body': 'SCNetworkServiceCopyAll(${1:SCPreferencesRef prefs})'
+  'SCNetworkServiceCopyProtocol':
+    'prefix': 'SCNetworkServiceCopyProtocol'
+    'body': 'SCNetworkServiceCopyProtocol(${1:SCNetworkServiceRef service}, ${2:CFStringRef protocolType})'
+  'SCNetworkServiceCopyProtocols':
+    'prefix': 'SCNetworkServiceCopyProtocols'
+    'body': 'SCNetworkServiceCopyProtocols(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceCreate':
+    'prefix': 'SCNetworkServiceCreate'
+    'body': 'SCNetworkServiceCreate(${1:SCPreferencesRef prefs}, ${2:SCNetworkInterfaceRef interface})'
+  'SCNetworkServiceEstablishDefaultConfiguration':
+    'prefix': 'SCNetworkServiceEstablishDefaultConfiguration'
+    'body': 'SCNetworkServiceEstablishDefaultConfiguration(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceGetEnabled':
+    'prefix': 'SCNetworkServiceGetEnabled'
+    'body': 'SCNetworkServiceGetEnabled(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceGetInterface':
+    'prefix': 'SCNetworkServiceGetInterface'
+    'body': 'SCNetworkServiceGetInterface(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceGetName':
+    'prefix': 'SCNetworkServiceGetName'
+    'body': 'SCNetworkServiceGetName(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceGetServiceID':
+    'prefix': 'SCNetworkServiceGetServiceID'
+    'body': 'SCNetworkServiceGetServiceID(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceGetTypeID':
+    'prefix': 'SCNetworkServiceGetTypeID'
+    'body': 'SCNetworkServiceGetTypeID()'
+  'SCNetworkServiceRemove':
+    'prefix': 'SCNetworkServiceRemove'
+    'body': 'SCNetworkServiceRemove(${1:SCNetworkServiceRef service})'
+  'SCNetworkServiceRemoveProtocolType':
+    'prefix': 'SCNetworkServiceRemoveProtocolType'
+    'body': 'SCNetworkServiceRemoveProtocolType(${1:SCNetworkServiceRef service}, ${2:CFStringRef protocolType})'
+  'SCNetworkServiceSetEnabled':
+    'prefix': 'SCNetworkServiceSetEnabled'
+    'body': 'SCNetworkServiceSetEnabled(${1:SCNetworkServiceRef service}, ${2:Boolean enabled})'
+  'SCNetworkServiceSetName':
+    'prefix': 'SCNetworkServiceSetName'
+    'body': 'SCNetworkServiceSetName(${1:SCNetworkServiceRef service}, ${2:CFStringRef name})'
+  'SCNetworkSetAddService':
+    'prefix': 'SCNetworkSetAddService'
+    'body': 'SCNetworkSetAddService(${1:SCNetworkSetRef set}, ${2:SCNetworkServiceRef service})'
+  'SCNetworkSetContainsInterface':
+    'prefix': 'SCNetworkSetContainsInterface'
+    'body': 'SCNetworkSetContainsInterface(${1:SCNetworkSetRef set}, ${2:SCNetworkInterfaceRef interface})'
+  'SCNetworkSetCopy':
+    'prefix': 'SCNetworkSetCopy'
+    'body': 'SCNetworkSetCopy(${1:SCPreferencesRef prefs}, ${2:CFStringRef setID})'
+  'SCNetworkSetCopyAll':
+    'prefix': 'SCNetworkSetCopyAll'
+    'body': 'SCNetworkSetCopyAll(${1:SCPreferencesRef prefs})'
+  'SCNetworkSetCopyCurrent':
+    'prefix': 'SCNetworkSetCopyCurrent'
+    'body': 'SCNetworkSetCopyCurrent(${1:SCPreferencesRef prefs})'
+  'SCNetworkSetCopyServices':
+    'prefix': 'SCNetworkSetCopyServices'
+    'body': 'SCNetworkSetCopyServices(${1:SCNetworkSetRef set})'
+  'SCNetworkSetCreate':
+    'prefix': 'SCNetworkSetCreate'
+    'body': 'SCNetworkSetCreate(${1:SCPreferencesRef prefs})'
+  'SCNetworkSetGetName':
+    'prefix': 'SCNetworkSetGetName'
+    'body': 'SCNetworkSetGetName(${1:SCNetworkSetRef set})'
+  'SCNetworkSetGetServiceOrder':
+    'prefix': 'SCNetworkSetGetServiceOrder'
+    'body': 'SCNetworkSetGetServiceOrder(${1:SCNetworkSetRef set})'
+  'SCNetworkSetGetSetID':
+    'prefix': 'SCNetworkSetGetSetID'
+    'body': 'SCNetworkSetGetSetID(${1:SCNetworkSetRef set})'
+  'SCNetworkSetGetTypeID':
+    'prefix': 'SCNetworkSetGetTypeID'
+    'body': 'SCNetworkSetGetTypeID()'
+  'SCNetworkSetRemove':
+    'prefix': 'SCNetworkSetRemove'
+    'body': 'SCNetworkSetRemove(${1:SCNetworkSetRef set})'
+  'SCNetworkSetRemoveService':
+    'prefix': 'SCNetworkSetRemoveService'
+    'body': 'SCNetworkSetRemoveService(${1:SCNetworkSetRef set}, ${2:SCNetworkServiceRef service})'
+  'SCNetworkSetSetCurrent':
+    'prefix': 'SCNetworkSetSetCurrent'
+    'body': 'SCNetworkSetSetCurrent(${1:SCNetworkSetRef set})'
+  'SCNetworkSetSetName':
+    'prefix': 'SCNetworkSetSetName'
+    'body': 'SCNetworkSetSetName(${1:SCNetworkSetRef set}, ${2:CFStringRef name})'
+  'SCNetworkSetSetServiceOrder':
+    'prefix': 'SCNetworkSetSetServiceOrder'
+    'body': 'SCNetworkSetSetServiceOrder(${1:SCNetworkSetRef set}, ${2:CFArrayRef newOrder})'
+  'SCPreferencesAddValue':
+    'prefix': 'SCPreferencesAddValue'
+    'body': 'SCPreferencesAddValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
+  'SCPreferencesApplyChanges':
+    'prefix': 'SCPreferencesApplyChanges'
+    'body': 'SCPreferencesApplyChanges(${1:SCPreferencesRef prefs})'
+  'SCPreferencesCommitChanges':
+    'prefix': 'SCPreferencesCommitChanges'
+    'body': 'SCPreferencesCommitChanges(${1:SCPreferencesRef prefs})'
+  'SCPreferencesCopyKeyList':
+    'prefix': 'SCPreferencesCopyKeyList'
+    'body': 'SCPreferencesCopyKeyList(${1:SCPreferencesRef prefs})'
+  'SCPreferencesCreate':
+    'prefix': 'SCPreferencesCreate'
+    'body': 'SCPreferencesCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef name}, ${3:CFStringRef prefsID})'
+  'SCPreferencesCreateWithAuthorization':
+    'prefix': 'SCPreferencesCreateWithAuthorization'
+    'body': 'SCPreferencesCreateWithAuthorization(${1:CFAllocatorRef allocator}, ${2:CFStringRef name}, ${3:CFStringRef prefsID}, ${4:AuthorizationRef authorization})'
+  'SCPreferencesGetSignature':
+    'prefix': 'SCPreferencesGetSignature'
+    'body': 'SCPreferencesGetSignature(${1:SCPreferencesRef prefs})'
+  'SCPreferencesGetTypeID':
+    'prefix': 'SCPreferencesGetTypeID'
+    'body': 'SCPreferencesGetTypeID()'
+  'SCPreferencesGetValue':
+    'prefix': 'SCPreferencesGetValue'
+    'body': 'SCPreferencesGetValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef key})'
+  'SCPreferencesLock':
+    'prefix': 'SCPreferencesLock'
+    'body': 'SCPreferencesLock(${1:SCPreferencesRef prefs}, ${2:Boolean wait})'
+  'SCPreferencesPathCreateUniqueChild':
+    'prefix': 'SCPreferencesPathCreateUniqueChild'
+    'body': 'SCPreferencesPathCreateUniqueChild(${1:SCPreferencesRef prefs}, ${2:CFStringRef prefix})'
+  'SCPreferencesPathGetLink':
+    'prefix': 'SCPreferencesPathGetLink'
+    'body': 'SCPreferencesPathGetLink(${1:SCPreferencesRef prefs}, ${2:CFStringRef path})'
+  'SCPreferencesPathGetValue':
+    'prefix': 'SCPreferencesPathGetValue'
+    'body': 'SCPreferencesPathGetValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef path})'
+  'SCPreferencesPathRemoveValue':
+    'prefix': 'SCPreferencesPathRemoveValue'
+    'body': 'SCPreferencesPathRemoveValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef path})'
+  'SCPreferencesPathSetLink':
+    'prefix': 'SCPreferencesPathSetLink'
+    'body': 'SCPreferencesPathSetLink(${1:SCPreferencesRef prefs}, ${2:CFStringRef path}, ${3:CFStringRef link})'
+  'SCPreferencesPathSetValue':
+    'prefix': 'SCPreferencesPathSetValue'
+    'body': 'SCPreferencesPathSetValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef path}, ${3:CFDictionaryRef value})'
+  'SCPreferencesRemoveValue':
+    'prefix': 'SCPreferencesRemoveValue'
+    'body': 'SCPreferencesRemoveValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef key})'
+  'SCPreferencesScheduleWithRunLoop':
+    'prefix': 'SCPreferencesScheduleWithRunLoop'
+    'body': 'SCPreferencesScheduleWithRunLoop(${1:SCPreferencesRef prefs}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCPreferencesSetCallback':
+    'prefix': 'SCPreferencesSetCallback'
+    'body': 'SCPreferencesSetCallback(${1:SCPreferencesRef prefs}, ${2:SCPreferencesCallBack callout}, ${3:SCPreferencesContext* context})'
+  'SCPreferencesSetComputerName':
+    'prefix': 'SCPreferencesSetComputerName'
+    'body': 'SCPreferencesSetComputerName(${1:SCPreferencesRef prefs}, ${2:CFStringRef name}, ${3:CFStringEncoding nameEncoding})'
+  'SCPreferencesSetDispatchQueue':
+    'prefix': 'SCPreferencesSetDispatchQueue'
+    'body': 'SCPreferencesSetDispatchQueue(${1:SCPreferencesRef prefs}, ${2:dispatch_queue_t queue})'
+  'SCPreferencesSetLocalHostName':
+    'prefix': 'SCPreferencesSetLocalHostName'
+    'body': 'SCPreferencesSetLocalHostName(${1:SCPreferencesRef prefs}, ${2:CFStringRef name})'
+  'SCPreferencesSetValue':
+    'prefix': 'SCPreferencesSetValue'
+    'body': 'SCPreferencesSetValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
+  'SCPreferencesSynchronize':
+    'prefix': 'SCPreferencesSynchronize'
+    'body': 'SCPreferencesSynchronize(${1:SCPreferencesRef prefs})'
+  'SCPreferencesUnlock':
+    'prefix': 'SCPreferencesUnlock'
+    'body': 'SCPreferencesUnlock(${1:SCPreferencesRef prefs})'
+  'SCPreferencesUnscheduleFromRunLoop':
+    'prefix': 'SCPreferencesUnscheduleFromRunLoop'
+    'body': 'SCPreferencesUnscheduleFromRunLoop(${1:SCPreferencesRef prefs}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'SCVLANInterfaceCopyAll':
+    'prefix': 'SCVLANInterfaceCopyAll'
+    'body': 'SCVLANInterfaceCopyAll(${1:SCPreferencesRef prefs})'
+  'SCVLANInterfaceCopyAvailablePhysicalInterfaces':
+    'prefix': 'SCVLANInterfaceCopyAvailablePhysicalInterfaces'
+    'body': 'SCVLANInterfaceCopyAvailablePhysicalInterfaces()'
+  'SCVLANInterfaceCreate':
+    'prefix': 'SCVLANInterfaceCreate'
+    'body': 'SCVLANInterfaceCreate(${1:SCPreferencesRef prefs}, ${2:SCNetworkInterfaceRef physical}, ${3:CFNumberRef tag})'
+  'SCVLANInterfaceGetOptions':
+    'prefix': 'SCVLANInterfaceGetOptions'
+    'body': 'SCVLANInterfaceGetOptions(${1:SCVLANInterfaceRef vlan})'
+  'SCVLANInterfaceGetPhysicalInterface':
+    'prefix': 'SCVLANInterfaceGetPhysicalInterface'
+    'body': 'SCVLANInterfaceGetPhysicalInterface(${1:SCVLANInterfaceRef vlan})'
+  'SCVLANInterfaceGetTag':
+    'prefix': 'SCVLANInterfaceGetTag'
+    'body': 'SCVLANInterfaceGetTag(${1:SCVLANInterfaceRef vlan})'
+  'SCVLANInterfaceRemove':
+    'prefix': 'SCVLANInterfaceRemove'
+    'body': 'SCVLANInterfaceRemove(${1:SCVLANInterfaceRef vlan})'
+  'SCVLANInterfaceSetLocalizedDisplayName':
+    'prefix': 'SCVLANInterfaceSetLocalizedDisplayName'
+    'body': 'SCVLANInterfaceSetLocalizedDisplayName(${1:SCVLANInterfaceRef vlan}, ${2:CFStringRef newName})'
+  'SCVLANInterfaceSetOptions':
+    'prefix': 'SCVLANInterfaceSetOptions'
+    'body': 'SCVLANInterfaceSetOptions(${1:SCVLANInterfaceRef vlan}, ${2:CFDictionaryRef newOptions})'
+  'SCVLANInterfaceSetPhysicalInterfaceAndTag':
+    'prefix': 'SCVLANInterfaceSetPhysicalInterfaceAndTag'
+    'body': 'SCVLANInterfaceSetPhysicalInterfaceAndTag(${1:SCVLANInterfaceRef vlan}, ${2:SCNetworkInterfaceRef physical}, ${3:CFNumberRef tag})'

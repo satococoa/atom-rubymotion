@@ -1,0 +1,3145 @@
+'.source.rubymotion':
+  'DRAbstractFile (NSString*)':
+    'prefix': 'DRAbstractFile'
+    'body': 'DRAbstractFile'
+  'DRAccessDate (NSString*)':
+    'prefix': 'DRAccessDate'
+    'body': 'DRAccessDate'
+  'DRAllFilesystems (NSString*)':
+    'prefix': 'DRAllFilesystems'
+    'body': 'DRAllFilesystems'
+  'DRApplicationIdentifier (NSString*)':
+    'prefix': 'DRApplicationIdentifier'
+    'body': 'DRApplicationIdentifier'
+  'DRAttributeModificationDate (NSString*)':
+    'prefix': 'DRAttributeModificationDate'
+    'body': 'DRAttributeModificationDate'
+  'DRAudioFourChannelKey (NSString*)':
+    'prefix': 'DRAudioFourChannelKey'
+    'body': 'DRAudioFourChannelKey'
+  'DRAudioPreEmphasisKey (NSString*)':
+    'prefix': 'DRAudioPreEmphasisKey'
+    'body': 'DRAudioPreEmphasisKey'
+  'DRBackupDate (NSString*)':
+    'prefix': 'DRBackupDate'
+    'body': 'DRBackupDate'
+  'DRBibliographicFile (NSString*)':
+    'prefix': 'DRBibliographicFile'
+    'body': 'DRBibliographicFile'
+  'DRBlockSize (NSString*)':
+    'prefix': 'DRBlockSize'
+    'body': 'DRBlockSize'
+  'DRBlockSizeKey (NSString*)':
+    'prefix': 'DRBlockSizeKey'
+    'body': 'DRBlockSizeKey'
+  'DRBlockTypeKey (NSString*)':
+    'prefix': 'DRBlockTypeKey'
+    'body': 'DRBlockTypeKey'
+  'DRBurnAppendableKey (NSString*)':
+    'prefix': 'DRBurnAppendableKey'
+    'body': 'DRBurnAppendableKey'
+  'DRBurnCompletionActionEject (NSString*)':
+    'prefix': 'DRBurnCompletionActionEject'
+    'body': 'DRBurnCompletionActionEject'
+  'DRBurnCompletionActionKey (NSString*)':
+    'prefix': 'DRBurnCompletionActionKey'
+    'body': 'DRBurnCompletionActionKey'
+  'DRBurnCompletionActionMount (NSString*)':
+    'prefix': 'DRBurnCompletionActionMount'
+    'body': 'DRBurnCompletionActionMount'
+  'DRBurnDoubleLayerL0DataZoneBlocksKey (NSString*)':
+    'prefix': 'DRBurnDoubleLayerL0DataZoneBlocksKey'
+    'body': 'DRBurnDoubleLayerL0DataZoneBlocksKey'
+  'DRBurnFailureActionEject (NSString*)':
+    'prefix': 'DRBurnFailureActionEject'
+    'body': 'DRBurnFailureActionEject'
+  'DRBurnFailureActionKey (NSString*)':
+    'prefix': 'DRBurnFailureActionKey'
+    'body': 'DRBurnFailureActionKey'
+  'DRBurnFailureActionNone (NSString*)':
+    'prefix': 'DRBurnFailureActionNone'
+    'body': 'DRBurnFailureActionNone'
+  'DRBurnOverwriteDiscKey (NSString*)':
+    'prefix': 'DRBurnOverwriteDiscKey'
+    'body': 'DRBurnOverwriteDiscKey'
+  'DRBurnRequestedSpeedKey (NSString*)':
+    'prefix': 'DRBurnRequestedSpeedKey'
+    'body': 'DRBurnRequestedSpeedKey'
+  'DRBurnStatusChangedNotification (NSString*)':
+    'prefix': 'DRBurnStatusChangedNotification'
+    'body': 'DRBurnStatusChangedNotification'
+  'DRBurnStrategyBDDAO (NSString*)':
+    'prefix': 'DRBurnStrategyBDDAO'
+    'body': 'DRBurnStrategyBDDAO'
+  'DRBurnStrategyCDSAO (NSString*)':
+    'prefix': 'DRBurnStrategyCDSAO'
+    'body': 'DRBurnStrategyCDSAO'
+  'DRBurnStrategyCDTAO (NSString*)':
+    'prefix': 'DRBurnStrategyCDTAO'
+    'body': 'DRBurnStrategyCDTAO'
+  'DRBurnStrategyDVDDAO (NSString*)':
+    'prefix': 'DRBurnStrategyDVDDAO'
+    'body': 'DRBurnStrategyDVDDAO'
+  'DRBurnStrategyIsRequiredKey (NSString*)':
+    'prefix': 'DRBurnStrategyIsRequiredKey'
+    'body': 'DRBurnStrategyIsRequiredKey'
+  'DRBurnStrategyKey (NSString*)':
+    'prefix': 'DRBurnStrategyKey'
+    'body': 'DRBurnStrategyKey'
+  'DRBurnTestingKey (NSString*)':
+    'prefix': 'DRBurnTestingKey'
+    'body': 'DRBurnTestingKey'
+  'DRBurnUnderrunProtectionKey (NSString*)':
+    'prefix': 'DRBurnUnderrunProtectionKey'
+    'body': 'DRBurnUnderrunProtectionKey'
+  'DRBurnVerifyDiscKey (NSString*)':
+    'prefix': 'DRBurnVerifyDiscKey'
+    'body': 'DRBurnVerifyDiscKey'
+  'DRCDTextArrangerKey (NSString*)':
+    'prefix': 'DRCDTextArrangerKey'
+    'body': 'DRCDTextArrangerKey'
+  'DRCDTextCharacterCodeKey (NSString*)':
+    'prefix': 'DRCDTextCharacterCodeKey'
+    'body': 'DRCDTextCharacterCodeKey'
+  'DRCDTextClosedKey (NSString*)':
+    'prefix': 'DRCDTextClosedKey'
+    'body': 'DRCDTextClosedKey'
+  'DRCDTextComposerKey (NSString*)':
+    'prefix': 'DRCDTextComposerKey'
+    'body': 'DRCDTextComposerKey'
+  'DRCDTextCopyrightAssertedForNamesKey (NSString*)':
+    'prefix': 'DRCDTextCopyrightAssertedForNamesKey'
+    'body': 'DRCDTextCopyrightAssertedForNamesKey'
+  'DRCDTextCopyrightAssertedForSpecialMessagesKey (NSString*)':
+    'prefix': 'DRCDTextCopyrightAssertedForSpecialMessagesKey'
+    'body': 'DRCDTextCopyrightAssertedForSpecialMessagesKey'
+  'DRCDTextCopyrightAssertedForTitlesKey (NSString*)':
+    'prefix': 'DRCDTextCopyrightAssertedForTitlesKey'
+    'body': 'DRCDTextCopyrightAssertedForTitlesKey'
+  'DRCDTextDiscIdentKey (NSString*)':
+    'prefix': 'DRCDTextDiscIdentKey'
+    'body': 'DRCDTextDiscIdentKey'
+  'DRCDTextGenreCodeKey (NSString*)':
+    'prefix': 'DRCDTextGenreCodeKey'
+    'body': 'DRCDTextGenreCodeKey'
+  'DRCDTextGenreKey (NSString*)':
+    'prefix': 'DRCDTextGenreKey'
+    'body': 'DRCDTextGenreKey'
+  'DRCDTextKey (NSString*)':
+    'prefix': 'DRCDTextKey'
+    'body': 'DRCDTextKey'
+  'DRCDTextLanguageKey (NSString*)':
+    'prefix': 'DRCDTextLanguageKey'
+    'body': 'DRCDTextLanguageKey'
+  'DRCDTextMCNISRCKey (NSString*)':
+    'prefix': 'DRCDTextMCNISRCKey'
+    'body': 'DRCDTextMCNISRCKey'
+  'DRCDTextNSStringEncodingKey (NSString*)':
+    'prefix': 'DRCDTextNSStringEncodingKey'
+    'body': 'DRCDTextNSStringEncodingKey'
+  'DRCDTextPerformerKey (NSString*)':
+    'prefix': 'DRCDTextPerformerKey'
+    'body': 'DRCDTextPerformerKey'
+  'DRCDTextSizeKey (NSString*)':
+    'prefix': 'DRCDTextSizeKey'
+    'body': 'DRCDTextSizeKey'
+  'DRCDTextSongwriterKey (NSString*)':
+    'prefix': 'DRCDTextSongwriterKey'
+    'body': 'DRCDTextSongwriterKey'
+  'DRCDTextSpecialMessageKey (NSString*)':
+    'prefix': 'DRCDTextSpecialMessageKey'
+    'body': 'DRCDTextSpecialMessageKey'
+  'DRCDTextTOC2Key (NSString*)':
+    'prefix': 'DRCDTextTOC2Key'
+    'body': 'DRCDTextTOC2Key'
+  'DRCDTextTOCKey (NSString*)':
+    'prefix': 'DRCDTextTOCKey'
+    'body': 'DRCDTextTOCKey'
+  'DRCDTextTitleKey (NSString*)':
+    'prefix': 'DRCDTextTitleKey'
+    'body': 'DRCDTextTitleKey'
+  'DRContentModificationDate (NSString*)':
+    'prefix': 'DRContentModificationDate'
+    'body': 'DRContentModificationDate'
+  'DRCopyrightFile (NSString*)':
+    'prefix': 'DRCopyrightFile'
+    'body': 'DRCopyrightFile'
+  'DRCreationDate (NSString*)':
+    'prefix': 'DRCreationDate'
+    'body': 'DRCreationDate'
+  'DRDVDCopyrightInfoKey (NSString*)':
+    'prefix': 'DRDVDCopyrightInfoKey'
+    'body': 'DRDVDCopyrightInfoKey'
+  'DRDVDTimestampKey (NSString*)':
+    'prefix': 'DRDVDTimestampKey'
+    'body': 'DRDVDTimestampKey'
+  'DRDataFormKey (NSString*)':
+    'prefix': 'DRDataFormKey'
+    'body': 'DRDataFormKey'
+  'DRDataPreparer (NSString*)':
+    'prefix': 'DRDataPreparer'
+    'body': 'DRDataPreparer'
+  'DRDefaultDate (NSString*)':
+    'prefix': 'DRDefaultDate'
+    'body': 'DRDefaultDate'
+  'DRDeviceAppearedNotification (NSString*)':
+    'prefix': 'DRDeviceAppearedNotification'
+    'body': 'DRDeviceAppearedNotification'
+  'DRDeviceBurnSpeedBD1x (float)':
+    'prefix': 'DRDeviceBurnSpeedBD1x'
+    'body': 'DRDeviceBurnSpeedBD1x'
+  'DRDeviceBurnSpeedCD1x (float)':
+    'prefix': 'DRDeviceBurnSpeedCD1x'
+    'body': 'DRDeviceBurnSpeedCD1x'
+  'DRDeviceBurnSpeedDVD1x (float)':
+    'prefix': 'DRDeviceBurnSpeedDVD1x'
+    'body': 'DRDeviceBurnSpeedDVD1x'
+  'DRDeviceBurnSpeedHDDVD1x (float)':
+    'prefix': 'DRDeviceBurnSpeedHDDVD1x'
+    'body': 'DRDeviceBurnSpeedHDDVD1x'
+  'DRDeviceBurnSpeedMax (float)':
+    'prefix': 'DRDeviceBurnSpeedMax'
+    'body': 'DRDeviceBurnSpeedMax'
+  'DRDeviceBurnSpeedsKey (NSString*)':
+    'prefix': 'DRDeviceBurnSpeedsKey'
+    'body': 'DRDeviceBurnSpeedsKey'
+  'DRDeviceCanTestWriteCDKey (NSString*)':
+    'prefix': 'DRDeviceCanTestWriteCDKey'
+    'body': 'DRDeviceCanTestWriteCDKey'
+  'DRDeviceCanTestWriteDVDKey (NSString*)':
+    'prefix': 'DRDeviceCanTestWriteDVDKey'
+    'body': 'DRDeviceCanTestWriteDVDKey'
+  'DRDeviceCanUnderrunProtectCDKey (NSString*)':
+    'prefix': 'DRDeviceCanUnderrunProtectCDKey'
+    'body': 'DRDeviceCanUnderrunProtectCDKey'
+  'DRDeviceCanUnderrunProtectDVDKey (NSString*)':
+    'prefix': 'DRDeviceCanUnderrunProtectDVDKey'
+    'body': 'DRDeviceCanUnderrunProtectDVDKey'
+  'DRDeviceCanWriteBDKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteBDKey'
+    'body': 'DRDeviceCanWriteBDKey'
+  'DRDeviceCanWriteBDREKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteBDREKey'
+    'body': 'DRDeviceCanWriteBDREKey'
+  'DRDeviceCanWriteBDRKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteBDRKey'
+    'body': 'DRDeviceCanWriteBDRKey'
+  'DRDeviceCanWriteCDKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDKey'
+    'body': 'DRDeviceCanWriteCDKey'
+  'DRDeviceCanWriteCDRKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDRKey'
+    'body': 'DRDeviceCanWriteCDRKey'
+  'DRDeviceCanWriteCDRWKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDRWKey'
+    'body': 'DRDeviceCanWriteCDRWKey'
+  'DRDeviceCanWriteCDRawKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDRawKey'
+    'body': 'DRDeviceCanWriteCDRawKey'
+  'DRDeviceCanWriteCDSAOKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDSAOKey'
+    'body': 'DRDeviceCanWriteCDSAOKey'
+  'DRDeviceCanWriteCDTAOKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDTAOKey'
+    'body': 'DRDeviceCanWriteCDTAOKey'
+  'DRDeviceCanWriteCDTextKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteCDTextKey'
+    'body': 'DRDeviceCanWriteCDTextKey'
+  'DRDeviceCanWriteDVDDAOKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDDAOKey'
+    'body': 'DRDeviceCanWriteDVDDAOKey'
+  'DRDeviceCanWriteDVDKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDKey'
+    'body': 'DRDeviceCanWriteDVDKey'
+  'DRDeviceCanWriteDVDPlusRDoubleLayerKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDPlusRDoubleLayerKey'
+    'body': 'DRDeviceCanWriteDVDPlusRDoubleLayerKey'
+  'DRDeviceCanWriteDVDPlusRKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDPlusRKey'
+    'body': 'DRDeviceCanWriteDVDPlusRKey'
+  'DRDeviceCanWriteDVDPlusRWDoubleLayerKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDPlusRWDoubleLayerKey'
+    'body': 'DRDeviceCanWriteDVDPlusRWDoubleLayerKey'
+  'DRDeviceCanWriteDVDPlusRWKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDPlusRWKey'
+    'body': 'DRDeviceCanWriteDVDPlusRWKey'
+  'DRDeviceCanWriteDVDRAMKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDRAMKey'
+    'body': 'DRDeviceCanWriteDVDRAMKey'
+  'DRDeviceCanWriteDVDRDualLayerKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDRDualLayerKey'
+    'body': 'DRDeviceCanWriteDVDRDualLayerKey'
+  'DRDeviceCanWriteDVDRKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDRKey'
+    'body': 'DRDeviceCanWriteDVDRKey'
+  'DRDeviceCanWriteDVDRWDualLayerKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDRWDualLayerKey'
+    'body': 'DRDeviceCanWriteDVDRWDualLayerKey'
+  'DRDeviceCanWriteDVDRWKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteDVDRWKey'
+    'body': 'DRDeviceCanWriteDVDRWKey'
+  'DRDeviceCanWriteHDDVDKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteHDDVDKey'
+    'body': 'DRDeviceCanWriteHDDVDKey'
+  'DRDeviceCanWriteHDDVDRAMKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteHDDVDRAMKey'
+    'body': 'DRDeviceCanWriteHDDVDRAMKey'
+  'DRDeviceCanWriteHDDVDRDualLayerKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteHDDVDRDualLayerKey'
+    'body': 'DRDeviceCanWriteHDDVDRDualLayerKey'
+  'DRDeviceCanWriteHDDVDRKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteHDDVDRKey'
+    'body': 'DRDeviceCanWriteHDDVDRKey'
+  'DRDeviceCanWriteHDDVDRWDualLayerKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteHDDVDRWDualLayerKey'
+    'body': 'DRDeviceCanWriteHDDVDRWDualLayerKey'
+  'DRDeviceCanWriteHDDVDRWKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteHDDVDRWKey'
+    'body': 'DRDeviceCanWriteHDDVDRWKey'
+  'DRDeviceCanWriteISRCKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteISRCKey'
+    'body': 'DRDeviceCanWriteISRCKey'
+  'DRDeviceCanWriteIndexPointsKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteIndexPointsKey'
+    'body': 'DRDeviceCanWriteIndexPointsKey'
+  'DRDeviceCanWriteKey (NSString*)':
+    'prefix': 'DRDeviceCanWriteKey'
+    'body': 'DRDeviceCanWriteKey'
+  'DRDeviceCurrentWriteSpeedKey (NSString*)':
+    'prefix': 'DRDeviceCurrentWriteSpeedKey'
+    'body': 'DRDeviceCurrentWriteSpeedKey'
+  'DRDeviceDisappearedNotification (NSString*)':
+    'prefix': 'DRDeviceDisappearedNotification'
+    'body': 'DRDeviceDisappearedNotification'
+  'DRDeviceFirmwareRevisionKey (NSString*)':
+    'prefix': 'DRDeviceFirmwareRevisionKey'
+    'body': 'DRDeviceFirmwareRevisionKey'
+  'DRDeviceIORegistryEntryPathKey (NSString*)':
+    'prefix': 'DRDeviceIORegistryEntryPathKey'
+    'body': 'DRDeviceIORegistryEntryPathKey'
+  'DRDeviceIsBusyKey (NSString*)':
+    'prefix': 'DRDeviceIsBusyKey'
+    'body': 'DRDeviceIsBusyKey'
+  'DRDeviceIsTrayOpenKey (NSString*)':
+    'prefix': 'DRDeviceIsTrayOpenKey'
+    'body': 'DRDeviceIsTrayOpenKey'
+  'DRDeviceLoadingMechanismCanEjectKey (NSString*)':
+    'prefix': 'DRDeviceLoadingMechanismCanEjectKey'
+    'body': 'DRDeviceLoadingMechanismCanEjectKey'
+  'DRDeviceLoadingMechanismCanInjectKey (NSString*)':
+    'prefix': 'DRDeviceLoadingMechanismCanInjectKey'
+    'body': 'DRDeviceLoadingMechanismCanInjectKey'
+  'DRDeviceLoadingMechanismCanOpenKey (NSString*)':
+    'prefix': 'DRDeviceLoadingMechanismCanOpenKey'
+    'body': 'DRDeviceLoadingMechanismCanOpenKey'
+  'DRDeviceMaximumWriteSpeedKey (NSString*)':
+    'prefix': 'DRDeviceMaximumWriteSpeedKey'
+    'body': 'DRDeviceMaximumWriteSpeedKey'
+  'DRDeviceMediaBSDNameKey (NSString*)':
+    'prefix': 'DRDeviceMediaBSDNameKey'
+    'body': 'DRDeviceMediaBSDNameKey'
+  'DRDeviceMediaBlocksFreeKey (NSString*)':
+    'prefix': 'DRDeviceMediaBlocksFreeKey'
+    'body': 'DRDeviceMediaBlocksFreeKey'
+  'DRDeviceMediaBlocksOverwritableKey (NSString*)':
+    'prefix': 'DRDeviceMediaBlocksOverwritableKey'
+    'body': 'DRDeviceMediaBlocksOverwritableKey'
+  'DRDeviceMediaBlocksUsedKey (NSString*)':
+    'prefix': 'DRDeviceMediaBlocksUsedKey'
+    'body': 'DRDeviceMediaBlocksUsedKey'
+  'DRDeviceMediaClassBD (NSString*)':
+    'prefix': 'DRDeviceMediaClassBD'
+    'body': 'DRDeviceMediaClassBD'
+  'DRDeviceMediaClassCD (NSString*)':
+    'prefix': 'DRDeviceMediaClassCD'
+    'body': 'DRDeviceMediaClassCD'
+  'DRDeviceMediaClassDVD (NSString*)':
+    'prefix': 'DRDeviceMediaClassDVD'
+    'body': 'DRDeviceMediaClassDVD'
+  'DRDeviceMediaClassHDDVD (NSString*)':
+    'prefix': 'DRDeviceMediaClassHDDVD'
+    'body': 'DRDeviceMediaClassHDDVD'
+  'DRDeviceMediaClassKey (NSString*)':
+    'prefix': 'DRDeviceMediaClassKey'
+    'body': 'DRDeviceMediaClassKey'
+  'DRDeviceMediaClassUnknown (NSString*)':
+    'prefix': 'DRDeviceMediaClassUnknown'
+    'body': 'DRDeviceMediaClassUnknown'
+  'DRDeviceMediaDoubleLayerL0DataZoneBlocksKey (NSString*)':
+    'prefix': 'DRDeviceMediaDoubleLayerL0DataZoneBlocksKey'
+    'body': 'DRDeviceMediaDoubleLayerL0DataZoneBlocksKey'
+  'DRDeviceMediaFreeSpaceKey (NSString*)':
+    'prefix': 'DRDeviceMediaFreeSpaceKey'
+    'body': 'DRDeviceMediaFreeSpaceKey'
+  'DRDeviceMediaInfoKey (NSString*)':
+    'prefix': 'DRDeviceMediaInfoKey'
+    'body': 'DRDeviceMediaInfoKey'
+  'DRDeviceMediaIsAppendableKey (NSString*)':
+    'prefix': 'DRDeviceMediaIsAppendableKey'
+    'body': 'DRDeviceMediaIsAppendableKey'
+  'DRDeviceMediaIsBlankKey (NSString*)':
+    'prefix': 'DRDeviceMediaIsBlankKey'
+    'body': 'DRDeviceMediaIsBlankKey'
+  'DRDeviceMediaIsErasableKey (NSString*)':
+    'prefix': 'DRDeviceMediaIsErasableKey'
+    'body': 'DRDeviceMediaIsErasableKey'
+  'DRDeviceMediaIsOverwritableKey (NSString*)':
+    'prefix': 'DRDeviceMediaIsOverwritableKey'
+    'body': 'DRDeviceMediaIsOverwritableKey'
+  'DRDeviceMediaIsReservedKey (NSString*)':
+    'prefix': 'DRDeviceMediaIsReservedKey'
+    'body': 'DRDeviceMediaIsReservedKey'
+  'DRDeviceMediaOverwritableSpaceKey (NSString*)':
+    'prefix': 'DRDeviceMediaOverwritableSpaceKey'
+    'body': 'DRDeviceMediaOverwritableSpaceKey'
+  'DRDeviceMediaSessionCountKey (NSString*)':
+    'prefix': 'DRDeviceMediaSessionCountKey'
+    'body': 'DRDeviceMediaSessionCountKey'
+  'DRDeviceMediaStateInTransition (NSString*)':
+    'prefix': 'DRDeviceMediaStateInTransition'
+    'body': 'DRDeviceMediaStateInTransition'
+  'DRDeviceMediaStateKey (NSString*)':
+    'prefix': 'DRDeviceMediaStateKey'
+    'body': 'DRDeviceMediaStateKey'
+  'DRDeviceMediaStateMediaPresent (NSString*)':
+    'prefix': 'DRDeviceMediaStateMediaPresent'
+    'body': 'DRDeviceMediaStateMediaPresent'
+  'DRDeviceMediaStateNone (NSString*)':
+    'prefix': 'DRDeviceMediaStateNone'
+    'body': 'DRDeviceMediaStateNone'
+  'DRDeviceMediaTrackCountKey (NSString*)':
+    'prefix': 'DRDeviceMediaTrackCountKey'
+    'body': 'DRDeviceMediaTrackCountKey'
+  'DRDeviceMediaTypeBDR (NSString*)':
+    'prefix': 'DRDeviceMediaTypeBDR'
+    'body': 'DRDeviceMediaTypeBDR'
+  'DRDeviceMediaTypeBDRE (NSString*)':
+    'prefix': 'DRDeviceMediaTypeBDRE'
+    'body': 'DRDeviceMediaTypeBDRE'
+  'DRDeviceMediaTypeBDROM (NSString*)':
+    'prefix': 'DRDeviceMediaTypeBDROM'
+    'body': 'DRDeviceMediaTypeBDROM'
+  'DRDeviceMediaTypeCDR (NSString*)':
+    'prefix': 'DRDeviceMediaTypeCDR'
+    'body': 'DRDeviceMediaTypeCDR'
+  'DRDeviceMediaTypeCDROM (NSString*)':
+    'prefix': 'DRDeviceMediaTypeCDROM'
+    'body': 'DRDeviceMediaTypeCDROM'
+  'DRDeviceMediaTypeCDRW (NSString*)':
+    'prefix': 'DRDeviceMediaTypeCDRW'
+    'body': 'DRDeviceMediaTypeCDRW'
+  'DRDeviceMediaTypeDVDPlusR (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDPlusR'
+    'body': 'DRDeviceMediaTypeDVDPlusR'
+  'DRDeviceMediaTypeDVDPlusRDoubleLayer (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDPlusRDoubleLayer'
+    'body': 'DRDeviceMediaTypeDVDPlusRDoubleLayer'
+  'DRDeviceMediaTypeDVDPlusRW (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDPlusRW'
+    'body': 'DRDeviceMediaTypeDVDPlusRW'
+  'DRDeviceMediaTypeDVDPlusRWDoubleLayer (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDPlusRWDoubleLayer'
+    'body': 'DRDeviceMediaTypeDVDPlusRWDoubleLayer'
+  'DRDeviceMediaTypeDVDR (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDR'
+    'body': 'DRDeviceMediaTypeDVDR'
+  'DRDeviceMediaTypeDVDRAM (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDRAM'
+    'body': 'DRDeviceMediaTypeDVDRAM'
+  'DRDeviceMediaTypeDVDRDualLayer (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDRDualLayer'
+    'body': 'DRDeviceMediaTypeDVDRDualLayer'
+  'DRDeviceMediaTypeDVDROM (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDROM'
+    'body': 'DRDeviceMediaTypeDVDROM'
+  'DRDeviceMediaTypeDVDRW (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDRW'
+    'body': 'DRDeviceMediaTypeDVDRW'
+  'DRDeviceMediaTypeDVDRWDualLayer (NSString*)':
+    'prefix': 'DRDeviceMediaTypeDVDRWDualLayer'
+    'body': 'DRDeviceMediaTypeDVDRWDualLayer'
+  'DRDeviceMediaTypeHDDVDR (NSString*)':
+    'prefix': 'DRDeviceMediaTypeHDDVDR'
+    'body': 'DRDeviceMediaTypeHDDVDR'
+  'DRDeviceMediaTypeHDDVDRAM (NSString*)':
+    'prefix': 'DRDeviceMediaTypeHDDVDRAM'
+    'body': 'DRDeviceMediaTypeHDDVDRAM'
+  'DRDeviceMediaTypeHDDVDRDualLayer (NSString*)':
+    'prefix': 'DRDeviceMediaTypeHDDVDRDualLayer'
+    'body': 'DRDeviceMediaTypeHDDVDRDualLayer'
+  'DRDeviceMediaTypeHDDVDROM (NSString*)':
+    'prefix': 'DRDeviceMediaTypeHDDVDROM'
+    'body': 'DRDeviceMediaTypeHDDVDROM'
+  'DRDeviceMediaTypeHDDVDRW (NSString*)':
+    'prefix': 'DRDeviceMediaTypeHDDVDRW'
+    'body': 'DRDeviceMediaTypeHDDVDRW'
+  'DRDeviceMediaTypeHDDVDRWDualLayer (NSString*)':
+    'prefix': 'DRDeviceMediaTypeHDDVDRWDualLayer'
+    'body': 'DRDeviceMediaTypeHDDVDRWDualLayer'
+  'DRDeviceMediaTypeKey (NSString*)':
+    'prefix': 'DRDeviceMediaTypeKey'
+    'body': 'DRDeviceMediaTypeKey'
+  'DRDeviceMediaTypeUnknown (NSString*)':
+    'prefix': 'DRDeviceMediaTypeUnknown'
+    'body': 'DRDeviceMediaTypeUnknown'
+  'DRDeviceMediaUsedSpaceKey (NSString*)':
+    'prefix': 'DRDeviceMediaUsedSpaceKey'
+    'body': 'DRDeviceMediaUsedSpaceKey'
+  'DRDevicePhysicalInterconnectATAPI (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectATAPI'
+    'body': 'DRDevicePhysicalInterconnectATAPI'
+  'DRDevicePhysicalInterconnectFibreChannel (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectFibreChannel'
+    'body': 'DRDevicePhysicalInterconnectFibreChannel'
+  'DRDevicePhysicalInterconnectFireWire (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectFireWire'
+    'body': 'DRDevicePhysicalInterconnectFireWire'
+  'DRDevicePhysicalInterconnectKey (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectKey'
+    'body': 'DRDevicePhysicalInterconnectKey'
+  'DRDevicePhysicalInterconnectLocationExternal (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectLocationExternal'
+    'body': 'DRDevicePhysicalInterconnectLocationExternal'
+  'DRDevicePhysicalInterconnectLocationInternal (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectLocationInternal'
+    'body': 'DRDevicePhysicalInterconnectLocationInternal'
+  'DRDevicePhysicalInterconnectLocationKey (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectLocationKey'
+    'body': 'DRDevicePhysicalInterconnectLocationKey'
+  'DRDevicePhysicalInterconnectLocationUnknown (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectLocationUnknown'
+    'body': 'DRDevicePhysicalInterconnectLocationUnknown'
+  'DRDevicePhysicalInterconnectSCSI (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectSCSI'
+    'body': 'DRDevicePhysicalInterconnectSCSI'
+  'DRDevicePhysicalInterconnectUSB (NSString*)':
+    'prefix': 'DRDevicePhysicalInterconnectUSB'
+    'body': 'DRDevicePhysicalInterconnectUSB'
+  'DRDeviceProductNameKey (NSString*)':
+    'prefix': 'DRDeviceProductNameKey'
+    'body': 'DRDeviceProductNameKey'
+  'DRDeviceStatusChangedNotification (NSString*)':
+    'prefix': 'DRDeviceStatusChangedNotification'
+    'body': 'DRDeviceStatusChangedNotification'
+  'DRDeviceSupportLevelAppleShipping (NSString*)':
+    'prefix': 'DRDeviceSupportLevelAppleShipping'
+    'body': 'DRDeviceSupportLevelAppleShipping'
+  'DRDeviceSupportLevelAppleSupported (NSString*)':
+    'prefix': 'DRDeviceSupportLevelAppleSupported'
+    'body': 'DRDeviceSupportLevelAppleSupported'
+  'DRDeviceSupportLevelKey (NSString*)':
+    'prefix': 'DRDeviceSupportLevelKey'
+    'body': 'DRDeviceSupportLevelKey'
+  'DRDeviceSupportLevelNone (NSString*)':
+    'prefix': 'DRDeviceSupportLevelNone'
+    'body': 'DRDeviceSupportLevelNone'
+  'DRDeviceSupportLevelUnsupported (NSString*)':
+    'prefix': 'DRDeviceSupportLevelUnsupported'
+    'body': 'DRDeviceSupportLevelUnsupported'
+  'DRDeviceSupportLevelVendorSupported (NSString*)':
+    'prefix': 'DRDeviceSupportLevelVendorSupported'
+    'body': 'DRDeviceSupportLevelVendorSupported'
+  'DRDeviceTrackInfoKey (NSString*)':
+    'prefix': 'DRDeviceTrackInfoKey'
+    'body': 'DRDeviceTrackInfoKey'
+  'DRDeviceTrackRefsKey (NSString*)':
+    'prefix': 'DRDeviceTrackRefsKey'
+    'body': 'DRDeviceTrackRefsKey'
+  'DRDeviceVendorNameKey (NSString*)':
+    'prefix': 'DRDeviceVendorNameKey'
+    'body': 'DRDeviceVendorNameKey'
+  'DRDeviceWriteBufferSizeKey (NSString*)':
+    'prefix': 'DRDeviceWriteBufferSizeKey'
+    'body': 'DRDeviceWriteBufferSizeKey'
+  'DRDeviceWriteCapabilitiesKey (NSString*)':
+    'prefix': 'DRDeviceWriteCapabilitiesKey'
+    'body': 'DRDeviceWriteCapabilitiesKey'
+  'DREffectiveDate (NSString*)':
+    'prefix': 'DREffectiveDate'
+    'body': 'DREffectiveDate'
+  'DREraseStatusChangedNotification (NSString*)':
+    'prefix': 'DREraseStatusChangedNotification'
+    'body': 'DREraseStatusChangedNotification'
+  'DREraseTypeComplete (NSString*)':
+    'prefix': 'DREraseTypeComplete'
+    'body': 'DREraseTypeComplete'
+  'DREraseTypeKey (NSString*)':
+    'prefix': 'DREraseTypeKey'
+    'body': 'DREraseTypeKey'
+  'DREraseTypeQuick (NSString*)':
+    'prefix': 'DREraseTypeQuick'
+    'body': 'DREraseTypeQuick'
+  'DRErrorStatusAdditionalSenseStringKey (NSString*)':
+    'prefix': 'DRErrorStatusAdditionalSenseStringKey'
+    'body': 'DRErrorStatusAdditionalSenseStringKey'
+  'DRErrorStatusErrorInfoStringKey (NSString*)':
+    'prefix': 'DRErrorStatusErrorInfoStringKey'
+    'body': 'DRErrorStatusErrorInfoStringKey'
+  'DRErrorStatusErrorKey (NSString*)':
+    'prefix': 'DRErrorStatusErrorKey'
+    'body': 'DRErrorStatusErrorKey'
+  'DRErrorStatusErrorStringKey (NSString*)':
+    'prefix': 'DRErrorStatusErrorStringKey'
+    'body': 'DRErrorStatusErrorStringKey'
+  'DRErrorStatusKey (NSString*)':
+    'prefix': 'DRErrorStatusKey'
+    'body': 'DRErrorStatusKey'
+  'DRErrorStatusSenseCodeStringKey (NSString*)':
+    'prefix': 'DRErrorStatusSenseCodeStringKey'
+    'body': 'DRErrorStatusSenseCodeStringKey'
+  'DRErrorStatusSenseKey (NSString*)':
+    'prefix': 'DRErrorStatusSenseKey'
+    'body': 'DRErrorStatusSenseKey'
+  'DRExpirationDate (NSString*)':
+    'prefix': 'DRExpirationDate'
+    'body': 'DRExpirationDate'
+  'DRFreeBlocksKey (NSString*)':
+    'prefix': 'DRFreeBlocksKey'
+    'body': 'DRFreeBlocksKey'
+  'DRHFSPlus (NSString*)':
+    'prefix': 'DRHFSPlus'
+    'body': 'DRHFSPlus'
+  'DRHFSPlusCatalogNodeID (NSString*)':
+    'prefix': 'DRHFSPlusCatalogNodeID'
+    'body': 'DRHFSPlusCatalogNodeID'
+  'DRHFSPlusTextEncodingHint (NSString*)':
+    'prefix': 'DRHFSPlusTextEncodingHint'
+    'body': 'DRHFSPlusTextEncodingHint'
+  'DRISO9660 (NSString*)':
+    'prefix': 'DRISO9660'
+    'body': 'DRISO9660'
+  'DRISO9660LevelOne (NSString*)':
+    'prefix': 'DRISO9660LevelOne'
+    'body': 'DRISO9660LevelOne'
+  'DRISO9660LevelTwo (NSString*)':
+    'prefix': 'DRISO9660LevelTwo'
+    'body': 'DRISO9660LevelTwo'
+  'DRISO9660VersionNumber (NSString*)':
+    'prefix': 'DRISO9660VersionNumber'
+    'body': 'DRISO9660VersionNumber'
+  'DRISOLevel (NSString*)':
+    'prefix': 'DRISOLevel'
+    'body': 'DRISOLevel'
+  'DRISOMacExtensions (NSString*)':
+    'prefix': 'DRISOMacExtensions'
+    'body': 'DRISOMacExtensions'
+  'DRISORockRidgeExtensions (NSString*)':
+    'prefix': 'DRISORockRidgeExtensions'
+    'body': 'DRISORockRidgeExtensions'
+  'DRIndexPointsKey (NSString*)':
+    'prefix': 'DRIndexPointsKey'
+    'body': 'DRIndexPointsKey'
+  'DRInvisible (NSString*)':
+    'prefix': 'DRInvisible'
+    'body': 'DRInvisible'
+  'DRJoliet (NSString*)':
+    'prefix': 'DRJoliet'
+    'body': 'DRJoliet'
+  'DRLinkTypeFinderAlias (NSString*)':
+    'prefix': 'DRLinkTypeFinderAlias'
+    'body': 'DRLinkTypeFinderAlias'
+  'DRLinkTypeHardLink (NSString*)':
+    'prefix': 'DRLinkTypeHardLink'
+    'body': 'DRLinkTypeHardLink'
+  'DRLinkTypeSymbolicLink (NSString*)':
+    'prefix': 'DRLinkTypeSymbolicLink'
+    'body': 'DRLinkTypeSymbolicLink'
+  'DRMacExtendedFinderFlags (NSString*)':
+    'prefix': 'DRMacExtendedFinderFlags'
+    'body': 'DRMacExtendedFinderFlags'
+  'DRMacFileCreator (NSString*)':
+    'prefix': 'DRMacFileCreator'
+    'body': 'DRMacFileCreator'
+  'DRMacFileType (NSString*)':
+    'prefix': 'DRMacFileType'
+    'body': 'DRMacFileType'
+  'DRMacFinderFlags (NSString*)':
+    'prefix': 'DRMacFinderFlags'
+    'body': 'DRMacFinderFlags'
+  'DRMacFinderHideExtension (NSString*)':
+    'prefix': 'DRMacFinderHideExtension'
+    'body': 'DRMacFinderHideExtension'
+  'DRMacIconLocation (NSString*)':
+    'prefix': 'DRMacIconLocation'
+    'body': 'DRMacIconLocation'
+  'DRMacScrollPosition (NSString*)':
+    'prefix': 'DRMacScrollPosition'
+    'body': 'DRMacScrollPosition'
+  'DRMacWindowBounds (NSString*)':
+    'prefix': 'DRMacWindowBounds'
+    'body': 'DRMacWindowBounds'
+  'DRMacWindowView (NSString*)':
+    'prefix': 'DRMacWindowView'
+    'body': 'DRMacWindowView'
+  'DRMaxBurnSpeedKey (NSString*)':
+    'prefix': 'DRMaxBurnSpeedKey'
+    'body': 'DRMaxBurnSpeedKey'
+  'DRMediaCatalogNumberKey (NSString*)':
+    'prefix': 'DRMediaCatalogNumberKey'
+    'body': 'DRMediaCatalogNumberKey'
+  'DRNextWritableAddressKey (NSString*)':
+    'prefix': 'DRNextWritableAddressKey'
+    'body': 'DRNextWritableAddressKey'
+  'DRPosixFileMode (NSString*)':
+    'prefix': 'DRPosixFileMode'
+    'body': 'DRPosixFileMode'
+  'DRPosixGID (NSString*)':
+    'prefix': 'DRPosixGID'
+    'body': 'DRPosixGID'
+  'DRPosixUID (NSString*)':
+    'prefix': 'DRPosixUID'
+    'body': 'DRPosixUID'
+  'DRPreGapIsRequiredKey (NSString*)':
+    'prefix': 'DRPreGapIsRequiredKey'
+    'body': 'DRPreGapIsRequiredKey'
+  'DRPreGapLengthKey (NSString*)':
+    'prefix': 'DRPreGapLengthKey'
+    'body': 'DRPreGapLengthKey'
+  'DRPublisher (NSString*)':
+    'prefix': 'DRPublisher'
+    'body': 'DRPublisher'
+  'DRRecordingDate (NSString*)':
+    'prefix': 'DRRecordingDate'
+    'body': 'DRRecordingDate'
+  'DRSCMSCopyrightFree (NSString*)':
+    'prefix': 'DRSCMSCopyrightFree'
+    'body': 'DRSCMSCopyrightFree'
+  'DRSCMSCopyrightProtectedCopy (NSString*)':
+    'prefix': 'DRSCMSCopyrightProtectedCopy'
+    'body': 'DRSCMSCopyrightProtectedCopy'
+  'DRSCMSCopyrightProtectedOriginal (NSString*)':
+    'prefix': 'DRSCMSCopyrightProtectedOriginal'
+    'body': 'DRSCMSCopyrightProtectedOriginal'
+  'DRSerialCopyManagementStateKey (NSString*)':
+    'prefix': 'DRSerialCopyManagementStateKey'
+    'body': 'DRSerialCopyManagementStateKey'
+  'DRSessionFormatKey (NSString*)':
+    'prefix': 'DRSessionFormatKey'
+    'body': 'DRSessionFormatKey'
+  'DRSessionNumberKey (NSString*)':
+    'prefix': 'DRSessionNumberKey'
+    'body': 'DRSessionNumberKey'
+  'DRStatusCurrentSessionKey (NSString*)':
+    'prefix': 'DRStatusCurrentSessionKey'
+    'body': 'DRStatusCurrentSessionKey'
+  'DRStatusCurrentSpeedKey (NSString*)':
+    'prefix': 'DRStatusCurrentSpeedKey'
+    'body': 'DRStatusCurrentSpeedKey'
+  'DRStatusCurrentTrackKey (NSString*)':
+    'prefix': 'DRStatusCurrentTrackKey'
+    'body': 'DRStatusCurrentTrackKey'
+  'DRStatusEraseTypeKey (NSString*)':
+    'prefix': 'DRStatusEraseTypeKey'
+    'body': 'DRStatusEraseTypeKey'
+  'DRStatusPercentCompleteKey (NSString*)':
+    'prefix': 'DRStatusPercentCompleteKey'
+    'body': 'DRStatusPercentCompleteKey'
+  'DRStatusProgressCurrentKPS (NSString*)':
+    'prefix': 'DRStatusProgressCurrentKPS'
+    'body': 'DRStatusProgressCurrentKPS'
+  'DRStatusProgressCurrentXFactor (NSString*)':
+    'prefix': 'DRStatusProgressCurrentXFactor'
+    'body': 'DRStatusProgressCurrentXFactor'
+  'DRStatusProgressInfoKey (NSString*)':
+    'prefix': 'DRStatusProgressInfoKey'
+    'body': 'DRStatusProgressInfoKey'
+  'DRStatusStateDone (NSString*)':
+    'prefix': 'DRStatusStateDone'
+    'body': 'DRStatusStateDone'
+  'DRStatusStateErasing (NSString*)':
+    'prefix': 'DRStatusStateErasing'
+    'body': 'DRStatusStateErasing'
+  'DRStatusStateFailed (NSString*)':
+    'prefix': 'DRStatusStateFailed'
+    'body': 'DRStatusStateFailed'
+  'DRStatusStateFinishing (NSString*)':
+    'prefix': 'DRStatusStateFinishing'
+    'body': 'DRStatusStateFinishing'
+  'DRStatusStateKey (NSString*)':
+    'prefix': 'DRStatusStateKey'
+    'body': 'DRStatusStateKey'
+  'DRStatusStateNone (NSString*)':
+    'prefix': 'DRStatusStateNone'
+    'body': 'DRStatusStateNone'
+  'DRStatusStatePreparing (NSString*)':
+    'prefix': 'DRStatusStatePreparing'
+    'body': 'DRStatusStatePreparing'
+  'DRStatusStateSessionClose (NSString*)':
+    'prefix': 'DRStatusStateSessionClose'
+    'body': 'DRStatusStateSessionClose'
+  'DRStatusStateSessionOpen (NSString*)':
+    'prefix': 'DRStatusStateSessionOpen'
+    'body': 'DRStatusStateSessionOpen'
+  'DRStatusStateTrackClose (NSString*)':
+    'prefix': 'DRStatusStateTrackClose'
+    'body': 'DRStatusStateTrackClose'
+  'DRStatusStateTrackOpen (NSString*)':
+    'prefix': 'DRStatusStateTrackOpen'
+    'body': 'DRStatusStateTrackOpen'
+  'DRStatusStateTrackWrite (NSString*)':
+    'prefix': 'DRStatusStateTrackWrite'
+    'body': 'DRStatusStateTrackWrite'
+  'DRStatusStateVerifying (NSString*)':
+    'prefix': 'DRStatusStateVerifying'
+    'body': 'DRStatusStateVerifying'
+  'DRStatusTotalSessionsKey (NSString*)':
+    'prefix': 'DRStatusTotalSessionsKey'
+    'body': 'DRStatusTotalSessionsKey'
+  'DRStatusTotalTracksKey (NSString*)':
+    'prefix': 'DRStatusTotalTracksKey'
+    'body': 'DRStatusTotalTracksKey'
+  'DRSubchannelDataFormKey (NSString*)':
+    'prefix': 'DRSubchannelDataFormKey'
+    'body': 'DRSubchannelDataFormKey'
+  'DRSubchannelDataFormNone (NSString*)':
+    'prefix': 'DRSubchannelDataFormNone'
+    'body': 'DRSubchannelDataFormNone'
+  'DRSubchannelDataFormPack (NSString*)':
+    'prefix': 'DRSubchannelDataFormPack'
+    'body': 'DRSubchannelDataFormPack'
+  'DRSubchannelDataFormRaw (NSString*)':
+    'prefix': 'DRSubchannelDataFormRaw'
+    'body': 'DRSubchannelDataFormRaw'
+  'DRSuppressMacSpecificFiles (NSString*)':
+    'prefix': 'DRSuppressMacSpecificFiles'
+    'body': 'DRSuppressMacSpecificFiles'
+  'DRSynchronousBehaviorKey (NSString*)':
+    'prefix': 'DRSynchronousBehaviorKey'
+    'body': 'DRSynchronousBehaviorKey'
+  'DRSystemIdentifier (NSString*)':
+    'prefix': 'DRSystemIdentifier'
+    'body': 'DRSystemIdentifier'
+  'DRTrackISRCKey (NSString*)':
+    'prefix': 'DRTrackISRCKey'
+    'body': 'DRTrackISRCKey'
+  'DRTrackIsEmptyKey (NSString*)':
+    'prefix': 'DRTrackIsEmptyKey'
+    'body': 'DRTrackIsEmptyKey'
+  'DRTrackLengthKey (NSString*)':
+    'prefix': 'DRTrackLengthKey'
+    'body': 'DRTrackLengthKey'
+  'DRTrackModeKey (NSString*)':
+    'prefix': 'DRTrackModeKey'
+    'body': 'DRTrackModeKey'
+  'DRTrackNumberKey (NSString*)':
+    'prefix': 'DRTrackNumberKey'
+    'body': 'DRTrackNumberKey'
+  'DRTrackPacketSizeKey (NSString*)':
+    'prefix': 'DRTrackPacketSizeKey'
+    'body': 'DRTrackPacketSizeKey'
+  'DRTrackPacketTypeFixed (NSString*)':
+    'prefix': 'DRTrackPacketTypeFixed'
+    'body': 'DRTrackPacketTypeFixed'
+  'DRTrackPacketTypeKey (NSString*)':
+    'prefix': 'DRTrackPacketTypeKey'
+    'body': 'DRTrackPacketTypeKey'
+  'DRTrackPacketTypeVariable (NSString*)':
+    'prefix': 'DRTrackPacketTypeVariable'
+    'body': 'DRTrackPacketTypeVariable'
+  'DRTrackStartAddressKey (NSString*)':
+    'prefix': 'DRTrackStartAddressKey'
+    'body': 'DRTrackStartAddressKey'
+  'DRTrackTypeClosed (NSString*)':
+    'prefix': 'DRTrackTypeClosed'
+    'body': 'DRTrackTypeClosed'
+  'DRTrackTypeIncomplete (NSString*)':
+    'prefix': 'DRTrackTypeIncomplete'
+    'body': 'DRTrackTypeIncomplete'
+  'DRTrackTypeInvisible (NSString*)':
+    'prefix': 'DRTrackTypeInvisible'
+    'body': 'DRTrackTypeInvisible'
+  'DRTrackTypeKey (NSString*)':
+    'prefix': 'DRTrackTypeKey'
+    'body': 'DRTrackTypeKey'
+  'DRTrackTypeReserved (NSString*)':
+    'prefix': 'DRTrackTypeReserved'
+    'body': 'DRTrackTypeReserved'
+  'DRUDF (NSString*)':
+    'prefix': 'DRUDF'
+    'body': 'DRUDF'
+  'DRUDFApplicationIdentifierSuffix (NSString*)':
+    'prefix': 'DRUDFApplicationIdentifierSuffix'
+    'body': 'DRUDFApplicationIdentifierSuffix'
+  'DRUDFExtendedFilePermissions (NSString*)':
+    'prefix': 'DRUDFExtendedFilePermissions'
+    'body': 'DRUDFExtendedFilePermissions'
+  'DRUDFInterchangeLevel (NSString*)':
+    'prefix': 'DRUDFInterchangeLevel'
+    'body': 'DRUDFInterchangeLevel'
+  'DRUDFMaxInterchangeLevel (NSString*)':
+    'prefix': 'DRUDFMaxInterchangeLevel'
+    'body': 'DRUDFMaxInterchangeLevel'
+  'DRUDFMaxVolumeSequenceNumber (NSString*)':
+    'prefix': 'DRUDFMaxVolumeSequenceNumber'
+    'body': 'DRUDFMaxVolumeSequenceNumber'
+  'DRUDFPrimaryVolumeDescriptorNumber (NSString*)':
+    'prefix': 'DRUDFPrimaryVolumeDescriptorNumber'
+    'body': 'DRUDFPrimaryVolumeDescriptorNumber'
+  'DRUDFRealTimeFile (NSString*)':
+    'prefix': 'DRUDFRealTimeFile'
+    'body': 'DRUDFRealTimeFile'
+  'DRUDFVersion102 (NSString*)':
+    'prefix': 'DRUDFVersion102'
+    'body': 'DRUDFVersion102'
+  'DRUDFVersion150 (NSString*)':
+    'prefix': 'DRUDFVersion150'
+    'body': 'DRUDFVersion150'
+  'DRUDFVolumeSequenceNumber (NSString*)':
+    'prefix': 'DRUDFVolumeSequenceNumber'
+    'body': 'DRUDFVolumeSequenceNumber'
+  'DRUDFVolumeSetIdentifier (NSString*)':
+    'prefix': 'DRUDFVolumeSetIdentifier'
+    'body': 'DRUDFVolumeSetIdentifier'
+  'DRUDFVolumeSetImplementationUse (NSString*)':
+    'prefix': 'DRUDFVolumeSetImplementationUse'
+    'body': 'DRUDFVolumeSetImplementationUse'
+  'DRUDFVolumeSetTimestamp (NSString*)':
+    'prefix': 'DRUDFVolumeSetTimestamp'
+    'body': 'DRUDFVolumeSetTimestamp'
+  'DRUDFWriteVersion (NSString*)':
+    'prefix': 'DRUDFWriteVersion'
+    'body': 'DRUDFWriteVersion'
+  'DRVerificationTypeChecksum (NSString*)':
+    'prefix': 'DRVerificationTypeChecksum'
+    'body': 'DRVerificationTypeChecksum'
+  'DRVerificationTypeKey (NSString*)':
+    'prefix': 'DRVerificationTypeKey'
+    'body': 'DRVerificationTypeKey'
+  'DRVerificationTypeNone (NSString*)':
+    'prefix': 'DRVerificationTypeNone'
+    'body': 'DRVerificationTypeNone'
+  'DRVerificationTypeProduceAgain (NSString*)':
+    'prefix': 'DRVerificationTypeProduceAgain'
+    'body': 'DRVerificationTypeProduceAgain'
+  'DRVerificationTypeReceiveData (NSString*)':
+    'prefix': 'DRVerificationTypeReceiveData'
+    'body': 'DRVerificationTypeReceiveData'
+  'DRVolumeCheckedDate (NSString*)':
+    'prefix': 'DRVolumeCheckedDate'
+    'body': 'DRVolumeCheckedDate'
+  'DRVolumeCreationDate (NSString*)':
+    'prefix': 'DRVolumeCreationDate'
+    'body': 'DRVolumeCreationDate'
+  'DRVolumeEffectiveDate (NSString*)':
+    'prefix': 'DRVolumeEffectiveDate'
+    'body': 'DRVolumeEffectiveDate'
+  'DRVolumeExpirationDate (NSString*)':
+    'prefix': 'DRVolumeExpirationDate'
+    'body': 'DRVolumeExpirationDate'
+  'DRVolumeModificationDate (NSString*)':
+    'prefix': 'DRVolumeModificationDate'
+    'body': 'DRVolumeModificationDate'
+  'DRVolumeSet (NSString*)':
+    'prefix': 'DRVolumeSet'
+    'body': 'DRVolumeSet'
+  'kDRAbstractFile (CFStringRef)':
+    'prefix': 'kDRAbstractFile'
+    'body': 'KDRAbstractFile'
+  'kDRAccessDate (CFStringRef)':
+    'prefix': 'kDRAccessDate'
+    'body': 'KDRAccessDate'
+  'kDRAllFilesystems (CFStringRef)':
+    'prefix': 'kDRAllFilesystems'
+    'body': 'KDRAllFilesystems'
+  'kDRApplicationIdentifier (CFStringRef)':
+    'prefix': 'kDRApplicationIdentifier'
+    'body': 'KDRApplicationIdentifier'
+  'kDRAttributeModificationDate (CFStringRef)':
+    'prefix': 'kDRAttributeModificationDate'
+    'body': 'KDRAttributeModificationDate'
+  'kDRAudioFourChannelKey (CFStringRef)':
+    'prefix': 'kDRAudioFourChannelKey'
+    'body': 'KDRAudioFourChannelKey'
+  'kDRAudioPreEmphasisKey (CFStringRef)':
+    'prefix': 'kDRAudioPreEmphasisKey'
+    'body': 'KDRAudioPreEmphasisKey'
+  'kDRBackupDate (CFStringRef)':
+    'prefix': 'kDRBackupDate'
+    'body': 'KDRBackupDate'
+  'kDRBibliographicFile (CFStringRef)':
+    'prefix': 'kDRBibliographicFile'
+    'body': 'KDRBibliographicFile'
+  'kDRBlockSize (CFStringRef)':
+    'prefix': 'kDRBlockSize'
+    'body': 'KDRBlockSize'
+  'kDRBlockSizeKey (CFStringRef)':
+    'prefix': 'kDRBlockSizeKey'
+    'body': 'KDRBlockSizeKey'
+  'kDRBlockTypeKey (CFStringRef)':
+    'prefix': 'kDRBlockTypeKey'
+    'body': 'KDRBlockTypeKey'
+  'kDRBufferZone1DataKey (CFStringRef)':
+    'prefix': 'kDRBufferZone1DataKey'
+    'body': 'KDRBufferZone1DataKey'
+  'kDRBurnAppendableKey (CFStringRef)':
+    'prefix': 'kDRBurnAppendableKey'
+    'body': 'KDRBurnAppendableKey'
+  'kDRBurnCompletionActionEject (CFStringRef)':
+    'prefix': 'kDRBurnCompletionActionEject'
+    'body': 'KDRBurnCompletionActionEject'
+  'kDRBurnCompletionActionKey (CFStringRef)':
+    'prefix': 'kDRBurnCompletionActionKey'
+    'body': 'KDRBurnCompletionActionKey'
+  'kDRBurnCompletionActionMount (CFStringRef)':
+    'prefix': 'kDRBurnCompletionActionMount'
+    'body': 'KDRBurnCompletionActionMount'
+  'kDRBurnDoubleLayerL0DataZoneBlocksKey (CFStringRef)':
+    'prefix': 'kDRBurnDoubleLayerL0DataZoneBlocksKey'
+    'body': 'KDRBurnDoubleLayerL0DataZoneBlocksKey'
+  'kDRBurnFailureActionEject (CFStringRef)':
+    'prefix': 'kDRBurnFailureActionEject'
+    'body': 'KDRBurnFailureActionEject'
+  'kDRBurnFailureActionKey (CFStringRef)':
+    'prefix': 'kDRBurnFailureActionKey'
+    'body': 'KDRBurnFailureActionKey'
+  'kDRBurnFailureActionNone (CFStringRef)':
+    'prefix': 'kDRBurnFailureActionNone'
+    'body': 'KDRBurnFailureActionNone'
+  'kDRBurnKey (CFStringRef)':
+    'prefix': 'kDRBurnKey'
+    'body': 'KDRBurnKey'
+  'kDRBurnOverwriteDiscKey (CFStringRef)':
+    'prefix': 'kDRBurnOverwriteDiscKey'
+    'body': 'KDRBurnOverwriteDiscKey'
+  'kDRBurnRequestedSpeedKey (CFStringRef)':
+    'prefix': 'kDRBurnRequestedSpeedKey'
+    'body': 'KDRBurnRequestedSpeedKey'
+  'kDRBurnStatusChangedNotification (CFStringRef)':
+    'prefix': 'kDRBurnStatusChangedNotification'
+    'body': 'KDRBurnStatusChangedNotification'
+  'kDRBurnStrategyBDDAO (CFStringRef)':
+    'prefix': 'kDRBurnStrategyBDDAO'
+    'body': 'KDRBurnStrategyBDDAO'
+  'kDRBurnStrategyCDSAO (CFStringRef)':
+    'prefix': 'kDRBurnStrategyCDSAO'
+    'body': 'KDRBurnStrategyCDSAO'
+  'kDRBurnStrategyCDTAO (CFStringRef)':
+    'prefix': 'kDRBurnStrategyCDTAO'
+    'body': 'KDRBurnStrategyCDTAO'
+  'kDRBurnStrategyDVDDAO (CFStringRef)':
+    'prefix': 'kDRBurnStrategyDVDDAO'
+    'body': 'KDRBurnStrategyDVDDAO'
+  'kDRBurnStrategyIsRequiredKey (CFStringRef)':
+    'prefix': 'kDRBurnStrategyIsRequiredKey'
+    'body': 'KDRBurnStrategyIsRequiredKey'
+  'kDRBurnStrategyKey (CFStringRef)':
+    'prefix': 'kDRBurnStrategyKey'
+    'body': 'KDRBurnStrategyKey'
+  'kDRBurnTestingKey (CFStringRef)':
+    'prefix': 'kDRBurnTestingKey'
+    'body': 'KDRBurnTestingKey'
+  'kDRBurnUnderrunProtectionKey (CFStringRef)':
+    'prefix': 'kDRBurnUnderrunProtectionKey'
+    'body': 'KDRBurnUnderrunProtectionKey'
+  'kDRBurnVerifyDiscKey (CFStringRef)':
+    'prefix': 'kDRBurnVerifyDiscKey'
+    'body': 'KDRBurnVerifyDiscKey'
+  'kDRCDTextArrangerKey (CFStringRef)':
+    'prefix': 'kDRCDTextArrangerKey'
+    'body': 'KDRCDTextArrangerKey'
+  'kDRCDTextCFStringEncodingKey (CFStringRef)':
+    'prefix': 'kDRCDTextCFStringEncodingKey'
+    'body': 'KDRCDTextCFStringEncodingKey'
+  'kDRCDTextCharacterCodeKey (CFStringRef)':
+    'prefix': 'kDRCDTextCharacterCodeKey'
+    'body': 'KDRCDTextCharacterCodeKey'
+  'kDRCDTextClosedKey (CFStringRef)':
+    'prefix': 'kDRCDTextClosedKey'
+    'body': 'KDRCDTextClosedKey'
+  'kDRCDTextComposerKey (CFStringRef)':
+    'prefix': 'kDRCDTextComposerKey'
+    'body': 'KDRCDTextComposerKey'
+  'kDRCDTextCopyrightAssertedForNamesKey (CFStringRef)':
+    'prefix': 'kDRCDTextCopyrightAssertedForNamesKey'
+    'body': 'KDRCDTextCopyrightAssertedForNamesKey'
+  'kDRCDTextCopyrightAssertedForSpecialMessagesKey (CFStringRef)':
+    'prefix': 'kDRCDTextCopyrightAssertedForSpecialMessagesKey'
+    'body': 'KDRCDTextCopyrightAssertedForSpecialMessagesKey'
+  'kDRCDTextCopyrightAssertedForTitlesKey (CFStringRef)':
+    'prefix': 'kDRCDTextCopyrightAssertedForTitlesKey'
+    'body': 'KDRCDTextCopyrightAssertedForTitlesKey'
+  'kDRCDTextDiscIdentKey (CFStringRef)':
+    'prefix': 'kDRCDTextDiscIdentKey'
+    'body': 'KDRCDTextDiscIdentKey'
+  'kDRCDTextGenreCodeKey (CFStringRef)':
+    'prefix': 'kDRCDTextGenreCodeKey'
+    'body': 'KDRCDTextGenreCodeKey'
+  'kDRCDTextGenreKey (CFStringRef)':
+    'prefix': 'kDRCDTextGenreKey'
+    'body': 'KDRCDTextGenreKey'
+  'kDRCDTextKey (CFStringRef)':
+    'prefix': 'kDRCDTextKey'
+    'body': 'KDRCDTextKey'
+  'kDRCDTextLanguageKey (CFStringRef)':
+    'prefix': 'kDRCDTextLanguageKey'
+    'body': 'KDRCDTextLanguageKey'
+  'kDRCDTextMCNISRCKey (CFStringRef)':
+    'prefix': 'kDRCDTextMCNISRCKey'
+    'body': 'KDRCDTextMCNISRCKey'
+  'kDRCDTextPerformerKey (CFStringRef)':
+    'prefix': 'kDRCDTextPerformerKey'
+    'body': 'KDRCDTextPerformerKey'
+  'kDRCDTextSizeKey (CFStringRef)':
+    'prefix': 'kDRCDTextSizeKey'
+    'body': 'KDRCDTextSizeKey'
+  'kDRCDTextSongwriterKey (CFStringRef)':
+    'prefix': 'kDRCDTextSongwriterKey'
+    'body': 'KDRCDTextSongwriterKey'
+  'kDRCDTextSpecialMessageKey (CFStringRef)':
+    'prefix': 'kDRCDTextSpecialMessageKey'
+    'body': 'KDRCDTextSpecialMessageKey'
+  'kDRCDTextTOC2Key (CFStringRef)':
+    'prefix': 'kDRCDTextTOC2Key'
+    'body': 'KDRCDTextTOC2Key'
+  'kDRCDTextTOCKey (CFStringRef)':
+    'prefix': 'kDRCDTextTOCKey'
+    'body': 'KDRCDTextTOCKey'
+  'kDRCDTextTitleKey (CFStringRef)':
+    'prefix': 'kDRCDTextTitleKey'
+    'body': 'KDRCDTextTitleKey'
+  'kDRContentModificationDate (CFStringRef)':
+    'prefix': 'kDRContentModificationDate'
+    'body': 'KDRContentModificationDate'
+  'kDRCopyrightFile (CFStringRef)':
+    'prefix': 'kDRCopyrightFile'
+    'body': 'KDRCopyrightFile'
+  'kDRCreationDate (CFStringRef)':
+    'prefix': 'kDRCreationDate'
+    'body': 'KDRCreationDate'
+  'kDRDVDCopyrightInfoKey (CFStringRef)':
+    'prefix': 'kDRDVDCopyrightInfoKey'
+    'body': 'KDRDVDCopyrightInfoKey'
+  'kDRDVDTimestampKey (CFStringRef)':
+    'prefix': 'kDRDVDTimestampKey'
+    'body': 'KDRDVDTimestampKey'
+  'kDRDataFormKey (CFStringRef)':
+    'prefix': 'kDRDataFormKey'
+    'body': 'KDRDataFormKey'
+  'kDRDataPreparer (CFStringRef)':
+    'prefix': 'kDRDataPreparer'
+    'body': 'KDRDataPreparer'
+  'kDRDefaultDate (CFStringRef)':
+    'prefix': 'kDRDefaultDate'
+    'body': 'KDRDefaultDate'
+  'kDRDeviceAppearedNotification (CFStringRef)':
+    'prefix': 'kDRDeviceAppearedNotification'
+    'body': 'KDRDeviceAppearedNotification'
+  'kDRDeviceBurnSpeedBD1x (float)':
+    'prefix': 'kDRDeviceBurnSpeedBD1x'
+    'body': 'KDRDeviceBurnSpeedBD1x'
+  'kDRDeviceBurnSpeedCD1x (float)':
+    'prefix': 'kDRDeviceBurnSpeedCD1x'
+    'body': 'KDRDeviceBurnSpeedCD1x'
+  'kDRDeviceBurnSpeedDVD1x (float)':
+    'prefix': 'kDRDeviceBurnSpeedDVD1x'
+    'body': 'KDRDeviceBurnSpeedDVD1x'
+  'kDRDeviceBurnSpeedHDDVD1x (float)':
+    'prefix': 'kDRDeviceBurnSpeedHDDVD1x'
+    'body': 'KDRDeviceBurnSpeedHDDVD1x'
+  'kDRDeviceBurnSpeedMax (float)':
+    'prefix': 'kDRDeviceBurnSpeedMax'
+    'body': 'KDRDeviceBurnSpeedMax'
+  'kDRDeviceBurnSpeedsKey (CFStringRef)':
+    'prefix': 'kDRDeviceBurnSpeedsKey'
+    'body': 'KDRDeviceBurnSpeedsKey'
+  'kDRDeviceCanTestWriteCDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanTestWriteCDKey'
+    'body': 'KDRDeviceCanTestWriteCDKey'
+  'kDRDeviceCanTestWriteDVDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanTestWriteDVDKey'
+    'body': 'KDRDeviceCanTestWriteDVDKey'
+  'kDRDeviceCanUnderrunProtectCDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanUnderrunProtectCDKey'
+    'body': 'KDRDeviceCanUnderrunProtectCDKey'
+  'kDRDeviceCanUnderrunProtectDVDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanUnderrunProtectDVDKey'
+    'body': 'KDRDeviceCanUnderrunProtectDVDKey'
+  'kDRDeviceCanWriteBDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteBDKey'
+    'body': 'KDRDeviceCanWriteBDKey'
+  'kDRDeviceCanWriteBDREKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteBDREKey'
+    'body': 'KDRDeviceCanWriteBDREKey'
+  'kDRDeviceCanWriteBDRKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteBDRKey'
+    'body': 'KDRDeviceCanWriteBDRKey'
+  'kDRDeviceCanWriteCDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDKey'
+    'body': 'KDRDeviceCanWriteCDKey'
+  'kDRDeviceCanWriteCDRKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDRKey'
+    'body': 'KDRDeviceCanWriteCDRKey'
+  'kDRDeviceCanWriteCDRWKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDRWKey'
+    'body': 'KDRDeviceCanWriteCDRWKey'
+  'kDRDeviceCanWriteCDRawKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDRawKey'
+    'body': 'KDRDeviceCanWriteCDRawKey'
+  'kDRDeviceCanWriteCDSAOKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDSAOKey'
+    'body': 'KDRDeviceCanWriteCDSAOKey'
+  'kDRDeviceCanWriteCDTAOKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDTAOKey'
+    'body': 'KDRDeviceCanWriteCDTAOKey'
+  'kDRDeviceCanWriteCDTextKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteCDTextKey'
+    'body': 'KDRDeviceCanWriteCDTextKey'
+  'kDRDeviceCanWriteDVDDAOKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDDAOKey'
+    'body': 'KDRDeviceCanWriteDVDDAOKey'
+  'kDRDeviceCanWriteDVDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDKey'
+    'body': 'KDRDeviceCanWriteDVDKey'
+  'kDRDeviceCanWriteDVDPlusRDoubleLayerKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDPlusRDoubleLayerKey'
+    'body': 'KDRDeviceCanWriteDVDPlusRDoubleLayerKey'
+  'kDRDeviceCanWriteDVDPlusRKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDPlusRKey'
+    'body': 'KDRDeviceCanWriteDVDPlusRKey'
+  'kDRDeviceCanWriteDVDPlusRWDoubleLayerKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDPlusRWDoubleLayerKey'
+    'body': 'KDRDeviceCanWriteDVDPlusRWDoubleLayerKey'
+  'kDRDeviceCanWriteDVDPlusRWKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDPlusRWKey'
+    'body': 'KDRDeviceCanWriteDVDPlusRWKey'
+  'kDRDeviceCanWriteDVDRAMKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDRAMKey'
+    'body': 'KDRDeviceCanWriteDVDRAMKey'
+  'kDRDeviceCanWriteDVDRDualLayerKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDRDualLayerKey'
+    'body': 'KDRDeviceCanWriteDVDRDualLayerKey'
+  'kDRDeviceCanWriteDVDRKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDRKey'
+    'body': 'KDRDeviceCanWriteDVDRKey'
+  'kDRDeviceCanWriteDVDRWDualLayerKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDRWDualLayerKey'
+    'body': 'KDRDeviceCanWriteDVDRWDualLayerKey'
+  'kDRDeviceCanWriteDVDRWKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteDVDRWKey'
+    'body': 'KDRDeviceCanWriteDVDRWKey'
+  'kDRDeviceCanWriteHDDVDKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteHDDVDKey'
+    'body': 'KDRDeviceCanWriteHDDVDKey'
+  'kDRDeviceCanWriteHDDVDRAMKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteHDDVDRAMKey'
+    'body': 'KDRDeviceCanWriteHDDVDRAMKey'
+  'kDRDeviceCanWriteHDDVDRDualLayerKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteHDDVDRDualLayerKey'
+    'body': 'KDRDeviceCanWriteHDDVDRDualLayerKey'
+  'kDRDeviceCanWriteHDDVDRKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteHDDVDRKey'
+    'body': 'KDRDeviceCanWriteHDDVDRKey'
+  'kDRDeviceCanWriteHDDVDRWDualLayerKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteHDDVDRWDualLayerKey'
+    'body': 'KDRDeviceCanWriteHDDVDRWDualLayerKey'
+  'kDRDeviceCanWriteHDDVDRWKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteHDDVDRWKey'
+    'body': 'KDRDeviceCanWriteHDDVDRWKey'
+  'kDRDeviceCanWriteISRCKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteISRCKey'
+    'body': 'KDRDeviceCanWriteISRCKey'
+  'kDRDeviceCanWriteIndexPointsKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteIndexPointsKey'
+    'body': 'KDRDeviceCanWriteIndexPointsKey'
+  'kDRDeviceCanWriteKey (CFStringRef)':
+    'prefix': 'kDRDeviceCanWriteKey'
+    'body': 'KDRDeviceCanWriteKey'
+  'kDRDeviceCurrentWriteSpeedKey (CFStringRef)':
+    'prefix': 'kDRDeviceCurrentWriteSpeedKey'
+    'body': 'KDRDeviceCurrentWriteSpeedKey'
+  'kDRDeviceDisappearedNotification (CFStringRef)':
+    'prefix': 'kDRDeviceDisappearedNotification'
+    'body': 'KDRDeviceDisappearedNotification'
+  'kDRDeviceFirmwareRevisionKey (CFStringRef)':
+    'prefix': 'kDRDeviceFirmwareRevisionKey'
+    'body': 'KDRDeviceFirmwareRevisionKey'
+  'kDRDeviceIORegistryEntryPathKey (CFStringRef)':
+    'prefix': 'kDRDeviceIORegistryEntryPathKey'
+    'body': 'KDRDeviceIORegistryEntryPathKey'
+  'kDRDeviceIsBusyKey (CFStringRef)':
+    'prefix': 'kDRDeviceIsBusyKey'
+    'body': 'KDRDeviceIsBusyKey'
+  'kDRDeviceIsTrayOpenKey (CFStringRef)':
+    'prefix': 'kDRDeviceIsTrayOpenKey'
+    'body': 'KDRDeviceIsTrayOpenKey'
+  'kDRDeviceLoadingMechanismCanEjectKey (CFStringRef)':
+    'prefix': 'kDRDeviceLoadingMechanismCanEjectKey'
+    'body': 'KDRDeviceLoadingMechanismCanEjectKey'
+  'kDRDeviceLoadingMechanismCanInjectKey (CFStringRef)':
+    'prefix': 'kDRDeviceLoadingMechanismCanInjectKey'
+    'body': 'KDRDeviceLoadingMechanismCanInjectKey'
+  'kDRDeviceLoadingMechanismCanOpenKey (CFStringRef)':
+    'prefix': 'kDRDeviceLoadingMechanismCanOpenKey'
+    'body': 'KDRDeviceLoadingMechanismCanOpenKey'
+  'kDRDeviceMaximumWriteSpeedKey (CFStringRef)':
+    'prefix': 'kDRDeviceMaximumWriteSpeedKey'
+    'body': 'KDRDeviceMaximumWriteSpeedKey'
+  'kDRDeviceMediaBSDNameKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaBSDNameKey'
+    'body': 'KDRDeviceMediaBSDNameKey'
+  'kDRDeviceMediaBlocksFreeKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaBlocksFreeKey'
+    'body': 'KDRDeviceMediaBlocksFreeKey'
+  'kDRDeviceMediaBlocksOverwritableKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaBlocksOverwritableKey'
+    'body': 'KDRDeviceMediaBlocksOverwritableKey'
+  'kDRDeviceMediaBlocksUsedKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaBlocksUsedKey'
+    'body': 'KDRDeviceMediaBlocksUsedKey'
+  'kDRDeviceMediaClassBD (CFStringRef)':
+    'prefix': 'kDRDeviceMediaClassBD'
+    'body': 'KDRDeviceMediaClassBD'
+  'kDRDeviceMediaClassCD (CFStringRef)':
+    'prefix': 'kDRDeviceMediaClassCD'
+    'body': 'KDRDeviceMediaClassCD'
+  'kDRDeviceMediaClassDVD (CFStringRef)':
+    'prefix': 'kDRDeviceMediaClassDVD'
+    'body': 'KDRDeviceMediaClassDVD'
+  'kDRDeviceMediaClassHDDVD (CFStringRef)':
+    'prefix': 'kDRDeviceMediaClassHDDVD'
+    'body': 'KDRDeviceMediaClassHDDVD'
+  'kDRDeviceMediaClassKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaClassKey'
+    'body': 'KDRDeviceMediaClassKey'
+  'kDRDeviceMediaClassUnknown (CFStringRef)':
+    'prefix': 'kDRDeviceMediaClassUnknown'
+    'body': 'KDRDeviceMediaClassUnknown'
+  'kDRDeviceMediaDoubleLayerL0DataZoneBlocksKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaDoubleLayerL0DataZoneBlocksKey'
+    'body': 'KDRDeviceMediaDoubleLayerL0DataZoneBlocksKey'
+  'kDRDeviceMediaInfoKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaInfoKey'
+    'body': 'KDRDeviceMediaInfoKey'
+  'kDRDeviceMediaIsAppendableKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaIsAppendableKey'
+    'body': 'KDRDeviceMediaIsAppendableKey'
+  'kDRDeviceMediaIsBlankKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaIsBlankKey'
+    'body': 'KDRDeviceMediaIsBlankKey'
+  'kDRDeviceMediaIsErasableKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaIsErasableKey'
+    'body': 'KDRDeviceMediaIsErasableKey'
+  'kDRDeviceMediaIsOverwritableKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaIsOverwritableKey'
+    'body': 'KDRDeviceMediaIsOverwritableKey'
+  'kDRDeviceMediaIsReservedKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaIsReservedKey'
+    'body': 'KDRDeviceMediaIsReservedKey'
+  'kDRDeviceMediaSessionCountKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaSessionCountKey'
+    'body': 'KDRDeviceMediaSessionCountKey'
+  'kDRDeviceMediaStateInTransition (CFStringRef)':
+    'prefix': 'kDRDeviceMediaStateInTransition'
+    'body': 'KDRDeviceMediaStateInTransition'
+  'kDRDeviceMediaStateKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaStateKey'
+    'body': 'KDRDeviceMediaStateKey'
+  'kDRDeviceMediaStateMediaPresent (CFStringRef)':
+    'prefix': 'kDRDeviceMediaStateMediaPresent'
+    'body': 'KDRDeviceMediaStateMediaPresent'
+  'kDRDeviceMediaStateNone (CFStringRef)':
+    'prefix': 'kDRDeviceMediaStateNone'
+    'body': 'KDRDeviceMediaStateNone'
+  'kDRDeviceMediaTrackCountKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTrackCountKey'
+    'body': 'KDRDeviceMediaTrackCountKey'
+  'kDRDeviceMediaTypeBDR (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeBDR'
+    'body': 'KDRDeviceMediaTypeBDR'
+  'kDRDeviceMediaTypeBDRE (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeBDRE'
+    'body': 'KDRDeviceMediaTypeBDRE'
+  'kDRDeviceMediaTypeBDROM (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeBDROM'
+    'body': 'KDRDeviceMediaTypeBDROM'
+  'kDRDeviceMediaTypeCDR (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeCDR'
+    'body': 'KDRDeviceMediaTypeCDR'
+  'kDRDeviceMediaTypeCDROM (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeCDROM'
+    'body': 'KDRDeviceMediaTypeCDROM'
+  'kDRDeviceMediaTypeCDRW (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeCDRW'
+    'body': 'KDRDeviceMediaTypeCDRW'
+  'kDRDeviceMediaTypeDVDPlusR (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDPlusR'
+    'body': 'KDRDeviceMediaTypeDVDPlusR'
+  'kDRDeviceMediaTypeDVDPlusRDoubleLayer (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDPlusRDoubleLayer'
+    'body': 'KDRDeviceMediaTypeDVDPlusRDoubleLayer'
+  'kDRDeviceMediaTypeDVDPlusRW (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDPlusRW'
+    'body': 'KDRDeviceMediaTypeDVDPlusRW'
+  'kDRDeviceMediaTypeDVDPlusRWDoubleLayer (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDPlusRWDoubleLayer'
+    'body': 'KDRDeviceMediaTypeDVDPlusRWDoubleLayer'
+  'kDRDeviceMediaTypeDVDR (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDR'
+    'body': 'KDRDeviceMediaTypeDVDR'
+  'kDRDeviceMediaTypeDVDRAM (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDRAM'
+    'body': 'KDRDeviceMediaTypeDVDRAM'
+  'kDRDeviceMediaTypeDVDRDualLayer (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDRDualLayer'
+    'body': 'KDRDeviceMediaTypeDVDRDualLayer'
+  'kDRDeviceMediaTypeDVDROM (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDROM'
+    'body': 'KDRDeviceMediaTypeDVDROM'
+  'kDRDeviceMediaTypeDVDRW (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDRW'
+    'body': 'KDRDeviceMediaTypeDVDRW'
+  'kDRDeviceMediaTypeDVDRWDualLayer (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeDVDRWDualLayer'
+    'body': 'KDRDeviceMediaTypeDVDRWDualLayer'
+  'kDRDeviceMediaTypeHDDVDR (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeHDDVDR'
+    'body': 'KDRDeviceMediaTypeHDDVDR'
+  'kDRDeviceMediaTypeHDDVDRAM (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeHDDVDRAM'
+    'body': 'KDRDeviceMediaTypeHDDVDRAM'
+  'kDRDeviceMediaTypeHDDVDRDualLayer (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeHDDVDRDualLayer'
+    'body': 'KDRDeviceMediaTypeHDDVDRDualLayer'
+  'kDRDeviceMediaTypeHDDVDROM (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeHDDVDROM'
+    'body': 'KDRDeviceMediaTypeHDDVDROM'
+  'kDRDeviceMediaTypeHDDVDRW (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeHDDVDRW'
+    'body': 'KDRDeviceMediaTypeHDDVDRW'
+  'kDRDeviceMediaTypeHDDVDRWDualLayer (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeHDDVDRWDualLayer'
+    'body': 'KDRDeviceMediaTypeHDDVDRWDualLayer'
+  'kDRDeviceMediaTypeKey (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeKey'
+    'body': 'KDRDeviceMediaTypeKey'
+  'kDRDeviceMediaTypeUnknown (CFStringRef)':
+    'prefix': 'kDRDeviceMediaTypeUnknown'
+    'body': 'KDRDeviceMediaTypeUnknown'
+  'kDRDevicePhysicalInterconnectATAPI (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectATAPI'
+    'body': 'KDRDevicePhysicalInterconnectATAPI'
+  'kDRDevicePhysicalInterconnectFibreChannel (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectFibreChannel'
+    'body': 'KDRDevicePhysicalInterconnectFibreChannel'
+  'kDRDevicePhysicalInterconnectFireWire (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectFireWire'
+    'body': 'KDRDevicePhysicalInterconnectFireWire'
+  'kDRDevicePhysicalInterconnectKey (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectKey'
+    'body': 'KDRDevicePhysicalInterconnectKey'
+  'kDRDevicePhysicalInterconnectLocationExternal (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectLocationExternal'
+    'body': 'KDRDevicePhysicalInterconnectLocationExternal'
+  'kDRDevicePhysicalInterconnectLocationInternal (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectLocationInternal'
+    'body': 'KDRDevicePhysicalInterconnectLocationInternal'
+  'kDRDevicePhysicalInterconnectLocationKey (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectLocationKey'
+    'body': 'KDRDevicePhysicalInterconnectLocationKey'
+  'kDRDevicePhysicalInterconnectLocationUnknown (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectLocationUnknown'
+    'body': 'KDRDevicePhysicalInterconnectLocationUnknown'
+  'kDRDevicePhysicalInterconnectSCSI (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectSCSI'
+    'body': 'KDRDevicePhysicalInterconnectSCSI'
+  'kDRDevicePhysicalInterconnectUSB (CFStringRef)':
+    'prefix': 'kDRDevicePhysicalInterconnectUSB'
+    'body': 'KDRDevicePhysicalInterconnectUSB'
+  'kDRDeviceProductNameKey (CFStringRef)':
+    'prefix': 'kDRDeviceProductNameKey'
+    'body': 'KDRDeviceProductNameKey'
+  'kDRDeviceStatusChangedNotification (CFStringRef)':
+    'prefix': 'kDRDeviceStatusChangedNotification'
+    'body': 'KDRDeviceStatusChangedNotification'
+  'kDRDeviceSupportLevelAppleShipping (CFStringRef)':
+    'prefix': 'kDRDeviceSupportLevelAppleShipping'
+    'body': 'KDRDeviceSupportLevelAppleShipping'
+  'kDRDeviceSupportLevelAppleSupported (CFStringRef)':
+    'prefix': 'kDRDeviceSupportLevelAppleSupported'
+    'body': 'KDRDeviceSupportLevelAppleSupported'
+  'kDRDeviceSupportLevelKey (CFStringRef)':
+    'prefix': 'kDRDeviceSupportLevelKey'
+    'body': 'KDRDeviceSupportLevelKey'
+  'kDRDeviceSupportLevelNone (CFStringRef)':
+    'prefix': 'kDRDeviceSupportLevelNone'
+    'body': 'KDRDeviceSupportLevelNone'
+  'kDRDeviceSupportLevelUnsupported (CFStringRef)':
+    'prefix': 'kDRDeviceSupportLevelUnsupported'
+    'body': 'KDRDeviceSupportLevelUnsupported'
+  'kDRDeviceSupportLevelVendorSupported (CFStringRef)':
+    'prefix': 'kDRDeviceSupportLevelVendorSupported'
+    'body': 'KDRDeviceSupportLevelVendorSupported'
+  'kDRDeviceTrackInfoKey (CFStringRef)':
+    'prefix': 'kDRDeviceTrackInfoKey'
+    'body': 'KDRDeviceTrackInfoKey'
+  'kDRDeviceTrackRefsKey (CFStringRef)':
+    'prefix': 'kDRDeviceTrackRefsKey'
+    'body': 'KDRDeviceTrackRefsKey'
+  'kDRDeviceVendorNameKey (CFStringRef)':
+    'prefix': 'kDRDeviceVendorNameKey'
+    'body': 'KDRDeviceVendorNameKey'
+  'kDRDeviceWriteBufferSizeKey (CFStringRef)':
+    'prefix': 'kDRDeviceWriteBufferSizeKey'
+    'body': 'KDRDeviceWriteBufferSizeKey'
+  'kDRDeviceWriteCapabilitiesKey (CFStringRef)':
+    'prefix': 'kDRDeviceWriteCapabilitiesKey'
+    'body': 'KDRDeviceWriteCapabilitiesKey'
+  'kDREffectiveDate (CFStringRef)':
+    'prefix': 'kDREffectiveDate'
+    'body': 'KDREffectiveDate'
+  'kDREraseStatusChangedNotification (CFStringRef)':
+    'prefix': 'kDREraseStatusChangedNotification'
+    'body': 'KDREraseStatusChangedNotification'
+  'kDREraseTypeComplete (CFStringRef)':
+    'prefix': 'kDREraseTypeComplete'
+    'body': 'KDREraseTypeComplete'
+  'kDREraseTypeKey (CFStringRef)':
+    'prefix': 'kDREraseTypeKey'
+    'body': 'KDREraseTypeKey'
+  'kDREraseTypeQuick (CFStringRef)':
+    'prefix': 'kDREraseTypeQuick'
+    'body': 'KDREraseTypeQuick'
+  'kDRErrorStatusAdditionalSenseStringKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusAdditionalSenseStringKey'
+    'body': 'KDRErrorStatusAdditionalSenseStringKey'
+  'kDRErrorStatusErrorInfoStringKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusErrorInfoStringKey'
+    'body': 'KDRErrorStatusErrorInfoStringKey'
+  'kDRErrorStatusErrorKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusErrorKey'
+    'body': 'KDRErrorStatusErrorKey'
+  'kDRErrorStatusErrorStringKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusErrorStringKey'
+    'body': 'KDRErrorStatusErrorStringKey'
+  'kDRErrorStatusKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusKey'
+    'body': 'KDRErrorStatusKey'
+  'kDRErrorStatusSenseCodeStringKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusSenseCodeStringKey'
+    'body': 'KDRErrorStatusSenseCodeStringKey'
+  'kDRErrorStatusSenseKey (CFStringRef)':
+    'prefix': 'kDRErrorStatusSenseKey'
+    'body': 'KDRErrorStatusSenseKey'
+  'kDRExpirationDate (CFStringRef)':
+    'prefix': 'kDRExpirationDate'
+    'body': 'KDRExpirationDate'
+  'kDRFreeBlocksKey (CFStringRef)':
+    'prefix': 'kDRFreeBlocksKey'
+    'body': 'KDRFreeBlocksKey'
+  'kDRHFSPlus (CFStringRef)':
+    'prefix': 'kDRHFSPlus'
+    'body': 'KDRHFSPlus'
+  'kDRHFSPlusCatalogNodeID (CFStringRef)':
+    'prefix': 'kDRHFSPlusCatalogNodeID'
+    'body': 'KDRHFSPlusCatalogNodeID'
+  'kDRHFSPlusTextEncodingHint (CFStringRef)':
+    'prefix': 'kDRHFSPlusTextEncodingHint'
+    'body': 'KDRHFSPlusTextEncodingHint'
+  'kDRISO9660 (CFStringRef)':
+    'prefix': 'kDRISO9660'
+    'body': 'KDRISO9660'
+  'kDRISO9660LevelOne (CFStringRef)':
+    'prefix': 'kDRISO9660LevelOne'
+    'body': 'KDRISO9660LevelOne'
+  'kDRISO9660LevelTwo (CFStringRef)':
+    'prefix': 'kDRISO9660LevelTwo'
+    'body': 'KDRISO9660LevelTwo'
+  'kDRISO9660VersionNumber (CFStringRef)':
+    'prefix': 'kDRISO9660VersionNumber'
+    'body': 'KDRISO9660VersionNumber'
+  'kDRISOLevel (CFStringRef)':
+    'prefix': 'kDRISOLevel'
+    'body': 'KDRISOLevel'
+  'kDRISOMacExtensions (CFStringRef)':
+    'prefix': 'kDRISOMacExtensions'
+    'body': 'KDRISOMacExtensions'
+  'kDRISORockRidgeExtensions (CFStringRef)':
+    'prefix': 'kDRISORockRidgeExtensions'
+    'body': 'KDRISORockRidgeExtensions'
+  'kDRIndexPointsKey (CFStringRef)':
+    'prefix': 'kDRIndexPointsKey'
+    'body': 'KDRIndexPointsKey'
+  'kDRInvisible (CFStringRef)':
+    'prefix': 'kDRInvisible'
+    'body': 'KDRInvisible'
+  'kDRJoliet (CFStringRef)':
+    'prefix': 'kDRJoliet'
+    'body': 'KDRJoliet'
+  'kDRMacExtendedFinderFlags (CFStringRef)':
+    'prefix': 'kDRMacExtendedFinderFlags'
+    'body': 'KDRMacExtendedFinderFlags'
+  'kDRMacFileCreator (CFStringRef)':
+    'prefix': 'kDRMacFileCreator'
+    'body': 'KDRMacFileCreator'
+  'kDRMacFileType (CFStringRef)':
+    'prefix': 'kDRMacFileType'
+    'body': 'KDRMacFileType'
+  'kDRMacFinderFlags (CFStringRef)':
+    'prefix': 'kDRMacFinderFlags'
+    'body': 'KDRMacFinderFlags'
+  'kDRMacFinderHideExtension (CFStringRef)':
+    'prefix': 'kDRMacFinderHideExtension'
+    'body': 'KDRMacFinderHideExtension'
+  'kDRMacIconLocation (CFStringRef)':
+    'prefix': 'kDRMacIconLocation'
+    'body': 'KDRMacIconLocation'
+  'kDRMacScrollPosition (CFStringRef)':
+    'prefix': 'kDRMacScrollPosition'
+    'body': 'KDRMacScrollPosition'
+  'kDRMacWindowBounds (CFStringRef)':
+    'prefix': 'kDRMacWindowBounds'
+    'body': 'KDRMacWindowBounds'
+  'kDRMacWindowView (CFStringRef)':
+    'prefix': 'kDRMacWindowView'
+    'body': 'KDRMacWindowView'
+  'kDRMaxBurnSpeedKey (CFStringRef)':
+    'prefix': 'kDRMaxBurnSpeedKey'
+    'body': 'KDRMaxBurnSpeedKey'
+  'kDRMediaCatalogNumberKey (CFStringRef)':
+    'prefix': 'kDRMediaCatalogNumberKey'
+    'body': 'KDRMediaCatalogNumberKey'
+  'kDRNextWritableAddressKey (CFStringRef)':
+    'prefix': 'kDRNextWritableAddressKey'
+    'body': 'KDRNextWritableAddressKey'
+  'kDRPosixFileMode (CFStringRef)':
+    'prefix': 'kDRPosixFileMode'
+    'body': 'KDRPosixFileMode'
+  'kDRPosixGID (CFStringRef)':
+    'prefix': 'kDRPosixGID'
+    'body': 'KDRPosixGID'
+  'kDRPosixUID (CFStringRef)':
+    'prefix': 'kDRPosixUID'
+    'body': 'KDRPosixUID'
+  'kDRPreGapIsRequiredKey (CFStringRef)':
+    'prefix': 'kDRPreGapIsRequiredKey'
+    'body': 'KDRPreGapIsRequiredKey'
+  'kDRPreGapLengthKey (CFStringRef)':
+    'prefix': 'kDRPreGapLengthKey'
+    'body': 'KDRPreGapLengthKey'
+  'kDRPublisher (CFStringRef)':
+    'prefix': 'kDRPublisher'
+    'body': 'KDRPublisher'
+  'kDRRecordingDate (CFStringRef)':
+    'prefix': 'kDRRecordingDate'
+    'body': 'KDRRecordingDate'
+  'kDRRefConCFTypeCallbacks (DRRefConCallbacks)':
+    'prefix': 'kDRRefConCFTypeCallbacks'
+    'body': 'KDRRefConCFTypeCallbacks'
+  'kDRSCMSCopyrightFree (CFStringRef)':
+    'prefix': 'kDRSCMSCopyrightFree'
+    'body': 'KDRSCMSCopyrightFree'
+  'kDRSCMSCopyrightProtectedCopy (CFStringRef)':
+    'prefix': 'kDRSCMSCopyrightProtectedCopy'
+    'body': 'KDRSCMSCopyrightProtectedCopy'
+  'kDRSCMSCopyrightProtectedOriginal (CFStringRef)':
+    'prefix': 'kDRSCMSCopyrightProtectedOriginal'
+    'body': 'KDRSCMSCopyrightProtectedOriginal'
+  'kDRSerialCopyManagementStateKey (CFStringRef)':
+    'prefix': 'kDRSerialCopyManagementStateKey'
+    'body': 'KDRSerialCopyManagementStateKey'
+  'kDRSessionFormatKey (CFStringRef)':
+    'prefix': 'kDRSessionFormatKey'
+    'body': 'KDRSessionFormatKey'
+  'kDRSessionNumberKey (CFStringRef)':
+    'prefix': 'kDRSessionNumberKey'
+    'body': 'KDRSessionNumberKey'
+  'kDRStatusCurrentSessionKey (CFStringRef)':
+    'prefix': 'kDRStatusCurrentSessionKey'
+    'body': 'KDRStatusCurrentSessionKey'
+  'kDRStatusCurrentSpeedKey (CFStringRef)':
+    'prefix': 'kDRStatusCurrentSpeedKey'
+    'body': 'KDRStatusCurrentSpeedKey'
+  'kDRStatusCurrentTrackKey (CFStringRef)':
+    'prefix': 'kDRStatusCurrentTrackKey'
+    'body': 'KDRStatusCurrentTrackKey'
+  'kDRStatusEraseTypeKey (CFStringRef)':
+    'prefix': 'kDRStatusEraseTypeKey'
+    'body': 'KDRStatusEraseTypeKey'
+  'kDRStatusPercentCompleteKey (CFStringRef)':
+    'prefix': 'kDRStatusPercentCompleteKey'
+    'body': 'KDRStatusPercentCompleteKey'
+  'kDRStatusProgressCurrentKPS (CFStringRef)':
+    'prefix': 'kDRStatusProgressCurrentKPS'
+    'body': 'KDRStatusProgressCurrentKPS'
+  'kDRStatusProgressCurrentXFactor (CFStringRef)':
+    'prefix': 'kDRStatusProgressCurrentXFactor'
+    'body': 'KDRStatusProgressCurrentXFactor'
+  'kDRStatusProgressInfoKey (CFStringRef)':
+    'prefix': 'kDRStatusProgressInfoKey'
+    'body': 'KDRStatusProgressInfoKey'
+  'kDRStatusStateDone (CFStringRef)':
+    'prefix': 'kDRStatusStateDone'
+    'body': 'KDRStatusStateDone'
+  'kDRStatusStateErasing (CFStringRef)':
+    'prefix': 'kDRStatusStateErasing'
+    'body': 'KDRStatusStateErasing'
+  'kDRStatusStateFailed (CFStringRef)':
+    'prefix': 'kDRStatusStateFailed'
+    'body': 'KDRStatusStateFailed'
+  'kDRStatusStateFinishing (CFStringRef)':
+    'prefix': 'kDRStatusStateFinishing'
+    'body': 'KDRStatusStateFinishing'
+  'kDRStatusStateKey (CFStringRef)':
+    'prefix': 'kDRStatusStateKey'
+    'body': 'KDRStatusStateKey'
+  'kDRStatusStateNone (CFStringRef)':
+    'prefix': 'kDRStatusStateNone'
+    'body': 'KDRStatusStateNone'
+  'kDRStatusStatePreparing (CFStringRef)':
+    'prefix': 'kDRStatusStatePreparing'
+    'body': 'KDRStatusStatePreparing'
+  'kDRStatusStateSessionClose (CFStringRef)':
+    'prefix': 'kDRStatusStateSessionClose'
+    'body': 'KDRStatusStateSessionClose'
+  'kDRStatusStateSessionOpen (CFStringRef)':
+    'prefix': 'kDRStatusStateSessionOpen'
+    'body': 'KDRStatusStateSessionOpen'
+  'kDRStatusStateTrackClose (CFStringRef)':
+    'prefix': 'kDRStatusStateTrackClose'
+    'body': 'KDRStatusStateTrackClose'
+  'kDRStatusStateTrackOpen (CFStringRef)':
+    'prefix': 'kDRStatusStateTrackOpen'
+    'body': 'KDRStatusStateTrackOpen'
+  'kDRStatusStateTrackWrite (CFStringRef)':
+    'prefix': 'kDRStatusStateTrackWrite'
+    'body': 'KDRStatusStateTrackWrite'
+  'kDRStatusStateVerifying (CFStringRef)':
+    'prefix': 'kDRStatusStateVerifying'
+    'body': 'KDRStatusStateVerifying'
+  'kDRStatusTotalSessionsKey (CFStringRef)':
+    'prefix': 'kDRStatusTotalSessionsKey'
+    'body': 'KDRStatusTotalSessionsKey'
+  'kDRStatusTotalTracksKey (CFStringRef)':
+    'prefix': 'kDRStatusTotalTracksKey'
+    'body': 'KDRStatusTotalTracksKey'
+  'kDRSubchannelDataFormKey (CFStringRef)':
+    'prefix': 'kDRSubchannelDataFormKey'
+    'body': 'KDRSubchannelDataFormKey'
+  'kDRSubchannelDataFormNone (CFStringRef)':
+    'prefix': 'kDRSubchannelDataFormNone'
+    'body': 'KDRSubchannelDataFormNone'
+  'kDRSubchannelDataFormPack (CFStringRef)':
+    'prefix': 'kDRSubchannelDataFormPack'
+    'body': 'KDRSubchannelDataFormPack'
+  'kDRSubchannelDataFormRaw (CFStringRef)':
+    'prefix': 'kDRSubchannelDataFormRaw'
+    'body': 'KDRSubchannelDataFormRaw'
+  'kDRSuppressMacSpecificFiles (CFStringRef)':
+    'prefix': 'kDRSuppressMacSpecificFiles'
+    'body': 'KDRSuppressMacSpecificFiles'
+  'kDRSynchronousBehaviorKey (CFStringRef)':
+    'prefix': 'kDRSynchronousBehaviorKey'
+    'body': 'KDRSynchronousBehaviorKey'
+  'kDRSystemIdentifier (CFStringRef)':
+    'prefix': 'kDRSystemIdentifier'
+    'body': 'KDRSystemIdentifier'
+  'kDRTrackISRCKey (CFStringRef)':
+    'prefix': 'kDRTrackISRCKey'
+    'body': 'KDRTrackISRCKey'
+  'kDRTrackIsEmptyKey (CFStringRef)':
+    'prefix': 'kDRTrackIsEmptyKey'
+    'body': 'KDRTrackIsEmptyKey'
+  'kDRTrackLengthKey (CFStringRef)':
+    'prefix': 'kDRTrackLengthKey'
+    'body': 'KDRTrackLengthKey'
+  'kDRTrackModeKey (CFStringRef)':
+    'prefix': 'kDRTrackModeKey'
+    'body': 'KDRTrackModeKey'
+  'kDRTrackNumberKey (CFStringRef)':
+    'prefix': 'kDRTrackNumberKey'
+    'body': 'KDRTrackNumberKey'
+  'kDRTrackPacketSizeKey (CFStringRef)':
+    'prefix': 'kDRTrackPacketSizeKey'
+    'body': 'KDRTrackPacketSizeKey'
+  'kDRTrackPacketTypeFixed (CFStringRef)':
+    'prefix': 'kDRTrackPacketTypeFixed'
+    'body': 'KDRTrackPacketTypeFixed'
+  'kDRTrackPacketTypeKey (CFStringRef)':
+    'prefix': 'kDRTrackPacketTypeKey'
+    'body': 'KDRTrackPacketTypeKey'
+  'kDRTrackPacketTypeVariable (CFStringRef)':
+    'prefix': 'kDRTrackPacketTypeVariable'
+    'body': 'KDRTrackPacketTypeVariable'
+  'kDRTrackStartAddressKey (CFStringRef)':
+    'prefix': 'kDRTrackStartAddressKey'
+    'body': 'KDRTrackStartAddressKey'
+  'kDRTrackTypeClosed (CFStringRef)':
+    'prefix': 'kDRTrackTypeClosed'
+    'body': 'KDRTrackTypeClosed'
+  'kDRTrackTypeIncomplete (CFStringRef)':
+    'prefix': 'kDRTrackTypeIncomplete'
+    'body': 'KDRTrackTypeIncomplete'
+  'kDRTrackTypeInvisible (CFStringRef)':
+    'prefix': 'kDRTrackTypeInvisible'
+    'body': 'KDRTrackTypeInvisible'
+  'kDRTrackTypeKey (CFStringRef)':
+    'prefix': 'kDRTrackTypeKey'
+    'body': 'KDRTrackTypeKey'
+  'kDRTrackTypeReserved (CFStringRef)':
+    'prefix': 'kDRTrackTypeReserved'
+    'body': 'KDRTrackTypeReserved'
+  'kDRUDF (CFStringRef)':
+    'prefix': 'kDRUDF'
+    'body': 'KDRUDF'
+  'kDRUDFApplicationIdentifierSuffix (CFStringRef)':
+    'prefix': 'kDRUDFApplicationIdentifierSuffix'
+    'body': 'KDRUDFApplicationIdentifierSuffix'
+  'kDRUDFExtendedFilePermissions (CFStringRef)':
+    'prefix': 'kDRUDFExtendedFilePermissions'
+    'body': 'KDRUDFExtendedFilePermissions'
+  'kDRUDFInterchangeLevel (CFStringRef)':
+    'prefix': 'kDRUDFInterchangeLevel'
+    'body': 'KDRUDFInterchangeLevel'
+  'kDRUDFMaxInterchangeLevel (CFStringRef)':
+    'prefix': 'kDRUDFMaxInterchangeLevel'
+    'body': 'KDRUDFMaxInterchangeLevel'
+  'kDRUDFMaxVolumeSequenceNumber (CFStringRef)':
+    'prefix': 'kDRUDFMaxVolumeSequenceNumber'
+    'body': 'KDRUDFMaxVolumeSequenceNumber'
+  'kDRUDFPrimaryVolumeDescriptorNumber (CFStringRef)':
+    'prefix': 'kDRUDFPrimaryVolumeDescriptorNumber'
+    'body': 'KDRUDFPrimaryVolumeDescriptorNumber'
+  'kDRUDFRealTimeFile (CFStringRef)':
+    'prefix': 'kDRUDFRealTimeFile'
+    'body': 'KDRUDFRealTimeFile'
+  'kDRUDFVersion102 (CFStringRef)':
+    'prefix': 'kDRUDFVersion102'
+    'body': 'KDRUDFVersion102'
+  'kDRUDFVersion150 (CFStringRef)':
+    'prefix': 'kDRUDFVersion150'
+    'body': 'KDRUDFVersion150'
+  'kDRUDFVolumeSequenceNumber (CFStringRef)':
+    'prefix': 'kDRUDFVolumeSequenceNumber'
+    'body': 'KDRUDFVolumeSequenceNumber'
+  'kDRUDFVolumeSetIdentifier (CFStringRef)':
+    'prefix': 'kDRUDFVolumeSetIdentifier'
+    'body': 'KDRUDFVolumeSetIdentifier'
+  'kDRUDFVolumeSetImplementationUse (CFStringRef)':
+    'prefix': 'kDRUDFVolumeSetImplementationUse'
+    'body': 'KDRUDFVolumeSetImplementationUse'
+  'kDRUDFVolumeSetTimestamp (CFStringRef)':
+    'prefix': 'kDRUDFVolumeSetTimestamp'
+    'body': 'KDRUDFVolumeSetTimestamp'
+  'kDRUDFWriteVersion (CFStringRef)':
+    'prefix': 'kDRUDFWriteVersion'
+    'body': 'KDRUDFWriteVersion'
+  'kDRVerificationTypeChecksum (CFStringRef)':
+    'prefix': 'kDRVerificationTypeChecksum'
+    'body': 'KDRVerificationTypeChecksum'
+  'kDRVerificationTypeKey (CFStringRef)':
+    'prefix': 'kDRVerificationTypeKey'
+    'body': 'KDRVerificationTypeKey'
+  'kDRVerificationTypeNone (CFStringRef)':
+    'prefix': 'kDRVerificationTypeNone'
+    'body': 'KDRVerificationTypeNone'
+  'kDRVerificationTypeProduceAgain (CFStringRef)':
+    'prefix': 'kDRVerificationTypeProduceAgain'
+    'body': 'KDRVerificationTypeProduceAgain'
+  'kDRVerificationTypeReceiveData (CFStringRef)':
+    'prefix': 'kDRVerificationTypeReceiveData'
+    'body': 'KDRVerificationTypeReceiveData'
+  'kDRVolumeCheckedDate (CFStringRef)':
+    'prefix': 'kDRVolumeCheckedDate'
+    'body': 'KDRVolumeCheckedDate'
+  'kDRVolumeCreationDate (CFStringRef)':
+    'prefix': 'kDRVolumeCreationDate'
+    'body': 'KDRVolumeCreationDate'
+  'kDRVolumeEffectiveDate (CFStringRef)':
+    'prefix': 'kDRVolumeEffectiveDate'
+    'body': 'KDRVolumeEffectiveDate'
+  'kDRVolumeExpirationDate (CFStringRef)':
+    'prefix': 'kDRVolumeExpirationDate'
+    'body': 'KDRVolumeExpirationDate'
+  'kDRVolumeModificationDate (CFStringRef)':
+    'prefix': 'kDRVolumeModificationDate'
+    'body': 'KDRVolumeModificationDate'
+  'kDRVolumeSet (CFStringRef)':
+    'prefix': 'kDRVolumeSet'
+    'body': 'KDRVolumeSet'
+  'DRCDTextEncodingASCII (1)':
+    'prefix': 'DRCDTextEncodingASCII'
+    'body': 'DRCDTextEncodingASCII'
+  'DRCDTextEncodingISOLatin1Modified (5)':
+    'prefix': 'DRCDTextEncodingISOLatin1Modified'
+    'body': 'DRCDTextEncodingISOLatin1Modified'
+  'DRCDTextGenreCodeAdultContemporary (2)':
+    'prefix': 'DRCDTextGenreCodeAdultContemporary'
+    'body': 'DRCDTextGenreCodeAdultContemporary'
+  'DRCDTextGenreCodeAlternativeRock (3)':
+    'prefix': 'DRCDTextGenreCodeAlternativeRock'
+    'body': 'DRCDTextGenreCodeAlternativeRock'
+  'DRCDTextGenreCodeChildrens (4)':
+    'prefix': 'DRCDTextGenreCodeChildrens'
+    'body': 'DRCDTextGenreCodeChildrens'
+  'DRCDTextGenreCodeClassical (5)':
+    'prefix': 'DRCDTextGenreCodeClassical'
+    'body': 'DRCDTextGenreCodeClassical'
+  'DRCDTextGenreCodeContemporaryChristian (6)':
+    'prefix': 'DRCDTextGenreCodeContemporaryChristian'
+    'body': 'DRCDTextGenreCodeContemporaryChristian'
+  'DRCDTextGenreCodeCountry (7)':
+    'prefix': 'DRCDTextGenreCodeCountry'
+    'body': 'DRCDTextGenreCodeCountry'
+  'DRCDTextGenreCodeDance (8)':
+    'prefix': 'DRCDTextGenreCodeDance'
+    'body': 'DRCDTextGenreCodeDance'
+  'DRCDTextGenreCodeEasyListening (9)':
+    'prefix': 'DRCDTextGenreCodeEasyListening'
+    'body': 'DRCDTextGenreCodeEasyListening'
+  'DRCDTextGenreCodeErotic (10)':
+    'prefix': 'DRCDTextGenreCodeErotic'
+    'body': 'DRCDTextGenreCodeErotic'
+  'DRCDTextGenreCodeFolk (11)':
+    'prefix': 'DRCDTextGenreCodeFolk'
+    'body': 'DRCDTextGenreCodeFolk'
+  'DRCDTextGenreCodeGospel (12)':
+    'prefix': 'DRCDTextGenreCodeGospel'
+    'body': 'DRCDTextGenreCodeGospel'
+  'DRCDTextGenreCodeHipHop (13)':
+    'prefix': 'DRCDTextGenreCodeHipHop'
+    'body': 'DRCDTextGenreCodeHipHop'
+  'DRCDTextGenreCodeJazz (14)':
+    'prefix': 'DRCDTextGenreCodeJazz'
+    'body': 'DRCDTextGenreCodeJazz'
+  'DRCDTextGenreCodeLatin (15)':
+    'prefix': 'DRCDTextGenreCodeLatin'
+    'body': 'DRCDTextGenreCodeLatin'
+  'DRCDTextGenreCodeMusical (16)':
+    'prefix': 'DRCDTextGenreCodeMusical'
+    'body': 'DRCDTextGenreCodeMusical'
+  'DRCDTextGenreCodeNewAge (17)':
+    'prefix': 'DRCDTextGenreCodeNewAge'
+    'body': 'DRCDTextGenreCodeNewAge'
+  'DRCDTextGenreCodeOpera (18)':
+    'prefix': 'DRCDTextGenreCodeOpera'
+    'body': 'DRCDTextGenreCodeOpera'
+  'DRCDTextGenreCodeOperetta (19)':
+    'prefix': 'DRCDTextGenreCodeOperetta'
+    'body': 'DRCDTextGenreCodeOperetta'
+  'DRCDTextGenreCodePop (20)':
+    'prefix': 'DRCDTextGenreCodePop'
+    'body': 'DRCDTextGenreCodePop'
+  'DRCDTextGenreCodeRap (21)':
+    'prefix': 'DRCDTextGenreCodeRap'
+    'body': 'DRCDTextGenreCodeRap'
+  'DRCDTextGenreCodeReggae (22)':
+    'prefix': 'DRCDTextGenreCodeReggae'
+    'body': 'DRCDTextGenreCodeReggae'
+  'DRCDTextGenreCodeRhythmAndBlues (24)':
+    'prefix': 'DRCDTextGenreCodeRhythmAndBlues'
+    'body': 'DRCDTextGenreCodeRhythmAndBlues'
+  'DRCDTextGenreCodeRock (23)':
+    'prefix': 'DRCDTextGenreCodeRock'
+    'body': 'DRCDTextGenreCodeRock'
+  'DRCDTextGenreCodeSoundEffects (25)':
+    'prefix': 'DRCDTextGenreCodeSoundEffects'
+    'body': 'DRCDTextGenreCodeSoundEffects'
+  'DRCDTextGenreCodeSoundtrack (26)':
+    'prefix': 'DRCDTextGenreCodeSoundtrack'
+    'body': 'DRCDTextGenreCodeSoundtrack'
+  'DRCDTextGenreCodeSpokenWord (27)':
+    'prefix': 'DRCDTextGenreCodeSpokenWord'
+    'body': 'DRCDTextGenreCodeSpokenWord'
+  'DRCDTextGenreCodeUnknown (1)':
+    'prefix': 'DRCDTextGenreCodeUnknown'
+    'body': 'DRCDTextGenreCodeUnknown'
+  'DRCDTextGenreCodeWorldMusic (28)':
+    'prefix': 'DRCDTextGenreCodeWorldMusic'
+    'body': 'DRCDTextGenreCodeWorldMusic'
+  'DRFileForkData (0)':
+    'prefix': 'DRFileForkData'
+    'body': 'DRFileForkData'
+  'DRFileForkResource (1)':
+    'prefix': 'DRFileForkResource'
+    'body': 'DRFileForkResource'
+  'DRFilesystemInclusionMaskHFSPlus (8)':
+    'prefix': 'DRFilesystemInclusionMaskHFSPlus'
+    'body': 'DRFilesystemInclusionMaskHFSPlus'
+  'DRFilesystemInclusionMaskISO9660 (1)':
+    'prefix': 'DRFilesystemInclusionMaskISO9660'
+    'body': 'DRFilesystemInclusionMaskISO9660'
+  'DRFilesystemInclusionMaskJoliet (2)':
+    'prefix': 'DRFilesystemInclusionMaskJoliet'
+    'body': 'DRFilesystemInclusionMaskJoliet'
+  'DRFilesystemInclusionMaskUDF (4)':
+    'prefix': 'DRFilesystemInclusionMaskUDF'
+    'body': 'DRFilesystemInclusionMaskUDF'
+  'DRFlagSubchannelDataRequested (2)':
+    'prefix': 'DRFlagSubchannelDataRequested'
+    'body': 'DRFlagSubchannelDataRequested'
+  'kDRAudioFileNotSupportedErr (2147614828)':
+    'prefix': 'kDRAudioFileNotSupportedErr'
+    'body': 'KDRAudioFileNotSupportedErr'
+  'kDRBadLayoutErr (2147614821)':
+    'prefix': 'kDRBadLayoutErr'
+    'body': 'KDRBadLayoutErr'
+  'kDRBlockSizeAudio (2352)':
+    'prefix': 'kDRBlockSizeAudio'
+    'body': 'KDRBlockSizeAudio'
+  'kDRBlockSizeDVDData (2048)':
+    'prefix': 'kDRBlockSizeDVDData'
+    'body': 'KDRBlockSizeDVDData'
+  'kDRBlockSizeMode1Data (2048)':
+    'prefix': 'kDRBlockSizeMode1Data'
+    'body': 'KDRBlockSizeMode1Data'
+  'kDRBlockSizeMode2Data (2332)':
+    'prefix': 'kDRBlockSizeMode2Data'
+    'body': 'KDRBlockSizeMode2Data'
+  'kDRBlockSizeMode2Form1Data (2048)':
+    'prefix': 'kDRBlockSizeMode2Form1Data'
+    'body': 'KDRBlockSizeMode2Form1Data'
+  'kDRBlockSizeMode2Form2Data (2324)':
+    'prefix': 'kDRBlockSizeMode2Form2Data'
+    'body': 'KDRBlockSizeMode2Form2Data'
+  'kDRBlockTypeAudio (0)':
+    'prefix': 'kDRBlockTypeAudio'
+    'body': 'KDRBlockTypeAudio'
+  'kDRBlockTypeDVDData (8)':
+    'prefix': 'kDRBlockTypeDVDData'
+    'body': 'KDRBlockTypeDVDData'
+  'kDRBlockTypeMode1Data (8)':
+    'prefix': 'kDRBlockTypeMode1Data'
+    'body': 'KDRBlockTypeMode1Data'
+  'kDRBlockTypeMode2Data (13)':
+    'prefix': 'kDRBlockTypeMode2Data'
+    'body': 'KDRBlockTypeMode2Data'
+  'kDRBlockTypeMode2Form1Data (10)':
+    'prefix': 'kDRBlockTypeMode2Form1Data'
+    'body': 'KDRBlockTypeMode2Form1Data'
+  'kDRBlockTypeMode2Form2Data (12)':
+    'prefix': 'kDRBlockTypeMode2Form2Data'
+    'body': 'KDRBlockTypeMode2Form2Data'
+  'kDRBurnMediaWriteFailureErr (2147614830)':
+    'prefix': 'kDRBurnMediaWriteFailureErr'
+    'body': 'KDRBurnMediaWriteFailureErr'
+  'kDRBurnNotAllowedErr (2147614817)':
+    'prefix': 'kDRBurnNotAllowedErr'
+    'body': 'KDRBurnNotAllowedErr'
+  'kDRBurnPowerCalibrationErr (2147614829)':
+    'prefix': 'kDRBurnPowerCalibrationErr'
+    'body': 'KDRBurnPowerCalibrationErr'
+  'kDRBurnUnderrunErr (2147614816)':
+    'prefix': 'kDRBurnUnderrunErr'
+    'body': 'KDRBurnUnderrunErr'
+  'kDRCDTextEncodingASCII (1536)':
+    'prefix': 'kDRCDTextEncodingASCII'
+    'body': 'KDRCDTextEncodingASCII'
+  'kDRCDTextEncodingISOLatin1Modified (513)':
+    'prefix': 'kDRCDTextEncodingISOLatin1Modified'
+    'body': 'KDRCDTextEncodingISOLatin1Modified'
+  'kDRCDTextGenreCodeAdultContemporary (2)':
+    'prefix': 'kDRCDTextGenreCodeAdultContemporary'
+    'body': 'KDRCDTextGenreCodeAdultContemporary'
+  'kDRCDTextGenreCodeAlternativeRock (3)':
+    'prefix': 'kDRCDTextGenreCodeAlternativeRock'
+    'body': 'KDRCDTextGenreCodeAlternativeRock'
+  'kDRCDTextGenreCodeChildrens (4)':
+    'prefix': 'kDRCDTextGenreCodeChildrens'
+    'body': 'KDRCDTextGenreCodeChildrens'
+  'kDRCDTextGenreCodeClassical (5)':
+    'prefix': 'kDRCDTextGenreCodeClassical'
+    'body': 'KDRCDTextGenreCodeClassical'
+  'kDRCDTextGenreCodeContemporaryChristian (6)':
+    'prefix': 'kDRCDTextGenreCodeContemporaryChristian'
+    'body': 'KDRCDTextGenreCodeContemporaryChristian'
+  'kDRCDTextGenreCodeCountry (7)':
+    'prefix': 'kDRCDTextGenreCodeCountry'
+    'body': 'KDRCDTextGenreCodeCountry'
+  'kDRCDTextGenreCodeDance (8)':
+    'prefix': 'kDRCDTextGenreCodeDance'
+    'body': 'KDRCDTextGenreCodeDance'
+  'kDRCDTextGenreCodeEasyListening (9)':
+    'prefix': 'kDRCDTextGenreCodeEasyListening'
+    'body': 'KDRCDTextGenreCodeEasyListening'
+  'kDRCDTextGenreCodeErotic (10)':
+    'prefix': 'kDRCDTextGenreCodeErotic'
+    'body': 'KDRCDTextGenreCodeErotic'
+  'kDRCDTextGenreCodeFolk (11)':
+    'prefix': 'kDRCDTextGenreCodeFolk'
+    'body': 'KDRCDTextGenreCodeFolk'
+  'kDRCDTextGenreCodeGospel (12)':
+    'prefix': 'kDRCDTextGenreCodeGospel'
+    'body': 'KDRCDTextGenreCodeGospel'
+  'kDRCDTextGenreCodeHipHop (13)':
+    'prefix': 'kDRCDTextGenreCodeHipHop'
+    'body': 'KDRCDTextGenreCodeHipHop'
+  'kDRCDTextGenreCodeJazz (14)':
+    'prefix': 'kDRCDTextGenreCodeJazz'
+    'body': 'KDRCDTextGenreCodeJazz'
+  'kDRCDTextGenreCodeLatin (15)':
+    'prefix': 'kDRCDTextGenreCodeLatin'
+    'body': 'KDRCDTextGenreCodeLatin'
+  'kDRCDTextGenreCodeMusical (16)':
+    'prefix': 'kDRCDTextGenreCodeMusical'
+    'body': 'KDRCDTextGenreCodeMusical'
+  'kDRCDTextGenreCodeNewAge (17)':
+    'prefix': 'kDRCDTextGenreCodeNewAge'
+    'body': 'KDRCDTextGenreCodeNewAge'
+  'kDRCDTextGenreCodeOpera (18)':
+    'prefix': 'kDRCDTextGenreCodeOpera'
+    'body': 'KDRCDTextGenreCodeOpera'
+  'kDRCDTextGenreCodeOperetta (19)':
+    'prefix': 'kDRCDTextGenreCodeOperetta'
+    'body': 'KDRCDTextGenreCodeOperetta'
+  'kDRCDTextGenreCodePop (20)':
+    'prefix': 'kDRCDTextGenreCodePop'
+    'body': 'KDRCDTextGenreCodePop'
+  'kDRCDTextGenreCodeRap (21)':
+    'prefix': 'kDRCDTextGenreCodeRap'
+    'body': 'KDRCDTextGenreCodeRap'
+  'kDRCDTextGenreCodeReggae (22)':
+    'prefix': 'kDRCDTextGenreCodeReggae'
+    'body': 'KDRCDTextGenreCodeReggae'
+  'kDRCDTextGenreCodeRhythmAndBlues (24)':
+    'prefix': 'kDRCDTextGenreCodeRhythmAndBlues'
+    'body': 'KDRCDTextGenreCodeRhythmAndBlues'
+  'kDRCDTextGenreCodeRock (23)':
+    'prefix': 'kDRCDTextGenreCodeRock'
+    'body': 'KDRCDTextGenreCodeRock'
+  'kDRCDTextGenreCodeSoundEffects (25)':
+    'prefix': 'kDRCDTextGenreCodeSoundEffects'
+    'body': 'KDRCDTextGenreCodeSoundEffects'
+  'kDRCDTextGenreCodeSoundtrack (26)':
+    'prefix': 'kDRCDTextGenreCodeSoundtrack'
+    'body': 'KDRCDTextGenreCodeSoundtrack'
+  'kDRCDTextGenreCodeSpokenWord (27)':
+    'prefix': 'kDRCDTextGenreCodeSpokenWord'
+    'body': 'KDRCDTextGenreCodeSpokenWord'
+  'kDRCDTextGenreCodeUnknown (1)':
+    'prefix': 'kDRCDTextGenreCodeUnknown'
+    'body': 'KDRCDTextGenreCodeUnknown'
+  'kDRCDTextGenreCodeWorldMusic (28)':
+    'prefix': 'kDRCDTextGenreCodeWorldMusic'
+    'body': 'KDRCDTextGenreCodeWorldMusic'
+  'kDRDataFormAudio (0)':
+    'prefix': 'kDRDataFormAudio'
+    'body': 'KDRDataFormAudio'
+  'kDRDataFormDVDData (16)':
+    'prefix': 'kDRDataFormDVDData'
+    'body': 'KDRDataFormDVDData'
+  'kDRDataFormMode1Data (16)':
+    'prefix': 'kDRDataFormMode1Data'
+    'body': 'KDRDataFormMode1Data'
+  'kDRDataFormMode2Data (32)':
+    'prefix': 'kDRDataFormMode2Data'
+    'body': 'KDRDataFormMode2Data'
+  'kDRDataFormMode2Form1Data (32)':
+    'prefix': 'kDRDataFormMode2Form1Data'
+    'body': 'KDRDataFormMode2Form1Data'
+  'kDRDataFormMode2Form2Data (32)':
+    'prefix': 'kDRDataFormMode2Form2Data'
+    'body': 'KDRDataFormMode2Form2Data'
+  'kDRDataProductionErr (2147614818)':
+    'prefix': 'kDRDataProductionErr'
+    'body': 'KDRDataProductionErr'
+  'kDRDeviceAccessErr (2147614752)':
+    'prefix': 'kDRDeviceAccessErr'
+    'body': 'KDRDeviceAccessErr'
+  'kDRDeviceBurnStrategyNotAvailableErr (2147615232)':
+    'prefix': 'kDRDeviceBurnStrategyNotAvailableErr'
+    'body': 'KDRDeviceBurnStrategyNotAvailableErr'
+  'kDRDeviceBusyErr (2147614753)':
+    'prefix': 'kDRDeviceBusyErr'
+    'body': 'KDRDeviceBusyErr'
+  'kDRDeviceCantWriteCDTextErr (2147615233)':
+    'prefix': 'kDRDeviceCantWriteCDTextErr'
+    'body': 'KDRDeviceCantWriteCDTextErr'
+  'kDRDeviceCantWriteISRCErr (2147615235)':
+    'prefix': 'kDRDeviceCantWriteISRCErr'
+    'body': 'KDRDeviceCantWriteISRCErr'
+  'kDRDeviceCantWriteIndexPointsErr (2147615234)':
+    'prefix': 'kDRDeviceCantWriteIndexPointsErr'
+    'body': 'KDRDeviceCantWriteIndexPointsErr'
+  'kDRDeviceCantWriteSCMSErr (2147615236)':
+    'prefix': 'kDRDeviceCantWriteSCMSErr'
+    'body': 'KDRDeviceCantWriteSCMSErr'
+  'kDRDeviceCommunicationErr (2147614754)':
+    'prefix': 'kDRDeviceCommunicationErr'
+    'body': 'KDRDeviceCommunicationErr'
+  'kDRDeviceInvalidErr (2147614755)':
+    'prefix': 'kDRDeviceInvalidErr'
+    'body': 'KDRDeviceInvalidErr'
+  'kDRDeviceNotReadyErr (2147614756)':
+    'prefix': 'kDRDeviceNotReadyErr'
+    'body': 'KDRDeviceNotReadyErr'
+  'kDRDeviceNotSupportedErr (2147614757)':
+    'prefix': 'kDRDeviceNotSupportedErr'
+    'body': 'KDRDeviceNotSupportedErr'
+  'kDRDevicePreGapLengthNotValidErr (2147615237)':
+    'prefix': 'kDRDevicePreGapLengthNotValidErr'
+    'body': 'KDRDevicePreGapLengthNotValidErr'
+  'kDRDoubleLayerL0AlreadySpecifiedErr (2147614827)':
+    'prefix': 'kDRDoubleLayerL0AlreadySpecifiedErr'
+    'body': 'KDRDoubleLayerL0AlreadySpecifiedErr'
+  'kDRDoubleLayerL0DataZoneBlocksParamErr (2147614826)':
+    'prefix': 'kDRDoubleLayerL0DataZoneBlocksParamErr'
+    'body': 'KDRDoubleLayerL0DataZoneBlocksParamErr'
+  'kDRFileForkData (0)':
+    'prefix': 'kDRFileForkData'
+    'body': 'KDRFileForkData'
+  'kDRFileForkResource (1)':
+    'prefix': 'kDRFileForkResource'
+    'body': 'KDRFileForkResource'
+  'kDRFileForkSizeActual (0)':
+    'prefix': 'kDRFileForkSizeActual'
+    'body': 'KDRFileForkSizeActual'
+  'kDRFileForkSizeEstimate (1)':
+    'prefix': 'kDRFileForkSizeEstimate'
+    'body': 'KDRFileForkSizeEstimate'
+  'kDRFileLocationConflictErr (2147614977)':
+    'prefix': 'kDRFileLocationConflictErr'
+    'body': 'KDRFileLocationConflictErr'
+  'kDRFileMessageForkSize (1718839674)':
+    'prefix': 'kDRFileMessageForkSize'
+    'body': 'KDRFileMessageForkSize'
+  'kDRFileMessagePostBurn (1886352244)':
+    'prefix': 'kDRFileMessagePostBurn'
+    'body': 'KDRFileMessagePostBurn'
+  'kDRFileMessagePreBurn (1886545184)':
+    'prefix': 'kDRFileMessagePreBurn'
+    'body': 'KDRFileMessagePreBurn'
+  'kDRFileMessageProduceData (1886547812)':
+    'prefix': 'kDRFileMessageProduceData'
+    'body': 'KDRFileMessageProduceData'
+  'kDRFileMessageRelease (1652122912)':
+    'prefix': 'kDRFileMessageRelease'
+    'body': 'KDRFileMessageRelease'
+  'kDRFileMessageVerificationStarting (1987208825)':
+    'prefix': 'kDRFileMessageVerificationStarting'
+    'body': 'KDRFileMessageVerificationStarting'
+  'kDRFileModifiedDuringBurnErr (2147614976)':
+    'prefix': 'kDRFileModifiedDuringBurnErr'
+    'body': 'KDRFileModifiedDuringBurnErr'
+  'kDRFilesystemMaskDefault (4294967295)':
+    'prefix': 'kDRFilesystemMaskDefault'
+    'body': 'KDRFilesystemMaskDefault'
+  'kDRFilesystemMaskHFSPlus (8)':
+    'prefix': 'kDRFilesystemMaskHFSPlus'
+    'body': 'KDRFilesystemMaskHFSPlus'
+  'kDRFilesystemMaskISO9660 (1)':
+    'prefix': 'kDRFilesystemMaskISO9660'
+    'body': 'KDRFilesystemMaskISO9660'
+  'kDRFilesystemMaskJoliet (2)':
+    'prefix': 'kDRFilesystemMaskJoliet'
+    'body': 'KDRFilesystemMaskJoliet'
+  'kDRFilesystemMaskUDF (4)':
+    'prefix': 'kDRFilesystemMaskUDF'
+    'body': 'KDRFilesystemMaskUDF'
+  'kDRFilesystemsNotSupportedErr (2147614979)':
+    'prefix': 'kDRFilesystemsNotSupportedErr'
+    'body': 'KDRFilesystemsNotSupportedErr'
+  'kDRFirstErr (2147614720)':
+    'prefix': 'kDRFirstErr'
+    'body': 'KDRFirstErr'
+  'kDRFlagNoMoreData (1)':
+    'prefix': 'kDRFlagNoMoreData'
+    'body': 'KDRFlagNoMoreData'
+  'kDRFlagSubchannelDataRequested (2)':
+    'prefix': 'kDRFlagSubchannelDataRequested'
+    'body': 'KDRFlagSubchannelDataRequested'
+  'kDRFunctionNotSupportedErr (2147614823)':
+    'prefix': 'kDRFunctionNotSupportedErr'
+    'body': 'KDRFunctionNotSupportedErr'
+  'kDRInternalErr (2147614720)':
+    'prefix': 'kDRInternalErr'
+    'body': 'KDRInternalErr'
+  'kDRInvalidIndexPointsErr (2147614825)':
+    'prefix': 'kDRInvalidIndexPointsErr'
+    'body': 'KDRInvalidIndexPointsErr'
+  'kDRLinkTypeFinderAlias (3)':
+    'prefix': 'kDRLinkTypeFinderAlias'
+    'body': 'KDRLinkTypeFinderAlias'
+  'kDRLinkTypeHardLink (1)':
+    'prefix': 'kDRLinkTypeHardLink'
+    'body': 'KDRLinkTypeHardLink'
+  'kDRLinkTypeSymbolicLink (2)':
+    'prefix': 'kDRLinkTypeSymbolicLink'
+    'body': 'KDRLinkTypeSymbolicLink'
+  'kDRMediaBusyErr (2147614784)':
+    'prefix': 'kDRMediaBusyErr'
+    'body': 'KDRMediaBusyErr'
+  'kDRMediaInvalidErr (2147614790)':
+    'prefix': 'kDRMediaInvalidErr'
+    'body': 'KDRMediaInvalidErr'
+  'kDRMediaNotBlankErr (2147614788)':
+    'prefix': 'kDRMediaNotBlankErr'
+    'body': 'KDRMediaNotBlankErr'
+  'kDRMediaNotErasableErr (2147614789)':
+    'prefix': 'kDRMediaNotErasableErr'
+    'body': 'KDRMediaNotErasableErr'
+  'kDRMediaNotPresentErr (2147614785)':
+    'prefix': 'kDRMediaNotPresentErr'
+    'body': 'KDRMediaNotPresentErr'
+  'kDRMediaNotSupportedErr (2147614787)':
+    'prefix': 'kDRMediaNotSupportedErr'
+    'body': 'KDRMediaNotSupportedErr'
+  'kDRMediaNotWritableErr (2147614786)':
+    'prefix': 'kDRMediaNotWritableErr'
+    'body': 'KDRMediaNotWritableErr'
+  'kDRSessionFormatAudio (0)':
+    'prefix': 'kDRSessionFormatAudio'
+    'body': 'KDRSessionFormatAudio'
+  'kDRSessionFormatCDI (16)':
+    'prefix': 'kDRSessionFormatCDI'
+    'body': 'KDRSessionFormatCDI'
+  'kDRSessionFormatCDXA (32)':
+    'prefix': 'kDRSessionFormatCDXA'
+    'body': 'KDRSessionFormatCDXA'
+  'kDRSessionFormatDVDData (0)':
+    'prefix': 'kDRSessionFormatDVDData'
+    'body': 'KDRSessionFormatDVDData'
+  'kDRSessionFormatMode1Data (0)':
+    'prefix': 'kDRSessionFormatMode1Data'
+    'body': 'KDRSessionFormatMode1Data'
+  'kDRSpeedTestAlreadyRunningErr (2147614824)':
+    'prefix': 'kDRSpeedTestAlreadyRunningErr'
+    'body': 'KDRSpeedTestAlreadyRunningErr'
+  'kDRTooManyNameConflictsErr (2147614978)':
+    'prefix': 'kDRTooManyNameConflictsErr'
+    'body': 'KDRTooManyNameConflictsErr'
+  'kDRTooManyTracksForDVDErr (2147614820)':
+    'prefix': 'kDRTooManyTracksForDVDErr'
+    'body': 'KDRTooManyTracksForDVDErr'
+  'kDRTrackMessageEstimateLength (1702065257)':
+    'prefix': 'kDRTrackMessageEstimateLength'
+    'body': 'KDRTrackMessageEstimateLength'
+  'kDRTrackMessagePostBurn (1886352244)':
+    'prefix': 'kDRTrackMessagePostBurn'
+    'body': 'KDRTrackMessagePostBurn'
+  'kDRTrackMessagePreBurn (1886545184)':
+    'prefix': 'kDRTrackMessagePreBurn'
+    'body': 'KDRTrackMessagePreBurn'
+  'kDRTrackMessageProduceData (1886547812)':
+    'prefix': 'kDRTrackMessageProduceData'
+    'body': 'KDRTrackMessageProduceData'
+  'kDRTrackMessageProducePreGap (1886548082)':
+    'prefix': 'kDRTrackMessageProducePreGap'
+    'body': 'KDRTrackMessageProducePreGap'
+  'kDRTrackMessageVerificationDone (1986293614)':
+    'prefix': 'kDRTrackMessageVerificationDone'
+    'body': 'KDRTrackMessageVerificationDone'
+  'kDRTrackMessageVerificationStarting (1987277938)':
+    'prefix': 'kDRTrackMessageVerificationStarting'
+    'body': 'KDRTrackMessageVerificationStarting'
+  'kDRTrackMessageVerifyData (1987208825)':
+    'prefix': 'kDRTrackMessageVerifyData'
+    'body': 'KDRTrackMessageVerifyData'
+  'kDRTrackMessageVerifyPreGap (1987211378)':
+    'prefix': 'kDRTrackMessageVerifyPreGap'
+    'body': 'KDRTrackMessageVerifyPreGap'
+  'kDRTrackMode1Data (4)':
+    'prefix': 'kDRTrackMode1Data'
+    'body': 'KDRTrackMode1Data'
+  'kDRTrackMode2Data (4)':
+    'prefix': 'kDRTrackMode2Data'
+    'body': 'KDRTrackMode2Data'
+  'kDRTrackMode2Form1Data (4)':
+    'prefix': 'kDRTrackMode2Form1Data'
+    'body': 'KDRTrackMode2Form1Data'
+  'kDRTrackMode2Form2Data (4)':
+    'prefix': 'kDRTrackMode2Form2Data'
+    'body': 'KDRTrackMode2Form2Data'
+  'kDRTrackModeAudio (0)':
+    'prefix': 'kDRTrackModeAudio'
+    'body': 'KDRTrackModeAudio'
+  'kDRTrackModeDVDData (5)':
+    'prefix': 'kDRTrackModeDVDData'
+    'body': 'KDRTrackModeDVDData'
+  'kDRTrackReusedErr (2147614831)':
+    'prefix': 'kDRTrackReusedErr'
+    'body': 'KDRTrackReusedErr'
+  'kDRUserCanceledErr (2147614822)':
+    'prefix': 'kDRUserCanceledErr'
+    'body': 'KDRUserCanceledErr'
+  'kDRVerificationFailedErr (2147614819)':
+    'prefix': 'kDRVerificationFailedErr'
+    'body': 'KDRVerificationFailedErr'
+  'DRAudioTrackCreate':
+    'prefix': 'DRAudioTrackCreate'
+    'body': 'DRAudioTrackCreate(${1:FSRef* audioFile})'
+  'DRAudioTrackCreateWithURL':
+    'prefix': 'DRAudioTrackCreateWithURL'
+    'body': 'DRAudioTrackCreateWithURL(${1:CFURLRef audioFileURL})'
+  'DRBurnAbort':
+    'prefix': 'DRBurnAbort'
+    'body': 'DRBurnAbort(${1:DRBurnRef burn})'
+  'DRBurnCopyStatus':
+    'prefix': 'DRBurnCopyStatus'
+    'body': 'DRBurnCopyStatus(${1:DRBurnRef burn})'
+  'DRBurnCreate':
+    'prefix': 'DRBurnCreate'
+    'body': 'DRBurnCreate(${1:DRDeviceRef device})'
+  'DRBurnGetDevice':
+    'prefix': 'DRBurnGetDevice'
+    'body': 'DRBurnGetDevice(${1:DRBurnRef burn})'
+  'DRBurnGetProperties':
+    'prefix': 'DRBurnGetProperties'
+    'body': 'DRBurnGetProperties(${1:DRBurnRef burn})'
+  'DRBurnGetTypeID':
+    'prefix': 'DRBurnGetTypeID'
+    'body': 'DRBurnGetTypeID()'
+  'DRBurnSetProperties':
+    'prefix': 'DRBurnSetProperties'
+    'body': 'DRBurnSetProperties(${1:DRBurnRef burn}, ${2:CFDictionaryRef properties})'
+  'DRBurnWriteLayout':
+    'prefix': 'DRBurnWriteLayout'
+    'body': 'DRBurnWriteLayout(${1:DRBurnRef burn}, ${2:CFTypeRef layout})'
+  'DRCDTextBlockCreate':
+    'prefix': 'DRCDTextBlockCreate'
+    'body': 'DRCDTextBlockCreate(${1:CFStringRef language}, ${2:CFStringEncoding encoding})'
+  'DRCDTextBlockCreateArrayFromPackList':
+    'prefix': 'DRCDTextBlockCreateArrayFromPackList'
+    'body': 'DRCDTextBlockCreateArrayFromPackList(${1:CFDataRef packs})'
+  'DRCDTextBlockFlatten':
+    'prefix': 'DRCDTextBlockFlatten'
+    'body': 'DRCDTextBlockFlatten(${1:DRCDTextBlockRef block})'
+  'DRCDTextBlockGetProperties':
+    'prefix': 'DRCDTextBlockGetProperties'
+    'body': 'DRCDTextBlockGetProperties(${1:DRCDTextBlockRef block})'
+  'DRCDTextBlockGetTrackDictionaries':
+    'prefix': 'DRCDTextBlockGetTrackDictionaries'
+    'body': 'DRCDTextBlockGetTrackDictionaries(${1:DRCDTextBlockRef block})'
+  'DRCDTextBlockGetTypeID':
+    'prefix': 'DRCDTextBlockGetTypeID'
+    'body': 'DRCDTextBlockGetTypeID()'
+  'DRCDTextBlockGetValue':
+    'prefix': 'DRCDTextBlockGetValue'
+    'body': 'DRCDTextBlockGetValue(${1:DRCDTextBlockRef block}, ${2:CFIndex trackIndex}, ${3:CFStringRef key})'
+  'DRCDTextBlockSetProperties':
+    'prefix': 'DRCDTextBlockSetProperties'
+    'body': 'DRCDTextBlockSetProperties(${1:DRCDTextBlockRef block}, ${2:CFDictionaryRef properties})'
+  'DRCDTextBlockSetTrackDictionaries':
+    'prefix': 'DRCDTextBlockSetTrackDictionaries'
+    'body': 'DRCDTextBlockSetTrackDictionaries(${1:DRCDTextBlockRef block}, ${2:CFArrayRef array})'
+  'DRCDTextBlockSetValue':
+    'prefix': 'DRCDTextBlockSetValue'
+    'body': 'DRCDTextBlockSetValue(${1:DRCDTextBlockRef block}, ${2:CFIndex trackIndex}, ${3:CFStringRef key}, ${4:CFTypeRef value})'
+  'DRCopyDeviceArray':
+    'prefix': 'DRCopyDeviceArray'
+    'body': 'DRCopyDeviceArray()'
+  'DRCopyLocalizedStringForAdditionalSense':
+    'prefix': 'DRCopyLocalizedStringForAdditionalSense'
+    'body': 'DRCopyLocalizedStringForAdditionalSense(${1:UInt8 ASC}, ${2:UInt8 ASCQ})'
+  'DRCopyLocalizedStringForDiscRecordingError':
+    'prefix': 'DRCopyLocalizedStringForDiscRecordingError'
+    'body': 'DRCopyLocalizedStringForDiscRecordingError(${1:OSStatus osError})'
+  'DRCopyLocalizedStringForSenseCode':
+    'prefix': 'DRCopyLocalizedStringForSenseCode'
+    'body': 'DRCopyLocalizedStringForSenseCode(${1:UInt8 senseCode})'
+  'DRCopyLocalizedStringForValue':
+    'prefix': 'DRCopyLocalizedStringForValue'
+    'body': 'DRCopyLocalizedStringForValue(${1:CFStringRef value})'
+  'DRDeviceAcquireExclusiveAccess':
+    'prefix': 'DRDeviceAcquireExclusiveAccess'
+    'body': 'DRDeviceAcquireExclusiveAccess(${1:DRDeviceRef device})'
+  'DRDeviceAcquireMediaReservation':
+    'prefix': 'DRDeviceAcquireMediaReservation'
+    'body': 'DRDeviceAcquireMediaReservation(${1:DRDeviceRef device})'
+  'DRDeviceCloseTray':
+    'prefix': 'DRDeviceCloseTray'
+    'body': 'DRDeviceCloseTray(${1:DRDeviceRef device})'
+  'DRDeviceCopyDeviceForBSDName':
+    'prefix': 'DRDeviceCopyDeviceForBSDName'
+    'body': 'DRDeviceCopyDeviceForBSDName(${1:CFStringRef name})'
+  'DRDeviceCopyDeviceForIORegistryEntryPath':
+    'prefix': 'DRDeviceCopyDeviceForIORegistryEntryPath'
+    'body': 'DRDeviceCopyDeviceForIORegistryEntryPath(${1:CFStringRef path})'
+  'DRDeviceCopyInfo':
+    'prefix': 'DRDeviceCopyInfo'
+    'body': 'DRDeviceCopyInfo(${1:DRDeviceRef device})'
+  'DRDeviceCopyStatus':
+    'prefix': 'DRDeviceCopyStatus'
+    'body': 'DRDeviceCopyStatus(${1:DRDeviceRef device})'
+  'DRDeviceEjectMedia':
+    'prefix': 'DRDeviceEjectMedia'
+    'body': 'DRDeviceEjectMedia(${1:DRDeviceRef device})'
+  'DRDeviceGetTypeID':
+    'prefix': 'DRDeviceGetTypeID'
+    'body': 'DRDeviceGetTypeID()'
+  'DRDeviceIsValid':
+    'prefix': 'DRDeviceIsValid'
+    'body': 'DRDeviceIsValid(${1:DRDeviceRef device})'
+  'DRDeviceKPSForXFactor':
+    'prefix': 'DRDeviceKPSForXFactor'
+    'body': 'DRDeviceKPSForXFactor(${1:DRTypeRef deviceOrMediaType}, ${2:float xfactor})'
+  'DRDeviceOpenTray':
+    'prefix': 'DRDeviceOpenTray'
+    'body': 'DRDeviceOpenTray(${1:DRDeviceRef device})'
+  'DRDeviceReleaseExclusiveAccess':
+    'prefix': 'DRDeviceReleaseExclusiveAccess'
+    'body': 'DRDeviceReleaseExclusiveAccess(${1:DRDeviceRef device})'
+  'DRDeviceReleaseMediaReservation':
+    'prefix': 'DRDeviceReleaseMediaReservation'
+    'body': 'DRDeviceReleaseMediaReservation(${1:DRDeviceRef device})'
+  'DRDeviceXFactorForKPS':
+    'prefix': 'DRDeviceXFactorForKPS'
+    'body': 'DRDeviceXFactorForKPS(${1:DRTypeRef deviceOrMediaType}, ${2:float kps})'
+  'DREraseCopyStatus':
+    'prefix': 'DREraseCopyStatus'
+    'body': 'DREraseCopyStatus(${1:DREraseRef erase})'
+  'DREraseCreate':
+    'prefix': 'DREraseCreate'
+    'body': 'DREraseCreate(${1:DRDeviceRef device})'
+  'DREraseGetDevice':
+    'prefix': 'DREraseGetDevice'
+    'body': 'DREraseGetDevice(${1:DREraseRef erase})'
+  'DREraseGetProperties':
+    'prefix': 'DREraseGetProperties'
+    'body': 'DREraseGetProperties(${1:DREraseRef erase})'
+  'DREraseGetTypeID':
+    'prefix': 'DREraseGetTypeID'
+    'body': 'DREraseGetTypeID()'
+  'DREraseSetProperties':
+    'prefix': 'DREraseSetProperties'
+    'body': 'DREraseSetProperties(${1:DREraseRef erase}, ${2:CFDictionaryRef properties})'
+  'DREraseStart':
+    'prefix': 'DREraseStart'
+    'body': 'DREraseStart(${1:DREraseRef erase})'
+  'DRFSObjectCopyBaseName':
+    'prefix': 'DRFSObjectCopyBaseName'
+    'body': 'DRFSObjectCopyBaseName(${1:DRFSObjectRef object})'
+  'DRFSObjectCopyFilesystemProperties':
+    'prefix': 'DRFSObjectCopyFilesystemProperties'
+    'body': 'DRFSObjectCopyFilesystemProperties(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey}, ${3:Boolean coalesce})'
+  'DRFSObjectCopyFilesystemProperty':
+    'prefix': 'DRFSObjectCopyFilesystemProperty'
+    'body': 'DRFSObjectCopyFilesystemProperty(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey}, ${3:CFStringRef propertyKey}, ${4:Boolean coalesce})'
+  'DRFSObjectCopyMangledName':
+    'prefix': 'DRFSObjectCopyMangledName'
+    'body': 'DRFSObjectCopyMangledName(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey})'
+  'DRFSObjectCopyMangledNames':
+    'prefix': 'DRFSObjectCopyMangledNames'
+    'body': 'DRFSObjectCopyMangledNames(${1:DRFSObjectRef object})'
+  'DRFSObjectCopyRealURL':
+    'prefix': 'DRFSObjectCopyRealURL'
+    'body': 'DRFSObjectCopyRealURL(${1:DRFSObjectRef object})'
+  'DRFSObjectCopySpecificName':
+    'prefix': 'DRFSObjectCopySpecificName'
+    'body': 'DRFSObjectCopySpecificName(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey})'
+  'DRFSObjectCopySpecificNames':
+    'prefix': 'DRFSObjectCopySpecificNames'
+    'body': 'DRFSObjectCopySpecificNames(${1:DRFSObjectRef object})'
+  'DRFSObjectGetFilesystemMask':
+    'prefix': 'DRFSObjectGetFilesystemMask'
+    'body': 'DRFSObjectGetFilesystemMask(${1:DRFSObjectRef object}, ${2:DRFilesystemMask* explicitMask}, ${3:DRFilesystemMask* effectiveMask})'
+  'DRFSObjectGetParent':
+    'prefix': 'DRFSObjectGetParent'
+    'body': 'DRFSObjectGetParent(${1:DRFSObjectRef object})'
+  'DRFSObjectGetRealFSRef':
+    'prefix': 'DRFSObjectGetRealFSRef'
+    'body': 'DRFSObjectGetRealFSRef(${1:DRFSObjectRef object}, ${2:FSRef* fsRef})'
+  'DRFSObjectIsVirtual':
+    'prefix': 'DRFSObjectIsVirtual'
+    'body': 'DRFSObjectIsVirtual(${1:DRFSObjectRef object})'
+  'DRFSObjectSetBaseName':
+    'prefix': 'DRFSObjectSetBaseName'
+    'body': 'DRFSObjectSetBaseName(${1:DRFSObjectRef object}, ${2:CFStringRef baseName})'
+  'DRFSObjectSetFilesystemMask':
+    'prefix': 'DRFSObjectSetFilesystemMask'
+    'body': 'DRFSObjectSetFilesystemMask(${1:DRFSObjectRef object}, ${2:DRFilesystemMask newMask})'
+  'DRFSObjectSetFilesystemProperties':
+    'prefix': 'DRFSObjectSetFilesystemProperties'
+    'body': 'DRFSObjectSetFilesystemProperties(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey}, ${3:CFDictionaryRef properties})'
+  'DRFSObjectSetFilesystemProperty':
+    'prefix': 'DRFSObjectSetFilesystemProperty'
+    'body': 'DRFSObjectSetFilesystemProperty(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey}, ${3:CFStringRef propertyKey}, ${4:CFTypeRef value})'
+  'DRFSObjectSetSpecificName':
+    'prefix': 'DRFSObjectSetSpecificName'
+    'body': 'DRFSObjectSetSpecificName(${1:DRFSObjectRef object}, ${2:CFStringRef fsKey}, ${3:CFStringRef specificName})'
+  'DRFSObjectSetSpecificNames':
+    'prefix': 'DRFSObjectSetSpecificNames'
+    'body': 'DRFSObjectSetSpecificNames(${1:DRFSObjectRef object}, ${2:CFDictionaryRef specificNames})'
+  'DRFileCreateReal':
+    'prefix': 'DRFileCreateReal'
+    'body': 'DRFileCreateReal(${1:FSRef* fsRef})'
+  'DRFileCreateRealWithURL':
+    'prefix': 'DRFileCreateRealWithURL'
+    'body': 'DRFileCreateRealWithURL(${1:CFURLRef urlRef})'
+  'DRFileCreateVirtualLink':
+    'prefix': 'DRFileCreateVirtualLink'
+    'body': 'DRFileCreateVirtualLink(${1:DRFSObjectRef original}, ${2:DRLinkType linkType}, ${3:CFStringRef fsKey})'
+  'DRFileCreateVirtualWithCallback':
+    'prefix': 'DRFileCreateVirtualWithCallback'
+    'body': 'DRFileCreateVirtualWithCallback(${1:CFStringRef baseName}, ${2:DRFileProc fileProc}, ${3:void* fileProcRefCon})'
+  'DRFileCreateVirtualWithData':
+    'prefix': 'DRFileCreateVirtualWithData'
+    'body': 'DRFileCreateVirtualWithData(${1:CFStringRef baseName}, ${2:void* fileData}, ${3:UInt32 fileDataLength})'
+  'DRFileGetTypeID':
+    'prefix': 'DRFileGetTypeID'
+    'body': 'DRFileGetTypeID()'
+  'DRFilesystemTrackCreate':
+    'prefix': 'DRFilesystemTrackCreate'
+    'body': 'DRFilesystemTrackCreate(${1:DRFolderRef rootFolder})'
+  'DRFilesystemTrackEstimateOverhead':
+    'prefix': 'DRFilesystemTrackEstimateOverhead'
+    'body': 'DRFilesystemTrackEstimateOverhead(${1:UInt64 numBlocks}, ${2:UInt32 blockSize}, ${3:DRFilesystemMask fsMask})'
+  'DRFolderAddChild':
+    'prefix': 'DRFolderAddChild'
+    'body': 'DRFolderAddChild(${1:DRFolderRef parent}, ${2:DRFSObjectRef newChild})'
+  'DRFolderConvertRealToVirtual':
+    'prefix': 'DRFolderConvertRealToVirtual'
+    'body': 'DRFolderConvertRealToVirtual(${1:DRFolderRef realFolder})'
+  'DRFolderCopyChildren':
+    'prefix': 'DRFolderCopyChildren'
+    'body': 'DRFolderCopyChildren(${1:DRFolderRef folder})'
+  'DRFolderCountChildren':
+    'prefix': 'DRFolderCountChildren'
+    'body': 'DRFolderCountChildren(${1:DRFolderRef folder})'
+  'DRFolderCreateReal':
+    'prefix': 'DRFolderCreateReal'
+    'body': 'DRFolderCreateReal(${1:FSRef* fsRef})'
+  'DRFolderCreateRealWithURL':
+    'prefix': 'DRFolderCreateRealWithURL'
+    'body': 'DRFolderCreateRealWithURL(${1:CFURLRef urlRef})'
+  'DRFolderCreateVirtual':
+    'prefix': 'DRFolderCreateVirtual'
+    'body': 'DRFolderCreateVirtual(${1:CFStringRef baseName})'
+  'DRFolderGetTypeID':
+    'prefix': 'DRFolderGetTypeID'
+    'body': 'DRFolderGetTypeID()'
+  'DRFolderRemoveChild':
+    'prefix': 'DRFolderRemoveChild'
+    'body': 'DRFolderRemoveChild(${1:DRFolderRef parent}, ${2:DRFSObjectRef child})'
+  'DRGetRefCon':
+    'prefix': 'DRGetRefCon'
+    'body': 'DRGetRefCon(${1:DRTypeRef ref})'
+  'DRGetVersion':
+    'prefix': 'DRGetVersion'
+    'body': 'DRGetVersion()'
+  'DRNotificationCenterAddObserver':
+    'prefix': 'DRNotificationCenterAddObserver'
+    'body': 'DRNotificationCenterAddObserver(${1:DRNotificationCenterRef center}, ${2:void* observer}, ${3:DRNotificationCallback callback}, ${4:CFStringRef name}, ${5:DRTypeRef object})'
+  'DRNotificationCenterCreate':
+    'prefix': 'DRNotificationCenterCreate'
+    'body': 'DRNotificationCenterCreate()'
+  'DRNotificationCenterCreateRunLoopSource':
+    'prefix': 'DRNotificationCenterCreateRunLoopSource'
+    'body': 'DRNotificationCenterCreateRunLoopSource(${1:DRNotificationCenterRef center})'
+  'DRNotificationCenterGetTypeID':
+    'prefix': 'DRNotificationCenterGetTypeID'
+    'body': 'DRNotificationCenterGetTypeID()'
+  'DRNotificationCenterRemoveObserver':
+    'prefix': 'DRNotificationCenterRemoveObserver'
+    'body': 'DRNotificationCenterRemoveObserver(${1:DRNotificationCenterRef center}, ${2:void* observer}, ${3:CFStringRef name}, ${4:DRTypeRef object})'
+  'DRSetRefCon':
+    'prefix': 'DRSetRefCon'
+    'body': 'DRSetRefCon(${1:DRTypeRef ref}, ${2:void* refCon}, ${3:DRRefConCallbacks* callbacks})'
+  'DRTrackCreate':
+    'prefix': 'DRTrackCreate'
+    'body': 'DRTrackCreate(${1:CFDictionaryRef properties}, ${2:DRTrackCallbackProc callback})'
+  'DRTrackEstimateLength':
+    'prefix': 'DRTrackEstimateLength'
+    'body': 'DRTrackEstimateLength(${1:DRTrackRef track})'
+  'DRTrackGetProperties':
+    'prefix': 'DRTrackGetProperties'
+    'body': 'DRTrackGetProperties(${1:DRTrackRef track})'
+  'DRTrackGetTypeID':
+    'prefix': 'DRTrackGetTypeID'
+    'body': 'DRTrackGetTypeID()'
+  'DRTrackSetProperties':
+    'prefix': 'DRTrackSetProperties'
+    'body': 'DRTrackSetProperties(${1:DRTrackRef track}, ${2:CFDictionaryRef properties})'
+  'DRTrackSpeedTest':
+    'prefix': 'DRTrackSpeedTest'
+    'body': 'DRTrackSpeedTest(${1:DRTrackRef track}, ${2:UInt32 howManyMilliseconds}, ${3:UInt32 howManyBytes})'
+  'abort':
+    'prefix': 'abort'
+    'body': 'abort()'
+  'appendable':
+    'prefix': 'appendable'
+    'body': 'appendable()'
+  'DRBurn.burnForDevice:':
+    'prefix': 'burnForDevice:'
+    'body': 'DRBurn.burnForDevice(${1:DRDevice* device})'
+  'completionAction':
+    'prefix': 'completionAction'
+    'body': 'completionAction()'
+  'device':
+    'prefix': 'device'
+    'body': 'device()'
+  'initWithDevice:':
+    'prefix': 'initWithDevice:'
+    'body': 'initWithDevice(${1:DRDevice* device})'
+  'DRBurn.layoutForImageFile:':
+    'prefix': 'layoutForImageFile:'
+    'body': 'DRBurn.layoutForImageFile(${1:NSString* path})'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'requestedBurnSpeed':
+    'prefix': 'requestedBurnSpeed'
+    'body': 'requestedBurnSpeed()'
+  'setAppendable:':
+    'prefix': 'setAppendable:'
+    'body': 'setAppendable(${1:BOOL appendable})'
+  'setCompletionAction:':
+    'prefix': 'setCompletionAction:'
+    'body': 'setCompletionAction(${1:NSString* action})'
+  'setProperties:':
+    'prefix': 'setProperties:'
+    'body': 'setProperties(${1:NSDictionary* properties})'
+  'setRequestedBurnSpeed:':
+    'prefix': 'setRequestedBurnSpeed:'
+    'body': 'setRequestedBurnSpeed(${1:float speed})'
+  'setVerifyDisc:':
+    'prefix': 'setVerifyDisc:'
+    'body': 'setVerifyDisc(${1:BOOL verify})'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'verifyDisc':
+    'prefix': 'verifyDisc'
+    'body': 'verifyDisc()'
+  'writeLayout:':
+    'prefix': 'writeLayout:'
+    'body': 'writeLayout(${1:id layout})'
+  'DRCDTextBlock.arrayOfCDTextBlocksFromPacks:':
+    'prefix': 'arrayOfCDTextBlocksFromPacks:'
+    'body': 'DRCDTextBlock.arrayOfCDTextBlocksFromPacks(${1:NSData* packs})'
+  'DRCDTextBlock.cdTextBlockWithLanguage:encoding:':
+    'prefix': 'cdTextBlockWithLanguage:encoding:'
+    'body': 'DRCDTextBlock.cdTextBlockWithLanguage(${1:NSString* lang}, encoding:${2:NSStringEncoding enc})'
+  'encoding':
+    'prefix': 'encoding'
+    'body': 'encoding()'
+  'flatten':
+    'prefix': 'flatten'
+    'body': 'flatten()'
+  'initWithLanguage:encoding:':
+    'prefix': 'initWithLanguage:encoding:'
+    'body': 'initWithLanguage(${1:NSString* lang}, encoding:${2:NSStringEncoding enc})'
+  'language':
+    'prefix': 'language'
+    'body': 'language()'
+  'objectForKey:ofTrack:':
+    'prefix': 'objectForKey:ofTrack:'
+    'body': 'objectForKey(${1:NSString* key}, ofTrack:${2:NSUInteger trackIndex})'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'setObject:forKey:ofTrack:':
+    'prefix': 'setObject:forKey:ofTrack:'
+    'body': 'setObject(${1:id value}, forKey:${2:NSString* key}, ofTrack:${3:NSUInteger trackIndex})'
+  'setProperties:':
+    'prefix': 'setProperties:'
+    'body': 'setProperties(${1:NSDictionary* properties})'
+  'setTrackDictionaries:':
+    'prefix': 'setTrackDictionaries:'
+    'body': 'setTrackDictionaries(${1:NSArray* tracks})'
+  'trackDictionaries':
+    'prefix': 'trackDictionaries'
+    'body': 'trackDictionaries()'
+  'acquireExclusiveAccess':
+    'prefix': 'acquireExclusiveAccess'
+    'body': 'acquireExclusiveAccess()'
+  'acquireMediaReservation':
+    'prefix': 'acquireMediaReservation'
+    'body': 'acquireMediaReservation()'
+  'bsdName':
+    'prefix': 'bsdName'
+    'body': 'bsdName()'
+  'closeTray':
+    'prefix': 'closeTray'
+    'body': 'closeTray()'
+  'DRDevice.deviceForBSDName:':
+    'prefix': 'deviceForBSDName:'
+    'body': 'DRDevice.deviceForBSDName(${1:NSString* bsdName})'
+  'DRDevice.deviceForIORegistryEntryPath:':
+    'prefix': 'deviceForIORegistryEntryPath:'
+    'body': 'DRDevice.deviceForIORegistryEntryPath(${1:NSString* path})'
+  'DRDevice.devices':
+    'prefix': 'devices'
+    'body': 'DRDevice.devices()'
+  'displayName':
+    'prefix': 'displayName'
+    'body': 'displayName()'
+  'ejectMedia':
+    'prefix': 'ejectMedia'
+    'body': 'ejectMedia()'
+  'info':
+    'prefix': 'info'
+    'body': 'info()'
+  'ioRegistryEntryPath':
+    'prefix': 'ioRegistryEntryPath'
+    'body': 'ioRegistryEntryPath()'
+  'isEqualToDevice:':
+    'prefix': 'isEqualToDevice:'
+    'body': 'isEqualToDevice(${1:DRDevice* otherDevice})'
+  'isValid':
+    'prefix': 'isValid'
+    'body': 'isValid()'
+  'mediaIsAppendable':
+    'prefix': 'mediaIsAppendable'
+    'body': 'mediaIsAppendable()'
+  'mediaIsBlank':
+    'prefix': 'mediaIsBlank'
+    'body': 'mediaIsBlank()'
+  'mediaIsBusy':
+    'prefix': 'mediaIsBusy'
+    'body': 'mediaIsBusy()'
+  'mediaIsErasable':
+    'prefix': 'mediaIsErasable'
+    'body': 'mediaIsErasable()'
+  'mediaIsOverwritable':
+    'prefix': 'mediaIsOverwritable'
+    'body': 'mediaIsOverwritable()'
+  'mediaIsPresent':
+    'prefix': 'mediaIsPresent'
+    'body': 'mediaIsPresent()'
+  'mediaIsReserved':
+    'prefix': 'mediaIsReserved'
+    'body': 'mediaIsReserved()'
+  'mediaIsTransitioning':
+    'prefix': 'mediaIsTransitioning'
+    'body': 'mediaIsTransitioning()'
+  'mediaSpaceFree':
+    'prefix': 'mediaSpaceFree'
+    'body': 'mediaSpaceFree()'
+  'mediaSpaceOverwritable':
+    'prefix': 'mediaSpaceOverwritable'
+    'body': 'mediaSpaceOverwritable()'
+  'mediaSpaceUsed':
+    'prefix': 'mediaSpaceUsed'
+    'body': 'mediaSpaceUsed()'
+  'mediaType':
+    'prefix': 'mediaType'
+    'body': 'mediaType()'
+  'openTray':
+    'prefix': 'openTray'
+    'body': 'openTray()'
+  'releaseExclusiveAccess':
+    'prefix': 'releaseExclusiveAccess'
+    'body': 'releaseExclusiveAccess()'
+  'releaseMediaReservation':
+    'prefix': 'releaseMediaReservation'
+    'body': 'releaseMediaReservation()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'trayIsOpen':
+    'prefix': 'trayIsOpen'
+    'body': 'trayIsOpen()'
+  'writesCD':
+    'prefix': 'writesCD'
+    'body': 'writesCD()'
+  'writesDVD':
+    'prefix': 'writesDVD'
+    'body': 'writesDVD()'
+  'device':
+    'prefix': 'device'
+    'body': 'device()'
+  'DRErase.eraseForDevice:':
+    'prefix': 'eraseForDevice:'
+    'body': 'DRErase.eraseForDevice(${1:DRDevice* device})'
+  'eraseType':
+    'prefix': 'eraseType'
+    'body': 'eraseType()'
+  'initWithDevice:':
+    'prefix': 'initWithDevice:'
+    'body': 'initWithDevice(${1:DRDevice* device})'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'setEraseType:':
+    'prefix': 'setEraseType:'
+    'body': 'setEraseType(${1:NSString* type})'
+  'setProperties:':
+    'prefix': 'setProperties:'
+    'body': 'setProperties(${1:NSDictionary* properties})'
+  'start':
+    'prefix': 'start'
+    'body': 'start()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'baseName':
+    'prefix': 'baseName'
+    'body': 'baseName()'
+  'effectiveFilesystemMask':
+    'prefix': 'effectiveFilesystemMask'
+    'body': 'effectiveFilesystemMask()'
+  'explicitFilesystemMask':
+    'prefix': 'explicitFilesystemMask'
+    'body': 'explicitFilesystemMask()'
+  'isVirtual':
+    'prefix': 'isVirtual'
+    'body': 'isVirtual()'
+  'mangledNameForFilesystem:':
+    'prefix': 'mangledNameForFilesystem:'
+    'body': 'mangledNameForFilesystem(${1:NSString* filesystem})'
+  'mangledNames':
+    'prefix': 'mangledNames'
+    'body': 'mangledNames()'
+  'parent':
+    'prefix': 'parent'
+    'body': 'parent()'
+  'propertiesForFilesystem:mergeWithOtherFilesystems:':
+    'prefix': 'propertiesForFilesystem:mergeWithOtherFilesystems:'
+    'body': 'propertiesForFilesystem(${1:NSString* filesystem}, mergeWithOtherFilesystems:${2:BOOL merge})'
+  'propertyForKey:inFilesystem:mergeWithOtherFilesystems:':
+    'prefix': 'propertyForKey:inFilesystem:mergeWithOtherFilesystems:'
+    'body': 'propertyForKey(${1:NSString* key}, inFilesystem:${2:NSString* filesystem}, mergeWithOtherFilesystems:${3:BOOL merge})'
+  'setBaseName:':
+    'prefix': 'setBaseName:'
+    'body': 'setBaseName(${1:NSString* baseName})'
+  'setExplicitFilesystemMask:':
+    'prefix': 'setExplicitFilesystemMask:'
+    'body': 'setExplicitFilesystemMask(${1:DRFilesystemInclusionMask mask})'
+  'setProperties:inFilesystem:':
+    'prefix': 'setProperties:inFilesystem:'
+    'body': 'setProperties(${1:NSDictionary* properties}, inFilesystem:${2:NSString* filesystem})'
+  'setProperty:forKey:inFilesystem:':
+    'prefix': 'setProperty:forKey:inFilesystem:'
+    'body': 'setProperty(${1:id property}, forKey:${2:NSString* key}, inFilesystem:${3:NSString* filesystem})'
+  'setSpecificName:forFilesystem:':
+    'prefix': 'setSpecificName:forFilesystem:'
+    'body': 'setSpecificName(${1:NSString* name}, forFilesystem:${2:NSString* filesystem})'
+  'setSpecificNames:':
+    'prefix': 'setSpecificNames:'
+    'body': 'setSpecificNames(${1:NSDictionary* specificNames})'
+  'sourcePath':
+    'prefix': 'sourcePath'
+    'body': 'sourcePath()'
+  'specificNameForFilesystem:':
+    'prefix': 'specificNameForFilesystem:'
+    'body': 'specificNameForFilesystem(${1:NSString* filesystem})'
+  'specificNames':
+    'prefix': 'specificNames'
+    'body': 'specificNames()'
+  'DRFile.fileWithPath:':
+    'prefix': 'fileWithPath:'
+    'body': 'DRFile.fileWithPath(${1:NSString* path})'
+  'DRFile.finderAliasPointingTo:inFilesystem:':
+    'prefix': 'finderAliasPointingTo:inFilesystem:'
+    'body': 'DRFile.finderAliasPointingTo(${1:DRFSObject* original}, inFilesystem:${2:NSString* filesystem})'
+  'DRFile.hardLinkPointingTo:inFilesystem:':
+    'prefix': 'hardLinkPointingTo:inFilesystem:'
+    'body': 'DRFile.hardLinkPointingTo(${1:DRFile* original}, inFilesystem:${2:NSString* filesystem})'
+  'initWithLinkType:pointingTo:inFilesystem:':
+    'prefix': 'initWithLinkType:pointingTo:inFilesystem:'
+    'body': 'initWithLinkType(${1:NSString* linkType}, pointingTo:${2:DRFSObject* original}, inFilesystem:${3:NSString* filesystem})'
+  'initWithName:data:':
+    'prefix': 'initWithName:data:'
+    'body': 'initWithName(${1:NSString* name}, data:${2:NSData* data})'
+  'initWithName:dataProducer:':
+    'prefix': 'initWithName:dataProducer:'
+    'body': 'initWithName(${1:NSString* name}, dataProducer:${2:id producer})'
+  'initWithPath:':
+    'prefix': 'initWithPath:'
+    'body': 'initWithPath(${1:NSString* path})'
+  'DRFile.symLinkPointingTo:inFilesystem:':
+    'prefix': 'symLinkPointingTo:inFilesystem:'
+    'body': 'DRFile.symLinkPointingTo(${1:DRFSObject* original}, inFilesystem:${2:NSString* filesystem})'
+  'DRFile.virtualFileWithName:data:':
+    'prefix': 'virtualFileWithName:data:'
+    'body': 'DRFile.virtualFileWithName(${1:NSString* name}, data:${2:NSData* data})'
+  'DRFile.virtualFileWithName:dataProducer:':
+    'prefix': 'virtualFileWithName:dataProducer:'
+    'body': 'DRFile.virtualFileWithName(${1:NSString* name}, dataProducer:${2:id producer})'
+  'addChild:':
+    'prefix': 'addChild:'
+    'body': 'addChild(${1:DRFSObject* child})'
+  'children':
+    'prefix': 'children'
+    'body': 'children()'
+  'count':
+    'prefix': 'count'
+    'body': 'count()'
+  'DRFolder.folderWithPath:':
+    'prefix': 'folderWithPath:'
+    'body': 'DRFolder.folderWithPath(${1:NSString* path})'
+  'initWithName:':
+    'prefix': 'initWithName:'
+    'body': 'initWithName(${1:NSString* name})'
+  'initWithPath:':
+    'prefix': 'initWithPath:'
+    'body': 'initWithPath(${1:NSString* path})'
+  'makeVirtual':
+    'prefix': 'makeVirtual'
+    'body': 'makeVirtual()'
+  'removeChild:':
+    'prefix': 'removeChild:'
+    'body': 'removeChild(${1:DRFSObject* child})'
+  'DRFolder.virtualFolderWithName:':
+    'prefix': 'virtualFolderWithName:'
+    'body': 'DRFolder.virtualFolderWithName(${1:NSString* name})'
+  'description':
+    'prefix': 'description'
+    'body': 'description()'
+  'descriptionWithFormat:':
+    'prefix': 'descriptionWithFormat:'
+    'body': 'descriptionWithFormat(${1:NSString* format})'
+  'frames':
+    'prefix': 'frames'
+    'body': 'frames()'
+  'initWithFrames:':
+    'prefix': 'initWithFrames:'
+    'body': 'initWithFrames(${1:UInt32 frames})'
+  'initWithString:':
+    'prefix': 'initWithString:'
+    'body': 'initWithString(${1:NSString* string})'
+  'isEqualToMSF:':
+    'prefix': 'isEqualToMSF:'
+    'body': 'isEqualToMSF(${1:DRMSF* otherDRMSF})'
+  'minutes':
+    'prefix': 'minutes'
+    'body': 'minutes()'
+  'DRMSF.msf':
+    'prefix': 'msf'
+    'body': 'DRMSF.msf()'
+  'msfByAdding:':
+    'prefix': 'msfByAdding:'
+    'body': 'msfByAdding(${1:DRMSF* msf})'
+  'msfBySubtracting:':
+    'prefix': 'msfBySubtracting:'
+    'body': 'msfBySubtracting(${1:DRMSF* msf})'
+  'DRMSF.msfWithFrames:':
+    'prefix': 'msfWithFrames:'
+    'body': 'DRMSF.msfWithFrames(${1:UInt32 frames})'
+  'DRMSF.msfWithString:':
+    'prefix': 'msfWithString:'
+    'body': 'DRMSF.msfWithString(${1:NSString* string})'
+  'seconds':
+    'prefix': 'seconds'
+    'body': 'seconds()'
+  'sectors':
+    'prefix': 'sectors'
+    'body': 'sectors()'
+  'format':
+    'prefix': 'format'
+    'body': 'format()'
+  'initWithFormat:':
+    'prefix': 'initWithFormat:'
+    'body': 'initWithFormat(${1:NSString* format})'
+  'setFormat:':
+    'prefix': 'setFormat:'
+    'body': 'setFormat(${1:NSString* format})'
+  'addObserver:selector:name:object:':
+    'prefix': 'addObserver:selector:name:object:'
+    'body': 'addObserver(${1:id observer}, selector:${2:SEL aSelector}, name:${3:NSString* notificationName}, object:${4:id anObject})'
+  'DRNotificationCenter.currentRunLoopCenter':
+    'prefix': 'currentRunLoopCenter'
+    'body': 'DRNotificationCenter.currentRunLoopCenter()'
+  'removeObserver:name:object:':
+    'prefix': 'removeObserver:name:object:'
+    'body': 'removeObserver(${1:id observer}, name:${2:NSString* aName}, object:${3:id anObject})'
+  'estimateLength':
+    'prefix': 'estimateLength'
+    'body': 'estimateLength()'
+  'initWithProducer:':
+    'prefix': 'initWithProducer:'
+    'body': 'initWithProducer(${1:id producer})'
+  'length':
+    'prefix': 'length'
+    'body': 'length()'
+  'preGap':
+    'prefix': 'preGap'
+    'body': 'preGap()'
+  'properties':
+    'prefix': 'properties'
+    'body': 'properties()'
+  'setPreGap:':
+    'prefix': 'setPreGap:'
+    'body': 'setPreGap(${1:DRMSF* preGap})'
+  'setProperties:':
+    'prefix': 'setProperties:'
+    'body': 'setProperties(${1:NSDictionary* properties})'
+  'testProductionSpeedForInterval:':
+    'prefix': 'testProductionSpeedForInterval:'
+    'body': 'testProductionSpeedForInterval(${1:NSTimeInterval interval})'
+  'testProductionSpeedForLength:':
+    'prefix': 'testProductionSpeedForLength:'
+    'body': 'testProductionSpeedForLength(${1:uint32_t length})'
+  'DRTrack.trackForAudioFile:':
+    'prefix': 'trackForAudioFile:'
+    'body': 'DRTrack.trackForAudioFile(${1:NSString* path})'
+  'DRTrack.trackForAudioOfLength:producer:':
+    'prefix': 'trackForAudioOfLength:producer:'
+    'body': 'DRTrack.trackForAudioOfLength(${1:DRMSF* length}, producer:${2:id producer})'
+  'DRTrack.trackForRootFolder:':
+    'prefix': 'trackForRootFolder:'
+    'body': 'DRTrack.trackForRootFolder(${1:DRFolder* rootFolder})'
+  'calculateSizeOfFile:fork:estimating:':
+    'prefix': 'calculateSizeOfFile:fork:estimating:'
+    'body': 'calculateSizeOfFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, estimating:${3:BOOL estimate})'
+  'cleanupFileAfterBurn:':
+    'prefix': 'cleanupFileAfterBurn:'
+    'body': 'cleanupFileAfterBurn(${1:DRFile* file})'
+  'cleanupTrackAfterBurn:':
+    'prefix': 'cleanupTrackAfterBurn:'
+    'body': 'cleanupTrackAfterBurn(${1:DRTrack* track})'
+  'cleanupTrackAfterVerification:':
+    'prefix': 'cleanupTrackAfterVerification:'
+    'body': 'cleanupTrackAfterVerification(${1:DRTrack* track})'
+  'estimateLengthOfTrack:':
+    'prefix': 'estimateLengthOfTrack:'
+    'body': 'estimateLengthOfTrack(${1:DRTrack* track})'
+  'prepareFileForBurn:':
+    'prefix': 'prepareFileForBurn:'
+    'body': 'prepareFileForBurn(${1:DRFile* file})'
+  'prepareFileForVerification:':
+    'prefix': 'prepareFileForVerification:'
+    'body': 'prepareFileForVerification(${1:DRFile* file})'
+  'prepareTrack:forBurn:toMedia:':
+    'prefix': 'prepareTrack:forBurn:toMedia:'
+    'body': 'prepareTrack(${1:DRTrack* track}, forBurn:${2:DRBurn* burn}, toMedia:${3:NSDictionary* mediaInfo})'
+  'prepareTrackForVerification:':
+    'prefix': 'prepareTrackForVerification:'
+    'body': 'prepareTrackForVerification(${1:DRTrack* track})'
+  'produceDataForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'produceDataForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'produceDataForTrack(${1:DRTrack* track}, intoBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'produceFile:fork:intoBuffer:length:atAddress:blockSize:':
+    'prefix': 'produceFile:fork:intoBuffer:length:atAddress:blockSize:'
+    'body': 'produceFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, intoBuffer:${3:char* buffer}, length:${4:uint32_t bufferLength}, atAddress:${5:uint64_t address}, blockSize:${6:uint32_t blockSize})'
+  'producePreGapForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'producePreGapForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'producePreGapForTrack(${1:DRTrack* track}, intoBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'verifyDataForTrack:inBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'verifyDataForTrack:inBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'verifyDataForTrack(${1:DRTrack* track}, inBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'verifyPreGapForTrack:inBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'verifyPreGapForTrack:inBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'verifyPreGapForTrack(${1:DRTrack* track}, inBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'calculateSizeOfFile:fork:estimating:':
+    'prefix': 'calculateSizeOfFile:fork:estimating:'
+    'body': 'calculateSizeOfFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, estimating:${3:BOOL estimate})'
+  'cleanupFileAfterBurn:':
+    'prefix': 'cleanupFileAfterBurn:'
+    'body': 'cleanupFileAfterBurn(${1:DRFile* file})'
+  'prepareFileForBurn:':
+    'prefix': 'prepareFileForBurn:'
+    'body': 'prepareFileForBurn(${1:DRFile* file})'
+  'prepareFileForVerification:':
+    'prefix': 'prepareFileForVerification:'
+    'body': 'prepareFileForVerification(${1:DRFile* file})'
+  'produceFile:fork:intoBuffer:length:atAddress:blockSize:':
+    'prefix': 'produceFile:fork:intoBuffer:length:atAddress:blockSize:'
+    'body': 'produceFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, intoBuffer:${3:char* buffer}, length:${4:uint32_t bufferLength}, atAddress:${5:uint64_t address}, blockSize:${6:uint32_t blockSize})'
+  'cleanupTrackAfterBurn:':
+    'prefix': 'cleanupTrackAfterBurn:'
+    'body': 'cleanupTrackAfterBurn(${1:DRTrack* track})'
+  'cleanupTrackAfterVerification:':
+    'prefix': 'cleanupTrackAfterVerification:'
+    'body': 'cleanupTrackAfterVerification(${1:DRTrack* track})'
+  'estimateLengthOfTrack:':
+    'prefix': 'estimateLengthOfTrack:'
+    'body': 'estimateLengthOfTrack(${1:DRTrack* track})'
+  'prepareTrack:forBurn:toMedia:':
+    'prefix': 'prepareTrack:forBurn:toMedia:'
+    'body': 'prepareTrack(${1:DRTrack* track}, forBurn:${2:DRBurn* burn}, toMedia:${3:NSDictionary* mediaInfo})'
+  'prepareTrackForVerification:':
+    'prefix': 'prepareTrackForVerification:'
+    'body': 'prepareTrackForVerification(${1:DRTrack* track})'
+  'produceDataForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'produceDataForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'produceDataForTrack(${1:DRTrack* track}, intoBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'producePreGapForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'producePreGapForTrack:intoBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'producePreGapForTrack(${1:DRTrack* track}, intoBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'verifyDataForTrack:inBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'verifyDataForTrack:inBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'verifyDataForTrack(${1:DRTrack* track}, inBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'verifyPreGapForTrack:inBuffer:length:atAddress:blockSize:ioFlags:':
+    'prefix': 'verifyPreGapForTrack:inBuffer:length:atAddress:blockSize:ioFlags:'
+    'body': 'verifyPreGapForTrack(${1:DRTrack* track}, inBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'

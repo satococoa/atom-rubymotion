@@ -1,0 +1,184 @@
+'.source.rubymotion':
+  'kIOSurfaceAllocSize (CFStringRef)':
+    'prefix': 'kIOSurfaceAllocSize'
+    'body': 'KIOSurfaceAllocSize'
+  'kIOSurfaceBytesPerElement (CFStringRef)':
+    'prefix': 'kIOSurfaceBytesPerElement'
+    'body': 'KIOSurfaceBytesPerElement'
+  'kIOSurfaceBytesPerRow (CFStringRef)':
+    'prefix': 'kIOSurfaceBytesPerRow'
+    'body': 'KIOSurfaceBytesPerRow'
+  'kIOSurfaceCacheMode (CFStringRef)':
+    'prefix': 'kIOSurfaceCacheMode'
+    'body': 'KIOSurfaceCacheMode'
+  'kIOSurfaceElementHeight (CFStringRef)':
+    'prefix': 'kIOSurfaceElementHeight'
+    'body': 'KIOSurfaceElementHeight'
+  'kIOSurfaceElementWidth (CFStringRef)':
+    'prefix': 'kIOSurfaceElementWidth'
+    'body': 'KIOSurfaceElementWidth'
+  'kIOSurfaceHeight (CFStringRef)':
+    'prefix': 'kIOSurfaceHeight'
+    'body': 'KIOSurfaceHeight'
+  'kIOSurfaceIsGlobal (CFStringRef)':
+    'prefix': 'kIOSurfaceIsGlobal'
+    'body': 'KIOSurfaceIsGlobal'
+  'kIOSurfaceOffset (CFStringRef)':
+    'prefix': 'kIOSurfaceOffset'
+    'body': 'KIOSurfaceOffset'
+  'kIOSurfacePixelFormat (CFStringRef)':
+    'prefix': 'kIOSurfacePixelFormat'
+    'body': 'KIOSurfacePixelFormat'
+  'kIOSurfacePlaneBase (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneBase'
+    'body': 'KIOSurfacePlaneBase'
+  'kIOSurfacePlaneBytesPerElement (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneBytesPerElement'
+    'body': 'KIOSurfacePlaneBytesPerElement'
+  'kIOSurfacePlaneBytesPerRow (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneBytesPerRow'
+    'body': 'KIOSurfacePlaneBytesPerRow'
+  'kIOSurfacePlaneElementHeight (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneElementHeight'
+    'body': 'KIOSurfacePlaneElementHeight'
+  'kIOSurfacePlaneElementWidth (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneElementWidth'
+    'body': 'KIOSurfacePlaneElementWidth'
+  'kIOSurfacePlaneHeight (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneHeight'
+    'body': 'KIOSurfacePlaneHeight'
+  'kIOSurfacePlaneInfo (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneInfo'
+    'body': 'KIOSurfacePlaneInfo'
+  'kIOSurfacePlaneOffset (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneOffset'
+    'body': 'KIOSurfacePlaneOffset'
+  'kIOSurfacePlaneSize (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneSize'
+    'body': 'KIOSurfacePlaneSize'
+  'kIOSurfacePlaneWidth (CFStringRef)':
+    'prefix': 'kIOSurfacePlaneWidth'
+    'body': 'KIOSurfacePlaneWidth'
+  'kIOSurfaceWidth (CFStringRef)':
+    'prefix': 'kIOSurfaceWidth'
+    'body': 'KIOSurfaceWidth'
+  'kIOSurfaceLockAvoidSync (2)':
+    'prefix': 'kIOSurfaceLockAvoidSync'
+    'body': 'KIOSurfaceLockAvoidSync'
+  'kIOSurfaceLockReadOnly (1)':
+    'prefix': 'kIOSurfaceLockReadOnly'
+    'body': 'KIOSurfaceLockReadOnly'
+  'IOSurfaceAlignProperty':
+    'prefix': 'IOSurfaceAlignProperty'
+    'body': 'IOSurfaceAlignProperty(${1:CFStringRef property}, ${2:size_t value})'
+  'IOSurfaceCopyValue':
+    'prefix': 'IOSurfaceCopyValue'
+    'body': 'IOSurfaceCopyValue(${1:IOSurfaceRef buffer}, ${2:CFStringRef key})'
+  'IOSurfaceCreate':
+    'prefix': 'IOSurfaceCreate'
+    'body': 'IOSurfaceCreate(${1:CFDictionaryRef properties})'
+  'IOSurfaceCreateMachPort':
+    'prefix': 'IOSurfaceCreateMachPort'
+    'body': 'IOSurfaceCreateMachPort(${1:IOSurfaceRef buffer})'
+  'IOSurfaceCreateXPCObject':
+    'prefix': 'IOSurfaceCreateXPCObject'
+    'body': 'IOSurfaceCreateXPCObject(${1:IOSurfaceRef aSurface})'
+  'IOSurfaceDecrementUseCount':
+    'prefix': 'IOSurfaceDecrementUseCount'
+    'body': 'IOSurfaceDecrementUseCount(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetAllocSize':
+    'prefix': 'IOSurfaceGetAllocSize'
+    'body': 'IOSurfaceGetAllocSize(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetBaseAddress':
+    'prefix': 'IOSurfaceGetBaseAddress'
+    'body': 'IOSurfaceGetBaseAddress(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetBaseAddressOfPlane':
+    'prefix': 'IOSurfaceGetBaseAddressOfPlane'
+    'body': 'IOSurfaceGetBaseAddressOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceGetBytesPerElement':
+    'prefix': 'IOSurfaceGetBytesPerElement'
+    'body': 'IOSurfaceGetBytesPerElement(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetBytesPerElementOfPlane':
+    'prefix': 'IOSurfaceGetBytesPerElementOfPlane'
+    'body': 'IOSurfaceGetBytesPerElementOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceGetBytesPerRow':
+    'prefix': 'IOSurfaceGetBytesPerRow'
+    'body': 'IOSurfaceGetBytesPerRow(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetBytesPerRowOfPlane':
+    'prefix': 'IOSurfaceGetBytesPerRowOfPlane'
+    'body': 'IOSurfaceGetBytesPerRowOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceGetElementHeight':
+    'prefix': 'IOSurfaceGetElementHeight'
+    'body': 'IOSurfaceGetElementHeight(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetElementHeightOfPlane':
+    'prefix': 'IOSurfaceGetElementHeightOfPlane'
+    'body': 'IOSurfaceGetElementHeightOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceGetElementWidth':
+    'prefix': 'IOSurfaceGetElementWidth'
+    'body': 'IOSurfaceGetElementWidth(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetElementWidthOfPlane':
+    'prefix': 'IOSurfaceGetElementWidthOfPlane'
+    'body': 'IOSurfaceGetElementWidthOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceGetHeight':
+    'prefix': 'IOSurfaceGetHeight'
+    'body': 'IOSurfaceGetHeight(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetHeightOfPlane':
+    'prefix': 'IOSurfaceGetHeightOfPlane'
+    'body': 'IOSurfaceGetHeightOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceGetID':
+    'prefix': 'IOSurfaceGetID'
+    'body': 'IOSurfaceGetID(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetPixelFormat':
+    'prefix': 'IOSurfaceGetPixelFormat'
+    'body': 'IOSurfaceGetPixelFormat(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetPlaneCount':
+    'prefix': 'IOSurfaceGetPlaneCount'
+    'body': 'IOSurfaceGetPlaneCount(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetPropertyAlignment':
+    'prefix': 'IOSurfaceGetPropertyAlignment'
+    'body': 'IOSurfaceGetPropertyAlignment(${1:CFStringRef property})'
+  'IOSurfaceGetPropertyMaximum':
+    'prefix': 'IOSurfaceGetPropertyMaximum'
+    'body': 'IOSurfaceGetPropertyMaximum(${1:CFStringRef property})'
+  'IOSurfaceGetSeed':
+    'prefix': 'IOSurfaceGetSeed'
+    'body': 'IOSurfaceGetSeed(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetTypeID':
+    'prefix': 'IOSurfaceGetTypeID'
+    'body': 'IOSurfaceGetTypeID()'
+  'IOSurfaceGetUseCount':
+    'prefix': 'IOSurfaceGetUseCount'
+    'body': 'IOSurfaceGetUseCount(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetWidth':
+    'prefix': 'IOSurfaceGetWidth'
+    'body': 'IOSurfaceGetWidth(${1:IOSurfaceRef buffer})'
+  'IOSurfaceGetWidthOfPlane':
+    'prefix': 'IOSurfaceGetWidthOfPlane'
+    'body': 'IOSurfaceGetWidthOfPlane(${1:IOSurfaceRef buffer}, ${2:size_t planeIndex})'
+  'IOSurfaceIncrementUseCount':
+    'prefix': 'IOSurfaceIncrementUseCount'
+    'body': 'IOSurfaceIncrementUseCount(${1:IOSurfaceRef buffer})'
+  'IOSurfaceIsInUse':
+    'prefix': 'IOSurfaceIsInUse'
+    'body': 'IOSurfaceIsInUse(${1:IOSurfaceRef buffer})'
+  'IOSurfaceLock':
+    'prefix': 'IOSurfaceLock'
+    'body': 'IOSurfaceLock(${1:IOSurfaceRef buffer}, ${2:uint32_t options}, ${3:uint32_t* seed})'
+  'IOSurfaceLookup':
+    'prefix': 'IOSurfaceLookup'
+    'body': 'IOSurfaceLookup(${1:IOSurfaceID csid})'
+  'IOSurfaceLookupFromMachPort':
+    'prefix': 'IOSurfaceLookupFromMachPort'
+    'body': 'IOSurfaceLookupFromMachPort(${1:mach_port_t port})'
+  'IOSurfaceLookupFromXPCObject':
+    'prefix': 'IOSurfaceLookupFromXPCObject'
+    'body': 'IOSurfaceLookupFromXPCObject(${1:xpc_object_t xobj})'
+  'IOSurfaceRemoveValue':
+    'prefix': 'IOSurfaceRemoveValue'
+    'body': 'IOSurfaceRemoveValue(${1:IOSurfaceRef buffer}, ${2:CFStringRef key})'
+  'IOSurfaceSetValue':
+    'prefix': 'IOSurfaceSetValue'
+    'body': 'IOSurfaceSetValue(${1:IOSurfaceRef buffer}, ${2:CFStringRef key}, ${3:CFTypeRef value})'
+  'IOSurfaceUnlock':
+    'prefix': 'IOSurfaceUnlock'
+    'body': 'IOSurfaceUnlock(${1:IOSurfaceRef buffer}, ${2:uint32_t options}, ${3:uint32_t* seed})'

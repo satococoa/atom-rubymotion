@@ -1,0 +1,226 @@
+'.source.rubymotion':
+  'ICLoggingEnabled (int)':
+    'prefix': 'ICLoggingEnabled'
+    'body': 'ICLoggingEnabled'
+  'ICLoggingLevelBasicInfo (int)':
+    'prefix': 'ICLoggingLevelBasicInfo'
+    'body': 'ICLoggingLevelBasicInfo'
+  'ICLoggingLevelError (int)':
+    'prefix': 'ICLoggingLevelError'
+    'body': 'ICLoggingLevelError'
+  'ICLoggingLevelMask (int)':
+    'prefix': 'ICLoggingLevelMask'
+    'body': 'ICLoggingLevelMask'
+  'ICLoggingLevelTimingInfo (int)':
+    'prefix': 'ICLoggingLevelTimingInfo'
+    'body': 'ICLoggingLevelTimingInfo'
+  'ICLoggingLevelVerboseInfo (int)':
+    'prefix': 'ICLoggingLevelVerboseInfo'
+    'body': 'ICLoggingLevelVerboseInfo'
+  'ICLoggingLevelWarning (int)':
+    'prefix': 'ICLoggingLevelWarning'
+    'body': 'ICLoggingLevelWarning'
+  'gICDCallbackFunctions (ICD_callback_functions)':
+    'prefix': 'gICDCallbackFunctions'
+    'body': 'gICDCallbackFunctions'
+  'gICDScannerCallbackFunctions (ICD_scanner_callback_functions)':
+    'prefix': 'gICDScannerCallbackFunctions'
+    'body': 'gICDScannerCallbackFunctions'
+  'kICUTTypeRaw (CFStringRef)':
+    'prefix': 'kICUTTypeRaw'
+    'body': 'KICUTTypeRaw'
+  'addedAfterCCCMask (32)':
+    'prefix': 'addedAfterCCCMask'
+    'body': 'addedAfterCCCMask'
+  'fileInTempCacheMask (16)':
+    'prefix': 'fileInTempCacheMask'
+    'body': 'fileInTempCacheMask'
+  'fileLockedMask (4)':
+    'prefix': 'fileLockedMask'
+    'body': 'fileLockedMask'
+  'hasChildrenMask (1)':
+    'prefix': 'hasChildrenMask'
+    'body': 'hasChildrenMask'
+  'hasThumbnailMask (2)':
+    'prefix': 'hasThumbnailMask'
+    'body': 'hasThumbnailMask'
+  'kICD_FileData (1718185061)':
+    'prefix': 'kICD_FileData'
+    'body': 'KICD_FileData'
+  'kICD_MetaData (1835365473)':
+    'prefix': 'kICD_MetaData'
+    'body': 'KICD_MetaData'
+  'kICD_ThumbnailData (1953002861)':
+    'prefix': 'kICD_ThumbnailData'
+    'body': 'KICD_ThumbnailData'
+  'kICD_ThumbnailDataFormatJPEG (1953132647)':
+    'prefix': 'kICD_ThumbnailDataFormatJPEG'
+    'body': 'KICD_ThumbnailDataFormatJPEG'
+  'kICD_ThumbnailDataFormatPNG (1953525351)':
+    'prefix': 'kICD_ThumbnailDataFormatPNG'
+    'body': 'KICD_ThumbnailDataFormatPNG'
+  'kICD_ThumbnailDataFormatTIFF (1953786214)':
+    'prefix': 'kICD_ThumbnailDataFormatTIFF'
+    'body': 'KICD_ThumbnailDataFormatTIFF'
+  'kICS_FileData (1718185061)':
+    'prefix': 'kICS_FileData'
+    'body': 'KICS_FileData'
+  'kICS_MetaData (1835365473)':
+    'prefix': 'kICS_MetaData'
+    'body': 'KICS_MetaData'
+  'kICS_ThumbnailData (1953002861)':
+    'prefix': 'kICS_ThumbnailData'
+    'body': 'KICS_ThumbnailData'
+  'kICS_ThumbnailDataFormatJPEG (1953132647)':
+    'prefix': 'kICS_ThumbnailDataFormatJPEG'
+    'body': 'KICS_ThumbnailDataFormatJPEG'
+  'kICS_ThumbnailDataFormatPNG (1953525351)':
+    'prefix': 'kICS_ThumbnailDataFormatPNG'
+    'body': 'KICS_ThumbnailDataFormatPNG'
+  'kICS_ThumbnailDataFormatTIFF (1953786214)':
+    'prefix': 'kICS_ThumbnailDataFormatTIFF'
+    'body': 'KICS_ThumbnailDataFormatTIFF'
+  'largeFileSizeMask (256)':
+    'prefix': 'largeFileSizeMask'
+    'body': 'largeFileSizeMask'
+  'rawImageFormatMask (8)':
+    'prefix': 'rawImageFormatMask'
+    'body': 'rawImageFormatMask'
+  'ICDAddBandInfoToNotificationDictionary':
+    'prefix': 'ICDAddBandInfoToNotificationDictionary'
+    'body': 'ICDAddBandInfoToNotificationDictionary(${1:CFMutableDictionaryRef dict}, ${2:UInt32 width}, ${3:UInt32 height}, ${4:UInt32 bitsPerPixel}, ${5:UInt32 bitsPerComponent}, ${6:UInt32 numComponents}, ${7:UInt32 endianness}, ${8:UInt32 pixelDataType}, ${9:UInt32 bytesPerRow}, ${10:UInt32 dataStartRow}, ${11:UInt32 dataNumberOfRows}, ${12:UInt32 dataSize}, ${13:void* dataBuffer})'
+  'ICDAddImageInfoToNotificationDictionary':
+    'prefix': 'ICDAddImageInfoToNotificationDictionary'
+    'body': 'ICDAddImageInfoToNotificationDictionary(${1:CFMutableDictionaryRef dict}, ${2:UInt32 width}, ${3:UInt32 height}, ${4:UInt32 bytesPerRow}, ${5:UInt32 dataStartRow}, ${6:UInt32 dataNumberOfRows}, ${7:UInt32 dataSize}, ${8:void* dataBuffer})'
+  'ICDConnectBluetoothDevice':
+    'prefix': 'ICDConnectBluetoothDevice'
+    'body': 'ICDConnectBluetoothDevice(${1:CFDictionaryRef params})'
+  'ICDConnectFWDevice':
+    'prefix': 'ICDConnectFWDevice'
+    'body': 'ICDConnectFWDevice(${1:UInt64 guid})'
+  'ICDConnectFWDeviceWithIORegPath':
+    'prefix': 'ICDConnectFWDeviceWithIORegPath'
+    'body': 'ICDConnectFWDeviceWithIORegPath(${1:UInt64 guid}, ${2:char* ioregPath})'
+  'ICDConnectTCPIPDevice':
+    'prefix': 'ICDConnectTCPIPDevice'
+    'body': 'ICDConnectTCPIPDevice(${1:CFDictionaryRef params})'
+  'ICDConnectUSBDevice':
+    'prefix': 'ICDConnectUSBDevice'
+    'body': 'ICDConnectUSBDevice(${1:UInt32 locationID})'
+  'ICDConnectUSBDeviceWithIORegPath':
+    'prefix': 'ICDConnectUSBDeviceWithIORegPath'
+    'body': 'ICDConnectUSBDeviceWithIORegPath(${1:UInt32 locationID}, ${2:char* ioregPath})'
+  'ICDCopyDeviceInfoDictionary':
+    'prefix': 'ICDCopyDeviceInfoDictionary'
+    'body': 'ICDCopyDeviceInfoDictionary(${1:char* deviceName}, ${2:CFDictionaryRef* theDict})'
+  'ICDCreateColorSpace':
+    'prefix': 'ICDCreateColorSpace'
+    'body': 'ICDCreateColorSpace(${1:UInt32 bitsPerPixel}, ${2:UInt32 samplesPerPixel}, ${3:ICAObject icaObject}, ${4:CFStringRef colorSyncMode}, ${5:CFDataRef abstractProfile}, ${6:char* tmpProfilePath})'
+  'ICDCreateEventDataCookie':
+    'prefix': 'ICDCreateEventDataCookie'
+    'body': 'ICDCreateEventDataCookie(${1:ICAObject object}, ${2:ICAEventDataCookie* cookie})'
+  'ICDCreateICAThumbnailFromICNS':
+    'prefix': 'ICDCreateICAThumbnailFromICNS'
+    'body': 'ICDCreateICAThumbnailFromICNS(${1:char* fileName}, ${2:void* thumbnail})'
+  'ICDCreateICAThumbnailFromIconRef':
+    'prefix': 'ICDCreateICAThumbnailFromIconRef'
+    'body': 'ICDCreateICAThumbnailFromIconRef(${1:IconRef iconRef}, ${2:void* thumbnail})'
+  'ICDDisconnectBluetoothDevice':
+    'prefix': 'ICDDisconnectBluetoothDevice'
+    'body': 'ICDDisconnectBluetoothDevice(${1:CFDictionaryRef params})'
+  'ICDDisconnectFWDevice':
+    'prefix': 'ICDDisconnectFWDevice'
+    'body': 'ICDDisconnectFWDevice(${1:UInt64 guid})'
+  'ICDDisconnectFWDeviceWithIORegPath':
+    'prefix': 'ICDDisconnectFWDeviceWithIORegPath'
+    'body': 'ICDDisconnectFWDeviceWithIORegPath(${1:UInt64 guid}, ${2:char* ioregPath})'
+  'ICDDisconnectTCPIPDevice':
+    'prefix': 'ICDDisconnectTCPIPDevice'
+    'body': 'ICDDisconnectTCPIPDevice(${1:CFDictionaryRef params})'
+  'ICDDisconnectUSBDevice':
+    'prefix': 'ICDDisconnectUSBDevice'
+    'body': 'ICDDisconnectUSBDevice(${1:UInt32 locationID})'
+  'ICDDisconnectUSBDeviceWithIORegPath':
+    'prefix': 'ICDDisconnectUSBDeviceWithIORegPath'
+    'body': 'ICDDisconnectUSBDeviceWithIORegPath(${1:UInt32 locationID}, ${2:char* ioregPath})'
+  'ICDGetStandardPropertyData':
+    'prefix': 'ICDGetStandardPropertyData'
+    'body': 'ICDGetStandardPropertyData(${1:ObjectInfo* objectInfo}, ${2:void* pb})'
+  'ICDInitiateNotificationCallback':
+    'prefix': 'ICDInitiateNotificationCallback'
+    'body': 'ICDInitiateNotificationCallback(${1:void* pb})'
+  'ICDNewObjectCreated':
+    'prefix': 'ICDNewObjectCreated'
+    'body': 'ICDNewObjectCreated(${1:ObjectInfo* parentInfo}, ${2:ObjectInfo* objectInfo}, ${3:ICDNewObjectCreatedCompletion completion})'
+  'ICDNewObjectInfoCreated':
+    'prefix': 'ICDNewObjectInfoCreated'
+    'body': 'ICDNewObjectInfoCreated(${1:ObjectInfo* parentInfo}, ${2:UInt32 index}, ${3:ICAObject* newICAObject})'
+  'ICDScannerConnectBluetoothDevice':
+    'prefix': 'ICDScannerConnectBluetoothDevice'
+    'body': 'ICDScannerConnectBluetoothDevice(${1:CFDictionaryRef params})'
+  'ICDScannerConnectFWDevice':
+    'prefix': 'ICDScannerConnectFWDevice'
+    'body': 'ICDScannerConnectFWDevice(${1:UInt64 guid})'
+  'ICDScannerConnectFWDeviceWithIORegPath':
+    'prefix': 'ICDScannerConnectFWDeviceWithIORegPath'
+    'body': 'ICDScannerConnectFWDeviceWithIORegPath(${1:UInt64 guid}, ${2:char* ioregPath})'
+  'ICDScannerConnectTCPIPDevice':
+    'prefix': 'ICDScannerConnectTCPIPDevice'
+    'body': 'ICDScannerConnectTCPIPDevice(${1:CFDictionaryRef params})'
+  'ICDScannerConnectUSBDevice':
+    'prefix': 'ICDScannerConnectUSBDevice'
+    'body': 'ICDScannerConnectUSBDevice(${1:UInt32 locationID})'
+  'ICDScannerConnectUSBDeviceWithIORegPath':
+    'prefix': 'ICDScannerConnectUSBDeviceWithIORegPath'
+    'body': 'ICDScannerConnectUSBDeviceWithIORegPath(${1:UInt32 locationID}, ${2:char* ioregPath})'
+  'ICDScannerCopyDeviceInfoDictionary':
+    'prefix': 'ICDScannerCopyDeviceInfoDictionary'
+    'body': 'ICDScannerCopyDeviceInfoDictionary(${1:char* deviceName}, ${2:CFDictionaryRef* theDict})'
+  'ICDScannerCreateEventDataCookie':
+    'prefix': 'ICDScannerCreateEventDataCookie'
+    'body': 'ICDScannerCreateEventDataCookie(${1:ICAObject object}, ${2:ICAEventDataCookie* cookie})'
+  'ICDScannerCreateICAThumbnailFromICNS':
+    'prefix': 'ICDScannerCreateICAThumbnailFromICNS'
+    'body': 'ICDScannerCreateICAThumbnailFromICNS(${1:char* fileName}, ${2:void* thumbnail})'
+  'ICDScannerDisconnectBluetoothDevice':
+    'prefix': 'ICDScannerDisconnectBluetoothDevice'
+    'body': 'ICDScannerDisconnectBluetoothDevice(${1:CFDictionaryRef params})'
+  'ICDScannerDisconnectFWDevice':
+    'prefix': 'ICDScannerDisconnectFWDevice'
+    'body': 'ICDScannerDisconnectFWDevice(${1:UInt64 guid})'
+  'ICDScannerDisconnectFWDeviceWithIORegPath':
+    'prefix': 'ICDScannerDisconnectFWDeviceWithIORegPath'
+    'body': 'ICDScannerDisconnectFWDeviceWithIORegPath(${1:UInt64 guid}, ${2:char* ioregPath})'
+  'ICDScannerDisconnectTCPIPDevice':
+    'prefix': 'ICDScannerDisconnectTCPIPDevice'
+    'body': 'ICDScannerDisconnectTCPIPDevice(${1:CFDictionaryRef params})'
+  'ICDScannerDisconnectUSBDevice':
+    'prefix': 'ICDScannerDisconnectUSBDevice'
+    'body': 'ICDScannerDisconnectUSBDevice(${1:UInt32 locationID})'
+  'ICDScannerDisconnectUSBDeviceWithIORegPath':
+    'prefix': 'ICDScannerDisconnectUSBDeviceWithIORegPath'
+    'body': 'ICDScannerDisconnectUSBDeviceWithIORegPath(${1:UInt32 locationID}, ${2:char* ioregPath})'
+  'ICDScannerGetStandardPropertyData':
+    'prefix': 'ICDScannerGetStandardPropertyData'
+    'body': 'ICDScannerGetStandardPropertyData(${1:ScannerObjectInfo* objectInfo}, ${2:void* pb})'
+  'ICDScannerInitiateNotificationCallback':
+    'prefix': 'ICDScannerInitiateNotificationCallback'
+    'body': 'ICDScannerInitiateNotificationCallback(${1:void* pb})'
+  'ICDScannerNewObjectInfoCreated':
+    'prefix': 'ICDScannerNewObjectInfoCreated'
+    'body': 'ICDScannerNewObjectInfoCreated(${1:ScannerObjectInfo* parentInfo}, ${2:UInt32 index}, ${3:ICAObject* newICAObject})'
+  'ICDSendNotification':
+    'prefix': 'ICDSendNotification'
+    'body': 'ICDSendNotification(${1:ICASendNotificationPB* pb})'
+  'ICDSendNotificationAndWaitForReply':
+    'prefix': 'ICDSendNotificationAndWaitForReply'
+    'body': 'ICDSendNotificationAndWaitForReply(${1:ICASendNotificationPB* pb})'
+  'ICDStatusChanged':
+    'prefix': 'ICDStatusChanged'
+    'body': 'ICDStatusChanged(${1:ICAObject object}, ${2:OSType message})'
+  'ICD_ScannerMain':
+    'prefix': 'ICD_ScannerMain'
+    'body': 'ICD_ScannerMain(${1:int argc}, ${2:char** argv})'
+  'ICD_main':
+    'prefix': 'ICD_main'
+    'body': 'ICD_main(${1:int argc}, ${2:char** argv})'

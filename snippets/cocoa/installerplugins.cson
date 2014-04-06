@@ -1,0 +1,145 @@
+'.source.rubymotion':
+  'InstallerState_Choice_CustomLocation (NSString*)':
+    'prefix': 'InstallerState_Choice_CustomLocation'
+    'body': 'InstallerState_Choice_CustomLocation'
+  'InstallerState_Choice_Identifier (NSString*)':
+    'prefix': 'InstallerState_Choice_Identifier'
+    'body': 'InstallerState_Choice_Identifier'
+  'InstallerState_Choice_Installed (NSString*)':
+    'prefix': 'InstallerState_Choice_Installed'
+    'body': 'InstallerState_Choice_Installed'
+  'InstallerDirectionBackward (1)':
+    'prefix': 'InstallerDirectionBackward'
+    'body': 'InstallerDirectionBackward'
+  'InstallerDirectionForward (0)':
+    'prefix': 'InstallerDirectionForward'
+    'body': 'InstallerDirectionForward'
+  'InstallerDirectionUndefined (2)':
+    'prefix': 'InstallerDirectionUndefined'
+    'body': 'InstallerDirectionUndefined'
+  'contentView':
+    'prefix': 'contentView'
+    'body': 'contentView()'
+  'didEnterPane:':
+    'prefix': 'didEnterPane:'
+    'body': 'didEnterPane(${1:InstallerSectionDirection dir})'
+  'didExitPane:':
+    'prefix': 'didExitPane:'
+    'body': 'didExitPane(${1:InstallerSectionDirection dir})'
+  'firstKeyView':
+    'prefix': 'firstKeyView'
+    'body': 'firstKeyView()'
+  'gotoNextPane':
+    'prefix': 'gotoNextPane'
+    'body': 'gotoNextPane()'
+  'gotoPreviousPane':
+    'prefix': 'gotoPreviousPane'
+    'body': 'gotoPreviousPane()'
+  'initWithSection:':
+    'prefix': 'initWithSection:'
+    'body': 'initWithSection(${1:id parent})'
+  'initialKeyView':
+    'prefix': 'initialKeyView'
+    'body': 'initialKeyView()'
+  'lastKeyView':
+    'prefix': 'lastKeyView'
+    'body': 'lastKeyView()'
+  'nextEnabled':
+    'prefix': 'nextEnabled'
+    'body': 'nextEnabled()'
+  'nextPane':
+    'prefix': 'nextPane'
+    'body': 'nextPane()'
+  'previousEnabled':
+    'prefix': 'previousEnabled'
+    'body': 'previousEnabled()'
+  'section':
+    'prefix': 'section'
+    'body': 'section()'
+  'setContentView:':
+    'prefix': 'setContentView:'
+    'body': 'setContentView(${1:NSView* contentView})'
+  'setFirstKeyView:':
+    'prefix': 'setFirstKeyView:'
+    'body': 'setFirstKeyView(${1:NSView* firstKeyView})'
+  'setInitialKeyView:':
+    'prefix': 'setInitialKeyView:'
+    'body': 'setInitialKeyView(${1:NSView* initialKeyView})'
+  'setLastKeyView:':
+    'prefix': 'setLastKeyView:'
+    'body': 'setLastKeyView(${1:NSView* lastKeyView})'
+  'setNextEnabled:':
+    'prefix': 'setNextEnabled:'
+    'body': 'setNextEnabled(${1:BOOL enabled})'
+  'setNextPane:':
+    'prefix': 'setNextPane:'
+    'body': 'setNextPane(${1:InstallerPane* nextPane})'
+  'setPreviousEnabled:':
+    'prefix': 'setPreviousEnabled:'
+    'body': 'setPreviousEnabled(${1:BOOL enabled})'
+  'shouldExitPane:':
+    'prefix': 'shouldExitPane:'
+    'body': 'shouldExitPane(${1:InstallerSectionDirection dir})'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'willEnterPane:':
+    'prefix': 'willEnterPane:'
+    'body': 'willEnterPane(${1:InstallerSectionDirection dir})'
+  'willExitPane:':
+    'prefix': 'willExitPane:'
+    'body': 'willExitPane(${1:InstallerSectionDirection dir})'
+  'activePane':
+    'prefix': 'activePane'
+    'body': 'activePane()'
+  'bundle':
+    'prefix': 'bundle'
+    'body': 'bundle()'
+  'didLoadMainNib':
+    'prefix': 'didLoadMainNib'
+    'body': 'didLoadMainNib()'
+  'firstPane':
+    'prefix': 'firstPane'
+    'body': 'firstPane()'
+  'gotoPane:':
+    'prefix': 'gotoPane:'
+    'body': 'gotoPane(${1:InstallerPane* pane})'
+  'installerState':
+    'prefix': 'installerState'
+    'body': 'installerState()'
+  'sharedDictionary':
+    'prefix': 'sharedDictionary'
+    'body': 'sharedDictionary()'
+  'shouldLoad':
+    'prefix': 'shouldLoad'
+    'body': 'shouldLoad()'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'willLoadMainNib':
+    'prefix': 'willLoadMainNib'
+    'body': 'willLoadMainNib()'
+  'choiceDictionaries':
+    'prefix': 'choiceDictionaries'
+    'body': 'choiceDictionaries()'
+  'choiceDictionaryForIdentifier:':
+    'prefix': 'choiceDictionaryForIdentifier:'
+    'body': 'choiceDictionaryForIdentifier(${1:NSString* choiceIdentifier})'
+  'installStarted':
+    'prefix': 'installStarted'
+    'body': 'installStarted()'
+  'installSucceeded':
+    'prefix': 'installSucceeded'
+    'body': 'installSucceeded()'
+  'licenseAgreed':
+    'prefix': 'licenseAgreed'
+    'body': 'licenseAgreed()'
+  'licenseAgreedLanguage':
+    'prefix': 'licenseAgreedLanguage'
+    'body': 'licenseAgreedLanguage()'
+  'targetPath':
+    'prefix': 'targetPath'
+    'body': 'targetPath()'
+  'targetVolumePath':
+    'prefix': 'targetVolumePath'
+    'body': 'targetVolumePath()'

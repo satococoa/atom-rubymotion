@@ -1,0 +1,58 @@
+'.source.rubymotion':
+  'SLServiceTypeFacebook ()':
+    'prefix': 'SLServiceTypeFacebook'
+    'body': 'SLServiceTypeFacebook'
+  'SLServiceTypeLinkedIn ()':
+    'prefix': 'SLServiceTypeLinkedIn'
+    'body': 'SLServiceTypeLinkedIn'
+  'SLServiceTypeSinaWeibo ()':
+    'prefix': 'SLServiceTypeSinaWeibo'
+    'body': 'SLServiceTypeSinaWeibo'
+  'SLServiceTypeTencentWeibo ()':
+    'prefix': 'SLServiceTypeTencentWeibo'
+    'body': 'SLServiceTypeTencentWeibo'
+  'SLServiceTypeTwitter ()':
+    'prefix': 'SLServiceTypeTwitter'
+    'body': 'SLServiceTypeTwitter'
+  'SLRequestMethodDELETE ()':
+    'prefix': 'SLRequestMethodDELETE'
+    'body': 'SLRequestMethodDELETE'
+  'SLRequestMethodGET ()':
+    'prefix': 'SLRequestMethodGET'
+    'body': 'SLRequestMethodGET'
+  'SLRequestMethodPOST ()':
+    'prefix': 'SLRequestMethodPOST'
+    'body': 'SLRequestMethodPOST'
+  'SLRequestMethodPUT ()':
+    'prefix': 'SLRequestMethodPUT'
+    'body': 'SLRequestMethodPUT'
+  'URL':
+    'prefix': 'URL'
+    'body': 'URL()'
+  'account':
+    'prefix': 'account'
+    'body': 'account()'
+  'addMultipartData:withName:type:':
+    'prefix': 'addMultipartData:withName:type:'
+    'body': 'addMultipartData(${1: data}, withName:${2: name}, type:${3: type})'
+  'addMultipartData:withName:type:filename:':
+    'prefix': 'addMultipartData:withName:type:filename:'
+    'body': 'addMultipartData(${1: data}, withName:${2: name}, type:${3: type}, filename:${4: filename})'
+  'parameters':
+    'prefix': 'parameters'
+    'body': 'parameters()'
+  'performRequestWithHandler:':
+    'prefix': 'performRequestWithHandler:'
+    'body': 'performRequestWithHandler(${1: handler})'
+  'preparedURLRequest':
+    'prefix': 'preparedURLRequest'
+    'body': 'preparedURLRequest()'
+  'SLRequest.requestForServiceType:requestMethod:URL:parameters:':
+    'prefix': 'requestForServiceType:requestMethod:URL:parameters:'
+    'body': 'SLRequest.requestForServiceType(${1: serviceType}, requestMethod:${2: requestMethod}, URL:${3: url}, parameters:${4: parameters})'
+  'requestMethod':
+    'prefix': 'requestMethod'
+    'body': 'requestMethod()'
+  'setAccount:':
+    'prefix': 'setAccount:'
+    'body': 'setAccount(${1: account})'

@@ -1,0 +1,1387 @@
+'.source.rubymotion':
+  'ICButtonTypeCopy (NSString*)':
+    'prefix': 'ICButtonTypeCopy'
+    'body': 'ICButtonTypeCopy'
+  'ICButtonTypeMail (NSString*)':
+    'prefix': 'ICButtonTypeMail'
+    'body': 'ICButtonTypeMail'
+  'ICButtonTypePrint (NSString*)':
+    'prefix': 'ICButtonTypePrint'
+    'body': 'ICButtonTypePrint'
+  'ICButtonTypeScan (NSString*)':
+    'prefix': 'ICButtonTypeScan'
+    'body': 'ICButtonTypeScan'
+  'ICButtonTypeTransfer (NSString*)':
+    'prefix': 'ICButtonTypeTransfer'
+    'body': 'ICButtonTypeTransfer'
+  'ICButtonTypeWeb (NSString*)':
+    'prefix': 'ICButtonTypeWeb'
+    'body': 'ICButtonTypeWeb'
+  'ICCameraDeviceCanAcceptPTPCommands (NSString*)':
+    'prefix': 'ICCameraDeviceCanAcceptPTPCommands'
+    'body': 'ICCameraDeviceCanAcceptPTPCommands'
+  'ICCameraDeviceCanDeleteAllFiles (NSString*)':
+    'prefix': 'ICCameraDeviceCanDeleteAllFiles'
+    'body': 'ICCameraDeviceCanDeleteAllFiles'
+  'ICCameraDeviceCanDeleteOneFile (NSString*)':
+    'prefix': 'ICCameraDeviceCanDeleteOneFile'
+    'body': 'ICCameraDeviceCanDeleteOneFile'
+  'ICCameraDeviceCanReceiveFile (NSString*)':
+    'prefix': 'ICCameraDeviceCanReceiveFile'
+    'body': 'ICCameraDeviceCanReceiveFile'
+  'ICCameraDeviceCanSyncClock (NSString*)':
+    'prefix': 'ICCameraDeviceCanSyncClock'
+    'body': 'ICCameraDeviceCanSyncClock'
+  'ICCameraDeviceCanTakePicture (NSString*)':
+    'prefix': 'ICCameraDeviceCanTakePicture'
+    'body': 'ICCameraDeviceCanTakePicture'
+  'ICCameraDeviceCanTakePictureUsingShutterReleaseOnCamera (NSString*)':
+    'prefix': 'ICCameraDeviceCanTakePictureUsingShutterReleaseOnCamera'
+    'body': 'ICCameraDeviceCanTakePictureUsingShutterReleaseOnCamera'
+  'ICDeleteAfterSuccessfulDownload (NSString*)':
+    'prefix': 'ICDeleteAfterSuccessfulDownload'
+    'body': 'ICDeleteAfterSuccessfulDownload'
+  'ICDeviceCanEjectOrDisconnect (NSString*)':
+    'prefix': 'ICDeviceCanEjectOrDisconnect'
+    'body': 'ICDeviceCanEjectOrDisconnect'
+  'ICDeviceLocationDescriptionBluetooth (NSString*)':
+    'prefix': 'ICDeviceLocationDescriptionBluetooth'
+    'body': 'ICDeviceLocationDescriptionBluetooth'
+  'ICDeviceLocationDescriptionFireWire (NSString*)':
+    'prefix': 'ICDeviceLocationDescriptionFireWire'
+    'body': 'ICDeviceLocationDescriptionFireWire'
+  'ICDeviceLocationDescriptionMassStorage (NSString*)':
+    'prefix': 'ICDeviceLocationDescriptionMassStorage'
+    'body': 'ICDeviceLocationDescriptionMassStorage'
+  'ICDeviceLocationDescriptionUSB (NSString*)':
+    'prefix': 'ICDeviceLocationDescriptionUSB'
+    'body': 'ICDeviceLocationDescriptionUSB'
+  'ICDownloadSidecarFiles (NSString*)':
+    'prefix': 'ICDownloadSidecarFiles'
+    'body': 'ICDownloadSidecarFiles'
+  'ICDownloadsDirectoryURL (NSString*)':
+    'prefix': 'ICDownloadsDirectoryURL'
+    'body': 'ICDownloadsDirectoryURL'
+  'ICLocalizedStatusNotificationKey (NSString*)':
+    'prefix': 'ICLocalizedStatusNotificationKey'
+    'body': 'ICLocalizedStatusNotificationKey'
+  'ICOverwrite (NSString*)':
+    'prefix': 'ICOverwrite'
+    'body': 'ICOverwrite'
+  'ICSaveAsFilename (NSString*)':
+    'prefix': 'ICSaveAsFilename'
+    'body': 'ICSaveAsFilename'
+  'ICSavedAncillaryFiles (NSString*)':
+    'prefix': 'ICSavedAncillaryFiles'
+    'body': 'ICSavedAncillaryFiles'
+  'ICSavedFilename (NSString*)':
+    'prefix': 'ICSavedFilename'
+    'body': 'ICSavedFilename'
+  'ICScannerStatusRequestsOverviewScan (NSString*)':
+    'prefix': 'ICScannerStatusRequestsOverviewScan'
+    'body': 'ICScannerStatusRequestsOverviewScan'
+  'ICScannerStatusWarmUpDone (NSString*)':
+    'prefix': 'ICScannerStatusWarmUpDone'
+    'body': 'ICScannerStatusWarmUpDone'
+  'ICScannerStatusWarmingUp (NSString*)':
+    'prefix': 'ICScannerStatusWarmingUp'
+    'body': 'ICScannerStatusWarmingUp'
+  'ICStatusCodeKey (NSString*)':
+    'prefix': 'ICStatusCodeKey'
+    'body': 'ICStatusCodeKey'
+  'ICStatusNotificationKey (NSString*)':
+    'prefix': 'ICStatusNotificationKey'
+    'body': 'ICStatusNotificationKey'
+  'ICTransportTypeBluetooth (NSString*)':
+    'prefix': 'ICTransportTypeBluetooth'
+    'body': 'ICTransportTypeBluetooth'
+  'ICTransportTypeFireWire (NSString*)':
+    'prefix': 'ICTransportTypeFireWire'
+    'body': 'ICTransportTypeFireWire'
+  'ICTransportTypeMassStorage (NSString*)':
+    'prefix': 'ICTransportTypeMassStorage'
+    'body': 'ICTransportTypeMassStorage'
+  'ICTransportTypeTCPIP (NSString*)':
+    'prefix': 'ICTransportTypeTCPIP'
+    'body': 'ICTransportTypeTCPIP'
+  'ICTransportTypeUSB (NSString*)':
+    'prefix': 'ICTransportTypeUSB'
+    'body': 'ICTransportTypeUSB'
+  'ICDeviceLocationTypeBluetooth (2048)':
+    'prefix': 'ICDeviceLocationTypeBluetooth'
+    'body': 'ICDeviceLocationTypeBluetooth'
+  'ICDeviceLocationTypeBonjour (1024)':
+    'prefix': 'ICDeviceLocationTypeBonjour'
+    'body': 'ICDeviceLocationTypeBonjour'
+  'ICDeviceLocationTypeLocal (256)':
+    'prefix': 'ICDeviceLocationTypeLocal'
+    'body': 'ICDeviceLocationTypeLocal'
+  'ICDeviceLocationTypeMaskBluetooth (2048)':
+    'prefix': 'ICDeviceLocationTypeMaskBluetooth'
+    'body': 'ICDeviceLocationTypeMaskBluetooth'
+  'ICDeviceLocationTypeMaskBonjour (1024)':
+    'prefix': 'ICDeviceLocationTypeMaskBonjour'
+    'body': 'ICDeviceLocationTypeMaskBonjour'
+  'ICDeviceLocationTypeMaskLocal (256)':
+    'prefix': 'ICDeviceLocationTypeMaskLocal'
+    'body': 'ICDeviceLocationTypeMaskLocal'
+  'ICDeviceLocationTypeMaskRemote (65024)':
+    'prefix': 'ICDeviceLocationTypeMaskRemote'
+    'body': 'ICDeviceLocationTypeMaskRemote'
+  'ICDeviceLocationTypeMaskShared (512)':
+    'prefix': 'ICDeviceLocationTypeMaskShared'
+    'body': 'ICDeviceLocationTypeMaskShared'
+  'ICDeviceLocationTypeShared (512)':
+    'prefix': 'ICDeviceLocationTypeShared'
+    'body': 'ICDeviceLocationTypeShared'
+  'ICDeviceTypeCamera (1)':
+    'prefix': 'ICDeviceTypeCamera'
+    'body': 'ICDeviceTypeCamera'
+  'ICDeviceTypeMaskCamera (1)':
+    'prefix': 'ICDeviceTypeMaskCamera'
+    'body': 'ICDeviceTypeMaskCamera'
+  'ICDeviceTypeMaskScanner (2)':
+    'prefix': 'ICDeviceTypeMaskScanner'
+    'body': 'ICDeviceTypeMaskScanner'
+  'ICDeviceTypeScanner (2)':
+    'prefix': 'ICDeviceTypeScanner'
+    'body': 'ICDeviceTypeScanner'
+  'ICEXIFOrientation1 (1)':
+    'prefix': 'ICEXIFOrientation1'
+    'body': 'ICEXIFOrientation1'
+  'ICEXIFOrientation2 (2)':
+    'prefix': 'ICEXIFOrientation2'
+    'body': 'ICEXIFOrientation2'
+  'ICEXIFOrientation3 (3)':
+    'prefix': 'ICEXIFOrientation3'
+    'body': 'ICEXIFOrientation3'
+  'ICEXIFOrientation4 (4)':
+    'prefix': 'ICEXIFOrientation4'
+    'body': 'ICEXIFOrientation4'
+  'ICEXIFOrientation5 (5)':
+    'prefix': 'ICEXIFOrientation5'
+    'body': 'ICEXIFOrientation5'
+  'ICEXIFOrientation6 (6)':
+    'prefix': 'ICEXIFOrientation6'
+    'body': 'ICEXIFOrientation6'
+  'ICEXIFOrientation7 (7)':
+    'prefix': 'ICEXIFOrientation7'
+    'body': 'ICEXIFOrientation7'
+  'ICEXIFOrientation8 (8)':
+    'prefix': 'ICEXIFOrientation8'
+    'body': 'ICEXIFOrientation8'
+  'ICReturnCommunicationTimedOut (-9923)':
+    'prefix': 'ICReturnCommunicationTimedOut'
+    'body': 'ICReturnCommunicationTimedOut'
+  'ICReturnDeleteFilesCanceled (-9942)':
+    'prefix': 'ICReturnDeleteFilesCanceled'
+    'body': 'ICReturnDeleteFilesCanceled'
+  'ICReturnDeleteFilesFailed (-9941)':
+    'prefix': 'ICReturnDeleteFilesFailed'
+    'body': 'ICReturnDeleteFilesFailed'
+  'ICReturnDeviceFailedToCloseSession (-9928)':
+    'prefix': 'ICReturnDeviceFailedToCloseSession'
+    'body': 'ICReturnDeviceFailedToCloseSession'
+  'ICReturnDeviceFailedToOpenSession (-9927)':
+    'prefix': 'ICReturnDeviceFailedToOpenSession'
+    'body': 'ICReturnDeviceFailedToOpenSession'
+  'ICReturnDeviceFailedToTakePicture (-9944)':
+    'prefix': 'ICReturnDeviceFailedToTakePicture'
+    'body': 'ICReturnDeviceFailedToTakePicture'
+  'ICReturnDeviceIsPasscodeLocked (-9943)':
+    'prefix': 'ICReturnDeviceIsPasscodeLocked'
+    'body': 'ICReturnDeviceIsPasscodeLocked'
+  'ICReturnDeviceSoftwareInstallationCanceled (-9948)':
+    'prefix': 'ICReturnDeviceSoftwareInstallationCanceled'
+    'body': 'ICReturnDeviceSoftwareInstallationCanceled'
+  'ICReturnDeviceSoftwareInstallationCompleted (-9947)':
+    'prefix': 'ICReturnDeviceSoftwareInstallationCompleted'
+    'body': 'ICReturnDeviceSoftwareInstallationCompleted'
+  'ICReturnDeviceSoftwareInstallationFailed (-9949)':
+    'prefix': 'ICReturnDeviceSoftwareInstallationFailed'
+    'body': 'ICReturnDeviceSoftwareInstallationFailed'
+  'ICReturnDeviceSoftwareIsBeingInstalled (-9946)':
+    'prefix': 'ICReturnDeviceSoftwareIsBeingInstalled'
+    'body': 'ICReturnDeviceSoftwareIsBeingInstalled'
+  'ICReturnDeviceSoftwareNotAvailable (-9950)':
+    'prefix': 'ICReturnDeviceSoftwareNotAvailable'
+    'body': 'ICReturnDeviceSoftwareNotAvailable'
+  'ICReturnDeviceSoftwareNotInstalled (-9945)':
+    'prefix': 'ICReturnDeviceSoftwareNotInstalled'
+    'body': 'ICReturnDeviceSoftwareNotInstalled'
+  'ICReturnDownloadCanceled (-9937)':
+    'prefix': 'ICReturnDownloadCanceled'
+    'body': 'ICReturnDownloadCanceled'
+  'ICReturnDownloadFailed (-9934)':
+    'prefix': 'ICReturnDownloadFailed'
+    'body': 'ICReturnDownloadFailed'
+  'ICReturnFailedToCompletePassThroughCommand (-9936)':
+    'prefix': 'ICReturnFailedToCompletePassThroughCommand'
+    'body': 'ICReturnFailedToCompletePassThroughCommand'
+  'ICReturnFailedToCompleteSendMessageRequest (-9940)':
+    'prefix': 'ICReturnFailedToCompleteSendMessageRequest'
+    'body': 'ICReturnFailedToCompleteSendMessageRequest'
+  'ICReturnFailedToDisabeTethering (-9939)':
+    'prefix': 'ICReturnFailedToDisabeTethering'
+    'body': 'ICReturnFailedToDisabeTethering'
+  'ICReturnFailedToEnabeTethering (-9938)':
+    'prefix': 'ICReturnFailedToEnabeTethering'
+    'body': 'ICReturnFailedToEnabeTethering'
+  'ICReturnInvalidParam (-9922)':
+    'prefix': 'ICReturnInvalidParam'
+    'body': 'ICReturnInvalidParam'
+  'ICReturnReceivedUnsolicitedScannerErrorInfo (-9933)':
+    'prefix': 'ICReturnReceivedUnsolicitedScannerErrorInfo'
+    'body': 'ICReturnReceivedUnsolicitedScannerErrorInfo'
+  'ICReturnReceivedUnsolicitedScannerStatusInfo (-9932)':
+    'prefix': 'ICReturnReceivedUnsolicitedScannerStatusInfo'
+    'body': 'ICReturnReceivedUnsolicitedScannerStatusInfo'
+  'ICReturnScanOperationCanceled (-9924)':
+    'prefix': 'ICReturnScanOperationCanceled'
+    'body': 'ICReturnScanOperationCanceled'
+  'ICReturnScannerFailedToCompleteOverviewScan (-9930)':
+    'prefix': 'ICReturnScannerFailedToCompleteOverviewScan'
+    'body': 'ICReturnScannerFailedToCompleteOverviewScan'
+  'ICReturnScannerFailedToCompleteScan (-9931)':
+    'prefix': 'ICReturnScannerFailedToCompleteScan'
+    'body': 'ICReturnScannerFailedToCompleteScan'
+  'ICReturnScannerFailedToSelectFunctionalUnit (-9929)':
+    'prefix': 'ICReturnScannerFailedToSelectFunctionalUnit'
+    'body': 'ICReturnScannerFailedToSelectFunctionalUnit'
+  'ICReturnScannerInUseByLocalUser (-9925)':
+    'prefix': 'ICReturnScannerInUseByLocalUser'
+    'body': 'ICReturnScannerInUseByLocalUser'
+  'ICReturnScannerInUseByRemoteUser (-9926)':
+    'prefix': 'ICReturnScannerInUseByRemoteUser'
+    'body': 'ICReturnScannerInUseByRemoteUser'
+  'ICReturnSuccess (0)':
+    'prefix': 'ICReturnSuccess'
+    'body': 'ICReturnSuccess'
+  'ICReturnUploadFailed (-9935)':
+    'prefix': 'ICReturnUploadFailed'
+    'body': 'ICReturnUploadFailed'
+  'ICScannerBitDepth16Bits (16)':
+    'prefix': 'ICScannerBitDepth16Bits'
+    'body': 'ICScannerBitDepth16Bits'
+  'ICScannerBitDepth1Bit (1)':
+    'prefix': 'ICScannerBitDepth1Bit'
+    'body': 'ICScannerBitDepth1Bit'
+  'ICScannerBitDepth8Bits (8)':
+    'prefix': 'ICScannerBitDepth8Bits'
+    'body': 'ICScannerBitDepth8Bits'
+  'ICScannerColorDataFormatTypeChunky (0)':
+    'prefix': 'ICScannerColorDataFormatTypeChunky'
+    'body': 'ICScannerColorDataFormatTypeChunky'
+  'ICScannerColorDataFormatTypePlanar (1)':
+    'prefix': 'ICScannerColorDataFormatTypePlanar'
+    'body': 'ICScannerColorDataFormatTypePlanar'
+  'ICScannerDocumentType10 (25)':
+    'prefix': 'ICScannerDocumentType10'
+    'body': 'ICScannerDocumentType10'
+  'ICScannerDocumentType10R (67)':
+    'prefix': 'ICScannerDocumentType10R'
+    'body': 'ICScannerDocumentType10R'
+  'ICScannerDocumentType110 (72)':
+    'prefix': 'ICScannerDocumentType110'
+    'body': 'ICScannerDocumentType110'
+  'ICScannerDocumentType11R (69)':
+    'prefix': 'ICScannerDocumentType11R'
+    'body': 'ICScannerDocumentType11R'
+  'ICScannerDocumentType12R (70)':
+    'prefix': 'ICScannerDocumentType12R'
+    'body': 'ICScannerDocumentType12R'
+  'ICScannerDocumentType135 (76)':
+    'prefix': 'ICScannerDocumentType135'
+    'body': 'ICScannerDocumentType135'
+  'ICScannerDocumentType2A0 (18)':
+    'prefix': 'ICScannerDocumentType2A0'
+    'body': 'ICScannerDocumentType2A0'
+  'ICScannerDocumentType3R (61)':
+    'prefix': 'ICScannerDocumentType3R'
+    'body': 'ICScannerDocumentType3R'
+  'ICScannerDocumentType4A0 (17)':
+    'prefix': 'ICScannerDocumentType4A0'
+    'body': 'ICScannerDocumentType4A0'
+  'ICScannerDocumentType4R (62)':
+    'prefix': 'ICScannerDocumentType4R'
+    'body': 'ICScannerDocumentType4R'
+  'ICScannerDocumentType5R (63)':
+    'prefix': 'ICScannerDocumentType5R'
+    'body': 'ICScannerDocumentType5R'
+  'ICScannerDocumentType6R (64)':
+    'prefix': 'ICScannerDocumentType6R'
+    'body': 'ICScannerDocumentType6R'
+  'ICScannerDocumentType8R (65)':
+    'prefix': 'ICScannerDocumentType8R'
+    'body': 'ICScannerDocumentType8R'
+  'ICScannerDocumentTypeA0 (19)':
+    'prefix': 'ICScannerDocumentTypeA0'
+    'body': 'ICScannerDocumentTypeA0'
+  'ICScannerDocumentTypeA1 (20)':
+    'prefix': 'ICScannerDocumentTypeA1'
+    'body': 'ICScannerDocumentTypeA1'
+  'ICScannerDocumentTypeA2 (21)':
+    'prefix': 'ICScannerDocumentTypeA2'
+    'body': 'ICScannerDocumentTypeA2'
+  'ICScannerDocumentTypeA3 (11)':
+    'prefix': 'ICScannerDocumentTypeA3'
+    'body': 'ICScannerDocumentTypeA3'
+  'ICScannerDocumentTypeA4 (1)':
+    'prefix': 'ICScannerDocumentTypeA4'
+    'body': 'ICScannerDocumentTypeA4'
+  'ICScannerDocumentTypeA5 (5)':
+    'prefix': 'ICScannerDocumentTypeA5'
+    'body': 'ICScannerDocumentTypeA5'
+  'ICScannerDocumentTypeA6 (13)':
+    'prefix': 'ICScannerDocumentTypeA6'
+    'body': 'ICScannerDocumentTypeA6'
+  'ICScannerDocumentTypeA7 (22)':
+    'prefix': 'ICScannerDocumentTypeA7'
+    'body': 'ICScannerDocumentTypeA7'
+  'ICScannerDocumentTypeA8 (23)':
+    'prefix': 'ICScannerDocumentTypeA8'
+    'body': 'ICScannerDocumentTypeA8'
+  'ICScannerDocumentTypeA9 (24)':
+    'prefix': 'ICScannerDocumentTypeA9'
+    'body': 'ICScannerDocumentTypeA9'
+  'ICScannerDocumentTypeAPSC (74)':
+    'prefix': 'ICScannerDocumentTypeAPSC'
+    'body': 'ICScannerDocumentTypeAPSC'
+  'ICScannerDocumentTypeAPSH (73)':
+    'prefix': 'ICScannerDocumentTypeAPSH'
+    'body': 'ICScannerDocumentTypeAPSH'
+  'ICScannerDocumentTypeAPSP (75)':
+    'prefix': 'ICScannerDocumentTypeAPSP'
+    'body': 'ICScannerDocumentTypeAPSP'
+  'ICScannerDocumentTypeB5 (2)':
+    'prefix': 'ICScannerDocumentTypeB5'
+    'body': 'ICScannerDocumentTypeB5'
+  'ICScannerDocumentTypeBusinessCard (53)':
+    'prefix': 'ICScannerDocumentTypeBusinessCard'
+    'body': 'ICScannerDocumentTypeBusinessCard'
+  'ICScannerDocumentTypeC0 (44)':
+    'prefix': 'ICScannerDocumentTypeC0'
+    'body': 'ICScannerDocumentTypeC0'
+  'ICScannerDocumentTypeC1 (45)':
+    'prefix': 'ICScannerDocumentTypeC1'
+    'body': 'ICScannerDocumentTypeC1'
+  'ICScannerDocumentTypeC10 (51)':
+    'prefix': 'ICScannerDocumentTypeC10'
+    'body': 'ICScannerDocumentTypeC10'
+  'ICScannerDocumentTypeC2 (46)':
+    'prefix': 'ICScannerDocumentTypeC2'
+    'body': 'ICScannerDocumentTypeC2'
+  'ICScannerDocumentTypeC3 (47)':
+    'prefix': 'ICScannerDocumentTypeC3'
+    'body': 'ICScannerDocumentTypeC3'
+  'ICScannerDocumentTypeC4 (14)':
+    'prefix': 'ICScannerDocumentTypeC4'
+    'body': 'ICScannerDocumentTypeC4'
+  'ICScannerDocumentTypeC5 (15)':
+    'prefix': 'ICScannerDocumentTypeC5'
+    'body': 'ICScannerDocumentTypeC5'
+  'ICScannerDocumentTypeC6 (16)':
+    'prefix': 'ICScannerDocumentTypeC6'
+    'body': 'ICScannerDocumentTypeC6'
+  'ICScannerDocumentTypeC7 (48)':
+    'prefix': 'ICScannerDocumentTypeC7'
+    'body': 'ICScannerDocumentTypeC7'
+  'ICScannerDocumentTypeC8 (49)':
+    'prefix': 'ICScannerDocumentTypeC8'
+    'body': 'ICScannerDocumentTypeC8'
+  'ICScannerDocumentTypeC9 (50)':
+    'prefix': 'ICScannerDocumentTypeC9'
+    'body': 'ICScannerDocumentTypeC9'
+  'ICScannerDocumentTypeDefault (0)':
+    'prefix': 'ICScannerDocumentTypeDefault'
+    'body': 'ICScannerDocumentTypeDefault'
+  'ICScannerDocumentTypeE (60)':
+    'prefix': 'ICScannerDocumentTypeE'
+    'body': 'ICScannerDocumentTypeE'
+  'ICScannerDocumentTypeISOB0 (26)':
+    'prefix': 'ICScannerDocumentTypeISOB0'
+    'body': 'ICScannerDocumentTypeISOB0'
+  'ICScannerDocumentTypeISOB1 (27)':
+    'prefix': 'ICScannerDocumentTypeISOB1'
+    'body': 'ICScannerDocumentTypeISOB1'
+  'ICScannerDocumentTypeISOB10 (33)':
+    'prefix': 'ICScannerDocumentTypeISOB10'
+    'body': 'ICScannerDocumentTypeISOB10'
+  'ICScannerDocumentTypeISOB2 (28)':
+    'prefix': 'ICScannerDocumentTypeISOB2'
+    'body': 'ICScannerDocumentTypeISOB2'
+  'ICScannerDocumentTypeISOB3 (12)':
+    'prefix': 'ICScannerDocumentTypeISOB3'
+    'body': 'ICScannerDocumentTypeISOB3'
+  'ICScannerDocumentTypeISOB4 (6)':
+    'prefix': 'ICScannerDocumentTypeISOB4'
+    'body': 'ICScannerDocumentTypeISOB4'
+  'ICScannerDocumentTypeISOB5 (29)':
+    'prefix': 'ICScannerDocumentTypeISOB5'
+    'body': 'ICScannerDocumentTypeISOB5'
+  'ICScannerDocumentTypeISOB6 (7)':
+    'prefix': 'ICScannerDocumentTypeISOB6'
+    'body': 'ICScannerDocumentTypeISOB6'
+  'ICScannerDocumentTypeISOB7 (30)':
+    'prefix': 'ICScannerDocumentTypeISOB7'
+    'body': 'ICScannerDocumentTypeISOB7'
+  'ICScannerDocumentTypeISOB8 (31)':
+    'prefix': 'ICScannerDocumentTypeISOB8'
+    'body': 'ICScannerDocumentTypeISOB8'
+  'ICScannerDocumentTypeISOB9 (32)':
+    'prefix': 'ICScannerDocumentTypeISOB9'
+    'body': 'ICScannerDocumentTypeISOB9'
+  'ICScannerDocumentTypeJISB0 (34)':
+    'prefix': 'ICScannerDocumentTypeJISB0'
+    'body': 'ICScannerDocumentTypeJISB0'
+  'ICScannerDocumentTypeJISB1 (35)':
+    'prefix': 'ICScannerDocumentTypeJISB1'
+    'body': 'ICScannerDocumentTypeJISB1'
+  'ICScannerDocumentTypeJISB10 (43)':
+    'prefix': 'ICScannerDocumentTypeJISB10'
+    'body': 'ICScannerDocumentTypeJISB10'
+  'ICScannerDocumentTypeJISB2 (36)':
+    'prefix': 'ICScannerDocumentTypeJISB2'
+    'body': 'ICScannerDocumentTypeJISB2'
+  'ICScannerDocumentTypeJISB3 (37)':
+    'prefix': 'ICScannerDocumentTypeJISB3'
+    'body': 'ICScannerDocumentTypeJISB3'
+  'ICScannerDocumentTypeJISB4 (38)':
+    'prefix': 'ICScannerDocumentTypeJISB4'
+    'body': 'ICScannerDocumentTypeJISB4'
+  'ICScannerDocumentTypeJISB6 (39)':
+    'prefix': 'ICScannerDocumentTypeJISB6'
+    'body': 'ICScannerDocumentTypeJISB6'
+  'ICScannerDocumentTypeJISB7 (40)':
+    'prefix': 'ICScannerDocumentTypeJISB7'
+    'body': 'ICScannerDocumentTypeJISB7'
+  'ICScannerDocumentTypeJISB8 (41)':
+    'prefix': 'ICScannerDocumentTypeJISB8'
+    'body': 'ICScannerDocumentTypeJISB8'
+  'ICScannerDocumentTypeJISB9 (42)':
+    'prefix': 'ICScannerDocumentTypeJISB9'
+    'body': 'ICScannerDocumentTypeJISB9'
+  'ICScannerDocumentTypeLF (78)':
+    'prefix': 'ICScannerDocumentTypeLF'
+    'body': 'ICScannerDocumentTypeLF'
+  'ICScannerDocumentTypeMF (77)':
+    'prefix': 'ICScannerDocumentTypeMF'
+    'body': 'ICScannerDocumentTypeMF'
+  'ICScannerDocumentTypeS10R (68)':
+    'prefix': 'ICScannerDocumentTypeS10R'
+    'body': 'ICScannerDocumentTypeS10R'
+  'ICScannerDocumentTypeS12R (71)':
+    'prefix': 'ICScannerDocumentTypeS12R'
+    'body': 'ICScannerDocumentTypeS12R'
+  'ICScannerDocumentTypeS8R (66)':
+    'prefix': 'ICScannerDocumentTypeS8R'
+    'body': 'ICScannerDocumentTypeS8R'
+  'ICScannerDocumentTypeUSExecutive (10)':
+    'prefix': 'ICScannerDocumentTypeUSExecutive'
+    'body': 'ICScannerDocumentTypeUSExecutive'
+  'ICScannerDocumentTypeUSLedger (9)':
+    'prefix': 'ICScannerDocumentTypeUSLedger'
+    'body': 'ICScannerDocumentTypeUSLedger'
+  'ICScannerDocumentTypeUSLegal (4)':
+    'prefix': 'ICScannerDocumentTypeUSLegal'
+    'body': 'ICScannerDocumentTypeUSLegal'
+  'ICScannerDocumentTypeUSLetter (3)':
+    'prefix': 'ICScannerDocumentTypeUSLetter'
+    'body': 'ICScannerDocumentTypeUSLetter'
+  'ICScannerDocumentTypeUSStatement (52)':
+    'prefix': 'ICScannerDocumentTypeUSStatement'
+    'body': 'ICScannerDocumentTypeUSStatement'
+  'ICScannerFeatureTypeBoolean (2)':
+    'prefix': 'ICScannerFeatureTypeBoolean'
+    'body': 'ICScannerFeatureTypeBoolean'
+  'ICScannerFeatureTypeEnumeration (0)':
+    'prefix': 'ICScannerFeatureTypeEnumeration'
+    'body': 'ICScannerFeatureTypeEnumeration'
+  'ICScannerFeatureTypeRange (1)':
+    'prefix': 'ICScannerFeatureTypeRange'
+    'body': 'ICScannerFeatureTypeRange'
+  'ICScannerFeatureTypeTemplate (3)':
+    'prefix': 'ICScannerFeatureTypeTemplate'
+    'body': 'ICScannerFeatureTypeTemplate'
+  'ICScannerFunctionalUnitStateOverviewScanInProgress (4)':
+    'prefix': 'ICScannerFunctionalUnitStateOverviewScanInProgress'
+    'body': 'ICScannerFunctionalUnitStateOverviewScanInProgress'
+  'ICScannerFunctionalUnitStateReady (1)':
+    'prefix': 'ICScannerFunctionalUnitStateReady'
+    'body': 'ICScannerFunctionalUnitStateReady'
+  'ICScannerFunctionalUnitStateScanInProgress (2)':
+    'prefix': 'ICScannerFunctionalUnitStateScanInProgress'
+    'body': 'ICScannerFunctionalUnitStateScanInProgress'
+  'ICScannerFunctionalUnitTypeDocumentFeeder (3)':
+    'prefix': 'ICScannerFunctionalUnitTypeDocumentFeeder'
+    'body': 'ICScannerFunctionalUnitTypeDocumentFeeder'
+  'ICScannerFunctionalUnitTypeFlatbed (0)':
+    'prefix': 'ICScannerFunctionalUnitTypeFlatbed'
+    'body': 'ICScannerFunctionalUnitTypeFlatbed'
+  'ICScannerFunctionalUnitTypeNegativeTransparency (2)':
+    'prefix': 'ICScannerFunctionalUnitTypeNegativeTransparency'
+    'body': 'ICScannerFunctionalUnitTypeNegativeTransparency'
+  'ICScannerFunctionalUnitTypePositiveTransparency (1)':
+    'prefix': 'ICScannerFunctionalUnitTypePositiveTransparency'
+    'body': 'ICScannerFunctionalUnitTypePositiveTransparency'
+  'ICScannerMeasurementUnitCentimeters (1)':
+    'prefix': 'ICScannerMeasurementUnitCentimeters'
+    'body': 'ICScannerMeasurementUnitCentimeters'
+  'ICScannerMeasurementUnitInches (0)':
+    'prefix': 'ICScannerMeasurementUnitInches'
+    'body': 'ICScannerMeasurementUnitInches'
+  'ICScannerMeasurementUnitPicas (2)':
+    'prefix': 'ICScannerMeasurementUnitPicas'
+    'body': 'ICScannerMeasurementUnitPicas'
+  'ICScannerMeasurementUnitPixels (5)':
+    'prefix': 'ICScannerMeasurementUnitPixels'
+    'body': 'ICScannerMeasurementUnitPixels'
+  'ICScannerMeasurementUnitPoints (3)':
+    'prefix': 'ICScannerMeasurementUnitPoints'
+    'body': 'ICScannerMeasurementUnitPoints'
+  'ICScannerMeasurementUnitTwips (4)':
+    'prefix': 'ICScannerMeasurementUnitTwips'
+    'body': 'ICScannerMeasurementUnitTwips'
+  'ICScannerPixelDataTypeBW (0)':
+    'prefix': 'ICScannerPixelDataTypeBW'
+    'body': 'ICScannerPixelDataTypeBW'
+  'ICScannerPixelDataTypeCIEXYZ (8)':
+    'prefix': 'ICScannerPixelDataTypeCIEXYZ'
+    'body': 'ICScannerPixelDataTypeCIEXYZ'
+  'ICScannerPixelDataTypeCMY (4)':
+    'prefix': 'ICScannerPixelDataTypeCMY'
+    'body': 'ICScannerPixelDataTypeCMY'
+  'ICScannerPixelDataTypeCMYK (5)':
+    'prefix': 'ICScannerPixelDataTypeCMYK'
+    'body': 'ICScannerPixelDataTypeCMYK'
+  'ICScannerPixelDataTypeGray (1)':
+    'prefix': 'ICScannerPixelDataTypeGray'
+    'body': 'ICScannerPixelDataTypeGray'
+  'ICScannerPixelDataTypePalette (3)':
+    'prefix': 'ICScannerPixelDataTypePalette'
+    'body': 'ICScannerPixelDataTypePalette'
+  'ICScannerPixelDataTypeRGB (2)':
+    'prefix': 'ICScannerPixelDataTypeRGB'
+    'body': 'ICScannerPixelDataTypeRGB'
+  'ICScannerPixelDataTypeYUV (6)':
+    'prefix': 'ICScannerPixelDataTypeYUV'
+    'body': 'ICScannerPixelDataTypeYUV'
+  'ICScannerPixelDataTypeYUVK (7)':
+    'prefix': 'ICScannerPixelDataTypeYUVK'
+    'body': 'ICScannerPixelDataTypeYUVK'
+  'ICScannerTransferModeFileBased (0)':
+    'prefix': 'ICScannerTransferModeFileBased'
+    'body': 'ICScannerTransferModeFileBased'
+  'ICScannerTransferModeMemoryBased (1)':
+    'prefix': 'ICScannerTransferModeMemoryBased'
+    'body': 'ICScannerTransferModeMemoryBased'
+  'batteryLevel':
+    'prefix': 'batteryLevel'
+    'body': 'batteryLevel()'
+  'batteryLevelAvailable':
+    'prefix': 'batteryLevelAvailable'
+    'body': 'batteryLevelAvailable()'
+  'cancelDelete':
+    'prefix': 'cancelDelete'
+    'body': 'cancelDelete()'
+  'cancelDownload':
+    'prefix': 'cancelDownload'
+    'body': 'cancelDownload()'
+  'contentCatalogPercentCompleted':
+    'prefix': 'contentCatalogPercentCompleted'
+    'body': 'contentCatalogPercentCompleted()'
+  'contents':
+    'prefix': 'contents'
+    'body': 'contents()'
+  'filesOfType:':
+    'prefix': 'filesOfType:'
+    'body': 'filesOfType(${1:NSString* fileUTType})'
+  'isAccessRestrictedAppleDevice':
+    'prefix': 'isAccessRestrictedAppleDevice'
+    'body': 'isAccessRestrictedAppleDevice()'
+  'mediaFiles':
+    'prefix': 'mediaFiles'
+    'body': 'mediaFiles()'
+  'mountPoint':
+    'prefix': 'mountPoint'
+    'body': 'mountPoint()'
+  'requestDeleteFiles:':
+    'prefix': 'requestDeleteFiles:'
+    'body': 'requestDeleteFiles(${1:NSArray* files})'
+  'requestDisableTethering':
+    'prefix': 'requestDisableTethering'
+    'body': 'requestDisableTethering()'
+  'requestDownloadFile:options:downloadDelegate:didDownloadSelector:contextInfo:':
+    'prefix': 'requestDownloadFile:options:downloadDelegate:didDownloadSelector:contextInfo:'
+    'body': 'requestDownloadFile(${1:ICCameraFile* file}, options:${2:NSDictionary* options}, downloadDelegate:${3:id downloadDelegate}, didDownloadSelector:${4:SEL selector}, contextInfo:${5:void* contextInfo})'
+  'requestEnableTethering':
+    'prefix': 'requestEnableTethering'
+    'body': 'requestEnableTethering()'
+  'requestReadDataFromFile:atOffset:length:readDelegate:didReadDataSelector:contextInfo:':
+    'prefix': 'requestReadDataFromFile:atOffset:length:readDelegate:didReadDataSelector:contextInfo:'
+    'body': 'requestReadDataFromFile(${1:ICCameraFile* file}, atOffset:${2:off_t offset}, length:${3:off_t length}, readDelegate:${4:id readDelegate}, didReadDataSelector:${5:SEL selector}, contextInfo:${6:void* contextInfo})'
+  'requestSendPTPCommand:outData:sendCommandDelegate:didSendCommandSelector:contextInfo:':
+    'prefix': 'requestSendPTPCommand:outData:sendCommandDelegate:didSendCommandSelector:contextInfo:'
+    'body': 'requestSendPTPCommand(${1:NSData* command}, outData:${2:NSData* data}, sendCommandDelegate:${3:id sendCommandDelegate}, didSendCommandSelector:${4:SEL selector}, contextInfo:${5:void* contextInfo})'
+  'requestSyncClock':
+    'prefix': 'requestSyncClock'
+    'body': 'requestSyncClock()'
+  'requestTakePicture':
+    'prefix': 'requestTakePicture'
+    'body': 'requestTakePicture()'
+  'requestUploadFile:options:uploadDelegate:didUploadSelector:contextInfo:':
+    'prefix': 'requestUploadFile:options:uploadDelegate:didUploadSelector:contextInfo:'
+    'body': 'requestUploadFile(${1:NSURL* fileURL}, options:${2:NSDictionary* options}, uploadDelegate:${3:id uploadDelegate}, didUploadSelector:${4:SEL selector}, contextInfo:${5:void* contextInfo})'
+  'setTetheredCaptureEnabled:':
+    'prefix': 'setTetheredCaptureEnabled:'
+    'body': 'setTetheredCaptureEnabled(${1:BOOL tetheredCaptureEnabled})'
+  'tetheredCaptureEnabled':
+    'prefix': 'tetheredCaptureEnabled'
+    'body': 'tetheredCaptureEnabled()'
+  'timeOffset':
+    'prefix': 'timeOffset'
+    'body': 'timeOffset()'
+  'duration':
+    'prefix': 'duration'
+    'body': 'duration()'
+  'fileSize':
+    'prefix': 'fileSize'
+    'body': 'fileSize()'
+  'orientation':
+    'prefix': 'orientation'
+    'body': 'orientation()'
+  'setOrientation:':
+    'prefix': 'setOrientation:'
+    'body': 'setOrientation(${1:ICEXIFOrientationType orientation})'
+  'sidecarFiles':
+    'prefix': 'sidecarFiles'
+    'body': 'sidecarFiles()'
+  'contents':
+    'prefix': 'contents'
+    'body': 'contents()'
+  'UTI':
+    'prefix': 'UTI'
+    'body': 'UTI()'
+  'creationDate':
+    'prefix': 'creationDate'
+    'body': 'creationDate()'
+  'device':
+    'prefix': 'device'
+    'body': 'device()'
+  'fileSystemPath':
+    'prefix': 'fileSystemPath'
+    'body': 'fileSystemPath()'
+  'isInTemporaryStore':
+    'prefix': 'isInTemporaryStore'
+    'body': 'isInTemporaryStore()'
+  'isLocked':
+    'prefix': 'isLocked'
+    'body': 'isLocked()'
+  'isRaw':
+    'prefix': 'isRaw'
+    'body': 'isRaw()'
+  'largeThumbnailIfAvailable':
+    'prefix': 'largeThumbnailIfAvailable'
+    'body': 'largeThumbnailIfAvailable()'
+  'metadataIfAvailable':
+    'prefix': 'metadataIfAvailable'
+    'body': 'metadataIfAvailable()'
+  'modificationDate':
+    'prefix': 'modificationDate'
+    'body': 'modificationDate()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'parentFolder':
+    'prefix': 'parentFolder'
+    'body': 'parentFolder()'
+  'ptpObjectHandle':
+    'prefix': 'ptpObjectHandle'
+    'body': 'ptpObjectHandle()'
+  'thumbnailIfAvailable':
+    'prefix': 'thumbnailIfAvailable'
+    'body': 'thumbnailIfAvailable()'
+  'userData':
+    'prefix': 'userData'
+    'body': 'userData()'
+  'wasAddedAfterContentCatalogCompleted':
+    'prefix': 'wasAddedAfterContentCatalogCompleted'
+    'body': 'wasAddedAfterContentCatalogCompleted()'
+  'UUIDString':
+    'prefix': 'UUIDString'
+    'body': 'UUIDString()'
+  'autolaunchApplicationPath':
+    'prefix': 'autolaunchApplicationPath'
+    'body': 'autolaunchApplicationPath()'
+  'buttonPressed':
+    'prefix': 'buttonPressed'
+    'body': 'buttonPressed()'
+  'capabilities':
+    'prefix': 'capabilities'
+    'body': 'capabilities()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'fwGUID':
+    'prefix': 'fwGUID'
+    'body': 'fwGUID()'
+  'hasConfigurableWiFiInterface':
+    'prefix': 'hasConfigurableWiFiInterface'
+    'body': 'hasConfigurableWiFiInterface()'
+  'hasOpenSession':
+    'prefix': 'hasOpenSession'
+    'body': 'hasOpenSession()'
+  'icon':
+    'prefix': 'icon'
+    'body': 'icon()'
+  'isRemote':
+    'prefix': 'isRemote'
+    'body': 'isRemote()'
+  'isShared':
+    'prefix': 'isShared'
+    'body': 'isShared()'
+  'locationDescription':
+    'prefix': 'locationDescription'
+    'body': 'locationDescription()'
+  'moduleExecutableArchitecture':
+    'prefix': 'moduleExecutableArchitecture'
+    'body': 'moduleExecutableArchitecture()'
+  'modulePath':
+    'prefix': 'modulePath'
+    'body': 'modulePath()'
+  'moduleVersion':
+    'prefix': 'moduleVersion'
+    'body': 'moduleVersion()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'persistentIDString':
+    'prefix': 'persistentIDString'
+    'body': 'persistentIDString()'
+  'requestCloseSession':
+    'prefix': 'requestCloseSession'
+    'body': 'requestCloseSession()'
+  'requestEjectOrDisconnect':
+    'prefix': 'requestEjectOrDisconnect'
+    'body': 'requestEjectOrDisconnect()'
+  'requestOpenSession':
+    'prefix': 'requestOpenSession'
+    'body': 'requestOpenSession()'
+  'requestSendMessage:outData:maxReturnedDataSize:sendMessageDelegate:didSendMessageSelector:contextInfo:':
+    'prefix': 'requestSendMessage:outData:maxReturnedDataSize:sendMessageDelegate:didSendMessageSelector:contextInfo:'
+    'body': 'requestSendMessage(${1:unsigned int messageCode}, outData:${2:NSData* data}, maxReturnedDataSize:${3:unsigned int maxReturnedDataSize}, sendMessageDelegate:${4:id sendMessageDelegate}, didSendMessageSelector:${5:SEL selector}, contextInfo:${6:void* contextInfo})'
+  'requestYield':
+    'prefix': 'requestYield'
+    'body': 'requestYield()'
+  'serialNumberString':
+    'prefix': 'serialNumberString'
+    'body': 'serialNumberString()'
+  'setAutolaunchApplicationPath:':
+    'prefix': 'setAutolaunchApplicationPath:'
+    'body': 'setAutolaunchApplicationPath(${1:NSString* autolaunchApplicationPath})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'transportType':
+    'prefix': 'transportType'
+    'body': 'transportType()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'usbLocationID':
+    'prefix': 'usbLocationID'
+    'body': 'usbLocationID()'
+  'usbProductID':
+    'prefix': 'usbProductID'
+    'body': 'usbProductID()'
+  'usbVendorID':
+    'prefix': 'usbVendorID'
+    'body': 'usbVendorID()'
+  'userData':
+    'prefix': 'userData'
+    'body': 'userData()'
+  'browsedDeviceTypeMask':
+    'prefix': 'browsedDeviceTypeMask'
+    'body': 'browsedDeviceTypeMask()'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'devices':
+    'prefix': 'devices'
+    'body': 'devices()'
+  'init':
+    'prefix': 'init'
+    'body': 'init()'
+  'isBrowsing':
+    'prefix': 'isBrowsing'
+    'body': 'isBrowsing()'
+  'preferredDevice':
+    'prefix': 'preferredDevice'
+    'body': 'preferredDevice()'
+  'setBrowsedDeviceTypeMask:':
+    'prefix': 'setBrowsedDeviceTypeMask:'
+    'body': 'setBrowsedDeviceTypeMask(${1:ICDeviceTypeMask browsedDeviceTypeMask})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'start':
+    'prefix': 'start'
+    'body': 'start()'
+  'stop':
+    'prefix': 'stop'
+    'body': 'stop()'
+  'bitsPerComponent':
+    'prefix': 'bitsPerComponent'
+    'body': 'bitsPerComponent()'
+  'bitsPerPixel':
+    'prefix': 'bitsPerPixel'
+    'body': 'bitsPerPixel()'
+  'bytesPerRow':
+    'prefix': 'bytesPerRow'
+    'body': 'bytesPerRow()'
+  'colorSyncProfilePath':
+    'prefix': 'colorSyncProfilePath'
+    'body': 'colorSyncProfilePath()'
+  'dataBuffer':
+    'prefix': 'dataBuffer'
+    'body': 'dataBuffer()'
+  'dataNumRows':
+    'prefix': 'dataNumRows'
+    'body': 'dataNumRows()'
+  'dataSize':
+    'prefix': 'dataSize'
+    'body': 'dataSize()'
+  'dataStartRow':
+    'prefix': 'dataStartRow'
+    'body': 'dataStartRow()'
+  'fullImageHeight':
+    'prefix': 'fullImageHeight'
+    'body': 'fullImageHeight()'
+  'fullImageWidth':
+    'prefix': 'fullImageWidth'
+    'body': 'fullImageWidth()'
+  'isBigEndian':
+    'prefix': 'isBigEndian'
+    'body': 'isBigEndian()'
+  'numComponents':
+    'prefix': 'numComponents'
+    'body': 'numComponents()'
+  'pixelDataType':
+    'prefix': 'pixelDataType'
+    'body': 'pixelDataType()'
+  'availableFunctionalUnitTypes':
+    'prefix': 'availableFunctionalUnitTypes'
+    'body': 'availableFunctionalUnitTypes()'
+  'cancelScan':
+    'prefix': 'cancelScan'
+    'body': 'cancelScan()'
+  'documentName':
+    'prefix': 'documentName'
+    'body': 'documentName()'
+  'documentUTI':
+    'prefix': 'documentUTI'
+    'body': 'documentUTI()'
+  'downloadsDirectory':
+    'prefix': 'downloadsDirectory'
+    'body': 'downloadsDirectory()'
+  'maxMemoryBandSize':
+    'prefix': 'maxMemoryBandSize'
+    'body': 'maxMemoryBandSize()'
+  'requestOverviewScan':
+    'prefix': 'requestOverviewScan'
+    'body': 'requestOverviewScan()'
+  'requestScan':
+    'prefix': 'requestScan'
+    'body': 'requestScan()'
+  'requestSelectFunctionalUnit:':
+    'prefix': 'requestSelectFunctionalUnit:'
+    'body': 'requestSelectFunctionalUnit(${1:ICScannerFunctionalUnitType type})'
+  'selectedFunctionalUnit':
+    'prefix': 'selectedFunctionalUnit'
+    'body': 'selectedFunctionalUnit()'
+  'setDocumentName:':
+    'prefix': 'setDocumentName:'
+    'body': 'setDocumentName(${1:NSString* documentName})'
+  'setDocumentUTI:':
+    'prefix': 'setDocumentUTI:'
+    'body': 'setDocumentUTI(${1:NSString* documentUTI})'
+  'setDownloadsDirectory:':
+    'prefix': 'setDownloadsDirectory:'
+    'body': 'setDownloadsDirectory(${1:NSURL* downloadsDirectory})'
+  'setMaxMemoryBandSize:':
+    'prefix': 'setMaxMemoryBandSize:'
+    'body': 'setMaxMemoryBandSize(${1:UInt32 maxMemoryBandSize})'
+  'setTransferMode:':
+    'prefix': 'setTransferMode:'
+    'body': 'setTransferMode(${1:ICScannerTransferMode transferMode})'
+  'transferMode':
+    'prefix': 'transferMode'
+    'body': 'transferMode()'
+  'humanReadableName':
+    'prefix': 'humanReadableName'
+    'body': 'humanReadableName()'
+  'internalName':
+    'prefix': 'internalName'
+    'body': 'internalName()'
+  'tooltip':
+    'prefix': 'tooltip'
+    'body': 'tooltip()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'setValue:':
+    'prefix': 'setValue:'
+    'body': 'setValue(${1:BOOL value})'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'currentValue':
+    'prefix': 'currentValue'
+    'body': 'currentValue()'
+  'defaultValue':
+    'prefix': 'defaultValue'
+    'body': 'defaultValue()'
+  'menuItemLabels':
+    'prefix': 'menuItemLabels'
+    'body': 'menuItemLabels()'
+  'menuItemLabelsTooltips':
+    'prefix': 'menuItemLabelsTooltips'
+    'body': 'menuItemLabelsTooltips()'
+  'setCurrentValue:':
+    'prefix': 'setCurrentValue:'
+    'body': 'setCurrentValue(${1:id currentValue})'
+  'values':
+    'prefix': 'values'
+    'body': 'values()'
+  'currentValue':
+    'prefix': 'currentValue'
+    'body': 'currentValue()'
+  'defaultValue':
+    'prefix': 'defaultValue'
+    'body': 'defaultValue()'
+  'maxValue':
+    'prefix': 'maxValue'
+    'body': 'maxValue()'
+  'minValue':
+    'prefix': 'minValue'
+    'body': 'minValue()'
+  'setCurrentValue:':
+    'prefix': 'setCurrentValue:'
+    'body': 'setCurrentValue(${1:CGFloat currentValue})'
+  'stepSize':
+    'prefix': 'stepSize'
+    'body': 'stepSize()'
+  'targets':
+    'prefix': 'targets'
+    'body': 'targets()'
+  'acceptsThresholdForBlackAndWhiteScanning':
+    'prefix': 'acceptsThresholdForBlackAndWhiteScanning'
+    'body': 'acceptsThresholdForBlackAndWhiteScanning()'
+  'bitDepth':
+    'prefix': 'bitDepth'
+    'body': 'bitDepth()'
+  'canPerformOverviewScan':
+    'prefix': 'canPerformOverviewScan'
+    'body': 'canPerformOverviewScan()'
+  'defaultThresholdForBlackAndWhiteScanning':
+    'prefix': 'defaultThresholdForBlackAndWhiteScanning'
+    'body': 'defaultThresholdForBlackAndWhiteScanning()'
+  'measurementUnit':
+    'prefix': 'measurementUnit'
+    'body': 'measurementUnit()'
+  'nativeXResolution':
+    'prefix': 'nativeXResolution'
+    'body': 'nativeXResolution()'
+  'nativeYResolution':
+    'prefix': 'nativeYResolution'
+    'body': 'nativeYResolution()'
+  'overviewImage':
+    'prefix': 'overviewImage'
+    'body': 'overviewImage()'
+  'overviewResolution':
+    'prefix': 'overviewResolution'
+    'body': 'overviewResolution()'
+  'overviewScanInProgress':
+    'prefix': 'overviewScanInProgress'
+    'body': 'overviewScanInProgress()'
+  'physicalSize':
+    'prefix': 'physicalSize'
+    'body': 'physicalSize()'
+  'pixelDataType':
+    'prefix': 'pixelDataType'
+    'body': 'pixelDataType()'
+  'preferredResolutions':
+    'prefix': 'preferredResolutions'
+    'body': 'preferredResolutions()'
+  'preferredScaleFactors':
+    'prefix': 'preferredScaleFactors'
+    'body': 'preferredScaleFactors()'
+  'resolution':
+    'prefix': 'resolution'
+    'body': 'resolution()'
+  'scaleFactor':
+    'prefix': 'scaleFactor'
+    'body': 'scaleFactor()'
+  'scanArea':
+    'prefix': 'scanArea'
+    'body': 'scanArea()'
+  'scanAreaOrientation':
+    'prefix': 'scanAreaOrientation'
+    'body': 'scanAreaOrientation()'
+  'scanInProgress':
+    'prefix': 'scanInProgress'
+    'body': 'scanInProgress()'
+  'scanProgressPercentDone':
+    'prefix': 'scanProgressPercentDone'
+    'body': 'scanProgressPercentDone()'
+  'setBitDepth:':
+    'prefix': 'setBitDepth:'
+    'body': 'setBitDepth(${1:ICScannerBitDepth bitDepth})'
+  'setMeasurementUnit:':
+    'prefix': 'setMeasurementUnit:'
+    'body': 'setMeasurementUnit(${1:ICScannerMeasurementUnit measurementUnit})'
+  'setOverviewResolution:':
+    'prefix': 'setOverviewResolution:'
+    'body': 'setOverviewResolution(${1:NSUInteger overviewResolution})'
+  'setPixelDataType:':
+    'prefix': 'setPixelDataType:'
+    'body': 'setPixelDataType(${1:ICScannerPixelDataType pixelDataType})'
+  'setResolution:':
+    'prefix': 'setResolution:'
+    'body': 'setResolution(${1:NSUInteger resolution})'
+  'setScaleFactor:':
+    'prefix': 'setScaleFactor:'
+    'body': 'setScaleFactor(${1:NSUInteger scaleFactor})'
+  'setScanArea:':
+    'prefix': 'setScanArea:'
+    'body': 'setScanArea(${1:NSRect scanArea})'
+  'setScanAreaOrientation:':
+    'prefix': 'setScanAreaOrientation:'
+    'body': 'setScanAreaOrientation(${1:ICEXIFOrientationType scanAreaOrientation})'
+  'setThresholdForBlackAndWhiteScanning:':
+    'prefix': 'setThresholdForBlackAndWhiteScanning:'
+    'body': 'setThresholdForBlackAndWhiteScanning(${1:unsigned char thresholdForBlackAndWhiteScanning})'
+  'setUsesThresholdForBlackAndWhiteScanning:':
+    'prefix': 'setUsesThresholdForBlackAndWhiteScanning:'
+    'body': 'setUsesThresholdForBlackAndWhiteScanning(${1:BOOL usesThresholdForBlackAndWhiteScanning})'
+  'state':
+    'prefix': 'state'
+    'body': 'state()'
+  'supportedBitDepths':
+    'prefix': 'supportedBitDepths'
+    'body': 'supportedBitDepths()'
+  'supportedMeasurementUnits':
+    'prefix': 'supportedMeasurementUnits'
+    'body': 'supportedMeasurementUnits()'
+  'supportedResolutions':
+    'prefix': 'supportedResolutions'
+    'body': 'supportedResolutions()'
+  'supportedScaleFactors':
+    'prefix': 'supportedScaleFactors'
+    'body': 'supportedScaleFactors()'
+  'templates':
+    'prefix': 'templates'
+    'body': 'templates()'
+  'thresholdForBlackAndWhiteScanning':
+    'prefix': 'thresholdForBlackAndWhiteScanning'
+    'body': 'thresholdForBlackAndWhiteScanning()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'usesThresholdForBlackAndWhiteScanning':
+    'prefix': 'usesThresholdForBlackAndWhiteScanning'
+    'body': 'usesThresholdForBlackAndWhiteScanning()'
+  'vendorFeatures':
+    'prefix': 'vendorFeatures'
+    'body': 'vendorFeatures()'
+  'documentLoaded':
+    'prefix': 'documentLoaded'
+    'body': 'documentLoaded()'
+  'documentSize':
+    'prefix': 'documentSize'
+    'body': 'documentSize()'
+  'documentType':
+    'prefix': 'documentType'
+    'body': 'documentType()'
+  'duplexScanningEnabled':
+    'prefix': 'duplexScanningEnabled'
+    'body': 'duplexScanningEnabled()'
+  'evenPageOrientation':
+    'prefix': 'evenPageOrientation'
+    'body': 'evenPageOrientation()'
+  'oddPageOrientation':
+    'prefix': 'oddPageOrientation'
+    'body': 'oddPageOrientation()'
+  'reverseFeederPageOrder':
+    'prefix': 'reverseFeederPageOrder'
+    'body': 'reverseFeederPageOrder()'
+  'setDocumentType:':
+    'prefix': 'setDocumentType:'
+    'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
+  'setDuplexScanningEnabled:':
+    'prefix': 'setDuplexScanningEnabled:'
+    'body': 'setDuplexScanningEnabled(${1:BOOL duplexScanningEnabled})'
+  'setEvenPageOrientation:':
+    'prefix': 'setEvenPageOrientation:'
+    'body': 'setEvenPageOrientation(${1:ICEXIFOrientationType evenPageOrientation})'
+  'setOddPageOrientation:':
+    'prefix': 'setOddPageOrientation:'
+    'body': 'setOddPageOrientation(${1:ICEXIFOrientationType oddPageOrientation})'
+  'supportedDocumentTypes':
+    'prefix': 'supportedDocumentTypes'
+    'body': 'supportedDocumentTypes()'
+  'supportsDuplexScanning':
+    'prefix': 'supportsDuplexScanning'
+    'body': 'supportsDuplexScanning()'
+  'documentSize':
+    'prefix': 'documentSize'
+    'body': 'documentSize()'
+  'documentType':
+    'prefix': 'documentType'
+    'body': 'documentType()'
+  'setDocumentType:':
+    'prefix': 'setDocumentType:'
+    'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
+  'supportedDocumentTypes':
+    'prefix': 'supportedDocumentTypes'
+    'body': 'supportedDocumentTypes()'
+  'documentSize':
+    'prefix': 'documentSize'
+    'body': 'documentSize()'
+  'documentType':
+    'prefix': 'documentType'
+    'body': 'documentType()'
+  'setDocumentType:':
+    'prefix': 'setDocumentType:'
+    'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
+  'supportedDocumentTypes':
+    'prefix': 'supportedDocumentTypes'
+    'body': 'supportedDocumentTypes()'
+  'documentSize':
+    'prefix': 'documentSize'
+    'body': 'documentSize()'
+  'documentType':
+    'prefix': 'documentType'
+    'body': 'documentType()'
+  'setDocumentType:':
+    'prefix': 'setDocumentType:'
+    'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
+  'supportedDocumentTypes':
+    'prefix': 'supportedDocumentTypes'
+    'body': 'supportedDocumentTypes()'
+  'cameraDevice:didAddItem:':
+    'prefix': 'cameraDevice:didAddItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didAddItem:${2:ICCameraItem* item})'
+  'cameraDevice:didAddItems:':
+    'prefix': 'cameraDevice:didAddItems:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didAddItems:${2:NSArray* items})'
+  'cameraDevice:didCompleteDeleteFilesWithError:':
+    'prefix': 'cameraDevice:didCompleteDeleteFilesWithError:'
+    'body': 'cameraDevice(${1:ICCameraDevice* scanner}, didCompleteDeleteFilesWithError:${2:NSError* error})'
+  'cameraDevice:didReceiveMetadataForItem:':
+    'prefix': 'cameraDevice:didReceiveMetadataForItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didReceiveMetadataForItem:${2:ICCameraItem* item})'
+  'cameraDevice:didReceivePTPEvent:':
+    'prefix': 'cameraDevice:didReceivePTPEvent:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didReceivePTPEvent:${2:NSData* eventData})'
+  'cameraDevice:didReceiveThumbnailForItem:':
+    'prefix': 'cameraDevice:didReceiveThumbnailForItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didReceiveThumbnailForItem:${2:ICCameraItem* item})'
+  'cameraDevice:didRemoveItem:':
+    'prefix': 'cameraDevice:didRemoveItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didRemoveItem:${2:ICCameraItem* item})'
+  'cameraDevice:didRemoveItems:':
+    'prefix': 'cameraDevice:didRemoveItems:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didRemoveItems:${2:NSArray* items})'
+  'cameraDevice:didRenameItems:':
+    'prefix': 'cameraDevice:didRenameItems:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didRenameItems:${2:NSArray* items})'
+  'cameraDeviceDidChangeCapability:':
+    'prefix': 'cameraDeviceDidChangeCapability:'
+    'body': 'cameraDeviceDidChangeCapability(${1:ICCameraDevice* camera})'
+  'device:didCloseSessionWithError:':
+    'prefix': 'device:didCloseSessionWithError:'
+    'body': 'device(${1:ICDevice* device}, didCloseSessionWithError:${2:NSError* error})'
+  'device:didEncounterError:':
+    'prefix': 'device:didEncounterError:'
+    'body': 'device(${1:ICDevice* device}, didEncounterError:${2:NSError* error})'
+  'device:didOpenSessionWithError:':
+    'prefix': 'device:didOpenSessionWithError:'
+    'body': 'device(${1:ICDevice* device}, didOpenSessionWithError:${2:NSError* error})'
+  'device:didReceiveButtonPress:':
+    'prefix': 'device:didReceiveButtonPress:'
+    'body': 'device(${1:ICDevice* device}, didReceiveButtonPress:${2:NSString* buttonType})'
+  'device:didReceiveCustomNotification:data:':
+    'prefix': 'device:didReceiveCustomNotification:data:'
+    'body': 'device(${1:ICDevice* device}, didReceiveCustomNotification:${2:NSDictionary* notification}, data:${3:NSData* data})'
+  'device:didReceiveStatusInformation:':
+    'prefix': 'device:didReceiveStatusInformation:'
+    'body': 'device(${1:ICDevice* device}, didReceiveStatusInformation:${2:NSDictionary* status})'
+  'deviceBrowser:deviceDidChangeName:':
+    'prefix': 'deviceBrowser:deviceDidChangeName:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, deviceDidChangeName:${2:ICDevice* device})'
+  'deviceBrowser:deviceDidChangeSharingState:':
+    'prefix': 'deviceBrowser:deviceDidChangeSharingState:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, deviceDidChangeSharingState:${2:ICDevice* device})'
+  'deviceBrowser:didAddDevice:moreComing:':
+    'prefix': 'deviceBrowser:didAddDevice:moreComing:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, didAddDevice:${2:ICDevice* device}, moreComing:${3:BOOL moreComing})'
+  'deviceBrowser:didRemoveDevice:moreGoing:':
+    'prefix': 'deviceBrowser:didRemoveDevice:moreGoing:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, didRemoveDevice:${2:ICDevice* device}, moreGoing:${3:BOOL moreGoing})'
+  'deviceBrowser:requestsSelectDevice:':
+    'prefix': 'deviceBrowser:requestsSelectDevice:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, requestsSelectDevice:${2:ICDevice* device})'
+  'deviceBrowserDidEnumerateLocalDevices:':
+    'prefix': 'deviceBrowserDidEnumerateLocalDevices:'
+    'body': 'deviceBrowserDidEnumerateLocalDevices(${1:ICDeviceBrowser* browser})'
+  'deviceDidBecomeReady:':
+    'prefix': 'deviceDidBecomeReady:'
+    'body': 'deviceDidBecomeReady(${1:ICDevice* device})'
+  'deviceDidBecomeReadyWithCompleteContentCatalog:':
+    'prefix': 'deviceDidBecomeReadyWithCompleteContentCatalog:'
+    'body': 'deviceDidBecomeReadyWithCompleteContentCatalog(${1:ICDevice* device})'
+  'deviceDidChangeName:':
+    'prefix': 'deviceDidChangeName:'
+    'body': 'deviceDidChangeName(${1:ICDevice* device})'
+  'deviceDidChangeSharingState:':
+    'prefix': 'deviceDidChangeSharingState:'
+    'body': 'deviceDidChangeSharingState(${1:ICDevice* device})'
+  'didDownloadFile:error:options:contextInfo:':
+    'prefix': 'didDownloadFile:error:options:contextInfo:'
+    'body': 'didDownloadFile(${1:ICCameraFile* file}, error:${2:NSError* error}, options:${3:NSDictionary* options}, contextInfo:${4:void* contextInfo})'
+  'didReceiveDownloadProgressForFile:downloadedBytes:maxBytes:':
+    'prefix': 'didReceiveDownloadProgressForFile:downloadedBytes:maxBytes:'
+    'body': 'didReceiveDownloadProgressForFile(${1:ICCameraFile* file}, downloadedBytes:${2:off_t downloadedBytes}, maxBytes:${3:off_t maxBytes})'
+  'didRemoveDevice:':
+    'prefix': 'didRemoveDevice:'
+    'body': 'didRemoveDevice(${1:ICDevice* device})'
+  'scannerDevice:didCompleteOverviewScanWithError:':
+    'prefix': 'scannerDevice:didCompleteOverviewScanWithError:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didCompleteOverviewScanWithError:${2:NSError* error})'
+  'scannerDevice:didCompleteScanWithError:':
+    'prefix': 'scannerDevice:didCompleteScanWithError:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didCompleteScanWithError:${2:NSError* error})'
+  'scannerDevice:didScanToBandData:':
+    'prefix': 'scannerDevice:didScanToBandData:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didScanToBandData:${2:ICScannerBandData* data})'
+  'scannerDevice:didScanToURL:':
+    'prefix': 'scannerDevice:didScanToURL:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didScanToURL:${2:NSURL* url})'
+  'scannerDevice:didScanToURL:data:':
+    'prefix': 'scannerDevice:didScanToURL:data:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didScanToURL:${2:NSURL* url}, data:${3:NSData* data})'
+  'scannerDevice:didSelectFunctionalUnit:error:':
+    'prefix': 'scannerDevice:didSelectFunctionalUnit:error:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didSelectFunctionalUnit:${2:ICScannerFunctionalUnit* functionalUnit}, error:${3:NSError* error})'
+  'scannerDeviceDidBecomeAvailable:':
+    'prefix': 'scannerDeviceDidBecomeAvailable:'
+    'body': 'scannerDeviceDidBecomeAvailable(${1:ICScannerDevice* scanner})'
+  'cameraDevice:didAddItem:':
+    'prefix': 'cameraDevice:didAddItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didAddItem:${2:ICCameraItem* item})'
+  'cameraDevice:didAddItems:':
+    'prefix': 'cameraDevice:didAddItems:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didAddItems:${2:NSArray* items})'
+  'cameraDevice:didCompleteDeleteFilesWithError:':
+    'prefix': 'cameraDevice:didCompleteDeleteFilesWithError:'
+    'body': 'cameraDevice(${1:ICCameraDevice* scanner}, didCompleteDeleteFilesWithError:${2:NSError* error})'
+  'cameraDevice:didReceiveMetadataForItem:':
+    'prefix': 'cameraDevice:didReceiveMetadataForItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didReceiveMetadataForItem:${2:ICCameraItem* item})'
+  'cameraDevice:didReceivePTPEvent:':
+    'prefix': 'cameraDevice:didReceivePTPEvent:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didReceivePTPEvent:${2:NSData* eventData})'
+  'cameraDevice:didReceiveThumbnailForItem:':
+    'prefix': 'cameraDevice:didReceiveThumbnailForItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didReceiveThumbnailForItem:${2:ICCameraItem* item})'
+  'cameraDevice:didRemoveItem:':
+    'prefix': 'cameraDevice:didRemoveItem:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didRemoveItem:${2:ICCameraItem* item})'
+  'cameraDevice:didRemoveItems:':
+    'prefix': 'cameraDevice:didRemoveItems:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didRemoveItems:${2:NSArray* items})'
+  'cameraDevice:didRenameItems:':
+    'prefix': 'cameraDevice:didRenameItems:'
+    'body': 'cameraDevice(${1:ICCameraDevice* camera}, didRenameItems:${2:NSArray* items})'
+  'cameraDeviceDidChangeCapability:':
+    'prefix': 'cameraDeviceDidChangeCapability:'
+    'body': 'cameraDeviceDidChangeCapability(${1:ICCameraDevice* camera})'
+  'deviceDidBecomeReadyWithCompleteContentCatalog:':
+    'prefix': 'deviceDidBecomeReadyWithCompleteContentCatalog:'
+    'body': 'deviceDidBecomeReadyWithCompleteContentCatalog(${1:ICDevice* device})'
+  'didDownloadFile:error:options:contextInfo:':
+    'prefix': 'didDownloadFile:error:options:contextInfo:'
+    'body': 'didDownloadFile(${1:ICCameraFile* file}, error:${2:NSError* error}, options:${3:NSDictionary* options}, contextInfo:${4:void* contextInfo})'
+  'didReceiveDownloadProgressForFile:downloadedBytes:maxBytes:':
+    'prefix': 'didReceiveDownloadProgressForFile:downloadedBytes:maxBytes:'
+    'body': 'didReceiveDownloadProgressForFile(${1:ICCameraFile* file}, downloadedBytes:${2:off_t downloadedBytes}, maxBytes:${3:off_t maxBytes})'
+  'deviceBrowser:deviceDidChangeName:':
+    'prefix': 'deviceBrowser:deviceDidChangeName:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, deviceDidChangeName:${2:ICDevice* device})'
+  'deviceBrowser:deviceDidChangeSharingState:':
+    'prefix': 'deviceBrowser:deviceDidChangeSharingState:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, deviceDidChangeSharingState:${2:ICDevice* device})'
+  'deviceBrowser:didAddDevice:moreComing:':
+    'prefix': 'deviceBrowser:didAddDevice:moreComing:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, didAddDevice:${2:ICDevice* device}, moreComing:${3:BOOL moreComing})'
+  'deviceBrowser:didRemoveDevice:moreGoing:':
+    'prefix': 'deviceBrowser:didRemoveDevice:moreGoing:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, didRemoveDevice:${2:ICDevice* device}, moreGoing:${3:BOOL moreGoing})'
+  'deviceBrowser:requestsSelectDevice:':
+    'prefix': 'deviceBrowser:requestsSelectDevice:'
+    'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, requestsSelectDevice:${2:ICDevice* device})'
+  'deviceBrowserDidEnumerateLocalDevices:':
+    'prefix': 'deviceBrowserDidEnumerateLocalDevices:'
+    'body': 'deviceBrowserDidEnumerateLocalDevices(${1:ICDeviceBrowser* browser})'
+  'device:didCloseSessionWithError:':
+    'prefix': 'device:didCloseSessionWithError:'
+    'body': 'device(${1:ICDevice* device}, didCloseSessionWithError:${2:NSError* error})'
+  'device:didEncounterError:':
+    'prefix': 'device:didEncounterError:'
+    'body': 'device(${1:ICDevice* device}, didEncounterError:${2:NSError* error})'
+  'device:didOpenSessionWithError:':
+    'prefix': 'device:didOpenSessionWithError:'
+    'body': 'device(${1:ICDevice* device}, didOpenSessionWithError:${2:NSError* error})'
+  'device:didReceiveButtonPress:':
+    'prefix': 'device:didReceiveButtonPress:'
+    'body': 'device(${1:ICDevice* device}, didReceiveButtonPress:${2:NSString* buttonType})'
+  'device:didReceiveCustomNotification:data:':
+    'prefix': 'device:didReceiveCustomNotification:data:'
+    'body': 'device(${1:ICDevice* device}, didReceiveCustomNotification:${2:NSDictionary* notification}, data:${3:NSData* data})'
+  'device:didReceiveStatusInformation:':
+    'prefix': 'device:didReceiveStatusInformation:'
+    'body': 'device(${1:ICDevice* device}, didReceiveStatusInformation:${2:NSDictionary* status})'
+  'deviceDidBecomeReady:':
+    'prefix': 'deviceDidBecomeReady:'
+    'body': 'deviceDidBecomeReady(${1:ICDevice* device})'
+  'deviceDidChangeName:':
+    'prefix': 'deviceDidChangeName:'
+    'body': 'deviceDidChangeName(${1:ICDevice* device})'
+  'deviceDidChangeSharingState:':
+    'prefix': 'deviceDidChangeSharingState:'
+    'body': 'deviceDidChangeSharingState(${1:ICDevice* device})'
+  'didRemoveDevice:':
+    'prefix': 'didRemoveDevice:'
+    'body': 'didRemoveDevice(${1:ICDevice* device})'
+  'scannerDevice:didCompleteOverviewScanWithError:':
+    'prefix': 'scannerDevice:didCompleteOverviewScanWithError:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didCompleteOverviewScanWithError:${2:NSError* error})'
+  'scannerDevice:didCompleteScanWithError:':
+    'prefix': 'scannerDevice:didCompleteScanWithError:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didCompleteScanWithError:${2:NSError* error})'
+  'scannerDevice:didScanToBandData:':
+    'prefix': 'scannerDevice:didScanToBandData:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didScanToBandData:${2:ICScannerBandData* data})'
+  'scannerDevice:didScanToURL:':
+    'prefix': 'scannerDevice:didScanToURL:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didScanToURL:${2:NSURL* url})'
+  'scannerDevice:didScanToURL:data:':
+    'prefix': 'scannerDevice:didScanToURL:data:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didScanToURL:${2:NSURL* url}, data:${3:NSData* data})'
+  'scannerDevice:didSelectFunctionalUnit:error:':
+    'prefix': 'scannerDevice:didSelectFunctionalUnit:error:'
+    'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didSelectFunctionalUnit:${2:ICScannerFunctionalUnit* functionalUnit}, error:${3:NSError* error})'
+  'scannerDeviceDidBecomeAvailable:':
+    'prefix': 'scannerDeviceDidBecomeAvailable:'
+    'body': 'scannerDeviceDidBecomeAvailable(${1:ICScannerDevice* scanner})'

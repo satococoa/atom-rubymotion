@@ -1,0 +1,331 @@
+'.source.rubymotion':
+  'IMKCandidatesOpacityAttributeName (NSString*)':
+    'prefix': 'IMKCandidatesOpacityAttributeName'
+    'body': 'IMKCandidatesOpacityAttributeName'
+  'IMKCandidatesSendServerKeyEventFirst (NSString*)':
+    'prefix': 'IMKCandidatesSendServerKeyEventFirst'
+    'body': 'IMKCandidatesSendServerKeyEventFirst'
+  'IMKControllerClass (NSString*)':
+    'prefix': 'IMKControllerClass'
+    'body': 'IMKControllerClass'
+  'IMKDelegateClass (NSString*)':
+    'prefix': 'IMKDelegateClass'
+    'body': 'IMKDelegateClass'
+  'IMKModeDictionary (NSString*)':
+    'prefix': 'IMKModeDictionary'
+    'body': 'IMKModeDictionary'
+  'kIMKCommandClientName (NSString*)':
+    'prefix': 'kIMKCommandClientName'
+    'body': 'KIMKCommandClientName'
+  'kIMKCommandMenuItemName (NSString*)':
+    'prefix': 'kIMKCommandMenuItemName'
+    'body': 'KIMKCommandMenuItemName'
+  'kIMKAnnotation (1)':
+    'prefix': 'kIMKAnnotation'
+    'body': 'KIMKAnnotation'
+  'kIMKLocateCandidatesAboveHint (1)':
+    'prefix': 'kIMKLocateCandidatesAboveHint'
+    'body': 'KIMKLocateCandidatesAboveHint'
+  'kIMKLocateCandidatesBelowHint (2)':
+    'prefix': 'kIMKLocateCandidatesBelowHint'
+    'body': 'KIMKLocateCandidatesBelowHint'
+  'kIMKLocateCandidatesLeftHint (3)':
+    'prefix': 'kIMKLocateCandidatesLeftHint'
+    'body': 'KIMKLocateCandidatesLeftHint'
+  'kIMKLocateCandidatesRightHint (4)':
+    'prefix': 'kIMKLocateCandidatesRightHint'
+    'body': 'KIMKLocateCandidatesRightHint'
+  'kIMKMain (0)':
+    'prefix': 'kIMKMain'
+    'body': 'KIMKMain'
+  'kIMKScrollingGridCandidatePanel (2)':
+    'prefix': 'kIMKScrollingGridCandidatePanel'
+    'body': 'KIMKScrollingGridCandidatePanel'
+  'kIMKSingleColumnScrollingCandidatePanel (1)':
+    'prefix': 'kIMKSingleColumnScrollingCandidatePanel'
+    'body': 'KIMKSingleColumnScrollingCandidatePanel'
+  'kIMKSingleRowSteppingCandidatePanel (3)':
+    'prefix': 'kIMKSingleRowSteppingCandidatePanel'
+    'body': 'KIMKSingleRowSteppingCandidatePanel'
+  'kIMKSubList (2)':
+    'prefix': 'kIMKSubList'
+    'body': 'KIMKSubList'
+  'attachChild:toCandidate:type:':
+    'prefix': 'attachChild:toCandidate:type:'
+    'body': 'attachChild(${1:IMKCandidates* child}, toCandidate:${2:NSInteger candidateIdentifier}, type:${3:IMKStyleType theType})'
+  'attributes':
+    'prefix': 'attributes'
+    'body': 'attributes()'
+  'candidateFrame':
+    'prefix': 'candidateFrame'
+    'body': 'candidateFrame()'
+  'candidateIdentifierAtLineNumber:':
+    'prefix': 'candidateIdentifierAtLineNumber:'
+    'body': 'candidateIdentifierAtLineNumber(${1:NSInteger lineNumber})'
+  'candidateStringIdentifier:':
+    'prefix': 'candidateStringIdentifier:'
+    'body': 'candidateStringIdentifier(${1:id candidateString})'
+  'clearSelection':
+    'prefix': 'clearSelection'
+    'body': 'clearSelection()'
+  'detachChild:':
+    'prefix': 'detachChild:'
+    'body': 'detachChild(${1:NSInteger candidateIdentifier})'
+  'dismissesAutomatically':
+    'prefix': 'dismissesAutomatically'
+    'body': 'dismissesAutomatically()'
+  'hide':
+    'prefix': 'hide'
+    'body': 'hide()'
+  'hideChild':
+    'prefix': 'hideChild'
+    'body': 'hideChild()'
+  'initWithServer:panelType:':
+    'prefix': 'initWithServer:panelType:'
+    'body': 'initWithServer(${1:IMKServer* server}, panelType:${2:IMKCandidatePanelType panelType})'
+  'initWithServer:panelType:styleType:':
+    'prefix': 'initWithServer:panelType:styleType:'
+    'body': 'initWithServer(${1:IMKServer* server}, panelType:${2:IMKCandidatePanelType panelType}, styleType:${3:IMKStyleType style})'
+  'isVisible':
+    'prefix': 'isVisible'
+    'body': 'isVisible()'
+  'lineNumberForCandidateWithIdentifier:':
+    'prefix': 'lineNumberForCandidateWithIdentifier:'
+    'body': 'lineNumberForCandidateWithIdentifier(${1:NSInteger candidateIdentifier})'
+  'panelType':
+    'prefix': 'panelType'
+    'body': 'panelType()'
+  'selectCandidate:':
+    'prefix': 'selectCandidate:'
+    'body': 'selectCandidate(${1:NSInteger candidateIdentifier})'
+  'selectCandidateWithIdentifier:':
+    'prefix': 'selectCandidateWithIdentifier:'
+    'body': 'selectCandidateWithIdentifier(${1:NSInteger candidateIdentifier})'
+  'selectedCandidate':
+    'prefix': 'selectedCandidate'
+    'body': 'selectedCandidate()'
+  'selectedCandidateString':
+    'prefix': 'selectedCandidateString'
+    'body': 'selectedCandidateString()'
+  'selectionKeys':
+    'prefix': 'selectionKeys'
+    'body': 'selectionKeys()'
+  'selectionKeysKeylayout':
+    'prefix': 'selectionKeysKeylayout'
+    'body': 'selectionKeysKeylayout()'
+  'setAttributes:':
+    'prefix': 'setAttributes:'
+    'body': 'setAttributes(${1:NSDictionary* attributes})'
+  'setCandidateData:':
+    'prefix': 'setCandidateData:'
+    'body': 'setCandidateData(${1:NSArray* candidatesArray})'
+  'setCandidateFrameTopLeft:':
+    'prefix': 'setCandidateFrameTopLeft:'
+    'body': 'setCandidateFrameTopLeft(${1:NSPoint point})'
+  'setDismissesAutomatically:':
+    'prefix': 'setDismissesAutomatically:'
+    'body': 'setDismissesAutomatically(${1:BOOL flag})'
+  'setPanelType:':
+    'prefix': 'setPanelType:'
+    'body': 'setPanelType(${1:IMKCandidatePanelType panelType})'
+  'setSelectionKeys:':
+    'prefix': 'setSelectionKeys:'
+    'body': 'setSelectionKeys(${1:NSArray* keyCodes})'
+  'setSelectionKeysKeylayout:':
+    'prefix': 'setSelectionKeysKeylayout:'
+    'body': 'setSelectionKeysKeylayout(${1:TISInputSourceRef layout})'
+  'show:':
+    'prefix': 'show:'
+    'body': 'show(${1:IMKCandidatesLocationHint locationHint})'
+  'showAnnotation:':
+    'prefix': 'showAnnotation:'
+    'body': 'showAnnotation(${1:NSAttributedString* annotationString})'
+  'showCandidates':
+    'prefix': 'showCandidates'
+    'body': 'showCandidates()'
+  'showChild':
+    'prefix': 'showChild'
+    'body': 'showChild()'
+  'showSublist:subListDelegate:':
+    'prefix': 'showSublist:subListDelegate:'
+    'body': 'showSublist(${1:NSArray* candidates}, subListDelegate:${2:id delegate})'
+  'updateCandidates':
+    'prefix': 'updateCandidates'
+    'body': 'updateCandidates()'
+  'annotationSelected:forCandidate:':
+    'prefix': 'annotationSelected:forCandidate:'
+    'body': 'annotationSelected(${1:NSAttributedString* annotationString}, forCandidate:${2:NSAttributedString* candidateString})'
+  'cancelComposition':
+    'prefix': 'cancelComposition'
+    'body': 'cancelComposition()'
+  'candidateSelected:':
+    'prefix': 'candidateSelected:'
+    'body': 'candidateSelected(${1:NSAttributedString* candidateString})'
+  'candidateSelectionChanged:':
+    'prefix': 'candidateSelectionChanged:'
+    'body': 'candidateSelectionChanged(${1:NSAttributedString* candidateString})'
+  'client':
+    'prefix': 'client'
+    'body': 'client()'
+  'compositionAttributesAtRange:':
+    'prefix': 'compositionAttributesAtRange:'
+    'body': 'compositionAttributesAtRange(${1:NSRange range})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'doCommandBySelector:commandDictionary:':
+    'prefix': 'doCommandBySelector:commandDictionary:'
+    'body': 'doCommandBySelector(${1:SEL aSelector}, commandDictionary:${2:NSDictionary* infoDictionary})'
+  'hidePalettes':
+    'prefix': 'hidePalettes'
+    'body': 'hidePalettes()'
+  'initWithServer:delegate:client:':
+    'prefix': 'initWithServer:delegate:client:'
+    'body': 'initWithServer(${1:IMKServer* server}, delegate:${2:id delegate}, client:${3:id inputClient})'
+  'inputControllerWillClose':
+    'prefix': 'inputControllerWillClose'
+    'body': 'inputControllerWillClose()'
+  'markForStyle:atRange:':
+    'prefix': 'markForStyle:atRange:'
+    'body': 'markForStyle(${1:NSInteger style}, atRange:${2:NSRange range})'
+  'menu':
+    'prefix': 'menu'
+    'body': 'menu()'
+  'replacementRange':
+    'prefix': 'replacementRange'
+    'body': 'replacementRange()'
+  'selectionRange':
+    'prefix': 'selectionRange'
+    'body': 'selectionRange()'
+  'server':
+    'prefix': 'server'
+    'body': 'server()'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id newDelegate})'
+  'updateComposition':
+    'prefix': 'updateComposition'
+    'body': 'updateComposition()'
+  'bundle':
+    'prefix': 'bundle'
+    'body': 'bundle()'
+  'initWithName:bundleIdentifier:':
+    'prefix': 'initWithName:bundleIdentifier:'
+    'body': 'initWithName(${1:NSString* name}, bundleIdentifier:${2:NSString* bundleIdentifier})'
+  'initWithName:controllerClass:delegateClass:':
+    'prefix': 'initWithName:controllerClass:delegateClass:'
+    'body': 'initWithName(${1:NSString* name}, controllerClass:${2:Class controllerClassID}, delegateClass:${3:Class delegateClassID})'
+  'lastKeyEventWasDeadKey':
+    'prefix': 'lastKeyEventWasDeadKey'
+    'body': 'lastKeyEventWasDeadKey()'
+  'paletteWillTerminate':
+    'prefix': 'paletteWillTerminate'
+    'body': 'paletteWillTerminate()'
+  'activateServer:':
+    'prefix': 'activateServer:'
+    'body': 'activateServer(${1:id sender})'
+  'candidates:':
+    'prefix': 'candidates:'
+    'body': 'candidates(${1:id sender})'
+  'commitComposition:':
+    'prefix': 'commitComposition:'
+    'body': 'commitComposition(${1:id sender})'
+  'composedString:':
+    'prefix': 'composedString:'
+    'body': 'composedString(${1:id sender})'
+  'deactivateServer:':
+    'prefix': 'deactivateServer:'
+    'body': 'deactivateServer(${1:id sender})'
+  'didCommandBySelector:client:':
+    'prefix': 'didCommandBySelector:client:'
+    'body': 'didCommandBySelector(${1:SEL aSelector}, client:${2:id sender})'
+  'handleEvent:client:':
+    'prefix': 'handleEvent:client:'
+    'body': 'handleEvent(${1:NSEvent* event}, client:${2:id sender})'
+  'inputText:client:':
+    'prefix': 'inputText:client:'
+    'body': 'inputText(${1:NSString* string}, client:${2:id sender})'
+  'inputText:key:modifiers:client:':
+    'prefix': 'inputText:key:modifiers:client:'
+    'body': 'inputText(${1:NSString* string}, key:${2:NSInteger keyCode}, modifiers:${3:NSUInteger flags}, client:${4:id sender})'
+  'modes:':
+    'prefix': 'modes:'
+    'body': 'modes(${1:id sender})'
+  'mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client:':
+    'prefix': 'mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client:'
+    'body': 'mouseDownOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, continueTracking:${4:BOOL* keepTracking}, client:${5:id sender})'
+  'mouseMovedOnCharacterIndex:coordinate:withModifier:client:':
+    'prefix': 'mouseMovedOnCharacterIndex:coordinate:withModifier:client:'
+    'body': 'mouseMovedOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, client:${4:id sender})'
+  'mouseUpOnCharacterIndex:coordinate:withModifier:client:':
+    'prefix': 'mouseUpOnCharacterIndex:coordinate:withModifier:client:'
+    'body': 'mouseUpOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, client:${4:id sender})'
+  'originalString:':
+    'prefix': 'originalString:'
+    'body': 'originalString(${1:id sender})'
+  'recognizedEvents:':
+    'prefix': 'recognizedEvents:'
+    'body': 'recognizedEvents(${1:id sender})'
+  'setValue:forTag:client:':
+    'prefix': 'setValue:forTag:client:'
+    'body': 'setValue(${1:id value}, forTag:${2:long tag}, client:${3:id sender})'
+  'showPreferences:':
+    'prefix': 'showPreferences:'
+    'body': 'showPreferences(${1:id sender})'
+  'valueForTag:client:':
+    'prefix': 'valueForTag:client:'
+    'body': 'valueForTag(${1:long tag}, client:${2:id sender})'
+  'mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client:':
+    'prefix': 'mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client:'
+    'body': 'mouseDownOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, continueTracking:${4:BOOL* keepTracking}, client:${5:id sender})'
+  'mouseMovedOnCharacterIndex:coordinate:withModifier:client:':
+    'prefix': 'mouseMovedOnCharacterIndex:coordinate:withModifier:client:'
+    'body': 'mouseMovedOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, client:${4:id sender})'
+  'mouseUpOnCharacterIndex:coordinate:withModifier:client:':
+    'prefix': 'mouseUpOnCharacterIndex:coordinate:withModifier:client:'
+    'body': 'mouseUpOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, client:${4:id sender})'
+  'candidates:':
+    'prefix': 'candidates:'
+    'body': 'candidates(${1:id sender})'
+  'commitComposition:':
+    'prefix': 'commitComposition:'
+    'body': 'commitComposition(${1:id sender})'
+  'composedString:':
+    'prefix': 'composedString:'
+    'body': 'composedString(${1:id sender})'
+  'didCommandBySelector:client:':
+    'prefix': 'didCommandBySelector:client:'
+    'body': 'didCommandBySelector(${1:SEL aSelector}, client:${2:id sender})'
+  'handleEvent:client:':
+    'prefix': 'handleEvent:client:'
+    'body': 'handleEvent(${1:NSEvent* event}, client:${2:id sender})'
+  'inputText:client:':
+    'prefix': 'inputText:client:'
+    'body': 'inputText(${1:NSString* string}, client:${2:id sender})'
+  'inputText:key:modifiers:client:':
+    'prefix': 'inputText:key:modifiers:client:'
+    'body': 'inputText(${1:NSString* string}, key:${2:NSInteger keyCode}, modifiers:${3:NSUInteger flags}, client:${4:id sender})'
+  'originalString:':
+    'prefix': 'originalString:'
+    'body': 'originalString(${1:id sender})'
+  'activateServer:':
+    'prefix': 'activateServer:'
+    'body': 'activateServer(${1:id sender})'
+  'deactivateServer:':
+    'prefix': 'deactivateServer:'
+    'body': 'deactivateServer(${1:id sender})'
+  'modes:':
+    'prefix': 'modes:'
+    'body': 'modes(${1:id sender})'
+  'recognizedEvents:':
+    'prefix': 'recognizedEvents:'
+    'body': 'recognizedEvents(${1:id sender})'
+  'setValue:forTag:client:':
+    'prefix': 'setValue:forTag:client:'
+    'body': 'setValue(${1:id value}, forTag:${2:long tag}, client:${3:id sender})'
+  'showPreferences:':
+    'prefix': 'showPreferences:'
+    'body': 'showPreferences(${1:id sender})'
+  'valueForTag:client:':
+    'prefix': 'valueForTag:client:'
+    'body': 'valueForTag(${1:long tag}, client:${2:id sender})'

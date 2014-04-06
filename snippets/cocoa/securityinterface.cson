@@ -1,0 +1,361 @@
+'.source.rubymotion':
+  'SFAuthorizationPluginViewUserNameKey (NSString*)':
+    'prefix': 'SFAuthorizationPluginViewUserNameKey'
+    'body': 'SFAuthorizationPluginViewUserNameKey'
+  'SFAuthorizationPluginViewUserShortNameKey (NSString*)':
+    'prefix': 'SFAuthorizationPluginViewUserShortNameKey'
+    'body': 'SFAuthorizationPluginViewUserShortNameKey'
+  'SFCertificateViewDisclosureStateDidChange (NSString*)':
+    'prefix': 'SFCertificateViewDisclosureStateDidChange'
+    'body': 'SFCertificateViewDisclosureStateDidChange'
+  'SFDisplayViewException (NSString*)':
+    'prefix': 'SFDisplayViewException'
+    'body': 'SFDisplayViewException'
+  'SFAuthorizationStartupState (0)':
+    'prefix': 'SFAuthorizationStartupState'
+    'body': 'SFAuthorizationStartupState'
+  'SFAuthorizationViewInProgressState (2)':
+    'prefix': 'SFAuthorizationViewInProgressState'
+    'body': 'SFAuthorizationViewInProgressState'
+  'SFAuthorizationViewLockedState (1)':
+    'prefix': 'SFAuthorizationViewLockedState'
+    'body': 'SFAuthorizationViewLockedState'
+  'SFAuthorizationViewUnlockedState (3)':
+    'prefix': 'SFAuthorizationViewUnlockedState'
+    'body': 'SFAuthorizationViewUnlockedState'
+  'SFButtonTypeBack (0)':
+    'prefix': 'SFButtonTypeBack'
+    'body': 'SFButtonTypeBack'
+  'SFButtonTypeCancel (0)':
+    'prefix': 'SFButtonTypeCancel'
+    'body': 'SFButtonTypeCancel'
+  'SFButtonTypeLogin (1)':
+    'prefix': 'SFButtonTypeLogin'
+    'body': 'SFButtonTypeLogin'
+  'SFButtonTypeOK (1)':
+    'prefix': 'SFButtonTypeOK'
+    'body': 'SFButtonTypeOK'
+  'SFViewTypeCredentials (1)':
+    'prefix': 'SFViewTypeCredentials'
+    'body': 'SFViewTypeCredentials'
+  'SFViewTypeIdentityAndCredentials (0)':
+    'prefix': 'SFViewTypeIdentityAndCredentials'
+    'body': 'SFViewTypeIdentityAndCredentials'
+  'authorizationViewCreatedAuthorization:':
+    'prefix': 'authorizationViewCreatedAuthorization:'
+    'body': 'authorizationViewCreatedAuthorization(${1:SFAuthorizationView* view})'
+  'authorizationViewDidAuthorize:':
+    'prefix': 'authorizationViewDidAuthorize:'
+    'body': 'authorizationViewDidAuthorize(${1:SFAuthorizationView* view})'
+  'authorizationViewDidDeauthorize:':
+    'prefix': 'authorizationViewDidDeauthorize:'
+    'body': 'authorizationViewDidDeauthorize(${1:SFAuthorizationView* view})'
+  'authorizationViewDidHide:':
+    'prefix': 'authorizationViewDidHide:'
+    'body': 'authorizationViewDidHide(${1:SFAuthorizationView* view})'
+  'authorizationViewReleasedAuthorization:':
+    'prefix': 'authorizationViewReleasedAuthorization:'
+    'body': 'authorizationViewReleasedAuthorization(${1:SFAuthorizationView* view})'
+  'authorizationViewShouldDeauthorize:':
+    'prefix': 'authorizationViewShouldDeauthorize:'
+    'body': 'authorizationViewShouldDeauthorize(${1:SFAuthorizationView* view})'
+  'certificatePanelShowHelp:':
+    'prefix': 'certificatePanelShowHelp:'
+    'body': 'certificatePanelShowHelp(${1:SFCertificatePanel* sender})'
+  'chooseIdentityPanelShowHelp:':
+    'prefix': 'chooseIdentityPanelShowHelp:'
+    'body': 'chooseIdentityPanelShowHelp(${1:SFChooseIdentityPanel* sender})'
+  'buttonPressed:':
+    'prefix': 'buttonPressed:'
+    'body': 'buttonPressed(${1:SFButtonType inButtonType})'
+  'callbacks':
+    'prefix': 'callbacks'
+    'body': 'callbacks()'
+  'didActivate':
+    'prefix': 'didActivate'
+    'body': 'didActivate()'
+  'didDeactivate':
+    'prefix': 'didDeactivate'
+    'body': 'didDeactivate()'
+  'displayView':
+    'prefix': 'displayView'
+    'body': 'displayView()'
+  'engineRef':
+    'prefix': 'engineRef'
+    'body': 'engineRef()'
+  'firstKeyView':
+    'prefix': 'firstKeyView'
+    'body': 'firstKeyView()'
+  'firstResponder':
+    'prefix': 'firstResponder'
+    'body': 'firstResponder()'
+  'initWithCallbacks:andEngineRef:':
+    'prefix': 'initWithCallbacks:andEngineRef:'
+    'body': 'initWithCallbacks(${1:AuthorizationCallbacks* callbacks}, andEngineRef:${2:AuthorizationEngineRef engineRef})'
+  'lastError':
+    'prefix': 'lastError'
+    'body': 'lastError()'
+  'lastKeyView':
+    'prefix': 'lastKeyView'
+    'body': 'lastKeyView()'
+  'setButton:enabled:':
+    'prefix': 'setButton:enabled:'
+    'body': 'setButton(${1:SFButtonType inButtonType}, enabled:${2:BOOL inEnabled})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL inEnabled})'
+  'updateView':
+    'prefix': 'updateView'
+    'body': 'updateView()'
+  'viewForType:':
+    'prefix': 'viewForType:'
+    'body': 'viewForType(${1:SFViewType inType})'
+  'willActivateWithUser:':
+    'prefix': 'willActivateWithUser:'
+    'body': 'willActivateWithUser(${1:NSDictionary* inUserInformation})'
+  'authorization':
+    'prefix': 'authorization'
+    'body': 'authorization()'
+  'authorizationRights':
+    'prefix': 'authorizationRights'
+    'body': 'authorizationRights()'
+  'authorizationState':
+    'prefix': 'authorizationState'
+    'body': 'authorizationState()'
+  'authorize:':
+    'prefix': 'authorize:'
+    'body': 'authorize(${1:id inSender})'
+  'deauthorize:':
+    'prefix': 'deauthorize:'
+    'body': 'deauthorize(${1:id inSender})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'isEnabled':
+    'prefix': 'isEnabled'
+    'body': 'isEnabled()'
+  'setAuthorizationRights:':
+    'prefix': 'setAuthorizationRights:'
+    'body': 'setAuthorizationRights(${1:AuthorizationRights* authorizationRights})'
+  'setAutoupdate:':
+    'prefix': 'setAutoupdate:'
+    'body': 'setAutoupdate(${1:BOOL autoupdate})'
+  'setAutoupdate:interval:':
+    'prefix': 'setAutoupdate:interval:'
+    'body': 'setAutoupdate(${1:BOOL autoupdate}, interval:${2:NSTimeInterval interval})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1:BOOL enabled})'
+  'setFlags:':
+    'prefix': 'setFlags:'
+    'body': 'setFlags(${1:AuthorizationFlags flags})'
+  'setString:':
+    'prefix': 'setString:'
+    'body': 'setString(${1:AuthorizationString authorizationString})'
+  'updateStatus:':
+    'prefix': 'updateStatus:'
+    'body': 'updateStatus(${1:id inSender})'
+  'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:certificates:showGroup:':
+    'prefix': 'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:certificates:showGroup:'
+    'body': 'beginSheetForWindow(${1:NSWindow* docWindow}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo}, certificates:${5:NSArray* certificates}, showGroup:${6:BOOL showGroup})'
+  'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:trust:showGroup:':
+    'prefix': 'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:trust:showGroup:'
+    'body': 'beginSheetForWindow(${1:NSWindow* docWindow}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo}, trust:${5:SecTrustRef trust}, showGroup:${6:BOOL showGroup})'
+  'certificateView':
+    'prefix': 'certificateView'
+    'body': 'certificateView()'
+  'helpAnchor':
+    'prefix': 'helpAnchor'
+    'body': 'helpAnchor()'
+  'policies':
+    'prefix': 'policies'
+    'body': 'policies()'
+  'runModalForCertificates:showGroup:':
+    'prefix': 'runModalForCertificates:showGroup:'
+    'body': 'runModalForCertificates(${1:NSArray* certificates}, showGroup:${2:BOOL showGroup})'
+  'runModalForTrust:showGroup:':
+    'prefix': 'runModalForTrust:showGroup:'
+    'body': 'runModalForTrust(${1:SecTrustRef trust}, showGroup:${2:BOOL showGroup})'
+  'setAlternateButtonTitle:':
+    'prefix': 'setAlternateButtonTitle:'
+    'body': 'setAlternateButtonTitle(${1:NSString* title})'
+  'setDefaultButtonTitle:':
+    'prefix': 'setDefaultButtonTitle:'
+    'body': 'setDefaultButtonTitle(${1:NSString* title})'
+  'setHelpAnchor:':
+    'prefix': 'setHelpAnchor:'
+    'body': 'setHelpAnchor(${1:NSString* anchor})'
+  'setPolicies:':
+    'prefix': 'setPolicies:'
+    'body': 'setPolicies(${1:id policies})'
+  'setShowsHelp:':
+    'prefix': 'setShowsHelp:'
+    'body': 'setShowsHelp(${1:BOOL showsHelp})'
+  'SFCertificatePanel.sharedCertificatePanel':
+    'prefix': 'sharedCertificatePanel'
+    'body': 'SFCertificatePanel.sharedCertificatePanel()'
+  'showsHelp':
+    'prefix': 'showsHelp'
+    'body': 'showsHelp()'
+  'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:trust:message:':
+    'prefix': 'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:trust:message:'
+    'body': 'beginSheetForWindow(${1:NSWindow* docWindow}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo}, trust:${5:SecTrustRef trust}, message:${6:NSString* message})'
+  'informativeText':
+    'prefix': 'informativeText'
+    'body': 'informativeText()'
+  'runModalForTrust:message:':
+    'prefix': 'runModalForTrust:message:'
+    'body': 'runModalForTrust(${1:SecTrustRef trust}, message:${2:NSString* message})'
+  'setInformativeText:':
+    'prefix': 'setInformativeText:'
+    'body': 'setInformativeText(${1:NSString* informativeText})'
+  'SFCertificateTrustPanel.sharedCertificateTrustPanel':
+    'prefix': 'sharedCertificateTrustPanel'
+    'body': 'SFCertificateTrustPanel.sharedCertificateTrustPanel()'
+  'certificate':
+    'prefix': 'certificate'
+    'body': 'certificate()'
+  'detailsDisclosed':
+    'prefix': 'detailsDisclosed'
+    'body': 'detailsDisclosed()'
+  'detailsDisplayed':
+    'prefix': 'detailsDisplayed'
+    'body': 'detailsDisplayed()'
+  'isEditable':
+    'prefix': 'isEditable'
+    'body': 'isEditable()'
+  'isTrustDisplayed':
+    'prefix': 'isTrustDisplayed'
+    'body': 'isTrustDisplayed()'
+  'policies':
+    'prefix': 'policies'
+    'body': 'policies()'
+  'policiesDisclosed':
+    'prefix': 'policiesDisclosed'
+    'body': 'policiesDisclosed()'
+  'saveTrustSettings':
+    'prefix': 'saveTrustSettings'
+    'body': 'saveTrustSettings()'
+  'setCertificate:':
+    'prefix': 'setCertificate:'
+    'body': 'setCertificate(${1:SecCertificateRef certificate})'
+  'setDetailsDisclosed:':
+    'prefix': 'setDetailsDisclosed:'
+    'body': 'setDetailsDisclosed(${1:BOOL disclosed})'
+  'setDisplayDetails:':
+    'prefix': 'setDisplayDetails:'
+    'body': 'setDisplayDetails(${1:BOOL display})'
+  'setDisplayTrust:':
+    'prefix': 'setDisplayTrust:'
+    'body': 'setDisplayTrust(${1:BOOL display})'
+  'setEditableTrust:':
+    'prefix': 'setEditableTrust:'
+    'body': 'setEditableTrust(${1:BOOL editable})'
+  'setPolicies:':
+    'prefix': 'setPolicies:'
+    'body': 'setPolicies(${1:id policies})'
+  'setPoliciesDisclosed:':
+    'prefix': 'setPoliciesDisclosed:'
+    'body': 'setPoliciesDisclosed(${1:BOOL disclosed})'
+  'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:identities:message:':
+    'prefix': 'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:identities:message:'
+    'body': 'beginSheetForWindow(${1:NSWindow* docWindow}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo}, identities:${5:NSArray* identities}, message:${6:NSString* message})'
+  'domain':
+    'prefix': 'domain'
+    'body': 'domain()'
+  'helpAnchor':
+    'prefix': 'helpAnchor'
+    'body': 'helpAnchor()'
+  'identity':
+    'prefix': 'identity'
+    'body': 'identity()'
+  'informativeText':
+    'prefix': 'informativeText'
+    'body': 'informativeText()'
+  'policies':
+    'prefix': 'policies'
+    'body': 'policies()'
+  'runModalForIdentities:message:':
+    'prefix': 'runModalForIdentities:message:'
+    'body': 'runModalForIdentities(${1:NSArray* identities}, message:${2:NSString* message})'
+  'setAlternateButtonTitle:':
+    'prefix': 'setAlternateButtonTitle:'
+    'body': 'setAlternateButtonTitle(${1:NSString* title})'
+  'setDefaultButtonTitle:':
+    'prefix': 'setDefaultButtonTitle:'
+    'body': 'setDefaultButtonTitle(${1:NSString* title})'
+  'setDomain:':
+    'prefix': 'setDomain:'
+    'body': 'setDomain(${1:NSString* domainString})'
+  'setHelpAnchor:':
+    'prefix': 'setHelpAnchor:'
+    'body': 'setHelpAnchor(${1:NSString* anchor})'
+  'setInformativeText:':
+    'prefix': 'setInformativeText:'
+    'body': 'setInformativeText(${1:NSString* informativeText})'
+  'setPolicies:':
+    'prefix': 'setPolicies:'
+    'body': 'setPolicies(${1:id policies})'
+  'setShowsHelp:':
+    'prefix': 'setShowsHelp:'
+    'body': 'setShowsHelp(${1:BOOL showsHelp})'
+  'SFChooseIdentityPanel.sharedChooseIdentityPanel':
+    'prefix': 'sharedChooseIdentityPanel'
+    'body': 'SFChooseIdentityPanel.sharedChooseIdentityPanel()'
+  'showsHelp':
+    'prefix': 'showsHelp'
+    'body': 'showsHelp()'
+  'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:':
+    'prefix': 'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:'
+    'body': 'beginSheetForDirectory(${1:NSString* path}, file:${2:NSString* name}, modalForWindow:${3:NSWindow* docWindow}, modalDelegate:${4:id delegate}, didEndSelector:${5:SEL didEndSelector}, contextInfo:${6:void* contextInfo})'
+  'error':
+    'prefix': 'error'
+    'body': 'error()'
+  'keychain':
+    'prefix': 'keychain'
+    'body': 'Keychain()'
+  'runModalForDirectory:file:':
+    'prefix': 'runModalForDirectory:file:'
+    'body': 'runModalForDirectory(${1:NSString* path}, file:${2:NSString* name})'
+  'setPassword:':
+    'prefix': 'setPassword:'
+    'body': 'setPassword(${1:NSString* password})'
+  'SFKeychainSavePanel.sharedKeychainSavePanel':
+    'prefix': 'sharedKeychainSavePanel'
+    'body': 'SFKeychainSavePanel.sharedKeychainSavePanel()'
+  'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:settings:keychain:':
+    'prefix': 'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:settings:keychain:'
+    'body': 'beginSheetForWindow(${1:NSWindow* docWindow}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo}, settings:${5:SecKeychainSettings* settings}, keychain:${6:SecKeychainRef keychain})'
+  'runModalForSettings:keychain:':
+    'prefix': 'runModalForSettings:keychain:'
+    'body': 'runModalForSettings(${1:SecKeychainSettings* settings}, keychain:${2:SecKeychainRef keychain})'
+  'SFKeychainSettingsPanel.sharedKeychainSettingsPanel':
+    'prefix': 'sharedKeychainSettingsPanel'
+    'body': 'SFKeychainSettingsPanel.sharedKeychainSettingsPanel()'
+  'authorizationViewCreatedAuthorization:':
+    'prefix': 'authorizationViewCreatedAuthorization:'
+    'body': 'authorizationViewCreatedAuthorization(${1:SFAuthorizationView* view})'
+  'authorizationViewDidAuthorize:':
+    'prefix': 'authorizationViewDidAuthorize:'
+    'body': 'authorizationViewDidAuthorize(${1:SFAuthorizationView* view})'
+  'authorizationViewDidDeauthorize:':
+    'prefix': 'authorizationViewDidDeauthorize:'
+    'body': 'authorizationViewDidDeauthorize(${1:SFAuthorizationView* view})'
+  'authorizationViewDidHide:':
+    'prefix': 'authorizationViewDidHide:'
+    'body': 'authorizationViewDidHide(${1:SFAuthorizationView* view})'
+  'authorizationViewReleasedAuthorization:':
+    'prefix': 'authorizationViewReleasedAuthorization:'
+    'body': 'authorizationViewReleasedAuthorization(${1:SFAuthorizationView* view})'
+  'authorizationViewShouldDeauthorize:':
+    'prefix': 'authorizationViewShouldDeauthorize:'
+    'body': 'authorizationViewShouldDeauthorize(${1:SFAuthorizationView* view})'
+  'certificatePanelShowHelp:':
+    'prefix': 'certificatePanelShowHelp:'
+    'body': 'certificatePanelShowHelp(${1:SFCertificatePanel* sender})'
+  'chooseIdentityPanelShowHelp:':
+    'prefix': 'chooseIdentityPanelShowHelp:'
+    'body': 'chooseIdentityPanelShowHelp(${1:SFChooseIdentityPanel* sender})'

@@ -1,0 +1,67 @@
+'.source.rubymotion':
+  'kAFPAllowSelfConnection (13)':
+    'prefix': 'kAFPAllowSelfConnection'
+    'body': 'KAFPAllowSelfConnection'
+  'kAFPAllowUNCHIBit (9)':
+    'prefix': 'kAFPAllowUNCHIBit'
+    'body': 'KAFPAllowUNCHIBit'
+  'kAFPAutomountedBit (4)':
+    'prefix': 'kAFPAutomountedBit'
+    'body': 'KAFPAutomountedBit'
+  'kAFPDontBrowse (6)':
+    'prefix': 'kAFPDontBrowse'
+    'body': 'KAFPDontBrowse'
+  'kAFPForceNewSessionBit (3)':
+    'prefix': 'kAFPForceNewSessionBit'
+    'body': 'KAFPForceNewSessionBit'
+  'kAFPMountAllVols (7)':
+    'prefix': 'kAFPMountAllVols'
+    'body': 'KAFPMountAllVols'
+  'kAFPMountPointProvidedBit (2)':
+    'prefix': 'kAFPMountPointProvidedBit'
+    'body': 'KAFPMountPointProvidedBit'
+  'kAFPNoNewMountBit (1)':
+    'prefix': 'kAFPNoNewMountBit'
+    'body': 'KAFPNoNewMountBit'
+  'kAFPSoftMountBit (12)':
+    'prefix': 'kAFPSoftMountBit'
+    'body': 'KAFPSoftMountBit'
+  'kAFPSupressKeychainBit (8)':
+    'prefix': 'kAFPSupressKeychainBit'
+    'body': 'KAFPSupressKeychainBit'
+  'kAFPUseExistingMountBit (0)':
+    'prefix': 'kAFPUseExistingMountBit'
+    'body': 'KAFPUseExistingMountBit'
+  'AFPMountURL':
+    'prefix': 'AFPMountURL'
+    'body': 'AFPMountURL(${1:char* inURL}, ${2:char* inMountPoint}, ${3:UInt32 inMountFlags}, ${4:UInt32 inAltFlags})'
+  'DisposeAFPURL':
+    'prefix': 'DisposeAFPURL'
+    'body': 'DisposeAFPURL(${1:char* url})'
+  'IsAFPURL':
+    'prefix': 'IsAFPURL'
+    'body': 'IsAFPURL(${1:char* url})'
+  'NewAFPURL':
+    'prefix': 'NewAFPURL'
+    'body': 'NewAFPURL(${1:StringPtr protocolName}, ${2:StringPtr serverNameOrHost}, ${3:StringPtr zoneNameOrNULL}, ${4:StringPtr uamName}, ${5:StringPtr userName}, ${6:StringPtr password}, ${7:StringPtr volume}, ${8:StringPtr path})'
+  'ParseAFPURL':
+    'prefix': 'ParseAFPURL'
+    'body': 'ParseAFPURL(${1:char* url}, ${2:StringPtr protocolName}, ${3:StringPtr serverNameOrHost}, ${4:StringPtr zoneNameOr}, ${5:StringPtr uamName}, ${6:StringPtr userName}, ${7:StringPtr password}, ${8:StringPtr volume}, ${9:StringPtr path})'
+  'afp_GetURLFromURLRemountInfo':
+    'prefix': 'afp_GetURLFromURLRemountInfo'
+    'body': 'afp_GetURLFromURLRemountInfo(${1:mountinfo* inRemountinfo}, ${2:size_t inMaxURLlength}, ${3:char* outComplete_URL}, ${4:UInt32 inOptions})'
+  'afp_LLMount':
+    'prefix': 'afp_LLMount'
+    'body': 'afp_LLMount(${1:char* inFullURL}, ${2:char* inMountDir}, ${3:size_t inMaxPath}, ${4:char* outMountPoint}, ${5:UInt32 inOptions})'
+  'afp_LLMountAuth':
+    'prefix': 'afp_LLMountAuth'
+    'body': 'afp_LLMountAuth(${1:char* inTargetURL}, ${2:char* inMountDir}, ${3:size_t inMaxPath}, ${4:char* outMountPoint}, ${5:char* inAuthDomain}, ${6:char* inUserName}, ${7:char* inUAMName}, ${8:void* authenticator}, ${9:size_t authenticatorlength}, ${10:UInt32 inOptions})'
+  'afp_getMountURL':
+    'prefix': 'afp_getMountURL'
+    'body': 'afp_getMountURL(${1:char* inMountPoint}, ${2:size_t inMaxURL}, ${3:char* outMountURL}, ${4:UInt32 inOptions})'
+  'afp_getmountinfo':
+    'prefix': 'afp_getmountinfo'
+    'body': 'afp_getmountinfo(${1:char* inMountPoint}, ${2:size_t inMountInfoMaxSize}, ${3:mountinfo* outMountInfo}, ${4:UInt32 inOptions})'
+  'afp_getmountinfosize':
+    'prefix': 'afp_getmountinfosize'
+    'body': 'afp_getmountinfosize(${1:char* inMountPoint}, ${2:size_t* outSize}, ${3:UInt32 inOptions})'

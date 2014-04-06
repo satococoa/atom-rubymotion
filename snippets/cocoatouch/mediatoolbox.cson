@@ -1,0 +1,28 @@
+'.source.rubymotion':
+  'kMTAudioProcessingTapCallbacksVersion_0 (0)':
+    'prefix': 'kMTAudioProcessingTapCallbacksVersion_0'
+    'body': 'KMTAudioProcessingTapCallbacksVersion_0'
+  'kMTAudioProcessingTapCreationFlag_PostEffects (2)':
+    'prefix': 'kMTAudioProcessingTapCreationFlag_PostEffects'
+    'body': 'KMTAudioProcessingTapCreationFlag_PostEffects'
+  'kMTAudioProcessingTapCreationFlag_PreEffects (1)':
+    'prefix': 'kMTAudioProcessingTapCreationFlag_PreEffects'
+    'body': 'KMTAudioProcessingTapCreationFlag_PreEffects'
+  'kMTAudioProcessingTapFlag_EndOfStream (512)':
+    'prefix': 'kMTAudioProcessingTapFlag_EndOfStream'
+    'body': 'KMTAudioProcessingTapFlag_EndOfStream'
+  'kMTAudioProcessingTapFlag_StartOfStream (256)':
+    'prefix': 'kMTAudioProcessingTapFlag_StartOfStream'
+    'body': 'KMTAudioProcessingTapFlag_StartOfStream'
+  'MTAudioProcessingTapCreate':
+    'prefix': 'MTAudioProcessingTapCreate'
+    'body': 'MTAudioProcessingTapCreate(${1:CFAllocatorRef allocator}, ${2:MTAudioProcessingTapCallbacks* callbacks}, ${3:MTAudioProcessingTapCreationFlags flags}, ${4:MTAudioProcessingTapRef* tapOut})'
+  'MTAudioProcessingTapGetSourceAudio':
+    'prefix': 'MTAudioProcessingTapGetSourceAudio'
+    'body': 'MTAudioProcessingTapGetSourceAudio(${1:MTAudioProcessingTapRef tap}, ${2:CMItemCount numberFrames}, ${3:AudioBufferList* bufferListInOut}, ${4:MTAudioProcessingTapFlags* flagsOut}, ${5:CMTimeRange* timeRangeOut}, ${6:CMItemCount* numberFramesOut})'
+  'MTAudioProcessingTapGetStorage':
+    'prefix': 'MTAudioProcessingTapGetStorage'
+    'body': 'MTAudioProcessingTapGetStorage(${1:MTAudioProcessingTapRef tap})'
+  'MTAudioProcessingTapGetTypeID':
+    'prefix': 'MTAudioProcessingTapGetTypeID'
+    'body': 'MTAudioProcessingTapGetTypeID()'

@@ -1,0 +1,2020 @@
+'.source.rubymotion':
+  'ODFrameworkErrorDomain (NSString*)':
+    'prefix': 'ODFrameworkErrorDomain'
+    'body': 'ODFrameworkErrorDomain'
+  'ODSessionProxyAddress (NSString*)':
+    'prefix': 'ODSessionProxyAddress'
+    'body': 'ODSessionProxyAddress'
+  'ODSessionProxyPassword (NSString*)':
+    'prefix': 'ODSessionProxyPassword'
+    'body': 'ODSessionProxyPassword'
+  'ODSessionProxyPort (NSString*)':
+    'prefix': 'ODSessionProxyPort'
+    'body': 'ODSessionProxyPort'
+  'ODSessionProxyUsername (NSString*)':
+    'prefix': 'ODSessionProxyUsername'
+    'body': 'ODSessionProxyUsername'
+  'ODTrustTypeAnonymous (NSString*)':
+    'prefix': 'ODTrustTypeAnonymous'
+    'body': 'ODTrustTypeAnonymous'
+  'ODTrustTypeJoined (NSString*)':
+    'prefix': 'ODTrustTypeJoined'
+    'body': 'ODTrustTypeJoined'
+  'ODTrustTypeUsingCredentials (NSString*)':
+    'prefix': 'ODTrustTypeUsingCredentials'
+    'body': 'ODTrustTypeUsingCredentials'
+  'ODPacketEncryptionAllow (1)':
+    'prefix': 'ODPacketEncryptionAllow'
+    'body': 'ODPacketEncryptionAllow'
+  'ODPacketEncryptionDisabled (0)':
+    'prefix': 'ODPacketEncryptionDisabled'
+    'body': 'ODPacketEncryptionDisabled'
+  'ODPacketEncryptionRequired (2)':
+    'prefix': 'ODPacketEncryptionRequired'
+    'body': 'ODPacketEncryptionRequired'
+  'ODPacketEncryptionSSL (3)':
+    'prefix': 'ODPacketEncryptionSSL'
+    'body': 'ODPacketEncryptionSSL'
+  'ODPacketSigningAllow (1)':
+    'prefix': 'ODPacketSigningAllow'
+    'body': 'ODPacketSigningAllow'
+  'ODPacketSigningDisabled (0)':
+    'prefix': 'ODPacketSigningDisabled'
+    'body': 'ODPacketSigningDisabled'
+  'ODPacketSigningRequired (2)':
+    'prefix': 'ODPacketSigningRequired'
+    'body': 'ODPacketSigningRequired'
+  'query:foundResults:error:':
+    'prefix': 'query:foundResults:error:'
+    'body': 'query(${1:ODQuery* inQuery}, foundResults:${2:NSArray* inResults}, error:${3:NSError* inError})'
+  'ODAttributeMap.attributeMapWithStaticValue:':
+    'prefix': 'attributeMapWithStaticValue:'
+    'body': 'ODAttributeMap.attributeMapWithStaticValue(${1:NSString* staticValue})'
+  'ODAttributeMap.attributeMapWithValue:':
+    'prefix': 'attributeMapWithValue:'
+    'body': 'ODAttributeMap.attributeMapWithValue(${1:NSString* value})'
+  'customAttributes':
+    'prefix': 'customAttributes'
+    'body': 'customAttributes()'
+  'customQueryFunction':
+    'prefix': 'customQueryFunction'
+    'body': 'customQueryFunction()'
+  'customTranslationFunction':
+    'prefix': 'customTranslationFunction'
+    'body': 'customTranslationFunction()'
+  'setCustomAttributes:':
+    'prefix': 'setCustomAttributes:'
+    'body': 'setCustomAttributes(${1:NSArray* customAttributes})'
+  'setCustomQueryFunction:':
+    'prefix': 'setCustomQueryFunction:'
+    'body': 'setCustomQueryFunction(${1:NSString* customQueryFunction})'
+  'setCustomTranslationFunction:':
+    'prefix': 'setCustomTranslationFunction:'
+    'body': 'setCustomTranslationFunction(${1:NSString* customTranslationFunction})'
+  'setStaticValue:':
+    'prefix': 'setStaticValue:'
+    'body': 'setStaticValue(${1:NSString* staticValue})'
+  'setValue:':
+    'prefix': 'setValue:'
+    'body': 'setValue(${1:NSString* value})'
+  'setVariableSubstitution:':
+    'prefix': 'setVariableSubstitution:'
+    'body': 'setVariableSubstitution(${1:NSString* variableSubstitution})'
+  'value':
+    'prefix': 'value'
+    'body': 'value()'
+  'addTrustType:trustAccount:trustPassword:username:password:joinExisting:error:':
+    'prefix': 'addTrustType:trustAccount:trustPassword:username:password:joinExisting:error:'
+    'body': 'addTrustType(${1:NSString* trustType}, trustAccount:${2:NSString* account}, trustPassword:${3:NSString* accountPassword}, username:${4:NSString* username}, password:${5:NSString* password}, joinExisting:${6:BOOL join}, error:${7:NSError** error})'
+  'authenticationModuleEntries':
+    'prefix': 'authenticationModuleEntries'
+    'body': 'authenticationModuleEntries()'
+  'comment':
+    'prefix': 'comment'
+    'body': 'comment()'
+  'ODConfiguration.configuration':
+    'prefix': 'configuration'
+    'body': 'ODConfiguration.configuration()'
+  'connectionIdleTimeoutInSeconds':
+    'prefix': 'connectionIdleTimeoutInSeconds'
+    'body': 'connectionIdleTimeoutInSeconds()'
+  'connectionSetupTimeoutInSeconds':
+    'prefix': 'connectionSetupTimeoutInSeconds'
+    'body': 'connectionSetupTimeoutInSeconds()'
+  'defaultMappings':
+    'prefix': 'defaultMappings'
+    'body': 'defaultMappings()'
+  'defaultModuleEntries':
+    'prefix': 'defaultModuleEntries'
+    'body': 'defaultModuleEntries()'
+  'discoveryModuleEntries':
+    'prefix': 'discoveryModuleEntries'
+    'body': 'discoveryModuleEntries()'
+  'generalModuleEntries':
+    'prefix': 'generalModuleEntries'
+    'body': 'generalModuleEntries()'
+  'hideRegistration':
+    'prefix': 'hideRegistration'
+    'body': 'hideRegistration()'
+  'manInTheMiddleProtection':
+    'prefix': 'manInTheMiddleProtection'
+    'body': 'manInTheMiddleProtection()'
+  'nodeName':
+    'prefix': 'nodeName'
+    'body': 'nodeName()'
+  'packetEncryption':
+    'prefix': 'packetEncryption'
+    'body': 'packetEncryption()'
+  'packetSigning':
+    'prefix': 'packetSigning'
+    'body': 'packetSigning()'
+  'preferredDestinationHostName':
+    'prefix': 'preferredDestinationHostName'
+    'body': 'preferredDestinationHostName()'
+  'preferredDestinationHostPort':
+    'prefix': 'preferredDestinationHostPort'
+    'body': 'preferredDestinationHostPort()'
+  'queryTimeoutInSeconds':
+    'prefix': 'queryTimeoutInSeconds'
+    'body': 'queryTimeoutInSeconds()'
+  'removeTrustUsingUsername:password:deleteTrustAccount:error:':
+    'prefix': 'removeTrustUsingUsername:password:deleteTrustAccount:error:'
+    'body': 'removeTrustUsingUsername(${1:NSString* username}, password:${2:NSString* password}, deleteTrustAccount:${3:BOOL deleteAccount}, error:${4:NSError** error})'
+  'saveUsingAuthorization:error:':
+    'prefix': 'saveUsingAuthorization:error:'
+    'body': 'saveUsingAuthorization(${1:SFAuthorization* authorization}, error:${2:NSError** error})'
+  'setAuthenticationModuleEntries:':
+    'prefix': 'setAuthenticationModuleEntries:'
+    'body': 'setAuthenticationModuleEntries(${1:NSArray* authenticationModuleEntries})'
+  'setComment:':
+    'prefix': 'setComment:'
+    'body': 'setComment(${1:NSString* comment})'
+  'setConnectionIdleTimeoutInSeconds:':
+    'prefix': 'setConnectionIdleTimeoutInSeconds:'
+    'body': 'setConnectionIdleTimeoutInSeconds(${1:NSInteger connectionIdleTimeoutInSeconds})'
+  'setConnectionSetupTimeoutInSeconds:':
+    'prefix': 'setConnectionSetupTimeoutInSeconds:'
+    'body': 'setConnectionSetupTimeoutInSeconds(${1:NSInteger connectionSetupTimeoutInSeconds})'
+  'setDefaultMappings:':
+    'prefix': 'setDefaultMappings:'
+    'body': 'setDefaultMappings(${1:ODMappings* defaultMappings})'
+  'setDefaultModuleEntries:':
+    'prefix': 'setDefaultModuleEntries:'
+    'body': 'setDefaultModuleEntries(${1:NSArray* defaultModuleEntries})'
+  'setDiscoveryModuleEntries:':
+    'prefix': 'setDiscoveryModuleEntries:'
+    'body': 'setDiscoveryModuleEntries(${1:NSArray* discoveryModuleEntries})'
+  'setGeneralModuleEntries:':
+    'prefix': 'setGeneralModuleEntries:'
+    'body': 'setGeneralModuleEntries(${1:NSArray* generalModuleEntries})'
+  'setHideRegistration:':
+    'prefix': 'setHideRegistration:'
+    'body': 'setHideRegistration(${1:BOOL hideRegistration})'
+  'setManInTheMiddleProtection:':
+    'prefix': 'setManInTheMiddleProtection:'
+    'body': 'setManInTheMiddleProtection(${1:BOOL manInTheMiddleProtection})'
+  'setNodeName:':
+    'prefix': 'setNodeName:'
+    'body': 'setNodeName(${1:NSString* nodeName})'
+  'setPacketEncryption:':
+    'prefix': 'setPacketEncryption:'
+    'body': 'setPacketEncryption(${1:NSInteger packetEncryption})'
+  'setPacketSigning:':
+    'prefix': 'setPacketSigning:'
+    'body': 'setPacketSigning(${1:NSInteger packetSigning})'
+  'setPreferredDestinationHostName:':
+    'prefix': 'setPreferredDestinationHostName:'
+    'body': 'setPreferredDestinationHostName(${1:NSString* preferredDestinationHostName})'
+  'setPreferredDestinationHostPort:':
+    'prefix': 'setPreferredDestinationHostPort:'
+    'body': 'setPreferredDestinationHostPort(${1:uint16_t preferredDestinationHostPort})'
+  'setQueryTimeoutInSeconds:':
+    'prefix': 'setQueryTimeoutInSeconds:'
+    'body': 'setQueryTimeoutInSeconds(${1:NSInteger queryTimeoutInSeconds})'
+  'setTemplateName:':
+    'prefix': 'setTemplateName:'
+    'body': 'setTemplateName(${1:NSString* templateName})'
+  'setVirtualSubnodes:':
+    'prefix': 'setVirtualSubnodes:'
+    'body': 'setVirtualSubnodes(${1:NSArray* virtualSubnodes})'
+  'ODConfiguration.suggestedTrustAccount:':
+    'prefix': 'suggestedTrustAccount:'
+    'body': 'ODConfiguration.suggestedTrustAccount(${1:NSString* hostname})'
+  'ODConfiguration.suggestedTrustPassword:':
+    'prefix': 'suggestedTrustPassword:'
+    'body': 'ODConfiguration.suggestedTrustPassword(${1:size_t length})'
+  'templateName':
+    'prefix': 'templateName'
+    'body': 'templateName()'
+  'trustAccount':
+    'prefix': 'trustAccount'
+    'body': 'trustAccount()'
+  'trustKerberosPrincipal':
+    'prefix': 'trustKerberosPrincipal'
+    'body': 'trustKerberosPrincipal()'
+  'trustMetaAccount':
+    'prefix': 'trustMetaAccount'
+    'body': 'trustMetaAccount()'
+  'trustType':
+    'prefix': 'trustType'
+    'body': 'trustType()'
+  'trustUsesKerberosKeytab':
+    'prefix': 'trustUsesKerberosKeytab'
+    'body': 'trustUsesKerberosKeytab()'
+  'trustUsesMutualAuthentication':
+    'prefix': 'trustUsesMutualAuthentication'
+    'body': 'trustUsesMutualAuthentication()'
+  'trustUsesSystemKeychain':
+    'prefix': 'trustUsesSystemKeychain'
+    'body': 'trustUsesSystemKeychain()'
+  'virtualSubnodes':
+    'prefix': 'virtualSubnodes'
+    'body': 'virtualSubnodes()'
+  'comment':
+    'prefix': 'comment'
+    'body': 'comment()'
+  'function':
+    'prefix': 'function'
+    'body': 'function()'
+  'functionAttributes':
+    'prefix': 'functionAttributes'
+    'body': 'functionAttributes()'
+  'identifier':
+    'prefix': 'identifier'
+    'body': 'identifier()'
+  'ODMappings.mappings':
+    'prefix': 'mappings'
+    'body': 'ODMappings.mappings()'
+  'recordMapForStandardRecordType:':
+    'prefix': 'recordMapForStandardRecordType:'
+    'body': 'recordMapForStandardRecordType(${1:NSString* stdType})'
+  'recordTypes':
+    'prefix': 'recordTypes'
+    'body': 'recordTypes()'
+  'setComment:':
+    'prefix': 'setComment:'
+    'body': 'setComment(${1:NSString* comment})'
+  'setFunction:':
+    'prefix': 'setFunction:'
+    'body': 'setFunction(${1:NSString* function})'
+  'setFunctionAttributes:':
+    'prefix': 'setFunctionAttributes:'
+    'body': 'setFunctionAttributes(${1:NSArray* functionAttributes})'
+  'setIdentifier:':
+    'prefix': 'setIdentifier:'
+    'body': 'setIdentifier(${1:NSString* identifier})'
+  'setRecordMap:forStandardRecordType:':
+    'prefix': 'setRecordMap:forStandardRecordType:'
+    'body': 'setRecordMap(${1:ODRecordMap* map}, forStandardRecordType:${2:NSString* stdType})'
+  'setTemplateName:':
+    'prefix': 'setTemplateName:'
+    'body': 'setTemplateName(${1:NSString* templateName})'
+  'templateName':
+    'prefix': 'templateName'
+    'body': 'templateName()'
+  'mappings':
+    'prefix': 'mappings'
+    'body': 'mappings()'
+  'ODModuleEntry.moduleEntryWithName:xpcServiceName:':
+    'prefix': 'moduleEntryWithName:xpcServiceName:'
+    'body': 'ODModuleEntry.moduleEntryWithName(${1:NSString* name}, xpcServiceName:${2:NSString* xpcServiceName})'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'option:':
+    'prefix': 'option:'
+    'body': 'option(${1:NSString* optionName})'
+  'setMappings:':
+    'prefix': 'setMappings:'
+    'body': 'setMappings(${1:ODMappings* mappings})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1:NSString* name})'
+  'setOption:value:':
+    'prefix': 'setOption:value:'
+    'body': 'setOption(${1:NSString* optionName}, value:${2:id value})'
+  'setUuidString:':
+    'prefix': 'setUuidString:'
+    'body': 'setUuidString(${1:NSString* uuidString})'
+  'setXpcServiceName:':
+    'prefix': 'setXpcServiceName:'
+    'body': 'setXpcServiceName(${1:NSString* xpcServiceName})'
+  'supportedOptions':
+    'prefix': 'supportedOptions'
+    'body': 'supportedOptions()'
+  'uuidString':
+    'prefix': 'uuidString'
+    'body': 'uuidString()'
+  'xpcServiceName':
+    'prefix': 'xpcServiceName'
+    'body': 'xpcServiceName()'
+  'configuration':
+    'prefix': 'configuration'
+    'body': 'configuration()'
+  'createRecordWithRecordType:name:attributes:error:':
+    'prefix': 'createRecordWithRecordType:name:attributes:error:'
+    'body': 'createRecordWithRecordType(${1:ODRecordType inRecordType}, name:${2:NSString* inRecordName}, attributes:${3:NSDictionary* inAttributes}, error:${4:NSError** outError})'
+  'customCall:sendData:error:':
+    'prefix': 'customCall:sendData:error:'
+    'body': 'customCall(${1:NSInteger inCustomCode}, sendData:${2:NSData* inSendData}, error:${3:NSError** outError})'
+  'customFunction:payload:error:':
+    'prefix': 'customFunction:payload:error:'
+    'body': 'customFunction(${1:NSString* function}, payload:${2:id payload}, error:${3:NSError** error})'
+  'initWithSession:name:error:':
+    'prefix': 'initWithSession:name:error:'
+    'body': 'initWithSession(${1:ODSession* inSession}, name:${2:NSString* inName}, error:${3:NSError** outError})'
+  'initWithSession:type:error:':
+    'prefix': 'initWithSession:type:error:'
+    'body': 'initWithSession(${1:ODSession* inSession}, type:${2:ODNodeType inType}, error:${3:NSError** outError})'
+  'nodeDetailsForKeys:error:':
+    'prefix': 'nodeDetailsForKeys:error:'
+    'body': 'nodeDetailsForKeys(${1:NSArray* inKeys}, error:${2:NSError** outError})'
+  'nodeName':
+    'prefix': 'nodeName'
+    'body': 'nodeName()'
+  'ODNode.nodeWithSession:name:error:':
+    'prefix': 'nodeWithSession:name:error:'
+    'body': 'ODNode.nodeWithSession(${1:ODSession* inSession}, name:${2:NSString* inName}, error:${3:NSError** outError})'
+  'ODNode.nodeWithSession:type:error:':
+    'prefix': 'nodeWithSession:type:error:'
+    'body': 'ODNode.nodeWithSession(${1:ODSession* inSession}, type:${2:ODNodeType inType}, error:${3:NSError** outError})'
+  'policiesAndReturnError:':
+    'prefix': 'policiesAndReturnError:'
+    'body': 'policiesAndReturnError(${1:NSError** error})'
+  'recordWithRecordType:name:attributes:error:':
+    'prefix': 'recordWithRecordType:name:attributes:error:'
+    'body': 'recordWithRecordType(${1:ODRecordType inRecordType}, name:${2:NSString* inRecordName}, attributes:${3:id inAttributes}, error:${4:NSError** outError})'
+  'removePolicy:error:':
+    'prefix': 'removePolicy:error:'
+    'body': 'removePolicy(${1:ODPolicyType policy}, error:${2:NSError** error})'
+  'setCredentialsUsingKerberosCache:error:':
+    'prefix': 'setCredentialsUsingKerberosCache:error:'
+    'body': 'setCredentialsUsingKerberosCache(${1:NSString* inCacheName}, error:${2:NSError** outError})'
+  'setCredentialsWithRecordType:authenticationType:authenticationItems:continueItems:context:error:':
+    'prefix': 'setCredentialsWithRecordType:authenticationType:authenticationItems:continueItems:context:error:'
+    'body': 'setCredentialsWithRecordType(${1:ODRecordType inRecordType}, authenticationType:${2:ODAuthenticationType inType}, authenticationItems:${3:NSArray* inItems}, continueItems:${4:NSArray** outItems}, context:${5:id* outContext}, error:${6:NSError** outError})'
+  'setCredentialsWithRecordType:recordName:password:error:':
+    'prefix': 'setCredentialsWithRecordType:recordName:password:error:'
+    'body': 'setCredentialsWithRecordType(${1:ODRecordType inRecordType}, recordName:${2:NSString* inRecordName}, password:${3:NSString* inPassword}, error:${4:NSError** outError})'
+  'setPolicies:error:':
+    'prefix': 'setPolicies:error:'
+    'body': 'setPolicies(${1:NSDictionary* policies}, error:${2:NSError** error})'
+  'setPolicy:value:error:':
+    'prefix': 'setPolicy:value:error:'
+    'body': 'setPolicy(${1:ODPolicyType policy}, value:${2:id value}, error:${3:NSError** error})'
+  'subnodeNamesAndReturnError:':
+    'prefix': 'subnodeNamesAndReturnError:'
+    'body': 'subnodeNamesAndReturnError(${1:NSError** outError})'
+  'supportedAttributesForRecordType:error:':
+    'prefix': 'supportedAttributesForRecordType:error:'
+    'body': 'supportedAttributesForRecordType(${1:ODRecordType inRecordType}, error:${2:NSError** outError})'
+  'supportedPoliciesAndReturnError:':
+    'prefix': 'supportedPoliciesAndReturnError:'
+    'body': 'supportedPoliciesAndReturnError(${1:NSError** error})'
+  'supportedRecordTypesAndReturnError:':
+    'prefix': 'supportedRecordTypesAndReturnError:'
+    'body': 'supportedRecordTypesAndReturnError(${1:NSError** outError})'
+  'unreachableSubnodeNamesAndReturnError:':
+    'prefix': 'unreachableSubnodeNamesAndReturnError:'
+    'body': 'unreachableSubnodeNamesAndReturnError(${1:NSError** outError})'
+  'delegate':
+    'prefix': 'delegate'
+    'body': 'delegate()'
+  'initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:':
+    'prefix': 'initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:'
+    'body': 'initWithNode(${1:ODNode* inNode}, forRecordTypes:${2:id inRecordTypeOrList}, attribute:${3:ODAttributeType inAttribute}, matchType:${4:ODMatchType inMatchType}, queryValues:${5:id inQueryValueOrList}, returnAttributes:${6:id inReturnAttributeOrList}, maximumResults:${7:NSInteger inMaximumResults}, error:${8:NSError** outError})'
+  'operationQueue':
+    'prefix': 'operationQueue'
+    'body': 'operationQueue()'
+  'ODQuery.queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:':
+    'prefix': 'queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:'
+    'body': 'ODQuery.queryWithNode(${1:ODNode* inNode}, forRecordTypes:${2:id inRecordTypeOrList}, attribute:${3:ODAttributeType inAttribute}, matchType:${4:ODMatchType inMatchType}, queryValues:${5:id inQueryValueOrList}, returnAttributes:${6:id inReturnAttributeOrList}, maximumResults:${7:NSInteger inMaximumResults}, error:${8:NSError** outError})'
+  'removeFromRunLoop:forMode:':
+    'prefix': 'removeFromRunLoop:forMode:'
+    'body': 'removeFromRunLoop(${1:NSRunLoop* inRunLoop}, forMode:${2:NSString* inMode})'
+  'resultsAllowingPartial:error:':
+    'prefix': 'resultsAllowingPartial:error:'
+    'body': 'resultsAllowingPartial(${1:BOOL inAllowPartialResults}, error:${2:NSError** outError})'
+  'scheduleInRunLoop:forMode:':
+    'prefix': 'scheduleInRunLoop:forMode:'
+    'body': 'scheduleInRunLoop(${1:NSRunLoop* inRunLoop}, forMode:${2:NSString* inMode})'
+  'setDelegate:':
+    'prefix': 'setDelegate:'
+    'body': 'setDelegate(${1:id delegate})'
+  'setOperationQueue:':
+    'prefix': 'setOperationQueue:'
+    'body': 'setOperationQueue(${1:NSOperationQueue* operationQueue})'
+  'synchronize':
+    'prefix': 'synchronize'
+    'body': 'synchronize()'
+  'addMemberRecord:error:':
+    'prefix': 'addMemberRecord:error:'
+    'body': 'addMemberRecord(${1:ODRecord* inRecord}, error:${2:NSError** outError})'
+  'addValue:toAttribute:error:':
+    'prefix': 'addValue:toAttribute:error:'
+    'body': 'addValue(${1:id inValue}, toAttribute:${2:ODAttributeType inAttribute}, error:${3:NSError** outError})'
+  'changePassword:toPassword:error:':
+    'prefix': 'changePassword:toPassword:error:'
+    'body': 'changePassword(${1:NSString* oldPassword}, toPassword:${2:NSString* newPassword}, error:${3:NSError** outError})'
+  'deleteRecordAndReturnError:':
+    'prefix': 'deleteRecordAndReturnError:'
+    'body': 'deleteRecordAndReturnError(${1:NSError** outError})'
+  'effectivePoliciesAndReturnError:':
+    'prefix': 'effectivePoliciesAndReturnError:'
+    'body': 'effectivePoliciesAndReturnError(${1:NSError** error})'
+  'isMemberRecord:error:':
+    'prefix': 'isMemberRecord:error:'
+    'body': 'isMemberRecord(${1:ODRecord* inRecord}, error:${2:NSError** outError})'
+  'passwordPolicyAndReturnError:':
+    'prefix': 'passwordPolicyAndReturnError:'
+    'body': 'passwordPolicyAndReturnError(${1:NSError** outError})'
+  'policiesAndReturnError:':
+    'prefix': 'policiesAndReturnError:'
+    'body': 'policiesAndReturnError(${1:NSError** error})'
+  'recordDetailsForAttributes:error:':
+    'prefix': 'recordDetailsForAttributes:error:'
+    'body': 'recordDetailsForAttributes(${1:NSArray* inAttributes}, error:${2:NSError** outError})'
+  'recordName':
+    'prefix': 'recordName'
+    'body': 'recordName()'
+  'recordType':
+    'prefix': 'recordType'
+    'body': 'recordType()'
+  'removeMemberRecord:error:':
+    'prefix': 'removeMemberRecord:error:'
+    'body': 'removeMemberRecord(${1:ODRecord* inRecord}, error:${2:NSError** outError})'
+  'removePolicy:error:':
+    'prefix': 'removePolicy:error:'
+    'body': 'removePolicy(${1:ODPolicyType policy}, error:${2:NSError** error})'
+  'removeValue:fromAttribute:error:':
+    'prefix': 'removeValue:fromAttribute:error:'
+    'body': 'removeValue(${1:id inValue}, fromAttribute:${2:ODAttributeType inAttribute}, error:${3:NSError** outError})'
+  'removeValuesForAttribute:error:':
+    'prefix': 'removeValuesForAttribute:error:'
+    'body': 'removeValuesForAttribute(${1:ODAttributeType inAttribute}, error:${2:NSError** outError})'
+  'setNodeCredentials:password:error:':
+    'prefix': 'setNodeCredentials:password:error:'
+    'body': 'setNodeCredentials(${1:NSString* inUsername}, password:${2:NSString* inPassword}, error:${3:NSError** outError})'
+  'setNodeCredentialsUsingKerberosCache:error:':
+    'prefix': 'setNodeCredentialsUsingKerberosCache:error:'
+    'body': 'setNodeCredentialsUsingKerberosCache(${1:NSString* inCacheName}, error:${2:NSError** outError})'
+  'setNodeCredentialsWithRecordType:authenticationType:authenticationItems:continueItems:context:error:':
+    'prefix': 'setNodeCredentialsWithRecordType:authenticationType:authenticationItems:continueItems:context:error:'
+    'body': 'setNodeCredentialsWithRecordType(${1:ODRecordType inRecordType}, authenticationType:${2:ODAuthenticationType inType}, authenticationItems:${3:NSArray* inItems}, continueItems:${4:NSArray** outItems}, context:${5:id* outContext}, error:${6:NSError** outError})'
+  'setPolicies:error:':
+    'prefix': 'setPolicies:error:'
+    'body': 'setPolicies(${1:NSDictionary* policies}, error:${2:NSError** error})'
+  'setPolicy:value:error:':
+    'prefix': 'setPolicy:value:error:'
+    'body': 'setPolicy(${1:ODPolicyType policy}, value:${2:id value}, error:${3:NSError** error})'
+  'setValue:forAttribute:error:':
+    'prefix': 'setValue:forAttribute:error:'
+    'body': 'setValue(${1:id inValueOrValues}, forAttribute:${2:ODAttributeType inAttribute}, error:${3:NSError** outError})'
+  'supportedPoliciesAndReturnError:':
+    'prefix': 'supportedPoliciesAndReturnError:'
+    'body': 'supportedPoliciesAndReturnError(${1:NSError** error})'
+  'synchronizeAndReturnError:':
+    'prefix': 'synchronizeAndReturnError:'
+    'body': 'synchronizeAndReturnError(${1:NSError** outError})'
+  'valuesForAttribute:error:':
+    'prefix': 'valuesForAttribute:error:'
+    'body': 'valuesForAttribute(${1:ODAttributeType inAttribute}, error:${2:NSError** outError})'
+  'verifyExtendedWithAuthenticationType:authenticationItems:continueItems:context:error:':
+    'prefix': 'verifyExtendedWithAuthenticationType:authenticationItems:continueItems:context:error:'
+    'body': 'verifyExtendedWithAuthenticationType(${1:ODAuthenticationType inType}, authenticationItems:${2:NSArray* inItems}, continueItems:${3:NSArray** outItems}, context:${4:id* outContext}, error:${5:NSError** outError})'
+  'verifyPassword:error:':
+    'prefix': 'verifyPassword:error:'
+    'body': 'verifyPassword(${1:NSString* inPassword}, error:${2:NSError** outError})'
+  'attributeMapForStandardAttribute:':
+    'prefix': 'attributeMapForStandardAttribute:'
+    'body': 'attributeMapForStandardAttribute(${1:NSString* standardAttribute})'
+  'attributes':
+    'prefix': 'attributes'
+    'body': 'attributes()'
+  'native':
+    'prefix': 'native'
+    'body': 'native()'
+  'odPredicate':
+    'prefix': 'odPredicate'
+    'body': 'odPredicate()'
+  'ODRecordMap.recordMap':
+    'prefix': 'recordMap'
+    'body': 'ODRecordMap.recordMap()'
+  'setAttributeMap:forStandardAttribute:':
+    'prefix': 'setAttributeMap:forStandardAttribute:'
+    'body': 'setAttributeMap(${1:ODAttributeMap* attributeMap}, forStandardAttribute:${2:NSString* standardAttribute})'
+  'setNative:':
+    'prefix': 'setNative:'
+    'body': 'setNative(${1:NSString* native})'
+  'setOdPredicate:':
+    'prefix': 'setOdPredicate:'
+    'body': 'setOdPredicate(${1:NSDictionary* odPredicate})'
+  'standardAttributeTypes':
+    'prefix': 'standardAttributeTypes'
+    'body': 'standardAttributeTypes()'
+  'addConfiguration:authorization:error:':
+    'prefix': 'addConfiguration:authorization:error:'
+    'body': 'addConfiguration(${1:ODConfiguration* configuration}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
+  'configurationAuthorizationAllowingUserInteraction:error:':
+    'prefix': 'configurationAuthorizationAllowingUserInteraction:error:'
+    'body': 'configurationAuthorizationAllowingUserInteraction(${1:BOOL allowInteraction}, error:${2:NSError** error})'
+  'configurationForNodename:':
+    'prefix': 'configurationForNodename:'
+    'body': 'configurationForNodename(${1:NSString* nodename})'
+  'configurationTemplateNames':
+    'prefix': 'configurationTemplateNames'
+    'body': 'configurationTemplateNames()'
+  'ODSession.defaultSession':
+    'prefix': 'defaultSession'
+    'body': 'ODSession.defaultSession()'
+  'deleteConfiguration:authorization:error:':
+    'prefix': 'deleteConfiguration:authorization:error:'
+    'body': 'deleteConfiguration(${1:ODConfiguration* configuration}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
+  'deleteConfigurationWithNodename:authorization:error:':
+    'prefix': 'deleteConfigurationWithNodename:authorization:error:'
+    'body': 'deleteConfigurationWithNodename(${1:NSString* nodename}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
+  'initWithOptions:error:':
+    'prefix': 'initWithOptions:error:'
+    'body': 'initWithOptions(${1:NSDictionary* inOptions}, error:${2:NSError** outError})'
+  'mappingTemplateNames':
+    'prefix': 'mappingTemplateNames'
+    'body': 'mappingTemplateNames()'
+  'nodeNamesAndReturnError:':
+    'prefix': 'nodeNamesAndReturnError:'
+    'body': 'nodeNamesAndReturnError(${1:NSError** outError})'
+  'ODSession.sessionWithOptions:error:':
+    'prefix': 'sessionWithOptions:error:'
+    'body': 'ODSession.sessionWithOptions(${1:NSDictionary* inOptions}, error:${2:NSError** outError})'
+  'query:foundResults:error:':
+    'prefix': 'query:foundResults:error:'
+    'body': 'query(${1:ODQuery* inQuery}, foundResults:${2:NSArray* inResults}, error:${3:NSError* inError})'
+  'kODAttributeTypeAccessControlEntry (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAccessControlEntry'
+    'body': 'KODAttributeTypeAccessControlEntry'
+  'kODAttributeTypeAddressLine1 (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAddressLine1'
+    'body': 'KODAttributeTypeAddressLine1'
+  'kODAttributeTypeAddressLine2 (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAddressLine2'
+    'body': 'KODAttributeTypeAddressLine2'
+  'kODAttributeTypeAddressLine3 (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAddressLine3'
+    'body': 'KODAttributeTypeAddressLine3'
+  'kODAttributeTypeAdminLimits (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAdminLimits'
+    'body': 'KODAttributeTypeAdminLimits'
+  'kODAttributeTypeAdvertisedServices (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAdvertisedServices'
+    'body': 'KODAttributeTypeAdvertisedServices'
+  'kODAttributeTypeAlias (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAlias'
+    'body': 'KODAttributeTypeAlias'
+  'kODAttributeTypeAllAttributes (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAllAttributes'
+    'body': 'KODAttributeTypeAllAttributes'
+  'kODAttributeTypeAllTypes (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAllTypes'
+    'body': 'KODAttributeTypeAllTypes'
+  'kODAttributeTypeAltSecurityIdentities (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAltSecurityIdentities'
+    'body': 'KODAttributeTypeAltSecurityIdentities'
+  'kODAttributeTypeAreaCode (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAreaCode'
+    'body': 'KODAttributeTypeAreaCode'
+  'kODAttributeTypeAttrListRefCount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAttrListRefCount'
+    'body': 'KODAttributeTypeAttrListRefCount'
+  'kODAttributeTypeAttrListRefs (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAttrListRefs'
+    'body': 'KODAttributeTypeAttrListRefs'
+  'kODAttributeTypeAttrListValueRefCount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAttrListValueRefCount'
+    'body': 'KODAttributeTypeAttrListValueRefCount'
+  'kODAttributeTypeAttrListValueRefs (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAttrListValueRefs'
+    'body': 'KODAttributeTypeAttrListValueRefs'
+  'kODAttributeTypeAuthCredential (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAuthCredential'
+    'body': 'KODAttributeTypeAuthCredential'
+  'kODAttributeTypeAuthMethod (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAuthMethod'
+    'body': 'KODAttributeTypeAuthMethod'
+  'kODAttributeTypeAuthenticationAuthority (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAuthenticationAuthority'
+    'body': 'KODAttributeTypeAuthenticationAuthority'
+  'kODAttributeTypeAuthenticationHint (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAuthenticationHint'
+    'body': 'KODAttributeTypeAuthenticationHint'
+  'kODAttributeTypeAuthorityRevocationList (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAuthorityRevocationList'
+    'body': 'KODAttributeTypeAuthorityRevocationList'
+  'kODAttributeTypeAutomaticSearchPath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAutomaticSearchPath'
+    'body': 'KODAttributeTypeAutomaticSearchPath'
+  'kODAttributeTypeAutomountInformation (ODAttributeType)':
+    'prefix': 'kODAttributeTypeAutomountInformation'
+    'body': 'KODAttributeTypeAutomountInformation'
+  'kODAttributeTypeBirthday (ODAttributeType)':
+    'prefix': 'kODAttributeTypeBirthday'
+    'body': 'KODAttributeTypeBirthday'
+  'kODAttributeTypeBootParams (ODAttributeType)':
+    'prefix': 'kODAttributeTypeBootParams'
+    'body': 'KODAttributeTypeBootParams'
+  'kODAttributeTypeBuildVersion (ODAttributeType)':
+    'prefix': 'kODAttributeTypeBuildVersion'
+    'body': 'KODAttributeTypeBuildVersion'
+  'kODAttributeTypeBuilding (ODAttributeType)':
+    'prefix': 'kODAttributeTypeBuilding'
+    'body': 'KODAttributeTypeBuilding'
+  'kODAttributeTypeCACertificate (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCACertificate'
+    'body': 'KODAttributeTypeCACertificate'
+  'kODAttributeTypeCapacity (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCapacity'
+    'body': 'KODAttributeTypeCapacity'
+  'kODAttributeTypeCertificateRevocationList (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCertificateRevocationList'
+    'body': 'KODAttributeTypeCertificateRevocationList'
+  'kODAttributeTypeCity (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCity'
+    'body': 'KODAttributeTypeCity'
+  'kODAttributeTypeComment (ODAttributeType)':
+    'prefix': 'kODAttributeTypeComment'
+    'body': 'KODAttributeTypeComment'
+  'kODAttributeTypeCompany (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCompany'
+    'body': 'KODAttributeTypeCompany'
+  'kODAttributeTypeComputers (ODAttributeType)':
+    'prefix': 'kODAttributeTypeComputers'
+    'body': 'KODAttributeTypeComputers'
+  'kODAttributeTypeConfigAvailable (ODAttributeType)':
+    'prefix': 'kODAttributeTypeConfigAvailable'
+    'body': 'KODAttributeTypeConfigAvailable'
+  'kODAttributeTypeConfigFile (ODAttributeType)':
+    'prefix': 'kODAttributeTypeConfigFile'
+    'body': 'KODAttributeTypeConfigFile'
+  'kODAttributeTypeContactGUID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeContactGUID'
+    'body': 'KODAttributeTypeContactGUID'
+  'kODAttributeTypeContactPerson (ODAttributeType)':
+    'prefix': 'kODAttributeTypeContactPerson'
+    'body': 'KODAttributeTypeContactPerson'
+  'kODAttributeTypeCopyTimestamp (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCopyTimestamp'
+    'body': 'KODAttributeTypeCopyTimestamp'
+  'kODAttributeTypeCoreFWVersion (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCoreFWVersion'
+    'body': 'KODAttributeTypeCoreFWVersion'
+  'kODAttributeTypeCountry (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCountry'
+    'body': 'KODAttributeTypeCountry'
+  'kODAttributeTypeCreationTimestamp (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCreationTimestamp'
+    'body': 'KODAttributeTypeCreationTimestamp'
+  'kODAttributeTypeCrossCertificatePair (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCrossCertificatePair'
+    'body': 'KODAttributeTypeCrossCertificatePair'
+  'kODAttributeTypeCustomSearchPath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeCustomSearchPath'
+    'body': 'KODAttributeTypeCustomSearchPath'
+  'kODAttributeTypeDNSDomain (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDNSDomain'
+    'body': 'KODAttributeTypeDNSDomain'
+  'kODAttributeTypeDNSName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDNSName'
+    'body': 'KODAttributeTypeDNSName'
+  'kODAttributeTypeDNSNameServer (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDNSNameServer'
+    'body': 'KODAttributeTypeDNSNameServer'
+  'kODAttributeTypeDataStamp (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDataStamp'
+    'body': 'KODAttributeTypeDataStamp'
+  'kODAttributeTypeDateRecordCreated (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDateRecordCreated'
+    'body': 'KODAttributeTypeDateRecordCreated'
+  'kODAttributeTypeDepartment (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDepartment'
+    'body': 'KODAttributeTypeDepartment'
+  'kODAttributeTypeDirRefCount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDirRefCount'
+    'body': 'KODAttributeTypeDirRefCount'
+  'kODAttributeTypeDirRefs (ODAttributeType)':
+    'prefix': 'kODAttributeTypeDirRefs'
+    'body': 'KODAttributeTypeDirRefs'
+  'kODAttributeTypeEMailAddress (ODAttributeType)':
+    'prefix': 'kODAttributeTypeEMailAddress'
+    'body': 'KODAttributeTypeEMailAddress'
+  'kODAttributeTypeEMailContacts (ODAttributeType)':
+    'prefix': 'kODAttributeTypeEMailContacts'
+    'body': 'KODAttributeTypeEMailContacts'
+  'kODAttributeTypeENetAddress (ODAttributeType)':
+    'prefix': 'kODAttributeTypeENetAddress'
+    'body': 'KODAttributeTypeENetAddress'
+  'kODAttributeTypeExpire (ODAttributeType)':
+    'prefix': 'kODAttributeTypeExpire'
+    'body': 'KODAttributeTypeExpire'
+  'kODAttributeTypeFWVersion (ODAttributeType)':
+    'prefix': 'kODAttributeTypeFWVersion'
+    'body': 'KODAttributeTypeFWVersion'
+  'kODAttributeTypeFaxNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypeFaxNumber'
+    'body': 'KODAttributeTypeFaxNumber'
+  'kODAttributeTypeFirstName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeFirstName'
+    'body': 'KODAttributeTypeFirstName'
+  'kODAttributeTypeFullName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeFullName'
+    'body': 'KODAttributeTypeFullName'
+  'kODAttributeTypeFunctionalState (ODAttributeType)':
+    'prefix': 'kODAttributeTypeFunctionalState'
+    'body': 'KODAttributeTypeFunctionalState'
+  'kODAttributeTypeGUID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeGUID'
+    'body': 'KODAttributeTypeGUID'
+  'kODAttributeTypeGroup (ODAttributeType)':
+    'prefix': 'kODAttributeTypeGroup'
+    'body': 'KODAttributeTypeGroup'
+  'kODAttributeTypeGroupMembers (ODAttributeType)':
+    'prefix': 'kODAttributeTypeGroupMembers'
+    'body': 'KODAttributeTypeGroupMembers'
+  'kODAttributeTypeGroupMembership (ODAttributeType)':
+    'prefix': 'kODAttributeTypeGroupMembership'
+    'body': 'KODAttributeTypeGroupMembership'
+  'kODAttributeTypeGroupServices (ODAttributeType)':
+    'prefix': 'kODAttributeTypeGroupServices'
+    'body': 'KODAttributeTypeGroupServices'
+  'kODAttributeTypeHTML (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHTML'
+    'body': 'KODAttributeTypeHTML'
+  'kODAttributeTypeHardwareUUID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHardwareUUID'
+    'body': 'KODAttributeTypeHardwareUUID'
+  'kODAttributeTypeHomeDirectory (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHomeDirectory'
+    'body': 'KODAttributeTypeHomeDirectory'
+  'kODAttributeTypeHomeDirectoryQuota (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHomeDirectoryQuota'
+    'body': 'KODAttributeTypeHomeDirectoryQuota'
+  'kODAttributeTypeHomeDirectorySoftQuota (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHomeDirectorySoftQuota'
+    'body': 'KODAttributeTypeHomeDirectorySoftQuota'
+  'kODAttributeTypeHomeLocOwner (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHomeLocOwner'
+    'body': 'KODAttributeTypeHomeLocOwner'
+  'kODAttributeTypeHomePhoneNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypeHomePhoneNumber'
+    'body': 'KODAttributeTypeHomePhoneNumber'
+  'kODAttributeTypeIMHandle (ODAttributeType)':
+    'prefix': 'kODAttributeTypeIMHandle'
+    'body': 'KODAttributeTypeIMHandle'
+  'kODAttributeTypeIPAddress (ODAttributeType)':
+    'prefix': 'kODAttributeTypeIPAddress'
+    'body': 'KODAttributeTypeIPAddress'
+  'kODAttributeTypeIPAddressAndENetAddress (ODAttributeType)':
+    'prefix': 'kODAttributeTypeIPAddressAndENetAddress'
+    'body': 'KODAttributeTypeIPAddressAndENetAddress'
+  'kODAttributeTypeIPv6Address (ODAttributeType)':
+    'prefix': 'kODAttributeTypeIPv6Address'
+    'body': 'KODAttributeTypeIPv6Address'
+  'kODAttributeTypeInternetAlias (ODAttributeType)':
+    'prefix': 'kODAttributeTypeInternetAlias'
+    'body': 'KODAttributeTypeInternetAlias'
+  'kODAttributeTypeJPEGPhoto (ODAttributeType)':
+    'prefix': 'kODAttributeTypeJPEGPhoto'
+    'body': 'KODAttributeTypeJPEGPhoto'
+  'kODAttributeTypeJobTitle (ODAttributeType)':
+    'prefix': 'kODAttributeTypeJobTitle'
+    'body': 'KODAttributeTypeJobTitle'
+  'kODAttributeTypeKDCAuthKey (ODAttributeType)':
+    'prefix': 'kODAttributeTypeKDCAuthKey'
+    'body': 'KODAttributeTypeKDCAuthKey'
+  'kODAttributeTypeKDCConfigData (ODAttributeType)':
+    'prefix': 'kODAttributeTypeKDCConfigData'
+    'body': 'KODAttributeTypeKDCConfigData'
+  'kODAttributeTypeKerberosRealm (ODAttributeType)':
+    'prefix': 'kODAttributeTypeKerberosRealm'
+    'body': 'KODAttributeTypeKerberosRealm'
+  'kODAttributeTypeKerberosServices (ODAttributeType)':
+    'prefix': 'kODAttributeTypeKerberosServices'
+    'body': 'KODAttributeTypeKerberosServices'
+  'kODAttributeTypeKeywords (ODAttributeType)':
+    'prefix': 'kODAttributeTypeKeywords'
+    'body': 'KODAttributeTypeKeywords'
+  'kODAttributeTypeLDAPReadReplicas (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLDAPReadReplicas'
+    'body': 'KODAttributeTypeLDAPReadReplicas'
+  'kODAttributeTypeLDAPSearchBaseSuffix (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLDAPSearchBaseSuffix'
+    'body': 'KODAttributeTypeLDAPSearchBaseSuffix'
+  'kODAttributeTypeLDAPWriteReplicas (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLDAPWriteReplicas'
+    'body': 'KODAttributeTypeLDAPWriteReplicas'
+  'kODAttributeTypeLastName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLastName'
+    'body': 'KODAttributeTypeLastName'
+  'kODAttributeTypeLocalOnlySearchPath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLocalOnlySearchPath'
+    'body': 'KODAttributeTypeLocalOnlySearchPath'
+  'kODAttributeTypeLocaleRelay (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLocaleRelay'
+    'body': 'KODAttributeTypeLocaleRelay'
+  'kODAttributeTypeLocaleSubnets (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLocaleSubnets'
+    'body': 'KODAttributeTypeLocaleSubnets'
+  'kODAttributeTypeLocation (ODAttributeType)':
+    'prefix': 'kODAttributeTypeLocation'
+    'body': 'KODAttributeTypeLocation'
+  'kODAttributeTypeMCXFlags (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMCXFlags'
+    'body': 'KODAttributeTypeMCXFlags'
+  'kODAttributeTypeMCXSettings (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMCXSettings'
+    'body': 'KODAttributeTypeMCXSettings'
+  'kODAttributeTypeMIME (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMIME'
+    'body': 'KODAttributeTypeMIME'
+  'kODAttributeTypeMailAttribute (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMailAttribute'
+    'body': 'KODAttributeTypeMailAttribute'
+  'kODAttributeTypeMapCoordinates (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMapCoordinates'
+    'body': 'KODAttributeTypeMapCoordinates'
+  'kODAttributeTypeMapGUID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMapGUID'
+    'body': 'KODAttributeTypeMapGUID'
+  'kODAttributeTypeMapURI (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMapURI'
+    'body': 'KODAttributeTypeMapURI'
+  'kODAttributeTypeMetaAmbiguousName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMetaAmbiguousName'
+    'body': 'KODAttributeTypeMetaAmbiguousName'
+  'kODAttributeTypeMetaAugmentedAttributes (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMetaAugmentedAttributes'
+    'body': 'KODAttributeTypeMetaAugmentedAttributes'
+  'kODAttributeTypeMetaAutomountMap (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMetaAutomountMap'
+    'body': 'KODAttributeTypeMetaAutomountMap'
+  'kODAttributeTypeMetaNodeLocation (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMetaNodeLocation'
+    'body': 'KODAttributeTypeMetaNodeLocation'
+  'kODAttributeTypeMetaRecordName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMetaRecordName'
+    'body': 'KODAttributeTypeMetaRecordName'
+  'kODAttributeTypeMiddleName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMiddleName'
+    'body': 'KODAttributeTypeMiddleName'
+  'kODAttributeTypeMobileNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypeMobileNumber'
+    'body': 'KODAttributeTypeMobileNumber'
+  'kODAttributeTypeModificationTimestamp (ODAttributeType)':
+    'prefix': 'kODAttributeTypeModificationTimestamp'
+    'body': 'KODAttributeTypeModificationTimestamp'
+  'kODAttributeTypeNFSHomeDirectory (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNFSHomeDirectory'
+    'body': 'KODAttributeTypeNFSHomeDirectory'
+  'kODAttributeTypeNTDomainComputerAccount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNTDomainComputerAccount'
+    'body': 'KODAttributeTypeNTDomainComputerAccount'
+  'kODAttributeTypeNamePrefix (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNamePrefix'
+    'body': 'KODAttributeTypeNamePrefix'
+  'kODAttributeTypeNameSuffix (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNameSuffix'
+    'body': 'KODAttributeTypeNameSuffix'
+  'kODAttributeTypeNativeOnly (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNativeOnly'
+    'body': 'KODAttributeTypeNativeOnly'
+  'kODAttributeTypeNestedGroups (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNestedGroups'
+    'body': 'KODAttributeTypeNestedGroups'
+  'kODAttributeTypeNetGroupTriplet (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNetGroupTriplet'
+    'body': 'KODAttributeTypeNetGroupTriplet'
+  'kODAttributeTypeNetGroups (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNetGroups'
+    'body': 'KODAttributeTypeNetGroups'
+  'kODAttributeTypeNetworkInterfaces (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNetworkInterfaces'
+    'body': 'KODAttributeTypeNetworkInterfaces'
+  'kODAttributeTypeNetworkNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNetworkNumber'
+    'body': 'KODAttributeTypeNetworkNumber'
+  'kODAttributeTypeNickName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNickName'
+    'body': 'KODAttributeTypeNickName'
+  'kODAttributeTypeNodeOptions (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNodeOptions'
+    'body': 'KODAttributeTypeNodeOptions'
+  'kODAttributeTypeNodePath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNodePath'
+    'body': 'KODAttributeTypeNodePath'
+  'kODAttributeTypeNodeRefCount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNodeRefCount'
+    'body': 'KODAttributeTypeNodeRefCount'
+  'kODAttributeTypeNodeRefs (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNodeRefs'
+    'body': 'KODAttributeTypeNodeRefs'
+  'kODAttributeTypeNodeSASLRealm (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNodeSASLRealm'
+    'body': 'KODAttributeTypeNodeSASLRealm'
+  'kODAttributeTypeNote (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNote'
+    'body': 'KODAttributeTypeNote'
+  'kODAttributeTypeNumTableList (ODAttributeType)':
+    'prefix': 'kODAttributeTypeNumTableList'
+    'body': 'KODAttributeTypeNumTableList'
+  'kODAttributeTypeOperatingSystem (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOperatingSystem'
+    'body': 'KODAttributeTypeOperatingSystem'
+  'kODAttributeTypeOperatingSystemVersion (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOperatingSystemVersion'
+    'body': 'KODAttributeTypeOperatingSystemVersion'
+  'kODAttributeTypeOrganizationInfo (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOrganizationInfo'
+    'body': 'KODAttributeTypeOrganizationInfo'
+  'kODAttributeTypeOrganizationName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOrganizationName'
+    'body': 'KODAttributeTypeOrganizationName'
+  'kODAttributeTypeOriginalHomeDirectory (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOriginalHomeDirectory'
+    'body': 'KODAttributeTypeOriginalHomeDirectory'
+  'kODAttributeTypeOriginalNFSHomeDirectory (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOriginalNFSHomeDirectory'
+    'body': 'KODAttributeTypeOriginalNFSHomeDirectory'
+  'kODAttributeTypeOriginalNodeName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOriginalNodeName'
+    'body': 'KODAttributeTypeOriginalNodeName'
+  'kODAttributeTypeOwner (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOwner'
+    'body': 'KODAttributeTypeOwner'
+  'kODAttributeTypeOwnerGUID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeOwnerGUID'
+    'body': 'KODAttributeTypeOwnerGUID'
+  'kODAttributeTypePGPPublicKey (ODAttributeType)':
+    'prefix': 'kODAttributeTypePGPPublicKey'
+    'body': 'KODAttributeTypePGPPublicKey'
+  'kODAttributeTypePIDValue (ODAttributeType)':
+    'prefix': 'kODAttributeTypePIDValue'
+    'body': 'KODAttributeTypePIDValue'
+  'kODAttributeTypePagerNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypePagerNumber'
+    'body': 'KODAttributeTypePagerNumber'
+  'kODAttributeTypeParentLocales (ODAttributeType)':
+    'prefix': 'kODAttributeTypeParentLocales'
+    'body': 'KODAttributeTypeParentLocales'
+  'kODAttributeTypePassword (ODAttributeType)':
+    'prefix': 'kODAttributeTypePassword'
+    'body': 'KODAttributeTypePassword'
+  'kODAttributeTypePasswordPlus (ODAttributeType)':
+    'prefix': 'kODAttributeTypePasswordPlus'
+    'body': 'KODAttributeTypePasswordPlus'
+  'kODAttributeTypePasswordPolicyOptions (ODAttributeType)':
+    'prefix': 'kODAttributeTypePasswordPolicyOptions'
+    'body': 'KODAttributeTypePasswordPolicyOptions'
+  'kODAttributeTypePasswordServerList (ODAttributeType)':
+    'prefix': 'kODAttributeTypePasswordServerList'
+    'body': 'KODAttributeTypePasswordServerList'
+  'kODAttributeTypePasswordServerLocation (ODAttributeType)':
+    'prefix': 'kODAttributeTypePasswordServerLocation'
+    'body': 'KODAttributeTypePasswordServerLocation'
+  'kODAttributeTypePhoneContacts (ODAttributeType)':
+    'prefix': 'kODAttributeTypePhoneContacts'
+    'body': 'KODAttributeTypePhoneContacts'
+  'kODAttributeTypePhoneNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypePhoneNumber'
+    'body': 'KODAttributeTypePhoneNumber'
+  'kODAttributeTypePicture (ODAttributeType)':
+    'prefix': 'kODAttributeTypePicture'
+    'body': 'KODAttributeTypePicture'
+  'kODAttributeTypePlugInInfo (ODAttributeType)':
+    'prefix': 'kODAttributeTypePlugInInfo'
+    'body': 'KODAttributeTypePlugInInfo'
+  'kODAttributeTypePluginIndex (ODAttributeType)':
+    'prefix': 'kODAttributeTypePluginIndex'
+    'body': 'KODAttributeTypePluginIndex'
+  'kODAttributeTypePort (ODAttributeType)':
+    'prefix': 'kODAttributeTypePort'
+    'body': 'KODAttributeTypePort'
+  'kODAttributeTypePostalAddress (ODAttributeType)':
+    'prefix': 'kODAttributeTypePostalAddress'
+    'body': 'KODAttributeTypePostalAddress'
+  'kODAttributeTypePostalAddressContacts (ODAttributeType)':
+    'prefix': 'kODAttributeTypePostalAddressContacts'
+    'body': 'KODAttributeTypePostalAddressContacts'
+  'kODAttributeTypePostalCode (ODAttributeType)':
+    'prefix': 'kODAttributeTypePostalCode'
+    'body': 'KODAttributeTypePostalCode'
+  'kODAttributeTypePresetUserIsAdmin (ODAttributeType)':
+    'prefix': 'kODAttributeTypePresetUserIsAdmin'
+    'body': 'KODAttributeTypePresetUserIsAdmin'
+  'kODAttributeTypePrimaryComputerGUID (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrimaryComputerGUID'
+    'body': 'KODAttributeTypePrimaryComputerGUID'
+  'kODAttributeTypePrimaryComputerList (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrimaryComputerList'
+    'body': 'KODAttributeTypePrimaryComputerList'
+  'kODAttributeTypePrimaryGroupID (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrimaryGroupID'
+    'body': 'KODAttributeTypePrimaryGroupID'
+  'kODAttributeTypePrimaryLocale (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrimaryLocale'
+    'body': 'KODAttributeTypePrimaryLocale'
+  'kODAttributeTypePrimaryNTDomain (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrimaryNTDomain'
+    'body': 'KODAttributeTypePrimaryNTDomain'
+  'kODAttributeTypePrintServiceInfoText (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrintServiceInfoText'
+    'body': 'KODAttributeTypePrintServiceInfoText'
+  'kODAttributeTypePrintServiceInfoXML (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrintServiceInfoXML'
+    'body': 'KODAttributeTypePrintServiceInfoXML'
+  'kODAttributeTypePrintServiceUserData (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrintServiceUserData'
+    'body': 'KODAttributeTypePrintServiceUserData'
+  'kODAttributeTypePrinter1284DeviceID (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinter1284DeviceID'
+    'body': 'KODAttributeTypePrinter1284DeviceID'
+  'kODAttributeTypePrinterLPRHost (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinterLPRHost'
+    'body': 'KODAttributeTypePrinterLPRHost'
+  'kODAttributeTypePrinterLPRQueue (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinterLPRQueue'
+    'body': 'KODAttributeTypePrinterLPRQueue'
+  'kODAttributeTypePrinterMakeAndModel (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinterMakeAndModel'
+    'body': 'KODAttributeTypePrinterMakeAndModel'
+  'kODAttributeTypePrinterType (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinterType'
+    'body': 'KODAttributeTypePrinterType'
+  'kODAttributeTypePrinterURI (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinterURI'
+    'body': 'KODAttributeTypePrinterURI'
+  'kODAttributeTypePrinterXRISupported (ODAttributeType)':
+    'prefix': 'kODAttributeTypePrinterXRISupported'
+    'body': 'KODAttributeTypePrinterXRISupported'
+  'kODAttributeTypeProcessName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeProcessName'
+    'body': 'KODAttributeTypeProcessName'
+  'kODAttributeTypeProfiles (ODAttributeType)':
+    'prefix': 'kODAttributeTypeProfiles'
+    'body': 'KODAttributeTypeProfiles'
+  'kODAttributeTypeProfilesTimestamp (ODAttributeType)':
+    'prefix': 'kODAttributeTypeProfilesTimestamp'
+    'body': 'KODAttributeTypeProfilesTimestamp'
+  'kODAttributeTypeProtocolNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypeProtocolNumber'
+    'body': 'KODAttributeTypeProtocolNumber'
+  'kODAttributeTypeProtocols (ODAttributeType)':
+    'prefix': 'kODAttributeTypeProtocols'
+    'body': 'KODAttributeTypeProtocols'
+  'kODAttributeTypePwdAgingPolicy (ODAttributeType)':
+    'prefix': 'kODAttributeTypePwdAgingPolicy'
+    'body': 'KODAttributeTypePwdAgingPolicy'
+  'kODAttributeTypeRPCNumber (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRPCNumber'
+    'body': 'KODAttributeTypeRPCNumber'
+  'kODAttributeTypeReadOnlyNode (ODAttributeType)':
+    'prefix': 'kODAttributeTypeReadOnlyNode'
+    'body': 'KODAttributeTypeReadOnlyNode'
+  'kODAttributeTypeRealUserID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRealUserID'
+    'body': 'KODAttributeTypeRealUserID'
+  'kODAttributeTypeRecRefCount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRecRefCount'
+    'body': 'KODAttributeTypeRecRefCount'
+  'kODAttributeTypeRecRefs (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRecRefs'
+    'body': 'KODAttributeTypeRecRefs'
+  'kODAttributeTypeRecordName (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRecordName'
+    'body': 'KODAttributeTypeRecordName'
+  'kODAttributeTypeRecordType (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRecordType'
+    'body': 'KODAttributeTypeRecordType'
+  'kODAttributeTypeRelationships (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRelationships'
+    'body': 'KODAttributeTypeRelationships'
+  'kODAttributeTypeRelativeDNPrefix (ODAttributeType)':
+    'prefix': 'kODAttributeTypeRelativeDNPrefix'
+    'body': 'KODAttributeTypeRelativeDNPrefix'
+  'kODAttributeTypeResourceInfo (ODAttributeType)':
+    'prefix': 'kODAttributeTypeResourceInfo'
+    'body': 'KODAttributeTypeResourceInfo'
+  'kODAttributeTypeResourceType (ODAttributeType)':
+    'prefix': 'kODAttributeTypeResourceType'
+    'body': 'KODAttributeTypeResourceType'
+  'kODAttributeTypeSMBAcctFlags (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBAcctFlags'
+    'body': 'KODAttributeTypeSMBAcctFlags'
+  'kODAttributeTypeSMBGroupRID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBGroupRID'
+    'body': 'KODAttributeTypeSMBGroupRID'
+  'kODAttributeTypeSMBHome (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBHome'
+    'body': 'KODAttributeTypeSMBHome'
+  'kODAttributeTypeSMBHomeDrive (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBHomeDrive'
+    'body': 'KODAttributeTypeSMBHomeDrive'
+  'kODAttributeTypeSMBKickoffTime (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBKickoffTime'
+    'body': 'KODAttributeTypeSMBKickoffTime'
+  'kODAttributeTypeSMBLogoffTime (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBLogoffTime'
+    'body': 'KODAttributeTypeSMBLogoffTime'
+  'kODAttributeTypeSMBLogonTime (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBLogonTime'
+    'body': 'KODAttributeTypeSMBLogonTime'
+  'kODAttributeTypeSMBPWDLastSet (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBPWDLastSet'
+    'body': 'KODAttributeTypeSMBPWDLastSet'
+  'kODAttributeTypeSMBPrimaryGroupSID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBPrimaryGroupSID'
+    'body': 'KODAttributeTypeSMBPrimaryGroupSID'
+  'kODAttributeTypeSMBProfilePath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBProfilePath'
+    'body': 'KODAttributeTypeSMBProfilePath'
+  'kODAttributeTypeSMBRID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBRID'
+    'body': 'KODAttributeTypeSMBRID'
+  'kODAttributeTypeSMBSID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBSID'
+    'body': 'KODAttributeTypeSMBSID'
+  'kODAttributeTypeSMBScriptPath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBScriptPath'
+    'body': 'KODAttributeTypeSMBScriptPath'
+  'kODAttributeTypeSMBUserWorkstations (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSMBUserWorkstations'
+    'body': 'KODAttributeTypeSMBUserWorkstations'
+  'kODAttributeTypeSchema (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSchema'
+    'body': 'KODAttributeTypeSchema'
+  'kODAttributeTypeSearchPath (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSearchPath'
+    'body': 'KODAttributeTypeSearchPath'
+  'kODAttributeTypeSearchPolicy (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSearchPolicy'
+    'body': 'KODAttributeTypeSearchPolicy'
+  'kODAttributeTypeServiceType (ODAttributeType)':
+    'prefix': 'kODAttributeTypeServiceType'
+    'body': 'KODAttributeTypeServiceType'
+  'kODAttributeTypeServicesLocator (ODAttributeType)':
+    'prefix': 'kODAttributeTypeServicesLocator'
+    'body': 'KODAttributeTypeServicesLocator'
+  'kODAttributeTypeSetupAdvertising (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSetupAdvertising'
+    'body': 'KODAttributeTypeSetupAdvertising'
+  'kODAttributeTypeSetupAutoRegister (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSetupAutoRegister'
+    'body': 'KODAttributeTypeSetupAutoRegister'
+  'kODAttributeTypeSetupLocation (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSetupLocation'
+    'body': 'KODAttributeTypeSetupLocation'
+  'kODAttributeTypeSetupOccupation (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSetupOccupation'
+    'body': 'KODAttributeTypeSetupOccupation'
+  'kODAttributeTypeStandardOnly (ODAttributeType)':
+    'prefix': 'kODAttributeTypeStandardOnly'
+    'body': 'KODAttributeTypeStandardOnly'
+  'kODAttributeTypeState (ODAttributeType)':
+    'prefix': 'kODAttributeTypeState'
+    'body': 'KODAttributeTypeState'
+  'kODAttributeTypeStreet (ODAttributeType)':
+    'prefix': 'kODAttributeTypeStreet'
+    'body': 'KODAttributeTypeStreet'
+  'kODAttributeTypeSubNodes (ODAttributeType)':
+    'prefix': 'kODAttributeTypeSubNodes'
+    'body': 'KODAttributeTypeSubNodes'
+  'kODAttributeTypeTimePackage (ODAttributeType)':
+    'prefix': 'kODAttributeTypeTimePackage'
+    'body': 'KODAttributeTypeTimePackage'
+  'kODAttributeTypeTimeToLive (ODAttributeType)':
+    'prefix': 'kODAttributeTypeTimeToLive'
+    'body': 'KODAttributeTypeTimeToLive'
+  'kODAttributeTypeTotalRefCount (ODAttributeType)':
+    'prefix': 'kODAttributeTypeTotalRefCount'
+    'body': 'KODAttributeTypeTotalRefCount'
+  'kODAttributeTypeTotalSize (ODAttributeType)':
+    'prefix': 'kODAttributeTypeTotalSize'
+    'body': 'KODAttributeTypeTotalSize'
+  'kODAttributeTypeTrustInformation (ODAttributeType)':
+    'prefix': 'kODAttributeTypeTrustInformation'
+    'body': 'KODAttributeTypeTrustInformation'
+  'kODAttributeTypeURL (ODAttributeType)':
+    'prefix': 'kODAttributeTypeURL'
+    'body': 'KODAttributeTypeURL'
+  'kODAttributeTypeUniqueID (ODAttributeType)':
+    'prefix': 'kODAttributeTypeUniqueID'
+    'body': 'KODAttributeTypeUniqueID'
+  'kODAttributeTypeUserCertificate (ODAttributeType)':
+    'prefix': 'kODAttributeTypeUserCertificate'
+    'body': 'KODAttributeTypeUserCertificate'
+  'kODAttributeTypeUserPKCS12Data (ODAttributeType)':
+    'prefix': 'kODAttributeTypeUserPKCS12Data'
+    'body': 'KODAttributeTypeUserPKCS12Data'
+  'kODAttributeTypeUserSMIMECertificate (ODAttributeType)':
+    'prefix': 'kODAttributeTypeUserSMIMECertificate'
+    'body': 'KODAttributeTypeUserSMIMECertificate'
+  'kODAttributeTypeUserShell (ODAttributeType)':
+    'prefix': 'kODAttributeTypeUserShell'
+    'body': 'KODAttributeTypeUserShell'
+  'kODAttributeTypeVFSDumpFreq (ODAttributeType)':
+    'prefix': 'kODAttributeTypeVFSDumpFreq'
+    'body': 'KODAttributeTypeVFSDumpFreq'
+  'kODAttributeTypeVFSLinkDir (ODAttributeType)':
+    'prefix': 'kODAttributeTypeVFSLinkDir'
+    'body': 'KODAttributeTypeVFSLinkDir'
+  'kODAttributeTypeVFSOpts (ODAttributeType)':
+    'prefix': 'kODAttributeTypeVFSOpts'
+    'body': 'KODAttributeTypeVFSOpts'
+  'kODAttributeTypeVFSPassNo (ODAttributeType)':
+    'prefix': 'kODAttributeTypeVFSPassNo'
+    'body': 'KODAttributeTypeVFSPassNo'
+  'kODAttributeTypeVFSType (ODAttributeType)':
+    'prefix': 'kODAttributeTypeVFSType'
+    'body': 'KODAttributeTypeVFSType'
+  'kODAttributeTypeVersion (ODAttributeType)':
+    'prefix': 'kODAttributeTypeVersion'
+    'body': 'KODAttributeTypeVersion'
+  'kODAttributeTypeWeblogURI (ODAttributeType)':
+    'prefix': 'kODAttributeTypeWeblogURI'
+    'body': 'KODAttributeTypeWeblogURI'
+  'kODAttributeTypeXMLPlist (ODAttributeType)':
+    'prefix': 'kODAttributeTypeXMLPlist'
+    'body': 'KODAttributeTypeXMLPlist'
+  'kODAuthenticationType2WayRandom (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationType2WayRandom'
+    'body': 'KODAuthenticationType2WayRandom'
+  'kODAuthenticationType2WayRandomChangePasswd (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationType2WayRandomChangePasswd'
+    'body': 'KODAuthenticationType2WayRandomChangePasswd'
+  'kODAuthenticationTypeAPOP (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeAPOP'
+    'body': 'KODAuthenticationTypeAPOP'
+  'kODAuthenticationTypeCRAM_MD5 (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeCRAM_MD5'
+    'body': 'KODAuthenticationTypeCRAM_MD5'
+  'kODAuthenticationTypeChangePasswd (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeChangePasswd'
+    'body': 'KODAuthenticationTypeChangePasswd'
+  'kODAuthenticationTypeClearText (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeClearText'
+    'body': 'KODAuthenticationTypeClearText'
+  'kODAuthenticationTypeCrypt (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeCrypt'
+    'body': 'KODAuthenticationTypeCrypt'
+  'kODAuthenticationTypeDIGEST_MD5 (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeDIGEST_MD5'
+    'body': 'KODAuthenticationTypeDIGEST_MD5'
+  'kODAuthenticationTypeDeleteUser (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeDeleteUser'
+    'body': 'KODAuthenticationTypeDeleteUser'
+  'kODAuthenticationTypeGetEffectivePolicy (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeGetEffectivePolicy'
+    'body': 'KODAuthenticationTypeGetEffectivePolicy'
+  'kODAuthenticationTypeGetGlobalPolicy (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeGetGlobalPolicy'
+    'body': 'KODAuthenticationTypeGetGlobalPolicy'
+  'kODAuthenticationTypeGetKerberosPrincipal (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeGetKerberosPrincipal'
+    'body': 'KODAuthenticationTypeGetKerberosPrincipal'
+  'kODAuthenticationTypeGetPolicy (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeGetPolicy'
+    'body': 'KODAuthenticationTypeGetPolicy'
+  'kODAuthenticationTypeGetUserData (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeGetUserData'
+    'body': 'KODAuthenticationTypeGetUserData'
+  'kODAuthenticationTypeGetUserName (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeGetUserName'
+    'body': 'KODAuthenticationTypeGetUserName'
+  'kODAuthenticationTypeKerberosTickets (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeKerberosTickets'
+    'body': 'KODAuthenticationTypeKerberosTickets'
+  'kODAuthenticationTypeMPPEMasterKeys (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeMPPEMasterKeys'
+    'body': 'KODAuthenticationTypeMPPEMasterKeys'
+  'kODAuthenticationTypeMSCHAP2 (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeMSCHAP2'
+    'body': 'KODAuthenticationTypeMSCHAP2'
+  'kODAuthenticationTypeNTLMv2 (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeNTLMv2'
+    'body': 'KODAuthenticationTypeNTLMv2'
+  'kODAuthenticationTypeNTLMv2WithSessionKey (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeNTLMv2WithSessionKey'
+    'body': 'KODAuthenticationTypeNTLMv2WithSessionKey'
+  'kODAuthenticationTypeNewUser (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeNewUser'
+    'body': 'KODAuthenticationTypeNewUser'
+  'kODAuthenticationTypeNewUserWithPolicy (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeNewUserWithPolicy'
+    'body': 'KODAuthenticationTypeNewUserWithPolicy'
+  'kODAuthenticationTypeNodeNativeClearTextOK (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeNodeNativeClearTextOK'
+    'body': 'KODAuthenticationTypeNodeNativeClearTextOK'
+  'kODAuthenticationTypeNodeNativeNoClearText (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeNodeNativeNoClearText'
+    'body': 'KODAuthenticationTypeNodeNativeNoClearText'
+  'kODAuthenticationTypeReadSecureHash (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeReadSecureHash'
+    'body': 'KODAuthenticationTypeReadSecureHash'
+  'kODAuthenticationTypeSMBNTv2UserSessionKey (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSMBNTv2UserSessionKey'
+    'body': 'KODAuthenticationTypeSMBNTv2UserSessionKey'
+  'kODAuthenticationTypeSMBWorkstationCredentialSessionKey (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSMBWorkstationCredentialSessionKey'
+    'body': 'KODAuthenticationTypeSMBWorkstationCredentialSessionKey'
+  'kODAuthenticationTypeSMB_LM_Key (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSMB_LM_Key'
+    'body': 'KODAuthenticationTypeSMB_LM_Key'
+  'kODAuthenticationTypeSMB_NT_Key (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSMB_NT_Key'
+    'body': 'KODAuthenticationTypeSMB_NT_Key'
+  'kODAuthenticationTypeSMB_NT_UserSessionKey (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSMB_NT_UserSessionKey'
+    'body': 'KODAuthenticationTypeSMB_NT_UserSessionKey'
+  'kODAuthenticationTypeSMB_NT_WithUserSessionKey (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSMB_NT_WithUserSessionKey'
+    'body': 'KODAuthenticationTypeSMB_NT_WithUserSessionKey'
+  'kODAuthenticationTypeSecureHash (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSecureHash'
+    'body': 'KODAuthenticationTypeSecureHash'
+  'kODAuthenticationTypeSetCertificateHashAsCurrent (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetCertificateHashAsCurrent'
+    'body': 'KODAuthenticationTypeSetCertificateHashAsCurrent'
+  'kODAuthenticationTypeSetGlobalPolicy (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetGlobalPolicy'
+    'body': 'KODAuthenticationTypeSetGlobalPolicy'
+  'kODAuthenticationTypeSetLMHash (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetLMHash'
+    'body': 'KODAuthenticationTypeSetLMHash'
+  'kODAuthenticationTypeSetNTHash (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetNTHash'
+    'body': 'KODAuthenticationTypeSetNTHash'
+  'kODAuthenticationTypeSetPassword (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetPassword'
+    'body': 'KODAuthenticationTypeSetPassword'
+  'kODAuthenticationTypeSetPasswordAsCurrent (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetPasswordAsCurrent'
+    'body': 'KODAuthenticationTypeSetPasswordAsCurrent'
+  'kODAuthenticationTypeSetPolicy (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetPolicy'
+    'body': 'KODAuthenticationTypeSetPolicy'
+  'kODAuthenticationTypeSetPolicyAsCurrent (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetPolicyAsCurrent'
+    'body': 'KODAuthenticationTypeSetPolicyAsCurrent'
+  'kODAuthenticationTypeSetUserData (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetUserData'
+    'body': 'KODAuthenticationTypeSetUserData'
+  'kODAuthenticationTypeSetUserName (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetUserName'
+    'body': 'KODAuthenticationTypeSetUserName'
+  'kODAuthenticationTypeSetWorkstationPassword (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeSetWorkstationPassword'
+    'body': 'KODAuthenticationTypeSetWorkstationPassword'
+  'kODAuthenticationTypeWithAuthorizationRef (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeWithAuthorizationRef'
+    'body': 'KODAuthenticationTypeWithAuthorizationRef'
+  'kODAuthenticationTypeWriteSecureHash (ODAuthenticationType)':
+    'prefix': 'kODAuthenticationTypeWriteSecureHash'
+    'body': 'KODAuthenticationTypeWriteSecureHash'
+  'kODErrorDomainFramework (CFStringRef)':
+    'prefix': 'kODErrorDomainFramework'
+    'body': 'KODErrorDomainFramework'
+  'kODModuleConfigOptionConnectionIdleDisconnect (CFStringRef)':
+    'prefix': 'kODModuleConfigOptionConnectionIdleDisconnect'
+    'body': 'KODModuleConfigOptionConnectionIdleDisconnect'
+  'kODModuleConfigOptionConnectionSetupTimeout (CFStringRef)':
+    'prefix': 'kODModuleConfigOptionConnectionSetupTimeout'
+    'body': 'KODModuleConfigOptionConnectionSetupTimeout'
+  'kODModuleConfigOptionManInTheMiddle (CFStringRef)':
+    'prefix': 'kODModuleConfigOptionManInTheMiddle'
+    'body': 'KODModuleConfigOptionManInTheMiddle'
+  'kODModuleConfigOptionPacketEncryption (CFStringRef)':
+    'prefix': 'kODModuleConfigOptionPacketEncryption'
+    'body': 'KODModuleConfigOptionPacketEncryption'
+  'kODModuleConfigOptionPacketSigning (CFStringRef)':
+    'prefix': 'kODModuleConfigOptionPacketSigning'
+    'body': 'KODModuleConfigOptionPacketSigning'
+  'kODModuleConfigOptionQueryTimeout (CFStringRef)':
+    'prefix': 'kODModuleConfigOptionQueryTimeout'
+    'body': 'KODModuleConfigOptionQueryTimeout'
+  'kODNodeOptionsQuerySkippedSubnode (CFStringRef)':
+    'prefix': 'kODNodeOptionsQuerySkippedSubnode'
+    'body': 'KODNodeOptionsQuerySkippedSubnode'
+  'kODPolicyTypeAccountExpiresOnDate (ODPolicyType)':
+    'prefix': 'kODPolicyTypeAccountExpiresOnDate'
+    'body': 'KODPolicyTypeAccountExpiresOnDate'
+  'kODPolicyTypeAccountMaximumFailedLogins (ODPolicyType)':
+    'prefix': 'kODPolicyTypeAccountMaximumFailedLogins'
+    'body': 'KODPolicyTypeAccountMaximumFailedLogins'
+  'kODPolicyTypeAccountMaximumMinutesOfNonUse (ODPolicyType)':
+    'prefix': 'kODPolicyTypeAccountMaximumMinutesOfNonUse'
+    'body': 'KODPolicyTypeAccountMaximumMinutesOfNonUse'
+  'kODPolicyTypeAccountMaximumMinutesUntilDisabled (ODPolicyType)':
+    'prefix': 'kODPolicyTypeAccountMaximumMinutesUntilDisabled'
+    'body': 'KODPolicyTypeAccountMaximumMinutesUntilDisabled'
+  'kODPolicyTypeAccountMinutesUntilFailedLoginReset (ODPolicyType)':
+    'prefix': 'kODPolicyTypeAccountMinutesUntilFailedLoginReset'
+    'body': 'KODPolicyTypeAccountMinutesUntilFailedLoginReset'
+  'kODPolicyTypePasswordCannotBeAccountName (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordCannotBeAccountName'
+    'body': 'KODPolicyTypePasswordCannotBeAccountName'
+  'kODPolicyTypePasswordChangeRequired (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordChangeRequired'
+    'body': 'KODPolicyTypePasswordChangeRequired'
+  'kODPolicyTypePasswordHistory (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordHistory'
+    'body': 'KODPolicyTypePasswordHistory'
+  'kODPolicyTypePasswordMaximumAgeInMinutes (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordMaximumAgeInMinutes'
+    'body': 'KODPolicyTypePasswordMaximumAgeInMinutes'
+  'kODPolicyTypePasswordMaximumNumberOfCharacters (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordMaximumNumberOfCharacters'
+    'body': 'KODPolicyTypePasswordMaximumNumberOfCharacters'
+  'kODPolicyTypePasswordMinimumNumberOfCharacters (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordMinimumNumberOfCharacters'
+    'body': 'KODPolicyTypePasswordMinimumNumberOfCharacters'
+  'kODPolicyTypePasswordRequiresAlpha (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordRequiresAlpha'
+    'body': 'KODPolicyTypePasswordRequiresAlpha'
+  'kODPolicyTypePasswordRequiresMixedCase (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordRequiresMixedCase'
+    'body': 'KODPolicyTypePasswordRequiresMixedCase'
+  'kODPolicyTypePasswordRequiresNumeric (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordRequiresNumeric'
+    'body': 'KODPolicyTypePasswordRequiresNumeric'
+  'kODPolicyTypePasswordRequiresSymbol (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordRequiresSymbol'
+    'body': 'KODPolicyTypePasswordRequiresSymbol'
+  'kODPolicyTypePasswordSelfModification (ODPolicyType)':
+    'prefix': 'kODPolicyTypePasswordSelfModification'
+    'body': 'KODPolicyTypePasswordSelfModification'
+  'kODRecordTypeAFPServer (ODRecordType)':
+    'prefix': 'kODRecordTypeAFPServer'
+    'body': 'KODRecordTypeAFPServer'
+  'kODRecordTypeAliases (ODRecordType)':
+    'prefix': 'kODRecordTypeAliases'
+    'body': 'KODRecordTypeAliases'
+  'kODRecordTypeAttributeTypes (ODRecordType)':
+    'prefix': 'kODRecordTypeAttributeTypes'
+    'body': 'KODRecordTypeAttributeTypes'
+  'kODRecordTypeAugments (ODRecordType)':
+    'prefix': 'kODRecordTypeAugments'
+    'body': 'KODRecordTypeAugments'
+  'kODRecordTypeAutoServerSetup (ODRecordType)':
+    'prefix': 'kODRecordTypeAutoServerSetup'
+    'body': 'KODRecordTypeAutoServerSetup'
+  'kODRecordTypeAutomount (ODRecordType)':
+    'prefix': 'kODRecordTypeAutomount'
+    'body': 'KODRecordTypeAutomount'
+  'kODRecordTypeAutomountMap (ODRecordType)':
+    'prefix': 'kODRecordTypeAutomountMap'
+    'body': 'KODRecordTypeAutomountMap'
+  'kODRecordTypeBootp (ODRecordType)':
+    'prefix': 'kODRecordTypeBootp'
+    'body': 'KODRecordTypeBootp'
+  'kODRecordTypeCertificateAuthorities (ODRecordType)':
+    'prefix': 'kODRecordTypeCertificateAuthorities'
+    'body': 'KODRecordTypeCertificateAuthorities'
+  'kODRecordTypeComputerGroups (ODRecordType)':
+    'prefix': 'kODRecordTypeComputerGroups'
+    'body': 'KODRecordTypeComputerGroups'
+  'kODRecordTypeComputerLists (ODRecordType)':
+    'prefix': 'kODRecordTypeComputerLists'
+    'body': 'KODRecordTypeComputerLists'
+  'kODRecordTypeComputers (ODRecordType)':
+    'prefix': 'kODRecordTypeComputers'
+    'body': 'KODRecordTypeComputers'
+  'kODRecordTypeConfiguration (ODRecordType)':
+    'prefix': 'kODRecordTypeConfiguration'
+    'body': 'KODRecordTypeConfiguration'
+  'kODRecordTypeEthernets (ODRecordType)':
+    'prefix': 'kODRecordTypeEthernets'
+    'body': 'KODRecordTypeEthernets'
+  'kODRecordTypeFTPServer (ODRecordType)':
+    'prefix': 'kODRecordTypeFTPServer'
+    'body': 'KODRecordTypeFTPServer'
+  'kODRecordTypeFileMakerServers (ODRecordType)':
+    'prefix': 'kODRecordTypeFileMakerServers'
+    'body': 'KODRecordTypeFileMakerServers'
+  'kODRecordTypeGroups (ODRecordType)':
+    'prefix': 'kODRecordTypeGroups'
+    'body': 'KODRecordTypeGroups'
+  'kODRecordTypeHostServices (ODRecordType)':
+    'prefix': 'kODRecordTypeHostServices'
+    'body': 'KODRecordTypeHostServices'
+  'kODRecordTypeHosts (ODRecordType)':
+    'prefix': 'kODRecordTypeHosts'
+    'body': 'KODRecordTypeHosts'
+  'kODRecordTypeLDAPServer (ODRecordType)':
+    'prefix': 'kODRecordTypeLDAPServer'
+    'body': 'KODRecordTypeLDAPServer'
+  'kODRecordTypeLocations (ODRecordType)':
+    'prefix': 'kODRecordTypeLocations'
+    'body': 'KODRecordTypeLocations'
+  'kODRecordTypeMounts (ODRecordType)':
+    'prefix': 'kODRecordTypeMounts'
+    'body': 'KODRecordTypeMounts'
+  'kODRecordTypeNFS (ODRecordType)':
+    'prefix': 'kODRecordTypeNFS'
+    'body': 'KODRecordTypeNFS'
+  'kODRecordTypeNetDomains (ODRecordType)':
+    'prefix': 'kODRecordTypeNetDomains'
+    'body': 'KODRecordTypeNetDomains'
+  'kODRecordTypeNetGroups (ODRecordType)':
+    'prefix': 'kODRecordTypeNetGroups'
+    'body': 'KODRecordTypeNetGroups'
+  'kODRecordTypeNetworks (ODRecordType)':
+    'prefix': 'kODRecordTypeNetworks'
+    'body': 'KODRecordTypeNetworks'
+  'kODRecordTypePeople (ODRecordType)':
+    'prefix': 'kODRecordTypePeople'
+    'body': 'KODRecordTypePeople'
+  'kODRecordTypePresetComputerGroups (ODRecordType)':
+    'prefix': 'kODRecordTypePresetComputerGroups'
+    'body': 'KODRecordTypePresetComputerGroups'
+  'kODRecordTypePresetComputerLists (ODRecordType)':
+    'prefix': 'kODRecordTypePresetComputerLists'
+    'body': 'KODRecordTypePresetComputerLists'
+  'kODRecordTypePresetComputers (ODRecordType)':
+    'prefix': 'kODRecordTypePresetComputers'
+    'body': 'KODRecordTypePresetComputers'
+  'kODRecordTypePresetGroups (ODRecordType)':
+    'prefix': 'kODRecordTypePresetGroups'
+    'body': 'KODRecordTypePresetGroups'
+  'kODRecordTypePresetUsers (ODRecordType)':
+    'prefix': 'kODRecordTypePresetUsers'
+    'body': 'KODRecordTypePresetUsers'
+  'kODRecordTypePrintService (ODRecordType)':
+    'prefix': 'kODRecordTypePrintService'
+    'body': 'KODRecordTypePrintService'
+  'kODRecordTypePrintServiceUser (ODRecordType)':
+    'prefix': 'kODRecordTypePrintServiceUser'
+    'body': 'KODRecordTypePrintServiceUser'
+  'kODRecordTypePrinters (ODRecordType)':
+    'prefix': 'kODRecordTypePrinters'
+    'body': 'KODRecordTypePrinters'
+  'kODRecordTypeProtocols (ODRecordType)':
+    'prefix': 'kODRecordTypeProtocols'
+    'body': 'KODRecordTypeProtocols'
+  'kODRecordTypeQTSServer (ODRecordType)':
+    'prefix': 'kODRecordTypeQTSServer'
+    'body': 'KODRecordTypeQTSServer'
+  'kODRecordTypeQueryInformation (ODRecordType)':
+    'prefix': 'kODRecordTypeQueryInformation'
+    'body': 'KODRecordTypeQueryInformation'
+  'kODRecordTypeRPC (ODRecordType)':
+    'prefix': 'kODRecordTypeRPC'
+    'body': 'KODRecordTypeRPC'
+  'kODRecordTypeRecordTypes (ODRecordType)':
+    'prefix': 'kODRecordTypeRecordTypes'
+    'body': 'KODRecordTypeRecordTypes'
+  'kODRecordTypeResources (ODRecordType)':
+    'prefix': 'kODRecordTypeResources'
+    'body': 'KODRecordTypeResources'
+  'kODRecordTypeSMBServer (ODRecordType)':
+    'prefix': 'kODRecordTypeSMBServer'
+    'body': 'KODRecordTypeSMBServer'
+  'kODRecordTypeServer (ODRecordType)':
+    'prefix': 'kODRecordTypeServer'
+    'body': 'KODRecordTypeServer'
+  'kODRecordTypeServices (ODRecordType)':
+    'prefix': 'kODRecordTypeServices'
+    'body': 'KODRecordTypeServices'
+  'kODRecordTypeSharePoints (ODRecordType)':
+    'prefix': 'kODRecordTypeSharePoints'
+    'body': 'KODRecordTypeSharePoints'
+  'kODRecordTypeUsers (ODRecordType)':
+    'prefix': 'kODRecordTypeUsers'
+    'body': 'KODRecordTypeUsers'
+  'kODRecordTypeWebServer (ODRecordType)':
+    'prefix': 'kODRecordTypeWebServer'
+    'body': 'KODRecordTypeWebServer'
+  'kODSessionDefault (ODSessionRef)':
+    'prefix': 'kODSessionDefault'
+    'body': 'KODSessionDefault'
+  'kODSessionProxyAddress (CFStringRef)':
+    'prefix': 'kODSessionProxyAddress'
+    'body': 'KODSessionProxyAddress'
+  'kODSessionProxyPassword (CFStringRef)':
+    'prefix': 'kODSessionProxyPassword'
+    'body': 'KODSessionProxyPassword'
+  'kODSessionProxyPort (CFStringRef)':
+    'prefix': 'kODSessionProxyPort'
+    'body': 'KODSessionProxyPort'
+  'kODSessionProxyUsername (CFStringRef)':
+    'prefix': 'kODSessionProxyUsername'
+    'body': 'KODSessionProxyUsername'
+  'kODErrorCredentialsAccountDisabled (5301)':
+    'prefix': 'kODErrorCredentialsAccountDisabled'
+    'body': 'KODErrorCredentialsAccountDisabled'
+  'kODErrorCredentialsAccountExpired (5302)':
+    'prefix': 'kODErrorCredentialsAccountExpired'
+    'body': 'KODErrorCredentialsAccountExpired'
+  'kODErrorCredentialsAccountInactive (5303)':
+    'prefix': 'kODErrorCredentialsAccountInactive'
+    'body': 'KODErrorCredentialsAccountInactive'
+  'kODErrorCredentialsAccountNotFound (5300)':
+    'prefix': 'kODErrorCredentialsAccountNotFound'
+    'body': 'KODErrorCredentialsAccountNotFound'
+  'kODErrorCredentialsContactMaster (5204)':
+    'prefix': 'kODErrorCredentialsContactMaster'
+    'body': 'KODErrorCredentialsContactMaster'
+  'kODErrorCredentialsInvalid (5000)':
+    'prefix': 'kODErrorCredentialsInvalid'
+    'body': 'KODErrorCredentialsInvalid'
+  'kODErrorCredentialsInvalidComputer (5501)':
+    'prefix': 'kODErrorCredentialsInvalidComputer'
+    'body': 'KODErrorCredentialsInvalidComputer'
+  'kODErrorCredentialsInvalidLogonHours (5500)':
+    'prefix': 'kODErrorCredentialsInvalidLogonHours'
+    'body': 'KODErrorCredentialsInvalidLogonHours'
+  'kODErrorCredentialsMethodNotSupported (5100)':
+    'prefix': 'kODErrorCredentialsMethodNotSupported'
+    'body': 'KODErrorCredentialsMethodNotSupported'
+  'kODErrorCredentialsNotAuthorized (5101)':
+    'prefix': 'kODErrorCredentialsNotAuthorized'
+    'body': 'KODErrorCredentialsNotAuthorized'
+  'kODErrorCredentialsOperationFailed (5103)':
+    'prefix': 'kODErrorCredentialsOperationFailed'
+    'body': 'KODErrorCredentialsOperationFailed'
+  'kODErrorCredentialsParameterError (5102)':
+    'prefix': 'kODErrorCredentialsParameterError'
+    'body': 'KODErrorCredentialsParameterError'
+  'kODErrorCredentialsPasswordChangeRequired (5401)':
+    'prefix': 'kODErrorCredentialsPasswordChangeRequired'
+    'body': 'KODErrorCredentialsPasswordChangeRequired'
+  'kODErrorCredentialsPasswordChangeTooSoon (5407)':
+    'prefix': 'kODErrorCredentialsPasswordChangeTooSoon'
+    'body': 'KODErrorCredentialsPasswordChangeTooSoon'
+  'kODErrorCredentialsPasswordExpired (5400)':
+    'prefix': 'kODErrorCredentialsPasswordExpired'
+    'body': 'KODErrorCredentialsPasswordExpired'
+  'kODErrorCredentialsPasswordNeedsDigit (5406)':
+    'prefix': 'kODErrorCredentialsPasswordNeedsDigit'
+    'body': 'KODErrorCredentialsPasswordNeedsDigit'
+  'kODErrorCredentialsPasswordNeedsLetter (5405)':
+    'prefix': 'kODErrorCredentialsPasswordNeedsLetter'
+    'body': 'KODErrorCredentialsPasswordNeedsLetter'
+  'kODErrorCredentialsPasswordQualityFailed (5402)':
+    'prefix': 'kODErrorCredentialsPasswordQualityFailed'
+    'body': 'KODErrorCredentialsPasswordQualityFailed'
+  'kODErrorCredentialsPasswordTooLong (5404)':
+    'prefix': 'kODErrorCredentialsPasswordTooLong'
+    'body': 'KODErrorCredentialsPasswordTooLong'
+  'kODErrorCredentialsPasswordTooShort (5403)':
+    'prefix': 'kODErrorCredentialsPasswordTooShort'
+    'body': 'KODErrorCredentialsPasswordTooShort'
+  'kODErrorCredentialsPasswordUnrecoverable (5408)':
+    'prefix': 'kODErrorCredentialsPasswordUnrecoverable'
+    'body': 'KODErrorCredentialsPasswordUnrecoverable'
+  'kODErrorCredentialsServerCommunicationError (5205)':
+    'prefix': 'kODErrorCredentialsServerCommunicationError'
+    'body': 'KODErrorCredentialsServerCommunicationError'
+  'kODErrorCredentialsServerError (5202)':
+    'prefix': 'kODErrorCredentialsServerError'
+    'body': 'KODErrorCredentialsServerError'
+  'kODErrorCredentialsServerNotFound (5201)':
+    'prefix': 'kODErrorCredentialsServerNotFound'
+    'body': 'KODErrorCredentialsServerNotFound'
+  'kODErrorCredentialsServerTimeout (5203)':
+    'prefix': 'kODErrorCredentialsServerTimeout'
+    'body': 'KODErrorCredentialsServerTimeout'
+  'kODErrorCredentialsServerUnreachable (5200)':
+    'prefix': 'kODErrorCredentialsServerUnreachable'
+    'body': 'KODErrorCredentialsServerUnreachable'
+  'kODErrorDaemonError (10002)':
+    'prefix': 'kODErrorDaemonError'
+    'body': 'KODErrorDaemonError'
+  'kODErrorNodeConnectionFailed (2100)':
+    'prefix': 'kODErrorNodeConnectionFailed'
+    'body': 'KODErrorNodeConnectionFailed'
+  'kODErrorNodeDisabled (2002)':
+    'prefix': 'kODErrorNodeDisabled'
+    'body': 'KODErrorNodeDisabled'
+  'kODErrorNodeUnknownHost (2200)':
+    'prefix': 'kODErrorNodeUnknownHost'
+    'body': 'KODErrorNodeUnknownHost'
+  'kODErrorNodeUnknownName (2000)':
+    'prefix': 'kODErrorNodeUnknownName'
+    'body': 'KODErrorNodeUnknownName'
+  'kODErrorNodeUnknownType (2001)':
+    'prefix': 'kODErrorNodeUnknownType'
+    'body': 'KODErrorNodeUnknownType'
+  'kODErrorPluginError (10001)':
+    'prefix': 'kODErrorPluginError'
+    'body': 'KODErrorPluginError'
+  'kODErrorPluginOperationNotSupported (10000)':
+    'prefix': 'kODErrorPluginOperationNotSupported'
+    'body': 'KODErrorPluginOperationNotSupported'
+  'kODErrorPluginOperationTimeout (10003)':
+    'prefix': 'kODErrorPluginOperationTimeout'
+    'body': 'KODErrorPluginOperationTimeout'
+  'kODErrorPolicyOutOfRange (6001)':
+    'prefix': 'kODErrorPolicyOutOfRange'
+    'body': 'KODErrorPolicyOutOfRange'
+  'kODErrorPolicyUnsupported (6000)':
+    'prefix': 'kODErrorPolicyUnsupported'
+    'body': 'KODErrorPolicyUnsupported'
+  'kODErrorQueryInvalidMatchType (3100)':
+    'prefix': 'kODErrorQueryInvalidMatchType'
+    'body': 'KODErrorQueryInvalidMatchType'
+  'kODErrorQuerySynchronize (3000)':
+    'prefix': 'kODErrorQuerySynchronize'
+    'body': 'KODErrorQuerySynchronize'
+  'kODErrorQueryTimeout (3102)':
+    'prefix': 'kODErrorQueryTimeout'
+    'body': 'KODErrorQueryTimeout'
+  'kODErrorQueryUnsupportedMatchType (3101)':
+    'prefix': 'kODErrorQueryUnsupportedMatchType'
+    'body': 'KODErrorQueryUnsupportedMatchType'
+  'kODErrorRecordAlreadyExists (4102)':
+    'prefix': 'kODErrorRecordAlreadyExists'
+    'body': 'KODErrorRecordAlreadyExists'
+  'kODErrorRecordAttributeNotFound (4201)':
+    'prefix': 'kODErrorRecordAttributeNotFound'
+    'body': 'KODErrorRecordAttributeNotFound'
+  'kODErrorRecordAttributeUnknownType (4200)':
+    'prefix': 'kODErrorRecordAttributeUnknownType'
+    'body': 'KODErrorRecordAttributeUnknownType'
+  'kODErrorRecordAttributeValueNotFound (4203)':
+    'prefix': 'kODErrorRecordAttributeValueNotFound'
+    'body': 'KODErrorRecordAttributeValueNotFound'
+  'kODErrorRecordAttributeValueSchemaError (4202)':
+    'prefix': 'kODErrorRecordAttributeValueSchemaError'
+    'body': 'KODErrorRecordAttributeValueSchemaError'
+  'kODErrorRecordInvalidType (4101)':
+    'prefix': 'kODErrorRecordInvalidType'
+    'body': 'KODErrorRecordInvalidType'
+  'kODErrorRecordNoLongerExists (4104)':
+    'prefix': 'kODErrorRecordNoLongerExists'
+    'body': 'KODErrorRecordNoLongerExists'
+  'kODErrorRecordParameterError (4100)':
+    'prefix': 'kODErrorRecordParameterError'
+    'body': 'KODErrorRecordParameterError'
+  'kODErrorRecordPermissionError (4001)':
+    'prefix': 'kODErrorRecordPermissionError'
+    'body': 'KODErrorRecordPermissionError'
+  'kODErrorRecordReadOnlyNode (4000)':
+    'prefix': 'kODErrorRecordReadOnlyNode'
+    'body': 'KODErrorRecordReadOnlyNode'
+  'kODErrorRecordTypeDisabled (4103)':
+    'prefix': 'kODErrorRecordTypeDisabled'
+    'body': 'KODErrorRecordTypeDisabled'
+  'kODErrorSessionDaemonNotRunning (1002)':
+    'prefix': 'kODErrorSessionDaemonNotRunning'
+    'body': 'KODErrorSessionDaemonNotRunning'
+  'kODErrorSessionDaemonRefused (1003)':
+    'prefix': 'kODErrorSessionDaemonRefused'
+    'body': 'KODErrorSessionDaemonRefused'
+  'kODErrorSessionLocalOnlyDaemonInUse (1000)':
+    'prefix': 'kODErrorSessionLocalOnlyDaemonInUse'
+    'body': 'KODErrorSessionLocalOnlyDaemonInUse'
+  'kODErrorSessionNormalDaemonInUse (1001)':
+    'prefix': 'kODErrorSessionNormalDaemonInUse'
+    'body': 'KODErrorSessionNormalDaemonInUse'
+  'kODErrorSessionProxyCommunicationError (1100)':
+    'prefix': 'kODErrorSessionProxyCommunicationError'
+    'body': 'KODErrorSessionProxyCommunicationError'
+  'kODErrorSessionProxyIPUnreachable (1102)':
+    'prefix': 'kODErrorSessionProxyIPUnreachable'
+    'body': 'KODErrorSessionProxyIPUnreachable'
+  'kODErrorSessionProxyUnknownHost (1103)':
+    'prefix': 'kODErrorSessionProxyUnknownHost'
+    'body': 'KODErrorSessionProxyUnknownHost'
+  'kODErrorSessionProxyVersionMismatch (1101)':
+    'prefix': 'kODErrorSessionProxyVersionMismatch'
+    'body': 'KODErrorSessionProxyVersionMismatch'
+  'kODErrorSuccess (0)':
+    'prefix': 'kODErrorSuccess'
+    'body': 'KODErrorSuccess'
+  'kODMatchAny (1)':
+    'prefix': 'kODMatchAny'
+    'body': 'KODMatchAny'
+  'kODMatchBeginsWith (8194)':
+    'prefix': 'kODMatchBeginsWith'
+    'body': 'KODMatchBeginsWith'
+  'kODMatchContains (8196)':
+    'prefix': 'kODMatchContains'
+    'body': 'KODMatchContains'
+  'kODMatchEndsWith (8195)':
+    'prefix': 'kODMatchEndsWith'
+    'body': 'KODMatchEndsWith'
+  'kODMatchEqualTo (8193)':
+    'prefix': 'kODMatchEqualTo'
+    'body': 'KODMatchEqualTo'
+  'kODMatchGreaterThan (8198)':
+    'prefix': 'kODMatchGreaterThan'
+    'body': 'KODMatchGreaterThan'
+  'kODMatchInsensitiveBeginsWith (8450)':
+    'prefix': 'kODMatchInsensitiveBeginsWith'
+    'body': 'KODMatchInsensitiveBeginsWith'
+  'kODMatchInsensitiveContains (8452)':
+    'prefix': 'kODMatchInsensitiveContains'
+    'body': 'KODMatchInsensitiveContains'
+  'kODMatchInsensitiveEndsWith (8451)':
+    'prefix': 'kODMatchInsensitiveEndsWith'
+    'body': 'KODMatchInsensitiveEndsWith'
+  'kODMatchInsensitiveEqualTo (8449)':
+    'prefix': 'kODMatchInsensitiveEqualTo'
+    'body': 'KODMatchInsensitiveEqualTo'
+  'kODMatchLessThan (8199)':
+    'prefix': 'kODMatchLessThan'
+    'body': 'KODMatchLessThan'
+  'kODNodeTypeAuthentication (8705)':
+    'prefix': 'kODNodeTypeAuthentication'
+    'body': 'KODNodeTypeAuthentication'
+  'kODNodeTypeConfigure (8706)':
+    'prefix': 'kODNodeTypeConfigure'
+    'body': 'KODNodeTypeConfigure'
+  'kODNodeTypeContacts (8708)':
+    'prefix': 'kODNodeTypeContacts'
+    'body': 'KODNodeTypeContacts'
+  'kODNodeTypeLocalNodes (8704)':
+    'prefix': 'kODNodeTypeLocalNodes'
+    'body': 'KODNodeTypeLocalNodes'
+  'kODNodeTypeNetwork (8709)':
+    'prefix': 'kODNodeTypeNetwork'
+    'body': 'KODNodeTypeNetwork'
+  'ODContextGetTypeID':
+    'prefix': 'ODContextGetTypeID'
+    'body': 'ODContextGetTypeID()'
+  'ODNodeCopyDetails':
+    'prefix': 'ODNodeCopyDetails'
+    'body': 'ODNodeCopyDetails(${1:ODNodeRef node}, ${2:CFArrayRef keys}, ${3:CFErrorRef* error})'
+  'ODNodeCopyPolicies':
+    'prefix': 'ODNodeCopyPolicies'
+    'body': 'ODNodeCopyPolicies(${1:ODNodeRef node}, ${2:CFErrorRef* error})'
+  'ODNodeCopyRecord':
+    'prefix': 'ODNodeCopyRecord'
+    'body': 'ODNodeCopyRecord(${1:ODNodeRef node}, ${2:ODRecordType recordType}, ${3:CFStringRef recordName}, ${4:CFTypeRef attributes}, ${5:CFErrorRef* error})'
+  'ODNodeCopySubnodeNames':
+    'prefix': 'ODNodeCopySubnodeNames'
+    'body': 'ODNodeCopySubnodeNames(${1:ODNodeRef node}, ${2:CFErrorRef* error})'
+  'ODNodeCopySupportedAttributes':
+    'prefix': 'ODNodeCopySupportedAttributes'
+    'body': 'ODNodeCopySupportedAttributes(${1:ODNodeRef node}, ${2:ODRecordType recordType}, ${3:CFErrorRef* error})'
+  'ODNodeCopySupportedPolicies':
+    'prefix': 'ODNodeCopySupportedPolicies'
+    'body': 'ODNodeCopySupportedPolicies(${1:ODNodeRef node}, ${2:CFErrorRef* error})'
+  'ODNodeCopySupportedRecordTypes':
+    'prefix': 'ODNodeCopySupportedRecordTypes'
+    'body': 'ODNodeCopySupportedRecordTypes(${1:ODNodeRef node}, ${2:CFErrorRef* error})'
+  'ODNodeCopyUnreachableSubnodeNames':
+    'prefix': 'ODNodeCopyUnreachableSubnodeNames'
+    'body': 'ODNodeCopyUnreachableSubnodeNames(${1:ODNodeRef node}, ${2:CFErrorRef* error})'
+  'ODNodeCreateCopy':
+    'prefix': 'ODNodeCreateCopy'
+    'body': 'ODNodeCreateCopy(${1:CFAllocatorRef allocator}, ${2:ODNodeRef node}, ${3:CFErrorRef* error})'
+  'ODNodeCreateRecord':
+    'prefix': 'ODNodeCreateRecord'
+    'body': 'ODNodeCreateRecord(${1:ODNodeRef node}, ${2:ODRecordType recordType}, ${3:CFStringRef recordName}, ${4:CFDictionaryRef attributeDict}, ${5:CFErrorRef* error})'
+  'ODNodeCreateWithName':
+    'prefix': 'ODNodeCreateWithName'
+    'body': 'ODNodeCreateWithName(${1:CFAllocatorRef allocator}, ${2:ODSessionRef session}, ${3:CFStringRef nodeName}, ${4:CFErrorRef* error})'
+  'ODNodeCreateWithNodeType':
+    'prefix': 'ODNodeCreateWithNodeType'
+    'body': 'ODNodeCreateWithNodeType(${1:CFAllocatorRef allocator}, ${2:ODSessionRef session}, ${3:ODNodeType nodeType}, ${4:CFErrorRef* error})'
+  'ODNodeCustomCall':
+    'prefix': 'ODNodeCustomCall'
+    'body': 'ODNodeCustomCall(${1:ODNodeRef node}, ${2:CFIndex customCode}, ${3:CFDataRef data}, ${4:CFErrorRef* error})'
+  'ODNodeCustomFunction':
+    'prefix': 'ODNodeCustomFunction'
+    'body': 'ODNodeCustomFunction(${1:ODNodeRef node}, ${2:CFStringRef function}, ${3:CFTypeRef payload}, ${4:CFErrorRef* error})'
+  'ODNodeGetName':
+    'prefix': 'ODNodeGetName'
+    'body': 'ODNodeGetName(${1:ODNodeRef node})'
+  'ODNodeGetTypeID':
+    'prefix': 'ODNodeGetTypeID'
+    'body': 'ODNodeGetTypeID()'
+  'ODNodeRemovePolicy':
+    'prefix': 'ODNodeRemovePolicy'
+    'body': 'ODNodeRemovePolicy(${1:ODNodeRef node}, ${2:ODPolicyType policyType}, ${3:CFErrorRef* error})'
+  'ODNodeSetCredentials':
+    'prefix': 'ODNodeSetCredentials'
+    'body': 'ODNodeSetCredentials(${1:ODNodeRef node}, ${2:ODRecordType recordType}, ${3:CFStringRef recordName}, ${4:CFStringRef password}, ${5:CFErrorRef* error})'
+  'ODNodeSetCredentialsExtended':
+    'prefix': 'ODNodeSetCredentialsExtended'
+    'body': 'ODNodeSetCredentialsExtended(${1:ODNodeRef node}, ${2:ODRecordType recordType}, ${3:ODAuthenticationType authType}, ${4:CFArrayRef authItems}, ${5:CFArrayRef* outAuthItems}, ${6:ODContextRef* outContext}, ${7:CFErrorRef* error})'
+  'ODNodeSetCredentialsUsingKerberosCache':
+    'prefix': 'ODNodeSetCredentialsUsingKerberosCache'
+    'body': 'ODNodeSetCredentialsUsingKerberosCache(${1:ODNodeRef node}, ${2:CFStringRef cacheName}, ${3:CFErrorRef* error})'
+  'ODNodeSetPolicies':
+    'prefix': 'ODNodeSetPolicies'
+    'body': 'ODNodeSetPolicies(${1:ODNodeRef node}, ${2:CFDictionaryRef policies}, ${3:CFErrorRef* error})'
+  'ODNodeSetPolicy':
+    'prefix': 'ODNodeSetPolicy'
+    'body': 'ODNodeSetPolicy(${1:ODNodeRef node}, ${2:ODPolicyType policyType}, ${3:CFTypeRef value}, ${4:CFErrorRef* error})'
+  'ODQueryCopyResults':
+    'prefix': 'ODQueryCopyResults'
+    'body': 'ODQueryCopyResults(${1:ODQueryRef query}, ${2:_Bool allowPartialResults}, ${3:CFErrorRef* error})'
+  'ODQueryCreateWithNode':
+    'prefix': 'ODQueryCreateWithNode'
+    'body': 'ODQueryCreateWithNode(${1:CFAllocatorRef allocator}, ${2:ODNodeRef node}, ${3:CFTypeRef recordTypeOrList}, ${4:ODAttributeType attribute}, ${5:ODMatchType matchType}, ${6:CFTypeRef queryValueOrList}, ${7:CFTypeRef returnAttributeOrList}, ${8:CFIndex maxResults}, ${9:CFErrorRef* error})'
+  'ODQueryCreateWithNodeType':
+    'prefix': 'ODQueryCreateWithNodeType'
+    'body': 'ODQueryCreateWithNodeType(${1:CFAllocatorRef allocator}, ${2:ODNodeType nodeType}, ${3:CFTypeRef recordTypeOrList}, ${4:ODAttributeType attribute}, ${5:ODMatchType matchType}, ${6:CFTypeRef queryValueOrList}, ${7:CFTypeRef returnAttributeOrList}, ${8:CFIndex maxResults}, ${9:CFErrorRef* error})'
+  'ODQueryGetTypeID':
+    'prefix': 'ODQueryGetTypeID'
+    'body': 'ODQueryGetTypeID()'
+  'ODQueryScheduleWithRunLoop':
+    'prefix': 'ODQueryScheduleWithRunLoop'
+    'body': 'ODQueryScheduleWithRunLoop(${1:ODQueryRef query}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'ODQuerySetCallback':
+    'prefix': 'ODQuerySetCallback'
+    'body': 'ODQuerySetCallback(${1:ODQueryRef query}, ${2:ODQueryCallback callback}, ${3:void* userInfo})'
+  'ODQuerySetDispatchQueue':
+    'prefix': 'ODQuerySetDispatchQueue'
+    'body': 'ODQuerySetDispatchQueue(${1:ODQueryRef query}, ${2:dispatch_queue_t queue})'
+  'ODQuerySynchronize':
+    'prefix': 'ODQuerySynchronize'
+    'body': 'ODQuerySynchronize(${1:ODQueryRef query})'
+  'ODQueryUnscheduleFromRunLoop':
+    'prefix': 'ODQueryUnscheduleFromRunLoop'
+    'body': 'ODQueryUnscheduleFromRunLoop(${1:ODQueryRef query}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
+  'ODRecordAddMember':
+    'prefix': 'ODRecordAddMember'
+    'body': 'ODRecordAddMember(${1:ODRecordRef group}, ${2:ODRecordRef member}, ${3:CFErrorRef* error})'
+  'ODRecordAddValue':
+    'prefix': 'ODRecordAddValue'
+    'body': 'ODRecordAddValue(${1:ODRecordRef record}, ${2:ODAttributeType attribute}, ${3:CFTypeRef value}, ${4:CFErrorRef* error})'
+  'ODRecordChangePassword':
+    'prefix': 'ODRecordChangePassword'
+    'body': 'ODRecordChangePassword(${1:ODRecordRef record}, ${2:CFStringRef oldPassword}, ${3:CFStringRef newPassword}, ${4:CFErrorRef* error})'
+  'ODRecordContainsMember':
+    'prefix': 'ODRecordContainsMember'
+    'body': 'ODRecordContainsMember(${1:ODRecordRef group}, ${2:ODRecordRef member}, ${3:CFErrorRef* error})'
+  'ODRecordCopyDetails':
+    'prefix': 'ODRecordCopyDetails'
+    'body': 'ODRecordCopyDetails(${1:ODRecordRef record}, ${2:CFArrayRef attributes}, ${3:CFErrorRef* error})'
+  'ODRecordCopyEffectivePolicies':
+    'prefix': 'ODRecordCopyEffectivePolicies'
+    'body': 'ODRecordCopyEffectivePolicies(${1:ODRecordRef record}, ${2:CFErrorRef* error})'
+  'ODRecordCopyPasswordPolicy':
+    'prefix': 'ODRecordCopyPasswordPolicy'
+    'body': 'ODRecordCopyPasswordPolicy(${1:CFAllocatorRef allocator}, ${2:ODRecordRef record}, ${3:CFErrorRef* error})'
+  'ODRecordCopyPolicies':
+    'prefix': 'ODRecordCopyPolicies'
+    'body': 'ODRecordCopyPolicies(${1:ODRecordRef record}, ${2:CFErrorRef* error})'
+  'ODRecordCopySupportedPolicies':
+    'prefix': 'ODRecordCopySupportedPolicies'
+    'body': 'ODRecordCopySupportedPolicies(${1:ODRecordRef record}, ${2:CFErrorRef* error})'
+  'ODRecordCopyValues':
+    'prefix': 'ODRecordCopyValues'
+    'body': 'ODRecordCopyValues(${1:ODRecordRef record}, ${2:ODAttributeType attribute}, ${3:CFErrorRef* error})'
+  'ODRecordDelete':
+    'prefix': 'ODRecordDelete'
+    'body': 'ODRecordDelete(${1:ODRecordRef record}, ${2:CFErrorRef* error})'
+  'ODRecordGetRecordName':
+    'prefix': 'ODRecordGetRecordName'
+    'body': 'ODRecordGetRecordName(${1:ODRecordRef record})'
+  'ODRecordGetRecordType':
+    'prefix': 'ODRecordGetRecordType'
+    'body': 'ODRecordGetRecordType(${1:ODRecordRef record})'
+  'ODRecordGetTypeID':
+    'prefix': 'ODRecordGetTypeID'
+    'body': 'ODRecordGetTypeID()'
+  'ODRecordRemoveMember':
+    'prefix': 'ODRecordRemoveMember'
+    'body': 'ODRecordRemoveMember(${1:ODRecordRef group}, ${2:ODRecordRef member}, ${3:CFErrorRef* error})'
+  'ODRecordRemovePolicy':
+    'prefix': 'ODRecordRemovePolicy'
+    'body': 'ODRecordRemovePolicy(${1:ODRecordRef record}, ${2:ODPolicyType policy}, ${3:CFErrorRef* error})'
+  'ODRecordRemoveValue':
+    'prefix': 'ODRecordRemoveValue'
+    'body': 'ODRecordRemoveValue(${1:ODRecordRef record}, ${2:ODAttributeType attribute}, ${3:CFTypeRef value}, ${4:CFErrorRef* error})'
+  'ODRecordSetNodeCredentials':
+    'prefix': 'ODRecordSetNodeCredentials'
+    'body': 'ODRecordSetNodeCredentials(${1:ODRecordRef record}, ${2:CFStringRef username}, ${3:CFStringRef password}, ${4:CFErrorRef* error})'
+  'ODRecordSetNodeCredentialsExtended':
+    'prefix': 'ODRecordSetNodeCredentialsExtended'
+    'body': 'ODRecordSetNodeCredentialsExtended(${1:ODRecordRef record}, ${2:ODRecordType recordType}, ${3:ODAuthenticationType authType}, ${4:CFArrayRef authItems}, ${5:CFArrayRef* outAuthItems}, ${6:ODContextRef* outContext}, ${7:CFErrorRef* error})'
+  'ODRecordSetNodeCredentialsUsingKerberosCache':
+    'prefix': 'ODRecordSetNodeCredentialsUsingKerberosCache'
+    'body': 'ODRecordSetNodeCredentialsUsingKerberosCache(${1:ODRecordRef record}, ${2:CFStringRef cacheName}, ${3:CFErrorRef* error})'
+  'ODRecordSetPolicies':
+    'prefix': 'ODRecordSetPolicies'
+    'body': 'ODRecordSetPolicies(${1:ODRecordRef record}, ${2:CFDictionaryRef policies}, ${3:CFErrorRef* error})'
+  'ODRecordSetPolicy':
+    'prefix': 'ODRecordSetPolicy'
+    'body': 'ODRecordSetPolicy(${1:ODRecordRef record}, ${2:ODPolicyType policy}, ${3:CFTypeRef value}, ${4:CFErrorRef* error})'
+  'ODRecordSetValue':
+    'prefix': 'ODRecordSetValue'
+    'body': 'ODRecordSetValue(${1:ODRecordRef record}, ${2:ODAttributeType attribute}, ${3:CFTypeRef valueOrValues}, ${4:CFErrorRef* error})'
+  'ODRecordSynchronize':
+    'prefix': 'ODRecordSynchronize'
+    'body': 'ODRecordSynchronize(${1:ODRecordRef record}, ${2:CFErrorRef* error})'
+  'ODRecordVerifyPassword':
+    'prefix': 'ODRecordVerifyPassword'
+    'body': 'ODRecordVerifyPassword(${1:ODRecordRef record}, ${2:CFStringRef password}, ${3:CFErrorRef* error})'
+  'ODRecordVerifyPasswordExtended':
+    'prefix': 'ODRecordVerifyPasswordExtended'
+    'body': 'ODRecordVerifyPasswordExtended(${1:ODRecordRef record}, ${2:ODAuthenticationType authType}, ${3:CFArrayRef authItems}, ${4:CFArrayRef* outAuthItems}, ${5:ODContextRef* outContext}, ${6:CFErrorRef* error})'
+  'ODSessionCopyNodeNames':
+    'prefix': 'ODSessionCopyNodeNames'
+    'body': 'ODSessionCopyNodeNames(${1:CFAllocatorRef allocator}, ${2:ODSessionRef session}, ${3:CFErrorRef* error})'
+  'ODSessionCreate':
+    'prefix': 'ODSessionCreate'
+    'body': 'ODSessionCreate(${1:CFAllocatorRef allocator}, ${2:CFDictionaryRef options}, ${3:CFErrorRef* error})'
+  'ODSessionGetTypeID':
+    'prefix': 'ODSessionGetTypeID'
+    'body': 'ODSessionGetTypeID()'

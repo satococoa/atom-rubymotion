@@ -1,0 +1,1195 @@
+'.source.rubymotion':
+  'GLKMatrix3Identity ()':
+    'prefix': 'GLKMatrix3Identity'
+    'body': 'GLKMatrix3Identity'
+  'GLKMatrix4Identity ()':
+    'prefix': 'GLKMatrix4Identity'
+    'body': 'GLKMatrix4Identity'
+  'GLKQuaternionIdentity ()':
+    'prefix': 'GLKQuaternionIdentity'
+    'body': 'GLKQuaternionIdentity'
+  'GLKTextureLoaderApplyPremultiplication ()':
+    'prefix': 'GLKTextureLoaderApplyPremultiplication'
+    'body': 'GLKTextureLoaderApplyPremultiplication'
+  'GLKTextureLoaderErrorDomain ()':
+    'prefix': 'GLKTextureLoaderErrorDomain'
+    'body': 'GLKTextureLoaderErrorDomain'
+  'GLKTextureLoaderErrorKey ()':
+    'prefix': 'GLKTextureLoaderErrorKey'
+    'body': 'GLKTextureLoaderErrorKey'
+  'GLKTextureLoaderGLErrorKey ()':
+    'prefix': 'GLKTextureLoaderGLErrorKey'
+    'body': 'GLKTextureLoaderGLErrorKey'
+  'GLKTextureLoaderGenerateMipmaps ()':
+    'prefix': 'GLKTextureLoaderGenerateMipmaps'
+    'body': 'GLKTextureLoaderGenerateMipmaps'
+  'GLKTextureLoaderOriginBottomLeft ()':
+    'prefix': 'GLKTextureLoaderOriginBottomLeft'
+    'body': 'GLKTextureLoaderOriginBottomLeft'
+  'GLKTextureLoaderSRGB ()':
+    'prefix': 'GLKTextureLoaderSRGB'
+    'body': 'GLKTextureLoaderSRGB'
+  'GLKFogModeExp ()':
+    'prefix': 'GLKFogModeExp'
+    'body': 'GLKFogModeExp'
+  'GLKFogModeExp2 ()':
+    'prefix': 'GLKFogModeExp2'
+    'body': 'GLKFogModeExp2'
+  'GLKFogModeLinear ()':
+    'prefix': 'GLKFogModeLinear'
+    'body': 'GLKFogModeLinear'
+  'GLKLightingTypePerPixel ()':
+    'prefix': 'GLKLightingTypePerPixel'
+    'body': 'GLKLightingTypePerPixel'
+  'GLKLightingTypePerVertex ()':
+    'prefix': 'GLKLightingTypePerVertex'
+    'body': 'GLKLightingTypePerVertex'
+  'GLKTextureEnvModeDecal ()':
+    'prefix': 'GLKTextureEnvModeDecal'
+    'body': 'GLKTextureEnvModeDecal'
+  'GLKTextureEnvModeModulate ()':
+    'prefix': 'GLKTextureEnvModeModulate'
+    'body': 'GLKTextureEnvModeModulate'
+  'GLKTextureEnvModeReplace ()':
+    'prefix': 'GLKTextureEnvModeReplace'
+    'body': 'GLKTextureEnvModeReplace'
+  'GLKTextureInfoAlphaStateNonPremultiplied ()':
+    'prefix': 'GLKTextureInfoAlphaStateNonPremultiplied'
+    'body': 'GLKTextureInfoAlphaStateNonPremultiplied'
+  'GLKTextureInfoAlphaStateNone ()':
+    'prefix': 'GLKTextureInfoAlphaStateNone'
+    'body': 'GLKTextureInfoAlphaStateNone'
+  'GLKTextureInfoAlphaStatePremultiplied ()':
+    'prefix': 'GLKTextureInfoAlphaStatePremultiplied'
+    'body': 'GLKTextureInfoAlphaStatePremultiplied'
+  'GLKTextureInfoOriginBottomLeft ()':
+    'prefix': 'GLKTextureInfoOriginBottomLeft'
+    'body': 'GLKTextureInfoOriginBottomLeft'
+  'GLKTextureInfoOriginTopLeft ()':
+    'prefix': 'GLKTextureInfoOriginTopLeft'
+    'body': 'GLKTextureInfoOriginTopLeft'
+  'GLKTextureInfoOriginUnknown ()':
+    'prefix': 'GLKTextureInfoOriginUnknown'
+    'body': 'GLKTextureInfoOriginUnknown'
+  'GLKTextureLoaderErrorAlphaPremultiplicationFailure ()':
+    'prefix': 'GLKTextureLoaderErrorAlphaPremultiplicationFailure'
+    'body': 'GLKTextureLoaderErrorAlphaPremultiplicationFailure'
+  'GLKTextureLoaderErrorCompressedTextureUpload ()':
+    'prefix': 'GLKTextureLoaderErrorCompressedTextureUpload'
+    'body': 'GLKTextureLoaderErrorCompressedTextureUpload'
+  'GLKTextureLoaderErrorCubeMapInvalidNumFiles ()':
+    'prefix': 'GLKTextureLoaderErrorCubeMapInvalidNumFiles'
+    'body': 'GLKTextureLoaderErrorCubeMapInvalidNumFiles'
+  'GLKTextureLoaderErrorDataPreprocessingFailure ()':
+    'prefix': 'GLKTextureLoaderErrorDataPreprocessingFailure'
+    'body': 'GLKTextureLoaderErrorDataPreprocessingFailure'
+  'GLKTextureLoaderErrorFileOrURLNotFound ()':
+    'prefix': 'GLKTextureLoaderErrorFileOrURLNotFound'
+    'body': 'GLKTextureLoaderErrorFileOrURLNotFound'
+  'GLKTextureLoaderErrorIncompatibleFormatSRGB ()':
+    'prefix': 'GLKTextureLoaderErrorIncompatibleFormatSRGB'
+    'body': 'GLKTextureLoaderErrorIncompatibleFormatSRGB'
+  'GLKTextureLoaderErrorInvalidCGImage ()':
+    'prefix': 'GLKTextureLoaderErrorInvalidCGImage'
+    'body': 'GLKTextureLoaderErrorInvalidCGImage'
+  'GLKTextureLoaderErrorInvalidEAGLContext ()':
+    'prefix': 'GLKTextureLoaderErrorInvalidEAGLContext'
+    'body': 'GLKTextureLoaderErrorInvalidEAGLContext'
+  'GLKTextureLoaderErrorInvalidNSData ()':
+    'prefix': 'GLKTextureLoaderErrorInvalidNSData'
+    'body': 'GLKTextureLoaderErrorInvalidNSData'
+  'GLKTextureLoaderErrorMipmapUnsupported ()':
+    'prefix': 'GLKTextureLoaderErrorMipmapUnsupported'
+    'body': 'GLKTextureLoaderErrorMipmapUnsupported'
+  'GLKTextureLoaderErrorPVRAtlasUnsupported ()':
+    'prefix': 'GLKTextureLoaderErrorPVRAtlasUnsupported'
+    'body': 'GLKTextureLoaderErrorPVRAtlasUnsupported'
+  'GLKTextureLoaderErrorReorientationFailure ()':
+    'prefix': 'GLKTextureLoaderErrorReorientationFailure'
+    'body': 'GLKTextureLoaderErrorReorientationFailure'
+  'GLKTextureLoaderErrorUncompressedTextureUpload ()':
+    'prefix': 'GLKTextureLoaderErrorUncompressedTextureUpload'
+    'body': 'GLKTextureLoaderErrorUncompressedTextureUpload'
+  'GLKTextureLoaderErrorUnknownFileType ()':
+    'prefix': 'GLKTextureLoaderErrorUnknownFileType'
+    'body': 'GLKTextureLoaderErrorUnknownFileType'
+  'GLKTextureLoaderErrorUnknownPathType ()':
+    'prefix': 'GLKTextureLoaderErrorUnknownPathType'
+    'body': 'GLKTextureLoaderErrorUnknownPathType'
+  'GLKTextureLoaderErrorUnsupportedBitDepth ()':
+    'prefix': 'GLKTextureLoaderErrorUnsupportedBitDepth'
+    'body': 'GLKTextureLoaderErrorUnsupportedBitDepth'
+  'GLKTextureLoaderErrorUnsupportedCubeMapDimensions ()':
+    'prefix': 'GLKTextureLoaderErrorUnsupportedCubeMapDimensions'
+    'body': 'GLKTextureLoaderErrorUnsupportedCubeMapDimensions'
+  'GLKTextureLoaderErrorUnsupportedOrientation ()':
+    'prefix': 'GLKTextureLoaderErrorUnsupportedOrientation'
+    'body': 'GLKTextureLoaderErrorUnsupportedOrientation'
+  'GLKTextureLoaderErrorUnsupportedPVRFormat ()':
+    'prefix': 'GLKTextureLoaderErrorUnsupportedPVRFormat'
+    'body': 'GLKTextureLoaderErrorUnsupportedPVRFormat'
+  'GLKTextureTarget2D ()':
+    'prefix': 'GLKTextureTarget2D'
+    'body': 'GLKTextureTarget2D'
+  'GLKTextureTargetCt ()':
+    'prefix': 'GLKTextureTargetCt'
+    'body': 'GLKTextureTargetCt'
+  'GLKTextureTargetCubeMap ()':
+    'prefix': 'GLKTextureTargetCubeMap'
+    'body': 'GLKTextureTargetCubeMap'
+  'GLKVertexAttribColor ()':
+    'prefix': 'GLKVertexAttribColor'
+    'body': 'GLKVertexAttribColor'
+  'GLKVertexAttribNormal ()':
+    'prefix': 'GLKVertexAttribNormal'
+    'body': 'GLKVertexAttribNormal'
+  'GLKVertexAttribPosition ()':
+    'prefix': 'GLKVertexAttribPosition'
+    'body': 'GLKVertexAttribPosition'
+  'GLKVertexAttribTexCoord0 ()':
+    'prefix': 'GLKVertexAttribTexCoord0'
+    'body': 'GLKVertexAttribTexCoord0'
+  'GLKVertexAttribTexCoord1 ()':
+    'prefix': 'GLKVertexAttribTexCoord1'
+    'body': 'GLKVertexAttribTexCoord1'
+  'GLK_SSE3_INTRINSICS ()':
+    'prefix': 'GLK_SSE3_INTRINSICS'
+    'body': 'GLK_SSE3_INTRINSICS'
+  'GLKMathDegreesToRadians':
+    'prefix': 'GLKMathDegreesToRadians'
+    'body': 'GLKMathDegreesToRadians(${1: degrees})'
+  'GLKMathProject':
+    'prefix': 'GLKMathProject'
+    'body': 'GLKMathProject(${1: object}, ${2: model}, ${3: projection}, ${4: viewport})'
+  'GLKMathRadiansToDegrees':
+    'prefix': 'GLKMathRadiansToDegrees'
+    'body': 'GLKMathRadiansToDegrees(${1: radians})'
+  'GLKMathUnproject':
+    'prefix': 'GLKMathUnproject'
+    'body': 'GLKMathUnproject(${1: window}, ${2: model}, ${3: projection}, ${4: viewport}, ${5: success})'
+  'GLKMatrix3Add':
+    'prefix': 'GLKMatrix3Add'
+    'body': 'GLKMatrix3Add(${1: matrixLeft}, ${2: matrixRight})'
+  'GLKMatrix3GetColumn':
+    'prefix': 'GLKMatrix3GetColumn'
+    'body': 'GLKMatrix3GetColumn(${1: matrix}, ${2: column})'
+  'GLKMatrix3GetMatrix2':
+    'prefix': 'GLKMatrix3GetMatrix2'
+    'body': 'GLKMatrix3GetMatrix2(${1: matrix})'
+  'GLKMatrix3GetRow':
+    'prefix': 'GLKMatrix3GetRow'
+    'body': 'GLKMatrix3GetRow(${1: matrix}, ${2: row})'
+  'GLKMatrix3Invert':
+    'prefix': 'GLKMatrix3Invert'
+    'body': 'GLKMatrix3Invert(${1: matrix}, ${2: isInvertible})'
+  'GLKMatrix3InvertAndTranspose':
+    'prefix': 'GLKMatrix3InvertAndTranspose'
+    'body': 'GLKMatrix3InvertAndTranspose(${1: matrix}, ${2: isInvertible})'
+  'GLKMatrix3Make':
+    'prefix': 'GLKMatrix3Make'
+    'body': 'GLKMatrix3Make(${1: m00}, ${2: m01}, ${3: m02}, ${4: m10}, ${5: m11}, ${6: m12}, ${7: m20}, ${8: m21}, ${9: m22})'
+  'GLKMatrix3MakeAndTranspose':
+    'prefix': 'GLKMatrix3MakeAndTranspose'
+    'body': 'GLKMatrix3MakeAndTranspose(${1: m00}, ${2: m01}, ${3: m02}, ${4: m10}, ${5: m11}, ${6: m12}, ${7: m20}, ${8: m21}, ${9: m22})'
+  'GLKMatrix3MakeRotation':
+    'prefix': 'GLKMatrix3MakeRotation'
+    'body': 'GLKMatrix3MakeRotation(${1: radians}, ${2: x}, ${3: y}, ${4: z})'
+  'GLKMatrix3MakeScale':
+    'prefix': 'GLKMatrix3MakeScale'
+    'body': 'GLKMatrix3MakeScale(${1: sx}, ${2: sy}, ${3: sz})'
+  'GLKMatrix3MakeWithArray':
+    'prefix': 'GLKMatrix3MakeWithArray'
+    'body': 'GLKMatrix3MakeWithArray(${1: values})'
+  'GLKMatrix3MakeWithArrayAndTranspose':
+    'prefix': 'GLKMatrix3MakeWithArrayAndTranspose'
+    'body': 'GLKMatrix3MakeWithArrayAndTranspose(${1: values})'
+  'GLKMatrix3MakeWithColumns':
+    'prefix': 'GLKMatrix3MakeWithColumns'
+    'body': 'GLKMatrix3MakeWithColumns(${1: column0}, ${2: column1}, ${3: column2})'
+  'GLKMatrix3MakeWithQuaternion':
+    'prefix': 'GLKMatrix3MakeWithQuaternion'
+    'body': 'GLKMatrix3MakeWithQuaternion(${1: quaternion})'
+  'GLKMatrix3MakeWithRows':
+    'prefix': 'GLKMatrix3MakeWithRows'
+    'body': 'GLKMatrix3MakeWithRows(${1: row0}, ${2: row1}, ${3: row2})'
+  'GLKMatrix3MakeXRotation':
+    'prefix': 'GLKMatrix3MakeXRotation'
+    'body': 'GLKMatrix3MakeXRotation(${1: radians})'
+  'GLKMatrix3MakeYRotation':
+    'prefix': 'GLKMatrix3MakeYRotation'
+    'body': 'GLKMatrix3MakeYRotation(${1: radians})'
+  'GLKMatrix3MakeZRotation':
+    'prefix': 'GLKMatrix3MakeZRotation'
+    'body': 'GLKMatrix3MakeZRotation(${1: radians})'
+  'GLKMatrix3Multiply':
+    'prefix': 'GLKMatrix3Multiply'
+    'body': 'GLKMatrix3Multiply(${1: matrixLeft}, ${2: matrixRight})'
+  'GLKMatrix3MultiplyVector3':
+    'prefix': 'GLKMatrix3MultiplyVector3'
+    'body': 'GLKMatrix3MultiplyVector3(${1: matrixLeft}, ${2: vectorRight})'
+  'GLKMatrix3MultiplyVector3Array':
+    'prefix': 'GLKMatrix3MultiplyVector3Array'
+    'body': 'GLKMatrix3MultiplyVector3Array(${1: matrix}, ${2: vectors}, ${3: vectorCount})'
+  'GLKMatrix3Rotate':
+    'prefix': 'GLKMatrix3Rotate'
+    'body': 'GLKMatrix3Rotate(${1: matrix}, ${2: radians}, ${3: x}, ${4: y}, ${5: z})'
+  'GLKMatrix3RotateWithVector3':
+    'prefix': 'GLKMatrix3RotateWithVector3'
+    'body': 'GLKMatrix3RotateWithVector3(${1: matrix}, ${2: radians}, ${3: axisVector})'
+  'GLKMatrix3RotateWithVector4':
+    'prefix': 'GLKMatrix3RotateWithVector4'
+    'body': 'GLKMatrix3RotateWithVector4(${1: matrix}, ${2: radians}, ${3: axisVector})'
+  'GLKMatrix3RotateX':
+    'prefix': 'GLKMatrix3RotateX'
+    'body': 'GLKMatrix3RotateX(${1: matrix}, ${2: radians})'
+  'GLKMatrix3RotateY':
+    'prefix': 'GLKMatrix3RotateY'
+    'body': 'GLKMatrix3RotateY(${1: matrix}, ${2: radians})'
+  'GLKMatrix3RotateZ':
+    'prefix': 'GLKMatrix3RotateZ'
+    'body': 'GLKMatrix3RotateZ(${1: matrix}, ${2: radians})'
+  'GLKMatrix3Scale':
+    'prefix': 'GLKMatrix3Scale'
+    'body': 'GLKMatrix3Scale(${1: matrix}, ${2: sx}, ${3: sy}, ${4: sz})'
+  'GLKMatrix3ScaleWithVector3':
+    'prefix': 'GLKMatrix3ScaleWithVector3'
+    'body': 'GLKMatrix3ScaleWithVector3(${1: matrix}, ${2: scaleVector})'
+  'GLKMatrix3ScaleWithVector4':
+    'prefix': 'GLKMatrix3ScaleWithVector4'
+    'body': 'GLKMatrix3ScaleWithVector4(${1: matrix}, ${2: scaleVector})'
+  'GLKMatrix3SetColumn':
+    'prefix': 'GLKMatrix3SetColumn'
+    'body': 'GLKMatrix3SetColumn(${1: matrix}, ${2: column}, ${3: vector})'
+  'GLKMatrix3SetRow':
+    'prefix': 'GLKMatrix3SetRow'
+    'body': 'GLKMatrix3SetRow(${1: matrix}, ${2: row}, ${3: vector})'
+  'GLKMatrix3Subtract':
+    'prefix': 'GLKMatrix3Subtract'
+    'body': 'GLKMatrix3Subtract(${1: matrixLeft}, ${2: matrixRight})'
+  'GLKMatrix3Transpose':
+    'prefix': 'GLKMatrix3Transpose'
+    'body': 'GLKMatrix3Transpose(${1: matrix})'
+  'GLKMatrix4Add':
+    'prefix': 'GLKMatrix4Add'
+    'body': 'GLKMatrix4Add(${1: matrixLeft}, ${2: matrixRight})'
+  'GLKMatrix4GetColumn':
+    'prefix': 'GLKMatrix4GetColumn'
+    'body': 'GLKMatrix4GetColumn(${1: matrix}, ${2: column})'
+  'GLKMatrix4GetMatrix2':
+    'prefix': 'GLKMatrix4GetMatrix2'
+    'body': 'GLKMatrix4GetMatrix2(${1: matrix})'
+  'GLKMatrix4GetMatrix3':
+    'prefix': 'GLKMatrix4GetMatrix3'
+    'body': 'GLKMatrix4GetMatrix3(${1: matrix})'
+  'GLKMatrix4GetRow':
+    'prefix': 'GLKMatrix4GetRow'
+    'body': 'GLKMatrix4GetRow(${1: matrix}, ${2: row})'
+  'GLKMatrix4Invert':
+    'prefix': 'GLKMatrix4Invert'
+    'body': 'GLKMatrix4Invert(${1: matrix}, ${2: isInvertible})'
+  'GLKMatrix4InvertAndTranspose':
+    'prefix': 'GLKMatrix4InvertAndTranspose'
+    'body': 'GLKMatrix4InvertAndTranspose(${1: matrix}, ${2: isInvertible})'
+  'GLKMatrix4Make':
+    'prefix': 'GLKMatrix4Make'
+    'body': 'GLKMatrix4Make(${1: m00}, ${2: m01}, ${3: m02}, ${4: m03}, ${5: m10}, ${6: m11}, ${7: m12}, ${8: m13}, ${9: m20}, ${10: m21}, ${11: m22}, ${12: m23}, ${13: m30}, ${14: m31}, ${15: m32}, ${16: m33})'
+  'GLKMatrix4MakeAndTranspose':
+    'prefix': 'GLKMatrix4MakeAndTranspose'
+    'body': 'GLKMatrix4MakeAndTranspose(${1: m00}, ${2: m01}, ${3: m02}, ${4: m03}, ${5: m10}, ${6: m11}, ${7: m12}, ${8: m13}, ${9: m20}, ${10: m21}, ${11: m22}, ${12: m23}, ${13: m30}, ${14: m31}, ${15: m32}, ${16: m33})'
+  'GLKMatrix4MakeFrustum':
+    'prefix': 'GLKMatrix4MakeFrustum'
+    'body': 'GLKMatrix4MakeFrustum(${1: left}, ${2: right}, ${3: bottom}, ${4: top}, ${5: nearZ}, ${6: farZ})'
+  'GLKMatrix4MakeLookAt':
+    'prefix': 'GLKMatrix4MakeLookAt'
+    'body': 'GLKMatrix4MakeLookAt(${1: eyeX}, ${2: eyeY}, ${3: eyeZ}, ${4: centerX}, ${5: centerY}, ${6: centerZ}, ${7: upX}, ${8: upY}, ${9: upZ})'
+  'GLKMatrix4MakeOrtho':
+    'prefix': 'GLKMatrix4MakeOrtho'
+    'body': 'GLKMatrix4MakeOrtho(${1: left}, ${2: right}, ${3: bottom}, ${4: top}, ${5: nearZ}, ${6: farZ})'
+  'GLKMatrix4MakePerspective':
+    'prefix': 'GLKMatrix4MakePerspective'
+    'body': 'GLKMatrix4MakePerspective(${1: fovyRadians}, ${2: aspect}, ${3: nearZ}, ${4: farZ})'
+  'GLKMatrix4MakeRotation':
+    'prefix': 'GLKMatrix4MakeRotation'
+    'body': 'GLKMatrix4MakeRotation(${1: radians}, ${2: x}, ${3: y}, ${4: z})'
+  'GLKMatrix4MakeScale':
+    'prefix': 'GLKMatrix4MakeScale'
+    'body': 'GLKMatrix4MakeScale(${1: sx}, ${2: sy}, ${3: sz})'
+  'GLKMatrix4MakeTranslation':
+    'prefix': 'GLKMatrix4MakeTranslation'
+    'body': 'GLKMatrix4MakeTranslation(${1: tx}, ${2: ty}, ${3: tz})'
+  'GLKMatrix4MakeWithArray':
+    'prefix': 'GLKMatrix4MakeWithArray'
+    'body': 'GLKMatrix4MakeWithArray(${1: values})'
+  'GLKMatrix4MakeWithArrayAndTranspose':
+    'prefix': 'GLKMatrix4MakeWithArrayAndTranspose'
+    'body': 'GLKMatrix4MakeWithArrayAndTranspose(${1: values})'
+  'GLKMatrix4MakeWithColumns':
+    'prefix': 'GLKMatrix4MakeWithColumns'
+    'body': 'GLKMatrix4MakeWithColumns(${1: column0}, ${2: column1}, ${3: column2}, ${4: column3})'
+  'GLKMatrix4MakeWithQuaternion':
+    'prefix': 'GLKMatrix4MakeWithQuaternion'
+    'body': 'GLKMatrix4MakeWithQuaternion(${1: quaternion})'
+  'GLKMatrix4MakeWithRows':
+    'prefix': 'GLKMatrix4MakeWithRows'
+    'body': 'GLKMatrix4MakeWithRows(${1: row0}, ${2: row1}, ${3: row2}, ${4: row3})'
+  'GLKMatrix4MakeXRotation':
+    'prefix': 'GLKMatrix4MakeXRotation'
+    'body': 'GLKMatrix4MakeXRotation(${1: radians})'
+  'GLKMatrix4MakeYRotation':
+    'prefix': 'GLKMatrix4MakeYRotation'
+    'body': 'GLKMatrix4MakeYRotation(${1: radians})'
+  'GLKMatrix4MakeZRotation':
+    'prefix': 'GLKMatrix4MakeZRotation'
+    'body': 'GLKMatrix4MakeZRotation(${1: radians})'
+  'GLKMatrix4Multiply':
+    'prefix': 'GLKMatrix4Multiply'
+    'body': 'GLKMatrix4Multiply(${1: matrixLeft}, ${2: matrixRight})'
+  'GLKMatrix4MultiplyAndProjectVector3':
+    'prefix': 'GLKMatrix4MultiplyAndProjectVector3'
+    'body': 'GLKMatrix4MultiplyAndProjectVector3(${1: matrixLeft}, ${2: vectorRight})'
+  'GLKMatrix4MultiplyAndProjectVector3Array':
+    'prefix': 'GLKMatrix4MultiplyAndProjectVector3Array'
+    'body': 'GLKMatrix4MultiplyAndProjectVector3Array(${1: matrix}, ${2: vectors}, ${3: vectorCount})'
+  'GLKMatrix4MultiplyVector3':
+    'prefix': 'GLKMatrix4MultiplyVector3'
+    'body': 'GLKMatrix4MultiplyVector3(${1: matrixLeft}, ${2: vectorRight})'
+  'GLKMatrix4MultiplyVector3Array':
+    'prefix': 'GLKMatrix4MultiplyVector3Array'
+    'body': 'GLKMatrix4MultiplyVector3Array(${1: matrix}, ${2: vectors}, ${3: vectorCount})'
+  'GLKMatrix4MultiplyVector3ArrayWithTranslation':
+    'prefix': 'GLKMatrix4MultiplyVector3ArrayWithTranslation'
+    'body': 'GLKMatrix4MultiplyVector3ArrayWithTranslation(${1: matrix}, ${2: vectors}, ${3: vectorCount})'
+  'GLKMatrix4MultiplyVector3WithTranslation':
+    'prefix': 'GLKMatrix4MultiplyVector3WithTranslation'
+    'body': 'GLKMatrix4MultiplyVector3WithTranslation(${1: matrixLeft}, ${2: vectorRight})'
+  'GLKMatrix4MultiplyVector4':
+    'prefix': 'GLKMatrix4MultiplyVector4'
+    'body': 'GLKMatrix4MultiplyVector4(${1: matrixLeft}, ${2: vectorRight})'
+  'GLKMatrix4MultiplyVector4Array':
+    'prefix': 'GLKMatrix4MultiplyVector4Array'
+    'body': 'GLKMatrix4MultiplyVector4Array(${1: matrix}, ${2: vectors}, ${3: vectorCount})'
+  'GLKMatrix4Rotate':
+    'prefix': 'GLKMatrix4Rotate'
+    'body': 'GLKMatrix4Rotate(${1: matrix}, ${2: radians}, ${3: x}, ${4: y}, ${5: z})'
+  'GLKMatrix4RotateWithVector3':
+    'prefix': 'GLKMatrix4RotateWithVector3'
+    'body': 'GLKMatrix4RotateWithVector3(${1: matrix}, ${2: radians}, ${3: axisVector})'
+  'GLKMatrix4RotateWithVector4':
+    'prefix': 'GLKMatrix4RotateWithVector4'
+    'body': 'GLKMatrix4RotateWithVector4(${1: matrix}, ${2: radians}, ${3: axisVector})'
+  'GLKMatrix4RotateX':
+    'prefix': 'GLKMatrix4RotateX'
+    'body': 'GLKMatrix4RotateX(${1: matrix}, ${2: radians})'
+  'GLKMatrix4RotateY':
+    'prefix': 'GLKMatrix4RotateY'
+    'body': 'GLKMatrix4RotateY(${1: matrix}, ${2: radians})'
+  'GLKMatrix4RotateZ':
+    'prefix': 'GLKMatrix4RotateZ'
+    'body': 'GLKMatrix4RotateZ(${1: matrix}, ${2: radians})'
+  'GLKMatrix4Scale':
+    'prefix': 'GLKMatrix4Scale'
+    'body': 'GLKMatrix4Scale(${1: matrix}, ${2: sx}, ${3: sy}, ${4: sz})'
+  'GLKMatrix4ScaleWithVector3':
+    'prefix': 'GLKMatrix4ScaleWithVector3'
+    'body': 'GLKMatrix4ScaleWithVector3(${1: matrix}, ${2: scaleVector})'
+  'GLKMatrix4ScaleWithVector4':
+    'prefix': 'GLKMatrix4ScaleWithVector4'
+    'body': 'GLKMatrix4ScaleWithVector4(${1: matrix}, ${2: scaleVector})'
+  'GLKMatrix4SetColumn':
+    'prefix': 'GLKMatrix4SetColumn'
+    'body': 'GLKMatrix4SetColumn(${1: matrix}, ${2: column}, ${3: vector})'
+  'GLKMatrix4SetRow':
+    'prefix': 'GLKMatrix4SetRow'
+    'body': 'GLKMatrix4SetRow(${1: matrix}, ${2: row}, ${3: vector})'
+  'GLKMatrix4Subtract':
+    'prefix': 'GLKMatrix4Subtract'
+    'body': 'GLKMatrix4Subtract(${1: matrixLeft}, ${2: matrixRight})'
+  'GLKMatrix4Translate':
+    'prefix': 'GLKMatrix4Translate'
+    'body': 'GLKMatrix4Translate(${1: matrix}, ${2: tx}, ${3: ty}, ${4: tz})'
+  'GLKMatrix4TranslateWithVector3':
+    'prefix': 'GLKMatrix4TranslateWithVector3'
+    'body': 'GLKMatrix4TranslateWithVector3(${1: matrix}, ${2: translationVector})'
+  'GLKMatrix4TranslateWithVector4':
+    'prefix': 'GLKMatrix4TranslateWithVector4'
+    'body': 'GLKMatrix4TranslateWithVector4(${1: matrix}, ${2: translationVector})'
+  'GLKMatrix4Transpose':
+    'prefix': 'GLKMatrix4Transpose'
+    'body': 'GLKMatrix4Transpose(${1: matrix})'
+  'GLKMatrixStackCreate':
+    'prefix': 'GLKMatrixStackCreate'
+    'body': 'GLKMatrixStackCreate(${1: alloc})'
+  'GLKMatrixStackGetMatrix2':
+    'prefix': 'GLKMatrixStackGetMatrix2'
+    'body': 'GLKMatrixStackGetMatrix2(${1: stack})'
+  'GLKMatrixStackGetMatrix3':
+    'prefix': 'GLKMatrixStackGetMatrix3'
+    'body': 'GLKMatrixStackGetMatrix3(${1: stack})'
+  'GLKMatrixStackGetMatrix3Inverse':
+    'prefix': 'GLKMatrixStackGetMatrix3Inverse'
+    'body': 'GLKMatrixStackGetMatrix3Inverse(${1: stack})'
+  'GLKMatrixStackGetMatrix3InverseTranspose':
+    'prefix': 'GLKMatrixStackGetMatrix3InverseTranspose'
+    'body': 'GLKMatrixStackGetMatrix3InverseTranspose(${1: stack})'
+  'GLKMatrixStackGetMatrix4':
+    'prefix': 'GLKMatrixStackGetMatrix4'
+    'body': 'GLKMatrixStackGetMatrix4(${1: stack})'
+  'GLKMatrixStackGetMatrix4Inverse':
+    'prefix': 'GLKMatrixStackGetMatrix4Inverse'
+    'body': 'GLKMatrixStackGetMatrix4Inverse(${1: stack})'
+  'GLKMatrixStackGetMatrix4InverseTranspose':
+    'prefix': 'GLKMatrixStackGetMatrix4InverseTranspose'
+    'body': 'GLKMatrixStackGetMatrix4InverseTranspose(${1: stack})'
+  'GLKMatrixStackGetTypeID':
+    'prefix': 'GLKMatrixStackGetTypeID'
+    'body': 'GLKMatrixStackGetTypeID()'
+  'GLKMatrixStackLoadMatrix4':
+    'prefix': 'GLKMatrixStackLoadMatrix4'
+    'body': 'GLKMatrixStackLoadMatrix4(${1: stack}, ${2: matrix})'
+  'GLKMatrixStackMultiplyMatrix4':
+    'prefix': 'GLKMatrixStackMultiplyMatrix4'
+    'body': 'GLKMatrixStackMultiplyMatrix4(${1: stack}, ${2: matrix})'
+  'GLKMatrixStackMultiplyMatrixStack':
+    'prefix': 'GLKMatrixStackMultiplyMatrixStack'
+    'body': 'GLKMatrixStackMultiplyMatrixStack(${1: stackLeft}, ${2: stackRight})'
+  'GLKMatrixStackPop':
+    'prefix': 'GLKMatrixStackPop'
+    'body': 'GLKMatrixStackPop(${1: stack})'
+  'GLKMatrixStackPush':
+    'prefix': 'GLKMatrixStackPush'
+    'body': 'GLKMatrixStackPush(${1: stack})'
+  'GLKMatrixStackRotate':
+    'prefix': 'GLKMatrixStackRotate'
+    'body': 'GLKMatrixStackRotate(${1: stack}, ${2: radians}, ${3: x}, ${4: y}, ${5: z})'
+  'GLKMatrixStackRotateWithVector3':
+    'prefix': 'GLKMatrixStackRotateWithVector3'
+    'body': 'GLKMatrixStackRotateWithVector3(${1: stack}, ${2: radians}, ${3: axisVector})'
+  'GLKMatrixStackRotateWithVector4':
+    'prefix': 'GLKMatrixStackRotateWithVector4'
+    'body': 'GLKMatrixStackRotateWithVector4(${1: stack}, ${2: radians}, ${3: axisVector})'
+  'GLKMatrixStackRotateX':
+    'prefix': 'GLKMatrixStackRotateX'
+    'body': 'GLKMatrixStackRotateX(${1: stack}, ${2: radians})'
+  'GLKMatrixStackRotateY':
+    'prefix': 'GLKMatrixStackRotateY'
+    'body': 'GLKMatrixStackRotateY(${1: stack}, ${2: radians})'
+  'GLKMatrixStackRotateZ':
+    'prefix': 'GLKMatrixStackRotateZ'
+    'body': 'GLKMatrixStackRotateZ(${1: stack}, ${2: radians})'
+  'GLKMatrixStackScale':
+    'prefix': 'GLKMatrixStackScale'
+    'body': 'GLKMatrixStackScale(${1: stack}, ${2: sx}, ${3: sy}, ${4: sz})'
+  'GLKMatrixStackScaleWithVector3':
+    'prefix': 'GLKMatrixStackScaleWithVector3'
+    'body': 'GLKMatrixStackScaleWithVector3(${1: stack}, ${2: scaleVector})'
+  'GLKMatrixStackScaleWithVector4':
+    'prefix': 'GLKMatrixStackScaleWithVector4'
+    'body': 'GLKMatrixStackScaleWithVector4(${1: stack}, ${2: scaleVector})'
+  'GLKMatrixStackSize':
+    'prefix': 'GLKMatrixStackSize'
+    'body': 'GLKMatrixStackSize(${1: stack})'
+  'GLKMatrixStackTranslate':
+    'prefix': 'GLKMatrixStackTranslate'
+    'body': 'GLKMatrixStackTranslate(${1: stack}, ${2: tx}, ${3: ty}, ${4: tz})'
+  'GLKMatrixStackTranslateWithVector3':
+    'prefix': 'GLKMatrixStackTranslateWithVector3'
+    'body': 'GLKMatrixStackTranslateWithVector3(${1: stack}, ${2: translationVector})'
+  'GLKMatrixStackTranslateWithVector4':
+    'prefix': 'GLKMatrixStackTranslateWithVector4'
+    'body': 'GLKMatrixStackTranslateWithVector4(${1: stack}, ${2: translationVector})'
+  'GLKQuaternionAdd':
+    'prefix': 'GLKQuaternionAdd'
+    'body': 'GLKQuaternionAdd(${1: quaternionLeft}, ${2: quaternionRight})'
+  'GLKQuaternionAngle':
+    'prefix': 'GLKQuaternionAngle'
+    'body': 'GLKQuaternionAngle(${1: quaternion})'
+  'GLKQuaternionAxis':
+    'prefix': 'GLKQuaternionAxis'
+    'body': 'GLKQuaternionAxis(${1: quaternion})'
+  'GLKQuaternionConjugate':
+    'prefix': 'GLKQuaternionConjugate'
+    'body': 'GLKQuaternionConjugate(${1: quaternion})'
+  'GLKQuaternionInvert':
+    'prefix': 'GLKQuaternionInvert'
+    'body': 'GLKQuaternionInvert(${1: quaternion})'
+  'GLKQuaternionLength':
+    'prefix': 'GLKQuaternionLength'
+    'body': 'GLKQuaternionLength(${1: quaternion})'
+  'GLKQuaternionMake':
+    'prefix': 'GLKQuaternionMake'
+    'body': 'GLKQuaternionMake(${1: x}, ${2: y}, ${3: z}, ${4: w})'
+  'GLKQuaternionMakeWithAngleAndAxis':
+    'prefix': 'GLKQuaternionMakeWithAngleAndAxis'
+    'body': 'GLKQuaternionMakeWithAngleAndAxis(${1: radians}, ${2: x}, ${3: y}, ${4: z})'
+  'GLKQuaternionMakeWithAngleAndVector3Axis':
+    'prefix': 'GLKQuaternionMakeWithAngleAndVector3Axis'
+    'body': 'GLKQuaternionMakeWithAngleAndVector3Axis(${1: radians}, ${2: axisVector})'
+  'GLKQuaternionMakeWithArray':
+    'prefix': 'GLKQuaternionMakeWithArray'
+    'body': 'GLKQuaternionMakeWithArray(${1: values})'
+  'GLKQuaternionMakeWithMatrix3':
+    'prefix': 'GLKQuaternionMakeWithMatrix3'
+    'body': 'GLKQuaternionMakeWithMatrix3(${1: matrix})'
+  'GLKQuaternionMakeWithMatrix4':
+    'prefix': 'GLKQuaternionMakeWithMatrix4'
+    'body': 'GLKQuaternionMakeWithMatrix4(${1: matrix})'
+  'GLKQuaternionMakeWithVector3':
+    'prefix': 'GLKQuaternionMakeWithVector3'
+    'body': 'GLKQuaternionMakeWithVector3(${1: vector}, ${2: scalar})'
+  'GLKQuaternionMultiply':
+    'prefix': 'GLKQuaternionMultiply'
+    'body': 'GLKQuaternionMultiply(${1: quaternionLeft}, ${2: quaternionRight})'
+  'GLKQuaternionNormalize':
+    'prefix': 'GLKQuaternionNormalize'
+    'body': 'GLKQuaternionNormalize(${1: quaternion})'
+  'GLKQuaternionRotateVector3':
+    'prefix': 'GLKQuaternionRotateVector3'
+    'body': 'GLKQuaternionRotateVector3(${1: quaternion}, ${2: vector})'
+  'GLKQuaternionRotateVector3Array':
+    'prefix': 'GLKQuaternionRotateVector3Array'
+    'body': 'GLKQuaternionRotateVector3Array(${1: quaternion}, ${2: vectors}, ${3: vectorCount})'
+  'GLKQuaternionRotateVector4':
+    'prefix': 'GLKQuaternionRotateVector4'
+    'body': 'GLKQuaternionRotateVector4(${1: quaternion}, ${2: vector})'
+  'GLKQuaternionRotateVector4Array':
+    'prefix': 'GLKQuaternionRotateVector4Array'
+    'body': 'GLKQuaternionRotateVector4Array(${1: quaternion}, ${2: vectors}, ${3: vectorCount})'
+  'GLKQuaternionSlerp':
+    'prefix': 'GLKQuaternionSlerp'
+    'body': 'GLKQuaternionSlerp(${1: quaternionStart}, ${2: quaternionEnd}, ${3: t})'
+  'GLKQuaternionSubtract':
+    'prefix': 'GLKQuaternionSubtract'
+    'body': 'GLKQuaternionSubtract(${1: quaternionLeft}, ${2: quaternionRight})'
+  'GLKVector2Add':
+    'prefix': 'GLKVector2Add'
+    'body': 'GLKVector2Add(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2AddScalar':
+    'prefix': 'GLKVector2AddScalar'
+    'body': 'GLKVector2AddScalar(${1: vector}, ${2: value})'
+  'GLKVector2AllEqualToScalar':
+    'prefix': 'GLKVector2AllEqualToScalar'
+    'body': 'GLKVector2AllEqualToScalar(${1: vector}, ${2: value})'
+  'GLKVector2AllEqualToVector2':
+    'prefix': 'GLKVector2AllEqualToVector2'
+    'body': 'GLKVector2AllEqualToVector2(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2AllGreaterThanOrEqualToScalar':
+    'prefix': 'GLKVector2AllGreaterThanOrEqualToScalar'
+    'body': 'GLKVector2AllGreaterThanOrEqualToScalar(${1: vector}, ${2: value})'
+  'GLKVector2AllGreaterThanOrEqualToVector2':
+    'prefix': 'GLKVector2AllGreaterThanOrEqualToVector2'
+    'body': 'GLKVector2AllGreaterThanOrEqualToVector2(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2AllGreaterThanScalar':
+    'prefix': 'GLKVector2AllGreaterThanScalar'
+    'body': 'GLKVector2AllGreaterThanScalar(${1: vector}, ${2: value})'
+  'GLKVector2AllGreaterThanVector2':
+    'prefix': 'GLKVector2AllGreaterThanVector2'
+    'body': 'GLKVector2AllGreaterThanVector2(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2Distance':
+    'prefix': 'GLKVector2Distance'
+    'body': 'GLKVector2Distance(${1: vectorStart}, ${2: vectorEnd})'
+  'GLKVector2Divide':
+    'prefix': 'GLKVector2Divide'
+    'body': 'GLKVector2Divide(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2DivideScalar':
+    'prefix': 'GLKVector2DivideScalar'
+    'body': 'GLKVector2DivideScalar(${1: vector}, ${2: value})'
+  'GLKVector2DotProduct':
+    'prefix': 'GLKVector2DotProduct'
+    'body': 'GLKVector2DotProduct(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2Length':
+    'prefix': 'GLKVector2Length'
+    'body': 'GLKVector2Length(${1: vector})'
+  'GLKVector2Lerp':
+    'prefix': 'GLKVector2Lerp'
+    'body': 'GLKVector2Lerp(${1: vectorStart}, ${2: vectorEnd}, ${3: t})'
+  'GLKVector2Make':
+    'prefix': 'GLKVector2Make'
+    'body': 'GLKVector2Make(${1: x}, ${2: y})'
+  'GLKVector2MakeWithArray':
+    'prefix': 'GLKVector2MakeWithArray'
+    'body': 'GLKVector2MakeWithArray(${1: values})'
+  'GLKVector2Maximum':
+    'prefix': 'GLKVector2Maximum'
+    'body': 'GLKVector2Maximum(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2Minimum':
+    'prefix': 'GLKVector2Minimum'
+    'body': 'GLKVector2Minimum(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2Multiply':
+    'prefix': 'GLKVector2Multiply'
+    'body': 'GLKVector2Multiply(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2MultiplyScalar':
+    'prefix': 'GLKVector2MultiplyScalar'
+    'body': 'GLKVector2MultiplyScalar(${1: vector}, ${2: value})'
+  'GLKVector2Negate':
+    'prefix': 'GLKVector2Negate'
+    'body': 'GLKVector2Negate(${1: vector})'
+  'GLKVector2Normalize':
+    'prefix': 'GLKVector2Normalize'
+    'body': 'GLKVector2Normalize(${1: vector})'
+  'GLKVector2Project':
+    'prefix': 'GLKVector2Project'
+    'body': 'GLKVector2Project(${1: vectorToProject}, ${2: projectionVector})'
+  'GLKVector2Subtract':
+    'prefix': 'GLKVector2Subtract'
+    'body': 'GLKVector2Subtract(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector2SubtractScalar':
+    'prefix': 'GLKVector2SubtractScalar'
+    'body': 'GLKVector2SubtractScalar(${1: vector}, ${2: value})'
+  'GLKVector3Add':
+    'prefix': 'GLKVector3Add'
+    'body': 'GLKVector3Add(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3AddScalar':
+    'prefix': 'GLKVector3AddScalar'
+    'body': 'GLKVector3AddScalar(${1: vector}, ${2: value})'
+  'GLKVector3AllEqualToScalar':
+    'prefix': 'GLKVector3AllEqualToScalar'
+    'body': 'GLKVector3AllEqualToScalar(${1: vector}, ${2: value})'
+  'GLKVector3AllEqualToVector3':
+    'prefix': 'GLKVector3AllEqualToVector3'
+    'body': 'GLKVector3AllEqualToVector3(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3AllGreaterThanOrEqualToScalar':
+    'prefix': 'GLKVector3AllGreaterThanOrEqualToScalar'
+    'body': 'GLKVector3AllGreaterThanOrEqualToScalar(${1: vector}, ${2: value})'
+  'GLKVector3AllGreaterThanOrEqualToVector3':
+    'prefix': 'GLKVector3AllGreaterThanOrEqualToVector3'
+    'body': 'GLKVector3AllGreaterThanOrEqualToVector3(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3AllGreaterThanScalar':
+    'prefix': 'GLKVector3AllGreaterThanScalar'
+    'body': 'GLKVector3AllGreaterThanScalar(${1: vector}, ${2: value})'
+  'GLKVector3AllGreaterThanVector3':
+    'prefix': 'GLKVector3AllGreaterThanVector3'
+    'body': 'GLKVector3AllGreaterThanVector3(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3CrossProduct':
+    'prefix': 'GLKVector3CrossProduct'
+    'body': 'GLKVector3CrossProduct(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3Distance':
+    'prefix': 'GLKVector3Distance'
+    'body': 'GLKVector3Distance(${1: vectorStart}, ${2: vectorEnd})'
+  'GLKVector3Divide':
+    'prefix': 'GLKVector3Divide'
+    'body': 'GLKVector3Divide(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3DivideScalar':
+    'prefix': 'GLKVector3DivideScalar'
+    'body': 'GLKVector3DivideScalar(${1: vector}, ${2: value})'
+  'GLKVector3DotProduct':
+    'prefix': 'GLKVector3DotProduct'
+    'body': 'GLKVector3DotProduct(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3Length':
+    'prefix': 'GLKVector3Length'
+    'body': 'GLKVector3Length(${1: vector})'
+  'GLKVector3Lerp':
+    'prefix': 'GLKVector3Lerp'
+    'body': 'GLKVector3Lerp(${1: vectorStart}, ${2: vectorEnd}, ${3: t})'
+  'GLKVector3Make':
+    'prefix': 'GLKVector3Make'
+    'body': 'GLKVector3Make(${1: x}, ${2: y}, ${3: z})'
+  'GLKVector3MakeWithArray':
+    'prefix': 'GLKVector3MakeWithArray'
+    'body': 'GLKVector3MakeWithArray(${1: values})'
+  'GLKVector3Maximum':
+    'prefix': 'GLKVector3Maximum'
+    'body': 'GLKVector3Maximum(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3Minimum':
+    'prefix': 'GLKVector3Minimum'
+    'body': 'GLKVector3Minimum(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3Multiply':
+    'prefix': 'GLKVector3Multiply'
+    'body': 'GLKVector3Multiply(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3MultiplyScalar':
+    'prefix': 'GLKVector3MultiplyScalar'
+    'body': 'GLKVector3MultiplyScalar(${1: vector}, ${2: value})'
+  'GLKVector3Negate':
+    'prefix': 'GLKVector3Negate'
+    'body': 'GLKVector3Negate(${1: vector})'
+  'GLKVector3Normalize':
+    'prefix': 'GLKVector3Normalize'
+    'body': 'GLKVector3Normalize(${1: vector})'
+  'GLKVector3Project':
+    'prefix': 'GLKVector3Project'
+    'body': 'GLKVector3Project(${1: vectorToProject}, ${2: projectionVector})'
+  'GLKVector3Subtract':
+    'prefix': 'GLKVector3Subtract'
+    'body': 'GLKVector3Subtract(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector3SubtractScalar':
+    'prefix': 'GLKVector3SubtractScalar'
+    'body': 'GLKVector3SubtractScalar(${1: vector}, ${2: value})'
+  'GLKVector4Add':
+    'prefix': 'GLKVector4Add'
+    'body': 'GLKVector4Add(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4AddScalar':
+    'prefix': 'GLKVector4AddScalar'
+    'body': 'GLKVector4AddScalar(${1: vector}, ${2: value})'
+  'GLKVector4AllEqualToScalar':
+    'prefix': 'GLKVector4AllEqualToScalar'
+    'body': 'GLKVector4AllEqualToScalar(${1: vector}, ${2: value})'
+  'GLKVector4AllEqualToVector4':
+    'prefix': 'GLKVector4AllEqualToVector4'
+    'body': 'GLKVector4AllEqualToVector4(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4AllGreaterThanOrEqualToScalar':
+    'prefix': 'GLKVector4AllGreaterThanOrEqualToScalar'
+    'body': 'GLKVector4AllGreaterThanOrEqualToScalar(${1: vector}, ${2: value})'
+  'GLKVector4AllGreaterThanOrEqualToVector4':
+    'prefix': 'GLKVector4AllGreaterThanOrEqualToVector4'
+    'body': 'GLKVector4AllGreaterThanOrEqualToVector4(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4AllGreaterThanScalar':
+    'prefix': 'GLKVector4AllGreaterThanScalar'
+    'body': 'GLKVector4AllGreaterThanScalar(${1: vector}, ${2: value})'
+  'GLKVector4AllGreaterThanVector4':
+    'prefix': 'GLKVector4AllGreaterThanVector4'
+    'body': 'GLKVector4AllGreaterThanVector4(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4CrossProduct':
+    'prefix': 'GLKVector4CrossProduct'
+    'body': 'GLKVector4CrossProduct(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4Distance':
+    'prefix': 'GLKVector4Distance'
+    'body': 'GLKVector4Distance(${1: vectorStart}, ${2: vectorEnd})'
+  'GLKVector4Divide':
+    'prefix': 'GLKVector4Divide'
+    'body': 'GLKVector4Divide(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4DivideScalar':
+    'prefix': 'GLKVector4DivideScalar'
+    'body': 'GLKVector4DivideScalar(${1: vector}, ${2: value})'
+  'GLKVector4DotProduct':
+    'prefix': 'GLKVector4DotProduct'
+    'body': 'GLKVector4DotProduct(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4Length':
+    'prefix': 'GLKVector4Length'
+    'body': 'GLKVector4Length(${1: vector})'
+  'GLKVector4Lerp':
+    'prefix': 'GLKVector4Lerp'
+    'body': 'GLKVector4Lerp(${1: vectorStart}, ${2: vectorEnd}, ${3: t})'
+  'GLKVector4Make':
+    'prefix': 'GLKVector4Make'
+    'body': 'GLKVector4Make(${1: x}, ${2: y}, ${3: z}, ${4: w})'
+  'GLKVector4MakeWithArray':
+    'prefix': 'GLKVector4MakeWithArray'
+    'body': 'GLKVector4MakeWithArray(${1: values})'
+  'GLKVector4MakeWithVector3':
+    'prefix': 'GLKVector4MakeWithVector3'
+    'body': 'GLKVector4MakeWithVector3(${1: vector}, ${2: w})'
+  'GLKVector4Maximum':
+    'prefix': 'GLKVector4Maximum'
+    'body': 'GLKVector4Maximum(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4Minimum':
+    'prefix': 'GLKVector4Minimum'
+    'body': 'GLKVector4Minimum(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4Multiply':
+    'prefix': 'GLKVector4Multiply'
+    'body': 'GLKVector4Multiply(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4MultiplyScalar':
+    'prefix': 'GLKVector4MultiplyScalar'
+    'body': 'GLKVector4MultiplyScalar(${1: vector}, ${2: value})'
+  'GLKVector4Negate':
+    'prefix': 'GLKVector4Negate'
+    'body': 'GLKVector4Negate(${1: vector})'
+  'GLKVector4Normalize':
+    'prefix': 'GLKVector4Normalize'
+    'body': 'GLKVector4Normalize(${1: vector})'
+  'GLKVector4Project':
+    'prefix': 'GLKVector4Project'
+    'body': 'GLKVector4Project(${1: vectorToProject}, ${2: projectionVector})'
+  'GLKVector4Subtract':
+    'prefix': 'GLKVector4Subtract'
+    'body': 'GLKVector4Subtract(${1: vectorLeft}, ${2: vectorRight})'
+  'GLKVector4SubtractScalar':
+    'prefix': 'GLKVector4SubtractScalar'
+    'body': 'GLKVector4SubtractScalar(${1: vector}, ${2: value})'
+  'NSStringFromGLKMatrix2':
+    'prefix': 'NSStringFromGLKMatrix2'
+    'body': 'NSStringFromGLKMatrix2(${1: matrix})'
+  'NSStringFromGLKMatrix3':
+    'prefix': 'NSStringFromGLKMatrix3'
+    'body': 'NSStringFromGLKMatrix3(${1: matrix})'
+  'NSStringFromGLKMatrix4':
+    'prefix': 'NSStringFromGLKMatrix4'
+    'body': 'NSStringFromGLKMatrix4(${1: matrix})'
+  'NSStringFromGLKQuaternion':
+    'prefix': 'NSStringFromGLKQuaternion'
+    'body': 'NSStringFromGLKQuaternion(${1: quaternion})'
+  'NSStringFromGLKVector2':
+    'prefix': 'NSStringFromGLKVector2'
+    'body': 'NSStringFromGLKVector2(${1: vector})'
+  'NSStringFromGLKVector3':
+    'prefix': 'NSStringFromGLKVector3'
+    'body': 'NSStringFromGLKVector3(${1: vector})'
+  'NSStringFromGLKVector4':
+    'prefix': 'NSStringFromGLKVector4'
+    'body': 'NSStringFromGLKVector4(${1: vector})'
+  'colorMaterialEnabled':
+    'prefix': 'colorMaterialEnabled'
+    'body': 'colorMaterialEnabled()'
+  'constantColor':
+    'prefix': 'constantColor'
+    'body': 'constantColor()'
+  'fog':
+    'prefix': 'fog'
+    'body': 'fog()'
+  'label':
+    'prefix': 'label'
+    'body': 'label()'
+  'light0':
+    'prefix': 'light0'
+    'body': 'light0()'
+  'light1':
+    'prefix': 'light1'
+    'body': 'light1()'
+  'light2':
+    'prefix': 'light2'
+    'body': 'light2()'
+  'lightModelAmbientColor':
+    'prefix': 'lightModelAmbientColor'
+    'body': 'lightModelAmbientColor()'
+  'lightModelTwoSided':
+    'prefix': 'lightModelTwoSided'
+    'body': 'lightModelTwoSided()'
+  'lightingType':
+    'prefix': 'lightingType'
+    'body': 'lightingType()'
+  'material':
+    'prefix': 'material'
+    'body': 'material()'
+  'prepareToDraw':
+    'prefix': 'prepareToDraw'
+    'body': 'prepareToDraw()'
+  'setColorMaterialEnabled:':
+    'prefix': 'setColorMaterialEnabled:'
+    'body': 'setColorMaterialEnabled(${1: colorMaterialEnabled})'
+  'setConstantColor:':
+    'prefix': 'setConstantColor:'
+    'body': 'setConstantColor(${1: constantColor})'
+  'setLabel:':
+    'prefix': 'setLabel:'
+    'body': 'setLabel(${1: label})'
+  'setLightModelAmbientColor:':
+    'prefix': 'setLightModelAmbientColor:'
+    'body': 'setLightModelAmbientColor(${1: lightModelAmbientColor})'
+  'setLightModelTwoSided:':
+    'prefix': 'setLightModelTwoSided:'
+    'body': 'setLightModelTwoSided(${1: lightModelTwoSided})'
+  'setLightingType:':
+    'prefix': 'setLightingType:'
+    'body': 'setLightingType(${1: lightingType})'
+  'setTextureOrder:':
+    'prefix': 'setTextureOrder:'
+    'body': 'setTextureOrder(${1: textureOrder})'
+  'setUseConstantColor:':
+    'prefix': 'setUseConstantColor:'
+    'body': 'setUseConstantColor(${1: useConstantColor})'
+  'texture2d0':
+    'prefix': 'texture2d0'
+    'body': 'texture2d0()'
+  'texture2d1':
+    'prefix': 'texture2d1'
+    'body': 'texture2d1()'
+  'textureOrder':
+    'prefix': 'textureOrder'
+    'body': 'textureOrder()'
+  'transform':
+    'prefix': 'transform'
+    'body': 'transform()'
+  'useConstantColor':
+    'prefix': 'useConstantColor'
+    'body': 'useConstantColor()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'density':
+    'prefix': 'density'
+    'body': 'density()'
+  'enabled':
+    'prefix': 'enabled'
+    'body': 'enabled()'
+  'end':
+    'prefix': 'end'
+    'body': 'end()'
+  'mode':
+    'prefix': 'mode'
+    'body': 'mode()'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1: color})'
+  'setDensity:':
+    'prefix': 'setDensity:'
+    'body': 'setDensity(${1: density})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1: enabled})'
+  'setEnd:':
+    'prefix': 'setEnd:'
+    'body': 'setEnd(${1: end})'
+  'setMode:':
+    'prefix': 'setMode:'
+    'body': 'setMode(${1: mode})'
+  'setStart:':
+    'prefix': 'setStart:'
+    'body': 'setStart(${1: start})'
+  'start':
+    'prefix': 'start'
+    'body': 'start()'
+  'ambientColor':
+    'prefix': 'ambientColor'
+    'body': 'ambientColor()'
+  'constantAttenuation':
+    'prefix': 'constantAttenuation'
+    'body': 'constantAttenuation()'
+  'diffuseColor':
+    'prefix': 'diffuseColor'
+    'body': 'diffuseColor()'
+  'enabled':
+    'prefix': 'enabled'
+    'body': 'enabled()'
+  'linearAttenuation':
+    'prefix': 'linearAttenuation'
+    'body': 'linearAttenuation()'
+  'position':
+    'prefix': 'position'
+    'body': 'position()'
+  'quadraticAttenuation':
+    'prefix': 'quadraticAttenuation'
+    'body': 'quadraticAttenuation()'
+  'setAmbientColor:':
+    'prefix': 'setAmbientColor:'
+    'body': 'setAmbientColor(${1: ambientColor})'
+  'setConstantAttenuation:':
+    'prefix': 'setConstantAttenuation:'
+    'body': 'setConstantAttenuation(${1: constantAttenuation})'
+  'setDiffuseColor:':
+    'prefix': 'setDiffuseColor:'
+    'body': 'setDiffuseColor(${1: diffuseColor})'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1: enabled})'
+  'setLinearAttenuation:':
+    'prefix': 'setLinearAttenuation:'
+    'body': 'setLinearAttenuation(${1: linearAttenuation})'
+  'setPosition:':
+    'prefix': 'setPosition:'
+    'body': 'setPosition(${1: position})'
+  'setQuadraticAttenuation:':
+    'prefix': 'setQuadraticAttenuation:'
+    'body': 'setQuadraticAttenuation(${1: quadraticAttenuation})'
+  'setSpecularColor:':
+    'prefix': 'setSpecularColor:'
+    'body': 'setSpecularColor(${1: specularColor})'
+  'setSpotCutoff:':
+    'prefix': 'setSpotCutoff:'
+    'body': 'setSpotCutoff(${1: spotCutoff})'
+  'setSpotDirection:':
+    'prefix': 'setSpotDirection:'
+    'body': 'setSpotDirection(${1: spotDirection})'
+  'setSpotExponent:':
+    'prefix': 'setSpotExponent:'
+    'body': 'setSpotExponent(${1: spotExponent})'
+  'setTransform:':
+    'prefix': 'setTransform:'
+    'body': 'setTransform(${1: transform})'
+  'specularColor':
+    'prefix': 'specularColor'
+    'body': 'specularColor()'
+  'spotCutoff':
+    'prefix': 'spotCutoff'
+    'body': 'spotCutoff()'
+  'spotDirection':
+    'prefix': 'spotDirection'
+    'body': 'spotDirection()'
+  'spotExponent':
+    'prefix': 'spotExponent'
+    'body': 'spotExponent()'
+  'transform':
+    'prefix': 'transform'
+    'body': 'transform()'
+  'ambientColor':
+    'prefix': 'ambientColor'
+    'body': 'ambientColor()'
+  'diffuseColor':
+    'prefix': 'diffuseColor'
+    'body': 'diffuseColor()'
+  'emissiveColor':
+    'prefix': 'emissiveColor'
+    'body': 'emissiveColor()'
+  'setAmbientColor:':
+    'prefix': 'setAmbientColor:'
+    'body': 'setAmbientColor(${1: ambientColor})'
+  'setDiffuseColor:':
+    'prefix': 'setDiffuseColor:'
+    'body': 'setDiffuseColor(${1: diffuseColor})'
+  'setEmissiveColor:':
+    'prefix': 'setEmissiveColor:'
+    'body': 'setEmissiveColor(${1: emissiveColor})'
+  'setShininess:':
+    'prefix': 'setShininess:'
+    'body': 'setShininess(${1: shininess})'
+  'setSpecularColor:':
+    'prefix': 'setSpecularColor:'
+    'body': 'setSpecularColor(${1: specularColor})'
+  'shininess':
+    'prefix': 'shininess'
+    'body': 'shininess()'
+  'specularColor':
+    'prefix': 'specularColor'
+    'body': 'specularColor()'
+  'enabled':
+    'prefix': 'enabled'
+    'body': 'enabled()'
+  'envMode':
+    'prefix': 'envMode'
+    'body': 'envMode()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'setEnabled:':
+    'prefix': 'setEnabled:'
+    'body': 'setEnabled(${1: enabled})'
+  'setEnvMode:':
+    'prefix': 'setEnvMode:'
+    'body': 'setEnvMode(${1: envMode})'
+  'setName:':
+    'prefix': 'setName:'
+    'body': 'setName(${1: name})'
+  'setTarget:':
+    'prefix': 'setTarget:'
+    'body': 'setTarget(${1: target})'
+  'target':
+    'prefix': 'target'
+    'body': 'target()'
+  'modelviewMatrix':
+    'prefix': 'modelviewMatrix'
+    'body': 'modelviewMatrix()'
+  'normalMatrix':
+    'prefix': 'normalMatrix'
+    'body': 'normalMatrix()'
+  'projectionMatrix':
+    'prefix': 'projectionMatrix'
+    'body': 'projectionMatrix()'
+  'setModelviewMatrix:':
+    'prefix': 'setModelviewMatrix:'
+    'body': 'setModelviewMatrix(${1: modelviewMatrix})'
+  'setProjectionMatrix:':
+    'prefix': 'setProjectionMatrix:'
+    'body': 'setProjectionMatrix(${1: projectionMatrix})'
+  'matrix':
+    'prefix': 'matrix'
+    'body': 'matrix()'
+  'prepareToDraw':
+    'prefix': 'prepareToDraw'
+    'body': 'prepareToDraw()'
+  'setMatrix:':
+    'prefix': 'setMatrix:'
+    'body': 'setMatrix(${1: matrix})'
+  'textureCubeMap':
+    'prefix': 'textureCubeMap'
+    'body': 'textureCubeMap()'
+  'center':
+    'prefix': 'center'
+    'body': 'center()'
+  'draw':
+    'prefix': 'draw'
+    'body': 'draw()'
+  'label':
+    'prefix': 'label'
+    'body': 'label()'
+  'prepareToDraw':
+    'prefix': 'prepareToDraw'
+    'body': 'prepareToDraw()'
+  'setCenter:':
+    'prefix': 'setCenter:'
+    'body': 'setCenter(${1: center})'
+  'setLabel:':
+    'prefix': 'setLabel:'
+    'body': 'setLabel(${1: label})'
+  'setXSize:':
+    'prefix': 'setXSize:'
+    'body': 'setXSize(${1: xSize})'
+  'setYSize:':
+    'prefix': 'setYSize:'
+    'body': 'setYSize(${1: ySize})'
+  'setZSize:':
+    'prefix': 'setZSize:'
+    'body': 'setZSize(${1: zSize})'
+  'textureCubeMap':
+    'prefix': 'textureCubeMap'
+    'body': 'textureCubeMap()'
+  'transform':
+    'prefix': 'transform'
+    'body': 'transform()'
+  'xSize':
+    'prefix': 'xSize'
+    'body': 'xSize()'
+  'ySize':
+    'prefix': 'ySize'
+    'body': 'ySize()'
+  'zSize':
+    'prefix': 'zSize'
+    'body': 'zSize()'
+  'alphaState':
+    'prefix': 'alphaState'
+    'body': 'alphaState()'
+  'containsMipmaps':
+    'prefix': 'containsMipmaps'
+    'body': 'containsMipmaps()'
+  'height':
+    'prefix': 'height'
+    'body': 'height()'
+  'name':
+    'prefix': 'name'
+    'body': 'name()'
+  'target':
+    'prefix': 'target'
+    'body': 'target()'
+  'textureOrigin':
+    'prefix': 'textureOrigin'
+    'body': 'textureOrigin()'
+  'width':
+    'prefix': 'width'
+    'body': 'width()'
+  'GLKTextureLoader.cubeMapWithContentsOfFile:options:error:':
+    'prefix': 'cubeMapWithContentsOfFile:options:error:'
+    'body': 'GLKTextureLoader.cubeMapWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
+  'cubeMapWithContentsOfFile:options:queue:completionHandler:':
+    'prefix': 'cubeMapWithContentsOfFile:options:queue:completionHandler:'
+    'body': 'cubeMapWithContentsOfFile(${1: path}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'GLKTextureLoader.cubeMapWithContentsOfFiles:options:error:':
+    'prefix': 'cubeMapWithContentsOfFiles:options:error:'
+    'body': 'GLKTextureLoader.cubeMapWithContentsOfFiles(${1: paths}, options:${2: options}, error:${3: outError})'
+  'cubeMapWithContentsOfFiles:options:queue:completionHandler:':
+    'prefix': 'cubeMapWithContentsOfFiles:options:queue:completionHandler:'
+    'body': 'cubeMapWithContentsOfFiles(${1: paths}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'GLKTextureLoader.cubeMapWithContentsOfURL:options:error:':
+    'prefix': 'cubeMapWithContentsOfURL:options:error:'
+    'body': 'GLKTextureLoader.cubeMapWithContentsOfURL(${1: url}, options:${2: options}, error:${3: outError})'
+  'cubeMapWithContentsOfURL:options:queue:completionHandler:':
+    'prefix': 'cubeMapWithContentsOfURL:options:queue:completionHandler:'
+    'body': 'cubeMapWithContentsOfURL(${1: url}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'initWithShareContext:':
+    'prefix': 'initWithShareContext:'
+    'body': 'initWithShareContext(${1: context})'
+  'GLKTextureLoader.textureWithCGImage:options:error:':
+    'prefix': 'textureWithCGImage:options:error:'
+    'body': 'GLKTextureLoader.textureWithCGImage(${1: cgImage}, options:${2: options}, error:${3: outError})'
+  'textureWithCGImage:options:queue:completionHandler:':
+    'prefix': 'textureWithCGImage:options:queue:completionHandler:'
+    'body': 'textureWithCGImage(${1: cgImage}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'GLKTextureLoader.textureWithContentsOfData:options:error:':
+    'prefix': 'textureWithContentsOfData:options:error:'
+    'body': 'GLKTextureLoader.textureWithContentsOfData(${1: data}, options:${2: options}, error:${3: outError})'
+  'textureWithContentsOfData:options:queue:completionHandler:':
+    'prefix': 'textureWithContentsOfData:options:queue:completionHandler:'
+    'body': 'textureWithContentsOfData(${1: data}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'GLKTextureLoader.textureWithContentsOfFile:options:error:':
+    'prefix': 'textureWithContentsOfFile:options:error:'
+    'body': 'GLKTextureLoader.textureWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
+  'textureWithContentsOfFile:options:queue:completionHandler:':
+    'prefix': 'textureWithContentsOfFile:options:queue:completionHandler:'
+    'body': 'textureWithContentsOfFile(${1: path}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'GLKTextureLoader.textureWithContentsOfURL:options:error:':
+    'prefix': 'textureWithContentsOfURL:options:error:'
+    'body': 'GLKTextureLoader.textureWithContentsOfURL(${1: url}, options:${2: options}, error:${3: outError})'
+  'textureWithContentsOfURL:options:queue:completionHandler:':
+    'prefix': 'textureWithContentsOfURL:options:queue:completionHandler:'
+    'body': 'textureWithContentsOfURL(${1: url}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'prepareToDraw':
+    'prefix': 'prepareToDraw'
+    'body': 'prepareToDraw()'
+  'prepareToDraw':
+    'prefix': 'prepareToDraw'
+    'body': 'prepareToDraw()'

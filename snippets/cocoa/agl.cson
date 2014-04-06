@@ -1,0 +1,1141 @@
+'.source.rubymotion':
+  'AGL_0_BIT (1)':
+    'prefix': 'AGL_0_BIT'
+    'body': 'AGL_0_BIT'
+  'AGL_10_BIT (256)':
+    'prefix': 'AGL_10_BIT'
+    'body': 'AGL_10_BIT'
+  'AGL_128_BIT (65536)':
+    'prefix': 'AGL_128_BIT'
+    'body': 'AGL_128_BIT'
+  'AGL_12_BIT (512)':
+    'prefix': 'AGL_12_BIT'
+    'body': 'AGL_12_BIT'
+  'AGL_16_BIT (1024)':
+    'prefix': 'AGL_16_BIT'
+    'body': 'AGL_16_BIT'
+  'AGL_1_BIT (2)':
+    'prefix': 'AGL_1_BIT'
+    'body': 'AGL_1_BIT'
+  'AGL_24_BIT (2048)':
+    'prefix': 'AGL_24_BIT'
+    'body': 'AGL_24_BIT'
+  'AGL_2_BIT (4)':
+    'prefix': 'AGL_2_BIT'
+    'body': 'AGL_2_BIT'
+  'AGL_32_BIT (4096)':
+    'prefix': 'AGL_32_BIT'
+    'body': 'AGL_32_BIT'
+  'AGL_3_BIT (8)':
+    'prefix': 'AGL_3_BIT'
+    'body': 'AGL_3_BIT'
+  'AGL_48_BIT (8192)':
+    'prefix': 'AGL_48_BIT'
+    'body': 'AGL_48_BIT'
+  'AGL_4_BIT (16)':
+    'prefix': 'AGL_4_BIT'
+    'body': 'AGL_4_BIT'
+  'AGL_5_BIT (32)':
+    'prefix': 'AGL_5_BIT'
+    'body': 'AGL_5_BIT'
+  'AGL_64_BIT (16384)':
+    'prefix': 'AGL_64_BIT'
+    'body': 'AGL_64_BIT'
+  'AGL_6_BIT (64)':
+    'prefix': 'AGL_6_BIT'
+    'body': 'AGL_6_BIT'
+  'AGL_8_BIT (128)':
+    'prefix': 'AGL_8_BIT'
+    'body': 'AGL_8_BIT'
+  'AGL_96_BIT (32768)':
+    'prefix': 'AGL_96_BIT'
+    'body': 'AGL_96_BIT'
+  'AGL_ACCELERATED (73)':
+    'prefix': 'AGL_ACCELERATED'
+    'body': 'AGL_ACCELERATED'
+  'AGL_ACCUM_ALPHA_SIZE (17)':
+    'prefix': 'AGL_ACCUM_ALPHA_SIZE'
+    'body': 'AGL_ACCUM_ALPHA_SIZE'
+  'AGL_ACCUM_BLUE_SIZE (16)':
+    'prefix': 'AGL_ACCUM_BLUE_SIZE'
+    'body': 'AGL_ACCUM_BLUE_SIZE'
+  'AGL_ACCUM_GREEN_SIZE (15)':
+    'prefix': 'AGL_ACCUM_GREEN_SIZE'
+    'body': 'AGL_ACCUM_GREEN_SIZE'
+  'AGL_ACCUM_MODES (104)':
+    'prefix': 'AGL_ACCUM_MODES'
+    'body': 'AGL_ACCUM_MODES'
+  'AGL_ACCUM_RED_SIZE (14)':
+    'prefix': 'AGL_ACCUM_RED_SIZE'
+    'body': 'AGL_ACCUM_RED_SIZE'
+  'AGL_ALLOW_OFFLINE_RENDERERS (96)':
+    'prefix': 'AGL_ALLOW_OFFLINE_RENDERERS'
+    'body': 'AGL_ALLOW_OFFLINE_RENDERERS'
+  'AGL_ALL_RENDERERS (1)':
+    'prefix': 'AGL_ALL_RENDERERS'
+    'body': 'AGL_ALL_RENDERERS'
+  'AGL_ALPHA_SIZE (11)':
+    'prefix': 'AGL_ALPHA_SIZE'
+    'body': 'AGL_ALPHA_SIZE'
+  'AGL_ARGB12121212_BIT (2097152)':
+    'prefix': 'AGL_ARGB12121212_BIT'
+    'body': 'AGL_ARGB12121212_BIT'
+  'AGL_ARGB1555_BIT (1024)':
+    'prefix': 'AGL_ARGB1555_BIT'
+    'body': 'AGL_ARGB1555_BIT'
+  'AGL_ARGB16161616_BIT (8388608)':
+    'prefix': 'AGL_ARGB16161616_BIT'
+    'body': 'AGL_ARGB16161616_BIT'
+  'AGL_ARGB2101010_BIT (262144)':
+    'prefix': 'AGL_ARGB2101010_BIT'
+    'body': 'AGL_ARGB2101010_BIT'
+  'AGL_ARGB4444_BIT (128)':
+    'prefix': 'AGL_ARGB4444_BIT'
+    'body': 'AGL_ARGB4444_BIT'
+  'AGL_ARGB8888_BIT (32768)':
+    'prefix': 'AGL_ARGB8888_BIT'
+    'body': 'AGL_ARGB8888_BIT'
+  'AGL_AUX_BUFFERS (7)':
+    'prefix': 'AGL_AUX_BUFFERS'
+    'body': 'AGL_AUX_BUFFERS'
+  'AGL_AUX_DEPTH_STENCIL (57)':
+    'prefix': 'AGL_AUX_DEPTH_STENCIL'
+    'body': 'AGL_AUX_DEPTH_STENCIL'
+  'AGL_BACKING_STORE (76)':
+    'prefix': 'AGL_BACKING_STORE'
+    'body': 'AGL_BACKING_STORE'
+  'AGL_BAD_ALLOC (10016)':
+    'prefix': 'AGL_BAD_ALLOC'
+    'body': 'AGL_BAD_ALLOC'
+  'AGL_BAD_ATTRIBUTE (10000)':
+    'prefix': 'AGL_BAD_ATTRIBUTE'
+    'body': 'AGL_BAD_ATTRIBUTE'
+  'AGL_BAD_CONNECTION (10017)':
+    'prefix': 'AGL_BAD_CONNECTION'
+    'body': 'AGL_BAD_CONNECTION'
+  'AGL_BAD_CONTEXT (10004)':
+    'prefix': 'AGL_BAD_CONTEXT'
+    'body': 'AGL_BAD_CONTEXT'
+  'AGL_BAD_DRAWABLE (10005)':
+    'prefix': 'AGL_BAD_DRAWABLE'
+    'body': 'AGL_BAD_DRAWABLE'
+  'AGL_BAD_ENUM (10010)':
+    'prefix': 'AGL_BAD_ENUM'
+    'body': 'AGL_BAD_ENUM'
+  'AGL_BAD_FULLSCREEN (10012)':
+    'prefix': 'AGL_BAD_FULLSCREEN'
+    'body': 'AGL_BAD_FULLSCREEN'
+  'AGL_BAD_GDEV (10006)':
+    'prefix': 'AGL_BAD_GDEV'
+    'body': 'AGL_BAD_GDEV'
+  'AGL_BAD_MATCH (10009)':
+    'prefix': 'AGL_BAD_MATCH'
+    'body': 'AGL_BAD_MATCH'
+  'AGL_BAD_MODULE (10015)':
+    'prefix': 'AGL_BAD_MODULE'
+    'body': 'AGL_BAD_MODULE'
+  'AGL_BAD_OFFSCREEN (10011)':
+    'prefix': 'AGL_BAD_OFFSCREEN'
+    'body': 'AGL_BAD_OFFSCREEN'
+  'AGL_BAD_PIXELFMT (10002)':
+    'prefix': 'AGL_BAD_PIXELFMT'
+    'body': 'AGL_BAD_PIXELFMT'
+  'AGL_BAD_POINTER (10014)':
+    'prefix': 'AGL_BAD_POINTER'
+    'body': 'AGL_BAD_POINTER'
+  'AGL_BAD_PROPERTY (10001)':
+    'prefix': 'AGL_BAD_PROPERTY'
+    'body': 'AGL_BAD_PROPERTY'
+  'AGL_BAD_RENDINFO (10003)':
+    'prefix': 'AGL_BAD_RENDINFO'
+    'body': 'AGL_BAD_RENDINFO'
+  'AGL_BAD_STATE (10007)':
+    'prefix': 'AGL_BAD_STATE'
+    'body': 'AGL_BAD_STATE'
+  'AGL_BAD_VALUE (10008)':
+    'prefix': 'AGL_BAD_VALUE'
+    'body': 'AGL_BAD_VALUE'
+  'AGL_BAD_WINDOW (10013)':
+    'prefix': 'AGL_BAD_WINDOW'
+    'body': 'AGL_BAD_WINDOW'
+  'AGL_BGR233_A8_BIT (8)':
+    'prefix': 'AGL_BGR233_A8_BIT'
+    'body': 'AGL_BGR233_A8_BIT'
+  'AGL_BGR233_BIT (4)':
+    'prefix': 'AGL_BGR233_BIT'
+    'body': 'AGL_BGR233_BIT'
+  'AGL_BLUE_SIZE (10)':
+    'prefix': 'AGL_BLUE_SIZE'
+    'body': 'AGL_BLUE_SIZE'
+  'AGL_BUFFER_MODES (100)':
+    'prefix': 'AGL_BUFFER_MODES'
+    'body': 'AGL_BUFFER_MODES'
+  'AGL_BUFFER_NAME (231)':
+    'prefix': 'AGL_BUFFER_NAME'
+    'body': 'AGL_BUFFER_NAME'
+  'AGL_BUFFER_RECT (202)':
+    'prefix': 'AGL_BUFFER_RECT'
+    'body': 'AGL_BUFFER_RECT'
+  'AGL_BUFFER_SIZE (2)':
+    'prefix': 'AGL_BUFFER_SIZE'
+    'body': 'AGL_BUFFER_SIZE'
+  'AGL_CLEAR_FORMAT_CACHE (502)':
+    'prefix': 'AGL_CLEAR_FORMAT_CACHE'
+    'body': 'AGL_CLEAR_FORMAT_CACHE'
+  'AGL_CLIP_REGION (254)':
+    'prefix': 'AGL_CLIP_REGION'
+    'body': 'AGL_CLIP_REGION'
+  'AGL_CLOSEST_POLICY (74)':
+    'prefix': 'AGL_CLOSEST_POLICY'
+    'body': 'AGL_CLOSEST_POLICY'
+  'AGL_COLORMAP_ENTRY (212)':
+    'prefix': 'AGL_COLORMAP_ENTRY'
+    'body': 'AGL_COLORMAP_ENTRY'
+  'AGL_COLORMAP_TRACKING (210)':
+    'prefix': 'AGL_COLORMAP_TRACKING'
+    'body': 'AGL_COLORMAP_TRACKING'
+  'AGL_COLOR_FLOAT (58)':
+    'prefix': 'AGL_COLOR_FLOAT'
+    'body': 'AGL_COLOR_FLOAT'
+  'AGL_COLOR_MODES (103)':
+    'prefix': 'AGL_COLOR_MODES'
+    'body': 'AGL_COLOR_MODES'
+  'AGL_COMPLIANT (83)':
+    'prefix': 'AGL_COMPLIANT'
+    'body': 'AGL_COMPLIANT'
+  'AGL_CONTEXT_DISPLAY_ID (234)':
+    'prefix': 'AGL_CONTEXT_DISPLAY_ID'
+    'body': 'AGL_CONTEXT_DISPLAY_ID'
+  'AGL_CONTEXT_SURFACE_ID (233)':
+    'prefix': 'AGL_CONTEXT_SURFACE_ID'
+    'body': 'AGL_CONTEXT_SURFACE_ID'
+  'AGL_DEPTH_MODES (105)':
+    'prefix': 'AGL_DEPTH_MODES'
+    'body': 'AGL_DEPTH_MODES'
+  'AGL_DEPTH_SIZE (12)':
+    'prefix': 'AGL_DEPTH_SIZE'
+    'body': 'AGL_DEPTH_SIZE'
+  'AGL_DISPLAY_MASK (84)':
+    'prefix': 'AGL_DISPLAY_MASK'
+    'body': 'AGL_DISPLAY_MASK'
+  'AGL_DOUBLEBUFFER (5)':
+    'prefix': 'AGL_DOUBLEBUFFER'
+    'body': 'AGL_DOUBLEBUFFER'
+  'AGL_DOUBLEBUFFER_BIT (8)':
+    'prefix': 'AGL_DOUBLEBUFFER_BIT'
+    'body': 'AGL_DOUBLEBUFFER_BIT'
+  'AGL_ENABLE_SURFACE_BACKING_SIZE (305)':
+    'prefix': 'AGL_ENABLE_SURFACE_BACKING_SIZE'
+    'body': 'AGL_ENABLE_SURFACE_BACKING_SIZE'
+  'AGL_FORMAT_CACHE_SIZE (501)':
+    'prefix': 'AGL_FORMAT_CACHE_SIZE'
+    'body': 'AGL_FORMAT_CACHE_SIZE'
+  'AGL_FS_CAPTURE_SINGLE (255)':
+    'prefix': 'AGL_FS_CAPTURE_SINGLE'
+    'body': 'AGL_FS_CAPTURE_SINGLE'
+  'AGL_FULLSCREEN (54)':
+    'prefix': 'AGL_FULLSCREEN'
+    'body': 'AGL_FULLSCREEN'
+  'AGL_GREEN_SIZE (9)':
+    'prefix': 'AGL_GREEN_SIZE'
+    'body': 'AGL_GREEN_SIZE'
+  'AGL_INDEX16_BIT (1073741824)':
+    'prefix': 'AGL_INDEX16_BIT'
+    'body': 'AGL_INDEX16_BIT'
+  'AGL_INDEX8_BIT (536870912)':
+    'prefix': 'AGL_INDEX8_BIT'
+    'body': 'AGL_INDEX8_BIT'
+  'AGL_INVALID_FUNCTION (10018)':
+    'prefix': 'AGL_INVALID_FUNCTION'
+    'body': 'AGL_INVALID_FUNCTION'
+  'AGL_LEVEL (3)':
+    'prefix': 'AGL_LEVEL'
+    'body': 'AGL_LEVEL'
+  'AGL_MAXIMUM_POLICY (52)':
+    'prefix': 'AGL_MAXIMUM_POLICY'
+    'body': 'AGL_MAXIMUM_POLICY'
+  'AGL_MAX_AUX_BUFFERS (107)':
+    'prefix': 'AGL_MAX_AUX_BUFFERS'
+    'body': 'AGL_MAX_AUX_BUFFERS'
+  'AGL_MAX_LEVEL (102)':
+    'prefix': 'AGL_MAX_LEVEL'
+    'body': 'AGL_MAX_LEVEL'
+  'AGL_MINIMUM_POLICY (51)':
+    'prefix': 'AGL_MINIMUM_POLICY'
+    'body': 'AGL_MINIMUM_POLICY'
+  'AGL_MIN_LEVEL (101)':
+    'prefix': 'AGL_MIN_LEVEL'
+    'body': 'AGL_MIN_LEVEL'
+  'AGL_MONOSCOPIC_BIT (1)':
+    'prefix': 'AGL_MONOSCOPIC_BIT'
+    'body': 'AGL_MONOSCOPIC_BIT'
+  'AGL_MP_SAFE (78)':
+    'prefix': 'AGL_MP_SAFE'
+    'body': 'AGL_MP_SAFE'
+  'AGL_MULTISAMPLE (59)':
+    'prefix': 'AGL_MULTISAMPLE'
+    'body': 'AGL_MULTISAMPLE'
+  'AGL_MULTISCREEN (81)':
+    'prefix': 'AGL_MULTISCREEN'
+    'body': 'AGL_MULTISCREEN'
+  'AGL_NONE (0)':
+    'prefix': 'AGL_NONE'
+    'body': 'AGL_NONE'
+  'AGL_NO_ERROR (0)':
+    'prefix': 'AGL_NO_ERROR'
+    'body': 'AGL_NO_ERROR'
+  'AGL_NO_RECOVERY (72)':
+    'prefix': 'AGL_NO_RECOVERY'
+    'body': 'AGL_NO_RECOVERY'
+  'AGL_OFFSCREEN (53)':
+    'prefix': 'AGL_OFFSCREEN'
+    'body': 'AGL_OFFSCREEN'
+  'AGL_ORDER_CONTEXT_TO_FRONT (232)':
+    'prefix': 'AGL_ORDER_CONTEXT_TO_FRONT'
+    'body': 'AGL_ORDER_CONTEXT_TO_FRONT'
+  'AGL_PBUFFER (90)':
+    'prefix': 'AGL_PBUFFER'
+    'body': 'AGL_PBUFFER'
+  'AGL_PIXEL_SIZE (50)':
+    'prefix': 'AGL_PIXEL_SIZE'
+    'body': 'AGL_PIXEL_SIZE'
+  'AGL_RASTERIZATION (220)':
+    'prefix': 'AGL_RASTERIZATION'
+    'body': 'AGL_RASTERIZATION'
+  'AGL_RED_SIZE (8)':
+    'prefix': 'AGL_RED_SIZE'
+    'body': 'AGL_RED_SIZE'
+  'AGL_REMOTE_PBUFFER (91)':
+    'prefix': 'AGL_REMOTE_PBUFFER'
+    'body': 'AGL_REMOTE_PBUFFER'
+  'AGL_RENDERER_APPLE_SW_ID (132608)':
+    'prefix': 'AGL_RENDERER_APPLE_SW_ID'
+    'body': 'AGL_RENDERER_APPLE_SW_ID'
+  'AGL_RENDERER_ATI_RADEON_8500_ID (136704)':
+    'prefix': 'AGL_RENDERER_ATI_RADEON_8500_ID'
+    'body': 'AGL_RENDERER_ATI_RADEON_8500_ID'
+  'AGL_RENDERER_ATI_RADEON_9700_ID (137216)':
+    'prefix': 'AGL_RENDERER_ATI_RADEON_9700_ID'
+    'body': 'AGL_RENDERER_ATI_RADEON_9700_ID'
+  'AGL_RENDERER_ATI_RADEON_ID (135680)':
+    'prefix': 'AGL_RENDERER_ATI_RADEON_ID'
+    'body': 'AGL_RENDERER_ATI_RADEON_ID'
+  'AGL_RENDERER_ATI_RADEON_X1000_ID (137472)':
+    'prefix': 'AGL_RENDERER_ATI_RADEON_X1000_ID'
+    'body': 'AGL_RENDERER_ATI_RADEON_X1000_ID'
+  'AGL_RENDERER_ATI_RADEON_X2000_ID (137728)':
+    'prefix': 'AGL_RENDERER_ATI_RADEON_X2000_ID'
+    'body': 'AGL_RENDERER_ATI_RADEON_X2000_ID'
+  'AGL_RENDERER_ATI_RAGE_128_ID (135168)':
+    'prefix': 'AGL_RENDERER_ATI_RAGE_128_ID'
+    'body': 'AGL_RENDERER_ATI_RAGE_128_ID'
+  'AGL_RENDERER_ATI_RAGE_PRO_ID (136192)':
+    'prefix': 'AGL_RENDERER_ATI_RAGE_PRO_ID'
+    'body': 'AGL_RENDERER_ATI_RAGE_PRO_ID'
+  'AGL_RENDERER_COUNT (128)':
+    'prefix': 'AGL_RENDERER_COUNT'
+    'body': 'AGL_RENDERER_COUNT'
+  'AGL_RENDERER_GENERIC_FLOAT_ID (132096)':
+    'prefix': 'AGL_RENDERER_GENERIC_FLOAT_ID'
+    'body': 'AGL_RENDERER_GENERIC_FLOAT_ID'
+  'AGL_RENDERER_GENERIC_ID (131584)':
+    'prefix': 'AGL_RENDERER_GENERIC_ID'
+    'body': 'AGL_RENDERER_GENERIC_ID'
+  'AGL_RENDERER_ID (70)':
+    'prefix': 'AGL_RENDERER_ID'
+    'body': 'AGL_RENDERER_ID'
+  'AGL_RENDERER_INTEL_900_ID (147456)':
+    'prefix': 'AGL_RENDERER_INTEL_900_ID'
+    'body': 'AGL_RENDERER_INTEL_900_ID'
+  'AGL_RENDERER_INTEL_X3100_ID (147968)':
+    'prefix': 'AGL_RENDERER_INTEL_X3100_ID'
+    'body': 'AGL_RENDERER_INTEL_X3100_ID'
+  'AGL_RENDERER_MESA_3DFX_ID (262144)':
+    'prefix': 'AGL_RENDERER_MESA_3DFX_ID'
+    'body': 'AGL_RENDERER_MESA_3DFX_ID'
+  'AGL_RENDERER_NVIDIA_GEFORCE_2MX_ID (139264)':
+    'prefix': 'AGL_RENDERER_NVIDIA_GEFORCE_2MX_ID'
+    'body': 'AGL_RENDERER_NVIDIA_GEFORCE_2MX_ID'
+  'AGL_RENDERER_NVIDIA_GEFORCE_3_ID (139776)':
+    'prefix': 'AGL_RENDERER_NVIDIA_GEFORCE_3_ID'
+    'body': 'AGL_RENDERER_NVIDIA_GEFORCE_3_ID'
+  'AGL_RENDERER_NVIDIA_GEFORCE_8XXX_ID (140800)':
+    'prefix': 'AGL_RENDERER_NVIDIA_GEFORCE_8XXX_ID'
+    'body': 'AGL_RENDERER_NVIDIA_GEFORCE_8XXX_ID'
+  'AGL_RENDERER_NVIDIA_GEFORCE_FX_ID (140288)':
+    'prefix': 'AGL_RENDERER_NVIDIA_GEFORCE_FX_ID'
+    'body': 'AGL_RENDERER_NVIDIA_GEFORCE_FX_ID'
+  'AGL_RENDERER_VT_BLADE_XP2_ID (143360)':
+    'prefix': 'AGL_RENDERER_VT_BLADE_XP2_ID'
+    'body': 'AGL_RENDERER_VT_BLADE_XP2_ID'
+  'AGL_RETAIN_RENDERERS (503)':
+    'prefix': 'AGL_RETAIN_RENDERERS'
+    'body': 'AGL_RETAIN_RENDERERS'
+  'AGL_RGB101010_A8_BIT (524288)':
+    'prefix': 'AGL_RGB101010_A8_BIT'
+    'body': 'AGL_RGB101010_A8_BIT'
+  'AGL_RGB101010_BIT (131072)':
+    'prefix': 'AGL_RGB101010_BIT'
+    'body': 'AGL_RGB101010_BIT'
+  'AGL_RGB121212_BIT (1048576)':
+    'prefix': 'AGL_RGB121212_BIT'
+    'body': 'AGL_RGB121212_BIT'
+  'AGL_RGB161616_BIT (4194304)':
+    'prefix': 'AGL_RGB161616_BIT'
+    'body': 'AGL_RGB161616_BIT'
+  'AGL_RGB332_A8_BIT (32)':
+    'prefix': 'AGL_RGB332_A8_BIT'
+    'body': 'AGL_RGB332_A8_BIT'
+  'AGL_RGB332_BIT (16)':
+    'prefix': 'AGL_RGB332_BIT'
+    'body': 'AGL_RGB332_BIT'
+  'AGL_RGB444_A8_BIT (256)':
+    'prefix': 'AGL_RGB444_A8_BIT'
+    'body': 'AGL_RGB444_A8_BIT'
+  'AGL_RGB444_BIT (64)':
+    'prefix': 'AGL_RGB444_BIT'
+    'body': 'AGL_RGB444_BIT'
+  'AGL_RGB555_A8_BIT (2048)':
+    'prefix': 'AGL_RGB555_A8_BIT'
+    'body': 'AGL_RGB555_A8_BIT'
+  'AGL_RGB555_BIT (512)':
+    'prefix': 'AGL_RGB555_BIT'
+    'body': 'AGL_RGB555_BIT'
+  'AGL_RGB565_A8_BIT (8192)':
+    'prefix': 'AGL_RGB565_A8_BIT'
+    'body': 'AGL_RGB565_A8_BIT'
+  'AGL_RGB565_BIT (4096)':
+    'prefix': 'AGL_RGB565_BIT'
+    'body': 'AGL_RGB565_BIT'
+  'AGL_RGB888_A8_BIT (65536)':
+    'prefix': 'AGL_RGB888_A8_BIT'
+    'body': 'AGL_RGB888_A8_BIT'
+  'AGL_RGB888_BIT (16384)':
+    'prefix': 'AGL_RGB888_BIT'
+    'body': 'AGL_RGB888_BIT'
+  'AGL_RGB8_A8_BIT (2)':
+    'prefix': 'AGL_RGB8_A8_BIT'
+    'body': 'AGL_RGB8_A8_BIT'
+  'AGL_RGB8_BIT (1)':
+    'prefix': 'AGL_RGB8_BIT'
+    'body': 'AGL_RGB8_BIT'
+  'AGL_RGBA (4)':
+    'prefix': 'AGL_RGBA'
+    'body': 'AGL_RGBA'
+  'AGL_RGBAFLOAT128_BIT (134217728)':
+    'prefix': 'AGL_RGBAFLOAT128_BIT'
+    'body': 'AGL_RGBAFLOAT128_BIT'
+  'AGL_RGBAFLOAT256_BIT (536870912)':
+    'prefix': 'AGL_RGBAFLOAT256_BIT'
+    'body': 'AGL_RGBAFLOAT256_BIT'
+  'AGL_RGBAFLOAT64_BIT (33554432)':
+    'prefix': 'AGL_RGBAFLOAT64_BIT'
+    'body': 'AGL_RGBAFLOAT64_BIT'
+  'AGL_RGBFLOAT128_BIT (67108864)':
+    'prefix': 'AGL_RGBFLOAT128_BIT'
+    'body': 'AGL_RGBFLOAT128_BIT'
+  'AGL_RGBFLOAT256_BIT (268435456)':
+    'prefix': 'AGL_RGBFLOAT256_BIT'
+    'body': 'AGL_RGBFLOAT256_BIT'
+  'AGL_RGBFLOAT64_BIT (16777216)':
+    'prefix': 'AGL_RGBFLOAT64_BIT'
+    'body': 'AGL_RGBFLOAT64_BIT'
+  'AGL_ROBUST (75)':
+    'prefix': 'AGL_ROBUST'
+    'body': 'AGL_ROBUST'
+  'AGL_SAMPLES_ARB (56)':
+    'prefix': 'AGL_SAMPLES_ARB'
+    'body': 'AGL_SAMPLES_ARB'
+  'AGL_SAMPLE_ALPHA (61)':
+    'prefix': 'AGL_SAMPLE_ALPHA'
+    'body': 'AGL_SAMPLE_ALPHA'
+  'AGL_SAMPLE_BUFFERS_ARB (55)':
+    'prefix': 'AGL_SAMPLE_BUFFERS_ARB'
+    'body': 'AGL_SAMPLE_BUFFERS_ARB'
+  'AGL_SINGLEBUFFER_BIT (4)':
+    'prefix': 'AGL_SINGLEBUFFER_BIT'
+    'body': 'AGL_SINGLEBUFFER_BIT'
+  'AGL_SINGLE_RENDERER (71)':
+    'prefix': 'AGL_SINGLE_RENDERER'
+    'body': 'AGL_SINGLE_RENDERER'
+  'AGL_STATE_VALIDATION (230)':
+    'prefix': 'AGL_STATE_VALIDATION'
+    'body': 'AGL_STATE_VALIDATION'
+  'AGL_STENCIL_MODES (106)':
+    'prefix': 'AGL_STENCIL_MODES'
+    'body': 'AGL_STENCIL_MODES'
+  'AGL_STENCIL_SIZE (13)':
+    'prefix': 'AGL_STENCIL_SIZE'
+    'body': 'AGL_STENCIL_SIZE'
+  'AGL_STEREO (6)':
+    'prefix': 'AGL_STEREO'
+    'body': 'AGL_STEREO'
+  'AGL_STEREOSCOPIC_BIT (2)':
+    'prefix': 'AGL_STEREOSCOPIC_BIT'
+    'body': 'AGL_STEREOSCOPIC_BIT'
+  'AGL_SUPERSAMPLE (60)':
+    'prefix': 'AGL_SUPERSAMPLE'
+    'body': 'AGL_SUPERSAMPLE'
+  'AGL_SURFACE_BACKING_SIZE (304)':
+    'prefix': 'AGL_SURFACE_BACKING_SIZE'
+    'body': 'AGL_SURFACE_BACKING_SIZE'
+  'AGL_SURFACE_OPACITY (236)':
+    'prefix': 'AGL_SURFACE_OPACITY'
+    'body': 'AGL_SURFACE_OPACITY'
+  'AGL_SURFACE_ORDER (235)':
+    'prefix': 'AGL_SURFACE_ORDER'
+    'body': 'AGL_SURFACE_ORDER'
+  'AGL_SURFACE_VOLATILE (306)':
+    'prefix': 'AGL_SURFACE_VOLATILE'
+    'body': 'AGL_SURFACE_VOLATILE'
+  'AGL_SWAP_INTERVAL (222)':
+    'prefix': 'AGL_SWAP_INTERVAL'
+    'body': 'AGL_SWAP_INTERVAL'
+  'AGL_SWAP_LIMIT (203)':
+    'prefix': 'AGL_SWAP_LIMIT'
+    'body': 'AGL_SWAP_LIMIT'
+  'AGL_SWAP_RECT (200)':
+    'prefix': 'AGL_SWAP_RECT'
+    'body': 'AGL_SWAP_RECT'
+  'AGL_TEXTURE_MEMORY (121)':
+    'prefix': 'AGL_TEXTURE_MEMORY'
+    'body': 'AGL_TEXTURE_MEMORY'
+  'AGL_VERSION_3_0 (1)':
+    'prefix': 'AGL_VERSION_3_0'
+    'body': 'AGL_VERSION_3_0'
+  'AGL_VIDEO_MEMORY (120)':
+    'prefix': 'AGL_VIDEO_MEMORY'
+    'body': 'AGL_VIDEO_MEMORY'
+  'AGL_VIRTUAL_SCREEN (82)':
+    'prefix': 'AGL_VIRTUAL_SCREEN'
+    'body': 'AGL_VIRTUAL_SCREEN'
+  'AGL_WINDOW (80)':
+    'prefix': 'AGL_WINDOW'
+    'body': 'AGL_WINDOW'
+  'GLM_APPLICATION_HEAP_MODE (3)':
+    'prefix': 'GLM_APPLICATION_HEAP_MODE'
+    'body': 'GLM_APPLICATION_HEAP_MODE'
+  'GLM_COPY_FUNC_PTR (4)':
+    'prefix': 'GLM_COPY_FUNC_PTR'
+    'body': 'GLM_COPY_FUNC_PTR'
+  'GLM_CURRENT_MEMORY (3)':
+    'prefix': 'GLM_CURRENT_MEMORY'
+    'body': 'GLM_CURRENT_MEMORY'
+  'GLM_INVALID_ENUM (1)':
+    'prefix': 'GLM_INVALID_ENUM'
+    'body': 'GLM_INVALID_ENUM'
+  'GLM_INVALID_OPERATION (3)':
+    'prefix': 'GLM_INVALID_OPERATION'
+    'body': 'GLM_INVALID_OPERATION'
+  'GLM_INVALID_VALUE (2)':
+    'prefix': 'GLM_INVALID_VALUE'
+    'body': 'GLM_INVALID_VALUE'
+  'GLM_MAXIMUM_MEMORY (4)':
+    'prefix': 'GLM_MAXIMUM_MEMORY'
+    'body': 'GLM_MAXIMUM_MEMORY'
+  'GLM_MULTIPROCESSOR_MODE (4)':
+    'prefix': 'GLM_MULTIPROCESSOR_MODE'
+    'body': 'GLM_MULTIPROCESSOR_MODE'
+  'GLM_NO_ERROR (0)':
+    'prefix': 'GLM_NO_ERROR'
+    'body': 'GLM_NO_ERROR'
+  'GLM_NUMBER_PAGES (2)':
+    'prefix': 'GLM_NUMBER_PAGES'
+    'body': 'GLM_NUMBER_PAGES'
+  'GLM_OUT_OF_MEMORY (4)':
+    'prefix': 'GLM_OUT_OF_MEMORY'
+    'body': 'GLM_OUT_OF_MEMORY'
+  'GLM_OVERRIDE_MODE (1)':
+    'prefix': 'GLM_OVERRIDE_MODE'
+    'body': 'GLM_OVERRIDE_MODE'
+  'GLM_PAGE_ALLOCATION_FUNC_PTR (1)':
+    'prefix': 'GLM_PAGE_ALLOCATION_FUNC_PTR'
+    'body': 'GLM_PAGE_ALLOCATION_FUNC_PTR'
+  'GLM_PAGE_FREE_FUNC_PTR (2)':
+    'prefix': 'GLM_PAGE_FREE_FUNC_PTR'
+    'body': 'GLM_PAGE_FREE_FUNC_PTR'
+  'GLM_PAGE_SIZE (1)':
+    'prefix': 'GLM_PAGE_SIZE'
+    'body': 'GLM_PAGE_SIZE'
+  'GLM_SET_DOUBLE_FUNC_PTR (8)':
+    'prefix': 'GLM_SET_DOUBLE_FUNC_PTR'
+    'body': 'GLM_SET_DOUBLE_FUNC_PTR'
+  'GLM_SET_UBYTE_FUNC_PTR (5)':
+    'prefix': 'GLM_SET_UBYTE_FUNC_PTR'
+    'body': 'GLM_SET_UBYTE_FUNC_PTR'
+  'GLM_SET_UINT_FUNC_PTR (7)':
+    'prefix': 'GLM_SET_UINT_FUNC_PTR'
+    'body': 'GLM_SET_UINT_FUNC_PTR'
+  'GLM_SET_USHORT_FUNC_PTR (6)':
+    'prefix': 'GLM_SET_USHORT_FUNC_PTR'
+    'body': 'GLM_SET_USHORT_FUNC_PTR'
+  'GLM_SYSTEM_HEAP_MODE (2)':
+    'prefix': 'GLM_SYSTEM_HEAP_MODE'
+    'body': 'GLM_SYSTEM_HEAP_MODE'
+  'GLM_VERSION_2_0 (1)':
+    'prefix': 'GLM_VERSION_2_0'
+    'body': 'GLM_VERSION_2_0'
+  'GLM_ZERO_FUNC_PTR (3)':
+    'prefix': 'GLM_ZERO_FUNC_PTR'
+    'body': 'GLM_ZERO_FUNC_PTR'
+  'aglChoosePixelFormat':
+    'prefix': 'aglChoosePixelFormat'
+    'body': 'aglChoosePixelFormat(${1:void* gdevs}, ${2:GLint ndev}, ${3:GLint* attribs})'
+  'aglConfigure':
+    'prefix': 'aglConfigure'
+    'body': 'aglConfigure(${1:GLenum pname}, ${2:GLuint param})'
+  'aglCopyContext':
+    'prefix': 'aglCopyContext'
+    'body': 'aglCopyContext(${1:AGLContext src}, ${2:AGLContext dst}, ${3:GLuint mask})'
+  'aglCreateContext':
+    'prefix': 'aglCreateContext'
+    'body': 'aglCreateContext(${1:AGLPixelFormat pix}, ${2:AGLContext share})'
+  'aglCreatePBuffer':
+    'prefix': 'aglCreatePBuffer'
+    'body': 'aglCreatePBuffer(${1:GLint width}, ${2:GLint height}, ${3:GLenum target}, ${4:GLenum internalFormat}, ${5:GLint max_level}, ${6:AGLPbuffer* pbuffer})'
+  'aglCreatePixelFormat':
+    'prefix': 'aglCreatePixelFormat'
+    'body': 'aglCreatePixelFormat(${1:GLint* attribs})'
+  'aglDescribePBuffer':
+    'prefix': 'aglDescribePBuffer'
+    'body': 'aglDescribePBuffer(${1:AGLPbuffer pbuffer}, ${2:GLint* width}, ${3:GLint* height}, ${4:GLenum* target}, ${5:GLenum* internalFormat}, ${6:GLint* max_level})'
+  'aglDescribePixelFormat':
+    'prefix': 'aglDescribePixelFormat'
+    'body': 'aglDescribePixelFormat(${1:AGLPixelFormat pix}, ${2:GLint attrib}, ${3:GLint* value})'
+  'aglDescribeRenderer':
+    'prefix': 'aglDescribeRenderer'
+    'body': 'aglDescribeRenderer(${1:AGLRendererInfo rend}, ${2:GLint prop}, ${3:GLint* value})'
+  'aglDestroyContext':
+    'prefix': 'aglDestroyContext'
+    'body': 'aglDestroyContext(${1:AGLContext ctx})'
+  'aglDestroyPBuffer':
+    'prefix': 'aglDestroyPBuffer'
+    'body': 'aglDestroyPBuffer(${1:AGLPbuffer pbuffer})'
+  'aglDestroyPixelFormat':
+    'prefix': 'aglDestroyPixelFormat'
+    'body': 'aglDestroyPixelFormat(${1:AGLPixelFormat pix})'
+  'aglDestroyRendererInfo':
+    'prefix': 'aglDestroyRendererInfo'
+    'body': 'aglDestroyRendererInfo(${1:AGLRendererInfo rend})'
+  'aglDevicesOfPixelFormat':
+    'prefix': 'aglDevicesOfPixelFormat'
+    'body': 'aglDevicesOfPixelFormat(${1:AGLPixelFormat pix}, ${2:GLint* ndevs})'
+  'aglDisable':
+    'prefix': 'aglDisable'
+    'body': 'aglDisable(${1:AGLContext ctx}, ${2:GLenum pname})'
+  'aglDisplaysOfPixelFormat':
+    'prefix': 'aglDisplaysOfPixelFormat'
+    'body': 'aglDisplaysOfPixelFormat(${1:AGLPixelFormat pix}, ${2:GLint* ndevs})'
+  'aglEnable':
+    'prefix': 'aglEnable'
+    'body': 'aglEnable(${1:AGLContext ctx}, ${2:GLenum pname})'
+  'aglErrorString':
+    'prefix': 'aglErrorString'
+    'body': 'aglErrorString(${1:GLenum code})'
+  'aglGetCGLContext':
+    'prefix': 'aglGetCGLContext'
+    'body': 'aglGetCGLContext(${1:AGLContext ctx}, ${2:void** cgl_ctx})'
+  'aglGetCGLPixelFormat':
+    'prefix': 'aglGetCGLPixelFormat'
+    'body': 'aglGetCGLPixelFormat(${1:AGLPixelFormat pix}, ${2:void** cgl_pix})'
+  'aglGetCurrentContext':
+    'prefix': 'aglGetCurrentContext'
+    'body': 'aglGetCurrentContext()'
+  'aglGetDrawable':
+    'prefix': 'aglGetDrawable'
+    'body': 'aglGetDrawable(${1:AGLContext ctx})'
+  'aglGetError':
+    'prefix': 'aglGetError'
+    'body': 'aglGetError()'
+  'aglGetHIViewRef':
+    'prefix': 'aglGetHIViewRef'
+    'body': 'aglGetHIViewRef(${1:AGLContext ctx})'
+  'aglGetInteger':
+    'prefix': 'aglGetInteger'
+    'body': 'aglGetInteger(${1:AGLContext ctx}, ${2:GLenum pname}, ${3:GLint* params})'
+  'aglGetPBuffer':
+    'prefix': 'aglGetPBuffer'
+    'body': 'aglGetPBuffer(${1:AGLContext ctx}, ${2:AGLPbuffer* pbuffer}, ${3:GLint* face}, ${4:GLint* level}, ${5:GLint* screen})'
+  'aglGetVersion':
+    'prefix': 'aglGetVersion'
+    'body': 'aglGetVersion(${1:GLint* major}, ${2:GLint* minor})'
+  'aglGetVirtualScreen':
+    'prefix': 'aglGetVirtualScreen'
+    'body': 'aglGetVirtualScreen(${1:AGLContext ctx})'
+  'aglGetWindowRef':
+    'prefix': 'aglGetWindowRef'
+    'body': 'aglGetWindowRef(${1:AGLContext ctx})'
+  'aglIsEnabled':
+    'prefix': 'aglIsEnabled'
+    'body': 'aglIsEnabled(${1:AGLContext ctx}, ${2:GLenum pname})'
+  'aglNextPixelFormat':
+    'prefix': 'aglNextPixelFormat'
+    'body': 'aglNextPixelFormat(${1:AGLPixelFormat pix})'
+  'aglNextRendererInfo':
+    'prefix': 'aglNextRendererInfo'
+    'body': 'aglNextRendererInfo(${1:AGLRendererInfo rend})'
+  'aglQueryRendererInfo':
+    'prefix': 'aglQueryRendererInfo'
+    'body': 'aglQueryRendererInfo(${1:AGLDevice* gdevs}, ${2:GLint ndev})'
+  'aglQueryRendererInfoForCGDirectDisplayIDs':
+    'prefix': 'aglQueryRendererInfoForCGDirectDisplayIDs'
+    'body': 'aglQueryRendererInfoForCGDirectDisplayIDs(${1:CGDirectDisplayID* dspIDs}, ${2:GLint ndev})'
+  'aglResetLibrary':
+    'prefix': 'aglResetLibrary'
+    'body': 'aglResetLibrary()'
+  'aglSetCurrentContext':
+    'prefix': 'aglSetCurrentContext'
+    'body': 'aglSetCurrentContext(${1:AGLContext ctx})'
+  'aglSetDrawable':
+    'prefix': 'aglSetDrawable'
+    'body': 'aglSetDrawable(${1:AGLContext ctx}, ${2:AGLDrawable draw})'
+  'aglSetFullScreen':
+    'prefix': 'aglSetFullScreen'
+    'body': 'aglSetFullScreen(${1:AGLContext ctx}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei freq}, ${5:GLint device})'
+  'aglSetHIViewRef':
+    'prefix': 'aglSetHIViewRef'
+    'body': 'aglSetHIViewRef(${1:AGLContext ctx}, ${2:HIViewRef hiview})'
+  'aglSetInteger':
+    'prefix': 'aglSetInteger'
+    'body': 'aglSetInteger(${1:AGLContext ctx}, ${2:GLenum pname}, ${3:GLint* params})'
+  'aglSetOffScreen':
+    'prefix': 'aglSetOffScreen'
+    'body': 'aglSetOffScreen(${1:AGLContext ctx}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei rowbytes}, ${5:GLvoid* baseaddr})'
+  'aglSetPBuffer':
+    'prefix': 'aglSetPBuffer'
+    'body': 'aglSetPBuffer(${1:AGLContext ctx}, ${2:AGLPbuffer pbuffer}, ${3:GLint face}, ${4:GLint level}, ${5:GLint screen})'
+  'aglSetVirtualScreen':
+    'prefix': 'aglSetVirtualScreen'
+    'body': 'aglSetVirtualScreen(${1:AGLContext ctx}, ${2:GLint screen})'
+  'aglSetWindowRef':
+    'prefix': 'aglSetWindowRef'
+    'body': 'aglSetWindowRef(${1:AGLContext ctx}, ${2:WindowRef window})'
+  'aglSurfaceTexture':
+    'prefix': 'aglSurfaceTexture'
+    'body': 'aglSurfaceTexture(${1:AGLContext context}, ${2:GLenum target}, ${3:GLenum internalformat}, ${4:AGLContext surfacecontext})'
+  'aglSwapBuffers':
+    'prefix': 'aglSwapBuffers'
+    'body': 'aglSwapBuffers(${1:AGLContext ctx})'
+  'aglTexImagePBuffer':
+    'prefix': 'aglTexImagePBuffer'
+    'body': 'aglTexImagePBuffer(${1:AGLContext ctx}, ${2:AGLPbuffer pbuffer}, ${3:GLint source})'
+  'aglUpdateContext':
+    'prefix': 'aglUpdateContext'
+    'body': 'aglUpdateContext(${1:AGLContext ctx})'
+  'aglUseFont':
+    'prefix': 'aglUseFont'
+    'body': 'aglUseFont(${1:AGLContext ctx}, ${2:GLint fontID}, ${3:Style face}, ${4:GLint size}, ${5:GLint first}, ${6:GLint count}, ${7:GLint base})'
+  'glmCalloc':
+    'prefix': 'glmCalloc'
+    'body': 'glmCalloc(${1:GLsizei nmemb}, ${2:GLsizei size})'
+  'glmCopy':
+    'prefix': 'glmCopy'
+    'body': 'glmCopy(${1:GLubyte* src}, ${2:GLubyte* dst}, ${3:GLsizei width}, ${4:GLsizei height}, ${5:GLsizei src_rowbytes}, ${6:GLsizei dst_rowbytes})'
+  'glmDCBAlloc':
+    'prefix': 'glmDCBAlloc'
+    'body': 'glmDCBAlloc(${1:GLsizei size})'
+  'glmDCBFree':
+    'prefix': 'glmDCBFree'
+    'body': 'glmDCBFree(${1:GLvoid* ptr})'
+  'glmFree':
+    'prefix': 'glmFree'
+    'body': 'glmFree(${1:GLvoid* ptr})'
+  'glmGetError':
+    'prefix': 'glmGetError'
+    'body': 'glmGetError()'
+  'glmGetInteger':
+    'prefix': 'glmGetInteger'
+    'body': 'glmGetInteger(${1:GLenum param})'
+  'glmMalloc':
+    'prefix': 'glmMalloc'
+    'body': 'glmMalloc(${1:GLsizei size})'
+  'glmPageFreeAll':
+    'prefix': 'glmPageFreeAll'
+    'body': 'glmPageFreeAll()'
+  'glmRealloc':
+    'prefix': 'glmRealloc'
+    'body': 'glmRealloc(${1:GLvoid* ptr}, ${2:GLsizei size})'
+  'glmSetDouble':
+    'prefix': 'glmSetDouble'
+    'body': 'glmSetDouble(${1:GLdouble* buffer}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei row_elems}, ${5:GLdouble value})'
+  'glmSetFunc':
+    'prefix': 'glmSetFunc'
+    'body': 'glmSetFunc(${1:GLenum type}, ${2:GLMfunctions func})'
+  'glmSetInteger':
+    'prefix': 'glmSetInteger'
+    'body': 'glmSetInteger(${1:GLenum param}, ${2:GLint value})'
+  'glmSetMode':
+    'prefix': 'glmSetMode'
+    'body': 'glmSetMode(${1:GLenum mode})'
+  'glmSetUByte':
+    'prefix': 'glmSetUByte'
+    'body': 'glmSetUByte(${1:GLubyte* buffer}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei row_elems}, ${5:GLubyte value})'
+  'glmSetUInt':
+    'prefix': 'glmSetUInt'
+    'body': 'glmSetUInt(${1:GLuint* buffer}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei row_elems}, ${5:GLuint value})'
+  'glmSetUShort':
+    'prefix': 'glmSetUShort'
+    'body': 'glmSetUShort(${1:GLushort* buffer}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei row_elems}, ${5:GLushort value})'
+  'glmVecAlloc':
+    'prefix': 'glmVecAlloc'
+    'body': 'glmVecAlloc(${1:GLsizei size})'
+  'glmVecFree':
+    'prefix': 'glmVecFree'
+    'body': 'glmVecFree(${1:GLvoid* ptr})'
+  'glmZero':
+    'prefix': 'glmZero'
+    'body': 'glmZero(${1:GLubyte* buffer}, ${2:GLsizei width}, ${3:GLsizei height}, ${4:GLsizei rowbytes})'
+  'glActiveTextureARB (glActiveTexture)':
+    'prefix': 'glActiveTextureARB'
+    'body': 'glActiveTextureARB'
+  'glBeginQueryARB (glBeginQuery)':
+    'prefix': 'glBeginQueryARB'
+    'body': 'glBeginQueryARB'
+  'glBindBufferARB (glBindBuffer)':
+    'prefix': 'glBindBufferARB'
+    'body': 'glBindBufferARB'
+  'glBlendColorEXT (glBlendColor)':
+    'prefix': 'glBlendColorEXT'
+    'body': 'glBlendColorEXT'
+  'glBlendEquationEXT (glBlendEquation)':
+    'prefix': 'glBlendEquationEXT'
+    'body': 'glBlendEquationEXT'
+  'glBlendEquationSeparate (glBlendEquationSeparateEXT)':
+    'prefix': 'glBlendEquationSeparate'
+    'body': 'glBlendEquationSeparate'
+  'glBlendEquationSeparateATI (glBlendEquationSeparateEXT)':
+    'prefix': 'glBlendEquationSeparateATI'
+    'body': 'glBlendEquationSeparateATI'
+  'glBlendFuncSeparateEXT (glBlendFuncSeparate)':
+    'prefix': 'glBlendFuncSeparateEXT'
+    'body': 'glBlendFuncSeparateEXT'
+  'glBufferDataARB (glBufferData)':
+    'prefix': 'glBufferDataARB'
+    'body': 'glBufferDataARB'
+  'glBufferSubDataARB (glBufferSubData)':
+    'prefix': 'glBufferSubDataARB'
+    'body': 'glBufferSubDataARB'
+  'glClientActiveTextureARB (glClientActiveTexture)':
+    'prefix': 'glClientActiveTextureARB'
+    'body': 'glClientActiveTextureARB'
+  'glColorSubTableEXT (glColorSubTable)':
+    'prefix': 'glColorSubTableEXT'
+    'body': 'glColorSubTableEXT'
+  'glColorTableEXT (glColorTable)':
+    'prefix': 'glColorTableEXT'
+    'body': 'glColorTableEXT'
+  'glCompressedTexImage1DARB (glCompressedTexImage1D)':
+    'prefix': 'glCompressedTexImage1DARB'
+    'body': 'glCompressedTexImage1DARB'
+  'glCompressedTexImage2DARB (glCompressedTexImage2D)':
+    'prefix': 'glCompressedTexImage2DARB'
+    'body': 'glCompressedTexImage2DARB'
+  'glCompressedTexImage3DARB (glCompressedTexImage3D)':
+    'prefix': 'glCompressedTexImage3DARB'
+    'body': 'glCompressedTexImage3DARB'
+  'glCompressedTexSubImage1DARB (glCompressedTexSubImage1D)':
+    'prefix': 'glCompressedTexSubImage1DARB'
+    'body': 'glCompressedTexSubImage1DARB'
+  'glCompressedTexSubImage2DARB (glCompressedTexSubImage2D)':
+    'prefix': 'glCompressedTexSubImage2DARB'
+    'body': 'glCompressedTexSubImage2DARB'
+  'glCompressedTexSubImage3DARB (glCompressedTexSubImage3D)':
+    'prefix': 'glCompressedTexSubImage3DARB'
+    'body': 'glCompressedTexSubImage3DARB'
+  'glDeleteBuffersARB (glDeleteBuffers)':
+    'prefix': 'glDeleteBuffersARB'
+    'body': 'glDeleteBuffersARB'
+  'glDeleteQueriesARB (glDeleteQueries)':
+    'prefix': 'glDeleteQueriesARB'
+    'body': 'glDeleteQueriesARB'
+  'glDrawRangeElementsEXT (glDrawRangeElements)':
+    'prefix': 'glDrawRangeElementsEXT'
+    'body': 'glDrawRangeElementsEXT'
+  'glEndQueryARB (glEndQuery)':
+    'prefix': 'glEndQueryARB'
+    'body': 'glEndQueryARB'
+  'glFogCoordPointerEXT (glFogCoordPointer)':
+    'prefix': 'glFogCoordPointerEXT'
+    'body': 'glFogCoordPointerEXT'
+  'glFogCoorddEXT (glFogCoordd)':
+    'prefix': 'glFogCoorddEXT'
+    'body': 'glFogCoorddEXT'
+  'glFogCoorddvEXT (glFogCoorddv)':
+    'prefix': 'glFogCoorddvEXT'
+    'body': 'glFogCoorddvEXT'
+  'glFogCoordfEXT (glFogCoordf)':
+    'prefix': 'glFogCoordfEXT'
+    'body': 'glFogCoordfEXT'
+  'glFogCoordfvEXT (glFogCoordfv)':
+    'prefix': 'glFogCoordfvEXT'
+    'body': 'glFogCoordfvEXT'
+  'glGenBuffersARB (glGenBuffers)':
+    'prefix': 'glGenBuffersARB'
+    'body': 'glGenBuffersARB'
+  'glGenQueriesARB (glGenQueries)':
+    'prefix': 'glGenQueriesARB'
+    'body': 'glGenQueriesARB'
+  'glGetBufferParameterivARB (glGetBufferParameteriv)':
+    'prefix': 'glGetBufferParameterivARB'
+    'body': 'glGetBufferParameterivARB'
+  'glGetBufferPointervARB (glGetBufferPointerv)':
+    'prefix': 'glGetBufferPointervARB'
+    'body': 'glGetBufferPointervARB'
+  'glGetBufferSubDataARB (glGetBufferSubData)':
+    'prefix': 'glGetBufferSubDataARB'
+    'body': 'glGetBufferSubDataARB'
+  'glGetColorTableEXT (glGetColorTable)':
+    'prefix': 'glGetColorTableEXT'
+    'body': 'glGetColorTableEXT'
+  'glGetColorTableParameterfvEXT (glGetColorTableParameterfv)':
+    'prefix': 'glGetColorTableParameterfvEXT'
+    'body': 'glGetColorTableParameterfvEXT'
+  'glGetColorTableParameterivEXT (glGetColorTableParameteriv)':
+    'prefix': 'glGetColorTableParameterivEXT'
+    'body': 'glGetColorTableParameterivEXT'
+  'glGetCompressedTexImageARB (glGetCompressedTexImage)':
+    'prefix': 'glGetCompressedTexImageARB'
+    'body': 'glGetCompressedTexImageARB'
+  'glGetQueryObjectivARB (glGetQueryObjectiv)':
+    'prefix': 'glGetQueryObjectivARB'
+    'body': 'glGetQueryObjectivARB'
+  'glGetQueryObjectuivARB (glGetQueryObjectuiv)':
+    'prefix': 'glGetQueryObjectuivARB'
+    'body': 'glGetQueryObjectuivARB'
+  'glGetQueryivARB (glGetQueryiv)':
+    'prefix': 'glGetQueryivARB'
+    'body': 'glGetQueryivARB'
+  'glIsBufferARB (glIsBuffer)':
+    'prefix': 'glIsBufferARB'
+    'body': 'glIsBufferARB'
+  'glIsQueryARB (glIsQuery)':
+    'prefix': 'glIsQueryARB'
+    'body': 'glIsQueryARB'
+  'glLoadTransposeMatrixdARB (glLoadTransposeMatrixd)':
+    'prefix': 'glLoadTransposeMatrixdARB'
+    'body': 'glLoadTransposeMatrixdARB'
+  'glLoadTransposeMatrixfARB (glLoadTransposeMatrixf)':
+    'prefix': 'glLoadTransposeMatrixfARB'
+    'body': 'glLoadTransposeMatrixfARB'
+  'glMapBufferARB (glMapBuffer)':
+    'prefix': 'glMapBufferARB'
+    'body': 'glMapBufferARB'
+  'glMultTransposeMatrixdARB (glMultTransposeMatrixd)':
+    'prefix': 'glMultTransposeMatrixdARB'
+    'body': 'glMultTransposeMatrixdARB'
+  'glMultTransposeMatrixfARB (glMultTransposeMatrixf)':
+    'prefix': 'glMultTransposeMatrixfARB'
+    'body': 'glMultTransposeMatrixfARB'
+  'glMultiDrawArraysEXT (glMultiDrawArrays)':
+    'prefix': 'glMultiDrawArraysEXT'
+    'body': 'glMultiDrawArraysEXT'
+  'glMultiDrawElementsEXT (glMultiDrawElements)':
+    'prefix': 'glMultiDrawElementsEXT'
+    'body': 'glMultiDrawElementsEXT'
+  'glMultiTexCoord1dARB (glMultiTexCoord1d)':
+    'prefix': 'glMultiTexCoord1dARB'
+    'body': 'glMultiTexCoord1dARB'
+  'glMultiTexCoord1dvARB (glMultiTexCoord1dv)':
+    'prefix': 'glMultiTexCoord1dvARB'
+    'body': 'glMultiTexCoord1dvARB'
+  'glMultiTexCoord1fARB (glMultiTexCoord1f)':
+    'prefix': 'glMultiTexCoord1fARB'
+    'body': 'glMultiTexCoord1fARB'
+  'glMultiTexCoord1fvARB (glMultiTexCoord1fv)':
+    'prefix': 'glMultiTexCoord1fvARB'
+    'body': 'glMultiTexCoord1fvARB'
+  'glMultiTexCoord1iARB (glMultiTexCoord1i)':
+    'prefix': 'glMultiTexCoord1iARB'
+    'body': 'glMultiTexCoord1iARB'
+  'glMultiTexCoord1ivARB (glMultiTexCoord1iv)':
+    'prefix': 'glMultiTexCoord1ivARB'
+    'body': 'glMultiTexCoord1ivARB'
+  'glMultiTexCoord1sARB (glMultiTexCoord1s)':
+    'prefix': 'glMultiTexCoord1sARB'
+    'body': 'glMultiTexCoord1sARB'
+  'glMultiTexCoord1svARB (glMultiTexCoord1sv)':
+    'prefix': 'glMultiTexCoord1svARB'
+    'body': 'glMultiTexCoord1svARB'
+  'glMultiTexCoord2dARB (glMultiTexCoord2d)':
+    'prefix': 'glMultiTexCoord2dARB'
+    'body': 'glMultiTexCoord2dARB'
+  'glMultiTexCoord2dvARB (glMultiTexCoord2dv)':
+    'prefix': 'glMultiTexCoord2dvARB'
+    'body': 'glMultiTexCoord2dvARB'
+  'glMultiTexCoord2fARB (glMultiTexCoord2f)':
+    'prefix': 'glMultiTexCoord2fARB'
+    'body': 'glMultiTexCoord2fARB'
+  'glMultiTexCoord2fvARB (glMultiTexCoord2fv)':
+    'prefix': 'glMultiTexCoord2fvARB'
+    'body': 'glMultiTexCoord2fvARB'
+  'glMultiTexCoord2iARB (glMultiTexCoord2i)':
+    'prefix': 'glMultiTexCoord2iARB'
+    'body': 'glMultiTexCoord2iARB'
+  'glMultiTexCoord2ivARB (glMultiTexCoord2iv)':
+    'prefix': 'glMultiTexCoord2ivARB'
+    'body': 'glMultiTexCoord2ivARB'
+  'glMultiTexCoord2sARB (glMultiTexCoord2s)':
+    'prefix': 'glMultiTexCoord2sARB'
+    'body': 'glMultiTexCoord2sARB'
+  'glMultiTexCoord2svARB (glMultiTexCoord2sv)':
+    'prefix': 'glMultiTexCoord2svARB'
+    'body': 'glMultiTexCoord2svARB'
+  'glMultiTexCoord3dARB (glMultiTexCoord3d)':
+    'prefix': 'glMultiTexCoord3dARB'
+    'body': 'glMultiTexCoord3dARB'
+  'glMultiTexCoord3dvARB (glMultiTexCoord3dv)':
+    'prefix': 'glMultiTexCoord3dvARB'
+    'body': 'glMultiTexCoord3dvARB'
+  'glMultiTexCoord3fARB (glMultiTexCoord3f)':
+    'prefix': 'glMultiTexCoord3fARB'
+    'body': 'glMultiTexCoord3fARB'
+  'glMultiTexCoord3fvARB (glMultiTexCoord3fv)':
+    'prefix': 'glMultiTexCoord3fvARB'
+    'body': 'glMultiTexCoord3fvARB'
+  'glMultiTexCoord3iARB (glMultiTexCoord3i)':
+    'prefix': 'glMultiTexCoord3iARB'
+    'body': 'glMultiTexCoord3iARB'
+  'glMultiTexCoord3ivARB (glMultiTexCoord3iv)':
+    'prefix': 'glMultiTexCoord3ivARB'
+    'body': 'glMultiTexCoord3ivARB'
+  'glMultiTexCoord3sARB (glMultiTexCoord3s)':
+    'prefix': 'glMultiTexCoord3sARB'
+    'body': 'glMultiTexCoord3sARB'
+  'glMultiTexCoord3svARB (glMultiTexCoord3sv)':
+    'prefix': 'glMultiTexCoord3svARB'
+    'body': 'glMultiTexCoord3svARB'
+  'glMultiTexCoord4dARB (glMultiTexCoord4d)':
+    'prefix': 'glMultiTexCoord4dARB'
+    'body': 'glMultiTexCoord4dARB'
+  'glMultiTexCoord4dvARB (glMultiTexCoord4dv)':
+    'prefix': 'glMultiTexCoord4dvARB'
+    'body': 'glMultiTexCoord4dvARB'
+  'glMultiTexCoord4fARB (glMultiTexCoord4f)':
+    'prefix': 'glMultiTexCoord4fARB'
+    'body': 'glMultiTexCoord4fARB'
+  'glMultiTexCoord4fvARB (glMultiTexCoord4fv)':
+    'prefix': 'glMultiTexCoord4fvARB'
+    'body': 'glMultiTexCoord4fvARB'
+  'glMultiTexCoord4iARB (glMultiTexCoord4i)':
+    'prefix': 'glMultiTexCoord4iARB'
+    'body': 'glMultiTexCoord4iARB'
+  'glMultiTexCoord4ivARB (glMultiTexCoord4iv)':
+    'prefix': 'glMultiTexCoord4ivARB'
+    'body': 'glMultiTexCoord4ivARB'
+  'glMultiTexCoord4sARB (glMultiTexCoord4s)':
+    'prefix': 'glMultiTexCoord4sARB'
+    'body': 'glMultiTexCoord4sARB'
+  'glMultiTexCoord4svARB (glMultiTexCoord4sv)':
+    'prefix': 'glMultiTexCoord4svARB'
+    'body': 'glMultiTexCoord4svARB'
+  'glPointParameterfARB (glPointParameterf)':
+    'prefix': 'glPointParameterfARB'
+    'body': 'glPointParameterfARB'
+  'glPointParameterfvARB (glPointParameterfv)':
+    'prefix': 'glPointParameterfvARB'
+    'body': 'glPointParameterfvARB'
+  'glSampleCoverageARB (glSampleCoverage)':
+    'prefix': 'glSampleCoverageARB'
+    'body': 'glSampleCoverageARB'
+  'glSecondaryColor3bEXT (glSecondaryColor3b)':
+    'prefix': 'glSecondaryColor3bEXT'
+    'body': 'glSecondaryColor3bEXT'
+  'glSecondaryColor3bvEXT (glSecondaryColor3bv)':
+    'prefix': 'glSecondaryColor3bvEXT'
+    'body': 'glSecondaryColor3bvEXT'
+  'glSecondaryColor3dEXT (glSecondaryColor3d)':
+    'prefix': 'glSecondaryColor3dEXT'
+    'body': 'glSecondaryColor3dEXT'
+  'glSecondaryColor3dvEXT (glSecondaryColor3dv)':
+    'prefix': 'glSecondaryColor3dvEXT'
+    'body': 'glSecondaryColor3dvEXT'
+  'glSecondaryColor3fEXT (glSecondaryColor3f)':
+    'prefix': 'glSecondaryColor3fEXT'
+    'body': 'glSecondaryColor3fEXT'
+  'glSecondaryColor3fvEXT (glSecondaryColor3fv)':
+    'prefix': 'glSecondaryColor3fvEXT'
+    'body': 'glSecondaryColor3fvEXT'
+  'glSecondaryColor3iEXT (glSecondaryColor3i)':
+    'prefix': 'glSecondaryColor3iEXT'
+    'body': 'glSecondaryColor3iEXT'
+  'glSecondaryColor3ivEXT (glSecondaryColor3iv)':
+    'prefix': 'glSecondaryColor3ivEXT'
+    'body': 'glSecondaryColor3ivEXT'
+  'glSecondaryColor3sEXT (glSecondaryColor3s)':
+    'prefix': 'glSecondaryColor3sEXT'
+    'body': 'glSecondaryColor3sEXT'
+  'glSecondaryColor3svEXT (glSecondaryColor3sv)':
+    'prefix': 'glSecondaryColor3svEXT'
+    'body': 'glSecondaryColor3svEXT'
+  'glSecondaryColor3ubEXT (glSecondaryColor3ub)':
+    'prefix': 'glSecondaryColor3ubEXT'
+    'body': 'glSecondaryColor3ubEXT'
+  'glSecondaryColor3ubvEXT (glSecondaryColor3ubv)':
+    'prefix': 'glSecondaryColor3ubvEXT'
+    'body': 'glSecondaryColor3ubvEXT'
+  'glSecondaryColor3uiEXT (glSecondaryColor3ui)':
+    'prefix': 'glSecondaryColor3uiEXT'
+    'body': 'glSecondaryColor3uiEXT'
+  'glSecondaryColor3uivEXT (glSecondaryColor3uiv)':
+    'prefix': 'glSecondaryColor3uivEXT'
+    'body': 'glSecondaryColor3uivEXT'
+  'glSecondaryColor3usEXT (glSecondaryColor3us)':
+    'prefix': 'glSecondaryColor3usEXT'
+    'body': 'glSecondaryColor3usEXT'
+  'glSecondaryColor3usvEXT (glSecondaryColor3usv)':
+    'prefix': 'glSecondaryColor3usvEXT'
+    'body': 'glSecondaryColor3usvEXT'
+  'glSecondaryColorPointerEXT (glSecondaryColorPointer)':
+    'prefix': 'glSecondaryColorPointerEXT'
+    'body': 'glSecondaryColorPointerEXT'
+  'glUnmapBufferARB (glUnmapBuffer)':
+    'prefix': 'glUnmapBufferARB'
+    'body': 'glUnmapBufferARB'
+  'glWindowPos2dARB (glWindowPos2d)':
+    'prefix': 'glWindowPos2dARB'
+    'body': 'glWindowPos2dARB'
+  'glWindowPos2dvARB (glWindowPos2dv)':
+    'prefix': 'glWindowPos2dvARB'
+    'body': 'glWindowPos2dvARB'
+  'glWindowPos2fARB (glWindowPos2f)':
+    'prefix': 'glWindowPos2fARB'
+    'body': 'glWindowPos2fARB'
+  'glWindowPos2fvARB (glWindowPos2fv)':
+    'prefix': 'glWindowPos2fvARB'
+    'body': 'glWindowPos2fvARB'
+  'glWindowPos2iARB (glWindowPos2i)':
+    'prefix': 'glWindowPos2iARB'
+    'body': 'glWindowPos2iARB'
+  'glWindowPos2ivARB (glWindowPos2iv)':
+    'prefix': 'glWindowPos2ivARB'
+    'body': 'glWindowPos2ivARB'
+  'glWindowPos2sARB (glWindowPos2s)':
+    'prefix': 'glWindowPos2sARB'
+    'body': 'glWindowPos2sARB'
+  'glWindowPos2svARB (glWindowPos2sv)':
+    'prefix': 'glWindowPos2svARB'
+    'body': 'glWindowPos2svARB'
+  'glWindowPos3dARB (glWindowPos3d)':
+    'prefix': 'glWindowPos3dARB'
+    'body': 'glWindowPos3dARB'
+  'glWindowPos3dvARB (glWindowPos3dv)':
+    'prefix': 'glWindowPos3dvARB'
+    'body': 'glWindowPos3dvARB'
+  'glWindowPos3fARB (glWindowPos3f)':
+    'prefix': 'glWindowPos3fARB'
+    'body': 'glWindowPos3fARB'
+  'glWindowPos3fvARB (glWindowPos3fv)':
+    'prefix': 'glWindowPos3fvARB'
+    'body': 'glWindowPos3fvARB'
+  'glWindowPos3iARB (glWindowPos3i)':
+    'prefix': 'glWindowPos3iARB'
+    'body': 'glWindowPos3iARB'
+  'glWindowPos3ivARB (glWindowPos3iv)':
+    'prefix': 'glWindowPos3ivARB'
+    'body': 'glWindowPos3ivARB'
+  'glWindowPos3sARB (glWindowPos3s)':
+    'prefix': 'glWindowPos3sARB'
+    'body': 'glWindowPos3sARB'
+  'glWindowPos3svARB (glWindowPos3sv)':
+    'prefix': 'glWindowPos3svARB'
+    'body': 'glWindowPos3svARB'

@@ -1,6 +1,7 @@
 require 'bundler/setup'
 Bundler.require
 require 'pp'
+require 'fileutils'
 
 DATADIR = '/Library/RubyMotion/data'
 
@@ -67,9 +68,10 @@ def process_node(node)
   snippets
 end
 
+FileUtils.mkdir('../snippets/cocoatouch') unless Dir.exist?('../snippets/cocoatouch')
 BRIDGE_SUPPORT_FILES[:ios].each do |file|
   filename = File.basename(file, '.bridgesupport').downcase
-  File.open("../snippets/cocoatouch-#{filename}.cson", 'w') {|f|
+  File.open("../snippets/cocoatouch/#{filename}.cson", 'w') {|f|
     f.puts "'.source.rubymotion':"
     doc = Nokogiri::XML(File.read(file))
     doc.xpath('/signatures/*').each do |node|
@@ -78,13 +80,14 @@ BRIDGE_SUPPORT_FILES[:ios].each do |file|
   }
 end
 
-# BRIDGE_SUPPORT_FILES[:osx].each do |file|
-#   filename = File.basename(file, '.bridgesupport').downcase
-#   File.open("../snippets/cocoa-#{filename}.cson", 'w') {|f|
-#     f.puts "'.source.rubymotion':"
-#     doc = Nokogiri::XML(File.read(file))
-#     doc.xpath('/signatures/*').each do |node|
-#       f.puts process_node(node)
-#     end
-#   }
-# end
+FileUtils.mkdir('../snippets/cocoa') unless Dir.exist?('../snippets/cocoa')
+BRIDGE_SUPPORT_FILES[:osx].each do |file|
+  filename = File.basename(file, '.bridgesupport').downcase
+  File.open("../snippets/cocoa/#{filename}.cson", 'w') {|f|
+    f.puts "'.source.rubymotion':"
+    doc = Nokogiri::XML(File.read(file))
+    doc.xpath('/signatures/*').each do |node|
+      f.puts process_node(node)
+    end
+  }
+end

@@ -1,0 +1,4 @@
+'.source.rubymotion':
+  'loadAppleScriptObjectiveCScripts':
+    'prefix': 'loadAppleScriptObjectiveCScripts'
+    'body': 'loadAppleScriptObjectiveCScripts()'

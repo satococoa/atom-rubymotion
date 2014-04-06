@@ -1,0 +1,4177 @@
+'.source.rubymotion':
+  'GSS_C_NT_ANONYMOUS (gss_OID)':
+    'prefix': 'GSS_C_NT_ANONYMOUS'
+    'body': 'GSS_C_NT_ANONYMOUS'
+  'GSS_C_NT_EXPORT_NAME (gss_OID)':
+    'prefix': 'GSS_C_NT_EXPORT_NAME'
+    'body': 'GSS_C_NT_EXPORT_NAME'
+  'GSS_C_NT_HOSTBASED_SERVICE (gss_OID)':
+    'prefix': 'GSS_C_NT_HOSTBASED_SERVICE'
+    'body': 'GSS_C_NT_HOSTBASED_SERVICE'
+  'GSS_C_NT_HOSTBASED_SERVICE_X (gss_OID)':
+    'prefix': 'GSS_C_NT_HOSTBASED_SERVICE_X'
+    'body': 'GSS_C_NT_HOSTBASED_SERVICE_X'
+  'GSS_C_NT_MACHINE_UID_NAME (gss_OID)':
+    'prefix': 'GSS_C_NT_MACHINE_UID_NAME'
+    'body': 'GSS_C_NT_MACHINE_UID_NAME'
+  'GSS_C_NT_STRING_UID_NAME (gss_OID)':
+    'prefix': 'GSS_C_NT_STRING_UID_NAME'
+    'body': 'GSS_C_NT_STRING_UID_NAME'
+  'GSS_C_NT_USER_NAME (gss_OID)':
+    'prefix': 'GSS_C_NT_USER_NAME'
+    'body': 'GSS_C_NT_USER_NAME'
+  'GSS_KRB5_NT_PRINCIPAL_NAME (gss_OID_desc*)':
+    'prefix': 'GSS_KRB5_NT_PRINCIPAL_NAME'
+    'body': 'GSS_KRB5_NT_PRINCIPAL_NAME'
+  'et_asn1_error_table (struct error_table)':
+    'prefix': 'et_asn1_error_table'
+    'body': 'et_asn1_error_table'
+  'et_k524_error_table (struct error_table)':
+    'prefix': 'et_k524_error_table'
+    'body': 'et_k524_error_table'
+  'et_kdb5_error_table (struct error_table)':
+    'prefix': 'et_kdb5_error_table'
+    'body': 'et_kdb5_error_table'
+  'et_krb5_error_table (struct error_table)':
+    'prefix': 'et_krb5_error_table'
+    'body': 'et_krb5_error_table'
+  'et_kv5m_error_table (struct error_table)':
+    'prefix': 'et_kv5m_error_table'
+    'body': 'et_kv5m_error_table'
+  'et_prof_error_table (struct error_table)':
+    'prefix': 'et_prof_error_table'
+    'body': 'et_prof_error_table'
+  'gss_mech_krb5 (gss_OID_desc*)':
+    'prefix': 'gss_mech_krb5'
+    'body': 'gss_mech_krb5'
+  'gss_mech_krb5_old (gss_OID_desc*)':
+    'prefix': 'gss_mech_krb5_old'
+    'body': 'gss_mech_krb5_old'
+  'gss_mech_krb5_wrong (gss_OID_desc*)':
+    'prefix': 'gss_mech_krb5_wrong'
+    'body': 'gss_mech_krb5_wrong'
+  'gss_mech_set_krb5 (gss_OID_set_desc*)':
+    'prefix': 'gss_mech_set_krb5'
+    'body': 'gss_mech_set_krb5'
+  'gss_mech_set_krb5_both (gss_OID_set_desc*)':
+    'prefix': 'gss_mech_set_krb5_both'
+    'body': 'gss_mech_set_krb5_both'
+  'gss_mech_set_krb5_old (gss_OID_set_desc*)':
+    'prefix': 'gss_mech_set_krb5_old'
+    'body': 'gss_mech_set_krb5_old'
+  'gss_nt_exported_name (gss_OID)':
+    'prefix': 'gss_nt_exported_name'
+    'body': 'gss_nt_exported_name'
+  'gss_nt_krb5_name (gss_OID_desc*)':
+    'prefix': 'gss_nt_krb5_name'
+    'body': 'gss_nt_krb5_name'
+  'gss_nt_krb5_principal (gss_OID_desc*)':
+    'prefix': 'gss_nt_krb5_principal'
+    'body': 'gss_nt_krb5_principal'
+  'gss_nt_machine_uid_name (gss_OID)':
+    'prefix': 'gss_nt_machine_uid_name'
+    'body': 'gss_nt_machine_uid_name'
+  'gss_nt_service_name (gss_OID)':
+    'prefix': 'gss_nt_service_name'
+    'body': 'gss_nt_service_name'
+  'gss_nt_service_name_v2 (gss_OID)':
+    'prefix': 'gss_nt_service_name_v2'
+    'body': 'gss_nt_service_name_v2'
+  'gss_nt_string_uid_name (gss_OID)':
+    'prefix': 'gss_nt_string_uid_name'
+    'body': 'gss_nt_string_uid_name'
+  'gss_nt_user_name (gss_OID)':
+    'prefix': 'gss_nt_user_name'
+    'body': 'gss_nt_user_name'
+  'krb5_gss_oid_array (gss_OID_desc*)':
+    'prefix': 'krb5_gss_oid_array'
+    'body': 'Krb5_gss_oid_array'
+  'KRB5_REFERRAL_REALM ()':
+    'prefix': 'KRB5_REFERRAL_REALM'
+    'body': 'KRB5_REFERRAL_REALM'
+  'KRB5_TGS_NAME (krbtgt)':
+    'prefix': 'KRB5_TGS_NAME'
+    'body': 'KRB5_TGS_NAME'
+  'kCCAPICCacheChangedNotification (CCAPICCacheChangedNotification)':
+    'prefix': 'kCCAPICCacheChangedNotification'
+    'body': 'KCCAPICCacheChangedNotification'
+  'kCCAPICacheCollectionChangedNotification (CCAPICacheCollectionChangedNotification)':
+    'prefix': 'kCCAPICacheCollectionChangedNotification'
+    'body': 'KCCAPICacheCollectionChangedNotification'
+  'ADDRTYPE_ADDRPORT (256)':
+    'prefix': 'ADDRTYPE_ADDRPORT'
+    'body': 'ADDRTYPE_ADDRPORT'
+  'ADDRTYPE_CHAOS (5)':
+    'prefix': 'ADDRTYPE_CHAOS'
+    'body': 'ADDRTYPE_CHAOS'
+  'ADDRTYPE_DDP (16)':
+    'prefix': 'ADDRTYPE_DDP'
+    'body': 'ADDRTYPE_DDP'
+  'ADDRTYPE_INET (2)':
+    'prefix': 'ADDRTYPE_INET'
+    'body': 'ADDRTYPE_INET'
+  'ADDRTYPE_INET6 (24)':
+    'prefix': 'ADDRTYPE_INET6'
+    'body': 'ADDRTYPE_INET6'
+  'ADDRTYPE_IPPORT (257)':
+    'prefix': 'ADDRTYPE_IPPORT'
+    'body': 'ADDRTYPE_IPPORT'
+  'ADDRTYPE_ISO (7)':
+    'prefix': 'ADDRTYPE_ISO'
+    'body': 'ADDRTYPE_ISO'
+  'ADDRTYPE_XNS (6)':
+    'prefix': 'ADDRTYPE_XNS'
+    'body': 'ADDRTYPE_XNS'
+  'AD_TYPE_EXTERNAL (16384)':
+    'prefix': 'AD_TYPE_EXTERNAL'
+    'body': 'AD_TYPE_EXTERNAL'
+  'AD_TYPE_FIELD_TYPE_MASK (8191)':
+    'prefix': 'AD_TYPE_FIELD_TYPE_MASK'
+    'body': 'AD_TYPE_FIELD_TYPE_MASK'
+  'AD_TYPE_INTERNAL_MASK (16383)':
+    'prefix': 'AD_TYPE_INTERNAL_MASK'
+    'body': 'AD_TYPE_INTERNAL_MASK'
+  'AD_TYPE_REGISTERED (8192)':
+    'prefix': 'AD_TYPE_REGISTERED'
+    'body': 'AD_TYPE_REGISTERED'
+  'AD_TYPE_RESERVED (32768)':
+    'prefix': 'AD_TYPE_RESERVED'
+    'body': 'AD_TYPE_RESERVED'
+  'AP_OPTS_MUTUAL_REQUIRED (536870912)':
+    'prefix': 'AP_OPTS_MUTUAL_REQUIRED'
+    'body': 'AP_OPTS_MUTUAL_REQUIRED'
+  'AP_OPTS_RESERVED (2147483648)':
+    'prefix': 'AP_OPTS_RESERVED'
+    'body': 'AP_OPTS_RESERVED'
+  'AP_OPTS_USE_SESSION_KEY (1073741824)':
+    'prefix': 'AP_OPTS_USE_SESSION_KEY'
+    'body': 'AP_OPTS_USE_SESSION_KEY'
+  'AP_OPTS_USE_SUBKEY (1)':
+    'prefix': 'AP_OPTS_USE_SUBKEY'
+    'body': 'AP_OPTS_USE_SUBKEY'
+  'AP_OPTS_WIRE_MASK (4294967280)':
+    'prefix': 'AP_OPTS_WIRE_MASK'
+    'body': 'AP_OPTS_WIRE_MASK'
+  'ASN1_BAD_FORMAT (1859794440)':
+    'prefix': 'ASN1_BAD_FORMAT'
+    'body': 'ASN1_BAD_FORMAT'
+  'ASN1_BAD_GMTIME (1859794442)':
+    'prefix': 'ASN1_BAD_GMTIME'
+    'body': 'ASN1_BAD_GMTIME'
+  'ASN1_BAD_ID (1859794438)':
+    'prefix': 'ASN1_BAD_ID'
+    'body': 'ASN1_BAD_ID'
+  'ASN1_BAD_LENGTH (1859794439)':
+    'prefix': 'ASN1_BAD_LENGTH'
+    'body': 'ASN1_BAD_LENGTH'
+  'ASN1_BAD_TIMEFORMAT (1859794432)':
+    'prefix': 'ASN1_BAD_TIMEFORMAT'
+    'body': 'ASN1_BAD_TIMEFORMAT'
+  'ASN1_MISMATCH_INDEF (1859794443)':
+    'prefix': 'ASN1_MISMATCH_INDEF'
+    'body': 'ASN1_MISMATCH_INDEF'
+  'ASN1_MISPLACED_FIELD (1859794434)':
+    'prefix': 'ASN1_MISPLACED_FIELD'
+    'body': 'ASN1_MISPLACED_FIELD'
+  'ASN1_MISSING_EOC (1859794444)':
+    'prefix': 'ASN1_MISSING_EOC'
+    'body': 'ASN1_MISSING_EOC'
+  'ASN1_MISSING_FIELD (1859794433)':
+    'prefix': 'ASN1_MISSING_FIELD'
+    'body': 'ASN1_MISSING_FIELD'
+  'ASN1_OVERFLOW (1859794436)':
+    'prefix': 'ASN1_OVERFLOW'
+    'body': 'ASN1_OVERFLOW'
+  'ASN1_OVERRUN (1859794437)':
+    'prefix': 'ASN1_OVERRUN'
+    'body': 'ASN1_OVERRUN'
+  'ASN1_PARSE_ERROR (1859794441)':
+    'prefix': 'ASN1_PARSE_ERROR'
+    'body': 'ASN1_PARSE_ERROR'
+  'ASN1_TYPE_MISMATCH (1859794435)':
+    'prefix': 'ASN1_TYPE_MISMATCH'
+    'body': 'ASN1_TYPE_MISMATCH'
+  'CC_API_VER_2 (2)':
+    'prefix': 'CC_API_VER_2'
+    'body': 'CC_API_VER_2'
+  'CC_BADNAME (1)':
+    'prefix': 'CC_BADNAME'
+    'body': 'CC_BADNAME'
+  'CC_BAD_API_VERSION (9)':
+    'prefix': 'CC_BAD_API_VERSION'
+    'body': 'CC_BAD_API_VERSION'
+  'CC_BAD_PARM (12)':
+    'prefix': 'CC_BAD_PARM'
+    'body': 'CC_BAD_PARM'
+  'CC_CRED_MAX (3)':
+    'prefix': 'CC_CRED_MAX'
+    'body': 'CC_CRED_MAX'
+  'CC_CRED_UNKNOWN (0)':
+    'prefix': 'CC_CRED_UNKNOWN'
+    'body': 'CC_CRED_UNKNOWN'
+  'CC_CRED_V4 (1)':
+    'prefix': 'CC_CRED_V4'
+    'body': 'CC_CRED_V4'
+  'CC_CRED_V5 (2)':
+    'prefix': 'CC_CRED_V5'
+    'body': 'CC_CRED_V5'
+  'CC_END (3)':
+    'prefix': 'CC_END'
+    'body': 'CC_END'
+  'CC_ERR_CACHE_ATTACH (13)':
+    'prefix': 'CC_ERR_CACHE_ATTACH'
+    'body': 'CC_ERR_CACHE_ATTACH'
+  'CC_ERR_CACHE_FULL (15)':
+    'prefix': 'CC_ERR_CACHE_FULL'
+    'body': 'CC_ERR_CACHE_FULL'
+  'CC_ERR_CACHE_RELEASE (14)':
+    'prefix': 'CC_ERR_CACHE_RELEASE'
+    'body': 'CC_ERR_CACHE_RELEASE'
+  'CC_ERR_CRED_VERSION (16)':
+    'prefix': 'CC_ERR_CRED_VERSION'
+    'body': 'CC_ERR_CRED_VERSION'
+  'CC_FORMAT (7)':
+    'prefix': 'CC_FORMAT'
+    'body': 'CC_FORMAT'
+  'CC_IO (4)':
+    'prefix': 'CC_IO'
+    'body': 'CC_IO'
+  'CC_LOCKED (8)':
+    'prefix': 'CC_LOCKED'
+    'body': 'CC_LOCKED'
+  'CC_LOCK_NOBLOCK (16)':
+    'prefix': 'CC_LOCK_NOBLOCK'
+    'body': 'CC_LOCK_NOBLOCK'
+  'CC_LOCK_READER (2)':
+    'prefix': 'CC_LOCK_READER'
+    'body': 'CC_LOCK_READER'
+  'CC_LOCK_UNLOCK (1)':
+    'prefix': 'CC_LOCK_UNLOCK'
+    'body': 'CC_LOCK_UNLOCK'
+  'CC_LOCK_WRITER (3)':
+    'prefix': 'CC_LOCK_WRITER'
+    'body': 'CC_LOCK_WRITER'
+  'CC_NOERROR (0)':
+    'prefix': 'CC_NOERROR'
+    'body': 'CC_NOERROR'
+  'CC_NOMEM (6)':
+    'prefix': 'CC_NOMEM'
+    'body': 'CC_NOMEM'
+  'CC_NOTFOUND (2)':
+    'prefix': 'CC_NOTFOUND'
+    'body': 'CC_NOTFOUND'
+  'CC_NOT_SUPP (11)':
+    'prefix': 'CC_NOT_SUPP'
+    'body': 'CC_NOT_SUPP'
+  'CC_NO_EXIST (10)':
+    'prefix': 'CC_NO_EXIST'
+    'body': 'CC_NO_EXIST'
+  'CC_WRITE (5)':
+    'prefix': 'CC_WRITE'
+    'body': 'CC_WRITE'
+  'CKSUMTYPE_CRC32 (1)':
+    'prefix': 'CKSUMTYPE_CRC32'
+    'body': 'CKSUMTYPE_CRC32'
+  'CKSUMTYPE_DESCBC (4)':
+    'prefix': 'CKSUMTYPE_DESCBC'
+    'body': 'CKSUMTYPE_DESCBC'
+  'CKSUMTYPE_HMAC_MD5_ARCFOUR (-138)':
+    'prefix': 'CKSUMTYPE_HMAC_MD5_ARCFOUR'
+    'body': 'CKSUMTYPE_HMAC_MD5_ARCFOUR'
+  'CKSUMTYPE_HMAC_SHA1_96_AES128 (15)':
+    'prefix': 'CKSUMTYPE_HMAC_SHA1_96_AES128'
+    'body': 'CKSUMTYPE_HMAC_SHA1_96_AES128'
+  'CKSUMTYPE_HMAC_SHA1_96_AES256 (16)':
+    'prefix': 'CKSUMTYPE_HMAC_SHA1_96_AES256'
+    'body': 'CKSUMTYPE_HMAC_SHA1_96_AES256'
+  'CKSUMTYPE_HMAC_SHA1_DES3 (12)':
+    'prefix': 'CKSUMTYPE_HMAC_SHA1_DES3'
+    'body': 'CKSUMTYPE_HMAC_SHA1_DES3'
+  'CKSUMTYPE_NIST_SHA (9)':
+    'prefix': 'CKSUMTYPE_NIST_SHA'
+    'body': 'CKSUMTYPE_NIST_SHA'
+  'CKSUMTYPE_RSA_MD4 (2)':
+    'prefix': 'CKSUMTYPE_RSA_MD4'
+    'body': 'CKSUMTYPE_RSA_MD4'
+  'CKSUMTYPE_RSA_MD4_DES (3)':
+    'prefix': 'CKSUMTYPE_RSA_MD4_DES'
+    'body': 'CKSUMTYPE_RSA_MD4_DES'
+  'CKSUMTYPE_RSA_MD5 (7)':
+    'prefix': 'CKSUMTYPE_RSA_MD5'
+    'body': 'CKSUMTYPE_RSA_MD5'
+  'CKSUMTYPE_RSA_MD5_DES (8)':
+    'prefix': 'CKSUMTYPE_RSA_MD5_DES'
+    'body': 'CKSUMTYPE_RSA_MD5_DES'
+  'ENCTYPE_AES128_CTS_HMAC_SHA1_96 (17)':
+    'prefix': 'ENCTYPE_AES128_CTS_HMAC_SHA1_96'
+    'body': 'ENCTYPE_AES128_CTS_HMAC_SHA1_96'
+  'ENCTYPE_AES256_CTS_HMAC_SHA1_96 (18)':
+    'prefix': 'ENCTYPE_AES256_CTS_HMAC_SHA1_96'
+    'body': 'ENCTYPE_AES256_CTS_HMAC_SHA1_96'
+  'ENCTYPE_ARCFOUR_HMAC (23)':
+    'prefix': 'ENCTYPE_ARCFOUR_HMAC'
+    'body': 'ENCTYPE_ARCFOUR_HMAC'
+  'ENCTYPE_ARCFOUR_HMAC_EXP (24)':
+    'prefix': 'ENCTYPE_ARCFOUR_HMAC_EXP'
+    'body': 'ENCTYPE_ARCFOUR_HMAC_EXP'
+  'ENCTYPE_DES3_CBC_ENV (15)':
+    'prefix': 'ENCTYPE_DES3_CBC_ENV'
+    'body': 'ENCTYPE_DES3_CBC_ENV'
+  'ENCTYPE_DES3_CBC_RAW (6)':
+    'prefix': 'ENCTYPE_DES3_CBC_RAW'
+    'body': 'ENCTYPE_DES3_CBC_RAW'
+  'ENCTYPE_DES3_CBC_SHA (5)':
+    'prefix': 'ENCTYPE_DES3_CBC_SHA'
+    'body': 'ENCTYPE_DES3_CBC_SHA'
+  'ENCTYPE_DES3_CBC_SHA1 (16)':
+    'prefix': 'ENCTYPE_DES3_CBC_SHA1'
+    'body': 'ENCTYPE_DES3_CBC_SHA1'
+  'ENCTYPE_DES_CBC_CRC (1)':
+    'prefix': 'ENCTYPE_DES_CBC_CRC'
+    'body': 'ENCTYPE_DES_CBC_CRC'
+  'ENCTYPE_DES_CBC_MD4 (2)':
+    'prefix': 'ENCTYPE_DES_CBC_MD4'
+    'body': 'ENCTYPE_DES_CBC_MD4'
+  'ENCTYPE_DES_CBC_MD5 (3)':
+    'prefix': 'ENCTYPE_DES_CBC_MD5'
+    'body': 'ENCTYPE_DES_CBC_MD5'
+  'ENCTYPE_DES_CBC_RAW (4)':
+    'prefix': 'ENCTYPE_DES_CBC_RAW'
+    'body': 'ENCTYPE_DES_CBC_RAW'
+  'ENCTYPE_DES_HMAC_SHA1 (8)':
+    'prefix': 'ENCTYPE_DES_HMAC_SHA1'
+    'body': 'ENCTYPE_DES_HMAC_SHA1'
+  'ENCTYPE_DSA_SHA1_CMS (9)':
+    'prefix': 'ENCTYPE_DSA_SHA1_CMS'
+    'body': 'ENCTYPE_DSA_SHA1_CMS'
+  'ENCTYPE_MD5_RSA_CMS (10)':
+    'prefix': 'ENCTYPE_MD5_RSA_CMS'
+    'body': 'ENCTYPE_MD5_RSA_CMS'
+  'ENCTYPE_NULL (0)':
+    'prefix': 'ENCTYPE_NULL'
+    'body': 'ENCTYPE_NULL'
+  'ENCTYPE_RC2_CBC_ENV (12)':
+    'prefix': 'ENCTYPE_RC2_CBC_ENV'
+    'body': 'ENCTYPE_RC2_CBC_ENV'
+  'ENCTYPE_RSA_ENV (13)':
+    'prefix': 'ENCTYPE_RSA_ENV'
+    'body': 'ENCTYPE_RSA_ENV'
+  'ENCTYPE_RSA_ES_OAEP_ENV (14)':
+    'prefix': 'ENCTYPE_RSA_ES_OAEP_ENV'
+    'body': 'ENCTYPE_RSA_ES_OAEP_ENV'
+  'ENCTYPE_SHA1_RSA_CMS (11)':
+    'prefix': 'ENCTYPE_SHA1_RSA_CMS'
+    'body': 'ENCTYPE_SHA1_RSA_CMS'
+  'ENCTYPE_UNKNOWN (511)':
+    'prefix': 'ENCTYPE_UNKNOWN'
+    'body': 'ENCTYPE_UNKNOWN'
+  'ERROR_TABLE_BASE_asn1 (1859794432)':
+    'prefix': 'ERROR_TABLE_BASE_asn1'
+    'body': 'ERROR_TABLE_BASE_asn1'
+  'ERROR_TABLE_BASE_k524 (-1750206208)':
+    'prefix': 'ERROR_TABLE_BASE_k524'
+    'body': 'ERROR_TABLE_BASE_k524'
+  'ERROR_TABLE_BASE_kdb5 (-1780008448)':
+    'prefix': 'ERROR_TABLE_BASE_kdb5'
+    'body': 'ERROR_TABLE_BASE_kdb5'
+  'ERROR_TABLE_BASE_krb5 (-1765328384)':
+    'prefix': 'ERROR_TABLE_BASE_krb5'
+    'body': 'ERROR_TABLE_BASE_krb5'
+  'ERROR_TABLE_BASE_kv5m (-1760647424)':
+    'prefix': 'ERROR_TABLE_BASE_kv5m'
+    'body': 'ERROR_TABLE_BASE_kv5m'
+  'ERROR_TABLE_BASE_prof (-1429577728)':
+    'prefix': 'ERROR_TABLE_BASE_prof'
+    'body': 'ERROR_TABLE_BASE_prof'
+  'GSS_C_ACCEPT (2)':
+    'prefix': 'GSS_C_ACCEPT'
+    'body': 'GSS_C_ACCEPT'
+  'GSS_C_AF_APPLETALK (16)':
+    'prefix': 'GSS_C_AF_APPLETALK'
+    'body': 'GSS_C_AF_APPLETALK'
+  'GSS_C_AF_BSC (17)':
+    'prefix': 'GSS_C_AF_BSC'
+    'body': 'GSS_C_AF_BSC'
+  'GSS_C_AF_CCITT (10)':
+    'prefix': 'GSS_C_AF_CCITT'
+    'body': 'GSS_C_AF_CCITT'
+  'GSS_C_AF_CHAOS (5)':
+    'prefix': 'GSS_C_AF_CHAOS'
+    'body': 'GSS_C_AF_CHAOS'
+  'GSS_C_AF_DATAKIT (9)':
+    'prefix': 'GSS_C_AF_DATAKIT'
+    'body': 'GSS_C_AF_DATAKIT'
+  'GSS_C_AF_DECnet (12)':
+    'prefix': 'GSS_C_AF_DECnet'
+    'body': 'GSS_C_AF_DECnet'
+  'GSS_C_AF_DLI (13)':
+    'prefix': 'GSS_C_AF_DLI'
+    'body': 'GSS_C_AF_DLI'
+  'GSS_C_AF_DSS (18)':
+    'prefix': 'GSS_C_AF_DSS'
+    'body': 'GSS_C_AF_DSS'
+  'GSS_C_AF_ECMA (8)':
+    'prefix': 'GSS_C_AF_ECMA'
+    'body': 'GSS_C_AF_ECMA'
+  'GSS_C_AF_HYLINK (15)':
+    'prefix': 'GSS_C_AF_HYLINK'
+    'body': 'GSS_C_AF_HYLINK'
+  'GSS_C_AF_IMPLINK (3)':
+    'prefix': 'GSS_C_AF_IMPLINK'
+    'body': 'GSS_C_AF_IMPLINK'
+  'GSS_C_AF_INET (2)':
+    'prefix': 'GSS_C_AF_INET'
+    'body': 'GSS_C_AF_INET'
+  'GSS_C_AF_LAT (14)':
+    'prefix': 'GSS_C_AF_LAT'
+    'body': 'GSS_C_AF_LAT'
+  'GSS_C_AF_LOCAL (1)':
+    'prefix': 'GSS_C_AF_LOCAL'
+    'body': 'GSS_C_AF_LOCAL'
+  'GSS_C_AF_NBS (7)':
+    'prefix': 'GSS_C_AF_NBS'
+    'body': 'GSS_C_AF_NBS'
+  'GSS_C_AF_NS (6)':
+    'prefix': 'GSS_C_AF_NS'
+    'body': 'GSS_C_AF_NS'
+  'GSS_C_AF_NULLADDR (255)':
+    'prefix': 'GSS_C_AF_NULLADDR'
+    'body': 'GSS_C_AF_NULLADDR'
+  'GSS_C_AF_OSI (19)':
+    'prefix': 'GSS_C_AF_OSI'
+    'body': 'GSS_C_AF_OSI'
+  'GSS_C_AF_PUP (4)':
+    'prefix': 'GSS_C_AF_PUP'
+    'body': 'GSS_C_AF_PUP'
+  'GSS_C_AF_SNA (11)':
+    'prefix': 'GSS_C_AF_SNA'
+    'body': 'GSS_C_AF_SNA'
+  'GSS_C_AF_UNSPEC (0)':
+    'prefix': 'GSS_C_AF_UNSPEC'
+    'body': 'GSS_C_AF_UNSPEC'
+  'GSS_C_AF_X25 (21)':
+    'prefix': 'GSS_C_AF_X25'
+    'body': 'GSS_C_AF_X25'
+  'GSS_C_ANON_FLAG (64)':
+    'prefix': 'GSS_C_ANON_FLAG'
+    'body': 'GSS_C_ANON_FLAG'
+  'GSS_C_BOTH (0)':
+    'prefix': 'GSS_C_BOTH'
+    'body': 'GSS_C_BOTH'
+  'GSS_C_CALLING_ERROR_MASK (255)':
+    'prefix': 'GSS_C_CALLING_ERROR_MASK'
+    'body': 'GSS_C_CALLING_ERROR_MASK'
+  'GSS_C_CALLING_ERROR_OFFSET (24)':
+    'prefix': 'GSS_C_CALLING_ERROR_OFFSET'
+    'body': 'GSS_C_CALLING_ERROR_OFFSET'
+  'GSS_C_CONF_FLAG (16)':
+    'prefix': 'GSS_C_CONF_FLAG'
+    'body': 'GSS_C_CONF_FLAG'
+  'GSS_C_CRED_NO_UI (65536)':
+    'prefix': 'GSS_C_CRED_NO_UI'
+    'body': 'GSS_C_CRED_NO_UI'
+  'GSS_C_DELEG_FLAG (1)':
+    'prefix': 'GSS_C_DELEG_FLAG'
+    'body': 'GSS_C_DELEG_FLAG'
+  'GSS_C_DELEG_POLICY_FLAG (32768)':
+    'prefix': 'GSS_C_DELEG_POLICY_FLAG'
+    'body': 'GSS_C_DELEG_POLICY_FLAG'
+  'GSS_C_GSS_CODE (1)':
+    'prefix': 'GSS_C_GSS_CODE'
+    'body': 'GSS_C_GSS_CODE'
+  'GSS_C_INDEFINITE (4294967295)':
+    'prefix': 'GSS_C_INDEFINITE'
+    'body': 'GSS_C_INDEFINITE'
+  'GSS_C_INITIATE (1)':
+    'prefix': 'GSS_C_INITIATE'
+    'body': 'GSS_C_INITIATE'
+  'GSS_C_INTEG_FLAG (32)':
+    'prefix': 'GSS_C_INTEG_FLAG'
+    'body': 'GSS_C_INTEG_FLAG'
+  'GSS_C_MECH_CODE (2)':
+    'prefix': 'GSS_C_MECH_CODE'
+    'body': 'GSS_C_MECH_CODE'
+  'GSS_C_MUTUAL_FLAG (2)':
+    'prefix': 'GSS_C_MUTUAL_FLAG'
+    'body': 'GSS_C_MUTUAL_FLAG'
+  'GSS_C_NO_UI_FLAG (2147483648)':
+    'prefix': 'GSS_C_NO_UI_FLAG'
+    'body': 'GSS_C_NO_UI_FLAG'
+  'GSS_C_OPTION_MASK (65535)':
+    'prefix': 'GSS_C_OPTION_MASK'
+    'body': 'GSS_C_OPTION_MASK'
+  'GSS_C_PROT_READY_FLAG (128)':
+    'prefix': 'GSS_C_PROT_READY_FLAG'
+    'body': 'GSS_C_PROT_READY_FLAG'
+  'GSS_C_QOP_DEFAULT (0)':
+    'prefix': 'GSS_C_QOP_DEFAULT'
+    'body': 'GSS_C_QOP_DEFAULT'
+  'GSS_C_REPLAY_FLAG (4)':
+    'prefix': 'GSS_C_REPLAY_FLAG'
+    'body': 'GSS_C_REPLAY_FLAG'
+  'GSS_C_ROUTINE_ERROR_MASK (255)':
+    'prefix': 'GSS_C_ROUTINE_ERROR_MASK'
+    'body': 'GSS_C_ROUTINE_ERROR_MASK'
+  'GSS_C_ROUTINE_ERROR_OFFSET (16)':
+    'prefix': 'GSS_C_ROUTINE_ERROR_OFFSET'
+    'body': 'GSS_C_ROUTINE_ERROR_OFFSET'
+  'GSS_C_SEQUENCE_FLAG (8)':
+    'prefix': 'GSS_C_SEQUENCE_FLAG'
+    'body': 'GSS_C_SEQUENCE_FLAG'
+  'GSS_C_SUPPLEMENTARY_MASK (65535)':
+    'prefix': 'GSS_C_SUPPLEMENTARY_MASK'
+    'body': 'GSS_C_SUPPLEMENTARY_MASK'
+  'GSS_C_SUPPLEMENTARY_OFFSET (0)':
+    'prefix': 'GSS_C_SUPPLEMENTARY_OFFSET'
+    'body': 'GSS_C_SUPPLEMENTARY_OFFSET'
+  'GSS_C_TRANS_FLAG (256)':
+    'prefix': 'GSS_C_TRANS_FLAG'
+    'body': 'GSS_C_TRANS_FLAG'
+  'GSS_KRB5_UI_ALLOW (1)':
+    'prefix': 'GSS_KRB5_UI_ALLOW'
+    'body': 'GSS_KRB5_UI_ALLOW'
+  'GSS_KRB5_UI_DENY (2)':
+    'prefix': 'GSS_KRB5_UI_DENY'
+    'body': 'GSS_KRB5_UI_DENY'
+  'GSS_KRB5_UI_PROBE (3)':
+    'prefix': 'GSS_KRB5_UI_PROBE'
+    'body': 'GSS_KRB5_UI_PROBE'
+  'GSS_S_BAD_BINDINGS (262144)':
+    'prefix': 'GSS_S_BAD_BINDINGS'
+    'body': 'GSS_S_BAD_BINDINGS'
+  'GSS_S_BAD_MECH (65536)':
+    'prefix': 'GSS_S_BAD_MECH'
+    'body': 'GSS_S_BAD_MECH'
+  'GSS_S_BAD_NAME (131072)':
+    'prefix': 'GSS_S_BAD_NAME'
+    'body': 'GSS_S_BAD_NAME'
+  'GSS_S_BAD_NAMETYPE (196608)':
+    'prefix': 'GSS_S_BAD_NAMETYPE'
+    'body': 'GSS_S_BAD_NAMETYPE'
+  'GSS_S_BAD_QOP (917504)':
+    'prefix': 'GSS_S_BAD_QOP'
+    'body': 'GSS_S_BAD_QOP'
+  'GSS_S_BAD_SIG (393216)':
+    'prefix': 'GSS_S_BAD_SIG'
+    'body': 'GSS_S_BAD_SIG'
+  'GSS_S_BAD_STATUS (327680)':
+    'prefix': 'GSS_S_BAD_STATUS'
+    'body': 'GSS_S_BAD_STATUS'
+  'GSS_S_CALL_BAD_STRUCTURE (50331648)':
+    'prefix': 'GSS_S_CALL_BAD_STRUCTURE'
+    'body': 'GSS_S_CALL_BAD_STRUCTURE'
+  'GSS_S_CALL_INACCESSIBLE_READ (16777216)':
+    'prefix': 'GSS_S_CALL_INACCESSIBLE_READ'
+    'body': 'GSS_S_CALL_INACCESSIBLE_READ'
+  'GSS_S_CALL_INACCESSIBLE_WRITE (33554432)':
+    'prefix': 'GSS_S_CALL_INACCESSIBLE_WRITE'
+    'body': 'GSS_S_CALL_INACCESSIBLE_WRITE'
+  'GSS_S_COMPLETE (0)':
+    'prefix': 'GSS_S_COMPLETE'
+    'body': 'GSS_S_COMPLETE'
+  'GSS_S_CONTEXT_EXPIRED (786432)':
+    'prefix': 'GSS_S_CONTEXT_EXPIRED'
+    'body': 'GSS_S_CONTEXT_EXPIRED'
+  'GSS_S_CONTINUE_NEEDED (1)':
+    'prefix': 'GSS_S_CONTINUE_NEEDED'
+    'body': 'GSS_S_CONTINUE_NEEDED'
+  'GSS_S_CREDENTIALS_EXPIRED (720896)':
+    'prefix': 'GSS_S_CREDENTIALS_EXPIRED'
+    'body': 'GSS_S_CREDENTIALS_EXPIRED'
+  'GSS_S_CRED_UNAVAIL (851968)':
+    'prefix': 'GSS_S_CRED_UNAVAIL'
+    'body': 'GSS_S_CRED_UNAVAIL'
+  'GSS_S_DEFECTIVE_CREDENTIAL (655360)':
+    'prefix': 'GSS_S_DEFECTIVE_CREDENTIAL'
+    'body': 'GSS_S_DEFECTIVE_CREDENTIAL'
+  'GSS_S_DEFECTIVE_TOKEN (589824)':
+    'prefix': 'GSS_S_DEFECTIVE_TOKEN'
+    'body': 'GSS_S_DEFECTIVE_TOKEN'
+  'GSS_S_DUPLICATE_ELEMENT (1114112)':
+    'prefix': 'GSS_S_DUPLICATE_ELEMENT'
+    'body': 'GSS_S_DUPLICATE_ELEMENT'
+  'GSS_S_DUPLICATE_TOKEN (2)':
+    'prefix': 'GSS_S_DUPLICATE_TOKEN'
+    'body': 'GSS_S_DUPLICATE_TOKEN'
+  'GSS_S_FAILURE (851968)':
+    'prefix': 'GSS_S_FAILURE'
+    'body': 'GSS_S_FAILURE'
+  'GSS_S_GAP_TOKEN (16)':
+    'prefix': 'GSS_S_GAP_TOKEN'
+    'body': 'GSS_S_GAP_TOKEN'
+  'GSS_S_NAME_NOT_MN (1179648)':
+    'prefix': 'GSS_S_NAME_NOT_MN'
+    'body': 'GSS_S_NAME_NOT_MN'
+  'GSS_S_NO_CONTEXT (524288)':
+    'prefix': 'GSS_S_NO_CONTEXT'
+    'body': 'GSS_S_NO_CONTEXT'
+  'GSS_S_NO_CRED (458752)':
+    'prefix': 'GSS_S_NO_CRED'
+    'body': 'GSS_S_NO_CRED'
+  'GSS_S_OLD_TOKEN (4)':
+    'prefix': 'GSS_S_OLD_TOKEN'
+    'body': 'GSS_S_OLD_TOKEN'
+  'GSS_S_UNAUTHORIZED (983040)':
+    'prefix': 'GSS_S_UNAUTHORIZED'
+    'body': 'GSS_S_UNAUTHORIZED'
+  'GSS_S_UNAVAILABLE (1048576)':
+    'prefix': 'GSS_S_UNAVAILABLE'
+    'body': 'GSS_S_UNAVAILABLE'
+  'GSS_S_UNSEQ_TOKEN (8)':
+    'prefix': 'GSS_S_UNSEQ_TOKEN'
+    'body': 'GSS_S_UNSEQ_TOKEN'
+  'KDC_OPT_ALLOW_POSTDATE (67108864)':
+    'prefix': 'KDC_OPT_ALLOW_POSTDATE'
+    'body': 'KDC_OPT_ALLOW_POSTDATE'
+  'KDC_OPT_CANONICALIZE (65536)':
+    'prefix': 'KDC_OPT_CANONICALIZE'
+    'body': 'KDC_OPT_CANONICALIZE'
+  'KDC_OPT_DISABLE_TRANSITED_CHECK (32)':
+    'prefix': 'KDC_OPT_DISABLE_TRANSITED_CHECK'
+    'body': 'KDC_OPT_DISABLE_TRANSITED_CHECK'
+  'KDC_OPT_ENC_TKT_IN_SKEY (8)':
+    'prefix': 'KDC_OPT_ENC_TKT_IN_SKEY'
+    'body': 'KDC_OPT_ENC_TKT_IN_SKEY'
+  'KDC_OPT_FORWARDABLE (1073741824)':
+    'prefix': 'KDC_OPT_FORWARDABLE'
+    'body': 'KDC_OPT_FORWARDABLE'
+  'KDC_OPT_FORWARDED (536870912)':
+    'prefix': 'KDC_OPT_FORWARDED'
+    'body': 'KDC_OPT_FORWARDED'
+  'KDC_OPT_POSTDATED (33554432)':
+    'prefix': 'KDC_OPT_POSTDATED'
+    'body': 'KDC_OPT_POSTDATED'
+  'KDC_OPT_PROXIABLE (268435456)':
+    'prefix': 'KDC_OPT_PROXIABLE'
+    'body': 'KDC_OPT_PROXIABLE'
+  'KDC_OPT_PROXY (134217728)':
+    'prefix': 'KDC_OPT_PROXY'
+    'body': 'KDC_OPT_PROXY'
+  'KDC_OPT_RENEW (2)':
+    'prefix': 'KDC_OPT_RENEW'
+    'body': 'KDC_OPT_RENEW'
+  'KDC_OPT_RENEWABLE (8388608)':
+    'prefix': 'KDC_OPT_RENEWABLE'
+    'body': 'KDC_OPT_RENEWABLE'
+  'KDC_OPT_RENEWABLE_OK (16)':
+    'prefix': 'KDC_OPT_RENEWABLE_OK'
+    'body': 'KDC_OPT_RENEWABLE_OK'
+  'KDC_OPT_REQUEST_ANONYMOUS (131072)':
+    'prefix': 'KDC_OPT_REQUEST_ANONYMOUS'
+    'body': 'KDC_OPT_REQUEST_ANONYMOUS'
+  'KDC_OPT_VALIDATE (1)':
+    'prefix': 'KDC_OPT_VALIDATE'
+    'body': 'KDC_OPT_VALIDATE'
+  'KDC_TKT_COMMON_MASK (1417674752)':
+    'prefix': 'KDC_TKT_COMMON_MASK'
+    'body': 'KDC_TKT_COMMON_MASK'
+  'KRB524_BADADDR (-1750206207)':
+    'prefix': 'KRB524_BADADDR'
+    'body': 'KRB524_BADADDR'
+  'KRB524_BADKEY (-1750206208)':
+    'prefix': 'KRB524_BADKEY'
+    'body': 'KRB524_BADKEY'
+  'KRB524_BADPRINC (-1750206206)':
+    'prefix': 'KRB524_BADPRINC'
+    'body': 'KRB524_BADPRINC'
+  'KRB524_BADREALM (-1750206205)':
+    'prefix': 'KRB524_BADREALM'
+    'body': 'KRB524_BADREALM'
+  'KRB524_DECEMPTY (-1750206202)':
+    'prefix': 'KRB524_DECEMPTY'
+    'body': 'KRB524_DECEMPTY'
+  'KRB524_ENCFULL (-1750206203)':
+    'prefix': 'KRB524_ENCFULL'
+    'body': 'KRB524_ENCFULL'
+  'KRB524_KRB4_DISABLED (-1750206200)':
+    'prefix': 'KRB524_KRB4_DISABLED'
+    'body': 'KRB524_KRB4_DISABLED'
+  'KRB524_NOTRESP (-1750206201)':
+    'prefix': 'KRB524_NOTRESP'
+    'body': 'KRB524_NOTRESP'
+  'KRB524_V4ERR (-1750206204)':
+    'prefix': 'KRB524_V4ERR'
+    'body': 'KRB524_V4ERR'
+  'KRB5DES_BAD_KEYPAR (-1765328198)':
+    'prefix': 'KRB5DES_BAD_KEYPAR'
+    'body': 'KRB5DES_BAD_KEYPAR'
+  'KRB5DES_WEAK_KEY (-1765328197)':
+    'prefix': 'KRB5DES_WEAK_KEY'
+    'body': 'KRB5DES_WEAK_KEY'
+  'KRB5KDC_ERR_BADOPTION (-1765328371)':
+    'prefix': 'KRB5KDC_ERR_BADOPTION'
+    'body': 'KRB5KDC_ERR_BADOPTION'
+  'KRB5KDC_ERR_BAD_PVNO (-1765328381)':
+    'prefix': 'KRB5KDC_ERR_BAD_PVNO'
+    'body': 'KRB5KDC_ERR_BAD_PVNO'
+  'KRB5KDC_ERR_CANNOT_POSTDATE (-1765328374)':
+    'prefix': 'KRB5KDC_ERR_CANNOT_POSTDATE'
+    'body': 'KRB5KDC_ERR_CANNOT_POSTDATE'
+  'KRB5KDC_ERR_CANT_VERIFY_CERTIFICATE (-1765328314)':
+    'prefix': 'KRB5KDC_ERR_CANT_VERIFY_CERTIFICATE'
+    'body': 'KRB5KDC_ERR_CANT_VERIFY_CERTIFICATE'
+  'KRB5KDC_ERR_CERTIFICATE_MISMATCH (-1765328318)':
+    'prefix': 'KRB5KDC_ERR_CERTIFICATE_MISMATCH'
+    'body': 'KRB5KDC_ERR_CERTIFICATE_MISMATCH'
+  'KRB5KDC_ERR_CLIENT_NAME_MISMATCH (-1765328309)':
+    'prefix': 'KRB5KDC_ERR_CLIENT_NAME_MISMATCH'
+    'body': 'KRB5KDC_ERR_CLIENT_NAME_MISMATCH'
+  'KRB5KDC_ERR_CLIENT_NOTYET (-1765328363)':
+    'prefix': 'KRB5KDC_ERR_CLIENT_NOTYET'
+    'body': 'KRB5KDC_ERR_CLIENT_NOTYET'
+  'KRB5KDC_ERR_CLIENT_NOT_TRUSTED (-1765328322)':
+    'prefix': 'KRB5KDC_ERR_CLIENT_NOT_TRUSTED'
+    'body': 'KRB5KDC_ERR_CLIENT_NOT_TRUSTED'
+  'KRB5KDC_ERR_CLIENT_REVOKED (-1765328366)':
+    'prefix': 'KRB5KDC_ERR_CLIENT_REVOKED'
+    'body': 'KRB5KDC_ERR_CLIENT_REVOKED'
+  'KRB5KDC_ERR_C_OLD_MAST_KVNO (-1765328380)':
+    'prefix': 'KRB5KDC_ERR_C_OLD_MAST_KVNO'
+    'body': 'KRB5KDC_ERR_C_OLD_MAST_KVNO'
+  'KRB5KDC_ERR_C_PRINCIPAL_UNKNOWN (-1765328378)':
+    'prefix': 'KRB5KDC_ERR_C_PRINCIPAL_UNKNOWN'
+    'body': 'KRB5KDC_ERR_C_PRINCIPAL_UNKNOWN'
+  'KRB5KDC_ERR_DH_KEY_PARAMETERS_NOT_ACCEPTED (-1765328319)':
+    'prefix': 'KRB5KDC_ERR_DH_KEY_PARAMETERS_NOT_ACCEPTED'
+    'body': 'KRB5KDC_ERR_DH_KEY_PARAMETERS_NOT_ACCEPTED'
+  'KRB5KDC_ERR_DIGEST_IN_CERT_NOT_ACCEPTED (-1765328306)':
+    'prefix': 'KRB5KDC_ERR_DIGEST_IN_CERT_NOT_ACCEPTED'
+    'body': 'KRB5KDC_ERR_DIGEST_IN_CERT_NOT_ACCEPTED'
+  'KRB5KDC_ERR_DIGEST_IN_SIGNED_DATA_NOT_ACCEPTED (-1765328304)':
+    'prefix': 'KRB5KDC_ERR_DIGEST_IN_SIGNED_DATA_NOT_ACCEPTED'
+    'body': 'KRB5KDC_ERR_DIGEST_IN_SIGNED_DATA_NOT_ACCEPTED'
+  'KRB5KDC_ERR_ETYPE_NOSUPP (-1765328370)':
+    'prefix': 'KRB5KDC_ERR_ETYPE_NOSUPP'
+    'body': 'KRB5KDC_ERR_ETYPE_NOSUPP'
+  'KRB5KDC_ERR_INCONSISTENT_KEY_PURPOSE (-1765328307)':
+    'prefix': 'KRB5KDC_ERR_INCONSISTENT_KEY_PURPOSE'
+    'body': 'KRB5KDC_ERR_INCONSISTENT_KEY_PURPOSE'
+  'KRB5KDC_ERR_INVALID_CERTIFICATE (-1765328313)':
+    'prefix': 'KRB5KDC_ERR_INVALID_CERTIFICATE'
+    'body': 'KRB5KDC_ERR_INVALID_CERTIFICATE'
+  'KRB5KDC_ERR_INVALID_SIG (-1765328320)':
+    'prefix': 'KRB5KDC_ERR_INVALID_SIG'
+    'body': 'KRB5KDC_ERR_INVALID_SIG'
+  'KRB5KDC_ERR_KDC_NAME_MISMATCH (-1765328308)':
+    'prefix': 'KRB5KDC_ERR_KDC_NAME_MISMATCH'
+    'body': 'KRB5KDC_ERR_KDC_NAME_MISMATCH'
+  'KRB5KDC_ERR_KDC_NOT_TRUSTED (-1765328321)':
+    'prefix': 'KRB5KDC_ERR_KDC_NOT_TRUSTED'
+    'body': 'KRB5KDC_ERR_KDC_NOT_TRUSTED'
+  'KRB5KDC_ERR_KEY_EXP (-1765328361)':
+    'prefix': 'KRB5KDC_ERR_KEY_EXP'
+    'body': 'KRB5KDC_ERR_KEY_EXP'
+  'KRB5KDC_ERR_MUST_USE_USER2USER (-1765328357)':
+    'prefix': 'KRB5KDC_ERR_MUST_USE_USER2USER'
+    'body': 'KRB5KDC_ERR_MUST_USE_USER2USER'
+  'KRB5KDC_ERR_NAME_EXP (-1765328383)':
+    'prefix': 'KRB5KDC_ERR_NAME_EXP'
+    'body': 'KRB5KDC_ERR_NAME_EXP'
+  'KRB5KDC_ERR_NEVER_VALID (-1765328373)':
+    'prefix': 'KRB5KDC_ERR_NEVER_VALID'
+    'body': 'KRB5KDC_ERR_NEVER_VALID'
+  'KRB5KDC_ERR_NONE (-1765328384)':
+    'prefix': 'KRB5KDC_ERR_NONE'
+    'body': 'KRB5KDC_ERR_NONE'
+  'KRB5KDC_ERR_NULL_KEY (-1765328375)':
+    'prefix': 'KRB5KDC_ERR_NULL_KEY'
+    'body': 'KRB5KDC_ERR_NULL_KEY'
+  'KRB5KDC_ERR_PADATA_TYPE_NOSUPP (-1765328368)':
+    'prefix': 'KRB5KDC_ERR_PADATA_TYPE_NOSUPP'
+    'body': 'KRB5KDC_ERR_PADATA_TYPE_NOSUPP'
+  'KRB5KDC_ERR_PATH_NOT_ACCEPTED (-1765328356)':
+    'prefix': 'KRB5KDC_ERR_PATH_NOT_ACCEPTED'
+    'body': 'KRB5KDC_ERR_PATH_NOT_ACCEPTED'
+  'KRB5KDC_ERR_PA_CHECKSUM_MUST_BE_INCLUDED (-1765328305)':
+    'prefix': 'KRB5KDC_ERR_PA_CHECKSUM_MUST_BE_INCLUDED'
+    'body': 'KRB5KDC_ERR_PA_CHECKSUM_MUST_BE_INCLUDED'
+  'KRB5KDC_ERR_POLICY (-1765328372)':
+    'prefix': 'KRB5KDC_ERR_POLICY'
+    'body': 'KRB5KDC_ERR_POLICY'
+  'KRB5KDC_ERR_PREAUTH_FAILED (-1765328360)':
+    'prefix': 'KRB5KDC_ERR_PREAUTH_FAILED'
+    'body': 'KRB5KDC_ERR_PREAUTH_FAILED'
+  'KRB5KDC_ERR_PREAUTH_REQUIRED (-1765328359)':
+    'prefix': 'KRB5KDC_ERR_PREAUTH_REQUIRED'
+    'body': 'KRB5KDC_ERR_PREAUTH_REQUIRED'
+  'KRB5KDC_ERR_PRINCIPAL_NOT_UNIQUE (-1765328376)':
+    'prefix': 'KRB5KDC_ERR_PRINCIPAL_NOT_UNIQUE'
+    'body': 'KRB5KDC_ERR_PRINCIPAL_NOT_UNIQUE'
+  'KRB5KDC_ERR_PUBLIC_KEY_ENCRYPTION_NOT_SUPPORTED (-1765328303)':
+    'prefix': 'KRB5KDC_ERR_PUBLIC_KEY_ENCRYPTION_NOT_SUPPORTED'
+    'body': 'KRB5KDC_ERR_PUBLIC_KEY_ENCRYPTION_NOT_SUPPORTED'
+  'KRB5KDC_ERR_REVOCATION_STATUS_UNAVAILABLE (-1765328310)':
+    'prefix': 'KRB5KDC_ERR_REVOCATION_STATUS_UNAVAILABLE'
+    'body': 'KRB5KDC_ERR_REVOCATION_STATUS_UNAVAILABLE'
+  'KRB5KDC_ERR_REVOCATION_STATUS_UNKNOWN (-1765328311)':
+    'prefix': 'KRB5KDC_ERR_REVOCATION_STATUS_UNKNOWN'
+    'body': 'KRB5KDC_ERR_REVOCATION_STATUS_UNKNOWN'
+  'KRB5KDC_ERR_REVOKED_CERTIFICATE (-1765328312)':
+    'prefix': 'KRB5KDC_ERR_REVOKED_CERTIFICATE'
+    'body': 'KRB5KDC_ERR_REVOKED_CERTIFICATE'
+  'KRB5KDC_ERR_SERVER_NOMATCH (-1765328358)':
+    'prefix': 'KRB5KDC_ERR_SERVER_NOMATCH'
+    'body': 'KRB5KDC_ERR_SERVER_NOMATCH'
+  'KRB5KDC_ERR_SERVICE_EXP (-1765328382)':
+    'prefix': 'KRB5KDC_ERR_SERVICE_EXP'
+    'body': 'KRB5KDC_ERR_SERVICE_EXP'
+  'KRB5KDC_ERR_SERVICE_NOTYET (-1765328362)':
+    'prefix': 'KRB5KDC_ERR_SERVICE_NOTYET'
+    'body': 'KRB5KDC_ERR_SERVICE_NOTYET'
+  'KRB5KDC_ERR_SERVICE_REVOKED (-1765328365)':
+    'prefix': 'KRB5KDC_ERR_SERVICE_REVOKED'
+    'body': 'KRB5KDC_ERR_SERVICE_REVOKED'
+  'KRB5KDC_ERR_SUMTYPE_NOSUPP (-1765328369)':
+    'prefix': 'KRB5KDC_ERR_SUMTYPE_NOSUPP'
+    'body': 'KRB5KDC_ERR_SUMTYPE_NOSUPP'
+  'KRB5KDC_ERR_SVC_UNAVAILABLE (-1765328355)':
+    'prefix': 'KRB5KDC_ERR_SVC_UNAVAILABLE'
+    'body': 'KRB5KDC_ERR_SVC_UNAVAILABLE'
+  'KRB5KDC_ERR_S_OLD_MAST_KVNO (-1765328379)':
+    'prefix': 'KRB5KDC_ERR_S_OLD_MAST_KVNO'
+    'body': 'KRB5KDC_ERR_S_OLD_MAST_KVNO'
+  'KRB5KDC_ERR_S_PRINCIPAL_UNKNOWN (-1765328377)':
+    'prefix': 'KRB5KDC_ERR_S_PRINCIPAL_UNKNOWN'
+    'body': 'KRB5KDC_ERR_S_PRINCIPAL_UNKNOWN'
+  'KRB5KDC_ERR_TGT_REVOKED (-1765328364)':
+    'prefix': 'KRB5KDC_ERR_TGT_REVOKED'
+    'body': 'KRB5KDC_ERR_TGT_REVOKED'
+  'KRB5KDC_ERR_TRTYPE_NOSUPP (-1765328367)':
+    'prefix': 'KRB5KDC_ERR_TRTYPE_NOSUPP'
+    'body': 'KRB5KDC_ERR_TRTYPE_NOSUPP'
+  'KRB5KDC_ERR_WRONG_REALM (-1765328316)':
+    'prefix': 'KRB5KDC_ERR_WRONG_REALM'
+    'body': 'KRB5KDC_ERR_WRONG_REALM'
+  'KRB5KRB_AP_ERR_BADADDR (-1765328346)':
+    'prefix': 'KRB5KRB_AP_ERR_BADADDR'
+    'body': 'KRB5KRB_AP_ERR_BADADDR'
+  'KRB5KRB_AP_ERR_BADDIRECTION (-1765328337)':
+    'prefix': 'KRB5KRB_AP_ERR_BADDIRECTION'
+    'body': 'KRB5KRB_AP_ERR_BADDIRECTION'
+  'KRB5KRB_AP_ERR_BADKEYVER (-1765328340)':
+    'prefix': 'KRB5KRB_AP_ERR_BADKEYVER'
+    'body': 'KRB5KRB_AP_ERR_BADKEYVER'
+  'KRB5KRB_AP_ERR_BADMATCH (-1765328348)':
+    'prefix': 'KRB5KRB_AP_ERR_BADMATCH'
+    'body': 'KRB5KRB_AP_ERR_BADMATCH'
+  'KRB5KRB_AP_ERR_BADORDER (-1765328342)':
+    'prefix': 'KRB5KRB_AP_ERR_BADORDER'
+    'body': 'KRB5KRB_AP_ERR_BADORDER'
+  'KRB5KRB_AP_ERR_BADSEQ (-1765328335)':
+    'prefix': 'KRB5KRB_AP_ERR_BADSEQ'
+    'body': 'KRB5KRB_AP_ERR_BADSEQ'
+  'KRB5KRB_AP_ERR_BADVERSION (-1765328345)':
+    'prefix': 'KRB5KRB_AP_ERR_BADVERSION'
+    'body': 'KRB5KRB_AP_ERR_BADVERSION'
+  'KRB5KRB_AP_ERR_BAD_INTEGRITY (-1765328353)':
+    'prefix': 'KRB5KRB_AP_ERR_BAD_INTEGRITY'
+    'body': 'KRB5KRB_AP_ERR_BAD_INTEGRITY'
+  'KRB5KRB_AP_ERR_ILL_CR_TKT (-1765328341)':
+    'prefix': 'KRB5KRB_AP_ERR_ILL_CR_TKT'
+    'body': 'KRB5KRB_AP_ERR_ILL_CR_TKT'
+  'KRB5KRB_AP_ERR_INAPP_CKSUM (-1765328334)':
+    'prefix': 'KRB5KRB_AP_ERR_INAPP_CKSUM'
+    'body': 'KRB5KRB_AP_ERR_INAPP_CKSUM'
+  'KRB5KRB_AP_ERR_METHOD (-1765328336)':
+    'prefix': 'KRB5KRB_AP_ERR_METHOD'
+    'body': 'KRB5KRB_AP_ERR_METHOD'
+  'KRB5KRB_AP_ERR_MODIFIED (-1765328343)':
+    'prefix': 'KRB5KRB_AP_ERR_MODIFIED'
+    'body': 'KRB5KRB_AP_ERR_MODIFIED'
+  'KRB5KRB_AP_ERR_MSG_TYPE (-1765328344)':
+    'prefix': 'KRB5KRB_AP_ERR_MSG_TYPE'
+    'body': 'KRB5KRB_AP_ERR_MSG_TYPE'
+  'KRB5KRB_AP_ERR_MUT_FAIL (-1765328338)':
+    'prefix': 'KRB5KRB_AP_ERR_MUT_FAIL'
+    'body': 'KRB5KRB_AP_ERR_MUT_FAIL'
+  'KRB5KRB_AP_ERR_NOKEY (-1765328339)':
+    'prefix': 'KRB5KRB_AP_ERR_NOKEY'
+    'body': 'KRB5KRB_AP_ERR_NOKEY'
+  'KRB5KRB_AP_ERR_NOT_US (-1765328349)':
+    'prefix': 'KRB5KRB_AP_ERR_NOT_US'
+    'body': 'KRB5KRB_AP_ERR_NOT_US'
+  'KRB5KRB_AP_ERR_NO_TGT (-1765328317)':
+    'prefix': 'KRB5KRB_AP_ERR_NO_TGT'
+    'body': 'KRB5KRB_AP_ERR_NO_TGT'
+  'KRB5KRB_AP_ERR_REPEAT (-1765328350)':
+    'prefix': 'KRB5KRB_AP_ERR_REPEAT'
+    'body': 'KRB5KRB_AP_ERR_REPEAT'
+  'KRB5KRB_AP_ERR_SKEW (-1765328347)':
+    'prefix': 'KRB5KRB_AP_ERR_SKEW'
+    'body': 'KRB5KRB_AP_ERR_SKEW'
+  'KRB5KRB_AP_ERR_TKT_EXPIRED (-1765328352)':
+    'prefix': 'KRB5KRB_AP_ERR_TKT_EXPIRED'
+    'body': 'KRB5KRB_AP_ERR_TKT_EXPIRED'
+  'KRB5KRB_AP_ERR_TKT_INVALID (-1765328239)':
+    'prefix': 'KRB5KRB_AP_ERR_TKT_INVALID'
+    'body': 'KRB5KRB_AP_ERR_TKT_INVALID'
+  'KRB5KRB_AP_ERR_TKT_NYV (-1765328351)':
+    'prefix': 'KRB5KRB_AP_ERR_TKT_NYV'
+    'body': 'KRB5KRB_AP_ERR_TKT_NYV'
+  'KRB5KRB_AP_ERR_USER_TO_USER_REQUIRED (-1765328315)':
+    'prefix': 'KRB5KRB_AP_ERR_USER_TO_USER_REQUIRED'
+    'body': 'KRB5KRB_AP_ERR_USER_TO_USER_REQUIRED'
+  'KRB5KRB_AP_ERR_V4_REPLY (-1765328165)':
+    'prefix': 'KRB5KRB_AP_ERR_V4_REPLY'
+    'body': 'KRB5KRB_AP_ERR_V4_REPLY'
+  'KRB5KRB_AP_PATH_NOT_ACCEPTED (-1765328333)':
+    'prefix': 'KRB5KRB_AP_PATH_NOT_ACCEPTED'
+    'body': 'KRB5KRB_AP_PATH_NOT_ACCEPTED'
+  'KRB5KRB_AP_WRONG_PRINC (-1765328240)':
+    'prefix': 'KRB5KRB_AP_WRONG_PRINC'
+    'body': 'KRB5KRB_AP_WRONG_PRINC'
+  'KRB5KRB_ERR_FIELD_TOOLONG (-1765328323)':
+    'prefix': 'KRB5KRB_ERR_FIELD_TOOLONG'
+    'body': 'KRB5KRB_ERR_FIELD_TOOLONG'
+  'KRB5KRB_ERR_GENERIC (-1765328324)':
+    'prefix': 'KRB5KRB_ERR_GENERIC'
+    'body': 'KRB5KRB_ERR_GENERIC'
+  'KRB5KRB_ERR_RESPONSE_TOO_BIG (-1765328332)':
+    'prefix': 'KRB5KRB_ERR_RESPONSE_TOO_BIG'
+    'body': 'KRB5KRB_ERR_RESPONSE_TOO_BIG'
+  'KRB5PLACEHOLD_100 (-1765328284)':
+    'prefix': 'KRB5PLACEHOLD_100'
+    'body': 'KRB5PLACEHOLD_100'
+  'KRB5PLACEHOLD_101 (-1765328283)':
+    'prefix': 'KRB5PLACEHOLD_101'
+    'body': 'KRB5PLACEHOLD_101'
+  'KRB5PLACEHOLD_102 (-1765328282)':
+    'prefix': 'KRB5PLACEHOLD_102'
+    'body': 'KRB5PLACEHOLD_102'
+  'KRB5PLACEHOLD_103 (-1765328281)':
+    'prefix': 'KRB5PLACEHOLD_103'
+    'body': 'KRB5PLACEHOLD_103'
+  'KRB5PLACEHOLD_104 (-1765328280)':
+    'prefix': 'KRB5PLACEHOLD_104'
+    'body': 'KRB5PLACEHOLD_104'
+  'KRB5PLACEHOLD_105 (-1765328279)':
+    'prefix': 'KRB5PLACEHOLD_105'
+    'body': 'KRB5PLACEHOLD_105'
+  'KRB5PLACEHOLD_106 (-1765328278)':
+    'prefix': 'KRB5PLACEHOLD_106'
+    'body': 'KRB5PLACEHOLD_106'
+  'KRB5PLACEHOLD_107 (-1765328277)':
+    'prefix': 'KRB5PLACEHOLD_107'
+    'body': 'KRB5PLACEHOLD_107'
+  'KRB5PLACEHOLD_108 (-1765328276)':
+    'prefix': 'KRB5PLACEHOLD_108'
+    'body': 'KRB5PLACEHOLD_108'
+  'KRB5PLACEHOLD_109 (-1765328275)':
+    'prefix': 'KRB5PLACEHOLD_109'
+    'body': 'KRB5PLACEHOLD_109'
+  'KRB5PLACEHOLD_110 (-1765328274)':
+    'prefix': 'KRB5PLACEHOLD_110'
+    'body': 'KRB5PLACEHOLD_110'
+  'KRB5PLACEHOLD_111 (-1765328273)':
+    'prefix': 'KRB5PLACEHOLD_111'
+    'body': 'KRB5PLACEHOLD_111'
+  'KRB5PLACEHOLD_112 (-1765328272)':
+    'prefix': 'KRB5PLACEHOLD_112'
+    'body': 'KRB5PLACEHOLD_112'
+  'KRB5PLACEHOLD_113 (-1765328271)':
+    'prefix': 'KRB5PLACEHOLD_113'
+    'body': 'KRB5PLACEHOLD_113'
+  'KRB5PLACEHOLD_114 (-1765328270)':
+    'prefix': 'KRB5PLACEHOLD_114'
+    'body': 'KRB5PLACEHOLD_114'
+  'KRB5PLACEHOLD_115 (-1765328269)':
+    'prefix': 'KRB5PLACEHOLD_115'
+    'body': 'KRB5PLACEHOLD_115'
+  'KRB5PLACEHOLD_116 (-1765328268)':
+    'prefix': 'KRB5PLACEHOLD_116'
+    'body': 'KRB5PLACEHOLD_116'
+  'KRB5PLACEHOLD_117 (-1765328267)':
+    'prefix': 'KRB5PLACEHOLD_117'
+    'body': 'KRB5PLACEHOLD_117'
+  'KRB5PLACEHOLD_118 (-1765328266)':
+    'prefix': 'KRB5PLACEHOLD_118'
+    'body': 'KRB5PLACEHOLD_118'
+  'KRB5PLACEHOLD_119 (-1765328265)':
+    'prefix': 'KRB5PLACEHOLD_119'
+    'body': 'KRB5PLACEHOLD_119'
+  'KRB5PLACEHOLD_120 (-1765328264)':
+    'prefix': 'KRB5PLACEHOLD_120'
+    'body': 'KRB5PLACEHOLD_120'
+  'KRB5PLACEHOLD_121 (-1765328263)':
+    'prefix': 'KRB5PLACEHOLD_121'
+    'body': 'KRB5PLACEHOLD_121'
+  'KRB5PLACEHOLD_122 (-1765328262)':
+    'prefix': 'KRB5PLACEHOLD_122'
+    'body': 'KRB5PLACEHOLD_122'
+  'KRB5PLACEHOLD_123 (-1765328261)':
+    'prefix': 'KRB5PLACEHOLD_123'
+    'body': 'KRB5PLACEHOLD_123'
+  'KRB5PLACEHOLD_124 (-1765328260)':
+    'prefix': 'KRB5PLACEHOLD_124'
+    'body': 'KRB5PLACEHOLD_124'
+  'KRB5PLACEHOLD_125 (-1765328259)':
+    'prefix': 'KRB5PLACEHOLD_125'
+    'body': 'KRB5PLACEHOLD_125'
+  'KRB5PLACEHOLD_126 (-1765328258)':
+    'prefix': 'KRB5PLACEHOLD_126'
+    'body': 'KRB5PLACEHOLD_126'
+  'KRB5PLACEHOLD_127 (-1765328257)':
+    'prefix': 'KRB5PLACEHOLD_127'
+    'body': 'KRB5PLACEHOLD_127'
+  'KRB5PLACEHOLD_30 (-1765328354)':
+    'prefix': 'KRB5PLACEHOLD_30'
+    'body': 'KRB5PLACEHOLD_30'
+  'KRB5PLACEHOLD_53 (-1765328331)':
+    'prefix': 'KRB5PLACEHOLD_53'
+    'body': 'KRB5PLACEHOLD_53'
+  'KRB5PLACEHOLD_54 (-1765328330)':
+    'prefix': 'KRB5PLACEHOLD_54'
+    'body': 'KRB5PLACEHOLD_54'
+  'KRB5PLACEHOLD_55 (-1765328329)':
+    'prefix': 'KRB5PLACEHOLD_55'
+    'body': 'KRB5PLACEHOLD_55'
+  'KRB5PLACEHOLD_56 (-1765328328)':
+    'prefix': 'KRB5PLACEHOLD_56'
+    'body': 'KRB5PLACEHOLD_56'
+  'KRB5PLACEHOLD_57 (-1765328327)':
+    'prefix': 'KRB5PLACEHOLD_57'
+    'body': 'KRB5PLACEHOLD_57'
+  'KRB5PLACEHOLD_58 (-1765328326)':
+    'prefix': 'KRB5PLACEHOLD_58'
+    'body': 'KRB5PLACEHOLD_58'
+  'KRB5PLACEHOLD_59 (-1765328325)':
+    'prefix': 'KRB5PLACEHOLD_59'
+    'body': 'KRB5PLACEHOLD_59'
+  'KRB5PLACEHOLD_82 (-1765328302)':
+    'prefix': 'KRB5PLACEHOLD_82'
+    'body': 'KRB5PLACEHOLD_82'
+  'KRB5PLACEHOLD_83 (-1765328301)':
+    'prefix': 'KRB5PLACEHOLD_83'
+    'body': 'KRB5PLACEHOLD_83'
+  'KRB5PLACEHOLD_84 (-1765328300)':
+    'prefix': 'KRB5PLACEHOLD_84'
+    'body': 'KRB5PLACEHOLD_84'
+  'KRB5PLACEHOLD_85 (-1765328299)':
+    'prefix': 'KRB5PLACEHOLD_85'
+    'body': 'KRB5PLACEHOLD_85'
+  'KRB5PLACEHOLD_86 (-1765328298)':
+    'prefix': 'KRB5PLACEHOLD_86'
+    'body': 'KRB5PLACEHOLD_86'
+  'KRB5PLACEHOLD_87 (-1765328297)':
+    'prefix': 'KRB5PLACEHOLD_87'
+    'body': 'KRB5PLACEHOLD_87'
+  'KRB5PLACEHOLD_88 (-1765328296)':
+    'prefix': 'KRB5PLACEHOLD_88'
+    'body': 'KRB5PLACEHOLD_88'
+  'KRB5PLACEHOLD_89 (-1765328295)':
+    'prefix': 'KRB5PLACEHOLD_89'
+    'body': 'KRB5PLACEHOLD_89'
+  'KRB5PLACEHOLD_90 (-1765328294)':
+    'prefix': 'KRB5PLACEHOLD_90'
+    'body': 'KRB5PLACEHOLD_90'
+  'KRB5PLACEHOLD_91 (-1765328293)':
+    'prefix': 'KRB5PLACEHOLD_91'
+    'body': 'KRB5PLACEHOLD_91'
+  'KRB5PLACEHOLD_92 (-1765328292)':
+    'prefix': 'KRB5PLACEHOLD_92'
+    'body': 'KRB5PLACEHOLD_92'
+  'KRB5PLACEHOLD_93 (-1765328291)':
+    'prefix': 'KRB5PLACEHOLD_93'
+    'body': 'KRB5PLACEHOLD_93'
+  'KRB5PLACEHOLD_94 (-1765328290)':
+    'prefix': 'KRB5PLACEHOLD_94'
+    'body': 'KRB5PLACEHOLD_94'
+  'KRB5PLACEHOLD_95 (-1765328289)':
+    'prefix': 'KRB5PLACEHOLD_95'
+    'body': 'KRB5PLACEHOLD_95'
+  'KRB5PLACEHOLD_96 (-1765328288)':
+    'prefix': 'KRB5PLACEHOLD_96'
+    'body': 'KRB5PLACEHOLD_96'
+  'KRB5PLACEHOLD_97 (-1765328287)':
+    'prefix': 'KRB5PLACEHOLD_97'
+    'body': 'KRB5PLACEHOLD_97'
+  'KRB5PLACEHOLD_98 (-1765328286)':
+    'prefix': 'KRB5PLACEHOLD_98'
+    'body': 'KRB5PLACEHOLD_98'
+  'KRB5PLACEHOLD_99 (-1765328285)':
+    'prefix': 'KRB5PLACEHOLD_99'
+    'body': 'KRB5PLACEHOLD_99'
+  'KRB5_ALTAUTH_ATT_CHALLENGE_RESPONSE (64)':
+    'prefix': 'KRB5_ALTAUTH_ATT_CHALLENGE_RESPONSE'
+    'body': 'KRB5_ALTAUTH_ATT_CHALLENGE_RESPONSE'
+  'KRB5_APPL_EXPIRED (-1765328153)':
+    'prefix': 'KRB5_APPL_EXPIRED'
+    'body': 'KRB5_APPL_EXPIRED'
+  'KRB5_AP_REP (15)':
+    'prefix': 'KRB5_AP_REP'
+    'body': 'KRB5_AP_REP'
+  'KRB5_AP_REQ (14)':
+    'prefix': 'KRB5_AP_REQ'
+    'body': 'KRB5_AP_REQ'
+  'KRB5_AS_REP (11)':
+    'prefix': 'KRB5_AS_REP'
+    'body': 'KRB5_AS_REP'
+  'KRB5_AS_REQ (10)':
+    'prefix': 'KRB5_AS_REQ'
+    'body': 'KRB5_AS_REQ'
+  'KRB5_AUTHDATA_AND_OR (5)':
+    'prefix': 'KRB5_AUTHDATA_AND_OR'
+    'body': 'KRB5_AUTHDATA_AND_OR'
+  'KRB5_AUTHDATA_IF_RELEVANT (1)':
+    'prefix': 'KRB5_AUTHDATA_IF_RELEVANT'
+    'body': 'KRB5_AUTHDATA_IF_RELEVANT'
+  'KRB5_AUTHDATA_INITIAL_VERIFIED_CAS (9)':
+    'prefix': 'KRB5_AUTHDATA_INITIAL_VERIFIED_CAS'
+    'body': 'KRB5_AUTHDATA_INITIAL_VERIFIED_CAS'
+  'KRB5_AUTHDATA_KDC_ISSUED (4)':
+    'prefix': 'KRB5_AUTHDATA_KDC_ISSUED'
+    'body': 'KRB5_AUTHDATA_KDC_ISSUED'
+  'KRB5_AUTHDATA_MANDATORY_FOR_KDC (8)':
+    'prefix': 'KRB5_AUTHDATA_MANDATORY_FOR_KDC'
+    'body': 'KRB5_AUTHDATA_MANDATORY_FOR_KDC'
+  'KRB5_AUTHDATA_OSF_DCE (64)':
+    'prefix': 'KRB5_AUTHDATA_OSF_DCE'
+    'body': 'KRB5_AUTHDATA_OSF_DCE'
+  'KRB5_AUTHDATA_SESAME (65)':
+    'prefix': 'KRB5_AUTHDATA_SESAME'
+    'body': 'KRB5_AUTHDATA_SESAME'
+  'KRB5_AUTH_CONTEXT_DO_SEQUENCE (4)':
+    'prefix': 'KRB5_AUTH_CONTEXT_DO_SEQUENCE'
+    'body': 'KRB5_AUTH_CONTEXT_DO_SEQUENCE'
+  'KRB5_AUTH_CONTEXT_DO_TIME (1)':
+    'prefix': 'KRB5_AUTH_CONTEXT_DO_TIME'
+    'body': 'KRB5_AUTH_CONTEXT_DO_TIME'
+  'KRB5_AUTH_CONTEXT_GENERATE_LOCAL_ADDR (1)':
+    'prefix': 'KRB5_AUTH_CONTEXT_GENERATE_LOCAL_ADDR'
+    'body': 'KRB5_AUTH_CONTEXT_GENERATE_LOCAL_ADDR'
+  'KRB5_AUTH_CONTEXT_GENERATE_LOCAL_FULL_ADDR (4)':
+    'prefix': 'KRB5_AUTH_CONTEXT_GENERATE_LOCAL_FULL_ADDR'
+    'body': 'KRB5_AUTH_CONTEXT_GENERATE_LOCAL_FULL_ADDR'
+  'KRB5_AUTH_CONTEXT_GENERATE_REMOTE_ADDR (2)':
+    'prefix': 'KRB5_AUTH_CONTEXT_GENERATE_REMOTE_ADDR'
+    'body': 'KRB5_AUTH_CONTEXT_GENERATE_REMOTE_ADDR'
+  'KRB5_AUTH_CONTEXT_GENERATE_REMOTE_FULL_ADDR (8)':
+    'prefix': 'KRB5_AUTH_CONTEXT_GENERATE_REMOTE_FULL_ADDR'
+    'body': 'KRB5_AUTH_CONTEXT_GENERATE_REMOTE_FULL_ADDR'
+  'KRB5_AUTH_CONTEXT_PERMIT_ALL (16)':
+    'prefix': 'KRB5_AUTH_CONTEXT_PERMIT_ALL'
+    'body': 'KRB5_AUTH_CONTEXT_PERMIT_ALL'
+  'KRB5_AUTH_CONTEXT_RET_SEQUENCE (8)':
+    'prefix': 'KRB5_AUTH_CONTEXT_RET_SEQUENCE'
+    'body': 'KRB5_AUTH_CONTEXT_RET_SEQUENCE'
+  'KRB5_AUTH_CONTEXT_RET_TIME (2)':
+    'prefix': 'KRB5_AUTH_CONTEXT_RET_TIME'
+    'body': 'KRB5_AUTH_CONTEXT_RET_TIME'
+  'KRB5_AUTH_CONTEXT_USE_SUBKEY (32)':
+    'prefix': 'KRB5_AUTH_CONTEXT_USE_SUBKEY'
+    'body': 'KRB5_AUTH_CONTEXT_USE_SUBKEY'
+  'KRB5_BADMSGTYPE (-1765328246)':
+    'prefix': 'KRB5_BADMSGTYPE'
+    'body': 'KRB5_BADMSGTYPE'
+  'KRB5_BAD_ENCTYPE (-1765328196)':
+    'prefix': 'KRB5_BAD_ENCTYPE'
+    'body': 'KRB5_BAD_ENCTYPE'
+  'KRB5_BAD_KEYSIZE (-1765328195)':
+    'prefix': 'KRB5_BAD_KEYSIZE'
+    'body': 'KRB5_BAD_KEYSIZE'
+  'KRB5_BAD_MSIZE (-1765328194)':
+    'prefix': 'KRB5_BAD_MSIZE'
+    'body': 'KRB5_BAD_MSIZE'
+  'KRB5_CCACHE_BADVNO (-1765328172)':
+    'prefix': 'KRB5_CCACHE_BADVNO'
+    'body': 'KRB5_CCACHE_BADVNO'
+  'KRB5_CC_BADNAME (-1765328245)':
+    'prefix': 'KRB5_CC_BADNAME'
+    'body': 'KRB5_CC_BADNAME'
+  'KRB5_CC_END (-1765328242)':
+    'prefix': 'KRB5_CC_END'
+    'body': 'KRB5_CC_END'
+  'KRB5_CC_FORMAT (-1765328185)':
+    'prefix': 'KRB5_CC_FORMAT'
+    'body': 'KRB5_CC_FORMAT'
+  'KRB5_CC_IO (-1765328191)':
+    'prefix': 'KRB5_CC_IO'
+    'body': 'KRB5_CC_IO'
+  'KRB5_CC_NOMEM (-1765328186)':
+    'prefix': 'KRB5_CC_NOMEM'
+    'body': 'KRB5_CC_NOMEM'
+  'KRB5_CC_NOSUPP (-1765328137)':
+    'prefix': 'KRB5_CC_NOSUPP'
+    'body': 'KRB5_CC_NOSUPP'
+  'KRB5_CC_NOTFOUND (-1765328243)':
+    'prefix': 'KRB5_CC_NOTFOUND'
+    'body': 'KRB5_CC_NOTFOUND'
+  'KRB5_CC_NOT_KTYPE (-1765328184)':
+    'prefix': 'KRB5_CC_NOT_KTYPE'
+    'body': 'KRB5_CC_NOT_KTYPE'
+  'KRB5_CC_READONLY (-1765328138)':
+    'prefix': 'KRB5_CC_READONLY'
+    'body': 'KRB5_CC_READONLY'
+  'KRB5_CC_TYPE_EXISTS (-1765328193)':
+    'prefix': 'KRB5_CC_TYPE_EXISTS'
+    'body': 'KRB5_CC_TYPE_EXISTS'
+  'KRB5_CC_UNKNOWN_TYPE (-1765328244)':
+    'prefix': 'KRB5_CC_UNKNOWN_TYPE'
+    'body': 'KRB5_CC_UNKNOWN_TYPE'
+  'KRB5_CC_WRITE (-1765328187)':
+    'prefix': 'KRB5_CC_WRITE'
+    'body': 'KRB5_CC_WRITE'
+  'KRB5_CHPW_FAIL (-1765328150)':
+    'prefix': 'KRB5_CHPW_FAIL'
+    'body': 'KRB5_CHPW_FAIL'
+  'KRB5_CHPW_PWDNULL (-1765328151)':
+    'prefix': 'KRB5_CHPW_PWDNULL'
+    'body': 'KRB5_CHPW_PWDNULL'
+  'KRB5_CONFIG_BADFORMAT (-1765328248)':
+    'prefix': 'KRB5_CONFIG_BADFORMAT'
+    'body': 'KRB5_CONFIG_BADFORMAT'
+  'KRB5_CONFIG_CANTOPEN (-1765328249)':
+    'prefix': 'KRB5_CONFIG_CANTOPEN'
+    'body': 'KRB5_CONFIG_CANTOPEN'
+  'KRB5_CONFIG_ETYPE_NOSUPP (-1765328147)':
+    'prefix': 'KRB5_CONFIG_ETYPE_NOSUPP'
+    'body': 'KRB5_CONFIG_ETYPE_NOSUPP'
+  'KRB5_CONFIG_NODEFREALM (-1765328160)':
+    'prefix': 'KRB5_CONFIG_NODEFREALM'
+    'body': 'KRB5_CONFIG_NODEFREALM'
+  'KRB5_CONFIG_NOTENUFSPACE (-1765328247)':
+    'prefix': 'KRB5_CONFIG_NOTENUFSPACE'
+    'body': 'KRB5_CONFIG_NOTENUFSPACE'
+  'KRB5_CRED (22)':
+    'prefix': 'KRB5_CRED'
+    'body': 'KRB5_CRED'
+  'KRB5_CRYPTO_INTERNAL (-1765328206)':
+    'prefix': 'KRB5_CRYPTO_INTERNAL'
+    'body': 'KRB5_CRYPTO_INTERNAL'
+  'KRB5_CYBERSAFE_SECUREID (9)':
+    'prefix': 'KRB5_CYBERSAFE_SECUREID'
+    'body': 'KRB5_CYBERSAFE_SECUREID'
+  'KRB5_C_RANDSOURCE_EXTERNAL_PROTOCOL (4)':
+    'prefix': 'KRB5_C_RANDSOURCE_EXTERNAL_PROTOCOL'
+    'body': 'KRB5_C_RANDSOURCE_EXTERNAL_PROTOCOL'
+  'KRB5_C_RANDSOURCE_MAX (5)':
+    'prefix': 'KRB5_C_RANDSOURCE_MAX'
+    'body': 'KRB5_C_RANDSOURCE_MAX'
+  'KRB5_C_RANDSOURCE_OLDAPI (0)':
+    'prefix': 'KRB5_C_RANDSOURCE_OLDAPI'
+    'body': 'KRB5_C_RANDSOURCE_OLDAPI'
+  'KRB5_C_RANDSOURCE_OSRAND (1)':
+    'prefix': 'KRB5_C_RANDSOURCE_OSRAND'
+    'body': 'KRB5_C_RANDSOURCE_OSRAND'
+  'KRB5_C_RANDSOURCE_TIMING (3)':
+    'prefix': 'KRB5_C_RANDSOURCE_TIMING'
+    'body': 'KRB5_C_RANDSOURCE_TIMING'
+  'KRB5_C_RANDSOURCE_TRUSTEDPARTY (2)':
+    'prefix': 'KRB5_C_RANDSOURCE_TRUSTEDPARTY'
+    'body': 'KRB5_C_RANDSOURCE_TRUSTEDPARTY'
+  'KRB5_DELTAT_BADFORMAT (-1765328136)':
+    'prefix': 'KRB5_DELTAT_BADFORMAT'
+    'body': 'KRB5_DELTAT_BADFORMAT'
+  'KRB5_DEPRECATED (0)':
+    'prefix': 'KRB5_DEPRECATED'
+    'body': 'KRB5_DEPRECATED'
+  'KRB5_DOMAIN_X500_COMPRESS (1)':
+    'prefix': 'KRB5_DOMAIN_X500_COMPRESS'
+    'body': 'KRB5_DOMAIN_X500_COMPRESS'
+  'KRB5_EAI_FAIL (-1765328145)':
+    'prefix': 'KRB5_EAI_FAIL'
+    'body': 'KRB5_EAI_FAIL'
+  'KRB5_EAI_NODATA (-1765328144)':
+    'prefix': 'KRB5_EAI_NODATA'
+    'body': 'KRB5_EAI_NODATA'
+  'KRB5_EAI_NONAME (-1765328143)':
+    'prefix': 'KRB5_EAI_NONAME'
+    'body': 'KRB5_EAI_NONAME'
+  'KRB5_EAI_SERVICE (-1765328142)':
+    'prefix': 'KRB5_EAI_SERVICE'
+    'body': 'KRB5_EAI_SERVICE'
+  'KRB5_ERROR (30)':
+    'prefix': 'KRB5_ERROR'
+    'body': 'KRB5_ERROR'
+  'KRB5_ERR_BAD_HOSTNAME (-1765328168)':
+    'prefix': 'KRB5_ERR_BAD_HOSTNAME'
+    'body': 'KRB5_ERR_BAD_HOSTNAME'
+  'KRB5_ERR_BAD_S2K_PARAMS (-1765328140)':
+    'prefix': 'KRB5_ERR_BAD_S2K_PARAMS'
+    'body': 'KRB5_ERR_BAD_S2K_PARAMS'
+  'KRB5_ERR_HOST_REALM_UNKNOWN (-1765328167)':
+    'prefix': 'KRB5_ERR_HOST_REALM_UNKNOWN'
+    'body': 'KRB5_ERR_HOST_REALM_UNKNOWN'
+  'KRB5_ERR_NO_SERVICE (-1765328139)':
+    'prefix': 'KRB5_ERR_NO_SERVICE'
+    'body': 'KRB5_ERR_NO_SERVICE'
+  'KRB5_ERR_NUMERIC_REALM (-1765328141)':
+    'prefix': 'KRB5_ERR_NUMERIC_REALM'
+    'body': 'KRB5_ERR_NUMERIC_REALM'
+  'KRB5_ERR_RCSID (-1765328256)':
+    'prefix': 'KRB5_ERR_RCSID'
+    'body': 'KRB5_ERR_RCSID'
+  'KRB5_FCC_INTERNAL (-1765328188)':
+    'prefix': 'KRB5_FCC_INTERNAL'
+    'body': 'KRB5_FCC_INTERNAL'
+  'KRB5_FCC_NOFILE (-1765328189)':
+    'prefix': 'KRB5_FCC_NOFILE'
+    'body': 'KRB5_FCC_NOFILE'
+  'KRB5_FCC_PERM (-1765328190)':
+    'prefix': 'KRB5_FCC_PERM'
+    'body': 'KRB5_FCC_PERM'
+  'KRB5_FWD_BAD_PRINCIPAL (-1765328162)':
+    'prefix': 'KRB5_FWD_BAD_PRINCIPAL'
+    'body': 'KRB5_FWD_BAD_PRINCIPAL'
+  'KRB5_GC_CACHED (2)':
+    'prefix': 'KRB5_GC_CACHED'
+    'body': 'KRB5_GC_CACHED'
+  'KRB5_GC_USER_USER (1)':
+    'prefix': 'KRB5_GC_USER_USER'
+    'body': 'KRB5_GC_USER_USER'
+  'KRB5_GET_INIT_CREDS_OPT_ADDRESS_LIST (32)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_ADDRESS_LIST'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_ADDRESS_LIST'
+  'KRB5_GET_INIT_CREDS_OPT_CANONICALIZE (512)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_CANONICALIZE'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_CANONICALIZE'
+  'KRB5_GET_INIT_CREDS_OPT_CHG_PWD_PRMPT (256)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_CHG_PWD_PRMPT'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_CHG_PWD_PRMPT'
+  'KRB5_GET_INIT_CREDS_OPT_ETYPE_LIST (16)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_ETYPE_LIST'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_ETYPE_LIST'
+  'KRB5_GET_INIT_CREDS_OPT_FORWARDABLE (4)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_FORWARDABLE'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_FORWARDABLE'
+  'KRB5_GET_INIT_CREDS_OPT_PREAUTH_LIST (64)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_PREAUTH_LIST'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_PREAUTH_LIST'
+  'KRB5_GET_INIT_CREDS_OPT_PROXIABLE (8)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_PROXIABLE'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_PROXIABLE'
+  'KRB5_GET_INIT_CREDS_OPT_RENEW_LIFE (2)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_RENEW_LIFE'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_RENEW_LIFE'
+  'KRB5_GET_INIT_CREDS_OPT_SALT (128)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_SALT'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_SALT'
+  'KRB5_GET_INIT_CREDS_OPT_TKT_LIFE (1)':
+    'prefix': 'KRB5_GET_INIT_CREDS_OPT_TKT_LIFE'
+    'body': 'KRB5_GET_INIT_CREDS_OPT_TKT_LIFE'
+  'KRB5_GET_IN_TKT_LOOP (-1765328161)':
+    'prefix': 'KRB5_GET_IN_TKT_LOOP'
+    'body': 'KRB5_GET_IN_TKT_LOOP'
+  'KRB5_INT16_MAX (65535)':
+    'prefix': 'KRB5_INT16_MAX'
+    'body': 'KRB5_INT16_MAX'
+  'KRB5_INT16_MIN (-65536)':
+    'prefix': 'KRB5_INT16_MIN'
+    'body': 'KRB5_INT16_MIN'
+  'KRB5_INT32_MAX (2147483647)':
+    'prefix': 'KRB5_INT32_MAX'
+    'body': 'KRB5_INT32_MAX'
+  'KRB5_INT32_MIN (-2147483648)':
+    'prefix': 'KRB5_INT32_MIN'
+    'body': 'KRB5_INT32_MIN'
+  'KRB5_INVALID_FLAGS (-1765328183)':
+    'prefix': 'KRB5_INVALID_FLAGS'
+    'body': 'KRB5_INVALID_FLAGS'
+  'KRB5_IN_TKT_REALM_MISMATCH (-1765328235)':
+    'prefix': 'KRB5_IN_TKT_REALM_MISMATCH'
+    'body': 'KRB5_IN_TKT_REALM_MISMATCH'
+  'KRB5_KDB_ACCESS_ERROR (-1780008415)':
+    'prefix': 'KRB5_KDB_ACCESS_ERROR'
+    'body': 'KRB5_KDB_ACCESS_ERROR'
+  'KRB5_KDB_BADLOCKMODE (-1780008436)':
+    'prefix': 'KRB5_KDB_BADLOCKMODE'
+    'body': 'KRB5_KDB_BADLOCKMODE'
+  'KRB5_KDB_BADMASTERKEY (-1780008431)':
+    'prefix': 'KRB5_KDB_BADMASTERKEY'
+    'body': 'KRB5_KDB_BADMASTERKEY'
+  'KRB5_KDB_BADSTORED_MKEY (-1780008428)':
+    'prefix': 'KRB5_KDB_BADSTORED_MKEY'
+    'body': 'KRB5_KDB_BADSTORED_MKEY'
+  'KRB5_KDB_BAD_CREATEFLAGS (-1780008422)':
+    'prefix': 'KRB5_KDB_BAD_CREATEFLAGS'
+    'body': 'KRB5_KDB_BAD_CREATEFLAGS'
+  'KRB5_KDB_BAD_ENCTYPE (-1780008423)':
+    'prefix': 'KRB5_KDB_BAD_ENCTYPE'
+    'body': 'KRB5_KDB_BAD_ENCTYPE'
+  'KRB5_KDB_BAD_SALTTYPE (-1780008424)':
+    'prefix': 'KRB5_KDB_BAD_SALTTYPE'
+    'body': 'KRB5_KDB_BAD_SALTTYPE'
+  'KRB5_KDB_BAD_VERSION (-1780008425)':
+    'prefix': 'KRB5_KDB_BAD_VERSION'
+    'body': 'KRB5_KDB_BAD_VERSION'
+  'KRB5_KDB_CANTLOCK_DB (-1780008427)':
+    'prefix': 'KRB5_KDB_CANTLOCK_DB'
+    'body': 'KRB5_KDB_CANTLOCK_DB'
+  'KRB5_KDB_CANTREAD_STORED (-1780008429)':
+    'prefix': 'KRB5_KDB_CANTREAD_STORED'
+    'body': 'KRB5_KDB_CANTREAD_STORED'
+  'KRB5_KDB_CONSTRAINT_VIOLATION (-1780008413)':
+    'prefix': 'KRB5_KDB_CONSTRAINT_VIOLATION'
+    'body': 'KRB5_KDB_CONSTRAINT_VIOLATION'
+  'KRB5_KDB_DBINITED (-1780008434)':
+    'prefix': 'KRB5_KDB_DBINITED'
+    'body': 'KRB5_KDB_DBINITED'
+  'KRB5_KDB_DBNOTINITED (-1780008435)':
+    'prefix': 'KRB5_KDB_DBNOTINITED'
+    'body': 'KRB5_KDB_DBNOTINITED'
+  'KRB5_KDB_DBTYPE_INIT (-1780008417)':
+    'prefix': 'KRB5_KDB_DBTYPE_INIT'
+    'body': 'KRB5_KDB_DBTYPE_INIT'
+  'KRB5_KDB_DBTYPE_NOSUP (-1780008418)':
+    'prefix': 'KRB5_KDB_DBTYPE_NOSUP'
+    'body': 'KRB5_KDB_DBTYPE_NOSUP'
+  'KRB5_KDB_DBTYPE_NOTFOUND (-1780008419)':
+    'prefix': 'KRB5_KDB_DBTYPE_NOTFOUND'
+    'body': 'KRB5_KDB_DBTYPE_NOTFOUND'
+  'KRB5_KDB_DB_CHANGED (-1780008440)':
+    'prefix': 'KRB5_KDB_DB_CHANGED'
+    'body': 'KRB5_KDB_DB_CHANGED'
+  'KRB5_KDB_DB_CORRUPT (-1780008426)':
+    'prefix': 'KRB5_KDB_DB_CORRUPT'
+    'body': 'KRB5_KDB_DB_CORRUPT'
+  'KRB5_KDB_DB_INUSE (-1780008441)':
+    'prefix': 'KRB5_KDB_DB_INUSE'
+    'body': 'KRB5_KDB_DB_INUSE'
+  'KRB5_KDB_ILLDIRECTION (-1780008433)':
+    'prefix': 'KRB5_KDB_ILLDIRECTION'
+    'body': 'KRB5_KDB_ILLDIRECTION'
+  'KRB5_KDB_ILL_WILDCARD (-1780008442)':
+    'prefix': 'KRB5_KDB_ILL_WILDCARD'
+    'body': 'KRB5_KDB_ILL_WILDCARD'
+  'KRB5_KDB_INTERNAL_ERROR (-1780008414)':
+    'prefix': 'KRB5_KDB_INTERNAL_ERROR'
+    'body': 'KRB5_KDB_INTERNAL_ERROR'
+  'KRB5_KDB_INUSE (-1780008447)':
+    'prefix': 'KRB5_KDB_INUSE'
+    'body': 'KRB5_KDB_INUSE'
+  'KRB5_KDB_INVALIDKEYSIZE (-1780008430)':
+    'prefix': 'KRB5_KDB_INVALIDKEYSIZE'
+    'body': 'KRB5_KDB_INVALIDKEYSIZE'
+  'KRB5_KDB_NOENTRY (-1780008443)':
+    'prefix': 'KRB5_KDB_NOENTRY'
+    'body': 'KRB5_KDB_NOENTRY'
+  'KRB5_KDB_NOMASTERKEY (-1780008432)':
+    'prefix': 'KRB5_KDB_NOMASTERKEY'
+    'body': 'KRB5_KDB_NOMASTERKEY'
+  'KRB5_KDB_NOTLOCKED (-1780008437)':
+    'prefix': 'KRB5_KDB_NOTLOCKED'
+    'body': 'KRB5_KDB_NOTLOCKED'
+  'KRB5_KDB_NO_MATCHING_KEY (-1780008420)':
+    'prefix': 'KRB5_KDB_NO_MATCHING_KEY'
+    'body': 'KRB5_KDB_NO_MATCHING_KEY'
+  'KRB5_KDB_NO_PERMITTED_KEY (-1780008421)':
+    'prefix': 'KRB5_KDB_NO_PERMITTED_KEY'
+    'body': 'KRB5_KDB_NO_PERMITTED_KEY'
+  'KRB5_KDB_RCSID (-1780008448)':
+    'prefix': 'KRB5_KDB_RCSID'
+    'body': 'KRB5_KDB_RCSID'
+  'KRB5_KDB_RECURSIVELOCK (-1780008438)':
+    'prefix': 'KRB5_KDB_RECURSIVELOCK'
+    'body': 'KRB5_KDB_RECURSIVELOCK'
+  'KRB5_KDB_SERVER_INTERNAL_ERR (-1780008416)':
+    'prefix': 'KRB5_KDB_SERVER_INTERNAL_ERR'
+    'body': 'KRB5_KDB_SERVER_INTERNAL_ERR'
+  'KRB5_KDB_TRUNCATED_RECORD (-1780008439)':
+    'prefix': 'KRB5_KDB_TRUNCATED_RECORD'
+    'body': 'KRB5_KDB_TRUNCATED_RECORD'
+  'KRB5_KDB_UK_RERROR (-1780008445)':
+    'prefix': 'KRB5_KDB_UK_RERROR'
+    'body': 'KRB5_KDB_UK_RERROR'
+  'KRB5_KDB_UK_SERROR (-1780008446)':
+    'prefix': 'KRB5_KDB_UK_SERROR'
+    'body': 'KRB5_KDB_UK_SERROR'
+  'KRB5_KDB_UNAUTH (-1780008444)':
+    'prefix': 'KRB5_KDB_UNAUTH'
+    'body': 'KRB5_KDB_UNAUTH'
+  'KRB5_KDCREP_MODIFIED (-1765328237)':
+    'prefix': 'KRB5_KDCREP_MODIFIED'
+    'body': 'KRB5_KDCREP_MODIFIED'
+  'KRB5_KDCREP_SKEW (-1765328236)':
+    'prefix': 'KRB5_KDCREP_SKEW'
+    'body': 'KRB5_KDCREP_SKEW'
+  'KRB5_KDC_UNREACH (-1765328228)':
+    'prefix': 'KRB5_KDC_UNREACH'
+    'body': 'KRB5_KDC_UNREACH'
+  'KRB5_KEYTAB_BADVNO (-1765328171)':
+    'prefix': 'KRB5_KEYTAB_BADVNO'
+    'body': 'KRB5_KEYTAB_BADVNO'
+  'KRB5_KEYUSAGE_AD_ITE (21)':
+    'prefix': 'KRB5_KEYUSAGE_AD_ITE'
+    'body': 'KRB5_KEYUSAGE_AD_ITE'
+  'KRB5_KEYUSAGE_AD_KDCISSUED_CKSUM (19)':
+    'prefix': 'KRB5_KEYUSAGE_AD_KDCISSUED_CKSUM'
+    'body': 'KRB5_KEYUSAGE_AD_KDCISSUED_CKSUM'
+  'KRB5_KEYUSAGE_AD_MTE (20)':
+    'prefix': 'KRB5_KEYUSAGE_AD_MTE'
+    'body': 'KRB5_KEYUSAGE_AD_MTE'
+  'KRB5_KEYUSAGE_APP_DATA_CKSUM (17)':
+    'prefix': 'KRB5_KEYUSAGE_APP_DATA_CKSUM'
+    'body': 'KRB5_KEYUSAGE_APP_DATA_CKSUM'
+  'KRB5_KEYUSAGE_APP_DATA_ENCRYPT (16)':
+    'prefix': 'KRB5_KEYUSAGE_APP_DATA_ENCRYPT'
+    'body': 'KRB5_KEYUSAGE_APP_DATA_ENCRYPT'
+  'KRB5_KEYUSAGE_AP_REP_ENCPART (12)':
+    'prefix': 'KRB5_KEYUSAGE_AP_REP_ENCPART'
+    'body': 'KRB5_KEYUSAGE_AP_REP_ENCPART'
+  'KRB5_KEYUSAGE_AP_REQ_AUTH (11)':
+    'prefix': 'KRB5_KEYUSAGE_AP_REQ_AUTH'
+    'body': 'KRB5_KEYUSAGE_AP_REQ_AUTH'
+  'KRB5_KEYUSAGE_AP_REQ_AUTH_CKSUM (10)':
+    'prefix': 'KRB5_KEYUSAGE_AP_REQ_AUTH_CKSUM'
+    'body': 'KRB5_KEYUSAGE_AP_REQ_AUTH_CKSUM'
+  'KRB5_KEYUSAGE_AS_REP_ENCPART (3)':
+    'prefix': 'KRB5_KEYUSAGE_AS_REP_ENCPART'
+    'body': 'KRB5_KEYUSAGE_AS_REP_ENCPART'
+  'KRB5_KEYUSAGE_AS_REQ_PA_ENC_TS (1)':
+    'prefix': 'KRB5_KEYUSAGE_AS_REQ_PA_ENC_TS'
+    'body': 'KRB5_KEYUSAGE_AS_REQ_PA_ENC_TS'
+  'KRB5_KEYUSAGE_GSS_TOK_MIC (22)':
+    'prefix': 'KRB5_KEYUSAGE_GSS_TOK_MIC'
+    'body': 'KRB5_KEYUSAGE_GSS_TOK_MIC'
+  'KRB5_KEYUSAGE_GSS_TOK_WRAP_INTEG (23)':
+    'prefix': 'KRB5_KEYUSAGE_GSS_TOK_WRAP_INTEG'
+    'body': 'KRB5_KEYUSAGE_GSS_TOK_WRAP_INTEG'
+  'KRB5_KEYUSAGE_GSS_TOK_WRAP_PRIV (24)':
+    'prefix': 'KRB5_KEYUSAGE_GSS_TOK_WRAP_PRIV'
+    'body': 'KRB5_KEYUSAGE_GSS_TOK_WRAP_PRIV'
+  'KRB5_KEYUSAGE_KDC_REP_TICKET (2)':
+    'prefix': 'KRB5_KEYUSAGE_KDC_REP_TICKET'
+    'body': 'KRB5_KEYUSAGE_KDC_REP_TICKET'
+  'KRB5_KEYUSAGE_KRB_CRED_ENCPART (14)':
+    'prefix': 'KRB5_KEYUSAGE_KRB_CRED_ENCPART'
+    'body': 'KRB5_KEYUSAGE_KRB_CRED_ENCPART'
+  'KRB5_KEYUSAGE_KRB_ERROR_CKSUM (18)':
+    'prefix': 'KRB5_KEYUSAGE_KRB_ERROR_CKSUM'
+    'body': 'KRB5_KEYUSAGE_KRB_ERROR_CKSUM'
+  'KRB5_KEYUSAGE_KRB_PRIV_ENCPART (13)':
+    'prefix': 'KRB5_KEYUSAGE_KRB_PRIV_ENCPART'
+    'body': 'KRB5_KEYUSAGE_KRB_PRIV_ENCPART'
+  'KRB5_KEYUSAGE_KRB_SAFE_CKSUM (15)':
+    'prefix': 'KRB5_KEYUSAGE_KRB_SAFE_CKSUM'
+    'body': 'KRB5_KEYUSAGE_KRB_SAFE_CKSUM'
+  'KRB5_KEYUSAGE_PA_REFERRAL (26)':
+    'prefix': 'KRB5_KEYUSAGE_PA_REFERRAL'
+    'body': 'KRB5_KEYUSAGE_PA_REFERRAL'
+  'KRB5_KEYUSAGE_PA_SAM_CHALLENGE_CKSUM (25)':
+    'prefix': 'KRB5_KEYUSAGE_PA_SAM_CHALLENGE_CKSUM'
+    'body': 'KRB5_KEYUSAGE_PA_SAM_CHALLENGE_CKSUM'
+  'KRB5_KEYUSAGE_PA_SAM_CHALLENGE_TRACKID (26)':
+    'prefix': 'KRB5_KEYUSAGE_PA_SAM_CHALLENGE_TRACKID'
+    'body': 'KRB5_KEYUSAGE_PA_SAM_CHALLENGE_TRACKID'
+  'KRB5_KEYUSAGE_PA_SAM_RESPONSE (27)':
+    'prefix': 'KRB5_KEYUSAGE_PA_SAM_RESPONSE'
+    'body': 'KRB5_KEYUSAGE_PA_SAM_RESPONSE'
+  'KRB5_KEYUSAGE_TGS_REP_ENCPART_SESSKEY (8)':
+    'prefix': 'KRB5_KEYUSAGE_TGS_REP_ENCPART_SESSKEY'
+    'body': 'KRB5_KEYUSAGE_TGS_REP_ENCPART_SESSKEY'
+  'KRB5_KEYUSAGE_TGS_REP_ENCPART_SUBKEY (9)':
+    'prefix': 'KRB5_KEYUSAGE_TGS_REP_ENCPART_SUBKEY'
+    'body': 'KRB5_KEYUSAGE_TGS_REP_ENCPART_SUBKEY'
+  'KRB5_KEYUSAGE_TGS_REQ_AD_SESSKEY (4)':
+    'prefix': 'KRB5_KEYUSAGE_TGS_REQ_AD_SESSKEY'
+    'body': 'KRB5_KEYUSAGE_TGS_REQ_AD_SESSKEY'
+  'KRB5_KEYUSAGE_TGS_REQ_AD_SUBKEY (5)':
+    'prefix': 'KRB5_KEYUSAGE_TGS_REQ_AD_SUBKEY'
+    'body': 'KRB5_KEYUSAGE_TGS_REQ_AD_SUBKEY'
+  'KRB5_KEYUSAGE_TGS_REQ_AUTH (7)':
+    'prefix': 'KRB5_KEYUSAGE_TGS_REQ_AUTH'
+    'body': 'KRB5_KEYUSAGE_TGS_REQ_AUTH'
+  'KRB5_KEYUSAGE_TGS_REQ_AUTH_CKSUM (6)':
+    'prefix': 'KRB5_KEYUSAGE_TGS_REQ_AUTH_CKSUM'
+    'body': 'KRB5_KEYUSAGE_TGS_REQ_AUTH_CKSUM'
+  'KRB5_KPASSWD_ACCESSDENIED (5)':
+    'prefix': 'KRB5_KPASSWD_ACCESSDENIED'
+    'body': 'KRB5_KPASSWD_ACCESSDENIED'
+  'KRB5_KPASSWD_AUTHERROR (3)':
+    'prefix': 'KRB5_KPASSWD_AUTHERROR'
+    'body': 'KRB5_KPASSWD_AUTHERROR'
+  'KRB5_KPASSWD_BAD_VERSION (6)':
+    'prefix': 'KRB5_KPASSWD_BAD_VERSION'
+    'body': 'KRB5_KPASSWD_BAD_VERSION'
+  'KRB5_KPASSWD_HARDERROR (2)':
+    'prefix': 'KRB5_KPASSWD_HARDERROR'
+    'body': 'KRB5_KPASSWD_HARDERROR'
+  'KRB5_KPASSWD_INITIAL_FLAG_NEEDED (7)':
+    'prefix': 'KRB5_KPASSWD_INITIAL_FLAG_NEEDED'
+    'body': 'KRB5_KPASSWD_INITIAL_FLAG_NEEDED'
+  'KRB5_KPASSWD_MALFORMED (1)':
+    'prefix': 'KRB5_KPASSWD_MALFORMED'
+    'body': 'KRB5_KPASSWD_MALFORMED'
+  'KRB5_KPASSWD_SOFTERROR (4)':
+    'prefix': 'KRB5_KPASSWD_SOFTERROR'
+    'body': 'KRB5_KPASSWD_SOFTERROR'
+  'KRB5_KPASSWD_SUCCESS (0)':
+    'prefix': 'KRB5_KPASSWD_SUCCESS'
+    'body': 'KRB5_KPASSWD_SUCCESS'
+  'KRB5_KT_BADNAME (-1765328205)':
+    'prefix': 'KRB5_KT_BADNAME'
+    'body': 'KRB5_KT_BADNAME'
+  'KRB5_KT_END (-1765328202)':
+    'prefix': 'KRB5_KT_END'
+    'body': 'KRB5_KT_END'
+  'KRB5_KT_FORMAT (-1765328149)':
+    'prefix': 'KRB5_KT_FORMAT'
+    'body': 'KRB5_KT_FORMAT'
+  'KRB5_KT_IOERR (-1765328200)':
+    'prefix': 'KRB5_KT_IOERR'
+    'body': 'KRB5_KT_IOERR'
+  'KRB5_KT_KVNONOTFOUND (-1765328154)':
+    'prefix': 'KRB5_KT_KVNONOTFOUND'
+    'body': 'KRB5_KT_KVNONOTFOUND'
+  'KRB5_KT_NAME_TOOLONG (-1765328155)':
+    'prefix': 'KRB5_KT_NAME_TOOLONG'
+    'body': 'KRB5_KT_NAME_TOOLONG'
+  'KRB5_KT_NOTFOUND (-1765328203)':
+    'prefix': 'KRB5_KT_NOTFOUND'
+    'body': 'KRB5_KT_NOTFOUND'
+  'KRB5_KT_NOWRITE (-1765328201)':
+    'prefix': 'KRB5_KT_NOWRITE'
+    'body': 'KRB5_KT_NOWRITE'
+  'KRB5_KT_TYPE_EXISTS (-1765328192)':
+    'prefix': 'KRB5_KT_TYPE_EXISTS'
+    'body': 'KRB5_KT_TYPE_EXISTS'
+  'KRB5_KT_UNKNOWN_TYPE (-1765328204)':
+    'prefix': 'KRB5_KT_UNKNOWN_TYPE'
+    'body': 'KRB5_KT_UNKNOWN_TYPE'
+  'KRB5_LIBOS_BADLOCKFLAG (-1765328255)':
+    'prefix': 'KRB5_LIBOS_BADLOCKFLAG'
+    'body': 'KRB5_LIBOS_BADLOCKFLAG'
+  'KRB5_LIBOS_BADPWDMATCH (-1765328253)':
+    'prefix': 'KRB5_LIBOS_BADPWDMATCH'
+    'body': 'KRB5_LIBOS_BADPWDMATCH'
+  'KRB5_LIBOS_CANTREADPWD (-1765328254)':
+    'prefix': 'KRB5_LIBOS_CANTREADPWD'
+    'body': 'KRB5_LIBOS_CANTREADPWD'
+  'KRB5_LIBOS_PWDINTR (-1765328252)':
+    'prefix': 'KRB5_LIBOS_PWDINTR'
+    'body': 'KRB5_LIBOS_PWDINTR'
+  'KRB5_LIB_EXPIRED (-1765328152)':
+    'prefix': 'KRB5_LIB_EXPIRED'
+    'body': 'KRB5_LIB_EXPIRED'
+  'KRB5_LNAME_BADFORMAT (-1765328207)':
+    'prefix': 'KRB5_LNAME_BADFORMAT'
+    'body': 'KRB5_LNAME_BADFORMAT'
+  'KRB5_LNAME_CANTOPEN (-1765328209)':
+    'prefix': 'KRB5_LNAME_CANTOPEN'
+    'body': 'KRB5_LNAME_CANTOPEN'
+  'KRB5_LNAME_NOTRANS (-1765328208)':
+    'prefix': 'KRB5_LNAME_NOTRANS'
+    'body': 'KRB5_LNAME_NOTRANS'
+  'KRB5_LOG_CONV (-1780008412)':
+    'prefix': 'KRB5_LOG_CONV'
+    'body': 'KRB5_LOG_CONV'
+  'KRB5_LOG_CORRUPT (-1780008410)':
+    'prefix': 'KRB5_LOG_CORRUPT'
+    'body': 'KRB5_LOG_CORRUPT'
+  'KRB5_LOG_ERROR (-1780008409)':
+    'prefix': 'KRB5_LOG_ERROR'
+    'body': 'KRB5_LOG_ERROR'
+  'KRB5_LOG_UNSTABLE (-1780008411)':
+    'prefix': 'KRB5_LOG_UNSTABLE'
+    'body': 'KRB5_LOG_UNSTABLE'
+  'KRB5_LRQ_ALL_LAST_INITIAL (2)':
+    'prefix': 'KRB5_LRQ_ALL_LAST_INITIAL'
+    'body': 'KRB5_LRQ_ALL_LAST_INITIAL'
+  'KRB5_LRQ_ALL_LAST_RENEWAL (4)':
+    'prefix': 'KRB5_LRQ_ALL_LAST_RENEWAL'
+    'body': 'KRB5_LRQ_ALL_LAST_RENEWAL'
+  'KRB5_LRQ_ALL_LAST_REQ (5)':
+    'prefix': 'KRB5_LRQ_ALL_LAST_REQ'
+    'body': 'KRB5_LRQ_ALL_LAST_REQ'
+  'KRB5_LRQ_ALL_LAST_TGT (1)':
+    'prefix': 'KRB5_LRQ_ALL_LAST_TGT'
+    'body': 'KRB5_LRQ_ALL_LAST_TGT'
+  'KRB5_LRQ_ALL_LAST_TGT_ISSUED (3)':
+    'prefix': 'KRB5_LRQ_ALL_LAST_TGT_ISSUED'
+    'body': 'KRB5_LRQ_ALL_LAST_TGT_ISSUED'
+  'KRB5_LRQ_ALL_PW_EXPTIME (6)':
+    'prefix': 'KRB5_LRQ_ALL_PW_EXPTIME'
+    'body': 'KRB5_LRQ_ALL_PW_EXPTIME'
+  'KRB5_LRQ_NONE (0)':
+    'prefix': 'KRB5_LRQ_NONE'
+    'body': 'KRB5_LRQ_NONE'
+  'KRB5_LRQ_ONE_LAST_INITIAL (-2)':
+    'prefix': 'KRB5_LRQ_ONE_LAST_INITIAL'
+    'body': 'KRB5_LRQ_ONE_LAST_INITIAL'
+  'KRB5_LRQ_ONE_LAST_RENEWAL (-4)':
+    'prefix': 'KRB5_LRQ_ONE_LAST_RENEWAL'
+    'body': 'KRB5_LRQ_ONE_LAST_RENEWAL'
+  'KRB5_LRQ_ONE_LAST_REQ (-5)':
+    'prefix': 'KRB5_LRQ_ONE_LAST_REQ'
+    'body': 'KRB5_LRQ_ONE_LAST_REQ'
+  'KRB5_LRQ_ONE_LAST_TGT (-1)':
+    'prefix': 'KRB5_LRQ_ONE_LAST_TGT'
+    'body': 'KRB5_LRQ_ONE_LAST_TGT'
+  'KRB5_LRQ_ONE_LAST_TGT_ISSUED (-3)':
+    'prefix': 'KRB5_LRQ_ONE_LAST_TGT_ISSUED'
+    'body': 'KRB5_LRQ_ONE_LAST_TGT_ISSUED'
+  'KRB5_LRQ_ONE_PW_EXPTIME (-6)':
+    'prefix': 'KRB5_LRQ_ONE_PW_EXPTIME'
+    'body': 'KRB5_LRQ_ONE_PW_EXPTIME'
+  'KRB5_MUTUAL_FAILED (-1765328226)':
+    'prefix': 'KRB5_MUTUAL_FAILED'
+    'body': 'KRB5_MUTUAL_FAILED'
+  'KRB5_NOCREDS_SUPPLIED (-1765328181)':
+    'prefix': 'KRB5_NOCREDS_SUPPLIED'
+    'body': 'KRB5_NOCREDS_SUPPLIED'
+  'KRB5_NOPERM_ETYPE (-1765328148)':
+    'prefix': 'KRB5_NOPERM_ETYPE'
+    'body': 'KRB5_NOPERM_ETYPE'
+  'KRB5_NO_2ND_TKT (-1765328182)':
+    'prefix': 'KRB5_NO_2ND_TKT'
+    'body': 'KRB5_NO_2ND_TKT'
+  'KRB5_NO_LOCALNAME (-1765328227)':
+    'prefix': 'KRB5_NO_LOCALNAME'
+    'body': 'KRB5_NO_LOCALNAME'
+  'KRB5_NO_TKT_IN_RLM (-1765328199)':
+    'prefix': 'KRB5_NO_TKT_IN_RLM'
+    'body': 'KRB5_NO_TKT_IN_RLM'
+  'KRB5_NO_TKT_SUPPLIED (-1765328241)':
+    'prefix': 'KRB5_NO_TKT_SUPPLIED'
+    'body': 'KRB5_NO_TKT_SUPPLIED'
+  'KRB5_NT_ENTERPRISE_PRINCIPAL (10)':
+    'prefix': 'KRB5_NT_ENTERPRISE_PRINCIPAL'
+    'body': 'KRB5_NT_ENTERPRISE_PRINCIPAL'
+  'KRB5_NT_ENT_PRINCIPAL_AND_ID (-130)':
+    'prefix': 'KRB5_NT_ENT_PRINCIPAL_AND_ID'
+    'body': 'KRB5_NT_ENT_PRINCIPAL_AND_ID'
+  'KRB5_NT_MS_PRINCIPAL (-128)':
+    'prefix': 'KRB5_NT_MS_PRINCIPAL'
+    'body': 'KRB5_NT_MS_PRINCIPAL'
+  'KRB5_NT_MS_PRINCIPAL_AND_ID (-129)':
+    'prefix': 'KRB5_NT_MS_PRINCIPAL_AND_ID'
+    'body': 'KRB5_NT_MS_PRINCIPAL_AND_ID'
+  'KRB5_NT_PRINCIPAL (1)':
+    'prefix': 'KRB5_NT_PRINCIPAL'
+    'body': 'KRB5_NT_PRINCIPAL'
+  'KRB5_NT_SMTP_NAME (7)':
+    'prefix': 'KRB5_NT_SMTP_NAME'
+    'body': 'KRB5_NT_SMTP_NAME'
+  'KRB5_NT_SRV_HST (3)':
+    'prefix': 'KRB5_NT_SRV_HST'
+    'body': 'KRB5_NT_SRV_HST'
+  'KRB5_NT_SRV_INST (2)':
+    'prefix': 'KRB5_NT_SRV_INST'
+    'body': 'KRB5_NT_SRV_INST'
+  'KRB5_NT_SRV_XHST (4)':
+    'prefix': 'KRB5_NT_SRV_XHST'
+    'body': 'KRB5_NT_SRV_XHST'
+  'KRB5_NT_UID (5)':
+    'prefix': 'KRB5_NT_UID'
+    'body': 'KRB5_NT_UID'
+  'KRB5_NT_UNKNOWN (0)':
+    'prefix': 'KRB5_NT_UNKNOWN'
+    'body': 'KRB5_NT_UNKNOWN'
+  'KRB5_NT_X500_PRINCIPAL (6)':
+    'prefix': 'KRB5_NT_X500_PRINCIPAL'
+    'body': 'KRB5_NT_X500_PRINCIPAL'
+  'KRB5_OBSOLETE_FN (-1765328146)':
+    'prefix': 'KRB5_OBSOLETE_FN'
+    'body': 'KRB5_OBSOLETE_FN'
+  'KRB5_PADATA_AFS3_SALT (10)':
+    'prefix': 'KRB5_PADATA_AFS3_SALT'
+    'body': 'KRB5_PADATA_AFS3_SALT'
+  'KRB5_PADATA_AP_REQ (1)':
+    'prefix': 'KRB5_PADATA_AP_REQ'
+    'body': 'KRB5_PADATA_AP_REQ'
+  'KRB5_PADATA_DASS (16)':
+    'prefix': 'KRB5_PADATA_DASS'
+    'body': 'KRB5_PADATA_DASS'
+  'KRB5_PADATA_ENC_SANDIA_SECURID (6)':
+    'prefix': 'KRB5_PADATA_ENC_SANDIA_SECURID'
+    'body': 'KRB5_PADATA_ENC_SANDIA_SECURID'
+  'KRB5_PADATA_ENC_TIMESTAMP (2)':
+    'prefix': 'KRB5_PADATA_ENC_TIMESTAMP'
+    'body': 'KRB5_PADATA_ENC_TIMESTAMP'
+  'KRB5_PADATA_ENC_UNIX_TIME (5)':
+    'prefix': 'KRB5_PADATA_ENC_UNIX_TIME'
+    'body': 'KRB5_PADATA_ENC_UNIX_TIME'
+  'KRB5_PADATA_ETYPE_INFO (11)':
+    'prefix': 'KRB5_PADATA_ETYPE_INFO'
+    'body': 'KRB5_PADATA_ETYPE_INFO'
+  'KRB5_PADATA_ETYPE_INFO2 (19)':
+    'prefix': 'KRB5_PADATA_ETYPE_INFO2'
+    'body': 'KRB5_PADATA_ETYPE_INFO2'
+  'KRB5_PADATA_GET_FROM_TYPED_DATA (22)':
+    'prefix': 'KRB5_PADATA_GET_FROM_TYPED_DATA'
+    'body': 'KRB5_PADATA_GET_FROM_TYPED_DATA'
+  'KRB5_PADATA_NONE (0)':
+    'prefix': 'KRB5_PADATA_NONE'
+    'body': 'KRB5_PADATA_NONE'
+  'KRB5_PADATA_OSF_DCE (8)':
+    'prefix': 'KRB5_PADATA_OSF_DCE'
+    'body': 'KRB5_PADATA_OSF_DCE'
+  'KRB5_PADATA_PK_AS_09_BINDING (132)':
+    'prefix': 'KRB5_PADATA_PK_AS_09_BINDING'
+    'body': 'KRB5_PADATA_PK_AS_09_BINDING'
+  'KRB5_PADATA_PK_AS_REP (17)':
+    'prefix': 'KRB5_PADATA_PK_AS_REP'
+    'body': 'KRB5_PADATA_PK_AS_REP'
+  'KRB5_PADATA_PK_AS_REP_OLD (15)':
+    'prefix': 'KRB5_PADATA_PK_AS_REP_OLD'
+    'body': 'KRB5_PADATA_PK_AS_REP_OLD'
+  'KRB5_PADATA_PK_AS_REQ (16)':
+    'prefix': 'KRB5_PADATA_PK_AS_REQ'
+    'body': 'KRB5_PADATA_PK_AS_REQ'
+  'KRB5_PADATA_PK_AS_REQ_OLD (14)':
+    'prefix': 'KRB5_PADATA_PK_AS_REQ_OLD'
+    'body': 'KRB5_PADATA_PK_AS_REQ_OLD'
+  'KRB5_PADATA_PW_SALT (3)':
+    'prefix': 'KRB5_PADATA_PW_SALT'
+    'body': 'KRB5_PADATA_PW_SALT'
+  'KRB5_PADATA_REFERRAL (25)':
+    'prefix': 'KRB5_PADATA_REFERRAL'
+    'body': 'KRB5_PADATA_REFERRAL'
+  'KRB5_PADATA_SAM_CHALLENGE (12)':
+    'prefix': 'KRB5_PADATA_SAM_CHALLENGE'
+    'body': 'KRB5_PADATA_SAM_CHALLENGE'
+  'KRB5_PADATA_SAM_CHALLENGE_2 (30)':
+    'prefix': 'KRB5_PADATA_SAM_CHALLENGE_2'
+    'body': 'KRB5_PADATA_SAM_CHALLENGE_2'
+  'KRB5_PADATA_SAM_REDIRECT (21)':
+    'prefix': 'KRB5_PADATA_SAM_REDIRECT'
+    'body': 'KRB5_PADATA_SAM_REDIRECT'
+  'KRB5_PADATA_SAM_RESPONSE (13)':
+    'prefix': 'KRB5_PADATA_SAM_RESPONSE'
+    'body': 'KRB5_PADATA_SAM_RESPONSE'
+  'KRB5_PADATA_SAM_RESPONSE_2 (31)':
+    'prefix': 'KRB5_PADATA_SAM_RESPONSE_2'
+    'body': 'KRB5_PADATA_SAM_RESPONSE_2'
+  'KRB5_PADATA_SESAME (7)':
+    'prefix': 'KRB5_PADATA_SESAME'
+    'body': 'KRB5_PADATA_SESAME'
+  'KRB5_PADATA_TGS_REQ (1)':
+    'prefix': 'KRB5_PADATA_TGS_REQ'
+    'body': 'KRB5_PADATA_TGS_REQ'
+  'KRB5_PADATA_USE_SPECIFIED_KVNO (20)':
+    'prefix': 'KRB5_PADATA_USE_SPECIFIED_KVNO'
+    'body': 'KRB5_PADATA_USE_SPECIFIED_KVNO'
+  'KRB5_PARSE_ILLCHAR (-1765328251)':
+    'prefix': 'KRB5_PARSE_ILLCHAR'
+    'body': 'KRB5_PARSE_ILLCHAR'
+  'KRB5_PARSE_MALFORMED (-1765328250)':
+    'prefix': 'KRB5_PARSE_MALFORMED'
+    'body': 'KRB5_PARSE_MALFORMED'
+  'KRB5_PLUGIN_NO_HANDLE (-1765328135)':
+    'prefix': 'KRB5_PLUGIN_NO_HANDLE'
+    'body': 'KRB5_PLUGIN_NO_HANDLE'
+  'KRB5_PLUGIN_OP_NOTSUPP (-1765328134)':
+    'prefix': 'KRB5_PLUGIN_OP_NOTSUPP'
+    'body': 'KRB5_PLUGIN_OP_NOTSUPP'
+  'KRB5_PREAUTH_BAD_TYPE (-1765328176)':
+    'prefix': 'KRB5_PREAUTH_BAD_TYPE'
+    'body': 'KRB5_PREAUTH_BAD_TYPE'
+  'KRB5_PREAUTH_FAILED (-1765328174)':
+    'prefix': 'KRB5_PREAUTH_FAILED'
+    'body': 'KRB5_PREAUTH_FAILED'
+  'KRB5_PREAUTH_NO_KEY (-1765328175)':
+    'prefix': 'KRB5_PREAUTH_NO_KEY'
+    'body': 'KRB5_PREAUTH_NO_KEY'
+  'KRB5_PRINCIPAL_PARSE_ENTERPRISE (4)':
+    'prefix': 'KRB5_PRINCIPAL_PARSE_ENTERPRISE'
+    'body': 'KRB5_PRINCIPAL_PARSE_ENTERPRISE'
+  'KRB5_PRINCIPAL_PARSE_NO_REALM (1)':
+    'prefix': 'KRB5_PRINCIPAL_PARSE_NO_REALM'
+    'body': 'KRB5_PRINCIPAL_PARSE_NO_REALM'
+  'KRB5_PRINCIPAL_PARSE_REQUIRE_REALM (2)':
+    'prefix': 'KRB5_PRINCIPAL_PARSE_REQUIRE_REALM'
+    'body': 'KRB5_PRINCIPAL_PARSE_REQUIRE_REALM'
+  'KRB5_PRINCIPAL_UNPARSE_DISPLAY (4)':
+    'prefix': 'KRB5_PRINCIPAL_UNPARSE_DISPLAY'
+    'body': 'KRB5_PRINCIPAL_UNPARSE_DISPLAY'
+  'KRB5_PRINCIPAL_UNPARSE_NO_REALM (2)':
+    'prefix': 'KRB5_PRINCIPAL_UNPARSE_NO_REALM'
+    'body': 'KRB5_PRINCIPAL_UNPARSE_NO_REALM'
+  'KRB5_PRINCIPAL_UNPARSE_SHORT (1)':
+    'prefix': 'KRB5_PRINCIPAL_UNPARSE_SHORT'
+    'body': 'KRB5_PRINCIPAL_UNPARSE_SHORT'
+  'KRB5_PRINC_NOMATCH (-1765328238)':
+    'prefix': 'KRB5_PRINC_NOMATCH'
+    'body': 'KRB5_PRINC_NOMATCH'
+  'KRB5_PRIV (21)':
+    'prefix': 'KRB5_PRIV'
+    'body': 'KRB5_PRIV'
+  'KRB5_PROG_ATYPE_NOSUPP (-1765328170)':
+    'prefix': 'KRB5_PROG_ATYPE_NOSUPP'
+    'body': 'KRB5_PROG_ATYPE_NOSUPP'
+  'KRB5_PROG_ETYPE_NOSUPP (-1765328234)':
+    'prefix': 'KRB5_PROG_ETYPE_NOSUPP'
+    'body': 'KRB5_PROG_ETYPE_NOSUPP'
+  'KRB5_PROG_KEYTYPE_NOSUPP (-1765328233)':
+    'prefix': 'KRB5_PROG_KEYTYPE_NOSUPP'
+    'body': 'KRB5_PROG_KEYTYPE_NOSUPP'
+  'KRB5_PROG_SUMTYPE_NOSUPP (-1765328231)':
+    'prefix': 'KRB5_PROG_SUMTYPE_NOSUPP'
+    'body': 'KRB5_PROG_SUMTYPE_NOSUPP'
+  'KRB5_PROMPT_TYPE_NEW_PASSWORD (2)':
+    'prefix': 'KRB5_PROMPT_TYPE_NEW_PASSWORD'
+    'body': 'KRB5_PROMPT_TYPE_NEW_PASSWORD'
+  'KRB5_PROMPT_TYPE_NEW_PASSWORD_AGAIN (3)':
+    'prefix': 'KRB5_PROMPT_TYPE_NEW_PASSWORD_AGAIN'
+    'body': 'KRB5_PROMPT_TYPE_NEW_PASSWORD_AGAIN'
+  'KRB5_PROMPT_TYPE_PASSWORD (1)':
+    'prefix': 'KRB5_PROMPT_TYPE_PASSWORD'
+    'body': 'KRB5_PROMPT_TYPE_PASSWORD'
+  'KRB5_PROMPT_TYPE_PREAUTH (4)':
+    'prefix': 'KRB5_PROMPT_TYPE_PREAUTH'
+    'body': 'KRB5_PROMPT_TYPE_PREAUTH'
+  'KRB5_PVNO (5)':
+    'prefix': 'KRB5_PVNO'
+    'body': 'KRB5_PVNO'
+  'KRB5_RCACHE_BADVNO (-1765328173)':
+    'prefix': 'KRB5_RCACHE_BADVNO'
+    'body': 'KRB5_RCACHE_BADVNO'
+  'KRB5_RC_IO (-1765328220)':
+    'prefix': 'KRB5_RC_IO'
+    'body': 'KRB5_RC_IO'
+  'KRB5_RC_IO_EOF (-1765328217)':
+    'prefix': 'KRB5_RC_IO_EOF'
+    'body': 'KRB5_RC_IO_EOF'
+  'KRB5_RC_IO_IO (-1765328214)':
+    'prefix': 'KRB5_RC_IO_IO'
+    'body': 'KRB5_RC_IO_IO'
+  'KRB5_RC_IO_MALLOC (-1765328216)':
+    'prefix': 'KRB5_RC_IO_MALLOC'
+    'body': 'KRB5_RC_IO_MALLOC'
+  'KRB5_RC_IO_PERM (-1765328215)':
+    'prefix': 'KRB5_RC_IO_PERM'
+    'body': 'KRB5_RC_IO_PERM'
+  'KRB5_RC_IO_SPACE (-1765328212)':
+    'prefix': 'KRB5_RC_IO_SPACE'
+    'body': 'KRB5_RC_IO_SPACE'
+  'KRB5_RC_IO_UNKNOWN (-1765328213)':
+    'prefix': 'KRB5_RC_IO_UNKNOWN'
+    'body': 'KRB5_RC_IO_UNKNOWN'
+  'KRB5_RC_MALLOC (-1765328224)':
+    'prefix': 'KRB5_RC_MALLOC'
+    'body': 'KRB5_RC_MALLOC'
+  'KRB5_RC_NOIO (-1765328219)':
+    'prefix': 'KRB5_RC_NOIO'
+    'body': 'KRB5_RC_NOIO'
+  'KRB5_RC_PARSE (-1765328218)':
+    'prefix': 'KRB5_RC_PARSE'
+    'body': 'KRB5_RC_PARSE'
+  'KRB5_RC_REPLAY (-1765328221)':
+    'prefix': 'KRB5_RC_REPLAY'
+    'body': 'KRB5_RC_REPLAY'
+  'KRB5_RC_REQUIRED (-1765328169)':
+    'prefix': 'KRB5_RC_REQUIRED'
+    'body': 'KRB5_RC_REQUIRED'
+  'KRB5_RC_TYPE_EXISTS (-1765328225)':
+    'prefix': 'KRB5_RC_TYPE_EXISTS'
+    'body': 'KRB5_RC_TYPE_EXISTS'
+  'KRB5_RC_TYPE_NOTFOUND (-1765328223)':
+    'prefix': 'KRB5_RC_TYPE_NOTFOUND'
+    'body': 'KRB5_RC_TYPE_NOTFOUND'
+  'KRB5_RC_UNKNOWN (-1765328222)':
+    'prefix': 'KRB5_RC_UNKNOWN'
+    'body': 'KRB5_RC_UNKNOWN'
+  'KRB5_REALM_BRANCH_CHAR (46)':
+    'prefix': 'KRB5_REALM_BRANCH_CHAR'
+    'body': 'KRB5_REALM_BRANCH_CHAR'
+  'KRB5_REALM_CANT_RESOLVE (-1765328164)':
+    'prefix': 'KRB5_REALM_CANT_RESOLVE'
+    'body': 'KRB5_REALM_CANT_RESOLVE'
+  'KRB5_REALM_UNKNOWN (-1765328230)':
+    'prefix': 'KRB5_REALM_UNKNOWN'
+    'body': 'KRB5_REALM_UNKNOWN'
+  'KRB5_RECVAUTH_BADAUTHVERS (2)':
+    'prefix': 'KRB5_RECVAUTH_BADAUTHVERS'
+    'body': 'KRB5_RECVAUTH_BADAUTHVERS'
+  'KRB5_RECVAUTH_SKIP_VERSION (1)':
+    'prefix': 'KRB5_RECVAUTH_SKIP_VERSION'
+    'body': 'KRB5_RECVAUTH_SKIP_VERSION'
+  'KRB5_SAFE (20)':
+    'prefix': 'KRB5_SAFE'
+    'body': 'KRB5_SAFE'
+  'KRB5_SAM_BAD_CHECKSUM (-1765328156)':
+    'prefix': 'KRB5_SAM_BAD_CHECKSUM'
+    'body': 'KRB5_SAM_BAD_CHECKSUM'
+  'KRB5_SAM_INVALID_ETYPE (-1765328158)':
+    'prefix': 'KRB5_SAM_INVALID_ETYPE'
+    'body': 'KRB5_SAM_INVALID_ETYPE'
+  'KRB5_SAM_MUST_PK_ENCRYPT_SAD (536870912)':
+    'prefix': 'KRB5_SAM_MUST_PK_ENCRYPT_SAD'
+    'body': 'KRB5_SAM_MUST_PK_ENCRYPT_SAD'
+  'KRB5_SAM_NO_CHECKSUM (-1765328157)':
+    'prefix': 'KRB5_SAM_NO_CHECKSUM'
+    'body': 'KRB5_SAM_NO_CHECKSUM'
+  'KRB5_SAM_SEND_ENCRYPTED_SAD (1073741824)':
+    'prefix': 'KRB5_SAM_SEND_ENCRYPTED_SAD'
+    'body': 'KRB5_SAM_SEND_ENCRYPTED_SAD'
+  'KRB5_SAM_UNSUPPORTED (-1765328159)':
+    'prefix': 'KRB5_SAM_UNSUPPORTED'
+    'body': 'KRB5_SAM_UNSUPPORTED'
+  'KRB5_SAM_USE_SAD_AS_KEY (2147483648)':
+    'prefix': 'KRB5_SAM_USE_SAD_AS_KEY'
+    'body': 'KRB5_SAM_USE_SAD_AS_KEY'
+  'KRB5_SENDAUTH_BADAPPLVERS (-1765328179)':
+    'prefix': 'KRB5_SENDAUTH_BADAPPLVERS'
+    'body': 'KRB5_SENDAUTH_BADAPPLVERS'
+  'KRB5_SENDAUTH_BADAUTHVERS (-1765328180)':
+    'prefix': 'KRB5_SENDAUTH_BADAUTHVERS'
+    'body': 'KRB5_SENDAUTH_BADAUTHVERS'
+  'KRB5_SENDAUTH_BADRESPONSE (-1765328178)':
+    'prefix': 'KRB5_SENDAUTH_BADRESPONSE'
+    'body': 'KRB5_SENDAUTH_BADRESPONSE'
+  'KRB5_SENDAUTH_REJECTED (-1765328177)':
+    'prefix': 'KRB5_SENDAUTH_REJECTED'
+    'body': 'KRB5_SENDAUTH_REJECTED'
+  'KRB5_SERVICE_UNKNOWN (-1765328229)':
+    'prefix': 'KRB5_SERVICE_UNKNOWN'
+    'body': 'KRB5_SERVICE_UNKNOWN'
+  'KRB5_SNAME_UNSUPP_NAMETYPE (-1765328166)':
+    'prefix': 'KRB5_SNAME_UNSUPP_NAMETYPE'
+    'body': 'KRB5_SNAME_UNSUPP_NAMETYPE'
+  'KRB5_TC_MATCH_2ND_TKT (128)':
+    'prefix': 'KRB5_TC_MATCH_2ND_TKT'
+    'body': 'KRB5_TC_MATCH_2ND_TKT'
+  'KRB5_TC_MATCH_AUTHDATA (32)':
+    'prefix': 'KRB5_TC_MATCH_AUTHDATA'
+    'body': 'KRB5_TC_MATCH_AUTHDATA'
+  'KRB5_TC_MATCH_FLAGS (4)':
+    'prefix': 'KRB5_TC_MATCH_FLAGS'
+    'body': 'KRB5_TC_MATCH_FLAGS'
+  'KRB5_TC_MATCH_FLAGS_EXACT (16)':
+    'prefix': 'KRB5_TC_MATCH_FLAGS_EXACT'
+    'body': 'KRB5_TC_MATCH_FLAGS_EXACT'
+  'KRB5_TC_MATCH_IS_SKEY (2)':
+    'prefix': 'KRB5_TC_MATCH_IS_SKEY'
+    'body': 'KRB5_TC_MATCH_IS_SKEY'
+  'KRB5_TC_MATCH_KTYPE (256)':
+    'prefix': 'KRB5_TC_MATCH_KTYPE'
+    'body': 'KRB5_TC_MATCH_KTYPE'
+  'KRB5_TC_MATCH_SRV_NAMEONLY (64)':
+    'prefix': 'KRB5_TC_MATCH_SRV_NAMEONLY'
+    'body': 'KRB5_TC_MATCH_SRV_NAMEONLY'
+  'KRB5_TC_MATCH_TIMES (1)':
+    'prefix': 'KRB5_TC_MATCH_TIMES'
+    'body': 'KRB5_TC_MATCH_TIMES'
+  'KRB5_TC_MATCH_TIMES_EXACT (8)':
+    'prefix': 'KRB5_TC_MATCH_TIMES_EXACT'
+    'body': 'KRB5_TC_MATCH_TIMES_EXACT'
+  'KRB5_TC_NOTICKET (2)':
+    'prefix': 'KRB5_TC_NOTICKET'
+    'body': 'KRB5_TC_NOTICKET'
+  'KRB5_TC_OPENCLOSE (1)':
+    'prefix': 'KRB5_TC_OPENCLOSE'
+    'body': 'KRB5_TC_OPENCLOSE'
+  'KRB5_TC_SUPPORTED_KTYPES (512)':
+    'prefix': 'KRB5_TC_SUPPORTED_KTYPES'
+    'body': 'KRB5_TC_SUPPORTED_KTYPES'
+  'KRB5_TGS_NAME_SIZE (6)':
+    'prefix': 'KRB5_TGS_NAME_SIZE'
+    'body': 'KRB5_TGS_NAME_SIZE'
+  'KRB5_TGS_REP (13)':
+    'prefix': 'KRB5_TGS_REP'
+    'body': 'KRB5_TGS_REP'
+  'KRB5_TGS_REQ (12)':
+    'prefix': 'KRB5_TGS_REQ'
+    'body': 'KRB5_TGS_REQ'
+  'KRB5_TKT_NOT_FORWARDABLE (-1765328163)':
+    'prefix': 'KRB5_TKT_NOT_FORWARDABLE'
+    'body': 'KRB5_TKT_NOT_FORWARDABLE'
+  'KRB5_TRANS_BADFORMAT (-1765328210)':
+    'prefix': 'KRB5_TRANS_BADFORMAT'
+    'body': 'KRB5_TRANS_BADFORMAT'
+  'KRB5_TRANS_CANTOPEN (-1765328211)':
+    'prefix': 'KRB5_TRANS_CANTOPEN'
+    'body': 'KRB5_TRANS_CANTOPEN'
+  'KRB5_VERIFY_INIT_CREDS_OPT_AP_REQ_NOFAIL (1)':
+    'prefix': 'KRB5_VERIFY_INIT_CREDS_OPT_AP_REQ_NOFAIL'
+    'body': 'KRB5_VERIFY_INIT_CREDS_OPT_AP_REQ_NOFAIL'
+  'KRB5_WRONG_ETYPE (-1765328232)':
+    'prefix': 'KRB5_WRONG_ETYPE'
+    'body': 'KRB5_WRONG_ETYPE'
+  'KRB_INSTANCE_SZ (40)':
+    'prefix': 'KRB_INSTANCE_SZ'
+    'body': 'KRB_INSTANCE_SZ'
+  'KRB_NAME_SZ (40)':
+    'prefix': 'KRB_NAME_SZ'
+    'body': 'KRB_NAME_SZ'
+  'KRB_REALM_SZ (40)':
+    'prefix': 'KRB_REALM_SZ'
+    'body': 'KRB_REALM_SZ'
+  'KV5M_ADDRESS (-1760647390)':
+    'prefix': 'KV5M_ADDRESS'
+    'body': 'KV5M_ADDRESS'
+  'KV5M_ALT_METHOD (-1760647386)':
+    'prefix': 'KV5M_ALT_METHOD'
+    'body': 'KV5M_ALT_METHOD'
+  'KV5M_AP_REP (-1760647400)':
+    'prefix': 'KV5M_AP_REP'
+    'body': 'KV5M_AP_REP'
+  'KV5M_AP_REP_ENC_PART (-1760647399)':
+    'prefix': 'KV5M_AP_REP_ENC_PART'
+    'body': 'KV5M_AP_REP_ENC_PART'
+  'KV5M_AP_REQ (-1760647401)':
+    'prefix': 'KV5M_AP_REQ'
+    'body': 'KV5M_AP_REQ'
+  'KV5M_AUTHDATA (-1760647414)':
+    'prefix': 'KV5M_AUTHDATA'
+    'body': 'KV5M_AUTHDATA'
+  'KV5M_AUTHENTICATOR (-1760647410)':
+    'prefix': 'KV5M_AUTHENTICATOR'
+    'body': 'KV5M_AUTHENTICATOR'
+  'KV5M_AUTH_CONTEXT (-1760647383)':
+    'prefix': 'KV5M_AUTH_CONTEXT'
+    'body': 'KV5M_AUTH_CONTEXT'
+  'KV5M_CCACHE (-1760647380)':
+    'prefix': 'KV5M_CCACHE'
+    'body': 'KV5M_CCACHE'
+  'KV5M_CHECKSUM (-1760647420)':
+    'prefix': 'KV5M_CHECKSUM'
+    'body': 'KV5M_CHECKSUM'
+  'KV5M_CHECKSUM_ENTRY (-1760647415)':
+    'prefix': 'KV5M_CHECKSUM_ENTRY'
+    'body': 'KV5M_CHECKSUM_ENTRY'
+  'KV5M_CONTEXT (-1760647388)':
+    'prefix': 'KV5M_CONTEXT'
+    'body': 'KV5M_CONTEXT'
+  'KV5M_CRED (-1760647394)':
+    'prefix': 'KV5M_CRED'
+    'body': 'KV5M_CRED'
+  'KV5M_CREDS (-1760647408)':
+    'prefix': 'KV5M_CREDS'
+    'body': 'KV5M_CREDS'
+  'KV5M_CRED_ENC_PART (-1760647392)':
+    'prefix': 'KV5M_CRED_ENC_PART'
+    'body': 'KV5M_CRED_ENC_PART'
+  'KV5M_CRED_INFO (-1760647393)':
+    'prefix': 'KV5M_CRED_INFO'
+    'body': 'KV5M_CRED_INFO'
+  'KV5M_CRYPTOSYSTEM_ENTRY (-1760647417)':
+    'prefix': 'KV5M_CRYPTOSYSTEM_ENTRY'
+    'body': 'KV5M_CRYPTOSYSTEM_ENTRY'
+  'KV5M_CS_TABLE_ENTRY (-1760647416)':
+    'prefix': 'KV5M_CS_TABLE_ENTRY'
+    'body': 'KV5M_CS_TABLE_ENTRY'
+  'KV5M_DATA (-1760647422)':
+    'prefix': 'KV5M_DATA'
+    'body': 'KV5M_DATA'
+  'KV5M_DB_CONTEXT (-1760647384)':
+    'prefix': 'KV5M_DB_CONTEXT'
+    'body': 'KV5M_DB_CONTEXT'
+  'KV5M_ENCRYPT_BLOCK (-1760647419)':
+    'prefix': 'KV5M_ENCRYPT_BLOCK'
+    'body': 'KV5M_ENCRYPT_BLOCK'
+  'KV5M_ENC_DATA (-1760647418)':
+    'prefix': 'KV5M_ENC_DATA'
+    'body': 'KV5M_ENC_DATA'
+  'KV5M_ENC_KDC_REP_PART (-1760647404)':
+    'prefix': 'KV5M_ENC_KDC_REP_PART'
+    'body': 'KV5M_ENC_KDC_REP_PART'
+  'KV5M_ENC_SAM_RESPONSE_ENC (-1760647375)':
+    'prefix': 'KV5M_ENC_SAM_RESPONSE_ENC'
+    'body': 'KV5M_ENC_SAM_RESPONSE_ENC'
+  'KV5M_ENC_SAM_RESPONSE_ENC_2 (-1760647374)':
+    'prefix': 'KV5M_ENC_SAM_RESPONSE_ENC_2'
+    'body': 'KV5M_ENC_SAM_RESPONSE_ENC_2'
+  'KV5M_ENC_TKT_PART (-1760647412)':
+    'prefix': 'KV5M_ENC_TKT_PART'
+    'body': 'KV5M_ENC_TKT_PART'
+  'KV5M_ERROR (-1760647402)':
+    'prefix': 'KV5M_ERROR'
+    'body': 'KV5M_ERROR'
+  'KV5M_ETYPE_INFO_ENTRY (-1760647385)':
+    'prefix': 'KV5M_ETYPE_INFO_ENTRY'
+    'body': 'KV5M_ETYPE_INFO_ENTRY'
+  'KV5M_GSS_OID (-1760647369)':
+    'prefix': 'KV5M_GSS_OID'
+    'body': 'KV5M_GSS_OID'
+  'KV5M_GSS_QUEUE (-1760647368)':
+    'prefix': 'KV5M_GSS_QUEUE'
+    'body': 'KV5M_GSS_QUEUE'
+  'KV5M_KDC_REP (-1760647403)':
+    'prefix': 'KV5M_KDC_REP'
+    'body': 'KV5M_KDC_REP'
+  'KV5M_KDC_REQ (-1760647405)':
+    'prefix': 'KV5M_KDC_REQ'
+    'body': 'KV5M_KDC_REQ'
+  'KV5M_KEYBLOCK (-1760647421)':
+    'prefix': 'KV5M_KEYBLOCK'
+    'body': 'KV5M_KEYBLOCK'
+  'KV5M_KEYTAB (-1760647382)':
+    'prefix': 'KV5M_KEYTAB'
+    'body': 'KV5M_KEYTAB'
+  'KV5M_KEYTAB_ENTRY (-1760647389)':
+    'prefix': 'KV5M_KEYTAB_ENTRY'
+    'body': 'KV5M_KEYTAB_ENTRY'
+  'KV5M_LAST_REQ_ENTRY (-1760647407)':
+    'prefix': 'KV5M_LAST_REQ_ENTRY'
+    'body': 'KV5M_LAST_REQ_ENTRY'
+  'KV5M_NONE (-1760647424)':
+    'prefix': 'KV5M_NONE'
+    'body': 'KV5M_NONE'
+  'KV5M_OS_CONTEXT (-1760647387)':
+    'prefix': 'KV5M_OS_CONTEXT'
+    'body': 'KV5M_OS_CONTEXT'
+  'KV5M_PASSWD_PHRASE_ELEMENT (-1760647370)':
+    'prefix': 'KV5M_PASSWD_PHRASE_ELEMENT'
+    'body': 'KV5M_PASSWD_PHRASE_ELEMENT'
+  'KV5M_PA_DATA (-1760647406)':
+    'prefix': 'KV5M_PA_DATA'
+    'body': 'KV5M_PA_DATA'
+  'KV5M_PREAUTH_OPS (-1760647379)':
+    'prefix': 'KV5M_PREAUTH_OPS'
+    'body': 'KV5M_PREAUTH_OPS'
+  'KV5M_PREDICTED_SAM_RESPONSE (-1760647371)':
+    'prefix': 'KV5M_PREDICTED_SAM_RESPONSE'
+    'body': 'KV5M_PREDICTED_SAM_RESPONSE'
+  'KV5M_PRINCIPAL (-1760647423)':
+    'prefix': 'KV5M_PRINCIPAL'
+    'body': 'KV5M_PRINCIPAL'
+  'KV5M_PRIV (-1760647396)':
+    'prefix': 'KV5M_PRIV'
+    'body': 'KV5M_PRIV'
+  'KV5M_PRIV_ENC_PART (-1760647395)':
+    'prefix': 'KV5M_PRIV_ENC_PART'
+    'body': 'KV5M_PRIV_ENC_PART'
+  'KV5M_PWD_DATA (-1760647391)':
+    'prefix': 'KV5M_PWD_DATA'
+    'body': 'KV5M_PWD_DATA'
+  'KV5M_RCACHE (-1760647381)':
+    'prefix': 'KV5M_RCACHE'
+    'body': 'KV5M_RCACHE'
+  'KV5M_RESPONSE (-1760647398)':
+    'prefix': 'KV5M_RESPONSE'
+    'body': 'KV5M_RESPONSE'
+  'KV5M_SAFE (-1760647397)':
+    'prefix': 'KV5M_SAFE'
+    'body': 'KV5M_SAFE'
+  'KV5M_SAM_CHALLENGE (-1760647378)':
+    'prefix': 'KV5M_SAM_CHALLENGE'
+    'body': 'KV5M_SAM_CHALLENGE'
+  'KV5M_SAM_CHALLENGE_2 (-1760647377)':
+    'prefix': 'KV5M_SAM_CHALLENGE_2'
+    'body': 'KV5M_SAM_CHALLENGE_2'
+  'KV5M_SAM_KEY (-1760647376)':
+    'prefix': 'KV5M_SAM_KEY'
+    'body': 'KV5M_SAM_KEY'
+  'KV5M_SAM_RESPONSE (-1760647373)':
+    'prefix': 'KV5M_SAM_RESPONSE'
+    'body': 'KV5M_SAM_RESPONSE'
+  'KV5M_SAM_RESPONSE_2 (-1760647372)':
+    'prefix': 'KV5M_SAM_RESPONSE_2'
+    'body': 'KV5M_SAM_RESPONSE_2'
+  'KV5M_TICKET (-1760647411)':
+    'prefix': 'KV5M_TICKET'
+    'body': 'KV5M_TICKET'
+  'KV5M_TKT_AUTHENT (-1760647409)':
+    'prefix': 'KV5M_TKT_AUTHENT'
+    'body': 'KV5M_TKT_AUTHENT'
+  'KV5M_TRANSITED (-1760647413)':
+    'prefix': 'KV5M_TRANSITED'
+    'body': 'KV5M_TRANSITED'
+  'LR_TYPE_INTERPRETATION_MASK (32767)':
+    'prefix': 'LR_TYPE_INTERPRETATION_MASK'
+    'body': 'LR_TYPE_INTERPRETATION_MASK'
+  'LR_TYPE_THIS_SERVER_ONLY (32768)':
+    'prefix': 'LR_TYPE_THIS_SERVER_ONLY'
+    'body': 'LR_TYPE_THIS_SERVER_ONLY'
+  'MAX_KEYTAB_NAME_LEN (1100)':
+    'prefix': 'MAX_KEYTAB_NAME_LEN'
+    'body': 'MAX_KEYTAB_NAME_LEN'
+  'MAX_V4_CRED_LEN (1250)':
+    'prefix': 'MAX_V4_CRED_LEN'
+    'body': 'MAX_V4_CRED_LEN'
+  'MSEC_DIRBIT (32768)':
+    'prefix': 'MSEC_DIRBIT'
+    'body': 'MSEC_DIRBIT'
+  'MSEC_VAL_MASK (32767)':
+    'prefix': 'MSEC_VAL_MASK'
+    'body': 'MSEC_VAL_MASK'
+  'PA_HARDWARE (4)':
+    'prefix': 'PA_HARDWARE'
+    'body': 'PA_HARDWARE'
+  'PA_INFO (2)':
+    'prefix': 'PA_INFO'
+    'body': 'PA_INFO'
+  'PA_PSEUDO (128)':
+    'prefix': 'PA_PSEUDO'
+    'body': 'PA_PSEUDO'
+  'PA_REAL (1)':
+    'prefix': 'PA_REAL'
+    'body': 'PA_REAL'
+  'PA_REPLACES_KEY (32)':
+    'prefix': 'PA_REPLACES_KEY'
+    'body': 'PA_REPLACES_KEY'
+  'PA_REQUIRED (8)':
+    'prefix': 'PA_REQUIRED'
+    'body': 'PA_REQUIRED'
+  'PA_SUFFICIENT (16)':
+    'prefix': 'PA_SUFFICIENT'
+    'body': 'PA_SUFFICIENT'
+  'PROFILE_ITER_LIST_SECTION (1)':
+    'prefix': 'PROFILE_ITER_LIST_SECTION'
+    'body': 'PROFILE_ITER_LIST_SECTION'
+  'PROFILE_ITER_RELATIONS_ONLY (4)':
+    'prefix': 'PROFILE_ITER_RELATIONS_ONLY'
+    'body': 'PROFILE_ITER_RELATIONS_ONLY'
+  'PROFILE_ITER_SECTIONS_ONLY (2)':
+    'prefix': 'PROFILE_ITER_SECTIONS_ONLY'
+    'body': 'PROFILE_ITER_SECTIONS_ONLY'
+  'PROF_ADD_NOT_SECTION (-1429577724)':
+    'prefix': 'PROF_ADD_NOT_SECTION'
+    'body': 'PROF_ADD_NOT_SECTION'
+  'PROF_BAD_BOOLEAN (-1429577700)':
+    'prefix': 'PROF_BAD_BOOLEAN'
+    'body': 'PROF_BAD_BOOLEAN'
+  'PROF_BAD_GROUP_LVL (-1429577721)':
+    'prefix': 'PROF_BAD_GROUP_LVL'
+    'body': 'PROF_BAD_GROUP_LVL'
+  'PROF_BAD_INTEGER (-1429577699)':
+    'prefix': 'PROF_BAD_INTEGER'
+    'body': 'PROF_BAD_INTEGER'
+  'PROF_BAD_LINK_LIST (-1429577722)':
+    'prefix': 'PROF_BAD_LINK_LIST'
+    'body': 'PROF_BAD_LINK_LIST'
+  'PROF_BAD_NAMESET (-1429577705)':
+    'prefix': 'PROF_BAD_NAMESET'
+    'body': 'PROF_BAD_NAMESET'
+  'PROF_BAD_PARENT_PTR (-1429577720)':
+    'prefix': 'PROF_BAD_PARENT_PTR'
+    'body': 'PROF_BAD_PARENT_PTR'
+  'PROF_EINVAL (-1429577717)':
+    'prefix': 'PROF_EINVAL'
+    'body': 'PROF_EINVAL'
+  'PROF_END_OF_SECTIONS (-1429577706)':
+    'prefix': 'PROF_END_OF_SECTIONS'
+    'body': 'PROF_END_OF_SECTIONS'
+  'PROF_EXISTS (-1429577701)':
+    'prefix': 'PROF_EXISTS'
+    'body': 'PROF_EXISTS'
+  'PROF_EXTRA_CBRACE (-1429577712)':
+    'prefix': 'PROF_EXTRA_CBRACE'
+    'body': 'PROF_EXTRA_CBRACE'
+  'PROF_FAIL_OPEN (-1429577702)':
+    'prefix': 'PROF_FAIL_OPEN'
+    'body': 'PROF_FAIL_OPEN'
+  'PROF_INVALID_SECTION (-1429577707)':
+    'prefix': 'PROF_INVALID_SECTION'
+    'body': 'PROF_INVALID_SECTION'
+  'PROF_MAGIC_FILE (-1429577703)':
+    'prefix': 'PROF_MAGIC_FILE'
+    'body': 'PROF_MAGIC_FILE'
+  'PROF_MAGIC_FILE_DATA (-1429577698)':
+    'prefix': 'PROF_MAGIC_FILE_DATA'
+    'body': 'PROF_MAGIC_FILE_DATA'
+  'PROF_MAGIC_ITERATOR (-1429577719)':
+    'prefix': 'PROF_MAGIC_ITERATOR'
+    'body': 'PROF_MAGIC_ITERATOR'
+  'PROF_MAGIC_NODE (-1429577727)':
+    'prefix': 'PROF_MAGIC_NODE'
+    'body': 'PROF_MAGIC_NODE'
+  'PROF_MAGIC_PROFILE (-1429577710)':
+    'prefix': 'PROF_MAGIC_PROFILE'
+    'body': 'PROF_MAGIC_PROFILE'
+  'PROF_MAGIC_SECTION (-1429577709)':
+    'prefix': 'PROF_MAGIC_SECTION'
+    'body': 'PROF_MAGIC_SECTION'
+  'PROF_MISSING_OBRACE (-1429577711)':
+    'prefix': 'PROF_MISSING_OBRACE'
+    'body': 'PROF_MISSING_OBRACE'
+  'PROF_NO_PROFILE (-1429577704)':
+    'prefix': 'PROF_NO_PROFILE'
+    'body': 'PROF_NO_PROFILE'
+  'PROF_NO_RELATION (-1429577725)':
+    'prefix': 'PROF_NO_RELATION'
+    'body': 'PROF_NO_RELATION'
+  'PROF_NO_SECTION (-1429577726)':
+    'prefix': 'PROF_NO_SECTION'
+    'body': 'PROF_NO_SECTION'
+  'PROF_READ_ONLY (-1429577716)':
+    'prefix': 'PROF_READ_ONLY'
+    'body': 'PROF_READ_ONLY'
+  'PROF_RELATION_SYNTAX (-1429577713)':
+    'prefix': 'PROF_RELATION_SYNTAX'
+    'body': 'PROF_RELATION_SYNTAX'
+  'PROF_SECTION_NOTOP (-1429577715)':
+    'prefix': 'PROF_SECTION_NOTOP'
+    'body': 'PROF_SECTION_NOTOP'
+  'PROF_SECTION_SYNTAX (-1429577714)':
+    'prefix': 'PROF_SECTION_SYNTAX'
+    'body': 'PROF_SECTION_SYNTAX'
+  'PROF_SECTION_WITH_VALUE (-1429577723)':
+    'prefix': 'PROF_SECTION_WITH_VALUE'
+    'body': 'PROF_SECTION_WITH_VALUE'
+  'PROF_SET_SECTION_VALUE (-1429577718)':
+    'prefix': 'PROF_SET_SECTION_VALUE'
+    'body': 'PROF_SET_SECTION_VALUE'
+  'PROF_TOPSECTION_ITER_NOSUPP (-1429577708)':
+    'prefix': 'PROF_TOPSECTION_ITER_NOSUPP'
+    'body': 'PROF_TOPSECTION_ITER_NOSUPP'
+  'PROF_VERSION (-1429577728)':
+    'prefix': 'PROF_VERSION'
+    'body': 'PROF_VERSION'
+  'SALT_TYPE_AFS_LENGTH (4294967295)':
+    'prefix': 'SALT_TYPE_AFS_LENGTH'
+    'body': 'SALT_TYPE_AFS_LENGTH'
+  'SALT_TYPE_NO_LENGTH (4294967295)':
+    'prefix': 'SALT_TYPE_NO_LENGTH'
+    'body': 'SALT_TYPE_NO_LENGTH'
+  'TKT_FLG_ANONYMOUS (131072)':
+    'prefix': 'TKT_FLG_ANONYMOUS'
+    'body': 'TKT_FLG_ANONYMOUS'
+  'TKT_FLG_FORWARDABLE (1073741824)':
+    'prefix': 'TKT_FLG_FORWARDABLE'
+    'body': 'TKT_FLG_FORWARDABLE'
+  'TKT_FLG_FORWARDED (536870912)':
+    'prefix': 'TKT_FLG_FORWARDED'
+    'body': 'TKT_FLG_FORWARDED'
+  'TKT_FLG_HW_AUTH (1048576)':
+    'prefix': 'TKT_FLG_HW_AUTH'
+    'body': 'TKT_FLG_HW_AUTH'
+  'TKT_FLG_INITIAL (4194304)':
+    'prefix': 'TKT_FLG_INITIAL'
+    'body': 'TKT_FLG_INITIAL'
+  'TKT_FLG_INVALID (16777216)':
+    'prefix': 'TKT_FLG_INVALID'
+    'body': 'TKT_FLG_INVALID'
+  'TKT_FLG_MAY_POSTDATE (67108864)':
+    'prefix': 'TKT_FLG_MAY_POSTDATE'
+    'body': 'TKT_FLG_MAY_POSTDATE'
+  'TKT_FLG_OK_AS_DELEGATE (262144)':
+    'prefix': 'TKT_FLG_OK_AS_DELEGATE'
+    'body': 'TKT_FLG_OK_AS_DELEGATE'
+  'TKT_FLG_POSTDATED (33554432)':
+    'prefix': 'TKT_FLG_POSTDATED'
+    'body': 'TKT_FLG_POSTDATED'
+  'TKT_FLG_PRE_AUTH (2097152)':
+    'prefix': 'TKT_FLG_PRE_AUTH'
+    'body': 'TKT_FLG_PRE_AUTH'
+  'TKT_FLG_PROXIABLE (268435456)':
+    'prefix': 'TKT_FLG_PROXIABLE'
+    'body': 'TKT_FLG_PROXIABLE'
+  'TKT_FLG_PROXY (134217728)':
+    'prefix': 'TKT_FLG_PROXY'
+    'body': 'TKT_FLG_PROXY'
+  'TKT_FLG_RENEWABLE (8388608)':
+    'prefix': 'TKT_FLG_RENEWABLE'
+    'body': 'TKT_FLG_RENEWABLE'
+  'TKT_FLG_TRANSIT_POLICY_CHECKED (524288)':
+    'prefix': 'TKT_FLG_TRANSIT_POLICY_CHECKED'
+    'body': 'TKT_FLG_TRANSIT_POLICY_CHECKED'
+  'VALID_INT_BITS (2147483647)':
+    'prefix': 'VALID_INT_BITS'
+    'body': 'VALID_INT_BITS'
+  'VALID_UINT_BITS (4294967295)':
+    'prefix': 'VALID_UINT_BITS'
+    'body': 'VALID_UINT_BITS'
+  'asn1_err_base (1859794432)':
+    'prefix': 'asn1_err_base'
+    'body': 'asn1_err_base'
+  'ccErrBadAPIVersion (213)':
+    'prefix': 'ccErrBadAPIVersion'
+    'body': 'ccErrBadAPIVersion'
+  'ccErrBadCredentialsVersion (212)':
+    'prefix': 'ccErrBadCredentialsVersion'
+    'body': 'ccErrBadCredentialsVersion'
+  'ccErrBadInternalMessage (227)':
+    'prefix': 'ccErrBadInternalMessage'
+    'body': 'ccErrBadInternalMessage'
+  'ccErrBadLockType (218)':
+    'prefix': 'ccErrBadLockType'
+    'body': 'ccErrBadLockType'
+  'ccErrBadName (211)':
+    'prefix': 'ccErrBadName'
+    'body': 'ccErrBadName'
+  'ccErrBadParam (202)':
+    'prefix': 'ccErrBadParam'
+    'body': 'ccErrBadParam'
+  'ccErrCCacheLocked (216)':
+    'prefix': 'ccErrCCacheLocked'
+    'body': 'ccErrCCacheLocked'
+  'ccErrCCacheNotFound (221)':
+    'prefix': 'ccErrCCacheNotFound'
+    'body': 'ccErrCCacheNotFound'
+  'ccErrCCacheUnlocked (217)':
+    'prefix': 'ccErrCCacheUnlocked'
+    'body': 'ccErrCCacheUnlocked'
+  'ccErrClientNotFound (229)':
+    'prefix': 'ccErrClientNotFound'
+    'body': 'ccErrClientNotFound'
+  'ccErrContextLocked (214)':
+    'prefix': 'ccErrContextLocked'
+    'body': 'ccErrContextLocked'
+  'ccErrContextNotFound (222)':
+    'prefix': 'ccErrContextNotFound'
+    'body': 'ccErrContextNotFound'
+  'ccErrContextUnlocked (215)':
+    'prefix': 'ccErrContextUnlocked'
+    'body': 'ccErrContextUnlocked'
+  'ccErrCredentialsNotFound (220)':
+    'prefix': 'ccErrCredentialsNotFound'
+    'body': 'ccErrCredentialsNotFound'
+  'ccErrInvalidCCache (205)':
+    'prefix': 'ccErrInvalidCCache'
+    'body': 'ccErrInvalidCCache'
+  'ccErrInvalidCCacheIterator (208)':
+    'prefix': 'ccErrInvalidCCacheIterator'
+    'body': 'ccErrInvalidCCacheIterator'
+  'ccErrInvalidContext (204)':
+    'prefix': 'ccErrInvalidContext'
+    'body': 'ccErrInvalidContext'
+  'ccErrInvalidCredentials (207)':
+    'prefix': 'ccErrInvalidCredentials'
+    'body': 'ccErrInvalidCredentials'
+  'ccErrInvalidCredentialsIterator (209)':
+    'prefix': 'ccErrInvalidCredentialsIterator'
+    'body': 'ccErrInvalidCredentialsIterator'
+  'ccErrInvalidLock (210)':
+    'prefix': 'ccErrInvalidLock'
+    'body': 'ccErrInvalidLock'
+  'ccErrInvalidString (206)':
+    'prefix': 'ccErrInvalidString'
+    'body': 'ccErrInvalidString'
+  'ccErrNeverDefault (219)':
+    'prefix': 'ccErrNeverDefault'
+    'body': 'ccErrNeverDefault'
+  'ccErrNoMem (203)':
+    'prefix': 'ccErrNoMem'
+    'body': 'ccErrNoMem'
+  'ccErrNotImplemented (228)':
+    'prefix': 'ccErrNotImplemented'
+    'body': 'ccErrNotImplemented'
+  'ccErrServerCantBecomeUID (225)':
+    'prefix': 'ccErrServerCantBecomeUID'
+    'body': 'ccErrServerCantBecomeUID'
+  'ccErrServerInsecure (224)':
+    'prefix': 'ccErrServerInsecure'
+    'body': 'ccErrServerInsecure'
+  'ccErrServerUnavailable (223)':
+    'prefix': 'ccErrServerUnavailable'
+    'body': 'ccErrServerUnavailable'
+  'ccErrTimeOffsetNotSet (226)':
+    'prefix': 'ccErrTimeOffsetNotSet'
+    'body': 'ccErrTimeOffsetNotSet'
+  'ccIteratorEnd (201)':
+    'prefix': 'ccIteratorEnd'
+    'body': 'ccIteratorEnd'
+  'ccNoError (0)':
+    'prefix': 'ccNoError'
+    'body': 'ccNoError'
+  'cc_credentials_v4 (1)':
+    'prefix': 'cc_credentials_v4'
+    'body': 'cc_credentials_v4'
+  'cc_credentials_v4_v5 (3)':
+    'prefix': 'cc_credentials_v4_v5'
+    'body': 'cc_credentials_v4_v5'
+  'cc_credentials_v5 (2)':
+    'prefix': 'cc_credentials_v5'
+    'body': 'cc_credentials_v5'
+  'cc_lock_block (1)':
+    'prefix': 'cc_lock_block'
+    'body': 'cc_lock_block'
+  'cc_lock_downgrade (3)':
+    'prefix': 'cc_lock_downgrade'
+    'body': 'cc_lock_downgrade'
+  'cc_lock_noblock (0)':
+    'prefix': 'cc_lock_noblock'
+    'body': 'cc_lock_noblock'
+  'cc_lock_read (0)':
+    'prefix': 'cc_lock_read'
+    'body': 'cc_lock_read'
+  'cc_lock_upgrade (2)':
+    'prefix': 'cc_lock_upgrade'
+    'body': 'cc_lock_upgrade'
+  'cc_lock_write (1)':
+    'prefix': 'cc_lock_write'
+    'body': 'cc_lock_write'
+  'cc_v4_instance_size (40)':
+    'prefix': 'cc_v4_instance_size'
+    'body': 'cc_v4_instance_size'
+  'cc_v4_key_size (8)':
+    'prefix': 'cc_v4_key_size'
+    'body': 'cc_v4_key_size'
+  'cc_v4_name_size (40)':
+    'prefix': 'cc_v4_name_size'
+    'body': 'cc_v4_name_size'
+  'cc_v4_realm_size (40)':
+    'prefix': 'cc_v4_realm_size'
+    'body': 'cc_v4_realm_size'
+  'cc_v4_stk_afs (0)':
+    'prefix': 'cc_v4_stk_afs'
+    'body': 'cc_v4_stk_afs'
+  'cc_v4_stk_columbia_special (2)':
+    'prefix': 'cc_v4_stk_columbia_special'
+    'body': 'cc_v4_stk_columbia_special'
+  'cc_v4_stk_des (1)':
+    'prefix': 'cc_v4_stk_des'
+    'body': 'cc_v4_stk_des'
+  'cc_v4_stk_krb5 (3)':
+    'prefix': 'cc_v4_stk_krb5'
+    'body': 'cc_v4_stk_krb5'
+  'cc_v4_stk_unknown (4)':
+    'prefix': 'cc_v4_stk_unknown'
+    'body': 'cc_v4_stk_unknown'
+  'cc_v4_ticket_size (1254)':
+    'prefix': 'cc_v4_ticket_size'
+    'body': 'cc_v4_ticket_size'
+  'ccapi_version_2 (2)':
+    'prefix': 'ccapi_version_2'
+    'body': 'ccapi_version_2'
+  'ccapi_version_3 (3)':
+    'prefix': 'ccapi_version_3'
+    'body': 'ccapi_version_3'
+  'ccapi_version_4 (4)':
+    'prefix': 'ccapi_version_4'
+    'body': 'ccapi_version_4'
+  'ccapi_version_5 (5)':
+    'prefix': 'ccapi_version_5'
+    'body': 'ccapi_version_5'
+  'ccapi_version_6 (6)':
+    'prefix': 'ccapi_version_6'
+    'body': 'ccapi_version_6'
+  'ccapi_version_7 (7)':
+    'prefix': 'ccapi_version_7'
+    'body': 'ccapi_version_7'
+  'ccapi_version_max (7)':
+    'prefix': 'ccapi_version_max'
+    'body': 'ccapi_version_max'
+  'k524_err_base (-1750206208)':
+    'prefix': 'k524_err_base'
+    'body': 'K524_err_base'
+  'kdb5_err_base (-1780008448)':
+    'prefix': 'kdb5_err_base'
+    'body': 'Kdb5_err_base'
+  'kerberosVersion_All (4294967295)':
+    'prefix': 'kerberosVersion_All'
+    'body': 'KerberosVersion_All'
+  'kerberosVersion_Any (0)':
+    'prefix': 'kerberosVersion_Any'
+    'body': 'KerberosVersion_Any'
+  'kerberosVersion_V4 (1)':
+    'prefix': 'kerberosVersion_V4'
+    'body': 'KerberosVersion_V4'
+  'kerberosVersion_V5 (2)':
+    'prefix': 'kerberosVersion_V5'
+    'body': 'KerberosVersion_V5'
+  'klBadLoginOptionsErr (19279)':
+    'prefix': 'klBadLoginOptionsErr'
+    'body': 'KlBadLoginOptionsErr'
+  'klBadOptionValueErr (19379)':
+    'prefix': 'klBadOptionValueErr'
+    'body': 'KlBadOptionValueErr'
+  'klBadPasswordErr (19278)':
+    'prefix': 'klBadPasswordErr'
+    'body': 'KlBadPasswordErr'
+  'klBadPrincipalErr (19277)':
+    'prefix': 'klBadPrincipalErr'
+    'body': 'KlBadPrincipalErr'
+  'klBadV5ContextErr (19282)':
+    'prefix': 'klBadV5ContextErr'
+    'body': 'KlBadV5ContextErr'
+  'klBufferTooLargeErr (19377)':
+    'prefix': 'klBufferTooLargeErr'
+    'body': 'KlBufferTooLargeErr'
+  'klBufferTooSmallErr (19376)':
+    'prefix': 'klBufferTooSmallErr'
+    'body': 'KlBufferTooSmallErr'
+  'klCacheDoesNotExistErr (19488)':
+    'prefix': 'klCacheDoesNotExistErr'
+    'body': 'KlCacheDoesNotExistErr'
+  'klCantContactServerErr (19776)':
+    'prefix': 'klCantContactServerErr'
+    'body': 'KlCantContactServerErr'
+  'klCantDisplayUIErr (19777)':
+    'prefix': 'klCantDisplayUIErr'
+    'body': 'KlCantDisplayUIErr'
+  'klCapsLockErr (19281)':
+    'prefix': 'klCapsLockErr'
+    'body': 'KlCapsLockErr'
+  'klCredentialsBadAddressErr (19487)':
+    'prefix': 'klCredentialsBadAddressErr'
+    'body': 'KlCredentialsBadAddressErr'
+  'klCredentialsExpiredErr (19483)':
+    'prefix': 'klCredentialsExpiredErr'
+    'body': 'KlCredentialsExpiredErr'
+  'klCredentialsNeedValidationErr (19490)':
+    'prefix': 'klCredentialsNeedValidationErr'
+    'body': 'KlCredentialsNeedValidationErr'
+  'klFirstError (19276)':
+    'prefix': 'klFirstError'
+    'body': 'KlFirstError'
+  'klInsecurePasswordErr (19577)':
+    'prefix': 'klInsecurePasswordErr'
+    'body': 'KlInsecurePasswordErr'
+  'klInvalidOptionErr (19378)':
+    'prefix': 'klInvalidOptionErr'
+    'body': 'KlInvalidOptionErr'
+  'klInvalidVersionErr (19280)':
+    'prefix': 'klInvalidVersionErr'
+    'body': 'KlInvalidVersionErr'
+  'klLastError (19876)':
+    'prefix': 'klLastError'
+    'body': 'KlLastError'
+  'klMemFullErr (19477)':
+    'prefix': 'klMemFullErr'
+    'body': 'KlMemFullErr'
+  'klNoCredentialsErr (19486)':
+    'prefix': 'klNoCredentialsErr'
+    'body': 'KlNoCredentialsErr'
+  'klNoErr (0)':
+    'prefix': 'klNoErr'
+    'body': 'KlNoErr'
+  'klNoHostnameErr (19489)':
+    'prefix': 'klNoHostnameErr'
+    'body': 'KlNoHostnameErr'
+  'klNoRealmsErr (19484)':
+    'prefix': 'klNoRealmsErr'
+    'body': 'KlNoRealmsErr'
+  'klParameterErr (19276)':
+    'prefix': 'klParameterErr'
+    'body': 'KlParameterErr'
+  'klPasswordChangeFailedErr (19578)':
+    'prefix': 'klPasswordChangeFailedErr'
+    'body': 'KlPasswordChangeFailedErr'
+  'klPasswordMismatchErr (19576)':
+    'prefix': 'klPasswordMismatchErr'
+    'body': 'KlPasswordMismatchErr'
+  'klPreferencesReadErr (19478)':
+    'prefix': 'klPreferencesReadErr'
+    'body': 'KlPreferencesReadErr'
+  'klPreferencesWriteErr (19479)':
+    'prefix': 'klPreferencesWriteErr'
+    'body': 'KlPreferencesWriteErr'
+  'klPrincipalDoesNotExistErr (19481)':
+    'prefix': 'klPrincipalDoesNotExistErr'
+    'body': 'KlPrincipalDoesNotExistErr'
+  'klRealmDoesNotExistErr (19485)':
+    'prefix': 'klRealmDoesNotExistErr'
+    'body': 'KlRealmDoesNotExistErr'
+  'klServerInsecureErr (19778)':
+    'prefix': 'klServerInsecureErr'
+    'body': 'KlServerInsecureErr'
+  'klSystemDefaultDoesNotExistErr (19482)':
+    'prefix': 'klSystemDefaultDoesNotExistErr'
+    'body': 'KlSystemDefaultDoesNotExistErr'
+  'klUserCanceledErr (19476)':
+    'prefix': 'klUserCanceledErr'
+    'body': 'KlUserCanceledErr'
+  'klV5InitializationFailedErr (19480)':
+    'prefix': 'klV5InitializationFailedErr'
+    'body': 'KlV5InitializationFailedErr'
+  'krb5_err_base (-1765328384)':
+    'prefix': 'krb5_err_base'
+    'body': 'Krb5_err_base'
+  'krb5plugin_preauth_client_free_etype (2)':
+    'prefix': 'krb5plugin_preauth_client_free_etype'
+    'body': 'Krb5plugin_preauth_client_free_etype'
+  'krb5plugin_preauth_client_get_etype (1)':
+    'prefix': 'krb5plugin_preauth_client_get_etype'
+    'body': 'Krb5plugin_preauth_client_get_etype'
+  'krb5plugin_preauth_entry_max_time_skew (2)':
+    'prefix': 'krb5plugin_preauth_entry_max_time_skew'
+    'body': 'Krb5plugin_preauth_entry_max_time_skew'
+  'krb5plugin_preauth_entry_request_certificate (1)':
+    'prefix': 'krb5plugin_preauth_entry_request_certificate'
+    'body': 'Krb5plugin_preauth_entry_request_certificate'
+  'krb5plugin_preauth_keys (3)':
+    'prefix': 'krb5plugin_preauth_keys'
+    'body': 'Krb5plugin_preauth_keys'
+  'krb5plugin_preauth_request_body (4)':
+    'prefix': 'krb5plugin_preauth_request_body'
+    'body': 'Krb5plugin_preauth_request_body'
+  'kv5m_err_base (-1760647424)':
+    'prefix': 'kv5m_err_base'
+    'body': 'Kv5m_err_base'
+  'locate_service_kadmin (3)':
+    'prefix': 'locate_service_kadmin'
+    'body': 'locate_service_kadmin'
+  'locate_service_kdc (1)':
+    'prefix': 'locate_service_kdc'
+    'body': 'locate_service_kdc'
+  'locate_service_kpasswd (5)':
+    'prefix': 'locate_service_kpasswd'
+    'body': 'locate_service_kpasswd'
+  'locate_service_krb524 (4)':
+    'prefix': 'locate_service_krb524'
+    'body': 'locate_service_krb524'
+  'locate_service_master_kdc (2)':
+    'prefix': 'locate_service_master_kdc'
+    'body': 'locate_service_master_kdc'
+  'loginLibrary_ChangePasswordDialog (2)':
+    'prefix': 'loginLibrary_ChangePasswordDialog'
+    'body': 'loginLibrary_ChangePasswordDialog'
+  'loginLibrary_LoginDialog (0)':
+    'prefix': 'loginLibrary_LoginDialog'
+    'body': 'loginLibrary_LoginDialog'
+  'loginLibrary_OptionsDialog (1)':
+    'prefix': 'loginLibrary_OptionsDialog'
+    'body': 'loginLibrary_OptionsDialog'
+  'loginLibrary_ProgressDialog (3)':
+    'prefix': 'loginLibrary_ProgressDialog'
+    'body': 'loginLibrary_ProgressDialog'
+  'loginLibrary_PrompterDialog (4)':
+    'prefix': 'loginLibrary_PrompterDialog'
+    'body': 'loginLibrary_PrompterDialog'
+  'loginLibrary_UnknownDialog (-1)':
+    'prefix': 'loginLibrary_UnknownDialog'
+    'body': 'loginLibrary_UnknownDialog'
+  'loginOption_DefaultAddresslessTicket (811689074)':
+    'prefix': 'loginOption_DefaultAddresslessTicket'
+    'body': 'loginOption_DefaultAddresslessTicket'
+  'loginOption_DefaultForwardableTicket (812021604)':
+    'prefix': 'loginOption_DefaultForwardableTicket'
+    'body': 'loginOption_DefaultForwardableTicket'
+  'loginOption_DefaultProxiableTicket (812675704)':
+    'prefix': 'loginOption_DefaultProxiableTicket'
+    'body': 'loginOption_DefaultProxiableTicket'
+  'loginOption_DefaultRenewableLifetime (812805222)':
+    'prefix': 'loginOption_DefaultRenewableLifetime'
+    'body': 'loginOption_DefaultRenewableLifetime'
+  'loginOption_DefaultRenewableTicket (812807288)':
+    'prefix': 'loginOption_DefaultRenewableTicket'
+    'body': 'loginOption_DefaultRenewableTicket'
+  'loginOption_DefaultTicketLifetime (812411238)':
+    'prefix': 'loginOption_DefaultTicketLifetime'
+    'body': 'loginOption_DefaultTicketLifetime'
+  'loginOption_LoginInstance (1768846196)':
+    'prefix': 'loginOption_LoginInstance'
+    'body': 'loginOption_LoginInstance'
+  'loginOption_LoginName (1851878757)':
+    'prefix': 'loginOption_LoginName'
+    'body': 'loginOption_LoginName'
+  'loginOption_MaximalRenewableLifetime (728919142)':
+    'prefix': 'loginOption_MaximalRenewableLifetime'
+    'body': 'loginOption_MaximalRenewableLifetime'
+  'loginOption_MaximalTicketLifetime (728525158)':
+    'prefix': 'loginOption_MaximalTicketLifetime'
+    'body': 'loginOption_MaximalTicketLifetime'
+  'loginOption_MinimalRenewableLifetime (762473574)':
+    'prefix': 'loginOption_MinimalRenewableLifetime'
+    'body': 'loginOption_MinimalRenewableLifetime'
+  'loginOption_MinimalTicketLifetime (762079590)':
+    'prefix': 'loginOption_MinimalTicketLifetime'
+    'body': 'loginOption_MinimalTicketLifetime'
+  'loginOption_RememberExtras (1702392946)':
+    'prefix': 'loginOption_RememberExtras'
+    'body': 'loginOption_RememberExtras'
+  'loginOption_RememberPrincipal (1886546286)':
+    'prefix': 'loginOption_RememberPrincipal'
+    'body': 'loginOption_RememberPrincipal'
+  'prof_err_base (-1429577728)':
+    'prefix': 'prof_err_base'
+    'body': 'prof_err_base'
+  'realmList_End (65535)':
+    'prefix': 'realmList_End'
+    'body': 'realmList_End'
+  'realmList_Start (0)':
+    'prefix': 'realmList_Start'
+    'body': 'realmList_Start'
+  'KLAcquireInitialTickets':
+    'prefix': 'KLAcquireInitialTickets'
+    'body': 'KLAcquireInitialTickets(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:KLPrincipal* outPrincipal}, ${4:char** outCredCacheName})'
+  'KLAcquireInitialTicketsWithPassword':
+    'prefix': 'KLAcquireInitialTicketsWithPassword'
+    'body': 'KLAcquireInitialTicketsWithPassword(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char* inPassword}, ${4:char** outCredCacheName})'
+  'KLAcquireNewInitialTicketCredentialsWithPassword':
+    'prefix': 'KLAcquireNewInitialTicketCredentialsWithPassword'
+    'body': 'KLAcquireNewInitialTicketCredentialsWithPassword(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char* inPassword}, ${4:krb5_context inV5Context}, ${5:KLBoolean* outGotV4Credentials}, ${6:KLBoolean* outGotV5Credentials}, ${7:void* outV4Credentials}, ${8:krb5_creds* outV5Credentials})'
+  'KLAcquireNewInitialTickets':
+    'prefix': 'KLAcquireNewInitialTickets'
+    'body': 'KLAcquireNewInitialTickets(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:KLPrincipal* outPrincipal}, ${4:char** outCredCacheName})'
+  'KLAcquireNewInitialTicketsWithKeytab':
+    'prefix': 'KLAcquireNewInitialTicketsWithKeytab'
+    'body': 'KLAcquireNewInitialTicketsWithKeytab(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char* inKeytabName}, ${4:char** outCredCacheName})'
+  'KLAcquireNewInitialTicketsWithPassword':
+    'prefix': 'KLAcquireNewInitialTicketsWithPassword'
+    'body': 'KLAcquireNewInitialTicketsWithPassword(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char* inPassword}, ${4:char** outCredCacheName})'
+  'KLAcquireNewTickets':
+    'prefix': 'KLAcquireNewTickets'
+    'body': 'KLAcquireNewTickets(${1:KLPrincipal inPrincipal}, ${2:KLPrincipal* outPrincipal}, ${3:char** outCredCacheName})'
+  'KLAcquireNewTicketsWithPassword':
+    'prefix': 'KLAcquireNewTicketsWithPassword'
+    'body': 'KLAcquireNewTicketsWithPassword(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char* inPassword}, ${4:char** outCredCacheName})'
+  'KLAcquireTickets':
+    'prefix': 'KLAcquireTickets'
+    'body': 'KLAcquireTickets(${1:KLPrincipal inPrincipal}, ${2:KLPrincipal* outPrincipal}, ${3:char** outCredCacheName})'
+  'KLAcquireTicketsWithPassword':
+    'prefix': 'KLAcquireTicketsWithPassword'
+    'body': 'KLAcquireTicketsWithPassword(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char* inPassword}, ${4:char** outCredCacheName})'
+  'KLCacheHasValidTickets':
+    'prefix': 'KLCacheHasValidTickets'
+    'body': 'KLCacheHasValidTickets(${1:KLPrincipal inPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:KLBoolean* outFoundValidTickets}, ${4:KLPrincipal* outPrincipal}, ${5:char** outCredCacheName})'
+  'KLCancelAllDialogs':
+    'prefix': 'KLCancelAllDialogs'
+    'body': 'KLCancelAllDialogs()'
+  'KLChangePassword':
+    'prefix': 'KLChangePassword'
+    'body': 'KLChangePassword(${1:KLPrincipal inPrincipal})'
+  'KLChangePasswordWithPasswords':
+    'prefix': 'KLChangePasswordWithPasswords'
+    'body': 'KLChangePasswordWithPasswords(${1:KLPrincipal inPrincipal}, ${2:char* inOldPassword}, ${3:char* inNewPassword}, ${4:KLBoolean* outRejected}, ${5:char** outRejectionError}, ${6:char** outRejectionDescription})'
+  'KLComparePrincipal':
+    'prefix': 'KLComparePrincipal'
+    'body': 'KLComparePrincipal(${1:KLPrincipal inFirstPrincipal}, ${2:KLPrincipal inSecondPrincipal}, ${3:KLBoolean* outAreEquivalent})'
+  'KLCountKerberosRealms':
+    'prefix': 'KLCountKerberosRealms'
+    'body': 'KLCountKerberosRealms()'
+  'KLCreateLoginOptions':
+    'prefix': 'KLCreateLoginOptions'
+    'body': 'KLCreateLoginOptions(${1:KLLoginOptions* outOptions})'
+  'KLCreatePrincipalFromKerberos5Principal':
+    'prefix': 'KLCreatePrincipalFromKerberos5Principal'
+    'body': 'KLCreatePrincipalFromKerberos5Principal(${1:krb5_principal inKerberos5Principal}, ${2:KLPrincipal* outPrincipal})'
+  'KLCreatePrincipalFromPrincipal':
+    'prefix': 'KLCreatePrincipalFromPrincipal'
+    'body': 'KLCreatePrincipalFromPrincipal(${1:KLPrincipal inPrincipal}, ${2:KLPrincipal* outPrincipal})'
+  'KLCreatePrincipalFromString':
+    'prefix': 'KLCreatePrincipalFromString'
+    'body': 'KLCreatePrincipalFromString(${1:char* inFullPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:KLPrincipal* outPrincipal})'
+  'KLCreatePrincipalFromTriplet':
+    'prefix': 'KLCreatePrincipalFromTriplet'
+    'body': 'KLCreatePrincipalFromTriplet(${1:char* inName}, ${2:char* inInstance}, ${3:char* inRealm}, ${4:KLPrincipal* outPrincipal})'
+  'KLDestroyTickets':
+    'prefix': 'KLDestroyTickets'
+    'body': 'KLDestroyTickets(${1:KLPrincipal inPrincipal})'
+  'KLDisposeLoginOptions':
+    'prefix': 'KLDisposeLoginOptions'
+    'body': 'KLDisposeLoginOptions(${1:KLLoginOptions ioOptions})'
+  'KLDisposePrincipal':
+    'prefix': 'KLDisposePrincipal'
+    'body': 'KLDisposePrincipal(${1:KLPrincipal inPrincipal})'
+  'KLDisposeString':
+    'prefix': 'KLDisposeString'
+    'body': 'KLDisposeString(${1:char* inStringToDispose})'
+  'KLFindKerberosRealmByName':
+    'prefix': 'KLFindKerberosRealmByName'
+    'body': 'KLFindKerberosRealmByName(${1:char* inRealmName}, ${2:KLIndex* outIndex})'
+  'KLGetApplicationOptions':
+    'prefix': 'KLGetApplicationOptions'
+    'body': 'KLGetApplicationOptions(${1:void* outAppOptions})'
+  'KLGetDefaultLoginOption':
+    'prefix': 'KLGetDefaultLoginOption'
+    'body': 'KLGetDefaultLoginOption(${1:KLDefaultLoginOption inOption}, ${2:void* ioBuffer}, ${3:KLSize* ioBufferSize})'
+  'KLGetDisplayStringFromPrincipal':
+    'prefix': 'KLGetDisplayStringFromPrincipal'
+    'body': 'KLGetDisplayStringFromPrincipal(${1:KLPrincipal inPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:char** outFullPrincipal})'
+  'KLGetErrorString':
+    'prefix': 'KLGetErrorString'
+    'body': 'KLGetErrorString(${1:KLStatus inError}, ${2:char** outErrorString})'
+  'KLGetIdleCallback':
+    'prefix': 'KLGetIdleCallback'
+    'body': 'KLGetIdleCallback(${1:KLIdleCallback* inCallback}, ${2:KLRefCon* inRefCon})'
+  'KLGetKerberosDefaultRealm':
+    'prefix': 'KLGetKerberosDefaultRealm'
+    'body': 'KLGetKerberosDefaultRealm(${1:KLIndex* outIndex})'
+  'KLGetKerberosDefaultRealmByName':
+    'prefix': 'KLGetKerberosDefaultRealmByName'
+    'body': 'KLGetKerberosDefaultRealmByName(${1:char** outRealmName})'
+  'KLGetKerberosRealm':
+    'prefix': 'KLGetKerberosRealm'
+    'body': 'KLGetKerberosRealm(${1:KLIndex inIndex}, ${2:char** outRealmName})'
+  'KLGetStringFromPrincipal':
+    'prefix': 'KLGetStringFromPrincipal'
+    'body': 'KLGetStringFromPrincipal(${1:KLPrincipal inPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:char** outFullPrincipal})'
+  'KLGetTripletFromPrincipal':
+    'prefix': 'KLGetTripletFromPrincipal'
+    'body': 'KLGetTripletFromPrincipal(${1:KLPrincipal inPrincipal}, ${2:char** outName}, ${3:char** outInstance}, ${4:char** outRealm})'
+  'KLHandleError':
+    'prefix': 'KLHandleError'
+    'body': 'KLHandleError(${1:KLStatus inError}, ${2:KLDialogIdentifier inDialogIdentifier}, ${3:KLBoolean inShowAlert})'
+  'KLInsertKerberosRealm':
+    'prefix': 'KLInsertKerberosRealm'
+    'body': 'KLInsertKerberosRealm(${1:KLIndex inInsertBeforeIndex}, ${2:char* inRealmName})'
+  'KLLastChangedTime':
+    'prefix': 'KLLastChangedTime'
+    'body': 'KLLastChangedTime(${1:KLTime* outLastChangedTime})'
+  'KLLoginOptionsSetAddressless':
+    'prefix': 'KLLoginOptionsSetAddressless'
+    'body': 'KLLoginOptionsSetAddressless(${1:KLLoginOptions ioOptions}, ${2:KLBoolean inAddressless})'
+  'KLLoginOptionsSetForwardable':
+    'prefix': 'KLLoginOptionsSetForwardable'
+    'body': 'KLLoginOptionsSetForwardable(${1:KLLoginOptions ioOptions}, ${2:KLBoolean inForwardable})'
+  'KLLoginOptionsSetProxiable':
+    'prefix': 'KLLoginOptionsSetProxiable'
+    'body': 'KLLoginOptionsSetProxiable(${1:KLLoginOptions ioOptions}, ${2:KLBoolean inProxiable})'
+  'KLLoginOptionsSetRenewableLifetime':
+    'prefix': 'KLLoginOptionsSetRenewableLifetime'
+    'body': 'KLLoginOptionsSetRenewableLifetime(${1:KLLoginOptions ioOptions}, ${2:KLLifetime inRenewableLifetime})'
+  'KLLoginOptionsSetServiceName':
+    'prefix': 'KLLoginOptionsSetServiceName'
+    'body': 'KLLoginOptionsSetServiceName(${1:KLLoginOptions ioOptions}, ${2:char* inServiceName})'
+  'KLLoginOptionsSetTicketLifetime':
+    'prefix': 'KLLoginOptionsSetTicketLifetime'
+    'body': 'KLLoginOptionsSetTicketLifetime(${1:KLLoginOptions ioOptions}, ${2:KLLifetime inTicketLifetime})'
+  'KLLoginOptionsSetTicketStartTime':
+    'prefix': 'KLLoginOptionsSetTicketStartTime'
+    'body': 'KLLoginOptionsSetTicketStartTime(${1:KLLoginOptions ioOptions}, ${2:KLTime inStartTime})'
+  'KLRemoveAllKerberosRealms':
+    'prefix': 'KLRemoveAllKerberosRealms'
+    'body': 'KLRemoveAllKerberosRealms()'
+  'KLRemoveKerberosRealm':
+    'prefix': 'KLRemoveKerberosRealm'
+    'body': 'KLRemoveKerberosRealm(${1:KLIndex inIndex})'
+  'KLRenewInitialTickets':
+    'prefix': 'KLRenewInitialTickets'
+    'body': 'KLRenewInitialTickets(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:KLPrincipal* outPrincipal}, ${4:char** outCredCacheName})'
+  'KLSetApplicationOptions':
+    'prefix': 'KLSetApplicationOptions'
+    'body': 'KLSetApplicationOptions(${1:void* inAppOptions})'
+  'KLSetDefaultLoginOption':
+    'prefix': 'KLSetDefaultLoginOption'
+    'body': 'KLSetDefaultLoginOption(${1:KLDefaultLoginOption inOption}, ${2:void* inBuffer}, ${3:KLSize inBufferSize})'
+  'KLSetIdleCallback':
+    'prefix': 'KLSetIdleCallback'
+    'body': 'KLSetIdleCallback(${1:KLIdleCallback inCallback}, ${2:KLRefCon inRefCon})'
+  'KLSetKerberosDefaultRealm':
+    'prefix': 'KLSetKerberosDefaultRealm'
+    'body': 'KLSetKerberosDefaultRealm(${1:KLIndex inIndex})'
+  'KLSetKerberosDefaultRealmByName':
+    'prefix': 'KLSetKerberosDefaultRealmByName'
+    'body': 'KLSetKerberosDefaultRealmByName(${1:char* inRealm})'
+  'KLSetKerberosRealm':
+    'prefix': 'KLSetKerberosRealm'
+    'body': 'KLSetKerberosRealm(${1:KLIndex inIndex}, ${2:char* inRealmName})'
+  'KLSetSystemDefaultCache':
+    'prefix': 'KLSetSystemDefaultCache'
+    'body': 'KLSetSystemDefaultCache(${1:KLPrincipal inPrincipal})'
+  'KLStoreNewInitialTicketCredentials':
+    'prefix': 'KLStoreNewInitialTicketCredentials'
+    'body': 'KLStoreNewInitialTicketCredentials(${1:KLPrincipal inPrincipal}, ${2:krb5_context inV5Context}, ${3:void* inV4Credentials}, ${4:krb5_creds* inV5Credentials}, ${5:char** outCredCacheName})'
+  'KLTicketExpirationTime':
+    'prefix': 'KLTicketExpirationTime'
+    'body': 'KLTicketExpirationTime(${1:KLPrincipal inPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:KLTime* outExpirationTime})'
+  'KLTicketStartTime':
+    'prefix': 'KLTicketStartTime'
+    'body': 'KLTicketStartTime(${1:KLPrincipal inPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:KLTime* outStartTime})'
+  'KLValidateInitialTickets':
+    'prefix': 'KLValidateInitialTickets'
+    'body': 'KLValidateInitialTickets(${1:KLPrincipal inPrincipal}, ${2:KLLoginOptions inLoginOptions}, ${3:char** outCredCacheName})'
+  'KLVerifyInitialTicketCredentials':
+    'prefix': 'KLVerifyInitialTicketCredentials'
+    'body': 'KLVerifyInitialTicketCredentials(${1:void* inV4Credentials}, ${2:krb5_creds* inV5Credentials}, ${3:KLBoolean inFailIfNoHostKey})'
+  'KLVerifyInitialTickets':
+    'prefix': 'KLVerifyInitialTickets'
+    'body': 'KLVerifyInitialTickets(${1:KLPrincipal inPrincipal}, ${2:KLBoolean inFailIfNoHostKey}, ${3:char** outCredCacheName})'
+  'add_error_table':
+    'prefix': 'add_error_table'
+    'body': 'add_error_table(${1:struct error_table* et})'
+  'apple_gss_krb5_export_authdata_if_relevant_context':
+    'prefix': 'apple_gss_krb5_export_authdata_if_relevant_context'
+    'body': 'apple_gss_krb5_export_authdata_if_relevant_context(${1:OM_uint32* minor_status}, ${2:gss_ctx_id_t* context_handle}, ${3:OM_uint32 version}, ${4:void** kctx})'
+  'apple_gss_krb5_free_authdata_if_relevant':
+    'prefix': 'apple_gss_krb5_free_authdata_if_relevant'
+    'body': 'apple_gss_krb5_free_authdata_if_relevant(${1:OM_uint32* minor_status}, ${2:void* kctx})'
+  'cc_close':
+    'prefix': 'cc_close'
+    'body': 'cc_close(${1:apiCB* in_context}, ${2:ccache_p** ioCCache})'
+  'cc_create':
+    'prefix': 'cc_create'
+    'body': 'cc_create(${1:apiCB* in_context}, ${2:char* in_name}, ${3:char* in_principal}, ${4:cc_int32 in_version}, ${5:cc_uint32 in_flags}, ${6:ccache_p** out_ccache})'
+  'cc_destroy':
+    'prefix': 'cc_destroy'
+    'body': 'cc_destroy(${1:apiCB* in_context}, ${2:ccache_p** io_ccache})'
+  'cc_free_NC_info':
+    'prefix': 'cc_free_NC_info'
+    'body': 'cc_free_NC_info(${1:apiCB* in_context}, ${2:infoNC*** io_info})'
+  'cc_free_creds':
+    'prefix': 'cc_free_creds'
+    'body': 'cc_free_creds(${1:apiCB* in_context}, ${2:cred_union** io_cred_union})'
+  'cc_free_name':
+    'prefix': 'cc_free_name'
+    'body': 'cc_free_name(${1:apiCB* in_context}, ${2:char** io_name})'
+  'cc_free_principal':
+    'prefix': 'cc_free_principal'
+    'body': 'cc_free_principal(${1:apiCB* in_context}, ${2:char** io_principal})'
+  'cc_get_NC_info':
+    'prefix': 'cc_get_NC_info'
+    'body': 'cc_get_NC_info(${1:apiCB* in_context}, ${2:infoNC*** out_info})'
+  'cc_get_change_time':
+    'prefix': 'cc_get_change_time'
+    'body': 'cc_get_change_time(${1:apiCB* in_context}, ${2:cc_time_t* out_change_time})'
+  'cc_get_cred_version':
+    'prefix': 'cc_get_cred_version'
+    'body': 'cc_get_cred_version(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:cc_int32* out_version})'
+  'cc_get_name':
+    'prefix': 'cc_get_name'
+    'body': 'cc_get_name(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:char** out_name})'
+  'cc_get_principal':
+    'prefix': 'cc_get_principal'
+    'body': 'cc_get_principal(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:char** out_principal})'
+  'cc_initialize':
+    'prefix': 'cc_initialize'
+    'body': 'cc_initialize(${1:cc_context_t* out_context}, ${2:cc_int32 in_version}, ${3:cc_int32* out_supported_version}, ${4:char** out_vendor})'
+  'cc_lock_request':
+    'prefix': 'cc_lock_request'
+    'body': 'cc_lock_request(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:cc_int32 in_lock_type})'
+  'cc_open':
+    'prefix': 'cc_open'
+    'body': 'cc_open(${1:apiCB* in_context}, ${2:char* in_name}, ${3:cc_int32 in_version}, ${4:cc_uint32 in_flags}, ${5:ccache_p** out_ccache})'
+  'cc_remove_cred':
+    'prefix': 'cc_remove_cred'
+    'body': 'cc_remove_cred(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:cred_union in_credentials})'
+  'cc_seq_fetch_NCs_begin':
+    'prefix': 'cc_seq_fetch_NCs_begin'
+    'body': 'cc_seq_fetch_NCs_begin(${1:apiCB* in_context}, ${2:ccache_cit** out_nc_iterator})'
+  'cc_seq_fetch_NCs_end':
+    'prefix': 'cc_seq_fetch_NCs_end'
+    'body': 'cc_seq_fetch_NCs_end(${1:apiCB* in_context}, ${2:ccache_cit** io_nc_iterator})'
+  'cc_seq_fetch_NCs_next':
+    'prefix': 'cc_seq_fetch_NCs_next'
+    'body': 'cc_seq_fetch_NCs_next(${1:apiCB* in_context}, ${2:ccache_p** out_ccache}, ${3:ccache_cit* in_nc_iterator})'
+  'cc_seq_fetch_creds_begin':
+    'prefix': 'cc_seq_fetch_creds_begin'
+    'body': 'cc_seq_fetch_creds_begin(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:ccache_cit** out_ccache_iterator})'
+  'cc_seq_fetch_creds_end':
+    'prefix': 'cc_seq_fetch_creds_end'
+    'body': 'cc_seq_fetch_creds_end(${1:apiCB* in_context}, ${2:ccache_cit** io_ccache_iterator})'
+  'cc_seq_fetch_creds_next':
+    'prefix': 'cc_seq_fetch_creds_next'
+    'body': 'cc_seq_fetch_creds_next(${1:apiCB* in_context}, ${2:cred_union** out_cred_union}, ${3:ccache_cit* in_ccache_iterator})'
+  'cc_set_principal':
+    'prefix': 'cc_set_principal'
+    'body': 'cc_set_principal(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:cc_int32 in_version}, ${4:char* in_principal})'
+  'cc_shutdown':
+    'prefix': 'cc_shutdown'
+    'body': 'cc_shutdown(${1:apiCB** io_context})'
+  'cc_store':
+    'prefix': 'cc_store'
+    'body': 'cc_store(${1:apiCB* in_context}, ${2:ccache_p* in_ccache}, ${3:cred_union in_credentials})'
+  'com_err':
+    'prefix': 'com_err'
+    'body': 'com_err(${1:char* progname}, ${2:errcode_t code}, ${3:char* format})'
+  'com_err_va':
+    'prefix': 'com_err_va'
+    'body': 'com_err_va(${1:char* progname}, ${2:errcode_t code}, ${3:char* format}, ${4:va_list args})'
+  'error_manager':
+    'prefix': 'error_manager'
+    'body': 'error_manager(${1:errcode_t code})'
+  'error_message':
+    'prefix': 'error_message'
+    'body': 'error_message(${1:errcode_t code})'
+  'gss_accept_sec_context':
+    'prefix': 'gss_accept_sec_context'
+    'body': 'gss_accept_sec_context(${1:OM_uint32* }, ${2:gss_ctx_id_t* }, ${3:gss_cred_id_t }, ${4:gss_buffer_t }, ${5:gss_channel_bindings_t }, ${6:gss_name_t* }, ${7:gss_OID* }, ${8:gss_buffer_t }, ${9:OM_uint32* }, ${10:OM_uint32* }, ${11:gss_cred_id_t* })'
+  'gss_acquire_cred':
+    'prefix': 'gss_acquire_cred'
+    'body': 'gss_acquire_cred(${1:OM_uint32* }, ${2:gss_name_t }, ${3:OM_uint32 }, ${4:gss_OID_set }, ${5:gss_cred_usage_t }, ${6:gss_cred_id_t* }, ${7:gss_OID_set* }, ${8:OM_uint32* })'
+  'gss_add_cred':
+    'prefix': 'gss_add_cred'
+    'body': 'gss_add_cred(${1:OM_uint32* }, ${2:gss_cred_id_t }, ${3:gss_name_t }, ${4:gss_OID }, ${5:gss_cred_usage_t }, ${6:OM_uint32 }, ${7:OM_uint32 }, ${8:gss_cred_id_t* }, ${9:gss_OID_set* }, ${10:OM_uint32* }, ${11:OM_uint32* })'
+  'gss_add_oid_set_member':
+    'prefix': 'gss_add_oid_set_member'
+    'body': 'gss_add_oid_set_member(${1:OM_uint32* }, ${2:gss_OID }, ${3:gss_OID_set* })'
+  'gss_canonicalize_name':
+    'prefix': 'gss_canonicalize_name'
+    'body': 'gss_canonicalize_name(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_OID }, ${4:gss_name_t* })'
+  'gss_compare_name':
+    'prefix': 'gss_compare_name'
+    'body': 'gss_compare_name(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_name_t }, ${4:int* })'
+  'gss_context_time':
+    'prefix': 'gss_context_time'
+    'body': 'gss_context_time(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:OM_uint32* })'
+  'gss_create_empty_oid_set':
+    'prefix': 'gss_create_empty_oid_set'
+    'body': 'gss_create_empty_oid_set(${1:OM_uint32* }, ${2:gss_OID_set* })'
+  'gss_delete_sec_context':
+    'prefix': 'gss_delete_sec_context'
+    'body': 'gss_delete_sec_context(${1:OM_uint32* }, ${2:gss_ctx_id_t* }, ${3:gss_buffer_t })'
+  'gss_display_name':
+    'prefix': 'gss_display_name'
+    'body': 'gss_display_name(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_buffer_t }, ${4:gss_OID* })'
+  'gss_display_status':
+    'prefix': 'gss_display_status'
+    'body': 'gss_display_status(${1:OM_uint32* }, ${2:OM_uint32 }, ${3:int }, ${4:gss_OID }, ${5:OM_uint32* }, ${6:gss_buffer_t })'
+  'gss_duplicate_name':
+    'prefix': 'gss_duplicate_name'
+    'body': 'gss_duplicate_name(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_name_t* })'
+  'gss_export_name':
+    'prefix': 'gss_export_name'
+    'body': 'gss_export_name(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_buffer_t })'
+  'gss_export_name_object':
+    'prefix': 'gss_export_name_object'
+    'body': 'gss_export_name_object(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_OID }, ${4:void** })'
+  'gss_export_sec_context':
+    'prefix': 'gss_export_sec_context'
+    'body': 'gss_export_sec_context(${1:OM_uint32* }, ${2:gss_ctx_id_t* }, ${3:gss_buffer_t })'
+  'gss_get_mic':
+    'prefix': 'gss_get_mic'
+    'body': 'gss_get_mic(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_qop_t }, ${4:gss_buffer_t }, ${5:gss_buffer_t })'
+  'gss_import_name':
+    'prefix': 'gss_import_name'
+    'body': 'gss_import_name(${1:OM_uint32* }, ${2:gss_buffer_t }, ${3:gss_OID }, ${4:gss_name_t* })'
+  'gss_import_name_object':
+    'prefix': 'gss_import_name_object'
+    'body': 'gss_import_name_object(${1:OM_uint32* }, ${2:void* }, ${3:gss_OID }, ${4:gss_name_t* })'
+  'gss_import_sec_context':
+    'prefix': 'gss_import_sec_context'
+    'body': 'gss_import_sec_context(${1:OM_uint32* }, ${2:gss_buffer_t }, ${3:gss_ctx_id_t* })'
+  'gss_indicate_mechs':
+    'prefix': 'gss_indicate_mechs'
+    'body': 'gss_indicate_mechs(${1:OM_uint32* }, ${2:gss_OID_set* })'
+  'gss_init_sec_context':
+    'prefix': 'gss_init_sec_context'
+    'body': 'gss_init_sec_context(${1:OM_uint32* }, ${2:gss_cred_id_t }, ${3:gss_ctx_id_t* }, ${4:gss_name_t }, ${5:gss_OID }, ${6:OM_uint32 }, ${7:OM_uint32 }, ${8:gss_channel_bindings_t }, ${9:gss_buffer_t }, ${10:gss_OID* }, ${11:gss_buffer_t }, ${12:OM_uint32* }, ${13:OM_uint32* })'
+  'gss_inquire_context':
+    'prefix': 'gss_inquire_context'
+    'body': 'gss_inquire_context(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_name_t* }, ${4:gss_name_t* }, ${5:OM_uint32* }, ${6:gss_OID* }, ${7:OM_uint32* }, ${8:int* }, ${9:int* })'
+  'gss_inquire_cred':
+    'prefix': 'gss_inquire_cred'
+    'body': 'gss_inquire_cred(${1:OM_uint32* }, ${2:gss_cred_id_t }, ${3:gss_name_t* }, ${4:OM_uint32* }, ${5:gss_cred_usage_t* }, ${6:gss_OID_set* })'
+  'gss_inquire_cred_by_mech':
+    'prefix': 'gss_inquire_cred_by_mech'
+    'body': 'gss_inquire_cred_by_mech(${1:OM_uint32* }, ${2:gss_cred_id_t }, ${3:gss_OID }, ${4:gss_name_t* }, ${5:OM_uint32* }, ${6:OM_uint32* }, ${7:gss_cred_usage_t* })'
+  'gss_inquire_mechs_for_name':
+    'prefix': 'gss_inquire_mechs_for_name'
+    'body': 'gss_inquire_mechs_for_name(${1:OM_uint32* }, ${2:gss_name_t }, ${3:gss_OID_set* })'
+  'gss_inquire_names_for_mech':
+    'prefix': 'gss_inquire_names_for_mech'
+    'body': 'gss_inquire_names_for_mech(${1:OM_uint32* }, ${2:gss_OID }, ${3:gss_OID_set* })'
+  'gss_krb5_ccache_name':
+    'prefix': 'gss_krb5_ccache_name'
+    'body': 'gss_krb5_ccache_name(${1:OM_uint32* minor_status}, ${2:char* name}, ${3:char** out_name})'
+  'gss_krb5_copy_ccache':
+    'prefix': 'gss_krb5_copy_ccache'
+    'body': 'gss_krb5_copy_ccache(${1:OM_uint32* minor_status}, ${2:gss_cred_id_t cred_handle}, ${3:krb5_ccache out_ccache})'
+  'gss_krb5_export_lucid_sec_context':
+    'prefix': 'gss_krb5_export_lucid_sec_context'
+    'body': 'gss_krb5_export_lucid_sec_context(${1:OM_uint32* minor_status}, ${2:gss_ctx_id_t* context_handle}, ${3:OM_uint32 version}, ${4:void** kctx})'
+  'gss_krb5_free_lucid_sec_context':
+    'prefix': 'gss_krb5_free_lucid_sec_context'
+    'body': 'gss_krb5_free_lucid_sec_context(${1:OM_uint32* minor_status}, ${2:void* kctx})'
+  'gss_krb5_get_tkt_flags':
+    'prefix': 'gss_krb5_get_tkt_flags'
+    'body': 'gss_krb5_get_tkt_flags(${1:OM_uint32* minor_status}, ${2:gss_ctx_id_t context_handle}, ${3:krb5_flags* ticket_flags})'
+  'gss_krb5_set_allowable_enctypes':
+    'prefix': 'gss_krb5_set_allowable_enctypes'
+    'body': 'gss_krb5_set_allowable_enctypes(${1:OM_uint32* minor_status}, ${2:gss_cred_id_t cred}, ${3:OM_uint32 num_ktypes}, ${4:krb5_enctype* ktypes})'
+  'gss_krb5_ui':
+    'prefix': 'gss_krb5_ui'
+    'body': 'gss_krb5_ui(${1:OM_uint32* }, ${2:OM_uint32 })'
+  'gss_oid_to_str':
+    'prefix': 'gss_oid_to_str'
+    'body': 'gss_oid_to_str(${1:OM_uint32* }, ${2:gss_OID }, ${3:gss_buffer_t })'
+  'gss_process_context_token':
+    'prefix': 'gss_process_context_token'
+    'body': 'gss_process_context_token(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_buffer_t })'
+  'gss_release_buffer':
+    'prefix': 'gss_release_buffer'
+    'body': 'gss_release_buffer(${1:OM_uint32* }, ${2:gss_buffer_t })'
+  'gss_release_cred':
+    'prefix': 'gss_release_cred'
+    'body': 'gss_release_cred(${1:OM_uint32* }, ${2:gss_cred_id_t* })'
+  'gss_release_name':
+    'prefix': 'gss_release_name'
+    'body': 'gss_release_name(${1:OM_uint32* }, ${2:gss_name_t* })'
+  'gss_release_oid':
+    'prefix': 'gss_release_oid'
+    'body': 'gss_release_oid(${1:OM_uint32* }, ${2:gss_OID* })'
+  'gss_release_oid_set':
+    'prefix': 'gss_release_oid_set'
+    'body': 'gss_release_oid_set(${1:OM_uint32* }, ${2:gss_OID_set* })'
+  'gss_seal':
+    'prefix': 'gss_seal'
+    'body': 'gss_seal(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:int }, ${4:int }, ${5:gss_buffer_t }, ${6:int* }, ${7:gss_buffer_t })'
+  'gss_sign':
+    'prefix': 'gss_sign'
+    'body': 'gss_sign(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:int }, ${4:gss_buffer_t }, ${5:gss_buffer_t })'
+  'gss_str_to_oid':
+    'prefix': 'gss_str_to_oid'
+    'body': 'gss_str_to_oid(${1:OM_uint32* }, ${2:gss_buffer_t }, ${3:gss_OID* })'
+  'gss_test_oid_set_member':
+    'prefix': 'gss_test_oid_set_member'
+    'body': 'gss_test_oid_set_member(${1:OM_uint32* }, ${2:gss_OID }, ${3:gss_OID_set }, ${4:int* })'
+  'gss_unseal':
+    'prefix': 'gss_unseal'
+    'body': 'gss_unseal(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_buffer_t }, ${4:gss_buffer_t }, ${5:int* }, ${6:int* })'
+  'gss_unwrap':
+    'prefix': 'gss_unwrap'
+    'body': 'gss_unwrap(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_buffer_t }, ${4:gss_buffer_t }, ${5:int* }, ${6:gss_qop_t* })'
+  'gss_verify':
+    'prefix': 'gss_verify'
+    'body': 'gss_verify(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_buffer_t }, ${4:gss_buffer_t }, ${5:int* })'
+  'gss_verify_mic':
+    'prefix': 'gss_verify_mic'
+    'body': 'gss_verify_mic(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:gss_buffer_t }, ${4:gss_buffer_t }, ${5:gss_qop_t* })'
+  'gss_wrap':
+    'prefix': 'gss_wrap'
+    'body': 'gss_wrap(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:int }, ${4:gss_qop_t }, ${5:gss_buffer_t }, ${6:int* }, ${7:gss_buffer_t })'
+  'gss_wrap_size_limit':
+    'prefix': 'gss_wrap_size_limit'
+    'body': 'gss_wrap_size_limit(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:int }, ${4:gss_qop_t }, ${5:OM_uint32 }, ${6:OM_uint32* })'
+  'initialize_asn1_error_table':
+    'prefix': 'initialize_asn1_error_table'
+    'body': 'initialize_asn1_error_table()'
+  'initialize_k524_error_table':
+    'prefix': 'initialize_k524_error_table'
+    'body': 'initialize_k524_error_table()'
+  'initialize_kdb5_error_table':
+    'prefix': 'initialize_kdb5_error_table'
+    'body': 'initialize_kdb5_error_table()'
+  'initialize_krb5_error_table':
+    'prefix': 'initialize_krb5_error_table'
+    'body': 'initialize_krb5_error_table()'
+  'initialize_kv5m_error_table':
+    'prefix': 'initialize_kv5m_error_table'
+    'body': 'initialize_kv5m_error_table()'
+  'initialize_prof_error_table':
+    'prefix': 'initialize_prof_error_table'
+    'body': 'initialize_prof_error_table()'
+  'krb5_425_conv_principal':
+    'prefix': 'krb5_425_conv_principal'
+    'body': 'Krb5_425_conv_principal(${1:krb5_context }, ${2:char* name}, ${3:char* instance}, ${4:char* realm}, ${5:krb5_principal* princ})'
+  'krb5_524_conv_principal':
+    'prefix': 'krb5_524_conv_principal'
+    'body': 'Krb5_524_conv_principal(${1:krb5_context context}, ${2:krb5_const_principal princ}, ${3:char* name}, ${4:char* inst}, ${5:char* realm})'
+  'krb5_524_convert_creds':
+    'prefix': 'krb5_524_convert_creds'
+    'body': 'Krb5_524_convert_creds(${1:krb5_context context}, ${2:krb5_creds* v5creds}, ${3:struct credentials* v4creds})'
+  'krb5_address_compare':
+    'prefix': 'krb5_address_compare'
+    'body': 'Krb5_address_compare(${1:krb5_context }, ${2:krb5_address* }, ${3:krb5_address* })'
+  'krb5_address_order':
+    'prefix': 'krb5_address_order'
+    'body': 'Krb5_address_order(${1:krb5_context }, ${2:krb5_address* }, ${3:krb5_address* })'
+  'krb5_address_search':
+    'prefix': 'krb5_address_search'
+    'body': 'Krb5_address_search(${1:krb5_context }, ${2:krb5_address* }, ${3:krb5_address ** })'
+  'krb5_aname_to_localname':
+    'prefix': 'krb5_aname_to_localname'
+    'body': 'Krb5_aname_to_localname(${1:krb5_context }, ${2:krb5_const_principal }, ${3:int }, ${4:char* })'
+  'krb5_appdefault_boolean':
+    'prefix': 'krb5_appdefault_boolean'
+    'body': 'Krb5_appdefault_boolean(${1:krb5_context context}, ${2:char* appname}, ${3:krb5_data* realm}, ${4:char* option}, ${5:int default_value}, ${6:int* ret_value})'
+  'krb5_appdefault_string':
+    'prefix': 'krb5_appdefault_string'
+    'body': 'Krb5_appdefault_string(${1:krb5_context context}, ${2:char* appname}, ${3:krb5_data* realm}, ${4:char* option}, ${5:char* default_value}, ${6:char** ret_value})'
+  'krb5_auth_con_free':
+    'prefix': 'krb5_auth_con_free'
+    'body': 'Krb5_auth_con_free(${1:krb5_context }, ${2:krb5_auth_context })'
+  'krb5_auth_con_genaddrs':
+    'prefix': 'krb5_auth_con_genaddrs'
+    'body': 'Krb5_auth_con_genaddrs(${1:krb5_context }, ${2:krb5_auth_context }, ${3:int }, ${4:int })'
+  'krb5_auth_con_get_checksum_func':
+    'prefix': 'krb5_auth_con_get_checksum_func'
+    'body': 'Krb5_auth_con_get_checksum_func(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_mk_req_checksum_func* }, ${4:void** })'
+  'krb5_auth_con_getaddrs':
+    'prefix': 'krb5_auth_con_getaddrs'
+    'body': 'Krb5_auth_con_getaddrs(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_address** }, ${4:krb5_address** })'
+  'krb5_auth_con_getauthenticator':
+    'prefix': 'krb5_auth_con_getauthenticator'
+    'body': 'Krb5_auth_con_getauthenticator(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_authenticator** })'
+  'krb5_auth_con_getflags':
+    'prefix': 'krb5_auth_con_getflags'
+    'body': 'Krb5_auth_con_getflags(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_int32* })'
+  'krb5_auth_con_getkey':
+    'prefix': 'krb5_auth_con_getkey'
+    'body': 'Krb5_auth_con_getkey(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_keyblock** })'
+  'krb5_auth_con_getlocalseqnumber':
+    'prefix': 'krb5_auth_con_getlocalseqnumber'
+    'body': 'Krb5_auth_con_getlocalseqnumber(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_int32* })'
+  'krb5_auth_con_getrcache':
+    'prefix': 'krb5_auth_con_getrcache'
+    'body': 'Krb5_auth_con_getrcache(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_rcache* })'
+  'krb5_auth_con_getrecvsubkey':
+    'prefix': 'krb5_auth_con_getrecvsubkey'
+    'body': 'Krb5_auth_con_getrecvsubkey(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_keyblock** })'
+  'krb5_auth_con_getremoteseqnumber':
+    'prefix': 'krb5_auth_con_getremoteseqnumber'
+    'body': 'Krb5_auth_con_getremoteseqnumber(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_int32* })'
+  'krb5_auth_con_getsendsubkey':
+    'prefix': 'krb5_auth_con_getsendsubkey'
+    'body': 'Krb5_auth_con_getsendsubkey(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_keyblock** })'
+  'krb5_auth_con_init':
+    'prefix': 'krb5_auth_con_init'
+    'body': 'Krb5_auth_con_init(${1:krb5_context }, ${2:krb5_auth_context* })'
+  'krb5_auth_con_set_checksum_func':
+    'prefix': 'krb5_auth_con_set_checksum_func'
+    'body': 'Krb5_auth_con_set_checksum_func(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_mk_req_checksum_func }, ${4:void* })'
+  'krb5_auth_con_setaddrs':
+    'prefix': 'krb5_auth_con_setaddrs'
+    'body': 'Krb5_auth_con_setaddrs(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_address* }, ${4:krb5_address* })'
+  'krb5_auth_con_setflags':
+    'prefix': 'krb5_auth_con_setflags'
+    'body': 'Krb5_auth_con_setflags(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_int32 })'
+  'krb5_auth_con_setports':
+    'prefix': 'krb5_auth_con_setports'
+    'body': 'Krb5_auth_con_setports(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_address* }, ${4:krb5_address* })'
+  'krb5_auth_con_setrcache':
+    'prefix': 'krb5_auth_con_setrcache'
+    'body': 'Krb5_auth_con_setrcache(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_rcache })'
+  'krb5_auth_con_setrecvsubkey':
+    'prefix': 'krb5_auth_con_setrecvsubkey'
+    'body': 'Krb5_auth_con_setrecvsubkey(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_keyblock* })'
+  'krb5_auth_con_setsendsubkey':
+    'prefix': 'krb5_auth_con_setsendsubkey'
+    'body': 'Krb5_auth_con_setsendsubkey(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_keyblock* })'
+  'krb5_auth_con_setuseruserkey':
+    'prefix': 'krb5_auth_con_setuseruserkey'
+    'body': 'Krb5_auth_con_setuseruserkey(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_keyblock* })'
+  'krb5_build_principal':
+    'prefix': 'krb5_build_principal'
+    'body': 'Krb5_build_principal(${1:krb5_context }, ${2:krb5_principal* }, ${3:unsigned int }, ${4:char* })'
+  'krb5_build_principal_alloc_va':
+    'prefix': 'krb5_build_principal_alloc_va'
+    'body': 'Krb5_build_principal_alloc_va(${1:krb5_context }, ${2:krb5_principal* }, ${3:unsigned int }, ${4:char* }, ${5:va_list })'
+  'krb5_build_principal_ext':
+    'prefix': 'krb5_build_principal_ext'
+    'body': 'Krb5_build_principal_ext(${1:krb5_context }, ${2:krb5_principal* }, ${3:unsigned int }, ${4:char* })'
+  'krb5_c_block_size':
+    'prefix': 'krb5_c_block_size'
+    'body': 'Krb5_c_block_size(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:size_t* blocksize})'
+  'krb5_c_checksum_length':
+    'prefix': 'krb5_c_checksum_length'
+    'body': 'Krb5_c_checksum_length(${1:krb5_context context}, ${2:krb5_cksumtype cksumtype}, ${3:size_t* length})'
+  'krb5_c_decrypt':
+    'prefix': 'krb5_c_decrypt'
+    'body': 'Krb5_c_decrypt(${1:krb5_context context}, ${2:krb5_keyblock* key}, ${3:krb5_keyusage usage}, ${4:krb5_data* cipher_state}, ${5:krb5_enc_data* input}, ${6:krb5_data* output})'
+  'krb5_c_encrypt':
+    'prefix': 'krb5_c_encrypt'
+    'body': 'Krb5_c_encrypt(${1:krb5_context context}, ${2:krb5_keyblock* key}, ${3:krb5_keyusage usage}, ${4:krb5_data* cipher_state}, ${5:krb5_data* input}, ${6:krb5_enc_data* output})'
+  'krb5_c_encrypt_length':
+    'prefix': 'krb5_c_encrypt_length'
+    'body': 'Krb5_c_encrypt_length(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:size_t inputlen}, ${4:size_t* length})'
+  'krb5_c_enctype_compare':
+    'prefix': 'krb5_c_enctype_compare'
+    'body': 'Krb5_c_enctype_compare(${1:krb5_context context}, ${2:krb5_enctype e1}, ${3:krb5_enctype e2}, ${4:krb5_boolean* similar})'
+  'krb5_c_free_state':
+    'prefix': 'krb5_c_free_state'
+    'body': 'Krb5_c_free_state(${1:krb5_context context}, ${2:krb5_keyblock* key}, ${3:krb5_data* state})'
+  'krb5_c_init_state':
+    'prefix': 'krb5_c_init_state'
+    'body': 'Krb5_c_init_state(${1:krb5_context context}, ${2:krb5_keyblock* key}, ${3:krb5_keyusage usage}, ${4:krb5_data* new_state})'
+  'krb5_c_is_coll_proof_cksum':
+    'prefix': 'krb5_c_is_coll_proof_cksum'
+    'body': 'Krb5_c_is_coll_proof_cksum(${1:krb5_cksumtype ctype})'
+  'krb5_c_is_keyed_cksum':
+    'prefix': 'krb5_c_is_keyed_cksum'
+    'body': 'Krb5_c_is_keyed_cksum(${1:krb5_cksumtype ctype})'
+  'krb5_c_keyed_checksum_types':
+    'prefix': 'krb5_c_keyed_checksum_types'
+    'body': 'Krb5_c_keyed_checksum_types(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:unsigned int* count}, ${4:krb5_cksumtype** cksumtypes})'
+  'krb5_c_keylengths':
+    'prefix': 'krb5_c_keylengths'
+    'body': 'Krb5_c_keylengths(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:size_t* keybytes}, ${4:size_t* keylength})'
+  'krb5_c_make_checksum':
+    'prefix': 'krb5_c_make_checksum'
+    'body': 'Krb5_c_make_checksum(${1:krb5_context context}, ${2:krb5_cksumtype cksumtype}, ${3:krb5_keyblock* key}, ${4:krb5_keyusage usage}, ${5:krb5_data* input}, ${6:krb5_checksum* cksum})'
+  'krb5_c_make_random_key':
+    'prefix': 'krb5_c_make_random_key'
+    'body': 'Krb5_c_make_random_key(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:krb5_keyblock* k5_random_key})'
+  'krb5_c_prf':
+    'prefix': 'krb5_c_prf'
+    'body': 'Krb5_c_prf(${1:krb5_context }, ${2:krb5_keyblock* }, ${3:krb5_data* in}, ${4:krb5_data* out})'
+  'krb5_c_prf_length':
+    'prefix': 'krb5_c_prf_length'
+    'body': 'Krb5_c_prf_length(${1:krb5_context }, ${2:krb5_enctype }, ${3:size_t* outlen})'
+  'krb5_c_random_add_entropy':
+    'prefix': 'krb5_c_random_add_entropy'
+    'body': 'Krb5_c_random_add_entropy(${1:krb5_context context}, ${2:unsigned int randsource_id}, ${3:krb5_data* data})'
+  'krb5_c_random_make_octets':
+    'prefix': 'krb5_c_random_make_octets'
+    'body': 'Krb5_c_random_make_octets(${1:krb5_context context}, ${2:krb5_data* data})'
+  'krb5_c_random_os_entropy':
+    'prefix': 'krb5_c_random_os_entropy'
+    'body': 'Krb5_c_random_os_entropy(${1:krb5_context context}, ${2:int strong}, ${3:int* success})'
+  'krb5_c_random_seed':
+    'prefix': 'krb5_c_random_seed'
+    'body': 'Krb5_c_random_seed(${1:krb5_context context}, ${2:krb5_data* data})'
+  'krb5_c_random_to_key':
+    'prefix': 'krb5_c_random_to_key'
+    'body': 'Krb5_c_random_to_key(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:krb5_data* random_data}, ${4:krb5_keyblock* k5_random_key})'
+  'krb5_c_string_to_key':
+    'prefix': 'krb5_c_string_to_key'
+    'body': 'Krb5_c_string_to_key(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:krb5_data* string}, ${4:krb5_data* salt}, ${5:krb5_keyblock* key})'
+  'krb5_c_string_to_key_with_params':
+    'prefix': 'krb5_c_string_to_key_with_params'
+    'body': 'Krb5_c_string_to_key_with_params(${1:krb5_context context}, ${2:krb5_enctype enctype}, ${3:krb5_data* string}, ${4:krb5_data* salt}, ${5:krb5_data* params}, ${6:krb5_keyblock* key})'
+  'krb5_c_valid_cksumtype':
+    'prefix': 'krb5_c_valid_cksumtype'
+    'body': 'Krb5_c_valid_cksumtype(${1:krb5_cksumtype ctype})'
+  'krb5_c_valid_enctype':
+    'prefix': 'krb5_c_valid_enctype'
+    'body': 'Krb5_c_valid_enctype(${1:krb5_enctype ktype})'
+  'krb5_c_verify_checksum':
+    'prefix': 'krb5_c_verify_checksum'
+    'body': 'Krb5_c_verify_checksum(${1:krb5_context context}, ${2:krb5_keyblock* key}, ${3:krb5_keyusage usage}, ${4:krb5_data* data}, ${5:krb5_checksum* cksum}, ${6:krb5_boolean* valid})'
+  'krb5_calculate_checksum':
+    'prefix': 'krb5_calculate_checksum'
+    'body': 'Krb5_calculate_checksum(${1:krb5_context context}, ${2:krb5_cksumtype ctype}, ${3:krb5_const_pointer in}, ${4:size_t in_length}, ${5:krb5_const_pointer seed}, ${6:size_t seed_length}, ${7:krb5_checksum* outcksum})'
+  'krb5_cc_cache_match':
+    'prefix': 'krb5_cc_cache_match'
+    'body': 'Krb5_cc_cache_match(${1:krb5_context context}, ${2:krb5_principal client}, ${3:krb5_ccache* id})'
+  'krb5_cc_close':
+    'prefix': 'krb5_cc_close'
+    'body': 'Krb5_cc_close(${1:krb5_context context}, ${2:krb5_ccache cache})'
+  'krb5_cc_copy_creds':
+    'prefix': 'krb5_cc_copy_creds'
+    'body': 'Krb5_cc_copy_creds(${1:krb5_context context}, ${2:krb5_ccache incc}, ${3:krb5_ccache outcc})'
+  'krb5_cc_default':
+    'prefix': 'krb5_cc_default'
+    'body': 'Krb5_cc_default(${1:krb5_context }, ${2:krb5_ccache* })'
+  'krb5_cc_default_name':
+    'prefix': 'krb5_cc_default_name'
+    'body': 'Krb5_cc_default_name(${1:krb5_context })'
+  'krb5_cc_destroy':
+    'prefix': 'krb5_cc_destroy'
+    'body': 'Krb5_cc_destroy(${1:krb5_context context}, ${2:krb5_ccache cache})'
+  'krb5_cc_end_seq_get':
+    'prefix': 'krb5_cc_end_seq_get'
+    'body': 'Krb5_cc_end_seq_get(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_cc_cursor* cursor})'
+  'krb5_cc_gen_new':
+    'prefix': 'krb5_cc_gen_new'
+    'body': 'Krb5_cc_gen_new(${1:krb5_context context}, ${2:krb5_ccache* cache})'
+  'krb5_cc_get_config':
+    'prefix': 'krb5_cc_get_config'
+    'body': 'Krb5_cc_get_config(${1:krb5_context }, ${2:krb5_ccache }, ${3:krb5_const_principal }, ${4:char* }, ${5:krb5_data* })'
+  'krb5_cc_get_flags':
+    'prefix': 'krb5_cc_get_flags'
+    'body': 'Krb5_cc_get_flags(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_flags* flags})'
+  'krb5_cc_get_name':
+    'prefix': 'krb5_cc_get_name'
+    'body': 'Krb5_cc_get_name(${1:krb5_context context}, ${2:krb5_ccache cache})'
+  'krb5_cc_get_principal':
+    'prefix': 'krb5_cc_get_principal'
+    'body': 'Krb5_cc_get_principal(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_principal* principal})'
+  'krb5_cc_get_type':
+    'prefix': 'krb5_cc_get_type'
+    'body': 'Krb5_cc_get_type(${1:krb5_context context}, ${2:krb5_ccache cache})'
+  'krb5_cc_initialize':
+    'prefix': 'krb5_cc_initialize'
+    'body': 'Krb5_cc_initialize(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_principal principal})'
+  'krb5_cc_last_change_time':
+    'prefix': 'krb5_cc_last_change_time'
+    'body': 'Krb5_cc_last_change_time(${1:krb5_context context}, ${2:krb5_ccache ccache}, ${3:krb5_timestamp* change_time})'
+  'krb5_cc_lock':
+    'prefix': 'krb5_cc_lock'
+    'body': 'Krb5_cc_lock(${1:krb5_context context}, ${2:krb5_ccache ccache})'
+  'krb5_cc_move':
+    'prefix': 'krb5_cc_move'
+    'body': 'Krb5_cc_move(${1:krb5_context context}, ${2:krb5_ccache src}, ${3:krb5_ccache dst})'
+  'krb5_cc_new_unique':
+    'prefix': 'krb5_cc_new_unique'
+    'body': 'Krb5_cc_new_unique(${1:krb5_context context}, ${2:char* type}, ${3:char* hint}, ${4:krb5_ccache* id})'
+  'krb5_cc_next_cred':
+    'prefix': 'krb5_cc_next_cred'
+    'body': 'Krb5_cc_next_cred(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_cc_cursor* cursor}, ${4:krb5_creds* creds})'
+  'krb5_cc_remove_cred':
+    'prefix': 'krb5_cc_remove_cred'
+    'body': 'Krb5_cc_remove_cred(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_flags flags}, ${4:krb5_creds* creds})'
+  'krb5_cc_resolve':
+    'prefix': 'krb5_cc_resolve'
+    'body': 'Krb5_cc_resolve(${1:krb5_context }, ${2:char* }, ${3:krb5_ccache* })'
+  'krb5_cc_retrieve_cred':
+    'prefix': 'krb5_cc_retrieve_cred'
+    'body': 'Krb5_cc_retrieve_cred(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_flags flags}, ${4:krb5_creds* mcreds}, ${5:krb5_creds* creds})'
+  'krb5_cc_set_config':
+    'prefix': 'krb5_cc_set_config'
+    'body': 'Krb5_cc_set_config(${1:krb5_context }, ${2:krb5_ccache }, ${3:krb5_const_principal }, ${4:char* }, ${5:krb5_data* })'
+  'krb5_cc_set_default_name':
+    'prefix': 'krb5_cc_set_default_name'
+    'body': 'Krb5_cc_set_default_name(${1:krb5_context }, ${2:char* })'
+  'krb5_cc_set_flags':
+    'prefix': 'krb5_cc_set_flags'
+    'body': 'Krb5_cc_set_flags(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_flags flags})'
+  'krb5_cc_start_seq_get':
+    'prefix': 'krb5_cc_start_seq_get'
+    'body': 'Krb5_cc_start_seq_get(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_cc_cursor* cursor})'
+  'krb5_cc_store_cred':
+    'prefix': 'krb5_cc_store_cred'
+    'body': 'Krb5_cc_store_cred(${1:krb5_context context}, ${2:krb5_ccache cache}, ${3:krb5_creds* creds})'
+  'krb5_cc_unlock':
+    'prefix': 'krb5_cc_unlock'
+    'body': 'Krb5_cc_unlock(${1:krb5_context context}, ${2:krb5_ccache ccache})'
+  'krb5_cccol_cursor_free':
+    'prefix': 'krb5_cccol_cursor_free'
+    'body': 'Krb5_cccol_cursor_free(${1:krb5_context context}, ${2:krb5_cccol_cursor* cursor})'
+  'krb5_cccol_cursor_new':
+    'prefix': 'krb5_cccol_cursor_new'
+    'body': 'Krb5_cccol_cursor_new(${1:krb5_context context}, ${2:krb5_cccol_cursor* cursor})'
+  'krb5_cccol_cursor_next':
+    'prefix': 'krb5_cccol_cursor_next'
+    'body': 'Krb5_cccol_cursor_next(${1:krb5_context context}, ${2:krb5_cccol_cursor cursor}, ${3:krb5_ccache* ccache})'
+  'krb5_cccol_last_change_time':
+    'prefix': 'krb5_cccol_last_change_time'
+    'body': 'Krb5_cccol_last_change_time(${1:krb5_context context}, ${2:krb5_timestamp* change_time})'
+  'krb5_cccol_lock':
+    'prefix': 'krb5_cccol_lock'
+    'body': 'Krb5_cccol_lock(${1:krb5_context context})'
+  'krb5_cccol_unlock':
+    'prefix': 'krb5_cccol_unlock'
+    'body': 'Krb5_cccol_unlock(${1:krb5_context context})'
+  'krb5_change_password':
+    'prefix': 'krb5_change_password'
+    'body': 'Krb5_change_password(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:char* newpw}, ${4:int* result_code}, ${5:krb5_data* result_code_string}, ${6:krb5_data* result_string})'
+  'krb5_checksum_size':
+    'prefix': 'krb5_checksum_size'
+    'body': 'Krb5_checksum_size(${1:krb5_context context}, ${2:krb5_cksumtype ctype})'
+  'krb5_cksumtype_to_string':
+    'prefix': 'krb5_cksumtype_to_string'
+    'body': 'Krb5_cksumtype_to_string(${1:krb5_cksumtype }, ${2:char* }, ${3:size_t })'
+  'krb5_clear_error_message':
+    'prefix': 'krb5_clear_error_message'
+    'body': 'Krb5_clear_error_message(${1:krb5_context })'
+  'krb5_copy_addresses':
+    'prefix': 'krb5_copy_addresses'
+    'body': 'Krb5_copy_addresses(${1:krb5_context }, ${2:krb5_address ** }, ${3:krb5_address*** })'
+  'krb5_copy_authdata':
+    'prefix': 'krb5_copy_authdata'
+    'body': 'Krb5_copy_authdata(${1:krb5_context }, ${2:krb5_authdata ** }, ${3:krb5_authdata*** })'
+  'krb5_copy_authenticator':
+    'prefix': 'krb5_copy_authenticator'
+    'body': 'Krb5_copy_authenticator(${1:krb5_context }, ${2:krb5_authenticator* }, ${3:krb5_authenticator** })'
+  'krb5_copy_checksum':
+    'prefix': 'krb5_copy_checksum'
+    'body': 'Krb5_copy_checksum(${1:krb5_context }, ${2:krb5_checksum* }, ${3:krb5_checksum** })'
+  'krb5_copy_context':
+    'prefix': 'krb5_copy_context'
+    'body': 'Krb5_copy_context(${1:krb5_context }, ${2:krb5_context* })'
+  'krb5_copy_creds':
+    'prefix': 'krb5_copy_creds'
+    'body': 'Krb5_copy_creds(${1:krb5_context }, ${2:krb5_creds* }, ${3:krb5_creds** })'
+  'krb5_copy_data':
+    'prefix': 'krb5_copy_data'
+    'body': 'Krb5_copy_data(${1:krb5_context }, ${2:krb5_data* }, ${3:krb5_data** })'
+  'krb5_copy_keyblock':
+    'prefix': 'krb5_copy_keyblock'
+    'body': 'Krb5_copy_keyblock(${1:krb5_context }, ${2:krb5_keyblock* }, ${3:krb5_keyblock** })'
+  'krb5_copy_keyblock_contents':
+    'prefix': 'krb5_copy_keyblock_contents'
+    'body': 'Krb5_copy_keyblock_contents(${1:krb5_context }, ${2:krb5_keyblock* }, ${3:krb5_keyblock* })'
+  'krb5_copy_principal':
+    'prefix': 'krb5_copy_principal'
+    'body': 'Krb5_copy_principal(${1:krb5_context }, ${2:krb5_const_principal }, ${3:krb5_principal* })'
+  'krb5_copy_ticket':
+    'prefix': 'krb5_copy_ticket'
+    'body': 'Krb5_copy_ticket(${1:krb5_context }, ${2:krb5_ticket* }, ${3:krb5_ticket** })'
+  'krb5_decode_ticket':
+    'prefix': 'krb5_decode_ticket'
+    'body': 'Krb5_decode_ticket(${1:krb5_data* code}, ${2:krb5_ticket** rep})'
+  'krb5_decrypt':
+    'prefix': 'krb5_decrypt'
+    'body': 'Krb5_decrypt(${1:krb5_context context}, ${2:krb5_const_pointer inptr}, ${3:krb5_pointer outptr}, ${4:size_t size}, ${5:krb5_encrypt_block* eblock}, ${6:krb5_pointer ivec})'
+  'krb5_deltat_to_string':
+    'prefix': 'krb5_deltat_to_string'
+    'body': 'Krb5_deltat_to_string(${1:krb5_deltat }, ${2:char* }, ${3:size_t })'
+  'krb5_eblock_enctype':
+    'prefix': 'krb5_eblock_enctype'
+    'body': 'Krb5_eblock_enctype(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock})'
+  'krb5_encrypt':
+    'prefix': 'krb5_encrypt'
+    'body': 'Krb5_encrypt(${1:krb5_context context}, ${2:krb5_const_pointer inptr}, ${3:krb5_pointer outptr}, ${4:size_t size}, ${5:krb5_encrypt_block* eblock}, ${6:krb5_pointer ivec})'
+  'krb5_encrypt_size':
+    'prefix': 'krb5_encrypt_size'
+    'body': 'Krb5_encrypt_size(${1:size_t length}, ${2:krb5_enctype crypto})'
+  'krb5_enctype_to_string':
+    'prefix': 'krb5_enctype_to_string'
+    'body': 'Krb5_enctype_to_string(${1:krb5_enctype }, ${2:char* }, ${3:size_t })'
+  'krb5_finish_key':
+    'prefix': 'krb5_finish_key'
+    'body': 'Krb5_finish_key(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock})'
+  'krb5_finish_random_key':
+    'prefix': 'krb5_finish_random_key'
+    'body': 'Krb5_finish_random_key(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock}, ${3:krb5_pointer* ptr})'
+  'krb5_free_addresses':
+    'prefix': 'krb5_free_addresses'
+    'body': 'Krb5_free_addresses(${1:krb5_context }, ${2:krb5_address** })'
+  'krb5_free_ap_rep_enc_part':
+    'prefix': 'krb5_free_ap_rep_enc_part'
+    'body': 'Krb5_free_ap_rep_enc_part(${1:krb5_context }, ${2:krb5_ap_rep_enc_part* })'
+  'krb5_free_authdata':
+    'prefix': 'krb5_free_authdata'
+    'body': 'Krb5_free_authdata(${1:krb5_context }, ${2:krb5_authdata** })'
+  'krb5_free_authenticator':
+    'prefix': 'krb5_free_authenticator'
+    'body': 'Krb5_free_authenticator(${1:krb5_context }, ${2:krb5_authenticator* })'
+  'krb5_free_checksum':
+    'prefix': 'krb5_free_checksum'
+    'body': 'Krb5_free_checksum(${1:krb5_context }, ${2:krb5_checksum* })'
+  'krb5_free_checksum_contents':
+    'prefix': 'krb5_free_checksum_contents'
+    'body': 'Krb5_free_checksum_contents(${1:krb5_context }, ${2:krb5_checksum* })'
+  'krb5_free_cksumtypes':
+    'prefix': 'krb5_free_cksumtypes'
+    'body': 'Krb5_free_cksumtypes(${1:krb5_context }, ${2:krb5_cksumtype* })'
+  'krb5_free_context':
+    'prefix': 'krb5_free_context'
+    'body': 'Krb5_free_context(${1:krb5_context })'
+  'krb5_free_cred_contents':
+    'prefix': 'krb5_free_cred_contents'
+    'body': 'Krb5_free_cred_contents(${1:krb5_context }, ${2:krb5_creds* })'
+  'krb5_free_creds':
+    'prefix': 'krb5_free_creds'
+    'body': 'Krb5_free_creds(${1:krb5_context }, ${2:krb5_creds* })'
+  'krb5_free_data':
+    'prefix': 'krb5_free_data'
+    'body': 'Krb5_free_data(${1:krb5_context }, ${2:krb5_data* })'
+  'krb5_free_data_contents':
+    'prefix': 'krb5_free_data_contents'
+    'body': 'Krb5_free_data_contents(${1:krb5_context }, ${2:krb5_data* })'
+  'krb5_free_default_realm':
+    'prefix': 'krb5_free_default_realm'
+    'body': 'Krb5_free_default_realm(${1:krb5_context }, ${2:char* })'
+  'krb5_free_error':
+    'prefix': 'krb5_free_error'
+    'body': 'Krb5_free_error(${1:krb5_context }, ${2:krb5_error* })'
+  'krb5_free_error_message':
+    'prefix': 'krb5_free_error_message'
+    'body': 'Krb5_free_error_message(${1:krb5_context }, ${2:char* })'
+  'krb5_free_host_realm':
+    'prefix': 'krb5_free_host_realm'
+    'body': 'Krb5_free_host_realm(${1:krb5_context }, ${2:char ** })'
+  'krb5_free_keyblock':
+    'prefix': 'krb5_free_keyblock'
+    'body': 'Krb5_free_keyblock(${1:krb5_context }, ${2:krb5_keyblock* })'
+  'krb5_free_keyblock_contents':
+    'prefix': 'krb5_free_keyblock_contents'
+    'body': 'Krb5_free_keyblock_contents(${1:krb5_context }, ${2:krb5_keyblock* })'
+  'krb5_free_keytab_entry_contents':
+    'prefix': 'krb5_free_keytab_entry_contents'
+    'body': 'Krb5_free_keytab_entry_contents(${1:krb5_context }, ${2:krb5_keytab_entry* })'
+  'krb5_free_principal':
+    'prefix': 'krb5_free_principal'
+    'body': 'Krb5_free_principal(${1:krb5_context }, ${2:krb5_principal })'
+  'krb5_free_tgt_creds':
+    'prefix': 'krb5_free_tgt_creds'
+    'body': 'Krb5_free_tgt_creds(${1:krb5_context }, ${2:krb5_creds** })'
+  'krb5_free_ticket':
+    'prefix': 'krb5_free_ticket'
+    'body': 'Krb5_free_ticket(${1:krb5_context }, ${2:krb5_ticket* })'
+  'krb5_free_unparsed_name':
+    'prefix': 'krb5_free_unparsed_name'
+    'body': 'Krb5_free_unparsed_name(${1:krb5_context }, ${2:char* })'
+  'krb5_fwd_tgt_creds':
+    'prefix': 'krb5_fwd_tgt_creds'
+    'body': 'Krb5_fwd_tgt_creds(${1:krb5_context }, ${2:krb5_auth_context }, ${3:char* }, ${4:krb5_principal }, ${5:krb5_principal }, ${6:krb5_ccache }, ${7:int forwardable}, ${8:krb5_data* })'
+  'krb5_get_credentials':
+    'prefix': 'krb5_get_credentials'
+    'body': 'Krb5_get_credentials(${1:krb5_context }, ${2:krb5_flags }, ${3:krb5_ccache }, ${4:krb5_creds* }, ${5:krb5_creds** })'
+  'krb5_get_credentials_renew':
+    'prefix': 'krb5_get_credentials_renew'
+    'body': 'Krb5_get_credentials_renew(${1:krb5_context }, ${2:krb5_flags }, ${3:krb5_ccache }, ${4:krb5_creds* }, ${5:krb5_creds** })'
+  'krb5_get_credentials_validate':
+    'prefix': 'krb5_get_credentials_validate'
+    'body': 'Krb5_get_credentials_validate(${1:krb5_context }, ${2:krb5_flags }, ${3:krb5_ccache }, ${4:krb5_creds* }, ${5:krb5_creds** })'
+  'krb5_get_default_realm':
+    'prefix': 'krb5_get_default_realm'
+    'body': 'Krb5_get_default_realm(${1:krb5_context }, ${2:char** })'
+  'krb5_get_error_message':
+    'prefix': 'krb5_get_error_message'
+    'body': 'Krb5_get_error_message(${1:krb5_context }, ${2:krb5_error_code })'
+  'krb5_get_fallback_host_realm':
+    'prefix': 'krb5_get_fallback_host_realm'
+    'body': 'Krb5_get_fallback_host_realm(${1:krb5_context }, ${2:krb5_data* }, ${3:char*** })'
+  'krb5_get_host_realm':
+    'prefix': 'krb5_get_host_realm'
+    'body': 'Krb5_get_host_realm(${1:krb5_context }, ${2:char* }, ${3:char*** })'
+  'krb5_get_init_creds_keytab':
+    'prefix': 'krb5_get_init_creds_keytab'
+    'body': 'Krb5_get_init_creds_keytab(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:krb5_principal client}, ${4:krb5_keytab arg_keytab}, ${5:krb5_deltat start_time}, ${6:char* in_tkt_service}, ${7:krb5_get_init_creds_opt* k5_gic_options})'
+  'krb5_get_init_creds_opt_alloc':
+    'prefix': 'krb5_get_init_creds_opt_alloc'
+    'body': 'Krb5_get_init_creds_opt_alloc(${1:krb5_context context}, ${2:krb5_get_init_creds_opt** opt})'
+  'krb5_get_init_creds_opt_free':
+    'prefix': 'krb5_get_init_creds_opt_free'
+    'body': 'Krb5_get_init_creds_opt_free(${1:krb5_context context}, ${2:krb5_get_init_creds_opt* opt})'
+  'krb5_get_init_creds_opt_free_pa':
+    'prefix': 'krb5_get_init_creds_opt_free_pa'
+    'body': 'Krb5_get_init_creds_opt_free_pa(${1:krb5_context context}, ${2:int num_preauth_data}, ${3:krb5_gic_opt_pa_data* preauth_data})'
+  'krb5_get_init_creds_opt_get_pa':
+    'prefix': 'krb5_get_init_creds_opt_get_pa'
+    'body': 'Krb5_get_init_creds_opt_get_pa(${1:krb5_context context}, ${2:krb5_get_init_creds_opt* opt}, ${3:int* num_preauth_data}, ${4:krb5_gic_opt_pa_data** preauth_data})'
+  'krb5_get_init_creds_opt_init':
+    'prefix': 'krb5_get_init_creds_opt_init'
+    'body': 'Krb5_get_init_creds_opt_init(${1:krb5_get_init_creds_opt* opt})'
+  'krb5_get_init_creds_opt_set_address_list':
+    'prefix': 'krb5_get_init_creds_opt_set_address_list'
+    'body': 'Krb5_get_init_creds_opt_set_address_list(${1:krb5_get_init_creds_opt* opt}, ${2:krb5_address** addresses})'
+  'krb5_get_init_creds_opt_set_canonicalize':
+    'prefix': 'krb5_get_init_creds_opt_set_canonicalize'
+    'body': 'Krb5_get_init_creds_opt_set_canonicalize(${1:krb5_get_init_creds_opt* opt}, ${2:int canonicalize})'
+  'krb5_get_init_creds_opt_set_change_password_prompt':
+    'prefix': 'krb5_get_init_creds_opt_set_change_password_prompt'
+    'body': 'Krb5_get_init_creds_opt_set_change_password_prompt(${1:krb5_get_init_creds_opt* opt}, ${2:int prompt})'
+  'krb5_get_init_creds_opt_set_etype_list':
+    'prefix': 'krb5_get_init_creds_opt_set_etype_list'
+    'body': 'Krb5_get_init_creds_opt_set_etype_list(${1:krb5_get_init_creds_opt* opt}, ${2:krb5_enctype* etype_list}, ${3:int etype_list_length})'
+  'krb5_get_init_creds_opt_set_forwardable':
+    'prefix': 'krb5_get_init_creds_opt_set_forwardable'
+    'body': 'Krb5_get_init_creds_opt_set_forwardable(${1:krb5_get_init_creds_opt* opt}, ${2:int forwardable})'
+  'krb5_get_init_creds_opt_set_pa':
+    'prefix': 'krb5_get_init_creds_opt_set_pa'
+    'body': 'Krb5_get_init_creds_opt_set_pa(${1:krb5_context context}, ${2:krb5_get_init_creds_opt* opt}, ${3:char* attr}, ${4:char* value})'
+  'krb5_get_init_creds_opt_set_preauth_list':
+    'prefix': 'krb5_get_init_creds_opt_set_preauth_list'
+    'body': 'Krb5_get_init_creds_opt_set_preauth_list(${1:krb5_get_init_creds_opt* opt}, ${2:krb5_preauthtype* preauth_list}, ${3:int preauth_list_length})'
+  'krb5_get_init_creds_opt_set_process_last_req':
+    'prefix': 'krb5_get_init_creds_opt_set_process_last_req'
+    'body': 'Krb5_get_init_creds_opt_set_process_last_req(${1:krb5_context }, ${2:krb5_get_init_creds_opt* }, ${3:krb5_gic_process_last_req }, ${4:void* })'
+  'krb5_get_init_creds_opt_set_proxiable':
+    'prefix': 'krb5_get_init_creds_opt_set_proxiable'
+    'body': 'Krb5_get_init_creds_opt_set_proxiable(${1:krb5_get_init_creds_opt* opt}, ${2:int proxiable})'
+  'krb5_get_init_creds_opt_set_renew_life':
+    'prefix': 'krb5_get_init_creds_opt_set_renew_life'
+    'body': 'Krb5_get_init_creds_opt_set_renew_life(${1:krb5_get_init_creds_opt* opt}, ${2:krb5_deltat renew_life})'
+  'krb5_get_init_creds_opt_set_salt':
+    'prefix': 'krb5_get_init_creds_opt_set_salt'
+    'body': 'Krb5_get_init_creds_opt_set_salt(${1:krb5_get_init_creds_opt* opt}, ${2:krb5_data* salt})'
+  'krb5_get_init_creds_opt_set_tkt_life':
+    'prefix': 'krb5_get_init_creds_opt_set_tkt_life'
+    'body': 'Krb5_get_init_creds_opt_set_tkt_life(${1:krb5_get_init_creds_opt* opt}, ${2:krb5_deltat tkt_life})'
+  'krb5_get_init_creds_password':
+    'prefix': 'krb5_get_init_creds_password'
+    'body': 'Krb5_get_init_creds_password(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:krb5_principal client}, ${4:char* password}, ${5:krb5_prompter_fct prompter}, ${6:void* data}, ${7:krb5_deltat start_time}, ${8:char* in_tkt_service}, ${9:krb5_get_init_creds_opt* k5_gic_options})'
+  'krb5_get_permitted_enctypes':
+    'prefix': 'krb5_get_permitted_enctypes'
+    'body': 'Krb5_get_permitted_enctypes(${1:krb5_context }, ${2:krb5_enctype** })'
+  'krb5_get_profile':
+    'prefix': 'krb5_get_profile'
+    'body': 'Krb5_get_profile(${1:krb5_context }, ${2:struct _profile_t** })'
+  'krb5_get_prompt_types':
+    'prefix': 'krb5_get_prompt_types'
+    'body': 'Krb5_get_prompt_types(${1:krb5_context context})'
+  'krb5_get_renewed_creds':
+    'prefix': 'krb5_get_renewed_creds'
+    'body': 'Krb5_get_renewed_creds(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:krb5_principal client}, ${4:krb5_ccache ccache}, ${5:char* in_tkt_service})'
+  'krb5_get_server_rcache':
+    'prefix': 'krb5_get_server_rcache'
+    'body': 'Krb5_get_server_rcache(${1:krb5_context }, ${2:krb5_data* }, ${3:krb5_rcache* })'
+  'krb5_get_time_offsets':
+    'prefix': 'krb5_get_time_offsets'
+    'body': 'Krb5_get_time_offsets(${1:krb5_context }, ${2:krb5_timestamp* }, ${3:krb5_int32* })'
+  'krb5_get_validated_creds':
+    'prefix': 'krb5_get_validated_creds'
+    'body': 'Krb5_get_validated_creds(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:krb5_principal client}, ${4:krb5_ccache ccache}, ${5:char* in_tkt_service})'
+  'krb5_gss_register_acceptor_identity':
+    'prefix': 'krb5_gss_register_acceptor_identity'
+    'body': 'Krb5_gss_register_acceptor_identity(${1:char* })'
+  'krb5_init_context':
+    'prefix': 'krb5_init_context'
+    'body': 'Krb5_init_context(${1:krb5_context* })'
+  'krb5_init_keyblock':
+    'prefix': 'krb5_init_keyblock'
+    'body': 'Krb5_init_keyblock(${1:krb5_context }, ${2:krb5_enctype enctype}, ${3:size_t length}, ${4:krb5_keyblock** out})'
+  'krb5_init_random_key':
+    'prefix': 'krb5_init_random_key'
+    'body': 'Krb5_init_random_key(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock}, ${3:krb5_keyblock* keyblock}, ${4:krb5_pointer* ptr})'
+  'krb5_init_secure_context':
+    'prefix': 'krb5_init_secure_context'
+    'body': 'Krb5_init_secure_context(${1:krb5_context* })'
+  'krb5_is_config_principal':
+    'prefix': 'krb5_is_config_principal'
+    'body': 'Krb5_is_config_principal(${1:krb5_context }, ${2:krb5_const_principal })'
+  'krb5_is_referral_realm':
+    'prefix': 'krb5_is_referral_realm'
+    'body': 'Krb5_is_referral_realm(${1:krb5_data* })'
+  'krb5_is_thread_safe':
+    'prefix': 'krb5_is_thread_safe'
+    'body': 'Krb5_is_thread_safe()'
+  'krb5_kt_add_entry':
+    'prefix': 'krb5_kt_add_entry'
+    'body': 'Krb5_kt_add_entry(${1:krb5_context }, ${2:krb5_keytab }, ${3:krb5_keytab_entry* })'
+  'krb5_kt_close':
+    'prefix': 'krb5_kt_close'
+    'body': 'Krb5_kt_close(${1:krb5_context context}, ${2:krb5_keytab keytab})'
+  'krb5_kt_default':
+    'prefix': 'krb5_kt_default'
+    'body': 'Krb5_kt_default(${1:krb5_context }, ${2:krb5_keytab* })'
+  'krb5_kt_default_name':
+    'prefix': 'krb5_kt_default_name'
+    'body': 'Krb5_kt_default_name(${1:krb5_context }, ${2:char* }, ${3:int })'
+  'krb5_kt_end_seq_get':
+    'prefix': 'krb5_kt_end_seq_get'
+    'body': 'Krb5_kt_end_seq_get(${1:krb5_context context}, ${2:krb5_keytab keytab}, ${3:krb5_kt_cursor* cursor})'
+  'krb5_kt_get_entry':
+    'prefix': 'krb5_kt_get_entry'
+    'body': 'Krb5_kt_get_entry(${1:krb5_context context}, ${2:krb5_keytab keytab}, ${3:krb5_const_principal principal}, ${4:krb5_kvno vno}, ${5:krb5_enctype enctype}, ${6:krb5_keytab_entry* entry})'
+  'krb5_kt_get_name':
+    'prefix': 'krb5_kt_get_name'
+    'body': 'Krb5_kt_get_name(${1:krb5_context context}, ${2:krb5_keytab keytab}, ${3:char* name}, ${4:unsigned int namelen})'
+  'krb5_kt_get_type':
+    'prefix': 'krb5_kt_get_type'
+    'body': 'Krb5_kt_get_type(${1:krb5_context }, ${2:krb5_keytab keytab})'
+  'krb5_kt_next_entry':
+    'prefix': 'krb5_kt_next_entry'
+    'body': 'Krb5_kt_next_entry(${1:krb5_context context}, ${2:krb5_keytab keytab}, ${3:krb5_keytab_entry* entry}, ${4:krb5_kt_cursor* cursor})'
+  'krb5_kt_read_service_key':
+    'prefix': 'krb5_kt_read_service_key'
+    'body': 'Krb5_kt_read_service_key(${1:krb5_context }, ${2:krb5_pointer }, ${3:krb5_principal }, ${4:krb5_kvno }, ${5:krb5_enctype }, ${6:krb5_keyblock** })'
+  'krb5_kt_remove_entry':
+    'prefix': 'krb5_kt_remove_entry'
+    'body': 'Krb5_kt_remove_entry(${1:krb5_context }, ${2:krb5_keytab }, ${3:krb5_keytab_entry* })'
+  'krb5_kt_resolve':
+    'prefix': 'krb5_kt_resolve'
+    'body': 'Krb5_kt_resolve(${1:krb5_context }, ${2:char* }, ${3:krb5_keytab* })'
+  'krb5_kt_start_seq_get':
+    'prefix': 'krb5_kt_start_seq_get'
+    'body': 'Krb5_kt_start_seq_get(${1:krb5_context context}, ${2:krb5_keytab keytab}, ${3:krb5_kt_cursor* cursor})'
+  'krb5_kuserok':
+    'prefix': 'krb5_kuserok'
+    'body': 'Krb5_kuserok(${1:krb5_context }, ${2:krb5_principal }, ${3:char* })'
+  'krb5_mk_1cred':
+    'prefix': 'krb5_mk_1cred'
+    'body': 'Krb5_mk_1cred(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_creds* }, ${4:krb5_data** }, ${5:krb5_replay_data* })'
+  'krb5_mk_error':
+    'prefix': 'krb5_mk_error'
+    'body': 'Krb5_mk_error(${1:krb5_context }, ${2:krb5_error* }, ${3:krb5_data* })'
+  'krb5_mk_ncred':
+    'prefix': 'krb5_mk_ncred'
+    'body': 'Krb5_mk_ncred(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_creds** }, ${4:krb5_data** }, ${5:krb5_replay_data* })'
+  'krb5_mk_priv':
+    'prefix': 'krb5_mk_priv'
+    'body': 'Krb5_mk_priv(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* }, ${4:krb5_data* }, ${5:krb5_replay_data* })'
+  'krb5_mk_rep':
+    'prefix': 'krb5_mk_rep'
+    'body': 'Krb5_mk_rep(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* })'
+  'krb5_mk_req':
+    'prefix': 'krb5_mk_req'
+    'body': 'Krb5_mk_req(${1:krb5_context }, ${2:krb5_auth_context* }, ${3:krb5_flags }, ${4:char* }, ${5:char* }, ${6:krb5_data* }, ${7:krb5_ccache }, ${8:krb5_data* })'
+  'krb5_mk_req_extended':
+    'prefix': 'krb5_mk_req_extended'
+    'body': 'Krb5_mk_req_extended(${1:krb5_context }, ${2:krb5_auth_context* }, ${3:krb5_flags }, ${4:krb5_data* }, ${5:krb5_creds* }, ${6:krb5_data* })'
+  'krb5_mk_safe':
+    'prefix': 'krb5_mk_safe'
+    'body': 'Krb5_mk_safe(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* }, ${4:krb5_data* }, ${5:krb5_replay_data* })'
+  'krb5_os_localaddr':
+    'prefix': 'krb5_os_localaddr'
+    'body': 'Krb5_os_localaddr(${1:krb5_context }, ${2:krb5_address*** })'
+  'krb5_parse_name':
+    'prefix': 'krb5_parse_name'
+    'body': 'Krb5_parse_name(${1:krb5_context }, ${2:char* }, ${3:krb5_principal* })'
+  'krb5_parse_name_flags':
+    'prefix': 'krb5_parse_name_flags'
+    'body': 'Krb5_parse_name_flags(${1:krb5_context }, ${2:char* }, ${3:int }, ${4:krb5_principal* })'
+  'krb5_principal2salt':
+    'prefix': 'krb5_principal2salt'
+    'body': 'Krb5_principal2salt(${1:krb5_context }, ${2:krb5_const_principal }, ${3:krb5_data* })'
+  'krb5_principal_compare':
+    'prefix': 'krb5_principal_compare'
+    'body': 'Krb5_principal_compare(${1:krb5_context }, ${2:krb5_const_principal }, ${3:krb5_const_principal })'
+  'krb5_process_key':
+    'prefix': 'krb5_process_key'
+    'body': 'Krb5_process_key(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock}, ${3:krb5_keyblock* key})'
+  'krb5_prompter_posix':
+    'prefix': 'krb5_prompter_posix'
+    'body': 'Krb5_prompter_posix(${1:krb5_context context}, ${2:void* data}, ${3:char* name}, ${4:char* banner}, ${5:int num_prompts}, ${6:krb5_prompt* prompts})'
+  'krb5_random_key':
+    'prefix': 'krb5_random_key'
+    'body': 'Krb5_random_key(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock}, ${3:krb5_pointer ptr}, ${4:krb5_keyblock** keyblock})'
+  'krb5_rd_cred':
+    'prefix': 'krb5_rd_cred'
+    'body': 'Krb5_rd_cred(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* }, ${4:krb5_creds*** }, ${5:krb5_replay_data* })'
+  'krb5_rd_error':
+    'prefix': 'krb5_rd_error'
+    'body': 'Krb5_rd_error(${1:krb5_context }, ${2:krb5_data* }, ${3:krb5_error** })'
+  'krb5_rd_priv':
+    'prefix': 'krb5_rd_priv'
+    'body': 'Krb5_rd_priv(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* }, ${4:krb5_data* }, ${5:krb5_replay_data* })'
+  'krb5_rd_rep':
+    'prefix': 'krb5_rd_rep'
+    'body': 'Krb5_rd_rep(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* }, ${4:krb5_ap_rep_enc_part** })'
+  'krb5_rd_req':
+    'prefix': 'krb5_rd_req'
+    'body': 'Krb5_rd_req(${1:krb5_context }, ${2:krb5_auth_context* }, ${3:krb5_data* }, ${4:krb5_const_principal }, ${5:krb5_keytab }, ${6:krb5_flags* }, ${7:krb5_ticket** })'
+  'krb5_rd_safe':
+    'prefix': 'krb5_rd_safe'
+    'body': 'Krb5_rd_safe(${1:krb5_context }, ${2:krb5_auth_context }, ${3:krb5_data* }, ${4:krb5_data* }, ${5:krb5_replay_data* })'
+  'krb5_read_password':
+    'prefix': 'krb5_read_password'
+    'body': 'Krb5_read_password(${1:krb5_context }, ${2:char* }, ${3:char* }, ${4:char* }, ${5:unsigned int* })'
+  'krb5_realm_compare':
+    'prefix': 'krb5_realm_compare'
+    'body': 'Krb5_realm_compare(${1:krb5_context }, ${2:krb5_const_principal }, ${3:krb5_const_principal })'
+  'krb5_recvauth':
+    'prefix': 'krb5_recvauth'
+    'body': 'Krb5_recvauth(${1:krb5_context }, ${2:krb5_auth_context* }, ${3:krb5_pointer }, ${4:char* }, ${5:krb5_principal }, ${6:krb5_int32 }, ${7:krb5_keytab }, ${8:krb5_ticket** })'
+  'krb5_recvauth_version':
+    'prefix': 'krb5_recvauth_version'
+    'body': 'Krb5_recvauth_version(${1:krb5_context }, ${2:krb5_auth_context* }, ${3:krb5_pointer }, ${4:krb5_principal }, ${5:krb5_int32 }, ${6:krb5_keytab }, ${7:krb5_ticket** }, ${8:krb5_data* })'
+  'krb5_salttype_to_string':
+    'prefix': 'krb5_salttype_to_string'
+    'body': 'Krb5_salttype_to_string(${1:krb5_int32 }, ${2:char* }, ${3:size_t })'
+  'krb5_sendauth':
+    'prefix': 'krb5_sendauth'
+    'body': 'Krb5_sendauth(${1:krb5_context }, ${2:krb5_auth_context* }, ${3:krb5_pointer }, ${4:char* }, ${5:krb5_principal }, ${6:krb5_principal }, ${7:krb5_flags }, ${8:krb5_data* }, ${9:krb5_creds* }, ${10:krb5_ccache }, ${11:krb5_error** }, ${12:krb5_ap_rep_enc_part** }, ${13:krb5_creds** })'
+  'krb5_server_decrypt_ticket_keytab':
+    'prefix': 'krb5_server_decrypt_ticket_keytab'
+    'body': 'Krb5_server_decrypt_ticket_keytab(${1:krb5_context context}, ${2:krb5_keytab kt}, ${3:krb5_ticket* ticket})'
+  'krb5_set_default_realm':
+    'prefix': 'krb5_set_default_realm'
+    'body': 'Krb5_set_default_realm(${1:krb5_context }, ${2:char* })'
+  'krb5_set_default_tgs_enctypes':
+    'prefix': 'krb5_set_default_tgs_enctypes'
+    'body': 'Krb5_set_default_tgs_enctypes(${1:krb5_context }, ${2:krb5_enctype* })'
+  'krb5_set_error_message':
+    'prefix': 'krb5_set_error_message'
+    'body': 'Krb5_set_error_message(${1:krb5_context }, ${2:krb5_error_code }, ${3:char* })'
+  'krb5_set_password':
+    'prefix': 'krb5_set_password'
+    'body': 'Krb5_set_password(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:char* newpw}, ${4:krb5_principal change_password_for}, ${5:int* result_code}, ${6:krb5_data* result_code_string}, ${7:krb5_data* result_string})'
+  'krb5_set_password_using_ccache':
+    'prefix': 'krb5_set_password_using_ccache'
+    'body': 'Krb5_set_password_using_ccache(${1:krb5_context context}, ${2:krb5_ccache ccache}, ${3:char* newpw}, ${4:krb5_principal change_password_for}, ${5:int* result_code}, ${6:krb5_data* result_code_string}, ${7:krb5_data* result_string})'
+  'krb5_set_principal_realm':
+    'prefix': 'krb5_set_principal_realm'
+    'body': 'Krb5_set_principal_realm(${1:krb5_context }, ${2:krb5_principal }, ${3:char* })'
+  'krb5_set_real_time':
+    'prefix': 'krb5_set_real_time'
+    'body': 'Krb5_set_real_time(${1:krb5_context }, ${2:krb5_timestamp }, ${3:krb5_int32 })'
+  'krb5_sname_to_principal':
+    'prefix': 'krb5_sname_to_principal'
+    'body': 'Krb5_sname_to_principal(${1:krb5_context }, ${2:char* }, ${3:char* }, ${4:krb5_int32 }, ${5:krb5_principal* })'
+  'krb5_string_to_cksumtype':
+    'prefix': 'krb5_string_to_cksumtype'
+    'body': 'Krb5_string_to_cksumtype(${1:char* }, ${2:krb5_cksumtype* })'
+  'krb5_string_to_deltat':
+    'prefix': 'krb5_string_to_deltat'
+    'body': 'Krb5_string_to_deltat(${1:char* }, ${2:krb5_deltat* })'
+  'krb5_string_to_enctype':
+    'prefix': 'krb5_string_to_enctype'
+    'body': 'Krb5_string_to_enctype(${1:char* }, ${2:krb5_enctype* })'
+  'krb5_string_to_key':
+    'prefix': 'krb5_string_to_key'
+    'body': 'Krb5_string_to_key(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock}, ${3:krb5_keyblock* keyblock}, ${4:krb5_data* data}, ${5:krb5_data* salt})'
+  'krb5_string_to_salttype':
+    'prefix': 'krb5_string_to_salttype'
+    'body': 'Krb5_string_to_salttype(${1:char* }, ${2:krb5_int32* })'
+  'krb5_string_to_timestamp':
+    'prefix': 'krb5_string_to_timestamp'
+    'body': 'Krb5_string_to_timestamp(${1:char* }, ${2:krb5_timestamp* })'
+  'krb5_timeofday':
+    'prefix': 'krb5_timeofday'
+    'body': 'Krb5_timeofday(${1:krb5_context }, ${2:krb5_timestamp* })'
+  'krb5_timestamp_to_sfstring':
+    'prefix': 'krb5_timestamp_to_sfstring'
+    'body': 'Krb5_timestamp_to_sfstring(${1:krb5_timestamp }, ${2:char* }, ${3:size_t }, ${4:char* })'
+  'krb5_timestamp_to_string':
+    'prefix': 'krb5_timestamp_to_string'
+    'body': 'Krb5_timestamp_to_string(${1:krb5_timestamp }, ${2:char* }, ${3:size_t })'
+  'krb5_unparse_name':
+    'prefix': 'krb5_unparse_name'
+    'body': 'Krb5_unparse_name(${1:krb5_context }, ${2:krb5_const_principal }, ${3:char** })'
+  'krb5_unparse_name_ext':
+    'prefix': 'krb5_unparse_name_ext'
+    'body': 'Krb5_unparse_name_ext(${1:krb5_context }, ${2:krb5_const_principal }, ${3:char** }, ${4:unsigned int* })'
+  'krb5_unparse_name_flags':
+    'prefix': 'krb5_unparse_name_flags'
+    'body': 'Krb5_unparse_name_flags(${1:krb5_context }, ${2:krb5_const_principal }, ${3:int }, ${4:char** })'
+  'krb5_unparse_name_flags_ext':
+    'prefix': 'krb5_unparse_name_flags_ext'
+    'body': 'Krb5_unparse_name_flags_ext(${1:krb5_context }, ${2:krb5_const_principal }, ${3:int }, ${4:char** }, ${5:unsigned int* })'
+  'krb5_us_timeofday':
+    'prefix': 'krb5_us_timeofday'
+    'body': 'Krb5_us_timeofday(${1:krb5_context }, ${2:krb5_timestamp* }, ${3:krb5_int32* })'
+  'krb5_use_enctype':
+    'prefix': 'krb5_use_enctype'
+    'body': 'Krb5_use_enctype(${1:krb5_context context}, ${2:krb5_encrypt_block* eblock}, ${3:krb5_enctype enctype})'
+  'krb5_verify_checksum':
+    'prefix': 'krb5_verify_checksum'
+    'body': 'Krb5_verify_checksum(${1:krb5_context context}, ${2:krb5_cksumtype ctype}, ${3:krb5_checksum* cksum}, ${4:krb5_const_pointer in}, ${5:size_t in_length}, ${6:krb5_const_pointer seed}, ${7:size_t seed_length})'
+  'krb5_verify_init_creds':
+    'prefix': 'krb5_verify_init_creds'
+    'body': 'Krb5_verify_init_creds(${1:krb5_context context}, ${2:krb5_creds* creds}, ${3:krb5_principal ap_req_server}, ${4:krb5_keytab ap_req_keytab}, ${5:krb5_ccache* ccache}, ${6:krb5_verify_init_creds_opt* k5_vic_options})'
+  'krb5_verify_init_creds_opt_init':
+    'prefix': 'krb5_verify_init_creds_opt_init'
+    'body': 'Krb5_verify_init_creds_opt_init(${1:krb5_verify_init_creds_opt* k5_vic_options})'
+  'krb5_verify_init_creds_opt_set_ap_req_nofail':
+    'prefix': 'krb5_verify_init_creds_opt_set_ap_req_nofail'
+    'body': 'Krb5_verify_init_creds_opt_set_ap_req_nofail(${1:krb5_verify_init_creds_opt* k5_vic_options}, ${2:int ap_req_nofail})'
+  'krb5_vset_error_message':
+    'prefix': 'krb5_vset_error_message'
+    'body': 'Krb5_vset_error_message(${1:krb5_context }, ${2:krb5_error_code }, ${3:char* }, ${4:va_list })'
+  'profile_abandon':
+    'prefix': 'profile_abandon'
+    'body': 'profile_abandon(${1:profile_t profile})'
+  'profile_add_relation':
+    'prefix': 'profile_add_relation'
+    'body': 'profile_add_relation(${1:profile_t profile}, ${2:char** names}, ${3:char* new_value})'
+  'profile_clear_relation':
+    'prefix': 'profile_clear_relation'
+    'body': 'profile_clear_relation(${1:profile_t profile}, ${2:char** names})'
+  'profile_configuration_updated':
+    'prefix': 'profile_configuration_updated'
+    'body': 'profile_configuration_updated()'
+  'profile_flush':
+    'prefix': 'profile_flush'
+    'body': 'profile_flush(${1:profile_t profile})'
+  'profile_flush_to_buffer':
+    'prefix': 'profile_flush_to_buffer'
+    'body': 'profile_flush_to_buffer(${1:profile_t profile}, ${2:char** bufp})'
+  'profile_flush_to_file':
+    'prefix': 'profile_flush_to_file'
+    'body': 'profile_flush_to_file(${1:profile_t profile}, ${2:const_profile_filespec_t outfile})'
+  'profile_free_buffer':
+    'prefix': 'profile_free_buffer'
+    'body': 'profile_free_buffer(${1:profile_t profile}, ${2:char* buf})'
+  'profile_free_list':
+    'prefix': 'profile_free_list'
+    'body': 'profile_free_list(${1:char** list})'
+  'profile_get_boolean':
+    'prefix': 'profile_get_boolean'
+    'body': 'profile_get_boolean(${1:profile_t profile}, ${2:char* name}, ${3:char* subname}, ${4:char* subsubname}, ${5:int def_val}, ${6:int* ret_default})'
+  'profile_get_integer':
+    'prefix': 'profile_get_integer'
+    'body': 'profile_get_integer(${1:profile_t profile}, ${2:char* name}, ${3:char* subname}, ${4:char* subsubname}, ${5:int def_val}, ${6:int* ret_default})'
+  'profile_get_relation_names':
+    'prefix': 'profile_get_relation_names'
+    'body': 'profile_get_relation_names(${1:profile_t profile}, ${2:char** names}, ${3:char*** ret_names})'
+  'profile_get_string':
+    'prefix': 'profile_get_string'
+    'body': 'profile_get_string(${1:profile_t profile}, ${2:char* name}, ${3:char* subname}, ${4:char* subsubname}, ${5:char* def_val}, ${6:char** ret_string})'
+  'profile_get_subsection_names':
+    'prefix': 'profile_get_subsection_names'
+    'body': 'profile_get_subsection_names(${1:profile_t profile}, ${2:char** names}, ${3:char*** ret_names})'
+  'profile_get_values':
+    'prefix': 'profile_get_values'
+    'body': 'profile_get_values(${1:profile_t profile}, ${2:char ** names}, ${3:char*** ret_values})'
+  'profile_init':
+    'prefix': 'profile_init'
+    'body': 'profile_init(${1:const_profile_filespec_t* files}, ${2:profile_t* ret_profile})'
+  'profile_init_path':
+    'prefix': 'profile_init_path'
+    'body': 'profile_init_path(${1:const_profile_filespec_list_t filelist}, ${2:profile_t* ret_profile})'
+  'profile_is_modified':
+    'prefix': 'profile_is_modified'
+    'body': 'profile_is_modified(${1:profile_t profile}, ${2:int* modified})'
+  'profile_is_writable':
+    'prefix': 'profile_is_writable'
+    'body': 'profile_is_writable(${1:profile_t profile}, ${2:int* writable})'
+  'profile_iterator':
+    'prefix': 'profile_iterator'
+    'body': 'profile_iterator(${1:void** iter_p}, ${2:char** ret_name}, ${3:char** ret_value})'
+  'profile_iterator_create':
+    'prefix': 'profile_iterator_create'
+    'body': 'profile_iterator_create(${1:profile_t profile}, ${2:char ** names}, ${3:int flags}, ${4:void** ret_iter})'
+  'profile_iterator_free':
+    'prefix': 'profile_iterator_free'
+    'body': 'profile_iterator_free(${1:void** iter_p})'
+  'profile_release':
+    'prefix': 'profile_release'
+    'body': 'profile_release(${1:profile_t profile})'
+  'profile_release_string':
+    'prefix': 'profile_release_string'
+    'body': 'profile_release_string(${1:char* str})'
+  'profile_rename_section':
+    'prefix': 'profile_rename_section'
+    'body': 'profile_rename_section(${1:profile_t profile}, ${2:char** names}, ${3:char* new_name})'
+  'profile_update_relation':
+    'prefix': 'profile_update_relation'
+    'body': 'profile_update_relation(${1:profile_t profile}, ${2:char** names}, ${3:char* old_value}, ${4:char* new_value})'
+  'remove_error_table':
+    'prefix': 'remove_error_table'
+    'body': 'remove_error_table(${1:struct error_table* et})'
+  'reset_com_err_hook':
+    'prefix': 'reset_com_err_hook'
+    'body': 'reset_com_err_hook()'
+  'set_com_err_hook':
+    'prefix': 'set_com_err_hook'
+    'body': 'set_com_err_hook(${1:com_err_handler_t handler})'
+  'gsskrb5_register_acceptor_identity (krb5_gss_register_acceptor_identity)':
+    'prefix': 'gsskrb5_register_acceptor_identity'
+    'body': 'gsskrb5_register_acceptor_identity'
+  'init_asn1_err_tbl (initialize_asn1_error_table)':
+    'prefix': 'init_asn1_err_tbl'
+    'body': 'init_asn1_err_tbl'
+  'init_k524_err_tbl (initialize_k524_error_table)':
+    'prefix': 'init_k524_err_tbl'
+    'body': 'init_k524_err_tbl'
+  'init_kdb5_err_tbl (initialize_kdb5_error_table)':
+    'prefix': 'init_kdb5_err_tbl'
+    'body': 'init_kdb5_err_tbl'
+  'init_krb5_err_tbl (initialize_krb5_error_table)':
+    'prefix': 'init_krb5_err_tbl'
+    'body': 'init_krb5_err_tbl'
+  'init_kv5m_err_tbl (initialize_kv5m_error_table)':
+    'prefix': 'init_kv5m_err_tbl'
+    'body': 'init_kv5m_err_tbl'
+  'init_prof_err_tbl (initialize_prof_error_table)':
+    'prefix': 'init_prof_err_tbl'
+    'body': 'init_prof_err_tbl'

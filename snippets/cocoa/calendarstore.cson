@@ -1,0 +1,472 @@
+'.source.rubymotion':
+  'CalAlarmActionDisplay (NSString*)':
+    'prefix': 'CalAlarmActionDisplay'
+    'body': 'CalAlarmActionDisplay'
+  'CalAlarmActionEmail (NSString*)':
+    'prefix': 'CalAlarmActionEmail'
+    'body': 'CalAlarmActionEmail'
+  'CalAlarmActionProcedure (NSString*)':
+    'prefix': 'CalAlarmActionProcedure'
+    'body': 'CalAlarmActionProcedure'
+  'CalAlarmActionSound (NSString*)':
+    'prefix': 'CalAlarmActionSound'
+    'body': 'CalAlarmActionSound'
+  'CalAttendeeStatusAccepted (NSString*)':
+    'prefix': 'CalAttendeeStatusAccepted'
+    'body': 'CalAttendeeStatusAccepted'
+  'CalAttendeeStatusDeclined (NSString*)':
+    'prefix': 'CalAttendeeStatusDeclined'
+    'body': 'CalAttendeeStatusDeclined'
+  'CalAttendeeStatusNeedsAction (NSString*)':
+    'prefix': 'CalAttendeeStatusNeedsAction'
+    'body': 'CalAttendeeStatusNeedsAction'
+  'CalAttendeeStatusTentative (NSString*)':
+    'prefix': 'CalAttendeeStatusTentative'
+    'body': 'CalAttendeeStatusTentative'
+  'CalCalendarStoreErrorDomain (NSString*)':
+    'prefix': 'CalCalendarStoreErrorDomain'
+    'body': 'CalCalendarStoreErrorDomain'
+  'CalCalendarTypeBirthday (NSString*)':
+    'prefix': 'CalCalendarTypeBirthday'
+    'body': 'CalCalendarTypeBirthday'
+  'CalCalendarTypeCalDAV (NSString*)':
+    'prefix': 'CalCalendarTypeCalDAV'
+    'body': 'CalCalendarTypeCalDAV'
+  'CalCalendarTypeExchange (NSString*)':
+    'prefix': 'CalCalendarTypeExchange'
+    'body': 'CalCalendarTypeExchange'
+  'CalCalendarTypeIMAP (NSString*)':
+    'prefix': 'CalCalendarTypeIMAP'
+    'body': 'CalCalendarTypeIMAP'
+  'CalCalendarTypeLocal (NSString*)':
+    'prefix': 'CalCalendarTypeLocal'
+    'body': 'CalCalendarTypeLocal'
+  'CalCalendarTypeSubscription (NSString*)':
+    'prefix': 'CalCalendarTypeSubscription'
+    'body': 'CalCalendarTypeSubscription'
+  'CalCalendarsChangedExternallyNotification (NSString*)':
+    'prefix': 'CalCalendarsChangedExternallyNotification'
+    'body': 'CalCalendarsChangedExternallyNotification'
+  'CalCalendarsChangedNotification (NSString*)':
+    'prefix': 'CalCalendarsChangedNotification'
+    'body': 'CalCalendarsChangedNotification'
+  'CalDefaultRecurrenceInterval (NSUInteger)':
+    'prefix': 'CalDefaultRecurrenceInterval'
+    'body': 'CalDefaultRecurrenceInterval'
+  'CalDeletedRecordsKey (NSString*)':
+    'prefix': 'CalDeletedRecordsKey'
+    'body': 'CalDeletedRecordsKey'
+  'CalEventsChangedExternallyNotification (NSString*)':
+    'prefix': 'CalEventsChangedExternallyNotification'
+    'body': 'CalEventsChangedExternallyNotification'
+  'CalEventsChangedNotification (NSString*)':
+    'prefix': 'CalEventsChangedNotification'
+    'body': 'CalEventsChangedNotification'
+  'CalInsertedRecordsKey (NSString*)':
+    'prefix': 'CalInsertedRecordsKey'
+    'body': 'CalInsertedRecordsKey'
+  'CalSenderProcessIDKey (NSString*)':
+    'prefix': 'CalSenderProcessIDKey'
+    'body': 'CalSenderProcessIDKey'
+  'CalTasksChangedExternallyNotification (NSString*)':
+    'prefix': 'CalTasksChangedExternallyNotification'
+    'body': 'CalTasksChangedExternallyNotification'
+  'CalTasksChangedNotification (NSString*)':
+    'prefix': 'CalTasksChangedNotification'
+    'body': 'CalTasksChangedNotification'
+  'CalUpdatedRecordsKey (NSString*)':
+    'prefix': 'CalUpdatedRecordsKey'
+    'body': 'CalUpdatedRecordsKey'
+  'CalUserUIDKey (NSString*)':
+    'prefix': 'CalUserUIDKey'
+    'body': 'CalUserUIDKey'
+  'CalCalendarNotEditableError (1025)':
+    'prefix': 'CalCalendarNotEditableError'
+    'body': 'CalCalendarNotEditableError'
+  'CalCalendarNotInRepository (1027)':
+    'prefix': 'CalCalendarNotInRepository'
+    'body': 'CalCalendarNotInRepository'
+  'CalCalendarTitleNotUniqueError (1028)':
+    'prefix': 'CalCalendarTitleNotUniqueError'
+    'body': 'CalCalendarTitleNotUniqueError'
+  'CalDateInvalidError (1026)':
+    'prefix': 'CalDateInvalidError'
+    'body': 'CalDateInvalidError'
+  'CalPriorityHigh (1)':
+    'prefix': 'CalPriorityHigh'
+    'body': 'CalPriorityHigh'
+  'CalPriorityLow (9)':
+    'prefix': 'CalPriorityLow'
+    'body': 'CalPriorityLow'
+  'CalPriorityMedium (5)':
+    'prefix': 'CalPriorityMedium'
+    'body': 'CalPriorityMedium'
+  'CalPriorityNone (0)':
+    'prefix': 'CalPriorityNone'
+    'body': 'CalPriorityNone'
+  'CalRecurrenceDaily (0)':
+    'prefix': 'CalRecurrenceDaily'
+    'body': 'CalRecurrenceDaily'
+  'CalRecurrenceMonthly (2)':
+    'prefix': 'CalRecurrenceMonthly'
+    'body': 'CalRecurrenceMonthly'
+  'CalRecurrenceWeekly (1)':
+    'prefix': 'CalRecurrenceWeekly'
+    'body': 'CalRecurrenceWeekly'
+  'CalRecurrenceYearly (3)':
+    'prefix': 'CalRecurrenceYearly'
+    'body': 'CalRecurrenceYearly'
+  'CalSpanAllEvents (2)':
+    'prefix': 'CalSpanAllEvents'
+    'body': 'CalSpanAllEvents'
+  'CalSpanFutureEvents (1)':
+    'prefix': 'CalSpanFutureEvents'
+    'body': 'CalSpanFutureEvents'
+  'CalSpanThisEvent (0)':
+    'prefix': 'CalSpanThisEvent'
+    'body': 'CalSpanThisEvent'
+  'absoluteTrigger':
+    'prefix': 'absoluteTrigger'
+    'body': 'absoluteTrigger()'
+  'acknowledged':
+    'prefix': 'acknowledged'
+    'body': 'acknowledged()'
+  'action':
+    'prefix': 'action'
+    'body': 'action()'
+  'CalAlarm.alarm':
+    'prefix': 'alarm'
+    'body': 'CalAlarm.alarm()'
+  'emailAddress':
+    'prefix': 'emailAddress'
+    'body': 'emailAddress()'
+  'relatedTo':
+    'prefix': 'relatedTo'
+    'body': 'relatedTo()'
+  'relativeTrigger':
+    'prefix': 'relativeTrigger'
+    'body': 'relativeTrigger()'
+  'setAbsoluteTrigger:':
+    'prefix': 'setAbsoluteTrigger:'
+    'body': 'setAbsoluteTrigger(${1:NSDate* absoluteTrigger})'
+  'setAcknowledged:':
+    'prefix': 'setAcknowledged:'
+    'body': 'setAcknowledged(${1:NSDate* date})'
+  'setAction:':
+    'prefix': 'setAction:'
+    'body': 'setAction(${1:NSString* action})'
+  'setEmailAddress:':
+    'prefix': 'setEmailAddress:'
+    'body': 'setEmailAddress(${1:NSString* emailAddress})'
+  'setRelatedTo:':
+    'prefix': 'setRelatedTo:'
+    'body': 'setRelatedTo(${1:NSString* relatedTo})'
+  'setRelativeTrigger:':
+    'prefix': 'setRelativeTrigger:'
+    'body': 'setRelativeTrigger(${1:NSTimeInterval relativeTrigger})'
+  'setSound:':
+    'prefix': 'setSound:'
+    'body': 'setSound(${1:NSString* sound})'
+  'setUrl:':
+    'prefix': 'setUrl:'
+    'body': 'setUrl(${1:NSURL* url})'
+  'sound':
+    'prefix': 'sound'
+    'body': 'sound()'
+  'triggerDateRelativeTo:':
+    'prefix': 'triggerDateRelativeTo:'
+    'body': 'triggerDateRelativeTo(${1:NSDate* date})'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'address':
+    'prefix': 'address'
+    'body': 'address()'
+  'commonName':
+    'prefix': 'commonName'
+    'body': 'commonName()'
+  'status':
+    'prefix': 'status'
+    'body': 'status()'
+  'CalCalendar.calendar':
+    'prefix': 'calendar'
+    'body': 'CalCalendar.calendar()'
+  'color':
+    'prefix': 'color'
+    'body': 'color()'
+  'isEditable':
+    'prefix': 'isEditable'
+    'body': 'isEditable()'
+  'notes':
+    'prefix': 'notes'
+    'body': 'notes()'
+  'setColor:':
+    'prefix': 'setColor:'
+    'body': 'setColor(${1:NSColor* color})'
+  'setNotes:':
+    'prefix': 'setNotes:'
+    'body': 'setNotes(${1:NSString* notes})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* title})'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'type':
+    'prefix': 'type'
+    'body': 'type()'
+  'uid':
+    'prefix': 'uid'
+    'body': 'uid()'
+  'addAlarm:':
+    'prefix': 'addAlarm:'
+    'body': 'addAlarm(${1:CalAlarm* alarm})'
+  'addAlarms:':
+    'prefix': 'addAlarms:'
+    'body': 'addAlarms(${1:NSArray* alarms})'
+  'alarms':
+    'prefix': 'alarms'
+    'body': 'alarms()'
+  'calendar':
+    'prefix': 'calendar'
+    'body': 'calendar()'
+  'dateStamp':
+    'prefix': 'dateStamp'
+    'body': 'dateStamp()'
+  'hasAlarm':
+    'prefix': 'hasAlarm'
+    'body': 'hasAlarm()'
+  'nextAlarmDate':
+    'prefix': 'nextAlarmDate'
+    'body': 'nextAlarmDate()'
+  'notes':
+    'prefix': 'notes'
+    'body': 'notes()'
+  'removeAlarm:':
+    'prefix': 'removeAlarm:'
+    'body': 'removeAlarm(${1:CalAlarm* alarm})'
+  'removeAlarms:':
+    'prefix': 'removeAlarms:'
+    'body': 'removeAlarms(${1:NSArray* alarms})'
+  'setAlarms:':
+    'prefix': 'setAlarms:'
+    'body': 'setAlarms(${1:NSArray* alarms})'
+  'setCalendar:':
+    'prefix': 'setCalendar:'
+    'body': 'setCalendar(${1:CalCalendar* calendar})'
+  'setNotes:':
+    'prefix': 'setNotes:'
+    'body': 'setNotes(${1:NSString* notes})'
+  'setTitle:':
+    'prefix': 'setTitle:'
+    'body': 'setTitle(${1:NSString* title})'
+  'setUrl:':
+    'prefix': 'setUrl:'
+    'body': 'setUrl(${1:NSURL* url})'
+  'title':
+    'prefix': 'title'
+    'body': 'title()'
+  'uid':
+    'prefix': 'uid'
+    'body': 'uid()'
+  'url':
+    'prefix': 'url'
+    'body': 'url()'
+  'calendarWithUID:':
+    'prefix': 'calendarWithUID:'
+    'body': 'calendarWithUID(${1:NSString* UID})'
+  'calendars':
+    'prefix': 'calendars'
+    'body': 'calendars()'
+  'CalCalendarStore.defaultCalendarStore':
+    'prefix': 'defaultCalendarStore'
+    'body': 'CalCalendarStore.defaultCalendarStore()'
+  'CalCalendarStore.eventPredicateWithStartDate:endDate:UID:calendars:':
+    'prefix': 'eventPredicateWithStartDate:endDate:UID:calendars:'
+    'body': 'CalCalendarStore.eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, UID:${3:NSString* UID}, calendars:${4:NSArray* calendars})'
+  'CalCalendarStore.eventPredicateWithStartDate:endDate:calendars:':
+    'prefix': 'eventPredicateWithStartDate:endDate:calendars:'
+    'body': 'CalCalendarStore.eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, calendars:${3:NSArray* calendars})'
+  'eventWithUID:occurrence:':
+    'prefix': 'eventWithUID:occurrence:'
+    'body': 'eventWithUID(${1:NSString* uid}, occurrence:${2:NSDate* date})'
+  'eventsWithPredicate:':
+    'prefix': 'eventsWithPredicate:'
+    'body': 'eventsWithPredicate(${1:NSPredicate* predicate})'
+  'removeCalendar:error:':
+    'prefix': 'removeCalendar:error:'
+    'body': 'removeCalendar(${1:CalCalendar* calendar}, error:${2:NSError** error})'
+  'removeEvent:span:error:':
+    'prefix': 'removeEvent:span:error:'
+    'body': 'removeEvent(${1:CalEvent* event}, span:${2:CalSpan span}, error:${3:NSError** error})'
+  'removeTask:error:':
+    'prefix': 'removeTask:error:'
+    'body': 'removeTask(${1:CalTask* task}, error:${2:NSError** error})'
+  'saveCalendar:error:':
+    'prefix': 'saveCalendar:error:'
+    'body': 'saveCalendar(${1:CalCalendar* calendar}, error:${2:NSError** error})'
+  'saveEvent:span:error:':
+    'prefix': 'saveEvent:span:error:'
+    'body': 'saveEvent(${1:CalEvent* event}, span:${2:CalSpan span}, error:${3:NSError** error})'
+  'saveTask:error:':
+    'prefix': 'saveTask:error:'
+    'body': 'saveTask(${1:CalTask* task}, error:${2:NSError** error})'
+  'CalCalendarStore.taskPredicateWithCalendars:':
+    'prefix': 'taskPredicateWithCalendars:'
+    'body': 'CalCalendarStore.taskPredicateWithCalendars(${1:NSArray* calendars})'
+  'CalCalendarStore.taskPredicateWithTasksCompletedSince:calendars:':
+    'prefix': 'taskPredicateWithTasksCompletedSince:calendars:'
+    'body': 'CalCalendarStore.taskPredicateWithTasksCompletedSince(${1:NSDate* completedSince}, calendars:${2:NSArray* calendars})'
+  'CalCalendarStore.taskPredicateWithUncompletedTasks:':
+    'prefix': 'taskPredicateWithUncompletedTasks:'
+    'body': 'CalCalendarStore.taskPredicateWithUncompletedTasks(${1:NSArray* calendars})'
+  'CalCalendarStore.taskPredicateWithUncompletedTasksDueBefore:calendars:':
+    'prefix': 'taskPredicateWithUncompletedTasksDueBefore:calendars:'
+    'body': 'CalCalendarStore.taskPredicateWithUncompletedTasksDueBefore(${1:NSDate* dueDate}, calendars:${2:NSArray* calendars})'
+  'taskWithUID:':
+    'prefix': 'taskWithUID:'
+    'body': 'taskWithUID(${1:NSString* uid})'
+  'tasksWithPredicate:':
+    'prefix': 'tasksWithPredicate:'
+    'body': 'tasksWithPredicate(${1:NSPredicate* predicate})'
+  'attendees':
+    'prefix': 'attendees'
+    'body': 'attendees()'
+  'endDate':
+    'prefix': 'endDate'
+    'body': 'endDate()'
+  'CalEvent.event':
+    'prefix': 'event'
+    'body': 'CalEvent.event()'
+  'isAllDay':
+    'prefix': 'isAllDay'
+    'body': 'isAllDay()'
+  'isDetached':
+    'prefix': 'isDetached'
+    'body': 'isDetached()'
+  'location':
+    'prefix': 'location'
+    'body': 'location()'
+  'occurrence':
+    'prefix': 'occurrence'
+    'body': 'occurrence()'
+  'recurrenceRule':
+    'prefix': 'recurrenceRule'
+    'body': 'recurrenceRule()'
+  'setEndDate:':
+    'prefix': 'setEndDate:'
+    'body': 'setEndDate(${1:NSDate* endDate})'
+  'setIsAllDay:':
+    'prefix': 'setIsAllDay:'
+    'body': 'setIsAllDay(${1:BOOL isAllDay})'
+  'setLocation:':
+    'prefix': 'setLocation:'
+    'body': 'setLocation(${1:NSString* location})'
+  'setRecurrenceRule:':
+    'prefix': 'setRecurrenceRule:'
+    'body': 'setRecurrenceRule(${1:CalRecurrenceRule* recurrenceRule})'
+  'setStartDate:':
+    'prefix': 'setStartDate:'
+    'body': 'setStartDate(${1:NSDate* startDate})'
+  'startDate':
+    'prefix': 'startDate'
+    'body': 'startDate()'
+  'dayOfTheWeek':
+    'prefix': 'dayOfTheWeek'
+    'body': 'dayOfTheWeek()'
+  'weekNumber':
+    'prefix': 'weekNumber'
+    'body': 'weekNumber()'
+  'endDate':
+    'prefix': 'endDate'
+    'body': 'endDate()'
+  'occurrenceCount':
+    'prefix': 'occurrenceCount'
+    'body': 'occurrenceCount()'
+  'CalRecurrenceEnd.recurrenceEndWithEndDate:':
+    'prefix': 'recurrenceEndWithEndDate:'
+    'body': 'CalRecurrenceEnd.recurrenceEndWithEndDate(${1:NSDate* endDate})'
+  'CalRecurrenceEnd.recurrenceEndWithOccurrenceCount:':
+    'prefix': 'recurrenceEndWithOccurrenceCount:'
+    'body': 'CalRecurrenceEnd.recurrenceEndWithOccurrenceCount(${1:NSUInteger occurrenceCount})'
+  'usesEndDate':
+    'prefix': 'usesEndDate'
+    'body': 'usesEndDate()'
+  'daysOfTheMonth':
+    'prefix': 'daysOfTheMonth'
+    'body': 'daysOfTheMonth()'
+  'daysOfTheWeek':
+    'prefix': 'daysOfTheWeek'
+    'body': 'daysOfTheWeek()'
+  'firstDayOfTheWeek':
+    'prefix': 'firstDayOfTheWeek'
+    'body': 'firstDayOfTheWeek()'
+  'initDailyRecurrenceWithInterval:end:':
+    'prefix': 'initDailyRecurrenceWithInterval:end:'
+    'body': 'initDailyRecurrenceWithInterval(${1:NSUInteger interval}, end:${2:CalRecurrenceEnd* end})'
+  'initMonthlyRecurrenceWithInterval:end:':
+    'prefix': 'initMonthlyRecurrenceWithInterval:end:'
+    'body': 'initMonthlyRecurrenceWithInterval(${1:NSUInteger interval}, end:${2:CalRecurrenceEnd* end})'
+  'initMonthlyRecurrenceWithInterval:forDayOfTheWeek:forWeekOfTheMonth:end:':
+    'prefix': 'initMonthlyRecurrenceWithInterval:forDayOfTheWeek:forWeekOfTheMonth:end:'
+    'body': 'initMonthlyRecurrenceWithInterval(${1:NSUInteger interval}, forDayOfTheWeek:${2:NSUInteger weekDay}, forWeekOfTheMonth:${3:NSInteger monthWeek}, end:${4:CalRecurrenceEnd* end})'
+  'initMonthlyRecurrenceWithInterval:forDaysOfTheMonth:end:':
+    'prefix': 'initMonthlyRecurrenceWithInterval:forDaysOfTheMonth:end:'
+    'body': 'initMonthlyRecurrenceWithInterval(${1:NSUInteger interval}, forDaysOfTheMonth:${2:NSArray* monthDays}, end:${3:CalRecurrenceEnd* end})'
+  'initWeeklyRecurrenceWithInterval:end:':
+    'prefix': 'initWeeklyRecurrenceWithInterval:end:'
+    'body': 'initWeeklyRecurrenceWithInterval(${1:NSUInteger interval}, end:${2:CalRecurrenceEnd* end})'
+  'initWeeklyRecurrenceWithInterval:forDaysOfTheWeek:end:':
+    'prefix': 'initWeeklyRecurrenceWithInterval:forDaysOfTheWeek:end:'
+    'body': 'initWeeklyRecurrenceWithInterval(${1:NSUInteger interval}, forDaysOfTheWeek:${2:NSArray* days}, end:${3:CalRecurrenceEnd* end})'
+  'initYearlyRecurrenceWithInterval:end:':
+    'prefix': 'initYearlyRecurrenceWithInterval:end:'
+    'body': 'initYearlyRecurrenceWithInterval(${1:NSUInteger interval}, end:${2:CalRecurrenceEnd* end})'
+  'initYearlyRecurrenceWithInterval:forDayOfTheWeek:forWeekOfTheMonth:forMonthsOfTheYear:end:':
+    'prefix': 'initYearlyRecurrenceWithInterval:forDayOfTheWeek:forWeekOfTheMonth:forMonthsOfTheYear:end:'
+    'body': 'initYearlyRecurrenceWithInterval(${1:NSUInteger interval}, forDayOfTheWeek:${2:NSUInteger weekDay}, forWeekOfTheMonth:${3:NSInteger monthWeek}, forMonthsOfTheYear:${4:NSArray* months}, end:${5:CalRecurrenceEnd* end})'
+  'initYearlyRecurrenceWithInterval:forMonthsOfTheYear:end:':
+    'prefix': 'initYearlyRecurrenceWithInterval:forMonthsOfTheYear:end:'
+    'body': 'initYearlyRecurrenceWithInterval(${1:NSUInteger interval}, forMonthsOfTheYear:${2:NSArray* months}, end:${3:CalRecurrenceEnd* end})'
+  'monthsOfTheYear':
+    'prefix': 'monthsOfTheYear'
+    'body': 'monthsOfTheYear()'
+  'nthWeekDaysOfTheMonth':
+    'prefix': 'nthWeekDaysOfTheMonth'
+    'body': 'nthWeekDaysOfTheMonth()'
+  'recurrenceEnd':
+    'prefix': 'recurrenceEnd'
+    'body': 'recurrenceEnd()'
+  'recurrenceInterval':
+    'prefix': 'recurrenceInterval'
+    'body': 'recurrenceInterval()'
+  'recurrenceType':
+    'prefix': 'recurrenceType'
+    'body': 'recurrenceType()'
+  'completedDate':
+    'prefix': 'completedDate'
+    'body': 'completedDate()'
+  'dueDate':
+    'prefix': 'dueDate'
+    'body': 'dueDate()'
+  'isCompleted':
+    'prefix': 'isCompleted'
+    'body': 'isCompleted()'
+  'priority':
+    'prefix': 'priority'
+    'body': 'priority()'
+  'setCompletedDate:':
+    'prefix': 'setCompletedDate:'
+    'body': 'setCompletedDate(${1:NSDate* completedDate})'
+  'setDueDate:':
+    'prefix': 'setDueDate:'
+    'body': 'setDueDate(${1:NSDate* dueDate})'
+  'setIsCompleted:':
+    'prefix': 'setIsCompleted:'
+    'body': 'setIsCompleted(${1:BOOL isCompleted})'
+  'setPriority:':
+    'prefix': 'setPriority:'
+    'body': 'setPriority(${1:CalPriority priority})'
+  'CalTask.task':
+    'prefix': 'task'
+    'body': 'CalTask.task()'

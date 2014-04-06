@@ -1,0 +1,1261 @@
+'.source.rubymotion':
+  'kAudioPlugPropertiesKey (AudioPlugProperties)':
+    'prefix': 'kAudioPlugPropertiesKey'
+    'body': 'KAudioPlugPropertiesKey'
+  'kFWAStreamEndpointIndentifier (kFWAudioStreamEndpointIdentifier)':
+    'prefix': 'kFWAStreamEndpointIndentifier'
+    'body': 'KFWAStreamEndpointIndentifier'
+  'kMIDIPlugPropertiesKey (MIDIPlugProperties)':
+    'prefix': 'kMIDIPlugPropertiesKey'
+    'body': 'KMIDIPlugPropertiesKey'
+  'kMIDIPropertiesIsEmbeddedKey (MIDIPropertyIsEmbedded)':
+    'prefix': 'kMIDIPropertiesIsEmbeddedKey'
+    'body': 'KMIDIPropertiesIsEmbeddedKey'
+  'kMIDIPropertiesIsPrivateKey (MIDIPropertyIsPrivate)':
+    'prefix': 'kMIDIPropertiesIsPrivateKey'
+    'body': 'KMIDIPropertiesIsPrivateKey'
+  'CURRENT_DEVICE_STATUS_VERSION (73728)':
+    'prefix': 'CURRENT_DEVICE_STATUS_VERSION'
+    'body': 'CURRENT_DEVICE_STATUS_VERSION'
+  'kAllEventTypes (255)':
+    'prefix': 'kAllEventTypes'
+    'body': 'KAllEventTypes'
+  'kAncillaryData (192)':
+    'prefix': 'kAncillaryData'
+    'body': 'KAncillaryData'
+  'kAttachFWAudioMIDIStreamInParamCount (2)':
+    'prefix': 'kAttachFWAudioMIDIStreamInParamCount'
+    'body': 'KAttachFWAudioMIDIStreamInParamCount'
+  'kAttachFWAudioMIDIStreamOutParamCount (0)':
+    'prefix': 'kAttachFWAudioMIDIStreamOutParamCount'
+    'body': 'KAttachFWAudioMIDIStreamOutParamCount'
+  'kAttachFWAudioStreamInParamCount (2)':
+    'prefix': 'kAttachFWAudioStreamInParamCount'
+    'body': 'KAttachFWAudioStreamInParamCount'
+  'kAttachFWAudioStreamOutParamCount (0)':
+    'prefix': 'kAttachFWAudioStreamOutParamCount'
+    'body': 'KAttachFWAudioStreamOutParamCount'
+  'kCreateAudioStreamInParamCount (4294967295)':
+    'prefix': 'kCreateAudioStreamInParamCount'
+    'body': 'KCreateAudioStreamInParamCount'
+  'kCreateAudioStreamOutParamCount (4294967295)':
+    'prefix': 'kCreateAudioStreamOutParamCount'
+    'body': 'KCreateAudioStreamOutParamCount'
+  'kCreateFWAudioDeviceInParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioDeviceInParamCount'
+    'body': 'KCreateFWAudioDeviceInParamCount'
+  'kCreateFWAudioDeviceOutParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioDeviceOutParamCount'
+    'body': 'KCreateFWAudioDeviceOutParamCount'
+  'kCreateFWAudioEngineInParamCount (3)':
+    'prefix': 'kCreateFWAudioEngineInParamCount'
+    'body': 'KCreateFWAudioEngineInParamCount'
+  'kCreateFWAudioEngineOutParamCount (1)':
+    'prefix': 'kCreateFWAudioEngineOutParamCount'
+    'body': 'KCreateFWAudioEngineOutParamCount'
+  'kCreateFWAudioMIDIDeviceNubInParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioMIDIDeviceNubInParamCount'
+    'body': 'KCreateFWAudioMIDIDeviceNubInParamCount'
+  'kCreateFWAudioMIDIDeviceNubOutParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioMIDIDeviceNubOutParamCount'
+    'body': 'KCreateFWAudioMIDIDeviceNubOutParamCount'
+  'kCreateFWAudioMIDIPlugInParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioMIDIPlugInParamCount'
+    'body': 'KCreateFWAudioMIDIPlugInParamCount'
+  'kCreateFWAudioMIDIPlugOutParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioMIDIPlugOutParamCount'
+    'body': 'KCreateFWAudioMIDIPlugOutParamCount'
+  'kCreateFWAudioMIDIStreamInParamCount (3)':
+    'prefix': 'kCreateFWAudioMIDIStreamInParamCount'
+    'body': 'KCreateFWAudioMIDIStreamInParamCount'
+  'kCreateFWAudioMIDIStreamOutParamCount (1)':
+    'prefix': 'kCreateFWAudioMIDIStreamOutParamCount'
+    'body': 'KCreateFWAudioMIDIStreamOutParamCount'
+  'kCreateFWAudioPlugInParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioPlugInParamCount'
+    'body': 'KCreateFWAudioPlugInParamCount'
+  'kCreateFWAudioPlugOutParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioPlugOutParamCount'
+    'body': 'KCreateFWAudioPlugOutParamCount'
+  'kCreateFWAudioStreamInParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioStreamInParamCount'
+    'body': 'KCreateFWAudioStreamInParamCount'
+  'kCreateFWAudioStreamOutParamCount (4294967295)':
+    'prefix': 'kCreateFWAudioStreamOutParamCount'
+    'body': 'KCreateFWAudioStreamOutParamCount'
+  'kCreateIsochStreamInParamCount (4)':
+    'prefix': 'kCreateIsochStreamInParamCount'
+    'body': 'KCreateIsochStreamInParamCount'
+  'kCreateIsochStreamOutParamCount (1)':
+    'prefix': 'kCreateIsochStreamOutParamCount'
+    'body': 'KCreateIsochStreamOutParamCount'
+  'kCurrentEraseHeadMeterArrayOffset (0)':
+    'prefix': 'kCurrentEraseHeadMeterArrayOffset'
+    'body': 'KCurrentEraseHeadMeterArrayOffset'
+  'kCurrentInputDMASampleFrameMeterArrayOffset (2)':
+    'prefix': 'kCurrentInputDMASampleFrameMeterArrayOffset'
+    'body': 'KCurrentInputDMASampleFrameMeterArrayOffset'
+  'kCurrentOutputDMASampleFrameMeterArrayOffset (3)':
+    'prefix': 'kCurrentOutputDMASampleFrameMeterArrayOffset'
+    'body': 'KCurrentOutputDMASampleFrameMeterArrayOffset'
+  'kDisposeAudioStreamInParamCount (1)':
+    'prefix': 'kDisposeAudioStreamInParamCount'
+    'body': 'KDisposeAudioStreamInParamCount'
+  'kDisposeAudioStreamOutParamCount (0)':
+    'prefix': 'kDisposeAudioStreamOutParamCount'
+    'body': 'KDisposeAudioStreamOutParamCount'
+  'kDisposeFWAudioDeviceInParamCount (1)':
+    'prefix': 'kDisposeFWAudioDeviceInParamCount'
+    'body': 'KDisposeFWAudioDeviceInParamCount'
+  'kDisposeFWAudioDeviceOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioDeviceOutParamCount'
+    'body': 'KDisposeFWAudioDeviceOutParamCount'
+  'kDisposeFWAudioEngineInParamCount (1)':
+    'prefix': 'kDisposeFWAudioEngineInParamCount'
+    'body': 'KDisposeFWAudioEngineInParamCount'
+  'kDisposeFWAudioEngineOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioEngineOutParamCount'
+    'body': 'KDisposeFWAudioEngineOutParamCount'
+  'kDisposeFWAudioMIDIDeviceNubInParamCount (1)':
+    'prefix': 'kDisposeFWAudioMIDIDeviceNubInParamCount'
+    'body': 'KDisposeFWAudioMIDIDeviceNubInParamCount'
+  'kDisposeFWAudioMIDIDeviceNubOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioMIDIDeviceNubOutParamCount'
+    'body': 'KDisposeFWAudioMIDIDeviceNubOutParamCount'
+  'kDisposeFWAudioMIDIPlugInParamCount (1)':
+    'prefix': 'kDisposeFWAudioMIDIPlugInParamCount'
+    'body': 'KDisposeFWAudioMIDIPlugInParamCount'
+  'kDisposeFWAudioMIDIPlugOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioMIDIPlugOutParamCount'
+    'body': 'KDisposeFWAudioMIDIPlugOutParamCount'
+  'kDisposeFWAudioMIDIStreamInParamCount (1)':
+    'prefix': 'kDisposeFWAudioMIDIStreamInParamCount'
+    'body': 'KDisposeFWAudioMIDIStreamInParamCount'
+  'kDisposeFWAudioMIDIStreamOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioMIDIStreamOutParamCount'
+    'body': 'KDisposeFWAudioMIDIStreamOutParamCount'
+  'kDisposeFWAudioPlugInParamCount (1)':
+    'prefix': 'kDisposeFWAudioPlugInParamCount'
+    'body': 'KDisposeFWAudioPlugInParamCount'
+  'kDisposeFWAudioPlugOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioPlugOutParamCount'
+    'body': 'KDisposeFWAudioPlugOutParamCount'
+  'kDisposeFWAudioStreamInParamCount (1)':
+    'prefix': 'kDisposeFWAudioStreamInParamCount'
+    'body': 'KDisposeFWAudioStreamInParamCount'
+  'kDisposeFWAudioStreamOutParamCount (0)':
+    'prefix': 'kDisposeFWAudioStreamOutParamCount'
+    'body': 'KDisposeFWAudioStreamOutParamCount'
+  'kDisposeIsochStreamInParamCount (1)':
+    'prefix': 'kDisposeIsochStreamInParamCount'
+    'body': 'KDisposeIsochStreamInParamCount'
+  'kDisposeIsochStreamOutParamCount (0)':
+    'prefix': 'kDisposeIsochStreamOutParamCount'
+    'body': 'KDisposeIsochStreamOutParamCount'
+  'kFWAAttachFWAudioMIDIStream (79)':
+    'prefix': 'kFWAAttachFWAudioMIDIStream'
+    'body': 'KFWAAttachFWAudioMIDIStream'
+  'kFWAAttachFWAudioStream (78)':
+    'prefix': 'kFWAAttachFWAudioStream'
+    'body': 'KFWAAttachFWAudioStream'
+  'kFWACloseIndex (1)':
+    'prefix': 'kFWACloseIndex'
+    'body': 'KFWACloseIndex'
+  'kFWACreateAudioStream (26)':
+    'prefix': 'kFWACreateAudioStream'
+    'body': 'KFWACreateAudioStream'
+  'kFWACreateFWAudioDevice (54)':
+    'prefix': 'kFWACreateFWAudioDevice'
+    'body': 'KFWACreateFWAudioDevice'
+  'kFWACreateFWAudioEngine (58)':
+    'prefix': 'kFWACreateFWAudioEngine'
+    'body': 'KFWACreateFWAudioEngine'
+  'kFWACreateFWAudioMIDIDeviceNub (87)':
+    'prefix': 'kFWACreateFWAudioMIDIDeviceNub'
+    'body': 'KFWACreateFWAudioMIDIDeviceNub'
+  'kFWACreateFWAudioMIDIPlug (66)':
+    'prefix': 'kFWACreateFWAudioMIDIPlug'
+    'body': 'KFWACreateFWAudioMIDIPlug'
+  'kFWACreateFWAudioMIDIStream (64)':
+    'prefix': 'kFWACreateFWAudioMIDIStream'
+    'body': 'KFWACreateFWAudioMIDIStream'
+  'kFWACreateFWAudioPlug (72)':
+    'prefix': 'kFWACreateFWAudioPlug'
+    'body': 'KFWACreateFWAudioPlug'
+  'kFWACreateFWAudioStream (60)':
+    'prefix': 'kFWACreateFWAudioStream'
+    'body': 'KFWACreateFWAudioStream'
+  'kFWACreateIsochStream (46)':
+    'prefix': 'kFWACreateIsochStream'
+    'body': 'KFWACreateIsochStream'
+  'kFWACreateMIDIStream (12)':
+    'prefix': 'kFWACreateMIDIStream'
+    'body': 'KFWACreateMIDIStream'
+  'kFWADeviceStatusCurrentVersion (73728)':
+    'prefix': 'kFWADeviceStatusCurrentVersion'
+    'body': 'KFWADeviceStatusCurrentVersion'
+  'kFWADisposeAudioStream (27)':
+    'prefix': 'kFWADisposeAudioStream'
+    'body': 'KFWADisposeAudioStream'
+  'kFWADisposeFWAudioDevice (55)':
+    'prefix': 'kFWADisposeFWAudioDevice'
+    'body': 'KFWADisposeFWAudioDevice'
+  'kFWADisposeFWAudioEngine (59)':
+    'prefix': 'kFWADisposeFWAudioEngine'
+    'body': 'KFWADisposeFWAudioEngine'
+  'kFWADisposeFWAudioMIDIDeviceNub (88)':
+    'prefix': 'kFWADisposeFWAudioMIDIDeviceNub'
+    'body': 'KFWADisposeFWAudioMIDIDeviceNub'
+  'kFWADisposeFWAudioMIDIPlug (67)':
+    'prefix': 'kFWADisposeFWAudioMIDIPlug'
+    'body': 'KFWADisposeFWAudioMIDIPlug'
+  'kFWADisposeFWAudioMIDIStream (65)':
+    'prefix': 'kFWADisposeFWAudioMIDIStream'
+    'body': 'KFWADisposeFWAudioMIDIStream'
+  'kFWADisposeFWAudioPlug (73)':
+    'prefix': 'kFWADisposeFWAudioPlug'
+    'body': 'KFWADisposeFWAudioPlug'
+  'kFWADisposeFWAudioStream (61)':
+    'prefix': 'kFWADisposeFWAudioStream'
+    'body': 'KFWADisposeFWAudioStream'
+  'kFWADisposeIsochStream (47)':
+    'prefix': 'kFWADisposeIsochStream'
+    'body': 'KFWADisposeIsochStream'
+  'kFWADisposeMIDIStream (13)':
+    'prefix': 'kFWADisposeMIDIStream'
+    'body': 'KFWADisposeMIDIStream'
+  'kFWAExecuteAVC (8)':
+    'prefix': 'kFWAExecuteAVC'
+    'body': 'KFWAExecuteAVC'
+  'kFWAGetClockSource (62)':
+    'prefix': 'kFWAGetClockSource'
+    'body': 'KFWAGetClockSource'
+  'kFWAGetCurrentClockSourcePlugKey (1668049776)':
+    'prefix': 'kFWAGetCurrentClockSourcePlugKey'
+    'body': 'KFWAGetCurrentClockSourcePlugKey'
+  'kFWAGetCurrentStreamRefs (34)':
+    'prefix': 'kFWAGetCurrentStreamRefs'
+    'body': 'KFWAGetCurrentStreamRefs'
+  'kFWAGetCycleTimeOffset (2)':
+    'prefix': 'kFWAGetCycleTimeOffset'
+    'body': 'KFWAGetCycleTimeOffset'
+  'kFWAGetDeviceName (18)':
+    'prefix': 'kFWAGetDeviceName'
+    'body': 'KFWAGetDeviceName'
+  'kFWAGetDeviceSampleRate (28)':
+    'prefix': 'kFWAGetDeviceSampleRate'
+    'body': 'KFWAGetDeviceSampleRate'
+  'kFWAGetDeviceSendMode (29)':
+    'prefix': 'kFWAGetDeviceSendMode'
+    'body': 'KFWAGetDeviceSendMode'
+  'kFWAGetDeviceStatus (30)':
+    'prefix': 'kFWAGetDeviceStatus'
+    'body': 'KFWAGetDeviceStatus'
+  'kFWAGetDeviceStreamInfo (31)':
+    'prefix': 'kFWAGetDeviceStreamInfo'
+    'body': 'KFWAGetDeviceStreamInfo'
+  'kFWAGetFWAudioMIDIPlugChannel (76)':
+    'prefix': 'kFWAGetFWAudioMIDIPlugChannel'
+    'body': 'KFWAGetFWAudioMIDIPlugChannel'
+  'kFWAGetFWAudioPlugChannel (77)':
+    'prefix': 'kFWAGetFWAudioPlugChannel'
+    'body': 'KFWAGetFWAudioPlugChannel'
+  'kFWAGetGUID (5)':
+    'prefix': 'kFWAGetGUID'
+    'body': 'KFWAGetGUID'
+  'kFWAGetIndexedFWAudioMIDIPlug (90)':
+    'prefix': 'kFWAGetIndexedFWAudioMIDIPlug'
+    'body': 'KFWAGetIndexedFWAudioMIDIPlug'
+  'kFWAGetIndexedFWAudioPlug (89)':
+    'prefix': 'kFWAGetIndexedFWAudioPlug'
+    'body': 'KFWAGetIndexedFWAudioPlug'
+  'kFWAGetIsochStreamAudioChannelCount (50)':
+    'prefix': 'kFWAGetIsochStreamAudioChannelCount'
+    'body': 'KFWAGetIsochStreamAudioChannelCount'
+  'kFWAGetIsochStreamChannelID (37)':
+    'prefix': 'kFWAGetIsochStreamChannelID'
+    'body': 'KFWAGetIsochStreamChannelID'
+  'kFWAGetIsochStreamDirection (36)':
+    'prefix': 'kFWAGetIsochStreamDirection'
+    'body': 'KFWAGetIsochStreamDirection'
+  'kFWAGetIsochStreamMIDIChannelCount (52)':
+    'prefix': 'kFWAGetIsochStreamMIDIChannelCount'
+    'body': 'KFWAGetIsochStreamMIDIChannelCount'
+  'kFWAGetMacGUID (11)':
+    'prefix': 'kFWAGetMacGUID'
+    'body': 'KFWAGetMacGUID'
+  'kFWAGetMaxSpeed (85)':
+    'prefix': 'kFWAGetMaxSpeed'
+    'body': 'KFWAGetMaxSpeed'
+  'kFWAGetNodeID (4)':
+    'prefix': 'kFWAGetNodeID'
+    'body': 'KFWAGetNodeID'
+  'kFWAGetNumAudioInputPlugs (24)':
+    'prefix': 'kFWAGetNumAudioInputPlugs'
+    'body': 'KFWAGetNumAudioInputPlugs'
+  'kFWAGetNumAudioOutputPlugs (25)':
+    'prefix': 'kFWAGetNumAudioOutputPlugs'
+    'body': 'KFWAGetNumAudioOutputPlugs'
+  'kFWAGetNumMIDIInputPlugs (20)':
+    'prefix': 'kFWAGetNumMIDIInputPlugs'
+    'body': 'KFWAGetNumMIDIInputPlugs'
+  'kFWAGetNumMIDIOutputPlugs (21)':
+    'prefix': 'kFWAGetNumMIDIOutputPlugs'
+    'body': 'KFWAGetNumMIDIOutputPlugs'
+  'kFWAGetProperty (69)':
+    'prefix': 'kFWAGetProperty'
+    'body': 'KFWAGetProperty'
+  'kFWAGetSessionRef (84)':
+    'prefix': 'kFWAGetSessionRef'
+    'body': 'KFWAGetSessionRef'
+  'kFWAGetStreamAudioType (43)':
+    'prefix': 'kFWAGetStreamAudioType'
+    'body': 'KFWAGetStreamAudioType'
+  'kFWAGetStreamOutputSpeed (41)':
+    'prefix': 'kFWAGetStreamOutputSpeed'
+    'body': 'KFWAGetStreamOutputSpeed'
+  'kFWAGetStreamSampleRate (39)':
+    'prefix': 'kFWAGetStreamSampleRate'
+    'body': 'KFWAGetStreamSampleRate'
+  'kFWAGetStreamState (35)':
+    'prefix': 'kFWAGetStreamState'
+    'body': 'KFWAGetStreamState'
+  'kFWAGetVendorID (17)':
+    'prefix': 'kFWAGetVendorID'
+    'body': 'KFWAGetVendorID'
+  'kFWAGetVendorName (19)':
+    'prefix': 'kFWAGetVendorName'
+    'body': 'KFWAGetVendorName'
+  'kFWAIsMIDICapable (16)':
+    'prefix': 'kFWAIsMIDICapable'
+    'body': 'KFWAIsMIDICapable'
+  'kFWAMIDIDeviceNubAttachMIDIPlug (91)':
+    'prefix': 'kFWAMIDIDeviceNubAttachMIDIPlug'
+    'body': 'KFWAMIDIDeviceNubAttachMIDIPlug'
+  'kFWAMIDIDeviceNubDetachMIDIPlug (92)':
+    'prefix': 'kFWAMIDIDeviceNubDetachMIDIPlug'
+    'body': 'KFWAMIDIDeviceNubDetachMIDIPlug'
+  'kFWAMIDIGetIndexedPlug (4294967295)':
+    'prefix': 'kFWAMIDIGetIndexedPlug'
+    'body': 'KFWAMIDIGetIndexedPlug'
+  'kFWAMIDIPlugIdent (1835623534)':
+    'prefix': 'kFWAMIDIPlugIdent'
+    'body': 'KFWAMIDIPlugIdent'
+  'kFWAMIDIPlugName (1835950445)':
+    'prefix': 'kFWAMIDIPlugName'
+    'body': 'KFWAMIDIPlugName'
+  'kFWAMIDIPlugPropertyEmbedded (1701667428)':
+    'prefix': 'kFWAMIDIPlugPropertyEmbedded'
+    'body': 'KFWAMIDIPlugPropertyEmbedded'
+  'kFWAMIDIPlugPropertyPrivate (1886546294)':
+    'prefix': 'kFWAMIDIPlugPropertyPrivate'
+    'body': 'KFWAMIDIPlugPropertyPrivate'
+  'kFWAMaxPathLength (512)':
+    'prefix': 'kFWAMaxPathLength'
+    'body': 'KFWAMaxPathLength'
+  'kFWAMaxPropertyKeyLength (256)':
+    'prefix': 'kFWAMaxPropertyKeyLength'
+    'body': 'KFWAMaxPropertyKeyLength'
+  'kFWAMaxPropertyValueLength (3832)':
+    'prefix': 'kFWAMaxPropertyValueLength'
+    'body': 'KFWAMaxPropertyValueLength'
+  'kFWANumberFWAMethods (96)':
+    'prefix': 'kFWANumberFWAMethods'
+    'body': 'KFWANumberFWAMethods'
+  'kFWAOpenIndex (0)':
+    'prefix': 'kFWAOpenIndex'
+    'body': 'KFWAOpenIndex'
+  'kFWAOpenLocalWithInterface (82)':
+    'prefix': 'kFWAOpenLocalWithInterface'
+    'body': 'KFWAOpenLocalWithInterface'
+  'kFWAOpenWithService (83)':
+    'prefix': 'kFWAOpenWithService'
+    'body': 'KFWAOpenWithService'
+  'kFWAPlugNotConnected (255)':
+    'prefix': 'kFWAPlugNotConnected'
+    'body': 'KFWAPlugNotConnected'
+  'kFWAReadBlock (7)':
+    'prefix': 'kFWAReadBlock'
+    'body': 'KFWAReadBlock'
+  'kFWAReadMIDIData (15)':
+    'prefix': 'kFWAReadMIDIData'
+    'body': 'KFWAReadMIDIData'
+  'kFWAReadQuadlet (6)':
+    'prefix': 'kFWAReadQuadlet'
+    'body': 'KFWAReadQuadlet'
+  'kFWAReserveIsochSequences (86)':
+    'prefix': 'kFWAReserveIsochSequences'
+    'body': 'KFWAReserveIsochSequences'
+  'kFWASetAsyncPort (93)':
+    'prefix': 'kFWASetAsyncPort'
+    'body': 'KFWASetAsyncPort'
+  'kFWASetAutoLoad (68)':
+    'prefix': 'kFWASetAutoLoad'
+    'body': 'KFWASetAutoLoad'
+  'kFWASetClockSource (63)':
+    'prefix': 'kFWASetClockSource'
+    'body': 'KFWASetClockSource'
+  'kFWASetCycleTimeOffset (3)':
+    'prefix': 'kFWASetCycleTimeOffset'
+    'body': 'KFWASetCycleTimeOffset'
+  'kFWASetDeviceStreamInfo (32)':
+    'prefix': 'kFWASetDeviceStreamInfo'
+    'body': 'KFWASetDeviceStreamInfo'
+  'kFWASetFWAudioMIDIPlugChannel (74)':
+    'prefix': 'kFWASetFWAudioMIDIPlugChannel'
+    'body': 'KFWASetFWAudioMIDIPlugChannel'
+  'kFWASetFWAudioMIDIPlugProperty (81)':
+    'prefix': 'kFWASetFWAudioMIDIPlugProperty'
+    'body': 'KFWASetFWAudioMIDIPlugProperty'
+  'kFWASetFWAudioPlugChannel (75)':
+    'prefix': 'kFWASetFWAudioPlugChannel'
+    'body': 'KFWASetFWAudioPlugChannel'
+  'kFWASetFWAudioPlugProperty (80)':
+    'prefix': 'kFWASetFWAudioPlugProperty'
+    'body': 'KFWASetFWAudioPlugProperty'
+  'kFWASetIsochStreamAudioChannelCount (51)':
+    'prefix': 'kFWASetIsochStreamAudioChannelCount'
+    'body': 'KFWASetIsochStreamAudioChannelCount'
+  'kFWASetIsochStreamChannelID (38)':
+    'prefix': 'kFWASetIsochStreamChannelID'
+    'body': 'KFWASetIsochStreamChannelID'
+  'kFWASetIsochStreamMIDIChannelCount (53)':
+    'prefix': 'kFWASetIsochStreamMIDIChannelCount'
+    'body': 'KFWASetIsochStreamMIDIChannelCount'
+  'kFWASetNumMIDIInputPlugs (22)':
+    'prefix': 'kFWASetNumMIDIInputPlugs'
+    'body': 'KFWASetNumMIDIInputPlugs'
+  'kFWASetNumMIDIOutputPlugs (23)':
+    'prefix': 'kFWASetNumMIDIOutputPlugs'
+    'body': 'KFWASetNumMIDIOutputPlugs'
+  'kFWASetPluginPath (71)':
+    'prefix': 'kFWASetPluginPath'
+    'body': 'KFWASetPluginPath'
+  'kFWASetProperty (70)':
+    'prefix': 'kFWASetProperty'
+    'body': 'KFWASetProperty'
+  'kFWASetStreamAudioType (44)':
+    'prefix': 'kFWASetStreamAudioType'
+    'body': 'KFWASetStreamAudioType'
+  'kFWASetStreamCallbackFunction (45)':
+    'prefix': 'kFWASetStreamCallbackFunction'
+    'body': 'KFWASetStreamCallbackFunction'
+  'kFWASetStreamOutputSpeed (42)':
+    'prefix': 'kFWASetStreamOutputSpeed'
+    'body': 'KFWASetStreamOutputSpeed'
+  'kFWASetStreamSampleRate (40)':
+    'prefix': 'kFWASetStreamSampleRate'
+    'body': 'KFWASetStreamSampleRate'
+  'kFWAStartFWAudioDevice (56)':
+    'prefix': 'kFWAStartFWAudioDevice'
+    'body': 'KFWAStartFWAudioDevice'
+  'kFWAStartIsochStream (48)':
+    'prefix': 'kFWAStartIsochStream'
+    'body': 'KFWAStartIsochStream'
+  'kFWAStopFWAudioDevice (57)':
+    'prefix': 'kFWAStopFWAudioDevice'
+    'body': 'KFWAStopFWAudioDevice'
+  'kFWAStopIsochStream (49)':
+    'prefix': 'kFWAStopIsochStream'
+    'body': 'KFWAStopIsochStream'
+  'kFWAStreamIdentSize (36)':
+    'prefix': 'kFWAStreamIdentSize'
+    'body': 'KFWAStreamIdentSize'
+  'kFWAStreamIn (1)':
+    'prefix': 'kFWAStreamIn'
+    'body': 'KFWAStreamIn'
+  'kFWAStreamOptionsDefault (0)':
+    'prefix': 'kFWAStreamOptionsDefault'
+    'body': 'KFWAStreamOptionsDefault'
+  'kFWAStreamOptionsForceLegacyDCL (131072)':
+    'prefix': 'kFWAStreamOptionsForceLegacyDCL'
+    'body': 'KFWAStreamOptionsForceLegacyDCL'
+  'kFWAStreamOptionsForceNuDCL (65536)':
+    'prefix': 'kFWAStreamOptionsForceNuDCL'
+    'body': 'KFWAStreamOptionsForceNuDCL'
+  'kFWAStreamOut (0)':
+    'prefix': 'kFWAStreamOut'
+    'body': 'KFWAStreamOut'
+  'kFWAStreamPaused (2)':
+    'prefix': 'kFWAStreamPaused'
+    'body': 'KFWAStreamPaused'
+  'kFWAStreamResumed (3)':
+    'prefix': 'kFWAStreamResumed'
+    'body': 'KFWAStreamResumed'
+  'kFWAStreamRunning (1)':
+    'prefix': 'kFWAStreamRunning'
+    'body': 'KFWAStreamRunning'
+  'kFWAStreamStopped (0)':
+    'prefix': 'kFWAStreamStopped'
+    'body': 'KFWAStreamStopped'
+  'kFWASyncUpDevice (33)':
+    'prefix': 'kFWASyncUpDevice'
+    'body': 'KFWASyncUpDevice'
+  'kFWAUnusedIsochChannelID (255)':
+    'prefix': 'kFWAUnusedIsochChannelID'
+    'body': 'KFWAUnusedIsochChannelID'
+  'kFWAWriteBlock (10)':
+    'prefix': 'kFWAWriteBlock'
+    'body': 'KFWAWriteBlock'
+  'kFWAWriteMIDIData (14)':
+    'prefix': 'kFWAWriteMIDIData'
+    'body': 'KFWAWriteMIDIData'
+  'kFWAWriteQuadlet (9)':
+    'prefix': 'kFWAWriteQuadlet'
+    'body': 'KFWAWriteQuadlet'
+  'kFWAudioMaxNameSize (64)':
+    'prefix': 'kFWAudioMaxNameSize'
+    'body': 'KFWAudioMaxNameSize'
+  'kGetBadHeaderCountMeterArrayOffset (4)':
+    'prefix': 'kGetBadHeaderCountMeterArrayOffset'
+    'body': 'KGetBadHeaderCountMeterArrayOffset'
+  'kGetBigPacketCountMeterArrayOffset (6)':
+    'prefix': 'kGetBigPacketCountMeterArrayOffset'
+    'body': 'KGetBigPacketCountMeterArrayOffset'
+  'kGetClockSourceInParamCount (0)':
+    'prefix': 'kGetClockSourceInParamCount'
+    'body': 'KGetClockSourceInParamCount'
+  'kGetClockSourceOutParamCount (2)':
+    'prefix': 'kGetClockSourceOutParamCount'
+    'body': 'KGetClockSourceOutParamCount'
+  'kGetCurrentStreamRefsInParamCount (1)':
+    'prefix': 'kGetCurrentStreamRefsInParamCount'
+    'body': 'KGetCurrentStreamRefsInParamCount'
+  'kGetCurrentStreamRefsOutParamCount (4294967295)':
+    'prefix': 'kGetCurrentStreamRefsOutParamCount'
+    'body': 'KGetCurrentStreamRefsOutParamCount'
+  'kGetCycleTimeOffsetInParamCount (0)':
+    'prefix': 'kGetCycleTimeOffsetInParamCount'
+    'body': 'KGetCycleTimeOffsetInParamCount'
+  'kGetCycleTimeOffsetOutParamCount (1)':
+    'prefix': 'kGetCycleTimeOffsetOutParamCount'
+    'body': 'KGetCycleTimeOffsetOutParamCount'
+  'kGetDeviceNameInParamCount (0)':
+    'prefix': 'kGetDeviceNameInParamCount'
+    'body': 'KGetDeviceNameInParamCount'
+  'kGetDeviceNameOutParamCount (4294967295)':
+    'prefix': 'kGetDeviceNameOutParamCount'
+    'body': 'KGetDeviceNameOutParamCount'
+  'kGetDeviceSampleRateInParamCount (0)':
+    'prefix': 'kGetDeviceSampleRateInParamCount'
+    'body': 'KGetDeviceSampleRateInParamCount'
+  'kGetDeviceSampleRateOutParamCount (1)':
+    'prefix': 'kGetDeviceSampleRateOutParamCount'
+    'body': 'KGetDeviceSampleRateOutParamCount'
+  'kGetDeviceSendModeInParamCount (0)':
+    'prefix': 'kGetDeviceSendModeInParamCount'
+    'body': 'KGetDeviceSendModeInParamCount'
+  'kGetDeviceSendModeOutParamCount (1)':
+    'prefix': 'kGetDeviceSendModeOutParamCount'
+    'body': 'KGetDeviceSendModeOutParamCount'
+  'kGetDeviceStatusInParamCount (1)':
+    'prefix': 'kGetDeviceStatusInParamCount'
+    'body': 'KGetDeviceStatusInParamCount'
+  'kGetDeviceStatusOutParamCount (4294967295)':
+    'prefix': 'kGetDeviceStatusOutParamCount'
+    'body': 'KGetDeviceStatusOutParamCount'
+  'kGetDeviceStreamInfoInParamCount (1)':
+    'prefix': 'kGetDeviceStreamInfoInParamCount'
+    'body': 'KGetDeviceStreamInfoInParamCount'
+  'kGetDeviceStreamInfoOutParamCount (4)':
+    'prefix': 'kGetDeviceStreamInfoOutParamCount'
+    'body': 'KGetDeviceStreamInfoOutParamCount'
+  'kGetFWAudioMIDIPlugChannelInParamCount (1)':
+    'prefix': 'kGetFWAudioMIDIPlugChannelInParamCount'
+    'body': 'KGetFWAudioMIDIPlugChannelInParamCount'
+  'kGetFWAudioMIDIPlugChannelOutParamCount (2)':
+    'prefix': 'kGetFWAudioMIDIPlugChannelOutParamCount'
+    'body': 'KGetFWAudioMIDIPlugChannelOutParamCount'
+  'kGetFWAudioPlugChannelInParamCount (1)':
+    'prefix': 'kGetFWAudioPlugChannelInParamCount'
+    'body': 'KGetFWAudioPlugChannelInParamCount'
+  'kGetFWAudioPlugChannelOutParamCount (1)':
+    'prefix': 'kGetFWAudioPlugChannelOutParamCount'
+    'body': 'KGetFWAudioPlugChannelOutParamCount'
+  'kGetFixedHeaderCountMeterArrayOffset (5)':
+    'prefix': 'kGetFixedHeaderCountMeterArrayOffset'
+    'body': 'KGetFixedHeaderCountMeterArrayOffset'
+  'kGetIndexedFWAudioMIDIPlugInParamCount (3)':
+    'prefix': 'kGetIndexedFWAudioMIDIPlugInParamCount'
+    'body': 'KGetIndexedFWAudioMIDIPlugInParamCount'
+  'kGetIndexedFWAudioMIDIPlugOutParamCount (1)':
+    'prefix': 'kGetIndexedFWAudioMIDIPlugOutParamCount'
+    'body': 'KGetIndexedFWAudioMIDIPlugOutParamCount'
+  'kGetIndexedFWAudioPlugInParamCount (3)':
+    'prefix': 'kGetIndexedFWAudioPlugInParamCount'
+    'body': 'KGetIndexedFWAudioPlugInParamCount'
+  'kGetIndexedFWAudioPlugOutParamCount (1)':
+    'prefix': 'kGetIndexedFWAudioPlugOutParamCount'
+    'body': 'KGetIndexedFWAudioPlugOutParamCount'
+  'kGetIsochStreamAudioChannelCountInParamCount (1)':
+    'prefix': 'kGetIsochStreamAudioChannelCountInParamCount'
+    'body': 'KGetIsochStreamAudioChannelCountInParamCount'
+  'kGetIsochStreamAudioChannelCountOutParamCount (1)':
+    'prefix': 'kGetIsochStreamAudioChannelCountOutParamCount'
+    'body': 'KGetIsochStreamAudioChannelCountOutParamCount'
+  'kGetIsochStreamChannelIDInParamCount (1)':
+    'prefix': 'kGetIsochStreamChannelIDInParamCount'
+    'body': 'KGetIsochStreamChannelIDInParamCount'
+  'kGetIsochStreamChannelIDOutParamCount (1)':
+    'prefix': 'kGetIsochStreamChannelIDOutParamCount'
+    'body': 'KGetIsochStreamChannelIDOutParamCount'
+  'kGetIsochStreamDirectionInParamCount (1)':
+    'prefix': 'kGetIsochStreamDirectionInParamCount'
+    'body': 'KGetIsochStreamDirectionInParamCount'
+  'kGetIsochStreamDirectionOutParamCount (1)':
+    'prefix': 'kGetIsochStreamDirectionOutParamCount'
+    'body': 'KGetIsochStreamDirectionOutParamCount'
+  'kGetIsochStreamMIDIChannelCountInParamCount (1)':
+    'prefix': 'kGetIsochStreamMIDIChannelCountInParamCount'
+    'body': 'KGetIsochStreamMIDIChannelCountInParamCount'
+  'kGetIsochStreamMIDIChannelCountOutParamCount (1)':
+    'prefix': 'kGetIsochStreamMIDIChannelCountOutParamCount'
+    'body': 'KGetIsochStreamMIDIChannelCountOutParamCount'
+  'kGetMaxSpeedInParamCount (0)':
+    'prefix': 'kGetMaxSpeedInParamCount'
+    'body': 'KGetMaxSpeedInParamCount'
+  'kGetMaxSpeedOutParamCount (1)':
+    'prefix': 'kGetMaxSpeedOutParamCount'
+    'body': 'KGetMaxSpeedOutParamCount'
+  'kGetNumAudioInputPlugsInParamCount (0)':
+    'prefix': 'kGetNumAudioInputPlugsInParamCount'
+    'body': 'KGetNumAudioInputPlugsInParamCount'
+  'kGetNumAudioInputPlugsOutParamCount (1)':
+    'prefix': 'kGetNumAudioInputPlugsOutParamCount'
+    'body': 'KGetNumAudioInputPlugsOutParamCount'
+  'kGetNumAudioOutputPlugsInParamCount (0)':
+    'prefix': 'kGetNumAudioOutputPlugsInParamCount'
+    'body': 'KGetNumAudioOutputPlugsInParamCount'
+  'kGetNumAudioOutputPlugsOutParamCount (1)':
+    'prefix': 'kGetNumAudioOutputPlugsOutParamCount'
+    'body': 'KGetNumAudioOutputPlugsOutParamCount'
+  'kGetNumMIDIInputPlugsInParamCount (0)':
+    'prefix': 'kGetNumMIDIInputPlugsInParamCount'
+    'body': 'KGetNumMIDIInputPlugsInParamCount'
+  'kGetNumMIDIInputPlugsOutParamCount (1)':
+    'prefix': 'kGetNumMIDIInputPlugsOutParamCount'
+    'body': 'KGetNumMIDIInputPlugsOutParamCount'
+  'kGetNumMIDIOutputPlugsInParamCount (0)':
+    'prefix': 'kGetNumMIDIOutputPlugsInParamCount'
+    'body': 'KGetNumMIDIOutputPlugsInParamCount'
+  'kGetNumMIDIOutputPlugsOutParamCount (1)':
+    'prefix': 'kGetNumMIDIOutputPlugsOutParamCount'
+    'body': 'KGetNumMIDIOutputPlugsOutParamCount'
+  'kGetPropertyInParamCount (4294967295)':
+    'prefix': 'kGetPropertyInParamCount'
+    'body': 'KGetPropertyInParamCount'
+  'kGetPropertyOutParamCount (4294967295)':
+    'prefix': 'kGetPropertyOutParamCount'
+    'body': 'KGetPropertyOutParamCount'
+  'kGetSessionRefInParamCount (0)':
+    'prefix': 'kGetSessionRefInParamCount'
+    'body': 'KGetSessionRefInParamCount'
+  'kGetSessionRefOutParamCount (0)':
+    'prefix': 'kGetSessionRefOutParamCount'
+    'body': 'KGetSessionRefOutParamCount'
+  'kGetStreamAudioTypeInParamCount (1)':
+    'prefix': 'kGetStreamAudioTypeInParamCount'
+    'body': 'KGetStreamAudioTypeInParamCount'
+  'kGetStreamAudioTypeOutParamCount (1)':
+    'prefix': 'kGetStreamAudioTypeOutParamCount'
+    'body': 'KGetStreamAudioTypeOutParamCount'
+  'kGetStreamOutputSpeedInParamCount (1)':
+    'prefix': 'kGetStreamOutputSpeedInParamCount'
+    'body': 'KGetStreamOutputSpeedInParamCount'
+  'kGetStreamOutputSpeedOutParamCount (1)':
+    'prefix': 'kGetStreamOutputSpeedOutParamCount'
+    'body': 'KGetStreamOutputSpeedOutParamCount'
+  'kGetStreamSampleRateInParamCount (1)':
+    'prefix': 'kGetStreamSampleRateInParamCount'
+    'body': 'KGetStreamSampleRateInParamCount'
+  'kGetStreamSampleRateOutParamCount (1)':
+    'prefix': 'kGetStreamSampleRateOutParamCount'
+    'body': 'KGetStreamSampleRateOutParamCount'
+  'kGetStreamStateInParamCount (1)':
+    'prefix': 'kGetStreamStateInParamCount'
+    'body': 'KGetStreamStateInParamCount'
+  'kGetStreamStateOutParamCount (1)':
+    'prefix': 'kGetStreamStateOutParamCount'
+    'body': 'KGetStreamStateOutParamCount'
+  'kGetVendorNameInParamCount (0)':
+    'prefix': 'kGetVendorNameInParamCount'
+    'body': 'KGetVendorNameInParamCount'
+  'kGetVendorNameOutParamCount (4294967295)':
+    'prefix': 'kGetVendorNameOutParamCount'
+    'body': 'KGetVendorNameOutParamCount'
+  'kIEC60958 (0)':
+    'prefix': 'kIEC60958'
+    'body': 'KIEC60958'
+  'kInputPacketCountMeterArrayOffset (9)':
+    'prefix': 'kInputPacketCountMeterArrayOffset'
+    'body': 'KInputPacketCountMeterArrayOffset'
+  'kIsMIDICapableInParamCount (0)':
+    'prefix': 'kIsMIDICapableInParamCount'
+    'body': 'KIsMIDICapableInParamCount'
+  'kIsMIDICapableOutParamCount (1)':
+    'prefix': 'kIsMIDICapableOutParamCount'
+    'body': 'KIsMIDICapableOutParamCount'
+  'kLastTimeStampMeterArrayOffset (7)':
+    'prefix': 'kLastTimeStampMeterArrayOffset'
+    'body': 'KLastTimeStampMeterArrayOffset'
+  'kLastTimeStampMeterArrayOffset2 (8)':
+    'prefix': 'kLastTimeStampMeterArrayOffset2'
+    'body': 'KLastTimeStampMeterArrayOffset2'
+  'kMIDI (128)':
+    'prefix': 'kMIDI'
+    'body': 'KMIDI'
+  'kMIDIAdvanceSchedule (1073741824)':
+    'prefix': 'kMIDIAdvanceSchedule'
+    'body': 'KMIDIAdvanceSchedule'
+  'kMIDIDeviceNubAttachMIDIPlugInParamCount (2)':
+    'prefix': 'kMIDIDeviceNubAttachMIDIPlugInParamCount'
+    'body': 'KMIDIDeviceNubAttachMIDIPlugInParamCount'
+  'kMIDIDeviceNubAttachMIDIPlugOutParamCount (0)':
+    'prefix': 'kMIDIDeviceNubAttachMIDIPlugOutParamCount'
+    'body': 'KMIDIDeviceNubAttachMIDIPlugOutParamCount'
+  'kMIDIDeviceNubDetachMIDIPlugInParamCount (1)':
+    'prefix': 'kMIDIDeviceNubDetachMIDIPlugInParamCount'
+    'body': 'KMIDIDeviceNubDetachMIDIPlugInParamCount'
+  'kMIDIDeviceNubDetachMIDIPlugOutParamCount (0)':
+    'prefix': 'kMIDIDeviceNubDetachMIDIPlugOutParamCount'
+    'body': 'KMIDIDeviceNubDetachMIDIPlugOutParamCount'
+  'kMIDIInputClientBufferSize (64)':
+    'prefix': 'kMIDIInputClientBufferSize'
+    'body': 'KMIDIInputClientBufferSize'
+  'kMIDIInputRingBufferSize (512)':
+    'prefix': 'kMIDIInputRingBufferSize'
+    'body': 'KMIDIInputRingBufferSize'
+  'kMIDIOutputClientBufferSize (64)':
+    'prefix': 'kMIDIOutputClientBufferSize'
+    'body': 'KMIDIOutputClientBufferSize'
+  'kMIDIOutputRingBufferSize (512)':
+    'prefix': 'kMIDIOutputRingBufferSize'
+    'body': 'KMIDIOutputRingBufferSize'
+  'kMIDIStreamIn (1)':
+    'prefix': 'kMIDIStreamIn'
+    'body': 'KMIDIStreamIn'
+  'kMIDIStreamOut (0)':
+    'prefix': 'kMIDIStreamOut'
+    'body': 'KMIDIStreamOut'
+  'kMIDITimeStamp (2147483648)':
+    'prefix': 'kMIDITimeStamp'
+    'body': 'KMIDITimeStamp'
+  'kNumInputClientBuffers (1)':
+    'prefix': 'kNumInputClientBuffers'
+    'body': 'KNumInputClientBuffers'
+  'kNumOutputClientBuffers (1)':
+    'prefix': 'kNumOutputClientBuffers'
+    'body': 'KNumOutputClientBuffers'
+  'kNumSamplesFramesInBufferMeterArrayOffset (1)':
+    'prefix': 'kNumSamplesFramesInBufferMeterArrayOffset'
+    'body': 'KNumSamplesFramesInBufferMeterArrayOffset'
+  'kOpenLocalWithInterfaceInParamCount (0)':
+    'prefix': 'kOpenLocalWithInterfaceInParamCount'
+    'body': 'KOpenLocalWithInterfaceInParamCount'
+  'kOpenLocalWithInterfaceOutParamCount (0)':
+    'prefix': 'kOpenLocalWithInterfaceOutParamCount'
+    'body': 'KOpenLocalWithInterfaceOutParamCount'
+  'kOpenWithServiceInParamCount (0)':
+    'prefix': 'kOpenWithServiceInParamCount'
+    'body': 'KOpenWithServiceInParamCount'
+  'kOpenWithServiceOutParamCount (0)':
+    'prefix': 'kOpenWithServiceOutParamCount'
+    'body': 'KOpenWithServiceOutParamCount'
+  'kRawAudio (64)':
+    'prefix': 'kRawAudio'
+    'body': 'KRawAudio'
+  'kReadBlockInParamCount (1)':
+    'prefix': 'kReadBlockInParamCount'
+    'body': 'KReadBlockInParamCount'
+  'kReadBlockOutParamCount (4294967295)':
+    'prefix': 'kReadBlockOutParamCount'
+    'body': 'KReadBlockOutParamCount'
+  'kReadMIDIAsync (95)':
+    'prefix': 'kReadMIDIAsync'
+    'body': 'KReadMIDIAsync'
+  'kReadQuadletInParamCount (1)':
+    'prefix': 'kReadQuadletInParamCount'
+    'body': 'KReadQuadletInParamCount'
+  'kReadQuadletOutParamCount (1)':
+    'prefix': 'kReadQuadletOutParamCount'
+    'body': 'KReadQuadletOutParamCount'
+  'kReserveIsochSequencesInParamCount (3)':
+    'prefix': 'kReserveIsochSequencesInParamCount'
+    'body': 'KReserveIsochSequencesInParamCount'
+  'kReserveIsochSequencesOutParamCount (0)':
+    'prefix': 'kReserveIsochSequencesOutParamCount'
+    'body': 'KReserveIsochSequencesOutParamCount'
+  'kSetAutoLoadInParamCount (1)':
+    'prefix': 'kSetAutoLoadInParamCount'
+    'body': 'KSetAutoLoadInParamCount'
+  'kSetAutoLoadOutParamCount (0)':
+    'prefix': 'kSetAutoLoadOutParamCount'
+    'body': 'KSetAutoLoadOutParamCount'
+  'kSetClockSourceInParamCount (2)':
+    'prefix': 'kSetClockSourceInParamCount'
+    'body': 'KSetClockSourceInParamCount'
+  'kSetClockSourceOutParamCount (0)':
+    'prefix': 'kSetClockSourceOutParamCount'
+    'body': 'KSetClockSourceOutParamCount'
+  'kSetCycleTimeOffsetInParamCount (1)':
+    'prefix': 'kSetCycleTimeOffsetInParamCount'
+    'body': 'KSetCycleTimeOffsetInParamCount'
+  'kSetCycleTimeOffsetOutParamCount (0)':
+    'prefix': 'kSetCycleTimeOffsetOutParamCount'
+    'body': 'KSetCycleTimeOffsetOutParamCount'
+  'kSetDeviceStreamInfoInParamCount (6)':
+    'prefix': 'kSetDeviceStreamInfoInParamCount'
+    'body': 'KSetDeviceStreamInfoInParamCount'
+  'kSetDeviceStreamInfoOutParamCount (0)':
+    'prefix': 'kSetDeviceStreamInfoOutParamCount'
+    'body': 'KSetDeviceStreamInfoOutParamCount'
+  'kSetFWAudioMIDIPlugChannelInParamCount (2)':
+    'prefix': 'kSetFWAudioMIDIPlugChannelInParamCount'
+    'body': 'KSetFWAudioMIDIPlugChannelInParamCount'
+  'kSetFWAudioMIDIPlugChannelOutParamCount (0)':
+    'prefix': 'kSetFWAudioMIDIPlugChannelOutParamCount'
+    'body': 'KSetFWAudioMIDIPlugChannelOutParamCount'
+  'kSetFWAudioMIDIPlugPropertyInParamCount (4294967295)':
+    'prefix': 'kSetFWAudioMIDIPlugPropertyInParamCount'
+    'body': 'KSetFWAudioMIDIPlugPropertyInParamCount'
+  'kSetFWAudioMIDIPlugPropertyOutParamCount (4294967295)':
+    'prefix': 'kSetFWAudioMIDIPlugPropertyOutParamCount'
+    'body': 'KSetFWAudioMIDIPlugPropertyOutParamCount'
+  'kSetFWAudioPlugChannelInParamCount (2)':
+    'prefix': 'kSetFWAudioPlugChannelInParamCount'
+    'body': 'KSetFWAudioPlugChannelInParamCount'
+  'kSetFWAudioPlugChannelOutParamCount (0)':
+    'prefix': 'kSetFWAudioPlugChannelOutParamCount'
+    'body': 'KSetFWAudioPlugChannelOutParamCount'
+  'kSetFWAudioPlugPropertyInParamCount (4294967295)':
+    'prefix': 'kSetFWAudioPlugPropertyInParamCount'
+    'body': 'KSetFWAudioPlugPropertyInParamCount'
+  'kSetFWAudioPlugPropertyOutParamCount (4294967295)':
+    'prefix': 'kSetFWAudioPlugPropertyOutParamCount'
+    'body': 'KSetFWAudioPlugPropertyOutParamCount'
+  'kSetIsochStreamAudioChannelCountInParamCount (2)':
+    'prefix': 'kSetIsochStreamAudioChannelCountInParamCount'
+    'body': 'KSetIsochStreamAudioChannelCountInParamCount'
+  'kSetIsochStreamAudioChannelCountOutParamCount (0)':
+    'prefix': 'kSetIsochStreamAudioChannelCountOutParamCount'
+    'body': 'KSetIsochStreamAudioChannelCountOutParamCount'
+  'kSetIsochStreamChannelIDInParamCount (2)':
+    'prefix': 'kSetIsochStreamChannelIDInParamCount'
+    'body': 'KSetIsochStreamChannelIDInParamCount'
+  'kSetIsochStreamChannelIDOutParamCount (0)':
+    'prefix': 'kSetIsochStreamChannelIDOutParamCount'
+    'body': 'KSetIsochStreamChannelIDOutParamCount'
+  'kSetIsochStreamMIDIChannelCountInParamCount (2)':
+    'prefix': 'kSetIsochStreamMIDIChannelCountInParamCount'
+    'body': 'KSetIsochStreamMIDIChannelCountInParamCount'
+  'kSetIsochStreamMIDIChannelCountOutParamCount (0)':
+    'prefix': 'kSetIsochStreamMIDIChannelCountOutParamCount'
+    'body': 'KSetIsochStreamMIDIChannelCountOutParamCount'
+  'kSetNumMIDIInputPlugsInParamCount (1)':
+    'prefix': 'kSetNumMIDIInputPlugsInParamCount'
+    'body': 'KSetNumMIDIInputPlugsInParamCount'
+  'kSetNumMIDIInputPlugsOutParamCount (0)':
+    'prefix': 'kSetNumMIDIInputPlugsOutParamCount'
+    'body': 'KSetNumMIDIInputPlugsOutParamCount'
+  'kSetNumMIDIOutputPlugsInParamCount (1)':
+    'prefix': 'kSetNumMIDIOutputPlugsInParamCount'
+    'body': 'KSetNumMIDIOutputPlugsInParamCount'
+  'kSetNumMIDIOutputPlugsOutParamCount (0)':
+    'prefix': 'kSetNumMIDIOutputPlugsOutParamCount'
+    'body': 'KSetNumMIDIOutputPlugsOutParamCount'
+  'kSetPluginPathInParamCount (4294967295)':
+    'prefix': 'kSetPluginPathInParamCount'
+    'body': 'KSetPluginPathInParamCount'
+  'kSetPluginPathOutParamCount (4294967295)':
+    'prefix': 'kSetPluginPathOutParamCount'
+    'body': 'KSetPluginPathOutParamCount'
+  'kSetPropertyInParamCount (2)':
+    'prefix': 'kSetPropertyInParamCount'
+    'body': 'KSetPropertyInParamCount'
+  'kSetPropertyOutParamCount (0)':
+    'prefix': 'kSetPropertyOutParamCount'
+    'body': 'KSetPropertyOutParamCount'
+  'kSetStreamAudioTypeInParamCount (2)':
+    'prefix': 'kSetStreamAudioTypeInParamCount'
+    'body': 'KSetStreamAudioTypeInParamCount'
+  'kSetStreamAudioTypeOutParamCount (0)':
+    'prefix': 'kSetStreamAudioTypeOutParamCount'
+    'body': 'KSetStreamAudioTypeOutParamCount'
+  'kSetStreamCallbackFunctionInParamCount (3)':
+    'prefix': 'kSetStreamCallbackFunctionInParamCount'
+    'body': 'KSetStreamCallbackFunctionInParamCount'
+  'kSetStreamCallbackFunctionOutParamCount (0)':
+    'prefix': 'kSetStreamCallbackFunctionOutParamCount'
+    'body': 'KSetStreamCallbackFunctionOutParamCount'
+  'kSetStreamOutputSpeedInParamCount (2)':
+    'prefix': 'kSetStreamOutputSpeedInParamCount'
+    'body': 'KSetStreamOutputSpeedInParamCount'
+  'kSetStreamOutputSpeedOutParamCount (0)':
+    'prefix': 'kSetStreamOutputSpeedOutParamCount'
+    'body': 'KSetStreamOutputSpeedOutParamCount'
+  'kSetStreamSampleRateInParamCount (2)':
+    'prefix': 'kSetStreamSampleRateInParamCount'
+    'body': 'KSetStreamSampleRateInParamCount'
+  'kSetStreamSampleRateOutParamCount (0)':
+    'prefix': 'kSetStreamSampleRateOutParamCount'
+    'body': 'KSetStreamSampleRateOutParamCount'
+  'kStartFWAudioDeviceInParamCount (1)':
+    'prefix': 'kStartFWAudioDeviceInParamCount'
+    'body': 'KStartFWAudioDeviceInParamCount'
+  'kStartFWAudioDeviceOutParamCount (0)':
+    'prefix': 'kStartFWAudioDeviceOutParamCount'
+    'body': 'KStartFWAudioDeviceOutParamCount'
+  'kStartIsochStreamInParamCount (1)':
+    'prefix': 'kStartIsochStreamInParamCount'
+    'body': 'KStartIsochStreamInParamCount'
+  'kStartIsochStreamOutParamCount (0)':
+    'prefix': 'kStartIsochStreamOutParamCount'
+    'body': 'KStartIsochStreamOutParamCount'
+  'kStopFWAudioDeviceInParamCount (1)':
+    'prefix': 'kStopFWAudioDeviceInParamCount'
+    'body': 'KStopFWAudioDeviceInParamCount'
+  'kStopFWAudioDeviceOutParamCount (0)':
+    'prefix': 'kStopFWAudioDeviceOutParamCount'
+    'body': 'KStopFWAudioDeviceOutParamCount'
+  'kStopIsochStreamInParamCount (1)':
+    'prefix': 'kStopIsochStreamInParamCount'
+    'body': 'KStopIsochStreamInParamCount'
+  'kStopIsochStreamOutParamCount (0)':
+    'prefix': 'kStopIsochStreamOutParamCount'
+    'body': 'KStopIsochStreamOutParamCount'
+  'kSyncUpDeviceInParamCount (0)':
+    'prefix': 'kSyncUpDeviceInParamCount'
+    'body': 'KSyncUpDeviceInParamCount'
+  'kSyncUpDeviceOutParamCount (0)':
+    'prefix': 'kSyncUpDeviceOutParamCount'
+    'body': 'KSyncUpDeviceOutParamCount'
+  'kWriteBlockInParamCount (1)':
+    'prefix': 'kWriteBlockInParamCount'
+    'body': 'KWriteBlockInParamCount'
+  'kWriteBlockOutParamCount (4294967295)':
+    'prefix': 'kWriteBlockOutParamCount'
+    'body': 'KWriteBlockOutParamCount'
+  'kWriteMIDIAsync (94)':
+    'prefix': 'kWriteMIDIAsync'
+    'body': 'KWriteMIDIAsync'
+  'kWriteQuadletInParamCount (2)':
+    'prefix': 'kWriteQuadletInParamCount'
+    'body': 'KWriteQuadletInParamCount'
+  'kWriteQuadletOutParamCount (0)':
+    'prefix': 'kWriteQuadletOutParamCount'
+    'body': 'KWriteQuadletOutParamCount'
+  'CreateAsyncWakePort':
+    'prefix': 'CreateAsyncWakePort'
+    'body': 'CreateAsyncWakePort(${1:FWARef inRef}, ${2:mach_port_t* notifyPort})'
+  'FWAAttachFWAudioMIDIStream':
+    'prefix': 'FWAAttachFWAudioMIDIStream'
+    'body': 'FWAAttachFWAudioMIDIStream(${1:FWARef inRef}, ${2:FWAMIDIStreamRef streamRef}, ${3:FWAIsochStreamRef isochChannel})'
+  'FWAAttachFWAudioStream':
+    'prefix': 'FWAAttachFWAudioStream'
+    'body': 'FWAAttachFWAudioStream(${1:FWARef inRef}, ${2:FWAAudioStreamRef streamRef}, ${3:FWAIsochStreamRef isochChannel})'
+  'FWAClose':
+    'prefix': 'FWAClose'
+    'body': 'FWAClose(${1:FWARef inRef})'
+  'FWACountDevices':
+    'prefix': 'FWACountDevices'
+    'body': 'FWACountDevices(${1:UInt16* deviceNodeIDArray}, ${2:UInt16* deviceCount})'
+  'FWACreateAudioStream':
+    'prefix': 'FWACreateAudioStream'
+    'body': 'FWACreateAudioStream(${1:FWARef inRef}, ${2:UInt32 audioIO}, ${3:UInt32* audioStreamRef}, ${4:UInt32* sequenceNum})'
+  'FWACreateFWAudioDevice':
+    'prefix': 'FWACreateFWAudioDevice'
+    'body': 'FWACreateFWAudioDevice(${1:FWARef inRef}, ${2:char* deviceName}, ${3:UInt32 vendorID}, ${4:char* guid}, ${5:FWADeviceRef* device})'
+  'FWACreateFWAudioEngine':
+    'prefix': 'FWACreateFWAudioEngine'
+    'body': 'FWACreateFWAudioEngine(${1:FWARef inRef}, ${2:FWADeviceRef owningDevice}, ${3:_Bool hasInput}, ${4:_Bool hasOutput}, ${5:FWAEngineRef* engine})'
+  'FWACreateFWAudioMIDIDeviceNub':
+    'prefix': 'FWACreateFWAudioMIDIDeviceNub'
+    'body': 'FWACreateFWAudioMIDIDeviceNub(${1:FWARef inRef}, ${2:FWADeviceRef owningDevice}, ${3:char* deviceName}, ${4:UInt32 vendorID}, ${5:char* guid}, ${6:char* iconFilePath}, ${7:UInt32 modelID}, ${8:char* editorPath}, ${9:FWAMIDIDeviceNubRef* device})'
+  'FWACreateFWAudioMIDIPlug':
+    'prefix': 'FWACreateFWAudioMIDIPlug'
+    'body': 'FWACreateFWAudioMIDIPlug(${1:FWARef inRef}, ${2:FWAMIDIStreamRef owningMIDIStreamRef}, ${3:UInt8 mpxID}, ${4:char* plugName}, ${5:UInt8* plugIdent}, ${6:FWAMIDIPlugRef* streamRef})'
+  'FWACreateFWAudioMIDIStream':
+    'prefix': 'FWACreateFWAudioMIDIStream'
+    'body': 'FWACreateFWAudioMIDIStream(${1:FWARef inRef}, ${2:FWAIsochStreamRef owningIsochStreamRef}, ${3:UInt32 sequenceNumber}, ${4:UInt32 direction}, ${5:FWAMIDIStreamRef* streamRef})'
+  'FWACreateFWAudioPlug':
+    'prefix': 'FWACreateFWAudioPlug'
+    'body': 'FWACreateFWAudioPlug(${1:FWARef inRef}, ${2:FWAAudioStreamRef owningStream}, ${3:UInt32 channelID}, ${4:char* plugName}, ${5:UInt8* plugIdent}, ${6:FWAAudioPlugRef* streamRef})'
+  'FWACreateFWAudioStream':
+    'prefix': 'FWACreateFWAudioStream'
+    'body': 'FWACreateFWAudioStream(${1:FWARef inRef}, ${2:FWAIsochStreamRef owningIsochStreamRef}, ${3:UInt32 channelNumber}, ${4:UInt32 direction}, ${5:UInt32 numAudioChannels}, ${6:char* streamName}, ${7:UInt8* streamIdent}, ${8:FWAAudioStreamRef* streamRef})'
+  'FWACreateIsochStream':
+    'prefix': 'FWACreateIsochStream'
+    'body': 'FWACreateIsochStream(${1:FWARef inRef}, ${2:UInt32 channelNumber}, ${3:FWAStreamDirection direction}, ${4:UInt32 numAudioChannels}, ${5:UInt32 numMIDIChannels}, ${6:FWAIsochStreamRef* isochStreamRef})'
+  'FWACreateMIDIStream':
+    'prefix': 'FWACreateMIDIStream'
+    'body': 'FWACreateMIDIStream(${1:FWARef inRef}, ${2:UInt32 midiIO}, ${3:UInt32 bufSizeInBytes}, ${4:void* buf}, ${5:UInt32 sequenceNum}, ${6:UInt32* midiStreamRef})'
+  'FWADisposeAudioStream':
+    'prefix': 'FWADisposeAudioStream'
+    'body': 'FWADisposeAudioStream(${1:FWARef inRef}, ${2:UInt32 audioStreamRef})'
+  'FWADisposeFWAudioDevice':
+    'prefix': 'FWADisposeFWAudioDevice'
+    'body': 'FWADisposeFWAudioDevice(${1:FWARef inRef}, ${2:FWADeviceRef device})'
+  'FWADisposeFWAudioEngine':
+    'prefix': 'FWADisposeFWAudioEngine'
+    'body': 'FWADisposeFWAudioEngine(${1:FWARef inRef}, ${2:FWAEngineRef engine})'
+  'FWADisposeFWAudioMIDIDeviceNub':
+    'prefix': 'FWADisposeFWAudioMIDIDeviceNub'
+    'body': 'FWADisposeFWAudioMIDIDeviceNub(${1:FWARef inRef}, ${2:FWAMIDIDeviceNubRef device})'
+  'FWADisposeFWAudioMIDIPlug':
+    'prefix': 'FWADisposeFWAudioMIDIPlug'
+    'body': 'FWADisposeFWAudioMIDIPlug(${1:FWARef inRef}, ${2:FWAMIDIPlugRef plugRef})'
+  'FWADisposeFWAudioMIDIStream':
+    'prefix': 'FWADisposeFWAudioMIDIStream'
+    'body': 'FWADisposeFWAudioMIDIStream(${1:FWARef inRef}, ${2:FWAMIDIStreamRef streamRef})'
+  'FWADisposeFWAudioPlug':
+    'prefix': 'FWADisposeFWAudioPlug'
+    'body': 'FWADisposeFWAudioPlug(${1:FWARef inRef}, ${2:FWAAudioPlugRef plugRef})'
+  'FWADisposeFWAudioStream':
+    'prefix': 'FWADisposeFWAudioStream'
+    'body': 'FWADisposeFWAudioStream(${1:FWARef inRef}, ${2:FWAAudioStreamRef streamRef})'
+  'FWADisposeIsochStream':
+    'prefix': 'FWADisposeIsochStream'
+    'body': 'FWADisposeIsochStream(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef})'
+  'FWADisposeMIDIStream':
+    'prefix': 'FWADisposeMIDIStream'
+    'body': 'FWADisposeMIDIStream(${1:FWARef inRef}, ${2:UInt32 midiStreamRef})'
+  'FWAExecuteAVC':
+    'prefix': 'FWAExecuteAVC'
+    'body': 'FWAExecuteAVC(${1:FWARef inRef}, ${2:UInt8* cmd}, ${3:UInt32 cmdSize}, ${4:UInt8* response}, ${5:UInt32* responseSize})'
+  'FWAGetAEvntSource':
+    'prefix': 'FWAGetAEvntSource'
+    'body': 'FWAGetAEvntSource(${1:FWARef inRef})'
+  'FWAGetClockSource':
+    'prefix': 'FWAGetClockSource'
+    'body': 'FWAGetClockSource(${1:FWARef inRef}, ${2:FWAIsochStreamRef* streamRef}, ${3:UInt32* sequence})'
+  'FWAGetCurrentIsochStreamRefs':
+    'prefix': 'FWAGetCurrentIsochStreamRefs'
+    'body': 'FWAGetCurrentIsochStreamRefs(${1:FWARef inRef}, ${2:FWAIsochStreamRef* isochStreamRef}, ${3:UInt32* count})'
+  'FWAGetCycleTimeOffset':
+    'prefix': 'FWAGetCycleTimeOffset'
+    'body': 'FWAGetCycleTimeOffset(${1:FWARef inRef}, ${2:UInt32* cycleTimeOffset})'
+  'FWAGetDeviceName':
+    'prefix': 'FWAGetDeviceName'
+    'body': 'FWAGetDeviceName(${1:FWARef inRef}, ${2:char* name})'
+  'FWAGetDeviceSampleRate':
+    'prefix': 'FWAGetDeviceSampleRate'
+    'body': 'FWAGetDeviceSampleRate(${1:FWARef inRef}, ${2:UInt32* rate})'
+  'FWAGetDeviceSendMode':
+    'prefix': 'FWAGetDeviceSendMode'
+    'body': 'FWAGetDeviceSendMode(${1:FWARef inRef}, ${2:UInt32* mode})'
+  'FWAGetDeviceStatus':
+    'prefix': 'FWAGetDeviceStatus'
+    'body': 'FWAGetDeviceStatus(${1:FWARef inRef}, ${2:void* outData}, ${3:UInt32 inSize})'
+  'FWAGetDeviceStreamInfo':
+    'prefix': 'FWAGetDeviceStreamInfo'
+    'body': 'FWAGetDeviceStreamInfo(${1:FWARef inRef}, ${2:UInt32 audioStreamRef}, ${3:UInt32* numInput}, ${4:UInt32* inputIsochChan}, ${5:UInt32* numOutput}, ${6:UInt32* outputIsochChan})'
+  'FWAGetFWAudioMIDIPlugChannel':
+    'prefix': 'FWAGetFWAudioMIDIPlugChannel'
+    'body': 'FWAGetFWAudioMIDIPlugChannel(${1:FWARef inRef}, ${2:FWAMIDIPlugRef streamRef}, ${3:UInt32* channelID})'
+  'FWAGetFWAudioPlugChannel':
+    'prefix': 'FWAGetFWAudioPlugChannel'
+    'body': 'FWAGetFWAudioPlugChannel(${1:FWARef inRef}, ${2:FWAAudioPlugRef streamRef}, ${3:UInt32* channelID})'
+  'FWAGetGUID':
+    'prefix': 'FWAGetGUID'
+    'body': 'FWAGetGUID(${1:FWARef inRef}, ${2:UInt64* guid})'
+  'FWAGetIndexedFWAudioMIDIPlug':
+    'prefix': 'FWAGetIndexedFWAudioMIDIPlug'
+    'body': 'FWAGetIndexedFWAudioMIDIPlug(${1:FWARef inRef}, ${2:FWAMIDIDeviceNubRef device}, ${3:UInt32 index}, ${4:UInt32 dir}, ${5:FWAMIDIPlugRef* plugRef})'
+  'FWAGetIndexedFWAudioPlug':
+    'prefix': 'FWAGetIndexedFWAudioPlug'
+    'body': 'FWAGetIndexedFWAudioPlug(${1:FWARef inRef}, ${2:FWADeviceRef device}, ${3:UInt32 index}, ${4:UInt32 dir}, ${5:FWAAudioPlugRef* plugRef})'
+  'FWAGetIsochStreamAudioSequenceCount':
+    'prefix': 'FWAGetIsochStreamAudioSequenceCount'
+    'body': 'FWAGetIsochStreamAudioSequenceCount(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32* numAudioSequence})'
+  'FWAGetIsochStreamAudioType':
+    'prefix': 'FWAGetIsochStreamAudioType'
+    'body': 'FWAGetIsochStreamAudioType(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:FWAudioType* type})'
+  'FWAGetIsochStreamChannelID':
+    'prefix': 'FWAGetIsochStreamChannelID'
+    'body': 'FWAGetIsochStreamChannelID(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32* channelID})'
+  'FWAGetIsochStreamDirection':
+    'prefix': 'FWAGetIsochStreamDirection'
+    'body': 'FWAGetIsochStreamDirection(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:FWAStreamDirection* direction})'
+  'FWAGetIsochStreamMIDISequenceCount':
+    'prefix': 'FWAGetIsochStreamMIDISequenceCount'
+    'body': 'FWAGetIsochStreamMIDISequenceCount(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32* numMIDISequence})'
+  'FWAGetIsochStreamOutputSpeed':
+    'prefix': 'FWAGetIsochStreamOutputSpeed'
+    'body': 'FWAGetIsochStreamOutputSpeed(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:IOFWSpeed* speed})'
+  'FWAGetIsochStreamSampleRate':
+    'prefix': 'FWAGetIsochStreamSampleRate'
+    'body': 'FWAGetIsochStreamSampleRate(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32* rate})'
+  'FWAGetIsochStreamState':
+    'prefix': 'FWAGetIsochStreamState'
+    'body': 'FWAGetIsochStreamState(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:FWAStreamState* state})'
+  'FWAGetMacGUID':
+    'prefix': 'FWAGetMacGUID'
+    'body': 'FWAGetMacGUID(${1:FWARef inRef}, ${2:UInt64* guid})'
+  'FWAGetMaxIsochChannels':
+    'prefix': 'FWAGetMaxIsochChannels'
+    'body': 'FWAGetMaxIsochChannels(${1:FWARef inRef}, ${2:UInt32* inChannels}, ${3:UInt32* outChannels})'
+  'FWAGetMaxSequences':
+    'prefix': 'FWAGetMaxSequences'
+    'body': 'FWAGetMaxSequences(${1:FWARef inRef}, ${2:UInt32* numSequences})'
+  'FWAGetMaxSpeed':
+    'prefix': 'FWAGetMaxSpeed'
+    'body': 'FWAGetMaxSpeed(${1:FWARef inRef}, ${2:IOFWSpeed* speed})'
+  'FWAGetNodeID':
+    'prefix': 'FWAGetNodeID'
+    'body': 'FWAGetNodeID(${1:FWARef inRef}, ${2:UInt32* outNodeID}, ${3:UInt32* outGeneration})'
+  'FWAGetNumAudioInputPlugs':
+    'prefix': 'FWAGetNumAudioInputPlugs'
+    'body': 'FWAGetNumAudioInputPlugs(${1:FWARef inRef}, ${2:UInt32* plugs})'
+  'FWAGetNumAudioOutputPlugs':
+    'prefix': 'FWAGetNumAudioOutputPlugs'
+    'body': 'FWAGetNumAudioOutputPlugs(${1:FWARef inRef}, ${2:UInt32* plugs})'
+  'FWAGetNumMIDIInputPlugs':
+    'prefix': 'FWAGetNumMIDIInputPlugs'
+    'body': 'FWAGetNumMIDIInputPlugs(${1:FWARef inRef}, ${2:UInt32* plugs})'
+  'FWAGetNumMIDIOutputPlugs':
+    'prefix': 'FWAGetNumMIDIOutputPlugs'
+    'body': 'FWAGetNumMIDIOutputPlugs(${1:FWARef inRef}, ${2:UInt32* plugs})'
+  'FWAGetProperty':
+    'prefix': 'FWAGetProperty'
+    'body': 'FWAGetProperty(${1:FWARef inRef}, ${2:UInt32 propertyID}, ${3:void* data}, ${4:UInt32* size})'
+  'FWAGetSessionRef':
+    'prefix': 'FWAGetSessionRef'
+    'body': 'FWAGetSessionRef(${1:FWARef inRef}, ${2:IOFireWireSessionRef* sessionRef})'
+  'FWAGetSupportedAudioTypes':
+    'prefix': 'FWAGetSupportedAudioTypes'
+    'body': 'FWAGetSupportedAudioTypes(${1:FWARef inRef}, ${2:FWAudioType* audioTypes}, ${3:UInt32* count})'
+  'FWAGetSupportedSampleRates':
+    'prefix': 'FWAGetSupportedSampleRates'
+    'body': 'FWAGetSupportedSampleRates(${1:FWARef inRef}, ${2:UInt32* sampleRates}, ${3:UInt32* count})'
+  'FWAGetVendorID':
+    'prefix': 'FWAGetVendorID'
+    'body': 'FWAGetVendorID(${1:FWARef inRef}, ${2:UInt32* vendorID})'
+  'FWAGetVendorName':
+    'prefix': 'FWAGetVendorName'
+    'body': 'FWAGetVendorName(${1:FWARef inRef}, ${2:char* name})'
+  'FWAInitAEvntSource':
+    'prefix': 'FWAInitAEvntSource'
+    'body': 'FWAInitAEvntSource(${1:FWARef inRef}, ${2:CFRunLoopSourceRef* source}, ${3:void* refcon})'
+  'FWAIsMIDICapable':
+    'prefix': 'FWAIsMIDICapable'
+    'body': 'FWAIsMIDICapable(${1:FWARef inRef}, ${2:_Bool* supportsMIDI})'
+  'FWAMIDIDeviceNubAttachMIDIPlug':
+    'prefix': 'FWAMIDIDeviceNubAttachMIDIPlug'
+    'body': 'FWAMIDIDeviceNubAttachMIDIPlug(${1:FWARef inRef}, ${2:FWAMIDIDeviceNubRef midiDeviceNub}, ${3:FWAMIDIPlugRef midiPlug})'
+  'FWAMIDIDeviceNubDetachMIDIPlug':
+    'prefix': 'FWAMIDIDeviceNubDetachMIDIPlug'
+    'body': 'FWAMIDIDeviceNubDetachMIDIPlug(${1:FWARef inRef}, ${2:FWAMIDIPlugRef midiPlug})'
+  'FWAOpen':
+    'prefix': 'FWAOpen'
+    'body': 'FWAOpen(${1:UInt32 nodeID}, ${2:FWARef* outRef})'
+  'FWAOpenLocal':
+    'prefix': 'FWAOpenLocal'
+    'body': 'FWAOpenLocal(${1:FWARef* outRef})'
+  'FWAOpenLocalWithInterface':
+    'prefix': 'FWAOpenLocalWithInterface'
+    'body': 'FWAOpenLocalWithInterface(${1:UInt64 guid}, ${2:UInt32 options}, ${3:FWARef* outRef})'
+  'FWAOpenWithService':
+    'prefix': 'FWAOpenWithService'
+    'body': 'FWAOpenWithService(${1:io_service_t }, ${2:UInt32 options}, ${3:FWARef* outRef})'
+  'FWARead':
+    'prefix': 'FWARead'
+    'body': 'FWARead(${1:FWARef inRef}, ${2:UInt8 inAddress}, ${3:UInt8 inSubAddress}, ${4:ByteCount inDataSize}, ${5:void* inDataPtr})'
+  'FWAReadBlock':
+    'prefix': 'FWAReadBlock'
+    'body': 'FWAReadBlock(${1:FWARef inRef}, ${2:FWAddressPtr address}, ${3:UInt32* size}, ${4:UInt8* outData})'
+  'FWAReadMIDIData':
+    'prefix': 'FWAReadMIDIData'
+    'body': 'FWAReadMIDIData(${1:FWARef inRef}, ${2:UInt32 midiStreamRef}, ${3:FWAMIDIReadBuf* buf})'
+  'FWAReadMIDIDataAsync':
+    'prefix': 'FWAReadMIDIDataAsync'
+    'body': 'FWAReadMIDIDataAsync(${1:FWARef inRef}, ${2:UInt32 midiStreamRef}, ${3:UInt32 readBufSize}, ${4:IOAsyncCallback2 callback}, ${5:void* refCon})'
+  'FWAReadQuadlet':
+    'prefix': 'FWAReadQuadlet'
+    'body': 'FWAReadQuadlet(${1:FWARef inRef}, ${2:FWAddressPtr address}, ${3:UInt32* outData})'
+  'FWAReserveIsochSequences':
+    'prefix': 'FWAReserveIsochSequences'
+    'body': 'FWAReserveIsochSequences(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStream}, ${3:FWAudioType type}, ${4:UInt32 count})'
+  'FWASetAutoLoad':
+    'prefix': 'FWASetAutoLoad'
+    'body': 'FWASetAutoLoad(${1:FWARef inRef}, ${2:_Bool enable})'
+  'FWASetClockSource':
+    'prefix': 'FWASetClockSource'
+    'body': 'FWASetClockSource(${1:FWARef inRef}, ${2:FWAIsochStreamRef streamRef}, ${3:UInt32 sequence})'
+  'FWASetCycleTimeOffset':
+    'prefix': 'FWASetCycleTimeOffset'
+    'body': 'FWASetCycleTimeOffset(${1:FWARef inRef}, ${2:UInt32 cycleTimeOffset})'
+  'FWASetDeviceStreamInfo':
+    'prefix': 'FWASetDeviceStreamInfo'
+    'body': 'FWASetDeviceStreamInfo(${1:FWARef inRef}, ${2:UInt32 audioStreamRef}, ${3:UInt32 numInput}, ${4:UInt32 inputIsochChan}, ${5:UInt32 numOutput}, ${6:UInt32 outputIsochChan}, ${7:_Bool update})'
+  'FWASetFWAudioMIDIPlugChannel':
+    'prefix': 'FWASetFWAudioMIDIPlugChannel'
+    'body': 'FWASetFWAudioMIDIPlugChannel(${1:FWARef inRef}, ${2:FWAMIDIPlugRef streamRef}, ${3:UInt32 channelID})'
+  'FWASetFWAudioMIDIPlugProperty':
+    'prefix': 'FWASetFWAudioMIDIPlugProperty'
+    'body': 'FWASetFWAudioMIDIPlugProperty(${1:FWARef inRef}, ${2:FWAMIDIPlugRef plugRef}, ${3:char* keyname}, ${4:char* keyvalue})'
+  'FWASetFWAudioPlugChannel':
+    'prefix': 'FWASetFWAudioPlugChannel'
+    'body': 'FWASetFWAudioPlugChannel(${1:FWARef inRef}, ${2:FWAAudioPlugRef streamRef}, ${3:UInt32 channelID})'
+  'FWASetFWAudioPlugProperty':
+    'prefix': 'FWASetFWAudioPlugProperty'
+    'body': 'FWASetFWAudioPlugProperty(${1:FWARef inRef}, ${2:FWAAudioPlugRef plugRef}, ${3:char* keyname}, ${4:char* keyvalue})'
+  'FWASetIsochStreamAudioSequenceCount':
+    'prefix': 'FWASetIsochStreamAudioSequenceCount'
+    'body': 'FWASetIsochStreamAudioSequenceCount(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32 numAudioSequence})'
+  'FWASetIsochStreamAudioType':
+    'prefix': 'FWASetIsochStreamAudioType'
+    'body': 'FWASetIsochStreamAudioType(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:FWAudioType type})'
+  'FWASetIsochStreamChannelID':
+    'prefix': 'FWASetIsochStreamChannelID'
+    'body': 'FWASetIsochStreamChannelID(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32 channelID})'
+  'FWASetIsochStreamMIDISequenceCount':
+    'prefix': 'FWASetIsochStreamMIDISequenceCount'
+    'body': 'FWASetIsochStreamMIDISequenceCount(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32 numMIDISequence})'
+  'FWASetIsochStreamOutputSpeed':
+    'prefix': 'FWASetIsochStreamOutputSpeed'
+    'body': 'FWASetIsochStreamOutputSpeed(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:IOFWSpeed speed})'
+  'FWASetIsochStreamSampleRate':
+    'prefix': 'FWASetIsochStreamSampleRate'
+    'body': 'FWASetIsochStreamSampleRate(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef}, ${3:UInt32 rate})'
+  'FWASetNumMIDIInputPlugs':
+    'prefix': 'FWASetNumMIDIInputPlugs'
+    'body': 'FWASetNumMIDIInputPlugs(${1:FWARef inRef}, ${2:UInt32 plugs})'
+  'FWASetNumMIDIOutputPlugs':
+    'prefix': 'FWASetNumMIDIOutputPlugs'
+    'body': 'FWASetNumMIDIOutputPlugs(${1:FWARef inRef}, ${2:UInt32 plugs})'
+  'FWASetPluginPath':
+    'prefix': 'FWASetPluginPath'
+    'body': 'FWASetPluginPath(${1:FWARef inRef}, ${2:FWAEngineRef engine}, ${3:UInt32 vendorID}, ${4:UInt32 modelID}, ${5:char* pluginPath})'
+  'FWASetProperty':
+    'prefix': 'FWASetProperty'
+    'body': 'FWASetProperty(${1:FWARef inRef}, ${2:UInt32 propertyID}, ${3:void* data}, ${4:UInt32 size})'
+  'FWAStartFWAudioDevice':
+    'prefix': 'FWAStartFWAudioDevice'
+    'body': 'FWAStartFWAudioDevice(${1:FWARef inRef}, ${2:FWADeviceRef device})'
+  'FWAStartIsochStream':
+    'prefix': 'FWAStartIsochStream'
+    'body': 'FWAStartIsochStream(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef})'
+  'FWAStopFWAudioDevice':
+    'prefix': 'FWAStopFWAudioDevice'
+    'body': 'FWAStopFWAudioDevice(${1:FWARef inRef}, ${2:FWADeviceRef device})'
+  'FWAStopIsochStream':
+    'prefix': 'FWAStopIsochStream'
+    'body': 'FWAStopIsochStream(${1:FWARef inRef}, ${2:FWAIsochStreamRef isochStreamRef})'
+  'FWASyncUpDevice':
+    'prefix': 'FWASyncUpDevice'
+    'body': 'FWASyncUpDevice(${1:FWARef inRef})'
+  'FWAWrite':
+    'prefix': 'FWAWrite'
+    'body': 'FWAWrite(${1:FWARef inRef}, ${2:UInt8 inAddress}, ${3:UInt8 inSubAddress}, ${4:ByteCount inDataSize}, ${5:void* inDataPtr})'
+  'FWAWriteBlock':
+    'prefix': 'FWAWriteBlock'
+    'body': 'FWAWriteBlock(${1:FWARef inRef}, ${2:FWAddressPtr address}, ${3:UInt32 size}, ${4:UInt8* data})'
+  'FWAWriteMIDIData':
+    'prefix': 'FWAWriteMIDIData'
+    'body': 'FWAWriteMIDIData(${1:FWARef inRef}, ${2:UInt32 midiStreamRef}, ${3:UInt32 writeMsgLength}, ${4:UInt8* buf})'
+  'FWAWriteMIDIDataAsync':
+    'prefix': 'FWAWriteMIDIDataAsync'
+    'body': 'FWAWriteMIDIDataAsync(${1:FWARef inRef}, ${2:UInt32 midiStreamRef}, ${3:UInt32 writeMsgLength}, ${4:IOAsyncCallback1 callback}, ${5:void* refCon})'
+  'FWAWriteQuadlet':
+    'prefix': 'FWAWriteQuadlet'
+    'body': 'FWAWriteQuadlet(${1:FWARef inRef}, ${2:FWAddressPtr address}, ${3:UInt32 data})'
