@@ -1144,19 +1144,19 @@
     'body': 'width()'
   'GLKTextureLoader.cubeMapWithContentsOfFile:options:error:':
     'prefix': 'cubeMapWithContentsOfFile:options:error:'
-    'body': 'GLKTextureLoader.cubeMapWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
+    'body': 'cubeMapWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
   'cubeMapWithContentsOfFile:options:queue:completionHandler:':
     'prefix': 'cubeMapWithContentsOfFile:options:queue:completionHandler:'
     'body': 'cubeMapWithContentsOfFile(${1: path}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
   'GLKTextureLoader.cubeMapWithContentsOfFiles:options:error:':
     'prefix': 'cubeMapWithContentsOfFiles:options:error:'
-    'body': 'GLKTextureLoader.cubeMapWithContentsOfFiles(${1: paths}, options:${2: options}, error:${3: outError})'
+    'body': 'cubeMapWithContentsOfFiles(${1: paths}, options:${2: options}, error:${3: outError})'
   'cubeMapWithContentsOfFiles:options:queue:completionHandler:':
     'prefix': 'cubeMapWithContentsOfFiles:options:queue:completionHandler:'
     'body': 'cubeMapWithContentsOfFiles(${1: paths}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
   'GLKTextureLoader.cubeMapWithContentsOfURL:options:error:':
     'prefix': 'cubeMapWithContentsOfURL:options:error:'
-    'body': 'GLKTextureLoader.cubeMapWithContentsOfURL(${1: url}, options:${2: options}, error:${3: outError})'
+    'body': 'cubeMapWithContentsOfURL(${1: url}, options:${2: options}, error:${3: outError})'
   'cubeMapWithContentsOfURL:options:queue:completionHandler:':
     'prefix': 'cubeMapWithContentsOfURL:options:queue:completionHandler:'
     'body': 'cubeMapWithContentsOfURL(${1: url}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
@@ -1165,25 +1165,25 @@
     'body': 'initWithShareContext(${1: context})'
   'GLKTextureLoader.textureWithCGImage:options:error:':
     'prefix': 'textureWithCGImage:options:error:'
-    'body': 'GLKTextureLoader.textureWithCGImage(${1: cgImage}, options:${2: options}, error:${3: outError})'
+    'body': 'textureWithCGImage(${1: cgImage}, options:${2: options}, error:${3: outError})'
   'textureWithCGImage:options:queue:completionHandler:':
     'prefix': 'textureWithCGImage:options:queue:completionHandler:'
     'body': 'textureWithCGImage(${1: cgImage}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
   'GLKTextureLoader.textureWithContentsOfData:options:error:':
     'prefix': 'textureWithContentsOfData:options:error:'
-    'body': 'GLKTextureLoader.textureWithContentsOfData(${1: data}, options:${2: options}, error:${3: outError})'
+    'body': 'textureWithContentsOfData(${1: data}, options:${2: options}, error:${3: outError})'
   'textureWithContentsOfData:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfData:options:queue:completionHandler:'
     'body': 'textureWithContentsOfData(${1: data}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
   'GLKTextureLoader.textureWithContentsOfFile:options:error:':
     'prefix': 'textureWithContentsOfFile:options:error:'
-    'body': 'GLKTextureLoader.textureWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
+    'body': 'textureWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
   'textureWithContentsOfFile:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfFile:options:queue:completionHandler:'
     'body': 'textureWithContentsOfFile(${1: path}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
   'GLKTextureLoader.textureWithContentsOfURL:options:error:':
     'prefix': 'textureWithContentsOfURL:options:error:'
-    'body': 'GLKTextureLoader.textureWithContentsOfURL(${1: url}, options:${2: options}, error:${3: outError})'
+    'body': 'textureWithContentsOfURL(${1: url}, options:${2: options}, error:${3: outError})'
   'textureWithContentsOfURL:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfURL:options:queue:completionHandler:'
     'body': 'textureWithContentsOfURL(${1: url}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'

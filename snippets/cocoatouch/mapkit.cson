@@ -340,10 +340,10 @@
     'body': 'boundingMapRect()'
   'MKCircle.circleWithCenterCoordinate:radius:':
     'prefix': 'circleWithCenterCoordinate:radius:'
-    'body': 'MKCircle.circleWithCenterCoordinate(${1:CLLocationCoordinate2D coord}, radius:${2:CLLocationDistance radius})'
+    'body': 'circleWithCenterCoordinate(${1:CLLocationCoordinate2D coord}, radius:${2:CLLocationDistance radius})'
   'MKCircle.circleWithMapRect:':
     'prefix': 'circleWithMapRect:'
-    'body': 'MKCircle.circleWithMapRect(${1:MKMapRect mapRect})'
+    'body': 'circleWithMapRect(${1:MKMapRect mapRect})'
   'coordinate':
     'prefix': 'coordinate'
     'body': 'coordinate()'
@@ -391,7 +391,7 @@
     'body': 'initWithContentsOfURL(${1:NSURL* url})'
   'MKDirectionsRequest.isDirectionsRequestURL:':
     'prefix': 'isDirectionsRequestURL:'
-    'body': 'MKDirectionsRequest.isDirectionsRequestURL(${1:NSURL* url})'
+    'body': 'isDirectionsRequestURL(${1:NSURL* url})'
   'requestsAlternateRoutes':
     'prefix': 'requestsAlternateRoutes'
     'body': 'requestsAlternateRoutes()'
@@ -463,10 +463,10 @@
     'body': 'source()'
   'MKGeodesicPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
-    'body': 'MKGeodesicPolyline.polylineWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
+    'body': 'polylineWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
   'MKGeodesicPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
-    'body': 'MKGeodesicPolyline.polylineWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
+    'body': 'polylineWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
   'cancel':
     'prefix': 'cancel'
     'body': 'cancel()'
@@ -502,10 +502,10 @@
     'body': 'altitude()'
   'MKMapCamera.camera':
     'prefix': 'camera'
-    'body': 'MKMapCamera.camera()'
+    'body': 'camera()'
   'MKMapCamera.cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:':
     'prefix': 'cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:'
-    'body': 'MKMapCamera.cameraLookingAtCenterCoordinate(${1:CLLocationCoordinate2D centerCoordinate}, fromEyeCoordinate:${2:CLLocationCoordinate2D eyeCoordinate}, eyeAltitude:${3:CLLocationDistance eyeAltitude})'
+    'body': 'cameraLookingAtCenterCoordinate(${1:CLLocationCoordinate2D centerCoordinate}, fromEyeCoordinate:${2:CLLocationCoordinate2D eyeCoordinate}, eyeAltitude:${3:CLLocationDistance eyeAltitude})'
   'centerCoordinate':
     'prefix': 'centerCoordinate'
     'body': 'centerCoordinate()'
@@ -535,7 +535,7 @@
     'body': 'isCurrentLocation()'
   'MKMapItem.mapItemForCurrentLocation':
     'prefix': 'mapItemForCurrentLocation'
-    'body': 'MKMapItem.mapItemForCurrentLocation()'
+    'body': 'mapItemForCurrentLocation()'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -544,7 +544,7 @@
     'body': 'openInMapsWithLaunchOptions(${1:NSDictionary* launchOptions})'
   'MKMapItem.openMapsWithItems:launchOptions:':
     'prefix': 'openMapsWithItems:launchOptions:'
-    'body': 'MKMapItem.openMapsWithItems(${1:NSArray* mapItems}, launchOptions:${2:NSDictionary* launchOptions})'
+    'body': 'openMapsWithItems(${1:NSArray* mapItems}, launchOptions:${2:NSDictionary* launchOptions})'
   'phoneNumber':
     'prefix': 'phoneNumber'
     'body': 'phoneNumber()'
@@ -1105,16 +1105,16 @@
     'body': 'interiorPolygons()'
   'MKPolygon.polygonWithCoordinates:count:':
     'prefix': 'polygonWithCoordinates:count:'
-    'body': 'MKPolygon.polygonWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
+    'body': 'polygonWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
   'MKPolygon.polygonWithCoordinates:count:interiorPolygons:':
     'prefix': 'polygonWithCoordinates:count:interiorPolygons:'
-    'body': 'MKPolygon.polygonWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count}, interiorPolygons:${3:NSArray* interiorPolygons})'
+    'body': 'polygonWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count}, interiorPolygons:${3:NSArray* interiorPolygons})'
   'MKPolygon.polygonWithPoints:count:':
     'prefix': 'polygonWithPoints:count:'
-    'body': 'MKPolygon.polygonWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
+    'body': 'polygonWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
   'MKPolygon.polygonWithPoints:count:interiorPolygons:':
     'prefix': 'polygonWithPoints:count:interiorPolygons:'
-    'body': 'MKPolygon.polygonWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count}, interiorPolygons:${3:NSArray* interiorPolygons})'
+    'body': 'polygonWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count}, interiorPolygons:${3:NSArray* interiorPolygons})'
   'initWithPolygon:':
     'prefix': 'initWithPolygon:'
     'body': 'initWithPolygon(${1:MKPolygon* polygon})'
@@ -1129,10 +1129,10 @@
     'body': 'polygon()'
   'MKPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
-    'body': 'MKPolyline.polylineWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
+    'body': 'polylineWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
   'MKPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
-    'body': 'MKPolyline.polylineWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
+    'body': 'polylineWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
   'initWithPolyline:':
     'prefix': 'initWithPolyline:'
     'body': 'initWithPolyline(${1:MKPolyline* polyline})'
@@ -1396,10 +1396,10 @@
     'body': 'MKCoordinateValue()'
   'NSValue.valueWithMKCoordinate:':
     'prefix': 'valueWithMKCoordinate:'
-    'body': 'NSValue.valueWithMKCoordinate(${1:CLLocationCoordinate2D coordinate})'
+    'body': 'valueWithMKCoordinate(${1:CLLocationCoordinate2D coordinate})'
   'NSValue.valueWithMKCoordinateSpan:':
     'prefix': 'valueWithMKCoordinateSpan:'
-    'body': 'NSValue.valueWithMKCoordinateSpan(${1:MKCoordinateSpan span})'
+    'body': 'valueWithMKCoordinateSpan(${1:MKCoordinateSpan span})'
   'coordinate':
     'prefix': 'coordinate'
     'body': 'coordinate()'

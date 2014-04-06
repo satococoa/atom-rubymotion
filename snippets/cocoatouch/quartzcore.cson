@@ -367,10 +367,10 @@
     'body': 'CATransform3DTranslate(${1:CATransform3D t}, ${2:CGFloat tx}, ${3:CGFloat ty}, ${4:CGFloat tz})'
   'CAAnimation.animation':
     'prefix': 'animation'
-    'body': 'CAAnimation.animation()'
+    'body': 'animation()'
   'CAAnimation.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
-    'body': 'CAAnimation.defaultValueForKey(${1:NSString* key})'
+    'body': 'defaultValueForKey(${1:NSString* key})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -421,7 +421,7 @@
     'body': 'addToRunLoop(${1:NSRunLoop* runloop}, forMode:${2:NSString* mode})'
   'CADisplayLink.displayLinkWithTarget:selector:':
     'prefix': 'displayLinkWithTarget:selector:'
-    'body': 'CADisplayLink.displayLinkWithTarget(${1:id target}, selector:${2:SEL sel})'
+    'body': 'displayLinkWithTarget(${1:id target}, selector:${2:SEL sel})'
   'duration':
     'prefix': 'duration'
     'body': 'duration()'
@@ -448,10 +448,10 @@
     'body': 'timestamp()'
   'CAEmitterBehavior.behaviorTypes':
     'prefix': 'behaviorTypes'
-    'body': 'CAEmitterBehavior.behaviorTypes()'
+    'body': 'behaviorTypes()'
   'CAEmitterBehavior.behaviorWithType:':
     'prefix': 'behaviorWithType:'
-    'body': 'CAEmitterBehavior.behaviorWithType(${1:NSString* type})'
+    'body': 'behaviorWithType(${1:NSString* type})'
   'initWithType:':
     'prefix': 'initWithType:'
     'body': 'initWithType(${1:NSString* type})'
@@ -496,7 +496,7 @@
     'body': 'contentsRect()'
   'CAEmitterCell.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
-    'body': 'CAEmitterCell.defaultValueForKey(${1:NSString* key})'
+    'body': 'defaultValueForKey(${1:NSString* key})'
   'emissionLatitude':
     'prefix': 'emissionLatitude'
     'body': 'emissionLatitude()'
@@ -508,7 +508,7 @@
     'body': 'emissionRange()'
   'CAEmitterCell.emitterCell':
     'prefix': 'emitterCell'
-    'body': 'CAEmitterCell.emitterCell()'
+    'body': 'emitterCell()'
   'emitterCells':
     'prefix': 'emitterCells'
     'body': 'emitterCells()'
@@ -952,10 +952,10 @@
     'body': 'cornerRadius()'
   'CALayer.defaultActionForKey:':
     'prefix': 'defaultActionForKey:'
-    'body': 'CALayer.defaultActionForKey(${1:NSString* event})'
+    'body': 'defaultActionForKey(${1:NSString* event})'
   'CALayer.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
-    'body': 'CALayer.defaultValueForKey(${1:NSString* key})'
+    'body': 'defaultValueForKey(${1:NSString* key})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -1012,7 +1012,7 @@
     'body': 'isOpaque()'
   'CALayer.layer':
     'prefix': 'layer'
-    'body': 'CALayer.layer()'
+    'body': 'layer()'
   'layoutIfNeeded':
     'prefix': 'layoutIfNeeded'
     'body': 'layoutIfNeeded()'
@@ -1045,7 +1045,7 @@
     'body': 'needsDisplay()'
   'CALayer.needsDisplayForKey:':
     'prefix': 'needsDisplayForKey:'
-    'body': 'CALayer.needsDisplayForKey(${1:NSString* key})'
+    'body': 'needsDisplayForKey(${1:NSString* key})'
   'needsDisplayOnBoundsChange':
     'prefix': 'needsDisplayOnBoundsChange'
     'body': 'needsDisplayOnBoundsChange()'
@@ -1285,10 +1285,10 @@
     'body': 'zPosition()'
   'CAMediaTimingFunction.functionWithControlPoints::::':
     'prefix': 'functionWithControlPoints::::'
-    'body': 'CAMediaTimingFunction.functionWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
+    'body': 'functionWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
   'CAMediaTimingFunction.functionWithName:':
     'prefix': 'functionWithName:'
-    'body': 'CAMediaTimingFunction.functionWithName(${1:NSString* name})'
+    'body': 'functionWithName(${1:NSString* name})'
   'getControlPointAtIndex:values:':
     'prefix': 'getControlPointAtIndex:values:'
     'body': 'getControlPointAtIndex(${1:size_t idx}, values:${2:float* ptr})'
@@ -1297,7 +1297,7 @@
     'body': 'initWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
   'CAPropertyAnimation.animationWithKeyPath:':
     'prefix': 'animationWithKeyPath:'
-    'body': 'CAPropertyAnimation.animationWithKeyPath(${1:NSString* path})'
+    'body': 'animationWithKeyPath(${1:NSString* path})'
   'isAdditive':
     'prefix': 'isAdditive'
     'body': 'isAdditive()'
@@ -1504,7 +1504,7 @@
     'body': 'truncationMode()'
   'CATiledLayer.fadeDuration':
     'prefix': 'fadeDuration'
-    'body': 'CATiledLayer.fadeDuration()'
+    'body': 'fadeDuration()'
   'levelsOfDetail':
     'prefix': 'levelsOfDetail'
     'body': 'levelsOfDetail()'
@@ -1525,49 +1525,49 @@
     'body': 'tileSize()'
   'CATransaction.animationDuration':
     'prefix': 'animationDuration'
-    'body': 'CATransaction.animationDuration()'
+    'body': 'animationDuration()'
   'CATransaction.animationTimingFunction':
     'prefix': 'animationTimingFunction'
-    'body': 'CATransaction.animationTimingFunction()'
+    'body': 'animationTimingFunction()'
   'CATransaction.begin':
     'prefix': 'begin'
-    'body': 'CATransaction.begin()'
+    'body': 'begin()'
   'CATransaction.commit':
     'prefix': 'commit'
-    'body': 'CATransaction.commit()'
+    'body': 'commit()'
   'CATransaction.completionBlock':
     'prefix': 'completionBlock'
-    'body': 'CATransaction.completionBlock()'
+    'body': 'completionBlock()'
   'CATransaction.disableActions':
     'prefix': 'disableActions'
-    'body': 'CATransaction.disableActions()'
+    'body': 'disableActions()'
   'CATransaction.flush':
     'prefix': 'flush'
-    'body': 'CATransaction.flush()'
+    'body': 'flush()'
   'CATransaction.lock':
     'prefix': 'lock'
-    'body': 'CATransaction.lock()'
+    'body': 'lock()'
   'CATransaction.setAnimationDuration:':
     'prefix': 'setAnimationDuration:'
-    'body': 'CATransaction.setAnimationDuration(${1:CFTimeInterval dur})'
+    'body': 'setAnimationDuration(${1:CFTimeInterval dur})'
   'CATransaction.setAnimationTimingFunction:':
     'prefix': 'setAnimationTimingFunction:'
-    'body': 'CATransaction.setAnimationTimingFunction(${1:CAMediaTimingFunction* function})'
+    'body': 'setAnimationTimingFunction(${1:CAMediaTimingFunction* function})'
   'CATransaction.setCompletionBlock:':
     'prefix': 'setCompletionBlock:'
-    'body': 'CATransaction.setCompletionBlock(${1:void (^)(void) block})'
+    'body': 'setCompletionBlock(${1:void (^)(void) block})'
   'CATransaction.setDisableActions:':
     'prefix': 'setDisableActions:'
-    'body': 'CATransaction.setDisableActions(${1:BOOL flag})'
+    'body': 'setDisableActions(${1:BOOL flag})'
   'CATransaction.setValue:forKey:':
     'prefix': 'setValue:forKey:'
-    'body': 'CATransaction.setValue(${1:id anObject}, forKey:${2:NSString* key})'
+    'body': 'setValue(${1:id anObject}, forKey:${2:NSString* key})'
   'CATransaction.unlock':
     'prefix': 'unlock'
-    'body': 'CATransaction.unlock()'
+    'body': 'unlock()'
   'CATransaction.valueForKey:':
     'prefix': 'valueForKey:'
-    'body': 'CATransaction.valueForKey(${1:NSString* key})'
+    'body': 'valueForKey(${1:NSString* key})'
   'endProgress':
     'prefix': 'endProgress'
     'body': 'endProgress()'
@@ -1600,7 +1600,7 @@
     'body': 'type()'
   'CAValueFunction.functionWithName:':
     'prefix': 'functionWithName:'
-    'body': 'CAValueFunction.functionWithName(${1:NSString* name})'
+    'body': 'functionWithName(${1:NSString* name})'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -1678,7 +1678,7 @@
     'body': 'CATransform3DValue()'
   'NSValue.valueWithCATransform3D:':
     'prefix': 'valueWithCATransform3D:'
-    'body': 'NSValue.valueWithCATransform3D(${1:CATransform3D t})'
+    'body': 'valueWithCATransform3D(${1:CATransform3D t})'
   'runActionForKey:object:arguments:':
     'prefix': 'runActionForKey:object:arguments:'
     'body': 'runActionForKey(${1:NSString* event}, object:${2:id anObject}, arguments:${3:NSDictionary* dict})'

@@ -45,7 +45,7 @@ def process_node(node)
         name = method_node[:selector]
       end
       trigger = method_node[:selector]
-      selector_tokens = name.split(':')
+      selector_tokens = method_node[:selector].split(':')
       args = method_node.xpath('./arg').map.with_index {|n, i|
         arg = ''
         arg << "#{selector_tokens[i]}:" if i > 0

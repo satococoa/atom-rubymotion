@@ -94,7 +94,7 @@
     'body': 'carrierToken()'
   'CTSubscriberInfo.subscriber':
     'prefix': 'subscriber'
-    'body': 'CTSubscriberInfo.subscriber()'
+    'body': 'subscriber()'
   'currentRadioAccessTechnology':
     'prefix': 'currentRadioAccessTechnology'
     'body': 'currentRadioAccessTechnology()'

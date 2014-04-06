@@ -25,7 +25,7 @@
     'body': 'controllerPausedHandler()'
   'GCController.controllers':
     'prefix': 'controllers'
-    'body': 'GCController.controllers()'
+    'body': 'controllers()'
   'extendedGamepad':
     'prefix': 'extendedGamepad'
     'body': 'extendedGamepad()'
@@ -46,10 +46,10 @@
     'body': 'setPlayerIndex(${1: playerIndex})'
   'GCController.startWirelessControllerDiscoveryWithCompletionHandler:':
     'prefix': 'startWirelessControllerDiscoveryWithCompletionHandler:'
-    'body': 'GCController.startWirelessControllerDiscoveryWithCompletionHandler(${1: completionHandler})'
+    'body': 'startWirelessControllerDiscoveryWithCompletionHandler(${1: completionHandler})'
   'GCController.stopWirelessControllerDiscovery':
     'prefix': 'stopWirelessControllerDiscovery'
-    'body': 'GCController.stopWirelessControllerDiscovery()'
+    'body': 'stopWirelessControllerDiscovery()'
   'vendorName':
     'prefix': 'vendorName'
     'body': 'vendorName()'

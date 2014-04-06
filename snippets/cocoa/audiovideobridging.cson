@@ -574,10 +574,10 @@
     'body': 'KAVB17221EntityPropertyChangedShouldntChangeMask'
   'AVB17221ACMPInterface.ACMPInterfaceWithInterface:':
     'prefix': 'ACMPInterfaceWithInterface:'
-    'body': 'AVB17221ACMPInterface.ACMPInterfaceWithInterface(${1:AVBInterface* anInterface})'
+    'body': 'ACMPInterfaceWithInterface(${1:AVBInterface* anInterface})'
   'AVB17221ACMPInterface.ACMPInterfaceWithInterfaceNamed:':
     'prefix': 'ACMPInterfaceWithInterfaceNamed:'
-    'body': 'AVB17221ACMPInterface.ACMPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
+    'body': 'ACMPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
   'multicastDestinationAddress':
     'prefix': 'multicastDestinationAddress'
     'body': 'multicastDestinationAddress()'
@@ -700,7 +700,7 @@
     'body': 'talkerUniqueID()'
   'AVB17221AECPAEMMessage.commandMessage':
     'prefix': 'commandMessage'
-    'body': 'AVB17221AECPAEMMessage.commandMessage()'
+    'body': 'commandMessage()'
   'commandSpecificData':
     'prefix': 'commandSpecificData'
     'body': 'commandSpecificData()'
@@ -715,7 +715,7 @@
     'body': 'isUnsolicited()'
   'AVB17221AECPAEMMessage.responseMessage':
     'prefix': 'responseMessage'
-    'body': 'AVB17221AECPAEMMessage.responseMessage()'
+    'body': 'responseMessage()'
   'setCommandSpecificData:':
     'prefix': 'setCommandSpecificData:'
     'body': 'setCommandSpecificData(${1:NSData* commandSpecificData})'
@@ -736,10 +736,10 @@
     'body': 'setCommandResponse(${1:NSData* commandResponse})'
   'AVB17221AECPAddressAccessMessage.commandMessage':
     'prefix': 'commandMessage'
-    'body': 'AVB17221AECPAddressAccessMessage.commandMessage()'
+    'body': 'commandMessage()'
   'AVB17221AECPAddressAccessMessage.responseMessage':
     'prefix': 'responseMessage'
-    'body': 'AVB17221AECPAddressAccessMessage.responseMessage()'
+    'body': 'responseMessage()'
   'setTlvs:':
     'prefix': 'setTlvs:'
     'body': 'setTlvs(${1:NSArray* tlvs})'
@@ -766,10 +766,10 @@
     'body': 'setMode(${1:AVB17221AECPAddressAccessTLVMode mode})'
   'AVB17221AECPInterface.AECPInterfaceWithInterface:':
     'prefix': 'AECPInterfaceWithInterface:'
-    'body': 'AVB17221AECPInterface.AECPInterfaceWithInterface(${1:AVBInterface* anInterface})'
+    'body': 'AECPInterfaceWithInterface(${1:AVBInterface* anInterface})'
   'AVB17221AECPInterface.AECPInterfaceWithInterfaceNamed:':
     'prefix': 'AECPInterfaceWithInterfaceNamed:'
-    'body': 'AVB17221AECPInterface.AECPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
+    'body': 'AECPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
   'removeHandlerForEntityID:':
     'prefix': 'removeHandlerForEntityID:'
     'body': 'removeHandlerForEntityID(${1:uint64_t targetEntityID})'
@@ -1054,22 +1054,22 @@
     'body': 'interfaceName()'
   'AVBInterface.isAVBCapableInterfaceNamed:':
     'prefix': 'isAVBCapableInterfaceNamed:'
-    'body': 'AVBInterface.isAVBCapableInterfaceNamed(${1:NSString* anInterfaceName})'
+    'body': 'isAVBCapableInterfaceNamed(${1:NSString* anInterfaceName})'
   'AVBInterface.isAVBEnabledOnInterfaceNamed:':
     'prefix': 'isAVBEnabledOnInterfaceNamed:'
-    'body': 'AVBInterface.isAVBEnabledOnInterfaceNamed(${1:NSString* anInterfaceName})'
+    'body': 'isAVBEnabledOnInterfaceNamed(${1:NSString* anInterfaceName})'
   'AVBInterface.macAddressForInterfaceNamed:':
     'prefix': 'macAddressForInterfaceNamed:'
-    'body': 'AVBInterface.macAddressForInterfaceNamed(${1:NSString* anInterfaceName})'
+    'body': 'macAddressForInterfaceNamed(${1:NSString* anInterfaceName})'
   'AVBInterface.myEntityID':
     'prefix': 'myEntityID'
-    'body': 'AVBInterface.myEntityID()'
+    'body': 'myEntityID()'
   'AVBInterface.myGUID':
     'prefix': 'myGUID'
-    'body': 'AVBInterface.myGUID()'
+    'body': 'myGUID()'
   'AVBInterface.supportedInterfaces':
     'prefix': 'supportedInterfaces'
-    'body': 'AVBInterface.supportedInterfaces()'
+    'body': 'supportedInterfaces()'
   'bytes':
     'prefix': 'bytes'
     'body': 'bytes()'

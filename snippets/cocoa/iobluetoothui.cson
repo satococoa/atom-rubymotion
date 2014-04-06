@@ -73,7 +73,7 @@
     'body': 'clearAllowedUUIDs()'
   'IOBluetoothDeviceSelectorController.deviceSelector':
     'prefix': 'deviceSelector'
-    'body': 'IOBluetoothDeviceSelectorController.deviceSelector()'
+    'body': 'deviceSelector()'
   'getCancel':
     'prefix': 'getCancel'
     'body': 'getCancel()'
@@ -127,7 +127,7 @@
     'body': 'setTitle(${1:NSString* windowTitle})'
   'IOBluetoothDeviceSelectorController.withDeviceSelectorControllerRef:':
     'prefix': 'withDeviceSelectorControllerRef:'
-    'body': 'IOBluetoothDeviceSelectorController.withDeviceSelectorControllerRef(${1:IOBluetoothDeviceSelectorControllerRef deviceSelectorControllerRef})'
+    'body': 'withDeviceSelectorControllerRef(${1:IOBluetoothDeviceSelectorControllerRef deviceSelectorControllerRef})'
   'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:':
     'prefix': 'beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:'
     'body': 'beginSheetModalForWindow(${1:NSWindow* sheetWindow}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
@@ -190,7 +190,7 @@
     'body': 'getTitle()'
   'IOBluetoothPairingController.pairingController':
     'prefix': 'pairingController'
-    'body': 'IOBluetoothPairingController.pairingController()'
+    'body': 'pairingController()'
   'runModal':
     'prefix': 'runModal'
     'body': 'runModal()'
@@ -211,7 +211,7 @@
     'body': 'setTitle(${1:NSString* windowTitle})'
   'IOBluetoothPairingController.withPairingControllerRef:':
     'prefix': 'withPairingControllerRef:'
-    'body': 'IOBluetoothPairingController.withPairingControllerRef(${1:IOBluetoothPairingControllerRef pairingControllerRef})'
+    'body': 'withPairingControllerRef(${1:IOBluetoothPairingControllerRef pairingControllerRef})'
   'advancePasskeyIndicator':
     'prefix': 'advancePasskeyIndicator'
     'body': 'advancePasskeyIndicator()'
@@ -274,7 +274,7 @@
     'body': 'setupUIForSSPDevice(${1:IOBluetoothDevice* device})'
   'IOBluetoothPasskeyDisplay.sharedDisplayView':
     'prefix': 'sharedDisplayView'
-    'body': 'IOBluetoothPasskeyDisplay.sharedDisplayView()'
+    'body': 'sharedDisplayView()'
   'usePasskeyNotificaitons':
     'prefix': 'usePasskeyNotificaitons'
     'body': 'usePasskeyNotificaitons()'
@@ -289,10 +289,10 @@
     'body': 'beginSheetModalForWindow(${1:NSWindow* sheetWindow}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
   'IOBluetoothServiceBrowserController.browseDevices:options:':
     'prefix': 'browseDevices:options:'
-    'body': 'IOBluetoothServiceBrowserController.browseDevices(${1:IOBluetoothSDPServiceRecord** outRecord}, options:${2:IOBluetoothServiceBrowserControllerOptions inOptions})'
+    'body': 'browseDevices(${1:IOBluetoothSDPServiceRecord** outRecord}, options:${2:IOBluetoothServiceBrowserControllerOptions inOptions})'
   'IOBluetoothServiceBrowserController.browseDevicesAsSheetForWindow:options:window:':
     'prefix': 'browseDevicesAsSheetForWindow:options:window:'
-    'body': 'IOBluetoothServiceBrowserController.browseDevicesAsSheetForWindow(${1:IOBluetoothSDPServiceRecord** outRecord}, options:${2:IOBluetoothServiceBrowserControllerOptions inOptions}, window:${3:NSWindow* inWindow})'
+    'body': 'browseDevicesAsSheetForWindow(${1:IOBluetoothSDPServiceRecord** outRecord}, options:${2:IOBluetoothServiceBrowserControllerOptions inOptions}, window:${3:NSWindow* inWindow})'
   'clearAllowedUUIDs':
     'prefix': 'clearAllowedUUIDs'
     'body': 'clearAllowedUUIDs()'
@@ -331,7 +331,7 @@
     'body': 'runModal()'
   'IOBluetoothServiceBrowserController.serviceBrowserController:':
     'prefix': 'serviceBrowserController:'
-    'body': 'IOBluetoothServiceBrowserController.serviceBrowserController(${1:IOBluetoothServiceBrowserControllerOptions inOptions})'
+    'body': 'serviceBrowserController(${1:IOBluetoothServiceBrowserControllerOptions inOptions})'
   'setDescriptionText:':
     'prefix': 'setDescriptionText:'
     'body': 'setDescriptionText(${1:NSString* descriptionText})'
@@ -349,4 +349,4 @@
     'body': 'setTitle(${1:NSString* windowTitle})'
   'IOBluetoothServiceBrowserController.withServiceBrowserControllerRef:':
     'prefix': 'withServiceBrowserControllerRef:'
-    'body': 'IOBluetoothServiceBrowserController.withServiceBrowserControllerRef(${1:IOBluetoothServiceBrowserControllerRef serviceBrowserControllerRef})'
+    'body': 'withServiceBrowserControllerRef(${1:IOBluetoothServiceBrowserControllerRef serviceBrowserControllerRef})'

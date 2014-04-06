@@ -49,7 +49,7 @@
     'body': 'addURL(${1:NSURL* url})'
   'TWTweetComposeViewController.canSendTweet':
     'prefix': 'canSendTweet'
-    'body': 'TWTweetComposeViewController.canSendTweet()'
+    'body': 'canSendTweet()'
   'completionHandler':
     'prefix': 'completionHandler'
     'body': 'completionHandler()'

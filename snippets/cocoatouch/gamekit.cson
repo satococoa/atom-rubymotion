@@ -427,7 +427,7 @@
     'body': 'lastReportedDate()'
   'GKAchievement.loadAchievementsWithCompletionHandler:':
     'prefix': 'loadAchievementsWithCompletionHandler:'
-    'body': 'GKAchievement.loadAchievementsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadAchievementsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'percentComplete':
     'prefix': 'percentComplete'
     'body': 'percentComplete()'
@@ -439,13 +439,13 @@
     'body': 'reportAchievementWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'GKAchievement.reportAchievements:withCompletionHandler:':
     'prefix': 'reportAchievements:withCompletionHandler:'
-    'body': 'GKAchievement.reportAchievements(${1:NSArray* achievements}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+    'body': 'reportAchievements(${1:NSArray* achievements}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
   'GKAchievement.reportAchievements:withEligibleChallenges:withCompletionHandler:':
     'prefix': 'reportAchievements:withEligibleChallenges:withCompletionHandler:'
-    'body': 'GKAchievement.reportAchievements(${1:NSArray* achievements}, withEligibleChallenges:${2:NSArray* challenges}, withCompletionHandler:${3:void (^)(NSError *) completionHandler})'
+    'body': 'reportAchievements(${1:NSArray* achievements}, withEligibleChallenges:${2:NSArray* challenges}, withCompletionHandler:${3:void (^)(NSError *) completionHandler})'
   'GKAchievement.resetAchievementsWithCompletionHandler:':
     'prefix': 'resetAchievementsWithCompletionHandler:'
-    'body': 'GKAchievement.resetAchievementsWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+    'body': 'resetAchievementsWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'selectChallengeablePlayerIDs:withCompletionHandler:':
     'prefix': 'selectChallengeablePlayerIDs:withCompletionHandler:'
     'body': 'selectChallengeablePlayerIDs(${1:NSArray* playerIDs}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
@@ -478,7 +478,7 @@
     'body': 'image()'
   'GKAchievementDescription.incompleteAchievementImage':
     'prefix': 'incompleteAchievementImage'
-    'body': 'GKAchievementDescription.incompleteAchievementImage()'
+    'body': 'incompleteAchievementImage()'
   'isHidden':
     'prefix': 'isHidden'
     'body': 'isHidden()'
@@ -487,7 +487,7 @@
     'body': 'isReplayable()'
   'GKAchievementDescription.loadAchievementDescriptionsWithCompletionHandler:':
     'prefix': 'loadAchievementDescriptionsWithCompletionHandler:'
-    'body': 'GKAchievementDescription.loadAchievementDescriptionsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadAchievementDescriptionsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'loadImageWithCompletionHandler:':
     'prefix': 'loadImageWithCompletionHandler:'
     'body': 'loadImageWithCompletionHandler(${1:void (^)(UIImage *, NSError *) completionHandler})'
@@ -496,7 +496,7 @@
     'body': 'maximumPoints()'
   'GKAchievementDescription.placeholderCompletedAchievementImage':
     'prefix': 'placeholderCompletedAchievementImage'
-    'body': 'GKAchievementDescription.placeholderCompletedAchievementImage()'
+    'body': 'placeholderCompletedAchievementImage()'
   'title':
     'prefix': 'title'
     'body': 'title()'
@@ -523,7 +523,7 @@
     'body': 'issuingPlayerID()'
   'GKChallenge.loadReceivedChallengesWithCompletionHandler:':
     'prefix': 'loadReceivedChallengesWithCompletionHandler:'
-    'body': 'GKChallenge.loadReceivedChallengesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadReceivedChallengesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'message':
     'prefix': 'message'
     'body': 'message()'
@@ -535,7 +535,7 @@
     'body': 'state()'
   'GKChallengeEventHandler.challengeEventHandler':
     'prefix': 'challengeEventHandler'
-    'body': 'GKChallengeEventHandler.challengeEventHandler()'
+    'body': 'challengeEventHandler()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -553,7 +553,7 @@
     'body': 'composeViewDelegate()'
   'GKFriendRequestComposeViewController.maxNumberOfRecipients':
     'prefix': 'maxNumberOfRecipients'
-    'body': 'GKFriendRequestComposeViewController.maxNumberOfRecipients()'
+    'body': 'maxNumberOfRecipients()'
   'setComposeViewDelegate:':
     'prefix': 'setComposeViewDelegate:'
     'body': 'setComposeViewDelegate(${1:id composeViewDelegate})'
@@ -622,13 +622,13 @@
     'body': 'isLoading()'
   'GKLeaderboard.loadCategoriesWithCompletionHandler:':
     'prefix': 'loadCategoriesWithCompletionHandler:'
-    'body': 'GKLeaderboard.loadCategoriesWithCompletionHandler(${1:void (^)(NSArray *, NSArray *, NSError *) completionHandler})'
+    'body': 'loadCategoriesWithCompletionHandler(${1:void (^)(NSArray *, NSArray *, NSError *) completionHandler})'
   'loadImageWithCompletionHandler:':
     'prefix': 'loadImageWithCompletionHandler:'
     'body': 'loadImageWithCompletionHandler(${1:void (^)(UIImage *, NSError *) completionHandler})'
   'GKLeaderboard.loadLeaderboardsWithCompletionHandler:':
     'prefix': 'loadLeaderboardsWithCompletionHandler:'
-    'body': 'GKLeaderboard.loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'loadScoresWithCompletionHandler:':
     'prefix': 'loadScoresWithCompletionHandler:'
     'body': 'loadScoresWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
@@ -652,7 +652,7 @@
     'body': 'setCategory(${1:NSString* category})'
   'GKLeaderboard.setDefaultLeaderboard:withCompletionHandler:':
     'prefix': 'setDefaultLeaderboard:withCompletionHandler:'
-    'body': 'GKLeaderboard.setDefaultLeaderboard(${1:NSString* leaderboardIdentifier}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+    'body': 'setDefaultLeaderboard(${1:NSString* leaderboardIdentifier}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
   'setIdentifier:':
     'prefix': 'setIdentifier:'
     'body': 'setIdentifier(${1:NSString* identifier})'
@@ -682,7 +682,7 @@
     'body': 'loadImageWithCompletionHandler(${1:void (^)(UIImage *, NSError *) completionHandler})'
   'GKLeaderboardSet.loadLeaderboardSetsWithCompletionHandler:':
     'prefix': 'loadLeaderboardSetsWithCompletionHandler:'
-    'body': 'GKLeaderboardSet.loadLeaderboardSetsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadLeaderboardSetsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'loadLeaderboardsWithCompletionHandler:':
     'prefix': 'loadLeaderboardsWithCompletionHandler:'
     'body': 'loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
@@ -739,7 +739,7 @@
     'body': 'loadFriendsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'GKLocalPlayer.localPlayer':
     'prefix': 'localPlayer'
-    'body': 'GKLocalPlayer.localPlayer()'
+    'body': 'localPlayer()'
   'registerListener:':
     'prefix': 'registerListener:'
     'body': 'registerListener(${1:id listener})'
@@ -802,7 +802,7 @@
     'body': 'maxPlayers()'
   'GKMatchRequest.maxPlayersAllowedForMatchOfType:':
     'prefix': 'maxPlayersAllowedForMatchOfType:'
-    'body': 'GKMatchRequest.maxPlayersAllowedForMatchOfType(${1:GKMatchType matchType})'
+    'body': 'maxPlayersAllowedForMatchOfType(${1:GKMatchType matchType})'
   'minPlayers':
     'prefix': 'minPlayers'
     'body': 'minPlayers()'
@@ -874,7 +874,7 @@
     'body': 'setInviteHandler(${1:void (^)(GKInvite *, NSArray *) inviteHandler})'
   'GKMatchmaker.sharedMatchmaker':
     'prefix': 'sharedMatchmaker'
-    'body': 'GKMatchmaker.sharedMatchmaker()'
+    'body': 'sharedMatchmaker()'
   'startBrowsingForNearbyPlayersWithReachableHandler:':
     'prefix': 'startBrowsingForNearbyPlayersWithReachableHandler:'
     'body': 'startBrowsingForNearbyPlayersWithReachableHandler(${1:void (^)(NSString *, BOOL) reachableHandler})'
@@ -919,10 +919,10 @@
     'body': 'setMatchmakerDelegate(${1:id matchmakerDelegate})'
   'GKNotificationBanner.showBannerWithTitle:message:completionHandler:':
     'prefix': 'showBannerWithTitle:message:completionHandler:'
-    'body': 'GKNotificationBanner.showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, completionHandler:${3:void (^)(void) completionHandler})'
+    'body': 'showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, completionHandler:${3:void (^)(void) completionHandler})'
   'GKNotificationBanner.showBannerWithTitle:message:duration:completionHandler:':
     'prefix': 'showBannerWithTitle:message:duration:completionHandler:'
-    'body': 'GKNotificationBanner.showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, duration:${3:NSTimeInterval duration}, completionHandler:${4:void (^)(void) completionHandler})'
+    'body': 'showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, duration:${3:NSTimeInterval duration}, completionHandler:${4:void (^)(void) completionHandler})'
   'connectionTypesMask':
     'prefix': 'connectionTypesMask'
     'body': 'connectionTypesMask()'
@@ -958,7 +958,7 @@
     'body': 'loadPhotoForSize(${1:GKPhotoSize size}, withCompletionHandler:${2:void (^)(UIImage *, NSError *) completionHandler})'
   'GKPlayer.loadPlayersForIdentifiers:withCompletionHandler:':
     'prefix': 'loadPlayersForIdentifiers:withCompletionHandler:'
-    'body': 'GKPlayer.loadPlayersForIdentifiers(${1:NSArray* identifiers}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadPlayersForIdentifiers(${1:NSArray* identifiers}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
   'playerID':
     'prefix': 'playerID'
     'body': 'playerID()'
@@ -1003,10 +1003,10 @@
     'body': 'reportScoreWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'GKScore.reportScores:withCompletionHandler:':
     'prefix': 'reportScores:withCompletionHandler:'
-    'body': 'GKScore.reportScores(${1:NSArray* scores}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+    'body': 'reportScores(${1:NSArray* scores}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
   'GKScore.reportScores:withEligibleChallenges:withCompletionHandler:':
     'prefix': 'reportScores:withEligibleChallenges:withCompletionHandler:'
-    'body': 'GKScore.reportScores(${1:NSArray* scores}, withEligibleChallenges:${2:NSArray* challenges}, withCompletionHandler:${3:void (^)(NSError *) completionHandler})'
+    'body': 'reportScores(${1:NSArray* scores}, withEligibleChallenges:${2:NSArray* challenges}, withCompletionHandler:${3:void (^)(NSError *) completionHandler})'
   'setCategory:':
     'prefix': 'setCategory:'
     'body': 'setCategory(${1:NSString* category})'
@@ -1105,7 +1105,7 @@
     'body': 'setDelegate(${1:NSObject* delegate})'
   'GKTurnBasedEventHandler.sharedTurnBasedEventHandler':
     'prefix': 'sharedTurnBasedEventHandler'
-    'body': 'GKTurnBasedEventHandler.sharedTurnBasedEventHandler()'
+    'body': 'sharedTurnBasedEventHandler()'
   'cancelWithLocalizableMessageKey:arguments:completionHandler:':
     'prefix': 'cancelWithLocalizableMessageKey:arguments:completionHandler:'
     'body': 'cancelWithLocalizableMessageKey(${1:NSString* key}, arguments:${2:NSArray* arguments}, completionHandler:${3:void (^)(NSError *) completionHandler})'
@@ -1192,16 +1192,16 @@
     'body': 'exchanges()'
   'GKTurnBasedMatch.findMatchForRequest:withCompletionHandler:':
     'prefix': 'findMatchForRequest:withCompletionHandler:'
-    'body': 'GKTurnBasedMatch.findMatchForRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+    'body': 'findMatchForRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
   'loadMatchDataWithCompletionHandler:':
     'prefix': 'loadMatchDataWithCompletionHandler:'
     'body': 'loadMatchDataWithCompletionHandler(${1:void (^)(NSData *, NSError *) completionHandler})'
   'GKTurnBasedMatch.loadMatchWithID:withCompletionHandler:':
     'prefix': 'loadMatchWithID:withCompletionHandler:'
-    'body': 'GKTurnBasedMatch.loadMatchWithID(${1:NSString* matchID}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+    'body': 'loadMatchWithID(${1:NSString* matchID}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
   'GKTurnBasedMatch.loadMatchesWithCompletionHandler:':
     'prefix': 'loadMatchesWithCompletionHandler:'
-    'body': 'GKTurnBasedMatch.loadMatchesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadMatchesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'matchData':
     'prefix': 'matchData'
     'body': 'matchData()'
@@ -1291,7 +1291,7 @@
     'body': 'isActive()'
   'GKVoiceChat.isVoIPAllowed':
     'prefix': 'isVoIPAllowed'
-    'body': 'GKVoiceChat.isVoIPAllowed()'
+    'body': 'isVoIPAllowed()'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -1330,7 +1330,7 @@
     'body': 'client()'
   'GKVoiceChatService.defaultVoiceChatService':
     'prefix': 'defaultVoiceChatService'
-    'body': 'GKVoiceChatService.defaultVoiceChatService()'
+    'body': 'defaultVoiceChatService()'
   'denyCallID:':
     'prefix': 'denyCallID:'
     'body': 'denyCallID(${1:NSInteger callID})'
@@ -1348,7 +1348,7 @@
     'body': 'isOutputMeteringEnabled()'
   'GKVoiceChatService.isVoIPAllowed':
     'prefix': 'isVoIPAllowed'
-    'body': 'GKVoiceChatService.isVoIPAllowed()'
+    'body': 'isVoIPAllowed()'
   'outputMeterLevel':
     'prefix': 'outputMeterLevel'
     'body': 'outputMeterLevel()'

@@ -94,13 +94,13 @@
     'body': 'setRequiredContentSizeIdentifiers(${1:NSSet* requiredContentSizeIdentifiers})'
   'ADBannerView.sizeFromBannerContentSizeIdentifier:':
     'prefix': 'sizeFromBannerContentSizeIdentifier:'
-    'body': 'ADBannerView.sizeFromBannerContentSizeIdentifier(${1:NSString* contentSizeIdentifier})'
+    'body': 'sizeFromBannerContentSizeIdentifier(${1:NSString* contentSizeIdentifier})'
   'determineAppInstallationAttributionWithCompletionHandler:':
     'prefix': 'determineAppInstallationAttributionWithCompletionHandler:'
     'body': 'determineAppInstallationAttributionWithCompletionHandler(${1:void (^)(BOOL) completionHandler})'
   'ADClient.sharedClient':
     'prefix': 'sharedClient'
-    'body': 'ADClient.sharedClient()'
+    'body': 'sharedClient()'
   'cancelAction':
     'prefix': 'cancelAction'
     'body': 'cancelAction()'
@@ -127,7 +127,7 @@
     'body': 'playPrerollAdWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'MPMoviePlayerController.preparePrerollAds':
     'prefix': 'preparePrerollAds'
-    'body': 'MPMoviePlayerController.preparePrerollAds()'
+    'body': 'preparePrerollAds()'
   'bannerView:didFailToReceiveAdWithError:':
     'prefix': 'bannerView:didFailToReceiveAdWithError:'
     'body': 'bannerView(${1:ADBannerView* banner}, didFailToReceiveAdWithError:${2:NSError* error})'
@@ -178,7 +178,7 @@
     'body': 'originalContentView()'
   'UIViewController.prepareInterstitialAds':
     'prefix': 'prepareInterstitialAds'
-    'body': 'UIViewController.prepareInterstitialAds()'
+    'body': 'prepareInterstitialAds()'
   'requestInterstitialAdPresentation':
     'prefix': 'requestInterstitialAdPresentation'
     'body': 'requestInterstitialAdPresentation()'

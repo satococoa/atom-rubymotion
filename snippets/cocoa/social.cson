@@ -49,7 +49,7 @@
     'body': 'preparedURLRequest()'
   'SLRequest.requestForServiceType:requestMethod:URL:parameters:':
     'prefix': 'requestForServiceType:requestMethod:URL:parameters:'
-    'body': 'SLRequest.requestForServiceType(${1: serviceType}, requestMethod:${2: requestMethod}, URL:${3: url}, parameters:${4: parameters})'
+    'body': 'requestForServiceType(${1: serviceType}, requestMethod:${2: requestMethod}, URL:${3: url}, parameters:${4: parameters})'
   'requestMethod':
     'prefix': 'requestMethod'
     'body': 'requestMethod()'

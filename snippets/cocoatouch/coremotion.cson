@@ -127,7 +127,7 @@
     'body': 'walking()'
   'CMMotionActivityManager.isActivityAvailable':
     'prefix': 'isActivityAvailable'
-    'body': 'CMMotionActivityManager.isActivityAvailable()'
+    'body': 'isActivityAvailable()'
   'queryActivityStartingFromDate:toDate:toQueue:withHandler:':
     'prefix': 'queryActivityStartingFromDate:toDate:toQueue:withHandler:'
     'body': 'queryActivityStartingFromDate(${1:NSDate* start}, toDate:${2:NSDate* end}, toQueue:${3:NSOperationQueue* queue}, withHandler:${4:CMMotionActivityQueryHandler handler})'
@@ -148,7 +148,7 @@
     'body': 'attitudeReferenceFrame()'
   'CMMotionManager.availableAttitudeReferenceFrames':
     'prefix': 'availableAttitudeReferenceFrames'
-    'body': 'CMMotionManager.availableAttitudeReferenceFrames()'
+    'body': 'availableAttitudeReferenceFrames()'
   'deviceMotion':
     'prefix': 'deviceMotion'
     'body': 'deviceMotion()'
@@ -253,7 +253,7 @@
     'body': 'stopMagnetometerUpdates()'
   'CMStepCounter.isStepCountingAvailable':
     'prefix': 'isStepCountingAvailable'
-    'body': 'CMStepCounter.isStepCountingAvailable()'
+    'body': 'isStepCountingAvailable()'
   'queryStepCountStartingFrom:to:toQueue:withHandler:':
     'prefix': 'queryStepCountStartingFrom:to:toQueue:withHandler:'
     'body': 'queryStepCountStartingFrom(${1:NSDate* start}, to:${2:NSDate* end}, toQueue:${3:NSOperationQueue* queue}, withHandler:${4:CMStepQueryHandler handler})'

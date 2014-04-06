@@ -5710,10 +5710,10 @@
     'body': 'invokeUndefinedMethodFromWebScript(${1:NSString* name}, withArguments:${2:NSArray* arguments})'
   'NSObject.isKeyExcludedFromWebScript:':
     'prefix': 'isKeyExcludedFromWebScript:'
-    'body': 'NSObject.isKeyExcludedFromWebScript(${1:char* name})'
+    'body': 'isKeyExcludedFromWebScript(${1:char* name})'
   'NSObject.isSelectorExcludedFromWebScript:':
     'prefix': 'isSelectorExcludedFromWebScript:'
-    'body': 'NSObject.isSelectorExcludedFromWebScript(${1:SEL selector})'
+    'body': 'isSelectorExcludedFromWebScript(${1:SEL selector})'
   'layout':
     'prefix': 'layout'
     'body': 'layout()'
@@ -5725,7 +5725,7 @@
     'body': 'objectForWebScript()'
   'NSObject.plugInViewWithArguments:':
     'prefix': 'plugInViewWithArguments:'
-    'body': 'NSObject.plugInViewWithArguments(${1:NSDictionary* arguments})'
+    'body': 'plugInViewWithArguments(${1:NSDictionary* arguments})'
   'receivedData:withDataSource:':
     'prefix': 'receivedData:withDataSource:'
     'body': 'receivedData(${1:NSData* data}, withDataSource:${2:WebDataSource* dataSource})'
@@ -5818,10 +5818,10 @@
     'body': 'webPlugInStop()'
   'NSObject.webScriptNameForKey:':
     'prefix': 'webScriptNameForKey:'
-    'body': 'NSObject.webScriptNameForKey(${1:char* name})'
+    'body': 'webScriptNameForKey(${1:char* name})'
   'NSObject.webScriptNameForSelector:':
     'prefix': 'webScriptNameForSelector:'
-    'body': 'NSObject.webScriptNameForSelector(${1:SEL selector})'
+    'body': 'webScriptNameForSelector(${1:SEL selector})'
   'webView:contextMenuItemsForElement:defaultMenuItems:':
     'prefix': 'webView:contextMenuItemsForElement:defaultMenuItems:'
     'body': 'webView(${1:WebView* sender}, contextMenuItemsForElement:${2:NSDictionary* element}, defaultMenuItems:${3:NSArray* defaultMenuItems})'
@@ -6301,7 +6301,7 @@
     'body': 'loadFromURL(${1:NSURL* URL}, error:${2:NSError** error})'
   'WebHistory.optionalSharedHistory':
     'prefix': 'optionalSharedHistory'
-    'body': 'WebHistory.optionalSharedHistory()'
+    'body': 'optionalSharedHistory()'
   'orderedItemsLastVisitedOnDay:':
     'prefix': 'orderedItemsLastVisitedOnDay:'
     'body': 'orderedItemsLastVisitedOnDay(${1:NSCalendarDate* calendarDate})'
@@ -6325,7 +6325,7 @@
     'body': 'setHistoryItemLimit(${1:int limit})'
   'WebHistory.setOptionalSharedHistory:':
     'prefix': 'setOptionalSharedHistory:'
-    'body': 'WebHistory.setOptionalSharedHistory(${1:WebHistory* history})'
+    'body': 'setOptionalSharedHistory(${1:WebHistory* history})'
   'URLString':
     'prefix': 'URLString'
     'body': 'URLString()'
@@ -6505,7 +6505,7 @@
     'body': 'standardFontFamily()'
   'WebPreferences.standardPreferences':
     'prefix': 'standardPreferences'
-    'body': 'WebPreferences.standardPreferences()'
+    'body': 'standardPreferences()'
   'suppressesIncrementalRendering':
     'prefix': 'suppressesIncrementalRendering'
     'body': 'suppressesIncrementalRendering()'
@@ -6565,25 +6565,25 @@
     'body': 'stringRepresentation()'
   'WebScriptObject.throwException:':
     'prefix': 'throwException:'
-    'body': 'WebScriptObject.throwException(${1:NSString* exceptionMessage})'
+    'body': 'throwException(${1:NSString* exceptionMessage})'
   'webScriptValueAtIndex:':
     'prefix': 'webScriptValueAtIndex:'
     'body': 'webScriptValueAtIndex(${1:unsigned int index})'
   'WebUndefined.undefined':
     'prefix': 'undefined'
-    'body': 'WebUndefined.undefined()'
+    'body': 'undefined()'
   'WebView.MIMETypesShownAsHTML':
     'prefix': 'MIMETypesShownAsHTML'
-    'body': 'WebView.MIMETypesShownAsHTML()'
+    'body': 'MIMETypesShownAsHTML()'
   'UIDelegate':
     'prefix': 'UIDelegate'
     'body': 'UIDelegate()'
   'WebView.URLFromPasteboard:':
     'prefix': 'URLFromPasteboard:'
-    'body': 'WebView.URLFromPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'URLFromPasteboard(${1:NSPasteboard* pasteboard})'
   'WebView.URLTitleFromPasteboard:':
     'prefix': 'URLTitleFromPasteboard:'
-    'body': 'WebView.URLTitleFromPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'URLTitleFromPasteboard(${1:NSPasteboard* pasteboard})'
   'alignCenter:':
     'prefix': 'alignCenter:'
     'body': 'alignCenter(${1:id sender})'
@@ -6622,10 +6622,10 @@
     'body': 'canMakeTextStandardSize()'
   'WebView.canShowMIMEType:':
     'prefix': 'canShowMIMEType:'
-    'body': 'WebView.canShowMIMEType(${1:NSString* MIMEType})'
+    'body': 'canShowMIMEType(${1:NSString* MIMEType})'
   'WebView.canShowMIMETypeAsHTML:':
     'prefix': 'canShowMIMETypeAsHTML:'
-    'body': 'WebView.canShowMIMETypeAsHTML(${1:NSString* MIMEType})'
+    'body': 'canShowMIMETypeAsHTML(${1:NSString* MIMEType})'
   'changeAttributes:':
     'prefix': 'changeAttributes:'
     'body': 'changeAttributes(${1:id sender})'
@@ -6802,10 +6802,10 @@
     'body': 'preferencesIdentifier()'
   'WebView.registerURLSchemeAsLocal:':
     'prefix': 'registerURLSchemeAsLocal:'
-    'body': 'WebView.registerURLSchemeAsLocal(${1:NSString* scheme})'
+    'body': 'registerURLSchemeAsLocal(${1:NSString* scheme})'
   'WebView.registerViewClass:representationClass:forMIMEType:':
     'prefix': 'registerViewClass:representationClass:forMIMEType:'
-    'body': 'WebView.registerViewClass(${1:Class viewClass}, representationClass:${2:Class representationClass}, forMIMEType:${3:NSString* MIMEType})'
+    'body': 'registerViewClass(${1:Class viewClass}, representationClass:${2:Class representationClass}, forMIMEType:${3:NSString* MIMEType})'
   'reload:':
     'prefix': 'reload:'
     'body': 'reload(${1:id sender})'
@@ -6880,7 +6880,7 @@
     'body': 'setHostWindow(${1:NSWindow* hostWindow})'
   'WebView.setMIMETypesShownAsHTML:':
     'prefix': 'setMIMETypesShownAsHTML:'
-    'body': 'WebView.setMIMETypesShownAsHTML(${1:NSArray* MIMETypes})'
+    'body': 'setMIMETypesShownAsHTML(${1:NSArray* MIMETypes})'
   'setMainFrameURL:':
     'prefix': 'setMainFrameURL:'
     'body': 'setMainFrameURL(${1:NSString* URLString})'
@@ -7174,7 +7174,7 @@
     'body': 'webPlugInContainerShowStatus(${1:NSString* message})'
   'WebPlugInViewFactory.plugInViewWithArguments:':
     'prefix': 'plugInViewWithArguments:'
-    'body': 'WebPlugInViewFactory.plugInViewWithArguments(${1:NSDictionary* arguments})'
+    'body': 'plugInViewWithArguments(${1:NSDictionary* arguments})'
   'download':
     'prefix': 'download'
     'body': 'download()'
@@ -7234,16 +7234,16 @@
     'body': 'invokeUndefinedMethodFromWebScript(${1:NSString* name}, withArguments:${2:NSArray* arguments})'
   'WebScripting.isKeyExcludedFromWebScript:':
     'prefix': 'isKeyExcludedFromWebScript:'
-    'body': 'WebScripting.isKeyExcludedFromWebScript(${1:char* name})'
+    'body': 'isKeyExcludedFromWebScript(${1:char* name})'
   'WebScripting.isSelectorExcludedFromWebScript:':
     'prefix': 'isSelectorExcludedFromWebScript:'
-    'body': 'WebScripting.isSelectorExcludedFromWebScript(${1:SEL selector})'
+    'body': 'isSelectorExcludedFromWebScript(${1:SEL selector})'
   'WebScripting.webScriptNameForKey:':
     'prefix': 'webScriptNameForKey:'
-    'body': 'WebScripting.webScriptNameForKey(${1:char* name})'
+    'body': 'webScriptNameForKey(${1:char* name})'
   'WebScripting.webScriptNameForSelector:':
     'prefix': 'webScriptNameForSelector:'
-    'body': 'WebScripting.webScriptNameForSelector(${1:SEL selector})'
+    'body': 'webScriptNameForSelector(${1:SEL selector})'
   'webView:contextMenuItemsForElement:defaultMenuItems:':
     'prefix': 'webView:contextMenuItemsForElement:defaultMenuItems:'
     'body': 'webView(${1:WebView* sender}, contextMenuItemsForElement:${2:NSDictionary* element}, defaultMenuItems:${3:NSArray* defaultMenuItems})'

@@ -499,7 +499,7 @@
     'body': 'MIDIThruConnectionSetParams(${1:MIDIThruConnectionRef connection}, ${2:CFDataRef inConnectionParams})'
   'MIDINetworkConnection.connectionWithHost:':
     'prefix': 'connectionWithHost:'
-    'body': 'MIDINetworkConnection.connectionWithHost(${1:MIDINetworkHost* host})'
+    'body': 'connectionWithHost(${1:MIDINetworkHost* host})'
   'host':
     'prefix': 'host'
     'body': 'host()'
@@ -511,13 +511,13 @@
     'body': 'hasSameAddressAs(${1:MIDINetworkHost* other})'
   'MIDINetworkHost.hostWithName:address:port:':
     'prefix': 'hostWithName:address:port:'
-    'body': 'MIDINetworkHost.hostWithName(${1:NSString* name}, address:${2:NSString* address}, port:${3:NSUInteger port})'
+    'body': 'hostWithName(${1:NSString* name}, address:${2:NSString* address}, port:${3:NSUInteger port})'
   'MIDINetworkHost.hostWithName:netService:':
     'prefix': 'hostWithName:netService:'
-    'body': 'MIDINetworkHost.hostWithName(${1:NSString* name}, netService:${2:NSNetService* netService})'
+    'body': 'hostWithName(${1:NSString* name}, netService:${2:NSNetService* netService})'
   'MIDINetworkHost.hostWithName:netServiceName:netServiceDomain:':
     'prefix': 'hostWithName:netServiceName:netServiceDomain:'
-    'body': 'MIDINetworkHost.hostWithName(${1:NSString* name}, netServiceName:${2:NSString* netServiceName}, netServiceDomain:${3:NSString* netServiceDomain})'
+    'body': 'hostWithName(${1:NSString* name}, netServiceName:${2:NSString* netServiceName}, netServiceDomain:${3:NSString* netServiceDomain})'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -547,7 +547,7 @@
     'body': 'contacts()'
   'MIDINetworkSession.defaultSession':
     'prefix': 'defaultSession'
-    'body': 'MIDINetworkSession.defaultSession()'
+    'body': 'defaultSession()'
   'destinationEndpoint':
     'prefix': 'destinationEndpoint'
     'body': 'destinationEndpoint()'

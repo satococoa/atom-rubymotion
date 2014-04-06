@@ -2929,7 +2929,7 @@
     'body': 'initWithImage(${1:UIImage* image}, options:${2:NSDictionary* options})'
   'NSAttributedString.attributedStringWithAttachment:':
     'prefix': 'attributedStringWithAttachment:'
-    'body': 'NSAttributedString.attributedStringWithAttachment(${1:NSTextAttachment* attachment})'
+    'body': 'attributedStringWithAttachment(${1:NSTextAttachment* attachment})'
   'boundingRectWithSize:options:context:':
     'prefix': 'boundingRectWithSize:options:context:'
     'body': 'boundingRectWithSize(${1:CGSize size}, options:${2:NSStringDrawingOptions options}, context:${3:NSStringDrawingContext* context})'
@@ -2998,10 +2998,10 @@
     'body': 'encodeUIOffset(${1:UIOffset offset}, forKey:${2:NSString* key})'
   'NSIndexPath.indexPathForItem:inSection:':
     'prefix': 'indexPathForItem:inSection:'
-    'body': 'NSIndexPath.indexPathForItem(${1:NSInteger item}, inSection:${2:NSInteger section})'
+    'body': 'indexPathForItem(${1:NSInteger item}, inSection:${2:NSInteger section})'
   'NSIndexPath.indexPathForRow:inSection:':
     'prefix': 'indexPathForRow:inSection:'
-    'body': 'NSIndexPath.indexPathForRow(${1:NSInteger row}, inSection:${2:NSInteger section})'
+    'body': 'indexPathForRow(${1:NSInteger row}, inSection:${2:NSInteger section})'
   'item':
     'prefix': 'item'
     'body': 'item()'
@@ -3016,10 +3016,10 @@
     'body': 'constant()'
   'NSLayoutConstraint.constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:':
     'prefix': 'constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:'
-    'body': 'NSLayoutConstraint.constraintWithItem(${1:id view1}, attribute:${2:NSLayoutAttribute attr1}, relatedBy:${3:NSLayoutRelation relation}, toItem:${4:id view2}, attribute:${5:NSLayoutAttribute attr2}, multiplier:${6:CGFloat multiplier}, constant:${7:CGFloat c})'
+    'body': 'constraintWithItem(${1:id view1}, attribute:${2:NSLayoutAttribute attr1}, relatedBy:${3:NSLayoutRelation relation}, toItem:${4:id view2}, attribute:${5:NSLayoutAttribute attr2}, multiplier:${6:CGFloat multiplier}, constant:${7:CGFloat c})'
   'NSLayoutConstraint.constraintsWithVisualFormat:options:metrics:views:':
     'prefix': 'constraintsWithVisualFormat:options:metrics:views:'
-    'body': 'NSLayoutConstraint.constraintsWithVisualFormat(${1:NSString* format}, options:${2:NSLayoutFormatOptions opts}, metrics:${3:NSDictionary* metrics}, views:${4:NSDictionary* views})'
+    'body': 'constraintsWithVisualFormat(${1:NSString* format}, options:${2:NSLayoutFormatOptions opts}, metrics:${3:NSDictionary* metrics}, views:${4:NSDictionary* views})'
   'firstAttribute':
     'prefix': 'firstAttribute'
     'body': 'firstAttribute()'
@@ -3550,10 +3550,10 @@
     'body': 'animationEnded(${1:BOOL transitionCompleted})'
   'NSObject.appearance':
     'prefix': 'appearance'
-    'body': 'NSObject.appearance()'
+    'body': 'appearance()'
   'NSObject.appearanceWhenContainedIn:':
     'prefix': 'appearanceWhenContainedIn:'
-    'body': 'NSObject.appearanceWhenContainedIn(${1:Class* ContainerClass})'
+    'body': 'appearanceWhenContainedIn(${1:Class* ContainerClass})'
   'application:didChangeStatusBarFrame:':
     'prefix': 'application:didChangeStatusBarFrame:'
     'body': 'application(${1:UIApplication* application}, didChangeStatusBarFrame:${2:CGRect oldStatusBarFrame})'
@@ -4093,7 +4093,7 @@
     'body': 'objectRestorationClass()'
   'NSObject.objectWithRestorationIdentifierPath:coder:':
     'prefix': 'objectWithRestorationIdentifierPath:coder:'
-    'body': 'NSObject.objectWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
+    'body': 'objectWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
   'offsetFromPosition:toPosition:':
     'prefix': 'offsetFromPosition:toPosition:'
     'body': 'offsetFromPosition(${1:UITextPosition* from}, toPosition:${2:UITextPosition* toPosition})'
@@ -4768,7 +4768,7 @@
     'body': 'viewControllerForKey(${1:NSString* key})'
   'NSObject.viewControllerWithRestorationIdentifierPath:coder:':
     'prefix': 'viewControllerWithRestorationIdentifierPath:coder:'
-    'body': 'NSObject.viewControllerWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
+    'body': 'viewControllerWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
   'viewForZoomingInScrollView:':
     'prefix': 'viewForZoomingInScrollView:'
     'body': 'viewForZoomingInScrollView(${1:UIScrollView* scrollView})'
@@ -4801,13 +4801,13 @@
     'body': 'baseWritingDirection()'
   'NSParagraphStyle.defaultParagraphStyle':
     'prefix': 'defaultParagraphStyle'
-    'body': 'NSParagraphStyle.defaultParagraphStyle()'
+    'body': 'defaultParagraphStyle()'
   'defaultTabInterval':
     'prefix': 'defaultTabInterval'
     'body': 'defaultTabInterval()'
   'NSParagraphStyle.defaultWritingDirectionForLanguage:':
     'prefix': 'defaultWritingDirectionForLanguage:'
-    'body': 'NSParagraphStyle.defaultWritingDirectionForLanguage(${1:NSString* languageName})'
+    'body': 'defaultWritingDirectionForLanguage(${1:NSString* languageName})'
   'firstLineHeadIndent':
     'prefix': 'firstLineHeadIndent'
     'body': 'firstLineHeadIndent()'
@@ -5074,7 +5074,7 @@
     'body': 'alignment()'
   'NSTextTab.columnTerminatorsForLocale:':
     'prefix': 'columnTerminatorsForLocale:'
-    'body': 'NSTextTab.columnTerminatorsForLocale(${1:NSLocale* aLocale})'
+    'body': 'columnTerminatorsForLocale(${1:NSLocale* aLocale})'
   'initWithTextAlignment:location:options:':
     'prefix': 'initWithTextAlignment:location:options:'
     'body': 'initWithTextAlignment(${1:NSTextAlignment alignment}, location:${2:CGFloat loc}, options:${3:NSDictionary* options})'
@@ -5104,22 +5104,22 @@
     'body': 'UIOffsetValue()'
   'NSValue.valueWithCGAffineTransform:':
     'prefix': 'valueWithCGAffineTransform:'
-    'body': 'NSValue.valueWithCGAffineTransform(${1:CGAffineTransform transform})'
+    'body': 'valueWithCGAffineTransform(${1:CGAffineTransform transform})'
   'NSValue.valueWithCGPoint:':
     'prefix': 'valueWithCGPoint:'
-    'body': 'NSValue.valueWithCGPoint(${1:CGPoint point})'
+    'body': 'valueWithCGPoint(${1:CGPoint point})'
   'NSValue.valueWithCGRect:':
     'prefix': 'valueWithCGRect:'
-    'body': 'NSValue.valueWithCGRect(${1:CGRect rect})'
+    'body': 'valueWithCGRect(${1:CGRect rect})'
   'NSValue.valueWithCGSize:':
     'prefix': 'valueWithCGSize:'
-    'body': 'NSValue.valueWithCGSize(${1:CGSize size})'
+    'body': 'valueWithCGSize(${1:CGSize size})'
   'NSValue.valueWithUIEdgeInsets:':
     'prefix': 'valueWithUIEdgeInsets:'
-    'body': 'NSValue.valueWithUIEdgeInsets(${1:UIEdgeInsets insets})'
+    'body': 'valueWithUIEdgeInsets(${1:UIEdgeInsets insets})'
   'NSValue.valueWithUIOffset:':
     'prefix': 'valueWithUIOffset:'
-    'body': 'NSValue.valueWithUIOffset(${1:UIOffset insets})'
+    'body': 'valueWithUIOffset(${1:UIOffset insets})'
   'timestamp':
     'prefix': 'timestamp'
     'body': 'timestamp()'
@@ -5143,7 +5143,7 @@
     'body': 'setUpdateInterval(${1:NSTimeInterval updateInterval})'
   'UIAccelerometer.sharedAccelerometer':
     'prefix': 'sharedAccelerometer'
-    'body': 'UIAccelerometer.sharedAccelerometer()'
+    'body': 'sharedAccelerometer()'
   'updateInterval':
     'prefix': 'updateInterval'
     'body': 'updateInterval()'
@@ -5260,7 +5260,7 @@
     'body': 'title()'
   'UIActivity.activityCategory':
     'prefix': 'activityCategory'
-    'body': 'UIActivity.activityCategory()'
+    'body': 'activityCategory()'
   'activityDidFinish:':
     'prefix': 'activityDidFinish:'
     'body': 'activityDidFinish(${1:BOOL completed})'
@@ -5497,7 +5497,7 @@
     'body': 'registerForRemoteNotificationTypes(${1:UIRemoteNotificationType types})'
   'UIApplication.registerObjectForStateRestoration:restorationIdentifier:':
     'prefix': 'registerObjectForStateRestoration:restorationIdentifier:'
-    'body': 'UIApplication.registerObjectForStateRestoration(${1:id object}, restorationIdentifier:${2:NSString* restorationIdentifier})'
+    'body': 'registerObjectForStateRestoration(${1:id object}, restorationIdentifier:${2:NSString* restorationIdentifier})'
   'scheduleLocalNotification:':
     'prefix': 'scheduleLocalNotification:'
     'body': 'scheduleLocalNotification(${1:UILocalNotification* notification})'
@@ -5563,7 +5563,7 @@
     'body': 'setStatusBarStyle(${1:UIStatusBarStyle statusBarStyle}, animated:${2:BOOL animated})'
   'UIApplication.sharedApplication':
     'prefix': 'sharedApplication'
-    'body': 'UIApplication.sharedApplication()'
+    'body': 'sharedApplication()'
   'statusBarFrame':
     'prefix': 'statusBarFrame'
     'body': 'statusBarFrame()'
@@ -5803,28 +5803,28 @@
     'body': 'applyTransform(${1:CGAffineTransform transform})'
   'UIBezierPath.bezierPath':
     'prefix': 'bezierPath'
-    'body': 'UIBezierPath.bezierPath()'
+    'body': 'bezierPath()'
   'bezierPathByReversingPath':
     'prefix': 'bezierPathByReversingPath'
     'body': 'bezierPathByReversingPath()'
   'UIBezierPath.bezierPathWithArcCenter:radius:startAngle:endAngle:clockwise:':
     'prefix': 'bezierPathWithArcCenter:radius:startAngle:endAngle:clockwise:'
-    'body': 'UIBezierPath.bezierPathWithArcCenter(${1:CGPoint center}, radius:${2:CGFloat radius}, startAngle:${3:CGFloat startAngle}, endAngle:${4:CGFloat endAngle}, clockwise:${5:BOOL clockwise})'
+    'body': 'bezierPathWithArcCenter(${1:CGPoint center}, radius:${2:CGFloat radius}, startAngle:${3:CGFloat startAngle}, endAngle:${4:CGFloat endAngle}, clockwise:${5:BOOL clockwise})'
   'UIBezierPath.bezierPathWithCGPath:':
     'prefix': 'bezierPathWithCGPath:'
-    'body': 'UIBezierPath.bezierPathWithCGPath(${1:CGPathRef CGPath})'
+    'body': 'bezierPathWithCGPath(${1:CGPathRef CGPath})'
   'UIBezierPath.bezierPathWithOvalInRect:':
     'prefix': 'bezierPathWithOvalInRect:'
-    'body': 'UIBezierPath.bezierPathWithOvalInRect(${1:CGRect rect})'
+    'body': 'bezierPathWithOvalInRect(${1:CGRect rect})'
   'UIBezierPath.bezierPathWithRect:':
     'prefix': 'bezierPathWithRect:'
-    'body': 'UIBezierPath.bezierPathWithRect(${1:CGRect rect})'
+    'body': 'bezierPathWithRect(${1:CGRect rect})'
   'UIBezierPath.bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:':
     'prefix': 'bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:'
-    'body': 'UIBezierPath.bezierPathWithRoundedRect(${1:CGRect rect}, byRoundingCorners:${2:UIRectCorner corners}, cornerRadii:${3:CGSize cornerRadii})'
+    'body': 'bezierPathWithRoundedRect(${1:CGRect rect}, byRoundingCorners:${2:UIRectCorner corners}, cornerRadii:${3:CGSize cornerRadii})'
   'UIBezierPath.bezierPathWithRoundedRect:cornerRadius:':
     'prefix': 'bezierPathWithRoundedRect:cornerRadius:'
-    'body': 'UIBezierPath.bezierPathWithRoundedRect(${1:CGRect rect}, cornerRadius:${2:CGFloat cornerRadius})'
+    'body': 'bezierPathWithRoundedRect(${1:CGRect rect}, cornerRadius:${2:CGFloat cornerRadius})'
   'bounds':
     'prefix': 'bounds'
     'body': 'bounds()'
@@ -5923,7 +5923,7 @@
     'body': 'buttonType()'
   'UIButton.buttonWithType:':
     'prefix': 'buttonWithType:'
-    'body': 'UIButton.buttonWithType(${1:UIButtonType buttonType})'
+    'body': 'buttonWithType(${1:UIButtonType buttonType})'
   'contentEdgeInsets':
     'prefix': 'contentEdgeInsets'
     'body': 'contentEdgeInsets()'
@@ -6361,13 +6361,13 @@
     'body': 'invalidateLayoutWithContext(${1:UICollectionViewLayoutInvalidationContext* context})'
   'UICollectionViewLayout.invalidationContextClass':
     'prefix': 'invalidationContextClass'
-    'body': 'UICollectionViewLayout.invalidationContextClass()'
+    'body': 'invalidationContextClass()'
   'invalidationContextForBoundsChange:':
     'prefix': 'invalidationContextForBoundsChange:'
     'body': 'invalidationContextForBoundsChange(${1:CGRect newBounds})'
   'UICollectionViewLayout.layoutAttributesClass':
     'prefix': 'layoutAttributesClass'
-    'body': 'UICollectionViewLayout.layoutAttributesClass()'
+    'body': 'layoutAttributesClass()'
   'layoutAttributesForDecorationViewOfKind:atIndexPath:':
     'prefix': 'layoutAttributesForDecorationViewOfKind:atIndexPath:'
     'body': 'layoutAttributesForDecorationViewOfKind(${1:NSString* decorationViewKind}, atIndexPath:${2:NSIndexPath* indexPath})'
@@ -6430,13 +6430,13 @@
     'body': 'isHidden()'
   'UICollectionViewLayoutAttributes.layoutAttributesForCellWithIndexPath:':
     'prefix': 'layoutAttributesForCellWithIndexPath:'
-    'body': 'UICollectionViewLayoutAttributes.layoutAttributesForCellWithIndexPath(${1:NSIndexPath* indexPath})'
+    'body': 'layoutAttributesForCellWithIndexPath(${1:NSIndexPath* indexPath})'
   'UICollectionViewLayoutAttributes.layoutAttributesForDecorationViewOfKind:withIndexPath:':
     'prefix': 'layoutAttributesForDecorationViewOfKind:withIndexPath:'
-    'body': 'UICollectionViewLayoutAttributes.layoutAttributesForDecorationViewOfKind(${1:NSString* decorationViewKind}, withIndexPath:${2:NSIndexPath* indexPath})'
+    'body': 'layoutAttributesForDecorationViewOfKind(${1:NSString* decorationViewKind}, withIndexPath:${2:NSIndexPath* indexPath})'
   'UICollectionViewLayoutAttributes.layoutAttributesForSupplementaryViewOfKind:withIndexPath:':
     'prefix': 'layoutAttributesForSupplementaryViewOfKind:withIndexPath:'
-    'body': 'UICollectionViewLayoutAttributes.layoutAttributesForSupplementaryViewOfKind(${1:NSString* elementKind}, withIndexPath:${2:NSIndexPath* indexPath})'
+    'body': 'layoutAttributesForSupplementaryViewOfKind(${1:NSString* elementKind}, withIndexPath:${2:NSIndexPath* indexPath})'
   'representedElementCategory':
     'prefix': 'representedElementCategory'
     'body': 'representedElementCategory()'
@@ -6580,46 +6580,46 @@
     'body': 'CIColor()'
   'UIColor.blackColor':
     'prefix': 'blackColor'
-    'body': 'UIColor.blackColor()'
+    'body': 'blackColor()'
   'UIColor.blueColor':
     'prefix': 'blueColor'
-    'body': 'UIColor.blueColor()'
+    'body': 'blueColor()'
   'UIColor.brownColor':
     'prefix': 'brownColor'
-    'body': 'UIColor.brownColor()'
+    'body': 'brownColor()'
   'UIColor.clearColor':
     'prefix': 'clearColor'
-    'body': 'UIColor.clearColor()'
+    'body': 'clearColor()'
   'colorWithAlphaComponent:':
     'prefix': 'colorWithAlphaComponent:'
     'body': 'colorWithAlphaComponent(${1:CGFloat alpha})'
   'UIColor.colorWithCGColor:':
     'prefix': 'colorWithCGColor:'
-    'body': 'UIColor.colorWithCGColor(${1:CGColorRef cgColor})'
+    'body': 'colorWithCGColor(${1:CGColorRef cgColor})'
   'UIColor.colorWithCIColor:':
     'prefix': 'colorWithCIColor:'
-    'body': 'UIColor.colorWithCIColor(${1:CIColor* ciColor})'
+    'body': 'colorWithCIColor(${1:CIColor* ciColor})'
   'UIColor.colorWithHue:saturation:brightness:alpha:':
     'prefix': 'colorWithHue:saturation:brightness:alpha:'
-    'body': 'UIColor.colorWithHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
   'UIColor.colorWithPatternImage:':
     'prefix': 'colorWithPatternImage:'
-    'body': 'UIColor.colorWithPatternImage(${1:UIImage* image})'
+    'body': 'colorWithPatternImage(${1:UIImage* image})'
   'UIColor.colorWithRed:green:blue:alpha:':
     'prefix': 'colorWithRed:green:blue:alpha:'
-    'body': 'UIColor.colorWithRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
   'UIColor.colorWithWhite:alpha:':
     'prefix': 'colorWithWhite:alpha:'
-    'body': 'UIColor.colorWithWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
+    'body': 'colorWithWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
   'UIColor.cyanColor':
     'prefix': 'cyanColor'
-    'body': 'UIColor.cyanColor()'
+    'body': 'cyanColor()'
   'UIColor.darkGrayColor':
     'prefix': 'darkGrayColor'
-    'body': 'UIColor.darkGrayColor()'
+    'body': 'darkGrayColor()'
   'UIColor.darkTextColor':
     'prefix': 'darkTextColor'
-    'body': 'UIColor.darkTextColor()'
+    'body': 'darkTextColor()'
   'getHue:saturation:brightness:alpha:':
     'prefix': 'getHue:saturation:brightness:alpha:'
     'body': 'getHue(${1:CGFloat* hue}, saturation:${2:CGFloat* saturation}, brightness:${3:CGFloat* brightness}, alpha:${4:CGFloat* alpha})'
@@ -6631,13 +6631,13 @@
     'body': 'getWhite(${1:CGFloat* white}, alpha:${2:CGFloat* alpha})'
   'UIColor.grayColor':
     'prefix': 'grayColor'
-    'body': 'UIColor.grayColor()'
+    'body': 'grayColor()'
   'UIColor.greenColor':
     'prefix': 'greenColor'
-    'body': 'UIColor.greenColor()'
+    'body': 'greenColor()'
   'UIColor.groupTableViewBackgroundColor':
     'prefix': 'groupTableViewBackgroundColor'
-    'body': 'UIColor.groupTableViewBackgroundColor()'
+    'body': 'groupTableViewBackgroundColor()'
   'initWithCGColor:':
     'prefix': 'initWithCGColor:'
     'body': 'initWithCGColor(${1:CGColorRef cgColor})'
@@ -6658,25 +6658,25 @@
     'body': 'initWithWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
   'UIColor.lightGrayColor':
     'prefix': 'lightGrayColor'
-    'body': 'UIColor.lightGrayColor()'
+    'body': 'lightGrayColor()'
   'UIColor.lightTextColor':
     'prefix': 'lightTextColor'
-    'body': 'UIColor.lightTextColor()'
+    'body': 'lightTextColor()'
   'UIColor.magentaColor':
     'prefix': 'magentaColor'
-    'body': 'UIColor.magentaColor()'
+    'body': 'magentaColor()'
   'UIColor.orangeColor':
     'prefix': 'orangeColor'
-    'body': 'UIColor.orangeColor()'
+    'body': 'orangeColor()'
   'UIColor.purpleColor':
     'prefix': 'purpleColor'
-    'body': 'UIColor.purpleColor()'
+    'body': 'purpleColor()'
   'UIColor.redColor':
     'prefix': 'redColor'
-    'body': 'UIColor.redColor()'
+    'body': 'redColor()'
   'UIColor.scrollViewTexturedBackgroundColor':
     'prefix': 'scrollViewTexturedBackgroundColor'
-    'body': 'UIColor.scrollViewTexturedBackgroundColor()'
+    'body': 'scrollViewTexturedBackgroundColor()'
   'set':
     'prefix': 'set'
     'body': 'set()'
@@ -6688,16 +6688,16 @@
     'body': 'setStroke()'
   'UIColor.underPageBackgroundColor':
     'prefix': 'underPageBackgroundColor'
-    'body': 'UIColor.underPageBackgroundColor()'
+    'body': 'underPageBackgroundColor()'
   'UIColor.viewFlipsideBackgroundColor':
     'prefix': 'viewFlipsideBackgroundColor'
-    'body': 'UIColor.viewFlipsideBackgroundColor()'
+    'body': 'viewFlipsideBackgroundColor()'
   'UIColor.whiteColor':
     'prefix': 'whiteColor'
-    'body': 'UIColor.whiteColor()'
+    'body': 'whiteColor()'
   'UIColor.yellowColor':
     'prefix': 'yellowColor'
-    'body': 'UIColor.yellowColor()'
+    'body': 'yellowColor()'
   'actionsForTarget:forControlEvent:':
     'prefix': 'actionsForTarget:forControlEvent:'
     'body': 'actionsForTarget(${1:id target}, forControlEvent:${2:UIControlEvents controlEvent})'
@@ -6838,7 +6838,7 @@
     'body': 'beginGeneratingDeviceOrientationNotifications()'
   'UIDevice.currentDevice':
     'prefix': 'currentDevice'
-    'body': 'UIDevice.currentDevice()'
+    'body': 'currentDevice()'
   'endGeneratingDeviceOrientationNotifications':
     'prefix': 'endGeneratingDeviceOrientationNotifications'
     'body': 'endGeneratingDeviceOrientationNotifications()'
@@ -7018,7 +7018,7 @@
     'body': 'icons()'
   'UIDocumentInteractionController.interactionControllerWithURL:':
     'prefix': 'interactionControllerWithURL:'
-    'body': 'UIDocumentInteractionController.interactionControllerWithURL(${1:NSURL* url})'
+    'body': 'interactionControllerWithURL(${1:NSURL* url})'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -7207,10 +7207,10 @@
     'body': 'ascender()'
   'UIFont.boldSystemFontOfSize:':
     'prefix': 'boldSystemFontOfSize:'
-    'body': 'UIFont.boldSystemFontOfSize(${1:CGFloat fontSize})'
+    'body': 'boldSystemFontOfSize(${1:CGFloat fontSize})'
   'UIFont.buttonFontSize':
     'prefix': 'buttonFontSize'
-    'body': 'UIFont.buttonFontSize()'
+    'body': 'buttonFontSize()'
   'capHeight':
     'prefix': 'capHeight'
     'body': 'capHeight()'
@@ -7222,7 +7222,7 @@
     'body': 'familyName()'
   'UIFont.familyNames':
     'prefix': 'familyNames'
-    'body': 'UIFont.familyNames()'
+    'body': 'familyNames()'
   'fontDescriptor':
     'prefix': 'fontDescriptor'
     'body': 'fontDescriptor()'
@@ -7231,22 +7231,22 @@
     'body': 'fontName()'
   'UIFont.fontNamesForFamilyName:':
     'prefix': 'fontNamesForFamilyName:'
-    'body': 'UIFont.fontNamesForFamilyName(${1:NSString* familyName})'
+    'body': 'fontNamesForFamilyName(${1:NSString* familyName})'
   'UIFont.fontWithDescriptor:size:':
     'prefix': 'fontWithDescriptor:size:'
-    'body': 'UIFont.fontWithDescriptor(${1:UIFontDescriptor* descriptor}, size:${2:CGFloat pointSize})'
+    'body': 'fontWithDescriptor(${1:UIFontDescriptor* descriptor}, size:${2:CGFloat pointSize})'
   'UIFont.fontWithName:size:':
     'prefix': 'fontWithName:size:'
-    'body': 'UIFont.fontWithName(${1:NSString* fontName}, size:${2:CGFloat fontSize})'
+    'body': 'fontWithName(${1:NSString* fontName}, size:${2:CGFloat fontSize})'
   'fontWithSize:':
     'prefix': 'fontWithSize:'
     'body': 'fontWithSize(${1:CGFloat fontSize})'
   'UIFont.italicSystemFontOfSize:':
     'prefix': 'italicSystemFontOfSize:'
-    'body': 'UIFont.italicSystemFontOfSize(${1:CGFloat fontSize})'
+    'body': 'italicSystemFontOfSize(${1:CGFloat fontSize})'
   'UIFont.labelFontSize':
     'prefix': 'labelFontSize'
-    'body': 'UIFont.labelFontSize()'
+    'body': 'labelFontSize()'
   'leading':
     'prefix': 'leading'
     'body': 'leading()'
@@ -7258,16 +7258,16 @@
     'body': 'pointSize()'
   'UIFont.preferredFontForTextStyle:':
     'prefix': 'preferredFontForTextStyle:'
-    'body': 'UIFont.preferredFontForTextStyle(${1:NSString* style})'
+    'body': 'preferredFontForTextStyle(${1:NSString* style})'
   'UIFont.smallSystemFontSize':
     'prefix': 'smallSystemFontSize'
-    'body': 'UIFont.smallSystemFontSize()'
+    'body': 'smallSystemFontSize()'
   'UIFont.systemFontOfSize:':
     'prefix': 'systemFontOfSize:'
-    'body': 'UIFont.systemFontOfSize(${1:CGFloat fontSize})'
+    'body': 'systemFontOfSize(${1:CGFloat fontSize})'
   'UIFont.systemFontSize':
     'prefix': 'systemFontSize'
-    'body': 'UIFont.systemFontSize()'
+    'body': 'systemFontSize()'
   'xHeight':
     'prefix': 'xHeight'
     'body': 'xHeight()'
@@ -7285,16 +7285,16 @@
     'body': 'fontDescriptorWithFamily(${1:NSString* newFamily})'
   'UIFontDescriptor.fontDescriptorWithFontAttributes:':
     'prefix': 'fontDescriptorWithFontAttributes:'
-    'body': 'UIFontDescriptor.fontDescriptorWithFontAttributes(${1:NSDictionary* attributes})'
+    'body': 'fontDescriptorWithFontAttributes(${1:NSDictionary* attributes})'
   'fontDescriptorWithMatrix:':
     'prefix': 'fontDescriptorWithMatrix:'
     'body': 'fontDescriptorWithMatrix(${1:CGAffineTransform matrix})'
   'UIFontDescriptor.fontDescriptorWithName:matrix:':
     'prefix': 'fontDescriptorWithName:matrix:'
-    'body': 'UIFontDescriptor.fontDescriptorWithName(${1:NSString* fontName}, matrix:${2:CGAffineTransform matrix})'
+    'body': 'fontDescriptorWithName(${1:NSString* fontName}, matrix:${2:CGAffineTransform matrix})'
   'UIFontDescriptor.fontDescriptorWithName:size:':
     'prefix': 'fontDescriptorWithName:size:'
-    'body': 'UIFontDescriptor.fontDescriptorWithName(${1:NSString* fontName}, size:${2:CGFloat size})'
+    'body': 'fontDescriptorWithName(${1:NSString* fontName}, size:${2:CGFloat size})'
   'fontDescriptorWithSize:':
     'prefix': 'fontDescriptorWithSize:'
     'body': 'fontDescriptorWithSize(${1:CGFloat newPointSize})'
@@ -7321,7 +7321,7 @@
     'body': 'postscriptName()'
   'UIFontDescriptor.preferredFontDescriptorWithTextStyle:':
     'prefix': 'preferredFontDescriptorWithTextStyle:'
-    'body': 'UIFontDescriptor.preferredFontDescriptorWithTextStyle(${1:NSString* style})'
+    'body': 'preferredFontDescriptorWithTextStyle(${1:NSString* style})'
   'symbolicTraits':
     'prefix': 'symbolicTraits'
     'body': 'symbolicTraits()'
@@ -7459,16 +7459,16 @@
     'body': 'alignmentRectInsets()'
   'UIImage.animatedImageNamed:duration:':
     'prefix': 'animatedImageNamed:duration:'
-    'body': 'UIImage.animatedImageNamed(${1:NSString* name}, duration:${2:NSTimeInterval duration})'
+    'body': 'animatedImageNamed(${1:NSString* name}, duration:${2:NSTimeInterval duration})'
   'UIImage.animatedImageWithImages:duration:':
     'prefix': 'animatedImageWithImages:duration:'
-    'body': 'UIImage.animatedImageWithImages(${1:NSArray* images}, duration:${2:NSTimeInterval duration})'
+    'body': 'animatedImageWithImages(${1:NSArray* images}, duration:${2:NSTimeInterval duration})'
   'UIImage.animatedResizableImageNamed:capInsets:duration:':
     'prefix': 'animatedResizableImageNamed:capInsets:duration:'
-    'body': 'UIImage.animatedResizableImageNamed(${1:NSString* name}, capInsets:${2:UIEdgeInsets capInsets}, duration:${3:NSTimeInterval duration})'
+    'body': 'animatedResizableImageNamed(${1:NSString* name}, capInsets:${2:UIEdgeInsets capInsets}, duration:${3:NSTimeInterval duration})'
   'UIImage.animatedResizableImageNamed:capInsets:resizingMode:duration:':
     'prefix': 'animatedResizableImageNamed:capInsets:resizingMode:duration:'
-    'body': 'UIImage.animatedResizableImageNamed(${1:NSString* name}, capInsets:${2:UIEdgeInsets capInsets}, resizingMode:${3:UIImageResizingMode resizingMode}, duration:${4:NSTimeInterval duration})'
+    'body': 'animatedResizableImageNamed(${1:NSString* name}, capInsets:${2:UIEdgeInsets capInsets}, resizingMode:${3:UIImageResizingMode resizingMode}, duration:${4:NSTimeInterval duration})'
   'capInsets':
     'prefix': 'capInsets'
     'body': 'capInsets()'
@@ -7492,7 +7492,7 @@
     'body': 'duration()'
   'UIImage.imageNamed:':
     'prefix': 'imageNamed:'
-    'body': 'UIImage.imageNamed(${1:NSString* name})'
+    'body': 'imageNamed(${1:NSString* name})'
   'imageOrientation':
     'prefix': 'imageOrientation'
     'body': 'imageOrientation()'
@@ -7501,25 +7501,25 @@
     'body': 'imageWithAlignmentRectInsets(${1:UIEdgeInsets alignmentInsets})'
   'UIImage.imageWithCGImage:':
     'prefix': 'imageWithCGImage:'
-    'body': 'UIImage.imageWithCGImage(${1:CGImageRef cgImage})'
+    'body': 'imageWithCGImage(${1:CGImageRef cgImage})'
   'UIImage.imageWithCGImage:scale:orientation:':
     'prefix': 'imageWithCGImage:scale:orientation:'
-    'body': 'UIImage.imageWithCGImage(${1:CGImageRef cgImage}, scale:${2:CGFloat scale}, orientation:${3:UIImageOrientation orientation})'
+    'body': 'imageWithCGImage(${1:CGImageRef cgImage}, scale:${2:CGFloat scale}, orientation:${3:UIImageOrientation orientation})'
   'UIImage.imageWithCIImage:':
     'prefix': 'imageWithCIImage:'
-    'body': 'UIImage.imageWithCIImage(${1:CIImage* ciImage})'
+    'body': 'imageWithCIImage(${1:CIImage* ciImage})'
   'UIImage.imageWithCIImage:scale:orientation:':
     'prefix': 'imageWithCIImage:scale:orientation:'
-    'body': 'UIImage.imageWithCIImage(${1:CIImage* ciImage}, scale:${2:CGFloat scale}, orientation:${3:UIImageOrientation orientation})'
+    'body': 'imageWithCIImage(${1:CIImage* ciImage}, scale:${2:CGFloat scale}, orientation:${3:UIImageOrientation orientation})'
   'UIImage.imageWithContentsOfFile:':
     'prefix': 'imageWithContentsOfFile:'
-    'body': 'UIImage.imageWithContentsOfFile(${1:NSString* path})'
+    'body': 'imageWithContentsOfFile(${1:NSString* path})'
   'UIImage.imageWithData:':
     'prefix': 'imageWithData:'
-    'body': 'UIImage.imageWithData(${1:NSData* data})'
+    'body': 'imageWithData(${1:NSData* data})'
   'UIImage.imageWithData:scale:':
     'prefix': 'imageWithData:scale:'
-    'body': 'UIImage.imageWithData(${1:NSData* data}, scale:${2:CGFloat scale})'
+    'body': 'imageWithData(${1:NSData* data}, scale:${2:CGFloat scale})'
   'imageWithRenderingMode:':
     'prefix': 'imageWithRenderingMode:'
     'body': 'imageWithRenderingMode(${1:UIImageRenderingMode renderingMode})'
@@ -7582,10 +7582,10 @@
     'body': 'allowsImageEditing()'
   'UIImagePickerController.availableCaptureModesForCameraDevice:':
     'prefix': 'availableCaptureModesForCameraDevice:'
-    'body': 'UIImagePickerController.availableCaptureModesForCameraDevice(${1:UIImagePickerControllerCameraDevice cameraDevice})'
+    'body': 'availableCaptureModesForCameraDevice(${1:UIImagePickerControllerCameraDevice cameraDevice})'
   'UIImagePickerController.availableMediaTypesForSourceType:':
     'prefix': 'availableMediaTypesForSourceType:'
-    'body': 'UIImagePickerController.availableMediaTypesForSourceType(${1:UIImagePickerControllerSourceType sourceType})'
+    'body': 'availableMediaTypesForSourceType(${1:UIImagePickerControllerSourceType sourceType})'
   'cameraCaptureMode':
     'prefix': 'cameraCaptureMode'
     'body': 'cameraCaptureMode()'
@@ -7606,13 +7606,13 @@
     'body': 'delegate()'
   'UIImagePickerController.isCameraDeviceAvailable:':
     'prefix': 'isCameraDeviceAvailable:'
-    'body': 'UIImagePickerController.isCameraDeviceAvailable(${1:UIImagePickerControllerCameraDevice cameraDevice})'
+    'body': 'isCameraDeviceAvailable(${1:UIImagePickerControllerCameraDevice cameraDevice})'
   'UIImagePickerController.isFlashAvailableForCameraDevice:':
     'prefix': 'isFlashAvailableForCameraDevice:'
-    'body': 'UIImagePickerController.isFlashAvailableForCameraDevice(${1:UIImagePickerControllerCameraDevice cameraDevice})'
+    'body': 'isFlashAvailableForCameraDevice(${1:UIImagePickerControllerCameraDevice cameraDevice})'
   'UIImagePickerController.isSourceTypeAvailable:':
     'prefix': 'isSourceTypeAvailable:'
-    'body': 'UIImagePickerController.isSourceTypeAvailable(${1:UIImagePickerControllerSourceType sourceType})'
+    'body': 'isSourceTypeAvailable(${1:UIImagePickerControllerSourceType sourceType})'
   'mediaTypes':
     'prefix': 'mediaTypes'
     'body': 'mediaTypes()'
@@ -7777,7 +7777,7 @@
     'body': 'input()'
   'UIKeyCommand.keyCommandWithInput:modifierFlags:action:':
     'prefix': 'keyCommandWithInput:modifierFlags:action:'
-    'body': 'UIKeyCommand.keyCommandWithInput(${1:NSString* input}, modifierFlags:${2:UIKeyModifierFlags modifierFlags}, action:${3:SEL action})'
+    'body': 'KeyCommandWithInput(${1:NSString* input}, modifierFlags:${2:UIKeyModifierFlags modifierFlags}, action:${3:SEL action})'
   'modifierFlags':
     'prefix': 'modifierFlags'
     'body': 'modifierFlags()'
@@ -7969,7 +7969,7 @@
     'body': 'userInfo()'
   'UILocalizedIndexedCollation.currentCollation':
     'prefix': 'currentCollation'
-    'body': 'UILocalizedIndexedCollation.currentCollation()'
+    'body': 'currentCollation()'
   'sectionForObject:collationStringSelector:':
     'prefix': 'sectionForObject:collationStringSelector:'
     'body': 'sectionForObject(${1:id object}, collationStringSelector:${2:SEL selector})'
@@ -8026,7 +8026,7 @@
     'body': 'modelConfiguration()'
   'UIManagedDocument.persistentStoreName':
     'prefix': 'persistentStoreName'
-    'body': 'UIManagedDocument.persistentStoreName()'
+    'body': 'persistentStoreName()'
   'persistentStoreOptions':
     'prefix': 'persistentStoreOptions'
     'body': 'persistentStoreOptions()'
@@ -8083,7 +8083,7 @@
     'body': 'setTargetRect(${1:CGRect targetRect}, inView:${2:UIView* targetView})'
   'UIMenuController.sharedMenuController':
     'prefix': 'sharedMenuController'
-    'body': 'UIMenuController.sharedMenuController()'
+    'body': 'sharedMenuController()'
   'update':
     'prefix': 'update'
     'body': 'update()'
@@ -8353,10 +8353,10 @@
     'body': 'instantiateWithOwner(${1:id ownerOrNil}, options:${2:NSDictionary* optionsOrNil})'
   'UINib.nibWithData:bundle:':
     'prefix': 'nibWithData:bundle:'
-    'body': 'UINib.nibWithData(${1:NSData* data}, bundle:${2:NSBundle* bundleOrNil})'
+    'body': 'nibWithData(${1:NSData* data}, bundle:${2:NSBundle* bundleOrNil})'
   'UINib.nibWithNibName:bundle:':
     'prefix': 'nibWithNibName:bundle:'
-    'body': 'UINib.nibWithNibName(${1:NSString* name}, bundle:${2:NSBundle* bundleOrNil})'
+    'body': 'nibWithNibName(${1:NSString* name}, bundle:${2:NSBundle* bundleOrNil})'
   'currentPage':
     'prefix': 'currentPage'
     'body': 'currentPage()'
@@ -8491,7 +8491,7 @@
     'body': 'dataForPasteboardType(${1:NSString* pasteboardType}, inItemSet:${2:NSIndexSet* itemSet})'
   'UIPasteboard.generalPasteboard':
     'prefix': 'generalPasteboard'
-    'body': 'UIPasteboard.generalPasteboard()'
+    'body': 'generalPasteboard()'
   'image':
     'prefix': 'image'
     'body': 'image()'
@@ -8521,13 +8521,13 @@
     'body': 'pasteboardTypesForItemSet(${1:NSIndexSet* itemSet})'
   'UIPasteboard.pasteboardWithName:create:':
     'prefix': 'pasteboardWithName:create:'
-    'body': 'UIPasteboard.pasteboardWithName(${1:NSString* pasteboardName}, create:${2:BOOL create})'
+    'body': 'pasteboardWithName(${1:NSString* pasteboardName}, create:${2:BOOL create})'
   'UIPasteboard.pasteboardWithUniqueName':
     'prefix': 'pasteboardWithUniqueName'
-    'body': 'UIPasteboard.pasteboardWithUniqueName()'
+    'body': 'pasteboardWithUniqueName()'
   'UIPasteboard.removePasteboardWithName:':
     'prefix': 'removePasteboardWithName:'
-    'body': 'UIPasteboard.removePasteboardWithName(${1:NSString* pasteboardName})'
+    'body': 'removePasteboardWithName(${1:NSString* pasteboardName})'
   'setColor:':
     'prefix': 'setColor:'
     'body': 'setColor(${1:UIColor* color})'
@@ -8656,19 +8656,19 @@
     'body': 'velocity()'
   'UIPopoverBackgroundView.arrowBase':
     'prefix': 'arrowBase'
-    'body': 'UIPopoverBackgroundView.arrowBase()'
+    'body': 'arrowBase()'
   'arrowDirection':
     'prefix': 'arrowDirection'
     'body': 'arrowDirection()'
   'UIPopoverBackgroundView.arrowHeight':
     'prefix': 'arrowHeight'
-    'body': 'UIPopoverBackgroundView.arrowHeight()'
+    'body': 'arrowHeight()'
   'arrowOffset':
     'prefix': 'arrowOffset'
     'body': 'arrowOffset()'
   'UIPopoverBackgroundView.contentViewInsets':
     'prefix': 'contentViewInsets'
-    'body': 'UIPopoverBackgroundView.contentViewInsets()'
+    'body': 'contentViewInsets()'
   'setArrowDirection:':
     'prefix': 'setArrowDirection:'
     'body': 'setArrowDirection(${1:UIPopoverArrowDirection arrowDirection})'
@@ -8677,7 +8677,7 @@
     'body': 'setArrowOffset(${1:CGFloat arrowOffset})'
   'UIPopoverBackgroundView.wantsDefaultContentAppearance':
     'prefix': 'wantsDefaultContentAppearance'
-    'body': 'UIPopoverBackgroundView.wantsDefaultContentAppearance()'
+    'body': 'wantsDefaultContentAppearance()'
   'backgroundColor':
     'prefix': 'backgroundColor'
     'body': 'backgroundColor()'
@@ -8800,10 +8800,10 @@
     'body': 'outputType()'
   'UIPrintInfo.printInfo':
     'prefix': 'printInfo'
-    'body': 'UIPrintInfo.printInfo()'
+    'body': 'printInfo()'
   'UIPrintInfo.printInfoWithDictionary:':
     'prefix': 'printInfoWithDictionary:'
-    'body': 'UIPrintInfo.printInfoWithDictionary(${1:NSDictionary* dictionary})'
+    'body': 'printInfoWithDictionary(${1:NSDictionary* dictionary})'
   'printerID':
     'prefix': 'printerID'
     'body': 'printerID()'
@@ -8824,10 +8824,10 @@
     'body': 'setPrinterID(${1:NSString* printerID})'
   'UIPrintInteractionController.canPrintData:':
     'prefix': 'canPrintData:'
-    'body': 'UIPrintInteractionController.canPrintData(${1:NSData* data})'
+    'body': 'canPrintData(${1:NSData* data})'
   'UIPrintInteractionController.canPrintURL:':
     'prefix': 'canPrintURL:'
-    'body': 'UIPrintInteractionController.canPrintURL(${1:NSURL* url})'
+    'body': 'canPrintURL(${1:NSURL* url})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -8836,7 +8836,7 @@
     'body': 'dismissAnimated(${1:BOOL animated})'
   'UIPrintInteractionController.isPrintingAvailable':
     'prefix': 'isPrintingAvailable'
-    'body': 'UIPrintInteractionController.isPrintingAvailable()'
+    'body': 'isPrintingAvailable()'
   'presentAnimated:completionHandler:':
     'prefix': 'presentAnimated:completionHandler:'
     'body': 'presentAnimated(${1:BOOL animated}, completionHandler:${2:UIPrintInteractionCompletionHandler completion})'
@@ -8860,7 +8860,7 @@
     'body': 'printPaper()'
   'UIPrintInteractionController.printableUTIs':
     'prefix': 'printableUTIs'
-    'body': 'UIPrintInteractionController.printableUTIs()'
+    'body': 'printableUTIs()'
   'printingItem':
     'prefix': 'printingItem'
     'body': 'printingItem()'
@@ -8893,7 +8893,7 @@
     'body': 'setShowsPageRange(${1:BOOL showsPageRange})'
   'UIPrintInteractionController.sharedPrintController':
     'prefix': 'sharedPrintController'
-    'body': 'UIPrintInteractionController.sharedPrintController()'
+    'body': 'sharedPrintController()'
   'showsNumberOfCopies':
     'prefix': 'showsNumberOfCopies'
     'body': 'showsNumberOfCopies()'
@@ -8953,7 +8953,7 @@
     'body': 'setPrintFormatters(${1:NSArray* printFormatters})'
   'UIPrintPaper.bestPaperForPageSize:withPapersFromArray:':
     'prefix': 'bestPaperForPageSize:withPapersFromArray:'
-    'body': 'UIPrintPaper.bestPaperForPageSize(${1:CGSize contentSize}, withPapersFromArray:${2:NSArray* paperList})'
+    'body': 'bestPaperForPageSize(${1:CGSize contentSize}, withPapersFromArray:${2:NSArray* paperList})'
   'paperSize':
     'prefix': 'paperSize'
     'body': 'paperSize()'
@@ -9055,7 +9055,7 @@
     'body': 'targetOffsetFromCenterForItem(${1:id item})'
   'UIReferenceLibraryViewController.dictionaryHasDefinitionForTerm:':
     'prefix': 'dictionaryHasDefinitionForTerm:'
-    'body': 'UIReferenceLibraryViewController.dictionaryHasDefinitionForTerm(${1:NSString* term})'
+    'body': 'dictionaryHasDefinitionForTerm(${1:NSString* term})'
   'initWithTerm:':
     'prefix': 'initWithTerm:'
     'body': 'initWithTerm(${1:NSString* term})'
@@ -9097,7 +9097,7 @@
     'body': 'canResignFirstResponder()'
   'UIResponder.clearTextInputContextIdentifier:':
     'prefix': 'clearTextInputContextIdentifier:'
-    'body': 'UIResponder.clearTextInputContextIdentifier(${1:NSString* identifier})'
+    'body': 'clearTextInputContextIdentifier(${1:NSString* identifier})'
   'inputAccessoryView':
     'prefix': 'inputAccessoryView'
     'body': 'inputAccessoryView()'
@@ -9184,7 +9184,7 @@
     'body': 'displayLinkWithTarget(${1:id target}, selector:${2:SEL sel})'
   'UIScreen.mainScreen':
     'prefix': 'mainScreen'
-    'body': 'UIScreen.mainScreen()'
+    'body': 'mainScreen()'
   'mirroredScreen':
     'prefix': 'mirroredScreen'
     'body': 'mirroredScreen()'
@@ -9199,7 +9199,7 @@
     'body': 'scale()'
   'UIScreen.screens':
     'prefix': 'screens'
-    'body': 'UIScreen.screens()'
+    'body': 'screens()'
   'setBrightness:':
     'prefix': 'setBrightness:'
     'body': 'setBrightness(${1:CGFloat brightness})'
@@ -10000,7 +10000,7 @@
     'body': 'instantiateViewControllerWithIdentifier(${1:NSString* identifier})'
   'UIStoryboard.storyboardWithName:bundle:':
     'prefix': 'storyboardWithName:bundle:'
-    'body': 'UIStoryboard.storyboardWithName(${1:NSString* name}, bundle:${2:NSBundle* storyboardBundleOrNil})'
+    'body': 'storyboardWithName(${1:NSString* name}, bundle:${2:NSBundle* storyboardBundleOrNil})'
   'popoverController':
     'prefix': 'popoverController'
     'body': 'popoverController()'
@@ -10018,7 +10018,7 @@
     'body': 'perform()'
   'UIStoryboardSegue.segueWithIdentifier:source:destination:performHandler:':
     'prefix': 'segueWithIdentifier:source:destination:performHandler:'
-    'body': 'UIStoryboardSegue.segueWithIdentifier(${1:NSString* identifier}, source:${2:UIViewController* source}, destination:${3:UIViewController* destination}, performHandler:${4:void (^)(void) performHandler})'
+    'body': 'segueWithIdentifier(${1:NSString* identifier}, source:${2:UIViewController* source}, destination:${3:UIViewController* destination}, performHandler:${4:void (^)(void) performHandler})'
   'sourceViewController':
     'prefix': 'sourceViewController'
     'body': 'sourceViewController()'
@@ -10789,7 +10789,7 @@
     'body': 'setNumberOfTouchesRequired(${1:NSUInteger numberOfTouchesRequired})'
   'UITextChecker.availableLanguages':
     'prefix': 'availableLanguages'
-    'body': 'UITextChecker.availableLanguages()'
+    'body': 'availableLanguages()'
   'completionsForPartialWordRange:inString:language:':
     'prefix': 'completionsForPartialWordRange:inString:language:'
     'body': 'completionsForPartialWordRange(${1:NSRange range}, inString:${2:NSString* string}, language:${3:NSString* language})'
@@ -10798,7 +10798,7 @@
     'body': 'guessesForWordRange(${1:NSRange range}, inString:${2:NSString* string}, language:${3:NSString* language})'
   'UITextChecker.hasLearnedWord:':
     'prefix': 'hasLearnedWord:'
-    'body': 'UITextChecker.hasLearnedWord(${1:NSString* word})'
+    'body': 'hasLearnedWord(${1:NSString* word})'
   'ignoreWord:':
     'prefix': 'ignoreWord:'
     'body': 'ignoreWord(${1:NSString* wordToIgnore})'
@@ -10807,7 +10807,7 @@
     'body': 'ignoredWords()'
   'UITextChecker.learnWord:':
     'prefix': 'learnWord:'
-    'body': 'UITextChecker.learnWord(${1:NSString* word})'
+    'body': 'learnWord(${1:NSString* word})'
   'rangeOfMisspelledWordInString:range:startingAt:wrap:language:':
     'prefix': 'rangeOfMisspelledWordInString:range:startingAt:wrap:language:'
     'body': 'rangeOfMisspelledWordInString(${1:NSString* stringToCheck}, range:${2:NSRange range}, startingAt:${3:NSInteger startingOffset}, wrap:${4:BOOL wrapFlag}, language:${5:NSString* language})'
@@ -10816,7 +10816,7 @@
     'body': 'setIgnoredWords(${1:NSArray* words})'
   'UITextChecker.unlearnWord:':
     'prefix': 'unlearnWord:'
-    'body': 'UITextChecker.unlearnWord(${1:NSString* word})'
+    'body': 'unlearnWord(${1:NSString* word})'
   'adjustsFontSizeToFitWidth':
     'prefix': 'adjustsFontSizeToFitWidth'
     'body': 'adjustsFontSizeToFitWidth()'
@@ -10999,10 +10999,10 @@
     'body': 'typingAttributes()'
   'UITextInputMode.activeInputModes':
     'prefix': 'activeInputModes'
-    'body': 'UITextInputMode.activeInputModes()'
+    'body': 'activeInputModes()'
   'UITextInputMode.currentInputMode':
     'prefix': 'currentInputMode'
-    'body': 'UITextInputMode.currentInputMode()'
+    'body': 'currentInputMode()'
   'primaryLanguage':
     'prefix': 'primaryLanguage'
     'body': 'primaryLanguage()'
@@ -11227,7 +11227,7 @@
     'body': 'window()'
   'UIVideoEditorController.canEditVideoAtPath:':
     'prefix': 'canEditVideoAtPath:'
-    'body': 'UIVideoEditorController.canEditVideoAtPath(${1:NSString* videoPath})'
+    'body': 'canEditVideoAtPath(${1:NSString* videoPath})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -11263,7 +11263,7 @@
     'body': 'addGestureRecognizer(${1:UIGestureRecognizer* gestureRecognizer})'
   'UIView.addKeyframeWithRelativeStartTime:relativeDuration:animations:':
     'prefix': 'addKeyframeWithRelativeStartTime:relativeDuration:animations:'
-    'body': 'UIView.addKeyframeWithRelativeStartTime(${1:double frameStartTime}, relativeDuration:${2:double frameDuration}, animations:${3:void (^)(void) animations})'
+    'body': 'addKeyframeWithRelativeStartTime(${1:double frameStartTime}, relativeDuration:${2:double frameDuration}, animations:${3:void (^)(void) animations})'
   'addMotionEffect:':
     'prefix': 'addMotionEffect:'
     'body': 'addMotionEffect(${1:UIMotionEffect* effect})'
@@ -11281,22 +11281,22 @@
     'body': 'alpha()'
   'UIView.animateKeyframesWithDuration:delay:options:animations:completion:':
     'prefix': 'animateKeyframesWithDuration:delay:options:animations:completion:'
-    'body': 'UIView.animateKeyframesWithDuration(${1:NSTimeInterval duration}, delay:${2:NSTimeInterval delay}, options:${3:UIViewKeyframeAnimationOptions options}, animations:${4:void (^)(void) animations}, completion:${5:void (^)(BOOL) completion})'
+    'body': 'animateKeyframesWithDuration(${1:NSTimeInterval duration}, delay:${2:NSTimeInterval delay}, options:${3:UIViewKeyframeAnimationOptions options}, animations:${4:void (^)(void) animations}, completion:${5:void (^)(BOOL) completion})'
   'UIView.animateWithDuration:animations:':
     'prefix': 'animateWithDuration:animations:'
-    'body': 'UIView.animateWithDuration(${1:NSTimeInterval duration}, animations:${2:void (^)(void) animations})'
+    'body': 'animateWithDuration(${1:NSTimeInterval duration}, animations:${2:void (^)(void) animations})'
   'UIView.animateWithDuration:animations:completion:':
     'prefix': 'animateWithDuration:animations:completion:'
-    'body': 'UIView.animateWithDuration(${1:NSTimeInterval duration}, animations:${2:void (^)(void) animations}, completion:${3:void (^)(BOOL) completion})'
+    'body': 'animateWithDuration(${1:NSTimeInterval duration}, animations:${2:void (^)(void) animations}, completion:${3:void (^)(BOOL) completion})'
   'UIView.animateWithDuration:delay:options:animations:completion:':
     'prefix': 'animateWithDuration:delay:options:animations:completion:'
-    'body': 'UIView.animateWithDuration(${1:NSTimeInterval duration}, delay:${2:NSTimeInterval delay}, options:${3:UIViewAnimationOptions options}, animations:${4:void (^)(void) animations}, completion:${5:void (^)(BOOL) completion})'
+    'body': 'animateWithDuration(${1:NSTimeInterval duration}, delay:${2:NSTimeInterval delay}, options:${3:UIViewAnimationOptions options}, animations:${4:void (^)(void) animations}, completion:${5:void (^)(BOOL) completion})'
   'UIView.animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:':
     'prefix': 'animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:'
-    'body': 'UIView.animateWithDuration(${1:NSTimeInterval duration}, delay:${2:NSTimeInterval delay}, usingSpringWithDamping:${3:CGFloat dampingRatio}, initialSpringVelocity:${4:CGFloat velocity}, options:${5:UIViewAnimationOptions options}, animations:${6:void (^)(void) animations}, completion:${7:void (^)(BOOL) completion})'
+    'body': 'animateWithDuration(${1:NSTimeInterval duration}, delay:${2:NSTimeInterval delay}, usingSpringWithDamping:${3:CGFloat dampingRatio}, initialSpringVelocity:${4:CGFloat velocity}, options:${5:UIViewAnimationOptions options}, animations:${6:void (^)(void) animations}, completion:${7:void (^)(BOOL) completion})'
   'UIView.areAnimationsEnabled':
     'prefix': 'areAnimationsEnabled'
-    'body': 'UIView.areAnimationsEnabled()'
+    'body': 'areAnimationsEnabled()'
   'autoresizesSubviews':
     'prefix': 'autoresizesSubviews'
     'body': 'autoresizesSubviews()'
@@ -11308,7 +11308,7 @@
     'body': 'backgroundColor()'
   'UIView.beginAnimations:context:':
     'prefix': 'beginAnimations:context:'
-    'body': 'UIView.beginAnimations(${1:NSString* animationID}, context:${2:void* context})'
+    'body': 'beginAnimations(${1:NSString* animationID}, context:${2:void* context})'
   'bounds':
     'prefix': 'bounds'
     'body': 'bounds()'
@@ -11326,7 +11326,7 @@
     'body': 'clipsToBounds()'
   'UIView.commitAnimations':
     'prefix': 'commitAnimations'
-    'body': 'UIView.commitAnimations()'
+    'body': 'commitAnimations()'
   'constraints':
     'prefix': 'constraints'
     'body': 'constraints()'
@@ -11452,7 +11452,7 @@
     'body': 'layer()'
   'UIView.layerClass':
     'prefix': 'layerClass'
-    'body': 'UIView.layerClass()'
+    'body': 'layerClass()'
   'layoutIfNeeded':
     'prefix': 'layoutIfNeeded'
     'body': 'layoutIfNeeded()'
@@ -11467,10 +11467,10 @@
     'body': 'needsUpdateConstraints()'
   'UIView.performSystemAnimation:onViews:options:animations:completion:':
     'prefix': 'performSystemAnimation:onViews:options:animations:completion:'
-    'body': 'UIView.performSystemAnimation(${1:UISystemAnimation animation}, onViews:${2:NSArray* views}, options:${3:UIViewAnimationOptions options}, animations:${4:void (^)(void) parallelAnimations}, completion:${5:void (^)(BOOL) completion})'
+    'body': 'performSystemAnimation(${1:UISystemAnimation animation}, onViews:${2:NSArray* views}, options:${3:UIViewAnimationOptions options}, animations:${4:void (^)(void) parallelAnimations}, completion:${5:void (^)(BOOL) completion})'
   'UIView.performWithoutAnimation:':
     'prefix': 'performWithoutAnimation:'
-    'body': 'UIView.performWithoutAnimation(${1:void (^)(void) actionsWithoutAnimation})'
+    'body': 'performWithoutAnimation(${1:void (^)(void) actionsWithoutAnimation})'
   'pointInside:withEvent:':
     'prefix': 'pointInside:withEvent:'
     'body': 'pointInside(${1:CGPoint point}, withEvent:${2:UIEvent* event})'
@@ -11491,7 +11491,7 @@
     'body': 'removeMotionEffect(${1:UIMotionEffect* effect})'
   'UIView.requiresConstraintBasedLayout':
     'prefix': 'requiresConstraintBasedLayout'
-    'body': 'UIView.requiresConstraintBasedLayout()'
+    'body': 'requiresConstraintBasedLayout()'
   'resizableSnapshotViewFromRect:afterScreenUpdates:withCapInsets:':
     'prefix': 'resizableSnapshotViewFromRect:afterScreenUpdates:withCapInsets:'
     'body': 'resizableSnapshotViewFromRect(${1:CGRect rect}, afterScreenUpdates:${2:BOOL afterUpdates}, withCapInsets:${3:UIEdgeInsets capInsets})'
@@ -11506,40 +11506,40 @@
     'body': 'setAlpha(${1:CGFloat alpha})'
   'UIView.setAnimationBeginsFromCurrentState:':
     'prefix': 'setAnimationBeginsFromCurrentState:'
-    'body': 'UIView.setAnimationBeginsFromCurrentState(${1:BOOL fromCurrentState})'
+    'body': 'setAnimationBeginsFromCurrentState(${1:BOOL fromCurrentState})'
   'UIView.setAnimationCurve:':
     'prefix': 'setAnimationCurve:'
-    'body': 'UIView.setAnimationCurve(${1:UIViewAnimationCurve curve})'
+    'body': 'setAnimationCurve(${1:UIViewAnimationCurve curve})'
   'UIView.setAnimationDelay:':
     'prefix': 'setAnimationDelay:'
-    'body': 'UIView.setAnimationDelay(${1:NSTimeInterval delay})'
+    'body': 'setAnimationDelay(${1:NSTimeInterval delay})'
   'UIView.setAnimationDelegate:':
     'prefix': 'setAnimationDelegate:'
-    'body': 'UIView.setAnimationDelegate(${1:id delegate})'
+    'body': 'setAnimationDelegate(${1:id delegate})'
   'UIView.setAnimationDidStopSelector:':
     'prefix': 'setAnimationDidStopSelector:'
-    'body': 'UIView.setAnimationDidStopSelector(${1:SEL selector})'
+    'body': 'setAnimationDidStopSelector(${1:SEL selector})'
   'UIView.setAnimationDuration:':
     'prefix': 'setAnimationDuration:'
-    'body': 'UIView.setAnimationDuration(${1:NSTimeInterval duration})'
+    'body': 'setAnimationDuration(${1:NSTimeInterval duration})'
   'UIView.setAnimationRepeatAutoreverses:':
     'prefix': 'setAnimationRepeatAutoreverses:'
-    'body': 'UIView.setAnimationRepeatAutoreverses(${1:BOOL repeatAutoreverses})'
+    'body': 'setAnimationRepeatAutoreverses(${1:BOOL repeatAutoreverses})'
   'UIView.setAnimationRepeatCount:':
     'prefix': 'setAnimationRepeatCount:'
-    'body': 'UIView.setAnimationRepeatCount(${1:float repeatCount})'
+    'body': 'setAnimationRepeatCount(${1:float repeatCount})'
   'UIView.setAnimationStartDate:':
     'prefix': 'setAnimationStartDate:'
-    'body': 'UIView.setAnimationStartDate(${1:NSDate* startDate})'
+    'body': 'setAnimationStartDate(${1:NSDate* startDate})'
   'UIView.setAnimationTransition:forView:cache:':
     'prefix': 'setAnimationTransition:forView:cache:'
-    'body': 'UIView.setAnimationTransition(${1:UIViewAnimationTransition transition}, forView:${2:UIView* view}, cache:${3:BOOL cache})'
+    'body': 'setAnimationTransition(${1:UIViewAnimationTransition transition}, forView:${2:UIView* view}, cache:${3:BOOL cache})'
   'UIView.setAnimationWillStartSelector:':
     'prefix': 'setAnimationWillStartSelector:'
-    'body': 'UIView.setAnimationWillStartSelector(${1:SEL selector})'
+    'body': 'setAnimationWillStartSelector(${1:SEL selector})'
   'UIView.setAnimationsEnabled:':
     'prefix': 'setAnimationsEnabled:'
-    'body': 'UIView.setAnimationsEnabled(${1:BOOL enabled})'
+    'body': 'setAnimationsEnabled(${1:BOOL enabled})'
   'setAutoresizesSubviews:':
     'prefix': 'setAutoresizesSubviews:'
     'body': 'setAutoresizesSubviews(${1:BOOL autoresizesSubviews})'
@@ -11665,10 +11665,10 @@
     'body': 'transform()'
   'UIView.transitionFromView:toView:duration:options:completion:':
     'prefix': 'transitionFromView:toView:duration:options:completion:'
-    'body': 'UIView.transitionFromView(${1:UIView* fromView}, toView:${2:UIView* toView}, duration:${3:NSTimeInterval duration}, options:${4:UIViewAnimationOptions options}, completion:${5:void (^)(BOOL) completion})'
+    'body': 'transitionFromView(${1:UIView* fromView}, toView:${2:UIView* toView}, duration:${3:NSTimeInterval duration}, options:${4:UIViewAnimationOptions options}, completion:${5:void (^)(BOOL) completion})'
   'UIView.transitionWithView:duration:options:animations:completion:':
     'prefix': 'transitionWithView:duration:options:animations:completion:'
-    'body': 'UIView.transitionWithView(${1:UIView* view}, duration:${2:NSTimeInterval duration}, options:${3:UIViewAnimationOptions options}, animations:${4:void (^)(void) animations}, completion:${5:void (^)(BOOL) completion})'
+    'body': 'transitionWithView(${1:UIView* view}, duration:${2:NSTimeInterval duration}, options:${3:UIViewAnimationOptions options}, animations:${4:void (^)(void) animations}, completion:${5:void (^)(BOOL) completion})'
   'translatesAutoresizingMaskIntoConstraints':
     'prefix': 'translatesAutoresizingMaskIntoConstraints'
     'body': 'translatesAutoresizingMaskIntoConstraints()'
@@ -11707,7 +11707,7 @@
     'body': 'applicationFinishedRestoringState()'
   'UIViewController.attemptRotationToDeviceOrientation':
     'prefix': 'attemptRotationToDeviceOrientation'
-    'body': 'UIViewController.attemptRotationToDeviceOrientation()'
+    'body': 'attemptRotationToDeviceOrientation()'
   'automaticallyAdjustsScrollViewInsets':
     'prefix': 'automaticallyAdjustsScrollViewInsets'
     'body': 'automaticallyAdjustsScrollViewInsets()'
@@ -12475,10 +12475,10 @@
     'body': 'willPresentAlertView(${1:UIAlertView* alertView})'
   'UIAppearance.appearance':
     'prefix': 'appearance'
-    'body': 'UIAppearance.appearance()'
+    'body': 'appearance()'
   'UIAppearance.appearanceWhenContainedIn:':
     'prefix': 'appearanceWhenContainedIn:'
-    'body': 'UIAppearance.appearanceWhenContainedIn(${1:Class* ContainerClass})'
+    'body': 'appearanceWhenContainedIn(${1:Class* ContainerClass})'
   'application:didChangeStatusBarFrame:':
     'prefix': 'application:didChangeStatusBarFrame:'
     'body': 'application(${1:UIApplication* application}, didChangeStatusBarFrame:${2:CGRect oldStatusBarFrame})'
@@ -12817,7 +12817,7 @@
     'body': 'awakeFromNib()'
   'UIObjectRestoration.objectWithRestorationIdentifierPath:coder:':
     'prefix': 'objectWithRestorationIdentifierPath:coder:'
-    'body': 'UIObjectRestoration.objectWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
+    'body': 'objectWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
   'pageViewController:viewControllerAfterViewController:':
     'prefix': 'pageViewController:viewControllerAfterViewController:'
     'body': 'pageViewController(${1:UIPageViewController* pageViewController}, viewControllerAfterViewController:${2:UIViewController* viewController})'
@@ -13579,7 +13579,7 @@
     'body': 'startInteractiveTransition(${1:id transitionContext})'
   'UIViewControllerRestoration.viewControllerWithRestorationIdentifierPath:coder:':
     'prefix': 'viewControllerWithRestorationIdentifierPath:coder:'
-    'body': 'UIViewControllerRestoration.viewControllerWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
+    'body': 'viewControllerWithRestorationIdentifierPath(${1:NSArray* identifierComponents}, coder:${2:NSCoder* coder})'
   'animateAlongsideTransition:completion:':
     'prefix': 'animateAlongsideTransition:completion:'
     'body': 'animateAlongsideTransition(${1:void (^)(id) animation}, completion:${2:void (^)(id) completion})'

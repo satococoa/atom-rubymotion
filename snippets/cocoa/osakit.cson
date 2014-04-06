@@ -109,13 +109,13 @@
     'body': 'OSASupportsRecording'
   'OSALanguage.availableLanguages':
     'prefix': 'availableLanguages'
-    'body': 'OSALanguage.availableLanguages()'
+    'body': 'availableLanguages()'
   'componentInstance':
     'prefix': 'componentInstance'
     'body': 'componentInstance()'
   'OSALanguage.defaultLanguage':
     'prefix': 'defaultLanguage'
-    'body': 'OSALanguage.defaultLanguage()'
+    'body': 'defaultLanguage()'
   'features':
     'prefix': 'features'
     'body': 'features()'
@@ -130,10 +130,10 @@
     'body': 'isThreadSafe()'
   'OSALanguage.languageForName:':
     'prefix': 'languageForName:'
-    'body': 'OSALanguage.languageForName(${1:NSString* name})'
+    'body': 'languageForName(${1:NSString* name})'
   'OSALanguage.languageForScriptDataDescriptor:':
     'prefix': 'languageForScriptDataDescriptor:'
-    'body': 'OSALanguage.languageForScriptDataDescriptor(${1:NSAppleEventDescriptor* descriptor})'
+    'body': 'languageForScriptDataDescriptor(${1:NSAppleEventDescriptor* descriptor})'
   'manufacturer':
     'prefix': 'manufacturer'
     'body': 'manufacturer()'
@@ -142,7 +142,7 @@
     'body': 'name()'
   'OSALanguage.setDefaultLanguage:':
     'prefix': 'setDefaultLanguage:'
-    'body': 'OSALanguage.setDefaultLanguage(${1:OSALanguage* defaultLanguage})'
+    'body': 'setDefaultLanguage(${1:OSALanguage* defaultLanguage})'
   'sharedLanguageInstance':
     'prefix': 'sharedLanguageInstance'
     'body': 'sharedLanguageInstance()'
@@ -166,7 +166,7 @@
     'body': 'language()'
   'OSALanguageInstance.languageInstanceWithLanguage:':
     'prefix': 'languageInstanceWithLanguage:'
-    'body': 'OSALanguageInstance.languageInstanceWithLanguage(${1:OSALanguage* language})'
+    'body': 'languageInstanceWithLanguage(${1:OSALanguage* language})'
   'compileAndReturnError:':
     'prefix': 'compileAndReturnError:'
     'body': 'compileAndReturnError(${1:NSDictionary** errorInfo})'
@@ -229,7 +229,7 @@
     'body': 'richTextSource()'
   'OSAScript.scriptDataDescriptorWithContentsOfURL:':
     'prefix': 'scriptDataDescriptorWithContentsOfURL:'
-    'body': 'OSAScript.scriptDataDescriptorWithContentsOfURL(${1:NSURL* url})'
+    'body': 'scriptDataDescriptorWithContentsOfURL(${1:NSURL* url})'
   'setLanguage:':
     'prefix': 'setLanguage:'
     'body': 'setLanguage(${1:OSALanguage* language})'

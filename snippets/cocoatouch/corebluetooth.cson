@@ -541,7 +541,7 @@
     'body': 'addService(${1:CBMutableService* service})'
   'CBPeripheralManager.authorizationStatus':
     'prefix': 'authorizationStatus'
-    'body': 'CBPeripheralManager.authorizationStatus()'
+    'body': 'authorizationStatus()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -604,16 +604,16 @@
     'body': 'UUIDString()'
   'CBUUID.UUIDWithCFUUID:':
     'prefix': 'UUIDWithCFUUID:'
-    'body': 'CBUUID.UUIDWithCFUUID(${1:CFUUIDRef theUUID})'
+    'body': 'UUIDWithCFUUID(${1:CFUUIDRef theUUID})'
   'CBUUID.UUIDWithData:':
     'prefix': 'UUIDWithData:'
-    'body': 'CBUUID.UUIDWithData(${1:NSData* theData})'
+    'body': 'UUIDWithData(${1:NSData* theData})'
   'CBUUID.UUIDWithNSUUID:':
     'prefix': 'UUIDWithNSUUID:'
-    'body': 'CBUUID.UUIDWithNSUUID(${1:NSUUID* theUUID})'
+    'body': 'UUIDWithNSUUID(${1:NSUUID* theUUID})'
   'CBUUID.UUIDWithString:':
     'prefix': 'UUIDWithString:'
-    'body': 'CBUUID.UUIDWithString(${1:NSString* theString})'
+    'body': 'UUIDWithString(${1:NSString* theString})'
   'data':
     'prefix': 'data'
     'body': 'data()'

@@ -268,7 +268,7 @@
     'body': 'lastReportedDate()'
   'GKAchievement.loadAchievementsWithCompletionHandler:':
     'prefix': 'loadAchievementsWithCompletionHandler:'
-    'body': 'GKAchievement.loadAchievementsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadAchievementsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'percentComplete':
     'prefix': 'percentComplete'
     'body': 'percentComplete()'
@@ -277,10 +277,10 @@
     'body': 'reportAchievementWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'GKAchievement.reportAchievements:withCompletionHandler:':
     'prefix': 'reportAchievements:withCompletionHandler:'
-    'body': 'GKAchievement.reportAchievements(${1:NSArray* achievements}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+    'body': 'reportAchievements(${1:NSArray* achievements}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
   'GKAchievement.resetAchievementsWithCompletionHandler:':
     'prefix': 'resetAchievementsWithCompletionHandler:'
-    'body': 'GKAchievement.resetAchievementsWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
+    'body': 'resetAchievementsWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'selectChallengeablePlayerIDs:withCompletionHandler:':
     'prefix': 'selectChallengeablePlayerIDs:withCompletionHandler:'
     'body': 'selectChallengeablePlayerIDs(${1:NSArray* playerIDs}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
@@ -313,7 +313,7 @@
     'body': 'image()'
   'GKAchievementDescription.incompleteAchievementImage':
     'prefix': 'incompleteAchievementImage'
-    'body': 'GKAchievementDescription.incompleteAchievementImage()'
+    'body': 'incompleteAchievementImage()'
   'isHidden':
     'prefix': 'isHidden'
     'body': 'isHidden()'
@@ -322,7 +322,7 @@
     'body': 'isReplayable()'
   'GKAchievementDescription.loadAchievementDescriptionsWithCompletionHandler:':
     'prefix': 'loadAchievementDescriptionsWithCompletionHandler:'
-    'body': 'GKAchievementDescription.loadAchievementDescriptionsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadAchievementDescriptionsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'loadImageWithCompletionHandler:':
     'prefix': 'loadImageWithCompletionHandler:'
     'body': 'loadImageWithCompletionHandler(${1:void (^)(NSImage *, NSError *) completionHandler})'
@@ -331,7 +331,7 @@
     'body': 'maximumPoints()'
   'GKAchievementDescription.placeholderCompletedAchievementImage':
     'prefix': 'placeholderCompletedAchievementImage'
-    'body': 'GKAchievementDescription.placeholderCompletedAchievementImage()'
+    'body': 'placeholderCompletedAchievementImage()'
   'setImage:':
     'prefix': 'setImage:'
     'body': 'setImage(${1:NSImage* image})'
@@ -361,7 +361,7 @@
     'body': 'issuingPlayerID()'
   'GKChallenge.loadReceivedChallengesWithCompletionHandler:':
     'prefix': 'loadReceivedChallengesWithCompletionHandler:'
-    'body': 'GKChallenge.loadReceivedChallengesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadReceivedChallengesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'message':
     'prefix': 'message'
     'body': 'message()'
@@ -373,7 +373,7 @@
     'body': 'state()'
   'GKChallengeEventHandler.challengeEventHandler':
     'prefix': 'challengeEventHandler'
-    'body': 'GKChallengeEventHandler.challengeEventHandler()'
+    'body': 'challengeEventHandler()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -400,7 +400,7 @@
     'body': 'setParentWindow(${1:NSWindow* parentWindow})'
   'GKDialogController.sharedDialogController':
     'prefix': 'sharedDialogController'
-    'body': 'GKDialogController.sharedDialogController()'
+    'body': 'sharedDialogController()'
   'addRecipientsWithEmailAddresses:':
     'prefix': 'addRecipientsWithEmailAddresses:'
     'body': 'addRecipientsWithEmailAddresses(${1:NSArray* emailAddresses})'
@@ -412,7 +412,7 @@
     'body': 'composeViewDelegate()'
   'GKFriendRequestComposeViewController.maxNumberOfRecipients':
     'prefix': 'maxNumberOfRecipients'
-    'body': 'GKFriendRequestComposeViewController.maxNumberOfRecipients()'
+    'body': 'maxNumberOfRecipients()'
   'setComposeViewDelegate:':
     'prefix': 'setComposeViewDelegate:'
     'body': 'setComposeViewDelegate(${1:id composeViewDelegate})'
@@ -472,13 +472,13 @@
     'body': 'isLoading()'
   'GKLeaderboard.loadCategoriesWithCompletionHandler:':
     'prefix': 'loadCategoriesWithCompletionHandler:'
-    'body': 'GKLeaderboard.loadCategoriesWithCompletionHandler(${1:void (^)(NSArray *, NSArray *, NSError *) completionHandler})'
+    'body': 'loadCategoriesWithCompletionHandler(${1:void (^)(NSArray *, NSArray *, NSError *) completionHandler})'
   'loadImageWithCompletionHandler:':
     'prefix': 'loadImageWithCompletionHandler:'
     'body': 'loadImageWithCompletionHandler(${1:void (^)(NSImage *, NSError *) completionHandler})'
   'GKLeaderboard.loadLeaderboardsWithCompletionHandler:':
     'prefix': 'loadLeaderboardsWithCompletionHandler:'
-    'body': 'GKLeaderboard.loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadLeaderboardsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'loadScoresWithCompletionHandler:':
     'prefix': 'loadScoresWithCompletionHandler:'
     'body': 'loadScoresWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
@@ -502,7 +502,7 @@
     'body': 'setCategory(${1:NSString* category})'
   'GKLeaderboard.setDefaultLeaderboard:withCompletionHandler:':
     'prefix': 'setDefaultLeaderboard:withCompletionHandler:'
-    'body': 'GKLeaderboard.setDefaultLeaderboard(${1:NSString* categoryID}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+    'body': 'setDefaultLeaderboard(${1:NSString* categoryID}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
   'setPlayerScope:':
     'prefix': 'setPlayerScope:'
     'body': 'setPlayerScope(${1:GKLeaderboardPlayerScope playerScope})'
@@ -559,7 +559,7 @@
     'body': 'loadFriendsWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'GKLocalPlayer.localPlayer':
     'prefix': 'localPlayer'
-    'body': 'GKLocalPlayer.localPlayer()'
+    'body': 'localPlayer()'
   'setAuthenticateHandler:':
     'prefix': 'setAuthenticateHandler:'
     'body': 'setAuthenticateHandler(${1:void (^)(NSViewController *, NSError *) authenticateHandler})'
@@ -610,7 +610,7 @@
     'body': 'maxPlayers()'
   'GKMatchRequest.maxPlayersAllowedForMatchOfType:':
     'prefix': 'maxPlayersAllowedForMatchOfType:'
-    'body': 'GKMatchRequest.maxPlayersAllowedForMatchOfType(${1:GKMatchType matchType})'
+    'body': 'maxPlayersAllowedForMatchOfType(${1:GKMatchType matchType})'
   'minPlayers':
     'prefix': 'minPlayers'
     'body': 'minPlayers()'
@@ -682,7 +682,7 @@
     'body': 'setInviteHandler(${1:void (^)(GKInvite *, NSArray *) inviteHandler})'
   'GKMatchmaker.sharedMatchmaker':
     'prefix': 'sharedMatchmaker'
-    'body': 'GKMatchmaker.sharedMatchmaker()'
+    'body': 'sharedMatchmaker()'
   'startBrowsingForNearbyPlayersWithReachableHandler:':
     'prefix': 'startBrowsingForNearbyPlayersWithReachableHandler:'
     'body': 'startBrowsingForNearbyPlayersWithReachableHandler(${1:void (^)(NSString *, BOOL) reachableHandler})'
@@ -724,10 +724,10 @@
     'body': 'setMatchmakerDelegate(${1:id matchmakerDelegate})'
   'GKNotificationBanner.showBannerWithTitle:message:completionHandler:':
     'prefix': 'showBannerWithTitle:message:completionHandler:'
-    'body': 'GKNotificationBanner.showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, completionHandler:${3:void (^)(void) completionHandler})'
+    'body': 'showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, completionHandler:${3:void (^)(void) completionHandler})'
   'GKNotificationBanner.showBannerWithTitle:message:duration:completionHandler:':
     'prefix': 'showBannerWithTitle:message:duration:completionHandler:'
-    'body': 'GKNotificationBanner.showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, duration:${3:NSTimeInterval duration}, completionHandler:${4:void (^)(void) completionHandler})'
+    'body': 'showBannerWithTitle(${1:NSString* title}, message:${2:NSString* message}, duration:${3:NSTimeInterval duration}, completionHandler:${4:void (^)(void) completionHandler})'
   'alias':
     'prefix': 'alias'
     'body': 'alias()'
@@ -742,7 +742,7 @@
     'body': 'loadPhotoForSize(${1:GKPhotoSize size}, withCompletionHandler:${2:void (^)(NSImage *, NSError *) completionHandler})'
   'GKPlayer.loadPlayersForIdentifiers:withCompletionHandler:':
     'prefix': 'loadPlayersForIdentifiers:withCompletionHandler:'
-    'body': 'GKPlayer.loadPlayersForIdentifiers(${1:NSArray* identifiers}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadPlayersForIdentifiers(${1:NSArray* identifiers}, withCompletionHandler:${2:void (^)(NSArray *, NSError *) completionHandler})'
   'playerID':
     'prefix': 'playerID'
     'body': 'playerID()'
@@ -775,7 +775,7 @@
     'body': 'reportScoreWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'GKScore.reportScores:withCompletionHandler:':
     'prefix': 'reportScores:withCompletionHandler:'
-    'body': 'GKScore.reportScores(${1:NSArray* scores}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
+    'body': 'reportScores(${1:NSArray* scores}, withCompletionHandler:${2:void (^)(NSError *) completionHandler})'
   'setCategory:':
     'prefix': 'setCategory:'
     'body': 'setCategory(${1:NSString* category})'
@@ -805,7 +805,7 @@
     'body': 'setDelegate(${1:NSObject* delegate})'
   'GKTurnBasedEventHandler.sharedTurnBasedEventHandler':
     'prefix': 'sharedTurnBasedEventHandler'
-    'body': 'GKTurnBasedEventHandler.sharedTurnBasedEventHandler()'
+    'body': 'sharedTurnBasedEventHandler()'
   'acceptInviteWithCompletionHandler:':
     'prefix': 'acceptInviteWithCompletionHandler:'
     'body': 'acceptInviteWithCompletionHandler(${1:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
@@ -829,16 +829,16 @@
     'body': 'endTurnWithNextParticipants(${1:NSArray* nextParticipants}, turnTimeout:${2:NSTimeInterval timeout}, matchData:${3:NSData* matchData}, completionHandler:${4:void (^)(NSError *) completionHandler})'
   'GKTurnBasedMatch.findMatchForRequest:withCompletionHandler:':
     'prefix': 'findMatchForRequest:withCompletionHandler:'
-    'body': 'GKTurnBasedMatch.findMatchForRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+    'body': 'findMatchForRequest(${1:GKMatchRequest* request}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
   'loadMatchDataWithCompletionHandler:':
     'prefix': 'loadMatchDataWithCompletionHandler:'
     'body': 'loadMatchDataWithCompletionHandler(${1:void (^)(NSData *, NSError *) completionHandler})'
   'GKTurnBasedMatch.loadMatchWithID:withCompletionHandler:':
     'prefix': 'loadMatchWithID:withCompletionHandler:'
-    'body': 'GKTurnBasedMatch.loadMatchWithID(${1:NSString* matchID}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
+    'body': 'loadMatchWithID(${1:NSString* matchID}, withCompletionHandler:${2:void (^)(GKTurnBasedMatch *, NSError *) completionHandler})'
   'GKTurnBasedMatch.loadMatchesWithCompletionHandler:':
     'prefix': 'loadMatchesWithCompletionHandler:'
-    'body': 'GKTurnBasedMatch.loadMatchesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
+    'body': 'loadMatchesWithCompletionHandler(${1:void (^)(NSArray *, NSError *) completionHandler})'
   'matchData':
     'prefix': 'matchData'
     'body': 'matchData()'
@@ -916,7 +916,7 @@
     'body': 'isActive()'
   'GKVoiceChat.isVoIPAllowed':
     'prefix': 'isVoIPAllowed'
-    'body': 'GKVoiceChat.isVoIPAllowed()'
+    'body': 'isVoIPAllowed()'
   'name':
     'prefix': 'name'
     'body': 'name()'

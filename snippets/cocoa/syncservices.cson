@@ -157,7 +157,7 @@
     'body': 'ISyncStatusWarnings'
   'ISyncChange.changeWithType:recordIdentifier:changes:':
     'prefix': 'changeWithType:recordIdentifier:changes:'
-    'body': 'ISyncChange.changeWithType(${1:ISyncChangeType type}, recordIdentifier:${2:NSString* recordIdentifier}, changes:${3:NSArray* changes})'
+    'body': 'changeWithType(${1:ISyncChangeType type}, recordIdentifier:${2:NSString* recordIdentifier}, changes:${3:NSArray* changes})'
   'changes':
     'prefix': 'changes'
     'body': 'changes()'
@@ -256,10 +256,10 @@
     'body': 'syncAlertToolPath()'
   'ISyncFilter.filterMatchingAllFilters:':
     'prefix': 'filterMatchingAllFilters:'
-    'body': 'ISyncFilter.filterMatchingAllFilters(${1:NSArray* filters})'
+    'body': 'filterMatchingAllFilters(${1:NSArray* filters})'
   'ISyncFilter.filterMatchingAtLeastOneFilter:':
     'prefix': 'filterMatchingAtLeastOneFilter:'
-    'body': 'ISyncFilter.filterMatchingAtLeastOneFilter(${1:NSArray* filters})'
+    'body': 'filterMatchingAtLeastOneFilter(${1:NSArray* filters})'
   'addRequestMode:':
     'prefix': 'addRequestMode:'
     'body': 'addRequestMode(${1:NSString* mode})'
@@ -286,7 +286,7 @@
     'body': 'requestModes()'
   'ISyncManager.sharedManager':
     'prefix': 'sharedManager'
-    'body': 'ISyncManager.sharedManager()'
+    'body': 'sharedManager()'
   'snapshotOfRecordsInTruthWithEntityNames:usingIdentifiersForClient:':
     'prefix': 'snapshotOfRecordsInTruthWithEntityNames:usingIdentifiersForClient:'
     'body': 'snapshotOfRecordsInTruthWithEntityNames(${1:NSArray* entityNames}, usingIdentifiersForClient:${2:ISyncClient* client})'
@@ -319,19 +319,19 @@
     'body': 'targetIdentifiersForRelationshipName(${1:NSString* relationshipName}, withSourceIdentifier:${2:NSString* sourceId})'
   'ISyncSession.beginSessionInBackgroundWithClient:entityNames:target:selector:':
     'prefix': 'beginSessionInBackgroundWithClient:entityNames:target:selector:'
-    'body': 'ISyncSession.beginSessionInBackgroundWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, target:${3:id target}, selector:${4:SEL selector})'
+    'body': 'beginSessionInBackgroundWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, target:${3:id target}, selector:${4:SEL selector})'
   'ISyncSession.beginSessionInBackgroundWithClient:entityNames:target:selector:lastAnchors:':
     'prefix': 'beginSessionInBackgroundWithClient:entityNames:target:selector:lastAnchors:'
-    'body': 'ISyncSession.beginSessionInBackgroundWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, target:${3:id target}, selector:${4:SEL selector}, lastAnchors:${5:NSDictionary* anchors})'
+    'body': 'beginSessionInBackgroundWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, target:${3:id target}, selector:${4:SEL selector}, lastAnchors:${5:NSDictionary* anchors})'
   'ISyncSession.beginSessionWithClient:entityNames:beforeDate:':
     'prefix': 'beginSessionWithClient:entityNames:beforeDate:'
-    'body': 'ISyncSession.beginSessionWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, beforeDate:${3:NSDate* date})'
+    'body': 'beginSessionWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, beforeDate:${3:NSDate* date})'
   'ISyncSession.beginSessionWithClient:entityNames:beforeDate:lastAnchors:':
     'prefix': 'beginSessionWithClient:entityNames:beforeDate:lastAnchors:'
-    'body': 'ISyncSession.beginSessionWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, beforeDate:${3:NSDate* date}, lastAnchors:${4:NSDictionary* anchors})'
+    'body': 'beginSessionWithClient(${1:ISyncClient* client}, entityNames:${2:NSArray* entityNames}, beforeDate:${3:NSDate* date}, lastAnchors:${4:NSDictionary* anchors})'
   'ISyncSession.cancelPreviousBeginSessionWithClient:':
     'prefix': 'cancelPreviousBeginSessionWithClient:'
-    'body': 'ISyncSession.cancelPreviousBeginSessionWithClient(${1:ISyncClient* client})'
+    'body': 'cancelPreviousBeginSessionWithClient(${1:ISyncClient* client})'
   'cancelSyncing':
     'prefix': 'cancelSyncing'
     'body': 'cancelSyncing()'
@@ -433,7 +433,7 @@
     'body': 'session()'
   'ISyncSessionDriver.sessionDriverWithDataSource:':
     'prefix': 'sessionDriverWithDataSource:'
-    'body': 'ISyncSessionDriver.sessionDriverWithDataSource(${1:id dataSource})'
+    'body': 'sessionDriverWithDataSource(${1:id dataSource})'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'

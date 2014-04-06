@@ -1954,7 +1954,7 @@
     'body': 'AVMakeRectWithAspectRatioInsideRect(${1:CGSize aspectRatio}, ${2:CGRect boundingRect})'
   'AVAsset.assetWithURL:':
     'prefix': 'assetWithURL:'
-    'body': 'AVAsset.assetWithURL(${1:NSURL* URL})'
+    'body': 'assetWithURL(${1:NSURL* URL})'
   'availableChapterLocales':
     'prefix': 'availableChapterLocales'
     'body': 'availableChapterLocales()'
@@ -2047,7 +2047,7 @@
     'body': 'unusedTrackID()'
   'AVAssetExportSession.allExportPresets':
     'prefix': 'allExportPresets'
-    'body': 'AVAssetExportSession.allExportPresets()'
+    'body': 'allExportPresets()'
   'asset':
     'prefix': 'asset'
     'body': 'asset()'
@@ -2065,7 +2065,7 @@
     'body': 'customVideoCompositor()'
   'AVAssetExportSession.determineCompatibilityOfExportPreset:withAsset:outputFileType:completionHandler:':
     'prefix': 'determineCompatibilityOfExportPreset:withAsset:outputFileType:completionHandler:'
-    'body': 'AVAssetExportSession.determineCompatibilityOfExportPreset(${1:NSString* presetName}, withAsset:${2:AVAsset* asset}, outputFileType:${3:NSString* outputFileType}, completionHandler:${4:void (^)(BOOL) handler})'
+    'body': 'determineCompatibilityOfExportPreset(${1:NSString* presetName}, withAsset:${2:AVAsset* asset}, outputFileType:${3:NSString* outputFileType}, completionHandler:${4:void (^)(BOOL) handler})'
   'determineCompatibleFileTypesWithCompletionHandler:':
     'prefix': 'determineCompatibleFileTypesWithCompletionHandler:'
     'body': 'determineCompatibleFileTypesWithCompletionHandler(${1:void (^)(NSArray *) handler})'
@@ -2080,10 +2080,10 @@
     'body': 'exportAsynchronouslyWithCompletionHandler(${1:void (^)(void) handler})'
   'AVAssetExportSession.exportPresetsCompatibleWithAsset:':
     'prefix': 'exportPresetsCompatibleWithAsset:'
-    'body': 'AVAssetExportSession.exportPresetsCompatibleWithAsset(${1:AVAsset* asset})'
+    'body': 'exportPresetsCompatibleWithAsset(${1:AVAsset* asset})'
   'AVAssetExportSession.exportSessionWithAsset:presetName:':
     'prefix': 'exportSessionWithAsset:presetName:'
-    'body': 'AVAssetExportSession.exportSessionWithAsset(${1:AVAsset* asset}, presetName:${2:NSString* presetName})'
+    'body': 'exportSessionWithAsset(${1:AVAsset* asset}, presetName:${2:NSString* presetName})'
   'fileLengthLimit':
     'prefix': 'fileLengthLimit'
     'body': 'fileLengthLimit()'
@@ -2167,7 +2167,7 @@
     'body': 'asset()'
   'AVAssetImageGenerator.assetImageGeneratorWithAsset:':
     'prefix': 'assetImageGeneratorWithAsset:'
-    'body': 'AVAssetImageGenerator.assetImageGeneratorWithAsset(${1:AVAsset* asset})'
+    'body': 'assetImageGeneratorWithAsset(${1:AVAsset* asset})'
   'cancelAllCGImageGeneration':
     'prefix': 'cancelAllCGImageGeneration'
     'body': 'cancelAllCGImageGeneration()'
@@ -2221,7 +2221,7 @@
     'body': 'asset()'
   'AVAssetReader.assetReaderWithAsset:error:':
     'prefix': 'assetReaderWithAsset:error:'
-    'body': 'AVAssetReader.assetReaderWithAsset(${1:AVAsset* asset}, error:${2:NSError** outError})'
+    'body': 'assetReaderWithAsset(${1:AVAsset* asset}, error:${2:NSError** outError})'
   'canAddOutput:':
     'prefix': 'canAddOutput:'
     'body': 'canAddOutput(${1:AVAssetReaderOutput* output})'
@@ -2251,7 +2251,7 @@
     'body': 'timeRange()'
   'AVAssetReaderAudioMixOutput.assetReaderAudioMixOutputWithAudioTracks:audioSettings:':
     'prefix': 'assetReaderAudioMixOutputWithAudioTracks:audioSettings:'
-    'body': 'AVAssetReaderAudioMixOutput.assetReaderAudioMixOutputWithAudioTracks(${1:NSArray* audioTracks}, audioSettings:${2:NSDictionary* audioSettings})'
+    'body': 'assetReaderAudioMixOutputWithAudioTracks(${1:NSArray* audioTracks}, audioSettings:${2:NSDictionary* audioSettings})'
   'audioMix':
     'prefix': 'audioMix'
     'body': 'audioMix()'
@@ -2287,7 +2287,7 @@
     'body': 'setAlwaysCopiesSampleData(${1:BOOL alwaysCopiesSampleData})'
   'AVAssetReaderTrackOutput.assetReaderTrackOutputWithTrack:outputSettings:':
     'prefix': 'assetReaderTrackOutputWithTrack:outputSettings:'
-    'body': 'AVAssetReaderTrackOutput.assetReaderTrackOutputWithTrack(${1:AVAssetTrack* track}, outputSettings:${2:NSDictionary* outputSettings})'
+    'body': 'assetReaderTrackOutputWithTrack(${1:AVAssetTrack* track}, outputSettings:${2:NSDictionary* outputSettings})'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
     'body': 'audioTimePitchAlgorithm()'
@@ -2305,7 +2305,7 @@
     'body': 'track()'
   'AVAssetReaderVideoCompositionOutput.assetReaderVideoCompositionOutputWithVideoTracks:videoSettings:':
     'prefix': 'assetReaderVideoCompositionOutputWithVideoTracks:videoSettings:'
-    'body': 'AVAssetReaderVideoCompositionOutput.assetReaderVideoCompositionOutputWithVideoTracks(${1:NSArray* videoTracks}, videoSettings:${2:NSDictionary* videoSettings})'
+    'body': 'assetReaderVideoCompositionOutputWithVideoTracks(${1:NSArray* videoTracks}, videoSettings:${2:NSDictionary* videoSettings})'
   'customVideoCompositor':
     'prefix': 'customVideoCompositor'
     'body': 'customVideoCompositor()'
@@ -2500,7 +2500,7 @@
     'body': 'addInputGroup(${1:AVAssetWriterInputGroup* inputGroup})'
   'AVAssetWriter.assetWriterWithURL:fileType:error:':
     'prefix': 'assetWriterWithURL:fileType:error:'
-    'body': 'AVAssetWriter.assetWriterWithURL(${1:NSURL* outputURL}, fileType:${2:NSString* outputFileType}, error:${3:NSError** outError})'
+    'body': 'assetWriterWithURL(${1:NSURL* outputURL}, fileType:${2:NSString* outputFileType}, error:${3:NSError** outError})'
   'availableMediaTypes':
     'prefix': 'availableMediaTypes'
     'body': 'availableMediaTypes()'
@@ -2584,10 +2584,10 @@
     'body': 'appendSampleBuffer(${1:CMSampleBufferRef sampleBuffer})'
   'AVAssetWriterInput.assetWriterInputWithMediaType:outputSettings:':
     'prefix': 'assetWriterInputWithMediaType:outputSettings:'
-    'body': 'AVAssetWriterInput.assetWriterInputWithMediaType(${1:NSString* mediaType}, outputSettings:${2:NSDictionary* outputSettings})'
+    'body': 'assetWriterInputWithMediaType(${1:NSString* mediaType}, outputSettings:${2:NSDictionary* outputSettings})'
   'AVAssetWriterInput.assetWriterInputWithMediaType:outputSettings:sourceFormatHint:':
     'prefix': 'assetWriterInputWithMediaType:outputSettings:sourceFormatHint:'
-    'body': 'AVAssetWriterInput.assetWriterInputWithMediaType(${1:NSString* mediaType}, outputSettings:${2:NSDictionary* outputSettings}, sourceFormatHint:${3:CMFormatDescriptionRef sourceFormatHint})'
+    'body': 'assetWriterInputWithMediaType(${1:NSString* mediaType}, outputSettings:${2:NSDictionary* outputSettings}, sourceFormatHint:${3:CMFormatDescriptionRef sourceFormatHint})'
   'canAddTrackAssociationWithTrackOfInput:type:':
     'prefix': 'canAddTrackAssociationWithTrackOfInput:type:'
     'body': 'canAddTrackAssociationWithTrackOfInput(${1:AVAssetWriterInput* input}, type:${2:NSString* trackAssociationType})'
@@ -2671,7 +2671,7 @@
     'body': 'transform()'
   'AVAssetWriterInputGroup.assetWriterInputGroupWithInputs:defaultInput:':
     'prefix': 'assetWriterInputGroupWithInputs:defaultInput:'
-    'body': 'AVAssetWriterInputGroup.assetWriterInputGroupWithInputs(${1:NSArray* inputs}, defaultInput:${2:AVAssetWriterInput* defaultInput})'
+    'body': 'assetWriterInputGroupWithInputs(${1:NSArray* inputs}, defaultInput:${2:AVAssetWriterInput* defaultInput})'
   'defaultInput':
     'prefix': 'defaultInput'
     'body': 'defaultInput()'
@@ -2689,7 +2689,7 @@
     'body': 'assetWriterInput()'
   'AVAssetWriterInputPixelBufferAdaptor.assetWriterInputPixelBufferAdaptorWithAssetWriterInput:sourcePixelBufferAttributes:':
     'prefix': 'assetWriterInputPixelBufferAdaptorWithAssetWriterInput:sourcePixelBufferAttributes:'
-    'body': 'AVAssetWriterInputPixelBufferAdaptor.assetWriterInputPixelBufferAdaptorWithAssetWriterInput(${1:AVAssetWriterInput* input}, sourcePixelBufferAttributes:${2:NSDictionary* sourcePixelBufferAttributes})'
+    'body': 'assetWriterInputPixelBufferAdaptorWithAssetWriterInput(${1:AVAssetWriterInput* input}, sourcePixelBufferAttributes:${2:NSDictionary* sourcePixelBufferAttributes})'
   'initWithAssetWriterInput:sourcePixelBufferAttributes:':
     'prefix': 'initWithAssetWriterInput:sourcePixelBufferAttributes:'
     'body': 'initWithAssetWriterInput(${1:AVAssetWriterInput* input}, sourcePixelBufferAttributes:${2:NSDictionary* sourcePixelBufferAttributes})'
@@ -3073,7 +3073,7 @@
     'body': 'setPreferredSampleRate(${1:double sampleRate}, error:${2:NSError** outError})'
   'AVAudioSession.sharedInstance':
     'prefix': 'sharedInstance'
-    'body': 'AVAudioSession.sharedInstance()'
+    'body': 'sharedInstance()'
   'channelLabel':
     'prefix': 'channelLabel'
     'body': 'channelLabel()'
@@ -3253,7 +3253,7 @@
     'body': 'activeVideoMinFrameDuration()'
   'AVCaptureDevice.authorizationStatusForMediaType:':
     'prefix': 'authorizationStatusForMediaType:'
-    'body': 'AVCaptureDevice.authorizationStatusForMediaType(${1:NSString* mediaType})'
+    'body': 'authorizationStatusForMediaType(${1:NSString* mediaType})'
   'autoFocusRangeRestriction':
     'prefix': 'autoFocusRangeRestriction'
     'body': 'autoFocusRangeRestriction()'
@@ -3265,16 +3265,16 @@
     'body': 'cancelVideoZoomRamp()'
   'AVCaptureDevice.defaultDeviceWithMediaType:':
     'prefix': 'defaultDeviceWithMediaType:'
-    'body': 'AVCaptureDevice.defaultDeviceWithMediaType(${1:NSString* mediaType})'
+    'body': 'defaultDeviceWithMediaType(${1:NSString* mediaType})'
   'AVCaptureDevice.deviceWithUniqueID:':
     'prefix': 'deviceWithUniqueID:'
-    'body': 'AVCaptureDevice.deviceWithUniqueID(${1:NSString* deviceUniqueID})'
+    'body': 'deviceWithUniqueID(${1:NSString* deviceUniqueID})'
   'AVCaptureDevice.devices':
     'prefix': 'devices'
-    'body': 'AVCaptureDevice.devices()'
+    'body': 'devices()'
   'AVCaptureDevice.devicesWithMediaType:':
     'prefix': 'devicesWithMediaType:'
-    'body': 'AVCaptureDevice.devicesWithMediaType(${1:NSString* mediaType})'
+    'body': 'devicesWithMediaType(${1:NSString* mediaType})'
   'exposureMode':
     'prefix': 'exposureMode'
     'body': 'exposureMode()'
@@ -3385,7 +3385,7 @@
     'body': 'rampToVideoZoomFactor(${1:CGFloat factor}, withRate:${2:float rate})'
   'AVCaptureDevice.requestAccessForMediaType:completionHandler:':
     'prefix': 'requestAccessForMediaType:completionHandler:'
-    'body': 'AVCaptureDevice.requestAccessForMediaType(${1:NSString* mediaType}, completionHandler:${2:void (^)(BOOL) handler})'
+    'body': 'requestAccessForMediaType(${1:NSString* mediaType}, completionHandler:${2:void (^)(BOOL) handler})'
   'setActiveFormat:':
     'prefix': 'setActiveFormat:'
     'body': 'setActiveFormat(${1:AVCaptureDeviceFormat* activeFormat})'
@@ -3484,7 +3484,7 @@
     'body': 'device()'
   'AVCaptureDeviceInput.deviceInputWithDevice:error:':
     'prefix': 'deviceInputWithDevice:error:'
-    'body': 'AVCaptureDeviceInput.deviceInputWithDevice(${1:AVCaptureDevice* device}, error:${2:NSError** outError})'
+    'body': 'deviceInputWithDevice(${1:AVCaptureDevice* device}, error:${2:NSError** outError})'
   'initWithDevice:error:':
     'prefix': 'initWithDevice:error:'
     'body': 'initWithDevice(${1:AVCaptureDevice* device}, error:${2:NSError** outError})'
@@ -3685,7 +3685,7 @@
     'body': 'isStillImageStabilizationSupported()'
   'AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation:':
     'prefix': 'jpegStillImageNSDataRepresentation:'
-    'body': 'AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(${1:CMSampleBufferRef jpegSampleBuffer})'
+    'body': 'jpegStillImageNSDataRepresentation(${1:CMSampleBufferRef jpegSampleBuffer})'
   'outputSettings':
     'prefix': 'outputSettings'
     'body': 'outputSettings()'
@@ -3754,7 +3754,7 @@
     'body': 'isOrientationSupported()'
   'AVCaptureVideoPreviewLayer.layerWithSession:':
     'prefix': 'layerWithSession:'
-    'body': 'AVCaptureVideoPreviewLayer.layerWithSession(${1:AVCaptureSession* session})'
+    'body': 'layerWithSession(${1:AVCaptureSession* session})'
   'metadataOutputRectOfInterestForRect:':
     'prefix': 'metadataOutputRectOfInterestForRect:'
     'body': 'metadataOutputRectOfInterestForRect(${1:CGRect rectInLayerCoordinates})'
@@ -3802,10 +3802,10 @@
     'body': 'segments()'
   'AVCompositionTrackSegment.compositionTrackSegmentWithTimeRange:':
     'prefix': 'compositionTrackSegmentWithTimeRange:'
-    'body': 'AVCompositionTrackSegment.compositionTrackSegmentWithTimeRange(${1:CMTimeRange timeRange})'
+    'body': 'compositionTrackSegmentWithTimeRange(${1:CMTimeRange timeRange})'
   'AVCompositionTrackSegment.compositionTrackSegmentWithURL:trackID:sourceTimeRange:targetTimeRange:':
     'prefix': 'compositionTrackSegmentWithURL:trackID:sourceTimeRange:targetTimeRange:'
-    'body': 'AVCompositionTrackSegment.compositionTrackSegmentWithURL(${1:NSURL* URL}, trackID:${2:CMPersistentTrackID trackID}, sourceTimeRange:${3:CMTimeRange sourceTimeRange}, targetTimeRange:${4:CMTimeRange targetTimeRange})'
+    'body': 'compositionTrackSegmentWithURL(${1:NSURL* URL}, trackID:${2:CMPersistentTrackID trackID}, sourceTimeRange:${3:CMTimeRange sourceTimeRange}, targetTimeRange:${4:CMTimeRange targetTimeRange})'
   'initWithTimeRange:':
     'prefix': 'initWithTimeRange:'
     'body': 'initWithTimeRange(${1:CMTimeRange timeRange})'
@@ -3841,22 +3841,22 @@
     'body': 'mediaSelectionOptionWithPropertyList(${1:id plist})'
   'AVMediaSelectionGroup.mediaSelectionOptionsFromArray:filteredAndSortedAccordingToPreferredLanguages:':
     'prefix': 'mediaSelectionOptionsFromArray:filteredAndSortedAccordingToPreferredLanguages:'
-    'body': 'AVMediaSelectionGroup.mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, filteredAndSortedAccordingToPreferredLanguages:${2:NSArray* preferredLanguages})'
+    'body': 'mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, filteredAndSortedAccordingToPreferredLanguages:${2:NSArray* preferredLanguages})'
   'AVMediaSelectionGroup.mediaSelectionOptionsFromArray:withLocale:':
     'prefix': 'mediaSelectionOptionsFromArray:withLocale:'
-    'body': 'AVMediaSelectionGroup.mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withLocale:${2:NSLocale* locale})'
+    'body': 'mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withLocale:${2:NSLocale* locale})'
   'AVMediaSelectionGroup.mediaSelectionOptionsFromArray:withMediaCharacteristics:':
     'prefix': 'mediaSelectionOptionsFromArray:withMediaCharacteristics:'
-    'body': 'AVMediaSelectionGroup.mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withMediaCharacteristics:${2:NSArray* mediaCharacteristics})'
+    'body': 'mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withMediaCharacteristics:${2:NSArray* mediaCharacteristics})'
   'AVMediaSelectionGroup.mediaSelectionOptionsFromArray:withoutMediaCharacteristics:':
     'prefix': 'mediaSelectionOptionsFromArray:withoutMediaCharacteristics:'
-    'body': 'AVMediaSelectionGroup.mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withoutMediaCharacteristics:${2:NSArray* mediaCharacteristics})'
+    'body': 'mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withoutMediaCharacteristics:${2:NSArray* mediaCharacteristics})'
   'options':
     'prefix': 'options'
     'body': 'options()'
   'AVMediaSelectionGroup.playableMediaSelectionOptionsFromArray:':
     'prefix': 'playableMediaSelectionOptionsFromArray:'
-    'body': 'AVMediaSelectionGroup.playableMediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions})'
+    'body': 'playableMediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions})'
   'associatedMediaSelectionOptionInMediaSelectionGroup:':
     'prefix': 'associatedMediaSelectionOptionInMediaSelectionGroup:'
     'body': 'associatedMediaSelectionOptionInMediaSelectionGroup(${1:AVMediaSelectionGroup* mediaSelectionGroup})'
@@ -3940,16 +3940,16 @@
     'body': 'locale()'
   'AVMetadataItem.metadataItemsFromArray:filteredAndSortedAccordingToPreferredLanguages:':
     'prefix': 'metadataItemsFromArray:filteredAndSortedAccordingToPreferredLanguages:'
-    'body': 'AVMetadataItem.metadataItemsFromArray(${1:NSArray* metadataItems}, filteredAndSortedAccordingToPreferredLanguages:${2:NSArray* preferredLanguages})'
+    'body': 'metadataItemsFromArray(${1:NSArray* metadataItems}, filteredAndSortedAccordingToPreferredLanguages:${2:NSArray* preferredLanguages})'
   'AVMetadataItem.metadataItemsFromArray:filteredByMetadataItemFilter:':
     'prefix': 'metadataItemsFromArray:filteredByMetadataItemFilter:'
-    'body': 'AVMetadataItem.metadataItemsFromArray(${1:NSArray* metadataItems}, filteredByMetadataItemFilter:${2:AVMetadataItemFilter* metadataItemFilter})'
+    'body': 'metadataItemsFromArray(${1:NSArray* metadataItems}, filteredByMetadataItemFilter:${2:AVMetadataItemFilter* metadataItemFilter})'
   'AVMetadataItem.metadataItemsFromArray:withKey:keySpace:':
     'prefix': 'metadataItemsFromArray:withKey:keySpace:'
-    'body': 'AVMetadataItem.metadataItemsFromArray(${1:NSArray* metadataItems}, withKey:${2:id key}, keySpace:${3:NSString* keySpace})'
+    'body': 'metadataItemsFromArray(${1:NSArray* metadataItems}, withKey:${2:id key}, keySpace:${3:NSString* keySpace})'
   'AVMetadataItem.metadataItemsFromArray:withLocale:':
     'prefix': 'metadataItemsFromArray:withLocale:'
-    'body': 'AVMetadataItem.metadataItemsFromArray(${1:NSArray* metadataItems}, withLocale:${2:NSLocale* locale})'
+    'body': 'metadataItemsFromArray(${1:NSArray* metadataItems}, withLocale:${2:NSLocale* locale})'
   'numberValue':
     'prefix': 'numberValue'
     'body': 'numberValue()'
@@ -3967,7 +3967,7 @@
     'body': 'value()'
   'AVMetadataItemFilter.metadataItemFilterForSharing':
     'prefix': 'metadataItemFilterForSharing'
-    'body': 'AVMetadataItemFilter.metadataItemFilterForSharing()'
+    'body': 'metadataItemFilterForSharing()'
   'corners':
     'prefix': 'corners'
     'body': 'corners()'
@@ -3988,7 +3988,7 @@
     'body': 'type()'
   'AVMutableAudioMix.audioMix':
     'prefix': 'audioMix'
-    'body': 'AVMutableAudioMix.audioMix()'
+    'body': 'audioMix()'
   'inputParameters':
     'prefix': 'inputParameters'
     'body': 'inputParameters()'
@@ -3997,10 +3997,10 @@
     'body': 'setInputParameters(${1:NSArray* inputParameters})'
   'AVMutableAudioMixInputParameters.audioMixInputParameters':
     'prefix': 'audioMixInputParameters'
-    'body': 'AVMutableAudioMixInputParameters.audioMixInputParameters()'
+    'body': 'audioMixInputParameters()'
   'AVMutableAudioMixInputParameters.audioMixInputParametersWithTrack:':
     'prefix': 'audioMixInputParametersWithTrack:'
-    'body': 'AVMutableAudioMixInputParameters.audioMixInputParametersWithTrack(${1:AVAssetTrack* track})'
+    'body': 'audioMixInputParametersWithTrack(${1:AVAssetTrack* track})'
   'audioTapProcessor':
     'prefix': 'audioTapProcessor'
     'body': 'audioTapProcessor()'
@@ -4030,7 +4030,7 @@
     'body': 'addMutableTrackWithMediaType(${1:NSString* mediaType}, preferredTrackID:${2:CMPersistentTrackID preferredTrackID})'
   'AVMutableComposition.composition':
     'prefix': 'composition'
-    'body': 'AVMutableComposition.composition()'
+    'body': 'composition()'
   'insertEmptyTimeRange:':
     'prefix': 'insertEmptyTimeRange:'
     'body': 'insertEmptyTimeRange(${1:CMTimeRange timeRange})'
@@ -4129,7 +4129,7 @@
     'body': 'locale()'
   'AVMutableMetadataItem.metadataItem':
     'prefix': 'metadataItem'
-    'body': 'AVMutableMetadataItem.metadataItem()'
+    'body': 'metadataItem()'
   'setDuration:':
     'prefix': 'setDuration:'
     'body': 'setDuration(${1:CMTime duration})'
@@ -4207,10 +4207,10 @@
     'body': 'setRenderSize(${1:CGSize renderSize})'
   'AVMutableVideoComposition.videoComposition':
     'prefix': 'videoComposition'
-    'body': 'AVMutableVideoComposition.videoComposition()'
+    'body': 'videoComposition()'
   'AVMutableVideoComposition.videoCompositionWithPropertiesOfAsset:':
     'prefix': 'videoCompositionWithPropertiesOfAsset:'
-    'body': 'AVMutableVideoComposition.videoCompositionWithPropertiesOfAsset(${1:AVAsset* asset})'
+    'body': 'videoCompositionWithPropertiesOfAsset(${1:AVAsset* asset})'
   'backgroundColor':
     'prefix': 'backgroundColor'
     'body': 'backgroundColor()'
@@ -4237,7 +4237,7 @@
     'body': 'timeRange()'
   'AVMutableVideoCompositionInstruction.videoCompositionInstruction':
     'prefix': 'videoCompositionInstruction'
-    'body': 'AVMutableVideoCompositionInstruction.videoCompositionInstruction()'
+    'body': 'videoCompositionInstruction()'
   'setCropRectangle:atTime:':
     'prefix': 'setCropRectangle:atTime:'
     'body': 'setCropRectangle(${1:CGRect cropRectangle}, atTime:${2:CMTime time})'
@@ -4264,22 +4264,22 @@
     'body': 'trackID()'
   'AVMutableVideoCompositionLayerInstruction.videoCompositionLayerInstruction':
     'prefix': 'videoCompositionLayerInstruction'
-    'body': 'AVMutableVideoCompositionLayerInstruction.videoCompositionLayerInstruction()'
+    'body': 'videoCompositionLayerInstruction()'
   'AVMutableVideoCompositionLayerInstruction.videoCompositionLayerInstructionWithAssetTrack:':
     'prefix': 'videoCompositionLayerInstructionWithAssetTrack:'
-    'body': 'AVMutableVideoCompositionLayerInstruction.videoCompositionLayerInstructionWithAssetTrack(${1:AVAssetTrack* track})'
+    'body': 'videoCompositionLayerInstructionWithAssetTrack(${1:AVAssetTrack* track})'
   'audioSettings':
     'prefix': 'audioSettings'
     'body': 'audioSettings()'
   'AVOutputSettingsAssistant.availableOutputSettingsPresets':
     'prefix': 'availableOutputSettingsPresets'
-    'body': 'AVOutputSettingsAssistant.availableOutputSettingsPresets()'
+    'body': 'availableOutputSettingsPresets()'
   'outputFileType':
     'prefix': 'outputFileType'
     'body': 'outputFileType()'
   'AVOutputSettingsAssistant.outputSettingsAssistantWithPreset:':
     'prefix': 'outputSettingsAssistantWithPreset:'
-    'body': 'AVOutputSettingsAssistant.outputSettingsAssistantWithPreset(${1:NSString* presetIdentifier})'
+    'body': 'outputSettingsAssistantWithPreset(${1:NSString* presetIdentifier})'
   'setSourceAudioFormat:':
     'prefix': 'setSourceAudioFormat:'
     'body': 'setSourceAudioFormat(${1:CMAudioFormatDescriptionRef sourceAudioFormat})'
@@ -4378,10 +4378,10 @@
     'body': 'play()'
   'AVPlayer.playerWithPlayerItem:':
     'prefix': 'playerWithPlayerItem:'
-    'body': 'AVPlayer.playerWithPlayerItem(${1:AVPlayerItem* item})'
+    'body': 'playerWithPlayerItem(${1:AVPlayerItem* item})'
   'AVPlayer.playerWithURL:':
     'prefix': 'playerWithURL:'
-    'body': 'AVPlayer.playerWithURL(${1:NSURL* URL})'
+    'body': 'playerWithURL(${1:NSURL* URL})'
   'prerollAtRate:completionHandler:':
     'prefix': 'prerollAtRate:completionHandler:'
     'body': 'prerollAtRate(${1:float rate}, completionHandler:${2:void (^)(BOOL) completionHandler})'
@@ -4558,13 +4558,13 @@
     'body': 'outputs()'
   'AVPlayerItem.playerItemWithAsset:':
     'prefix': 'playerItemWithAsset:'
-    'body': 'AVPlayerItem.playerItemWithAsset(${1:AVAsset* asset})'
+    'body': 'playerItemWithAsset(${1:AVAsset* asset})'
   'AVPlayerItem.playerItemWithAsset:automaticallyLoadedAssetKeys:':
     'prefix': 'playerItemWithAsset:automaticallyLoadedAssetKeys:'
-    'body': 'AVPlayerItem.playerItemWithAsset(${1:AVAsset* asset}, automaticallyLoadedAssetKeys:${2:NSArray* automaticallyLoadedAssetKeys})'
+    'body': 'playerItemWithAsset(${1:AVAsset* asset}, automaticallyLoadedAssetKeys:${2:NSArray* automaticallyLoadedAssetKeys})'
   'AVPlayerItem.playerItemWithURL:':
     'prefix': 'playerItemWithURL:'
-    'body': 'AVPlayerItem.playerItemWithURL(${1:NSURL* URL})'
+    'body': 'playerItemWithURL(${1:NSURL* URL})'
   'presentationSize':
     'prefix': 'presentationSize'
     'body': 'presentationSize()'
@@ -4837,7 +4837,7 @@
     'body': 'player()'
   'AVPlayerLayer.playerLayerWithPlayer:':
     'prefix': 'playerLayerWithPlayer:'
-    'body': 'AVPlayerLayer.playerLayerWithPlayer(${1:AVPlayer* player})'
+    'body': 'playerLayerWithPlayer(${1:AVPlayer* player})'
   'setPlayer:':
     'prefix': 'setPlayer:'
     'body': 'setPlayer(${1:AVPlayer* player})'
@@ -4876,7 +4876,7 @@
     'body': 'items()'
   'AVQueuePlayer.queuePlayerWithItems:':
     'prefix': 'queuePlayerWithItems:'
-    'body': 'AVQueuePlayer.queuePlayerWithItems(${1:NSArray* items})'
+    'body': 'queuePlayerWithItems(${1:NSArray* items})'
   'removeAllItems':
     'prefix': 'removeAllItems'
     'body': 'removeAllItems()'
@@ -4885,16 +4885,16 @@
     'body': 'removeItem(${1:AVPlayerItem* item})'
   'AVSpeechSynthesisVoice.currentLanguageCode':
     'prefix': 'currentLanguageCode'
-    'body': 'AVSpeechSynthesisVoice.currentLanguageCode()'
+    'body': 'currentLanguageCode()'
   'language':
     'prefix': 'language'
     'body': 'language()'
   'AVSpeechSynthesisVoice.speechVoices':
     'prefix': 'speechVoices'
-    'body': 'AVSpeechSynthesisVoice.speechVoices()'
+    'body': 'speechVoices()'
   'AVSpeechSynthesisVoice.voiceWithLanguage:':
     'prefix': 'voiceWithLanguage:'
-    'body': 'AVSpeechSynthesisVoice.voiceWithLanguage(${1:NSString* language})'
+    'body': 'voiceWithLanguage(${1:NSString* language})'
   'continueSpeaking':
     'prefix': 'continueSpeaking'
     'body': 'continueSpeaking()'
@@ -4957,7 +4957,7 @@
     'body': 'speechString()'
   'AVSpeechUtterance.speechUtteranceWithString:':
     'prefix': 'speechUtteranceWithString:'
-    'body': 'AVSpeechUtterance.speechUtteranceWithString(${1:NSString* string})'
+    'body': 'speechUtteranceWithString(${1:NSString* string})'
   'voice':
     'prefix': 'voice'
     'body': 'voice()'
@@ -4972,7 +4972,7 @@
     'body': 'setPlayerItem(${1:AVPlayerItem* playerItem})'
   'AVSynchronizedLayer.synchronizedLayerWithPlayerItem:':
     'prefix': 'synchronizedLayerWithPlayerItem:'
-    'body': 'AVSynchronizedLayer.synchronizedLayerWithPlayerItem(${1:AVPlayerItem* playerItem})'
+    'body': 'synchronizedLayerWithPlayerItem(${1:AVPlayerItem* playerItem})'
   'initWithTextMarkupAttributes:':
     'prefix': 'initWithTextMarkupAttributes:'
     'body': 'initWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes})'
@@ -4981,7 +4981,7 @@
     'body': 'initWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes}, textSelector:${2:NSString* textSelector})'
   'AVTextStyleRule.propertyListForTextStyleRules:':
     'prefix': 'propertyListForTextStyleRules:'
-    'body': 'AVTextStyleRule.propertyListForTextStyleRules(${1:NSArray* textStyleRules})'
+    'body': 'propertyListForTextStyleRules(${1:NSArray* textStyleRules})'
   'textMarkupAttributes':
     'prefix': 'textMarkupAttributes'
     'body': 'textMarkupAttributes()'
@@ -4990,13 +4990,13 @@
     'body': 'textSelector()'
   'AVTextStyleRule.textStyleRuleWithTextMarkupAttributes:':
     'prefix': 'textStyleRuleWithTextMarkupAttributes:'
-    'body': 'AVTextStyleRule.textStyleRuleWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes})'
+    'body': 'textStyleRuleWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes})'
   'AVTextStyleRule.textStyleRuleWithTextMarkupAttributes:textSelector:':
     'prefix': 'textStyleRuleWithTextMarkupAttributes:textSelector:'
-    'body': 'AVTextStyleRule.textStyleRuleWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes}, textSelector:${2:NSString* textSelector})'
+    'body': 'textStyleRuleWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes}, textSelector:${2:NSString* textSelector})'
   'AVTextStyleRule.textStyleRulesFromPropertyList:':
     'prefix': 'textStyleRulesFromPropertyList:'
-    'body': 'AVTextStyleRule.textStyleRulesFromPropertyList(${1:id plist})'
+    'body': 'textStyleRulesFromPropertyList(${1:id plist})'
   'initWithItems:timeRange:':
     'prefix': 'initWithItems:timeRange:'
     'body': 'initWithItems(${1:NSArray* items}, timeRange:${2:CMTimeRange timeRange})'
@@ -5011,13 +5011,13 @@
     'body': 'URL()'
   'AVURLAsset.URLAssetWithURL:options:':
     'prefix': 'URLAssetWithURL:options:'
-    'body': 'AVURLAsset.URLAssetWithURL(${1:NSURL* URL}, options:${2:NSDictionary* options})'
+    'body': 'URLAssetWithURL(${1:NSURL* URL}, options:${2:NSDictionary* options})'
   'AVURLAsset.audiovisualMIMETypes':
     'prefix': 'audiovisualMIMETypes'
-    'body': 'AVURLAsset.audiovisualMIMETypes()'
+    'body': 'audiovisualMIMETypes()'
   'AVURLAsset.audiovisualTypes':
     'prefix': 'audiovisualTypes'
-    'body': 'AVURLAsset.audiovisualTypes()'
+    'body': 'audiovisualTypes()'
   'compatibleTrackForCompositionTrack:':
     'prefix': 'compatibleTrackForCompositionTrack:'
     'body': 'compatibleTrackForCompositionTrack(${1:AVCompositionTrack* compositionTrack})'
@@ -5026,7 +5026,7 @@
     'body': 'initWithURL(${1:NSURL* URL}, options:${2:NSDictionary* options})'
   'AVURLAsset.isPlayableExtendedMIMEType:':
     'prefix': 'isPlayableExtendedMIMEType:'
-    'body': 'AVURLAsset.isPlayableExtendedMIMEType(${1:NSString* extendedMIMEType})'
+    'body': 'isPlayableExtendedMIMEType(${1:NSString* extendedMIMEType})'
   'resourceLoader':
     'prefix': 'resourceLoader'
     'body': 'resourceLoader()'
@@ -5053,16 +5053,16 @@
     'body': 'renderSize()'
   'AVVideoComposition.videoCompositionWithPropertiesOfAsset:':
     'prefix': 'videoCompositionWithPropertiesOfAsset:'
-    'body': 'AVVideoComposition.videoCompositionWithPropertiesOfAsset(${1:AVAsset* asset})'
+    'body': 'videoCompositionWithPropertiesOfAsset(${1:AVAsset* asset})'
   'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithAdditionalLayer:asTrackID:':
     'prefix': 'videoCompositionCoreAnimationToolWithAdditionalLayer:asTrackID:'
-    'body': 'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithAdditionalLayer(${1:CALayer* layer}, asTrackID:${2:CMPersistentTrackID trackID})'
+    'body': 'videoCompositionCoreAnimationToolWithAdditionalLayer(${1:CALayer* layer}, asTrackID:${2:CMPersistentTrackID trackID})'
   'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayer:inLayer:':
     'prefix': 'videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayer:inLayer:'
-    'body': 'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayer(${1:CALayer* videoLayer}, inLayer:${2:CALayer* animationLayer})'
+    'body': 'videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayer(${1:CALayer* videoLayer}, inLayer:${2:CALayer* animationLayer})'
   'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:inLayer:':
     'prefix': 'videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:inLayer:'
-    'body': 'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers(${1:NSArray* videoLayers}, inLayer:${2:CALayer* animationLayer})'
+    'body': 'videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers(${1:NSArray* videoLayers}, inLayer:${2:CALayer* animationLayer})'
   'backgroundColor':
     'prefix': 'backgroundColor'
     'body': 'backgroundColor()'
@@ -5293,13 +5293,13 @@
     'body': 'CMTimeValue()'
   'NSValue.valueWithCMTime:':
     'prefix': 'valueWithCMTime:'
-    'body': 'NSValue.valueWithCMTime(${1:CMTime time})'
+    'body': 'valueWithCMTime(${1:CMTime time})'
   'NSValue.valueWithCMTimeMapping:':
     'prefix': 'valueWithCMTimeMapping:'
-    'body': 'NSValue.valueWithCMTimeMapping(${1:CMTimeMapping timeMapping})'
+    'body': 'valueWithCMTimeMapping(${1:CMTimeMapping timeMapping})'
   'NSValue.valueWithCMTimeRange:':
     'prefix': 'valueWithCMTimeRange:'
-    'body': 'NSValue.valueWithCMTimeRange(${1:CMTimeRange timeRange})'
+    'body': 'valueWithCMTimeRange(${1:CMTimeRange timeRange})'
   'resourceLoader:didCancelLoadingRequest:':
     'prefix': 'resourceLoader:didCancelLoadingRequest:'
     'body': 'resourceLoader(${1:AVAssetResourceLoader* resourceLoader}, didCancelLoadingRequest:${2:AVAssetResourceLoadingRequest* loadingRequest})'

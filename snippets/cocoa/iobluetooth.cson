@@ -5389,13 +5389,13 @@
     'body': 'deviceClassMinor()'
   'IOBluetoothDevice.deviceWithAddress:':
     'prefix': 'deviceWithAddress:'
-    'body': 'IOBluetoothDevice.deviceWithAddress(${1:BluetoothDeviceAddress* address})'
+    'body': 'deviceWithAddress(${1:BluetoothDeviceAddress* address})'
   'IOBluetoothDevice.deviceWithAddressString:':
     'prefix': 'deviceWithAddressString:'
-    'body': 'IOBluetoothDevice.deviceWithAddressString(${1:NSString* address})'
+    'body': 'deviceWithAddressString(${1:NSString* address})'
   'IOBluetoothDevice.favoriteDevices':
     'prefix': 'favoriteDevices'
-    'body': 'IOBluetoothDevice.favoriteDevices()'
+    'body': 'favoriteDevices()'
   'getAddress':
     'prefix': 'getAddress'
     'body': 'getAddress()'
@@ -5533,7 +5533,7 @@
     'body': 'openRFCOMMChannelSync(${1:IOBluetoothRFCOMMChannel** rfcommChannel}, withChannelID:${2:BluetoothRFCOMMChannelID channelID}, delegate:${3:id channelDelegate})'
   'IOBluetoothDevice.pairedDevices':
     'prefix': 'pairedDevices'
-    'body': 'IOBluetoothDevice.pairedDevices()'
+    'body': 'pairedDevices()'
   'performSDPQuery:':
     'prefix': 'performSDPQuery:'
     'body': 'performSDPQuery(${1:id target})'
@@ -5548,10 +5548,10 @@
     'body': 'recentAccessDate()'
   'IOBluetoothDevice.recentDevices:':
     'prefix': 'recentDevices:'
-    'body': 'IOBluetoothDevice.recentDevices(${1:unsigned long numDevices})'
+    'body': 'recentDevices(${1:unsigned long numDevices})'
   'IOBluetoothDevice.registerForConnectNotifications:selector:':
     'prefix': 'registerForConnectNotifications:selector:'
-    'body': 'IOBluetoothDevice.registerForConnectNotifications(${1:id observer}, selector:${2:SEL inSelector})'
+    'body': 'registerForConnectNotifications(${1:id observer}, selector:${2:SEL inSelector})'
   'registerForDisconnectNotification:selector:':
     'prefix': 'registerForDisconnectNotification:selector:'
     'body': 'registerForDisconnectNotification(${1:id observer}, selector:${2:SEL inSelector})'
@@ -5581,10 +5581,10 @@
     'body': 'setSupervisionTimeout(${1:UInt16 timeout})'
   'IOBluetoothDevice.withAddress:':
     'prefix': 'withAddress:'
-    'body': 'IOBluetoothDevice.withAddress(${1:BluetoothDeviceAddress* address})'
+    'body': 'withAddress(${1:BluetoothDeviceAddress* address})'
   'IOBluetoothDevice.withDeviceRef:':
     'prefix': 'withDeviceRef:'
-    'body': 'IOBluetoothDevice.withDeviceRef(${1:IOBluetoothDeviceRef deviceRef})'
+    'body': 'withDeviceRef(${1:IOBluetoothDeviceRef deviceRef})'
   'clearFoundDevices':
     'prefix': 'clearFoundDevices'
     'body': 'clearFoundDevices()'
@@ -5602,7 +5602,7 @@
     'body': 'inquiryLength()'
   'IOBluetoothDeviceInquiry.inquiryWithDelegate:':
     'prefix': 'inquiryWithDelegate:'
-    'body': 'IOBluetoothDeviceInquiry.inquiryWithDelegate(${1:id delegate})'
+    'body': 'inquiryWithDelegate(${1:id delegate})'
   'searchType':
     'prefix': 'searchType'
     'body': 'searchType()'
@@ -5638,7 +5638,7 @@
     'body': 'device()'
   'IOBluetoothDevicePair.pairWithDevice:':
     'prefix': 'pairWithDevice:'
-    'body': 'IOBluetoothDevicePair.pairWithDevice(${1:IOBluetoothDevice* device})'
+    'body': 'pairWithDevice(${1:IOBluetoothDevice* device})'
   'replyPINCode:PINCode:':
     'prefix': 'replyPINCode:PINCode:'
     'body': 'replyPINCode(${1:ByteCount PINCodeSize}, PINCode:${2:BluetoothPINCode* PINCode})'
@@ -5830,7 +5830,7 @@
     'body': 'classOfDevice()'
   'IOBluetoothHostController.defaultController':
     'prefix': 'defaultController'
-    'body': 'IOBluetoothHostController.defaultController()'
+    'body': 'defaultController()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -5899,10 +5899,10 @@
     'body': 'registerForChannelCloseNotification(${1:id observer}, selector:${2:SEL inSelector})'
   'IOBluetoothL2CAPChannel.registerForChannelOpenNotifications:selector:':
     'prefix': 'registerForChannelOpenNotifications:selector:'
-    'body': 'IOBluetoothL2CAPChannel.registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector})'
+    'body': 'registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector})'
   'IOBluetoothL2CAPChannel.registerForChannelOpenNotifications:selector:withPSM:direction:':
     'prefix': 'registerForChannelOpenNotifications:selector:withPSM:direction:'
-    'body': 'IOBluetoothL2CAPChannel.registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector}, withPSM:${3:BluetoothL2CAPPSM psm}, direction:${4:IOBluetoothUserNotificationChannelDirection inDirection})'
+    'body': 'registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector}, withPSM:${3:BluetoothL2CAPPSM psm}, direction:${4:IOBluetoothUserNotificationChannelDirection inDirection})'
   'remoteChannelID':
     'prefix': 'remoteChannelID'
     'body': 'remoteChannelID()'
@@ -5917,7 +5917,7 @@
     'body': 'setDelegate(${1:id channelDelegate}, withConfiguration:${2:NSDictionary* channelConfiguration})'
   'IOBluetoothL2CAPChannel.withObjectID:':
     'prefix': 'withObjectID:'
-    'body': 'IOBluetoothL2CAPChannel.withObjectID(${1:IOBluetoothObjectID objectID})'
+    'body': 'withObjectID(${1:IOBluetoothObjectID objectID})'
   'writeAsync:length:refcon:':
     'prefix': 'writeAsync:length:refcon:'
     'body': 'writeAsync(${1:void* data}, length:${2:UInt16 length}, refcon:${3:void* refcon})'
@@ -5968,13 +5968,13 @@
     'body': 'setOpenTransportConnectionAsyncSelector(${1:SEL inSelector}, target:${2:id inSelectorTarget}, refCon:${3:id inUserRefCon})'
   'IOBluetoothOBEXSession.withDevice:channelID:':
     'prefix': 'withDevice:channelID:'
-    'body': 'IOBluetoothOBEXSession.withDevice(${1:IOBluetoothDevice* inDevice}, channelID:${2:BluetoothRFCOMMChannelID inRFCOMMChannelID})'
+    'body': 'withDevice(${1:IOBluetoothDevice* inDevice}, channelID:${2:BluetoothRFCOMMChannelID inRFCOMMChannelID})'
   'IOBluetoothOBEXSession.withIncomingRFCOMMChannel:eventSelector:selectorTarget:refCon:':
     'prefix': 'withIncomingRFCOMMChannel:eventSelector:selectorTarget:refCon:'
-    'body': 'IOBluetoothOBEXSession.withIncomingRFCOMMChannel(${1:IOBluetoothRFCOMMChannel* inChannel}, eventSelector:${2:SEL inEventSelector}, selectorTarget:${3:id inEventSelectorTarget}, refCon:${4:void* inUserRefCon})'
+    'body': 'withIncomingRFCOMMChannel(${1:IOBluetoothRFCOMMChannel* inChannel}, eventSelector:${2:SEL inEventSelector}, selectorTarget:${3:id inEventSelectorTarget}, refCon:${4:void* inUserRefCon})'
   'IOBluetoothOBEXSession.withSDPServiceRecord:':
     'prefix': 'withSDPServiceRecord:'
-    'body': 'IOBluetoothOBEXSession.withSDPServiceRecord(${1:IOBluetoothSDPServiceRecord* inSDPServiceRecord})'
+    'body': 'withSDPServiceRecord(${1:IOBluetoothSDPServiceRecord* inSDPServiceRecord})'
   'closeChannel':
     'prefix': 'closeChannel'
     'body': 'closeChannel()'
@@ -6010,10 +6010,10 @@
     'body': 'registerForChannelCloseNotification(${1:id observer}, selector:${2:SEL inSelector})'
   'IOBluetoothRFCOMMChannel.registerForChannelOpenNotifications:selector:':
     'prefix': 'registerForChannelOpenNotifications:selector:'
-    'body': 'IOBluetoothRFCOMMChannel.registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector})'
+    'body': 'registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector})'
   'IOBluetoothRFCOMMChannel.registerForChannelOpenNotifications:selector:withChannelID:direction:':
     'prefix': 'registerForChannelOpenNotifications:selector:withChannelID:direction:'
-    'body': 'IOBluetoothRFCOMMChannel.registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector}, withChannelID:${3:BluetoothRFCOMMChannelID channelID}, direction:${4:IOBluetoothUserNotificationChannelDirection inDirection})'
+    'body': 'registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector}, withChannelID:${3:BluetoothRFCOMMChannelID channelID}, direction:${4:IOBluetoothUserNotificationChannelDirection inDirection})'
   'sendRemoteLineStatus:':
     'prefix': 'sendRemoteLineStatus:'
     'body': 'sendRemoteLineStatus(${1:BluetoothRFCOMMLineStatus lineStatus})'
@@ -6025,10 +6025,10 @@
     'body': 'setSerialParameters(${1:UInt32 speed}, dataBits:${2:UInt8 nBits}, parity:${3:BluetoothRFCOMMParityType parity}, stopBits:${4:UInt8 bitStop})'
   'IOBluetoothRFCOMMChannel.withObjectID:':
     'prefix': 'withObjectID:'
-    'body': 'IOBluetoothRFCOMMChannel.withObjectID(${1:IOBluetoothObjectID objectID})'
+    'body': 'withObjectID(${1:IOBluetoothObjectID objectID})'
   'IOBluetoothRFCOMMChannel.withRFCOMMChannelRef:':
     'prefix': 'withRFCOMMChannelRef:'
-    'body': 'IOBluetoothRFCOMMChannel.withRFCOMMChannelRef(${1:IOBluetoothRFCOMMChannelRef rfcommChannelRef})'
+    'body': 'withRFCOMMChannelRef(${1:IOBluetoothRFCOMMChannelRef rfcommChannelRef})'
   'write:length:sleep:':
     'prefix': 'write:length:sleep:'
     'body': 'write(${1:void* data}, length:${2:UInt16 length}, sleep:${3:BOOL sleep})'
@@ -6085,13 +6085,13 @@
     'body': 'initWithType(${1:BluetoothSDPDataElementTypeDescriptor newType}, sizeDescriptor:${2:BluetoothSDPDataElementSizeDescriptor newSizeDescriptor}, size:${3:uint32_t newSize}, value:${4:NSObject* newValue})'
   'IOBluetoothSDPDataElement.withElementValue:':
     'prefix': 'withElementValue:'
-    'body': 'IOBluetoothSDPDataElement.withElementValue(${1:NSObject* element})'
+    'body': 'withElementValue(${1:NSObject* element})'
   'IOBluetoothSDPDataElement.withSDPDataElementRef:':
     'prefix': 'withSDPDataElementRef:'
-    'body': 'IOBluetoothSDPDataElement.withSDPDataElementRef(${1:IOBluetoothSDPDataElementRef sdpDataElementRef})'
+    'body': 'withSDPDataElementRef(${1:IOBluetoothSDPDataElementRef sdpDataElementRef})'
   'IOBluetoothSDPDataElement.withType:sizeDescriptor:size:value:':
     'prefix': 'withType:sizeDescriptor:size:value:'
-    'body': 'IOBluetoothSDPDataElement.withType(${1:BluetoothSDPDataElementTypeDescriptor type}, sizeDescriptor:${2:BluetoothSDPDataElementSizeDescriptor newSizeDescriptor}, size:${3:uint32_t newSize}, value:${4:NSObject* newValue})'
+    'body': 'withType(${1:BluetoothSDPDataElementTypeDescriptor type}, sizeDescriptor:${2:BluetoothSDPDataElementSizeDescriptor newSizeDescriptor}, size:${3:uint32_t newSize}, value:${4:NSObject* newValue})'
   'getAttributeID':
     'prefix': 'getAttributeID'
     'body': 'getAttributeID()'
@@ -6109,10 +6109,10 @@
     'body': 'initWithID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElementValue:${2:NSObject* attributeElementValue})'
   'IOBluetoothSDPServiceAttribute.withID:attributeElement:':
     'prefix': 'withID:attributeElement:'
-    'body': 'IOBluetoothSDPServiceAttribute.withID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElement:${2:IOBluetoothSDPDataElement* attributeElement})'
+    'body': 'withID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElement:${2:IOBluetoothSDPDataElement* attributeElement})'
   'IOBluetoothSDPServiceAttribute.withID:attributeElementValue:':
     'prefix': 'withID:attributeElementValue:'
-    'body': 'IOBluetoothSDPServiceAttribute.withID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElementValue:${2:NSObject* attributeElementValue})'
+    'body': 'withID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElementValue:${2:NSObject* attributeElementValue})'
   'attributes':
     'prefix': 'attributes'
     'body': 'attributes()'
@@ -6163,7 +6163,7 @@
     'body': 'matchesUUIDArray(${1:NSArray* uuidArray})'
   'IOBluetoothSDPServiceRecord.publishedServiceRecordWithDictionary:':
     'prefix': 'publishedServiceRecordWithDictionary:'
-    'body': 'IOBluetoothSDPServiceRecord.publishedServiceRecordWithDictionary(${1:NSDictionary* serviceDict})'
+    'body': 'publishedServiceRecordWithDictionary(${1:NSDictionary* serviceDict})'
   'removeServiceRecord':
     'prefix': 'removeServiceRecord'
     'body': 'removeServiceRecord()'
@@ -6172,10 +6172,10 @@
     'body': 'sortedAttributes()'
   'IOBluetoothSDPServiceRecord.withSDPServiceRecordRef:':
     'prefix': 'withSDPServiceRecordRef:'
-    'body': 'IOBluetoothSDPServiceRecord.withSDPServiceRecordRef(${1:IOBluetoothSDPServiceRecordRef sdpServiceRecordRef})'
+    'body': 'withSDPServiceRecordRef(${1:IOBluetoothSDPServiceRecordRef sdpServiceRecordRef})'
   'IOBluetoothSDPServiceRecord.withServiceDictionary:device:':
     'prefix': 'withServiceDictionary:device:'
-    'body': 'IOBluetoothSDPServiceRecord.withServiceDictionary(${1:NSDictionary* serviceDict}, device:${2:IOBluetoothDevice* device})'
+    'body': 'withServiceDictionary(${1:NSDictionary* serviceDict}, device:${2:IOBluetoothDevice* device})'
   'classForArchiver':
     'prefix': 'classForArchiver'
     'body': 'classForArchiver()'
@@ -6202,19 +6202,19 @@
     'body': 'isEqualToUUID(${1:IOBluetoothSDPUUID* otherUUID})'
   'IOBluetoothSDPUUID.uuid16:':
     'prefix': 'uuid16:'
-    'body': 'IOBluetoothSDPUUID.uuid16(${1:BluetoothSDPUUID16 uuid16})'
+    'body': 'uuid16(${1:BluetoothSDPUUID16 uuid16})'
   'IOBluetoothSDPUUID.uuid32:':
     'prefix': 'uuid32:'
-    'body': 'IOBluetoothSDPUUID.uuid32(${1:BluetoothSDPUUID32 uuid32})'
+    'body': 'uuid32(${1:BluetoothSDPUUID32 uuid32})'
   'IOBluetoothSDPUUID.uuidWithBytes:length:':
     'prefix': 'uuidWithBytes:length:'
-    'body': 'IOBluetoothSDPUUID.uuidWithBytes(${1:void* bytes}, length:${2:unsigned int length})'
+    'body': 'uuidWithBytes(${1:void* bytes}, length:${2:unsigned int length})'
   'IOBluetoothSDPUUID.uuidWithData:':
     'prefix': 'uuidWithData:'
-    'body': 'IOBluetoothSDPUUID.uuidWithData(${1:NSData* data})'
+    'body': 'uuidWithData(${1:NSData* data})'
   'IOBluetoothSDPUUID.withSDPUUIDRef:':
     'prefix': 'withSDPUUIDRef:'
-    'body': 'IOBluetoothSDPUUID.withSDPUUIDRef(${1:IOBluetoothSDPUUIDRef sdpUUIDRef})'
+    'body': 'withSDPUUIDRef(${1:IOBluetoothSDPUUIDRef sdpUUIDRef})'
   'unregister':
     'prefix': 'unregister'
     'body': 'unregister()'
@@ -6280,16 +6280,16 @@
     'body': 'addWhoHeader(${1:void* inHeaderData}, length:${2:uint32_t inHeaderDataLength})'
   'NSMutableDictionary.dictionaryWithOBEXHeadersData:':
     'prefix': 'dictionaryWithOBEXHeadersData:'
-    'body': 'NSMutableDictionary.dictionaryWithOBEXHeadersData(${1:NSData* inHeadersData})'
+    'body': 'dictionaryWithOBEXHeadersData(${1:NSData* inHeadersData})'
   'NSMutableDictionary.dictionaryWithOBEXHeadersData:headersDataSize:':
     'prefix': 'dictionaryWithOBEXHeadersData:headersDataSize:'
-    'body': 'NSMutableDictionary.dictionaryWithOBEXHeadersData(${1:void* inHeadersData}, headersDataSize:${2:size_t inDataSize})'
+    'body': 'dictionaryWithOBEXHeadersData(${1:void* inHeadersData}, headersDataSize:${2:size_t inDataSize})'
   'getHeaderBytes':
     'prefix': 'getHeaderBytes'
     'body': 'getHeaderBytes()'
   'NSMutableDictionary.withOBEXHeadersData:headersDataSize:':
     'prefix': 'withOBEXHeadersData:headersDataSize:'
-    'body': 'NSMutableDictionary.withOBEXHeadersData(${1:void* inHeadersData}, headersDataSize:${2:size_t inDataSize})'
+    'body': 'withOBEXHeadersData(${1:void* inHeadersData}, headersDataSize:${2:size_t inDataSize})'
   'connectionComplete:status:':
     'prefix': 'connectionComplete:status:'
     'body': 'connectionComplete(${1:IOBluetoothDevice* device}, status:${2:IOReturn status})'
@@ -6481,7 +6481,7 @@
     'body': 'sdpQueryComplete(${1:IOBluetoothDevice* device}, status:${2:IOReturn status})'
   'NSObject.withL2CAPChannelRef:':
     'prefix': 'withL2CAPChannelRef:'
-    'body': 'NSObject.withL2CAPChannelRef(${1:IOBluetoothL2CAPChannelRef l2capChannelRef})'
+    'body': 'withL2CAPChannelRef(${1:IOBluetoothL2CAPChannelRef l2capChannelRef})'
   'write:length:':
     'prefix': 'write:length:'
     'body': 'write(${1:void* data}, length:${2:UInt16 length})'
@@ -6547,7 +6547,7 @@
     'body': 'setDelegate(${1:id delegate})'
   'OBEXFileTransferServices.withOBEXSession:':
     'prefix': 'withOBEXSession:'
-    'body': 'OBEXFileTransferServices.withOBEXSession(${1:IOBluetoothOBEXSession* inOBEXSession})'
+    'body': 'withOBEXSession(${1:IOBluetoothOBEXSession* inOBEXSession})'
   'OBEXAbort:optionalHeadersLength:eventSelector:selectorTarget:refCon:':
     'prefix': 'OBEXAbort:optionalHeadersLength:eventSelector:selectorTarget:refCon:'
     'body': 'OBEXAbort(${1:void* inOptionalHeaders}, optionalHeadersLength:${2:size_t inOptionalHeadersLength}, eventSelector:${3:SEL inSelector}, selectorTarget:${4:id inTarget}, refCon:${5:void* inUserRefCon})'
@@ -6757,7 +6757,7 @@
     'body': 'registerIncomingDataListener(${1:IOBluetoothL2CAPChannelIncomingDataListener listener}, refCon:${2:void* refCon})'
   'IOBluetoothL2CAPChannelDeprecated.withL2CAPChannelRef:':
     'prefix': 'withL2CAPChannelRef:'
-    'body': 'IOBluetoothL2CAPChannelDeprecated.withL2CAPChannelRef(${1:IOBluetoothL2CAPChannelRef l2capChannelRef})'
+    'body': 'withL2CAPChannelRef(${1:IOBluetoothL2CAPChannelRef l2capChannelRef})'
   'write:length:':
     'prefix': 'write:length:'
     'body': 'write(${1:void* data}, length:${2:UInt16 length})'
@@ -7387,16 +7387,16 @@
     'body': 'setPeripheral(${1:CBPeripheral* peripheral})'
   'CBUUID.UUIDWithCFUUID:':
     'prefix': 'UUIDWithCFUUID:'
-    'body': 'CBUUID.UUIDWithCFUUID(${1:CFUUIDRef theUUID})'
+    'body': 'UUIDWithCFUUID(${1:CFUUIDRef theUUID})'
   'CBUUID.UUIDWithData:':
     'prefix': 'UUIDWithData:'
-    'body': 'CBUUID.UUIDWithData(${1:NSData* theData})'
+    'body': 'UUIDWithData(${1:NSData* theData})'
   'CBUUID.UUIDWithNSUUID:':
     'prefix': 'UUIDWithNSUUID:'
-    'body': 'CBUUID.UUIDWithNSUUID(${1:NSUUID* theUUID})'
+    'body': 'UUIDWithNSUUID(${1:NSUUID* theUUID})'
   'CBUUID.UUIDWithString:':
     'prefix': 'UUIDWithString:'
-    'body': 'CBUUID.UUIDWithString(${1:NSString* theString})'
+    'body': 'UUIDWithString(${1:NSString* theString})'
   'data':
     'prefix': 'data'
     'body': 'data()'

@@ -136,7 +136,7 @@
     'body': 'action()'
   'CalAlarm.alarm':
     'prefix': 'alarm'
-    'body': 'CalAlarm.alarm()'
+    'body': 'alarm()'
   'emailAddress':
     'prefix': 'emailAddress'
     'body': 'emailAddress()'
@@ -190,7 +190,7 @@
     'body': 'status()'
   'CalCalendar.calendar':
     'prefix': 'calendar'
-    'body': 'CalCalendar.calendar()'
+    'body': 'calendar()'
   'color':
     'prefix': 'color'
     'body': 'color()'
@@ -280,13 +280,13 @@
     'body': 'calendars()'
   'CalCalendarStore.defaultCalendarStore':
     'prefix': 'defaultCalendarStore'
-    'body': 'CalCalendarStore.defaultCalendarStore()'
+    'body': 'defaultCalendarStore()'
   'CalCalendarStore.eventPredicateWithStartDate:endDate:UID:calendars:':
     'prefix': 'eventPredicateWithStartDate:endDate:UID:calendars:'
-    'body': 'CalCalendarStore.eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, UID:${3:NSString* UID}, calendars:${4:NSArray* calendars})'
+    'body': 'eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, UID:${3:NSString* UID}, calendars:${4:NSArray* calendars})'
   'CalCalendarStore.eventPredicateWithStartDate:endDate:calendars:':
     'prefix': 'eventPredicateWithStartDate:endDate:calendars:'
-    'body': 'CalCalendarStore.eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, calendars:${3:NSArray* calendars})'
+    'body': 'eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, calendars:${3:NSArray* calendars})'
   'eventWithUID:occurrence:':
     'prefix': 'eventWithUID:occurrence:'
     'body': 'eventWithUID(${1:NSString* uid}, occurrence:${2:NSDate* date})'
@@ -313,16 +313,16 @@
     'body': 'saveTask(${1:CalTask* task}, error:${2:NSError** error})'
   'CalCalendarStore.taskPredicateWithCalendars:':
     'prefix': 'taskPredicateWithCalendars:'
-    'body': 'CalCalendarStore.taskPredicateWithCalendars(${1:NSArray* calendars})'
+    'body': 'taskPredicateWithCalendars(${1:NSArray* calendars})'
   'CalCalendarStore.taskPredicateWithTasksCompletedSince:calendars:':
     'prefix': 'taskPredicateWithTasksCompletedSince:calendars:'
-    'body': 'CalCalendarStore.taskPredicateWithTasksCompletedSince(${1:NSDate* completedSince}, calendars:${2:NSArray* calendars})'
+    'body': 'taskPredicateWithTasksCompletedSince(${1:NSDate* completedSince}, calendars:${2:NSArray* calendars})'
   'CalCalendarStore.taskPredicateWithUncompletedTasks:':
     'prefix': 'taskPredicateWithUncompletedTasks:'
-    'body': 'CalCalendarStore.taskPredicateWithUncompletedTasks(${1:NSArray* calendars})'
+    'body': 'taskPredicateWithUncompletedTasks(${1:NSArray* calendars})'
   'CalCalendarStore.taskPredicateWithUncompletedTasksDueBefore:calendars:':
     'prefix': 'taskPredicateWithUncompletedTasksDueBefore:calendars:'
-    'body': 'CalCalendarStore.taskPredicateWithUncompletedTasksDueBefore(${1:NSDate* dueDate}, calendars:${2:NSArray* calendars})'
+    'body': 'taskPredicateWithUncompletedTasksDueBefore(${1:NSDate* dueDate}, calendars:${2:NSArray* calendars})'
   'taskWithUID:':
     'prefix': 'taskWithUID:'
     'body': 'taskWithUID(${1:NSString* uid})'
@@ -337,7 +337,7 @@
     'body': 'endDate()'
   'CalEvent.event':
     'prefix': 'event'
-    'body': 'CalEvent.event()'
+    'body': 'event()'
   'isAllDay':
     'prefix': 'isAllDay'
     'body': 'isAllDay()'
@@ -385,10 +385,10 @@
     'body': 'occurrenceCount()'
   'CalRecurrenceEnd.recurrenceEndWithEndDate:':
     'prefix': 'recurrenceEndWithEndDate:'
-    'body': 'CalRecurrenceEnd.recurrenceEndWithEndDate(${1:NSDate* endDate})'
+    'body': 'recurrenceEndWithEndDate(${1:NSDate* endDate})'
   'CalRecurrenceEnd.recurrenceEndWithOccurrenceCount:':
     'prefix': 'recurrenceEndWithOccurrenceCount:'
-    'body': 'CalRecurrenceEnd.recurrenceEndWithOccurrenceCount(${1:NSUInteger occurrenceCount})'
+    'body': 'recurrenceEndWithOccurrenceCount(${1:NSUInteger occurrenceCount})'
   'usesEndDate':
     'prefix': 'usesEndDate'
     'body': 'usesEndDate()'
@@ -469,4 +469,4 @@
     'body': 'setPriority(${1:CalPriority priority})'
   'CalTask.task':
     'prefix': 'task'
-    'body': 'CalTask.task()'
+    'body': 'task()'

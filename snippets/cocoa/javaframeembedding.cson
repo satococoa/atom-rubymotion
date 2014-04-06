@@ -22,7 +22,7 @@
     'body': 'setJavaFrameClassName(${1:NSString* inClassName})'
   'JavaFrameView.setJavaStartupOptions:':
     'prefix': 'setJavaStartupOptions:'
-    'body': 'JavaFrameView.setJavaStartupOptions(${1:NSArray* inStartupOptions})'
+    'body': 'setJavaStartupOptions(${1:NSArray* inStartupOptions})'
   'javaFrameView:didCreateJavaFrame:withJNIEnv:':
     'prefix': 'javaFrameView:didCreateJavaFrame:withJNIEnv:'
     'body': 'javaFrameView(${1:JavaFrameView* sender}, didCreateJavaFrame:${2:jobject javaFrame}, withJNIEnv:${3:JNIEnv* theEnv})'

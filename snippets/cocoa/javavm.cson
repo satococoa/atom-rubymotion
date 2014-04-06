@@ -1567,10 +1567,10 @@
     'body': 'JNI_OnUnload(${1:JavaVM* vm}, ${2:void* reserved})'
   'NSJavaConfiguration.configurationForVendor:':
     'prefix': 'configurationForVendor:'
-    'body': 'NSJavaConfiguration.configurationForVendor(${1:NSString* vendorName})'
+    'body': 'configurationForVendor(${1:NSString* vendorName})'
   'NSJavaConfiguration.defaultConfiguration':
     'prefix': 'defaultConfiguration'
-    'body': 'NSJavaConfiguration.defaultConfiguration()'
+    'body': 'defaultConfiguration()'
   'init':
     'prefix': 'init'
     'body': 'init()'
@@ -1588,16 +1588,16 @@
     'body': 'vendorName()'
   'NSJavaConfiguration.vendorNames':
     'prefix': 'vendorNames'
-    'body': 'NSJavaConfiguration.vendorNames()'
+    'body': 'vendorNames()'
   'attachCurrentThread':
     'prefix': 'attachCurrentThread'
     'body': 'attachCurrentThread()'
   'NSJavaVirtualMachine.defaultClassPath':
     'prefix': 'defaultClassPath'
-    'body': 'NSJavaVirtualMachine.defaultClassPath()'
+    'body': 'defaultClassPath()'
   'NSJavaVirtualMachine.defaultVirtualMachine':
     'prefix': 'defaultVirtualMachine'
-    'body': 'NSJavaVirtualMachine.defaultVirtualMachine()'
+    'body': 'defaultVirtualMachine()'
   'defineClass:withName:':
     'prefix': 'defineClass:withName:'
     'body': 'defineClass(${1:NSData* javaClassData}, withName:${2:NSString* className})'
@@ -1618,10 +1618,10 @@
     'body': 'layer()'
   'NSObject.newWithSignature:':
     'prefix': 'newWithSignature:'
-    'body': 'NSObject.newWithSignature(${1:NSString* signature})'
+    'body': 'newWithSignature(${1:NSString* signature})'
   'NSObject.newWithSignature:arguments:':
     'prefix': 'newWithSignature:arguments:'
-    'body': 'NSObject.newWithSignature(${1:NSString* signature}, arguments:${2:va_list args})'
+    'body': 'newWithSignature(${1:NSString* signature}, arguments:${2:va_list args})'
   'setLayer:':
     'prefix': 'setLayer:'
     'body': 'setLayer(${1:CALayer* layer})'
@@ -1633,10 +1633,10 @@
     'body': 'awtMessage(${1:jint messageID}, message:${2:jobject message}, env:${3:JNIEnv* env})'
   'InstantiatingJavaObjects.newWithSignature:':
     'prefix': 'newWithSignature:'
-    'body': 'InstantiatingJavaObjects.newWithSignature(${1:NSString* signature})'
+    'body': 'newWithSignature(${1:NSString* signature})'
   'InstantiatingJavaObjects.newWithSignature:arguments:':
     'prefix': 'newWithSignature:arguments:'
-    'body': 'InstantiatingJavaObjects.newWithSignature(${1:NSString* signature}, arguments:${2:va_list args})'
+    'body': 'newWithSignature(${1:NSString* signature}, arguments:${2:va_list args})'
   'layer':
     'prefix': 'layer'
     'body': 'layer()'
@@ -1981,25 +1981,25 @@
     'body': 'JNF_WARN'
   'JNFDefaultCoercions.addDateCoercionTo:':
     'prefix': 'addDateCoercionTo:'
-    'body': 'JNFDefaultCoercions.addDateCoercionTo(${1:JNFTypeCoercer* coercer})'
+    'body': 'addDateCoercionTo(${1:JNFTypeCoercer* coercer})'
   'JNFDefaultCoercions.addListCoercionTo:':
     'prefix': 'addListCoercionTo:'
-    'body': 'JNFDefaultCoercions.addListCoercionTo(${1:JNFTypeCoercer* coercer})'
+    'body': 'addListCoercionTo(${1:JNFTypeCoercer* coercer})'
   'JNFDefaultCoercions.addMapCoercionTo:':
     'prefix': 'addMapCoercionTo:'
-    'body': 'JNFDefaultCoercions.addMapCoercionTo(${1:JNFTypeCoercer* coercer})'
+    'body': 'addMapCoercionTo(${1:JNFTypeCoercer* coercer})'
   'JNFDefaultCoercions.addNumberCoercionTo:':
     'prefix': 'addNumberCoercionTo:'
-    'body': 'JNFDefaultCoercions.addNumberCoercionTo(${1:JNFTypeCoercer* coercer})'
+    'body': 'addNumberCoercionTo(${1:JNFTypeCoercer* coercer})'
   'JNFDefaultCoercions.addSetCoercionTo:':
     'prefix': 'addSetCoercionTo:'
-    'body': 'JNFDefaultCoercions.addSetCoercionTo(${1:JNFTypeCoercer* coercer})'
+    'body': 'addSetCoercionTo(${1:JNFTypeCoercer* coercer})'
   'JNFDefaultCoercions.addStringCoercionTo:':
     'prefix': 'addStringCoercionTo:'
-    'body': 'JNFDefaultCoercions.addStringCoercionTo(${1:JNFTypeCoercer* coercer})'
+    'body': 'addStringCoercionTo(${1:JNFTypeCoercer* coercer})'
   'JNFDefaultCoercions.defaultCoercer':
     'prefix': 'defaultCoercer'
-    'body': 'JNFDefaultCoercions.defaultCoercer()'
+    'body': 'defaultCoercer()'
   'init:as:reason:':
     'prefix': 'init:as:reason:'
     'body': 'init(${1:JNIEnv* env}, as:${2:char* javaExceptionType}, reason:${3:char* reasonMsg})'
@@ -2008,22 +2008,22 @@
     'body': 'init(${1:JNIEnv* env}, throwable:${2:jthrowable throwable})'
   'JNFException.raise:as:reason:':
     'prefix': 'raise:as:reason:'
-    'body': 'JNFException.raise(${1:JNIEnv* env}, as:${2:char* javaExceptionType}, reason:${3:char* reasonMsg})'
+    'body': 'raise(${1:JNIEnv* env}, as:${2:char* javaExceptionType}, reason:${3:char* reasonMsg})'
   'JNFException.raise:throwable:':
     'prefix': 'raise:throwable:'
-    'body': 'JNFException.raise(${1:JNIEnv* env}, throwable:${2:jthrowable throwable})'
+    'body': 'raise(${1:JNIEnv* env}, throwable:${2:jthrowable throwable})'
   'raiseToJava:':
     'prefix': 'raiseToJava:'
     'body': 'raiseToJava(${1:JNIEnv* env})'
   'JNFException.raiseUnnamedException:':
     'prefix': 'raiseUnnamedException:'
-    'body': 'JNFException.raiseUnnamedException(${1:JNIEnv* env})'
+    'body': 'raiseUnnamedException(${1:JNIEnv* env})'
   'JNFException.throwToJava:exception:':
     'prefix': 'throwToJava:exception:'
-    'body': 'JNFException.throwToJava(${1:JNIEnv* env}, exception:${2:NSException* exception})'
+    'body': 'throwToJava(${1:JNIEnv* env}, exception:${2:NSException* exception})'
   'JNFException.throwToJava:exception:as:':
     'prefix': 'throwToJava:exception:as:'
-    'body': 'JNFException.throwToJava(${1:JNIEnv* env}, exception:${2:NSException* exception}, as:${3:char* javaExceptionType})'
+    'body': 'throwToJava(${1:JNIEnv* env}, exception:${2:NSException* exception}, as:${3:char* javaExceptionType})'
   'initWithJObject:withEnv:':
     'prefix': 'initWithJObject:withEnv:'
     'body': 'initWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
@@ -2038,22 +2038,22 @@
     'body': 'setJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
   'JNFJObjectWrapper.wrapperWithJObject:withEnv:':
     'prefix': 'wrapperWithJObject:withEnv:'
-    'body': 'JNFJObjectWrapper.wrapperWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
+    'body': 'wrapperWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
   'JNFRunLoop.javaRunLoopMode':
     'prefix': 'javaRunLoopMode'
-    'body': 'JNFRunLoop.javaRunLoopMode()'
+    'body': 'javaRunLoopMode()'
   'JNFRunLoop.performOnMainThread:on:withObject:waitUntilDone:':
     'prefix': 'performOnMainThread:on:withObject:waitUntilDone:'
-    'body': 'JNFRunLoop.performOnMainThread(${1:SEL aSelector}, on:${2:id target}, withObject:${3:id arg}, waitUntilDone:${4:BOOL wait})'
+    'body': 'performOnMainThread(${1:SEL aSelector}, on:${2:id target}, withObject:${3:id arg}, waitUntilDone:${4:BOOL wait})'
   'JNFRunLoop.performOnMainThreadWaiting:withBlock:':
     'prefix': 'performOnMainThreadWaiting:withBlock:'
-    'body': 'JNFRunLoop.performOnMainThreadWaiting(${1:BOOL waitUntilDone}, withBlock:${2:void (^)() block})'
+    'body': 'performOnMainThreadWaiting(${1:BOOL waitUntilDone}, withBlock:${2:void (^)() block})'
   'JNFRunnable.blockWithRunnable:withEnv:':
     'prefix': 'blockWithRunnable:withEnv:'
-    'body': 'JNFRunnable.blockWithRunnable(${1:jobject runnable}, withEnv:${2:JNIEnv* env})'
+    'body': 'blockWithRunnable(${1:jobject runnable}, withEnv:${2:JNIEnv* env})'
   'JNFRunnable.invocationWithRunnable:withEnv:':
     'prefix': 'invocationWithRunnable:withEnv:'
-    'body': 'JNFRunnable.invocationWithRunnable(${1:jobject runnable}, withEnv:${2:JNIEnv* env})'
+    'body': 'invocationWithRunnable(${1:jobject runnable}, withEnv:${2:JNIEnv* env})'
   'addCoercion:forNSClass:javaClass:':
     'prefix': 'addCoercion:forNSClass:javaClass:'
     'body': 'addCoercion(${1:NSObject* coercion}, forNSClass:${2:Class nsClass}, javaClass:${3:NSString* javaClassName})'
@@ -2074,7 +2074,7 @@
     'body': 'initWithParent(${1:NSObject* parentIn})'
   'JNFWeakJObjectWrapper.wrapperWithJObject:withEnv:':
     'prefix': 'wrapperWithJObject:withEnv:'
-    'body': 'JNFWeakJObjectWrapper.wrapperWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
+    'body': 'wrapperWithJObject(${1:jobject jObjectIn}, withEnv:${2:JNIEnv* env})'
   'coerceJavaObject:withEnv:usingCoercer:':
     'prefix': 'coerceJavaObject:withEnv:usingCoercer:'
     'body': 'coerceJavaObject(${1:jobject obj}, withEnv:${2:JNIEnv* env}, usingCoercer:${3:JNFTypeCoercion* coercer})'
@@ -2776,25 +2776,25 @@
     'body': 'hostRemoteLayer(${1:uint32_t layerID})'
   'JRSAppKitAWT.awtAppDelegate':
     'prefix': 'awtAppDelegate'
-    'body': 'JRSAppKitAWT.awtAppDelegate()'
+    'body': 'awtAppDelegate()'
   'JRSAppKitAWT.markAppIsDaemon':
     'prefix': 'markAppIsDaemon'
-    'body': 'JRSAppKitAWT.markAppIsDaemon()'
+    'body': 'markAppIsDaemon()'
   'JRSAppKitAWT.registerAWTAppWithOptions:':
     'prefix': 'registerAWTAppWithOptions:'
-    'body': 'JRSAppKitAWT.registerAWTAppWithOptions(${1:NSDictionary* options})'
+    'body': 'registerAWTAppWithOptions(${1:NSDictionary* options})'
   'JRSDrag.currentAllowableActions':
     'prefix': 'currentAllowableActions'
-    'body': 'JRSDrag.currentAllowableActions()'
+    'body': 'currentAllowableActions()'
   'JRSDrag.currentModifiers':
     'prefix': 'currentModifiers'
-    'body': 'JRSDrag.currentModifiers()'
+    'body': 'currentModifiers()'
   'availableInputMethodLocales':
     'prefix': 'availableInputMethodLocales'
     'body': 'availableInputMethodLocales()'
   'JRSInputMethodController.controller':
     'prefix': 'controller'
-    'body': 'JRSInputMethodController.controller()'
+    'body': 'controller()'
   'currentInputMethodLocale':
     'prefix': 'currentInputMethodLocale'
     'body': 'currentInputMethodLocale()'
@@ -2806,43 +2806,43 @@
     'body': 'setCurrentInputMethodForLocale(${1:NSString* theLocale})'
   'JRSRenderServer.recieveRenderServer:':
     'prefix': 'recieveRenderServer:'
-    'body': 'JRSRenderServer.recieveRenderServer(${1:NSString* serverName})'
+    'body': 'recieveRenderServer(${1:NSString* serverName})'
   'JRSRenderServer.sendRenderServer:':
     'prefix': 'sendRenderServer:'
-    'body': 'JRSRenderServer.sendRenderServer(${1:mach_port_t serverPort})'
+    'body': 'sendRenderServer(${1:mach_port_t serverPort})'
   'JRSRenderServer.startRenderServer':
     'prefix': 'startRenderServer'
-    'body': 'JRSRenderServer.startRenderServer()'
+    'body': 'startRenderServer()'
   'JRSSecurity.executionPolicyForExecutableCodeSignatureEvaluation:':
     'prefix': 'executionPolicyForExecutableCodeSignatureEvaluation:'
-    'body': 'JRSSecurity.executionPolicyForExecutableCodeSignatureEvaluation(${1:JRSSecurityExecutableCodeSignatureEvaluation evaluation})'
+    'body': 'executionPolicyForExecutableCodeSignatureEvaluation(${1:JRSSecurityExecutableCodeSignatureEvaluation evaluation})'
   'addressForSymbol:':
     'prefix': 'addressForSymbol:'
     'body': 'addressForSymbol(${1:NSString* symbolName})'
   'JRSSymbolicator.symbolicatorForPid:':
     'prefix': 'symbolicatorForPid:'
-    'body': 'JRSSymbolicator.symbolicatorForPid(${1:pid_t pid})'
+    'body': 'symbolicatorForPid(${1:pid_t pid})'
   'NSCursor.javaBusyButClickableCursor':
     'prefix': 'javaBusyButClickableCursor'
-    'body': 'NSCursor.javaBusyButClickableCursor()'
+    'body': 'javaBusyButClickableCursor()'
   'NSCursor.javaMoveCursor':
     'prefix': 'javaMoveCursor'
-    'body': 'NSCursor.javaMoveCursor()'
+    'body': 'javaMoveCursor()'
   'NSCursor.javaResizeNECursor':
     'prefix': 'javaResizeNECursor'
-    'body': 'NSCursor.javaResizeNECursor()'
+    'body': 'javaResizeNECursor()'
   'NSCursor.javaResizeNWCursor':
     'prefix': 'javaResizeNWCursor'
-    'body': 'NSCursor.javaResizeNWCursor()'
+    'body': 'javaResizeNWCursor()'
   'NSCursor.javaResizeSECursor':
     'prefix': 'javaResizeSECursor'
-    'body': 'NSCursor.javaResizeSECursor()'
+    'body': 'javaResizeSECursor()'
   'NSCursor.javaResizeSWCursor':
     'prefix': 'javaResizeSWCursor'
-    'body': 'NSCursor.javaResizeSWCursor()'
+    'body': 'javaResizeSWCursor()'
   'NSCursor.javaSetAllowsCursorSetInBackground:':
     'prefix': 'javaSetAllowsCursorSetInBackground:'
-    'body': 'NSCursor.javaSetAllowsCursorSetInBackground(${1:BOOL allows})'
+    'body': 'javaSetAllowsCursorSetInBackground(${1:BOOL allows})'
   'deadKeyCharacter':
     'prefix': 'deadKeyCharacter'
     'body': 'deadKeyCharacter()'
@@ -2854,7 +2854,7 @@
     'body': 'isJavaMenu()'
   'NSMenu.javaMenuWithTitle:':
     'prefix': 'javaMenuWithTitle:'
-    'body': 'NSMenu.javaMenuWithTitle(${1:NSString* title})'
+    'body': 'javaMenuWithTitle(${1:NSString* title})'
   'setJavaMenuDelegate:':
     'prefix': 'setJavaMenuDelegate:'
     'body': 'setJavaMenuDelegate(${1:id delegate})'

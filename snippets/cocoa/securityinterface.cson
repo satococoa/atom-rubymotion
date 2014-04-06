@@ -196,7 +196,7 @@
     'body': 'setShowsHelp(${1:BOOL showsHelp})'
   'SFCertificatePanel.sharedCertificatePanel':
     'prefix': 'sharedCertificatePanel'
-    'body': 'SFCertificatePanel.sharedCertificatePanel()'
+    'body': 'sharedCertificatePanel()'
   'showsHelp':
     'prefix': 'showsHelp'
     'body': 'showsHelp()'
@@ -214,7 +214,7 @@
     'body': 'setInformativeText(${1:NSString* informativeText})'
   'SFCertificateTrustPanel.sharedCertificateTrustPanel':
     'prefix': 'sharedCertificateTrustPanel'
-    'body': 'SFCertificateTrustPanel.sharedCertificateTrustPanel()'
+    'body': 'sharedCertificateTrustPanel()'
   'certificate':
     'prefix': 'certificate'
     'body': 'certificate()'
@@ -304,7 +304,7 @@
     'body': 'setShowsHelp(${1:BOOL showsHelp})'
   'SFChooseIdentityPanel.sharedChooseIdentityPanel':
     'prefix': 'sharedChooseIdentityPanel'
-    'body': 'SFChooseIdentityPanel.sharedChooseIdentityPanel()'
+    'body': 'sharedChooseIdentityPanel()'
   'showsHelp':
     'prefix': 'showsHelp'
     'body': 'showsHelp()'
@@ -325,7 +325,7 @@
     'body': 'setPassword(${1:NSString* password})'
   'SFKeychainSavePanel.sharedKeychainSavePanel':
     'prefix': 'sharedKeychainSavePanel'
-    'body': 'SFKeychainSavePanel.sharedKeychainSavePanel()'
+    'body': 'sharedKeychainSavePanel()'
   'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:settings:keychain:':
     'prefix': 'beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:settings:keychain:'
     'body': 'beginSheetForWindow(${1:NSWindow* docWindow}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo}, settings:${5:SecKeychainSettings* settings}, keychain:${6:SecKeychainRef keychain})'
@@ -334,7 +334,7 @@
     'body': 'runModalForSettings(${1:SecKeychainSettings* settings}, keychain:${2:SecKeychainRef keychain})'
   'SFKeychainSettingsPanel.sharedKeychainSettingsPanel':
     'prefix': 'sharedKeychainSettingsPanel'
-    'body': 'SFKeychainSettingsPanel.sharedKeychainSettingsPanel()'
+    'body': 'sharedKeychainSettingsPanel()'
   'authorizationViewCreatedAuthorization:':
     'prefix': 'authorizationViewCreatedAuthorization:'
     'body': 'authorizationViewCreatedAuthorization(${1:SFAuthorizationView* view})'

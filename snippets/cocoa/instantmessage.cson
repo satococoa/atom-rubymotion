@@ -136,16 +136,16 @@
     'body': 'IMComparePersonStatus(${1:IMPersonStatus status}, ${2:IMPersonStatus compareTo})'
   'IMAVButton.backwardButton':
     'prefix': 'backwardButton'
-    'body': 'IMAVButton.backwardButton()'
+    'body': 'backwardButton()'
   'IMAVButton.forwardButton':
     'prefix': 'forwardButton'
-    'body': 'IMAVButton.forwardButton()'
+    'body': 'forwardButton()'
   'IMAVButton.muteButton':
     'prefix': 'muteButton'
-    'body': 'IMAVButton.muteButton()'
+    'body': 'muteButton()'
   'IMAVButton.playPauseButton':
     'prefix': 'playPauseButton'
-    'body': 'IMAVButton.playPauseButton()'
+    'body': 'playPauseButton()'
   'setState:':
     'prefix': 'setState:'
     'body': 'setState(${1:NSInteger value})'
@@ -238,7 +238,7 @@
     'body': 'setVideoOptimizationOptions(${1:IMVideoOptimizationOptions options})'
   'IMAVManager.sharedAVManager':
     'prefix': 'sharedAVManager'
-    'body': 'IMAVManager.sharedAVManager()'
+    'body': 'sharedAVManager()'
   'start':
     'prefix': 'start'
     'body': 'start()'
@@ -268,16 +268,16 @@
     'body': 'setMinValue(${1:double aDouble})'
   'IMAVSlider.timeSlider':
     'prefix': 'timeSlider'
-    'body': 'IMAVSlider.timeSlider()'
+    'body': 'timeSlider()'
   'IMService.allServices':
     'prefix': 'allServices'
-    'body': 'IMService.allServices()'
+    'body': 'allServices()'
   'IMService.imageNameForStatus:':
     'prefix': 'imageNameForStatus:'
-    'body': 'IMService.imageNameForStatus(${1:IMPersonStatus status})'
+    'body': 'imageNameForStatus(${1:IMPersonStatus status})'
   'IMService.imageURLForStatus:':
     'prefix': 'imageURLForStatus:'
-    'body': 'IMService.imageURLForStatus(${1:IMPersonStatus status})'
+    'body': 'imageURLForStatus(${1:IMPersonStatus status})'
   'infoForAllScreenNames':
     'prefix': 'infoForAllScreenNames'
     'body': 'infoForAllScreenNames()'
@@ -295,16 +295,16 @@
     'body': 'localizedShortName()'
   'IMService.myIdleTime':
     'prefix': 'myIdleTime'
-    'body': 'IMService.myIdleTime()'
+    'body': 'myIdleTime()'
   'IMService.myStatus':
     'prefix': 'myStatus'
-    'body': 'IMService.myStatus()'
+    'body': 'myStatus()'
   'name':
     'prefix': 'name'
     'body': 'name()'
   'IMService.notificationCenter':
     'prefix': 'notificationCenter'
-    'body': 'IMService.notificationCenter()'
+    'body': 'notificationCenter()'
   'peopleWithScreenName:':
     'prefix': 'peopleWithScreenName:'
     'body': 'peopleWithScreenName(${1:NSString* screenName})'
@@ -313,7 +313,7 @@
     'body': 'screenNamesForPerson(${1:ABPerson* person})'
   'IMService.serviceWithName:':
     'prefix': 'serviceWithName:'
-    'body': 'IMService.serviceWithName(${1:NSString* name})'
+    'body': 'serviceWithName(${1:NSString* name})'
   'status':
     'prefix': 'status'
     'body': 'status()'

@@ -109,127 +109,127 @@
     'body': 'didEndContact(${1: contact})'
   'SKAction.animateWithTextures:timePerFrame:':
     'prefix': 'animateWithTextures:timePerFrame:'
-    'body': 'SKAction.animateWithTextures(${1: textures}, timePerFrame:${2: sec})'
+    'body': 'animateWithTextures(${1: textures}, timePerFrame:${2: sec})'
   'SKAction.animateWithTextures:timePerFrame:resize:restore:':
     'prefix': 'animateWithTextures:timePerFrame:resize:restore:'
-    'body': 'SKAction.animateWithTextures(${1: textures}, timePerFrame:${2: sec}, resize:${3: resize}, restore:${4: restore})'
+    'body': 'animateWithTextures(${1: textures}, timePerFrame:${2: sec}, resize:${3: resize}, restore:${4: restore})'
   'SKAction.colorizeWithColor:colorBlendFactor:duration:':
     'prefix': 'colorizeWithColor:colorBlendFactor:duration:'
-    'body': 'SKAction.colorizeWithColor(${1: color}, colorBlendFactor:${2: colorBlendFactor}, duration:${3: sec})'
+    'body': 'colorizeWithColor(${1: color}, colorBlendFactor:${2: colorBlendFactor}, duration:${3: sec})'
   'SKAction.colorizeWithColorBlendFactor:duration:':
     'prefix': 'colorizeWithColorBlendFactor:duration:'
-    'body': 'SKAction.colorizeWithColorBlendFactor(${1: colorBlendFactor}, duration:${2: sec})'
+    'body': 'colorizeWithColorBlendFactor(${1: colorBlendFactor}, duration:${2: sec})'
   'SKAction.customActionWithDuration:actionBlock:':
     'prefix': 'customActionWithDuration:actionBlock:'
-    'body': 'SKAction.customActionWithDuration(${1: seconds}, actionBlock:${2: block})'
+    'body': 'customActionWithDuration(${1: seconds}, actionBlock:${2: block})'
   'duration':
     'prefix': 'duration'
     'body': 'duration()'
   'SKAction.fadeAlphaBy:duration:':
     'prefix': 'fadeAlphaBy:duration:'
-    'body': 'SKAction.fadeAlphaBy(${1: factor}, duration:${2: sec})'
+    'body': 'fadeAlphaBy(${1: factor}, duration:${2: sec})'
   'SKAction.fadeAlphaTo:duration:':
     'prefix': 'fadeAlphaTo:duration:'
-    'body': 'SKAction.fadeAlphaTo(${1: alpha}, duration:${2: sec})'
+    'body': 'fadeAlphaTo(${1: alpha}, duration:${2: sec})'
   'SKAction.fadeInWithDuration:':
     'prefix': 'fadeInWithDuration:'
-    'body': 'SKAction.fadeInWithDuration(${1: sec})'
+    'body': 'fadeInWithDuration(${1: sec})'
   'SKAction.fadeOutWithDuration:':
     'prefix': 'fadeOutWithDuration:'
-    'body': 'SKAction.fadeOutWithDuration(${1: sec})'
+    'body': 'fadeOutWithDuration(${1: sec})'
   'SKAction.followPath:asOffset:orientToPath:duration:':
     'prefix': 'followPath:asOffset:orientToPath:duration:'
-    'body': 'SKAction.followPath(${1: path}, asOffset:${2: offset}, orientToPath:${3: orient}, duration:${4: sec})'
+    'body': 'followPath(${1: path}, asOffset:${2: offset}, orientToPath:${3: orient}, duration:${4: sec})'
   'SKAction.followPath:duration:':
     'prefix': 'followPath:duration:'
-    'body': 'SKAction.followPath(${1: path}, duration:${2: sec})'
+    'body': 'followPath(${1: path}, duration:${2: sec})'
   'SKAction.group:':
     'prefix': 'group:'
-    'body': 'SKAction.group(${1: actions})'
+    'body': 'group(${1: actions})'
   'SKAction.moveBy:duration:':
     'prefix': 'moveBy:duration:'
-    'body': 'SKAction.moveBy(${1: delta}, duration:${2: sec})'
+    'body': 'moveBy(${1: delta}, duration:${2: sec})'
   'SKAction.moveByX:y:duration:':
     'prefix': 'moveByX:y:duration:'
-    'body': 'SKAction.moveByX(${1: deltaX}, y:${2: deltaY}, duration:${3: sec})'
+    'body': 'moveByX(${1: deltaX}, y:${2: deltaY}, duration:${3: sec})'
   'SKAction.moveTo:duration:':
     'prefix': 'moveTo:duration:'
-    'body': 'SKAction.moveTo(${1: location}, duration:${2: sec})'
+    'body': 'moveTo(${1: location}, duration:${2: sec})'
   'SKAction.moveToX:duration:':
     'prefix': 'moveToX:duration:'
-    'body': 'SKAction.moveToX(${1: x}, duration:${2: sec})'
+    'body': 'moveToX(${1: x}, duration:${2: sec})'
   'SKAction.moveToY:duration:':
     'prefix': 'moveToY:duration:'
-    'body': 'SKAction.moveToY(${1: y}, duration:${2: sec})'
+    'body': 'moveToY(${1: y}, duration:${2: sec})'
   'SKAction.performSelector:onTarget:':
     'prefix': 'performSelector:onTarget:'
-    'body': 'SKAction.performSelector(${1: selector}, onTarget:${2: target})'
+    'body': 'performSelector(${1: selector}, onTarget:${2: target})'
   'SKAction.playSoundFileNamed:waitForCompletion:':
     'prefix': 'playSoundFileNamed:waitForCompletion:'
-    'body': 'SKAction.playSoundFileNamed(${1: soundFile}, waitForCompletion:${2: wait})'
+    'body': 'playSoundFileNamed(${1: soundFile}, waitForCompletion:${2: wait})'
   'SKAction.removeFromParent':
     'prefix': 'removeFromParent'
-    'body': 'SKAction.removeFromParent()'
+    'body': 'removeFromParent()'
   'SKAction.repeatAction:count:':
     'prefix': 'repeatAction:count:'
-    'body': 'SKAction.repeatAction(${1: action}, count:${2: count})'
+    'body': 'repeatAction(${1: action}, count:${2: count})'
   'SKAction.repeatActionForever:':
     'prefix': 'repeatActionForever:'
-    'body': 'SKAction.repeatActionForever(${1: action})'
+    'body': 'repeatActionForever(${1: action})'
   'SKAction.resizeByWidth:height:duration:':
     'prefix': 'resizeByWidth:height:duration:'
-    'body': 'SKAction.resizeByWidth(${1: width}, height:${2: height}, duration:${3: duration})'
+    'body': 'resizeByWidth(${1: width}, height:${2: height}, duration:${3: duration})'
   'SKAction.resizeToHeight:duration:':
     'prefix': 'resizeToHeight:duration:'
-    'body': 'SKAction.resizeToHeight(${1: height}, duration:${2: duration})'
+    'body': 'resizeToHeight(${1: height}, duration:${2: duration})'
   'SKAction.resizeToWidth:duration:':
     'prefix': 'resizeToWidth:duration:'
-    'body': 'SKAction.resizeToWidth(${1: width}, duration:${2: duration})'
+    'body': 'resizeToWidth(${1: width}, duration:${2: duration})'
   'SKAction.resizeToWidth:height:duration:':
     'prefix': 'resizeToWidth:height:duration:'
-    'body': 'SKAction.resizeToWidth(${1: width}, height:${2: height}, duration:${3: duration})'
+    'body': 'resizeToWidth(${1: width}, height:${2: height}, duration:${3: duration})'
   'reversedAction':
     'prefix': 'reversedAction'
     'body': 'reversedAction()'
   'SKAction.rotateByAngle:duration:':
     'prefix': 'rotateByAngle:duration:'
-    'body': 'SKAction.rotateByAngle(${1: radians}, duration:${2: sec})'
+    'body': 'rotateByAngle(${1: radians}, duration:${2: sec})'
   'SKAction.rotateToAngle:duration:':
     'prefix': 'rotateToAngle:duration:'
-    'body': 'SKAction.rotateToAngle(${1: radians}, duration:${2: sec})'
+    'body': 'rotateToAngle(${1: radians}, duration:${2: sec})'
   'SKAction.rotateToAngle:duration:shortestUnitArc:':
     'prefix': 'rotateToAngle:duration:shortestUnitArc:'
-    'body': 'SKAction.rotateToAngle(${1: radians}, duration:${2: sec}, shortestUnitArc:${3: shortestUnitArc})'
+    'body': 'rotateToAngle(${1: radians}, duration:${2: sec}, shortestUnitArc:${3: shortestUnitArc})'
   'SKAction.runAction:onChildWithName:':
     'prefix': 'runAction:onChildWithName:'
-    'body': 'SKAction.runAction(${1: action}, onChildWithName:${2: name})'
+    'body': 'runAction(${1: action}, onChildWithName:${2: name})'
   'SKAction.runBlock:':
     'prefix': 'runBlock:'
-    'body': 'SKAction.runBlock(${1: block})'
+    'body': 'runBlock(${1: block})'
   'SKAction.runBlock:queue:':
     'prefix': 'runBlock:queue:'
-    'body': 'SKAction.runBlock(${1: block}, queue:${2: queue})'
+    'body': 'runBlock(${1: block}, queue:${2: queue})'
   'SKAction.scaleBy:duration:':
     'prefix': 'scaleBy:duration:'
-    'body': 'SKAction.scaleBy(${1: scale}, duration:${2: sec})'
+    'body': 'scaleBy(${1: scale}, duration:${2: sec})'
   'SKAction.scaleTo:duration:':
     'prefix': 'scaleTo:duration:'
-    'body': 'SKAction.scaleTo(${1: scale}, duration:${2: sec})'
+    'body': 'scaleTo(${1: scale}, duration:${2: sec})'
   'SKAction.scaleXBy:y:duration:':
     'prefix': 'scaleXBy:y:duration:'
-    'body': 'SKAction.scaleXBy(${1: xScale}, y:${2: yScale}, duration:${3: sec})'
+    'body': 'scaleXBy(${1: xScale}, y:${2: yScale}, duration:${3: sec})'
   'SKAction.scaleXTo:duration:':
     'prefix': 'scaleXTo:duration:'
-    'body': 'SKAction.scaleXTo(${1: scale}, duration:${2: sec})'
+    'body': 'scaleXTo(${1: scale}, duration:${2: sec})'
   'SKAction.scaleXTo:y:duration:':
     'prefix': 'scaleXTo:y:duration:'
-    'body': 'SKAction.scaleXTo(${1: xScale}, y:${2: yScale}, duration:${3: sec})'
+    'body': 'scaleXTo(${1: xScale}, y:${2: yScale}, duration:${3: sec})'
   'SKAction.scaleYTo:duration:':
     'prefix': 'scaleYTo:duration:'
-    'body': 'SKAction.scaleYTo(${1: scale}, duration:${2: sec})'
+    'body': 'scaleYTo(${1: scale}, duration:${2: sec})'
   'SKAction.sequence:':
     'prefix': 'sequence:'
-    'body': 'SKAction.sequence(${1: actions})'
+    'body': 'sequence(${1: actions})'
   'setDuration:':
     'prefix': 'setDuration:'
     'body': 'setDuration(${1: duration})'
@@ -238,7 +238,7 @@
     'body': 'setSpeed(${1: speed})'
   'SKAction.setTexture:':
     'prefix': 'setTexture:'
-    'body': 'SKAction.setTexture(${1: texture})'
+    'body': 'setTexture(${1: texture})'
   'setTimingMode:':
     'prefix': 'setTimingMode:'
     'body': 'setTimingMode(${1: timingMode})'
@@ -247,19 +247,19 @@
     'body': 'speed()'
   'SKAction.speedBy:duration:':
     'prefix': 'speedBy:duration:'
-    'body': 'SKAction.speedBy(${1: speed}, duration:${2: sec})'
+    'body': 'speedBy(${1: speed}, duration:${2: sec})'
   'SKAction.speedTo:duration:':
     'prefix': 'speedTo:duration:'
-    'body': 'SKAction.speedTo(${1: speed}, duration:${2: sec})'
+    'body': 'speedTo(${1: speed}, duration:${2: sec})'
   'timingMode':
     'prefix': 'timingMode'
     'body': 'timingMode()'
   'SKAction.waitForDuration:':
     'prefix': 'waitForDuration:'
-    'body': 'SKAction.waitForDuration(${1: sec})'
+    'body': 'waitForDuration(${1: sec})'
   'SKAction.waitForDuration:withRange:':
     'prefix': 'waitForDuration:withRange:'
-    'body': 'SKAction.waitForDuration(${1: sec}, withRange:${2: durationRange})'
+    'body': 'waitForDuration(${1: sec}, withRange:${2: durationRange})'
   'maskNode':
     'prefix': 'maskNode'
     'body': 'maskNode()'
@@ -640,7 +640,7 @@
     'body': 'initWithFontNamed(${1: fontName})'
   'SKLabelNode.labelNodeWithFontNamed:':
     'prefix': 'labelNodeWithFontNamed:'
-    'body': 'SKLabelNode.labelNodeWithFontNamed(${1: fontName})'
+    'body': 'labelNodeWithFontNamed(${1: fontName})'
   'setBlendMode:':
     'prefix': 'setBlendMode:'
     'body': 'setBlendMode(${1: blendMode})'
@@ -730,7 +730,7 @@
     'body': 'name()'
   'SKNode.node':
     'prefix': 'node'
-    'body': 'SKNode.node()'
+    'body': 'node()'
   'nodeAtPoint:':
     'prefix': 'nodeAtPoint:'
     'body': 'nodeAtPoint(${1: p})'
@@ -886,25 +886,25 @@
     'body': 'area()'
   'SKPhysicsBody.bodyWithCircleOfRadius:':
     'prefix': 'bodyWithCircleOfRadius:'
-    'body': 'SKPhysicsBody.bodyWithCircleOfRadius(${1: r})'
+    'body': 'bodyWithCircleOfRadius(${1: r})'
   'SKPhysicsBody.bodyWithEdgeChainFromPath:':
     'prefix': 'bodyWithEdgeChainFromPath:'
-    'body': 'SKPhysicsBody.bodyWithEdgeChainFromPath(${1: path})'
+    'body': 'bodyWithEdgeChainFromPath(${1: path})'
   'SKPhysicsBody.bodyWithEdgeFromPoint:toPoint:':
     'prefix': 'bodyWithEdgeFromPoint:toPoint:'
-    'body': 'SKPhysicsBody.bodyWithEdgeFromPoint(${1: p1}, toPoint:${2: p2})'
+    'body': 'bodyWithEdgeFromPoint(${1: p1}, toPoint:${2: p2})'
   'SKPhysicsBody.bodyWithEdgeLoopFromPath:':
     'prefix': 'bodyWithEdgeLoopFromPath:'
-    'body': 'SKPhysicsBody.bodyWithEdgeLoopFromPath(${1: path})'
+    'body': 'bodyWithEdgeLoopFromPath(${1: path})'
   'SKPhysicsBody.bodyWithEdgeLoopFromRect:':
     'prefix': 'bodyWithEdgeLoopFromRect:'
-    'body': 'SKPhysicsBody.bodyWithEdgeLoopFromRect(${1: rect})'
+    'body': 'bodyWithEdgeLoopFromRect(${1: rect})'
   'SKPhysicsBody.bodyWithPolygonFromPath:':
     'prefix': 'bodyWithPolygonFromPath:'
-    'body': 'SKPhysicsBody.bodyWithPolygonFromPath(${1: path})'
+    'body': 'bodyWithPolygonFromPath(${1: path})'
   'SKPhysicsBody.bodyWithRectangleOfSize:':
     'prefix': 'bodyWithRectangleOfSize:'
-    'body': 'SKPhysicsBody.bodyWithRectangleOfSize(${1: s})'
+    'body': 'bodyWithRectangleOfSize(${1: s})'
   'categoryBitMask':
     'prefix': 'categoryBitMask'
     'body': 'categoryBitMask()'
@@ -1042,10 +1042,10 @@
     'body': 'setBodyB(${1: bodyB})'
   'SKPhysicsJointFixed.jointWithBodyA:bodyB:anchor:':
     'prefix': 'jointWithBodyA:bodyB:anchor:'
-    'body': 'SKPhysicsJointFixed.jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchor:${3: anchor})'
+    'body': 'jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchor:${3: anchor})'
   'SKPhysicsJointLimit.jointWithBodyA:bodyB:anchorA:anchorB:':
     'prefix': 'jointWithBodyA:bodyB:anchorA:anchorB:'
-    'body': 'SKPhysicsJointLimit.jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchorA:${3: anchorA}, anchorB:${4: anchorB})'
+    'body': 'jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchorA:${3: anchorA}, anchorB:${4: anchorB})'
   'maxLength':
     'prefix': 'maxLength'
     'body': 'maxLength()'
@@ -1057,7 +1057,7 @@
     'body': 'frictionTorque()'
   'SKPhysicsJointPin.jointWithBodyA:bodyB:anchor:':
     'prefix': 'jointWithBodyA:bodyB:anchor:'
-    'body': 'SKPhysicsJointPin.jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchor:${3: anchor})'
+    'body': 'jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchor:${3: anchor})'
   'lowerAngleLimit':
     'prefix': 'lowerAngleLimit'
     'body': 'lowerAngleLimit()'
@@ -1081,7 +1081,7 @@
     'body': 'upperAngleLimit()'
   'SKPhysicsJointSliding.jointWithBodyA:bodyB:anchor:axis:':
     'prefix': 'jointWithBodyA:bodyB:anchor:axis:'
-    'body': 'SKPhysicsJointSliding.jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchor:${3: anchor}, axis:${4: axis})'
+    'body': 'jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchor:${3: anchor}, axis:${4: axis})'
   'lowerDistanceLimit':
     'prefix': 'lowerDistanceLimit'
     'body': 'lowerDistanceLimit()'
@@ -1108,7 +1108,7 @@
     'body': 'frequency()'
   'SKPhysicsJointSpring.jointWithBodyA:bodyB:anchorA:anchorB:':
     'prefix': 'jointWithBodyA:bodyB:anchorA:anchorB:'
-    'body': 'SKPhysicsJointSpring.jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchorA:${3: anchorA}, anchorB:${4: anchorB})'
+    'body': 'jointWithBodyA(${1: bodyA}, bodyB:${2: bodyB}, anchorA:${3: anchorA}, anchorB:${4: anchorB})'
   'setDamping:':
     'prefix': 'setDamping:'
     'body': 'setDamping(${1: damping})'
@@ -1195,7 +1195,7 @@
     'body': 'scaleMode()'
   'SKScene.sceneWithSize:':
     'prefix': 'sceneWithSize:'
-    'body': 'SKScene.sceneWithSize(${1: size})'
+    'body': 'sceneWithSize(${1: size})'
   'setAnchorPoint:':
     'prefix': 'setAnchorPoint:'
     'body': 'setAnchorPoint(${1: anchorPoint})'
@@ -1321,16 +1321,16 @@
     'body': 'size()'
   'SKSpriteNode.spriteNodeWithColor:size:':
     'prefix': 'spriteNodeWithColor:size:'
-    'body': 'SKSpriteNode.spriteNodeWithColor(${1: color}, size:${2: size})'
+    'body': 'spriteNodeWithColor(${1: color}, size:${2: size})'
   'SKSpriteNode.spriteNodeWithImageNamed:':
     'prefix': 'spriteNodeWithImageNamed:'
-    'body': 'SKSpriteNode.spriteNodeWithImageNamed(${1: name})'
+    'body': 'spriteNodeWithImageNamed(${1: name})'
   'SKSpriteNode.spriteNodeWithTexture:':
     'prefix': 'spriteNodeWithTexture:'
-    'body': 'SKSpriteNode.spriteNodeWithTexture(${1: texture})'
+    'body': 'spriteNodeWithTexture(${1: texture})'
   'SKSpriteNode.spriteNodeWithTexture:size:':
     'prefix': 'spriteNodeWithTexture:size:'
-    'body': 'SKSpriteNode.spriteNodeWithTexture(${1: texture}, size:${2: size})'
+    'body': 'spriteNodeWithTexture(${1: texture}, size:${2: size})'
   'texture':
     'prefix': 'texture'
     'body': 'texture()'
@@ -1339,7 +1339,7 @@
     'body': 'filteringMode()'
   'SKTexture.preloadTextures:withCompletionHandler:':
     'prefix': 'preloadTextures:withCompletionHandler:'
-    'body': 'SKTexture.preloadTextures(${1: textures}, withCompletionHandler:${2: completionHandler})'
+    'body': 'preloadTextures(${1: textures}, withCompletionHandler:${2: completionHandler})'
   'preloadWithCompletionHandler:':
     'prefix': 'preloadWithCompletionHandler:'
     'body': 'preloadWithCompletionHandler(${1: completionHandler})'
@@ -1360,31 +1360,31 @@
     'body': 'textureRect()'
   'SKTexture.textureWithCGImage:':
     'prefix': 'textureWithCGImage:'
-    'body': 'SKTexture.textureWithCGImage(${1: image})'
+    'body': 'textureWithCGImage(${1: image})'
   'SKTexture.textureWithData:size:':
     'prefix': 'textureWithData:size:'
-    'body': 'SKTexture.textureWithData(${1: pixelData}, size:${2: size})'
+    'body': 'textureWithData(${1: pixelData}, size:${2: size})'
   'SKTexture.textureWithData:size:rowLength:alignment:':
     'prefix': 'textureWithData:size:rowLength:alignment:'
-    'body': 'SKTexture.textureWithData(${1: pixelData}, size:${2: size}, rowLength:${3: rowLength}, alignment:${4: alignment})'
+    'body': 'textureWithData(${1: pixelData}, size:${2: size}, rowLength:${3: rowLength}, alignment:${4: alignment})'
   'SKTexture.textureWithImage:':
     'prefix': 'textureWithImage:'
-    'body': 'SKTexture.textureWithImage(${1: image})'
+    'body': 'textureWithImage(${1: image})'
   'SKTexture.textureWithImageNamed:':
     'prefix': 'textureWithImageNamed:'
-    'body': 'SKTexture.textureWithImageNamed(${1: name})'
+    'body': 'textureWithImageNamed(${1: name})'
   'SKTexture.textureWithRect:inTexture:':
     'prefix': 'textureWithRect:inTexture:'
-    'body': 'SKTexture.textureWithRect(${1: rect}, inTexture:${2: texture})'
+    'body': 'textureWithRect(${1: rect}, inTexture:${2: texture})'
   'usesMipmaps':
     'prefix': 'usesMipmaps'
     'body': 'usesMipmaps()'
   'SKTextureAtlas.atlasNamed:':
     'prefix': 'atlasNamed:'
-    'body': 'SKTextureAtlas.atlasNamed(${1: name})'
+    'body': 'atlasNamed(${1: name})'
   'SKTextureAtlas.preloadTextureAtlases:withCompletionHandler:':
     'prefix': 'preloadTextureAtlases:withCompletionHandler:'
-    'body': 'SKTextureAtlas.preloadTextureAtlases(${1: textureAtlases}, withCompletionHandler:${2: completionHandler})'
+    'body': 'preloadTextureAtlases(${1: textureAtlases}, withCompletionHandler:${2: completionHandler})'
   'preloadWithCompletionHandler:':
     'prefix': 'preloadWithCompletionHandler:'
     'body': 'preloadWithCompletionHandler(${1: completionHandler})'
@@ -1399,37 +1399,37 @@
     'body': 'textureNames()'
   'SKTransition.crossFadeWithDuration:':
     'prefix': 'crossFadeWithDuration:'
-    'body': 'SKTransition.crossFadeWithDuration(${1: sec})'
+    'body': 'crossFadeWithDuration(${1: sec})'
   'SKTransition.doorsCloseHorizontalWithDuration:':
     'prefix': 'doorsCloseHorizontalWithDuration:'
-    'body': 'SKTransition.doorsCloseHorizontalWithDuration(${1: sec})'
+    'body': 'doorsCloseHorizontalWithDuration(${1: sec})'
   'SKTransition.doorsCloseVerticalWithDuration:':
     'prefix': 'doorsCloseVerticalWithDuration:'
-    'body': 'SKTransition.doorsCloseVerticalWithDuration(${1: sec})'
+    'body': 'doorsCloseVerticalWithDuration(${1: sec})'
   'SKTransition.doorsOpenHorizontalWithDuration:':
     'prefix': 'doorsOpenHorizontalWithDuration:'
-    'body': 'SKTransition.doorsOpenHorizontalWithDuration(${1: sec})'
+    'body': 'doorsOpenHorizontalWithDuration(${1: sec})'
   'SKTransition.doorsOpenVerticalWithDuration:':
     'prefix': 'doorsOpenVerticalWithDuration:'
-    'body': 'SKTransition.doorsOpenVerticalWithDuration(${1: sec})'
+    'body': 'doorsOpenVerticalWithDuration(${1: sec})'
   'SKTransition.doorwayWithDuration:':
     'prefix': 'doorwayWithDuration:'
-    'body': 'SKTransition.doorwayWithDuration(${1: sec})'
+    'body': 'doorwayWithDuration(${1: sec})'
   'SKTransition.fadeWithColor:duration:':
     'prefix': 'fadeWithColor:duration:'
-    'body': 'SKTransition.fadeWithColor(${1: color}, duration:${2: sec})'
+    'body': 'fadeWithColor(${1: color}, duration:${2: sec})'
   'SKTransition.fadeWithDuration:':
     'prefix': 'fadeWithDuration:'
-    'body': 'SKTransition.fadeWithDuration(${1: sec})'
+    'body': 'fadeWithDuration(${1: sec})'
   'SKTransition.flipHorizontalWithDuration:':
     'prefix': 'flipHorizontalWithDuration:'
-    'body': 'SKTransition.flipHorizontalWithDuration(${1: sec})'
+    'body': 'flipHorizontalWithDuration(${1: sec})'
   'SKTransition.flipVerticalWithDuration:':
     'prefix': 'flipVerticalWithDuration:'
-    'body': 'SKTransition.flipVerticalWithDuration(${1: sec})'
+    'body': 'flipVerticalWithDuration(${1: sec})'
   'SKTransition.moveInWithDirection:duration:':
     'prefix': 'moveInWithDirection:duration:'
-    'body': 'SKTransition.moveInWithDirection(${1: direction}, duration:${2: sec})'
+    'body': 'moveInWithDirection(${1: direction}, duration:${2: sec})'
   'pausesIncomingScene':
     'prefix': 'pausesIncomingScene'
     'body': 'pausesIncomingScene()'
@@ -1438,10 +1438,10 @@
     'body': 'pausesOutgoingScene()'
   'SKTransition.pushWithDirection:duration:':
     'prefix': 'pushWithDirection:duration:'
-    'body': 'SKTransition.pushWithDirection(${1: direction}, duration:${2: sec})'
+    'body': 'pushWithDirection(${1: direction}, duration:${2: sec})'
   'SKTransition.revealWithDirection:duration:':
     'prefix': 'revealWithDirection:duration:'
-    'body': 'SKTransition.revealWithDirection(${1: direction}, duration:${2: sec})'
+    'body': 'revealWithDirection(${1: direction}, duration:${2: sec})'
   'setPausesIncomingScene:':
     'prefix': 'setPausesIncomingScene:'
     'body': 'setPausesIncomingScene(${1: pausesIncomingScene})'
@@ -1450,7 +1450,7 @@
     'body': 'setPausesOutgoingScene(${1: pausesOutgoingScene})'
   'SKTransition.transitionWithCIFilter:duration:':
     'prefix': 'transitionWithCIFilter:duration:'
-    'body': 'SKTransition.transitionWithCIFilter(${1: filter}, duration:${2: sec})'
+    'body': 'transitionWithCIFilter(${1: filter}, duration:${2: sec})'
   'anchorPoint':
     'prefix': 'anchorPoint'
     'body': 'anchorPoint()'
@@ -1480,13 +1480,13 @@
     'body': 'size()'
   'SKVideoNode.videoNodeWithAVPlayer:':
     'prefix': 'videoNodeWithAVPlayer:'
-    'body': 'SKVideoNode.videoNodeWithAVPlayer(${1: player})'
+    'body': 'videoNodeWithAVPlayer(${1: player})'
   'SKVideoNode.videoNodeWithVideoFileNamed:':
     'prefix': 'videoNodeWithVideoFileNamed:'
-    'body': 'SKVideoNode.videoNodeWithVideoFileNamed(${1: videoFile})'
+    'body': 'videoNodeWithVideoFileNamed(${1: videoFile})'
   'SKVideoNode.videoNodeWithVideoURL:':
     'prefix': 'videoNodeWithVideoURL:'
-    'body': 'SKVideoNode.videoNodeWithVideoURL(${1: videoURL})'
+    'body': 'videoNodeWithVideoURL(${1: videoURL})'
   'asynchronous':
     'prefix': 'asynchronous'
     'body': 'asynchronous()'

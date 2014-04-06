@@ -7,13 +7,13 @@
     'body': 'activate()'
   'SBApplication.applicationWithBundleIdentifier:':
     'prefix': 'applicationWithBundleIdentifier:'
-    'body': 'SBApplication.applicationWithBundleIdentifier(${1:NSString* ident})'
+    'body': 'applicationWithBundleIdentifier(${1:NSString* ident})'
   'SBApplication.applicationWithProcessIdentifier:':
     'prefix': 'applicationWithProcessIdentifier:'
-    'body': 'SBApplication.applicationWithProcessIdentifier(${1:pid_t pid})'
+    'body': 'applicationWithProcessIdentifier(${1:pid_t pid})'
   'SBApplication.applicationWithURL:':
     'prefix': 'applicationWithURL:'
-    'body': 'SBApplication.applicationWithURL(${1:NSURL* url})'
+    'body': 'applicationWithURL(${1:NSURL* url})'
   'classForScriptingClass:':
     'prefix': 'classForScriptingClass:'
     'body': 'classForScriptingClass(${1:NSString* className})'

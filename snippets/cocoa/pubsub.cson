@@ -133,13 +133,13 @@
     'body': 'addFeedWithURL(${1:NSURL* url})'
   'PSClient.allClientBundleIdentifiers':
     'prefix': 'allClientBundleIdentifiers'
-    'body': 'PSClient.allClientBundleIdentifiers()'
+    'body': 'allClientBundleIdentifiers()'
   'PSClient.applicationClient':
     'prefix': 'applicationClient'
-    'body': 'PSClient.applicationClient()'
+    'body': 'applicationClient()'
   'PSClient.clientForBundleIdentifier:':
     'prefix': 'clientForBundleIdentifier:'
-    'body': 'PSClient.clientForBundleIdentifier(${1:NSString* bundleIdentifier})'
+    'body': 'clientForBundleIdentifier(${1:NSString* bundleIdentifier})'
   'dateLastUpdated':
     'prefix': 'dateLastUpdated'
     'body': 'dateLastUpdated()'
@@ -409,10 +409,10 @@
     'body': 'unreadCount()'
   'PSFeedSettings.defaultClientSettings':
     'prefix': 'defaultClientSettings'
-    'body': 'PSFeedSettings.defaultClientSettings()'
+    'body': 'defaultClientSettings()'
   'PSFeedSettings.defaultFeedSettings':
     'prefix': 'defaultFeedSettings'
-    'body': 'PSFeedSettings.defaultFeedSettings()'
+    'body': 'defaultFeedSettings()'
   'downloadsEnclosures':
     'prefix': 'downloadsEnclosures'
     'body': 'downloadsEnclosures()'
@@ -460,7 +460,7 @@
     'body': 'linkKind()'
   'PSLink.linksInXML:baseURL:':
     'prefix': 'linksInXML:baseURL:'
-    'body': 'PSLink.linksInXML(${1:NSXMLElement* root}, baseURL:${2:NSURL* baseURL})'
+    'body': 'linksInXML(${1:NSXMLElement* root}, baseURL:${2:NSURL* baseURL})'
   'relations':
     'prefix': 'relations'
     'body': 'relations()'

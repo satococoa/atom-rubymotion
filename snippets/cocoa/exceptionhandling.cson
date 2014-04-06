@@ -64,7 +64,7 @@
     'body': 'NSExceptionHandlerResume()'
   'NSExceptionHandler.defaultExceptionHandler':
     'prefix': 'defaultExceptionHandler'
-    'body': 'NSExceptionHandler.defaultExceptionHandler()'
+    'body': 'defaultExceptionHandler()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'

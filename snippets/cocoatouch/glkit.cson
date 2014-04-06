@@ -1174,19 +1174,19 @@
     'body': 'width()'
   'GLKTextureLoader.cubeMapWithContentsOfFile:options:error:':
     'prefix': 'cubeMapWithContentsOfFile:options:error:'
-    'body': 'GLKTextureLoader.cubeMapWithContentsOfFile(${1:NSString* path}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'cubeMapWithContentsOfFile(${1:NSString* path}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'cubeMapWithContentsOfFile:options:queue:completionHandler:':
     'prefix': 'cubeMapWithContentsOfFile:options:queue:completionHandler:'
     'body': 'cubeMapWithContentsOfFile(${1:NSString* path}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'
   'GLKTextureLoader.cubeMapWithContentsOfFiles:options:error:':
     'prefix': 'cubeMapWithContentsOfFiles:options:error:'
-    'body': 'GLKTextureLoader.cubeMapWithContentsOfFiles(${1:NSArray* paths}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'cubeMapWithContentsOfFiles(${1:NSArray* paths}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'cubeMapWithContentsOfFiles:options:queue:completionHandler:':
     'prefix': 'cubeMapWithContentsOfFiles:options:queue:completionHandler:'
     'body': 'cubeMapWithContentsOfFiles(${1:NSArray* paths}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'
   'GLKTextureLoader.cubeMapWithContentsOfURL:options:error:':
     'prefix': 'cubeMapWithContentsOfURL:options:error:'
-    'body': 'GLKTextureLoader.cubeMapWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'cubeMapWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'cubeMapWithContentsOfURL:options:queue:completionHandler:':
     'prefix': 'cubeMapWithContentsOfURL:options:queue:completionHandler:'
     'body': 'cubeMapWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'
@@ -1195,25 +1195,25 @@
     'body': 'initWithSharegroup(${1:EAGLSharegroup* sharegroup})'
   'GLKTextureLoader.textureWithCGImage:options:error:':
     'prefix': 'textureWithCGImage:options:error:'
-    'body': 'GLKTextureLoader.textureWithCGImage(${1:CGImageRef cgImage}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'textureWithCGImage(${1:CGImageRef cgImage}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'textureWithCGImage:options:queue:completionHandler:':
     'prefix': 'textureWithCGImage:options:queue:completionHandler:'
     'body': 'textureWithCGImage(${1:CGImageRef cgImage}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'
   'GLKTextureLoader.textureWithContentsOfData:options:error:':
     'prefix': 'textureWithContentsOfData:options:error:'
-    'body': 'GLKTextureLoader.textureWithContentsOfData(${1:NSData* data}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'textureWithContentsOfData(${1:NSData* data}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'textureWithContentsOfData:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfData:options:queue:completionHandler:'
     'body': 'textureWithContentsOfData(${1:NSData* data}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'
   'GLKTextureLoader.textureWithContentsOfFile:options:error:':
     'prefix': 'textureWithContentsOfFile:options:error:'
-    'body': 'GLKTextureLoader.textureWithContentsOfFile(${1:NSString* path}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'textureWithContentsOfFile(${1:NSString* path}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'textureWithContentsOfFile:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfFile:options:queue:completionHandler:'
     'body': 'textureWithContentsOfFile(${1:NSString* path}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'
   'GLKTextureLoader.textureWithContentsOfURL:options:error:':
     'prefix': 'textureWithContentsOfURL:options:error:'
-    'body': 'GLKTextureLoader.textureWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
+    'body': 'textureWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* options}, error:${3:NSError** outError})'
   'textureWithContentsOfURL:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfURL:options:queue:completionHandler:'
     'body': 'textureWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* options}, queue:${3:dispatch_queue_t queue}, completionHandler:${4:GLKTextureLoaderCallback block})'

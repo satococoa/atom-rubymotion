@@ -223,13 +223,13 @@
     'body': 'url()'
   'ALAssetsFilter.allAssets':
     'prefix': 'allAssets'
-    'body': 'ALAssetsFilter.allAssets()'
+    'body': 'allAssets()'
   'ALAssetsFilter.allPhotos':
     'prefix': 'allPhotos'
-    'body': 'ALAssetsFilter.allPhotos()'
+    'body': 'allPhotos()'
   'ALAssetsFilter.allVideos':
     'prefix': 'allVideos'
-    'body': 'ALAssetsFilter.allVideos()'
+    'body': 'allVideos()'
   'addAsset:':
     'prefix': 'addAsset:'
     'body': 'addAsset(${1:ALAsset* asset})'
@@ -265,10 +265,10 @@
     'body': 'assetForURL(${1:NSURL* assetURL}, resultBlock:${2:ALAssetsLibraryAssetForURLResultBlock resultBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
   'ALAssetsLibrary.authorizationStatus':
     'prefix': 'authorizationStatus'
-    'body': 'ALAssetsLibrary.authorizationStatus()'
+    'body': 'authorizationStatus()'
   'ALAssetsLibrary.disableSharedPhotoStreamsSupport':
     'prefix': 'disableSharedPhotoStreamsSupport'
-    'body': 'ALAssetsLibrary.disableSharedPhotoStreamsSupport()'
+    'body': 'disableSharedPhotoStreamsSupport()'
   'enumerateGroupsWithTypes:usingBlock:failureBlock:':
     'prefix': 'enumerateGroupsWithTypes:usingBlock:failureBlock:'
     'body': 'enumerateGroupsWithTypes(${1:ALAssetsGroupType types}, usingBlock:${2:ALAssetsLibraryGroupsEnumerationResultsBlock enumerationBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'

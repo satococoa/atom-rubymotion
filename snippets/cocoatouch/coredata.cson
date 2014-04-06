@@ -625,10 +625,10 @@
     'body': 'compoundIndexes()'
   'NSEntityDescription.entityForName:inManagedObjectContext:':
     'prefix': 'entityForName:inManagedObjectContext:'
-    'body': 'NSEntityDescription.entityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
+    'body': 'entityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
   'NSEntityDescription.insertNewObjectForEntityForName:inManagedObjectContext:':
     'prefix': 'insertNewObjectForEntityForName:inManagedObjectContext:'
-    'body': 'NSEntityDescription.insertNewObjectForEntityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
+    'body': 'insertNewObjectForEntityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
   'isAbstract':
     'prefix': 'isAbstract'
     'body': 'isAbstract()'
@@ -823,7 +823,7 @@
     'body': 'fetchOffset()'
   'NSFetchRequest.fetchRequestWithEntityName:':
     'prefix': 'fetchRequestWithEntityName:'
-    'body': 'NSFetchRequest.fetchRequestWithEntityName(${1:NSString* entityName})'
+    'body': 'fetchRequestWithEntityName(${1:NSString* entityName})'
   'havingPredicate':
     'prefix': 'havingPredicate'
     'body': 'havingPredicate()'
@@ -928,7 +928,7 @@
     'body': 'contextExpression()'
   'NSFetchRequestExpression.expressionForFetch:context:countOnly:':
     'prefix': 'expressionForFetch:context:countOnly:'
-    'body': 'NSFetchRequestExpression.expressionForFetch(${1:NSExpression* fetch}, context:${2:NSExpression* context}, countOnly:${3:BOOL countFlag})'
+    'body': 'expressionForFetch(${1:NSExpression* fetch}, context:${2:NSExpression* context}, countOnly:${3:BOOL countFlag})'
   'isCountOnlyRequest':
     'prefix': 'isCountOnlyRequest'
     'body': 'isCountOnlyRequest()'
@@ -949,7 +949,7 @@
     'body': 'delegate()'
   'NSFetchedResultsController.deleteCacheWithName:':
     'prefix': 'deleteCacheWithName:'
-    'body': 'NSFetchedResultsController.deleteCacheWithName(${1:NSString* name})'
+    'body': 'deleteCacheWithName(${1:NSString* name})'
   'fetchRequest':
     'prefix': 'fetchRequest'
     'body': 'fetchRequest()'
@@ -994,7 +994,7 @@
     'body': 'executeRequest(${1:NSPersistentStoreRequest* request}, withContext:${2:NSManagedObjectContext* context}, error:${3:NSError** error})'
   'NSIncrementalStore.identifierForNewStoreAtURL:':
     'prefix': 'identifierForNewStoreAtURL:'
-    'body': 'NSIncrementalStore.identifierForNewStoreAtURL(${1:NSURL* storeURL})'
+    'body': 'identifierForNewStoreAtURL(${1:NSURL* storeURL})'
   'loadMetadata:':
     'prefix': 'loadMetadata:'
     'body': 'loadMetadata(${1:NSError** error})'
@@ -1054,7 +1054,7 @@
     'body': 'committedValuesForKeys(${1:NSArray* keys})'
   'NSManagedObject.contextShouldIgnoreUnmodeledPropertyChanges':
     'prefix': 'contextShouldIgnoreUnmodeledPropertyChanges'
-    'body': 'NSManagedObject.contextShouldIgnoreUnmodeledPropertyChanges()'
+    'body': 'contextShouldIgnoreUnmodeledPropertyChanges()'
   'didAccessValueForKey:':
     'prefix': 'didAccessValueForKey:'
     'body': 'didAccessValueForKey(${1:NSString* key})'
@@ -1339,16 +1339,16 @@
     'body': 'localizationDictionary()'
   'NSManagedObjectModel.mergedModelFromBundles:':
     'prefix': 'mergedModelFromBundles:'
-    'body': 'NSManagedObjectModel.mergedModelFromBundles(${1:NSArray* bundles})'
+    'body': 'mergedModelFromBundles(${1:NSArray* bundles})'
   'NSManagedObjectModel.mergedModelFromBundles:forStoreMetadata:':
     'prefix': 'mergedModelFromBundles:forStoreMetadata:'
-    'body': 'NSManagedObjectModel.mergedModelFromBundles(${1:NSArray* bundles}, forStoreMetadata:${2:NSDictionary* metadata})'
+    'body': 'mergedModelFromBundles(${1:NSArray* bundles}, forStoreMetadata:${2:NSDictionary* metadata})'
   'NSManagedObjectModel.modelByMergingModels:':
     'prefix': 'modelByMergingModels:'
-    'body': 'NSManagedObjectModel.modelByMergingModels(${1:NSArray* models})'
+    'body': 'modelByMergingModels(${1:NSArray* models})'
   'NSManagedObjectModel.modelByMergingModels:forStoreMetadata:':
     'prefix': 'modelByMergingModels:forStoreMetadata:'
-    'body': 'NSManagedObjectModel.modelByMergingModels(${1:NSArray* models}, forStoreMetadata:${2:NSDictionary* metadata})'
+    'body': 'modelByMergingModels(${1:NSArray* models}, forStoreMetadata:${2:NSDictionary* metadata})'
   'setEntities:':
     'prefix': 'setEntities:'
     'body': 'setEntities(${1:NSArray* entities})'
@@ -1375,13 +1375,13 @@
     'body': 'entityMappingsByName()'
   'NSMappingModel.inferredMappingModelForSourceModel:destinationModel:error:':
     'prefix': 'inferredMappingModelForSourceModel:destinationModel:error:'
-    'body': 'NSMappingModel.inferredMappingModelForSourceModel(${1:NSManagedObjectModel* sourceModel}, destinationModel:${2:NSManagedObjectModel* destinationModel}, error:${3:NSError** error})'
+    'body': 'inferredMappingModelForSourceModel(${1:NSManagedObjectModel* sourceModel}, destinationModel:${2:NSManagedObjectModel* destinationModel}, error:${3:NSError** error})'
   'initWithContentsOfURL:':
     'prefix': 'initWithContentsOfURL:'
     'body': 'initWithContentsOfURL(${1:NSURL* url})'
   'NSMappingModel.mappingModelFromBundles:forSourceModel:destinationModel:':
     'prefix': 'mappingModelFromBundles:forSourceModel:destinationModel:'
-    'body': 'NSMappingModel.mappingModelFromBundles(${1:NSArray* bundles}, forSourceModel:${2:NSManagedObjectModel* sourceModel}, destinationModel:${3:NSManagedObjectModel* destinationModel})'
+    'body': 'mappingModelFromBundles(${1:NSArray* bundles}, forSourceModel:${2:NSManagedObjectModel* sourceModel}, destinationModel:${3:NSManagedObjectModel* destinationModel})'
   'setEntityMappings:':
     'prefix': 'setEntityMappings:'
     'body': 'setEntityMappings(${1:NSArray* mappings})'
@@ -1528,10 +1528,10 @@
     'body': 'metadata()'
   'NSPersistentStore.metadataForPersistentStoreWithURL:error:':
     'prefix': 'metadataForPersistentStoreWithURL:error:'
-    'body': 'NSPersistentStore.metadataForPersistentStoreWithURL(${1:NSURL* url}, error:${2:NSError** error})'
+    'body': 'metadataForPersistentStoreWithURL(${1:NSURL* url}, error:${2:NSError** error})'
   'NSPersistentStore.migrationManagerClass':
     'prefix': 'migrationManagerClass'
-    'body': 'NSPersistentStore.migrationManagerClass()'
+    'body': 'migrationManagerClass()'
   'options':
     'prefix': 'options'
     'body': 'options()'
@@ -1546,7 +1546,7 @@
     'body': 'setMetadata(${1:NSDictionary* storeMetadata})'
   'NSPersistentStore.setMetadata:forPersistentStoreWithURL:error:':
     'prefix': 'setMetadata:forPersistentStoreWithURL:error:'
-    'body': 'NSPersistentStore.setMetadata(${1:NSDictionary* metadata}, forPersistentStoreWithURL:${2:NSURL* url}, error:${3:NSError** error})'
+    'body': 'setMetadata(${1:NSDictionary* metadata}, forPersistentStoreWithURL:${2:NSURL* url}, error:${3:NSError** error})'
   'setReadOnly:':
     'prefix': 'setReadOnly:'
     'body': 'setReadOnly(${1:BOOL flag})'
@@ -1585,7 +1585,7 @@
     'body': 'metadataForPersistentStore(${1:NSPersistentStore* store})'
   'NSPersistentStoreCoordinator.metadataForPersistentStoreOfType:URL:error:':
     'prefix': 'metadataForPersistentStoreOfType:URL:error:'
-    'body': 'NSPersistentStoreCoordinator.metadataForPersistentStoreOfType(${1:NSString* storeType}, URL:${2:NSURL* url}, error:${3:NSError** error})'
+    'body': 'metadataForPersistentStoreOfType(${1:NSString* storeType}, URL:${2:NSURL* url}, error:${3:NSError** error})'
   'migratePersistentStore:toURL:options:withType:error:':
     'prefix': 'migratePersistentStore:toURL:options:withType:error:'
     'body': 'migratePersistentStore(${1:NSPersistentStore* store}, toURL:${2:NSURL* URL}, options:${3:NSDictionary* options}, withType:${4:NSString* storeType}, error:${5:NSError** error})'
@@ -1597,22 +1597,22 @@
     'body': 'persistentStores()'
   'NSPersistentStoreCoordinator.registerStoreClass:forStoreType:':
     'prefix': 'registerStoreClass:forStoreType:'
-    'body': 'NSPersistentStoreCoordinator.registerStoreClass(${1:Class storeClass}, forStoreType:${2:NSString* storeType})'
+    'body': 'registerStoreClass(${1:Class storeClass}, forStoreType:${2:NSString* storeType})'
   'NSPersistentStoreCoordinator.registeredStoreTypes':
     'prefix': 'registeredStoreTypes'
-    'body': 'NSPersistentStoreCoordinator.registeredStoreTypes()'
+    'body': 'registeredStoreTypes()'
   'removePersistentStore:error:':
     'prefix': 'removePersistentStore:error:'
     'body': 'removePersistentStore(${1:NSPersistentStore* store}, error:${2:NSError** error})'
   'NSPersistentStoreCoordinator.removeUbiquitousContentAndPersistentStoreAtURL:options:error:':
     'prefix': 'removeUbiquitousContentAndPersistentStoreAtURL:options:error:'
-    'body': 'NSPersistentStoreCoordinator.removeUbiquitousContentAndPersistentStoreAtURL(${1:NSURL* storeURL}, options:${2:NSDictionary* options}, error:${3:NSError** error})'
+    'body': 'removeUbiquitousContentAndPersistentStoreAtURL(${1:NSURL* storeURL}, options:${2:NSDictionary* options}, error:${3:NSError** error})'
   'setMetadata:forPersistentStore:':
     'prefix': 'setMetadata:forPersistentStore:'
     'body': 'setMetadata(${1:NSDictionary* metadata}, forPersistentStore:${2:NSPersistentStore* store})'
   'NSPersistentStoreCoordinator.setMetadata:forPersistentStoreOfType:URL:error:':
     'prefix': 'setMetadata:forPersistentStoreOfType:URL:error:'
-    'body': 'NSPersistentStoreCoordinator.setMetadata(${1:NSDictionary* metadata}, forPersistentStoreOfType:${2:NSString* storeType}, URL:${3:NSURL* url}, error:${4:NSError** error})'
+    'body': 'setMetadata(${1:NSDictionary* metadata}, forPersistentStoreOfType:${2:NSString* storeType}, URL:${3:NSURL* url}, error:${4:NSError** error})'
   'setURL:forPersistentStore:':
     'prefix': 'setURL:forPersistentStore:'
     'body': 'setURL(${1:NSURL* url}, forPersistentStore:${2:NSPersistentStore* store})'

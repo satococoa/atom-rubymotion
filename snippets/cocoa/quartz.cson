@@ -484,7 +484,7 @@
     'body': 'beginWithOptions(${1:NSDictionary* inOptions}, modelessDelegate:${2:id modelessDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
   'IKFilterBrowserPanel.filterBrowserPanelWithStyleMask:':
     'prefix': 'filterBrowserPanelWithStyleMask:'
-    'body': 'IKFilterBrowserPanel.filterBrowserPanelWithStyleMask(${1:unsigned int styleMask})'
+    'body': 'filterBrowserPanelWithStyleMask(${1:unsigned int styleMask})'
   'filterBrowserViewWithOptions:':
     'prefix': 'filterBrowserViewWithOptions:'
     'body': 'filterBrowserViewWithOptions(${1:NSDictionary* inOptions})'
@@ -514,7 +514,7 @@
     'body': 'objectController()'
   'IKFilterUIView.viewWithFrame:filter:':
     'prefix': 'viewWithFrame:filter:'
-    'body': 'IKFilterUIView.viewWithFrame(${1:NSRect frameRect}, filter:${2:CIFilter* inFilter})'
+    'body': 'viewWithFrame(${1:NSRect frameRect}, filter:${2:CIFilter* inFilter})'
   'cellState':
     'prefix': 'cellState'
     'body': 'cellState()'
@@ -739,7 +739,7 @@
     'body': 'setDataSource(${1:id dataSource})'
   'IKImageEditPanel.sharedImageEditPanel':
     'prefix': 'sharedImageEditPanel'
-    'body': 'IKImageEditPanel.sharedImageEditPanel()'
+    'body': 'sharedImageEditPanel()'
   'autohidesScrollers':
     'prefix': 'autohidesScrollers'
     'body': 'autohidesScrollers()'
@@ -910,7 +910,7 @@
     'body': 'outputImage()'
   'IKPictureTaker.pictureTaker':
     'prefix': 'pictureTaker'
-    'body': 'IKPictureTaker.pictureTaker()'
+    'body': 'pictureTaker()'
   'popUpRecentsMenuForView:withDelegate:didEndSelector:contextInfo:':
     'prefix': 'popUpRecentsMenuForView:withDelegate:didEndSelector:contextInfo:'
     'body': 'popUpRecentsMenuForView(${1:NSView* aView}, withDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
@@ -1030,10 +1030,10 @@
     'body': 'autoPlayDelay()'
   'IKSlideshow.canExportToApplication:':
     'prefix': 'canExportToApplication:'
-    'body': 'IKSlideshow.canExportToApplication(${1:NSString* applicationBundleIdentifier})'
+    'body': 'canExportToApplication(${1:NSString* applicationBundleIdentifier})'
   'IKSlideshow.exportSlideshowItem:toApplication:':
     'prefix': 'exportSlideshowItem:toApplication:'
-    'body': 'IKSlideshow.exportSlideshowItem(${1:id item}, toApplication:${2:NSString* applicationBundleIdentifier})'
+    'body': 'exportSlideshowItem(${1:id item}, toApplication:${2:NSString* applicationBundleIdentifier})'
   'indexOfCurrentSlideshowItem':
     'prefix': 'indexOfCurrentSlideshowItem'
     'body': 'indexOfCurrentSlideshowItem()'
@@ -1051,7 +1051,7 @@
     'body': 'setAutoPlayDelay(${1:NSTimeInterval autoPlayDelay})'
   'IKSlideshow.sharedSlideshow':
     'prefix': 'sharedSlideshow'
-    'body': 'IKSlideshow.sharedSlideshow()'
+    'body': 'sharedSlideshow()'
   'stopSlideshow:':
     'prefix': 'stopSlideshow:'
     'body': 'stopSlideshow(${1:id sender})'
@@ -3112,10 +3112,10 @@
     'body': 'attributes()'
   'QCComposition.compositionWithData:':
     'prefix': 'compositionWithData:'
-    'body': 'QCComposition.compositionWithData(${1:NSData* data})'
+    'body': 'compositionWithData(${1:NSData* data})'
   'QCComposition.compositionWithFile:':
     'prefix': 'compositionWithFile:'
-    'body': 'QCComposition.compositionWithFile(${1:NSString* path})'
+    'body': 'compositionWithFile(${1:NSString* path})'
   'identifier':
     'prefix': 'identifier'
     'body': 'identifier()'
@@ -3133,10 +3133,10 @@
     'body': 'composition()'
   'QCCompositionLayer.compositionLayerWithComposition:':
     'prefix': 'compositionLayerWithComposition:'
-    'body': 'QCCompositionLayer.compositionLayerWithComposition(${1:QCComposition* composition})'
+    'body': 'compositionLayerWithComposition(${1:QCComposition* composition})'
   'QCCompositionLayer.compositionLayerWithFile:':
     'prefix': 'compositionLayerWithFile:'
-    'body': 'QCCompositionLayer.compositionLayerWithFile(${1:NSString* path})'
+    'body': 'compositionLayerWithFile(${1:NSString* path})'
   'initWithComposition:':
     'prefix': 'initWithComposition:'
     'body': 'initWithComposition(${1:QCComposition* composition})'
@@ -3175,7 +3175,7 @@
     'body': 'compositionPickerView()'
   'QCCompositionPickerPanel.sharedCompositionPickerPanel':
     'prefix': 'sharedCompositionPickerPanel'
-    'body': 'QCCompositionPickerPanel.sharedCompositionPickerPanel()'
+    'body': 'sharedCompositionPickerPanel()'
   'allowsEmptySelection':
     'prefix': 'allowsEmptySelection'
     'body': 'allowsEmptySelection()'
@@ -3268,7 +3268,7 @@
     'body': 'compositionsWithProtocols(${1:NSArray* protocols}, andAttributes:${2:NSDictionary* attributes})'
   'QCCompositionRepository.sharedCompositionRepository':
     'prefix': 'sharedCompositionRepository'
-    'body': 'QCCompositionRepository.sharedCompositionRepository()'
+    'body': 'sharedCompositionRepository()'
   'addInputPortWithType:forKey:withAttributes:':
     'prefix': 'addInputPortWithType:forKey:withAttributes:'
     'body': 'addInputPortWithType(${1:NSString* type}, forKey:${2:NSString* key}, withAttributes:${3:NSDictionary* attributes})'
@@ -3277,10 +3277,10 @@
     'body': 'addOutputPortWithType(${1:NSString* type}, forKey:${2:NSString* key}, withAttributes:${3:NSDictionary* attributes})'
   'QCPlugIn.attributes':
     'prefix': 'attributes'
-    'body': 'QCPlugIn.attributes()'
+    'body': 'attributes()'
   'QCPlugIn.attributesForPropertyPortWithKey:':
     'prefix': 'attributesForPropertyPortWithKey:'
-    'body': 'QCPlugIn.attributesForPropertyPortWithKey(${1:NSString* key})'
+    'body': 'attributesForPropertyPortWithKey(${1:NSString* key})'
   'createViewController':
     'prefix': 'createViewController'
     'body': 'createViewController()'
@@ -3298,19 +3298,19 @@
     'body': 'execute(${1:id context}, atTime:${2:NSTimeInterval time}, withArguments:${3:NSDictionary* arguments})'
   'QCPlugIn.executionMode':
     'prefix': 'executionMode'
-    'body': 'QCPlugIn.executionMode()'
+    'body': 'executionMode()'
   'executionTimeForContext:atTime:withArguments:':
     'prefix': 'executionTimeForContext:atTime:withArguments:'
     'body': 'executionTimeForContext(${1:id context}, atTime:${2:NSTimeInterval time}, withArguments:${3:NSDictionary* arguments})'
   'QCPlugIn.loadPlugInAtPath:':
     'prefix': 'loadPlugInAtPath:'
-    'body': 'QCPlugIn.loadPlugInAtPath(${1:NSString* path})'
+    'body': 'loadPlugInAtPath(${1:NSString* path})'
   'QCPlugIn.plugInKeys':
     'prefix': 'plugInKeys'
-    'body': 'QCPlugIn.plugInKeys()'
+    'body': 'plugInKeys()'
   'QCPlugIn.registerPlugInClass:':
     'prefix': 'registerPlugInClass:'
-    'body': 'QCPlugIn.registerPlugInClass(${1:Class aClass})'
+    'body': 'registerPlugInClass(${1:Class aClass})'
   'removeInputPortForKey:':
     'prefix': 'removeInputPortForKey:'
     'body': 'removeInputPortForKey(${1:NSString* key})'
@@ -3328,7 +3328,7 @@
     'body': 'setValue(${1:id value}, forOutputKey:${2:NSString* key})'
   'QCPlugIn.sortedPropertyPortKeys':
     'prefix': 'sortedPropertyPortKeys'
-    'body': 'QCPlugIn.sortedPropertyPortKeys()'
+    'body': 'sortedPropertyPortKeys()'
   'startExecution:':
     'prefix': 'startExecution:'
     'body': 'startExecution(${1:id context})'
@@ -3337,7 +3337,7 @@
     'body': 'stopExecution(${1:id context})'
   'QCPlugIn.timeMode':
     'prefix': 'timeMode'
-    'body': 'QCPlugIn.timeMode()'
+    'body': 'timeMode()'
   'valueForInputKey:':
     'prefix': 'valueForInputKey:'
     'body': 'valueForInputKey(${1:NSString* key})'
@@ -3667,13 +3667,13 @@
     'body': 'properties()'
   'QuartzFilter.quartzFilterWithOutputIntents:':
     'prefix': 'quartzFilterWithOutputIntents:'
-    'body': 'QuartzFilter.quartzFilterWithOutputIntents(${1:NSArray* outputIntents})'
+    'body': 'quartzFilterWithOutputIntents(${1:NSArray* outputIntents})'
   'QuartzFilter.quartzFilterWithProperties:':
     'prefix': 'quartzFilterWithProperties:'
-    'body': 'QuartzFilter.quartzFilterWithProperties(${1:NSDictionary* properties})'
+    'body': 'quartzFilterWithProperties(${1:NSDictionary* properties})'
   'QuartzFilter.quartzFilterWithURL:':
     'prefix': 'quartzFilterWithURL:'
-    'body': 'QuartzFilter.quartzFilterWithURL(${1:NSURL* aURL})'
+    'body': 'quartzFilterWithURL(${1:NSURL* aURL})'
   'removeFromContext:':
     'prefix': 'removeFromContext:'
     'body': 'removeFromContext(${1:CGContextRef aContext})'
@@ -3685,7 +3685,7 @@
     'body': 'delegate()'
   'QuartzFilterManager.filterManager':
     'prefix': 'filterManager'
-    'body': 'QuartzFilterManager.filterManager()'
+    'body': 'filterManager()'
   'filterPanel':
     'prefix': 'filterPanel'
     'body': 'filterPanel()'
@@ -3694,7 +3694,7 @@
     'body': 'filterView()'
   'QuartzFilterManager.filtersInDomains:':
     'prefix': 'filtersInDomains:'
-    'body': 'QuartzFilterManager.filtersInDomains(${1:NSArray* domains})'
+    'body': 'filtersInDomains(${1:NSArray* domains})'
   'importFilter:':
     'prefix': 'importFilter:'
     'body': 'importFilter(${1:NSDictionary* filterProperties})'
@@ -3808,10 +3808,10 @@
     'body': 'setDisplayState(${1:id displayState})'
   'QLPreviewPanel.sharedPreviewPanel':
     'prefix': 'sharedPreviewPanel'
-    'body': 'QLPreviewPanel.sharedPreviewPanel()'
+    'body': 'sharedPreviewPanel()'
   'QLPreviewPanel.sharedPreviewPanelExists':
     'prefix': 'sharedPreviewPanelExists'
-    'body': 'QLPreviewPanel.sharedPreviewPanelExists()'
+    'body': 'sharedPreviewPanelExists()'
   'updateController':
     'prefix': 'updateController'
     'body': 'updateController()'

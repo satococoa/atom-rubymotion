@@ -118,7 +118,7 @@
     'body': 'containsPass(${1:PKPass* pass})'
   'PKPassLibrary.isPassLibraryAvailable':
     'prefix': 'isPassLibraryAvailable'
-    'body': 'PKPassLibrary.isPassLibraryAvailable()'
+    'body': 'isPassLibraryAvailable()'
   'passWithPassTypeIdentifier:serialNumber:':
     'prefix': 'passWithPassTypeIdentifier:serialNumber:'
     'body': 'passWithPassTypeIdentifier(${1:NSString* identifier}, serialNumber:${2:NSString* serialNumber})'

@@ -10,7 +10,7 @@
     'body': 'addReadingListItemWithURL(${1:NSURL* URL}, title:${2:NSString* title}, previewText:${3:NSString* previewText}, error:${4:NSError** error})'
   'SSReadingList.defaultReadingList':
     'prefix': 'defaultReadingList'
-    'body': 'SSReadingList.defaultReadingList()'
+    'body': 'defaultReadingList()'
   'SSReadingList.supportsURL:':
     'prefix': 'supportsURL:'
-    'body': 'SSReadingList.supportsURL(${1:NSURL* URL})'
+    'body': 'supportsURL(${1:NSURL* URL})'

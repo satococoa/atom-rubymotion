@@ -40,10 +40,10 @@
     'body': 'completionHandler()'
   'SLComposeViewController.composeViewControllerForServiceType:':
     'prefix': 'composeViewControllerForServiceType:'
-    'body': 'SLComposeViewController.composeViewControllerForServiceType(${1:NSString* serviceType})'
+    'body': 'composeViewControllerForServiceType(${1:NSString* serviceType})'
   'SLComposeViewController.isAvailableForServiceType:':
     'prefix': 'isAvailableForServiceType:'
-    'body': 'SLComposeViewController.isAvailableForServiceType(${1:NSString* serviceType})'
+    'body': 'isAvailableForServiceType(${1:NSString* serviceType})'
   'removeAllImages':
     'prefix': 'removeAllImages'
     'body': 'removeAllImages()'
@@ -79,7 +79,7 @@
     'body': 'preparedURLRequest()'
   'SLRequest.requestForServiceType:requestMethod:URL:parameters:':
     'prefix': 'requestForServiceType:requestMethod:URL:parameters:'
-    'body': 'SLRequest.requestForServiceType(${1:NSString* serviceType}, requestMethod:${2:SLRequestMethod requestMethod}, URL:${3:NSURL* url}, parameters:${4:NSDictionary* parameters})'
+    'body': 'requestForServiceType(${1:NSString* serviceType}, requestMethod:${2:SLRequestMethod requestMethod}, URL:${3:NSURL* url}, parameters:${4:NSDictionary* parameters})'
   'requestMethod':
     'prefix': 'requestMethod'
     'body': 'requestMethod()'

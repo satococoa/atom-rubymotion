@@ -559,7 +559,7 @@
     'body': 'setLocalizedTitle(${1:NSString* localizedTitle})'
   'MPMediaEntity.canFilterByProperty:':
     'prefix': 'canFilterByProperty:'
-    'body': 'MPMediaEntity.canFilterByProperty(${1:NSString* property})'
+    'body': 'canFilterByProperty(${1:NSString* property})'
   'enumerateValuesForProperties:usingBlock:':
     'prefix': 'enumerateValuesForProperties:usingBlock:'
     'body': 'enumerateValuesForProperties(${1:NSSet* properties}, usingBlock:${2:void (^)(NSString *, id, BOOL *) block})'
@@ -568,10 +568,10 @@
     'body': 'valueForProperty(${1:NSString* property})'
   'MPMediaItem.persistentIDPropertyForGroupingType:':
     'prefix': 'persistentIDPropertyForGroupingType:'
-    'body': 'MPMediaItem.persistentIDPropertyForGroupingType(${1:MPMediaGrouping groupingType})'
+    'body': 'persistentIDPropertyForGroupingType(${1:MPMediaGrouping groupingType})'
   'MPMediaItem.titlePropertyForGroupingType:':
     'prefix': 'titlePropertyForGroupingType:'
-    'body': 'MPMediaItem.titlePropertyForGroupingType(${1:MPMediaGrouping groupingType})'
+    'body': 'titlePropertyForGroupingType(${1:MPMediaGrouping groupingType})'
   'bounds':
     'prefix': 'bounds'
     'body': 'bounds()'
@@ -586,7 +586,7 @@
     'body': 'initWithImage(${1:UIImage* image})'
   'MPMediaItemCollection.collectionWithItems:':
     'prefix': 'collectionWithItems:'
-    'body': 'MPMediaItemCollection.collectionWithItems(${1:NSArray* items})'
+    'body': 'collectionWithItems(${1:NSArray* items})'
   'count':
     'prefix': 'count'
     'body': 'count()'
@@ -607,7 +607,7 @@
     'body': 'beginGeneratingLibraryChangeNotifications()'
   'MPMediaLibrary.defaultMediaLibrary':
     'prefix': 'defaultMediaLibrary'
-    'body': 'MPMediaLibrary.defaultMediaLibrary()'
+    'body': 'defaultMediaLibrary()'
   'endGeneratingLibraryChangeNotifications':
     'prefix': 'endGeneratingLibraryChangeNotifications'
     'body': 'endGeneratingLibraryChangeNotifications()'
@@ -652,10 +652,10 @@
     'body': 'comparisonType()'
   'MPMediaPropertyPredicate.predicateWithValue:forProperty:':
     'prefix': 'predicateWithValue:forProperty:'
-    'body': 'MPMediaPropertyPredicate.predicateWithValue(${1:id value}, forProperty:${2:NSString* property})'
+    'body': 'predicateWithValue(${1:id value}, forProperty:${2:NSString* property})'
   'MPMediaPropertyPredicate.predicateWithValue:forProperty:comparisonType:':
     'prefix': 'predicateWithValue:forProperty:comparisonType:'
-    'body': 'MPMediaPropertyPredicate.predicateWithValue(${1:id value}, forProperty:${2:NSString* property}, comparisonType:${3:MPMediaPredicateComparison comparisonType})'
+    'body': 'predicateWithValue(${1:id value}, forProperty:${2:NSString* property}, comparisonType:${3:MPMediaPredicateComparison comparisonType})'
   'property':
     'prefix': 'property'
     'body': 'property()'
@@ -667,13 +667,13 @@
     'body': 'addFilterPredicate(${1:MPMediaPredicate* predicate})'
   'MPMediaQuery.albumsQuery':
     'prefix': 'albumsQuery'
-    'body': 'MPMediaQuery.albumsQuery()'
+    'body': 'albumsQuery()'
   'MPMediaQuery.artistsQuery':
     'prefix': 'artistsQuery'
-    'body': 'MPMediaQuery.artistsQuery()'
+    'body': 'artistsQuery()'
   'MPMediaQuery.audiobooksQuery':
     'prefix': 'audiobooksQuery'
-    'body': 'MPMediaQuery.audiobooksQuery()'
+    'body': 'audiobooksQuery()'
   'collectionSections':
     'prefix': 'collectionSections'
     'body': 'collectionSections()'
@@ -682,16 +682,16 @@
     'body': 'collections()'
   'MPMediaQuery.compilationsQuery':
     'prefix': 'compilationsQuery'
-    'body': 'MPMediaQuery.compilationsQuery()'
+    'body': 'compilationsQuery()'
   'MPMediaQuery.composersQuery':
     'prefix': 'composersQuery'
-    'body': 'MPMediaQuery.composersQuery()'
+    'body': 'composersQuery()'
   'filterPredicates':
     'prefix': 'filterPredicates'
     'body': 'filterPredicates()'
   'MPMediaQuery.genresQuery':
     'prefix': 'genresQuery'
-    'body': 'MPMediaQuery.genresQuery()'
+    'body': 'genresQuery()'
   'groupingType':
     'prefix': 'groupingType'
     'body': 'groupingType()'
@@ -709,10 +709,10 @@
     'body': 'items()'
   'MPMediaQuery.playlistsQuery':
     'prefix': 'playlistsQuery'
-    'body': 'MPMediaQuery.playlistsQuery()'
+    'body': 'playlistsQuery()'
   'MPMediaQuery.podcastsQuery':
     'prefix': 'podcastsQuery'
-    'body': 'MPMediaQuery.podcastsQuery()'
+    'body': 'podcastsQuery()'
   'removeFilterPredicate:':
     'prefix': 'removeFilterPredicate:'
     'body': 'removeFilterPredicate(${1:MPMediaPredicate* predicate})'
@@ -724,7 +724,7 @@
     'body': 'setGroupingType(${1:MPMediaGrouping groupingType})'
   'MPMediaQuery.songsQuery':
     'prefix': 'songsQuery'
-    'body': 'MPMediaQuery.songsQuery()'
+    'body': 'songsQuery()'
   'range':
     'prefix': 'range'
     'body': 'range()'
@@ -958,7 +958,7 @@
     'body': 'supportedInterfaceOrientations()'
   'MPMusicPlayerController.applicationMusicPlayer':
     'prefix': 'applicationMusicPlayer'
-    'body': 'MPMusicPlayerController.applicationMusicPlayer()'
+    'body': 'applicationMusicPlayer()'
   'beginGeneratingPlaybackNotifications':
     'prefix': 'beginGeneratingPlaybackNotifications'
     'body': 'beginGeneratingPlaybackNotifications()'
@@ -967,7 +967,7 @@
     'body': 'endGeneratingPlaybackNotifications()'
   'MPMusicPlayerController.iPodMusicPlayer':
     'prefix': 'iPodMusicPlayer'
-    'body': 'MPMusicPlayerController.iPodMusicPlayer()'
+    'body': 'iPodMusicPlayer()'
   'indexOfNowPlayingItem':
     'prefix': 'indexOfNowPlayingItem'
     'body': 'indexOfNowPlayingItem()'
@@ -1033,7 +1033,7 @@
     'body': 'setPlaybackRate(${1:float playbackRate})'
   'MPNowPlayingInfoCenter.defaultCenter':
     'prefix': 'defaultCenter'
-    'body': 'MPNowPlayingInfoCenter.defaultCenter()'
+    'body': 'defaultCenter()'
   'nowPlayingInfo':
     'prefix': 'nowPlayingInfo'
     'body': 'nowPlayingInfo()'
@@ -1063,7 +1063,7 @@
     'body': 'setDelegate(${1:id delegate})'
   'MPPlayableContentManager.sharedContentManager':
     'prefix': 'sharedContentManager'
-    'body': 'MPPlayableContentManager.sharedContentManager()'
+    'body': 'sharedContentManager()'
   'maximumRating':
     'prefix': 'maximumRating'
     'body': 'maximumRating()'
@@ -1132,7 +1132,7 @@
     'body': 'seekForwardCommand()'
   'MPRemoteCommandCenter.sharedCommandCenter':
     'prefix': 'sharedCommandCenter'
-    'body': 'MPRemoteCommandCenter.sharedCommandCenter()'
+    'body': 'sharedCommandCenter()'
   'skipBackwardCommand':
     'prefix': 'skipBackwardCommand'
     'body': 'skipBackwardCommand()'

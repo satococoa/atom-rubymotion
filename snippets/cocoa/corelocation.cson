@@ -220,10 +220,10 @@
     'body': 'activityType()'
   'CLLocationManager.authorizationStatus':
     'prefix': 'authorizationStatus'
-    'body': 'CLLocationManager.authorizationStatus()'
+    'body': 'authorizationStatus()'
   'CLLocationManager.deferredLocationUpdatesAvailable':
     'prefix': 'deferredLocationUpdatesAvailable'
-    'body': 'CLLocationManager.deferredLocationUpdatesAvailable()'
+    'body': 'deferredLocationUpdatesAvailable()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -238,7 +238,7 @@
     'body': 'heading()'
   'CLLocationManager.headingAvailable':
     'prefix': 'headingAvailable'
-    'body': 'CLLocationManager.headingAvailable()'
+    'body': 'headingAvailable()'
   'headingAvailable':
     'prefix': 'headingAvailable'
     'body': 'headingAvailable()'
@@ -253,7 +253,7 @@
     'body': 'location()'
   'CLLocationManager.locationServicesEnabled':
     'prefix': 'locationServicesEnabled'
-    'body': 'CLLocationManager.locationServicesEnabled()'
+    'body': 'locationServicesEnabled()'
   'locationServicesEnabled':
     'prefix': 'locationServicesEnabled'
     'body': 'locationServicesEnabled()'
@@ -271,10 +271,10 @@
     'body': 'purpose()'
   'CLLocationManager.regionMonitoringAvailable':
     'prefix': 'regionMonitoringAvailable'
-    'body': 'CLLocationManager.regionMonitoringAvailable()'
+    'body': 'regionMonitoringAvailable()'
   'CLLocationManager.regionMonitoringEnabled':
     'prefix': 'regionMonitoringEnabled'
-    'body': 'CLLocationManager.regionMonitoringEnabled()'
+    'body': 'regionMonitoringEnabled()'
   'setActivityType:':
     'prefix': 'setActivityType:'
     'body': 'setActivityType(${1:CLActivityType activityType})'
@@ -301,7 +301,7 @@
     'body': 'setPurpose(${1:NSString* purpose})'
   'CLLocationManager.significantLocationChangeMonitoringAvailable':
     'prefix': 'significantLocationChangeMonitoringAvailable'
-    'body': 'CLLocationManager.significantLocationChangeMonitoringAvailable()'
+    'body': 'significantLocationChangeMonitoringAvailable()'
   'startMonitoringForRegion:':
     'prefix': 'startMonitoringForRegion:'
     'body': 'startMonitoringForRegion(${1:CLRegion* region})'

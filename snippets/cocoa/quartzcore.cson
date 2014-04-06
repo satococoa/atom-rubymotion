@@ -412,10 +412,10 @@
     'body': 'CATransform3DTranslate(${1:CATransform3D t}, ${2:CGFloat tx}, ${3:CGFloat ty}, ${4:CGFloat tz})'
   'CAAnimation.animation':
     'prefix': 'animation'
-    'body': 'CAAnimation.animation()'
+    'body': 'animation()'
   'CAAnimation.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
-    'body': 'CAAnimation.defaultValueForKey(${1:NSString* key})'
+    'body': 'defaultValueForKey(${1:NSString* key})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -466,13 +466,13 @@
     'body': 'attribute()'
   'CAConstraint.constraintWithAttribute:relativeTo:attribute:':
     'prefix': 'constraintWithAttribute:relativeTo:attribute:'
-    'body': 'CAConstraint.constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr})'
+    'body': 'constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr})'
   'CAConstraint.constraintWithAttribute:relativeTo:attribute:offset:':
     'prefix': 'constraintWithAttribute:relativeTo:attribute:offset:'
-    'body': 'CAConstraint.constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr}, offset:${4:CGFloat c})'
+    'body': 'constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr}, offset:${4:CGFloat c})'
   'CAConstraint.constraintWithAttribute:relativeTo:attribute:scale:offset:':
     'prefix': 'constraintWithAttribute:relativeTo:attribute:scale:offset:'
-    'body': 'CAConstraint.constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr}, scale:${4:CGFloat m}, offset:${5:CGFloat c})'
+    'body': 'constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr}, scale:${4:CGFloat m}, offset:${5:CGFloat c})'
   'initWithAttribute:relativeTo:attribute:scale:offset:':
     'prefix': 'initWithAttribute:relativeTo:attribute:scale:offset:'
     'body': 'initWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr}, scale:${4:CGFloat m}, offset:${5:CGFloat c})'
@@ -490,19 +490,19 @@
     'body': 'sourceName()'
   'CAConstraintLayoutManager.layoutManager':
     'prefix': 'layoutManager'
-    'body': 'CAConstraintLayoutManager.layoutManager()'
+    'body': 'layoutManager()'
   'CAEmitterBehavior.attributesForKey:':
     'prefix': 'attributesForKey:'
-    'body': 'CAEmitterBehavior.attributesForKey(${1:NSString* key})'
+    'body': 'attributesForKey(${1:NSString* key})'
   'attributesForKeyPath:':
     'prefix': 'attributesForKeyPath:'
     'body': 'attributesForKeyPath(${1:NSString* keyPath})'
   'CAEmitterBehavior.behaviorTypes':
     'prefix': 'behaviorTypes'
-    'body': 'CAEmitterBehavior.behaviorTypes()'
+    'body': 'behaviorTypes()'
   'CAEmitterBehavior.behaviorWithType:':
     'prefix': 'behaviorWithType:'
-    'body': 'CAEmitterBehavior.behaviorWithType(${1:NSString* type})'
+    'body': 'behaviorWithType(${1:NSString* type})'
   'initWithType:':
     'prefix': 'initWithType:'
     'body': 'initWithType(${1:NSString* type})'
@@ -550,7 +550,7 @@
     'body': 'contentsRect()'
   'CAEmitterCell.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
-    'body': 'CAEmitterCell.defaultValueForKey(${1:NSString* key})'
+    'body': 'defaultValueForKey(${1:NSString* key})'
   'emissionLatitude':
     'prefix': 'emissionLatitude'
     'body': 'emissionLatitude()'
@@ -562,7 +562,7 @@
     'body': 'emissionRange()'
   'CAEmitterCell.emitterCell':
     'prefix': 'emitterCell'
-    'body': 'CAEmitterCell.emitterCell()'
+    'body': 'emitterCell()'
   'emitterCells':
     'prefix': 'emitterCells'
     'body': 'emitterCells()'
@@ -1009,10 +1009,10 @@
     'body': 'cornerRadius()'
   'CALayer.defaultActionForKey:':
     'prefix': 'defaultActionForKey:'
-    'body': 'CALayer.defaultActionForKey(${1:NSString* event})'
+    'body': 'defaultActionForKey(${1:NSString* event})'
   'CALayer.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
-    'body': 'CALayer.defaultValueForKey(${1:NSString* key})'
+    'body': 'defaultValueForKey(${1:NSString* key})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -1069,10 +1069,10 @@
     'body': 'isOpaque()'
   'CALayer.layer':
     'prefix': 'layer'
-    'body': 'CALayer.layer()'
+    'body': 'layer()'
   'CALayer.layerWithRemoteClientId:':
     'prefix': 'layerWithRemoteClientId:'
-    'body': 'CALayer.layerWithRemoteClientId(${1:uint32_t client_id})'
+    'body': 'layerWithRemoteClientId(${1:uint32_t client_id})'
   'layoutIfNeeded':
     'prefix': 'layoutIfNeeded'
     'body': 'layoutIfNeeded()'
@@ -1108,7 +1108,7 @@
     'body': 'needsDisplay()'
   'CALayer.needsDisplayForKey:':
     'prefix': 'needsDisplayForKey:'
-    'body': 'CALayer.needsDisplayForKey(${1:NSString* key})'
+    'body': 'needsDisplayForKey(${1:NSString* key})'
   'needsDisplayOnBoundsChange':
     'prefix': 'needsDisplayOnBoundsChange'
     'body': 'needsDisplayOnBoundsChange()'
@@ -1357,10 +1357,10 @@
     'body': 'zPosition()'
   'CAMediaTimingFunction.functionWithControlPoints::::':
     'prefix': 'functionWithControlPoints::::'
-    'body': 'CAMediaTimingFunction.functionWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
+    'body': 'functionWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
   'CAMediaTimingFunction.functionWithName:':
     'prefix': 'functionWithName:'
-    'body': 'CAMediaTimingFunction.functionWithName(${1:NSString* name})'
+    'body': 'functionWithName(${1:NSString* name})'
   'getControlPointAtIndex:values:':
     'prefix': 'getControlPointAtIndex:values:'
     'body': 'getControlPointAtIndex(${1:size_t idx}, values:${2:float* ptr})'
@@ -1393,7 +1393,7 @@
     'body': 'setAsynchronous(${1:BOOL asynchronous})'
   'CAPropertyAnimation.animationWithKeyPath:':
     'prefix': 'animationWithKeyPath:'
-    'body': 'CAPropertyAnimation.animationWithKeyPath(${1:NSString* path})'
+    'body': 'animationWithKeyPath(${1:NSString* path})'
   'isAdditive':
     'prefix': 'isAdditive'
     'body': 'isAdditive()'
@@ -1438,7 +1438,7 @@
     'body': 'serverPort()'
   'CARemoteLayerServer.sharedServer':
     'prefix': 'sharedServer'
-    'body': 'CARemoteLayerServer.sharedServer()'
+    'body': 'sharedServer()'
   'addUpdateRect:':
     'prefix': 'addUpdateRect:'
     'body': 'addUpdateRect(${1:CGRect r})'
@@ -1462,7 +1462,7 @@
     'body': 'render()'
   'CARenderer.rendererWithCGLContext:options:':
     'prefix': 'rendererWithCGLContext:options:'
-    'body': 'CARenderer.rendererWithCGLContext(${1:void* ctx}, options:${2:NSDictionary* dict})'
+    'body': 'rendererWithCGLContext(${1:void* ctx}, options:${2:NSDictionary* dict})'
   'setBounds:':
     'prefix': 'setBounds:'
     'body': 'setBounds(${1:CGRect bounds})'
@@ -1654,7 +1654,7 @@
     'body': 'truncationMode()'
   'CATiledLayer.fadeDuration':
     'prefix': 'fadeDuration'
-    'body': 'CATiledLayer.fadeDuration()'
+    'body': 'fadeDuration()'
   'levelsOfDetail':
     'prefix': 'levelsOfDetail'
     'body': 'levelsOfDetail()'
@@ -1675,49 +1675,49 @@
     'body': 'tileSize()'
   'CATransaction.animationDuration':
     'prefix': 'animationDuration'
-    'body': 'CATransaction.animationDuration()'
+    'body': 'animationDuration()'
   'CATransaction.animationTimingFunction':
     'prefix': 'animationTimingFunction'
-    'body': 'CATransaction.animationTimingFunction()'
+    'body': 'animationTimingFunction()'
   'CATransaction.begin':
     'prefix': 'begin'
-    'body': 'CATransaction.begin()'
+    'body': 'begin()'
   'CATransaction.commit':
     'prefix': 'commit'
-    'body': 'CATransaction.commit()'
+    'body': 'commit()'
   'CATransaction.completionBlock':
     'prefix': 'completionBlock'
-    'body': 'CATransaction.completionBlock()'
+    'body': 'completionBlock()'
   'CATransaction.disableActions':
     'prefix': 'disableActions'
-    'body': 'CATransaction.disableActions()'
+    'body': 'disableActions()'
   'CATransaction.flush':
     'prefix': 'flush'
-    'body': 'CATransaction.flush()'
+    'body': 'flush()'
   'CATransaction.lock':
     'prefix': 'lock'
-    'body': 'CATransaction.lock()'
+    'body': 'lock()'
   'CATransaction.setAnimationDuration:':
     'prefix': 'setAnimationDuration:'
-    'body': 'CATransaction.setAnimationDuration(${1:CFTimeInterval dur})'
+    'body': 'setAnimationDuration(${1:CFTimeInterval dur})'
   'CATransaction.setAnimationTimingFunction:':
     'prefix': 'setAnimationTimingFunction:'
-    'body': 'CATransaction.setAnimationTimingFunction(${1:CAMediaTimingFunction* function})'
+    'body': 'setAnimationTimingFunction(${1:CAMediaTimingFunction* function})'
   'CATransaction.setCompletionBlock:':
     'prefix': 'setCompletionBlock:'
-    'body': 'CATransaction.setCompletionBlock(${1:void (^)(void) block})'
+    'body': 'setCompletionBlock(${1:void (^)(void) block})'
   'CATransaction.setDisableActions:':
     'prefix': 'setDisableActions:'
-    'body': 'CATransaction.setDisableActions(${1:BOOL flag})'
+    'body': 'setDisableActions(${1:BOOL flag})'
   'CATransaction.setValue:forKey:':
     'prefix': 'setValue:forKey:'
-    'body': 'CATransaction.setValue(${1:id anObject}, forKey:${2:NSString* key})'
+    'body': 'setValue(${1:id anObject}, forKey:${2:NSString* key})'
   'CATransaction.unlock':
     'prefix': 'unlock'
-    'body': 'CATransaction.unlock()'
+    'body': 'unlock()'
   'CATransaction.valueForKey:':
     'prefix': 'valueForKey:'
-    'body': 'CATransaction.valueForKey(${1:NSString* key})'
+    'body': 'valueForKey(${1:NSString* key})'
   'endProgress':
     'prefix': 'endProgress'
     'body': 'endProgress()'
@@ -1750,7 +1750,7 @@
     'body': 'type()'
   'CAValueFunction.functionWithName:':
     'prefix': 'functionWithName:'
-    'body': 'CAValueFunction.functionWithName(${1:NSString* name})'
+    'body': 'functionWithName(${1:NSString* name})'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -1846,7 +1846,7 @@
     'body': 'CATransform3DValue()'
   'NSValue.valueWithCATransform3D:':
     'prefix': 'valueWithCATransform3D:'
-    'body': 'NSValue.valueWithCATransform3D(${1:CATransform3D t})'
+    'body': 'valueWithCATransform3D(${1:CATransform3D t})'
   'runActionForKey:object:arguments:':
     'prefix': 'runActionForKey:object:arguments:'
     'body': 'runActionForKey(${1:NSString* event}, object:${2:id anObject}, arguments:${3:NSDictionary* dict})'
@@ -2353,16 +2353,16 @@
     'body': 'colorSpace()'
   'CIColor.colorWithCGColor:':
     'prefix': 'colorWithCGColor:'
-    'body': 'CIColor.colorWithCGColor(${1:CGColorRef c})'
+    'body': 'colorWithCGColor(${1:CGColorRef c})'
   'CIColor.colorWithRed:green:blue:':
     'prefix': 'colorWithRed:green:blue:'
-    'body': 'CIColor.colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b})'
+    'body': 'colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b})'
   'CIColor.colorWithRed:green:blue:alpha:':
     'prefix': 'colorWithRed:green:blue:alpha:'
-    'body': 'CIColor.colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b}, alpha:${4:CGFloat a})'
+    'body': 'colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b}, alpha:${4:CGFloat a})'
   'CIColor.colorWithString:':
     'prefix': 'colorWithString:'
-    'body': 'CIColor.colorWithString(${1:NSString* representation})'
+    'body': 'colorWithString(${1:NSString* representation})'
   'components':
     'prefix': 'components'
     'body': 'components()'
@@ -2386,13 +2386,13 @@
     'body': 'clearCaches()'
   'CIContext.contextWithCGContext:options:':
     'prefix': 'contextWithCGContext:options:'
-    'body': 'CIContext.contextWithCGContext(${1:CGContextRef ctx}, options:${2:NSDictionary* dict})'
+    'body': 'contextWithCGContext(${1:CGContextRef ctx}, options:${2:NSDictionary* dict})'
   'CIContext.contextWithCGLContext:pixelFormat:colorSpace:options:':
     'prefix': 'contextWithCGLContext:pixelFormat:colorSpace:options:'
-    'body': 'CIContext.contextWithCGLContext(${1:CGLContextObj ctx}, pixelFormat:${2:CGLPixelFormatObj pf}, colorSpace:${3:CGColorSpaceRef cs}, options:${4:NSDictionary* dict})'
+    'body': 'contextWithCGLContext(${1:CGLContextObj ctx}, pixelFormat:${2:CGLPixelFormatObj pf}, colorSpace:${3:CGColorSpaceRef cs}, options:${4:NSDictionary* dict})'
   'CIContext.contextWithCGLContext:pixelFormat:options:':
     'prefix': 'contextWithCGLContext:pixelFormat:options:'
-    'body': 'CIContext.contextWithCGLContext(${1:CGLContextObj ctx}, pixelFormat:${2:CGLPixelFormatObj pf}, options:${3:NSDictionary* dict})'
+    'body': 'contextWithCGLContext(${1:CGLContextObj ctx}, pixelFormat:${2:CGLPixelFormatObj pf}, options:${3:NSDictionary* dict})'
   'createCGImage:fromRect:':
     'prefix': 'createCGImage:fromRect:'
     'body': 'createCGImage(${1:CIImage* im}, fromRect:${2:CGRect r})'
@@ -2419,7 +2419,7 @@
     'body': 'render(${1:CIImage* im}, toIOSurface:${2:IOSurfaceRef surface}, bounds:${3:CGRect r}, colorSpace:${4:CGColorSpaceRef cs})'
   'CIDetector.detectorOfType:context:options:':
     'prefix': 'detectorOfType:context:options:'
-    'body': 'CIDetector.detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
+    'body': 'detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
   'featuresInImage:':
     'prefix': 'featuresInImage:'
     'body': 'featuresInImage(${1:CIImage* image})'
@@ -2491,49 +2491,49 @@
     'body': 'attributes()'
   'CIFilter.filterArrayFromSerializedXMP:inputImageExtent:error:':
     'prefix': 'filterArrayFromSerializedXMP:inputImageExtent:error:'
-    'body': 'CIFilter.filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
+    'body': 'filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
   'CIFilter.filterNamesInCategories:':
     'prefix': 'filterNamesInCategories:'
-    'body': 'CIFilter.filterNamesInCategories(${1:NSArray* categories})'
+    'body': 'filterNamesInCategories(${1:NSArray* categories})'
   'CIFilter.filterNamesInCategory:':
     'prefix': 'filterNamesInCategory:'
-    'body': 'CIFilter.filterNamesInCategory(${1:NSString* category})'
+    'body': 'filterNamesInCategory(${1:NSString* category})'
   'CIFilter.filterWithImageData:options:':
     'prefix': 'filterWithImageData:options:'
-    'body': 'CIFilter.filterWithImageData(${1:NSData* data}, options:${2:NSDictionary* options})'
+    'body': 'filterWithImageData(${1:NSData* data}, options:${2:NSDictionary* options})'
   'CIFilter.filterWithImageURL:options:':
     'prefix': 'filterWithImageURL:options:'
-    'body': 'CIFilter.filterWithImageURL(${1:NSURL* url}, options:${2:NSDictionary* options})'
+    'body': 'filterWithImageURL(${1:NSURL* url}, options:${2:NSDictionary* options})'
   'CIFilter.filterWithName:':
     'prefix': 'filterWithName:'
-    'body': 'CIFilter.filterWithName(${1:NSString* name})'
+    'body': 'filterWithName(${1:NSString* name})'
   'CIFilter.filterWithName:keysAndValues:':
     'prefix': 'filterWithName:keysAndValues:'
-    'body': 'CIFilter.filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
+    'body': 'filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
   'inputKeys':
     'prefix': 'inputKeys'
     'body': 'inputKeys()'
   'CIFilter.localizedDescriptionForFilterName:':
     'prefix': 'localizedDescriptionForFilterName:'
-    'body': 'CIFilter.localizedDescriptionForFilterName(${1:NSString* filterName})'
+    'body': 'localizedDescriptionForFilterName(${1:NSString* filterName})'
   'CIFilter.localizedNameForCategory:':
     'prefix': 'localizedNameForCategory:'
-    'body': 'CIFilter.localizedNameForCategory(${1:NSString* category})'
+    'body': 'localizedNameForCategory(${1:NSString* category})'
   'CIFilter.localizedNameForFilterName:':
     'prefix': 'localizedNameForFilterName:'
-    'body': 'CIFilter.localizedNameForFilterName(${1:NSString* filterName})'
+    'body': 'localizedNameForFilterName(${1:NSString* filterName})'
   'CIFilter.localizedReferenceDocumentationForFilterName:':
     'prefix': 'localizedReferenceDocumentationForFilterName:'
-    'body': 'CIFilter.localizedReferenceDocumentationForFilterName(${1:NSString* filterName})'
+    'body': 'localizedReferenceDocumentationForFilterName(${1:NSString* filterName})'
   'outputKeys':
     'prefix': 'outputKeys'
     'body': 'outputKeys()'
   'CIFilter.registerFilterName:constructor:classAttributes:':
     'prefix': 'registerFilterName:constructor:classAttributes:'
-    'body': 'CIFilter.registerFilterName(${1:NSString* name}, constructor:${2:id anObject}, classAttributes:${3:NSDictionary* attributes})'
+    'body': 'registerFilterName(${1:NSString* name}, constructor:${2:id anObject}, classAttributes:${3:NSDictionary* attributes})'
   'CIFilter.serializedXMPFromFilters:inputImageExtent:':
     'prefix': 'serializedXMPFromFilters:inputImageExtent:'
-    'body': 'CIFilter.serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
+    'body': 'serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
   'setDefaults':
     'prefix': 'setDefaults'
     'body': 'setDefaults()'
@@ -2557,10 +2557,10 @@
     'body': 'filter()'
   'CIFilterGenerator.filterGenerator':
     'prefix': 'filterGenerator'
-    'body': 'CIFilterGenerator.filterGenerator()'
+    'body': 'filterGenerator()'
   'CIFilterGenerator.filterGeneratorWithContentsOfURL:':
     'prefix': 'filterGeneratorWithContentsOfURL:'
-    'body': 'CIFilterGenerator.filterGeneratorWithContentsOfURL(${1:NSURL* aURL})'
+    'body': 'filterGeneratorWithContentsOfURL(${1:NSURL* aURL})'
   'initWithContentsOfURL:':
     'prefix': 'initWithContentsOfURL:'
     'body': 'initWithContentsOfURL(${1:NSURL* aURL})'
@@ -2593,7 +2593,7 @@
     'body': 'intersectWithRect(${1:CGRect r})'
   'CIFilterShape.shapeWithRect:':
     'prefix': 'shapeWithRect:'
-    'body': 'CIFilterShape.shapeWithRect(${1:CGRect r})'
+    'body': 'shapeWithRect(${1:CGRect r})'
   'transformBy:interior:':
     'prefix': 'transformBy:interior:'
     'body': 'transformBy(${1:CGAffineTransform m}, interior:${2:BOOL flag})'
@@ -2617,7 +2617,7 @@
     'body': 'definition()'
   'CIImage.emptyImage':
     'prefix': 'emptyImage'
-    'body': 'CIImage.emptyImage()'
+    'body': 'emptyImage()'
   'extent':
     'prefix': 'extent'
     'body': 'extent()'
@@ -2629,55 +2629,55 @@
     'body': 'imageByCroppingToRect(${1:CGRect r})'
   'CIImage.imageWithBitmapData:bytesPerRow:size:format:colorSpace:':
     'prefix': 'imageWithBitmapData:bytesPerRow:size:format:colorSpace:'
-    'body': 'CIImage.imageWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs})'
+    'body': 'imageWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs})'
   'CIImage.imageWithCGImage:':
     'prefix': 'imageWithCGImage:'
-    'body': 'CIImage.imageWithCGImage(${1:CGImageRef image})'
+    'body': 'imageWithCGImage(${1:CGImageRef image})'
   'CIImage.imageWithCGImage:options:':
     'prefix': 'imageWithCGImage:options:'
-    'body': 'CIImage.imageWithCGImage(${1:CGImageRef image}, options:${2:NSDictionary* d})'
+    'body': 'imageWithCGImage(${1:CGImageRef image}, options:${2:NSDictionary* d})'
   'CIImage.imageWithCGLayer:':
     'prefix': 'imageWithCGLayer:'
-    'body': 'CIImage.imageWithCGLayer(${1:CGLayerRef layer})'
+    'body': 'imageWithCGLayer(${1:CGLayerRef layer})'
   'CIImage.imageWithCGLayer:options:':
     'prefix': 'imageWithCGLayer:options:'
-    'body': 'CIImage.imageWithCGLayer(${1:CGLayerRef layer}, options:${2:NSDictionary* d})'
+    'body': 'imageWithCGLayer(${1:CGLayerRef layer}, options:${2:NSDictionary* d})'
   'CIImage.imageWithCVImageBuffer:':
     'prefix': 'imageWithCVImageBuffer:'
-    'body': 'CIImage.imageWithCVImageBuffer(${1:CVImageBufferRef imageBuffer})'
+    'body': 'imageWithCVImageBuffer(${1:CVImageBufferRef imageBuffer})'
   'CIImage.imageWithCVImageBuffer:options:':
     'prefix': 'imageWithCVImageBuffer:options:'
-    'body': 'CIImage.imageWithCVImageBuffer(${1:CVImageBufferRef imageBuffer}, options:${2:NSDictionary* dict})'
+    'body': 'imageWithCVImageBuffer(${1:CVImageBufferRef imageBuffer}, options:${2:NSDictionary* dict})'
   'CIImage.imageWithColor:':
     'prefix': 'imageWithColor:'
-    'body': 'CIImage.imageWithColor(${1:CIColor* color})'
+    'body': 'imageWithColor(${1:CIColor* color})'
   'CIImage.imageWithContentsOfURL:':
     'prefix': 'imageWithContentsOfURL:'
-    'body': 'CIImage.imageWithContentsOfURL(${1:NSURL* url})'
+    'body': 'imageWithContentsOfURL(${1:NSURL* url})'
   'CIImage.imageWithContentsOfURL:options:':
     'prefix': 'imageWithContentsOfURL:options:'
-    'body': 'CIImage.imageWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* d})'
+    'body': 'imageWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* d})'
   'CIImage.imageWithData:':
     'prefix': 'imageWithData:'
-    'body': 'CIImage.imageWithData(${1:NSData* data})'
+    'body': 'imageWithData(${1:NSData* data})'
   'CIImage.imageWithData:options:':
     'prefix': 'imageWithData:options:'
-    'body': 'CIImage.imageWithData(${1:NSData* data}, options:${2:NSDictionary* d})'
+    'body': 'imageWithData(${1:NSData* data}, options:${2:NSDictionary* d})'
   'CIImage.imageWithIOSurface:':
     'prefix': 'imageWithIOSurface:'
-    'body': 'CIImage.imageWithIOSurface(${1:IOSurfaceRef surface})'
+    'body': 'imageWithIOSurface(${1:IOSurfaceRef surface})'
   'CIImage.imageWithIOSurface:options:':
     'prefix': 'imageWithIOSurface:options:'
-    'body': 'CIImage.imageWithIOSurface(${1:IOSurfaceRef surface}, options:${2:NSDictionary* d})'
+    'body': 'imageWithIOSurface(${1:IOSurfaceRef surface}, options:${2:NSDictionary* d})'
   'CIImage.imageWithImageProvider:size::format:colorSpace:options:':
     'prefix': 'imageWithImageProvider:size::format:colorSpace:options:'
-    'body': 'CIImage.imageWithImageProvider(${1:id p}, size:${2:size_t width}, :${3:size_t height}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs}, options:${6:NSDictionary* dict})'
+    'body': 'imageWithImageProvider(${1:id p}, size:${2:size_t width}, :${3:size_t height}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs}, options:${6:NSDictionary* dict})'
   'CIImage.imageWithTexture:size:flipped:colorSpace:':
     'prefix': 'imageWithTexture:size:flipped:colorSpace:'
-    'body': 'CIImage.imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
+    'body': 'imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
   'CIImage.imageWithTexture:size:flipped:options:':
     'prefix': 'imageWithTexture:size:flipped:options:'
-    'body': 'CIImage.imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, options:${4:NSDictionary* options})'
+    'body': 'imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, options:${4:NSDictionary* options})'
   'initWithBitmapData:bytesPerRow:size:format:colorSpace:':
     'prefix': 'initWithBitmapData:bytesPerRow:size:format:colorSpace:'
     'body': 'initWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef c})'
@@ -2752,10 +2752,10 @@
     'body': 'image()'
   'CIImageAccumulator.imageAccumulatorWithExtent:format:':
     'prefix': 'imageAccumulatorWithExtent:format:'
-    'body': 'CIImageAccumulator.imageAccumulatorWithExtent(${1:CGRect extent}, format:${2:CIFormat format})'
+    'body': 'imageAccumulatorWithExtent(${1:CGRect extent}, format:${2:CIFormat format})'
   'CIImageAccumulator.imageAccumulatorWithExtent:format:colorSpace:':
     'prefix': 'imageAccumulatorWithExtent:format:colorSpace:'
-    'body': 'CIImageAccumulator.imageAccumulatorWithExtent(${1:CGRect extent}, format:${2:CIFormat format}, colorSpace:${3:CGColorSpaceRef colorSpace})'
+    'body': 'imageAccumulatorWithExtent(${1:CGRect extent}, format:${2:CIFormat format}, colorSpace:${3:CGColorSpaceRef colorSpace})'
   'initWithExtent:format:':
     'prefix': 'initWithExtent:format:'
     'body': 'initWithExtent(${1:CGRect extent}, format:${2:CIFormat format})'
@@ -2770,7 +2770,7 @@
     'body': 'setImage(${1:CIImage* im}, dirtyRect:${2:CGRect r})'
   'CIKernel.kernelsWithString:':
     'prefix': 'kernelsWithString:'
-    'body': 'CIKernel.kernelsWithString(${1:NSString* s})'
+    'body': 'KernelsWithString(${1:NSString* s})'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -2779,16 +2779,16 @@
     'body': 'setROISelector(${1:SEL aMethod})'
   'CIPlugIn.loadAllPlugIns':
     'prefix': 'loadAllPlugIns'
-    'body': 'CIPlugIn.loadAllPlugIns()'
+    'body': 'loadAllPlugIns()'
   'CIPlugIn.loadNonExecutablePlugIns':
     'prefix': 'loadNonExecutablePlugIns'
-    'body': 'CIPlugIn.loadNonExecutablePlugIns()'
+    'body': 'loadNonExecutablePlugIns()'
   'CIPlugIn.loadPlugIn:allowExecutableCode:':
     'prefix': 'loadPlugIn:allowExecutableCode:'
-    'body': 'CIPlugIn.loadPlugIn(${1:NSURL* url}, allowExecutableCode:${2:BOOL allowExecutableCode})'
+    'body': 'loadPlugIn(${1:NSURL* url}, allowExecutableCode:${2:BOOL allowExecutableCode})'
   'CIPlugIn.loadPlugIn:allowNonExecutable:':
     'prefix': 'loadPlugIn:allowNonExecutable:'
-    'body': 'CIPlugIn.loadPlugIn(${1:NSURL* url}, allowNonExecutable:${2:BOOL allowNonExecutable})'
+    'body': 'loadPlugIn(${1:NSURL* url}, allowNonExecutable:${2:BOOL allowNonExecutable})'
   'definition':
     'prefix': 'definition'
     'body': 'definition()'
@@ -2806,13 +2806,13 @@
     'body': 'initWithImage(${1:CIImage* im}, options:${2:NSDictionary* dict})'
   'CISampler.samplerWithImage:':
     'prefix': 'samplerWithImage:'
-    'body': 'CISampler.samplerWithImage(${1:CIImage* im})'
+    'body': 'samplerWithImage(${1:CIImage* im})'
   'CISampler.samplerWithImage:keysAndValues:':
     'prefix': 'samplerWithImage:keysAndValues:'
-    'body': 'CISampler.samplerWithImage(${1:CIImage* im}, keysAndValues:${2:id key0})'
+    'body': 'samplerWithImage(${1:CIImage* im}, keysAndValues:${2:id key0})'
   'CISampler.samplerWithImage:options:':
     'prefix': 'samplerWithImage:options:'
-    'body': 'CISampler.samplerWithImage(${1:CIImage* im}, options:${2:NSDictionary* dict})'
+    'body': 'samplerWithImage(${1:CIImage* im}, options:${2:NSDictionary* dict})'
   'CGAffineTransformValue':
     'prefix': 'CGAffineTransformValue'
     'body': 'CGAffineTransformValue()'
@@ -2872,31 +2872,31 @@
     'body': 'valueAtIndex(${1:size_t index})'
   'CIVector.vectorWithCGAffineTransform:':
     'prefix': 'vectorWithCGAffineTransform:'
-    'body': 'CIVector.vectorWithCGAffineTransform(${1:CGAffineTransform t})'
+    'body': 'vectorWithCGAffineTransform(${1:CGAffineTransform t})'
   'CIVector.vectorWithCGPoint:':
     'prefix': 'vectorWithCGPoint:'
-    'body': 'CIVector.vectorWithCGPoint(${1:CGPoint p})'
+    'body': 'vectorWithCGPoint(${1:CGPoint p})'
   'CIVector.vectorWithCGRect:':
     'prefix': 'vectorWithCGRect:'
-    'body': 'CIVector.vectorWithCGRect(${1:CGRect r})'
+    'body': 'vectorWithCGRect(${1:CGRect r})'
   'CIVector.vectorWithString:':
     'prefix': 'vectorWithString:'
-    'body': 'CIVector.vectorWithString(${1:NSString* representation})'
+    'body': 'vectorWithString(${1:NSString* representation})'
   'CIVector.vectorWithValues:count:':
     'prefix': 'vectorWithValues:count:'
-    'body': 'CIVector.vectorWithValues(${1:CGFloat* values}, count:${2:size_t count})'
+    'body': 'vectorWithValues(${1:CGFloat* values}, count:${2:size_t count})'
   'CIVector.vectorWithX:':
     'prefix': 'vectorWithX:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x})'
+    'body': 'vectorWithX(${1:CGFloat x})'
   'CIVector.vectorWithX:Y:':
     'prefix': 'vectorWithX:Y:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y})'
+    'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y})'
   'CIVector.vectorWithX:Y:Z:':
     'prefix': 'vectorWithX:Y:Z:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z})'
+    'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z})'
   'CIVector.vectorWithX:Y:Z:W:':
     'prefix': 'vectorWithX:Y:Z:W:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
+    'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
   'filterWithName:':
     'prefix': 'filterWithName:'
     'body': 'filterWithName(${1:NSString* name})'

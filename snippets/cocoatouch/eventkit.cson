@@ -295,10 +295,10 @@
     'body': 'absoluteDate()'
   'EKAlarm.alarmWithAbsoluteDate:':
     'prefix': 'alarmWithAbsoluteDate:'
-    'body': 'EKAlarm.alarmWithAbsoluteDate(${1:NSDate* date})'
+    'body': 'alarmWithAbsoluteDate(${1:NSDate* date})'
   'EKAlarm.alarmWithRelativeOffset:':
     'prefix': 'alarmWithRelativeOffset:'
-    'body': 'EKAlarm.alarmWithRelativeOffset(${1:NSTimeInterval offset})'
+    'body': 'alarmWithRelativeOffset(${1:NSTimeInterval offset})'
   'proximity':
     'prefix': 'proximity'
     'body': 'proximity()'
@@ -331,13 +331,13 @@
     'body': 'allowsContentModifications()'
   'EKCalendar.calendarForEntityType:eventStore:':
     'prefix': 'calendarForEntityType:eventStore:'
-    'body': 'EKCalendar.calendarForEntityType(${1:EKEntityType entityType}, eventStore:${2:EKEventStore* eventStore})'
+    'body': 'calendarForEntityType(${1:EKEntityType entityType}, eventStore:${2:EKEventStore* eventStore})'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
     'body': 'calendarIdentifier()'
   'EKCalendar.calendarWithEventStore:':
     'prefix': 'calendarWithEventStore:'
-    'body': 'EKCalendar.calendarWithEventStore(${1:EKEventStore* eventStore})'
+    'body': 'calendarWithEventStore(${1:EKEventStore* eventStore})'
   'isImmutable':
     'prefix': 'isImmutable'
     'body': 'isImmutable()'
@@ -472,7 +472,7 @@
     'body': 'eventIdentifier()'
   'EKEvent.eventWithEventStore:':
     'prefix': 'eventWithEventStore:'
-    'body': 'EKEvent.eventWithEventStore(${1:EKEventStore* eventStore})'
+    'body': 'eventWithEventStore(${1:EKEventStore* eventStore})'
   'isAllDay':
     'prefix': 'isAllDay'
     'body': 'isAllDay()'
@@ -505,7 +505,7 @@
     'body': 'status()'
   'EKEventStore.authorizationStatusForEntityType:':
     'prefix': 'authorizationStatusForEntityType:'
-    'body': 'EKEventStore.authorizationStatusForEntityType(${1:EKEntityType entityType})'
+    'body': 'authorizationStatusForEntityType(${1:EKEntityType entityType})'
   'calendarItemWithIdentifier:':
     'prefix': 'calendarItemWithIdentifier:'
     'body': 'calendarItemWithIdentifier(${1:NSString* identifier})'
@@ -640,10 +640,10 @@
     'body': 'dayOfTheWeek()'
   'EKRecurrenceDayOfWeek.dayOfWeek:':
     'prefix': 'dayOfWeek:'
-    'body': 'EKRecurrenceDayOfWeek.dayOfWeek(${1:NSInteger dayOfTheWeek})'
+    'body': 'dayOfWeek(${1:NSInteger dayOfTheWeek})'
   'EKRecurrenceDayOfWeek.dayOfWeek:weekNumber:':
     'prefix': 'dayOfWeek:weekNumber:'
-    'body': 'EKRecurrenceDayOfWeek.dayOfWeek(${1:NSInteger dayOfTheWeek}, weekNumber:${2:NSInteger weekNumber})'
+    'body': 'dayOfWeek(${1:NSInteger dayOfTheWeek}, weekNumber:${2:NSInteger weekNumber})'
   'initWithDayOfTheWeek:weekNumber:':
     'prefix': 'initWithDayOfTheWeek:weekNumber:'
     'body': 'initWithDayOfTheWeek(${1:NSInteger dayOfTheWeek}, weekNumber:${2:NSInteger weekNumber})'
@@ -658,10 +658,10 @@
     'body': 'occurrenceCount()'
   'EKRecurrenceEnd.recurrenceEndWithEndDate:':
     'prefix': 'recurrenceEndWithEndDate:'
-    'body': 'EKRecurrenceEnd.recurrenceEndWithEndDate(${1:NSDate* endDate})'
+    'body': 'recurrenceEndWithEndDate(${1:NSDate* endDate})'
   'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount:':
     'prefix': 'recurrenceEndWithOccurrenceCount:'
-    'body': 'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount(${1:NSUInteger occurrenceCount})'
+    'body': 'recurrenceEndWithOccurrenceCount(${1:NSUInteger occurrenceCount})'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
     'body': 'calendarIdentifier()'
@@ -718,7 +718,7 @@
     'body': 'priority()'
   'EKReminder.reminderWithEventStore:':
     'prefix': 'reminderWithEventStore:'
-    'body': 'EKReminder.reminderWithEventStore(${1:EKEventStore* eventStore})'
+    'body': 'reminderWithEventStore(${1:EKEventStore* eventStore})'
   'setCompleted:':
     'prefix': 'setCompleted:'
     'body': 'setCompleted(${1:BOOL completed})'
@@ -757,7 +757,7 @@
     'body': 'geoLocation()'
   'EKStructuredLocation.locationWithTitle:':
     'prefix': 'locationWithTitle:'
-    'body': 'EKStructuredLocation.locationWithTitle(${1:NSString* title})'
+    'body': 'locationWithTitle(${1:NSString* title})'
   'radius':
     'prefix': 'radius'
     'body': 'radius()'

@@ -334,16 +334,16 @@
     'body': 'JSGlobalContextRef()'
   'JSContext.contextWithJSGlobalContextRef:':
     'prefix': 'contextWithJSGlobalContextRef:'
-    'body': 'JSContext.contextWithJSGlobalContextRef(${1:JSGlobalContextRef jsGlobalContextRef})'
+    'body': 'contextWithJSGlobalContextRef(${1:JSGlobalContextRef jsGlobalContextRef})'
   'JSContext.currentArguments':
     'prefix': 'currentArguments'
-    'body': 'JSContext.currentArguments()'
+    'body': 'currentArguments()'
   'JSContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'JSContext.currentContext()'
+    'body': 'currentContext()'
   'JSContext.currentThis':
     'prefix': 'currentThis'
-    'body': 'JSContext.currentThis()'
+    'body': 'currentThis()'
   'evaluateScript:':
     'prefix': 'evaluateScript:'
     'body': 'evaluateScript(${1:NSString* script})'
@@ -382,7 +382,7 @@
     'body': 'initWithValue(${1:JSValue* value})'
   'JSManagedValue.managedValueWithValue:':
     'prefix': 'managedValueWithValue:'
-    'body': 'JSManagedValue.managedValueWithValue(${1:JSValue* value})'
+    'body': 'managedValueWithValue(${1:JSValue* value})'
   'value':
     'prefix': 'value'
     'body': 'value()'
@@ -508,52 +508,52 @@
     'body': 'valueForProperty(${1:NSString* property})'
   'JSValue.valueWithBool:inContext:':
     'prefix': 'valueWithBool:inContext:'
-    'body': 'JSValue.valueWithBool(${1:BOOL value}, inContext:${2:JSContext* context})'
+    'body': 'valueWithBool(${1:BOOL value}, inContext:${2:JSContext* context})'
   'JSValue.valueWithDouble:inContext:':
     'prefix': 'valueWithDouble:inContext:'
-    'body': 'JSValue.valueWithDouble(${1:double value}, inContext:${2:JSContext* context})'
+    'body': 'valueWithDouble(${1:double value}, inContext:${2:JSContext* context})'
   'JSValue.valueWithInt32:inContext:':
     'prefix': 'valueWithInt32:inContext:'
-    'body': 'JSValue.valueWithInt32(${1:int32_t value}, inContext:${2:JSContext* context})'
+    'body': 'valueWithInt32(${1:int32_t value}, inContext:${2:JSContext* context})'
   'JSValue.valueWithJSValueRef:inContext:':
     'prefix': 'valueWithJSValueRef:inContext:'
-    'body': 'JSValue.valueWithJSValueRef(${1:JSValueRef value}, inContext:${2:JSContext* context})'
+    'body': 'valueWithJSValueRef(${1:JSValueRef value}, inContext:${2:JSContext* context})'
   'JSValue.valueWithNewArrayInContext:':
     'prefix': 'valueWithNewArrayInContext:'
-    'body': 'JSValue.valueWithNewArrayInContext(${1:JSContext* context})'
+    'body': 'valueWithNewArrayInContext(${1:JSContext* context})'
   'JSValue.valueWithNewErrorFromMessage:inContext:':
     'prefix': 'valueWithNewErrorFromMessage:inContext:'
-    'body': 'JSValue.valueWithNewErrorFromMessage(${1:NSString* message}, inContext:${2:JSContext* context})'
+    'body': 'valueWithNewErrorFromMessage(${1:NSString* message}, inContext:${2:JSContext* context})'
   'JSValue.valueWithNewObjectInContext:':
     'prefix': 'valueWithNewObjectInContext:'
-    'body': 'JSValue.valueWithNewObjectInContext(${1:JSContext* context})'
+    'body': 'valueWithNewObjectInContext(${1:JSContext* context})'
   'JSValue.valueWithNewRegularExpressionFromPattern:flags:inContext:':
     'prefix': 'valueWithNewRegularExpressionFromPattern:flags:inContext:'
-    'body': 'JSValue.valueWithNewRegularExpressionFromPattern(${1:NSString* pattern}, flags:${2:NSString* flags}, inContext:${3:JSContext* context})'
+    'body': 'valueWithNewRegularExpressionFromPattern(${1:NSString* pattern}, flags:${2:NSString* flags}, inContext:${3:JSContext* context})'
   'JSValue.valueWithNullInContext:':
     'prefix': 'valueWithNullInContext:'
-    'body': 'JSValue.valueWithNullInContext(${1:JSContext* context})'
+    'body': 'valueWithNullInContext(${1:JSContext* context})'
   'JSValue.valueWithObject:inContext:':
     'prefix': 'valueWithObject:inContext:'
-    'body': 'JSValue.valueWithObject(${1:id value}, inContext:${2:JSContext* context})'
+    'body': 'valueWithObject(${1:id value}, inContext:${2:JSContext* context})'
   'JSValue.valueWithPoint:inContext:':
     'prefix': 'valueWithPoint:inContext:'
-    'body': 'JSValue.valueWithPoint(${1:CGPoint point}, inContext:${2:JSContext* context})'
+    'body': 'valueWithPoint(${1:CGPoint point}, inContext:${2:JSContext* context})'
   'JSValue.valueWithRange:inContext:':
     'prefix': 'valueWithRange:inContext:'
-    'body': 'JSValue.valueWithRange(${1:NSRange range}, inContext:${2:JSContext* context})'
+    'body': 'valueWithRange(${1:NSRange range}, inContext:${2:JSContext* context})'
   'JSValue.valueWithRect:inContext:':
     'prefix': 'valueWithRect:inContext:'
-    'body': 'JSValue.valueWithRect(${1:CGRect rect}, inContext:${2:JSContext* context})'
+    'body': 'valueWithRect(${1:CGRect rect}, inContext:${2:JSContext* context})'
   'JSValue.valueWithSize:inContext:':
     'prefix': 'valueWithSize:inContext:'
-    'body': 'JSValue.valueWithSize(${1:CGSize size}, inContext:${2:JSContext* context})'
+    'body': 'valueWithSize(${1:CGSize size}, inContext:${2:JSContext* context})'
   'JSValue.valueWithUInt32:inContext:':
     'prefix': 'valueWithUInt32:inContext:'
-    'body': 'JSValue.valueWithUInt32(${1:uint32_t value}, inContext:${2:JSContext* context})'
+    'body': 'valueWithUInt32(${1:uint32_t value}, inContext:${2:JSContext* context})'
   'JSValue.valueWithUndefinedInContext:':
     'prefix': 'valueWithUndefinedInContext:'
-    'body': 'JSValue.valueWithUndefinedInContext(${1:JSContext* context})'
+    'body': 'valueWithUndefinedInContext(${1:JSContext* context})'
   'addManagedReference:withOwner:':
     'prefix': 'addManagedReference:withOwner:'
     'body': 'addManagedReference(${1:id object}, withOwner:${2:id owner})'

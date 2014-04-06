@@ -61,10 +61,10 @@
     'body': 'rect()'
   'NSObject.registerObserver:forAXNotification:':
     'prefix': 'registerObserver:forAXNotification:'
-    'body': 'NSObject.registerObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
+    'body': 'registerObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
   'NSObject.registerObserver:forAXNotifications:':
     'prefix': 'registerObserver:forAXNotifications:'
-    'body': 'NSObject.registerObserver(${1:struct __AXObserver* arg1}, forAXNotifications:${2:BOOL arg2})'
+    'body': 'registerObserver(${1:struct __AXObserver* arg1}, forAXNotifications:${2:BOOL arg2})'
   'responder':
     'prefix': 'responder'
     'body': 'responder()'
@@ -73,10 +73,10 @@
     'body': 'setValue(${1:id arg1}, forAttribute:${2:NSInteger arg2})'
   'NSObject.stringForAXError:':
     'prefix': 'stringForAXError:'
-    'body': 'NSObject.stringForAXError(${1:long arg1})'
+    'body': 'stringForAXError(${1:long arg1})'
   'NSObject.stringForAXNotification:':
     'prefix': 'stringForAXNotification:'
-    'body': 'NSObject.stringForAXNotification(${1:NSInteger arg1})'
+    'body': 'stringForAXNotification(${1:NSInteger arg1})'
   'stringForAllKnownAttributes':
     'prefix': 'stringForAllKnownAttributes'
     'body': 'stringForAllKnownAttributes()'
@@ -85,7 +85,7 @@
     'body': 'stringForAttributes(${1:NSArray* arg1})'
   'NSObject.stringForTraits:':
     'prefix': 'stringForTraits:'
-    'body': 'NSObject.stringForTraits(${1:unsigned long long arg1})'
+    'body': 'stringForTraits(${1:unsigned long long arg1})'
   'traits':
     'prefix': 'traits'
     'body': 'traits()'
@@ -94,25 +94,25 @@
     'body': 'traitsNumber()'
   'NSObject.uiaxApplicationAtPosition:':
     'prefix': 'uiaxApplicationAtPosition:'
-    'body': 'NSObject.uiaxApplicationAtPosition(${1:CGPoint arg1})'
+    'body': 'uiaxApplicationAtPosition(${1:CGPoint arg1})'
   'NSObject.uiaxElementAtPosition:':
     'prefix': 'uiaxElementAtPosition:'
-    'body': 'NSObject.uiaxElementAtPosition(${1:CGPoint arg1})'
+    'body': 'uiaxElementAtPosition(${1:CGPoint arg1})'
   'NSObject.uiaxElementWithAXUIElementRef:':
     'prefix': 'uiaxElementWithAXUIElementRef:'
-    'body': 'NSObject.uiaxElementWithAXUIElementRef(${1:struct __AXUIElement* arg1})'
+    'body': 'uiaxElementWithAXUIElementRef(${1:struct __AXUIElement* arg1})'
   'NSObject.uiaxFocusedApplicationElement':
     'prefix': 'uiaxFocusedApplicationElement'
-    'body': 'NSObject.uiaxFocusedApplicationElement()'
+    'body': 'uiaxFocusedApplicationElement()'
   'NSObject.uiaxSpringBoardElement':
     'prefix': 'uiaxSpringBoardElement'
-    'body': 'NSObject.uiaxSpringBoardElement()'
+    'body': 'uiaxSpringBoardElement()'
   'NSObject.uiaxSystemWideElement':
     'prefix': 'uiaxSystemWideElement'
-    'body': 'NSObject.uiaxSystemWideElement()'
+    'body': 'uiaxSystemWideElement()'
   'NSObject.unregisterObserver:forAXNotification:':
     'prefix': 'unregisterObserver:forAXNotification:'
-    'body': 'NSObject.unregisterObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
+    'body': 'unregisterObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
   'valueForAttribute:':
     'prefix': 'valueForAttribute:'
     'body': 'valueForAttribute(${1:NSInteger arg1})'
@@ -145,25 +145,25 @@
     'body': 'y()'
   'UIAActionSheet._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIAActionSheet._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   'cancelButton':
     'prefix': 'cancelButton'
     'body': 'cancelButton()'
   'UIAActionSheet.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIAActionSheet.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   'cancelButton':
     'prefix': 'cancelButton'
     'body': 'cancelButton()'
   'UIAActivityView.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIAActivityView.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   'UIAAlert._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIAAlert._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   'UIAAlert._moreToOneRelationshipKeys':
     'prefix': '_moreToOneRelationshipKeys'
-    'body': 'UIAAlert._moreToOneRelationshipKeys()'
+    'body': '_moreToOneRelationshipKeys()'
   '_nameFromChildForAXElement:':
     'prefix': '_nameFromChildForAXElement:'
     'body': '_nameFromChildForAXElement(${1:id arg1})'
@@ -181,7 +181,7 @@
     'body': 'name()'
   'UIAAlert.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIAAlert.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   '_axBundle':
     'prefix': '_axBundle'
     'body': '_axBundle()'
@@ -229,7 +229,7 @@
     'body': 'appItemScrollView()'
   'UIAApplication.attributeKeys':
     'prefix': 'attributeKeys'
-    'body': 'UIAApplication.attributeKeys()'
+    'body': 'attributeKeys()'
   'bundleID':
     'prefix': 'bundleID'
     'body': 'bundleID()'
@@ -298,10 +298,10 @@
     'body': 'tabBar()'
   'UIAApplication.toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
-    'body': 'UIAApplication.toManyRelationshipKeys()'
+    'body': 'toManyRelationshipKeys()'
   'UIAApplication.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIAApplication.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   'toolbar':
     'prefix': 'toolbar'
     'body': 'toolbar()'
@@ -328,13 +328,13 @@
     'body': 'value()'
   'UIACollectionView._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIACollectionView._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   '_emptyCaches':
     'prefix': '_emptyCaches'
     'body': '_emptyCaches()'
   'UIACollectionView._moreToManyRelationshipKeys':
     'prefix': '_moreToManyRelationshipKeys'
-    'body': 'UIACollectionView._moreToManyRelationshipKeys()'
+    'body': '_moreToManyRelationshipKeys()'
   'cells':
     'prefix': 'cells'
     'body': 'cells()'
@@ -346,7 +346,7 @@
     'body': 'scrollItemIndex()'
   'UIACollectionView.toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
-    'body': 'UIACollectionView.toManyRelationshipKeys()'
+    'body': 'toManyRelationshipKeys()'
   'value':
     'prefix': 'value'
     'body': 'value()'
@@ -355,22 +355,22 @@
     'body': 'visibleCells()'
   'UIAElement._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIAElement._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   'UIAElement._convertPointFromCurrentInterfaceOrientation:':
     'prefix': '_convertPointFromCurrentInterfaceOrientation:'
-    'body': 'UIAElement._convertPointFromCurrentInterfaceOrientation(${1:CGPoint arg1})'
+    'body': '_convertPointFromCurrentInterfaceOrientation(${1:CGPoint arg1})'
   'UIAElement._convertPointToCurrentInterfaceOrientation:':
     'prefix': '_convertPointToCurrentInterfaceOrientation:'
-    'body': 'UIAElement._convertPointToCurrentInterfaceOrientation(${1:CGPoint arg1})'
+    'body': '_convertPointToCurrentInterfaceOrientation(${1:CGPoint arg1})'
   'UIAElement._convertRectFromCurrentInterfaceOrientation:':
     'prefix': '_convertRectFromCurrentInterfaceOrientation:'
-    'body': 'UIAElement._convertRectFromCurrentInterfaceOrientation(${1:CGRect arg1})'
+    'body': '_convertRectFromCurrentInterfaceOrientation(${1:CGRect arg1})'
   'UIAElement._convertRectToCurrentInterfaceOrientation:':
     'prefix': '_convertRectToCurrentInterfaceOrientation:'
-    'body': 'UIAElement._convertRectToCurrentInterfaceOrientation(${1:CGRect arg1})'
+    'body': '_convertRectToCurrentInterfaceOrientation(${1:CGRect arg1})'
   'UIAElement._countsString':
     'prefix': '_countsString'
-    'body': 'UIAElement._countsString()'
+    'body': '_countsString()'
   '_createdTime':
     'prefix': '_createdTime'
     'body': '_createdTime()'
@@ -379,7 +379,7 @@
     'body': '_delayForAnimationsInProgress()'
   'UIAElement._delayForTimeInterval:':
     'prefix': '_delayForTimeInterval:'
-    'body': 'UIAElement._delayForTimeInterval(${1:double arg1})'
+    'body': '_delayForTimeInterval(${1:double arg1})'
   '_dragInsideWithOptions:withFlick:':
     'prefix': '_dragInsideWithOptions:withFlick:'
     'body': '_dragInsideWithOptions(${1:id arg1}, withFlick:${2:BOOL arg2})'
@@ -394,7 +394,7 @@
     'body': '_elementForUIAXElement(${1:id arg1})'
   'UIAElement._elementWithUIAXElement:parent:':
     'prefix': '_elementWithUIAXElement:parent:'
-    'body': 'UIAElement._elementWithUIAXElement(${1:id arg1}, parent:${2:id arg2})'
+    'body': '_elementWithUIAXElement(${1:id arg1}, parent:${2:id arg2})'
   '_elementsForUIAXElements:':
     'prefix': '_elementsForUIAXElements:'
     'body': '_elementsForUIAXElements(${1:id arg1})'
@@ -409,10 +409,10 @@
     'body': '_emptyCaches()'
   'UIAElement._hitPointForObject:':
     'prefix': '_hitPointForObject:'
-    'body': 'UIAElement._hitPointForObject(${1:id arg1})'
+    'body': '_hitPointForObject(${1:id arg1})'
   'UIAElement._hitPointFromDictionary:':
     'prefix': '_hitPointFromDictionary:'
-    'body': 'UIAElement._hitPointFromDictionary(${1:id arg1})'
+    'body': '_hitPointFromDictionary(${1:id arg1})'
   '_hitpoint':
     'prefix': '_hitpoint'
     'body': '_hitpoint()'
@@ -436,49 +436,49 @@
     'body': '_invalidate()'
   'UIAElement._invocationForInvoker:selector:arguments:':
     'prefix': '_invocationForInvoker:selector:arguments:'
-    'body': 'UIAElement._invocationForInvoker(${1:id arg1}, selector:${2:SEL arg2}, arguments:${3:char* arg3})'
+    'body': '_invocationForInvoker(${1:id arg1}, selector:${2:SEL arg2}, arguments:${3:char* arg3})'
   'UIAElement._jsEscapedStringForString:':
     'prefix': '_jsEscapedStringForString:'
-    'body': 'UIAElement._jsEscapedStringForString(${1:id arg1})'
+    'body': '_jsEscapedStringForString(${1:id arg1})'
   'UIAElement._jsMethodCallStringForInvoker:selector:':
     'prefix': '_jsMethodCallStringForInvoker:selector:'
-    'body': 'UIAElement._jsMethodCallStringForInvoker(${1:id arg1}, selector:${2:SEL arg2})'
+    'body': '_jsMethodCallStringForInvoker(${1:id arg1}, selector:${2:SEL arg2})'
   'UIAElement._jsMethodNameForSelector:':
     'prefix': '_jsMethodNameForSelector:'
-    'body': 'UIAElement._jsMethodNameForSelector(${1:SEL arg1})'
+    'body': '_jsMethodNameForSelector(${1:SEL arg1})'
   'UIAElement._jsStringForDictionary:':
     'prefix': '_jsStringForDictionary:'
-    'body': 'UIAElement._jsStringForDictionary(${1:id arg1})'
+    'body': '_jsStringForDictionary(${1:id arg1})'
   'UIAElement._jsStringForInvocation:':
     'prefix': '_jsStringForInvocation:'
-    'body': 'UIAElement._jsStringForInvocation(${1:id arg1})'
+    'body': '_jsStringForInvocation(${1:id arg1})'
   'UIAElement._jsStringForInvocationPath:':
     'prefix': '_jsStringForInvocationPath:'
-    'body': 'UIAElement._jsStringForInvocationPath(${1:id arg1})'
+    'body': '_jsStringForInvocationPath(${1:id arg1})'
   'UIAElement._jsStringForObject:':
     'prefix': '_jsStringForObject:'
-    'body': 'UIAElement._jsStringForObject(${1:id arg1})'
+    'body': '_jsStringForObject(${1:id arg1})'
   'UIAElement._jsStringForPoint:':
     'prefix': '_jsStringForPoint:'
-    'body': 'UIAElement._jsStringForPoint(${1:CGPoint arg1})'
+    'body': '_jsStringForPoint(${1:CGPoint arg1})'
   'UIAElement._jsStringForRect:':
     'prefix': '_jsStringForRect:'
-    'body': 'UIAElement._jsStringForRect(${1:CGRect arg1})'
+    'body': '_jsStringForRect(${1:CGRect arg1})'
   'UIAElement._jsStringForString:':
     'prefix': '_jsStringForString:'
-    'body': 'UIAElement._jsStringForString(${1:id arg1})'
+    'body': '_jsStringForString(${1:id arg1})'
   'UIAElement._jsStringForUIAElement:':
     'prefix': '_jsStringForUIAElement:'
-    'body': 'UIAElement._jsStringForUIAElement(${1:id arg1})'
+    'body': '_jsStringForUIAElement(${1:id arg1})'
   'UIAElement._jsStringForValue:':
     'prefix': '_jsStringForValue:'
-    'body': 'UIAElement._jsStringForValue(${1:id arg1})'
+    'body': '_jsStringForValue(${1:id arg1})'
   '_lastAccessedTime':
     'prefix': '_lastAccessedTime'
     'body': '_lastAccessedTime()'
   'UIAElement._liveCount':
     'prefix': '_liveCount'
-    'body': 'UIAElement._liveCount()'
+    'body': '_liveCount()'
   '_logInfo':
     'prefix': '_logInfo'
     'body': '_logInfo()'
@@ -487,13 +487,13 @@
     'body': '_logInfoWithChildren()'
   'UIAElement._logVerbosity:format:':
     'prefix': '_logVerbosity:format:'
-    'body': 'UIAElement._logVerbosity(${1:NSUInteger arg1}, format:${2:id arg2})'
+    'body': '_logVerbosity(${1:NSUInteger arg1}, format:${2:id arg2})'
   'UIAElement._maxCount':
     'prefix': '_maxCount'
-    'body': 'UIAElement._maxCount()'
+    'body': '_maxCount()'
   'UIAElement._nameForAXElement:':
     'prefix': '_nameForAXElement:'
-    'body': 'UIAElement._nameForAXElement(${1:id arg1})'
+    'body': '_nameForAXElement(${1:id arg1})'
   '_objectWithPatienceInvocationFromUIAObject:selector:':
     'prefix': '_objectWithPatienceInvocationFromUIAObject:selector:'
     'body': '_objectWithPatienceInvocationFromUIAObject(${1:id arg1}, selector:${2:SEL arg2})'
@@ -502,22 +502,22 @@
     'body': '_patienceForAttribute(${1:SEL arg1}, value:${2:id arg2})'
   'UIAElement._patienceInvocationPathForUIAObject:':
     'prefix': '_patienceInvocationPathForUIAObject:'
-    'body': 'UIAElement._patienceInvocationPathForUIAObject(${1:id arg1})'
+    'body': '_patienceInvocationPathForUIAObject(${1:id arg1})'
   'UIAElement._patienceRetryInterval':
     'prefix': '_patienceRetryInterval'
-    'body': 'UIAElement._patienceRetryInterval()'
+    'body': '_patienceRetryInterval()'
   'UIAElement._performInvocationPath:':
     'prefix': '_performInvocationPath:'
-    'body': 'UIAElement._performInvocationPath(${1:id arg1})'
+    'body': '_performInvocationPath(${1:id arg1})'
   'UIAElement._predicateForPredicateOrString:':
     'prefix': '_predicateForPredicateOrString:'
-    'body': 'UIAElement._predicateForPredicateOrString(${1:id arg1})'
+    'body': '_predicateForPredicateOrString(${1:id arg1})'
   '_prepareForAction:':
     'prefix': '_prepareForAction:'
     'body': '_prepareForAction(${1:SEL arg1})'
   'UIAElement._rectFromDictionary:':
     'prefix': '_rectFromDictionary:'
-    'body': 'UIAElement._rectFromDictionary(${1:id arg1})'
+    'body': '_rectFromDictionary(${1:id arg1})'
   '_rotateWithOptions:':
     'prefix': '_rotateWithOptions:'
     'body': '_rotateWithOptions(${1:id arg1})'
@@ -532,10 +532,10 @@
     'body': '_setLastAccessedTime(${1:double arg1})'
   'UIAElement._setPatienceInvocation:forUIAObject:':
     'prefix': '_setPatienceInvocation:forUIAObject:'
-    'body': 'UIAElement._setPatienceInvocation(${1:id arg1}, forUIAObject:${2:id arg2})'
+    'body': '_setPatienceInvocation(${1:id arg1}, forUIAObject:${2:id arg2})'
   'UIAElement._setPatienceRetryInterval:':
     'prefix': '_setPatienceRetryInterval:'
-    'body': 'UIAElement._setPatienceRetryInterval(${1:double arg1})'
+    'body': '_setPatienceRetryInterval(${1:double arg1})'
   '_setSelfPatienceInvocation:':
     'prefix': '_setSelfPatienceInvocation:'
     'body': '_setSelfPatienceInvocation(${1:id arg1})'
@@ -547,13 +547,13 @@
     'body': '_synonymToManyRelationshipKeys()'
   'UIAElement._transformToRotateFromInterfaceOrientation:':
     'prefix': '_transformToRotateFromInterfaceOrientation:'
-    'body': 'UIAElement._transformToRotateFromInterfaceOrientation(${1:NSInteger arg1})'
+    'body': '_transformToRotateFromInterfaceOrientation(${1:NSInteger arg1})'
   'UIAElement._transformToRotateToInterfaceOrientation:':
     'prefix': '_transformToRotateToInterfaceOrientation:'
-    'body': 'UIAElement._transformToRotateToInterfaceOrientation(${1:NSInteger arg1})'
+    'body': '_transformToRotateToInterfaceOrientation(${1:NSInteger arg1})'
   'UIAElement._uiaClassForClassName:':
     'prefix': '_uiaClassForClassName:'
-    'body': 'UIAElement._uiaClassForClassName(${1:id arg1})'
+    'body': '_uiaClassForClassName(${1:id arg1})'
   '_uiaHitpoint':
     'prefix': '_uiaHitpoint'
     'body': '_uiaHitpoint()'
@@ -562,10 +562,10 @@
     'body': '_uiaRect()'
   'UIAElement._valueForAXElement:':
     'prefix': '_valueForAXElement:'
-    'body': 'UIAElement._valueForAXElement(${1:id arg1})'
+    'body': '_valueForAXElement(${1:id arg1})'
   'UIAElement._waitForInvocationPath:':
     'prefix': '_waitForInvocationPath:'
-    'body': 'UIAElement._waitForInvocationPath(${1:id arg1})'
+    'body': '_waitForInvocationPath(${1:id arg1})'
   'actionSheet':
     'prefix': 'actionSheet'
     'body': 'actionSheet()'
@@ -583,7 +583,7 @@
     'body': 'activityViews()'
   'UIAElement.allKeys':
     'prefix': 'allKeys'
-    'body': 'UIAElement.allKeys()'
+    'body': 'allKeys()'
   'allKeys':
     'prefix': 'allKeys'
     'body': 'allKeys()'
@@ -592,7 +592,7 @@
     'body': 'ancestry()'
   'UIAElement.attributeKeys':
     'prefix': 'attributeKeys'
-    'body': 'UIAElement.attributeKeys()'
+    'body': 'attributeKeys()'
   'attributeKeys':
     'prefix': 'attributeKeys'
     'body': 'attributeKeys()'
@@ -640,10 +640,10 @@
     'body': 'elementAtPoint(${1:id arg1})'
   'UIAElement.elementAtPosition:':
     'prefix': 'elementAtPosition:'
-    'body': 'UIAElement.elementAtPosition(${1:CGPoint arg1})'
+    'body': 'elementAtPosition(${1:CGPoint arg1})'
   'UIAElement.elementForUIAXElement:':
     'prefix': 'elementForUIAXElement:'
-    'body': 'UIAElement.elementForUIAXElement(${1:id arg1})'
+    'body': 'elementForUIAXElement(${1:id arg1})'
   'elements':
     'prefix': 'elements'
     'body': 'elements()'
@@ -673,7 +673,7 @@
     'body': 'init()'
   'UIAElement.initialize':
     'prefix': 'initialize'
-    'body': 'UIAElement.initialize()'
+    'body': 'initialize()'
   'isEnabled':
     'prefix': 'isEnabled'
     'body': 'isEnabled()'
@@ -736,7 +736,7 @@
     'body': 'parentElement()'
   'UIAElement.patience':
     'prefix': 'patience'
-    'body': 'UIAElement.patience()'
+    'body': 'patience()'
   'pickers':
     'prefix': 'pickers'
     'body': 'pickers()'
@@ -745,7 +745,7 @@
     'body': 'pid()'
   'UIAElement.popPatience':
     'prefix': 'popPatience'
-    'body': 'UIAElement.popPatience()'
+    'body': 'popPatience()'
   'popover':
     'prefix': 'popover'
     'body': 'popover()'
@@ -757,7 +757,7 @@
     'body': 'progressIndicators()'
   'UIAElement.pushPatience:':
     'prefix': 'pushPatience:'
-    'body': 'UIAElement.pushPatience(${1:double arg1})'
+    'body': 'pushPatience(${1:double arg1})'
   'rect':
     'prefix': 'rect'
     'body': 'rect()'
@@ -829,7 +829,7 @@
     'body': 'segmentedControls()'
   'UIAElement.setPatience:':
     'prefix': 'setPatience:'
-    'body': 'UIAElement.setPatience(${1:double arg1})'
+    'body': 'setPatience(${1:double arg1})'
   'setValue:':
     'prefix': 'setValue:'
     'body': 'setValue(${1:id arg1})'
@@ -868,7 +868,7 @@
     'body': 'textViews()'
   'UIAElement.toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
-    'body': 'UIAElement.toManyRelationshipKeys()'
+    'body': 'toManyRelationshipKeys()'
   'toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
     'body': 'toManyRelationshipKeys()'
@@ -877,7 +877,7 @@
     'body': 'toManyRelationships()'
   'UIAElement.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIAElement.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   'toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
     'body': 'toOneRelationshipKeys()'
@@ -931,13 +931,13 @@
     'body': 'withValue(${1:id arg1}, forKey:${2:id arg2})'
   'UIAElementArray._arrayWithArray:':
     'prefix': '_arrayWithArray:'
-    'body': 'UIAElementArray._arrayWithArray(${1:id arg1})'
+    'body': '_arrayWithArray(${1:id arg1})'
   'UIAElementArray._cacheArray:atPtr:':
     'prefix': '_cacheArray:atPtr:'
-    'body': 'UIAElementArray._cacheArray(${1:id arg1}, atPtr:${2:id* arg2})'
+    'body': '_cacheArray(${1:id arg1}, atPtr:${2:id* arg2})'
   'UIAElementArray._cachedArrayAtPtr:':
     'prefix': '_cachedArrayAtPtr:'
-    'body': 'UIAElementArray._cachedArrayAtPtr(${1:id* arg1})'
+    'body': '_cachedArrayAtPtr(${1:id* arg1})'
   '_initWithArray:':
     'prefix': '_initWithArray:'
     'body': '_initWithArray(${1:id arg1})'
@@ -949,13 +949,13 @@
     'body': '_lastAccessedTime()'
   'UIAElementArray._liveCount':
     'prefix': '_liveCount'
-    'body': 'UIAElementArray._liveCount()'
+    'body': '_liveCount()'
   '_logLocalizedStringHintForKey:testValue:':
     'prefix': '_logLocalizedStringHintForKey:testValue:'
     'body': '_logLocalizedStringHintForKey(${1:id arg1}, testValue:${2:id arg2})'
   'UIAElementArray._maxCount':
     'prefix': '_maxCount'
-    'body': 'UIAElementArray._maxCount()'
+    'body': '_maxCount()'
   '_objectWithPatienceInvocationFromUIAObject:selector:':
     'prefix': '_objectWithPatienceInvocationFromUIAObject:selector:'
     'body': '_objectWithPatienceInvocationFromUIAObject(${1:id arg1}, selector:${2:SEL arg2})'
@@ -964,7 +964,7 @@
     'body': '_refreshedTime()'
   'UIAElementArray._removeCachedArrayAtPtr:':
     'prefix': '_removeCachedArrayAtPtr:'
-    'body': 'UIAElementArray._removeCachedArrayAtPtr(${1:id* arg1})'
+    'body': '_removeCachedArrayAtPtr(${1:id* arg1})'
   '_scriptingIndexSynonymsForElement:maxCount:':
     'prefix': '_scriptingIndexSynonymsForElement:maxCount:'
     'body': '_scriptingIndexSynonymsForElement(${1:id arg1}, maxCount:${2:NSUInteger arg2})'
@@ -1018,7 +1018,7 @@
     'body': 'hash()'
   'UIAElementArray.initialize':
     'prefix': 'initialize'
-    'body': 'UIAElementArray.initialize()'
+    'body': 'initialize()'
   'isEqual:':
     'prefix': 'isEqual:'
     'body': 'isEqual(${1:id arg1})'
@@ -1066,7 +1066,7 @@
     'body': 'withValue(${1:id arg1}, forKey:${2:id arg2})'
   'UIAElementNil._elementNilWithInvocation:':
     'prefix': '_elementNilWithInvocation:'
-    'body': 'UIAElementNil._elementNilWithInvocation(${1:id arg1})'
+    'body': '_elementNilWithInvocation(${1:id arg1})'
   '_elementNilWithPatienceInvocation:':
     'prefix': '_elementNilWithPatienceInvocation:'
     'body': '_elementNilWithPatienceInvocation(${1:SEL arg1})'
@@ -1081,13 +1081,13 @@
     'body': '_lastAccessedTime()'
   'UIAElementNil._liveCount':
     'prefix': '_liveCount'
-    'body': 'UIAElementNil._liveCount()'
+    'body': '_liveCount()'
   '_logInfoWithChildren':
     'prefix': '_logInfoWithChildren'
     'body': '_logInfoWithChildren()'
   'UIAElementNil._maxCount':
     'prefix': '_maxCount'
-    'body': 'UIAElementNil._maxCount()'
+    'body': '_maxCount()'
   '_objectWithPatienceInvocationFromUIAObject:selector:':
     'prefix': '_objectWithPatienceInvocationFromUIAObject:selector:'
     'body': '_objectWithPatienceInvocationFromUIAObject(${1:id arg1}, selector:${2:SEL arg2})'
@@ -1576,10 +1576,10 @@
     'body': 'withValue(${1:id arg1}, forKey:${2:id arg2})'
   'UIAElementSynonym._setAssociatedStringExpressions:forSynonymString:':
     'prefix': '_setAssociatedStringExpressions:forSynonymString:'
-    'body': 'UIAElementSynonym._setAssociatedStringExpressions(${1:id arg1}, forSynonymString:${2:id arg2})'
+    'body': '_setAssociatedStringExpressions(${1:id arg1}, forSynonymString:${2:id arg2})'
   'UIAElementSynonym.associatedStringExpressionsForSynonymString:':
     'prefix': 'associatedStringExpressionsForSynonymString:'
-    'body': 'UIAElementSynonym.associatedStringExpressionsForSynonymString(${1:id arg1})'
+    'body': 'associatedStringExpressionsForSynonymString(${1:id arg1})'
   'attribute':
     'prefix': 'attribute'
     'body': 'attribute()'
@@ -1597,10 +1597,10 @@
     'body': 'stringForScriptingLanguage(${1:NSInteger arg1}, withOptions:${2:NSUInteger arg2})'
   'UIAElementSynonym.synonymForRelationship:':
     'prefix': 'synonymForRelationship:'
-    'body': 'UIAElementSynonym.synonymForRelationship(${1:id arg1})'
+    'body': 'synonymForRelationship(${1:id arg1})'
   'UIAElementSynonym.synonymForRelationship:attribute:value:':
     'prefix': 'synonymForRelationship:attribute:value:'
-    'body': 'UIAElementSynonym.synonymForRelationship(${1:id arg1}, attribute:${2:id arg2}, value:${3:id arg3})'
+    'body': 'synonymForRelationship(${1:id arg1}, attribute:${2:id arg2}, value:${3:id arg3})'
   'value':
     'prefix': 'value'
     'body': 'value()'
@@ -1675,7 +1675,7 @@
     'body': 'value()'
   'UIANavigationBar._moreToOneRelationshipKeys':
     'prefix': '_moreToOneRelationshipKeys'
-    'body': 'UIANavigationBar._moreToOneRelationshipKeys()'
+    'body': '_moreToOneRelationshipKeys()'
   '_navBarShouldAcceptAXElement:':
     'prefix': '_navBarShouldAcceptAXElement:'
     'body': '_navBarShouldAcceptAXElement(${1:id arg1})'
@@ -1693,7 +1693,7 @@
     'body': 'rightButton()'
   'UIANavigationBar.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIANavigationBar.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   '_flipPages:':
     'prefix': '_flipPages:'
     'body': '_flipPages(${1:NSInteger arg1})'
@@ -1714,10 +1714,10 @@
     'body': 'selectPage(${1:id arg1})'
   'UIAPicker._moreToManyRelationshipKeys':
     'prefix': '_moreToManyRelationshipKeys'
-    'body': 'UIAPicker._moreToManyRelationshipKeys()'
+    'body': '_moreToManyRelationshipKeys()'
   'UIAPicker.toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
-    'body': 'UIAPicker.toManyRelationshipKeys()'
+    'body': 'toManyRelationshipKeys()'
   'wheels':
     'prefix': 'wheels'
     'body': 'wheels()'
@@ -1759,7 +1759,7 @@
     'body': 'dealloc()'
   'UIARecorder.defaultRecorder':
     'prefix': 'defaultRecorder'
-    'body': 'UIARecorder.defaultRecorder()'
+    'body': 'defaultRecorder()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -1876,7 +1876,7 @@
     'body': 'uiaTarget()'
   'UIARecorderAction._elementCanScroll:':
     'prefix': '_elementCanScroll:'
-    'body': 'UIARecorderAction._elementCanScroll(${1:id arg1})'
+    'body': '_elementCanScroll(${1:id arg1})'
   '_initWithAXEventRepresentation:':
     'prefix': '_initWithAXEventRepresentation:'
     'body': '_initWithAXEventRepresentation(${1:id arg1})'
@@ -1885,7 +1885,7 @@
     'body': 'actionType()'
   'UIARecorderAction.actionWithAXEventRepresentation:':
     'prefix': 'actionWithAXEventRepresentation:'
-    'body': 'UIARecorderAction.actionWithAXEventRepresentation(${1:id arg1})'
+    'body': 'actionWithAXEventRepresentation(${1:id arg1})'
   'axElement':
     'prefix': 'axElement'
     'body': 'axElement()'
@@ -1909,7 +1909,7 @@
     'body': 'expression()'
   'UIARecorderAction.expressionForElement:':
     'prefix': 'expressionForElement:'
-    'body': 'UIARecorderAction.expressionForElement(${1:id arg1})'
+    'body': 'expressionForElement(${1:id arg1})'
   'keyName':
     'prefix': 'keyName'
     'body': 'KeyName()'
@@ -2017,7 +2017,7 @@
     'body': 'init()'
   'UIARemote.sharedRemote':
     'prefix': 'sharedRemote'
-    'body': 'UIARemote.sharedRemote()'
+    'body': 'sharedRemote()'
   '_initWithUIScreen:parent:':
     'prefix': '_initWithUIScreen:parent:'
     'body': '_initWithUIScreen(${1:id arg1}, parent:${2:id arg2})'
@@ -2032,7 +2032,7 @@
     'body': 'applicationFrame()'
   'UIAScreen.attributeKeys':
     'prefix': 'attributeKeys'
-    'body': 'UIAScreen.attributeKeys()'
+    'body': 'attributeKeys()'
   'bounds':
     'prefix': 'bounds'
     'body': 'bounds()'
@@ -2122,7 +2122,7 @@
     'body': 'holdVolumeUp(${1:double arg1})'
   'UIASyntheticEvents.initialize':
     'prefix': 'initialize'
-    'body': 'UIASyntheticEvents.initialize()'
+    'body': 'initialize()'
   'ioSystemClient':
     'prefix': 'ioSystemClient'
     'body': 'ioSystemClient()'
@@ -2197,7 +2197,7 @@
     'body': 'shake()'
   'UIASyntheticEvents.sharedEventGenerator':
     'prefix': 'sharedEventGenerator'
-    'body': 'UIASyntheticEvents.sharedEventGenerator()'
+    'body': 'sharedEventGenerator()'
   'touchDown:':
     'prefix': 'touchDown:'
     'body': 'touchDown(${1:CGPoint arg1})'
@@ -2212,7 +2212,7 @@
     'body': 'selectedButton()'
   'UIATableCell._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIATableCell._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -2224,19 +2224,19 @@
     'body': 'value()'
   'UIATableGroup._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIATableGroup._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   'name':
     'prefix': 'name'
     'body': 'name()'
   'UIATableView._classForSimpleUIAXElement:':
     'prefix': '_classForSimpleUIAXElement:'
-    'body': 'UIATableView._classForSimpleUIAXElement(${1:id arg1})'
+    'body': '_classForSimpleUIAXElement(${1:id arg1})'
   '_emptyCaches':
     'prefix': '_emptyCaches'
     'body': '_emptyCaches()'
   'UIATableView._moreToManyRelationshipKeys':
     'prefix': '_moreToManyRelationshipKeys'
-    'body': 'UIATableView._moreToManyRelationshipKeys()'
+    'body': '_moreToManyRelationshipKeys()'
   'cellCount':
     'prefix': 'cellCount'
     'body': 'cellCount()'
@@ -2254,7 +2254,7 @@
     'body': 'lastVisibleCellIndex()'
   'UIATableView.toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
-    'body': 'UIATableView.toManyRelationshipKeys()'
+    'body': 'toManyRelationshipKeys()'
   'value':
     'prefix': 'value'
     'body': 'value()'
@@ -2290,7 +2290,7 @@
     'body': '_lastAnimationEndedTime()'
   'UIATarget._locationForObject:withOptions:':
     'prefix': '_locationForObject:withOptions:'
-    'body': 'UIATarget._locationForObject(${1:id arg1}, withOptions:${2:id arg2})'
+    'body': '_locationForObject(${1:id arg1}, withOptions:${2:id arg2})'
   '_lockScreenScrollView':
     'prefix': '_lockScreenScrollView'
     'body': '_lockScreenScrollView()'
@@ -2332,7 +2332,7 @@
     'body': 'applications()'
   'UIATarget.attributeKeys':
     'prefix': 'attributeKeys'
-    'body': 'UIATarget.attributeKeys()'
+    'body': 'attributeKeys()'
   'captureRect:withName:':
     'prefix': 'captureRect:withName:'
     'body': 'captureRect(${1:id arg1}, withName:${2:id arg2})'
@@ -2437,7 +2437,7 @@
     'body': 'lastCommandTime()'
   'UIATarget.localTarget':
     'prefix': 'localTarget'
-    'body': 'UIATarget.localTarget()'
+    'body': 'localTarget()'
   'localeID':
     'prefix': 'localeID'
     'body': 'localeID()'
@@ -2578,10 +2578,10 @@
     'body': 'textViewValueMaxLength()'
   'UIATarget.toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
-    'body': 'UIATarget.toManyRelationshipKeys()'
+    'body': 'toManyRelationshipKeys()'
   'UIATarget.toOneRelationshipKeys':
     'prefix': 'toOneRelationshipKeys'
-    'body': 'UIATarget.toOneRelationshipKeys()'
+    'body': 'toOneRelationshipKeys()'
   'touch:':
     'prefix': 'touch:'
     'body': 'touch(${1:id arg1})'
@@ -2641,13 +2641,13 @@
     'body': 'elements()'
   'UIAXElement._attributeForString:':
     'prefix': '_attributeForString:'
-    'body': 'UIAXElement._attributeForString(${1:id arg1})'
+    'body': '_attributeForString(${1:id arg1})'
   'UIAXElement._convertHostedCoordinates:forContextID:':
     'prefix': '_convertHostedCoordinates:forContextID:'
-    'body': 'UIAXElement._convertHostedCoordinates(${1:CGPoint arg1}, forContextID:${2:id arg2})'
+    'body': '_convertHostedCoordinates(${1:CGPoint arg1}, forContextID:${2:id arg2})'
   'UIAXElement._convertHostedViewFrame:forContextID:':
     'prefix': '_convertHostedViewFrame:forContextID:'
-    'body': 'UIAXElement._convertHostedViewFrame(${1:CGRect arg1}, forContextID:${2:id arg2})'
+    'body': '_convertHostedViewFrame(${1:CGRect arg1}, forContextID:${2:id arg2})'
   '_copyTraitsNumber':
     'prefix': '_copyTraitsNumber'
     'body': '_copyTraitsNumber()'
@@ -2671,34 +2671,34 @@
     'body': '_lastAccessedTime()'
   'UIAXElement._objectForCFTypeRef:':
     'prefix': '_objectForCFTypeRef:'
-    'body': 'UIAXElement._objectForCFTypeRef(${1:void* arg1})'
+    'body': '_objectForCFTypeRef(${1:void* arg1})'
   'UIAXElement._parameterizedAttributeForString:':
     'prefix': '_parameterizedAttributeForString:'
-    'body': 'UIAXElement._parameterizedAttributeForString(${1:id arg1})'
+    'body': '_parameterizedAttributeForString(${1:id arg1})'
   'UIAXElement._parameterizedAttributeNumbers':
     'prefix': '_parameterizedAttributeNumbers'
-    'body': 'UIAXElement._parameterizedAttributeNumbers()'
+    'body': '_parameterizedAttributeNumbers()'
   'UIAXElement._parameterizedAttributeStrings':
     'prefix': '_parameterizedAttributeStrings'
-    'body': 'UIAXElement._parameterizedAttributeStrings()'
+    'body': '_parameterizedAttributeStrings()'
   'UIAXElement._parameterizedAttributesForStringsDictionary':
     'prefix': '_parameterizedAttributesForStringsDictionary'
-    'body': 'UIAXElement._parameterizedAttributesForStringsDictionary()'
+    'body': '_parameterizedAttributesForStringsDictionary()'
   'UIAXElement._raiseAXErrorAPIDisabled':
     'prefix': '_raiseAXErrorAPIDisabled'
-    'body': 'UIAXElement._raiseAXErrorAPIDisabled()'
+    'body': '_raiseAXErrorAPIDisabled()'
   'UIAXElement._raiseIfAXErrorAPIDisabled:':
     'prefix': '_raiseIfAXErrorAPIDisabled:'
-    'body': 'UIAXElement._raiseIfAXErrorAPIDisabled(${1:long arg1})'
+    'body': '_raiseIfAXErrorAPIDisabled(${1:long arg1})'
   'UIAXElement._regularAttributeNumbers':
     'prefix': '_regularAttributeNumbers'
-    'body': 'UIAXElement._regularAttributeNumbers()'
+    'body': '_regularAttributeNumbers()'
   'UIAXElement._regularAttributeStrings':
     'prefix': '_regularAttributeStrings'
-    'body': 'UIAXElement._regularAttributeStrings()'
+    'body': '_regularAttributeStrings()'
   'UIAXElement._regularAttributesForStringsDictionary':
     'prefix': '_regularAttributesForStringsDictionary'
-    'body': 'UIAXElement._regularAttributesForStringsDictionary()'
+    'body': '_regularAttributesForStringsDictionary()'
   '_setLastAccessedTime:':
     'prefix': '_setLastAccessedTime:'
     'body': '_setLastAccessedTime(${1:double arg1})'
@@ -2707,25 +2707,25 @@
     'body': '_setValidForAXError(${1:long arg1})'
   'UIAXElement._stringForAttribute:':
     'prefix': '_stringForAttribute:'
-    'body': 'UIAXElement._stringForAttribute(${1:NSInteger arg1})'
+    'body': '_stringForAttribute(${1:NSInteger arg1})'
   'UIAXElement._stringForParameterizedAttribute:':
     'prefix': '_stringForParameterizedAttribute:'
-    'body': 'UIAXElement._stringForParameterizedAttribute(${1:NSInteger arg1})'
+    'body': '_stringForParameterizedAttribute(${1:NSInteger arg1})'
   'UIAXElement._stringsForParameterizedAttributesDictionary':
     'prefix': '_stringsForParameterizedAttributesDictionary'
-    'body': 'UIAXElement._stringsForParameterizedAttributesDictionary()'
+    'body': '_stringsForParameterizedAttributesDictionary()'
   'UIAXElement._stringsForRegularAttributesDictionary':
     'prefix': '_stringsForRegularAttributesDictionary'
-    'body': 'UIAXElement._stringsForRegularAttributesDictionary()'
+    'body': '_stringsForRegularAttributesDictionary()'
   'UIAXElement._stringsForTraitsDictionary':
     'prefix': '_stringsForTraitsDictionary'
-    'body': 'UIAXElement._stringsForTraitsDictionary()'
+    'body': '_stringsForTraitsDictionary()'
   'UIAXElement._traitNumbers':
     'prefix': '_traitNumbers'
-    'body': 'UIAXElement._traitNumbers()'
+    'body': '_traitNumbers()'
   'UIAXElement._traitStrings':
     'prefix': '_traitStrings'
-    'body': 'UIAXElement._traitStrings()'
+    'body': '_traitStrings()'
   'ancestry':
     'prefix': 'ancestry'
     'body': 'ancestry()'
@@ -2776,10 +2776,10 @@
     'body': 'hitpoint()'
   'UIAXElement.initialize':
     'prefix': 'initialize'
-    'body': 'UIAXElement.initialize()'
+    'body': 'initialize()'
   'UIAXElement.initializeAccessibility':
     'prefix': 'initializeAccessibility'
-    'body': 'UIAXElement.initializeAccessibility()'
+    'body': 'initializeAccessibility()'
   'isEqual:':
     'prefix': 'isEqual:'
     'body': 'isEqual(${1:id arg1})'
@@ -2812,10 +2812,10 @@
     'body': 'rect()'
   'UIAXElement.registerObserver:forAXNotification:':
     'prefix': 'registerObserver:forAXNotification:'
-    'body': 'UIAXElement.registerObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
+    'body': 'registerObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
   'UIAXElement.registerObserver:forAXNotifications:':
     'prefix': 'registerObserver:forAXNotifications:'
-    'body': 'UIAXElement.registerObserver(${1:struct __AXObserver* arg1}, forAXNotifications:${2:BOOL arg2})'
+    'body': 'registerObserver(${1:struct __AXObserver* arg1}, forAXNotifications:${2:BOOL arg2})'
   'responder':
     'prefix': 'responder'
     'body': 'responder()'
@@ -2824,10 +2824,10 @@
     'body': 'setValue(${1:id arg1}, forAttribute:${2:NSInteger arg2})'
   'UIAXElement.stringForAXError:':
     'prefix': 'stringForAXError:'
-    'body': 'UIAXElement.stringForAXError(${1:long arg1})'
+    'body': 'stringForAXError(${1:long arg1})'
   'UIAXElement.stringForAXNotification:':
     'prefix': 'stringForAXNotification:'
-    'body': 'UIAXElement.stringForAXNotification(${1:NSInteger arg1})'
+    'body': 'stringForAXNotification(${1:NSInteger arg1})'
   'stringForAllKnownAttributes':
     'prefix': 'stringForAllKnownAttributes'
     'body': 'stringForAllKnownAttributes()'
@@ -2836,7 +2836,7 @@
     'body': 'stringForAttributes(${1:id arg1})'
   'UIAXElement.stringForTraits:':
     'prefix': 'stringForTraits:'
-    'body': 'UIAXElement.stringForTraits(${1:unsigned long long arg1})'
+    'body': 'stringForTraits(${1:unsigned long long arg1})'
   'traits':
     'prefix': 'traits'
     'body': 'traits()'
@@ -2845,28 +2845,28 @@
     'body': 'traitsNumber()'
   'UIAXElement.uiaxApplicationAtPosition:':
     'prefix': 'uiaxApplicationAtPosition:'
-    'body': 'UIAXElement.uiaxApplicationAtPosition(${1:CGPoint arg1})'
+    'body': 'uiaxApplicationAtPosition(${1:CGPoint arg1})'
   'uiaxElementAtCenterPoint':
     'prefix': 'uiaxElementAtCenterPoint'
     'body': 'uiaxElementAtCenterPoint()'
   'UIAXElement.uiaxElementAtPosition:':
     'prefix': 'uiaxElementAtPosition:'
-    'body': 'UIAXElement.uiaxElementAtPosition(${1:CGPoint arg1})'
+    'body': 'uiaxElementAtPosition(${1:CGPoint arg1})'
   'UIAXElement.uiaxElementWithAXUIElementRef:':
     'prefix': 'uiaxElementWithAXUIElementRef:'
-    'body': 'UIAXElement.uiaxElementWithAXUIElementRef(${1:struct __AXUIElement* arg1})'
+    'body': 'uiaxElementWithAXUIElementRef(${1:struct __AXUIElement* arg1})'
   'UIAXElement.uiaxFocusedApplicationElement':
     'prefix': 'uiaxFocusedApplicationElement'
-    'body': 'UIAXElement.uiaxFocusedApplicationElement()'
+    'body': 'uiaxFocusedApplicationElement()'
   'UIAXElement.uiaxSpringBoardElement':
     'prefix': 'uiaxSpringBoardElement'
-    'body': 'UIAXElement.uiaxSpringBoardElement()'
+    'body': 'uiaxSpringBoardElement()'
   'UIAXElement.uiaxSystemWideElement':
     'prefix': 'uiaxSystemWideElement'
-    'body': 'UIAXElement.uiaxSystemWideElement()'
+    'body': 'uiaxSystemWideElement()'
   'UIAXElement.unregisterObserver:forAXNotification:':
     'prefix': 'unregisterObserver:forAXNotification:'
-    'body': 'UIAXElement.unregisterObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
+    'body': 'unregisterObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
   'valueForAttribute:':
     'prefix': 'valueForAttribute:'
     'body': 'valueForAttribute(${1:NSInteger arg1})'
@@ -2944,10 +2944,10 @@
     'body': 'rect()'
   'UIAXElement.registerObserver:forAXNotification:':
     'prefix': 'registerObserver:forAXNotification:'
-    'body': 'UIAXElement.registerObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
+    'body': 'registerObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
   'UIAXElement.registerObserver:forAXNotifications:':
     'prefix': 'registerObserver:forAXNotifications:'
-    'body': 'UIAXElement.registerObserver(${1:struct __AXObserver* arg1}, forAXNotifications:${2:BOOL arg2})'
+    'body': 'registerObserver(${1:struct __AXObserver* arg1}, forAXNotifications:${2:BOOL arg2})'
   'responder':
     'prefix': 'responder'
     'body': 'responder()'
@@ -2956,10 +2956,10 @@
     'body': 'setValue(${1:id arg1}, forAttribute:${2:NSInteger arg2})'
   'UIAXElement.stringForAXError:':
     'prefix': 'stringForAXError:'
-    'body': 'UIAXElement.stringForAXError(${1:long arg1})'
+    'body': 'stringForAXError(${1:long arg1})'
   'UIAXElement.stringForAXNotification:':
     'prefix': 'stringForAXNotification:'
-    'body': 'UIAXElement.stringForAXNotification(${1:NSInteger arg1})'
+    'body': 'stringForAXNotification(${1:NSInteger arg1})'
   'stringForAllKnownAttributes':
     'prefix': 'stringForAllKnownAttributes'
     'body': 'stringForAllKnownAttributes()'
@@ -2968,7 +2968,7 @@
     'body': 'stringForAttributes(${1:NSArray* arg1})'
   'UIAXElement.stringForTraits:':
     'prefix': 'stringForTraits:'
-    'body': 'UIAXElement.stringForTraits(${1:unsigned long long arg1})'
+    'body': 'stringForTraits(${1:unsigned long long arg1})'
   'traits':
     'prefix': 'traits'
     'body': 'traits()'
@@ -2977,25 +2977,25 @@
     'body': 'traitsNumber()'
   'UIAXElement.uiaxApplicationAtPosition:':
     'prefix': 'uiaxApplicationAtPosition:'
-    'body': 'UIAXElement.uiaxApplicationAtPosition(${1:CGPoint arg1})'
+    'body': 'uiaxApplicationAtPosition(${1:CGPoint arg1})'
   'UIAXElement.uiaxElementAtPosition:':
     'prefix': 'uiaxElementAtPosition:'
-    'body': 'UIAXElement.uiaxElementAtPosition(${1:CGPoint arg1})'
+    'body': 'uiaxElementAtPosition(${1:CGPoint arg1})'
   'UIAXElement.uiaxElementWithAXUIElementRef:':
     'prefix': 'uiaxElementWithAXUIElementRef:'
-    'body': 'UIAXElement.uiaxElementWithAXUIElementRef(${1:struct __AXUIElement* arg1})'
+    'body': 'uiaxElementWithAXUIElementRef(${1:struct __AXUIElement* arg1})'
   'UIAXElement.uiaxFocusedApplicationElement':
     'prefix': 'uiaxFocusedApplicationElement'
-    'body': 'UIAXElement.uiaxFocusedApplicationElement()'
+    'body': 'uiaxFocusedApplicationElement()'
   'UIAXElement.uiaxSpringBoardElement':
     'prefix': 'uiaxSpringBoardElement'
-    'body': 'UIAXElement.uiaxSpringBoardElement()'
+    'body': 'uiaxSpringBoardElement()'
   'UIAXElement.uiaxSystemWideElement':
     'prefix': 'uiaxSystemWideElement'
-    'body': 'UIAXElement.uiaxSystemWideElement()'
+    'body': 'uiaxSystemWideElement()'
   'UIAXElement.unregisterObserver:forAXNotification:':
     'prefix': 'unregisterObserver:forAXNotification:'
-    'body': 'UIAXElement.unregisterObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
+    'body': 'unregisterObserver(${1:struct __AXObserver* arg1}, forAXNotification:${2:NSInteger arg2})'
   'valueForAttribute:':
     'prefix': 'valueForAttribute:'
     'body': 'valueForAttribute(${1:NSInteger arg1})'

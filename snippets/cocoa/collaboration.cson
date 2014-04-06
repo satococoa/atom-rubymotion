@@ -1,7 +1,7 @@
 '.source.rubymotion':
   'CBGroupIdentity.groupIdentityWithPosixGID:authority:':
     'prefix': 'groupIdentityWithPosixGID:authority:'
-    'body': 'CBGroupIdentity.groupIdentityWithPosixGID(${1:gid_t gid}, authority:${2:CBIdentityAuthority* authority})'
+    'body': 'groupIdentityWithPosixGID(${1:gid_t gid}, authority:${2:CBIdentityAuthority* authority})'
   'members':
     'prefix': 'members'
     'body': 'members()'
@@ -28,16 +28,16 @@
     'body': 'fullName()'
   'CBIdentity.identityWithCSIdentity:':
     'prefix': 'identityWithCSIdentity:'
-    'body': 'CBIdentity.identityWithCSIdentity(${1:CSIdentityRef csIdentity})'
+    'body': 'identityWithCSIdentity(${1:CSIdentityRef csIdentity})'
   'CBIdentity.identityWithName:authority:':
     'prefix': 'identityWithName:authority:'
-    'body': 'CBIdentity.identityWithName(${1:NSString* name}, authority:${2:CBIdentityAuthority* authority})'
+    'body': 'identityWithName(${1:NSString* name}, authority:${2:CBIdentityAuthority* authority})'
   'CBIdentity.identityWithPersistentReference:':
     'prefix': 'identityWithPersistentReference:'
-    'body': 'CBIdentity.identityWithPersistentReference(${1:NSData* data})'
+    'body': 'identityWithPersistentReference(${1:NSData* data})'
   'CBIdentity.identityWithUUIDString:authority:':
     'prefix': 'identityWithUUIDString:authority:'
-    'body': 'CBIdentity.identityWithUUIDString(${1:NSString* uuid}, authority:${2:CBIdentityAuthority* authority})'
+    'body': 'identityWithUUIDString(${1:NSString* uuid}, authority:${2:CBIdentityAuthority* authority})'
   'image':
     'prefix': 'image'
     'body': 'image()'
@@ -58,19 +58,19 @@
     'body': 'CSIdentityAuthority()'
   'CBIdentityAuthority.defaultIdentityAuthority':
     'prefix': 'defaultIdentityAuthority'
-    'body': 'CBIdentityAuthority.defaultIdentityAuthority()'
+    'body': 'defaultIdentityAuthority()'
   'CBIdentityAuthority.identityAuthorityWithCSIdentityAuthority:':
     'prefix': 'identityAuthorityWithCSIdentityAuthority:'
-    'body': 'CBIdentityAuthority.identityAuthorityWithCSIdentityAuthority(${1:CSIdentityAuthorityRef CSIdentityAuthority})'
+    'body': 'identityAuthorityWithCSIdentityAuthority(${1:CSIdentityAuthorityRef CSIdentityAuthority})'
   'CBIdentityAuthority.localIdentityAuthority':
     'prefix': 'localIdentityAuthority'
-    'body': 'CBIdentityAuthority.localIdentityAuthority()'
+    'body': 'localIdentityAuthority()'
   'localizedName':
     'prefix': 'localizedName'
     'body': 'localizedName()'
   'CBIdentityAuthority.managedIdentityAuthority':
     'prefix': 'managedIdentityAuthority'
-    'body': 'CBIdentityAuthority.managedIdentityAuthority()'
+    'body': 'managedIdentityAuthority()'
   'allowsMultipleSelection':
     'prefix': 'allowsMultipleSelection'
     'body': 'allowsMultipleSelection()'
@@ -106,4 +106,4 @@
     'body': 'posixUID()'
   'CBUserIdentity.userIdentityWithPosixUID:authority:':
     'prefix': 'userIdentityWithPosixUID:authority:'
-    'body': 'CBUserIdentity.userIdentityWithPosixUID(${1:uid_t uid}, authority:${2:CBIdentityAuthority* authority})'
+    'body': 'userIdentityWithPosixUID(${1:uid_t uid}, authority:${2:CBIdentityAuthority* authority})'

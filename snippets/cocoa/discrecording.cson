@@ -2650,7 +2650,7 @@
     'body': 'appendable()'
   'DRBurn.burnForDevice:':
     'prefix': 'burnForDevice:'
-    'body': 'DRBurn.burnForDevice(${1:DRDevice* device})'
+    'body': 'burnForDevice(${1:DRDevice* device})'
   'completionAction':
     'prefix': 'completionAction'
     'body': 'completionAction()'
@@ -2662,7 +2662,7 @@
     'body': 'initWithDevice(${1:DRDevice* device})'
   'DRBurn.layoutForImageFile:':
     'prefix': 'layoutForImageFile:'
-    'body': 'DRBurn.layoutForImageFile(${1:NSString* path})'
+    'body': 'layoutForImageFile(${1:NSString* path})'
   'properties':
     'prefix': 'properties'
     'body': 'properties()'
@@ -2695,10 +2695,10 @@
     'body': 'writeLayout(${1:id layout})'
   'DRCDTextBlock.arrayOfCDTextBlocksFromPacks:':
     'prefix': 'arrayOfCDTextBlocksFromPacks:'
-    'body': 'DRCDTextBlock.arrayOfCDTextBlocksFromPacks(${1:NSData* packs})'
+    'body': 'arrayOfCDTextBlocksFromPacks(${1:NSData* packs})'
   'DRCDTextBlock.cdTextBlockWithLanguage:encoding:':
     'prefix': 'cdTextBlockWithLanguage:encoding:'
-    'body': 'DRCDTextBlock.cdTextBlockWithLanguage(${1:NSString* lang}, encoding:${2:NSStringEncoding enc})'
+    'body': 'cdTextBlockWithLanguage(${1:NSString* lang}, encoding:${2:NSStringEncoding enc})'
   'encoding':
     'prefix': 'encoding'
     'body': 'encoding()'
@@ -2743,13 +2743,13 @@
     'body': 'closeTray()'
   'DRDevice.deviceForBSDName:':
     'prefix': 'deviceForBSDName:'
-    'body': 'DRDevice.deviceForBSDName(${1:NSString* bsdName})'
+    'body': 'deviceForBSDName(${1:NSString* bsdName})'
   'DRDevice.deviceForIORegistryEntryPath:':
     'prefix': 'deviceForIORegistryEntryPath:'
-    'body': 'DRDevice.deviceForIORegistryEntryPath(${1:NSString* path})'
+    'body': 'deviceForIORegistryEntryPath(${1:NSString* path})'
   'DRDevice.devices':
     'prefix': 'devices'
-    'body': 'DRDevice.devices()'
+    'body': 'devices()'
   'displayName':
     'prefix': 'displayName'
     'body': 'displayName()'
@@ -2830,7 +2830,7 @@
     'body': 'device()'
   'DRErase.eraseForDevice:':
     'prefix': 'eraseForDevice:'
-    'body': 'DRErase.eraseForDevice(${1:DRDevice* device})'
+    'body': 'eraseForDevice(${1:DRDevice* device})'
   'eraseType':
     'prefix': 'eraseType'
     'body': 'eraseType()'
@@ -2908,13 +2908,13 @@
     'body': 'specificNames()'
   'DRFile.fileWithPath:':
     'prefix': 'fileWithPath:'
-    'body': 'DRFile.fileWithPath(${1:NSString* path})'
+    'body': 'fileWithPath(${1:NSString* path})'
   'DRFile.finderAliasPointingTo:inFilesystem:':
     'prefix': 'finderAliasPointingTo:inFilesystem:'
-    'body': 'DRFile.finderAliasPointingTo(${1:DRFSObject* original}, inFilesystem:${2:NSString* filesystem})'
+    'body': 'finderAliasPointingTo(${1:DRFSObject* original}, inFilesystem:${2:NSString* filesystem})'
   'DRFile.hardLinkPointingTo:inFilesystem:':
     'prefix': 'hardLinkPointingTo:inFilesystem:'
-    'body': 'DRFile.hardLinkPointingTo(${1:DRFile* original}, inFilesystem:${2:NSString* filesystem})'
+    'body': 'hardLinkPointingTo(${1:DRFile* original}, inFilesystem:${2:NSString* filesystem})'
   'initWithLinkType:pointingTo:inFilesystem:':
     'prefix': 'initWithLinkType:pointingTo:inFilesystem:'
     'body': 'initWithLinkType(${1:NSString* linkType}, pointingTo:${2:DRFSObject* original}, inFilesystem:${3:NSString* filesystem})'
@@ -2929,13 +2929,13 @@
     'body': 'initWithPath(${1:NSString* path})'
   'DRFile.symLinkPointingTo:inFilesystem:':
     'prefix': 'symLinkPointingTo:inFilesystem:'
-    'body': 'DRFile.symLinkPointingTo(${1:DRFSObject* original}, inFilesystem:${2:NSString* filesystem})'
+    'body': 'symLinkPointingTo(${1:DRFSObject* original}, inFilesystem:${2:NSString* filesystem})'
   'DRFile.virtualFileWithName:data:':
     'prefix': 'virtualFileWithName:data:'
-    'body': 'DRFile.virtualFileWithName(${1:NSString* name}, data:${2:NSData* data})'
+    'body': 'virtualFileWithName(${1:NSString* name}, data:${2:NSData* data})'
   'DRFile.virtualFileWithName:dataProducer:':
     'prefix': 'virtualFileWithName:dataProducer:'
-    'body': 'DRFile.virtualFileWithName(${1:NSString* name}, dataProducer:${2:id producer})'
+    'body': 'virtualFileWithName(${1:NSString* name}, dataProducer:${2:id producer})'
   'addChild:':
     'prefix': 'addChild:'
     'body': 'addChild(${1:DRFSObject* child})'
@@ -2947,7 +2947,7 @@
     'body': 'count()'
   'DRFolder.folderWithPath:':
     'prefix': 'folderWithPath:'
-    'body': 'DRFolder.folderWithPath(${1:NSString* path})'
+    'body': 'folderWithPath(${1:NSString* path})'
   'initWithName:':
     'prefix': 'initWithName:'
     'body': 'initWithName(${1:NSString* name})'
@@ -2962,7 +2962,7 @@
     'body': 'removeChild(${1:DRFSObject* child})'
   'DRFolder.virtualFolderWithName:':
     'prefix': 'virtualFolderWithName:'
-    'body': 'DRFolder.virtualFolderWithName(${1:NSString* name})'
+    'body': 'virtualFolderWithName(${1:NSString* name})'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -2986,7 +2986,7 @@
     'body': 'minutes()'
   'DRMSF.msf':
     'prefix': 'msf'
-    'body': 'DRMSF.msf()'
+    'body': 'msf()'
   'msfByAdding:':
     'prefix': 'msfByAdding:'
     'body': 'msfByAdding(${1:DRMSF* msf})'
@@ -2995,10 +2995,10 @@
     'body': 'msfBySubtracting(${1:DRMSF* msf})'
   'DRMSF.msfWithFrames:':
     'prefix': 'msfWithFrames:'
-    'body': 'DRMSF.msfWithFrames(${1:UInt32 frames})'
+    'body': 'msfWithFrames(${1:UInt32 frames})'
   'DRMSF.msfWithString:':
     'prefix': 'msfWithString:'
-    'body': 'DRMSF.msfWithString(${1:NSString* string})'
+    'body': 'msfWithString(${1:NSString* string})'
   'seconds':
     'prefix': 'seconds'
     'body': 'seconds()'
@@ -3019,7 +3019,7 @@
     'body': 'addObserver(${1:id observer}, selector:${2:SEL aSelector}, name:${3:NSString* notificationName}, object:${4:id anObject})'
   'DRNotificationCenter.currentRunLoopCenter':
     'prefix': 'currentRunLoopCenter'
-    'body': 'DRNotificationCenter.currentRunLoopCenter()'
+    'body': 'currentRunLoopCenter()'
   'removeObserver:name:object:':
     'prefix': 'removeObserver:name:object:'
     'body': 'removeObserver(${1:id observer}, name:${2:NSString* aName}, object:${3:id anObject})'
@@ -3052,13 +3052,13 @@
     'body': 'testProductionSpeedForLength(${1:uint32_t length})'
   'DRTrack.trackForAudioFile:':
     'prefix': 'trackForAudioFile:'
-    'body': 'DRTrack.trackForAudioFile(${1:NSString* path})'
+    'body': 'trackForAudioFile(${1:NSString* path})'
   'DRTrack.trackForAudioOfLength:producer:':
     'prefix': 'trackForAudioOfLength:producer:'
-    'body': 'DRTrack.trackForAudioOfLength(${1:DRMSF* length}, producer:${2:id producer})'
+    'body': 'trackForAudioOfLength(${1:DRMSF* length}, producer:${2:id producer})'
   'DRTrack.trackForRootFolder:':
     'prefix': 'trackForRootFolder:'
-    'body': 'DRTrack.trackForRootFolder(${1:DRFolder* rootFolder})'
+    'body': 'trackForRootFolder(${1:DRFolder* rootFolder})'
   'calculateSizeOfFile:fork:estimating:':
     'prefix': 'calculateSizeOfFile:fork:estimating:'
     'body': 'calculateSizeOfFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, estimating:${3:BOOL estimate})'

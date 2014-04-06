@@ -7348,7 +7348,7 @@
     'body': 'setUsesFontLeading(${1:BOOL flag})'
   'NSATSTypesetter.sharedTypesetter':
     'prefix': 'sharedTypesetter'
-    'body': 'NSATSTypesetter.sharedTypesetter()'
+    'body': 'sharedTypesetter()'
   'shouldBreakLineByHyphenatingBeforeCharacterAtIndex:':
     'prefix': 'shouldBreakLineByHyphenatingBeforeCharacterAtIndex:'
     'body': 'shouldBreakLineByHyphenatingBeforeCharacterAtIndex(${1:NSUInteger charIndex})'
@@ -7411,10 +7411,10 @@
     'body': 'alertStyle()'
   'NSAlert.alertWithError:':
     'prefix': 'alertWithError:'
-    'body': 'NSAlert.alertWithError(${1:NSError* error})'
+    'body': 'alertWithError(${1:NSError* error})'
   'NSAlert.alertWithMessageText:defaultButton:alternateButton:otherButton:informativeTextWithFormat:':
     'prefix': 'alertWithMessageText:defaultButton:alternateButton:otherButton:informativeTextWithFormat:'
-    'body': 'NSAlert.alertWithMessageText(${1:NSString* message}, defaultButton:${2:NSString* defaultButton}, alternateButton:${3:NSString* alternateButton}, otherButton:${4:NSString* otherButton}, informativeTextWithFormat:${5:NSString* format})'
+    'body': 'alertWithMessageText(${1:NSString* message}, defaultButton:${2:NSString* defaultButton}, alternateButton:${3:NSString* alternateButton}, otherButton:${4:NSString* otherButton}, informativeTextWithFormat:${5:NSString* format})'
   'beginSheetModalForWindow:completionHandler:':
     'prefix': 'beginSheetModalForWindow:completionHandler:'
     'body': 'beginSheetModalForWindow(${1:NSWindow* sheetWindow}, completionHandler:${2:void (^)(NSModalResponse) handler})'
@@ -7567,22 +7567,22 @@
     'body': 'allowsImplicitAnimation()'
   'NSAnimationContext.beginGrouping':
     'prefix': 'beginGrouping'
-    'body': 'NSAnimationContext.beginGrouping()'
+    'body': 'beginGrouping()'
   'completionHandler':
     'prefix': 'completionHandler'
     'body': 'completionHandler()'
   'NSAnimationContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'NSAnimationContext.currentContext()'
+    'body': 'currentContext()'
   'duration':
     'prefix': 'duration'
     'body': 'duration()'
   'NSAnimationContext.endGrouping':
     'prefix': 'endGrouping'
-    'body': 'NSAnimationContext.endGrouping()'
+    'body': 'endGrouping()'
   'NSAnimationContext.runAnimationGroup:completionHandler:':
     'prefix': 'runAnimationGroup:completionHandler:'
-    'body': 'NSAnimationContext.runAnimationGroup(${1:void (^)(NSAnimationContext *) changes}, completionHandler:${2:void (^)(void) completionHandler})'
+    'body': 'runAnimationGroup(${1:void (^)(NSAnimationContext *) changes}, completionHandler:${2:void (^)(void) completionHandler})'
   'setAllowsImplicitAnimation:':
     'prefix': 'setAllowsImplicitAnimation:'
     'body': 'setAllowsImplicitAnimation(${1:BOOL allowsImplicitAnimation})'
@@ -7600,16 +7600,16 @@
     'body': 'timingFunction()'
   'NSAppearance.appearanceNamed:':
     'prefix': 'appearanceNamed:'
-    'body': 'NSAppearance.appearanceNamed(${1:NSString* name})'
+    'body': 'appearanceNamed(${1:NSString* name})'
   'NSAppearance.currentAppearance':
     'prefix': 'currentAppearance'
-    'body': 'NSAppearance.currentAppearance()'
+    'body': 'currentAppearance()'
   'initWithAppearanceNamed:bundle:':
     'prefix': 'initWithAppearanceNamed:bundle:'
     'body': 'initWithAppearanceNamed(${1:NSString* name}, bundle:${2:NSBundle* bundle})'
   'NSAppearance.setCurrentAppearance:':
     'prefix': 'setCurrentAppearance:'
-    'body': 'NSAppearance.setCurrentAppearance(${1:NSAppearance* appearance})'
+    'body': 'setCurrentAppearance(${1:NSAppearance* appearance})'
   'richTextSource':
     'prefix': 'richTextSource'
     'body': 'richTextSource()'
@@ -7672,7 +7672,7 @@
     'body': 'delegate()'
   'NSApplication.detachDrawingThread:toTarget:withObject:':
     'prefix': 'detachDrawingThread:toTarget:withObject:'
-    'body': 'NSApplication.detachDrawingThread(${1:SEL selector}, toTarget:${2:id target}, withObject:${3:id argument})'
+    'body': 'detachDrawingThread(${1:SEL selector}, toTarget:${2:id target}, withObject:${3:id argument})'
   'disableRelaunchOnLogin':
     'prefix': 'disableRelaunchOnLogin'
     'body': 'disableRelaunchOnLogin()'
@@ -7864,7 +7864,7 @@
     'body': 'setWindowsNeedUpdate(${1:BOOL needUpdate})'
   'NSApplication.sharedApplication':
     'prefix': 'sharedApplication'
-    'body': 'NSApplication.sharedApplication()'
+    'body': 'sharedApplication()'
   'showHelp:':
     'prefix': 'showHelp:'
     'body': 'showHelp(${1:id sender})'
@@ -8080,7 +8080,7 @@
     'body': 'URLAtIndex(${1:NSUInteger location}, effectiveRange:${2:NSRangePointer effectiveRange})'
   'NSAttributedString.attributedStringWithAttachment:':
     'prefix': 'attributedStringWithAttachment:'
-    'body': 'NSAttributedString.attributedStringWithAttachment(${1:NSTextAttachment* attachment})'
+    'body': 'attributedStringWithAttachment(${1:NSTextAttachment* attachment})'
   'boundingRectWithSize:options:':
     'prefix': 'boundingRectWithSize:options:'
     'body': 'boundingRectWithSize(${1:NSSize size}, options:${2:NSStringDrawingOptions options})'
@@ -8173,22 +8173,22 @@
     'body': 'size()'
   'NSAttributedString.textFileTypes':
     'prefix': 'textFileTypes'
-    'body': 'NSAttributedString.textFileTypes()'
+    'body': 'textFileTypes()'
   'NSAttributedString.textPasteboardTypes':
     'prefix': 'textPasteboardTypes'
-    'body': 'NSAttributedString.textPasteboardTypes()'
+    'body': 'textPasteboardTypes()'
   'NSAttributedString.textTypes':
     'prefix': 'textTypes'
-    'body': 'NSAttributedString.textTypes()'
+    'body': 'textTypes()'
   'NSAttributedString.textUnfilteredFileTypes':
     'prefix': 'textUnfilteredFileTypes'
-    'body': 'NSAttributedString.textUnfilteredFileTypes()'
+    'body': 'textUnfilteredFileTypes()'
   'NSAttributedString.textUnfilteredPasteboardTypes':
     'prefix': 'textUnfilteredPasteboardTypes'
-    'body': 'NSAttributedString.textUnfilteredPasteboardTypes()'
+    'body': 'textUnfilteredPasteboardTypes()'
   'NSAttributedString.textUnfilteredTypes':
     'prefix': 'textUnfilteredTypes'
-    'body': 'NSAttributedString.textUnfilteredTypes()'
+    'body': 'textUnfilteredTypes()'
   'addClip':
     'prefix': 'addClip'
     'body': 'addClip()'
@@ -8227,7 +8227,7 @@
     'body': 'appendBezierPathWithRoundedRect(${1:NSRect rect}, xRadius:${2:CGFloat xRadius}, yRadius:${3:CGFloat yRadius})'
   'NSBezierPath.bezierPath':
     'prefix': 'bezierPath'
-    'body': 'NSBezierPath.bezierPath()'
+    'body': 'bezierPath()'
   'bezierPathByFlatteningPath':
     'prefix': 'bezierPathByFlatteningPath'
     'body': 'bezierPathByFlatteningPath()'
@@ -8236,13 +8236,13 @@
     'body': 'bezierPathByReversingPath()'
   'NSBezierPath.bezierPathWithOvalInRect:':
     'prefix': 'bezierPathWithOvalInRect:'
-    'body': 'NSBezierPath.bezierPathWithOvalInRect(${1:NSRect rect})'
+    'body': 'bezierPathWithOvalInRect(${1:NSRect rect})'
   'NSBezierPath.bezierPathWithRect:':
     'prefix': 'bezierPathWithRect:'
-    'body': 'NSBezierPath.bezierPathWithRect(${1:NSRect rect})'
+    'body': 'bezierPathWithRect(${1:NSRect rect})'
   'NSBezierPath.bezierPathWithRoundedRect:xRadius:yRadius:':
     'prefix': 'bezierPathWithRoundedRect:xRadius:yRadius:'
-    'body': 'NSBezierPath.bezierPathWithRoundedRect(${1:NSRect rect}, xRadius:${2:CGFloat xRadius}, yRadius:${3:CGFloat yRadius})'
+    'body': 'bezierPathWithRoundedRect(${1:NSRect rect}, xRadius:${2:CGFloat xRadius}, yRadius:${3:CGFloat yRadius})'
   'bounds':
     'prefix': 'bounds'
     'body': 'bounds()'
@@ -8251,7 +8251,7 @@
     'body': 'cachesBezierPath()'
   'NSBezierPath.clipRect:':
     'prefix': 'clipRect:'
-    'body': 'NSBezierPath.clipRect(${1:NSRect rect})'
+    'body': 'clipRect(${1:NSRect rect})'
   'closePath':
     'prefix': 'closePath'
     'body': 'closePath()'
@@ -8269,25 +8269,25 @@
     'body': 'curveToPoint(${1:NSPoint endPoint}, controlPoint1:${2:NSPoint controlPoint1}, controlPoint2:${3:NSPoint controlPoint2})'
   'NSBezierPath.defaultFlatness':
     'prefix': 'defaultFlatness'
-    'body': 'NSBezierPath.defaultFlatness()'
+    'body': 'defaultFlatness()'
   'NSBezierPath.defaultLineCapStyle':
     'prefix': 'defaultLineCapStyle'
-    'body': 'NSBezierPath.defaultLineCapStyle()'
+    'body': 'defaultLineCapStyle()'
   'NSBezierPath.defaultLineJoinStyle':
     'prefix': 'defaultLineJoinStyle'
-    'body': 'NSBezierPath.defaultLineJoinStyle()'
+    'body': 'defaultLineJoinStyle()'
   'NSBezierPath.defaultLineWidth':
     'prefix': 'defaultLineWidth'
-    'body': 'NSBezierPath.defaultLineWidth()'
+    'body': 'defaultLineWidth()'
   'NSBezierPath.defaultMiterLimit':
     'prefix': 'defaultMiterLimit'
-    'body': 'NSBezierPath.defaultMiterLimit()'
+    'body': 'defaultMiterLimit()'
   'NSBezierPath.defaultWindingRule':
     'prefix': 'defaultWindingRule'
-    'body': 'NSBezierPath.defaultWindingRule()'
+    'body': 'defaultWindingRule()'
   'NSBezierPath.drawPackedGlyphs:atPoint:':
     'prefix': 'drawPackedGlyphs:atPoint:'
-    'body': 'NSBezierPath.drawPackedGlyphs(${1:char* packedGlyphs}, atPoint:${2:NSPoint point})'
+    'body': 'drawPackedGlyphs(${1:char* packedGlyphs}, atPoint:${2:NSPoint point})'
   'elementAtIndex:':
     'prefix': 'elementAtIndex:'
     'body': 'elementAtIndex(${1:NSInteger index})'
@@ -8302,7 +8302,7 @@
     'body': 'fill()'
   'NSBezierPath.fillRect:':
     'prefix': 'fillRect:'
-    'body': 'NSBezierPath.fillRect(${1:NSRect rect})'
+    'body': 'fillRect(${1:NSRect rect})'
   'flatness':
     'prefix': 'flatness'
     'body': 'flatness()'
@@ -8353,22 +8353,22 @@
     'body': 'setClip()'
   'NSBezierPath.setDefaultFlatness:':
     'prefix': 'setDefaultFlatness:'
-    'body': 'NSBezierPath.setDefaultFlatness(${1:CGFloat flatness})'
+    'body': 'setDefaultFlatness(${1:CGFloat flatness})'
   'NSBezierPath.setDefaultLineCapStyle:':
     'prefix': 'setDefaultLineCapStyle:'
-    'body': 'NSBezierPath.setDefaultLineCapStyle(${1:NSLineCapStyle lineCapStyle})'
+    'body': 'setDefaultLineCapStyle(${1:NSLineCapStyle lineCapStyle})'
   'NSBezierPath.setDefaultLineJoinStyle:':
     'prefix': 'setDefaultLineJoinStyle:'
-    'body': 'NSBezierPath.setDefaultLineJoinStyle(${1:NSLineJoinStyle lineJoinStyle})'
+    'body': 'setDefaultLineJoinStyle(${1:NSLineJoinStyle lineJoinStyle})'
   'NSBezierPath.setDefaultLineWidth:':
     'prefix': 'setDefaultLineWidth:'
-    'body': 'NSBezierPath.setDefaultLineWidth(${1:CGFloat lineWidth})'
+    'body': 'setDefaultLineWidth(${1:CGFloat lineWidth})'
   'NSBezierPath.setDefaultMiterLimit:':
     'prefix': 'setDefaultMiterLimit:'
-    'body': 'NSBezierPath.setDefaultMiterLimit(${1:CGFloat limit})'
+    'body': 'setDefaultMiterLimit(${1:CGFloat limit})'
   'NSBezierPath.setDefaultWindingRule:':
     'prefix': 'setDefaultWindingRule:'
-    'body': 'NSBezierPath.setDefaultWindingRule(${1:NSWindingRule windingRule})'
+    'body': 'setDefaultWindingRule(${1:NSWindingRule windingRule})'
   'setFlatness:':
     'prefix': 'setFlatness:'
     'body': 'setFlatness(${1:CGFloat flatness})'
@@ -8395,10 +8395,10 @@
     'body': 'stroke()'
   'NSBezierPath.strokeLineFromPoint:toPoint:':
     'prefix': 'strokeLineFromPoint:toPoint:'
-    'body': 'NSBezierPath.strokeLineFromPoint(${1:NSPoint point1}, toPoint:${2:NSPoint point2})'
+    'body': 'strokeLineFromPoint(${1:NSPoint point1}, toPoint:${2:NSPoint point2})'
   'NSBezierPath.strokeRect:':
     'prefix': 'strokeRect:'
-    'body': 'NSBezierPath.strokeRect(${1:NSRect rect})'
+    'body': 'strokeRect(${1:NSRect rect})'
   'transformUsingAffineTransform:':
     'prefix': 'transformUsingAffineTransform:'
     'body': 'transformUsingAffineTransform(${1:NSAffineTransform* transform})'
@@ -8413,10 +8413,10 @@
     'body': 'TIFFRepresentation()'
   'NSBitmapImageRep.TIFFRepresentationOfImageRepsInArray:':
     'prefix': 'TIFFRepresentationOfImageRepsInArray:'
-    'body': 'NSBitmapImageRep.TIFFRepresentationOfImageRepsInArray(${1:NSArray* array})'
+    'body': 'TIFFRepresentationOfImageRepsInArray(${1:NSArray* array})'
   'NSBitmapImageRep.TIFFRepresentationOfImageRepsInArray:usingCompression:factor:':
     'prefix': 'TIFFRepresentationOfImageRepsInArray:usingCompression:factor:'
-    'body': 'NSBitmapImageRep.TIFFRepresentationOfImageRepsInArray(${1:NSArray* array}, usingCompression:${2:NSTIFFCompression comp}, factor:${3:float factor})'
+    'body': 'TIFFRepresentationOfImageRepsInArray(${1:NSArray* array}, usingCompression:${2:NSTIFFCompression comp}, factor:${3:float factor})'
   'TIFFRepresentationUsingCompression:factor:':
     'prefix': 'TIFFRepresentationUsingCompression:factor:'
     'body': 'TIFFRepresentationUsingCompression(${1:NSTIFFCompression comp}, factor:${2:float factor})'
@@ -8464,13 +8464,13 @@
     'body': 'getPixel(${1:NSUInteger* p}, atX:${2:NSInteger x}, y:${3:NSInteger y})'
   'NSBitmapImageRep.getTIFFCompressionTypes:count:':
     'prefix': 'getTIFFCompressionTypes:count:'
-    'body': 'NSBitmapImageRep.getTIFFCompressionTypes(${1:NSTIFFCompression** list}, count:${2:NSInteger* numTypes})'
+    'body': 'getTIFFCompressionTypes(${1:NSTIFFCompression** list}, count:${2:NSInteger* numTypes})'
   'NSBitmapImageRep.imageRepWithData:':
     'prefix': 'imageRepWithData:'
-    'body': 'NSBitmapImageRep.imageRepWithData(${1:NSData* data})'
+    'body': 'imageRepWithData(${1:NSData* data})'
   'NSBitmapImageRep.imageRepsWithData:':
     'prefix': 'imageRepsWithData:'
-    'body': 'NSBitmapImageRep.imageRepsWithData(${1:NSData* data})'
+    'body': 'imageRepsWithData(${1:NSData* data})'
   'incrementalLoadFromData:complete:':
     'prefix': 'incrementalLoadFromData:complete:'
     'body': 'incrementalLoadFromData(${1:NSData* data}, complete:${2:BOOL complete})'
@@ -8500,13 +8500,13 @@
     'body': 'isPlanar()'
   'NSBitmapImageRep.localizedNameForTIFFCompressionType:':
     'prefix': 'localizedNameForTIFFCompressionType:'
-    'body': 'NSBitmapImageRep.localizedNameForTIFFCompressionType(${1:NSTIFFCompression compression})'
+    'body': 'localizedNameForTIFFCompressionType(${1:NSTIFFCompression compression})'
   'numberOfPlanes':
     'prefix': 'numberOfPlanes'
     'body': 'numberOfPlanes()'
   'NSBitmapImageRep.representationOfImageRepsInArray:usingType:properties:':
     'prefix': 'representationOfImageRepsInArray:usingType:properties:'
-    'body': 'NSBitmapImageRep.representationOfImageRepsInArray(${1:NSArray* imageReps}, usingType:${2:NSBitmapImageFileType storageType}, properties:${3:NSDictionary* properties})'
+    'body': 'representationOfImageRepsInArray(${1:NSArray* imageReps}, usingType:${2:NSBitmapImageFileType storageType}, properties:${3:NSDictionary* properties})'
   'representationUsingType:properties:':
     'prefix': 'representationUsingType:properties:'
     'body': 'representationUsingType(${1:NSBitmapImageFileType storageType}, properties:${2:NSDictionary* properties})'
@@ -8647,7 +8647,7 @@
     'body': 'canDragRowsWithIndexes(${1:NSIndexSet* rowIndexes}, inColumn:${2:NSInteger column}, withEvent:${3:NSEvent* event})'
   'NSBrowser.cellClass':
     'prefix': 'cellClass'
-    'body': 'NSBrowser.cellClass()'
+    'body': 'cellClass()'
   'cellPrototype':
     'prefix': 'cellPrototype'
     'body': 'cellPrototype()'
@@ -8791,7 +8791,7 @@
     'body': 'reloadDataForRowIndexes(${1:NSIndexSet* rowIndexes}, inColumn:${2:NSInteger column})'
   'NSBrowser.removeSavedColumnsWithAutosaveName:':
     'prefix': 'removeSavedColumnsWithAutosaveName:'
-    'body': 'NSBrowser.removeSavedColumnsWithAutosaveName(${1:NSString* name})'
+    'body': 'removeSavedColumnsWithAutosaveName(${1:NSString* name})'
   'reusesColumns':
     'prefix': 'reusesColumns'
     'body': 'reusesColumns()'
@@ -8983,13 +8983,13 @@
     'body': 'alternateImage()'
   'NSBrowserCell.branchImage':
     'prefix': 'branchImage'
-    'body': 'NSBrowserCell.branchImage()'
+    'body': 'branchImage()'
   'highlightColorInView:':
     'prefix': 'highlightColorInView:'
     'body': 'highlightColorInView(${1:NSView* controlView})'
   'NSBrowserCell.highlightedBranchImage':
     'prefix': 'highlightedBranchImage'
-    'body': 'NSBrowserCell.highlightedBranchImage()'
+    'body': 'highlightedBranchImage()'
   'image':
     'prefix': 'image'
     'body': 'image()'
@@ -9028,13 +9028,13 @@
     'body': 'imageForResource(${1:NSString* name})'
   'NSBundle.loadNibFile:externalNameTable:withZone:':
     'prefix': 'loadNibFile:externalNameTable:withZone:'
-    'body': 'NSBundle.loadNibFile(${1:NSString* fileName}, externalNameTable:${2:NSDictionary* context}, withZone:${3:NSZone* zone})'
+    'body': 'loadNibFile(${1:NSString* fileName}, externalNameTable:${2:NSDictionary* context}, withZone:${3:NSZone* zone})'
   'loadNibFile:externalNameTable:withZone:':
     'prefix': 'loadNibFile:externalNameTable:withZone:'
     'body': 'loadNibFile(${1:NSString* fileName}, externalNameTable:${2:NSDictionary* context}, withZone:${3:NSZone* zone})'
   'NSBundle.loadNibNamed:owner:':
     'prefix': 'loadNibNamed:owner:'
-    'body': 'NSBundle.loadNibNamed(${1:NSString* nibName}, owner:${2:id owner})'
+    'body': 'loadNibNamed(${1:NSString* nibName}, owner:${2:id owner})'
   'loadNibNamed:owner:topLevelObjects:':
     'prefix': 'loadNibNamed:owner:topLevelObjects:'
     'body': 'loadNibNamed(${1:NSString* nibName}, owner:${2:id owner}, topLevelObjects:${3:NSArray** topLevelObjects})'
@@ -9331,7 +9331,7 @@
     'body': 'CIImage()'
   'NSCIImageRep.imageRepWithCIImage:':
     'prefix': 'imageRepWithCIImage:'
-    'body': 'NSCIImageRep.imageRepWithCIImage(${1:CIImage* image})'
+    'body': 'imageRepWithCIImage(${1:CIImage* image})'
   'initWithCIImage:':
     'prefix': 'initWithCIImage:'
     'body': 'initWithCIImage(${1:CIImage* image})'
@@ -9403,10 +9403,10 @@
     'body': 'controlView()'
   'NSCell.defaultFocusRingType':
     'prefix': 'defaultFocusRingType'
-    'body': 'NSCell.defaultFocusRingType()'
+    'body': 'defaultFocusRingType()'
   'NSCell.defaultMenu':
     'prefix': 'defaultMenu'
-    'body': 'NSCell.defaultMenu()'
+    'body': 'defaultMenu()'
   'doubleValue':
     'prefix': 'doubleValue'
     'body': 'doubleValue()'
@@ -9559,7 +9559,7 @@
     'body': 'performClick(${1:id sender})'
   'NSCell.prefersTrackingUntilMouseUp':
     'prefix': 'prefersTrackingUntilMouseUp'
-    'body': 'NSCell.prefersTrackingUntilMouseUp()'
+    'body': 'prefersTrackingUntilMouseUp()'
   'refusesFirstResponder':
     'prefix': 'refusesFirstResponder'
     'body': 'refusesFirstResponder()'
@@ -9976,13 +9976,13 @@
     'body': 'alphaComponent()'
   'NSColor.alternateSelectedControlColor':
     'prefix': 'alternateSelectedControlColor'
-    'body': 'NSColor.alternateSelectedControlColor()'
+    'body': 'alternateSelectedControlColor()'
   'NSColor.alternateSelectedControlTextColor':
     'prefix': 'alternateSelectedControlTextColor'
-    'body': 'NSColor.alternateSelectedControlTextColor()'
+    'body': 'alternateSelectedControlTextColor()'
   'NSColor.blackColor':
     'prefix': 'blackColor'
-    'body': 'NSColor.blackColor()'
+    'body': 'blackColor()'
   'blackComponent':
     'prefix': 'blackComponent'
     'body': 'blackComponent()'
@@ -9991,7 +9991,7 @@
     'body': 'blendedColorWithFraction(${1:CGFloat fraction}, ofColor:${2:NSColor* color})'
   'NSColor.blueColor':
     'prefix': 'blueColor'
-    'body': 'NSColor.blueColor()'
+    'body': 'blueColor()'
   'blueComponent':
     'prefix': 'blueComponent'
     'body': 'blueComponent()'
@@ -10000,19 +10000,19 @@
     'body': 'brightnessComponent()'
   'NSColor.brownColor':
     'prefix': 'brownColor'
-    'body': 'NSColor.brownColor()'
+    'body': 'brownColor()'
   'catalogNameComponent':
     'prefix': 'catalogNameComponent'
     'body': 'catalogNameComponent()'
   'NSColor.clearColor':
     'prefix': 'clearColor'
-    'body': 'NSColor.clearColor()'
+    'body': 'clearColor()'
   'NSColor.colorForControlTint:':
     'prefix': 'colorForControlTint:'
-    'body': 'NSColor.colorForControlTint(${1:NSControlTint controlTint})'
+    'body': 'colorForControlTint(${1:NSControlTint controlTint})'
   'NSColor.colorFromPasteboard:':
     'prefix': 'colorFromPasteboard:'
-    'body': 'NSColor.colorFromPasteboard(${1:NSPasteboard* pasteBoard})'
+    'body': 'colorFromPasteboard(${1:NSPasteboard* pasteBoard})'
   'colorNameComponent':
     'prefix': 'colorNameComponent'
     'body': 'colorNameComponent()'
@@ -10036,94 +10036,94 @@
     'body': 'colorWithAlphaComponent(${1:CGFloat alpha})'
   'NSColor.colorWithCGColor:':
     'prefix': 'colorWithCGColor:'
-    'body': 'NSColor.colorWithCGColor(${1:CGColorRef cgColor})'
+    'body': 'colorWithCGColor(${1:CGColorRef cgColor})'
   'NSColor.colorWithCIColor:':
     'prefix': 'colorWithCIColor:'
-    'body': 'NSColor.colorWithCIColor(${1:CIColor* color})'
+    'body': 'colorWithCIColor(${1:CIColor* color})'
   'NSColor.colorWithCalibratedHue:saturation:brightness:alpha:':
     'prefix': 'colorWithCalibratedHue:saturation:brightness:alpha:'
-    'body': 'NSColor.colorWithCalibratedHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithCalibratedHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithCalibratedRed:green:blue:alpha:':
     'prefix': 'colorWithCalibratedRed:green:blue:alpha:'
-    'body': 'NSColor.colorWithCalibratedRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithCalibratedRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithCalibratedWhite:alpha:':
     'prefix': 'colorWithCalibratedWhite:alpha:'
-    'body': 'NSColor.colorWithCalibratedWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
+    'body': 'colorWithCalibratedWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
   'NSColor.colorWithCatalogName:colorName:':
     'prefix': 'colorWithCatalogName:colorName:'
-    'body': 'NSColor.colorWithCatalogName(${1:NSString* listName}, colorName:${2:NSString* colorName})'
+    'body': 'colorWithCatalogName(${1:NSString* listName}, colorName:${2:NSString* colorName})'
   'NSColor.colorWithColorSpace:components:count:':
     'prefix': 'colorWithColorSpace:components:count:'
-    'body': 'NSColor.colorWithColorSpace(${1:NSColorSpace* space}, components:${2:CGFloat* components}, count:${3:NSInteger numberOfComponents})'
+    'body': 'colorWithColorSpace(${1:NSColorSpace* space}, components:${2:CGFloat* components}, count:${3:NSInteger numberOfComponents})'
   'NSColor.colorWithDeviceCyan:magenta:yellow:black:alpha:':
     'prefix': 'colorWithDeviceCyan:magenta:yellow:black:alpha:'
-    'body': 'NSColor.colorWithDeviceCyan(${1:CGFloat cyan}, magenta:${2:CGFloat magenta}, yellow:${3:CGFloat yellow}, black:${4:CGFloat black}, alpha:${5:CGFloat alpha})'
+    'body': 'colorWithDeviceCyan(${1:CGFloat cyan}, magenta:${2:CGFloat magenta}, yellow:${3:CGFloat yellow}, black:${4:CGFloat black}, alpha:${5:CGFloat alpha})'
   'NSColor.colorWithDeviceHue:saturation:brightness:alpha:':
     'prefix': 'colorWithDeviceHue:saturation:brightness:alpha:'
-    'body': 'NSColor.colorWithDeviceHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithDeviceHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithDeviceRed:green:blue:alpha:':
     'prefix': 'colorWithDeviceRed:green:blue:alpha:'
-    'body': 'NSColor.colorWithDeviceRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithDeviceRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithDeviceWhite:alpha:':
     'prefix': 'colorWithDeviceWhite:alpha:'
-    'body': 'NSColor.colorWithDeviceWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
+    'body': 'colorWithDeviceWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
   'NSColor.colorWithGenericGamma22White:alpha:':
     'prefix': 'colorWithGenericGamma22White:alpha:'
-    'body': 'NSColor.colorWithGenericGamma22White(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
+    'body': 'colorWithGenericGamma22White(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
   'NSColor.colorWithHue:saturation:brightness:alpha:':
     'prefix': 'colorWithHue:saturation:brightness:alpha:'
-    'body': 'NSColor.colorWithHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithHue(${1:CGFloat hue}, saturation:${2:CGFloat saturation}, brightness:${3:CGFloat brightness}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithPatternImage:':
     'prefix': 'colorWithPatternImage:'
-    'body': 'NSColor.colorWithPatternImage(${1:NSImage* image})'
+    'body': 'colorWithPatternImage(${1:NSImage* image})'
   'NSColor.colorWithRed:green:blue:alpha:':
     'prefix': 'colorWithRed:green:blue:alpha:'
-    'body': 'NSColor.colorWithRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithSRGBRed:green:blue:alpha:':
     'prefix': 'colorWithSRGBRed:green:blue:alpha:'
-    'body': 'NSColor.colorWithSRGBRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
+    'body': 'colorWithSRGBRed(${1:CGFloat red}, green:${2:CGFloat green}, blue:${3:CGFloat blue}, alpha:${4:CGFloat alpha})'
   'NSColor.colorWithWhite:alpha:':
     'prefix': 'colorWithWhite:alpha:'
-    'body': 'NSColor.colorWithWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
+    'body': 'colorWithWhite(${1:CGFloat white}, alpha:${2:CGFloat alpha})'
   'NSColor.controlAlternatingRowBackgroundColors':
     'prefix': 'controlAlternatingRowBackgroundColors'
-    'body': 'NSColor.controlAlternatingRowBackgroundColors()'
+    'body': 'controlAlternatingRowBackgroundColors()'
   'NSColor.controlBackgroundColor':
     'prefix': 'controlBackgroundColor'
-    'body': 'NSColor.controlBackgroundColor()'
+    'body': 'controlBackgroundColor()'
   'NSColor.controlColor':
     'prefix': 'controlColor'
-    'body': 'NSColor.controlColor()'
+    'body': 'controlColor()'
   'NSColor.controlDarkShadowColor':
     'prefix': 'controlDarkShadowColor'
-    'body': 'NSColor.controlDarkShadowColor()'
+    'body': 'controlDarkShadowColor()'
   'NSColor.controlHighlightColor':
     'prefix': 'controlHighlightColor'
-    'body': 'NSColor.controlHighlightColor()'
+    'body': 'controlHighlightColor()'
   'NSColor.controlLightHighlightColor':
     'prefix': 'controlLightHighlightColor'
-    'body': 'NSColor.controlLightHighlightColor()'
+    'body': 'controlLightHighlightColor()'
   'NSColor.controlShadowColor':
     'prefix': 'controlShadowColor'
-    'body': 'NSColor.controlShadowColor()'
+    'body': 'controlShadowColor()'
   'NSColor.controlTextColor':
     'prefix': 'controlTextColor'
-    'body': 'NSColor.controlTextColor()'
+    'body': 'controlTextColor()'
   'NSColor.currentControlTint':
     'prefix': 'currentControlTint'
-    'body': 'NSColor.currentControlTint()'
+    'body': 'currentControlTint()'
   'NSColor.cyanColor':
     'prefix': 'cyanColor'
-    'body': 'NSColor.cyanColor()'
+    'body': 'cyanColor()'
   'cyanComponent':
     'prefix': 'cyanComponent'
     'body': 'cyanComponent()'
   'NSColor.darkGrayColor':
     'prefix': 'darkGrayColor'
-    'body': 'NSColor.darkGrayColor()'
+    'body': 'darkGrayColor()'
   'NSColor.disabledControlTextColor':
     'prefix': 'disabledControlTextColor'
-    'body': 'NSColor.disabledControlTextColor()'
+    'body': 'disabledControlTextColor()'
   'drawSwatchInRect:':
     'prefix': 'drawSwatchInRect:'
     'body': 'drawSwatchInRect(${1:NSRect rect})'
@@ -10144,25 +10144,25 @@
     'body': 'getWhite(${1:CGFloat* white}, alpha:${2:CGFloat* alpha})'
   'NSColor.grayColor':
     'prefix': 'grayColor'
-    'body': 'NSColor.grayColor()'
+    'body': 'grayColor()'
   'NSColor.greenColor':
     'prefix': 'greenColor'
-    'body': 'NSColor.greenColor()'
+    'body': 'greenColor()'
   'greenComponent':
     'prefix': 'greenComponent'
     'body': 'greenComponent()'
   'NSColor.gridColor':
     'prefix': 'gridColor'
-    'body': 'NSColor.gridColor()'
+    'body': 'gridColor()'
   'NSColor.headerColor':
     'prefix': 'headerColor'
-    'body': 'NSColor.headerColor()'
+    'body': 'headerColor()'
   'NSColor.headerTextColor':
     'prefix': 'headerTextColor'
-    'body': 'NSColor.headerTextColor()'
+    'body': 'headerTextColor()'
   'NSColor.highlightColor':
     'prefix': 'highlightColor'
-    'body': 'NSColor.highlightColor()'
+    'body': 'highlightColor()'
   'highlightWithLevel:':
     'prefix': 'highlightWithLevel:'
     'body': 'highlightWithLevel(${1:CGFloat val})'
@@ -10171,16 +10171,16 @@
     'body': 'hueComponent()'
   'NSColor.ignoresAlpha':
     'prefix': 'ignoresAlpha'
-    'body': 'NSColor.ignoresAlpha()'
+    'body': 'ignoresAlpha()'
   'NSColor.keyboardFocusIndicatorColor':
     'prefix': 'keyboardFocusIndicatorColor'
-    'body': 'NSColor.keyboardFocusIndicatorColor()'
+    'body': 'KeyboardFocusIndicatorColor()'
   'NSColor.knobColor':
     'prefix': 'knobColor'
-    'body': 'NSColor.knobColor()'
+    'body': 'KnobColor()'
   'NSColor.lightGrayColor':
     'prefix': 'lightGrayColor'
-    'body': 'NSColor.lightGrayColor()'
+    'body': 'lightGrayColor()'
   'localizedCatalogNameComponent':
     'prefix': 'localizedCatalogNameComponent'
     'body': 'localizedCatalogNameComponent()'
@@ -10189,7 +10189,7 @@
     'body': 'localizedColorNameComponent()'
   'NSColor.magentaColor':
     'prefix': 'magentaColor'
-    'body': 'NSColor.magentaColor()'
+    'body': 'magentaColor()'
   'magentaComponent':
     'prefix': 'magentaComponent'
     'body': 'magentaComponent()'
@@ -10198,16 +10198,16 @@
     'body': 'numberOfComponents()'
   'NSColor.orangeColor':
     'prefix': 'orangeColor'
-    'body': 'NSColor.orangeColor()'
+    'body': 'orangeColor()'
   'patternImage':
     'prefix': 'patternImage'
     'body': 'patternImage()'
   'NSColor.purpleColor':
     'prefix': 'purpleColor'
-    'body': 'NSColor.purpleColor()'
+    'body': 'purpleColor()'
   'NSColor.redColor':
     'prefix': 'redColor'
-    'body': 'NSColor.redColor()'
+    'body': 'redColor()'
   'redComponent':
     'prefix': 'redComponent'
     'body': 'redComponent()'
@@ -10216,31 +10216,31 @@
     'body': 'saturationComponent()'
   'NSColor.scrollBarColor':
     'prefix': 'scrollBarColor'
-    'body': 'NSColor.scrollBarColor()'
+    'body': 'scrollBarColor()'
   'NSColor.secondarySelectedControlColor':
     'prefix': 'secondarySelectedControlColor'
-    'body': 'NSColor.secondarySelectedControlColor()'
+    'body': 'secondarySelectedControlColor()'
   'NSColor.selectedControlColor':
     'prefix': 'selectedControlColor'
-    'body': 'NSColor.selectedControlColor()'
+    'body': 'selectedControlColor()'
   'NSColor.selectedControlTextColor':
     'prefix': 'selectedControlTextColor'
-    'body': 'NSColor.selectedControlTextColor()'
+    'body': 'selectedControlTextColor()'
   'NSColor.selectedKnobColor':
     'prefix': 'selectedKnobColor'
-    'body': 'NSColor.selectedKnobColor()'
+    'body': 'selectedKnobColor()'
   'NSColor.selectedMenuItemColor':
     'prefix': 'selectedMenuItemColor'
-    'body': 'NSColor.selectedMenuItemColor()'
+    'body': 'selectedMenuItemColor()'
   'NSColor.selectedMenuItemTextColor':
     'prefix': 'selectedMenuItemTextColor'
-    'body': 'NSColor.selectedMenuItemTextColor()'
+    'body': 'selectedMenuItemTextColor()'
   'NSColor.selectedTextBackgroundColor':
     'prefix': 'selectedTextBackgroundColor'
-    'body': 'NSColor.selectedTextBackgroundColor()'
+    'body': 'selectedTextBackgroundColor()'
   'NSColor.selectedTextColor':
     'prefix': 'selectedTextColor'
-    'body': 'NSColor.selectedTextColor()'
+    'body': 'selectedTextColor()'
   'set':
     'prefix': 'set'
     'body': 'set()'
@@ -10249,46 +10249,46 @@
     'body': 'setFill()'
   'NSColor.setIgnoresAlpha:':
     'prefix': 'setIgnoresAlpha:'
-    'body': 'NSColor.setIgnoresAlpha(${1:BOOL flag})'
+    'body': 'setIgnoresAlpha(${1:BOOL flag})'
   'setStroke':
     'prefix': 'setStroke'
     'body': 'setStroke()'
   'NSColor.shadowColor':
     'prefix': 'shadowColor'
-    'body': 'NSColor.shadowColor()'
+    'body': 'shadowColor()'
   'shadowWithLevel:':
     'prefix': 'shadowWithLevel:'
     'body': 'shadowWithLevel(${1:CGFloat val})'
   'NSColor.textBackgroundColor':
     'prefix': 'textBackgroundColor'
-    'body': 'NSColor.textBackgroundColor()'
+    'body': 'textBackgroundColor()'
   'NSColor.textColor':
     'prefix': 'textColor'
-    'body': 'NSColor.textColor()'
+    'body': 'textColor()'
   'NSColor.underPageBackgroundColor':
     'prefix': 'underPageBackgroundColor'
-    'body': 'NSColor.underPageBackgroundColor()'
+    'body': 'underPageBackgroundColor()'
   'NSColor.whiteColor':
     'prefix': 'whiteColor'
-    'body': 'NSColor.whiteColor()'
+    'body': 'whiteColor()'
   'whiteComponent':
     'prefix': 'whiteComponent'
     'body': 'whiteComponent()'
   'NSColor.windowBackgroundColor':
     'prefix': 'windowBackgroundColor'
-    'body': 'NSColor.windowBackgroundColor()'
+    'body': 'windowBackgroundColor()'
   'NSColor.windowFrameColor':
     'prefix': 'windowFrameColor'
-    'body': 'NSColor.windowFrameColor()'
+    'body': 'windowFrameColor()'
   'NSColor.windowFrameTextColor':
     'prefix': 'windowFrameTextColor'
-    'body': 'NSColor.windowFrameTextColor()'
+    'body': 'windowFrameTextColor()'
   'writeToPasteboard:':
     'prefix': 'writeToPasteboard:'
     'body': 'writeToPasteboard(${1:NSPasteboard* pasteBoard})'
   'NSColor.yellowColor':
     'prefix': 'yellowColor'
-    'body': 'NSColor.yellowColor()'
+    'body': 'yellowColor()'
   'yellowComponent':
     'prefix': 'yellowComponent'
     'body': 'yellowComponent()'
@@ -10297,10 +10297,10 @@
     'body': 'allKeys()'
   'NSColorList.availableColorLists':
     'prefix': 'availableColorLists'
-    'body': 'NSColorList.availableColorLists()'
+    'body': 'availableColorLists()'
   'NSColorList.colorListNamed:':
     'prefix': 'colorListNamed:'
-    'body': 'NSColorList.colorListNamed(${1:NSString* name})'
+    'body': 'colorListNamed(${1:NSString* name})'
   'colorWithKey:':
     'prefix': 'colorWithKey:'
     'body': 'colorWithKey(${1:NSString* key})'
@@ -10348,7 +10348,7 @@
     'body': 'detachColorList(${1:NSColorList* colorList})'
   'NSColorPanel.dragColor:withEvent:fromView:':
     'prefix': 'dragColor:withEvent:fromView:'
-    'body': 'NSColorPanel.dragColor(${1:NSColor* color}, withEvent:${2:NSEvent* theEvent}, fromView:${3:NSView* sourceView})'
+    'body': 'dragColor(${1:NSColor* color}, withEvent:${2:NSEvent* theEvent}, fromView:${3:NSView* sourceView})'
   'isContinuous':
     'prefix': 'isContinuous'
     'body': 'isContinuous()'
@@ -10372,10 +10372,10 @@
     'body': 'setMode(${1:NSColorPanelMode mode})'
   'NSColorPanel.setPickerMask:':
     'prefix': 'setPickerMask:'
-    'body': 'NSColorPanel.setPickerMask(${1:NSUInteger mask})'
+    'body': 'setPickerMask(${1:NSUInteger mask})'
   'NSColorPanel.setPickerMode:':
     'prefix': 'setPickerMode:'
-    'body': 'NSColorPanel.setPickerMode(${1:NSColorPanelMode mode})'
+    'body': 'setPickerMode(${1:NSColorPanelMode mode})'
   'setShowsAlpha:':
     'prefix': 'setShowsAlpha:'
     'body': 'setShowsAlpha(${1:BOOL flag})'
@@ -10384,10 +10384,10 @@
     'body': 'setTarget(${1:id anObject})'
   'NSColorPanel.sharedColorPanel':
     'prefix': 'sharedColorPanel'
-    'body': 'NSColorPanel.sharedColorPanel()'
+    'body': 'sharedColorPanel()'
   'NSColorPanel.sharedColorPanelExists':
     'prefix': 'sharedColorPanelExists'
-    'body': 'NSColorPanel.sharedColorPanelExists()'
+    'body': 'sharedColorPanelExists()'
   'showsAlpha':
     'prefix': 'showsAlpha'
     'body': 'showsAlpha()'
@@ -10429,10 +10429,10 @@
     'body': 'ICCProfileData()'
   'NSColorSpace.adobeRGB1998ColorSpace':
     'prefix': 'adobeRGB1998ColorSpace'
-    'body': 'NSColorSpace.adobeRGB1998ColorSpace()'
+    'body': 'adobeRGB1998ColorSpace()'
   'NSColorSpace.availableColorSpacesWithModel:':
     'prefix': 'availableColorSpacesWithModel:'
-    'body': 'NSColorSpace.availableColorSpacesWithModel(${1:NSColorSpaceModel model})'
+    'body': 'availableColorSpacesWithModel(${1:NSColorSpaceModel model})'
   'colorSpaceModel':
     'prefix': 'colorSpaceModel'
     'body': 'colorSpaceModel()'
@@ -10441,25 +10441,25 @@
     'body': 'colorSyncProfile()'
   'NSColorSpace.deviceCMYKColorSpace':
     'prefix': 'deviceCMYKColorSpace'
-    'body': 'NSColorSpace.deviceCMYKColorSpace()'
+    'body': 'deviceCMYKColorSpace()'
   'NSColorSpace.deviceGrayColorSpace':
     'prefix': 'deviceGrayColorSpace'
-    'body': 'NSColorSpace.deviceGrayColorSpace()'
+    'body': 'deviceGrayColorSpace()'
   'NSColorSpace.deviceRGBColorSpace':
     'prefix': 'deviceRGBColorSpace'
-    'body': 'NSColorSpace.deviceRGBColorSpace()'
+    'body': 'deviceRGBColorSpace()'
   'NSColorSpace.genericCMYKColorSpace':
     'prefix': 'genericCMYKColorSpace'
-    'body': 'NSColorSpace.genericCMYKColorSpace()'
+    'body': 'genericCMYKColorSpace()'
   'NSColorSpace.genericGamma22GrayColorSpace':
     'prefix': 'genericGamma22GrayColorSpace'
-    'body': 'NSColorSpace.genericGamma22GrayColorSpace()'
+    'body': 'genericGamma22GrayColorSpace()'
   'NSColorSpace.genericGrayColorSpace':
     'prefix': 'genericGrayColorSpace'
-    'body': 'NSColorSpace.genericGrayColorSpace()'
+    'body': 'genericGrayColorSpace()'
   'NSColorSpace.genericRGBColorSpace':
     'prefix': 'genericRGBColorSpace'
-    'body': 'NSColorSpace.genericRGBColorSpace()'
+    'body': 'genericRGBColorSpace()'
   'initWithCGColorSpace:':
     'prefix': 'initWithCGColorSpace:'
     'body': 'initWithCGColorSpace(${1:CGColorSpaceRef cgColorSpace})'
@@ -10477,7 +10477,7 @@
     'body': 'numberOfColorComponents()'
   'NSColorSpace.sRGBColorSpace':
     'prefix': 'sRGBColorSpace'
-    'body': 'NSColorSpace.sRGBColorSpace()'
+    'body': 'sRGBColorSpace()'
   'activate:':
     'prefix': 'activate:'
     'body': 'activate(${1:BOOL exclusive})'
@@ -10750,7 +10750,7 @@
     'body': 'cell()'
   'NSControl.cellClass':
     'prefix': 'cellClass'
-    'body': 'NSControl.cellClass()'
+    'body': 'cellClass()'
   'currentEditor':
     'prefix': 'currentEditor'
     'body': 'currentEditor()'
@@ -10840,7 +10840,7 @@
     'body': 'setCell(${1:NSCell* aCell})'
   'NSControl.setCellClass:':
     'prefix': 'setCellClass:'
-    'body': 'NSControl.setCellClass(${1:Class factoryId})'
+    'body': 'setCellClass(${1:Class factoryId})'
   'setContinuous:':
     'prefix': 'setContinuous:'
     'body': 'setContinuous(${1:BOOL flag})'
@@ -10954,40 +10954,40 @@
     'body': 'objectDidEndEditing(${1:id editor})'
   'NSCursor.IBeamCursor':
     'prefix': 'IBeamCursor'
-    'body': 'NSCursor.IBeamCursor()'
+    'body': 'IBeamCursor()'
   'NSCursor.IBeamCursorForVerticalLayout':
     'prefix': 'IBeamCursorForVerticalLayout'
-    'body': 'NSCursor.IBeamCursorForVerticalLayout()'
+    'body': 'IBeamCursorForVerticalLayout()'
   'NSCursor.arrowCursor':
     'prefix': 'arrowCursor'
-    'body': 'NSCursor.arrowCursor()'
+    'body': 'arrowCursor()'
   'NSCursor.closedHandCursor':
     'prefix': 'closedHandCursor'
-    'body': 'NSCursor.closedHandCursor()'
+    'body': 'closedHandCursor()'
   'NSCursor.contextualMenuCursor':
     'prefix': 'contextualMenuCursor'
-    'body': 'NSCursor.contextualMenuCursor()'
+    'body': 'contextualMenuCursor()'
   'NSCursor.crosshairCursor':
     'prefix': 'crosshairCursor'
-    'body': 'NSCursor.crosshairCursor()'
+    'body': 'crosshairCursor()'
   'NSCursor.currentCursor':
     'prefix': 'currentCursor'
-    'body': 'NSCursor.currentCursor()'
+    'body': 'currentCursor()'
   'NSCursor.currentSystemCursor':
     'prefix': 'currentSystemCursor'
-    'body': 'NSCursor.currentSystemCursor()'
+    'body': 'currentSystemCursor()'
   'NSCursor.disappearingItemCursor':
     'prefix': 'disappearingItemCursor'
-    'body': 'NSCursor.disappearingItemCursor()'
+    'body': 'disappearingItemCursor()'
   'NSCursor.dragCopyCursor':
     'prefix': 'dragCopyCursor'
-    'body': 'NSCursor.dragCopyCursor()'
+    'body': 'dragCopyCursor()'
   'NSCursor.dragLinkCursor':
     'prefix': 'dragLinkCursor'
-    'body': 'NSCursor.dragLinkCursor()'
+    'body': 'dragLinkCursor()'
   'NSCursor.hide':
     'prefix': 'hide'
-    'body': 'NSCursor.hide()'
+    'body': 'hide()'
   'hotSpot':
     'prefix': 'hotSpot'
     'body': 'hotSpot()'
@@ -11014,16 +11014,16 @@
     'body': 'mouseExited(${1:NSEvent* theEvent})'
   'NSCursor.openHandCursor':
     'prefix': 'openHandCursor'
-    'body': 'NSCursor.openHandCursor()'
+    'body': 'openHandCursor()'
   'NSCursor.operationNotAllowedCursor':
     'prefix': 'operationNotAllowedCursor'
-    'body': 'NSCursor.operationNotAllowedCursor()'
+    'body': 'operationNotAllowedCursor()'
   'NSCursor.pointingHandCursor':
     'prefix': 'pointingHandCursor'
-    'body': 'NSCursor.pointingHandCursor()'
+    'body': 'pointingHandCursor()'
   'NSCursor.pop':
     'prefix': 'pop'
-    'body': 'NSCursor.pop()'
+    'body': 'pop()'
   'pop':
     'prefix': 'pop'
     'body': 'pop()'
@@ -11032,28 +11032,28 @@
     'body': 'push()'
   'NSCursor.resizeDownCursor':
     'prefix': 'resizeDownCursor'
-    'body': 'NSCursor.resizeDownCursor()'
+    'body': 'resizeDownCursor()'
   'NSCursor.resizeLeftCursor':
     'prefix': 'resizeLeftCursor'
-    'body': 'NSCursor.resizeLeftCursor()'
+    'body': 'resizeLeftCursor()'
   'NSCursor.resizeLeftRightCursor':
     'prefix': 'resizeLeftRightCursor'
-    'body': 'NSCursor.resizeLeftRightCursor()'
+    'body': 'resizeLeftRightCursor()'
   'NSCursor.resizeRightCursor':
     'prefix': 'resizeRightCursor'
-    'body': 'NSCursor.resizeRightCursor()'
+    'body': 'resizeRightCursor()'
   'NSCursor.resizeUpCursor':
     'prefix': 'resizeUpCursor'
-    'body': 'NSCursor.resizeUpCursor()'
+    'body': 'resizeUpCursor()'
   'NSCursor.resizeUpDownCursor':
     'prefix': 'resizeUpDownCursor'
-    'body': 'NSCursor.resizeUpDownCursor()'
+    'body': 'resizeUpDownCursor()'
   'set':
     'prefix': 'set'
     'body': 'set()'
   'NSCursor.setHiddenUntilMouseMoves:':
     'prefix': 'setHiddenUntilMouseMoves:'
-    'body': 'NSCursor.setHiddenUntilMouseMoves(${1:BOOL flag})'
+    'body': 'setHiddenUntilMouseMoves(${1:BOOL flag})'
   'setOnMouseEntered:':
     'prefix': 'setOnMouseEntered:'
     'body': 'setOnMouseEntered(${1:BOOL flag})'
@@ -11062,7 +11062,7 @@
     'body': 'setOnMouseExited(${1:BOOL flag})'
   'NSCursor.unhide':
     'prefix': 'unhide'
-    'body': 'NSCursor.unhide()'
+    'body': 'unhide()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -11341,10 +11341,10 @@
     'body': 'autosavedContentsFileURL()'
   'NSDocument.autosavesDrafts':
     'prefix': 'autosavesDrafts'
-    'body': 'NSDocument.autosavesDrafts()'
+    'body': 'autosavesDrafts()'
   'NSDocument.autosavesInPlace':
     'prefix': 'autosavesInPlace'
-    'body': 'NSDocument.autosavesInPlace()'
+    'body': 'autosavesInPlace()'
   'autosavingFileType':
     'prefix': 'autosavingFileType'
     'body': 'autosavingFileType()'
@@ -11365,7 +11365,7 @@
     'body': 'canCloseDocumentWithDelegate(${1:id delegate}, shouldCloseSelector:${2:SEL shouldCloseSelector}, contextInfo:${3:void* contextInfo})'
   'NSDocument.canConcurrentlyReadDocumentsOfType:':
     'prefix': 'canConcurrentlyReadDocumentsOfType:'
-    'body': 'NSDocument.canConcurrentlyReadDocumentsOfType(${1:NSString* typeName})'
+    'body': 'canConcurrentlyReadDocumentsOfType(${1:NSString* typeName})'
   'changeCountTokenForSaveOperation:':
     'prefix': 'changeCountTokenForSaveOperation:'
     'body': 'changeCountTokenForSaveOperation(${1:NSSaveOperationType saveOperation})'
@@ -11491,7 +11491,7 @@
     'body': 'isLocked()'
   'NSDocument.isNativeType:':
     'prefix': 'isNativeType:'
-    'body': 'NSDocument.isNativeType(${1:NSString* type})'
+    'body': 'isNativeType(${1:NSString* type})'
   'keepBackupFile':
     'prefix': 'keepBackupFile'
     'body': 'KeepBackupFile()'
@@ -11554,7 +11554,7 @@
     'body': 'presentError(${1:NSError* error}, modalForWindow:${2:NSWindow* window}, delegate:${3:id delegate}, didPresentSelector:${4:SEL didPresentSelector}, contextInfo:${5:void* contextInfo})'
   'NSDocument.preservesVersions':
     'prefix': 'preservesVersions'
-    'body': 'NSDocument.preservesVersions()'
+    'body': 'preservesVersions()'
   'printDocument:':
     'prefix': 'printDocument:'
     'body': 'printDocument(${1:id sender})'
@@ -11587,7 +11587,7 @@
     'body': 'readFromURL(${1:NSURL* url}, ofType:${2:NSString* typeName}, error:${3:NSError** outError})'
   'NSDocument.readableTypes':
     'prefix': 'readableTypes'
-    'body': 'NSDocument.readableTypes()'
+    'body': 'readableTypes()'
   'removeWindowController:':
     'prefix': 'removeWindowController:'
     'body': 'removeWindowController(${1:NSWindowController* windowController})'
@@ -11596,7 +11596,7 @@
     'body': 'renameDocument(${1:id sender})'
   'NSDocument.restorableStateKeyPaths':
     'prefix': 'restorableStateKeyPaths'
-    'body': 'NSDocument.restorableStateKeyPaths()'
+    'body': 'restorableStateKeyPaths()'
   'restoreDocumentWindowWithIdentifier:state:completionHandler:':
     'prefix': 'restoreDocumentWindowWithIdentifier:state:completionHandler:'
     'body': 'restoreDocumentWindowWithIdentifier(${1:NSString* identifier}, state:${2:NSCoder* state}, completionHandler:${3:void (^)(NSWindow *, NSError *) completionHandler})'
@@ -11731,7 +11731,7 @@
     'body': 'updateChangeCountWithToken(${1:id changeCountToken}, forSaveOperation:${2:NSSaveOperationType saveOperation})'
   'NSDocument.usesUbiquitousStorage':
     'prefix': 'usesUbiquitousStorage'
-    'body': 'NSDocument.usesUbiquitousStorage()'
+    'body': 'usesUbiquitousStorage()'
   'validateUserInterfaceItem:':
     'prefix': 'validateUserInterfaceItem:'
     'body': 'validateUserInterfaceItem(${1:id anItem})'
@@ -11758,7 +11758,7 @@
     'body': 'windowNibName()'
   'NSDocument.writableTypes':
     'prefix': 'writableTypes'
-    'body': 'NSDocument.writableTypes()'
+    'body': 'writableTypes()'
   'writableTypesForSaveOperation:':
     'prefix': 'writableTypesForSaveOperation:'
     'body': 'writableTypesForSaveOperation(${1:NSSaveOperationType saveOperation})'
@@ -11935,7 +11935,7 @@
     'body': 'setShouldCreateUI(${1:BOOL flag})'
   'NSDocumentController.sharedDocumentController':
     'prefix': 'sharedDocumentController'
-    'body': 'NSDocumentController.sharedDocumentController()'
+    'body': 'sharedDocumentController()'
   'shouldCreateUI':
     'prefix': 'shouldCreateUI'
     'body': 'shouldCreateUI()'
@@ -11956,7 +11956,7 @@
     'body': 'contents()'
   'NSDraggingImageComponent.draggingImageComponentWithKey:':
     'prefix': 'draggingImageComponentWithKey:'
-    'body': 'NSDraggingImageComponent.draggingImageComponentWithKey(${1:NSString* key})'
+    'body': 'draggingImageComponentWithKey(${1:NSString* key})'
   'frame':
     'prefix': 'frame'
     'body': 'frame()'
@@ -12118,7 +12118,7 @@
     'body': 'boundingBox()'
   'NSEPSImageRep.imageRepWithData:':
     'prefix': 'imageRepWithData:'
-    'body': 'NSEPSImageRep.imageRepWithData(${1:NSData* epsData})'
+    'body': 'imageRepWithData(${1:NSData* epsData})'
   'initWithData:':
     'prefix': 'initWithData:'
     'body': 'initWithData(${1:NSData* epsData})'
@@ -12139,10 +12139,10 @@
     'body': 'absoluteZ()'
   'NSEvent.addGlobalMonitorForEventsMatchingMask:handler:':
     'prefix': 'addGlobalMonitorForEventsMatchingMask:handler:'
-    'body': 'NSEvent.addGlobalMonitorForEventsMatchingMask(${1:NSEventMask mask}, handler:${2:void (^)(NSEvent *) block})'
+    'body': 'addGlobalMonitorForEventsMatchingMask(${1:NSEventMask mask}, handler:${2:void (^)(NSEvent *) block})'
   'NSEvent.addLocalMonitorForEventsMatchingMask:handler:':
     'prefix': 'addLocalMonitorForEventsMatchingMask:handler:'
-    'body': 'NSEvent.addLocalMonitorForEventsMatchingMask(${1:NSEventMask mask}, handler:${2:NSEvent *(^)(NSEvent *) block})'
+    'body': 'addLocalMonitorForEventsMatchingMask(${1:NSEventMask mask}, handler:${2:NSEvent *(^)(NSEvent *) block})'
   'buttonMask':
     'prefix': 'buttonMask'
     'body': 'buttonMask()'
@@ -12184,10 +12184,10 @@
     'body': 'deviceID()'
   'NSEvent.doubleClickInterval':
     'prefix': 'doubleClickInterval'
-    'body': 'NSEvent.doubleClickInterval()'
+    'body': 'doubleClickInterval()'
   'NSEvent.enterExitEventWithType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:trackingNumber:userData:':
     'prefix': 'enterExitEventWithType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:trackingNumber:userData:'
-    'body': 'NSEvent.enterExitEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, eventNumber:${7:NSInteger eNum}, trackingNumber:${8:NSInteger tNum}, userData:${9:void* data})'
+    'body': 'enterExitEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, eventNumber:${7:NSInteger eNum}, trackingNumber:${8:NSInteger tNum}, userData:${9:void* data})'
   'eventNumber':
     'prefix': 'eventNumber'
     'body': 'eventNumber()'
@@ -12196,10 +12196,10 @@
     'body': 'eventRef()'
   'NSEvent.eventWithCGEvent:':
     'prefix': 'eventWithCGEvent:'
-    'body': 'NSEvent.eventWithCGEvent(${1:CGEventRef cgEvent})'
+    'body': 'eventWithCGEvent(${1:CGEventRef cgEvent})'
   'NSEvent.eventWithEventRef:':
     'prefix': 'eventWithEventRef:'
-    'body': 'NSEvent.eventWithEventRef(${1:void* eventRef})'
+    'body': 'eventWithEventRef(${1:void* eventRef})'
   'hasPreciseScrollingDeltas':
     'prefix': 'hasPreciseScrollingDeltas'
     'body': 'hasPreciseScrollingDeltas()'
@@ -12214,22 +12214,22 @@
     'body': 'isEnteringProximity()'
   'NSEvent.isMouseCoalescingEnabled':
     'prefix': 'isMouseCoalescingEnabled'
-    'body': 'NSEvent.isMouseCoalescingEnabled()'
+    'body': 'isMouseCoalescingEnabled()'
   'NSEvent.isSwipeTrackingFromScrollEventsEnabled':
     'prefix': 'isSwipeTrackingFromScrollEventsEnabled'
-    'body': 'NSEvent.isSwipeTrackingFromScrollEventsEnabled()'
+    'body': 'isSwipeTrackingFromScrollEventsEnabled()'
   'keyCode':
     'prefix': 'keyCode'
     'body': 'KeyCode()'
   'NSEvent.keyEventWithType:location:modifierFlags:timestamp:windowNumber:context:characters:charactersIgnoringModifiers:isARepeat:keyCode:':
     'prefix': 'keyEventWithType:location:modifierFlags:timestamp:windowNumber:context:characters:charactersIgnoringModifiers:isARepeat:keyCode:'
-    'body': 'NSEvent.keyEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, characters:${7:NSString* keys}, charactersIgnoringModifiers:${8:NSString* ukeys}, isARepeat:${9:BOOL flag}, keyCode:${10:unsigned short code})'
+    'body': 'KeyEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, characters:${7:NSString* keys}, charactersIgnoringModifiers:${8:NSString* ukeys}, isARepeat:${9:BOOL flag}, keyCode:${10:unsigned short code})'
   'NSEvent.keyRepeatDelay':
     'prefix': 'keyRepeatDelay'
-    'body': 'NSEvent.keyRepeatDelay()'
+    'body': 'KeyRepeatDelay()'
   'NSEvent.keyRepeatInterval':
     'prefix': 'keyRepeatInterval'
-    'body': 'NSEvent.keyRepeatInterval()'
+    'body': 'KeyRepeatInterval()'
   'locationInWindow':
     'prefix': 'locationInWindow'
     'body': 'locationInWindow()'
@@ -12238,7 +12238,7 @@
     'body': 'magnification()'
   'NSEvent.modifierFlags':
     'prefix': 'modifierFlags'
-    'body': 'NSEvent.modifierFlags()'
+    'body': 'modifierFlags()'
   'modifierFlags':
     'prefix': 'modifierFlags'
     'body': 'modifierFlags()'
@@ -12247,13 +12247,13 @@
     'body': 'momentumPhase()'
   'NSEvent.mouseEventWithType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:clickCount:pressure:':
     'prefix': 'mouseEventWithType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:clickCount:pressure:'
-    'body': 'NSEvent.mouseEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, eventNumber:${7:NSInteger eNum}, clickCount:${8:NSInteger cNum}, pressure:${9:float pressure})'
+    'body': 'mouseEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, eventNumber:${7:NSInteger eNum}, clickCount:${8:NSInteger cNum}, pressure:${9:float pressure})'
   'NSEvent.mouseLocation':
     'prefix': 'mouseLocation'
-    'body': 'NSEvent.mouseLocation()'
+    'body': 'mouseLocation()'
   'NSEvent.otherEventWithType:location:modifierFlags:timestamp:windowNumber:context:subtype:data1:data2:':
     'prefix': 'otherEventWithType:location:modifierFlags:timestamp:windowNumber:context:subtype:data1:data2:'
-    'body': 'NSEvent.otherEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, subtype:${7:short subtype}, data1:${8:NSInteger d1}, data2:${9:NSInteger d2})'
+    'body': 'otherEventWithType(${1:NSEventType type}, location:${2:NSPoint location}, modifierFlags:${3:NSUInteger flags}, timestamp:${4:NSTimeInterval time}, windowNumber:${5:NSInteger wNum}, context:${6:NSGraphicsContext* context}, subtype:${7:short subtype}, data1:${8:NSInteger d1}, data2:${9:NSInteger d2})'
   'phase':
     'prefix': 'phase'
     'body': 'phase()'
@@ -12268,13 +12268,13 @@
     'body': 'pointingDeviceType()'
   'NSEvent.pressedMouseButtons':
     'prefix': 'pressedMouseButtons'
-    'body': 'NSEvent.pressedMouseButtons()'
+    'body': 'pressedMouseButtons()'
   'pressure':
     'prefix': 'pressure'
     'body': 'pressure()'
   'NSEvent.removeMonitor:':
     'prefix': 'removeMonitor:'
-    'body': 'NSEvent.removeMonitor(${1:id eventMonitor})'
+    'body': 'removeMonitor(${1:id eventMonitor})'
   'rotation':
     'prefix': 'rotation'
     'body': 'rotation()'
@@ -12286,13 +12286,13 @@
     'body': 'scrollingDeltaY()'
   'NSEvent.setMouseCoalescingEnabled:':
     'prefix': 'setMouseCoalescingEnabled:'
-    'body': 'NSEvent.setMouseCoalescingEnabled(${1:BOOL flag})'
+    'body': 'setMouseCoalescingEnabled(${1:BOOL flag})'
   'NSEvent.startPeriodicEventsAfterDelay:withPeriod:':
     'prefix': 'startPeriodicEventsAfterDelay:withPeriod:'
-    'body': 'NSEvent.startPeriodicEventsAfterDelay(${1:NSTimeInterval delay}, withPeriod:${2:NSTimeInterval period})'
+    'body': 'startPeriodicEventsAfterDelay(${1:NSTimeInterval delay}, withPeriod:${2:NSTimeInterval period})'
   'NSEvent.stopPeriodicEvents':
     'prefix': 'stopPeriodicEvents'
-    'body': 'NSEvent.stopPeriodicEvents()'
+    'body': 'stopPeriodicEvents()'
   'subtype':
     'prefix': 'subtype'
     'body': 'subtype()'
@@ -12364,7 +12364,7 @@
     'body': 'ascender()'
   'NSFont.boldSystemFontOfSize:':
     'prefix': 'boldSystemFontOfSize:'
-    'body': 'NSFont.boldSystemFontOfSize(${1:CGFloat fontSize})'
+    'body': 'boldSystemFontOfSize(${1:CGFloat fontSize})'
   'boundingRectForFont':
     'prefix': 'boundingRectForFont'
     'body': 'boundingRectForFont()'
@@ -12376,7 +12376,7 @@
     'body': 'capHeight()'
   'NSFont.controlContentFontOfSize:':
     'prefix': 'controlContentFontOfSize:'
-    'body': 'NSFont.controlContentFontOfSize(${1:CGFloat fontSize})'
+    'body': 'controlContentFontOfSize(${1:CGFloat fontSize})'
   'coveredCharacterSet':
     'prefix': 'coveredCharacterSet'
     'body': 'coveredCharacterSet()'
@@ -12403,16 +12403,16 @@
     'body': 'fontName()'
   'NSFont.fontWithDescriptor:size:':
     'prefix': 'fontWithDescriptor:size:'
-    'body': 'NSFont.fontWithDescriptor(${1:NSFontDescriptor* fontDescriptor}, size:${2:CGFloat fontSize})'
+    'body': 'fontWithDescriptor(${1:NSFontDescriptor* fontDescriptor}, size:${2:CGFloat fontSize})'
   'NSFont.fontWithDescriptor:textTransform:':
     'prefix': 'fontWithDescriptor:textTransform:'
-    'body': 'NSFont.fontWithDescriptor(${1:NSFontDescriptor* fontDescriptor}, textTransform:${2:NSAffineTransform* textTransform})'
+    'body': 'fontWithDescriptor(${1:NSFontDescriptor* fontDescriptor}, textTransform:${2:NSAffineTransform* textTransform})'
   'NSFont.fontWithName:matrix:':
     'prefix': 'fontWithName:matrix:'
-    'body': 'NSFont.fontWithName(${1:NSString* fontName}, matrix:${2:CGFloat* fontMatrix})'
+    'body': 'fontWithName(${1:NSString* fontName}, matrix:${2:CGFloat* fontMatrix})'
   'NSFont.fontWithName:size:':
     'prefix': 'fontWithName:size:'
-    'body': 'NSFont.fontWithName(${1:NSString* fontName}, size:${2:CGFloat fontSize})'
+    'body': 'fontWithName(${1:NSString* fontName}, size:${2:CGFloat fontSize})'
   'getAdvancements:forGlyphs:count:':
     'prefix': 'getAdvancements:forGlyphs:count:'
     'body': 'getAdvancements(${1:NSSizeArray advancements}, forGlyphs:${2:NSGlyph* glyphs}, count:${3:NSUInteger glyphCount})'
@@ -12445,10 +12445,10 @@
     'body': 'italicAngle()'
   'NSFont.labelFontOfSize:':
     'prefix': 'labelFontOfSize:'
-    'body': 'NSFont.labelFontOfSize(${1:CGFloat fontSize})'
+    'body': 'labelFontOfSize(${1:CGFloat fontSize})'
   'NSFont.labelFontSize':
     'prefix': 'labelFontSize'
-    'body': 'NSFont.labelFontSize()'
+    'body': 'labelFontSize()'
   'leading':
     'prefix': 'leading'
     'body': 'leading()'
@@ -12460,13 +12460,13 @@
     'body': 'maximumAdvancement()'
   'NSFont.menuBarFontOfSize:':
     'prefix': 'menuBarFontOfSize:'
-    'body': 'NSFont.menuBarFontOfSize(${1:CGFloat fontSize})'
+    'body': 'menuBarFontOfSize(${1:CGFloat fontSize})'
   'NSFont.menuFontOfSize:':
     'prefix': 'menuFontOfSize:'
-    'body': 'NSFont.menuFontOfSize(${1:CGFloat fontSize})'
+    'body': 'menuFontOfSize(${1:CGFloat fontSize})'
   'NSFont.messageFontOfSize:':
     'prefix': 'messageFontOfSize:'
-    'body': 'NSFont.messageFontOfSize(${1:CGFloat fontSize})'
+    'body': 'messageFontOfSize(${1:CGFloat fontSize})'
   'mostCompatibleStringEncoding':
     'prefix': 'mostCompatibleStringEncoding'
     'body': 'mostCompatibleStringEncoding()'
@@ -12475,7 +12475,7 @@
     'body': 'numberOfGlyphs()'
   'NSFont.paletteFontOfSize:':
     'prefix': 'paletteFontOfSize:'
-    'body': 'NSFont.paletteFontOfSize(${1:CGFloat fontSize})'
+    'body': 'paletteFontOfSize(${1:CGFloat fontSize})'
   'pointSize':
     'prefix': 'pointSize'
     'body': 'pointSize()'
@@ -12499,7 +12499,7 @@
     'body': 'positionsForCompositeSequence(${1:NSGlyph* someGlyphs}, numberOfGlyphs:${2:NSInteger numGlyphs}, pointArray:${3:NSPointArray points})'
   'NSFont.preferredFontNames':
     'prefix': 'preferredFontNames'
-    'body': 'NSFont.preferredFontNames()'
+    'body': 'preferredFontNames()'
   'printerFont':
     'prefix': 'printerFont'
     'body': 'printerFont()'
@@ -12520,34 +12520,34 @@
     'body': 'setInContext(${1:NSGraphicsContext* graphicsContext})'
   'NSFont.setPreferredFontNames:':
     'prefix': 'setPreferredFontNames:'
-    'body': 'NSFont.setPreferredFontNames(${1:NSArray* fontNameArray})'
+    'body': 'setPreferredFontNames(${1:NSArray* fontNameArray})'
   'NSFont.setUserFixedPitchFont:':
     'prefix': 'setUserFixedPitchFont:'
-    'body': 'NSFont.setUserFixedPitchFont(${1:NSFont* aFont})'
+    'body': 'setUserFixedPitchFont(${1:NSFont* aFont})'
   'NSFont.setUserFont:':
     'prefix': 'setUserFont:'
-    'body': 'NSFont.setUserFont(${1:NSFont* aFont})'
+    'body': 'setUserFont(${1:NSFont* aFont})'
   'NSFont.smallSystemFontSize':
     'prefix': 'smallSystemFontSize'
-    'body': 'NSFont.smallSystemFontSize()'
+    'body': 'smallSystemFontSize()'
   'NSFont.systemFontOfSize:':
     'prefix': 'systemFontOfSize:'
-    'body': 'NSFont.systemFontOfSize(${1:CGFloat fontSize})'
+    'body': 'systemFontOfSize(${1:CGFloat fontSize})'
   'NSFont.systemFontSize':
     'prefix': 'systemFontSize'
-    'body': 'NSFont.systemFontSize()'
+    'body': 'systemFontSize()'
   'NSFont.systemFontSizeForControlSize:':
     'prefix': 'systemFontSizeForControlSize:'
-    'body': 'NSFont.systemFontSizeForControlSize(${1:NSControlSize controlSize})'
+    'body': 'systemFontSizeForControlSize(${1:NSControlSize controlSize})'
   'textTransform':
     'prefix': 'textTransform'
     'body': 'textTransform()'
   'NSFont.titleBarFontOfSize:':
     'prefix': 'titleBarFontOfSize:'
-    'body': 'NSFont.titleBarFontOfSize(${1:CGFloat fontSize})'
+    'body': 'titleBarFontOfSize(${1:CGFloat fontSize})'
   'NSFont.toolTipsFontOfSize:':
     'prefix': 'toolTipsFontOfSize:'
-    'body': 'NSFont.toolTipsFontOfSize(${1:CGFloat fontSize})'
+    'body': 'toolTipsFontOfSize(${1:CGFloat fontSize})'
   'underlinePosition':
     'prefix': 'underlinePosition'
     'body': 'underlinePosition()'
@@ -12556,13 +12556,13 @@
     'body': 'underlineThickness()'
   'NSFont.useFont:':
     'prefix': 'useFont:'
-    'body': 'NSFont.useFont(${1:NSString* fontName})'
+    'body': 'useFont(${1:NSString* fontName})'
   'NSFont.userFixedPitchFontOfSize:':
     'prefix': 'userFixedPitchFontOfSize:'
-    'body': 'NSFont.userFixedPitchFontOfSize(${1:CGFloat fontSize})'
+    'body': 'userFixedPitchFontOfSize(${1:CGFloat fontSize})'
   'NSFont.userFontOfSize:':
     'prefix': 'userFontOfSize:'
-    'body': 'NSFont.userFontOfSize(${1:CGFloat fontSize})'
+    'body': 'userFontOfSize(${1:CGFloat fontSize})'
   'verticalFont':
     'prefix': 'verticalFont'
     'body': 'verticalFont()'
@@ -12574,28 +12574,28 @@
     'body': 'xHeight()'
   'NSFontCollection.allFontCollectionNames':
     'prefix': 'allFontCollectionNames'
-    'body': 'NSFontCollection.allFontCollectionNames()'
+    'body': 'allFontCollectionNames()'
   'exclusionDescriptors':
     'prefix': 'exclusionDescriptors'
     'body': 'exclusionDescriptors()'
   'NSFontCollection.fontCollectionWithAllAvailableDescriptors':
     'prefix': 'fontCollectionWithAllAvailableDescriptors'
-    'body': 'NSFontCollection.fontCollectionWithAllAvailableDescriptors()'
+    'body': 'fontCollectionWithAllAvailableDescriptors()'
   'NSFontCollection.fontCollectionWithDescriptors:':
     'prefix': 'fontCollectionWithDescriptors:'
-    'body': 'NSFontCollection.fontCollectionWithDescriptors(${1:NSArray* queryDescriptors})'
+    'body': 'fontCollectionWithDescriptors(${1:NSArray* queryDescriptors})'
   'NSFontCollection.fontCollectionWithLocale:':
     'prefix': 'fontCollectionWithLocale:'
-    'body': 'NSFontCollection.fontCollectionWithLocale(${1:NSLocale* locale})'
+    'body': 'fontCollectionWithLocale(${1:NSLocale* locale})'
   'NSFontCollection.fontCollectionWithName:':
     'prefix': 'fontCollectionWithName:'
-    'body': 'NSFontCollection.fontCollectionWithName(${1:NSString* name})'
+    'body': 'fontCollectionWithName(${1:NSString* name})'
   'NSFontCollection.fontCollectionWithName:visibility:':
     'prefix': 'fontCollectionWithName:visibility:'
-    'body': 'NSFontCollection.fontCollectionWithName(${1:NSString* name}, visibility:${2:NSFontCollectionVisibility visibility})'
+    'body': 'fontCollectionWithName(${1:NSString* name}, visibility:${2:NSFontCollectionVisibility visibility})'
   'NSFontCollection.hideFontCollectionWithName:visibility:error:':
     'prefix': 'hideFontCollectionWithName:visibility:error:'
-    'body': 'NSFontCollection.hideFontCollectionWithName(${1:NSString* name}, visibility:${2:NSFontCollectionVisibility visibility}, error:${3:NSError** error})'
+    'body': 'hideFontCollectionWithName(${1:NSString* name}, visibility:${2:NSFontCollectionVisibility visibility}, error:${3:NSError** error})'
   'matchingDescriptors':
     'prefix': 'matchingDescriptors'
     'body': 'matchingDescriptors()'
@@ -12613,10 +12613,10 @@
     'body': 'queryDescriptors()'
   'NSFontCollection.renameFontCollectionWithName:visibility:toName:error:':
     'prefix': 'renameFontCollectionWithName:visibility:toName:error:'
-    'body': 'NSFontCollection.renameFontCollectionWithName(${1:NSString* name}, visibility:${2:NSFontCollectionVisibility visibility}, toName:${3:NSString* name}, error:${4:NSError** error})'
+    'body': 'renameFontCollectionWithName(${1:NSString* name}, visibility:${2:NSFontCollectionVisibility visibility}, toName:${3:NSString* name}, error:${4:NSError** error})'
   'NSFontCollection.showFontCollection:withName:visibility:error:':
     'prefix': 'showFontCollection:withName:visibility:error:'
-    'body': 'NSFontCollection.showFontCollection(${1:NSFontCollection* collection}, withName:${2:NSString* name}, visibility:${3:NSFontCollectionVisibility visibility}, error:${4:NSError** error})'
+    'body': 'showFontCollection(${1:NSFontCollection* collection}, withName:${2:NSString* name}, visibility:${3:NSFontCollectionVisibility visibility}, error:${4:NSError** error})'
   'fontAttributes':
     'prefix': 'fontAttributes'
     'body': 'fontAttributes()'
@@ -12631,16 +12631,16 @@
     'body': 'fontDescriptorWithFamily(${1:NSString* newFamily})'
   'NSFontDescriptor.fontDescriptorWithFontAttributes:':
     'prefix': 'fontDescriptorWithFontAttributes:'
-    'body': 'NSFontDescriptor.fontDescriptorWithFontAttributes(${1:NSDictionary* attributes})'
+    'body': 'fontDescriptorWithFontAttributes(${1:NSDictionary* attributes})'
   'fontDescriptorWithMatrix:':
     'prefix': 'fontDescriptorWithMatrix:'
     'body': 'fontDescriptorWithMatrix(${1:NSAffineTransform* matrix})'
   'NSFontDescriptor.fontDescriptorWithName:matrix:':
     'prefix': 'fontDescriptorWithName:matrix:'
-    'body': 'NSFontDescriptor.fontDescriptorWithName(${1:NSString* fontName}, matrix:${2:NSAffineTransform* matrix})'
+    'body': 'fontDescriptorWithName(${1:NSString* fontName}, matrix:${2:NSAffineTransform* matrix})'
   'NSFontDescriptor.fontDescriptorWithName:size:':
     'prefix': 'fontDescriptorWithName:size:'
-    'body': 'NSFontDescriptor.fontDescriptorWithName(${1:NSString* fontName}, size:${2:CGFloat size})'
+    'body': 'fontDescriptorWithName(${1:NSString* fontName}, size:${2:CGFloat size})'
   'fontDescriptorWithSize:':
     'prefix': 'fontDescriptorWithSize:'
     'body': 'fontDescriptorWithSize(${1:CGFloat newPointSize})'
@@ -12796,13 +12796,13 @@
     'body': 'setEnabled(${1:BOOL flag})'
   'NSFontManager.setFontManagerFactory:':
     'prefix': 'setFontManagerFactory:'
-    'body': 'NSFontManager.setFontManagerFactory(${1:Class factoryId})'
+    'body': 'setFontManagerFactory(${1:Class factoryId})'
   'setFontMenu:':
     'prefix': 'setFontMenu:'
     'body': 'setFontMenu(${1:NSMenu* newMenu})'
   'NSFontManager.setFontPanelFactory:':
     'prefix': 'setFontPanelFactory:'
-    'body': 'NSFontManager.setFontPanelFactory(${1:Class factoryId})'
+    'body': 'setFontPanelFactory(${1:Class factoryId})'
   'setSelectedAttributes:isMultiple:':
     'prefix': 'setSelectedAttributes:isMultiple:'
     'body': 'setSelectedAttributes(${1:NSDictionary* attributes}, isMultiple:${2:BOOL flag})'
@@ -12814,7 +12814,7 @@
     'body': 'setTarget(${1:id aTarget})'
   'NSFontManager.sharedFontManager':
     'prefix': 'sharedFontManager'
-    'body': 'NSFontManager.sharedFontManager()'
+    'body': 'sharedFontManager()'
   'target':
     'prefix': 'target'
     'body': 'target()'
@@ -12847,10 +12847,10 @@
     'body': 'setPanelFont(${1:NSFont* fontObj}, isMultiple:${2:BOOL flag})'
   'NSFontPanel.sharedFontPanel':
     'prefix': 'sharedFontPanel'
-    'body': 'NSFontPanel.sharedFontPanel()'
+    'body': 'sharedFontPanel()'
   'NSFontPanel.sharedFontPanelExists':
     'prefix': 'sharedFontPanelExists'
-    'body': 'NSFontPanel.sharedFontPanelExists()'
+    'body': 'sharedFontPanelExists()'
   'worksWhenModal':
     'prefix': 'worksWhenModal'
     'body': 'worksWhenModal()'
@@ -12988,7 +12988,7 @@
     'body': 'generateGlyphsForGlyphStorage(${1:id glyphStorage}, desiredNumberOfCharacters:${2:NSUInteger nChars}, glyphIndex:${3:NSUInteger* glyphIndex}, characterIndex:${4:NSUInteger* charIndex})'
   'NSGlyphGenerator.sharedGlyphGenerator':
     'prefix': 'sharedGlyphGenerator'
-    'body': 'NSGlyphGenerator.sharedGlyphGenerator()'
+    'body': 'sharedGlyphGenerator()'
   'characterCollection':
     'prefix': 'characterCollection'
     'body': 'characterCollection()'
@@ -12997,13 +12997,13 @@
     'body': 'characterIdentifier()'
   'NSGlyphInfo.glyphInfoWithCharacterIdentifier:collection:baseString:':
     'prefix': 'glyphInfoWithCharacterIdentifier:collection:baseString:'
-    'body': 'NSGlyphInfo.glyphInfoWithCharacterIdentifier(${1:NSUInteger cid}, collection:${2:NSCharacterCollection characterCollection}, baseString:${3:NSString* theString})'
+    'body': 'glyphInfoWithCharacterIdentifier(${1:NSUInteger cid}, collection:${2:NSCharacterCollection characterCollection}, baseString:${3:NSString* theString})'
   'NSGlyphInfo.glyphInfoWithGlyph:forFont:baseString:':
     'prefix': 'glyphInfoWithGlyph:forFont:baseString:'
-    'body': 'NSGlyphInfo.glyphInfoWithGlyph(${1:NSGlyph glyph}, forFont:${2:NSFont* font}, baseString:${3:NSString* theString})'
+    'body': 'glyphInfoWithGlyph(${1:NSGlyph glyph}, forFont:${2:NSFont* font}, baseString:${3:NSString* theString})'
   'NSGlyphInfo.glyphInfoWithGlyphName:forFont:baseString:':
     'prefix': 'glyphInfoWithGlyphName:forFont:baseString:'
-    'body': 'NSGlyphInfo.glyphInfoWithGlyphName(${1:NSString* glyphName}, forFont:${2:NSFont* font}, baseString:${3:NSString* theString})'
+    'body': 'glyphInfoWithGlyphName(${1:NSString* glyphName}, forFont:${2:NSFont* font}, baseString:${3:NSString* theString})'
   'glyphName':
     'prefix': 'glyphName'
     'body': 'glyphName()'
@@ -13063,25 +13063,25 @@
     'body': 'compositingOperation()'
   'NSGraphicsContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'NSGraphicsContext.currentContext()'
+    'body': 'currentContext()'
   'NSGraphicsContext.currentContextDrawingToScreen':
     'prefix': 'currentContextDrawingToScreen'
-    'body': 'NSGraphicsContext.currentContextDrawingToScreen()'
+    'body': 'currentContextDrawingToScreen()'
   'flushGraphics':
     'prefix': 'flushGraphics'
     'body': 'flushGraphics()'
   'NSGraphicsContext.graphicsContextWithAttributes:':
     'prefix': 'graphicsContextWithAttributes:'
-    'body': 'NSGraphicsContext.graphicsContextWithAttributes(${1:NSDictionary* attributes})'
+    'body': 'graphicsContextWithAttributes(${1:NSDictionary* attributes})'
   'NSGraphicsContext.graphicsContextWithBitmapImageRep:':
     'prefix': 'graphicsContextWithBitmapImageRep:'
-    'body': 'NSGraphicsContext.graphicsContextWithBitmapImageRep(${1:NSBitmapImageRep* bitmapRep})'
+    'body': 'graphicsContextWithBitmapImageRep(${1:NSBitmapImageRep* bitmapRep})'
   'NSGraphicsContext.graphicsContextWithGraphicsPort:flipped:':
     'prefix': 'graphicsContextWithGraphicsPort:flipped:'
-    'body': 'NSGraphicsContext.graphicsContextWithGraphicsPort(${1:void* graphicsPort}, flipped:${2:BOOL initialFlippedState})'
+    'body': 'graphicsContextWithGraphicsPort(${1:void* graphicsPort}, flipped:${2:BOOL initialFlippedState})'
   'NSGraphicsContext.graphicsContextWithWindow:':
     'prefix': 'graphicsContextWithWindow:'
-    'body': 'NSGraphicsContext.graphicsContextWithWindow(${1:NSWindow* window})'
+    'body': 'graphicsContextWithWindow(${1:NSWindow* window})'
   'graphicsPort':
     'prefix': 'graphicsPort'
     'body': 'graphicsPort()'
@@ -13099,13 +13099,13 @@
     'body': 'patternPhase()'
   'NSGraphicsContext.restoreGraphicsState':
     'prefix': 'restoreGraphicsState'
-    'body': 'NSGraphicsContext.restoreGraphicsState()'
+    'body': 'restoreGraphicsState()'
   'restoreGraphicsState':
     'prefix': 'restoreGraphicsState'
     'body': 'restoreGraphicsState()'
   'NSGraphicsContext.saveGraphicsState':
     'prefix': 'saveGraphicsState'
-    'body': 'NSGraphicsContext.saveGraphicsState()'
+    'body': 'saveGraphicsState()'
   'saveGraphicsState':
     'prefix': 'saveGraphicsState'
     'body': 'saveGraphicsState()'
@@ -13117,10 +13117,10 @@
     'body': 'setCompositingOperation(${1:NSCompositingOperation operation})'
   'NSGraphicsContext.setCurrentContext:':
     'prefix': 'setCurrentContext:'
-    'body': 'NSGraphicsContext.setCurrentContext(${1:NSGraphicsContext* context})'
+    'body': 'setCurrentContext(${1:NSGraphicsContext* context})'
   'NSGraphicsContext.setGraphicsState:':
     'prefix': 'setGraphicsState:'
-    'body': 'NSGraphicsContext.setGraphicsState(${1:NSInteger gState})'
+    'body': 'setGraphicsState(${1:NSInteger gState})'
   'setImageInterpolation:':
     'prefix': 'setImageInterpolation:'
     'body': 'setImageInterpolation(${1:NSImageInterpolation interpolation})'
@@ -13141,7 +13141,7 @@
     'body': 'findString(${1:NSString* query}, inBook:${2:NSString* book})'
   'NSHelpManager.isContextHelpModeActive':
     'prefix': 'isContextHelpModeActive'
-    'body': 'NSHelpManager.isContextHelpModeActive()'
+    'body': 'isContextHelpModeActive()'
   'openHelpAnchor:inBook:':
     'prefix': 'openHelpAnchor:inBook:'
     'body': 'openHelpAnchor(${1:NSString* anchor}, inBook:${2:NSString* book})'
@@ -13156,10 +13156,10 @@
     'body': 'setContextHelp(${1:NSAttributedString* attrString}, forObject:${2:id object})'
   'NSHelpManager.setContextHelpModeActive:':
     'prefix': 'setContextHelpModeActive:'
-    'body': 'NSHelpManager.setContextHelpModeActive(${1:BOOL active})'
+    'body': 'setContextHelpModeActive(${1:BOOL active})'
   'NSHelpManager.sharedHelpManager':
     'prefix': 'sharedHelpManager'
-    'body': 'NSHelpManager.sharedHelpManager()'
+    'body': 'sharedHelpManager()'
   'showContextHelpForObject:locationHint:':
     'prefix': 'showContextHelpForObject:locationHint:'
     'body': 'showContextHelpForObject(${1:id object}, locationHint:${2:NSPoint pt})'
@@ -13201,7 +13201,7 @@
     'body': 'cacheMode()'
   'NSImage.canInitWithPasteboard:':
     'prefix': 'canInitWithPasteboard:'
-    'body': 'NSImage.canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
   'cancelIncrementalLoad':
     'prefix': 'cancelIncrementalLoad'
     'body': 'cancelIncrementalLoad()'
@@ -13246,28 +13246,28 @@
     'body': 'hitTestRect(${1:NSRect testRectDestSpace}, withImageDestinationRect:${2:NSRect imageRectDestSpace}, context:${3:NSGraphicsContext* context}, hints:${4:NSDictionary* hints}, flipped:${5:BOOL flipped})'
   'NSImage.imageFileTypes':
     'prefix': 'imageFileTypes'
-    'body': 'NSImage.imageFileTypes()'
+    'body': 'imageFileTypes()'
   'NSImage.imageNamed:':
     'prefix': 'imageNamed:'
-    'body': 'NSImage.imageNamed(${1:NSString* name})'
+    'body': 'imageNamed(${1:NSString* name})'
   'NSImage.imagePasteboardTypes':
     'prefix': 'imagePasteboardTypes'
-    'body': 'NSImage.imagePasteboardTypes()'
+    'body': 'imagePasteboardTypes()'
   'NSImage.imageTypes':
     'prefix': 'imageTypes'
-    'body': 'NSImage.imageTypes()'
+    'body': 'imageTypes()'
   'NSImage.imageUnfilteredFileTypes':
     'prefix': 'imageUnfilteredFileTypes'
-    'body': 'NSImage.imageUnfilteredFileTypes()'
+    'body': 'imageUnfilteredFileTypes()'
   'NSImage.imageUnfilteredPasteboardTypes':
     'prefix': 'imageUnfilteredPasteboardTypes'
-    'body': 'NSImage.imageUnfilteredPasteboardTypes()'
+    'body': 'imageUnfilteredPasteboardTypes()'
   'NSImage.imageUnfilteredTypes':
     'prefix': 'imageUnfilteredTypes'
-    'body': 'NSImage.imageUnfilteredTypes()'
+    'body': 'imageUnfilteredTypes()'
   'NSImage.imageWithSize:flipped:drawingHandler:':
     'prefix': 'imageWithSize:flipped:drawingHandler:'
-    'body': 'NSImage.imageWithSize(${1:NSSize size}, flipped:${2:BOOL drawingHandlerShouldBeCalledWithFlippedContext}, drawingHandler:${3:BOOL (^)(NSRect) drawingHandler})'
+    'body': 'imageWithSize(${1:NSSize size}, flipped:${2:BOOL drawingHandlerShouldBeCalledWithFlippedContext}, drawingHandler:${3:BOOL (^)(NSRect) drawingHandler})'
   'initByReferencingFile:':
     'prefix': 'initByReferencingFile:'
     'body': 'initByReferencingFile(${1:NSString* fileName})'
@@ -13438,10 +13438,10 @@
     'body': 'bitsPerSample()'
   'NSImageRep.canInitWithData:':
     'prefix': 'canInitWithData:'
-    'body': 'NSImageRep.canInitWithData(${1:NSData* data})'
+    'body': 'canInitWithData(${1:NSData* data})'
   'NSImageRep.canInitWithPasteboard:':
     'prefix': 'canInitWithPasteboard:'
-    'body': 'NSImageRep.canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
   'colorSpaceName':
     'prefix': 'colorSpaceName'
     'body': 'colorSpaceName()'
@@ -13462,52 +13462,52 @@
     'body': 'hasAlpha()'
   'NSImageRep.imageFileTypes':
     'prefix': 'imageFileTypes'
-    'body': 'NSImageRep.imageFileTypes()'
+    'body': 'imageFileTypes()'
   'NSImageRep.imagePasteboardTypes':
     'prefix': 'imagePasteboardTypes'
-    'body': 'NSImageRep.imagePasteboardTypes()'
+    'body': 'imagePasteboardTypes()'
   'NSImageRep.imageRepClassForData:':
     'prefix': 'imageRepClassForData:'
-    'body': 'NSImageRep.imageRepClassForData(${1:NSData* data})'
+    'body': 'imageRepClassForData(${1:NSData* data})'
   'NSImageRep.imageRepClassForFileType:':
     'prefix': 'imageRepClassForFileType:'
-    'body': 'NSImageRep.imageRepClassForFileType(${1:NSString* type})'
+    'body': 'imageRepClassForFileType(${1:NSString* type})'
   'NSImageRep.imageRepClassForPasteboardType:':
     'prefix': 'imageRepClassForPasteboardType:'
-    'body': 'NSImageRep.imageRepClassForPasteboardType(${1:NSString* type})'
+    'body': 'imageRepClassForPasteboardType(${1:NSString* type})'
   'NSImageRep.imageRepClassForType:':
     'prefix': 'imageRepClassForType:'
-    'body': 'NSImageRep.imageRepClassForType(${1:NSString* type})'
+    'body': 'imageRepClassForType(${1:NSString* type})'
   'NSImageRep.imageRepWithContentsOfFile:':
     'prefix': 'imageRepWithContentsOfFile:'
-    'body': 'NSImageRep.imageRepWithContentsOfFile(${1:NSString* filename})'
+    'body': 'imageRepWithContentsOfFile(${1:NSString* filename})'
   'NSImageRep.imageRepWithContentsOfURL:':
     'prefix': 'imageRepWithContentsOfURL:'
-    'body': 'NSImageRep.imageRepWithContentsOfURL(${1:NSURL* url})'
+    'body': 'imageRepWithContentsOfURL(${1:NSURL* url})'
   'NSImageRep.imageRepWithPasteboard:':
     'prefix': 'imageRepWithPasteboard:'
-    'body': 'NSImageRep.imageRepWithPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'imageRepWithPasteboard(${1:NSPasteboard* pasteboard})'
   'NSImageRep.imageRepsWithContentsOfFile:':
     'prefix': 'imageRepsWithContentsOfFile:'
-    'body': 'NSImageRep.imageRepsWithContentsOfFile(${1:NSString* filename})'
+    'body': 'imageRepsWithContentsOfFile(${1:NSString* filename})'
   'NSImageRep.imageRepsWithContentsOfURL:':
     'prefix': 'imageRepsWithContentsOfURL:'
-    'body': 'NSImageRep.imageRepsWithContentsOfURL(${1:NSURL* url})'
+    'body': 'imageRepsWithContentsOfURL(${1:NSURL* url})'
   'NSImageRep.imageRepsWithPasteboard:':
     'prefix': 'imageRepsWithPasteboard:'
-    'body': 'NSImageRep.imageRepsWithPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'imageRepsWithPasteboard(${1:NSPasteboard* pasteboard})'
   'NSImageRep.imageTypes':
     'prefix': 'imageTypes'
-    'body': 'NSImageRep.imageTypes()'
+    'body': 'imageTypes()'
   'NSImageRep.imageUnfilteredFileTypes':
     'prefix': 'imageUnfilteredFileTypes'
-    'body': 'NSImageRep.imageUnfilteredFileTypes()'
+    'body': 'imageUnfilteredFileTypes()'
   'NSImageRep.imageUnfilteredPasteboardTypes':
     'prefix': 'imageUnfilteredPasteboardTypes'
-    'body': 'NSImageRep.imageUnfilteredPasteboardTypes()'
+    'body': 'imageUnfilteredPasteboardTypes()'
   'NSImageRep.imageUnfilteredTypes':
     'prefix': 'imageUnfilteredTypes'
-    'body': 'NSImageRep.imageUnfilteredTypes()'
+    'body': 'imageUnfilteredTypes()'
   'isOpaque':
     'prefix': 'isOpaque'
     'body': 'isOpaque()'
@@ -13519,10 +13519,10 @@
     'body': 'pixelsWide()'
   'NSImageRep.registerImageRepClass:':
     'prefix': 'registerImageRepClass:'
-    'body': 'NSImageRep.registerImageRepClass(${1:Class imageRepClass})'
+    'body': 'registerImageRepClass(${1:Class imageRepClass})'
   'NSImageRep.registeredImageRepClasses':
     'prefix': 'registeredImageRepClasses'
-    'body': 'NSImageRep.registeredImageRepClasses()'
+    'body': 'registeredImageRepClasses()'
   'setAlpha:':
     'prefix': 'setAlpha:'
     'body': 'setAlpha(${1:BOOL flag})'
@@ -13549,7 +13549,7 @@
     'body': 'size()'
   'NSImageRep.unregisterImageRepClass:':
     'prefix': 'unregisterImageRepClass:'
-    'body': 'NSImageRep.unregisterImageRepClass(${1:Class imageRepClass})'
+    'body': 'unregisterImageRepClass(${1:Class imageRepClass})'
   'allowsCutCopyPaste':
     'prefix': 'allowsCutCopyPaste'
     'body': 'allowsCutCopyPaste()'
@@ -13594,13 +13594,13 @@
     'body': 'setImageScaling(${1:NSImageScaling newScaling})'
   'NSInputManager.currentInputManager':
     'prefix': 'currentInputManager'
-    'body': 'NSInputManager.currentInputManager()'
+    'body': 'currentInputManager()'
   'NSInputManager.cycleToNextInputLanguage:':
     'prefix': 'cycleToNextInputLanguage:'
-    'body': 'NSInputManager.cycleToNextInputLanguage(${1:id sender})'
+    'body': 'cycleToNextInputLanguage(${1:id sender})'
   'NSInputManager.cycleToNextInputServerInLanguage:':
     'prefix': 'cycleToNextInputServerInLanguage:'
-    'body': 'NSInputManager.cycleToNextInputServerInLanguage(${1:id sender})'
+    'body': 'cycleToNextInputServerInLanguage(${1:id sender})'
   'handleMouseEvent:':
     'prefix': 'handleMouseEvent:'
     'body': 'handleMouseEvent(${1:NSEvent* theMouseEvent})'
@@ -13642,10 +13642,10 @@
     'body': 'constant()'
   'NSLayoutConstraint.constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:':
     'prefix': 'constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:'
-    'body': 'NSLayoutConstraint.constraintWithItem(${1:id view1}, attribute:${2:NSLayoutAttribute attr1}, relatedBy:${3:NSLayoutRelation relation}, toItem:${4:id view2}, attribute:${5:NSLayoutAttribute attr2}, multiplier:${6:CGFloat multiplier}, constant:${7:CGFloat c})'
+    'body': 'constraintWithItem(${1:id view1}, attribute:${2:NSLayoutAttribute attr1}, relatedBy:${3:NSLayoutRelation relation}, toItem:${4:id view2}, attribute:${5:NSLayoutAttribute attr2}, multiplier:${6:CGFloat multiplier}, constant:${7:CGFloat c})'
   'NSLayoutConstraint.constraintsWithVisualFormat:options:metrics:views:':
     'prefix': 'constraintsWithVisualFormat:options:metrics:views:'
-    'body': 'NSLayoutConstraint.constraintsWithVisualFormat(${1:NSString* format}, options:${2:NSLayoutFormatOptions opts}, metrics:${3:NSDictionary* metrics}, views:${4:NSDictionary* views})'
+    'body': 'constraintsWithVisualFormat(${1:NSString* format}, options:${2:NSLayoutFormatOptions opts}, metrics:${3:NSDictionary* metrics}, views:${4:NSDictionary* views})'
   'firstAttribute':
     'prefix': 'firstAttribute'
     'body': 'firstAttribute()'
@@ -14515,7 +14515,7 @@
     'body': 'setVisible(${1:BOOL visible})'
   'NSMediaLibraryBrowserController.sharedMediaLibraryBrowserController':
     'prefix': 'sharedMediaLibraryBrowserController'
-    'body': 'NSMediaLibraryBrowserController.sharedMediaLibraryBrowserController()'
+    'body': 'sharedMediaLibraryBrowserController()'
   'togglePanel:':
     'prefix': 'togglePanel:'
     'body': 'togglePanel(${1:id sender})'
@@ -14611,7 +14611,7 @@
     'body': 'menuBarHeight()'
   'NSMenu.menuBarVisible':
     'prefix': 'menuBarVisible'
-    'body': 'NSMenu.menuBarVisible()'
+    'body': 'menuBarVisible()'
   'menuChangedMessagesEnabled':
     'prefix': 'menuChangedMessagesEnabled'
     'body': 'menuChangedMessagesEnabled()'
@@ -14620,7 +14620,7 @@
     'body': 'menuRepresentation()'
   'NSMenu.menuZone':
     'prefix': 'menuZone'
-    'body': 'NSMenu.menuZone()'
+    'body': 'menuZone()'
   'minimumWidth':
     'prefix': 'minimumWidth'
     'body': 'minimumWidth()'
@@ -14635,10 +14635,10 @@
     'body': 'performKeyEquivalent(${1:NSEvent* theEvent})'
   'NSMenu.popUpContextMenu:withEvent:forView:':
     'prefix': 'popUpContextMenu:withEvent:forView:'
-    'body': 'NSMenu.popUpContextMenu(${1:NSMenu* menu}, withEvent:${2:NSEvent* event}, forView:${3:NSView* view})'
+    'body': 'popUpContextMenu(${1:NSMenu* menu}, withEvent:${2:NSEvent* event}, forView:${3:NSView* view})'
   'NSMenu.popUpContextMenu:withEvent:forView:withFont:':
     'prefix': 'popUpContextMenu:withEvent:forView:withFont:'
-    'body': 'NSMenu.popUpContextMenu(${1:NSMenu* menu}, withEvent:${2:NSEvent* event}, forView:${3:NSView* view}, withFont:${4:NSFont* font})'
+    'body': 'popUpContextMenu(${1:NSMenu* menu}, withEvent:${2:NSEvent* event}, forView:${3:NSView* view}, withFont:${4:NSFont* font})'
   'popUpMenuPositioningItem:atLocation:inView:':
     'prefix': 'popUpMenuPositioningItem:atLocation:inView:'
     'body': 'popUpMenuPositioningItem(${1:NSMenuItem* item}, atLocation:${2:NSPoint location}, inView:${3:NSView* view})'
@@ -14671,7 +14671,7 @@
     'body': 'setFont(${1:NSFont* font})'
   'NSMenu.setMenuBarVisible:':
     'prefix': 'setMenuBarVisible:'
-    'body': 'NSMenu.setMenuBarVisible(${1:BOOL visible})'
+    'body': 'setMenuBarVisible(${1:BOOL visible})'
   'setMenuChangedMessagesEnabled:':
     'prefix': 'setMenuChangedMessagesEnabled:'
     'body': 'setMenuChangedMessagesEnabled(${1:BOOL flag})'
@@ -14680,7 +14680,7 @@
     'body': 'setMenuRepresentation(${1:id menuRep})'
   'NSMenu.setMenuZone:':
     'prefix': 'setMenuZone:'
-    'body': 'NSMenu.setMenuZone(${1:NSZone* aZone})'
+    'body': 'setMenuZone(${1:NSZone* aZone})'
   'setMinimumWidth:':
     'prefix': 'setMinimumWidth:'
     'body': 'setMinimumWidth(${1:CGFloat width})'
@@ -14791,7 +14791,7 @@
     'body': 'representedObject()'
   'NSMenuItem.separatorItem':
     'prefix': 'separatorItem'
-    'body': 'NSMenuItem.separatorItem()'
+    'body': 'separatorItem()'
   'setAction:':
     'prefix': 'setAction:'
     'body': 'setAction(${1:SEL aSelector})'
@@ -14860,7 +14860,7 @@
     'body': 'setToolTip(${1:NSString* toolTip})'
   'NSMenuItem.setUsesUserKeyEquivalents:':
     'prefix': 'setUsesUserKeyEquivalents:'
-    'body': 'NSMenuItem.setUsesUserKeyEquivalents(${1:BOOL flag})'
+    'body': 'setUsesUserKeyEquivalents(${1:BOOL flag})'
   'setView:':
     'prefix': 'setView:'
     'body': 'setView(${1:NSView* view})'
@@ -14887,7 +14887,7 @@
     'body': 'userKeyEquivalent()'
   'NSMenuItem.usesUserKeyEquivalents':
     'prefix': 'usesUserKeyEquivalents'
-    'body': 'NSMenuItem.usesUserKeyEquivalents()'
+    'body': 'usesUserKeyEquivalents()'
   'view':
     'prefix': 'view'
     'body': 'view()'
@@ -14968,7 +14968,7 @@
     'body': 'URL()'
   'NSMovie.canInitWithPasteboard:':
     'prefix': 'canInitWithPasteboard:'
-    'body': 'NSMovie.canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
   'initWithMovie:':
     'prefix': 'initWithMovie:'
     'body': 'initWithMovie(${1:void* movie})'
@@ -14980,10 +14980,10 @@
     'body': 'initWithURL(${1:NSURL* url}, byReference:${2:BOOL byRef})'
   'NSMovie.movieUnfilteredFileTypes':
     'prefix': 'movieUnfilteredFileTypes'
-    'body': 'NSMovie.movieUnfilteredFileTypes()'
+    'body': 'movieUnfilteredFileTypes()'
   'NSMovie.movieUnfilteredPasteboardTypes':
     'prefix': 'movieUnfilteredPasteboardTypes'
-    'body': 'NSMovie.movieUnfilteredPasteboardTypes()'
+    'body': 'movieUnfilteredPasteboardTypes()'
   'applyFontTraits:range:':
     'prefix': 'applyFontTraits:range:'
     'body': 'applyFontTraits(${1:NSFontTraitMask traitMask}, range:${2:NSRange range})'
@@ -15637,10 +15637,10 @@
     'body': 'datePickerCell(${1:NSDatePickerCell* aDatePickerCell}, validateProposedDateValue:${2:NSDate** proposedDateValue}, timeInterval:${3:NSTimeInterval* proposedTimeInterval})'
   'NSObject.defaultAnimationForKey:':
     'prefix': 'defaultAnimationForKey:'
-    'body': 'NSObject.defaultAnimationForKey(${1:NSString* key})'
+    'body': 'defaultAnimationForKey(${1:NSString* key})'
   'NSObject.defaultPlaceholderForMarker:withBinding:':
     'prefix': 'defaultPlaceholderForMarker:withBinding:'
-    'body': 'NSObject.defaultPlaceholderForMarker(${1:id marker}, withBinding:${2:NSString* binding})'
+    'body': 'defaultPlaceholderForMarker(${1:id marker}, withBinding:${2:NSString* binding})'
   'detachColorList:':
     'prefix': 'detachColorList:'
     'body': 'detachColorList(${1:NSColorList* colorList})'
@@ -15772,7 +15772,7 @@
     'body': 'enumerateDraggingItemsWithOptions(${1:NSDraggingItemEnumerationOptions enumOpts}, forView:${2:NSView* view}, classes:${3:NSArray* classArray}, searchOptions:${4:NSDictionary* searchOptions}, usingBlock:${5:void (^)(NSDraggingItem *, NSInteger, BOOL *) block})'
   'NSObject.exposeBinding:':
     'prefix': 'exposeBinding:'
-    'body': 'NSObject.exposeBinding(${1:NSString* binding})'
+    'body': 'exposeBinding(${1:NSString* binding})'
   'exposedBindings':
     'prefix': 'exposedBindings'
     'body': 'exposedBindings()'
@@ -16252,10 +16252,10 @@
     'body': 'readSelectionFromPasteboard(${1:NSPasteboard* pboard})'
   'NSObject.readableTypesForPasteboard:':
     'prefix': 'readableTypesForPasteboard:'
-    'body': 'NSObject.readableTypesForPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'readableTypesForPasteboard(${1:NSPasteboard* pasteboard})'
   'NSObject.readingOptionsForType:pasteboard:':
     'prefix': 'readingOptionsForType:pasteboard:'
-    'body': 'NSObject.readingOptionsForType(${1:NSString* type}, pasteboard:${2:NSPasteboard* pasteboard})'
+    'body': 'readingOptionsForType(${1:NSString* type}, pasteboard:${2:NSPasteboard* pasteboard})'
   'rectsForCharacterRange:':
     'prefix': 'rectsForCharacterRange:'
     'body': 'rectsForCharacterRange(${1:NSRange range})'
@@ -16264,7 +16264,7 @@
     'body': 'replaceCharactersInRange(${1:NSRange range}, withString:${2:NSString* string})'
   'NSObject.restoreWindowWithIdentifier:state:completionHandler:':
     'prefix': 'restoreWindowWithIdentifier:state:completionHandler:'
-    'body': 'NSObject.restoreWindowWithIdentifier(${1:NSString* identifier}, state:${2:NSCoder* state}, completionHandler:${3:void (^)(NSWindow *, NSError *) completionHandler})'
+    'body': 'restoreWindowWithIdentifier(${1:NSString* identifier}, state:${2:NSCoder* state}, completionHandler:${3:void (^)(NSWindow *, NSError *) completionHandler})'
   'rootItemForBrowser:':
     'prefix': 'rootItemForBrowser:'
     'body': 'rootItemForBrowser(${1:NSBrowser* browser})'
@@ -16318,7 +16318,7 @@
     'body': 'setColor(${1:NSColor* newColor})'
   'NSObject.setDefaultPlaceholder:forMarker:withBinding:':
     'prefix': 'setDefaultPlaceholder:forMarker:withBinding:'
-    'body': 'NSObject.setDefaultPlaceholder(${1:id placeholder}, forMarker:${2:id marker}, withBinding:${3:NSString* binding})'
+    'body': 'setDefaultPlaceholder(${1:id placeholder}, forMarker:${2:id marker}, withBinding:${3:NSString* binding})'
   'setDockTile:':
     'prefix': 'setDockTile:'
     'body': 'setDockTile(${1:NSDockTile* dockTile})'
@@ -17104,7 +17104,7 @@
     'body': 'CGLContextObj()'
   'NSOpenGLContext.clearCurrentContext':
     'prefix': 'clearCurrentContext'
-    'body': 'NSOpenGLContext.clearCurrentContext()'
+    'body': 'clearCurrentContext()'
   'clearDrawable':
     'prefix': 'clearDrawable'
     'body': 'clearDrawable()'
@@ -17116,7 +17116,7 @@
     'body': 'createTexture(${1:GLenum target}, fromView:${2:NSView* view}, internalFormat:${3:GLenum format})'
   'NSOpenGLContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'NSOpenGLContext.currentContext()'
+    'body': 'currentContext()'
   'currentVirtualScreen':
     'prefix': 'currentVirtualScreen'
     'body': 'currentVirtualScreen()'
@@ -17254,7 +17254,7 @@
     'body': 'clearGLContext()'
   'NSOpenGLView.defaultPixelFormat':
     'prefix': 'defaultPixelFormat'
-    'body': 'NSOpenGLView.defaultPixelFormat()'
+    'body': 'defaultPixelFormat()'
   'initWithFrame:pixelFormat:':
     'prefix': 'initWithFrame:pixelFormat:'
     'body': 'initWithFrame(${1:NSRect frameRect}, pixelFormat:${2:NSOpenGLPixelFormat* format})'
@@ -17302,7 +17302,7 @@
     'body': 'filenames()'
   'NSOpenPanel.openPanel':
     'prefix': 'openPanel'
-    'body': 'NSOpenPanel.openPanel()'
+    'body': 'openPanel()'
   'resolvesAliases':
     'prefix': 'resolvesAliases'
     'body': 'resolvesAliases()'
@@ -17440,7 +17440,7 @@
     'body': 'currentPage()'
   'NSPDFImageRep.imageRepWithData:':
     'prefix': 'imageRepWithData:'
-    'body': 'NSPDFImageRep.imageRepWithData(${1:NSData* pdfData})'
+    'body': 'imageRepWithData(${1:NSData* pdfData})'
   'initWithData:':
     'prefix': 'initWithData:'
     'body': 'initWithData(${1:NSData* pdfData})'
@@ -17497,7 +17497,7 @@
     'body': 'options()'
   'NSPDFPanel.panel':
     'prefix': 'panel'
-    'body': 'NSPDFPanel.panel()'
+    'body': 'panel()'
   'setAccessoryController:':
     'prefix': 'setAccessoryController:'
     'body': 'setAccessoryController(${1:NSViewController* accessoryController})'
@@ -17515,7 +17515,7 @@
     'body': 'boundingBox()'
   'NSPICTImageRep.imageRepWithData:':
     'prefix': 'imageRepWithData:'
-    'body': 'NSPICTImageRep.imageRepWithData(${1:NSData* pictData})'
+    'body': 'imageRepWithData(${1:NSData* pictData})'
   'initWithData:':
     'prefix': 'initWithData:'
     'body': 'initWithData(${1:NSData* pictData})'
@@ -17575,7 +17575,7 @@
     'body': 'beginSheetWithPrintInfo(${1:NSPrintInfo* printInfo}, modalForWindow:${2:NSWindow* docWindow}, delegate:${3:id delegate}, didEndSelector:${4:SEL didEndSelector}, contextInfo:${5:void* contextInfo})'
   'NSPageLayout.pageLayout':
     'prefix': 'pageLayout'
-    'body': 'NSPageLayout.pageLayout()'
+    'body': 'pageLayout()'
   'printInfo':
     'prefix': 'printInfo'
     'body': 'printInfo()'
@@ -17623,13 +17623,13 @@
     'body': 'baseWritingDirection()'
   'NSParagraphStyle.defaultParagraphStyle':
     'prefix': 'defaultParagraphStyle'
-    'body': 'NSParagraphStyle.defaultParagraphStyle()'
+    'body': 'defaultParagraphStyle()'
   'defaultTabInterval':
     'prefix': 'defaultTabInterval'
     'body': 'defaultTabInterval()'
   'NSParagraphStyle.defaultWritingDirectionForLanguage:':
     'prefix': 'defaultWritingDirectionForLanguage:'
-    'body': 'NSParagraphStyle.defaultWritingDirectionForLanguage(${1:NSString* languageName})'
+    'body': 'defaultWritingDirectionForLanguage(${1:NSString* languageName})'
   'firstLineHeadIndent':
     'prefix': 'firstLineHeadIndent'
     'body': 'firstLineHeadIndent()'
@@ -17704,7 +17704,7 @@
     'body': 'declareTypes(${1:NSArray* newTypes}, owner:${2:id newOwner})'
   'NSPasteboard.generalPasteboard':
     'prefix': 'generalPasteboard'
-    'body': 'NSPasteboard.generalPasteboard()'
+    'body': 'generalPasteboard()'
   'indexOfPasteboardItem:':
     'prefix': 'indexOfPasteboardItem:'
     'body': 'indexOfPasteboardItem(${1:NSPasteboardItem* pasteboardItem})'
@@ -17713,22 +17713,22 @@
     'body': 'name()'
   'NSPasteboard.pasteboardByFilteringData:ofType:':
     'prefix': 'pasteboardByFilteringData:ofType:'
-    'body': 'NSPasteboard.pasteboardByFilteringData(${1:NSData* data}, ofType:${2:NSString* type})'
+    'body': 'pasteboardByFilteringData(${1:NSData* data}, ofType:${2:NSString* type})'
   'NSPasteboard.pasteboardByFilteringFile:':
     'prefix': 'pasteboardByFilteringFile:'
-    'body': 'NSPasteboard.pasteboardByFilteringFile(${1:NSString* filename})'
+    'body': 'pasteboardByFilteringFile(${1:NSString* filename})'
   'NSPasteboard.pasteboardByFilteringTypesInPasteboard:':
     'prefix': 'pasteboardByFilteringTypesInPasteboard:'
-    'body': 'NSPasteboard.pasteboardByFilteringTypesInPasteboard(${1:NSPasteboard* pboard})'
+    'body': 'pasteboardByFilteringTypesInPasteboard(${1:NSPasteboard* pboard})'
   'pasteboardItems':
     'prefix': 'pasteboardItems'
     'body': 'pasteboardItems()'
   'NSPasteboard.pasteboardWithName:':
     'prefix': 'pasteboardWithName:'
-    'body': 'NSPasteboard.pasteboardWithName(${1:NSString* name})'
+    'body': 'pasteboardWithName(${1:NSString* name})'
   'NSPasteboard.pasteboardWithUniqueName':
     'prefix': 'pasteboardWithUniqueName'
-    'body': 'NSPasteboard.pasteboardWithUniqueName()'
+    'body': 'pasteboardWithUniqueName()'
   'propertyListForType:':
     'prefix': 'propertyListForType:'
     'body': 'propertyListForType(${1:NSString* dataType})'
@@ -17761,7 +17761,7 @@
     'body': 'types()'
   'NSPasteboard.typesFilterableTo:':
     'prefix': 'typesFilterableTo:'
-    'body': 'NSPasteboard.typesFilterableTo(${1:NSString* type})'
+    'body': 'typesFilterableTo(${1:NSString* type})'
   'writeFileContents:':
     'prefix': 'writeFileContents:'
     'body': 'writeFileContents(${1:NSString* filename})'
@@ -17827,7 +17827,7 @@
     'body': 'pathComponentCellAtPoint(${1:NSPoint point}, withFrame:${2:NSRect frame}, inView:${3:NSView* view})'
   'NSPathCell.pathComponentCellClass':
     'prefix': 'pathComponentCellClass'
-    'body': 'NSPathCell.pathComponentCellClass()'
+    'body': 'pathComponentCellClass()'
   'pathComponentCells':
     'prefix': 'pathComponentCells'
     'body': 'pathComponentCells()'
@@ -18319,7 +18319,7 @@
     'body': 'templateViews()'
   'NSPredicateEditorRowTemplate.templatesWithAttributeKeyPaths:inEntityDescription:':
     'prefix': 'templatesWithAttributeKeyPaths:inEntityDescription:'
-    'body': 'NSPredicateEditorRowTemplate.templatesWithAttributeKeyPaths(${1:NSArray* keyPaths}, inEntityDescription:${2:NSEntityDescription* entityDescription})'
+    'body': 'templatesWithAttributeKeyPaths(${1:NSArray* keyPaths}, inEntityDescription:${2:NSEntityDescription* entityDescription})'
   'PMPageFormat':
     'prefix': 'PMPageFormat'
     'body': 'PMPageFormat()'
@@ -18334,7 +18334,7 @@
     'body': 'bottomMargin()'
   'NSPrintInfo.defaultPrinter':
     'prefix': 'defaultPrinter'
-    'body': 'NSPrintInfo.defaultPrinter()'
+    'body': 'defaultPrinter()'
   'dictionary':
     'prefix': 'dictionary'
     'body': 'dictionary()'
@@ -18391,7 +18391,7 @@
     'body': 'setBottomMargin(${1:CGFloat margin})'
   'NSPrintInfo.setDefaultPrinter:':
     'prefix': 'setDefaultPrinter:'
-    'body': 'NSPrintInfo.setDefaultPrinter(${1:NSPrinter* printer})'
+    'body': 'setDefaultPrinter(${1:NSPrinter* printer})'
   'setHorizontalPagination:':
     'prefix': 'setHorizontalPagination:'
     'body': 'setHorizontalPagination(${1:NSPrintingPaginationMode mode})'
@@ -18427,7 +18427,7 @@
     'body': 'setSelectionOnly(${1:BOOL selectionOnly})'
   'NSPrintInfo.setSharedPrintInfo:':
     'prefix': 'setSharedPrintInfo:'
-    'body': 'NSPrintInfo.setSharedPrintInfo(${1:NSPrintInfo* printInfo})'
+    'body': 'setSharedPrintInfo(${1:NSPrintInfo* printInfo})'
   'setTopMargin:':
     'prefix': 'setTopMargin:'
     'body': 'setTopMargin(${1:CGFloat margin})'
@@ -18442,10 +18442,10 @@
     'body': 'setVerticallyCentered(${1:BOOL flag})'
   'NSPrintInfo.sharedPrintInfo':
     'prefix': 'sharedPrintInfo'
-    'body': 'NSPrintInfo.sharedPrintInfo()'
+    'body': 'sharedPrintInfo()'
   'NSPrintInfo.sizeForPaperName:':
     'prefix': 'sizeForPaperName:'
-    'body': 'NSPrintInfo.sizeForPaperName(${1:NSString* name})'
+    'body': 'sizeForPaperName(${1:NSString* name})'
   'takeSettingsFromPDFInfo:':
     'prefix': 'takeSettingsFromPDFInfo:'
     'body': 'takeSettingsFromPDFInfo(${1:NSPDFInfo* inPDFInfo})'
@@ -18463,22 +18463,22 @@
     'body': 'verticalPagination()'
   'NSPrintOperation.EPSOperationWithView:insideRect:toData:':
     'prefix': 'EPSOperationWithView:insideRect:toData:'
-    'body': 'NSPrintOperation.EPSOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data})'
+    'body': 'EPSOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data})'
   'NSPrintOperation.EPSOperationWithView:insideRect:toData:printInfo:':
     'prefix': 'EPSOperationWithView:insideRect:toData:printInfo:'
-    'body': 'NSPrintOperation.EPSOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data}, printInfo:${4:NSPrintInfo* printInfo})'
+    'body': 'EPSOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data}, printInfo:${4:NSPrintInfo* printInfo})'
   'NSPrintOperation.EPSOperationWithView:insideRect:toPath:printInfo:':
     'prefix': 'EPSOperationWithView:insideRect:toPath:printInfo:'
-    'body': 'NSPrintOperation.EPSOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toPath:${3:NSString* path}, printInfo:${4:NSPrintInfo* printInfo})'
+    'body': 'EPSOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toPath:${3:NSString* path}, printInfo:${4:NSPrintInfo* printInfo})'
   'NSPrintOperation.PDFOperationWithView:insideRect:toData:':
     'prefix': 'PDFOperationWithView:insideRect:toData:'
-    'body': 'NSPrintOperation.PDFOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data})'
+    'body': 'PDFOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data})'
   'NSPrintOperation.PDFOperationWithView:insideRect:toData:printInfo:':
     'prefix': 'PDFOperationWithView:insideRect:toData:printInfo:'
-    'body': 'NSPrintOperation.PDFOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data}, printInfo:${4:NSPrintInfo* printInfo})'
+    'body': 'PDFOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toData:${3:NSMutableData* data}, printInfo:${4:NSPrintInfo* printInfo})'
   'NSPrintOperation.PDFOperationWithView:insideRect:toPath:printInfo:':
     'prefix': 'PDFOperationWithView:insideRect:toPath:printInfo:'
-    'body': 'NSPrintOperation.PDFOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toPath:${3:NSString* path}, printInfo:${4:NSPrintInfo* printInfo})'
+    'body': 'PDFOperationWithView(${1:NSView* view}, insideRect:${2:NSRect rect}, toPath:${3:NSString* path}, printInfo:${4:NSPrintInfo* printInfo})'
   'PDFPanel':
     'prefix': 'PDFPanel'
     'body': 'PDFPanel()'
@@ -18499,7 +18499,7 @@
     'body': 'createContext()'
   'NSPrintOperation.currentOperation':
     'prefix': 'currentOperation'
-    'body': 'NSPrintOperation.currentOperation()'
+    'body': 'currentOperation()'
   'currentPage':
     'prefix': 'currentPage'
     'body': 'currentPage()'
@@ -18532,10 +18532,10 @@
     'body': 'printInfo()'
   'NSPrintOperation.printOperationWithView:':
     'prefix': 'printOperationWithView:'
-    'body': 'NSPrintOperation.printOperationWithView(${1:NSView* view})'
+    'body': 'printOperationWithView(${1:NSView* view})'
   'NSPrintOperation.printOperationWithView:printInfo:':
     'prefix': 'printOperationWithView:printInfo:'
-    'body': 'NSPrintOperation.printOperationWithView(${1:NSView* view}, printInfo:${2:NSPrintInfo* printInfo})'
+    'body': 'printOperationWithView(${1:NSView* view}, printInfo:${2:NSPrintInfo* printInfo})'
   'printPanel':
     'prefix': 'printPanel'
     'body': 'printPanel()'
@@ -18553,7 +18553,7 @@
     'body': 'setCanSpawnSeparateThread(${1:BOOL canSpawnSeparateThread})'
   'NSPrintOperation.setCurrentOperation:':
     'prefix': 'setCurrentOperation:'
-    'body': 'NSPrintOperation.setCurrentOperation(${1:NSPrintOperation* operation})'
+    'body': 'setCurrentOperation(${1:NSPrintOperation* operation})'
   'setJobStyleHint:':
     'prefix': 'setJobStyleHint:'
     'body': 'setJobStyleHint(${1:NSString* hint})'
@@ -18625,7 +18625,7 @@
     'body': 'printInfo()'
   'NSPrintPanel.printPanel':
     'prefix': 'printPanel'
-    'body': 'NSPrintPanel.printPanel()'
+    'body': 'printPanel()'
   'removeAccessoryController:':
     'prefix': 'removeAccessoryController:'
     'body': 'removeAccessoryController(${1:NSViewController* accessoryController})'
@@ -18703,19 +18703,19 @@
     'body': 'pageSizeForPaper(${1:NSString* paperName})'
   'NSPrinter.printerNames':
     'prefix': 'printerNames'
-    'body': 'NSPrinter.printerNames()'
+    'body': 'printerNames()'
   'NSPrinter.printerTypes':
     'prefix': 'printerTypes'
-    'body': 'NSPrinter.printerTypes()'
+    'body': 'printerTypes()'
   'NSPrinter.printerWithName:':
     'prefix': 'printerWithName:'
-    'body': 'NSPrinter.printerWithName(${1:NSString* name})'
+    'body': 'printerWithName(${1:NSString* name})'
   'NSPrinter.printerWithName:domain:includeUnavailable:':
     'prefix': 'printerWithName:domain:includeUnavailable:'
-    'body': 'NSPrinter.printerWithName(${1:NSString* name}, domain:${2:NSString* domain}, includeUnavailable:${3:BOOL flag})'
+    'body': 'printerWithName(${1:NSString* name}, domain:${2:NSString* domain}, includeUnavailable:${3:BOOL flag})'
   'NSPrinter.printerWithType:':
     'prefix': 'printerWithType:'
-    'body': 'NSPrinter.printerWithType(${1:NSString* type})'
+    'body': 'printerWithType(${1:NSString* type})'
   'rectForKey:inTable:':
     'prefix': 'rectForKey:inTable:'
     'body': 'rectForKey(${1:NSString* key}, inTable:${2:NSString* table})'
@@ -19153,7 +19153,7 @@
     'body': 'resignFirstResponder()'
   'NSResponder.restorableStateKeyPaths':
     'prefix': 'restorableStateKeyPaths'
-    'body': 'NSResponder.restorableStateKeyPaths()'
+    'body': 'restorableStateKeyPaths()'
   'restoreStateWithCoder:':
     'prefix': 'restoreStateWithCoder:'
     'body': 'restoreStateWithCoder(${1:NSCoder* coder})'
@@ -19513,7 +19513,7 @@
     'body': 'originOffset()'
   'NSRulerView.registerUnitWithName:abbreviation:unitToPointsConversionFactor:stepUpCycle:stepDownCycle:':
     'prefix': 'registerUnitWithName:abbreviation:unitToPointsConversionFactor:stepUpCycle:stepDownCycle:'
-    'body': 'NSRulerView.registerUnitWithName(${1:NSString* unitName}, abbreviation:${2:NSString* abbreviation}, unitToPointsConversionFactor:${3:CGFloat conversionFactor}, stepUpCycle:${4:NSArray* stepUpCycle}, stepDownCycle:${5:NSArray* stepDownCycle})'
+    'body': 'registerUnitWithName(${1:NSString* unitName}, abbreviation:${2:NSString* abbreviation}, unitToPointsConversionFactor:${3:CGFloat conversionFactor}, stepUpCycle:${4:NSArray* stepUpCycle}, stepDownCycle:${5:NSArray* stepDownCycle})'
   'removeMarker:':
     'prefix': 'removeMarker:'
     'body': 'removeMarker(${1:NSRulerMarker* marker})'
@@ -19579,7 +19579,7 @@
     'body': 'bundleURL()'
   'NSRunningApplication.currentApplication':
     'prefix': 'currentApplication'
-    'body': 'NSRunningApplication.currentApplication()'
+    'body': 'currentApplication()'
   'executableArchitecture':
     'prefix': 'executableArchitecture'
     'body': 'executableArchitecture()'
@@ -19621,16 +19621,16 @@
     'body': 'processIdentifier()'
   'NSRunningApplication.runningApplicationWithProcessIdentifier:':
     'prefix': 'runningApplicationWithProcessIdentifier:'
-    'body': 'NSRunningApplication.runningApplicationWithProcessIdentifier(${1:pid_t pid})'
+    'body': 'runningApplicationWithProcessIdentifier(${1:pid_t pid})'
   'NSRunningApplication.runningApplicationsWithBundleIdentifier:':
     'prefix': 'runningApplicationsWithBundleIdentifier:'
-    'body': 'NSRunningApplication.runningApplicationsWithBundleIdentifier(${1:NSString* bundleIdentifier})'
+    'body': 'runningApplicationsWithBundleIdentifier(${1:NSString* bundleIdentifier})'
   'terminate':
     'prefix': 'terminate'
     'body': 'terminate()'
   'NSRunningApplication.terminateAutomaticallyTerminableApplications':
     'prefix': 'terminateAutomaticallyTerminableApplications'
-    'body': 'NSRunningApplication.terminateAutomaticallyTerminableApplications()'
+    'body': 'terminateAutomaticallyTerminableApplications()'
   'unhide':
     'prefix': 'unhide'
     'body': 'unhide()'
@@ -19708,7 +19708,7 @@
     'body': 'runModalForDirectory(${1:NSString* path}, file:${2:NSString* name})'
   'NSSavePanel.savePanel':
     'prefix': 'savePanel'
-    'body': 'NSSavePanel.savePanel()'
+    'body': 'savePanel()'
   'selectText:':
     'prefix': 'selectText:'
     'body': 'selectText(${1:id sender})'
@@ -19804,7 +19804,7 @@
     'body': 'convertRectToBacking(${1:NSRect aRect})'
   'NSScreen.deepestScreen':
     'prefix': 'deepestScreen'
-    'body': 'NSScreen.deepestScreen()'
+    'body': 'deepestScreen()'
   'depth':
     'prefix': 'depth'
     'body': 'depth()'
@@ -19816,13 +19816,13 @@
     'body': 'frame()'
   'NSScreen.mainScreen':
     'prefix': 'mainScreen'
-    'body': 'NSScreen.mainScreen()'
+    'body': 'mainScreen()'
   'NSScreen.screens':
     'prefix': 'screens'
-    'body': 'NSScreen.screens()'
+    'body': 'screens()'
   'NSScreen.screensHaveSeparateSpaces':
     'prefix': 'screensHaveSeparateSpaces'
-    'body': 'NSScreen.screensHaveSeparateSpaces()'
+    'body': 'screensHaveSeparateSpaces()'
   'supportedWindowDepths':
     'prefix': 'supportedWindowDepths'
     'body': 'supportedWindowDepths()'
@@ -19852,10 +19852,10 @@
     'body': 'contentSize()'
   'NSScrollView.contentSizeForFrameSize:hasHorizontalScroller:hasVerticalScroller:borderType:':
     'prefix': 'contentSizeForFrameSize:hasHorizontalScroller:hasVerticalScroller:borderType:'
-    'body': 'NSScrollView.contentSizeForFrameSize(${1:NSSize fSize}, hasHorizontalScroller:${2:BOOL hFlag}, hasVerticalScroller:${3:BOOL vFlag}, borderType:${4:NSBorderType aType})'
+    'body': 'contentSizeForFrameSize(${1:NSSize fSize}, hasHorizontalScroller:${2:BOOL hFlag}, hasVerticalScroller:${3:BOOL vFlag}, borderType:${4:NSBorderType aType})'
   'NSScrollView.contentSizeForFrameSize:horizontalScrollerClass:verticalScrollerClass:borderType:controlSize:scrollerStyle:':
     'prefix': 'contentSizeForFrameSize:horizontalScrollerClass:verticalScrollerClass:borderType:controlSize:scrollerStyle:'
-    'body': 'NSScrollView.contentSizeForFrameSize(${1:NSSize fSize}, horizontalScrollerClass:${2:Class horizontalScrollerClass}, verticalScrollerClass:${3:Class verticalScrollerClass}, borderType:${4:NSBorderType aType}, controlSize:${5:NSControlSize controlSize}, scrollerStyle:${6:NSScrollerStyle scrollerStyle})'
+    'body': 'contentSizeForFrameSize(${1:NSSize fSize}, horizontalScrollerClass:${2:Class horizontalScrollerClass}, verticalScrollerClass:${3:Class verticalScrollerClass}, borderType:${4:NSBorderType aType}, controlSize:${5:NSControlSize controlSize}, scrollerStyle:${6:NSScrollerStyle scrollerStyle})'
   'contentView':
     'prefix': 'contentView'
     'body': 'contentView()'
@@ -19879,10 +19879,10 @@
     'body': 'flashScrollers()'
   'NSScrollView.frameSizeForContentSize:hasHorizontalScroller:hasVerticalScroller:borderType:':
     'prefix': 'frameSizeForContentSize:hasHorizontalScroller:hasVerticalScroller:borderType:'
-    'body': 'NSScrollView.frameSizeForContentSize(${1:NSSize cSize}, hasHorizontalScroller:${2:BOOL hFlag}, hasVerticalScroller:${3:BOOL vFlag}, borderType:${4:NSBorderType aType})'
+    'body': 'frameSizeForContentSize(${1:NSSize cSize}, hasHorizontalScroller:${2:BOOL hFlag}, hasVerticalScroller:${3:BOOL vFlag}, borderType:${4:NSBorderType aType})'
   'NSScrollView.frameSizeForContentSize:horizontalScrollerClass:verticalScrollerClass:borderType:controlSize:scrollerStyle:':
     'prefix': 'frameSizeForContentSize:horizontalScrollerClass:verticalScrollerClass:borderType:controlSize:scrollerStyle:'
-    'body': 'NSScrollView.frameSizeForContentSize(${1:NSSize cSize}, horizontalScrollerClass:${2:Class horizontalScrollerClass}, verticalScrollerClass:${3:Class verticalScrollerClass}, borderType:${4:NSBorderType aType}, controlSize:${5:NSControlSize controlSize}, scrollerStyle:${6:NSScrollerStyle scrollerStyle})'
+    'body': 'frameSizeForContentSize(${1:NSSize cSize}, horizontalScrollerClass:${2:Class horizontalScrollerClass}, verticalScrollerClass:${3:Class verticalScrollerClass}, borderType:${4:NSBorderType aType}, controlSize:${5:NSControlSize controlSize}, scrollerStyle:${6:NSScrollerStyle scrollerStyle})'
   'hasHorizontalRuler':
     'prefix': 'hasHorizontalRuler'
     'body': 'hasHorizontalRuler()'
@@ -19933,7 +19933,7 @@
     'body': 'reflectScrolledClipView(${1:NSClipView* cView})'
   'NSScrollView.rulerViewClass':
     'prefix': 'rulerViewClass'
-    'body': 'NSScrollView.rulerViewClass()'
+    'body': 'rulerViewClass()'
   'rulersVisible':
     'prefix': 'rulersVisible'
     'body': 'rulersVisible()'
@@ -20023,7 +20023,7 @@
     'body': 'setPageScroll(${1:CGFloat value})'
   'NSScrollView.setRulerViewClass:':
     'prefix': 'setRulerViewClass:'
-    'body': 'NSScrollView.setRulerViewClass(${1:Class rulerViewClass})'
+    'body': 'setRulerViewClass(${1:Class rulerViewClass})'
   'setRulersVisible:':
     'prefix': 'setRulersVisible:'
     'body': 'setRulersVisible(${1:BOOL flag})'
@@ -20107,7 +20107,7 @@
     'body': 'hitPart()'
   'NSScroller.isCompatibleWithOverlayScrollers':
     'prefix': 'isCompatibleWithOverlayScrollers'
-    'body': 'NSScroller.isCompatibleWithOverlayScrollers()'
+    'body': 'isCompatibleWithOverlayScrollers()'
   'knobProportion':
     'prefix': 'knobProportion'
     'body': 'KnobProportion()'
@@ -20116,7 +20116,7 @@
     'body': 'KnobStyle()'
   'NSScroller.preferredScrollerStyle':
     'prefix': 'preferredScrollerStyle'
-    'body': 'NSScroller.preferredScrollerStyle()'
+    'body': 'preferredScrollerStyle()'
   'rectForPart:':
     'prefix': 'rectForPart:'
     'body': 'rectForPart(${1:NSScrollerPart partCode})'
@@ -20125,13 +20125,13 @@
     'body': 'scrollerStyle()'
   'NSScroller.scrollerWidth':
     'prefix': 'scrollerWidth'
-    'body': 'NSScroller.scrollerWidth()'
+    'body': 'scrollerWidth()'
   'NSScroller.scrollerWidthForControlSize:':
     'prefix': 'scrollerWidthForControlSize:'
-    'body': 'NSScroller.scrollerWidthForControlSize(${1:NSControlSize controlSize})'
+    'body': 'scrollerWidthForControlSize(${1:NSControlSize controlSize})'
   'NSScroller.scrollerWidthForControlSize:scrollerStyle:':
     'prefix': 'scrollerWidthForControlSize:scrollerStyle:'
-    'body': 'NSScroller.scrollerWidthForControlSize(${1:NSControlSize controlSize}, scrollerStyle:${2:NSScrollerStyle scrollerStyle})'
+    'body': 'scrollerWidthForControlSize(${1:NSControlSize controlSize}, scrollerStyle:${2:NSScrollerStyle scrollerStyle})'
   'setArrowsPosition:':
     'prefix': 'setArrowsPosition:'
     'body': 'setArrowsPosition(${1:NSScrollArrowPosition where})'
@@ -20476,10 +20476,10 @@
     'body': 'setSubject(${1:NSString* subject})'
   'NSSharingService.sharingServiceNamed:':
     'prefix': 'sharingServiceNamed:'
-    'body': 'NSSharingService.sharingServiceNamed(${1:NSString* serviceName})'
+    'body': 'sharingServiceNamed(${1:NSString* serviceName})'
   'NSSharingService.sharingServicesForItems:':
     'prefix': 'sharingServicesForItems:'
-    'body': 'NSSharingService.sharingServicesForItems(${1:NSArray* items})'
+    'body': 'sharingServicesForItems(${1:NSArray* items})'
   'subject':
     'prefix': 'subject'
     'body': 'subject()'
@@ -20635,7 +20635,7 @@
     'body': 'numberOfTickMarks()'
   'NSSliderCell.prefersTrackingUntilMouseUp':
     'prefix': 'prefersTrackingUntilMouseUp'
-    'body': 'NSSliderCell.prefersTrackingUntilMouseUp()'
+    'body': 'prefersTrackingUntilMouseUp()'
   'rectOfTickMarkAtIndex:':
     'prefix': 'rectOfTickMarkAtIndex:'
     'body': 'rectOfTickMarkAtIndex(${1:NSInteger index})'
@@ -20701,7 +20701,7 @@
     'body': 'trackRect()'
   'NSSound.canInitWithPasteboard:':
     'prefix': 'canInitWithPasteboard:'
-    'body': 'NSSound.canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'canInitWithPasteboard(${1:NSPasteboard* pasteboard})'
   'channelMapping':
     'prefix': 'channelMapping'
     'body': 'channelMapping()'
@@ -20770,16 +20770,16 @@
     'body': 'setVolume(${1:float volume})'
   'NSSound.soundNamed:':
     'prefix': 'soundNamed:'
-    'body': 'NSSound.soundNamed(${1:NSString* name})'
+    'body': 'soundNamed(${1:NSString* name})'
   'NSSound.soundUnfilteredFileTypes':
     'prefix': 'soundUnfilteredFileTypes'
-    'body': 'NSSound.soundUnfilteredFileTypes()'
+    'body': 'soundUnfilteredFileTypes()'
   'NSSound.soundUnfilteredPasteboardTypes':
     'prefix': 'soundUnfilteredPasteboardTypes'
-    'body': 'NSSound.soundUnfilteredPasteboardTypes()'
+    'body': 'soundUnfilteredPasteboardTypes()'
   'NSSound.soundUnfilteredTypes':
     'prefix': 'soundUnfilteredTypes'
-    'body': 'NSSound.soundUnfilteredTypes()'
+    'body': 'soundUnfilteredTypes()'
   'stop':
     'prefix': 'stop'
     'body': 'stop()'
@@ -20833,16 +20833,16 @@
     'body': 'addSpeechDictionary(${1:NSDictionary* speechDictionary})'
   'NSSpeechSynthesizer.attributesForVoice:':
     'prefix': 'attributesForVoice:'
-    'body': 'NSSpeechSynthesizer.attributesForVoice(${1:NSString* voice})'
+    'body': 'attributesForVoice(${1:NSString* voice})'
   'NSSpeechSynthesizer.availableVoices':
     'prefix': 'availableVoices'
-    'body': 'NSSpeechSynthesizer.availableVoices()'
+    'body': 'availableVoices()'
   'continueSpeaking':
     'prefix': 'continueSpeaking'
     'body': 'continueSpeaking()'
   'NSSpeechSynthesizer.defaultVoice':
     'prefix': 'defaultVoice'
-    'body': 'NSSpeechSynthesizer.defaultVoice()'
+    'body': 'defaultVoice()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -20851,7 +20851,7 @@
     'body': 'initWithVoice(${1:NSString* voice})'
   'NSSpeechSynthesizer.isAnyApplicationSpeaking':
     'prefix': 'isAnyApplicationSpeaking'
-    'body': 'NSSpeechSynthesizer.isAnyApplicationSpeaking()'
+    'body': 'isAnyApplicationSpeaking()'
   'isSpeaking':
     'prefix': 'isSpeaking'
     'body': 'isSpeaking()'
@@ -20962,16 +20962,16 @@
     'body': 'ignoredWordsInSpellDocumentWithTag(${1:NSInteger tag})'
   'NSSpellChecker.isAutomaticDashSubstitutionEnabled':
     'prefix': 'isAutomaticDashSubstitutionEnabled'
-    'body': 'NSSpellChecker.isAutomaticDashSubstitutionEnabled()'
+    'body': 'isAutomaticDashSubstitutionEnabled()'
   'NSSpellChecker.isAutomaticQuoteSubstitutionEnabled':
     'prefix': 'isAutomaticQuoteSubstitutionEnabled'
-    'body': 'NSSpellChecker.isAutomaticQuoteSubstitutionEnabled()'
+    'body': 'isAutomaticQuoteSubstitutionEnabled()'
   'NSSpellChecker.isAutomaticSpellingCorrectionEnabled':
     'prefix': 'isAutomaticSpellingCorrectionEnabled'
-    'body': 'NSSpellChecker.isAutomaticSpellingCorrectionEnabled()'
+    'body': 'isAutomaticSpellingCorrectionEnabled()'
   'NSSpellChecker.isAutomaticTextReplacementEnabled':
     'prefix': 'isAutomaticTextReplacementEnabled'
-    'body': 'NSSpellChecker.isAutomaticTextReplacementEnabled()'
+    'body': 'isAutomaticTextReplacementEnabled()'
   'language':
     'prefix': 'language'
     'body': 'language()'
@@ -21010,10 +21010,10 @@
     'body': 'setWordFieldStringValue(${1:NSString* aString})'
   'NSSpellChecker.sharedSpellChecker':
     'prefix': 'sharedSpellChecker'
-    'body': 'NSSpellChecker.sharedSpellChecker()'
+    'body': 'sharedSpellChecker()'
   'NSSpellChecker.sharedSpellCheckerExists':
     'prefix': 'sharedSpellCheckerExists'
-    'body': 'NSSpellChecker.sharedSpellCheckerExists()'
+    'body': 'sharedSpellCheckerExists()'
   'showCorrectionIndicatorOfType:primaryString:alternativeStrings:forStringInRect:view:completionHandler:':
     'prefix': 'showCorrectionIndicatorOfType:primaryString:alternativeStrings:forStringInRect:view:completionHandler:'
     'body': 'showCorrectionIndicatorOfType(${1:NSCorrectionIndicatorType type}, primaryString:${2:NSString* primaryString}, alternativeStrings:${3:NSArray* alternativeStrings}, forStringInRect:${4:NSRect rectOfTypedString}, view:${5:NSView* view}, completionHandler:${6:void (^)(NSString *) completionBlock})'
@@ -21028,7 +21028,7 @@
     'body': 'substitutionsPanelAccessoryViewController()'
   'NSSpellChecker.uniqueSpellDocumentTag':
     'prefix': 'uniqueSpellDocumentTag'
-    'body': 'NSSpellChecker.uniqueSpellDocumentTag()'
+    'body': 'uniqueSpellDocumentTag()'
   'unlearnWord:':
     'prefix': 'unlearnWord:'
     'body': 'unlearnWord(${1:NSString* word})'
@@ -21184,7 +21184,7 @@
     'body': 'spacing()'
   'NSStackView.stackViewWithViews:':
     'prefix': 'stackViewWithViews:'
-    'body': 'NSStackView.stackViewWithViews(${1:NSArray* views})'
+    'body': 'stackViewWithViews(${1:NSArray* views})'
   'views':
     'prefix': 'views'
     'body': 'views()'
@@ -21205,7 +21205,7 @@
     'body': 'statusItemWithLength(${1:CGFloat length})'
   'NSStatusBar.systemStatusBar':
     'prefix': 'systemStatusBar'
-    'body': 'NSStatusBar.systemStatusBar()'
+    'body': 'systemStatusBar()'
   'thickness':
     'prefix': 'thickness'
     'body': 'thickness()'
@@ -22681,7 +22681,7 @@
     'body': 'client()'
   'NSTextFinder.drawIncrementalMatchHighlightInRect:':
     'prefix': 'drawIncrementalMatchHighlightInRect:'
-    'body': 'NSTextFinder.drawIncrementalMatchHighlightInRect(${1:NSRect rect})'
+    'body': 'drawIncrementalMatchHighlightInRect(${1:NSRect rect})'
   'findBarContainer':
     'prefix': 'findBarContainer'
     'body': 'findBarContainer()'
@@ -22738,7 +22738,7 @@
     'body': 'client()'
   'NSTextInputContext.currentInputContext':
     'prefix': 'currentInputContext'
-    'body': 'NSTextInputContext.currentInputContext()'
+    'body': 'currentInputContext()'
   'deactivate':
     'prefix': 'deactivate'
     'body': 'deactivate()'
@@ -22759,7 +22759,7 @@
     'body': 'KeyboardInputSources()'
   'NSTextInputContext.localizedNameForInputSource:':
     'prefix': 'localizedNameForInputSource:'
-    'body': 'NSTextInputContext.localizedNameForInputSource(${1:NSString* inputSourceIdentifier})'
+    'body': 'localizedNameForInputSource(${1:NSString* inputSourceIdentifier})'
   'selectedKeyboardInputSource':
     'prefix': 'selectedKeyboardInputSource'
     'body': 'selectedKeyboardInputSource()'
@@ -23185,7 +23185,7 @@
     'body': 'readablePasteboardTypes()'
   'NSTextView.registerForServices':
     'prefix': 'registerForServices'
-    'body': 'NSTextView.registerForServices()'
+    'body': 'registerForServices()'
   'replaceTextContainer:':
     'prefix': 'replaceTextContainer:'
     'body': 'replaceTextContainer(${1:NSTextContainer* newContainer})'
@@ -23533,10 +23533,10 @@
     'body': 'completionDelay()'
   'NSTokenField.defaultCompletionDelay':
     'prefix': 'defaultCompletionDelay'
-    'body': 'NSTokenField.defaultCompletionDelay()'
+    'body': 'defaultCompletionDelay()'
   'NSTokenField.defaultTokenizingCharacterSet':
     'prefix': 'defaultTokenizingCharacterSet'
-    'body': 'NSTokenField.defaultTokenizingCharacterSet()'
+    'body': 'defaultTokenizingCharacterSet()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -23563,10 +23563,10 @@
     'body': 'completionDelay()'
   'NSTokenFieldCell.defaultCompletionDelay':
     'prefix': 'defaultCompletionDelay'
-    'body': 'NSTokenFieldCell.defaultCompletionDelay()'
+    'body': 'defaultCompletionDelay()'
   'NSTokenFieldCell.defaultTokenizingCharacterSet':
     'prefix': 'defaultTokenizingCharacterSet'
-    'body': 'NSTokenFieldCell.defaultTokenizingCharacterSet()'
+    'body': 'defaultTokenizingCharacterSet()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -23989,7 +23989,7 @@
     'body': 'sortWithSortDescriptors(${1:NSArray* sortDescriptors}, recursively:${2:BOOL recursively})'
   'NSTreeNode.treeNodeWithRepresentedObject:':
     'prefix': 'treeNodeWithRepresentedObject:'
-    'body': 'NSTreeNode.treeNodeWithRepresentedObject(${1:id modelObject})'
+    'body': 'treeNodeWithRepresentedObject(${1:id modelObject})'
   'actionForControlCharacterAtIndex:':
     'prefix': 'actionForControlCharacterAtIndex:'
     'body': 'actionForControlCharacterAtIndex(${1:NSUInteger charIndex})'
@@ -24025,7 +24025,7 @@
     'body': 'currentTextContainer()'
   'NSTypesetter.defaultTypesetterBehavior':
     'prefix': 'defaultTypesetterBehavior'
-    'body': 'NSTypesetter.defaultTypesetterBehavior()'
+    'body': 'defaultTypesetterBehavior()'
   'deleteGlyphsInRange:':
     'prefix': 'deleteGlyphsInRange:'
     'body': 'deleteGlyphsInRange(${1:NSRange glyphRange})'
@@ -24097,7 +24097,7 @@
     'body': 'paragraphSpacingBeforeGlyphAtIndex(${1:NSUInteger glyphIndex}, withProposedLineFragmentRect:${2:NSRect rect})'
   'NSTypesetter.printingAdjustmentInLayoutManager:forNominallySpacedGlyphRange:packedGlyphs:count:':
     'prefix': 'printingAdjustmentInLayoutManager:forNominallySpacedGlyphRange:packedGlyphs:count:'
-    'body': 'NSTypesetter.printingAdjustmentInLayoutManager(${1:NSLayoutManager* layoutMgr}, forNominallySpacedGlyphRange:${2:NSRange nominallySpacedGlyphsRange}, packedGlyphs:${3:unsigned char* packedGlyphs}, count:${4:NSUInteger packedGlyphsCount})'
+    'body': 'printingAdjustmentInLayoutManager(${1:NSLayoutManager* layoutMgr}, forNominallySpacedGlyphRange:${2:NSRange nominallySpacedGlyphsRange}, packedGlyphs:${3:unsigned char* packedGlyphs}, count:${4:NSUInteger packedGlyphsCount})'
   'setAttachmentSize:forGlyphRange:':
     'prefix': 'setAttachmentSize:forGlyphRange:'
     'body': 'setAttachmentSize(${1:NSSize attachmentSize}, forGlyphRange:${2:NSRange glyphRange})'
@@ -24142,10 +24142,10 @@
     'body': 'setUsesFontLeading(${1:BOOL flag})'
   'NSTypesetter.sharedSystemTypesetter':
     'prefix': 'sharedSystemTypesetter'
-    'body': 'NSTypesetter.sharedSystemTypesetter()'
+    'body': 'sharedSystemTypesetter()'
   'NSTypesetter.sharedSystemTypesetterForBehavior:':
     'prefix': 'sharedSystemTypesetterForBehavior:'
-    'body': 'NSTypesetter.sharedSystemTypesetterForBehavior(${1:NSTypesetterBehavior theBehavior})'
+    'body': 'sharedSystemTypesetterForBehavior(${1:NSTypesetterBehavior theBehavior})'
   'shouldBreakLineByHyphenatingBeforeCharacterAtIndex:':
     'prefix': 'shouldBreakLineByHyphenatingBeforeCharacterAtIndex:'
     'body': 'shouldBreakLineByHyphenatingBeforeCharacterAtIndex(${1:NSUInteger charIndex})'
@@ -24175,7 +24175,7 @@
     'body': 'willSetLineFragmentRect(${1:NSRectPointer lineRect}, forGlyphRange:${2:NSRange glyphRange}, usedRect:${3:NSRectPointer usedRect}, baselineOffset:${4:CGFloat* baselineOffset})'
   'NSURL.URLFromPasteboard:':
     'prefix': 'URLFromPasteboard:'
-    'body': 'NSURL.URLFromPasteboard(${1:NSPasteboard* pasteBoard})'
+    'body': 'URLFromPasteboard(${1:NSPasteboard* pasteBoard})'
   'writeToPasteboard:':
     'prefix': 'writeToPasteboard:'
     'body': 'writeToPasteboard(${1:NSPasteboard* pasteBoard})'
@@ -24211,7 +24211,7 @@
     'body': 'setInitialValues(${1:NSDictionary* initialValues})'
   'NSUserDefaultsController.sharedUserDefaultsController':
     'prefix': 'sharedUserDefaultsController'
-    'body': 'NSUserDefaultsController.sharedUserDefaultsController()'
+    'body': 'sharedUserDefaultsController()'
   'values':
     'prefix': 'values'
     'body': 'values()'
@@ -24421,10 +24421,10 @@
     'body': 'dataWithPDFInsideRect(${1:NSRect rect})'
   'NSView.defaultFocusRingType':
     'prefix': 'defaultFocusRingType'
-    'body': 'NSView.defaultFocusRingType()'
+    'body': 'defaultFocusRingType()'
   'NSView.defaultMenu':
     'prefix': 'defaultMenu'
-    'body': 'NSView.defaultMenu()'
+    'body': 'defaultMenu()'
   'didAddSubview:':
     'prefix': 'didAddSubview:'
     'body': 'didAddSubview(${1:NSView* subview})'
@@ -24508,7 +24508,7 @@
     'body': 'focusRingType()'
   'NSView.focusView':
     'prefix': 'focusView'
-    'body': 'NSView.focusView()'
+    'body': 'focusView()'
   'frame':
     'prefix': 'frame'
     'body': 'frame()'
@@ -24556,7 +24556,7 @@
     'body': 'invalidateIntrinsicContentSize()'
   'NSView.isCompatibleWithResponsiveScrolling':
     'prefix': 'isCompatibleWithResponsiveScrolling'
-    'body': 'NSView.isCompatibleWithResponsiveScrolling()'
+    'body': 'isCompatibleWithResponsiveScrolling()'
   'isDescendantOf:':
     'prefix': 'isDescendantOf:'
     'body': 'isDescendantOf(${1:NSView* aView})'
@@ -24754,7 +24754,7 @@
     'body': 'replaceSubview(${1:NSView* oldView}, with:${2:NSView* newView})'
   'NSView.requiresConstraintBasedLayout':
     'prefix': 'requiresConstraintBasedLayout'
-    'body': 'NSView.requiresConstraintBasedLayout()'
+    'body': 'requiresConstraintBasedLayout()'
   'resetCursorRects':
     'prefix': 'resetCursorRects'
     'body': 'resetCursorRects()'
@@ -25252,7 +25252,7 @@
     'body': 'contentRectForFrameRect(${1:NSRect frameRect})'
   'NSWindow.contentRectForFrameRect:styleMask:':
     'prefix': 'contentRectForFrameRect:styleMask:'
-    'body': 'NSWindow.contentRectForFrameRect(${1:NSRect fRect}, styleMask:${2:NSUInteger aStyle})'
+    'body': 'contentRectForFrameRect(${1:NSRect fRect}, styleMask:${2:NSUInteger aStyle})'
   'contentResizeIncrements':
     'prefix': 'contentResizeIncrements'
     'body': 'contentResizeIncrements()'
@@ -25294,7 +25294,7 @@
     'body': 'defaultButtonCell()'
   'NSWindow.defaultDepthLimit':
     'prefix': 'defaultDepthLimit'
-    'body': 'NSWindow.defaultDepthLimit()'
+    'body': 'defaultDepthLimit()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -25393,7 +25393,7 @@
     'body': 'frameRectForContentRect(${1:NSRect contentRect})'
   'NSWindow.frameRectForContentRect:styleMask:':
     'prefix': 'frameRectForContentRect:styleMask:'
-    'body': 'NSWindow.frameRectForContentRect(${1:NSRect cRect}, styleMask:${2:NSUInteger aStyle})'
+    'body': 'frameRectForContentRect(${1:NSRect cRect}, styleMask:${2:NSUInteger aStyle})'
   'gState':
     'prefix': 'gState'
     'body': 'gState()'
@@ -25543,10 +25543,10 @@
     'body': 'maxSize()'
   'NSWindow.menuChanged:':
     'prefix': 'menuChanged:'
-    'body': 'NSWindow.menuChanged(${1:NSMenu* menu})'
+    'body': 'menuChanged(${1:NSMenu* menu})'
   'NSWindow.minFrameWidthWithTitle:styleMask:':
     'prefix': 'minFrameWidthWithTitle:styleMask:'
-    'body': 'NSWindow.minFrameWidthWithTitle(${1:NSString* aTitle}, styleMask:${2:NSUInteger aStyle})'
+    'body': 'minFrameWidthWithTitle(${1:NSString* aTitle}, styleMask:${2:NSUInteger aStyle})'
   'minSize':
     'prefix': 'minSize'
     'body': 'minSize()'
@@ -25627,7 +25627,7 @@
     'body': 'removeChildWindow(${1:NSWindow* childWin})'
   'NSWindow.removeFrameUsingName:':
     'prefix': 'removeFrameUsingName:'
-    'body': 'NSWindow.removeFrameUsingName(${1:NSString* name})'
+    'body': 'removeFrameUsingName(${1:NSString* name})'
   'representedFilename':
     'prefix': 'representedFilename'
     'body': 'representedFilename()'
@@ -25924,7 +25924,7 @@
     'body': 'standardWindowButton(${1:NSWindowButton b})'
   'NSWindow.standardWindowButton:forStyleMask:':
     'prefix': 'standardWindowButton:forStyleMask:'
-    'body': 'NSWindow.standardWindowButton(${1:NSWindowButton b}, forStyleMask:${2:NSUInteger styleMask})'
+    'body': 'standardWindowButton(${1:NSWindowButton b}, forStyleMask:${2:NSUInteger styleMask})'
   'stringWithSavedFrame':
     'prefix': 'stringWithSavedFrame'
     'body': 'stringWithSavedFrame()'
@@ -25978,10 +25978,10 @@
     'body': 'windowNumber()'
   'NSWindow.windowNumberAtPoint:belowWindowWithWindowNumber:':
     'prefix': 'windowNumberAtPoint:belowWindowWithWindowNumber:'
-    'body': 'NSWindow.windowNumberAtPoint(${1:NSPoint point}, belowWindowWithWindowNumber:${2:NSInteger windowNumber})'
+    'body': 'windowNumberAtPoint(${1:NSPoint point}, belowWindowWithWindowNumber:${2:NSInteger windowNumber})'
   'NSWindow.windowNumbersWithOptions:':
     'prefix': 'windowNumbersWithOptions:'
-    'body': 'NSWindow.windowNumbersWithOptions(${1:NSWindowNumberListOptions options})'
+    'body': 'windowNumbersWithOptions(${1:NSWindowNumberListOptions options})'
   'windowRef':
     'prefix': 'windowRef'
     'body': 'windowRef()'
@@ -26227,7 +26227,7 @@
     'body': 'setIcon(${1:NSImage* image}, forFile:${2:NSString* fullPath}, options:${3:NSWorkspaceIconCreationOptions options})'
   'NSWorkspace.sharedWorkspace':
     'prefix': 'sharedWorkspace'
-    'body': 'NSWorkspace.sharedWorkspace()'
+    'body': 'sharedWorkspace()'
   'showSearchResultsForQueryString:':
     'prefix': 'showSearchResultsForQueryString:'
     'body': 'showSearchResultsForQueryString(${1:NSString* queryString})'
@@ -26314,7 +26314,7 @@
     'body': 'animator()'
   'NSAnimatablePropertyContainer.defaultAnimationForKey:':
     'prefix': 'defaultAnimationForKey:'
-    'body': 'NSAnimatablePropertyContainer.defaultAnimationForKey(${1:NSString* key})'
+    'body': 'defaultAnimationForKey(${1:NSString* key})'
   'setAnimations:':
     'prefix': 'setAnimations:'
     'body': 'setAnimations(${1:NSDictionary* animations})'
@@ -26971,7 +26971,7 @@
     'body': 'bind(${1:NSString* binding}, toObject:${2:id observable}, withKeyPath:${3:NSString* keyPath}, options:${4:NSDictionary* options})'
   'NSKeyValueBindingCreation.exposeBinding:':
     'prefix': 'exposeBinding:'
-    'body': 'NSKeyValueBindingCreation.exposeBinding(${1:NSString* binding})'
+    'body': 'exposeBinding(${1:NSString* binding})'
   'exposedBindings':
     'prefix': 'exposedBindings'
     'body': 'exposedBindings()'
@@ -27241,10 +27241,10 @@
     'body': 'initWithPasteboardPropertyList(${1:id propertyList}, ofType:${2:NSString* type})'
   'NSPasteboardReading.readableTypesForPasteboard:':
     'prefix': 'readableTypesForPasteboard:'
-    'body': 'NSPasteboardReading.readableTypesForPasteboard(${1:NSPasteboard* pasteboard})'
+    'body': 'readableTypesForPasteboard(${1:NSPasteboard* pasteboard})'
   'NSPasteboardReading.readingOptionsForType:pasteboard:':
     'prefix': 'readingOptionsForType:pasteboard:'
-    'body': 'NSPasteboardReading.readingOptionsForType(${1:NSString* type}, pasteboard:${2:NSPasteboard* pasteboard})'
+    'body': 'readingOptionsForType(${1:NSString* type}, pasteboard:${2:NSPasteboard* pasteboard})'
   'pasteboardPropertyListForType:':
     'prefix': 'pasteboardPropertyListForType:'
     'body': 'pasteboardPropertyListForType(${1:NSString* type})'
@@ -27277,10 +27277,10 @@
     'body': 'pathControl(${1:NSPathControl* pathControl}, willPopUpMenu:${2:NSMenu* menu})'
   'NSPlaceholders.defaultPlaceholderForMarker:withBinding:':
     'prefix': 'defaultPlaceholderForMarker:withBinding:'
-    'body': 'NSPlaceholders.defaultPlaceholderForMarker(${1:id marker}, withBinding:${2:NSString* binding})'
+    'body': 'defaultPlaceholderForMarker(${1:id marker}, withBinding:${2:NSString* binding})'
   'NSPlaceholders.setDefaultPlaceholder:forMarker:withBinding:':
     'prefix': 'setDefaultPlaceholder:forMarker:withBinding:'
-    'body': 'NSPlaceholders.setDefaultPlaceholder(${1:id placeholder}, forMarker:${2:id marker}, withBinding:${3:NSString* binding})'
+    'body': 'setDefaultPlaceholder(${1:id placeholder}, forMarker:${2:id marker}, withBinding:${3:NSString* binding})'
   'detachableWindowForPopover:':
     'prefix': 'detachableWindowForPopover:'
     'body': 'detachableWindowForPopover(${1:NSPopover* popover})'
@@ -28126,4 +28126,4 @@
     'body': 'windowWillUseStandardFrame(${1:NSWindow* window}, defaultFrame:${2:NSRect newFrame})'
   'NSWindowRestoration.restoreWindowWithIdentifier:state:completionHandler:':
     'prefix': 'restoreWindowWithIdentifier:state:completionHandler:'
-    'body': 'NSWindowRestoration.restoreWindowWithIdentifier(${1:NSString* identifier}, state:${2:NSCoder* state}, completionHandler:${3:void (^)(NSWindow *, NSError *) completionHandler})'
+    'body': 'restoreWindowWithIdentifier(${1:NSString* identifier}, state:${2:NSCoder* state}, completionHandler:${3:void (^)(NSWindow *, NSError *) completionHandler})'

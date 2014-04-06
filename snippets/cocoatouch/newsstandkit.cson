@@ -70,7 +70,7 @@
     'body': 'setCurrentlyReadingIssue(${1:NKIssue* currentlyReadingIssue})'
   'NKLibrary.sharedLibrary':
     'prefix': 'sharedLibrary'
-    'body': 'NKLibrary.sharedLibrary()'
+    'body': 'sharedLibrary()'
   'newsstandAssetDownload':
     'prefix': 'newsstandAssetDownload'
     'body': 'newsstandAssetDownload()'

@@ -322,10 +322,10 @@
     'body': 'absoluteDate()'
   'EKAlarm.alarmWithAbsoluteDate:':
     'prefix': 'alarmWithAbsoluteDate:'
-    'body': 'EKAlarm.alarmWithAbsoluteDate(${1: date})'
+    'body': 'alarmWithAbsoluteDate(${1: date})'
   'EKAlarm.alarmWithRelativeOffset:':
     'prefix': 'alarmWithRelativeOffset:'
-    'body': 'EKAlarm.alarmWithRelativeOffset(${1: offset})'
+    'body': 'alarmWithRelativeOffset(${1: offset})'
   'emailAddress':
     'prefix': 'emailAddress'
     'body': 'emailAddress()'
@@ -376,7 +376,7 @@
     'body': 'allowsContentModifications()'
   'EKCalendar.calendarForEntityType:eventStore:':
     'prefix': 'calendarForEntityType:eventStore:'
-    'body': 'EKCalendar.calendarForEntityType(${1: entityType}, eventStore:${2: eventStore})'
+    'body': 'calendarForEntityType(${1: entityType}, eventStore:${2: eventStore})'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
     'body': 'calendarIdentifier()'
@@ -514,7 +514,7 @@
     'body': 'eventIdentifier()'
   'EKEvent.eventWithEventStore:':
     'prefix': 'eventWithEventStore:'
-    'body': 'EKEvent.eventWithEventStore(${1: eventStore})'
+    'body': 'eventWithEventStore(${1: eventStore})'
   'isAllDay':
     'prefix': 'isAllDay'
     'body': 'isAllDay()'
@@ -550,7 +550,7 @@
     'body': 'status()'
   'EKEventStore.authorizationStatusForEntityType:':
     'prefix': 'authorizationStatusForEntityType:'
-    'body': 'EKEventStore.authorizationStatusForEntityType(${1: entityType})'
+    'body': 'authorizationStatusForEntityType(${1: entityType})'
   'calendarItemWithIdentifier:':
     'prefix': 'calendarItemWithIdentifier:'
     'body': 'calendarItemWithIdentifier(${1: identifier})'
@@ -682,10 +682,10 @@
     'body': 'dayOfTheWeek()'
   'EKRecurrenceDayOfWeek.dayOfWeek:':
     'prefix': 'dayOfWeek:'
-    'body': 'EKRecurrenceDayOfWeek.dayOfWeek(${1: dayOfTheWeek})'
+    'body': 'dayOfWeek(${1: dayOfTheWeek})'
   'EKRecurrenceDayOfWeek.dayOfWeek:weekNumber:':
     'prefix': 'dayOfWeek:weekNumber:'
-    'body': 'EKRecurrenceDayOfWeek.dayOfWeek(${1: dayOfTheWeek}, weekNumber:${2: weekNumber})'
+    'body': 'dayOfWeek(${1: dayOfTheWeek}, weekNumber:${2: weekNumber})'
   'initWithDayOfTheWeek:weekNumber:':
     'prefix': 'initWithDayOfTheWeek:weekNumber:'
     'body': 'initWithDayOfTheWeek(${1: dayOfTheWeek}, weekNumber:${2: weekNumber})'
@@ -700,10 +700,10 @@
     'body': 'occurrenceCount()'
   'EKRecurrenceEnd.recurrenceEndWithEndDate:':
     'prefix': 'recurrenceEndWithEndDate:'
-    'body': 'EKRecurrenceEnd.recurrenceEndWithEndDate(${1: endDate})'
+    'body': 'recurrenceEndWithEndDate(${1: endDate})'
   'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount:':
     'prefix': 'recurrenceEndWithOccurrenceCount:'
-    'body': 'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount(${1: occurrenceCount})'
+    'body': 'recurrenceEndWithOccurrenceCount(${1: occurrenceCount})'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
     'body': 'calendarIdentifier()'
@@ -760,7 +760,7 @@
     'body': 'priority()'
   'EKReminder.reminderWithEventStore:':
     'prefix': 'reminderWithEventStore:'
-    'body': 'EKReminder.reminderWithEventStore(${1: eventStore})'
+    'body': 'reminderWithEventStore(${1: eventStore})'
   'setCompleted:':
     'prefix': 'setCompleted:'
     'body': 'setCompleted(${1: completed})'
@@ -796,7 +796,7 @@
     'body': 'geoLocation()'
   'EKStructuredLocation.locationWithTitle:':
     'prefix': 'locationWithTitle:'
-    'body': 'EKStructuredLocation.locationWithTitle(${1: title})'
+    'body': 'locationWithTitle(${1: title})'
   'radius':
     'prefix': 'radius'
     'body': 'radius()'

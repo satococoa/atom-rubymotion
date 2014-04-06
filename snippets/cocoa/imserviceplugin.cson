@@ -169,7 +169,7 @@
     'body': 'IMSessionAvailabilityAway'
   'IMServicePlugInFileTransfer.fileTransferWithPath:type:totalBytes:':
     'prefix': 'fileTransferWithPath:type:totalBytes:'
-    'body': 'IMServicePlugInFileTransfer.fileTransferWithPath(${1:NSString* path}, type:${2:NSString* type}, totalBytes:${3:uint64_t totalBytes})'
+    'body': 'fileTransferWithPath(${1:NSString* path}, type:${2:NSString* type}, totalBytes:${3:uint64_t totalBytes})'
   'guid':
     'prefix': 'guid'
     'body': 'guid()'
@@ -232,10 +232,10 @@
     'body': 'initWithContent(${1:NSAttributedString* content}, date:${2:NSDate* date})'
   'IMServicePlugInMessage.servicePlugInMessageWithContent:':
     'prefix': 'servicePlugInMessageWithContent:'
-    'body': 'IMServicePlugInMessage.servicePlugInMessageWithContent(${1:NSAttributedString* content})'
+    'body': 'servicePlugInMessageWithContent(${1:NSAttributedString* content})'
   'IMServicePlugInMessage.servicePlugInMessageWithContent:date:':
     'prefix': 'servicePlugInMessageWithContent:date:'
-    'body': 'IMServicePlugInMessage.servicePlugInMessageWithContent(${1:NSAttributedString* content}, date:${2:NSDate* date})'
+    'body': 'servicePlugInMessageWithContent(${1:NSAttributedString* content}, date:${2:NSDate* date})'
   'setContent:':
     'prefix': 'setContent:'
     'body': 'setContent(${1:NSAttributedString* content})'

@@ -871,7 +871,7 @@
     'body': 'addRecord(${1:ABRecord* record}, error:${2:NSError** error})'
   'ABAddressBook.addressBook':
     'prefix': 'addressBook'
-    'body': 'ABAddressBook.addressBook()'
+    'body': 'addressBook()'
   'defaultCountryCode':
     'prefix': 'defaultCountryCode'
     'body': 'defaultCountryCode()'
@@ -919,13 +919,13 @@
     'body': 'setMe(${1:ABPerson* moi})'
   'ABAddressBook.sharedAddressBook':
     'prefix': 'sharedAddressBook'
-    'body': 'ABAddressBook.sharedAddressBook()'
+    'body': 'sharedAddressBook()'
   'addMember:':
     'prefix': 'addMember:'
     'body': 'addMember(${1:ABPerson* person})'
   'ABGroup.addPropertiesAndTypes:':
     'prefix': 'addPropertiesAndTypes:'
-    'body': 'ABGroup.addPropertiesAndTypes(${1:NSDictionary* properties})'
+    'body': 'addPropertiesAndTypes(${1:NSDictionary* properties})'
   'addSubgroup:':
     'prefix': 'addSubgroup:'
     'body': 'addSubgroup(${1:ABGroup* group})'
@@ -940,19 +940,19 @@
     'body': 'parentGroups()'
   'ABGroup.properties':
     'prefix': 'properties'
-    'body': 'ABGroup.properties()'
+    'body': 'properties()'
   'removeMember:':
     'prefix': 'removeMember:'
     'body': 'removeMember(${1:ABPerson* person})'
   'ABGroup.removeProperties:':
     'prefix': 'removeProperties:'
-    'body': 'ABGroup.removeProperties(${1:NSArray* properties})'
+    'body': 'removeProperties(${1:NSArray* properties})'
   'removeSubgroup:':
     'prefix': 'removeSubgroup:'
     'body': 'removeSubgroup(${1:ABGroup* group})'
   'ABGroup.searchElementForProperty:label:key:value:comparison:':
     'prefix': 'searchElementForProperty:label:key:value:comparison:'
-    'body': 'ABGroup.searchElementForProperty(${1:NSString* property}, label:${2:NSString* label}, key:${3:NSString* key}, value:${4:id value}, comparison:${5:ABSearchComparison comparison})'
+    'body': 'searchElementForProperty(${1:NSString* property}, label:${2:NSString* label}, key:${3:NSString* key}, value:${4:id value}, comparison:${5:ABSearchComparison comparison})'
   'setDistributionIdentifier:forProperty:person:':
     'prefix': 'setDistributionIdentifier:forProperty:person:'
     'body': 'setDistributionIdentifier(${1:NSString* identifier}, forProperty:${2:NSString* property}, person:${3:ABPerson* person})'
@@ -961,7 +961,7 @@
     'body': 'subgroups()'
   'ABGroup.typeOfProperty:':
     'prefix': 'typeOfProperty:'
-    'body': 'ABGroup.typeOfProperty(${1:NSString* property})'
+    'body': 'typeOfProperty(${1:NSString* property})'
   'count':
     'prefix': 'count'
     'body': 'count()'
@@ -1120,13 +1120,13 @@
     'body': 'valueSelectionBehavior()'
   'ABPerson.addPropertiesAndTypes:':
     'prefix': 'addPropertiesAndTypes:'
-    'body': 'ABPerson.addPropertiesAndTypes(${1:NSDictionary* properties})'
+    'body': 'addPropertiesAndTypes(${1:NSDictionary* properties})'
   'beginLoadingImageDataForClient:':
     'prefix': 'beginLoadingImageDataForClient:'
     'body': 'beginLoadingImageDataForClient(${1:id client})'
   'ABPerson.cancelLoadingImageDataForTag:':
     'prefix': 'cancelLoadingImageDataForTag:'
-    'body': 'ABPerson.cancelLoadingImageDataForTag(${1:NSInteger tag})'
+    'body': 'cancelLoadingImageDataForTag(${1:NSInteger tag})'
   'imageData':
     'prefix': 'imageData'
     'body': 'imageData()'
@@ -1141,19 +1141,19 @@
     'body': 'parentGroups()'
   'ABPerson.properties':
     'prefix': 'properties'
-    'body': 'ABPerson.properties()'
+    'body': 'properties()'
   'ABPerson.removeProperties:':
     'prefix': 'removeProperties:'
-    'body': 'ABPerson.removeProperties(${1:NSArray* properties})'
+    'body': 'removeProperties(${1:NSArray* properties})'
   'ABPerson.searchElementForProperty:label:key:value:comparison:':
     'prefix': 'searchElementForProperty:label:key:value:comparison:'
-    'body': 'ABPerson.searchElementForProperty(${1:NSString* property}, label:${2:NSString* label}, key:${3:NSString* key}, value:${4:id value}, comparison:${5:ABSearchComparison comparison})'
+    'body': 'searchElementForProperty(${1:NSString* property}, label:${2:NSString* label}, key:${3:NSString* key}, value:${4:id value}, comparison:${5:ABSearchComparison comparison})'
   'setImageData:':
     'prefix': 'setImageData:'
     'body': 'setImageData(${1:NSData* data})'
   'ABPerson.typeOfProperty:':
     'prefix': 'typeOfProperty:'
-    'body': 'ABPerson.typeOfProperty(${1:NSString* property})'
+    'body': 'typeOfProperty(${1:NSString* property})'
   'vCardRepresentation':
     'prefix': 'vCardRepresentation'
     'body': 'vCardRepresentation()'
@@ -1222,7 +1222,7 @@
     'body': 'matchesRecord(${1:ABRecord* record})'
   'ABSearchElement.searchElementForConjunction:children:':
     'prefix': 'searchElementForConjunction:children:'
-    'body': 'ABSearchElement.searchElementForConjunction(${1:ABSearchConjunction conjuction}, children:${2:NSArray* children})'
+    'body': 'searchElementForConjunction(${1:ABSearchConjunction conjuction}, children:${2:NSArray* children})'
   'actionProperty':
     'prefix': 'actionProperty'
     'body': 'actionProperty()'

@@ -322,7 +322,7 @@
     'body': 'CWMergeNetworks(${1:NSSet* networks})'
   'CW8021XProfile.allUser8021XProfiles':
     'prefix': 'allUser8021XProfiles'
-    'body': 'CW8021XProfile.allUser8021XProfiles()'
+    'body': 'allUser8021XProfiles()'
   'alwaysPromptForPassword':
     'prefix': 'alwaysPromptForPassword'
     'body': 'alwaysPromptForPassword()'
@@ -337,7 +337,7 @@
     'body': 'password()'
   'CW8021XProfile.profile':
     'prefix': 'profile'
-    'body': 'CW8021XProfile.profile()'
+    'body': 'profile()'
   'setAlwaysPromptForPassword:':
     'prefix': 'setAlwaysPromptForPassword:'
     'body': 'setAlwaysPromptForPassword(${1:BOOL alwaysPromptForPassword})'
@@ -376,10 +376,10 @@
     'body': 'isEqualToChannel(${1:CWChannel* channel})'
   'CWConfiguration.configuration':
     'prefix': 'configuration'
-    'body': 'CWConfiguration.configuration()'
+    'body': 'configuration()'
   'CWConfiguration.configurationWithConfiguration:':
     'prefix': 'configurationWithConfiguration:'
-    'body': 'CWConfiguration.configurationWithConfiguration(${1:CWConfiguration* configuration})'
+    'body': 'configurationWithConfiguration(${1:CWConfiguration* configuration})'
   'init':
     'prefix': 'init'
     'body': 'init()'
@@ -442,7 +442,7 @@
     'body': 'initWithInterfaceName(${1:NSString* name})'
   'CWInterface.interface':
     'prefix': 'interface'
-    'body': 'CWInterface.interface()'
+    'body': 'interface()'
   'interfaceMode':
     'prefix': 'interfaceMode'
     'body': 'interfaceMode()'
@@ -451,10 +451,10 @@
     'body': 'interfaceName()'
   'CWInterface.interfaceNames':
     'prefix': 'interfaceNames'
-    'body': 'CWInterface.interfaceNames()'
+    'body': 'interfaceNames()'
   'CWInterface.interfaceWithName:':
     'prefix': 'interfaceWithName:'
-    'body': 'CWInterface.interfaceWithName(${1:NSString* name})'
+    'body': 'interfaceWithName(${1:NSString* name})'
   'noiseMeasurement':
     'prefix': 'noiseMeasurement'
     'body': 'noiseMeasurement()'
@@ -601,10 +601,10 @@
     'body': 'isEqualToNetworkProfile(${1:CWNetworkProfile* networkProfile})'
   'CWNetworkProfile.networkProfile':
     'prefix': 'networkProfile'
-    'body': 'CWNetworkProfile.networkProfile()'
+    'body': 'networkProfile()'
   'CWNetworkProfile.networkProfileWithNetworkProfile:':
     'prefix': 'networkProfileWithNetworkProfile:'
-    'body': 'CWNetworkProfile.networkProfileWithNetworkProfile(${1:CWNetworkProfile* networkProfile})'
+    'body': 'networkProfileWithNetworkProfile(${1:CWNetworkProfile* networkProfile})'
   'security':
     'prefix': 'security'
     'body': 'security()'
@@ -625,7 +625,7 @@
     'body': 'passphrase()'
   'CWWirelessProfile.profile':
     'prefix': 'profile'
-    'body': 'CWWirelessProfile.profile()'
+    'body': 'profile()'
   'securityMode':
     'prefix': 'securityMode'
     'body': 'securityMode()'

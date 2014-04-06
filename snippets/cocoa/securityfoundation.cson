@@ -1,13 +1,13 @@
 '.source.rubymotion':
   'SFAuthorization.authorization':
     'prefix': 'authorization'
-    'body': 'SFAuthorization.authorization()'
+    'body': 'authorization()'
   'authorizationRef':
     'prefix': 'authorizationRef'
     'body': 'authorizationRef()'
   'SFAuthorization.authorizationWithFlags:rights:environment:':
     'prefix': 'authorizationWithFlags:rights:environment:'
-    'body': 'SFAuthorization.authorizationWithFlags(${1:AuthorizationFlags flags}, rights:${2:AuthorizationRights* rights}, environment:${3:AuthorizationEnvironment* environment})'
+    'body': 'authorizationWithFlags(${1:AuthorizationFlags flags}, rights:${2:AuthorizationRights* rights}, environment:${3:AuthorizationEnvironment* environment})'
   'init':
     'prefix': 'init'
     'body': 'init()'

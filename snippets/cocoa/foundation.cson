@@ -5251,7 +5251,7 @@
     'body': 'setTransformStruct(${1:NSAffineTransformStruct transformStruct})'
   'NSAffineTransform.transform':
     'prefix': 'transform'
-    'body': 'NSAffineTransform.transform()'
+    'body': 'transform()'
   'transformPoint:':
     'prefix': 'transformPoint:'
     'body': 'transformPoint(${1:NSPoint aPoint})'
@@ -5269,7 +5269,7 @@
     'body': 'aeDesc()'
   'NSAppleEventDescriptor.appleEventWithEventClass:eventID:targetDescriptor:returnID:transactionID:':
     'prefix': 'appleEventWithEventClass:eventID:targetDescriptor:returnID:transactionID:'
-    'body': 'NSAppleEventDescriptor.appleEventWithEventClass(${1:AEEventClass eventClass}, eventID:${2:AEEventID eventID}, targetDescriptor:${3:NSAppleEventDescriptor* targetDescriptor}, returnID:${4:AEReturnID returnID}, transactionID:${5:AETransactionID transactionID})'
+    'body': 'appleEventWithEventClass(${1:AEEventClass eventClass}, eventID:${2:AEEventID eventID}, targetDescriptor:${3:NSAppleEventDescriptor* targetDescriptor}, returnID:${4:AEReturnID returnID}, transactionID:${5:AETransactionID transactionID})'
   'attributeDescriptorForKeyword:':
     'prefix': 'attributeDescriptorForKeyword:'
     'body': 'attributeDescriptorForKeyword(${1:AEKeyword keyword})'
@@ -5293,25 +5293,25 @@
     'body': 'descriptorType()'
   'NSAppleEventDescriptor.descriptorWithBoolean:':
     'prefix': 'descriptorWithBoolean:'
-    'body': 'NSAppleEventDescriptor.descriptorWithBoolean(${1:Boolean boolean})'
+    'body': 'descriptorWithBoolean(${1:Boolean boolean})'
   'NSAppleEventDescriptor.descriptorWithDescriptorType:bytes:length:':
     'prefix': 'descriptorWithDescriptorType:bytes:length:'
-    'body': 'NSAppleEventDescriptor.descriptorWithDescriptorType(${1:DescType descriptorType}, bytes:${2:void* bytes}, length:${3:NSUInteger byteCount})'
+    'body': 'descriptorWithDescriptorType(${1:DescType descriptorType}, bytes:${2:void* bytes}, length:${3:NSUInteger byteCount})'
   'NSAppleEventDescriptor.descriptorWithDescriptorType:data:':
     'prefix': 'descriptorWithDescriptorType:data:'
-    'body': 'NSAppleEventDescriptor.descriptorWithDescriptorType(${1:DescType descriptorType}, data:${2:NSData* data})'
+    'body': 'descriptorWithDescriptorType(${1:DescType descriptorType}, data:${2:NSData* data})'
   'NSAppleEventDescriptor.descriptorWithEnumCode:':
     'prefix': 'descriptorWithEnumCode:'
-    'body': 'NSAppleEventDescriptor.descriptorWithEnumCode(${1:OSType enumerator})'
+    'body': 'descriptorWithEnumCode(${1:OSType enumerator})'
   'NSAppleEventDescriptor.descriptorWithInt32:':
     'prefix': 'descriptorWithInt32:'
-    'body': 'NSAppleEventDescriptor.descriptorWithInt32(${1:SInt32 signedInt})'
+    'body': 'descriptorWithInt32(${1:SInt32 signedInt})'
   'NSAppleEventDescriptor.descriptorWithString:':
     'prefix': 'descriptorWithString:'
-    'body': 'NSAppleEventDescriptor.descriptorWithString(${1:NSString* string})'
+    'body': 'descriptorWithString(${1:NSString* string})'
   'NSAppleEventDescriptor.descriptorWithTypeCode:':
     'prefix': 'descriptorWithTypeCode:'
-    'body': 'NSAppleEventDescriptor.descriptorWithTypeCode(${1:OSType typeCode})'
+    'body': 'descriptorWithTypeCode(${1:OSType typeCode})'
   'enumCodeValue':
     'prefix': 'enumCodeValue'
     'body': 'enumCodeValue()'
@@ -5350,10 +5350,10 @@
     'body': 'KeywordForDescriptorAtIndex(${1:NSInteger index})'
   'NSAppleEventDescriptor.listDescriptor':
     'prefix': 'listDescriptor'
-    'body': 'NSAppleEventDescriptor.listDescriptor()'
+    'body': 'listDescriptor()'
   'NSAppleEventDescriptor.nullDescriptor':
     'prefix': 'nullDescriptor'
-    'body': 'NSAppleEventDescriptor.nullDescriptor()'
+    'body': 'nullDescriptor()'
   'numberOfItems':
     'prefix': 'numberOfItems'
     'body': 'numberOfItems()'
@@ -5362,7 +5362,7 @@
     'body': 'paramDescriptorForKeyword(${1:AEKeyword keyword})'
   'NSAppleEventDescriptor.recordDescriptor':
     'prefix': 'recordDescriptor'
-    'body': 'NSAppleEventDescriptor.recordDescriptor()'
+    'body': 'recordDescriptor()'
   'removeDescriptorAtIndex:':
     'prefix': 'removeDescriptorAtIndex:'
     'body': 'removeDescriptorAtIndex(${1:NSInteger index})'
@@ -5422,7 +5422,7 @@
     'body': 'setEventHandler(${1:id handler}, andSelector:${2:SEL handleEventSelector}, forEventClass:${3:AEEventClass eventClass}, andEventID:${4:AEEventID eventID})'
   'NSAppleEventManager.sharedAppleEventManager':
     'prefix': 'sharedAppleEventManager'
-    'body': 'NSAppleEventManager.sharedAppleEventManager()'
+    'body': 'sharedAppleEventManager()'
   'suspendCurrentAppleEvent':
     'prefix': 'suspendCurrentAppleEvent'
     'body': 'suspendCurrentAppleEvent()'
@@ -5449,10 +5449,10 @@
     'body': 'source()'
   'NSArchiver.archiveRootObject:toFile:':
     'prefix': 'archiveRootObject:toFile:'
-    'body': 'NSArchiver.archiveRootObject(${1:id rootObject}, toFile:${2:NSString* path})'
+    'body': 'archiveRootObject(${1:id rootObject}, toFile:${2:NSString* path})'
   'NSArchiver.archivedDataWithRootObject:':
     'prefix': 'archivedDataWithRootObject:'
-    'body': 'NSArchiver.archivedDataWithRootObject(${1:id rootObject})'
+    'body': 'archivedDataWithRootObject(${1:id rootObject})'
   'archiverData':
     'prefix': 'archiverData'
     'body': 'archiverData()'
@@ -5482,7 +5482,7 @@
     'body': 'addObserver(${1:NSObject* observer}, toObjectsAtIndexes:${2:NSIndexSet* indexes}, forKeyPath:${3:NSString* keyPath}, options:${4:NSKeyValueObservingOptions options}, context:${5:void* context})'
   'NSArray.array':
     'prefix': 'array'
-    'body': 'NSArray.array()'
+    'body': 'array()'
   'arrayByAddingObject:':
     'prefix': 'arrayByAddingObject:'
     'body': 'arrayByAddingObject(${1:id anObject})'
@@ -5491,22 +5491,22 @@
     'body': 'arrayByAddingObjectsFromArray(${1:NSArray* otherArray})'
   'NSArray.arrayWithArray:':
     'prefix': 'arrayWithArray:'
-    'body': 'NSArray.arrayWithArray(${1:NSArray* array})'
+    'body': 'arrayWithArray(${1:NSArray* array})'
   'NSArray.arrayWithContentsOfFile:':
     'prefix': 'arrayWithContentsOfFile:'
-    'body': 'NSArray.arrayWithContentsOfFile(${1:NSString* path})'
+    'body': 'arrayWithContentsOfFile(${1:NSString* path})'
   'NSArray.arrayWithContentsOfURL:':
     'prefix': 'arrayWithContentsOfURL:'
-    'body': 'NSArray.arrayWithContentsOfURL(${1:NSURL* url})'
+    'body': 'arrayWithContentsOfURL(${1:NSURL* url})'
   'NSArray.arrayWithObject:':
     'prefix': 'arrayWithObject:'
-    'body': 'NSArray.arrayWithObject(${1:id anObject})'
+    'body': 'arrayWithObject(${1:id anObject})'
   'NSArray.arrayWithObjects:':
     'prefix': 'arrayWithObjects:'
-    'body': 'NSArray.arrayWithObjects(${1:id firstObj})'
+    'body': 'arrayWithObjects(${1:id firstObj})'
   'NSArray.arrayWithObjects:count:':
     'prefix': 'arrayWithObjects:count:'
-    'body': 'NSArray.arrayWithObjects(${1:id* objects}, count:${2:NSUInteger cnt})'
+    'body': 'arrayWithObjects(${1:id* objects}, count:${2:NSUInteger cnt})'
   'componentsJoinedByString:':
     'prefix': 'componentsJoinedByString:'
     'body': 'componentsJoinedByString(${1:NSString* separator})'
@@ -5683,7 +5683,7 @@
     'body': 'writeToURL(${1:NSURL* url}, atomically:${2:BOOL atomically})'
   'NSAssertionHandler.currentHandler':
     'prefix': 'currentHandler'
-    'body': 'NSAssertionHandler.currentHandler()'
+    'body': 'currentHandler()'
   'handleFailureInFunction:file:lineNumber:description:':
     'prefix': 'handleFailureInFunction:file:lineNumber:description:'
     'body': 'handleFailureInFunction(${1:NSString* functionName}, file:${2:NSString* fileName}, lineNumber:${3:NSInteger line}, description:${4:NSString* format})'
@@ -5731,7 +5731,7 @@
     'body': 'string()'
   'NSAutoreleasePool.addObject:':
     'prefix': 'addObject:'
-    'body': 'NSAutoreleasePool.addObject(${1:id anObject})'
+    'body': 'addObject(${1:id anObject})'
   'addObject:':
     'prefix': 'addObject:'
     'body': 'addObject(${1:id anObject})'
@@ -5740,13 +5740,13 @@
     'body': 'drain()'
   'NSAutoreleasePool.showPools':
     'prefix': 'showPools'
-    'body': 'NSAutoreleasePool.showPools()'
+    'body': 'showPools()'
   'addExecutionBlock:':
     'prefix': 'addExecutionBlock:'
     'body': 'addExecutionBlock(${1:void (^)(void) block})'
   'NSBlockOperation.blockOperationWithBlock:':
     'prefix': 'blockOperationWithBlock:'
-    'body': 'NSBlockOperation.blockOperationWithBlock(${1:void (^)(void) block})'
+    'body': 'blockOperationWithBlock(${1:void (^)(void) block})'
   'executionBlocks':
     'prefix': 'executionBlocks'
     'body': 'executionBlocks()'
@@ -5761,7 +5761,7 @@
     'body': 'URLForResource(${1:NSString* name}, withExtension:${2:NSString* ext}, subdirectory:${3:NSString* subpath})'
   'NSBundle.URLForResource:withExtension:subdirectory:inBundleWithURL:':
     'prefix': 'URLForResource:withExtension:subdirectory:inBundleWithURL:'
-    'body': 'NSBundle.URLForResource(${1:NSString* name}, withExtension:${2:NSString* ext}, subdirectory:${3:NSString* subpath}, inBundleWithURL:${4:NSURL* bundleURL})'
+    'body': 'URLForResource(${1:NSString* name}, withExtension:${2:NSString* ext}, subdirectory:${3:NSString* subpath}, inBundleWithURL:${4:NSURL* bundleURL})'
   'URLForResource:withExtension:subdirectory:localization:':
     'prefix': 'URLForResource:withExtension:subdirectory:localization:'
     'body': 'URLForResource(${1:NSString* name}, withExtension:${2:NSString* ext}, subdirectory:${3:NSString* subpath}, localization:${4:NSString* localizationName})'
@@ -5770,16 +5770,16 @@
     'body': 'URLsForResourcesWithExtension(${1:NSString* ext}, subdirectory:${2:NSString* subpath})'
   'NSBundle.URLsForResourcesWithExtension:subdirectory:inBundleWithURL:':
     'prefix': 'URLsForResourcesWithExtension:subdirectory:inBundleWithURL:'
-    'body': 'NSBundle.URLsForResourcesWithExtension(${1:NSString* ext}, subdirectory:${2:NSString* subpath}, inBundleWithURL:${3:NSURL* bundleURL})'
+    'body': 'URLsForResourcesWithExtension(${1:NSString* ext}, subdirectory:${2:NSString* subpath}, inBundleWithURL:${3:NSURL* bundleURL})'
   'URLsForResourcesWithExtension:subdirectory:localization:':
     'prefix': 'URLsForResourcesWithExtension:subdirectory:localization:'
     'body': 'URLsForResourcesWithExtension(${1:NSString* ext}, subdirectory:${2:NSString* subpath}, localization:${3:NSString* localizationName})'
   'NSBundle.allBundles':
     'prefix': 'allBundles'
-    'body': 'NSBundle.allBundles()'
+    'body': 'allBundles()'
   'NSBundle.allFrameworks':
     'prefix': 'allFrameworks'
-    'body': 'NSBundle.allFrameworks()'
+    'body': 'allFrameworks()'
   'appStoreReceiptURL':
     'prefix': 'appStoreReceiptURL'
     'body': 'appStoreReceiptURL()'
@@ -5791,7 +5791,7 @@
     'body': 'builtInPlugInsURL()'
   'NSBundle.bundleForClass:':
     'prefix': 'bundleForClass:'
-    'body': 'NSBundle.bundleForClass(${1:Class aClass})'
+    'body': 'bundleForClass(${1:Class aClass})'
   'bundleIdentifier':
     'prefix': 'bundleIdentifier'
     'body': 'bundleIdentifier()'
@@ -5803,13 +5803,13 @@
     'body': 'bundleURL()'
   'NSBundle.bundleWithIdentifier:':
     'prefix': 'bundleWithIdentifier:'
-    'body': 'NSBundle.bundleWithIdentifier(${1:NSString* identifier})'
+    'body': 'bundleWithIdentifier(${1:NSString* identifier})'
   'NSBundle.bundleWithPath:':
     'prefix': 'bundleWithPath:'
-    'body': 'NSBundle.bundleWithPath(${1:NSString* path})'
+    'body': 'bundleWithPath(${1:NSString* path})'
   'NSBundle.bundleWithURL:':
     'prefix': 'bundleWithURL:'
-    'body': 'NSBundle.bundleWithURL(${1:NSURL* url})'
+    'body': 'bundleWithURL(${1:NSURL* url})'
   'classNamed:':
     'prefix': 'classNamed:'
     'body': 'classNamed(${1:NSString* className})'
@@ -5854,7 +5854,7 @@
     'body': 'localizedStringForKey(${1:NSString* key}, value:${2:NSString* value}, table:${3:NSString* tableName})'
   'NSBundle.mainBundle':
     'prefix': 'mainBundle'
-    'body': 'NSBundle.mainBundle()'
+    'body': 'mainBundle()'
   'objectForInfoDictionaryKey:':
     'prefix': 'objectForInfoDictionaryKey:'
     'body': 'objectForInfoDictionaryKey(${1:NSString* key})'
@@ -5866,7 +5866,7 @@
     'body': 'pathForResource(${1:NSString* name}, ofType:${2:NSString* ext})'
   'NSBundle.pathForResource:ofType:inDirectory:':
     'prefix': 'pathForResource:ofType:inDirectory:'
-    'body': 'NSBundle.pathForResource(${1:NSString* name}, ofType:${2:NSString* ext}, inDirectory:${3:NSString* bundlePath})'
+    'body': 'pathForResource(${1:NSString* name}, ofType:${2:NSString* ext}, inDirectory:${3:NSString* bundlePath})'
   'pathForResource:ofType:inDirectory:':
     'prefix': 'pathForResource:ofType:inDirectory:'
     'body': 'pathForResource(${1:NSString* name}, ofType:${2:NSString* ext}, inDirectory:${3:NSString* subpath})'
@@ -5875,7 +5875,7 @@
     'body': 'pathForResource(${1:NSString* name}, ofType:${2:NSString* ext}, inDirectory:${3:NSString* subpath}, forLocalization:${4:NSString* localizationName})'
   'NSBundle.pathsForResourcesOfType:inDirectory:':
     'prefix': 'pathsForResourcesOfType:inDirectory:'
-    'body': 'NSBundle.pathsForResourcesOfType(${1:NSString* ext}, inDirectory:${2:NSString* bundlePath})'
+    'body': 'pathsForResourcesOfType(${1:NSString* ext}, inDirectory:${2:NSString* bundlePath})'
   'pathsForResourcesOfType:inDirectory:':
     'prefix': 'pathsForResourcesOfType:inDirectory:'
     'body': 'pathsForResourcesOfType(${1:NSString* ext}, inDirectory:${2:NSString* subpath})'
@@ -5887,10 +5887,10 @@
     'body': 'preferredLocalizations()'
   'NSBundle.preferredLocalizationsFromArray:':
     'prefix': 'preferredLocalizationsFromArray:'
-    'body': 'NSBundle.preferredLocalizationsFromArray(${1:NSArray* localizationsArray})'
+    'body': 'preferredLocalizationsFromArray(${1:NSArray* localizationsArray})'
   'NSBundle.preferredLocalizationsFromArray:forPreferences:':
     'prefix': 'preferredLocalizationsFromArray:forPreferences:'
-    'body': 'NSBundle.preferredLocalizationsFromArray(${1:NSArray* localizationsArray}, forPreferences:${2:NSArray* preferencesArray})'
+    'body': 'preferredLocalizationsFromArray(${1:NSArray* localizationsArray}, forPreferences:${2:NSArray* preferencesArray})'
   'preflightAndReturnError:':
     'prefix': 'preflightAndReturnError:'
     'body': 'preflightAndReturnError(${1:NSError** error})'
@@ -5974,7 +5974,7 @@
     'body': 'stringFromByteCount(${1:long long byteCount})'
   'NSByteCountFormatter.stringFromByteCount:countStyle:':
     'prefix': 'stringFromByteCount:countStyle:'
-    'body': 'NSByteCountFormatter.stringFromByteCount(${1:long long byteCount}, countStyle:${2:NSByteCountFormatterCountStyle countStyle})'
+    'body': 'stringFromByteCount(${1:long long byteCount}, countStyle:${2:NSByteCountFormatterCountStyle countStyle})'
   'zeroPadsFractionDigits':
     'prefix': 'zeroPadsFractionDigits'
     'body': 'zeroPadsFractionDigits()'
@@ -6049,13 +6049,13 @@
     'body': 'PMSymbol()'
   'NSCalendar.autoupdatingCurrentCalendar':
     'prefix': 'autoupdatingCurrentCalendar'
-    'body': 'NSCalendar.autoupdatingCurrentCalendar()'
+    'body': 'autoupdatingCurrentCalendar()'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
     'body': 'calendarIdentifier()'
   'NSCalendar.calendarWithIdentifier:':
     'prefix': 'calendarWithIdentifier:'
-    'body': 'NSCalendar.calendarWithIdentifier(${1:NSString* calendarIdentifierConstant})'
+    'body': 'calendarWithIdentifier(${1:NSString* calendarIdentifierConstant})'
   'compareDate:toDate:toUnitGranularity:':
     'prefix': 'compareDate:toDate:toUnitGranularity:'
     'body': 'compareDate(${1:NSDate* date1}, toDate:${2:NSDate* date2}, toUnitGranularity:${3:NSCalendarUnit unit})'
@@ -6076,7 +6076,7 @@
     'body': 'componentsInTimeZone(${1:NSTimeZone* timezone}, fromDate:${2:NSDate* date})'
   'NSCalendar.currentCalendar':
     'prefix': 'currentCalendar'
-    'body': 'NSCalendar.currentCalendar()'
+    'body': 'currentCalendar()'
   'date:matchesComponents:':
     'prefix': 'date:matchesComponents:'
     'body': 'date(${1:NSDate* date}, matchesComponents:${2:NSDateComponents* components})'
@@ -6247,7 +6247,7 @@
     'body': 'weekdaySymbols()'
   'NSCalendarDate.calendarDate':
     'prefix': 'calendarDate'
-    'body': 'NSCalendarDate.calendarDate()'
+    'body': 'calendarDate()'
   'calendarFormat':
     'prefix': 'calendarFormat'
     'body': 'calendarFormat()'
@@ -6256,13 +6256,13 @@
     'body': 'dateByAddingYears(${1:NSInteger year}, months:${2:NSInteger month}, days:${3:NSInteger day}, hours:${4:NSInteger hour}, minutes:${5:NSInteger minute}, seconds:${6:NSInteger second})'
   'NSCalendarDate.dateWithString:calendarFormat:':
     'prefix': 'dateWithString:calendarFormat:'
-    'body': 'NSCalendarDate.dateWithString(${1:NSString* description}, calendarFormat:${2:NSString* format})'
+    'body': 'dateWithString(${1:NSString* description}, calendarFormat:${2:NSString* format})'
   'NSCalendarDate.dateWithString:calendarFormat:locale:':
     'prefix': 'dateWithString:calendarFormat:locale:'
-    'body': 'NSCalendarDate.dateWithString(${1:NSString* description}, calendarFormat:${2:NSString* format}, locale:${3:id locale})'
+    'body': 'dateWithString(${1:NSString* description}, calendarFormat:${2:NSString* format}, locale:${3:id locale})'
   'NSCalendarDate.dateWithYear:month:day:hour:minute:second:timeZone:':
     'prefix': 'dateWithYear:month:day:hour:minute:second:timeZone:'
-    'body': 'NSCalendarDate.dateWithYear(${1:NSInteger year}, month:${2:NSUInteger month}, day:${3:NSUInteger day}, hour:${4:NSUInteger hour}, minute:${5:NSUInteger minute}, second:${6:NSUInteger second}, timeZone:${7:NSTimeZone* aTimeZone})'
+    'body': 'dateWithYear(${1:NSInteger year}, month:${2:NSUInteger month}, day:${3:NSUInteger day}, hour:${4:NSUInteger hour}, minute:${5:NSUInteger minute}, second:${6:NSUInteger second}, timeZone:${7:NSTimeZone* aTimeZone})'
   'dayOfCommonEra':
     'prefix': 'dayOfCommonEra'
     'body': 'dayOfCommonEra()'
@@ -6325,61 +6325,61 @@
     'body': 'years(${1:NSInteger* yp}, months:${2:NSInteger* mop}, days:${3:NSInteger* dp}, hours:${4:NSInteger* hp}, minutes:${5:NSInteger* mip}, seconds:${6:NSInteger* sp}, sinceDate:${7:NSCalendarDate* date})'
   'NSCharacterSet.URLFragmentAllowedCharacterSet':
     'prefix': 'URLFragmentAllowedCharacterSet'
-    'body': 'NSCharacterSet.URLFragmentAllowedCharacterSet()'
+    'body': 'URLFragmentAllowedCharacterSet()'
   'NSCharacterSet.URLHostAllowedCharacterSet':
     'prefix': 'URLHostAllowedCharacterSet'
-    'body': 'NSCharacterSet.URLHostAllowedCharacterSet()'
+    'body': 'URLHostAllowedCharacterSet()'
   'NSCharacterSet.URLPasswordAllowedCharacterSet':
     'prefix': 'URLPasswordAllowedCharacterSet'
-    'body': 'NSCharacterSet.URLPasswordAllowedCharacterSet()'
+    'body': 'URLPasswordAllowedCharacterSet()'
   'NSCharacterSet.URLPathAllowedCharacterSet':
     'prefix': 'URLPathAllowedCharacterSet'
-    'body': 'NSCharacterSet.URLPathAllowedCharacterSet()'
+    'body': 'URLPathAllowedCharacterSet()'
   'NSCharacterSet.URLQueryAllowedCharacterSet':
     'prefix': 'URLQueryAllowedCharacterSet'
-    'body': 'NSCharacterSet.URLQueryAllowedCharacterSet()'
+    'body': 'URLQueryAllowedCharacterSet()'
   'NSCharacterSet.URLUserAllowedCharacterSet':
     'prefix': 'URLUserAllowedCharacterSet'
-    'body': 'NSCharacterSet.URLUserAllowedCharacterSet()'
+    'body': 'URLUserAllowedCharacterSet()'
   'NSCharacterSet.alphanumericCharacterSet':
     'prefix': 'alphanumericCharacterSet'
-    'body': 'NSCharacterSet.alphanumericCharacterSet()'
+    'body': 'alphanumericCharacterSet()'
   'bitmapRepresentation':
     'prefix': 'bitmapRepresentation'
     'body': 'bitmapRepresentation()'
   'NSCharacterSet.capitalizedLetterCharacterSet':
     'prefix': 'capitalizedLetterCharacterSet'
-    'body': 'NSCharacterSet.capitalizedLetterCharacterSet()'
+    'body': 'capitalizedLetterCharacterSet()'
   'characterIsMember:':
     'prefix': 'characterIsMember:'
     'body': 'characterIsMember(${1:unichar aCharacter})'
   'NSCharacterSet.characterSetWithBitmapRepresentation:':
     'prefix': 'characterSetWithBitmapRepresentation:'
-    'body': 'NSCharacterSet.characterSetWithBitmapRepresentation(${1:NSData* data})'
+    'body': 'characterSetWithBitmapRepresentation(${1:NSData* data})'
   'NSCharacterSet.characterSetWithCharactersInString:':
     'prefix': 'characterSetWithCharactersInString:'
-    'body': 'NSCharacterSet.characterSetWithCharactersInString(${1:NSString* aString})'
+    'body': 'characterSetWithCharactersInString(${1:NSString* aString})'
   'NSCharacterSet.characterSetWithContentsOfFile:':
     'prefix': 'characterSetWithContentsOfFile:'
-    'body': 'NSCharacterSet.characterSetWithContentsOfFile(${1:NSString* fName})'
+    'body': 'characterSetWithContentsOfFile(${1:NSString* fName})'
   'NSCharacterSet.characterSetWithRange:':
     'prefix': 'characterSetWithRange:'
-    'body': 'NSCharacterSet.characterSetWithRange(${1:NSRange aRange})'
+    'body': 'characterSetWithRange(${1:NSRange aRange})'
   'NSCharacterSet.controlCharacterSet':
     'prefix': 'controlCharacterSet'
-    'body': 'NSCharacterSet.controlCharacterSet()'
+    'body': 'controlCharacterSet()'
   'NSCharacterSet.decimalDigitCharacterSet':
     'prefix': 'decimalDigitCharacterSet'
-    'body': 'NSCharacterSet.decimalDigitCharacterSet()'
+    'body': 'decimalDigitCharacterSet()'
   'NSCharacterSet.decomposableCharacterSet':
     'prefix': 'decomposableCharacterSet'
-    'body': 'NSCharacterSet.decomposableCharacterSet()'
+    'body': 'decomposableCharacterSet()'
   'hasMemberInPlane:':
     'prefix': 'hasMemberInPlane:'
     'body': 'hasMemberInPlane(${1:uint8_t thePlane})'
   'NSCharacterSet.illegalCharacterSet':
     'prefix': 'illegalCharacterSet'
-    'body': 'NSCharacterSet.illegalCharacterSet()'
+    'body': 'illegalCharacterSet()'
   'invertedSet':
     'prefix': 'invertedSet'
     'body': 'invertedSet()'
@@ -6388,49 +6388,49 @@
     'body': 'isSupersetOfSet(${1:NSCharacterSet* theOtherSet})'
   'NSCharacterSet.letterCharacterSet':
     'prefix': 'letterCharacterSet'
-    'body': 'NSCharacterSet.letterCharacterSet()'
+    'body': 'letterCharacterSet()'
   'longCharacterIsMember:':
     'prefix': 'longCharacterIsMember:'
     'body': 'longCharacterIsMember(${1:UTF32Char theLongChar})'
   'NSCharacterSet.lowercaseLetterCharacterSet':
     'prefix': 'lowercaseLetterCharacterSet'
-    'body': 'NSCharacterSet.lowercaseLetterCharacterSet()'
+    'body': 'lowercaseLetterCharacterSet()'
   'NSCharacterSet.newlineCharacterSet':
     'prefix': 'newlineCharacterSet'
-    'body': 'NSCharacterSet.newlineCharacterSet()'
+    'body': 'newlineCharacterSet()'
   'NSCharacterSet.nonBaseCharacterSet':
     'prefix': 'nonBaseCharacterSet'
-    'body': 'NSCharacterSet.nonBaseCharacterSet()'
+    'body': 'nonBaseCharacterSet()'
   'NSCharacterSet.punctuationCharacterSet':
     'prefix': 'punctuationCharacterSet'
-    'body': 'NSCharacterSet.punctuationCharacterSet()'
+    'body': 'punctuationCharacterSet()'
   'NSCharacterSet.symbolCharacterSet':
     'prefix': 'symbolCharacterSet'
-    'body': 'NSCharacterSet.symbolCharacterSet()'
+    'body': 'symbolCharacterSet()'
   'NSCharacterSet.uppercaseLetterCharacterSet':
     'prefix': 'uppercaseLetterCharacterSet'
-    'body': 'NSCharacterSet.uppercaseLetterCharacterSet()'
+    'body': 'uppercaseLetterCharacterSet()'
   'NSCharacterSet.whitespaceAndNewlineCharacterSet':
     'prefix': 'whitespaceAndNewlineCharacterSet'
-    'body': 'NSCharacterSet.whitespaceAndNewlineCharacterSet()'
+    'body': 'whitespaceAndNewlineCharacterSet()'
   'NSCharacterSet.whitespaceCharacterSet':
     'prefix': 'whitespaceCharacterSet'
-    'body': 'NSCharacterSet.whitespaceCharacterSet()'
+    'body': 'whitespaceCharacterSet()'
   'attributeKeys':
     'prefix': 'attributeKeys'
     'body': 'attributeKeys()'
   'NSClassDescription.classDescriptionForClass:':
     'prefix': 'classDescriptionForClass:'
-    'body': 'NSClassDescription.classDescriptionForClass(${1:Class aClass})'
+    'body': 'classDescriptionForClass(${1:Class aClass})'
   'NSClassDescription.invalidateClassDescriptionCache':
     'prefix': 'invalidateClassDescriptionCache'
-    'body': 'NSClassDescription.invalidateClassDescriptionCache()'
+    'body': 'invalidateClassDescriptionCache()'
   'inverseForRelationshipKey:':
     'prefix': 'inverseForRelationshipKey:'
     'body': 'inverseForRelationshipKey(${1:NSString* relationshipKey})'
   'NSClassDescription.registerClassDescription:forClass:':
     'prefix': 'registerClassDescription:forClass:'
-    'body': 'NSClassDescription.registerClassDescription(${1:NSClassDescription* description}, forClass:${2:Class aClass})'
+    'body': 'registerClassDescription(${1:NSClassDescription* description}, forClass:${2:Class aClass})'
   'toManyRelationshipKeys':
     'prefix': 'toManyRelationshipKeys'
     'body': 'toManyRelationshipKeys()'
@@ -6655,16 +6655,16 @@
     'body': 'predicateOperatorType()'
   'NSComparisonPredicate.predicateWithLeftExpression:rightExpression:customSelector:':
     'prefix': 'predicateWithLeftExpression:rightExpression:customSelector:'
-    'body': 'NSComparisonPredicate.predicateWithLeftExpression(${1:NSExpression* lhs}, rightExpression:${2:NSExpression* rhs}, customSelector:${3:SEL selector})'
+    'body': 'predicateWithLeftExpression(${1:NSExpression* lhs}, rightExpression:${2:NSExpression* rhs}, customSelector:${3:SEL selector})'
   'NSComparisonPredicate.predicateWithLeftExpression:rightExpression:modifier:type:options:':
     'prefix': 'predicateWithLeftExpression:rightExpression:modifier:type:options:'
-    'body': 'NSComparisonPredicate.predicateWithLeftExpression(${1:NSExpression* lhs}, rightExpression:${2:NSExpression* rhs}, modifier:${3:NSComparisonPredicateModifier modifier}, type:${4:NSPredicateOperatorType type}, options:${5:NSComparisonPredicateOptions options})'
+    'body': 'predicateWithLeftExpression(${1:NSExpression* lhs}, rightExpression:${2:NSExpression* rhs}, modifier:${3:NSComparisonPredicateModifier modifier}, type:${4:NSPredicateOperatorType type}, options:${5:NSComparisonPredicateOptions options})'
   'rightExpression':
     'prefix': 'rightExpression'
     'body': 'rightExpression()'
   'NSCompoundPredicate.andPredicateWithSubpredicates:':
     'prefix': 'andPredicateWithSubpredicates:'
-    'body': 'NSCompoundPredicate.andPredicateWithSubpredicates(${1:NSArray* subpredicates})'
+    'body': 'andPredicateWithSubpredicates(${1:NSArray* subpredicates})'
   'compoundPredicateType':
     'prefix': 'compoundPredicateType'
     'body': 'compoundPredicateType()'
@@ -6673,10 +6673,10 @@
     'body': 'initWithType(${1:NSCompoundPredicateType type}, subpredicates:${2:NSArray* subpredicates})'
   'NSCompoundPredicate.notPredicateWithSubpredicate:':
     'prefix': 'notPredicateWithSubpredicate:'
-    'body': 'NSCompoundPredicate.notPredicateWithSubpredicate(${1:NSPredicate* predicate})'
+    'body': 'notPredicateWithSubpredicate(${1:NSPredicate* predicate})'
   'NSCompoundPredicate.orPredicateWithSubpredicates:':
     'prefix': 'orPredicateWithSubpredicates:'
-    'body': 'NSCompoundPredicate.orPredicateWithSubpredicates(${1:NSArray* subpredicates})'
+    'body': 'orPredicateWithSubpredicates(${1:NSArray* subpredicates})'
   'subpredicates':
     'prefix': 'subpredicates'
     'body': 'subpredicates()'
@@ -6736,22 +6736,22 @@
     'body': 'addRunLoop(${1:NSRunLoop* runloop})'
   'NSConnection.allConnections':
     'prefix': 'allConnections'
-    'body': 'NSConnection.allConnections()'
+    'body': 'allConnections()'
   'NSConnection.connectionWithReceivePort:sendPort:':
     'prefix': 'connectionWithReceivePort:sendPort:'
-    'body': 'NSConnection.connectionWithReceivePort(${1:NSPort* receivePort}, sendPort:${2:NSPort* sendPort})'
+    'body': 'connectionWithReceivePort(${1:NSPort* receivePort}, sendPort:${2:NSPort* sendPort})'
   'NSConnection.connectionWithRegisteredName:host:':
     'prefix': 'connectionWithRegisteredName:host:'
-    'body': 'NSConnection.connectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName})'
+    'body': 'connectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName})'
   'NSConnection.connectionWithRegisteredName:host:usingNameServer:':
     'prefix': 'connectionWithRegisteredName:host:usingNameServer:'
-    'body': 'NSConnection.connectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName}, usingNameServer:${3:NSPortNameServer* server})'
+    'body': 'connectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName}, usingNameServer:${3:NSPortNameServer* server})'
   'NSConnection.currentConversation':
     'prefix': 'currentConversation'
-    'body': 'NSConnection.currentConversation()'
+    'body': 'currentConversation()'
   'NSConnection.defaultConnection':
     'prefix': 'defaultConnection'
-    'body': 'NSConnection.defaultConnection()'
+    'body': 'defaultConnection()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -6814,10 +6814,10 @@
     'body': 'rootProxy()'
   'NSConnection.rootProxyForConnectionWithRegisteredName:host:':
     'prefix': 'rootProxyForConnectionWithRegisteredName:host:'
-    'body': 'NSConnection.rootProxyForConnectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName})'
+    'body': 'rootProxyForConnectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName})'
   'NSConnection.rootProxyForConnectionWithRegisteredName:host:usingNameServer:':
     'prefix': 'rootProxyForConnectionWithRegisteredName:host:usingNameServer:'
-    'body': 'NSConnection.rootProxyForConnectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName}, usingNameServer:${3:NSPortNameServer* server})'
+    'body': 'rootProxyForConnectionWithRegisteredName(${1:NSString* name}, host:${2:NSString* hostName}, usingNameServer:${3:NSPortNameServer* server})'
   'runInNewThread':
     'prefix': 'runInNewThread'
     'body': 'runInNewThread()'
@@ -6826,10 +6826,10 @@
     'body': 'sendPort()'
   'NSConnection.serviceConnectionWithName:rootObject:':
     'prefix': 'serviceConnectionWithName:rootObject:'
-    'body': 'NSConnection.serviceConnectionWithName(${1:NSString* name}, rootObject:${2:id root})'
+    'body': 'serviceConnectionWithName(${1:NSString* name}, rootObject:${2:id root})'
   'NSConnection.serviceConnectionWithName:rootObject:usingNameServer:':
     'prefix': 'serviceConnectionWithName:rootObject:usingNameServer:'
-    'body': 'NSConnection.serviceConnectionWithName(${1:NSString* name}, rootObject:${2:id root}, usingNameServer:${3:NSPortNameServer* server})'
+    'body': 'serviceConnectionWithName(${1:NSString* name}, rootObject:${2:id root}, usingNameServer:${3:NSPortNameServer* server})'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id anObject})'
@@ -6889,34 +6889,34 @@
     'body': 'bytes()'
   'NSData.data':
     'prefix': 'data'
-    'body': 'NSData.data()'
+    'body': 'data()'
   'NSData.dataWithBytes:length:':
     'prefix': 'dataWithBytes:length:'
-    'body': 'NSData.dataWithBytes(${1:void* bytes}, length:${2:NSUInteger length})'
+    'body': 'dataWithBytes(${1:void* bytes}, length:${2:NSUInteger length})'
   'NSData.dataWithBytesNoCopy:length:':
     'prefix': 'dataWithBytesNoCopy:length:'
-    'body': 'NSData.dataWithBytesNoCopy(${1:void* bytes}, length:${2:NSUInteger length})'
+    'body': 'dataWithBytesNoCopy(${1:void* bytes}, length:${2:NSUInteger length})'
   'NSData.dataWithBytesNoCopy:length:freeWhenDone:':
     'prefix': 'dataWithBytesNoCopy:length:freeWhenDone:'
-    'body': 'NSData.dataWithBytesNoCopy(${1:void* bytes}, length:${2:NSUInteger length}, freeWhenDone:${3:BOOL b})'
+    'body': 'dataWithBytesNoCopy(${1:void* bytes}, length:${2:NSUInteger length}, freeWhenDone:${3:BOOL b})'
   'NSData.dataWithContentsOfFile:':
     'prefix': 'dataWithContentsOfFile:'
-    'body': 'NSData.dataWithContentsOfFile(${1:NSString* path})'
+    'body': 'dataWithContentsOfFile(${1:NSString* path})'
   'NSData.dataWithContentsOfFile:options:error:':
     'prefix': 'dataWithContentsOfFile:options:error:'
-    'body': 'NSData.dataWithContentsOfFile(${1:NSString* path}, options:${2:NSDataReadingOptions readOptionsMask}, error:${3:NSError** errorPtr})'
+    'body': 'dataWithContentsOfFile(${1:NSString* path}, options:${2:NSDataReadingOptions readOptionsMask}, error:${3:NSError** errorPtr})'
   'NSData.dataWithContentsOfMappedFile:':
     'prefix': 'dataWithContentsOfMappedFile:'
-    'body': 'NSData.dataWithContentsOfMappedFile(${1:NSString* path})'
+    'body': 'dataWithContentsOfMappedFile(${1:NSString* path})'
   'NSData.dataWithContentsOfURL:':
     'prefix': 'dataWithContentsOfURL:'
-    'body': 'NSData.dataWithContentsOfURL(${1:NSURL* url})'
+    'body': 'dataWithContentsOfURL(${1:NSURL* url})'
   'NSData.dataWithContentsOfURL:options:error:':
     'prefix': 'dataWithContentsOfURL:options:error:'
-    'body': 'NSData.dataWithContentsOfURL(${1:NSURL* url}, options:${2:NSDataReadingOptions readOptionsMask}, error:${3:NSError** errorPtr})'
+    'body': 'dataWithContentsOfURL(${1:NSURL* url}, options:${2:NSDataReadingOptions readOptionsMask}, error:${3:NSError** errorPtr})'
   'NSData.dataWithData:':
     'prefix': 'dataWithData:'
-    'body': 'NSData.dataWithData(${1:NSData* data})'
+    'body': 'dataWithData(${1:NSData* data})'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -7000,7 +7000,7 @@
     'body': 'checkingTypes()'
   'NSDataDetector.dataDetectorWithTypes:error:':
     'prefix': 'dataDetectorWithTypes:error:'
-    'body': 'NSDataDetector.dataDetectorWithTypes(${1:NSTextCheckingTypes checkingTypes}, error:${2:NSError** error})'
+    'body': 'dataDetectorWithTypes(${1:NSTextCheckingTypes checkingTypes}, error:${2:NSError** error})'
   'initWithTypes:error:':
     'prefix': 'initWithTypes:error:'
     'body': 'initWithTypes(${1:NSTextCheckingTypes checkingTypes}, error:${2:NSError** error})'
@@ -7012,7 +7012,7 @@
     'body': 'compare(${1:NSDate* other})'
   'NSDate.date':
     'prefix': 'date'
-    'body': 'NSDate.date()'
+    'body': 'date()'
   'dateByAddingTimeInterval:':
     'prefix': 'dateByAddingTimeInterval:'
     'body': 'dateByAddingTimeInterval(${1:NSTimeInterval ti})'
@@ -7021,25 +7021,25 @@
     'body': 'dateWithCalendarFormat(${1:NSString* format}, timeZone:${2:NSTimeZone* aTimeZone})'
   'NSDate.dateWithNaturalLanguageString:':
     'prefix': 'dateWithNaturalLanguageString:'
-    'body': 'NSDate.dateWithNaturalLanguageString(${1:NSString* string})'
+    'body': 'dateWithNaturalLanguageString(${1:NSString* string})'
   'NSDate.dateWithNaturalLanguageString:locale:':
     'prefix': 'dateWithNaturalLanguageString:locale:'
-    'body': 'NSDate.dateWithNaturalLanguageString(${1:NSString* string}, locale:${2:id locale})'
+    'body': 'dateWithNaturalLanguageString(${1:NSString* string}, locale:${2:id locale})'
   'NSDate.dateWithString:':
     'prefix': 'dateWithString:'
-    'body': 'NSDate.dateWithString(${1:NSString* aString})'
+    'body': 'dateWithString(${1:NSString* aString})'
   'NSDate.dateWithTimeInterval:sinceDate:':
     'prefix': 'dateWithTimeInterval:sinceDate:'
-    'body': 'NSDate.dateWithTimeInterval(${1:NSTimeInterval secsToBeAdded}, sinceDate:${2:NSDate* date})'
+    'body': 'dateWithTimeInterval(${1:NSTimeInterval secsToBeAdded}, sinceDate:${2:NSDate* date})'
   'NSDate.dateWithTimeIntervalSince1970:':
     'prefix': 'dateWithTimeIntervalSince1970:'
-    'body': 'NSDate.dateWithTimeIntervalSince1970(${1:NSTimeInterval secs})'
+    'body': 'dateWithTimeIntervalSince1970(${1:NSTimeInterval secs})'
   'NSDate.dateWithTimeIntervalSinceNow:':
     'prefix': 'dateWithTimeIntervalSinceNow:'
-    'body': 'NSDate.dateWithTimeIntervalSinceNow(${1:NSTimeInterval secs})'
+    'body': 'dateWithTimeIntervalSinceNow(${1:NSTimeInterval secs})'
   'NSDate.dateWithTimeIntervalSinceReferenceDate:':
     'prefix': 'dateWithTimeIntervalSinceReferenceDate:'
-    'body': 'NSDate.dateWithTimeIntervalSinceReferenceDate(${1:NSTimeInterval ti})'
+    'body': 'dateWithTimeIntervalSinceReferenceDate(${1:NSTimeInterval ti})'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -7051,10 +7051,10 @@
     'body': 'descriptionWithLocale(${1:id locale})'
   'NSDate.distantFuture':
     'prefix': 'distantFuture'
-    'body': 'NSDate.distantFuture()'
+    'body': 'distantFuture()'
   'NSDate.distantPast':
     'prefix': 'distantPast'
-    'body': 'NSDate.distantPast()'
+    'body': 'distantPast()'
   'earlierDate:':
     'prefix': 'earlierDate:'
     'body': 'earlierDate(${1:NSDate* anotherDate})'
@@ -7093,7 +7093,7 @@
     'body': 'timeIntervalSinceNow()'
   'NSDate.timeIntervalSinceReferenceDate':
     'prefix': 'timeIntervalSinceReferenceDate'
-    'body': 'NSDate.timeIntervalSinceReferenceDate()'
+    'body': 'timeIntervalSinceReferenceDate()'
   'timeIntervalSinceReferenceDate':
     'prefix': 'timeIntervalSinceReferenceDate'
     'body': 'timeIntervalSinceReferenceDate()'
@@ -7237,7 +7237,7 @@
     'body': 'dateFormat()'
   'NSDateFormatter.dateFormatFromTemplate:options:locale:':
     'prefix': 'dateFormatFromTemplate:options:locale:'
-    'body': 'NSDateFormatter.dateFormatFromTemplate(${1:NSString* tmplate}, options:${2:NSUInteger opts}, locale:${3:NSLocale* locale})'
+    'body': 'dateFormatFromTemplate(${1:NSString* tmplate}, options:${2:NSUInteger opts}, locale:${3:NSLocale* locale})'
   'dateFromString:':
     'prefix': 'dateFromString:'
     'body': 'dateFromString(${1:NSString* string})'
@@ -7249,7 +7249,7 @@
     'body': 'defaultDate()'
   'NSDateFormatter.defaultFormatterBehavior':
     'prefix': 'defaultFormatterBehavior'
-    'body': 'NSDateFormatter.defaultFormatterBehavior()'
+    'body': 'defaultFormatterBehavior()'
   'doesRelativeDateFormatting':
     'prefix': 'doesRelativeDateFormatting'
     'body': 'doesRelativeDateFormatting()'
@@ -7279,7 +7279,7 @@
     'body': 'locale()'
   'NSDateFormatter.localizedStringFromDate:dateStyle:timeStyle:':
     'prefix': 'localizedStringFromDate:dateStyle:timeStyle:'
-    'body': 'NSDateFormatter.localizedStringFromDate(${1:NSDate* date}, dateStyle:${2:NSDateFormatterStyle dstyle}, timeStyle:${3:NSDateFormatterStyle tstyle})'
+    'body': 'localizedStringFromDate(${1:NSDate* date}, dateStyle:${2:NSDateFormatterStyle dstyle}, timeStyle:${3:NSDateFormatterStyle tstyle})'
   'longEraSymbols':
     'prefix': 'longEraSymbols'
     'body': 'longEraSymbols()'
@@ -7306,7 +7306,7 @@
     'body': 'setDefaultDate(${1:NSDate* date})'
   'NSDateFormatter.setDefaultFormatterBehavior:':
     'prefix': 'setDefaultFormatterBehavior:'
-    'body': 'NSDateFormatter.setDefaultFormatterBehavior(${1:NSDateFormatterBehavior behavior})'
+    'body': 'setDefaultFormatterBehavior(${1:NSDateFormatterBehavior behavior})'
   'setDoesRelativeDateFormatting:':
     'prefix': 'setDoesRelativeDateFormatting:'
     'body': 'setDoesRelativeDateFormatting(${1:BOOL b})'
@@ -7489,22 +7489,22 @@
     'body': 'decimalNumberBySubtracting(${1:NSDecimalNumber* decimalNumber}, withBehavior:${2:id behavior})'
   'NSDecimalNumber.decimalNumberWithDecimal:':
     'prefix': 'decimalNumberWithDecimal:'
-    'body': 'NSDecimalNumber.decimalNumberWithDecimal(${1:NSDecimal dcm})'
+    'body': 'decimalNumberWithDecimal(${1:NSDecimal dcm})'
   'NSDecimalNumber.decimalNumberWithMantissa:exponent:isNegative:':
     'prefix': 'decimalNumberWithMantissa:exponent:isNegative:'
-    'body': 'NSDecimalNumber.decimalNumberWithMantissa(${1:unsigned long long mantissa}, exponent:${2:short exponent}, isNegative:${3:BOOL flag})'
+    'body': 'decimalNumberWithMantissa(${1:unsigned long long mantissa}, exponent:${2:short exponent}, isNegative:${3:BOOL flag})'
   'NSDecimalNumber.decimalNumberWithString:':
     'prefix': 'decimalNumberWithString:'
-    'body': 'NSDecimalNumber.decimalNumberWithString(${1:NSString* numberValue})'
+    'body': 'decimalNumberWithString(${1:NSString* numberValue})'
   'NSDecimalNumber.decimalNumberWithString:locale:':
     'prefix': 'decimalNumberWithString:locale:'
-    'body': 'NSDecimalNumber.decimalNumberWithString(${1:NSString* numberValue}, locale:${2:id locale})'
+    'body': 'decimalNumberWithString(${1:NSString* numberValue}, locale:${2:id locale})'
   'decimalValue':
     'prefix': 'decimalValue'
     'body': 'decimalValue()'
   'NSDecimalNumber.defaultBehavior':
     'prefix': 'defaultBehavior'
-    'body': 'NSDecimalNumber.defaultBehavior()'
+    'body': 'defaultBehavior()'
   'descriptionWithLocale:':
     'prefix': 'descriptionWithLocale:'
     'body': 'descriptionWithLocale(${1:id locale})'
@@ -7525,31 +7525,31 @@
     'body': 'initWithString(${1:NSString* numberValue}, locale:${2:id locale})'
   'NSDecimalNumber.maximumDecimalNumber':
     'prefix': 'maximumDecimalNumber'
-    'body': 'NSDecimalNumber.maximumDecimalNumber()'
+    'body': 'maximumDecimalNumber()'
   'NSDecimalNumber.minimumDecimalNumber':
     'prefix': 'minimumDecimalNumber'
-    'body': 'NSDecimalNumber.minimumDecimalNumber()'
+    'body': 'minimumDecimalNumber()'
   'NSDecimalNumber.notANumber':
     'prefix': 'notANumber'
-    'body': 'NSDecimalNumber.notANumber()'
+    'body': 'notANumber()'
   'objCType':
     'prefix': 'objCType'
     'body': 'objCType()'
   'NSDecimalNumber.one':
     'prefix': 'one'
-    'body': 'NSDecimalNumber.one()'
+    'body': 'one()'
   'NSDecimalNumber.setDefaultBehavior:':
     'prefix': 'setDefaultBehavior:'
-    'body': 'NSDecimalNumber.setDefaultBehavior(${1:id behavior})'
+    'body': 'setDefaultBehavior(${1:id behavior})'
   'NSDecimalNumber.zero':
     'prefix': 'zero'
-    'body': 'NSDecimalNumber.zero()'
+    'body': 'zero()'
   'NSDecimalNumberHandler.decimalNumberHandlerWithRoundingMode:scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero:':
     'prefix': 'decimalNumberHandlerWithRoundingMode:scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero:'
-    'body': 'NSDecimalNumberHandler.decimalNumberHandlerWithRoundingMode(${1:NSRoundingMode roundingMode}, scale:${2:short scale}, raiseOnExactness:${3:BOOL exact}, raiseOnOverflow:${4:BOOL overflow}, raiseOnUnderflow:${5:BOOL underflow}, raiseOnDivideByZero:${6:BOOL divideByZero})'
+    'body': 'decimalNumberHandlerWithRoundingMode(${1:NSRoundingMode roundingMode}, scale:${2:short scale}, raiseOnExactness:${3:BOOL exact}, raiseOnOverflow:${4:BOOL overflow}, raiseOnUnderflow:${5:BOOL underflow}, raiseOnDivideByZero:${6:BOOL divideByZero})'
   'NSDecimalNumberHandler.defaultDecimalNumberHandler':
     'prefix': 'defaultDecimalNumberHandler'
-    'body': 'NSDecimalNumberHandler.defaultDecimalNumberHandler()'
+    'body': 'defaultDecimalNumberHandler()'
   'initWithRoundingMode:scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero:':
     'prefix': 'initWithRoundingMode:scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero:'
     'body': 'initWithRoundingMode(${1:NSRoundingMode roundingMode}, scale:${2:short scale}, raiseOnExactness:${3:BOOL exact}, raiseOnOverflow:${4:BOOL overflow}, raiseOnUnderflow:${5:BOOL underflow}, raiseOnDivideByZero:${6:BOOL divideByZero})'
@@ -7585,28 +7585,28 @@
     'body': 'descriptionWithLocale(${1:id locale}, indent:${2:NSUInteger level})'
   'NSDictionary.dictionary':
     'prefix': 'dictionary'
-    'body': 'NSDictionary.dictionary()'
+    'body': 'dictionary()'
   'NSDictionary.dictionaryWithContentsOfFile:':
     'prefix': 'dictionaryWithContentsOfFile:'
-    'body': 'NSDictionary.dictionaryWithContentsOfFile(${1:NSString* path})'
+    'body': 'dictionaryWithContentsOfFile(${1:NSString* path})'
   'NSDictionary.dictionaryWithContentsOfURL:':
     'prefix': 'dictionaryWithContentsOfURL:'
-    'body': 'NSDictionary.dictionaryWithContentsOfURL(${1:NSURL* url})'
+    'body': 'dictionaryWithContentsOfURL(${1:NSURL* url})'
   'NSDictionary.dictionaryWithDictionary:':
     'prefix': 'dictionaryWithDictionary:'
-    'body': 'NSDictionary.dictionaryWithDictionary(${1:NSDictionary* dict})'
+    'body': 'dictionaryWithDictionary(${1:NSDictionary* dict})'
   'NSDictionary.dictionaryWithObject:forKey:':
     'prefix': 'dictionaryWithObject:forKey:'
-    'body': 'NSDictionary.dictionaryWithObject(${1:id object}, forKey:${2:id key})'
+    'body': 'dictionaryWithObject(${1:id object}, forKey:${2:id key})'
   'NSDictionary.dictionaryWithObjects:forKeys:':
     'prefix': 'dictionaryWithObjects:forKeys:'
-    'body': 'NSDictionary.dictionaryWithObjects(${1:NSArray* objects}, forKeys:${2:NSArray* keys})'
+    'body': 'dictionaryWithObjects(${1:NSArray* objects}, forKeys:${2:NSArray* keys})'
   'NSDictionary.dictionaryWithObjects:forKeys:count:':
     'prefix': 'dictionaryWithObjects:forKeys:count:'
-    'body': 'NSDictionary.dictionaryWithObjects(${1:id* objects}, forKeys:${2:id* keys}, count:${3:NSUInteger cnt})'
+    'body': 'dictionaryWithObjects(${1:id* objects}, forKeys:${2:id* keys}, count:${3:NSUInteger cnt})'
   'NSDictionary.dictionaryWithObjectsAndKeys:':
     'prefix': 'dictionaryWithObjectsAndKeys:'
-    'body': 'NSDictionary.dictionaryWithObjectsAndKeys(${1:id firstObject})'
+    'body': 'dictionaryWithObjectsAndKeys(${1:id firstObject})'
   'enumerateKeysAndObjectsUsingBlock:':
     'prefix': 'enumerateKeysAndObjectsUsingBlock:'
     'body': 'enumerateKeysAndObjectsUsingBlock(${1:void (^)(id, id, BOOL *) block})'
@@ -7723,7 +7723,7 @@
     'body': 'objectsForKeys(${1:NSArray* keys}, notFoundMarker:${2:id marker})'
   'NSDictionary.sharedKeySetForKeys:':
     'prefix': 'sharedKeySetForKeys:'
-    'body': 'NSDictionary.sharedKeySetForKeys(${1:NSArray* keys})'
+    'body': 'sharedKeySetForKeys(${1:NSArray* keys})'
   'valueForKey:':
     'prefix': 'valueForKey:'
     'body': 'valueForKey(${1:NSString* key})'
@@ -7759,10 +7759,10 @@
     'body': 'initWithTarget(${1:id target}, connection:${2:NSConnection* connection})'
   'NSDistantObject.proxyWithLocal:connection:':
     'prefix': 'proxyWithLocal:connection:'
-    'body': 'NSDistantObject.proxyWithLocal(${1:id target}, connection:${2:NSConnection* connection})'
+    'body': 'proxyWithLocal(${1:id target}, connection:${2:NSConnection* connection})'
   'NSDistantObject.proxyWithTarget:connection:':
     'prefix': 'proxyWithTarget:connection:'
-    'body': 'NSDistantObject.proxyWithTarget(${1:id target}, connection:${2:NSConnection* connection})'
+    'body': 'proxyWithTarget(${1:id target}, connection:${2:NSConnection* connection})'
   'setProtocolForProxy:':
     'prefix': 'setProtocolForProxy:'
     'body': 'setProtocolForProxy(${1:Protocol* proto})'
@@ -7789,7 +7789,7 @@
     'body': 'lockDate()'
   'NSDistributedLock.lockWithPath:':
     'prefix': 'lockWithPath:'
-    'body': 'NSDistributedLock.lockWithPath(${1:NSString* path})'
+    'body': 'lockWithPath(${1:NSString* path})'
   'tryLock':
     'prefix': 'tryLock'
     'body': 'tryLock()'
@@ -7804,10 +7804,10 @@
     'body': 'addObserver(${1:id observer}, selector:${2:SEL selector}, name:${3:NSString* name}, object:${4:NSString* object}, suspensionBehavior:${5:NSNotificationSuspensionBehavior suspensionBehavior})'
   'NSDistributedNotificationCenter.defaultCenter':
     'prefix': 'defaultCenter'
-    'body': 'NSDistributedNotificationCenter.defaultCenter()'
+    'body': 'defaultCenter()'
   'NSDistributedNotificationCenter.notificationCenterForType:':
     'prefix': 'notificationCenterForType:'
-    'body': 'NSDistributedNotificationCenter.notificationCenterForType(${1:NSString* notificationCenterType})'
+    'body': 'notificationCenterForType(${1:NSString* notificationCenterType})'
   'postNotificationName:object:':
     'prefix': 'postNotificationName:object:'
     'body': 'postNotificationName(${1:NSString* aName}, object:${2:NSString* anObject})'
@@ -7843,7 +7843,7 @@
     'body': 'domain()'
   'NSError.errorWithDomain:code:userInfo:':
     'prefix': 'errorWithDomain:code:userInfo:'
-    'body': 'NSError.errorWithDomain(${1:NSString* domain}, code:${2:NSInteger code}, userInfo:${3:NSDictionary* dict})'
+    'body': 'errorWithDomain(${1:NSString* domain}, code:${2:NSInteger code}, userInfo:${3:NSDictionary* dict})'
   'helpAnchor':
     'prefix': 'helpAnchor'
     'body': 'helpAnchor()'
@@ -7876,7 +7876,7 @@
     'body': 'callStackSymbols()'
   'NSException.exceptionWithName:reason:userInfo:':
     'prefix': 'exceptionWithName:reason:userInfo:'
-    'body': 'NSException.exceptionWithName(${1:NSString* name}, reason:${2:NSString* reason}, userInfo:${3:NSDictionary* userInfo})'
+    'body': 'exceptionWithName(${1:NSString* name}, reason:${2:NSString* reason}, userInfo:${3:NSDictionary* userInfo})'
   'initWithName:reason:userInfo:':
     'prefix': 'initWithName:reason:userInfo:'
     'body': 'initWithName(${1:NSString* aName}, reason:${2:NSString* aReason}, userInfo:${3:NSDictionary* aUserInfo})'
@@ -7888,10 +7888,10 @@
     'body': 'raise()'
   'NSException.raise:format:':
     'prefix': 'raise:format:'
-    'body': 'NSException.raise(${1:NSString* name}, format:${2:NSString* format})'
+    'body': 'raise(${1:NSString* name}, format:${2:NSString* format})'
   'NSException.raise:format:arguments:':
     'prefix': 'raise:format:arguments:'
-    'body': 'NSException.raise(${1:NSString* name}, format:${2:NSString* format}, arguments:${3:va_list argList})'
+    'body': 'raise(${1:NSString* name}, format:${2:NSString* format}, arguments:${3:va_list argList})'
   'reason':
     'prefix': 'reason'
     'body': 'reason()'
@@ -7915,43 +7915,43 @@
     'body': 'expressionBlock()'
   'NSExpression.expressionForAggregate:':
     'prefix': 'expressionForAggregate:'
-    'body': 'NSExpression.expressionForAggregate(${1:NSArray* subexpressions})'
+    'body': 'expressionForAggregate(${1:NSArray* subexpressions})'
   'NSExpression.expressionForAnyKey':
     'prefix': 'expressionForAnyKey'
-    'body': 'NSExpression.expressionForAnyKey()'
+    'body': 'expressionForAnyKey()'
   'NSExpression.expressionForBlock:arguments:':
     'prefix': 'expressionForBlock:arguments:'
-    'body': 'NSExpression.expressionForBlock(${1:id (^)(id, NSArray *, NSMutableDictionary *) block}, arguments:${2:NSArray* arguments})'
+    'body': 'expressionForBlock(${1:id (^)(id, NSArray *, NSMutableDictionary *) block}, arguments:${2:NSArray* arguments})'
   'NSExpression.expressionForConstantValue:':
     'prefix': 'expressionForConstantValue:'
-    'body': 'NSExpression.expressionForConstantValue(${1:id obj})'
+    'body': 'expressionForConstantValue(${1:id obj})'
   'NSExpression.expressionForEvaluatedObject':
     'prefix': 'expressionForEvaluatedObject'
-    'body': 'NSExpression.expressionForEvaluatedObject()'
+    'body': 'expressionForEvaluatedObject()'
   'NSExpression.expressionForFunction:arguments:':
     'prefix': 'expressionForFunction:arguments:'
-    'body': 'NSExpression.expressionForFunction(${1:NSString* name}, arguments:${2:NSArray* parameters})'
+    'body': 'expressionForFunction(${1:NSString* name}, arguments:${2:NSArray* parameters})'
   'NSExpression.expressionForFunction:selectorName:arguments:':
     'prefix': 'expressionForFunction:selectorName:arguments:'
-    'body': 'NSExpression.expressionForFunction(${1:NSExpression* target}, selectorName:${2:NSString* name}, arguments:${3:NSArray* parameters})'
+    'body': 'expressionForFunction(${1:NSExpression* target}, selectorName:${2:NSString* name}, arguments:${3:NSArray* parameters})'
   'NSExpression.expressionForIntersectSet:with:':
     'prefix': 'expressionForIntersectSet:with:'
-    'body': 'NSExpression.expressionForIntersectSet(${1:NSExpression* left}, with:${2:NSExpression* right})'
+    'body': 'expressionForIntersectSet(${1:NSExpression* left}, with:${2:NSExpression* right})'
   'NSExpression.expressionForKeyPath:':
     'prefix': 'expressionForKeyPath:'
-    'body': 'NSExpression.expressionForKeyPath(${1:NSString* keyPath})'
+    'body': 'expressionForKeyPath(${1:NSString* keyPath})'
   'NSExpression.expressionForMinusSet:with:':
     'prefix': 'expressionForMinusSet:with:'
-    'body': 'NSExpression.expressionForMinusSet(${1:NSExpression* left}, with:${2:NSExpression* right})'
+    'body': 'expressionForMinusSet(${1:NSExpression* left}, with:${2:NSExpression* right})'
   'NSExpression.expressionForSubquery:usingIteratorVariable:predicate:':
     'prefix': 'expressionForSubquery:usingIteratorVariable:predicate:'
-    'body': 'NSExpression.expressionForSubquery(${1:NSExpression* expression}, usingIteratorVariable:${2:NSString* variable}, predicate:${3:id predicate})'
+    'body': 'expressionForSubquery(${1:NSExpression* expression}, usingIteratorVariable:${2:NSString* variable}, predicate:${3:id predicate})'
   'NSExpression.expressionForUnionSet:with:':
     'prefix': 'expressionForUnionSet:with:'
-    'body': 'NSExpression.expressionForUnionSet(${1:NSExpression* left}, with:${2:NSExpression* right})'
+    'body': 'expressionForUnionSet(${1:NSExpression* left}, with:${2:NSExpression* right})'
   'NSExpression.expressionForVariable:':
     'prefix': 'expressionForVariable:'
-    'body': 'NSExpression.expressionForVariable(${1:NSString* string})'
+    'body': 'expressionForVariable(${1:NSString* string})'
   'expressionType':
     'prefix': 'expressionType'
     'body': 'expressionType()'
@@ -7960,13 +7960,13 @@
     'body': 'expressionValueWithObject(${1:id object}, context:${2:NSMutableDictionary* context})'
   'NSExpression.expressionWithFormat:':
     'prefix': 'expressionWithFormat:'
-    'body': 'NSExpression.expressionWithFormat(${1:NSString* expressionFormat})'
+    'body': 'expressionWithFormat(${1:NSString* expressionFormat})'
   'NSExpression.expressionWithFormat:argumentArray:':
     'prefix': 'expressionWithFormat:argumentArray:'
-    'body': 'NSExpression.expressionWithFormat(${1:NSString* expressionFormat}, argumentArray:${2:NSArray* arguments})'
+    'body': 'expressionWithFormat(${1:NSString* expressionFormat}, argumentArray:${2:NSArray* arguments})'
   'NSExpression.expressionWithFormat:arguments:':
     'prefix': 'expressionWithFormat:arguments:'
-    'body': 'NSExpression.expressionWithFormat(${1:NSString* expressionFormat}, arguments:${2:va_list argList})'
+    'body': 'expressionWithFormat(${1:NSString* expressionFormat}, arguments:${2:va_list argList})'
   'function':
     'prefix': 'function'
     'body': 'function()'
@@ -7993,7 +7993,7 @@
     'body': 'variable()'
   'NSFileCoordinator.addFilePresenter:':
     'prefix': 'addFilePresenter:'
-    'body': 'NSFileCoordinator.addFilePresenter(${1:id filePresenter})'
+    'body': 'addFilePresenter(${1:id filePresenter})'
   'cancel':
     'prefix': 'cancel'
     'body': 'cancel()'
@@ -8011,7 +8011,7 @@
     'body': 'coordinateWritingItemAtURL(${1:NSURL* url1}, options:${2:NSFileCoordinatorWritingOptions options1}, writingItemAtURL:${3:NSURL* url2}, options:${4:NSFileCoordinatorWritingOptions options2}, error:${5:NSError** outError}, byAccessor:${6:void (^)(NSURL *, NSURL *) writer})'
   'NSFileCoordinator.filePresenters':
     'prefix': 'filePresenters'
-    'body': 'NSFileCoordinator.filePresenters()'
+    'body': 'filePresenters()'
   'initWithFilePresenter:':
     'prefix': 'initWithFilePresenter:'
     'body': 'initWithFilePresenter(${1:id filePresenterOrNil})'
@@ -8026,7 +8026,7 @@
     'body': 'prepareForReadingItemsAtURLs(${1:NSArray* readingURLs}, options:${2:NSFileCoordinatorReadingOptions readingOptions}, writingItemsAtURLs:${3:NSArray* writingURLs}, options:${4:NSFileCoordinatorWritingOptions writingOptions}, error:${5:NSError** outError}, byAccessor:${6:void (^)(void (^)(void)) batchAccessor})'
   'NSFileCoordinator.removeFilePresenter:':
     'prefix': 'removeFilePresenter:'
-    'body': 'NSFileCoordinator.removeFilePresenter(${1:id filePresenter})'
+    'body': 'removeFilePresenter(${1:id filePresenter})'
   'acceptConnectionInBackgroundAndNotify':
     'prefix': 'acceptConnectionInBackgroundAndNotify'
     'body': 'acceptConnectionInBackgroundAndNotify()'
@@ -8044,34 +8044,34 @@
     'body': 'fileDescriptor()'
   'NSFileHandle.fileHandleForReadingAtPath:':
     'prefix': 'fileHandleForReadingAtPath:'
-    'body': 'NSFileHandle.fileHandleForReadingAtPath(${1:NSString* path})'
+    'body': 'fileHandleForReadingAtPath(${1:NSString* path})'
   'NSFileHandle.fileHandleForReadingFromURL:error:':
     'prefix': 'fileHandleForReadingFromURL:error:'
-    'body': 'NSFileHandle.fileHandleForReadingFromURL(${1:NSURL* url}, error:${2:NSError** error})'
+    'body': 'fileHandleForReadingFromURL(${1:NSURL* url}, error:${2:NSError** error})'
   'NSFileHandle.fileHandleForUpdatingAtPath:':
     'prefix': 'fileHandleForUpdatingAtPath:'
-    'body': 'NSFileHandle.fileHandleForUpdatingAtPath(${1:NSString* path})'
+    'body': 'fileHandleForUpdatingAtPath(${1:NSString* path})'
   'NSFileHandle.fileHandleForUpdatingURL:error:':
     'prefix': 'fileHandleForUpdatingURL:error:'
-    'body': 'NSFileHandle.fileHandleForUpdatingURL(${1:NSURL* url}, error:${2:NSError** error})'
+    'body': 'fileHandleForUpdatingURL(${1:NSURL* url}, error:${2:NSError** error})'
   'NSFileHandle.fileHandleForWritingAtPath:':
     'prefix': 'fileHandleForWritingAtPath:'
-    'body': 'NSFileHandle.fileHandleForWritingAtPath(${1:NSString* path})'
+    'body': 'fileHandleForWritingAtPath(${1:NSString* path})'
   'NSFileHandle.fileHandleForWritingToURL:error:':
     'prefix': 'fileHandleForWritingToURL:error:'
-    'body': 'NSFileHandle.fileHandleForWritingToURL(${1:NSURL* url}, error:${2:NSError** error})'
+    'body': 'fileHandleForWritingToURL(${1:NSURL* url}, error:${2:NSError** error})'
   'NSFileHandle.fileHandleWithNullDevice':
     'prefix': 'fileHandleWithNullDevice'
-    'body': 'NSFileHandle.fileHandleWithNullDevice()'
+    'body': 'fileHandleWithNullDevice()'
   'NSFileHandle.fileHandleWithStandardError':
     'prefix': 'fileHandleWithStandardError'
-    'body': 'NSFileHandle.fileHandleWithStandardError()'
+    'body': 'fileHandleWithStandardError()'
   'NSFileHandle.fileHandleWithStandardInput':
     'prefix': 'fileHandleWithStandardInput'
-    'body': 'NSFileHandle.fileHandleWithStandardInput()'
+    'body': 'fileHandleWithStandardInput()'
   'NSFileHandle.fileHandleWithStandardOutput':
     'prefix': 'fileHandleWithStandardOutput'
-    'body': 'NSFileHandle.fileHandleWithStandardOutput()'
+    'body': 'fileHandleWithStandardOutput()'
   'initWithFileDescriptor:':
     'prefix': 'initWithFileDescriptor:'
     'body': 'initWithFileDescriptor(${1:int fd})'
@@ -8209,7 +8209,7 @@
     'body': 'currentDirectoryPath()'
   'NSFileManager.defaultManager':
     'prefix': 'defaultManager'
-    'body': 'NSFileManager.defaultManager()'
+    'body': 'defaultManager()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -8329,10 +8329,10 @@
     'body': 'URL()'
   'NSFileVersion.addVersionOfItemAtURL:withContentsOfURL:options:error:':
     'prefix': 'addVersionOfItemAtURL:withContentsOfURL:options:error:'
-    'body': 'NSFileVersion.addVersionOfItemAtURL(${1:NSURL* url}, withContentsOfURL:${2:NSURL* contentsURL}, options:${3:NSFileVersionAddingOptions options}, error:${4:NSError** outError})'
+    'body': 'addVersionOfItemAtURL(${1:NSURL* url}, withContentsOfURL:${2:NSURL* contentsURL}, options:${3:NSFileVersionAddingOptions options}, error:${4:NSError** outError})'
   'NSFileVersion.currentVersionOfItemAtURL:':
     'prefix': 'currentVersionOfItemAtURL:'
-    'body': 'NSFileVersion.currentVersionOfItemAtURL(${1:NSURL* url})'
+    'body': 'currentVersionOfItemAtURL(${1:NSURL* url})'
   'isConflict':
     'prefix': 'isConflict'
     'body': 'isConflict()'
@@ -8353,7 +8353,7 @@
     'body': 'modificationDate()'
   'NSFileVersion.otherVersionsOfItemAtURL:':
     'prefix': 'otherVersionsOfItemAtURL:'
-    'body': 'NSFileVersion.otherVersionsOfItemAtURL(${1:NSURL* url})'
+    'body': 'otherVersionsOfItemAtURL(${1:NSURL* url})'
   'persistentIdentifier':
     'prefix': 'persistentIdentifier'
     'body': 'persistentIdentifier()'
@@ -8362,7 +8362,7 @@
     'body': 'removeAndReturnError(${1:NSError** outError})'
   'NSFileVersion.removeOtherVersionsOfItemAtURL:error:':
     'prefix': 'removeOtherVersionsOfItemAtURL:error:'
-    'body': 'NSFileVersion.removeOtherVersionsOfItemAtURL(${1:NSURL* url}, error:${2:NSError** outError})'
+    'body': 'removeOtherVersionsOfItemAtURL(${1:NSURL* url}, error:${2:NSError** outError})'
   'replaceItemAtURL:options:error:':
     'prefix': 'replaceItemAtURL:options:error:'
     'body': 'replaceItemAtURL(${1:NSURL* url}, options:${2:NSFileVersionReplacingOptions options}, error:${3:NSError** error})'
@@ -8374,13 +8374,13 @@
     'body': 'setResolved(${1:BOOL resolved})'
   'NSFileVersion.temporaryDirectoryURLForNewVersionOfItemAtURL:':
     'prefix': 'temporaryDirectoryURLForNewVersionOfItemAtURL:'
-    'body': 'NSFileVersion.temporaryDirectoryURLForNewVersionOfItemAtURL(${1:NSURL* url})'
+    'body': 'temporaryDirectoryURLForNewVersionOfItemAtURL(${1:NSURL* url})'
   'NSFileVersion.unresolvedConflictVersionsOfItemAtURL:':
     'prefix': 'unresolvedConflictVersionsOfItemAtURL:'
-    'body': 'NSFileVersion.unresolvedConflictVersionsOfItemAtURL(${1:NSURL* url})'
+    'body': 'unresolvedConflictVersionsOfItemAtURL(${1:NSURL* url})'
   'NSFileVersion.versionOfItemAtURL:forPersistentIdentifier:':
     'prefix': 'versionOfItemAtURL:forPersistentIdentifier:'
-    'body': 'NSFileVersion.versionOfItemAtURL(${1:NSURL* url}, forPersistentIdentifier:${2:id persistentIdentifier})'
+    'body': 'versionOfItemAtURL(${1:NSURL* url}, forPersistentIdentifier:${2:id persistentIdentifier})'
   'addFileWithPath:':
     'prefix': 'addFileWithPath:'
     'body': 'addFileWithPath(${1:NSString* path})'
@@ -8506,7 +8506,7 @@
     'body': 'collectIfNeeded()'
   'NSGarbageCollector.defaultCollector':
     'prefix': 'defaultCollector'
-    'body': 'NSGarbageCollector.defaultCollector()'
+    'body': 'defaultCollector()'
   'disable':
     'prefix': 'disable'
     'body': 'disable()'
@@ -8536,10 +8536,10 @@
     'body': 'commentURL()'
   'NSHTTPCookie.cookieWithProperties:':
     'prefix': 'cookieWithProperties:'
-    'body': 'NSHTTPCookie.cookieWithProperties(${1:NSDictionary* properties})'
+    'body': 'cookieWithProperties(${1:NSDictionary* properties})'
   'NSHTTPCookie.cookiesWithResponseHeaderFields:forURL:':
     'prefix': 'cookiesWithResponseHeaderFields:forURL:'
-    'body': 'NSHTTPCookie.cookiesWithResponseHeaderFields(${1:NSDictionary* headerFields}, forURL:${2:NSURL* URL})'
+    'body': 'cookiesWithResponseHeaderFields(${1:NSDictionary* headerFields}, forURL:${2:NSURL* URL})'
   'domain':
     'prefix': 'domain'
     'body': 'domain()'
@@ -8572,7 +8572,7 @@
     'body': 'properties()'
   'NSHTTPCookie.requestHeaderFieldsWithCookies:':
     'prefix': 'requestHeaderFieldsWithCookies:'
-    'body': 'NSHTTPCookie.requestHeaderFieldsWithCookies(${1:NSArray* cookies})'
+    'body': 'requestHeaderFieldsWithCookies(${1:NSArray* cookies})'
   'value':
     'prefix': 'value'
     'body': 'value()'
@@ -8602,7 +8602,7 @@
     'body': 'setCookies(${1:NSArray* cookies}, forURL:${2:NSURL* URL}, mainDocumentURL:${3:NSURL* mainDocumentURL})'
   'NSHTTPCookieStorage.sharedHTTPCookieStorage':
     'prefix': 'sharedHTTPCookieStorage'
-    'body': 'NSHTTPCookieStorage.sharedHTTPCookieStorage()'
+    'body': 'sharedHTTPCookieStorage()'
   'sortedCookiesUsingDescriptors:':
     'prefix': 'sortedCookiesUsingDescriptors:'
     'body': 'sortedCookiesUsingDescriptors(${1:NSArray* sortOrder})'
@@ -8614,7 +8614,7 @@
     'body': 'initWithURL(${1:NSURL* url}, statusCode:${2:NSInteger statusCode}, HTTPVersion:${3:NSString* HTTPVersion}, headerFields:${4:NSDictionary* headerFields})'
   'NSHTTPURLResponse.localizedStringForStatusCode:':
     'prefix': 'localizedStringForStatusCode:'
-    'body': 'NSHTTPURLResponse.localizedStringForStatusCode(${1:NSInteger statusCode})'
+    'body': 'localizedStringForStatusCode(${1:NSInteger statusCode})'
   'statusCode':
     'prefix': 'statusCode'
     'body': 'statusCode()'
@@ -8635,10 +8635,10 @@
     'body': 'count()'
   'NSHashTable.hashTableWithOptions:':
     'prefix': 'hashTableWithOptions:'
-    'body': 'NSHashTable.hashTableWithOptions(${1:NSPointerFunctionsOptions options})'
+    'body': 'hashTableWithOptions(${1:NSPointerFunctionsOptions options})'
   'NSHashTable.hashTableWithWeakObjects':
     'prefix': 'hashTableWithWeakObjects'
-    'body': 'NSHashTable.hashTableWithWeakObjects()'
+    'body': 'hashTableWithWeakObjects()'
   'initWithOptions:capacity:':
     'prefix': 'initWithOptions:capacity:'
     'body': 'initWithOptions(${1:NSPointerFunctionsOptions options}, capacity:${2:NSUInteger initialCapacity})'
@@ -8683,7 +8683,7 @@
     'body': 'unionHashTable(${1:NSHashTable* other})'
   'NSHashTable.weakObjectsHashTable':
     'prefix': 'weakObjectsHashTable'
-    'body': 'NSHashTable.weakObjectsHashTable()'
+    'body': 'weakObjectsHashTable()'
   'address':
     'prefix': 'address'
     'body': 'address()'
@@ -8692,22 +8692,22 @@
     'body': 'addresses()'
   'NSHost.currentHost':
     'prefix': 'currentHost'
-    'body': 'NSHost.currentHost()'
+    'body': 'currentHost()'
   'NSHost.flushHostCache':
     'prefix': 'flushHostCache'
-    'body': 'NSHost.flushHostCache()'
+    'body': 'flushHostCache()'
   'NSHost.hostWithAddress:':
     'prefix': 'hostWithAddress:'
-    'body': 'NSHost.hostWithAddress(${1:NSString* address})'
+    'body': 'hostWithAddress(${1:NSString* address})'
   'NSHost.hostWithName:':
     'prefix': 'hostWithName:'
-    'body': 'NSHost.hostWithName(${1:NSString* name})'
+    'body': 'hostWithName(${1:NSString* name})'
   'isEqualToHost:':
     'prefix': 'isEqualToHost:'
     'body': 'isEqualToHost(${1:NSHost* aHost})'
   'NSHost.isHostCacheEnabled':
     'prefix': 'isHostCacheEnabled'
-    'body': 'NSHost.isHostCacheEnabled()'
+    'body': 'isHostCacheEnabled()'
   'localizedName':
     'prefix': 'localizedName'
     'body': 'localizedName()'
@@ -8719,7 +8719,7 @@
     'body': 'names()'
   'NSHost.setHostCacheEnabled:':
     'prefix': 'setHostCacheEnabled:'
-    'body': 'NSHost.setHostCacheEnabled(${1:BOOL flag})'
+    'body': 'setHostCacheEnabled(${1:BOOL flag})'
   'compare:':
     'prefix': 'compare:'
     'body': 'compare(${1:NSIndexPath* otherObject})'
@@ -8737,10 +8737,10 @@
     'body': 'indexPathByRemovingLastIndex()'
   'NSIndexPath.indexPathWithIndex:':
     'prefix': 'indexPathWithIndex:'
-    'body': 'NSIndexPath.indexPathWithIndex(${1:NSUInteger index})'
+    'body': 'indexPathWithIndex(${1:NSUInteger index})'
   'NSIndexPath.indexPathWithIndexes:length:':
     'prefix': 'indexPathWithIndexes:length:'
-    'body': 'NSIndexPath.indexPathWithIndexes(${1:NSUInteger* indexes}, length:${2:NSUInteger length})'
+    'body': 'indexPathWithIndexes(${1:NSUInteger* indexes}, length:${2:NSUInteger length})'
   'init':
     'prefix': 'init'
     'body': 'init()'
@@ -8812,13 +8812,13 @@
     'body': 'indexPassingTest(${1:BOOL (^)(NSUInteger, BOOL *) predicate})'
   'NSIndexSet.indexSet':
     'prefix': 'indexSet'
-    'body': 'NSIndexSet.indexSet()'
+    'body': 'indexSet()'
   'NSIndexSet.indexSetWithIndex:':
     'prefix': 'indexSetWithIndex:'
-    'body': 'NSIndexSet.indexSetWithIndex(${1:NSUInteger value})'
+    'body': 'indexSetWithIndex(${1:NSUInteger value})'
   'NSIndexSet.indexSetWithIndexesInRange:':
     'prefix': 'indexSetWithIndexesInRange:'
-    'body': 'NSIndexSet.indexSetWithIndexesInRange(${1:NSRange range})'
+    'body': 'indexSetWithIndexesInRange(${1:NSRange range})'
   'indexWithOptions:passingTest:':
     'prefix': 'indexWithOptions:passingTest:'
     'body': 'indexWithOptions(${1:NSEnumerationOptions opts}, passingTest:${2:BOOL (^)(NSUInteger, BOOL *) predicate})'
@@ -8878,13 +8878,13 @@
     'body': 'initWithURL(${1:NSURL* url})'
   'NSInputStream.inputStreamWithData:':
     'prefix': 'inputStreamWithData:'
-    'body': 'NSInputStream.inputStreamWithData(${1:NSData* data})'
+    'body': 'inputStreamWithData(${1:NSData* data})'
   'NSInputStream.inputStreamWithFileAtPath:':
     'prefix': 'inputStreamWithFileAtPath:'
-    'body': 'NSInputStream.inputStreamWithFileAtPath(${1:NSString* path})'
+    'body': 'inputStreamWithFileAtPath(${1:NSString* path})'
   'NSInputStream.inputStreamWithURL:':
     'prefix': 'inputStreamWithURL:'
-    'body': 'NSInputStream.inputStreamWithURL(${1:NSURL* url})'
+    'body': 'inputStreamWithURL(${1:NSURL* url})'
   'read:maxLength:':
     'prefix': 'read:maxLength:'
     'body': 'read(${1:uint8_t* buffer}, maxLength:${2:NSUInteger len})'
@@ -8899,7 +8899,7 @@
     'body': 'getReturnValue(${1:void* retLoc})'
   'NSInvocation.invocationWithMethodSignature:':
     'prefix': 'invocationWithMethodSignature:'
-    'body': 'NSInvocation.invocationWithMethodSignature(${1:NSMethodSignature* sig})'
+    'body': 'invocationWithMethodSignature(${1:NSMethodSignature* sig})'
   'invoke':
     'prefix': 'invoke'
     'body': 'invoke()'
@@ -8944,28 +8944,28 @@
     'body': 'result()'
   'NSJSONSerialization.JSONObjectWithData:options:error:':
     'prefix': 'JSONObjectWithData:options:error:'
-    'body': 'NSJSONSerialization.JSONObjectWithData(${1:NSData* data}, options:${2:NSJSONReadingOptions opt}, error:${3:NSError** error})'
+    'body': 'JSONObjectWithData(${1:NSData* data}, options:${2:NSJSONReadingOptions opt}, error:${3:NSError** error})'
   'NSJSONSerialization.JSONObjectWithStream:options:error:':
     'prefix': 'JSONObjectWithStream:options:error:'
-    'body': 'NSJSONSerialization.JSONObjectWithStream(${1:NSInputStream* stream}, options:${2:NSJSONReadingOptions opt}, error:${3:NSError** error})'
+    'body': 'JSONObjectWithStream(${1:NSInputStream* stream}, options:${2:NSJSONReadingOptions opt}, error:${3:NSError** error})'
   'NSJSONSerialization.dataWithJSONObject:options:error:':
     'prefix': 'dataWithJSONObject:options:error:'
-    'body': 'NSJSONSerialization.dataWithJSONObject(${1:id obj}, options:${2:NSJSONWritingOptions opt}, error:${3:NSError** error})'
+    'body': 'dataWithJSONObject(${1:id obj}, options:${2:NSJSONWritingOptions opt}, error:${3:NSError** error})'
   'NSJSONSerialization.isValidJSONObject:':
     'prefix': 'isValidJSONObject:'
-    'body': 'NSJSONSerialization.isValidJSONObject(${1:id obj})'
+    'body': 'isValidJSONObject(${1:id obj})'
   'NSJSONSerialization.writeJSONObject:toStream:options:error:':
     'prefix': 'writeJSONObject:toStream:options:error:'
-    'body': 'NSJSONSerialization.writeJSONObject(${1:id obj}, toStream:${2:NSOutputStream* stream}, options:${3:NSJSONWritingOptions opt}, error:${4:NSError** error})'
+    'body': 'writeJSONObject(${1:id obj}, toStream:${2:NSOutputStream* stream}, options:${3:NSJSONWritingOptions opt}, error:${4:NSError** error})'
   'NSKeyedArchiver.archiveRootObject:toFile:':
     'prefix': 'archiveRootObject:toFile:'
-    'body': 'NSKeyedArchiver.archiveRootObject(${1:id rootObject}, toFile:${2:NSString* path})'
+    'body': 'archiveRootObject(${1:id rootObject}, toFile:${2:NSString* path})'
   'NSKeyedArchiver.archivedDataWithRootObject:':
     'prefix': 'archivedDataWithRootObject:'
-    'body': 'NSKeyedArchiver.archivedDataWithRootObject(${1:id rootObject})'
+    'body': 'archivedDataWithRootObject(${1:id rootObject})'
   'NSKeyedArchiver.classNameForClass:':
     'prefix': 'classNameForClass:'
-    'body': 'NSKeyedArchiver.classNameForClass(${1:Class cls})'
+    'body': 'classNameForClass(${1:Class cls})'
   'classNameForClass:':
     'prefix': 'classNameForClass:'
     'body': 'classNameForClass(${1:Class cls})'
@@ -9010,7 +9010,7 @@
     'body': 'outputFormat()'
   'NSKeyedArchiver.setClassName:forClass:':
     'prefix': 'setClassName:forClass:'
-    'body': 'NSKeyedArchiver.setClassName(${1:NSString* codedName}, forClass:${2:Class cls})'
+    'body': 'setClassName(${1:NSString* codedName}, forClass:${2:Class cls})'
   'setClassName:forClass:':
     'prefix': 'setClassName:forClass:'
     'body': 'setClassName(${1:NSString* codedName}, forClass:${2:Class cls})'
@@ -9025,7 +9025,7 @@
     'body': 'setRequiresSecureCoding(${1:BOOL b})'
   'NSKeyedUnarchiver.classForClassName:':
     'prefix': 'classForClassName:'
-    'body': 'NSKeyedUnarchiver.classForClassName(${1:NSString* codedName})'
+    'body': 'classForClassName(${1:NSString* codedName})'
   'classForClassName:':
     'prefix': 'classForClassName:'
     'body': 'classForClassName(${1:NSString* codedName})'
@@ -9067,7 +9067,7 @@
     'body': 'initForReadingWithData(${1:NSData* data})'
   'NSKeyedUnarchiver.setClass:forClassName:':
     'prefix': 'setClass:forClassName:'
-    'body': 'NSKeyedUnarchiver.setClass(${1:Class cls}, forClassName:${2:NSString* codedName})'
+    'body': 'setClass(${1:Class cls}, forClassName:${2:NSString* codedName})'
   'setClass:forClassName:':
     'prefix': 'setClass:forClassName:'
     'body': 'setClass(${1:Class cls}, forClassName:${2:NSString* codedName})'
@@ -9079,13 +9079,13 @@
     'body': 'setRequiresSecureCoding(${1:BOOL b})'
   'NSKeyedUnarchiver.unarchiveObjectWithData:':
     'prefix': 'unarchiveObjectWithData:'
-    'body': 'NSKeyedUnarchiver.unarchiveObjectWithData(${1:NSData* data})'
+    'body': 'unarchiveObjectWithData(${1:NSData* data})'
   'NSKeyedUnarchiver.unarchiveObjectWithFile:':
     'prefix': 'unarchiveObjectWithFile:'
-    'body': 'NSKeyedUnarchiver.unarchiveObjectWithFile(${1:NSString* path})'
+    'body': 'unarchiveObjectWithFile(${1:NSString* path})'
   'NSLinguisticTagger.availableTagSchemesForLanguage:':
     'prefix': 'availableTagSchemesForLanguage:'
-    'body': 'NSLinguisticTagger.availableTagSchemesForLanguage(${1:NSString* language})'
+    'body': 'availableTagSchemesForLanguage(${1:NSString* language})'
   'enumerateTagsInRange:scheme:options:usingBlock:':
     'prefix': 'enumerateTagsInRange:scheme:options:usingBlock:'
     'body': 'enumerateTagsInRange(${1:NSRange range}, scheme:${2:NSString* tagScheme}, options:${3:NSLinguisticTaggerOptions opts}, usingBlock:${4:void (^)(NSString *, NSRange, NSRange, BOOL *) block})'
@@ -9124,37 +9124,37 @@
     'body': 'tagsInRange(${1:NSRange range}, scheme:${2:NSString* tagScheme}, options:${3:NSLinguisticTaggerOptions opts}, tokenRanges:${4:NSArray** tokenRanges})'
   'NSLocale.ISOCountryCodes':
     'prefix': 'ISOCountryCodes'
-    'body': 'NSLocale.ISOCountryCodes()'
+    'body': 'ISOCountryCodes()'
   'NSLocale.ISOCurrencyCodes':
     'prefix': 'ISOCurrencyCodes'
-    'body': 'NSLocale.ISOCurrencyCodes()'
+    'body': 'ISOCurrencyCodes()'
   'NSLocale.ISOLanguageCodes':
     'prefix': 'ISOLanguageCodes'
-    'body': 'NSLocale.ISOLanguageCodes()'
+    'body': 'ISOLanguageCodes()'
   'NSLocale.autoupdatingCurrentLocale':
     'prefix': 'autoupdatingCurrentLocale'
-    'body': 'NSLocale.autoupdatingCurrentLocale()'
+    'body': 'autoupdatingCurrentLocale()'
   'NSLocale.availableLocaleIdentifiers':
     'prefix': 'availableLocaleIdentifiers'
-    'body': 'NSLocale.availableLocaleIdentifiers()'
+    'body': 'availableLocaleIdentifiers()'
   'NSLocale.canonicalLanguageIdentifierFromString:':
     'prefix': 'canonicalLanguageIdentifierFromString:'
-    'body': 'NSLocale.canonicalLanguageIdentifierFromString(${1:NSString* string})'
+    'body': 'canonicalLanguageIdentifierFromString(${1:NSString* string})'
   'NSLocale.canonicalLocaleIdentifierFromString:':
     'prefix': 'canonicalLocaleIdentifierFromString:'
-    'body': 'NSLocale.canonicalLocaleIdentifierFromString(${1:NSString* string})'
+    'body': 'canonicalLocaleIdentifierFromString(${1:NSString* string})'
   'NSLocale.characterDirectionForLanguage:':
     'prefix': 'characterDirectionForLanguage:'
-    'body': 'NSLocale.characterDirectionForLanguage(${1:NSString* isoLangCode})'
+    'body': 'characterDirectionForLanguage(${1:NSString* isoLangCode})'
   'NSLocale.commonISOCurrencyCodes':
     'prefix': 'commonISOCurrencyCodes'
-    'body': 'NSLocale.commonISOCurrencyCodes()'
+    'body': 'commonISOCurrencyCodes()'
   'NSLocale.componentsFromLocaleIdentifier:':
     'prefix': 'componentsFromLocaleIdentifier:'
-    'body': 'NSLocale.componentsFromLocaleIdentifier(${1:NSString* string})'
+    'body': 'componentsFromLocaleIdentifier(${1:NSString* string})'
   'NSLocale.currentLocale':
     'prefix': 'currentLocale'
-    'body': 'NSLocale.currentLocale()'
+    'body': 'currentLocale()'
   'displayNameForKey:value:':
     'prefix': 'displayNameForKey:value:'
     'body': 'displayNameForKey(${1:id key}, value:${2:id value})'
@@ -9166,31 +9166,31 @@
     'body': 'initWithLocaleIdentifier(${1:NSString* string})'
   'NSLocale.lineDirectionForLanguage:':
     'prefix': 'lineDirectionForLanguage:'
-    'body': 'NSLocale.lineDirectionForLanguage(${1:NSString* isoLangCode})'
+    'body': 'lineDirectionForLanguage(${1:NSString* isoLangCode})'
   'localeIdentifier':
     'prefix': 'localeIdentifier'
     'body': 'localeIdentifier()'
   'NSLocale.localeIdentifierFromComponents:':
     'prefix': 'localeIdentifierFromComponents:'
-    'body': 'NSLocale.localeIdentifierFromComponents(${1:NSDictionary* dict})'
+    'body': 'localeIdentifierFromComponents(${1:NSDictionary* dict})'
   'NSLocale.localeIdentifierFromWindowsLocaleCode:':
     'prefix': 'localeIdentifierFromWindowsLocaleCode:'
-    'body': 'NSLocale.localeIdentifierFromWindowsLocaleCode(${1:uint32_t lcid})'
+    'body': 'localeIdentifierFromWindowsLocaleCode(${1:uint32_t lcid})'
   'NSLocale.localeWithLocaleIdentifier:':
     'prefix': 'localeWithLocaleIdentifier:'
-    'body': 'NSLocale.localeWithLocaleIdentifier(${1:NSString* ident})'
+    'body': 'localeWithLocaleIdentifier(${1:NSString* ident})'
   'objectForKey:':
     'prefix': 'objectForKey:'
     'body': 'objectForKey(${1:id key})'
   'NSLocale.preferredLanguages':
     'prefix': 'preferredLanguages'
-    'body': 'NSLocale.preferredLanguages()'
+    'body': 'preferredLanguages()'
   'NSLocale.systemLocale':
     'prefix': 'systemLocale'
-    'body': 'NSLocale.systemLocale()'
+    'body': 'systemLocale()'
   'NSLocale.windowsLocaleCodeFromLocaleIdentifier:':
     'prefix': 'windowsLocaleCodeFromLocaleIdentifier:'
-    'body': 'NSLocale.windowsLocaleCodeFromLocaleIdentifier(${1:NSString* localeIdentifier})'
+    'body': 'windowsLocaleCodeFromLocaleIdentifier(${1:NSString* localeIdentifier})'
   'lockBeforeDate:':
     'prefix': 'lockBeforeDate:'
     'body': 'lockBeforeDate(${1:NSDate* limit})'
@@ -9226,7 +9226,7 @@
     'body': 'servicePortWithName(${1:NSString* name})'
   'NSMachBootstrapServer.sharedInstance':
     'prefix': 'sharedInstance'
-    'body': 'NSMachBootstrapServer.sharedInstance()'
+    'body': 'sharedInstance()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -9241,10 +9241,10 @@
     'body': 'machPort()'
   'NSMachPort.portWithMachPort:':
     'prefix': 'portWithMachPort:'
-    'body': 'NSMachPort.portWithMachPort(${1:uint32_t machPort})'
+    'body': 'portWithMachPort(${1:uint32_t machPort})'
   'NSMachPort.portWithMachPort:options:':
     'prefix': 'portWithMachPort:options:'
-    'body': 'NSMachPort.portWithMachPort(${1:uint32_t machPort}, options:${2:NSUInteger f})'
+    'body': 'portWithMachPort(${1:uint32_t machPort}, options:${2:NSUInteger f})'
   'removeFromRunLoop:forMode:':
     'prefix': 'removeFromRunLoop:forMode:'
     'body': 'removeFromRunLoop(${1:NSRunLoop* runLoop}, forMode:${2:NSString* mode})'
@@ -9274,19 +9274,19 @@
     'body': 'KeyPointerFunctions()'
   'NSMapTable.mapTableWithKeyOptions:valueOptions:':
     'prefix': 'mapTableWithKeyOptions:valueOptions:'
-    'body': 'NSMapTable.mapTableWithKeyOptions(${1:NSPointerFunctionsOptions keyOptions}, valueOptions:${2:NSPointerFunctionsOptions valueOptions})'
+    'body': 'mapTableWithKeyOptions(${1:NSPointerFunctionsOptions keyOptions}, valueOptions:${2:NSPointerFunctionsOptions valueOptions})'
   'NSMapTable.mapTableWithStrongToStrongObjects':
     'prefix': 'mapTableWithStrongToStrongObjects'
-    'body': 'NSMapTable.mapTableWithStrongToStrongObjects()'
+    'body': 'mapTableWithStrongToStrongObjects()'
   'NSMapTable.mapTableWithStrongToWeakObjects':
     'prefix': 'mapTableWithStrongToWeakObjects'
-    'body': 'NSMapTable.mapTableWithStrongToWeakObjects()'
+    'body': 'mapTableWithStrongToWeakObjects()'
   'NSMapTable.mapTableWithWeakToStrongObjects':
     'prefix': 'mapTableWithWeakToStrongObjects'
-    'body': 'NSMapTable.mapTableWithWeakToStrongObjects()'
+    'body': 'mapTableWithWeakToStrongObjects()'
   'NSMapTable.mapTableWithWeakToWeakObjects':
     'prefix': 'mapTableWithWeakToWeakObjects'
-    'body': 'NSMapTable.mapTableWithWeakToWeakObjects()'
+    'body': 'mapTableWithWeakToWeakObjects()'
   'objectEnumerator':
     'prefix': 'objectEnumerator'
     'body': 'objectEnumerator()'
@@ -9304,19 +9304,19 @@
     'body': 'setObject(${1:id anObject}, forKey:${2:id aKey})'
   'NSMapTable.strongToStrongObjectsMapTable':
     'prefix': 'strongToStrongObjectsMapTable'
-    'body': 'NSMapTable.strongToStrongObjectsMapTable()'
+    'body': 'strongToStrongObjectsMapTable()'
   'NSMapTable.strongToWeakObjectsMapTable':
     'prefix': 'strongToWeakObjectsMapTable'
-    'body': 'NSMapTable.strongToWeakObjectsMapTable()'
+    'body': 'strongToWeakObjectsMapTable()'
   'valuePointerFunctions':
     'prefix': 'valuePointerFunctions'
     'body': 'valuePointerFunctions()'
   'NSMapTable.weakToStrongObjectsMapTable':
     'prefix': 'weakToStrongObjectsMapTable'
-    'body': 'NSMapTable.weakToStrongObjectsMapTable()'
+    'body': 'weakToStrongObjectsMapTable()'
   'NSMapTable.weakToWeakObjectsMapTable':
     'prefix': 'weakToWeakObjectsMapTable'
-    'body': 'NSMapTable.weakToWeakObjectsMapTable()'
+    'body': 'weakToWeakObjectsMapTable()'
   'portForName:':
     'prefix': 'portForName:'
     'body': 'portForName(${1:NSString* name})'
@@ -9325,7 +9325,7 @@
     'body': 'portForName(${1:NSString* name}, host:${2:NSString* host})'
   'NSMessagePortNameServer.sharedInstance':
     'prefix': 'sharedInstance'
-    'body': 'NSMessagePortNameServer.sharedInstance()'
+    'body': 'sharedInstance()'
   'attributes':
     'prefix': 'attributes'
     'body': 'attributes()'
@@ -9490,7 +9490,7 @@
     'body': 'numberOfArguments()'
   'NSMethodSignature.signatureWithObjCTypes:':
     'prefix': 'signatureWithObjCTypes:'
-    'body': 'NSMethodSignature.signatureWithObjCTypes(${1:char* types})'
+    'body': 'signatureWithObjCTypes(${1:char* types})'
   'keySpecifier':
     'prefix': 'keySpecifier'
     'body': 'KeySpecifier()'
@@ -9505,7 +9505,7 @@
     'body': 'addObjectsFromArray(${1:NSArray* otherArray})'
   'NSMutableArray.arrayWithCapacity:':
     'prefix': 'arrayWithCapacity:'
-    'body': 'NSMutableArray.arrayWithCapacity(${1:NSUInteger numItems})'
+    'body': 'arrayWithCapacity(${1:NSUInteger numItems})'
   'exchangeObjectAtIndex:withObjectAtIndex:':
     'prefix': 'exchangeObjectAtIndex:withObjectAtIndex:'
     'body': 'exchangeObjectAtIndex(${1:NSUInteger idx1}, withObjectAtIndex:${2:NSUInteger idx2})'
@@ -9658,10 +9658,10 @@
     'body': 'appendData(${1:NSData* other})'
   'NSMutableData.dataWithCapacity:':
     'prefix': 'dataWithCapacity:'
-    'body': 'NSMutableData.dataWithCapacity(${1:NSUInteger aNumItems})'
+    'body': 'dataWithCapacity(${1:NSUInteger aNumItems})'
   'NSMutableData.dataWithLength:':
     'prefix': 'dataWithLength:'
-    'body': 'NSMutableData.dataWithLength(${1:NSUInteger length})'
+    'body': 'dataWithLength(${1:NSUInteger length})'
   'increaseLengthBy:':
     'prefix': 'increaseLengthBy:'
     'body': 'increaseLengthBy(${1:NSUInteger extraLength})'
@@ -9694,10 +9694,10 @@
     'body': 'addEntriesFromDictionary(${1:NSDictionary* otherDictionary})'
   'NSMutableDictionary.dictionaryWithCapacity:':
     'prefix': 'dictionaryWithCapacity:'
-    'body': 'NSMutableDictionary.dictionaryWithCapacity(${1:NSUInteger numItems})'
+    'body': 'dictionaryWithCapacity(${1:NSUInteger numItems})'
   'NSMutableDictionary.dictionaryWithSharedKeySet:':
     'prefix': 'dictionaryWithSharedKeySet:'
-    'body': 'NSMutableDictionary.dictionaryWithSharedKeySet(${1:id keyset})'
+    'body': 'dictionaryWithSharedKeySet(${1:id keyset})'
   'init':
     'prefix': 'init'
     'body': 'init()'
@@ -9793,7 +9793,7 @@
     'body': 'moveObjectsAtIndexes(${1:NSIndexSet* indexes}, toIndex:${2:NSUInteger idx})'
   'NSMutableOrderedSet.orderedSetWithCapacity:':
     'prefix': 'orderedSetWithCapacity:'
-    'body': 'NSMutableOrderedSet.orderedSetWithCapacity(${1:NSUInteger numItems})'
+    'body': 'orderedSetWithCapacity(${1:NSUInteger numItems})'
   'removeAllObjects':
     'prefix': 'removeAllObjects'
     'body': 'removeAllObjects()'
@@ -9877,7 +9877,7 @@
     'body': 'setSet(${1:NSSet* otherSet})'
   'NSMutableSet.setWithCapacity:':
     'prefix': 'setWithCapacity:'
-    'body': 'NSMutableSet.setWithCapacity(${1:NSUInteger numItems})'
+    'body': 'setWithCapacity(${1:NSUInteger numItems})'
   'unionSet:':
     'prefix': 'unionSet:'
     'body': 'unionSet(${1:NSSet* otherSet})'
@@ -9907,7 +9907,7 @@
     'body': 'setString(${1:NSString* aString})'
   'NSMutableString.stringWithCapacity:':
     'prefix': 'stringWithCapacity:'
-    'body': 'NSMutableString.stringWithCapacity(${1:NSUInteger capacity})'
+    'body': 'stringWithCapacity(${1:NSUInteger capacity})'
   'addValue:forHTTPHeaderField:':
     'prefix': 'addValue:forHTTPHeaderField:'
     'body': 'addValue(${1:NSString* value}, forHTTPHeaderField:${2:NSString* field})'
@@ -9967,13 +9967,13 @@
     'body': 'addresses()'
   'NSNetService.dataFromTXTRecordDictionary:':
     'prefix': 'dataFromTXTRecordDictionary:'
-    'body': 'NSNetService.dataFromTXTRecordDictionary(${1:NSDictionary* txtDictionary})'
+    'body': 'dataFromTXTRecordDictionary(${1:NSDictionary* txtDictionary})'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
   'NSNetService.dictionaryFromTXTRecordData:':
     'prefix': 'dictionaryFromTXTRecordData:'
-    'body': 'NSNetService.dictionaryFromTXTRecordData(${1:NSData* txtData})'
+    'body': 'dictionaryFromTXTRecordData(${1:NSData* txtData})'
   'domain':
     'prefix': 'domain'
     'body': 'domain()'
@@ -10090,10 +10090,10 @@
     'body': 'name()'
   'NSNotification.notificationWithName:object:':
     'prefix': 'notificationWithName:object:'
-    'body': 'NSNotification.notificationWithName(${1:NSString* aName}, object:${2:id anObject})'
+    'body': 'notificationWithName(${1:NSString* aName}, object:${2:id anObject})'
   'NSNotification.notificationWithName:object:userInfo:':
     'prefix': 'notificationWithName:object:userInfo:'
-    'body': 'NSNotification.notificationWithName(${1:NSString* aName}, object:${2:id anObject}, userInfo:${3:NSDictionary* aUserInfo})'
+    'body': 'notificationWithName(${1:NSString* aName}, object:${2:id anObject}, userInfo:${3:NSDictionary* aUserInfo})'
   'object':
     'prefix': 'object'
     'body': 'object()'
@@ -10108,7 +10108,7 @@
     'body': 'addObserverForName(${1:NSString* name}, object:${2:id obj}, queue:${3:NSOperationQueue* queue}, usingBlock:${4:void (^)(NSNotification *) block})'
   'NSNotificationCenter.defaultCenter':
     'prefix': 'defaultCenter'
-    'body': 'NSNotificationCenter.defaultCenter()'
+    'body': 'defaultCenter()'
   'init':
     'prefix': 'init'
     'body': 'init()'
@@ -10129,7 +10129,7 @@
     'body': 'removeObserver(${1:id observer}, name:${2:NSString* aName}, object:${3:id anObject})'
   'NSNotificationQueue.defaultQueue':
     'prefix': 'defaultQueue'
-    'body': 'NSNotificationQueue.defaultQueue()'
+    'body': 'defaultQueue()'
   'dequeueNotificationsMatching:coalesceMask:':
     'prefix': 'dequeueNotificationsMatching:coalesceMask:'
     'body': 'dequeueNotificationsMatching(${1:NSNotification* notification}, coalesceMask:${2:NSUInteger coalesceMask})'
@@ -10144,7 +10144,7 @@
     'body': 'initWithNotificationCenter(${1:NSNotificationCenter* notificationCenter})'
   'NSNull.null':
     'prefix': 'null'
-    'body': 'NSNull.null()'
+    'body': 'null()'
   'boolValue':
     'prefix': 'boolValue'
     'body': 'boolValue()'
@@ -10228,49 +10228,49 @@
     'body': 'longValue()'
   'NSNumber.numberWithBool:':
     'prefix': 'numberWithBool:'
-    'body': 'NSNumber.numberWithBool(${1:BOOL value})'
+    'body': 'numberWithBool(${1:BOOL value})'
   'NSNumber.numberWithChar:':
     'prefix': 'numberWithChar:'
-    'body': 'NSNumber.numberWithChar(${1:char value})'
+    'body': 'numberWithChar(${1:char value})'
   'NSNumber.numberWithDouble:':
     'prefix': 'numberWithDouble:'
-    'body': 'NSNumber.numberWithDouble(${1:double value})'
+    'body': 'numberWithDouble(${1:double value})'
   'NSNumber.numberWithFloat:':
     'prefix': 'numberWithFloat:'
-    'body': 'NSNumber.numberWithFloat(${1:float value})'
+    'body': 'numberWithFloat(${1:float value})'
   'NSNumber.numberWithInt:':
     'prefix': 'numberWithInt:'
-    'body': 'NSNumber.numberWithInt(${1:int value})'
+    'body': 'numberWithInt(${1:int value})'
   'NSNumber.numberWithInteger:':
     'prefix': 'numberWithInteger:'
-    'body': 'NSNumber.numberWithInteger(${1:NSInteger value})'
+    'body': 'numberWithInteger(${1:NSInteger value})'
   'NSNumber.numberWithLong:':
     'prefix': 'numberWithLong:'
-    'body': 'NSNumber.numberWithLong(${1:long value})'
+    'body': 'numberWithLong(${1:long value})'
   'NSNumber.numberWithLongLong:':
     'prefix': 'numberWithLongLong:'
-    'body': 'NSNumber.numberWithLongLong(${1:long long value})'
+    'body': 'numberWithLongLong(${1:long long value})'
   'NSNumber.numberWithShort:':
     'prefix': 'numberWithShort:'
-    'body': 'NSNumber.numberWithShort(${1:short value})'
+    'body': 'numberWithShort(${1:short value})'
   'NSNumber.numberWithUnsignedChar:':
     'prefix': 'numberWithUnsignedChar:'
-    'body': 'NSNumber.numberWithUnsignedChar(${1:unsigned char value})'
+    'body': 'numberWithUnsignedChar(${1:unsigned char value})'
   'NSNumber.numberWithUnsignedInt:':
     'prefix': 'numberWithUnsignedInt:'
-    'body': 'NSNumber.numberWithUnsignedInt(${1:unsigned int value})'
+    'body': 'numberWithUnsignedInt(${1:unsigned int value})'
   'NSNumber.numberWithUnsignedInteger:':
     'prefix': 'numberWithUnsignedInteger:'
-    'body': 'NSNumber.numberWithUnsignedInteger(${1:NSUInteger value})'
+    'body': 'numberWithUnsignedInteger(${1:NSUInteger value})'
   'NSNumber.numberWithUnsignedLong:':
     'prefix': 'numberWithUnsignedLong:'
-    'body': 'NSNumber.numberWithUnsignedLong(${1:unsigned long value})'
+    'body': 'numberWithUnsignedLong(${1:unsigned long value})'
   'NSNumber.numberWithUnsignedLongLong:':
     'prefix': 'numberWithUnsignedLongLong:'
-    'body': 'NSNumber.numberWithUnsignedLongLong(${1:unsigned long long value})'
+    'body': 'numberWithUnsignedLongLong(${1:unsigned long long value})'
   'NSNumber.numberWithUnsignedShort:':
     'prefix': 'numberWithUnsignedShort:'
-    'body': 'NSNumber.numberWithUnsignedShort(${1:unsigned short value})'
+    'body': 'numberWithUnsignedShort(${1:unsigned short value})'
   'shortValue':
     'prefix': 'shortValue'
     'body': 'shortValue()'
@@ -10327,7 +10327,7 @@
     'body': 'decimalSeparator()'
   'NSNumberFormatter.defaultFormatterBehavior':
     'prefix': 'defaultFormatterBehavior'
-    'body': 'NSNumberFormatter.defaultFormatterBehavior()'
+    'body': 'defaultFormatterBehavior()'
   'exponentSymbol':
     'prefix': 'exponentSymbol'
     'body': 'exponentSymbol()'
@@ -10369,7 +10369,7 @@
     'body': 'locale()'
   'NSNumberFormatter.localizedStringFromNumber:numberStyle:':
     'prefix': 'localizedStringFromNumber:numberStyle:'
-    'body': 'NSNumberFormatter.localizedStringFromNumber(${1:NSNumber* num}, numberStyle:${2:NSNumberFormatterStyle nstyle})'
+    'body': 'localizedStringFromNumber(${1:NSNumber* num}, numberStyle:${2:NSNumberFormatterStyle nstyle})'
   'localizesFormat':
     'prefix': 'localizesFormat'
     'body': 'localizesFormat()'
@@ -10498,7 +10498,7 @@
     'body': 'setDecimalSeparator(${1:NSString* string})'
   'NSNumberFormatter.setDefaultFormatterBehavior:':
     'prefix': 'setDefaultFormatterBehavior:'
-    'body': 'NSNumberFormatter.setDefaultFormatterBehavior(${1:NSNumberFormatterBehavior behavior})'
+    'body': 'setDefaultFormatterBehavior(${1:NSNumberFormatterBehavior behavior})'
   'setExponentSymbol:':
     'prefix': 'setExponentSymbol:'
     'body': 'setExponentSymbol(${1:NSString* string})'
@@ -10792,7 +10792,7 @@
     'body': 'URLSession(${1:NSURLSession* session}, task:${2:NSURLSessionTask* task}, willPerformHTTPRedirection:${3:NSHTTPURLResponse* response}, newRequest:${4:NSURLRequest* request}, completionHandler:${5:void (^)(NSURLRequest *) completionHandler})'
   'NSObject.accessInstanceVariablesDirectly':
     'prefix': 'accessInstanceVariablesDirectly'
-    'body': 'NSObject.accessInstanceVariablesDirectly()'
+    'body': 'accessInstanceVariablesDirectly()'
   'accommodatePresentedItemDeletionWithCompletionHandler:':
     'prefix': 'accommodatePresentedItemDeletionWithCompletionHandler:'
     'body': 'accommodatePresentedItemDeletionWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
@@ -10804,10 +10804,10 @@
     'body': 'addObserver(${1:NSObject* observer}, forKeyPath:${2:NSString* keyPath}, options:${3:NSKeyValueObservingOptions options}, context:${4:void* context})'
   'NSObject.alloc':
     'prefix': 'alloc'
-    'body': 'NSObject.alloc()'
+    'body': 'alloc()'
   'NSObject.allocWithZone:':
     'prefix': 'allocWithZone:'
-    'body': 'NSObject.allocWithZone(${1:struct _NSZone* zone})'
+    'body': 'allocWithZone(${1:struct _NSZone* zone})'
   'archiver:didEncodeObject:':
     'prefix': 'archiver:didEncodeObject:'
     'body': 'archiver(${1:NSKeyedArchiver* archiver}, didEncodeObject:${2:id object})'
@@ -10843,7 +10843,7 @@
     'body': 'autoContentAccessingProxy()'
   'NSObject.automaticallyNotifiesObserversForKey:':
     'prefix': 'automaticallyNotifiesObserversForKey:'
-    'body': 'NSObject.automaticallyNotifiesObserversForKey(${1:NSString* key})'
+    'body': 'automaticallyNotifiesObserversForKey(${1:NSString* key})'
   'autorelease':
     'prefix': 'autorelease'
     'body': 'autorelease()'
@@ -10861,13 +10861,13 @@
     'body': 'cancelAuthenticationChallenge(${1:NSURLAuthenticationChallenge* challenge})'
   'NSObject.cancelPreviousPerformRequestsWithTarget:':
     'prefix': 'cancelPreviousPerformRequestsWithTarget:'
-    'body': 'NSObject.cancelPreviousPerformRequestsWithTarget(${1:id aTarget})'
+    'body': 'cancelPreviousPerformRequestsWithTarget(${1:id aTarget})'
   'NSObject.cancelPreviousPerformRequestsWithTarget:selector:object:':
     'prefix': 'cancelPreviousPerformRequestsWithTarget:selector:object:'
-    'body': 'NSObject.cancelPreviousPerformRequestsWithTarget(${1:id aTarget}, selector:${2:SEL aSelector}, object:${3:id anArgument})'
+    'body': 'cancelPreviousPerformRequestsWithTarget(${1:id aTarget}, selector:${2:SEL aSelector}, object:${3:id anArgument})'
   'NSObject.class':
     'prefix': 'class'
-    'body': 'NSObject.class()'
+    'body': 'class()'
   'class':
     'prefix': 'class'
     'body': 'class()'
@@ -10879,7 +10879,7 @@
     'body': 'classDescription()'
   'NSObject.classFallbacksForKeyedArchiver':
     'prefix': 'classFallbacksForKeyedArchiver'
-    'body': 'NSObject.classFallbacksForKeyedArchiver()'
+    'body': 'classFallbacksForKeyedArchiver()'
   'classForArchiver':
     'prefix': 'classForArchiver'
     'body': 'classForArchiver()'
@@ -10891,7 +10891,7 @@
     'body': 'classForKeyedArchiver()'
   'NSObject.classForKeyedUnarchiver':
     'prefix': 'classForKeyedUnarchiver'
-    'body': 'NSObject.classForKeyedUnarchiver()'
+    'body': 'classForKeyedUnarchiver()'
   'classForPortCoder':
     'prefix': 'classForPortCoder'
     'body': 'classForPortCoder()'
@@ -10903,7 +10903,7 @@
     'body': 'coerceValue(${1:id value}, forKey:${2:NSString* key})'
   'NSObject.conformsToProtocol:':
     'prefix': 'conformsToProtocol:'
-    'body': 'NSObject.conformsToProtocol(${1:Protocol* protocol})'
+    'body': 'conformsToProtocol(${1:Protocol* protocol})'
   'conformsToProtocol:':
     'prefix': 'conformsToProtocol:'
     'body': 'conformsToProtocol(${1:Protocol* aProtocol})'
@@ -10972,7 +10972,7 @@
     'body': 'copyScriptingValue(${1:id value}, forKey:${2:NSString* key}, withProperties:${3:NSDictionary* properties})'
   'NSObject.copyWithZone:':
     'prefix': 'copyWithZone:'
-    'body': 'NSObject.copyWithZone(${1:struct _NSZone* zone})'
+    'body': 'copyWithZone(${1:struct _NSZone* zone})'
   'copyWithZone:':
     'prefix': 'copyWithZone:'
     'body': 'copyWithZone(${1:NSZone* zone})'
@@ -10990,7 +10990,7 @@
     'body': 'debugDescription()'
   'NSObject.description':
     'prefix': 'description'
-    'body': 'NSObject.description()'
+    'body': 'description()'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -11155,7 +11155,7 @@
     'body': 'initWithCoder(${1:NSCoder* aDecoder})'
   'NSObject.initialize':
     'prefix': 'initialize'
-    'body': 'NSObject.initialize()'
+    'body': 'initialize()'
   'insertValue:atIndex:inPropertyWithKey:':
     'prefix': 'insertValue:atIndex:inPropertyWithKey:'
     'body': 'insertValue(${1:id value}, atIndex:${2:NSUInteger index}, inPropertyWithKey:${3:NSString* key})'
@@ -11164,13 +11164,13 @@
     'body': 'insertValue(${1:id value}, inPropertyWithKey:${2:NSString* key})'
   'NSObject.instanceMethodForSelector:':
     'prefix': 'instanceMethodForSelector:'
-    'body': 'NSObject.instanceMethodForSelector(${1:SEL aSelector})'
+    'body': 'instanceMethodForSelector(${1:SEL aSelector})'
   'NSObject.instanceMethodSignatureForSelector:':
     'prefix': 'instanceMethodSignatureForSelector:'
-    'body': 'NSObject.instanceMethodSignatureForSelector(${1:SEL aSelector})'
+    'body': 'instanceMethodSignatureForSelector(${1:SEL aSelector})'
   'NSObject.instancesRespondToSelector:':
     'prefix': 'instancesRespondToSelector:'
-    'body': 'NSObject.instancesRespondToSelector(${1:SEL aSelector})'
+    'body': 'instancesRespondToSelector(${1:SEL aSelector})'
   'inverseForRelationshipKey:':
     'prefix': 'inverseForRelationshipKey:'
     'body': 'inverseForRelationshipKey(${1:NSString* relationshipKey})'
@@ -11215,16 +11215,16 @@
     'body': 'isProxy()'
   'NSObject.isSubclassOfClass:':
     'prefix': 'isSubclassOfClass:'
-    'body': 'NSObject.isSubclassOfClass(${1:Class aClass})'
+    'body': 'isSubclassOfClass(${1:Class aClass})'
   'NSObject.keyPathsForValuesAffectingValueForKey:':
     'prefix': 'keyPathsForValuesAffectingValueForKey:'
-    'body': 'NSObject.keyPathsForValuesAffectingValueForKey(${1:NSString* key})'
+    'body': 'KeyPathsForValuesAffectingValueForKey(${1:NSString* key})'
   'listener:shouldAcceptNewConnection:':
     'prefix': 'listener:shouldAcceptNewConnection:'
     'body': 'listener(${1:NSXPCListener* listener}, shouldAcceptNewConnection:${2:NSXPCConnection* newConnection})'
   'NSObject.load':
     'prefix': 'load'
-    'body': 'NSObject.load()'
+    'body': 'load()'
   'lock':
     'prefix': 'lock'
     'body': 'lock()'
@@ -11254,7 +11254,7 @@
     'body': 'mutableCopy()'
   'NSObject.mutableCopyWithZone:':
     'prefix': 'mutableCopyWithZone:'
-    'body': 'NSObject.mutableCopyWithZone(${1:struct _NSZone* zone})'
+    'body': 'mutableCopyWithZone(${1:struct _NSZone* zone})'
   'mutableCopyWithZone:':
     'prefix': 'mutableCopyWithZone:'
     'body': 'mutableCopyWithZone(${1:NSZone* zone})'
@@ -11320,7 +11320,7 @@
     'body': 'netServiceWillResolve(${1:NSNetService* sender})'
   'NSObject.new':
     'prefix': 'new'
-    'body': 'NSObject.new()'
+    'body': 'new()'
   'newScriptingObjectOfClass:forValueForKey:withContentsValue:properties:':
     'prefix': 'newScriptingObjectOfClass:forValueForKey:withContentsValue:properties:'
     'body': 'newScriptingObjectOfClass(${1:Class objectClass}, forValueForKey:${2:NSString* key}, withContentsValue:${3:id contentsValue}, properties:${4:NSDictionary* properties})'
@@ -11512,10 +11512,10 @@
     'body': 'replacementObjectForPortCoder(${1:NSPortCoder* coder})'
   'NSObject.resolveClassMethod:':
     'prefix': 'resolveClassMethod:'
-    'body': 'NSObject.resolveClassMethod(${1:SEL sel})'
+    'body': 'resolveClassMethod(${1:SEL sel})'
   'NSObject.resolveInstanceMethod:':
     'prefix': 'resolveInstanceMethod:'
-    'body': 'NSObject.resolveInstanceMethod(${1:SEL sel})'
+    'body': 'resolveInstanceMethod(${1:SEL sel})'
   'respondsToSelector:':
     'prefix': 'respondsToSelector:'
     'body': 'respondsToSelector(${1:SEL aSelector})'
@@ -11569,7 +11569,7 @@
     'body': 'self()'
   'NSObject.setKeys:triggerChangeNotificationsForDependentKey:':
     'prefix': 'setKeys:triggerChangeNotificationsForDependentKey:'
-    'body': 'NSObject.setKeys(${1:NSArray* keys}, triggerChangeNotificationsForDependentKey:${2:NSString* dependentKey})'
+    'body': 'setKeys(${1:NSArray* keys}, triggerChangeNotificationsForDependentKey:${2:NSString* dependentKey})'
   'setNilValueForKey:':
     'prefix': 'setNilValueForKey:'
     'body': 'setNilValueForKey(${1:NSString* key})'
@@ -11593,7 +11593,7 @@
     'body': 'setValuesForKeysWithDictionary(${1:NSDictionary* keyedValues})'
   'NSObject.setVersion:':
     'prefix': 'setVersion:'
-    'body': 'NSObject.setVersion(${1:NSInteger aVersion})'
+    'body': 'setVersion(${1:NSInteger aVersion})'
   'spellServer:checkGrammarInString:language:details:':
     'prefix': 'spellServer:checkGrammarInString:language:details:'
     'body': 'spellServer(${1:NSSpellServer* sender}, checkGrammarInString:${2:NSString* stringToCheck}, language:${3:NSString* language}, details:${4:NSArray** details})'
@@ -11626,13 +11626,13 @@
     'body': 'stream(${1:NSStream* aStream}, handleEvent:${2:NSStreamEvent eventCode})'
   'NSObject.superclass':
     'prefix': 'superclass'
-    'body': 'NSObject.superclass()'
+    'body': 'superclass()'
   'superclass':
     'prefix': 'superclass'
     'body': 'superclass()'
   'NSObject.supportsSecureCoding':
     'prefix': 'supportsSecureCoding'
-    'body': 'NSObject.supportsSecureCoding()'
+    'body': 'supportsSecureCoding()'
   'takeStoredValue:forKey:':
     'prefix': 'takeStoredValue:forKey:'
     'body': 'takeStoredValue(${1:id value}, forKey:${2:NSString* key})'
@@ -11677,7 +11677,7 @@
     'body': 'useCredential(${1:NSURLCredential* credential}, forAuthenticationChallenge:${2:NSURLAuthenticationChallenge* challenge})'
   'NSObject.useStoredAccessor':
     'prefix': 'useStoredAccessor'
-    'body': 'NSObject.useStoredAccessor()'
+    'body': 'useStoredAccessor()'
   'userNotificationCenter:didActivateNotification:':
     'prefix': 'userNotificationCenter:didActivateNotification:'
     'body': 'userNotificationCenter(${1:NSUserNotificationCenter* center}, didActivateNotification:${2:NSUserNotification* notification})'
@@ -11716,7 +11716,7 @@
     'body': 'valuesForKeys(${1:NSArray* keys})'
   'NSObject.version':
     'prefix': 'version'
-    'body': 'NSObject.version()'
+    'body': 'version()'
   'willChange:valuesAtIndexes:forKey:':
     'prefix': 'willChange:valuesAtIndexes:forKey:'
     'body': 'willChange(${1:NSKeyValueChange changeKind}, valuesAtIndexes:${2:NSIndexSet* indexes}, forKey:${3:NSString* key})'
@@ -11800,13 +11800,13 @@
     'body': 'cancelAllOperations()'
   'NSOperationQueue.currentQueue':
     'prefix': 'currentQueue'
-    'body': 'NSOperationQueue.currentQueue()'
+    'body': 'currentQueue()'
   'isSuspended':
     'prefix': 'isSuspended'
     'body': 'isSuspended()'
   'NSOperationQueue.mainQueue':
     'prefix': 'mainQueue'
-    'body': 'NSOperationQueue.mainQueue()'
+    'body': 'mainQueue()'
   'maxConcurrentOperationCount':
     'prefix': 'maxConcurrentOperationCount'
     'body': 'maxConcurrentOperationCount()'
@@ -11962,34 +11962,34 @@
     'body': 'objectsAtIndexes(${1:NSIndexSet* indexes})'
   'NSOrderedSet.orderedSet':
     'prefix': 'orderedSet'
-    'body': 'NSOrderedSet.orderedSet()'
+    'body': 'orderedSet()'
   'NSOrderedSet.orderedSetWithArray:':
     'prefix': 'orderedSetWithArray:'
-    'body': 'NSOrderedSet.orderedSetWithArray(${1:NSArray* array})'
+    'body': 'orderedSetWithArray(${1:NSArray* array})'
   'NSOrderedSet.orderedSetWithArray:range:copyItems:':
     'prefix': 'orderedSetWithArray:range:copyItems:'
-    'body': 'NSOrderedSet.orderedSetWithArray(${1:NSArray* array}, range:${2:NSRange range}, copyItems:${3:BOOL flag})'
+    'body': 'orderedSetWithArray(${1:NSArray* array}, range:${2:NSRange range}, copyItems:${3:BOOL flag})'
   'NSOrderedSet.orderedSetWithObject:':
     'prefix': 'orderedSetWithObject:'
-    'body': 'NSOrderedSet.orderedSetWithObject(${1:id object})'
+    'body': 'orderedSetWithObject(${1:id object})'
   'NSOrderedSet.orderedSetWithObjects:':
     'prefix': 'orderedSetWithObjects:'
-    'body': 'NSOrderedSet.orderedSetWithObjects(${1:id firstObj})'
+    'body': 'orderedSetWithObjects(${1:id firstObj})'
   'NSOrderedSet.orderedSetWithObjects:count:':
     'prefix': 'orderedSetWithObjects:count:'
-    'body': 'NSOrderedSet.orderedSetWithObjects(${1:id* objects}, count:${2:NSUInteger cnt})'
+    'body': 'orderedSetWithObjects(${1:id* objects}, count:${2:NSUInteger cnt})'
   'NSOrderedSet.orderedSetWithOrderedSet:':
     'prefix': 'orderedSetWithOrderedSet:'
-    'body': 'NSOrderedSet.orderedSetWithOrderedSet(${1:NSOrderedSet* set})'
+    'body': 'orderedSetWithOrderedSet(${1:NSOrderedSet* set})'
   'NSOrderedSet.orderedSetWithOrderedSet:range:copyItems:':
     'prefix': 'orderedSetWithOrderedSet:range:copyItems:'
-    'body': 'NSOrderedSet.orderedSetWithOrderedSet(${1:NSOrderedSet* set}, range:${2:NSRange range}, copyItems:${3:BOOL flag})'
+    'body': 'orderedSetWithOrderedSet(${1:NSOrderedSet* set}, range:${2:NSRange range}, copyItems:${3:BOOL flag})'
   'NSOrderedSet.orderedSetWithSet:':
     'prefix': 'orderedSetWithSet:'
-    'body': 'NSOrderedSet.orderedSetWithSet(${1:NSSet* set})'
+    'body': 'orderedSetWithSet(${1:NSSet* set})'
   'NSOrderedSet.orderedSetWithSet:copyItems:':
     'prefix': 'orderedSetWithSet:copyItems:'
-    'body': 'NSOrderedSet.orderedSetWithSet(${1:NSSet* set}, copyItems:${2:BOOL flag})'
+    'body': 'orderedSetWithSet(${1:NSSet* set}, copyItems:${2:BOOL flag})'
   'removeObserver:forKeyPath:':
     'prefix': 'removeObserver:forKeyPath:'
     'body': 'removeObserver(${1:NSObject* observer}, forKeyPath:${2:NSString* keyPath})'
@@ -12046,7 +12046,7 @@
     'body': 'languagesForScript(${1:NSString* script})'
   'NSOrthography.orthographyWithDominantScript:languageMap:':
     'prefix': 'orthographyWithDominantScript:languageMap:'
-    'body': 'NSOrthography.orthographyWithDominantScript(${1:NSString* script}, languageMap:${2:NSDictionary* map})'
+    'body': 'orthographyWithDominantScript(${1:NSString* script}, languageMap:${2:NSDictionary* map})'
   'hasSpaceAvailable':
     'prefix': 'hasSpaceAvailable'
     'body': 'hasSpaceAvailable()'
@@ -12064,16 +12064,16 @@
     'body': 'initWithURL(${1:NSURL* url}, append:${2:BOOL shouldAppend})'
   'NSOutputStream.outputStreamToBuffer:capacity:':
     'prefix': 'outputStreamToBuffer:capacity:'
-    'body': 'NSOutputStream.outputStreamToBuffer(${1:uint8_t* buffer}, capacity:${2:NSUInteger capacity})'
+    'body': 'outputStreamToBuffer(${1:uint8_t* buffer}, capacity:${2:NSUInteger capacity})'
   'NSOutputStream.outputStreamToFileAtPath:append:':
     'prefix': 'outputStreamToFileAtPath:append:'
-    'body': 'NSOutputStream.outputStreamToFileAtPath(${1:NSString* path}, append:${2:BOOL shouldAppend})'
+    'body': 'outputStreamToFileAtPath(${1:NSString* path}, append:${2:BOOL shouldAppend})'
   'NSOutputStream.outputStreamToMemory':
     'prefix': 'outputStreamToMemory'
-    'body': 'NSOutputStream.outputStreamToMemory()'
+    'body': 'outputStreamToMemory()'
   'NSOutputStream.outputStreamWithURL:append:':
     'prefix': 'outputStreamWithURL:append:'
-    'body': 'NSOutputStream.outputStreamWithURL(${1:NSURL* url}, append:${2:BOOL shouldAppend})'
+    'body': 'outputStreamWithURL(${1:NSURL* url}, append:${2:BOOL shouldAppend})'
   'write:maxLength:':
     'prefix': 'write:maxLength:'
     'body': 'write(${1:uint8_t* buffer}, maxLength:${2:NSUInteger len})'
@@ -12088,7 +12088,7 @@
     'body': 'init()'
   'NSPipe.pipe':
     'prefix': 'pipe'
-    'body': 'NSPipe.pipe()'
+    'body': 'pipe()'
   'addPointer:':
     'prefix': 'addPointer:'
     'body': 'addPointer(${1:void* pointer})'
@@ -12112,16 +12112,16 @@
     'body': 'insertPointer(${1:void* item}, atIndex:${2:NSUInteger index})'
   'NSPointerArray.pointerArrayWithOptions:':
     'prefix': 'pointerArrayWithOptions:'
-    'body': 'NSPointerArray.pointerArrayWithOptions(${1:NSPointerFunctionsOptions options})'
+    'body': 'pointerArrayWithOptions(${1:NSPointerFunctionsOptions options})'
   'NSPointerArray.pointerArrayWithPointerFunctions:':
     'prefix': 'pointerArrayWithPointerFunctions:'
-    'body': 'NSPointerArray.pointerArrayWithPointerFunctions(${1:NSPointerFunctions* functions})'
+    'body': 'pointerArrayWithPointerFunctions(${1:NSPointerFunctions* functions})'
   'NSPointerArray.pointerArrayWithStrongObjects':
     'prefix': 'pointerArrayWithStrongObjects'
-    'body': 'NSPointerArray.pointerArrayWithStrongObjects()'
+    'body': 'pointerArrayWithStrongObjects()'
   'NSPointerArray.pointerArrayWithWeakObjects':
     'prefix': 'pointerArrayWithWeakObjects'
-    'body': 'NSPointerArray.pointerArrayWithWeakObjects()'
+    'body': 'pointerArrayWithWeakObjects()'
   'pointerAtIndex:':
     'prefix': 'pointerAtIndex:'
     'body': 'pointerAtIndex(${1:NSUInteger index})'
@@ -12139,10 +12139,10 @@
     'body': 'setCount(${1:NSUInteger count})'
   'NSPointerArray.strongObjectsPointerArray':
     'prefix': 'strongObjectsPointerArray'
-    'body': 'NSPointerArray.strongObjectsPointerArray()'
+    'body': 'strongObjectsPointerArray()'
   'NSPointerArray.weakObjectsPointerArray':
     'prefix': 'weakObjectsPointerArray'
-    'body': 'NSPointerArray.weakObjectsPointerArray()'
+    'body': 'weakObjectsPointerArray()'
   'acquireFunction':
     'prefix': 'acquireFunction'
     'body': 'acquireFunction()'
@@ -12160,7 +12160,7 @@
     'body': 'isEqualFunction()'
   'NSPointerFunctions.pointerFunctionsWithOptions:':
     'prefix': 'pointerFunctionsWithOptions:'
-    'body': 'NSPointerFunctions.pointerFunctionsWithOptions(${1:NSPointerFunctionsOptions options})'
+    'body': 'pointerFunctionsWithOptions(${1:NSPointerFunctionsOptions options})'
   'relinquishFunction':
     'prefix': 'relinquishFunction'
     'body': 'relinquishFunction()'
@@ -12211,7 +12211,7 @@
     'body': 'isValid()'
   'NSPort.port':
     'prefix': 'port'
-    'body': 'NSPort.port()'
+    'body': 'port()'
   'removeConnection:fromRunLoop:forMode:':
     'prefix': 'removeConnection:fromRunLoop:forMode:'
     'body': 'removeConnection(${1:NSConnection* conn}, fromRunLoop:${2:NSRunLoop* runLoop}, forMode:${3:NSString* mode})'
@@ -12256,7 +12256,7 @@
     'body': 'isByref()'
   'NSPortCoder.portCoderWithReceivePort:sendPort:components:':
     'prefix': 'portCoderWithReceivePort:sendPort:components:'
-    'body': 'NSPortCoder.portCoderWithReceivePort(${1:NSPort* rcvPort}, sendPort:${2:NSPort* sndPort}, components:${3:NSArray* comps})'
+    'body': 'portCoderWithReceivePort(${1:NSPort* rcvPort}, sendPort:${2:NSPort* sndPort}, components:${3:NSArray* comps})'
   'components':
     'prefix': 'components'
     'body': 'components()'
@@ -12292,7 +12292,7 @@
     'body': 'removePortForName(${1:NSString* name})'
   'NSPortNameServer.systemDefaultPortNameServer':
     'prefix': 'systemDefaultPortNameServer'
-    'body': 'NSPortNameServer.systemDefaultPortNameServer()'
+    'body': 'systemDefaultPortNameServer()'
   'evaluate':
     'prefix': 'evaluate'
     'body': 'evaluate()'
@@ -12334,25 +12334,25 @@
     'body': 'predicateFormat()'
   'NSPredicate.predicateFromMetadataQueryString:':
     'prefix': 'predicateFromMetadataQueryString:'
-    'body': 'NSPredicate.predicateFromMetadataQueryString(${1:NSString* queryString})'
+    'body': 'predicateFromMetadataQueryString(${1:NSString* queryString})'
   'NSPredicate.predicateWithBlock:':
     'prefix': 'predicateWithBlock:'
-    'body': 'NSPredicate.predicateWithBlock(${1:BOOL (^)(id, NSDictionary *) block})'
+    'body': 'predicateWithBlock(${1:BOOL (^)(id, NSDictionary *) block})'
   'NSPredicate.predicateWithFormat:':
     'prefix': 'predicateWithFormat:'
-    'body': 'NSPredicate.predicateWithFormat(${1:NSString* predicateFormat})'
+    'body': 'predicateWithFormat(${1:NSString* predicateFormat})'
   'NSPredicate.predicateWithFormat:argumentArray:':
     'prefix': 'predicateWithFormat:argumentArray:'
-    'body': 'NSPredicate.predicateWithFormat(${1:NSString* predicateFormat}, argumentArray:${2:NSArray* arguments})'
+    'body': 'predicateWithFormat(${1:NSString* predicateFormat}, argumentArray:${2:NSArray* arguments})'
   'NSPredicate.predicateWithFormat:arguments:':
     'prefix': 'predicateWithFormat:arguments:'
-    'body': 'NSPredicate.predicateWithFormat(${1:NSString* predicateFormat}, arguments:${2:va_list argList})'
+    'body': 'predicateWithFormat(${1:NSString* predicateFormat}, arguments:${2:va_list argList})'
   'predicateWithSubstitutionVariables:':
     'prefix': 'predicateWithSubstitutionVariables:'
     'body': 'predicateWithSubstitutionVariables(${1:NSDictionary* variables})'
   'NSPredicate.predicateWithValue:':
     'prefix': 'predicateWithValue:'
-    'body': 'NSPredicate.predicateWithValue(${1:BOOL value})'
+    'body': 'predicateWithValue(${1:BOOL value})'
   'activeProcessorCount':
     'prefix': 'activeProcessorCount'
     'body': 'activeProcessorCount()'
@@ -12409,7 +12409,7 @@
     'body': 'processIdentifier()'
   'NSProcessInfo.processInfo':
     'prefix': 'processInfo'
-    'body': 'NSProcessInfo.processInfo()'
+    'body': 'processInfo()'
   'processName':
     'prefix': 'processName'
     'body': 'processName()'
@@ -12427,7 +12427,7 @@
     'body': 'systemUptime()'
   'NSProgress.addSubscriberForFileURL:withPublishingHandler:':
     'prefix': 'addSubscriberForFileURL:withPublishingHandler:'
-    'body': 'NSProgress.addSubscriberForFileURL(${1:NSURL* url}, withPublishingHandler:${2:NSProgressPublishingHandler publishingHandler})'
+    'body': 'addSubscriberForFileURL(${1:NSURL* url}, withPublishingHandler:${2:NSProgressPublishingHandler publishingHandler})'
   'becomeCurrentWithPendingUnitCount:':
     'prefix': 'becomeCurrentWithPendingUnitCount:'
     'body': 'becomeCurrentWithPendingUnitCount(${1:int64_t unitCount})'
@@ -12442,7 +12442,7 @@
     'body': 'completedUnitCount()'
   'NSProgress.currentProgress':
     'prefix': 'currentProgress'
-    'body': 'NSProgress.currentProgress()'
+    'body': 'currentProgress()'
   'fractionCompleted':
     'prefix': 'fractionCompleted'
     'body': 'fractionCompleted()'
@@ -12484,13 +12484,13 @@
     'body': 'pausingHandler()'
   'NSProgress.progressWithTotalUnitCount:':
     'prefix': 'progressWithTotalUnitCount:'
-    'body': 'NSProgress.progressWithTotalUnitCount(${1:int64_t unitCount})'
+    'body': 'progressWithTotalUnitCount(${1:int64_t unitCount})'
   'publish':
     'prefix': 'publish'
     'body': 'publish()'
   'NSProgress.removeSubscriber:':
     'prefix': 'removeSubscriber:'
-    'body': 'NSProgress.removeSubscriber(${1:id subscriber})'
+    'body': 'removeSubscriber(${1:id subscriber})'
   'resignCurrent':
     'prefix': 'resignCurrent'
     'body': 'resignCurrent()'
@@ -12535,25 +12535,25 @@
     'body': 'userInfo()'
   'NSPropertyListSerialization.dataFromPropertyList:format:errorDescription:':
     'prefix': 'dataFromPropertyList:format:errorDescription:'
-    'body': 'NSPropertyListSerialization.dataFromPropertyList(${1:id plist}, format:${2:NSPropertyListFormat format}, errorDescription:${3:NSString** errorString})'
+    'body': 'dataFromPropertyList(${1:id plist}, format:${2:NSPropertyListFormat format}, errorDescription:${3:NSString** errorString})'
   'NSPropertyListSerialization.dataWithPropertyList:format:options:error:':
     'prefix': 'dataWithPropertyList:format:options:error:'
-    'body': 'NSPropertyListSerialization.dataWithPropertyList(${1:id plist}, format:${2:NSPropertyListFormat format}, options:${3:NSPropertyListWriteOptions opt}, error:${4:NSError** error})'
+    'body': 'dataWithPropertyList(${1:id plist}, format:${2:NSPropertyListFormat format}, options:${3:NSPropertyListWriteOptions opt}, error:${4:NSError** error})'
   'NSPropertyListSerialization.propertyList:isValidForFormat:':
     'prefix': 'propertyList:isValidForFormat:'
-    'body': 'NSPropertyListSerialization.propertyList(${1:id plist}, isValidForFormat:${2:NSPropertyListFormat format})'
+    'body': 'propertyList(${1:id plist}, isValidForFormat:${2:NSPropertyListFormat format})'
   'NSPropertyListSerialization.propertyListFromData:mutabilityOption:format:errorDescription:':
     'prefix': 'propertyListFromData:mutabilityOption:format:errorDescription:'
-    'body': 'NSPropertyListSerialization.propertyListFromData(${1:NSData* data}, mutabilityOption:${2:NSPropertyListMutabilityOptions opt}, format:${3:NSPropertyListFormat* format}, errorDescription:${4:NSString** errorString})'
+    'body': 'propertyListFromData(${1:NSData* data}, mutabilityOption:${2:NSPropertyListMutabilityOptions opt}, format:${3:NSPropertyListFormat* format}, errorDescription:${4:NSString** errorString})'
   'NSPropertyListSerialization.propertyListWithData:options:format:error:':
     'prefix': 'propertyListWithData:options:format:error:'
-    'body': 'NSPropertyListSerialization.propertyListWithData(${1:NSData* data}, options:${2:NSPropertyListReadOptions opt}, format:${3:NSPropertyListFormat* format}, error:${4:NSError** error})'
+    'body': 'propertyListWithData(${1:NSData* data}, options:${2:NSPropertyListReadOptions opt}, format:${3:NSPropertyListFormat* format}, error:${4:NSError** error})'
   'NSPropertyListSerialization.propertyListWithStream:options:format:error:':
     'prefix': 'propertyListWithStream:options:format:error:'
-    'body': 'NSPropertyListSerialization.propertyListWithStream(${1:NSInputStream* stream}, options:${2:NSPropertyListReadOptions opt}, format:${3:NSPropertyListFormat* format}, error:${4:NSError** error})'
+    'body': 'propertyListWithStream(${1:NSInputStream* stream}, options:${2:NSPropertyListReadOptions opt}, format:${3:NSPropertyListFormat* format}, error:${4:NSError** error})'
   'NSPropertyListSerialization.writePropertyList:toStream:format:options:error:':
     'prefix': 'writePropertyList:toStream:format:options:error:'
-    'body': 'NSPropertyListSerialization.writePropertyList(${1:id plist}, toStream:${2:NSOutputStream* stream}, format:${3:NSPropertyListFormat format}, options:${4:NSPropertyListWriteOptions opt}, error:${5:NSError** error})'
+    'body': 'writePropertyList(${1:id plist}, toStream:${2:NSOutputStream* stream}, format:${3:NSPropertyListFormat format}, options:${4:NSPropertyListWriteOptions opt}, error:${5:NSError** error})'
   'initWithTarget:protocol:':
     'prefix': 'initWithTarget:protocol:'
     'body': 'initWithTarget(${1:NSObject* anObject}, protocol:${2:Protocol* aProtocol})'
@@ -12562,19 +12562,19 @@
     'body': 'protocol()'
   'NSProtocolChecker.protocolCheckerWithTarget:protocol:':
     'prefix': 'protocolCheckerWithTarget:protocol:'
-    'body': 'NSProtocolChecker.protocolCheckerWithTarget(${1:NSObject* anObject}, protocol:${2:Protocol* aProtocol})'
+    'body': 'protocolCheckerWithTarget(${1:NSObject* anObject}, protocol:${2:Protocol* aProtocol})'
   'target':
     'prefix': 'target'
     'body': 'target()'
   'NSProxy.alloc':
     'prefix': 'alloc'
-    'body': 'NSProxy.alloc()'
+    'body': 'alloc()'
   'NSProxy.allocWithZone:':
     'prefix': 'allocWithZone:'
-    'body': 'NSProxy.allocWithZone(${1:NSZone* zone})'
+    'body': 'allocWithZone(${1:NSZone* zone})'
   'NSProxy.class':
     'prefix': 'class'
-    'body': 'NSProxy.class()'
+    'body': 'class()'
   'dealloc':
     'prefix': 'dealloc'
     'body': 'dealloc()'
@@ -12595,7 +12595,7 @@
     'body': 'methodSignatureForSelector(${1:SEL sel})'
   'NSProxy.respondsToSelector:':
     'prefix': 'respondsToSelector:'
-    'body': 'NSProxy.respondsToSelector(${1:SEL aSelector})'
+    'body': 'respondsToSelector(${1:SEL aSelector})'
   'saveOptions':
     'prefix': 'saveOptions'
     'body': 'saveOptions()'
@@ -12631,10 +12631,10 @@
     'body': 'enumerateMatchesInString(${1:NSString* string}, options:${2:NSMatchingOptions options}, range:${3:NSRange range}, usingBlock:${4:void (^)(NSTextCheckingResult *, NSMatchingFlags, BOOL *) block})'
   'NSRegularExpression.escapedPatternForString:':
     'prefix': 'escapedPatternForString:'
-    'body': 'NSRegularExpression.escapedPatternForString(${1:NSString* string})'
+    'body': 'escapedPatternForString(${1:NSString* string})'
   'NSRegularExpression.escapedTemplateForString:':
     'prefix': 'escapedTemplateForString:'
-    'body': 'NSRegularExpression.escapedTemplateForString(${1:NSString* string})'
+    'body': 'escapedTemplateForString(${1:NSString* string})'
   'firstMatchInString:options:range:':
     'prefix': 'firstMatchInString:options:range:'
     'body': 'firstMatchInString(${1:NSString* string}, options:${2:NSMatchingOptions options}, range:${3:NSRange range})'
@@ -12661,7 +12661,7 @@
     'body': 'rangeOfFirstMatchInString(${1:NSString* string}, options:${2:NSMatchingOptions options}, range:${3:NSRange range})'
   'NSRegularExpression.regularExpressionWithPattern:options:error:':
     'prefix': 'regularExpressionWithPattern:options:error:'
-    'body': 'NSRegularExpression.regularExpressionWithPattern(${1:NSString* pattern}, options:${2:NSRegularExpressionOptions options}, error:${3:NSError** error})'
+    'body': 'regularExpressionWithPattern(${1:NSString* pattern}, options:${2:NSRegularExpressionOptions options}, error:${3:NSError** error})'
   'replaceMatchesInString:options:range:withTemplate:':
     'prefix': 'replaceMatchesInString:options:range:withTemplate:'
     'body': 'replaceMatchesInString(${1:NSMutableString* string}, options:${2:NSMatchingOptions options}, range:${3:NSRange range}, withTemplate:${4:NSString* templ})'
@@ -12709,7 +12709,7 @@
     'body': 'currentMode()'
   'NSRunLoop.currentRunLoop':
     'prefix': 'currentRunLoop'
-    'body': 'NSRunLoop.currentRunLoop()'
+    'body': 'currentRunLoop()'
   'getCFRunLoop':
     'prefix': 'getCFRunLoop'
     'body': 'getCFRunLoop()'
@@ -12718,7 +12718,7 @@
     'body': 'limitDateForMode(${1:NSString* mode})'
   'NSRunLoop.mainRunLoop':
     'prefix': 'mainRunLoop'
-    'body': 'NSRunLoop.mainRunLoop()'
+    'body': 'mainRunLoop()'
   'performSelector:target:argument:order:modes:':
     'prefix': 'performSelector:target:argument:order:modes:'
     'body': 'performSelector(${1:SEL aSelector}, target:${2:id target}, argument:${3:id arg}, order:${4:NSUInteger order}, modes:${5:NSArray* modes})'
@@ -12751,7 +12751,7 @@
     'body': 'locale()'
   'NSScanner.localizedScannerWithString:':
     'prefix': 'localizedScannerWithString:'
-    'body': 'NSScanner.localizedScannerWithString(${1:NSString* string})'
+    'body': 'localizedScannerWithString(${1:NSString* string})'
   'scanCharactersFromSet:intoString:':
     'prefix': 'scanCharactersFromSet:intoString:'
     'body': 'scanCharactersFromSet(${1:NSCharacterSet* set}, intoString:${2:NSString** result})'
@@ -12802,7 +12802,7 @@
     'body': 'scanUpToString(${1:NSString* string}, intoString:${2:NSString** result})'
   'NSScanner.scannerWithString:':
     'prefix': 'scannerWithString:'
-    'body': 'NSScanner.scannerWithString(${1:NSString* string})'
+    'body': 'scannerWithString(${1:NSString* string})'
   'setCaseSensitive:':
     'prefix': 'setCaseSensitive:'
     'body': 'setCaseSensitive(${1:BOOL flag})'
@@ -12826,7 +12826,7 @@
     'body': 'appleEventCodeForKey(${1:NSString* key})'
   'NSScriptClassDescription.classDescriptionForClass:':
     'prefix': 'classDescriptionForClass:'
-    'body': 'NSScriptClassDescription.classDescriptionForClass(${1:Class aClass})'
+    'body': 'classDescriptionForClass(${1:Class aClass})'
   'classDescriptionForKey:':
     'prefix': 'classDescriptionForKey:'
     'body': 'classDescriptionForKey(${1:NSString* key})'
@@ -12889,7 +12889,7 @@
     'body': 'registerCoercer(${1:id coercer}, selector:${2:SEL selector}, toConvertFromClass:${3:Class fromClass}, toClass:${4:Class toClass})'
   'NSScriptCoercionHandler.sharedCoercionHandler':
     'prefix': 'sharedCoercionHandler'
-    'body': 'NSScriptCoercionHandler.sharedCoercionHandler()'
+    'body': 'sharedCoercionHandler()'
   'appleEvent':
     'prefix': 'appleEvent'
     'body': 'appleEvent()'
@@ -12901,7 +12901,7 @@
     'body': 'commandDescription()'
   'NSScriptCommand.currentCommand':
     'prefix': 'currentCommand'
-    'body': 'NSScriptCommand.currentCommand()'
+    'body': 'currentCommand()'
   'directParameter':
     'prefix': 'directParameter'
     'body': 'directParameter()'
@@ -13024,7 +13024,7 @@
     'body': 'setTopLevelObject(${1:id obj})'
   'NSScriptExecutionContext.sharedScriptExecutionContext':
     'prefix': 'sharedScriptExecutionContext'
-    'body': 'NSScriptExecutionContext.sharedScriptExecutionContext()'
+    'body': 'sharedScriptExecutionContext()'
   'topLevelObject':
     'prefix': 'topLevelObject'
     'body': 'topLevelObject()'
@@ -13069,7 +13069,7 @@
     'body': 'KeyClassDescription()'
   'NSScriptObjectSpecifier.objectSpecifierWithDescriptor:':
     'prefix': 'objectSpecifierWithDescriptor:'
-    'body': 'NSScriptObjectSpecifier.objectSpecifierWithDescriptor(${1:NSAppleEventDescriptor* descriptor})'
+    'body': 'objectSpecifierWithDescriptor(${1:NSAppleEventDescriptor* descriptor})'
   'objectsByEvaluatingSpecifier':
     'prefix': 'objectsByEvaluatingSpecifier'
     'body': 'objectsByEvaluatingSpecifier()'
@@ -13132,10 +13132,10 @@
     'body': 'registerCommandDescription(${1:NSScriptCommandDescription* commandDescription})'
   'NSScriptSuiteRegistry.setSharedScriptSuiteRegistry:':
     'prefix': 'setSharedScriptSuiteRegistry:'
-    'body': 'NSScriptSuiteRegistry.setSharedScriptSuiteRegistry(${1:NSScriptSuiteRegistry* registry})'
+    'body': 'setSharedScriptSuiteRegistry(${1:NSScriptSuiteRegistry* registry})'
   'NSScriptSuiteRegistry.sharedScriptSuiteRegistry':
     'prefix': 'sharedScriptSuiteRegistry'
-    'body': 'NSScriptSuiteRegistry.sharedScriptSuiteRegistry()'
+    'body': 'sharedScriptSuiteRegistry()'
   'suiteForAppleEventCode:':
     'prefix': 'suiteForAppleEventCode:'
     'body': 'suiteForAppleEventCode(${1:FourCharCode appleEventCode})'
@@ -13228,7 +13228,7 @@
     'body': 'removeObserver(${1:NSObject* observer}, forKeyPath:${2:NSString* keyPath}, context:${3:void* context})'
   'NSSet.set':
     'prefix': 'set'
-    'body': 'NSSet.set()'
+    'body': 'set()'
   'setByAddingObject:':
     'prefix': 'setByAddingObject:'
     'body': 'setByAddingObject(${1:id anObject})'
@@ -13243,19 +13243,19 @@
     'body': 'setValue(${1:id value}, forKey:${2:NSString* key})'
   'NSSet.setWithArray:':
     'prefix': 'setWithArray:'
-    'body': 'NSSet.setWithArray(${1:NSArray* array})'
+    'body': 'setWithArray(${1:NSArray* array})'
   'NSSet.setWithObject:':
     'prefix': 'setWithObject:'
-    'body': 'NSSet.setWithObject(${1:id object})'
+    'body': 'setWithObject(${1:id object})'
   'NSSet.setWithObjects:':
     'prefix': 'setWithObjects:'
-    'body': 'NSSet.setWithObjects(${1:id firstObj})'
+    'body': 'setWithObjects(${1:id firstObj})'
   'NSSet.setWithObjects:count:':
     'prefix': 'setWithObjects:count:'
-    'body': 'NSSet.setWithObjects(${1:id* objects}, count:${2:NSUInteger cnt})'
+    'body': 'setWithObjects(${1:id* objects}, count:${2:NSUInteger cnt})'
   'NSSet.setWithSet:':
     'prefix': 'setWithSet:'
-    'body': 'NSSet.setWithSet(${1:NSSet* set})'
+    'body': 'setWithSet(${1:NSSet* set})'
   'sortedArrayUsingDescriptors:':
     'prefix': 'sortedArrayUsingDescriptors:'
     'body': 'sortedArrayUsingDescriptors(${1:NSArray* sortDescriptors})'
@@ -13327,7 +13327,7 @@
     'body': 'setDefaultNameServerPortNumber(${1:uint16_t portNumber})'
   'NSSocketPortNameServer.sharedInstance':
     'prefix': 'sharedInstance'
-    'body': 'NSSocketPortNameServer.sharedInstance()'
+    'body': 'sharedInstance()'
   'allowEvaluation':
     'prefix': 'allowEvaluation'
     'body': 'allowEvaluation()'
@@ -13360,13 +13360,13 @@
     'body': 'selector()'
   'NSSortDescriptor.sortDescriptorWithKey:ascending:':
     'prefix': 'sortDescriptorWithKey:ascending:'
-    'body': 'NSSortDescriptor.sortDescriptorWithKey(${1:NSString* key}, ascending:${2:BOOL ascending})'
+    'body': 'sortDescriptorWithKey(${1:NSString* key}, ascending:${2:BOOL ascending})'
   'NSSortDescriptor.sortDescriptorWithKey:ascending:comparator:':
     'prefix': 'sortDescriptorWithKey:ascending:comparator:'
-    'body': 'NSSortDescriptor.sortDescriptorWithKey(${1:NSString* key}, ascending:${2:BOOL ascending}, comparator:${3:NSComparator cmptr})'
+    'body': 'sortDescriptorWithKey(${1:NSString* key}, ascending:${2:BOOL ascending}, comparator:${3:NSComparator cmptr})'
   'NSSortDescriptor.sortDescriptorWithKey:ascending:selector:':
     'prefix': 'sortDescriptorWithKey:ascending:selector:'
-    'body': 'NSSortDescriptor.sortDescriptorWithKey(${1:NSString* key}, ascending:${2:BOOL ascending}, selector:${3:SEL selector})'
+    'body': 'sortDescriptorWithKey(${1:NSString* key}, ascending:${2:BOOL ascending}, selector:${3:SEL selector})'
   'initWithObjectSpecifier:comparisonOperator:testObject:':
     'prefix': 'initWithObjectSpecifier:comparisonOperator:testObject:'
     'body': 'initWithObjectSpecifier(${1:NSScriptObjectSpecifier* obj1}, comparisonOperator:${2:NSTestComparisonOperation compOp}, testObject:${3:id obj2})'
@@ -13393,7 +13393,7 @@
     'body': 'delegate()'
   'NSStream.getStreamsToHost:port:inputStream:outputStream:':
     'prefix': 'getStreamsToHost:port:inputStream:outputStream:'
-    'body': 'NSStream.getStreamsToHost(${1:NSHost* host}, port:${2:NSInteger port}, inputStream:${3:NSInputStream** inputStream}, outputStream:${4:NSOutputStream** outputStream})'
+    'body': 'getStreamsToHost(${1:NSHost* host}, port:${2:NSInteger port}, inputStream:${3:NSInputStream** inputStream}, outputStream:${4:NSOutputStream** outputStream})'
   'open':
     'prefix': 'open'
     'body': 'open()'
@@ -13423,7 +13423,7 @@
     'body': 'UTF8String()'
   'NSString.availableStringEncodings':
     'prefix': 'availableStringEncodings'
-    'body': 'NSString.availableStringEncodings()'
+    'body': 'availableStringEncodings()'
   'boolValue':
     'prefix': 'boolValue'
     'body': 'boolValue()'
@@ -13489,7 +13489,7 @@
     'body': 'decomposedStringWithCompatibilityMapping()'
   'NSString.defaultCStringEncoding':
     'prefix': 'defaultCStringEncoding'
-    'body': 'NSString.defaultCStringEncoding()'
+    'body': 'defaultCStringEncoding()'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -13654,13 +13654,13 @@
     'body': 'localizedCompare(${1:NSString* string})'
   'NSString.localizedNameOfStringEncoding:':
     'prefix': 'localizedNameOfStringEncoding:'
-    'body': 'NSString.localizedNameOfStringEncoding(${1:NSStringEncoding encoding})'
+    'body': 'localizedNameOfStringEncoding(${1:NSStringEncoding encoding})'
   'localizedStandardCompare:':
     'prefix': 'localizedStandardCompare:'
     'body': 'localizedStandardCompare(${1:NSString* string})'
   'NSString.localizedStringWithFormat:':
     'prefix': 'localizedStringWithFormat:'
-    'body': 'NSString.localizedStringWithFormat(${1:NSString* format})'
+    'body': 'localizedStringWithFormat(${1:NSString* format})'
   'longLongValue':
     'prefix': 'longLongValue'
     'body': 'longLongValue()'
@@ -13687,7 +13687,7 @@
     'body': 'pathExtension()'
   'NSString.pathWithComponents:':
     'prefix': 'pathWithComponents:'
-    'body': 'NSString.pathWithComponents(${1:NSArray* components})'
+    'body': 'pathWithComponents(${1:NSArray* components})'
   'precomposedStringWithCanonicalMapping':
     'prefix': 'precomposedStringWithCanonicalMapping'
     'body': 'precomposedStringWithCanonicalMapping()'
@@ -13732,7 +13732,7 @@
     'body': 'smallestEncoding()'
   'NSString.string':
     'prefix': 'string'
-    'body': 'NSString.string()'
+    'body': 'string()'
   'stringByAbbreviatingWithTildeInPath':
     'prefix': 'stringByAbbreviatingWithTildeInPath'
     'body': 'stringByAbbreviatingWithTildeInPath()'
@@ -13795,43 +13795,43 @@
     'body': 'stringByTrimmingCharactersInSet(${1:NSCharacterSet* set})'
   'NSString.stringWithCString:':
     'prefix': 'stringWithCString:'
-    'body': 'NSString.stringWithCString(${1:char* bytes})'
+    'body': 'stringWithCString(${1:char* bytes})'
   'NSString.stringWithCString:encoding:':
     'prefix': 'stringWithCString:encoding:'
-    'body': 'NSString.stringWithCString(${1:char* cString}, encoding:${2:NSStringEncoding enc})'
+    'body': 'stringWithCString(${1:char* cString}, encoding:${2:NSStringEncoding enc})'
   'NSString.stringWithCString:length:':
     'prefix': 'stringWithCString:length:'
-    'body': 'NSString.stringWithCString(${1:char* bytes}, length:${2:NSUInteger length})'
+    'body': 'stringWithCString(${1:char* bytes}, length:${2:NSUInteger length})'
   'NSString.stringWithCharacters:length:':
     'prefix': 'stringWithCharacters:length:'
-    'body': 'NSString.stringWithCharacters(${1:unichar* characters}, length:${2:NSUInteger length})'
+    'body': 'stringWithCharacters(${1:unichar* characters}, length:${2:NSUInteger length})'
   'NSString.stringWithContentsOfFile:':
     'prefix': 'stringWithContentsOfFile:'
-    'body': 'NSString.stringWithContentsOfFile(${1:NSString* path})'
+    'body': 'stringWithContentsOfFile(${1:NSString* path})'
   'NSString.stringWithContentsOfFile:encoding:error:':
     'prefix': 'stringWithContentsOfFile:encoding:error:'
-    'body': 'NSString.stringWithContentsOfFile(${1:NSString* path}, encoding:${2:NSStringEncoding enc}, error:${3:NSError** error})'
+    'body': 'stringWithContentsOfFile(${1:NSString* path}, encoding:${2:NSStringEncoding enc}, error:${3:NSError** error})'
   'NSString.stringWithContentsOfFile:usedEncoding:error:':
     'prefix': 'stringWithContentsOfFile:usedEncoding:error:'
-    'body': 'NSString.stringWithContentsOfFile(${1:NSString* path}, usedEncoding:${2:NSStringEncoding* enc}, error:${3:NSError** error})'
+    'body': 'stringWithContentsOfFile(${1:NSString* path}, usedEncoding:${2:NSStringEncoding* enc}, error:${3:NSError** error})'
   'NSString.stringWithContentsOfURL:':
     'prefix': 'stringWithContentsOfURL:'
-    'body': 'NSString.stringWithContentsOfURL(${1:NSURL* url})'
+    'body': 'stringWithContentsOfURL(${1:NSURL* url})'
   'NSString.stringWithContentsOfURL:encoding:error:':
     'prefix': 'stringWithContentsOfURL:encoding:error:'
-    'body': 'NSString.stringWithContentsOfURL(${1:NSURL* url}, encoding:${2:NSStringEncoding enc}, error:${3:NSError** error})'
+    'body': 'stringWithContentsOfURL(${1:NSURL* url}, encoding:${2:NSStringEncoding enc}, error:${3:NSError** error})'
   'NSString.stringWithContentsOfURL:usedEncoding:error:':
     'prefix': 'stringWithContentsOfURL:usedEncoding:error:'
-    'body': 'NSString.stringWithContentsOfURL(${1:NSURL* url}, usedEncoding:${2:NSStringEncoding* enc}, error:${3:NSError** error})'
+    'body': 'stringWithContentsOfURL(${1:NSURL* url}, usedEncoding:${2:NSStringEncoding* enc}, error:${3:NSError** error})'
   'NSString.stringWithFormat:':
     'prefix': 'stringWithFormat:'
-    'body': 'NSString.stringWithFormat(${1:NSString* format})'
+    'body': 'stringWithFormat(${1:NSString* format})'
   'NSString.stringWithString:':
     'prefix': 'stringWithString:'
-    'body': 'NSString.stringWithString(${1:NSString* string})'
+    'body': 'stringWithString(${1:NSString* string})'
   'NSString.stringWithUTF8String:':
     'prefix': 'stringWithUTF8String:'
-    'body': 'NSString.stringWithUTF8String(${1:char* nullTerminatedCString})'
+    'body': 'stringWithUTF8String(${1:char* nullTerminatedCString})'
   'stringsByAppendingPaths:':
     'prefix': 'stringsByAppendingPaths:'
     'body': 'stringsByAppendingPaths(${1:NSArray* paths})'
@@ -13888,7 +13888,7 @@
     'body': 'launchPath()'
   'NSTask.launchedTaskWithLaunchPath:arguments:':
     'prefix': 'launchedTaskWithLaunchPath:arguments:'
-    'body': 'NSTask.launchedTaskWithLaunchPath(${1:NSString* path}, arguments:${2:NSArray* arguments})'
+    'body': 'launchedTaskWithLaunchPath(${1:NSString* path}, arguments:${2:NSArray* arguments})'
   'processIdentifier':
     'prefix': 'processIdentifier'
     'body': 'processIdentifier()'
@@ -13951,7 +13951,7 @@
     'body': 'URL()'
   'NSTextCheckingResult.addressCheckingResultWithRange:components:':
     'prefix': 'addressCheckingResultWithRange:components:'
-    'body': 'NSTextCheckingResult.addressCheckingResultWithRange(${1:NSRange range}, components:${2:NSDictionary* components})'
+    'body': 'addressCheckingResultWithRange(${1:NSRange range}, components:${2:NSDictionary* components})'
   'addressComponents':
     'prefix': 'addressComponents'
     'body': 'addressComponents()'
@@ -13963,34 +13963,34 @@
     'body': 'components()'
   'NSTextCheckingResult.correctionCheckingResultWithRange:replacementString:':
     'prefix': 'correctionCheckingResultWithRange:replacementString:'
-    'body': 'NSTextCheckingResult.correctionCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
+    'body': 'correctionCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
   'NSTextCheckingResult.correctionCheckingResultWithRange:replacementString:alternativeStrings:':
     'prefix': 'correctionCheckingResultWithRange:replacementString:alternativeStrings:'
-    'body': 'NSTextCheckingResult.correctionCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString}, alternativeStrings:${3:NSArray* alternativeStrings})'
+    'body': 'correctionCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString}, alternativeStrings:${3:NSArray* alternativeStrings})'
   'NSTextCheckingResult.dashCheckingResultWithRange:replacementString:':
     'prefix': 'dashCheckingResultWithRange:replacementString:'
-    'body': 'NSTextCheckingResult.dashCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
+    'body': 'dashCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
   'date':
     'prefix': 'date'
     'body': 'date()'
   'NSTextCheckingResult.dateCheckingResultWithRange:date:':
     'prefix': 'dateCheckingResultWithRange:date:'
-    'body': 'NSTextCheckingResult.dateCheckingResultWithRange(${1:NSRange range}, date:${2:NSDate* date})'
+    'body': 'dateCheckingResultWithRange(${1:NSRange range}, date:${2:NSDate* date})'
   'NSTextCheckingResult.dateCheckingResultWithRange:date:timeZone:duration:':
     'prefix': 'dateCheckingResultWithRange:date:timeZone:duration:'
-    'body': 'NSTextCheckingResult.dateCheckingResultWithRange(${1:NSRange range}, date:${2:NSDate* date}, timeZone:${3:NSTimeZone* timeZone}, duration:${4:NSTimeInterval duration})'
+    'body': 'dateCheckingResultWithRange(${1:NSRange range}, date:${2:NSDate* date}, timeZone:${3:NSTimeZone* timeZone}, duration:${4:NSTimeInterval duration})'
   'duration':
     'prefix': 'duration'
     'body': 'duration()'
   'NSTextCheckingResult.grammarCheckingResultWithRange:details:':
     'prefix': 'grammarCheckingResultWithRange:details:'
-    'body': 'NSTextCheckingResult.grammarCheckingResultWithRange(${1:NSRange range}, details:${2:NSArray* details})'
+    'body': 'grammarCheckingResultWithRange(${1:NSRange range}, details:${2:NSArray* details})'
   'grammarDetails':
     'prefix': 'grammarDetails'
     'body': 'grammarDetails()'
   'NSTextCheckingResult.linkCheckingResultWithRange:URL:':
     'prefix': 'linkCheckingResultWithRange:URL:'
-    'body': 'NSTextCheckingResult.linkCheckingResultWithRange(${1:NSRange range}, URL:${2:NSURL* url})'
+    'body': 'linkCheckingResultWithRange(${1:NSRange range}, URL:${2:NSURL* url})'
   'numberOfRanges':
     'prefix': 'numberOfRanges'
     'body': 'numberOfRanges()'
@@ -13999,16 +13999,16 @@
     'body': 'orthography()'
   'NSTextCheckingResult.orthographyCheckingResultWithRange:orthography:':
     'prefix': 'orthographyCheckingResultWithRange:orthography:'
-    'body': 'NSTextCheckingResult.orthographyCheckingResultWithRange(${1:NSRange range}, orthography:${2:NSOrthography* orthography})'
+    'body': 'orthographyCheckingResultWithRange(${1:NSRange range}, orthography:${2:NSOrthography* orthography})'
   'phoneNumber':
     'prefix': 'phoneNumber'
     'body': 'phoneNumber()'
   'NSTextCheckingResult.phoneNumberCheckingResultWithRange:phoneNumber:':
     'prefix': 'phoneNumberCheckingResultWithRange:phoneNumber:'
-    'body': 'NSTextCheckingResult.phoneNumberCheckingResultWithRange(${1:NSRange range}, phoneNumber:${2:NSString* phoneNumber})'
+    'body': 'phoneNumberCheckingResultWithRange(${1:NSRange range}, phoneNumber:${2:NSString* phoneNumber})'
   'NSTextCheckingResult.quoteCheckingResultWithRange:replacementString:':
     'prefix': 'quoteCheckingResultWithRange:replacementString:'
-    'body': 'NSTextCheckingResult.quoteCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
+    'body': 'quoteCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
   'range':
     'prefix': 'range'
     'body': 'range()'
@@ -14020,10 +14020,10 @@
     'body': 'regularExpression()'
   'NSTextCheckingResult.regularExpressionCheckingResultWithRanges:count:regularExpression:':
     'prefix': 'regularExpressionCheckingResultWithRanges:count:regularExpression:'
-    'body': 'NSTextCheckingResult.regularExpressionCheckingResultWithRanges(${1:NSRangePointer ranges}, count:${2:NSUInteger count}, regularExpression:${3:NSRegularExpression* regularExpression})'
+    'body': 'regularExpressionCheckingResultWithRanges(${1:NSRangePointer ranges}, count:${2:NSUInteger count}, regularExpression:${3:NSRegularExpression* regularExpression})'
   'NSTextCheckingResult.replacementCheckingResultWithRange:replacementString:':
     'prefix': 'replacementCheckingResultWithRange:replacementString:'
-    'body': 'NSTextCheckingResult.replacementCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
+    'body': 'replacementCheckingResultWithRange(${1:NSRange range}, replacementString:${2:NSString* replacementString})'
   'replacementString':
     'prefix': 'replacementString'
     'body': 'replacementString()'
@@ -14035,31 +14035,31 @@
     'body': 'resultType()'
   'NSTextCheckingResult.spellCheckingResultWithRange:':
     'prefix': 'spellCheckingResultWithRange:'
-    'body': 'NSTextCheckingResult.spellCheckingResultWithRange(${1:NSRange range})'
+    'body': 'spellCheckingResultWithRange(${1:NSRange range})'
   'timeZone':
     'prefix': 'timeZone'
     'body': 'timeZone()'
   'NSTextCheckingResult.transitInformationCheckingResultWithRange:components:':
     'prefix': 'transitInformationCheckingResultWithRange:components:'
-    'body': 'NSTextCheckingResult.transitInformationCheckingResultWithRange(${1:NSRange range}, components:${2:NSDictionary* components})'
+    'body': 'transitInformationCheckingResultWithRange(${1:NSRange range}, components:${2:NSDictionary* components})'
   'NSThread.callStackReturnAddresses':
     'prefix': 'callStackReturnAddresses'
-    'body': 'NSThread.callStackReturnAddresses()'
+    'body': 'callStackReturnAddresses()'
   'NSThread.callStackSymbols':
     'prefix': 'callStackSymbols'
-    'body': 'NSThread.callStackSymbols()'
+    'body': 'callStackSymbols()'
   'cancel':
     'prefix': 'cancel'
     'body': 'cancel()'
   'NSThread.currentThread':
     'prefix': 'currentThread'
-    'body': 'NSThread.currentThread()'
+    'body': 'currentThread()'
   'NSThread.detachNewThreadSelector:toTarget:withObject:':
     'prefix': 'detachNewThreadSelector:toTarget:withObject:'
-    'body': 'NSThread.detachNewThreadSelector(${1:SEL selector}, toTarget:${2:id target}, withObject:${3:id argument})'
+    'body': 'detachNewThreadSelector(${1:SEL selector}, toTarget:${2:id target}, withObject:${3:id argument})'
   'NSThread.exit':
     'prefix': 'exit'
-    'body': 'NSThread.exit()'
+    'body': 'exit()'
   'init':
     'prefix': 'init'
     'body': 'init()'
@@ -14077,19 +14077,19 @@
     'body': 'isFinished()'
   'NSThread.isMainThread':
     'prefix': 'isMainThread'
-    'body': 'NSThread.isMainThread()'
+    'body': 'isMainThread()'
   'isMainThread':
     'prefix': 'isMainThread'
     'body': 'isMainThread()'
   'NSThread.isMultiThreaded':
     'prefix': 'isMultiThreaded'
-    'body': 'NSThread.isMultiThreaded()'
+    'body': 'isMultiThreaded()'
   'main':
     'prefix': 'main'
     'body': 'main()'
   'NSThread.mainThread':
     'prefix': 'mainThread'
-    'body': 'NSThread.mainThread()'
+    'body': 'mainThread()'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -14101,16 +14101,16 @@
     'body': 'setStackSize(${1:NSUInteger s})'
   'NSThread.setThreadPriority:':
     'prefix': 'setThreadPriority:'
-    'body': 'NSThread.setThreadPriority(${1:double p})'
+    'body': 'setThreadPriority(${1:double p})'
   'setThreadPriority:':
     'prefix': 'setThreadPriority:'
     'body': 'setThreadPriority(${1:double p})'
   'NSThread.sleepForTimeInterval:':
     'prefix': 'sleepForTimeInterval:'
-    'body': 'NSThread.sleepForTimeInterval(${1:NSTimeInterval ti})'
+    'body': 'sleepForTimeInterval(${1:NSTimeInterval ti})'
   'NSThread.sleepUntilDate:':
     'prefix': 'sleepUntilDate:'
-    'body': 'NSThread.sleepUntilDate(${1:NSDate* date})'
+    'body': 'sleepUntilDate(${1:NSDate* date})'
   'stackSize':
     'prefix': 'stackSize'
     'body': 'stackSize()'
@@ -14122,7 +14122,7 @@
     'body': 'threadDictionary()'
   'NSThread.threadPriority':
     'prefix': 'threadPriority'
-    'body': 'NSThread.threadPriority()'
+    'body': 'threadPriority()'
   'threadPriority':
     'prefix': 'threadPriority'
     'body': 'threadPriority()'
@@ -14131,7 +14131,7 @@
     'body': 'abbreviation()'
   'NSTimeZone.abbreviationDictionary':
     'prefix': 'abbreviationDictionary'
-    'body': 'NSTimeZone.abbreviationDictionary()'
+    'body': 'abbreviationDictionary()'
   'abbreviationForDate:':
     'prefix': 'abbreviationForDate:'
     'body': 'abbreviationForDate(${1:NSDate* aDate})'
@@ -14146,7 +14146,7 @@
     'body': 'daylightSavingTimeOffsetForDate(${1:NSDate* aDate})'
   'NSTimeZone.defaultTimeZone':
     'prefix': 'defaultTimeZone'
-    'body': 'NSTimeZone.defaultTimeZone()'
+    'body': 'defaultTimeZone()'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -14167,10 +14167,10 @@
     'body': 'isEqualToTimeZone(${1:NSTimeZone* aTimeZone})'
   'NSTimeZone.knownTimeZoneNames':
     'prefix': 'knownTimeZoneNames'
-    'body': 'NSTimeZone.knownTimeZoneNames()'
+    'body': 'KnownTimeZoneNames()'
   'NSTimeZone.localTimeZone':
     'prefix': 'localTimeZone'
-    'body': 'NSTimeZone.localTimeZone()'
+    'body': 'localTimeZone()'
   'localizedName:locale:':
     'prefix': 'localizedName:locale:'
     'body': 'localizedName(${1:NSTimeZoneNameStyle style}, locale:${2:NSLocale* locale})'
@@ -14185,7 +14185,7 @@
     'body': 'nextDaylightSavingTimeTransitionAfterDate(${1:NSDate* aDate})'
   'NSTimeZone.resetSystemTimeZone':
     'prefix': 'resetSystemTimeZone'
-    'body': 'NSTimeZone.resetSystemTimeZone()'
+    'body': 'resetSystemTimeZone()'
   'secondsFromGMT':
     'prefix': 'secondsFromGMT'
     'body': 'secondsFromGMT()'
@@ -14194,28 +14194,28 @@
     'body': 'secondsFromGMTForDate(${1:NSDate* aDate})'
   'NSTimeZone.setAbbreviationDictionary:':
     'prefix': 'setAbbreviationDictionary:'
-    'body': 'NSTimeZone.setAbbreviationDictionary(${1:NSDictionary* dict})'
+    'body': 'setAbbreviationDictionary(${1:NSDictionary* dict})'
   'NSTimeZone.setDefaultTimeZone:':
     'prefix': 'setDefaultTimeZone:'
-    'body': 'NSTimeZone.setDefaultTimeZone(${1:NSTimeZone* aTimeZone})'
+    'body': 'setDefaultTimeZone(${1:NSTimeZone* aTimeZone})'
   'NSTimeZone.systemTimeZone':
     'prefix': 'systemTimeZone'
-    'body': 'NSTimeZone.systemTimeZone()'
+    'body': 'systemTimeZone()'
   'NSTimeZone.timeZoneDataVersion':
     'prefix': 'timeZoneDataVersion'
-    'body': 'NSTimeZone.timeZoneDataVersion()'
+    'body': 'timeZoneDataVersion()'
   'NSTimeZone.timeZoneForSecondsFromGMT:':
     'prefix': 'timeZoneForSecondsFromGMT:'
-    'body': 'NSTimeZone.timeZoneForSecondsFromGMT(${1:NSInteger seconds})'
+    'body': 'timeZoneForSecondsFromGMT(${1:NSInteger seconds})'
   'NSTimeZone.timeZoneWithAbbreviation:':
     'prefix': 'timeZoneWithAbbreviation:'
-    'body': 'NSTimeZone.timeZoneWithAbbreviation(${1:NSString* abbreviation})'
+    'body': 'timeZoneWithAbbreviation(${1:NSString* abbreviation})'
   'NSTimeZone.timeZoneWithName:':
     'prefix': 'timeZoneWithName:'
-    'body': 'NSTimeZone.timeZoneWithName(${1:NSString* tzName})'
+    'body': 'timeZoneWithName(${1:NSString* tzName})'
   'NSTimeZone.timeZoneWithName:data:':
     'prefix': 'timeZoneWithName:data:'
-    'body': 'NSTimeZone.timeZoneWithName(${1:NSString* tzName}, data:${2:NSData* aData})'
+    'body': 'timeZoneWithName(${1:NSString* tzName}, data:${2:NSData* aData})'
   'fire':
     'prefix': 'fire'
     'body': 'fire()'
@@ -14233,10 +14233,10 @@
     'body': 'isValid()'
   'NSTimer.scheduledTimerWithTimeInterval:invocation:repeats:':
     'prefix': 'scheduledTimerWithTimeInterval:invocation:repeats:'
-    'body': 'NSTimer.scheduledTimerWithTimeInterval(${1:NSTimeInterval ti}, invocation:${2:NSInvocation* invocation}, repeats:${3:BOOL yesOrNo})'
+    'body': 'scheduledTimerWithTimeInterval(${1:NSTimeInterval ti}, invocation:${2:NSInvocation* invocation}, repeats:${3:BOOL yesOrNo})'
   'NSTimer.scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:':
     'prefix': 'scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:'
-    'body': 'NSTimer.scheduledTimerWithTimeInterval(${1:NSTimeInterval ti}, target:${2:id aTarget}, selector:${3:SEL aSelector}, userInfo:${4:id userInfo}, repeats:${5:BOOL yesOrNo})'
+    'body': 'scheduledTimerWithTimeInterval(${1:NSTimeInterval ti}, target:${2:id aTarget}, selector:${3:SEL aSelector}, userInfo:${4:id userInfo}, repeats:${5:BOOL yesOrNo})'
   'setFireDate:':
     'prefix': 'setFireDate:'
     'body': 'setFireDate(${1:NSDate* date})'
@@ -14248,10 +14248,10 @@
     'body': 'timeInterval()'
   'NSTimer.timerWithTimeInterval:invocation:repeats:':
     'prefix': 'timerWithTimeInterval:invocation:repeats:'
-    'body': 'NSTimer.timerWithTimeInterval(${1:NSTimeInterval ti}, invocation:${2:NSInvocation* invocation}, repeats:${3:BOOL yesOrNo})'
+    'body': 'timerWithTimeInterval(${1:NSTimeInterval ti}, invocation:${2:NSInvocation* invocation}, repeats:${3:BOOL yesOrNo})'
   'NSTimer.timerWithTimeInterval:target:selector:userInfo:repeats:':
     'prefix': 'timerWithTimeInterval:target:selector:userInfo:repeats:'
-    'body': 'NSTimer.timerWithTimeInterval(${1:NSTimeInterval ti}, target:${2:id aTarget}, selector:${3:SEL aSelector}, userInfo:${4:id userInfo}, repeats:${5:BOOL yesOrNo})'
+    'body': 'timerWithTimeInterval(${1:NSTimeInterval ti}, target:${2:id aTarget}, selector:${3:SEL aSelector}, userInfo:${4:id userInfo}, repeats:${5:BOOL yesOrNo})'
   'tolerance':
     'prefix': 'tolerance'
     'body': 'tolerance()'
@@ -14275,7 +14275,7 @@
     'body': 'URLByDeletingPathExtension()'
   'NSURL.URLByResolvingBookmarkData:options:relativeToURL:bookmarkDataIsStale:error:':
     'prefix': 'URLByResolvingBookmarkData:options:relativeToURL:bookmarkDataIsStale:error:'
-    'body': 'NSURL.URLByResolvingBookmarkData(${1:NSData* bookmarkData}, options:${2:NSURLBookmarkResolutionOptions options}, relativeToURL:${3:NSURL* relativeURL}, bookmarkDataIsStale:${4:BOOL* isStale}, error:${5:NSError** error})'
+    'body': 'URLByResolvingBookmarkData(${1:NSData* bookmarkData}, options:${2:NSURLBookmarkResolutionOptions options}, relativeToURL:${3:NSURL* relativeURL}, bookmarkDataIsStale:${4:BOOL* isStale}, error:${5:NSError** error})'
   'URLByResolvingSymlinksInPath':
     'prefix': 'URLByResolvingSymlinksInPath'
     'body': 'URLByResolvingSymlinksInPath()'
@@ -14287,10 +14287,10 @@
     'body': 'URLHandleUsingCache(${1:BOOL shouldUseCache})'
   'NSURL.URLWithString:':
     'prefix': 'URLWithString:'
-    'body': 'NSURL.URLWithString(${1:NSString* URLString})'
+    'body': 'URLWithString(${1:NSString* URLString})'
   'NSURL.URLWithString:relativeToURL:':
     'prefix': 'URLWithString:relativeToURL:'
-    'body': 'NSURL.URLWithString(${1:NSString* URLString}, relativeToURL:${2:NSURL* baseURL})'
+    'body': 'URLWithString(${1:NSString* URLString}, relativeToURL:${2:NSURL* baseURL})'
   'absoluteString':
     'prefix': 'absoluteString'
     'body': 'absoluteString()'
@@ -14302,7 +14302,7 @@
     'body': 'baseURL()'
   'NSURL.bookmarkDataWithContentsOfURL:error:':
     'prefix': 'bookmarkDataWithContentsOfURL:error:'
-    'body': 'NSURL.bookmarkDataWithContentsOfURL(${1:NSURL* bookmarkFileURL}, error:${2:NSError** error})'
+    'body': 'bookmarkDataWithContentsOfURL(${1:NSURL* bookmarkFileURL}, error:${2:NSError** error})'
   'bookmarkDataWithOptions:includingResourceValuesForKeys:relativeToURL:error:':
     'prefix': 'bookmarkDataWithOptions:includingResourceValuesForKeys:relativeToURL:error:'
     'body': 'bookmarkDataWithOptions(${1:NSURLBookmarkCreationOptions options}, includingResourceValuesForKeys:${2:NSArray* keys}, relativeToURL:${3:NSURL* relativeURL}, error:${4:NSError** error})'
@@ -14320,16 +14320,16 @@
     'body': 'fileSystemRepresentation()'
   'NSURL.fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:':
     'prefix': 'fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:'
-    'body': 'NSURL.fileURLWithFileSystemRepresentation(${1:char* path}, isDirectory:${2:BOOL isDir}, relativeToURL:${3:NSURL* baseURL})'
+    'body': 'fileURLWithFileSystemRepresentation(${1:char* path}, isDirectory:${2:BOOL isDir}, relativeToURL:${3:NSURL* baseURL})'
   'NSURL.fileURLWithPath:':
     'prefix': 'fileURLWithPath:'
-    'body': 'NSURL.fileURLWithPath(${1:NSString* path})'
+    'body': 'fileURLWithPath(${1:NSString* path})'
   'NSURL.fileURLWithPath:isDirectory:':
     'prefix': 'fileURLWithPath:isDirectory:'
-    'body': 'NSURL.fileURLWithPath(${1:NSString* path}, isDirectory:${2:BOOL isDir})'
+    'body': 'fileURLWithPath(${1:NSString* path}, isDirectory:${2:BOOL isDir})'
   'NSURL.fileURLWithPathComponents:':
     'prefix': 'fileURLWithPathComponents:'
-    'body': 'NSURL.fileURLWithPathComponents(${1:NSArray* components})'
+    'body': 'fileURLWithPathComponents(${1:NSArray* components})'
   'fragment':
     'prefix': 'fragment'
     'body': 'fragment()'
@@ -14422,7 +14422,7 @@
     'body': 'resourceValuesForKeys(${1:NSArray* keys}, error:${2:NSError** error})'
   'NSURL.resourceValuesForKeys:fromBookmarkData:':
     'prefix': 'resourceValuesForKeys:fromBookmarkData:'
-    'body': 'NSURL.resourceValuesForKeys(${1:NSArray* keys}, fromBookmarkData:${2:NSData* bookmarkData})'
+    'body': 'resourceValuesForKeys(${1:NSArray* keys}, fromBookmarkData:${2:NSData* bookmarkData})'
   'scheme':
     'prefix': 'scheme'
     'body': 'scheme()'
@@ -14455,7 +14455,7 @@
     'body': 'user()'
   'NSURL.writeBookmarkData:toURL:options:error:':
     'prefix': 'writeBookmarkData:toURL:options:error:'
-    'body': 'NSURL.writeBookmarkData(${1:NSData* bookmarkData}, toURL:${2:NSURL* bookmarkFileURL}, options:${3:NSURLBookmarkFileCreationOptions options}, error:${4:NSError** error})'
+    'body': 'writeBookmarkData(${1:NSData* bookmarkData}, toURL:${2:NSURL* bookmarkFileURL}, options:${3:NSURLBookmarkFileCreationOptions options}, error:${4:NSError** error})'
   'error':
     'prefix': 'error'
     'body': 'error()'
@@ -14512,10 +14512,10 @@
     'body': 'setMemoryCapacity(${1:NSUInteger memoryCapacity})'
   'NSURLCache.setSharedURLCache:':
     'prefix': 'setSharedURLCache:'
-    'body': 'NSURLCache.setSharedURLCache(${1:NSURLCache* cache})'
+    'body': 'setSharedURLCache(${1:NSURLCache* cache})'
   'NSURLCache.sharedURLCache':
     'prefix': 'sharedURLCache'
-    'body': 'NSURLCache.sharedURLCache()'
+    'body': 'sharedURLCache()'
   'storeCachedResponse:forRequest:':
     'prefix': 'storeCachedResponse:forRequest:'
     'body': 'storeCachedResponse(${1:NSCachedURLResponse* cachedResponse}, forRequest:${2:NSURLRequest* request})'
@@ -14527,10 +14527,10 @@
     'body': 'URLRelativeToURL(${1:NSURL* baseURL})'
   'NSURLComponents.componentsWithString:':
     'prefix': 'componentsWithString:'
-    'body': 'NSURLComponents.componentsWithString(${1:NSString* URLString})'
+    'body': 'componentsWithString(${1:NSString* URLString})'
   'NSURLComponents.componentsWithURL:resolvingAgainstBaseURL:':
     'prefix': 'componentsWithURL:resolvingAgainstBaseURL:'
-    'body': 'NSURLComponents.componentsWithURL(${1:NSURL* url}, resolvingAgainstBaseURL:${2:BOOL resolve})'
+    'body': 'componentsWithURL(${1:NSURL* url}, resolvingAgainstBaseURL:${2:BOOL resolve})'
   'fragment':
     'prefix': 'fragment'
     'body': 'fragment()'
@@ -14626,13 +14626,13 @@
     'body': 'user()'
   'NSURLConnection.canHandleRequest:':
     'prefix': 'canHandleRequest:'
-    'body': 'NSURLConnection.canHandleRequest(${1:NSURLRequest* request})'
+    'body': 'canHandleRequest(${1:NSURLRequest* request})'
   'cancel':
     'prefix': 'cancel'
     'body': 'cancel()'
   'NSURLConnection.connectionWithRequest:delegate:':
     'prefix': 'connectionWithRequest:delegate:'
-    'body': 'NSURLConnection.connectionWithRequest(${1:NSURLRequest* request}, delegate:${2:id delegate})'
+    'body': 'connectionWithRequest(${1:NSURLRequest* request}, delegate:${2:id delegate})'
   'currentRequest':
     'prefix': 'currentRequest'
     'body': 'currentRequest()'
@@ -14650,10 +14650,10 @@
     'body': 'scheduleInRunLoop(${1:NSRunLoop* aRunLoop}, forMode:${2:NSString* mode})'
   'NSURLConnection.sendAsynchronousRequest:queue:completionHandler:':
     'prefix': 'sendAsynchronousRequest:queue:completionHandler:'
-    'body': 'NSURLConnection.sendAsynchronousRequest(${1:NSURLRequest* request}, queue:${2:NSOperationQueue* queue}, completionHandler:${3:void (^)(NSURLResponse *, NSData *, NSError *) handler})'
+    'body': 'sendAsynchronousRequest(${1:NSURLRequest* request}, queue:${2:NSOperationQueue* queue}, completionHandler:${3:void (^)(NSURLResponse *, NSData *, NSError *) handler})'
   'NSURLConnection.sendSynchronousRequest:returningResponse:error:':
     'prefix': 'sendSynchronousRequest:returningResponse:error:'
-    'body': 'NSURLConnection.sendSynchronousRequest(${1:NSURLRequest* request}, returningResponse:${2:NSURLResponse** response}, error:${3:NSError** error})'
+    'body': 'sendSynchronousRequest(${1:NSURLRequest* request}, returningResponse:${2:NSURLResponse** response}, error:${3:NSError** error})'
   'setDelegateQueue:':
     'prefix': 'setDelegateQueue:'
     'body': 'setDelegateQueue(${1:NSOperationQueue* queue})'
@@ -14668,13 +14668,13 @@
     'body': 'certificates()'
   'NSURLCredential.credentialForTrust:':
     'prefix': 'credentialForTrust:'
-    'body': 'NSURLCredential.credentialForTrust(${1:SecTrustRef trust})'
+    'body': 'credentialForTrust(${1:SecTrustRef trust})'
   'NSURLCredential.credentialWithIdentity:certificates:persistence:':
     'prefix': 'credentialWithIdentity:certificates:persistence:'
-    'body': 'NSURLCredential.credentialWithIdentity(${1:SecIdentityRef identity}, certificates:${2:NSArray* certArray}, persistence:${3:NSURLCredentialPersistence persistence})'
+    'body': 'credentialWithIdentity(${1:SecIdentityRef identity}, certificates:${2:NSArray* certArray}, persistence:${3:NSURLCredentialPersistence persistence})'
   'NSURLCredential.credentialWithUser:password:persistence:':
     'prefix': 'credentialWithUser:password:persistence:'
-    'body': 'NSURLCredential.credentialWithUser(${1:NSString* user}, password:${2:NSString* password}, persistence:${3:NSURLCredentialPersistence persistence})'
+    'body': 'credentialWithUser(${1:NSString* user}, password:${2:NSString* password}, persistence:${3:NSURLCredentialPersistence persistence})'
   'hasPassword':
     'prefix': 'hasPassword'
     'body': 'hasPassword()'
@@ -14722,10 +14722,10 @@
     'body': 'setDefaultCredential(${1:NSURLCredential* credential}, forProtectionSpace:${2:NSURLProtectionSpace* space})'
   'NSURLCredentialStorage.sharedCredentialStorage':
     'prefix': 'sharedCredentialStorage'
-    'body': 'NSURLCredentialStorage.sharedCredentialStorage()'
+    'body': 'sharedCredentialStorage()'
   'NSURLDownload.canResumeDownloadDecodedWithEncodingMIMEType:':
     'prefix': 'canResumeDownloadDecodedWithEncodingMIMEType:'
-    'body': 'NSURLDownload.canResumeDownloadDecodedWithEncodingMIMEType(${1:NSString* MIMEType})'
+    'body': 'canResumeDownloadDecodedWithEncodingMIMEType(${1:NSString* MIMEType})'
   'cancel':
     'prefix': 'cancel'
     'body': 'cancel()'
@@ -14752,7 +14752,7 @@
     'body': 'setDestination(${1:NSString* path}, allowOverwrite:${2:BOOL allowOverwrite})'
   'NSURLHandle.URLHandleClassForURL:':
     'prefix': 'URLHandleClassForURL:'
-    'body': 'NSURLHandle.URLHandleClassForURL(${1:NSURL* anURL})'
+    'body': 'URLHandleClassForURL(${1:NSURL* anURL})'
   'addClient:':
     'prefix': 'addClient:'
     'body': 'addClient(${1:id client})'
@@ -14767,10 +14767,10 @@
     'body': 'beginLoadInBackground()'
   'NSURLHandle.cachedHandleForURL:':
     'prefix': 'cachedHandleForURL:'
-    'body': 'NSURLHandle.cachedHandleForURL(${1:NSURL* anURL})'
+    'body': 'cachedHandleForURL(${1:NSURL* anURL})'
   'NSURLHandle.canInitWithURL:':
     'prefix': 'canInitWithURL:'
-    'body': 'NSURLHandle.canInitWithURL(${1:NSURL* anURL})'
+    'body': 'canInitWithURL(${1:NSURL* anURL})'
   'cancelLoadInBackground':
     'prefix': 'cancelLoadInBackground'
     'body': 'cancelLoadInBackground()'
@@ -14806,7 +14806,7 @@
     'body': 'propertyForKeyIfAvailable(${1:NSString* propertyKey})'
   'NSURLHandle.registerURLHandleClass:':
     'prefix': 'registerURLHandleClass:'
-    'body': 'NSURLHandle.registerURLHandleClass(${1:Class anURLHandleSubclass})'
+    'body': 'registerURLHandleClass(${1:Class anURLHandleSubclass})'
   'removeClient:':
     'prefix': 'removeClient:'
     'body': 'removeClient(${1:id client})'
@@ -14863,10 +14863,10 @@
     'body': 'cachedResponse()'
   'NSURLProtocol.canInitWithRequest:':
     'prefix': 'canInitWithRequest:'
-    'body': 'NSURLProtocol.canInitWithRequest(${1:NSURLRequest* request})'
+    'body': 'canInitWithRequest(${1:NSURLRequest* request})'
   'NSURLProtocol.canonicalRequestForRequest:':
     'prefix': 'canonicalRequestForRequest:'
-    'body': 'NSURLProtocol.canonicalRequestForRequest(${1:NSURLRequest* request})'
+    'body': 'canonicalRequestForRequest(${1:NSURLRequest* request})'
   'client':
     'prefix': 'client'
     'body': 'client()'
@@ -14875,22 +14875,22 @@
     'body': 'initWithRequest(${1:NSURLRequest* request}, cachedResponse:${2:NSCachedURLResponse* cachedResponse}, client:${3:id client})'
   'NSURLProtocol.propertyForKey:inRequest:':
     'prefix': 'propertyForKey:inRequest:'
-    'body': 'NSURLProtocol.propertyForKey(${1:NSString* key}, inRequest:${2:NSURLRequest* request})'
+    'body': 'propertyForKey(${1:NSString* key}, inRequest:${2:NSURLRequest* request})'
   'NSURLProtocol.registerClass:':
     'prefix': 'registerClass:'
-    'body': 'NSURLProtocol.registerClass(${1:Class protocolClass})'
+    'body': 'registerClass(${1:Class protocolClass})'
   'NSURLProtocol.removePropertyForKey:inRequest:':
     'prefix': 'removePropertyForKey:inRequest:'
-    'body': 'NSURLProtocol.removePropertyForKey(${1:NSString* key}, inRequest:${2:NSMutableURLRequest* request})'
+    'body': 'removePropertyForKey(${1:NSString* key}, inRequest:${2:NSMutableURLRequest* request})'
   'request':
     'prefix': 'request'
     'body': 'request()'
   'NSURLProtocol.requestIsCacheEquivalent:toRequest:':
     'prefix': 'requestIsCacheEquivalent:toRequest:'
-    'body': 'NSURLProtocol.requestIsCacheEquivalent(${1:NSURLRequest* a}, toRequest:${2:NSURLRequest* b})'
+    'body': 'requestIsCacheEquivalent(${1:NSURLRequest* a}, toRequest:${2:NSURLRequest* b})'
   'NSURLProtocol.setProperty:forKey:inRequest:':
     'prefix': 'setProperty:forKey:inRequest:'
-    'body': 'NSURLProtocol.setProperty(${1:id value}, forKey:${2:NSString* key}, inRequest:${3:NSMutableURLRequest* request})'
+    'body': 'setProperty(${1:id value}, forKey:${2:NSString* key}, inRequest:${3:NSMutableURLRequest* request})'
   'startLoading':
     'prefix': 'startLoading'
     'body': 'startLoading()'
@@ -14899,7 +14899,7 @@
     'body': 'stopLoading()'
   'NSURLProtocol.unregisterClass:':
     'prefix': 'unregisterClass:'
-    'body': 'NSURLProtocol.unregisterClass(${1:Class protocolClass})'
+    'body': 'unregisterClass(${1:Class protocolClass})'
   'HTTPBody':
     'prefix': 'HTTPBody'
     'body': 'HTTPBody()'
@@ -14941,13 +14941,13 @@
     'body': 'networkServiceType()'
   'NSURLRequest.requestWithURL:':
     'prefix': 'requestWithURL:'
-    'body': 'NSURLRequest.requestWithURL(${1:NSURL* URL})'
+    'body': 'requestWithURL(${1:NSURL* URL})'
   'NSURLRequest.requestWithURL:cachePolicy:timeoutInterval:':
     'prefix': 'requestWithURL:cachePolicy:timeoutInterval:'
-    'body': 'NSURLRequest.requestWithURL(${1:NSURL* URL}, cachePolicy:${2:NSURLRequestCachePolicy cachePolicy}, timeoutInterval:${3:NSTimeInterval timeoutInterval})'
+    'body': 'requestWithURL(${1:NSURL* URL}, cachePolicy:${2:NSURLRequestCachePolicy cachePolicy}, timeoutInterval:${3:NSTimeInterval timeoutInterval})'
   'NSURLRequest.supportsSecureCoding':
     'prefix': 'supportsSecureCoding'
-    'body': 'NSURLRequest.supportsSecureCoding()'
+    'body': 'supportsSecureCoding()'
   'timeoutInterval':
     'prefix': 'timeoutInterval'
     'body': 'timeoutInterval()'
@@ -15037,16 +15037,16 @@
     'body': 'sessionDescription()'
   'NSURLSession.sessionWithConfiguration:':
     'prefix': 'sessionWithConfiguration:'
-    'body': 'NSURLSession.sessionWithConfiguration(${1:NSURLSessionConfiguration* configuration})'
+    'body': 'sessionWithConfiguration(${1:NSURLSessionConfiguration* configuration})'
   'NSURLSession.sessionWithConfiguration:delegate:delegateQueue:':
     'prefix': 'sessionWithConfiguration:delegate:delegateQueue:'
-    'body': 'NSURLSession.sessionWithConfiguration(${1:NSURLSessionConfiguration* configuration}, delegate:${2:id delegate}, delegateQueue:${3:NSOperationQueue* queue})'
+    'body': 'sessionWithConfiguration(${1:NSURLSessionConfiguration* configuration}, delegate:${2:id delegate}, delegateQueue:${3:NSOperationQueue* queue})'
   'setSessionDescription:':
     'prefix': 'setSessionDescription:'
     'body': 'setSessionDescription(${1:NSString* sessionDescription})'
   'NSURLSession.sharedSession':
     'prefix': 'sharedSession'
-    'body': 'NSURLSession.sharedSession()'
+    'body': 'sharedSession()'
   'uploadTaskWithRequest:fromData:':
     'prefix': 'uploadTaskWithRequest:fromData:'
     'body': 'uploadTaskWithRequest(${1:NSURLRequest* request}, fromData:${2:NSData* bodyData})'
@@ -15097,16 +15097,16 @@
     'body': 'allowsCellularAccess()'
   'NSURLSessionConfiguration.backgroundSessionConfiguration:':
     'prefix': 'backgroundSessionConfiguration:'
-    'body': 'NSURLSessionConfiguration.backgroundSessionConfiguration(${1:NSString* identifier})'
+    'body': 'backgroundSessionConfiguration(${1:NSString* identifier})'
   'connectionProxyDictionary':
     'prefix': 'connectionProxyDictionary'
     'body': 'connectionProxyDictionary()'
   'NSURLSessionConfiguration.defaultSessionConfiguration':
     'prefix': 'defaultSessionConfiguration'
-    'body': 'NSURLSessionConfiguration.defaultSessionConfiguration()'
+    'body': 'defaultSessionConfiguration()'
   'NSURLSessionConfiguration.ephemeralSessionConfiguration':
     'prefix': 'ephemeralSessionConfiguration'
-    'body': 'NSURLSessionConfiguration.ephemeralSessionConfiguration()'
+    'body': 'ephemeralSessionConfiguration()'
   'identifier':
     'prefix': 'identifier'
     'body': 'identifier()'
@@ -15238,7 +15238,7 @@
     'body': 'taskIdentifier()'
   'NSUUID.UUID':
     'prefix': 'UUID'
-    'body': 'NSUUID.UUID()'
+    'body': 'UUID()'
   'UUIDString':
     'prefix': 'UUIDString'
     'body': 'UUIDString()'
@@ -15265,7 +15265,7 @@
     'body': 'dataForKey(${1:NSString* aKey})'
   'NSUbiquitousKeyValueStore.defaultStore':
     'prefix': 'defaultStore'
-    'body': 'NSUbiquitousKeyValueStore.defaultStore()'
+    'body': 'defaultStore()'
   'dictionaryForKey:':
     'prefix': 'dictionaryForKey:'
     'body': 'dictionaryForKey(${1:NSString* aKey})'
@@ -15316,13 +15316,13 @@
     'body': 'synchronize()'
   'NSUnarchiver.classNameDecodedForArchiveClassName:':
     'prefix': 'classNameDecodedForArchiveClassName:'
-    'body': 'NSUnarchiver.classNameDecodedForArchiveClassName(${1:NSString* inArchiveName})'
+    'body': 'classNameDecodedForArchiveClassName(${1:NSString* inArchiveName})'
   'classNameDecodedForArchiveClassName:':
     'prefix': 'classNameDecodedForArchiveClassName:'
     'body': 'classNameDecodedForArchiveClassName(${1:NSString* inArchiveName})'
   'NSUnarchiver.decodeClassName:asClassName:':
     'prefix': 'decodeClassName:asClassName:'
-    'body': 'NSUnarchiver.decodeClassName(${1:NSString* inArchiveName}, asClassName:${2:NSString* trueName})'
+    'body': 'decodeClassName(${1:NSString* inArchiveName}, asClassName:${2:NSString* trueName})'
   'decodeClassName:asClassName:':
     'prefix': 'decodeClassName:asClassName:'
     'body': 'decodeClassName(${1:NSString* inArchiveName}, asClassName:${2:NSString* trueName})'
@@ -15346,10 +15346,10 @@
     'body': 'systemVersion()'
   'NSUnarchiver.unarchiveObjectWithData:':
     'prefix': 'unarchiveObjectWithData:'
-    'body': 'NSUnarchiver.unarchiveObjectWithData(${1:NSData* data})'
+    'body': 'unarchiveObjectWithData(${1:NSData* data})'
   'NSUnarchiver.unarchiveObjectWithFile:':
     'prefix': 'unarchiveObjectWithFile:'
-    'body': 'NSUnarchiver.unarchiveObjectWithFile(${1:NSString* path})'
+    'body': 'unarchiveObjectWithFile(${1:NSString* path})'
   'beginUndoGrouping':
     'prefix': 'beginUndoGrouping'
     'body': 'beginUndoGrouping()'
@@ -15541,7 +15541,7 @@
     'body': 'removeVolatileDomainForName(${1:NSString* domainName})'
   'NSUserDefaults.resetStandardUserDefaults':
     'prefix': 'resetStandardUserDefaults'
-    'body': 'NSUserDefaults.resetStandardUserDefaults()'
+    'body': 'resetStandardUserDefaults()'
   'setBool:forKey:':
     'prefix': 'setBool:forKey:'
     'body': 'setBool(${1:BOOL value}, forKey:${2:NSString* defaultName})'
@@ -15568,7 +15568,7 @@
     'body': 'setVolatileDomain(${1:NSDictionary* domain}, forName:${2:NSString* domainName})'
   'NSUserDefaults.standardUserDefaults':
     'prefix': 'standardUserDefaults'
-    'body': 'NSUserDefaults.standardUserDefaults()'
+    'body': 'standardUserDefaults()'
   'stringArrayForKey:':
     'prefix': 'stringArrayForKey:'
     'body': 'stringArrayForKey(${1:NSString* defaultName})'
@@ -15691,7 +15691,7 @@
     'body': 'userInfo()'
   'NSUserNotificationCenter.defaultUserNotificationCenter':
     'prefix': 'defaultUserNotificationCenter'
-    'body': 'NSUserNotificationCenter.defaultUserNotificationCenter()'
+    'body': 'defaultUserNotificationCenter()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -15784,49 +15784,49 @@
     'body': 'sizeValue()'
   'NSValue.value:withObjCType:':
     'prefix': 'value:withObjCType:'
-    'body': 'NSValue.value(${1:void* value}, withObjCType:${2:char* type})'
+    'body': 'value(${1:void* value}, withObjCType:${2:char* type})'
   'NSValue.valueWithBytes:objCType:':
     'prefix': 'valueWithBytes:objCType:'
-    'body': 'NSValue.valueWithBytes(${1:void* value}, objCType:${2:char* type})'
+    'body': 'valueWithBytes(${1:void* value}, objCType:${2:char* type})'
   'NSValue.valueWithNonretainedObject:':
     'prefix': 'valueWithNonretainedObject:'
-    'body': 'NSValue.valueWithNonretainedObject(${1:id anObject})'
+    'body': 'valueWithNonretainedObject(${1:id anObject})'
   'NSValue.valueWithPoint:':
     'prefix': 'valueWithPoint:'
-    'body': 'NSValue.valueWithPoint(${1:NSPoint point})'
+    'body': 'valueWithPoint(${1:NSPoint point})'
   'NSValue.valueWithPointer:':
     'prefix': 'valueWithPointer:'
-    'body': 'NSValue.valueWithPointer(${1:void* pointer})'
+    'body': 'valueWithPointer(${1:void* pointer})'
   'NSValue.valueWithRange:':
     'prefix': 'valueWithRange:'
-    'body': 'NSValue.valueWithRange(${1:NSRange range})'
+    'body': 'valueWithRange(${1:NSRange range})'
   'NSValue.valueWithRect:':
     'prefix': 'valueWithRect:'
-    'body': 'NSValue.valueWithRect(${1:NSRect rect})'
+    'body': 'valueWithRect(${1:NSRect rect})'
   'NSValue.valueWithSize:':
     'prefix': 'valueWithSize:'
-    'body': 'NSValue.valueWithSize(${1:NSSize size})'
+    'body': 'valueWithSize(${1:NSSize size})'
   'NSValueTransformer.allowsReverseTransformation':
     'prefix': 'allowsReverseTransformation'
-    'body': 'NSValueTransformer.allowsReverseTransformation()'
+    'body': 'allowsReverseTransformation()'
   'reverseTransformedValue:':
     'prefix': 'reverseTransformedValue:'
     'body': 'reverseTransformedValue(${1:id value})'
   'NSValueTransformer.setValueTransformer:forName:':
     'prefix': 'setValueTransformer:forName:'
-    'body': 'NSValueTransformer.setValueTransformer(${1:NSValueTransformer* transformer}, forName:${2:NSString* name})'
+    'body': 'setValueTransformer(${1:NSValueTransformer* transformer}, forName:${2:NSString* name})'
   'transformedValue:':
     'prefix': 'transformedValue:'
     'body': 'transformedValue(${1:id value})'
   'NSValueTransformer.transformedValueClass':
     'prefix': 'transformedValueClass'
-    'body': 'NSValueTransformer.transformedValueClass()'
+    'body': 'transformedValueClass()'
   'NSValueTransformer.valueTransformerForName:':
     'prefix': 'valueTransformerForName:'
-    'body': 'NSValueTransformer.valueTransformerForName(${1:NSString* name})'
+    'body': 'valueTransformerForName(${1:NSString* name})'
   'NSValueTransformer.valueTransformerNames':
     'prefix': 'valueTransformerNames'
-    'body': 'NSValueTransformer.valueTransformerNames()'
+    'body': 'valueTransformerNames()'
   'endSubelementIdentifier':
     'prefix': 'endSubelementIdentifier'
     'body': 'endSubelementIdentifier()'
@@ -15889,7 +15889,7 @@
     'body': 'notationDeclarationForName(${1:NSString* name})'
   'NSXMLDTD.predefinedEntityDeclarationForName:':
     'prefix': 'predefinedEntityDeclarationForName:'
-    'body': 'NSXMLDTD.predefinedEntityDeclarationForName(${1:NSString* name})'
+    'body': 'predefinedEntityDeclarationForName(${1:NSString* name})'
   'publicID':
     'prefix': 'publicID'
     'body': 'publicID()'
@@ -16000,7 +16000,7 @@
     'body': 'replaceChildAtIndex(${1:NSUInteger index}, withNode:${2:NSXMLNode* node})'
   'NSXMLDocument.replacementClassForClass:':
     'prefix': 'replacementClassForClass:'
-    'body': 'NSXMLDocument.replacementClassForClass(${1:Class cls})'
+    'body': 'replacementClassForClass(${1:Class cls})'
   'rootElement':
     'prefix': 'rootElement'
     'body': 'rootElement()'
@@ -16120,7 +16120,7 @@
     'body': 'setNamespaces(${1:NSArray* namespaces})'
   'NSXMLNode.DTDNodeWithXMLString:':
     'prefix': 'DTDNodeWithXMLString:'
-    'body': 'NSXMLNode.DTDNodeWithXMLString(${1:NSString* string})'
+    'body': 'DTDNodeWithXMLString(${1:NSString* string})'
   'URI':
     'prefix': 'URI'
     'body': 'URI()'
@@ -16135,10 +16135,10 @@
     'body': 'XPath()'
   'NSXMLNode.attributeWithName:URI:stringValue:':
     'prefix': 'attributeWithName:URI:stringValue:'
-    'body': 'NSXMLNode.attributeWithName(${1:NSString* name}, URI:${2:NSString* URI}, stringValue:${3:NSString* stringValue})'
+    'body': 'attributeWithName(${1:NSString* name}, URI:${2:NSString* URI}, stringValue:${3:NSString* stringValue})'
   'NSXMLNode.attributeWithName:stringValue:':
     'prefix': 'attributeWithName:stringValue:'
-    'body': 'NSXMLNode.attributeWithName(${1:NSString* name}, stringValue:${2:NSString* stringValue})'
+    'body': 'attributeWithName(${1:NSString* name}, stringValue:${2:NSString* stringValue})'
   'canonicalXMLStringPreservingComments:':
     'prefix': 'canonicalXMLStringPreservingComments:'
     'body': 'canonicalXMLStringPreservingComments(${1:BOOL comments})'
@@ -16153,7 +16153,7 @@
     'body': 'children()'
   'NSXMLNode.commentWithStringValue:':
     'prefix': 'commentWithStringValue:'
-    'body': 'NSXMLNode.commentWithStringValue(${1:NSString* stringValue})'
+    'body': 'commentWithStringValue(${1:NSString* stringValue})'
   'description':
     'prefix': 'description'
     'body': 'description()'
@@ -16162,22 +16162,22 @@
     'body': 'detach()'
   'NSXMLNode.document':
     'prefix': 'document'
-    'body': 'NSXMLNode.document()'
+    'body': 'document()'
   'NSXMLNode.documentWithRootElement:':
     'prefix': 'documentWithRootElement:'
-    'body': 'NSXMLNode.documentWithRootElement(${1:NSXMLElement* element})'
+    'body': 'documentWithRootElement(${1:NSXMLElement* element})'
   'NSXMLNode.elementWithName:':
     'prefix': 'elementWithName:'
-    'body': 'NSXMLNode.elementWithName(${1:NSString* name})'
+    'body': 'elementWithName(${1:NSString* name})'
   'NSXMLNode.elementWithName:URI:':
     'prefix': 'elementWithName:URI:'
-    'body': 'NSXMLNode.elementWithName(${1:NSString* name}, URI:${2:NSString* URI})'
+    'body': 'elementWithName(${1:NSString* name}, URI:${2:NSString* URI})'
   'NSXMLNode.elementWithName:children:attributes:':
     'prefix': 'elementWithName:children:attributes:'
-    'body': 'NSXMLNode.elementWithName(${1:NSString* name}, children:${2:NSArray* children}, attributes:${3:NSArray* attributes})'
+    'body': 'elementWithName(${1:NSString* name}, children:${2:NSArray* children}, attributes:${3:NSArray* attributes})'
   'NSXMLNode.elementWithName:stringValue:':
     'prefix': 'elementWithName:stringValue:'
-    'body': 'NSXMLNode.elementWithName(${1:NSString* name}, stringValue:${2:NSString* string})'
+    'body': 'elementWithName(${1:NSString* name}, stringValue:${2:NSString* string})'
   'index':
     'prefix': 'index'
     'body': 'index()'
@@ -16198,13 +16198,13 @@
     'body': 'localName()'
   'NSXMLNode.localNameForName:':
     'prefix': 'localNameForName:'
-    'body': 'NSXMLNode.localNameForName(${1:NSString* name})'
+    'body': 'localNameForName(${1:NSString* name})'
   'name':
     'prefix': 'name'
     'body': 'name()'
   'NSXMLNode.namespaceWithName:stringValue:':
     'prefix': 'namespaceWithName:stringValue:'
-    'body': 'NSXMLNode.namespaceWithName(${1:NSString* name}, stringValue:${2:NSString* stringValue})'
+    'body': 'namespaceWithName(${1:NSString* name}, stringValue:${2:NSString* stringValue})'
   'nextNode':
     'prefix': 'nextNode'
     'body': 'nextNode()'
@@ -16228,13 +16228,13 @@
     'body': 'parent()'
   'NSXMLNode.predefinedNamespaceForPrefix:':
     'prefix': 'predefinedNamespaceForPrefix:'
-    'body': 'NSXMLNode.predefinedNamespaceForPrefix(${1:NSString* name})'
+    'body': 'predefinedNamespaceForPrefix(${1:NSString* name})'
   'prefix':
     'prefix': 'prefix'
     'body': 'prefix()'
   'NSXMLNode.prefixForName:':
     'prefix': 'prefixForName:'
-    'body': 'NSXMLNode.prefixForName(${1:NSString* name})'
+    'body': 'prefixForName(${1:NSString* name})'
   'previousNode':
     'prefix': 'previousNode'
     'body': 'previousNode()'
@@ -16243,7 +16243,7 @@
     'body': 'previousSibling()'
   'NSXMLNode.processingInstructionWithName:stringValue:':
     'prefix': 'processingInstructionWithName:stringValue:'
-    'body': 'NSXMLNode.processingInstructionWithName(${1:NSString* name}, stringValue:${2:NSString* stringValue})'
+    'body': 'processingInstructionWithName(${1:NSString* name}, stringValue:${2:NSString* stringValue})'
   'rootDocument':
     'prefix': 'rootDocument'
     'body': 'rootDocument()'
@@ -16267,7 +16267,7 @@
     'body': 'stringValue()'
   'NSXMLNode.textWithStringValue:':
     'prefix': 'textWithStringValue:'
-    'body': 'NSXMLNode.textWithStringValue(${1:NSString* stringValue})'
+    'body': 'textWithStringValue(${1:NSString* stringValue})'
   'abortParsing':
     'prefix': 'abortParsing'
     'body': 'abortParsing()'
@@ -16402,7 +16402,7 @@
     'body': 'interfaceForSelector(${1:SEL sel}, argumentIndex:${2:NSUInteger arg}, ofReply:${3:BOOL ofReply})'
   'NSXPCInterface.interfaceWithProtocol:':
     'prefix': 'interfaceWithProtocol:'
-    'body': 'NSXPCInterface.interfaceWithProtocol(${1:Protocol* protocol})'
+    'body': 'interfaceWithProtocol(${1:Protocol* protocol})'
   'protocol':
     'prefix': 'protocol'
     'body': 'protocol()'
@@ -16417,7 +16417,7 @@
     'body': 'setProtocol(${1:Protocol* protocol})'
   'NSXPCListener.anonymousListener':
     'prefix': 'anonymousListener'
-    'body': 'NSXPCListener.anonymousListener()'
+    'body': 'anonymousListener()'
   'delegate':
     'prefix': 'delegate'
     'body': 'delegate()'
@@ -16435,7 +16435,7 @@
     'body': 'resume()'
   'NSXPCListener.serviceListener':
     'prefix': 'serviceListener'
-    'body': 'NSXPCListener.serviceListener()'
+    'body': 'serviceListener()'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -16477,10 +16477,10 @@
     'body': 'replacementObjectForCoder(${1:NSCoder* aCoder})'
   'NSCoderMethods.setVersion:':
     'prefix': 'setVersion:'
-    'body': 'NSCoderMethods.setVersion(${1:NSInteger aVersion})'
+    'body': 'setVersion(${1:NSInteger aVersion})'
   'NSCoderMethods.version':
     'prefix': 'version'
-    'body': 'NSCoderMethods.version()'
+    'body': 'version()'
   'encodeWithCoder:':
     'prefix': 'encodeWithCoder:'
     'body': 'encodeWithCoder(${1:NSCoder* aCoder})'
@@ -16552,10 +16552,10 @@
     'body': 'scale()'
   'NSDelayedPerforming.cancelPreviousPerformRequestsWithTarget:':
     'prefix': 'cancelPreviousPerformRequestsWithTarget:'
-    'body': 'NSDelayedPerforming.cancelPreviousPerformRequestsWithTarget(${1:id aTarget})'
+    'body': 'cancelPreviousPerformRequestsWithTarget(${1:id aTarget})'
   'NSDelayedPerforming.cancelPreviousPerformRequestsWithTarget:selector:object:':
     'prefix': 'cancelPreviousPerformRequestsWithTarget:selector:object:'
-    'body': 'NSDelayedPerforming.cancelPreviousPerformRequestsWithTarget(${1:id aTarget}, selector:${2:SEL aSelector}, object:${3:id anArgument})'
+    'body': 'cancelPreviousPerformRequestsWithTarget(${1:id aTarget}, selector:${2:SEL aSelector}, object:${3:id anArgument})'
   'performSelector:withObject:afterDelay:':
     'prefix': 'performSelector:withObject:afterDelay:'
     'body': 'performSelector(${1:SEL aSelector}, withObject:${2:id anArgument}, afterDelay:${3:NSTimeInterval delay})'
@@ -16588,13 +16588,13 @@
     'body': 'unableToSetNilForKey(${1:NSString* key})'
   'NSDeprecatedKeyValueCoding.useStoredAccessor':
     'prefix': 'useStoredAccessor'
-    'body': 'NSDeprecatedKeyValueCoding.useStoredAccessor()'
+    'body': 'useStoredAccessor()'
   'valuesForKeys:':
     'prefix': 'valuesForKeys:'
     'body': 'valuesForKeys(${1:NSArray* keys})'
   'NSDeprecatedKeyValueObservingCustomization.setKeys:triggerChangeNotificationsForDependentKey:':
     'prefix': 'setKeys:triggerChangeNotificationsForDependentKey:'
-    'body': 'NSDeprecatedKeyValueObservingCustomization.setKeys(${1:NSArray* keys}, triggerChangeNotificationsForDependentKey:${2:NSString* dependentKey})'
+    'body': 'setKeys(${1:NSArray* keys}, triggerChangeNotificationsForDependentKey:${2:NSString* dependentKey})'
   'beginContentAccess':
     'prefix': 'beginContentAccess'
     'body': 'beginContentAccess()'
@@ -16732,7 +16732,7 @@
     'body': 'savePresentedItemChangesWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'NSKeyValueCoding.accessInstanceVariablesDirectly':
     'prefix': 'accessInstanceVariablesDirectly'
-    'body': 'NSKeyValueCoding.accessInstanceVariablesDirectly()'
+    'body': 'accessInstanceVariablesDirectly()'
   'dictionaryWithValuesForKeys:':
     'prefix': 'dictionaryWithValuesForKeys:'
     'body': 'dictionaryWithValuesForKeys(${1:NSArray* keys})'
@@ -16816,10 +16816,10 @@
     'body': 'observeValueForKeyPath(${1:NSString* keyPath}, ofObject:${2:id object}, change:${3:NSDictionary* change}, context:${4:void* context})'
   'NSKeyValueObservingCustomization.automaticallyNotifiesObserversForKey:':
     'prefix': 'automaticallyNotifiesObserversForKey:'
-    'body': 'NSKeyValueObservingCustomization.automaticallyNotifiesObserversForKey(${1:NSString* key})'
+    'body': 'automaticallyNotifiesObserversForKey(${1:NSString* key})'
   'NSKeyValueObservingCustomization.keyPathsForValuesAffectingValueForKey:':
     'prefix': 'keyPathsForValuesAffectingValueForKey:'
-    'body': 'NSKeyValueObservingCustomization.keyPathsForValuesAffectingValueForKey(${1:NSString* key})'
+    'body': 'KeyPathsForValuesAffectingValueForKey(${1:NSString* key})'
   'observationInfo':
     'prefix': 'observationInfo'
     'body': 'observationInfo()'
@@ -16843,7 +16843,7 @@
     'body': 'archiverWillFinish(${1:NSKeyedArchiver* archiver})'
   'NSKeyedArchiverObjectSubstitution.classFallbacksForKeyedArchiver':
     'prefix': 'classFallbacksForKeyedArchiver'
-    'body': 'NSKeyedArchiverObjectSubstitution.classFallbacksForKeyedArchiver()'
+    'body': 'classFallbacksForKeyedArchiver()'
   'classForKeyedArchiver':
     'prefix': 'classForKeyedArchiver'
     'body': 'classForKeyedArchiver()'
@@ -16867,7 +16867,7 @@
     'body': 'unarchiverWillFinish(${1:NSKeyedUnarchiver* unarchiver})'
   'NSKeyedUnarchiverObjectSubstitution.classForKeyedUnarchiver':
     'prefix': 'classForKeyedUnarchiver'
-    'body': 'NSKeyedUnarchiverObjectSubstitution.classForKeyedUnarchiver()'
+    'body': 'classForKeyedUnarchiver()'
   'lock':
     'prefix': 'lock'
     'body': 'lock()'
@@ -17074,7 +17074,7 @@
     'body': 'scriptingIsLessThanOrEqualTo(${1:id object})'
   'NSSecureCoding.supportsSecureCoding':
     'prefix': 'supportsSecureCoding'
-    'body': 'NSSecureCoding.supportsSecureCoding()'
+    'body': 'supportsSecureCoding()'
   'spellServer:checkGrammarInString:language:details:':
     'prefix': 'spellServer:checkGrammarInString:language:details:'
     'body': 'spellServer(${1:NSSpellServer* sender}, checkGrammarInString:${2:NSString* stringToCheck}, language:${3:NSString* language}, details:${4:NSArray** details})'

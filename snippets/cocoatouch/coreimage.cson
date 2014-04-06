@@ -283,16 +283,16 @@
     'body': 'colorSpace()'
   'CIColor.colorWithCGColor:':
     'prefix': 'colorWithCGColor:'
-    'body': 'CIColor.colorWithCGColor(${1:CGColorRef c})'
+    'body': 'colorWithCGColor(${1:CGColorRef c})'
   'CIColor.colorWithRed:green:blue:':
     'prefix': 'colorWithRed:green:blue:'
-    'body': 'CIColor.colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b})'
+    'body': 'colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b})'
   'CIColor.colorWithRed:green:blue:alpha:':
     'prefix': 'colorWithRed:green:blue:alpha:'
-    'body': 'CIColor.colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b}, alpha:${4:CGFloat a})'
+    'body': 'colorWithRed(${1:CGFloat r}, green:${2:CGFloat g}, blue:${3:CGFloat b}, alpha:${4:CGFloat a})'
   'CIColor.colorWithString:':
     'prefix': 'colorWithString:'
-    'body': 'CIColor.colorWithString(${1:NSString* representation})'
+    'body': 'colorWithString(${1:NSString* representation})'
   'components':
     'prefix': 'components'
     'body': 'components()'
@@ -313,13 +313,13 @@
     'body': 'stringRepresentation()'
   'CIContext.contextWithEAGLContext:':
     'prefix': 'contextWithEAGLContext:'
-    'body': 'CIContext.contextWithEAGLContext(${1:EAGLContext* eaglContext})'
+    'body': 'contextWithEAGLContext(${1:EAGLContext* eaglContext})'
   'CIContext.contextWithEAGLContext:options:':
     'prefix': 'contextWithEAGLContext:options:'
-    'body': 'CIContext.contextWithEAGLContext(${1:EAGLContext* eaglContext}, options:${2:NSDictionary* dict})'
+    'body': 'contextWithEAGLContext(${1:EAGLContext* eaglContext}, options:${2:NSDictionary* dict})'
   'CIContext.contextWithOptions:':
     'prefix': 'contextWithOptions:'
-    'body': 'CIContext.contextWithOptions(${1:NSDictionary* dict})'
+    'body': 'contextWithOptions(${1:NSDictionary* dict})'
   'createCGImage:fromRect:':
     'prefix': 'createCGImage:fromRect:'
     'body': 'createCGImage(${1:CIImage* im}, fromRect:${2:CGRect r})'
@@ -349,7 +349,7 @@
     'body': 'render(${1:CIImage* image}, toCVPixelBuffer:${2:CVPixelBufferRef buffer}, bounds:${3:CGRect r}, colorSpace:${4:CGColorSpaceRef cs})'
   'CIDetector.detectorOfType:context:options:':
     'prefix': 'detectorOfType:context:options:'
-    'body': 'CIDetector.detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
+    'body': 'detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
   'featuresInImage:':
     'prefix': 'featuresInImage:'
     'body': 'featuresInImage(${1:CIImage* image})'
@@ -415,19 +415,19 @@
     'body': 'attributes()'
   'CIFilter.filterArrayFromSerializedXMP:inputImageExtent:error:':
     'prefix': 'filterArrayFromSerializedXMP:inputImageExtent:error:'
-    'body': 'CIFilter.filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
+    'body': 'filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
   'CIFilter.filterNamesInCategories:':
     'prefix': 'filterNamesInCategories:'
-    'body': 'CIFilter.filterNamesInCategories(${1:NSArray* categories})'
+    'body': 'filterNamesInCategories(${1:NSArray* categories})'
   'CIFilter.filterNamesInCategory:':
     'prefix': 'filterNamesInCategory:'
-    'body': 'CIFilter.filterNamesInCategory(${1:NSString* category})'
+    'body': 'filterNamesInCategory(${1:NSString* category})'
   'CIFilter.filterWithName:':
     'prefix': 'filterWithName:'
-    'body': 'CIFilter.filterWithName(${1:NSString* name})'
+    'body': 'filterWithName(${1:NSString* name})'
   'CIFilter.filterWithName:keysAndValues:':
     'prefix': 'filterWithName:keysAndValues:'
-    'body': 'CIFilter.filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
+    'body': 'filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
   'inputKeys':
     'prefix': 'inputKeys'
     'body': 'inputKeys()'
@@ -442,7 +442,7 @@
     'body': 'outputKeys()'
   'CIFilter.serializedXMPFromFilters:inputImageExtent:':
     'prefix': 'serializedXMPFromFilters:inputImageExtent:'
-    'body': 'CIFilter.serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
+    'body': 'serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
   'setDefaults':
     'prefix': 'setDefaults'
     'body': 'setDefaults()'
@@ -454,7 +454,7 @@
     'body': 'autoAdjustmentFiltersWithOptions(${1:NSDictionary* dict})'
   'CIImage.emptyImage':
     'prefix': 'emptyImage'
-    'body': 'CIImage.emptyImage()'
+    'body': 'emptyImage()'
   'extent':
     'prefix': 'extent'
     'body': 'extent()'
@@ -466,37 +466,37 @@
     'body': 'imageByCroppingToRect(${1:CGRect r})'
   'CIImage.imageWithBitmapData:bytesPerRow:size:format:colorSpace:':
     'prefix': 'imageWithBitmapData:bytesPerRow:size:format:colorSpace:'
-    'body': 'CIImage.imageWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs})'
+    'body': 'imageWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef cs})'
   'CIImage.imageWithCGImage:':
     'prefix': 'imageWithCGImage:'
-    'body': 'CIImage.imageWithCGImage(${1:CGImageRef image})'
+    'body': 'imageWithCGImage(${1:CGImageRef image})'
   'CIImage.imageWithCGImage:options:':
     'prefix': 'imageWithCGImage:options:'
-    'body': 'CIImage.imageWithCGImage(${1:CGImageRef image}, options:${2:NSDictionary* d})'
+    'body': 'imageWithCGImage(${1:CGImageRef image}, options:${2:NSDictionary* d})'
   'CIImage.imageWithCVPixelBuffer:':
     'prefix': 'imageWithCVPixelBuffer:'
-    'body': 'CIImage.imageWithCVPixelBuffer(${1:CVPixelBufferRef buffer})'
+    'body': 'imageWithCVPixelBuffer(${1:CVPixelBufferRef buffer})'
   'CIImage.imageWithCVPixelBuffer:options:':
     'prefix': 'imageWithCVPixelBuffer:options:'
-    'body': 'CIImage.imageWithCVPixelBuffer(${1:CVPixelBufferRef buffer}, options:${2:NSDictionary* dict})'
+    'body': 'imageWithCVPixelBuffer(${1:CVPixelBufferRef buffer}, options:${2:NSDictionary* dict})'
   'CIImage.imageWithColor:':
     'prefix': 'imageWithColor:'
-    'body': 'CIImage.imageWithColor(${1:CIColor* color})'
+    'body': 'imageWithColor(${1:CIColor* color})'
   'CIImage.imageWithContentsOfURL:':
     'prefix': 'imageWithContentsOfURL:'
-    'body': 'CIImage.imageWithContentsOfURL(${1:NSURL* url})'
+    'body': 'imageWithContentsOfURL(${1:NSURL* url})'
   'CIImage.imageWithContentsOfURL:options:':
     'prefix': 'imageWithContentsOfURL:options:'
-    'body': 'CIImage.imageWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* d})'
+    'body': 'imageWithContentsOfURL(${1:NSURL* url}, options:${2:NSDictionary* d})'
   'CIImage.imageWithData:':
     'prefix': 'imageWithData:'
-    'body': 'CIImage.imageWithData(${1:NSData* data})'
+    'body': 'imageWithData(${1:NSData* data})'
   'CIImage.imageWithData:options:':
     'prefix': 'imageWithData:options:'
-    'body': 'CIImage.imageWithData(${1:NSData* data}, options:${2:NSDictionary* d})'
+    'body': 'imageWithData(${1:NSData* data}, options:${2:NSDictionary* d})'
   'CIImage.imageWithTexture:size:flipped:colorSpace:':
     'prefix': 'imageWithTexture:size:flipped:colorSpace:'
-    'body': 'CIImage.imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
+    'body': 'imageWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
   'initWithBitmapData:bytesPerRow:size:format:colorSpace:':
     'prefix': 'initWithBitmapData:bytesPerRow:size:format:colorSpace:'
     'body': 'initWithBitmapData(${1:NSData* d}, bytesPerRow:${2:size_t bpr}, size:${3:CGSize size}, format:${4:CIFormat f}, colorSpace:${5:CGColorSpaceRef c})'
@@ -595,28 +595,28 @@
     'body': 'valueAtIndex(${1:size_t index})'
   'CIVector.vectorWithCGAffineTransform:':
     'prefix': 'vectorWithCGAffineTransform:'
-    'body': 'CIVector.vectorWithCGAffineTransform(${1:CGAffineTransform t})'
+    'body': 'vectorWithCGAffineTransform(${1:CGAffineTransform t})'
   'CIVector.vectorWithCGPoint:':
     'prefix': 'vectorWithCGPoint:'
-    'body': 'CIVector.vectorWithCGPoint(${1:CGPoint p})'
+    'body': 'vectorWithCGPoint(${1:CGPoint p})'
   'CIVector.vectorWithCGRect:':
     'prefix': 'vectorWithCGRect:'
-    'body': 'CIVector.vectorWithCGRect(${1:CGRect r})'
+    'body': 'vectorWithCGRect(${1:CGRect r})'
   'CIVector.vectorWithString:':
     'prefix': 'vectorWithString:'
-    'body': 'CIVector.vectorWithString(${1:NSString* representation})'
+    'body': 'vectorWithString(${1:NSString* representation})'
   'CIVector.vectorWithValues:count:':
     'prefix': 'vectorWithValues:count:'
-    'body': 'CIVector.vectorWithValues(${1:CGFloat* values}, count:${2:size_t count})'
+    'body': 'vectorWithValues(${1:CGFloat* values}, count:${2:size_t count})'
   'CIVector.vectorWithX:':
     'prefix': 'vectorWithX:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x})'
+    'body': 'vectorWithX(${1:CGFloat x})'
   'CIVector.vectorWithX:Y:':
     'prefix': 'vectorWithX:Y:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y})'
+    'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y})'
   'CIVector.vectorWithX:Y:Z:':
     'prefix': 'vectorWithX:Y:Z:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z})'
+    'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z})'
   'CIVector.vectorWithX:Y:Z:W:':
     'prefix': 'vectorWithX:Y:Z:W:'
-    'body': 'CIVector.vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
+    'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'

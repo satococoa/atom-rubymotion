@@ -151,10 +151,10 @@
     'body': 'applicationUsername()'
   'SKPayment.paymentWithProduct:':
     'prefix': 'paymentWithProduct:'
-    'body': 'SKPayment.paymentWithProduct(${1:SKProduct* product})'
+    'body': 'paymentWithProduct(${1:SKProduct* product})'
   'SKPayment.paymentWithProductIdentifier:':
     'prefix': 'paymentWithProductIdentifier:'
-    'body': 'SKPayment.paymentWithProductIdentifier(${1:NSString* identifier})'
+    'body': 'paymentWithProductIdentifier(${1:NSString* identifier})'
   'productIdentifier':
     'prefix': 'productIdentifier'
     'body': 'productIdentifier()'
@@ -172,13 +172,13 @@
     'body': 'addTransactionObserver(${1:id observer})'
   'SKPaymentQueue.canMakePayments':
     'prefix': 'canMakePayments'
-    'body': 'SKPaymentQueue.canMakePayments()'
+    'body': 'canMakePayments()'
   'cancelDownloads:':
     'prefix': 'cancelDownloads:'
     'body': 'cancelDownloads(${1:NSArray* downloads})'
   'SKPaymentQueue.defaultQueue':
     'prefix': 'defaultQueue'
-    'body': 'SKPaymentQueue.defaultQueue()'
+    'body': 'defaultQueue()'
   'finishTransaction:':
     'prefix': 'finishTransaction:'
     'body': 'finishTransaction(${1:SKPaymentTransaction* transaction})'

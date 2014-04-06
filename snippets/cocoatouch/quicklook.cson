@@ -28,7 +28,7 @@
     'body': 'previewItemURL()'
   'QLPreviewController.canPreviewItem:':
     'prefix': 'canPreviewItem:'
-    'body': 'QLPreviewController.canPreviewItem(${1:id item})'
+    'body': 'canPreviewItem(${1:id item})'
   'currentPreviewItem':
     'prefix': 'currentPreviewItem'
     'body': 'currentPreviewItem()'

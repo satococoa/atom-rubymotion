@@ -13,7 +13,7 @@
     'body': 'SSRandomPointForSizeWithinRect(${1:NSSize size}, ${2:NSRect rect})'
   'ScreenSaverDefaults.defaultsForModuleWithName:':
     'prefix': 'defaultsForModuleWithName:'
-    'body': 'ScreenSaverDefaults.defaultsForModuleWithName(${1:NSString* inModuleName})'
+    'body': 'defaultsForModuleWithName(${1:NSString* inModuleName})'
   'animateOneFrame':
     'prefix': 'animateOneFrame'
     'body': 'animateOneFrame()'
@@ -22,7 +22,7 @@
     'body': 'animationTimeInterval()'
   'ScreenSaverView.backingStoreType':
     'prefix': 'backingStoreType'
-    'body': 'ScreenSaverView.backingStoreType()'
+    'body': 'backingStoreType()'
   'configureSheet':
     'prefix': 'configureSheet'
     'body': 'configureSheet()'
@@ -46,7 +46,7 @@
     'body': 'isPreview()'
   'ScreenSaverView.performGammaFade':
     'prefix': 'performGammaFade'
-    'body': 'ScreenSaverView.performGammaFade()'
+    'body': 'performGammaFade()'
   'setAnimationTimeInterval:':
     'prefix': 'setAnimationTimeInterval:'
     'body': 'setAnimationTimeInterval(${1:NSTimeInterval timeInterval})'

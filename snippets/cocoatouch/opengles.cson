@@ -4492,7 +4492,7 @@
     'body': 'API()'
   'EAGLContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'EAGLContext.currentContext()'
+    'body': 'currentContext()'
   'debugLabel':
     'prefix': 'debugLabel'
     'body': 'debugLabel()'
@@ -4513,7 +4513,7 @@
     'body': 'renderbufferStorage(${1:NSUInteger target}, fromDrawable:${2:id drawable})'
   'EAGLContext.setCurrentContext:':
     'prefix': 'setCurrentContext:'
-    'body': 'EAGLContext.setCurrentContext(${1:EAGLContext* context})'
+    'body': 'setCurrentContext(${1:EAGLContext* context})'
   'setDebugLabel:':
     'prefix': 'setDebugLabel:'
     'body': 'setDebugLabel(${1:NSString* debugLabel})'

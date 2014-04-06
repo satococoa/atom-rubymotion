@@ -349,10 +349,10 @@
     'body': 'boundingMapRect()'
   'MKCircle.circleWithCenterCoordinate:radius:':
     'prefix': 'circleWithCenterCoordinate:radius:'
-    'body': 'MKCircle.circleWithCenterCoordinate(${1: coord}, radius:${2: radius})'
+    'body': 'circleWithCenterCoordinate(${1: coord}, radius:${2: radius})'
   'MKCircle.circleWithMapRect:':
     'prefix': 'circleWithMapRect:'
-    'body': 'MKCircle.circleWithMapRect(${1: mapRect})'
+    'body': 'circleWithMapRect(${1: mapRect})'
   'coordinate':
     'prefix': 'coordinate'
     'body': 'coordinate()'
@@ -394,7 +394,7 @@
     'body': 'initWithContentsOfURL(${1: url})'
   'MKDirectionsRequest.isDirectionsRequestURL:':
     'prefix': 'isDirectionsRequestURL:'
-    'body': 'MKDirectionsRequest.isDirectionsRequestURL(${1: url})'
+    'body': 'isDirectionsRequestURL(${1: url})'
   'requestsAlternateRoutes':
     'prefix': 'requestsAlternateRoutes'
     'body': 'requestsAlternateRoutes()'
@@ -466,10 +466,10 @@
     'body': 'source()'
   'MKGeodesicPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
-    'body': 'MKGeodesicPolyline.polylineWithCoordinates(${1: coords}, count:${2: count})'
+    'body': 'polylineWithCoordinates(${1: coords}, count:${2: count})'
   'MKGeodesicPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
-    'body': 'MKGeodesicPolyline.polylineWithPoints(${1: points}, count:${2: count})'
+    'body': 'polylineWithPoints(${1: points}, count:${2: count})'
   'cancel':
     'prefix': 'cancel'
     'body': 'cancel()'
@@ -505,10 +505,10 @@
     'body': 'altitude()'
   'MKMapCamera.camera':
     'prefix': 'camera'
-    'body': 'MKMapCamera.camera()'
+    'body': 'camera()'
   'MKMapCamera.cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:':
     'prefix': 'cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:'
-    'body': 'MKMapCamera.cameraLookingAtCenterCoordinate(${1: centerCoordinate}, fromEyeCoordinate:${2: eyeCoordinate}, eyeAltitude:${3: eyeAltitude})'
+    'body': 'cameraLookingAtCenterCoordinate(${1: centerCoordinate}, fromEyeCoordinate:${2: eyeCoordinate}, eyeAltitude:${3: eyeAltitude})'
   'centerCoordinate':
     'prefix': 'centerCoordinate'
     'body': 'centerCoordinate()'
@@ -538,7 +538,7 @@
     'body': 'isCurrentLocation()'
   'MKMapItem.mapItemForCurrentLocation':
     'prefix': 'mapItemForCurrentLocation'
-    'body': 'MKMapItem.mapItemForCurrentLocation()'
+    'body': 'mapItemForCurrentLocation()'
   'name':
     'prefix': 'name'
     'body': 'name()'
@@ -547,7 +547,7 @@
     'body': 'openInMapsWithLaunchOptions(${1: launchOptions})'
   'MKMapItem.openMapsWithItems:launchOptions:':
     'prefix': 'openMapsWithItems:launchOptions:'
-    'body': 'MKMapItem.openMapsWithItems(${1: mapItems}, launchOptions:${2: launchOptions})'
+    'body': 'openMapsWithItems(${1: mapItems}, launchOptions:${2: launchOptions})'
   'phoneNumber':
     'prefix': 'phoneNumber'
     'body': 'phoneNumber()'
@@ -1000,16 +1000,16 @@
     'body': 'interiorPolygons()'
   'MKPolygon.polygonWithCoordinates:count:':
     'prefix': 'polygonWithCoordinates:count:'
-    'body': 'MKPolygon.polygonWithCoordinates(${1: coords}, count:${2: count})'
+    'body': 'polygonWithCoordinates(${1: coords}, count:${2: count})'
   'MKPolygon.polygonWithCoordinates:count:interiorPolygons:':
     'prefix': 'polygonWithCoordinates:count:interiorPolygons:'
-    'body': 'MKPolygon.polygonWithCoordinates(${1: coords}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
+    'body': 'polygonWithCoordinates(${1: coords}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
   'MKPolygon.polygonWithPoints:count:':
     'prefix': 'polygonWithPoints:count:'
-    'body': 'MKPolygon.polygonWithPoints(${1: points}, count:${2: count})'
+    'body': 'polygonWithPoints(${1: points}, count:${2: count})'
   'MKPolygon.polygonWithPoints:count:interiorPolygons:':
     'prefix': 'polygonWithPoints:count:interiorPolygons:'
-    'body': 'MKPolygon.polygonWithPoints(${1: points}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
+    'body': 'polygonWithPoints(${1: points}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
   'initWithPolygon:':
     'prefix': 'initWithPolygon:'
     'body': 'initWithPolygon(${1: polygon})'
@@ -1018,10 +1018,10 @@
     'body': 'polygon()'
   'MKPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
-    'body': 'MKPolyline.polylineWithCoordinates(${1: coords}, count:${2: count})'
+    'body': 'polylineWithCoordinates(${1: coords}, count:${2: count})'
   'MKPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
-    'body': 'MKPolyline.polylineWithPoints(${1: points}, count:${2: count})'
+    'body': 'polylineWithPoints(${1: points}, count:${2: count})'
   'initWithPolyline:':
     'prefix': 'initWithPolyline:'
     'body': 'initWithPolyline(${1: polyline})'
@@ -1228,10 +1228,10 @@
     'body': 'MKCoordinateValue()'
   'NSValue.valueWithMKCoordinate:':
     'prefix': 'valueWithMKCoordinate:'
-    'body': 'NSValue.valueWithMKCoordinate(${1: coordinate})'
+    'body': 'valueWithMKCoordinate(${1: coordinate})'
   'NSValue.valueWithMKCoordinateSpan:':
     'prefix': 'valueWithMKCoordinateSpan:'
-    'body': 'NSValue.valueWithMKCoordinateSpan(${1: span})'
+    'body': 'valueWithMKCoordinateSpan(${1: span})'
   'coordinate':
     'prefix': 'coordinate'
     'body': 'coordinate()'

@@ -7,4 +7,4 @@
     'body': 'isAdvertisingTrackingEnabled()'
   'ASIdentifierManager.sharedManager':
     'prefix': 'sharedManager'
-    'body': 'ASIdentifierManager.sharedManager()'
+    'body': 'sharedManager()'

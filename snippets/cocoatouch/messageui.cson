@@ -46,7 +46,7 @@
     'body': 'addAttachmentData(${1:NSData* attachment}, mimeType:${2:NSString* mimeType}, fileName:${3:NSString* filename})'
   'MFMailComposeViewController.canSendMail':
     'prefix': 'canSendMail'
-    'body': 'MFMailComposeViewController.canSendMail()'
+    'body': 'canSendMail()'
   'mailComposeDelegate':
     'prefix': 'mailComposeDelegate'
     'body': 'mailComposeDelegate()'
@@ -82,19 +82,19 @@
     'body': 'body()'
   'MFMessageComposeViewController.canSendAttachments':
     'prefix': 'canSendAttachments'
-    'body': 'MFMessageComposeViewController.canSendAttachments()'
+    'body': 'canSendAttachments()'
   'MFMessageComposeViewController.canSendSubject':
     'prefix': 'canSendSubject'
-    'body': 'MFMessageComposeViewController.canSendSubject()'
+    'body': 'canSendSubject()'
   'MFMessageComposeViewController.canSendText':
     'prefix': 'canSendText'
-    'body': 'MFMessageComposeViewController.canSendText()'
+    'body': 'canSendText()'
   'disableUserAttachments':
     'prefix': 'disableUserAttachments'
     'body': 'disableUserAttachments()'
   'MFMessageComposeViewController.isSupportedAttachmentUTI:':
     'prefix': 'isSupportedAttachmentUTI:'
-    'body': 'MFMessageComposeViewController.isSupportedAttachmentUTI(${1:NSString* uti})'
+    'body': 'isSupportedAttachmentUTI(${1:NSString* uti})'
   'messageComposeDelegate':
     'prefix': 'messageComposeDelegate'
     'body': 'messageComposeDelegate()'
