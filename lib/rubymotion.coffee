@@ -28,8 +28,9 @@ module.exports =
       snippets = atom.syntax.propertiesForScope([".source.rubymotion"], "snippets")
       keys = []
       for item in snippets
-        keys.push _.keys(item.snippets)
-      keys = _.uniq(_.flatten(keys)).sort (word1, word2) ->
+        for k in _.keys(item.snippets)
+          keys.push k
+      keys = keys.sort (word1, word2) ->
         word1.toLowerCase().localeCompare(word2.toLowerCase())
       callback keys
 
