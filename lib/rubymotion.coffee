@@ -1,6 +1,5 @@
 _ = require 'underscore-plus'
 RubyMotionAutocompleteView = require './rubymotion-autocomplete-view'
-Snippet = require(atom.packages.resolvePackagePath('snippets') + '/lib/snippet')
 Snippets = require(atom.packages.resolvePackagePath('snippets') + '/lib/snippets')
 
 module.exports =
