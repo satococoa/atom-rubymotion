@@ -1,7 +1,9 @@
 _ = require 'underscore-plus'
 RubyMotionAutocompleteView = require './rubymotion-autocomplete-view'
-Snippet = require(atom.packages.resolvePackagePath('snippets') + '/lib/snippet')
-Snippets = require(atom.packages.resolvePackagePath('snippets') + '/lib/snippets')
+# FIXME: dirty hack for wrong module path detection on `apm test`
+snippetsModPath = _.find atom.packages.getAvailablePackagePaths(), (path) ->
+  path.match /\/snippets$/
+Snippets = require snippetsModPath
 
 module.exports =
   autocompleteViews: []
