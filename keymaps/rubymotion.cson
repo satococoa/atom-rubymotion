@@ -1,5 +1,6 @@
 '.editor':
   'ctrl-cmd-space': 'rubymotion-autocomplete:toggle'
+  'cmd-k': 'rubymotion:look-up-in-dash'
 
 '.autocomplete .mini.editor input':
   'enter': 'core:confirm'

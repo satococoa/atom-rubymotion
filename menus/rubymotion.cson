@@ -1,0 +1,12 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'RubyMotion'
+      'submenu': [
+        { 'label': 'Look Up in Dash', 'command': 'rubymotion:look-up-in-dash' }
+      ]
+    ]
+  }
+]
