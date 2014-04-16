@@ -8,6 +8,10 @@ ctrl-cmd-space will trigger RubyMotion snippets auto completion.
 
 ![snippets autocompletion preview](https://f.cloud.github.com/assets/31448/2493575/0ebc3846-b29c-11e3-9cf2-e411edd49bd4.gif)
 
+## Look up in Dash
+cmd-k to look up methods in Dash.
+
+If you want to change keyword (e.g. "rubymotion") check the Settings pane.
 
 ## TODO
 
