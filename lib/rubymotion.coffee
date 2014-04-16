@@ -4,8 +4,12 @@ RubyMotionAutocompleteView = require './rubymotion-autocomplete-view'
 snippetsModPath = _.find atom.packages.getAvailablePackagePaths(), (path) ->
   path.match /\/snippets$/
 Snippets = require snippetsModPath
+childProcess = require 'child_process'
 
 module.exports =
+  configDefaults:
+    lookUpInDashKeyword: 'ios'
+
   autocompleteViews: []
   editorSubscription: null
   snippetPrefixes: []
@@ -24,6 +28,10 @@ module.exports =
       @snippetPrefixes = prefixes
       @autocompleteViews.forEach (v) => v.snippetPrefixes = @snippetPrefixes
 
+    atom.workspaceView.command 'rubymotion:look-up-in-dash', =>
+      editor = atom.workspace.getActiveEditor()
+      @lookUpInDash(editor) if editor?
+
   collectSnippets: (callback) ->
     path = atom.packages.resolvePackagePath('RubyMotion') + '/snippets/cocoatouch'
     Snippets.loadSnippetsDirectory path, ->
@@ -35,6 +43,13 @@ module.exports =
       keys = keys.sort (word1, word2) ->
         word1.toLowerCase().localeCompare(word2.toLowerCase())
       callback keys
+
+  lookUpInDash: (editor) ->
+    word = editor.getWordUnderCursor(includeNonWordCharacters: false)
+    return if word is ''
+    keyword = atom.config.get('RubyMotion.lookUpInDashKeyword')
+    url = "dash://#{keyword}:#{word}"
+    childProcess.exec "open #{url}"
 
   deactivate: ->
     @editorSubscription?.off()
