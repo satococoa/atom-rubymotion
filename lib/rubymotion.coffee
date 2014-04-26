@@ -16,7 +16,7 @@ module.exports =
 
   activate: (state) ->
     @editorSubscription = atom.workspaceView.eachEditorView (editor) =>
-      if editor.attached and not editor.mini
+      if editor.attached
         autocompleteView = new RubyMotionAutocompleteView(editor)
         autocompleteView.snippetPrefixes = @snippetPrefixes
         editor.on 'editor:will-be-removed', =>
