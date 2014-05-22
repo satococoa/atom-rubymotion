@@ -30,6 +30,11 @@ class RubyMotionAutocompleteView extends AutocompleteView
         @editor.insertText(text)
         false
 
+  attach: ->
+    word = @editor.getWordUnderCursor(includeNonWordCharacters: false)
+    return if word is ''
+    super
+
   confirmed: (match) ->
     @editor.getSelection().clear()
     @cancel()

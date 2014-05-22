@@ -118,3 +118,9 @@ describe "RubyMotionAutocompleteView", ->
 
         editorView.trigger 'core:confirm'
         expect(editorView.trigger).toHaveBeenCalled()
+
+      it "don't display autocomplete view if word is blank", ->
+        editor.setCursorBufferPosition([2,2])
+        autocomplete.attach()
+
+        expect(editorView.find('.autocomplete')).not.toExist()

@@ -17,12 +17,7 @@ module.exports =
   activate: (state) ->
     @editorSubscription = atom.workspaceView.eachEditorView (editor) =>
       if editor.attached
-        autocompleteView = new RubyMotionAutocompleteView(editor)
-        autocompleteView.snippetPrefixes = @snippetPrefixes
-        editor.on 'editor:will-be-removed', =>
-          autocompleteView.remove() unless autocompleteView.hasParent()
-          _.remove(@autocompleteViews, autocompleteView)
-        @autocompleteViews.push(autocompleteView)
+        @enableAutocomplete(editor)
 
     @collectSnippets (prefixes) =>
       @snippetPrefixes = prefixes
@@ -31,6 +26,14 @@ module.exports =
     atom.workspaceView.command 'rubymotion:look-up-in-dash', =>
       editor = atom.workspace.getActiveEditor()
       @lookUpInDash(editor) if editor?
+
+  enableAutocomplete: (editor) ->
+    autocompleteView = new RubyMotionAutocompleteView(editor)
+    autocompleteView.snippetPrefixes = @snippetPrefixes
+    editor.on 'editor:will-be-removed', =>
+      autocompleteView.remove() unless autocompleteView.hasParent()
+      _.remove(@autocompleteViews, autocompleteView)
+    @autocompleteViews.push(autocompleteView)
 
   collectSnippets: (callback) ->
     path = atom.packages.resolvePackagePath('RubyMotion') + '/snippets/cocoatouch'
