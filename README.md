@@ -1,7 +1,8 @@
-[![Stories in Ready](https://badge.waffle.io/satococoa/atom-rubymotion.png?label=ready&title=Ready)](https://waffle.io/satococoa/atom-rubymotion)
 # RubyMotion support in Atom
 
 [![Build Status](https://travis-ci.org/satococoa/atom-rubymotion.svg?branch=master)](https://travis-ci.org/satococoa/atom-rubymotion)
+[![Stories in Ready](https://badge.waffle.io/satococoa/atom-rubymotion.png?label=ready&title=Ready)](https://waffle.io/satococoa/atom-rubymotion)
+
 
 [RubyMotion](http://www.rubymotion.com) package for [Atom](https://atom.io).
 
