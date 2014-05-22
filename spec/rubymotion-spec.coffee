@@ -97,30 +97,39 @@ describe "RubyMotionAutocompleteView", ->
           'foo:bar:'
         ]
 
-      it 'autocompletes word from snippetsPrefixes', ->
-        editor.getBuffer().insert([2,0] ,"fo")
-        editor.setCursorBufferPosition([2,2])
-        autocomplete.attach()
+      describe 'there is a word on cursor', ->
+        beforeEach ->
+          editor.getBuffer().insert([2,0] ,"fo")
 
-        expect(editor.lineForBufferRow(2)).toBe 'foo:'
-        expect(editor.getCursorBufferPosition()).toEqual [2,4]
-        expect(editor.getSelection().getBufferRange()).toEqual [[2,2], [2,4]]
+        it "don't display autocomplete view if word is blank", ->
+          editor.setCursorBufferPosition([2,2])
+          autocomplete.attach()
 
-        expect(autocomplete.list.find('li').length).toBe 2
+          expect(editorView.find('.autocomplete')).toExist()
 
-      it 'expands snippet after confirm autocompleted word', ->
-        spyOn(editorView, 'trigger').andCallThrough()
-        expect(editorView.trigger).not.toHaveBeenCalled()
+        it 'autocompletes word from snippetsPrefixes', ->
+          editor.setCursorBufferPosition([2,2])
+          autocomplete.attach()
 
-        editor.getBuffer().insert([2,0] ,"fo")
-        editor.setCursorBufferPosition([2,2])
-        autocomplete.attach()
+          expect(editor.lineForBufferRow(2)).toBe 'foo:'
+          expect(editor.getCursorBufferPosition()).toEqual [2,4]
+          expect(editor.getSelection().getBufferRange()).toEqual [[2,2], [2,4]]
 
-        editorView.trigger 'core:confirm'
-        expect(editorView.trigger).toHaveBeenCalled()
+          expect(autocomplete.list.find('li').length).toBe 2
 
-      it "don't display autocomplete view if word is blank", ->
-        editor.setCursorBufferPosition([2,2])
-        autocomplete.attach()
+        it 'expands snippet after confirm autocompleted word', ->
+          spyOn(editorView, 'trigger').andCallThrough()
+          expect(editorView.trigger).not.toHaveBeenCalled()
 
-        expect(editorView.find('.autocomplete')).not.toExist()
+          editor.setCursorBufferPosition([2,2])
+          autocomplete.attach()
+
+          editorView.trigger 'core:confirm'
+          expect(editorView.trigger).toHaveBeenCalled()
+
+      describe 'there is a no word on cursor', ->
+        it "don't display autocomplete view if word is blank", ->
+          editor.setCursorBufferPosition([2,2])
+          autocomplete.attach()
+
+          expect(editorView.find('.autocomplete')).not.toExist()
