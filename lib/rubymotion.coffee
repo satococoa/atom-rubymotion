@@ -1,4 +1,6 @@
 _ = require 'underscore-plus'
+fs = require 'fs'
+pathmod = require 'path'
 RubyMotionAutocompleteView = require './rubymotion-autocomplete-view'
 # FIXME: dirty hack for wrong module path detection on `apm test`
 snippetsModPath = _.find atom.packages.getAvailablePackagePaths(), (path) ->
@@ -17,6 +19,7 @@ module.exports =
   activate: (state) ->
     @editorSubscription = atom.workspaceView.eachEditorView (editor) =>
       if editor.attached
+        @detectRubyMotion(editor)
         @enableAutocomplete(editor)
 
     @collectSnippets (prefixes) =>
@@ -46,6 +49,19 @@ module.exports =
       keys = keys.sort (word1, word2) ->
         word1.toLowerCase().localeCompare(word2.toLowerCase())
       callback keys
+
+  detectRubyMotion: (editor) ->
+    editorPath = editor.getEditor().getPath()
+    ext = pathmod.extname(editorPath)
+    return if ext isnt '.rb'
+    rakefile_path = atom.project.rootDirectory.path + '/Rakefile'
+    fs.readFile rakefile_path, (err, data) ->
+      if !err && data.toString().match /Motion/
+        rbpath = atom.packages.resolvePackagePath('RubyMotion') + '/grammars/rubymotion.cson'
+        grammar = atom.syntax.loadGrammarSync(rbpath)
+        editor.getEditor().setGrammar grammar
+        editor.getEditor().on 'grammar-changed', =>
+          editor.getEditor().setGrammar grammar
 
   lookUpInDash: (editor) ->
     word = editor.getWordUnderCursor(includeNonWordCharacters: false)
