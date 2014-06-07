@@ -595,7 +595,7 @@
     'body': 'CGColorGetPattern(${1:CGColorRef color})'
   'CGColorGetTypeID':
     'prefix': 'CGColorGetTypeID'
-    'body': 'CGColorGetTypeID()'
+    'body': 'CGColorGetTypeID'
   'CGColorRelease':
     'prefix': 'CGColorRelease'
     'body': 'CGColorRelease(${1:CGColorRef color})'
@@ -613,13 +613,13 @@
     'body': 'CGColorSpaceCreateCalibratedRGB(${1:CGFloat* whitePoint}, ${2:CGFloat* blackPoint}, ${3:CGFloat* gamma}, ${4:CGFloat* matrix})'
   'CGColorSpaceCreateDeviceCMYK':
     'prefix': 'CGColorSpaceCreateDeviceCMYK'
-    'body': 'CGColorSpaceCreateDeviceCMYK()'
+    'body': 'CGColorSpaceCreateDeviceCMYK'
   'CGColorSpaceCreateDeviceGray':
     'prefix': 'CGColorSpaceCreateDeviceGray'
-    'body': 'CGColorSpaceCreateDeviceGray()'
+    'body': 'CGColorSpaceCreateDeviceGray'
   'CGColorSpaceCreateDeviceRGB':
     'prefix': 'CGColorSpaceCreateDeviceRGB'
-    'body': 'CGColorSpaceCreateDeviceRGB()'
+    'body': 'CGColorSpaceCreateDeviceRGB'
   'CGColorSpaceCreateICCBased':
     'prefix': 'CGColorSpaceCreateICCBased'
     'body': 'CGColorSpaceCreateICCBased(${1:size_t nComponents}, ${2:CGFloat* range}, ${3:CGDataProviderRef profile}, ${4:CGColorSpaceRef alternate})'
@@ -655,7 +655,7 @@
     'body': 'CGColorSpaceGetNumberOfComponents(${1:CGColorSpaceRef space})'
   'CGColorSpaceGetTypeID':
     'prefix': 'CGColorSpaceGetTypeID'
-    'body': 'CGColorSpaceGetTypeID()'
+    'body': 'CGColorSpaceGetTypeID'
   'CGColorSpaceRelease':
     'prefix': 'CGColorSpaceRelease'
     'body': 'CGColorSpaceRelease(${1:CGColorSpaceRef space})'
@@ -823,7 +823,7 @@
     'body': 'CGContextGetTextPosition(${1:CGContextRef context})'
   'CGContextGetTypeID':
     'prefix': 'CGContextGetTypeID'
-    'body': 'CGContextGetTypeID()'
+    'body': 'CGContextGetTypeID'
   'CGContextGetUserSpaceToDeviceSpaceTransform':
     'prefix': 'CGContextGetUserSpaceToDeviceSpaceTransform'
     'body': 'CGContextGetUserSpaceToDeviceSpaceTransform(${1:CGContextRef context})'
@@ -1033,7 +1033,7 @@
     'body': 'CGDataConsumerCreateWithURL(${1:CFURLRef url})'
   'CGDataConsumerGetTypeID':
     'prefix': 'CGDataConsumerGetTypeID'
-    'body': 'CGDataConsumerGetTypeID()'
+    'body': 'CGDataConsumerGetTypeID'
   'CGDataConsumerRelease':
     'prefix': 'CGDataConsumerRelease'
     'body': 'CGDataConsumerRelease(${1:CGDataConsumerRef consumer})'
@@ -1063,7 +1063,7 @@
     'body': 'CGDataProviderCreateWithURL(${1:CFURLRef url})'
   'CGDataProviderGetTypeID':
     'prefix': 'CGDataProviderGetTypeID'
-    'body': 'CGDataProviderGetTypeID()'
+    'body': 'CGDataProviderGetTypeID'
   'CGDataProviderRelease':
     'prefix': 'CGDataProviderRelease'
     'body': 'CGDataProviderRelease(${1:CGDataProviderRef provider})'
@@ -1144,7 +1144,7 @@
     'body': 'CGFontGetStemV(${1:CGFontRef font})'
   'CGFontGetTypeID':
     'prefix': 'CGFontGetTypeID'
-    'body': 'CGFontGetTypeID()'
+    'body': 'CGFontGetTypeID'
   'CGFontGetUnitsPerEm':
     'prefix': 'CGFontGetUnitsPerEm'
     'body': 'CGFontGetUnitsPerEm(${1:CGFontRef font})'
@@ -1162,7 +1162,7 @@
     'body': 'CGFunctionCreate(${1:void* info}, ${2:size_t domainDimension}, ${3:CGFloat* domain}, ${4:size_t rangeDimension}, ${5:CGFloat* range}, ${6:CGFunctionCallbacks* callbacks})'
   'CGFunctionGetTypeID':
     'prefix': 'CGFunctionGetTypeID'
-    'body': 'CGFunctionGetTypeID()'
+    'body': 'CGFunctionGetTypeID'
   'CGFunctionRelease':
     'prefix': 'CGFunctionRelease'
     'body': 'CGFunctionRelease(${1:CGFunctionRef function})'
@@ -1177,7 +1177,7 @@
     'body': 'CGGradientCreateWithColors(${1:CGColorSpaceRef space}, ${2:CFArrayRef colors}, ${3:CGFloat* locations})'
   'CGGradientGetTypeID':
     'prefix': 'CGGradientGetTypeID'
-    'body': 'CGGradientGetTypeID()'
+    'body': 'CGGradientGetTypeID'
   'CGGradientRelease':
     'prefix': 'CGGradientRelease'
     'body': 'CGGradientRelease(${1:CGGradientRef gradient})'
@@ -1243,7 +1243,7 @@
     'body': 'CGImageGetShouldInterpolate(${1:CGImageRef image})'
   'CGImageGetTypeID':
     'prefix': 'CGImageGetTypeID'
-    'body': 'CGImageGetTypeID()'
+    'body': 'CGImageGetTypeID'
   'CGImageGetWidth':
     'prefix': 'CGImageGetWidth'
     'body': 'CGImageGetWidth(${1:CGImageRef image})'
@@ -1270,7 +1270,7 @@
     'body': 'CGLayerGetSize(${1:CGLayerRef layer})'
   'CGLayerGetTypeID':
     'prefix': 'CGLayerGetTypeID'
-    'body': 'CGLayerGetTypeID()'
+    'body': 'CGLayerGetTypeID'
   'CGLayerRelease':
     'prefix': 'CGLayerRelease'
     'body': 'CGLayerRelease(${1:CGLayerRef layer})'
@@ -1417,7 +1417,7 @@
     'body': 'CGPDFDocumentGetPage(${1:CGPDFDocumentRef document}, ${2:size_t pageNumber})'
   'CGPDFDocumentGetTypeID':
     'prefix': 'CGPDFDocumentGetTypeID'
-    'body': 'CGPDFDocumentGetTypeID()'
+    'body': 'CGPDFDocumentGetTypeID'
   'CGPDFDocumentGetVersion':
     'prefix': 'CGPDFDocumentGetVersion'
     'body': 'CGPDFDocumentGetVersion(${1:CGPDFDocumentRef document}, ${2:int* majorVersion}, ${3:int* minorVersion})'
@@ -1444,7 +1444,7 @@
     'body': 'CGPDFObjectGetValue(${1:CGPDFObjectRef object}, ${2:CGPDFObjectType type}, ${3:void* value})'
   'CGPDFOperatorTableCreate':
     'prefix': 'CGPDFOperatorTableCreate'
-    'body': 'CGPDFOperatorTableCreate()'
+    'body': 'CGPDFOperatorTableCreate'
   'CGPDFOperatorTableRelease':
     'prefix': 'CGPDFOperatorTableRelease'
     'body': 'CGPDFOperatorTableRelease(${1:CGPDFOperatorTableRef table})'
@@ -1474,7 +1474,7 @@
     'body': 'CGPDFPageGetRotationAngle(${1:CGPDFPageRef page})'
   'CGPDFPageGetTypeID':
     'prefix': 'CGPDFPageGetTypeID'
-    'body': 'CGPDFPageGetTypeID()'
+    'body': 'CGPDFPageGetTypeID'
   'CGPDFPageRelease':
     'prefix': 'CGPDFPageRelease'
     'body': 'CGPDFPageRelease(${1:CGPDFPageRef page})'
@@ -1600,7 +1600,7 @@
     'body': 'CGPathCreateCopyByTransformingPath(${1:CGPathRef path}, ${2:CGAffineTransform* transform})'
   'CGPathCreateMutable':
     'prefix': 'CGPathCreateMutable'
-    'body': 'CGPathCreateMutable()'
+    'body': 'CGPathCreateMutable'
   'CGPathCreateMutableCopy':
     'prefix': 'CGPathCreateMutableCopy'
     'body': 'CGPathCreateMutableCopy(${1:CGPathRef path})'
@@ -1630,7 +1630,7 @@
     'body': 'CGPathGetPathBoundingBox(${1:CGPathRef path})'
   'CGPathGetTypeID':
     'prefix': 'CGPathGetTypeID'
-    'body': 'CGPathGetTypeID()'
+    'body': 'CGPathGetTypeID'
   'CGPathIsEmpty':
     'prefix': 'CGPathIsEmpty'
     'body': 'CGPathIsEmpty(${1:CGPathRef path})'
@@ -1651,7 +1651,7 @@
     'body': 'CGPatternCreate(${1:void* info}, ${2:CGRect bounds}, ${3:CGAffineTransform matrix}, ${4:CGFloat xStep}, ${5:CGFloat yStep}, ${6:CGPatternTiling tiling}, ${7:_Bool isColored}, ${8:CGPatternCallbacks* callbacks})'
   'CGPatternGetTypeID':
     'prefix': 'CGPatternGetTypeID'
-    'body': 'CGPatternGetTypeID()'
+    'body': 'CGPatternGetTypeID'
   'CGPatternRelease':
     'prefix': 'CGPatternRelease'
     'body': 'CGPatternRelease(${1:CGPatternRef pattern})'
@@ -1759,7 +1759,7 @@
     'body': 'CGShadingCreateRadial(${1:CGColorSpaceRef space}, ${2:CGPoint start}, ${3:CGFloat startRadius}, ${4:CGPoint end}, ${5:CGFloat endRadius}, ${6:CGFunctionRef function}, ${7:_Bool extendStart}, ${8:_Bool extendEnd})'
   'CGShadingGetTypeID':
     'prefix': 'CGShadingGetTypeID'
-    'body': 'CGShadingGetTypeID()'
+    'body': 'CGShadingGetTypeID'
   'CGShadingRelease':
     'prefix': 'CGShadingRelease'
     'body': 'CGShadingRelease(${1:CGShadingRef shading})'

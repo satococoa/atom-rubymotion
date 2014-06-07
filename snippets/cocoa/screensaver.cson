@@ -11,27 +11,33 @@
   'SSRandomPointForSizeWithinRect':
     'prefix': 'SSRandomPointForSizeWithinRect'
     'body': 'SSRandomPointForSizeWithinRect(${1:NSSize size}, ${2:NSRect rect})'
+  'ScreenSaverDefaults':
+    'prefix': 'ScreenSaverDefaults'
+    'body': 'ScreenSaverDefaults'
   'ScreenSaverDefaults.defaultsForModuleWithName:':
     'prefix': 'defaultsForModuleWithName:'
     'body': 'defaultsForModuleWithName(${1:NSString* inModuleName})'
+  'ScreenSaverView':
+    'prefix': 'ScreenSaverView'
+    'body': 'ScreenSaverView'
   'animateOneFrame':
     'prefix': 'animateOneFrame'
-    'body': 'animateOneFrame()'
+    'body': 'animateOneFrame'
   'animationTimeInterval':
     'prefix': 'animationTimeInterval'
-    'body': 'animationTimeInterval()'
+    'body': 'animationTimeInterval'
   'ScreenSaverView.backingStoreType':
     'prefix': 'backingStoreType'
-    'body': 'backingStoreType()'
+    'body': 'backingStoreType'
   'configureSheet':
     'prefix': 'configureSheet'
-    'body': 'configureSheet()'
+    'body': 'configureSheet'
   'drawRect:':
     'prefix': 'drawRect:'
     'body': 'drawRect(${1:NSRect rect})'
   'hasConfigureSheet':
     'prefix': 'hasConfigureSheet'
-    'body': 'hasConfigureSheet()'
+    'body': 'hasConfigureSheet'
   'initWithFrame:':
     'prefix': 'initWithFrame:'
     'body': 'initWithFrame(${1:NSRect frame})'
@@ -40,19 +46,19 @@
     'body': 'initWithFrame(${1:NSRect frame}, isPreview:${2:BOOL isPreview})'
   'isAnimating':
     'prefix': 'isAnimating'
-    'body': 'isAnimating()'
+    'body': 'isAnimating'
   'isPreview':
     'prefix': 'isPreview'
-    'body': 'isPreview()'
+    'body': 'isPreview'
   'ScreenSaverView.performGammaFade':
     'prefix': 'performGammaFade'
-    'body': 'performGammaFade()'
+    'body': 'performGammaFade'
   'setAnimationTimeInterval:':
     'prefix': 'setAnimationTimeInterval:'
     'body': 'setAnimationTimeInterval(${1:NSTimeInterval timeInterval})'
   'startAnimation':
     'prefix': 'startAnimation'
-    'body': 'startAnimation()'
+    'body': 'startAnimation'
   'stopAnimation':
     'prefix': 'stopAnimation'
-    'body': 'stopAnimation()'
+    'body': 'stopAnimation'

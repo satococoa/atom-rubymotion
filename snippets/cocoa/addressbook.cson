@@ -619,7 +619,7 @@
     'body': 'ABGetMe(${1:ABAddressBookRef addressBook})'
   'ABGetSharedAddressBook':
     'prefix': 'ABGetSharedAddressBook'
-    'body': 'ABGetSharedAddressBook()'
+    'body': 'ABGetSharedAddressBook'
   'ABGroupAddGroup':
     'prefix': 'ABGroupAddGroup'
     'body': 'ABGroupAddGroup(${1:ABGroupRef group}, ${2:ABGroupRef groupToAdd})'
@@ -640,7 +640,7 @@
     'body': 'ABGroupCopyParentGroups(${1:ABGroupRef group})'
   'ABGroupCreate':
     'prefix': 'ABGroupCreate'
-    'body': 'ABGroupCreate()'
+    'body': 'ABGroupCreate'
   'ABGroupCreateSearchElement':
     'prefix': 'ABGroupCreateSearchElement'
     'body': 'ABGroupCreateSearchElement(${1:CFStringRef property}, ${2:CFStringRef label}, ${3:CFStringRef key}, ${4:CFTypeRef value}, ${5:ABSearchComparison comparison})'
@@ -679,13 +679,13 @@
     'body': 'ABMultiValueCount(${1:ABMultiValueRef multiValue})'
   'ABMultiValueCreate':
     'prefix': 'ABMultiValueCreate'
-    'body': 'ABMultiValueCreate()'
+    'body': 'ABMultiValueCreate'
   'ABMultiValueCreateCopy':
     'prefix': 'ABMultiValueCreateCopy'
     'body': 'ABMultiValueCreateCopy(${1:ABMultiValueRef multiValue})'
   'ABMultiValueCreateMutable':
     'prefix': 'ABMultiValueCreateMutable'
-    'body': 'ABMultiValueCreateMutable()'
+    'body': 'ABMultiValueCreateMutable'
   'ABMultiValueCreateMutableCopy':
     'prefix': 'ABMultiValueCreateMutableCopy'
     'body': 'ABMultiValueCreateMutableCopy(${1:ABMultiValueRef multiValue})'
@@ -721,7 +721,7 @@
     'body': 'ABPersonCopyVCardRepresentation(${1:ABPersonRef person})'
   'ABPersonCreate':
     'prefix': 'ABPersonCreate'
-    'body': 'ABPersonCreate()'
+    'body': 'ABPersonCreate'
   'ABPersonCreateSearchElement':
     'prefix': 'ABPersonCreateSearchElement'
     'body': 'ABPersonCreateSearchElement(${1:CFStringRef property}, ${2:CFStringRef label}, ${3:CFStringRef key}, ${4:CFTypeRef value}, ${5:ABSearchComparison comparison})'
@@ -763,7 +763,7 @@
     'body': 'ABPickerCopySelectedValues(${1:ABPickerRef inPicker})'
   'ABPickerCreate':
     'prefix': 'ABPickerCreate'
-    'body': 'ABPickerCreate()'
+    'body': 'ABPickerCreate'
   'ABPickerDeselectAll':
     'prefix': 'ABPickerDeselectAll'
     'body': 'ABPickerDeselectAll(${1:ABPickerRef inPicker})'
@@ -863,6 +863,9 @@
   'ABTypeOfProperty':
     'prefix': 'ABTypeOfProperty'
     'body': 'ABTypeOfProperty(${1:ABAddressBookRef addressBook}, ${2:CFStringRef recordType}, ${3:CFStringRef property})'
+  'ABAddressBook':
+    'prefix': 'ABAddressBook'
+    'body': 'ABAddressBook'
   'addRecord:':
     'prefix': 'addRecord:'
     'body': 'addRecord(${1:ABRecord* record})'
@@ -871,28 +874,28 @@
     'body': 'addRecord(${1:ABRecord* record}, error:${2:NSError** error})'
   'ABAddressBook.addressBook':
     'prefix': 'addressBook'
-    'body': 'addressBook()'
+    'body': 'addressBook'
   'defaultCountryCode':
     'prefix': 'defaultCountryCode'
-    'body': 'defaultCountryCode()'
+    'body': 'defaultCountryCode'
   'defaultNameOrdering':
     'prefix': 'defaultNameOrdering'
-    'body': 'defaultNameOrdering()'
+    'body': 'defaultNameOrdering'
   'formattedAddressFromDictionary:':
     'prefix': 'formattedAddressFromDictionary:'
     'body': 'formattedAddressFromDictionary(${1:NSDictionary* address})'
   'groups':
     'prefix': 'groups'
-    'body': 'groups()'
+    'body': 'groups'
   'hasUnsavedChanges':
     'prefix': 'hasUnsavedChanges'
-    'body': 'hasUnsavedChanges()'
+    'body': 'hasUnsavedChanges'
   'me':
     'prefix': 'me'
-    'body': 'me()'
+    'body': 'me'
   'people':
     'prefix': 'people'
-    'body': 'people()'
+    'body': 'people'
   'recordClassFromUniqueId:':
     'prefix': 'recordClassFromUniqueId:'
     'body': 'recordClassFromUniqueId(${1:NSString* uniqueId})'
@@ -910,7 +913,7 @@
     'body': 'removeRecord(${1:ABRecord* record}, error:${2:NSError** error})'
   'save':
     'prefix': 'save'
-    'body': 'save()'
+    'body': 'save'
   'saveAndReturnError:':
     'prefix': 'saveAndReturnError:'
     'body': 'saveAndReturnError(${1:NSError** error})'
@@ -919,7 +922,10 @@
     'body': 'setMe(${1:ABPerson* moi})'
   'ABAddressBook.sharedAddressBook':
     'prefix': 'sharedAddressBook'
-    'body': 'sharedAddressBook()'
+    'body': 'sharedAddressBook'
+  'ABGroup':
+    'prefix': 'ABGroup'
+    'body': 'ABGroup'
   'addMember:':
     'prefix': 'addMember:'
     'body': 'addMember(${1:ABPerson* person})'
@@ -934,13 +940,13 @@
     'body': 'distributionIdentifierForProperty(${1:NSString* property}, person:${2:ABPerson* person})'
   'members':
     'prefix': 'members'
-    'body': 'members()'
+    'body': 'members'
   'parentGroups':
     'prefix': 'parentGroups'
-    'body': 'parentGroups()'
+    'body': 'parentGroups'
   'ABGroup.properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'removeMember:':
     'prefix': 'removeMember:'
     'body': 'removeMember(${1:ABPerson* person})'
@@ -958,13 +964,16 @@
     'body': 'setDistributionIdentifier(${1:NSString* identifier}, forProperty:${2:NSString* property}, person:${3:ABPerson* person})'
   'subgroups':
     'prefix': 'subgroups'
-    'body': 'subgroups()'
+    'body': 'subgroups'
   'ABGroup.typeOfProperty:':
     'prefix': 'typeOfProperty:'
     'body': 'typeOfProperty(${1:NSString* property})'
+  'ABMultiValue':
+    'prefix': 'ABMultiValue'
+    'body': 'ABMultiValue'
   'count':
     'prefix': 'count'
-    'body': 'count()'
+    'body': 'count'
   'identifierAtIndex:':
     'prefix': 'identifierAtIndex:'
     'body': 'identifierAtIndex(${1:NSUInteger index})'
@@ -979,16 +988,19 @@
     'body': 'labelForIdentifier(${1:NSString* identifier})'
   'primaryIdentifier':
     'prefix': 'primaryIdentifier'
-    'body': 'primaryIdentifier()'
+    'body': 'primaryIdentifier'
   'propertyType':
     'prefix': 'propertyType'
-    'body': 'propertyType()'
+    'body': 'propertyType'
   'valueAtIndex:':
     'prefix': 'valueAtIndex:'
     'body': 'valueAtIndex(${1:NSUInteger index})'
   'valueForIdentifier:':
     'prefix': 'valueForIdentifier:'
     'body': 'valueForIdentifier(${1:NSString* identifier})'
+  'ABMutableMultiValue':
+    'prefix': 'ABMutableMultiValue'
+    'body': 'ABMutableMultiValue'
   'addValue:withLabel:':
     'prefix': 'addValue:withLabel:'
     'body': 'addValue(${1:id value}, withLabel:${2:NSString* label})'
@@ -1007,21 +1019,24 @@
   'setPrimaryIdentifier:':
     'prefix': 'setPrimaryIdentifier:'
     'body': 'setPrimaryIdentifier(${1:NSString* identifier})'
+  'ABPeoplePickerView':
+    'prefix': 'ABPeoplePickerView'
+    'body': 'ABPeoplePickerView'
   'accessoryView':
     'prefix': 'accessoryView'
-    'body': 'accessoryView()'
+    'body': 'accessoryView'
   'addProperty:':
     'prefix': 'addProperty:'
     'body': 'addProperty(${1:NSString* property})'
   'allowsGroupSelection':
     'prefix': 'allowsGroupSelection'
-    'body': 'allowsGroupSelection()'
+    'body': 'allowsGroupSelection'
   'allowsMultipleSelection':
     'prefix': 'allowsMultipleSelection'
-    'body': 'allowsMultipleSelection()'
+    'body': 'allowsMultipleSelection'
   'autosaveName':
     'prefix': 'autosaveName'
-    'body': 'autosaveName()'
+    'body': 'autosaveName'
   'clearSearchField:':
     'prefix': 'clearSearchField:'
     'body': 'clearSearchField(${1:id sender})'
@@ -1042,19 +1057,19 @@
     'body': 'deselectRecord(${1:ABRecord* record})'
   'displayedProperty':
     'prefix': 'displayedProperty'
-    'body': 'displayedProperty()'
+    'body': 'displayedProperty'
   'editInAddressBook:':
     'prefix': 'editInAddressBook:'
     'body': 'editInAddressBook(${1:id sender})'
   'groupDoubleAction':
     'prefix': 'groupDoubleAction'
-    'body': 'groupDoubleAction()'
+    'body': 'groupDoubleAction'
   'nameDoubleAction':
     'prefix': 'nameDoubleAction'
-    'body': 'nameDoubleAction()'
+    'body': 'nameDoubleAction'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'removeProperty:':
     'prefix': 'removeProperty:'
     'body': 'removeProperty(${1:NSString* property})'
@@ -1072,16 +1087,16 @@
     'body': 'selectRecord(${1:ABRecord* record}, byExtendingSelection:${2:BOOL extend})'
   'selectedGroups':
     'prefix': 'selectedGroups'
-    'body': 'selectedGroups()'
+    'body': 'selectedGroups'
   'selectedIdentifiersForPerson:':
     'prefix': 'selectedIdentifiersForPerson:'
     'body': 'selectedIdentifiersForPerson(${1:ABPerson* person})'
   'selectedRecords':
     'prefix': 'selectedRecords'
-    'body': 'selectedRecords()'
+    'body': 'selectedRecords'
   'selectedValues':
     'prefix': 'selectedValues'
-    'body': 'selectedValues()'
+    'body': 'selectedValues'
   'setAccessoryView:':
     'prefix': 'setAccessoryView:'
     'body': 'setAccessoryView(${1:NSView* accessoryView})'
@@ -1114,10 +1129,13 @@
     'body': 'setValueSelectionBehavior(${1:ABPeoplePickerSelectionBehavior valueSelectionBehavior})'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
   'valueSelectionBehavior':
     'prefix': 'valueSelectionBehavior'
-    'body': 'valueSelectionBehavior()'
+    'body': 'valueSelectionBehavior'
+  'ABPerson':
+    'prefix': 'ABPerson'
+    'body': 'ABPerson'
   'ABPerson.addPropertiesAndTypes:':
     'prefix': 'addPropertiesAndTypes:'
     'body': 'addPropertiesAndTypes(${1:NSDictionary* properties})'
@@ -1129,19 +1147,19 @@
     'body': 'cancelLoadingImageDataForTag(${1:NSInteger tag})'
   'imageData':
     'prefix': 'imageData'
-    'body': 'imageData()'
+    'body': 'imageData'
   'initWithVCardRepresentation:':
     'prefix': 'initWithVCardRepresentation:'
     'body': 'initWithVCardRepresentation(${1:NSData* vCardData})'
   'linkedPeople':
     'prefix': 'linkedPeople'
-    'body': 'linkedPeople()'
+    'body': 'linkedPeople'
   'parentGroups':
     'prefix': 'parentGroups'
-    'body': 'parentGroups()'
+    'body': 'parentGroups'
   'ABPerson.properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'ABPerson.removeProperties:':
     'prefix': 'removeProperties:'
     'body': 'removeProperties(${1:NSArray* properties})'
@@ -1156,16 +1174,19 @@
     'body': 'typeOfProperty(${1:NSString* property})'
   'vCardRepresentation':
     'prefix': 'vCardRepresentation'
-    'body': 'vCardRepresentation()'
+    'body': 'vCardRepresentation'
+  'ABPersonPicker':
+    'prefix': 'ABPersonPicker'
+    'body': 'ABPersonPicker'
   'close':
     'prefix': 'close'
-    'body': 'close()'
+    'body': 'close'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1: delegate})'
@@ -1175,12 +1196,15 @@
   'showRelativeToRect:ofView:preferredEdge:':
     'prefix': 'showRelativeToRect:ofView:preferredEdge:'
     'body': 'showRelativeToRect(${1: positioningRect}, ofView:${2: positioningView}, preferredEdge:${3: preferredEdge})'
+  'ABPersonView':
+    'prefix': 'ABPersonView'
+    'body': 'ABPersonView'
   'editing':
     'prefix': 'editing'
-    'body': 'editing()'
+    'body': 'editing'
   'person':
     'prefix': 'person'
-    'body': 'person()'
+    'body': 'person'
   'setEditing:':
     'prefix': 'setEditing:'
     'body': 'setEditing(${1:BOOL editing})'
@@ -1192,16 +1216,19 @@
     'body': 'setShouldShowLinkedPeople(${1:BOOL shouldShowLinkedPeople})'
   'shouldShowLinkedPeople':
     'prefix': 'shouldShowLinkedPeople'
-    'body': 'shouldShowLinkedPeople()'
+    'body': 'shouldShowLinkedPeople'
+  'ABRecord':
+    'prefix': 'ABRecord'
+    'body': 'ABRecord'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithAddressBook:':
     'prefix': 'initWithAddressBook:'
     'body': 'initWithAddressBook(${1:ABAddressBook* addressBook})'
   'isReadOnly':
     'prefix': 'isReadOnly'
-    'body': 'isReadOnly()'
+    'body': 'isReadOnly'
   'removeValueForProperty:':
     'prefix': 'removeValueForProperty:'
     'body': 'removeValueForProperty(${1:NSString* property})'
@@ -1213,19 +1240,25 @@
     'body': 'setValue(${1:id value}, forProperty:${2:NSString* property}, error:${3:NSError** error})'
   'uniqueId':
     'prefix': 'uniqueId'
-    'body': 'uniqueId()'
+    'body': 'uniqueId'
   'valueForProperty:':
     'prefix': 'valueForProperty:'
     'body': 'valueForProperty(${1:NSString* property})'
+  'ABSearchElement':
+    'prefix': 'ABSearchElement'
+    'body': 'ABSearchElement'
   'matchesRecord:':
     'prefix': 'matchesRecord:'
     'body': 'matchesRecord(${1:ABRecord* record})'
   'ABSearchElement.searchElementForConjunction:children:':
     'prefix': 'searchElementForConjunction:children:'
     'body': 'searchElementForConjunction(${1:ABSearchConjunction conjuction}, children:${2:NSArray* children})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'actionProperty':
     'prefix': 'actionProperty'
-    'body': 'actionProperty()'
+    'body': 'actionProperty'
   'consumeImageData:forTag:':
     'prefix': 'consumeImageData:forTag:'
     'body': 'consumeImageData(${1:NSData* data}, forTag:${2:NSInteger tag})'
@@ -1244,9 +1277,12 @@
   'titleForPerson:identifier:':
     'prefix': 'titleForPerson:identifier:'
     'body': 'titleForPerson(${1:ABPerson* person}, identifier:${2:NSString* identifier})'
+  'ABActionDelegate':
+    'prefix': 'ABActionDelegate'
+    'body': 'ABActionDelegate'
   'actionProperty':
     'prefix': 'actionProperty'
-    'body': 'actionProperty()'
+    'body': 'actionProperty'
   'performActionForPerson:identifier:':
     'prefix': 'performActionForPerson:identifier:'
     'body': 'performActionForPerson(${1:ABPerson* person}, identifier:${2:NSString* identifier})'
@@ -1256,9 +1292,15 @@
   'titleForPerson:identifier:':
     'prefix': 'titleForPerson:identifier:'
     'body': 'titleForPerson(${1:ABPerson* person}, identifier:${2:NSString* identifier})'
+  'ABImageClient':
+    'prefix': 'ABImageClient'
+    'body': 'ABImageClient'
   'consumeImageData:forTag:':
     'prefix': 'consumeImageData:forTag:'
     'body': 'consumeImageData(${1:NSData* data}, forTag:${2:NSInteger tag})'
+  'ABPersonPickerDelegate':
+    'prefix': 'ABPersonPickerDelegate'
+    'body': 'ABPersonPickerDelegate'
   'personPicker:didChoosePerson:property:identifier:':
     'prefix': 'personPicker:didChoosePerson:property:identifier:'
     'body': 'personPicker(${1:ABPersonPicker* picker}, didChoosePerson:${2:ABPerson* person}, property:${3:NSString* property}, identifier:${4:NSString* identifier})'

@@ -1489,7 +1489,7 @@
     'body': 'TclAdvanceLines(${1:int* line}, ${2:char* start}, ${3:char* end})'
   'TclAllocateFreeObjects':
     'prefix': 'TclAllocateFreeObjects'
-    'body': 'TclAllocateFreeObjects()'
+    'body': 'TclAllocateFreeObjects'
   'TclAndOpCmd':
     'prefix': 'TclAndOpCmd'
     'body': 'TclAndOpCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
@@ -1522,7 +1522,7 @@
     'body': 'TclBNInitBignumFromWideUInt(${1:mp_int* bignum}, ${2:Tcl_WideUInt initVal})'
   'TclBN_epoch':
     'prefix': 'TclBN_epoch'
-    'body': 'TclBN_epoch()'
+    'body': 'TclBN_epoch'
   'TclBN_fast_s_mp_mul_digs':
     'prefix': 'TclBN_fast_s_mp_mul_digs'
     'body': 'TclBN_fast_s_mp_mul_digs(${1:mp_int* a}, ${2:mp_int* b}, ${3:mp_int* c}, ${4:int digs})'
@@ -1690,7 +1690,7 @@
     'body': 'TclBN_reverse(${1:unsigned char* s}, ${2:int len})'
   'TclBN_revision':
     'prefix': 'TclBN_revision'
-    'body': 'TclBN_revision()'
+    'body': 'TclBN_revision'
   'TclBN_s_mp_add':
     'prefix': 'TclBN_s_mp_add'
     'body': 'TclBN_s_mp_add(${1:mp_int* a}, ${2:mp_int* b}, ${3:mp_int* c})'
@@ -2104,64 +2104,64 @@
     'body': 'TclFileRenameCmd(${1:Tcl_Interp* interp}, ${2:int objc}, ${3:Tcl_Obj ** objv})'
   'TclFinalizeAllocSubsystem':
     'prefix': 'TclFinalizeAllocSubsystem'
-    'body': 'TclFinalizeAllocSubsystem()'
+    'body': 'TclFinalizeAllocSubsystem'
   'TclFinalizeAsync':
     'prefix': 'TclFinalizeAsync'
-    'body': 'TclFinalizeAsync()'
+    'body': 'TclFinalizeAsync'
   'TclFinalizeAuxDataTypeTable':
     'prefix': 'TclFinalizeAuxDataTypeTable'
-    'body': 'TclFinalizeAuxDataTypeTable()'
+    'body': 'TclFinalizeAuxDataTypeTable'
   'TclFinalizeDoubleConversion':
     'prefix': 'TclFinalizeDoubleConversion'
-    'body': 'TclFinalizeDoubleConversion()'
+    'body': 'TclFinalizeDoubleConversion'
   'TclFinalizeEncodingSubsystem':
     'prefix': 'TclFinalizeEncodingSubsystem'
-    'body': 'TclFinalizeEncodingSubsystem()'
+    'body': 'TclFinalizeEncodingSubsystem'
   'TclFinalizeEnvironment':
     'prefix': 'TclFinalizeEnvironment'
-    'body': 'TclFinalizeEnvironment()'
+    'body': 'TclFinalizeEnvironment'
   'TclFinalizeExecution':
     'prefix': 'TclFinalizeExecution'
-    'body': 'TclFinalizeExecution()'
+    'body': 'TclFinalizeExecution'
   'TclFinalizeFilesystem':
     'prefix': 'TclFinalizeFilesystem'
-    'body': 'TclFinalizeFilesystem()'
+    'body': 'TclFinalizeFilesystem'
   'TclFinalizeIOSubsystem':
     'prefix': 'TclFinalizeIOSubsystem'
-    'body': 'TclFinalizeIOSubsystem()'
+    'body': 'TclFinalizeIOSubsystem'
   'TclFinalizeLoad':
     'prefix': 'TclFinalizeLoad'
-    'body': 'TclFinalizeLoad()'
+    'body': 'TclFinalizeLoad'
   'TclFinalizeLock':
     'prefix': 'TclFinalizeLock'
-    'body': 'TclFinalizeLock()'
+    'body': 'TclFinalizeLock'
   'TclFinalizeMemorySubsystem':
     'prefix': 'TclFinalizeMemorySubsystem'
-    'body': 'TclFinalizeMemorySubsystem()'
+    'body': 'TclFinalizeMemorySubsystem'
   'TclFinalizeNotifier':
     'prefix': 'TclFinalizeNotifier'
-    'body': 'TclFinalizeNotifier()'
+    'body': 'TclFinalizeNotifier'
   'TclFinalizeObjects':
     'prefix': 'TclFinalizeObjects'
-    'body': 'TclFinalizeObjects()'
+    'body': 'TclFinalizeObjects'
   'TclFinalizePreserve':
     'prefix': 'TclFinalizePreserve'
-    'body': 'TclFinalizePreserve()'
+    'body': 'TclFinalizePreserve'
   'TclFinalizeSynchronization':
     'prefix': 'TclFinalizeSynchronization'
-    'body': 'TclFinalizeSynchronization()'
+    'body': 'TclFinalizeSynchronization'
   'TclFinalizeThreadAlloc':
     'prefix': 'TclFinalizeThreadAlloc'
-    'body': 'TclFinalizeThreadAlloc()'
+    'body': 'TclFinalizeThreadAlloc'
   'TclFinalizeThreadData':
     'prefix': 'TclFinalizeThreadData'
-    'body': 'TclFinalizeThreadData()'
+    'body': 'TclFinalizeThreadData'
   'TclFinalizeThreadObjects':
     'prefix': 'TclFinalizeThreadObjects'
-    'body': 'TclFinalizeThreadObjects()'
+    'body': 'TclFinalizeThreadObjects'
   'TclFinalizeThreadStorage':
     'prefix': 'TclFinalizeThreadStorage'
-    'body': 'TclFinalizeThreadStorage()'
+    'body': 'TclFinalizeThreadStorage'
   'TclFindCompiledLocal':
     'prefix': 'TclFindCompiledLocal'
     'body': 'TclFindCompiledLocal(${1:char* name}, ${2:int nameChars}, ${3:int create}, ${4:Proc* procPtr})'
@@ -2206,7 +2206,7 @@
     'body': 'TclGetAndDetachPids(${1:Tcl_Interp* interp}, ${2:Tcl_Channel chan})'
   'TclGetAsyncReadyPtr':
     'prefix': 'TclGetAsyncReadyPtr'
-    'body': 'TclGetAsyncReadyPtr()'
+    'body': 'TclGetAsyncReadyPtr'
   'TclGetAuxDataType':
     'prefix': 'TclGetAuxDataType'
     'body': 'TclGetAuxDataType(${1:char* typeName})'
@@ -2230,13 +2230,13 @@
     'body': 'TclGetFrame(${1:Tcl_Interp* interp}, ${2:char* str}, ${3:CallFrame** framePtrPtr})'
   'TclGetInstructionTable':
     'prefix': 'TclGetInstructionTable'
-    'body': 'TclGetInstructionTable()'
+    'body': 'TclGetInstructionTable'
   'TclGetIntForIndex':
     'prefix': 'TclGetIntForIndex'
     'body': 'TclGetIntForIndex(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* objPtr}, ${3:int endValue}, ${4:int* indexPtr})'
   'TclGetLibraryPath':
     'prefix': 'TclGetLibraryPath'
-    'body': 'TclGetLibraryPath()'
+    'body': 'TclGetLibraryPath'
   'TclGetLoadedPackages':
     'prefix': 'TclGetLoadedPackages'
     'body': 'TclGetLoadedPackages(${1:Tcl_Interp* interp}, ${2:char* targetName})'
@@ -2254,10 +2254,10 @@
     'body': 'TclGetNumberFromObj(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* objPtr}, ${3:ClientData* clientDataPtr}, ${4:int* typePtr})'
   'TclGetObjInterpProc':
     'prefix': 'TclGetObjInterpProc'
-    'body': 'TclGetObjInterpProc()'
+    'body': 'TclGetObjInterpProc'
   'TclGetObjNameOfExecutable':
     'prefix': 'TclGetObjNameOfExecutable'
-    'body': 'TclGetObjNameOfExecutable()'
+    'body': 'TclGetObjNameOfExecutable'
   'TclGetOpenMode':
     'prefix': 'TclGetOpenMode'
     'body': 'TclGetOpenMode(${1:Tcl_Interp* interp}, ${2:char* str}, ${3:int* seekFlagPtr})'
@@ -2269,7 +2269,7 @@
     'body': 'TclGetOriginalCommand(${1:Tcl_Command command})'
   'TclGetPlatform':
     'prefix': 'TclGetPlatform'
-    'body': 'TclGetPlatform()'
+    'body': 'TclGetPlatform'
   'TclGetProcessGlobalValue':
     'prefix': 'TclGetProcessGlobalValue'
     'body': 'TclGetProcessGlobalValue(${1:ProcessGlobalValue* pgvPtr})'
@@ -2281,10 +2281,10 @@
     'body': 'TclGetSrcInfoForPc(${1:CmdFrame* contextPtr})'
   'TclGetStartupScriptFileName':
     'prefix': 'TclGetStartupScriptFileName'
-    'body': 'TclGetStartupScriptFileName()'
+    'body': 'TclGetStartupScriptFileName'
   'TclGetStartupScriptPath':
     'prefix': 'TclGetStartupScriptPath'
-    'body': 'TclGetStartupScriptPath()'
+    'body': 'TclGetStartupScriptPath'
   'TclGlob':
     'prefix': 'TclGlob'
     'body': 'TclGlob(${1:Tcl_Interp* interp}, ${2:char* pattern}, ${3:Tcl_Obj* unquotedPrefix}, ${4:int globFlags}, ${5:Tcl_GlobTypeData* types})'
@@ -2317,13 +2317,13 @@
     'body': 'TclHideUnsafeCommands(${1:Tcl_Interp* interp})'
   'TclInExit':
     'prefix': 'TclInExit'
-    'body': 'TclInExit()'
+    'body': 'TclInExit'
   'TclInOpCmd':
     'prefix': 'TclInOpCmd'
     'body': 'TclInOpCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
   'TclInThreadExit':
     'prefix': 'TclInThreadExit'
-    'body': 'TclInThreadExit()'
+    'body': 'TclInThreadExit'
   'TclIncrObj':
     'prefix': 'TclIncrObj'
     'body': 'TclIncrObj(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* valuePtr}, ${3:Tcl_Obj* incrPtr})'
@@ -2347,10 +2347,10 @@
     'body': 'TclInfoVarsCmd(${1:ClientData dummy}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
   'TclInitAlloc':
     'prefix': 'TclInitAlloc'
-    'body': 'TclInitAlloc()'
+    'body': 'TclInitAlloc'
   'TclInitAuxDataTypeTable':
     'prefix': 'TclInitAuxDataTypeTable'
-    'body': 'TclInitAuxDataTypeTable()'
+    'body': 'TclInitAuxDataTypeTable'
   'TclInitByteCodeObj':
     'prefix': 'TclInitByteCodeObj'
     'body': 'TclInitByteCodeObj(${1:Tcl_Obj* objPtr}, ${2:CompileEnv* envPtr})'
@@ -2359,7 +2359,7 @@
     'body': 'TclInitChanCmd(${1:Tcl_Interp* interp})'
   'TclInitCompilation':
     'prefix': 'TclInitCompilation'
-    'body': 'TclInitCompilation()'
+    'body': 'TclInitCompilation'
   'TclInitCompileEnv':
     'prefix': 'TclInitCompileEnv'
     'body': 'TclInitCompileEnv(${1:Tcl_Interp* interp}, ${2:CompileEnv* envPtr}, ${3:char* string}, ${4:int numBytes}, ${5:CmdFrame* invoker}, ${6:int word})'
@@ -2368,22 +2368,22 @@
     'body': 'TclInitCompiledLocals(${1:Tcl_Interp* interp}, ${2:CallFrame* framePtr}, ${3:Namespace* nsPtr})'
   'TclInitDbCkalloc':
     'prefix': 'TclInitDbCkalloc'
-    'body': 'TclInitDbCkalloc()'
+    'body': 'TclInitDbCkalloc'
   'TclInitDictCmd':
     'prefix': 'TclInitDictCmd'
     'body': 'TclInitDictCmd(${1:Tcl_Interp* interp})'
   'TclInitDoubleConversion':
     'prefix': 'TclInitDoubleConversion'
-    'body': 'TclInitDoubleConversion()'
+    'body': 'TclInitDoubleConversion'
   'TclInitEmbeddedConfigurationInformation':
     'prefix': 'TclInitEmbeddedConfigurationInformation'
     'body': 'TclInitEmbeddedConfigurationInformation(${1:Tcl_Interp* interp})'
   'TclInitEncodingSubsystem':
     'prefix': 'TclInitEncodingSubsystem'
-    'body': 'TclInitEncodingSubsystem()'
+    'body': 'TclInitEncodingSubsystem'
   'TclInitIOSubsystem':
     'prefix': 'TclInitIOSubsystem'
-    'body': 'TclInitIOSubsystem()'
+    'body': 'TclInitIOSubsystem'
   'TclInitInfoCmd':
     'prefix': 'TclInitInfoCmd'
     'body': 'TclInitInfoCmd(${1:Tcl_Interp* interp})'
@@ -2398,22 +2398,22 @@
     'body': 'TclInitLiteralTable(${1:LiteralTable* tablePtr})'
   'TclInitNamespaceSubsystem':
     'prefix': 'TclInitNamespaceSubsystem'
-    'body': 'TclInitNamespaceSubsystem()'
+    'body': 'TclInitNamespaceSubsystem'
   'TclInitNotifier':
     'prefix': 'TclInitNotifier'
-    'body': 'TclInitNotifier()'
+    'body': 'TclInitNotifier'
   'TclInitObjSubsystem':
     'prefix': 'TclInitObjSubsystem'
-    'body': 'TclInitObjSubsystem()'
+    'body': 'TclInitObjSubsystem'
   'TclInitStringCmd':
     'prefix': 'TclInitStringCmd'
     'body': 'TclInitStringCmd(${1:Tcl_Interp* interp})'
   'TclInitSubsystems':
     'prefix': 'TclInitSubsystems'
-    'body': 'TclInitSubsystems()'
+    'body': 'TclInitSubsystems'
   'TclInitThreadStorage':
     'prefix': 'TclInitThreadStorage'
-    'body': 'TclInitThreadStorage()'
+    'body': 'TclInitThreadStorage'
   'TclInitVarHashTable':
     'prefix': 'TclInitVarHashTable'
     'body': 'TclInitVarHashTable(${1:TclVarHashTable* tablePtr}, ${2:Namespace* nsPtr})'
@@ -2530,7 +2530,7 @@
     'body': 'TclNoIdentOpCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
   'TclNokia770Doubles':
     'prefix': 'TclNokia770Doubles'
-    'body': 'TclNokia770Doubles()'
+    'body': 'TclNokia770Doubles'
   'TclNotOpCmd':
     'prefix': 'TclNotOpCmd'
     'body': 'TclNotOpCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
@@ -2680,7 +2680,7 @@
     'body': 'TclRenameCommand(${1:Tcl_Interp* interp}, ${2:char* oldName}, ${3:char* newName})'
   'TclResetFilesystem':
     'prefix': 'TclResetFilesystem'
-    'body': 'TclResetFilesystem()'
+    'body': 'TclResetFilesystem'
   'TclResetShadowedCmdRefs':
     'prefix': 'TclResetShadowedCmdRefs'
     'body': 'TclResetShadowedCmdRefs(${1:Tcl_Interp* interp}, ${2:Command* newCmdPtr})'
@@ -2689,7 +2689,7 @@
     'body': 'TclRshiftOpCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
   'TclServiceIdle':
     'prefix': 'TclServiceIdle'
-    'body': 'TclServiceIdle()'
+    'body': 'TclServiceIdle'
   'TclSetBgErrorHandler':
     'prefix': 'TclSetBgErrorHandler'
     'body': 'TclSetBgErrorHandler(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* cmdPrefix})'
@@ -2845,7 +2845,7 @@
     'body': 'Tcl_Alloc(${1:unsigned int size})'
   'Tcl_AllocStatBuf':
     'prefix': 'Tcl_AllocStatBuf'
-    'body': 'Tcl_AllocStatBuf()'
+    'body': 'Tcl_AllocStatBuf'
   'Tcl_AllowExceptions':
     'prefix': 'Tcl_AllowExceptions'
     'body': 'Tcl_AllowExceptions(${1:Tcl_Interp* interp})'
@@ -2917,7 +2917,7 @@
     'body': 'Tcl_AsyncMark(${1:Tcl_AsyncHandler async})'
   'Tcl_AsyncReady':
     'prefix': 'Tcl_AsyncReady'
-    'body': 'Tcl_AsyncReady()'
+    'body': 'Tcl_AsyncReady'
   'Tcl_AttemptAlloc':
     'prefix': 'Tcl_AttemptAlloc'
     'body': 'Tcl_AttemptAlloc(${1:unsigned int size})'
@@ -3103,7 +3103,7 @@
     'body': 'Tcl_CreateHashEntry(${1:Tcl_HashTable* tablePtr}, ${2:char* key}, ${3:int* newPtr})'
   'Tcl_CreateInterp':
     'prefix': 'Tcl_CreateInterp'
-    'body': 'Tcl_CreateInterp()'
+    'body': 'Tcl_CreateInterp'
   'Tcl_CreateMathFunc':
     'prefix': 'Tcl_CreateMathFunc'
     'body': 'Tcl_CreateMathFunc(${1:Tcl_Interp* interp}, ${2:char* name}, ${3:int numArgs}, ${4:Tcl_ValueType* argTypes}, ${5:Tcl_MathProc* proc}, ${6:ClientData clientData})'
@@ -3328,7 +3328,7 @@
     'body': 'Tcl_EofObjCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
   'Tcl_ErrnoId':
     'prefix': 'Tcl_ErrnoId'
-    'body': 'Tcl_ErrnoId()'
+    'body': 'Tcl_ErrnoId'
   'Tcl_ErrnoMsg':
     'prefix': 'Tcl_ErrnoMsg'
     'body': 'Tcl_ErrnoMsg(${1:int err})'
@@ -3496,7 +3496,7 @@
     'body': 'Tcl_FSLink(${1:Tcl_Obj* pathPtr}, ${2:Tcl_Obj* toPtr}, ${3:int linkAction})'
   'Tcl_FSListVolumes':
     'prefix': 'Tcl_FSListVolumes'
-    'body': 'Tcl_FSListVolumes()'
+    'body': 'Tcl_FSListVolumes'
   'Tcl_FSLoadFile':
     'prefix': 'Tcl_FSLoadFile'
     'body': 'Tcl_FSLoadFile(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* pathPtr}, ${3:char* sym1}, ${4:char* sym2}, ${5:Tcl_PackageInitProc** proc1Ptr}, ${6:Tcl_PackageInitProc** proc2Ptr}, ${7:Tcl_LoadHandle* handlePtr}, ${8:Tcl_FSUnloadFileProc** unloadProcPtr})'
@@ -3556,13 +3556,13 @@
     'body': 'Tcl_FileObjCmd(${1:ClientData dummy}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
   'Tcl_Finalize':
     'prefix': 'Tcl_Finalize'
-    'body': 'Tcl_Finalize()'
+    'body': 'Tcl_Finalize'
   'Tcl_FinalizeNotifier':
     'prefix': 'Tcl_FinalizeNotifier'
     'body': 'Tcl_FinalizeNotifier(${1:ClientData clientData})'
   'Tcl_FinalizeThread':
     'prefix': 'Tcl_FinalizeThread'
-    'body': 'Tcl_FinalizeThread()'
+    'body': 'Tcl_FinalizeThread'
   'Tcl_FindCommand':
     'prefix': 'Tcl_FindCommand'
     'body': 'Tcl_FindCommand(${1:Tcl_Interp* interp}, ${2:char* name}, ${3:Tcl_Namespace* contextNsPtr}, ${4:int flags})'
@@ -3625,7 +3625,7 @@
     'body': 'Tcl_GetAliasObj(${1:Tcl_Interp* interp}, ${2:char* slaveCmd}, ${3:Tcl_Interp** targetInterpPtr}, ${4:char** targetCmdPtr}, ${5:int* objcPtr}, ${6:Tcl_Obj*** objv})'
   'Tcl_GetAllocMutex':
     'prefix': 'Tcl_GetAllocMutex'
-    'body': 'Tcl_GetAllocMutex()'
+    'body': 'Tcl_GetAllocMutex'
   'Tcl_GetAssocData':
     'prefix': 'Tcl_GetAssocData'
     'body': 'Tcl_GetAssocData(${1:Tcl_Interp* interp}, ${2:char* name}, ${3:Tcl_InterpDeleteProc** procPtr})'
@@ -3703,13 +3703,13 @@
     'body': 'Tcl_GetCurrentNamespace(${1:Tcl_Interp* interp})'
   'Tcl_GetCurrentThread':
     'prefix': 'Tcl_GetCurrentThread'
-    'body': 'Tcl_GetCurrentThread()'
+    'body': 'Tcl_GetCurrentThread'
   'Tcl_GetCwd':
     'prefix': 'Tcl_GetCwd'
     'body': 'Tcl_GetCwd(${1:Tcl_Interp* interp}, ${2:Tcl_DString* cwdPtr})'
   'Tcl_GetDefaultEncodingDir':
     'prefix': 'Tcl_GetDefaultEncodingDir'
-    'body': 'Tcl_GetDefaultEncodingDir()'
+    'body': 'Tcl_GetDefaultEncodingDir'
   'Tcl_GetDouble':
     'prefix': 'Tcl_GetDouble'
     'body': 'Tcl_GetDouble(${1:Tcl_Interp* interp}, ${2:char* src}, ${3:double* doublePtr})'
@@ -3733,7 +3733,7 @@
     'body': 'Tcl_GetEncodingNames(${1:Tcl_Interp* interp})'
   'Tcl_GetEncodingSearchPath':
     'prefix': 'Tcl_GetEncodingSearchPath'
-    'body': 'Tcl_GetEncodingSearchPath()'
+    'body': 'Tcl_GetEncodingSearchPath'
   'Tcl_GetEnsembleFlags':
     'prefix': 'Tcl_GetEnsembleFlags'
     'body': 'Tcl_GetEnsembleFlags(${1:Tcl_Interp* interp}, ${2:Tcl_Command token}, ${3:int* flagsPtr})'
@@ -3751,13 +3751,13 @@
     'body': 'Tcl_GetEnsembleUnknownHandler(${1:Tcl_Interp* interp}, ${2:Tcl_Command token}, ${3:Tcl_Obj** unknownListPtr})'
   'Tcl_GetErrno':
     'prefix': 'Tcl_GetErrno'
-    'body': 'Tcl_GetErrno()'
+    'body': 'Tcl_GetErrno'
   'Tcl_GetGlobalNamespace':
     'prefix': 'Tcl_GetGlobalNamespace'
     'body': 'Tcl_GetGlobalNamespace(${1:Tcl_Interp* interp})'
   'Tcl_GetHostName':
     'prefix': 'Tcl_GetHostName'
-    'body': 'Tcl_GetHostName()'
+    'body': 'Tcl_GetHostName'
   'Tcl_GetIndexFromObj':
     'prefix': 'Tcl_GetIndexFromObj'
     'body': 'Tcl_GetIndexFromObj(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* objPtr}, ${3:char** tablePtr}, ${4:char* msg}, ${5:int flags}, ${6:int* indexPtr})'
@@ -3787,7 +3787,7 @@
     'body': 'Tcl_GetMathFuncInfo(${1:Tcl_Interp* interp}, ${2:char* name}, ${3:int* numArgsPtr}, ${4:Tcl_ValueType** argTypesPtr}, ${5:Tcl_MathProc** procPtr}, ${6:ClientData* clientDataPtr})'
   'Tcl_GetNameOfExecutable':
     'prefix': 'Tcl_GetNameOfExecutable'
-    'body': 'Tcl_GetNameOfExecutable()'
+    'body': 'Tcl_GetNameOfExecutable'
   'Tcl_GetNamespaceResolvers':
     'prefix': 'Tcl_GetNamespaceResolvers'
     'body': 'Tcl_GetNamespaceResolvers(${1:Tcl_Namespace* namespacePtr}, ${2:Tcl_ResolverInfo* resInfo})'
@@ -3817,7 +3817,7 @@
     'body': 'Tcl_GetReturnOptions(${1:Tcl_Interp* interp}, ${2:int result})'
   'Tcl_GetServiceMode':
     'prefix': 'Tcl_GetServiceMode'
-    'body': 'Tcl_GetServiceMode()'
+    'body': 'Tcl_GetServiceMode'
   'Tcl_GetSlave':
     'prefix': 'Tcl_GetSlave'
     'body': 'Tcl_GetSlave(${1:Tcl_Interp* interp}, ${2:char* slaveName})'
@@ -3931,7 +3931,7 @@
     'body': 'Tcl_InitMemory(${1:Tcl_Interp* interp})'
   'Tcl_InitNotifier':
     'prefix': 'Tcl_InitNotifier'
-    'body': 'Tcl_InitNotifier()'
+    'body': 'Tcl_InitNotifier'
   'Tcl_InitObjHashTable':
     'prefix': 'Tcl_InitObjHashTable'
     'body': 'Tcl_InitObjHashTable(${1:Tcl_HashTable* tablePtr})'
@@ -4135,7 +4135,7 @@
     'body': 'Tcl_NewByteArrayObj(${1:unsigned char* bytes}, ${2:int length})'
   'Tcl_NewDictObj':
     'prefix': 'Tcl_NewDictObj'
-    'body': 'Tcl_NewDictObj()'
+    'body': 'Tcl_NewDictObj'
   'Tcl_NewDoubleObj':
     'prefix': 'Tcl_NewDoubleObj'
     'body': 'Tcl_NewDoubleObj(${1:double doubleValue})'
@@ -4150,7 +4150,7 @@
     'body': 'Tcl_NewLongObj(${1:long longValue})'
   'Tcl_NewObj':
     'prefix': 'Tcl_NewObj'
-    'body': 'Tcl_NewObj()'
+    'body': 'Tcl_NewObj'
   'Tcl_NewStringObj':
     'prefix': 'Tcl_NewStringObj'
     'body': 'Tcl_NewStringObj(${1:char* bytes}, ${2:int length})'
@@ -4300,7 +4300,7 @@
     'body': 'Tcl_Realloc(${1:char* ptr}, ${2:unsigned int size})'
   'Tcl_ReapDetachedProcs':
     'prefix': 'Tcl_ReapDetachedProcs'
-    'body': 'Tcl_ReapDetachedProcs()'
+    'body': 'Tcl_ReapDetachedProcs'
   'Tcl_RecordAndEval':
     'prefix': 'Tcl_RecordAndEval'
     'body': 'Tcl_RecordAndEval(${1:Tcl_Interp* interp}, ${2:char* cmd}, ${3:int flags})'
@@ -4390,7 +4390,7 @@
     'body': 'Tcl_SeekOld(${1:Tcl_Channel chan}, ${2:int offset}, ${3:int mode})'
   'Tcl_ServiceAll':
     'prefix': 'Tcl_ServiceAll'
-    'body': 'Tcl_ServiceAll()'
+    'body': 'Tcl_ServiceAll'
   'Tcl_ServiceEvent':
     'prefix': 'Tcl_ServiceEvent'
     'body': 'Tcl_ServiceEvent(${1:int flags})'
@@ -4882,13 +4882,13 @@
     'body': 'TclpFinalizeMutex(${1:Tcl_Mutex* mutexPtr})'
   'TclpFinalizePipes':
     'prefix': 'TclpFinalizePipes'
-    'body': 'TclpFinalizePipes()'
+    'body': 'TclpFinalizePipes'
   'TclpFinalizeSockets':
     'prefix': 'TclpFinalizeSockets'
-    'body': 'TclpFinalizeSockets()'
+    'body': 'TclpFinalizeSockets'
   'TclpFinalizeThreadDataThread':
     'prefix': 'TclpFinalizeThreadDataThread'
-    'body': 'TclpFinalizeThreadDataThread()'
+    'body': 'TclpFinalizeThreadDataThread'
   'TclpFindExecutable':
     'prefix': 'TclpFindExecutable'
     'body': 'TclpFindExecutable(${1:char* argv0})'
@@ -4906,7 +4906,7 @@
     'body': 'TclpGetCStackParams(${1:int** stackBoundPtr})'
   'TclpGetClicks':
     'prefix': 'TclpGetClicks'
-    'body': 'TclpGetClicks()'
+    'body': 'TclpGetClicks'
   'TclpGetCwd':
     'prefix': 'TclpGetCwd'
     'body': 'TclpGetCwd(${1:Tcl_Interp* interp}, ${2:Tcl_DString* cwdPtr})'
@@ -4942,7 +4942,7 @@
     'body': 'TclpGetPwUid(${1:uid_t uid})'
   'TclpGetSeconds':
     'prefix': 'TclpGetSeconds'
-    'body': 'TclpGetSeconds()'
+    'body': 'TclpGetSeconds'
   'TclpGetTime':
     'prefix': 'TclpGetTime'
     'body': 'TclpGetTime(${1:Tcl_Time* time})'
@@ -4969,13 +4969,13 @@
     'body': 'TclpInitLibraryPath(${1:char** valuePtr}, ${2:int* lengthPtr}, ${3:Tcl_Encoding* encodingPtr})'
   'TclpInitLock':
     'prefix': 'TclpInitLock'
-    'body': 'TclpInitLock()'
+    'body': 'TclpInitLock'
   'TclpInitPlatform':
     'prefix': 'TclpInitPlatform'
-    'body': 'TclpInitPlatform()'
+    'body': 'TclpInitPlatform'
   'TclpInitUnlock':
     'prefix': 'TclpInitUnlock'
-    'body': 'TclpInitUnlock()'
+    'body': 'TclpInitUnlock'
   'TclpLoadFile':
     'prefix': 'TclpLoadFile'
     'body': 'TclpLoadFile(${1:Tcl_Interp* interp}, ${2:Tcl_Obj* pathPtr}, ${3:char* sym1}, ${4:char* sym2}, ${5:Tcl_PackageInitProc** proc1Ptr}, ${6:Tcl_PackageInitProc** proc2Ptr}, ${7:ClientData* clientDataPtr}, ${8:Tcl_FSUnloadFileProc** unloadProcPtr})'
@@ -4990,10 +4990,10 @@
     'body': 'TclpMakeFile(${1:Tcl_Channel channel}, ${2:int direction})'
   'TclpMasterLock':
     'prefix': 'TclpMasterLock'
-    'body': 'TclpMasterLock()'
+    'body': 'TclpMasterLock'
   'TclpMasterUnlock':
     'prefix': 'TclpMasterUnlock'
-    'body': 'TclpMasterUnlock()'
+    'body': 'TclpMasterUnlock'
   'TclpMatchFiles':
     'prefix': 'TclpMatchFiles'
     'body': 'TclpMatchFiles(${1:Tcl_Interp* interp}, ${2:char* separators}, ${3:Tcl_DString* dirPtr}, ${4:char* pattern}, ${5:char* tail})'
@@ -5032,7 +5032,7 @@
     'body': 'TclpObjLink(${1:Tcl_Obj* pathPtr}, ${2:Tcl_Obj* toPtr}, ${3:int linkType})'
   'TclpObjListVolumes':
     'prefix': 'TclpObjListVolumes'
-    'body': 'TclpObjListVolumes()'
+    'body': 'TclpObjListVolumes'
   'TclpObjLstat':
     'prefix': 'TclpObjLstat'
     'body': 'TclpObjLstat(${1:Tcl_Obj* pathPtr}, ${2:Tcl_StatBuf* buf})'
@@ -5065,16 +5065,16 @@
     'body': 'TclpRealloc(${1:char* ptr}, ${2:unsigned int size})'
   'TclpSetInitialEncodings':
     'prefix': 'TclpSetInitialEncodings'
-    'body': 'TclpSetInitialEncodings()'
+    'body': 'TclpSetInitialEncodings'
   'TclpSetInterfaces':
     'prefix': 'TclpSetInterfaces'
-    'body': 'TclpSetInterfaces()'
+    'body': 'TclpSetInterfaces'
   'TclpSetVariables':
     'prefix': 'TclpSetVariables'
     'body': 'TclpSetVariables(${1:Tcl_Interp* interp})'
   'TclpTempFileName':
     'prefix': 'TclpTempFileName'
-    'body': 'TclpTempFileName()'
+    'body': 'TclpTempFileName'
   'TclpThreadCreate':
     'prefix': 'TclpThreadCreate'
     'body': 'TclpThreadCreate(${1:Tcl_ThreadId* idPtr}, ${2:Tcl_ThreadCreateProc* proc}, ${3:ClientData clientData}, ${4:int stackSize}, ${5:int flags})'
@@ -5089,7 +5089,7 @@
     'body': 'TclpThreadExit(${1:int status})'
   'TclpThreadGetStackSize':
     'prefix': 'TclpThreadGetStackSize'
-    'body': 'TclpThreadGetStackSize()'
+    'body': 'TclpThreadGetStackSize'
   'TclpUnloadFile':
     'prefix': 'TclpUnloadFile'
     'body': 'TclpUnloadFile(${1:Tcl_LoadHandle loadHandle})'

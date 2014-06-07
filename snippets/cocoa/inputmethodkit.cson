@@ -50,15 +50,18 @@
   'kIMKSubList (2)':
     'prefix': 'kIMKSubList'
     'body': 'KIMKSubList'
+  'IMKCandidates':
+    'prefix': 'IMKCandidates'
+    'body': 'IMKCandidates'
   'attachChild:toCandidate:type:':
     'prefix': 'attachChild:toCandidate:type:'
     'body': 'attachChild(${1:IMKCandidates* child}, toCandidate:${2:NSInteger candidateIdentifier}, type:${3:IMKStyleType theType})'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'candidateFrame':
     'prefix': 'candidateFrame'
-    'body': 'candidateFrame()'
+    'body': 'candidateFrame'
   'candidateIdentifierAtLineNumber:':
     'prefix': 'candidateIdentifierAtLineNumber:'
     'body': 'candidateIdentifierAtLineNumber(${1:NSInteger lineNumber})'
@@ -67,19 +70,19 @@
     'body': 'candidateStringIdentifier(${1:id candidateString})'
   'clearSelection':
     'prefix': 'clearSelection'
-    'body': 'clearSelection()'
+    'body': 'clearSelection'
   'detachChild:':
     'prefix': 'detachChild:'
     'body': 'detachChild(${1:NSInteger candidateIdentifier})'
   'dismissesAutomatically':
     'prefix': 'dismissesAutomatically'
-    'body': 'dismissesAutomatically()'
+    'body': 'dismissesAutomatically'
   'hide':
     'prefix': 'hide'
-    'body': 'hide()'
+    'body': 'hide'
   'hideChild':
     'prefix': 'hideChild'
-    'body': 'hideChild()'
+    'body': 'hideChild'
   'initWithServer:panelType:':
     'prefix': 'initWithServer:panelType:'
     'body': 'initWithServer(${1:IMKServer* server}, panelType:${2:IMKCandidatePanelType panelType})'
@@ -88,13 +91,13 @@
     'body': 'initWithServer(${1:IMKServer* server}, panelType:${2:IMKCandidatePanelType panelType}, styleType:${3:IMKStyleType style})'
   'isVisible':
     'prefix': 'isVisible'
-    'body': 'isVisible()'
+    'body': 'isVisible'
   'lineNumberForCandidateWithIdentifier:':
     'prefix': 'lineNumberForCandidateWithIdentifier:'
     'body': 'lineNumberForCandidateWithIdentifier(${1:NSInteger candidateIdentifier})'
   'panelType':
     'prefix': 'panelType'
-    'body': 'panelType()'
+    'body': 'panelType'
   'selectCandidate:':
     'prefix': 'selectCandidate:'
     'body': 'selectCandidate(${1:NSInteger candidateIdentifier})'
@@ -103,16 +106,16 @@
     'body': 'selectCandidateWithIdentifier(${1:NSInteger candidateIdentifier})'
   'selectedCandidate':
     'prefix': 'selectedCandidate'
-    'body': 'selectedCandidate()'
+    'body': 'selectedCandidate'
   'selectedCandidateString':
     'prefix': 'selectedCandidateString'
-    'body': 'selectedCandidateString()'
+    'body': 'selectedCandidateString'
   'selectionKeys':
     'prefix': 'selectionKeys'
-    'body': 'selectionKeys()'
+    'body': 'selectionKeys'
   'selectionKeysKeylayout':
     'prefix': 'selectionKeysKeylayout'
-    'body': 'selectionKeysKeylayout()'
+    'body': 'selectionKeysKeylayout'
   'setAttributes:':
     'prefix': 'setAttributes:'
     'body': 'setAttributes(${1:NSDictionary* attributes})'
@@ -142,22 +145,25 @@
     'body': 'showAnnotation(${1:NSAttributedString* annotationString})'
   'showCandidates':
     'prefix': 'showCandidates'
-    'body': 'showCandidates()'
+    'body': 'showCandidates'
   'showChild':
     'prefix': 'showChild'
-    'body': 'showChild()'
+    'body': 'showChild'
   'showSublist:subListDelegate:':
     'prefix': 'showSublist:subListDelegate:'
     'body': 'showSublist(${1:NSArray* candidates}, subListDelegate:${2:id delegate})'
   'updateCandidates':
     'prefix': 'updateCandidates'
-    'body': 'updateCandidates()'
+    'body': 'updateCandidates'
+  'IMKInputController':
+    'prefix': 'IMKInputController'
+    'body': 'IMKInputController'
   'annotationSelected:forCandidate:':
     'prefix': 'annotationSelected:forCandidate:'
     'body': 'annotationSelected(${1:NSAttributedString* annotationString}, forCandidate:${2:NSAttributedString* candidateString})'
   'cancelComposition':
     'prefix': 'cancelComposition'
-    'body': 'cancelComposition()'
+    'body': 'cancelComposition'
   'candidateSelected:':
     'prefix': 'candidateSelected:'
     'body': 'candidateSelected(${1:NSAttributedString* candidateString})'
@@ -166,49 +172,52 @@
     'body': 'candidateSelectionChanged(${1:NSAttributedString* candidateString})'
   'client':
     'prefix': 'client'
-    'body': 'client()'
+    'body': 'client'
   'compositionAttributesAtRange:':
     'prefix': 'compositionAttributesAtRange:'
     'body': 'compositionAttributesAtRange(${1:NSRange range})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'doCommandBySelector:commandDictionary:':
     'prefix': 'doCommandBySelector:commandDictionary:'
     'body': 'doCommandBySelector(${1:SEL aSelector}, commandDictionary:${2:NSDictionary* infoDictionary})'
   'hidePalettes':
     'prefix': 'hidePalettes'
-    'body': 'hidePalettes()'
+    'body': 'hidePalettes'
   'initWithServer:delegate:client:':
     'prefix': 'initWithServer:delegate:client:'
     'body': 'initWithServer(${1:IMKServer* server}, delegate:${2:id delegate}, client:${3:id inputClient})'
   'inputControllerWillClose':
     'prefix': 'inputControllerWillClose'
-    'body': 'inputControllerWillClose()'
+    'body': 'inputControllerWillClose'
   'markForStyle:atRange:':
     'prefix': 'markForStyle:atRange:'
     'body': 'markForStyle(${1:NSInteger style}, atRange:${2:NSRange range})'
   'menu':
     'prefix': 'menu'
-    'body': 'menu()'
+    'body': 'menu'
   'replacementRange':
     'prefix': 'replacementRange'
-    'body': 'replacementRange()'
+    'body': 'replacementRange'
   'selectionRange':
     'prefix': 'selectionRange'
-    'body': 'selectionRange()'
+    'body': 'selectionRange'
   'server':
     'prefix': 'server'
-    'body': 'server()'
+    'body': 'server'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id newDelegate})'
   'updateComposition':
     'prefix': 'updateComposition'
-    'body': 'updateComposition()'
+    'body': 'updateComposition'
+  'IMKServer':
+    'prefix': 'IMKServer'
+    'body': 'IMKServer'
   'bundle':
     'prefix': 'bundle'
-    'body': 'bundle()'
+    'body': 'bundle'
   'initWithName:bundleIdentifier:':
     'prefix': 'initWithName:bundleIdentifier:'
     'body': 'initWithName(${1:NSString* name}, bundleIdentifier:${2:NSString* bundleIdentifier})'
@@ -217,10 +226,13 @@
     'body': 'initWithName(${1:NSString* name}, controllerClass:${2:Class controllerClassID}, delegateClass:${3:Class delegateClassID})'
   'lastKeyEventWasDeadKey':
     'prefix': 'lastKeyEventWasDeadKey'
-    'body': 'lastKeyEventWasDeadKey()'
+    'body': 'lastKeyEventWasDeadKey'
   'paletteWillTerminate':
     'prefix': 'paletteWillTerminate'
-    'body': 'paletteWillTerminate()'
+    'body': 'paletteWillTerminate'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'activateServer:':
     'prefix': 'activateServer:'
     'body': 'activateServer(${1:id sender})'
@@ -275,6 +287,9 @@
   'valueForTag:client:':
     'prefix': 'valueForTag:client:'
     'body': 'valueForTag(${1:long tag}, client:${2:id sender})'
+  'IMKMouseHandling':
+    'prefix': 'IMKMouseHandling'
+    'body': 'IMKMouseHandling'
   'mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client:':
     'prefix': 'mouseDownOnCharacterIndex:coordinate:withModifier:continueTracking:client:'
     'body': 'mouseDownOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, continueTracking:${4:BOOL* keepTracking}, client:${5:id sender})'
@@ -284,6 +299,9 @@
   'mouseUpOnCharacterIndex:coordinate:withModifier:client:':
     'prefix': 'mouseUpOnCharacterIndex:coordinate:withModifier:client:'
     'body': 'mouseUpOnCharacterIndex(${1:NSUInteger index}, coordinate:${2:NSPoint point}, withModifier:${3:NSUInteger flags}, client:${4:id sender})'
+  'IMKServerInput':
+    'prefix': 'IMKServerInput'
+    'body': 'IMKServerInput'
   'candidates:':
     'prefix': 'candidates:'
     'body': 'candidates(${1:id sender})'
@@ -308,6 +326,9 @@
   'originalString:':
     'prefix': 'originalString:'
     'body': 'originalString(${1:id sender})'
+  'IMKStateSetting':
+    'prefix': 'IMKStateSetting'
+    'body': 'IMKStateSetting'
   'activateServer:':
     'prefix': 'activateServer:'
     'body': 'activateServer(${1:id sender})'

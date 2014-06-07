@@ -2377,7 +2377,7 @@
     'body': 'DRBurnGetProperties(${1:DRBurnRef burn})'
   'DRBurnGetTypeID':
     'prefix': 'DRBurnGetTypeID'
-    'body': 'DRBurnGetTypeID()'
+    'body': 'DRBurnGetTypeID'
   'DRBurnSetProperties':
     'prefix': 'DRBurnSetProperties'
     'body': 'DRBurnSetProperties(${1:DRBurnRef burn}, ${2:CFDictionaryRef properties})'
@@ -2401,7 +2401,7 @@
     'body': 'DRCDTextBlockGetTrackDictionaries(${1:DRCDTextBlockRef block})'
   'DRCDTextBlockGetTypeID':
     'prefix': 'DRCDTextBlockGetTypeID'
-    'body': 'DRCDTextBlockGetTypeID()'
+    'body': 'DRCDTextBlockGetTypeID'
   'DRCDTextBlockGetValue':
     'prefix': 'DRCDTextBlockGetValue'
     'body': 'DRCDTextBlockGetValue(${1:DRCDTextBlockRef block}, ${2:CFIndex trackIndex}, ${3:CFStringRef key})'
@@ -2416,7 +2416,7 @@
     'body': 'DRCDTextBlockSetValue(${1:DRCDTextBlockRef block}, ${2:CFIndex trackIndex}, ${3:CFStringRef key}, ${4:CFTypeRef value})'
   'DRCopyDeviceArray':
     'prefix': 'DRCopyDeviceArray'
-    'body': 'DRCopyDeviceArray()'
+    'body': 'DRCopyDeviceArray'
   'DRCopyLocalizedStringForAdditionalSense':
     'prefix': 'DRCopyLocalizedStringForAdditionalSense'
     'body': 'DRCopyLocalizedStringForAdditionalSense(${1:UInt8 ASC}, ${2:UInt8 ASCQ})'
@@ -2455,7 +2455,7 @@
     'body': 'DRDeviceEjectMedia(${1:DRDeviceRef device})'
   'DRDeviceGetTypeID':
     'prefix': 'DRDeviceGetTypeID'
-    'body': 'DRDeviceGetTypeID()'
+    'body': 'DRDeviceGetTypeID'
   'DRDeviceIsValid':
     'prefix': 'DRDeviceIsValid'
     'body': 'DRDeviceIsValid(${1:DRDeviceRef device})'
@@ -2488,7 +2488,7 @@
     'body': 'DREraseGetProperties(${1:DREraseRef erase})'
   'DREraseGetTypeID':
     'prefix': 'DREraseGetTypeID'
-    'body': 'DREraseGetTypeID()'
+    'body': 'DREraseGetTypeID'
   'DREraseSetProperties':
     'prefix': 'DREraseSetProperties'
     'body': 'DREraseSetProperties(${1:DREraseRef erase}, ${2:CFDictionaryRef properties})'
@@ -2566,7 +2566,7 @@
     'body': 'DRFileCreateVirtualWithData(${1:CFStringRef baseName}, ${2:void* fileData}, ${3:UInt32 fileDataLength})'
   'DRFileGetTypeID':
     'prefix': 'DRFileGetTypeID'
-    'body': 'DRFileGetTypeID()'
+    'body': 'DRFileGetTypeID'
   'DRFilesystemTrackCreate':
     'prefix': 'DRFilesystemTrackCreate'
     'body': 'DRFilesystemTrackCreate(${1:DRFolderRef rootFolder})'
@@ -2596,7 +2596,7 @@
     'body': 'DRFolderCreateVirtual(${1:CFStringRef baseName})'
   'DRFolderGetTypeID':
     'prefix': 'DRFolderGetTypeID'
-    'body': 'DRFolderGetTypeID()'
+    'body': 'DRFolderGetTypeID'
   'DRFolderRemoveChild':
     'prefix': 'DRFolderRemoveChild'
     'body': 'DRFolderRemoveChild(${1:DRFolderRef parent}, ${2:DRFSObjectRef child})'
@@ -2605,19 +2605,19 @@
     'body': 'DRGetRefCon(${1:DRTypeRef ref})'
   'DRGetVersion':
     'prefix': 'DRGetVersion'
-    'body': 'DRGetVersion()'
+    'body': 'DRGetVersion'
   'DRNotificationCenterAddObserver':
     'prefix': 'DRNotificationCenterAddObserver'
     'body': 'DRNotificationCenterAddObserver(${1:DRNotificationCenterRef center}, ${2:void* observer}, ${3:DRNotificationCallback callback}, ${4:CFStringRef name}, ${5:DRTypeRef object})'
   'DRNotificationCenterCreate':
     'prefix': 'DRNotificationCenterCreate'
-    'body': 'DRNotificationCenterCreate()'
+    'body': 'DRNotificationCenterCreate'
   'DRNotificationCenterCreateRunLoopSource':
     'prefix': 'DRNotificationCenterCreateRunLoopSource'
     'body': 'DRNotificationCenterCreateRunLoopSource(${1:DRNotificationCenterRef center})'
   'DRNotificationCenterGetTypeID':
     'prefix': 'DRNotificationCenterGetTypeID'
-    'body': 'DRNotificationCenterGetTypeID()'
+    'body': 'DRNotificationCenterGetTypeID'
   'DRNotificationCenterRemoveObserver':
     'prefix': 'DRNotificationCenterRemoveObserver'
     'body': 'DRNotificationCenterRemoveObserver(${1:DRNotificationCenterRef center}, ${2:void* observer}, ${3:CFStringRef name}, ${4:DRTypeRef object})'
@@ -2635,28 +2635,31 @@
     'body': 'DRTrackGetProperties(${1:DRTrackRef track})'
   'DRTrackGetTypeID':
     'prefix': 'DRTrackGetTypeID'
-    'body': 'DRTrackGetTypeID()'
+    'body': 'DRTrackGetTypeID'
   'DRTrackSetProperties':
     'prefix': 'DRTrackSetProperties'
     'body': 'DRTrackSetProperties(${1:DRTrackRef track}, ${2:CFDictionaryRef properties})'
   'DRTrackSpeedTest':
     'prefix': 'DRTrackSpeedTest'
     'body': 'DRTrackSpeedTest(${1:DRTrackRef track}, ${2:UInt32 howManyMilliseconds}, ${3:UInt32 howManyBytes})'
+  'DRBurn':
+    'prefix': 'DRBurn'
+    'body': 'DRBurn'
   'abort':
     'prefix': 'abort'
-    'body': 'abort()'
+    'body': 'abort'
   'appendable':
     'prefix': 'appendable'
-    'body': 'appendable()'
+    'body': 'appendable'
   'DRBurn.burnForDevice:':
     'prefix': 'burnForDevice:'
     'body': 'burnForDevice(${1:DRDevice* device})'
   'completionAction':
     'prefix': 'completionAction'
-    'body': 'completionAction()'
+    'body': 'completionAction'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'initWithDevice:':
     'prefix': 'initWithDevice:'
     'body': 'initWithDevice(${1:DRDevice* device})'
@@ -2665,10 +2668,10 @@
     'body': 'layoutForImageFile(${1:NSString* path})'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'requestedBurnSpeed':
     'prefix': 'requestedBurnSpeed'
-    'body': 'requestedBurnSpeed()'
+    'body': 'requestedBurnSpeed'
   'setAppendable:':
     'prefix': 'setAppendable:'
     'body': 'setAppendable(${1:BOOL appendable})'
@@ -2686,13 +2689,16 @@
     'body': 'setVerifyDisc(${1:BOOL verify})'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'verifyDisc':
     'prefix': 'verifyDisc'
-    'body': 'verifyDisc()'
+    'body': 'verifyDisc'
   'writeLayout:':
     'prefix': 'writeLayout:'
     'body': 'writeLayout(${1:id layout})'
+  'DRCDTextBlock':
+    'prefix': 'DRCDTextBlock'
+    'body': 'DRCDTextBlock'
   'DRCDTextBlock.arrayOfCDTextBlocksFromPacks:':
     'prefix': 'arrayOfCDTextBlocksFromPacks:'
     'body': 'arrayOfCDTextBlocksFromPacks(${1:NSData* packs})'
@@ -2701,22 +2707,22 @@
     'body': 'cdTextBlockWithLanguage(${1:NSString* lang}, encoding:${2:NSStringEncoding enc})'
   'encoding':
     'prefix': 'encoding'
-    'body': 'encoding()'
+    'body': 'encoding'
   'flatten':
     'prefix': 'flatten'
-    'body': 'flatten()'
+    'body': 'flatten'
   'initWithLanguage:encoding:':
     'prefix': 'initWithLanguage:encoding:'
     'body': 'initWithLanguage(${1:NSString* lang}, encoding:${2:NSStringEncoding enc})'
   'language':
     'prefix': 'language'
-    'body': 'language()'
+    'body': 'language'
   'objectForKey:ofTrack:':
     'prefix': 'objectForKey:ofTrack:'
     'body': 'objectForKey(${1:NSString* key}, ofTrack:${2:NSUInteger trackIndex})'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'setObject:forKey:ofTrack:':
     'prefix': 'setObject:forKey:ofTrack:'
     'body': 'setObject(${1:id value}, forKey:${2:NSString* key}, ofTrack:${3:NSUInteger trackIndex})'
@@ -2728,19 +2734,22 @@
     'body': 'setTrackDictionaries(${1:NSArray* tracks})'
   'trackDictionaries':
     'prefix': 'trackDictionaries'
-    'body': 'trackDictionaries()'
+    'body': 'trackDictionaries'
+  'DRDevice':
+    'prefix': 'DRDevice'
+    'body': 'DRDevice'
   'acquireExclusiveAccess':
     'prefix': 'acquireExclusiveAccess'
-    'body': 'acquireExclusiveAccess()'
+    'body': 'acquireExclusiveAccess'
   'acquireMediaReservation':
     'prefix': 'acquireMediaReservation'
-    'body': 'acquireMediaReservation()'
+    'body': 'acquireMediaReservation'
   'bsdName':
     'prefix': 'bsdName'
-    'body': 'bsdName()'
+    'body': 'bsdName'
   'closeTray':
     'prefix': 'closeTray'
-    'body': 'closeTray()'
+    'body': 'closeTray'
   'DRDevice.deviceForBSDName:':
     'prefix': 'deviceForBSDName:'
     'body': 'deviceForBSDName(${1:NSString* bsdName})'
@@ -2749,97 +2758,100 @@
     'body': 'deviceForIORegistryEntryPath(${1:NSString* path})'
   'DRDevice.devices':
     'prefix': 'devices'
-    'body': 'devices()'
+    'body': 'devices'
   'displayName':
     'prefix': 'displayName'
-    'body': 'displayName()'
+    'body': 'displayName'
   'ejectMedia':
     'prefix': 'ejectMedia'
-    'body': 'ejectMedia()'
+    'body': 'ejectMedia'
   'info':
     'prefix': 'info'
-    'body': 'info()'
+    'body': 'info'
   'ioRegistryEntryPath':
     'prefix': 'ioRegistryEntryPath'
-    'body': 'ioRegistryEntryPath()'
+    'body': 'ioRegistryEntryPath'
   'isEqualToDevice:':
     'prefix': 'isEqualToDevice:'
     'body': 'isEqualToDevice(${1:DRDevice* otherDevice})'
   'isValid':
     'prefix': 'isValid'
-    'body': 'isValid()'
+    'body': 'isValid'
   'mediaIsAppendable':
     'prefix': 'mediaIsAppendable'
-    'body': 'mediaIsAppendable()'
+    'body': 'mediaIsAppendable'
   'mediaIsBlank':
     'prefix': 'mediaIsBlank'
-    'body': 'mediaIsBlank()'
+    'body': 'mediaIsBlank'
   'mediaIsBusy':
     'prefix': 'mediaIsBusy'
-    'body': 'mediaIsBusy()'
+    'body': 'mediaIsBusy'
   'mediaIsErasable':
     'prefix': 'mediaIsErasable'
-    'body': 'mediaIsErasable()'
+    'body': 'mediaIsErasable'
   'mediaIsOverwritable':
     'prefix': 'mediaIsOverwritable'
-    'body': 'mediaIsOverwritable()'
+    'body': 'mediaIsOverwritable'
   'mediaIsPresent':
     'prefix': 'mediaIsPresent'
-    'body': 'mediaIsPresent()'
+    'body': 'mediaIsPresent'
   'mediaIsReserved':
     'prefix': 'mediaIsReserved'
-    'body': 'mediaIsReserved()'
+    'body': 'mediaIsReserved'
   'mediaIsTransitioning':
     'prefix': 'mediaIsTransitioning'
-    'body': 'mediaIsTransitioning()'
+    'body': 'mediaIsTransitioning'
   'mediaSpaceFree':
     'prefix': 'mediaSpaceFree'
-    'body': 'mediaSpaceFree()'
+    'body': 'mediaSpaceFree'
   'mediaSpaceOverwritable':
     'prefix': 'mediaSpaceOverwritable'
-    'body': 'mediaSpaceOverwritable()'
+    'body': 'mediaSpaceOverwritable'
   'mediaSpaceUsed':
     'prefix': 'mediaSpaceUsed'
-    'body': 'mediaSpaceUsed()'
+    'body': 'mediaSpaceUsed'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'openTray':
     'prefix': 'openTray'
-    'body': 'openTray()'
+    'body': 'openTray'
   'releaseExclusiveAccess':
     'prefix': 'releaseExclusiveAccess'
-    'body': 'releaseExclusiveAccess()'
+    'body': 'releaseExclusiveAccess'
   'releaseMediaReservation':
     'prefix': 'releaseMediaReservation'
-    'body': 'releaseMediaReservation()'
+    'body': 'releaseMediaReservation'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'trayIsOpen':
     'prefix': 'trayIsOpen'
-    'body': 'trayIsOpen()'
+    'body': 'trayIsOpen'
   'writesCD':
     'prefix': 'writesCD'
-    'body': 'writesCD()'
+    'body': 'writesCD'
   'writesDVD':
     'prefix': 'writesDVD'
-    'body': 'writesDVD()'
+    'body': 'writesDVD'
+  'DRErase':
+    'prefix': 'DRErase'
+    'body': 'DRErase'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'DRErase.eraseForDevice:':
     'prefix': 'eraseForDevice:'
     'body': 'eraseForDevice(${1:DRDevice* device})'
   'eraseType':
     'prefix': 'eraseType'
-    'body': 'eraseType()'
+    'body': 'eraseType'
   'initWithDevice:':
     'prefix': 'initWithDevice:'
     'body': 'initWithDevice(${1:DRDevice* device})'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'setEraseType:':
     'prefix': 'setEraseType:'
     'body': 'setEraseType(${1:NSString* type})'
@@ -2848,31 +2860,34 @@
     'body': 'setProperties(${1:NSDictionary* properties})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'DRFSObject':
+    'prefix': 'DRFSObject'
+    'body': 'DRFSObject'
   'baseName':
     'prefix': 'baseName'
-    'body': 'baseName()'
+    'body': 'baseName'
   'effectiveFilesystemMask':
     'prefix': 'effectiveFilesystemMask'
-    'body': 'effectiveFilesystemMask()'
+    'body': 'effectiveFilesystemMask'
   'explicitFilesystemMask':
     'prefix': 'explicitFilesystemMask'
-    'body': 'explicitFilesystemMask()'
+    'body': 'explicitFilesystemMask'
   'isVirtual':
     'prefix': 'isVirtual'
-    'body': 'isVirtual()'
+    'body': 'isVirtual'
   'mangledNameForFilesystem:':
     'prefix': 'mangledNameForFilesystem:'
     'body': 'mangledNameForFilesystem(${1:NSString* filesystem})'
   'mangledNames':
     'prefix': 'mangledNames'
-    'body': 'mangledNames()'
+    'body': 'mangledNames'
   'parent':
     'prefix': 'parent'
-    'body': 'parent()'
+    'body': 'parent'
   'propertiesForFilesystem:mergeWithOtherFilesystems:':
     'prefix': 'propertiesForFilesystem:mergeWithOtherFilesystems:'
     'body': 'propertiesForFilesystem(${1:NSString* filesystem}, mergeWithOtherFilesystems:${2:BOOL merge})'
@@ -2899,13 +2914,16 @@
     'body': 'setSpecificNames(${1:NSDictionary* specificNames})'
   'sourcePath':
     'prefix': 'sourcePath'
-    'body': 'sourcePath()'
+    'body': 'sourcePath'
   'specificNameForFilesystem:':
     'prefix': 'specificNameForFilesystem:'
     'body': 'specificNameForFilesystem(${1:NSString* filesystem})'
   'specificNames':
     'prefix': 'specificNames'
-    'body': 'specificNames()'
+    'body': 'specificNames'
+  'DRFile':
+    'prefix': 'DRFile'
+    'body': 'DRFile'
   'DRFile.fileWithPath:':
     'prefix': 'fileWithPath:'
     'body': 'fileWithPath(${1:NSString* path})'
@@ -2936,15 +2954,18 @@
   'DRFile.virtualFileWithName:dataProducer:':
     'prefix': 'virtualFileWithName:dataProducer:'
     'body': 'virtualFileWithName(${1:NSString* name}, dataProducer:${2:id producer})'
+  'DRFolder':
+    'prefix': 'DRFolder'
+    'body': 'DRFolder'
   'addChild:':
     'prefix': 'addChild:'
     'body': 'addChild(${1:DRFSObject* child})'
   'children':
     'prefix': 'children'
-    'body': 'children()'
+    'body': 'children'
   'count':
     'prefix': 'count'
-    'body': 'count()'
+    'body': 'count'
   'DRFolder.folderWithPath:':
     'prefix': 'folderWithPath:'
     'body': 'folderWithPath(${1:NSString* path})'
@@ -2956,22 +2977,25 @@
     'body': 'initWithPath(${1:NSString* path})'
   'makeVirtual':
     'prefix': 'makeVirtual'
-    'body': 'makeVirtual()'
+    'body': 'makeVirtual'
   'removeChild:':
     'prefix': 'removeChild:'
     'body': 'removeChild(${1:DRFSObject* child})'
   'DRFolder.virtualFolderWithName:':
     'prefix': 'virtualFolderWithName:'
     'body': 'virtualFolderWithName(${1:NSString* name})'
+  'DRMSF':
+    'prefix': 'DRMSF'
+    'body': 'DRMSF'
   'description':
     'prefix': 'description'
-    'body': 'description()'
+    'body': 'description'
   'descriptionWithFormat:':
     'prefix': 'descriptionWithFormat:'
     'body': 'descriptionWithFormat(${1:NSString* format})'
   'frames':
     'prefix': 'frames'
-    'body': 'frames()'
+    'body': 'frames'
   'initWithFrames:':
     'prefix': 'initWithFrames:'
     'body': 'initWithFrames(${1:UInt32 frames})'
@@ -2983,10 +3007,10 @@
     'body': 'isEqualToMSF(${1:DRMSF* otherDRMSF})'
   'minutes':
     'prefix': 'minutes'
-    'body': 'minutes()'
+    'body': 'minutes'
   'DRMSF.msf':
     'prefix': 'msf'
-    'body': 'msf()'
+    'body': 'msf'
   'msfByAdding:':
     'prefix': 'msfByAdding:'
     'body': 'msfByAdding(${1:DRMSF* msf})'
@@ -3001,43 +3025,52 @@
     'body': 'msfWithString(${1:NSString* string})'
   'seconds':
     'prefix': 'seconds'
-    'body': 'seconds()'
+    'body': 'seconds'
   'sectors':
     'prefix': 'sectors'
-    'body': 'sectors()'
+    'body': 'sectors'
+  'DRMSFFormatter':
+    'prefix': 'DRMSFFormatter'
+    'body': 'DRMSFFormatter'
   'format':
     'prefix': 'format'
-    'body': 'format()'
+    'body': 'format'
   'initWithFormat:':
     'prefix': 'initWithFormat:'
     'body': 'initWithFormat(${1:NSString* format})'
   'setFormat:':
     'prefix': 'setFormat:'
     'body': 'setFormat(${1:NSString* format})'
+  'DRNotificationCenter':
+    'prefix': 'DRNotificationCenter'
+    'body': 'DRNotificationCenter'
   'addObserver:selector:name:object:':
     'prefix': 'addObserver:selector:name:object:'
     'body': 'addObserver(${1:id observer}, selector:${2:SEL aSelector}, name:${3:NSString* notificationName}, object:${4:id anObject})'
   'DRNotificationCenter.currentRunLoopCenter':
     'prefix': 'currentRunLoopCenter'
-    'body': 'currentRunLoopCenter()'
+    'body': 'currentRunLoopCenter'
   'removeObserver:name:object:':
     'prefix': 'removeObserver:name:object:'
     'body': 'removeObserver(${1:id observer}, name:${2:NSString* aName}, object:${3:id anObject})'
+  'DRTrack':
+    'prefix': 'DRTrack'
+    'body': 'DRTrack'
   'estimateLength':
     'prefix': 'estimateLength'
-    'body': 'estimateLength()'
+    'body': 'estimateLength'
   'initWithProducer:':
     'prefix': 'initWithProducer:'
     'body': 'initWithProducer(${1:id producer})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'preGap':
     'prefix': 'preGap'
-    'body': 'preGap()'
+    'body': 'preGap'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'setPreGap:':
     'prefix': 'setPreGap:'
     'body': 'setPreGap(${1:DRMSF* preGap})'
@@ -3059,6 +3092,9 @@
   'DRTrack.trackForRootFolder:':
     'prefix': 'trackForRootFolder:'
     'body': 'trackForRootFolder(${1:DRFolder* rootFolder})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'calculateSizeOfFile:fork:estimating:':
     'prefix': 'calculateSizeOfFile:fork:estimating:'
     'body': 'calculateSizeOfFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, estimating:${3:BOOL estimate})'
@@ -3101,6 +3137,9 @@
   'verifyPreGapForTrack:inBuffer:length:atAddress:blockSize:ioFlags:':
     'prefix': 'verifyPreGapForTrack:inBuffer:length:atAddress:blockSize:ioFlags:'
     'body': 'verifyPreGapForTrack(${1:DRTrack* track}, inBuffer:${2:char* buffer}, length:${3:uint32_t bufferLength}, atAddress:${4:uint64_t address}, blockSize:${5:uint32_t blockSize}, ioFlags:${6:uint32_t* flags})'
+  'DRFileDataProduction':
+    'prefix': 'DRFileDataProduction'
+    'body': 'DRFileDataProduction'
   'calculateSizeOfFile:fork:estimating:':
     'prefix': 'calculateSizeOfFile:fork:estimating:'
     'body': 'calculateSizeOfFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, estimating:${3:BOOL estimate})'
@@ -3116,6 +3155,9 @@
   'produceFile:fork:intoBuffer:length:atAddress:blockSize:':
     'prefix': 'produceFile:fork:intoBuffer:length:atAddress:blockSize:'
     'body': 'produceFile(${1:DRFile* file}, fork:${2:DRFileFork fork}, intoBuffer:${3:char* buffer}, length:${4:uint32_t bufferLength}, atAddress:${5:uint64_t address}, blockSize:${6:uint32_t blockSize})'
+  'DRTrackDataProduction':
+    'prefix': 'DRTrackDataProduction'
+    'body': 'DRTrackDataProduction'
   'cleanupTrackAfterBurn:':
     'prefix': 'cleanupTrackAfterBurn:'
     'body': 'cleanupTrackAfterBurn(${1:DRTrack* track})'

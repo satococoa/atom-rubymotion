@@ -3337,7 +3337,7 @@
     'body': 'CTFontCollectionCreateWithFontDescriptors(${1:CFArrayRef queryDescriptors}, ${2:CFDictionaryRef options})'
   'CTFontCollectionGetTypeID':
     'prefix': 'CTFontCollectionGetTypeID'
-    'body': 'CTFontCollectionGetTypeID()'
+    'body': 'CTFontCollectionGetTypeID'
   'CTFontCollectionSetExclusionDescriptors':
     'prefix': 'CTFontCollectionSetExclusionDescriptors'
     'body': 'CTFontCollectionSetExclusionDescriptors(${1:CTMutableFontCollectionRef collection}, ${2:CFArrayRef descriptors})'
@@ -3478,7 +3478,7 @@
     'body': 'CTFontDescriptorCreateWithNameAndSize(${1:CFStringRef name}, ${2:CGFloat size})'
   'CTFontDescriptorGetTypeID':
     'prefix': 'CTFontDescriptorGetTypeID'
-    'body': 'CTFontDescriptorGetTypeID()'
+    'body': 'CTFontDescriptorGetTypeID'
   'CTFontDescriptorMatchFontDescriptorsWithProgressHandler':
     'prefix': 'CTFontDescriptorMatchFontDescriptorsWithProgressHandler'
     'body': 'CTFontDescriptorMatchFontDescriptorsWithProgressHandler(${1:CFArrayRef descriptors}, ${2:CFSetRef mandatoryAttributes}, ${3:CTFontDescriptorProgressHandler progressBlock})'
@@ -3541,7 +3541,7 @@
     'body': 'CTFontGetSymbolicTraits(${1:CTFontRef font})'
   'CTFontGetTypeID':
     'prefix': 'CTFontGetTypeID'
-    'body': 'CTFontGetTypeID()'
+    'body': 'CTFontGetTypeID'
   'CTFontGetUnderlinePosition':
     'prefix': 'CTFontGetUnderlinePosition'
     'body': 'CTFontGetUnderlinePosition(${1:CTFontRef font})'
@@ -3562,13 +3562,13 @@
     'body': 'CTFontManagerCompareFontFamilyNames(${1:void* family1}, ${2:void* family2}, ${3:void* context})'
   'CTFontManagerCopyAvailableFontFamilyNames':
     'prefix': 'CTFontManagerCopyAvailableFontFamilyNames'
-    'body': 'CTFontManagerCopyAvailableFontFamilyNames()'
+    'body': 'CTFontManagerCopyAvailableFontFamilyNames'
   'CTFontManagerCopyAvailableFontURLs':
     'prefix': 'CTFontManagerCopyAvailableFontURLs'
-    'body': 'CTFontManagerCopyAvailableFontURLs()'
+    'body': 'CTFontManagerCopyAvailableFontURLs'
   'CTFontManagerCopyAvailablePostScriptNames':
     'prefix': 'CTFontManagerCopyAvailablePostScriptNames'
-    'body': 'CTFontManagerCopyAvailablePostScriptNames()'
+    'body': 'CTFontManagerCopyAvailablePostScriptNames'
   'CTFontManagerCreateFontDescriptorFromData':
     'prefix': 'CTFontManagerCreateFontDescriptorFromData'
     'body': 'CTFontManagerCreateFontDescriptorFromData(${1:CFDataRef data})'
@@ -3631,7 +3631,7 @@
     'body': 'CTFrameGetStringRange(${1:CTFrameRef frame})'
   'CTFrameGetTypeID':
     'prefix': 'CTFrameGetTypeID'
-    'body': 'CTFrameGetTypeID()'
+    'body': 'CTFrameGetTypeID'
   'CTFrameGetVisibleStringRange':
     'prefix': 'CTFrameGetVisibleStringRange'
     'body': 'CTFrameGetVisibleStringRange(${1:CTFrameRef frame})'
@@ -3643,7 +3643,7 @@
     'body': 'CTFramesetterCreateWithAttributedString(${1:CFAttributedStringRef string})'
   'CTFramesetterGetTypeID':
     'prefix': 'CTFramesetterGetTypeID'
-    'body': 'CTFramesetterGetTypeID()'
+    'body': 'CTFramesetterGetTypeID'
   'CTFramesetterGetTypesetter':
     'prefix': 'CTFramesetterGetTypesetter'
     'body': 'CTFramesetterGetTypesetter(${1:CTFramesetterRef framesetter})'
@@ -3652,7 +3652,7 @@
     'body': 'CTFramesetterSuggestFrameSizeWithConstraints(${1:CTFramesetterRef framesetter}, ${2:CFRange stringRange}, ${3:CFDictionaryRef frameAttributes}, ${4:CGSize constraints}, ${5:CFRange* fitRange})'
   'CTGetCoreTextVersion':
     'prefix': 'CTGetCoreTextVersion'
-    'body': 'CTGetCoreTextVersion()'
+    'body': 'CTGetCoreTextVersion'
   'CTGlyphInfoCreateWithCharacterIdentifier':
     'prefix': 'CTGlyphInfoCreateWithCharacterIdentifier'
     'body': 'CTGlyphInfoCreateWithCharacterIdentifier(${1:CGFontIndex cid}, ${2:CTCharacterCollection collection}, ${3:CFStringRef baseString})'
@@ -3673,7 +3673,7 @@
     'body': 'CTGlyphInfoGetGlyphName(${1:CTGlyphInfoRef glyphInfo})'
   'CTGlyphInfoGetTypeID':
     'prefix': 'CTGlyphInfoGetTypeID'
-    'body': 'CTGlyphInfoGetTypeID()'
+    'body': 'CTGlyphInfoGetTypeID'
   'CTLineCreateJustifiedLine':
     'prefix': 'CTLineCreateJustifiedLine'
     'body': 'CTLineCreateJustifiedLine(${1:CTLineRef line}, ${2:CGFloat justificationFactor}, ${3:double justificationWidth})'
@@ -3715,7 +3715,7 @@
     'body': 'CTLineGetTrailingWhitespaceWidth(${1:CTLineRef line})'
   'CTLineGetTypeID':
     'prefix': 'CTLineGetTypeID'
-    'body': 'CTLineGetTypeID()'
+    'body': 'CTLineGetTypeID'
   'CTLineGetTypographicBounds':
     'prefix': 'CTLineGetTypographicBounds'
     'body': 'CTLineGetTypographicBounds(${1:CTLineRef line}, ${2:CGFloat* ascent}, ${3:CGFloat* descent}, ${4:CGFloat* leading})'
@@ -3727,7 +3727,7 @@
     'body': 'CTParagraphStyleCreateCopy(${1:CTParagraphStyleRef paragraphStyle})'
   'CTParagraphStyleGetTypeID':
     'prefix': 'CTParagraphStyleGetTypeID'
-    'body': 'CTParagraphStyleGetTypeID()'
+    'body': 'CTParagraphStyleGetTypeID'
   'CTParagraphStyleGetValueForSpecifier':
     'prefix': 'CTParagraphStyleGetValueForSpecifier'
     'body': 'CTParagraphStyleGetValueForSpecifier(${1:CTParagraphStyleRef paragraphStyle}, ${2:CTParagraphStyleSpecifier spec}, ${3:size_t valueBufferSize}, ${4:void* valueBuffer})'
@@ -3739,7 +3739,7 @@
     'body': 'CTRunDelegateGetRefCon(${1:CTRunDelegateRef runDelegate})'
   'CTRunDelegateGetTypeID':
     'prefix': 'CTRunDelegateGetTypeID'
-    'body': 'CTRunDelegateGetTypeID()'
+    'body': 'CTRunDelegateGetTypeID'
   'CTRunDraw':
     'prefix': 'CTRunDraw'
     'body': 'CTRunDraw(${1:CTRunRef run}, ${2:CGContextRef context}, ${3:CFRange range})'
@@ -3787,7 +3787,7 @@
     'body': 'CTRunGetTextMatrix(${1:CTRunRef run})'
   'CTRunGetTypeID':
     'prefix': 'CTRunGetTypeID'
-    'body': 'CTRunGetTypeID()'
+    'body': 'CTRunGetTypeID'
   'CTRunGetTypographicBounds':
     'prefix': 'CTRunGetTypographicBounds'
     'body': 'CTRunGetTypographicBounds(${1:CTRunRef run}, ${2:CFRange range}, ${3:CGFloat* ascent}, ${4:CGFloat* descent}, ${5:CGFloat* leading})'
@@ -3805,7 +3805,7 @@
     'body': 'CTTextTabGetOptions(${1:CTTextTabRef tab})'
   'CTTextTabGetTypeID':
     'prefix': 'CTTextTabGetTypeID'
-    'body': 'CTTextTabGetTypeID()'
+    'body': 'CTTextTabGetTypeID'
   'CTTypesetterCreateLine':
     'prefix': 'CTTypesetterCreateLine'
     'body': 'CTTypesetterCreateLine(${1:CTTypesetterRef typesetter}, ${2:CFRange stringRange})'
@@ -3820,7 +3820,7 @@
     'body': 'CTTypesetterCreateWithAttributedStringAndOptions(${1:CFAttributedStringRef string}, ${2:CFDictionaryRef options})'
   'CTTypesetterGetTypeID':
     'prefix': 'CTTypesetterGetTypeID'
-    'body': 'CTTypesetterGetTypeID()'
+    'body': 'CTTypesetterGetTypeID'
   'CTTypesetterSuggestClusterBreak':
     'prefix': 'CTTypesetterSuggestClusterBreak'
     'body': 'CTTypesetterSuggestClusterBreak(${1:CTTypesetterRef typesetter}, ${2:CFIndex startIndex}, ${3:double width})'

@@ -167,42 +167,54 @@
   'IMSessionAvailabilityAway (0)':
     'prefix': 'IMSessionAvailabilityAway'
     'body': 'IMSessionAvailabilityAway'
+  'IMServicePlugInFileTransfer':
+    'prefix': 'IMServicePlugInFileTransfer'
+    'body': 'IMServicePlugInFileTransfer'
   'IMServicePlugInFileTransfer.fileTransferWithPath:type:totalBytes:':
     'prefix': 'fileTransferWithPath:type:totalBytes:'
     'body': 'fileTransferWithPath(${1:NSString* path}, type:${2:NSString* type}, totalBytes:${3:uint64_t totalBytes})'
   'guid':
     'prefix': 'guid'
-    'body': 'guid()'
+    'body': 'guid'
   'initWithPath:type:totalBytes:':
     'prefix': 'initWithPath:type:totalBytes:'
     'body': 'initWithPath(${1:NSString* path}, type:${2:NSString* type}, totalBytes:${3:uint64_t totalBytes})'
   'path':
     'prefix': 'path'
-    'body': 'path()'
+    'body': 'path'
   'session':
     'prefix': 'session'
-    'body': 'session()'
+    'body': 'session'
   'totalBytes':
     'prefix': 'totalBytes'
-    'body': 'totalBytes()'
+    'body': 'totalBytes'
   'transferredBytes':
     'prefix': 'transferredBytes'
-    'body': 'transferredBytes()'
+    'body': 'transferredBytes'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'IMServicePlugInFileTransferSession':
+    'prefix': 'IMServicePlugInFileTransferSession'
+    'body': 'IMServicePlugInFileTransferSession'
   'containerName':
     'prefix': 'containerName'
-    'body': 'containerName()'
+    'body': 'containerName'
   'guid':
     'prefix': 'guid'
-    'body': 'guid()'
+    'body': 'guid'
+  'IMServicePlugInIncomingFileTransfer':
+    'prefix': 'IMServicePlugInIncomingFileTransfer'
+    'body': 'IMServicePlugInIncomingFileTransfer'
   'outputStream':
     'prefix': 'outputStream'
-    'body': 'outputStream()'
+    'body': 'outputStream'
   'resetOutputStream':
     'prefix': 'resetOutputStream'
-    'body': 'resetOutputStream()'
+    'body': 'resetOutputStream'
+  'IMServicePlugInIncomingFileTransferSession':
+    'prefix': 'IMServicePlugInIncomingFileTransferSession'
+    'body': 'IMServicePlugInIncomingFileTransferSession'
   'addIncomingFileTransfer:':
     'prefix': 'addIncomingFileTransfer:'
     'body': 'addIncomingFileTransfer(${1:IMServicePlugInIncomingFileTransfer* fileTransfer})'
@@ -211,19 +223,22 @@
     'body': 'incomingFileTransferForPath(${1:NSString* path})'
   'incomingFileTransfers':
     'prefix': 'incomingFileTransfers'
-    'body': 'incomingFileTransfers()'
+    'body': 'incomingFileTransfers'
   'setContainerName:':
     'prefix': 'setContainerName:'
     'body': 'setContainerName(${1:NSString* containerName})'
+  'IMServicePlugInMessage':
+    'prefix': 'IMServicePlugInMessage'
+    'body': 'IMServicePlugInMessage'
   'content':
     'prefix': 'content'
-    'body': 'content()'
+    'body': 'content'
   'date':
     'prefix': 'date'
-    'body': 'date()'
+    'body': 'date'
   'guid':
     'prefix': 'guid'
-    'body': 'guid()'
+    'body': 'guid'
   'initWithContent:':
     'prefix': 'initWithContent:'
     'body': 'initWithContent(${1:NSAttributedString* content})'
@@ -242,18 +257,27 @@
   'setDate:':
     'prefix': 'setDate:'
     'body': 'setDate(${1:NSDate* date})'
+  'IMServicePlugInOutgoingFileTransfer':
+    'prefix': 'IMServicePlugInOutgoingFileTransfer'
+    'body': 'IMServicePlugInOutgoingFileTransfer'
   'inputStream':
     'prefix': 'inputStream'
-    'body': 'inputStream()'
+    'body': 'inputStream'
   'resetInputStream':
     'prefix': 'resetInputStream'
-    'body': 'resetInputStream()'
+    'body': 'resetInputStream'
+  'IMServicePlugInOutgoingFileTransferSession':
+    'prefix': 'IMServicePlugInOutgoingFileTransferSession'
+    'body': 'IMServicePlugInOutgoingFileTransferSession'
   'outgoingFileTransferForPath:':
     'prefix': 'outgoingFileTransferForPath:'
     'body': 'outgoingFileTransferForPath(${1:NSString* path})'
   'outgoingFileTransfers':
     'prefix': 'outgoingFileTransfers'
-    'body': 'outgoingFileTransfers()'
+    'body': 'outgoingFileTransfers'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'acceptAuthorizationRequestFromHandle:':
     'prefix': 'acceptAuthorizationRequestFromHandle:'
     'body': 'acceptAuthorizationRequestFromHandle(${1:NSString* handle})'
@@ -301,16 +325,16 @@
     'body': 'leaveChatRoom(${1:NSString* roomName})'
   'login':
     'prefix': 'login'
-    'body': 'login()'
+    'body': 'login'
   'logout':
     'prefix': 'logout'
-    'body': 'logout()'
+    'body': 'logout'
   'plugInDidAcceptOutgoingFileTransferSession:':
     'prefix': 'plugInDidAcceptOutgoingFileTransferSession:'
     'body': 'plugInDidAcceptOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session})'
   'plugInDidFailToAuthenticate':
     'prefix': 'plugInDidFailToAuthenticate'
-    'body': 'plugInDidFailToAuthenticate()'
+    'body': 'plugInDidFailToAuthenticate'
   'plugInDidFinishFileTransferSession:error:':
     'prefix': 'plugInDidFinishFileTransferSession:error:'
     'body': 'plugInDidFinishFileTransferSession(${1:IMServicePlugInFileTransferSession* session}, error:${2:NSError* error})'
@@ -322,7 +346,7 @@
     'body': 'plugInDidLeaveChatRoom(${1:NSString* roomName}, error:${2:NSError* error})'
   'plugInDidLogIn':
     'prefix': 'plugInDidLogIn'
-    'body': 'plugInDidLogIn()'
+    'body': 'plugInDidLogIn'
   'plugInDidLogOutWithError:reconnect:':
     'prefix': 'plugInDidLogOutWithError:reconnect:'
     'body': 'plugInDidLogOutWithError(${1:NSError* error}, reconnect:${2:BOOL reconnect})'
@@ -373,7 +397,7 @@
     'body': 'reorderHandles(${1:NSArray* handles}, inGroup:${2:NSString* groupName})'
   'requestGroupList':
     'prefix': 'requestGroupList'
-    'body': 'requestGroupList()'
+    'body': 'requestGroupList'
   'requestPictureForHandle:withIdentifier:':
     'prefix': 'requestPictureForHandle:withIdentifier:'
     'body': 'requestPictureForHandle(${1:NSString* handle}, withIdentifier:${2:NSString* identifier})'
@@ -401,18 +425,24 @@
   'userDidStopTypingToHandle:':
     'prefix': 'userDidStopTypingToHandle:'
     'body': 'userDidStopTypingToHandle(${1:NSString* handle})'
+  'IMServiceApplication':
+    'prefix': 'IMServiceApplication'
+    'body': 'IMServiceApplication'
   'plugInDidFailToAuthenticate':
     'prefix': 'plugInDidFailToAuthenticate'
-    'body': 'plugInDidFailToAuthenticate()'
+    'body': 'plugInDidFailToAuthenticate'
   'plugInDidLogIn':
     'prefix': 'plugInDidLogIn'
-    'body': 'plugInDidLogIn()'
+    'body': 'plugInDidLogIn'
   'plugInDidLogOutWithError:reconnect:':
     'prefix': 'plugInDidLogOutWithError:reconnect:'
     'body': 'plugInDidLogOutWithError(${1:NSError* error}, reconnect:${2:BOOL reconnect})'
   'plugInDidUpdateProperties:ofHandle:':
     'prefix': 'plugInDidUpdateProperties:ofHandle:'
     'body': 'plugInDidUpdateProperties(${1:NSDictionary* changes}, ofHandle:${2:NSString* handle})'
+  'IMServiceApplicationChatRoomSupport':
+    'prefix': 'IMServiceApplicationChatRoomSupport'
+    'body': 'IMServiceApplicationChatRoomSupport'
   'handles:didJoinChatRoom:':
     'prefix': 'handles:didJoinChatRoom:'
     'body': 'handles(${1:NSArray* handles}, didJoinChatRoom:${2:NSString* roomName})'
@@ -437,6 +467,9 @@
   'plugInDidSendMessage:toChatRoom:error:':
     'prefix': 'plugInDidSendMessage:toChatRoom:error:'
     'body': 'plugInDidSendMessage(${1:IMServicePlugInMessage* message}, toChatRoom:${2:NSString* roomName}, error:${3:NSError* error})'
+  'IMServiceApplicationFileTransferSessionSupport':
+    'prefix': 'IMServiceApplicationFileTransferSessionSupport'
+    'body': 'IMServiceApplicationFileTransferSessionSupport'
   'plugInDidAcceptOutgoingFileTransferSession:':
     'prefix': 'plugInDidAcceptOutgoingFileTransferSession:'
     'body': 'plugInDidAcceptOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session})'
@@ -446,12 +479,21 @@
   'plugInDidReceiveIncomingFileTransferSession:fromHandle:':
     'prefix': 'plugInDidReceiveIncomingFileTransferSession:fromHandle:'
     'body': 'plugInDidReceiveIncomingFileTransferSession(${1:IMServicePlugInIncomingFileTransferSession* session}, fromHandle:${2:NSString* handle})'
+  'IMServiceApplicationGroupListAuthorizationSupport':
+    'prefix': 'IMServiceApplicationGroupListAuthorizationSupport'
+    'body': 'IMServiceApplicationGroupListAuthorizationSupport'
   'plugInDidReceiveAuthorizationRequestFromHandle:':
     'prefix': 'plugInDidReceiveAuthorizationRequestFromHandle:'
     'body': 'plugInDidReceiveAuthorizationRequestFromHandle(${1:NSString* handle})'
+  'IMServiceApplicationGroupListSupport':
+    'prefix': 'IMServiceApplicationGroupListSupport'
+    'body': 'IMServiceApplicationGroupListSupport'
   'plugInDidUpdateGroupList:error:':
     'prefix': 'plugInDidUpdateGroupList:error:'
     'body': 'plugInDidUpdateGroupList(${1:NSArray* groups}, error:${2:NSError* error})'
+  'IMServiceApplicationInstantMessagingSupport':
+    'prefix': 'IMServiceApplicationInstantMessagingSupport'
+    'body': 'IMServiceApplicationInstantMessagingSupport'
   'handleDidStartTyping:':
     'prefix': 'handleDidStartTyping:'
     'body': 'handleDidStartTyping(${1:NSString* handle})'
@@ -464,18 +506,24 @@
   'plugInDidSendMessage:toHandle:error:':
     'prefix': 'plugInDidSendMessage:toHandle:error:'
     'body': 'plugInDidSendMessage(${1:IMServicePlugInMessage* message}, toHandle:${2:NSString* handle}, error:${3:NSError* error})'
+  'IMServicePlugIn':
+    'prefix': 'IMServicePlugIn'
+    'body': 'IMServicePlugIn'
   'initWithServiceApplication:':
     'prefix': 'initWithServiceApplication:'
     'body': 'initWithServiceApplication(${1:id serviceApplication})'
   'login':
     'prefix': 'login'
-    'body': 'login()'
+    'body': 'login'
   'logout':
     'prefix': 'logout'
-    'body': 'logout()'
+    'body': 'logout'
   'updateAccountSettings:':
     'prefix': 'updateAccountSettings:'
     'body': 'updateAccountSettings(${1:NSDictionary* accountSettings})'
+  'IMServicePlugInChatRoomSupport':
+    'prefix': 'IMServicePlugInChatRoomSupport'
+    'body': 'IMServicePlugInChatRoomSupport'
   'declineChatRoomInvitation:':
     'prefix': 'declineChatRoomInvitation:'
     'body': 'declineChatRoomInvitation(${1:NSString* roomName})'
@@ -491,6 +539,9 @@
   'sendMessage:toChatRoom:':
     'prefix': 'sendMessage:toChatRoom:'
     'body': 'sendMessage(${1:IMServicePlugInMessage* message}, toChatRoom:${2:NSString* roomName})'
+  'IMServicePlugInFileTransferSessionSupport':
+    'prefix': 'IMServicePlugInFileTransferSessionSupport'
+    'body': 'IMServicePlugInFileTransferSessionSupport'
   'acceptIncomingFileTransferSession:':
     'prefix': 'acceptIncomingFileTransferSession:'
     'body': 'acceptIncomingFileTransferSession(${1:IMServicePlugInIncomingFileTransferSession* session})'
@@ -500,6 +551,9 @@
   'startOutgoingFileTransferSession:toHandle:':
     'prefix': 'startOutgoingFileTransferSession:toHandle:'
     'body': 'startOutgoingFileTransferSession(${1:IMServicePlugInOutgoingFileTransferSession* session}, toHandle:${2:NSString* handle})'
+  'IMServicePlugInGroupListAuthorizationSupport':
+    'prefix': 'IMServicePlugInGroupListAuthorizationSupport'
+    'body': 'IMServicePlugInGroupListAuthorizationSupport'
   'acceptAuthorizationRequestFromHandle:':
     'prefix': 'acceptAuthorizationRequestFromHandle:'
     'body': 'acceptAuthorizationRequestFromHandle(${1:NSString* handle})'
@@ -509,6 +563,9 @@
   'sendAuthorizationRequestToHandle:':
     'prefix': 'sendAuthorizationRequestToHandle:'
     'body': 'sendAuthorizationRequestToHandle(${1:NSString* handle})'
+  'IMServicePlugInGroupListEditingSupport':
+    'prefix': 'IMServicePlugInGroupListEditingSupport'
+    'body': 'IMServicePlugInGroupListEditingSupport'
   'addGroups:':
     'prefix': 'addGroups:'
     'body': 'addGroups(${1:NSArray* groupNames})'
@@ -524,18 +581,30 @@
   'renameGroup:toGroup:':
     'prefix': 'renameGroup:toGroup:'
     'body': 'renameGroup(${1:NSString* oldGroupName}, toGroup:${2:NSString* newGroupName})'
+  'IMServicePlugInGroupListHandlePictureSupport':
+    'prefix': 'IMServicePlugInGroupListHandlePictureSupport'
+    'body': 'IMServicePlugInGroupListHandlePictureSupport'
   'requestPictureForHandle:withIdentifier:':
     'prefix': 'requestPictureForHandle:withIdentifier:'
     'body': 'requestPictureForHandle(${1:NSString* handle}, withIdentifier:${2:NSString* identifier})'
+  'IMServicePlugInGroupListOrderingSupport':
+    'prefix': 'IMServicePlugInGroupListOrderingSupport'
+    'body': 'IMServicePlugInGroupListOrderingSupport'
   'reorderGroups:':
     'prefix': 'reorderGroups:'
     'body': 'reorderGroups(${1:NSArray* groupNames})'
   'reorderHandles:inGroup:':
     'prefix': 'reorderHandles:inGroup:'
     'body': 'reorderHandles(${1:NSArray* handles}, inGroup:${2:NSString* groupName})'
+  'IMServicePlugInGroupListSupport':
+    'prefix': 'IMServicePlugInGroupListSupport'
+    'body': 'IMServicePlugInGroupListSupport'
   'requestGroupList':
     'prefix': 'requestGroupList'
-    'body': 'requestGroupList()'
+    'body': 'requestGroupList'
+  'IMServicePlugInInstantMessagingSupport':
+    'prefix': 'IMServicePlugInInstantMessagingSupport'
+    'body': 'IMServicePlugInInstantMessagingSupport'
   'sendMessage:toHandle:':
     'prefix': 'sendMessage:toHandle:'
     'body': 'sendMessage(${1:IMServicePlugInMessage* message}, toHandle:${2:NSString* handle})'
@@ -545,6 +614,9 @@
   'userDidStopTypingToHandle:':
     'prefix': 'userDidStopTypingToHandle:'
     'body': 'userDidStopTypingToHandle(${1:NSString* handle})'
+  'IMServicePlugInPresenceSupport':
+    'prefix': 'IMServicePlugInPresenceSupport'
+    'body': 'IMServicePlugInPresenceSupport'
   'updateSessionProperties:':
     'prefix': 'updateSessionProperties:'
     'body': 'updateSessionProperties(${1:NSDictionary* properties})'

@@ -61,19 +61,22 @@
     'body': 'NSLogUncaughtSystemExceptionMask'
   'NSExceptionHandlerResume':
     'prefix': 'NSExceptionHandlerResume'
-    'body': 'NSExceptionHandlerResume()'
+    'body': 'NSExceptionHandlerResume'
+  'NSExceptionHandler':
+    'prefix': 'NSExceptionHandler'
+    'body': 'NSExceptionHandler'
   'NSExceptionHandler.defaultExceptionHandler':
     'prefix': 'defaultExceptionHandler'
-    'body': 'defaultExceptionHandler()'
+    'body': 'defaultExceptionHandler'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'exceptionHandlingMask':
     'prefix': 'exceptionHandlingMask'
-    'body': 'exceptionHandlingMask()'
+    'body': 'exceptionHandlingMask'
   'exceptionHangingMask':
     'prefix': 'exceptionHangingMask'
-    'body': 'exceptionHangingMask()'
+    'body': 'exceptionHangingMask'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id anObject})'
@@ -83,12 +86,18 @@
   'setExceptionHangingMask:':
     'prefix': 'setExceptionHangingMask:'
     'body': 'setExceptionHangingMask(${1:NSUInteger aMask})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'exceptionHandler:shouldHandleException:mask:':
     'prefix': 'exceptionHandler:shouldHandleException:mask:'
     'body': 'exceptionHandler(${1:NSExceptionHandler* sender}, shouldHandleException:${2:NSException* exception}, mask:${3:NSUInteger aMask})'
   'exceptionHandler:shouldLogException:mask:':
     'prefix': 'exceptionHandler:shouldLogException:mask:'
     'body': 'exceptionHandler(${1:NSExceptionHandler* sender}, shouldLogException:${2:NSException* exception}, mask:${3:NSUInteger aMask})'
+  'NSExceptionHandlerDelegate':
+    'prefix': 'NSExceptionHandlerDelegate'
+    'body': 'NSExceptionHandlerDelegate'
   'exceptionHandler:shouldHandleException:mask:':
     'prefix': 'exceptionHandler:shouldHandleException:mask:'
     'body': 'exceptionHandler(${1:NSExceptionHandler* sender}, shouldHandleException:${2:NSException* exception}, mask:${3:NSUInteger aMask})'

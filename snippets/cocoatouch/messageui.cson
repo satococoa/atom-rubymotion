@@ -41,15 +41,18 @@
   'MessageComposeResultSent (1)':
     'prefix': 'MessageComposeResultSent'
     'body': 'MessageComposeResultSent'
+  'MFMailComposeViewController':
+    'prefix': 'MFMailComposeViewController'
+    'body': 'MFMailComposeViewController'
   'addAttachmentData:mimeType:fileName:':
     'prefix': 'addAttachmentData:mimeType:fileName:'
     'body': 'addAttachmentData(${1:NSData* attachment}, mimeType:${2:NSString* mimeType}, fileName:${3:NSString* filename})'
   'MFMailComposeViewController.canSendMail':
     'prefix': 'canSendMail'
-    'body': 'canSendMail()'
+    'body': 'canSendMail'
   'mailComposeDelegate':
     'prefix': 'mailComposeDelegate'
-    'body': 'mailComposeDelegate()'
+    'body': 'mailComposeDelegate'
   'setBccRecipients:':
     'prefix': 'setBccRecipients:'
     'body': 'setBccRecipients(${1:NSArray* bccRecipients})'
@@ -68,6 +71,9 @@
   'setToRecipients:':
     'prefix': 'setToRecipients:'
     'body': 'setToRecipients(${1:NSArray* toRecipients})'
+  'MFMessageComposeViewController':
+    'prefix': 'MFMessageComposeViewController'
+    'body': 'MFMessageComposeViewController'
   'addAttachmentData:typeIdentifier:filename:':
     'prefix': 'addAttachmentData:typeIdentifier:filename:'
     'body': 'addAttachmentData(${1:NSData* attachmentData}, typeIdentifier:${2:NSString* uti}, filename:${3:NSString* filename})'
@@ -76,31 +82,31 @@
     'body': 'addAttachmentURL(${1:NSURL* attachmentURL}, withAlternateFilename:${2:NSString* alternateFilename})'
   'attachments':
     'prefix': 'attachments'
-    'body': 'attachments()'
+    'body': 'attachments'
   'body':
     'prefix': 'body'
-    'body': 'body()'
+    'body': 'body'
   'MFMessageComposeViewController.canSendAttachments':
     'prefix': 'canSendAttachments'
-    'body': 'canSendAttachments()'
+    'body': 'canSendAttachments'
   'MFMessageComposeViewController.canSendSubject':
     'prefix': 'canSendSubject'
-    'body': 'canSendSubject()'
+    'body': 'canSendSubject'
   'MFMessageComposeViewController.canSendText':
     'prefix': 'canSendText'
-    'body': 'canSendText()'
+    'body': 'canSendText'
   'disableUserAttachments':
     'prefix': 'disableUserAttachments'
-    'body': 'disableUserAttachments()'
+    'body': 'disableUserAttachments'
   'MFMessageComposeViewController.isSupportedAttachmentUTI:':
     'prefix': 'isSupportedAttachmentUTI:'
     'body': 'isSupportedAttachmentUTI(${1:NSString* uti})'
   'messageComposeDelegate':
     'prefix': 'messageComposeDelegate'
-    'body': 'messageComposeDelegate()'
+    'body': 'messageComposeDelegate'
   'recipients':
     'prefix': 'recipients'
-    'body': 'recipients()'
+    'body': 'recipients'
   'setBody:':
     'prefix': 'setBody:'
     'body': 'setBody(${1:NSString* body})'
@@ -115,16 +121,25 @@
     'body': 'setSubject(${1:NSString* subject})'
   'subject':
     'prefix': 'subject'
-    'body': 'subject()'
+    'body': 'subject'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'mailComposeController:didFinishWithResult:error:':
     'prefix': 'mailComposeController:didFinishWithResult:error:'
     'body': 'mailComposeController(${1:MFMailComposeViewController* controller}, didFinishWithResult:${2:MFMailComposeResult result}, error:${3:NSError* error})'
   'messageComposeViewController:didFinishWithResult:':
     'prefix': 'messageComposeViewController:didFinishWithResult:'
     'body': 'messageComposeViewController(${1:MFMessageComposeViewController* controller}, didFinishWithResult:${2:MessageComposeResult result})'
+  'MFMailComposeViewControllerDelegate':
+    'prefix': 'MFMailComposeViewControllerDelegate'
+    'body': 'MFMailComposeViewControllerDelegate'
   'mailComposeController:didFinishWithResult:error:':
     'prefix': 'mailComposeController:didFinishWithResult:error:'
     'body': 'mailComposeController(${1:MFMailComposeViewController* controller}, didFinishWithResult:${2:MFMailComposeResult result}, error:${3:NSError* error})'
+  'MFMessageComposeViewControllerDelegate':
+    'prefix': 'MFMessageComposeViewControllerDelegate'
+    'body': 'MFMessageComposeViewControllerDelegate'
   'messageComposeViewController:didFinishWithResult:':
     'prefix': 'messageComposeViewController:didFinishWithResult:'
     'body': 'messageComposeViewController(${1:MFMessageComposeViewController* controller}, didFinishWithResult:${2:MessageComposeResult result})'

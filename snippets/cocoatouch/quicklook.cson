@@ -1,4 +1,7 @@
 '.source.rubymotion':
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'numberOfPreviewItemsInPreviewController:':
     'prefix': 'numberOfPreviewItemsInPreviewController:'
     'body': 'numberOfPreviewItemsInPreviewController(${1:QLPreviewController* controller})'
@@ -22,31 +25,34 @@
     'body': 'previewControllerWillDismiss(${1:QLPreviewController* controller})'
   'previewItemTitle':
     'prefix': 'previewItemTitle'
-    'body': 'previewItemTitle()'
+    'body': 'previewItemTitle'
   'previewItemURL':
     'prefix': 'previewItemURL'
-    'body': 'previewItemURL()'
+    'body': 'previewItemURL'
+  'QLPreviewController':
+    'prefix': 'QLPreviewController'
+    'body': 'QLPreviewController'
   'QLPreviewController.canPreviewItem:':
     'prefix': 'canPreviewItem:'
     'body': 'canPreviewItem(${1:id item})'
   'currentPreviewItem':
     'prefix': 'currentPreviewItem'
-    'body': 'currentPreviewItem()'
+    'body': 'currentPreviewItem'
   'currentPreviewItemIndex':
     'prefix': 'currentPreviewItemIndex'
-    'body': 'currentPreviewItemIndex()'
+    'body': 'currentPreviewItemIndex'
   'dataSource':
     'prefix': 'dataSource'
-    'body': 'dataSource()'
+    'body': 'dataSource'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'refreshCurrentPreviewItem':
     'prefix': 'refreshCurrentPreviewItem'
-    'body': 'refreshCurrentPreviewItem()'
+    'body': 'refreshCurrentPreviewItem'
   'reloadData':
     'prefix': 'reloadData'
-    'body': 'reloadData()'
+    'body': 'reloadData'
   'setCurrentPreviewItemIndex:':
     'prefix': 'setCurrentPreviewItemIndex:'
     'body': 'setCurrentPreviewItemIndex(${1:NSInteger currentPreviewItemIndex})'
@@ -56,12 +62,18 @@
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'QLPreviewControllerDataSource':
+    'prefix': 'QLPreviewControllerDataSource'
+    'body': 'QLPreviewControllerDataSource'
   'numberOfPreviewItemsInPreviewController:':
     'prefix': 'numberOfPreviewItemsInPreviewController:'
     'body': 'numberOfPreviewItemsInPreviewController(${1:QLPreviewController* controller})'
   'previewController:previewItemAtIndex:':
     'prefix': 'previewController:previewItemAtIndex:'
     'body': 'previewController(${1:QLPreviewController* controller}, previewItemAtIndex:${2:NSInteger index})'
+  'QLPreviewControllerDelegate':
+    'prefix': 'QLPreviewControllerDelegate'
+    'body': 'QLPreviewControllerDelegate'
   'previewController:frameForPreviewItem:inSourceView:':
     'prefix': 'previewController:frameForPreviewItem:inSourceView:'
     'body': 'previewController(${1:QLPreviewController* controller}, frameForPreviewItem:${2:id item}, inSourceView:${3:UIView** view})'
@@ -77,9 +89,12 @@
   'previewControllerWillDismiss:':
     'prefix': 'previewControllerWillDismiss:'
     'body': 'previewControllerWillDismiss(${1:QLPreviewController* controller})'
+  'QLPreviewItem':
+    'prefix': 'QLPreviewItem'
+    'body': 'QLPreviewItem'
   'previewItemTitle':
     'prefix': 'previewItemTitle'
-    'body': 'previewItemTitle()'
+    'body': 'previewItemTitle'
   'previewItemURL':
     'prefix': 'previewItemURL'
-    'body': 'previewItemURL()'
+    'body': 'previewItemURL'

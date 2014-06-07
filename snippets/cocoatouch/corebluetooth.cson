@@ -314,30 +314,39 @@
   'CBPeripheralStateDisconnected (0)':
     'prefix': 'CBPeripheralStateDisconnected'
     'body': 'CBPeripheralStateDisconnected'
+  'CBATTRequest':
+    'prefix': 'CBATTRequest'
+    'body': 'CBATTRequest'
   'central':
     'prefix': 'central'
-    'body': 'central()'
+    'body': 'central'
   'characteristic':
     'prefix': 'characteristic'
-    'body': 'characteristic()'
+    'body': 'characteristic'
   'offset':
     'prefix': 'offset'
-    'body': 'offset()'
+    'body': 'offset'
   'setValue:':
     'prefix': 'setValue:'
     'body': 'setValue(${1:NSData* value})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBCentral':
+    'prefix': 'CBCentral'
+    'body': 'CBCentral'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'maximumUpdateValueLength':
     'prefix': 'maximumUpdateValueLength'
-    'body': 'maximumUpdateValueLength()'
+    'body': 'maximumUpdateValueLength'
+  'CBCentralManager':
+    'prefix': 'CBCentralManager'
+    'body': 'CBCentralManager'
   'cancelPeripheralConnection:':
     'prefix': 'cancelPeripheralConnection:'
     'body': 'cancelPeripheralConnection(${1:CBPeripheral* peripheral})'
@@ -346,7 +355,7 @@
     'body': 'connectPeripheral(${1:CBPeripheral* peripheral}, options:${2:NSDictionary* options})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithDelegate:queue:':
     'prefix': 'initWithDelegate:queue:'
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue})'
@@ -355,7 +364,7 @@
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue}, options:${3:NSDictionary* options})'
   'retrieveConnectedPeripherals':
     'prefix': 'retrieveConnectedPeripherals'
-    'body': 'retrieveConnectedPeripherals()'
+    'body': 'retrieveConnectedPeripherals'
   'retrieveConnectedPeripheralsWithServices:':
     'prefix': 'retrieveConnectedPeripheralsWithServices:'
     'body': 'retrieveConnectedPeripheralsWithServices(${1:NSArray* serviceUUIDs})'
@@ -373,61 +382,70 @@
     'body': 'setDelegate(${1:id delegate})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'stopScan':
     'prefix': 'stopScan'
-    'body': 'stopScan()'
+    'body': 'stopScan'
+  'CBCharacteristic':
+    'prefix': 'CBCharacteristic'
+    'body': 'CBCharacteristic'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'descriptors':
     'prefix': 'descriptors'
-    'body': 'descriptors()'
+    'body': 'descriptors'
   'isBroadcasted':
     'prefix': 'isBroadcasted'
-    'body': 'isBroadcasted()'
+    'body': 'isBroadcasted'
   'isNotifying':
     'prefix': 'isNotifying'
-    'body': 'isNotifying()'
+    'body': 'isNotifying'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'service':
     'prefix': 'service'
-    'body': 'service()'
+    'body': 'service'
   'setService:':
     'prefix': 'setService:'
     'body': 'setService(${1:CBService* service})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBDescriptor':
+    'prefix': 'CBDescriptor'
+    'body': 'CBDescriptor'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'characteristic':
     'prefix': 'characteristic'
-    'body': 'characteristic()'
+    'body': 'characteristic'
   'setCharacteristic:':
     'prefix': 'setCharacteristic:'
     'body': 'setCharacteristic(${1:CBCharacteristic* characteristic})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBMutableCharacteristic':
+    'prefix': 'CBMutableCharacteristic'
+    'body': 'CBMutableCharacteristic'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'descriptors':
     'prefix': 'descriptors'
-    'body': 'descriptors()'
+    'body': 'descriptors'
   'initWithType:properties:value:permissions:':
     'prefix': 'initWithType:properties:value:permissions:'
     'body': 'initWithType(${1:CBUUID* UUID}, properties:${2:CBCharacteristicProperties properties}, value:${3:NSData* value}, permissions:${4:CBAttributePermissions permissions})'
   'permissions':
     'prefix': 'permissions'
-    'body': 'permissions()'
+    'body': 'permissions'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'setDescriptors:':
     'prefix': 'setDescriptors:'
     'body': 'setDescriptors(${1:NSArray* descriptors})'
@@ -445,28 +463,34 @@
     'body': 'setValue(${1:NSData* value})'
   'subscribedCentrals':
     'prefix': 'subscribedCentrals'
-    'body': 'subscribedCentrals()'
+    'body': 'subscribedCentrals'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBMutableDescriptor':
+    'prefix': 'CBMutableDescriptor'
+    'body': 'CBMutableDescriptor'
   'initWithType:value:':
     'prefix': 'initWithType:value:'
     'body': 'initWithType(${1:CBUUID* UUID}, value:${2:id value})'
+  'CBMutableService':
+    'prefix': 'CBMutableService'
+    'body': 'CBMutableService'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'characteristics':
     'prefix': 'characteristics'
-    'body': 'characteristics()'
+    'body': 'characteristics'
   'includedServices':
     'prefix': 'includedServices'
-    'body': 'includedServices()'
+    'body': 'includedServices'
   'initWithType:primary:':
     'prefix': 'initWithType:primary:'
     'body': 'initWithType(${1:CBUUID* UUID}, primary:${2:BOOL isPrimary})'
   'isPrimary':
     'prefix': 'isPrimary'
-    'body': 'isPrimary()'
+    'body': 'isPrimary'
   'setCharacteristics:':
     'prefix': 'setCharacteristics:'
     'body': 'setCharacteristics(${1:NSArray* characteristics})'
@@ -479,15 +503,18 @@
   'setUUID:':
     'prefix': 'setUUID:'
     'body': 'setUUID(${1:CBUUID* UUID})'
+  'CBPeripheral':
+    'prefix': 'CBPeripheral'
+    'body': 'CBPeripheral'
   'RSSI':
     'prefix': 'RSSI'
-    'body': 'RSSI()'
+    'body': 'RSSI'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'discoverCharacteristics:forService:':
     'prefix': 'discoverCharacteristics:forService:'
     'body': 'discoverCharacteristics(${1:NSArray* characteristicUUIDs}, forService:${2:CBService* service})'
@@ -502,16 +529,16 @@
     'body': 'discoverServices(${1:NSArray* serviceUUIDs})'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'readRSSI':
     'prefix': 'readRSSI'
-    'body': 'readRSSI()'
+    'body': 'readRSSI'
   'readValueForCharacteristic:':
     'prefix': 'readValueForCharacteristic:'
     'body': 'readValueForCharacteristic(${1:CBCharacteristic* characteristic})'
@@ -520,7 +547,7 @@
     'body': 'readValueForDescriptor(${1:CBDescriptor* descriptor})'
   'services':
     'prefix': 'services'
-    'body': 'services()'
+    'body': 'services'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -529,22 +556,25 @@
     'body': 'setNotifyValue(${1:BOOL enabled}, forCharacteristic:${2:CBCharacteristic* characteristic})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'writeValue:forCharacteristic:type:':
     'prefix': 'writeValue:forCharacteristic:type:'
     'body': 'writeValue(${1:NSData* data}, forCharacteristic:${2:CBCharacteristic* characteristic}, type:${3:CBCharacteristicWriteType type})'
   'writeValue:forDescriptor:':
     'prefix': 'writeValue:forDescriptor:'
     'body': 'writeValue(${1:NSData* data}, forDescriptor:${2:CBDescriptor* descriptor})'
+  'CBPeripheralManager':
+    'prefix': 'CBPeripheralManager'
+    'body': 'CBPeripheralManager'
   'addService:':
     'prefix': 'addService:'
     'body': 'addService(${1:CBMutableService* service})'
   'CBPeripheralManager.authorizationStatus':
     'prefix': 'authorizationStatus'
-    'body': 'authorizationStatus()'
+    'body': 'authorizationStatus'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithDelegate:queue:':
     'prefix': 'initWithDelegate:queue:'
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue})'
@@ -553,10 +583,10 @@
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue}, options:${3:NSDictionary* options})'
   'isAdvertising':
     'prefix': 'isAdvertising'
-    'body': 'isAdvertising()'
+    'body': 'isAdvertising'
   'removeAllServices':
     'prefix': 'removeAllServices'
-    'body': 'removeAllServices()'
+    'body': 'removeAllServices'
   'removeService:':
     'prefix': 'removeService:'
     'body': 'removeService(${1:CBMutableService* service})'
@@ -574,34 +604,40 @@
     'body': 'startAdvertising(${1:NSDictionary* advertisementData})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'stopAdvertising':
     'prefix': 'stopAdvertising'
-    'body': 'stopAdvertising()'
+    'body': 'stopAdvertising'
   'updateValue:forCharacteristic:onSubscribedCentrals:':
     'prefix': 'updateValue:forCharacteristic:onSubscribedCentrals:'
     'body': 'updateValue(${1:NSData* value}, forCharacteristic:${2:CBMutableCharacteristic* characteristic}, onSubscribedCentrals:${3:NSArray* centrals})'
+  'CBService':
+    'prefix': 'CBService'
+    'body': 'CBService'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'characteristics':
     'prefix': 'characteristics'
-    'body': 'characteristics()'
+    'body': 'characteristics'
   'includedServices':
     'prefix': 'includedServices'
-    'body': 'includedServices()'
+    'body': 'includedServices'
   'isPrimary':
     'prefix': 'isPrimary'
-    'body': 'isPrimary()'
+    'body': 'isPrimary'
   'peripheral':
     'prefix': 'peripheral'
-    'body': 'peripheral()'
+    'body': 'peripheral'
   'setPeripheral:':
     'prefix': 'setPeripheral:'
     'body': 'setPeripheral(${1:CBPeripheral* peripheral})'
+  'CBUUID':
+    'prefix': 'CBUUID'
+    'body': 'CBUUID'
   'UUIDString':
     'prefix': 'UUIDString'
-    'body': 'UUIDString()'
+    'body': 'UUIDString'
   'CBUUID.UUIDWithCFUUID:':
     'prefix': 'UUIDWithCFUUID:'
     'body': 'UUIDWithCFUUID(${1:CFUUIDRef theUUID})'
@@ -616,7 +652,10 @@
     'body': 'UUIDWithString(${1:NSString* theString})'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'centralManager:didConnectPeripheral:':
     'prefix': 'centralManager:didConnectPeripheral:'
     'body': 'centralManager(${1:CBCentralManager* central}, didConnectPeripheral:${2:CBPeripheral* peripheral})'
@@ -707,6 +746,9 @@
   'peripheralManagerIsReadyToUpdateSubscribers:':
     'prefix': 'peripheralManagerIsReadyToUpdateSubscribers:'
     'body': 'peripheralManagerIsReadyToUpdateSubscribers(${1:CBPeripheralManager* peripheral})'
+  'CBCentralManagerDelegate':
+    'prefix': 'CBCentralManagerDelegate'
+    'body': 'CBCentralManagerDelegate'
   'centralManager:didConnectPeripheral:':
     'prefix': 'centralManager:didConnectPeripheral:'
     'body': 'centralManager(${1:CBCentralManager* central}, didConnectPeripheral:${2:CBPeripheral* peripheral})'
@@ -731,6 +773,9 @@
   'centralManagerDidUpdateState:':
     'prefix': 'centralManagerDidUpdateState:'
     'body': 'centralManagerDidUpdateState(${1:CBCentralManager* central})'
+  'CBPeripheralDelegate':
+    'prefix': 'CBPeripheralDelegate'
+    'body': 'CBPeripheralDelegate'
   'peripheral:didDiscoverCharacteristicsForService:error:':
     'prefix': 'peripheral:didDiscoverCharacteristicsForService:error:'
     'body': 'peripheral(${1:CBPeripheral* peripheral}, didDiscoverCharacteristicsForService:${2:CBService* service}, error:${3:NSError* error})'
@@ -770,6 +815,9 @@
   'peripheralDidUpdateRSSI:error:':
     'prefix': 'peripheralDidUpdateRSSI:error:'
     'body': 'peripheralDidUpdateRSSI(${1:CBPeripheral* peripheral}, error:${2:NSError* error})'
+  'CBPeripheralManagerDelegate':
+    'prefix': 'CBPeripheralManagerDelegate'
+    'body': 'CBPeripheralManagerDelegate'
   'peripheralManager:central:didSubscribeToCharacteristic:':
     'prefix': 'peripheralManager:central:didSubscribeToCharacteristic:'
     'body': 'peripheralManager(${1:CBPeripheralManager* peripheral}, central:${2:CBCentral* central}, didSubscribeToCharacteristic:${3:CBCharacteristic* characteristic})'

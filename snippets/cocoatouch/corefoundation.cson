@@ -2335,7 +2335,7 @@
     'body': 'CFAbsoluteTimeAddGregorianUnits(${1:CFAbsoluteTime at}, ${2:CFTimeZoneRef tz}, ${3:CFGregorianUnits units})'
   'CFAbsoluteTimeGetCurrent':
     'prefix': 'CFAbsoluteTimeGetCurrent'
-    'body': 'CFAbsoluteTimeGetCurrent()'
+    'body': 'CFAbsoluteTimeGetCurrent'
   'CFAbsoluteTimeGetDayOfWeek':
     'prefix': 'CFAbsoluteTimeGetDayOfWeek'
     'body': 'CFAbsoluteTimeGetDayOfWeek(${1:CFAbsoluteTime at}, ${2:CFTimeZoneRef tz})'
@@ -2365,13 +2365,13 @@
     'body': 'CFAllocatorGetContext(${1:CFAllocatorRef allocator}, ${2:CFAllocatorContext* context})'
   'CFAllocatorGetDefault':
     'prefix': 'CFAllocatorGetDefault'
-    'body': 'CFAllocatorGetDefault()'
+    'body': 'CFAllocatorGetDefault'
   'CFAllocatorGetPreferredSizeForSize':
     'prefix': 'CFAllocatorGetPreferredSizeForSize'
     'body': 'CFAllocatorGetPreferredSizeForSize(${1:CFAllocatorRef allocator}, ${2:CFIndex size}, ${3:CFOptionFlags hint})'
   'CFAllocatorGetTypeID':
     'prefix': 'CFAllocatorGetTypeID'
-    'body': 'CFAllocatorGetTypeID()'
+    'body': 'CFAllocatorGetTypeID'
   'CFAllocatorReallocate':
     'prefix': 'CFAllocatorReallocate'
     'body': 'CFAllocatorReallocate(${1:CFAllocatorRef allocator}, ${2:void* ptr}, ${3:CFIndex newsize}, ${4:CFOptionFlags hint})'
@@ -2422,7 +2422,7 @@
     'body': 'CFArrayGetLastIndexOfValue(${1:CFArrayRef theArray}, ${2:CFRange range}, ${3:void* value})'
   'CFArrayGetTypeID':
     'prefix': 'CFArrayGetTypeID'
-    'body': 'CFArrayGetTypeID()'
+    'body': 'CFArrayGetTypeID'
   'CFArrayGetValueAtIndex':
     'prefix': 'CFArrayGetValueAtIndex'
     'body': 'CFArrayGetValueAtIndex(${1:CFArrayRef theArray}, ${2:CFIndex idx})'
@@ -2491,7 +2491,7 @@
     'body': 'CFAttributedStringGetString(${1:CFAttributedStringRef aStr})'
   'CFAttributedStringGetTypeID':
     'prefix': 'CFAttributedStringGetTypeID'
-    'body': 'CFAttributedStringGetTypeID()'
+    'body': 'CFAttributedStringGetTypeID'
   'CFAttributedStringRemoveAttribute':
     'prefix': 'CFAttributedStringRemoveAttribute'
     'body': 'CFAttributedStringRemoveAttribute(${1:CFMutableAttributedStringRef aStr}, ${2:CFRange range}, ${3:CFStringRef attrName})'
@@ -2539,7 +2539,7 @@
     'body': 'CFBagGetCountOfValue(${1:CFBagRef theBag}, ${2:void* value})'
   'CFBagGetTypeID':
     'prefix': 'CFBagGetTypeID'
-    'body': 'CFBagGetTypeID()'
+    'body': 'CFBagGetTypeID'
   'CFBagGetValue':
     'prefix': 'CFBagGetValue'
     'body': 'CFBagGetValue(${1:CFBagRef theBag}, ${2:void* value})'
@@ -2590,7 +2590,7 @@
     'body': 'CFBinaryHeapGetMinimumIfPresent(${1:CFBinaryHeapRef heap}, ${2:void** value})'
   'CFBinaryHeapGetTypeID':
     'prefix': 'CFBinaryHeapGetTypeID'
-    'body': 'CFBinaryHeapGetTypeID()'
+    'body': 'CFBinaryHeapGetTypeID'
   'CFBinaryHeapGetValues':
     'prefix': 'CFBinaryHeapGetValues'
     'body': 'CFBinaryHeapGetValues(${1:CFBinaryHeapRef heap}, ${2:void** values})'
@@ -2641,7 +2641,7 @@
     'body': 'CFBitVectorGetLastIndexOfBit(${1:CFBitVectorRef bv}, ${2:CFRange range}, ${3:CFBit value})'
   'CFBitVectorGetTypeID':
     'prefix': 'CFBitVectorGetTypeID'
-    'body': 'CFBitVectorGetTypeID()'
+    'body': 'CFBitVectorGetTypeID'
   'CFBitVectorSetAllBits':
     'prefix': 'CFBitVectorSetAllBits'
     'body': 'CFBitVectorSetAllBits(${1:CFMutableBitVectorRef bv}, ${2:CFBit value})'
@@ -2656,7 +2656,7 @@
     'body': 'CFBitVectorSetCount(${1:CFMutableBitVectorRef bv}, ${2:CFIndex count})'
   'CFBooleanGetTypeID':
     'prefix': 'CFBooleanGetTypeID'
-    'body': 'CFBooleanGetTypeID()'
+    'body': 'CFBooleanGetTypeID'
   'CFBooleanGetValue':
     'prefix': 'CFBooleanGetValue'
     'body': 'CFBooleanGetValue(${1:CFBooleanRef boolean})'
@@ -2743,7 +2743,7 @@
     'body': 'CFBundleCreateBundlesFromDirectory(${1:CFAllocatorRef allocator}, ${2:CFURLRef directoryURL}, ${3:CFStringRef bundleType})'
   'CFBundleGetAllBundles':
     'prefix': 'CFBundleGetAllBundles'
-    'body': 'CFBundleGetAllBundles()'
+    'body': 'CFBundleGetAllBundles'
   'CFBundleGetBundleWithIdentifier':
     'prefix': 'CFBundleGetBundleWithIdentifier'
     'body': 'CFBundleGetBundleWithIdentifier(${1:CFStringRef bundleID})'
@@ -2773,7 +2773,7 @@
     'body': 'CFBundleGetLocalInfoDictionary(${1:CFBundleRef bundle})'
   'CFBundleGetMainBundle':
     'prefix': 'CFBundleGetMainBundle'
-    'body': 'CFBundleGetMainBundle()'
+    'body': 'CFBundleGetMainBundle'
   'CFBundleGetPackageInfo':
     'prefix': 'CFBundleGetPackageInfo'
     'body': 'CFBundleGetPackageInfo(${1:CFBundleRef bundle}, ${2:UInt32* packageType}, ${3:UInt32* packageCreator})'
@@ -2785,7 +2785,7 @@
     'body': 'CFBundleGetPlugIn(${1:CFBundleRef bundle})'
   'CFBundleGetTypeID':
     'prefix': 'CFBundleGetTypeID'
-    'body': 'CFBundleGetTypeID()'
+    'body': 'CFBundleGetTypeID'
   'CFBundleGetValueForInfoDictionaryKey':
     'prefix': 'CFBundleGetValueForInfoDictionaryKey'
     'body': 'CFBundleGetValueForInfoDictionaryKey(${1:CFBundleRef bundle}, ${2:CFStringRef key})'
@@ -2815,7 +2815,7 @@
     'body': 'CFBundleUnloadExecutable(${1:CFBundleRef bundle})'
   'CFByteOrderGetCurrent':
     'prefix': 'CFByteOrderGetCurrent'
-    'body': 'CFByteOrderGetCurrent()'
+    'body': 'CFByteOrderGetCurrent'
   'CFCalendarAddComponents':
     'prefix': 'CFCalendarAddComponents'
     'body': 'CFCalendarAddComponents(${1:CFCalendarRef calendar}, ${2:CFAbsoluteTime* at}, ${3:CFOptionFlags options}, ${4:char* componentDesc})'
@@ -2824,7 +2824,7 @@
     'body': 'CFCalendarComposeAbsoluteTime(${1:CFCalendarRef calendar}, ${2:CFAbsoluteTime* at}, ${3:char* componentDesc})'
   'CFCalendarCopyCurrent':
     'prefix': 'CFCalendarCopyCurrent'
-    'body': 'CFCalendarCopyCurrent()'
+    'body': 'CFCalendarCopyCurrent'
   'CFCalendarCopyLocale':
     'prefix': 'CFCalendarCopyLocale'
     'body': 'CFCalendarCopyLocale(${1:CFCalendarRef calendar})'
@@ -2866,7 +2866,7 @@
     'body': 'CFCalendarGetTimeRangeOfUnit(${1:CFCalendarRef calendar}, ${2:CFCalendarUnit unit}, ${3:CFAbsoluteTime at}, ${4:CFAbsoluteTime* startp}, ${5:CFTimeInterval* tip})'
   'CFCalendarGetTypeID':
     'prefix': 'CFCalendarGetTypeID'
-    'body': 'CFCalendarGetTypeID()'
+    'body': 'CFCalendarGetTypeID'
   'CFCalendarSetFirstWeekday':
     'prefix': 'CFCalendarSetFirstWeekday'
     'body': 'CFCalendarSetFirstWeekday(${1:CFCalendarRef calendar}, ${2:CFIndex wkdy})'
@@ -2914,7 +2914,7 @@
     'body': 'CFCharacterSetGetPredefined(${1:CFCharacterSetPredefinedSet theSetIdentifier})'
   'CFCharacterSetGetTypeID':
     'prefix': 'CFCharacterSetGetTypeID'
-    'body': 'CFCharacterSetGetTypeID()'
+    'body': 'CFCharacterSetGetTypeID'
   'CFCharacterSetHasMemberInPlane':
     'prefix': 'CFCharacterSetHasMemberInPlane'
     'body': 'CFCharacterSetHasMemberInPlane(${1:CFCharacterSetRef theSet}, ${2:CFIndex thePlane})'
@@ -2971,7 +2971,7 @@
     'body': 'CFCopyDescription(${1:CFTypeRef cf})'
   'CFCopyHomeDirectoryURL':
     'prefix': 'CFCopyHomeDirectoryURL'
-    'body': 'CFCopyHomeDirectoryURL()'
+    'body': 'CFCopyHomeDirectoryURL'
   'CFCopyTypeIDDescription':
     'prefix': 'CFCopyTypeIDDescription'
     'body': 'CFCopyTypeIDDescription(${1:CFTypeID type_id})'
@@ -3013,7 +3013,7 @@
     'body': 'CFDataGetMutableBytePtr(${1:CFMutableDataRef theData})'
   'CFDataGetTypeID':
     'prefix': 'CFDataGetTypeID'
-    'body': 'CFDataGetTypeID()'
+    'body': 'CFDataGetTypeID'
   'CFDataIncreaseLength':
     'prefix': 'CFDataIncreaseLength'
     'body': 'CFDataIncreaseLength(${1:CFMutableDataRef theData}, ${2:CFIndex extraLength})'
@@ -3064,7 +3064,7 @@
     'body': 'CFDateFormatterGetTimeStyle(${1:CFDateFormatterRef formatter})'
   'CFDateFormatterGetTypeID':
     'prefix': 'CFDateFormatterGetTypeID'
-    'body': 'CFDateFormatterGetTypeID()'
+    'body': 'CFDateFormatterGetTypeID'
   'CFDateFormatterSetFormat':
     'prefix': 'CFDateFormatterSetFormat'
     'body': 'CFDateFormatterSetFormat(${1:CFDateFormatterRef formatter}, ${2:CFStringRef formatString})'
@@ -3079,7 +3079,7 @@
     'body': 'CFDateGetTimeIntervalSinceDate(${1:CFDateRef theDate}, ${2:CFDateRef otherDate})'
   'CFDateGetTypeID':
     'prefix': 'CFDateGetTypeID'
-    'body': 'CFDateGetTypeID()'
+    'body': 'CFDateGetTypeID'
   'CFDictionaryAddValue':
     'prefix': 'CFDictionaryAddValue'
     'body': 'CFDictionaryAddValue(${1:CFMutableDictionaryRef theDict}, ${2:void* key}, ${3:void* value})'
@@ -3118,7 +3118,7 @@
     'body': 'CFDictionaryGetKeysAndValues(${1:CFDictionaryRef theDict}, ${2:void** keys}, ${3:void** values})'
   'CFDictionaryGetTypeID':
     'prefix': 'CFDictionaryGetTypeID'
-    'body': 'CFDictionaryGetTypeID()'
+    'body': 'CFDictionaryGetTypeID'
   'CFDictionaryGetValue':
     'prefix': 'CFDictionaryGetValue'
     'body': 'CFDictionaryGetValue(${1:CFDictionaryRef theDict}, ${2:void* key})'
@@ -3166,7 +3166,7 @@
     'body': 'CFErrorGetDomain(${1:CFErrorRef err})'
   'CFErrorGetTypeID':
     'prefix': 'CFErrorGetTypeID'
-    'body': 'CFErrorGetTypeID()'
+    'body': 'CFErrorGetTypeID'
   'CFFileDescriptorCreate':
     'prefix': 'CFFileDescriptorCreate'
     'body': 'CFFileDescriptorCreate(${1:CFAllocatorRef allocator}, ${2:CFFileDescriptorNativeDescriptor fd}, ${3:Boolean closeOnInvalidate}, ${4:CFFileDescriptorCallBack callout}, ${5:CFFileDescriptorContext* context})'
@@ -3187,7 +3187,7 @@
     'body': 'CFFileDescriptorGetNativeDescriptor(${1:CFFileDescriptorRef f})'
   'CFFileDescriptorGetTypeID':
     'prefix': 'CFFileDescriptorGetTypeID'
-    'body': 'CFFileDescriptorGetTypeID()'
+    'body': 'CFFileDescriptorGetTypeID'
   'CFFileDescriptorInvalidate':
     'prefix': 'CFFileDescriptorInvalidate'
     'body': 'CFFileDescriptorInvalidate(${1:CFFileDescriptorRef f})'
@@ -3223,7 +3223,7 @@
     'body': 'CFFileSecurityGetOwner(${1:CFFileSecurityRef fileSec}, ${2:uid_t* owner})'
   'CFFileSecurityGetTypeID':
     'prefix': 'CFFileSecurityGetTypeID'
-    'body': 'CFFileSecurityGetTypeID()'
+    'body': 'CFFileSecurityGetTypeID'
   'CFFileSecuritySetAccessControlList':
     'prefix': 'CFFileSecuritySetAccessControlList'
     'body': 'CFFileSecuritySetAccessControlList(${1:CFFileSecurityRef fileSec}, ${2:acl_t accessControlList})'
@@ -3262,28 +3262,28 @@
     'body': 'CFHash(${1:CFTypeRef cf})'
   'CFLocaleCopyAvailableLocaleIdentifiers':
     'prefix': 'CFLocaleCopyAvailableLocaleIdentifiers'
-    'body': 'CFLocaleCopyAvailableLocaleIdentifiers()'
+    'body': 'CFLocaleCopyAvailableLocaleIdentifiers'
   'CFLocaleCopyCommonISOCurrencyCodes':
     'prefix': 'CFLocaleCopyCommonISOCurrencyCodes'
-    'body': 'CFLocaleCopyCommonISOCurrencyCodes()'
+    'body': 'CFLocaleCopyCommonISOCurrencyCodes'
   'CFLocaleCopyCurrent':
     'prefix': 'CFLocaleCopyCurrent'
-    'body': 'CFLocaleCopyCurrent()'
+    'body': 'CFLocaleCopyCurrent'
   'CFLocaleCopyDisplayNameForPropertyValue':
     'prefix': 'CFLocaleCopyDisplayNameForPropertyValue'
     'body': 'CFLocaleCopyDisplayNameForPropertyValue(${1:CFLocaleRef displayLocale}, ${2:CFStringRef key}, ${3:CFStringRef value})'
   'CFLocaleCopyISOCountryCodes':
     'prefix': 'CFLocaleCopyISOCountryCodes'
-    'body': 'CFLocaleCopyISOCountryCodes()'
+    'body': 'CFLocaleCopyISOCountryCodes'
   'CFLocaleCopyISOCurrencyCodes':
     'prefix': 'CFLocaleCopyISOCurrencyCodes'
-    'body': 'CFLocaleCopyISOCurrencyCodes()'
+    'body': 'CFLocaleCopyISOCurrencyCodes'
   'CFLocaleCopyISOLanguageCodes':
     'prefix': 'CFLocaleCopyISOLanguageCodes'
-    'body': 'CFLocaleCopyISOLanguageCodes()'
+    'body': 'CFLocaleCopyISOLanguageCodes'
   'CFLocaleCopyPreferredLanguages':
     'prefix': 'CFLocaleCopyPreferredLanguages'
-    'body': 'CFLocaleCopyPreferredLanguages()'
+    'body': 'CFLocaleCopyPreferredLanguages'
   'CFLocaleCreate':
     'prefix': 'CFLocaleCreate'
     'body': 'CFLocaleCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef localeIdentifier})'
@@ -3319,10 +3319,10 @@
     'body': 'CFLocaleGetLanguageLineDirection(${1:CFStringRef isoLangCode})'
   'CFLocaleGetSystem':
     'prefix': 'CFLocaleGetSystem'
-    'body': 'CFLocaleGetSystem()'
+    'body': 'CFLocaleGetSystem'
   'CFLocaleGetTypeID':
     'prefix': 'CFLocaleGetTypeID'
-    'body': 'CFLocaleGetTypeID()'
+    'body': 'CFLocaleGetTypeID'
   'CFLocaleGetValue':
     'prefix': 'CFLocaleGetValue'
     'body': 'CFLocaleGetValue(${1:CFLocaleRef locale}, ${2:CFStringRef key})'
@@ -3349,7 +3349,7 @@
     'body': 'CFMachPortGetPort(${1:CFMachPortRef port})'
   'CFMachPortGetTypeID':
     'prefix': 'CFMachPortGetTypeID'
-    'body': 'CFMachPortGetTypeID()'
+    'body': 'CFMachPortGetTypeID'
   'CFMachPortInvalidate':
     'prefix': 'CFMachPortInvalidate'
     'body': 'CFMachPortInvalidate(${1:CFMachPortRef port})'
@@ -3382,7 +3382,7 @@
     'body': 'CFMessagePortGetName(${1:CFMessagePortRef ms})'
   'CFMessagePortGetTypeID':
     'prefix': 'CFMessagePortGetTypeID'
-    'body': 'CFMessagePortGetTypeID()'
+    'body': 'CFMessagePortGetTypeID'
   'CFMessagePortInvalidate':
     'prefix': 'CFMessagePortInvalidate'
     'body': 'CFMessagePortInvalidate(${1:CFMessagePortRef ms})'
@@ -3409,13 +3409,13 @@
     'body': 'CFNotificationCenterAddObserver(${1:CFNotificationCenterRef center}, ${2:void* observer}, ${3:CFNotificationCallback callBack}, ${4:CFStringRef name}, ${5:void* object}, ${6:CFNotificationSuspensionBehavior suspensionBehavior})'
   'CFNotificationCenterGetDarwinNotifyCenter':
     'prefix': 'CFNotificationCenterGetDarwinNotifyCenter'
-    'body': 'CFNotificationCenterGetDarwinNotifyCenter()'
+    'body': 'CFNotificationCenterGetDarwinNotifyCenter'
   'CFNotificationCenterGetLocalCenter':
     'prefix': 'CFNotificationCenterGetLocalCenter'
-    'body': 'CFNotificationCenterGetLocalCenter()'
+    'body': 'CFNotificationCenterGetLocalCenter'
   'CFNotificationCenterGetTypeID':
     'prefix': 'CFNotificationCenterGetTypeID'
-    'body': 'CFNotificationCenterGetTypeID()'
+    'body': 'CFNotificationCenterGetTypeID'
   'CFNotificationCenterPostNotification':
     'prefix': 'CFNotificationCenterPostNotification'
     'body': 'CFNotificationCenterPostNotification(${1:CFNotificationCenterRef center}, ${2:CFStringRef name}, ${3:void* object}, ${4:CFDictionaryRef userInfo}, ${5:Boolean deliverImmediately})'
@@ -3430,7 +3430,7 @@
     'body': 'CFNotificationCenterRemoveObserver(${1:CFNotificationCenterRef center}, ${2:void* observer}, ${3:CFStringRef name}, ${4:void* object})'
   'CFNullGetTypeID':
     'prefix': 'CFNullGetTypeID'
-    'body': 'CFNullGetTypeID()'
+    'body': 'CFNullGetTypeID'
   'CFNumberCompare':
     'prefix': 'CFNumberCompare'
     'body': 'CFNumberCompare(${1:CFNumberRef number}, ${2:CFNumberRef otherNumber}, ${3:void* context})'
@@ -3466,7 +3466,7 @@
     'body': 'CFNumberFormatterGetStyle(${1:CFNumberFormatterRef formatter})'
   'CFNumberFormatterGetTypeID':
     'prefix': 'CFNumberFormatterGetTypeID'
-    'body': 'CFNumberFormatterGetTypeID()'
+    'body': 'CFNumberFormatterGetTypeID'
   'CFNumberFormatterGetValueFromString':
     'prefix': 'CFNumberFormatterGetValueFromString'
     'body': 'CFNumberFormatterGetValueFromString(${1:CFNumberFormatterRef formatter}, ${2:CFStringRef string}, ${3:CFRange* rangep}, ${4:CFNumberType numberType}, ${5:void* valuePtr})'
@@ -3484,7 +3484,7 @@
     'body': 'CFNumberGetType(${1:CFNumberRef number})'
   'CFNumberGetTypeID':
     'prefix': 'CFNumberGetTypeID'
-    'body': 'CFNumberGetTypeID()'
+    'body': 'CFNumberGetTypeID'
   'CFNumberGetValue':
     'prefix': 'CFNumberGetValue'
     'body': 'CFNumberGetValue(${1:CFNumberRef number}, ${2:CFNumberType theType}, ${3:void* valuePtr})'
@@ -3508,7 +3508,7 @@
     'body': 'CFPlugInGetBundle(${1:CFPlugInRef plugIn})'
   'CFPlugInGetTypeID':
     'prefix': 'CFPlugInGetTypeID'
-    'body': 'CFPlugInGetTypeID()'
+    'body': 'CFPlugInGetTypeID'
   'CFPlugInInstanceCreate':
     'prefix': 'CFPlugInInstanceCreate'
     'body': 'CFPlugInInstanceCreate(${1:CFAllocatorRef allocator}, ${2:CFUUIDRef factoryUUID}, ${3:CFUUIDRef typeUUID})'
@@ -3526,7 +3526,7 @@
     'body': 'CFPlugInInstanceGetInterfaceFunctionTable(${1:CFPlugInInstanceRef instance}, ${2:CFStringRef interfaceName}, ${3:void** ftbl})'
   'CFPlugInInstanceGetTypeID':
     'prefix': 'CFPlugInInstanceGetTypeID'
-    'body': 'CFPlugInInstanceGetTypeID()'
+    'body': 'CFPlugInInstanceGetTypeID'
   'CFPlugInIsLoadOnDemand':
     'prefix': 'CFPlugInIsLoadOnDemand'
     'body': 'CFPlugInIsLoadOnDemand(${1:CFPlugInRef plugIn})'
@@ -3658,7 +3658,7 @@
     'body': 'CFReadStreamGetStatus(${1:CFReadStreamRef stream})'
   'CFReadStreamGetTypeID':
     'prefix': 'CFReadStreamGetTypeID'
-    'body': 'CFReadStreamGetTypeID()'
+    'body': 'CFReadStreamGetTypeID'
   'CFReadStreamHasBytesAvailable':
     'prefix': 'CFReadStreamHasBytesAvailable'
     'body': 'CFReadStreamHasBytesAvailable(${1:CFReadStreamRef stream})'
@@ -3718,16 +3718,16 @@
     'body': 'CFRunLoopCopyCurrentMode(${1:CFRunLoopRef rl})'
   'CFRunLoopGetCurrent':
     'prefix': 'CFRunLoopGetCurrent'
-    'body': 'CFRunLoopGetCurrent()'
+    'body': 'CFRunLoopGetCurrent'
   'CFRunLoopGetMain':
     'prefix': 'CFRunLoopGetMain'
-    'body': 'CFRunLoopGetMain()'
+    'body': 'CFRunLoopGetMain'
   'CFRunLoopGetNextTimerFireDate':
     'prefix': 'CFRunLoopGetNextTimerFireDate'
     'body': 'CFRunLoopGetNextTimerFireDate(${1:CFRunLoopRef rl}, ${2:CFStringRef mode})'
   'CFRunLoopGetTypeID':
     'prefix': 'CFRunLoopGetTypeID'
-    'body': 'CFRunLoopGetTypeID()'
+    'body': 'CFRunLoopGetTypeID'
   'CFRunLoopIsWaiting':
     'prefix': 'CFRunLoopIsWaiting'
     'body': 'CFRunLoopIsWaiting(${1:CFRunLoopRef rl})'
@@ -3751,7 +3751,7 @@
     'body': 'CFRunLoopObserverGetOrder(${1:CFRunLoopObserverRef observer})'
   'CFRunLoopObserverGetTypeID':
     'prefix': 'CFRunLoopObserverGetTypeID'
-    'body': 'CFRunLoopObserverGetTypeID()'
+    'body': 'CFRunLoopObserverGetTypeID'
   'CFRunLoopObserverInvalidate':
     'prefix': 'CFRunLoopObserverInvalidate'
     'body': 'CFRunLoopObserverInvalidate(${1:CFRunLoopObserverRef observer})'
@@ -3772,7 +3772,7 @@
     'body': 'CFRunLoopRemoveTimer(${1:CFRunLoopRef rl}, ${2:CFRunLoopTimerRef timer}, ${3:CFStringRef mode})'
   'CFRunLoopRun':
     'prefix': 'CFRunLoopRun'
-    'body': 'CFRunLoopRun()'
+    'body': 'CFRunLoopRun'
   'CFRunLoopRunInMode':
     'prefix': 'CFRunLoopRunInMode'
     'body': 'CFRunLoopRunInMode(${1:CFStringRef mode}, ${2:CFTimeInterval seconds}, ${3:Boolean returnAfterSourceHandled})'
@@ -3787,7 +3787,7 @@
     'body': 'CFRunLoopSourceGetOrder(${1:CFRunLoopSourceRef source})'
   'CFRunLoopSourceGetTypeID':
     'prefix': 'CFRunLoopSourceGetTypeID'
-    'body': 'CFRunLoopSourceGetTypeID()'
+    'body': 'CFRunLoopSourceGetTypeID'
   'CFRunLoopSourceInvalidate':
     'prefix': 'CFRunLoopSourceInvalidate'
     'body': 'CFRunLoopSourceInvalidate(${1:CFRunLoopSourceRef source})'
@@ -3826,7 +3826,7 @@
     'body': 'CFRunLoopTimerGetTolerance(${1:CFRunLoopTimerRef timer})'
   'CFRunLoopTimerGetTypeID':
     'prefix': 'CFRunLoopTimerGetTypeID'
-    'body': 'CFRunLoopTimerGetTypeID()'
+    'body': 'CFRunLoopTimerGetTypeID'
   'CFRunLoopTimerInvalidate':
     'prefix': 'CFRunLoopTimerInvalidate'
     'body': 'CFRunLoopTimerInvalidate(${1:CFRunLoopTimerRef timer})'
@@ -3871,7 +3871,7 @@
     'body': 'CFSetGetCountOfValue(${1:CFSetRef theSet}, ${2:void* value})'
   'CFSetGetTypeID':
     'prefix': 'CFSetGetTypeID'
-    'body': 'CFSetGetTypeID()'
+    'body': 'CFSetGetTypeID'
   'CFSetGetValue':
     'prefix': 'CFSetGetValue'
     'body': 'CFSetGetValue(${1:CFSetRef theSet}, ${2:void* value})'
@@ -3940,7 +3940,7 @@
     'body': 'CFSocketGetContext(${1:CFSocketRef s}, ${2:CFSocketContext* context})'
   'CFSocketGetDefaultNameRegistryPortNumber':
     'prefix': 'CFSocketGetDefaultNameRegistryPortNumber'
-    'body': 'CFSocketGetDefaultNameRegistryPortNumber()'
+    'body': 'CFSocketGetDefaultNameRegistryPortNumber'
   'CFSocketGetNative':
     'prefix': 'CFSocketGetNative'
     'body': 'CFSocketGetNative(${1:CFSocketRef s})'
@@ -3949,7 +3949,7 @@
     'body': 'CFSocketGetSocketFlags(${1:CFSocketRef s})'
   'CFSocketGetTypeID':
     'prefix': 'CFSocketGetTypeID'
-    'body': 'CFSocketGetTypeID()'
+    'body': 'CFSocketGetTypeID'
   'CFSocketInvalidate':
     'prefix': 'CFSocketInvalidate'
     'body': 'CFSocketInvalidate(${1:CFSocketRef s})'
@@ -4165,7 +4165,7 @@
     'body': 'CFStringGetLineBounds(${1:CFStringRef theString}, ${2:CFRange range}, ${3:CFIndex* lineBeginIndex}, ${4:CFIndex* lineEndIndex}, ${5:CFIndex* contentsEndIndex})'
   'CFStringGetListOfAvailableEncodings':
     'prefix': 'CFStringGetListOfAvailableEncodings'
-    'body': 'CFStringGetListOfAvailableEncodings()'
+    'body': 'CFStringGetListOfAvailableEncodings'
   'CFStringGetLongCharacterForSurrogatePair':
     'prefix': 'CFStringGetLongCharacterForSurrogatePair'
     'body': 'CFStringGetLongCharacterForSurrogatePair(${1:UniChar surrogateHigh}, ${2:UniChar surrogateLow})'
@@ -4201,10 +4201,10 @@
     'body': 'CFStringGetSurrogatePairForLongCharacter(${1:UTF32Char character}, ${2:UniChar* surrogates})'
   'CFStringGetSystemEncoding':
     'prefix': 'CFStringGetSystemEncoding'
-    'body': 'CFStringGetSystemEncoding()'
+    'body': 'CFStringGetSystemEncoding'
   'CFStringGetTypeID':
     'prefix': 'CFStringGetTypeID'
-    'body': 'CFStringGetTypeID()'
+    'body': 'CFStringGetTypeID'
   'CFStringHasPrefix':
     'prefix': 'CFStringHasPrefix'
     'body': 'CFStringHasPrefix(${1:CFStringRef theString}, ${2:CFStringRef prefix})'
@@ -4267,7 +4267,7 @@
     'body': 'CFStringTokenizerGetCurrentTokenRange(${1:CFStringTokenizerRef tokenizer})'
   'CFStringTokenizerGetTypeID':
     'prefix': 'CFStringTokenizerGetTypeID'
-    'body': 'CFStringTokenizerGetTypeID()'
+    'body': 'CFStringTokenizerGetTypeID'
   'CFStringTokenizerGoToTokenAtIndex':
     'prefix': 'CFStringTokenizerGoToTokenAtIndex'
     'body': 'CFStringTokenizerGoToTokenAtIndex(${1:CFStringTokenizerRef tokenizer}, ${2:CFIndex index})'
@@ -4336,19 +4336,19 @@
     'body': 'CFTimeZoneCopyAbbreviation(${1:CFTimeZoneRef tz}, ${2:CFAbsoluteTime at})'
   'CFTimeZoneCopyAbbreviationDictionary':
     'prefix': 'CFTimeZoneCopyAbbreviationDictionary'
-    'body': 'CFTimeZoneCopyAbbreviationDictionary()'
+    'body': 'CFTimeZoneCopyAbbreviationDictionary'
   'CFTimeZoneCopyDefault':
     'prefix': 'CFTimeZoneCopyDefault'
-    'body': 'CFTimeZoneCopyDefault()'
+    'body': 'CFTimeZoneCopyDefault'
   'CFTimeZoneCopyKnownNames':
     'prefix': 'CFTimeZoneCopyKnownNames'
-    'body': 'CFTimeZoneCopyKnownNames()'
+    'body': 'CFTimeZoneCopyKnownNames'
   'CFTimeZoneCopyLocalizedName':
     'prefix': 'CFTimeZoneCopyLocalizedName'
     'body': 'CFTimeZoneCopyLocalizedName(${1:CFTimeZoneRef tz}, ${2:CFTimeZoneNameStyle style}, ${3:CFLocaleRef locale})'
   'CFTimeZoneCopySystem':
     'prefix': 'CFTimeZoneCopySystem'
-    'body': 'CFTimeZoneCopySystem()'
+    'body': 'CFTimeZoneCopySystem'
   'CFTimeZoneCreate':
     'prefix': 'CFTimeZoneCreate'
     'body': 'CFTimeZoneCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef name}, ${3:CFDataRef data})'
@@ -4375,13 +4375,13 @@
     'body': 'CFTimeZoneGetSecondsFromGMT(${1:CFTimeZoneRef tz}, ${2:CFAbsoluteTime at})'
   'CFTimeZoneGetTypeID':
     'prefix': 'CFTimeZoneGetTypeID'
-    'body': 'CFTimeZoneGetTypeID()'
+    'body': 'CFTimeZoneGetTypeID'
   'CFTimeZoneIsDaylightSavingTime':
     'prefix': 'CFTimeZoneIsDaylightSavingTime'
     'body': 'CFTimeZoneIsDaylightSavingTime(${1:CFTimeZoneRef tz}, ${2:CFAbsoluteTime at})'
   'CFTimeZoneResetSystem':
     'prefix': 'CFTimeZoneResetSystem'
-    'body': 'CFTimeZoneResetSystem()'
+    'body': 'CFTimeZoneResetSystem'
   'CFTimeZoneSetAbbreviationDictionary':
     'prefix': 'CFTimeZoneSetAbbreviationDictionary'
     'body': 'CFTimeZoneSetAbbreviationDictionary(${1:CFDictionaryRef dict})'
@@ -4423,7 +4423,7 @@
     'body': 'CFTreeGetParent(${1:CFTreeRef tree})'
   'CFTreeGetTypeID':
     'prefix': 'CFTreeGetTypeID'
-    'body': 'CFTreeGetTypeID()'
+    'body': 'CFTreeGetTypeID'
   'CFTreeInsertSibling':
     'prefix': 'CFTreeInsertSibling'
     'body': 'CFTreeInsertSibling(${1:CFTreeRef tree}, ${2:CFTreeRef newSibling})'
@@ -4597,7 +4597,7 @@
     'body': 'CFURLEnumeratorGetSourceDidChange(${1:CFURLEnumeratorRef enumerator})'
   'CFURLEnumeratorGetTypeID':
     'prefix': 'CFURLEnumeratorGetTypeID'
-    'body': 'CFURLEnumeratorGetTypeID()'
+    'body': 'CFURLEnumeratorGetTypeID'
   'CFURLEnumeratorSkipDescendents':
     'prefix': 'CFURLEnumeratorSkipDescendents'
     'body': 'CFURLEnumeratorSkipDescendents(${1:CFURLEnumeratorRef enumerator})'
@@ -4624,7 +4624,7 @@
     'body': 'CFURLGetString(${1:CFURLRef anURL})'
   'CFURLGetTypeID':
     'prefix': 'CFURLGetTypeID'
-    'body': 'CFURLGetTypeID()'
+    'body': 'CFURLGetTypeID'
   'CFURLHasDirectoryPath':
     'prefix': 'CFURLHasDirectoryPath'
     'body': 'CFURLHasDirectoryPath(${1:CFURLRef anURL})'
@@ -4669,7 +4669,7 @@
     'body': 'CFUUIDGetConstantUUIDWithBytes(${1:CFAllocatorRef alloc}, ${2:UInt8 byte0}, ${3:UInt8 byte1}, ${4:UInt8 byte2}, ${5:UInt8 byte3}, ${6:UInt8 byte4}, ${7:UInt8 byte5}, ${8:UInt8 byte6}, ${9:UInt8 byte7}, ${10:UInt8 byte8}, ${11:UInt8 byte9}, ${12:UInt8 byte10}, ${13:UInt8 byte11}, ${14:UInt8 byte12}, ${15:UInt8 byte13}, ${16:UInt8 byte14}, ${17:UInt8 byte15})'
   'CFUUIDGetTypeID':
     'prefix': 'CFUUIDGetTypeID'
-    'body': 'CFUUIDGetTypeID()'
+    'body': 'CFUUIDGetTypeID'
   'CFUUIDGetUUIDBytes':
     'prefix': 'CFUUIDGetUUIDBytes'
     'body': 'CFUUIDGetUUIDBytes(${1:CFUUIDRef uuid})'
@@ -4705,7 +4705,7 @@
     'body': 'CFWriteStreamGetStatus(${1:CFWriteStreamRef stream})'
   'CFWriteStreamGetTypeID':
     'prefix': 'CFWriteStreamGetTypeID'
-    'body': 'CFWriteStreamGetTypeID()'
+    'body': 'CFWriteStreamGetTypeID'
   'CFWriteStreamOpen':
     'prefix': 'CFWriteStreamOpen'
     'body': 'CFWriteStreamOpen(${1:CFWriteStreamRef stream})'

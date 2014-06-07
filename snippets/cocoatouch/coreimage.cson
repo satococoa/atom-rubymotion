@@ -272,15 +272,18 @@
   'kCIOutputImageKey (NSString*)':
     'prefix': 'kCIOutputImageKey'
     'body': 'KCIOutputImageKey'
+  'CIColor':
+    'prefix': 'CIColor'
+    'body': 'CIColor'
   'alpha':
     'prefix': 'alpha'
-    'body': 'alpha()'
+    'body': 'alpha'
   'blue':
     'prefix': 'blue'
-    'body': 'blue()'
+    'body': 'blue'
   'colorSpace':
     'prefix': 'colorSpace'
-    'body': 'colorSpace()'
+    'body': 'colorSpace'
   'CIColor.colorWithCGColor:':
     'prefix': 'colorWithCGColor:'
     'body': 'colorWithCGColor(${1:CGColorRef c})'
@@ -295,22 +298,25 @@
     'body': 'colorWithString(${1:NSString* representation})'
   'components':
     'prefix': 'components'
-    'body': 'components()'
+    'body': 'components'
   'green':
     'prefix': 'green'
-    'body': 'green()'
+    'body': 'green'
   'initWithCGColor:':
     'prefix': 'initWithCGColor:'
     'body': 'initWithCGColor(${1:CGColorRef c})'
   'numberOfComponents':
     'prefix': 'numberOfComponents'
-    'body': 'numberOfComponents()'
+    'body': 'numberOfComponents'
   'red':
     'prefix': 'red'
-    'body': 'red()'
+    'body': 'red'
   'stringRepresentation':
     'prefix': 'stringRepresentation'
-    'body': 'stringRepresentation()'
+    'body': 'stringRepresentation'
+  'CIContext':
+    'prefix': 'CIContext'
+    'body': 'CIContext'
   'CIContext.contextWithEAGLContext:':
     'prefix': 'contextWithEAGLContext:'
     'body': 'contextWithEAGLContext(${1:EAGLContext* eaglContext})'
@@ -334,10 +340,10 @@
     'body': 'drawImage(${1:CIImage* im}, inRect:${2:CGRect dest}, fromRect:${3:CGRect src})'
   'inputImageMaximumSize':
     'prefix': 'inputImageMaximumSize'
-    'body': 'inputImageMaximumSize()'
+    'body': 'inputImageMaximumSize'
   'outputImageMaximumSize':
     'prefix': 'outputImageMaximumSize'
-    'body': 'outputImageMaximumSize()'
+    'body': 'outputImageMaximumSize'
   'render:toBitmap:rowBytes:bounds:format:colorSpace:':
     'prefix': 'render:toBitmap:rowBytes:bounds:format:colorSpace:'
     'body': 'render(${1:CIImage* im}, toBitmap:${2:void* data}, rowBytes:${3:ptrdiff_t rb}, bounds:${4:CGRect r}, format:${5:CIFormat f}, colorSpace:${6:CGColorSpaceRef cs})'
@@ -347,6 +353,9 @@
   'render:toCVPixelBuffer:bounds:colorSpace:':
     'prefix': 'render:toCVPixelBuffer:bounds:colorSpace:'
     'body': 'render(${1:CIImage* image}, toCVPixelBuffer:${2:CVPixelBufferRef buffer}, bounds:${3:CGRect r}, colorSpace:${4:CGColorSpaceRef cs})'
+  'CIDetector':
+    'prefix': 'CIDetector'
+    'body': 'CIDetector'
   'CIDetector.detectorOfType:context:options:':
     'prefix': 'detectorOfType:context:options:'
     'body': 'detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
@@ -356,63 +365,72 @@
   'featuresInImage:options:':
     'prefix': 'featuresInImage:options:'
     'body': 'featuresInImage(${1:CIImage* image}, options:${2:NSDictionary* options})'
+  'CIFaceFeature':
+    'prefix': 'CIFaceFeature'
+    'body': 'CIFaceFeature'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'faceAngle':
     'prefix': 'faceAngle'
-    'body': 'faceAngle()'
+    'body': 'faceAngle'
   'hasFaceAngle':
     'prefix': 'hasFaceAngle'
-    'body': 'hasFaceAngle()'
+    'body': 'hasFaceAngle'
   'hasLeftEyePosition':
     'prefix': 'hasLeftEyePosition'
-    'body': 'hasLeftEyePosition()'
+    'body': 'hasLeftEyePosition'
   'hasMouthPosition':
     'prefix': 'hasMouthPosition'
-    'body': 'hasMouthPosition()'
+    'body': 'hasMouthPosition'
   'hasRightEyePosition':
     'prefix': 'hasRightEyePosition'
-    'body': 'hasRightEyePosition()'
+    'body': 'hasRightEyePosition'
   'hasSmile':
     'prefix': 'hasSmile'
-    'body': 'hasSmile()'
+    'body': 'hasSmile'
   'hasTrackingFrameCount':
     'prefix': 'hasTrackingFrameCount'
-    'body': 'hasTrackingFrameCount()'
+    'body': 'hasTrackingFrameCount'
   'hasTrackingID':
     'prefix': 'hasTrackingID'
-    'body': 'hasTrackingID()'
+    'body': 'hasTrackingID'
   'leftEyeClosed':
     'prefix': 'leftEyeClosed'
-    'body': 'leftEyeClosed()'
+    'body': 'leftEyeClosed'
   'leftEyePosition':
     'prefix': 'leftEyePosition'
-    'body': 'leftEyePosition()'
+    'body': 'leftEyePosition'
   'mouthPosition':
     'prefix': 'mouthPosition'
-    'body': 'mouthPosition()'
+    'body': 'mouthPosition'
   'rightEyeClosed':
     'prefix': 'rightEyeClosed'
-    'body': 'rightEyeClosed()'
+    'body': 'rightEyeClosed'
   'rightEyePosition':
     'prefix': 'rightEyePosition'
-    'body': 'rightEyePosition()'
+    'body': 'rightEyePosition'
   'trackingFrameCount':
     'prefix': 'trackingFrameCount'
-    'body': 'trackingFrameCount()'
+    'body': 'trackingFrameCount'
   'trackingID':
     'prefix': 'trackingID'
-    'body': 'trackingID()'
+    'body': 'trackingID'
+  'CIFeature':
+    'prefix': 'CIFeature'
+    'body': 'CIFeature'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'CIFilter':
+    'prefix': 'CIFilter'
+    'body': 'CIFilter'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'CIFilter.filterArrayFromSerializedXMP:inputImageExtent:error:':
     'prefix': 'filterArrayFromSerializedXMP:inputImageExtent:error:'
     'body': 'filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
@@ -430,34 +448,37 @@
     'body': 'filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
   'inputKeys':
     'prefix': 'inputKeys'
-    'body': 'inputKeys()'
+    'body': 'inputKeys'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'outputImage':
     'prefix': 'outputImage'
-    'body': 'outputImage()'
+    'body': 'outputImage'
   'outputKeys':
     'prefix': 'outputKeys'
-    'body': 'outputKeys()'
+    'body': 'outputKeys'
   'CIFilter.serializedXMPFromFilters:inputImageExtent:':
     'prefix': 'serializedXMPFromFilters:inputImageExtent:'
     'body': 'serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
   'setDefaults':
     'prefix': 'setDefaults'
-    'body': 'setDefaults()'
+    'body': 'setDefaults'
+  'CIImage':
+    'prefix': 'CIImage'
+    'body': 'CIImage'
   'autoAdjustmentFilters':
     'prefix': 'autoAdjustmentFilters'
-    'body': 'autoAdjustmentFilters()'
+    'body': 'autoAdjustmentFilters'
   'autoAdjustmentFiltersWithOptions:':
     'prefix': 'autoAdjustmentFiltersWithOptions:'
     'body': 'autoAdjustmentFiltersWithOptions(${1:NSDictionary* dict})'
   'CIImage.emptyImage':
     'prefix': 'emptyImage'
-    'body': 'emptyImage()'
+    'body': 'emptyImage'
   'extent':
     'prefix': 'extent'
-    'body': 'extent()'
+    'body': 'extent'
   'imageByApplyingTransform:':
     'prefix': 'imageByApplyingTransform:'
     'body': 'imageByApplyingTransform(${1:CGAffineTransform matrix})'
@@ -532,34 +553,37 @@
     'body': 'initWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, colorSpace:${4:CGColorSpaceRef cs})'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'regionOfInterestForImage:inRect:':
     'prefix': 'regionOfInterestForImage:inRect:'
     'body': 'regionOfInterestForImage(${1:CIImage* im}, inRect:${2:CGRect r})'
+  'CIVector':
+    'prefix': 'CIVector'
+    'body': 'CIVector'
   'CGAffineTransformValue':
     'prefix': 'CGAffineTransformValue'
-    'body': 'CGAffineTransformValue()'
+    'body': 'CGAffineTransformValue'
   'CGPointValue':
     'prefix': 'CGPointValue'
-    'body': 'CGPointValue()'
+    'body': 'CGPointValue'
   'CGRectValue':
     'prefix': 'CGRectValue'
-    'body': 'CGRectValue()'
+    'body': 'CGRectValue'
   'W':
     'prefix': 'W'
-    'body': 'W()'
+    'body': 'W'
   'X':
     'prefix': 'X'
-    'body': 'X()'
+    'body': 'X'
   'Y':
     'prefix': 'Y'
-    'body': 'Y()'
+    'body': 'Y'
   'Z':
     'prefix': 'Z'
-    'body': 'Z()'
+    'body': 'Z'
   'count':
     'prefix': 'count'
-    'body': 'count()'
+    'body': 'count'
   'initWithCGAffineTransform:':
     'prefix': 'initWithCGAffineTransform:'
     'body': 'initWithCGAffineTransform(${1:CGAffineTransform r})'
@@ -589,7 +613,7 @@
     'body': 'initWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
   'stringRepresentation':
     'prefix': 'stringRepresentation'
-    'body': 'stringRepresentation()'
+    'body': 'stringRepresentation'
   'valueAtIndex:':
     'prefix': 'valueAtIndex:'
     'body': 'valueAtIndex(${1:size_t index})'

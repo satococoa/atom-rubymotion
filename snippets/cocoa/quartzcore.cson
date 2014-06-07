@@ -370,7 +370,7 @@
     'body': 'KCALayerWidthSizable'
   'CACurrentMediaTime':
     'prefix': 'CACurrentMediaTime'
-    'body': 'CACurrentMediaTime()'
+    'body': 'CACurrentMediaTime'
   'CATransform3DConcat':
     'prefix': 'CATransform3DConcat'
     'body': 'CATransform3DConcat(${1:CATransform3D a}, ${2:CATransform3D b})'
@@ -410,18 +410,21 @@
   'CATransform3DTranslate':
     'prefix': 'CATransform3DTranslate'
     'body': 'CATransform3DTranslate(${1:CATransform3D t}, ${2:CGFloat tx}, ${3:CGFloat ty}, ${4:CGFloat tz})'
+  'CAAnimation':
+    'prefix': 'CAAnimation'
+    'body': 'CAAnimation'
   'CAAnimation.animation':
     'prefix': 'animation'
-    'body': 'animation()'
+    'body': 'animation'
   'CAAnimation.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
     'body': 'defaultValueForKey(${1:NSString* key})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'isRemovedOnCompletion':
     'prefix': 'isRemovedOnCompletion'
-    'body': 'isRemovedOnCompletion()'
+    'body': 'isRemovedOnCompletion'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -436,19 +439,25 @@
     'body': 'shouldArchiveValueForKey(${1:NSString* key})'
   'timingFunction':
     'prefix': 'timingFunction'
-    'body': 'timingFunction()'
+    'body': 'timingFunction'
+  'CAAnimationGroup':
+    'prefix': 'CAAnimationGroup'
+    'body': 'CAAnimationGroup'
   'animations':
     'prefix': 'animations'
-    'body': 'animations()'
+    'body': 'animations'
   'setAnimations:':
     'prefix': 'setAnimations:'
     'body': 'setAnimations(${1:NSArray* animations})'
+  'CABasicAnimation':
+    'prefix': 'CABasicAnimation'
+    'body': 'CABasicAnimation'
   'byValue':
     'prefix': 'byValue'
-    'body': 'byValue()'
+    'body': 'byValue'
   'fromValue':
     'prefix': 'fromValue'
-    'body': 'fromValue()'
+    'body': 'fromValue'
   'setByValue:':
     'prefix': 'setByValue:'
     'body': 'setByValue(${1:id byValue})'
@@ -460,10 +469,13 @@
     'body': 'setToValue(${1:id toValue})'
   'toValue':
     'prefix': 'toValue'
-    'body': 'toValue()'
+    'body': 'toValue'
+  'CAConstraint':
+    'prefix': 'CAConstraint'
+    'body': 'CAConstraint'
   'attribute':
     'prefix': 'attribute'
-    'body': 'attribute()'
+    'body': 'attribute'
   'CAConstraint.constraintWithAttribute:relativeTo:attribute:':
     'prefix': 'constraintWithAttribute:relativeTo:attribute:'
     'body': 'constraintWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr})'
@@ -478,19 +490,25 @@
     'body': 'initWithAttribute(${1:CAConstraintAttribute attr}, relativeTo:${2:NSString* srcId}, attribute:${3:CAConstraintAttribute srcAttr}, scale:${4:CGFloat m}, offset:${5:CGFloat c})'
   'offset':
     'prefix': 'offset'
-    'body': 'offset()'
+    'body': 'offset'
   'scale':
     'prefix': 'scale'
-    'body': 'scale()'
+    'body': 'scale'
   'sourceAttribute':
     'prefix': 'sourceAttribute'
-    'body': 'sourceAttribute()'
+    'body': 'sourceAttribute'
   'sourceName':
     'prefix': 'sourceName'
-    'body': 'sourceName()'
+    'body': 'sourceName'
+  'CAConstraintLayoutManager':
+    'prefix': 'CAConstraintLayoutManager'
+    'body': 'CAConstraintLayoutManager'
   'CAConstraintLayoutManager.layoutManager':
     'prefix': 'layoutManager'
-    'body': 'layoutManager()'
+    'body': 'layoutManager'
+  'CAEmitterBehavior':
+    'prefix': 'CAEmitterBehavior'
+    'body': 'CAEmitterBehavior'
   'CAEmitterBehavior.attributesForKey:':
     'prefix': 'attributesForKey:'
     'body': 'attributesForKey(${1:NSString* key})'
@@ -499,7 +517,7 @@
     'body': 'attributesForKeyPath(${1:NSString* keyPath})'
   'CAEmitterBehavior.behaviorTypes':
     'prefix': 'behaviorTypes'
-    'body': 'behaviorTypes()'
+    'body': 'behaviorTypes'
   'CAEmitterBehavior.behaviorWithType:':
     'prefix': 'behaviorWithType:'
     'body': 'behaviorWithType(${1:NSString* type})'
@@ -508,13 +526,13 @@
     'body': 'initWithType(${1:NSString* type})'
   'inputKeys':
     'prefix': 'inputKeys'
-    'body': 'inputKeys()'
+    'body': 'inputKeys'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1:BOOL enabled})'
@@ -523,91 +541,94 @@
     'body': 'setName(${1:NSString* name})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'CAEmitterCell':
+    'prefix': 'CAEmitterCell'
+    'body': 'CAEmitterCell'
   'alphaRange':
     'prefix': 'alphaRange'
-    'body': 'alphaRange()'
+    'body': 'alphaRange'
   'alphaSpeed':
     'prefix': 'alphaSpeed'
-    'body': 'alphaSpeed()'
+    'body': 'alphaSpeed'
   'birthRate':
     'prefix': 'birthRate'
-    'body': 'birthRate()'
+    'body': 'birthRate'
   'blueRange':
     'prefix': 'blueRange'
-    'body': 'blueRange()'
+    'body': 'blueRange'
   'blueSpeed':
     'prefix': 'blueSpeed'
-    'body': 'blueSpeed()'
+    'body': 'blueSpeed'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'contents':
     'prefix': 'contents'
-    'body': 'contents()'
+    'body': 'contents'
   'contentsRect':
     'prefix': 'contentsRect'
-    'body': 'contentsRect()'
+    'body': 'contentsRect'
   'CAEmitterCell.defaultValueForKey:':
     'prefix': 'defaultValueForKey:'
     'body': 'defaultValueForKey(${1:NSString* key})'
   'emissionLatitude':
     'prefix': 'emissionLatitude'
-    'body': 'emissionLatitude()'
+    'body': 'emissionLatitude'
   'emissionLongitude':
     'prefix': 'emissionLongitude'
-    'body': 'emissionLongitude()'
+    'body': 'emissionLongitude'
   'emissionRange':
     'prefix': 'emissionRange'
-    'body': 'emissionRange()'
+    'body': 'emissionRange'
   'CAEmitterCell.emitterCell':
     'prefix': 'emitterCell'
-    'body': 'emitterCell()'
+    'body': 'emitterCell'
   'emitterCells':
     'prefix': 'emitterCells'
-    'body': 'emitterCells()'
+    'body': 'emitterCells'
   'greenRange':
     'prefix': 'greenRange'
-    'body': 'greenRange()'
+    'body': 'greenRange'
   'greenSpeed':
     'prefix': 'greenSpeed'
-    'body': 'greenSpeed()'
+    'body': 'greenSpeed'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'lifetime':
     'prefix': 'lifetime'
-    'body': 'lifetime()'
+    'body': 'lifetime'
   'lifetimeRange':
     'prefix': 'lifetimeRange'
-    'body': 'lifetimeRange()'
+    'body': 'lifetimeRange'
   'magnificationFilter':
     'prefix': 'magnificationFilter'
-    'body': 'magnificationFilter()'
+    'body': 'magnificationFilter'
   'minificationFilter':
     'prefix': 'minificationFilter'
-    'body': 'minificationFilter()'
+    'body': 'minificationFilter'
   'minificationFilterBias':
     'prefix': 'minificationFilterBias'
-    'body': 'minificationFilterBias()'
+    'body': 'minificationFilterBias'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'redRange':
     'prefix': 'redRange'
-    'body': 'redRange()'
+    'body': 'redRange'
   'redSpeed':
     'prefix': 'redSpeed'
-    'body': 'redSpeed()'
+    'body': 'redSpeed'
   'scale':
     'prefix': 'scale'
-    'body': 'scale()'
+    'body': 'scale'
   'scaleRange':
     'prefix': 'scaleRange'
-    'body': 'scaleRange()'
+    'body': 'scaleRange'
   'scaleSpeed':
     'prefix': 'scaleSpeed'
-    'body': 'scaleSpeed()'
+    'body': 'scaleSpeed'
   'setAlphaRange:':
     'prefix': 'setAlphaRange:'
     'body': 'setAlphaRange(${1:float alphaRange})'
@@ -715,67 +736,70 @@
     'body': 'shouldArchiveValueForKey(${1:NSString* key})'
   'spin':
     'prefix': 'spin'
-    'body': 'spin()'
+    'body': 'spin'
   'spinRange':
     'prefix': 'spinRange'
-    'body': 'spinRange()'
+    'body': 'spinRange'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
   'velocity':
     'prefix': 'velocity'
-    'body': 'velocity()'
+    'body': 'velocity'
   'velocityRange':
     'prefix': 'velocityRange'
-    'body': 'velocityRange()'
+    'body': 'velocityRange'
   'xAcceleration':
     'prefix': 'xAcceleration'
-    'body': 'xAcceleration()'
+    'body': 'xAcceleration'
   'yAcceleration':
     'prefix': 'yAcceleration'
-    'body': 'yAcceleration()'
+    'body': 'yAcceleration'
   'zAcceleration':
     'prefix': 'zAcceleration'
-    'body': 'zAcceleration()'
+    'body': 'zAcceleration'
+  'CAEmitterLayer':
+    'prefix': 'CAEmitterLayer'
+    'body': 'CAEmitterLayer'
   'birthRate':
     'prefix': 'birthRate'
-    'body': 'birthRate()'
+    'body': 'birthRate'
   'emitterCells':
     'prefix': 'emitterCells'
-    'body': 'emitterCells()'
+    'body': 'emitterCells'
   'emitterDepth':
     'prefix': 'emitterDepth'
-    'body': 'emitterDepth()'
+    'body': 'emitterDepth'
   'emitterMode':
     'prefix': 'emitterMode'
-    'body': 'emitterMode()'
+    'body': 'emitterMode'
   'emitterPosition':
     'prefix': 'emitterPosition'
-    'body': 'emitterPosition()'
+    'body': 'emitterPosition'
   'emitterShape':
     'prefix': 'emitterShape'
-    'body': 'emitterShape()'
+    'body': 'emitterShape'
   'emitterSize':
     'prefix': 'emitterSize'
-    'body': 'emitterSize()'
+    'body': 'emitterSize'
   'emitterZPosition':
     'prefix': 'emitterZPosition'
-    'body': 'emitterZPosition()'
+    'body': 'emitterZPosition'
   'lifetime':
     'prefix': 'lifetime'
-    'body': 'lifetime()'
+    'body': 'lifetime'
   'preservesDepth':
     'prefix': 'preservesDepth'
-    'body': 'preservesDepth()'
+    'body': 'preservesDepth'
   'renderMode':
     'prefix': 'renderMode'
-    'body': 'renderMode()'
+    'body': 'renderMode'
   'scale':
     'prefix': 'scale'
-    'body': 'scale()'
+    'body': 'scale'
   'seed':
     'prefix': 'seed'
-    'body': 'seed()'
+    'body': 'seed'
   'setBirthRate:':
     'prefix': 'setBirthRate:'
     'body': 'setBirthRate(${1:float birthRate})'
@@ -823,19 +847,22 @@
     'body': 'setVelocity(${1:float velocity})'
   'spin':
     'prefix': 'spin'
-    'body': 'spin()'
+    'body': 'spin'
   'velocity':
     'prefix': 'velocity'
-    'body': 'velocity()'
+    'body': 'velocity'
+  'CAGradientLayer':
+    'prefix': 'CAGradientLayer'
+    'body': 'CAGradientLayer'
   'colors':
     'prefix': 'colors'
-    'body': 'colors()'
+    'body': 'colors'
   'endPoint':
     'prefix': 'endPoint'
-    'body': 'endPoint()'
+    'body': 'endPoint'
   'locations':
     'prefix': 'locations'
-    'body': 'locations()'
+    'body': 'locations'
   'setColors:':
     'prefix': 'setColors:'
     'body': 'setColors(${1:NSArray* colors})'
@@ -853,28 +880,31 @@
     'body': 'setType(${1:NSString* type})'
   'startPoint':
     'prefix': 'startPoint'
-    'body': 'startPoint()'
+    'body': 'startPoint'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'CAKeyframeAnimation':
+    'prefix': 'CAKeyframeAnimation'
+    'body': 'CAKeyframeAnimation'
   'biasValues':
     'prefix': 'biasValues'
-    'body': 'biasValues()'
+    'body': 'biasValues'
   'calculationMode':
     'prefix': 'calculationMode'
-    'body': 'calculationMode()'
+    'body': 'calculationMode'
   'continuityValues':
     'prefix': 'continuityValues'
-    'body': 'continuityValues()'
+    'body': 'continuityValues'
   'keyTimes':
     'prefix': 'keyTimes'
-    'body': 'KeyTimes()'
+    'body': 'KeyTimes'
   'path':
     'prefix': 'path'
-    'body': 'path()'
+    'body': 'path'
   'rotationMode':
     'prefix': 'rotationMode'
-    'body': 'rotationMode()'
+    'body': 'rotationMode'
   'setBiasValues:':
     'prefix': 'setBiasValues:'
     'body': 'setBiasValues(${1:NSArray* biasValues})'
@@ -904,19 +934,22 @@
     'body': 'setValues(${1:NSArray* values})'
   'tensionValues':
     'prefix': 'tensionValues'
-    'body': 'tensionValues()'
+    'body': 'tensionValues'
   'timingFunctions':
     'prefix': 'timingFunctions'
-    'body': 'timingFunctions()'
+    'body': 'timingFunctions'
   'values':
     'prefix': 'values'
-    'body': 'values()'
+    'body': 'values'
+  'CALayer':
+    'prefix': 'CALayer'
+    'body': 'CALayer'
   'actionForKey:':
     'prefix': 'actionForKey:'
     'body': 'actionForKey(${1:NSString* event})'
   'actions':
     'prefix': 'actions'
-    'body': 'actions()'
+    'body': 'actions'
   'addAnimation:forKey:':
     'prefix': 'addAnimation:forKey:'
     'body': 'addAnimation(${1:CAAnimation* anim}, forKey:${2:NSString* key})'
@@ -928,64 +961,64 @@
     'body': 'addSublayer(${1:CALayer* layer})'
   'affineTransform':
     'prefix': 'affineTransform'
-    'body': 'affineTransform()'
+    'body': 'affineTransform'
   'anchorPoint':
     'prefix': 'anchorPoint'
-    'body': 'anchorPoint()'
+    'body': 'anchorPoint'
   'anchorPointZ':
     'prefix': 'anchorPointZ'
-    'body': 'anchorPointZ()'
+    'body': 'anchorPointZ'
   'animationForKey:':
     'prefix': 'animationForKey:'
     'body': 'animationForKey(${1:NSString* key})'
   'animationKeys':
     'prefix': 'animationKeys'
-    'body': 'animationKeys()'
+    'body': 'animationKeys'
   'autoresizingMask':
     'prefix': 'autoresizingMask'
-    'body': 'autoresizingMask()'
+    'body': 'autoresizingMask'
   'backgroundColor':
     'prefix': 'backgroundColor'
-    'body': 'backgroundColor()'
+    'body': 'backgroundColor'
   'backgroundFilters':
     'prefix': 'backgroundFilters'
-    'body': 'backgroundFilters()'
+    'body': 'backgroundFilters'
   'borderColor':
     'prefix': 'borderColor'
-    'body': 'borderColor()'
+    'body': 'borderColor'
   'borderWidth':
     'prefix': 'borderWidth'
-    'body': 'borderWidth()'
+    'body': 'borderWidth'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'compositingFilter':
     'prefix': 'compositingFilter'
-    'body': 'compositingFilter()'
+    'body': 'compositingFilter'
   'constraints':
     'prefix': 'constraints'
-    'body': 'constraints()'
+    'body': 'constraints'
   'containsPoint:':
     'prefix': 'containsPoint:'
     'body': 'containsPoint(${1:CGPoint p})'
   'contents':
     'prefix': 'contents'
-    'body': 'contents()'
+    'body': 'contents'
   'contentsAreFlipped':
     'prefix': 'contentsAreFlipped'
-    'body': 'contentsAreFlipped()'
+    'body': 'contentsAreFlipped'
   'contentsCenter':
     'prefix': 'contentsCenter'
-    'body': 'contentsCenter()'
+    'body': 'contentsCenter'
   'contentsGravity':
     'prefix': 'contentsGravity'
-    'body': 'contentsGravity()'
+    'body': 'contentsGravity'
   'contentsRect':
     'prefix': 'contentsRect'
-    'body': 'contentsRect()'
+    'body': 'contentsRect'
   'contentsScale':
     'prefix': 'contentsScale'
-    'body': 'contentsScale()'
+    'body': 'contentsScale'
   'convertPoint:fromLayer:':
     'prefix': 'convertPoint:fromLayer:'
     'body': 'convertPoint(${1:CGPoint p}, fromLayer:${2:CALayer* l})'
@@ -1006,7 +1039,7 @@
     'body': 'convertTime(${1:CFTimeInterval t}, toLayer:${2:CALayer* l})'
   'cornerRadius':
     'prefix': 'cornerRadius'
-    'body': 'cornerRadius()'
+    'body': 'cornerRadius'
   'CALayer.defaultActionForKey:':
     'prefix': 'defaultActionForKey:'
     'body': 'defaultActionForKey(${1:NSString* event})'
@@ -1015,34 +1048,34 @@
     'body': 'defaultValueForKey(${1:NSString* key})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'display':
     'prefix': 'display'
-    'body': 'display()'
+    'body': 'display'
   'displayIfNeeded':
     'prefix': 'displayIfNeeded'
-    'body': 'displayIfNeeded()'
+    'body': 'displayIfNeeded'
   'drawInContext:':
     'prefix': 'drawInContext:'
     'body': 'drawInContext(${1:CGContextRef ctx})'
   'drawsAsynchronously':
     'prefix': 'drawsAsynchronously'
-    'body': 'drawsAsynchronously()'
+    'body': 'drawsAsynchronously'
   'edgeAntialiasingMask':
     'prefix': 'edgeAntialiasingMask'
-    'body': 'edgeAntialiasingMask()'
+    'body': 'edgeAntialiasingMask'
   'filters':
     'prefix': 'filters'
-    'body': 'filters()'
+    'body': 'filters'
   'frame':
     'prefix': 'frame'
-    'body': 'frame()'
+    'body': 'frame'
   'hitTest:':
     'prefix': 'hitTest:'
     'body': 'hitTest(${1:CGPoint p})'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithLayer:':
     'prefix': 'initWithLayer:'
     'body': 'initWithLayer(${1:id layer})'
@@ -1057,88 +1090,88 @@
     'body': 'insertSublayer(${1:CALayer* layer}, below:${2:CALayer* sibling})'
   'isDoubleSided':
     'prefix': 'isDoubleSided'
-    'body': 'isDoubleSided()'
+    'body': 'isDoubleSided'
   'isGeometryFlipped':
     'prefix': 'isGeometryFlipped'
-    'body': 'isGeometryFlipped()'
+    'body': 'isGeometryFlipped'
   'isHidden':
     'prefix': 'isHidden'
-    'body': 'isHidden()'
+    'body': 'isHidden'
   'isOpaque':
     'prefix': 'isOpaque'
-    'body': 'isOpaque()'
+    'body': 'isOpaque'
   'CALayer.layer':
     'prefix': 'layer'
-    'body': 'layer()'
+    'body': 'layer'
   'CALayer.layerWithRemoteClientId:':
     'prefix': 'layerWithRemoteClientId:'
     'body': 'layerWithRemoteClientId(${1:uint32_t client_id})'
   'layoutIfNeeded':
     'prefix': 'layoutIfNeeded'
-    'body': 'layoutIfNeeded()'
+    'body': 'layoutIfNeeded'
   'layoutManager':
     'prefix': 'layoutManager'
-    'body': 'layoutManager()'
+    'body': 'layoutManager'
   'layoutSublayers':
     'prefix': 'layoutSublayers'
-    'body': 'layoutSublayers()'
+    'body': 'layoutSublayers'
   'magnificationFilter':
     'prefix': 'magnificationFilter'
-    'body': 'magnificationFilter()'
+    'body': 'magnificationFilter'
   'mask':
     'prefix': 'mask'
-    'body': 'mask()'
+    'body': 'mask'
   'masksToBounds':
     'prefix': 'masksToBounds'
-    'body': 'masksToBounds()'
+    'body': 'masksToBounds'
   'minificationFilter':
     'prefix': 'minificationFilter'
-    'body': 'minificationFilter()'
+    'body': 'minificationFilter'
   'minificationFilterBias':
     'prefix': 'minificationFilterBias'
-    'body': 'minificationFilterBias()'
+    'body': 'minificationFilterBias'
   'modelLayer':
     'prefix': 'modelLayer'
-    'body': 'modelLayer()'
+    'body': 'modelLayer'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'needsDisplay':
     'prefix': 'needsDisplay'
-    'body': 'needsDisplay()'
+    'body': 'needsDisplay'
   'CALayer.needsDisplayForKey:':
     'prefix': 'needsDisplayForKey:'
     'body': 'needsDisplayForKey(${1:NSString* key})'
   'needsDisplayOnBoundsChange':
     'prefix': 'needsDisplayOnBoundsChange'
-    'body': 'needsDisplayOnBoundsChange()'
+    'body': 'needsDisplayOnBoundsChange'
   'needsLayout':
     'prefix': 'needsLayout'
-    'body': 'needsLayout()'
+    'body': 'needsLayout'
   'opacity':
     'prefix': 'opacity'
-    'body': 'opacity()'
+    'body': 'opacity'
   'position':
     'prefix': 'position'
-    'body': 'position()'
+    'body': 'position'
   'preferredFrameSize':
     'prefix': 'preferredFrameSize'
-    'body': 'preferredFrameSize()'
+    'body': 'preferredFrameSize'
   'presentationLayer':
     'prefix': 'presentationLayer'
-    'body': 'presentationLayer()'
+    'body': 'presentationLayer'
   'rasterizationScale':
     'prefix': 'rasterizationScale'
-    'body': 'rasterizationScale()'
+    'body': 'rasterizationScale'
   'removeAllAnimations':
     'prefix': 'removeAllAnimations'
-    'body': 'removeAllAnimations()'
+    'body': 'removeAllAnimations'
   'removeAnimationForKey:':
     'prefix': 'removeAnimationForKey:'
     'body': 'removeAnimationForKey(${1:NSString* key})'
   'removeFromSuperlayer':
     'prefix': 'removeFromSuperlayer'
-    'body': 'removeFromSuperlayer()'
+    'body': 'removeFromSuperlayer'
   'renderInContext:':
     'prefix': 'renderInContext:'
     'body': 'renderInContext(${1:CGContextRef ctx})'
@@ -1258,7 +1291,7 @@
     'body': 'setName(${1:NSString* name})'
   'setNeedsDisplay':
     'prefix': 'setNeedsDisplay'
-    'body': 'setNeedsDisplay()'
+    'body': 'setNeedsDisplay'
   'setNeedsDisplayInRect:':
     'prefix': 'setNeedsDisplayInRect:'
     'body': 'setNeedsDisplayInRect(${1:CGRect r})'
@@ -1267,7 +1300,7 @@
     'body': 'setNeedsDisplayOnBoundsChange(${1:BOOL needsDisplayOnBoundsChange})'
   'setNeedsLayout':
     'prefix': 'setNeedsLayout'
-    'body': 'setNeedsLayout()'
+    'body': 'setNeedsLayout'
   'setOpacity:':
     'prefix': 'setOpacity:'
     'body': 'setOpacity(${1:float opacity})'
@@ -1315,46 +1348,49 @@
     'body': 'setZPosition(${1:CGFloat zPosition})'
   'shadowColor':
     'prefix': 'shadowColor'
-    'body': 'shadowColor()'
+    'body': 'shadowColor'
   'shadowOffset':
     'prefix': 'shadowOffset'
-    'body': 'shadowOffset()'
+    'body': 'shadowOffset'
   'shadowOpacity':
     'prefix': 'shadowOpacity'
-    'body': 'shadowOpacity()'
+    'body': 'shadowOpacity'
   'shadowPath':
     'prefix': 'shadowPath'
-    'body': 'shadowPath()'
+    'body': 'shadowPath'
   'shadowRadius':
     'prefix': 'shadowRadius'
-    'body': 'shadowRadius()'
+    'body': 'shadowRadius'
   'shouldArchiveValueForKey:':
     'prefix': 'shouldArchiveValueForKey:'
     'body': 'shouldArchiveValueForKey(${1:NSString* key})'
   'shouldRasterize':
     'prefix': 'shouldRasterize'
-    'body': 'shouldRasterize()'
+    'body': 'shouldRasterize'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
   'sublayerTransform':
     'prefix': 'sublayerTransform'
-    'body': 'sublayerTransform()'
+    'body': 'sublayerTransform'
   'sublayers':
     'prefix': 'sublayers'
-    'body': 'sublayers()'
+    'body': 'sublayers'
   'superlayer':
     'prefix': 'superlayer'
-    'body': 'superlayer()'
+    'body': 'superlayer'
   'transform':
     'prefix': 'transform'
-    'body': 'transform()'
+    'body': 'transform'
   'visibleRect':
     'prefix': 'visibleRect'
-    'body': 'visibleRect()'
+    'body': 'visibleRect'
   'zPosition':
     'prefix': 'zPosition'
-    'body': 'zPosition()'
+    'body': 'zPosition'
+  'CAMediaTimingFunction':
+    'prefix': 'CAMediaTimingFunction'
+    'body': 'CAMediaTimingFunction'
   'CAMediaTimingFunction.functionWithControlPoints::::':
     'prefix': 'functionWithControlPoints::::'
     'body': 'functionWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
@@ -1367,6 +1403,9 @@
   'initWithControlPoints::::':
     'prefix': 'initWithControlPoints::::'
     'body': 'initWithControlPoints(${1:float c1x}, :${2:float c1y}, :${3:float c2x}, :${4:float c2y})'
+  'CAOpenGLLayer':
+    'prefix': 'CAOpenGLLayer'
+    'body': 'CAOpenGLLayer'
   'canDrawInCGLContext:pixelFormat:forLayerTime:displayTime:':
     'prefix': 'canDrawInCGLContext:pixelFormat:forLayerTime:displayTime:'
     'body': 'canDrawInCGLContext(${1:CGLContextObj ctx}, pixelFormat:${2:CGLPixelFormatObj pf}, forLayerTime:${3:CFTimeInterval t}, displayTime:${4:CVTimeStamp* ts})'
@@ -1381,7 +1420,7 @@
     'body': 'drawInCGLContext(${1:CGLContextObj ctx}, pixelFormat:${2:CGLPixelFormatObj pf}, forLayerTime:${3:CFTimeInterval t}, displayTime:${4:CVTimeStamp* ts})'
   'isAsynchronous':
     'prefix': 'isAsynchronous'
-    'body': 'isAsynchronous()'
+    'body': 'isAsynchronous'
   'releaseCGLContext:':
     'prefix': 'releaseCGLContext:'
     'body': 'releaseCGLContext(${1:CGLContextObj ctx})'
@@ -1391,18 +1430,21 @@
   'setAsynchronous:':
     'prefix': 'setAsynchronous:'
     'body': 'setAsynchronous(${1:BOOL asynchronous})'
+  'CAPropertyAnimation':
+    'prefix': 'CAPropertyAnimation'
+    'body': 'CAPropertyAnimation'
   'CAPropertyAnimation.animationWithKeyPath:':
     'prefix': 'animationWithKeyPath:'
     'body': 'animationWithKeyPath(${1:NSString* path})'
   'isAdditive':
     'prefix': 'isAdditive'
-    'body': 'isAdditive()'
+    'body': 'isAdditive'
   'isCumulative':
     'prefix': 'isCumulative'
-    'body': 'isCumulative()'
+    'body': 'isCumulative'
   'keyPath':
     'prefix': 'keyPath'
-    'body': 'KeyPath()'
+    'body': 'KeyPath'
   'setAdditive:':
     'prefix': 'setAdditive:'
     'body': 'setAdditive(${1:BOOL additive})'
@@ -1417,28 +1459,37 @@
     'body': 'setValueFunction(${1:CAValueFunction* valueFunction})'
   'valueFunction':
     'prefix': 'valueFunction'
-    'body': 'valueFunction()'
+    'body': 'valueFunction'
+  'CARemoteLayerClient':
+    'prefix': 'CARemoteLayerClient'
+    'body': 'CARemoteLayerClient'
   'clientId':
     'prefix': 'clientId'
-    'body': 'clientId()'
+    'body': 'clientId'
   'initWithServerPort:':
     'prefix': 'initWithServerPort:'
     'body': 'initWithServerPort(${1:mach_port_t port})'
   'invalidate':
     'prefix': 'invalidate'
-    'body': 'invalidate()'
+    'body': 'invalidate'
   'layer':
     'prefix': 'layer'
-    'body': 'layer()'
+    'body': 'layer'
   'setLayer:':
     'prefix': 'setLayer:'
     'body': 'setLayer(${1:CALayer* layer})'
+  'CARemoteLayerServer':
+    'prefix': 'CARemoteLayerServer'
+    'body': 'CARemoteLayerServer'
   'serverPort':
     'prefix': 'serverPort'
-    'body': 'serverPort()'
+    'body': 'serverPort'
   'CARemoteLayerServer.sharedServer':
     'prefix': 'sharedServer'
-    'body': 'sharedServer()'
+    'body': 'sharedServer'
+  'CARenderer':
+    'prefix': 'CARenderer'
+    'body': 'CARenderer'
   'addUpdateRect:':
     'prefix': 'addUpdateRect:'
     'body': 'addUpdateRect(${1:CGRect r})'
@@ -1447,19 +1498,19 @@
     'body': 'beginFrameAtTime(${1:CFTimeInterval t}, timeStamp:${2:CVTimeStamp* ts})'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'endFrame':
     'prefix': 'endFrame'
-    'body': 'endFrame()'
+    'body': 'endFrame'
   'layer':
     'prefix': 'layer'
-    'body': 'layer()'
+    'body': 'layer'
   'nextFrameTime':
     'prefix': 'nextFrameTime'
-    'body': 'nextFrameTime()'
+    'body': 'nextFrameTime'
   'render':
     'prefix': 'render'
-    'body': 'render()'
+    'body': 'render'
   'CARenderer.rendererWithCGLContext:options:':
     'prefix': 'rendererWithCGLContext:options:'
     'body': 'rendererWithCGLContext(${1:void* ctx}, options:${2:NSDictionary* dict})'
@@ -1471,34 +1522,37 @@
     'body': 'setLayer(${1:CALayer* layer})'
   'updateBounds':
     'prefix': 'updateBounds'
-    'body': 'updateBounds()'
+    'body': 'updateBounds'
+  'CAReplicatorLayer':
+    'prefix': 'CAReplicatorLayer'
+    'body': 'CAReplicatorLayer'
   'instanceAlphaOffset':
     'prefix': 'instanceAlphaOffset'
-    'body': 'instanceAlphaOffset()'
+    'body': 'instanceAlphaOffset'
   'instanceBlueOffset':
     'prefix': 'instanceBlueOffset'
-    'body': 'instanceBlueOffset()'
+    'body': 'instanceBlueOffset'
   'instanceColor':
     'prefix': 'instanceColor'
-    'body': 'instanceColor()'
+    'body': 'instanceColor'
   'instanceCount':
     'prefix': 'instanceCount'
-    'body': 'instanceCount()'
+    'body': 'instanceCount'
   'instanceDelay':
     'prefix': 'instanceDelay'
-    'body': 'instanceDelay()'
+    'body': 'instanceDelay'
   'instanceGreenOffset':
     'prefix': 'instanceGreenOffset'
-    'body': 'instanceGreenOffset()'
+    'body': 'instanceGreenOffset'
   'instanceRedOffset':
     'prefix': 'instanceRedOffset'
-    'body': 'instanceRedOffset()'
+    'body': 'instanceRedOffset'
   'instanceTransform':
     'prefix': 'instanceTransform'
-    'body': 'instanceTransform()'
+    'body': 'instanceTransform'
   'preservesDepth':
     'prefix': 'preservesDepth'
-    'body': 'preservesDepth()'
+    'body': 'preservesDepth'
   'setInstanceAlphaOffset:':
     'prefix': 'setInstanceAlphaOffset:'
     'body': 'setInstanceAlphaOffset(${1:float instanceAlphaOffset})'
@@ -1526,9 +1580,12 @@
   'setPreservesDepth:':
     'prefix': 'setPreservesDepth:'
     'body': 'setPreservesDepth(${1:BOOL preservesDepth})'
+  'CAScrollLayer':
+    'prefix': 'CAScrollLayer'
+    'body': 'CAScrollLayer'
   'scrollMode':
     'prefix': 'scrollMode'
-    'body': 'scrollMode()'
+    'body': 'scrollMode'
   'scrollToPoint:':
     'prefix': 'scrollToPoint:'
     'body': 'scrollToPoint(${1:CGPoint p})'
@@ -1538,33 +1595,36 @@
   'setScrollMode:':
     'prefix': 'setScrollMode:'
     'body': 'setScrollMode(${1:NSString* scrollMode})'
+  'CAShapeLayer':
+    'prefix': 'CAShapeLayer'
+    'body': 'CAShapeLayer'
   'fillColor':
     'prefix': 'fillColor'
-    'body': 'fillColor()'
+    'body': 'fillColor'
   'fillRule':
     'prefix': 'fillRule'
-    'body': 'fillRule()'
+    'body': 'fillRule'
   'lineCap':
     'prefix': 'lineCap'
-    'body': 'lineCap()'
+    'body': 'lineCap'
   'lineDashPattern':
     'prefix': 'lineDashPattern'
-    'body': 'lineDashPattern()'
+    'body': 'lineDashPattern'
   'lineDashPhase':
     'prefix': 'lineDashPhase'
-    'body': 'lineDashPhase()'
+    'body': 'lineDashPhase'
   'lineJoin':
     'prefix': 'lineJoin'
-    'body': 'lineJoin()'
+    'body': 'lineJoin'
   'lineWidth':
     'prefix': 'lineWidth'
-    'body': 'lineWidth()'
+    'body': 'lineWidth'
   'miterLimit':
     'prefix': 'miterLimit'
-    'body': 'miterLimit()'
+    'body': 'miterLimit'
   'path':
     'prefix': 'path'
-    'body': 'path()'
+    'body': 'path'
   'setFillColor:':
     'prefix': 'setFillColor:'
     'body': 'setFillColor(${1:CGColorRef fillColor})'
@@ -1603,28 +1663,31 @@
     'body': 'setStrokeStart(${1:CGFloat strokeStart})'
   'strokeColor':
     'prefix': 'strokeColor'
-    'body': 'strokeColor()'
+    'body': 'strokeColor'
   'strokeEnd':
     'prefix': 'strokeEnd'
-    'body': 'strokeEnd()'
+    'body': 'strokeEnd'
   'strokeStart':
     'prefix': 'strokeStart'
-    'body': 'strokeStart()'
+    'body': 'strokeStart'
+  'CATextLayer':
+    'prefix': 'CATextLayer'
+    'body': 'CATextLayer'
   'alignmentMode':
     'prefix': 'alignmentMode'
-    'body': 'alignmentMode()'
+    'body': 'alignmentMode'
   'font':
     'prefix': 'font'
-    'body': 'font()'
+    'body': 'font'
   'fontSize':
     'prefix': 'fontSize'
-    'body': 'fontSize()'
+    'body': 'fontSize'
   'foregroundColor':
     'prefix': 'foregroundColor'
-    'body': 'foregroundColor()'
+    'body': 'foregroundColor'
   'isWrapped':
     'prefix': 'isWrapped'
-    'body': 'isWrapped()'
+    'body': 'isWrapped'
   'setAlignmentMode:':
     'prefix': 'setAlignmentMode:'
     'body': 'setAlignmentMode(${1:NSString* alignmentMode})'
@@ -1648,19 +1711,22 @@
     'body': 'setWrapped(${1:BOOL wrapped})'
   'string':
     'prefix': 'string'
-    'body': 'string()'
+    'body': 'string'
   'truncationMode':
     'prefix': 'truncationMode'
-    'body': 'truncationMode()'
+    'body': 'truncationMode'
+  'CATiledLayer':
+    'prefix': 'CATiledLayer'
+    'body': 'CATiledLayer'
   'CATiledLayer.fadeDuration':
     'prefix': 'fadeDuration'
-    'body': 'fadeDuration()'
+    'body': 'fadeDuration'
   'levelsOfDetail':
     'prefix': 'levelsOfDetail'
-    'body': 'levelsOfDetail()'
+    'body': 'levelsOfDetail'
   'levelsOfDetailBias':
     'prefix': 'levelsOfDetailBias'
-    'body': 'levelsOfDetailBias()'
+    'body': 'levelsOfDetailBias'
   'setLevelsOfDetail:':
     'prefix': 'setLevelsOfDetail:'
     'body': 'setLevelsOfDetail(${1:size_t levelsOfDetail})'
@@ -1672,31 +1738,34 @@
     'body': 'setTileSize(${1:CGSize tileSize})'
   'tileSize':
     'prefix': 'tileSize'
-    'body': 'tileSize()'
+    'body': 'tileSize'
+  'CATransaction':
+    'prefix': 'CATransaction'
+    'body': 'CATransaction'
   'CATransaction.animationDuration':
     'prefix': 'animationDuration'
-    'body': 'animationDuration()'
+    'body': 'animationDuration'
   'CATransaction.animationTimingFunction':
     'prefix': 'animationTimingFunction'
-    'body': 'animationTimingFunction()'
+    'body': 'animationTimingFunction'
   'CATransaction.begin':
     'prefix': 'begin'
-    'body': 'begin()'
+    'body': 'begin'
   'CATransaction.commit':
     'prefix': 'commit'
-    'body': 'commit()'
+    'body': 'commit'
   'CATransaction.completionBlock':
     'prefix': 'completionBlock'
-    'body': 'completionBlock()'
+    'body': 'completionBlock'
   'CATransaction.disableActions':
     'prefix': 'disableActions'
-    'body': 'disableActions()'
+    'body': 'disableActions'
   'CATransaction.flush':
     'prefix': 'flush'
-    'body': 'flush()'
+    'body': 'flush'
   'CATransaction.lock':
     'prefix': 'lock'
-    'body': 'lock()'
+    'body': 'lock'
   'CATransaction.setAnimationDuration:':
     'prefix': 'setAnimationDuration:'
     'body': 'setAnimationDuration(${1:CFTimeInterval dur})'
@@ -1714,16 +1783,19 @@
     'body': 'setValue(${1:id anObject}, forKey:${2:NSString* key})'
   'CATransaction.unlock':
     'prefix': 'unlock'
-    'body': 'unlock()'
+    'body': 'unlock'
   'CATransaction.valueForKey:':
     'prefix': 'valueForKey:'
     'body': 'valueForKey(${1:NSString* key})'
+  'CATransition':
+    'prefix': 'CATransition'
+    'body': 'CATransition'
   'endProgress':
     'prefix': 'endProgress'
-    'body': 'endProgress()'
+    'body': 'endProgress'
   'filter':
     'prefix': 'filter'
-    'body': 'filter()'
+    'body': 'filter'
   'setEndProgress:':
     'prefix': 'setEndProgress:'
     'body': 'setEndProgress(${1:float endProgress})'
@@ -1741,31 +1813,40 @@
     'body': 'setType(${1:NSString* type})'
   'startProgress':
     'prefix': 'startProgress'
-    'body': 'startProgress()'
+    'body': 'startProgress'
   'subtype':
     'prefix': 'subtype'
-    'body': 'subtype()'
+    'body': 'subtype'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'CAValueFunction':
+    'prefix': 'CAValueFunction'
+    'body': 'CAValueFunction'
   'CAValueFunction.functionWithName:':
     'prefix': 'functionWithName:'
     'body': 'functionWithName(${1:NSString* name})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
+  'CIFilter':
+    'prefix': 'CIFilter'
+    'body': 'CIFilter'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1:BOOL enabled})'
   'setName:':
     'prefix': 'setName:'
     'body': 'setName(${1:NSString* name})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'actionForLayer:forKey:':
     'prefix': 'actionForLayer:forKey:'
     'body': 'actionForLayer(${1:CALayer* layer}, forKey:${2:NSString* event})'
@@ -1777,10 +1858,10 @@
     'body': 'animationDidStop(${1:CAAnimation* anim}, finished:${2:BOOL flag})'
   'autoreverses':
     'prefix': 'autoreverses'
-    'body': 'autoreverses()'
+    'body': 'autoreverses'
   'beginTime':
     'prefix': 'beginTime'
-    'body': 'beginTime()'
+    'body': 'beginTime'
   'displayLayer:':
     'prefix': 'displayLayer:'
     'body': 'displayLayer(${1:CALayer* layer})'
@@ -1789,10 +1870,10 @@
     'body': 'drawLayer(${1:CALayer* layer}, inContext:${2:CGContextRef ctx})'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'fillMode':
     'prefix': 'fillMode'
-    'body': 'fillMode()'
+    'body': 'fillMode'
   'invalidateLayoutOfLayer:':
     'prefix': 'invalidateLayoutOfLayer:'
     'body': 'invalidateLayoutOfLayer(${1:CALayer* layer})'
@@ -1804,10 +1885,10 @@
     'body': 'preferredSizeOfLayer(${1:CALayer* layer})'
   'repeatCount':
     'prefix': 'repeatCount'
-    'body': 'repeatCount()'
+    'body': 'repeatCount'
   'repeatDuration':
     'prefix': 'repeatDuration'
-    'body': 'repeatDuration()'
+    'body': 'repeatDuration'
   'runActionForKey:object:arguments:':
     'prefix': 'runActionForKey:object:arguments:'
     'body': 'runActionForKey(${1:NSString* event}, object:${2:id anObject}, arguments:${3:NSDictionary* dict})'
@@ -1837,25 +1918,37 @@
     'body': 'setTimeOffset(${1:CFTimeInterval timeOffset})'
   'speed':
     'prefix': 'speed'
-    'body': 'speed()'
+    'body': 'speed'
   'timeOffset':
     'prefix': 'timeOffset'
-    'body': 'timeOffset()'
+    'body': 'timeOffset'
+  'NSValue':
+    'prefix': 'NSValue'
+    'body': 'NSValue'
   'CATransform3DValue':
     'prefix': 'CATransform3DValue'
-    'body': 'CATransform3DValue()'
+    'body': 'CATransform3DValue'
   'NSValue.valueWithCATransform3D:':
     'prefix': 'valueWithCATransform3D:'
     'body': 'valueWithCATransform3D(${1:CATransform3D t})'
+  'CAAction':
+    'prefix': 'CAAction'
+    'body': 'CAAction'
   'runActionForKey:object:arguments:':
     'prefix': 'runActionForKey:object:arguments:'
     'body': 'runActionForKey(${1:NSString* event}, object:${2:id anObject}, arguments:${3:NSDictionary* dict})'
+  'CAAnimationDelegate':
+    'prefix': 'CAAnimationDelegate'
+    'body': 'CAAnimationDelegate'
   'animationDidStart:':
     'prefix': 'animationDidStart:'
     'body': 'animationDidStart(${1:CAAnimation* anim})'
   'animationDidStop:finished:':
     'prefix': 'animationDidStop:finished:'
     'body': 'animationDidStop(${1:CAAnimation* anim}, finished:${2:BOOL flag})'
+  'CALayerDelegate':
+    'prefix': 'CALayerDelegate'
+    'body': 'CALayerDelegate'
   'actionForLayer:forKey:':
     'prefix': 'actionForLayer:forKey:'
     'body': 'actionForLayer(${1:CALayer* layer}, forKey:${2:NSString* event})'
@@ -1868,6 +1961,9 @@
   'layoutSublayersOfLayer:':
     'prefix': 'layoutSublayersOfLayer:'
     'body': 'layoutSublayersOfLayer(${1:CALayer* layer})'
+  'CALayoutManager':
+    'prefix': 'CALayoutManager'
+    'body': 'CALayoutManager'
   'invalidateLayoutOfLayer:':
     'prefix': 'invalidateLayoutOfLayer:'
     'body': 'invalidateLayoutOfLayer(${1:CALayer* layer})'
@@ -1877,24 +1973,27 @@
   'preferredSizeOfLayer:':
     'prefix': 'preferredSizeOfLayer:'
     'body': 'preferredSizeOfLayer(${1:CALayer* layer})'
+  'CAMediaTiming':
+    'prefix': 'CAMediaTiming'
+    'body': 'CAMediaTiming'
   'autoreverses':
     'prefix': 'autoreverses'
-    'body': 'autoreverses()'
+    'body': 'autoreverses'
   'beginTime':
     'prefix': 'beginTime'
-    'body': 'beginTime()'
+    'body': 'beginTime'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'fillMode':
     'prefix': 'fillMode'
-    'body': 'fillMode()'
+    'body': 'fillMode'
   'repeatCount':
     'prefix': 'repeatCount'
-    'body': 'repeatCount()'
+    'body': 'repeatCount'
   'repeatDuration':
     'prefix': 'repeatDuration'
-    'body': 'repeatDuration()'
+    'body': 'repeatDuration'
   'setAutoreverses:':
     'prefix': 'setAutoreverses:'
     'body': 'setAutoreverses(${1:BOOL autoreverses})'
@@ -1921,10 +2020,10 @@
     'body': 'setTimeOffset(${1:CFTimeInterval timeOffset})'
   'speed':
     'prefix': 'speed'
-    'body': 'speed()'
+    'body': 'speed'
   'timeOffset':
     'prefix': 'timeOffset'
-    'body': 'timeOffset()'
+    'body': 'timeOffset'
   'CIDetectorAccuracy (NSString*)':
     'prefix': 'CIDetectorAccuracy'
     'body': 'CIDetectorAccuracy'
@@ -2342,15 +2441,18 @@
   'kCIUISetIntermediate (NSString*)':
     'prefix': 'kCIUISetIntermediate'
     'body': 'KCIUISetIntermediate'
+  'CIColor':
+    'prefix': 'CIColor'
+    'body': 'CIColor'
   'alpha':
     'prefix': 'alpha'
-    'body': 'alpha()'
+    'body': 'alpha'
   'blue':
     'prefix': 'blue'
-    'body': 'blue()'
+    'body': 'blue'
   'colorSpace':
     'prefix': 'colorSpace'
-    'body': 'colorSpace()'
+    'body': 'colorSpace'
   'CIColor.colorWithCGColor:':
     'prefix': 'colorWithCGColor:'
     'body': 'colorWithCGColor(${1:CGColorRef c})'
@@ -2365,25 +2467,28 @@
     'body': 'colorWithString(${1:NSString* representation})'
   'components':
     'prefix': 'components'
-    'body': 'components()'
+    'body': 'components'
   'green':
     'prefix': 'green'
-    'body': 'green()'
+    'body': 'green'
   'initWithCGColor:':
     'prefix': 'initWithCGColor:'
     'body': 'initWithCGColor(${1:CGColorRef c})'
   'numberOfComponents':
     'prefix': 'numberOfComponents'
-    'body': 'numberOfComponents()'
+    'body': 'numberOfComponents'
   'red':
     'prefix': 'red'
-    'body': 'red()'
+    'body': 'red'
   'stringRepresentation':
     'prefix': 'stringRepresentation'
-    'body': 'stringRepresentation()'
+    'body': 'stringRepresentation'
+  'CIContext':
+    'prefix': 'CIContext'
+    'body': 'CIContext'
   'clearCaches':
     'prefix': 'clearCaches'
-    'body': 'clearCaches()'
+    'body': 'clearCaches'
   'CIContext.contextWithCGContext:options:':
     'prefix': 'contextWithCGContext:options:'
     'body': 'contextWithCGContext(${1:CGContextRef ctx}, options:${2:NSDictionary* dict})'
@@ -2410,13 +2515,16 @@
     'body': 'drawImage(${1:CIImage* im}, inRect:${2:CGRect dest}, fromRect:${3:CGRect src})'
   'reclaimResources':
     'prefix': 'reclaimResources'
-    'body': 'reclaimResources()'
+    'body': 'reclaimResources'
   'render:toBitmap:rowBytes:bounds:format:colorSpace:':
     'prefix': 'render:toBitmap:rowBytes:bounds:format:colorSpace:'
     'body': 'render(${1:CIImage* im}, toBitmap:${2:void* data}, rowBytes:${3:ptrdiff_t rb}, bounds:${4:CGRect r}, format:${5:CIFormat f}, colorSpace:${6:CGColorSpaceRef cs})'
   'render:toIOSurface:bounds:colorSpace:':
     'prefix': 'render:toIOSurface:bounds:colorSpace:'
     'body': 'render(${1:CIImage* im}, toIOSurface:${2:IOSurfaceRef surface}, bounds:${3:CGRect r}, colorSpace:${4:CGColorSpaceRef cs})'
+  'CIDetector':
+    'prefix': 'CIDetector'
+    'body': 'CIDetector'
   'CIDetector.detectorOfType:context:options:':
     'prefix': 'detectorOfType:context:options:'
     'body': 'detectorOfType(${1:NSString* type}, context:${2:CIContext* context}, options:${3:NSDictionary* options})'
@@ -2426,60 +2534,69 @@
   'featuresInImage:options:':
     'prefix': 'featuresInImage:options:'
     'body': 'featuresInImage(${1:CIImage* image}, options:${2:NSDictionary* options})'
+  'CIFaceFeature':
+    'prefix': 'CIFaceFeature'
+    'body': 'CIFaceFeature'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'faceAngle':
     'prefix': 'faceAngle'
-    'body': 'faceAngle()'
+    'body': 'faceAngle'
   'hasFaceAngle':
     'prefix': 'hasFaceAngle'
-    'body': 'hasFaceAngle()'
+    'body': 'hasFaceAngle'
   'hasLeftEyePosition':
     'prefix': 'hasLeftEyePosition'
-    'body': 'hasLeftEyePosition()'
+    'body': 'hasLeftEyePosition'
   'hasMouthPosition':
     'prefix': 'hasMouthPosition'
-    'body': 'hasMouthPosition()'
+    'body': 'hasMouthPosition'
   'hasRightEyePosition':
     'prefix': 'hasRightEyePosition'
-    'body': 'hasRightEyePosition()'
+    'body': 'hasRightEyePosition'
   'hasSmile':
     'prefix': 'hasSmile'
-    'body': 'hasSmile()'
+    'body': 'hasSmile'
   'hasTrackingFrameCount':
     'prefix': 'hasTrackingFrameCount'
-    'body': 'hasTrackingFrameCount()'
+    'body': 'hasTrackingFrameCount'
   'hasTrackingID':
     'prefix': 'hasTrackingID'
-    'body': 'hasTrackingID()'
+    'body': 'hasTrackingID'
   'leftEyeClosed':
     'prefix': 'leftEyeClosed'
-    'body': 'leftEyeClosed()'
+    'body': 'leftEyeClosed'
   'leftEyePosition':
     'prefix': 'leftEyePosition'
-    'body': 'leftEyePosition()'
+    'body': 'leftEyePosition'
   'mouthPosition':
     'prefix': 'mouthPosition'
-    'body': 'mouthPosition()'
+    'body': 'mouthPosition'
   'rightEyeClosed':
     'prefix': 'rightEyeClosed'
-    'body': 'rightEyeClosed()'
+    'body': 'rightEyeClosed'
   'rightEyePosition':
     'prefix': 'rightEyePosition'
-    'body': 'rightEyePosition()'
+    'body': 'rightEyePosition'
   'trackingFrameCount':
     'prefix': 'trackingFrameCount'
-    'body': 'trackingFrameCount()'
+    'body': 'trackingFrameCount'
   'trackingID':
     'prefix': 'trackingID'
-    'body': 'trackingID()'
+    'body': 'trackingID'
+  'CIFeature':
+    'prefix': 'CIFeature'
+    'body': 'CIFeature'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'CIFilter':
+    'prefix': 'CIFilter'
+    'body': 'CIFilter'
   'apply:':
     'prefix': 'apply:'
     'body': 'apply(${1:CIKernel* k})'
@@ -2488,7 +2605,7 @@
     'body': 'apply(${1:CIKernel* k}, arguments:${2:NSArray* args}, options:${3:NSDictionary* dict})'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'CIFilter.filterArrayFromSerializedXMP:inputImageExtent:error:':
     'prefix': 'filterArrayFromSerializedXMP:inputImageExtent:error:'
     'body': 'filterArrayFromSerializedXMP(${1:NSData* xmpData}, inputImageExtent:${2:CGRect extent}, error:${3:NSError** outError})'
@@ -2512,7 +2629,7 @@
     'body': 'filterWithName(${1:NSString* name}, keysAndValues:${2:id key0})'
   'inputKeys':
     'prefix': 'inputKeys'
-    'body': 'inputKeys()'
+    'body': 'inputKeys'
   'CIFilter.localizedDescriptionForFilterName:':
     'prefix': 'localizedDescriptionForFilterName:'
     'body': 'localizedDescriptionForFilterName(${1:NSString* filterName})'
@@ -2527,7 +2644,7 @@
     'body': 'localizedReferenceDocumentationForFilterName(${1:NSString* filterName})'
   'outputKeys':
     'prefix': 'outputKeys'
-    'body': 'outputKeys()'
+    'body': 'outputKeys'
   'CIFilter.registerFilterName:constructor:classAttributes:':
     'prefix': 'registerFilterName:constructor:classAttributes:'
     'body': 'registerFilterName(${1:NSString* name}, constructor:${2:id anObject}, classAttributes:${3:NSDictionary* attributes})'
@@ -2536,10 +2653,13 @@
     'body': 'serializedXMPFromFilters(${1:NSArray* filters}, inputImageExtent:${2:CGRect extent})'
   'setDefaults':
     'prefix': 'setDefaults'
-    'body': 'setDefaults()'
+    'body': 'setDefaults'
+  'CIFilterGenerator':
+    'prefix': 'CIFilterGenerator'
+    'body': 'CIFilterGenerator'
   'classAttributes':
     'prefix': 'classAttributes'
-    'body': 'classAttributes()'
+    'body': 'classAttributes'
   'connectObject:withKey:toObject:withKey:':
     'prefix': 'connectObject:withKey:toObject:withKey:'
     'body': 'connectObject(${1:id sourceObject}, withKey:${2:NSString* sourceKey}, toObject:${3:id targetObject}, withKey:${4:NSString* targetKey})'
@@ -2551,13 +2671,13 @@
     'body': 'exportKey(${1:NSString* key}, fromObject:${2:id targetObject}, withName:${3:NSString* exportedKeyName})'
   'exportedKeys':
     'prefix': 'exportedKeys'
-    'body': 'exportedKeys()'
+    'body': 'exportedKeys'
   'filter':
     'prefix': 'filter'
-    'body': 'filter()'
+    'body': 'filter'
   'CIFilterGenerator.filterGenerator':
     'prefix': 'filterGenerator'
-    'body': 'filterGenerator()'
+    'body': 'filterGenerator'
   'CIFilterGenerator.filterGeneratorWithContentsOfURL:':
     'prefix': 'filterGeneratorWithContentsOfURL:'
     'body': 'filterGeneratorWithContentsOfURL(${1:NSURL* aURL})'
@@ -2579,6 +2699,9 @@
   'writeToURL:atomically:':
     'prefix': 'writeToURL:atomically:'
     'body': 'writeToURL(${1:NSURL* aURL}, atomically:${2:BOOL flag})'
+  'CIFilterShape':
+    'prefix': 'CIFilterShape'
+    'body': 'CIFilterShape'
   'initWithRect:':
     'prefix': 'initWithRect:'
     'body': 'initWithRect(${1:CGRect r})'
@@ -2603,24 +2726,27 @@
   'unionWithRect:':
     'prefix': 'unionWithRect:'
     'body': 'unionWithRect(${1:CGRect r})'
+  'CIImage':
+    'prefix': 'CIImage'
+    'body': 'CIImage'
   'autoAdjustmentFilters':
     'prefix': 'autoAdjustmentFilters'
-    'body': 'autoAdjustmentFilters()'
+    'body': 'autoAdjustmentFilters'
   'autoAdjustmentFiltersWithOptions:':
     'prefix': 'autoAdjustmentFiltersWithOptions:'
     'body': 'autoAdjustmentFiltersWithOptions(${1:NSDictionary* dict})'
   'colorSpace':
     'prefix': 'colorSpace'
-    'body': 'colorSpace()'
+    'body': 'colorSpace'
   'definition':
     'prefix': 'definition'
-    'body': 'definition()'
+    'body': 'definition'
   'CIImage.emptyImage':
     'prefix': 'emptyImage'
-    'body': 'emptyImage()'
+    'body': 'emptyImage'
   'extent':
     'prefix': 'extent'
-    'body': 'extent()'
+    'body': 'extent'
   'imageByApplyingTransform:':
     'prefix': 'imageByApplyingTransform:'
     'body': 'imageByApplyingTransform(${1:CGAffineTransform matrix})'
@@ -2734,22 +2860,25 @@
     'body': 'initWithTexture(${1:unsigned int name}, size:${2:CGSize size}, flipped:${3:BOOL flag}, options:${4:NSDictionary* options})'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'CIImageAccumulator':
+    'prefix': 'CIImageAccumulator'
+    'body': 'CIImageAccumulator'
   'clear':
     'prefix': 'clear'
-    'body': 'clear()'
+    'body': 'clear'
   'extent':
     'prefix': 'extent'
-    'body': 'extent()'
+    'body': 'extent'
   'format':
     'prefix': 'format'
-    'body': 'format()'
+    'body': 'format'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'CIImageAccumulator.imageAccumulatorWithExtent:format:':
     'prefix': 'imageAccumulatorWithExtent:format:'
     'body': 'imageAccumulatorWithExtent(${1:CGRect extent}, format:${2:CIFormat format})'
@@ -2768,33 +2897,42 @@
   'setImage:dirtyRect:':
     'prefix': 'setImage:dirtyRect:'
     'body': 'setImage(${1:CIImage* im}, dirtyRect:${2:CGRect r})'
+  'CIKernel':
+    'prefix': 'CIKernel'
+    'body': 'CIKernel'
   'CIKernel.kernelsWithString:':
     'prefix': 'kernelsWithString:'
     'body': 'KernelsWithString(${1:NSString* s})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setROISelector:':
     'prefix': 'setROISelector:'
     'body': 'setROISelector(${1:SEL aMethod})'
+  'CIPlugIn':
+    'prefix': 'CIPlugIn'
+    'body': 'CIPlugIn'
   'CIPlugIn.loadAllPlugIns':
     'prefix': 'loadAllPlugIns'
-    'body': 'loadAllPlugIns()'
+    'body': 'loadAllPlugIns'
   'CIPlugIn.loadNonExecutablePlugIns':
     'prefix': 'loadNonExecutablePlugIns'
-    'body': 'loadNonExecutablePlugIns()'
+    'body': 'loadNonExecutablePlugIns'
   'CIPlugIn.loadPlugIn:allowExecutableCode:':
     'prefix': 'loadPlugIn:allowExecutableCode:'
     'body': 'loadPlugIn(${1:NSURL* url}, allowExecutableCode:${2:BOOL allowExecutableCode})'
   'CIPlugIn.loadPlugIn:allowNonExecutable:':
     'prefix': 'loadPlugIn:allowNonExecutable:'
     'body': 'loadPlugIn(${1:NSURL* url}, allowNonExecutable:${2:BOOL allowNonExecutable})'
+  'CISampler':
+    'prefix': 'CISampler'
+    'body': 'CISampler'
   'definition':
     'prefix': 'definition'
-    'body': 'definition()'
+    'body': 'definition'
   'extent':
     'prefix': 'extent'
-    'body': 'extent()'
+    'body': 'extent'
   'initWithImage:':
     'prefix': 'initWithImage:'
     'body': 'initWithImage(${1:CIImage* im})'
@@ -2813,30 +2951,33 @@
   'CISampler.samplerWithImage:options:':
     'prefix': 'samplerWithImage:options:'
     'body': 'samplerWithImage(${1:CIImage* im}, options:${2:NSDictionary* dict})'
+  'CIVector':
+    'prefix': 'CIVector'
+    'body': 'CIVector'
   'CGAffineTransformValue':
     'prefix': 'CGAffineTransformValue'
-    'body': 'CGAffineTransformValue()'
+    'body': 'CGAffineTransformValue'
   'CGPointValue':
     'prefix': 'CGPointValue'
-    'body': 'CGPointValue()'
+    'body': 'CGPointValue'
   'CGRectValue':
     'prefix': 'CGRectValue'
-    'body': 'CGRectValue()'
+    'body': 'CGRectValue'
   'W':
     'prefix': 'W'
-    'body': 'W()'
+    'body': 'W'
   'X':
     'prefix': 'X'
-    'body': 'X()'
+    'body': 'X'
   'Y':
     'prefix': 'Y'
-    'body': 'Y()'
+    'body': 'Y'
   'Z':
     'prefix': 'Z'
-    'body': 'Z()'
+    'body': 'Z'
   'count':
     'prefix': 'count'
-    'body': 'count()'
+    'body': 'count'
   'initWithCGAffineTransform:':
     'prefix': 'initWithCGAffineTransform:'
     'body': 'initWithCGAffineTransform(${1:CGAffineTransform r})'
@@ -2866,7 +3007,7 @@
     'body': 'initWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
   'stringRepresentation':
     'prefix': 'stringRepresentation'
-    'body': 'stringRepresentation()'
+    'body': 'stringRepresentation'
   'valueAtIndex:':
     'prefix': 'valueAtIndex:'
     'body': 'valueAtIndex(${1:size_t index})'
@@ -2897,6 +3038,9 @@
   'CIVector.vectorWithX:Y:Z:W:':
     'prefix': 'vectorWithX:Y:Z:W:'
     'body': 'vectorWithX(${1:CGFloat x}, Y:${2:CGFloat y}, Z:${3:CGFloat z}, W:${4:CGFloat w})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'filterWithName:':
     'prefix': 'filterWithName:'
     'body': 'filterWithName(${1:NSString* name})'
@@ -2906,12 +3050,21 @@
   'provideImageData:bytesPerRow:origin::size::userInfo:':
     'prefix': 'provideImageData:bytesPerRow:origin::size::userInfo:'
     'body': 'provideImageData(${1:void* data}, bytesPerRow:${2:size_t rowbytes}, origin:${3:size_t x}, :${4:size_t y}, size:${5:size_t width}, :${6:size_t height}, userInfo:${7:id info})'
+  'CIFilterConstructor':
+    'prefix': 'CIFilterConstructor'
+    'body': 'CIFilterConstructor'
   'filterWithName:':
     'prefix': 'filterWithName:'
     'body': 'filterWithName(${1:NSString* name})'
+  'CIImageProvider':
+    'prefix': 'CIImageProvider'
+    'body': 'CIImageProvider'
   'provideImageData:bytesPerRow:origin::size::userInfo:':
     'prefix': 'provideImageData:bytesPerRow:origin::size::userInfo:'
     'body': 'provideImageData(${1:void* data}, bytesPerRow:${2:size_t rowbytes}, origin:${3:size_t x}, :${4:size_t y}, size:${5:size_t width}, :${6:size_t height}, userInfo:${7:id info})'
+  'CIPlugInRegistration':
+    'prefix': 'CIPlugInRegistration'
+    'body': 'CIPlugInRegistration'
   'load:':
     'prefix': 'load:'
     'body': 'load(${1:void* host})'

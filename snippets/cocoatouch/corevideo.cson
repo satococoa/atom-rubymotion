@@ -607,13 +607,13 @@
     'body': 'CVBufferSetAttachments(${1:CVBufferRef buffer}, ${2:CFDictionaryRef theAttachments}, ${3:CVAttachmentMode attachmentMode})'
   'CVGetCurrentHostTime':
     'prefix': 'CVGetCurrentHostTime'
-    'body': 'CVGetCurrentHostTime()'
+    'body': 'CVGetCurrentHostTime'
   'CVGetHostClockFrequency':
     'prefix': 'CVGetHostClockFrequency'
-    'body': 'CVGetHostClockFrequency()'
+    'body': 'CVGetHostClockFrequency'
   'CVGetHostClockMinimumTimeDelta':
     'prefix': 'CVGetHostClockMinimumTimeDelta'
-    'body': 'CVGetHostClockMinimumTimeDelta()'
+    'body': 'CVGetHostClockMinimumTimeDelta'
   'CVImageBufferGetCleanRect':
     'prefix': 'CVImageBufferGetCleanRect'
     'body': 'CVImageBufferGetCleanRect(${1:CVImageBufferRef imageBuffer})'
@@ -637,7 +637,7 @@
     'body': 'CVOpenGLESTextureCacheFlush(${1:CVOpenGLESTextureCacheRef textureCache}, ${2:CVOptionFlags options})'
   'CVOpenGLESTextureCacheGetTypeID':
     'prefix': 'CVOpenGLESTextureCacheGetTypeID'
-    'body': 'CVOpenGLESTextureCacheGetTypeID()'
+    'body': 'CVOpenGLESTextureCacheGetTypeID'
   'CVOpenGLESTextureGetCleanTexCoords':
     'prefix': 'CVOpenGLESTextureGetCleanTexCoords'
     'body': 'CVOpenGLESTextureGetCleanTexCoords(${1:CVOpenGLESTextureRef image}, ${2:GLfloat* lowerLeft}, ${3:GLfloat* lowerRight}, ${4:GLfloat* upperRight}, ${5:GLfloat* upperLeft})'
@@ -649,7 +649,7 @@
     'body': 'CVOpenGLESTextureGetTarget(${1:CVOpenGLESTextureRef image})'
   'CVOpenGLESTextureGetTypeID':
     'prefix': 'CVOpenGLESTextureGetTypeID'
-    'body': 'CVOpenGLESTextureGetTypeID()'
+    'body': 'CVOpenGLESTextureGetTypeID'
   'CVOpenGLESTextureIsFlipped':
     'prefix': 'CVOpenGLESTextureIsFlipped'
     'body': 'CVOpenGLESTextureIsFlipped(${1:CVOpenGLESTextureRef image})'
@@ -700,7 +700,7 @@
     'body': 'CVPixelBufferGetPlaneCount(${1:CVPixelBufferRef pixelBuffer})'
   'CVPixelBufferGetTypeID':
     'prefix': 'CVPixelBufferGetTypeID'
-    'body': 'CVPixelBufferGetTypeID()'
+    'body': 'CVPixelBufferGetTypeID'
   'CVPixelBufferGetWidth':
     'prefix': 'CVPixelBufferGetWidth'
     'body': 'CVPixelBufferGetWidth(${1:CVPixelBufferRef pixelBuffer})'
@@ -730,7 +730,7 @@
     'body': 'CVPixelBufferPoolGetPixelBufferAttributes(${1:CVPixelBufferPoolRef pool})'
   'CVPixelBufferPoolGetTypeID':
     'prefix': 'CVPixelBufferPoolGetTypeID'
-    'body': 'CVPixelBufferPoolGetTypeID()'
+    'body': 'CVPixelBufferPoolGetTypeID'
   'CVPixelBufferPoolRelease':
     'prefix': 'CVPixelBufferPoolRelease'
     'body': 'CVPixelBufferPoolRelease(${1:CVPixelBufferPoolRef pixelBufferPool})'

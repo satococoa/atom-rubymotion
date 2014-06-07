@@ -5,12 +5,15 @@
   'SSReadingListErrorURLSchemeNotAllowed (1)':
     'prefix': 'SSReadingListErrorURLSchemeNotAllowed'
     'body': 'SSReadingListErrorURLSchemeNotAllowed'
+  'SSReadingList':
+    'prefix': 'SSReadingList'
+    'body': 'SSReadingList'
   'addReadingListItemWithURL:title:previewText:error:':
     'prefix': 'addReadingListItemWithURL:title:previewText:error:'
     'body': 'addReadingListItemWithURL(${1:NSURL* URL}, title:${2:NSString* title}, previewText:${3:NSString* previewText}, error:${4:NSError** error})'
   'SSReadingList.defaultReadingList':
     'prefix': 'defaultReadingList'
-    'body': 'defaultReadingList()'
+    'body': 'defaultReadingList'
   'SSReadingList.supportsURL:':
     'prefix': 'supportsURL:'
     'body': 'supportsURL(${1:NSURL* URL})'

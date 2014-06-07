@@ -23,48 +23,51 @@
   'NSUnselectNow (1)':
     'prefix': 'NSUnselectNow'
     'body': 'NSUnselectNow'
+  'NSPreferencePane':
+    'prefix': 'NSPreferencePane'
+    'body': 'NSPreferencePane'
   'assignMainView':
     'prefix': 'assignMainView'
-    'body': 'assignMainView()'
+    'body': 'assignMainView'
   'autoSaveTextFields':
     'prefix': 'autoSaveTextFields'
-    'body': 'autoSaveTextFields()'
+    'body': 'autoSaveTextFields'
   'bundle':
     'prefix': 'bundle'
-    'body': 'bundle()'
+    'body': 'bundle'
   'didSelect':
     'prefix': 'didSelect'
-    'body': 'didSelect()'
+    'body': 'didSelect'
   'didUnselect':
     'prefix': 'didUnselect'
-    'body': 'didUnselect()'
+    'body': 'didUnselect'
   'firstKeyView':
     'prefix': 'firstKeyView'
-    'body': 'firstKeyView()'
+    'body': 'firstKeyView'
   'initWithBundle:':
     'prefix': 'initWithBundle:'
     'body': 'initWithBundle(${1:NSBundle* bundle})'
   'initialKeyView':
     'prefix': 'initialKeyView'
-    'body': 'initialKeyView()'
+    'body': 'initialKeyView'
   'isSelected':
     'prefix': 'isSelected'
-    'body': 'isSelected()'
+    'body': 'isSelected'
   'lastKeyView':
     'prefix': 'lastKeyView'
-    'body': 'lastKeyView()'
+    'body': 'lastKeyView'
   'loadMainView':
     'prefix': 'loadMainView'
-    'body': 'loadMainView()'
+    'body': 'loadMainView'
   'mainNibName':
     'prefix': 'mainNibName'
-    'body': 'mainNibName()'
+    'body': 'mainNibName'
   'mainView':
     'prefix': 'mainView'
-    'body': 'mainView()'
+    'body': 'mainView'
   'mainViewDidLoad':
     'prefix': 'mainViewDidLoad'
-    'body': 'mainViewDidLoad()'
+    'body': 'mainViewDidLoad'
   'replyToShouldUnselect:':
     'prefix': 'replyToShouldUnselect:'
     'body': 'replyToShouldUnselect(${1:BOOL shouldUnselect})'
@@ -82,13 +85,13 @@
     'body': 'setMainView(${1:NSView* view})'
   'shouldUnselect':
     'prefix': 'shouldUnselect'
-    'body': 'shouldUnselect()'
+    'body': 'shouldUnselect'
   'updateHelpMenuWithArray:':
     'prefix': 'updateHelpMenuWithArray:'
     'body': 'updateHelpMenuWithArray(${1:NSArray* inArrayOfMenuItems})'
   'willSelect':
     'prefix': 'willSelect'
-    'body': 'willSelect()'
+    'body': 'willSelect'
   'willUnselect':
     'prefix': 'willUnselect'
-    'body': 'willUnselect()'
+    'body': 'willUnselect'

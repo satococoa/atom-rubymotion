@@ -487,40 +487,49 @@
     'body': 'MPSeekCommandEventTypeEndSeeking'
   'MPVolumeSettingsAlertHide':
     'prefix': 'MPVolumeSettingsAlertHide'
-    'body': 'MPVolumeSettingsAlertHide()'
+    'body': 'MPVolumeSettingsAlertHide'
   'MPVolumeSettingsAlertIsVisible':
     'prefix': 'MPVolumeSettingsAlertIsVisible'
-    'body': 'MPVolumeSettingsAlertIsVisible()'
+    'body': 'MPVolumeSettingsAlertIsVisible'
   'MPVolumeSettingsAlertShow':
     'prefix': 'MPVolumeSettingsAlertShow'
-    'body': 'MPVolumeSettingsAlertShow()'
+    'body': 'MPVolumeSettingsAlertShow'
+  'MPChangePlaybackRateCommand':
+    'prefix': 'MPChangePlaybackRateCommand'
+    'body': 'MPChangePlaybackRateCommand'
   'setSupportedPlaybackRates:':
     'prefix': 'setSupportedPlaybackRates:'
     'body': 'setSupportedPlaybackRates(${1:NSArray* supportedPlaybackRates})'
   'supportedPlaybackRates':
     'prefix': 'supportedPlaybackRates'
-    'body': 'supportedPlaybackRates()'
+    'body': 'supportedPlaybackRates'
+  'MPChangePlaybackRateCommandEvent':
+    'prefix': 'MPChangePlaybackRateCommandEvent'
+    'body': 'MPChangePlaybackRateCommandEvent'
   'playbackRate':
     'prefix': 'playbackRate'
-    'body': 'playbackRate()'
+    'body': 'playbackRate'
+  'MPContentItem':
+    'prefix': 'MPContentItem'
+    'body': 'MPContentItem'
   'artwork':
     'prefix': 'artwork'
-    'body': 'artwork()'
+    'body': 'artwork'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'initWithIdentifier:':
     'prefix': 'initWithIdentifier:'
     'body': 'initWithIdentifier(${1:NSString* identifier})'
   'isContainer':
     'prefix': 'isContainer'
-    'body': 'isContainer()'
+    'body': 'isContainer'
   'isPlayable':
     'prefix': 'isPlayable'
-    'body': 'isPlayable()'
+    'body': 'isPlayable'
   'playbackProgress':
     'prefix': 'playbackProgress'
-    'body': 'playbackProgress()'
+    'body': 'playbackProgress'
   'setArtwork:':
     'prefix': 'setArtwork:'
     'body': 'setArtwork(${1:MPMediaItemArtwork* artwork})'
@@ -541,22 +550,28 @@
     'body': 'setTitle(${1:NSString* title})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MPFeedbackCommand':
+    'prefix': 'MPFeedbackCommand'
+    'body': 'MPFeedbackCommand'
   'isActive':
     'prefix': 'isActive'
-    'body': 'isActive()'
+    'body': 'isActive'
   'localizedTitle':
     'prefix': 'localizedTitle'
-    'body': 'localizedTitle()'
+    'body': 'localizedTitle'
   'setActive:':
     'prefix': 'setActive:'
     'body': 'setActive(${1:BOOL active})'
   'setLocalizedTitle:':
     'prefix': 'setLocalizedTitle:'
     'body': 'setLocalizedTitle(${1:NSString* localizedTitle})'
+  'MPMediaEntity':
+    'prefix': 'MPMediaEntity'
+    'body': 'MPMediaEntity'
   'MPMediaEntity.canFilterByProperty:':
     'prefix': 'canFilterByProperty:'
     'body': 'canFilterByProperty(${1:NSString* property})'
@@ -566,72 +581,87 @@
   'valueForProperty:':
     'prefix': 'valueForProperty:'
     'body': 'valueForProperty(${1:NSString* property})'
+  'MPMediaItem':
+    'prefix': 'MPMediaItem'
+    'body': 'MPMediaItem'
   'MPMediaItem.persistentIDPropertyForGroupingType:':
     'prefix': 'persistentIDPropertyForGroupingType:'
     'body': 'persistentIDPropertyForGroupingType(${1:MPMediaGrouping groupingType})'
   'MPMediaItem.titlePropertyForGroupingType:':
     'prefix': 'titlePropertyForGroupingType:'
     'body': 'titlePropertyForGroupingType(${1:MPMediaGrouping groupingType})'
+  'MPMediaItemArtwork':
+    'prefix': 'MPMediaItemArtwork'
+    'body': 'MPMediaItemArtwork'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'imageCropRect':
     'prefix': 'imageCropRect'
-    'body': 'imageCropRect()'
+    'body': 'imageCropRect'
   'imageWithSize:':
     'prefix': 'imageWithSize:'
     'body': 'imageWithSize(${1:CGSize size})'
   'initWithImage:':
     'prefix': 'initWithImage:'
     'body': 'initWithImage(${1:UIImage* image})'
+  'MPMediaItemCollection':
+    'prefix': 'MPMediaItemCollection'
+    'body': 'MPMediaItemCollection'
   'MPMediaItemCollection.collectionWithItems:':
     'prefix': 'collectionWithItems:'
     'body': 'collectionWithItems(${1:NSArray* items})'
   'count':
     'prefix': 'count'
-    'body': 'count()'
+    'body': 'count'
   'initWithItems:':
     'prefix': 'initWithItems:'
     'body': 'initWithItems(${1:NSArray* items})'
   'items':
     'prefix': 'items'
-    'body': 'items()'
+    'body': 'items'
   'mediaTypes':
     'prefix': 'mediaTypes'
-    'body': 'mediaTypes()'
+    'body': 'mediaTypes'
   'representativeItem':
     'prefix': 'representativeItem'
-    'body': 'representativeItem()'
+    'body': 'representativeItem'
+  'MPMediaLibrary':
+    'prefix': 'MPMediaLibrary'
+    'body': 'MPMediaLibrary'
   'beginGeneratingLibraryChangeNotifications':
     'prefix': 'beginGeneratingLibraryChangeNotifications'
-    'body': 'beginGeneratingLibraryChangeNotifications()'
+    'body': 'beginGeneratingLibraryChangeNotifications'
   'MPMediaLibrary.defaultMediaLibrary':
     'prefix': 'defaultMediaLibrary'
-    'body': 'defaultMediaLibrary()'
+    'body': 'defaultMediaLibrary'
   'endGeneratingLibraryChangeNotifications':
     'prefix': 'endGeneratingLibraryChangeNotifications'
-    'body': 'endGeneratingLibraryChangeNotifications()'
+    'body': 'endGeneratingLibraryChangeNotifications'
   'lastModifiedDate':
     'prefix': 'lastModifiedDate'
-    'body': 'lastModifiedDate()'
+    'body': 'lastModifiedDate'
+  'MPMediaPickerController':
+    'prefix': 'MPMediaPickerController'
+    'body': 'MPMediaPickerController'
   'allowsPickingMultipleItems':
     'prefix': 'allowsPickingMultipleItems'
-    'body': 'allowsPickingMultipleItems()'
+    'body': 'allowsPickingMultipleItems'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithMediaTypes:':
     'prefix': 'initWithMediaTypes:'
     'body': 'initWithMediaTypes(${1:MPMediaType mediaTypes})'
   'mediaTypes':
     'prefix': 'mediaTypes'
-    'body': 'mediaTypes()'
+    'body': 'mediaTypes'
   'prompt':
     'prefix': 'prompt'
-    'body': 'prompt()'
+    'body': 'prompt'
   'setAllowsPickingMultipleItems:':
     'prefix': 'setAllowsPickingMultipleItems:'
     'body': 'setAllowsPickingMultipleItems(${1:BOOL allowsPickingMultipleItems})'
@@ -646,10 +676,13 @@
     'body': 'setShowsCloudItems(${1:BOOL showsCloudItems})'
   'showsCloudItems':
     'prefix': 'showsCloudItems'
-    'body': 'showsCloudItems()'
+    'body': 'showsCloudItems'
+  'MPMediaPropertyPredicate':
+    'prefix': 'MPMediaPropertyPredicate'
+    'body': 'MPMediaPropertyPredicate'
   'comparisonType':
     'prefix': 'comparisonType'
-    'body': 'comparisonType()'
+    'body': 'comparisonType'
   'MPMediaPropertyPredicate.predicateWithValue:forProperty:':
     'prefix': 'predicateWithValue:forProperty:'
     'body': 'predicateWithValue(${1:id value}, forProperty:${2:NSString* property})'
@@ -658,61 +691,64 @@
     'body': 'predicateWithValue(${1:id value}, forProperty:${2:NSString* property}, comparisonType:${3:MPMediaPredicateComparison comparisonType})'
   'property':
     'prefix': 'property'
-    'body': 'property()'
+    'body': 'property'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'MPMediaQuery':
+    'prefix': 'MPMediaQuery'
+    'body': 'MPMediaQuery'
   'addFilterPredicate:':
     'prefix': 'addFilterPredicate:'
     'body': 'addFilterPredicate(${1:MPMediaPredicate* predicate})'
   'MPMediaQuery.albumsQuery':
     'prefix': 'albumsQuery'
-    'body': 'albumsQuery()'
+    'body': 'albumsQuery'
   'MPMediaQuery.artistsQuery':
     'prefix': 'artistsQuery'
-    'body': 'artistsQuery()'
+    'body': 'artistsQuery'
   'MPMediaQuery.audiobooksQuery':
     'prefix': 'audiobooksQuery'
-    'body': 'audiobooksQuery()'
+    'body': 'audiobooksQuery'
   'collectionSections':
     'prefix': 'collectionSections'
-    'body': 'collectionSections()'
+    'body': 'collectionSections'
   'collections':
     'prefix': 'collections'
-    'body': 'collections()'
+    'body': 'collections'
   'MPMediaQuery.compilationsQuery':
     'prefix': 'compilationsQuery'
-    'body': 'compilationsQuery()'
+    'body': 'compilationsQuery'
   'MPMediaQuery.composersQuery':
     'prefix': 'composersQuery'
-    'body': 'composersQuery()'
+    'body': 'composersQuery'
   'filterPredicates':
     'prefix': 'filterPredicates'
-    'body': 'filterPredicates()'
+    'body': 'filterPredicates'
   'MPMediaQuery.genresQuery':
     'prefix': 'genresQuery'
-    'body': 'genresQuery()'
+    'body': 'genresQuery'
   'groupingType':
     'prefix': 'groupingType'
-    'body': 'groupingType()'
+    'body': 'groupingType'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithFilterPredicates:':
     'prefix': 'initWithFilterPredicates:'
     'body': 'initWithFilterPredicates(${1:NSSet* filterPredicates})'
   'itemSections':
     'prefix': 'itemSections'
-    'body': 'itemSections()'
+    'body': 'itemSections'
   'items':
     'prefix': 'items'
-    'body': 'items()'
+    'body': 'items'
   'MPMediaQuery.playlistsQuery':
     'prefix': 'playlistsQuery'
-    'body': 'playlistsQuery()'
+    'body': 'playlistsQuery'
   'MPMediaQuery.podcastsQuery':
     'prefix': 'podcastsQuery'
-    'body': 'podcastsQuery()'
+    'body': 'podcastsQuery'
   'removeFilterPredicate:':
     'prefix': 'removeFilterPredicate:'
     'body': 'removeFilterPredicate(${1:MPMediaPredicate* predicate})'
@@ -724,169 +760,187 @@
     'body': 'setGroupingType(${1:MPMediaGrouping groupingType})'
   'MPMediaQuery.songsQuery':
     'prefix': 'songsQuery'
-    'body': 'songsQuery()'
+    'body': 'songsQuery'
+  'MPMediaQuerySection':
+    'prefix': 'MPMediaQuerySection'
+    'body': 'MPMediaQuerySection'
   'range':
     'prefix': 'range'
-    'body': 'range()'
+    'body': 'range'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MPMovieAccessLog':
+    'prefix': 'MPMovieAccessLog'
+    'body': 'MPMovieAccessLog'
   'events':
     'prefix': 'events'
-    'body': 'events()'
+    'body': 'events'
   'extendedLogData':
     'prefix': 'extendedLogData'
-    'body': 'extendedLogData()'
+    'body': 'extendedLogData'
   'extendedLogDataStringEncoding':
     'prefix': 'extendedLogDataStringEncoding'
-    'body': 'extendedLogDataStringEncoding()'
+    'body': 'extendedLogDataStringEncoding'
+  'MPMovieAccessLogEvent':
+    'prefix': 'MPMovieAccessLogEvent'
+    'body': 'MPMovieAccessLogEvent'
   'URI':
     'prefix': 'URI'
-    'body': 'URI()'
+    'body': 'URI'
   'durationWatched':
     'prefix': 'durationWatched'
-    'body': 'durationWatched()'
+    'body': 'durationWatched'
   'indicatedBitrate':
     'prefix': 'indicatedBitrate'
-    'body': 'indicatedBitrate()'
+    'body': 'indicatedBitrate'
   'numberOfBytesTransferred':
     'prefix': 'numberOfBytesTransferred'
-    'body': 'numberOfBytesTransferred()'
+    'body': 'numberOfBytesTransferred'
   'numberOfDroppedVideoFrames':
     'prefix': 'numberOfDroppedVideoFrames'
-    'body': 'numberOfDroppedVideoFrames()'
+    'body': 'numberOfDroppedVideoFrames'
   'numberOfSegmentsDownloaded':
     'prefix': 'numberOfSegmentsDownloaded'
-    'body': 'numberOfSegmentsDownloaded()'
+    'body': 'numberOfSegmentsDownloaded'
   'numberOfServerAddressChanges':
     'prefix': 'numberOfServerAddressChanges'
-    'body': 'numberOfServerAddressChanges()'
+    'body': 'numberOfServerAddressChanges'
   'numberOfStalls':
     'prefix': 'numberOfStalls'
-    'body': 'numberOfStalls()'
+    'body': 'numberOfStalls'
   'observedBitrate':
     'prefix': 'observedBitrate'
-    'body': 'observedBitrate()'
+    'body': 'observedBitrate'
   'playbackSessionID':
     'prefix': 'playbackSessionID'
-    'body': 'playbackSessionID()'
+    'body': 'playbackSessionID'
   'playbackStartDate':
     'prefix': 'playbackStartDate'
-    'body': 'playbackStartDate()'
+    'body': 'playbackStartDate'
   'playbackStartOffset':
     'prefix': 'playbackStartOffset'
-    'body': 'playbackStartOffset()'
+    'body': 'playbackStartOffset'
   'segmentsDownloadedDuration':
     'prefix': 'segmentsDownloadedDuration'
-    'body': 'segmentsDownloadedDuration()'
+    'body': 'segmentsDownloadedDuration'
   'serverAddress':
     'prefix': 'serverAddress'
-    'body': 'serverAddress()'
+    'body': 'serverAddress'
+  'MPMovieErrorLog':
+    'prefix': 'MPMovieErrorLog'
+    'body': 'MPMovieErrorLog'
   'events':
     'prefix': 'events'
-    'body': 'events()'
+    'body': 'events'
   'extendedLogData':
     'prefix': 'extendedLogData'
-    'body': 'extendedLogData()'
+    'body': 'extendedLogData'
   'extendedLogDataStringEncoding':
     'prefix': 'extendedLogDataStringEncoding'
-    'body': 'extendedLogDataStringEncoding()'
+    'body': 'extendedLogDataStringEncoding'
+  'MPMovieErrorLogEvent':
+    'prefix': 'MPMovieErrorLogEvent'
+    'body': 'MPMovieErrorLogEvent'
   'URI':
     'prefix': 'URI'
-    'body': 'URI()'
+    'body': 'URI'
   'date':
     'prefix': 'date'
-    'body': 'date()'
+    'body': 'date'
   'errorComment':
     'prefix': 'errorComment'
-    'body': 'errorComment()'
+    'body': 'errorComment'
   'errorDomain':
     'prefix': 'errorDomain'
-    'body': 'errorDomain()'
+    'body': 'errorDomain'
   'errorStatusCode':
     'prefix': 'errorStatusCode'
-    'body': 'errorStatusCode()'
+    'body': 'errorStatusCode'
   'playbackSessionID':
     'prefix': 'playbackSessionID'
-    'body': 'playbackSessionID()'
+    'body': 'playbackSessionID'
   'serverAddress':
     'prefix': 'serverAddress'
-    'body': 'serverAddress()'
+    'body': 'serverAddress'
+  'MPMoviePlayerController':
+    'prefix': 'MPMoviePlayerController'
+    'body': 'MPMoviePlayerController'
   'accessLog':
     'prefix': 'accessLog'
-    'body': 'accessLog()'
+    'body': 'accessLog'
   'allowsAirPlay':
     'prefix': 'allowsAirPlay'
-    'body': 'allowsAirPlay()'
+    'body': 'allowsAirPlay'
   'backgroundColor':
     'prefix': 'backgroundColor'
-    'body': 'backgroundColor()'
+    'body': 'backgroundColor'
   'backgroundView':
     'prefix': 'backgroundView'
-    'body': 'backgroundView()'
+    'body': 'backgroundView'
   'cancelAllThumbnailImageRequests':
     'prefix': 'cancelAllThumbnailImageRequests'
-    'body': 'cancelAllThumbnailImageRequests()'
+    'body': 'cancelAllThumbnailImageRequests'
   'contentURL':
     'prefix': 'contentURL'
-    'body': 'contentURL()'
+    'body': 'contentURL'
   'controlStyle':
     'prefix': 'controlStyle'
-    'body': 'controlStyle()'
+    'body': 'controlStyle'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'endPlaybackTime':
     'prefix': 'endPlaybackTime'
-    'body': 'endPlaybackTime()'
+    'body': 'endPlaybackTime'
   'errorLog':
     'prefix': 'errorLog'
-    'body': 'errorLog()'
+    'body': 'errorLog'
   'initWithContentURL:':
     'prefix': 'initWithContentURL:'
     'body': 'initWithContentURL(${1:NSURL* url})'
   'initialPlaybackTime':
     'prefix': 'initialPlaybackTime'
-    'body': 'initialPlaybackTime()'
+    'body': 'initialPlaybackTime'
   'isAirPlayVideoActive':
     'prefix': 'isAirPlayVideoActive'
-    'body': 'isAirPlayVideoActive()'
+    'body': 'isAirPlayVideoActive'
   'isFullscreen':
     'prefix': 'isFullscreen'
-    'body': 'isFullscreen()'
+    'body': 'isFullscreen'
   'loadState':
     'prefix': 'loadState'
-    'body': 'loadState()'
+    'body': 'loadState'
   'movieControlMode':
     'prefix': 'movieControlMode'
-    'body': 'movieControlMode()'
+    'body': 'movieControlMode'
   'movieMediaTypes':
     'prefix': 'movieMediaTypes'
-    'body': 'movieMediaTypes()'
+    'body': 'movieMediaTypes'
   'movieSourceType':
     'prefix': 'movieSourceType'
-    'body': 'movieSourceType()'
+    'body': 'movieSourceType'
   'naturalSize':
     'prefix': 'naturalSize'
-    'body': 'naturalSize()'
+    'body': 'naturalSize'
   'playableDuration':
     'prefix': 'playableDuration'
-    'body': 'playableDuration()'
+    'body': 'playableDuration'
   'playbackState':
     'prefix': 'playbackState'
-    'body': 'playbackState()'
+    'body': 'playbackState'
   'readyForDisplay':
     'prefix': 'readyForDisplay'
-    'body': 'readyForDisplay()'
+    'body': 'readyForDisplay'
   'repeatMode':
     'prefix': 'repeatMode'
-    'body': 'repeatMode()'
+    'body': 'repeatMode'
   'requestThumbnailImagesAtTimes:timeOption:':
     'prefix': 'requestThumbnailImagesAtTimes:timeOption:'
     'body': 'requestThumbnailImagesAtTimes(${1:NSArray* playbackTimes}, timeOption:${2:MPMovieTimeOption option})'
   'scalingMode':
     'prefix': 'scalingMode'
-    'body': 'scalingMode()'
+    'body': 'scalingMode'
   'setAllowsAirPlay:':
     'prefix': 'setAllowsAirPlay:'
     'body': 'setAllowsAirPlay(${1:BOOL allowsAirPlay})'
@@ -931,55 +985,61 @@
     'body': 'setUseApplicationAudioSession(${1:BOOL useApplicationAudioSession})'
   'shouldAutoplay':
     'prefix': 'shouldAutoplay'
-    'body': 'shouldAutoplay()'
+    'body': 'shouldAutoplay'
   'thumbnailImageAtTime:timeOption:':
     'prefix': 'thumbnailImageAtTime:timeOption:'
     'body': 'thumbnailImageAtTime(${1:NSTimeInterval playbackTime}, timeOption:${2:MPMovieTimeOption option})'
   'timedMetadata':
     'prefix': 'timedMetadata'
-    'body': 'timedMetadata()'
+    'body': 'timedMetadata'
   'useApplicationAudioSession':
     'prefix': 'useApplicationAudioSession'
-    'body': 'useApplicationAudioSession()'
+    'body': 'useApplicationAudioSession'
   'view':
     'prefix': 'view'
-    'body': 'view()'
+    'body': 'view'
+  'MPMoviePlayerViewController':
+    'prefix': 'MPMoviePlayerViewController'
+    'body': 'MPMoviePlayerViewController'
   'initWithContentURL:':
     'prefix': 'initWithContentURL:'
     'body': 'initWithContentURL(${1:NSURL* contentURL})'
   'moviePlayer':
     'prefix': 'moviePlayer'
-    'body': 'moviePlayer()'
+    'body': 'moviePlayer'
   'shouldAutorotate':
     'prefix': 'shouldAutorotate'
-    'body': 'shouldAutorotate()'
+    'body': 'shouldAutorotate'
   'supportedInterfaceOrientations':
     'prefix': 'supportedInterfaceOrientations'
-    'body': 'supportedInterfaceOrientations()'
+    'body': 'supportedInterfaceOrientations'
+  'MPMusicPlayerController':
+    'prefix': 'MPMusicPlayerController'
+    'body': 'MPMusicPlayerController'
   'MPMusicPlayerController.applicationMusicPlayer':
     'prefix': 'applicationMusicPlayer'
-    'body': 'applicationMusicPlayer()'
+    'body': 'applicationMusicPlayer'
   'beginGeneratingPlaybackNotifications':
     'prefix': 'beginGeneratingPlaybackNotifications'
-    'body': 'beginGeneratingPlaybackNotifications()'
+    'body': 'beginGeneratingPlaybackNotifications'
   'endGeneratingPlaybackNotifications':
     'prefix': 'endGeneratingPlaybackNotifications'
-    'body': 'endGeneratingPlaybackNotifications()'
+    'body': 'endGeneratingPlaybackNotifications'
   'MPMusicPlayerController.iPodMusicPlayer':
     'prefix': 'iPodMusicPlayer'
-    'body': 'iPodMusicPlayer()'
+    'body': 'iPodMusicPlayer'
   'indexOfNowPlayingItem':
     'prefix': 'indexOfNowPlayingItem'
-    'body': 'indexOfNowPlayingItem()'
+    'body': 'indexOfNowPlayingItem'
   'nowPlayingItem':
     'prefix': 'nowPlayingItem'
-    'body': 'nowPlayingItem()'
+    'body': 'nowPlayingItem'
   'playbackState':
     'prefix': 'playbackState'
-    'body': 'playbackState()'
+    'body': 'playbackState'
   'repeatMode':
     'prefix': 'repeatMode'
-    'body': 'repeatMode()'
+    'body': 'repeatMode'
   'setNowPlayingItem:':
     'prefix': 'setNowPlayingItem:'
     'body': 'setNowPlayingItem(${1:MPMediaItem* nowPlayingItem})'
@@ -1000,28 +1060,31 @@
     'body': 'setVolume(${1:float volume})'
   'shuffleMode':
     'prefix': 'shuffleMode'
-    'body': 'shuffleMode()'
+    'body': 'shuffleMode'
   'skipToBeginning':
     'prefix': 'skipToBeginning'
-    'body': 'skipToBeginning()'
+    'body': 'skipToBeginning'
   'skipToNextItem':
     'prefix': 'skipToNextItem'
-    'body': 'skipToNextItem()'
+    'body': 'skipToNextItem'
   'skipToPreviousItem':
     'prefix': 'skipToPreviousItem'
-    'body': 'skipToPreviousItem()'
+    'body': 'skipToPreviousItem'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
+  'MPNowPlayingContentItem':
+    'prefix': 'MPNowPlayingContentItem'
+    'body': 'MPNowPlayingContentItem'
   'elapsedPlaybackTime':
     'prefix': 'elapsedPlaybackTime'
-    'body': 'elapsedPlaybackTime()'
+    'body': 'elapsedPlaybackTime'
   'playbackDuration':
     'prefix': 'playbackDuration'
-    'body': 'playbackDuration()'
+    'body': 'playbackDuration'
   'playbackRate':
     'prefix': 'playbackRate'
-    'body': 'playbackRate()'
+    'body': 'playbackRate'
   'setElapsedPlaybackTime:':
     'prefix': 'setElapsedPlaybackTime:'
     'body': 'setElapsedPlaybackTime(${1:NSTimeInterval elapsedPlaybackTime})'
@@ -1031,30 +1094,36 @@
   'setPlaybackRate:':
     'prefix': 'setPlaybackRate:'
     'body': 'setPlaybackRate(${1:float playbackRate})'
+  'MPNowPlayingInfoCenter':
+    'prefix': 'MPNowPlayingInfoCenter'
+    'body': 'MPNowPlayingInfoCenter'
   'MPNowPlayingInfoCenter.defaultCenter':
     'prefix': 'defaultCenter'
-    'body': 'defaultCenter()'
+    'body': 'defaultCenter'
   'nowPlayingInfo':
     'prefix': 'nowPlayingInfo'
-    'body': 'nowPlayingInfo()'
+    'body': 'nowPlayingInfo'
   'setNowPlayingInfo:':
     'prefix': 'setNowPlayingInfo:'
     'body': 'setNowPlayingInfo(${1:NSDictionary* nowPlayingInfo})'
+  'MPPlayableContentManager':
+    'prefix': 'MPPlayableContentManager'
+    'body': 'MPPlayableContentManager'
   'beginUpdates':
     'prefix': 'beginUpdates'
-    'body': 'beginUpdates()'
+    'body': 'beginUpdates'
   'dataSource':
     'prefix': 'dataSource'
-    'body': 'dataSource()'
+    'body': 'dataSource'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'endUpdates':
     'prefix': 'endUpdates'
-    'body': 'endUpdates()'
+    'body': 'endUpdates'
   'reloadData':
     'prefix': 'reloadData'
-    'body': 'reloadData()'
+    'body': 'reloadData'
   'setDataSource:':
     'prefix': 'setDataSource:'
     'body': 'setDataSource(${1:id dataSource})'
@@ -1063,22 +1132,31 @@
     'body': 'setDelegate(${1:id delegate})'
   'MPPlayableContentManager.sharedContentManager':
     'prefix': 'sharedContentManager'
-    'body': 'sharedContentManager()'
+    'body': 'sharedContentManager'
+  'MPRatingCommand':
+    'prefix': 'MPRatingCommand'
+    'body': 'MPRatingCommand'
   'maximumRating':
     'prefix': 'maximumRating'
-    'body': 'maximumRating()'
+    'body': 'maximumRating'
   'minimumRating':
     'prefix': 'minimumRating'
-    'body': 'minimumRating()'
+    'body': 'minimumRating'
   'setMaximumRating:':
     'prefix': 'setMaximumRating:'
     'body': 'setMaximumRating(${1:float maximumRating})'
   'setMinimumRating:':
     'prefix': 'setMinimumRating:'
     'body': 'setMinimumRating(${1:float minimumRating})'
+  'MPRatingCommandEvent':
+    'prefix': 'MPRatingCommandEvent'
+    'body': 'MPRatingCommandEvent'
   'rating':
     'prefix': 'rating'
-    'body': 'rating()'
+    'body': 'rating'
+  'MPRemoteCommand':
+    'prefix': 'MPRemoteCommand'
+    'body': 'MPRemoteCommand'
   'addTarget:action:':
     'prefix': 'addTarget:action:'
     'body': 'addTarget(${1:id target}, action:${2:SEL action})'
@@ -1087,7 +1165,7 @@
     'body': 'addTargetWithHandler(${1:void (^)(MPRemoteCommandEvent *) handler})'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'removeTarget:':
     'prefix': 'removeTarget:'
     'body': 'removeTarget(${1:id target})'
@@ -1097,93 +1175,114 @@
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1:BOOL enabled})'
+  'MPRemoteCommandCenter':
+    'prefix': 'MPRemoteCommandCenter'
+    'body': 'MPRemoteCommandCenter'
   'bookmarkCommand':
     'prefix': 'bookmarkCommand'
-    'body': 'bookmarkCommand()'
+    'body': 'bookmarkCommand'
   'changePlaybackRateCommand':
     'prefix': 'changePlaybackRateCommand'
-    'body': 'changePlaybackRateCommand()'
+    'body': 'changePlaybackRateCommand'
   'dislikeCommand':
     'prefix': 'dislikeCommand'
-    'body': 'dislikeCommand()'
+    'body': 'dislikeCommand'
   'likeCommand':
     'prefix': 'likeCommand'
-    'body': 'likeCommand()'
+    'body': 'likeCommand'
   'nextTrackCommand':
     'prefix': 'nextTrackCommand'
-    'body': 'nextTrackCommand()'
+    'body': 'nextTrackCommand'
   'pauseCommand':
     'prefix': 'pauseCommand'
-    'body': 'pauseCommand()'
+    'body': 'pauseCommand'
   'playCommand':
     'prefix': 'playCommand'
-    'body': 'playCommand()'
+    'body': 'playCommand'
   'previousTrackCommand':
     'prefix': 'previousTrackCommand'
-    'body': 'previousTrackCommand()'
+    'body': 'previousTrackCommand'
   'ratingCommand':
     'prefix': 'ratingCommand'
-    'body': 'ratingCommand()'
+    'body': 'ratingCommand'
   'seekBackwardCommand':
     'prefix': 'seekBackwardCommand'
-    'body': 'seekBackwardCommand()'
+    'body': 'seekBackwardCommand'
   'seekForwardCommand':
     'prefix': 'seekForwardCommand'
-    'body': 'seekForwardCommand()'
+    'body': 'seekForwardCommand'
   'MPRemoteCommandCenter.sharedCommandCenter':
     'prefix': 'sharedCommandCenter'
-    'body': 'sharedCommandCenter()'
+    'body': 'sharedCommandCenter'
   'skipBackwardCommand':
     'prefix': 'skipBackwardCommand'
-    'body': 'skipBackwardCommand()'
+    'body': 'skipBackwardCommand'
   'skipForwardCommand':
     'prefix': 'skipForwardCommand'
-    'body': 'skipForwardCommand()'
+    'body': 'skipForwardCommand'
   'stopCommand':
     'prefix': 'stopCommand'
-    'body': 'stopCommand()'
+    'body': 'stopCommand'
   'togglePlayPauseCommand':
     'prefix': 'togglePlayPauseCommand'
-    'body': 'togglePlayPauseCommand()'
+    'body': 'togglePlayPauseCommand'
+  'MPRemoteCommandEvent':
+    'prefix': 'MPRemoteCommandEvent'
+    'body': 'MPRemoteCommandEvent'
   'command':
     'prefix': 'command'
-    'body': 'command()'
+    'body': 'command'
   'timestamp':
     'prefix': 'timestamp'
-    'body': 'timestamp()'
+    'body': 'timestamp'
+  'MPSeekCommandEvent':
+    'prefix': 'MPSeekCommandEvent'
+    'body': 'MPSeekCommandEvent'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'MPSkipIntervalCommand':
+    'prefix': 'MPSkipIntervalCommand'
+    'body': 'MPSkipIntervalCommand'
   'preferredIntervals':
     'prefix': 'preferredIntervals'
-    'body': 'preferredIntervals()'
+    'body': 'preferredIntervals'
   'setPreferredIntervals:':
     'prefix': 'setPreferredIntervals:'
     'body': 'setPreferredIntervals(${1:NSArray* preferredIntervals})'
+  'MPSkipIntervalCommandEvent':
+    'prefix': 'MPSkipIntervalCommandEvent'
+    'body': 'MPSkipIntervalCommandEvent'
   'interval':
     'prefix': 'interval'
-    'body': 'interval()'
+    'body': 'interval'
+  'MPTimedMetadata':
+    'prefix': 'MPTimedMetadata'
+    'body': 'MPTimedMetadata'
   'allMetadata':
     'prefix': 'allMetadata'
-    'body': 'allMetadata()'
+    'body': 'allMetadata'
   'key':
     'prefix': 'key'
-    'body': 'Key()'
+    'body': 'Key'
   'keyspace':
     'prefix': 'keyspace'
-    'body': 'Keyspace()'
+    'body': 'Keyspace'
   'timestamp':
     'prefix': 'timestamp'
-    'body': 'timestamp()'
+    'body': 'timestamp'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'MPVolumeView':
+    'prefix': 'MPVolumeView'
+    'body': 'MPVolumeView'
   'areWirelessRoutesAvailable':
     'prefix': 'areWirelessRoutesAvailable'
-    'body': 'areWirelessRoutesAvailable()'
+    'body': 'areWirelessRoutesAvailable'
   'isWirelessRouteActive':
     'prefix': 'isWirelessRouteActive'
-    'body': 'isWirelessRouteActive()'
+    'body': 'isWirelessRouteActive'
   'maximumVolumeSliderImageForState:':
     'prefix': 'maximumVolumeSliderImageForState:'
     'body': 'maximumVolumeSliderImageForState(${1:UIControlState state})'
@@ -1219,10 +1318,10 @@
     'body': 'setVolumeWarningSliderImage(${1:UIImage* volumeWarningSliderImage})'
   'showsRouteButton':
     'prefix': 'showsRouteButton'
-    'body': 'showsRouteButton()'
+    'body': 'showsRouteButton'
   'showsVolumeSlider':
     'prefix': 'showsVolumeSlider'
-    'body': 'showsVolumeSlider()'
+    'body': 'showsVolumeSlider'
   'sizeThatFits:':
     'prefix': 'sizeThatFits:'
     'body': 'sizeThatFits(${1:CGSize size})'
@@ -1237,16 +1336,19 @@
     'body': 'volumeThumbRectForBounds(${1:CGRect bounds}, volumeSliderRect:${2:CGRect rect}, value:${3:float value})'
   'volumeWarningSliderImage':
     'prefix': 'volumeWarningSliderImage'
-    'body': 'volumeWarningSliderImage()'
+    'body': 'volumeWarningSliderImage'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'beginLoadingChildItemsAtIndexPath:completionHandler:':
     'prefix': 'beginLoadingChildItemsAtIndexPath:completionHandler:'
     'body': 'beginLoadingChildItemsAtIndexPath(${1:NSIndexPath* indexPath}, completionHandler:${2:void (^)(NSError *) completionHandler})'
   'beginSeekingBackward':
     'prefix': 'beginSeekingBackward'
-    'body': 'beginSeekingBackward()'
+    'body': 'beginSeekingBackward'
   'beginSeekingForward':
     'prefix': 'beginSeekingForward'
-    'body': 'beginSeekingForward()'
+    'body': 'beginSeekingForward'
   'childItemsDisplayPlaybackProgressAtIndexPath:':
     'prefix': 'childItemsDisplayPlaybackProgressAtIndexPath:'
     'body': 'childItemsDisplayPlaybackProgressAtIndexPath(${1:NSIndexPath* indexPath})'
@@ -1255,16 +1357,16 @@
     'body': 'contentItemAtIndexPath(${1:NSIndexPath* indexPath})'
   'currentPlaybackRate':
     'prefix': 'currentPlaybackRate'
-    'body': 'currentPlaybackRate()'
+    'body': 'currentPlaybackRate'
   'currentPlaybackTime':
     'prefix': 'currentPlaybackTime'
-    'body': 'currentPlaybackTime()'
+    'body': 'currentPlaybackTime'
   'endSeeking':
     'prefix': 'endSeeking'
-    'body': 'endSeeking()'
+    'body': 'endSeeking'
   'isPreparedToPlay':
     'prefix': 'isPreparedToPlay'
-    'body': 'isPreparedToPlay()'
+    'body': 'isPreparedToPlay'
   'mediaPicker:didPickMediaItems:':
     'prefix': 'mediaPicker:didPickMediaItems:'
     'body': 'mediaPicker(${1:MPMediaPickerController* mediaPicker}, didPickMediaItems:${2:MPMediaItemCollection* mediaItemCollection})'
@@ -1276,16 +1378,16 @@
     'body': 'numberOfChildItemsAtIndexPath(${1:NSIndexPath* indexPath})'
   'pause':
     'prefix': 'pause'
-    'body': 'pause()'
+    'body': 'pause'
   'play':
     'prefix': 'play'
-    'body': 'play()'
+    'body': 'play'
   'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:':
     'prefix': 'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:'
     'body': 'playableContentManager(${1:MPPlayableContentManager* contentManager}, initiatePlaybackOfContentItemAtIndexPath:${2:NSIndexPath* indexPath}, completionHandler:${3:void (^)(NSError *) completionHandler})'
   'prepareToPlay':
     'prefix': 'prepareToPlay'
-    'body': 'prepareToPlay()'
+    'body': 'prepareToPlay'
   'setCurrentPlaybackRate:':
     'prefix': 'setCurrentPlaybackRate:'
     'body': 'setCurrentPlaybackRate(${1:float currentPlaybackRate})'
@@ -1294,46 +1396,55 @@
     'body': 'setCurrentPlaybackTime(${1:NSTimeInterval currentPlaybackTime})'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
+  'UIViewController':
+    'prefix': 'UIViewController'
+    'body': 'UIViewController'
   'dismissMoviePlayerViewControllerAnimated':
     'prefix': 'dismissMoviePlayerViewControllerAnimated'
-    'body': 'dismissMoviePlayerViewControllerAnimated()'
+    'body': 'dismissMoviePlayerViewControllerAnimated'
   'presentMoviePlayerViewControllerAnimated:':
     'prefix': 'presentMoviePlayerViewControllerAnimated:'
     'body': 'presentMoviePlayerViewControllerAnimated(${1:MPMoviePlayerViewController* moviePlayerViewController})'
+  'MPMediaPickerControllerDelegate':
+    'prefix': 'MPMediaPickerControllerDelegate'
+    'body': 'MPMediaPickerControllerDelegate'
   'mediaPicker:didPickMediaItems:':
     'prefix': 'mediaPicker:didPickMediaItems:'
     'body': 'mediaPicker(${1:MPMediaPickerController* mediaPicker}, didPickMediaItems:${2:MPMediaItemCollection* mediaItemCollection})'
   'mediaPickerDidCancel:':
     'prefix': 'mediaPickerDidCancel:'
     'body': 'mediaPickerDidCancel(${1:MPMediaPickerController* mediaPicker})'
+  'MPMediaPlayback':
+    'prefix': 'MPMediaPlayback'
+    'body': 'MPMediaPlayback'
   'beginSeekingBackward':
     'prefix': 'beginSeekingBackward'
-    'body': 'beginSeekingBackward()'
+    'body': 'beginSeekingBackward'
   'beginSeekingForward':
     'prefix': 'beginSeekingForward'
-    'body': 'beginSeekingForward()'
+    'body': 'beginSeekingForward'
   'currentPlaybackRate':
     'prefix': 'currentPlaybackRate'
-    'body': 'currentPlaybackRate()'
+    'body': 'currentPlaybackRate'
   'currentPlaybackTime':
     'prefix': 'currentPlaybackTime'
-    'body': 'currentPlaybackTime()'
+    'body': 'currentPlaybackTime'
   'endSeeking':
     'prefix': 'endSeeking'
-    'body': 'endSeeking()'
+    'body': 'endSeeking'
   'isPreparedToPlay':
     'prefix': 'isPreparedToPlay'
-    'body': 'isPreparedToPlay()'
+    'body': 'isPreparedToPlay'
   'pause':
     'prefix': 'pause'
-    'body': 'pause()'
+    'body': 'pause'
   'play':
     'prefix': 'play'
-    'body': 'play()'
+    'body': 'play'
   'prepareToPlay':
     'prefix': 'prepareToPlay'
-    'body': 'prepareToPlay()'
+    'body': 'prepareToPlay'
   'setCurrentPlaybackRate:':
     'prefix': 'setCurrentPlaybackRate:'
     'body': 'setCurrentPlaybackRate(${1:float currentPlaybackRate})'
@@ -1342,7 +1453,10 @@
     'body': 'setCurrentPlaybackTime(${1:NSTimeInterval currentPlaybackTime})'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
+  'MPPlayableContentDataSource':
+    'prefix': 'MPPlayableContentDataSource'
+    'body': 'MPPlayableContentDataSource'
   'beginLoadingChildItemsAtIndexPath:completionHandler:':
     'prefix': 'beginLoadingChildItemsAtIndexPath:completionHandler:'
     'body': 'beginLoadingChildItemsAtIndexPath(${1:NSIndexPath* indexPath}, completionHandler:${2:void (^)(NSError *) completionHandler})'
@@ -1355,6 +1469,9 @@
   'numberOfChildItemsAtIndexPath:':
     'prefix': 'numberOfChildItemsAtIndexPath:'
     'body': 'numberOfChildItemsAtIndexPath(${1:NSIndexPath* indexPath})'
+  'MPPlayableContentDelegate':
+    'prefix': 'MPPlayableContentDelegate'
+    'body': 'MPPlayableContentDelegate'
   'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:':
     'prefix': 'playableContentManager:initiatePlaybackOfContentItemAtIndexPath:completionHandler:'
     'body': 'playableContentManager(${1:MPPlayableContentManager* contentManager}, initiatePlaybackOfContentItemAtIndexPath:${2:NSIndexPath* indexPath}, completionHandler:${3:void (^)(NSError *) completionHandler})'

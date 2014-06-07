@@ -5839,7 +5839,7 @@
     'body': 'TkCreateThreadExitHandler(${1:Tcl_ExitProc* proc}, ${2:ClientData clientData})'
   'TkCreateXEventSource':
     'prefix': 'TkCreateXEventSource'
-    'body': 'TkCreateXEventSource()'
+    'body': 'TkCreateXEventSource'
   'TkCurrentTime':
     'prefix': 'TkCurrentTime'
     'body': 'TkCurrentTime(${1:TkDisplay* dispPtr})'
@@ -5884,7 +5884,7 @@
     'body': 'TkEventDeadWindow(${1:TkWindow* winPtr})'
   'TkEventInit':
     'prefix': 'TkEventInit'
-    'body': 'TkEventInit()'
+    'body': 'TkEventInit'
   'TkFillPolygon':
     'prefix': 'TkFillPolygon'
     'body': 'TkFillPolygon(${1:Tk_Canvas canvas}, ${2:double* coordPtr}, ${3:int numPoints}, ${4:int* display}, ${5:int drawable}, ${6:int gc}, ${7:int outlineGC})'
@@ -5944,7 +5944,7 @@
     'body': 'TkGetBitmapData(${1:Tcl_Interp* interp}, ${2:char* string}, ${3:char* fileName}, ${4:int* widthPtr}, ${5:int* heightPtr}, ${6:int* hotXPtr}, ${7:int* hotYPtr})'
   'TkGetBitmapPredefTable':
     'prefix': 'TkGetBitmapPredefTable'
-    'body': 'TkGetBitmapPredefTable()'
+    'body': 'TkGetBitmapPredefTable'
   'TkGetButtPoints':
     'prefix': 'TkGetButtPoints'
     'body': 'TkGetButtPoints(${1:double* p1}, ${2:double* p2}, ${3:double width}, ${4:int project}, ${5:double* m1}, ${6:double* m2})'
@@ -5959,7 +5959,7 @@
     'body': 'TkGetDisplay(${1:int* display})'
   'TkGetDisplayList':
     'prefix': 'TkGetDisplayList'
-    'body': 'TkGetDisplayList()'
+    'body': 'TkGetDisplayList'
   'TkGetDisplayOf':
     'prefix': 'TkGetDisplayOf'
     'body': 'TkGetDisplayOf(${1:Tcl_Interp* interp}, ${2:int objc}, ${3:Tcl_Obj ** objv}, ${4:Tk_Window* tkwinPtr})'
@@ -5974,7 +5974,7 @@
     'body': 'TkGetInterpNames(${1:Tcl_Interp* interp}, ${2:Tk_Window tkwin})'
   'TkGetMainInfoList':
     'prefix': 'TkGetMainInfoList'
-    'body': 'TkGetMainInfoList()'
+    'body': 'TkGetMainInfoList'
   'TkGetMiterPoints':
     'prefix': 'TkGetMiterPoints'
     'body': 'TkGetMiterPoints(${1:double* p1}, ${2:double* p2}, ${3:double* p3}, ${4:double width}, ${5:double* m1}, ${6:double* m2})'
@@ -6019,7 +6019,7 @@
     'body': 'TkLineToPoint(${1:double* end1Ptr}, ${2:double* end2Ptr}, ${3:double* pointPtr})'
   'TkMacOSXDefaultStartupScript':
     'prefix': 'TkMacOSXDefaultStartupScript'
-    'body': 'TkMacOSXDefaultStartupScript()'
+    'body': 'TkMacOSXDefaultStartupScript'
   'TkMakeBezierCurve':
     'prefix': 'TkMakeBezierCurve'
     'body': 'TkMakeBezierCurve(${1:Tk_Canvas canvas}, ${2:double* pointPtr}, ${3:int numPoints}, ${4:int numSteps}, ${5:int* xPoints}, ${6:double* dblPoints})'
@@ -6097,7 +6097,7 @@
     'body': 'TkReadBitmapFile(${1:int* display}, ${2:int d}, ${3:char* filename}, ${4:unsigned int* width_return}, ${5:unsigned int* height_return}, ${6:int* bitmap_return}, ${7:int* x_hot_return}, ${8:int* y_hot_return})'
   'TkRegisterObjTypes':
     'prefix': 'TkRegisterObjTypes'
-    'body': 'TkRegisterObjTypes()'
+    'body': 'TkRegisterObjTypes'
   'TkScrollWindow':
     'prefix': 'TkScrollWindow'
     'body': 'TkScrollWindow(${1:Tk_Window tkwin}, ${2:int gc}, ${3:int x}, ${4:int y}, ${5:int width}, ${6:int height}, ${7:int dx}, ${8:int dy}, ${9:TkRegion damageRgn})'
@@ -6682,7 +6682,7 @@
     'body': 'Tk_GetImageMasterData(${1:Tcl_Interp* interp}, ${2:char* name}, ${3:Tk_ImageType** typePtrPtr})'
   'Tk_GetItemTypes':
     'prefix': 'Tk_GetItemTypes'
-    'body': 'Tk_GetItemTypes()'
+    'body': 'Tk_GetItemTypes'
   'Tk_GetJoinStyle':
     'prefix': 'Tk_GetJoinStyle'
     'body': 'Tk_GetJoinStyle(${1:Tcl_Interp* interp}, ${2:char* str}, ${3:int* joinPtr})'
@@ -6697,7 +6697,7 @@
     'body': 'Tk_GetMMFromObj(${1:Tcl_Interp* interp}, ${2:Tk_Window tkwin}, ${3:Tcl_Obj* objPtr}, ${4:double* doublePtr})'
   'Tk_GetNumMainWindows':
     'prefix': 'Tk_GetNumMainWindows'
-    'body': 'Tk_GetNumMainWindows()'
+    'body': 'Tk_GetNumMainWindows'
   'Tk_GetOpenFileObjCmd':
     'prefix': 'Tk_GetOpenFileObjCmd'
     'body': 'Tk_GetOpenFileObjCmd(${1:ClientData clientData}, ${2:Tcl_Interp* interp}, ${3:int objc}, ${4:Tcl_Obj ** objv})'
@@ -6826,7 +6826,7 @@
     'body': 'Tk_MainEx(${1:int argc}, ${2:char** argv}, ${3:Tcl_AppInitProc* appInitProc}, ${4:Tcl_Interp* interp})'
   'Tk_MainLoop':
     'prefix': 'Tk_MainLoop'
-    'body': 'Tk_MainLoop()'
+    'body': 'Tk_MainLoop'
   'Tk_MainWindow':
     'prefix': 'Tk_MainWindow'
     'body': 'Tk_MainWindow(${1:Tcl_Interp* interp})'
@@ -7264,7 +7264,7 @@
     'body': 'TkpMenuNotifyToplevelCreate(${1:Tcl_Interp* interp1}, ${2:char* menuName})'
   'TkpMenuThreadInit':
     'prefix': 'TkpMenuThreadInit'
-    'body': 'TkpMenuThreadInit()'
+    'body': 'TkpMenuThreadInit'
   'TkpOpenDisplay':
     'prefix': 'TkpOpenDisplay'
     'body': 'TkpOpenDisplay(${1:char* display_name})'
@@ -7525,28 +7525,28 @@
     'body': 'Ttk_UseTheme(${1:Tcl_Interp* }, ${2:int Ttk_Theme})'
   'XAllocClassHint':
     'prefix': 'XAllocClassHint'
-    'body': 'XAllocClassHint()'
+    'body': 'XAllocClassHint'
   'XAllocIconSize':
     'prefix': 'XAllocIconSize'
-    'body': 'XAllocIconSize()'
+    'body': 'XAllocIconSize'
   'XAllocSizeHints':
     'prefix': 'XAllocSizeHints'
-    'body': 'XAllocSizeHints()'
+    'body': 'XAllocSizeHints'
   'XAllocStandardColormap':
     'prefix': 'XAllocStandardColormap'
-    'body': 'XAllocStandardColormap()'
+    'body': 'XAllocStandardColormap'
   'XAllocWMHints':
     'prefix': 'XAllocWMHints'
-    'body': 'XAllocWMHints()'
+    'body': 'XAllocWMHints'
   'XClipBox':
     'prefix': 'XClipBox'
     'body': 'XClipBox(${1:Region }, ${2:XRectangle* })'
   'XCreateRegion':
     'prefix': 'XCreateRegion'
-    'body': 'XCreateRegion()'
+    'body': 'XCreateRegion'
   'XDefaultString':
     'prefix': 'XDefaultString'
-    'body': 'XDefaultString()'
+    'body': 'XDefaultString'
   'XDeleteContext':
     'prefix': 'XDeleteContext'
     'body': 'XDeleteContext(${1:Display* }, ${2:XID }, ${3:XContext })'

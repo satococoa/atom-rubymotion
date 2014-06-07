@@ -17,9 +17,12 @@
   'InstallerDirectionUndefined (2)':
     'prefix': 'InstallerDirectionUndefined'
     'body': 'InstallerDirectionUndefined'
+  'InstallerPane':
+    'prefix': 'InstallerPane'
+    'body': 'InstallerPane'
   'contentView':
     'prefix': 'contentView'
-    'body': 'contentView()'
+    'body': 'contentView'
   'didEnterPane:':
     'prefix': 'didEnterPane:'
     'body': 'didEnterPane(${1:InstallerSectionDirection dir})'
@@ -28,34 +31,34 @@
     'body': 'didExitPane(${1:InstallerSectionDirection dir})'
   'firstKeyView':
     'prefix': 'firstKeyView'
-    'body': 'firstKeyView()'
+    'body': 'firstKeyView'
   'gotoNextPane':
     'prefix': 'gotoNextPane'
-    'body': 'gotoNextPane()'
+    'body': 'gotoNextPane'
   'gotoPreviousPane':
     'prefix': 'gotoPreviousPane'
-    'body': 'gotoPreviousPane()'
+    'body': 'gotoPreviousPane'
   'initWithSection:':
     'prefix': 'initWithSection:'
     'body': 'initWithSection(${1:id parent})'
   'initialKeyView':
     'prefix': 'initialKeyView'
-    'body': 'initialKeyView()'
+    'body': 'initialKeyView'
   'lastKeyView':
     'prefix': 'lastKeyView'
-    'body': 'lastKeyView()'
+    'body': 'lastKeyView'
   'nextEnabled':
     'prefix': 'nextEnabled'
-    'body': 'nextEnabled()'
+    'body': 'nextEnabled'
   'nextPane':
     'prefix': 'nextPane'
-    'body': 'nextPane()'
+    'body': 'nextPane'
   'previousEnabled':
     'prefix': 'previousEnabled'
-    'body': 'previousEnabled()'
+    'body': 'previousEnabled'
   'section':
     'prefix': 'section'
-    'body': 'section()'
+    'body': 'section'
   'setContentView:':
     'prefix': 'setContentView:'
     'body': 'setContentView(${1:NSView* contentView})'
@@ -82,64 +85,70 @@
     'body': 'shouldExitPane(${1:InstallerSectionDirection dir})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'willEnterPane:':
     'prefix': 'willEnterPane:'
     'body': 'willEnterPane(${1:InstallerSectionDirection dir})'
   'willExitPane:':
     'prefix': 'willExitPane:'
     'body': 'willExitPane(${1:InstallerSectionDirection dir})'
+  'InstallerSection':
+    'prefix': 'InstallerSection'
+    'body': 'InstallerSection'
   'activePane':
     'prefix': 'activePane'
-    'body': 'activePane()'
+    'body': 'activePane'
   'bundle':
     'prefix': 'bundle'
-    'body': 'bundle()'
+    'body': 'bundle'
   'didLoadMainNib':
     'prefix': 'didLoadMainNib'
-    'body': 'didLoadMainNib()'
+    'body': 'didLoadMainNib'
   'firstPane':
     'prefix': 'firstPane'
-    'body': 'firstPane()'
+    'body': 'firstPane'
   'gotoPane:':
     'prefix': 'gotoPane:'
     'body': 'gotoPane(${1:InstallerPane* pane})'
   'installerState':
     'prefix': 'installerState'
-    'body': 'installerState()'
+    'body': 'installerState'
   'sharedDictionary':
     'prefix': 'sharedDictionary'
-    'body': 'sharedDictionary()'
+    'body': 'sharedDictionary'
   'shouldLoad':
     'prefix': 'shouldLoad'
-    'body': 'shouldLoad()'
+    'body': 'shouldLoad'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'willLoadMainNib':
     'prefix': 'willLoadMainNib'
-    'body': 'willLoadMainNib()'
+    'body': 'willLoadMainNib'
+  'InstallerState':
+    'prefix': 'InstallerState'
+    'body': 'InstallerState'
   'choiceDictionaries':
     'prefix': 'choiceDictionaries'
-    'body': 'choiceDictionaries()'
+    'body': 'choiceDictionaries'
   'choiceDictionaryForIdentifier:':
     'prefix': 'choiceDictionaryForIdentifier:'
     'body': 'choiceDictionaryForIdentifier(${1:NSString* choiceIdentifier})'
   'installStarted':
     'prefix': 'installStarted'
-    'body': 'installStarted()'
+    'body': 'installStarted'
   'installSucceeded':
     'prefix': 'installSucceeded'
-    'body': 'installSucceeded()'
+    'body': 'installSucceeded'
   'licenseAgreed':
     'prefix': 'licenseAgreed'
-    'body': 'licenseAgreed()'
+    'body': 'licenseAgreed'
   'licenseAgreedLanguage':
     'prefix': 'licenseAgreedLanguage'
-    'body': 'licenseAgreedLanguage()'
+    'body': 'licenseAgreedLanguage'
   'targetPath':
     'prefix': 'targetPath'
-    'body': 'targetPath()'
+    'body': 'targetPath'
   'targetVolumePath':
     'prefix': 'targetVolumePath'
-    'body': 'targetVolumePath()'
+    'body': 'targetVolumePath'

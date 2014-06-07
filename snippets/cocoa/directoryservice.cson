@@ -2227,10 +2227,10 @@
     'body': 'dsGetRecordTypeFromEntry(${1:tRecordEntryPtr inRecEntryPtr}, ${2:char** outRecType})'
   'dsIsDirServiceLocalRunning':
     'prefix': 'dsIsDirServiceLocalRunning'
-    'body': 'dsIsDirServiceLocalRunning()'
+    'body': 'dsIsDirServiceLocalRunning'
   'dsIsDirServiceRunning':
     'prefix': 'dsIsDirServiceRunning'
-    'body': 'dsIsDirServiceRunning()'
+    'body': 'dsIsDirServiceRunning'
   'dsOpenDirNode':
     'prefix': 'dsOpenDirNode'
     'body': 'dsOpenDirNode(${1:tDirReference inDirReference}, ${2:tDataListPtr inDirNodeName}, ${3:tDirNodeReference* outDirNodeReference})'

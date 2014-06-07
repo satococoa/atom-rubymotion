@@ -29,72 +29,87 @@
   'EAConnectionIDNone (0)':
     'prefix': 'EAConnectionIDNone'
     'body': 'EAConnectionIDNone'
+  'EAAccessory':
+    'prefix': 'EAAccessory'
+    'body': 'EAAccessory'
   'connectionID':
     'prefix': 'connectionID'
-    'body': 'connectionID()'
+    'body': 'connectionID'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'firmwareRevision':
     'prefix': 'firmwareRevision'
-    'body': 'firmwareRevision()'
+    'body': 'firmwareRevision'
   'hardwareRevision':
     'prefix': 'hardwareRevision'
-    'body': 'hardwareRevision()'
+    'body': 'hardwareRevision'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'manufacturer':
     'prefix': 'manufacturer'
-    'body': 'manufacturer()'
+    'body': 'manufacturer'
   'modelNumber':
     'prefix': 'modelNumber'
-    'body': 'modelNumber()'
+    'body': 'modelNumber'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'protocolStrings':
     'prefix': 'protocolStrings'
-    'body': 'protocolStrings()'
+    'body': 'protocolStrings'
   'serialNumber':
     'prefix': 'serialNumber'
-    'body': 'serialNumber()'
+    'body': 'serialNumber'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'EAAccessoryManager':
+    'prefix': 'EAAccessoryManager'
+    'body': 'EAAccessoryManager'
   'connectedAccessories':
     'prefix': 'connectedAccessories'
-    'body': 'connectedAccessories()'
+    'body': 'connectedAccessories'
   'registerForLocalNotifications':
     'prefix': 'registerForLocalNotifications'
-    'body': 'registerForLocalNotifications()'
+    'body': 'registerForLocalNotifications'
   'EAAccessoryManager.sharedAccessoryManager':
     'prefix': 'sharedAccessoryManager'
-    'body': 'sharedAccessoryManager()'
+    'body': 'sharedAccessoryManager'
   'showBluetoothAccessoryPickerWithNameFilter:completion:':
     'prefix': 'showBluetoothAccessoryPickerWithNameFilter:completion:'
     'body': 'showBluetoothAccessoryPickerWithNameFilter(${1:NSPredicate* predicate}, completion:${2:EABluetoothAccessoryPickerCompletion completion})'
   'unregisterForLocalNotifications':
     'prefix': 'unregisterForLocalNotifications'
-    'body': 'unregisterForLocalNotifications()'
+    'body': 'unregisterForLocalNotifications'
+  'EASession':
+    'prefix': 'EASession'
+    'body': 'EASession'
   'accessory':
     'prefix': 'accessory'
-    'body': 'accessory()'
+    'body': 'accessory'
   'initWithAccessory:forProtocol:':
     'prefix': 'initWithAccessory:forProtocol:'
     'body': 'initWithAccessory(${1:EAAccessory* accessory}, forProtocol:${2:NSString* protocolString})'
   'inputStream':
     'prefix': 'inputStream'
-    'body': 'inputStream()'
+    'body': 'inputStream'
   'outputStream':
     'prefix': 'outputStream'
-    'body': 'outputStream()'
+    'body': 'outputStream'
   'protocolString':
     'prefix': 'protocolString'
-    'body': 'protocolString()'
+    'body': 'protocolString'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'accessoryDidDisconnect:':
     'prefix': 'accessoryDidDisconnect:'
     'body': 'accessoryDidDisconnect(${1:EAAccessory* accessory})'
+  'EAAccessoryDelegate':
+    'prefix': 'EAAccessoryDelegate'
+    'body': 'EAAccessoryDelegate'
   'accessoryDidDisconnect:':
     'prefix': 'accessoryDidDisconnect:'
     'body': 'accessoryDidDisconnect(${1:EAAccessory* accessory})'

@@ -17746,7 +17746,7 @@
     'body': 'ClearMovieSelection(${1:Movie theMovie})'
   'ClearMoviesStickyError':
     'prefix': 'ClearMoviesStickyError'
-    'body': 'ClearMoviesStickyError()'
+    'body': 'ClearMoviesStickyError'
   'ClockCallMeWhen':
     'prefix': 'ClockCallMeWhen'
     'body': 'ClockCallMeWhen(${1:ComponentInstance aClock}, ${2:QTCallBack cb}, ${3:long param1}, ${4:long param2}, ${5:long param3})'
@@ -18544,7 +18544,7 @@
     'body': 'EndMediaEdits(${1:Media theMedia})'
   'EnterMovies':
     'prefix': 'EnterMovies'
-    'body': 'EnterMovies()'
+    'body': 'EnterMovies'
   'EnterMoviesOnThread':
     'prefix': 'EnterMoviesOnThread'
     'body': 'EnterMoviesOnThread(${1:UInt32 inFlags})'
@@ -18556,10 +18556,10 @@
     'body': 'ExecuteCallBack(${1:QTCallBack cb})'
   'ExitMovies':
     'prefix': 'ExitMovies'
-    'body': 'ExitMovies()'
+    'body': 'ExitMovies'
   'ExitMoviesOnThread':
     'prefix': 'ExitMoviesOnThread'
-    'body': 'ExitMoviesOnThread()'
+    'body': 'ExitMoviesOnThread'
   'ExtendMediaDecodeDurationToDisplayEndTime':
     'prefix': 'ExtendMediaDecodeDurationToDisplayEndTime'
     'body': 'ExtendMediaDecodeDurationToDisplayEndTime(${1:Media theMedia}, ${2:Boolean* mediaChanged})'
@@ -19042,10 +19042,10 @@
     'body': 'GetMovieVolume(${1:Movie theMovie})'
   'GetMoviesError':
     'prefix': 'GetMoviesError'
-    'body': 'GetMoviesError()'
+    'body': 'GetMoviesError'
   'GetMoviesStickyError':
     'prefix': 'GetMoviesStickyError'
-    'body': 'GetMoviesStickyError()'
+    'body': 'GetMoviesStickyError'
   'GetNextCallBack':
     'prefix': 'GetNextCallBack'
     'body': 'GetNextCallBack(${1:QTCallBack cb})'
@@ -19768,7 +19768,7 @@
     'body': 'ICMCompressionFrameOptionsGetPropertyInfo(${1:ICMCompressionFrameOptionsRef options}, ${2:ComponentPropertyClass inPropClass}, ${3:ComponentPropertyID inPropID}, ${4:ComponentValueType* outPropType}, ${5:ByteCount* outPropValueSize}, ${6:UInt32* outPropertyFlags})'
   'ICMCompressionFrameOptionsGetTypeID':
     'prefix': 'ICMCompressionFrameOptionsGetTypeID'
-    'body': 'ICMCompressionFrameOptionsGetTypeID()'
+    'body': 'ICMCompressionFrameOptionsGetTypeID'
   'ICMCompressionFrameOptionsRelease':
     'prefix': 'ICMCompressionFrameOptionsRelease'
     'body': 'ICMCompressionFrameOptionsRelease(${1:ICMCompressionFrameOptionsRef options})'
@@ -19816,7 +19816,7 @@
     'body': 'ICMCompressionSessionGetTimeScale(${1:ICMCompressionSessionRef session})'
   'ICMCompressionSessionGetTypeID':
     'prefix': 'ICMCompressionSessionGetTypeID'
-    'body': 'ICMCompressionSessionGetTypeID()'
+    'body': 'ICMCompressionSessionGetTypeID'
   'ICMCompressionSessionOptionsCreate':
     'prefix': 'ICMCompressionSessionOptionsCreate'
     'body': 'ICMCompressionSessionOptionsCreate(${1:CFAllocatorRef allocator}, ${2:ICMCompressionSessionOptionsRef* options})'
@@ -19846,7 +19846,7 @@
     'body': 'ICMCompressionSessionOptionsGetPropertyInfo(${1:ICMCompressionSessionOptionsRef options}, ${2:ComponentPropertyClass inPropClass}, ${3:ComponentPropertyID inPropID}, ${4:ComponentValueType* outPropType}, ${5:ByteCount* outPropValueSize}, ${6:UInt32* outPropertyFlags})'
   'ICMCompressionSessionOptionsGetTypeID':
     'prefix': 'ICMCompressionSessionOptionsGetTypeID'
-    'body': 'ICMCompressionSessionOptionsGetTypeID()'
+    'body': 'ICMCompressionSessionOptionsGetTypeID'
   'ICMCompressionSessionOptionsRelease':
     'prefix': 'ICMCompressionSessionOptionsRelease'
     'body': 'ICMCompressionSessionOptionsRelease(${1:ICMCompressionSessionOptionsRef options})'
@@ -19909,7 +19909,7 @@
     'body': 'ICMCompressorSourceFrameGetPixelBuffer(${1:ICMCompressorSourceFrameRef sourceFrame})'
   'ICMCompressorSourceFrameGetTypeID':
     'prefix': 'ICMCompressorSourceFrameGetTypeID'
-    'body': 'ICMCompressorSourceFrameGetTypeID()'
+    'body': 'ICMCompressorSourceFrameGetTypeID'
   'ICMCompressorSourceFrameRelease':
     'prefix': 'ICMCompressorSourceFrameRelease'
     'body': 'ICMCompressorSourceFrameRelease(${1:ICMCompressorSourceFrameRef sourceFrame})'
@@ -19936,7 +19936,7 @@
     'body': 'ICMDecompressionFrameOptionsGetPropertyInfo(${1:ICMDecompressionFrameOptionsRef options}, ${2:ComponentPropertyClass inPropClass}, ${3:ComponentPropertyID inPropID}, ${4:ComponentValueType* outPropType}, ${5:ByteCount* outPropValueSize}, ${6:UInt32* outPropertyFlags})'
   'ICMDecompressionFrameOptionsGetTypeID':
     'prefix': 'ICMDecompressionFrameOptionsGetTypeID'
-    'body': 'ICMDecompressionFrameOptionsGetTypeID()'
+    'body': 'ICMDecompressionFrameOptionsGetTypeID'
   'ICMDecompressionFrameOptionsRelease':
     'prefix': 'ICMDecompressionFrameOptionsRelease'
     'body': 'ICMDecompressionFrameOptionsRelease(${1:ICMDecompressionFrameOptionsRef options})'
@@ -19966,7 +19966,7 @@
     'body': 'ICMDecompressionSessionGetPropertyInfo(${1:ICMDecompressionSessionRef session}, ${2:ComponentPropertyClass inPropClass}, ${3:ComponentPropertyID inPropID}, ${4:ComponentValueType* outPropType}, ${5:ByteCount* outPropValueSize}, ${6:UInt32* outPropertyFlags})'
   'ICMDecompressionSessionGetTypeID':
     'prefix': 'ICMDecompressionSessionGetTypeID'
-    'body': 'ICMDecompressionSessionGetTypeID()'
+    'body': 'ICMDecompressionSessionGetTypeID'
   'ICMDecompressionSessionOptionsCreate':
     'prefix': 'ICMDecompressionSessionOptionsCreate'
     'body': 'ICMDecompressionSessionOptionsCreate(${1:CFAllocatorRef allocator}, ${2:ICMDecompressionSessionOptionsRef* options})'
@@ -19981,7 +19981,7 @@
     'body': 'ICMDecompressionSessionOptionsGetPropertyInfo(${1:ICMDecompressionSessionOptionsRef options}, ${2:ComponentPropertyClass inPropClass}, ${3:ComponentPropertyID inPropID}, ${4:ComponentValueType* outPropType}, ${5:ByteCount* outPropValueSize}, ${6:UInt32* outPropertyFlags})'
   'ICMDecompressionSessionOptionsGetTypeID':
     'prefix': 'ICMDecompressionSessionOptionsGetTypeID'
-    'body': 'ICMDecompressionSessionOptionsGetTypeID()'
+    'body': 'ICMDecompressionSessionOptionsGetTypeID'
   'ICMDecompressionSessionOptionsRelease':
     'prefix': 'ICMDecompressionSessionOptionsRelease'
     'body': 'ICMDecompressionSessionOptionsRelease(${1:ICMDecompressionSessionOptionsRef options})'
@@ -20056,7 +20056,7 @@
     'body': 'ICMEncodedFrameGetTimeScale(${1:ICMEncodedFrameRef frame})'
   'ICMEncodedFrameGetTypeID':
     'prefix': 'ICMEncodedFrameGetTypeID'
-    'body': 'ICMEncodedFrameGetTypeID()'
+    'body': 'ICMEncodedFrameGetTypeID'
   'ICMEncodedFrameGetValidTimeFlags':
     'prefix': 'ICMEncodedFrameGetValidTimeFlags'
     'body': 'ICMEncodedFrameGetValidTimeFlags(${1:ICMEncodedFrameRef frame})'
@@ -20119,7 +20119,7 @@
     'body': 'ICMMultiPassStorageGetTimeStamp(${1:ICMMultiPassStorageRef multiPassStorage}, ${2:TimeValue64 fromTimeStamp}, ${3:ICMMultiPassStorageStep step}, ${4:TimeValue64* timeStampOut})'
   'ICMMultiPassStorageGetTypeID':
     'prefix': 'ICMMultiPassStorageGetTypeID'
-    'body': 'ICMMultiPassStorageGetTypeID()'
+    'body': 'ICMMultiPassStorageGetTypeID'
   'ICMMultiPassStorageRelease':
     'prefix': 'ICMMultiPassStorageRelease'
     'body': 'ICMMultiPassStorageRelease(${1:ICMMultiPassStorageRef multiPassStorage})'
@@ -20428,7 +20428,7 @@
     'body': 'ImageTranscoderEndSequence(${1:ImageTranscoderComponent itc})'
   'InitializeQTS':
     'prefix': 'InitializeQTS'
-    'body': 'InitializeQTS()'
+    'body': 'InitializeQTS'
   'InsertEmptyMovieSegment':
     'prefix': 'InsertEmptyMovieSegment'
     'body': 'InsertEmptyMovieSegment(${1:Movie dstMovie}, ${2:TimeValue dstIn}, ${3:TimeValue dstDuration})'
@@ -22012,7 +22012,7 @@
     'body': 'NewTextMediaUPP(${1:TextMediaProcPtr userRoutine})'
   'NewTimeBase':
     'prefix': 'NewTimeBase'
-    'body': 'NewTimeBase()'
+    'body': 'NewTimeBase'
   'NewTrackEditState':
     'prefix': 'NewTrackEditState'
     'body': 'NewTrackEditState(${1:Track theTrack})'
@@ -22330,7 +22330,7 @@
     'body': 'QTIdleManagerNeedsAnIdle(${1:IdleManager im}, ${2:Boolean* needsOne})'
   'QTIdleManagerOpen':
     'prefix': 'QTIdleManagerOpen'
-    'body': 'QTIdleManagerOpen()'
+    'body': 'QTIdleManagerOpen'
   'QTIdleManagerSetNextIdleTime':
     'prefix': 'QTIdleManagerSetNextIdleTime'
     'body': 'QTIdleManagerSetNextIdleTime(${1:IdleManager im}, ${2:TimeRecord* nextIdle})'
@@ -22372,7 +22372,7 @@
     'body': 'QTMIDIUseSendPort(${1:QTMIDIComponent ci}, ${2:long portIndex}, ${3:long inUse})'
   'QTMLCreateMutex':
     'prefix': 'QTMLCreateMutex'
-    'body': 'QTMLCreateMutex()'
+    'body': 'QTMLCreateMutex'
   'QTMLDestroyMutex':
     'prefix': 'QTMLDestroyMutex'
     'body': 'QTMLDestroyMutex(${1:QTMLMutex mu})'
@@ -22387,7 +22387,7 @@
     'body': 'QTMLTryGrabMutex(${1:QTMLMutex mu})'
   'QTMLYieldCPU':
     'prefix': 'QTMLYieldCPU'
-    'body': 'QTMLYieldCPU()'
+    'body': 'QTMLYieldCPU'
   'QTMLYieldCPUTime':
     'prefix': 'QTMLYieldCPUTime'
     'body': 'QTMLYieldCPUTime(${1:long milliSeconds}, ${2:unsigned long flags})'
@@ -22945,7 +22945,7 @@
     'body': 'QTSampleTableGetTimeScale(${1:QTSampleTableRef sampleTable})'
   'QTSampleTableGetTypeID':
     'prefix': 'QTSampleTableGetTypeID'
-    'body': 'QTSampleTableGetTypeID()'
+    'body': 'QTSampleTableGetTypeID'
   'QTSampleTableRelease':
     'prefix': 'QTSampleTableRelease'
     'body': 'QTSampleTableRelease(${1:QTSampleTableRef sampleTable})'
@@ -23386,7 +23386,7 @@
     'body': 'QTVisualContextGetAttribute(${1:QTVisualContextRef visualContext}, ${2:CFStringRef attributeKey}, ${3:CFTypeRef* attributeValueOut})'
   'QTVisualContextGetTypeID':
     'prefix': 'QTVisualContextGetTypeID'
-    'body': 'QTVisualContextGetTypeID()'
+    'body': 'QTVisualContextGetTypeID'
   'QTVisualContextIsNewImageAvailable':
     'prefix': 'QTVisualContextIsNewImageAvailable'
     'body': 'QTVisualContextIsNewImageAvailable(${1:QTVisualContextRef visualContext}, ${2:CVTimeStamp* timeStamp})'
@@ -24811,7 +24811,7 @@
     'body': 'TCTimeCodeToString(${1:MediaHandler mh}, ${2:TimeCodeDef* tcdef}, ${3:TimeCodeRecord* tcrec}, ${4:StringPtr tcStr})'
   'TerminateQTS':
     'prefix': 'TerminateQTS'
-    'body': 'TerminateQTS()'
+    'body': 'TerminateQTS'
   'TextExportGetDisplayData':
     'prefix': 'TextExportGetDisplayData'
     'body': 'TextExportGetDisplayData(${1:TextExportComponent ci}, ${2:TextDisplayData* textDisplay})'

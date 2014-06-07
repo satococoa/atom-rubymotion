@@ -145,7 +145,7 @@
     'body': 'IOSurfaceGetSeed(${1:IOSurfaceRef buffer})'
   'IOSurfaceGetTypeID':
     'prefix': 'IOSurfaceGetTypeID'
-    'body': 'IOSurfaceGetTypeID()'
+    'body': 'IOSurfaceGetTypeID'
   'IOSurfaceGetUseCount':
     'prefix': 'IOSurfaceGetUseCount'
     'body': 'IOSurfaceGetUseCount(${1:IOSurfaceRef buffer})'

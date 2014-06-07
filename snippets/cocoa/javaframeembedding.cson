@@ -2,18 +2,21 @@
   'JavaFrameViewDidCreateJavaFrame (NSString*)':
     'prefix': 'JavaFrameViewDidCreateJavaFrame'
     'body': 'JavaFrameViewDidCreateJavaFrame'
+  'JavaFrameView':
+    'prefix': 'JavaFrameView'
+    'body': 'JavaFrameView'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithFrame:javaFrameClassName:':
     'prefix': 'initWithFrame:javaFrameClassName:'
     'body': 'initWithFrame(${1:NSRect inFrameRect}, javaFrameClassName:${2:NSString* inClassName})'
   'javaFrame':
     'prefix': 'javaFrame'
-    'body': 'javaFrame()'
+    'body': 'javaFrame'
   'javaFrameClassName':
     'prefix': 'javaFrameClassName'
-    'body': 'javaFrameClassName()'
+    'body': 'javaFrameClassName'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id anObject})'
@@ -23,9 +26,15 @@
   'JavaFrameView.setJavaStartupOptions:':
     'prefix': 'setJavaStartupOptions:'
     'body': 'setJavaStartupOptions(${1:NSArray* inStartupOptions})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'javaFrameView:didCreateJavaFrame:withJNIEnv:':
     'prefix': 'javaFrameView:didCreateJavaFrame:withJNIEnv:'
     'body': 'javaFrameView(${1:JavaFrameView* sender}, didCreateJavaFrame:${2:jobject javaFrame}, withJNIEnv:${3:JNIEnv* theEnv})'
+  'JavaFrameViewDelegate':
+    'prefix': 'JavaFrameViewDelegate'
+    'body': 'JavaFrameViewDelegate'
   'javaFrameView:didCreateJavaFrame:withJNIEnv:':
     'prefix': 'javaFrameView:didCreateJavaFrame:withJNIEnv:'
     'body': 'javaFrameView(${1:JavaFrameView* sender}, didCreateJavaFrame:${2:jobject javaFrame}, withJNIEnv:${3:JNIEnv* theEnv})'

@@ -1189,7 +1189,7 @@
     'body': 'CMBlockBufferGetDataPointer(${1:CMBlockBufferRef theBuffer}, ${2:size_t offset}, ${3:size_t* lengthAtOffset}, ${4:size_t* totalLength}, ${5:char** dataPointer})'
   'CMBlockBufferGetTypeID':
     'prefix': 'CMBlockBufferGetTypeID'
-    'body': 'CMBlockBufferGetTypeID()'
+    'body': 'CMBlockBufferGetTypeID'
   'CMBlockBufferIsEmpty':
     'prefix': 'CMBlockBufferIsEmpty'
     'body': 'CMBlockBufferIsEmpty(${1:CMBlockBufferRef theBuffer})'
@@ -1222,10 +1222,10 @@
     'body': 'CMBufferQueueGetBufferCount(${1:CMBufferQueueRef queue})'
   'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS':
     'prefix': 'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS'
-    'body': 'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS()'
+    'body': 'CMBufferQueueGetCallbacksForSampleBuffersSortedByOutputPTS'
   'CMBufferQueueGetCallbacksForUnsortedSampleBuffers':
     'prefix': 'CMBufferQueueGetCallbacksForUnsortedSampleBuffers'
-    'body': 'CMBufferQueueGetCallbacksForUnsortedSampleBuffers()'
+    'body': 'CMBufferQueueGetCallbacksForUnsortedSampleBuffers'
   'CMBufferQueueGetDuration':
     'prefix': 'CMBufferQueueGetDuration'
     'body': 'CMBufferQueueGetDuration(${1:CMBufferQueueRef queue})'
@@ -1252,7 +1252,7 @@
     'body': 'CMBufferQueueGetMinPresentationTimeStamp(${1:CMBufferQueueRef queue})'
   'CMBufferQueueGetTypeID':
     'prefix': 'CMBufferQueueGetTypeID'
-    'body': 'CMBufferQueueGetTypeID()'
+    'body': 'CMBufferQueueGetTypeID'
   'CMBufferQueueInstallTrigger':
     'prefix': 'CMBufferQueueInstallTrigger'
     'body': 'CMBufferQueueInstallTrigger(${1:CMBufferQueueRef queue}, ${2:CMBufferQueueTriggerCallback triggerCallback}, ${3:void* triggerRefcon}, ${4:CMBufferQueueTriggerCondition triggerCondition}, ${5:CMTime triggerTime}, ${6:CMBufferQueueTriggerToken* triggerTokenOut})'
@@ -1291,13 +1291,13 @@
     'body': 'CMClockGetAnchorTime(${1:CMClockRef clock}, ${2:CMTime* outClockTime}, ${3:CMTime* outReferenceClockTime})'
   'CMClockGetHostTimeClock':
     'prefix': 'CMClockGetHostTimeClock'
-    'body': 'CMClockGetHostTimeClock()'
+    'body': 'CMClockGetHostTimeClock'
   'CMClockGetTime':
     'prefix': 'CMClockGetTime'
     'body': 'CMClockGetTime(${1:CMClockRef clock})'
   'CMClockGetTypeID':
     'prefix': 'CMClockGetTypeID'
-    'body': 'CMClockGetTypeID()'
+    'body': 'CMClockGetTypeID'
   'CMClockInvalidate':
     'prefix': 'CMClockInvalidate'
     'body': 'CMClockInvalidate(${1:CMClockRef clock})'
@@ -1333,7 +1333,7 @@
     'body': 'CMFormatDescriptionGetMediaType(${1:CMFormatDescriptionRef desc})'
   'CMFormatDescriptionGetTypeID':
     'prefix': 'CMFormatDescriptionGetTypeID'
-    'body': 'CMFormatDescriptionGetTypeID()'
+    'body': 'CMFormatDescriptionGetTypeID'
   'CMGetAttachment':
     'prefix': 'CMGetAttachment'
     'body': 'CMGetAttachment(${1:CMAttachmentBearerRef target}, ${2:CFStringRef key}, ${3:CMAttachmentMode* attachmentModeOut})'
@@ -1348,7 +1348,7 @@
     'body': 'CMMemoryPoolGetAllocator(${1:CMMemoryPoolRef pool})'
   'CMMemoryPoolGetTypeID':
     'prefix': 'CMMemoryPoolGetTypeID'
-    'body': 'CMMemoryPoolGetTypeID()'
+    'body': 'CMMemoryPoolGetTypeID'
   'CMMemoryPoolInvalidate':
     'prefix': 'CMMemoryPoolInvalidate'
     'body': 'CMMemoryPoolInvalidate(${1:CMMemoryPoolRef pool})'
@@ -1456,7 +1456,7 @@
     'body': 'CMSampleBufferGetTotalSampleSize(${1:CMSampleBufferRef sbuf})'
   'CMSampleBufferGetTypeID':
     'prefix': 'CMSampleBufferGetTypeID'
-    'body': 'CMSampleBufferGetTypeID()'
+    'body': 'CMSampleBufferGetTypeID'
   'CMSampleBufferInvalidate':
     'prefix': 'CMSampleBufferInvalidate'
     'body': 'CMSampleBufferInvalidate(${1:CMSampleBufferRef sbuf})'
@@ -1510,7 +1510,7 @@
     'body': 'CMSimpleQueueGetHead(${1:CMSimpleQueueRef queue})'
   'CMSimpleQueueGetTypeID':
     'prefix': 'CMSimpleQueueGetTypeID'
-    'body': 'CMSimpleQueueGetTypeID()'
+    'body': 'CMSimpleQueueGetTypeID'
   'CMSimpleQueueReset':
     'prefix': 'CMSimpleQueueReset'
     'body': 'CMSimpleQueueReset(${1:CMSimpleQueueRef queue})'
@@ -1690,7 +1690,7 @@
     'body': 'CMTimebaseGetTimeWithTimeScale(${1:CMTimebaseRef timebase}, ${2:CMTimeScale timescale}, ${3:CMTimeRoundingMethod method})'
   'CMTimebaseGetTypeID':
     'prefix': 'CMTimebaseGetTypeID'
-    'body': 'CMTimebaseGetTypeID()'
+    'body': 'CMTimebaseGetTypeID'
   'CMTimebaseGetUltimateMasterClock':
     'prefix': 'CMTimebaseGetUltimateMasterClock'
     'body': 'CMTimebaseGetUltimateMasterClock(${1:CMTimebaseRef timebase})'
@@ -1744,7 +1744,7 @@
     'body': 'CMVideoFormatDescriptionGetDimensions(${1:CMVideoFormatDescriptionRef videoDesc})'
   'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers':
     'prefix': 'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers'
-    'body': 'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers()'
+    'body': 'CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers'
   'CMVideoFormatDescriptionGetH264ParameterSetAtIndex':
     'prefix': 'CMVideoFormatDescriptionGetH264ParameterSetAtIndex'
     'body': 'CMVideoFormatDescriptionGetH264ParameterSetAtIndex(${1:CMFormatDescriptionRef videoDesc}, ${2:size_t parameterSetIndex}, ${3:uint8_t** parameterSetPointerOut}, ${4:size_t* parameterSetSizeOut}, ${5:size_t* parameterSetCountOut}, ${6:int* NALUnitHeaderLengthOut})'

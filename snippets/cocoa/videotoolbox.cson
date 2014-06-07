@@ -571,7 +571,7 @@
     'body': 'VTCompressionSessionGetPixelBufferPool(${1:VTCompressionSessionRef session})'
   'VTCompressionSessionGetTypeID':
     'prefix': 'VTCompressionSessionGetTypeID'
-    'body': 'VTCompressionSessionGetTypeID()'
+    'body': 'VTCompressionSessionGetTypeID'
   'VTCompressionSessionInvalidate':
     'prefix': 'VTCompressionSessionInvalidate'
     'body': 'VTCompressionSessionInvalidate(${1:VTCompressionSessionRef session})'
@@ -598,7 +598,7 @@
     'body': 'VTDecompressionSessionFinishDelayedFrames(${1:VTDecompressionSessionRef session})'
   'VTDecompressionSessionGetTypeID':
     'prefix': 'VTDecompressionSessionGetTypeID'
-    'body': 'VTDecompressionSessionGetTypeID()'
+    'body': 'VTDecompressionSessionGetTypeID'
   'VTDecompressionSessionInvalidate':
     'prefix': 'VTDecompressionSessionInvalidate'
     'body': 'VTDecompressionSessionInvalidate(${1:VTDecompressionSessionRef session})'
@@ -610,7 +610,7 @@
     'body': 'VTPixelTransferSessionCreate(${1:CFAllocatorRef allocator}, ${2:VTPixelTransferSessionRef* pixelTransferSessionOut})'
   'VTPixelTransferSessionGetTypeID':
     'prefix': 'VTPixelTransferSessionGetTypeID'
-    'body': 'VTPixelTransferSessionGetTypeID()'
+    'body': 'VTPixelTransferSessionGetTypeID'
   'VTPixelTransferSessionInvalidate':
     'prefix': 'VTPixelTransferSessionInvalidate'
     'body': 'VTPixelTransferSessionInvalidate(${1:VTPixelTransferSessionRef session})'
@@ -619,7 +619,7 @@
     'body': 'VTPixelTransferSessionTransferImage(${1:VTPixelTransferSessionRef session}, ${2:CVPixelBufferRef sourceBuffer}, ${3:CVPixelBufferRef destinationBuffer})'
   'VTRegisterProfessionalVideoWorkflowVideoDecoders':
     'prefix': 'VTRegisterProfessionalVideoWorkflowVideoDecoders'
-    'body': 'VTRegisterProfessionalVideoWorkflowVideoDecoders()'
+    'body': 'VTRegisterProfessionalVideoWorkflowVideoDecoders'
   'VTSessionCopyProperty':
     'prefix': 'VTSessionCopyProperty'
     'body': 'VTSessionCopyProperty(${1:VTSessionRef session}, ${2:CFStringRef propertyKey}, ${3:CFAllocatorRef allocator}, ${4:void* propertyValueOut})'

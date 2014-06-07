@@ -26,12 +26,15 @@
   'SLRequestMethodPUT ()':
     'prefix': 'SLRequestMethodPUT'
     'body': 'SLRequestMethodPUT'
+  'SLRequest':
+    'prefix': 'SLRequest'
+    'body': 'SLRequest'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'account':
     'prefix': 'account'
-    'body': 'account()'
+    'body': 'account'
   'addMultipartData:withName:type:':
     'prefix': 'addMultipartData:withName:type:'
     'body': 'addMultipartData(${1: data}, withName:${2: name}, type:${3: type})'
@@ -40,19 +43,19 @@
     'body': 'addMultipartData(${1: data}, withName:${2: name}, type:${3: type}, filename:${4: filename})'
   'parameters':
     'prefix': 'parameters'
-    'body': 'parameters()'
+    'body': 'parameters'
   'performRequestWithHandler:':
     'prefix': 'performRequestWithHandler:'
     'body': 'performRequestWithHandler(${1: handler})'
   'preparedURLRequest':
     'prefix': 'preparedURLRequest'
-    'body': 'preparedURLRequest()'
+    'body': 'preparedURLRequest'
   'SLRequest.requestForServiceType:requestMethod:URL:parameters:':
     'prefix': 'requestForServiceType:requestMethod:URL:parameters:'
     'body': 'requestForServiceType(${1: serviceType}, requestMethod:${2: requestMethod}, URL:${3: url}, parameters:${4: parameters})'
   'requestMethod':
     'prefix': 'requestMethod'
-    'body': 'requestMethod()'
+    'body': 'requestMethod'
   'setAccount:':
     'prefix': 'setAccount:'
     'body': 'setAccount(${1: account})'

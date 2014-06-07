@@ -229,7 +229,7 @@
     'body': 'CNCopyCurrentNetworkInfo(${1:CFStringRef interfaceName})'
   'CNCopySupportedInterfaces':
     'prefix': 'CNCopySupportedInterfaces'
-    'body': 'CNCopySupportedInterfaces()'
+    'body': 'CNCopySupportedInterfaces'
   'CNMarkPortalOffline':
     'prefix': 'CNMarkPortalOffline'
     'body': 'CNMarkPortalOffline(${1:CFStringRef interfaceName})'
@@ -241,10 +241,10 @@
     'body': 'CNSetSupportedSSIDs(${1:CFArrayRef ssidArray})'
   'SCCopyLastError':
     'prefix': 'SCCopyLastError'
-    'body': 'SCCopyLastError()'
+    'body': 'SCCopyLastError'
   'SCError':
     'prefix': 'SCError'
-    'body': 'SCError()'
+    'body': 'SCError'
   'SCErrorString':
     'prefix': 'SCErrorString'
     'body': 'SCErrorString(${1:int status})'
@@ -262,7 +262,7 @@
     'body': 'SCNetworkReachabilityGetFlags(${1:SCNetworkReachabilityRef target}, ${2:SCNetworkReachabilityFlags* flags})'
   'SCNetworkReachabilityGetTypeID':
     'prefix': 'SCNetworkReachabilityGetTypeID'
-    'body': 'SCNetworkReachabilityGetTypeID()'
+    'body': 'SCNetworkReachabilityGetTypeID'
   'SCNetworkReachabilityScheduleWithRunLoop':
     'prefix': 'SCNetworkReachabilityScheduleWithRunLoop'
     'body': 'SCNetworkReachabilityScheduleWithRunLoop(${1:SCNetworkReachabilityRef target}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'

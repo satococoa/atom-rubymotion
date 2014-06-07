@@ -107,27 +107,30 @@
   'OSASupportsRecording (32)':
     'prefix': 'OSASupportsRecording'
     'body': 'OSASupportsRecording'
+  'OSALanguage':
+    'prefix': 'OSALanguage'
+    'body': 'OSALanguage'
   'OSALanguage.availableLanguages':
     'prefix': 'availableLanguages'
-    'body': 'availableLanguages()'
+    'body': 'availableLanguages'
   'componentInstance':
     'prefix': 'componentInstance'
-    'body': 'componentInstance()'
+    'body': 'componentInstance'
   'OSALanguage.defaultLanguage':
     'prefix': 'defaultLanguage'
-    'body': 'defaultLanguage()'
+    'body': 'defaultLanguage'
   'features':
     'prefix': 'features'
-    'body': 'features()'
+    'body': 'features'
   'info':
     'prefix': 'info'
-    'body': 'info()'
+    'body': 'info'
   'initWithComponent:':
     'prefix': 'initWithComponent:'
     'body': 'initWithComponent(${1:Component component})'
   'isThreadSafe':
     'prefix': 'isThreadSafe'
-    'body': 'isThreadSafe()'
+    'body': 'isThreadSafe'
   'OSALanguage.languageForName:':
     'prefix': 'languageForName:'
     'body': 'languageForName(${1:NSString* name})'
@@ -136,37 +139,43 @@
     'body': 'languageForScriptDataDescriptor(${1:NSAppleEventDescriptor* descriptor})'
   'manufacturer':
     'prefix': 'manufacturer'
-    'body': 'manufacturer()'
+    'body': 'manufacturer'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'OSALanguage.setDefaultLanguage:':
     'prefix': 'setDefaultLanguage:'
     'body': 'setDefaultLanguage(${1:OSALanguage* defaultLanguage})'
   'sharedLanguageInstance':
     'prefix': 'sharedLanguageInstance'
-    'body': 'sharedLanguageInstance()'
+    'body': 'sharedLanguageInstance'
   'subType':
     'prefix': 'subType'
-    'body': 'subType()'
+    'body': 'subType'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'version':
     'prefix': 'version'
-    'body': 'version()'
+    'body': 'version'
+  'OSALanguageInstance':
+    'prefix': 'OSALanguageInstance'
+    'body': 'OSALanguageInstance'
   'componentInstance':
     'prefix': 'componentInstance'
-    'body': 'componentInstance()'
+    'body': 'componentInstance'
   'initWithLanguage:':
     'prefix': 'initWithLanguage:'
     'body': 'initWithLanguage(${1:OSALanguage* language})'
   'language':
     'prefix': 'language'
-    'body': 'language()'
+    'body': 'language'
   'OSALanguageInstance.languageInstanceWithLanguage:':
     'prefix': 'languageInstanceWithLanguage:'
     'body': 'languageInstanceWithLanguage(${1:OSALanguage* language})'
+  'OSAScript':
+    'prefix': 'OSAScript'
+    'body': 'OSAScript'
   'compileAndReturnError:':
     'prefix': 'compileAndReturnError:'
     'body': 'compileAndReturnError(${1:NSDictionary** errorInfo})'
@@ -214,19 +223,19 @@
     'body': 'initWithSource(${1:NSString* source}, language:${2:OSALanguage* language})'
   'isCompiled':
     'prefix': 'isCompiled'
-    'body': 'isCompiled()'
+    'body': 'isCompiled'
   'language':
     'prefix': 'language'
-    'body': 'language()'
+    'body': 'language'
   'languageInstance':
     'prefix': 'languageInstance'
-    'body': 'languageInstance()'
+    'body': 'languageInstance'
   'richTextFromDescriptor:':
     'prefix': 'richTextFromDescriptor:'
     'body': 'richTextFromDescriptor(${1:NSAppleEventDescriptor* descriptor})'
   'richTextSource':
     'prefix': 'richTextSource'
-    'body': 'richTextSource()'
+    'body': 'richTextSource'
   'OSAScript.scriptDataDescriptorWithContentsOfURL:':
     'prefix': 'scriptDataDescriptorWithContentsOfURL:'
     'body': 'scriptDataDescriptorWithContentsOfURL(${1:NSURL* url})'
@@ -238,43 +247,46 @@
     'body': 'setLanguageInstance(${1:OSALanguageInstance* languageInstance})'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
   'writeToURL:ofType:error:':
     'prefix': 'writeToURL:ofType:error:'
     'body': 'writeToURL(${1:NSURL* url}, ofType:${2:NSString* type}, error:${3:NSDictionary** errorInfo})'
   'writeToURL:ofType:usingStorageOptions:error:':
     'prefix': 'writeToURL:ofType:usingStorageOptions:error:'
     'body': 'writeToURL(${1:NSURL* url}, ofType:${2:NSString* type}, usingStorageOptions:${3:OSAStorageOptions storageOptions}, error:${4:NSDictionary** errorInfo})'
+  'OSAScriptController':
+    'prefix': 'OSAScriptController'
+    'body': 'OSAScriptController'
   'compileScript:':
     'prefix': 'compileScript:'
     'body': 'compileScript(${1:id sender})'
   'isCompiling':
     'prefix': 'isCompiling'
-    'body': 'isCompiling()'
+    'body': 'isCompiling'
   'language':
     'prefix': 'language'
-    'body': 'language()'
+    'body': 'language'
   'recordScript:':
     'prefix': 'recordScript:'
     'body': 'recordScript(${1:id sender})'
   'resultView':
     'prefix': 'resultView'
-    'body': 'resultView()'
+    'body': 'resultView'
   'runScript:':
     'prefix': 'runScript:'
     'body': 'runScript(${1:id sender})'
   'script':
     'prefix': 'script'
-    'body': 'script()'
+    'body': 'script'
   'scriptState':
     'prefix': 'scriptState'
-    'body': 'scriptState()'
+    'body': 'scriptState'
   'scriptView':
     'prefix': 'scriptView'
-    'body': 'scriptView()'
+    'body': 'scriptView'
   'setLanguage:':
     'prefix': 'setLanguage:'
     'body': 'setLanguage(${1:OSALanguage* newLanguage})'
@@ -290,12 +302,15 @@
   'stopScript:':
     'prefix': 'stopScript:'
     'body': 'stopScript(${1:id sender})'
+  'OSAScriptView':
+    'prefix': 'OSAScriptView'
+    'body': 'OSAScriptView'
   'indentWidth':
     'prefix': 'indentWidth'
-    'body': 'indentWidth()'
+    'body': 'indentWidth'
   'indentsWrappedLines':
     'prefix': 'indentsWrappedLines'
-    'body': 'indentsWrappedLines()'
+    'body': 'indentsWrappedLines'
   'setIndentWidth:':
     'prefix': 'setIndentWidth:'
     'body': 'setIndentWidth(${1:NSUInteger indentWidth})'
@@ -319,16 +334,16 @@
     'body': 'setWrapsLines(${1:BOOL wrapsLines})'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
   'tabWidth':
     'prefix': 'tabWidth'
-    'body': 'tabWidth()'
+    'body': 'tabWidth'
   'usesScriptAssistant':
     'prefix': 'usesScriptAssistant'
-    'body': 'usesScriptAssistant()'
+    'body': 'usesScriptAssistant'
   'usesTabs':
     'prefix': 'usesTabs'
-    'body': 'usesTabs()'
+    'body': 'usesTabs'
   'wrapsLines':
     'prefix': 'wrapsLines'
-    'body': 'wrapsLines()'
+    'body': 'wrapsLines'

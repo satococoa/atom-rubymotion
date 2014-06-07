@@ -961,19 +961,19 @@
     'body': 'KDVDVTSMDomain'
   'DVDClearLastPlayBookmark':
     'prefix': 'DVDClearLastPlayBookmark'
-    'body': 'DVDClearLastPlayBookmark()'
+    'body': 'DVDClearLastPlayBookmark'
   'DVDCloseMediaFile':
     'prefix': 'DVDCloseMediaFile'
-    'body': 'DVDCloseMediaFile()'
+    'body': 'DVDCloseMediaFile'
   'DVDCloseMediaVolume':
     'prefix': 'DVDCloseMediaVolume'
-    'body': 'DVDCloseMediaVolume()'
+    'body': 'DVDCloseMediaVolume'
   'DVDDisplaySubPicture':
     'prefix': 'DVDDisplaySubPicture'
     'body': 'DVDDisplaySubPicture(${1:Boolean inDisplay})'
   'DVDDispose':
     'prefix': 'DVDDispose'
-    'body': 'DVDDispose()'
+    'body': 'DVDDispose'
   'DVDDoButtonActivate':
     'prefix': 'DVDDoButtonActivate'
     'body': 'DVDDoButtonActivate(${1:SInt32 inIndex})'
@@ -1126,7 +1126,7 @@
     'body': 'DVDGetVideoWindowRef(${1:WindowRef* outWindowRef})'
   'DVDGoBackOneLevel':
     'prefix': 'DVDGoBackOneLevel'
-    'body': 'DVDGoBackOneLevel()'
+    'body': 'DVDGoBackOneLevel'
   'DVDGoToMenu':
     'prefix': 'DVDGoToMenu'
     'body': 'DVDGoToMenu(${1:DVDMenu inMenu})'
@@ -1147,10 +1147,10 @@
     'body': 'DVDHasPreviousChapter(${1:Boolean* outHasChapter})'
   'DVDIdle':
     'prefix': 'DVDIdle'
-    'body': 'DVDIdle()'
+    'body': 'DVDIdle'
   'DVDInitialize':
     'prefix': 'DVDInitialize'
-    'body': 'DVDInitialize()'
+    'body': 'DVDInitialize'
   'DVDIsDisplayingSubPicture':
     'prefix': 'DVDIsDisplayingSubPicture'
     'body': 'DVDIsDisplayingSubPicture(${1:Boolean* outDisplayingSubPicture})'
@@ -1183,7 +1183,7 @@
     'body': 'DVDMute(${1:Boolean inMute})'
   'DVDNextChapter':
     'prefix': 'DVDNextChapter'
-    'body': 'DVDNextChapter()'
+    'body': 'DVDNextChapter'
   'DVDOpenMediaFile':
     'prefix': 'DVDOpenMediaFile'
     'body': 'DVDOpenMediaFile(${1:FSRef* inFile})'
@@ -1198,22 +1198,22 @@
     'body': 'DVDOpenMediaVolumeWithURL(${1:CFURLRef inVolume})'
   'DVDPause':
     'prefix': 'DVDPause'
-    'body': 'DVDPause()'
+    'body': 'DVDPause'
   'DVDPlay':
     'prefix': 'DVDPlay'
-    'body': 'DVDPlay()'
+    'body': 'DVDPlay'
   'DVDPreviousChapter':
     'prefix': 'DVDPreviousChapter'
-    'body': 'DVDPreviousChapter()'
+    'body': 'DVDPreviousChapter'
   'DVDRegisterEventCallBack':
     'prefix': 'DVDRegisterEventCallBack'
     'body': 'DVDRegisterEventCallBack(${1:DVDEventCallBackFunctionPtr inCallBackProc}, ${2:DVDEventCode* inCode}, ${3:UInt32 inCodeCount}, ${4:void* inRefCon}, ${5:DVDEventCallBackRef* outCallBackID})'
   'DVDResume':
     'prefix': 'DVDResume'
-    'body': 'DVDResume()'
+    'body': 'DVDResume'
   'DVDReturnToTitle':
     'prefix': 'DVDReturnToTitle'
-    'body': 'DVDReturnToTitle()'
+    'body': 'DVDReturnToTitle'
   'DVDScan':
     'prefix': 'DVDScan'
     'body': 'DVDScan(${1:DVDScanRate inRate}, ${2:DVDScanDirection inDirection})'
@@ -1282,13 +1282,13 @@
     'body': 'DVDSetVideoWindowRef(${1:WindowRef inWindowRef})'
   'DVDSleep':
     'prefix': 'DVDSleep'
-    'body': 'DVDSleep()'
+    'body': 'DVDSleep'
   'DVDStepFrame':
     'prefix': 'DVDStepFrame'
     'body': 'DVDStepFrame(${1:DVDScanDirection inDirection})'
   'DVDStop':
     'prefix': 'DVDStop'
-    'body': 'DVDStop()'
+    'body': 'DVDStop'
   'DVDSwitchToDisplay':
     'prefix': 'DVDSwitchToDisplay'
     'body': 'DVDSwitchToDisplay(${1:CGDirectDisplayID newDisplay}, ${2:Boolean* outSupported})'
@@ -1297,7 +1297,7 @@
     'body': 'DVDUnregisterEventCallBack(${1:DVDEventCallBackRef inCallBackID})'
   'DVDUpdateVideo':
     'prefix': 'DVDUpdateVideo'
-    'body': 'DVDUpdateVideo()'
+    'body': 'DVDUpdateVideo'
   'DVDWakeUp':
     'prefix': 'DVDWakeUp'
-    'body': 'DVDWakeUp()'
+    'body': 'DVDWakeUp'

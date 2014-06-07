@@ -1219,7 +1219,7 @@
     'body': 'NPN_GetIntIdentifier(${1:int32_t intid})'
   'NPN_GetJavaEnv':
     'prefix': 'NPN_GetJavaEnv'
-    'body': 'NPN_GetJavaEnv()'
+    'body': 'NPN_GetJavaEnv'
   'NPN_GetJavaPeer':
     'prefix': 'NPN_GetJavaPeer'
     'body': 'NPN_GetJavaPeer(${1:NPP instance})'
@@ -1360,10 +1360,10 @@
     'body': 'NPP_DestroyStream(${1:NPP instance}, ${2:NPStream* stream}, ${3:NPReason reason})'
   'NPP_GetJavaClass':
     'prefix': 'NPP_GetJavaClass'
-    'body': 'NPP_GetJavaClass()'
+    'body': 'NPP_GetJavaClass'
   'NPP_GetSitesWithData':
     'prefix': 'NPP_GetSitesWithData'
-    'body': 'NPP_GetSitesWithData()'
+    'body': 'NPP_GetSitesWithData'
   'NPP_GetValue':
     'prefix': 'NPP_GetValue'
     'body': 'NPP_GetValue(${1:NPP instance}, ${2:NPPVariable variable}, ${3:void* value})'
@@ -1375,7 +1375,7 @@
     'body': 'NPP_HandleEvent(${1:NPP instance}, ${2:void* event})'
   'NPP_Initialize':
     'prefix': 'NPP_Initialize'
-    'body': 'NPP_Initialize()'
+    'body': 'NPP_Initialize'
   'NPP_LostFocus':
     'prefix': 'NPP_LostFocus'
     'body': 'NPP_LostFocus(${1:NPP instance})'
@@ -1396,7 +1396,7 @@
     'body': 'NPP_SetWindow(${1:NPP instance}, ${2:NPWindow* window})'
   'NPP_Shutdown':
     'prefix': 'NPP_Shutdown'
-    'body': 'NPP_Shutdown()'
+    'body': 'NPP_Shutdown'
   'NPP_StreamAsFile':
     'prefix': 'NPP_StreamAsFile'
     'body': 'NPP_StreamAsFile(${1:NPP instance}, ${2:NPStream* stream}, ${3:char* fname})'
@@ -1412,48 +1412,69 @@
   'NPP_WriteReady':
     'prefix': 'NPP_WriteReady'
     'body': 'NPP_WriteReady(${1:NPP instance}, ${2:NPStream* stream})'
+  'DOMAbstractView':
+    'prefix': 'DOMAbstractView'
+    'body': 'DOMAbstractView'
   'document':
     'prefix': 'document'
-    'body': 'document()'
+    'body': 'document'
+  'DOMAttr':
+    'prefix': 'DOMAttr'
+    'body': 'DOMAttr'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'ownerElement':
     'prefix': 'ownerElement'
-    'body': 'ownerElement()'
+    'body': 'ownerElement'
   'setValue:':
     'prefix': 'setValue:'
     'body': 'setValue(${1:NSString* value})'
   'specified':
     'prefix': 'specified'
-    'body': 'specified()'
+    'body': 'specified'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'DOMBlob':
+    'prefix': 'DOMBlob'
+    'body': 'DOMBlob'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
+  'DOMCSSCharsetRule':
+    'prefix': 'DOMCSSCharsetRule'
+    'body': 'DOMCSSCharsetRule'
   'encoding':
     'prefix': 'encoding'
-    'body': 'encoding()'
+    'body': 'encoding'
+  'DOMCSSFontFaceRule':
+    'prefix': 'DOMCSSFontFaceRule'
+    'body': 'DOMCSSFontFaceRule'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
+  'DOMCSSImportRule':
+    'prefix': 'DOMCSSImportRule'
+    'body': 'DOMCSSImportRule'
   'href':
     'prefix': 'href'
-    'body': 'href()'
+    'body': 'href'
   'media':
     'prefix': 'media'
-    'body': 'media()'
+    'body': 'media'
   'styleSheet':
     'prefix': 'styleSheet'
-    'body': 'styleSheet()'
+    'body': 'styleSheet'
+  'DOMCSSMediaRule':
+    'prefix': 'DOMCSSMediaRule'
+    'body': 'DOMCSSMediaRule'
   'cssRules':
     'prefix': 'cssRules'
-    'body': 'cssRules()'
+    'body': 'cssRules'
   'deleteRule:':
     'prefix': 'deleteRule:'
     'body': 'deleteRule(${1:unsigned int index})'
@@ -1465,34 +1486,40 @@
     'body': 'insertRule(${1:NSString* rule}, index:${2:unsigned int index})'
   'media':
     'prefix': 'media'
-    'body': 'media()'
+    'body': 'media'
+  'DOMCSSPageRule':
+    'prefix': 'DOMCSSPageRule'
+    'body': 'DOMCSSPageRule'
   'selectorText':
     'prefix': 'selectorText'
-    'body': 'selectorText()'
+    'body': 'selectorText'
   'setSelectorText:':
     'prefix': 'setSelectorText:'
     'body': 'setSelectorText(${1:NSString* selectorText})'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
+  'DOMCSSPrimitiveValue':
+    'prefix': 'DOMCSSPrimitiveValue'
+    'body': 'DOMCSSPrimitiveValue'
   'getCounterValue':
     'prefix': 'getCounterValue'
-    'body': 'getCounterValue()'
+    'body': 'getCounterValue'
   'getFloatValue:':
     'prefix': 'getFloatValue:'
     'body': 'getFloatValue(${1:unsigned short unitType})'
   'getRGBColorValue':
     'prefix': 'getRGBColorValue'
-    'body': 'getRGBColorValue()'
+    'body': 'getRGBColorValue'
   'getRectValue':
     'prefix': 'getRectValue'
-    'body': 'getRectValue()'
+    'body': 'getRectValue'
   'getStringValue':
     'prefix': 'getStringValue'
-    'body': 'getStringValue()'
+    'body': 'getStringValue'
   'primitiveType':
     'prefix': 'primitiveType'
-    'body': 'primitiveType()'
+    'body': 'primitiveType'
   'setFloatValue::':
     'prefix': 'setFloatValue::'
     'body': 'setFloatValue(${1:unsigned short unitType}, :${2:float floatValue})'
@@ -1505,192 +1532,201 @@
   'setStringValue:stringValue:':
     'prefix': 'setStringValue:stringValue:'
     'body': 'setStringValue(${1:unsigned short stringType}, stringValue:${2:NSString* stringValue})'
+  'DOMCSSRule':
+    'prefix': 'DOMCSSRule'
+    'body': 'DOMCSSRule'
   'cssText':
     'prefix': 'cssText'
-    'body': 'cssText()'
+    'body': 'cssText'
   'parentRule':
     'prefix': 'parentRule'
-    'body': 'parentRule()'
+    'body': 'parentRule'
   'parentStyleSheet':
     'prefix': 'parentStyleSheet'
-    'body': 'parentStyleSheet()'
+    'body': 'parentStyleSheet'
   'setCssText:':
     'prefix': 'setCssText:'
     'body': 'setCssText(${1:NSString* cssText})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMCSSRuleList':
+    'prefix': 'DOMCSSRuleList'
+    'body': 'DOMCSSRuleList'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
+  'DOMCSSStyleDeclaration':
+    'prefix': 'DOMCSSStyleDeclaration'
+    'body': 'DOMCSSStyleDeclaration'
   'azimuth':
     'prefix': 'azimuth'
-    'body': 'azimuth()'
+    'body': 'azimuth'
   'background':
     'prefix': 'background'
-    'body': 'background()'
+    'body': 'background'
   'backgroundAttachment':
     'prefix': 'backgroundAttachment'
-    'body': 'backgroundAttachment()'
+    'body': 'backgroundAttachment'
   'backgroundColor':
     'prefix': 'backgroundColor'
-    'body': 'backgroundColor()'
+    'body': 'backgroundColor'
   'backgroundImage':
     'prefix': 'backgroundImage'
-    'body': 'backgroundImage()'
+    'body': 'backgroundImage'
   'backgroundPosition':
     'prefix': 'backgroundPosition'
-    'body': 'backgroundPosition()'
+    'body': 'backgroundPosition'
   'backgroundRepeat':
     'prefix': 'backgroundRepeat'
-    'body': 'backgroundRepeat()'
+    'body': 'backgroundRepeat'
   'border':
     'prefix': 'border'
-    'body': 'border()'
+    'body': 'border'
   'borderBottom':
     'prefix': 'borderBottom'
-    'body': 'borderBottom()'
+    'body': 'borderBottom'
   'borderBottomColor':
     'prefix': 'borderBottomColor'
-    'body': 'borderBottomColor()'
+    'body': 'borderBottomColor'
   'borderBottomStyle':
     'prefix': 'borderBottomStyle'
-    'body': 'borderBottomStyle()'
+    'body': 'borderBottomStyle'
   'borderBottomWidth':
     'prefix': 'borderBottomWidth'
-    'body': 'borderBottomWidth()'
+    'body': 'borderBottomWidth'
   'borderCollapse':
     'prefix': 'borderCollapse'
-    'body': 'borderCollapse()'
+    'body': 'borderCollapse'
   'borderColor':
     'prefix': 'borderColor'
-    'body': 'borderColor()'
+    'body': 'borderColor'
   'borderLeft':
     'prefix': 'borderLeft'
-    'body': 'borderLeft()'
+    'body': 'borderLeft'
   'borderLeftColor':
     'prefix': 'borderLeftColor'
-    'body': 'borderLeftColor()'
+    'body': 'borderLeftColor'
   'borderLeftStyle':
     'prefix': 'borderLeftStyle'
-    'body': 'borderLeftStyle()'
+    'body': 'borderLeftStyle'
   'borderLeftWidth':
     'prefix': 'borderLeftWidth'
-    'body': 'borderLeftWidth()'
+    'body': 'borderLeftWidth'
   'borderRight':
     'prefix': 'borderRight'
-    'body': 'borderRight()'
+    'body': 'borderRight'
   'borderRightColor':
     'prefix': 'borderRightColor'
-    'body': 'borderRightColor()'
+    'body': 'borderRightColor'
   'borderRightStyle':
     'prefix': 'borderRightStyle'
-    'body': 'borderRightStyle()'
+    'body': 'borderRightStyle'
   'borderRightWidth':
     'prefix': 'borderRightWidth'
-    'body': 'borderRightWidth()'
+    'body': 'borderRightWidth'
   'borderSpacing':
     'prefix': 'borderSpacing'
-    'body': 'borderSpacing()'
+    'body': 'borderSpacing'
   'borderStyle':
     'prefix': 'borderStyle'
-    'body': 'borderStyle()'
+    'body': 'borderStyle'
   'borderTop':
     'prefix': 'borderTop'
-    'body': 'borderTop()'
+    'body': 'borderTop'
   'borderTopColor':
     'prefix': 'borderTopColor'
-    'body': 'borderTopColor()'
+    'body': 'borderTopColor'
   'borderTopStyle':
     'prefix': 'borderTopStyle'
-    'body': 'borderTopStyle()'
+    'body': 'borderTopStyle'
   'borderTopWidth':
     'prefix': 'borderTopWidth'
-    'body': 'borderTopWidth()'
+    'body': 'borderTopWidth'
   'borderWidth':
     'prefix': 'borderWidth'
-    'body': 'borderWidth()'
+    'body': 'borderWidth'
   'bottom':
     'prefix': 'bottom'
-    'body': 'bottom()'
+    'body': 'bottom'
   'captionSide':
     'prefix': 'captionSide'
-    'body': 'captionSide()'
+    'body': 'captionSide'
   'clear':
     'prefix': 'clear'
-    'body': 'clear()'
+    'body': 'clear'
   'clip':
     'prefix': 'clip'
-    'body': 'clip()'
+    'body': 'clip'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'content':
     'prefix': 'content'
-    'body': 'content()'
+    'body': 'content'
   'counterIncrement':
     'prefix': 'counterIncrement'
-    'body': 'counterIncrement()'
+    'body': 'counterIncrement'
   'counterReset':
     'prefix': 'counterReset'
-    'body': 'counterReset()'
+    'body': 'counterReset'
   'cssFloat':
     'prefix': 'cssFloat'
-    'body': 'cssFloat()'
+    'body': 'cssFloat'
   'cssText':
     'prefix': 'cssText'
-    'body': 'cssText()'
+    'body': 'cssText'
   'cue':
     'prefix': 'cue'
-    'body': 'cue()'
+    'body': 'cue'
   'cueAfter':
     'prefix': 'cueAfter'
-    'body': 'cueAfter()'
+    'body': 'cueAfter'
   'cueBefore':
     'prefix': 'cueBefore'
-    'body': 'cueBefore()'
+    'body': 'cueBefore'
   'cursor':
     'prefix': 'cursor'
-    'body': 'cursor()'
+    'body': 'cursor'
   'direction':
     'prefix': 'direction'
-    'body': 'direction()'
+    'body': 'direction'
   'display':
     'prefix': 'display'
-    'body': 'display()'
+    'body': 'display'
   'elevation':
     'prefix': 'elevation'
-    'body': 'elevation()'
+    'body': 'elevation'
   'emptyCells':
     'prefix': 'emptyCells'
-    'body': 'emptyCells()'
+    'body': 'emptyCells'
   'font':
     'prefix': 'font'
-    'body': 'font()'
+    'body': 'font'
   'fontFamily':
     'prefix': 'fontFamily'
-    'body': 'fontFamily()'
+    'body': 'fontFamily'
   'fontSize':
     'prefix': 'fontSize'
-    'body': 'fontSize()'
+    'body': 'fontSize'
   'fontSizeAdjust':
     'prefix': 'fontSizeAdjust'
-    'body': 'fontSizeAdjust()'
+    'body': 'fontSizeAdjust'
   'fontStretch':
     'prefix': 'fontStretch'
-    'body': 'fontStretch()'
+    'body': 'fontStretch'
   'fontStyle':
     'prefix': 'fontStyle'
-    'body': 'fontStyle()'
+    'body': 'fontStyle'
   'fontVariant':
     'prefix': 'fontVariant'
-    'body': 'fontVariant()'
+    'body': 'fontVariant'
   'fontWeight':
     'prefix': 'fontWeight'
-    'body': 'fontWeight()'
+    'body': 'fontWeight'
   'getPropertyCSSValue:':
     'prefix': 'getPropertyCSSValue:'
     'body': 'getPropertyCSSValue(${1:NSString* propertyName})'
@@ -1705,7 +1741,7 @@
     'body': 'getPropertyValue(${1:NSString* propertyName})'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'isPropertyImplicit:':
     'prefix': 'isPropertyImplicit:'
     'body': 'isPropertyImplicit(${1:NSString* propertyName})'
@@ -1714,142 +1750,142 @@
     'body': 'item(${1:unsigned int index})'
   'left':
     'prefix': 'left'
-    'body': 'left()'
+    'body': 'left'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'letterSpacing':
     'prefix': 'letterSpacing'
-    'body': 'letterSpacing()'
+    'body': 'letterSpacing'
   'lineHeight':
     'prefix': 'lineHeight'
-    'body': 'lineHeight()'
+    'body': 'lineHeight'
   'listStyle':
     'prefix': 'listStyle'
-    'body': 'listStyle()'
+    'body': 'listStyle'
   'listStyleImage':
     'prefix': 'listStyleImage'
-    'body': 'listStyleImage()'
+    'body': 'listStyleImage'
   'listStylePosition':
     'prefix': 'listStylePosition'
-    'body': 'listStylePosition()'
+    'body': 'listStylePosition'
   'listStyleType':
     'prefix': 'listStyleType'
-    'body': 'listStyleType()'
+    'body': 'listStyleType'
   'margin':
     'prefix': 'margin'
-    'body': 'margin()'
+    'body': 'margin'
   'marginBottom':
     'prefix': 'marginBottom'
-    'body': 'marginBottom()'
+    'body': 'marginBottom'
   'marginLeft':
     'prefix': 'marginLeft'
-    'body': 'marginLeft()'
+    'body': 'marginLeft'
   'marginRight':
     'prefix': 'marginRight'
-    'body': 'marginRight()'
+    'body': 'marginRight'
   'marginTop':
     'prefix': 'marginTop'
-    'body': 'marginTop()'
+    'body': 'marginTop'
   'markerOffset':
     'prefix': 'markerOffset'
-    'body': 'markerOffset()'
+    'body': 'markerOffset'
   'marks':
     'prefix': 'marks'
-    'body': 'marks()'
+    'body': 'marks'
   'maxHeight':
     'prefix': 'maxHeight'
-    'body': 'maxHeight()'
+    'body': 'maxHeight'
   'maxWidth':
     'prefix': 'maxWidth'
-    'body': 'maxWidth()'
+    'body': 'maxWidth'
   'minHeight':
     'prefix': 'minHeight'
-    'body': 'minHeight()'
+    'body': 'minHeight'
   'minWidth':
     'prefix': 'minWidth'
-    'body': 'minWidth()'
+    'body': 'minWidth'
   'orphans':
     'prefix': 'orphans'
-    'body': 'orphans()'
+    'body': 'orphans'
   'outline':
     'prefix': 'outline'
-    'body': 'outline()'
+    'body': 'outline'
   'outlineColor':
     'prefix': 'outlineColor'
-    'body': 'outlineColor()'
+    'body': 'outlineColor'
   'outlineStyle':
     'prefix': 'outlineStyle'
-    'body': 'outlineStyle()'
+    'body': 'outlineStyle'
   'outlineWidth':
     'prefix': 'outlineWidth'
-    'body': 'outlineWidth()'
+    'body': 'outlineWidth'
   'overflow':
     'prefix': 'overflow'
-    'body': 'overflow()'
+    'body': 'overflow'
   'padding':
     'prefix': 'padding'
-    'body': 'padding()'
+    'body': 'padding'
   'paddingBottom':
     'prefix': 'paddingBottom'
-    'body': 'paddingBottom()'
+    'body': 'paddingBottom'
   'paddingLeft':
     'prefix': 'paddingLeft'
-    'body': 'paddingLeft()'
+    'body': 'paddingLeft'
   'paddingRight':
     'prefix': 'paddingRight'
-    'body': 'paddingRight()'
+    'body': 'paddingRight'
   'paddingTop':
     'prefix': 'paddingTop'
-    'body': 'paddingTop()'
+    'body': 'paddingTop'
   'page':
     'prefix': 'page'
-    'body': 'page()'
+    'body': 'page'
   'pageBreakAfter':
     'prefix': 'pageBreakAfter'
-    'body': 'pageBreakAfter()'
+    'body': 'pageBreakAfter'
   'pageBreakBefore':
     'prefix': 'pageBreakBefore'
-    'body': 'pageBreakBefore()'
+    'body': 'pageBreakBefore'
   'pageBreakInside':
     'prefix': 'pageBreakInside'
-    'body': 'pageBreakInside()'
+    'body': 'pageBreakInside'
   'parentRule':
     'prefix': 'parentRule'
-    'body': 'parentRule()'
+    'body': 'parentRule'
   'pause':
     'prefix': 'pause'
-    'body': 'pause()'
+    'body': 'pause'
   'pauseAfter':
     'prefix': 'pauseAfter'
-    'body': 'pauseAfter()'
+    'body': 'pauseAfter'
   'pauseBefore':
     'prefix': 'pauseBefore'
-    'body': 'pauseBefore()'
+    'body': 'pauseBefore'
   'pitch':
     'prefix': 'pitch'
-    'body': 'pitch()'
+    'body': 'pitch'
   'pitchRange':
     'prefix': 'pitchRange'
-    'body': 'pitchRange()'
+    'body': 'pitchRange'
   'playDuring':
     'prefix': 'playDuring'
-    'body': 'playDuring()'
+    'body': 'playDuring'
   'position':
     'prefix': 'position'
-    'body': 'position()'
+    'body': 'position'
   'quotes':
     'prefix': 'quotes'
-    'body': 'quotes()'
+    'body': 'quotes'
   'removeProperty:':
     'prefix': 'removeProperty:'
     'body': 'removeProperty(${1:NSString* propertyName})'
   'richness':
     'prefix': 'richness'
-    'body': 'richness()'
+    'body': 'richness'
   'right':
     'prefix': 'right'
-    'body': 'right()'
+    'body': 'right'
   'setAzimuth:':
     'prefix': 'setAzimuth:'
     'body': 'setAzimuth(${1:NSString* azimuth})'
@@ -2227,91 +2263,97 @@
     'body': 'setZIndex(${1:NSString* zIndex})'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
   'speak':
     'prefix': 'speak'
-    'body': 'speak()'
+    'body': 'speak'
   'speakHeader':
     'prefix': 'speakHeader'
-    'body': 'speakHeader()'
+    'body': 'speakHeader'
   'speakNumeral':
     'prefix': 'speakNumeral'
-    'body': 'speakNumeral()'
+    'body': 'speakNumeral'
   'speakPunctuation':
     'prefix': 'speakPunctuation'
-    'body': 'speakPunctuation()'
+    'body': 'speakPunctuation'
   'speechRate':
     'prefix': 'speechRate'
-    'body': 'speechRate()'
+    'body': 'speechRate'
   'stress':
     'prefix': 'stress'
-    'body': 'stress()'
+    'body': 'stress'
   'tableLayout':
     'prefix': 'tableLayout'
-    'body': 'tableLayout()'
+    'body': 'tableLayout'
   'textAlign':
     'prefix': 'textAlign'
-    'body': 'textAlign()'
+    'body': 'textAlign'
   'textDecoration':
     'prefix': 'textDecoration'
-    'body': 'textDecoration()'
+    'body': 'textDecoration'
   'textIndent':
     'prefix': 'textIndent'
-    'body': 'textIndent()'
+    'body': 'textIndent'
   'textShadow':
     'prefix': 'textShadow'
-    'body': 'textShadow()'
+    'body': 'textShadow'
   'textTransform':
     'prefix': 'textTransform'
-    'body': 'textTransform()'
+    'body': 'textTransform'
   'top':
     'prefix': 'top'
-    'body': 'top()'
+    'body': 'top'
   'unicodeBidi':
     'prefix': 'unicodeBidi'
-    'body': 'unicodeBidi()'
+    'body': 'unicodeBidi'
   'verticalAlign':
     'prefix': 'verticalAlign'
-    'body': 'verticalAlign()'
+    'body': 'verticalAlign'
   'visibility':
     'prefix': 'visibility'
-    'body': 'visibility()'
+    'body': 'visibility'
   'voiceFamily':
     'prefix': 'voiceFamily'
-    'body': 'voiceFamily()'
+    'body': 'voiceFamily'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
   'whiteSpace':
     'prefix': 'whiteSpace'
-    'body': 'whiteSpace()'
+    'body': 'whiteSpace'
   'widows':
     'prefix': 'widows'
-    'body': 'widows()'
+    'body': 'widows'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
   'wordSpacing':
     'prefix': 'wordSpacing'
-    'body': 'wordSpacing()'
+    'body': 'wordSpacing'
   'zIndex':
     'prefix': 'zIndex'
-    'body': 'zIndex()'
+    'body': 'zIndex'
+  'DOMCSSStyleRule':
+    'prefix': 'DOMCSSStyleRule'
+    'body': 'DOMCSSStyleRule'
   'selectorText':
     'prefix': 'selectorText'
-    'body': 'selectorText()'
+    'body': 'selectorText'
   'setSelectorText:':
     'prefix': 'setSelectorText:'
     'body': 'setSelectorText(${1:NSString* selectorText})'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
+  'DOMCSSStyleSheet':
+    'prefix': 'DOMCSSStyleSheet'
+    'body': 'DOMCSSStyleSheet'
   'addRule:style:index:':
     'prefix': 'addRule:style:index:'
     'body': 'addRule(${1:NSString* selector}, style:${2:NSString* style}, index:${3:unsigned int index})'
   'cssRules':
     'prefix': 'cssRules'
-    'body': 'cssRules()'
+    'body': 'cssRules'
   'deleteRule:':
     'prefix': 'deleteRule:'
     'body': 'deleteRule(${1:unsigned int index})'
@@ -2323,34 +2365,43 @@
     'body': 'insertRule(${1:NSString* rule}, index:${2:unsigned int index})'
   'ownerRule':
     'prefix': 'ownerRule'
-    'body': 'ownerRule()'
+    'body': 'ownerRule'
   'removeRule:':
     'prefix': 'removeRule:'
     'body': 'removeRule(${1:unsigned int index})'
   'rules':
     'prefix': 'rules'
-    'body': 'rules()'
+    'body': 'rules'
+  'DOMCSSValue':
+    'prefix': 'DOMCSSValue'
+    'body': 'DOMCSSValue'
   'cssText':
     'prefix': 'cssText'
-    'body': 'cssText()'
+    'body': 'cssText'
   'cssValueType':
     'prefix': 'cssValueType'
-    'body': 'cssValueType()'
+    'body': 'cssValueType'
   'setCssText:':
     'prefix': 'setCssText:'
     'body': 'setCssText(${1:NSString* cssText})'
+  'DOMCSSValueList':
+    'prefix': 'DOMCSSValueList'
+    'body': 'DOMCSSValueList'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
+  'DOMCharacterData':
+    'prefix': 'DOMCharacterData'
+    'body': 'DOMCharacterData'
   'appendData:':
     'prefix': 'appendData:'
     'body': 'appendData(${1:NSString* data})'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'deleteData::':
     'prefix': 'deleteData::'
     'body': 'deleteData(${1:unsigned int offset}, :${2:unsigned int length})'
@@ -2365,7 +2416,7 @@
     'body': 'insertData(${1:unsigned int offset}, data:${2:NSString* data})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'replaceData:::':
     'prefix': 'replaceData:::'
     'body': 'replaceData(${1:unsigned int offset}, :${2:unsigned int length}, :${3:NSString* data})'
@@ -2381,18 +2432,24 @@
   'substringData:length:':
     'prefix': 'substringData:length:'
     'body': 'substringData(${1:unsigned int offset}, length:${2:unsigned int length})'
+  'DOMCounter':
+    'prefix': 'DOMCounter'
+    'body': 'DOMCounter'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'listStyle':
     'prefix': 'listStyle'
-    'body': 'listStyle()'
+    'body': 'listStyle'
   'separator':
     'prefix': 'separator'
-    'body': 'separator()'
+    'body': 'separator'
+  'DOMDocument':
+    'prefix': 'DOMDocument'
+    'body': 'DOMDocument'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'URLWithAttributeString:':
     'prefix': 'URLWithAttributeString:'
     'body': 'URLWithAttributeString(${1:NSString* string})'
@@ -2401,22 +2458,22 @@
     'body': 'adoptNode(${1:DOMNode* source})'
   'anchors':
     'prefix': 'anchors'
-    'body': 'anchors()'
+    'body': 'anchors'
   'applets':
     'prefix': 'applets'
-    'body': 'applets()'
+    'body': 'applets'
   'body':
     'prefix': 'body'
-    'body': 'body()'
+    'body': 'body'
   'characterSet':
     'prefix': 'characterSet'
-    'body': 'characterSet()'
+    'body': 'characterSet'
   'charset':
     'prefix': 'charset'
-    'body': 'charset()'
+    'body': 'charset'
   'cookie':
     'prefix': 'cookie'
-    'body': 'cookie()'
+    'body': 'cookie'
   'createAttribute:':
     'prefix': 'createAttribute:'
     'body': 'createAttribute(${1:NSString* name})'
@@ -2431,13 +2488,13 @@
     'body': 'createCDATASection(${1:NSString* data})'
   'createCSSStyleDeclaration':
     'prefix': 'createCSSStyleDeclaration'
-    'body': 'createCSSStyleDeclaration()'
+    'body': 'createCSSStyleDeclaration'
   'createComment:':
     'prefix': 'createComment:'
     'body': 'createComment(${1:NSString* data})'
   'createDocumentFragment':
     'prefix': 'createDocumentFragment'
-    'body': 'createDocumentFragment()'
+    'body': 'createDocumentFragment'
   'createElement:':
     'prefix': 'createElement:'
     'body': 'createElement(${1:NSString* tagName})'
@@ -2476,7 +2533,7 @@
     'body': 'createProcessingInstruction(${1:NSString* target}, data:${2:NSString* data})'
   'createRange':
     'prefix': 'createRange'
-    'body': 'createRange()'
+    'body': 'createRange'
   'createTextNode:':
     'prefix': 'createTextNode:'
     'body': 'createTextNode(${1:NSString* data})'
@@ -2488,22 +2545,22 @@
     'body': 'createTreeWalker(${1:DOMNode* root}, whatToShow:${2:unsigned int whatToShow}, filter:${3:id filter}, expandEntityReferences:${4:BOOL expandEntityReferences})'
   'defaultCharset':
     'prefix': 'defaultCharset'
-    'body': 'defaultCharset()'
+    'body': 'defaultCharset'
   'defaultView':
     'prefix': 'defaultView'
-    'body': 'defaultView()'
+    'body': 'defaultView'
   'doctype':
     'prefix': 'doctype'
-    'body': 'doctype()'
+    'body': 'doctype'
   'documentElement':
     'prefix': 'documentElement'
-    'body': 'documentElement()'
+    'body': 'documentElement'
   'documentURI':
     'prefix': 'documentURI'
-    'body': 'documentURI()'
+    'body': 'documentURI'
   'domain':
     'prefix': 'domain'
-    'body': 'domain()'
+    'body': 'domain'
   'elementFromPoint:y:':
     'prefix': 'elementFromPoint:y:'
     'body': 'elementFromPoint(${1:int x}, y:${2:int y})'
@@ -2524,7 +2581,7 @@
     'body': 'execCommand(${1:NSString* command}, userInterface:${2:BOOL userInterface}, value:${3:NSString* value})'
   'forms':
     'prefix': 'forms'
-    'body': 'forms()'
+    'body': 'forms'
   'getComputedStyle::':
     'prefix': 'getComputedStyle::'
     'body': 'getComputedStyle(${1:DOMElement* element}, :${2:NSString* pseudoElement})'
@@ -2563,10 +2620,10 @@
     'body': 'getOverrideStyle(${1:DOMElement* element}, pseudoElement:${2:NSString* pseudoElement})'
   'images':
     'prefix': 'images'
-    'body': 'images()'
+    'body': 'images'
   'implementation':
     'prefix': 'implementation'
-    'body': 'implementation()'
+    'body': 'implementation'
   'importNode::':
     'prefix': 'importNode::'
     'body': 'importNode(${1:DOMNode* importedNode}, :${2:BOOL deep})'
@@ -2575,16 +2632,16 @@
     'body': 'importNode(${1:DOMNode* importedNode}, deep:${2:BOOL deep})'
   'inputEncoding':
     'prefix': 'inputEncoding'
-    'body': 'inputEncoding()'
+    'body': 'inputEncoding'
   'lastModified':
     'prefix': 'lastModified'
-    'body': 'lastModified()'
+    'body': 'lastModified'
   'links':
     'prefix': 'links'
-    'body': 'links()'
+    'body': 'links'
   'preferredStylesheetSet':
     'prefix': 'preferredStylesheetSet'
-    'body': 'preferredStylesheetSet()'
+    'body': 'preferredStylesheetSet'
   'queryCommandEnabled:':
     'prefix': 'queryCommandEnabled:'
     'body': 'queryCommandEnabled(${1:NSString* command})'
@@ -2608,13 +2665,13 @@
     'body': 'querySelectorAll(${1:NSString* selectors})'
   'readyState':
     'prefix': 'readyState'
-    'body': 'readyState()'
+    'body': 'readyState'
   'referrer':
     'prefix': 'referrer'
-    'body': 'referrer()'
+    'body': 'referrer'
   'selectedStylesheetSet':
     'prefix': 'selectedStylesheetSet'
-    'body': 'selectedStylesheetSet()'
+    'body': 'selectedStylesheetSet'
   'setBody:':
     'prefix': 'setBody:'
     'body': 'setBody(${1:DOMHTMLElement* body})'
@@ -2641,70 +2698,76 @@
     'body': 'setXmlVersion(${1:NSString* xmlVersion})'
   'styleSheets':
     'prefix': 'styleSheets'
-    'body': 'styleSheets()'
+    'body': 'styleSheets'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'webFrame':
     'prefix': 'webFrame'
-    'body': 'webFrame()'
+    'body': 'webFrame'
   'webkitCancelFullScreen':
     'prefix': 'webkitCancelFullScreen'
-    'body': 'webkitCancelFullScreen()'
+    'body': 'webkitCancelFullScreen'
   'xmlEncoding':
     'prefix': 'xmlEncoding'
-    'body': 'xmlEncoding()'
+    'body': 'xmlEncoding'
   'xmlStandalone':
     'prefix': 'xmlStandalone'
-    'body': 'xmlStandalone()'
+    'body': 'xmlStandalone'
   'xmlVersion':
     'prefix': 'xmlVersion'
-    'body': 'xmlVersion()'
+    'body': 'xmlVersion'
+  'DOMDocumentType':
+    'prefix': 'DOMDocumentType'
+    'body': 'DOMDocumentType'
   'entities':
     'prefix': 'entities'
-    'body': 'entities()'
+    'body': 'entities'
   'internalSubset':
     'prefix': 'internalSubset'
-    'body': 'internalSubset()'
+    'body': 'internalSubset'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'notations':
     'prefix': 'notations'
-    'body': 'notations()'
+    'body': 'notations'
   'publicId':
     'prefix': 'publicId'
-    'body': 'publicId()'
+    'body': 'publicId'
   'systemId':
     'prefix': 'systemId'
-    'body': 'systemId()'
+    'body': 'systemId'
+  'DOMElement':
+    'prefix': 'DOMElement'
+    'body': 'DOMElement'
   'blur':
     'prefix': 'blur'
-    'body': 'blur()'
+    'body': 'blur'
   'childElementCount':
     'prefix': 'childElementCount'
-    'body': 'childElementCount()'
+    'body': 'childElementCount'
   'className':
     'prefix': 'className'
-    'body': 'className()'
+    'body': 'className'
   'clientHeight':
     'prefix': 'clientHeight'
-    'body': 'clientHeight()'
+    'body': 'clientHeight'
   'clientLeft':
     'prefix': 'clientLeft'
-    'body': 'clientLeft()'
+    'body': 'clientLeft'
   'clientTop':
     'prefix': 'clientTop'
-    'body': 'clientTop()'
+    'body': 'clientTop'
   'clientWidth':
     'prefix': 'clientWidth'
-    'body': 'clientWidth()'
+    'body': 'clientWidth'
   'firstElementChild':
     'prefix': 'firstElementChild'
-    'body': 'firstElementChild()'
+    'body': 'firstElementChild'
   'focus':
     'prefix': 'focus'
-    'body': 'focus()'
+    'body': 'focus'
   'getAttribute:':
     'prefix': 'getAttribute:'
     'body': 'getAttribute(${1:NSString* name})'
@@ -2746,34 +2809,34 @@
     'body': 'hasAttributeNS(${1:NSString* namespaceURI}, localName:${2:NSString* localName})'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'innerText':
     'prefix': 'innerText'
-    'body': 'innerText()'
+    'body': 'innerText'
   'lastElementChild':
     'prefix': 'lastElementChild'
-    'body': 'lastElementChild()'
+    'body': 'lastElementChild'
   'nextElementSibling':
     'prefix': 'nextElementSibling'
-    'body': 'nextElementSibling()'
+    'body': 'nextElementSibling'
   'offsetHeight':
     'prefix': 'offsetHeight'
-    'body': 'offsetHeight()'
+    'body': 'offsetHeight'
   'offsetLeft':
     'prefix': 'offsetLeft'
-    'body': 'offsetLeft()'
+    'body': 'offsetLeft'
   'offsetParent':
     'prefix': 'offsetParent'
-    'body': 'offsetParent()'
+    'body': 'offsetParent'
   'offsetTop':
     'prefix': 'offsetTop'
-    'body': 'offsetTop()'
+    'body': 'offsetTop'
   'offsetWidth':
     'prefix': 'offsetWidth'
-    'body': 'offsetWidth()'
+    'body': 'offsetWidth'
   'previousElementSibling':
     'prefix': 'previousElementSibling'
-    'body': 'previousElementSibling()'
+    'body': 'previousElementSibling'
   'querySelector:':
     'prefix': 'querySelector:'
     'body': 'querySelector(${1:NSString* selectors})'
@@ -2800,7 +2863,7 @@
     'body': 'scrollByPages(${1:int pages})'
   'scrollHeight':
     'prefix': 'scrollHeight'
-    'body': 'scrollHeight()'
+    'body': 'scrollHeight'
   'scrollIntoView:':
     'prefix': 'scrollIntoView:'
     'body': 'scrollIntoView(${1:BOOL alignWithTop})'
@@ -2809,13 +2872,13 @@
     'body': 'scrollIntoViewIfNeeded(${1:BOOL centerIfNeeded})'
   'scrollLeft':
     'prefix': 'scrollLeft'
-    'body': 'scrollLeft()'
+    'body': 'scrollLeft'
   'scrollTop':
     'prefix': 'scrollTop'
-    'body': 'scrollTop()'
+    'body': 'scrollTop'
   'scrollWidth':
     'prefix': 'scrollWidth'
-    'body': 'scrollWidth()'
+    'body': 'scrollWidth'
   'setAttribute::':
     'prefix': 'setAttribute::'
     'body': 'setAttribute(${1:NSString* name}, :${2:NSString* value})'
@@ -2845,37 +2908,43 @@
     'body': 'setScrollTop(${1:int scrollTop})'
   'style':
     'prefix': 'style'
-    'body': 'style()'
+    'body': 'style'
   'tagName':
     'prefix': 'tagName'
-    'body': 'tagName()'
+    'body': 'tagName'
   'webkitRequestFullScreen:':
     'prefix': 'webkitRequestFullScreen:'
     'body': 'webkitRequestFullScreen(${1:unsigned short flags})'
+  'DOMEntity':
+    'prefix': 'DOMEntity'
+    'body': 'DOMEntity'
   'notationName':
     'prefix': 'notationName'
-    'body': 'notationName()'
+    'body': 'notationName'
   'publicId':
     'prefix': 'publicId'
-    'body': 'publicId()'
+    'body': 'publicId'
   'systemId':
     'prefix': 'systemId'
-    'body': 'systemId()'
+    'body': 'systemId'
+  'DOMEvent':
+    'prefix': 'DOMEvent'
+    'body': 'DOMEvent'
   'bubbles':
     'prefix': 'bubbles'
-    'body': 'bubbles()'
+    'body': 'bubbles'
   'cancelBubble':
     'prefix': 'cancelBubble'
-    'body': 'cancelBubble()'
+    'body': 'cancelBubble'
   'cancelable':
     'prefix': 'cancelable'
-    'body': 'cancelable()'
+    'body': 'cancelable'
   'currentTarget':
     'prefix': 'currentTarget'
-    'body': 'currentTarget()'
+    'body': 'currentTarget'
   'eventPhase':
     'prefix': 'eventPhase'
-    'body': 'eventPhase()'
+    'body': 'eventPhase'
   'initEvent:::':
     'prefix': 'initEvent:::'
     'body': 'initEvent(${1:NSString* eventTypeArg}, :${2:BOOL canBubbleArg}, :${3:BOOL cancelableArg})'
@@ -2884,10 +2953,10 @@
     'body': 'initEvent(${1:NSString* eventTypeArg}, canBubbleArg:${2:BOOL canBubbleArg}, cancelableArg:${3:BOOL cancelableArg})'
   'preventDefault':
     'prefix': 'preventDefault'
-    'body': 'preventDefault()'
+    'body': 'preventDefault'
   'returnValue':
     'prefix': 'returnValue'
-    'body': 'returnValue()'
+    'body': 'returnValue'
   'setCancelBubble:':
     'prefix': 'setCancelBubble:'
     'body': 'setCancelBubble(${1:BOOL cancelBubble})'
@@ -2896,76 +2965,85 @@
     'body': 'setReturnValue(${1:BOOL returnValue})'
   'srcElement':
     'prefix': 'srcElement'
-    'body': 'srcElement()'
+    'body': 'srcElement'
   'stopPropagation':
     'prefix': 'stopPropagation'
-    'body': 'stopPropagation()'
+    'body': 'stopPropagation'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
   'timeStamp':
     'prefix': 'timeStamp'
-    'body': 'timeStamp()'
+    'body': 'timeStamp'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMFile':
+    'prefix': 'DOMFile'
+    'body': 'DOMFile'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
+  'DOMFileList':
+    'prefix': 'DOMFileList'
+    'body': 'DOMFileList'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
+  'DOMHTMLAnchorElement':
+    'prefix': 'DOMHTMLAnchorElement'
+    'body': 'DOMHTMLAnchorElement'
   'absoluteLinkURL':
     'prefix': 'absoluteLinkURL'
-    'body': 'absoluteLinkURL()'
+    'body': 'absoluteLinkURL'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'charset':
     'prefix': 'charset'
-    'body': 'charset()'
+    'body': 'charset'
   'coords':
     'prefix': 'coords'
-    'body': 'coords()'
+    'body': 'coords'
   'hashName':
     'prefix': 'hashName'
-    'body': 'hashName()'
+    'body': 'hashName'
   'host':
     'prefix': 'host'
-    'body': 'host()'
+    'body': 'host'
   'hostname':
     'prefix': 'hostname'
-    'body': 'hostname()'
+    'body': 'hostname'
   'href':
     'prefix': 'href'
-    'body': 'href()'
+    'body': 'href'
   'hreflang':
     'prefix': 'hreflang'
-    'body': 'hreflang()'
+    'body': 'hreflang'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'pathname':
     'prefix': 'pathname'
-    'body': 'pathname()'
+    'body': 'pathname'
   'port':
     'prefix': 'port'
-    'body': 'port()'
+    'body': 'port'
   'protocol':
     'prefix': 'protocol'
-    'body': 'protocol()'
+    'body': 'protocol'
   'rel':
     'prefix': 'rel'
-    'body': 'rel()'
+    'body': 'rel'
   'rev':
     'prefix': 'rev'
-    'body': 'rev()'
+    'body': 'rev'
   'search':
     'prefix': 'search'
-    'body': 'search()'
+    'body': 'search'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
@@ -3001,43 +3079,46 @@
     'body': 'setType(${1:NSString* type})'
   'shape':
     'prefix': 'shape'
-    'body': 'shape()'
+    'body': 'shape'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
   'text':
     'prefix': 'text'
-    'body': 'text()'
+    'body': 'text'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMHTMLAppletElement':
+    'prefix': 'DOMHTMLAppletElement'
+    'body': 'DOMHTMLAppletElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'alt':
     'prefix': 'alt'
-    'body': 'alt()'
+    'body': 'alt'
   'archive':
     'prefix': 'archive'
-    'body': 'archive()'
+    'body': 'archive'
   'code':
     'prefix': 'code'
-    'body': 'code()'
+    'body': 'code'
   'codeBase':
     'prefix': 'codeBase'
-    'body': 'codeBase()'
+    'body': 'codeBase'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'hspace':
     'prefix': 'hspace'
-    'body': 'hspace()'
+    'body': 'hspace'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'object':
     'prefix': 'object'
-    'body': 'object()'
+    'body': 'object'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -3073,49 +3154,52 @@
     'body': 'setWidth(${1:NSString* width})'
   'vspace':
     'prefix': 'vspace'
-    'body': 'vspace()'
+    'body': 'vspace'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLAreaElement':
+    'prefix': 'DOMHTMLAreaElement'
+    'body': 'DOMHTMLAreaElement'
   'absoluteLinkURL':
     'prefix': 'absoluteLinkURL'
-    'body': 'absoluteLinkURL()'
+    'body': 'absoluteLinkURL'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'alt':
     'prefix': 'alt'
-    'body': 'alt()'
+    'body': 'alt'
   'coords':
     'prefix': 'coords'
-    'body': 'coords()'
+    'body': 'coords'
   'hashName':
     'prefix': 'hashName'
-    'body': 'hashName()'
+    'body': 'hashName'
   'host':
     'prefix': 'host'
-    'body': 'host()'
+    'body': 'host'
   'hostname':
     'prefix': 'hostname'
-    'body': 'hostname()'
+    'body': 'hostname'
   'href':
     'prefix': 'href'
-    'body': 'href()'
+    'body': 'href'
   'noHref':
     'prefix': 'noHref'
-    'body': 'noHref()'
+    'body': 'noHref'
   'pathname':
     'prefix': 'pathname'
-    'body': 'pathname()'
+    'body': 'pathname'
   'port':
     'prefix': 'port'
-    'body': 'port()'
+    'body': 'port'
   'protocol':
     'prefix': 'protocol'
-    'body': 'protocol()'
+    'body': 'protocol'
   'search':
     'prefix': 'search'
-    'body': 'search()'
+    'body': 'search'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
@@ -3139,19 +3223,25 @@
     'body': 'setTarget(${1:NSString* target})'
   'shape':
     'prefix': 'shape'
-    'body': 'shape()'
+    'body': 'shape'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
+  'DOMHTMLBRElement':
+    'prefix': 'DOMHTMLBRElement'
+    'body': 'DOMHTMLBRElement'
   'clear':
     'prefix': 'clear'
-    'body': 'clear()'
+    'body': 'clear'
   'setClear:':
     'prefix': 'setClear:'
     'body': 'setClear(${1:NSString* clear})'
+  'DOMHTMLBaseElement':
+    'prefix': 'DOMHTMLBaseElement'
+    'body': 'DOMHTMLBaseElement'
   'href':
     'prefix': 'href'
-    'body': 'href()'
+    'body': 'href'
   'setHref:':
     'prefix': 'setHref:'
     'body': 'setHref(${1:NSString* href})'
@@ -3160,13 +3250,16 @@
     'body': 'setTarget(${1:NSString* target})'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
+  'DOMHTMLBaseFontElement':
+    'prefix': 'DOMHTMLBaseFontElement'
+    'body': 'DOMHTMLBaseFontElement'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'face':
     'prefix': 'face'
-    'body': 'face()'
+    'body': 'face'
   'setColor:':
     'prefix': 'setColor:'
     'body': 'setColor(${1:NSString* color})'
@@ -3178,19 +3271,22 @@
     'body': 'setSize(${1:NSString* size})'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
+  'DOMHTMLBodyElement':
+    'prefix': 'DOMHTMLBodyElement'
+    'body': 'DOMHTMLBodyElement'
   'aLink':
     'prefix': 'aLink'
-    'body': 'aLink()'
+    'body': 'aLink'
   'background':
     'prefix': 'background'
-    'body': 'background()'
+    'body': 'background'
   'bgColor':
     'prefix': 'bgColor'
-    'body': 'bgColor()'
+    'body': 'bgColor'
   'link':
     'prefix': 'link'
-    'body': 'link()'
+    'body': 'link'
   'setALink:':
     'prefix': 'setALink:'
     'body': 'setALink(${1:NSString* aLink})'
@@ -3211,28 +3307,31 @@
     'body': 'setVLink(${1:NSString* vLink})'
   'text':
     'prefix': 'text'
-    'body': 'text()'
+    'body': 'text'
   'vLink':
     'prefix': 'vLink'
-    'body': 'vLink()'
+    'body': 'vLink'
+  'DOMHTMLButtonElement':
+    'prefix': 'DOMHTMLButtonElement'
+    'body': 'DOMHTMLButtonElement'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'autofocus':
     'prefix': 'autofocus'
-    'body': 'autofocus()'
+    'body': 'autofocus'
   'click':
     'prefix': 'click'
-    'body': 'click()'
+    'body': 'click'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
@@ -3253,64 +3352,79 @@
     'body': 'setValue(${1:NSString* value})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'willValidate':
     'prefix': 'willValidate'
-    'body': 'willValidate()'
+    'body': 'willValidate'
+  'DOMHTMLCollection':
+    'prefix': 'DOMHTMLCollection'
+    'body': 'DOMHTMLCollection'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'namedItem:':
     'prefix': 'namedItem:'
     'body': 'namedItem(${1:NSString* name})'
   'tags:':
     'prefix': 'tags:'
     'body': 'tags(${1:NSString* name})'
+  'DOMHTMLDListElement':
+    'prefix': 'DOMHTMLDListElement'
+    'body': 'DOMHTMLDListElement'
   'compact':
     'prefix': 'compact'
-    'body': 'compact()'
+    'body': 'compact'
   'setCompact:':
     'prefix': 'setCompact:'
     'body': 'setCompact(${1:BOOL compact})'
+  'DOMHTMLDirectoryElement':
+    'prefix': 'DOMHTMLDirectoryElement'
+    'body': 'DOMHTMLDirectoryElement'
   'compact':
     'prefix': 'compact'
-    'body': 'compact()'
+    'body': 'compact'
   'setCompact:':
     'prefix': 'setCompact:'
     'body': 'setCompact(${1:BOOL compact})'
+  'DOMHTMLDivElement':
+    'prefix': 'DOMHTMLDivElement'
+    'body': 'DOMHTMLDivElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
+  'DOMHTMLDocument':
+    'prefix': 'DOMHTMLDocument'
+    'body': 'DOMHTMLDocument'
   'activeElement':
     'prefix': 'activeElement'
-    'body': 'activeElement()'
+    'body': 'activeElement'
   'alinkColor':
     'prefix': 'alinkColor'
-    'body': 'alinkColor()'
+    'body': 'alinkColor'
   'bgColor':
     'prefix': 'bgColor'
-    'body': 'bgColor()'
+    'body': 'bgColor'
   'captureEvents':
     'prefix': 'captureEvents'
-    'body': 'captureEvents()'
+    'body': 'captureEvents'
   'clear':
     'prefix': 'clear'
-    'body': 'clear()'
+    'body': 'clear'
   'close':
     'prefix': 'close'
-    'body': 'close()'
+    'body': 'close'
   'compatMode':
     'prefix': 'compatMode'
-    'body': 'compatMode()'
+    'body': 'compatMode'
   'createDocumentFragmentWithMarkupString:baseURL:':
     'prefix': 'createDocumentFragmentWithMarkupString:baseURL:'
     'body': 'createDocumentFragmentWithMarkupString(${1:NSString* markupString}, baseURL:${2:NSURL* baseURL})'
@@ -3319,37 +3433,37 @@
     'body': 'createDocumentFragmentWithText(${1:NSString* text})'
   'designMode':
     'prefix': 'designMode'
-    'body': 'designMode()'
+    'body': 'designMode'
   'dir':
     'prefix': 'dir'
-    'body': 'dir()'
+    'body': 'dir'
   'embeds':
     'prefix': 'embeds'
-    'body': 'embeds()'
+    'body': 'embeds'
   'fgColor':
     'prefix': 'fgColor'
-    'body': 'fgColor()'
+    'body': 'fgColor'
   'hasFocus':
     'prefix': 'hasFocus'
-    'body': 'hasFocus()'
+    'body': 'hasFocus'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'linkColor':
     'prefix': 'linkColor'
-    'body': 'linkColor()'
+    'body': 'linkColor'
   'open':
     'prefix': 'open'
-    'body': 'open()'
+    'body': 'open'
   'plugins':
     'prefix': 'plugins'
-    'body': 'plugins()'
+    'body': 'plugins'
   'releaseEvents':
     'prefix': 'releaseEvents'
-    'body': 'releaseEvents()'
+    'body': 'releaseEvents'
   'scripts':
     'prefix': 'scripts'
-    'body': 'scripts()'
+    'body': 'scripts'
   'setAlinkColor:':
     'prefix': 'setAlinkColor:'
     'body': 'setAlinkColor(${1:NSString* alinkColor})'
@@ -3373,52 +3487,55 @@
     'body': 'setVlinkColor(${1:NSString* vlinkColor})'
   'vlinkColor':
     'prefix': 'vlinkColor'
-    'body': 'vlinkColor()'
+    'body': 'vlinkColor'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
   'write:':
     'prefix': 'write:'
     'body': 'write(${1:NSString* text})'
   'writeln:':
     'prefix': 'writeln:'
     'body': 'writeln(${1:NSString* text})'
+  'DOMHTMLElement':
+    'prefix': 'DOMHTMLElement'
+    'body': 'DOMHTMLElement'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'children':
     'prefix': 'children'
-    'body': 'children()'
+    'body': 'children'
   'click':
     'prefix': 'click'
-    'body': 'click()'
+    'body': 'click'
   'contentEditable':
     'prefix': 'contentEditable'
-    'body': 'contentEditable()'
+    'body': 'contentEditable'
   'dir':
     'prefix': 'dir'
-    'body': 'dir()'
+    'body': 'dir'
   'idName':
     'prefix': 'idName'
-    'body': 'idName()'
+    'body': 'idName'
   'innerHTML':
     'prefix': 'innerHTML'
-    'body': 'innerHTML()'
+    'body': 'innerHTML'
   'innerText':
     'prefix': 'innerText'
-    'body': 'innerText()'
+    'body': 'innerText'
   'isContentEditable':
     'prefix': 'isContentEditable'
-    'body': 'isContentEditable()'
+    'body': 'isContentEditable'
   'lang':
     'prefix': 'lang'
-    'body': 'lang()'
+    'body': 'lang'
   'outerHTML':
     'prefix': 'outerHTML'
-    'body': 'outerHTML()'
+    'body': 'outerHTML'
   'outerText':
     'prefix': 'outerText'
-    'body': 'outerText()'
+    'body': 'outerText'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
@@ -3454,22 +3571,25 @@
     'body': 'setTitle(${1:NSString* title})'
   'tabIndex':
     'prefix': 'tabIndex'
-    'body': 'tabIndex()'
+    'body': 'tabIndex'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'titleDisplayString':
     'prefix': 'titleDisplayString'
-    'body': 'titleDisplayString()'
+    'body': 'titleDisplayString'
+  'DOMHTMLEmbedElement':
+    'prefix': 'DOMHTMLEmbedElement'
+    'body': 'DOMHTMLEmbedElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -3490,22 +3610,28 @@
     'body': 'setWidth(${1:int width})'
   'src':
     'prefix': 'src'
-    'body': 'src()'
+    'body': 'src'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLFieldSetElement':
+    'prefix': 'DOMHTMLFieldSetElement'
+    'body': 'DOMHTMLFieldSetElement'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
+  'DOMHTMLFontElement':
+    'prefix': 'DOMHTMLFontElement'
+    'body': 'DOMHTMLFontElement'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'face':
     'prefix': 'face'
-    'body': 'face()'
+    'body': 'face'
   'setColor:':
     'prefix': 'setColor:'
     'body': 'setColor(${1:NSString* color})'
@@ -3517,34 +3643,37 @@
     'body': 'setSize(${1:NSString* size})'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
+  'DOMHTMLFormElement':
+    'prefix': 'DOMHTMLFormElement'
+    'body': 'DOMHTMLFormElement'
   'acceptCharset':
     'prefix': 'acceptCharset'
-    'body': 'acceptCharset()'
+    'body': 'acceptCharset'
   'action':
     'prefix': 'action'
-    'body': 'action()'
+    'body': 'action'
   'elements':
     'prefix': 'elements'
-    'body': 'elements()'
+    'body': 'elements'
   'encoding':
     'prefix': 'encoding'
-    'body': 'encoding()'
+    'body': 'encoding'
   'enctype':
     'prefix': 'enctype'
-    'body': 'enctype()'
+    'body': 'enctype'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'method':
     'prefix': 'method'
-    'body': 'method()'
+    'body': 'method'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'reset':
     'prefix': 'reset'
-    'body': 'reset()'
+    'body': 'reset'
   'setAcceptCharset:':
     'prefix': 'setAcceptCharset:'
     'body': 'setAcceptCharset(${1:NSString* acceptCharset})'
@@ -3568,46 +3697,49 @@
     'body': 'setTarget(${1:NSString* target})'
   'submit':
     'prefix': 'submit'
-    'body': 'submit()'
+    'body': 'submit'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
+  'DOMHTMLFrameElement':
+    'prefix': 'DOMHTMLFrameElement'
+    'body': 'DOMHTMLFrameElement'
   'contentDocument':
     'prefix': 'contentDocument'
-    'body': 'contentDocument()'
+    'body': 'contentDocument'
   'contentFrame':
     'prefix': 'contentFrame'
-    'body': 'contentFrame()'
+    'body': 'contentFrame'
   'contentWindow':
     'prefix': 'contentWindow'
-    'body': 'contentWindow()'
+    'body': 'contentWindow'
   'frameBorder':
     'prefix': 'frameBorder'
-    'body': 'frameBorder()'
+    'body': 'frameBorder'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'longDesc':
     'prefix': 'longDesc'
-    'body': 'longDesc()'
+    'body': 'longDesc'
   'marginHeight':
     'prefix': 'marginHeight'
-    'body': 'marginHeight()'
+    'body': 'marginHeight'
   'marginWidth':
     'prefix': 'marginWidth'
-    'body': 'marginWidth()'
+    'body': 'marginWidth'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'noResize':
     'prefix': 'noResize'
-    'body': 'noResize()'
+    'body': 'noResize'
   'scrolling':
     'prefix': 'scrolling'
-    'body': 'scrolling()'
+    'body': 'scrolling'
   'setFrameBorder:':
     'prefix': 'setFrameBorder:'
     'body': 'setFrameBorder(${1:NSString* frameBorder})'
@@ -3637,28 +3769,34 @@
     'body': 'setSrc(${1:NSString* src})'
   'src':
     'prefix': 'src'
-    'body': 'src()'
+    'body': 'src'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLFrameSetElement':
+    'prefix': 'DOMHTMLFrameSetElement'
+    'body': 'DOMHTMLFrameSetElement'
   'cols':
     'prefix': 'cols'
-    'body': 'cols()'
+    'body': 'cols'
   'rows':
     'prefix': 'rows'
-    'body': 'rows()'
+    'body': 'rows'
   'setCols:':
     'prefix': 'setCols:'
     'body': 'setCols(${1:NSString* cols})'
   'setRows:':
     'prefix': 'setRows:'
     'body': 'setRows(${1:NSString* rows})'
+  'DOMHTMLHRElement':
+    'prefix': 'DOMHTMLHRElement'
+    'body': 'DOMHTMLHRElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'noShade':
     'prefix': 'noShade'
-    'body': 'noShade()'
+    'body': 'noShade'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -3673,61 +3811,73 @@
     'body': 'setWidth(${1:NSString* width})'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLHeadElement':
+    'prefix': 'DOMHTMLHeadElement'
+    'body': 'DOMHTMLHeadElement'
   'profile':
     'prefix': 'profile'
-    'body': 'profile()'
+    'body': 'profile'
   'setProfile:':
     'prefix': 'setProfile:'
     'body': 'setProfile(${1:NSString* profile})'
+  'DOMHTMLHeadingElement':
+    'prefix': 'DOMHTMLHeadingElement'
+    'body': 'DOMHTMLHeadingElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
+  'DOMHTMLHtmlElement':
+    'prefix': 'DOMHTMLHtmlElement'
+    'body': 'DOMHTMLHtmlElement'
   'setVersion:':
     'prefix': 'setVersion:'
     'body': 'setVersion(${1:NSString* version})'
   'version':
     'prefix': 'version'
-    'body': 'version()'
+    'body': 'version'
+  'DOMHTMLIFrameElement':
+    'prefix': 'DOMHTMLIFrameElement'
+    'body': 'DOMHTMLIFrameElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'contentDocument':
     'prefix': 'contentDocument'
-    'body': 'contentDocument()'
+    'body': 'contentDocument'
   'contentFrame':
     'prefix': 'contentFrame'
-    'body': 'contentFrame()'
+    'body': 'contentFrame'
   'contentWindow':
     'prefix': 'contentWindow'
-    'body': 'contentWindow()'
+    'body': 'contentWindow'
   'frameBorder':
     'prefix': 'frameBorder'
-    'body': 'frameBorder()'
+    'body': 'frameBorder'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'longDesc':
     'prefix': 'longDesc'
-    'body': 'longDesc()'
+    'body': 'longDesc'
   'marginHeight':
     'prefix': 'marginHeight'
-    'body': 'marginHeight()'
+    'body': 'marginHeight'
   'marginWidth':
     'prefix': 'marginWidth'
-    'body': 'marginWidth()'
+    'body': 'marginWidth'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'scrolling':
     'prefix': 'scrolling'
-    'body': 'scrolling()'
+    'body': 'scrolling'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -3760,52 +3910,55 @@
     'body': 'setWidth(${1:NSString* width})'
   'src':
     'prefix': 'src'
-    'body': 'src()'
+    'body': 'src'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLImageElement':
+    'prefix': 'DOMHTMLImageElement'
+    'body': 'DOMHTMLImageElement'
   'absoluteImageURL':
     'prefix': 'absoluteImageURL'
-    'body': 'absoluteImageURL()'
+    'body': 'absoluteImageURL'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'alt':
     'prefix': 'alt'
-    'body': 'alt()'
+    'body': 'alt'
   'altDisplayString':
     'prefix': 'altDisplayString'
-    'body': 'altDisplayString()'
+    'body': 'altDisplayString'
   'border':
     'prefix': 'border'
-    'body': 'border()'
+    'body': 'border'
   'complete':
     'prefix': 'complete'
-    'body': 'complete()'
+    'body': 'complete'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'hspace':
     'prefix': 'hspace'
-    'body': 'hspace()'
+    'body': 'hspace'
   'isMap':
     'prefix': 'isMap'
-    'body': 'isMap()'
+    'body': 'isMap'
   'longDesc':
     'prefix': 'longDesc'
-    'body': 'longDesc()'
+    'body': 'longDesc'
   'lowsrc':
     'prefix': 'lowsrc'
-    'body': 'lowsrc()'
+    'body': 'lowsrc'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'naturalHeight':
     'prefix': 'naturalHeight'
-    'body': 'naturalHeight()'
+    'body': 'naturalHeight'
   'naturalWidth':
     'prefix': 'naturalWidth'
-    'body': 'naturalWidth()'
+    'body': 'naturalWidth'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -3847,88 +4000,91 @@
     'body': 'setWidth(${1:int width})'
   'src':
     'prefix': 'src'
-    'body': 'src()'
+    'body': 'src'
   'useMap':
     'prefix': 'useMap'
-    'body': 'useMap()'
+    'body': 'useMap'
   'vspace':
     'prefix': 'vspace'
-    'body': 'vspace()'
+    'body': 'vspace'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
   'x':
     'prefix': 'x'
-    'body': 'x()'
+    'body': 'x'
   'y':
     'prefix': 'y'
-    'body': 'y()'
+    'body': 'y'
+  'DOMHTMLInputElement':
+    'prefix': 'DOMHTMLInputElement'
+    'body': 'DOMHTMLInputElement'
   'absoluteImageURL':
     'prefix': 'absoluteImageURL'
-    'body': 'absoluteImageURL()'
+    'body': 'absoluteImageURL'
   'accept':
     'prefix': 'accept'
-    'body': 'accept()'
+    'body': 'accept'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'alt':
     'prefix': 'alt'
-    'body': 'alt()'
+    'body': 'alt'
   'altDisplayString':
     'prefix': 'altDisplayString'
-    'body': 'altDisplayString()'
+    'body': 'altDisplayString'
   'autofocus':
     'prefix': 'autofocus'
-    'body': 'autofocus()'
+    'body': 'autofocus'
   'checked':
     'prefix': 'checked'
-    'body': 'checked()'
+    'body': 'checked'
   'click':
     'prefix': 'click'
-    'body': 'click()'
+    'body': 'click'
   'defaultChecked':
     'prefix': 'defaultChecked'
-    'body': 'defaultChecked()'
+    'body': 'defaultChecked'
   'defaultValue':
     'prefix': 'defaultValue'
-    'body': 'defaultValue()'
+    'body': 'defaultValue'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'files':
     'prefix': 'files'
-    'body': 'files()'
+    'body': 'files'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'indeterminate':
     'prefix': 'indeterminate'
-    'body': 'indeterminate()'
+    'body': 'indeterminate'
   'maxLength':
     'prefix': 'maxLength'
-    'body': 'maxLength()'
+    'body': 'maxLength'
   'multiple':
     'prefix': 'multiple'
-    'body': 'multiple()'
+    'body': 'multiple'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'readOnly':
     'prefix': 'readOnly'
-    'body': 'readOnly()'
+    'body': 'readOnly'
   'select':
     'prefix': 'select'
-    'body': 'select()'
+    'body': 'select'
   'selectionEnd':
     'prefix': 'selectionEnd'
-    'body': 'selectionEnd()'
+    'body': 'selectionEnd'
   'selectionStart':
     'prefix': 'selectionStart'
-    'body': 'selectionStart()'
+    'body': 'selectionStart'
   'setAccept:':
     'prefix': 'setAccept:'
     'body': 'setAccept(${1:NSString* accept})'
@@ -4000,22 +4156,25 @@
     'body': 'setValue(${1:NSString* value})'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
   'src':
     'prefix': 'src'
-    'body': 'src()'
+    'body': 'src'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'useMap':
     'prefix': 'useMap'
-    'body': 'useMap()'
+    'body': 'useMap'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'willValidate':
     'prefix': 'willValidate'
-    'body': 'willValidate()'
+    'body': 'willValidate'
+  'DOMHTMLLIElement':
+    'prefix': 'DOMHTMLLIElement'
+    'body': 'DOMHTMLLIElement'
   'setType:':
     'prefix': 'setType:'
     'body': 'setType(${1:NSString* type})'
@@ -4024,64 +4183,73 @@
     'body': 'setValue(${1:int value})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'DOMHTMLLabelElement':
+    'prefix': 'DOMHTMLLabelElement'
+    'body': 'DOMHTMLLabelElement'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'htmlFor':
     'prefix': 'htmlFor'
-    'body': 'htmlFor()'
+    'body': 'htmlFor'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
   'setHtmlFor:':
     'prefix': 'setHtmlFor:'
     'body': 'setHtmlFor(${1:NSString* htmlFor})'
+  'DOMHTMLLegendElement':
+    'prefix': 'DOMHTMLLegendElement'
+    'body': 'DOMHTMLLegendElement'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
+  'DOMHTMLLinkElement':
+    'prefix': 'DOMHTMLLinkElement'
+    'body': 'DOMHTMLLinkElement'
   'absoluteLinkURL':
     'prefix': 'absoluteLinkURL'
-    'body': 'absoluteLinkURL()'
+    'body': 'absoluteLinkURL'
   'charset':
     'prefix': 'charset'
-    'body': 'charset()'
+    'body': 'charset'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'href':
     'prefix': 'href'
-    'body': 'href()'
+    'body': 'href'
   'hreflang':
     'prefix': 'hreflang'
-    'body': 'hreflang()'
+    'body': 'hreflang'
   'media':
     'prefix': 'media'
-    'body': 'media()'
+    'body': 'media'
   'rel':
     'prefix': 'rel'
-    'body': 'rel()'
+    'body': 'rel'
   'rev':
     'prefix': 'rev'
-    'body': 'rev()'
+    'body': 'rev'
   'setCharset:':
     'prefix': 'setCharset:'
     'body': 'setCharset(${1:NSString* charset})'
@@ -4111,46 +4279,58 @@
     'body': 'setType(${1:NSString* type})'
   'sheet':
     'prefix': 'sheet'
-    'body': 'sheet()'
+    'body': 'sheet'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMHTMLMapElement':
+    'prefix': 'DOMHTMLMapElement'
+    'body': 'DOMHTMLMapElement'
   'areas':
     'prefix': 'areas'
-    'body': 'areas()'
+    'body': 'areas'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setName:':
     'prefix': 'setName:'
     'body': 'setName(${1:NSString* name})'
+  'DOMHTMLMarqueeElement':
+    'prefix': 'DOMHTMLMarqueeElement'
+    'body': 'DOMHTMLMarqueeElement'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
+  'DOMHTMLMenuElement':
+    'prefix': 'DOMHTMLMenuElement'
+    'body': 'DOMHTMLMenuElement'
   'compact':
     'prefix': 'compact'
-    'body': 'compact()'
+    'body': 'compact'
   'setCompact:':
     'prefix': 'setCompact:'
     'body': 'setCompact(${1:BOOL compact})'
+  'DOMHTMLMetaElement':
+    'prefix': 'DOMHTMLMetaElement'
+    'body': 'DOMHTMLMetaElement'
   'content':
     'prefix': 'content'
-    'body': 'content()'
+    'body': 'content'
   'httpEquiv':
     'prefix': 'httpEquiv'
-    'body': 'httpEquiv()'
+    'body': 'httpEquiv'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'scheme':
     'prefix': 'scheme'
-    'body': 'scheme()'
+    'body': 'scheme'
   'setContent:':
     'prefix': 'setContent:'
     'body': 'setContent(${1:NSString* content})'
@@ -4163,21 +4343,27 @@
   'setScheme:':
     'prefix': 'setScheme:'
     'body': 'setScheme(${1:NSString* scheme})'
+  'DOMHTMLModElement':
+    'prefix': 'DOMHTMLModElement'
+    'body': 'DOMHTMLModElement'
   'cite':
     'prefix': 'cite'
-    'body': 'cite()'
+    'body': 'cite'
   'dateTime':
     'prefix': 'dateTime'
-    'body': 'dateTime()'
+    'body': 'dateTime'
   'setCite:':
     'prefix': 'setCite:'
     'body': 'setCite(${1:NSString* cite})'
   'setDateTime:':
     'prefix': 'setDateTime:'
     'body': 'setDateTime(${1:NSString* dateTime})'
+  'DOMHTMLOListElement':
+    'prefix': 'DOMHTMLOListElement'
+    'body': 'DOMHTMLOListElement'
   'compact':
     'prefix': 'compact'
-    'body': 'compact()'
+    'body': 'compact'
   'setCompact:':
     'prefix': 'setCompact:'
     'body': 'setCompact(${1:BOOL compact})'
@@ -4189,55 +4375,58 @@
     'body': 'setType(${1:NSString* type})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMHTMLObjectElement':
+    'prefix': 'DOMHTMLObjectElement'
+    'body': 'DOMHTMLObjectElement'
   'absoluteImageURL':
     'prefix': 'absoluteImageURL'
-    'body': 'absoluteImageURL()'
+    'body': 'absoluteImageURL'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'archive':
     'prefix': 'archive'
-    'body': 'archive()'
+    'body': 'archive'
   'border':
     'prefix': 'border'
-    'body': 'border()'
+    'body': 'border'
   'code':
     'prefix': 'code'
-    'body': 'code()'
+    'body': 'code'
   'codeBase':
     'prefix': 'codeBase'
-    'body': 'codeBase()'
+    'body': 'codeBase'
   'codeType':
     'prefix': 'codeType'
-    'body': 'codeType()'
+    'body': 'codeType'
   'contentDocument':
     'prefix': 'contentDocument'
-    'body': 'contentDocument()'
+    'body': 'contentDocument'
   'contentFrame':
     'prefix': 'contentFrame'
-    'body': 'contentFrame()'
+    'body': 'contentFrame'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'declare':
     'prefix': 'declare'
-    'body': 'declare()'
+    'body': 'declare'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'hspace':
     'prefix': 'hspace'
-    'body': 'hspace()'
+    'body': 'hspace'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -4288,49 +4477,55 @@
     'body': 'setWidth(${1:NSString* width})'
   'standby':
     'prefix': 'standby'
-    'body': 'standby()'
+    'body': 'standby'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'useMap':
     'prefix': 'useMap'
-    'body': 'useMap()'
+    'body': 'useMap'
   'vspace':
     'prefix': 'vspace'
-    'body': 'vspace()'
+    'body': 'vspace'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLOptGroupElement':
+    'prefix': 'DOMHTMLOptGroupElement'
+    'body': 'DOMHTMLOptGroupElement'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'label':
     'prefix': 'label'
-    'body': 'label()'
+    'body': 'label'
   'setDisabled:':
     'prefix': 'setDisabled:'
     'body': 'setDisabled(${1:BOOL disabled})'
   'setLabel:':
     'prefix': 'setLabel:'
     'body': 'setLabel(${1:NSString* label})'
+  'DOMHTMLOptionElement':
+    'prefix': 'DOMHTMLOptionElement'
+    'body': 'DOMHTMLOptionElement'
   'defaultSelected':
     'prefix': 'defaultSelected'
-    'body': 'defaultSelected()'
+    'body': 'defaultSelected'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'index':
     'prefix': 'index'
-    'body': 'index()'
+    'body': 'index'
   'label':
     'prefix': 'label'
-    'body': 'label()'
+    'body': 'label'
   'selected':
     'prefix': 'selected'
-    'body': 'selected()'
+    'body': 'selected'
   'setDefaultSelected:':
     'prefix': 'setDefaultSelected:'
     'body': 'setDefaultSelected(${1:BOOL defaultSelected})'
@@ -4348,10 +4543,13 @@
     'body': 'setValue(${1:NSString* value})'
   'text':
     'prefix': 'text'
-    'body': 'text()'
+    'body': 'text'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'DOMHTMLOptionsCollection':
+    'prefix': 'DOMHTMLOptionsCollection'
+    'body': 'DOMHTMLOptionsCollection'
   'add:index:':
     'prefix': 'add:index:'
     'body': 'add(${1:DOMHTMLOptionElement* option}, index:${2:unsigned int index})'
@@ -4360,7 +4558,7 @@
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'namedItem:':
     'prefix': 'namedItem:'
     'body': 'namedItem(${1:NSString* name})'
@@ -4369,22 +4567,28 @@
     'body': 'remove(${1:unsigned int index})'
   'selectedIndex':
     'prefix': 'selectedIndex'
-    'body': 'selectedIndex()'
+    'body': 'selectedIndex'
   'setLength:':
     'prefix': 'setLength:'
     'body': 'setLength(${1:unsigned int length})'
   'setSelectedIndex:':
     'prefix': 'setSelectedIndex:'
     'body': 'setSelectedIndex(${1:int selectedIndex})'
+  'DOMHTMLParagraphElement':
+    'prefix': 'DOMHTMLParagraphElement'
+    'body': 'DOMHTMLParagraphElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
+  'DOMHTMLParamElement':
+    'prefix': 'DOMHTMLParamElement'
+    'body': 'DOMHTMLParamElement'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setName:':
     'prefix': 'setName:'
     'body': 'setName(${1:NSString* name})'
@@ -4399,13 +4603,16 @@
     'body': 'setValueType(${1:NSString* valueType})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'valueType':
     'prefix': 'valueType'
-    'body': 'valueType()'
+    'body': 'valueType'
+  'DOMHTMLPreElement':
+    'prefix': 'DOMHTMLPreElement'
+    'body': 'DOMHTMLPreElement'
   'setWidth:':
     'prefix': 'setWidth:'
     'body': 'setWidth(${1:int width})'
@@ -4414,28 +4621,34 @@
     'body': 'setWrap(${1:BOOL wrap})'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
   'wrap':
     'prefix': 'wrap'
-    'body': 'wrap()'
+    'body': 'wrap'
+  'DOMHTMLQuoteElement':
+    'prefix': 'DOMHTMLQuoteElement'
+    'body': 'DOMHTMLQuoteElement'
   'cite':
     'prefix': 'cite'
-    'body': 'cite()'
+    'body': 'cite'
   'setCite:':
     'prefix': 'setCite:'
     'body': 'setCite(${1:NSString* cite})'
+  'DOMHTMLScriptElement':
+    'prefix': 'DOMHTMLScriptElement'
+    'body': 'DOMHTMLScriptElement'
   'charset':
     'prefix': 'charset'
-    'body': 'charset()'
+    'body': 'charset'
   'defer':
     'prefix': 'defer'
-    'body': 'defer()'
+    'body': 'defer'
   'event':
     'prefix': 'event'
-    'body': 'event()'
+    'body': 'event'
   'htmlFor':
     'prefix': 'htmlFor'
-    'body': 'htmlFor()'
+    'body': 'htmlFor'
   'setCharset:':
     'prefix': 'setCharset:'
     'body': 'setCharset(${1:NSString* charset})'
@@ -4459,13 +4672,16 @@
     'body': 'setType(${1:NSString* type})'
   'src':
     'prefix': 'src'
-    'body': 'src()'
+    'body': 'src'
   'text':
     'prefix': 'text'
-    'body': 'text()'
+    'body': 'text'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMHTMLSelectElement':
+    'prefix': 'DOMHTMLSelectElement'
+    'body': 'DOMHTMLSelectElement'
   'add::':
     'prefix': 'add::'
     'body': 'add(${1:DOMHTMLElement* element}, :${2:DOMHTMLElement* before})'
@@ -4474,37 +4690,37 @@
     'body': 'add(${1:DOMHTMLElement* element}, before:${2:DOMHTMLElement* before})'
   'autofocus':
     'prefix': 'autofocus'
-    'body': 'autofocus()'
+    'body': 'autofocus'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'multiple':
     'prefix': 'multiple'
-    'body': 'multiple()'
+    'body': 'multiple'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'namedItem:':
     'prefix': 'namedItem:'
     'body': 'namedItem(${1:NSString* name})'
   'options':
     'prefix': 'options'
-    'body': 'options()'
+    'body': 'options'
   'remove:':
     'prefix': 'remove:'
     'body': 'remove(${1:int index})'
   'selectedIndex':
     'prefix': 'selectedIndex'
-    'body': 'selectedIndex()'
+    'body': 'selectedIndex'
   'setAutofocus:':
     'prefix': 'setAutofocus:'
     'body': 'setAutofocus(${1:BOOL autofocus})'
@@ -4528,22 +4744,25 @@
     'body': 'setValue(${1:NSString* value})'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'willValidate':
     'prefix': 'willValidate'
-    'body': 'willValidate()'
+    'body': 'willValidate'
+  'DOMHTMLStyleElement':
+    'prefix': 'DOMHTMLStyleElement'
+    'body': 'DOMHTMLStyleElement'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'media':
     'prefix': 'media'
-    'body': 'media()'
+    'body': 'media'
   'setDisabled:':
     'prefix': 'setDisabled:'
     'body': 'setDisabled(${1:BOOL disabled})'
@@ -4555,55 +4774,61 @@
     'body': 'setType(${1:NSString* type})'
   'sheet':
     'prefix': 'sheet'
-    'body': 'sheet()'
+    'body': 'sheet'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMHTMLTableCaptionElement':
+    'prefix': 'DOMHTMLTableCaptionElement'
+    'body': 'DOMHTMLTableCaptionElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
+  'DOMHTMLTableCellElement':
+    'prefix': 'DOMHTMLTableCellElement'
+    'body': 'DOMHTMLTableCellElement'
   'abbr':
     'prefix': 'abbr'
-    'body': 'abbr()'
+    'body': 'abbr'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'axis':
     'prefix': 'axis'
-    'body': 'axis()'
+    'body': 'axis'
   'bgColor':
     'prefix': 'bgColor'
-    'body': 'bgColor()'
+    'body': 'bgColor'
   'cellIndex':
     'prefix': 'cellIndex'
-    'body': 'cellIndex()'
+    'body': 'cellIndex'
   'ch':
     'prefix': 'ch'
-    'body': 'ch()'
+    'body': 'ch'
   'chOff':
     'prefix': 'chOff'
-    'body': 'chOff()'
+    'body': 'chOff'
   'colSpan':
     'prefix': 'colSpan'
-    'body': 'colSpan()'
+    'body': 'colSpan'
   'headers':
     'prefix': 'headers'
-    'body': 'headers()'
+    'body': 'headers'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'noWrap':
     'prefix': 'noWrap'
-    'body': 'noWrap()'
+    'body': 'noWrap'
   'rowSpan':
     'prefix': 'rowSpan'
-    'body': 'rowSpan()'
+    'body': 'rowSpan'
   'scope':
     'prefix': 'scope'
-    'body': 'scope()'
+    'body': 'scope'
   'setAbbr:':
     'prefix': 'setAbbr:'
     'body': 'setAbbr(${1:NSString* abbr})'
@@ -4648,19 +4873,22 @@
     'body': 'setWidth(${1:NSString* width})'
   'vAlign':
     'prefix': 'vAlign'
-    'body': 'vAlign()'
+    'body': 'vAlign'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLTableColElement':
+    'prefix': 'DOMHTMLTableColElement'
+    'body': 'DOMHTMLTableColElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'ch':
     'prefix': 'ch'
-    'body': 'ch()'
+    'body': 'ch'
   'chOff':
     'prefix': 'chOff'
-    'body': 'chOff()'
+    'body': 'chOff'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -4681,64 +4909,67 @@
     'body': 'setWidth(${1:NSString* width})'
   'span':
     'prefix': 'span'
-    'body': 'span()'
+    'body': 'span'
   'vAlign':
     'prefix': 'vAlign'
-    'body': 'vAlign()'
+    'body': 'vAlign'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLTableElement':
+    'prefix': 'DOMHTMLTableElement'
+    'body': 'DOMHTMLTableElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'bgColor':
     'prefix': 'bgColor'
-    'body': 'bgColor()'
+    'body': 'bgColor'
   'border':
     'prefix': 'border'
-    'body': 'border()'
+    'body': 'border'
   'caption':
     'prefix': 'caption'
-    'body': 'caption()'
+    'body': 'caption'
   'cellPadding':
     'prefix': 'cellPadding'
-    'body': 'cellPadding()'
+    'body': 'cellPadding'
   'cellSpacing':
     'prefix': 'cellSpacing'
-    'body': 'cellSpacing()'
+    'body': 'cellSpacing'
   'createCaption':
     'prefix': 'createCaption'
-    'body': 'createCaption()'
+    'body': 'createCaption'
   'createTFoot':
     'prefix': 'createTFoot'
-    'body': 'createTFoot()'
+    'body': 'createTFoot'
   'createTHead':
     'prefix': 'createTHead'
-    'body': 'createTHead()'
+    'body': 'createTHead'
   'deleteCaption':
     'prefix': 'deleteCaption'
-    'body': 'deleteCaption()'
+    'body': 'deleteCaption'
   'deleteRow:':
     'prefix': 'deleteRow:'
     'body': 'deleteRow(${1:int index})'
   'deleteTFoot':
     'prefix': 'deleteTFoot'
-    'body': 'deleteTFoot()'
+    'body': 'deleteTFoot'
   'deleteTHead':
     'prefix': 'deleteTHead'
-    'body': 'deleteTHead()'
+    'body': 'deleteTHead'
   'frameBorders':
     'prefix': 'frameBorders'
-    'body': 'frameBorders()'
+    'body': 'frameBorders'
   'insertRow:':
     'prefix': 'insertRow:'
     'body': 'insertRow(${1:int index})'
   'rows':
     'prefix': 'rows'
-    'body': 'rows()'
+    'body': 'rows'
   'rules':
     'prefix': 'rules'
-    'body': 'rules()'
+    'body': 'rules'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -4777,34 +5008,37 @@
     'body': 'setWidth(${1:NSString* width})'
   'summary':
     'prefix': 'summary'
-    'body': 'summary()'
+    'body': 'summary'
   'tBodies':
     'prefix': 'tBodies'
-    'body': 'tBodies()'
+    'body': 'tBodies'
   'tFoot':
     'prefix': 'tFoot'
-    'body': 'tFoot()'
+    'body': 'tFoot'
   'tHead':
     'prefix': 'tHead'
-    'body': 'tHead()'
+    'body': 'tHead'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'DOMHTMLTableRowElement':
+    'prefix': 'DOMHTMLTableRowElement'
+    'body': 'DOMHTMLTableRowElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'bgColor':
     'prefix': 'bgColor'
-    'body': 'bgColor()'
+    'body': 'bgColor'
   'cells':
     'prefix': 'cells'
-    'body': 'cells()'
+    'body': 'cells'
   'ch':
     'prefix': 'ch'
-    'body': 'ch()'
+    'body': 'ch'
   'chOff':
     'prefix': 'chOff'
-    'body': 'chOff()'
+    'body': 'chOff'
   'deleteCell:':
     'prefix': 'deleteCell:'
     'body': 'deleteCell(${1:int index})'
@@ -4813,10 +5047,10 @@
     'body': 'insertCell(${1:int index})'
   'rowIndex':
     'prefix': 'rowIndex'
-    'body': 'rowIndex()'
+    'body': 'rowIndex'
   'sectionRowIndex':
     'prefix': 'sectionRowIndex'
-    'body': 'sectionRowIndex()'
+    'body': 'sectionRowIndex'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -4834,16 +5068,19 @@
     'body': 'setVAlign(${1:NSString* vAlign})'
   'vAlign':
     'prefix': 'vAlign'
-    'body': 'vAlign()'
+    'body': 'vAlign'
+  'DOMHTMLTableSectionElement':
+    'prefix': 'DOMHTMLTableSectionElement'
+    'body': 'DOMHTMLTableSectionElement'
   'align':
     'prefix': 'align'
-    'body': 'align()'
+    'body': 'align'
   'ch':
     'prefix': 'ch'
-    'body': 'ch()'
+    'body': 'ch'
   'chOff':
     'prefix': 'chOff'
-    'body': 'chOff()'
+    'body': 'chOff'
   'deleteRow:':
     'prefix': 'deleteRow:'
     'body': 'deleteRow(${1:int index})'
@@ -4852,7 +5089,7 @@
     'body': 'insertRow(${1:int index})'
   'rows':
     'prefix': 'rows'
-    'body': 'rows()'
+    'body': 'rows'
   'setAlign:':
     'prefix': 'setAlign:'
     'body': 'setAlign(${1:NSString* align})'
@@ -4867,43 +5104,46 @@
     'body': 'setVAlign(${1:NSString* vAlign})'
   'vAlign':
     'prefix': 'vAlign'
-    'body': 'vAlign()'
+    'body': 'vAlign'
+  'DOMHTMLTextAreaElement':
+    'prefix': 'DOMHTMLTextAreaElement'
+    'body': 'DOMHTMLTextAreaElement'
   'accessKey':
     'prefix': 'accessKey'
-    'body': 'accessKey()'
+    'body': 'accessKey'
   'autofocus':
     'prefix': 'autofocus'
-    'body': 'autofocus()'
+    'body': 'autofocus'
   'cols':
     'prefix': 'cols'
-    'body': 'cols()'
+    'body': 'cols'
   'defaultValue':
     'prefix': 'defaultValue'
-    'body': 'defaultValue()'
+    'body': 'defaultValue'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'form':
     'prefix': 'form'
-    'body': 'form()'
+    'body': 'form'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'readOnly':
     'prefix': 'readOnly'
-    'body': 'readOnly()'
+    'body': 'readOnly'
   'rows':
     'prefix': 'rows'
-    'body': 'rows()'
+    'body': 'rows'
   'select':
     'prefix': 'select'
-    'body': 'select()'
+    'body': 'select'
   'selectionEnd':
     'prefix': 'selectionEnd'
-    'body': 'selectionEnd()'
+    'body': 'selectionEnd'
   'selectionStart':
     'prefix': 'selectionStart'
-    'body': 'selectionStart()'
+    'body': 'selectionStart'
   'setAccessKey:':
     'prefix': 'setAccessKey:'
     'body': 'setAccessKey(${1:NSString* accessKey})'
@@ -4942,22 +5182,28 @@
     'body': 'setValue(${1:NSString* value})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'willValidate':
     'prefix': 'willValidate'
-    'body': 'willValidate()'
+    'body': 'willValidate'
+  'DOMHTMLTitleElement':
+    'prefix': 'DOMHTMLTitleElement'
+    'body': 'DOMHTMLTitleElement'
   'setText:':
     'prefix': 'setText:'
     'body': 'setText(${1:NSString* text})'
   'text':
     'prefix': 'text'
-    'body': 'text()'
+    'body': 'text'
+  'DOMHTMLUListElement':
+    'prefix': 'DOMHTMLUListElement'
+    'body': 'DOMHTMLUListElement'
   'compact':
     'prefix': 'compact'
-    'body': 'compact()'
+    'body': 'compact'
   'setCompact:':
     'prefix': 'setCompact:'
     'body': 'setCompact(${1:BOOL compact})'
@@ -4966,7 +5212,10 @@
     'body': 'setType(${1:NSString* type})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMImplementation':
+    'prefix': 'DOMImplementation'
+    'body': 'DOMImplementation'
   'createCSSStyleSheet::':
     'prefix': 'createCSSStyleSheet::'
     'body': 'createCSSStyleSheet(${1:NSString* title}, :${2:NSString* media})'
@@ -4994,18 +5243,21 @@
   'hasFeature:version:':
     'prefix': 'hasFeature:version:'
     'body': 'hasFeature(${1:NSString* feature}, version:${2:NSString* version})'
+  'DOMKeyboardEvent':
+    'prefix': 'DOMKeyboardEvent'
+    'body': 'DOMKeyboardEvent'
   'altGraphKey':
     'prefix': 'altGraphKey'
-    'body': 'altGraphKey()'
+    'body': 'altGraphKey'
   'altKey':
     'prefix': 'altKey'
-    'body': 'altKey()'
+    'body': 'altKey'
   'charCode':
     'prefix': 'charCode'
-    'body': 'charCode()'
+    'body': 'charCode'
   'ctrlKey':
     'prefix': 'ctrlKey'
-    'body': 'ctrlKey()'
+    'body': 'ctrlKey'
   'getModifierState:':
     'prefix': 'getModifierState:'
     'body': 'getModifierState(${1:NSString* keyIdentifierArg})'
@@ -5017,19 +5269,22 @@
     'body': 'initKeyboardEvent(${1:NSString* type}, canBubble:${2:BOOL canBubble}, cancelable:${3:BOOL cancelable}, view:${4:DOMAbstractView* view}, keyIdentifier:${5:NSString* keyIdentifier}, keyLocation:${6:unsigned int keyLocation}, ctrlKey:${7:BOOL ctrlKey}, altKey:${8:BOOL altKey}, shiftKey:${9:BOOL shiftKey}, metaKey:${10:BOOL metaKey}, altGraphKey:${11:BOOL altGraphKey})'
   'keyCode':
     'prefix': 'keyCode'
-    'body': 'KeyCode()'
+    'body': 'KeyCode'
   'keyIdentifier':
     'prefix': 'keyIdentifier'
-    'body': 'KeyIdentifier()'
+    'body': 'KeyIdentifier'
   'keyLocation':
     'prefix': 'keyLocation'
-    'body': 'KeyLocation()'
+    'body': 'KeyLocation'
   'metaKey':
     'prefix': 'metaKey'
-    'body': 'metaKey()'
+    'body': 'metaKey'
   'shiftKey':
     'prefix': 'shiftKey'
-    'body': 'shiftKey()'
+    'body': 'shiftKey'
+  'DOMMediaList':
+    'prefix': 'DOMMediaList'
+    'body': 'DOMMediaList'
   'appendMedium:':
     'prefix': 'appendMedium:'
     'body': 'appendMedium(${1:NSString* newMedium})'
@@ -5041,31 +5296,34 @@
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'mediaText':
     'prefix': 'mediaText'
-    'body': 'mediaText()'
+    'body': 'mediaText'
   'setMediaText:':
     'prefix': 'setMediaText:'
     'body': 'setMediaText(${1:NSString* mediaText})'
+  'DOMMouseEvent':
+    'prefix': 'DOMMouseEvent'
+    'body': 'DOMMouseEvent'
   'altKey':
     'prefix': 'altKey'
-    'body': 'altKey()'
+    'body': 'altKey'
   'button':
     'prefix': 'button'
-    'body': 'button()'
+    'body': 'button'
   'clientX':
     'prefix': 'clientX'
-    'body': 'clientX()'
+    'body': 'clientX'
   'clientY':
     'prefix': 'clientY'
-    'body': 'clientY()'
+    'body': 'clientY'
   'ctrlKey':
     'prefix': 'ctrlKey'
-    'body': 'ctrlKey()'
+    'body': 'ctrlKey'
   'fromElement':
     'prefix': 'fromElement'
-    'body': 'fromElement()'
+    'body': 'fromElement'
   'initMouseEvent:::::::::::::::':
     'prefix': 'initMouseEvent:::::::::::::::'
     'body': 'initMouseEvent(${1:NSString* type}, :${2:BOOL canBubble}, :${3:BOOL cancelable}, :${4:DOMAbstractView* view}, :${5:int detail}, :${6:int screenX}, :${7:int screenY}, :${8:int clientX}, :${9:int clientY}, :${10:BOOL ctrlKey}, :${11:BOOL altKey}, :${12:BOOL shiftKey}, :${13:BOOL metaKey}, :${14:unsigned short button}, :${15:id relatedTarget})'
@@ -5074,40 +5332,43 @@
     'body': 'initMouseEvent(${1:NSString* type}, canBubble:${2:BOOL canBubble}, cancelable:${3:BOOL cancelable}, view:${4:DOMAbstractView* view}, detail:${5:int detail}, screenX:${6:int screenX}, screenY:${7:int screenY}, clientX:${8:int clientX}, clientY:${9:int clientY}, ctrlKey:${10:BOOL ctrlKey}, altKey:${11:BOOL altKey}, shiftKey:${12:BOOL shiftKey}, metaKey:${13:BOOL metaKey}, button:${14:unsigned short button}, relatedTarget:${15:id relatedTarget})'
   'metaKey':
     'prefix': 'metaKey'
-    'body': 'metaKey()'
+    'body': 'metaKey'
   'offsetX':
     'prefix': 'offsetX'
-    'body': 'offsetX()'
+    'body': 'offsetX'
   'offsetY':
     'prefix': 'offsetY'
-    'body': 'offsetY()'
+    'body': 'offsetY'
   'relatedTarget':
     'prefix': 'relatedTarget'
-    'body': 'relatedTarget()'
+    'body': 'relatedTarget'
   'screenX':
     'prefix': 'screenX'
-    'body': 'screenX()'
+    'body': 'screenX'
   'screenY':
     'prefix': 'screenY'
-    'body': 'screenY()'
+    'body': 'screenY'
   'shiftKey':
     'prefix': 'shiftKey'
-    'body': 'shiftKey()'
+    'body': 'shiftKey'
   'toElement':
     'prefix': 'toElement'
-    'body': 'toElement()'
+    'body': 'toElement'
   'x':
     'prefix': 'x'
-    'body': 'x()'
+    'body': 'x'
   'y':
     'prefix': 'y'
-    'body': 'y()'
+    'body': 'y'
+  'DOMMutationEvent':
+    'prefix': 'DOMMutationEvent'
+    'body': 'DOMMutationEvent'
   'attrChange':
     'prefix': 'attrChange'
-    'body': 'attrChange()'
+    'body': 'attrChange'
   'attrName':
     'prefix': 'attrName'
-    'body': 'attrName()'
+    'body': 'attrName'
   'initMutationEvent::::::::':
     'prefix': 'initMutationEvent::::::::'
     'body': 'initMutationEvent(${1:NSString* type}, :${2:BOOL canBubble}, :${3:BOOL cancelable}, :${4:DOMNode* relatedNode}, :${5:NSString* prevValue}, :${6:NSString* newValue}, :${7:NSString* attrName}, :${8:unsigned short attrChange})'
@@ -5116,13 +5377,16 @@
     'body': 'initMutationEvent(${1:NSString* type}, canBubble:${2:BOOL canBubble}, cancelable:${3:BOOL cancelable}, relatedNode:${4:DOMNode* relatedNode}, prevValue:${5:NSString* prevValue}, newValue:${6:NSString* newValue}, attrName:${7:NSString* attrName}, attrChange:${8:unsigned short attrChange})'
   'newValue':
     'prefix': 'newValue'
-    'body': 'newValue()'
+    'body': 'newValue'
   'prevValue':
     'prefix': 'prevValue'
-    'body': 'prevValue()'
+    'body': 'prevValue'
   'relatedNode':
     'prefix': 'relatedNode'
-    'body': 'relatedNode()'
+    'body': 'relatedNode'
+  'DOMNamedNodeMap':
+    'prefix': 'DOMNamedNodeMap'
+    'body': 'DOMNamedNodeMap'
   'getNamedItem:':
     'prefix': 'getNamedItem:'
     'body': 'getNamedItem(${1:NSString* name})'
@@ -5137,7 +5401,7 @@
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
   'removeNamedItem:':
     'prefix': 'removeNamedItem:'
     'body': 'removeNamedItem(${1:NSString* name})'
@@ -5153,21 +5417,24 @@
   'setNamedItemNS:':
     'prefix': 'setNamedItemNS:'
     'body': 'setNamedItemNS(${1:DOMNode* node})'
+  'DOMNode':
+    'prefix': 'DOMNode'
+    'body': 'DOMNode'
   'appendChild:':
     'prefix': 'appendChild:'
     'body': 'appendChild(${1:DOMNode* newChild})'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'baseURI':
     'prefix': 'baseURI'
-    'body': 'baseURI()'
+    'body': 'baseURI'
   'boundingBox':
     'prefix': 'boundingBox'
-    'body': 'boundingBox()'
+    'body': 'boundingBox'
   'childNodes':
     'prefix': 'childNodes'
-    'body': 'childNodes()'
+    'body': 'childNodes'
   'cloneNode:':
     'prefix': 'cloneNode:'
     'body': 'cloneNode(${1:BOOL deep})'
@@ -5179,13 +5446,13 @@
     'body': 'contains(${1:DOMNode* other})'
   'firstChild':
     'prefix': 'firstChild'
-    'body': 'firstChild()'
+    'body': 'firstChild'
   'hasAttributes':
     'prefix': 'hasAttributes'
-    'body': 'hasAttributes()'
+    'body': 'hasAttributes'
   'hasChildNodes':
     'prefix': 'hasChildNodes'
-    'body': 'hasChildNodes()'
+    'body': 'hasChildNodes'
   'insertBefore::':
     'prefix': 'insertBefore::'
     'body': 'insertBefore(${1:DOMNode* newChild}, :${2:DOMNode* refChild})'
@@ -5194,7 +5461,7 @@
     'body': 'insertBefore(${1:DOMNode* newChild}, refChild:${2:DOMNode* refChild})'
   'isContentEditable':
     'prefix': 'isContentEditable'
-    'body': 'isContentEditable()'
+    'body': 'isContentEditable'
   'isDefaultNamespace:':
     'prefix': 'isDefaultNamespace:'
     'body': 'isDefaultNamespace(${1:NSString* namespaceURI})'
@@ -5212,13 +5479,13 @@
     'body': 'isSupported(${1:NSString* feature}, version:${2:NSString* version})'
   'lastChild':
     'prefix': 'lastChild'
-    'body': 'lastChild()'
+    'body': 'lastChild'
   'lineBoxRects':
     'prefix': 'lineBoxRects'
-    'body': 'lineBoxRects()'
+    'body': 'lineBoxRects'
   'localName':
     'prefix': 'localName'
-    'body': 'localName()'
+    'body': 'localName'
   'lookupNamespaceURI:':
     'prefix': 'lookupNamespaceURI:'
     'body': 'lookupNamespaceURI(${1:NSString* prefix})'
@@ -5227,37 +5494,37 @@
     'body': 'lookupPrefix(${1:NSString* namespaceURI})'
   'namespaceURI':
     'prefix': 'namespaceURI'
-    'body': 'namespaceURI()'
+    'body': 'namespaceURI'
   'nextSibling':
     'prefix': 'nextSibling'
-    'body': 'nextSibling()'
+    'body': 'nextSibling'
   'nodeName':
     'prefix': 'nodeName'
-    'body': 'nodeName()'
+    'body': 'nodeName'
   'nodeType':
     'prefix': 'nodeType'
-    'body': 'nodeType()'
+    'body': 'nodeType'
   'nodeValue':
     'prefix': 'nodeValue'
-    'body': 'nodeValue()'
+    'body': 'nodeValue'
   'normalize':
     'prefix': 'normalize'
-    'body': 'normalize()'
+    'body': 'normalize'
   'ownerDocument':
     'prefix': 'ownerDocument'
-    'body': 'ownerDocument()'
+    'body': 'ownerDocument'
   'parentElement':
     'prefix': 'parentElement'
-    'body': 'parentElement()'
+    'body': 'parentElement'
   'parentNode':
     'prefix': 'parentNode'
-    'body': 'parentNode()'
+    'body': 'parentNode'
   'prefix':
     'prefix': 'prefix'
-    'body': 'prefix()'
+    'body': 'prefix'
   'previousSibling':
     'prefix': 'previousSibling'
-    'body': 'previousSibling()'
+    'body': 'previousSibling'
   'removeChild:':
     'prefix': 'removeChild:'
     'body': 'removeChild(${1:DOMNode* oldChild})'
@@ -5278,115 +5545,142 @@
     'body': 'setTextContent(${1:NSString* textContent})'
   'textContent':
     'prefix': 'textContent'
-    'body': 'textContent()'
+    'body': 'textContent'
   'webArchive':
     'prefix': 'webArchive'
-    'body': 'webArchive()'
+    'body': 'webArchive'
+  'DOMNodeIterator':
+    'prefix': 'DOMNodeIterator'
+    'body': 'DOMNodeIterator'
   'detach':
     'prefix': 'detach'
-    'body': 'detach()'
+    'body': 'detach'
   'expandEntityReferences':
     'prefix': 'expandEntityReferences'
-    'body': 'expandEntityReferences()'
+    'body': 'expandEntityReferences'
   'filter':
     'prefix': 'filter'
-    'body': 'filter()'
+    'body': 'filter'
   'nextNode':
     'prefix': 'nextNode'
-    'body': 'nextNode()'
+    'body': 'nextNode'
   'pointerBeforeReferenceNode':
     'prefix': 'pointerBeforeReferenceNode'
-    'body': 'pointerBeforeReferenceNode()'
+    'body': 'pointerBeforeReferenceNode'
   'previousNode':
     'prefix': 'previousNode'
-    'body': 'previousNode()'
+    'body': 'previousNode'
   'referenceNode':
     'prefix': 'referenceNode'
-    'body': 'referenceNode()'
+    'body': 'referenceNode'
   'root':
     'prefix': 'root'
-    'body': 'root()'
+    'body': 'root'
   'whatToShow':
     'prefix': 'whatToShow'
-    'body': 'whatToShow()'
+    'body': 'whatToShow'
+  'DOMNodeList':
+    'prefix': 'DOMNodeList'
+    'body': 'DOMNodeList'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
+  'DOMNotation':
+    'prefix': 'DOMNotation'
+    'body': 'DOMNotation'
   'publicId':
     'prefix': 'publicId'
-    'body': 'publicId()'
+    'body': 'publicId'
   'systemId':
     'prefix': 'systemId'
-    'body': 'systemId()'
+    'body': 'systemId'
+  'DOMObject':
+    'prefix': 'DOMObject'
+    'body': 'DOMObject'
   'sheet':
     'prefix': 'sheet'
-    'body': 'sheet()'
+    'body': 'sheet'
+  'DOMOverflowEvent':
+    'prefix': 'DOMOverflowEvent'
+    'body': 'DOMOverflowEvent'
   'horizontalOverflow':
     'prefix': 'horizontalOverflow'
-    'body': 'horizontalOverflow()'
+    'body': 'horizontalOverflow'
   'initOverflowEvent:horizontalOverflow:verticalOverflow:':
     'prefix': 'initOverflowEvent:horizontalOverflow:verticalOverflow:'
     'body': 'initOverflowEvent(${1:unsigned short orient}, horizontalOverflow:${2:BOOL horizontalOverflow}, verticalOverflow:${3:BOOL verticalOverflow})'
   'orient':
     'prefix': 'orient'
-    'body': 'orient()'
+    'body': 'orient'
   'verticalOverflow':
     'prefix': 'verticalOverflow'
-    'body': 'verticalOverflow()'
+    'body': 'verticalOverflow'
+  'DOMProcessingInstruction':
+    'prefix': 'DOMProcessingInstruction'
+    'body': 'DOMProcessingInstruction'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'setData:':
     'prefix': 'setData:'
     'body': 'setData(${1:NSString* data})'
   'sheet':
     'prefix': 'sheet'
-    'body': 'sheet()'
+    'body': 'sheet'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
+  'DOMProgressEvent':
+    'prefix': 'DOMProgressEvent'
+    'body': 'DOMProgressEvent'
   'lengthComputable':
     'prefix': 'lengthComputable'
-    'body': 'lengthComputable()'
+    'body': 'lengthComputable'
   'loaded':
     'prefix': 'loaded'
-    'body': 'loaded()'
+    'body': 'loaded'
   'total':
     'prefix': 'total'
-    'body': 'total()'
+    'body': 'total'
+  'DOMRGBColor':
+    'prefix': 'DOMRGBColor'
+    'body': 'DOMRGBColor'
   'alpha':
     'prefix': 'alpha'
-    'body': 'alpha()'
+    'body': 'alpha'
   'blue':
     'prefix': 'blue'
-    'body': 'blue()'
+    'body': 'blue'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'green':
     'prefix': 'green'
-    'body': 'green()'
+    'body': 'green'
   'red':
     'prefix': 'red'
-    'body': 'red()'
+    'body': 'red'
+  'DOMRange':
+    'prefix': 'DOMRange'
+    'body': 'DOMRange'
   'cloneContents':
     'prefix': 'cloneContents'
-    'body': 'cloneContents()'
+    'body': 'cloneContents'
   'cloneRange':
     'prefix': 'cloneRange'
-    'body': 'cloneRange()'
+    'body': 'cloneRange'
   'collapse:':
     'prefix': 'collapse:'
     'body': 'collapse(${1:BOOL toStart})'
   'collapsed':
     'prefix': 'collapsed'
-    'body': 'collapsed()'
+    'body': 'collapsed'
   'commonAncestorContainer':
     'prefix': 'commonAncestorContainer'
-    'body': 'commonAncestorContainer()'
+    'body': 'commonAncestorContainer'
   'compareBoundaryPoints::':
     'prefix': 'compareBoundaryPoints::'
     'body': 'compareBoundaryPoints(${1:unsigned short how}, :${2:DOMRange* sourceRange})'
@@ -5404,19 +5698,19 @@
     'body': 'createContextualFragment(${1:NSString* html})'
   'deleteContents':
     'prefix': 'deleteContents'
-    'body': 'deleteContents()'
+    'body': 'deleteContents'
   'detach':
     'prefix': 'detach'
-    'body': 'detach()'
+    'body': 'detach'
   'endContainer':
     'prefix': 'endContainer'
-    'body': 'endContainer()'
+    'body': 'endContainer'
   'endOffset':
     'prefix': 'endOffset'
-    'body': 'endOffset()'
+    'body': 'endOffset'
   'extractContents':
     'prefix': 'extractContents'
-    'body': 'extractContents()'
+    'body': 'extractContents'
   'insertNode:':
     'prefix': 'insertNode:'
     'body': 'insertNode(${1:DOMNode* newNode})'
@@ -5428,7 +5722,7 @@
     'body': 'isPointInRange(${1:DOMNode* refNode}, offset:${2:int offset})'
   'markupString':
     'prefix': 'markupString'
-    'body': 'markupString()'
+    'body': 'markupString'
   'selectNode:':
     'prefix': 'selectNode:'
     'body': 'selectNode(${1:DOMNode* refNode})'
@@ -5461,64 +5755,76 @@
     'body': 'setStartBefore(${1:DOMNode* refNode})'
   'startContainer':
     'prefix': 'startContainer'
-    'body': 'startContainer()'
+    'body': 'startContainer'
   'startOffset':
     'prefix': 'startOffset'
-    'body': 'startOffset()'
+    'body': 'startOffset'
   'surroundContents:':
     'prefix': 'surroundContents:'
     'body': 'surroundContents(${1:DOMNode* newParent})'
   'text':
     'prefix': 'text'
-    'body': 'text()'
+    'body': 'text'
   'toString':
     'prefix': 'toString'
-    'body': 'toString()'
+    'body': 'toString'
   'webArchive':
     'prefix': 'webArchive'
-    'body': 'webArchive()'
+    'body': 'webArchive'
+  'DOMRect':
+    'prefix': 'DOMRect'
+    'body': 'DOMRect'
   'bottom':
     'prefix': 'bottom'
-    'body': 'bottom()'
+    'body': 'bottom'
   'left':
     'prefix': 'left'
-    'body': 'left()'
+    'body': 'left'
   'right':
     'prefix': 'right'
-    'body': 'right()'
+    'body': 'right'
   'top':
     'prefix': 'top'
-    'body': 'top()'
+    'body': 'top'
+  'DOMStyleSheet':
+    'prefix': 'DOMStyleSheet'
+    'body': 'DOMStyleSheet'
   'disabled':
     'prefix': 'disabled'
-    'body': 'disabled()'
+    'body': 'disabled'
   'href':
     'prefix': 'href'
-    'body': 'href()'
+    'body': 'href'
   'media':
     'prefix': 'media'
-    'body': 'media()'
+    'body': 'media'
   'ownerNode':
     'prefix': 'ownerNode'
-    'body': 'ownerNode()'
+    'body': 'ownerNode'
   'parentStyleSheet':
     'prefix': 'parentStyleSheet'
-    'body': 'parentStyleSheet()'
+    'body': 'parentStyleSheet'
   'setDisabled:':
     'prefix': 'setDisabled:'
     'body': 'setDisabled(${1:BOOL disabled})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'DOMStyleSheetList':
+    'prefix': 'DOMStyleSheetList'
+    'body': 'DOMStyleSheetList'
   'item:':
     'prefix': 'item:'
     'body': 'item(${1:unsigned int index})'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
+  'DOMText':
+    'prefix': 'DOMText'
+    'body': 'DOMText'
   'replaceWholeText:':
     'prefix': 'replaceWholeText:'
     'body': 'replaceWholeText(${1:NSString* content})'
@@ -5527,52 +5833,58 @@
     'body': 'splitText(${1:unsigned int offset})'
   'wholeText':
     'prefix': 'wholeText'
-    'body': 'wholeText()'
+    'body': 'wholeText'
+  'DOMTreeWalker':
+    'prefix': 'DOMTreeWalker'
+    'body': 'DOMTreeWalker'
   'currentNode':
     'prefix': 'currentNode'
-    'body': 'currentNode()'
+    'body': 'currentNode'
   'expandEntityReferences':
     'prefix': 'expandEntityReferences'
-    'body': 'expandEntityReferences()'
+    'body': 'expandEntityReferences'
   'filter':
     'prefix': 'filter'
-    'body': 'filter()'
+    'body': 'filter'
   'firstChild':
     'prefix': 'firstChild'
-    'body': 'firstChild()'
+    'body': 'firstChild'
   'lastChild':
     'prefix': 'lastChild'
-    'body': 'lastChild()'
+    'body': 'lastChild'
   'nextNode':
     'prefix': 'nextNode'
-    'body': 'nextNode()'
+    'body': 'nextNode'
   'nextSibling':
     'prefix': 'nextSibling'
-    'body': 'nextSibling()'
+    'body': 'nextSibling'
   'parentNode':
     'prefix': 'parentNode'
-    'body': 'parentNode()'
+    'body': 'parentNode'
   'previousNode':
     'prefix': 'previousNode'
-    'body': 'previousNode()'
+    'body': 'previousNode'
   'previousSibling':
     'prefix': 'previousSibling'
-    'body': 'previousSibling()'
+    'body': 'previousSibling'
   'root':
     'prefix': 'root'
-    'body': 'root()'
+    'body': 'root'
   'setCurrentNode:':
     'prefix': 'setCurrentNode:'
     'body': 'setCurrentNode(${1:DOMNode* currentNode})'
   'whatToShow':
     'prefix': 'whatToShow'
-    'body': 'whatToShow()'
+    'body': 'whatToShow'
+  'DOMUIEvent':
+    'prefix': 'DOMUIEvent'
+    'body': 'DOMUIEvent'
   'charCode':
     'prefix': 'charCode'
-    'body': 'charCode()'
+    'body': 'charCode'
   'detail':
     'prefix': 'detail'
-    'body': 'detail()'
+    'body': 'detail'
   'initUIEvent:::::':
     'prefix': 'initUIEvent:::::'
     'body': 'initUIEvent(${1:NSString* type}, :${2:BOOL canBubble}, :${3:BOOL cancelable}, :${4:DOMAbstractView* view}, :${5:int detail})'
@@ -5581,73 +5893,85 @@
     'body': 'initUIEvent(${1:NSString* type}, canBubble:${2:BOOL canBubble}, cancelable:${3:BOOL cancelable}, view:${4:DOMAbstractView* view}, detail:${5:int detail})'
   'keyCode':
     'prefix': 'keyCode'
-    'body': 'KeyCode()'
+    'body': 'KeyCode'
   'layerX':
     'prefix': 'layerX'
-    'body': 'layerX()'
+    'body': 'layerX'
   'layerY':
     'prefix': 'layerY'
-    'body': 'layerY()'
+    'body': 'layerY'
   'pageX':
     'prefix': 'pageX'
-    'body': 'pageX()'
+    'body': 'pageX'
   'pageY':
     'prefix': 'pageY'
-    'body': 'pageY()'
+    'body': 'pageY'
   'view':
     'prefix': 'view'
-    'body': 'view()'
+    'body': 'view'
   'which':
     'prefix': 'which'
-    'body': 'which()'
+    'body': 'which'
+  'DOMWheelEvent':
+    'prefix': 'DOMWheelEvent'
+    'body': 'DOMWheelEvent'
   'initWheelEvent:wheelDeltaY:view:screenX:screenY:clientX:clientY:ctrlKey:altKey:shiftKey:metaKey:':
     'prefix': 'initWheelEvent:wheelDeltaY:view:screenX:screenY:clientX:clientY:ctrlKey:altKey:shiftKey:metaKey:'
     'body': 'initWheelEvent(${1:int wheelDeltaX}, wheelDeltaY:${2:int wheelDeltaY}, view:${3:DOMAbstractView* view}, screenX:${4:int screenX}, screenY:${5:int screenY}, clientX:${6:int clientX}, clientY:${7:int clientY}, ctrlKey:${8:BOOL ctrlKey}, altKey:${9:BOOL altKey}, shiftKey:${10:BOOL shiftKey}, metaKey:${11:BOOL metaKey})'
   'isHorizontal':
     'prefix': 'isHorizontal'
-    'body': 'isHorizontal()'
+    'body': 'isHorizontal'
   'wheelDelta':
     'prefix': 'wheelDelta'
-    'body': 'wheelDelta()'
+    'body': 'wheelDelta'
   'wheelDeltaX':
     'prefix': 'wheelDeltaX'
-    'body': 'wheelDeltaX()'
+    'body': 'wheelDeltaX'
   'wheelDeltaY':
     'prefix': 'wheelDeltaY'
-    'body': 'wheelDeltaY()'
+    'body': 'wheelDeltaY'
+  'DOMXPathExpression':
+    'prefix': 'DOMXPathExpression'
+    'body': 'DOMXPathExpression'
   'evaluate:::':
     'prefix': 'evaluate:::'
     'body': 'evaluate(${1:DOMNode* contextNode}, :${2:unsigned short type}, :${3:DOMXPathResult* inResult})'
   'evaluate:type:inResult:':
     'prefix': 'evaluate:type:inResult:'
     'body': 'evaluate(${1:DOMNode* contextNode}, type:${2:unsigned short type}, inResult:${3:DOMXPathResult* inResult})'
+  'DOMXPathResult':
+    'prefix': 'DOMXPathResult'
+    'body': 'DOMXPathResult'
   'booleanValue':
     'prefix': 'booleanValue'
-    'body': 'booleanValue()'
+    'body': 'booleanValue'
   'invalidIteratorState':
     'prefix': 'invalidIteratorState'
-    'body': 'invalidIteratorState()'
+    'body': 'invalidIteratorState'
   'iterateNext':
     'prefix': 'iterateNext'
-    'body': 'iterateNext()'
+    'body': 'iterateNext'
   'numberValue':
     'prefix': 'numberValue'
-    'body': 'numberValue()'
+    'body': 'numberValue'
   'resultType':
     'prefix': 'resultType'
-    'body': 'resultType()'
+    'body': 'resultType'
   'singleNodeValue':
     'prefix': 'singleNodeValue'
-    'body': 'singleNodeValue()'
+    'body': 'singleNodeValue'
   'snapshotItem:':
     'prefix': 'snapshotItem:'
     'body': 'snapshotItem(${1:unsigned int index})'
   'snapshotLength':
     'prefix': 'snapshotLength'
-    'body': 'snapshotLength()'
+    'body': 'snapshotLength'
   'stringValue':
     'prefix': 'stringValue'
-    'body': 'stringValue()'
+    'body': 'stringValue'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'acceptNode:':
     'prefix': 'acceptNode:'
     'body': 'acceptNode(${1:DOMNode* n})'
@@ -5659,13 +5983,13 @@
     'body': 'addEventListener(${1:NSString* type}, listener:${2:id listener}, useCapture:${3:BOOL useCapture})'
   'attributedString':
     'prefix': 'attributedString'
-    'body': 'attributedString()'
+    'body': 'attributedString'
   'canProvideDocumentSource':
     'prefix': 'canProvideDocumentSource'
-    'body': 'canProvideDocumentSource()'
+    'body': 'canProvideDocumentSource'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'chooseFilename:':
     'prefix': 'chooseFilename:'
     'body': 'chooseFilename(${1:NSString* fileName})'
@@ -5677,22 +6001,22 @@
     'body': 'dataSourceUpdated(${1:WebDataSource* dataSource})'
   'deselectAll':
     'prefix': 'deselectAll'
-    'body': 'deselectAll()'
+    'body': 'deselectAll'
   'dispatchEvent:':
     'prefix': 'dispatchEvent:'
     'body': 'dispatchEvent(${1:DOMEvent* event})'
   'documentSource':
     'prefix': 'documentSource'
-    'body': 'documentSource()'
+    'body': 'documentSource'
   'download':
     'prefix': 'download'
-    'body': 'download()'
+    'body': 'download'
   'downloadWindowForAuthenticationSheet:':
     'prefix': 'downloadWindowForAuthenticationSheet:'
     'body': 'downloadWindowForAuthenticationSheet(${1:WebDownload* download})'
   'finalizeForWebScript':
     'prefix': 'finalizeForWebScript'
-    'body': 'finalizeForWebScript()'
+    'body': 'finalizeForWebScript'
   'finishedLoadingWithDataSource:':
     'prefix': 'finishedLoadingWithDataSource:'
     'body': 'finishedLoadingWithDataSource(${1:WebDataSource* dataSource})'
@@ -5701,7 +6025,7 @@
     'body': 'handleEvent(${1:DOMEvent* evt})'
   'ignore':
     'prefix': 'ignore'
-    'body': 'ignore()'
+    'body': 'ignore'
   'invokeDefaultMethodWithArguments:':
     'prefix': 'invokeDefaultMethodWithArguments:'
     'body': 'invokeDefaultMethodWithArguments(${1:NSArray* arguments})'
@@ -5716,13 +6040,13 @@
     'body': 'isSelectorExcludedFromWebScript(${1:SEL selector})'
   'layout':
     'prefix': 'layout'
-    'body': 'layout()'
+    'body': 'layout'
   'lookupNamespaceURI:':
     'prefix': 'lookupNamespaceURI:'
     'body': 'lookupNamespaceURI(${1:NSString* prefix})'
   'objectForWebScript':
     'prefix': 'objectForWebScript'
-    'body': 'objectForWebScript()'
+    'body': 'objectForWebScript'
   'NSObject.plugInViewWithArguments:':
     'prefix': 'plugInViewWithArguments:'
     'body': 'plugInViewWithArguments(${1:NSDictionary* arguments})'
@@ -5743,13 +6067,13 @@
     'body': 'searchFor(${1:NSString* string}, direction:${2:BOOL forward}, caseSensitive:${3:BOOL caseFlag}, wrap:${4:BOOL wrapFlag})'
   'selectAll':
     'prefix': 'selectAll'
-    'body': 'selectAll()'
+    'body': 'selectAll'
   'selectedAttributedString':
     'prefix': 'selectedAttributedString'
-    'body': 'selectedAttributedString()'
+    'body': 'selectedAttributedString'
   'selectedString':
     'prefix': 'selectedString'
-    'body': 'selectedString()'
+    'body': 'selectedString'
   'setDataSource:':
     'prefix': 'setDataSource:'
     'body': 'setDataSource(${1:WebDataSource* dataSource})'
@@ -5758,49 +6082,49 @@
     'body': 'setNeedsLayout(${1:BOOL flag})'
   'string':
     'prefix': 'string'
-    'body': 'string()'
+    'body': 'string'
   'supportsTextEncoding':
     'prefix': 'supportsTextEncoding'
-    'body': 'supportsTextEncoding()'
+    'body': 'supportsTextEncoding'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'undoManagerForWebView:':
     'prefix': 'undoManagerForWebView:'
     'body': 'undoManagerForWebView(${1:WebView* webView})'
   'use':
     'prefix': 'use'
-    'body': 'use()'
+    'body': 'use'
   'viewDidMoveToHostWindow':
     'prefix': 'viewDidMoveToHostWindow'
-    'body': 'viewDidMoveToHostWindow()'
+    'body': 'viewDidMoveToHostWindow'
   'viewWillMoveToHostWindow:':
     'prefix': 'viewWillMoveToHostWindow:'
     'body': 'viewWillMoveToHostWindow(${1:NSWindow* hostWindow})'
   'webFrame':
     'prefix': 'webFrame'
-    'body': 'webFrame()'
+    'body': 'webFrame'
   'webPlugInContainerLoadRequest:inFrame:':
     'prefix': 'webPlugInContainerLoadRequest:inFrame:'
     'body': 'webPlugInContainerLoadRequest(${1:NSURLRequest* request}, inFrame:${2:NSString* target})'
   'webPlugInContainerSelectionColor':
     'prefix': 'webPlugInContainerSelectionColor'
-    'body': 'webPlugInContainerSelectionColor()'
+    'body': 'webPlugInContainerSelectionColor'
   'webPlugInContainerShowStatus:':
     'prefix': 'webPlugInContainerShowStatus:'
     'body': 'webPlugInContainerShowStatus(${1:NSString* message})'
   'webPlugInDestroy':
     'prefix': 'webPlugInDestroy'
-    'body': 'webPlugInDestroy()'
+    'body': 'webPlugInDestroy'
   'webPlugInInitialize':
     'prefix': 'webPlugInInitialize'
-    'body': 'webPlugInInitialize()'
+    'body': 'webPlugInInitialize'
   'webPlugInMainResourceDidFailWithError:':
     'prefix': 'webPlugInMainResourceDidFailWithError:'
     'body': 'webPlugInMainResourceDidFailWithError(${1:NSError* error})'
   'webPlugInMainResourceDidFinishLoading':
     'prefix': 'webPlugInMainResourceDidFinishLoading'
-    'body': 'webPlugInMainResourceDidFinishLoading()'
+    'body': 'webPlugInMainResourceDidFinishLoading'
   'webPlugInMainResourceDidReceiveData:':
     'prefix': 'webPlugInMainResourceDidReceiveData:'
     'body': 'webPlugInMainResourceDidReceiveData(${1:NSData* data})'
@@ -5812,10 +6136,10 @@
     'body': 'webPlugInSetIsSelected(${1:BOOL isSelected})'
   'webPlugInStart':
     'prefix': 'webPlugInStart'
-    'body': 'webPlugInStart()'
+    'body': 'webPlugInStart'
   'webPlugInStop':
     'prefix': 'webPlugInStop'
-    'body': 'webPlugInStop()'
+    'body': 'webPlugInStop'
   'NSObject.webScriptNameForKey:':
     'prefix': 'webScriptNameForKey:'
     'body': 'webScriptNameForKey(${1:char* name})'
@@ -6077,9 +6401,12 @@
   'webViewUnfocus:':
     'prefix': 'webViewUnfocus:'
     'body': 'webViewUnfocus(${1:WebView* sender})'
+  'WebArchive':
+    'prefix': 'WebArchive'
+    'body': 'WebArchive'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'initWithData:':
     'prefix': 'initWithData:'
     'body': 'initWithData(${1:NSData* data})'
@@ -6088,49 +6415,52 @@
     'body': 'initWithMainResource(${1:WebResource* mainResource}, subresources:${2:NSArray* subresources}, subframeArchives:${3:NSArray* subframeArchives})'
   'mainResource':
     'prefix': 'mainResource'
-    'body': 'mainResource()'
+    'body': 'mainResource'
   'subframeArchives':
     'prefix': 'subframeArchives'
-    'body': 'subframeArchives()'
+    'body': 'subframeArchives'
   'subresources':
     'prefix': 'subresources'
-    'body': 'subresources()'
+    'body': 'subresources'
+  'WebBackForwardList':
+    'prefix': 'WebBackForwardList'
+    'body': 'WebBackForwardList'
   'addItem:':
     'prefix': 'addItem:'
     'body': 'addItem(${1:WebHistoryItem* item})'
   'backItem':
     'prefix': 'backItem'
-    'body': 'backItem()'
+    'body': 'backItem'
   'backListCount':
     'prefix': 'backListCount'
-    'body': 'backListCount()'
+    'body': 'backListCount'
   'backListWithLimit:':
     'prefix': 'backListWithLimit:'
     'body': 'backListWithLimit(${1:int limit})'
   'capacity':
     'prefix': 'capacity'
-    'body': 'capacity()'
+    'body': 'capacity'
   'containsItem:':
     'prefix': 'containsItem:'
     'body': 'containsItem(${1:WebHistoryItem* item})'
   'currentItem':
     'prefix': 'currentItem'
-    'body': 'currentItem()'
+    'body': 'currentItem'
   'forwardItem':
     'prefix': 'forwardItem'
-    'body': 'forwardItem()'
+    'body': 'forwardItem'
   'forwardListCount':
     'prefix': 'forwardListCount'
-    'body': 'forwardListCount()'
+    'body': 'forwardListCount'
   'forwardListWithLimit:':
     'prefix': 'forwardListWithLimit:'
     'body': 'forwardListWithLimit(${1:int limit})'
   'goBack':
     'prefix': 'goBack'
-    'body': 'goBack()'
+    'body': 'goBack'
   'goForward':
     'prefix': 'goForward'
-    'body': 'goForward()'
+    'body': 'goForward'
   'goToItem:':
     'prefix': 'goToItem:'
     'body': 'goToItem(${1:WebHistoryItem* item})'
@@ -6139,88 +6469,94 @@
     'body': 'itemAtIndex(${1:int index})'
   'pageCacheSize':
     'prefix': 'pageCacheSize'
-    'body': 'pageCacheSize()'
+    'body': 'pageCacheSize'
   'setCapacity:':
     'prefix': 'setCapacity:'
     'body': 'setCapacity(${1:int size})'
   'setPageCacheSize:':
     'prefix': 'setPageCacheSize:'
     'body': 'setPageCacheSize(${1:NSUInteger size})'
+  'WebDataSource':
+    'prefix': 'WebDataSource'
+    'body': 'WebDataSource'
   'addSubresource:':
     'prefix': 'addSubresource:'
     'body': 'addSubresource(${1:WebResource* subresource})'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'initWithRequest:':
     'prefix': 'initWithRequest:'
     'body': 'initWithRequest(${1:NSURLRequest* request})'
   'initialRequest':
     'prefix': 'initialRequest'
-    'body': 'initialRequest()'
+    'body': 'initialRequest'
   'isLoading':
     'prefix': 'isLoading'
-    'body': 'isLoading()'
+    'body': 'isLoading'
   'mainResource':
     'prefix': 'mainResource'
-    'body': 'mainResource()'
+    'body': 'mainResource'
   'pageTitle':
     'prefix': 'pageTitle'
-    'body': 'pageTitle()'
+    'body': 'pageTitle'
   'representation':
     'prefix': 'representation'
-    'body': 'representation()'
+    'body': 'representation'
   'request':
     'prefix': 'request'
-    'body': 'request()'
+    'body': 'request'
   'response':
     'prefix': 'response'
-    'body': 'response()'
+    'body': 'response'
   'subresourceForURL:':
     'prefix': 'subresourceForURL:'
     'body': 'subresourceForURL(${1:NSURL* URL})'
   'subresources':
     'prefix': 'subresources'
-    'body': 'subresources()'
+    'body': 'subresources'
   'textEncodingName':
     'prefix': 'textEncodingName'
-    'body': 'textEncodingName()'
+    'body': 'textEncodingName'
   'unreachableURL':
     'prefix': 'unreachableURL'
-    'body': 'unreachableURL()'
+    'body': 'unreachableURL'
   'webArchive':
     'prefix': 'webArchive'
-    'body': 'webArchive()'
+    'body': 'webArchive'
   'webFrame':
     'prefix': 'webFrame'
-    'body': 'webFrame()'
+    'body': 'webFrame'
+  'WebFrame':
+    'prefix': 'WebFrame'
+    'body': 'WebFrame'
   'DOMDocument':
     'prefix': 'DOMDocument'
-    'body': 'DOMDocument()'
+    'body': 'DOMDocument'
   'childFrames':
     'prefix': 'childFrames'
-    'body': 'childFrames()'
+    'body': 'childFrames'
   'dataSource':
     'prefix': 'dataSource'
-    'body': 'dataSource()'
+    'body': 'dataSource'
   'findFrameNamed:':
     'prefix': 'findFrameNamed:'
     'body': 'findFrameNamed(${1:NSString* name})'
   'frameElement':
     'prefix': 'frameElement'
-    'body': 'frameElement()'
+    'body': 'frameElement'
   'frameView':
     'prefix': 'frameView'
-    'body': 'frameView()'
+    'body': 'frameView'
   'globalContext':
     'prefix': 'globalContext'
-    'body': 'globalContext()'
+    'body': 'globalContext'
   'initWithName:webFrameView:webView:':
     'prefix': 'initWithName:webFrameView:webView:'
     'body': 'initWithName(${1:NSString* name}, webFrameView:${2:WebFrameView* view}, webView:${3:WebView* webView})'
   'javaScriptContext':
     'prefix': 'javaScriptContext'
-    'body': 'javaScriptContext()'
+    'body': 'javaScriptContext'
   'loadAlternateHTMLString:baseURL:forUnreachableURL:':
     'prefix': 'loadAlternateHTMLString:baseURL:forUnreachableURL:'
     'body': 'loadAlternateHTMLString(${1:NSString* string}, baseURL:${2:NSURL* baseURL}, forUnreachableURL:${3:NSURL* unreachableURL})'
@@ -6238,43 +6574,46 @@
     'body': 'loadRequest(${1:NSURLRequest* request})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'parentFrame':
     'prefix': 'parentFrame'
-    'body': 'parentFrame()'
+    'body': 'parentFrame'
   'provisionalDataSource':
     'prefix': 'provisionalDataSource'
-    'body': 'provisionalDataSource()'
+    'body': 'provisionalDataSource'
   'reload':
     'prefix': 'reload'
-    'body': 'reload()'
+    'body': 'reload'
   'reloadFromOrigin':
     'prefix': 'reloadFromOrigin'
-    'body': 'reloadFromOrigin()'
+    'body': 'reloadFromOrigin'
   'stopLoading':
     'prefix': 'stopLoading'
-    'body': 'stopLoading()'
+    'body': 'stopLoading'
   'webView':
     'prefix': 'webView'
-    'body': 'webView()'
+    'body': 'webView'
   'windowObject':
     'prefix': 'windowObject'
-    'body': 'windowObject()'
+    'body': 'windowObject'
+  'WebFrameView':
+    'prefix': 'WebFrameView'
+    'body': 'WebFrameView'
   'allowsScrolling':
     'prefix': 'allowsScrolling'
-    'body': 'allowsScrolling()'
+    'body': 'allowsScrolling'
   'canPrintHeadersAndFooters':
     'prefix': 'canPrintHeadersAndFooters'
-    'body': 'canPrintHeadersAndFooters()'
+    'body': 'canPrintHeadersAndFooters'
   'documentView':
     'prefix': 'documentView'
-    'body': 'documentView()'
+    'body': 'documentView'
   'documentViewShouldHandlePrint':
     'prefix': 'documentViewShouldHandlePrint'
-    'body': 'documentViewShouldHandlePrint()'
+    'body': 'documentViewShouldHandlePrint'
   'printDocumentView':
     'prefix': 'printDocumentView'
-    'body': 'printDocumentView()'
+    'body': 'printDocumentView'
   'printOperationWithPrintInfo:':
     'prefix': 'printOperationWithPrintInfo:'
     'body': 'printOperationWithPrintInfo(${1:NSPrintInfo* printInfo})'
@@ -6283,16 +6622,19 @@
     'body': 'setAllowsScrolling(${1:BOOL flag})'
   'webFrame':
     'prefix': 'webFrame'
-    'body': 'webFrame()'
+    'body': 'webFrame'
+  'WebHistory':
+    'prefix': 'WebHistory'
+    'body': 'WebHistory'
   'addItems:':
     'prefix': 'addItems:'
     'body': 'addItems(${1:NSArray* newItems})'
   'historyAgeInDaysLimit':
     'prefix': 'historyAgeInDaysLimit'
-    'body': 'historyAgeInDaysLimit()'
+    'body': 'historyAgeInDaysLimit'
   'historyItemLimit':
     'prefix': 'historyItemLimit'
-    'body': 'historyItemLimit()'
+    'body': 'historyItemLimit'
   'itemForURL:':
     'prefix': 'itemForURL:'
     'body': 'itemForURL(${1:NSURL* URL})'
@@ -6301,16 +6643,16 @@
     'body': 'loadFromURL(${1:NSURL* URL}, error:${2:NSError** error})'
   'WebHistory.optionalSharedHistory':
     'prefix': 'optionalSharedHistory'
-    'body': 'optionalSharedHistory()'
+    'body': 'optionalSharedHistory'
   'orderedItemsLastVisitedOnDay:':
     'prefix': 'orderedItemsLastVisitedOnDay:'
     'body': 'orderedItemsLastVisitedOnDay(${1:NSCalendarDate* calendarDate})'
   'orderedLastVisitedDays':
     'prefix': 'orderedLastVisitedDays'
-    'body': 'orderedLastVisitedDays()'
+    'body': 'orderedLastVisitedDays'
   'removeAllItems':
     'prefix': 'removeAllItems'
-    'body': 'removeAllItems()'
+    'body': 'removeAllItems'
   'removeItems:':
     'prefix': 'removeItems:'
     'body': 'removeItems(${1:NSArray* items})'
@@ -6326,96 +6668,102 @@
   'WebHistory.setOptionalSharedHistory:':
     'prefix': 'setOptionalSharedHistory:'
     'body': 'setOptionalSharedHistory(${1:WebHistory* history})'
+  'WebHistoryItem':
+    'prefix': 'WebHistoryItem'
+    'body': 'WebHistoryItem'
   'URLString':
     'prefix': 'URLString'
-    'body': 'URLString()'
+    'body': 'URLString'
   'alternateTitle':
     'prefix': 'alternateTitle'
-    'body': 'alternateTitle()'
+    'body': 'alternateTitle'
   'icon':
     'prefix': 'icon'
-    'body': 'icon()'
+    'body': 'icon'
   'initWithURLString:title:lastVisitedTimeInterval:':
     'prefix': 'initWithURLString:title:lastVisitedTimeInterval:'
     'body': 'initWithURLString(${1:NSString* URLString}, title:${2:NSString* title}, lastVisitedTimeInterval:${3:NSTimeInterval time})'
   'lastVisitedTimeInterval':
     'prefix': 'lastVisitedTimeInterval'
-    'body': 'lastVisitedTimeInterval()'
+    'body': 'lastVisitedTimeInterval'
   'originalURLString':
     'prefix': 'originalURLString'
-    'body': 'originalURLString()'
+    'body': 'originalURLString'
   'setAlternateTitle:':
     'prefix': 'setAlternateTitle:'
     'body': 'setAlternateTitle(${1:NSString* alternateTitle})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'WebPreferences':
+    'prefix': 'WebPreferences'
+    'body': 'WebPreferences'
   'allowsAnimatedImageLooping':
     'prefix': 'allowsAnimatedImageLooping'
-    'body': 'allowsAnimatedImageLooping()'
+    'body': 'allowsAnimatedImageLooping'
   'allowsAnimatedImages':
     'prefix': 'allowsAnimatedImages'
-    'body': 'allowsAnimatedImages()'
+    'body': 'allowsAnimatedImages'
   'arePlugInsEnabled':
     'prefix': 'arePlugInsEnabled'
-    'body': 'arePlugInsEnabled()'
+    'body': 'arePlugInsEnabled'
   'autosaves':
     'prefix': 'autosaves'
-    'body': 'autosaves()'
+    'body': 'autosaves'
   'cacheModel':
     'prefix': 'cacheModel'
-    'body': 'cacheModel()'
+    'body': 'cacheModel'
   'cursiveFontFamily':
     'prefix': 'cursiveFontFamily'
-    'body': 'cursiveFontFamily()'
+    'body': 'cursiveFontFamily'
   'defaultFixedFontSize':
     'prefix': 'defaultFixedFontSize'
-    'body': 'defaultFixedFontSize()'
+    'body': 'defaultFixedFontSize'
   'defaultFontSize':
     'prefix': 'defaultFontSize'
-    'body': 'defaultFontSize()'
+    'body': 'defaultFontSize'
   'defaultTextEncodingName':
     'prefix': 'defaultTextEncodingName'
-    'body': 'defaultTextEncodingName()'
+    'body': 'defaultTextEncodingName'
   'fantasyFontFamily':
     'prefix': 'fantasyFontFamily'
-    'body': 'fantasyFontFamily()'
+    'body': 'fantasyFontFamily'
   'fixedFontFamily':
     'prefix': 'fixedFontFamily'
-    'body': 'fixedFontFamily()'
+    'body': 'fixedFontFamily'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'initWithIdentifier:':
     'prefix': 'initWithIdentifier:'
     'body': 'initWithIdentifier(${1:NSString* anIdentifier})'
   'isJavaEnabled':
     'prefix': 'isJavaEnabled'
-    'body': 'isJavaEnabled()'
+    'body': 'isJavaEnabled'
   'isJavaScriptEnabled':
     'prefix': 'isJavaScriptEnabled'
-    'body': 'isJavaScriptEnabled()'
+    'body': 'isJavaScriptEnabled'
   'javaScriptCanOpenWindowsAutomatically':
     'prefix': 'javaScriptCanOpenWindowsAutomatically'
-    'body': 'javaScriptCanOpenWindowsAutomatically()'
+    'body': 'javaScriptCanOpenWindowsAutomatically'
   'loadsImagesAutomatically':
     'prefix': 'loadsImagesAutomatically'
-    'body': 'loadsImagesAutomatically()'
+    'body': 'loadsImagesAutomatically'
   'minimumFontSize':
     'prefix': 'minimumFontSize'
-    'body': 'minimumFontSize()'
+    'body': 'minimumFontSize'
   'minimumLogicalFontSize':
     'prefix': 'minimumLogicalFontSize'
-    'body': 'minimumLogicalFontSize()'
+    'body': 'minimumLogicalFontSize'
   'privateBrowsingEnabled':
     'prefix': 'privateBrowsingEnabled'
-    'body': 'privateBrowsingEnabled()'
+    'body': 'privateBrowsingEnabled'
   'sansSerifFontFamily':
     'prefix': 'sansSerifFontFamily'
-    'body': 'sansSerifFontFamily()'
+    'body': 'sansSerifFontFamily'
   'serifFontFamily':
     'prefix': 'serifFontFamily'
-    'body': 'serifFontFamily()'
+    'body': 'serifFontFamily'
   'setAllowsAnimatedImageLooping:':
     'prefix': 'setAllowsAnimatedImageLooping:'
     'body': 'setAllowsAnimatedImageLooping(${1:BOOL flag})'
@@ -6499,52 +6847,58 @@
     'body': 'setUsesPageCache(${1:BOOL usesPageCache})'
   'shouldPrintBackgrounds':
     'prefix': 'shouldPrintBackgrounds'
-    'body': 'shouldPrintBackgrounds()'
+    'body': 'shouldPrintBackgrounds'
   'standardFontFamily':
     'prefix': 'standardFontFamily'
-    'body': 'standardFontFamily()'
+    'body': 'standardFontFamily'
   'WebPreferences.standardPreferences':
     'prefix': 'standardPreferences'
-    'body': 'standardPreferences()'
+    'body': 'standardPreferences'
   'suppressesIncrementalRendering':
     'prefix': 'suppressesIncrementalRendering'
-    'body': 'suppressesIncrementalRendering()'
+    'body': 'suppressesIncrementalRendering'
   'tabsToLinks':
     'prefix': 'tabsToLinks'
-    'body': 'tabsToLinks()'
+    'body': 'tabsToLinks'
   'userStyleSheetEnabled':
     'prefix': 'userStyleSheetEnabled'
-    'body': 'userStyleSheetEnabled()'
+    'body': 'userStyleSheetEnabled'
   'userStyleSheetLocation':
     'prefix': 'userStyleSheetLocation'
-    'body': 'userStyleSheetLocation()'
+    'body': 'userStyleSheetLocation'
   'usesPageCache':
     'prefix': 'usesPageCache'
-    'body': 'usesPageCache()'
+    'body': 'usesPageCache'
+  'WebResource':
+    'prefix': 'WebResource'
+    'body': 'WebResource'
   'MIMEType':
     'prefix': 'MIMEType'
-    'body': 'MIMEType()'
+    'body': 'MIMEType'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'frameName':
     'prefix': 'frameName'
-    'body': 'frameName()'
+    'body': 'frameName'
   'initWithData:URL:MIMEType:textEncodingName:frameName:':
     'prefix': 'initWithData:URL:MIMEType:textEncodingName:frameName:'
     'body': 'initWithData(${1:NSData* data}, URL:${2:NSURL* URL}, MIMEType:${3:NSString* MIMEType}, textEncodingName:${4:NSString* textEncodingName}, frameName:${5:NSString* frameName})'
   'textEncodingName':
     'prefix': 'textEncodingName'
-    'body': 'textEncodingName()'
+    'body': 'textEncodingName'
+  'WebScriptObject':
+    'prefix': 'WebScriptObject'
+    'body': 'WebScriptObject'
   'JSObject':
     'prefix': 'JSObject'
-    'body': 'JSObject()'
+    'body': 'JSObject'
   'JSValue':
     'prefix': 'JSValue'
-    'body': 'JSValue()'
+    'body': 'JSValue'
   'callWebScriptMethod:withArguments:':
     'prefix': 'callWebScriptMethod:withArguments:'
     'body': 'callWebScriptMethod(${1:NSString* name}, withArguments:${2:NSArray* arguments})'
@@ -6562,22 +6916,28 @@
     'body': 'setWebScriptValueAtIndex(${1:unsigned int index}, value:${2:id value})'
   'stringRepresentation':
     'prefix': 'stringRepresentation'
-    'body': 'stringRepresentation()'
+    'body': 'stringRepresentation'
   'WebScriptObject.throwException:':
     'prefix': 'throwException:'
     'body': 'throwException(${1:NSString* exceptionMessage})'
   'webScriptValueAtIndex:':
     'prefix': 'webScriptValueAtIndex:'
     'body': 'webScriptValueAtIndex(${1:unsigned int index})'
+  'WebUndefined':
+    'prefix': 'WebUndefined'
+    'body': 'WebUndefined'
   'WebUndefined.undefined':
     'prefix': 'undefined'
-    'body': 'undefined()'
+    'body': 'undefined'
+  'WebView':
+    'prefix': 'WebView'
+    'body': 'WebView'
   'WebView.MIMETypesShownAsHTML':
     'prefix': 'MIMETypesShownAsHTML'
-    'body': 'MIMETypesShownAsHTML()'
+    'body': 'MIMETypesShownAsHTML'
   'UIDelegate':
     'prefix': 'UIDelegate'
-    'body': 'UIDelegate()'
+    'body': 'UIDelegate'
   'WebView.URLFromPasteboard:':
     'prefix': 'URLFromPasteboard:'
     'body': 'URLFromPasteboard(${1:NSPasteboard* pasteboard})'
@@ -6598,28 +6958,28 @@
     'body': 'alignRight(${1:id sender})'
   'applicationNameForUserAgent':
     'prefix': 'applicationNameForUserAgent'
-    'body': 'applicationNameForUserAgent()'
+    'body': 'applicationNameForUserAgent'
   'applyStyle:':
     'prefix': 'applyStyle:'
     'body': 'applyStyle(${1:DOMCSSStyleDeclaration* style})'
   'backForwardList':
     'prefix': 'backForwardList'
-    'body': 'backForwardList()'
+    'body': 'backForwardList'
   'canGoBack':
     'prefix': 'canGoBack'
-    'body': 'canGoBack()'
+    'body': 'canGoBack'
   'canGoForward':
     'prefix': 'canGoForward'
-    'body': 'canGoForward()'
+    'body': 'canGoForward'
   'canMakeTextLarger':
     'prefix': 'canMakeTextLarger'
-    'body': 'canMakeTextLarger()'
+    'body': 'canMakeTextLarger'
   'canMakeTextSmaller':
     'prefix': 'canMakeTextSmaller'
-    'body': 'canMakeTextSmaller()'
+    'body': 'canMakeTextSmaller'
   'canMakeTextStandardSize':
     'prefix': 'canMakeTextStandardSize'
-    'body': 'canMakeTextStandardSize()'
+    'body': 'canMakeTextStandardSize'
   'WebView.canShowMIMEType:':
     'prefix': 'canShowMIMEType:'
     'body': 'canShowMIMEType(${1:NSString* MIMEType})'
@@ -6643,7 +7003,7 @@
     'body': 'checkSpelling(${1:id sender})'
   'close':
     'prefix': 'close'
-    'body': 'close()'
+    'body': 'close'
   'computedStyleForElement:pseudoElement:':
     'prefix': 'computedStyleForElement:pseudoElement:'
     'body': 'computedStyleForElement(${1:DOMElement* element}, pseudoElement:${2:NSString* pseudoElement})'
@@ -6655,10 +7015,10 @@
     'body': 'copyFont(${1:id sender})'
   'customTextEncodingName':
     'prefix': 'customTextEncodingName'
-    'body': 'customTextEncodingName()'
+    'body': 'customTextEncodingName'
   'customUserAgent':
     'prefix': 'customUserAgent'
-    'body': 'customUserAgent()'
+    'body': 'customUserAgent'
   'cut:':
     'prefix': 'cut:'
     'body': 'cut(${1:id sender})'
@@ -6667,37 +7027,37 @@
     'body': 'delete(${1:id sender})'
   'deleteSelection':
     'prefix': 'deleteSelection'
-    'body': 'deleteSelection()'
+    'body': 'deleteSelection'
   'downloadDelegate':
     'prefix': 'downloadDelegate'
-    'body': 'downloadDelegate()'
+    'body': 'downloadDelegate'
   'drawsBackground':
     'prefix': 'drawsBackground'
-    'body': 'drawsBackground()'
+    'body': 'drawsBackground'
   'editableDOMRangeForPoint:':
     'prefix': 'editableDOMRangeForPoint:'
     'body': 'editableDOMRangeForPoint(${1:NSPoint point})'
   'editingDelegate':
     'prefix': 'editingDelegate'
-    'body': 'editingDelegate()'
+    'body': 'editingDelegate'
   'elementAtPoint:':
     'prefix': 'elementAtPoint:'
     'body': 'elementAtPoint(${1:NSPoint point})'
   'estimatedProgress':
     'prefix': 'estimatedProgress'
-    'body': 'estimatedProgress()'
+    'body': 'estimatedProgress'
   'frameLoadDelegate':
     'prefix': 'frameLoadDelegate'
-    'body': 'frameLoadDelegate()'
+    'body': 'frameLoadDelegate'
   'goBack':
     'prefix': 'goBack'
-    'body': 'goBack()'
+    'body': 'goBack'
   'goBack:':
     'prefix': 'goBack:'
     'body': 'goBack(${1:id sender})'
   'goForward':
     'prefix': 'goForward'
-    'body': 'goForward()'
+    'body': 'goForward'
   'goForward:':
     'prefix': 'goForward:'
     'body': 'goForward(${1:id sender})'
@@ -6706,40 +7066,40 @@
     'body': 'goToBackForwardItem(${1:WebHistoryItem* item})'
   'groupName':
     'prefix': 'groupName'
-    'body': 'groupName()'
+    'body': 'groupName'
   'hostWindow':
     'prefix': 'hostWindow'
-    'body': 'hostWindow()'
+    'body': 'hostWindow'
   'initWithFrame:frameName:groupName:':
     'prefix': 'initWithFrame:frameName:groupName:'
     'body': 'initWithFrame(${1:NSRect frame}, frameName:${2:NSString* frameName}, groupName:${3:NSString* groupName})'
   'isContinuousSpellCheckingEnabled':
     'prefix': 'isContinuousSpellCheckingEnabled'
-    'body': 'isContinuousSpellCheckingEnabled()'
+    'body': 'isContinuousSpellCheckingEnabled'
   'isEditable':
     'prefix': 'isEditable'
-    'body': 'isEditable()'
+    'body': 'isEditable'
   'isLoading':
     'prefix': 'isLoading'
-    'body': 'isLoading()'
+    'body': 'isLoading'
   'mainFrame':
     'prefix': 'mainFrame'
-    'body': 'mainFrame()'
+    'body': 'mainFrame'
   'mainFrameDocument':
     'prefix': 'mainFrameDocument'
-    'body': 'mainFrameDocument()'
+    'body': 'mainFrameDocument'
   'mainFrameIcon':
     'prefix': 'mainFrameIcon'
-    'body': 'mainFrameIcon()'
+    'body': 'mainFrameIcon'
   'mainFrameTitle':
     'prefix': 'mainFrameTitle'
-    'body': 'mainFrameTitle()'
+    'body': 'mainFrameTitle'
   'mainFrameURL':
     'prefix': 'mainFrameURL'
-    'body': 'mainFrameURL()'
+    'body': 'mainFrameURL'
   'maintainsInactiveSelection':
     'prefix': 'maintainsInactiveSelection'
-    'body': 'maintainsInactiveSelection()'
+    'body': 'maintainsInactiveSelection'
   'makeTextLarger:':
     'prefix': 'makeTextLarger:'
     'body': 'makeTextLarger(${1:id sender})'
@@ -6751,7 +7111,7 @@
     'body': 'makeTextStandardSize(${1:id sender})'
   'mediaStyle':
     'prefix': 'mediaStyle'
-    'body': 'mediaStyle()'
+    'body': 'mediaStyle'
   'moveDragCaretToPoint:':
     'prefix': 'moveDragCaretToPoint:'
     'body': 'moveDragCaretToPoint(${1:NSPoint point})'
@@ -6787,19 +7147,19 @@
     'body': 'pasteboardTypesForElement(${1:NSDictionary* element})'
   'pasteboardTypesForSelection':
     'prefix': 'pasteboardTypesForSelection'
-    'body': 'pasteboardTypesForSelection()'
+    'body': 'pasteboardTypesForSelection'
   'performFindPanelAction:':
     'prefix': 'performFindPanelAction:'
     'body': 'performFindPanelAction(${1:id sender})'
   'policyDelegate':
     'prefix': 'policyDelegate'
-    'body': 'policyDelegate()'
+    'body': 'policyDelegate'
   'preferences':
     'prefix': 'preferences'
-    'body': 'preferences()'
+    'body': 'preferences'
   'preferencesIdentifier':
     'prefix': 'preferencesIdentifier'
-    'body': 'preferencesIdentifier()'
+    'body': 'preferencesIdentifier'
   'WebView.registerURLSchemeAsLocal:':
     'prefix': 'registerURLSchemeAsLocal:'
     'body': 'registerURLSchemeAsLocal(${1:NSString* scheme})'
@@ -6814,7 +7174,7 @@
     'body': 'reloadFromOrigin(${1:id sender})'
   'removeDragCaret':
     'prefix': 'removeDragCaret'
-    'body': 'removeDragCaret()'
+    'body': 'removeDragCaret'
   'replaceSelectionWithArchive:':
     'prefix': 'replaceSelectionWithArchive:'
     'body': 'replaceSelectionWithArchive(${1:WebArchive* archive})'
@@ -6829,7 +7189,7 @@
     'body': 'replaceSelectionWithText(${1:NSString* text})'
   'resourceLoadDelegate':
     'prefix': 'resourceLoadDelegate'
-    'body': 'resourceLoadDelegate()'
+    'body': 'resourceLoadDelegate'
   'searchFor:direction:caseSensitive:wrap:':
     'prefix': 'searchFor:direction:caseSensitive:wrap:'
     'body': 'searchFor(${1:NSString* string}, direction:${2:BOOL forward}, caseSensitive:${3:BOOL caseFlag}, wrap:${4:BOOL wrapFlag})'
@@ -6838,13 +7198,13 @@
     'body': 'selectSentence(${1:id sender})'
   'selectedDOMRange':
     'prefix': 'selectedDOMRange'
-    'body': 'selectedDOMRange()'
+    'body': 'selectedDOMRange'
   'selectedFrame':
     'prefix': 'selectedFrame'
-    'body': 'selectedFrame()'
+    'body': 'selectedFrame'
   'selectionAffinity':
     'prefix': 'selectionAffinity'
-    'body': 'selectionAffinity()'
+    'body': 'selectionAffinity'
   'setApplicationNameForUserAgent:':
     'prefix': 'setApplicationNameForUserAgent:'
     'body': 'setApplicationNameForUserAgent(${1:NSString* applicationName})'
@@ -6925,19 +7285,19 @@
     'body': 'setUIDelegate(${1:id delegate})'
   'shouldCloseWithWindow':
     'prefix': 'shouldCloseWithWindow'
-    'body': 'shouldCloseWithWindow()'
+    'body': 'shouldCloseWithWindow'
   'shouldUpdateWhileOffscreen':
     'prefix': 'shouldUpdateWhileOffscreen'
-    'body': 'shouldUpdateWhileOffscreen()'
+    'body': 'shouldUpdateWhileOffscreen'
   'showGuessPanel:':
     'prefix': 'showGuessPanel:'
     'body': 'showGuessPanel(${1:id sender})'
   'smartInsertDeleteEnabled':
     'prefix': 'smartInsertDeleteEnabled'
-    'body': 'smartInsertDeleteEnabled()'
+    'body': 'smartInsertDeleteEnabled'
   'spellCheckerDocumentTag':
     'prefix': 'spellCheckerDocumentTag'
-    'body': 'spellCheckerDocumentTag()'
+    'body': 'spellCheckerDocumentTag'
   'startSpeaking:':
     'prefix': 'startSpeaking:'
     'body': 'startSpeaking(${1:id sender})'
@@ -6955,13 +7315,13 @@
     'body': 'styleDeclarationWithText(${1:NSString* text})'
   'supportsTextEncoding':
     'prefix': 'supportsTextEncoding'
-    'body': 'supportsTextEncoding()'
+    'body': 'supportsTextEncoding'
   'takeStringURLFrom:':
     'prefix': 'takeStringURLFrom:'
     'body': 'takeStringURLFrom(${1:id sender})'
   'textSizeMultiplier':
     'prefix': 'textSizeMultiplier'
-    'body': 'textSizeMultiplier()'
+    'body': 'textSizeMultiplier'
   'toggleContinuousSpellChecking:':
     'prefix': 'toggleContinuousSpellChecking:'
     'body': 'toggleContinuousSpellChecking(${1:id sender})'
@@ -6970,25 +7330,31 @@
     'body': 'toggleSmartInsertDelete(${1:id sender})'
   'typingStyle':
     'prefix': 'typingStyle'
-    'body': 'typingStyle()'
+    'body': 'typingStyle'
   'undoManager':
     'prefix': 'undoManager'
-    'body': 'undoManager()'
+    'body': 'undoManager'
   'userAgentForURL:':
     'prefix': 'userAgentForURL:'
     'body': 'userAgentForURL(${1:NSURL* URL})'
   'windowScriptObject':
     'prefix': 'windowScriptObject'
-    'body': 'windowScriptObject()'
+    'body': 'windowScriptObject'
   'writeElement:withPasteboardTypes:toPasteboard:':
     'prefix': 'writeElement:withPasteboardTypes:toPasteboard:'
     'body': 'writeElement(${1:NSDictionary* element}, withPasteboardTypes:${2:NSArray* types}, toPasteboard:${3:NSPasteboard* pasteboard})'
   'writeSelectionWithPasteboardTypes:toPasteboard:':
     'prefix': 'writeSelectionWithPasteboardTypes:toPasteboard:'
     'body': 'writeSelectionWithPasteboardTypes(${1:NSArray* types}, toPasteboard:${2:NSPasteboard* pasteboard})'
+  'DOMEventListener':
+    'prefix': 'DOMEventListener'
+    'body': 'DOMEventListener'
   'handleEvent:':
     'prefix': 'handleEvent:'
     'body': 'handleEvent(${1:DOMEvent* evt})'
+  'DOMEventTarget':
+    'prefix': 'DOMEventTarget'
+    'body': 'DOMEventTarget'
   'addEventListener:::':
     'prefix': 'addEventListener:::'
     'body': 'addEventListener(${1:NSString* type}, :${2:id listener}, :${3:BOOL useCapture})'
@@ -7004,18 +7370,27 @@
   'removeEventListener:listener:useCapture:':
     'prefix': 'removeEventListener:listener:useCapture:'
     'body': 'removeEventListener(${1:NSString* type}, listener:${2:id listener}, useCapture:${3:BOOL useCapture})'
+  'DOMNodeFilter':
+    'prefix': 'DOMNodeFilter'
+    'body': 'DOMNodeFilter'
   'acceptNode:':
     'prefix': 'acceptNode:'
     'body': 'acceptNode(${1:DOMNode* n})'
+  'DOMXPathNSResolver':
+    'prefix': 'DOMXPathNSResolver'
+    'body': 'DOMXPathNSResolver'
   'lookupNamespaceURI:':
     'prefix': 'lookupNamespaceURI:'
     'body': 'lookupNamespaceURI(${1:NSString* prefix})'
+  'WebDocumentRepresentation':
+    'prefix': 'WebDocumentRepresentation'
+    'body': 'WebDocumentRepresentation'
   'canProvideDocumentSource':
     'prefix': 'canProvideDocumentSource'
-    'body': 'canProvideDocumentSource()'
+    'body': 'canProvideDocumentSource'
   'documentSource':
     'prefix': 'documentSource'
-    'body': 'documentSource()'
+    'body': 'documentSource'
   'finishedLoadingWithDataSource:':
     'prefix': 'finishedLoadingWithDataSource:'
     'body': 'finishedLoadingWithDataSource(${1:WebDataSource* dataSource})'
@@ -7030,37 +7405,46 @@
     'body': 'setDataSource(${1:WebDataSource* dataSource})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'WebDocumentSearching':
+    'prefix': 'WebDocumentSearching'
+    'body': 'WebDocumentSearching'
   'searchFor:direction:caseSensitive:wrap:':
     'prefix': 'searchFor:direction:caseSensitive:wrap:'
     'body': 'searchFor(${1:NSString* string}, direction:${2:BOOL forward}, caseSensitive:${3:BOOL caseFlag}, wrap:${4:BOOL wrapFlag})'
+  'WebDocumentText':
+    'prefix': 'WebDocumentText'
+    'body': 'WebDocumentText'
   'attributedString':
     'prefix': 'attributedString'
-    'body': 'attributedString()'
+    'body': 'attributedString'
   'deselectAll':
     'prefix': 'deselectAll'
-    'body': 'deselectAll()'
+    'body': 'deselectAll'
   'selectAll':
     'prefix': 'selectAll'
-    'body': 'selectAll()'
+    'body': 'selectAll'
   'selectedAttributedString':
     'prefix': 'selectedAttributedString'
-    'body': 'selectedAttributedString()'
+    'body': 'selectedAttributedString'
   'selectedString':
     'prefix': 'selectedString'
-    'body': 'selectedString()'
+    'body': 'selectedString'
   'string':
     'prefix': 'string'
-    'body': 'string()'
+    'body': 'string'
   'supportsTextEncoding':
     'prefix': 'supportsTextEncoding'
-    'body': 'supportsTextEncoding()'
+    'body': 'supportsTextEncoding'
+  'WebDocumentView':
+    'prefix': 'WebDocumentView'
+    'body': 'WebDocumentView'
   'dataSourceUpdated:':
     'prefix': 'dataSourceUpdated:'
     'body': 'dataSourceUpdated(${1:WebDataSource* dataSource})'
   'layout':
     'prefix': 'layout'
-    'body': 'layout()'
+    'body': 'layout'
   'setDataSource:':
     'prefix': 'setDataSource:'
     'body': 'setDataSource(${1:WebDataSource* dataSource})'
@@ -7069,13 +7453,19 @@
     'body': 'setNeedsLayout(${1:BOOL flag})'
   'viewDidMoveToHostWindow':
     'prefix': 'viewDidMoveToHostWindow'
-    'body': 'viewDidMoveToHostWindow()'
+    'body': 'viewDidMoveToHostWindow'
   'viewWillMoveToHostWindow:':
     'prefix': 'viewWillMoveToHostWindow:'
     'body': 'viewWillMoveToHostWindow(${1:NSWindow* hostWindow})'
+  'WebDownloadDelegate':
+    'prefix': 'WebDownloadDelegate'
+    'body': 'WebDownloadDelegate'
   'downloadWindowForAuthenticationSheet:':
     'prefix': 'downloadWindowForAuthenticationSheet:'
     'body': 'downloadWindowForAuthenticationSheet(${1:WebDownload* download})'
+  'WebFrameLoadDelegate':
+    'prefix': 'WebFrameLoadDelegate'
+    'body': 'WebFrameLoadDelegate'
   'webView:didCancelClientRedirectForFrame:':
     'prefix': 'webView:didCancelClientRedirectForFrame:'
     'body': 'webView(${1:WebView* sender}, didCancelClientRedirectForFrame:${2:WebFrame* frame})'
@@ -7121,30 +7511,36 @@
   'webView:windowScriptObjectAvailable:':
     'prefix': 'webView:windowScriptObjectAvailable:'
     'body': 'webView(${1:WebView* webView}, windowScriptObjectAvailable:${2:WebScriptObject* windowScriptObject})'
+  'WebOpenPanelResultListener':
+    'prefix': 'WebOpenPanelResultListener'
+    'body': 'WebOpenPanelResultListener'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'chooseFilename:':
     'prefix': 'chooseFilename:'
     'body': 'chooseFilename(${1:NSString* fileName})'
   'chooseFilenames:':
     'prefix': 'chooseFilenames:'
     'body': 'chooseFilenames(${1:NSArray* fileNames})'
+  'WebPlugIn':
+    'prefix': 'WebPlugIn'
+    'body': 'WebPlugIn'
   'objectForWebScript':
     'prefix': 'objectForWebScript'
-    'body': 'objectForWebScript()'
+    'body': 'objectForWebScript'
   'webPlugInDestroy':
     'prefix': 'webPlugInDestroy'
-    'body': 'webPlugInDestroy()'
+    'body': 'webPlugInDestroy'
   'webPlugInInitialize':
     'prefix': 'webPlugInInitialize'
-    'body': 'webPlugInInitialize()'
+    'body': 'webPlugInInitialize'
   'webPlugInMainResourceDidFailWithError:':
     'prefix': 'webPlugInMainResourceDidFailWithError:'
     'body': 'webPlugInMainResourceDidFailWithError(${1:NSError* error})'
   'webPlugInMainResourceDidFinishLoading':
     'prefix': 'webPlugInMainResourceDidFinishLoading'
-    'body': 'webPlugInMainResourceDidFinishLoading()'
+    'body': 'webPlugInMainResourceDidFinishLoading'
   'webPlugInMainResourceDidReceiveData:':
     'prefix': 'webPlugInMainResourceDidReceiveData:'
     'body': 'webPlugInMainResourceDidReceiveData(${1:NSData* data})'
@@ -7156,34 +7552,46 @@
     'body': 'webPlugInSetIsSelected(${1:BOOL isSelected})'
   'webPlugInStart':
     'prefix': 'webPlugInStart'
-    'body': 'webPlugInStart()'
+    'body': 'webPlugInStart'
   'webPlugInStop':
     'prefix': 'webPlugInStop'
-    'body': 'webPlugInStop()'
+    'body': 'webPlugInStop'
+  'WebPlugInContainer':
+    'prefix': 'WebPlugInContainer'
+    'body': 'WebPlugInContainer'
   'webFrame':
     'prefix': 'webFrame'
-    'body': 'webFrame()'
+    'body': 'webFrame'
   'webPlugInContainerLoadRequest:inFrame:':
     'prefix': 'webPlugInContainerLoadRequest:inFrame:'
     'body': 'webPlugInContainerLoadRequest(${1:NSURLRequest* request}, inFrame:${2:NSString* target})'
   'webPlugInContainerSelectionColor':
     'prefix': 'webPlugInContainerSelectionColor'
-    'body': 'webPlugInContainerSelectionColor()'
+    'body': 'webPlugInContainerSelectionColor'
   'webPlugInContainerShowStatus:':
     'prefix': 'webPlugInContainerShowStatus:'
     'body': 'webPlugInContainerShowStatus(${1:NSString* message})'
+  'WebPlugInViewFactory':
+    'prefix': 'WebPlugInViewFactory'
+    'body': 'WebPlugInViewFactory'
   'WebPlugInViewFactory.plugInViewWithArguments:':
     'prefix': 'plugInViewWithArguments:'
     'body': 'plugInViewWithArguments(${1:NSDictionary* arguments})'
+  'WebPolicyDecisionListener':
+    'prefix': 'WebPolicyDecisionListener'
+    'body': 'WebPolicyDecisionListener'
   'download':
     'prefix': 'download'
-    'body': 'download()'
+    'body': 'download'
   'ignore':
     'prefix': 'ignore'
-    'body': 'ignore()'
+    'body': 'ignore'
   'use':
     'prefix': 'use'
-    'body': 'use()'
+    'body': 'use'
+  'WebPolicyDelegate':
+    'prefix': 'WebPolicyDelegate'
+    'body': 'WebPolicyDelegate'
   'webView:decidePolicyForMIMEType:request:frame:decisionListener:':
     'prefix': 'webView:decidePolicyForMIMEType:request:frame:decisionListener:'
     'body': 'webView(${1:WebView* webView}, decidePolicyForMIMEType:${2:NSString* type}, request:${3:NSURLRequest* request}, frame:${4:WebFrame* frame}, decisionListener:${5:id listener})'
@@ -7196,6 +7604,9 @@
   'webView:unableToImplementPolicyWithError:frame:':
     'prefix': 'webView:unableToImplementPolicyWithError:frame:'
     'body': 'webView(${1:WebView* webView}, unableToImplementPolicyWithError:${2:NSError* error}, frame:${3:WebFrame* frame})'
+  'WebResourceLoadDelegate':
+    'prefix': 'WebResourceLoadDelegate'
+    'body': 'WebResourceLoadDelegate'
   'webView:identifierForInitialRequest:fromDataSource:':
     'prefix': 'webView:identifierForInitialRequest:fromDataSource:'
     'body': 'webView(${1:WebView* sender}, identifierForInitialRequest:${2:NSURLRequest* request}, fromDataSource:${3:WebDataSource* dataSource})'
@@ -7223,9 +7634,12 @@
   'webView:resource:willSendRequest:redirectResponse:fromDataSource:':
     'prefix': 'webView:resource:willSendRequest:redirectResponse:fromDataSource:'
     'body': 'webView(${1:WebView* sender}, resource:${2:id identifier}, willSendRequest:${3:NSURLRequest* request}, redirectResponse:${4:NSURLResponse* redirectResponse}, fromDataSource:${5:WebDataSource* dataSource})'
+  'WebScripting':
+    'prefix': 'WebScripting'
+    'body': 'WebScripting'
   'finalizeForWebScript':
     'prefix': 'finalizeForWebScript'
-    'body': 'finalizeForWebScript()'
+    'body': 'finalizeForWebScript'
   'invokeDefaultMethodWithArguments:':
     'prefix': 'invokeDefaultMethodWithArguments:'
     'body': 'invokeDefaultMethodWithArguments(${1:NSArray* arguments})'
@@ -7244,6 +7658,9 @@
   'WebScripting.webScriptNameForSelector:':
     'prefix': 'webScriptNameForSelector:'
     'body': 'webScriptNameForSelector(${1:SEL selector})'
+  'WebUIDelegate':
+    'prefix': 'WebUIDelegate'
+    'body': 'WebUIDelegate'
   'webView:contextMenuItemsForElement:defaultMenuItems:':
     'prefix': 'webView:contextMenuItemsForElement:defaultMenuItems:'
     'body': 'webView(${1:WebView* sender}, contextMenuItemsForElement:${2:NSDictionary* element}, defaultMenuItems:${3:NSArray* defaultMenuItems})'
@@ -7373,6 +7790,9 @@
   'webViewUnfocus:':
     'prefix': 'webViewUnfocus:'
     'body': 'webViewUnfocus(${1:WebView* sender})'
+  'WebViewEditingDelegate':
+    'prefix': 'WebViewEditingDelegate'
+    'body': 'WebViewEditingDelegate'
   'undoManagerForWebView:':
     'prefix': 'undoManagerForWebView:'
     'body': 'undoManagerForWebView(${1:WebView* webView})'

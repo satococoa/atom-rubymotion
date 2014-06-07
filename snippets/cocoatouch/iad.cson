@@ -53,33 +53,36 @@
   'ADInterstitialPresentationPolicyNone (0)':
     'prefix': 'ADInterstitialPresentationPolicyNone'
     'body': 'ADInterstitialPresentationPolicyNone'
+  'ADBannerView':
+    'prefix': 'ADBannerView'
+    'body': 'ADBannerView'
   'adType':
     'prefix': 'adType'
-    'body': 'adType()'
+    'body': 'adType'
   'advertisingSection':
     'prefix': 'advertisingSection'
-    'body': 'advertisingSection()'
+    'body': 'advertisingSection'
   'cancelBannerViewAction':
     'prefix': 'cancelBannerViewAction'
-    'body': 'cancelBannerViewAction()'
+    'body': 'cancelBannerViewAction'
   'currentContentSizeIdentifier':
     'prefix': 'currentContentSizeIdentifier'
-    'body': 'currentContentSizeIdentifier()'
+    'body': 'currentContentSizeIdentifier'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithAdType:':
     'prefix': 'initWithAdType:'
     'body': 'initWithAdType(${1:ADAdType type})'
   'isBannerLoaded':
     'prefix': 'isBannerLoaded'
-    'body': 'isBannerLoaded()'
+    'body': 'isBannerLoaded'
   'isBannerViewActionInProgress':
     'prefix': 'isBannerViewActionInProgress'
-    'body': 'isBannerViewActionInProgress()'
+    'body': 'isBannerViewActionInProgress'
   'requiredContentSizeIdentifiers':
     'prefix': 'requiredContentSizeIdentifiers'
-    'body': 'requiredContentSizeIdentifiers()'
+    'body': 'requiredContentSizeIdentifiers'
   'setAdvertisingSection:':
     'prefix': 'setAdvertisingSection:'
     'body': 'setAdvertisingSection(${1:NSString* advertisingSection})'
@@ -95,24 +98,30 @@
   'ADBannerView.sizeFromBannerContentSizeIdentifier:':
     'prefix': 'sizeFromBannerContentSizeIdentifier:'
     'body': 'sizeFromBannerContentSizeIdentifier(${1:NSString* contentSizeIdentifier})'
+  'ADClient':
+    'prefix': 'ADClient'
+    'body': 'ADClient'
   'determineAppInstallationAttributionWithCompletionHandler:':
     'prefix': 'determineAppInstallationAttributionWithCompletionHandler:'
     'body': 'determineAppInstallationAttributionWithCompletionHandler(${1:void (^)(BOOL) completionHandler})'
   'ADClient.sharedClient':
     'prefix': 'sharedClient'
-    'body': 'sharedClient()'
+    'body': 'sharedClient'
+  'ADInterstitialAd':
+    'prefix': 'ADInterstitialAd'
+    'body': 'ADInterstitialAd'
   'cancelAction':
     'prefix': 'cancelAction'
-    'body': 'cancelAction()'
+    'body': 'cancelAction'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'isActionInProgress':
     'prefix': 'isActionInProgress'
-    'body': 'isActionInProgress()'
+    'body': 'isActionInProgress'
   'isLoaded':
     'prefix': 'isLoaded'
-    'body': 'isLoaded()'
+    'body': 'isLoaded'
   'presentFromViewController:':
     'prefix': 'presentFromViewController:'
     'body': 'presentFromViewController(${1:UIViewController* viewController})'
@@ -122,12 +131,18 @@
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'MPMoviePlayerController':
+    'prefix': 'MPMoviePlayerController'
+    'body': 'MPMoviePlayerController'
   'playPrerollAdWithCompletionHandler:':
     'prefix': 'playPrerollAdWithCompletionHandler:'
     'body': 'playPrerollAdWithCompletionHandler(${1:void (^)(NSError *) completionHandler})'
   'MPMoviePlayerController.preparePrerollAds':
     'prefix': 'preparePrerollAds'
-    'body': 'preparePrerollAds()'
+    'body': 'preparePrerollAds'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'bannerView:didFailToReceiveAdWithError:':
     'prefix': 'bannerView:didFailToReceiveAdWithError:'
     'body': 'bannerView(${1:ADBannerView* banner}, didFailToReceiveAdWithError:${2:NSError* error})'
@@ -161,27 +176,30 @@
   'interstitialAdWillLoad:':
     'prefix': 'interstitialAdWillLoad:'
     'body': 'interstitialAdWillLoad(${1:ADInterstitialAd* interstitialAd})'
+  'UIViewController':
+    'prefix': 'UIViewController'
+    'body': 'UIViewController'
   'canDisplayBannerAds':
     'prefix': 'canDisplayBannerAds'
-    'body': 'canDisplayBannerAds()'
+    'body': 'canDisplayBannerAds'
   'interstitialPresentationPolicy':
     'prefix': 'interstitialPresentationPolicy'
-    'body': 'interstitialPresentationPolicy()'
+    'body': 'interstitialPresentationPolicy'
   'isDisplayingBannerAd':
     'prefix': 'isDisplayingBannerAd'
-    'body': 'isDisplayingBannerAd()'
+    'body': 'isDisplayingBannerAd'
   'isPresentingFullScreenAd':
     'prefix': 'isPresentingFullScreenAd'
-    'body': 'isPresentingFullScreenAd()'
+    'body': 'isPresentingFullScreenAd'
   'originalContentView':
     'prefix': 'originalContentView'
-    'body': 'originalContentView()'
+    'body': 'originalContentView'
   'UIViewController.prepareInterstitialAds':
     'prefix': 'prepareInterstitialAds'
-    'body': 'prepareInterstitialAds()'
+    'body': 'prepareInterstitialAds'
   'requestInterstitialAdPresentation':
     'prefix': 'requestInterstitialAdPresentation'
-    'body': 'requestInterstitialAdPresentation()'
+    'body': 'requestInterstitialAdPresentation'
   'setCanDisplayBannerAds:':
     'prefix': 'setCanDisplayBannerAds:'
     'body': 'setCanDisplayBannerAds(${1:BOOL canDisplayBannerAds})'
@@ -190,7 +208,10 @@
     'body': 'setInterstitialPresentationPolicy(${1:ADInterstitialPresentationPolicy interstitialPresentationPolicy})'
   'shouldPresentInterstitialAd':
     'prefix': 'shouldPresentInterstitialAd'
-    'body': 'shouldPresentInterstitialAd()'
+    'body': 'shouldPresentInterstitialAd'
+  'ADBannerViewDelegate':
+    'prefix': 'ADBannerViewDelegate'
+    'body': 'ADBannerViewDelegate'
   'bannerView:didFailToReceiveAdWithError:':
     'prefix': 'bannerView:didFailToReceiveAdWithError:'
     'body': 'bannerView(${1:ADBannerView* banner}, didFailToReceiveAdWithError:${2:NSError* error})'
@@ -206,6 +227,9 @@
   'bannerViewWillLoadAd:':
     'prefix': 'bannerViewWillLoadAd:'
     'body': 'bannerViewWillLoadAd(${1:ADBannerView* banner})'
+  'ADInterstitialAdDelegate':
+    'prefix': 'ADInterstitialAdDelegate'
+    'body': 'ADInterstitialAdDelegate'
   'interstitialAd:didFailWithError:':
     'prefix': 'interstitialAd:didFailWithError:'
     'body': 'interstitialAd(${1:ADInterstitialAd* interstitialAd}, didFailWithError:${2:NSError* error})'

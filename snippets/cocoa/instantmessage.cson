@@ -134,42 +134,48 @@
   'IMComparePersonStatus':
     'prefix': 'IMComparePersonStatus'
     'body': 'IMComparePersonStatus(${1:IMPersonStatus status}, ${2:IMPersonStatus compareTo})'
+  'IMAVButton':
+    'prefix': 'IMAVButton'
+    'body': 'IMAVButton'
   'IMAVButton.backwardButton':
     'prefix': 'backwardButton'
-    'body': 'backwardButton()'
+    'body': 'backwardButton'
   'IMAVButton.forwardButton':
     'prefix': 'forwardButton'
-    'body': 'forwardButton()'
+    'body': 'forwardButton'
   'IMAVButton.muteButton':
     'prefix': 'muteButton'
-    'body': 'muteButton()'
+    'body': 'muteButton'
   'IMAVButton.playPauseButton':
     'prefix': 'playPauseButton'
-    'body': 'playPauseButton()'
+    'body': 'playPauseButton'
   'setState:':
     'prefix': 'setState:'
     'body': 'setState(${1:NSInteger value})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
+  'IMAVControl':
+    'prefix': 'IMAVControl'
+    'body': 'IMAVControl'
   'action':
     'prefix': 'action'
-    'body': 'action()'
+    'body': 'action'
   'doubleValue':
     'prefix': 'doubleValue'
-    'body': 'doubleValue()'
+    'body': 'doubleValue'
   'floatValue':
     'prefix': 'floatValue'
-    'body': 'floatValue()'
+    'body': 'floatValue'
   'intValue':
     'prefix': 'intValue'
-    'body': 'intValue()'
+    'body': 'intValue'
   'integerValue':
     'prefix': 'integerValue'
-    'body': 'integerValue()'
+    'body': 'integerValue'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'setAction:':
     'prefix': 'setAction:'
     'body': 'setAction(${1:SEL aSelector})'
@@ -196,37 +202,43 @@
     'body': 'setTarget(${1:id anObject})'
   'tag':
     'prefix': 'tag'
-    'body': 'tag()'
+    'body': 'tag'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
+  'IMAVControlBar':
+    'prefix': 'IMAVControlBar'
+    'body': 'IMAVControlBar'
   'addControl:':
     'prefix': 'addControl:'
     'body': 'addControl(${1:IMAVControl* control})'
   'controls':
     'prefix': 'controls'
-    'body': 'controls()'
+    'body': 'controls'
   'removeAllControls':
     'prefix': 'removeAllControls'
-    'body': 'removeAllControls()'
+    'body': 'removeAllControls'
   'removeControl:':
     'prefix': 'removeControl:'
     'body': 'removeControl(${1:IMAVControl* control})'
+  'IMAVManager':
+    'prefix': 'IMAVManager'
+    'body': 'IMAVManager'
   'URLToShare':
     'prefix': 'URLToShare'
-    'body': 'URLToShare()'
+    'body': 'URLToShare'
   'audioDeviceChannels':
     'prefix': 'audioDeviceChannels'
-    'body': 'audioDeviceChannels()'
+    'body': 'audioDeviceChannels'
   'audioDeviceUID':
     'prefix': 'audioDeviceUID'
-    'body': 'audioDeviceUID()'
+    'body': 'audioDeviceUID'
   'controlBar':
     'prefix': 'controlBar'
-    'body': 'controlBar()'
+    'body': 'controlBar'
   'numberOfAudioChannels':
     'prefix': 'numberOfAudioChannels'
-    'body': 'numberOfAudioChannels()'
+    'body': 'numberOfAudioChannels'
   'setNumberOfAudioChannels:':
     'prefix': 'setNumberOfAudioChannels:'
     'body': 'setNumberOfAudioChannels(${1:NSInteger count})'
@@ -238,28 +250,31 @@
     'body': 'setVideoOptimizationOptions(${1:IMVideoOptimizationOptions options})'
   'IMAVManager.sharedAVManager':
     'prefix': 'sharedAVManager'
-    'body': 'sharedAVManager()'
+    'body': 'sharedAVManager'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
   'videoDataSource':
     'prefix': 'videoDataSource'
-    'body': 'videoDataSource()'
+    'body': 'videoDataSource'
   'videoOptimizationOptions':
     'prefix': 'videoOptimizationOptions'
-    'body': 'videoOptimizationOptions()'
+    'body': 'videoOptimizationOptions'
+  'IMAVSlider':
+    'prefix': 'IMAVSlider'
+    'body': 'IMAVSlider'
   'maxValue':
     'prefix': 'maxValue'
-    'body': 'maxValue()'
+    'body': 'maxValue'
   'minValue':
     'prefix': 'minValue'
-    'body': 'minValue()'
+    'body': 'minValue'
   'setMaxValue:':
     'prefix': 'setMaxValue:'
     'body': 'setMaxValue(${1:double aDouble})'
@@ -268,10 +283,13 @@
     'body': 'setMinValue(${1:double aDouble})'
   'IMAVSlider.timeSlider':
     'prefix': 'timeSlider'
-    'body': 'timeSlider()'
+    'body': 'timeSlider'
+  'IMService':
+    'prefix': 'IMService'
+    'body': 'IMService'
   'IMService.allServices':
     'prefix': 'allServices'
-    'body': 'allServices()'
+    'body': 'allServices'
   'IMService.imageNameForStatus:':
     'prefix': 'imageNameForStatus:'
     'body': 'imageNameForStatus(${1:IMPersonStatus status})'
@@ -280,31 +298,31 @@
     'body': 'imageURLForStatus(${1:IMPersonStatus status})'
   'infoForAllScreenNames':
     'prefix': 'infoForAllScreenNames'
-    'body': 'infoForAllScreenNames()'
+    'body': 'infoForAllScreenNames'
   'infoForPreferredScreenNames':
     'prefix': 'infoForPreferredScreenNames'
-    'body': 'infoForPreferredScreenNames()'
+    'body': 'infoForPreferredScreenNames'
   'infoForScreenName:':
     'prefix': 'infoForScreenName:'
     'body': 'infoForScreenName(${1:NSString* screenName})'
   'localizedName':
     'prefix': 'localizedName'
-    'body': 'localizedName()'
+    'body': 'localizedName'
   'localizedShortName':
     'prefix': 'localizedShortName'
-    'body': 'localizedShortName()'
+    'body': 'localizedShortName'
   'IMService.myIdleTime':
     'prefix': 'myIdleTime'
-    'body': 'myIdleTime()'
+    'body': 'myIdleTime'
   'IMService.myStatus':
     'prefix': 'myStatus'
-    'body': 'myStatus()'
+    'body': 'myStatus'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'IMService.notificationCenter':
     'prefix': 'notificationCenter'
-    'body': 'notificationCenter()'
+    'body': 'notificationCenter'
   'peopleWithScreenName:':
     'prefix': 'peopleWithScreenName:'
     'body': 'peopleWithScreenName(${1:NSString* screenName})'
@@ -316,7 +334,10 @@
     'body': 'serviceWithName(${1:NSString* name})'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'getOpenGLBufferContext:pixelFormat:':
     'prefix': 'getOpenGLBufferContext:pixelFormat:'
     'body': 'getOpenGLBufferContext(${1:CGLContextObj* contextOut}, pixelFormat:${2:CGLPixelFormatObj* pixelFormatOut})'
@@ -329,6 +350,9 @@
   'renderIntoPixelBuffer:forTime:':
     'prefix': 'renderIntoPixelBuffer:forTime:'
     'body': 'renderIntoPixelBuffer(${1:CVPixelBufferRef buffer}, forTime:${2:CVTimeStamp* timeStamp})'
+  'IMVideoDataSource':
+    'prefix': 'IMVideoDataSource'
+    'body': 'IMVideoDataSource'
   'getOpenGLBufferContext:pixelFormat:':
     'prefix': 'getOpenGLBufferContext:pixelFormat:'
     'body': 'getOpenGLBufferContext(${1:CGLContextObj* contextOut}, pixelFormat:${2:CGLPixelFormatObj* pixelFormatOut})'

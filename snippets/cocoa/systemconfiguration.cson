@@ -1162,7 +1162,7 @@
     'body': 'KSCStatusStale'
   'CNCopySupportedInterfaces':
     'prefix': 'CNCopySupportedInterfaces'
-    'body': 'CNCopySupportedInterfaces()'
+    'body': 'CNCopySupportedInterfaces'
   'CNMarkPortalOffline':
     'prefix': 'CNMarkPortalOffline'
     'body': 'CNMarkPortalOffline(${1:CFStringRef interfaceName})'
@@ -1225,10 +1225,10 @@
     'body': 'SCBondStatusGetMemberInterfaces(${1:SCBondStatusRef bondStatus})'
   'SCBondStatusGetTypeID':
     'prefix': 'SCBondStatusGetTypeID'
-    'body': 'SCBondStatusGetTypeID()'
+    'body': 'SCBondStatusGetTypeID'
   'SCCopyLastError':
     'prefix': 'SCCopyLastError'
-    'body': 'SCCopyLastError()'
+    'body': 'SCCopyLastError'
   'SCDynamicStoreAddTemporaryValue':
     'prefix': 'SCDynamicStoreAddTemporaryValue'
     'body': 'SCDynamicStoreAddTemporaryValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
@@ -1276,7 +1276,7 @@
     'body': 'SCDynamicStoreCreateWithOptions(${1:CFAllocatorRef allocator}, ${2:CFStringRef name}, ${3:CFDictionaryRef storeOptions}, ${4:SCDynamicStoreCallBack callout}, ${5:SCDynamicStoreContext* context})'
   'SCDynamicStoreGetTypeID':
     'prefix': 'SCDynamicStoreGetTypeID'
-    'body': 'SCDynamicStoreGetTypeID()'
+    'body': 'SCDynamicStoreGetTypeID'
   'SCDynamicStoreKeyCreate':
     'prefix': 'SCDynamicStoreKeyCreate'
     'body': 'SCDynamicStoreKeyCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef fmt})'
@@ -1327,7 +1327,7 @@
     'body': 'SCDynamicStoreSetValue(${1:SCDynamicStoreRef store}, ${2:CFStringRef key}, ${3:CFPropertyListRef value})'
   'SCError':
     'prefix': 'SCError'
-    'body': 'SCError()'
+    'body': 'SCError'
   'SCErrorString':
     'prefix': 'SCErrorString'
     'body': 'SCErrorString(${1:int status})'
@@ -1360,7 +1360,7 @@
     'body': 'SCNetworkConnectionGetStatus(${1:SCNetworkConnectionRef connection})'
   'SCNetworkConnectionGetTypeID':
     'prefix': 'SCNetworkConnectionGetTypeID'
-    'body': 'SCNetworkConnectionGetTypeID()'
+    'body': 'SCNetworkConnectionGetTypeID'
   'SCNetworkConnectionScheduleWithRunLoop':
     'prefix': 'SCNetworkConnectionScheduleWithRunLoop'
     'body': 'SCNetworkConnectionScheduleWithRunLoop(${1:SCNetworkConnectionRef connection}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
@@ -1378,7 +1378,7 @@
     'body': 'SCNetworkConnectionUnscheduleFromRunLoop(${1:SCNetworkConnectionRef connection}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
   'SCNetworkInterfaceCopyAll':
     'prefix': 'SCNetworkInterfaceCopyAll'
-    'body': 'SCNetworkInterfaceCopyAll()'
+    'body': 'SCNetworkInterfaceCopyAll'
   'SCNetworkInterfaceCopyMTU':
     'prefix': 'SCNetworkInterfaceCopyMTU'
     'body': 'SCNetworkInterfaceCopyMTU(${1:SCNetworkInterfaceRef interface}, ${2:int* mtu_cur}, ${3:int* mtu_min}, ${4:int* mtu_max})'
@@ -1426,7 +1426,7 @@
     'body': 'SCNetworkInterfaceGetSupportedProtocolTypes(${1:SCNetworkInterfaceRef interface})'
   'SCNetworkInterfaceGetTypeID':
     'prefix': 'SCNetworkInterfaceGetTypeID'
-    'body': 'SCNetworkInterfaceGetTypeID()'
+    'body': 'SCNetworkInterfaceGetTypeID'
   'SCNetworkInterfaceRefreshConfiguration':
     'prefix': 'SCNetworkInterfaceRefreshConfiguration'
     'body': 'SCNetworkInterfaceRefreshConfiguration(${1:CFStringRef ifName})'
@@ -1453,7 +1453,7 @@
     'body': 'SCNetworkProtocolGetProtocolType(${1:SCNetworkProtocolRef protocol})'
   'SCNetworkProtocolGetTypeID':
     'prefix': 'SCNetworkProtocolGetTypeID'
-    'body': 'SCNetworkProtocolGetTypeID()'
+    'body': 'SCNetworkProtocolGetTypeID'
   'SCNetworkProtocolSetConfiguration':
     'prefix': 'SCNetworkProtocolSetConfiguration'
     'body': 'SCNetworkProtocolSetConfiguration(${1:SCNetworkProtocolRef protocol}, ${2:CFDictionaryRef config})'
@@ -1474,7 +1474,7 @@
     'body': 'SCNetworkReachabilityGetFlags(${1:SCNetworkReachabilityRef target}, ${2:SCNetworkReachabilityFlags* flags})'
   'SCNetworkReachabilityGetTypeID':
     'prefix': 'SCNetworkReachabilityGetTypeID'
-    'body': 'SCNetworkReachabilityGetTypeID()'
+    'body': 'SCNetworkReachabilityGetTypeID'
   'SCNetworkReachabilityScheduleWithRunLoop':
     'prefix': 'SCNetworkReachabilityScheduleWithRunLoop'
     'body': 'SCNetworkReachabilityScheduleWithRunLoop(${1:SCNetworkReachabilityRef target}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
@@ -1522,7 +1522,7 @@
     'body': 'SCNetworkServiceGetServiceID(${1:SCNetworkServiceRef service})'
   'SCNetworkServiceGetTypeID':
     'prefix': 'SCNetworkServiceGetTypeID'
-    'body': 'SCNetworkServiceGetTypeID()'
+    'body': 'SCNetworkServiceGetTypeID'
   'SCNetworkServiceRemove':
     'prefix': 'SCNetworkServiceRemove'
     'body': 'SCNetworkServiceRemove(${1:SCNetworkServiceRef service})'
@@ -1567,7 +1567,7 @@
     'body': 'SCNetworkSetGetSetID(${1:SCNetworkSetRef set})'
   'SCNetworkSetGetTypeID':
     'prefix': 'SCNetworkSetGetTypeID'
-    'body': 'SCNetworkSetGetTypeID()'
+    'body': 'SCNetworkSetGetTypeID'
   'SCNetworkSetRemove':
     'prefix': 'SCNetworkSetRemove'
     'body': 'SCNetworkSetRemove(${1:SCNetworkSetRef set})'
@@ -1606,7 +1606,7 @@
     'body': 'SCPreferencesGetSignature(${1:SCPreferencesRef prefs})'
   'SCPreferencesGetTypeID':
     'prefix': 'SCPreferencesGetTypeID'
-    'body': 'SCPreferencesGetTypeID()'
+    'body': 'SCPreferencesGetTypeID'
   'SCPreferencesGetValue':
     'prefix': 'SCPreferencesGetValue'
     'body': 'SCPreferencesGetValue(${1:SCPreferencesRef prefs}, ${2:CFStringRef key})'
@@ -1666,7 +1666,7 @@
     'body': 'SCVLANInterfaceCopyAll(${1:SCPreferencesRef prefs})'
   'SCVLANInterfaceCopyAvailablePhysicalInterfaces':
     'prefix': 'SCVLANInterfaceCopyAvailablePhysicalInterfaces'
-    'body': 'SCVLANInterfaceCopyAvailablePhysicalInterfaces()'
+    'body': 'SCVLANInterfaceCopyAvailablePhysicalInterfaces'
   'SCVLANInterfaceCreate':
     'prefix': 'SCVLANInterfaceCreate'
     'body': 'SCVLANInterfaceCreate(${1:SCPreferencesRef prefs}, ${2:SCNetworkInterfaceRef physical}, ${3:CFNumberRef tag})'

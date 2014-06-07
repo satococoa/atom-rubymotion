@@ -248,51 +248,54 @@
   'MKStringFromMapSize':
     'prefix': 'MKStringFromMapSize'
     'body': 'MKStringFromMapSize(${1:MKMapSize size})'
+  'MKAnnotationView':
+    'prefix': 'MKAnnotationView'
+    'body': 'MKAnnotationView'
   'annotation':
     'prefix': 'annotation'
-    'body': 'annotation()'
+    'body': 'annotation'
   'calloutOffset':
     'prefix': 'calloutOffset'
-    'body': 'calloutOffset()'
+    'body': 'calloutOffset'
   'canShowCallout':
     'prefix': 'canShowCallout'
-    'body': 'canShowCallout()'
+    'body': 'canShowCallout'
   'centerOffset':
     'prefix': 'centerOffset'
-    'body': 'centerOffset()'
+    'body': 'centerOffset'
   'dragState':
     'prefix': 'dragState'
-    'body': 'dragState()'
+    'body': 'dragState'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'initWithAnnotation:reuseIdentifier:':
     'prefix': 'initWithAnnotation:reuseIdentifier:'
     'body': 'initWithAnnotation(${1:id annotation}, reuseIdentifier:${2:NSString* reuseIdentifier})'
   'isDraggable':
     'prefix': 'isDraggable'
-    'body': 'isDraggable()'
+    'body': 'isDraggable'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'isHighlighted':
     'prefix': 'isHighlighted'
-    'body': 'isHighlighted()'
+    'body': 'isHighlighted'
   'isSelected':
     'prefix': 'isSelected'
-    'body': 'isSelected()'
+    'body': 'isSelected'
   'leftCalloutAccessoryView':
     'prefix': 'leftCalloutAccessoryView'
-    'body': 'leftCalloutAccessoryView()'
+    'body': 'leftCalloutAccessoryView'
   'prepareForReuse':
     'prefix': 'prepareForReuse'
-    'body': 'prepareForReuse()'
+    'body': 'prepareForReuse'
   'reuseIdentifier':
     'prefix': 'reuseIdentifier'
-    'body': 'reuseIdentifier()'
+    'body': 'reuseIdentifier'
   'rightCalloutAccessoryView':
     'prefix': 'rightCalloutAccessoryView'
-    'body': 'rightCalloutAccessoryView()'
+    'body': 'rightCalloutAccessoryView'
   'setAnnotation:':
     'prefix': 'setAnnotation:'
     'body': 'setAnnotation(${1:id annotation})'
@@ -335,9 +338,12 @@
   'setSelected:animated:':
     'prefix': 'setSelected:animated:'
     'body': 'setSelected(${1:BOOL selected}, animated:${2:BOOL animated})'
+  'MKCircle':
+    'prefix': 'MKCircle'
+    'body': 'MKCircle'
   'boundingMapRect':
     'prefix': 'boundingMapRect'
-    'body': 'boundingMapRect()'
+    'body': 'boundingMapRect'
   'MKCircle.circleWithCenterCoordinate:radius:':
     'prefix': 'circleWithCenterCoordinate:radius:'
     'body': 'circleWithCenterCoordinate(${1:CLLocationCoordinate2D coord}, radius:${2:CLLocationDistance radius})'
@@ -346,22 +352,31 @@
     'body': 'circleWithMapRect(${1:MKMapRect mapRect})'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'radius':
     'prefix': 'radius'
-    'body': 'radius()'
+    'body': 'radius'
+  'MKCircleRenderer':
+    'prefix': 'MKCircleRenderer'
+    'body': 'MKCircleRenderer'
   'circle':
     'prefix': 'circle'
-    'body': 'circle()'
+    'body': 'circle'
   'initWithCircle:':
     'prefix': 'initWithCircle:'
     'body': 'initWithCircle(${1:MKCircle* circle})'
+  'MKCircleView':
+    'prefix': 'MKCircleView'
+    'body': 'MKCircleView'
   'circle':
     'prefix': 'circle'
-    'body': 'circle()'
+    'body': 'circle'
   'initWithCircle:':
     'prefix': 'initWithCircle:'
     'body': 'initWithCircle(${1:MKCircle* circle})'
+  'MKDirections':
+    'prefix': 'MKDirections'
+    'body': 'MKDirections'
   'calculateDirectionsWithCompletionHandler:':
     'prefix': 'calculateDirectionsWithCompletionHandler:'
     'body': 'calculateDirectionsWithCompletionHandler(${1:MKDirectionsHandler completionHandler})'
@@ -370,22 +385,25 @@
     'body': 'calculateETAWithCompletionHandler(${1:MKETAHandler completionHandler})'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'initWithRequest:':
     'prefix': 'initWithRequest:'
     'body': 'initWithRequest(${1:MKDirectionsRequest* request})'
   'isCalculating':
     'prefix': 'isCalculating'
-    'body': 'isCalculating()'
+    'body': 'isCalculating'
+  'MKDirectionsRequest':
+    'prefix': 'MKDirectionsRequest'
+    'body': 'MKDirectionsRequest'
   'arrivalDate':
     'prefix': 'arrivalDate'
-    'body': 'arrivalDate()'
+    'body': 'arrivalDate'
   'departureDate':
     'prefix': 'departureDate'
-    'body': 'departureDate()'
+    'body': 'departureDate'
   'destination':
     'prefix': 'destination'
-    'body': 'destination()'
+    'body': 'destination'
   'initWithContentsOfURL:':
     'prefix': 'initWithContentsOfURL:'
     'body': 'initWithContentsOfURL(${1:NSURL* url})'
@@ -394,7 +412,7 @@
     'body': 'isDirectionsRequestURL(${1:NSURL* url})'
   'requestsAlternateRoutes':
     'prefix': 'requestsAlternateRoutes'
-    'body': 'requestsAlternateRoutes()'
+    'body': 'requestsAlternateRoutes'
   'setArrivalDate:':
     'prefix': 'setArrivalDate:'
     'body': 'setArrivalDate(${1:NSDate* arrivalDate})'
@@ -415,25 +433,31 @@
     'body': 'setTransportType(${1:MKDirectionsTransportType transportType})'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
+  'MKDirectionsResponse':
+    'prefix': 'MKDirectionsResponse'
+    'body': 'MKDirectionsResponse'
   'destination':
     'prefix': 'destination'
-    'body': 'destination()'
+    'body': 'destination'
   'routes':
     'prefix': 'routes'
-    'body': 'routes()'
+    'body': 'routes'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
+  'MKDistanceFormatter':
+    'prefix': 'MKDistanceFormatter'
+    'body': 'MKDistanceFormatter'
   'distanceFromString:':
     'prefix': 'distanceFromString:'
     'body': 'distanceFromString(${1:NSString* distance})'
   'locale':
     'prefix': 'locale'
-    'body': 'locale()'
+    'body': 'locale'
   'setLocale:':
     'prefix': 'setLocale:'
     'body': 'setLocale(${1:NSLocale* locale})'
@@ -448,73 +472,91 @@
     'body': 'stringFromDistance(${1:CLLocationDistance distance})'
   'unitStyle':
     'prefix': 'unitStyle'
-    'body': 'unitStyle()'
+    'body': 'unitStyle'
   'units':
     'prefix': 'units'
-    'body': 'units()'
+    'body': 'units'
+  'MKETAResponse':
+    'prefix': 'MKETAResponse'
+    'body': 'MKETAResponse'
   'destination':
     'prefix': 'destination'
-    'body': 'destination()'
+    'body': 'destination'
   'expectedTravelTime':
     'prefix': 'expectedTravelTime'
-    'body': 'expectedTravelTime()'
+    'body': 'expectedTravelTime'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
+  'MKGeodesicPolyline':
+    'prefix': 'MKGeodesicPolyline'
+    'body': 'MKGeodesicPolyline'
   'MKGeodesicPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
     'body': 'polylineWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
   'MKGeodesicPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
     'body': 'polylineWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
+  'MKLocalSearch':
+    'prefix': 'MKLocalSearch'
+    'body': 'MKLocalSearch'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'initWithRequest:':
     'prefix': 'initWithRequest:'
     'body': 'initWithRequest(${1:MKLocalSearchRequest* request})'
   'isSearching':
     'prefix': 'isSearching'
-    'body': 'isSearching()'
+    'body': 'isSearching'
   'startWithCompletionHandler:':
     'prefix': 'startWithCompletionHandler:'
     'body': 'startWithCompletionHandler(${1:MKLocalSearchCompletionHandler completionHandler})'
+  'MKLocalSearchRequest':
+    'prefix': 'MKLocalSearchRequest'
+    'body': 'MKLocalSearchRequest'
   'naturalLanguageQuery':
     'prefix': 'naturalLanguageQuery'
-    'body': 'naturalLanguageQuery()'
+    'body': 'naturalLanguageQuery'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'setNaturalLanguageQuery:':
     'prefix': 'setNaturalLanguageQuery:'
     'body': 'setNaturalLanguageQuery(${1:NSString* naturalLanguageQuery})'
   'setRegion:':
     'prefix': 'setRegion:'
     'body': 'setRegion(${1:MKCoordinateRegion region})'
+  'MKLocalSearchResponse':
+    'prefix': 'MKLocalSearchResponse'
+    'body': 'MKLocalSearchResponse'
   'boundingRegion':
     'prefix': 'boundingRegion'
-    'body': 'boundingRegion()'
+    'body': 'boundingRegion'
   'mapItems':
     'prefix': 'mapItems'
-    'body': 'mapItems()'
+    'body': 'mapItems'
+  'MKMapCamera':
+    'prefix': 'MKMapCamera'
+    'body': 'MKMapCamera'
   'altitude':
     'prefix': 'altitude'
-    'body': 'altitude()'
+    'body': 'altitude'
   'MKMapCamera.camera':
     'prefix': 'camera'
-    'body': 'camera()'
+    'body': 'camera'
   'MKMapCamera.cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:':
     'prefix': 'cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:'
     'body': 'cameraLookingAtCenterCoordinate(${1:CLLocationCoordinate2D centerCoordinate}, fromEyeCoordinate:${2:CLLocationCoordinate2D eyeCoordinate}, eyeAltitude:${3:CLLocationDistance eyeAltitude})'
   'centerCoordinate':
     'prefix': 'centerCoordinate'
-    'body': 'centerCoordinate()'
+    'body': 'centerCoordinate'
   'heading':
     'prefix': 'heading'
-    'body': 'heading()'
+    'body': 'heading'
   'pitch':
     'prefix': 'pitch'
-    'body': 'pitch()'
+    'body': 'pitch'
   'setAltitude:':
     'prefix': 'setAltitude:'
     'body': 'setAltitude(${1:CLLocationDistance altitude})'
@@ -527,18 +569,21 @@
   'setPitch:':
     'prefix': 'setPitch:'
     'body': 'setPitch(${1:CGFloat pitch})'
+  'MKMapItem':
+    'prefix': 'MKMapItem'
+    'body': 'MKMapItem'
   'initWithPlacemark:':
     'prefix': 'initWithPlacemark:'
     'body': 'initWithPlacemark(${1:MKPlacemark* placemark})'
   'isCurrentLocation':
     'prefix': 'isCurrentLocation'
-    'body': 'isCurrentLocation()'
+    'body': 'isCurrentLocation'
   'MKMapItem.mapItemForCurrentLocation':
     'prefix': 'mapItemForCurrentLocation'
-    'body': 'mapItemForCurrentLocation()'
+    'body': 'mapItemForCurrentLocation'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'openInMapsWithLaunchOptions:':
     'prefix': 'openInMapsWithLaunchOptions:'
     'body': 'openInMapsWithLaunchOptions(${1:NSDictionary* launchOptions})'
@@ -547,10 +592,10 @@
     'body': 'openMapsWithItems(${1:NSArray* mapItems}, launchOptions:${2:NSDictionary* launchOptions})'
   'phoneNumber':
     'prefix': 'phoneNumber'
-    'body': 'phoneNumber()'
+    'body': 'phoneNumber'
   'placemark':
     'prefix': 'placemark'
-    'body': 'placemark()'
+    'body': 'placemark'
   'setName:':
     'prefix': 'setName:'
     'body': 'setName(${1:NSString* name})'
@@ -562,28 +607,34 @@
     'body': 'setUrl(${1:NSURL* url})'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'MKMapSnapshot':
+    'prefix': 'MKMapSnapshot'
+    'body': 'MKMapSnapshot'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'pointForCoordinate:':
     'prefix': 'pointForCoordinate:'
     'body': 'pointForCoordinate(${1:CLLocationCoordinate2D coordinate})'
+  'MKMapSnapshotOptions':
+    'prefix': 'MKMapSnapshotOptions'
+    'body': 'MKMapSnapshotOptions'
   'camera':
     'prefix': 'camera'
-    'body': 'camera()'
+    'body': 'camera'
   'mapRect':
     'prefix': 'mapRect'
-    'body': 'mapRect()'
+    'body': 'mapRect'
   'mapType':
     'prefix': 'mapType'
-    'body': 'mapType()'
+    'body': 'mapType'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'scale':
     'prefix': 'scale'
-    'body': 'scale()'
+    'body': 'scale'
   'setCamera:':
     'prefix': 'setCamera:'
     'body': 'setCamera(${1:MKMapCamera* camera})'
@@ -610,28 +661,34 @@
     'body': 'setSize(${1:CGSize size})'
   'showsBuildings':
     'prefix': 'showsBuildings'
-    'body': 'showsBuildings()'
+    'body': 'showsBuildings'
   'showsPointsOfInterest':
     'prefix': 'showsPointsOfInterest'
-    'body': 'showsPointsOfInterest()'
+    'body': 'showsPointsOfInterest'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
+  'MKMapSnapshotter':
+    'prefix': 'MKMapSnapshotter'
+    'body': 'MKMapSnapshotter'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'initWithOptions:':
     'prefix': 'initWithOptions:'
     'body': 'initWithOptions(${1:MKMapSnapshotOptions* options})'
   'isLoading':
     'prefix': 'isLoading'
-    'body': 'isLoading()'
+    'body': 'isLoading'
   'startWithCompletionHandler:':
     'prefix': 'startWithCompletionHandler:'
     'body': 'startWithCompletionHandler(${1:MKMapSnapshotCompletionHandler completionHandler})'
   'startWithQueue:completionHandler:':
     'prefix': 'startWithQueue:completionHandler:'
     'body': 'startWithQueue(${1:dispatch_queue_t queue}, completionHandler:${2:MKMapSnapshotCompletionHandler completionHandler})'
+  'MKMapView':
+    'prefix': 'MKMapView'
+    'body': 'MKMapView'
   'addAnnotation:':
     'prefix': 'addAnnotation:'
     'body': 'addAnnotation(${1:id annotation})'
@@ -652,19 +709,19 @@
     'body': 'addOverlays(${1:NSArray* overlays}, level:${2:MKOverlayLevel level})'
   'annotationVisibleRect':
     'prefix': 'annotationVisibleRect'
-    'body': 'annotationVisibleRect()'
+    'body': 'annotationVisibleRect'
   'annotations':
     'prefix': 'annotations'
-    'body': 'annotations()'
+    'body': 'annotations'
   'annotationsInMapRect:':
     'prefix': 'annotationsInMapRect:'
     'body': 'annotationsInMapRect(${1:MKMapRect mapRect})'
   'camera':
     'prefix': 'camera'
-    'body': 'camera()'
+    'body': 'camera'
   'centerCoordinate':
     'prefix': 'centerCoordinate'
-    'body': 'centerCoordinate()'
+    'body': 'centerCoordinate'
   'convertCoordinate:toPointToView:':
     'prefix': 'convertCoordinate:toPointToView:'
     'body': 'convertCoordinate(${1:CLLocationCoordinate2D coordinate}, toPointToView:${2:UIView* view})'
@@ -679,7 +736,7 @@
     'body': 'convertRegion(${1:MKCoordinateRegion region}, toRectToView:${2:UIView* view})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'dequeueReusableAnnotationViewWithIdentifier:':
     'prefix': 'dequeueReusableAnnotationViewWithIdentifier:'
     'body': 'dequeueReusableAnnotationViewWithIdentifier(${1:NSString* identifier})'
@@ -706,19 +763,19 @@
     'body': 'insertOverlay(${1:id overlay}, belowOverlay:${2:id sibling})'
   'isPitchEnabled':
     'prefix': 'isPitchEnabled'
-    'body': 'isPitchEnabled()'
+    'body': 'isPitchEnabled'
   'isRotateEnabled':
     'prefix': 'isRotateEnabled'
-    'body': 'isRotateEnabled()'
+    'body': 'isRotateEnabled'
   'isScrollEnabled':
     'prefix': 'isScrollEnabled'
-    'body': 'isScrollEnabled()'
+    'body': 'isScrollEnabled'
   'isUserLocationVisible':
     'prefix': 'isUserLocationVisible'
-    'body': 'isUserLocationVisible()'
+    'body': 'isUserLocationVisible'
   'isZoomEnabled':
     'prefix': 'isZoomEnabled'
-    'body': 'isZoomEnabled()'
+    'body': 'isZoomEnabled'
   'mapRectThatFits:':
     'prefix': 'mapRectThatFits:'
     'body': 'mapRectThatFits(${1:MKMapRect mapRect})'
@@ -727,16 +784,16 @@
     'body': 'mapRectThatFits(${1:MKMapRect mapRect}, edgePadding:${2:UIEdgeInsets insets})'
   'mapType':
     'prefix': 'mapType'
-    'body': 'mapType()'
+    'body': 'mapType'
   'overlays':
     'prefix': 'overlays'
-    'body': 'overlays()'
+    'body': 'overlays'
   'overlaysInLevel:':
     'prefix': 'overlaysInLevel:'
     'body': 'overlaysInLevel(${1:MKOverlayLevel level})'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'regionThatFits:':
     'prefix': 'regionThatFits:'
     'body': 'regionThatFits(${1:MKCoordinateRegion region})'
@@ -760,7 +817,7 @@
     'body': 'selectAnnotation(${1:id annotation}, animated:${2:BOOL animated})'
   'selectedAnnotations':
     'prefix': 'selectedAnnotations'
-    'body': 'selectedAnnotations()'
+    'body': 'selectedAnnotations'
   'setCamera:':
     'prefix': 'setCamera:'
     'body': 'setCamera(${1:MKMapCamera* camera})'
@@ -829,19 +886,19 @@
     'body': 'showAnnotations(${1:NSArray* annotations}, animated:${2:BOOL animated})'
   'showsBuildings':
     'prefix': 'showsBuildings'
-    'body': 'showsBuildings()'
+    'body': 'showsBuildings'
   'showsPointsOfInterest':
     'prefix': 'showsPointsOfInterest'
-    'body': 'showsPointsOfInterest()'
+    'body': 'showsPointsOfInterest'
   'showsUserLocation':
     'prefix': 'showsUserLocation'
-    'body': 'showsUserLocation()'
+    'body': 'showsUserLocation'
   'userLocation':
     'prefix': 'userLocation'
-    'body': 'userLocation()'
+    'body': 'userLocation'
   'userTrackingMode':
     'prefix': 'userTrackingMode'
-    'body': 'userTrackingMode()'
+    'body': 'userTrackingMode'
   'viewForAnnotation:':
     'prefix': 'viewForAnnotation:'
     'body': 'viewForAnnotation(${1:id annotation})'
@@ -850,16 +907,22 @@
     'body': 'viewForOverlay(${1:id overlay})'
   'visibleMapRect':
     'prefix': 'visibleMapRect'
-    'body': 'visibleMapRect()'
+    'body': 'visibleMapRect'
+  'MKMultiPoint':
+    'prefix': 'MKMultiPoint'
+    'body': 'MKMultiPoint'
   'getCoordinates:range:':
     'prefix': 'getCoordinates:range:'
     'body': 'getCoordinates(${1:CLLocationCoordinate2D* coords}, range:${2:NSRange range})'
   'pointCount':
     'prefix': 'pointCount'
-    'body': 'pointCount()'
+    'body': 'pointCount'
   'points':
     'prefix': 'points'
-    'body': 'points()'
+    'body': 'points'
+  'MKOverlayPathRenderer':
+    'prefix': 'MKOverlayPathRenderer'
+    'body': 'MKOverlayPathRenderer'
   'applyFillPropertiesToContext:atZoomScale:':
     'prefix': 'applyFillPropertiesToContext:atZoomScale:'
     'body': 'applyFillPropertiesToContext(${1:CGContextRef context}, atZoomScale:${2:MKZoomScale zoomScale})'
@@ -868,37 +931,37 @@
     'body': 'applyStrokePropertiesToContext(${1:CGContextRef context}, atZoomScale:${2:MKZoomScale zoomScale})'
   'createPath':
     'prefix': 'createPath'
-    'body': 'createPath()'
+    'body': 'createPath'
   'fillColor':
     'prefix': 'fillColor'
-    'body': 'fillColor()'
+    'body': 'fillColor'
   'fillPath:inContext:':
     'prefix': 'fillPath:inContext:'
     'body': 'fillPath(${1:CGPathRef path}, inContext:${2:CGContextRef context})'
   'invalidatePath':
     'prefix': 'invalidatePath'
-    'body': 'invalidatePath()'
+    'body': 'invalidatePath'
   'lineCap':
     'prefix': 'lineCap'
-    'body': 'lineCap()'
+    'body': 'lineCap'
   'lineDashPattern':
     'prefix': 'lineDashPattern'
-    'body': 'lineDashPattern()'
+    'body': 'lineDashPattern'
   'lineDashPhase':
     'prefix': 'lineDashPhase'
-    'body': 'lineDashPhase()'
+    'body': 'lineDashPhase'
   'lineJoin':
     'prefix': 'lineJoin'
-    'body': 'lineJoin()'
+    'body': 'lineJoin'
   'lineWidth':
     'prefix': 'lineWidth'
-    'body': 'lineWidth()'
+    'body': 'lineWidth'
   'miterLimit':
     'prefix': 'miterLimit'
-    'body': 'miterLimit()'
+    'body': 'miterLimit'
   'path':
     'prefix': 'path'
-    'body': 'path()'
+    'body': 'path'
   'setFillColor:':
     'prefix': 'setFillColor:'
     'body': 'setFillColor(${1:UIColor* fillColor})'
@@ -928,10 +991,13 @@
     'body': 'setStrokeColor(${1:UIColor* strokeColor})'
   'strokeColor':
     'prefix': 'strokeColor'
-    'body': 'strokeColor()'
+    'body': 'strokeColor'
   'strokePath:inContext:':
     'prefix': 'strokePath:inContext:'
     'body': 'strokePath(${1:CGPathRef path}, inContext:${2:CGContextRef context})'
+  'MKOverlayPathView':
+    'prefix': 'MKOverlayPathView'
+    'body': 'MKOverlayPathView'
   'applyFillPropertiesToContext:atZoomScale:':
     'prefix': 'applyFillPropertiesToContext:atZoomScale:'
     'body': 'applyFillPropertiesToContext(${1:CGContextRef context}, atZoomScale:${2:MKZoomScale zoomScale})'
@@ -940,37 +1006,37 @@
     'body': 'applyStrokePropertiesToContext(${1:CGContextRef context}, atZoomScale:${2:MKZoomScale zoomScale})'
   'createPath':
     'prefix': 'createPath'
-    'body': 'createPath()'
+    'body': 'createPath'
   'fillColor':
     'prefix': 'fillColor'
-    'body': 'fillColor()'
+    'body': 'fillColor'
   'fillPath:inContext:':
     'prefix': 'fillPath:inContext:'
     'body': 'fillPath(${1:CGPathRef path}, inContext:${2:CGContextRef context})'
   'invalidatePath':
     'prefix': 'invalidatePath'
-    'body': 'invalidatePath()'
+    'body': 'invalidatePath'
   'lineCap':
     'prefix': 'lineCap'
-    'body': 'lineCap()'
+    'body': 'lineCap'
   'lineDashPattern':
     'prefix': 'lineDashPattern'
-    'body': 'lineDashPattern()'
+    'body': 'lineDashPattern'
   'lineDashPhase':
     'prefix': 'lineDashPhase'
-    'body': 'lineDashPhase()'
+    'body': 'lineDashPhase'
   'lineJoin':
     'prefix': 'lineJoin'
-    'body': 'lineJoin()'
+    'body': 'lineJoin'
   'lineWidth':
     'prefix': 'lineWidth'
-    'body': 'lineWidth()'
+    'body': 'lineWidth'
   'miterLimit':
     'prefix': 'miterLimit'
-    'body': 'miterLimit()'
+    'body': 'miterLimit'
   'path':
     'prefix': 'path'
-    'body': 'path()'
+    'body': 'path'
   'setFillColor:':
     'prefix': 'setFillColor:'
     'body': 'setFillColor(${1:UIColor* fillColor})'
@@ -1000,19 +1066,22 @@
     'body': 'setStrokeColor(${1:UIColor* strokeColor})'
   'strokeColor':
     'prefix': 'strokeColor'
-    'body': 'strokeColor()'
+    'body': 'strokeColor'
   'strokePath:inContext:':
     'prefix': 'strokePath:inContext:'
     'body': 'strokePath(${1:CGPathRef path}, inContext:${2:CGContextRef context})'
+  'MKOverlayRenderer':
+    'prefix': 'MKOverlayRenderer'
+    'body': 'MKOverlayRenderer'
   'alpha':
     'prefix': 'alpha'
-    'body': 'alpha()'
+    'body': 'alpha'
   'canDrawMapRect:zoomScale:':
     'prefix': 'canDrawMapRect:zoomScale:'
     'body': 'canDrawMapRect(${1:MKMapRect mapRect}, zoomScale:${2:MKZoomScale zoomScale})'
   'contentScaleFactor':
     'prefix': 'contentScaleFactor'
-    'body': 'contentScaleFactor()'
+    'body': 'contentScaleFactor'
   'drawMapRect:zoomScale:inContext:':
     'prefix': 'drawMapRect:zoomScale:inContext:'
     'body': 'drawMapRect(${1:MKMapRect mapRect}, zoomScale:${2:MKZoomScale zoomScale}, inContext:${3:CGContextRef context})'
@@ -1027,7 +1096,7 @@
     'body': 'mapRectForRect(${1:CGRect rect})'
   'overlay':
     'prefix': 'overlay'
-    'body': 'overlay()'
+    'body': 'overlay'
   'pointForMapPoint:':
     'prefix': 'pointForMapPoint:'
     'body': 'pointForMapPoint(${1:MKMapPoint mapPoint})'
@@ -1039,13 +1108,16 @@
     'body': 'setAlpha(${1:CGFloat alpha})'
   'setNeedsDisplay':
     'prefix': 'setNeedsDisplay'
-    'body': 'setNeedsDisplay()'
+    'body': 'setNeedsDisplay'
   'setNeedsDisplayInMapRect:':
     'prefix': 'setNeedsDisplayInMapRect:'
     'body': 'setNeedsDisplayInMapRect(${1:MKMapRect mapRect})'
   'setNeedsDisplayInMapRect:zoomScale:':
     'prefix': 'setNeedsDisplayInMapRect:zoomScale:'
     'body': 'setNeedsDisplayInMapRect(${1:MKMapRect mapRect}, zoomScale:${2:MKZoomScale zoomScale})'
+  'MKOverlayView':
+    'prefix': 'MKOverlayView'
+    'body': 'MKOverlayView'
   'canDrawMapRect:zoomScale:':
     'prefix': 'canDrawMapRect:zoomScale:'
     'body': 'canDrawMapRect(${1:MKMapRect mapRect}, zoomScale:${2:MKZoomScale zoomScale})'
@@ -1063,7 +1135,7 @@
     'body': 'mapRectForRect(${1:CGRect rect})'
   'overlay':
     'prefix': 'overlay'
-    'body': 'overlay()'
+    'body': 'overlay'
   'pointForMapPoint:':
     'prefix': 'pointForMapPoint:'
     'body': 'pointForMapPoint(${1:MKMapPoint mapPoint})'
@@ -1076,33 +1148,45 @@
   'setNeedsDisplayInMapRect:zoomScale:':
     'prefix': 'setNeedsDisplayInMapRect:zoomScale:'
     'body': 'setNeedsDisplayInMapRect(${1:MKMapRect mapRect}, zoomScale:${2:MKZoomScale zoomScale})'
+  'MKPinAnnotationView':
+    'prefix': 'MKPinAnnotationView'
+    'body': 'MKPinAnnotationView'
   'animatesDrop':
     'prefix': 'animatesDrop'
-    'body': 'animatesDrop()'
+    'body': 'animatesDrop'
   'pinColor':
     'prefix': 'pinColor'
-    'body': 'pinColor()'
+    'body': 'pinColor'
   'setAnimatesDrop:':
     'prefix': 'setAnimatesDrop:'
     'body': 'setAnimatesDrop(${1:BOOL animatesDrop})'
   'setPinColor:':
     'prefix': 'setPinColor:'
     'body': 'setPinColor(${1:MKPinAnnotationColor pinColor})'
+  'MKPlacemark':
+    'prefix': 'MKPlacemark'
+    'body': 'MKPlacemark'
   'countryCode':
     'prefix': 'countryCode'
-    'body': 'countryCode()'
+    'body': 'countryCode'
   'initWithCoordinate:addressDictionary:':
     'prefix': 'initWithCoordinate:addressDictionary:'
     'body': 'initWithCoordinate(${1:CLLocationCoordinate2D coordinate}, addressDictionary:${2:NSDictionary* addressDictionary})'
+  'MKPointAnnotation':
+    'prefix': 'MKPointAnnotation'
+    'body': 'MKPointAnnotation'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'setCoordinate:':
     'prefix': 'setCoordinate:'
     'body': 'setCoordinate(${1:CLLocationCoordinate2D coordinate})'
+  'MKPolygon':
+    'prefix': 'MKPolygon'
+    'body': 'MKPolygon'
   'interiorPolygons':
     'prefix': 'interiorPolygons'
-    'body': 'interiorPolygons()'
+    'body': 'interiorPolygons'
   'MKPolygon.polygonWithCoordinates:count:':
     'prefix': 'polygonWithCoordinates:count:'
     'body': 'polygonWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
@@ -1115,96 +1199,123 @@
   'MKPolygon.polygonWithPoints:count:interiorPolygons:':
     'prefix': 'polygonWithPoints:count:interiorPolygons:'
     'body': 'polygonWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count}, interiorPolygons:${3:NSArray* interiorPolygons})'
+  'MKPolygonRenderer':
+    'prefix': 'MKPolygonRenderer'
+    'body': 'MKPolygonRenderer'
   'initWithPolygon:':
     'prefix': 'initWithPolygon:'
     'body': 'initWithPolygon(${1:MKPolygon* polygon})'
   'polygon':
     'prefix': 'polygon'
-    'body': 'polygon()'
+    'body': 'polygon'
+  'MKPolygonView':
+    'prefix': 'MKPolygonView'
+    'body': 'MKPolygonView'
   'initWithPolygon:':
     'prefix': 'initWithPolygon:'
     'body': 'initWithPolygon(${1:MKPolygon* polygon})'
   'polygon':
     'prefix': 'polygon'
-    'body': 'polygon()'
+    'body': 'polygon'
+  'MKPolyline':
+    'prefix': 'MKPolyline'
+    'body': 'MKPolyline'
   'MKPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
     'body': 'polylineWithCoordinates(${1:CLLocationCoordinate2D* coords}, count:${2:NSUInteger count})'
   'MKPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
     'body': 'polylineWithPoints(${1:MKMapPoint* points}, count:${2:NSUInteger count})'
+  'MKPolylineRenderer':
+    'prefix': 'MKPolylineRenderer'
+    'body': 'MKPolylineRenderer'
   'initWithPolyline:':
     'prefix': 'initWithPolyline:'
     'body': 'initWithPolyline(${1:MKPolyline* polyline})'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
+  'MKPolylineView':
+    'prefix': 'MKPolylineView'
+    'body': 'MKPolylineView'
   'initWithPolyline:':
     'prefix': 'initWithPolyline:'
     'body': 'initWithPolyline(${1:MKPolyline* polyline})'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
+  'MKReverseGeocoder':
+    'prefix': 'MKReverseGeocoder'
+    'body': 'MKReverseGeocoder'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithCoordinate:':
     'prefix': 'initWithCoordinate:'
     'body': 'initWithCoordinate(${1:CLLocationCoordinate2D coordinate})'
   'isQuerying':
     'prefix': 'isQuerying'
-    'body': 'isQuerying()'
+    'body': 'isQuerying'
   'placemark':
     'prefix': 'placemark'
-    'body': 'placemark()'
+    'body': 'placemark'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
+  'MKRoute':
+    'prefix': 'MKRoute'
+    'body': 'MKRoute'
   'advisoryNotices':
     'prefix': 'advisoryNotices'
-    'body': 'advisoryNotices()'
+    'body': 'advisoryNotices'
   'distance':
     'prefix': 'distance'
-    'body': 'distance()'
+    'body': 'distance'
   'expectedTravelTime':
     'prefix': 'expectedTravelTime'
-    'body': 'expectedTravelTime()'
+    'body': 'expectedTravelTime'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
   'steps':
     'prefix': 'steps'
-    'body': 'steps()'
+    'body': 'steps'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
+  'MKRouteStep':
+    'prefix': 'MKRouteStep'
+    'body': 'MKRouteStep'
   'distance':
     'prefix': 'distance'
-    'body': 'distance()'
+    'body': 'distance'
   'instructions':
     'prefix': 'instructions'
-    'body': 'instructions()'
+    'body': 'instructions'
   'notice':
     'prefix': 'notice'
-    'body': 'notice()'
+    'body': 'notice'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
+  'MKShape':
+    'prefix': 'MKShape'
+    'body': 'MKShape'
   'setSubtitle:':
     'prefix': 'setSubtitle:'
     'body': 'setSubtitle(${1:NSString* subtitle})'
@@ -1213,34 +1324,37 @@
     'body': 'setTitle(${1:NSString* title})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MKTileOverlay':
+    'prefix': 'MKTileOverlay'
+    'body': 'MKTileOverlay'
   'URLForTilePath:':
     'prefix': 'URLForTilePath:'
     'body': 'URLForTilePath(${1:MKTileOverlayPath path})'
   'URLTemplate':
     'prefix': 'URLTemplate'
-    'body': 'URLTemplate()'
+    'body': 'URLTemplate'
   'canReplaceMapContent':
     'prefix': 'canReplaceMapContent'
-    'body': 'canReplaceMapContent()'
+    'body': 'canReplaceMapContent'
   'initWithURLTemplate:':
     'prefix': 'initWithURLTemplate:'
     'body': 'initWithURLTemplate(${1:NSString* URLTemplate})'
   'isGeometryFlipped':
     'prefix': 'isGeometryFlipped'
-    'body': 'isGeometryFlipped()'
+    'body': 'isGeometryFlipped'
   'loadTileAtPath:result:':
     'prefix': 'loadTileAtPath:result:'
     'body': 'loadTileAtPath(${1:MKTileOverlayPath path}, result:${2:void (^)(NSData *, NSError *) result})'
   'maximumZ':
     'prefix': 'maximumZ'
-    'body': 'maximumZ()'
+    'body': 'maximumZ'
   'minimumZ':
     'prefix': 'minimumZ'
-    'body': 'minimumZ()'
+    'body': 'minimumZ'
   'setCanReplaceMapContent:':
     'prefix': 'setCanReplaceMapContent:'
     'body': 'setCanReplaceMapContent(${1:BOOL canReplaceMapContent})'
@@ -1258,22 +1372,28 @@
     'body': 'setTileSize(${1:CGSize tileSize})'
   'tileSize':
     'prefix': 'tileSize'
-    'body': 'tileSize()'
+    'body': 'tileSize'
+  'MKTileOverlayRenderer':
+    'prefix': 'MKTileOverlayRenderer'
+    'body': 'MKTileOverlayRenderer'
   'initWithTileOverlay:':
     'prefix': 'initWithTileOverlay:'
     'body': 'initWithTileOverlay(${1:MKTileOverlay* overlay})'
   'reloadData':
     'prefix': 'reloadData'
-    'body': 'reloadData()'
+    'body': 'reloadData'
+  'MKUserLocation':
+    'prefix': 'MKUserLocation'
+    'body': 'MKUserLocation'
   'heading':
     'prefix': 'heading'
-    'body': 'heading()'
+    'body': 'heading'
   'isUpdating':
     'prefix': 'isUpdating'
-    'body': 'isUpdating()'
+    'body': 'isUpdating'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'setSubtitle:':
     'prefix': 'setSubtitle:'
     'body': 'setSubtitle(${1:NSString* subtitle})'
@@ -1282,28 +1402,34 @@
     'body': 'setTitle(${1:NSString* title})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MKUserTrackingBarButtonItem':
+    'prefix': 'MKUserTrackingBarButtonItem'
+    'body': 'MKUserTrackingBarButtonItem'
   'initWithMapView:':
     'prefix': 'initWithMapView:'
     'body': 'initWithMapView(${1:MKMapView* mapView})'
   'mapView':
     'prefix': 'mapView'
-    'body': 'mapView()'
+    'body': 'mapView'
   'setMapView:':
     'prefix': 'setMapView:'
     'body': 'setMapView(${1:MKMapView* mapView})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'boundingMapRect':
     'prefix': 'boundingMapRect'
-    'body': 'boundingMapRect()'
+    'body': 'boundingMapRect'
   'canReplaceMapContent':
     'prefix': 'canReplaceMapContent'
-    'body': 'canReplaceMapContent()'
+    'body': 'canReplaceMapContent'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'intersectsMapRect:':
     'prefix': 'intersectsMapRect:'
     'body': 'intersectsMapRect(${1:MKMapRect mapRect})'
@@ -1384,34 +1510,43 @@
     'body': 'setCoordinate(${1:CLLocationCoordinate2D newCoordinate})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'NSValue':
+    'prefix': 'NSValue'
+    'body': 'NSValue'
   'MKCoordinateSpanValue':
     'prefix': 'MKCoordinateSpanValue'
-    'body': 'MKCoordinateSpanValue()'
+    'body': 'MKCoordinateSpanValue'
   'MKCoordinateValue':
     'prefix': 'MKCoordinateValue'
-    'body': 'MKCoordinateValue()'
+    'body': 'MKCoordinateValue'
   'NSValue.valueWithMKCoordinate:':
     'prefix': 'valueWithMKCoordinate:'
     'body': 'valueWithMKCoordinate(${1:CLLocationCoordinate2D coordinate})'
   'NSValue.valueWithMKCoordinateSpan:':
     'prefix': 'valueWithMKCoordinateSpan:'
     'body': 'valueWithMKCoordinateSpan(${1:MKCoordinateSpan span})'
+  'MKAnnotation':
+    'prefix': 'MKAnnotation'
+    'body': 'MKAnnotation'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'setCoordinate:':
     'prefix': 'setCoordinate:'
     'body': 'setCoordinate(${1:CLLocationCoordinate2D newCoordinate})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MKMapViewDelegate':
+    'prefix': 'MKMapViewDelegate'
+    'body': 'MKMapViewDelegate'
   'mapView:annotationView:calloutAccessoryControlTapped:':
     'prefix': 'mapView:annotationView:calloutAccessoryControlTapped:'
     'body': 'mapView(${1:MKMapView* mapView}, annotationView:${2:MKAnnotationView* view}, calloutAccessoryControlTapped:${3:UIControl* control})'
@@ -1478,18 +1613,24 @@
   'mapViewWillStartRenderingMap:':
     'prefix': 'mapViewWillStartRenderingMap:'
     'body': 'mapViewWillStartRenderingMap(${1:MKMapView* mapView})'
+  'MKOverlay':
+    'prefix': 'MKOverlay'
+    'body': 'MKOverlay'
   'boundingMapRect':
     'prefix': 'boundingMapRect'
-    'body': 'boundingMapRect()'
+    'body': 'boundingMapRect'
   'canReplaceMapContent':
     'prefix': 'canReplaceMapContent'
-    'body': 'canReplaceMapContent()'
+    'body': 'canReplaceMapContent'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'intersectsMapRect:':
     'prefix': 'intersectsMapRect:'
     'body': 'intersectsMapRect(${1:MKMapRect mapRect})'
+  'MKReverseGeocoderDelegate':
+    'prefix': 'MKReverseGeocoderDelegate'
+    'body': 'MKReverseGeocoderDelegate'
   'reverseGeocoder:didFailWithError:':
     'prefix': 'reverseGeocoder:didFailWithError:'
     'body': 'reverseGeocoder(${1:MKReverseGeocoder* geocoder}, didFailWithError:${2:NSError* error})'

@@ -320,24 +320,27 @@
   'CWMergeNetworks':
     'prefix': 'CWMergeNetworks'
     'body': 'CWMergeNetworks(${1:NSSet* networks})'
+  'CW8021XProfile':
+    'prefix': 'CW8021XProfile'
+    'body': 'CW8021XProfile'
   'CW8021XProfile.allUser8021XProfiles':
     'prefix': 'allUser8021XProfiles'
-    'body': 'allUser8021XProfiles()'
+    'body': 'allUser8021XProfiles'
   'alwaysPromptForPassword':
     'prefix': 'alwaysPromptForPassword'
-    'body': 'alwaysPromptForPassword()'
+    'body': 'alwaysPromptForPassword'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'isEqualToProfile:':
     'prefix': 'isEqualToProfile:'
     'body': 'isEqualToProfile(${1:CW8021XProfile* profile})'
   'password':
     'prefix': 'password'
-    'body': 'password()'
+    'body': 'password'
   'CW8021XProfile.profile':
     'prefix': 'profile'
-    'body': 'profile()'
+    'body': 'profile'
   'setAlwaysPromptForPassword:':
     'prefix': 'setAlwaysPromptForPassword:'
     'body': 'setAlwaysPromptForPassword(${1:BOOL alwaysPromptForPassword})'
@@ -355,34 +358,40 @@
     'body': 'setUsername(${1:NSString* username})'
   'ssid':
     'prefix': 'ssid'
-    'body': 'ssid()'
+    'body': 'ssid'
   'userDefinedName':
     'prefix': 'userDefinedName'
-    'body': 'userDefinedName()'
+    'body': 'userDefinedName'
   'username':
     'prefix': 'username'
-    'body': 'username()'
+    'body': 'username'
+  'CWChannel':
+    'prefix': 'CWChannel'
+    'body': 'CWChannel'
   'channelBand':
     'prefix': 'channelBand'
-    'body': 'channelBand()'
+    'body': 'channelBand'
   'channelNumber':
     'prefix': 'channelNumber'
-    'body': 'channelNumber()'
+    'body': 'channelNumber'
   'channelWidth':
     'prefix': 'channelWidth'
-    'body': 'channelWidth()'
+    'body': 'channelWidth'
   'isEqualToChannel:':
     'prefix': 'isEqualToChannel:'
     'body': 'isEqualToChannel(${1:CWChannel* channel})'
+  'CWConfiguration':
+    'prefix': 'CWConfiguration'
+    'body': 'CWConfiguration'
   'CWConfiguration.configuration':
     'prefix': 'configuration'
-    'body': 'configuration()'
+    'body': 'configuration'
   'CWConfiguration.configurationWithConfiguration:':
     'prefix': 'configurationWithConfiguration:'
     'body': 'configurationWithConfiguration(${1:CWConfiguration* configuration})'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithConfiguration:':
     'prefix': 'initWithConfiguration:'
     'body': 'initWithConfiguration(${1:CWConfiguration* configuration})'
@@ -391,22 +400,25 @@
     'body': 'isEqualToConfiguration(${1:CWConfiguration* configuration})'
   'networkProfiles':
     'prefix': 'networkProfiles'
-    'body': 'networkProfiles()'
+    'body': 'networkProfiles'
   'rememberJoinedNetworks':
     'prefix': 'rememberJoinedNetworks'
-    'body': 'rememberJoinedNetworks()'
+    'body': 'rememberJoinedNetworks'
   'requireAdministratorForAssociation':
     'prefix': 'requireAdministratorForAssociation'
-    'body': 'requireAdministratorForAssociation()'
+    'body': 'requireAdministratorForAssociation'
   'requireAdministratorForIBSSMode':
     'prefix': 'requireAdministratorForIBSSMode'
-    'body': 'requireAdministratorForIBSSMode()'
+    'body': 'requireAdministratorForIBSSMode'
   'requireAdministratorForPower':
     'prefix': 'requireAdministratorForPower'
-    'body': 'requireAdministratorForPower()'
+    'body': 'requireAdministratorForPower'
+  'CWInterface':
+    'prefix': 'CWInterface'
+    'body': 'CWInterface'
   'activePHYMode':
     'prefix': 'activePHYMode'
-    'body': 'activePHYMode()'
+    'body': 'activePHYMode'
   'associateToEnterpriseNetwork:identity:username:password:error:':
     'prefix': 'associateToEnterpriseNetwork:identity:username:password:error:'
     'body': 'associateToEnterpriseNetwork(${1:CWNetwork* network}, identity:${2:SecIdentityRef identity}, username:${3:NSString* username}, password:${4:NSString* password}, error:${5:NSError** error})'
@@ -415,55 +427,55 @@
     'body': 'associateToNetwork(${1:CWNetwork* network}, password:${2:NSString* password}, error:${3:NSError** error})'
   'bssid':
     'prefix': 'bssid'
-    'body': 'bssid()'
+    'body': 'bssid'
   'cachedScanResults':
     'prefix': 'cachedScanResults'
-    'body': 'cachedScanResults()'
+    'body': 'cachedScanResults'
   'commitConfiguration:authorization:error:':
     'prefix': 'commitConfiguration:authorization:error:'
     'body': 'commitConfiguration(${1:CWConfiguration* configuration}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
   'configuration':
     'prefix': 'configuration'
-    'body': 'configuration()'
+    'body': 'configuration'
   'countryCode':
     'prefix': 'countryCode'
-    'body': 'countryCode()'
+    'body': 'countryCode'
   'deviceAttached':
     'prefix': 'deviceAttached'
-    'body': 'deviceAttached()'
+    'body': 'deviceAttached'
   'disassociate':
     'prefix': 'disassociate'
-    'body': 'disassociate()'
+    'body': 'disassociate'
   'hardwareAddress':
     'prefix': 'hardwareAddress'
-    'body': 'hardwareAddress()'
+    'body': 'hardwareAddress'
   'initWithInterfaceName:':
     'prefix': 'initWithInterfaceName:'
     'body': 'initWithInterfaceName(${1:NSString* name})'
   'CWInterface.interface':
     'prefix': 'interface'
-    'body': 'interface()'
+    'body': 'interface'
   'interfaceMode':
     'prefix': 'interfaceMode'
-    'body': 'interfaceMode()'
+    'body': 'interfaceMode'
   'interfaceName':
     'prefix': 'interfaceName'
-    'body': 'interfaceName()'
+    'body': 'interfaceName'
   'CWInterface.interfaceNames':
     'prefix': 'interfaceNames'
-    'body': 'interfaceNames()'
+    'body': 'interfaceNames'
   'CWInterface.interfaceWithName:':
     'prefix': 'interfaceWithName:'
     'body': 'interfaceWithName(${1:NSString* name})'
   'noiseMeasurement':
     'prefix': 'noiseMeasurement'
-    'body': 'noiseMeasurement()'
+    'body': 'noiseMeasurement'
   'powerOn':
     'prefix': 'powerOn'
-    'body': 'powerOn()'
+    'body': 'powerOn'
   'rssiValue':
     'prefix': 'rssiValue'
-    'body': 'rssiValue()'
+    'body': 'rssiValue'
   'scanForNetworksWithName:error:':
     'prefix': 'scanForNetworksWithName:error:'
     'body': 'scanForNetworksWithName(${1:NSString* networkName}, error:${2:NSError** error})'
@@ -472,10 +484,10 @@
     'body': 'scanForNetworksWithSSID(${1:NSData* ssid}, error:${2:NSError** error})'
   'security':
     'prefix': 'security'
-    'body': 'security()'
+    'body': 'security'
   'serviceActive':
     'prefix': 'serviceActive'
-    'body': 'serviceActive()'
+    'body': 'serviceActive'
   'setPairwiseMasterKey:error:':
     'prefix': 'setPairwiseMasterKey:error:'
     'body': 'setPairwiseMasterKey(${1:NSData* key}, error:${2:NSError** error})'
@@ -490,40 +502,43 @@
     'body': 'setWLANChannel(${1:CWChannel* channel}, error:${2:NSError** error})'
   'ssid':
     'prefix': 'ssid'
-    'body': 'ssid()'
+    'body': 'ssid'
   'ssidData':
     'prefix': 'ssidData'
-    'body': 'ssidData()'
+    'body': 'ssidData'
   'startIBSSModeWithSSID:security:channel:password:error:':
     'prefix': 'startIBSSModeWithSSID:security:channel:password:error:'
     'body': 'startIBSSModeWithSSID(${1:NSData* ssidData}, security:${2:CWIBSSModeSecurity security}, channel:${3:NSUInteger channel}, password:${4:NSString* password}, error:${5:NSError** error})'
   'supportedWLANChannels':
     'prefix': 'supportedWLANChannels'
-    'body': 'supportedWLANChannels()'
+    'body': 'supportedWLANChannels'
   'transmitPower':
     'prefix': 'transmitPower'
-    'body': 'transmitPower()'
+    'body': 'transmitPower'
   'transmitRate':
     'prefix': 'transmitRate'
-    'body': 'transmitRate()'
+    'body': 'transmitRate'
   'wlanChannel':
     'prefix': 'wlanChannel'
-    'body': 'wlanChannel()'
+    'body': 'wlanChannel'
+  'CWMutableConfiguration':
+    'prefix': 'CWMutableConfiguration'
+    'body': 'CWMutableConfiguration'
   'networkProfiles':
     'prefix': 'networkProfiles'
-    'body': 'networkProfiles()'
+    'body': 'networkProfiles'
   'rememberJoinedNetworks':
     'prefix': 'rememberJoinedNetworks'
-    'body': 'rememberJoinedNetworks()'
+    'body': 'rememberJoinedNetworks'
   'requireAdministratorForAssociation':
     'prefix': 'requireAdministratorForAssociation'
-    'body': 'requireAdministratorForAssociation()'
+    'body': 'requireAdministratorForAssociation'
   'requireAdministratorForIBSSMode':
     'prefix': 'requireAdministratorForIBSSMode'
-    'body': 'requireAdministratorForIBSSMode()'
+    'body': 'requireAdministratorForIBSSMode'
   'requireAdministratorForPower':
     'prefix': 'requireAdministratorForPower'
-    'body': 'requireAdministratorForPower()'
+    'body': 'requireAdministratorForPower'
   'setNetworkProfiles:':
     'prefix': 'setNetworkProfiles:'
     'body': 'setNetworkProfiles(${1:NSOrderedSet* networkProfiles})'
@@ -539,9 +554,12 @@
   'setRequireAdministratorForPower:':
     'prefix': 'setRequireAdministratorForPower:'
     'body': 'setRequireAdministratorForPower(${1:BOOL requireAdministratorForPower})'
+  'CWMutableNetworkProfile':
+    'prefix': 'CWMutableNetworkProfile'
+    'body': 'CWMutableNetworkProfile'
   'security':
     'prefix': 'security'
-    'body': 'security()'
+    'body': 'security'
   'setSecurity:':
     'prefix': 'setSecurity:'
     'body': 'setSecurity(${1:CWSecurity security})'
@@ -550,37 +568,40 @@
     'body': 'setSsidData(${1:NSData* ssidData})'
   'ssidData':
     'prefix': 'ssidData'
-    'body': 'ssidData()'
+    'body': 'ssidData'
+  'CWNetwork':
+    'prefix': 'CWNetwork'
+    'body': 'CWNetwork'
   'beaconInterval':
     'prefix': 'beaconInterval'
-    'body': 'beaconInterval()'
+    'body': 'beaconInterval'
   'bssid':
     'prefix': 'bssid'
-    'body': 'bssid()'
+    'body': 'bssid'
   'countryCode':
     'prefix': 'countryCode'
-    'body': 'countryCode()'
+    'body': 'countryCode'
   'ibss':
     'prefix': 'ibss'
-    'body': 'ibss()'
+    'body': 'ibss'
   'informationElementData':
     'prefix': 'informationElementData'
-    'body': 'informationElementData()'
+    'body': 'informationElementData'
   'isEqualToNetwork:':
     'prefix': 'isEqualToNetwork:'
     'body': 'isEqualToNetwork(${1:CWNetwork* network})'
   'noiseMeasurement':
     'prefix': 'noiseMeasurement'
-    'body': 'noiseMeasurement()'
+    'body': 'noiseMeasurement'
   'rssiValue':
     'prefix': 'rssiValue'
-    'body': 'rssiValue()'
+    'body': 'rssiValue'
   'ssid':
     'prefix': 'ssid'
-    'body': 'ssid()'
+    'body': 'ssid'
   'ssidData':
     'prefix': 'ssidData'
-    'body': 'ssidData()'
+    'body': 'ssidData'
   'supportsPHYMode:':
     'prefix': 'supportsPHYMode:'
     'body': 'supportsPHYMode(${1:CWPHYMode phyMode})'
@@ -589,10 +610,13 @@
     'body': 'supportsSecurity(${1:CWSecurity security})'
   'wlanChannel':
     'prefix': 'wlanChannel'
-    'body': 'wlanChannel()'
+    'body': 'wlanChannel'
+  'CWNetworkProfile':
+    'prefix': 'CWNetworkProfile'
+    'body': 'CWNetworkProfile'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithNetworkProfile:':
     'prefix': 'initWithNetworkProfile:'
     'body': 'initWithNetworkProfile(${1:CWNetworkProfile* networkProfile})'
@@ -601,34 +625,37 @@
     'body': 'isEqualToNetworkProfile(${1:CWNetworkProfile* networkProfile})'
   'CWNetworkProfile.networkProfile':
     'prefix': 'networkProfile'
-    'body': 'networkProfile()'
+    'body': 'networkProfile'
   'CWNetworkProfile.networkProfileWithNetworkProfile:':
     'prefix': 'networkProfileWithNetworkProfile:'
     'body': 'networkProfileWithNetworkProfile(${1:CWNetworkProfile* networkProfile})'
   'security':
     'prefix': 'security'
-    'body': 'security()'
+    'body': 'security'
   'ssid':
     'prefix': 'ssid'
-    'body': 'ssid()'
+    'body': 'ssid'
   'ssidData':
     'prefix': 'ssidData'
-    'body': 'ssidData()'
+    'body': 'ssidData'
+  'CWWirelessProfile':
+    'prefix': 'CWWirelessProfile'
+    'body': 'CWWirelessProfile'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'isEqualToProfile:':
     'prefix': 'isEqualToProfile:'
     'body': 'isEqualToProfile(${1:CWWirelessProfile* profile})'
   'passphrase':
     'prefix': 'passphrase'
-    'body': 'passphrase()'
+    'body': 'passphrase'
   'CWWirelessProfile.profile':
     'prefix': 'profile'
-    'body': 'profile()'
+    'body': 'profile'
   'securityMode':
     'prefix': 'securityMode'
-    'body': 'securityMode()'
+    'body': 'securityMode'
   'setPassphrase:':
     'prefix': 'setPassphrase:'
     'body': 'setPassphrase(${1:NSString* passphrase})'
@@ -643,7 +670,7 @@
     'body': 'setUser8021XProfile(${1:CW8021XProfile* user8021XProfile})'
   'ssid':
     'prefix': 'ssid'
-    'body': 'ssid()'
+    'body': 'ssid'
   'user8021XProfile':
     'prefix': 'user8021XProfile'
-    'body': 'user8021XProfile()'
+    'body': 'user8021XProfile'

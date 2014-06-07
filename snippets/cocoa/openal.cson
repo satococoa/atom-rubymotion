@@ -589,7 +589,7 @@
     'body': 'alGetEnumValue(${1:ALchar* ename})'
   'alGetError':
     'prefix': 'alGetError'
-    'body': 'alGetError()'
+    'body': 'alGetError'
   'alGetFloat':
     'prefix': 'alGetFloat'
     'body': 'alGetFloat(${1:ALenum param})'
@@ -754,7 +754,7 @@
     'body': 'alcGetContextsDevice(${1:ALCcontext* context})'
   'alcGetCurrentContext':
     'prefix': 'alcGetCurrentContext'
-    'body': 'alcGetCurrentContext()'
+    'body': 'alcGetCurrentContext'
   'alcGetEnumValue':
     'prefix': 'alcGetEnumValue'
     'body': 'alcGetEnumValue(${1:ALCdevice* device}, ${2:ALCchar* enumname})'

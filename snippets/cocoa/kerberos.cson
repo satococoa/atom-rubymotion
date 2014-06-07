@@ -2890,7 +2890,7 @@
     'body': 'KLCacheHasValidTickets(${1:KLPrincipal inPrincipal}, ${2:KLKerberosVersion inKerberosVersion}, ${3:KLBoolean* outFoundValidTickets}, ${4:KLPrincipal* outPrincipal}, ${5:char** outCredCacheName})'
   'KLCancelAllDialogs':
     'prefix': 'KLCancelAllDialogs'
-    'body': 'KLCancelAllDialogs()'
+    'body': 'KLCancelAllDialogs'
   'KLChangePassword':
     'prefix': 'KLChangePassword'
     'body': 'KLChangePassword(${1:KLPrincipal inPrincipal})'
@@ -2902,7 +2902,7 @@
     'body': 'KLComparePrincipal(${1:KLPrincipal inFirstPrincipal}, ${2:KLPrincipal inSecondPrincipal}, ${3:KLBoolean* outAreEquivalent})'
   'KLCountKerberosRealms':
     'prefix': 'KLCountKerberosRealms'
-    'body': 'KLCountKerberosRealms()'
+    'body': 'KLCountKerberosRealms'
   'KLCreateLoginOptions':
     'prefix': 'KLCreateLoginOptions'
     'body': 'KLCreateLoginOptions(${1:KLLoginOptions* outOptions})'
@@ -2995,7 +2995,7 @@
     'body': 'KLLoginOptionsSetTicketStartTime(${1:KLLoginOptions ioOptions}, ${2:KLTime inStartTime})'
   'KLRemoveAllKerberosRealms':
     'prefix': 'KLRemoveAllKerberosRealms'
-    'body': 'KLRemoveAllKerberosRealms()'
+    'body': 'KLRemoveAllKerberosRealms'
   'KLRemoveKerberosRealm':
     'prefix': 'KLRemoveKerberosRealm'
     'body': 'KLRemoveKerberosRealm(${1:KLIndex inIndex})'
@@ -3289,22 +3289,22 @@
     'body': 'gss_wrap_size_limit(${1:OM_uint32* }, ${2:gss_ctx_id_t }, ${3:int }, ${4:gss_qop_t }, ${5:OM_uint32 }, ${6:OM_uint32* })'
   'initialize_asn1_error_table':
     'prefix': 'initialize_asn1_error_table'
-    'body': 'initialize_asn1_error_table()'
+    'body': 'initialize_asn1_error_table'
   'initialize_k524_error_table':
     'prefix': 'initialize_k524_error_table'
-    'body': 'initialize_k524_error_table()'
+    'body': 'initialize_k524_error_table'
   'initialize_kdb5_error_table':
     'prefix': 'initialize_kdb5_error_table'
-    'body': 'initialize_kdb5_error_table()'
+    'body': 'initialize_kdb5_error_table'
   'initialize_krb5_error_table':
     'prefix': 'initialize_krb5_error_table'
-    'body': 'initialize_krb5_error_table()'
+    'body': 'initialize_krb5_error_table'
   'initialize_kv5m_error_table':
     'prefix': 'initialize_kv5m_error_table'
-    'body': 'initialize_kv5m_error_table()'
+    'body': 'initialize_kv5m_error_table'
   'initialize_prof_error_table':
     'prefix': 'initialize_prof_error_table'
-    'body': 'initialize_prof_error_table()'
+    'body': 'initialize_prof_error_table'
   'krb5_425_conv_principal':
     'prefix': 'krb5_425_conv_principal'
     'body': 'Krb5_425_conv_principal(${1:krb5_context }, ${2:char* name}, ${3:char* instance}, ${4:char* realm}, ${5:krb5_principal* princ})'
@@ -3853,7 +3853,7 @@
     'body': 'Krb5_is_referral_realm(${1:krb5_data* })'
   'krb5_is_thread_safe':
     'prefix': 'krb5_is_thread_safe'
-    'body': 'Krb5_is_thread_safe()'
+    'body': 'Krb5_is_thread_safe'
   'krb5_kt_add_entry':
     'prefix': 'krb5_kt_add_entry'
     'body': 'Krb5_kt_add_entry(${1:krb5_context }, ${2:krb5_keytab }, ${3:krb5_keytab_entry* })'
@@ -4078,7 +4078,7 @@
     'body': 'profile_clear_relation(${1:profile_t profile}, ${2:char** names})'
   'profile_configuration_updated':
     'prefix': 'profile_configuration_updated'
-    'body': 'profile_configuration_updated()'
+    'body': 'profile_configuration_updated'
   'profile_flush':
     'prefix': 'profile_flush'
     'body': 'profile_flush(${1:profile_t profile})'
@@ -4150,7 +4150,7 @@
     'body': 'remove_error_table(${1:struct error_table* et})'
   'reset_com_err_hook':
     'prefix': 'reset_com_err_hook'
-    'body': 'reset_com_err_hook()'
+    'body': 'reset_com_err_hook'
   'set_com_err_hook':
     'prefix': 'set_com_err_hook'
     'body': 'set_com_err_hook(${1:com_err_handler_t handler})'

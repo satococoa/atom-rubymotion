@@ -29,6 +29,9 @@
   'SLRequestMethodPUT (3)':
     'prefix': 'SLRequestMethodPUT'
     'body': 'SLRequestMethodPUT'
+  'SLComposeViewController':
+    'prefix': 'SLComposeViewController'
+    'body': 'SLComposeViewController'
   'addImage:':
     'prefix': 'addImage:'
     'body': 'addImage(${1:UIImage* image})'
@@ -37,7 +40,7 @@
     'body': 'addURL(${1:NSURL* url})'
   'completionHandler':
     'prefix': 'completionHandler'
-    'body': 'completionHandler()'
+    'body': 'completionHandler'
   'SLComposeViewController.composeViewControllerForServiceType:':
     'prefix': 'composeViewControllerForServiceType:'
     'body': 'composeViewControllerForServiceType(${1:NSString* serviceType})'
@@ -46,43 +49,46 @@
     'body': 'isAvailableForServiceType(${1:NSString* serviceType})'
   'removeAllImages':
     'prefix': 'removeAllImages'
-    'body': 'removeAllImages()'
+    'body': 'removeAllImages'
   'removeAllURLs':
     'prefix': 'removeAllURLs'
-    'body': 'removeAllURLs()'
+    'body': 'removeAllURLs'
   'serviceType':
     'prefix': 'serviceType'
-    'body': 'serviceType()'
+    'body': 'serviceType'
   'setCompletionHandler:':
     'prefix': 'setCompletionHandler:'
     'body': 'setCompletionHandler(${1:SLComposeViewControllerCompletionHandler completionHandler})'
   'setInitialText:':
     'prefix': 'setInitialText:'
     'body': 'setInitialText(${1:NSString* text})'
+  'SLRequest':
+    'prefix': 'SLRequest'
+    'body': 'SLRequest'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'account':
     'prefix': 'account'
-    'body': 'account()'
+    'body': 'account'
   'addMultipartData:withName:type:filename:':
     'prefix': 'addMultipartData:withName:type:filename:'
     'body': 'addMultipartData(${1:NSData* data}, withName:${2:NSString* name}, type:${3:NSString* type}, filename:${4:NSString* filename})'
   'parameters':
     'prefix': 'parameters'
-    'body': 'parameters()'
+    'body': 'parameters'
   'performRequestWithHandler:':
     'prefix': 'performRequestWithHandler:'
     'body': 'performRequestWithHandler(${1:SLRequestHandler handler})'
   'preparedURLRequest':
     'prefix': 'preparedURLRequest'
-    'body': 'preparedURLRequest()'
+    'body': 'preparedURLRequest'
   'SLRequest.requestForServiceType:requestMethod:URL:parameters:':
     'prefix': 'requestForServiceType:requestMethod:URL:parameters:'
     'body': 'requestForServiceType(${1:NSString* serviceType}, requestMethod:${2:SLRequestMethod requestMethod}, URL:${3:NSURL* url}, parameters:${4:NSDictionary* parameters})'
   'requestMethod':
     'prefix': 'requestMethod'
-    'body': 'requestMethod()'
+    'body': 'requestMethod'
   'setAccount:':
     'prefix': 'setAccount:'
     'body': 'setAccount(${1:ACAccount* account})'

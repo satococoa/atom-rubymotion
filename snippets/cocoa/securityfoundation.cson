@@ -1,22 +1,25 @@
 '.source.rubymotion':
+  'SFAuthorization':
+    'prefix': 'SFAuthorization'
+    'body': 'SFAuthorization'
   'SFAuthorization.authorization':
     'prefix': 'authorization'
-    'body': 'authorization()'
+    'body': 'authorization'
   'authorizationRef':
     'prefix': 'authorizationRef'
-    'body': 'authorizationRef()'
+    'body': 'authorizationRef'
   'SFAuthorization.authorizationWithFlags:rights:environment:':
     'prefix': 'authorizationWithFlags:rights:environment:'
     'body': 'authorizationWithFlags(${1:AuthorizationFlags flags}, rights:${2:AuthorizationRights* rights}, environment:${3:AuthorizationEnvironment* environment})'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithFlags:rights:environment:':
     'prefix': 'initWithFlags:rights:environment:'
     'body': 'initWithFlags(${1:AuthorizationFlags flags}, rights:${2:AuthorizationRights* rights}, environment:${3:AuthorizationEnvironment* environment})'
   'invalidateCredentials':
     'prefix': 'invalidateCredentials'
-    'body': 'invalidateCredentials()'
+    'body': 'invalidateCredentials'
   'obtainWithRight:flags:error:':
     'prefix': 'obtainWithRight:flags:error:'
     'body': 'obtainWithRight(${1:AuthorizationString rightName}, flags:${2:AuthorizationFlags flags}, error:${3:NSError** error})'

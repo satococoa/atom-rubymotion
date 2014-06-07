@@ -1910,6 +1910,9 @@
   'QTUnionTimeRange':
     'prefix': 'QTUnionTimeRange'
     'body': 'QTUnionTimeRange(${1:QTTimeRange range1}, ${2:QTTimeRange range2})'
+  'NSCoder':
+    'prefix': 'NSCoder'
+    'body': 'NSCoder'
   'decodeQTTimeForKey:':
     'prefix': 'decodeQTTimeForKey:'
     'body': 'decodeQTTimeForKey(${1:NSString* key})'
@@ -1928,6 +1931,9 @@
   'encodeSMPTETime:forKey:':
     'prefix': 'encodeSMPTETime:forKey:'
     'body': 'encodeSMPTETime(${1:SMPTETime time}, forKey:${2:NSString* key})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'captureOutput:didDropVideoFrameWithSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didDropVideoFrameWithSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:QTCaptureOutput* captureOutput}, didDropVideoFrameWithSampleBuffer:${2:QTSampleBuffer* sampleBuffer}, fromConnection:${3:QTCaptureConnection* connection})'
@@ -1997,15 +2003,18 @@
   'view:willDisplayImage:':
     'prefix': 'view:willDisplayImage:'
     'body': 'view(${1:QTCaptureView* view}, willDisplayImage:${2:CIImage* image})'
+  'NSValue':
+    'prefix': 'NSValue'
+    'body': 'NSValue'
   'QTTimeRangeValue':
     'prefix': 'QTTimeRangeValue'
-    'body': 'QTTimeRangeValue()'
+    'body': 'QTTimeRangeValue'
   'QTTimeValue':
     'prefix': 'QTTimeValue'
-    'body': 'QTTimeValue()'
+    'body': 'QTTimeValue'
   'SMPTETimeValue':
     'prefix': 'SMPTETimeValue'
-    'body': 'SMPTETimeValue()'
+    'body': 'SMPTETimeValue'
   'NSValue.valueWithQTTime:':
     'prefix': 'valueWithQTTime:'
     'body': 'valueWithQTTime(${1:QTTime time})'
@@ -2015,9 +2024,12 @@
   'NSValue.valueWithSMPTETime:':
     'prefix': 'valueWithSMPTETime:'
     'body': 'valueWithSMPTETime(${1:SMPTETime time})'
+  'QTCaptureAudioPreviewOutput':
+    'prefix': 'QTCaptureAudioPreviewOutput'
+    'body': 'QTCaptureAudioPreviewOutput'
   'outputDeviceUniqueID':
     'prefix': 'outputDeviceUniqueID'
-    'body': 'outputDeviceUniqueID()'
+    'body': 'outputDeviceUniqueID'
   'setOutputDeviceUniqueID:':
     'prefix': 'setOutputDeviceUniqueID:'
     'body': 'setOutputDeviceUniqueID(${1:NSString* uniqueID})'
@@ -2026,7 +2038,10 @@
     'body': 'setVolume(${1:float volume})'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
+  'QTCaptureConnection':
+    'prefix': 'QTCaptureConnection'
+    'body': 'QTCaptureConnection'
   'attributeForKey:':
     'prefix': 'attributeForKey:'
     'body': 'attributeForKey(${1:NSString* attributeKey})'
@@ -2035,19 +2050,19 @@
     'body': 'attributeIsReadOnly(${1:NSString* attributeKey})'
   'connectionAttributes':
     'prefix': 'connectionAttributes'
-    'body': 'connectionAttributes()'
+    'body': 'connectionAttributes'
   'formatDescription':
     'prefix': 'formatDescription'
-    'body': 'formatDescription()'
+    'body': 'formatDescription'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'owner':
     'prefix': 'owner'
-    'body': 'owner()'
+    'body': 'owner'
   'setAttribute:forKey:':
     'prefix': 'setAttribute:forKey:'
     'body': 'setAttribute(${1:id attribute}, forKey:${2:NSString* key})'
@@ -2057,30 +2072,36 @@
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1:BOOL enabled})'
+  'QTCaptureDecompressedAudioOutput':
+    'prefix': 'QTCaptureDecompressedAudioOutput'
+    'body': 'QTCaptureDecompressedAudioOutput'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'outputAudioSampleBuffer:fromConnection:':
     'prefix': 'outputAudioSampleBuffer:fromConnection:'
     'body': 'outputAudioSampleBuffer(${1:QTSampleBuffer* sampleBuffer}, fromConnection:${2:QTCaptureConnection* connection})'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'QTCaptureDecompressedVideoOutput':
+    'prefix': 'QTCaptureDecompressedVideoOutput'
+    'body': 'QTCaptureDecompressedVideoOutput'
   'automaticallyDropsLateVideoFrames':
     'prefix': 'automaticallyDropsLateVideoFrames'
-    'body': 'automaticallyDropsLateVideoFrames()'
+    'body': 'automaticallyDropsLateVideoFrames'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'minimumVideoFrameInterval':
     'prefix': 'minimumVideoFrameInterval'
-    'body': 'minimumVideoFrameInterval()'
+    'body': 'minimumVideoFrameInterval'
   'outputVideoFrame:withSampleBuffer:fromConnection:':
     'prefix': 'outputVideoFrame:withSampleBuffer:fromConnection:'
     'body': 'outputVideoFrame(${1:CVImageBufferRef videoFrame}, withSampleBuffer:${2:QTSampleBuffer* sampleBuffer}, fromConnection:${3:QTCaptureConnection* connection})'
   'pixelBufferAttributes':
     'prefix': 'pixelBufferAttributes'
-    'body': 'pixelBufferAttributes()'
+    'body': 'pixelBufferAttributes'
   'setAutomaticallyDropsLateVideoFrames:':
     'prefix': 'setAutomaticallyDropsLateVideoFrames:'
     'body': 'setAutomaticallyDropsLateVideoFrames(${1:BOOL automaticallyDropsLateVideoFrames})'
@@ -2093,6 +2114,9 @@
   'setPixelBufferAttributes:':
     'prefix': 'setPixelBufferAttributes:'
     'body': 'setPixelBufferAttributes(${1:NSDictionary* pixelBufferAttributes})'
+  'QTCaptureDevice':
+    'prefix': 'QTCaptureDevice'
+    'body': 'QTCaptureDevice'
   'attributeForKey:':
     'prefix': 'attributeForKey:'
     'body': 'attributeForKey(${1:NSString* attributeKey})'
@@ -2101,43 +2125,43 @@
     'body': 'attributeIsReadOnly(${1:NSString* attributeKey})'
   'close':
     'prefix': 'close'
-    'body': 'close()'
+    'body': 'close'
   'QTCaptureDevice.defaultInputDeviceWithMediaType:':
     'prefix': 'defaultInputDeviceWithMediaType:'
     'body': 'defaultInputDeviceWithMediaType(${1:NSString* mediaType})'
   'deviceAttributes':
     'prefix': 'deviceAttributes'
-    'body': 'deviceAttributes()'
+    'body': 'deviceAttributes'
   'QTCaptureDevice.deviceWithUniqueID:':
     'prefix': 'deviceWithUniqueID:'
     'body': 'deviceWithUniqueID(${1:NSString* deviceUniqueID})'
   'formatDescriptions':
     'prefix': 'formatDescriptions'
-    'body': 'formatDescriptions()'
+    'body': 'formatDescriptions'
   'hasMediaType:':
     'prefix': 'hasMediaType:'
     'body': 'hasMediaType(${1:NSString* mediaType})'
   'QTCaptureDevice.inputDevices':
     'prefix': 'inputDevices'
-    'body': 'inputDevices()'
+    'body': 'inputDevices'
   'QTCaptureDevice.inputDevicesWithMediaType:':
     'prefix': 'inputDevicesWithMediaType:'
     'body': 'inputDevicesWithMediaType(${1:NSString* mediaType})'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'isInUseByAnotherApplication':
     'prefix': 'isInUseByAnotherApplication'
-    'body': 'isInUseByAnotherApplication()'
+    'body': 'isInUseByAnotherApplication'
   'isOpen':
     'prefix': 'isOpen'
-    'body': 'isOpen()'
+    'body': 'isOpen'
   'localizedDisplayName':
     'prefix': 'localizedDisplayName'
-    'body': 'localizedDisplayName()'
+    'body': 'localizedDisplayName'
   'modelUniqueID':
     'prefix': 'modelUniqueID'
-    'body': 'modelUniqueID()'
+    'body': 'modelUniqueID'
   'open:':
     'prefix': 'open:'
     'body': 'open(${1:NSError** errorPtr})'
@@ -2149,43 +2173,49 @@
     'body': 'setDeviceAttributes(${1:NSDictionary* deviceAttributes})'
   'uniqueID':
     'prefix': 'uniqueID'
-    'body': 'uniqueID()'
+    'body': 'uniqueID'
+  'QTCaptureDeviceInput':
+    'prefix': 'QTCaptureDeviceInput'
+    'body': 'QTCaptureDeviceInput'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'QTCaptureDeviceInput.deviceInputWithDevice:':
     'prefix': 'deviceInputWithDevice:'
     'body': 'deviceInputWithDevice(${1:QTCaptureDevice* device})'
   'initWithDevice:':
     'prefix': 'initWithDevice:'
     'body': 'initWithDevice(${1:QTCaptureDevice* device})'
+  'QTCaptureFileOutput':
+    'prefix': 'QTCaptureFileOutput'
+    'body': 'QTCaptureFileOutput'
   'compressionOptionsForConnection:':
     'prefix': 'compressionOptionsForConnection:'
     'body': 'compressionOptionsForConnection(${1:QTCaptureConnection* connection})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'isRecordingPaused':
     'prefix': 'isRecordingPaused'
-    'body': 'isRecordingPaused()'
+    'body': 'isRecordingPaused'
   'maximumRecordedDuration':
     'prefix': 'maximumRecordedDuration'
-    'body': 'maximumRecordedDuration()'
+    'body': 'maximumRecordedDuration'
   'maximumRecordedFileSize':
     'prefix': 'maximumRecordedFileSize'
-    'body': 'maximumRecordedFileSize()'
+    'body': 'maximumRecordedFileSize'
   'maximumVideoSize':
     'prefix': 'maximumVideoSize'
-    'body': 'maximumVideoSize()'
+    'body': 'maximumVideoSize'
   'minimumVideoFrameInterval':
     'prefix': 'minimumVideoFrameInterval'
-    'body': 'minimumVideoFrameInterval()'
+    'body': 'minimumVideoFrameInterval'
   'outputFileURL':
     'prefix': 'outputFileURL'
-    'body': 'outputFileURL()'
+    'body': 'outputFileURL'
   'pauseRecording':
     'prefix': 'pauseRecording'
-    'body': 'pauseRecording()'
+    'body': 'pauseRecording'
   'recordToOutputFileURL:':
     'prefix': 'recordToOutputFileURL:'
     'body': 'recordToOutputFileURL(${1:NSURL* url})'
@@ -2194,13 +2224,13 @@
     'body': 'recordToOutputFileURL(${1:NSURL* url}, bufferDestination:${2:QTCaptureFileOutputBufferDestination bufferDestination})'
   'recordedDuration':
     'prefix': 'recordedDuration'
-    'body': 'recordedDuration()'
+    'body': 'recordedDuration'
   'recordedFileSize':
     'prefix': 'recordedFileSize'
-    'body': 'recordedFileSize()'
+    'body': 'recordedFileSize'
   'resumeRecording':
     'prefix': 'resumeRecording'
-    'body': 'resumeRecording()'
+    'body': 'resumeRecording'
   'setCompressionOptions:forConnection:':
     'prefix': 'setCompressionOptions:forConnection:'
     'body': 'setCompressionOptions(${1:QTCompressionOptions* compressionOptions}, forConnection:${2:QTCaptureConnection* connection})'
@@ -2219,9 +2249,15 @@
   'setMinimumVideoFrameInterval:':
     'prefix': 'setMinimumVideoFrameInterval:'
     'body': 'setMinimumVideoFrameInterval(${1:NSTimeInterval minimumVideoFrameInterval})'
+  'QTCaptureInput':
+    'prefix': 'QTCaptureInput'
+    'body': 'QTCaptureInput'
   'connections':
     'prefix': 'connections'
-    'body': 'connections()'
+    'body': 'connections'
+  'QTCaptureLayer':
+    'prefix': 'QTCaptureLayer'
+    'body': 'QTCaptureLayer'
   'initWithSession:':
     'prefix': 'initWithSession:'
     'body': 'initWithSession(${1:QTCaptureSession* session})'
@@ -2230,13 +2266,19 @@
     'body': 'layerWithSession(${1:QTCaptureSession* session})'
   'session':
     'prefix': 'session'
-    'body': 'session()'
+    'body': 'session'
   'setSession:':
     'prefix': 'setSession:'
     'body': 'setSession(${1:QTCaptureSession* session})'
+  'QTCaptureOutput':
+    'prefix': 'QTCaptureOutput'
+    'body': 'QTCaptureOutput'
   'connections':
     'prefix': 'connections'
-    'body': 'connections()'
+    'body': 'connections'
+  'QTCaptureSession':
+    'prefix': 'QTCaptureSession'
+    'body': 'QTCaptureSession'
   'addInput:error:':
     'prefix': 'addInput:error:'
     'body': 'addInput(${1:QTCaptureInput* input}, error:${2:NSError** errorPtr})'
@@ -2245,13 +2287,13 @@
     'body': 'addOutput(${1:QTCaptureOutput* output}, error:${2:NSError** errorPtr})'
   'inputs':
     'prefix': 'inputs'
-    'body': 'inputs()'
+    'body': 'inputs'
   'isRunning':
     'prefix': 'isRunning'
-    'body': 'isRunning()'
+    'body': 'isRunning'
   'outputs':
     'prefix': 'outputs'
-    'body': 'outputs()'
+    'body': 'outputs'
   'removeInput:':
     'prefix': 'removeInput:'
     'body': 'removeInput(${1:QTCaptureInput* input})'
@@ -2260,19 +2302,22 @@
     'body': 'removeOutput(${1:QTCaptureOutput* output})'
   'startRunning':
     'prefix': 'startRunning'
-    'body': 'startRunning()'
+    'body': 'startRunning'
   'stopRunning':
     'prefix': 'stopRunning'
-    'body': 'stopRunning()'
+    'body': 'stopRunning'
+  'QTCaptureVideoPreviewOutput':
+    'prefix': 'QTCaptureVideoPreviewOutput'
+    'body': 'QTCaptureVideoPreviewOutput'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'outputVideoFrame:withSampleBuffer:fromConnection:':
     'prefix': 'outputVideoFrame:withSampleBuffer:fromConnection:'
     'body': 'outputVideoFrame(${1:CVImageBufferRef videoFrame}, withSampleBuffer:${2:QTSampleBuffer* sampleBuffer}, fromConnection:${3:QTCaptureConnection* connection})'
   'pixelBufferAttributes':
     'prefix': 'pixelBufferAttributes'
-    'body': 'pixelBufferAttributes()'
+    'body': 'pixelBufferAttributes'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -2285,24 +2330,27 @@
   'visualContextForConnection:':
     'prefix': 'visualContextForConnection:'
     'body': 'visualContextForConnection(${1:QTCaptureConnection* connection})'
+  'QTCaptureView':
+    'prefix': 'QTCaptureView'
+    'body': 'QTCaptureView'
   'availableVideoPreviewConnections':
     'prefix': 'availableVideoPreviewConnections'
-    'body': 'availableVideoPreviewConnections()'
+    'body': 'availableVideoPreviewConnections'
   'captureSession':
     'prefix': 'captureSession'
-    'body': 'captureSession()'
+    'body': 'captureSession'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'fillColor':
     'prefix': 'fillColor'
-    'body': 'fillColor()'
+    'body': 'fillColor'
   'preservesAspectRatio':
     'prefix': 'preservesAspectRatio'
-    'body': 'preservesAspectRatio()'
+    'body': 'preservesAspectRatio'
   'previewBounds':
     'prefix': 'previewBounds'
-    'body': 'previewBounds()'
+    'body': 'previewBounds'
   'setCaptureSession:':
     'prefix': 'setCaptureSession:'
     'body': 'setCaptureSession(${1:QTCaptureSession* captureSession})'
@@ -2320,7 +2368,10 @@
     'body': 'setVideoPreviewConnection(${1:QTCaptureConnection* videoPreviewConnection})'
   'videoPreviewConnection':
     'prefix': 'videoPreviewConnection'
-    'body': 'videoPreviewConnection()'
+    'body': 'videoPreviewConnection'
+  'QTCompressionOptions':
+    'prefix': 'QTCompressionOptions'
+    'body': 'QTCompressionOptions'
   'QTCompressionOptions.compressionOptionsIdentifiersForMediaType:':
     'prefix': 'compressionOptionsIdentifiersForMediaType:'
     'body': 'compressionOptionsIdentifiersForMediaType(${1:NSString* mediaType})'
@@ -2332,25 +2383,28 @@
     'body': 'isEqualToCompressionOptions(${1:QTCompressionOptions* compressionOptions})'
   'localizedCompressionOptionsSummary':
     'prefix': 'localizedCompressionOptionsSummary'
-    'body': 'localizedCompressionOptionsSummary()'
+    'body': 'localizedCompressionOptionsSummary'
   'localizedDisplayName':
     'prefix': 'localizedDisplayName'
-    'body': 'localizedDisplayName()'
+    'body': 'localizedDisplayName'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
+  'QTDataReference':
+    'prefix': 'QTDataReference'
+    'body': 'QTDataReference'
   'MIMEType':
     'prefix': 'MIMEType'
-    'body': 'MIMEType()'
+    'body': 'MIMEType'
   'dataRef':
     'prefix': 'dataRef'
-    'body': 'dataRef()'
+    'body': 'dataRef'
   'dataRefData':
     'prefix': 'dataRefData'
-    'body': 'dataRefData()'
+    'body': 'dataRefData'
   'dataRefType':
     'prefix': 'dataRefType'
-    'body': 'dataRefType()'
+    'body': 'dataRefType'
   'QTDataReference.dataReferenceWithDataRef:type:':
     'prefix': 'dataReferenceWithDataRef:type:'
     'body': 'dataReferenceWithDataRef(${1:Handle dataRef}, type:${2:NSString* type})'
@@ -2389,25 +2443,28 @@
     'body': 'initWithReferenceToURL(${1:NSURL* url})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'referenceData':
     'prefix': 'referenceData'
-    'body': 'referenceData()'
+    'body': 'referenceData'
   'referenceFile':
     'prefix': 'referenceFile'
-    'body': 'referenceFile()'
+    'body': 'referenceFile'
   'referenceURL':
     'prefix': 'referenceURL'
-    'body': 'referenceURL()'
+    'body': 'referenceURL'
   'setDataRef:':
     'prefix': 'setDataRef:'
     'body': 'setDataRef(${1:Handle dataRef})'
   'setDataRefType:':
     'prefix': 'setDataRefType:'
     'body': 'setDataRefType(${1:NSString* type})'
+  'QTExportOptions':
+    'prefix': 'QTExportOptions'
+    'body': 'QTExportOptions'
   'QTExportOptions.allExportOptionsIdentifiers':
     'prefix': 'allExportOptionsIdentifiers'
-    'body': 'allExportOptionsIdentifiers()'
+    'body': 'allExportOptionsIdentifiers'
   'QTExportOptions.exportOptionsIdentifiersCompatibleWithMovie:':
     'prefix': 'exportOptionsIdentifiersCompatibleWithMovie:'
     'body': 'exportOptionsIdentifiersCompatibleWithMovie(${1:QTMovie* movie})'
@@ -2416,70 +2473,79 @@
     'body': 'exportOptionsWithIdentifier(${1:NSString* identifier})'
   'localizedExportOptionsSummary':
     'prefix': 'localizedExportOptionsSummary'
-    'body': 'localizedExportOptionsSummary()'
+    'body': 'localizedExportOptionsSummary'
   'QTExportOptions.localizedNameForExportOptionsIdentifier:':
     'prefix': 'localizedNameForExportOptionsIdentifier:'
     'body': 'localizedNameForExportOptionsIdentifier(${1:NSString* identifier})'
   'recommendedFileTypesForExportedFile':
     'prefix': 'recommendedFileTypesForExportedFile'
-    'body': 'recommendedFileTypesForExportedFile()'
+    'body': 'recommendedFileTypesForExportedFile'
+  'QTExportSession':
+    'prefix': 'QTExportSession'
+    'body': 'QTExportSession'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'exportOptions':
     'prefix': 'exportOptions'
-    'body': 'exportOptions()'
+    'body': 'exportOptions'
   'initWithMovie:exportOptions:outputURL:error:':
     'prefix': 'initWithMovie:exportOptions:outputURL:error:'
     'body': 'initWithMovie(${1:QTMovie* movie}, exportOptions:${2:QTExportOptions* exportOptions}, outputURL:${3:NSURL* outputURL}, error:${4:NSError** outError})'
   'isCancelled':
     'prefix': 'isCancelled'
-    'body': 'isCancelled()'
+    'body': 'isCancelled'
   'isFinished':
     'prefix': 'isFinished'
-    'body': 'isFinished()'
+    'body': 'isFinished'
   'isRunning':
     'prefix': 'isRunning'
-    'body': 'isRunning()'
+    'body': 'isRunning'
   'localizedExportSessionOutputSummary':
     'prefix': 'localizedExportSessionOutputSummary'
-    'body': 'localizedExportSessionOutputSummary()'
+    'body': 'localizedExportSessionOutputSummary'
   'progress':
     'prefix': 'progress'
-    'body': 'progress()'
+    'body': 'progress'
   'run':
     'prefix': 'run'
-    'body': 'run()'
+    'body': 'run'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
   'waitUntilFinished:':
     'prefix': 'waitUntilFinished:'
     'body': 'waitUntilFinished(${1:NSError** error})'
+  'QTFormatDescription':
+    'prefix': 'QTFormatDescription'
+    'body': 'QTFormatDescription'
   'attributeForKey:':
     'prefix': 'attributeForKey:'
     'body': 'attributeForKey(${1:NSString* key})'
   'formatDescriptionAttributes':
     'prefix': 'formatDescriptionAttributes'
-    'body': 'formatDescriptionAttributes()'
+    'body': 'formatDescriptionAttributes'
   'formatType':
     'prefix': 'formatType'
-    'body': 'formatType()'
+    'body': 'formatType'
   'isEqualToFormatDescription:':
     'prefix': 'isEqualToFormatDescription:'
     'body': 'isEqualToFormatDescription(${1:QTFormatDescription* formatDescription})'
   'localizedFormatSummary':
     'prefix': 'localizedFormatSummary'
-    'body': 'localizedFormatSummary()'
+    'body': 'localizedFormatSummary'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'quickTimeSampleDescription':
     'prefix': 'quickTimeSampleDescription'
-    'body': 'quickTimeSampleDescription()'
+    'body': 'quickTimeSampleDescription'
+  'QTMedia':
+    'prefix': 'QTMedia'
+    'body': 'QTMedia'
   'attributeForKey:':
     'prefix': 'attributeForKey:'
     'body': 'attributeForKey(${1:NSString* attributeKey})'
@@ -2491,13 +2557,13 @@
     'body': 'initWithQuickTimeMedia(${1:Media media}, error:${2:NSError** errorPtr})'
   'mediaAttributes':
     'prefix': 'mediaAttributes'
-    'body': 'mediaAttributes()'
+    'body': 'mediaAttributes'
   'QTMedia.mediaWithQuickTimeMedia:error:':
     'prefix': 'mediaWithQuickTimeMedia:error:'
     'body': 'mediaWithQuickTimeMedia(${1:Media media}, error:${2:NSError** errorPtr})'
   'quickTimeMedia':
     'prefix': 'quickTimeMedia'
-    'body': 'quickTimeMedia()'
+    'body': 'quickTimeMedia'
   'setAttribute:forKey:':
     'prefix': 'setAttribute:forKey:'
     'body': 'setAttribute(${1:id value}, forKey:${2:NSString* attributeKey})'
@@ -2506,25 +2572,28 @@
     'body': 'setMediaAttributes(${1:NSDictionary* attributes})'
   'track':
     'prefix': 'track'
-    'body': 'track()'
+    'body': 'track'
+  'QTMetadataItem':
+    'prefix': 'QTMetadataItem'
+    'body': 'QTMetadataItem'
   'dataValue':
     'prefix': 'dataValue'
-    'body': 'dataValue()'
+    'body': 'dataValue'
   'dateValue':
     'prefix': 'dateValue'
-    'body': 'dateValue()'
+    'body': 'dateValue'
   'extraAttributes':
     'prefix': 'extraAttributes'
-    'body': 'extraAttributes()'
+    'body': 'extraAttributes'
   'key':
     'prefix': 'key'
-    'body': 'Key()'
+    'body': 'Key'
   'keySpace':
     'prefix': 'keySpace'
-    'body': 'KeySpace()'
+    'body': 'KeySpace'
   'locale':
     'prefix': 'locale'
-    'body': 'locale()'
+    'body': 'locale'
   'QTMetadataItem.metadataItemsFromArray:withKey:keySpace:':
     'prefix': 'metadataItemsFromArray:withKey:keySpace:'
     'body': 'metadataItemsFromArray(${1:NSArray* array}, withKey:${2:id key}, keySpace:${3:NSString* keySpace})'
@@ -2533,16 +2602,19 @@
     'body': 'metadataItemsFromArray(${1:NSArray* array}, withLocale:${2:NSLocale* locale})'
   'numberValue':
     'prefix': 'numberValue'
-    'body': 'numberValue()'
+    'body': 'numberValue'
   'stringValue':
     'prefix': 'stringValue'
-    'body': 'stringValue()'
+    'body': 'stringValue'
   'time':
     'prefix': 'time'
-    'body': 'time()'
+    'body': 'time'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'QTMovie':
+    'prefix': 'QTMovie'
+    'body': 'QTMovie'
   'addChapters:withAttributes:error:':
     'prefix': 'addChapters:withAttributes:error:'
     'body': 'addChapters(${1:NSArray* chapters}, withAttributes:${2:NSDictionary* attributes}, error:${3:NSError** errorPtr})'
@@ -2554,16 +2626,16 @@
     'body': 'appendSelectionFromMovie(${1:id movie})'
   'attachToCurrentThread':
     'prefix': 'attachToCurrentThread'
-    'body': 'attachToCurrentThread()'
+    'body': 'attachToCurrentThread'
   'attributeForKey:':
     'prefix': 'attributeForKey:'
     'body': 'attributeForKey(${1:NSString* attributeKey})'
   'autoplay':
     'prefix': 'autoplay'
-    'body': 'autoplay()'
+    'body': 'autoplay'
   'availableMetadataFormats':
     'prefix': 'availableMetadataFormats'
-    'body': 'availableMetadataFormats()'
+    'body': 'availableMetadataFormats'
   'QTMovie.canInitWithDataReference:':
     'prefix': 'canInitWithDataReference:'
     'body': 'canInitWithDataReference(${1:QTDataReference* dataReference})'
@@ -2578,46 +2650,46 @@
     'body': 'canInitWithURL(${1:NSURL* url})'
   'canUpdateMovieFile':
     'prefix': 'canUpdateMovieFile'
-    'body': 'canUpdateMovieFile()'
+    'body': 'canUpdateMovieFile'
   'chapterCount':
     'prefix': 'chapterCount'
-    'body': 'chapterCount()'
+    'body': 'chapterCount'
   'chapterIndexForTime:':
     'prefix': 'chapterIndexForTime:'
     'body': 'chapterIndexForTime(${1:QTTime time})'
   'chapters':
     'prefix': 'chapters'
-    'body': 'chapters()'
+    'body': 'chapters'
   'commonMetadata':
     'prefix': 'commonMetadata'
-    'body': 'commonMetadata()'
+    'body': 'commonMetadata'
   'currentFrameImage':
     'prefix': 'currentFrameImage'
-    'body': 'currentFrameImage()'
+    'body': 'currentFrameImage'
   'currentTime':
     'prefix': 'currentTime'
-    'body': 'currentTime()'
+    'body': 'currentTime'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'deleteSegment:':
     'prefix': 'deleteSegment:'
     'body': 'deleteSegment(${1:QTTimeRange segment})'
   'detachFromCurrentThread':
     'prefix': 'detachFromCurrentThread'
-    'body': 'detachFromCurrentThread()'
+    'body': 'detachFromCurrentThread'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'QTMovie.enterQTKitOnThread':
     'prefix': 'enterQTKitOnThread'
-    'body': 'enterQTKitOnThread()'
+    'body': 'enterQTKitOnThread'
   'QTMovie.enterQTKitOnThreadDisablingThreadSafetyProtection':
     'prefix': 'enterQTKitOnThreadDisablingThreadSafetyProtection'
-    'body': 'enterQTKitOnThreadDisablingThreadSafetyProtection()'
+    'body': 'enterQTKitOnThreadDisablingThreadSafetyProtection'
   'QTMovie.exitQTKitOnThread':
     'prefix': 'exitQTKitOnThread'
-    'body': 'exitQTKitOnThread()'
+    'body': 'exitQTKitOnThread'
   'frameImageAtTime:':
     'prefix': 'frameImageAtTime:'
     'body': 'frameImageAtTime(${1:QTTime time})'
@@ -2626,25 +2698,25 @@
     'body': 'frameImageAtTime(${1:QTTime time}, withAttributes:${2:NSDictionary* attributes}, error:${3:NSError** errorPtr})'
   'generateApertureModeDimensions':
     'prefix': 'generateApertureModeDimensions'
-    'body': 'generateApertureModeDimensions()'
+    'body': 'generateApertureModeDimensions'
   'gotoBeginning':
     'prefix': 'gotoBeginning'
-    'body': 'gotoBeginning()'
+    'body': 'gotoBeginning'
   'gotoEnd':
     'prefix': 'gotoEnd'
-    'body': 'gotoEnd()'
+    'body': 'gotoEnd'
   'gotoNextSelectionPoint':
     'prefix': 'gotoNextSelectionPoint'
-    'body': 'gotoNextSelectionPoint()'
+    'body': 'gotoNextSelectionPoint'
   'gotoPosterTime':
     'prefix': 'gotoPosterTime'
-    'body': 'gotoPosterTime()'
+    'body': 'gotoPosterTime'
   'gotoPreviousSelectionPoint':
     'prefix': 'gotoPreviousSelectionPoint'
-    'body': 'gotoPreviousSelectionPoint()'
+    'body': 'gotoPreviousSelectionPoint'
   'hasChapters':
     'prefix': 'hasChapters'
-    'body': 'hasChapters()'
+    'body': 'hasChapters'
   'initToWritableData:error:':
     'prefix': 'initToWritableData:error:'
     'body': 'initToWritableData(${1:NSMutableData* data}, error:${2:NSError** errorPtr})'
@@ -2695,25 +2767,25 @@
     'body': 'insertSegmentOfTrack(${1:QTTrack* track}, timeRange:${2:QTTimeRange range}, atTime:${3:QTTime time})'
   'invalidate':
     'prefix': 'invalidate'
-    'body': 'invalidate()'
+    'body': 'invalidate'
   'isIdling':
     'prefix': 'isIdling'
-    'body': 'isIdling()'
+    'body': 'isIdling'
   'metadataForFormat:':
     'prefix': 'metadataForFormat:'
     'body': 'metadataForFormat(${1:NSString* format})'
   'QTMovie.movie':
     'prefix': 'movie'
-    'body': 'movie()'
+    'body': 'movie'
   'movieAttributes':
     'prefix': 'movieAttributes'
-    'body': 'movieAttributes()'
+    'body': 'movieAttributes'
   'QTMovie.movieFileTypes:':
     'prefix': 'movieFileTypes:'
     'body': 'movieFileTypes(${1:QTMovieFileTypeOptions types})'
   'movieFormatRepresentation':
     'prefix': 'movieFormatRepresentation'
-    'body': 'movieFormatRepresentation()'
+    'body': 'movieFormatRepresentation'
   'QTMovie.movieNamed:error:':
     'prefix': 'movieNamed:error:'
     'body': 'movieNamed(${1:NSString* name}, error:${2:NSError** errorPtr})'
@@ -2722,10 +2794,10 @@
     'body': 'movieTypesWithOptions(${1:QTMovieFileTypeOptions types})'
   'QTMovie.movieUnfilteredFileTypes':
     'prefix': 'movieUnfilteredFileTypes'
-    'body': 'movieUnfilteredFileTypes()'
+    'body': 'movieUnfilteredFileTypes'
   'QTMovie.movieUnfilteredPasteboardTypes':
     'prefix': 'movieUnfilteredPasteboardTypes'
-    'body': 'movieUnfilteredPasteboardTypes()'
+    'body': 'movieUnfilteredPasteboardTypes'
   'QTMovie.movieWithAttributes:error:':
     'prefix': 'movieWithAttributes:error:'
     'body': 'movieWithAttributes(${1:NSDictionary* attributes}, error:${2:NSError** errorPtr})'
@@ -2752,28 +2824,28 @@
     'body': 'movieWithURL(${1:NSURL* url}, error:${2:NSError** errorPtr})'
   'muted':
     'prefix': 'muted'
-    'body': 'muted()'
+    'body': 'muted'
   'play':
     'prefix': 'play'
-    'body': 'play()'
+    'body': 'play'
   'posterImage':
     'prefix': 'posterImage'
-    'body': 'posterImage()'
+    'body': 'posterImage'
   'quickTimeMovie':
     'prefix': 'quickTimeMovie'
-    'body': 'quickTimeMovie()'
+    'body': 'quickTimeMovie'
   'quickTimeMovieController':
     'prefix': 'quickTimeMovieController'
-    'body': 'quickTimeMovieController()'
+    'body': 'quickTimeMovieController'
   'rate':
     'prefix': 'rate'
-    'body': 'rate()'
+    'body': 'rate'
   'removeApertureModeDimensions':
     'prefix': 'removeApertureModeDimensions'
-    'body': 'removeApertureModeDimensions()'
+    'body': 'removeApertureModeDimensions'
   'removeChapters':
     'prefix': 'removeChapters'
-    'body': 'removeChapters()'
+    'body': 'removeChapters'
   'removeTrack:':
     'prefix': 'removeTrack:'
     'body': 'removeTrack(${1:QTTrack* track})'
@@ -2785,13 +2857,13 @@
     'body': 'scaleSegment(${1:QTTimeRange segment}, newDuration:${2:QTTime newDuration})'
   'selectionDuration':
     'prefix': 'selectionDuration'
-    'body': 'selectionDuration()'
+    'body': 'selectionDuration'
   'selectionEnd':
     'prefix': 'selectionEnd'
-    'body': 'selectionEnd()'
+    'body': 'selectionEnd'
   'selectionStart':
     'prefix': 'selectionStart'
-    'body': 'selectionStart()'
+    'body': 'selectionStart'
   'setAttribute:forKey:':
     'prefix': 'setAttribute:forKey:'
     'body': 'setAttribute(${1:id value}, forKey:${2:NSString* attributeKey})'
@@ -2827,13 +2899,13 @@
     'body': 'startTimeOfChapter(${1:NSInteger chapterIndex})'
   'stepBackward':
     'prefix': 'stepBackward'
-    'body': 'stepBackward()'
+    'body': 'stepBackward'
   'stepForward':
     'prefix': 'stepForward'
-    'body': 'stepForward()'
+    'body': 'stepForward'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
   'trackByInsertingSegmentOfTrack:fromRange:scaledToRange:':
     'prefix': 'trackByInsertingSegmentOfTrack:fromRange:scaledToRange:'
     'body': 'trackByInsertingSegmentOfTrack(${1:QTTrack* track}, fromRange:${2:QTTimeRange srcRange}, scaledToRange:${3:QTTimeRange dstRange})'
@@ -2842,25 +2914,28 @@
     'body': 'trackByInsertingSegmentOfTrack(${1:QTTrack* track}, timeRange:${2:QTTimeRange range}, atTime:${3:QTTime time})'
   'tracks':
     'prefix': 'tracks'
-    'body': 'tracks()'
+    'body': 'tracks'
   'tracksOfMediaType:':
     'prefix': 'tracksOfMediaType:'
     'body': 'tracksOfMediaType(${1:NSString* type})'
   'updateMovieFile':
     'prefix': 'updateMovieFile'
-    'body': 'updateMovieFile()'
+    'body': 'updateMovieFile'
   'visualContext':
     'prefix': 'visualContext'
-    'body': 'visualContext()'
+    'body': 'visualContext'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
   'writeToFile:withAttributes:':
     'prefix': 'writeToFile:withAttributes:'
     'body': 'writeToFile(${1:NSString* fileName}, withAttributes:${2:NSDictionary* attributes})'
   'writeToFile:withAttributes:error:':
     'prefix': 'writeToFile:withAttributes:error:'
     'body': 'writeToFile(${1:NSString* fileName}, withAttributes:${2:NSDictionary* attributes}, error:${3:NSError** errorPtr})'
+  'QTMovieLayer':
+    'prefix': 'QTMovieLayer'
+    'body': 'QTMovieLayer'
   'initWithMovie:':
     'prefix': 'initWithMovie:'
     'body': 'initWithMovie(${1:QTMovie* movie})'
@@ -2869,19 +2944,22 @@
     'body': 'layerWithMovie(${1:QTMovie* movie})'
   'movie':
     'prefix': 'movie'
-    'body': 'movie()'
+    'body': 'movie'
   'setMovie:':
     'prefix': 'setMovie:'
     'body': 'setMovie(${1:QTMovie* movie})'
+  'QTMovieModernizer':
+    'prefix': 'QTMovieModernizer'
+    'body': 'QTMovieModernizer'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'destinationURL':
     'prefix': 'destinationURL'
-    'body': 'destinationURL()'
+    'body': 'destinationURL'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'initWithSourceURL:destinationURL:':
     'prefix': 'initWithSourceURL:destinationURL:'
     'body': 'initWithSourceURL(${1:NSURL* source}, destinationURL:${2:NSURL* destination})'
@@ -2890,7 +2968,7 @@
     'body': 'modernizeWithCompletionHandler(${1:void (^)(void) handler})'
   'outputFormat':
     'prefix': 'outputFormat'
-    'body': 'outputFormat()'
+    'body': 'outputFormat'
   'QTMovieModernizer.requiresModernization:error:':
     'prefix': 'requiresModernization:error:'
     'body': 'requiresModernization(${1:NSURL* source}, error:${2:NSError** outError})'
@@ -2905,10 +2983,13 @@
     'body': 'setStatus(${1:QTMovieModernizerStatus status})'
   'sourceURL':
     'prefix': 'sourceURL'
-    'body': 'sourceURL()'
+    'body': 'sourceURL'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'QTMovieView':
+    'prefix': 'QTMovieView'
+    'body': 'QTMovieView'
   'add:':
     'prefix': 'add:'
     'body': 'add(${1:id sender})'
@@ -2917,13 +2998,13 @@
     'body': 'addScaled(${1:id sender})'
   'areStepButtonsVisible':
     'prefix': 'areStepButtonsVisible'
-    'body': 'areStepButtonsVisible()'
+    'body': 'areStepButtonsVisible'
   'areZoomButtonsVisible':
     'prefix': 'areZoomButtonsVisible'
-    'body': 'areZoomButtonsVisible()'
+    'body': 'areZoomButtonsVisible'
   'controllerBarHeight':
     'prefix': 'controllerBarHeight'
-    'body': 'controllerBarHeight()'
+    'body': 'controllerBarHeight'
   'copy:':
     'prefix': 'copy:'
     'body': 'copy(${1:id sender})'
@@ -2932,13 +3013,13 @@
     'body': 'cut(${1:id sender})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'delete:':
     'prefix': 'delete:'
     'body': 'delete(${1:id sender})'
   'fillColor':
     'prefix': 'fillColor'
-    'body': 'fillColor()'
+    'body': 'fillColor'
   'gotoBeginning:':
     'prefix': 'gotoBeginning:'
     'body': 'gotoBeginning(${1:id sender})'
@@ -2956,34 +3037,34 @@
     'body': 'gotoPreviousSelectionPoint(${1:id sender})'
   'isBackButtonVisible':
     'prefix': 'isBackButtonVisible'
-    'body': 'isBackButtonVisible()'
+    'body': 'isBackButtonVisible'
   'isControllerVisible':
     'prefix': 'isControllerVisible'
-    'body': 'isControllerVisible()'
+    'body': 'isControllerVisible'
   'isCustomButtonVisible':
     'prefix': 'isCustomButtonVisible'
-    'body': 'isCustomButtonVisible()'
+    'body': 'isCustomButtonVisible'
   'isEditable':
     'prefix': 'isEditable'
-    'body': 'isEditable()'
+    'body': 'isEditable'
   'isHotSpotButtonVisible':
     'prefix': 'isHotSpotButtonVisible'
-    'body': 'isHotSpotButtonVisible()'
+    'body': 'isHotSpotButtonVisible'
   'isTranslateButtonVisible':
     'prefix': 'isTranslateButtonVisible'
-    'body': 'isTranslateButtonVisible()'
+    'body': 'isTranslateButtonVisible'
   'isVolumeButtonVisible':
     'prefix': 'isVolumeButtonVisible'
-    'body': 'isVolumeButtonVisible()'
+    'body': 'isVolumeButtonVisible'
   'movie':
     'prefix': 'movie'
-    'body': 'movie()'
+    'body': 'movie'
   'movieBounds':
     'prefix': 'movieBounds'
-    'body': 'movieBounds()'
+    'body': 'movieBounds'
   'movieControllerBounds':
     'prefix': 'movieControllerBounds'
-    'body': 'movieControllerBounds()'
+    'body': 'movieControllerBounds'
   'paste:':
     'prefix': 'paste:'
     'body': 'paste(${1:id sender})'
@@ -2995,7 +3076,7 @@
     'body': 'play(${1:id sender})'
   'preservesAspectRatio':
     'prefix': 'preservesAspectRatio'
-    'body': 'preservesAspectRatio()'
+    'body': 'preservesAspectRatio'
   'replace:':
     'prefix': 'replace:'
     'body': 'replace(${1:id sender})'
@@ -3056,6 +3137,9 @@
   'trim:':
     'prefix': 'trim:'
     'body': 'trim(${1:id sender})'
+  'QTSampleBuffer':
+    'prefix': 'QTSampleBuffer'
+    'body': 'QTSampleBuffer'
   'attributeForKey:':
     'prefix': 'attributeForKey:'
     'body': 'attributeForKey(${1:NSString* key})'
@@ -3064,40 +3148,43 @@
     'body': 'audioBufferListWithOptions(${1:QTSampleBufferAudioBufferListOptions options})'
   'bytesForAllSamples':
     'prefix': 'bytesForAllSamples'
-    'body': 'bytesForAllSamples()'
+    'body': 'bytesForAllSamples'
   'decodeTime':
     'prefix': 'decodeTime'
-    'body': 'decodeTime()'
+    'body': 'decodeTime'
   'decrementSampleUseCount':
     'prefix': 'decrementSampleUseCount'
-    'body': 'decrementSampleUseCount()'
+    'body': 'decrementSampleUseCount'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'formatDescription':
     'prefix': 'formatDescription'
-    'body': 'formatDescription()'
+    'body': 'formatDescription'
   'getAudioStreamPacketDescriptions:inRange:':
     'prefix': 'getAudioStreamPacketDescriptions:inRange:'
     'body': 'getAudioStreamPacketDescriptions(${1:AudioStreamPacketDescription* audioStreamPacketDescriptions}, inRange:${2:NSRange range})'
   'incrementSampleUseCount':
     'prefix': 'incrementSampleUseCount'
-    'body': 'incrementSampleUseCount()'
+    'body': 'incrementSampleUseCount'
   'lengthForAllSamples':
     'prefix': 'lengthForAllSamples'
-    'body': 'lengthForAllSamples()'
+    'body': 'lengthForAllSamples'
   'numberOfSamples':
     'prefix': 'numberOfSamples'
-    'body': 'numberOfSamples()'
+    'body': 'numberOfSamples'
   'presentationTime':
     'prefix': 'presentationTime'
-    'body': 'presentationTime()'
+    'body': 'presentationTime'
   'sampleBufferAttributes':
     'prefix': 'sampleBufferAttributes'
-    'body': 'sampleBufferAttributes()'
+    'body': 'sampleBufferAttributes'
   'sampleUseCount':
     'prefix': 'sampleUseCount'
-    'body': 'sampleUseCount()'
+    'body': 'sampleUseCount'
+  'QTTrack':
+    'prefix': 'QTTrack'
+    'body': 'QTTrack'
   'addImage:forDuration:withAttributes:':
     'prefix': 'addImage:forDuration:withAttributes:'
     'body': 'addImage(${1:NSImage* image}, forDuration:${2:QTTime duration}, withAttributes:${3:NSDictionary* attributes})'
@@ -3109,16 +3196,16 @@
     'body': 'attributeForKey(${1:NSString* attributeKey})'
   'availableMetadataFormats':
     'prefix': 'availableMetadataFormats'
-    'body': 'availableMetadataFormats()'
+    'body': 'availableMetadataFormats'
   'commonMetadata':
     'prefix': 'commonMetadata'
-    'body': 'commonMetadata()'
+    'body': 'commonMetadata'
   'deleteSegment:':
     'prefix': 'deleteSegment:'
     'body': 'deleteSegment(${1:QTTimeRange segment})'
   'generateApertureModeDimensions':
     'prefix': 'generateApertureModeDimensions'
-    'body': 'generateApertureModeDimensions()'
+    'body': 'generateApertureModeDimensions'
   'initWithQuickTimeTrack:error:':
     'prefix': 'initWithQuickTimeTrack:error:'
     'body': 'initWithQuickTimeTrack(${1:Track track}, error:${2:NSError** errorPtr})'
@@ -3133,22 +3220,22 @@
     'body': 'insertSegmentOfTrack(${1:QTTrack* track}, timeRange:${2:QTTimeRange range}, atTime:${3:QTTime time})'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'media':
     'prefix': 'media'
-    'body': 'media()'
+    'body': 'media'
   'metadataForFormat:':
     'prefix': 'metadataForFormat:'
     'body': 'metadataForFormat(${1:NSString* format})'
   'movie':
     'prefix': 'movie'
-    'body': 'movie()'
+    'body': 'movie'
   'quickTimeTrack':
     'prefix': 'quickTimeTrack'
-    'body': 'quickTimeTrack()'
+    'body': 'quickTimeTrack'
   'removeApertureModeDimensions':
     'prefix': 'removeApertureModeDimensions'
-    'body': 'removeApertureModeDimensions()'
+    'body': 'removeApertureModeDimensions'
   'scaleSegment:newDuration:':
     'prefix': 'scaleSegment:newDuration:'
     'body': 'scaleSegment(${1:QTTimeRange segment}, newDuration:${2:QTTime newDuration})'
@@ -3169,22 +3256,31 @@
     'body': 'setVolume(${1:float volume})'
   'trackAttributes':
     'prefix': 'trackAttributes'
-    'body': 'trackAttributes()'
+    'body': 'trackAttributes'
   'QTTrack.trackWithQuickTimeTrack:error:':
     'prefix': 'trackWithQuickTimeTrack:error:'
     'body': 'trackWithQuickTimeTrack(${1:Track track}, error:${2:NSError** errorPtr})'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
+  'QTCaptureDecompressedAudioOutput_Delegate':
+    'prefix': 'QTCaptureDecompressedAudioOutput_Delegate'
+    'body': 'QTCaptureDecompressedAudioOutput_Delegate'
   'captureOutput:didOutputAudioSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didOutputAudioSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:QTCaptureOutput* captureOutput}, didOutputAudioSampleBuffer:${2:QTSampleBuffer* sampleBuffer}, fromConnection:${3:QTCaptureConnection* connection})'
+  'QTCaptureDecompressedVideoOutput_Delegate':
+    'prefix': 'QTCaptureDecompressedVideoOutput_Delegate'
+    'body': 'QTCaptureDecompressedVideoOutput_Delegate'
   'captureOutput:didDropVideoFrameWithSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didDropVideoFrameWithSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:QTCaptureOutput* captureOutput}, didDropVideoFrameWithSampleBuffer:${2:QTSampleBuffer* sampleBuffer}, fromConnection:${3:QTCaptureConnection* connection})'
   'captureOutput:didOutputVideoFrame:withSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didOutputVideoFrame:withSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:QTCaptureOutput* captureOutput}, didOutputVideoFrame:${2:CVImageBufferRef videoFrame}, withSampleBuffer:${3:QTSampleBuffer* sampleBuffer}, fromConnection:${4:QTCaptureConnection* connection})'
+  'QTCaptureFileOutput_Delegate':
+    'prefix': 'QTCaptureFileOutput_Delegate'
+    'body': 'QTCaptureFileOutput_Delegate'
   'captureOutput:didFinishRecordingToOutputFileAtURL:forConnections:dueToError:':
     'prefix': 'captureOutput:didFinishRecordingToOutputFileAtURL:forConnections:dueToError:'
     'body': 'captureOutput(${1:QTCaptureFileOutput* captureOutput}, didFinishRecordingToOutputFileAtURL:${2:NSURL* outputFileURL}, forConnections:${3:NSArray* connections}, dueToError:${4:NSError* error})'
@@ -3212,12 +3308,21 @@
   'captureOutput:willStartRecordingToOutputFileAtURL:forConnections:':
     'prefix': 'captureOutput:willStartRecordingToOutputFileAtURL:forConnections:'
     'body': 'captureOutput(${1:QTCaptureFileOutput* captureOutput}, willStartRecordingToOutputFileAtURL:${2:NSURL* fileURL}, forConnections:${3:NSArray* connections})'
+  'QTCaptureVideoPreviewOutput_Delegate':
+    'prefix': 'QTCaptureVideoPreviewOutput_Delegate'
+    'body': 'QTCaptureVideoPreviewOutput_Delegate'
   'captureOutput:didOutputVideoFrame:withSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didOutputVideoFrame:withSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:QTCaptureOutput* captureOutput}, didOutputVideoFrame:${2:CVImageBufferRef videoFrame}, withSampleBuffer:${3:QTSampleBuffer* sampleBuffer}, fromConnection:${4:QTCaptureConnection* connection})'
+  'QTCaptureView_Delegate':
+    'prefix': 'QTCaptureView_Delegate'
+    'body': 'QTCaptureView_Delegate'
   'view:willDisplayImage:':
     'prefix': 'view:willDisplayImage:'
     'body': 'view(${1:QTCaptureView* view}, willDisplayImage:${2:CIImage* image})'
+  'QTExportSessionDelegate':
+    'prefix': 'QTExportSessionDelegate'
+    'body': 'QTExportSessionDelegate'
   'exportSession:didFailWithError:':
     'prefix': 'exportSession:didFailWithError:'
     'body': 'exportSession(${1:QTExportSession* exportSession}, didFailWithError:${2:NSError* error})'
@@ -3230,12 +3335,18 @@
   'exportSessionWasCancelled:':
     'prefix': 'exportSessionWasCancelled:'
     'body': 'exportSessionWasCancelled(${1:QTExportSession* exportSession})'
+  'QTMovieView_Delegate':
+    'prefix': 'QTMovieView_Delegate'
+    'body': 'QTMovieView_Delegate'
   'menuForEventDelegate:':
     'prefix': 'menuForEventDelegate:'
     'body': 'menuForEventDelegate(${1:NSEvent* event})'
   'view:willDisplayImage:':
     'prefix': 'view:willDisplayImage:'
     'body': 'view(${1:QTCaptureView* view}, willDisplayImage:${2:CIImage* image})'
+  'QTMovie_Delegate':
+    'prefix': 'QTMovie_Delegate'
+    'body': 'QTMovie_Delegate'
   'externalMovie:':
     'prefix': 'externalMovie:'
     'body': 'externalMovie(${1:NSDictionary* dictionary})'

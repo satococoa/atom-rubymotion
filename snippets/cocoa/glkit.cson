@@ -442,7 +442,7 @@
     'body': 'GLKMatrixStackGetMatrix4InverseTranspose(${1: stack})'
   'GLKMatrixStackGetTypeID':
     'prefix': 'GLKMatrixStackGetTypeID'
-    'body': 'GLKMatrixStackGetTypeID()'
+    'body': 'GLKMatrixStackGetTypeID'
   'GLKMatrixStackLoadMatrix4':
     'prefix': 'GLKMatrixStackLoadMatrix4'
     'body': 'GLKMatrixStackLoadMatrix4(${1: stack}, ${2: matrix})'
@@ -815,42 +815,45 @@
   'NSStringFromGLKVector4':
     'prefix': 'NSStringFromGLKVector4'
     'body': 'NSStringFromGLKVector4(${1: vector})'
+  'GLKBaseEffect':
+    'prefix': 'GLKBaseEffect'
+    'body': 'GLKBaseEffect'
   'colorMaterialEnabled':
     'prefix': 'colorMaterialEnabled'
-    'body': 'colorMaterialEnabled()'
+    'body': 'colorMaterialEnabled'
   'constantColor':
     'prefix': 'constantColor'
-    'body': 'constantColor()'
+    'body': 'constantColor'
   'fog':
     'prefix': 'fog'
-    'body': 'fog()'
+    'body': 'fog'
   'label':
     'prefix': 'label'
-    'body': 'label()'
+    'body': 'label'
   'light0':
     'prefix': 'light0'
-    'body': 'light0()'
+    'body': 'light0'
   'light1':
     'prefix': 'light1'
-    'body': 'light1()'
+    'body': 'light1'
   'light2':
     'prefix': 'light2'
-    'body': 'light2()'
+    'body': 'light2'
   'lightModelAmbientColor':
     'prefix': 'lightModelAmbientColor'
-    'body': 'lightModelAmbientColor()'
+    'body': 'lightModelAmbientColor'
   'lightModelTwoSided':
     'prefix': 'lightModelTwoSided'
-    'body': 'lightModelTwoSided()'
+    'body': 'lightModelTwoSided'
   'lightingType':
     'prefix': 'lightingType'
-    'body': 'lightingType()'
+    'body': 'lightingType'
   'material':
     'prefix': 'material'
-    'body': 'material()'
+    'body': 'material'
   'prepareToDraw':
     'prefix': 'prepareToDraw'
-    'body': 'prepareToDraw()'
+    'body': 'prepareToDraw'
   'setColorMaterialEnabled:':
     'prefix': 'setColorMaterialEnabled:'
     'body': 'setColorMaterialEnabled(${1: colorMaterialEnabled})'
@@ -877,34 +880,37 @@
     'body': 'setUseConstantColor(${1: useConstantColor})'
   'texture2d0':
     'prefix': 'texture2d0'
-    'body': 'texture2d0()'
+    'body': 'texture2d0'
   'texture2d1':
     'prefix': 'texture2d1'
-    'body': 'texture2d1()'
+    'body': 'texture2d1'
   'textureOrder':
     'prefix': 'textureOrder'
-    'body': 'textureOrder()'
+    'body': 'textureOrder'
   'transform':
     'prefix': 'transform'
-    'body': 'transform()'
+    'body': 'transform'
   'useConstantColor':
     'prefix': 'useConstantColor'
-    'body': 'useConstantColor()'
+    'body': 'useConstantColor'
+  'GLKEffectPropertyFog':
+    'prefix': 'GLKEffectPropertyFog'
+    'body': 'GLKEffectPropertyFog'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'density':
     'prefix': 'density'
-    'body': 'density()'
+    'body': 'density'
   'enabled':
     'prefix': 'enabled'
-    'body': 'enabled()'
+    'body': 'enabled'
   'end':
     'prefix': 'end'
-    'body': 'end()'
+    'body': 'end'
   'mode':
     'prefix': 'mode'
-    'body': 'mode()'
+    'body': 'mode'
   'setColor:':
     'prefix': 'setColor:'
     'body': 'setColor(${1: color})'
@@ -925,28 +931,31 @@
     'body': 'setStart(${1: start})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
+  'GLKEffectPropertyLight':
+    'prefix': 'GLKEffectPropertyLight'
+    'body': 'GLKEffectPropertyLight'
   'ambientColor':
     'prefix': 'ambientColor'
-    'body': 'ambientColor()'
+    'body': 'ambientColor'
   'constantAttenuation':
     'prefix': 'constantAttenuation'
-    'body': 'constantAttenuation()'
+    'body': 'constantAttenuation'
   'diffuseColor':
     'prefix': 'diffuseColor'
-    'body': 'diffuseColor()'
+    'body': 'diffuseColor'
   'enabled':
     'prefix': 'enabled'
-    'body': 'enabled()'
+    'body': 'enabled'
   'linearAttenuation':
     'prefix': 'linearAttenuation'
-    'body': 'linearAttenuation()'
+    'body': 'linearAttenuation'
   'position':
     'prefix': 'position'
-    'body': 'position()'
+    'body': 'position'
   'quadraticAttenuation':
     'prefix': 'quadraticAttenuation'
-    'body': 'quadraticAttenuation()'
+    'body': 'quadraticAttenuation'
   'setAmbientColor:':
     'prefix': 'setAmbientColor:'
     'body': 'setAmbientColor(${1: ambientColor})'
@@ -985,28 +994,31 @@
     'body': 'setTransform(${1: transform})'
   'specularColor':
     'prefix': 'specularColor'
-    'body': 'specularColor()'
+    'body': 'specularColor'
   'spotCutoff':
     'prefix': 'spotCutoff'
-    'body': 'spotCutoff()'
+    'body': 'spotCutoff'
   'spotDirection':
     'prefix': 'spotDirection'
-    'body': 'spotDirection()'
+    'body': 'spotDirection'
   'spotExponent':
     'prefix': 'spotExponent'
-    'body': 'spotExponent()'
+    'body': 'spotExponent'
   'transform':
     'prefix': 'transform'
-    'body': 'transform()'
+    'body': 'transform'
+  'GLKEffectPropertyMaterial':
+    'prefix': 'GLKEffectPropertyMaterial'
+    'body': 'GLKEffectPropertyMaterial'
   'ambientColor':
     'prefix': 'ambientColor'
-    'body': 'ambientColor()'
+    'body': 'ambientColor'
   'diffuseColor':
     'prefix': 'diffuseColor'
-    'body': 'diffuseColor()'
+    'body': 'diffuseColor'
   'emissiveColor':
     'prefix': 'emissiveColor'
-    'body': 'emissiveColor()'
+    'body': 'emissiveColor'
   'setAmbientColor:':
     'prefix': 'setAmbientColor:'
     'body': 'setAmbientColor(${1: ambientColor})'
@@ -1024,19 +1036,22 @@
     'body': 'setSpecularColor(${1: specularColor})'
   'shininess':
     'prefix': 'shininess'
-    'body': 'shininess()'
+    'body': 'shininess'
   'specularColor':
     'prefix': 'specularColor'
-    'body': 'specularColor()'
+    'body': 'specularColor'
+  'GLKEffectPropertyTexture':
+    'prefix': 'GLKEffectPropertyTexture'
+    'body': 'GLKEffectPropertyTexture'
   'enabled':
     'prefix': 'enabled'
-    'body': 'enabled()'
+    'body': 'enabled'
   'envMode':
     'prefix': 'envMode'
-    'body': 'envMode()'
+    'body': 'envMode'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1: enabled})'
@@ -1051,46 +1066,55 @@
     'body': 'setTarget(${1: target})'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
+  'GLKEffectPropertyTransform':
+    'prefix': 'GLKEffectPropertyTransform'
+    'body': 'GLKEffectPropertyTransform'
   'modelviewMatrix':
     'prefix': 'modelviewMatrix'
-    'body': 'modelviewMatrix()'
+    'body': 'modelviewMatrix'
   'normalMatrix':
     'prefix': 'normalMatrix'
-    'body': 'normalMatrix()'
+    'body': 'normalMatrix'
   'projectionMatrix':
     'prefix': 'projectionMatrix'
-    'body': 'projectionMatrix()'
+    'body': 'projectionMatrix'
   'setModelviewMatrix:':
     'prefix': 'setModelviewMatrix:'
     'body': 'setModelviewMatrix(${1: modelviewMatrix})'
   'setProjectionMatrix:':
     'prefix': 'setProjectionMatrix:'
     'body': 'setProjectionMatrix(${1: projectionMatrix})'
+  'GLKReflectionMapEffect':
+    'prefix': 'GLKReflectionMapEffect'
+    'body': 'GLKReflectionMapEffect'
   'matrix':
     'prefix': 'matrix'
-    'body': 'matrix()'
+    'body': 'matrix'
   'prepareToDraw':
     'prefix': 'prepareToDraw'
-    'body': 'prepareToDraw()'
+    'body': 'prepareToDraw'
   'setMatrix:':
     'prefix': 'setMatrix:'
     'body': 'setMatrix(${1: matrix})'
   'textureCubeMap':
     'prefix': 'textureCubeMap'
-    'body': 'textureCubeMap()'
+    'body': 'textureCubeMap'
+  'GLKSkyboxEffect':
+    'prefix': 'GLKSkyboxEffect'
+    'body': 'GLKSkyboxEffect'
   'center':
     'prefix': 'center'
-    'body': 'center()'
+    'body': 'center'
   'draw':
     'prefix': 'draw'
-    'body': 'draw()'
+    'body': 'draw'
   'label':
     'prefix': 'label'
-    'body': 'label()'
+    'body': 'label'
   'prepareToDraw':
     'prefix': 'prepareToDraw'
-    'body': 'prepareToDraw()'
+    'body': 'prepareToDraw'
   'setCenter:':
     'prefix': 'setCenter:'
     'body': 'setCenter(${1: center})'
@@ -1108,40 +1132,46 @@
     'body': 'setZSize(${1: zSize})'
   'textureCubeMap':
     'prefix': 'textureCubeMap'
-    'body': 'textureCubeMap()'
+    'body': 'textureCubeMap'
   'transform':
     'prefix': 'transform'
-    'body': 'transform()'
+    'body': 'transform'
   'xSize':
     'prefix': 'xSize'
-    'body': 'xSize()'
+    'body': 'xSize'
   'ySize':
     'prefix': 'ySize'
-    'body': 'ySize()'
+    'body': 'ySize'
   'zSize':
     'prefix': 'zSize'
-    'body': 'zSize()'
+    'body': 'zSize'
+  'GLKTextureInfo':
+    'prefix': 'GLKTextureInfo'
+    'body': 'GLKTextureInfo'
   'alphaState':
     'prefix': 'alphaState'
-    'body': 'alphaState()'
+    'body': 'alphaState'
   'containsMipmaps':
     'prefix': 'containsMipmaps'
-    'body': 'containsMipmaps()'
+    'body': 'containsMipmaps'
   'height':
     'prefix': 'height'
-    'body': 'height()'
+    'body': 'height'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'target':
     'prefix': 'target'
-    'body': 'target()'
+    'body': 'target'
   'textureOrigin':
     'prefix': 'textureOrigin'
-    'body': 'textureOrigin()'
+    'body': 'textureOrigin'
   'width':
     'prefix': 'width'
-    'body': 'width()'
+    'body': 'width'
+  'GLKTextureLoader':
+    'prefix': 'GLKTextureLoader'
+    'body': 'GLKTextureLoader'
   'GLKTextureLoader.cubeMapWithContentsOfFile:options:error:':
     'prefix': 'cubeMapWithContentsOfFile:options:error:'
     'body': 'cubeMapWithContentsOfFile(${1: path}, options:${2: options}, error:${3: outError})'
@@ -1187,9 +1217,15 @@
   'textureWithContentsOfURL:options:queue:completionHandler:':
     'prefix': 'textureWithContentsOfURL:options:queue:completionHandler:'
     'body': 'textureWithContentsOfURL(${1: url}, options:${2: options}, queue:${3: queue}, completionHandler:${4: block})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'prepareToDraw':
     'prefix': 'prepareToDraw'
-    'body': 'prepareToDraw()'
+    'body': 'prepareToDraw'
+  'GLKNamedEffect':
+    'prefix': 'GLKNamedEffect'
+    'body': 'GLKNamedEffect'
   'prepareToDraw':
     'prefix': 'prepareToDraw'
-    'body': 'prepareToDraw()'
+    'body': 'prepareToDraw'

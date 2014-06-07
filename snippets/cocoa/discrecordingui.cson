@@ -94,13 +94,13 @@
     'body': 'DRBurnSessionBeginProgressDialog(${1:DRBurnSessionRef burnSession}, ${2:CFTypeRef layout}, ${3:DRBurnSessionProgressDialogOptions* options}, ${4:DRBurnSessionProgressCallbacks* progressCallbacks})'
   'DRBurnSessionCreate':
     'prefix': 'DRBurnSessionCreate'
-    'body': 'DRBurnSessionCreate()'
+    'body': 'DRBurnSessionCreate'
   'DRBurnSessionGetBurn':
     'prefix': 'DRBurnSessionGetBurn'
     'body': 'DRBurnSessionGetBurn(${1:DRBurnSessionRef burnSession})'
   'DRBurnSessionGetTypeID':
     'prefix': 'DRBurnSessionGetTypeID'
-    'body': 'DRBurnSessionGetTypeID()'
+    'body': 'DRBurnSessionGetTypeID'
   'DRBurnSessionSetBurn':
     'prefix': 'DRBurnSessionSetBurn'
     'body': 'DRBurnSessionSetBurn(${1:DRBurnSessionRef burnSession}, ${2:DRBurnRef burn})'
@@ -112,19 +112,22 @@
     'body': 'DREraseSessionBeginProgressDialog(${1:DREraseSessionRef eraseSession}, ${2:DREraseSessionProgressDialogOptions* options}, ${3:DREraseSessionProgressCallbacks* progressCallbacks})'
   'DREraseSessionCreate':
     'prefix': 'DREraseSessionCreate'
-    'body': 'DREraseSessionCreate()'
+    'body': 'DREraseSessionCreate'
   'DREraseSessionGetErase':
     'prefix': 'DREraseSessionGetErase'
     'body': 'DREraseSessionGetErase(${1:DREraseSessionRef eraseSession})'
   'DREraseSessionGetTypeID':
     'prefix': 'DREraseSessionGetTypeID'
-    'body': 'DREraseSessionGetTypeID()'
+    'body': 'DREraseSessionGetTypeID'
   'DREraseSessionSetErase':
     'prefix': 'DREraseSessionSetErase'
     'body': 'DREraseSessionSetErase(${1:DREraseSessionRef eraseSession}, ${2:DREraseRef erase})'
   'DREraseSessionSetupDialog':
     'prefix': 'DREraseSessionSetupDialog'
     'body': 'DREraseSessionSetupDialog(${1:DREraseSessionRef eraseSession}, ${2:DREraseSessionSetupDialogOptions* options}, ${3:DREraseSessionSetupCallbacks* setupCallbacks})'
+  'DRBurnProgressPanel':
+    'prefix': 'DRBurnProgressPanel'
+    'body': 'DRBurnProgressPanel'
   'beginProgressPanelForBurn:layout:':
     'prefix': 'beginProgressPanelForBurn:layout:'
     'body': 'beginProgressPanelForBurn(${1:DRBurn* burn}, layout:${2:id layout})'
@@ -133,10 +136,10 @@
     'body': 'beginProgressSheetForBurn(${1:DRBurn* burn}, layout:${2:id layout}, modalForWindow:${3:NSWindow* docWindow})'
   'description':
     'prefix': 'description'
-    'body': 'description()'
+    'body': 'description'
   'DRBurnProgressPanel.progressPanel':
     'prefix': 'progressPanel'
-    'body': 'progressPanel()'
+    'body': 'progressPanel'
   'setDescription:':
     'prefix': 'setDescription:'
     'body': 'setDescription(${1:NSString* description})'
@@ -148,13 +151,16 @@
     'body': 'stopBurn(${1:id sender})'
   'verboseProgressStatus':
     'prefix': 'verboseProgressStatus'
-    'body': 'verboseProgressStatus()'
+    'body': 'verboseProgressStatus'
+  'DRBurnSetupPanel':
+    'prefix': 'DRBurnSetupPanel'
+    'body': 'DRBurnSetupPanel'
   'appendable:':
     'prefix': 'appendable:'
     'body': 'appendable(${1:id sender})'
   'burnObject':
     'prefix': 'burnObject'
-    'body': 'burnObject()'
+    'body': 'burnObject'
   'burnSpeed:':
     'prefix': 'burnSpeed:'
     'body': 'burnSpeed(${1:id sender})'
@@ -175,13 +181,16 @@
     'body': 'setDefaultButtonTitle(${1:NSString* title})'
   'DRBurnSetupPanel.setupPanel':
     'prefix': 'setupPanel'
-    'body': 'setupPanel()'
+    'body': 'setupPanel'
   'testBurn:':
     'prefix': 'testBurn:'
     'body': 'testBurn(${1:id sender})'
   'verifyBurn:':
     'prefix': 'verifyBurn:'
     'body': 'verifyBurn(${1:id sender})'
+  'DREraseProgressPanel':
+    'prefix': 'DREraseProgressPanel'
+    'body': 'DREraseProgressPanel'
   'beginProgressPanelForErase:':
     'prefix': 'beginProgressPanelForErase:'
     'body': 'beginProgressPanelForErase(${1:DRErase* erase})'
@@ -190,22 +199,28 @@
     'body': 'beginProgressSheetForErase(${1:DRErase* erase}, modalForWindow:${2:NSWindow* docWindow})'
   'description':
     'prefix': 'description'
-    'body': 'description()'
+    'body': 'description'
   'DREraseProgressPanel.progressPanel':
     'prefix': 'progressPanel'
-    'body': 'progressPanel()'
+    'body': 'progressPanel'
   'setDescription:':
     'prefix': 'setDescription:'
     'body': 'setDescription(${1:NSString* description})'
+  'DREraseSetupPanel':
+    'prefix': 'DREraseSetupPanel'
+    'body': 'DREraseSetupPanel'
   'eraseObject':
     'prefix': 'eraseObject'
-    'body': 'eraseObject()'
+    'body': 'eraseObject'
   'eraseType:':
     'prefix': 'eraseType:'
     'body': 'eraseType(${1:id sender})'
   'DREraseSetupPanel.setupPanel':
     'prefix': 'setupPanel'
-    'body': 'setupPanel()'
+    'body': 'setupPanel'
+  'DRSetupPanel':
+    'prefix': 'DRSetupPanel'
+    'body': 'DRSetupPanel'
   'beginSetupSheetForWindow:modalDelegate:didEndSelector:contextInfo:':
     'prefix': 'beginSetupSheetForWindow:modalDelegate:didEndSelector:contextInfo:'
     'body': 'beginSetupSheetForWindow(${1:NSWindow* owner}, modalDelegate:${2:id modalDelegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
@@ -235,10 +250,13 @@
     'body': 'open(${1:id sender})'
   'runSetupPanel':
     'prefix': 'runSetupPanel'
-    'body': 'runSetupPanel()'
+    'body': 'runSetupPanel'
   'setupForDisplay':
     'prefix': 'setupForDisplay'
-    'body': 'setupForDisplay()'
+    'body': 'setupForDisplay'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'burnProgressPanel:burnDidFinish:':
     'prefix': 'burnProgressPanel:burnDidFinish:'
     'body': 'burnProgressPanel(${1:DRBurnProgressPanel* theBurnPanel}, burnDidFinish:${2:DRBurn* burn})'
@@ -272,6 +290,9 @@
   'setupPanelShouldHandleMediaReservations:':
     'prefix': 'setupPanelShouldHandleMediaReservations:'
     'body': 'setupPanelShouldHandleMediaReservations(${1:DRSetupPanel* aPanel})'
+  'DRBurnProgressPanelDelegateMethods':
+    'prefix': 'DRBurnProgressPanelDelegateMethods'
+    'body': 'DRBurnProgressPanelDelegateMethods'
   'burnProgressPanel:burnDidFinish:':
     'prefix': 'burnProgressPanel:burnDidFinish:'
     'body': 'burnProgressPanel(${1:DRBurnProgressPanel* theBurnPanel}, burnDidFinish:${2:DRBurn* burn})'
@@ -281,6 +302,9 @@
   'burnProgressPanelWillBegin:':
     'prefix': 'burnProgressPanelWillBegin:'
     'body': 'burnProgressPanelWillBegin(${1:NSNotification* aNotification})'
+  'DREraseProgressPanelDelegateMethods':
+    'prefix': 'DREraseProgressPanelDelegateMethods'
+    'body': 'DREraseProgressPanelDelegateMethods'
   'eraseProgressPanel:eraseDidFinish:':
     'prefix': 'eraseProgressPanel:eraseDidFinish:'
     'body': 'eraseProgressPanel(${1:DREraseProgressPanel* theErasePanel}, eraseDidFinish:${2:DRErase* erase})'
@@ -290,6 +314,9 @@
   'eraseProgressPanelWillBegin:':
     'prefix': 'eraseProgressPanelWillBegin:'
     'body': 'eraseProgressPanelWillBegin(${1:NSNotification* aNotification})'
+  'DRSetupPanelDelegate':
+    'prefix': 'DRSetupPanelDelegate'
+    'body': 'DRSetupPanelDelegate'
   'setupPanel:determineBestDeviceOfA:orB:':
     'prefix': 'setupPanel:determineBestDeviceOfA:orB:'
     'body': 'setupPanel(${1:DRSetupPanel* aPanel}, determineBestDeviceOfA:${2:DRDevice* deviceA}, orB:${3:DRDevice* device})'

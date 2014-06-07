@@ -152,18 +152,21 @@
   'ALAuthorizationStatusRestricted (1)':
     'prefix': 'ALAuthorizationStatusRestricted'
     'body': 'ALAuthorizationStatusRestricted'
+  'ALAsset':
+    'prefix': 'ALAsset'
+    'body': 'ALAsset'
   'aspectRatioThumbnail':
     'prefix': 'aspectRatioThumbnail'
-    'body': 'aspectRatioThumbnail()'
+    'body': 'aspectRatioThumbnail'
   'defaultRepresentation':
     'prefix': 'defaultRepresentation'
-    'body': 'defaultRepresentation()'
+    'body': 'defaultRepresentation'
   'isEditable':
     'prefix': 'isEditable'
-    'body': 'isEditable()'
+    'body': 'isEditable'
   'originalAsset':
     'prefix': 'originalAsset'
-    'body': 'originalAsset()'
+    'body': 'originalAsset'
   'representationForUTI:':
     'prefix': 'representationForUTI:'
     'body': 'representationForUTI(${1:NSString* representationUTI})'
@@ -175,7 +178,7 @@
     'body': 'setVideoAtPath(${1:NSURL* videoPathURL}, completionBlock:${2:ALAssetsLibraryWriteVideoCompletionBlock completionBlock})'
   'thumbnail':
     'prefix': 'thumbnail'
-    'body': 'thumbnail()'
+    'body': 'thumbnail'
   'valueForProperty:':
     'prefix': 'valueForProperty:'
     'body': 'valueForProperty(${1:NSString* property})'
@@ -185,51 +188,60 @@
   'writeModifiedVideoAtPathToSavedPhotosAlbum:completionBlock:':
     'prefix': 'writeModifiedVideoAtPathToSavedPhotosAlbum:completionBlock:'
     'body': 'writeModifiedVideoAtPathToSavedPhotosAlbum(${1:NSURL* videoPathURL}, completionBlock:${2:ALAssetsLibraryWriteVideoCompletionBlock completionBlock})'
+  'ALAssetRepresentation':
+    'prefix': 'ALAssetRepresentation'
+    'body': 'ALAssetRepresentation'
   'CGImageWithOptions:':
     'prefix': 'CGImageWithOptions:'
     'body': 'CGImageWithOptions(${1:NSDictionary* options})'
   'UTI':
     'prefix': 'UTI'
-    'body': 'UTI()'
+    'body': 'UTI'
   'dimensions':
     'prefix': 'dimensions'
-    'body': 'dimensions()'
+    'body': 'dimensions'
   'filename':
     'prefix': 'filename'
-    'body': 'filename()'
+    'body': 'filename'
   'fullResolutionImage':
     'prefix': 'fullResolutionImage'
-    'body': 'fullResolutionImage()'
+    'body': 'fullResolutionImage'
   'fullScreenImage':
     'prefix': 'fullScreenImage'
-    'body': 'fullScreenImage()'
+    'body': 'fullScreenImage'
   'getBytes:fromOffset:length:error:':
     'prefix': 'getBytes:fromOffset:length:error:'
     'body': 'getBytes(${1:uint8_t* buffer}, fromOffset:${2:long long offset}, length:${3:NSUInteger length}, error:${4:NSError** error})'
   'metadata':
     'prefix': 'metadata'
-    'body': 'metadata()'
+    'body': 'metadata'
   'orientation':
     'prefix': 'orientation'
-    'body': 'orientation()'
+    'body': 'orientation'
   'scale':
     'prefix': 'scale'
-    'body': 'scale()'
+    'body': 'scale'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'ALAssetsFilter':
+    'prefix': 'ALAssetsFilter'
+    'body': 'ALAssetsFilter'
   'ALAssetsFilter.allAssets':
     'prefix': 'allAssets'
-    'body': 'allAssets()'
+    'body': 'allAssets'
   'ALAssetsFilter.allPhotos':
     'prefix': 'allPhotos'
-    'body': 'allPhotos()'
+    'body': 'allPhotos'
   'ALAssetsFilter.allVideos':
     'prefix': 'allVideos'
-    'body': 'allVideos()'
+    'body': 'allVideos'
+  'ALAssetsGroup':
+    'prefix': 'ALAssetsGroup'
+    'body': 'ALAssetsGroup'
   'addAsset:':
     'prefix': 'addAsset:'
     'body': 'addAsset(${1:ALAsset* asset})'
@@ -244,19 +256,22 @@
     'body': 'enumerateAssetsWithOptions(${1:NSEnumerationOptions options}, usingBlock:${2:ALAssetsGroupEnumerationResultsBlock enumerationBlock})'
   'isEditable':
     'prefix': 'isEditable'
-    'body': 'isEditable()'
+    'body': 'isEditable'
   'numberOfAssets':
     'prefix': 'numberOfAssets'
-    'body': 'numberOfAssets()'
+    'body': 'numberOfAssets'
   'posterImage':
     'prefix': 'posterImage'
-    'body': 'posterImage()'
+    'body': 'posterImage'
   'setAssetsFilter:':
     'prefix': 'setAssetsFilter:'
     'body': 'setAssetsFilter(${1:ALAssetsFilter* filter})'
   'valueForProperty:':
     'prefix': 'valueForProperty:'
     'body': 'valueForProperty(${1:NSString* property})'
+  'ALAssetsLibrary':
+    'prefix': 'ALAssetsLibrary'
+    'body': 'ALAssetsLibrary'
   'addAssetsGroupAlbumWithName:resultBlock:failureBlock:':
     'prefix': 'addAssetsGroupAlbumWithName:resultBlock:failureBlock:'
     'body': 'addAssetsGroupAlbumWithName(${1:NSString* name}, resultBlock:${2:ALAssetsLibraryGroupResultBlock resultBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
@@ -265,10 +280,10 @@
     'body': 'assetForURL(${1:NSURL* assetURL}, resultBlock:${2:ALAssetsLibraryAssetForURLResultBlock resultBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'
   'ALAssetsLibrary.authorizationStatus':
     'prefix': 'authorizationStatus'
-    'body': 'authorizationStatus()'
+    'body': 'authorizationStatus'
   'ALAssetsLibrary.disableSharedPhotoStreamsSupport':
     'prefix': 'disableSharedPhotoStreamsSupport'
-    'body': 'disableSharedPhotoStreamsSupport()'
+    'body': 'disableSharedPhotoStreamsSupport'
   'enumerateGroupsWithTypes:usingBlock:failureBlock:':
     'prefix': 'enumerateGroupsWithTypes:usingBlock:failureBlock:'
     'body': 'enumerateGroupsWithTypes(${1:ALAssetsGroupType types}, usingBlock:${2:ALAssetsLibraryGroupsEnumerationResultsBlock enumerationBlock}, failureBlock:${3:ALAssetsLibraryAccessFailureBlock failureBlock})'

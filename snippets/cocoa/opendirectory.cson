@@ -44,9 +44,15 @@
   'ODPacketSigningRequired (2)':
     'prefix': 'ODPacketSigningRequired'
     'body': 'ODPacketSigningRequired'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'query:foundResults:error:':
     'prefix': 'query:foundResults:error:'
     'body': 'query(${1:ODQuery* inQuery}, foundResults:${2:NSArray* inResults}, error:${3:NSError* inError})'
+  'ODAttributeMap':
+    'prefix': 'ODAttributeMap'
+    'body': 'ODAttributeMap'
   'ODAttributeMap.attributeMapWithStaticValue:':
     'prefix': 'attributeMapWithStaticValue:'
     'body': 'attributeMapWithStaticValue(${1:NSString* staticValue})'
@@ -55,13 +61,13 @@
     'body': 'attributeMapWithValue(${1:NSString* value})'
   'customAttributes':
     'prefix': 'customAttributes'
-    'body': 'customAttributes()'
+    'body': 'customAttributes'
   'customQueryFunction':
     'prefix': 'customQueryFunction'
-    'body': 'customQueryFunction()'
+    'body': 'customQueryFunction'
   'customTranslationFunction':
     'prefix': 'customTranslationFunction'
-    'body': 'customTranslationFunction()'
+    'body': 'customTranslationFunction'
   'setCustomAttributes:':
     'prefix': 'setCustomAttributes:'
     'body': 'setCustomAttributes(${1:NSArray* customAttributes})'
@@ -82,61 +88,64 @@
     'body': 'setVariableSubstitution(${1:NSString* variableSubstitution})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'ODConfiguration':
+    'prefix': 'ODConfiguration'
+    'body': 'ODConfiguration'
   'addTrustType:trustAccount:trustPassword:username:password:joinExisting:error:':
     'prefix': 'addTrustType:trustAccount:trustPassword:username:password:joinExisting:error:'
     'body': 'addTrustType(${1:NSString* trustType}, trustAccount:${2:NSString* account}, trustPassword:${3:NSString* accountPassword}, username:${4:NSString* username}, password:${5:NSString* password}, joinExisting:${6:BOOL join}, error:${7:NSError** error})'
   'authenticationModuleEntries':
     'prefix': 'authenticationModuleEntries'
-    'body': 'authenticationModuleEntries()'
+    'body': 'authenticationModuleEntries'
   'comment':
     'prefix': 'comment'
-    'body': 'comment()'
+    'body': 'comment'
   'ODConfiguration.configuration':
     'prefix': 'configuration'
-    'body': 'configuration()'
+    'body': 'configuration'
   'connectionIdleTimeoutInSeconds':
     'prefix': 'connectionIdleTimeoutInSeconds'
-    'body': 'connectionIdleTimeoutInSeconds()'
+    'body': 'connectionIdleTimeoutInSeconds'
   'connectionSetupTimeoutInSeconds':
     'prefix': 'connectionSetupTimeoutInSeconds'
-    'body': 'connectionSetupTimeoutInSeconds()'
+    'body': 'connectionSetupTimeoutInSeconds'
   'defaultMappings':
     'prefix': 'defaultMappings'
-    'body': 'defaultMappings()'
+    'body': 'defaultMappings'
   'defaultModuleEntries':
     'prefix': 'defaultModuleEntries'
-    'body': 'defaultModuleEntries()'
+    'body': 'defaultModuleEntries'
   'discoveryModuleEntries':
     'prefix': 'discoveryModuleEntries'
-    'body': 'discoveryModuleEntries()'
+    'body': 'discoveryModuleEntries'
   'generalModuleEntries':
     'prefix': 'generalModuleEntries'
-    'body': 'generalModuleEntries()'
+    'body': 'generalModuleEntries'
   'hideRegistration':
     'prefix': 'hideRegistration'
-    'body': 'hideRegistration()'
+    'body': 'hideRegistration'
   'manInTheMiddleProtection':
     'prefix': 'manInTheMiddleProtection'
-    'body': 'manInTheMiddleProtection()'
+    'body': 'manInTheMiddleProtection'
   'nodeName':
     'prefix': 'nodeName'
-    'body': 'nodeName()'
+    'body': 'nodeName'
   'packetEncryption':
     'prefix': 'packetEncryption'
-    'body': 'packetEncryption()'
+    'body': 'packetEncryption'
   'packetSigning':
     'prefix': 'packetSigning'
-    'body': 'packetSigning()'
+    'body': 'packetSigning'
   'preferredDestinationHostName':
     'prefix': 'preferredDestinationHostName'
-    'body': 'preferredDestinationHostName()'
+    'body': 'preferredDestinationHostName'
   'preferredDestinationHostPort':
     'prefix': 'preferredDestinationHostPort'
-    'body': 'preferredDestinationHostPort()'
+    'body': 'preferredDestinationHostPort'
   'queryTimeoutInSeconds':
     'prefix': 'queryTimeoutInSeconds'
-    'body': 'queryTimeoutInSeconds()'
+    'body': 'queryTimeoutInSeconds'
   'removeTrustUsingUsername:password:deleteTrustAccount:error:':
     'prefix': 'removeTrustUsingUsername:password:deleteTrustAccount:error:'
     'body': 'removeTrustUsingUsername(${1:NSString* username}, password:${2:NSString* password}, deleteTrustAccount:${3:BOOL deleteAccount}, error:${4:NSError** error})'
@@ -205,52 +214,55 @@
     'body': 'suggestedTrustPassword(${1:size_t length})'
   'templateName':
     'prefix': 'templateName'
-    'body': 'templateName()'
+    'body': 'templateName'
   'trustAccount':
     'prefix': 'trustAccount'
-    'body': 'trustAccount()'
+    'body': 'trustAccount'
   'trustKerberosPrincipal':
     'prefix': 'trustKerberosPrincipal'
-    'body': 'trustKerberosPrincipal()'
+    'body': 'trustKerberosPrincipal'
   'trustMetaAccount':
     'prefix': 'trustMetaAccount'
-    'body': 'trustMetaAccount()'
+    'body': 'trustMetaAccount'
   'trustType':
     'prefix': 'trustType'
-    'body': 'trustType()'
+    'body': 'trustType'
   'trustUsesKerberosKeytab':
     'prefix': 'trustUsesKerberosKeytab'
-    'body': 'trustUsesKerberosKeytab()'
+    'body': 'trustUsesKerberosKeytab'
   'trustUsesMutualAuthentication':
     'prefix': 'trustUsesMutualAuthentication'
-    'body': 'trustUsesMutualAuthentication()'
+    'body': 'trustUsesMutualAuthentication'
   'trustUsesSystemKeychain':
     'prefix': 'trustUsesSystemKeychain'
-    'body': 'trustUsesSystemKeychain()'
+    'body': 'trustUsesSystemKeychain'
   'virtualSubnodes':
     'prefix': 'virtualSubnodes'
-    'body': 'virtualSubnodes()'
+    'body': 'virtualSubnodes'
+  'ODMappings':
+    'prefix': 'ODMappings'
+    'body': 'ODMappings'
   'comment':
     'prefix': 'comment'
-    'body': 'comment()'
+    'body': 'comment'
   'function':
     'prefix': 'function'
-    'body': 'function()'
+    'body': 'function'
   'functionAttributes':
     'prefix': 'functionAttributes'
-    'body': 'functionAttributes()'
+    'body': 'functionAttributes'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'ODMappings.mappings':
     'prefix': 'mappings'
-    'body': 'mappings()'
+    'body': 'mappings'
   'recordMapForStandardRecordType:':
     'prefix': 'recordMapForStandardRecordType:'
     'body': 'recordMapForStandardRecordType(${1:NSString* stdType})'
   'recordTypes':
     'prefix': 'recordTypes'
-    'body': 'recordTypes()'
+    'body': 'recordTypes'
   'setComment:':
     'prefix': 'setComment:'
     'body': 'setComment(${1:NSString* comment})'
@@ -271,16 +283,19 @@
     'body': 'setTemplateName(${1:NSString* templateName})'
   'templateName':
     'prefix': 'templateName'
-    'body': 'templateName()'
+    'body': 'templateName'
+  'ODModuleEntry':
+    'prefix': 'ODModuleEntry'
+    'body': 'ODModuleEntry'
   'mappings':
     'prefix': 'mappings'
-    'body': 'mappings()'
+    'body': 'mappings'
   'ODModuleEntry.moduleEntryWithName:xpcServiceName:':
     'prefix': 'moduleEntryWithName:xpcServiceName:'
     'body': 'moduleEntryWithName(${1:NSString* name}, xpcServiceName:${2:NSString* xpcServiceName})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'option:':
     'prefix': 'option:'
     'body': 'option(${1:NSString* optionName})'
@@ -301,16 +316,19 @@
     'body': 'setXpcServiceName(${1:NSString* xpcServiceName})'
   'supportedOptions':
     'prefix': 'supportedOptions'
-    'body': 'supportedOptions()'
+    'body': 'supportedOptions'
   'uuidString':
     'prefix': 'uuidString'
-    'body': 'uuidString()'
+    'body': 'uuidString'
   'xpcServiceName':
     'prefix': 'xpcServiceName'
-    'body': 'xpcServiceName()'
+    'body': 'xpcServiceName'
+  'ODNode':
+    'prefix': 'ODNode'
+    'body': 'ODNode'
   'configuration':
     'prefix': 'configuration'
-    'body': 'configuration()'
+    'body': 'configuration'
   'createRecordWithRecordType:name:attributes:error:':
     'prefix': 'createRecordWithRecordType:name:attributes:error:'
     'body': 'createRecordWithRecordType(${1:ODRecordType inRecordType}, name:${2:NSString* inRecordName}, attributes:${3:NSDictionary* inAttributes}, error:${4:NSError** outError})'
@@ -331,7 +349,7 @@
     'body': 'nodeDetailsForKeys(${1:NSArray* inKeys}, error:${2:NSError** outError})'
   'nodeName':
     'prefix': 'nodeName'
-    'body': 'nodeName()'
+    'body': 'nodeName'
   'ODNode.nodeWithSession:name:error:':
     'prefix': 'nodeWithSession:name:error:'
     'body': 'nodeWithSession(${1:ODSession* inSession}, name:${2:NSString* inName}, error:${3:NSError** outError})'
@@ -377,15 +395,18 @@
   'unreachableSubnodeNamesAndReturnError:':
     'prefix': 'unreachableSubnodeNamesAndReturnError:'
     'body': 'unreachableSubnodeNamesAndReturnError(${1:NSError** outError})'
+  'ODQuery':
+    'prefix': 'ODQuery'
+    'body': 'ODQuery'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:':
     'prefix': 'initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:'
     'body': 'initWithNode(${1:ODNode* inNode}, forRecordTypes:${2:id inRecordTypeOrList}, attribute:${3:ODAttributeType inAttribute}, matchType:${4:ODMatchType inMatchType}, queryValues:${5:id inQueryValueOrList}, returnAttributes:${6:id inReturnAttributeOrList}, maximumResults:${7:NSInteger inMaximumResults}, error:${8:NSError** outError})'
   'operationQueue':
     'prefix': 'operationQueue'
-    'body': 'operationQueue()'
+    'body': 'operationQueue'
   'ODQuery.queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:':
     'prefix': 'queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:'
     'body': 'queryWithNode(${1:ODNode* inNode}, forRecordTypes:${2:id inRecordTypeOrList}, attribute:${3:ODAttributeType inAttribute}, matchType:${4:ODMatchType inMatchType}, queryValues:${5:id inQueryValueOrList}, returnAttributes:${6:id inReturnAttributeOrList}, maximumResults:${7:NSInteger inMaximumResults}, error:${8:NSError** outError})'
@@ -406,7 +427,10 @@
     'body': 'setOperationQueue(${1:NSOperationQueue* operationQueue})'
   'synchronize':
     'prefix': 'synchronize'
-    'body': 'synchronize()'
+    'body': 'synchronize'
+  'ODRecord':
+    'prefix': 'ODRecord'
+    'body': 'ODRecord'
   'addMemberRecord:error:':
     'prefix': 'addMemberRecord:error:'
     'body': 'addMemberRecord(${1:ODRecord* inRecord}, error:${2:NSError** outError})'
@@ -436,10 +460,10 @@
     'body': 'recordDetailsForAttributes(${1:NSArray* inAttributes}, error:${2:NSError** outError})'
   'recordName':
     'prefix': 'recordName'
-    'body': 'recordName()'
+    'body': 'recordName'
   'recordType':
     'prefix': 'recordType'
-    'body': 'recordType()'
+    'body': 'recordType'
   'removeMemberRecord:error:':
     'prefix': 'removeMemberRecord:error:'
     'body': 'removeMemberRecord(${1:ODRecord* inRecord}, error:${2:NSError** outError})'
@@ -485,21 +509,24 @@
   'verifyPassword:error:':
     'prefix': 'verifyPassword:error:'
     'body': 'verifyPassword(${1:NSString* inPassword}, error:${2:NSError** outError})'
+  'ODRecordMap':
+    'prefix': 'ODRecordMap'
+    'body': 'ODRecordMap'
   'attributeMapForStandardAttribute:':
     'prefix': 'attributeMapForStandardAttribute:'
     'body': 'attributeMapForStandardAttribute(${1:NSString* standardAttribute})'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'native':
     'prefix': 'native'
-    'body': 'native()'
+    'body': 'native'
   'odPredicate':
     'prefix': 'odPredicate'
-    'body': 'odPredicate()'
+    'body': 'odPredicate'
   'ODRecordMap.recordMap':
     'prefix': 'recordMap'
-    'body': 'recordMap()'
+    'body': 'recordMap'
   'setAttributeMap:forStandardAttribute:':
     'prefix': 'setAttributeMap:forStandardAttribute:'
     'body': 'setAttributeMap(${1:ODAttributeMap* attributeMap}, forStandardAttribute:${2:NSString* standardAttribute})'
@@ -511,7 +538,10 @@
     'body': 'setOdPredicate(${1:NSDictionary* odPredicate})'
   'standardAttributeTypes':
     'prefix': 'standardAttributeTypes'
-    'body': 'standardAttributeTypes()'
+    'body': 'standardAttributeTypes'
+  'ODSession':
+    'prefix': 'ODSession'
+    'body': 'ODSession'
   'addConfiguration:authorization:error:':
     'prefix': 'addConfiguration:authorization:error:'
     'body': 'addConfiguration(${1:ODConfiguration* configuration}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
@@ -523,10 +553,10 @@
     'body': 'configurationForNodename(${1:NSString* nodename})'
   'configurationTemplateNames':
     'prefix': 'configurationTemplateNames'
-    'body': 'configurationTemplateNames()'
+    'body': 'configurationTemplateNames'
   'ODSession.defaultSession':
     'prefix': 'defaultSession'
-    'body': 'defaultSession()'
+    'body': 'defaultSession'
   'deleteConfiguration:authorization:error:':
     'prefix': 'deleteConfiguration:authorization:error:'
     'body': 'deleteConfiguration(${1:ODConfiguration* configuration}, authorization:${2:SFAuthorization* authorization}, error:${3:NSError** error})'
@@ -538,13 +568,16 @@
     'body': 'initWithOptions(${1:NSDictionary* inOptions}, error:${2:NSError** outError})'
   'mappingTemplateNames':
     'prefix': 'mappingTemplateNames'
-    'body': 'mappingTemplateNames()'
+    'body': 'mappingTemplateNames'
   'nodeNamesAndReturnError:':
     'prefix': 'nodeNamesAndReturnError:'
     'body': 'nodeNamesAndReturnError(${1:NSError** outError})'
   'ODSession.sessionWithOptions:error:':
     'prefix': 'sessionWithOptions:error:'
     'body': 'sessionWithOptions(${1:NSDictionary* inOptions}, error:${2:NSError** outError})'
+  'ODQueryDelegate':
+    'prefix': 'ODQueryDelegate'
+    'body': 'ODQueryDelegate'
   'query:foundResults:error:':
     'prefix': 'query:foundResults:error:'
     'body': 'query(${1:ODQuery* inQuery}, foundResults:${2:NSArray* inResults}, error:${3:NSError* inError})'
@@ -1837,7 +1870,7 @@
     'body': 'KODNodeTypeNetwork'
   'ODContextGetTypeID':
     'prefix': 'ODContextGetTypeID'
-    'body': 'ODContextGetTypeID()'
+    'body': 'ODContextGetTypeID'
   'ODNodeCopyDetails':
     'prefix': 'ODNodeCopyDetails'
     'body': 'ODNodeCopyDetails(${1:ODNodeRef node}, ${2:CFArrayRef keys}, ${3:CFErrorRef* error})'
@@ -1885,7 +1918,7 @@
     'body': 'ODNodeGetName(${1:ODNodeRef node})'
   'ODNodeGetTypeID':
     'prefix': 'ODNodeGetTypeID'
-    'body': 'ODNodeGetTypeID()'
+    'body': 'ODNodeGetTypeID'
   'ODNodeRemovePolicy':
     'prefix': 'ODNodeRemovePolicy'
     'body': 'ODNodeRemovePolicy(${1:ODNodeRef node}, ${2:ODPolicyType policyType}, ${3:CFErrorRef* error})'
@@ -1915,7 +1948,7 @@
     'body': 'ODQueryCreateWithNodeType(${1:CFAllocatorRef allocator}, ${2:ODNodeType nodeType}, ${3:CFTypeRef recordTypeOrList}, ${4:ODAttributeType attribute}, ${5:ODMatchType matchType}, ${6:CFTypeRef queryValueOrList}, ${7:CFTypeRef returnAttributeOrList}, ${8:CFIndex maxResults}, ${9:CFErrorRef* error})'
   'ODQueryGetTypeID':
     'prefix': 'ODQueryGetTypeID'
-    'body': 'ODQueryGetTypeID()'
+    'body': 'ODQueryGetTypeID'
   'ODQueryScheduleWithRunLoop':
     'prefix': 'ODQueryScheduleWithRunLoop'
     'body': 'ODQueryScheduleWithRunLoop(${1:ODQueryRef query}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
@@ -1972,7 +2005,7 @@
     'body': 'ODRecordGetRecordType(${1:ODRecordRef record})'
   'ODRecordGetTypeID':
     'prefix': 'ODRecordGetTypeID'
-    'body': 'ODRecordGetTypeID()'
+    'body': 'ODRecordGetTypeID'
   'ODRecordRemoveMember':
     'prefix': 'ODRecordRemoveMember'
     'body': 'ODRecordRemoveMember(${1:ODRecordRef group}, ${2:ODRecordRef member}, ${3:CFErrorRef* error})'
@@ -2017,4 +2050,4 @@
     'body': 'ODSessionCreate(${1:CFAllocatorRef allocator}, ${2:CFDictionaryRef options}, ${3:CFErrorRef* error})'
   'ODSessionGetTypeID':
     'prefix': 'ODSessionGetTypeID'
-    'body': 'ODSessionGetTypeID()'
+    'body': 'ODSessionGetTypeID'

@@ -1,4 +1,7 @@
 '.source.rubymotion':
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'dispatch_object':
     'prefix': 'dispatch_object'
-    'body': 'dispatch_object()'
+    'body': 'dispatch_object'

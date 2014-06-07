@@ -137,9 +137,12 @@
   'CLLocationCoordinate2DMake':
     'prefix': 'CLLocationCoordinate2DMake'
     'body': 'CLLocationCoordinate2DMake(${1:CLLocationDegrees latitude}, ${2:CLLocationDegrees longitude})'
+  'CLGeocoder':
+    'prefix': 'CLGeocoder'
+    'body': 'CLGeocoder'
   'cancelGeocode':
     'prefix': 'cancelGeocode'
-    'body': 'cancelGeocode()'
+    'body': 'cancelGeocode'
   'geocodeAddressDictionary:completionHandler:':
     'prefix': 'geocodeAddressDictionary:completionHandler:'
     'body': 'geocodeAddressDictionary(${1:NSDictionary* addressDictionary}, completionHandler:${2:CLGeocodeCompletionHandler completionHandler})'
@@ -151,52 +154,58 @@
     'body': 'geocodeAddressString(${1:NSString* addressString}, inRegion:${2:CLRegion* region}, completionHandler:${3:CLGeocodeCompletionHandler completionHandler})'
   'isGeocoding':
     'prefix': 'isGeocoding'
-    'body': 'isGeocoding()'
+    'body': 'isGeocoding'
   'reverseGeocodeLocation:completionHandler:':
     'prefix': 'reverseGeocodeLocation:completionHandler:'
     'body': 'reverseGeocodeLocation(${1:CLLocation* location}, completionHandler:${2:CLGeocodeCompletionHandler completionHandler})'
+  'CLHeading':
+    'prefix': 'CLHeading'
+    'body': 'CLHeading'
   'description':
     'prefix': 'description'
-    'body': 'description()'
+    'body': 'description'
   'headingAccuracy':
     'prefix': 'headingAccuracy'
-    'body': 'headingAccuracy()'
+    'body': 'headingAccuracy'
   'magneticHeading':
     'prefix': 'magneticHeading'
-    'body': 'magneticHeading()'
+    'body': 'magneticHeading'
   'timestamp':
     'prefix': 'timestamp'
-    'body': 'timestamp()'
+    'body': 'timestamp'
   'trueHeading':
     'prefix': 'trueHeading'
-    'body': 'trueHeading()'
+    'body': 'trueHeading'
   'x':
     'prefix': 'x'
-    'body': 'x()'
+    'body': 'x'
   'y':
     'prefix': 'y'
-    'body': 'y()'
+    'body': 'y'
   'z':
     'prefix': 'z'
-    'body': 'z()'
+    'body': 'z'
+  'CLLocation':
+    'prefix': 'CLLocation'
+    'body': 'CLLocation'
   'altitude':
     'prefix': 'altitude'
-    'body': 'altitude()'
+    'body': 'altitude'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'course':
     'prefix': 'course'
-    'body': 'course()'
+    'body': 'course'
   'description':
     'prefix': 'description'
-    'body': 'description()'
+    'body': 'description'
   'distanceFromLocation:':
     'prefix': 'distanceFromLocation:'
     'body': 'distanceFromLocation(${1:CLLocation* location})'
   'horizontalAccuracy':
     'prefix': 'horizontalAccuracy'
-    'body': 'horizontalAccuracy()'
+    'body': 'horizontalAccuracy'
   'initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:speed:timestamp:':
     'prefix': 'initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:speed:timestamp:'
     'body': 'initWithCoordinate(${1:CLLocationCoordinate2D coordinate}, altitude:${2:CLLocationDistance altitude}, horizontalAccuracy:${3:CLLocationAccuracy hAccuracy}, verticalAccuracy:${4:CLLocationAccuracy vAccuracy}, course:${5:CLLocationDirection course}, speed:${6:CLLocationSpeed speed}, timestamp:${7:NSDate* timestamp})'
@@ -208,73 +217,76 @@
     'body': 'initWithLatitude(${1:CLLocationDegrees latitude}, longitude:${2:CLLocationDegrees longitude})'
   'speed':
     'prefix': 'speed'
-    'body': 'speed()'
+    'body': 'speed'
   'timestamp':
     'prefix': 'timestamp'
-    'body': 'timestamp()'
+    'body': 'timestamp'
   'verticalAccuracy':
     'prefix': 'verticalAccuracy'
-    'body': 'verticalAccuracy()'
+    'body': 'verticalAccuracy'
+  'CLLocationManager':
+    'prefix': 'CLLocationManager'
+    'body': 'CLLocationManager'
   'activityType':
     'prefix': 'activityType'
-    'body': 'activityType()'
+    'body': 'activityType'
   'CLLocationManager.authorizationStatus':
     'prefix': 'authorizationStatus'
-    'body': 'authorizationStatus()'
+    'body': 'authorizationStatus'
   'CLLocationManager.deferredLocationUpdatesAvailable':
     'prefix': 'deferredLocationUpdatesAvailable'
-    'body': 'deferredLocationUpdatesAvailable()'
+    'body': 'deferredLocationUpdatesAvailable'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'desiredAccuracy':
     'prefix': 'desiredAccuracy'
-    'body': 'desiredAccuracy()'
+    'body': 'desiredAccuracy'
   'distanceFilter':
     'prefix': 'distanceFilter'
-    'body': 'distanceFilter()'
+    'body': 'distanceFilter'
   'heading':
     'prefix': 'heading'
-    'body': 'heading()'
+    'body': 'heading'
   'CLLocationManager.headingAvailable':
     'prefix': 'headingAvailable'
-    'body': 'headingAvailable()'
+    'body': 'headingAvailable'
   'headingAvailable':
     'prefix': 'headingAvailable'
-    'body': 'headingAvailable()'
+    'body': 'headingAvailable'
   'headingFilter':
     'prefix': 'headingFilter'
-    'body': 'headingFilter()'
+    'body': 'headingFilter'
   'headingOrientation':
     'prefix': 'headingOrientation'
-    'body': 'headingOrientation()'
+    'body': 'headingOrientation'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'CLLocationManager.locationServicesEnabled':
     'prefix': 'locationServicesEnabled'
-    'body': 'locationServicesEnabled()'
+    'body': 'locationServicesEnabled'
   'locationServicesEnabled':
     'prefix': 'locationServicesEnabled'
-    'body': 'locationServicesEnabled()'
+    'body': 'locationServicesEnabled'
   'maximumRegionMonitoringDistance':
     'prefix': 'maximumRegionMonitoringDistance'
-    'body': 'maximumRegionMonitoringDistance()'
+    'body': 'maximumRegionMonitoringDistance'
   'monitoredRegions':
     'prefix': 'monitoredRegions'
-    'body': 'monitoredRegions()'
+    'body': 'monitoredRegions'
   'pausesLocationUpdatesAutomatically':
     'prefix': 'pausesLocationUpdatesAutomatically'
-    'body': 'pausesLocationUpdatesAutomatically()'
+    'body': 'pausesLocationUpdatesAutomatically'
   'purpose':
     'prefix': 'purpose'
-    'body': 'purpose()'
+    'body': 'purpose'
   'CLLocationManager.regionMonitoringAvailable':
     'prefix': 'regionMonitoringAvailable'
-    'body': 'regionMonitoringAvailable()'
+    'body': 'regionMonitoringAvailable'
   'CLLocationManager.regionMonitoringEnabled':
     'prefix': 'regionMonitoringEnabled'
-    'body': 'regionMonitoringEnabled()'
+    'body': 'regionMonitoringEnabled'
   'setActivityType:':
     'prefix': 'setActivityType:'
     'body': 'setActivityType(${1:CLActivityType activityType})'
@@ -301,91 +313,100 @@
     'body': 'setPurpose(${1:NSString* purpose})'
   'CLLocationManager.significantLocationChangeMonitoringAvailable':
     'prefix': 'significantLocationChangeMonitoringAvailable'
-    'body': 'significantLocationChangeMonitoringAvailable()'
+    'body': 'significantLocationChangeMonitoringAvailable'
   'startMonitoringForRegion:':
     'prefix': 'startMonitoringForRegion:'
     'body': 'startMonitoringForRegion(${1:CLRegion* region})'
   'startMonitoringSignificantLocationChanges':
     'prefix': 'startMonitoringSignificantLocationChanges'
-    'body': 'startMonitoringSignificantLocationChanges()'
+    'body': 'startMonitoringSignificantLocationChanges'
   'startUpdatingLocation':
     'prefix': 'startUpdatingLocation'
-    'body': 'startUpdatingLocation()'
+    'body': 'startUpdatingLocation'
   'stopMonitoringForRegion:':
     'prefix': 'stopMonitoringForRegion:'
     'body': 'stopMonitoringForRegion(${1:CLRegion* region})'
   'stopMonitoringSignificantLocationChanges':
     'prefix': 'stopMonitoringSignificantLocationChanges'
-    'body': 'stopMonitoringSignificantLocationChanges()'
+    'body': 'stopMonitoringSignificantLocationChanges'
   'stopUpdatingLocation':
     'prefix': 'stopUpdatingLocation'
-    'body': 'stopUpdatingLocation()'
+    'body': 'stopUpdatingLocation'
+  'CLPlacemark':
+    'prefix': 'CLPlacemark'
+    'body': 'CLPlacemark'
   'ISOcountryCode':
     'prefix': 'ISOcountryCode'
-    'body': 'ISOcountryCode()'
+    'body': 'ISOcountryCode'
   'addressDictionary':
     'prefix': 'addressDictionary'
-    'body': 'addressDictionary()'
+    'body': 'addressDictionary'
   'administrativeArea':
     'prefix': 'administrativeArea'
-    'body': 'administrativeArea()'
+    'body': 'administrativeArea'
   'areasOfInterest':
     'prefix': 'areasOfInterest'
-    'body': 'areasOfInterest()'
+    'body': 'areasOfInterest'
   'country':
     'prefix': 'country'
-    'body': 'country()'
+    'body': 'country'
   'initWithPlacemark:':
     'prefix': 'initWithPlacemark:'
     'body': 'initWithPlacemark(${1:CLPlacemark* placemark})'
   'inlandWater':
     'prefix': 'inlandWater'
-    'body': 'inlandWater()'
+    'body': 'inlandWater'
   'locality':
     'prefix': 'locality'
-    'body': 'locality()'
+    'body': 'locality'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'ocean':
     'prefix': 'ocean'
-    'body': 'ocean()'
+    'body': 'ocean'
   'postalCode':
     'prefix': 'postalCode'
-    'body': 'postalCode()'
+    'body': 'postalCode'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'subAdministrativeArea':
     'prefix': 'subAdministrativeArea'
-    'body': 'subAdministrativeArea()'
+    'body': 'subAdministrativeArea'
   'subLocality':
     'prefix': 'subLocality'
-    'body': 'subLocality()'
+    'body': 'subLocality'
   'subThoroughfare':
     'prefix': 'subThoroughfare'
-    'body': 'subThoroughfare()'
+    'body': 'subThoroughfare'
   'thoroughfare':
     'prefix': 'thoroughfare'
-    'body': 'thoroughfare()'
+    'body': 'thoroughfare'
+  'CLRegion':
+    'prefix': 'CLRegion'
+    'body': 'CLRegion'
   'center':
     'prefix': 'center'
-    'body': 'center()'
+    'body': 'center'
   'containsCoordinate:':
     'prefix': 'containsCoordinate:'
     'body': 'containsCoordinate(${1:CLLocationCoordinate2D coordinate})'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'initCircularRegionWithCenter:radius:identifier:':
     'prefix': 'initCircularRegionWithCenter:radius:identifier:'
     'body': 'initCircularRegionWithCenter(${1:CLLocationCoordinate2D center}, radius:${2:CLLocationDistance radius}, identifier:${3:NSString* identifier})'
   'radius':
     'prefix': 'radius'
-    'body': 'radius()'
+    'body': 'radius'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'locationManager:didChangeAuthorizationStatus:':
     'prefix': 'locationManager:didChangeAuthorizationStatus:'
     'body': 'locationManager(${1:CLLocationManager* manager}, didChangeAuthorizationStatus:${2:CLAuthorizationStatus status})'
@@ -413,6 +434,9 @@
   'locationManager:monitoringDidFailForRegion:withError:':
     'prefix': 'locationManager:monitoringDidFailForRegion:withError:'
     'body': 'locationManager(${1:CLLocationManager* manager}, monitoringDidFailForRegion:${2:CLRegion* region}, withError:${3:NSError* error})'
+  'CLLocationManagerDelegate':
+    'prefix': 'CLLocationManagerDelegate'
+    'body': 'CLLocationManagerDelegate'
   'locationManager:didChangeAuthorizationStatus:':
     'prefix': 'locationManager:didChangeAuthorizationStatus:'
     'body': 'locationManager(${1:CLLocationManager* manager}, didChangeAuthorizationStatus:${2:CLAuthorizationStatus status})'

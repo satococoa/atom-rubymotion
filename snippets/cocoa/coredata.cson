@@ -551,6 +551,9 @@
   'NSValidationStringTooShortError (1670)':
     'prefix': 'NSValidationStringTooShortError'
     'body': 'NSValidationStringTooShortError'
+  'NSAtomicStore':
+    'prefix': 'NSAtomicStore'
+    'body': 'NSAtomicStore'
   'addCacheNodes:':
     'prefix': 'addCacheNodes:'
     'body': 'addCacheNodes(${1:NSSet* cacheNodes})'
@@ -559,7 +562,7 @@
     'body': 'cacheNodeForObjectID(${1:NSManagedObjectID* objectID})'
   'cacheNodes':
     'prefix': 'cacheNodes'
-    'body': 'cacheNodes()'
+    'body': 'cacheNodes'
   'initWithPersistentStoreCoordinator:configurationName:URL:options:':
     'prefix': 'initWithPersistentStoreCoordinator:configurationName:URL:options:'
     'body': 'initWithPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator}, configurationName:${2:NSString* configurationName}, URL:${3:NSURL* url}, options:${4:NSDictionary* options})'
@@ -587,15 +590,18 @@
   'willRemoveCacheNodes:':
     'prefix': 'willRemoveCacheNodes:'
     'body': 'willRemoveCacheNodes(${1:NSSet* cacheNodes})'
+  'NSAtomicStoreCacheNode':
+    'prefix': 'NSAtomicStoreCacheNode'
+    'body': 'NSAtomicStoreCacheNode'
   'initWithObjectID:':
     'prefix': 'initWithObjectID:'
     'body': 'initWithObjectID(${1:NSManagedObjectID* moid})'
   'objectID':
     'prefix': 'objectID'
-    'body': 'objectID()'
+    'body': 'objectID'
   'propertyCache':
     'prefix': 'propertyCache'
-    'body': 'propertyCache()'
+    'body': 'propertyCache'
   'setPropertyCache:':
     'prefix': 'setPropertyCache:'
     'body': 'setPropertyCache(${1:NSMutableDictionary* propertyCache})'
@@ -605,18 +611,21 @@
   'valueForKey:':
     'prefix': 'valueForKey:'
     'body': 'valueForKey(${1:NSString* key})'
+  'NSAttributeDescription':
+    'prefix': 'NSAttributeDescription'
+    'body': 'NSAttributeDescription'
   'allowsExternalBinaryDataStorage':
     'prefix': 'allowsExternalBinaryDataStorage'
-    'body': 'allowsExternalBinaryDataStorage()'
+    'body': 'allowsExternalBinaryDataStorage'
   'attributeType':
     'prefix': 'attributeType'
-    'body': 'attributeType()'
+    'body': 'attributeType'
   'attributeValueClassName':
     'prefix': 'attributeValueClassName'
-    'body': 'attributeValueClassName()'
+    'body': 'attributeValueClassName'
   'defaultValue':
     'prefix': 'defaultValue'
-    'body': 'defaultValue()'
+    'body': 'defaultValue'
   'setAllowsExternalBinaryDataStorage:':
     'prefix': 'setAllowsExternalBinaryDataStorage:'
     'body': 'setAllowsExternalBinaryDataStorage(${1:BOOL flag})'
@@ -634,16 +643,19 @@
     'body': 'setValueTransformerName(${1:NSString* string})'
   'valueTransformerName':
     'prefix': 'valueTransformerName'
-    'body': 'valueTransformerName()'
+    'body': 'valueTransformerName'
   'versionHash':
     'prefix': 'versionHash'
-    'body': 'versionHash()'
+    'body': 'versionHash'
+  'NSEntityDescription':
+    'prefix': 'NSEntityDescription'
+    'body': 'NSEntityDescription'
   'attributesByName':
     'prefix': 'attributesByName'
-    'body': 'attributesByName()'
+    'body': 'attributesByName'
   'compoundIndexes':
     'prefix': 'compoundIndexes'
-    'body': 'compoundIndexes()'
+    'body': 'compoundIndexes'
   'NSEntityDescription.entityForName:inManagedObjectContext:':
     'prefix': 'entityForName:inManagedObjectContext:'
     'body': 'entityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
@@ -652,34 +664,34 @@
     'body': 'insertNewObjectForEntityForName(${1:NSString* entityName}, inManagedObjectContext:${2:NSManagedObjectContext* context})'
   'isAbstract':
     'prefix': 'isAbstract'
-    'body': 'isAbstract()'
+    'body': 'isAbstract'
   'isKindOfEntity:':
     'prefix': 'isKindOfEntity:'
     'body': 'isKindOfEntity(${1:NSEntityDescription* entity})'
   'managedObjectClassName':
     'prefix': 'managedObjectClassName'
-    'body': 'managedObjectClassName()'
+    'body': 'managedObjectClassName'
   'managedObjectModel':
     'prefix': 'managedObjectModel'
-    'body': 'managedObjectModel()'
+    'body': 'managedObjectModel'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'propertiesByName':
     'prefix': 'propertiesByName'
-    'body': 'propertiesByName()'
+    'body': 'propertiesByName'
   'relationshipsByName':
     'prefix': 'relationshipsByName'
-    'body': 'relationshipsByName()'
+    'body': 'relationshipsByName'
   'relationshipsWithDestinationEntity:':
     'prefix': 'relationshipsWithDestinationEntity:'
     'body': 'relationshipsWithDestinationEntity(${1:NSEntityDescription* entity})'
   'renamingIdentifier':
     'prefix': 'renamingIdentifier'
-    'body': 'renamingIdentifier()'
+    'body': 'renamingIdentifier'
   'setAbstract:':
     'prefix': 'setAbstract:'
     'body': 'setAbstract(${1:BOOL flag})'
@@ -709,43 +721,46 @@
     'body': 'setVersionHashModifier(${1:NSString* modifierString})'
   'subentities':
     'prefix': 'subentities'
-    'body': 'subentities()'
+    'body': 'subentities'
   'subentitiesByName':
     'prefix': 'subentitiesByName'
-    'body': 'subentitiesByName()'
+    'body': 'subentitiesByName'
   'superentity':
     'prefix': 'superentity'
-    'body': 'superentity()'
+    'body': 'superentity'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
   'versionHash':
     'prefix': 'versionHash'
-    'body': 'versionHash()'
+    'body': 'versionHash'
   'versionHashModifier':
     'prefix': 'versionHashModifier'
-    'body': 'versionHashModifier()'
+    'body': 'versionHashModifier'
+  'NSEntityMapping':
+    'prefix': 'NSEntityMapping'
+    'body': 'NSEntityMapping'
   'attributeMappings':
     'prefix': 'attributeMappings'
-    'body': 'attributeMappings()'
+    'body': 'attributeMappings'
   'destinationEntityName':
     'prefix': 'destinationEntityName'
-    'body': 'destinationEntityName()'
+    'body': 'destinationEntityName'
   'destinationEntityVersionHash':
     'prefix': 'destinationEntityVersionHash'
-    'body': 'destinationEntityVersionHash()'
+    'body': 'destinationEntityVersionHash'
   'entityMigrationPolicyClassName':
     'prefix': 'entityMigrationPolicyClassName'
-    'body': 'entityMigrationPolicyClassName()'
+    'body': 'entityMigrationPolicyClassName'
   'mappingType':
     'prefix': 'mappingType'
-    'body': 'mappingType()'
+    'body': 'mappingType'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'relationshipMappings':
     'prefix': 'relationshipMappings'
-    'body': 'relationshipMappings()'
+    'body': 'relationshipMappings'
   'setAttributeMappings:':
     'prefix': 'setAttributeMappings:'
     'body': 'setAttributeMappings(${1:NSArray* mappings})'
@@ -781,16 +796,19 @@
     'body': 'setUserInfo(${1:NSDictionary* dict})'
   'sourceEntityName':
     'prefix': 'sourceEntityName'
-    'body': 'sourceEntityName()'
+    'body': 'sourceEntityName'
   'sourceEntityVersionHash':
     'prefix': 'sourceEntityVersionHash'
-    'body': 'sourceEntityVersionHash()'
+    'body': 'sourceEntityVersionHash'
   'sourceExpression':
     'prefix': 'sourceExpression'
-    'body': 'sourceExpression()'
+    'body': 'sourceExpression'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
+  'NSEntityMigrationPolicy':
+    'prefix': 'NSEntityMigrationPolicy'
+    'body': 'NSEntityMigrationPolicy'
   'beginEntityMapping:manager:error:':
     'prefix': 'beginEntityMapping:manager:error:'
     'body': 'beginEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
@@ -812,78 +830,84 @@
   'performCustomValidationForEntityMapping:manager:error:':
     'prefix': 'performCustomValidationForEntityMapping:manager:error:'
     'body': 'performCustomValidationForEntityMapping(${1:NSEntityMapping* mapping}, manager:${2:NSMigrationManager* manager}, error:${3:NSError** error})'
+  'NSExpressionDescription':
+    'prefix': 'NSExpressionDescription'
+    'body': 'NSExpressionDescription'
   'expression':
     'prefix': 'expression'
-    'body': 'expression()'
+    'body': 'expression'
   'expressionResultType':
     'prefix': 'expressionResultType'
-    'body': 'expressionResultType()'
+    'body': 'expressionResultType'
   'setExpression:':
     'prefix': 'setExpression:'
     'body': 'setExpression(${1:NSExpression* expression})'
   'setExpressionResultType:':
     'prefix': 'setExpressionResultType:'
     'body': 'setExpressionResultType(${1:NSAttributeType type})'
+  'NSFetchRequest':
+    'prefix': 'NSFetchRequest'
+    'body': 'NSFetchRequest'
   'affectedStores':
     'prefix': 'affectedStores'
-    'body': 'affectedStores()'
+    'body': 'affectedStores'
   'entity':
     'prefix': 'entity'
-    'body': 'entity()'
+    'body': 'entity'
   'entityName':
     'prefix': 'entityName'
-    'body': 'entityName()'
+    'body': 'entityName'
   'fetchBatchSize':
     'prefix': 'fetchBatchSize'
-    'body': 'fetchBatchSize()'
+    'body': 'fetchBatchSize'
   'fetchLimit':
     'prefix': 'fetchLimit'
-    'body': 'fetchLimit()'
+    'body': 'fetchLimit'
   'fetchOffset':
     'prefix': 'fetchOffset'
-    'body': 'fetchOffset()'
+    'body': 'fetchOffset'
   'NSFetchRequest.fetchRequestWithEntityName:':
     'prefix': 'fetchRequestWithEntityName:'
     'body': 'fetchRequestWithEntityName(${1:NSString* entityName})'
   'havingPredicate':
     'prefix': 'havingPredicate'
-    'body': 'havingPredicate()'
+    'body': 'havingPredicate'
   'includesPendingChanges':
     'prefix': 'includesPendingChanges'
-    'body': 'includesPendingChanges()'
+    'body': 'includesPendingChanges'
   'includesPropertyValues':
     'prefix': 'includesPropertyValues'
-    'body': 'includesPropertyValues()'
+    'body': 'includesPropertyValues'
   'includesSubentities':
     'prefix': 'includesSubentities'
-    'body': 'includesSubentities()'
+    'body': 'includesSubentities'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithEntityName:':
     'prefix': 'initWithEntityName:'
     'body': 'initWithEntityName(${1:NSString* entityName})'
   'predicate':
     'prefix': 'predicate'
-    'body': 'predicate()'
+    'body': 'predicate'
   'propertiesToFetch':
     'prefix': 'propertiesToFetch'
-    'body': 'propertiesToFetch()'
+    'body': 'propertiesToFetch'
   'propertiesToGroupBy':
     'prefix': 'propertiesToGroupBy'
-    'body': 'propertiesToGroupBy()'
+    'body': 'propertiesToGroupBy'
   'relationshipKeyPathsForPrefetching':
     'prefix': 'relationshipKeyPathsForPrefetching'
-    'body': 'relationshipKeyPathsForPrefetching()'
+    'body': 'relationshipKeyPathsForPrefetching'
   'resultType':
     'prefix': 'resultType'
-    'body': 'resultType()'
+    'body': 'resultType'
   'returnsDistinctResults':
     'prefix': 'returnsDistinctResults'
-    'body': 'returnsDistinctResults()'
+    'body': 'returnsDistinctResults'
   'returnsObjectsAsFaults':
     'prefix': 'returnsObjectsAsFaults'
-    'body': 'returnsObjectsAsFaults()'
+    'body': 'returnsObjectsAsFaults'
   'setAffectedStores:':
     'prefix': 'setAffectedStores:'
     'body': 'setAffectedStores(${1:NSArray* stores})'
@@ -940,28 +964,37 @@
     'body': 'setSortDescriptors(${1:NSArray* sortDescriptors})'
   'shouldRefreshRefetchedObjects':
     'prefix': 'shouldRefreshRefetchedObjects'
-    'body': 'shouldRefreshRefetchedObjects()'
+    'body': 'shouldRefreshRefetchedObjects'
   'sortDescriptors':
     'prefix': 'sortDescriptors'
-    'body': 'sortDescriptors()'
+    'body': 'sortDescriptors'
+  'NSFetchRequestExpression':
+    'prefix': 'NSFetchRequestExpression'
+    'body': 'NSFetchRequestExpression'
   'contextExpression':
     'prefix': 'contextExpression'
-    'body': 'contextExpression()'
+    'body': 'contextExpression'
   'NSFetchRequestExpression.expressionForFetch:context:countOnly:':
     'prefix': 'expressionForFetch:context:countOnly:'
     'body': 'expressionForFetch(${1:NSExpression* fetch}, context:${2:NSExpression* context}, countOnly:${3:BOOL countFlag})'
   'isCountOnlyRequest':
     'prefix': 'isCountOnlyRequest'
-    'body': 'isCountOnlyRequest()'
+    'body': 'isCountOnlyRequest'
   'requestExpression':
     'prefix': 'requestExpression'
-    'body': 'requestExpression()'
+    'body': 'requestExpression'
+  'NSFetchedPropertyDescription':
+    'prefix': 'NSFetchedPropertyDescription'
+    'body': 'NSFetchedPropertyDescription'
   'fetchRequest':
     'prefix': 'fetchRequest'
-    'body': 'fetchRequest()'
+    'body': 'fetchRequest'
   'setFetchRequest:':
     'prefix': 'setFetchRequest:'
     'body': 'setFetchRequest(${1:NSFetchRequest* fetchRequest})'
+  'NSIncrementalStore':
+    'prefix': 'NSIncrementalStore'
+    'body': 'NSIncrementalStore'
   'executeRequest:withContext:error:':
     'prefix': 'executeRequest:withContext:error:'
     'body': 'executeRequest(${1:NSPersistentStoreRequest* request}, withContext:${2:NSManagedObjectContext* context}, error:${3:NSError** error})'
@@ -992,12 +1025,15 @@
   'referenceObjectForObjectID:':
     'prefix': 'referenceObjectForObjectID:'
     'body': 'referenceObjectForObjectID(${1:NSManagedObjectID* objectID})'
+  'NSIncrementalStoreNode':
+    'prefix': 'NSIncrementalStoreNode'
+    'body': 'NSIncrementalStoreNode'
   'initWithObjectID:withValues:version:':
     'prefix': 'initWithObjectID:withValues:version:'
     'body': 'initWithObjectID(${1:NSManagedObjectID* objectID}, withValues:${2:NSDictionary* values}, version:${3:uint64_t version})'
   'objectID':
     'prefix': 'objectID'
-    'body': 'objectID()'
+    'body': 'objectID'
   'updateWithValues:version:':
     'prefix': 'updateWithValues:version:'
     'body': 'updateWithValues(${1:NSDictionary* values}, version:${2:uint64_t version})'
@@ -1006,28 +1042,31 @@
     'body': 'valueForPropertyDescription(${1:NSPropertyDescription* prop})'
   'version':
     'prefix': 'version'
-    'body': 'version()'
+    'body': 'version'
+  'NSManagedObject':
+    'prefix': 'NSManagedObject'
+    'body': 'NSManagedObject'
   'awakeFromFetch':
     'prefix': 'awakeFromFetch'
-    'body': 'awakeFromFetch()'
+    'body': 'awakeFromFetch'
   'awakeFromInsert':
     'prefix': 'awakeFromInsert'
-    'body': 'awakeFromInsert()'
+    'body': 'awakeFromInsert'
   'awakeFromSnapshotEvents:':
     'prefix': 'awakeFromSnapshotEvents:'
     'body': 'awakeFromSnapshotEvents(${1:NSSnapshotEventType flags})'
   'changedValues':
     'prefix': 'changedValues'
-    'body': 'changedValues()'
+    'body': 'changedValues'
   'changedValuesForCurrentEvent':
     'prefix': 'changedValuesForCurrentEvent'
-    'body': 'changedValuesForCurrentEvent()'
+    'body': 'changedValuesForCurrentEvent'
   'committedValuesForKeys:':
     'prefix': 'committedValuesForKeys:'
     'body': 'committedValuesForKeys(${1:NSArray* keys})'
   'NSManagedObject.contextShouldIgnoreUnmodeledPropertyChanges':
     'prefix': 'contextShouldIgnoreUnmodeledPropertyChanges'
-    'body': 'contextShouldIgnoreUnmodeledPropertyChanges()'
+    'body': 'contextShouldIgnoreUnmodeledPropertyChanges'
   'didAccessValueForKey:':
     'prefix': 'didAccessValueForKey:'
     'body': 'didAccessValueForKey(${1:NSString* key})'
@@ -1039,19 +1078,19 @@
     'body': 'didChangeValueForKey(${1:NSString* inKey}, withSetMutation:${2:NSKeyValueSetMutationKind inMutationKind}, usingObjects:${3:NSSet* inObjects})'
   'didSave':
     'prefix': 'didSave'
-    'body': 'didSave()'
+    'body': 'didSave'
   'didTurnIntoFault':
     'prefix': 'didTurnIntoFault'
-    'body': 'didTurnIntoFault()'
+    'body': 'didTurnIntoFault'
   'entity':
     'prefix': 'entity'
-    'body': 'entity()'
+    'body': 'entity'
   'faultingState':
     'prefix': 'faultingState'
-    'body': 'faultingState()'
+    'body': 'faultingState'
   'hasChanges':
     'prefix': 'hasChanges'
-    'body': 'hasChanges()'
+    'body': 'hasChanges'
   'hasFaultForRelationshipNamed:':
     'prefix': 'hasFaultForRelationshipNamed:'
     'body': 'hasFaultForRelationshipNamed(${1:NSString* key})'
@@ -1060,28 +1099,28 @@
     'body': 'initWithEntity(${1:NSEntityDescription* entity}, insertIntoManagedObjectContext:${2:NSManagedObjectContext* context})'
   'isDeleted':
     'prefix': 'isDeleted'
-    'body': 'isDeleted()'
+    'body': 'isDeleted'
   'isFault':
     'prefix': 'isFault'
-    'body': 'isFault()'
+    'body': 'isFault'
   'isInserted':
     'prefix': 'isInserted'
-    'body': 'isInserted()'
+    'body': 'isInserted'
   'isUpdated':
     'prefix': 'isUpdated'
-    'body': 'isUpdated()'
+    'body': 'isUpdated'
   'managedObjectContext':
     'prefix': 'managedObjectContext'
-    'body': 'managedObjectContext()'
+    'body': 'managedObjectContext'
   'objectID':
     'prefix': 'objectID'
-    'body': 'objectID()'
+    'body': 'objectID'
   'observationInfo':
     'prefix': 'observationInfo'
-    'body': 'observationInfo()'
+    'body': 'observationInfo'
   'prepareForDeletion':
     'prefix': 'prepareForDeletion'
-    'body': 'prepareForDeletion()'
+    'body': 'prepareForDeletion'
   'primitiveValueForKey:':
     'prefix': 'primitiveValueForKey:'
     'body': 'primitiveValueForKey(${1:NSString* key})'
@@ -1120,16 +1159,19 @@
     'body': 'willChangeValueForKey(${1:NSString* inKey}, withSetMutation:${2:NSKeyValueSetMutationKind inMutationKind}, usingObjects:${3:NSSet* inObjects})'
   'willSave':
     'prefix': 'willSave'
-    'body': 'willSave()'
+    'body': 'willSave'
   'willTurnIntoFault':
     'prefix': 'willTurnIntoFault'
-    'body': 'willTurnIntoFault()'
+    'body': 'willTurnIntoFault'
+  'NSManagedObjectContext':
+    'prefix': 'NSManagedObjectContext'
+    'body': 'NSManagedObjectContext'
   'assignObject:toPersistentStore:':
     'prefix': 'assignObject:toPersistentStore:'
     'body': 'assignObject(${1:id object}, toPersistentStore:${2:NSPersistentStore* store})'
   'concurrencyType':
     'prefix': 'concurrencyType'
-    'body': 'concurrencyType()'
+    'body': 'concurrencyType'
   'countForFetchRequest:error:':
     'prefix': 'countForFetchRequest:error:'
     'body': 'countForFetchRequest(${1:NSFetchRequest* request}, error:${2:NSError** error})'
@@ -1138,7 +1180,7 @@
     'body': 'deleteObject(${1:NSManagedObject* object})'
   'deletedObjects':
     'prefix': 'deletedObjects'
-    'body': 'deletedObjects()'
+    'body': 'deletedObjects'
   'detectConflictsForObject:':
     'prefix': 'detectConflictsForObject:'
     'body': 'detectConflictsForObject(${1:NSManagedObject* object})'
@@ -1150,7 +1192,7 @@
     'body': 'existingObjectWithID(${1:NSManagedObjectID* objectID}, error:${2:NSError** error})'
   'hasChanges':
     'prefix': 'hasChanges'
-    'body': 'hasChanges()'
+    'body': 'hasChanges'
   'initWithConcurrencyType:':
     'prefix': 'initWithConcurrencyType:'
     'body': 'initWithConcurrencyType(${1:NSManagedObjectContextConcurrencyType ct})'
@@ -1159,16 +1201,16 @@
     'body': 'insertObject(${1:NSManagedObject* object})'
   'insertedObjects':
     'prefix': 'insertedObjects'
-    'body': 'insertedObjects()'
+    'body': 'insertedObjects'
   'lock':
     'prefix': 'lock'
-    'body': 'lock()'
+    'body': 'lock'
   'mergeChangesFromContextDidSaveNotification:':
     'prefix': 'mergeChangesFromContextDidSaveNotification:'
     'body': 'mergeChangesFromContextDidSaveNotification(${1:NSNotification* notification})'
   'mergePolicy':
     'prefix': 'mergePolicy'
-    'body': 'mergePolicy()'
+    'body': 'mergePolicy'
   'objectRegisteredForID:':
     'prefix': 'objectRegisteredForID:'
     'body': 'objectRegisteredForID(${1:NSManagedObjectID* objectID})'
@@ -1183,7 +1225,7 @@
     'body': 'obtainPermanentIDsForObjects(${1:NSArray* objects}, error:${2:NSError** error})'
   'parentContext':
     'prefix': 'parentContext'
-    'body': 'parentContext()'
+    'body': 'parentContext'
   'performBlock:':
     'prefix': 'performBlock:'
     'body': 'performBlock(${1:void (^)() block})'
@@ -1192,31 +1234,31 @@
     'body': 'performBlockAndWait(${1:void (^)() block})'
   'persistentStoreCoordinator':
     'prefix': 'persistentStoreCoordinator'
-    'body': 'persistentStoreCoordinator()'
+    'body': 'persistentStoreCoordinator'
   'processPendingChanges':
     'prefix': 'processPendingChanges'
-    'body': 'processPendingChanges()'
+    'body': 'processPendingChanges'
   'propagatesDeletesAtEndOfEvent':
     'prefix': 'propagatesDeletesAtEndOfEvent'
-    'body': 'propagatesDeletesAtEndOfEvent()'
+    'body': 'propagatesDeletesAtEndOfEvent'
   'redo':
     'prefix': 'redo'
-    'body': 'redo()'
+    'body': 'redo'
   'refreshObject:mergeChanges:':
     'prefix': 'refreshObject:mergeChanges:'
     'body': 'refreshObject(${1:NSManagedObject* object}, mergeChanges:${2:BOOL flag})'
   'registeredObjects':
     'prefix': 'registeredObjects'
-    'body': 'registeredObjects()'
+    'body': 'registeredObjects'
   'reset':
     'prefix': 'reset'
-    'body': 'reset()'
+    'body': 'reset'
   'retainsRegisteredObjects':
     'prefix': 'retainsRegisteredObjects'
-    'body': 'retainsRegisteredObjects()'
+    'body': 'retainsRegisteredObjects'
   'rollback':
     'prefix': 'rollback'
-    'body': 'rollback()'
+    'body': 'rollback'
   'save:':
     'prefix': 'save:'
     'body': 'save(${1:NSError** error})'
@@ -1243,52 +1285,58 @@
     'body': 'setUndoManager(${1:NSUndoManager* undoManager})'
   'stalenessInterval':
     'prefix': 'stalenessInterval'
-    'body': 'stalenessInterval()'
+    'body': 'stalenessInterval'
   'tryLock':
     'prefix': 'tryLock'
-    'body': 'tryLock()'
+    'body': 'tryLock'
   'undo':
     'prefix': 'undo'
-    'body': 'undo()'
+    'body': 'undo'
   'undoManager':
     'prefix': 'undoManager'
-    'body': 'undoManager()'
+    'body': 'undoManager'
   'unlock':
     'prefix': 'unlock'
-    'body': 'unlock()'
+    'body': 'unlock'
   'updatedObjects':
     'prefix': 'updatedObjects'
-    'body': 'updatedObjects()'
+    'body': 'updatedObjects'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
+  'NSManagedObjectID':
+    'prefix': 'NSManagedObjectID'
+    'body': 'NSManagedObjectID'
   'URIRepresentation':
     'prefix': 'URIRepresentation'
-    'body': 'URIRepresentation()'
+    'body': 'URIRepresentation'
   'entity':
     'prefix': 'entity'
-    'body': 'entity()'
+    'body': 'entity'
   'isTemporaryID':
     'prefix': 'isTemporaryID'
-    'body': 'isTemporaryID()'
+    'body': 'isTemporaryID'
   'persistentStore':
     'prefix': 'persistentStore'
-    'body': 'persistentStore()'
+    'body': 'persistentStore'
+  'NSManagedObjectModel':
+    'prefix': 'NSManagedObjectModel'
+    'body': 'NSManagedObjectModel'
   'configurations':
     'prefix': 'configurations'
-    'body': 'configurations()'
+    'body': 'configurations'
   'entities':
     'prefix': 'entities'
-    'body': 'entities()'
+    'body': 'entities'
   'entitiesByName':
     'prefix': 'entitiesByName'
-    'body': 'entitiesByName()'
+    'body': 'entitiesByName'
   'entitiesForConfiguration:':
     'prefix': 'entitiesForConfiguration:'
     'body': 'entitiesForConfiguration(${1:NSString* configuration})'
   'entityVersionHashesByName':
     'prefix': 'entityVersionHashesByName'
-    'body': 'entityVersionHashesByName()'
+    'body': 'entityVersionHashesByName'
   'fetchRequestFromTemplateWithName:substitutionVariables:':
     'prefix': 'fetchRequestFromTemplateWithName:substitutionVariables:'
     'body': 'fetchRequestFromTemplateWithName(${1:NSString* name}, substitutionVariables:${2:NSDictionary* variables})'
@@ -1297,10 +1345,10 @@
     'body': 'fetchRequestTemplateForName(${1:NSString* name})'
   'fetchRequestTemplatesByName':
     'prefix': 'fetchRequestTemplatesByName'
-    'body': 'fetchRequestTemplatesByName()'
+    'body': 'fetchRequestTemplatesByName'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithContentsOfURL:':
     'prefix': 'initWithContentsOfURL:'
     'body': 'initWithContentsOfURL(${1:NSURL* url})'
@@ -1309,7 +1357,7 @@
     'body': 'isConfiguration(${1:NSString* configuration}, compatibleWithStoreMetadata:${2:NSDictionary* metadata})'
   'localizationDictionary':
     'prefix': 'localizationDictionary'
-    'body': 'localizationDictionary()'
+    'body': 'localizationDictionary'
   'NSManagedObjectModel.mergedModelFromBundles:':
     'prefix': 'mergedModelFromBundles:'
     'body': 'mergedModelFromBundles(${1:NSArray* bundles})'
@@ -1339,13 +1387,16 @@
     'body': 'setVersionIdentifiers(${1:NSSet* identifiers})'
   'versionIdentifiers':
     'prefix': 'versionIdentifiers'
-    'body': 'versionIdentifiers()'
+    'body': 'versionIdentifiers'
+  'NSMappingModel':
+    'prefix': 'NSMappingModel'
+    'body': 'NSMappingModel'
   'entityMappings':
     'prefix': 'entityMappings'
-    'body': 'entityMappings()'
+    'body': 'entityMappings'
   'entityMappingsByName':
     'prefix': 'entityMappingsByName'
-    'body': 'entityMappingsByName()'
+    'body': 'entityMappingsByName'
   'NSMappingModel.inferredMappingModelForSourceModel:destinationModel:error:':
     'prefix': 'inferredMappingModelForSourceModel:destinationModel:error:'
     'body': 'inferredMappingModelForSourceModel(${1:NSManagedObjectModel* sourceModel}, destinationModel:${2:NSManagedObjectModel* destinationModel}, error:${3:NSError** error})'
@@ -1358,36 +1409,45 @@
   'setEntityMappings:':
     'prefix': 'setEntityMappings:'
     'body': 'setEntityMappings(${1:NSArray* mappings})'
+  'NSMergeConflict':
+    'prefix': 'NSMergeConflict'
+    'body': 'NSMergeConflict'
   'cachedSnapshot':
     'prefix': 'cachedSnapshot'
-    'body': 'cachedSnapshot()'
+    'body': 'cachedSnapshot'
   'initWithSource:newVersion:oldVersion:cachedSnapshot:persistedSnapshot:':
     'prefix': 'initWithSource:newVersion:oldVersion:cachedSnapshot:persistedSnapshot:'
     'body': 'initWithSource(${1:NSManagedObject* srcObject}, newVersion:${2:NSUInteger newvers}, oldVersion:${3:NSUInteger oldvers}, cachedSnapshot:${4:NSDictionary* cachesnap}, persistedSnapshot:${5:NSDictionary* persnap})'
   'newVersionNumber':
     'prefix': 'newVersionNumber'
-    'body': 'newVersionNumber()'
+    'body': 'newVersionNumber'
   'objectSnapshot':
     'prefix': 'objectSnapshot'
-    'body': 'objectSnapshot()'
+    'body': 'objectSnapshot'
   'oldVersionNumber':
     'prefix': 'oldVersionNumber'
-    'body': 'oldVersionNumber()'
+    'body': 'oldVersionNumber'
   'persistedSnapshot':
     'prefix': 'persistedSnapshot'
-    'body': 'persistedSnapshot()'
+    'body': 'persistedSnapshot'
   'sourceObject':
     'prefix': 'sourceObject'
-    'body': 'sourceObject()'
+    'body': 'sourceObject'
+  'NSMergePolicy':
+    'prefix': 'NSMergePolicy'
+    'body': 'NSMergePolicy'
   'initWithMergeType:':
     'prefix': 'initWithMergeType:'
     'body': 'initWithMergeType(${1:NSMergePolicyType ty})'
   'mergeType':
     'prefix': 'mergeType'
-    'body': 'mergeType()'
+    'body': 'mergeType'
   'resolveConflicts:error:':
     'prefix': 'resolveConflicts:error:'
     'body': 'resolveConflicts(${1:NSArray* list}, error:${2:NSError** error})'
+  'NSMigrationManager':
+    'prefix': 'NSMigrationManager'
+    'body': 'NSMigrationManager'
   'associateSourceInstance:withDestinationInstance:forEntityMapping:':
     'prefix': 'associateSourceInstance:withDestinationInstance:forEntityMapping:'
     'body': 'associateSourceInstance(${1:NSManagedObject* sourceInstance}, withDestinationInstance:${2:NSManagedObject* destinationInstance}, forEntityMapping:${3:NSEntityMapping* entityMapping})'
@@ -1396,10 +1456,10 @@
     'body': 'cancelMigrationWithError(${1:NSError* error})'
   'currentEntityMapping':
     'prefix': 'currentEntityMapping'
-    'body': 'currentEntityMapping()'
+    'body': 'currentEntityMapping'
   'destinationContext':
     'prefix': 'destinationContext'
-    'body': 'destinationContext()'
+    'body': 'destinationContext'
   'destinationEntityForEntityMapping:':
     'prefix': 'destinationEntityForEntityMapping:'
     'body': 'destinationEntityForEntityMapping(${1:NSEntityMapping* mEntity})'
@@ -1408,22 +1468,22 @@
     'body': 'destinationInstancesForEntityMappingNamed(${1:NSString* mappingName}, sourceInstances:${2:NSArray* sourceInstances})'
   'destinationModel':
     'prefix': 'destinationModel'
-    'body': 'destinationModel()'
+    'body': 'destinationModel'
   'initWithSourceModel:destinationModel:':
     'prefix': 'initWithSourceModel:destinationModel:'
     'body': 'initWithSourceModel(${1:NSManagedObjectModel* sourceModel}, destinationModel:${2:NSManagedObjectModel* destinationModel})'
   'mappingModel':
     'prefix': 'mappingModel'
-    'body': 'mappingModel()'
+    'body': 'mappingModel'
   'migrateStoreFromURL:type:options:withMappingModel:toDestinationURL:destinationType:destinationOptions:error:':
     'prefix': 'migrateStoreFromURL:type:options:withMappingModel:toDestinationURL:destinationType:destinationOptions:error:'
     'body': 'migrateStoreFromURL(${1:NSURL* sourceURL}, type:${2:NSString* sStoreType}, options:${3:NSDictionary* sOptions}, withMappingModel:${4:NSMappingModel* mappings}, toDestinationURL:${5:NSURL* dURL}, destinationType:${6:NSString* dStoreType}, destinationOptions:${7:NSDictionary* dOptions}, error:${8:NSError** error})'
   'migrationProgress':
     'prefix': 'migrationProgress'
-    'body': 'migrationProgress()'
+    'body': 'migrationProgress'
   'reset':
     'prefix': 'reset'
-    'body': 'reset()'
+    'body': 'reset'
   'setUserInfo:':
     'prefix': 'setUserInfo:'
     'body': 'setUserInfo(${1:NSDictionary* dict})'
@@ -1432,7 +1492,7 @@
     'body': 'setUsesStoreSpecificMigrationManager(${1:BOOL flag})'
   'sourceContext':
     'prefix': 'sourceContext'
-    'body': 'sourceContext()'
+    'body': 'sourceContext'
   'sourceEntityForEntityMapping:':
     'prefix': 'sourceEntityForEntityMapping:'
     'body': 'sourceEntityForEntityMapping(${1:NSEntityMapping* mEntity})'
@@ -1441,49 +1501,52 @@
     'body': 'sourceInstancesForEntityMappingNamed(${1:NSString* mappingName}, destinationInstances:${2:NSArray* destinationInstances})'
   'sourceModel':
     'prefix': 'sourceModel'
-    'body': 'sourceModel()'
+    'body': 'sourceModel'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
   'usesStoreSpecificMigrationManager':
     'prefix': 'usesStoreSpecificMigrationManager'
-    'body': 'usesStoreSpecificMigrationManager()'
+    'body': 'usesStoreSpecificMigrationManager'
+  'NSPersistentStore':
+    'prefix': 'NSPersistentStore'
+    'body': 'NSPersistentStore'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'configurationName':
     'prefix': 'configurationName'
-    'body': 'configurationName()'
+    'body': 'configurationName'
   'didAddToPersistentStoreCoordinator:':
     'prefix': 'didAddToPersistentStoreCoordinator:'
     'body': 'didAddToPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'initWithPersistentStoreCoordinator:configurationName:URL:options:':
     'prefix': 'initWithPersistentStoreCoordinator:configurationName:URL:options:'
     'body': 'initWithPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* root}, configurationName:${2:NSString* name}, URL:${3:NSURL* url}, options:${4:NSDictionary* options})'
   'isReadOnly':
     'prefix': 'isReadOnly'
-    'body': 'isReadOnly()'
+    'body': 'isReadOnly'
   'loadMetadata:':
     'prefix': 'loadMetadata:'
     'body': 'loadMetadata(${1:NSError** error})'
   'metadata':
     'prefix': 'metadata'
-    'body': 'metadata()'
+    'body': 'metadata'
   'NSPersistentStore.metadataForPersistentStoreWithURL:error:':
     'prefix': 'metadataForPersistentStoreWithURL:error:'
     'body': 'metadataForPersistentStoreWithURL(${1:NSURL* url}, error:${2:NSError** error})'
   'NSPersistentStore.migrationManagerClass':
     'prefix': 'migrationManagerClass'
-    'body': 'migrationManagerClass()'
+    'body': 'migrationManagerClass'
   'options':
     'prefix': 'options'
-    'body': 'options()'
+    'body': 'options'
   'persistentStoreCoordinator':
     'prefix': 'persistentStoreCoordinator'
-    'body': 'persistentStoreCoordinator()'
+    'body': 'persistentStoreCoordinator'
   'setIdentifier:':
     'prefix': 'setIdentifier:'
     'body': 'setIdentifier(${1:NSString* identifier})'
@@ -1501,10 +1564,13 @@
     'body': 'setURL(${1:NSURL* url})'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'willRemoveFromPersistentStoreCoordinator:':
     'prefix': 'willRemoveFromPersistentStoreCoordinator:'
     'body': 'willRemoveFromPersistentStoreCoordinator(${1:NSPersistentStoreCoordinator* coordinator})'
+  'NSPersistentStoreCoordinator':
+    'prefix': 'NSPersistentStoreCoordinator'
+    'body': 'NSPersistentStoreCoordinator'
   'URLForPersistentStore:':
     'prefix': 'URLForPersistentStore:'
     'body': 'URLForPersistentStore(${1:NSPersistentStore* store})'
@@ -1525,13 +1591,13 @@
     'body': 'initWithManagedObjectModel(${1:NSManagedObjectModel* model})'
   'lock':
     'prefix': 'lock'
-    'body': 'lock()'
+    'body': 'lock'
   'managedObjectIDForURIRepresentation:':
     'prefix': 'managedObjectIDForURIRepresentation:'
     'body': 'managedObjectIDForURIRepresentation(${1:NSURL* url})'
   'managedObjectModel':
     'prefix': 'managedObjectModel'
-    'body': 'managedObjectModel()'
+    'body': 'managedObjectModel'
   'metadataForPersistentStore:':
     'prefix': 'metadataForPersistentStore:'
     'body': 'metadataForPersistentStore(${1:NSPersistentStore* store})'
@@ -1549,13 +1615,13 @@
     'body': 'persistentStoreForURL(${1:NSURL* URL})'
   'persistentStores':
     'prefix': 'persistentStores'
-    'body': 'persistentStores()'
+    'body': 'persistentStores'
   'NSPersistentStoreCoordinator.registerStoreClass:forStoreType:':
     'prefix': 'registerStoreClass:forStoreType:'
     'body': 'registerStoreClass(${1:Class storeClass}, forStoreType:${2:NSString* storeType})'
   'NSPersistentStoreCoordinator.registeredStoreTypes':
     'prefix': 'registeredStoreTypes'
-    'body': 'registeredStoreTypes()'
+    'body': 'registeredStoreTypes'
   'removePersistentStore:error:':
     'prefix': 'removePersistentStore:error:'
     'body': 'removePersistentStore(${1:NSPersistentStore* store}, error:${2:NSError** error})'
@@ -1573,43 +1639,49 @@
     'body': 'setURL(${1:NSURL* url}, forPersistentStore:${2:NSPersistentStore* store})'
   'tryLock':
     'prefix': 'tryLock'
-    'body': 'tryLock()'
+    'body': 'tryLock'
   'unlock':
     'prefix': 'unlock'
-    'body': 'unlock()'
+    'body': 'unlock'
+  'NSPersistentStoreRequest':
+    'prefix': 'NSPersistentStoreRequest'
+    'body': 'NSPersistentStoreRequest'
   'affectedStores':
     'prefix': 'affectedStores'
-    'body': 'affectedStores()'
+    'body': 'affectedStores'
   'requestType':
     'prefix': 'requestType'
-    'body': 'requestType()'
+    'body': 'requestType'
   'setAffectedStores:':
     'prefix': 'setAffectedStores:'
     'body': 'setAffectedStores(${1:NSArray* stores})'
+  'NSPropertyDescription':
+    'prefix': 'NSPropertyDescription'
+    'body': 'NSPropertyDescription'
   'entity':
     'prefix': 'entity'
-    'body': 'entity()'
+    'body': 'entity'
   'isIndexed':
     'prefix': 'isIndexed'
-    'body': 'isIndexed()'
+    'body': 'isIndexed'
   'isIndexedBySpotlight':
     'prefix': 'isIndexedBySpotlight'
-    'body': 'isIndexedBySpotlight()'
+    'body': 'isIndexedBySpotlight'
   'isOptional':
     'prefix': 'isOptional'
-    'body': 'isOptional()'
+    'body': 'isOptional'
   'isStoredInExternalRecord':
     'prefix': 'isStoredInExternalRecord'
-    'body': 'isStoredInExternalRecord()'
+    'body': 'isStoredInExternalRecord'
   'isTransient':
     'prefix': 'isTransient'
-    'body': 'isTransient()'
+    'body': 'isTransient'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'renamingIdentifier':
     'prefix': 'renamingIdentifier'
-    'body': 'renamingIdentifier()'
+    'body': 'renamingIdentifier'
   'setIndexed:':
     'prefix': 'setIndexed:'
     'body': 'setIndexed(${1:BOOL flag})'
@@ -1642,22 +1714,25 @@
     'body': 'setVersionHashModifier(${1:NSString* modifierString})'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
   'validationPredicates':
     'prefix': 'validationPredicates'
-    'body': 'validationPredicates()'
+    'body': 'validationPredicates'
   'validationWarnings':
     'prefix': 'validationWarnings'
-    'body': 'validationWarnings()'
+    'body': 'validationWarnings'
   'versionHash':
     'prefix': 'versionHash'
-    'body': 'versionHash()'
+    'body': 'versionHash'
   'versionHashModifier':
     'prefix': 'versionHashModifier'
-    'body': 'versionHashModifier()'
+    'body': 'versionHashModifier'
+  'NSPropertyMapping':
+    'prefix': 'NSPropertyMapping'
+    'body': 'NSPropertyMapping'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'setName:':
     'prefix': 'setName:'
     'body': 'setName(${1:NSString* name})'
@@ -1669,31 +1744,34 @@
     'body': 'setValueExpression(${1:NSExpression* expression})'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
   'valueExpression':
     'prefix': 'valueExpression'
-    'body': 'valueExpression()'
+    'body': 'valueExpression'
+  'NSRelationshipDescription':
+    'prefix': 'NSRelationshipDescription'
+    'body': 'NSRelationshipDescription'
   'deleteRule':
     'prefix': 'deleteRule'
-    'body': 'deleteRule()'
+    'body': 'deleteRule'
   'destinationEntity':
     'prefix': 'destinationEntity'
-    'body': 'destinationEntity()'
+    'body': 'destinationEntity'
   'inverseRelationship':
     'prefix': 'inverseRelationship'
-    'body': 'inverseRelationship()'
+    'body': 'inverseRelationship'
   'isOrdered':
     'prefix': 'isOrdered'
-    'body': 'isOrdered()'
+    'body': 'isOrdered'
   'isToMany':
     'prefix': 'isToMany'
-    'body': 'isToMany()'
+    'body': 'isToMany'
   'maxCount':
     'prefix': 'maxCount'
-    'body': 'maxCount()'
+    'body': 'maxCount'
   'minCount':
     'prefix': 'minCount'
-    'body': 'minCount()'
+    'body': 'minCount'
   'setDeleteRule:':
     'prefix': 'setDeleteRule:'
     'body': 'setDeleteRule(${1:NSDeleteRule rule})'
@@ -1714,19 +1792,22 @@
     'body': 'setOrdered(${1:BOOL flag})'
   'versionHash':
     'prefix': 'versionHash'
-    'body': 'versionHash()'
+    'body': 'versionHash'
+  'NSSaveChangesRequest':
+    'prefix': 'NSSaveChangesRequest'
+    'body': 'NSSaveChangesRequest'
   'deletedObjects':
     'prefix': 'deletedObjects'
-    'body': 'deletedObjects()'
+    'body': 'deletedObjects'
   'initWithInsertedObjects:updatedObjects:deletedObjects:lockedObjects:':
     'prefix': 'initWithInsertedObjects:updatedObjects:deletedObjects:lockedObjects:'
     'body': 'initWithInsertedObjects(${1:NSSet* insertedObjects}, updatedObjects:${2:NSSet* updatedObjects}, deletedObjects:${3:NSSet* deletedObjects}, lockedObjects:${4:NSSet* lockedObjects})'
   'insertedObjects':
     'prefix': 'insertedObjects'
-    'body': 'insertedObjects()'
+    'body': 'insertedObjects'
   'lockedObjects':
     'prefix': 'lockedObjects'
-    'body': 'lockedObjects()'
+    'body': 'lockedObjects'
   'updatedObjects':
     'prefix': 'updatedObjects'
-    'body': 'updatedObjects()'
+    'body': 'updatedObjects'

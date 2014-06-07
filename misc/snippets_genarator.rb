@@ -35,9 +35,14 @@ def process_node(node)
     args = node.xpath('./arg').map.with_index {|n, i|
       "${#{i+1}:#{n[:declared_type]} #{n[:name]}}"
     }
-    body = "#{name}(#{args.join(', ')})"
+    if args.count > 0
+      body = "#{name}(#{args.join(', ')})"
+    else
+      body = name
+    end
     snippets << generate_snippet(name, trigger, body)
   when 'class', 'informal_protocol'
+    snippets << generate_snippet(node[:name], node[:name], node[:name])
     node.xpath('./method').each do |method_node|
       if method_node[:class_method] == 'true'
         name = "#{node[:name]}.#{method_node[:selector]}"
@@ -51,7 +56,11 @@ def process_node(node)
         arg << "#{selector_tokens[i]}:" if i > 0
         arg << "${#{i+1}:#{n[:declared_type]} #{n[:name]}}"
       }
-      body = "#{selector_tokens.first}(#{args.join(', ')})"
+      if args.count > 0
+        body = "#{selector_tokens.first}(#{args.join(', ')})"
+      else
+        body = "#{selector_tokens.first}"
+      end
       snippets << generate_snippet(name, trigger, body)
     end
   when 'depends_on'

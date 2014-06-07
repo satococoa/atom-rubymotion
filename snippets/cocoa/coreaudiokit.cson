@@ -8,9 +8,12 @@
   'AUViewTitleDisplayFlag (1)':
     'prefix': 'AUViewTitleDisplayFlag'
     'body': 'AUViewTitleDisplayFlag'
+  'AUGenericView':
+    'prefix': 'AUGenericView'
+    'body': 'AUGenericView'
   'audioUnit':
     'prefix': 'audioUnit'
-    'body': 'audioUnit()'
+    'body': 'audioUnit'
   'initWithAudioUnit:':
     'prefix': 'initWithAudioUnit:'
     'body': 'initWithAudioUnit(${1:AudioUnit au})'
@@ -22,22 +25,31 @@
     'body': 'setShowsExpertParameters(${1:BOOL inShowsExpertParameters})'
   'showsExpertParameters':
     'prefix': 'showsExpertParameters'
-    'body': 'showsExpertParameters()'
+    'body': 'showsExpertParameters'
+  'AUPannerView':
+    'prefix': 'AUPannerView'
+    'body': 'AUPannerView'
   'AUPannerView.AUPannerViewWithAudioUnit:':
     'prefix': 'AUPannerViewWithAudioUnit:'
     'body': 'AUPannerViewWithAudioUnit(${1:AudioUnit au})'
   'audioUnit':
     'prefix': 'audioUnit'
-    'body': 'audioUnit()'
+    'body': 'audioUnit'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'customViewPersistentData':
     'prefix': 'customViewPersistentData'
-    'body': 'customViewPersistentData()'
+    'body': 'customViewPersistentData'
   'setCustomViewPersistentData:':
     'prefix': 'setCustomViewPersistentData:'
     'body': 'setCustomViewPersistentData(${1:NSDictionary* data})'
+  'AUCustomViewPersistentData':
+    'prefix': 'AUCustomViewPersistentData'
+    'body': 'AUCustomViewPersistentData'
   'customViewPersistentData':
     'prefix': 'customViewPersistentData'
-    'body': 'customViewPersistentData()'
+    'body': 'customViewPersistentData'
   'setCustomViewPersistentData:':
     'prefix': 'setCustomViewPersistentData:'
     'body': 'setCustomViewPersistentData(${1:NSDictionary* data})'

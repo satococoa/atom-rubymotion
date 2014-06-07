@@ -373,22 +373,22 @@
     'body': 'MIDIGetDriverDeviceList(${1:MIDIDriverRef driver})'
   'MIDIGetDriverIORunLoop':
     'prefix': 'MIDIGetDriverIORunLoop'
-    'body': 'MIDIGetDriverIORunLoop()'
+    'body': 'MIDIGetDriverIORunLoop'
   'MIDIGetExternalDevice':
     'prefix': 'MIDIGetExternalDevice'
     'body': 'MIDIGetExternalDevice(${1:ItemCount deviceIndex0})'
   'MIDIGetNumberOfDestinations':
     'prefix': 'MIDIGetNumberOfDestinations'
-    'body': 'MIDIGetNumberOfDestinations()'
+    'body': 'MIDIGetNumberOfDestinations'
   'MIDIGetNumberOfDevices':
     'prefix': 'MIDIGetNumberOfDevices'
-    'body': 'MIDIGetNumberOfDevices()'
+    'body': 'MIDIGetNumberOfDevices'
   'MIDIGetNumberOfExternalDevices':
     'prefix': 'MIDIGetNumberOfExternalDevices'
-    'body': 'MIDIGetNumberOfExternalDevices()'
+    'body': 'MIDIGetNumberOfExternalDevices'
   'MIDIGetNumberOfSources':
     'prefix': 'MIDIGetNumberOfSources'
-    'body': 'MIDIGetNumberOfSources()'
+    'body': 'MIDIGetNumberOfSources'
   'MIDIGetSerialPortDrivers':
     'prefix': 'MIDIGetSerialPortDrivers'
     'body': 'MIDIGetSerialPortDrivers(${1:CFArrayRef* outDriverNames})'
@@ -457,7 +457,7 @@
     'body': 'MIDIReceived(${1:MIDIEndpointRef src}, ${2:MIDIPacketList* pktlist})'
   'MIDIRestart':
     'prefix': 'MIDIRestart'
-    'body': 'MIDIRestart()'
+    'body': 'MIDIRestart'
   'MIDISend':
     'prefix': 'MIDISend'
     'body': 'MIDISend(${1:MIDIPortRef port}, ${2:MIDIEndpointRef dest}, ${3:MIDIPacketList* pktlist})'

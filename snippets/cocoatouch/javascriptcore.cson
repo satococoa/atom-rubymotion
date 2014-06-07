@@ -112,7 +112,7 @@
     'body': 'JSContextGetGroup(${1:JSContextRef ctx})'
   'JSContextGroupCreate':
     'prefix': 'JSContextGroupCreate'
-    'body': 'JSContextGroupCreate()'
+    'body': 'JSContextGroupCreate'
   'JSContextGroupRelease':
     'prefix': 'JSContextGroupRelease'
     'body': 'JSContextGroupRelease(${1:JSContextGroupRef group})'
@@ -329,36 +329,39 @@
   'JSValueUnprotect':
     'prefix': 'JSValueUnprotect'
     'body': 'JSValueUnprotect(${1:JSContextRef ctx}, ${2:JSValueRef value})'
+  'JSContext':
+    'prefix': 'JSContext'
+    'body': 'JSContext'
   'JSGlobalContextRef':
     'prefix': 'JSGlobalContextRef'
-    'body': 'JSGlobalContextRef()'
+    'body': 'JSGlobalContextRef'
   'JSContext.contextWithJSGlobalContextRef:':
     'prefix': 'contextWithJSGlobalContextRef:'
     'body': 'contextWithJSGlobalContextRef(${1:JSGlobalContextRef jsGlobalContextRef})'
   'JSContext.currentArguments':
     'prefix': 'currentArguments'
-    'body': 'currentArguments()'
+    'body': 'currentArguments'
   'JSContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'currentContext()'
+    'body': 'currentContext'
   'JSContext.currentThis':
     'prefix': 'currentThis'
-    'body': 'currentThis()'
+    'body': 'currentThis'
   'evaluateScript:':
     'prefix': 'evaluateScript:'
     'body': 'evaluateScript(${1:NSString* script})'
   'exception':
     'prefix': 'exception'
-    'body': 'exception()'
+    'body': 'exception'
   'exceptionHandler':
     'prefix': 'exceptionHandler'
-    'body': 'exceptionHandler()'
+    'body': 'exceptionHandler'
   'globalObject':
     'prefix': 'globalObject'
-    'body': 'globalObject()'
+    'body': 'globalObject'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithVirtualMachine:':
     'prefix': 'initWithVirtualMachine:'
     'body': 'initWithVirtualMachine(${1:JSVirtualMachine* virtualMachine})'
@@ -376,7 +379,10 @@
     'body': 'setObject(${1:id object}, forKeyedSubscript:${2:NSObject* key})'
   'virtualMachine':
     'prefix': 'virtualMachine'
-    'body': 'virtualMachine()'
+    'body': 'virtualMachine'
+  'JSManagedValue':
+    'prefix': 'JSManagedValue'
+    'body': 'JSManagedValue'
   'initWithValue:':
     'prefix': 'initWithValue:'
     'body': 'initWithValue(${1:JSValue* value})'
@@ -385,10 +391,13 @@
     'body': 'managedValueWithValue(${1:JSValue* value})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'JSValue':
+    'prefix': 'JSValue'
+    'body': 'JSValue'
   'JSValueRef':
     'prefix': 'JSValueRef'
-    'body': 'JSValueRef()'
+    'body': 'JSValueRef'
   'callWithArguments:':
     'prefix': 'callWithArguments:'
     'body': 'callWithArguments(${1:NSArray* arguments})'
@@ -397,7 +406,7 @@
     'body': 'constructWithArguments(${1:NSArray* arguments})'
   'context':
     'prefix': 'context'
-    'body': 'context()'
+    'body': 'context'
   'defineProperty:descriptor:':
     'prefix': 'defineProperty:descriptor:'
     'body': 'defineProperty(${1:NSString* property}, descriptor:${2:id descriptor})'
@@ -412,7 +421,7 @@
     'body': 'invokeMethod(${1:NSString* method}, withArguments:${2:NSArray* arguments})'
   'isBoolean':
     'prefix': 'isBoolean'
-    'body': 'isBoolean()'
+    'body': 'isBoolean'
   'isEqualToObject:':
     'prefix': 'isEqualToObject:'
     'body': 'isEqualToObject(${1:id value})'
@@ -424,19 +433,19 @@
     'body': 'isInstanceOf(${1:id value})'
   'isNull':
     'prefix': 'isNull'
-    'body': 'isNull()'
+    'body': 'isNull'
   'isNumber':
     'prefix': 'isNumber'
-    'body': 'isNumber()'
+    'body': 'isNumber'
   'isObject':
     'prefix': 'isObject'
-    'body': 'isObject()'
+    'body': 'isObject'
   'isString':
     'prefix': 'isString'
-    'body': 'isString()'
+    'body': 'isString'
   'isUndefined':
     'prefix': 'isUndefined'
-    'body': 'isUndefined()'
+    'body': 'isUndefined'
   'objectAtIndexedSubscript:':
     'prefix': 'objectAtIndexedSubscript:'
     'body': 'objectAtIndexedSubscript(${1:NSUInteger index})'
@@ -457,49 +466,49 @@
     'body': 'setValue(${1:id value}, forProperty:${2:NSString* property})'
   'toArray':
     'prefix': 'toArray'
-    'body': 'toArray()'
+    'body': 'toArray'
   'toBool':
     'prefix': 'toBool'
-    'body': 'toBool()'
+    'body': 'toBool'
   'toDate':
     'prefix': 'toDate'
-    'body': 'toDate()'
+    'body': 'toDate'
   'toDictionary':
     'prefix': 'toDictionary'
-    'body': 'toDictionary()'
+    'body': 'toDictionary'
   'toDouble':
     'prefix': 'toDouble'
-    'body': 'toDouble()'
+    'body': 'toDouble'
   'toInt32':
     'prefix': 'toInt32'
-    'body': 'toInt32()'
+    'body': 'toInt32'
   'toNumber':
     'prefix': 'toNumber'
-    'body': 'toNumber()'
+    'body': 'toNumber'
   'toObject':
     'prefix': 'toObject'
-    'body': 'toObject()'
+    'body': 'toObject'
   'toObjectOfClass:':
     'prefix': 'toObjectOfClass:'
     'body': 'toObjectOfClass(${1:Class expectedClass})'
   'toPoint':
     'prefix': 'toPoint'
-    'body': 'toPoint()'
+    'body': 'toPoint'
   'toRange':
     'prefix': 'toRange'
-    'body': 'toRange()'
+    'body': 'toRange'
   'toRect':
     'prefix': 'toRect'
-    'body': 'toRect()'
+    'body': 'toRect'
   'toSize':
     'prefix': 'toSize'
-    'body': 'toSize()'
+    'body': 'toSize'
   'toString':
     'prefix': 'toString'
-    'body': 'toString()'
+    'body': 'toString'
   'toUInt32':
     'prefix': 'toUInt32'
-    'body': 'toUInt32()'
+    'body': 'toUInt32'
   'valueAtIndex:':
     'prefix': 'valueAtIndex:'
     'body': 'valueAtIndex(${1:NSUInteger index})'
@@ -554,12 +563,15 @@
   'JSValue.valueWithUndefinedInContext:':
     'prefix': 'valueWithUndefinedInContext:'
     'body': 'valueWithUndefinedInContext(${1:JSContext* context})'
+  'JSVirtualMachine':
+    'prefix': 'JSVirtualMachine'
+    'body': 'JSVirtualMachine'
   'addManagedReference:withOwner:':
     'prefix': 'addManagedReference:withOwner:'
     'body': 'addManagedReference(${1:id object}, withOwner:${2:id owner})'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'removeManagedReference:withOwner:':
     'prefix': 'removeManagedReference:withOwner:'
     'body': 'removeManagedReference(${1:id object}, withOwner:${2:id owner})'

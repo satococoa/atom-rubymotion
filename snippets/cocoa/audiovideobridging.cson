@@ -572,6 +572,9 @@
   'kAVB17221EntityPropertyChangedShouldntChangeMask (496622)':
     'prefix': 'kAVB17221EntityPropertyChangedShouldntChangeMask'
     'body': 'KAVB17221EntityPropertyChangedShouldntChangeMask'
+  'AVB17221ACMPInterface':
+    'prefix': 'AVB17221ACMPInterface'
+    'body': 'AVB17221ACMPInterface'
   'AVB17221ACMPInterface.ACMPInterfaceWithInterface:':
     'prefix': 'ACMPInterfaceWithInterface:'
     'body': 'ACMPInterfaceWithInterface(${1:AVBInterface* anInterface})'
@@ -580,7 +583,7 @@
     'body': 'ACMPInterfaceWithInterfaceNamed(${1:NSString* anInterfaceName})'
   'multicastDestinationAddress':
     'prefix': 'multicastDestinationAddress'
-    'body': 'multicastDestinationAddress()'
+    'body': 'multicastDestinationAddress'
   'removeHandlerForEntityID:':
     'prefix': 'removeHandlerForEntityID:'
     'body': 'removeHandlerForEntityID(${1:uint64_t targetEntityID})'
@@ -602,36 +605,39 @@
   'setMulticastDestinationAddress:':
     'prefix': 'setMulticastDestinationAddress:'
     'body': 'setMulticastDestinationAddress(${1:AVBMACAddress* multicastDestinationAddress})'
+  'AVB17221ACMPMessage':
+    'prefix': 'AVB17221ACMPMessage'
+    'body': 'AVB17221ACMPMessage'
   'connectionCount':
     'prefix': 'connectionCount'
-    'body': 'connectionCount()'
+    'body': 'connectionCount'
   'controllerEntityID':
     'prefix': 'controllerEntityID'
-    'body': 'controllerEntityID()'
+    'body': 'controllerEntityID'
   'controllerGUID':
     'prefix': 'controllerGUID'
-    'body': 'controllerGUID()'
+    'body': 'controllerGUID'
   'destinationMAC':
     'prefix': 'destinationMAC'
-    'body': 'destinationMAC()'
+    'body': 'destinationMAC'
   'flags':
     'prefix': 'flags'
-    'body': 'flags()'
+    'body': 'flags'
   'listenerEntityID':
     'prefix': 'listenerEntityID'
-    'body': 'listenerEntityID()'
+    'body': 'listenerEntityID'
   'listenerGUID':
     'prefix': 'listenerGUID'
-    'body': 'listenerGUID()'
+    'body': 'listenerGUID'
   'listenerUniqueID':
     'prefix': 'listenerUniqueID'
-    'body': 'listenerUniqueID()'
+    'body': 'listenerUniqueID'
   'messageType':
     'prefix': 'messageType'
-    'body': 'messageType()'
+    'body': 'messageType'
   'sequenceID':
     'prefix': 'sequenceID'
-    'body': 'sequenceID()'
+    'body': 'sequenceID'
   'setConnectionCount:':
     'prefix': 'setConnectionCount:'
     'body': 'setConnectionCount(${1:uint16_t connectionCount})'
@@ -682,40 +688,43 @@
     'body': 'setTalkerUniqueID(${1:uint16_t talkerUniqueID})'
   'sourceMAC':
     'prefix': 'sourceMAC'
-    'body': 'sourceMAC()'
+    'body': 'sourceMAC'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'streamID':
     'prefix': 'streamID'
-    'body': 'streamID()'
+    'body': 'streamID'
   'talkerEntityID':
     'prefix': 'talkerEntityID'
-    'body': 'talkerEntityID()'
+    'body': 'talkerEntityID'
   'talkerGUID':
     'prefix': 'talkerGUID'
-    'body': 'talkerGUID()'
+    'body': 'talkerGUID'
   'talkerUniqueID':
     'prefix': 'talkerUniqueID'
-    'body': 'talkerUniqueID()'
+    'body': 'talkerUniqueID'
+  'AVB17221AECPAEMMessage':
+    'prefix': 'AVB17221AECPAEMMessage'
+    'body': 'AVB17221AECPAEMMessage'
   'AVB17221AECPAEMMessage.commandMessage':
     'prefix': 'commandMessage'
-    'body': 'commandMessage()'
+    'body': 'commandMessage'
   'commandSpecificData':
     'prefix': 'commandSpecificData'
-    'body': 'commandSpecificData()'
+    'body': 'commandSpecificData'
   'commandType':
     'prefix': 'commandType'
-    'body': 'commandType()'
+    'body': 'commandType'
   'isControllerRequest':
     'prefix': 'isControllerRequest'
-    'body': 'isControllerRequest()'
+    'body': 'isControllerRequest'
   'isUnsolicited':
     'prefix': 'isUnsolicited'
-    'body': 'isUnsolicited()'
+    'body': 'isUnsolicited'
   'AVB17221AECPAEMMessage.responseMessage':
     'prefix': 'responseMessage'
-    'body': 'responseMessage()'
+    'body': 'responseMessage'
   'setCommandSpecificData:':
     'prefix': 'setCommandSpecificData:'
     'body': 'setCommandSpecificData(${1:NSData* commandSpecificData})'
@@ -728,33 +737,42 @@
   'setUnsolicited:':
     'prefix': 'setUnsolicited:'
     'body': 'setUnsolicited(${1:BOOL unsolicited})'
+  'AVB17221AECPAVCMessage':
+    'prefix': 'AVB17221AECPAVCMessage'
+    'body': 'AVB17221AECPAVCMessage'
   'commandResponse':
     'prefix': 'commandResponse'
-    'body': 'commandResponse()'
+    'body': 'commandResponse'
   'setCommandResponse:':
     'prefix': 'setCommandResponse:'
     'body': 'setCommandResponse(${1:NSData* commandResponse})'
+  'AVB17221AECPAddressAccessMessage':
+    'prefix': 'AVB17221AECPAddressAccessMessage'
+    'body': 'AVB17221AECPAddressAccessMessage'
   'AVB17221AECPAddressAccessMessage.commandMessage':
     'prefix': 'commandMessage'
-    'body': 'commandMessage()'
+    'body': 'commandMessage'
   'AVB17221AECPAddressAccessMessage.responseMessage':
     'prefix': 'responseMessage'
-    'body': 'responseMessage()'
+    'body': 'responseMessage'
   'setTlvs:':
     'prefix': 'setTlvs:'
     'body': 'setTlvs(${1:NSArray* tlvs})'
   'tlvs':
     'prefix': 'tlvs'
-    'body': 'tlvs()'
+    'body': 'tlvs'
+  'AVB17221AECPAddressAccessTLV':
+    'prefix': 'AVB17221AECPAddressAccessTLV'
+    'body': 'AVB17221AECPAddressAccessTLV'
   'address':
     'prefix': 'address'
-    'body': 'address()'
+    'body': 'address'
   'memoryData':
     'prefix': 'memoryData'
-    'body': 'memoryData()'
+    'body': 'memoryData'
   'mode':
     'prefix': 'mode'
-    'body': 'mode()'
+    'body': 'mode'
   'setAddress:':
     'prefix': 'setAddress:'
     'body': 'setAddress(${1:uint64_t address})'
@@ -764,6 +782,9 @@
   'setMode:':
     'prefix': 'setMode:'
     'body': 'setMode(${1:AVB17221AECPAddressAccessTLVMode mode})'
+  'AVB17221AECPInterface':
+    'prefix': 'AVB17221AECPInterface'
+    'body': 'AVB17221AECPInterface'
   'AVB17221AECPInterface.AECPInterfaceWithInterface:':
     'prefix': 'AECPInterfaceWithInterface:'
     'body': 'AECPInterfaceWithInterface(${1:AVBInterface* anInterface})'
@@ -788,18 +809,21 @@
   'setHandler:forGUID:':
     'prefix': 'setHandler:forGUID:'
     'body': 'setHandler(${1:id handler}, forGUID:${2:uint64_t targetGUID})'
+  'AVB17221AECPMessage':
+    'prefix': 'AVB17221AECPMessage'
+    'body': 'AVB17221AECPMessage'
   'controllerEntityID':
     'prefix': 'controllerEntityID'
-    'body': 'controllerEntityID()'
+    'body': 'controllerEntityID'
   'controllerGUID':
     'prefix': 'controllerGUID'
-    'body': 'controllerGUID()'
+    'body': 'controllerGUID'
   'messageType':
     'prefix': 'messageType'
-    'body': 'messageType()'
+    'body': 'messageType'
   'sequenceID':
     'prefix': 'sequenceID'
-    'body': 'sequenceID()'
+    'body': 'sequenceID'
   'setControllerEntityID:':
     'prefix': 'setControllerEntityID:'
     'body': 'setControllerEntityID(${1:uint64_t controllerEntityID})'
@@ -826,82 +850,88 @@
     'body': 'setTargetGUID(${1:uint64_t targetGUID})'
   'sourceMAC':
     'prefix': 'sourceMAC'
-    'body': 'sourceMAC()'
+    'body': 'sourceMAC'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'targetEntityID':
     'prefix': 'targetEntityID'
-    'body': 'targetEntityID()'
+    'body': 'targetEntityID'
   'targetGUID':
     'prefix': 'targetGUID'
-    'body': 'targetGUID()'
+    'body': 'targetGUID'
+  'AVB17221AECPVendorMessage':
+    'prefix': 'AVB17221AECPVendorMessage'
+    'body': 'AVB17221AECPVendorMessage'
   'protocolID':
     'prefix': 'protocolID'
-    'body': 'protocolID()'
+    'body': 'protocolID'
   'protocolSpecificData':
     'prefix': 'protocolSpecificData'
-    'body': 'protocolSpecificData()'
+    'body': 'protocolSpecificData'
   'setProtocolID:':
     'prefix': 'setProtocolID:'
     'body': 'setProtocolID(${1:uint64_t protocolID})'
   'setProtocolSpecificData:':
     'prefix': 'setProtocolSpecificData:'
     'body': 'setProtocolSpecificData(${1:NSData* protocolSpecificData})'
+  'AVB17221Entity':
+    'prefix': 'AVB17221Entity'
+    'body': 'AVB17221Entity'
   'asGrandmasterID':
     'prefix': 'asGrandmasterID'
-    'body': 'asGrandmasterID()'
+    'body': 'asGrandmasterID'
   'associationID':
     'prefix': 'associationID'
-    'body': 'associationID()'
+    'body': 'associationID'
   'availableIndex':
     'prefix': 'availableIndex'
-    'body': 'availableIndex()'
+    'body': 'availableIndex'
   'controllerCapabilities':
     'prefix': 'controllerCapabilities'
-    'body': 'controllerCapabilities()'
+    'body': 'controllerCapabilities'
   'entityCapabilities':
     'prefix': 'entityCapabilities'
-    'body': 'entityCapabilities()'
+    'body': 'entityCapabilities'
   'entityDiscovery':
     'prefix': 'entityDiscovery'
-    'body': 'entityDiscovery()'
+    'body': 'entityDiscovery'
   'entityID':
     'prefix': 'entityID'
-    'body': 'entityID()'
+    'body': 'entityID'
   'entityModelID':
     'prefix': 'entityModelID'
-    'body': 'entityModelID()'
+    'body': 'entityModelID'
   'gPTPDomainNumber':
     'prefix': 'gPTPDomainNumber'
-    'body': 'gPTPDomainNumber()'
+    'body': 'gPTPDomainNumber'
   'gPTPGrandmasterID':
     'prefix': 'gPTPGrandmasterID'
-    'body': 'gPTPGrandmasterID()'
+    'body': 'gPTPGrandmasterID'
   'guid':
     'prefix': 'guid'
-    'body': 'guid()'
+    'body': 'guid'
   'identifyControlIndex':
     'prefix': 'identifyControlIndex'
-    'body': 'identifyControlIndex()'
+    'body': 'identifyControlIndex'
   'interfaceIndex':
     'prefix': 'interfaceIndex'
-    'body': 'interfaceIndex()'
+    'body': 'interfaceIndex'
   'isLocalEntity':
     'prefix': 'isLocalEntity'
-    'body': 'isLocalEntity()'
+    'body': 'isLocalEntity'
   'listenerCapabilities':
     'prefix': 'listenerCapabilities'
-    'body': 'listenerCapabilities()'
+    'body': 'listenerCapabilities'
   'listenerStreamSinks':
     'prefix': 'listenerStreamSinks'
-    'body': 'listenerStreamSinks()'
+    'body': 'listenerStreamSinks'
   'macAddresses':
     'prefix': 'macAddresses'
-    'body': 'macAddresses()'
+    'body': 'macAddresses'
   'modelID':
     'prefix': 'modelID'
-    'body': 'modelID()'
+    'body': 'modelID'
   'setAsGrandmasterID:':
     'prefix': 'setAsGrandmasterID:'
     'body': 'setAsGrandmasterID(${1:uint64_t asGrandmasterID})'
@@ -970,16 +1000,19 @@
     'body': 'setVendorID(${1:uint32_t vendorID})'
   'talkerCapabilities':
     'prefix': 'talkerCapabilities'
-    'body': 'talkerCapabilities()'
+    'body': 'talkerCapabilities'
   'talkerStreamSources':
     'prefix': 'talkerStreamSources'
-    'body': 'talkerStreamSources()'
+    'body': 'talkerStreamSources'
   'timeToLive':
     'prefix': 'timeToLive'
-    'body': 'timeToLive()'
+    'body': 'timeToLive'
   'vendorID':
     'prefix': 'vendorID'
-    'body': 'vendorID()'
+    'body': 'vendorID'
+  'AVB17221EntityDiscovery':
+    'prefix': 'AVB17221EntityDiscovery'
+    'body': 'AVB17221EntityDiscovery'
   'addLocalEntity:error:':
     'prefix': 'addLocalEntity:error:'
     'body': 'addLocalEntity(${1:AVB17221Entity* anEntity}, error:${2:NSError** error})'
@@ -991,25 +1024,25 @@
     'body': 'changeEntityWithGUID(${1:uint64_t entityGUID}, toNewASGrandmasterID:${2:uint64_t asGrandmasterID}, error:${3:NSError** error})'
   'discoverEntities':
     'prefix': 'discoverEntities'
-    'body': 'discoverEntities()'
+    'body': 'discoverEntities'
   'discoverEntity:':
     'prefix': 'discoverEntity:'
     'body': 'discoverEntity(${1:uint64_t entityID})'
   'discoveryDelegate':
     'prefix': 'discoveryDelegate'
-    'body': 'discoveryDelegate()'
+    'body': 'discoveryDelegate'
   'initWithInterfaceName:':
     'prefix': 'initWithInterfaceName:'
     'body': 'initWithInterfaceName(${1:NSString* anInterfaceName})'
   'interface':
     'prefix': 'interface'
-    'body': 'interface()'
+    'body': 'interface'
   'interfaceName':
     'prefix': 'interfaceName'
-    'body': 'interfaceName()'
+    'body': 'interfaceName'
   'primeIterators':
     'prefix': 'primeIterators'
-    'body': 'primeIterators()'
+    'body': 'primeIterators'
   'removeLocalEntity:error:':
     'prefix': 'removeLocalEntity:error:'
     'body': 'removeLocalEntity(${1:uint64_t guid}, error:${2:NSError** error})'
@@ -1019,6 +1052,9 @@
   'setInterfaceName:':
     'prefix': 'setInterfaceName:'
     'body': 'setInterfaceName(${1:NSString* interfaceName})'
+  'AVB1722ControlInterface':
+    'prefix': 'AVB1722ControlInterface'
+    'body': 'AVB1722ControlInterface'
   'initWithInterfaceName:':
     'prefix': 'initWithInterfaceName:'
     'body': 'initWithInterfaceName(${1:NSString* anInterfaceName})'
@@ -1030,28 +1066,31 @@
     'body': 'initWithService(${1:io_object_t aService}, onInterfaceNamed:${2:NSString* anInterfaceName})'
   'interface':
     'prefix': 'interface'
-    'body': 'interface()'
+    'body': 'interface'
   'interfaceName':
     'prefix': 'interfaceName'
-    'body': 'interfaceName()'
+    'body': 'interfaceName'
   'setInterfaceName:':
     'prefix': 'setInterfaceName:'
     'body': 'setInterfaceName(${1:NSString* interfaceName})'
+  'AVBInterface':
+    'prefix': 'AVBInterface'
+    'body': 'AVBInterface'
   'acmp':
     'prefix': 'acmp'
-    'body': 'acmp()'
+    'body': 'acmp'
   'aecp':
     'prefix': 'aecp'
-    'body': 'aecp()'
+    'body': 'aecp'
   'entityDiscovery':
     'prefix': 'entityDiscovery'
-    'body': 'entityDiscovery()'
+    'body': 'entityDiscovery'
   'initWithInterfaceName:':
     'prefix': 'initWithInterfaceName:'
     'body': 'initWithInterfaceName(${1:NSString* anInterfaceName})'
   'interfaceName':
     'prefix': 'interfaceName'
-    'body': 'interfaceName()'
+    'body': 'interfaceName'
   'AVBInterface.isAVBCapableInterfaceNamed:':
     'prefix': 'isAVBCapableInterfaceNamed:'
     'body': 'isAVBCapableInterfaceNamed(${1:NSString* anInterfaceName})'
@@ -1063,25 +1102,28 @@
     'body': 'macAddressForInterfaceNamed(${1:NSString* anInterfaceName})'
   'AVBInterface.myEntityID':
     'prefix': 'myEntityID'
-    'body': 'myEntityID()'
+    'body': 'myEntityID'
   'AVBInterface.myGUID':
     'prefix': 'myGUID'
-    'body': 'myGUID()'
+    'body': 'myGUID'
   'AVBInterface.supportedInterfaces':
     'prefix': 'supportedInterfaces'
-    'body': 'supportedInterfaces()'
+    'body': 'supportedInterfaces'
+  'AVBMACAddress':
+    'prefix': 'AVBMACAddress'
+    'body': 'AVBMACAddress'
   'bytes':
     'prefix': 'bytes'
-    'body': 'bytes()'
+    'body': 'bytes'
   'dataRepresentation':
     'prefix': 'dataRepresentation'
-    'body': 'dataRepresentation()'
+    'body': 'dataRepresentation'
   'initWithBytes:':
     'prefix': 'initWithBytes:'
     'body': 'initWithBytes(${1:uint8_t* bytes})'
   'isMulticast':
     'prefix': 'isMulticast'
-    'body': 'isMulticast()'
+    'body': 'isMulticast'
   'setDataRepresentation:':
     'prefix': 'setDataRepresentation:'
     'body': 'setDataRepresentation(${1:NSData* dataRepresentation})'
@@ -1093,7 +1135,10 @@
     'body': 'setStringRepresentation(${1:NSString* stringRepresentation})'
   'stringRepresentation':
     'prefix': 'stringRepresentation'
-    'body': 'stringRepresentation()'
+    'body': 'stringRepresentation'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'ACMPDidReceiveCommand:onInterface:':
     'prefix': 'ACMPDidReceiveCommand:onInterface:'
     'body': 'ACMPDidReceiveCommand(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
@@ -1130,18 +1175,27 @@
   'didUpdateRemoteEntity:changedProperties:on17221EntityDiscovery:':
     'prefix': 'didUpdateRemoteEntity:changedProperties:on17221EntityDiscovery:'
     'body': 'didUpdateRemoteEntity(${1:AVB17221Entity* entity}, changedProperties:${2:AVB17221EntityPropertyChanged changedProperties}, on17221EntityDiscovery:${3:AVB17221EntityDiscovery* entityDiscovery})'
+  'AVB17221ACMPClient':
+    'prefix': 'AVB17221ACMPClient'
+    'body': 'AVB17221ACMPClient'
   'ACMPDidReceiveCommand:onInterface:':
     'prefix': 'ACMPDidReceiveCommand:onInterface:'
     'body': 'ACMPDidReceiveCommand(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
   'ACMPDidReceiveResponse:onInterface:':
     'prefix': 'ACMPDidReceiveResponse:onInterface:'
     'body': 'ACMPDidReceiveResponse(${1:AVB17221ACMPMessage* message}, onInterface:${2:AVB17221ACMPInterface* anInterface})'
+  'AVB17221AECPClient':
+    'prefix': 'AVB17221AECPClient'
+    'body': 'AVB17221AECPClient'
   'AECPDidReceiveCommand:onInterface:':
     'prefix': 'AECPDidReceiveCommand:onInterface:'
     'body': 'AECPDidReceiveCommand(${1:AVB17221AECPMessage* message}, onInterface:${2:AVB17221AECPInterface* anInterface})'
   'AECPDidReceiveResponse:onInterface:':
     'prefix': 'AECPDidReceiveResponse:onInterface:'
     'body': 'AECPDidReceiveResponse(${1:AVB17221AECPMessage* message}, onInterface:${2:AVB17221AECPInterface* anInterface})'
+  'AVB17221EntityDiscoveryDelegate':
+    'prefix': 'AVB17221EntityDiscoveryDelegate'
+    'body': 'AVB17221EntityDiscoveryDelegate'
   'didAddLocalEntity:on17221EntityDiscovery:':
     'prefix': 'didAddLocalEntity:on17221EntityDiscovery:'
     'body': 'didAddLocalEntity(${1:AVB17221Entity* newEntity}, on17221EntityDiscovery:${2:AVB17221EntityDiscovery* entityDiscovery})'

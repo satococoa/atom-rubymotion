@@ -1285,7 +1285,7 @@
     'body': 'SSLClose(${1:SSLContextRef context})'
   'SSLContextGetTypeID':
     'prefix': 'SSLContextGetTypeID'
-    'body': 'SSLContextGetTypeID()'
+    'body': 'SSLContextGetTypeID'
   'SSLCopyDistinguishedNames':
     'prefix': 'SSLCopyDistinguishedNames'
     'body': 'SSLCopyDistinguishedNames(${1:SSLContextRef context}, ${2:CFArrayRef* names})'
@@ -1408,7 +1408,7 @@
     'body': 'SecCertificateCreateWithData(${1:CFAllocatorRef allocator}, ${2:CFDataRef data})'
   'SecCertificateGetTypeID':
     'prefix': 'SecCertificateGetTypeID'
-    'body': 'SecCertificateGetTypeID()'
+    'body': 'SecCertificateGetTypeID'
   'SecIdentityCopyCertificate':
     'prefix': 'SecIdentityCopyCertificate'
     'body': 'SecIdentityCopyCertificate(${1:SecIdentityRef identityRef}, ${2:SecCertificateRef* certificateRef})'
@@ -1417,7 +1417,7 @@
     'body': 'SecIdentityCopyPrivateKey(${1:SecIdentityRef identityRef}, ${2:SecKeyRef* privateKeyRef})'
   'SecIdentityGetTypeID':
     'prefix': 'SecIdentityGetTypeID'
-    'body': 'SecIdentityGetTypeID()'
+    'body': 'SecIdentityGetTypeID'
   'SecItemAdd':
     'prefix': 'SecItemAdd'
     'body': 'SecItemAdd(${1:CFDictionaryRef attributes}, ${2:CFTypeRef* result})'
@@ -1444,7 +1444,7 @@
     'body': 'SecKeyGetBlockSize(${1:SecKeyRef key})'
   'SecKeyGetTypeID':
     'prefix': 'SecKeyGetTypeID'
-    'body': 'SecKeyGetTypeID()'
+    'body': 'SecKeyGetTypeID'
   'SecKeyRawSign':
     'prefix': 'SecKeyRawSign'
     'body': 'SecKeyRawSign(${1:SecKeyRef key}, ${2:SecPadding padding}, ${3:uint8_t* dataToSign}, ${4:size_t dataToSignLen}, ${5:uint8_t* sig}, ${6:size_t* sigLen})'
@@ -1459,7 +1459,7 @@
     'body': 'SecPolicyCopyProperties(${1:SecPolicyRef policyRef})'
   'SecPolicyCreateBasicX509':
     'prefix': 'SecPolicyCreateBasicX509'
-    'body': 'SecPolicyCreateBasicX509()'
+    'body': 'SecPolicyCreateBasicX509'
   'SecPolicyCreateRevocation':
     'prefix': 'SecPolicyCreateRevocation'
     'body': 'SecPolicyCreateRevocation(${1:CFOptionFlags revocationFlags})'
@@ -1471,7 +1471,7 @@
     'body': 'SecPolicyCreateWithProperties(${1:CFTypeRef policyIdentifier}, ${2:CFDictionaryRef properties})'
   'SecPolicyGetTypeID':
     'prefix': 'SecPolicyGetTypeID'
-    'body': 'SecPolicyGetTypeID()'
+    'body': 'SecPolicyGetTypeID'
   'SecRandomCopyBytes':
     'prefix': 'SecRandomCopyBytes'
     'body': 'SecRandomCopyBytes(${1:SecRandomRef rnd}, ${2:size_t count}, ${3:uint8_t* bytes})'
@@ -1516,7 +1516,7 @@
     'body': 'SecTrustGetTrustResult(${1:SecTrustRef trust}, ${2:SecTrustResultType* result})'
   'SecTrustGetTypeID':
     'prefix': 'SecTrustGetTypeID'
-    'body': 'SecTrustGetTypeID()'
+    'body': 'SecTrustGetTypeID'
   'SecTrustGetVerifyTime':
     'prefix': 'SecTrustGetVerifyTime'
     'body': 'SecTrustGetVerifyTime(${1:SecTrustRef trust})'

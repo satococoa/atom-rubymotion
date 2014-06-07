@@ -1777,7 +1777,7 @@
     'body': 'clSetUserEventStatus(${1:cl_event }, ${2:cl_int })'
   'clUnloadCompiler':
     'prefix': 'clUnloadCompiler'
-    'body': 'clUnloadCompiler()'
+    'body': 'clUnloadCompiler'
   'clUnloadPlatformCompiler':
     'prefix': 'clUnloadPlatformCompiler'
     'body': 'clUnloadPlatformCompiler(${1:cl_platform_id })'
@@ -1840,7 +1840,7 @@
     'body': 'gcl_free(${1:void* ptr})'
   'gcl_get_context':
     'prefix': 'gcl_get_context'
-    'body': 'gcl_get_context()'
+    'body': 'gcl_get_context'
   'gcl_get_device_id_with_dispatch_queue':
     'prefix': 'gcl_get_device_id_with_dispatch_queue'
     'body': 'gcl_get_device_id_with_dispatch_queue(${1:dispatch_queue_t queue})'
@@ -1903,7 +1903,7 @@
     'body': 'gcl_set_finalizer(${1:void* object}, ${2:void (*)(void *, void *) cl_pfn_finalizer}, ${3:void* user_data})'
   'gcl_start_timer':
     'prefix': 'gcl_start_timer'
-    'body': 'gcl_start_timer()'
+    'body': 'gcl_start_timer'
   'gcl_stop_timer':
     'prefix': 'gcl_stop_timer'
     'body': 'gcl_stop_timer(${1:cl_timer t})'

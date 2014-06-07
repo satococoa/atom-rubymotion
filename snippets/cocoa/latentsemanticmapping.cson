@@ -121,7 +121,7 @@
     'body': 'LSMMapGetProperties(${1:LSMMapRef mapref})'
   'LSMMapGetTypeID':
     'prefix': 'LSMMapGetTypeID'
-    'body': 'LSMMapGetTypeID()'
+    'body': 'LSMMapGetTypeID'
   'LSMMapSetProperties':
     'prefix': 'LSMMapSetProperties'
     'body': 'LSMMapSetProperties(${1:LSMMapRef mapref}, ${2:CFDictionaryRef properties})'
@@ -163,7 +163,7 @@
     'body': 'LSMResultGetScore(${1:LSMResultRef result}, ${2:CFIndex n})'
   'LSMResultGetTypeID':
     'prefix': 'LSMResultGetTypeID'
-    'body': 'LSMResultGetTypeID()'
+    'body': 'LSMResultGetTypeID'
   'LSMTextAddToken':
     'prefix': 'LSMTextAddToken'
     'body': 'LSMTextAddToken(${1:LSMTextRef textref}, ${2:CFDataRef token})'
@@ -178,4 +178,4 @@
     'body': 'LSMTextCreate(${1:CFAllocatorRef alloc}, ${2:LSMMapRef mapref})'
   'LSMTextGetTypeID':
     'prefix': 'LSMTextGetTypeID'
-    'body': 'LSMTextGetTypeID()'
+    'body': 'LSMTextGetTypeID'

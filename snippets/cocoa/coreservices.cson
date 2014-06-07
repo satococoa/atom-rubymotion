@@ -3343,7 +3343,7 @@
     'body': 'AEGetParamPtr(${1:AppleEvent* theAppleEvent}, ${2:AEKeyword theAEKeyword}, ${3:DescType desiredType}, ${4:DescType* actualType}, ${5:void* dataPtr}, ${6:Size maximumSize}, ${7:Size* actualSize})'
   'AEGetRegisteredMachPort':
     'prefix': 'AEGetRegisteredMachPort'
-    'body': 'AEGetRegisteredMachPort()'
+    'body': 'AEGetRegisteredMachPort'
   'AEGetSpecialHandler':
     'prefix': 'AEGetSpecialHandler'
     'body': 'AEGetSpecialHandler(${1:AEKeyword functionClass}, ${2:AEEventHandlerUPP* handler}, ${3:Boolean isSysHandler})'
@@ -3367,7 +3367,7 @@
     'body': 'AEManagerInfo(${1:AEKeyword keyWord}, ${2:long* result})'
   'AEObjectInit':
     'prefix': 'AEObjectInit'
-    'body': 'AEObjectInit()'
+    'body': 'AEObjectInit'
   'AEPrintDescToHandle':
     'prefix': 'AEPrintDescToHandle'
     'body': 'AEPrintDescToHandle(${1:AEDesc* desc}, ${2:Handle* result})'
@@ -3454,7 +3454,7 @@
     'body': 'AEStreamCreateEvent(${1:AEEventClass clazz}, ${2:AEEventID id}, ${3:DescType targetType}, ${4:void* targetData}, ${5:Size targetLength}, ${6:SInt16 returnID}, ${7:SInt32 transactionID})'
   'AEStreamOpen':
     'prefix': 'AEStreamOpen'
-    'body': 'AEStreamOpen()'
+    'body': 'AEStreamOpen'
   'AEStreamOpenDesc':
     'prefix': 'AEStreamOpenDesc'
     'body': 'AEStreamOpenDesc(${1:AEStreamRef ref}, ${2:DescType newType})'
@@ -21169,7 +21169,7 @@
     'body': 'CSBackupSetItemExcluded(${1:CFURLRef item}, ${2:Boolean exclude}, ${3:Boolean excludeByPath})'
   'CSCopyMachineName':
     'prefix': 'CSCopyMachineName'
-    'body': 'CSCopyMachineName()'
+    'body': 'CSCopyMachineName'
   'CSCopyUserName':
     'prefix': 'CSCopyUserName'
     'body': 'CSCopyUserName(${1:Boolean useShortName})'
@@ -21184,7 +21184,7 @@
     'body': 'CSDiskSpaceStartRecovery(${1:CFURLRef volumeURL}, ${2:UInt64 bytesNeeded}, ${3:CSDiskSpaceRecoveryOptions options}, ${4:CFUUIDRef* outOperationUUID}, ${5:dispatch_queue_t callbackQueue}, ${6:CSDiskSpaceRecoveryCallback callback})'
   'CSGetComponentsThreadMode':
     'prefix': 'CSGetComponentsThreadMode'
-    'body': 'CSGetComponentsThreadMode()'
+    'body': 'CSGetComponentsThreadMode'
   'CSSetComponentsThreadMode':
     'prefix': 'CSSetComponentsThreadMode'
     'body': 'CSSetComponentsThreadMode(${1:CSComponentsThreadMode mode})'
@@ -21292,7 +21292,7 @@
     'body': 'Count1Resources(${1:ResType theType})'
   'Count1Types':
     'prefix': 'Count1Types'
-    'body': 'Count1Types()'
+    'body': 'Count1Types'
   'CountCollectionItems':
     'prefix': 'CountCollectionItems'
     'body': 'CountCollectionItems(${1:Collection c})'
@@ -21316,7 +21316,7 @@
     'body': 'CountTaggedCollectionItems(${1:Collection c}, ${2:CollectionTag tag})'
   'CountTypes':
     'prefix': 'CountTypes'
-    'body': 'CountTypes()'
+    'body': 'CountTypes'
   'CountUnicodeMappings':
     'prefix': 'CountUnicodeMappings'
     'body': 'CountUnicodeMappings(${1:OptionBits iFilter}, ${2:ConstUnicodeMappingPtr iFindMapping}, ${3:ItemCount* oActualCount})'
@@ -21349,7 +21349,7 @@
     'body': 'CreateUnicodeToTextRunInfoByScriptCode(${1:ItemCount iNumberOfScriptCodes}, ${2:ScriptCode* iScripts}, ${3:UnicodeToTextRunInfo* oUnicodeToTextInfo})'
   'CurResFile':
     'prefix': 'CurResFile'
-    'body': 'CurResFile()'
+    'body': 'CurResFile'
   'DebugAssert':
     'prefix': 'DebugAssert'
     'body': 'DebugAssert(${1:OSType componentSignature}, ${2:UInt32 options}, ${3:char* assertionString}, ${4:char* exceptionLabelString}, ${5:char* errorString}, ${6:char* fileName}, ${7:long lineNumber}, ${8:void* value})'
@@ -21679,7 +21679,7 @@
     'body': 'FSEventsCopyUUIDForDevice(${1:dev_t dev})'
   'FSEventsGetCurrentEventId':
     'prefix': 'FSEventsGetCurrentEventId'
-    'body': 'FSEventsGetCurrentEventId()'
+    'body': 'FSEventsGetCurrentEventId'
   'FSEventsGetLastEventIdForDeviceBeforeTime':
     'prefix': 'FSEventsGetLastEventIdForDeviceBeforeTime'
     'body': 'FSEventsGetLastEventIdForDeviceBeforeTime(${1:dev_t dev}, ${2:CFAbsoluteTime time})'
@@ -21700,7 +21700,7 @@
     'body': 'FSFileOperationCreate(${1:CFAllocatorRef alloc})'
   'FSFileOperationGetTypeID':
     'prefix': 'FSFileOperationGetTypeID'
-    'body': 'FSFileOperationGetTypeID()'
+    'body': 'FSFileOperationGetTypeID'
   'FSFileOperationScheduleWithRunLoop':
     'prefix': 'FSFileOperationScheduleWithRunLoop'
     'body': 'FSFileOperationScheduleWithRunLoop(${1:FSFileOperationRef fileOp}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
@@ -21733,7 +21733,7 @@
     'body': 'FSFileSecurityGetOwnerUUID(${1:FSFileSecurityRef fileSec}, ${2:CFUUIDBytes* owner})'
   'FSFileSecurityGetTypeID':
     'prefix': 'FSFileSecurityGetTypeID'
-    'body': 'FSFileSecurityGetTypeID()'
+    'body': 'FSFileSecurityGetTypeID'
   'FSFileSecurityRefCreateCopy':
     'prefix': 'FSFileSecurityRefCreateCopy'
     'body': 'FSFileSecurityRefCreateCopy(${1:CFAllocatorRef alloc}, ${2:FSFileSecurityRef fileSec})'
@@ -22111,7 +22111,7 @@
     'body': 'GetComponentInstanceStorage(${1:ComponentInstance aComponentInstance})'
   'GetComponentListModSeed':
     'prefix': 'GetComponentListModSeed'
-    'body': 'GetComponentListModSeed()'
+    'body': 'GetComponentListModSeed'
   'GetComponentPublicIndString':
     'prefix': 'GetComponentPublicIndString'
     'body': 'GetComponentPublicIndString(${1:Component aComponent}, ${2:unsigned char* theString}, ${3:SInt16 strListID}, ${4:SInt16 index})'
@@ -22411,40 +22411,40 @@
     'body': 'IsHandleValid(${1:Handle h})'
   'IsHeapValid':
     'prefix': 'IsHeapValid'
-    'body': 'IsHeapValid()'
+    'body': 'IsHeapValid'
   'IsMetric':
     'prefix': 'IsMetric'
-    'body': 'IsMetric()'
+    'body': 'IsMetric'
   'IsPointerValid':
     'prefix': 'IsPointerValid'
     'body': 'IsPointerValid(${1:Ptr p})'
   'LMGetApFontID':
     'prefix': 'LMGetApFontID'
-    'body': 'LMGetApFontID()'
+    'body': 'LMGetApFontID'
   'LMGetBootDrive':
     'prefix': 'LMGetBootDrive'
-    'body': 'LMGetBootDrive()'
+    'body': 'LMGetBootDrive'
   'LMGetIntlSpec':
     'prefix': 'LMGetIntlSpec'
-    'body': 'LMGetIntlSpec()'
+    'body': 'LMGetIntlSpec'
   'LMGetMemErr':
     'prefix': 'LMGetMemErr'
-    'body': 'LMGetMemErr()'
+    'body': 'LMGetMemErr'
   'LMGetResErr':
     'prefix': 'LMGetResErr'
-    'body': 'LMGetResErr()'
+    'body': 'LMGetResErr'
   'LMGetResLoad':
     'prefix': 'LMGetResLoad'
-    'body': 'LMGetResLoad()'
+    'body': 'LMGetResLoad'
   'LMGetSysFontSize':
     'prefix': 'LMGetSysFontSize'
-    'body': 'LMGetSysFontSize()'
+    'body': 'LMGetSysFontSize'
   'LMGetSysMap':
     'prefix': 'LMGetSysMap'
-    'body': 'LMGetSysMap()'
+    'body': 'LMGetSysMap'
   'LMGetTmpResLoad':
     'prefix': 'LMGetTmpResLoad'
-    'body': 'LMGetTmpResLoad()'
+    'body': 'LMGetTmpResLoad'
   'LMSetApFontID':
     'prefix': 'LMSetApFontID'
     'body': 'LMSetApFontID(${1:SInt16 value})'
@@ -22570,7 +22570,7 @@
     'body': 'MPCreateTimer(${1:MPTimerID* timerID})'
   'MPCurrentTaskID':
     'prefix': 'MPCurrentTaskID'
-    'body': 'MPCurrentTaskID()'
+    'body': 'MPCurrentTaskID'
   'MPDeallocateTaskStorageIndex':
     'prefix': 'MPDeallocateTaskStorageIndex'
     'body': 'MPDeallocateTaskStorageIndex(${1:TaskStorageIndex taskIndex})'
@@ -22636,10 +22636,10 @@
     'body': 'MPNotifyQueue(${1:MPQueueID queue}, ${2:void* param1}, ${3:void* param2}, ${4:void* param3})'
   'MPProcessors':
     'prefix': 'MPProcessors'
-    'body': 'MPProcessors()'
+    'body': 'MPProcessors'
   'MPProcessorsScheduled':
     'prefix': 'MPProcessorsScheduled'
-    'body': 'MPProcessorsScheduled()'
+    'body': 'MPProcessorsScheduled'
   'MPRegisterDebugger':
     'prefix': 'MPRegisterDebugger'
     'body': 'MPRegisterDebugger(${1:MPQueueID queue}, ${2:MPDebuggerLevel level})'
@@ -22699,10 +22699,10 @@
     'body': 'MPWaitOnSemaphore(${1:MPSemaphoreID semaphore}, ${2:Duration timeout})'
   'MPYield':
     'prefix': 'MPYield'
-    'body': 'MPYield()'
+    'body': 'MPYield'
   'MemError':
     'prefix': 'MemError'
-    'body': 'MemError()'
+    'body': 'MemError'
   'Microseconds':
     'prefix': 'Microseconds'
     'body': 'Microseconds(${1:UnsignedWide* microTickCount})'
@@ -22732,7 +22732,7 @@
     'body': 'NewAVLWalkUPP(${1:AVLWalkProcPtr userRoutine})'
   'NewCollection':
     'prefix': 'NewCollection'
-    'body': 'NewCollection()'
+    'body': 'NewCollection'
   'NewCollectionExceptionUPP':
     'prefix': 'NewCollectionExceptionUPP'
     'body': 'NewCollectionExceptionUPP(${1:CollectionExceptionProcPtr userRoutine})'
@@ -22774,7 +22774,7 @@
     'body': 'NewDeferredTaskUPP(${1:DeferredTaskProcPtr userRoutine})'
   'NewEmptyHandle':
     'prefix': 'NewEmptyHandle'
-    'body': 'NewEmptyHandle()'
+    'body': 'NewEmptyHandle'
   'NewExceptionHandlerUPP':
     'prefix': 'NewExceptionHandlerUPP'
     'body': 'NewExceptionHandlerUPP(${1:ExceptionHandlerProcPtr userRoutine})'
@@ -23209,7 +23209,7 @@
     'body': 'ReplaceIndexedCollectionItemHdl(${1:Collection aCollection}, ${2:SInt32 itemIndex}, ${3:Handle itemData})'
   'ResError':
     'prefix': 'ResError'
-    'body': 'ResError()'
+    'body': 'ResError'
   'ResetTextToUnicodeInfo':
     'prefix': 'ResetTextToUnicodeInfo'
     'body': 'ResetTextToUnicodeInfo(${1:TextToUnicodeInfo ioTextToUnicodeInfo})'
@@ -23269,10 +23269,10 @@
     'body': 'S64Eor(${1:SInt64 left}, ${2:SInt64 right})'
   'S64Max':
     'prefix': 'S64Max'
-    'body': 'S64Max()'
+    'body': 'S64Max'
   'S64Min':
     'prefix': 'S64Min'
-    'body': 'S64Min()'
+    'body': 'S64Min'
   'S64Mod':
     'prefix': 'S64Mod'
     'body': 'S64Mod(${1:SInt64 dividend}, ${2:SInt64 divisor})'
@@ -23518,7 +23518,7 @@
     'body': 'TECSniffTextEncoding(${1:TECSnifferObjectRef encodingSniffer}, ${2:ConstTextPtr inputBuffer}, ${3:ByteCount inputBufferLength}, ${4:TextEncoding* testEncodings}, ${5:ItemCount numTextEncodings}, ${6:ItemCount* numErrsArray}, ${7:ItemCount maxErrs}, ${8:ItemCount* numFeaturesArray}, ${9:ItemCount maxFeatures})'
   'TaskLevel':
     'prefix': 'TaskLevel'
-    'body': 'TaskLevel()'
+    'body': 'TaskLevel'
   'TempNewHandle':
     'prefix': 'TempNewHandle'
     'body': 'TempNewHandle(${1:Size logicalSize}, ${2:OSErr* resultCode})'
@@ -23530,16 +23530,16 @@
     'body': 'TestAndSet(${1:UInt32 bit}, ${2:UInt8* address})'
   'ThreadBeginCritical':
     'prefix': 'ThreadBeginCritical'
-    'body': 'ThreadBeginCritical()'
+    'body': 'ThreadBeginCritical'
   'ThreadCurrentStackSpace':
     'prefix': 'ThreadCurrentStackSpace'
     'body': 'ThreadCurrentStackSpace(${1:ThreadID thread}, ${2:ByteCount* freeStack})'
   'ThreadEndCritical':
     'prefix': 'ThreadEndCritical'
-    'body': 'ThreadEndCritical()'
+    'body': 'ThreadEndCritical'
   'TickCount':
     'prefix': 'TickCount'
-    'body': 'TickCount()'
+    'body': 'TickCount'
   'TruncateForTextToUnicode':
     'prefix': 'TruncateForTextToUnicode'
     'body': 'TruncateForTextToUnicode(${1:ConstTextToUnicodeInfo iTextToUnicodeInfo}, ${2:ByteCount iSourceLen}, ${3:ConstLogicalAddress iSourceStr}, ${4:ByteCount iMaxLen}, ${5:ByteCount* oTruncatedLen})'
@@ -23581,7 +23581,7 @@
     'body': 'U64Eor(${1:UInt64 left}, ${2:UInt64 right})'
   'U64Max':
     'prefix': 'U64Max'
-    'body': 'U64Max()'
+    'body': 'U64Max'
   'U64Mod':
     'prefix': 'U64Mod'
     'body': 'U64Mod(${1:UInt64 dividend}, ${2:UInt64 divisor})'
@@ -23731,7 +23731,7 @@
     'body': 'UnsignedWideToUInt64(${1:UnsignedWide uw})'
   'UpTime':
     'prefix': 'UpTime'
-    'body': 'UpTime()'
+    'body': 'UpTime'
   'UpdateResFile':
     'prefix': 'UpdateResFile'
     'body': 'UpdateResFile(${1:ResFileRefNum refNum})'
@@ -23788,7 +23788,7 @@
     'body': 'X2Frac(${1:double x})'
   'YieldToAnyThread':
     'prefix': 'YieldToAnyThread'
-    'body': 'YieldToAnyThread()'
+    'body': 'YieldToAnyThread'
   'YieldToThread':
     'prefix': 'YieldToThread'
     'body': 'YieldToThread(${1:ThreadID suggestedThread})'
@@ -25387,7 +25387,7 @@
     'body': 'LSSharedFileListGetSeedValue(${1:LSSharedFileListRef inList})'
   'LSSharedFileListGetTypeID':
     'prefix': 'LSSharedFileListGetTypeID'
-    'body': 'LSSharedFileListGetTypeID()'
+    'body': 'LSSharedFileListGetTypeID'
   'LSSharedFileListInsertItemFSRef':
     'prefix': 'LSSharedFileListInsertItemFSRef'
     'body': 'LSSharedFileListInsertItemFSRef(${1:LSSharedFileListRef inList}, ${2:LSSharedFileListItemRef insertAfterThisItem}, ${3:CFStringRef inDisplayName}, ${4:IconRef inIconRef}, ${5:FSRef* inFSRef}, ${6:CFDictionaryRef inPropertiesToSet}, ${7:CFArrayRef inPropertiesToClear})'
@@ -25408,7 +25408,7 @@
     'body': 'LSSharedFileListItemGetID(${1:LSSharedFileListItemRef inItem})'
   'LSSharedFileListItemGetTypeID':
     'prefix': 'LSSharedFileListItemGetTypeID'
-    'body': 'LSSharedFileListItemGetTypeID()'
+    'body': 'LSSharedFileListItemGetTypeID'
   'LSSharedFileListItemMove':
     'prefix': 'LSSharedFileListItemMove'
     'body': 'LSSharedFileListItemMove(${1:LSSharedFileListRef inList}, ${2:LSSharedFileListItemRef inItem}, ${3:LSSharedFileListItemRef inMoveAfterItem})'
@@ -25435,7 +25435,7 @@
     'body': 'LSSharedFileListSetProperty(${1:LSSharedFileListRef inList}, ${2:CFStringRef inPropertyName}, ${3:CFTypeRef inPropertyData})'
   'LSTerm':
     'prefix': 'LSTerm'
-    'body': 'LSTerm()'
+    'body': 'LSTerm'
   'OverrideIconRef':
     'prefix': 'OverrideIconRef'
     'body': 'OverrideIconRef(${1:IconRef oldIconRef}, ${2:IconRef newIconRef})'
@@ -26134,7 +26134,7 @@
     'body': 'KMDQueryWantsUpdates'
   'MDCopyLabelKinds':
     'prefix': 'MDCopyLabelKinds'
-    'body': 'MDCopyLabelKinds()'
+    'body': 'MDCopyLabelKinds'
   'MDCopyLabelWithUUID':
     'prefix': 'MDCopyLabelWithUUID'
     'body': 'MDCopyLabelWithUUID(${1:CFUUIDRef labelUUID})'
@@ -26167,7 +26167,7 @@
     'body': 'MDItemCreateWithURL(${1:CFAllocatorRef allocator}, ${2:CFURLRef url})'
   'MDItemGetTypeID':
     'prefix': 'MDItemGetTypeID'
-    'body': 'MDItemGetTypeID()'
+    'body': 'MDItemGetTypeID'
   'MDItemRemoveLabel':
     'prefix': 'MDItemRemoveLabel'
     'body': 'MDItemRemoveLabel(${1:MDItemRef item}, ${2:MDLabelRef label})'
@@ -26194,7 +26194,7 @@
     'body': 'MDLabelDelete(${1:MDLabelRef label})'
   'MDLabelGetTypeID':
     'prefix': 'MDLabelGetTypeID'
-    'body': 'MDLabelGetTypeID()'
+    'body': 'MDLabelGetTypeID'
   'MDLabelSetAttributes':
     'prefix': 'MDLabelSetAttributes'
     'body': 'MDLabelSetAttributes(${1:MDLabelRef label}, ${2:CFDictionaryRef attrs})'
@@ -26251,7 +26251,7 @@
     'body': 'MDQueryGetSortOptionFlagsForAttribute(${1:MDQueryRef query}, ${2:CFStringRef fieldName})'
   'MDQueryGetTypeID':
     'prefix': 'MDQueryGetTypeID'
-    'body': 'MDQueryGetTypeID()'
+    'body': 'MDQueryGetTypeID'
   'MDQueryIsGatheringComplete':
     'prefix': 'MDQueryIsGatheringComplete'
     'body': 'MDQueryIsGatheringComplete(${1:MDQueryRef query})'
@@ -26290,7 +26290,7 @@
     'body': 'MDQueryStop(${1:MDQueryRef query})'
   'MDSchemaCopyAllAttributes':
     'prefix': 'MDSchemaCopyAllAttributes'
-    'body': 'MDSchemaCopyAllAttributes()'
+    'body': 'MDSchemaCopyAllAttributes'
   'MDSchemaCopyAttributesForContentType':
     'prefix': 'MDSchemaCopyAttributesForContentType'
     'body': 'MDSchemaCopyAttributesForContentType(${1:CFStringRef contentTypeUTI})'
@@ -27178,22 +27178,22 @@
     'body': 'small8BitData'
   'AlertSoundPlay':
     'prefix': 'AlertSoundPlay'
-    'body': 'AlertSoundPlay()'
+    'body': 'AlertSoundPlay'
   'AlertSoundPlayCustomSound':
     'prefix': 'AlertSoundPlayCustomSound'
     'body': 'AlertSoundPlayCustomSound(${1:SystemSoundActionID inAction})'
   'BatteryCount':
     'prefix': 'BatteryCount'
-    'body': 'BatteryCount()'
+    'body': 'BatteryCount'
   'CSGetDefaultIdentityAuthority':
     'prefix': 'CSGetDefaultIdentityAuthority'
-    'body': 'CSGetDefaultIdentityAuthority()'
+    'body': 'CSGetDefaultIdentityAuthority'
   'CSGetLocalIdentityAuthority':
     'prefix': 'CSGetLocalIdentityAuthority'
-    'body': 'CSGetLocalIdentityAuthority()'
+    'body': 'CSGetLocalIdentityAuthority'
   'CSGetManagedIdentityAuthority':
     'prefix': 'CSGetManagedIdentityAuthority'
-    'body': 'CSGetManagedIdentityAuthority()'
+    'body': 'CSGetManagedIdentityAuthority'
   'CSIdentityAddAlias':
     'prefix': 'CSIdentityAddAlias'
     'body': 'CSIdentityAddAlias(${1:CSIdentityRef identity}, ${2:CFStringRef alias})'
@@ -27208,7 +27208,7 @@
     'body': 'CSIdentityAuthorityCopyLocalizedName(${1:CSIdentityAuthorityRef authority})'
   'CSIdentityAuthorityGetTypeID':
     'prefix': 'CSIdentityAuthorityGetTypeID'
-    'body': 'CSIdentityAuthorityGetTypeID()'
+    'body': 'CSIdentityAuthorityGetTypeID'
   'CSIdentityCommit':
     'prefix': 'CSIdentityCommit'
     'body': 'CSIdentityCommit(${1:CSIdentityRef identity}, ${2:AuthorizationRef authorization}, ${3:CFErrorRef* error})'
@@ -27265,7 +27265,7 @@
     'body': 'CSIdentityGetPosixName(${1:CSIdentityRef identity})'
   'CSIdentityGetTypeID':
     'prefix': 'CSIdentityGetTypeID'
-    'body': 'CSIdentityGetTypeID()'
+    'body': 'CSIdentityGetTypeID'
   'CSIdentityGetUUID':
     'prefix': 'CSIdentityGetUUID'
     'body': 'CSIdentityGetUUID(${1:CSIdentityRef identity})'
@@ -27310,7 +27310,7 @@
     'body': 'CSIdentityQueryExecuteAsynchronously(${1:CSIdentityQueryRef query}, ${2:CSIdentityQueryFlags flags}, ${3:CSIdentityQueryClientContext* clientContext}, ${4:CFRunLoopRef runLoop}, ${5:CFStringRef runLoopMode})'
   'CSIdentityQueryGetTypeID':
     'prefix': 'CSIdentityQueryGetTypeID'
-    'body': 'CSIdentityQueryGetTypeID()'
+    'body': 'CSIdentityQueryGetTypeID'
   'CSIdentityQueryStop':
     'prefix': 'CSIdentityQueryStop'
     'body': 'CSIdentityQueryStop(${1:CSIdentityQueryRef query})'
@@ -27346,7 +27346,7 @@
     'body': 'CSIdentitySetPassword(${1:CSIdentityRef user}, ${2:CFStringRef password})'
   'CurrentProcessorSpeed':
     'prefix': 'CurrentProcessorSpeed'
-    'body': 'CurrentProcessorSpeed()'
+    'body': 'CurrentProcessorSpeed'
   'DisposeKCCallbackUPP':
     'prefix': 'DisposeKCCallbackUPP'
     'body': 'DisposeKCCallbackUPP(${1:KCCallbackUPP userUPP})'
@@ -27358,7 +27358,7 @@
     'body': 'DisposeSystemSoundCompletionUPP(${1:SystemSoundCompletionUPP userUPP})'
   'GetCPUSpeed':
     'prefix': 'GetCPUSpeed'
-    'body': 'GetCPUSpeed()'
+    'body': 'GetCPUSpeed'
   'InvokeKCCallbackUPP':
     'prefix': 'InvokeKCCallbackUPP'
     'body': 'InvokeKCCallbackUPP(${1:KCEvent keychainEvent}, ${2:KCCallbackInfo* info}, ${3:void* userContext}, ${4:KCCallbackUPP userUPP})'
@@ -27376,7 +27376,7 @@
     'body': 'KCCopyItem(${1:KCItemRef item}, ${2:KCRef destKeychain}, ${3:KCItemRef* copy})'
   'KCCountKeychains':
     'prefix': 'KCCountKeychains'
-    'body': 'KCCountKeychains()'
+    'body': 'KCCountKeychains'
   'KCDeleteItem':
     'prefix': 'KCDeleteItem'
     'body': 'KCDeleteItem(${1:KCItemRef item})'
@@ -27424,7 +27424,7 @@
     'body': 'KCGetStatus(${1:KCRef keychain}, ${2:UInt32* keychainStatus})'
   'KCIsInteractionAllowed':
     'prefix': 'KCIsInteractionAllowed'
-    'body': 'KCIsInteractionAllowed()'
+    'body': 'KCIsInteractionAllowed'
   'KCLock':
     'prefix': 'KCLock'
     'body': 'KCLock(${1:KCRef keychain})'
@@ -27469,10 +27469,10 @@
     'body': 'KCUpdateItem(${1:KCItemRef item})'
   'MaximumProcessorSpeed':
     'prefix': 'MaximumProcessorSpeed'
-    'body': 'MaximumProcessorSpeed()'
+    'body': 'MaximumProcessorSpeed'
   'MinimumProcessorSpeed':
     'prefix': 'MinimumProcessorSpeed'
-    'body': 'MinimumProcessorSpeed()'
+    'body': 'MinimumProcessorSpeed'
   'NewKCCallbackUPP':
     'prefix': 'NewKCCallbackUPP'
     'body': 'NewKCCallbackUPP(${1:KCCallbackProcPtr userRoutine})'
@@ -27535,7 +27535,7 @@
     'body': 'WSMethodInvocationCreateFromSerialization(${1:CFDataRef contract})'
   'WSMethodInvocationGetTypeID':
     'prefix': 'WSMethodInvocationGetTypeID'
-    'body': 'WSMethodInvocationGetTypeID()'
+    'body': 'WSMethodInvocationGetTypeID'
   'WSMethodInvocationInvoke':
     'prefix': 'WSMethodInvocationInvoke'
     'body': 'WSMethodInvocationInvoke(${1:WSMethodInvocationRef invocation})'
@@ -27580,7 +27580,7 @@
     'body': 'WSProtocolHandlerCreate(${1:CFAllocatorRef allocator}, ${2:CFStringRef protocol})'
   'WSProtocolHandlerGetTypeID':
     'prefix': 'WSProtocolHandlerGetTypeID'
-    'body': 'WSProtocolHandlerGetTypeID()'
+    'body': 'WSProtocolHandlerGetTypeID'
   'WSProtocolHandlerSetDeserializationOverride':
     'prefix': 'WSProtocolHandlerSetDeserializationOverride'
     'body': 'WSProtocolHandlerSetDeserializationOverride(${1:WSProtocolHandlerRef protocol}, ${2:CFStringRef typeNamespace}, ${3:CFStringRef typeName}, ${4:WSProtocolHandlerDeserializationProcPtr deserializationProc}, ${5:WSClientContext* context})'
@@ -27700,7 +27700,7 @@
     'body': 'SKDocumentGetSchemeName(${1:SKDocumentRef inDocument})'
   'SKDocumentGetTypeID':
     'prefix': 'SKDocumentGetTypeID'
-    'body': 'SKDocumentGetTypeID()'
+    'body': 'SKDocumentGetTypeID'
   'SKIndexAddDocument':
     'prefix': 'SKIndexAddDocument'
     'body': 'SKIndexAddDocument(${1:SKIndexRef inIndex}, ${2:SKDocumentRef inDocument}, ${3:CFStringRef inMIMETypeHint}, ${4:Boolean inCanReplace})'
@@ -27751,7 +27751,7 @@
     'body': 'SKIndexDocumentIteratorCreate(${1:SKIndexRef inIndex}, ${2:SKDocumentRef inParentDocument})'
   'SKIndexDocumentIteratorGetTypeID':
     'prefix': 'SKIndexDocumentIteratorGetTypeID'
-    'body': 'SKIndexDocumentIteratorGetTypeID()'
+    'body': 'SKIndexDocumentIteratorGetTypeID'
   'SKIndexFlush':
     'prefix': 'SKIndexFlush'
     'body': 'SKIndexFlush(${1:SKIndexRef inIndex})'
@@ -27793,7 +27793,7 @@
     'body': 'SKIndexGetTermIDForTermString(${1:SKIndexRef inIndex}, ${2:CFStringRef inTermString})'
   'SKIndexGetTypeID':
     'prefix': 'SKIndexGetTypeID'
-    'body': 'SKIndexGetTypeID()'
+    'body': 'SKIndexGetTypeID'
   'SKIndexMoveDocument':
     'prefix': 'SKIndexMoveDocument'
     'body': 'SKIndexMoveDocument(${1:SKIndexRef inIndex}, ${2:SKDocumentRef inDocument}, ${3:SKDocumentRef inNewParent})'
@@ -27820,7 +27820,7 @@
     'body': 'SKIndexSetMaximumBytesBeforeFlush(${1:SKIndexRef inIndex}, ${2:CFIndex inBytesForUpdate})'
   'SKLoadDefaultExtractorPlugIns':
     'prefix': 'SKLoadDefaultExtractorPlugIns'
-    'body': 'SKLoadDefaultExtractorPlugIns()'
+    'body': 'SKLoadDefaultExtractorPlugIns'
   'SKSearchCancel':
     'prefix': 'SKSearchCancel'
     'body': 'SKSearchCancel(${1:SKSearchRef inSearch})'
@@ -27832,7 +27832,7 @@
     'body': 'SKSearchFindMatches(${1:SKSearchRef inSearch}, ${2:CFIndex inMaximumCount}, ${3:SKDocumentID* outDocumentIDsArray}, ${4:float* outScoresArray}, ${5:CFTimeInterval maximumTime}, ${6:CFIndex* outFoundCount})'
   'SKSearchGetTypeID':
     'prefix': 'SKSearchGetTypeID'
-    'body': 'SKSearchGetTypeID()'
+    'body': 'SKSearchGetTypeID'
   'SKSearchGroupCopyIndexes':
     'prefix': 'SKSearchGroupCopyIndexes'
     'body': 'SKSearchGroupCopyIndexes(${1:SKSearchGroupRef inSearchGroup})'
@@ -27841,7 +27841,7 @@
     'body': 'SKSearchGroupCreate(${1:CFArrayRef inArrayOfInIndexes})'
   'SKSearchGroupGetTypeID':
     'prefix': 'SKSearchGroupGetTypeID'
-    'body': 'SKSearchGroupGetTypeID()'
+    'body': 'SKSearchGroupGetTypeID'
   'SKSearchResultsCopyMatchingTerms':
     'prefix': 'SKSearchResultsCopyMatchingTerms'
     'body': 'SKSearchResultsCopyMatchingTerms(${1:SKSearchResultsRef inSearchResults}, ${2:CFIndex inItem})'
@@ -27859,7 +27859,7 @@
     'body': 'SKSearchResultsGetInfoInRange(${1:SKSearchResultsRef inSearchResults}, ${2:CFRange inRange}, ${3:SKDocumentRef* outDocumentsArray}, ${4:SKIndexRef* outIndexesArray}, ${5:float* outScoresArray})'
   'SKSearchResultsGetTypeID':
     'prefix': 'SKSearchResultsGetTypeID'
-    'body': 'SKSearchResultsGetTypeID()'
+    'body': 'SKSearchResultsGetTypeID'
   'SKSummaryCopyParagraphAtIndex':
     'prefix': 'SKSummaryCopyParagraphAtIndex'
     'body': 'SKSummaryCopyParagraphAtIndex(${1:SKSummaryRef summary}, ${2:CFIndex i})'
@@ -27889,4 +27889,4 @@
     'body': 'SKSummaryGetSentenceSummaryInfo(${1:SKSummaryRef summary}, ${2:CFIndex numSentencesInSummary}, ${3:CFIndex* outRankOrderOfSentences}, ${4:CFIndex* outSentenceIndexOfSentences}, ${5:CFIndex* outParagraphIndexOfSentences})'
   'SKSummaryGetTypeID':
     'prefix': 'SKSummaryGetTypeID'
-    'body': 'SKSummaryGetTypeID()'
+    'body': 'SKSummaryGetTypeID'

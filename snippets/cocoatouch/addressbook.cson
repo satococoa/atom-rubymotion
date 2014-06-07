@@ -394,13 +394,13 @@
     'body': 'ABAddressBookCopyPeopleWithName(${1:ABAddressBookRef addressBook}, ${2:CFStringRef name})'
   'ABAddressBookCreate':
     'prefix': 'ABAddressBookCreate'
-    'body': 'ABAddressBookCreate()'
+    'body': 'ABAddressBookCreate'
   'ABAddressBookCreateWithOptions':
     'prefix': 'ABAddressBookCreateWithOptions'
     'body': 'ABAddressBookCreateWithOptions(${1:CFDictionaryRef options}, ${2:CFErrorRef* error})'
   'ABAddressBookGetAuthorizationStatus':
     'prefix': 'ABAddressBookGetAuthorizationStatus'
-    'body': 'ABAddressBookGetAuthorizationStatus()'
+    'body': 'ABAddressBookGetAuthorizationStatus'
   'ABAddressBookGetGroupCount':
     'prefix': 'ABAddressBookGetGroupCount'
     'body': 'ABAddressBookGetGroupCount(${1:ABAddressBookRef addressBook})'
@@ -451,7 +451,7 @@
     'body': 'ABGroupCopySource(${1:ABRecordRef group})'
   'ABGroupCreate':
     'prefix': 'ABGroupCreate'
-    'body': 'ABGroupCreate()'
+    'body': 'ABGroupCreate'
   'ABGroupCreateInSource':
     'prefix': 'ABGroupCreateInSource'
     'body': 'ABGroupCreateInSource(${1:ABRecordRef source})'
@@ -526,7 +526,7 @@
     'body': 'ABPersonCopySource(${1:ABRecordRef person})'
   'ABPersonCreate':
     'prefix': 'ABPersonCreate'
-    'body': 'ABPersonCreate()'
+    'body': 'ABPersonCreate'
   'ABPersonCreateInSource':
     'prefix': 'ABPersonCreateInSource'
     'body': 'ABPersonCreateInSource(${1:ABRecordRef source})'
@@ -538,13 +538,13 @@
     'body': 'ABPersonCreateVCardRepresentationWithPeople(${1:CFArrayRef people})'
   'ABPersonGetCompositeNameFormat':
     'prefix': 'ABPersonGetCompositeNameFormat'
-    'body': 'ABPersonGetCompositeNameFormat()'
+    'body': 'ABPersonGetCompositeNameFormat'
   'ABPersonGetCompositeNameFormatForRecord':
     'prefix': 'ABPersonGetCompositeNameFormatForRecord'
     'body': 'ABPersonGetCompositeNameFormatForRecord(${1:ABRecordRef record})'
   'ABPersonGetSortOrdering':
     'prefix': 'ABPersonGetSortOrdering'
-    'body': 'ABPersonGetSortOrdering()'
+    'body': 'ABPersonGetSortOrdering'
   'ABPersonGetTypeOfProperty':
     'prefix': 'ABPersonGetTypeOfProperty'
     'body': 'ABPersonGetTypeOfProperty(${1:ABPropertyID property})'

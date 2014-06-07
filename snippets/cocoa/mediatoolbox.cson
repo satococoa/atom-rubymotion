@@ -25,4 +25,4 @@
     'body': 'MTAudioProcessingTapGetStorage(${1:MTAudioProcessingTapRef tap})'
   'MTAudioProcessingTapGetTypeID':
     'prefix': 'MTAudioProcessingTapGetTypeID'
-    'body': 'MTAudioProcessingTapGetTypeID()'
+    'body': 'MTAudioProcessingTapGetTypeID'

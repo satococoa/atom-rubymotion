@@ -790,16 +790,16 @@
     'body': 'extrusion_round_or_cut_join(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array}, ${8:double (*)** xform_array})'
   'gleCreateGC':
     'prefix': 'gleCreateGC'
-    'body': 'gleCreateGC()'
+    'body': 'gleCreateGC'
   'gleExtrusion':
     'prefix': 'gleExtrusion'
     'body': 'gleExtrusion(${1:int ncp}, ${2:double (*)* contour}, ${3:double (*)* cont_normal}, ${4:double* up}, ${5:int npoints}, ${6:double (*)* point_array}, ${7:float (*)* color_array})'
   'gleGetJoinStyle':
     'prefix': 'gleGetJoinStyle'
-    'body': 'gleGetJoinStyle()'
+    'body': 'gleGetJoinStyle'
   'gleGetNumSlices':
     'prefix': 'gleGetNumSlices'
-    'body': 'gleGetNumSlices()'
+    'body': 'gleGetNumSlices'
   'gleHelicoid':
     'prefix': 'gleHelicoid'
     'body': 'gleHelicoid(${1:double rToroid}, ${2:double startRadius}, ${3:double drdTheta}, ${4:double startZ}, ${5:double dzdTheta}, ${6:double (*)* startXform}, ${7:double (*)* dXformdTheta}, ${8:double startTheta}, ${9:double sweepTheta})'
@@ -865,7 +865,7 @@
     'body': 'glutChangeToSubMenu(${1:int item}, ${2:char* label}, ${3:int submenu})'
   'glutCheckLoop':
     'prefix': 'glutCheckLoop'
-    'body': 'glutCheckLoop()'
+    'body': 'glutCheckLoop'
   'glutCopyColormap':
     'prefix': 'glutCopyColormap'
     'body': 'glutCopyColormap(${1:int win})'
@@ -898,22 +898,22 @@
     'body': 'glutDisplayFunc(${1:void (*)(void) func})'
   'glutEnterGameMode':
     'prefix': 'glutEnterGameMode'
-    'body': 'glutEnterGameMode()'
+    'body': 'glutEnterGameMode'
   'glutEntryFunc':
     'prefix': 'glutEntryFunc'
     'body': 'glutEntryFunc(${1:void (*)(int) func})'
   'glutEstablishOverlay':
     'prefix': 'glutEstablishOverlay'
-    'body': 'glutEstablishOverlay()'
+    'body': 'glutEstablishOverlay'
   'glutExtensionSupported':
     'prefix': 'glutExtensionSupported'
     'body': 'glutExtensionSupported(${1:char* name})'
   'glutForceJoystickFunc':
     'prefix': 'glutForceJoystickFunc'
-    'body': 'glutForceJoystickFunc()'
+    'body': 'glutForceJoystickFunc'
   'glutFullScreen':
     'prefix': 'glutFullScreen'
-    'body': 'glutFullScreen()'
+    'body': 'glutFullScreen'
   'glutGameModeGet':
     'prefix': 'glutGameModeGet'
     'body': 'glutGameModeGet(${1:GLenum mode})'
@@ -928,25 +928,25 @@
     'body': 'glutGetColor(${1:int ndx}, ${2:int component})'
   'glutGetMenu':
     'prefix': 'glutGetMenu'
-    'body': 'glutGetMenu()'
+    'body': 'glutGetMenu'
   'glutGetModifiers':
     'prefix': 'glutGetModifiers'
-    'body': 'glutGetModifiers()'
+    'body': 'glutGetModifiers'
   'glutGetProcAddress':
     'prefix': 'glutGetProcAddress'
     'body': 'glutGetProcAddress(${1:char* procName})'
   'glutGetWindow':
     'prefix': 'glutGetWindow'
-    'body': 'glutGetWindow()'
+    'body': 'glutGetWindow'
   'glutHideOverlay':
     'prefix': 'glutHideOverlay'
-    'body': 'glutHideOverlay()'
+    'body': 'glutHideOverlay'
   'glutHideWindow':
     'prefix': 'glutHideWindow'
-    'body': 'glutHideWindow()'
+    'body': 'glutHideWindow'
   'glutIconifyWindow':
     'prefix': 'glutIconifyWindow'
-    'body': 'glutIconifyWindow()'
+    'body': 'glutIconifyWindow'
   'glutIdleFunc':
     'prefix': 'glutIdleFunc'
     'body': 'glutIdleFunc(${1:void (*)(void) func})'
@@ -982,10 +982,10 @@
     'body': 'glutLayerGet(${1:GLenum type})'
   'glutLeaveGameMode':
     'prefix': 'glutLeaveGameMode'
-    'body': 'glutLeaveGameMode()'
+    'body': 'glutLeaveGameMode'
   'glutMainLoop':
     'prefix': 'glutMainLoop'
-    'body': 'glutMainLoop()'
+    'body': 'glutMainLoop'
   'glutMenuStateFunc':
     'prefix': 'glutMenuStateFunc'
     'body': 'glutMenuStateFunc(${1:void (*)(int) func})'
@@ -1006,16 +1006,16 @@
     'body': 'glutPassiveMotionFunc(${1:void (*)(int, int) func})'
   'glutPopWindow':
     'prefix': 'glutPopWindow'
-    'body': 'glutPopWindow()'
+    'body': 'glutPopWindow'
   'glutPositionWindow':
     'prefix': 'glutPositionWindow'
     'body': 'glutPositionWindow(${1:int x}, ${2:int y})'
   'glutPostOverlayRedisplay':
     'prefix': 'glutPostOverlayRedisplay'
-    'body': 'glutPostOverlayRedisplay()'
+    'body': 'glutPostOverlayRedisplay'
   'glutPostRedisplay':
     'prefix': 'glutPostRedisplay'
-    'body': 'glutPostRedisplay()'
+    'body': 'glutPostRedisplay'
   'glutPostWindowOverlayRedisplay':
     'prefix': 'glutPostWindowOverlayRedisplay'
     'body': 'glutPostWindowOverlayRedisplay(${1:int win})'
@@ -1024,16 +1024,16 @@
     'body': 'glutPostWindowRedisplay(${1:int win})'
   'glutPushWindow':
     'prefix': 'glutPushWindow'
-    'body': 'glutPushWindow()'
+    'body': 'glutPushWindow'
   'glutRemoveMenuItem':
     'prefix': 'glutRemoveMenuItem'
     'body': 'glutRemoveMenuItem(${1:int item})'
   'glutRemoveOverlay':
     'prefix': 'glutRemoveOverlay'
-    'body': 'glutRemoveOverlay()'
+    'body': 'glutRemoveOverlay'
   'glutReportErrors':
     'prefix': 'glutReportErrors'
-    'body': 'glutReportErrors()'
+    'body': 'glutReportErrors'
   'glutReshapeFunc':
     'prefix': 'glutReshapeFunc'
     'body': 'glutReshapeFunc(${1:void (*)(int, int) func})'
@@ -1063,13 +1063,13 @@
     'body': 'glutSetWindowTitle(${1:char* title})'
   'glutSetupVideoResizing':
     'prefix': 'glutSetupVideoResizing'
-    'body': 'glutSetupVideoResizing()'
+    'body': 'glutSetupVideoResizing'
   'glutShowOverlay':
     'prefix': 'glutShowOverlay'
-    'body': 'glutShowOverlay()'
+    'body': 'glutShowOverlay'
   'glutShowWindow':
     'prefix': 'glutShowWindow'
-    'body': 'glutShowWindow()'
+    'body': 'glutShowWindow'
   'glutSolidCone':
     'prefix': 'glutSolidCone'
     'body': 'glutSolidCone(${1:GLdouble base}, ${2:GLdouble height}, ${3:GLint slices}, ${4:GLint stacks})'
@@ -1078,13 +1078,13 @@
     'body': 'glutSolidCube(${1:GLdouble size})'
   'glutSolidDodecahedron':
     'prefix': 'glutSolidDodecahedron'
-    'body': 'glutSolidDodecahedron()'
+    'body': 'glutSolidDodecahedron'
   'glutSolidIcosahedron':
     'prefix': 'glutSolidIcosahedron'
-    'body': 'glutSolidIcosahedron()'
+    'body': 'glutSolidIcosahedron'
   'glutSolidOctahedron':
     'prefix': 'glutSolidOctahedron'
-    'body': 'glutSolidOctahedron()'
+    'body': 'glutSolidOctahedron'
   'glutSolidSphere':
     'prefix': 'glutSolidSphere'
     'body': 'glutSolidSphere(${1:GLdouble radius}, ${2:GLint slices}, ${3:GLint stacks})'
@@ -1093,7 +1093,7 @@
     'body': 'glutSolidTeapot(${1:GLdouble size})'
   'glutSolidTetrahedron':
     'prefix': 'glutSolidTetrahedron'
-    'body': 'glutSolidTetrahedron()'
+    'body': 'glutSolidTetrahedron'
   'glutSolidTorus':
     'prefix': 'glutSolidTorus'
     'body': 'glutSolidTorus(${1:GLdouble innerRadius}, ${2:GLdouble outerRadius}, ${3:GLint sides}, ${4:GLint rings})'
@@ -1114,7 +1114,7 @@
     'body': 'glutSpecialUpFunc(${1:void (*)(int, int, int) func})'
   'glutStopVideoResizing':
     'prefix': 'glutStopVideoResizing'
-    'body': 'glutStopVideoResizing()'
+    'body': 'glutStopVideoResizing'
   'glutStrokeCharacter':
     'prefix': 'glutStrokeCharacter'
     'body': 'glutStrokeCharacter(${1:void* font}, ${2:int character})'
@@ -1129,7 +1129,7 @@
     'body': 'glutSurfaceTexture(${1:GLenum target}, ${2:GLenum internalformat}, ${3:int surfacewin})'
   'glutSwapBuffers':
     'prefix': 'glutSwapBuffers'
-    'body': 'glutSwapBuffers()'
+    'body': 'glutSwapBuffers'
   'glutTabletButtonFunc':
     'prefix': 'glutTabletButtonFunc'
     'body': 'glutTabletButtonFunc(${1:void (*)(int, int, int, int) func})'
@@ -1171,13 +1171,13 @@
     'body': 'glutWireCube(${1:GLdouble size})'
   'glutWireDodecahedron':
     'prefix': 'glutWireDodecahedron'
-    'body': 'glutWireDodecahedron()'
+    'body': 'glutWireDodecahedron'
   'glutWireIcosahedron':
     'prefix': 'glutWireIcosahedron'
-    'body': 'glutWireIcosahedron()'
+    'body': 'glutWireIcosahedron'
   'glutWireOctahedron':
     'prefix': 'glutWireOctahedron'
-    'body': 'glutWireOctahedron()'
+    'body': 'glutWireOctahedron'
   'glutWireSphere':
     'prefix': 'glutWireSphere'
     'body': 'glutWireSphere(${1:GLdouble radius}, ${2:GLint slices}, ${3:GLint stacks})'
@@ -1186,7 +1186,7 @@
     'body': 'glutWireTeapot(${1:GLdouble size})'
   'glutWireTetrahedron':
     'prefix': 'glutWireTetrahedron'
-    'body': 'glutWireTetrahedron()'
+    'body': 'glutWireTetrahedron'
   'glutWireTorus':
     'prefix': 'glutWireTorus'
     'body': 'glutWireTorus(${1:GLdouble innerRadius}, ${2:GLdouble outerRadius}, ${3:GLint sides}, ${4:GLint rings})'

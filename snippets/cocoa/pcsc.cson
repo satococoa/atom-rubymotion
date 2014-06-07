@@ -1147,13 +1147,13 @@
     'body': 'MSCBeginTransaction(${1:MSCLPTokenConnection pConnection})'
   'MSCCallbackCancelEvent':
     'prefix': 'MSCCallbackCancelEvent'
-    'body': 'MSCCallbackCancelEvent()'
+    'body': 'MSCCallbackCancelEvent'
   'MSCCallbackForTokenEvent':
     'prefix': 'MSCCallbackForTokenEvent'
     'body': 'MSCCallbackForTokenEvent(${1:MSCLPTokenInfo tokenArray}, ${2:MSCULong32 arraySize}, ${3:MSCCallBack callBack}, ${4:MSCPVoid32 appData})'
   'MSCCancelEventWait':
     'prefix': 'MSCCancelEventWait'
-    'body': 'MSCCancelEventWait()'
+    'body': 'MSCCancelEventWait'
   'MSCChangePIN':
     'prefix': 'MSCChangePIN'
     'body': 'MSCChangePIN(${1:MSCLPTokenConnection pConnection}, ${2:MSCUChar8 pinNum}, ${3:MSCPUChar8 pOldPinCode}, ${4:MSCUChar8 oldPinCodeSize}, ${5:MSCPUChar8 pNewPinCode}, ${6:MSCUChar8 newPinCodeSize})'
@@ -1324,7 +1324,7 @@
     'body': 'SCardTransmit(${1:SCARDHANDLE hCard}, ${2:LPCSCARD_IO_REQUEST pioSendPci}, ${3:unsigned char* pbSendBuffer}, ${4:uint32_t cbSendLength}, ${5:LPSCARD_IO_REQUEST pioRecvPci}, ${6:unsigned char* pbRecvBuffer}, ${7:uint32_t* pcbRecvLength})'
   'SCardUnload':
     'prefix': 'SCardUnload'
-    'body': 'SCardUnload()'
+    'body': 'SCardUnload'
   'msc_error':
     'prefix': 'msc_error'
     'body': 'msc_error(${1:unsigned long errorCode})'

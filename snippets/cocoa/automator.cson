@@ -92,15 +92,18 @@
   'AMWorkflowPropertyListInvalidError (-101)':
     'prefix': 'AMWorkflowPropertyListInvalidError'
     'body': 'AMWorkflowPropertyListInvalidError'
+  'AMAction':
+    'prefix': 'AMAction'
+    'body': 'AMAction'
   'activated':
     'prefix': 'activated'
-    'body': 'activated()'
+    'body': 'activated'
   'closed':
     'prefix': 'closed'
-    'body': 'closed()'
+    'body': 'closed'
   'definition':
     'prefix': 'definition'
-    'body': 'definition()'
+    'body': 'definition'
   'didFinishRunningWithError:':
     'prefix': 'didFinishRunningWithError:'
     'body': 'didFinishRunningWithError(${1:NSDictionary* errorInfo})'
@@ -109,7 +112,7 @@
     'body': 'finishRunningWithError(${1:NSError* error})'
   'ignoresInput':
     'prefix': 'ignoresInput'
-    'body': 'ignoresInput()'
+    'body': 'ignoresInput'
   'initWithContentsOfURL:error:':
     'prefix': 'initWithContentsOfURL:error:'
     'body': 'initWithContentsOfURL(${1:NSURL* fileURL}, error:${2:NSError** outError})'
@@ -118,28 +121,28 @@
     'body': 'initWithDefinition(${1:NSDictionary* dict}, fromArchive:${2:BOOL archived})'
   'isStopped':
     'prefix': 'isStopped'
-    'body': 'isStopped()'
+    'body': 'isStopped'
   'logMessageWithLevel:format:':
     'prefix': 'logMessageWithLevel:format:'
     'body': 'logMessageWithLevel(${1:AMLogLevel level}, format:${2:NSString* format})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'opened':
     'prefix': 'opened'
-    'body': 'opened()'
+    'body': 'opened'
   'output':
     'prefix': 'output'
-    'body': 'output()'
+    'body': 'output'
   'parametersUpdated':
     'prefix': 'parametersUpdated'
-    'body': 'parametersUpdated()'
+    'body': 'parametersUpdated'
   'progressValue':
     'prefix': 'progressValue'
-    'body': 'progressValue()'
+    'body': 'progressValue'
   'reset':
     'prefix': 'reset'
-    'body': 'reset()'
+    'body': 'reset'
   'runAsynchronouslyWithInput:':
     'prefix': 'runAsynchronouslyWithInput:'
     'body': 'runAsynchronouslyWithInput(${1:id input})'
@@ -151,10 +154,10 @@
     'body': 'runWithInput(${1:id input}, fromAction:${2:AMAction* anAction}, error:${3:NSDictionary** errorInfo})'
   'selectedInputType':
     'prefix': 'selectedInputType'
-    'body': 'selectedInputType()'
+    'body': 'selectedInputType'
   'selectedOutputType':
     'prefix': 'selectedOutputType'
-    'body': 'selectedOutputType()'
+    'body': 'selectedOutputType'
   'setOutput:':
     'prefix': 'setOutput:'
     'body': 'setOutput(${1:id theOutput})'
@@ -169,67 +172,79 @@
     'body': 'setSelectedOutputType(${1:NSString* outputType})'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
   'updateParameters':
     'prefix': 'updateParameters'
-    'body': 'updateParameters()'
+    'body': 'updateParameters'
   'willFinishRunning':
     'prefix': 'willFinishRunning'
-    'body': 'willFinishRunning()'
+    'body': 'willFinishRunning'
   'writeToDictionary:':
     'prefix': 'writeToDictionary:'
     'body': 'writeToDictionary(${1:NSMutableDictionary* dictionary})'
+  'AMAppleScriptAction':
+    'prefix': 'AMAppleScriptAction'
+    'body': 'AMAppleScriptAction'
   'script':
     'prefix': 'script'
-    'body': 'script()'
+    'body': 'script'
   'setScript:':
     'prefix': 'setScript:'
     'body': 'setScript(${1:OSAScript* newScript})'
+  'AMBundleAction':
+    'prefix': 'AMBundleAction'
+    'body': 'AMBundleAction'
   'awakeFromBundle':
     'prefix': 'awakeFromBundle'
-    'body': 'awakeFromBundle()'
+    'body': 'awakeFromBundle'
   'bundle':
     'prefix': 'bundle'
-    'body': 'bundle()'
+    'body': 'bundle'
   'hasView':
     'prefix': 'hasView'
-    'body': 'hasView()'
+    'body': 'hasView'
   'initWithDefinition:fromArchive:':
     'prefix': 'initWithDefinition:fromArchive:'
     'body': 'initWithDefinition(${1:NSDictionary* dict}, fromArchive:${2:BOOL archived})'
   'parameters':
     'prefix': 'parameters'
-    'body': 'parameters()'
+    'body': 'parameters'
   'setParameters:':
     'prefix': 'setParameters:'
     'body': 'setParameters(${1:NSMutableDictionary* newParameters})'
   'view':
     'prefix': 'view'
-    'body': 'view()'
+    'body': 'view'
+  'AMShellScriptAction':
+    'prefix': 'AMShellScriptAction'
+    'body': 'AMShellScriptAction'
   'inputFieldSeparator':
     'prefix': 'inputFieldSeparator'
-    'body': 'inputFieldSeparator()'
+    'body': 'inputFieldSeparator'
   'outputFieldSeparator':
     'prefix': 'outputFieldSeparator'
-    'body': 'outputFieldSeparator()'
+    'body': 'outputFieldSeparator'
   'remapLineEndings':
     'prefix': 'remapLineEndings'
-    'body': 'remapLineEndings()'
+    'body': 'remapLineEndings'
+  'AMWorkflow':
+    'prefix': 'AMWorkflow'
+    'body': 'AMWorkflow'
   'actions':
     'prefix': 'actions'
-    'body': 'actions()'
+    'body': 'actions'
   'addAction:':
     'prefix': 'addAction:'
     'body': 'addAction(${1:AMAction* action})'
   'fileURL':
     'prefix': 'fileURL'
-    'body': 'fileURL()'
+    'body': 'fileURL'
   'initWithContentsOfURL:error:':
     'prefix': 'initWithContentsOfURL:error:'
     'body': 'initWithContentsOfURL(${1:NSURL* fileURL}, error:${2:NSError** outError})'
   'input':
     'prefix': 'input'
-    'body': 'input()'
+    'body': 'input'
   'insertAction:atIndex:':
     'prefix': 'insertAction:atIndex:'
     'body': 'insertAction(${1:AMAction* action}, atIndex:${2:NSUInteger index})'
@@ -238,7 +253,7 @@
     'body': 'moveActionAtIndex(${1:NSUInteger startIndex}, toIndex:${2:NSUInteger endIndex})'
   'output':
     'prefix': 'output'
-    'body': 'output()'
+    'body': 'output'
   'removeAction:':
     'prefix': 'removeAction:'
     'body': 'removeAction(${1:AMAction* action})'
@@ -257,18 +272,21 @@
   'writeToURL:error:':
     'prefix': 'writeToURL:error:'
     'body': 'writeToURL(${1:NSURL* fileURL}, error:${2:NSError** outError})'
+  'AMWorkflowController':
+    'prefix': 'AMWorkflowController'
+    'body': 'AMWorkflowController'
   'canRun':
     'prefix': 'canRun'
-    'body': 'canRun()'
+    'body': 'canRun'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'isPaused':
     'prefix': 'isPaused'
-    'body': 'isPaused()'
+    'body': 'isPaused'
   'isRunning':
     'prefix': 'isRunning'
-    'body': 'isRunning()'
+    'body': 'isRunning'
   'pause:':
     'prefix': 'pause:'
     'body': 'pause(${1:id sender})'
@@ -295,13 +313,16 @@
     'body': 'stop(${1:id sender})'
   'workflow':
     'prefix': 'workflow'
-    'body': 'workflow()'
+    'body': 'workflow'
   'workflowView':
     'prefix': 'workflowView'
-    'body': 'workflowView()'
+    'body': 'workflowView'
+  'AMWorkflowView':
+    'prefix': 'AMWorkflowView'
+    'body': 'AMWorkflowView'
   'isEditable':
     'prefix': 'isEditable'
-    'body': 'isEditable()'
+    'body': 'isEditable'
   'setEditable:':
     'prefix': 'setEditable:'
     'body': 'setEditable(${1:BOOL flag})'
@@ -310,7 +331,10 @@
     'body': 'setWorkflowController(${1:AMWorkflowController* workflowController})'
   'workflowController':
     'prefix': 'workflowController'
-    'body': 'workflowController()'
+    'body': 'workflowController'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'workflowController:didError:':
     'prefix': 'workflowController:didError:'
     'body': 'workflowController(${1:AMWorkflowController* controller}, didError:${2:NSError* error})'
@@ -332,6 +356,9 @@
   'workflowControllerWillStop:':
     'prefix': 'workflowControllerWillStop:'
     'body': 'workflowControllerWillStop(${1:AMWorkflowController* controller})'
+  'AMWorkflowControllerDelegate':
+    'prefix': 'AMWorkflowControllerDelegate'
+    'body': 'AMWorkflowControllerDelegate'
   'workflowController:didError:':
     'prefix': 'workflowController:didError:'
     'body': 'workflowController(${1:AMWorkflowController* controller}, didError:${2:NSError* error})'

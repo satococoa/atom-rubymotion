@@ -490,7 +490,7 @@
     'body': 'ATSFontGetGeneration(${1:ATSFontRef iFont})'
   'ATSFontGetGlobalAutoActivationSetting':
     'prefix': 'ATSFontGetGlobalAutoActivationSetting'
-    'body': 'ATSFontGetGlobalAutoActivationSetting()'
+    'body': 'ATSFontGetGlobalAutoActivationSetting'
   'ATSFontGetHorizontalMetrics':
     'prefix': 'ATSFontGetHorizontalMetrics'
     'body': 'ATSFontGetHorizontalMetrics(${1:ATSFontRef iFont}, ${2:ATSOptionFlags iOptions}, ${3:ATSFontMetrics* oMetrics})'
@@ -544,7 +544,7 @@
     'body': 'ATSFontSetGlobalAutoActivationSetting(${1:ATSFontAutoActivationSetting iSetting})'
   'ATSGetGeneration':
     'prefix': 'ATSGetGeneration'
-    'body': 'ATSGetGeneration()'
+    'body': 'ATSGetGeneration'
   'DisposeATSUDirectLayoutOperationOverrideUPP':
     'prefix': 'DisposeATSUDirectLayoutOperationOverrideUPP'
     'body': 'DisposeATSUDirectLayoutOperationOverrideUPP(${1:ATSUDirectLayoutOperationOverrideUPP userUPP})'
@@ -1042,7 +1042,7 @@
     'body': 'ColorSyncCMMGetBundle(${1:ColorSyncCMMRef })'
   'ColorSyncCMMGetTypeID':
     'prefix': 'ColorSyncCMMGetTypeID'
-    'body': 'ColorSyncCMMGetTypeID()'
+    'body': 'ColorSyncCMMGetTypeID'
   'ColorSyncDeviceCopyDeviceInfo':
     'prefix': 'ColorSyncDeviceCopyDeviceInfo'
     'body': 'ColorSyncDeviceCopyDeviceInfo(${1:CFStringRef deviceClass}, ${2:CFUUIDRef devID})'
@@ -1090,7 +1090,7 @@
     'body': 'ColorSyncProfileCreateLink(${1:CFArrayRef profileInfo}, ${2:CFDictionaryRef options})'
   'ColorSyncProfileCreateMutable':
     'prefix': 'ColorSyncProfileCreateMutable'
-    'body': 'ColorSyncProfileCreateMutable()'
+    'body': 'ColorSyncProfileCreateMutable'
   'ColorSyncProfileCreateMutableCopy':
     'prefix': 'ColorSyncProfileCreateMutableCopy'
     'body': 'ColorSyncProfileCreateMutableCopy(${1:ColorSyncProfileRef prof})'
@@ -1117,7 +1117,7 @@
     'body': 'ColorSyncProfileGetMD5(${1:ColorSyncProfileRef prof})'
   'ColorSyncProfileGetTypeID':
     'prefix': 'ColorSyncProfileGetTypeID'
-    'body': 'ColorSyncProfileGetTypeID()'
+    'body': 'ColorSyncProfileGetTypeID'
   'ColorSyncProfileGetURL':
     'prefix': 'ColorSyncProfileGetURL'
     'body': 'ColorSyncProfileGetURL(${1:ColorSyncProfileRef prof}, ${2:CFErrorRef* error})'
@@ -1147,7 +1147,7 @@
     'body': 'ColorSyncTransformCreate(${1:CFArrayRef profileSequence}, ${2:CFDictionaryRef options})'
   'ColorSyncTransformGetTypeID':
     'prefix': 'ColorSyncTransformGetTypeID'
-    'body': 'ColorSyncTransformGetTypeID()'
+    'body': 'ColorSyncTransformGetTypeID'
   'ColorSyncTransformSetProperty':
     'prefix': 'ColorSyncTransformSetProperty'
     'body': 'ColorSyncTransformSetProperty(${1:ColorSyncTransformRef transform}, ${2:CFTypeRef key}, ${3:CFTypeRef property})'
@@ -4492,7 +4492,7 @@
     'body': 'CTFontCollectionCreateWithFontDescriptors(${1:CFArrayRef queryDescriptors}, ${2:CFDictionaryRef options})'
   'CTFontCollectionGetTypeID':
     'prefix': 'CTFontCollectionGetTypeID'
-    'body': 'CTFontCollectionGetTypeID()'
+    'body': 'CTFontCollectionGetTypeID'
   'CTFontCollectionSetExclusionDescriptors':
     'prefix': 'CTFontCollectionSetExclusionDescriptors'
     'body': 'CTFontCollectionSetExclusionDescriptors(${1:CTMutableFontCollectionRef collection}, ${2:CFArrayRef descriptors})'
@@ -4633,7 +4633,7 @@
     'body': 'CTFontDescriptorCreateWithNameAndSize(${1:CFStringRef name}, ${2:CGFloat size})'
   'CTFontDescriptorGetTypeID':
     'prefix': 'CTFontDescriptorGetTypeID'
-    'body': 'CTFontDescriptorGetTypeID()'
+    'body': 'CTFontDescriptorGetTypeID'
   'CTFontDescriptorMatchFontDescriptorsWithProgressHandler':
     'prefix': 'CTFontDescriptorMatchFontDescriptorsWithProgressHandler'
     'body': 'CTFontDescriptorMatchFontDescriptorsWithProgressHandler(${1:CFArrayRef descriptors}, ${2:CFSetRef mandatoryAttributes}, ${3:CTFontDescriptorProgressHandler progressBlock})'
@@ -4696,7 +4696,7 @@
     'body': 'CTFontGetSymbolicTraits(${1:CTFontRef font})'
   'CTFontGetTypeID':
     'prefix': 'CTFontGetTypeID'
-    'body': 'CTFontGetTypeID()'
+    'body': 'CTFontGetTypeID'
   'CTFontGetUnderlinePosition':
     'prefix': 'CTFontGetUnderlinePosition'
     'body': 'CTFontGetUnderlinePosition(${1:CTFontRef font})'
@@ -4717,13 +4717,13 @@
     'body': 'CTFontManagerCompareFontFamilyNames(${1:void* family1}, ${2:void* family2}, ${3:void* context})'
   'CTFontManagerCopyAvailableFontFamilyNames':
     'prefix': 'CTFontManagerCopyAvailableFontFamilyNames'
-    'body': 'CTFontManagerCopyAvailableFontFamilyNames()'
+    'body': 'CTFontManagerCopyAvailableFontFamilyNames'
   'CTFontManagerCopyAvailableFontURLs':
     'prefix': 'CTFontManagerCopyAvailableFontURLs'
-    'body': 'CTFontManagerCopyAvailableFontURLs()'
+    'body': 'CTFontManagerCopyAvailableFontURLs'
   'CTFontManagerCopyAvailablePostScriptNames':
     'prefix': 'CTFontManagerCopyAvailablePostScriptNames'
-    'body': 'CTFontManagerCopyAvailablePostScriptNames()'
+    'body': 'CTFontManagerCopyAvailablePostScriptNames'
   'CTFontManagerCreateFontDescriptorFromData':
     'prefix': 'CTFontManagerCreateFontDescriptorFromData'
     'body': 'CTFontManagerCreateFontDescriptorFromData(${1:CFDataRef data})'
@@ -4786,7 +4786,7 @@
     'body': 'CTFrameGetStringRange(${1:CTFrameRef frame})'
   'CTFrameGetTypeID':
     'prefix': 'CTFrameGetTypeID'
-    'body': 'CTFrameGetTypeID()'
+    'body': 'CTFrameGetTypeID'
   'CTFrameGetVisibleStringRange':
     'prefix': 'CTFrameGetVisibleStringRange'
     'body': 'CTFrameGetVisibleStringRange(${1:CTFrameRef frame})'
@@ -4798,7 +4798,7 @@
     'body': 'CTFramesetterCreateWithAttributedString(${1:CFAttributedStringRef string})'
   'CTFramesetterGetTypeID':
     'prefix': 'CTFramesetterGetTypeID'
-    'body': 'CTFramesetterGetTypeID()'
+    'body': 'CTFramesetterGetTypeID'
   'CTFramesetterGetTypesetter':
     'prefix': 'CTFramesetterGetTypesetter'
     'body': 'CTFramesetterGetTypesetter(${1:CTFramesetterRef framesetter})'
@@ -4807,7 +4807,7 @@
     'body': 'CTFramesetterSuggestFrameSizeWithConstraints(${1:CTFramesetterRef framesetter}, ${2:CFRange stringRange}, ${3:CFDictionaryRef frameAttributes}, ${4:CGSize constraints}, ${5:CFRange* fitRange})'
   'CTGetCoreTextVersion':
     'prefix': 'CTGetCoreTextVersion'
-    'body': 'CTGetCoreTextVersion()'
+    'body': 'CTGetCoreTextVersion'
   'CTGlyphInfoCreateWithCharacterIdentifier':
     'prefix': 'CTGlyphInfoCreateWithCharacterIdentifier'
     'body': 'CTGlyphInfoCreateWithCharacterIdentifier(${1:CGFontIndex cid}, ${2:CTCharacterCollection collection}, ${3:CFStringRef baseString})'
@@ -4828,7 +4828,7 @@
     'body': 'CTGlyphInfoGetGlyphName(${1:CTGlyphInfoRef glyphInfo})'
   'CTGlyphInfoGetTypeID':
     'prefix': 'CTGlyphInfoGetTypeID'
-    'body': 'CTGlyphInfoGetTypeID()'
+    'body': 'CTGlyphInfoGetTypeID'
   'CTLineCreateJustifiedLine':
     'prefix': 'CTLineCreateJustifiedLine'
     'body': 'CTLineCreateJustifiedLine(${1:CTLineRef line}, ${2:CGFloat justificationFactor}, ${3:double justificationWidth})'
@@ -4870,7 +4870,7 @@
     'body': 'CTLineGetTrailingWhitespaceWidth(${1:CTLineRef line})'
   'CTLineGetTypeID':
     'prefix': 'CTLineGetTypeID'
-    'body': 'CTLineGetTypeID()'
+    'body': 'CTLineGetTypeID'
   'CTLineGetTypographicBounds':
     'prefix': 'CTLineGetTypographicBounds'
     'body': 'CTLineGetTypographicBounds(${1:CTLineRef line}, ${2:CGFloat* ascent}, ${3:CGFloat* descent}, ${4:CGFloat* leading})'
@@ -4882,7 +4882,7 @@
     'body': 'CTParagraphStyleCreateCopy(${1:CTParagraphStyleRef paragraphStyle})'
   'CTParagraphStyleGetTypeID':
     'prefix': 'CTParagraphStyleGetTypeID'
-    'body': 'CTParagraphStyleGetTypeID()'
+    'body': 'CTParagraphStyleGetTypeID'
   'CTParagraphStyleGetValueForSpecifier':
     'prefix': 'CTParagraphStyleGetValueForSpecifier'
     'body': 'CTParagraphStyleGetValueForSpecifier(${1:CTParagraphStyleRef paragraphStyle}, ${2:CTParagraphStyleSpecifier spec}, ${3:size_t valueBufferSize}, ${4:void* valueBuffer})'
@@ -4894,7 +4894,7 @@
     'body': 'CTRunDelegateGetRefCon(${1:CTRunDelegateRef runDelegate})'
   'CTRunDelegateGetTypeID':
     'prefix': 'CTRunDelegateGetTypeID'
-    'body': 'CTRunDelegateGetTypeID()'
+    'body': 'CTRunDelegateGetTypeID'
   'CTRunDraw':
     'prefix': 'CTRunDraw'
     'body': 'CTRunDraw(${1:CTRunRef run}, ${2:CGContextRef context}, ${3:CFRange range})'
@@ -4942,7 +4942,7 @@
     'body': 'CTRunGetTextMatrix(${1:CTRunRef run})'
   'CTRunGetTypeID':
     'prefix': 'CTRunGetTypeID'
-    'body': 'CTRunGetTypeID()'
+    'body': 'CTRunGetTypeID'
   'CTRunGetTypographicBounds':
     'prefix': 'CTRunGetTypographicBounds'
     'body': 'CTRunGetTypographicBounds(${1:CTRunRef run}, ${2:CFRange range}, ${3:CGFloat* ascent}, ${4:CGFloat* descent}, ${5:CGFloat* leading})'
@@ -4960,7 +4960,7 @@
     'body': 'CTTextTabGetOptions(${1:CTTextTabRef tab})'
   'CTTextTabGetTypeID':
     'prefix': 'CTTextTabGetTypeID'
-    'body': 'CTTextTabGetTypeID()'
+    'body': 'CTTextTabGetTypeID'
   'CTTypesetterCreateLine':
     'prefix': 'CTTypesetterCreateLine'
     'body': 'CTTypesetterCreateLine(${1:CTTypesetterRef typesetter}, ${2:CFRange stringRange})'
@@ -4975,7 +4975,7 @@
     'body': 'CTTypesetterCreateWithAttributedStringAndOptions(${1:CFAttributedStringRef string}, ${2:CFDictionaryRef options})'
   'CTTypesetterGetTypeID':
     'prefix': 'CTTypesetterGetTypeID'
-    'body': 'CTTypesetterGetTypeID()'
+    'body': 'CTTypesetterGetTypeID'
   'CTTypesetterSuggestClusterBreak':
     'prefix': 'CTTypesetterSuggestClusterBreak'
     'body': 'CTTypesetterSuggestClusterBreak(${1:CTTypesetterRef typesetter}, ${2:CFIndex startIndex}, ${3:double width})'
@@ -7063,10 +7063,10 @@
     'body': 'updateDev'
   'AXAPIEnabled':
     'prefix': 'AXAPIEnabled'
-    'body': 'AXAPIEnabled()'
+    'body': 'AXAPIEnabled'
   'AXIsProcessTrusted':
     'prefix': 'AXIsProcessTrusted'
-    'body': 'AXIsProcessTrusted()'
+    'body': 'AXIsProcessTrusted'
   'AXIsProcessTrustedWithOptions':
     'prefix': 'AXIsProcessTrustedWithOptions'
     'body': 'AXIsProcessTrustedWithOptions(${1:CFDictionaryRef options})'
@@ -7087,7 +7087,7 @@
     'body': 'AXObserverGetRunLoopSource(${1:AXObserverRef observer})'
   'AXObserverGetTypeID':
     'prefix': 'AXObserverGetTypeID'
-    'body': 'AXObserverGetTypeID()'
+    'body': 'AXObserverGetTypeID'
   'AXObserverRemoveNotification':
     'prefix': 'AXObserverRemoveNotification'
     'body': 'AXObserverRemoveNotification(${1:AXObserverRef observer}, ${2:AXUIElementRef element}, ${3:CFStringRef notification})'
@@ -7123,7 +7123,7 @@
     'body': 'AXUIElementCreateApplication(${1:pid_t pid})'
   'AXUIElementCreateSystemWide':
     'prefix': 'AXUIElementCreateSystemWide'
-    'body': 'AXUIElementCreateSystemWide()'
+    'body': 'AXUIElementCreateSystemWide'
   'AXUIElementGetAttributeValueCount':
     'prefix': 'AXUIElementGetAttributeValueCount'
     'body': 'AXUIElementGetAttributeValueCount(${1:AXUIElementRef element}, ${2:CFStringRef attribute}, ${3:CFIndex* count})'
@@ -7132,7 +7132,7 @@
     'body': 'AXUIElementGetPid(${1:AXUIElementRef element}, ${2:pid_t* pid})'
   'AXUIElementGetTypeID':
     'prefix': 'AXUIElementGetTypeID'
-    'body': 'AXUIElementGetTypeID()'
+    'body': 'AXUIElementGetTypeID'
   'AXUIElementIsAttributeSettable':
     'prefix': 'AXUIElementIsAttributeSettable'
     'body': 'AXUIElementIsAttributeSettable(${1:AXUIElementRef element}, ${2:CFStringRef attribute}, ${3:Boolean* settable})'
@@ -7156,7 +7156,7 @@
     'body': 'AXValueGetType(${1:AXValueRef value})'
   'AXValueGetTypeID':
     'prefix': 'AXValueGetTypeID'
-    'body': 'AXValueGetTypeID()'
+    'body': 'AXValueGetTypeID'
   'AXValueGetValue':
     'prefix': 'AXValueGetValue'
     'body': 'AXValueGetValue(${1:AXValueRef value}, ${2:AXValueType theType}, ${3:void* valuePtr})'
@@ -7171,7 +7171,7 @@
     'body': 'DisposeIconGetterUPP(${1:IconGetterUPP userUPP})'
   'ExitToShell':
     'prefix': 'ExitToShell'
-    'body': 'ExitToShell()'
+    'body': 'ExitToShell'
   'GetCurrentProcess':
     'prefix': 'GetCurrentProcess'
     'body': 'GetCurrentProcess(${1:ProcessSerialNumber* PSN})'
@@ -7210,13 +7210,13 @@
     'body': 'HIShapeCreateDifference(${1:HIShapeRef inShape1}, ${2:HIShapeRef inShape2})'
   'HIShapeCreateEmpty':
     'prefix': 'HIShapeCreateEmpty'
-    'body': 'HIShapeCreateEmpty()'
+    'body': 'HIShapeCreateEmpty'
   'HIShapeCreateIntersection':
     'prefix': 'HIShapeCreateIntersection'
     'body': 'HIShapeCreateIntersection(${1:HIShapeRef inShape1}, ${2:HIShapeRef inShape2})'
   'HIShapeCreateMutable':
     'prefix': 'HIShapeCreateMutable'
-    'body': 'HIShapeCreateMutable()'
+    'body': 'HIShapeCreateMutable'
   'HIShapeCreateMutableCopy':
     'prefix': 'HIShapeCreateMutableCopy'
     'body': 'HIShapeCreateMutableCopy(${1:HIShapeRef inOrig})'
@@ -7249,7 +7249,7 @@
     'body': 'HIShapeGetBounds(${1:HIShapeRef inShape}, ${2:CGRect* outRect})'
   'HIShapeGetTypeID':
     'prefix': 'HIShapeGetTypeID'
-    'body': 'HIShapeGetTypeID()'
+    'body': 'HIShapeGetTypeID'
   'HIShapeInset':
     'prefix': 'HIShapeInset'
     'body': 'HIShapeInset(${1:HIMutableShapeRef inShape}, ${2:CGFloat inDX}, ${3:CGFloat inDY})'
@@ -7471,7 +7471,7 @@
     'body': 'PasteboardGetItemIdentifier(${1:PasteboardRef inPasteboard}, ${2:CFIndex inIndex}, ${3:PasteboardItemID* outItem})'
   'PasteboardGetTypeID':
     'prefix': 'PasteboardGetTypeID'
-    'body': 'PasteboardGetTypeID()'
+    'body': 'PasteboardGetTypeID'
   'PasteboardPutItemFlavor':
     'prefix': 'PasteboardPutItemFlavor'
     'body': 'PasteboardPutItemFlavor(${1:PasteboardRef inPasteboard}, ${2:PasteboardItemID inItem}, ${3:CFStringRef inFlavorType}, ${4:CFDataRef inData}, ${5:PasteboardFlavorFlags inFlags})'
@@ -7528,7 +7528,7 @@
     'body': 'TranslationGetTranslationFlags(${1:TranslationRef inTranslation}, ${2:TranslationFlags* outTranslationFlags})'
   'TranslationGetTypeID':
     'prefix': 'TranslationGetTypeID'
-    'body': 'TranslationGetTypeID()'
+    'body': 'TranslationGetTypeID'
   'TranslationPerformForData':
     'prefix': 'TranslationPerformForData'
     'body': 'TranslationPerformForData(${1:TranslationRef inTranslation}, ${2:CFDataRef inSourceData}, ${3:CFDataRef* outDestinationData})'
@@ -7543,7 +7543,7 @@
     'body': 'UAZoomChangeFocus(${1:CGRect* inRect}, ${2:CGRect* inHighlightRect}, ${3:UAZoomChangeFocusType inType})'
   'UAZoomEnabled':
     'prefix': 'UAZoomEnabled'
-    'body': 'UAZoomEnabled()'
+    'body': 'UAZoomEnabled'
   'WakeUpProcess':
     'prefix': 'WakeUpProcess'
     'body': 'WakeUpProcess(${1:ProcessSerialNumber* PSN})'
@@ -8623,7 +8623,7 @@
     'body': 'CGImageDestinationCopyImageSource(${1:CGImageDestinationRef idst}, ${2:CGImageSourceRef isrc}, ${3:CFDictionaryRef options}, ${4:CFErrorRef* err})'
   'CGImageDestinationCopyTypeIdentifiers':
     'prefix': 'CGImageDestinationCopyTypeIdentifiers'
-    'body': 'CGImageDestinationCopyTypeIdentifiers()'
+    'body': 'CGImageDestinationCopyTypeIdentifiers'
   'CGImageDestinationCreateWithData':
     'prefix': 'CGImageDestinationCreateWithData'
     'body': 'CGImageDestinationCreateWithData(${1:CFMutableDataRef data}, ${2:CFStringRef type}, ${3:size_t count}, ${4:CFDictionaryRef options})'
@@ -8638,7 +8638,7 @@
     'body': 'CGImageDestinationFinalize(${1:CGImageDestinationRef idst})'
   'CGImageDestinationGetTypeID':
     'prefix': 'CGImageDestinationGetTypeID'
-    'body': 'CGImageDestinationGetTypeID()'
+    'body': 'CGImageDestinationGetTypeID'
   'CGImageDestinationSetProperties':
     'prefix': 'CGImageDestinationSetProperties'
     'body': 'CGImageDestinationSetProperties(${1:CGImageDestinationRef idst}, ${2:CFDictionaryRef properties})'
@@ -8659,7 +8659,7 @@
     'body': 'CGImageMetadataCreateFromXMPData(${1:CFDataRef data})'
   'CGImageMetadataCreateMutable':
     'prefix': 'CGImageMetadataCreateMutable'
-    'body': 'CGImageMetadataCreateMutable()'
+    'body': 'CGImageMetadataCreateMutable'
   'CGImageMetadataCreateMutableCopy':
     'prefix': 'CGImageMetadataCreateMutableCopy'
     'body': 'CGImageMetadataCreateMutableCopy(${1:CGImageMetadataRef metadata})'
@@ -8671,7 +8671,7 @@
     'body': 'CGImageMetadataEnumerateTagsUsingBlock(${1:CGImageMetadataRef metadata}, ${2:CFStringRef rootPath}, ${3:CFDictionaryRef options}, ${4:CGImageMetadataTagBlock block})'
   'CGImageMetadataGetTypeID':
     'prefix': 'CGImageMetadataGetTypeID'
-    'body': 'CGImageMetadataGetTypeID()'
+    'body': 'CGImageMetadataGetTypeID'
   'CGImageMetadataRegisterNamespaceForPrefix':
     'prefix': 'CGImageMetadataRegisterNamespaceForPrefix'
     'body': 'CGImageMetadataRegisterNamespaceForPrefix(${1:CGMutableImageMetadataRef metadata}, ${2:CFStringRef xmlns}, ${3:CFStringRef prefix}, ${4:CFErrorRef* err})'
@@ -8710,7 +8710,7 @@
     'body': 'CGImageMetadataTagGetType(${1:CGImageMetadataTagRef tag})'
   'CGImageMetadataTagGetTypeID':
     'prefix': 'CGImageMetadataTagGetTypeID'
-    'body': 'CGImageMetadataTagGetTypeID()'
+    'body': 'CGImageMetadataTagGetTypeID'
   'CGImageSourceCopyMetadataAtIndex':
     'prefix': 'CGImageSourceCopyMetadataAtIndex'
     'body': 'CGImageSourceCopyMetadataAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index}, ${3:CFDictionaryRef options})'
@@ -8722,7 +8722,7 @@
     'body': 'CGImageSourceCopyPropertiesAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index}, ${3:CFDictionaryRef options})'
   'CGImageSourceCopyTypeIdentifiers':
     'prefix': 'CGImageSourceCopyTypeIdentifiers'
-    'body': 'CGImageSourceCopyTypeIdentifiers()'
+    'body': 'CGImageSourceCopyTypeIdentifiers'
   'CGImageSourceCreateImageAtIndex':
     'prefix': 'CGImageSourceCreateImageAtIndex'
     'body': 'CGImageSourceCreateImageAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index}, ${3:CFDictionaryRef options})'
@@ -8755,7 +8755,7 @@
     'body': 'CGImageSourceGetType(${1:CGImageSourceRef isrc})'
   'CGImageSourceGetTypeID':
     'prefix': 'CGImageSourceGetTypeID'
-    'body': 'CGImageSourceGetTypeID()'
+    'body': 'CGImageSourceGetTypeID'
   'CGImageSourceRemoveCacheAtIndex':
     'prefix': 'CGImageSourceRemoveCacheAtIndex'
     'body': 'CGImageSourceRemoveCacheAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index})'
@@ -10826,12 +10826,15 @@
   'PMWorkflowSubmitPDFWithSettings':
     'prefix': 'PMWorkflowSubmitPDFWithSettings'
     'body': 'PMWorkflowSubmitPDFWithSettings(${1:CFURLRef workflowItem}, ${2:PMPrintSettings settings}, ${3:CFURLRef pdfFile})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'PDEPanelsForType:withHostInfo:':
     'prefix': 'PDEPanelsForType:withHostInfo:'
     'body': 'PDEPanelsForType(${1:NSString* pdeType}, withHostInfo:${2:id host})'
   'PMPrinter':
     'prefix': 'PMPrinter'
-    'body': 'PMPrinter()'
+    'body': 'PMPrinter'
   'PPDOptionKeyValueDidChange:ppdChoice:':
     'prefix': 'PPDOptionKeyValueDidChange:ppdChoice:'
     'body': 'PPDOptionKeyValueDidChange(${1:NSString* option}, ppdChoice:${2:NSString* choice})'
@@ -10840,28 +10843,28 @@
     'body': 'initWithBundle(${1:NSBundle* theBundle})'
   'pageFormat':
     'prefix': 'pageFormat'
-    'body': 'pageFormat()'
+    'body': 'pageFormat'
   'panelKind':
     'prefix': 'panelKind'
-    'body': 'panelKind()'
+    'body': 'panelKind'
   'panelName':
     'prefix': 'panelName'
-    'body': 'panelName()'
+    'body': 'panelName'
   'panelView':
     'prefix': 'panelView'
-    'body': 'panelView()'
+    'body': 'panelView'
   'panelViewDidResize':
     'prefix': 'panelViewDidResize'
-    'body': 'panelViewDidResize()'
+    'body': 'panelViewDidResize'
   'ppdFile':
     'prefix': 'ppdFile'
-    'body': 'ppdFile()'
+    'body': 'ppdFile'
   'printSession':
     'prefix': 'printSession'
-    'body': 'printSession()'
+    'body': 'printSession'
   'printSettings':
     'prefix': 'printSettings'
-    'body': 'printSettings()'
+    'body': 'printSettings'
   'printWindowWillClose:':
     'prefix': 'printWindowWillClose:'
     'body': 'printWindowWillClose(${1:BOOL userCanceled})'
@@ -10873,37 +10876,40 @@
     'body': 'saveValuesAndReturnError(${1:NSError** error})'
   'shouldHide':
     'prefix': 'shouldHide'
-    'body': 'shouldHide()'
+    'body': 'shouldHide'
   'shouldPrint':
     'prefix': 'shouldPrint'
-    'body': 'shouldPrint()'
+    'body': 'shouldPrint'
   'shouldShowHelp':
     'prefix': 'shouldShowHelp'
-    'body': 'shouldShowHelp()'
+    'body': 'shouldShowHelp'
   'summaryInfo':
     'prefix': 'summaryInfo'
-    'body': 'summaryInfo()'
+    'body': 'summaryInfo'
   'supportedPPDOptionKeys':
     'prefix': 'supportedPPDOptionKeys'
-    'body': 'supportedPPDOptionKeys()'
+    'body': 'supportedPPDOptionKeys'
   'willChangePPDOptionKeyValue:ppdChoice:':
     'prefix': 'willChangePPDOptionKeyValue:ppdChoice:'
     'body': 'willChangePPDOptionKeyValue(${1:NSString* option}, ppdChoice:${2:NSString* choice})'
   'willShow':
     'prefix': 'willShow'
-    'body': 'willShow()'
+    'body': 'willShow'
+  'PDEPanel':
+    'prefix': 'PDEPanel'
+    'body': 'PDEPanel'
   'PPDOptionKeyValueDidChange:ppdChoice:':
     'prefix': 'PPDOptionKeyValueDidChange:ppdChoice:'
     'body': 'PPDOptionKeyValueDidChange(${1:NSString* option}, ppdChoice:${2:NSString* choice})'
   'panelKind':
     'prefix': 'panelKind'
-    'body': 'panelKind()'
+    'body': 'panelKind'
   'panelName':
     'prefix': 'panelName'
-    'body': 'panelName()'
+    'body': 'panelName'
   'panelView':
     'prefix': 'panelView'
-    'body': 'panelView()'
+    'body': 'panelView'
   'printWindowWillClose:':
     'prefix': 'printWindowWillClose:'
     'body': 'printWindowWillClose(${1:BOOL userCanceled})'
@@ -10915,46 +10921,52 @@
     'body': 'saveValuesAndReturnError(${1:NSError** error})'
   'shouldHide':
     'prefix': 'shouldHide'
-    'body': 'shouldHide()'
+    'body': 'shouldHide'
   'shouldPrint':
     'prefix': 'shouldPrint'
-    'body': 'shouldPrint()'
+    'body': 'shouldPrint'
   'shouldShowHelp':
     'prefix': 'shouldShowHelp'
-    'body': 'shouldShowHelp()'
+    'body': 'shouldShowHelp'
   'summaryInfo':
     'prefix': 'summaryInfo'
-    'body': 'summaryInfo()'
+    'body': 'summaryInfo'
   'supportedPPDOptionKeys':
     'prefix': 'supportedPPDOptionKeys'
-    'body': 'supportedPPDOptionKeys()'
+    'body': 'supportedPPDOptionKeys'
   'willShow':
     'prefix': 'willShow'
-    'body': 'willShow()'
+    'body': 'willShow'
+  'PDEPlugIn':
+    'prefix': 'PDEPlugIn'
+    'body': 'PDEPlugIn'
   'PDEPanelsForType:withHostInfo:':
     'prefix': 'PDEPanelsForType:withHostInfo:'
     'body': 'PDEPanelsForType(${1:NSString* pdeType}, withHostInfo:${2:id host})'
   'initWithBundle:':
     'prefix': 'initWithBundle:'
     'body': 'initWithBundle(${1:NSBundle* theBundle})'
+  'PDEPlugInCallbackProtocol':
+    'prefix': 'PDEPlugInCallbackProtocol'
+    'body': 'PDEPlugInCallbackProtocol'
   'PMPrinter':
     'prefix': 'PMPrinter'
-    'body': 'PMPrinter()'
+    'body': 'PMPrinter'
   'pageFormat':
     'prefix': 'pageFormat'
-    'body': 'pageFormat()'
+    'body': 'pageFormat'
   'panelViewDidResize':
     'prefix': 'panelViewDidResize'
-    'body': 'panelViewDidResize()'
+    'body': 'panelViewDidResize'
   'ppdFile':
     'prefix': 'ppdFile'
-    'body': 'ppdFile()'
+    'body': 'ppdFile'
   'printSession':
     'prefix': 'printSession'
-    'body': 'printSession()'
+    'body': 'printSession'
   'printSettings':
     'prefix': 'printSettings'
-    'body': 'printSettings()'
+    'body': 'printSettings'
   'willChangePPDOptionKeyValue:ppdChoice:':
     'prefix': 'willChangePPDOptionKeyValue:ppdChoice:'
     'body': 'willChangePPDOptionKeyValue(${1:NSString* option}, ppdChoice:${2:NSString* choice})'
@@ -13840,13 +13852,13 @@
     'body': 'SpeakText(${1:SpeechChannel chan}, ${2:void* textBuf}, ${3:unsigned long textBytes})'
   'SpeechBusy':
     'prefix': 'SpeechBusy'
-    'body': 'SpeechBusy()'
+    'body': 'SpeechBusy'
   'SpeechBusySystemWide':
     'prefix': 'SpeechBusySystemWide'
-    'body': 'SpeechBusySystemWide()'
+    'body': 'SpeechBusySystemWide'
   'SpeechManagerVersion':
     'prefix': 'SpeechManagerVersion'
-    'body': 'SpeechManagerVersion()'
+    'body': 'SpeechManagerVersion'
   'SpeechSynthesisRegisterModuleURL':
     'prefix': 'SpeechSynthesisRegisterModuleURL'
     'body': 'SpeechSynthesisRegisterModuleURL(${1:CFURLRef url})'

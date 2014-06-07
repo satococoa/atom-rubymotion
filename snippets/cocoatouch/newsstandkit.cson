@@ -11,57 +11,66 @@
   'NKIssueContentStatusNone (0)':
     'prefix': 'NKIssueContentStatusNone'
     'body': 'NKIssueContentStatusNone'
+  'NKAssetDownload':
+    'prefix': 'NKAssetDownload'
+    'body': 'NKAssetDownload'
   'URLRequest':
     'prefix': 'URLRequest'
-    'body': 'URLRequest()'
+    'body': 'URLRequest'
   'downloadWithDelegate:':
     'prefix': 'downloadWithDelegate:'
     'body': 'downloadWithDelegate(${1:id delegate})'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'issue':
     'prefix': 'issue'
-    'body': 'issue()'
+    'body': 'issue'
   'setUserInfo:':
     'prefix': 'setUserInfo:'
     'body': 'setUserInfo(${1:NSDictionary* userInfo})'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
+  'NKIssue':
+    'prefix': 'NKIssue'
+    'body': 'NKIssue'
   'addAssetWithRequest:':
     'prefix': 'addAssetWithRequest:'
     'body': 'addAssetWithRequest(${1:NSURLRequest* request})'
   'contentURL':
     'prefix': 'contentURL'
-    'body': 'contentURL()'
+    'body': 'contentURL'
   'date':
     'prefix': 'date'
-    'body': 'date()'
+    'body': 'date'
   'downloadingAssets':
     'prefix': 'downloadingAssets'
-    'body': 'downloadingAssets()'
+    'body': 'downloadingAssets'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'NKLibrary':
+    'prefix': 'NKLibrary'
+    'body': 'NKLibrary'
   'addIssueWithName:date:':
     'prefix': 'addIssueWithName:date:'
     'body': 'addIssueWithName(${1:NSString* name}, date:${2:NSDate* date})'
   'currentlyReadingIssue':
     'prefix': 'currentlyReadingIssue'
-    'body': 'currentlyReadingIssue()'
+    'body': 'currentlyReadingIssue'
   'downloadingAssets':
     'prefix': 'downloadingAssets'
-    'body': 'downloadingAssets()'
+    'body': 'downloadingAssets'
   'issueWithName:':
     'prefix': 'issueWithName:'
     'body': 'issueWithName(${1:NSString* name})'
   'issues':
     'prefix': 'issues'
-    'body': 'issues()'
+    'body': 'issues'
   'removeIssue:':
     'prefix': 'removeIssue:'
     'body': 'removeIssue(${1:NKIssue* issue})'
@@ -70,7 +79,10 @@
     'body': 'setCurrentlyReadingIssue(${1:NKIssue* currentlyReadingIssue})'
   'NKLibrary.sharedLibrary':
     'prefix': 'sharedLibrary'
-    'body': 'sharedLibrary()'
+    'body': 'sharedLibrary'
+  'NSURLConnection':
+    'prefix': 'NSURLConnection'
+    'body': 'NSURLConnection'
   'newsstandAssetDownload':
     'prefix': 'newsstandAssetDownload'
-    'body': 'newsstandAssetDownload()'
+    'body': 'newsstandAssetDownload'

@@ -56,12 +56,18 @@
   'PKUnsupportedVersionError (2)':
     'prefix': 'PKUnsupportedVersionError'
     'body': 'PKUnsupportedVersionError'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'addPassesViewControllerDidFinish:':
     'prefix': 'addPassesViewControllerDidFinish:'
     'body': 'addPassesViewControllerDidFinish(${1:PKAddPassesViewController* controller})'
+  'PKAddPassesViewController':
+    'prefix': 'PKAddPassesViewController'
+    'body': 'PKAddPassesViewController'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithPass:':
     'prefix': 'initWithPass:'
     'body': 'initWithPass(${1:id pass})'
@@ -71,45 +77,51 @@
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'PKPass':
+    'prefix': 'PKPass'
+    'body': 'PKPass'
   'authenticationToken':
     'prefix': 'authenticationToken'
-    'body': 'authenticationToken()'
+    'body': 'authenticationToken'
   'icon':
     'prefix': 'icon'
-    'body': 'icon()'
+    'body': 'icon'
   'initWithData:error:':
     'prefix': 'initWithData:error:'
     'body': 'initWithData(${1:NSData* data}, error:${2:NSError** error})'
   'localizedDescription':
     'prefix': 'localizedDescription'
-    'body': 'localizedDescription()'
+    'body': 'localizedDescription'
   'localizedName':
     'prefix': 'localizedName'
-    'body': 'localizedName()'
+    'body': 'localizedName'
   'localizedValueForFieldKey:':
     'prefix': 'localizedValueForFieldKey:'
     'body': 'localizedValueForFieldKey(${1:NSString* key})'
   'organizationName':
     'prefix': 'organizationName'
-    'body': 'organizationName()'
+    'body': 'organizationName'
   'passTypeIdentifier':
     'prefix': 'passTypeIdentifier'
-    'body': 'passTypeIdentifier()'
+    'body': 'passTypeIdentifier'
   'passURL':
     'prefix': 'passURL'
-    'body': 'passURL()'
+    'body': 'passURL'
   'relevantDate':
     'prefix': 'relevantDate'
-    'body': 'relevantDate()'
+    'body': 'relevantDate'
   'serialNumber':
     'prefix': 'serialNumber'
-    'body': 'serialNumber()'
+    'body': 'serialNumber'
   'userInfo':
     'prefix': 'userInfo'
-    'body': 'userInfo()'
+    'body': 'userInfo'
   'webServiceURL':
     'prefix': 'webServiceURL'
-    'body': 'webServiceURL()'
+    'body': 'webServiceURL'
+  'PKPassLibrary':
+    'prefix': 'PKPassLibrary'
+    'body': 'PKPassLibrary'
   'addPasses:withCompletionHandler:':
     'prefix': 'addPasses:withCompletionHandler:'
     'body': 'addPasses(${1:NSArray* passes}, withCompletionHandler:${2:void (^)(PKPassLibraryAddPassesStatus) completion})'
@@ -118,19 +130,22 @@
     'body': 'containsPass(${1:PKPass* pass})'
   'PKPassLibrary.isPassLibraryAvailable':
     'prefix': 'isPassLibraryAvailable'
-    'body': 'isPassLibraryAvailable()'
+    'body': 'isPassLibraryAvailable'
   'passWithPassTypeIdentifier:serialNumber:':
     'prefix': 'passWithPassTypeIdentifier:serialNumber:'
     'body': 'passWithPassTypeIdentifier(${1:NSString* identifier}, serialNumber:${2:NSString* serialNumber})'
   'passes':
     'prefix': 'passes'
-    'body': 'passes()'
+    'body': 'passes'
   'removePass:':
     'prefix': 'removePass:'
     'body': 'removePass(${1:PKPass* pass})'
   'replacePassWithPass:':
     'prefix': 'replacePassWithPass:'
     'body': 'replacePassWithPass(${1:PKPass* pass})'
+  'PKAddPassesViewControllerDelegate':
+    'prefix': 'PKAddPassesViewControllerDelegate'
+    'body': 'PKAddPassesViewControllerDelegate'
   'addPassesViewControllerDidFinish:':
     'prefix': 'addPassesViewControllerDidFinish:'
     'body': 'addPassesViewControllerDidFinish(${1:PKAddPassesViewController* controller})'

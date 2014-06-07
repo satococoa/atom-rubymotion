@@ -8416,7 +8416,7 @@
     'body': 'CGLGetContextRetainCount(${1:CGLContextObj ctx})'
   'CGLGetCurrentContext':
     'prefix': 'CGLGetCurrentContext'
-    'body': 'CGLGetCurrentContext()'
+    'body': 'CGLGetCurrentContext'
   'CGLGetGlobalOption':
     'prefix': 'CGLGetGlobalOption'
     'body': 'CGLGetGlobalOption(${1:CGLGlobalOption pname}, ${2:GLint* params})'
@@ -8974,10 +8974,10 @@
     'body': 'glCopyTexSubImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLint zoffset}, ${6:GLint x}, ${7:GLint y}, ${8:GLsizei width}, ${9:GLsizei height})'
   'glCreateProgram':
     'prefix': 'glCreateProgram'
-    'body': 'glCreateProgram()'
+    'body': 'glCreateProgram'
   'glCreateProgramObjectARB':
     'prefix': 'glCreateProgramObjectARB'
-    'body': 'glCreateProgramObjectARB()'
+    'body': 'glCreateProgramObjectARB'
   'glCreateShader':
     'prefix': 'glCreateShader'
     'body': 'glCreateShader(${1:GLenum type})'
@@ -9196,13 +9196,13 @@
     'body': 'glEnableVertexAttribArrayARB(${1:GLuint index})'
   'glEnd':
     'prefix': 'glEnd'
-    'body': 'glEnd()'
+    'body': 'glEnd'
   'glEndConditionalRenderNV':
     'prefix': 'glEndConditionalRenderNV'
-    'body': 'glEndConditionalRenderNV()'
+    'body': 'glEndConditionalRenderNV'
   'glEndList':
     'prefix': 'glEndList'
-    'body': 'glEndList()'
+    'body': 'glEndList'
   'glEndQuery':
     'prefix': 'glEndQuery'
     'body': 'glEndQuery(${1:GLenum target})'
@@ -9214,7 +9214,7 @@
     'body': 'glEndQueryIndexed(${1:GLenum target}, ${2:GLuint index})'
   'glEndTransformFeedbackEXT':
     'prefix': 'glEndTransformFeedbackEXT'
-    'body': 'glEndTransformFeedbackEXT()'
+    'body': 'glEndTransformFeedbackEXT'
   'glEvalCoord1d':
     'prefix': 'glEvalCoord1d'
     'body': 'glEvalCoord1d(${1:GLdouble u})'
@@ -9259,7 +9259,7 @@
     'body': 'glFenceSync(${1:GLenum condition}, ${2:GLbitfield flags})'
   'glFinish':
     'prefix': 'glFinish'
-    'body': 'glFinish()'
+    'body': 'glFinish'
   'glFinishFenceAPPLE':
     'prefix': 'glFinishFenceAPPLE'
     'body': 'glFinishFenceAPPLE(${1:GLuint fence})'
@@ -9268,10 +9268,10 @@
     'body': 'glFinishObjectAPPLE(${1:GLenum object}, ${2:GLuint name})'
   'glFinishRenderAPPLE':
     'prefix': 'glFinishRenderAPPLE'
-    'body': 'glFinishRenderAPPLE()'
+    'body': 'glFinishRenderAPPLE'
   'glFlush':
     'prefix': 'glFlush'
-    'body': 'glFlush()'
+    'body': 'glFlush'
   'glFlushMappedBufferRange':
     'prefix': 'glFlushMappedBufferRange'
     'body': 'glFlushMappedBufferRange(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr length})'
@@ -9280,7 +9280,7 @@
     'body': 'glFlushMappedBufferRangeAPPLE(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr size})'
   'glFlushRenderAPPLE':
     'prefix': 'glFlushRenderAPPLE'
-    'body': 'glFlushRenderAPPLE()'
+    'body': 'glFlushRenderAPPLE'
   'glFlushVertexArrayRangeAPPLE':
     'prefix': 'glFlushVertexArrayRangeAPPLE'
     'body': 'glFlushVertexArrayRangeAPPLE(${1:GLsizei length}, ${2:GLvoid* pointer})'
@@ -9535,7 +9535,7 @@
     'body': 'glGetDoublev(${1:GLenum pname}, ${2:GLdouble* params})'
   'glGetError':
     'prefix': 'glGetError'
-    'body': 'glGetError()'
+    'body': 'glGetError'
   'glGetFloati_v':
     'prefix': 'glGetFloati_v'
     'body': 'glGetFloati_v(${1:GLenum target}, ${2:GLuint index}, ${3:GLfloat* data})'
@@ -9925,7 +9925,7 @@
     'body': 'glIndexubv(${1:GLubyte* c})'
   'glInitNames':
     'prefix': 'glInitNames'
-    'body': 'glInitNames()'
+    'body': 'glInitNames'
   'glInsertEventMarkerEXT':
     'prefix': 'glInsertEventMarkerEXT'
     'body': 'glInsertEventMarkerEXT(${1:GLsizei length}, ${2:char* marker})'
@@ -10048,7 +10048,7 @@
     'body': 'glListBase(${1:GLuint base})'
   'glLoadIdentity':
     'prefix': 'glLoadIdentity'
-    'body': 'glLoadIdentity()'
+    'body': 'glLoadIdentity'
   'glLoadMatrixd':
     'prefix': 'glLoadMatrixd'
     'body': 'glLoadMatrixd(${1:GLdouble* m})'
@@ -10432,7 +10432,7 @@
     'body': 'glPatchParameteri(${1:GLenum pname}, ${2:GLint value})'
   'glPauseTransformFeedback':
     'prefix': 'glPauseTransformFeedback'
-    'body': 'glPauseTransformFeedback()'
+    'body': 'glPauseTransformFeedback'
   'glPixelMapfv':
     'prefix': 'glPixelMapfv'
     'body': 'glPixelMapfv(${1:GLenum map}, ${2:GLint mapsize}, ${3:GLfloat* values})'
@@ -10498,19 +10498,19 @@
     'body': 'glPolygonStipple(${1:GLubyte* mask})'
   'glPopAttrib':
     'prefix': 'glPopAttrib'
-    'body': 'glPopAttrib()'
+    'body': 'glPopAttrib'
   'glPopClientAttrib':
     'prefix': 'glPopClientAttrib'
-    'body': 'glPopClientAttrib()'
+    'body': 'glPopClientAttrib'
   'glPopGroupMarkerEXT':
     'prefix': 'glPopGroupMarkerEXT'
-    'body': 'glPopGroupMarkerEXT()'
+    'body': 'glPopGroupMarkerEXT'
   'glPopMatrix':
     'prefix': 'glPopMatrix'
-    'body': 'glPopMatrix()'
+    'body': 'glPopMatrix'
   'glPopName':
     'prefix': 'glPopName'
-    'body': 'glPopName()'
+    'body': 'glPopName'
   'glPrimitiveRestartIndex':
     'prefix': 'glPrimitiveRestartIndex'
     'body': 'glPrimitiveRestartIndex(${1:GLuint index})'
@@ -10726,7 +10726,7 @@
     'body': 'glPushGroupMarkerEXT(${1:GLsizei length}, ${2:char* marker})'
   'glPushMatrix':
     'prefix': 'glPushMatrix'
-    'body': 'glPushMatrix()'
+    'body': 'glPushMatrix'
   'glPushName':
     'prefix': 'glPushName'
     'body': 'glPushName(${1:GLuint name})'
@@ -10837,7 +10837,7 @@
     'body': 'glRectsv(${1:GLshort* v1}, ${2:GLshort* v2})'
   'glReleaseShaderCompiler':
     'prefix': 'glReleaseShaderCompiler'
-    'body': 'glReleaseShaderCompiler()'
+    'body': 'glReleaseShaderCompiler'
   'glRenderMode':
     'prefix': 'glRenderMode'
     'body': 'glRenderMode(${1:GLenum mode})'
@@ -10861,7 +10861,7 @@
     'body': 'glResetMinmax(${1:GLenum target})'
   'glResumeTransformFeedback':
     'prefix': 'glResumeTransformFeedback'
-    'body': 'glResumeTransformFeedback()'
+    'body': 'glResumeTransformFeedback'
   'glRotated':
     'prefix': 'glRotated'
     'body': 'glRotated(${1:GLdouble angle}, ${2:GLdouble x}, ${3:GLdouble y}, ${4:GLdouble z})'
@@ -11062,7 +11062,7 @@
     'body': 'glStencilOpSeparateATI(${1:GLenum face}, ${2:GLenum sfail}, ${3:GLenum dpfail}, ${4:GLenum dppass})'
   'glSwapAPPLE':
     'prefix': 'glSwapAPPLE'
-    'body': 'glSwapAPPLE()'
+    'body': 'glSwapAPPLE'
   'glTestFenceAPPLE':
     'prefix': 'glTestFenceAPPLE'
     'body': 'glTestFenceAPPLE(${1:GLuint fence})'
@@ -11254,7 +11254,7 @@
     'body': 'glTexSubImage3D(${1:GLenum target}, ${2:GLint level}, ${3:GLint xoffset}, ${4:GLint yoffset}, ${5:GLint zoffset}, ${6:GLsizei width}, ${7:GLsizei height}, ${8:GLsizei depth}, ${9:GLenum format}, ${10:GLenum type}, ${11:GLvoid* pixels})'
   'glTextureBarrierNV':
     'prefix': 'glTextureBarrierNV'
-    'body': 'glTextureBarrierNV()'
+    'body': 'glTextureBarrierNV'
   'glTextureRangeAPPLE':
     'prefix': 'glTextureRangeAPPLE'
     'body': 'glTextureRangeAPPLE(${1:GLenum target}, ${2:GLsizei length}, ${3:GLvoid* pointer})'
@@ -12181,19 +12181,19 @@
     'body': 'gluLookAtCTX(${1:struct _CGLContextObject* ctx}, ${2:GLdouble eyeX}, ${3:GLdouble eyeY}, ${4:GLdouble eyeZ}, ${5:GLdouble centerX}, ${6:GLdouble centerY}, ${7:GLdouble centerZ}, ${8:GLdouble upX}, ${9:GLdouble upY}, ${10:GLdouble upZ})'
   'gluNewNurbsRenderer':
     'prefix': 'gluNewNurbsRenderer'
-    'body': 'gluNewNurbsRenderer()'
+    'body': 'gluNewNurbsRenderer'
   'gluNewNurbsRendererCTX':
     'prefix': 'gluNewNurbsRendererCTX'
     'body': 'gluNewNurbsRendererCTX(${1:struct _CGLContextObject* ctx})'
   'gluNewQuadric':
     'prefix': 'gluNewQuadric'
-    'body': 'gluNewQuadric()'
+    'body': 'gluNewQuadric'
   'gluNewQuadricCTX':
     'prefix': 'gluNewQuadricCTX'
     'body': 'gluNewQuadricCTX(${1:struct _CGLContextObject* ctx})'
   'gluNewTess':
     'prefix': 'gluNewTess'
-    'body': 'gluNewTess()'
+    'body': 'gluNewTess'
   'gluNewTessCTX':
     'prefix': 'gluNewTessCTX'
     'body': 'gluNewTessCTX(${1:struct _CGLContextObject* ctx})'

@@ -763,7 +763,7 @@
     'body': 'CFHTTPAuthenticationCreateFromResponse(${1:CFAllocatorRef alloc}, ${2:CFHTTPMessageRef response})'
   'CFHTTPAuthenticationGetTypeID':
     'prefix': 'CFHTTPAuthenticationGetTypeID'
-    'body': 'CFHTTPAuthenticationGetTypeID()'
+    'body': 'CFHTTPAuthenticationGetTypeID'
   'CFHTTPAuthenticationIsValid':
     'prefix': 'CFHTTPAuthenticationIsValid'
     'body': 'CFHTTPAuthenticationIsValid(${1:CFHTTPAuthenticationRef auth}, ${2:CFStreamError* error})'
@@ -829,7 +829,7 @@
     'body': 'CFHTTPMessageGetResponseStatusCode(${1:CFHTTPMessageRef response})'
   'CFHTTPMessageGetTypeID':
     'prefix': 'CFHTTPMessageGetTypeID'
-    'body': 'CFHTTPMessageGetTypeID()'
+    'body': 'CFHTTPMessageGetTypeID'
   'CFHTTPMessageIsHeaderComplete':
     'prefix': 'CFHTTPMessageIsHeaderComplete'
     'body': 'CFHTTPMessageIsHeaderComplete(${1:CFHTTPMessageRef message})'
@@ -865,7 +865,7 @@
     'body': 'CFHostGetReachability(${1:CFHostRef theHost}, ${2:Boolean* hasBeenResolved})'
   'CFHostGetTypeID':
     'prefix': 'CFHostGetTypeID'
-    'body': 'CFHostGetTypeID()'
+    'body': 'CFHostGetTypeID'
   'CFHostScheduleWithRunLoop':
     'prefix': 'CFHostScheduleWithRunLoop'
     'body': 'CFHostScheduleWithRunLoop(${1:CFHostRef theHost}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
@@ -898,7 +898,7 @@
     'body': 'CFNetServiceBrowserCreate(${1:CFAllocatorRef alloc}, ${2:CFNetServiceBrowserClientCallBack clientCB}, ${3:CFNetServiceClientContext* clientContext})'
   'CFNetServiceBrowserGetTypeID':
     'prefix': 'CFNetServiceBrowserGetTypeID'
-    'body': 'CFNetServiceBrowserGetTypeID()'
+    'body': 'CFNetServiceBrowserGetTypeID'
   'CFNetServiceBrowserInvalidate':
     'prefix': 'CFNetServiceBrowserInvalidate'
     'body': 'CFNetServiceBrowserInvalidate(${1:CFNetServiceBrowserRef browser})'
@@ -955,13 +955,13 @@
     'body': 'CFNetServiceGetType(${1:CFNetServiceRef theService})'
   'CFNetServiceGetTypeID':
     'prefix': 'CFNetServiceGetTypeID'
-    'body': 'CFNetServiceGetTypeID()'
+    'body': 'CFNetServiceGetTypeID'
   'CFNetServiceMonitorCreate':
     'prefix': 'CFNetServiceMonitorCreate'
     'body': 'CFNetServiceMonitorCreate(${1:CFAllocatorRef alloc}, ${2:CFNetServiceRef theService}, ${3:CFNetServiceMonitorClientCallBack clientCB}, ${4:CFNetServiceClientContext* clientContext})'
   'CFNetServiceMonitorGetTypeID':
     'prefix': 'CFNetServiceMonitorGetTypeID'
-    'body': 'CFNetServiceMonitorGetTypeID()'
+    'body': 'CFNetServiceMonitorGetTypeID'
   'CFNetServiceMonitorInvalidate':
     'prefix': 'CFNetServiceMonitorInvalidate'
     'body': 'CFNetServiceMonitorInvalidate(${1:CFNetServiceMonitorRef monitor})'
@@ -1003,7 +1003,7 @@
     'body': 'CFNetworkCopyProxiesForURL(${1:CFURLRef url}, ${2:CFDictionaryRef proxySettings})'
   'CFNetworkCopySystemProxySettings':
     'prefix': 'CFNetworkCopySystemProxySettings'
-    'body': 'CFNetworkCopySystemProxySettings()'
+    'body': 'CFNetworkCopySystemProxySettings'
   'CFNetworkExecuteProxyAutoConfigurationScript':
     'prefix': 'CFNetworkExecuteProxyAutoConfigurationScript'
     'body': 'CFNetworkExecuteProxyAutoConfigurationScript(${1:CFStringRef proxyAutoConfigurationScript}, ${2:CFURLRef targetURL}, ${3:CFProxyAutoConfigurationResultCallback cb}, ${4:CFStreamClientContext* clientContext})'

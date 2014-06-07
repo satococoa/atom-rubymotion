@@ -575,48 +575,51 @@
   'ICScannerTransferModeMemoryBased (1)':
     'prefix': 'ICScannerTransferModeMemoryBased'
     'body': 'ICScannerTransferModeMemoryBased'
+  'ICCameraDevice':
+    'prefix': 'ICCameraDevice'
+    'body': 'ICCameraDevice'
   'batteryLevel':
     'prefix': 'batteryLevel'
-    'body': 'batteryLevel()'
+    'body': 'batteryLevel'
   'batteryLevelAvailable':
     'prefix': 'batteryLevelAvailable'
-    'body': 'batteryLevelAvailable()'
+    'body': 'batteryLevelAvailable'
   'cancelDelete':
     'prefix': 'cancelDelete'
-    'body': 'cancelDelete()'
+    'body': 'cancelDelete'
   'cancelDownload':
     'prefix': 'cancelDownload'
-    'body': 'cancelDownload()'
+    'body': 'cancelDownload'
   'contentCatalogPercentCompleted':
     'prefix': 'contentCatalogPercentCompleted'
-    'body': 'contentCatalogPercentCompleted()'
+    'body': 'contentCatalogPercentCompleted'
   'contents':
     'prefix': 'contents'
-    'body': 'contents()'
+    'body': 'contents'
   'filesOfType:':
     'prefix': 'filesOfType:'
     'body': 'filesOfType(${1:NSString* fileUTType})'
   'isAccessRestrictedAppleDevice':
     'prefix': 'isAccessRestrictedAppleDevice'
-    'body': 'isAccessRestrictedAppleDevice()'
+    'body': 'isAccessRestrictedAppleDevice'
   'mediaFiles':
     'prefix': 'mediaFiles'
-    'body': 'mediaFiles()'
+    'body': 'mediaFiles'
   'mountPoint':
     'prefix': 'mountPoint'
-    'body': 'mountPoint()'
+    'body': 'mountPoint'
   'requestDeleteFiles:':
     'prefix': 'requestDeleteFiles:'
     'body': 'requestDeleteFiles(${1:NSArray* files})'
   'requestDisableTethering':
     'prefix': 'requestDisableTethering'
-    'body': 'requestDisableTethering()'
+    'body': 'requestDisableTethering'
   'requestDownloadFile:options:downloadDelegate:didDownloadSelector:contextInfo:':
     'prefix': 'requestDownloadFile:options:downloadDelegate:didDownloadSelector:contextInfo:'
     'body': 'requestDownloadFile(${1:ICCameraFile* file}, options:${2:NSDictionary* options}, downloadDelegate:${3:id downloadDelegate}, didDownloadSelector:${4:SEL selector}, contextInfo:${5:void* contextInfo})'
   'requestEnableTethering':
     'prefix': 'requestEnableTethering'
-    'body': 'requestEnableTethering()'
+    'body': 'requestEnableTethering'
   'requestReadDataFromFile:atOffset:length:readDelegate:didReadDataSelector:contextInfo:':
     'prefix': 'requestReadDataFromFile:atOffset:length:readDelegate:didReadDataSelector:contextInfo:'
     'body': 'requestReadDataFromFile(${1:ICCameraFile* file}, atOffset:${2:off_t offset}, length:${3:off_t length}, readDelegate:${4:id readDelegate}, didReadDataSelector:${5:SEL selector}, contextInfo:${6:void* contextInfo})'
@@ -625,10 +628,10 @@
     'body': 'requestSendPTPCommand(${1:NSData* command}, outData:${2:NSData* data}, sendCommandDelegate:${3:id sendCommandDelegate}, didSendCommandSelector:${4:SEL selector}, contextInfo:${5:void* contextInfo})'
   'requestSyncClock':
     'prefix': 'requestSyncClock'
-    'body': 'requestSyncClock()'
+    'body': 'requestSyncClock'
   'requestTakePicture':
     'prefix': 'requestTakePicture'
-    'body': 'requestTakePicture()'
+    'body': 'requestTakePicture'
   'requestUploadFile:options:uploadDelegate:didUploadSelector:contextInfo:':
     'prefix': 'requestUploadFile:options:uploadDelegate:didUploadSelector:contextInfo:'
     'body': 'requestUploadFile(${1:NSURL* fileURL}, options:${2:NSDictionary* options}, uploadDelegate:${3:id uploadDelegate}, didUploadSelector:${4:SEL selector}, contextInfo:${5:void* contextInfo})'
@@ -637,145 +640,157 @@
     'body': 'setTetheredCaptureEnabled(${1:BOOL tetheredCaptureEnabled})'
   'tetheredCaptureEnabled':
     'prefix': 'tetheredCaptureEnabled'
-    'body': 'tetheredCaptureEnabled()'
+    'body': 'tetheredCaptureEnabled'
   'timeOffset':
     'prefix': 'timeOffset'
-    'body': 'timeOffset()'
+    'body': 'timeOffset'
+  'ICCameraFile':
+    'prefix': 'ICCameraFile'
+    'body': 'ICCameraFile'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'fileSize':
     'prefix': 'fileSize'
-    'body': 'fileSize()'
+    'body': 'fileSize'
   'orientation':
     'prefix': 'orientation'
-    'body': 'orientation()'
+    'body': 'orientation'
   'setOrientation:':
     'prefix': 'setOrientation:'
     'body': 'setOrientation(${1:ICEXIFOrientationType orientation})'
   'sidecarFiles':
     'prefix': 'sidecarFiles'
-    'body': 'sidecarFiles()'
+    'body': 'sidecarFiles'
+  'ICCameraFolder':
+    'prefix': 'ICCameraFolder'
+    'body': 'ICCameraFolder'
   'contents':
     'prefix': 'contents'
-    'body': 'contents()'
+    'body': 'contents'
+  'ICCameraItem':
+    'prefix': 'ICCameraItem'
+    'body': 'ICCameraItem'
   'UTI':
     'prefix': 'UTI'
-    'body': 'UTI()'
+    'body': 'UTI'
   'creationDate':
     'prefix': 'creationDate'
-    'body': 'creationDate()'
+    'body': 'creationDate'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'fileSystemPath':
     'prefix': 'fileSystemPath'
-    'body': 'fileSystemPath()'
+    'body': 'fileSystemPath'
   'isInTemporaryStore':
     'prefix': 'isInTemporaryStore'
-    'body': 'isInTemporaryStore()'
+    'body': 'isInTemporaryStore'
   'isLocked':
     'prefix': 'isLocked'
-    'body': 'isLocked()'
+    'body': 'isLocked'
   'isRaw':
     'prefix': 'isRaw'
-    'body': 'isRaw()'
+    'body': 'isRaw'
   'largeThumbnailIfAvailable':
     'prefix': 'largeThumbnailIfAvailable'
-    'body': 'largeThumbnailIfAvailable()'
+    'body': 'largeThumbnailIfAvailable'
   'metadataIfAvailable':
     'prefix': 'metadataIfAvailable'
-    'body': 'metadataIfAvailable()'
+    'body': 'metadataIfAvailable'
   'modificationDate':
     'prefix': 'modificationDate'
-    'body': 'modificationDate()'
+    'body': 'modificationDate'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'parentFolder':
     'prefix': 'parentFolder'
-    'body': 'parentFolder()'
+    'body': 'parentFolder'
   'ptpObjectHandle':
     'prefix': 'ptpObjectHandle'
-    'body': 'ptpObjectHandle()'
+    'body': 'ptpObjectHandle'
   'thumbnailIfAvailable':
     'prefix': 'thumbnailIfAvailable'
-    'body': 'thumbnailIfAvailable()'
+    'body': 'thumbnailIfAvailable'
   'userData':
     'prefix': 'userData'
-    'body': 'userData()'
+    'body': 'userData'
   'wasAddedAfterContentCatalogCompleted':
     'prefix': 'wasAddedAfterContentCatalogCompleted'
-    'body': 'wasAddedAfterContentCatalogCompleted()'
+    'body': 'wasAddedAfterContentCatalogCompleted'
+  'ICDevice':
+    'prefix': 'ICDevice'
+    'body': 'ICDevice'
   'UUIDString':
     'prefix': 'UUIDString'
-    'body': 'UUIDString()'
+    'body': 'UUIDString'
   'autolaunchApplicationPath':
     'prefix': 'autolaunchApplicationPath'
-    'body': 'autolaunchApplicationPath()'
+    'body': 'autolaunchApplicationPath'
   'buttonPressed':
     'prefix': 'buttonPressed'
-    'body': 'buttonPressed()'
+    'body': 'buttonPressed'
   'capabilities':
     'prefix': 'capabilities'
-    'body': 'capabilities()'
+    'body': 'capabilities'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'fwGUID':
     'prefix': 'fwGUID'
-    'body': 'fwGUID()'
+    'body': 'fwGUID'
   'hasConfigurableWiFiInterface':
     'prefix': 'hasConfigurableWiFiInterface'
-    'body': 'hasConfigurableWiFiInterface()'
+    'body': 'hasConfigurableWiFiInterface'
   'hasOpenSession':
     'prefix': 'hasOpenSession'
-    'body': 'hasOpenSession()'
+    'body': 'hasOpenSession'
   'icon':
     'prefix': 'icon'
-    'body': 'icon()'
+    'body': 'icon'
   'isRemote':
     'prefix': 'isRemote'
-    'body': 'isRemote()'
+    'body': 'isRemote'
   'isShared':
     'prefix': 'isShared'
-    'body': 'isShared()'
+    'body': 'isShared'
   'locationDescription':
     'prefix': 'locationDescription'
-    'body': 'locationDescription()'
+    'body': 'locationDescription'
   'moduleExecutableArchitecture':
     'prefix': 'moduleExecutableArchitecture'
-    'body': 'moduleExecutableArchitecture()'
+    'body': 'moduleExecutableArchitecture'
   'modulePath':
     'prefix': 'modulePath'
-    'body': 'modulePath()'
+    'body': 'modulePath'
   'moduleVersion':
     'prefix': 'moduleVersion'
-    'body': 'moduleVersion()'
+    'body': 'moduleVersion'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'persistentIDString':
     'prefix': 'persistentIDString'
-    'body': 'persistentIDString()'
+    'body': 'persistentIDString'
   'requestCloseSession':
     'prefix': 'requestCloseSession'
-    'body': 'requestCloseSession()'
+    'body': 'requestCloseSession'
   'requestEjectOrDisconnect':
     'prefix': 'requestEjectOrDisconnect'
-    'body': 'requestEjectOrDisconnect()'
+    'body': 'requestEjectOrDisconnect'
   'requestOpenSession':
     'prefix': 'requestOpenSession'
-    'body': 'requestOpenSession()'
+    'body': 'requestOpenSession'
   'requestSendMessage:outData:maxReturnedDataSize:sendMessageDelegate:didSendMessageSelector:contextInfo:':
     'prefix': 'requestSendMessage:outData:maxReturnedDataSize:sendMessageDelegate:didSendMessageSelector:contextInfo:'
     'body': 'requestSendMessage(${1:unsigned int messageCode}, outData:${2:NSData* data}, maxReturnedDataSize:${3:unsigned int maxReturnedDataSize}, sendMessageDelegate:${4:id sendMessageDelegate}, didSendMessageSelector:${5:SEL selector}, contextInfo:${6:void* contextInfo})'
   'requestYield':
     'prefix': 'requestYield'
-    'body': 'requestYield()'
+    'body': 'requestYield'
   'serialNumberString':
     'prefix': 'serialNumberString'
-    'body': 'serialNumberString()'
+    'body': 'serialNumberString'
   'setAutolaunchApplicationPath:':
     'prefix': 'setAutolaunchApplicationPath:'
     'body': 'setAutolaunchApplicationPath(${1:NSString* autolaunchApplicationPath})'
@@ -784,40 +799,43 @@
     'body': 'setDelegate(${1:id delegate})'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'usbLocationID':
     'prefix': 'usbLocationID'
-    'body': 'usbLocationID()'
+    'body': 'usbLocationID'
   'usbProductID':
     'prefix': 'usbProductID'
-    'body': 'usbProductID()'
+    'body': 'usbProductID'
   'usbVendorID':
     'prefix': 'usbVendorID'
-    'body': 'usbVendorID()'
+    'body': 'usbVendorID'
   'userData':
     'prefix': 'userData'
-    'body': 'userData()'
+    'body': 'userData'
+  'ICDeviceBrowser':
+    'prefix': 'ICDeviceBrowser'
+    'body': 'ICDeviceBrowser'
   'browsedDeviceTypeMask':
     'prefix': 'browsedDeviceTypeMask'
-    'body': 'browsedDeviceTypeMask()'
+    'body': 'browsedDeviceTypeMask'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'devices':
     'prefix': 'devices'
-    'body': 'devices()'
+    'body': 'devices'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'isBrowsing':
     'prefix': 'isBrowsing'
-    'body': 'isBrowsing()'
+    'body': 'isBrowsing'
   'preferredDevice':
     'prefix': 'preferredDevice'
-    'body': 'preferredDevice()'
+    'body': 'preferredDevice'
   'setBrowsedDeviceTypeMask:':
     'prefix': 'setBrowsedDeviceTypeMask:'
     'body': 'setBrowsedDeviceTypeMask(${1:ICDeviceTypeMask browsedDeviceTypeMask})'
@@ -826,79 +844,85 @@
     'body': 'setDelegate(${1:id delegate})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
+  'ICScannerBandData':
+    'prefix': 'ICScannerBandData'
+    'body': 'ICScannerBandData'
   'bitsPerComponent':
     'prefix': 'bitsPerComponent'
-    'body': 'bitsPerComponent()'
+    'body': 'bitsPerComponent'
   'bitsPerPixel':
     'prefix': 'bitsPerPixel'
-    'body': 'bitsPerPixel()'
+    'body': 'bitsPerPixel'
   'bytesPerRow':
     'prefix': 'bytesPerRow'
-    'body': 'bytesPerRow()'
+    'body': 'bytesPerRow'
   'colorSyncProfilePath':
     'prefix': 'colorSyncProfilePath'
-    'body': 'colorSyncProfilePath()'
+    'body': 'colorSyncProfilePath'
   'dataBuffer':
     'prefix': 'dataBuffer'
-    'body': 'dataBuffer()'
+    'body': 'dataBuffer'
   'dataNumRows':
     'prefix': 'dataNumRows'
-    'body': 'dataNumRows()'
+    'body': 'dataNumRows'
   'dataSize':
     'prefix': 'dataSize'
-    'body': 'dataSize()'
+    'body': 'dataSize'
   'dataStartRow':
     'prefix': 'dataStartRow'
-    'body': 'dataStartRow()'
+    'body': 'dataStartRow'
   'fullImageHeight':
     'prefix': 'fullImageHeight'
-    'body': 'fullImageHeight()'
+    'body': 'fullImageHeight'
   'fullImageWidth':
     'prefix': 'fullImageWidth'
-    'body': 'fullImageWidth()'
+    'body': 'fullImageWidth'
   'isBigEndian':
     'prefix': 'isBigEndian'
-    'body': 'isBigEndian()'
+    'body': 'isBigEndian'
   'numComponents':
     'prefix': 'numComponents'
-    'body': 'numComponents()'
+    'body': 'numComponents'
   'pixelDataType':
     'prefix': 'pixelDataType'
-    'body': 'pixelDataType()'
+    'body': 'pixelDataType'
+  'ICScannerDevice':
+    'prefix': 'ICScannerDevice'
+    'body': 'ICScannerDevice'
   'availableFunctionalUnitTypes':
     'prefix': 'availableFunctionalUnitTypes'
-    'body': 'availableFunctionalUnitTypes()'
+    'body': 'availableFunctionalUnitTypes'
   'cancelScan':
     'prefix': 'cancelScan'
-    'body': 'cancelScan()'
+    'body': 'cancelScan'
   'documentName':
     'prefix': 'documentName'
-    'body': 'documentName()'
+    'body': 'documentName'
   'documentUTI':
     'prefix': 'documentUTI'
-    'body': 'documentUTI()'
+    'body': 'documentUTI'
   'downloadsDirectory':
     'prefix': 'downloadsDirectory'
-    'body': 'downloadsDirectory()'
+    'body': 'downloadsDirectory'
   'maxMemoryBandSize':
     'prefix': 'maxMemoryBandSize'
-    'body': 'maxMemoryBandSize()'
+    'body': 'maxMemoryBandSize'
   'requestOverviewScan':
     'prefix': 'requestOverviewScan'
-    'body': 'requestOverviewScan()'
+    'body': 'requestOverviewScan'
   'requestScan':
     'prefix': 'requestScan'
-    'body': 'requestScan()'
+    'body': 'requestScan'
   'requestSelectFunctionalUnit:':
     'prefix': 'requestSelectFunctionalUnit:'
     'body': 'requestSelectFunctionalUnit(${1:ICScannerFunctionalUnitType type})'
   'selectedFunctionalUnit':
     'prefix': 'selectedFunctionalUnit'
-    'body': 'selectedFunctionalUnit()'
+    'body': 'selectedFunctionalUnit'
   'setDocumentName:':
     'prefix': 'setDocumentName:'
     'body': 'setDocumentName(${1:NSString* documentName})'
@@ -916,124 +940,142 @@
     'body': 'setTransferMode(${1:ICScannerTransferMode transferMode})'
   'transferMode':
     'prefix': 'transferMode'
-    'body': 'transferMode()'
+    'body': 'transferMode'
+  'ICScannerFeature':
+    'prefix': 'ICScannerFeature'
+    'body': 'ICScannerFeature'
   'humanReadableName':
     'prefix': 'humanReadableName'
-    'body': 'humanReadableName()'
+    'body': 'humanReadableName'
   'internalName':
     'prefix': 'internalName'
-    'body': 'internalName()'
+    'body': 'internalName'
   'tooltip':
     'prefix': 'tooltip'
-    'body': 'tooltip()'
+    'body': 'tooltip'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'ICScannerFeatureBoolean':
+    'prefix': 'ICScannerFeatureBoolean'
+    'body': 'ICScannerFeatureBoolean'
   'setValue:':
     'prefix': 'setValue:'
     'body': 'setValue(${1:BOOL value})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'ICScannerFeatureEnumeration':
+    'prefix': 'ICScannerFeatureEnumeration'
+    'body': 'ICScannerFeatureEnumeration'
   'currentValue':
     'prefix': 'currentValue'
-    'body': 'currentValue()'
+    'body': 'currentValue'
   'defaultValue':
     'prefix': 'defaultValue'
-    'body': 'defaultValue()'
+    'body': 'defaultValue'
   'menuItemLabels':
     'prefix': 'menuItemLabels'
-    'body': 'menuItemLabels()'
+    'body': 'menuItemLabels'
   'menuItemLabelsTooltips':
     'prefix': 'menuItemLabelsTooltips'
-    'body': 'menuItemLabelsTooltips()'
+    'body': 'menuItemLabelsTooltips'
   'setCurrentValue:':
     'prefix': 'setCurrentValue:'
     'body': 'setCurrentValue(${1:id currentValue})'
   'values':
     'prefix': 'values'
-    'body': 'values()'
+    'body': 'values'
+  'ICScannerFeatureRange':
+    'prefix': 'ICScannerFeatureRange'
+    'body': 'ICScannerFeatureRange'
   'currentValue':
     'prefix': 'currentValue'
-    'body': 'currentValue()'
+    'body': 'currentValue'
   'defaultValue':
     'prefix': 'defaultValue'
-    'body': 'defaultValue()'
+    'body': 'defaultValue'
   'maxValue':
     'prefix': 'maxValue'
-    'body': 'maxValue()'
+    'body': 'maxValue'
   'minValue':
     'prefix': 'minValue'
-    'body': 'minValue()'
+    'body': 'minValue'
   'setCurrentValue:':
     'prefix': 'setCurrentValue:'
     'body': 'setCurrentValue(${1:CGFloat currentValue})'
   'stepSize':
     'prefix': 'stepSize'
-    'body': 'stepSize()'
+    'body': 'stepSize'
+  'ICScannerFeatureTemplate':
+    'prefix': 'ICScannerFeatureTemplate'
+    'body': 'ICScannerFeatureTemplate'
   'targets':
     'prefix': 'targets'
-    'body': 'targets()'
+    'body': 'targets'
+  'ICScannerFunctionalUnit':
+    'prefix': 'ICScannerFunctionalUnit'
+    'body': 'ICScannerFunctionalUnit'
   'acceptsThresholdForBlackAndWhiteScanning':
     'prefix': 'acceptsThresholdForBlackAndWhiteScanning'
-    'body': 'acceptsThresholdForBlackAndWhiteScanning()'
+    'body': 'acceptsThresholdForBlackAndWhiteScanning'
   'bitDepth':
     'prefix': 'bitDepth'
-    'body': 'bitDepth()'
+    'body': 'bitDepth'
   'canPerformOverviewScan':
     'prefix': 'canPerformOverviewScan'
-    'body': 'canPerformOverviewScan()'
+    'body': 'canPerformOverviewScan'
   'defaultThresholdForBlackAndWhiteScanning':
     'prefix': 'defaultThresholdForBlackAndWhiteScanning'
-    'body': 'defaultThresholdForBlackAndWhiteScanning()'
+    'body': 'defaultThresholdForBlackAndWhiteScanning'
   'measurementUnit':
     'prefix': 'measurementUnit'
-    'body': 'measurementUnit()'
+    'body': 'measurementUnit'
   'nativeXResolution':
     'prefix': 'nativeXResolution'
-    'body': 'nativeXResolution()'
+    'body': 'nativeXResolution'
   'nativeYResolution':
     'prefix': 'nativeYResolution'
-    'body': 'nativeYResolution()'
+    'body': 'nativeYResolution'
   'overviewImage':
     'prefix': 'overviewImage'
-    'body': 'overviewImage()'
+    'body': 'overviewImage'
   'overviewResolution':
     'prefix': 'overviewResolution'
-    'body': 'overviewResolution()'
+    'body': 'overviewResolution'
   'overviewScanInProgress':
     'prefix': 'overviewScanInProgress'
-    'body': 'overviewScanInProgress()'
+    'body': 'overviewScanInProgress'
   'physicalSize':
     'prefix': 'physicalSize'
-    'body': 'physicalSize()'
+    'body': 'physicalSize'
   'pixelDataType':
     'prefix': 'pixelDataType'
-    'body': 'pixelDataType()'
+    'body': 'pixelDataType'
   'preferredResolutions':
     'prefix': 'preferredResolutions'
-    'body': 'preferredResolutions()'
+    'body': 'preferredResolutions'
   'preferredScaleFactors':
     'prefix': 'preferredScaleFactors'
-    'body': 'preferredScaleFactors()'
+    'body': 'preferredScaleFactors'
   'resolution':
     'prefix': 'resolution'
-    'body': 'resolution()'
+    'body': 'resolution'
   'scaleFactor':
     'prefix': 'scaleFactor'
-    'body': 'scaleFactor()'
+    'body': 'scaleFactor'
   'scanArea':
     'prefix': 'scanArea'
-    'body': 'scanArea()'
+    'body': 'scanArea'
   'scanAreaOrientation':
     'prefix': 'scanAreaOrientation'
-    'body': 'scanAreaOrientation()'
+    'body': 'scanAreaOrientation'
   'scanInProgress':
     'prefix': 'scanInProgress'
-    'body': 'scanInProgress()'
+    'body': 'scanInProgress'
   'scanProgressPercentDone':
     'prefix': 'scanProgressPercentDone'
-    'body': 'scanProgressPercentDone()'
+    'body': 'scanProgressPercentDone'
   'setBitDepth:':
     'prefix': 'setBitDepth:'
     'body': 'setBitDepth(${1:ICScannerBitDepth bitDepth})'
@@ -1066,55 +1108,58 @@
     'body': 'setUsesThresholdForBlackAndWhiteScanning(${1:BOOL usesThresholdForBlackAndWhiteScanning})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'supportedBitDepths':
     'prefix': 'supportedBitDepths'
-    'body': 'supportedBitDepths()'
+    'body': 'supportedBitDepths'
   'supportedMeasurementUnits':
     'prefix': 'supportedMeasurementUnits'
-    'body': 'supportedMeasurementUnits()'
+    'body': 'supportedMeasurementUnits'
   'supportedResolutions':
     'prefix': 'supportedResolutions'
-    'body': 'supportedResolutions()'
+    'body': 'supportedResolutions'
   'supportedScaleFactors':
     'prefix': 'supportedScaleFactors'
-    'body': 'supportedScaleFactors()'
+    'body': 'supportedScaleFactors'
   'templates':
     'prefix': 'templates'
-    'body': 'templates()'
+    'body': 'templates'
   'thresholdForBlackAndWhiteScanning':
     'prefix': 'thresholdForBlackAndWhiteScanning'
-    'body': 'thresholdForBlackAndWhiteScanning()'
+    'body': 'thresholdForBlackAndWhiteScanning'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'usesThresholdForBlackAndWhiteScanning':
     'prefix': 'usesThresholdForBlackAndWhiteScanning'
-    'body': 'usesThresholdForBlackAndWhiteScanning()'
+    'body': 'usesThresholdForBlackAndWhiteScanning'
   'vendorFeatures':
     'prefix': 'vendorFeatures'
-    'body': 'vendorFeatures()'
+    'body': 'vendorFeatures'
+  'ICScannerFunctionalUnitDocumentFeeder':
+    'prefix': 'ICScannerFunctionalUnitDocumentFeeder'
+    'body': 'ICScannerFunctionalUnitDocumentFeeder'
   'documentLoaded':
     'prefix': 'documentLoaded'
-    'body': 'documentLoaded()'
+    'body': 'documentLoaded'
   'documentSize':
     'prefix': 'documentSize'
-    'body': 'documentSize()'
+    'body': 'documentSize'
   'documentType':
     'prefix': 'documentType'
-    'body': 'documentType()'
+    'body': 'documentType'
   'duplexScanningEnabled':
     'prefix': 'duplexScanningEnabled'
-    'body': 'duplexScanningEnabled()'
+    'body': 'duplexScanningEnabled'
   'evenPageOrientation':
     'prefix': 'evenPageOrientation'
-    'body': 'evenPageOrientation()'
+    'body': 'evenPageOrientation'
   'oddPageOrientation':
     'prefix': 'oddPageOrientation'
-    'body': 'oddPageOrientation()'
+    'body': 'oddPageOrientation'
   'reverseFeederPageOrder':
     'prefix': 'reverseFeederPageOrder'
-    'body': 'reverseFeederPageOrder()'
+    'body': 'reverseFeederPageOrder'
   'setDocumentType:':
     'prefix': 'setDocumentType:'
     'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
@@ -1129,46 +1174,58 @@
     'body': 'setOddPageOrientation(${1:ICEXIFOrientationType oddPageOrientation})'
   'supportedDocumentTypes':
     'prefix': 'supportedDocumentTypes'
-    'body': 'supportedDocumentTypes()'
+    'body': 'supportedDocumentTypes'
   'supportsDuplexScanning':
     'prefix': 'supportsDuplexScanning'
-    'body': 'supportsDuplexScanning()'
+    'body': 'supportsDuplexScanning'
+  'ICScannerFunctionalUnitFlatbed':
+    'prefix': 'ICScannerFunctionalUnitFlatbed'
+    'body': 'ICScannerFunctionalUnitFlatbed'
   'documentSize':
     'prefix': 'documentSize'
-    'body': 'documentSize()'
+    'body': 'documentSize'
   'documentType':
     'prefix': 'documentType'
-    'body': 'documentType()'
+    'body': 'documentType'
   'setDocumentType:':
     'prefix': 'setDocumentType:'
     'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
   'supportedDocumentTypes':
     'prefix': 'supportedDocumentTypes'
-    'body': 'supportedDocumentTypes()'
+    'body': 'supportedDocumentTypes'
+  'ICScannerFunctionalUnitNegativeTransparency':
+    'prefix': 'ICScannerFunctionalUnitNegativeTransparency'
+    'body': 'ICScannerFunctionalUnitNegativeTransparency'
   'documentSize':
     'prefix': 'documentSize'
-    'body': 'documentSize()'
+    'body': 'documentSize'
   'documentType':
     'prefix': 'documentType'
-    'body': 'documentType()'
+    'body': 'documentType'
   'setDocumentType:':
     'prefix': 'setDocumentType:'
     'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
   'supportedDocumentTypes':
     'prefix': 'supportedDocumentTypes'
-    'body': 'supportedDocumentTypes()'
+    'body': 'supportedDocumentTypes'
+  'ICScannerFunctionalUnitPositiveTransparency':
+    'prefix': 'ICScannerFunctionalUnitPositiveTransparency'
+    'body': 'ICScannerFunctionalUnitPositiveTransparency'
   'documentSize':
     'prefix': 'documentSize'
-    'body': 'documentSize()'
+    'body': 'documentSize'
   'documentType':
     'prefix': 'documentType'
-    'body': 'documentType()'
+    'body': 'documentType'
   'setDocumentType:':
     'prefix': 'setDocumentType:'
     'body': 'setDocumentType(${1:ICScannerDocumentType documentType})'
   'supportedDocumentTypes':
     'prefix': 'supportedDocumentTypes'
-    'body': 'supportedDocumentTypes()'
+    'body': 'supportedDocumentTypes'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'cameraDevice:didAddItem:':
     'prefix': 'cameraDevice:didAddItem:'
     'body': 'cameraDevice(${1:ICCameraDevice* camera}, didAddItem:${2:ICCameraItem* item})'
@@ -1277,6 +1334,9 @@
   'scannerDeviceDidBecomeAvailable:':
     'prefix': 'scannerDeviceDidBecomeAvailable:'
     'body': 'scannerDeviceDidBecomeAvailable(${1:ICScannerDevice* scanner})'
+  'ICCameraDeviceDelegate':
+    'prefix': 'ICCameraDeviceDelegate'
+    'body': 'ICCameraDeviceDelegate'
   'cameraDevice:didAddItem:':
     'prefix': 'cameraDevice:didAddItem:'
     'body': 'cameraDevice(${1:ICCameraDevice* camera}, didAddItem:${2:ICCameraItem* item})'
@@ -1310,12 +1370,18 @@
   'deviceDidBecomeReadyWithCompleteContentCatalog:':
     'prefix': 'deviceDidBecomeReadyWithCompleteContentCatalog:'
     'body': 'deviceDidBecomeReadyWithCompleteContentCatalog(${1:ICDevice* device})'
+  'ICCameraDeviceDownloadDelegate':
+    'prefix': 'ICCameraDeviceDownloadDelegate'
+    'body': 'ICCameraDeviceDownloadDelegate'
   'didDownloadFile:error:options:contextInfo:':
     'prefix': 'didDownloadFile:error:options:contextInfo:'
     'body': 'didDownloadFile(${1:ICCameraFile* file}, error:${2:NSError* error}, options:${3:NSDictionary* options}, contextInfo:${4:void* contextInfo})'
   'didReceiveDownloadProgressForFile:downloadedBytes:maxBytes:':
     'prefix': 'didReceiveDownloadProgressForFile:downloadedBytes:maxBytes:'
     'body': 'didReceiveDownloadProgressForFile(${1:ICCameraFile* file}, downloadedBytes:${2:off_t downloadedBytes}, maxBytes:${3:off_t maxBytes})'
+  'ICDeviceBrowserDelegate':
+    'prefix': 'ICDeviceBrowserDelegate'
+    'body': 'ICDeviceBrowserDelegate'
   'deviceBrowser:deviceDidChangeName:':
     'prefix': 'deviceBrowser:deviceDidChangeName:'
     'body': 'deviceBrowser(${1:ICDeviceBrowser* browser}, deviceDidChangeName:${2:ICDevice* device})'
@@ -1334,6 +1400,9 @@
   'deviceBrowserDidEnumerateLocalDevices:':
     'prefix': 'deviceBrowserDidEnumerateLocalDevices:'
     'body': 'deviceBrowserDidEnumerateLocalDevices(${1:ICDeviceBrowser* browser})'
+  'ICDeviceDelegate':
+    'prefix': 'ICDeviceDelegate'
+    'body': 'ICDeviceDelegate'
   'device:didCloseSessionWithError:':
     'prefix': 'device:didCloseSessionWithError:'
     'body': 'device(${1:ICDevice* device}, didCloseSessionWithError:${2:NSError* error})'
@@ -1364,6 +1433,9 @@
   'didRemoveDevice:':
     'prefix': 'didRemoveDevice:'
     'body': 'didRemoveDevice(${1:ICDevice* device})'
+  'ICScannerDeviceDelegate':
+    'prefix': 'ICScannerDeviceDelegate'
+    'body': 'ICScannerDeviceDelegate'
   'scannerDevice:didCompleteOverviewScanWithError:':
     'prefix': 'scannerDevice:didCompleteOverviewScanWithError:'
     'body': 'scannerDevice(${1:ICScannerDevice* scanner}, didCompleteOverviewScanWithError:${2:NSError* error})'

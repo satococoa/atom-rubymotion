@@ -151,7 +151,7 @@
     'body': 'DSpGetNextContext(${1:DSpContextReference inCurrentContext}, ${2:DSpContextReference* outContext})'
   'DSpGetVersion':
     'prefix': 'DSpGetVersion'
-    'body': 'DSpGetVersion()'
+    'body': 'DSpGetVersion'
   'DSpProcessEvent':
     'prefix': 'DSpProcessEvent'
     'body': 'DSpProcessEvent(${1:EventRecord* inEvent}, ${2:Boolean* outEventWasProcessed})'
@@ -163,7 +163,7 @@
     'body': 'DSpSetDebugMode(${1:Boolean inDebugMode})'
   'DSpShutdown':
     'prefix': 'DSpShutdown'
-    'body': 'DSpShutdown()'
+    'body': 'DSpShutdown'
   'DSpStartup':
     'prefix': 'DSpStartup'
-    'body': 'DSpStartup()'
+    'body': 'DSpStartup'

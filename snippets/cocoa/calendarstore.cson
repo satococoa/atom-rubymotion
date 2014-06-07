@@ -125,27 +125,30 @@
   'CalSpanThisEvent (0)':
     'prefix': 'CalSpanThisEvent'
     'body': 'CalSpanThisEvent'
+  'CalAlarm':
+    'prefix': 'CalAlarm'
+    'body': 'CalAlarm'
   'absoluteTrigger':
     'prefix': 'absoluteTrigger'
-    'body': 'absoluteTrigger()'
+    'body': 'absoluteTrigger'
   'acknowledged':
     'prefix': 'acknowledged'
-    'body': 'acknowledged()'
+    'body': 'acknowledged'
   'action':
     'prefix': 'action'
-    'body': 'action()'
+    'body': 'action'
   'CalAlarm.alarm':
     'prefix': 'alarm'
-    'body': 'alarm()'
+    'body': 'alarm'
   'emailAddress':
     'prefix': 'emailAddress'
-    'body': 'emailAddress()'
+    'body': 'emailAddress'
   'relatedTo':
     'prefix': 'relatedTo'
-    'body': 'relatedTo()'
+    'body': 'relatedTo'
   'relativeTrigger':
     'prefix': 'relativeTrigger'
-    'body': 'relativeTrigger()'
+    'body': 'relativeTrigger'
   'setAbsoluteTrigger:':
     'prefix': 'setAbsoluteTrigger:'
     'body': 'setAbsoluteTrigger(${1:NSDate* absoluteTrigger})'
@@ -172,34 +175,40 @@
     'body': 'setUrl(${1:NSURL* url})'
   'sound':
     'prefix': 'sound'
-    'body': 'sound()'
+    'body': 'sound'
   'triggerDateRelativeTo:':
     'prefix': 'triggerDateRelativeTo:'
     'body': 'triggerDateRelativeTo(${1:NSDate* date})'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'CalAttendee':
+    'prefix': 'CalAttendee'
+    'body': 'CalAttendee'
   'address':
     'prefix': 'address'
-    'body': 'address()'
+    'body': 'address'
   'commonName':
     'prefix': 'commonName'
-    'body': 'commonName()'
+    'body': 'commonName'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'CalCalendar':
+    'prefix': 'CalCalendar'
+    'body': 'CalCalendar'
   'CalCalendar.calendar':
     'prefix': 'calendar'
-    'body': 'calendar()'
+    'body': 'calendar'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'isEditable':
     'prefix': 'isEditable'
-    'body': 'isEditable()'
+    'body': 'isEditable'
   'notes':
     'prefix': 'notes'
-    'body': 'notes()'
+    'body': 'notes'
   'setColor:':
     'prefix': 'setColor:'
     'body': 'setColor(${1:NSColor* color})'
@@ -211,13 +220,16 @@
     'body': 'setTitle(${1:NSString* title})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'uid':
     'prefix': 'uid'
-    'body': 'uid()'
+    'body': 'uid'
+  'CalCalendarItem':
+    'prefix': 'CalCalendarItem'
+    'body': 'CalCalendarItem'
   'addAlarm:':
     'prefix': 'addAlarm:'
     'body': 'addAlarm(${1:CalAlarm* alarm})'
@@ -226,22 +238,22 @@
     'body': 'addAlarms(${1:NSArray* alarms})'
   'alarms':
     'prefix': 'alarms'
-    'body': 'alarms()'
+    'body': 'alarms'
   'calendar':
     'prefix': 'calendar'
-    'body': 'calendar()'
+    'body': 'calendar'
   'dateStamp':
     'prefix': 'dateStamp'
-    'body': 'dateStamp()'
+    'body': 'dateStamp'
   'hasAlarm':
     'prefix': 'hasAlarm'
-    'body': 'hasAlarm()'
+    'body': 'hasAlarm'
   'nextAlarmDate':
     'prefix': 'nextAlarmDate'
-    'body': 'nextAlarmDate()'
+    'body': 'nextAlarmDate'
   'notes':
     'prefix': 'notes'
-    'body': 'notes()'
+    'body': 'notes'
   'removeAlarm:':
     'prefix': 'removeAlarm:'
     'body': 'removeAlarm(${1:CalAlarm* alarm})'
@@ -265,22 +277,25 @@
     'body': 'setUrl(${1:NSURL* url})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'uid':
     'prefix': 'uid'
-    'body': 'uid()'
+    'body': 'uid'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'CalCalendarStore':
+    'prefix': 'CalCalendarStore'
+    'body': 'CalCalendarStore'
   'calendarWithUID:':
     'prefix': 'calendarWithUID:'
     'body': 'calendarWithUID(${1:NSString* UID})'
   'calendars':
     'prefix': 'calendars'
-    'body': 'calendars()'
+    'body': 'calendars'
   'CalCalendarStore.defaultCalendarStore':
     'prefix': 'defaultCalendarStore'
-    'body': 'defaultCalendarStore()'
+    'body': 'defaultCalendarStore'
   'CalCalendarStore.eventPredicateWithStartDate:endDate:UID:calendars:':
     'prefix': 'eventPredicateWithStartDate:endDate:UID:calendars:'
     'body': 'eventPredicateWithStartDate(${1:NSDate* startDate}, endDate:${2:NSDate* endDate}, UID:${3:NSString* UID}, calendars:${4:NSArray* calendars})'
@@ -329,30 +344,33 @@
   'tasksWithPredicate:':
     'prefix': 'tasksWithPredicate:'
     'body': 'tasksWithPredicate(${1:NSPredicate* predicate})'
+  'CalEvent':
+    'prefix': 'CalEvent'
+    'body': 'CalEvent'
   'attendees':
     'prefix': 'attendees'
-    'body': 'attendees()'
+    'body': 'attendees'
   'endDate':
     'prefix': 'endDate'
-    'body': 'endDate()'
+    'body': 'endDate'
   'CalEvent.event':
     'prefix': 'event'
-    'body': 'event()'
+    'body': 'event'
   'isAllDay':
     'prefix': 'isAllDay'
-    'body': 'isAllDay()'
+    'body': 'isAllDay'
   'isDetached':
     'prefix': 'isDetached'
-    'body': 'isDetached()'
+    'body': 'isDetached'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'occurrence':
     'prefix': 'occurrence'
-    'body': 'occurrence()'
+    'body': 'occurrence'
   'recurrenceRule':
     'prefix': 'recurrenceRule'
-    'body': 'recurrenceRule()'
+    'body': 'recurrenceRule'
   'setEndDate:':
     'prefix': 'setEndDate:'
     'body': 'setEndDate(${1:NSDate* endDate})'
@@ -370,19 +388,25 @@
     'body': 'setStartDate(${1:NSDate* startDate})'
   'startDate':
     'prefix': 'startDate'
-    'body': 'startDate()'
+    'body': 'startDate'
+  'CalNthWeekDay':
+    'prefix': 'CalNthWeekDay'
+    'body': 'CalNthWeekDay'
   'dayOfTheWeek':
     'prefix': 'dayOfTheWeek'
-    'body': 'dayOfTheWeek()'
+    'body': 'dayOfTheWeek'
   'weekNumber':
     'prefix': 'weekNumber'
-    'body': 'weekNumber()'
+    'body': 'weekNumber'
+  'CalRecurrenceEnd':
+    'prefix': 'CalRecurrenceEnd'
+    'body': 'CalRecurrenceEnd'
   'endDate':
     'prefix': 'endDate'
-    'body': 'endDate()'
+    'body': 'endDate'
   'occurrenceCount':
     'prefix': 'occurrenceCount'
-    'body': 'occurrenceCount()'
+    'body': 'occurrenceCount'
   'CalRecurrenceEnd.recurrenceEndWithEndDate:':
     'prefix': 'recurrenceEndWithEndDate:'
     'body': 'recurrenceEndWithEndDate(${1:NSDate* endDate})'
@@ -391,16 +415,19 @@
     'body': 'recurrenceEndWithOccurrenceCount(${1:NSUInteger occurrenceCount})'
   'usesEndDate':
     'prefix': 'usesEndDate'
-    'body': 'usesEndDate()'
+    'body': 'usesEndDate'
+  'CalRecurrenceRule':
+    'prefix': 'CalRecurrenceRule'
+    'body': 'CalRecurrenceRule'
   'daysOfTheMonth':
     'prefix': 'daysOfTheMonth'
-    'body': 'daysOfTheMonth()'
+    'body': 'daysOfTheMonth'
   'daysOfTheWeek':
     'prefix': 'daysOfTheWeek'
-    'body': 'daysOfTheWeek()'
+    'body': 'daysOfTheWeek'
   'firstDayOfTheWeek':
     'prefix': 'firstDayOfTheWeek'
-    'body': 'firstDayOfTheWeek()'
+    'body': 'firstDayOfTheWeek'
   'initDailyRecurrenceWithInterval:end:':
     'prefix': 'initDailyRecurrenceWithInterval:end:'
     'body': 'initDailyRecurrenceWithInterval(${1:NSUInteger interval}, end:${2:CalRecurrenceEnd* end})'
@@ -430,31 +457,34 @@
     'body': 'initYearlyRecurrenceWithInterval(${1:NSUInteger interval}, forMonthsOfTheYear:${2:NSArray* months}, end:${3:CalRecurrenceEnd* end})'
   'monthsOfTheYear':
     'prefix': 'monthsOfTheYear'
-    'body': 'monthsOfTheYear()'
+    'body': 'monthsOfTheYear'
   'nthWeekDaysOfTheMonth':
     'prefix': 'nthWeekDaysOfTheMonth'
-    'body': 'nthWeekDaysOfTheMonth()'
+    'body': 'nthWeekDaysOfTheMonth'
   'recurrenceEnd':
     'prefix': 'recurrenceEnd'
-    'body': 'recurrenceEnd()'
+    'body': 'recurrenceEnd'
   'recurrenceInterval':
     'prefix': 'recurrenceInterval'
-    'body': 'recurrenceInterval()'
+    'body': 'recurrenceInterval'
   'recurrenceType':
     'prefix': 'recurrenceType'
-    'body': 'recurrenceType()'
+    'body': 'recurrenceType'
+  'CalTask':
+    'prefix': 'CalTask'
+    'body': 'CalTask'
   'completedDate':
     'prefix': 'completedDate'
-    'body': 'completedDate()'
+    'body': 'completedDate'
   'dueDate':
     'prefix': 'dueDate'
-    'body': 'dueDate()'
+    'body': 'dueDate'
   'isCompleted':
     'prefix': 'isCompleted'
-    'body': 'isCompleted()'
+    'body': 'isCompleted'
   'priority':
     'prefix': 'priority'
-    'body': 'priority()'
+    'body': 'priority'
   'setCompletedDate:':
     'prefix': 'setCompletedDate:'
     'body': 'setCompletedDate(${1:NSDate* completedDate})'
@@ -469,4 +499,4 @@
     'body': 'setPriority(${1:CalPriority priority})'
   'CalTask.task':
     'prefix': 'task'
-    'body': 'task()'
+    'body': 'task'

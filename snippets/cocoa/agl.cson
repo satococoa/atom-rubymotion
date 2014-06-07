@@ -640,13 +640,13 @@
     'body': 'aglGetCGLPixelFormat(${1:AGLPixelFormat pix}, ${2:void** cgl_pix})'
   'aglGetCurrentContext':
     'prefix': 'aglGetCurrentContext'
-    'body': 'aglGetCurrentContext()'
+    'body': 'aglGetCurrentContext'
   'aglGetDrawable':
     'prefix': 'aglGetDrawable'
     'body': 'aglGetDrawable(${1:AGLContext ctx})'
   'aglGetError':
     'prefix': 'aglGetError'
-    'body': 'aglGetError()'
+    'body': 'aglGetError'
   'aglGetHIViewRef':
     'prefix': 'aglGetHIViewRef'
     'body': 'aglGetHIViewRef(${1:AGLContext ctx})'
@@ -682,7 +682,7 @@
     'body': 'aglQueryRendererInfoForCGDirectDisplayIDs(${1:CGDirectDisplayID* dspIDs}, ${2:GLint ndev})'
   'aglResetLibrary':
     'prefix': 'aglResetLibrary'
-    'body': 'aglResetLibrary()'
+    'body': 'aglResetLibrary'
   'aglSetCurrentContext':
     'prefix': 'aglSetCurrentContext'
     'body': 'aglSetCurrentContext(${1:AGLContext ctx})'
@@ -742,7 +742,7 @@
     'body': 'glmFree(${1:GLvoid* ptr})'
   'glmGetError':
     'prefix': 'glmGetError'
-    'body': 'glmGetError()'
+    'body': 'glmGetError'
   'glmGetInteger':
     'prefix': 'glmGetInteger'
     'body': 'glmGetInteger(${1:GLenum param})'
@@ -751,7 +751,7 @@
     'body': 'glmMalloc(${1:GLsizei size})'
   'glmPageFreeAll':
     'prefix': 'glmPageFreeAll'
-    'body': 'glmPageFreeAll()'
+    'body': 'glmPageFreeAll'
   'glmRealloc':
     'prefix': 'glmRealloc'
     'body': 'glmRealloc(${1:GLvoid* ptr}, ${2:GLsizei size})'

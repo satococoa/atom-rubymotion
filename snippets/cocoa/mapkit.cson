@@ -245,57 +245,60 @@
   'MKStringFromMapSize':
     'prefix': 'MKStringFromMapSize'
     'body': 'MKStringFromMapSize(${1: size})'
+  'MKAnnotationView':
+    'prefix': 'MKAnnotationView'
+    'body': 'MKAnnotationView'
   'annotation':
     'prefix': 'annotation'
-    'body': 'annotation()'
+    'body': 'annotation'
   'calloutOffset':
     'prefix': 'calloutOffset'
-    'body': 'calloutOffset()'
+    'body': 'calloutOffset'
   'canShowCallout':
     'prefix': 'canShowCallout'
-    'body': 'canShowCallout()'
+    'body': 'canShowCallout'
   'centerOffset':
     'prefix': 'centerOffset'
-    'body': 'centerOffset()'
+    'body': 'centerOffset'
   'dragState':
     'prefix': 'dragState'
-    'body': 'dragState()'
+    'body': 'dragState'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'initWithAnnotation:reuseIdentifier:':
     'prefix': 'initWithAnnotation:reuseIdentifier:'
     'body': 'initWithAnnotation(${1: annotation}, reuseIdentifier:${2: reuseIdentifier})'
   'isDraggable':
     'prefix': 'isDraggable'
-    'body': 'isDraggable()'
+    'body': 'isDraggable'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'isHighlighted':
     'prefix': 'isHighlighted'
-    'body': 'isHighlighted()'
+    'body': 'isHighlighted'
   'isSelected':
     'prefix': 'isSelected'
-    'body': 'isSelected()'
+    'body': 'isSelected'
   'leftCalloutAccessoryView':
     'prefix': 'leftCalloutAccessoryView'
-    'body': 'leftCalloutAccessoryView()'
+    'body': 'leftCalloutAccessoryView'
   'leftCalloutOffset':
     'prefix': 'leftCalloutOffset'
-    'body': 'leftCalloutOffset()'
+    'body': 'leftCalloutOffset'
   'prepareForReuse':
     'prefix': 'prepareForReuse'
-    'body': 'prepareForReuse()'
+    'body': 'prepareForReuse'
   'reuseIdentifier':
     'prefix': 'reuseIdentifier'
-    'body': 'reuseIdentifier()'
+    'body': 'reuseIdentifier'
   'rightCalloutAccessoryView':
     'prefix': 'rightCalloutAccessoryView'
-    'body': 'rightCalloutAccessoryView()'
+    'body': 'rightCalloutAccessoryView'
   'rightCalloutOffset':
     'prefix': 'rightCalloutOffset'
-    'body': 'rightCalloutOffset()'
+    'body': 'rightCalloutOffset'
   'setAnnotation:':
     'prefix': 'setAnnotation:'
     'body': 'setAnnotation(${1: annotation})'
@@ -344,9 +347,12 @@
   'setSelected:animated:':
     'prefix': 'setSelected:animated:'
     'body': 'setSelected(${1: selected}, animated:${2: animated})'
+  'MKCircle':
+    'prefix': 'MKCircle'
+    'body': 'MKCircle'
   'boundingMapRect':
     'prefix': 'boundingMapRect'
-    'body': 'boundingMapRect()'
+    'body': 'boundingMapRect'
   'MKCircle.circleWithCenterCoordinate:radius:':
     'prefix': 'circleWithCenterCoordinate:radius:'
     'body': 'circleWithCenterCoordinate(${1: coord}, radius:${2: radius})'
@@ -355,16 +361,22 @@
     'body': 'circleWithMapRect(${1: mapRect})'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'radius':
     'prefix': 'radius'
-    'body': 'radius()'
+    'body': 'radius'
+  'MKCircleRenderer':
+    'prefix': 'MKCircleRenderer'
+    'body': 'MKCircleRenderer'
   'circle':
     'prefix': 'circle'
-    'body': 'circle()'
+    'body': 'circle'
   'initWithCircle:':
     'prefix': 'initWithCircle:'
     'body': 'initWithCircle(${1: circle})'
+  'MKDirections':
+    'prefix': 'MKDirections'
+    'body': 'MKDirections'
   'calculateDirectionsWithCompletionHandler:':
     'prefix': 'calculateDirectionsWithCompletionHandler:'
     'body': 'calculateDirectionsWithCompletionHandler(${1: completionHandler})'
@@ -373,22 +385,25 @@
     'body': 'calculateETAWithCompletionHandler(${1: completionHandler})'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'initWithRequest:':
     'prefix': 'initWithRequest:'
     'body': 'initWithRequest(${1: request})'
   'isCalculating':
     'prefix': 'isCalculating'
-    'body': 'isCalculating()'
+    'body': 'isCalculating'
+  'MKDirectionsRequest':
+    'prefix': 'MKDirectionsRequest'
+    'body': 'MKDirectionsRequest'
   'arrivalDate':
     'prefix': 'arrivalDate'
-    'body': 'arrivalDate()'
+    'body': 'arrivalDate'
   'departureDate':
     'prefix': 'departureDate'
-    'body': 'departureDate()'
+    'body': 'departureDate'
   'destination':
     'prefix': 'destination'
-    'body': 'destination()'
+    'body': 'destination'
   'initWithContentsOfURL:':
     'prefix': 'initWithContentsOfURL:'
     'body': 'initWithContentsOfURL(${1: url})'
@@ -397,7 +412,7 @@
     'body': 'isDirectionsRequestURL(${1: url})'
   'requestsAlternateRoutes':
     'prefix': 'requestsAlternateRoutes'
-    'body': 'requestsAlternateRoutes()'
+    'body': 'requestsAlternateRoutes'
   'setArrivalDate:':
     'prefix': 'setArrivalDate:'
     'body': 'setArrivalDate(${1: arrivalDate})'
@@ -418,25 +433,31 @@
     'body': 'setTransportType(${1: transportType})'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
+  'MKDirectionsResponse':
+    'prefix': 'MKDirectionsResponse'
+    'body': 'MKDirectionsResponse'
   'destination':
     'prefix': 'destination'
-    'body': 'destination()'
+    'body': 'destination'
   'routes':
     'prefix': 'routes'
-    'body': 'routes()'
+    'body': 'routes'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
+  'MKDistanceFormatter':
+    'prefix': 'MKDistanceFormatter'
+    'body': 'MKDistanceFormatter'
   'distanceFromString:':
     'prefix': 'distanceFromString:'
     'body': 'distanceFromString(${1: distance})'
   'locale':
     'prefix': 'locale'
-    'body': 'locale()'
+    'body': 'locale'
   'setLocale:':
     'prefix': 'setLocale:'
     'body': 'setLocale(${1: locale})'
@@ -451,73 +472,91 @@
     'body': 'stringFromDistance(${1: distance})'
   'unitStyle':
     'prefix': 'unitStyle'
-    'body': 'unitStyle()'
+    'body': 'unitStyle'
   'units':
     'prefix': 'units'
-    'body': 'units()'
+    'body': 'units'
+  'MKETAResponse':
+    'prefix': 'MKETAResponse'
+    'body': 'MKETAResponse'
   'destination':
     'prefix': 'destination'
-    'body': 'destination()'
+    'body': 'destination'
   'expectedTravelTime':
     'prefix': 'expectedTravelTime'
-    'body': 'expectedTravelTime()'
+    'body': 'expectedTravelTime'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
+  'MKGeodesicPolyline':
+    'prefix': 'MKGeodesicPolyline'
+    'body': 'MKGeodesicPolyline'
   'MKGeodesicPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
     'body': 'polylineWithCoordinates(${1: coords}, count:${2: count})'
   'MKGeodesicPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
     'body': 'polylineWithPoints(${1: points}, count:${2: count})'
+  'MKLocalSearch':
+    'prefix': 'MKLocalSearch'
+    'body': 'MKLocalSearch'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'initWithRequest:':
     'prefix': 'initWithRequest:'
     'body': 'initWithRequest(${1: request})'
   'isSearching':
     'prefix': 'isSearching'
-    'body': 'isSearching()'
+    'body': 'isSearching'
   'startWithCompletionHandler:':
     'prefix': 'startWithCompletionHandler:'
     'body': 'startWithCompletionHandler(${1: completionHandler})'
+  'MKLocalSearchRequest':
+    'prefix': 'MKLocalSearchRequest'
+    'body': 'MKLocalSearchRequest'
   'naturalLanguageQuery':
     'prefix': 'naturalLanguageQuery'
-    'body': 'naturalLanguageQuery()'
+    'body': 'naturalLanguageQuery'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'setNaturalLanguageQuery:':
     'prefix': 'setNaturalLanguageQuery:'
     'body': 'setNaturalLanguageQuery(${1: naturalLanguageQuery})'
   'setRegion:':
     'prefix': 'setRegion:'
     'body': 'setRegion(${1: region})'
+  'MKLocalSearchResponse':
+    'prefix': 'MKLocalSearchResponse'
+    'body': 'MKLocalSearchResponse'
   'boundingRegion':
     'prefix': 'boundingRegion'
-    'body': 'boundingRegion()'
+    'body': 'boundingRegion'
   'mapItems':
     'prefix': 'mapItems'
-    'body': 'mapItems()'
+    'body': 'mapItems'
+  'MKMapCamera':
+    'prefix': 'MKMapCamera'
+    'body': 'MKMapCamera'
   'altitude':
     'prefix': 'altitude'
-    'body': 'altitude()'
+    'body': 'altitude'
   'MKMapCamera.camera':
     'prefix': 'camera'
-    'body': 'camera()'
+    'body': 'camera'
   'MKMapCamera.cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:':
     'prefix': 'cameraLookingAtCenterCoordinate:fromEyeCoordinate:eyeAltitude:'
     'body': 'cameraLookingAtCenterCoordinate(${1: centerCoordinate}, fromEyeCoordinate:${2: eyeCoordinate}, eyeAltitude:${3: eyeAltitude})'
   'centerCoordinate':
     'prefix': 'centerCoordinate'
-    'body': 'centerCoordinate()'
+    'body': 'centerCoordinate'
   'heading':
     'prefix': 'heading'
-    'body': 'heading()'
+    'body': 'heading'
   'pitch':
     'prefix': 'pitch'
-    'body': 'pitch()'
+    'body': 'pitch'
   'setAltitude:':
     'prefix': 'setAltitude:'
     'body': 'setAltitude(${1: altitude})'
@@ -530,18 +569,21 @@
   'setPitch:':
     'prefix': 'setPitch:'
     'body': 'setPitch(${1: pitch})'
+  'MKMapItem':
+    'prefix': 'MKMapItem'
+    'body': 'MKMapItem'
   'initWithPlacemark:':
     'prefix': 'initWithPlacemark:'
     'body': 'initWithPlacemark(${1: placemark})'
   'isCurrentLocation':
     'prefix': 'isCurrentLocation'
-    'body': 'isCurrentLocation()'
+    'body': 'isCurrentLocation'
   'MKMapItem.mapItemForCurrentLocation':
     'prefix': 'mapItemForCurrentLocation'
-    'body': 'mapItemForCurrentLocation()'
+    'body': 'mapItemForCurrentLocation'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'openInMapsWithLaunchOptions:':
     'prefix': 'openInMapsWithLaunchOptions:'
     'body': 'openInMapsWithLaunchOptions(${1: launchOptions})'
@@ -550,10 +592,10 @@
     'body': 'openMapsWithItems(${1: mapItems}, launchOptions:${2: launchOptions})'
   'phoneNumber':
     'prefix': 'phoneNumber'
-    'body': 'phoneNumber()'
+    'body': 'phoneNumber'
   'placemark':
     'prefix': 'placemark'
-    'body': 'placemark()'
+    'body': 'placemark'
   'setName:':
     'prefix': 'setName:'
     'body': 'setName(${1: name})'
@@ -565,25 +607,31 @@
     'body': 'setUrl(${1: url})'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'MKMapSnapshot':
+    'prefix': 'MKMapSnapshot'
+    'body': 'MKMapSnapshot'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'pointForCoordinate:':
     'prefix': 'pointForCoordinate:'
     'body': 'pointForCoordinate(${1: coordinate})'
+  'MKMapSnapshotOptions':
+    'prefix': 'MKMapSnapshotOptions'
+    'body': 'MKMapSnapshotOptions'
   'camera':
     'prefix': 'camera'
-    'body': 'camera()'
+    'body': 'camera'
   'mapRect':
     'prefix': 'mapRect'
-    'body': 'mapRect()'
+    'body': 'mapRect'
   'mapType':
     'prefix': 'mapType'
-    'body': 'mapType()'
+    'body': 'mapType'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'setCamera:':
     'prefix': 'setCamera:'
     'body': 'setCamera(${1: camera})'
@@ -607,28 +655,34 @@
     'body': 'setSize(${1: size})'
   'showsBuildings':
     'prefix': 'showsBuildings'
-    'body': 'showsBuildings()'
+    'body': 'showsBuildings'
   'showsPointsOfInterest':
     'prefix': 'showsPointsOfInterest'
-    'body': 'showsPointsOfInterest()'
+    'body': 'showsPointsOfInterest'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
+  'MKMapSnapshotter':
+    'prefix': 'MKMapSnapshotter'
+    'body': 'MKMapSnapshotter'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'initWithOptions:':
     'prefix': 'initWithOptions:'
     'body': 'initWithOptions(${1: options})'
   'isLoading':
     'prefix': 'isLoading'
-    'body': 'isLoading()'
+    'body': 'isLoading'
   'startWithCompletionHandler:':
     'prefix': 'startWithCompletionHandler:'
     'body': 'startWithCompletionHandler(${1: completionHandler})'
   'startWithQueue:completionHandler:':
     'prefix': 'startWithQueue:completionHandler:'
     'body': 'startWithQueue(${1: queue}, completionHandler:${2: completionHandler})'
+  'MKMapView':
+    'prefix': 'MKMapView'
+    'body': 'MKMapView'
   'addAnnotation:':
     'prefix': 'addAnnotation:'
     'body': 'addAnnotation(${1: annotation})'
@@ -649,19 +703,19 @@
     'body': 'addOverlays(${1: overlays}, level:${2: level})'
   'annotationVisibleRect':
     'prefix': 'annotationVisibleRect'
-    'body': 'annotationVisibleRect()'
+    'body': 'annotationVisibleRect'
   'annotations':
     'prefix': 'annotations'
-    'body': 'annotations()'
+    'body': 'annotations'
   'annotationsInMapRect:':
     'prefix': 'annotationsInMapRect:'
     'body': 'annotationsInMapRect(${1: mapRect})'
   'camera':
     'prefix': 'camera'
-    'body': 'camera()'
+    'body': 'camera'
   'centerCoordinate':
     'prefix': 'centerCoordinate'
-    'body': 'centerCoordinate()'
+    'body': 'centerCoordinate'
   'convertCoordinate:toPointToView:':
     'prefix': 'convertCoordinate:toPointToView:'
     'body': 'convertCoordinate(${1: coordinate}, toPointToView:${2: view})'
@@ -676,7 +730,7 @@
     'body': 'convertRegion(${1: region}, toRectToView:${2: view})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'dequeueReusableAnnotationViewWithIdentifier:':
     'prefix': 'dequeueReusableAnnotationViewWithIdentifier:'
     'body': 'dequeueReusableAnnotationViewWithIdentifier(${1: identifier})'
@@ -703,19 +757,19 @@
     'body': 'insertOverlay(${1: overlay}, belowOverlay:${2: sibling})'
   'isPitchEnabled':
     'prefix': 'isPitchEnabled'
-    'body': 'isPitchEnabled()'
+    'body': 'isPitchEnabled'
   'isRotateEnabled':
     'prefix': 'isRotateEnabled'
-    'body': 'isRotateEnabled()'
+    'body': 'isRotateEnabled'
   'isScrollEnabled':
     'prefix': 'isScrollEnabled'
-    'body': 'isScrollEnabled()'
+    'body': 'isScrollEnabled'
   'isUserLocationVisible':
     'prefix': 'isUserLocationVisible'
-    'body': 'isUserLocationVisible()'
+    'body': 'isUserLocationVisible'
   'isZoomEnabled':
     'prefix': 'isZoomEnabled'
-    'body': 'isZoomEnabled()'
+    'body': 'isZoomEnabled'
   'mapRectThatFits:':
     'prefix': 'mapRectThatFits:'
     'body': 'mapRectThatFits(${1: mapRect})'
@@ -724,16 +778,16 @@
     'body': 'mapRectThatFits(${1: mapRect}, edgePadding:${2: insets})'
   'mapType':
     'prefix': 'mapType'
-    'body': 'mapType()'
+    'body': 'mapType'
   'overlays':
     'prefix': 'overlays'
-    'body': 'overlays()'
+    'body': 'overlays'
   'overlaysInLevel:':
     'prefix': 'overlaysInLevel:'
     'body': 'overlaysInLevel(${1: level})'
   'region':
     'prefix': 'region'
-    'body': 'region()'
+    'body': 'region'
   'regionThatFits:':
     'prefix': 'regionThatFits:'
     'body': 'regionThatFits(${1: region})'
@@ -757,7 +811,7 @@
     'body': 'selectAnnotation(${1: annotation}, animated:${2: animated})'
   'selectedAnnotations':
     'prefix': 'selectedAnnotations'
-    'body': 'selectedAnnotations()'
+    'body': 'selectedAnnotations'
   'setCamera:':
     'prefix': 'setCamera:'
     'body': 'setCamera(${1: camera})'
@@ -826,37 +880,43 @@
     'body': 'showAnnotations(${1: annotations}, animated:${2: animated})'
   'showsBuildings':
     'prefix': 'showsBuildings'
-    'body': 'showsBuildings()'
+    'body': 'showsBuildings'
   'showsCompass':
     'prefix': 'showsCompass'
-    'body': 'showsCompass()'
+    'body': 'showsCompass'
   'showsPointsOfInterest':
     'prefix': 'showsPointsOfInterest'
-    'body': 'showsPointsOfInterest()'
+    'body': 'showsPointsOfInterest'
   'showsUserLocation':
     'prefix': 'showsUserLocation'
-    'body': 'showsUserLocation()'
+    'body': 'showsUserLocation'
   'showsZoomControls':
     'prefix': 'showsZoomControls'
-    'body': 'showsZoomControls()'
+    'body': 'showsZoomControls'
   'userLocation':
     'prefix': 'userLocation'
-    'body': 'userLocation()'
+    'body': 'userLocation'
   'viewForAnnotation:':
     'prefix': 'viewForAnnotation:'
     'body': 'viewForAnnotation(${1: annotation})'
   'visibleMapRect':
     'prefix': 'visibleMapRect'
-    'body': 'visibleMapRect()'
+    'body': 'visibleMapRect'
+  'MKMultiPoint':
+    'prefix': 'MKMultiPoint'
+    'body': 'MKMultiPoint'
   'getCoordinates:range:':
     'prefix': 'getCoordinates:range:'
     'body': 'getCoordinates(${1: coords}, range:${2: range})'
   'pointCount':
     'prefix': 'pointCount'
-    'body': 'pointCount()'
+    'body': 'pointCount'
   'points':
     'prefix': 'points'
-    'body': 'points()'
+    'body': 'points'
+  'MKOverlayPathRenderer':
+    'prefix': 'MKOverlayPathRenderer'
+    'body': 'MKOverlayPathRenderer'
   'applyFillPropertiesToContext:atZoomScale:':
     'prefix': 'applyFillPropertiesToContext:atZoomScale:'
     'body': 'applyFillPropertiesToContext(${1: context}, atZoomScale:${2: zoomScale})'
@@ -865,37 +925,37 @@
     'body': 'applyStrokePropertiesToContext(${1: context}, atZoomScale:${2: zoomScale})'
   'createPath':
     'prefix': 'createPath'
-    'body': 'createPath()'
+    'body': 'createPath'
   'fillColor':
     'prefix': 'fillColor'
-    'body': 'fillColor()'
+    'body': 'fillColor'
   'fillPath:inContext:':
     'prefix': 'fillPath:inContext:'
     'body': 'fillPath(${1: path}, inContext:${2: context})'
   'invalidatePath':
     'prefix': 'invalidatePath'
-    'body': 'invalidatePath()'
+    'body': 'invalidatePath'
   'lineCap':
     'prefix': 'lineCap'
-    'body': 'lineCap()'
+    'body': 'lineCap'
   'lineDashPattern':
     'prefix': 'lineDashPattern'
-    'body': 'lineDashPattern()'
+    'body': 'lineDashPattern'
   'lineDashPhase':
     'prefix': 'lineDashPhase'
-    'body': 'lineDashPhase()'
+    'body': 'lineDashPhase'
   'lineJoin':
     'prefix': 'lineJoin'
-    'body': 'lineJoin()'
+    'body': 'lineJoin'
   'lineWidth':
     'prefix': 'lineWidth'
-    'body': 'lineWidth()'
+    'body': 'lineWidth'
   'miterLimit':
     'prefix': 'miterLimit'
-    'body': 'miterLimit()'
+    'body': 'miterLimit'
   'path':
     'prefix': 'path'
-    'body': 'path()'
+    'body': 'path'
   'setFillColor:':
     'prefix': 'setFillColor:'
     'body': 'setFillColor(${1: fillColor})'
@@ -925,19 +985,22 @@
     'body': 'setStrokeColor(${1: strokeColor})'
   'strokeColor':
     'prefix': 'strokeColor'
-    'body': 'strokeColor()'
+    'body': 'strokeColor'
   'strokePath:inContext:':
     'prefix': 'strokePath:inContext:'
     'body': 'strokePath(${1: path}, inContext:${2: context})'
+  'MKOverlayRenderer':
+    'prefix': 'MKOverlayRenderer'
+    'body': 'MKOverlayRenderer'
   'alpha':
     'prefix': 'alpha'
-    'body': 'alpha()'
+    'body': 'alpha'
   'canDrawMapRect:zoomScale:':
     'prefix': 'canDrawMapRect:zoomScale:'
     'body': 'canDrawMapRect(${1: mapRect}, zoomScale:${2: zoomScale})'
   'contentScaleFactor':
     'prefix': 'contentScaleFactor'
-    'body': 'contentScaleFactor()'
+    'body': 'contentScaleFactor'
   'drawMapRect:zoomScale:inContext:':
     'prefix': 'drawMapRect:zoomScale:inContext:'
     'body': 'drawMapRect(${1: mapRect}, zoomScale:${2: zoomScale}, inContext:${3: context})'
@@ -952,7 +1015,7 @@
     'body': 'mapRectForRect(${1: rect})'
   'overlay':
     'prefix': 'overlay'
-    'body': 'overlay()'
+    'body': 'overlay'
   'pointForMapPoint:':
     'prefix': 'pointForMapPoint:'
     'body': 'pointForMapPoint(${1: mapPoint})'
@@ -964,40 +1027,52 @@
     'body': 'setAlpha(${1: alpha})'
   'setNeedsDisplay':
     'prefix': 'setNeedsDisplay'
-    'body': 'setNeedsDisplay()'
+    'body': 'setNeedsDisplay'
   'setNeedsDisplayInMapRect:':
     'prefix': 'setNeedsDisplayInMapRect:'
     'body': 'setNeedsDisplayInMapRect(${1: mapRect})'
   'setNeedsDisplayInMapRect:zoomScale:':
     'prefix': 'setNeedsDisplayInMapRect:zoomScale:'
     'body': 'setNeedsDisplayInMapRect(${1: mapRect}, zoomScale:${2: zoomScale})'
+  'MKPinAnnotationView':
+    'prefix': 'MKPinAnnotationView'
+    'body': 'MKPinAnnotationView'
   'animatesDrop':
     'prefix': 'animatesDrop'
-    'body': 'animatesDrop()'
+    'body': 'animatesDrop'
   'pinColor':
     'prefix': 'pinColor'
-    'body': 'pinColor()'
+    'body': 'pinColor'
   'setAnimatesDrop:':
     'prefix': 'setAnimatesDrop:'
     'body': 'setAnimatesDrop(${1: animatesDrop})'
   'setPinColor:':
     'prefix': 'setPinColor:'
     'body': 'setPinColor(${1: pinColor})'
+  'MKPlacemark':
+    'prefix': 'MKPlacemark'
+    'body': 'MKPlacemark'
   'countryCode':
     'prefix': 'countryCode'
-    'body': 'countryCode()'
+    'body': 'countryCode'
   'initWithCoordinate:addressDictionary:':
     'prefix': 'initWithCoordinate:addressDictionary:'
     'body': 'initWithCoordinate(${1: coordinate}, addressDictionary:${2: addressDictionary})'
+  'MKPointAnnotation':
+    'prefix': 'MKPointAnnotation'
+    'body': 'MKPointAnnotation'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'setCoordinate:':
     'prefix': 'setCoordinate:'
     'body': 'setCoordinate(${1: coordinate})'
+  'MKPolygon':
+    'prefix': 'MKPolygon'
+    'body': 'MKPolygon'
   'interiorPolygons':
     'prefix': 'interiorPolygons'
-    'body': 'interiorPolygons()'
+    'body': 'interiorPolygons'
   'MKPolygon.polygonWithCoordinates:count:':
     'prefix': 'polygonWithCoordinates:count:'
     'body': 'polygonWithCoordinates(${1: coords}, count:${2: count})'
@@ -1010,60 +1085,78 @@
   'MKPolygon.polygonWithPoints:count:interiorPolygons:':
     'prefix': 'polygonWithPoints:count:interiorPolygons:'
     'body': 'polygonWithPoints(${1: points}, count:${2: count}, interiorPolygons:${3: interiorPolygons})'
+  'MKPolygonRenderer':
+    'prefix': 'MKPolygonRenderer'
+    'body': 'MKPolygonRenderer'
   'initWithPolygon:':
     'prefix': 'initWithPolygon:'
     'body': 'initWithPolygon(${1: polygon})'
   'polygon':
     'prefix': 'polygon'
-    'body': 'polygon()'
+    'body': 'polygon'
+  'MKPolyline':
+    'prefix': 'MKPolyline'
+    'body': 'MKPolyline'
   'MKPolyline.polylineWithCoordinates:count:':
     'prefix': 'polylineWithCoordinates:count:'
     'body': 'polylineWithCoordinates(${1: coords}, count:${2: count})'
   'MKPolyline.polylineWithPoints:count:':
     'prefix': 'polylineWithPoints:count:'
     'body': 'polylineWithPoints(${1: points}, count:${2: count})'
+  'MKPolylineRenderer':
+    'prefix': 'MKPolylineRenderer'
+    'body': 'MKPolylineRenderer'
   'initWithPolyline:':
     'prefix': 'initWithPolyline:'
     'body': 'initWithPolyline(${1: polyline})'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
+  'MKRoute':
+    'prefix': 'MKRoute'
+    'body': 'MKRoute'
   'advisoryNotices':
     'prefix': 'advisoryNotices'
-    'body': 'advisoryNotices()'
+    'body': 'advisoryNotices'
   'distance':
     'prefix': 'distance'
-    'body': 'distance()'
+    'body': 'distance'
   'expectedTravelTime':
     'prefix': 'expectedTravelTime'
-    'body': 'expectedTravelTime()'
+    'body': 'expectedTravelTime'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
   'steps':
     'prefix': 'steps'
-    'body': 'steps()'
+    'body': 'steps'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
+  'MKRouteStep':
+    'prefix': 'MKRouteStep'
+    'body': 'MKRouteStep'
   'distance':
     'prefix': 'distance'
-    'body': 'distance()'
+    'body': 'distance'
   'instructions':
     'prefix': 'instructions'
-    'body': 'instructions()'
+    'body': 'instructions'
   'notice':
     'prefix': 'notice'
-    'body': 'notice()'
+    'body': 'notice'
   'polyline':
     'prefix': 'polyline'
-    'body': 'polyline()'
+    'body': 'polyline'
   'transportType':
     'prefix': 'transportType'
-    'body': 'transportType()'
+    'body': 'transportType'
+  'MKShape':
+    'prefix': 'MKShape'
+    'body': 'MKShape'
   'setSubtitle:':
     'prefix': 'setSubtitle:'
     'body': 'setSubtitle(${1: subtitle})'
@@ -1072,34 +1165,37 @@
     'body': 'setTitle(${1: title})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MKTileOverlay':
+    'prefix': 'MKTileOverlay'
+    'body': 'MKTileOverlay'
   'URLForTilePath:':
     'prefix': 'URLForTilePath:'
     'body': 'URLForTilePath(${1: path})'
   'URLTemplate':
     'prefix': 'URLTemplate'
-    'body': 'URLTemplate()'
+    'body': 'URLTemplate'
   'canReplaceMapContent':
     'prefix': 'canReplaceMapContent'
-    'body': 'canReplaceMapContent()'
+    'body': 'canReplaceMapContent'
   'initWithURLTemplate:':
     'prefix': 'initWithURLTemplate:'
     'body': 'initWithURLTemplate(${1: URLTemplate})'
   'isGeometryFlipped':
     'prefix': 'isGeometryFlipped'
-    'body': 'isGeometryFlipped()'
+    'body': 'isGeometryFlipped'
   'loadTileAtPath:result:':
     'prefix': 'loadTileAtPath:result:'
     'body': 'loadTileAtPath(${1: path}, result:${2: result})'
   'maximumZ':
     'prefix': 'maximumZ'
-    'body': 'maximumZ()'
+    'body': 'maximumZ'
   'minimumZ':
     'prefix': 'minimumZ'
-    'body': 'minimumZ()'
+    'body': 'minimumZ'
   'setCanReplaceMapContent:':
     'prefix': 'setCanReplaceMapContent:'
     'body': 'setCanReplaceMapContent(${1: canReplaceMapContent})'
@@ -1117,22 +1213,28 @@
     'body': 'setTileSize(${1: tileSize})'
   'tileSize':
     'prefix': 'tileSize'
-    'body': 'tileSize()'
+    'body': 'tileSize'
+  'MKTileOverlayRenderer':
+    'prefix': 'MKTileOverlayRenderer'
+    'body': 'MKTileOverlayRenderer'
   'initWithTileOverlay:':
     'prefix': 'initWithTileOverlay:'
     'body': 'initWithTileOverlay(${1: overlay})'
   'reloadData':
     'prefix': 'reloadData'
-    'body': 'reloadData()'
+    'body': 'reloadData'
+  'MKUserLocation':
+    'prefix': 'MKUserLocation'
+    'body': 'MKUserLocation'
   'heading':
     'prefix': 'heading'
-    'body': 'heading()'
+    'body': 'heading'
   'isUpdating':
     'prefix': 'isUpdating'
-    'body': 'isUpdating()'
+    'body': 'isUpdating'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'setSubtitle:':
     'prefix': 'setSubtitle:'
     'body': 'setSubtitle(${1: subtitle})'
@@ -1141,19 +1243,22 @@
     'body': 'setTitle(${1: title})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'boundingMapRect':
     'prefix': 'boundingMapRect'
-    'body': 'boundingMapRect()'
+    'body': 'boundingMapRect'
   'canReplaceMapContent':
     'prefix': 'canReplaceMapContent'
-    'body': 'canReplaceMapContent()'
+    'body': 'canReplaceMapContent'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'intersectsMapRect:':
     'prefix': 'intersectsMapRect:'
     'body': 'intersectsMapRect(${1: mapRect})'
@@ -1216,34 +1321,43 @@
     'body': 'setCoordinate(${1: newCoordinate})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'NSValue':
+    'prefix': 'NSValue'
+    'body': 'NSValue'
   'MKCoordinateSpanValue':
     'prefix': 'MKCoordinateSpanValue'
-    'body': 'MKCoordinateSpanValue()'
+    'body': 'MKCoordinateSpanValue'
   'MKCoordinateValue':
     'prefix': 'MKCoordinateValue'
-    'body': 'MKCoordinateValue()'
+    'body': 'MKCoordinateValue'
   'NSValue.valueWithMKCoordinate:':
     'prefix': 'valueWithMKCoordinate:'
     'body': 'valueWithMKCoordinate(${1: coordinate})'
   'NSValue.valueWithMKCoordinateSpan:':
     'prefix': 'valueWithMKCoordinateSpan:'
     'body': 'valueWithMKCoordinateSpan(${1: span})'
+  'MKAnnotation':
+    'prefix': 'MKAnnotation'
+    'body': 'MKAnnotation'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'setCoordinate:':
     'prefix': 'setCoordinate:'
     'body': 'setCoordinate(${1: newCoordinate})'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'MKMapViewDelegate':
+    'prefix': 'MKMapViewDelegate'
+    'body': 'MKMapViewDelegate'
   'mapView:annotationView:didChangeDragState:fromOldState:':
     'prefix': 'mapView:annotationView:didChangeDragState:fromOldState:'
     'body': 'mapView(${1: mapView}, annotationView:${2: view}, didChangeDragState:${3: newState}, fromOldState:${4: oldState})'
@@ -1298,15 +1412,18 @@
   'mapViewWillStartRenderingMap:':
     'prefix': 'mapViewWillStartRenderingMap:'
     'body': 'mapViewWillStartRenderingMap(${1: mapView})'
+  'MKOverlay':
+    'prefix': 'MKOverlay'
+    'body': 'MKOverlay'
   'boundingMapRect':
     'prefix': 'boundingMapRect'
-    'body': 'boundingMapRect()'
+    'body': 'boundingMapRect'
   'canReplaceMapContent':
     'prefix': 'canReplaceMapContent'
-    'body': 'canReplaceMapContent()'
+    'body': 'canReplaceMapContent'
   'coordinate':
     'prefix': 'coordinate'
-    'body': 'coordinate()'
+    'body': 'coordinate'
   'intersectsMapRect:':
     'prefix': 'intersectsMapRect:'
     'body': 'intersectsMapRect(${1: mapRect})'

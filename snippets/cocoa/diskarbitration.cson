@@ -205,7 +205,7 @@
     'body': 'DAApprovalSessionCreate(${1:CFAllocatorRef allocator})'
   'DAApprovalSessionGetTypeID':
     'prefix': 'DAApprovalSessionGetTypeID'
-    'body': 'DAApprovalSessionGetTypeID()'
+    'body': 'DAApprovalSessionGetTypeID'
   'DAApprovalSessionScheduleWithRunLoop':
     'prefix': 'DAApprovalSessionScheduleWithRunLoop'
     'body': 'DAApprovalSessionScheduleWithRunLoop(${1:DAApprovalSessionRef session}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'
@@ -244,7 +244,7 @@
     'body': 'DADiskGetOptions(${1:DADiskRef disk})'
   'DADiskGetTypeID':
     'prefix': 'DADiskGetTypeID'
-    'body': 'DADiskGetTypeID()'
+    'body': 'DADiskGetTypeID'
   'DADiskIsClaimed':
     'prefix': 'DADiskIsClaimed'
     'body': 'DADiskIsClaimed(${1:DADiskRef disk})'
@@ -301,7 +301,7 @@
     'body': 'DASessionCreate(${1:CFAllocatorRef allocator})'
   'DASessionGetTypeID':
     'prefix': 'DASessionGetTypeID'
-    'body': 'DASessionGetTypeID()'
+    'body': 'DASessionGetTypeID'
   'DASessionScheduleWithRunLoop':
     'prefix': 'DASessionScheduleWithRunLoop'
     'body': 'DASessionScheduleWithRunLoop(${1:DASessionRef session}, ${2:CFRunLoopRef runLoop}, ${3:CFStringRef runLoopMode})'

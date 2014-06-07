@@ -100,7 +100,7 @@
     'body': 'QLPreviewRequestGetGeneratorBundle(${1:QLPreviewRequestRef preview})'
   'QLPreviewRequestGetTypeID':
     'prefix': 'QLPreviewRequestGetTypeID'
-    'body': 'QLPreviewRequestGetTypeID()'
+    'body': 'QLPreviewRequestGetTypeID'
   'QLPreviewRequestIsCancelled':
     'prefix': 'QLPreviewRequestIsCancelled'
     'body': 'QLPreviewRequestIsCancelled(${1:QLPreviewRequestRef preview})'
@@ -139,7 +139,7 @@
     'body': 'QLThumbnailGetMaximumSize(${1:QLThumbnailRef thumbnail})'
   'QLThumbnailGetTypeID':
     'prefix': 'QLThumbnailGetTypeID'
-    'body': 'QLThumbnailGetTypeID()'
+    'body': 'QLThumbnailGetTypeID'
   'QLThumbnailImageCreate':
     'prefix': 'QLThumbnailImageCreate'
     'body': 'QLThumbnailImageCreate(${1:CFAllocatorRef allocator}, ${2:CFURLRef url}, ${3:CGSize maxThumbnailSize}, ${4:CFDictionaryRef options})'
@@ -172,7 +172,7 @@
     'body': 'QLThumbnailRequestGetMaximumSize(${1:QLThumbnailRequestRef thumbnail})'
   'QLThumbnailRequestGetTypeID':
     'prefix': 'QLThumbnailRequestGetTypeID'
-    'body': 'QLThumbnailRequestGetTypeID()'
+    'body': 'QLThumbnailRequestGetTypeID'
   'QLThumbnailRequestIsCancelled':
     'prefix': 'QLThumbnailRequestIsCancelled'
     'body': 'QLThumbnailRequestIsCancelled(${1:QLThumbnailRequestRef thumbnail})'

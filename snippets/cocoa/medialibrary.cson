@@ -362,90 +362,102 @@
   'MLMediaTypeMovie ()':
     'prefix': 'MLMediaTypeMovie'
     'body': 'MLMediaTypeMovie'
+  'MLMediaGroup':
+    'prefix': 'MLMediaGroup'
+    'body': 'MLMediaGroup'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'childGroups':
     'prefix': 'childGroups'
-    'body': 'childGroups()'
+    'body': 'childGroups'
   'iconImage':
     'prefix': 'iconImage'
-    'body': 'iconImage()'
+    'body': 'iconImage'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'mediaLibrary':
     'prefix': 'mediaLibrary'
-    'body': 'mediaLibrary()'
+    'body': 'mediaLibrary'
   'mediaObjects':
     'prefix': 'mediaObjects'
-    'body': 'mediaObjects()'
+    'body': 'mediaObjects'
   'mediaSourceIdentifier':
     'prefix': 'mediaSourceIdentifier'
-    'body': 'mediaSourceIdentifier()'
+    'body': 'mediaSourceIdentifier'
   'modificationDate':
     'prefix': 'modificationDate'
-    'body': 'modificationDate()'
+    'body': 'modificationDate'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'parent':
     'prefix': 'parent'
-    'body': 'parent()'
+    'body': 'parent'
   'typeIdentifier':
     'prefix': 'typeIdentifier'
-    'body': 'typeIdentifier()'
+    'body': 'typeIdentifier'
+  'MLMediaLibrary':
+    'prefix': 'MLMediaLibrary'
+    'body': 'MLMediaLibrary'
   'initWithOptions:':
     'prefix': 'initWithOptions:'
     'body': 'initWithOptions(${1: options})'
   'mediaSources':
     'prefix': 'mediaSources'
-    'body': 'mediaSources()'
+    'body': 'mediaSources'
+  'MLMediaObject':
+    'prefix': 'MLMediaObject'
+    'body': 'MLMediaObject'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'artworkImage':
     'prefix': 'artworkImage'
-    'body': 'artworkImage()'
+    'body': 'artworkImage'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'contentType':
     'prefix': 'contentType'
-    'body': 'contentType()'
+    'body': 'contentType'
   'fileSize':
     'prefix': 'fileSize'
-    'body': 'fileSize()'
+    'body': 'fileSize'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'mediaLibrary':
     'prefix': 'mediaLibrary'
-    'body': 'mediaLibrary()'
+    'body': 'mediaLibrary'
   'mediaSourceIdentifier':
     'prefix': 'mediaSourceIdentifier'
-    'body': 'mediaSourceIdentifier()'
+    'body': 'mediaSourceIdentifier'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'modificationDate':
     'prefix': 'modificationDate'
-    'body': 'modificationDate()'
+    'body': 'modificationDate'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'originalURL':
     'prefix': 'originalURL'
-    'body': 'originalURL()'
+    'body': 'originalURL'
   'thumbnailURL':
     'prefix': 'thumbnailURL'
-    'body': 'thumbnailURL()'
+    'body': 'thumbnailURL'
+  'MLMediaSource':
+    'prefix': 'MLMediaSource'
+    'body': 'MLMediaSource'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'mediaGroupForIdentifier:':
     'prefix': 'mediaGroupForIdentifier:'
     'body': 'mediaGroupForIdentifier(${1: mediaGroupIdentifier})'
@@ -454,7 +466,7 @@
     'body': 'mediaGroupsForIdentifiers(${1: mediaGroupIdentifiers})'
   'mediaLibrary':
     'prefix': 'mediaLibrary'
-    'body': 'mediaLibrary()'
+    'body': 'mediaLibrary'
   'mediaObjectForIdentifier:':
     'prefix': 'mediaObjectForIdentifier:'
     'body': 'mediaObjectForIdentifier(${1: mediaObjectIdentifier})'
@@ -463,7 +475,7 @@
     'body': 'mediaObjectsForIdentifiers(${1: mediaObjectIdentifiers})'
   'mediaSourceIdentifier':
     'prefix': 'mediaSourceIdentifier'
-    'body': 'mediaSourceIdentifier()'
+    'body': 'mediaSourceIdentifier'
   'rootMediaGroup':
     'prefix': 'rootMediaGroup'
-    'body': 'rootMediaGroup()'
+    'body': 'rootMediaGroup'

@@ -670,7 +670,7 @@
     'body': 'CVDisplayLinkGetOutputVideoLatency(${1:CVDisplayLinkRef displayLink})'
   'CVDisplayLinkGetTypeID':
     'prefix': 'CVDisplayLinkGetTypeID'
-    'body': 'CVDisplayLinkGetTypeID()'
+    'body': 'CVDisplayLinkGetTypeID'
   'CVDisplayLinkIsRunning':
     'prefix': 'CVDisplayLinkIsRunning'
     'body': 'CVDisplayLinkIsRunning(${1:CVDisplayLinkRef displayLink})'
@@ -700,13 +700,13 @@
     'body': 'CVDisplayLinkTranslateTime(${1:CVDisplayLinkRef displayLink}, ${2:CVTimeStamp* inTime}, ${3:CVTimeStamp* outTime})'
   'CVGetCurrentHostTime':
     'prefix': 'CVGetCurrentHostTime'
-    'body': 'CVGetCurrentHostTime()'
+    'body': 'CVGetCurrentHostTime'
   'CVGetHostClockFrequency':
     'prefix': 'CVGetHostClockFrequency'
-    'body': 'CVGetHostClockFrequency()'
+    'body': 'CVGetHostClockFrequency'
   'CVGetHostClockMinimumTimeDelta':
     'prefix': 'CVGetHostClockMinimumTimeDelta'
-    'body': 'CVGetHostClockMinimumTimeDelta()'
+    'body': 'CVGetHostClockMinimumTimeDelta'
   'CVImageBufferCreateColorSpaceFromAttachments':
     'prefix': 'CVImageBufferCreateColorSpaceFromAttachments'
     'body': 'CVImageBufferCreateColorSpaceFromAttachments(${1:CFDictionaryRef attachments})'
@@ -736,7 +736,7 @@
     'body': 'CVOpenGLBufferGetAttributes(${1:CVOpenGLBufferRef openGLBuffer})'
   'CVOpenGLBufferGetTypeID':
     'prefix': 'CVOpenGLBufferGetTypeID'
-    'body': 'CVOpenGLBufferGetTypeID()'
+    'body': 'CVOpenGLBufferGetTypeID'
   'CVOpenGLBufferPoolCreate':
     'prefix': 'CVOpenGLBufferPoolCreate'
     'body': 'CVOpenGLBufferPoolCreate(${1:CFAllocatorRef allocator}, ${2:CFDictionaryRef poolAttributes}, ${3:CFDictionaryRef openGLBufferAttributes}, ${4:CVOpenGLBufferPoolRef* poolOut})'
@@ -751,7 +751,7 @@
     'body': 'CVOpenGLBufferPoolGetOpenGLBufferAttributes(${1:CVOpenGLBufferPoolRef pool})'
   'CVOpenGLBufferPoolGetTypeID':
     'prefix': 'CVOpenGLBufferPoolGetTypeID'
-    'body': 'CVOpenGLBufferPoolGetTypeID()'
+    'body': 'CVOpenGLBufferPoolGetTypeID'
   'CVOpenGLBufferPoolRelease':
     'prefix': 'CVOpenGLBufferPoolRelease'
     'body': 'CVOpenGLBufferPoolRelease(${1:CVOpenGLBufferPoolRef openGLBufferPool})'
@@ -775,7 +775,7 @@
     'body': 'CVOpenGLTextureCacheFlush(${1:CVOpenGLTextureCacheRef textureCache}, ${2:CVOptionFlags options})'
   'CVOpenGLTextureCacheGetTypeID':
     'prefix': 'CVOpenGLTextureCacheGetTypeID'
-    'body': 'CVOpenGLTextureCacheGetTypeID()'
+    'body': 'CVOpenGLTextureCacheGetTypeID'
   'CVOpenGLTextureCacheRelease':
     'prefix': 'CVOpenGLTextureCacheRelease'
     'body': 'CVOpenGLTextureCacheRelease(${1:CVOpenGLTextureCacheRef textureCache})'
@@ -793,7 +793,7 @@
     'body': 'CVOpenGLTextureGetTarget(${1:CVOpenGLTextureRef image})'
   'CVOpenGLTextureGetTypeID':
     'prefix': 'CVOpenGLTextureGetTypeID'
-    'body': 'CVOpenGLTextureGetTypeID()'
+    'body': 'CVOpenGLTextureGetTypeID'
   'CVOpenGLTextureIsFlipped':
     'prefix': 'CVOpenGLTextureIsFlipped'
     'body': 'CVOpenGLTextureIsFlipped(${1:CVOpenGLTextureRef image})'
@@ -856,7 +856,7 @@
     'body': 'CVPixelBufferGetPlaneCount(${1:CVPixelBufferRef pixelBuffer})'
   'CVPixelBufferGetTypeID':
     'prefix': 'CVPixelBufferGetTypeID'
-    'body': 'CVPixelBufferGetTypeID()'
+    'body': 'CVPixelBufferGetTypeID'
   'CVPixelBufferGetWidth':
     'prefix': 'CVPixelBufferGetWidth'
     'body': 'CVPixelBufferGetWidth(${1:CVPixelBufferRef pixelBuffer})'
@@ -886,7 +886,7 @@
     'body': 'CVPixelBufferPoolGetPixelBufferAttributes(${1:CVPixelBufferPoolRef pool})'
   'CVPixelBufferPoolGetTypeID':
     'prefix': 'CVPixelBufferPoolGetTypeID'
-    'body': 'CVPixelBufferPoolGetTypeID()'
+    'body': 'CVPixelBufferPoolGetTypeID'
   'CVPixelBufferPoolRelease':
     'prefix': 'CVPixelBufferPoolRelease'
     'body': 'CVPixelBufferPoolRelease(${1:CVPixelBufferPoolRef pixelBufferPool})'

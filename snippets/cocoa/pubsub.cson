@@ -89,6 +89,9 @@
   'PSUnknownFormat (0)':
     'prefix': 'PSUnknownFormat'
     'body': 'PSUnknownFormat'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'enclosure:downloadStateDidChange:':
     'prefix': 'enclosure:downloadStateDidChange:'
     'body': 'enclosure(${1:PSEnclosure* enclosure}, downloadStateDidChange:${2:PSEnclosureDownloadState state})'
@@ -110,21 +113,27 @@
   'feedDidEndRefresh:':
     'prefix': 'feedDidEndRefresh:'
     'body': 'feedDidEndRefresh(${1:PSFeed* feed})'
+  'PSAuthor':
+    'prefix': 'PSAuthor'
+    'body': 'PSAuthor'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'email':
     'prefix': 'email'
-    'body': 'email()'
+    'body': 'email'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'person':
     'prefix': 'person'
-    'body': 'person()'
+    'body': 'person'
   'setPerson:':
     'prefix': 'setPerson:'
     'body': 'setPerson(${1:ABPerson* person})'
+  'PSClient':
+    'prefix': 'PSClient'
+    'body': 'PSClient'
   'addFeed:':
     'prefix': 'addFeed:'
     'body': 'addFeed(${1:PSFeed* feed})'
@@ -133,19 +142,19 @@
     'body': 'addFeedWithURL(${1:NSURL* url})'
   'PSClient.allClientBundleIdentifiers':
     'prefix': 'allClientBundleIdentifiers'
-    'body': 'allClientBundleIdentifiers()'
+    'body': 'allClientBundleIdentifiers'
   'PSClient.applicationClient':
     'prefix': 'applicationClient'
-    'body': 'applicationClient()'
+    'body': 'applicationClient'
   'PSClient.clientForBundleIdentifier:':
     'prefix': 'clientForBundleIdentifier:'
     'body': 'clientForBundleIdentifier(${1:NSString* bundleIdentifier})'
   'dateLastUpdated':
     'prefix': 'dateLastUpdated'
-    'body': 'dateLastUpdated()'
+    'body': 'dateLastUpdated'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'entryWithIdentifier:':
     'prefix': 'entryWithIdentifier:'
     'body': 'entryWithIdentifier(${1:NSString* identifier})'
@@ -157,10 +166,10 @@
     'body': 'feedWithURL(${1:NSURL* url})'
   'feeds':
     'prefix': 'feeds'
-    'body': 'feeds()'
+    'body': 'feeds'
   'isPrivate':
     'prefix': 'isPrivate'
-    'body': 'isPrivate()'
+    'body': 'isPrivate'
   'removeFeed:':
     'prefix': 'removeFeed:'
     'body': 'removeFeed(${1:PSFeed* feed})'
@@ -178,118 +187,127 @@
     'body': 'setSettings(${1:PSFeedSettings* settings})'
   'settings':
     'prefix': 'settings'
-    'body': 'settings()'
+    'body': 'settings'
   'signature':
     'prefix': 'signature'
-    'body': 'signature()'
+    'body': 'signature'
+  'PSContent':
+    'prefix': 'PSContent'
+    'body': 'PSContent'
   'HTMLString':
     'prefix': 'HTMLString'
-    'body': 'HTMLString()'
+    'body': 'HTMLString'
   'MIMEType':
     'prefix': 'MIMEType'
-    'body': 'MIMEType()'
+    'body': 'MIMEType'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'plainTextString':
     'prefix': 'plainTextString'
-    'body': 'plainTextString()'
+    'body': 'plainTextString'
+  'PSEnclosure':
+    'prefix': 'PSEnclosure'
+    'body': 'PSEnclosure'
   'MIMEType':
     'prefix': 'MIMEType'
-    'body': 'MIMEType()'
+    'body': 'MIMEType'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'cancelDownload':
     'prefix': 'cancelDownload'
-    'body': 'cancelDownload()'
+    'body': 'cancelDownload'
   'deleteDownload':
     'prefix': 'deleteDownload'
-    'body': 'deleteDownload()'
+    'body': 'deleteDownload'
   'download:':
     'prefix': 'download:'
     'body': 'download(${1:NSError** error})'
   'downloadError':
     'prefix': 'downloadError'
-    'body': 'downloadError()'
+    'body': 'downloadError'
   'downloadProgress':
     'prefix': 'downloadProgress'
-    'body': 'downloadProgress()'
+    'body': 'downloadProgress'
   'downloadState':
     'prefix': 'downloadState'
-    'body': 'downloadState()'
+    'body': 'downloadState'
   'downloadedPath':
     'prefix': 'downloadedPath'
-    'body': 'downloadedPath()'
+    'body': 'downloadedPath'
   'entry':
     'prefix': 'entry'
-    'body': 'entry()'
+    'body': 'entry'
   'length':
     'prefix': 'length'
-    'body': 'length()'
+    'body': 'length'
+  'PSEntry':
+    'prefix': 'PSEntry'
+    'body': 'PSEntry'
   'XMLRepresentation':
     'prefix': 'XMLRepresentation'
-    'body': 'XMLRepresentation()'
+    'body': 'XMLRepresentation'
   'alternateURL':
     'prefix': 'alternateURL'
-    'body': 'alternateURL()'
+    'body': 'alternateURL'
   'authors':
     'prefix': 'authors'
-    'body': 'authors()'
+    'body': 'authors'
   'authorsForDisplay':
     'prefix': 'authorsForDisplay'
-    'body': 'authorsForDisplay()'
+    'body': 'authorsForDisplay'
   'baseURL':
     'prefix': 'baseURL'
-    'body': 'baseURL()'
+    'body': 'baseURL'
   'content':
     'prefix': 'content'
-    'body': 'content()'
+    'body': 'content'
   'contributors':
     'prefix': 'contributors'
-    'body': 'contributors()'
+    'body': 'contributors'
   'dateCreated':
     'prefix': 'dateCreated'
-    'body': 'dateCreated()'
+    'body': 'dateCreated'
   'dateForDisplay':
     'prefix': 'dateForDisplay'
-    'body': 'dateForDisplay()'
+    'body': 'dateForDisplay'
   'datePublished':
     'prefix': 'datePublished'
-    'body': 'datePublished()'
+    'body': 'datePublished'
   'dateUpdated':
     'prefix': 'dateUpdated'
-    'body': 'dateUpdated()'
+    'body': 'dateUpdated'
   'enclosures':
     'prefix': 'enclosures'
-    'body': 'enclosures()'
+    'body': 'enclosures'
   'extensionXMLElementsUsingNamespace:':
     'prefix': 'extensionXMLElementsUsingNamespace:'
     'body': 'extensionXMLElementsUsingNamespace(${1:NSString* nameSpace})'
   'feed':
     'prefix': 'feed'
-    'body': 'feed()'
+    'body': 'feed'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'isCurrent':
     'prefix': 'isCurrent'
-    'body': 'isCurrent()'
+    'body': 'isCurrent'
   'isFlagged':
     'prefix': 'isFlagged'
-    'body': 'isFlagged()'
+    'body': 'isFlagged'
   'isRead':
     'prefix': 'isRead'
-    'body': 'isRead()'
+    'body': 'isRead'
   'localDateCreated':
     'prefix': 'localDateCreated'
-    'body': 'localDateCreated()'
+    'body': 'localDateCreated'
   'localDateUpdated':
     'prefix': 'localDateUpdated'
-    'body': 'localDateUpdated()'
+    'body': 'localDateUpdated'
   'rights':
     'prefix': 'rights'
-    'body': 'rights()'
+    'body': 'rights'
   'setFlagged:':
     'prefix': 'setFlagged:'
     'body': 'setFlagged(${1:BOOL flagged})'
@@ -298,43 +316,46 @@
     'body': 'setRead(${1:BOOL read})'
   'summary':
     'prefix': 'summary'
-    'body': 'summary()'
+    'body': 'summary'
   'timeZoneCreated':
     'prefix': 'timeZoneCreated'
-    'body': 'timeZoneCreated()'
+    'body': 'timeZoneCreated'
   'timeZonePublished':
     'prefix': 'timeZonePublished'
-    'body': 'timeZonePublished()'
+    'body': 'timeZonePublished'
   'timeZoneUpdated':
     'prefix': 'timeZoneUpdated'
-    'body': 'timeZoneUpdated()'
+    'body': 'timeZoneUpdated'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'titleForDisplay':
     'prefix': 'titleForDisplay'
-    'body': 'titleForDisplay()'
+    'body': 'titleForDisplay'
+  'PSFeed':
+    'prefix': 'PSFeed'
+    'body': 'PSFeed'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'XMLRepresentation':
     'prefix': 'XMLRepresentation'
-    'body': 'XMLRepresentation()'
+    'body': 'XMLRepresentation'
   'XMLRepresentationWithEntries:':
     'prefix': 'XMLRepresentationWithEntries:'
     'body': 'XMLRepresentationWithEntries(${1:BOOL withEntries})'
   'alternateURL':
     'prefix': 'alternateURL'
-    'body': 'alternateURL()'
+    'body': 'alternateURL'
   'client':
     'prefix': 'client'
-    'body': 'client()'
+    'body': 'client'
   'dateUpdated':
     'prefix': 'dateUpdated'
-    'body': 'dateUpdated()'
+    'body': 'dateUpdated'
   'entries':
     'prefix': 'entries'
-    'body': 'entries()'
+    'body': 'entries'
   'entryEnumeratorSortedBy:':
     'prefix': 'entryEnumeratorSortedBy:'
     'body': 'entryEnumeratorSortedBy(${1:NSArray* sortDescriptors})'
@@ -343,13 +364,13 @@
     'body': 'extensionXMLElementsUsingNamespace(${1:NSString* nameSpace})'
   'feedFormat':
     'prefix': 'feedFormat'
-    'body': 'feedFormat()'
+    'body': 'feedFormat'
   'iconURL':
     'prefix': 'iconURL'
-    'body': 'iconURL()'
+    'body': 'iconURL'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'initWithData:URL:':
     'prefix': 'initWithData:URL:'
     'body': 'initWithData(${1:NSData* data}, URL:${2:NSURL* aURL})'
@@ -358,31 +379,31 @@
     'body': 'initWithURL(${1:NSURL* url})'
   'isRefreshing':
     'prefix': 'isRefreshing'
-    'body': 'isRefreshing()'
+    'body': 'isRefreshing'
   'lastError':
     'prefix': 'lastError'
-    'body': 'lastError()'
+    'body': 'lastError'
   'links':
     'prefix': 'links'
-    'body': 'links()'
+    'body': 'links'
   'localDateUpdated':
     'prefix': 'localDateUpdated'
-    'body': 'localDateUpdated()'
+    'body': 'localDateUpdated'
   'login':
     'prefix': 'login'
-    'body': 'login()'
+    'body': 'login'
   'logoURL':
     'prefix': 'logoURL'
-    'body': 'logoURL()'
+    'body': 'logoURL'
   'redirectedURL':
     'prefix': 'redirectedURL'
-    'body': 'redirectedURL()'
+    'body': 'redirectedURL'
   'refresh:':
     'prefix': 'refresh:'
     'body': 'refresh(${1:NSError** error})'
   'rights':
     'prefix': 'rights'
-    'body': 'rights()'
+    'body': 'rights'
   'setLogin:':
     'prefix': 'setLogin:'
     'body': 'setLogin(${1:NSString* login})'
@@ -394,43 +415,46 @@
     'body': 'setSettings(${1:PSFeedSettings* settings})'
   'settings':
     'prefix': 'settings'
-    'body': 'settings()'
+    'body': 'settings'
   'subtitle':
     'prefix': 'subtitle'
-    'body': 'subtitle()'
+    'body': 'subtitle'
   'timeZoneUpdated':
     'prefix': 'timeZoneUpdated'
-    'body': 'timeZoneUpdated()'
+    'body': 'timeZoneUpdated'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'unreadCount':
     'prefix': 'unreadCount'
-    'body': 'unreadCount()'
+    'body': 'unreadCount'
+  'PSFeedSettings':
+    'prefix': 'PSFeedSettings'
+    'body': 'PSFeedSettings'
   'PSFeedSettings.defaultClientSettings':
     'prefix': 'defaultClientSettings'
-    'body': 'defaultClientSettings()'
+    'body': 'defaultClientSettings'
   'PSFeedSettings.defaultFeedSettings':
     'prefix': 'defaultFeedSettings'
-    'body': 'defaultFeedSettings()'
+    'body': 'defaultFeedSettings'
   'downloadsEnclosures':
     'prefix': 'downloadsEnclosures'
-    'body': 'downloadsEnclosures()'
+    'body': 'downloadsEnclosures'
   'enclosureTypes':
     'prefix': 'enclosureTypes'
-    'body': 'enclosureTypes()'
+    'body': 'enclosureTypes'
   'expirationInterval':
     'prefix': 'expirationInterval'
-    'body': 'expirationInterval()'
+    'body': 'expirationInterval'
   'maxEnclosureSize':
     'prefix': 'maxEnclosureSize'
-    'body': 'maxEnclosureSize()'
+    'body': 'maxEnclosureSize'
   'refreshInterval':
     'prefix': 'refreshInterval'
-    'body': 'refreshInterval()'
+    'body': 'refreshInterval'
   'refreshesInBackground':
     'prefix': 'refreshesInBackground'
-    'body': 'refreshesInBackground()'
+    'body': 'refreshesInBackground'
   'setDownloadsEnclosures:':
     'prefix': 'setDownloadsEnclosures:'
     'body': 'setDownloadsEnclosures(${1:BOOL downloadsEnclosures})'
@@ -449,24 +473,30 @@
   'setRefreshesInBackground:':
     'prefix': 'setRefreshesInBackground:'
     'body': 'setRefreshesInBackground(${1:BOOL refreshesInBackground})'
+  'PSLink':
+    'prefix': 'PSLink'
+    'body': 'PSLink'
   'MIMEType':
     'prefix': 'MIMEType'
-    'body': 'MIMEType()'
+    'body': 'MIMEType'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'linkKind':
     'prefix': 'linkKind'
-    'body': 'linkKind()'
+    'body': 'linkKind'
   'PSLink.linksInXML:baseURL:':
     'prefix': 'linksInXML:baseURL:'
     'body': 'linksInXML(${1:NSXMLElement* root}, baseURL:${2:NSURL* baseURL})'
   'relations':
     'prefix': 'relations'
-    'body': 'relations()'
+    'body': 'relations'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'PSClientDelegate':
+    'prefix': 'PSClientDelegate'
+    'body': 'PSClientDelegate'
   'enclosure:downloadStateDidChange:':
     'prefix': 'enclosure:downloadStateDidChange:'
     'body': 'enclosure(${1:PSEnclosure* enclosure}, downloadStateDidChange:${2:PSEnclosureDownloadState state})'

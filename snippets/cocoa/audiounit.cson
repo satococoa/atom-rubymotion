@@ -2606,15 +2606,21 @@
   'MusicDeviceSysEx':
     'prefix': 'MusicDeviceSysEx'
     'body': 'MusicDeviceSysEx(${1:MusicDeviceComponent inUnit}, ${2:UInt8* inData}, ${3:UInt32 inLength})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'interfaceVersion':
     'prefix': 'interfaceVersion'
-    'body': 'interfaceVersion()'
+    'body': 'interfaceVersion'
   'uiViewForAudioUnit:withSize:':
     'prefix': 'uiViewForAudioUnit:withSize:'
     'body': 'uiViewForAudioUnit(${1:AudioUnit inAudioUnit}, withSize:${2:NSSize inPreferredSize})'
+  'AUCocoaUIBase':
+    'prefix': 'AUCocoaUIBase'
+    'body': 'AUCocoaUIBase'
   'interfaceVersion':
     'prefix': 'interfaceVersion'
-    'body': 'interfaceVersion()'
+    'body': 'interfaceVersion'
   'uiViewForAudioUnit:withSize:':
     'prefix': 'uiViewForAudioUnit:withSize:'
     'body': 'uiViewForAudioUnit(${1:AudioUnit inAudioUnit}, withSize:${2:NSSize inPreferredSize})'

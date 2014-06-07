@@ -1,31 +1,37 @@
 '.source.rubymotion':
+  'CBGroupIdentity':
+    'prefix': 'CBGroupIdentity'
+    'body': 'CBGroupIdentity'
   'CBGroupIdentity.groupIdentityWithPosixGID:authority:':
     'prefix': 'groupIdentityWithPosixGID:authority:'
     'body': 'groupIdentityWithPosixGID(${1:gid_t gid}, authority:${2:CBIdentityAuthority* authority})'
   'members':
     'prefix': 'members'
-    'body': 'members()'
+    'body': 'members'
   'posixGID':
     'prefix': 'posixGID'
-    'body': 'posixGID()'
+    'body': 'posixGID'
+  'CBIdentity':
+    'prefix': 'CBIdentity'
+    'body': 'CBIdentity'
   'CSIdentity':
     'prefix': 'CSIdentity'
-    'body': 'CSIdentity()'
+    'body': 'CSIdentity'
   'UUIDString':
     'prefix': 'UUIDString'
-    'body': 'UUIDString()'
+    'body': 'UUIDString'
   'aliases':
     'prefix': 'aliases'
-    'body': 'aliases()'
+    'body': 'aliases'
   'authority':
     'prefix': 'authority'
-    'body': 'authority()'
+    'body': 'authority'
   'emailAddress':
     'prefix': 'emailAddress'
-    'body': 'emailAddress()'
+    'body': 'emailAddress'
   'fullName':
     'prefix': 'fullName'
-    'body': 'fullName()'
+    'body': 'fullName'
   'CBIdentity.identityWithCSIdentity:':
     'prefix': 'identityWithCSIdentity:'
     'body': 'identityWithCSIdentity(${1:CSIdentityRef csIdentity})'
@@ -40,46 +46,52 @@
     'body': 'identityWithUUIDString(${1:NSString* uuid}, authority:${2:CBIdentityAuthority* authority})'
   'image':
     'prefix': 'image'
-    'body': 'image()'
+    'body': 'image'
   'isHidden':
     'prefix': 'isHidden'
-    'body': 'isHidden()'
+    'body': 'isHidden'
   'isMemberOfGroup:':
     'prefix': 'isMemberOfGroup:'
     'body': 'isMemberOfGroup(${1:CBGroupIdentity* group})'
   'persistentReference':
     'prefix': 'persistentReference'
-    'body': 'persistentReference()'
+    'body': 'persistentReference'
   'posixName':
     'prefix': 'posixName'
-    'body': 'posixName()'
+    'body': 'posixName'
+  'CBIdentityAuthority':
+    'prefix': 'CBIdentityAuthority'
+    'body': 'CBIdentityAuthority'
   'CSIdentityAuthority':
     'prefix': 'CSIdentityAuthority'
-    'body': 'CSIdentityAuthority()'
+    'body': 'CSIdentityAuthority'
   'CBIdentityAuthority.defaultIdentityAuthority':
     'prefix': 'defaultIdentityAuthority'
-    'body': 'defaultIdentityAuthority()'
+    'body': 'defaultIdentityAuthority'
   'CBIdentityAuthority.identityAuthorityWithCSIdentityAuthority:':
     'prefix': 'identityAuthorityWithCSIdentityAuthority:'
     'body': 'identityAuthorityWithCSIdentityAuthority(${1:CSIdentityAuthorityRef CSIdentityAuthority})'
   'CBIdentityAuthority.localIdentityAuthority':
     'prefix': 'localIdentityAuthority'
-    'body': 'localIdentityAuthority()'
+    'body': 'localIdentityAuthority'
   'localizedName':
     'prefix': 'localizedName'
-    'body': 'localizedName()'
+    'body': 'localizedName'
   'CBIdentityAuthority.managedIdentityAuthority':
     'prefix': 'managedIdentityAuthority'
-    'body': 'managedIdentityAuthority()'
+    'body': 'managedIdentityAuthority'
+  'CBIdentityPicker':
+    'prefix': 'CBIdentityPicker'
+    'body': 'CBIdentityPicker'
   'allowsMultipleSelection':
     'prefix': 'allowsMultipleSelection'
-    'body': 'allowsMultipleSelection()'
+    'body': 'allowsMultipleSelection'
   'identities':
     'prefix': 'identities'
-    'body': 'identities()'
+    'body': 'identities'
   'runModal':
     'prefix': 'runModal'
-    'body': 'runModal()'
+    'body': 'runModal'
   'runModalForWindow:modalDelegate:didEndSelector:contextInfo:':
     'prefix': 'runModalForWindow:modalDelegate:didEndSelector:contextInfo:'
     'body': 'runModalForWindow(${1:NSWindow* window}, modalDelegate:${2:id delegate}, didEndSelector:${3:SEL didEndSelector}, contextInfo:${4:void* contextInfo})'
@@ -91,19 +103,22 @@
     'body': 'setTitle(${1:NSString* title})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'CBUserIdentity':
+    'prefix': 'CBUserIdentity'
+    'body': 'CBUserIdentity'
   'authenticateWithPassword:':
     'prefix': 'authenticateWithPassword:'
     'body': 'authenticateWithPassword(${1:NSString* password})'
   'certificate':
     'prefix': 'certificate'
-    'body': 'certificate()'
+    'body': 'certificate'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'posixUID':
     'prefix': 'posixUID'
-    'body': 'posixUID()'
+    'body': 'posixUID'
   'CBUserIdentity.userIdentityWithPosixUID:authority:':
     'prefix': 'userIdentityWithPosixUID:authority:'
     'body': 'userIdentityWithPosixUID(${1:uid_t uid}, authority:${2:CBIdentityAuthority* authority})'

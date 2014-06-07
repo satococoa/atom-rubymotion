@@ -12517,7 +12517,7 @@
     'body': 'CMSDecoderGetNumSigners(${1:CMSDecoderRef cmsDecoder}, ${2:size_t* numSignersOut})'
   'CMSDecoderGetTypeID':
     'prefix': 'CMSDecoderGetTypeID'
-    'body': 'CMSDecoderGetTypeID()'
+    'body': 'CMSDecoderGetTypeID'
   'CMSDecoderIsContentEncrypted':
     'prefix': 'CMSDecoderIsContentEncrypted'
     'body': 'CMSDecoderIsContentEncrypted(${1:CMSDecoderRef cmsDecoder}, ${2:Boolean* isEncryptedOut})'
@@ -12577,7 +12577,7 @@
     'body': 'CMSEncoderGetHasDetachedContent(${1:CMSEncoderRef cmsEncoder}, ${2:Boolean* detachedContentOut})'
   'CMSEncoderGetTypeID':
     'prefix': 'CMSEncoderGetTypeID'
-    'body': 'CMSEncoderGetTypeID()'
+    'body': 'CMSEncoderGetTypeID'
   'CMSEncoderSetCertificateChainMode':
     'prefix': 'CMSEncoderSetCertificateChainMode'
     'body': 'CMSEncoderSetCertificateChainMode(${1:CMSEncoderRef cmsEncoder}, ${2:CMSCertificateChainMode chainMode})'
@@ -13147,7 +13147,7 @@
     'body': 'CSSM_TP_TupleGroupToCertGroup(${1:CSSM_TP_HANDLE TPHandle}, ${2:CSSM_CL_HANDLE CLHandle}, ${3:CSSM_TUPLEGROUP* TupleGroup}, ${4:CSSM_CERTGROUP_PTR* CertTemplates})'
   'CSSM_Terminate':
     'prefix': 'CSSM_Terminate'
-    'body': 'CSSM_Terminate()'
+    'body': 'CSSM_Terminate'
   'CSSM_Unintroduce':
     'prefix': 'CSSM_Unintroduce'
     'body': 'CSSM_Unintroduce(${1:CSSM_GUID* ModuleID})'
@@ -13324,7 +13324,7 @@
     'body': 'EISL_RecycleVerifiedSignatureRoot(${1:ISL_VERIFIED_SIGNATURE_ROOT_PTR Root})'
   'EISL_SelfCheck':
     'prefix': 'EISL_SelfCheck'
-    'body': 'EISL_SelfCheck()'
+    'body': 'EISL_SelfCheck'
   'EISL_VerifyAndLoadModule':
     'prefix': 'EISL_VerifyAndLoadModule'
     'body': 'EISL_VerifyAndLoadModule(${1:ISL_MANIFEST_SECTION_PTR Section})'
@@ -13378,7 +13378,7 @@
     'body': 'SSLClose(${1:SSLContextRef context})'
   'SSLContextGetTypeID':
     'prefix': 'SSLContextGetTypeID'
-    'body': 'SSLContextGetTypeID()'
+    'body': 'SSLContextGetTypeID'
   'SSLCopyCertificateAuthorities':
     'prefix': 'SSLCopyCertificateAuthorities'
     'body': 'SSLCopyCertificateAuthorities(${1:SSLContextRef context}, ${2:CFArrayRef* certificates})'
@@ -13579,7 +13579,7 @@
     'body': 'SecACLGetAuthorizations(${1:SecACLRef acl}, ${2:CSSM_ACL_AUTHORIZATION_TAG* tags}, ${3:uint32* tagCount})'
   'SecACLGetTypeID':
     'prefix': 'SecACLGetTypeID'
-    'body': 'SecACLGetTypeID()'
+    'body': 'SecACLGetTypeID'
   'SecACLRemove':
     'prefix': 'SecACLRemove'
     'body': 'SecACLRemove(${1:SecACLRef aclRef})'
@@ -13621,7 +13621,7 @@
     'body': 'SecAccessGetOwnerAndACL(${1:SecAccessRef accessRef}, ${2:CSSM_ACL_OWNER_PROTOTYPE_PTR* owner}, ${3:uint32* aclCount}, ${4:CSSM_ACL_ENTRY_INFO_PTR* acls})'
   'SecAccessGetTypeID':
     'prefix': 'SecAccessGetTypeID'
-    'body': 'SecAccessGetTypeID()'
+    'body': 'SecAccessGetTypeID'
   'SecAsn1AllocCopy':
     'prefix': 'SecAsn1AllocCopy'
     'body': 'SecAsn1AllocCopy(${1:SecAsn1CoderRef coder}, ${2:void* src}, ${3:size_t len}, ${4:SecAsn1Item* dest})'
@@ -13720,7 +13720,7 @@
     'body': 'SecCertificateGetType(${1:SecCertificateRef certificate}, ${2:CSSM_CERT_TYPE* certificateType})'
   'SecCertificateGetTypeID':
     'prefix': 'SecCertificateGetTypeID'
-    'body': 'SecCertificateGetTypeID()'
+    'body': 'SecCertificateGetTypeID'
   'SecCertificateSetPreference':
     'prefix': 'SecCertificateSetPreference'
     'body': 'SecCertificateSetPreference(${1:SecCertificateRef certificate}, ${2:CFStringRef name}, ${3:uint32 keyUsage}, ${4:CFDateRef date})'
@@ -13756,7 +13756,7 @@
     'body': 'SecCodeCopyStaticCode(${1:SecCodeRef code}, ${2:SecCSFlags flags}, ${3:SecStaticCodeRef* staticCode})'
   'SecCodeGetTypeID':
     'prefix': 'SecCodeGetTypeID'
-    'body': 'SecCodeGetTypeID()'
+    'body': 'SecCodeGetTypeID'
   'SecCodeMapMemory':
     'prefix': 'SecCodeMapMemory'
     'body': 'SecCodeMapMemory(${1:SecStaticCodeRef code}, ${2:SecCSFlags flags})'
@@ -13771,13 +13771,13 @@
     'body': 'SecDecryptTransformCreate(${1:SecKeyRef keyRef}, ${2:CFErrorRef* error})'
   'SecDecryptTransformGetTypeID':
     'prefix': 'SecDecryptTransformGetTypeID'
-    'body': 'SecDecryptTransformGetTypeID()'
+    'body': 'SecDecryptTransformGetTypeID'
   'SecDigestTransformCreate':
     'prefix': 'SecDigestTransformCreate'
     'body': 'SecDigestTransformCreate(${1:CFTypeRef digestType}, ${2:CFIndex digestLength}, ${3:CFErrorRef* error})'
   'SecDigestTransformGetTypeID':
     'prefix': 'SecDigestTransformGetTypeID'
-    'body': 'SecDigestTransformGetTypeID()'
+    'body': 'SecDigestTransformGetTypeID'
   'SecEncodeTransformCreate':
     'prefix': 'SecEncodeTransformCreate'
     'body': 'SecEncodeTransformCreate(${1:CFTypeRef encodeType}, ${2:CFErrorRef* error})'
@@ -13786,10 +13786,10 @@
     'body': 'SecEncryptTransformCreate(${1:SecKeyRef keyRef}, ${2:CFErrorRef* error})'
   'SecEncryptTransformGetTypeID':
     'prefix': 'SecEncryptTransformGetTypeID'
-    'body': 'SecEncryptTransformGetTypeID()'
+    'body': 'SecEncryptTransformGetTypeID'
   'SecGroupTransformGetTypeID':
     'prefix': 'SecGroupTransformGetTypeID'
-    'body': 'SecGroupTransformGetTypeID()'
+    'body': 'SecGroupTransformGetTypeID'
   'SecHostCreateGuest':
     'prefix': 'SecHostCreateGuest'
     'body': 'SecHostCreateGuest(${1:SecGuestRef host}, ${2:uint32_t status}, ${3:CFURLRef path}, ${4:CFDictionaryRef attributes}, ${5:SecCSFlags flags}, ${6:SecGuestRef* newGuest})'
@@ -13828,7 +13828,7 @@
     'body': 'SecIdentityCreateWithCertificate(${1:CFTypeRef keychainOrArray}, ${2:SecCertificateRef certificateRef}, ${3:SecIdentityRef* identityRef})'
   'SecIdentityGetTypeID':
     'prefix': 'SecIdentityGetTypeID'
-    'body': 'SecIdentityGetTypeID()'
+    'body': 'SecIdentityGetTypeID'
   'SecIdentitySearchCopyNext':
     'prefix': 'SecIdentitySearchCopyNext'
     'body': 'SecIdentitySearchCopyNext(${1:SecIdentitySearchRef searchRef}, ${2:SecIdentityRef* identity})'
@@ -13837,7 +13837,7 @@
     'body': 'SecIdentitySearchCreate(${1:CFTypeRef keychainOrArray}, ${2:CSSM_KEYUSE keyUsage}, ${3:SecIdentitySearchRef* searchRef})'
   'SecIdentitySearchGetTypeID':
     'prefix': 'SecIdentitySearchGetTypeID'
-    'body': 'SecIdentitySearchGetTypeID()'
+    'body': 'SecIdentitySearchGetTypeID'
   'SecIdentitySetPreference':
     'prefix': 'SecIdentitySetPreference'
     'body': 'SecIdentitySetPreference(${1:SecIdentityRef identity}, ${2:CFStringRef name}, ${3:CSSM_KEYUSE keyUsage})'
@@ -13900,7 +13900,7 @@
     'body': 'SecKeyGetCredentials(${1:SecKeyRef keyRef}, ${2:CSSM_ACL_AUTHORIZATION_TAG operation}, ${3:SecCredentialType credentialType}, ${4:CSSM_ACCESS_CREDENTIALS** outCredentials})'
   'SecKeyGetTypeID':
     'prefix': 'SecKeyGetTypeID'
-    'body': 'SecKeyGetTypeID()'
+    'body': 'SecKeyGetTypeID'
   'SecKeyUnwrapSymmetric':
     'prefix': 'SecKeyUnwrapSymmetric'
     'body': 'SecKeyUnwrapSymmetric(${1:CFDataRef* keyToUnwrap}, ${2:SecKeyRef unwrappingKey}, ${3:CFDictionaryRef parameters}, ${4:CFErrorRef* error})'
@@ -13969,7 +13969,7 @@
     'body': 'SecKeychainGetStatus(${1:SecKeychainRef keychain}, ${2:SecKeychainStatus* keychainStatus})'
   'SecKeychainGetTypeID':
     'prefix': 'SecKeychainGetTypeID'
-    'body': 'SecKeychainGetTypeID()'
+    'body': 'SecKeychainGetTypeID'
   'SecKeychainGetUserInteractionAllowed':
     'prefix': 'SecKeychainGetUserInteractionAllowed'
     'body': 'SecKeychainGetUserInteractionAllowed(${1:Boolean* state})'
@@ -14017,7 +14017,7 @@
     'body': 'SecKeychainItemGetDLDBHandle(${1:SecKeychainItemRef keyItemRef}, ${2:CSSM_DL_DB_HANDLE* dldbHandle})'
   'SecKeychainItemGetTypeID':
     'prefix': 'SecKeychainItemGetTypeID'
-    'body': 'SecKeychainItemGetTypeID()'
+    'body': 'SecKeychainItemGetTypeID'
   'SecKeychainItemGetUniqueRecordID':
     'prefix': 'SecKeychainItemGetUniqueRecordID'
     'body': 'SecKeychainItemGetUniqueRecordID(${1:SecKeychainItemRef itemRef}, ${2:CSSM_DB_UNIQUE_RECORD** uniqueRecordID})'
@@ -14038,7 +14038,7 @@
     'body': 'SecKeychainLock(${1:SecKeychainRef keychain})'
   'SecKeychainLockAll':
     'prefix': 'SecKeychainLockAll'
-    'body': 'SecKeychainLockAll()'
+    'body': 'SecKeychainLockAll'
   'SecKeychainOpen':
     'prefix': 'SecKeychainOpen'
     'body': 'SecKeychainOpen(${1:char* pathName}, ${2:SecKeychainRef* keychain})'
@@ -14053,7 +14053,7 @@
     'body': 'SecKeychainSearchCreateFromAttributes(${1:CFTypeRef keychainOrArray}, ${2:SecItemClass itemClass}, ${3:SecKeychainAttributeList* attrList}, ${4:SecKeychainSearchRef* searchRef})'
   'SecKeychainSearchGetTypeID':
     'prefix': 'SecKeychainSearchGetTypeID'
-    'body': 'SecKeychainSearchGetTypeID()'
+    'body': 'SecKeychainSearchGetTypeID'
   'SecKeychainSetAccess':
     'prefix': 'SecKeychainSetAccess'
     'body': 'SecKeychainSetAccess(${1:SecKeychainRef keychain}, ${2:SecAccessRef access})'
@@ -14089,7 +14089,7 @@
     'body': 'SecPolicyCopyProperties(${1:SecPolicyRef policyRef})'
   'SecPolicyCreateBasicX509':
     'prefix': 'SecPolicyCreateBasicX509'
-    'body': 'SecPolicyCreateBasicX509()'
+    'body': 'SecPolicyCreateBasicX509'
   'SecPolicyCreateRevocation':
     'prefix': 'SecPolicyCreateRevocation'
     'body': 'SecPolicyCreateRevocation(${1:CFOptionFlags revocationFlags})'
@@ -14110,7 +14110,7 @@
     'body': 'SecPolicyGetTPHandle(${1:SecPolicyRef policyRef}, ${2:CSSM_TP_HANDLE* tpHandle})'
   'SecPolicyGetTypeID':
     'prefix': 'SecPolicyGetTypeID'
-    'body': 'SecPolicyGetTypeID()'
+    'body': 'SecPolicyGetTypeID'
   'SecPolicyGetValue':
     'prefix': 'SecPolicyGetValue'
     'body': 'SecPolicyGetValue(${1:SecPolicyRef policyRef}, ${2:CSSM_DATA* value})'
@@ -14122,7 +14122,7 @@
     'body': 'SecPolicySearchCreate(${1:CSSM_CERT_TYPE certType}, ${2:CSSM_OID* policyOID}, ${3:CSSM_DATA* value}, ${4:SecPolicySearchRef* searchRef})'
   'SecPolicySearchGetTypeID':
     'prefix': 'SecPolicySearchGetTypeID'
-    'body': 'SecPolicySearchGetTypeID()'
+    'body': 'SecPolicySearchGetTypeID'
   'SecPolicySetProperties':
     'prefix': 'SecPolicySetProperties'
     'body': 'SecPolicySetProperties(${1:SecPolicyRef policyRef}, ${2:CFDictionaryRef properties})'
@@ -14149,7 +14149,7 @@
     'body': 'SecRequirementCreateWithStringAndErrors(${1:CFStringRef text}, ${2:SecCSFlags flags}, ${3:CFErrorRef* errors}, ${4:SecRequirementRef* requirement})'
   'SecRequirementGetTypeID':
     'prefix': 'SecRequirementGetTypeID'
-    'body': 'SecRequirementGetTypeID()'
+    'body': 'SecRequirementGetTypeID'
   'SecSignTransformCreate':
     'prefix': 'SecSignTransformCreate'
     'body': 'SecSignTransformCreate(${1:SecKeyRef key}, ${2:CFErrorRef* error})'
@@ -14167,7 +14167,7 @@
     'body': 'SecStaticCodeCreateWithPathAndAttributes(${1:CFURLRef path}, ${2:SecCSFlags flags}, ${3:CFDictionaryRef attributes}, ${4:SecStaticCodeRef* staticCode})'
   'SecStaticCodeGetTypeID':
     'prefix': 'SecStaticCodeGetTypeID'
-    'body': 'SecStaticCodeGetTypeID()'
+    'body': 'SecStaticCodeGetTypeID'
   'SecTaskCopyValueForEntitlement':
     'prefix': 'SecTaskCopyValueForEntitlement'
     'body': 'SecTaskCopyValueForEntitlement(${1:SecTaskRef task}, ${2:CFStringRef entitlement}, ${3:CFErrorRef* error})'
@@ -14182,7 +14182,7 @@
     'body': 'SecTaskCreateWithAuditToken(${1:CFAllocatorRef allocator}, ${2:audit_token_t token})'
   'SecTaskGetTypeID':
     'prefix': 'SecTaskGetTypeID'
-    'body': 'SecTaskGetTypeID()'
+    'body': 'SecTaskGetTypeID'
   'SecTranformCustomGetAttribute':
     'prefix': 'SecTranformCustomGetAttribute'
     'body': 'SecTranformCustomGetAttribute(${1:SecTransformImplementationRef ref}, ${2:SecTransformStringOrAttributeRef attribute}, ${3:SecTransformMetaAttributeType type})'
@@ -14200,7 +14200,7 @@
     'body': 'SecTransformCreateFromExternalRepresentation(${1:CFDictionaryRef dictionary}, ${2:CFErrorRef* error})'
   'SecTransformCreateGroupTransform':
     'prefix': 'SecTransformCreateGroupTransform'
-    'body': 'SecTransformCreateGroupTransform()'
+    'body': 'SecTransformCreateGroupTransform'
   'SecTransformCreateReadTransformWithReadStream':
     'prefix': 'SecTransformCreateReadTransformWithReadStream'
     'body': 'SecTransformCreateReadTransformWithReadStream(${1:CFReadStreamRef inputStream})'
@@ -14224,10 +14224,10 @@
     'body': 'SecTransformGetAttribute(${1:SecTransformRef transformRef}, ${2:CFStringRef key})'
   'SecTransformGetTypeID':
     'prefix': 'SecTransformGetTypeID'
-    'body': 'SecTransformGetTypeID()'
+    'body': 'SecTransformGetTypeID'
   'SecTransformNoData':
     'prefix': 'SecTransformNoData'
-    'body': 'SecTransformNoData()'
+    'body': 'SecTransformNoData'
   'SecTransformPushbackAttribute':
     'prefix': 'SecTransformPushbackAttribute'
     'body': 'SecTransformPushbackAttribute(${1:SecTransformImplementationRef ref}, ${2:SecTransformStringOrAttributeRef attribute}, ${3:CFTypeRef value})'
@@ -14302,7 +14302,7 @@
     'body': 'SecTrustGetTrustResult(${1:SecTrustRef trust}, ${2:SecTrustResultType* result})'
   'SecTrustGetTypeID':
     'prefix': 'SecTrustGetTypeID'
-    'body': 'SecTrustGetTypeID()'
+    'body': 'SecTrustGetTypeID'
   'SecTrustGetVerifyTime':
     'prefix': 'SecTrustGetVerifyTime'
     'body': 'SecTrustGetVerifyTime(${1:SecTrustRef trust})'
@@ -14365,7 +14365,7 @@
     'body': 'SecTrustedApplicationCreateFromPath(${1:char* path}, ${2:SecTrustedApplicationRef* app})'
   'SecTrustedApplicationGetTypeID':
     'prefix': 'SecTrustedApplicationGetTypeID'
-    'body': 'SecTrustedApplicationGetTypeID()'
+    'body': 'SecTrustedApplicationGetTypeID'
   'SecTrustedApplicationSetData':
     'prefix': 'SecTrustedApplicationSetData'
     'body': 'SecTrustedApplicationSetData(${1:SecTrustedApplicationRef appRef}, ${2:CFDataRef data})'

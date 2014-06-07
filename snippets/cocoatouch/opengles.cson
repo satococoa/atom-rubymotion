@@ -3355,7 +3355,7 @@
     'body': 'glCopyTextureLevelsAPPLE(${1:GLuint destinationTexture}, ${2:GLuint sourceTexture}, ${3:GLint sourceBaseLevel}, ${4:GLsizei sourceLevelCount})'
   'glCreateProgram':
     'prefix': 'glCreateProgram'
-    'body': 'glCreateProgram()'
+    'body': 'glCreateProgram'
   'glCreateShader':
     'prefix': 'glCreateShader'
     'body': 'glCreateShader(${1:GLenum type})'
@@ -3511,7 +3511,7 @@
     'body': 'glEndQueryEXT(${1:GLenum target})'
   'glEndTransformFeedback':
     'prefix': 'glEndTransformFeedback'
-    'body': 'glEndTransformFeedback()'
+    'body': 'glEndTransformFeedback'
   'glFenceSync':
     'prefix': 'glFenceSync'
     'body': 'glFenceSync(${1:GLenum condition}, ${2:GLbitfield flags})'
@@ -3520,10 +3520,10 @@
     'body': 'glFenceSyncAPPLE(${1:GLenum condition}, ${2:GLbitfield flags})'
   'glFinish':
     'prefix': 'glFinish'
-    'body': 'glFinish()'
+    'body': 'glFinish'
   'glFlush':
     'prefix': 'glFlush'
-    'body': 'glFlush()'
+    'body': 'glFlush'
   'glFlushMappedBufferRange':
     'prefix': 'glFlushMappedBufferRange'
     'body': 'glFlushMappedBufferRange(${1:GLenum target}, ${2:GLintptr offset}, ${3:GLsizeiptr length})'
@@ -3655,7 +3655,7 @@
     'body': 'glGetClipPlanex(${1:GLenum pname}, ${2:GLfixed* eqn})'
   'glGetError':
     'prefix': 'glGetError'
-    'body': 'glGetError()'
+    'body': 'glGetError'
   'glGetFixedv':
     'prefix': 'glGetFixedv'
     'body': 'glGetFixedv(${1:GLenum pname}, ${2:GLfixed* params})'
@@ -3928,7 +3928,7 @@
     'body': 'glLinkProgram(${1:GLuint program})'
   'glLoadIdentity':
     'prefix': 'glLoadIdentity'
-    'body': 'glLoadIdentity()'
+    'body': 'glLoadIdentity'
   'glLoadMatrixf':
     'prefix': 'glLoadMatrixf'
     'body': 'glLoadMatrixf(${1:GLfloat* m})'
@@ -3937,7 +3937,7 @@
     'body': 'glLoadMatrixx(${1:GLfixed* m})'
   'glLoadPaletteFromModelViewMatrixOES':
     'prefix': 'glLoadPaletteFromModelViewMatrixOES'
-    'body': 'glLoadPaletteFromModelViewMatrixOES()'
+    'body': 'glLoadPaletteFromModelViewMatrixOES'
   'glLogicOp':
     'prefix': 'glLogicOp'
     'body': 'glLogicOp(${1:GLenum opcode})'
@@ -3997,7 +3997,7 @@
     'body': 'glOrthox(${1:GLfixed left}, ${2:GLfixed right}, ${3:GLfixed bottom}, ${4:GLfixed top}, ${5:GLfixed zNear}, ${6:GLfixed zFar})'
   'glPauseTransformFeedback':
     'prefix': 'glPauseTransformFeedback'
-    'body': 'glPauseTransformFeedback()'
+    'body': 'glPauseTransformFeedback'
   'glPixelStorei':
     'prefix': 'glPixelStorei'
     'body': 'glPixelStorei(${1:GLenum pname}, ${2:GLint param})'
@@ -4030,10 +4030,10 @@
     'body': 'glPolygonOffsetx(${1:GLfixed factor}, ${2:GLfixed units})'
   'glPopGroupMarkerEXT':
     'prefix': 'glPopGroupMarkerEXT'
-    'body': 'glPopGroupMarkerEXT()'
+    'body': 'glPopGroupMarkerEXT'
   'glPopMatrix':
     'prefix': 'glPopMatrix'
-    'body': 'glPopMatrix()'
+    'body': 'glPopMatrix'
   'glProgramBinary':
     'prefix': 'glProgramBinary'
     'body': 'glProgramBinary(${1:GLuint program}, ${2:GLenum binaryFormat}, ${3:GLvoid* binary}, ${4:GLsizei length})'
@@ -4147,7 +4147,7 @@
     'body': 'glPushGroupMarkerEXT(${1:GLsizei length}, ${2:GLchar* marker})'
   'glPushMatrix':
     'prefix': 'glPushMatrix'
-    'body': 'glPushMatrix()'
+    'body': 'glPushMatrix'
   'glReadBuffer':
     'prefix': 'glReadBuffer'
     'body': 'glReadBuffer(${1:GLenum mode})'
@@ -4156,7 +4156,7 @@
     'body': 'glReadPixels(${1:GLint x}, ${2:GLint y}, ${3:GLsizei width}, ${4:GLsizei height}, ${5:GLenum format}, ${6:GLenum type}, ${7:GLvoid* pixels})'
   'glReleaseShaderCompiler':
     'prefix': 'glReleaseShaderCompiler'
-    'body': 'glReleaseShaderCompiler()'
+    'body': 'glReleaseShaderCompiler'
   'glRenderbufferStorage':
     'prefix': 'glRenderbufferStorage'
     'body': 'glRenderbufferStorage(${1:GLenum target}, ${2:GLenum internalformat}, ${3:GLsizei width}, ${4:GLsizei height})'
@@ -4171,10 +4171,10 @@
     'body': 'glRenderbufferStorageOES(${1:GLenum target}, ${2:GLenum internalformat}, ${3:GLsizei width}, ${4:GLsizei height})'
   'glResolveMultisampleFramebufferAPPLE':
     'prefix': 'glResolveMultisampleFramebufferAPPLE'
-    'body': 'glResolveMultisampleFramebufferAPPLE()'
+    'body': 'glResolveMultisampleFramebufferAPPLE'
   'glResumeTransformFeedback':
     'prefix': 'glResumeTransformFeedback'
-    'body': 'glResumeTransformFeedback()'
+    'body': 'glResumeTransformFeedback'
   'glRotatef':
     'prefix': 'glRotatef'
     'body': 'glRotatef(${1:GLfloat angle}, ${2:GLfloat x}, ${3:GLfloat y}, ${4:GLfloat z})'
@@ -4487,15 +4487,18 @@
   'glWeightPointerOES':
     'prefix': 'glWeightPointerOES'
     'body': 'glWeightPointerOES(${1:GLint size}, ${2:GLenum type}, ${3:GLsizei stride}, ${4:GLvoid* pointer})'
+  'EAGLContext':
+    'prefix': 'EAGLContext'
+    'body': 'EAGLContext'
   'API':
     'prefix': 'API'
-    'body': 'API()'
+    'body': 'API'
   'EAGLContext.currentContext':
     'prefix': 'currentContext'
-    'body': 'currentContext()'
+    'body': 'currentContext'
   'debugLabel':
     'prefix': 'debugLabel'
-    'body': 'debugLabel()'
+    'body': 'debugLabel'
   'initWithAPI:':
     'prefix': 'initWithAPI:'
     'body': 'initWithAPI(${1:EAGLRenderingAPI api})'
@@ -4504,7 +4507,7 @@
     'body': 'initWithAPI(${1:EAGLRenderingAPI api}, sharegroup:${2:EAGLSharegroup* sharegroup})'
   'isMultiThreaded':
     'prefix': 'isMultiThreaded'
-    'body': 'isMultiThreaded()'
+    'body': 'isMultiThreaded'
   'presentRenderbuffer:':
     'prefix': 'presentRenderbuffer:'
     'body': 'presentRenderbuffer(${1:NSUInteger target})'
@@ -4522,22 +4525,31 @@
     'body': 'setMultiThreaded(${1:BOOL multiThreaded})'
   'sharegroup':
     'prefix': 'sharegroup'
-    'body': 'sharegroup()'
+    'body': 'sharegroup'
+  'EAGLSharegroup':
+    'prefix': 'EAGLSharegroup'
+    'body': 'EAGLSharegroup'
   'debugLabel':
     'prefix': 'debugLabel'
-    'body': 'debugLabel()'
+    'body': 'debugLabel'
   'setDebugLabel:':
     'prefix': 'setDebugLabel:'
     'body': 'setDebugLabel(${1:NSString* debugLabel})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'drawableProperties':
     'prefix': 'drawableProperties'
-    'body': 'drawableProperties()'
+    'body': 'drawableProperties'
   'setDrawableProperties:':
     'prefix': 'setDrawableProperties:'
     'body': 'setDrawableProperties(${1:NSDictionary* drawableProperties})'
+  'EAGLDrawable':
+    'prefix': 'EAGLDrawable'
+    'body': 'EAGLDrawable'
   'drawableProperties':
     'prefix': 'drawableProperties'
-    'body': 'drawableProperties()'
+    'body': 'drawableProperties'
   'setDrawableProperties:':
     'prefix': 'setDrawableProperties:'
     'body': 'setDrawableProperties(${1:NSDictionary* drawableProperties})'

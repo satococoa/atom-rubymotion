@@ -1952,21 +1952,24 @@
   'AVMakeRectWithAspectRatioInsideRect':
     'prefix': 'AVMakeRectWithAspectRatioInsideRect'
     'body': 'AVMakeRectWithAspectRatioInsideRect(${1:CGSize aspectRatio}, ${2:CGRect boundingRect})'
+  'AVAsset':
+    'prefix': 'AVAsset'
+    'body': 'AVAsset'
   'AVAsset.assetWithURL:':
     'prefix': 'assetWithURL:'
     'body': 'assetWithURL(${1:NSURL* URL})'
   'availableChapterLocales':
     'prefix': 'availableChapterLocales'
-    'body': 'availableChapterLocales()'
+    'body': 'availableChapterLocales'
   'availableMediaCharacteristicsWithMediaSelectionOptions':
     'prefix': 'availableMediaCharacteristicsWithMediaSelectionOptions'
-    'body': 'availableMediaCharacteristicsWithMediaSelectionOptions()'
+    'body': 'availableMediaCharacteristicsWithMediaSelectionOptions'
   'availableMetadataFormats':
     'prefix': 'availableMetadataFormats'
-    'body': 'availableMetadataFormats()'
+    'body': 'availableMetadataFormats'
   'cancelLoading':
     'prefix': 'cancelLoading'
-    'body': 'cancelLoading()'
+    'body': 'cancelLoading'
   'chapterMetadataGroupsBestMatchingPreferredLanguages:':
     'prefix': 'chapterMetadataGroupsBestMatchingPreferredLanguages:'
     'body': 'chapterMetadataGroupsBestMatchingPreferredLanguages(${1:NSArray* preferredLanguages})'
@@ -1975,34 +1978,34 @@
     'body': 'chapterMetadataGroupsWithTitleLocale(${1:NSLocale* locale}, containingItemsWithCommonKeys:${2:NSArray* commonKeys})'
   'commonMetadata':
     'prefix': 'commonMetadata'
-    'body': 'commonMetadata()'
+    'body': 'commonMetadata'
   'creationDate':
     'prefix': 'creationDate'
-    'body': 'creationDate()'
+    'body': 'creationDate'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'hasProtectedContent':
     'prefix': 'hasProtectedContent'
-    'body': 'hasProtectedContent()'
+    'body': 'hasProtectedContent'
   'isCompatibleWithSavedPhotosAlbum':
     'prefix': 'isCompatibleWithSavedPhotosAlbum'
-    'body': 'isCompatibleWithSavedPhotosAlbum()'
+    'body': 'isCompatibleWithSavedPhotosAlbum'
   'isComposable':
     'prefix': 'isComposable'
-    'body': 'isComposable()'
+    'body': 'isComposable'
   'isExportable':
     'prefix': 'isExportable'
-    'body': 'isExportable()'
+    'body': 'isExportable'
   'isPlayable':
     'prefix': 'isPlayable'
-    'body': 'isPlayable()'
+    'body': 'isPlayable'
   'isReadable':
     'prefix': 'isReadable'
-    'body': 'isReadable()'
+    'body': 'isReadable'
   'lyrics':
     'prefix': 'lyrics'
-    'body': 'lyrics()'
+    'body': 'lyrics'
   'mediaSelectionGroupForMediaCharacteristic:':
     'prefix': 'mediaSelectionGroupForMediaCharacteristic:'
     'body': 'mediaSelectionGroupForMediaCharacteristic(${1:NSString* mediaCharacteristic})'
@@ -2011,31 +2014,31 @@
     'body': 'metadataForFormat(${1:NSString* format})'
   'naturalSize':
     'prefix': 'naturalSize'
-    'body': 'naturalSize()'
+    'body': 'naturalSize'
   'preferredRate':
     'prefix': 'preferredRate'
-    'body': 'preferredRate()'
+    'body': 'preferredRate'
   'preferredTransform':
     'prefix': 'preferredTransform'
-    'body': 'preferredTransform()'
+    'body': 'preferredTransform'
   'preferredVolume':
     'prefix': 'preferredVolume'
-    'body': 'preferredVolume()'
+    'body': 'preferredVolume'
   'providesPreciseDurationAndTiming':
     'prefix': 'providesPreciseDurationAndTiming'
-    'body': 'providesPreciseDurationAndTiming()'
+    'body': 'providesPreciseDurationAndTiming'
   'referenceRestrictions':
     'prefix': 'referenceRestrictions'
-    'body': 'referenceRestrictions()'
+    'body': 'referenceRestrictions'
   'trackGroups':
     'prefix': 'trackGroups'
-    'body': 'trackGroups()'
+    'body': 'trackGroups'
   'trackWithTrackID:':
     'prefix': 'trackWithTrackID:'
     'body': 'trackWithTrackID(${1:CMPersistentTrackID trackID})'
   'tracks':
     'prefix': 'tracks'
-    'body': 'tracks()'
+    'body': 'tracks'
   'tracksWithMediaCharacteristic:':
     'prefix': 'tracksWithMediaCharacteristic:'
     'body': 'tracksWithMediaCharacteristic(${1:NSString* mediaCharacteristic})'
@@ -2044,25 +2047,28 @@
     'body': 'tracksWithMediaType(${1:NSString* mediaType})'
   'unusedTrackID':
     'prefix': 'unusedTrackID'
-    'body': 'unusedTrackID()'
+    'body': 'unusedTrackID'
+  'AVAssetExportSession':
+    'prefix': 'AVAssetExportSession'
+    'body': 'AVAssetExportSession'
   'AVAssetExportSession.allExportPresets':
     'prefix': 'allExportPresets'
-    'body': 'allExportPresets()'
+    'body': 'allExportPresets'
   'asset':
     'prefix': 'asset'
-    'body': 'asset()'
+    'body': 'asset'
   'audioMix':
     'prefix': 'audioMix'
-    'body': 'audioMix()'
+    'body': 'audioMix'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
-    'body': 'audioTimePitchAlgorithm()'
+    'body': 'audioTimePitchAlgorithm'
   'cancelExport':
     'prefix': 'cancelExport'
-    'body': 'cancelExport()'
+    'body': 'cancelExport'
   'customVideoCompositor':
     'prefix': 'customVideoCompositor'
-    'body': 'customVideoCompositor()'
+    'body': 'customVideoCompositor'
   'AVAssetExportSession.determineCompatibilityOfExportPreset:withAsset:outputFileType:completionHandler:':
     'prefix': 'determineCompatibilityOfExportPreset:withAsset:outputFileType:completionHandler:'
     'body': 'determineCompatibilityOfExportPreset(${1:NSString* presetName}, withAsset:${2:AVAsset* asset}, outputFileType:${3:NSString* outputFileType}, completionHandler:${4:void (^)(BOOL) handler})'
@@ -2071,10 +2077,10 @@
     'body': 'determineCompatibleFileTypesWithCompletionHandler(${1:void (^)(NSArray *) handler})'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'estimatedOutputFileLength':
     'prefix': 'estimatedOutputFileLength'
-    'body': 'estimatedOutputFileLength()'
+    'body': 'estimatedOutputFileLength'
   'exportAsynchronouslyWithCompletionHandler:':
     'prefix': 'exportAsynchronouslyWithCompletionHandler:'
     'body': 'exportAsynchronouslyWithCompletionHandler(${1:void (^)(void) handler})'
@@ -2086,31 +2092,31 @@
     'body': 'exportSessionWithAsset(${1:AVAsset* asset}, presetName:${2:NSString* presetName})'
   'fileLengthLimit':
     'prefix': 'fileLengthLimit'
-    'body': 'fileLengthLimit()'
+    'body': 'fileLengthLimit'
   'initWithAsset:presetName:':
     'prefix': 'initWithAsset:presetName:'
     'body': 'initWithAsset(${1:AVAsset* asset}, presetName:${2:NSString* presetName})'
   'maxDuration':
     'prefix': 'maxDuration'
-    'body': 'maxDuration()'
+    'body': 'maxDuration'
   'metadata':
     'prefix': 'metadata'
-    'body': 'metadata()'
+    'body': 'metadata'
   'metadataItemFilter':
     'prefix': 'metadataItemFilter'
-    'body': 'metadataItemFilter()'
+    'body': 'metadataItemFilter'
   'outputFileType':
     'prefix': 'outputFileType'
-    'body': 'outputFileType()'
+    'body': 'outputFileType'
   'outputURL':
     'prefix': 'outputURL'
-    'body': 'outputURL()'
+    'body': 'outputURL'
   'presetName':
     'prefix': 'presetName'
-    'body': 'presetName()'
+    'body': 'presetName'
   'progress':
     'prefix': 'progress'
-    'body': 'progress()'
+    'body': 'progress'
   'setAudioMix:':
     'prefix': 'setAudioMix:'
     'body': 'setAudioMix(${1:AVAudioMix* audioMix})'
@@ -2143,40 +2149,43 @@
     'body': 'setVideoComposition(${1:AVVideoComposition* videoComposition})'
   'shouldOptimizeForNetworkUse':
     'prefix': 'shouldOptimizeForNetworkUse'
-    'body': 'shouldOptimizeForNetworkUse()'
+    'body': 'shouldOptimizeForNetworkUse'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'supportedFileTypes':
     'prefix': 'supportedFileTypes'
-    'body': 'supportedFileTypes()'
+    'body': 'supportedFileTypes'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
   'videoComposition':
     'prefix': 'videoComposition'
-    'body': 'videoComposition()'
+    'body': 'videoComposition'
+  'AVAssetImageGenerator':
+    'prefix': 'AVAssetImageGenerator'
+    'body': 'AVAssetImageGenerator'
   'apertureMode':
     'prefix': 'apertureMode'
-    'body': 'apertureMode()'
+    'body': 'apertureMode'
   'appliesPreferredTrackTransform':
     'prefix': 'appliesPreferredTrackTransform'
-    'body': 'appliesPreferredTrackTransform()'
+    'body': 'appliesPreferredTrackTransform'
   'asset':
     'prefix': 'asset'
-    'body': 'asset()'
+    'body': 'asset'
   'AVAssetImageGenerator.assetImageGeneratorWithAsset:':
     'prefix': 'assetImageGeneratorWithAsset:'
     'body': 'assetImageGeneratorWithAsset(${1:AVAsset* asset})'
   'cancelAllCGImageGeneration':
     'prefix': 'cancelAllCGImageGeneration'
-    'body': 'cancelAllCGImageGeneration()'
+    'body': 'cancelAllCGImageGeneration'
   'copyCGImageAtTime:actualTime:error:':
     'prefix': 'copyCGImageAtTime:actualTime:error:'
     'body': 'copyCGImageAtTime(${1:CMTime requestedTime}, actualTime:${2:CMTime* actualTime}, error:${3:NSError** outError})'
   'customVideoCompositor':
     'prefix': 'customVideoCompositor'
-    'body': 'customVideoCompositor()'
+    'body': 'customVideoCompositor'
   'generateCGImagesAsynchronouslyForTimes:completionHandler:':
     'prefix': 'generateCGImagesAsynchronouslyForTimes:completionHandler:'
     'body': 'generateCGImagesAsynchronouslyForTimes(${1:NSArray* requestedTimes}, completionHandler:${2:AVAssetImageGeneratorCompletionHandler handler})'
@@ -2185,13 +2194,13 @@
     'body': 'initWithAsset(${1:AVAsset* asset})'
   'maximumSize':
     'prefix': 'maximumSize'
-    'body': 'maximumSize()'
+    'body': 'maximumSize'
   'requestedTimeToleranceAfter':
     'prefix': 'requestedTimeToleranceAfter'
-    'body': 'requestedTimeToleranceAfter()'
+    'body': 'requestedTimeToleranceAfter'
   'requestedTimeToleranceBefore':
     'prefix': 'requestedTimeToleranceBefore'
-    'body': 'requestedTimeToleranceBefore()'
+    'body': 'requestedTimeToleranceBefore'
   'setApertureMode:':
     'prefix': 'setApertureMode:'
     'body': 'setApertureMode(${1:NSString* apertureMode})'
@@ -2212,13 +2221,16 @@
     'body': 'setVideoComposition(${1:AVVideoComposition* videoComposition})'
   'videoComposition':
     'prefix': 'videoComposition'
-    'body': 'videoComposition()'
+    'body': 'videoComposition'
+  'AVAssetReader':
+    'prefix': 'AVAssetReader'
+    'body': 'AVAssetReader'
   'addOutput:':
     'prefix': 'addOutput:'
     'body': 'addOutput(${1:AVAssetReaderOutput* output})'
   'asset':
     'prefix': 'asset'
-    'body': 'asset()'
+    'body': 'asset'
   'AVAssetReader.assetReaderWithAsset:error:':
     'prefix': 'assetReaderWithAsset:error:'
     'body': 'assetReaderWithAsset(${1:AVAsset* asset}, error:${2:NSError** outError})'
@@ -2227,43 +2239,46 @@
     'body': 'canAddOutput(${1:AVAssetReaderOutput* output})'
   'cancelReading':
     'prefix': 'cancelReading'
-    'body': 'cancelReading()'
+    'body': 'cancelReading'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'initWithAsset:error:':
     'prefix': 'initWithAsset:error:'
     'body': 'initWithAsset(${1:AVAsset* asset}, error:${2:NSError** outError})'
   'outputs':
     'prefix': 'outputs'
-    'body': 'outputs()'
+    'body': 'outputs'
   'setTimeRange:':
     'prefix': 'setTimeRange:'
     'body': 'setTimeRange(${1:CMTimeRange timeRange})'
   'startReading':
     'prefix': 'startReading'
-    'body': 'startReading()'
+    'body': 'startReading'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
+  'AVAssetReaderAudioMixOutput':
+    'prefix': 'AVAssetReaderAudioMixOutput'
+    'body': 'AVAssetReaderAudioMixOutput'
   'AVAssetReaderAudioMixOutput.assetReaderAudioMixOutputWithAudioTracks:audioSettings:':
     'prefix': 'assetReaderAudioMixOutputWithAudioTracks:audioSettings:'
     'body': 'assetReaderAudioMixOutputWithAudioTracks(${1:NSArray* audioTracks}, audioSettings:${2:NSDictionary* audioSettings})'
   'audioMix':
     'prefix': 'audioMix'
-    'body': 'audioMix()'
+    'body': 'audioMix'
   'audioSettings':
     'prefix': 'audioSettings'
-    'body': 'audioSettings()'
+    'body': 'audioSettings'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
-    'body': 'audioTimePitchAlgorithm()'
+    'body': 'audioTimePitchAlgorithm'
   'audioTracks':
     'prefix': 'audioTracks'
-    'body': 'audioTracks()'
+    'body': 'audioTracks'
   'initWithAudioTracks:audioSettings:':
     'prefix': 'initWithAudioTracks:audioSettings:'
     'body': 'initWithAudioTracks(${1:NSArray* audioTracks}, audioSettings:${2:NSDictionary* audioSettings})'
@@ -2273,42 +2288,51 @@
   'setAudioTimePitchAlgorithm:':
     'prefix': 'setAudioTimePitchAlgorithm:'
     'body': 'setAudioTimePitchAlgorithm(${1:NSString* audioTimePitchAlgorithm})'
+  'AVAssetReaderOutput':
+    'prefix': 'AVAssetReaderOutput'
+    'body': 'AVAssetReaderOutput'
   'alwaysCopiesSampleData':
     'prefix': 'alwaysCopiesSampleData'
-    'body': 'alwaysCopiesSampleData()'
+    'body': 'alwaysCopiesSampleData'
   'copyNextSampleBuffer':
     'prefix': 'copyNextSampleBuffer'
-    'body': 'copyNextSampleBuffer()'
+    'body': 'copyNextSampleBuffer'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'setAlwaysCopiesSampleData:':
     'prefix': 'setAlwaysCopiesSampleData:'
     'body': 'setAlwaysCopiesSampleData(${1:BOOL alwaysCopiesSampleData})'
+  'AVAssetReaderTrackOutput':
+    'prefix': 'AVAssetReaderTrackOutput'
+    'body': 'AVAssetReaderTrackOutput'
   'AVAssetReaderTrackOutput.assetReaderTrackOutputWithTrack:outputSettings:':
     'prefix': 'assetReaderTrackOutputWithTrack:outputSettings:'
     'body': 'assetReaderTrackOutputWithTrack(${1:AVAssetTrack* track}, outputSettings:${2:NSDictionary* outputSettings})'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
-    'body': 'audioTimePitchAlgorithm()'
+    'body': 'audioTimePitchAlgorithm'
   'initWithTrack:outputSettings:':
     'prefix': 'initWithTrack:outputSettings:'
     'body': 'initWithTrack(${1:AVAssetTrack* track}, outputSettings:${2:NSDictionary* outputSettings})'
   'outputSettings':
     'prefix': 'outputSettings'
-    'body': 'outputSettings()'
+    'body': 'outputSettings'
   'setAudioTimePitchAlgorithm:':
     'prefix': 'setAudioTimePitchAlgorithm:'
     'body': 'setAudioTimePitchAlgorithm(${1:NSString* audioTimePitchAlgorithm})'
   'track':
     'prefix': 'track'
-    'body': 'track()'
+    'body': 'track'
+  'AVAssetReaderVideoCompositionOutput':
+    'prefix': 'AVAssetReaderVideoCompositionOutput'
+    'body': 'AVAssetReaderVideoCompositionOutput'
   'AVAssetReaderVideoCompositionOutput.assetReaderVideoCompositionOutputWithVideoTracks:videoSettings:':
     'prefix': 'assetReaderVideoCompositionOutputWithVideoTracks:videoSettings:'
     'body': 'assetReaderVideoCompositionOutputWithVideoTracks(${1:NSArray* videoTracks}, videoSettings:${2:NSDictionary* videoSettings})'
   'customVideoCompositor':
     'prefix': 'customVideoCompositor'
-    'body': 'customVideoCompositor()'
+    'body': 'customVideoCompositor'
   'initWithVideoTracks:videoSettings:':
     'prefix': 'initWithVideoTracks:videoSettings:'
     'body': 'initWithVideoTracks(${1:NSArray* videoTracks}, videoSettings:${2:NSDictionary* videoSettings})'
@@ -2317,31 +2341,37 @@
     'body': 'setVideoComposition(${1:AVVideoComposition* videoComposition})'
   'videoComposition':
     'prefix': 'videoComposition'
-    'body': 'videoComposition()'
+    'body': 'videoComposition'
   'videoSettings':
     'prefix': 'videoSettings'
-    'body': 'videoSettings()'
+    'body': 'videoSettings'
   'videoTracks':
     'prefix': 'videoTracks'
-    'body': 'videoTracks()'
+    'body': 'videoTracks'
+  'AVAssetResourceLoader':
+    'prefix': 'AVAssetResourceLoader'
+    'body': 'AVAssetResourceLoader'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'delegateQueue':
     'prefix': 'delegateQueue'
-    'body': 'delegateQueue()'
+    'body': 'delegateQueue'
   'setDelegate:queue:':
     'prefix': 'setDelegate:queue:'
     'body': 'setDelegate(${1:id delegate}, queue:${2:dispatch_queue_t delegateQueue})'
+  'AVAssetResourceLoadingContentInformationRequest':
+    'prefix': 'AVAssetResourceLoadingContentInformationRequest'
+    'body': 'AVAssetResourceLoadingContentInformationRequest'
   'contentLength':
     'prefix': 'contentLength'
-    'body': 'contentLength()'
+    'body': 'contentLength'
   'contentType':
     'prefix': 'contentType'
-    'body': 'contentType()'
+    'body': 'contentType'
   'isByteRangeAccessSupported':
     'prefix': 'isByteRangeAccessSupported'
-    'body': 'isByteRangeAccessSupported()'
+    'body': 'isByteRangeAccessSupported'
   'setByteRangeAccessSupported:':
     'prefix': 'setByteRangeAccessSupported:'
     'body': 'setByteRangeAccessSupported(${1:BOOL byteRangeAccessSupported})'
@@ -2351,27 +2381,33 @@
   'setContentType:':
     'prefix': 'setContentType:'
     'body': 'setContentType(${1:NSString* contentType})'
+  'AVAssetResourceLoadingDataRequest':
+    'prefix': 'AVAssetResourceLoadingDataRequest'
+    'body': 'AVAssetResourceLoadingDataRequest'
   'currentOffset':
     'prefix': 'currentOffset'
-    'body': 'currentOffset()'
+    'body': 'currentOffset'
   'requestedLength':
     'prefix': 'requestedLength'
-    'body': 'requestedLength()'
+    'body': 'requestedLength'
   'requestedOffset':
     'prefix': 'requestedOffset'
-    'body': 'requestedOffset()'
+    'body': 'requestedOffset'
   'respondWithData:':
     'prefix': 'respondWithData:'
     'body': 'respondWithData(${1:NSData* data})'
+  'AVAssetResourceLoadingRequest':
+    'prefix': 'AVAssetResourceLoadingRequest'
+    'body': 'AVAssetResourceLoadingRequest'
   'contentInformationRequest':
     'prefix': 'contentInformationRequest'
-    'body': 'contentInformationRequest()'
+    'body': 'contentInformationRequest'
   'dataRequest':
     'prefix': 'dataRequest'
-    'body': 'dataRequest()'
+    'body': 'dataRequest'
   'finishLoading':
     'prefix': 'finishLoading'
-    'body': 'finishLoading()'
+    'body': 'finishLoading'
   'finishLoadingWithError:':
     'prefix': 'finishLoadingWithError:'
     'body': 'finishLoadingWithError(${1:NSError* error})'
@@ -2380,19 +2416,19 @@
     'body': 'finishLoadingWithResponse(${1:NSURLResponse* response}, data:${2:NSData* data}, redirect:${3:NSURLRequest* redirect})'
   'isCancelled':
     'prefix': 'isCancelled'
-    'body': 'isCancelled()'
+    'body': 'isCancelled'
   'isFinished':
     'prefix': 'isFinished'
-    'body': 'isFinished()'
+    'body': 'isFinished'
   'redirect':
     'prefix': 'redirect'
-    'body': 'redirect()'
+    'body': 'redirect'
   'request':
     'prefix': 'request'
-    'body': 'request()'
+    'body': 'request'
   'response':
     'prefix': 'response'
-    'body': 'response()'
+    'body': 'response'
   'setRedirect:':
     'prefix': 'setRedirect:'
     'body': 'setRedirect(${1:NSURLRequest* redirect})'
@@ -2402,69 +2438,72 @@
   'streamingContentKeyRequestDataForApp:contentIdentifier:options:error:':
     'prefix': 'streamingContentKeyRequestDataForApp:contentIdentifier:options:error:'
     'body': 'streamingContentKeyRequestDataForApp(${1:NSData* appIdentifier}, contentIdentifier:${2:NSData* contentIdentifier}, options:${3:NSDictionary* options}, error:${4:NSError** outError})'
+  'AVAssetTrack':
+    'prefix': 'AVAssetTrack'
+    'body': 'AVAssetTrack'
   'asset':
     'prefix': 'asset'
-    'body': 'asset()'
+    'body': 'asset'
   'associatedTracksOfType:':
     'prefix': 'associatedTracksOfType:'
     'body': 'associatedTracksOfType(${1:NSString* trackAssociationType})'
   'availableMetadataFormats':
     'prefix': 'availableMetadataFormats'
-    'body': 'availableMetadataFormats()'
+    'body': 'availableMetadataFormats'
   'availableTrackAssociationTypes':
     'prefix': 'availableTrackAssociationTypes'
-    'body': 'availableTrackAssociationTypes()'
+    'body': 'availableTrackAssociationTypes'
   'commonMetadata':
     'prefix': 'commonMetadata'
-    'body': 'commonMetadata()'
+    'body': 'commonMetadata'
   'estimatedDataRate':
     'prefix': 'estimatedDataRate'
-    'body': 'estimatedDataRate()'
+    'body': 'estimatedDataRate'
   'extendedLanguageTag':
     'prefix': 'extendedLanguageTag'
-    'body': 'extendedLanguageTag()'
+    'body': 'extendedLanguageTag'
   'formatDescriptions':
     'prefix': 'formatDescriptions'
-    'body': 'formatDescriptions()'
+    'body': 'formatDescriptions'
   'hasMediaCharacteristic:':
     'prefix': 'hasMediaCharacteristic:'
     'body': 'hasMediaCharacteristic(${1:NSString* mediaCharacteristic})'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'isPlayable':
     'prefix': 'isPlayable'
-    'body': 'isPlayable()'
+    'body': 'isPlayable'
   'isSelfContained':
     'prefix': 'isSelfContained'
-    'body': 'isSelfContained()'
+    'body': 'isSelfContained'
   'languageCode':
     'prefix': 'languageCode'
-    'body': 'languageCode()'
+    'body': 'languageCode'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'metadataForFormat:':
     'prefix': 'metadataForFormat:'
     'body': 'metadataForFormat(${1:NSString* format})'
   'minFrameDuration':
     'prefix': 'minFrameDuration'
-    'body': 'minFrameDuration()'
+    'body': 'minFrameDuration'
   'naturalSize':
     'prefix': 'naturalSize'
-    'body': 'naturalSize()'
+    'body': 'naturalSize'
   'naturalTimeScale':
     'prefix': 'naturalTimeScale'
-    'body': 'naturalTimeScale()'
+    'body': 'naturalTimeScale'
   'nominalFrameRate':
     'prefix': 'nominalFrameRate'
-    'body': 'nominalFrameRate()'
+    'body': 'nominalFrameRate'
   'preferredTransform':
     'prefix': 'preferredTransform'
-    'body': 'preferredTransform()'
+    'body': 'preferredTransform'
   'preferredVolume':
     'prefix': 'preferredVolume'
-    'body': 'preferredVolume()'
+    'body': 'preferredVolume'
   'samplePresentationTimeForTrackTime:':
     'prefix': 'samplePresentationTimeForTrackTime:'
     'body': 'samplePresentationTimeForTrackTime(${1:CMTime trackTime})'
@@ -2473,25 +2512,34 @@
     'body': 'segmentForTrackTime(${1:CMTime trackTime})'
   'segments':
     'prefix': 'segments'
-    'body': 'segments()'
+    'body': 'segments'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
   'totalSampleDataLength':
     'prefix': 'totalSampleDataLength'
-    'body': 'totalSampleDataLength()'
+    'body': 'totalSampleDataLength'
   'trackID':
     'prefix': 'trackID'
-    'body': 'trackID()'
+    'body': 'trackID'
+  'AVAssetTrackGroup':
+    'prefix': 'AVAssetTrackGroup'
+    'body': 'AVAssetTrackGroup'
   'trackIDs':
     'prefix': 'trackIDs'
-    'body': 'trackIDs()'
+    'body': 'trackIDs'
+  'AVAssetTrackSegment':
+    'prefix': 'AVAssetTrackSegment'
+    'body': 'AVAssetTrackSegment'
   'isEmpty':
     'prefix': 'isEmpty'
-    'body': 'isEmpty()'
+    'body': 'isEmpty'
   'timeMapping':
     'prefix': 'timeMapping'
-    'body': 'timeMapping()'
+    'body': 'timeMapping'
+  'AVAssetWriter':
+    'prefix': 'AVAssetWriter'
+    'body': 'AVAssetWriter'
   'addInput:':
     'prefix': 'addInput:'
     'body': 'addInput(${1:AVAssetWriterInput* input})'
@@ -2503,7 +2551,7 @@
     'body': 'assetWriterWithURL(${1:NSURL* outputURL}, fileType:${2:NSString* outputFileType}, error:${3:NSError** outError})'
   'availableMediaTypes':
     'prefix': 'availableMediaTypes'
-    'body': 'availableMediaTypes()'
+    'body': 'availableMediaTypes'
   'canAddInput:':
     'prefix': 'canAddInput:'
     'body': 'canAddInput(${1:AVAssetWriterInput* input})'
@@ -2515,16 +2563,16 @@
     'body': 'canApplyOutputSettings(${1:NSDictionary* outputSettings}, forMediaType:${2:NSString* mediaType})'
   'cancelWriting':
     'prefix': 'cancelWriting'
-    'body': 'cancelWriting()'
+    'body': 'cancelWriting'
   'endSessionAtSourceTime:':
     'prefix': 'endSessionAtSourceTime:'
     'body': 'endSessionAtSourceTime(${1:CMTime endTime})'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'finishWriting':
     'prefix': 'finishWriting'
-    'body': 'finishWriting()'
+    'body': 'finishWriting'
   'finishWritingWithCompletionHandler:':
     'prefix': 'finishWritingWithCompletionHandler:'
     'body': 'finishWritingWithCompletionHandler(${1:void (^)(void) handler})'
@@ -2533,25 +2581,25 @@
     'body': 'initWithURL(${1:NSURL* outputURL}, fileType:${2:NSString* outputFileType}, error:${3:NSError** outError})'
   'inputGroups':
     'prefix': 'inputGroups'
-    'body': 'inputGroups()'
+    'body': 'inputGroups'
   'inputs':
     'prefix': 'inputs'
-    'body': 'inputs()'
+    'body': 'inputs'
   'metadata':
     'prefix': 'metadata'
-    'body': 'metadata()'
+    'body': 'metadata'
   'movieFragmentInterval':
     'prefix': 'movieFragmentInterval'
-    'body': 'movieFragmentInterval()'
+    'body': 'movieFragmentInterval'
   'movieTimeScale':
     'prefix': 'movieTimeScale'
-    'body': 'movieTimeScale()'
+    'body': 'movieTimeScale'
   'outputFileType':
     'prefix': 'outputFileType'
-    'body': 'outputFileType()'
+    'body': 'outputFileType'
   'outputURL':
     'prefix': 'outputURL'
-    'body': 'outputURL()'
+    'body': 'outputURL'
   'setMetadata:':
     'prefix': 'setMetadata:'
     'body': 'setMetadata(${1:NSArray* metadata})'
@@ -2566,16 +2614,19 @@
     'body': 'setShouldOptimizeForNetworkUse(${1:BOOL shouldOptimizeForNetworkUse})'
   'shouldOptimizeForNetworkUse':
     'prefix': 'shouldOptimizeForNetworkUse'
-    'body': 'shouldOptimizeForNetworkUse()'
+    'body': 'shouldOptimizeForNetworkUse'
   'startSessionAtSourceTime:':
     'prefix': 'startSessionAtSourceTime:'
     'body': 'startSessionAtSourceTime(${1:CMTime startTime})'
   'startWriting':
     'prefix': 'startWriting'
-    'body': 'startWriting()'
+    'body': 'startWriting'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'AVAssetWriterInput':
+    'prefix': 'AVAssetWriterInput'
+    'body': 'AVAssetWriterInput'
   'addTrackAssociationWithTrackOfInput:type:':
     'prefix': 'addTrackAssociationWithTrackOfInput:type:'
     'body': 'addTrackAssociationWithTrackOfInput(${1:AVAssetWriterInput* input}, type:${2:NSString* trackAssociationType})'
@@ -2593,10 +2644,10 @@
     'body': 'canAddTrackAssociationWithTrackOfInput(${1:AVAssetWriterInput* input}, type:${2:NSString* trackAssociationType})'
   'expectsMediaDataInRealTime':
     'prefix': 'expectsMediaDataInRealTime'
-    'body': 'expectsMediaDataInRealTime()'
+    'body': 'expectsMediaDataInRealTime'
   'extendedLanguageTag':
     'prefix': 'extendedLanguageTag'
-    'body': 'extendedLanguageTag()'
+    'body': 'extendedLanguageTag'
   'initWithMediaType:outputSettings:':
     'prefix': 'initWithMediaType:outputSettings:'
     'body': 'initWithMediaType(${1:NSString* mediaType}, outputSettings:${2:NSDictionary* outputSettings})'
@@ -2605,34 +2656,34 @@
     'body': 'initWithMediaType(${1:NSString* mediaType}, outputSettings:${2:NSDictionary* outputSettings}, sourceFormatHint:${3:CMFormatDescriptionRef sourceFormatHint})'
   'isReadyForMoreMediaData':
     'prefix': 'isReadyForMoreMediaData'
-    'body': 'isReadyForMoreMediaData()'
+    'body': 'isReadyForMoreMediaData'
   'languageCode':
     'prefix': 'languageCode'
-    'body': 'languageCode()'
+    'body': 'languageCode'
   'markAsFinished':
     'prefix': 'markAsFinished'
-    'body': 'markAsFinished()'
+    'body': 'markAsFinished'
   'marksOutputTrackAsEnabled':
     'prefix': 'marksOutputTrackAsEnabled'
-    'body': 'marksOutputTrackAsEnabled()'
+    'body': 'marksOutputTrackAsEnabled'
   'mediaTimeScale':
     'prefix': 'mediaTimeScale'
-    'body': 'mediaTimeScale()'
+    'body': 'mediaTimeScale'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'metadata':
     'prefix': 'metadata'
-    'body': 'metadata()'
+    'body': 'metadata'
   'naturalSize':
     'prefix': 'naturalSize'
-    'body': 'naturalSize()'
+    'body': 'naturalSize'
   'outputSettings':
     'prefix': 'outputSettings'
-    'body': 'outputSettings()'
+    'body': 'outputSettings'
   'preferredVolume':
     'prefix': 'preferredVolume'
-    'body': 'preferredVolume()'
+    'body': 'preferredVolume'
   'requestMediaDataWhenReadyOnQueue:usingBlock:':
     'prefix': 'requestMediaDataWhenReadyOnQueue:usingBlock:'
     'body': 'requestMediaDataWhenReadyOnQueue(${1:dispatch_queue_t queue}, usingBlock:${2:void (^)(void) block})'
@@ -2665,28 +2716,34 @@
     'body': 'setTransform(${1:CGAffineTransform transform})'
   'sourceFormatHint':
     'prefix': 'sourceFormatHint'
-    'body': 'sourceFormatHint()'
+    'body': 'sourceFormatHint'
   'transform':
     'prefix': 'transform'
-    'body': 'transform()'
+    'body': 'transform'
+  'AVAssetWriterInputGroup':
+    'prefix': 'AVAssetWriterInputGroup'
+    'body': 'AVAssetWriterInputGroup'
   'AVAssetWriterInputGroup.assetWriterInputGroupWithInputs:defaultInput:':
     'prefix': 'assetWriterInputGroupWithInputs:defaultInput:'
     'body': 'assetWriterInputGroupWithInputs(${1:NSArray* inputs}, defaultInput:${2:AVAssetWriterInput* defaultInput})'
   'defaultInput':
     'prefix': 'defaultInput'
-    'body': 'defaultInput()'
+    'body': 'defaultInput'
   'initWithInputs:defaultInput:':
     'prefix': 'initWithInputs:defaultInput:'
     'body': 'initWithInputs(${1:NSArray* inputs}, defaultInput:${2:AVAssetWriterInput* defaultInput})'
   'inputs':
     'prefix': 'inputs'
-    'body': 'inputs()'
+    'body': 'inputs'
+  'AVAssetWriterInputPixelBufferAdaptor':
+    'prefix': 'AVAssetWriterInputPixelBufferAdaptor'
+    'body': 'AVAssetWriterInputPixelBufferAdaptor'
   'appendPixelBuffer:withPresentationTime:':
     'prefix': 'appendPixelBuffer:withPresentationTime:'
     'body': 'appendPixelBuffer(${1:CVPixelBufferRef pixelBuffer}, withPresentationTime:${2:CMTime presentationTime})'
   'assetWriterInput':
     'prefix': 'assetWriterInput'
-    'body': 'assetWriterInput()'
+    'body': 'assetWriterInput'
   'AVAssetWriterInputPixelBufferAdaptor.assetWriterInputPixelBufferAdaptorWithAssetWriterInput:sourcePixelBufferAttributes:':
     'prefix': 'assetWriterInputPixelBufferAdaptorWithAssetWriterInput:sourcePixelBufferAttributes:'
     'body': 'assetWriterInputPixelBufferAdaptorWithAssetWriterInput(${1:AVAssetWriterInput* input}, sourcePixelBufferAttributes:${2:NSDictionary* sourcePixelBufferAttributes})'
@@ -2695,16 +2752,19 @@
     'body': 'initWithAssetWriterInput(${1:AVAssetWriterInput* input}, sourcePixelBufferAttributes:${2:NSDictionary* sourcePixelBufferAttributes})'
   'pixelBufferPool':
     'prefix': 'pixelBufferPool'
-    'body': 'pixelBufferPool()'
+    'body': 'pixelBufferPool'
   'sourcePixelBufferAttributes':
     'prefix': 'sourcePixelBufferAttributes'
-    'body': 'sourcePixelBufferAttributes()'
+    'body': 'sourcePixelBufferAttributes'
+  'AVAsynchronousVideoCompositionRequest':
+    'prefix': 'AVAsynchronousVideoCompositionRequest'
+    'body': 'AVAsynchronousVideoCompositionRequest'
   'compositionTime':
     'prefix': 'compositionTime'
-    'body': 'compositionTime()'
+    'body': 'compositionTime'
   'finishCancelledRequest':
     'prefix': 'finishCancelledRequest'
-    'body': 'finishCancelledRequest()'
+    'body': 'finishCancelledRequest'
   'finishWithComposedVideoFrame:':
     'prefix': 'finishWithComposedVideoFrame:'
     'body': 'finishWithComposedVideoFrame(${1:CVPixelBufferRef composedVideoFrame})'
@@ -2713,55 +2773,64 @@
     'body': 'finishWithError(${1:NSError* error})'
   'renderContext':
     'prefix': 'renderContext'
-    'body': 'renderContext()'
+    'body': 'renderContext'
   'sourceFrameByTrackID:':
     'prefix': 'sourceFrameByTrackID:'
     'body': 'sourceFrameByTrackID(${1:CMPersistentTrackID trackID})'
   'sourceTrackIDs':
     'prefix': 'sourceTrackIDs'
-    'body': 'sourceTrackIDs()'
+    'body': 'sourceTrackIDs'
   'videoCompositionInstruction':
     'prefix': 'videoCompositionInstruction'
-    'body': 'videoCompositionInstruction()'
+    'body': 'videoCompositionInstruction'
+  'AVAudioMix':
+    'prefix': 'AVAudioMix'
+    'body': 'AVAudioMix'
   'inputParameters':
     'prefix': 'inputParameters'
-    'body': 'inputParameters()'
+    'body': 'inputParameters'
+  'AVAudioMixInputParameters':
+    'prefix': 'AVAudioMixInputParameters'
+    'body': 'AVAudioMixInputParameters'
   'audioTapProcessor':
     'prefix': 'audioTapProcessor'
-    'body': 'audioTapProcessor()'
+    'body': 'audioTapProcessor'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
-    'body': 'audioTimePitchAlgorithm()'
+    'body': 'audioTimePitchAlgorithm'
   'getVolumeRampForTime:startVolume:endVolume:timeRange:':
     'prefix': 'getVolumeRampForTime:startVolume:endVolume:timeRange:'
     'body': 'getVolumeRampForTime(${1:CMTime time}, startVolume:${2:float* startVolume}, endVolume:${3:float* endVolume}, timeRange:${4:CMTimeRange* timeRange})'
   'trackID':
     'prefix': 'trackID'
-    'body': 'trackID()'
+    'body': 'trackID'
+  'AVAudioPlayer':
+    'prefix': 'AVAudioPlayer'
+    'body': 'AVAudioPlayer'
   'averagePowerForChannel:':
     'prefix': 'averagePowerForChannel:'
     'body': 'averagePowerForChannel(${1:NSUInteger channelNumber})'
   'channelAssignments':
     'prefix': 'channelAssignments'
-    'body': 'channelAssignments()'
+    'body': 'channelAssignments'
   'currentTime':
     'prefix': 'currentTime'
-    'body': 'currentTime()'
+    'body': 'currentTime'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'deviceCurrentTime':
     'prefix': 'deviceCurrentTime'
-    'body': 'deviceCurrentTime()'
+    'body': 'deviceCurrentTime'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'enableRate':
     'prefix': 'enableRate'
-    'body': 'enableRate()'
+    'body': 'enableRate'
   'initWithContentsOfURL:error:':
     'prefix': 'initWithContentsOfURL:error:'
     'body': 'initWithContentsOfURL(${1:NSURL* url}, error:${2:NSError** outError})'
@@ -2776,37 +2845,37 @@
     'body': 'initWithData(${1:NSData* data}, fileTypeHint:${2:NSString* utiString}, error:${3:NSError** outError})'
   'isMeteringEnabled':
     'prefix': 'isMeteringEnabled'
-    'body': 'isMeteringEnabled()'
+    'body': 'isMeteringEnabled'
   'isPlaying':
     'prefix': 'isPlaying'
-    'body': 'isPlaying()'
+    'body': 'isPlaying'
   'numberOfChannels':
     'prefix': 'numberOfChannels'
-    'body': 'numberOfChannels()'
+    'body': 'numberOfChannels'
   'numberOfLoops':
     'prefix': 'numberOfLoops'
-    'body': 'numberOfLoops()'
+    'body': 'numberOfLoops'
   'pan':
     'prefix': 'pan'
-    'body': 'pan()'
+    'body': 'pan'
   'pause':
     'prefix': 'pause'
-    'body': 'pause()'
+    'body': 'pause'
   'peakPowerForChannel:':
     'prefix': 'peakPowerForChannel:'
     'body': 'peakPowerForChannel(${1:NSUInteger channelNumber})'
   'play':
     'prefix': 'play'
-    'body': 'play()'
+    'body': 'play'
   'playAtTime:':
     'prefix': 'playAtTime:'
     'body': 'playAtTime(${1:NSTimeInterval time})'
   'prepareToPlay':
     'prefix': 'prepareToPlay'
-    'body': 'prepareToPlay()'
+    'body': 'prepareToPlay'
   'rate':
     'prefix': 'rate'
-    'body': 'rate()'
+    'body': 'rate'
   'setChannelAssignments:':
     'prefix': 'setChannelAssignments:'
     'body': 'setChannelAssignments(${1:NSArray* channelAssignments})'
@@ -2836,58 +2905,61 @@
     'body': 'setVolume(${1:float volume})'
   'settings':
     'prefix': 'settings'
-    'body': 'settings()'
+    'body': 'settings'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
   'updateMeters':
     'prefix': 'updateMeters'
-    'body': 'updateMeters()'
+    'body': 'updateMeters'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
+  'AVAudioRecorder':
+    'prefix': 'AVAudioRecorder'
+    'body': 'AVAudioRecorder'
   'averagePowerForChannel:':
     'prefix': 'averagePowerForChannel:'
     'body': 'averagePowerForChannel(${1:NSUInteger channelNumber})'
   'channelAssignments':
     'prefix': 'channelAssignments'
-    'body': 'channelAssignments()'
+    'body': 'channelAssignments'
   'currentTime':
     'prefix': 'currentTime'
-    'body': 'currentTime()'
+    'body': 'currentTime'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'deleteRecording':
     'prefix': 'deleteRecording'
-    'body': 'deleteRecording()'
+    'body': 'deleteRecording'
   'deviceCurrentTime':
     'prefix': 'deviceCurrentTime'
-    'body': 'deviceCurrentTime()'
+    'body': 'deviceCurrentTime'
   'initWithURL:settings:error:':
     'prefix': 'initWithURL:settings:error:'
     'body': 'initWithURL(${1:NSURL* url}, settings:${2:NSDictionary* settings}, error:${3:NSError** outError})'
   'isMeteringEnabled':
     'prefix': 'isMeteringEnabled'
-    'body': 'isMeteringEnabled()'
+    'body': 'isMeteringEnabled'
   'isRecording':
     'prefix': 'isRecording'
-    'body': 'isRecording()'
+    'body': 'isRecording'
   'pause':
     'prefix': 'pause'
-    'body': 'pause()'
+    'body': 'pause'
   'peakPowerForChannel:':
     'prefix': 'peakPowerForChannel:'
     'body': 'peakPowerForChannel(${1:NSUInteger channelNumber})'
   'prepareToRecord':
     'prefix': 'prepareToRecord'
-    'body': 'prepareToRecord()'
+    'body': 'prepareToRecord'
   'record':
     'prefix': 'record'
-    'body': 'record()'
+    'body': 'record'
   'recordAtTime:':
     'prefix': 'recordAtTime:'
     'body': 'recordAtTime(${1:NSTimeInterval time})'
@@ -2908,121 +2980,124 @@
     'body': 'setMeteringEnabled(${1:BOOL meteringEnabled})'
   'settings':
     'prefix': 'settings'
-    'body': 'settings()'
+    'body': 'settings'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
   'updateMeters':
     'prefix': 'updateMeters'
-    'body': 'updateMeters()'
+    'body': 'updateMeters'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'AVAudioSession':
+    'prefix': 'AVAudioSession'
+    'body': 'AVAudioSession'
   'IOBufferDuration':
     'prefix': 'IOBufferDuration'
-    'body': 'IOBufferDuration()'
+    'body': 'IOBufferDuration'
   'availableInputs':
     'prefix': 'availableInputs'
-    'body': 'availableInputs()'
+    'body': 'availableInputs'
   'category':
     'prefix': 'category'
-    'body': 'category()'
+    'body': 'category'
   'categoryOptions':
     'prefix': 'categoryOptions'
-    'body': 'categoryOptions()'
+    'body': 'categoryOptions'
   'currentHardwareInputNumberOfChannels':
     'prefix': 'currentHardwareInputNumberOfChannels'
-    'body': 'currentHardwareInputNumberOfChannels()'
+    'body': 'currentHardwareInputNumberOfChannels'
   'currentHardwareOutputNumberOfChannels':
     'prefix': 'currentHardwareOutputNumberOfChannels'
-    'body': 'currentHardwareOutputNumberOfChannels()'
+    'body': 'currentHardwareOutputNumberOfChannels'
   'currentHardwareSampleRate':
     'prefix': 'currentHardwareSampleRate'
-    'body': 'currentHardwareSampleRate()'
+    'body': 'currentHardwareSampleRate'
   'currentRoute':
     'prefix': 'currentRoute'
-    'body': 'currentRoute()'
+    'body': 'currentRoute'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'inputDataSource':
     'prefix': 'inputDataSource'
-    'body': 'inputDataSource()'
+    'body': 'inputDataSource'
   'inputDataSources':
     'prefix': 'inputDataSources'
-    'body': 'inputDataSources()'
+    'body': 'inputDataSources'
   'inputGain':
     'prefix': 'inputGain'
-    'body': 'inputGain()'
+    'body': 'inputGain'
   'inputIsAvailable':
     'prefix': 'inputIsAvailable'
-    'body': 'inputIsAvailable()'
+    'body': 'inputIsAvailable'
   'inputLatency':
     'prefix': 'inputLatency'
-    'body': 'inputLatency()'
+    'body': 'inputLatency'
   'inputNumberOfChannels':
     'prefix': 'inputNumberOfChannels'
-    'body': 'inputNumberOfChannels()'
+    'body': 'inputNumberOfChannels'
   'isInputAvailable':
     'prefix': 'isInputAvailable'
-    'body': 'isInputAvailable()'
+    'body': 'isInputAvailable'
   'isInputGainSettable':
     'prefix': 'isInputGainSettable'
-    'body': 'isInputGainSettable()'
+    'body': 'isInputGainSettable'
   'isOtherAudioPlaying':
     'prefix': 'isOtherAudioPlaying'
-    'body': 'isOtherAudioPlaying()'
+    'body': 'isOtherAudioPlaying'
   'maximumInputNumberOfChannels':
     'prefix': 'maximumInputNumberOfChannels'
-    'body': 'maximumInputNumberOfChannels()'
+    'body': 'maximumInputNumberOfChannels'
   'maximumOutputNumberOfChannels':
     'prefix': 'maximumOutputNumberOfChannels'
-    'body': 'maximumOutputNumberOfChannels()'
+    'body': 'maximumOutputNumberOfChannels'
   'mode':
     'prefix': 'mode'
-    'body': 'mode()'
+    'body': 'mode'
   'outputDataSource':
     'prefix': 'outputDataSource'
-    'body': 'outputDataSource()'
+    'body': 'outputDataSource'
   'outputDataSources':
     'prefix': 'outputDataSources'
-    'body': 'outputDataSources()'
+    'body': 'outputDataSources'
   'outputLatency':
     'prefix': 'outputLatency'
-    'body': 'outputLatency()'
+    'body': 'outputLatency'
   'outputNumberOfChannels':
     'prefix': 'outputNumberOfChannels'
-    'body': 'outputNumberOfChannels()'
+    'body': 'outputNumberOfChannels'
   'outputVolume':
     'prefix': 'outputVolume'
-    'body': 'outputVolume()'
+    'body': 'outputVolume'
   'overrideOutputAudioPort:error:':
     'prefix': 'overrideOutputAudioPort:error:'
     'body': 'overrideOutputAudioPort(${1:AVAudioSessionPortOverride portOverride}, error:${2:NSError** outError})'
   'preferredHardwareSampleRate':
     'prefix': 'preferredHardwareSampleRate'
-    'body': 'preferredHardwareSampleRate()'
+    'body': 'preferredHardwareSampleRate'
   'preferredIOBufferDuration':
     'prefix': 'preferredIOBufferDuration'
-    'body': 'preferredIOBufferDuration()'
+    'body': 'preferredIOBufferDuration'
   'preferredInput':
     'prefix': 'preferredInput'
-    'body': 'preferredInput()'
+    'body': 'preferredInput'
   'preferredInputNumberOfChannels':
     'prefix': 'preferredInputNumberOfChannels'
-    'body': 'preferredInputNumberOfChannels()'
+    'body': 'preferredInputNumberOfChannels'
   'preferredOutputNumberOfChannels':
     'prefix': 'preferredOutputNumberOfChannels'
-    'body': 'preferredOutputNumberOfChannels()'
+    'body': 'preferredOutputNumberOfChannels'
   'preferredSampleRate':
     'prefix': 'preferredSampleRate'
-    'body': 'preferredSampleRate()'
+    'body': 'preferredSampleRate'
   'requestRecordPermission:':
     'prefix': 'requestRecordPermission:'
     'body': 'requestRecordPermission(${1:PermissionBlock response})'
   'sampleRate':
     'prefix': 'sampleRate'
-    'body': 'sampleRate()'
+    'body': 'sampleRate'
   'setActive:error:':
     'prefix': 'setActive:error:'
     'body': 'setActive(${1:BOOL active}, error:${2:NSError** outError})'
@@ -3073,133 +3148,154 @@
     'body': 'setPreferredSampleRate(${1:double sampleRate}, error:${2:NSError** outError})'
   'AVAudioSession.sharedInstance':
     'prefix': 'sharedInstance'
-    'body': 'sharedInstance()'
+    'body': 'sharedInstance'
+  'AVAudioSessionChannelDescription':
+    'prefix': 'AVAudioSessionChannelDescription'
+    'body': 'AVAudioSessionChannelDescription'
   'channelLabel':
     'prefix': 'channelLabel'
-    'body': 'channelLabel()'
+    'body': 'channelLabel'
   'channelName':
     'prefix': 'channelName'
-    'body': 'channelName()'
+    'body': 'channelName'
   'channelNumber':
     'prefix': 'channelNumber'
-    'body': 'channelNumber()'
+    'body': 'channelNumber'
   'owningPortUID':
     'prefix': 'owningPortUID'
-    'body': 'owningPortUID()'
+    'body': 'owningPortUID'
+  'AVAudioSessionDataSourceDescription':
+    'prefix': 'AVAudioSessionDataSourceDescription'
+    'body': 'AVAudioSessionDataSourceDescription'
   'dataSourceID':
     'prefix': 'dataSourceID'
-    'body': 'dataSourceID()'
+    'body': 'dataSourceID'
   'dataSourceName':
     'prefix': 'dataSourceName'
-    'body': 'dataSourceName()'
+    'body': 'dataSourceName'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'orientation':
     'prefix': 'orientation'
-    'body': 'orientation()'
+    'body': 'orientation'
   'preferredPolarPattern':
     'prefix': 'preferredPolarPattern'
-    'body': 'preferredPolarPattern()'
+    'body': 'preferredPolarPattern'
   'selectedPolarPattern':
     'prefix': 'selectedPolarPattern'
-    'body': 'selectedPolarPattern()'
+    'body': 'selectedPolarPattern'
   'setPreferredPolarPattern:error:':
     'prefix': 'setPreferredPolarPattern:error:'
     'body': 'setPreferredPolarPattern(${1:NSString* pattern}, error:${2:NSError** outError})'
   'supportedPolarPatterns':
     'prefix': 'supportedPolarPatterns'
-    'body': 'supportedPolarPatterns()'
+    'body': 'supportedPolarPatterns'
+  'AVAudioSessionPortDescription':
+    'prefix': 'AVAudioSessionPortDescription'
+    'body': 'AVAudioSessionPortDescription'
   'UID':
     'prefix': 'UID'
-    'body': 'UID()'
+    'body': 'UID'
   'channels':
     'prefix': 'channels'
-    'body': 'channels()'
+    'body': 'channels'
   'dataSources':
     'prefix': 'dataSources'
-    'body': 'dataSources()'
+    'body': 'dataSources'
   'portName':
     'prefix': 'portName'
-    'body': 'portName()'
+    'body': 'portName'
   'portType':
     'prefix': 'portType'
-    'body': 'portType()'
+    'body': 'portType'
   'preferredDataSource':
     'prefix': 'preferredDataSource'
-    'body': 'preferredDataSource()'
+    'body': 'preferredDataSource'
   'selectedDataSource':
     'prefix': 'selectedDataSource'
-    'body': 'selectedDataSource()'
+    'body': 'selectedDataSource'
   'setPreferredDataSource:error:':
     'prefix': 'setPreferredDataSource:error:'
     'body': 'setPreferredDataSource(${1:AVAudioSessionDataSourceDescription* dataSource}, error:${2:NSError** outError})'
+  'AVAudioSessionRouteDescription':
+    'prefix': 'AVAudioSessionRouteDescription'
+    'body': 'AVAudioSessionRouteDescription'
   'inputs':
     'prefix': 'inputs'
-    'body': 'inputs()'
+    'body': 'inputs'
   'outputs':
     'prefix': 'outputs'
-    'body': 'outputs()'
+    'body': 'outputs'
+  'AVCaptureAudioChannel':
+    'prefix': 'AVCaptureAudioChannel'
+    'body': 'AVCaptureAudioChannel'
   'averagePowerLevel':
     'prefix': 'averagePowerLevel'
-    'body': 'averagePowerLevel()'
+    'body': 'averagePowerLevel'
   'peakHoldLevel':
     'prefix': 'peakHoldLevel'
-    'body': 'peakHoldLevel()'
+    'body': 'peakHoldLevel'
+  'AVCaptureAudioDataOutput':
+    'prefix': 'AVCaptureAudioDataOutput'
+    'body': 'AVCaptureAudioDataOutput'
   'recommendedAudioSettingsForAssetWriterWithOutputFileType:':
     'prefix': 'recommendedAudioSettingsForAssetWriterWithOutputFileType:'
     'body': 'recommendedAudioSettingsForAssetWriterWithOutputFileType(${1:NSString* outputFileType})'
   'sampleBufferCallbackQueue':
     'prefix': 'sampleBufferCallbackQueue'
-    'body': 'sampleBufferCallbackQueue()'
+    'body': 'sampleBufferCallbackQueue'
   'sampleBufferDelegate':
     'prefix': 'sampleBufferDelegate'
-    'body': 'sampleBufferDelegate()'
+    'body': 'sampleBufferDelegate'
   'setSampleBufferDelegate:queue:':
     'prefix': 'setSampleBufferDelegate:queue:'
     'body': 'setSampleBufferDelegate(${1:id sampleBufferDelegate}, queue:${2:dispatch_queue_t sampleBufferCallbackQueue})'
+  'AVCaptureConnection':
+    'prefix': 'AVCaptureConnection'
+    'body': 'AVCaptureConnection'
   'audioChannels':
     'prefix': 'audioChannels'
-    'body': 'audioChannels()'
+    'body': 'audioChannels'
   'automaticallyAdjustsVideoMirroring':
     'prefix': 'automaticallyAdjustsVideoMirroring'
-    'body': 'automaticallyAdjustsVideoMirroring()'
+    'body': 'automaticallyAdjustsVideoMirroring'
   'enablesVideoStabilizationWhenAvailable':
     'prefix': 'enablesVideoStabilizationWhenAvailable'
-    'body': 'enablesVideoStabilizationWhenAvailable()'
+    'body': 'enablesVideoStabilizationWhenAvailable'
   'inputPorts':
     'prefix': 'inputPorts'
-    'body': 'inputPorts()'
+    'body': 'inputPorts'
   'isActive':
     'prefix': 'isActive'
-    'body': 'isActive()'
+    'body': 'isActive'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'isVideoMaxFrameDurationSupported':
     'prefix': 'isVideoMaxFrameDurationSupported'
-    'body': 'isVideoMaxFrameDurationSupported()'
+    'body': 'isVideoMaxFrameDurationSupported'
   'isVideoMinFrameDurationSupported':
     'prefix': 'isVideoMinFrameDurationSupported'
-    'body': 'isVideoMinFrameDurationSupported()'
+    'body': 'isVideoMinFrameDurationSupported'
   'isVideoMirrored':
     'prefix': 'isVideoMirrored'
-    'body': 'isVideoMirrored()'
+    'body': 'isVideoMirrored'
   'isVideoMirroringSupported':
     'prefix': 'isVideoMirroringSupported'
-    'body': 'isVideoMirroringSupported()'
+    'body': 'isVideoMirroringSupported'
   'isVideoOrientationSupported':
     'prefix': 'isVideoOrientationSupported'
-    'body': 'isVideoOrientationSupported()'
+    'body': 'isVideoOrientationSupported'
   'isVideoStabilizationEnabled':
     'prefix': 'isVideoStabilizationEnabled'
-    'body': 'isVideoStabilizationEnabled()'
+    'body': 'isVideoStabilizationEnabled'
   'isVideoStabilizationSupported':
     'prefix': 'isVideoStabilizationSupported'
-    'body': 'isVideoStabilizationSupported()'
+    'body': 'isVideoStabilizationSupported'
   'output':
     'prefix': 'output'
-    'body': 'output()'
+    'body': 'output'
   'setAutomaticallyAdjustsVideoMirroring:':
     'prefix': 'setAutomaticallyAdjustsVideoMirroring:'
     'body': 'setAutomaticallyAdjustsVideoMirroring(${1:BOOL automaticallyAdjustsVideoMirroring})'
@@ -3226,43 +3322,46 @@
     'body': 'setVideoScaleAndCropFactor(${1:CGFloat videoScaleAndCropFactor})'
   'videoMaxFrameDuration':
     'prefix': 'videoMaxFrameDuration'
-    'body': 'videoMaxFrameDuration()'
+    'body': 'videoMaxFrameDuration'
   'videoMaxScaleAndCropFactor':
     'prefix': 'videoMaxScaleAndCropFactor'
-    'body': 'videoMaxScaleAndCropFactor()'
+    'body': 'videoMaxScaleAndCropFactor'
   'videoMinFrameDuration':
     'prefix': 'videoMinFrameDuration'
-    'body': 'videoMinFrameDuration()'
+    'body': 'videoMinFrameDuration'
   'videoOrientation':
     'prefix': 'videoOrientation'
-    'body': 'videoOrientation()'
+    'body': 'videoOrientation'
   'videoPreviewLayer':
     'prefix': 'videoPreviewLayer'
-    'body': 'videoPreviewLayer()'
+    'body': 'videoPreviewLayer'
   'videoScaleAndCropFactor':
     'prefix': 'videoScaleAndCropFactor'
-    'body': 'videoScaleAndCropFactor()'
+    'body': 'videoScaleAndCropFactor'
+  'AVCaptureDevice':
+    'prefix': 'AVCaptureDevice'
+    'body': 'AVCaptureDevice'
   'activeFormat':
     'prefix': 'activeFormat'
-    'body': 'activeFormat()'
+    'body': 'activeFormat'
   'activeVideoMaxFrameDuration':
     'prefix': 'activeVideoMaxFrameDuration'
-    'body': 'activeVideoMaxFrameDuration()'
+    'body': 'activeVideoMaxFrameDuration'
   'activeVideoMinFrameDuration':
     'prefix': 'activeVideoMinFrameDuration'
-    'body': 'activeVideoMinFrameDuration()'
+    'body': 'activeVideoMinFrameDuration'
   'AVCaptureDevice.authorizationStatusForMediaType:':
     'prefix': 'authorizationStatusForMediaType:'
     'body': 'authorizationStatusForMediaType(${1:NSString* mediaType})'
   'autoFocusRangeRestriction':
     'prefix': 'autoFocusRangeRestriction'
-    'body': 'autoFocusRangeRestriction()'
+    'body': 'autoFocusRangeRestriction'
   'automaticallyEnablesLowLightBoostWhenAvailable':
     'prefix': 'automaticallyEnablesLowLightBoostWhenAvailable'
-    'body': 'automaticallyEnablesLowLightBoostWhenAvailable()'
+    'body': 'automaticallyEnablesLowLightBoostWhenAvailable'
   'cancelVideoZoomRamp':
     'prefix': 'cancelVideoZoomRamp'
-    'body': 'cancelVideoZoomRamp()'
+    'body': 'cancelVideoZoomRamp'
   'AVCaptureDevice.defaultDeviceWithMediaType:':
     'prefix': 'defaultDeviceWithMediaType:'
     'body': 'defaultDeviceWithMediaType(${1:NSString* mediaType})'
@@ -3271,64 +3370,64 @@
     'body': 'deviceWithUniqueID(${1:NSString* deviceUniqueID})'
   'AVCaptureDevice.devices':
     'prefix': 'devices'
-    'body': 'devices()'
+    'body': 'devices'
   'AVCaptureDevice.devicesWithMediaType:':
     'prefix': 'devicesWithMediaType:'
     'body': 'devicesWithMediaType(${1:NSString* mediaType})'
   'exposureMode':
     'prefix': 'exposureMode'
-    'body': 'exposureMode()'
+    'body': 'exposureMode'
   'exposurePointOfInterest':
     'prefix': 'exposurePointOfInterest'
-    'body': 'exposurePointOfInterest()'
+    'body': 'exposurePointOfInterest'
   'flashMode':
     'prefix': 'flashMode'
-    'body': 'flashMode()'
+    'body': 'flashMode'
   'focusMode':
     'prefix': 'focusMode'
-    'body': 'focusMode()'
+    'body': 'focusMode'
   'focusPointOfInterest':
     'prefix': 'focusPointOfInterest'
-    'body': 'focusPointOfInterest()'
+    'body': 'focusPointOfInterest'
   'formats':
     'prefix': 'formats'
-    'body': 'formats()'
+    'body': 'formats'
   'hasFlash':
     'prefix': 'hasFlash'
-    'body': 'hasFlash()'
+    'body': 'hasFlash'
   'hasMediaType:':
     'prefix': 'hasMediaType:'
     'body': 'hasMediaType(${1:NSString* mediaType})'
   'hasTorch':
     'prefix': 'hasTorch'
-    'body': 'hasTorch()'
+    'body': 'hasTorch'
   'isAdjustingExposure':
     'prefix': 'isAdjustingExposure'
-    'body': 'isAdjustingExposure()'
+    'body': 'isAdjustingExposure'
   'isAdjustingFocus':
     'prefix': 'isAdjustingFocus'
-    'body': 'isAdjustingFocus()'
+    'body': 'isAdjustingFocus'
   'isAdjustingWhiteBalance':
     'prefix': 'isAdjustingWhiteBalance'
-    'body': 'isAdjustingWhiteBalance()'
+    'body': 'isAdjustingWhiteBalance'
   'isAutoFocusRangeRestrictionSupported':
     'prefix': 'isAutoFocusRangeRestrictionSupported'
-    'body': 'isAutoFocusRangeRestrictionSupported()'
+    'body': 'isAutoFocusRangeRestrictionSupported'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'isExposureModeSupported:':
     'prefix': 'isExposureModeSupported:'
     'body': 'isExposureModeSupported(${1:AVCaptureExposureMode exposureMode})'
   'isExposurePointOfInterestSupported':
     'prefix': 'isExposurePointOfInterestSupported'
-    'body': 'isExposurePointOfInterestSupported()'
+    'body': 'isExposurePointOfInterestSupported'
   'isFlashActive':
     'prefix': 'isFlashActive'
-    'body': 'isFlashActive()'
+    'body': 'isFlashActive'
   'isFlashAvailable':
     'prefix': 'isFlashAvailable'
-    'body': 'isFlashAvailable()'
+    'body': 'isFlashAvailable'
   'isFlashModeSupported:':
     'prefix': 'isFlashModeSupported:'
     'body': 'isFlashModeSupported(${1:AVCaptureFlashMode flashMode})'
@@ -3337,31 +3436,31 @@
     'body': 'isFocusModeSupported(${1:AVCaptureFocusMode focusMode})'
   'isFocusPointOfInterestSupported':
     'prefix': 'isFocusPointOfInterestSupported'
-    'body': 'isFocusPointOfInterestSupported()'
+    'body': 'isFocusPointOfInterestSupported'
   'isLowLightBoostEnabled':
     'prefix': 'isLowLightBoostEnabled'
-    'body': 'isLowLightBoostEnabled()'
+    'body': 'isLowLightBoostEnabled'
   'isLowLightBoostSupported':
     'prefix': 'isLowLightBoostSupported'
-    'body': 'isLowLightBoostSupported()'
+    'body': 'isLowLightBoostSupported'
   'isRampingVideoZoom':
     'prefix': 'isRampingVideoZoom'
-    'body': 'isRampingVideoZoom()'
+    'body': 'isRampingVideoZoom'
   'isSmoothAutoFocusEnabled':
     'prefix': 'isSmoothAutoFocusEnabled'
-    'body': 'isSmoothAutoFocusEnabled()'
+    'body': 'isSmoothAutoFocusEnabled'
   'isSmoothAutoFocusSupported':
     'prefix': 'isSmoothAutoFocusSupported'
-    'body': 'isSmoothAutoFocusSupported()'
+    'body': 'isSmoothAutoFocusSupported'
   'isSubjectAreaChangeMonitoringEnabled':
     'prefix': 'isSubjectAreaChangeMonitoringEnabled'
-    'body': 'isSubjectAreaChangeMonitoringEnabled()'
+    'body': 'isSubjectAreaChangeMonitoringEnabled'
   'isTorchActive':
     'prefix': 'isTorchActive'
-    'body': 'isTorchActive()'
+    'body': 'isTorchActive'
   'isTorchAvailable':
     'prefix': 'isTorchAvailable'
-    'body': 'isTorchAvailable()'
+    'body': 'isTorchAvailable'
   'isTorchModeSupported:':
     'prefix': 'isTorchModeSupported:'
     'body': 'isTorchModeSupported(${1:AVCaptureTorchMode torchMode})'
@@ -3370,16 +3469,16 @@
     'body': 'isWhiteBalanceModeSupported(${1:AVCaptureWhiteBalanceMode whiteBalanceMode})'
   'localizedName':
     'prefix': 'localizedName'
-    'body': 'localizedName()'
+    'body': 'localizedName'
   'lockForConfiguration:':
     'prefix': 'lockForConfiguration:'
     'body': 'lockForConfiguration(${1:NSError** outError})'
   'modelID':
     'prefix': 'modelID'
-    'body': 'modelID()'
+    'body': 'modelID'
   'position':
     'prefix': 'position'
-    'body': 'position()'
+    'body': 'position'
   'rampToVideoZoomFactor:withRate:':
     'prefix': 'rampToVideoZoomFactor:withRate:'
     'body': 'rampToVideoZoomFactor(${1:CGFloat factor}, withRate:${2:float rate})'
@@ -3439,76 +3538,85 @@
     'body': 'supportsAVCaptureSessionPreset(${1:NSString* preset})'
   'torchLevel':
     'prefix': 'torchLevel'
-    'body': 'torchLevel()'
+    'body': 'torchLevel'
   'torchMode':
     'prefix': 'torchMode'
-    'body': 'torchMode()'
+    'body': 'torchMode'
   'uniqueID':
     'prefix': 'uniqueID'
-    'body': 'uniqueID()'
+    'body': 'uniqueID'
   'unlockForConfiguration':
     'prefix': 'unlockForConfiguration'
-    'body': 'unlockForConfiguration()'
+    'body': 'unlockForConfiguration'
   'videoZoomFactor':
     'prefix': 'videoZoomFactor'
-    'body': 'videoZoomFactor()'
+    'body': 'videoZoomFactor'
   'whiteBalanceMode':
     'prefix': 'whiteBalanceMode'
-    'body': 'whiteBalanceMode()'
+    'body': 'whiteBalanceMode'
+  'AVCaptureDeviceFormat':
+    'prefix': 'AVCaptureDeviceFormat'
+    'body': 'AVCaptureDeviceFormat'
   'formatDescription':
     'prefix': 'formatDescription'
-    'body': 'formatDescription()'
+    'body': 'formatDescription'
   'isVideoBinned':
     'prefix': 'isVideoBinned'
-    'body': 'isVideoBinned()'
+    'body': 'isVideoBinned'
   'isVideoStabilizationSupported':
     'prefix': 'isVideoStabilizationSupported'
-    'body': 'isVideoStabilizationSupported()'
+    'body': 'isVideoStabilizationSupported'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'videoFieldOfView':
     'prefix': 'videoFieldOfView'
-    'body': 'videoFieldOfView()'
+    'body': 'videoFieldOfView'
   'videoMaxZoomFactor':
     'prefix': 'videoMaxZoomFactor'
-    'body': 'videoMaxZoomFactor()'
+    'body': 'videoMaxZoomFactor'
   'videoSupportedFrameRateRanges':
     'prefix': 'videoSupportedFrameRateRanges'
-    'body': 'videoSupportedFrameRateRanges()'
+    'body': 'videoSupportedFrameRateRanges'
   'videoZoomFactorUpscaleThreshold':
     'prefix': 'videoZoomFactorUpscaleThreshold'
-    'body': 'videoZoomFactorUpscaleThreshold()'
+    'body': 'videoZoomFactorUpscaleThreshold'
+  'AVCaptureDeviceInput':
+    'prefix': 'AVCaptureDeviceInput'
+    'body': 'AVCaptureDeviceInput'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'AVCaptureDeviceInput.deviceInputWithDevice:error:':
     'prefix': 'deviceInputWithDevice:error:'
     'body': 'deviceInputWithDevice(${1:AVCaptureDevice* device}, error:${2:NSError** outError})'
   'initWithDevice:error:':
     'prefix': 'initWithDevice:error:'
     'body': 'initWithDevice(${1:AVCaptureDevice* device}, error:${2:NSError** outError})'
+  'AVCaptureFileOutput':
+    'prefix': 'AVCaptureFileOutput'
+    'body': 'AVCaptureFileOutput'
   'isRecording':
     'prefix': 'isRecording'
-    'body': 'isRecording()'
+    'body': 'isRecording'
   'maxRecordedDuration':
     'prefix': 'maxRecordedDuration'
-    'body': 'maxRecordedDuration()'
+    'body': 'maxRecordedDuration'
   'maxRecordedFileSize':
     'prefix': 'maxRecordedFileSize'
-    'body': 'maxRecordedFileSize()'
+    'body': 'maxRecordedFileSize'
   'minFreeDiskSpaceLimit':
     'prefix': 'minFreeDiskSpaceLimit'
-    'body': 'minFreeDiskSpaceLimit()'
+    'body': 'minFreeDiskSpaceLimit'
   'outputFileURL':
     'prefix': 'outputFileURL'
-    'body': 'outputFileURL()'
+    'body': 'outputFileURL'
   'recordedDuration':
     'prefix': 'recordedDuration'
-    'body': 'recordedDuration()'
+    'body': 'recordedDuration'
   'recordedFileSize':
     'prefix': 'recordedFileSize'
-    'body': 'recordedFileSize()'
+    'body': 'recordedFileSize'
   'setMaxRecordedDuration:':
     'prefix': 'setMaxRecordedDuration:'
     'body': 'setMaxRecordedDuration(${1:CMTime maxRecordedDuration})'
@@ -3523,43 +3631,52 @@
     'body': 'startRecordingToOutputFileURL(${1:NSURL* outputFileURL}, recordingDelegate:${2:id delegate})'
   'stopRecording':
     'prefix': 'stopRecording'
-    'body': 'stopRecording()'
+    'body': 'stopRecording'
+  'AVCaptureInput':
+    'prefix': 'AVCaptureInput'
+    'body': 'AVCaptureInput'
   'ports':
     'prefix': 'ports'
-    'body': 'ports()'
+    'body': 'ports'
+  'AVCaptureInputPort':
+    'prefix': 'AVCaptureInputPort'
+    'body': 'AVCaptureInputPort'
   'clock':
     'prefix': 'clock'
-    'body': 'clock()'
+    'body': 'clock'
   'formatDescription':
     'prefix': 'formatDescription'
-    'body': 'formatDescription()'
+    'body': 'formatDescription'
   'input':
     'prefix': 'input'
-    'body': 'input()'
+    'body': 'input'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1:BOOL enabled})'
+  'AVCaptureMetadataOutput':
+    'prefix': 'AVCaptureMetadataOutput'
+    'body': 'AVCaptureMetadataOutput'
   'availableMetadataObjectTypes':
     'prefix': 'availableMetadataObjectTypes'
-    'body': 'availableMetadataObjectTypes()'
+    'body': 'availableMetadataObjectTypes'
   'metadataObjectTypes':
     'prefix': 'metadataObjectTypes'
-    'body': 'metadataObjectTypes()'
+    'body': 'metadataObjectTypes'
   'metadataObjectsCallbackQueue':
     'prefix': 'metadataObjectsCallbackQueue'
-    'body': 'metadataObjectsCallbackQueue()'
+    'body': 'metadataObjectsCallbackQueue'
   'metadataObjectsDelegate':
     'prefix': 'metadataObjectsDelegate'
-    'body': 'metadataObjectsDelegate()'
+    'body': 'metadataObjectsDelegate'
   'rectOfInterest':
     'prefix': 'rectOfInterest'
-    'body': 'rectOfInterest()'
+    'body': 'rectOfInterest'
   'setMetadataObjectTypes:':
     'prefix': 'setMetadataObjectTypes:'
     'body': 'setMetadataObjectTypes(${1:NSArray* metadataObjectTypes})'
@@ -3569,24 +3686,30 @@
   'setRectOfInterest:':
     'prefix': 'setRectOfInterest:'
     'body': 'setRectOfInterest(${1:CGRect rectOfInterest})'
+  'AVCaptureMovieFileOutput':
+    'prefix': 'AVCaptureMovieFileOutput'
+    'body': 'AVCaptureMovieFileOutput'
   'metadata':
     'prefix': 'metadata'
-    'body': 'metadata()'
+    'body': 'metadata'
   'movieFragmentInterval':
     'prefix': 'movieFragmentInterval'
-    'body': 'movieFragmentInterval()'
+    'body': 'movieFragmentInterval'
   'setMetadata:':
     'prefix': 'setMetadata:'
     'body': 'setMetadata(${1:NSArray* metadata})'
   'setMovieFragmentInterval:':
     'prefix': 'setMovieFragmentInterval:'
     'body': 'setMovieFragmentInterval(${1:CMTime movieFragmentInterval})'
+  'AVCaptureOutput':
+    'prefix': 'AVCaptureOutput'
+    'body': 'AVCaptureOutput'
   'connectionWithMediaType:':
     'prefix': 'connectionWithMediaType:'
     'body': 'connectionWithMediaType(${1:NSString* mediaType})'
   'connections':
     'prefix': 'connections'
-    'body': 'connections()'
+    'body': 'connections'
   'metadataOutputRectOfInterestForRect:':
     'prefix': 'metadataOutputRectOfInterestForRect:'
     'body': 'metadataOutputRectOfInterestForRect(${1:CGRect rectInOutputCoordinates})'
@@ -3596,6 +3719,9 @@
   'transformedMetadataObjectForMetadataObject:connection:':
     'prefix': 'transformedMetadataObjectForMetadataObject:connection:'
     'body': 'transformedMetadataObjectForMetadataObject(${1:AVMetadataObject* metadataObject}, connection:${2:AVCaptureConnection* connection})'
+  'AVCaptureSession':
+    'prefix': 'AVCaptureSession'
+    'body': 'AVCaptureSession'
   'addInput:':
     'prefix': 'addInput:'
     'body': 'addInput(${1:AVCaptureInput* input})'
@@ -3604,10 +3730,10 @@
     'body': 'addOutput(${1:AVCaptureOutput* output})'
   'automaticallyConfiguresApplicationAudioSession':
     'prefix': 'automaticallyConfiguresApplicationAudioSession'
-    'body': 'automaticallyConfiguresApplicationAudioSession()'
+    'body': 'automaticallyConfiguresApplicationAudioSession'
   'beginConfiguration':
     'prefix': 'beginConfiguration'
-    'body': 'beginConfiguration()'
+    'body': 'beginConfiguration'
   'canAddInput:':
     'prefix': 'canAddInput:'
     'body': 'canAddInput(${1:AVCaptureInput* input})'
@@ -3619,22 +3745,22 @@
     'body': 'canSetSessionPreset(${1:NSString* preset})'
   'commitConfiguration':
     'prefix': 'commitConfiguration'
-    'body': 'commitConfiguration()'
+    'body': 'commitConfiguration'
   'inputs':
     'prefix': 'inputs'
-    'body': 'inputs()'
+    'body': 'inputs'
   'isInterrupted':
     'prefix': 'isInterrupted'
-    'body': 'isInterrupted()'
+    'body': 'isInterrupted'
   'isRunning':
     'prefix': 'isRunning'
-    'body': 'isRunning()'
+    'body': 'isRunning'
   'masterClock':
     'prefix': 'masterClock'
-    'body': 'masterClock()'
+    'body': 'masterClock'
   'outputs':
     'prefix': 'outputs'
-    'body': 'outputs()'
+    'body': 'outputs'
   'removeInput:':
     'prefix': 'removeInput:'
     'body': 'removeInput(${1:AVCaptureInput* input})'
@@ -3643,7 +3769,7 @@
     'body': 'removeOutput(${1:AVCaptureOutput* output})'
   'sessionPreset':
     'prefix': 'sessionPreset'
-    'body': 'sessionPreset()'
+    'body': 'sessionPreset'
   'setAutomaticallyConfiguresApplicationAudioSession:':
     'prefix': 'setAutomaticallyConfiguresApplicationAudioSession:'
     'body': 'setAutomaticallyConfiguresApplicationAudioSession(${1:BOOL automaticallyConfiguresApplicationAudioSession})'
@@ -3655,67 +3781,73 @@
     'body': 'setUsesApplicationAudioSession(${1:BOOL usesApplicationAudioSession})'
   'startRunning':
     'prefix': 'startRunning'
-    'body': 'startRunning()'
+    'body': 'startRunning'
   'stopRunning':
     'prefix': 'stopRunning'
-    'body': 'stopRunning()'
+    'body': 'stopRunning'
   'usesApplicationAudioSession':
     'prefix': 'usesApplicationAudioSession'
-    'body': 'usesApplicationAudioSession()'
+    'body': 'usesApplicationAudioSession'
+  'AVCaptureStillImageOutput':
+    'prefix': 'AVCaptureStillImageOutput'
+    'body': 'AVCaptureStillImageOutput'
   'automaticallyEnablesStillImageStabilizationWhenAvailable':
     'prefix': 'automaticallyEnablesStillImageStabilizationWhenAvailable'
-    'body': 'automaticallyEnablesStillImageStabilizationWhenAvailable()'
+    'body': 'automaticallyEnablesStillImageStabilizationWhenAvailable'
   'availableImageDataCVPixelFormatTypes':
     'prefix': 'availableImageDataCVPixelFormatTypes'
-    'body': 'availableImageDataCVPixelFormatTypes()'
+    'body': 'availableImageDataCVPixelFormatTypes'
   'availableImageDataCodecTypes':
     'prefix': 'availableImageDataCodecTypes'
-    'body': 'availableImageDataCodecTypes()'
+    'body': 'availableImageDataCodecTypes'
   'captureStillImageAsynchronouslyFromConnection:completionHandler:':
     'prefix': 'captureStillImageAsynchronouslyFromConnection:completionHandler:'
     'body': 'captureStillImageAsynchronouslyFromConnection(${1:AVCaptureConnection* connection}, completionHandler:${2:void (^)(CMSampleBufferRef, NSError *) handler})'
   'isCapturingStillImage':
     'prefix': 'isCapturingStillImage'
-    'body': 'isCapturingStillImage()'
+    'body': 'isCapturingStillImage'
   'isStillImageStabilizationActive':
     'prefix': 'isStillImageStabilizationActive'
-    'body': 'isStillImageStabilizationActive()'
+    'body': 'isStillImageStabilizationActive'
   'isStillImageStabilizationSupported':
     'prefix': 'isStillImageStabilizationSupported'
-    'body': 'isStillImageStabilizationSupported()'
+    'body': 'isStillImageStabilizationSupported'
   'AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation:':
     'prefix': 'jpegStillImageNSDataRepresentation:'
     'body': 'jpegStillImageNSDataRepresentation(${1:CMSampleBufferRef jpegSampleBuffer})'
   'outputSettings':
     'prefix': 'outputSettings'
-    'body': 'outputSettings()'
+    'body': 'outputSettings'
   'setAutomaticallyEnablesStillImageStabilizationWhenAvailable:':
     'prefix': 'setAutomaticallyEnablesStillImageStabilizationWhenAvailable:'
     'body': 'setAutomaticallyEnablesStillImageStabilizationWhenAvailable(${1:BOOL automaticallyEnablesStillImageStabilizationWhenAvailable})'
   'setOutputSettings:':
     'prefix': 'setOutputSettings:'
     'body': 'setOutputSettings(${1:NSDictionary* outputSettings})'
+  'AVCaptureVideoDataOutput':
+    'prefix': 'AVCaptureVideoDataOutput'
+    'body': 'AVCaptureVideoDataOutput'
   'alwaysDiscardsLateVideoFrames':
     'prefix': 'alwaysDiscardsLateVideoFrames'
-    'body': 'alwaysDiscardsLateVideoFrames()'
+    'body': 'alwaysDiscardsLateVideoFrames'
   'availableVideoCVPixelFormatTypes':
     'prefix': 'availableVideoCVPixelFormatTypes'
-    'body': 'availableVideoCVPixelFormatTypes()'
+    'body': 'availableVideoCVPixelFormatTypes'
   'availableVideoCodecTypes':
     'prefix': 'availableVideoCodecTypes'
-    'body': 'availableVideoCodecTypes()'
+    'body': 'availableVideoCodecTypes'
   'minFrameDuration':
     'prefix': 'minFrameDuration'
-    'body': 'minFrameDuration()'
+    'body': 'minFrameDuration'
   'recommendedVideoSettingsForAssetWriterWithOutputFileType:':
     'prefix': 'recommendedVideoSettingsForAssetWriterWithOutputFileType:'
     'body': 'recommendedVideoSettingsForAssetWriterWithOutputFileType(${1:NSString* outputFileType})'
   'sampleBufferCallbackQueue':
     'prefix': 'sampleBufferCallbackQueue'
-    'body': 'sampleBufferCallbackQueue()'
+    'body': 'sampleBufferCallbackQueue'
   'sampleBufferDelegate':
     'prefix': 'sampleBufferDelegate'
-    'body': 'sampleBufferDelegate()'
+    'body': 'sampleBufferDelegate'
   'setAlwaysDiscardsLateVideoFrames:':
     'prefix': 'setAlwaysDiscardsLateVideoFrames:'
     'body': 'setAlwaysDiscardsLateVideoFrames(${1:BOOL alwaysDiscardsLateVideoFrames})'
@@ -3730,28 +3862,31 @@
     'body': 'setVideoSettings(${1:NSDictionary* videoSettings})'
   'videoSettings':
     'prefix': 'videoSettings'
-    'body': 'videoSettings()'
+    'body': 'videoSettings'
+  'AVCaptureVideoPreviewLayer':
+    'prefix': 'AVCaptureVideoPreviewLayer'
+    'body': 'AVCaptureVideoPreviewLayer'
   'automaticallyAdjustsMirroring':
     'prefix': 'automaticallyAdjustsMirroring'
-    'body': 'automaticallyAdjustsMirroring()'
+    'body': 'automaticallyAdjustsMirroring'
   'captureDevicePointOfInterestForPoint:':
     'prefix': 'captureDevicePointOfInterestForPoint:'
     'body': 'captureDevicePointOfInterestForPoint(${1:CGPoint pointInLayer})'
   'connection':
     'prefix': 'connection'
-    'body': 'connection()'
+    'body': 'connection'
   'initWithSession:':
     'prefix': 'initWithSession:'
     'body': 'initWithSession(${1:AVCaptureSession* session})'
   'isMirrored':
     'prefix': 'isMirrored'
-    'body': 'isMirrored()'
+    'body': 'isMirrored'
   'isMirroringSupported':
     'prefix': 'isMirroringSupported'
-    'body': 'isMirroringSupported()'
+    'body': 'isMirroringSupported'
   'isOrientationSupported':
     'prefix': 'isOrientationSupported'
-    'body': 'isOrientationSupported()'
+    'body': 'isOrientationSupported'
   'AVCaptureVideoPreviewLayer.layerWithSession:':
     'prefix': 'layerWithSession:'
     'body': 'layerWithSession(${1:AVCaptureSession* session})'
@@ -3760,7 +3895,7 @@
     'body': 'metadataOutputRectOfInterestForRect(${1:CGRect rectInLayerCoordinates})'
   'orientation':
     'prefix': 'orientation'
-    'body': 'orientation()'
+    'body': 'orientation'
   'pointForCaptureDevicePointOfInterest:':
     'prefix': 'pointForCaptureDevicePointOfInterest:'
     'body': 'pointForCaptureDevicePointOfInterest(${1:CGPoint captureDevicePointOfInterest})'
@@ -3769,7 +3904,7 @@
     'body': 'rectForMetadataOutputRectOfInterest(${1:CGRect rectInMetadataOutputCoordinates})'
   'session':
     'prefix': 'session'
-    'body': 'session()'
+    'body': 'session'
   'setAutomaticallyAdjustsMirroring:':
     'prefix': 'setAutomaticallyAdjustsMirroring:'
     'body': 'setAutomaticallyAdjustsMirroring(${1:BOOL automaticallyAdjustsMirroring})'
@@ -3790,16 +3925,25 @@
     'body': 'transformedMetadataObjectForMetadataObject(${1:AVMetadataObject* metadataObject})'
   'videoGravity':
     'prefix': 'videoGravity'
-    'body': 'videoGravity()'
+    'body': 'videoGravity'
+  'AVComposition':
+    'prefix': 'AVComposition'
+    'body': 'AVComposition'
   'naturalSize':
     'prefix': 'naturalSize'
-    'body': 'naturalSize()'
+    'body': 'naturalSize'
   'tracks':
     'prefix': 'tracks'
-    'body': 'tracks()'
+    'body': 'tracks'
+  'AVCompositionTrack':
+    'prefix': 'AVCompositionTrack'
+    'body': 'AVCompositionTrack'
   'segments':
     'prefix': 'segments'
-    'body': 'segments()'
+    'body': 'segments'
+  'AVCompositionTrackSegment':
+    'prefix': 'AVCompositionTrackSegment'
+    'body': 'AVCompositionTrackSegment'
   'AVCompositionTrackSegment.compositionTrackSegmentWithTimeRange:':
     'prefix': 'compositionTrackSegmentWithTimeRange:'
     'body': 'compositionTrackSegmentWithTimeRange(${1:CMTimeRange timeRange})'
@@ -3814,28 +3958,34 @@
     'body': 'initWithURL(${1:NSURL* URL}, trackID:${2:CMPersistentTrackID trackID}, sourceTimeRange:${3:CMTimeRange sourceTimeRange}, targetTimeRange:${4:CMTimeRange targetTimeRange})'
   'isEmpty':
     'prefix': 'isEmpty'
-    'body': 'isEmpty()'
+    'body': 'isEmpty'
   'sourceTrackID':
     'prefix': 'sourceTrackID'
-    'body': 'sourceTrackID()'
+    'body': 'sourceTrackID'
   'sourceURL':
     'prefix': 'sourceURL'
-    'body': 'sourceURL()'
+    'body': 'sourceURL'
+  'AVFrameRateRange':
+    'prefix': 'AVFrameRateRange'
+    'body': 'AVFrameRateRange'
   'maxFrameDuration':
     'prefix': 'maxFrameDuration'
-    'body': 'maxFrameDuration()'
+    'body': 'maxFrameDuration'
   'maxFrameRate':
     'prefix': 'maxFrameRate'
-    'body': 'maxFrameRate()'
+    'body': 'maxFrameRate'
   'minFrameDuration':
     'prefix': 'minFrameDuration'
-    'body': 'minFrameDuration()'
+    'body': 'minFrameDuration'
   'minFrameRate':
     'prefix': 'minFrameRate'
-    'body': 'minFrameRate()'
+    'body': 'minFrameRate'
+  'AVMediaSelectionGroup':
+    'prefix': 'AVMediaSelectionGroup'
+    'body': 'AVMediaSelectionGroup'
   'allowsEmptySelection':
     'prefix': 'allowsEmptySelection'
-    'body': 'allowsEmptySelection()'
+    'body': 'allowsEmptySelection'
   'mediaSelectionOptionWithPropertyList:':
     'prefix': 'mediaSelectionOptionWithPropertyList:'
     'body': 'mediaSelectionOptionWithPropertyList(${1:id plist})'
@@ -3853,91 +4003,100 @@
     'body': 'mediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions}, withoutMediaCharacteristics:${2:NSArray* mediaCharacteristics})'
   'options':
     'prefix': 'options'
-    'body': 'options()'
+    'body': 'options'
   'AVMediaSelectionGroup.playableMediaSelectionOptionsFromArray:':
     'prefix': 'playableMediaSelectionOptionsFromArray:'
     'body': 'playableMediaSelectionOptionsFromArray(${1:NSArray* mediaSelectionOptions})'
+  'AVMediaSelectionOption':
+    'prefix': 'AVMediaSelectionOption'
+    'body': 'AVMediaSelectionOption'
   'associatedMediaSelectionOptionInMediaSelectionGroup:':
     'prefix': 'associatedMediaSelectionOptionInMediaSelectionGroup:'
     'body': 'associatedMediaSelectionOptionInMediaSelectionGroup(${1:AVMediaSelectionGroup* mediaSelectionGroup})'
   'availableMetadataFormats':
     'prefix': 'availableMetadataFormats'
-    'body': 'availableMetadataFormats()'
+    'body': 'availableMetadataFormats'
   'commonMetadata':
     'prefix': 'commonMetadata'
-    'body': 'commonMetadata()'
+    'body': 'commonMetadata'
   'displayName':
     'prefix': 'displayName'
-    'body': 'displayName()'
+    'body': 'displayName'
   'displayNameWithLocale:':
     'prefix': 'displayNameWithLocale:'
     'body': 'displayNameWithLocale(${1:NSLocale* locale})'
   'extendedLanguageTag':
     'prefix': 'extendedLanguageTag'
-    'body': 'extendedLanguageTag()'
+    'body': 'extendedLanguageTag'
   'hasMediaCharacteristic:':
     'prefix': 'hasMediaCharacteristic:'
     'body': 'hasMediaCharacteristic(${1:NSString* mediaCharacteristic})'
   'isPlayable':
     'prefix': 'isPlayable'
-    'body': 'isPlayable()'
+    'body': 'isPlayable'
   'locale':
     'prefix': 'locale'
-    'body': 'locale()'
+    'body': 'locale'
   'mediaSubTypes':
     'prefix': 'mediaSubTypes'
-    'body': 'mediaSubTypes()'
+    'body': 'mediaSubTypes'
   'mediaType':
     'prefix': 'mediaType'
-    'body': 'mediaType()'
+    'body': 'mediaType'
   'metadataForFormat:':
     'prefix': 'metadataForFormat:'
     'body': 'metadataForFormat(${1:NSString* format})'
   'propertyList':
     'prefix': 'propertyList'
-    'body': 'propertyList()'
+    'body': 'propertyList'
+  'AVMetadataFaceObject':
+    'prefix': 'AVMetadataFaceObject'
+    'body': 'AVMetadataFaceObject'
   'faceID':
     'prefix': 'faceID'
-    'body': 'faceID()'
+    'body': 'faceID'
   'hasRollAngle':
     'prefix': 'hasRollAngle'
-    'body': 'hasRollAngle()'
+    'body': 'hasRollAngle'
   'hasYawAngle':
     'prefix': 'hasYawAngle'
-    'body': 'hasYawAngle()'
+    'body': 'hasYawAngle'
   'rollAngle':
     'prefix': 'rollAngle'
-    'body': 'rollAngle()'
+    'body': 'rollAngle'
   'yawAngle':
     'prefix': 'yawAngle'
-    'body': 'yawAngle()'
+    'body': 'yawAngle'
+  'AVMetadataItem':
+    'prefix': 'AVMetadataItem'
+    'body': 'AVMetadataItem'
   'commonKey':
     'prefix': 'commonKey'
-    'body': 'commonKey()'
+    'body': 'commonKey'
   'dataValue':
     'prefix': 'dataValue'
-    'body': 'dataValue()'
+    'body': 'dataValue'
   'dateValue':
     'prefix': 'dateValue'
-    'body': 'dateValue()'
+    'body': 'dateValue'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'extraAttributes':
     'prefix': 'extraAttributes'
-    'body': 'extraAttributes()'
+    'body': 'extraAttributes'
   'key':
     'prefix': 'key'
-    'body': 'Key()'
+    'body': 'Key'
   'keySpace':
     'prefix': 'keySpace'
-    'body': 'KeySpace()'
+    'body': 'KeySpace'
   'loadValuesAsynchronouslyForKeys:completionHandler:':
     'prefix': 'loadValuesAsynchronouslyForKeys:completionHandler:'
     'body': 'loadValuesAsynchronouslyForKeys(${1:NSArray* keys}, completionHandler:${2:void (^)(void) handler})'
   'locale':
     'prefix': 'locale'
-    'body': 'locale()'
+    'body': 'locale'
   'AVMetadataItem.metadataItemsFromArray:filteredAndSortedAccordingToPreferredLanguages:':
     'prefix': 'metadataItemsFromArray:filteredAndSortedAccordingToPreferredLanguages:'
     'body': 'metadataItemsFromArray(${1:NSArray* metadataItems}, filteredAndSortedAccordingToPreferredLanguages:${2:NSArray* preferredLanguages})'
@@ -3952,61 +4111,76 @@
     'body': 'metadataItemsFromArray(${1:NSArray* metadataItems}, withLocale:${2:NSLocale* locale})'
   'numberValue':
     'prefix': 'numberValue'
-    'body': 'numberValue()'
+    'body': 'numberValue'
   'statusOfValueForKey:error:':
     'prefix': 'statusOfValueForKey:error:'
     'body': 'statusOfValueForKey(${1:NSString* key}, error:${2:NSError** outError})'
   'stringValue':
     'prefix': 'stringValue'
-    'body': 'stringValue()'
+    'body': 'stringValue'
   'time':
     'prefix': 'time'
-    'body': 'time()'
+    'body': 'time'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'AVMetadataItemFilter':
+    'prefix': 'AVMetadataItemFilter'
+    'body': 'AVMetadataItemFilter'
   'AVMetadataItemFilter.metadataItemFilterForSharing':
     'prefix': 'metadataItemFilterForSharing'
-    'body': 'metadataItemFilterForSharing()'
+    'body': 'metadataItemFilterForSharing'
+  'AVMetadataMachineReadableCodeObject':
+    'prefix': 'AVMetadataMachineReadableCodeObject'
+    'body': 'AVMetadataMachineReadableCodeObject'
   'corners':
     'prefix': 'corners'
-    'body': 'corners()'
+    'body': 'corners'
   'stringValue':
     'prefix': 'stringValue'
-    'body': 'stringValue()'
+    'body': 'stringValue'
+  'AVMetadataObject':
+    'prefix': 'AVMetadataObject'
+    'body': 'AVMetadataObject'
   'bounds':
     'prefix': 'bounds'
-    'body': 'bounds()'
+    'body': 'bounds'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'time':
     'prefix': 'time'
-    'body': 'time()'
+    'body': 'time'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'AVMutableAudioMix':
+    'prefix': 'AVMutableAudioMix'
+    'body': 'AVMutableAudioMix'
   'AVMutableAudioMix.audioMix':
     'prefix': 'audioMix'
-    'body': 'audioMix()'
+    'body': 'audioMix'
   'inputParameters':
     'prefix': 'inputParameters'
-    'body': 'inputParameters()'
+    'body': 'inputParameters'
   'setInputParameters:':
     'prefix': 'setInputParameters:'
     'body': 'setInputParameters(${1:NSArray* inputParameters})'
+  'AVMutableAudioMixInputParameters':
+    'prefix': 'AVMutableAudioMixInputParameters'
+    'body': 'AVMutableAudioMixInputParameters'
   'AVMutableAudioMixInputParameters.audioMixInputParameters':
     'prefix': 'audioMixInputParameters'
-    'body': 'audioMixInputParameters()'
+    'body': 'audioMixInputParameters'
   'AVMutableAudioMixInputParameters.audioMixInputParametersWithTrack:':
     'prefix': 'audioMixInputParametersWithTrack:'
     'body': 'audioMixInputParametersWithTrack(${1:AVAssetTrack* track})'
   'audioTapProcessor':
     'prefix': 'audioTapProcessor'
-    'body': 'audioTapProcessor()'
+    'body': 'audioTapProcessor'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
-    'body': 'audioTimePitchAlgorithm()'
+    'body': 'audioTimePitchAlgorithm'
   'setAudioTapProcessor:':
     'prefix': 'setAudioTapProcessor:'
     'body': 'setAudioTapProcessor(${1:MTAudioProcessingTapRef audioTapProcessor})'
@@ -4024,13 +4198,16 @@
     'body': 'setVolumeRampFromStartVolume(${1:float startVolume}, toEndVolume:${2:float endVolume}, timeRange:${3:CMTimeRange timeRange})'
   'trackID':
     'prefix': 'trackID'
-    'body': 'trackID()'
+    'body': 'trackID'
+  'AVMutableComposition':
+    'prefix': 'AVMutableComposition'
+    'body': 'AVMutableComposition'
   'addMutableTrackWithMediaType:preferredTrackID:':
     'prefix': 'addMutableTrackWithMediaType:preferredTrackID:'
     'body': 'addMutableTrackWithMediaType(${1:NSString* mediaType}, preferredTrackID:${2:CMPersistentTrackID preferredTrackID})'
   'AVMutableComposition.composition':
     'prefix': 'composition'
-    'body': 'composition()'
+    'body': 'composition'
   'insertEmptyTimeRange:':
     'prefix': 'insertEmptyTimeRange:'
     'body': 'insertEmptyTimeRange(${1:CMTimeRange timeRange})'
@@ -4042,7 +4219,7 @@
     'body': 'mutableTrackCompatibleWithTrack(${1:AVAssetTrack* track})'
   'naturalSize':
     'prefix': 'naturalSize'
-    'body': 'naturalSize()'
+    'body': 'naturalSize'
   'removeTimeRange:':
     'prefix': 'removeTimeRange:'
     'body': 'removeTimeRange(${1:CMTimeRange timeRange})'
@@ -4057,10 +4234,13 @@
     'body': 'setNaturalSize(${1:CGSize naturalSize})'
   'tracks':
     'prefix': 'tracks'
-    'body': 'tracks()'
+    'body': 'tracks'
+  'AVMutableCompositionTrack':
+    'prefix': 'AVMutableCompositionTrack'
+    'body': 'AVMutableCompositionTrack'
   'extendedLanguageTag':
     'prefix': 'extendedLanguageTag'
-    'body': 'extendedLanguageTag()'
+    'body': 'extendedLanguageTag'
   'insertEmptyTimeRange:':
     'prefix': 'insertEmptyTimeRange:'
     'body': 'insertEmptyTimeRange(${1:CMTimeRange timeRange})'
@@ -4072,16 +4252,16 @@
     'body': 'insertTimeRanges(${1:NSArray* timeRanges}, ofTracks:${2:NSArray* tracks}, atTime:${3:CMTime startTime}, error:${4:NSError** error})'
   'languageCode':
     'prefix': 'languageCode'
-    'body': 'languageCode()'
+    'body': 'languageCode'
   'naturalTimeScale':
     'prefix': 'naturalTimeScale'
-    'body': 'naturalTimeScale()'
+    'body': 'naturalTimeScale'
   'preferredTransform':
     'prefix': 'preferredTransform'
-    'body': 'preferredTransform()'
+    'body': 'preferredTransform'
   'preferredVolume':
     'prefix': 'preferredVolume'
-    'body': 'preferredVolume()'
+    'body': 'preferredVolume'
   'removeTimeRange:':
     'prefix': 'removeTimeRange:'
     'body': 'removeTimeRange(${1:CMTimeRange timeRange})'
@@ -4090,7 +4270,7 @@
     'body': 'scaleTimeRange(${1:CMTimeRange timeRange}, toDuration:${2:CMTime duration})'
   'segments':
     'prefix': 'segments'
-    'body': 'segments()'
+    'body': 'segments'
   'setExtendedLanguageTag:':
     'prefix': 'setExtendedLanguageTag:'
     'body': 'setExtendedLanguageTag(${1:NSString* extendedLanguageTag})'
@@ -4112,24 +4292,27 @@
   'validateTrackSegments:error:':
     'prefix': 'validateTrackSegments:error:'
     'body': 'validateTrackSegments(${1:NSArray* trackSegments}, error:${2:NSError** error})'
+  'AVMutableMetadataItem':
+    'prefix': 'AVMutableMetadataItem'
+    'body': 'AVMutableMetadataItem'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'extraAttributes':
     'prefix': 'extraAttributes'
-    'body': 'extraAttributes()'
+    'body': 'extraAttributes'
   'key':
     'prefix': 'key'
-    'body': 'Key()'
+    'body': 'Key'
   'keySpace':
     'prefix': 'keySpace'
-    'body': 'KeySpace()'
+    'body': 'KeySpace'
   'locale':
     'prefix': 'locale'
-    'body': 'locale()'
+    'body': 'locale'
   'AVMutableMetadataItem.metadataItem':
     'prefix': 'metadataItem'
-    'body': 'metadataItem()'
+    'body': 'metadataItem'
   'setDuration:':
     'prefix': 'setDuration:'
     'body': 'setDuration(${1:CMTime duration})'
@@ -4153,13 +4336,16 @@
     'body': 'setValue(${1:id value})'
   'time':
     'prefix': 'time'
-    'body': 'time()'
+    'body': 'time'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'AVMutableTimedMetadataGroup':
+    'prefix': 'AVMutableTimedMetadataGroup'
+    'body': 'AVMutableTimedMetadataGroup'
   'items':
     'prefix': 'items'
-    'body': 'items()'
+    'body': 'items'
   'setItems:':
     'prefix': 'setItems:'
     'body': 'setItems(${1:NSArray* items})'
@@ -4168,25 +4354,28 @@
     'body': 'setTimeRange(${1:CMTimeRange timeRange})'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
+  'AVMutableVideoComposition':
+    'prefix': 'AVMutableVideoComposition'
+    'body': 'AVMutableVideoComposition'
   'animationTool':
     'prefix': 'animationTool'
-    'body': 'animationTool()'
+    'body': 'animationTool'
   'customVideoCompositorClass':
     'prefix': 'customVideoCompositorClass'
-    'body': 'customVideoCompositorClass()'
+    'body': 'customVideoCompositorClass'
   'frameDuration':
     'prefix': 'frameDuration'
-    'body': 'frameDuration()'
+    'body': 'frameDuration'
   'instructions':
     'prefix': 'instructions'
-    'body': 'instructions()'
+    'body': 'instructions'
   'renderScale':
     'prefix': 'renderScale'
-    'body': 'renderScale()'
+    'body': 'renderScale'
   'renderSize':
     'prefix': 'renderSize'
-    'body': 'renderSize()'
+    'body': 'renderSize'
   'setAnimationTool:':
     'prefix': 'setAnimationTool:'
     'body': 'setAnimationTool(${1:AVVideoCompositionCoreAnimationTool* animationTool})'
@@ -4207,19 +4396,22 @@
     'body': 'setRenderSize(${1:CGSize renderSize})'
   'AVMutableVideoComposition.videoComposition':
     'prefix': 'videoComposition'
-    'body': 'videoComposition()'
+    'body': 'videoComposition'
   'AVMutableVideoComposition.videoCompositionWithPropertiesOfAsset:':
     'prefix': 'videoCompositionWithPropertiesOfAsset:'
     'body': 'videoCompositionWithPropertiesOfAsset(${1:AVAsset* asset})'
+  'AVMutableVideoCompositionInstruction':
+    'prefix': 'AVMutableVideoCompositionInstruction'
+    'body': 'AVMutableVideoCompositionInstruction'
   'backgroundColor':
     'prefix': 'backgroundColor'
-    'body': 'backgroundColor()'
+    'body': 'backgroundColor'
   'enablePostProcessing':
     'prefix': 'enablePostProcessing'
-    'body': 'enablePostProcessing()'
+    'body': 'enablePostProcessing'
   'layerInstructions':
     'prefix': 'layerInstructions'
-    'body': 'layerInstructions()'
+    'body': 'layerInstructions'
   'setBackgroundColor:':
     'prefix': 'setBackgroundColor:'
     'body': 'setBackgroundColor(${1:CGColorRef backgroundColor})'
@@ -4234,10 +4426,13 @@
     'body': 'setTimeRange(${1:CMTimeRange timeRange})'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
   'AVMutableVideoCompositionInstruction.videoCompositionInstruction':
     'prefix': 'videoCompositionInstruction'
-    'body': 'videoCompositionInstruction()'
+    'body': 'videoCompositionInstruction'
+  'AVMutableVideoCompositionLayerInstruction':
+    'prefix': 'AVMutableVideoCompositionLayerInstruction'
+    'body': 'AVMutableVideoCompositionLayerInstruction'
   'setCropRectangle:atTime:':
     'prefix': 'setCropRectangle:atTime:'
     'body': 'setCropRectangle(${1:CGRect cropRectangle}, atTime:${2:CMTime time})'
@@ -4261,22 +4456,25 @@
     'body': 'setTransformRampFromStartTransform(${1:CGAffineTransform startTransform}, toEndTransform:${2:CGAffineTransform endTransform}, timeRange:${3:CMTimeRange timeRange})'
   'trackID':
     'prefix': 'trackID'
-    'body': 'trackID()'
+    'body': 'trackID'
   'AVMutableVideoCompositionLayerInstruction.videoCompositionLayerInstruction':
     'prefix': 'videoCompositionLayerInstruction'
-    'body': 'videoCompositionLayerInstruction()'
+    'body': 'videoCompositionLayerInstruction'
   'AVMutableVideoCompositionLayerInstruction.videoCompositionLayerInstructionWithAssetTrack:':
     'prefix': 'videoCompositionLayerInstructionWithAssetTrack:'
     'body': 'videoCompositionLayerInstructionWithAssetTrack(${1:AVAssetTrack* track})'
+  'AVOutputSettingsAssistant':
+    'prefix': 'AVOutputSettingsAssistant'
+    'body': 'AVOutputSettingsAssistant'
   'audioSettings':
     'prefix': 'audioSettings'
-    'body': 'audioSettings()'
+    'body': 'audioSettings'
   'AVOutputSettingsAssistant.availableOutputSettingsPresets':
     'prefix': 'availableOutputSettingsPresets'
-    'body': 'availableOutputSettingsPresets()'
+    'body': 'availableOutputSettingsPresets'
   'outputFileType':
     'prefix': 'outputFileType'
-    'body': 'outputFileType()'
+    'body': 'outputFileType'
   'AVOutputSettingsAssistant.outputSettingsAssistantWithPreset:':
     'prefix': 'outputSettingsAssistantWithPreset:'
     'body': 'outputSettingsAssistantWithPreset(${1:NSString* presetIdentifier})'
@@ -4294,22 +4492,25 @@
     'body': 'setSourceVideoMinFrameDuration(${1:CMTime sourceVideoMinFrameDuration})'
   'sourceAudioFormat':
     'prefix': 'sourceAudioFormat'
-    'body': 'sourceAudioFormat()'
+    'body': 'sourceAudioFormat'
   'sourceVideoAverageFrameDuration':
     'prefix': 'sourceVideoAverageFrameDuration'
-    'body': 'sourceVideoAverageFrameDuration()'
+    'body': 'sourceVideoAverageFrameDuration'
   'sourceVideoFormat':
     'prefix': 'sourceVideoFormat'
-    'body': 'sourceVideoFormat()'
+    'body': 'sourceVideoFormat'
   'sourceVideoMinFrameDuration':
     'prefix': 'sourceVideoMinFrameDuration'
-    'body': 'sourceVideoMinFrameDuration()'
+    'body': 'sourceVideoMinFrameDuration'
   'videoSettings':
     'prefix': 'videoSettings'
-    'body': 'videoSettings()'
+    'body': 'videoSettings'
+  'AVPlayer':
+    'prefix': 'AVPlayer'
+    'body': 'AVPlayer'
   'actionAtItemEnd':
     'prefix': 'actionAtItemEnd'
-    'body': 'actionAtItemEnd()'
+    'body': 'actionAtItemEnd'
   'addBoundaryTimeObserverForTimes:queue:usingBlock:':
     'prefix': 'addBoundaryTimeObserverForTimes:queue:usingBlock:'
     'body': 'addBoundaryTimeObserverForTimes(${1:NSArray* times}, queue:${2:dispatch_queue_t queue}, usingBlock:${3:void (^)(void) block})'
@@ -4318,31 +4519,31 @@
     'body': 'addPeriodicTimeObserverForInterval(${1:CMTime interval}, queue:${2:dispatch_queue_t queue}, usingBlock:${3:void (^)(CMTime) block})'
   'allowsAirPlayVideo':
     'prefix': 'allowsAirPlayVideo'
-    'body': 'allowsAirPlayVideo()'
+    'body': 'allowsAirPlayVideo'
   'allowsExternalPlayback':
     'prefix': 'allowsExternalPlayback'
-    'body': 'allowsExternalPlayback()'
+    'body': 'allowsExternalPlayback'
   'appliesMediaSelectionCriteriaAutomatically':
     'prefix': 'appliesMediaSelectionCriteriaAutomatically'
-    'body': 'appliesMediaSelectionCriteriaAutomatically()'
+    'body': 'appliesMediaSelectionCriteriaAutomatically'
   'audioOutputDeviceUniqueID':
     'prefix': 'audioOutputDeviceUniqueID'
-    'body': 'audioOutputDeviceUniqueID()'
+    'body': 'audioOutputDeviceUniqueID'
   'cancelPendingPrerolls':
     'prefix': 'cancelPendingPrerolls'
-    'body': 'cancelPendingPrerolls()'
+    'body': 'cancelPendingPrerolls'
   'currentItem':
     'prefix': 'currentItem'
-    'body': 'currentItem()'
+    'body': 'currentItem'
   'currentTime':
     'prefix': 'currentTime'
-    'body': 'currentTime()'
+    'body': 'currentTime'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'externalPlaybackVideoGravity':
     'prefix': 'externalPlaybackVideoGravity'
-    'body': 'externalPlaybackVideoGravity()'
+    'body': 'externalPlaybackVideoGravity'
   'initWithPlayerItem:':
     'prefix': 'initWithPlayerItem:'
     'body': 'initWithPlayerItem(${1:AVPlayerItem* item})'
@@ -4351,31 +4552,31 @@
     'body': 'initWithURL(${1:NSURL* URL})'
   'isAirPlayVideoActive':
     'prefix': 'isAirPlayVideoActive'
-    'body': 'isAirPlayVideoActive()'
+    'body': 'isAirPlayVideoActive'
   'isClosedCaptionDisplayEnabled':
     'prefix': 'isClosedCaptionDisplayEnabled'
-    'body': 'isClosedCaptionDisplayEnabled()'
+    'body': 'isClosedCaptionDisplayEnabled'
   'isExternalPlaybackActive':
     'prefix': 'isExternalPlaybackActive'
-    'body': 'isExternalPlaybackActive()'
+    'body': 'isExternalPlaybackActive'
   'isMuted':
     'prefix': 'isMuted'
-    'body': 'isMuted()'
+    'body': 'isMuted'
   'masterClock':
     'prefix': 'masterClock'
-    'body': 'masterClock()'
+    'body': 'masterClock'
   'mediaSelectionCriteriaForMediaCharacteristic:':
     'prefix': 'mediaSelectionCriteriaForMediaCharacteristic:'
     'body': 'mediaSelectionCriteriaForMediaCharacteristic(${1:NSString* mediaCharacteristic})'
   'outputObscuredDueToInsufficientExternalProtection':
     'prefix': 'outputObscuredDueToInsufficientExternalProtection'
-    'body': 'outputObscuredDueToInsufficientExternalProtection()'
+    'body': 'outputObscuredDueToInsufficientExternalProtection'
   'pause':
     'prefix': 'pause'
-    'body': 'pause()'
+    'body': 'pause'
   'play':
     'prefix': 'play'
-    'body': 'play()'
+    'body': 'play'
   'AVPlayer.playerWithPlayerItem:':
     'prefix': 'playerWithPlayerItem:'
     'body': 'playerWithPlayerItem(${1:AVPlayerItem* item})'
@@ -4387,7 +4588,7 @@
     'body': 'prerollAtRate(${1:float rate}, completionHandler:${2:void (^)(BOOL) completionHandler})'
   'rate':
     'prefix': 'rate'
-    'body': 'rate()'
+    'body': 'rate'
   'removeTimeObserver:':
     'prefix': 'removeTimeObserver:'
     'body': 'removeTimeObserver(${1:id observer})'
@@ -4459,79 +4660,82 @@
     'body': 'setVolume(${1:float volume})'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'usesAirPlayVideoWhileAirPlayScreenIsActive':
     'prefix': 'usesAirPlayVideoWhileAirPlayScreenIsActive'
-    'body': 'usesAirPlayVideoWhileAirPlayScreenIsActive()'
+    'body': 'usesAirPlayVideoWhileAirPlayScreenIsActive'
   'usesExternalPlaybackWhileExternalScreenIsActive':
     'prefix': 'usesExternalPlaybackWhileExternalScreenIsActive'
-    'body': 'usesExternalPlaybackWhileExternalScreenIsActive()'
+    'body': 'usesExternalPlaybackWhileExternalScreenIsActive'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
+  'AVPlayerItem':
+    'prefix': 'AVPlayerItem'
+    'body': 'AVPlayerItem'
   'accessLog':
     'prefix': 'accessLog'
-    'body': 'accessLog()'
+    'body': 'accessLog'
   'addOutput:':
     'prefix': 'addOutput:'
     'body': 'addOutput(${1:AVPlayerItemOutput* output})'
   'asset':
     'prefix': 'asset'
-    'body': 'asset()'
+    'body': 'asset'
   'audioMix':
     'prefix': 'audioMix'
-    'body': 'audioMix()'
+    'body': 'audioMix'
   'audioTimePitchAlgorithm':
     'prefix': 'audioTimePitchAlgorithm'
-    'body': 'audioTimePitchAlgorithm()'
+    'body': 'audioTimePitchAlgorithm'
   'automaticallyLoadedAssetKeys':
     'prefix': 'automaticallyLoadedAssetKeys'
-    'body': 'automaticallyLoadedAssetKeys()'
+    'body': 'automaticallyLoadedAssetKeys'
   'canPlayFastForward':
     'prefix': 'canPlayFastForward'
-    'body': 'canPlayFastForward()'
+    'body': 'canPlayFastForward'
   'canPlayFastReverse':
     'prefix': 'canPlayFastReverse'
-    'body': 'canPlayFastReverse()'
+    'body': 'canPlayFastReverse'
   'canPlayReverse':
     'prefix': 'canPlayReverse'
-    'body': 'canPlayReverse()'
+    'body': 'canPlayReverse'
   'canPlaySlowForward':
     'prefix': 'canPlaySlowForward'
-    'body': 'canPlaySlowForward()'
+    'body': 'canPlaySlowForward'
   'canPlaySlowReverse':
     'prefix': 'canPlaySlowReverse'
-    'body': 'canPlaySlowReverse()'
+    'body': 'canPlaySlowReverse'
   'canStepBackward':
     'prefix': 'canStepBackward'
-    'body': 'canStepBackward()'
+    'body': 'canStepBackward'
   'canStepForward':
     'prefix': 'canStepForward'
-    'body': 'canStepForward()'
+    'body': 'canStepForward'
   'cancelPendingSeeks':
     'prefix': 'cancelPendingSeeks'
-    'body': 'cancelPendingSeeks()'
+    'body': 'cancelPendingSeeks'
   'currentDate':
     'prefix': 'currentDate'
-    'body': 'currentDate()'
+    'body': 'currentDate'
   'currentTime':
     'prefix': 'currentTime'
-    'body': 'currentTime()'
+    'body': 'currentTime'
   'customVideoCompositor':
     'prefix': 'customVideoCompositor'
-    'body': 'customVideoCompositor()'
+    'body': 'customVideoCompositor'
   'duration':
     'prefix': 'duration'
-    'body': 'duration()'
+    'body': 'duration'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'errorLog':
     'prefix': 'errorLog'
-    'body': 'errorLog()'
+    'body': 'errorLog'
   'forwardPlaybackEndTime':
     'prefix': 'forwardPlaybackEndTime'
-    'body': 'forwardPlaybackEndTime()'
+    'body': 'forwardPlaybackEndTime'
   'initWithAsset:':
     'prefix': 'initWithAsset:'
     'body': 'initWithAsset(${1:AVAsset* asset})'
@@ -4543,19 +4747,19 @@
     'body': 'initWithURL(${1:NSURL* URL})'
   'isPlaybackBufferEmpty':
     'prefix': 'isPlaybackBufferEmpty'
-    'body': 'isPlaybackBufferEmpty()'
+    'body': 'isPlaybackBufferEmpty'
   'isPlaybackBufferFull':
     'prefix': 'isPlaybackBufferFull'
-    'body': 'isPlaybackBufferFull()'
+    'body': 'isPlaybackBufferFull'
   'isPlaybackLikelyToKeepUp':
     'prefix': 'isPlaybackLikelyToKeepUp'
-    'body': 'isPlaybackLikelyToKeepUp()'
+    'body': 'isPlaybackLikelyToKeepUp'
   'loadedTimeRanges':
     'prefix': 'loadedTimeRanges'
-    'body': 'loadedTimeRanges()'
+    'body': 'loadedTimeRanges'
   'outputs':
     'prefix': 'outputs'
-    'body': 'outputs()'
+    'body': 'outputs'
   'AVPlayerItem.playerItemWithAsset:':
     'prefix': 'playerItemWithAsset:'
     'body': 'playerItemWithAsset(${1:AVAsset* asset})'
@@ -4567,13 +4771,13 @@
     'body': 'playerItemWithURL(${1:NSURL* URL})'
   'presentationSize':
     'prefix': 'presentationSize'
-    'body': 'presentationSize()'
+    'body': 'presentationSize'
   'removeOutput:':
     'prefix': 'removeOutput:'
     'body': 'removeOutput(${1:AVPlayerItemOutput* output})'
   'reversePlaybackEndTime':
     'prefix': 'reversePlaybackEndTime'
-    'body': 'reversePlaybackEndTime()'
+    'body': 'reversePlaybackEndTime'
   'seekToDate:':
     'prefix': 'seekToDate:'
     'body': 'seekToDate(${1:NSDate* date})'
@@ -4594,10 +4798,10 @@
     'body': 'seekToTime(${1:CMTime time}, toleranceBefore:${2:CMTime toleranceBefore}, toleranceAfter:${3:CMTime toleranceAfter}, completionHandler:${4:void (^)(BOOL) completionHandler})'
   'seekableTimeRanges':
     'prefix': 'seekableTimeRanges'
-    'body': 'seekableTimeRanges()'
+    'body': 'seekableTimeRanges'
   'seekingWaitsForVideoCompositionRendering':
     'prefix': 'seekingWaitsForVideoCompositionRendering'
-    'body': 'seekingWaitsForVideoCompositionRendering()'
+    'body': 'seekingWaitsForVideoCompositionRendering'
   'selectMediaOption:inMediaSelectionGroup:':
     'prefix': 'selectMediaOption:inMediaSelectionGroup:'
     'body': 'selectMediaOption(${1:AVMediaSelectionOption* mediaSelectionOption}, inMediaSelectionGroup:${2:AVMediaSelectionGroup* mediaSelectionGroup})'
@@ -4630,145 +4834,160 @@
     'body': 'setVideoComposition(${1:AVVideoComposition* videoComposition})'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
   'stepByCount:':
     'prefix': 'stepByCount:'
     'body': 'stepByCount(${1:NSInteger stepCount})'
   'textStyleRules':
     'prefix': 'textStyleRules'
-    'body': 'textStyleRules()'
+    'body': 'textStyleRules'
   'timebase':
     'prefix': 'timebase'
-    'body': 'timebase()'
+    'body': 'timebase'
   'timedMetadata':
     'prefix': 'timedMetadata'
-    'body': 'timedMetadata()'
+    'body': 'timedMetadata'
   'tracks':
     'prefix': 'tracks'
-    'body': 'tracks()'
+    'body': 'tracks'
   'videoComposition':
     'prefix': 'videoComposition'
-    'body': 'videoComposition()'
+    'body': 'videoComposition'
+  'AVPlayerItemAccessLog':
+    'prefix': 'AVPlayerItemAccessLog'
+    'body': 'AVPlayerItemAccessLog'
   'events':
     'prefix': 'events'
-    'body': 'events()'
+    'body': 'events'
   'extendedLogData':
     'prefix': 'extendedLogData'
-    'body': 'extendedLogData()'
+    'body': 'extendedLogData'
   'extendedLogDataStringEncoding':
     'prefix': 'extendedLogDataStringEncoding'
-    'body': 'extendedLogDataStringEncoding()'
+    'body': 'extendedLogDataStringEncoding'
+  'AVPlayerItemAccessLogEvent':
+    'prefix': 'AVPlayerItemAccessLogEvent'
+    'body': 'AVPlayerItemAccessLogEvent'
   'URI':
     'prefix': 'URI'
-    'body': 'URI()'
+    'body': 'URI'
   'downloadOverdue':
     'prefix': 'downloadOverdue'
-    'body': 'downloadOverdue()'
+    'body': 'downloadOverdue'
   'durationWatched':
     'prefix': 'durationWatched'
-    'body': 'durationWatched()'
+    'body': 'durationWatched'
   'indicatedBitrate':
     'prefix': 'indicatedBitrate'
-    'body': 'indicatedBitrate()'
+    'body': 'indicatedBitrate'
   'mediaRequestsWWAN':
     'prefix': 'mediaRequestsWWAN'
-    'body': 'mediaRequestsWWAN()'
+    'body': 'mediaRequestsWWAN'
   'numberOfBytesTransferred':
     'prefix': 'numberOfBytesTransferred'
-    'body': 'numberOfBytesTransferred()'
+    'body': 'numberOfBytesTransferred'
   'numberOfDroppedVideoFrames':
     'prefix': 'numberOfDroppedVideoFrames'
-    'body': 'numberOfDroppedVideoFrames()'
+    'body': 'numberOfDroppedVideoFrames'
   'numberOfMediaRequests':
     'prefix': 'numberOfMediaRequests'
-    'body': 'numberOfMediaRequests()'
+    'body': 'numberOfMediaRequests'
   'numberOfSegmentsDownloaded':
     'prefix': 'numberOfSegmentsDownloaded'
-    'body': 'numberOfSegmentsDownloaded()'
+    'body': 'numberOfSegmentsDownloaded'
   'numberOfServerAddressChanges':
     'prefix': 'numberOfServerAddressChanges'
-    'body': 'numberOfServerAddressChanges()'
+    'body': 'numberOfServerAddressChanges'
   'numberOfStalls':
     'prefix': 'numberOfStalls'
-    'body': 'numberOfStalls()'
+    'body': 'numberOfStalls'
   'observedBitrate':
     'prefix': 'observedBitrate'
-    'body': 'observedBitrate()'
+    'body': 'observedBitrate'
   'observedBitrateStandardDeviation':
     'prefix': 'observedBitrateStandardDeviation'
-    'body': 'observedBitrateStandardDeviation()'
+    'body': 'observedBitrateStandardDeviation'
   'observedMaxBitrate':
     'prefix': 'observedMaxBitrate'
-    'body': 'observedMaxBitrate()'
+    'body': 'observedMaxBitrate'
   'observedMinBitrate':
     'prefix': 'observedMinBitrate'
-    'body': 'observedMinBitrate()'
+    'body': 'observedMinBitrate'
   'playbackSessionID':
     'prefix': 'playbackSessionID'
-    'body': 'playbackSessionID()'
+    'body': 'playbackSessionID'
   'playbackStartDate':
     'prefix': 'playbackStartDate'
-    'body': 'playbackStartDate()'
+    'body': 'playbackStartDate'
   'playbackStartOffset':
     'prefix': 'playbackStartOffset'
-    'body': 'playbackStartOffset()'
+    'body': 'playbackStartOffset'
   'playbackType':
     'prefix': 'playbackType'
-    'body': 'playbackType()'
+    'body': 'playbackType'
   'segmentsDownloadedDuration':
     'prefix': 'segmentsDownloadedDuration'
-    'body': 'segmentsDownloadedDuration()'
+    'body': 'segmentsDownloadedDuration'
   'serverAddress':
     'prefix': 'serverAddress'
-    'body': 'serverAddress()'
+    'body': 'serverAddress'
   'startupTime':
     'prefix': 'startupTime'
-    'body': 'startupTime()'
+    'body': 'startupTime'
   'switchBitrate':
     'prefix': 'switchBitrate'
-    'body': 'switchBitrate()'
+    'body': 'switchBitrate'
   'transferDuration':
     'prefix': 'transferDuration'
-    'body': 'transferDuration()'
+    'body': 'transferDuration'
+  'AVPlayerItemErrorLog':
+    'prefix': 'AVPlayerItemErrorLog'
+    'body': 'AVPlayerItemErrorLog'
   'events':
     'prefix': 'events'
-    'body': 'events()'
+    'body': 'events'
   'extendedLogData':
     'prefix': 'extendedLogData'
-    'body': 'extendedLogData()'
+    'body': 'extendedLogData'
   'extendedLogDataStringEncoding':
     'prefix': 'extendedLogDataStringEncoding'
-    'body': 'extendedLogDataStringEncoding()'
+    'body': 'extendedLogDataStringEncoding'
+  'AVPlayerItemErrorLogEvent':
+    'prefix': 'AVPlayerItemErrorLogEvent'
+    'body': 'AVPlayerItemErrorLogEvent'
   'URI':
     'prefix': 'URI'
-    'body': 'URI()'
+    'body': 'URI'
   'date':
     'prefix': 'date'
-    'body': 'date()'
+    'body': 'date'
   'errorComment':
     'prefix': 'errorComment'
-    'body': 'errorComment()'
+    'body': 'errorComment'
   'errorDomain':
     'prefix': 'errorDomain'
-    'body': 'errorDomain()'
+    'body': 'errorDomain'
   'errorStatusCode':
     'prefix': 'errorStatusCode'
-    'body': 'errorStatusCode()'
+    'body': 'errorStatusCode'
   'playbackSessionID':
     'prefix': 'playbackSessionID'
-    'body': 'playbackSessionID()'
+    'body': 'playbackSessionID'
   'serverAddress':
     'prefix': 'serverAddress'
-    'body': 'serverAddress()'
+    'body': 'serverAddress'
+  'AVPlayerItemLegibleOutput':
+    'prefix': 'AVPlayerItemLegibleOutput'
+    'body': 'AVPlayerItemLegibleOutput'
   'advanceIntervalForDelegateInvocation':
     'prefix': 'advanceIntervalForDelegateInvocation'
-    'body': 'advanceIntervalForDelegateInvocation()'
+    'body': 'advanceIntervalForDelegateInvocation'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'delegateQueue':
     'prefix': 'delegateQueue'
-    'body': 'delegateQueue()'
+    'body': 'delegateQueue'
   'initWithMediaSubtypesForNativeRepresentation:':
     'prefix': 'initWithMediaSubtypesForNativeRepresentation:'
     'body': 'initWithMediaSubtypesForNativeRepresentation(${1:NSArray* subtypes})'
@@ -4783,7 +5002,10 @@
     'body': 'setTextStylingResolution(${1:NSString* textStylingResolution})'
   'textStylingResolution':
     'prefix': 'textStylingResolution'
-    'body': 'textStylingResolution()'
+    'body': 'textStylingResolution'
+  'AVPlayerItemOutput':
+    'prefix': 'AVPlayerItemOutput'
+    'body': 'AVPlayerItemOutput'
   'itemTimeForHostTime:':
     'prefix': 'itemTimeForHostTime:'
     'body': 'itemTimeForHostTime(${1:CFTimeInterval hostTimeInSeconds})'
@@ -4795,28 +5017,34 @@
     'body': 'setSuppressesPlayerRendering(${1:BOOL suppressesPlayerRendering})'
   'suppressesPlayerRendering':
     'prefix': 'suppressesPlayerRendering'
-    'body': 'suppressesPlayerRendering()'
+    'body': 'suppressesPlayerRendering'
+  'AVPlayerItemTrack':
+    'prefix': 'AVPlayerItemTrack'
+    'body': 'AVPlayerItemTrack'
   'assetTrack':
     'prefix': 'assetTrack'
-    'body': 'assetTrack()'
+    'body': 'assetTrack'
   'currentVideoFrameRate':
     'prefix': 'currentVideoFrameRate'
-    'body': 'currentVideoFrameRate()'
+    'body': 'currentVideoFrameRate'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'setEnabled:':
     'prefix': 'setEnabled:'
     'body': 'setEnabled(${1:BOOL enabled})'
+  'AVPlayerItemVideoOutput':
+    'prefix': 'AVPlayerItemVideoOutput'
+    'body': 'AVPlayerItemVideoOutput'
   'copyPixelBufferForItemTime:itemTimeForDisplay:':
     'prefix': 'copyPixelBufferForItemTime:itemTimeForDisplay:'
     'body': 'copyPixelBufferForItemTime(${1:CMTime itemTime}, itemTimeForDisplay:${2:CMTime* outItemTimeForDisplay})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'delegateQueue':
     'prefix': 'delegateQueue'
-    'body': 'delegateQueue()'
+    'body': 'delegateQueue'
   'hasNewPixelBufferForItemTime:':
     'prefix': 'hasNewPixelBufferForItemTime:'
     'body': 'hasNewPixelBufferForItemTime(${1:CMTime itemTime})'
@@ -4829,12 +5057,15 @@
   'setDelegate:queue:':
     'prefix': 'setDelegate:queue:'
     'body': 'setDelegate(${1:id delegate}, queue:${2:dispatch_queue_t delegateQueue})'
+  'AVPlayerLayer':
+    'prefix': 'AVPlayerLayer'
+    'body': 'AVPlayerLayer'
   'isReadyForDisplay':
     'prefix': 'isReadyForDisplay'
-    'body': 'isReadyForDisplay()'
+    'body': 'isReadyForDisplay'
   'player':
     'prefix': 'player'
-    'body': 'player()'
+    'body': 'player'
   'AVPlayerLayer.playerLayerWithPlayer:':
     'prefix': 'playerLayerWithPlayer:'
     'body': 'playerLayerWithPlayer(${1:AVPlayer* player})'
@@ -4846,22 +5077,28 @@
     'body': 'setVideoGravity(${1:NSString* videoGravity})'
   'videoGravity':
     'prefix': 'videoGravity'
-    'body': 'videoGravity()'
+    'body': 'videoGravity'
   'videoRect':
     'prefix': 'videoRect'
-    'body': 'videoRect()'
+    'body': 'videoRect'
+  'AVPlayerMediaSelectionCriteria':
+    'prefix': 'AVPlayerMediaSelectionCriteria'
+    'body': 'AVPlayerMediaSelectionCriteria'
   'initWithPreferredLanguages:preferredMediaCharacteristics:':
     'prefix': 'initWithPreferredLanguages:preferredMediaCharacteristics:'
     'body': 'initWithPreferredLanguages(${1:NSArray* preferredLanguages}, preferredMediaCharacteristics:${2:NSArray* preferredMediaCharacteristics})'
   'preferredLanguages':
     'prefix': 'preferredLanguages'
-    'body': 'preferredLanguages()'
+    'body': 'preferredLanguages'
   'preferredMediaCharacteristics':
     'prefix': 'preferredMediaCharacteristics'
-    'body': 'preferredMediaCharacteristics()'
+    'body': 'preferredMediaCharacteristics'
+  'AVQueuePlayer':
+    'prefix': 'AVQueuePlayer'
+    'body': 'AVQueuePlayer'
   'advanceToNextItem':
     'prefix': 'advanceToNextItem'
-    'body': 'advanceToNextItem()'
+    'body': 'advanceToNextItem'
   'canInsertItem:afterItem:':
     'prefix': 'canInsertItem:afterItem:'
     'body': 'canInsertItem(${1:AVPlayerItem* item}, afterItem:${2:AVPlayerItem* afterItem})'
@@ -4873,40 +5110,46 @@
     'body': 'insertItem(${1:AVPlayerItem* item}, afterItem:${2:AVPlayerItem* afterItem})'
   'items':
     'prefix': 'items'
-    'body': 'items()'
+    'body': 'items'
   'AVQueuePlayer.queuePlayerWithItems:':
     'prefix': 'queuePlayerWithItems:'
     'body': 'queuePlayerWithItems(${1:NSArray* items})'
   'removeAllItems':
     'prefix': 'removeAllItems'
-    'body': 'removeAllItems()'
+    'body': 'removeAllItems'
   'removeItem:':
     'prefix': 'removeItem:'
     'body': 'removeItem(${1:AVPlayerItem* item})'
+  'AVSpeechSynthesisVoice':
+    'prefix': 'AVSpeechSynthesisVoice'
+    'body': 'AVSpeechSynthesisVoice'
   'AVSpeechSynthesisVoice.currentLanguageCode':
     'prefix': 'currentLanguageCode'
-    'body': 'currentLanguageCode()'
+    'body': 'currentLanguageCode'
   'language':
     'prefix': 'language'
-    'body': 'language()'
+    'body': 'language'
   'AVSpeechSynthesisVoice.speechVoices':
     'prefix': 'speechVoices'
-    'body': 'speechVoices()'
+    'body': 'speechVoices'
   'AVSpeechSynthesisVoice.voiceWithLanguage:':
     'prefix': 'voiceWithLanguage:'
     'body': 'voiceWithLanguage(${1:NSString* language})'
+  'AVSpeechSynthesizer':
+    'prefix': 'AVSpeechSynthesizer'
+    'body': 'AVSpeechSynthesizer'
   'continueSpeaking':
     'prefix': 'continueSpeaking'
-    'body': 'continueSpeaking()'
+    'body': 'continueSpeaking'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'isPaused':
     'prefix': 'isPaused'
-    'body': 'isPaused()'
+    'body': 'isPaused'
   'isSpeaking':
     'prefix': 'isSpeaking'
-    'body': 'isSpeaking()'
+    'body': 'isSpeaking'
   'pauseSpeakingAtBoundary:':
     'prefix': 'pauseSpeakingAtBoundary:'
     'body': 'pauseSpeakingAtBoundary(${1:AVSpeechBoundary boundary})'
@@ -4919,21 +5162,24 @@
   'stopSpeakingAtBoundary:':
     'prefix': 'stopSpeakingAtBoundary:'
     'body': 'stopSpeakingAtBoundary(${1:AVSpeechBoundary boundary})'
+  'AVSpeechUtterance':
+    'prefix': 'AVSpeechUtterance'
+    'body': 'AVSpeechUtterance'
   'initWithString:':
     'prefix': 'initWithString:'
     'body': 'initWithString(${1:NSString* string})'
   'pitchMultiplier':
     'prefix': 'pitchMultiplier'
-    'body': 'pitchMultiplier()'
+    'body': 'pitchMultiplier'
   'postUtteranceDelay':
     'prefix': 'postUtteranceDelay'
-    'body': 'postUtteranceDelay()'
+    'body': 'postUtteranceDelay'
   'preUtteranceDelay':
     'prefix': 'preUtteranceDelay'
-    'body': 'preUtteranceDelay()'
+    'body': 'preUtteranceDelay'
   'rate':
     'prefix': 'rate'
-    'body': 'rate()'
+    'body': 'rate'
   'setPitchMultiplier:':
     'prefix': 'setPitchMultiplier:'
     'body': 'setPitchMultiplier(${1:float pitchMultiplier})'
@@ -4954,25 +5200,31 @@
     'body': 'setVolume(${1:float volume})'
   'speechString':
     'prefix': 'speechString'
-    'body': 'speechString()'
+    'body': 'speechString'
   'AVSpeechUtterance.speechUtteranceWithString:':
     'prefix': 'speechUtteranceWithString:'
     'body': 'speechUtteranceWithString(${1:NSString* string})'
   'voice':
     'prefix': 'voice'
-    'body': 'voice()'
+    'body': 'voice'
   'volume':
     'prefix': 'volume'
-    'body': 'volume()'
+    'body': 'volume'
+  'AVSynchronizedLayer':
+    'prefix': 'AVSynchronizedLayer'
+    'body': 'AVSynchronizedLayer'
   'playerItem':
     'prefix': 'playerItem'
-    'body': 'playerItem()'
+    'body': 'playerItem'
   'setPlayerItem:':
     'prefix': 'setPlayerItem:'
     'body': 'setPlayerItem(${1:AVPlayerItem* playerItem})'
   'AVSynchronizedLayer.synchronizedLayerWithPlayerItem:':
     'prefix': 'synchronizedLayerWithPlayerItem:'
     'body': 'synchronizedLayerWithPlayerItem(${1:AVPlayerItem* playerItem})'
+  'AVTextStyleRule':
+    'prefix': 'AVTextStyleRule'
+    'body': 'AVTextStyleRule'
   'initWithTextMarkupAttributes:':
     'prefix': 'initWithTextMarkupAttributes:'
     'body': 'initWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes})'
@@ -4984,10 +5236,10 @@
     'body': 'propertyListForTextStyleRules(${1:NSArray* textStyleRules})'
   'textMarkupAttributes':
     'prefix': 'textMarkupAttributes'
-    'body': 'textMarkupAttributes()'
+    'body': 'textMarkupAttributes'
   'textSelector':
     'prefix': 'textSelector'
-    'body': 'textSelector()'
+    'body': 'textSelector'
   'AVTextStyleRule.textStyleRuleWithTextMarkupAttributes:':
     'prefix': 'textStyleRuleWithTextMarkupAttributes:'
     'body': 'textStyleRuleWithTextMarkupAttributes(${1:NSDictionary* textMarkupAttributes})'
@@ -4997,27 +5249,33 @@
   'AVTextStyleRule.textStyleRulesFromPropertyList:':
     'prefix': 'textStyleRulesFromPropertyList:'
     'body': 'textStyleRulesFromPropertyList(${1:id plist})'
+  'AVTimedMetadataGroup':
+    'prefix': 'AVTimedMetadataGroup'
+    'body': 'AVTimedMetadataGroup'
   'initWithItems:timeRange:':
     'prefix': 'initWithItems:timeRange:'
     'body': 'initWithItems(${1:NSArray* items}, timeRange:${2:CMTimeRange timeRange})'
   'items':
     'prefix': 'items'
-    'body': 'items()'
+    'body': 'items'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
+  'AVURLAsset':
+    'prefix': 'AVURLAsset'
+    'body': 'AVURLAsset'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'AVURLAsset.URLAssetWithURL:options:':
     'prefix': 'URLAssetWithURL:options:'
     'body': 'URLAssetWithURL(${1:NSURL* URL}, options:${2:NSDictionary* options})'
   'AVURLAsset.audiovisualMIMETypes':
     'prefix': 'audiovisualMIMETypes'
-    'body': 'audiovisualMIMETypes()'
+    'body': 'audiovisualMIMETypes'
   'AVURLAsset.audiovisualTypes':
     'prefix': 'audiovisualTypes'
-    'body': 'audiovisualTypes()'
+    'body': 'audiovisualTypes'
   'compatibleTrackForCompositionTrack:':
     'prefix': 'compatibleTrackForCompositionTrack:'
     'body': 'compatibleTrackForCompositionTrack(${1:AVCompositionTrack* compositionTrack})'
@@ -5029,31 +5287,37 @@
     'body': 'isPlayableExtendedMIMEType(${1:NSString* extendedMIMEType})'
   'resourceLoader':
     'prefix': 'resourceLoader'
-    'body': 'resourceLoader()'
+    'body': 'resourceLoader'
+  'AVVideoComposition':
+    'prefix': 'AVVideoComposition'
+    'body': 'AVVideoComposition'
   'animationTool':
     'prefix': 'animationTool'
-    'body': 'animationTool()'
+    'body': 'animationTool'
   'customVideoCompositorClass':
     'prefix': 'customVideoCompositorClass'
-    'body': 'customVideoCompositorClass()'
+    'body': 'customVideoCompositorClass'
   'frameDuration':
     'prefix': 'frameDuration'
-    'body': 'frameDuration()'
+    'body': 'frameDuration'
   'instructions':
     'prefix': 'instructions'
-    'body': 'instructions()'
+    'body': 'instructions'
   'isValidForAsset:timeRange:validationDelegate:':
     'prefix': 'isValidForAsset:timeRange:validationDelegate:'
     'body': 'isValidForAsset(${1:AVAsset* asset}, timeRange:${2:CMTimeRange timeRange}, validationDelegate:${3:id validationDelegate})'
   'renderScale':
     'prefix': 'renderScale'
-    'body': 'renderScale()'
+    'body': 'renderScale'
   'renderSize':
     'prefix': 'renderSize'
-    'body': 'renderSize()'
+    'body': 'renderSize'
   'AVVideoComposition.videoCompositionWithPropertiesOfAsset:':
     'prefix': 'videoCompositionWithPropertiesOfAsset:'
     'body': 'videoCompositionWithPropertiesOfAsset(${1:AVAsset* asset})'
+  'AVVideoCompositionCoreAnimationTool':
+    'prefix': 'AVVideoCompositionCoreAnimationTool'
+    'body': 'AVVideoCompositionCoreAnimationTool'
   'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithAdditionalLayer:asTrackID:':
     'prefix': 'videoCompositionCoreAnimationToolWithAdditionalLayer:asTrackID:'
     'body': 'videoCompositionCoreAnimationToolWithAdditionalLayer(${1:CALayer* layer}, asTrackID:${2:CMPersistentTrackID trackID})'
@@ -5063,27 +5327,33 @@
   'AVVideoCompositionCoreAnimationTool.videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:inLayer:':
     'prefix': 'videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers:inLayer:'
     'body': 'videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayers(${1:NSArray* videoLayers}, inLayer:${2:CALayer* animationLayer})'
+  'AVVideoCompositionInstruction':
+    'prefix': 'AVVideoCompositionInstruction'
+    'body': 'AVVideoCompositionInstruction'
   'backgroundColor':
     'prefix': 'backgroundColor'
-    'body': 'backgroundColor()'
+    'body': 'backgroundColor'
   'enablePostProcessing':
     'prefix': 'enablePostProcessing'
-    'body': 'enablePostProcessing()'
+    'body': 'enablePostProcessing'
   'layerInstructions':
     'prefix': 'layerInstructions'
-    'body': 'layerInstructions()'
+    'body': 'layerInstructions'
   'passthroughTrackID':
     'prefix': 'passthroughTrackID'
-    'body': 'passthroughTrackID()'
+    'body': 'passthroughTrackID'
   'requiredSourceTrackIDs':
     'prefix': 'requiredSourceTrackIDs'
-    'body': 'requiredSourceTrackIDs()'
+    'body': 'requiredSourceTrackIDs'
   'setBackgroundColor:':
     'prefix': 'setBackgroundColor:'
     'body': 'setBackgroundColor(${1:CGColorRef backgroundColor})'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
+  'AVVideoCompositionLayerInstruction':
+    'prefix': 'AVVideoCompositionLayerInstruction'
+    'body': 'AVVideoCompositionLayerInstruction'
   'getCropRectangleRampForTime:startCropRectangle:endCropRectangle:timeRange:':
     'prefix': 'getCropRectangleRampForTime:startCropRectangle:endCropRectangle:timeRange:'
     'body': 'getCropRectangleRampForTime(${1:CMTime time}, startCropRectangle:${2:CGRect* startCropRectangle}, endCropRectangle:${3:CGRect* endCropRectangle}, timeRange:${4:CMTimeRange* timeRange})'
@@ -5095,31 +5365,37 @@
     'body': 'getTransformRampForTime(${1:CMTime time}, startTransform:${2:CGAffineTransform* startTransform}, endTransform:${3:CGAffineTransform* endTransform}, timeRange:${4:CMTimeRange* timeRange})'
   'trackID':
     'prefix': 'trackID'
-    'body': 'trackID()'
+    'body': 'trackID'
+  'AVVideoCompositionRenderContext':
+    'prefix': 'AVVideoCompositionRenderContext'
+    'body': 'AVVideoCompositionRenderContext'
   'edgeWidths':
     'prefix': 'edgeWidths'
-    'body': 'edgeWidths()'
+    'body': 'edgeWidths'
   'highQualityRendering':
     'prefix': 'highQualityRendering'
-    'body': 'highQualityRendering()'
+    'body': 'highQualityRendering'
   'newPixelBuffer':
     'prefix': 'newPixelBuffer'
-    'body': 'newPixelBuffer()'
+    'body': 'newPixelBuffer'
   'pixelAspectRatio':
     'prefix': 'pixelAspectRatio'
-    'body': 'pixelAspectRatio()'
+    'body': 'pixelAspectRatio'
   'renderScale':
     'prefix': 'renderScale'
-    'body': 'renderScale()'
+    'body': 'renderScale'
   'renderTransform':
     'prefix': 'renderTransform'
-    'body': 'renderTransform()'
+    'body': 'renderTransform'
   'size':
     'prefix': 'size'
-    'body': 'size()'
+    'body': 'size'
   'videoComposition':
     'prefix': 'videoComposition'
-    'body': 'videoComposition()'
+    'body': 'videoComposition'
+  'NSCoder':
+    'prefix': 'NSCoder'
+    'body': 'NSCoder'
   'decodeCMTimeForKey:':
     'prefix': 'decodeCMTimeForKey:'
     'body': 'decodeCMTimeForKey(${1:NSString* key})'
@@ -5138,6 +5414,9 @@
   'encodeCMTimeRange:forKey:':
     'prefix': 'encodeCMTimeRange:forKey:'
     'body': 'encodeCMTimeRange(${1:CMTimeRange timeRange}, forKey:${2:NSString* key})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'audioPlayerBeginInterruption:':
     'prefix': 'audioPlayerBeginInterruption:'
     'body': 'audioPlayerBeginInterruption(${1:AVAudioPlayer* player})'
@@ -5176,10 +5455,10 @@
     'body': 'audioRecorderEndInterruption(${1:AVAudioRecorder* recorder}, withOptions:${2:NSUInteger flags})'
   'beginInterruption':
     'prefix': 'beginInterruption'
-    'body': 'beginInterruption()'
+    'body': 'beginInterruption'
   'cancelAllPendingVideoCompositionRequests':
     'prefix': 'cancelAllPendingVideoCompositionRequests'
-    'body': 'cancelAllPendingVideoCompositionRequests()'
+    'body': 'cancelAllPendingVideoCompositionRequests'
   'captureOutput:didDropSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didDropSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:AVCaptureOutput* captureOutput}, didDropSampleBuffer:${2:CMSampleBufferRef sampleBuffer}, fromConnection:${3:AVCaptureConnection* connection})'
@@ -5197,13 +5476,13 @@
     'body': 'captureOutput(${1:AVCaptureFileOutput* captureOutput}, didStartRecordingToOutputFileAtURL:${2:NSURL* fileURL}, fromConnections:${3:NSArray* connections})'
   'containsTweening':
     'prefix': 'containsTweening'
-    'body': 'containsTweening()'
+    'body': 'containsTweening'
   'enablePostProcessing':
     'prefix': 'enablePostProcessing'
-    'body': 'enablePostProcessing()'
+    'body': 'enablePostProcessing'
   'endInterruption':
     'prefix': 'endInterruption'
-    'body': 'endInterruption()'
+    'body': 'endInterruption'
   'endInterruptionWithFlags:':
     'prefix': 'endInterruptionWithFlags:'
     'body': 'endInterruptionWithFlags(${1:NSUInteger flags})'
@@ -5224,16 +5503,16 @@
     'body': 'outputSequenceWasFlushed(${1:AVPlayerItemOutput* output})'
   'passthroughTrackID':
     'prefix': 'passthroughTrackID'
-    'body': 'passthroughTrackID()'
+    'body': 'passthroughTrackID'
   'renderContextChanged:':
     'prefix': 'renderContextChanged:'
     'body': 'renderContextChanged(${1:AVVideoCompositionRenderContext* newRenderContext})'
   'requiredPixelBufferAttributesForRenderContext':
     'prefix': 'requiredPixelBufferAttributesForRenderContext'
-    'body': 'requiredPixelBufferAttributesForRenderContext()'
+    'body': 'requiredPixelBufferAttributesForRenderContext'
   'requiredSourceTrackIDs':
     'prefix': 'requiredSourceTrackIDs'
-    'body': 'requiredSourceTrackIDs()'
+    'body': 'requiredSourceTrackIDs'
   'resourceLoader:didCancelLoadingRequest:':
     'prefix': 'resourceLoader:didCancelLoadingRequest:'
     'body': 'resourceLoader(${1:AVAssetResourceLoader* resourceLoader}, didCancelLoadingRequest:${2:AVAssetResourceLoadingRequest* loadingRequest})'
@@ -5242,7 +5521,7 @@
     'body': 'resourceLoader(${1:AVAssetResourceLoader* resourceLoader}, shouldWaitForLoadingOfRequestedResource:${2:AVAssetResourceLoadingRequest* loadingRequest})'
   'sourcePixelBufferAttributes':
     'prefix': 'sourcePixelBufferAttributes'
-    'body': 'sourcePixelBufferAttributes()'
+    'body': 'sourcePixelBufferAttributes'
   'speechSynthesizer:didCancelSpeechUtterance:':
     'prefix': 'speechSynthesizer:didCancelSpeechUtterance:'
     'body': 'speechSynthesizer(${1:AVSpeechSynthesizer* synthesizer}, didCancelSpeechUtterance:${2:AVSpeechUtterance* utterance})'
@@ -5269,7 +5548,7 @@
     'body': 'statusOfValueForKey(${1:NSString* key}, error:${2:NSError** outError})'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
   'videoComposition:shouldContinueValidatingAfterFindingEmptyTimeRange:':
     'prefix': 'videoComposition:shouldContinueValidatingAfterFindingEmptyTimeRange:'
     'body': 'videoComposition(${1:AVVideoComposition* videoComposition}, shouldContinueValidatingAfterFindingEmptyTimeRange:${2:CMTimeRange timeRange})'
@@ -5282,15 +5561,18 @@
   'videoComposition:shouldContinueValidatingAfterFindingInvalidValueForKey:':
     'prefix': 'videoComposition:shouldContinueValidatingAfterFindingInvalidValueForKey:'
     'body': 'videoComposition(${1:AVVideoComposition* videoComposition}, shouldContinueValidatingAfterFindingInvalidValueForKey:${2:NSString* key})'
+  'NSValue':
+    'prefix': 'NSValue'
+    'body': 'NSValue'
   'CMTimeMappingValue':
     'prefix': 'CMTimeMappingValue'
-    'body': 'CMTimeMappingValue()'
+    'body': 'CMTimeMappingValue'
   'CMTimeRangeValue':
     'prefix': 'CMTimeRangeValue'
-    'body': 'CMTimeRangeValue()'
+    'body': 'CMTimeRangeValue'
   'CMTimeValue':
     'prefix': 'CMTimeValue'
-    'body': 'CMTimeValue()'
+    'body': 'CMTimeValue'
   'NSValue.valueWithCMTime:':
     'prefix': 'valueWithCMTime:'
     'body': 'valueWithCMTime(${1:CMTime time})'
@@ -5300,18 +5582,27 @@
   'NSValue.valueWithCMTimeRange:':
     'prefix': 'valueWithCMTimeRange:'
     'body': 'valueWithCMTimeRange(${1:CMTimeRange timeRange})'
+  'AVAssetResourceLoaderDelegate':
+    'prefix': 'AVAssetResourceLoaderDelegate'
+    'body': 'AVAssetResourceLoaderDelegate'
   'resourceLoader:didCancelLoadingRequest:':
     'prefix': 'resourceLoader:didCancelLoadingRequest:'
     'body': 'resourceLoader(${1:AVAssetResourceLoader* resourceLoader}, didCancelLoadingRequest:${2:AVAssetResourceLoadingRequest* loadingRequest})'
   'resourceLoader:shouldWaitForLoadingOfRequestedResource:':
     'prefix': 'resourceLoader:shouldWaitForLoadingOfRequestedResource:'
     'body': 'resourceLoader(${1:AVAssetResourceLoader* resourceLoader}, shouldWaitForLoadingOfRequestedResource:${2:AVAssetResourceLoadingRequest* loadingRequest})'
+  'AVAsynchronousKeyValueLoading':
+    'prefix': 'AVAsynchronousKeyValueLoading'
+    'body': 'AVAsynchronousKeyValueLoading'
   'loadValuesAsynchronouslyForKeys:completionHandler:':
     'prefix': 'loadValuesAsynchronouslyForKeys:completionHandler:'
     'body': 'loadValuesAsynchronouslyForKeys(${1:NSArray* keys}, completionHandler:${2:void (^)(void) handler})'
   'statusOfValueForKey:error:':
     'prefix': 'statusOfValueForKey:error:'
     'body': 'statusOfValueForKey(${1:NSString* key}, error:${2:NSError** outError})'
+  'AVAudioPlayerDelegate':
+    'prefix': 'AVAudioPlayerDelegate'
+    'body': 'AVAudioPlayerDelegate'
   'audioPlayerBeginInterruption:':
     'prefix': 'audioPlayerBeginInterruption:'
     'body': 'audioPlayerBeginInterruption(${1:AVAudioPlayer* player})'
@@ -5330,6 +5621,9 @@
   'audioPlayerEndInterruption:withOptions:':
     'prefix': 'audioPlayerEndInterruption:withOptions:'
     'body': 'audioPlayerEndInterruption(${1:AVAudioPlayer* player}, withOptions:${2:NSUInteger flags})'
+  'AVAudioRecorderDelegate':
+    'prefix': 'AVAudioRecorderDelegate'
+    'body': 'AVAudioRecorderDelegate'
   'audioRecorderBeginInterruption:':
     'prefix': 'audioRecorderBeginInterruption:'
     'body': 'audioRecorderBeginInterruption(${1:AVAudioRecorder* recorder})'
@@ -5348,48 +5642,75 @@
   'audioRecorderEndInterruption:withOptions:':
     'prefix': 'audioRecorderEndInterruption:withOptions:'
     'body': 'audioRecorderEndInterruption(${1:AVAudioRecorder* recorder}, withOptions:${2:NSUInteger flags})'
+  'AVAudioSessionDelegate':
+    'prefix': 'AVAudioSessionDelegate'
+    'body': 'AVAudioSessionDelegate'
   'beginInterruption':
     'prefix': 'beginInterruption'
-    'body': 'beginInterruption()'
+    'body': 'beginInterruption'
   'endInterruption':
     'prefix': 'endInterruption'
-    'body': 'endInterruption()'
+    'body': 'endInterruption'
   'endInterruptionWithFlags:':
     'prefix': 'endInterruptionWithFlags:'
     'body': 'endInterruptionWithFlags(${1:NSUInteger flags})'
   'inputIsAvailableChanged:':
     'prefix': 'inputIsAvailableChanged:'
     'body': 'inputIsAvailableChanged(${1:BOOL isInputAvailable})'
+  'AVCaptureAudioDataOutputSampleBufferDelegate':
+    'prefix': 'AVCaptureAudioDataOutputSampleBufferDelegate'
+    'body': 'AVCaptureAudioDataOutputSampleBufferDelegate'
   'captureOutput:didOutputSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didOutputSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:AVCaptureOutput* captureOutput}, didOutputSampleBuffer:${2:CMSampleBufferRef sampleBuffer}, fromConnection:${3:AVCaptureConnection* connection})'
+  'AVCaptureFileOutputRecordingDelegate':
+    'prefix': 'AVCaptureFileOutputRecordingDelegate'
+    'body': 'AVCaptureFileOutputRecordingDelegate'
   'captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:':
     'prefix': 'captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:'
     'body': 'captureOutput(${1:AVCaptureFileOutput* captureOutput}, didFinishRecordingToOutputFileAtURL:${2:NSURL* outputFileURL}, fromConnections:${3:NSArray* connections}, error:${4:NSError* error})'
   'captureOutput:didStartRecordingToOutputFileAtURL:fromConnections:':
     'prefix': 'captureOutput:didStartRecordingToOutputFileAtURL:fromConnections:'
     'body': 'captureOutput(${1:AVCaptureFileOutput* captureOutput}, didStartRecordingToOutputFileAtURL:${2:NSURL* fileURL}, fromConnections:${3:NSArray* connections})'
+  'AVCaptureMetadataOutputObjectsDelegate':
+    'prefix': 'AVCaptureMetadataOutputObjectsDelegate'
+    'body': 'AVCaptureMetadataOutputObjectsDelegate'
   'captureOutput:didOutputMetadataObjects:fromConnection:':
     'prefix': 'captureOutput:didOutputMetadataObjects:fromConnection:'
     'body': 'captureOutput(${1:AVCaptureOutput* captureOutput}, didOutputMetadataObjects:${2:NSArray* metadataObjects}, fromConnection:${3:AVCaptureConnection* connection})'
+  'AVCaptureVideoDataOutputSampleBufferDelegate':
+    'prefix': 'AVCaptureVideoDataOutputSampleBufferDelegate'
+    'body': 'AVCaptureVideoDataOutputSampleBufferDelegate'
   'captureOutput:didDropSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didDropSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:AVCaptureOutput* captureOutput}, didDropSampleBuffer:${2:CMSampleBufferRef sampleBuffer}, fromConnection:${3:AVCaptureConnection* connection})'
   'captureOutput:didOutputSampleBuffer:fromConnection:':
     'prefix': 'captureOutput:didOutputSampleBuffer:fromConnection:'
     'body': 'captureOutput(${1:AVCaptureOutput* captureOutput}, didOutputSampleBuffer:${2:CMSampleBufferRef sampleBuffer}, fromConnection:${3:AVCaptureConnection* connection})'
+  'AVPlayerItemLegibleOutputPushDelegate':
+    'prefix': 'AVPlayerItemLegibleOutputPushDelegate'
+    'body': 'AVPlayerItemLegibleOutputPushDelegate'
   'legibleOutput:didOutputAttributedStrings:nativeSampleBuffers:forItemTime:':
     'prefix': 'legibleOutput:didOutputAttributedStrings:nativeSampleBuffers:forItemTime:'
     'body': 'legibleOutput(${1:AVPlayerItemLegibleOutput* output}, didOutputAttributedStrings:${2:NSArray* strings}, nativeSampleBuffers:${3:NSArray* nativeSamples}, forItemTime:${4:CMTime itemTime})'
+  'AVPlayerItemOutputPullDelegate':
+    'prefix': 'AVPlayerItemOutputPullDelegate'
+    'body': 'AVPlayerItemOutputPullDelegate'
   'outputMediaDataWillChange:':
     'prefix': 'outputMediaDataWillChange:'
     'body': 'outputMediaDataWillChange(${1:AVPlayerItemOutput* sender})'
   'outputSequenceWasFlushed:':
     'prefix': 'outputSequenceWasFlushed:'
     'body': 'outputSequenceWasFlushed(${1:AVPlayerItemOutput* output})'
+  'AVPlayerItemOutputPushDelegate':
+    'prefix': 'AVPlayerItemOutputPushDelegate'
+    'body': 'AVPlayerItemOutputPushDelegate'
   'outputSequenceWasFlushed:':
     'prefix': 'outputSequenceWasFlushed:'
     'body': 'outputSequenceWasFlushed(${1:AVPlayerItemOutput* output})'
+  'AVSpeechSynthesizerDelegate':
+    'prefix': 'AVSpeechSynthesizerDelegate'
+    'body': 'AVSpeechSynthesizerDelegate'
   'speechSynthesizer:didCancelSpeechUtterance:':
     'prefix': 'speechSynthesizer:didCancelSpeechUtterance:'
     'body': 'speechSynthesizer(${1:AVSpeechSynthesizer* synthesizer}, didCancelSpeechUtterance:${2:AVSpeechUtterance* utterance})'
@@ -5408,36 +5729,45 @@
   'speechSynthesizer:willSpeakRangeOfSpeechString:utterance:':
     'prefix': 'speechSynthesizer:willSpeakRangeOfSpeechString:utterance:'
     'body': 'speechSynthesizer(${1:AVSpeechSynthesizer* synthesizer}, willSpeakRangeOfSpeechString:${2:NSRange characterRange}, utterance:${3:AVSpeechUtterance* utterance})'
+  'AVVideoCompositing':
+    'prefix': 'AVVideoCompositing'
+    'body': 'AVVideoCompositing'
   'cancelAllPendingVideoCompositionRequests':
     'prefix': 'cancelAllPendingVideoCompositionRequests'
-    'body': 'cancelAllPendingVideoCompositionRequests()'
+    'body': 'cancelAllPendingVideoCompositionRequests'
   'renderContextChanged:':
     'prefix': 'renderContextChanged:'
     'body': 'renderContextChanged(${1:AVVideoCompositionRenderContext* newRenderContext})'
   'requiredPixelBufferAttributesForRenderContext':
     'prefix': 'requiredPixelBufferAttributesForRenderContext'
-    'body': 'requiredPixelBufferAttributesForRenderContext()'
+    'body': 'requiredPixelBufferAttributesForRenderContext'
   'sourcePixelBufferAttributes':
     'prefix': 'sourcePixelBufferAttributes'
-    'body': 'sourcePixelBufferAttributes()'
+    'body': 'sourcePixelBufferAttributes'
   'startVideoCompositionRequest:':
     'prefix': 'startVideoCompositionRequest:'
     'body': 'startVideoCompositionRequest(${1:AVAsynchronousVideoCompositionRequest* asyncVideoCompositionRequest})'
+  'AVVideoCompositionInstruction':
+    'prefix': 'AVVideoCompositionInstruction'
+    'body': 'AVVideoCompositionInstruction'
   'containsTweening':
     'prefix': 'containsTweening'
-    'body': 'containsTweening()'
+    'body': 'containsTweening'
   'enablePostProcessing':
     'prefix': 'enablePostProcessing'
-    'body': 'enablePostProcessing()'
+    'body': 'enablePostProcessing'
   'passthroughTrackID':
     'prefix': 'passthroughTrackID'
-    'body': 'passthroughTrackID()'
+    'body': 'passthroughTrackID'
   'requiredSourceTrackIDs':
     'prefix': 'requiredSourceTrackIDs'
-    'body': 'requiredSourceTrackIDs()'
+    'body': 'requiredSourceTrackIDs'
   'timeRange':
     'prefix': 'timeRange'
-    'body': 'timeRange()'
+    'body': 'timeRange'
+  'AVVideoCompositionValidationHandling':
+    'prefix': 'AVVideoCompositionValidationHandling'
+    'body': 'AVVideoCompositionValidationHandling'
   'videoComposition:shouldContinueValidatingAfterFindingEmptyTimeRange:':
     'prefix': 'videoComposition:shouldContinueValidatingAfterFindingEmptyTimeRange:'
     'body': 'videoComposition(${1:AVVideoComposition* videoComposition}, shouldContinueValidatingAfterFindingEmptyTimeRange:${2:CMTimeRange timeRange})'

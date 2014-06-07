@@ -2191,13 +2191,13 @@
     'body': 'AudioDriverPlugInStreamSetProperty(${1:AudioDeviceID inDevice}, ${2:io_object_t inIOAudioStream}, ${3:AudioTimeStamp* inWhen}, ${4:UInt32 inChannel}, ${5:AudioDevicePropertyID inPropertyID}, ${6:UInt32 inPropertyDataSize}, ${7:void* inPropertyData})'
   'AudioGetCurrentHostTime':
     'prefix': 'AudioGetCurrentHostTime'
-    'body': 'AudioGetCurrentHostTime()'
+    'body': 'AudioGetCurrentHostTime'
   'AudioGetHostClockFrequency':
     'prefix': 'AudioGetHostClockFrequency'
-    'body': 'AudioGetHostClockFrequency()'
+    'body': 'AudioGetHostClockFrequency'
   'AudioGetHostClockMinimumTimeDelta':
     'prefix': 'AudioGetHostClockMinimumTimeDelta'
-    'body': 'AudioGetHostClockMinimumTimeDelta()'
+    'body': 'AudioGetHostClockMinimumTimeDelta'
   'AudioHardwareAddPropertyListener':
     'prefix': 'AudioHardwareAddPropertyListener'
     'body': 'AudioHardwareAddPropertyListener(${1:AudioHardwarePropertyID inPropertyID}, ${2:AudioHardwarePropertyListenerProc inProc}, ${3:void* inClientData})'
@@ -2245,7 +2245,7 @@
     'body': 'AudioHardwareStreamsDied(${1:AudioHardwarePlugInRef inOwner}, ${2:AudioDeviceID inOwningDeviceID}, ${3:UInt32 inNumberStreams}, ${4:AudioStreamID* inAudioStreamIDs})'
   'AudioHardwareUnload':
     'prefix': 'AudioHardwareUnload'
-    'body': 'AudioHardwareUnload()'
+    'body': 'AudioHardwareUnload'
   'AudioObjectAddPropertyListener':
     'prefix': 'AudioObjectAddPropertyListener'
     'body': 'AudioObjectAddPropertyListener(${1:AudioObjectID inObjectID}, ${2:AudioObjectPropertyAddress* inAddress}, ${3:AudioObjectPropertyListenerProc inListener}, ${4:void* inClientData})'

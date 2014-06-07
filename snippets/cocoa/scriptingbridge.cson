@@ -1,10 +1,16 @@
 '.source.rubymotion':
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'eventDidFail:withError:':
     'prefix': 'eventDidFail:withError:'
     'body': 'eventDidFail(${1:AppleEvent* event}, withError:${2:NSError* error})'
+  'SBApplication':
+    'prefix': 'SBApplication'
+    'body': 'SBApplication'
   'activate':
     'prefix': 'activate'
-    'body': 'activate()'
+    'body': 'activate'
   'SBApplication.applicationWithBundleIdentifier:':
     'prefix': 'applicationWithBundleIdentifier:'
     'body': 'applicationWithBundleIdentifier(${1:NSString* ident})'
@@ -19,7 +25,7 @@
     'body': 'classForScriptingClass(${1:NSString* className})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithBundleIdentifier:':
     'prefix': 'initWithBundleIdentifier:'
     'body': 'initWithBundleIdentifier(${1:NSString* ident})'
@@ -31,13 +37,13 @@
     'body': 'initWithURL(${1:NSURL* url})'
   'isRunning':
     'prefix': 'isRunning'
-    'body': 'isRunning()'
+    'body': 'isRunning'
   'launchFlags':
     'prefix': 'launchFlags'
-    'body': 'launchFlags()'
+    'body': 'launchFlags'
   'sendMode':
     'prefix': 'sendMode'
-    'body': 'sendMode()'
+    'body': 'sendMode'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -52,7 +58,10 @@
     'body': 'setTimeout(${1:long timeout})'
   'timeout':
     'prefix': 'timeout'
-    'body': 'timeout()'
+    'body': 'timeout'
+  'SBElementArray':
+    'prefix': 'SBElementArray'
+    'body': 'SBElementArray'
   'arrayByApplyingSelector:':
     'prefix': 'arrayByApplyingSelector:'
     'body': 'arrayByApplyingSelector(${1:SEL selector})'
@@ -61,7 +70,7 @@
     'body': 'arrayByApplyingSelector(${1:SEL aSelector}, withObject:${2:id argument})'
   'get':
     'prefix': 'get'
-    'body': 'get()'
+    'body': 'get'
   'objectAtLocation:':
     'prefix': 'objectAtLocation:'
     'body': 'objectAtLocation(${1:id location})'
@@ -71,15 +80,18 @@
   'objectWithName:':
     'prefix': 'objectWithName:'
     'body': 'objectWithName(${1:NSString* name})'
+  'SBObject':
+    'prefix': 'SBObject'
+    'body': 'SBObject'
   'elementArrayWithCode:':
     'prefix': 'elementArrayWithCode:'
     'body': 'elementArrayWithCode(${1:DescType code})'
   'get':
     'prefix': 'get'
-    'body': 'get()'
+    'body': 'get'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithData:':
     'prefix': 'initWithData:'
     'body': 'initWithData(${1:id data})'
@@ -91,7 +103,7 @@
     'body': 'initWithProperties(${1:NSDictionary* properties})'
   'lastError':
     'prefix': 'lastError'
-    'body': 'lastError()'
+    'body': 'lastError'
   'propertyWithClass:code:':
     'prefix': 'propertyWithClass:code:'
     'body': 'propertyWithClass(${1:Class cls}, code:${2:AEKeyword code})'
@@ -104,6 +116,9 @@
   'setTo:':
     'prefix': 'setTo:'
     'body': 'setTo(${1:id value})'
+  'SBApplicationDelegate':
+    'prefix': 'SBApplicationDelegate'
+    'body': 'SBApplicationDelegate'
   'eventDidFail:withError:':
     'prefix': 'eventDidFail:withError:'
     'body': 'eventDidFail(${1:AppleEvent* event}, withError:${2:NSError* error})'

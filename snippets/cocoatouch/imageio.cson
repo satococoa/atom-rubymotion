@@ -1069,7 +1069,7 @@
     'body': 'CGImageDestinationCopyImageSource(${1:CGImageDestinationRef idst}, ${2:CGImageSourceRef isrc}, ${3:CFDictionaryRef options}, ${4:CFErrorRef* err})'
   'CGImageDestinationCopyTypeIdentifiers':
     'prefix': 'CGImageDestinationCopyTypeIdentifiers'
-    'body': 'CGImageDestinationCopyTypeIdentifiers()'
+    'body': 'CGImageDestinationCopyTypeIdentifiers'
   'CGImageDestinationCreateWithData':
     'prefix': 'CGImageDestinationCreateWithData'
     'body': 'CGImageDestinationCreateWithData(${1:CFMutableDataRef data}, ${2:CFStringRef type}, ${3:size_t count}, ${4:CFDictionaryRef options})'
@@ -1084,7 +1084,7 @@
     'body': 'CGImageDestinationFinalize(${1:CGImageDestinationRef idst})'
   'CGImageDestinationGetTypeID':
     'prefix': 'CGImageDestinationGetTypeID'
-    'body': 'CGImageDestinationGetTypeID()'
+    'body': 'CGImageDestinationGetTypeID'
   'CGImageDestinationSetProperties':
     'prefix': 'CGImageDestinationSetProperties'
     'body': 'CGImageDestinationSetProperties(${1:CGImageDestinationRef idst}, ${2:CFDictionaryRef properties})'
@@ -1105,7 +1105,7 @@
     'body': 'CGImageMetadataCreateFromXMPData(${1:CFDataRef data})'
   'CGImageMetadataCreateMutable':
     'prefix': 'CGImageMetadataCreateMutable'
-    'body': 'CGImageMetadataCreateMutable()'
+    'body': 'CGImageMetadataCreateMutable'
   'CGImageMetadataCreateMutableCopy':
     'prefix': 'CGImageMetadataCreateMutableCopy'
     'body': 'CGImageMetadataCreateMutableCopy(${1:CGImageMetadataRef metadata})'
@@ -1117,7 +1117,7 @@
     'body': 'CGImageMetadataEnumerateTagsUsingBlock(${1:CGImageMetadataRef metadata}, ${2:CFStringRef rootPath}, ${3:CFDictionaryRef options}, ${4:CGImageMetadataTagBlock block})'
   'CGImageMetadataGetTypeID':
     'prefix': 'CGImageMetadataGetTypeID'
-    'body': 'CGImageMetadataGetTypeID()'
+    'body': 'CGImageMetadataGetTypeID'
   'CGImageMetadataRegisterNamespaceForPrefix':
     'prefix': 'CGImageMetadataRegisterNamespaceForPrefix'
     'body': 'CGImageMetadataRegisterNamespaceForPrefix(${1:CGMutableImageMetadataRef metadata}, ${2:CFStringRef xmlns}, ${3:CFStringRef prefix}, ${4:CFErrorRef* err})'
@@ -1156,7 +1156,7 @@
     'body': 'CGImageMetadataTagGetType(${1:CGImageMetadataTagRef tag})'
   'CGImageMetadataTagGetTypeID':
     'prefix': 'CGImageMetadataTagGetTypeID'
-    'body': 'CGImageMetadataTagGetTypeID()'
+    'body': 'CGImageMetadataTagGetTypeID'
   'CGImageSourceCopyMetadataAtIndex':
     'prefix': 'CGImageSourceCopyMetadataAtIndex'
     'body': 'CGImageSourceCopyMetadataAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index}, ${3:CFDictionaryRef options})'
@@ -1168,7 +1168,7 @@
     'body': 'CGImageSourceCopyPropertiesAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index}, ${3:CFDictionaryRef options})'
   'CGImageSourceCopyTypeIdentifiers':
     'prefix': 'CGImageSourceCopyTypeIdentifiers'
-    'body': 'CGImageSourceCopyTypeIdentifiers()'
+    'body': 'CGImageSourceCopyTypeIdentifiers'
   'CGImageSourceCreateImageAtIndex':
     'prefix': 'CGImageSourceCreateImageAtIndex'
     'body': 'CGImageSourceCreateImageAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index}, ${3:CFDictionaryRef options})'
@@ -1201,7 +1201,7 @@
     'body': 'CGImageSourceGetType(${1:CGImageSourceRef isrc})'
   'CGImageSourceGetTypeID':
     'prefix': 'CGImageSourceGetTypeID'
-    'body': 'CGImageSourceGetTypeID()'
+    'body': 'CGImageSourceGetTypeID'
   'CGImageSourceRemoveCacheAtIndex':
     'prefix': 'CGImageSourceRemoveCacheAtIndex'
     'body': 'CGImageSourceRemoveCacheAtIndex(${1:CGImageSourceRef isrc}, ${2:size_t index})'

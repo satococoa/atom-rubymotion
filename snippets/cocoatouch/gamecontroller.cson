@@ -20,24 +20,27 @@
   'NSDataFromGCGamepadSnapShotDataV100':
     'prefix': 'NSDataFromGCGamepadSnapShotDataV100'
     'body': 'NSDataFromGCGamepadSnapShotDataV100(${1:GCGamepadSnapShotDataV100* snapshotData})'
+  'GCController':
+    'prefix': 'GCController'
+    'body': 'GCController'
   'controllerPausedHandler':
     'prefix': 'controllerPausedHandler'
-    'body': 'controllerPausedHandler()'
+    'body': 'controllerPausedHandler'
   'GCController.controllers':
     'prefix': 'controllers'
-    'body': 'controllers()'
+    'body': 'controllers'
   'extendedGamepad':
     'prefix': 'extendedGamepad'
-    'body': 'extendedGamepad()'
+    'body': 'extendedGamepad'
   'gamepad':
     'prefix': 'gamepad'
-    'body': 'gamepad()'
+    'body': 'gamepad'
   'isAttachedToDevice':
     'prefix': 'isAttachedToDevice'
-    'body': 'isAttachedToDevice()'
+    'body': 'isAttachedToDevice'
   'playerIndex':
     'prefix': 'playerIndex'
-    'body': 'playerIndex()'
+    'body': 'playerIndex'
   'setControllerPausedHandler:':
     'prefix': 'setControllerPausedHandler:'
     'body': 'setControllerPausedHandler(${1:void (^)(GCController *) controllerPausedHandler})'
@@ -49,106 +52,124 @@
     'body': 'startWirelessControllerDiscoveryWithCompletionHandler(${1:void (^)(void) completionHandler})'
   'GCController.stopWirelessControllerDiscovery':
     'prefix': 'stopWirelessControllerDiscovery'
-    'body': 'stopWirelessControllerDiscovery()'
+    'body': 'stopWirelessControllerDiscovery'
   'vendorName':
     'prefix': 'vendorName'
-    'body': 'vendorName()'
+    'body': 'vendorName'
+  'GCControllerAxisInput':
+    'prefix': 'GCControllerAxisInput'
+    'body': 'GCControllerAxisInput'
   'setValueChangedHandler:':
     'prefix': 'setValueChangedHandler:'
     'body': 'setValueChangedHandler(${1:GCControllerAxisValueChangedHandler valueChangedHandler})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'valueChangedHandler':
     'prefix': 'valueChangedHandler'
-    'body': 'valueChangedHandler()'
+    'body': 'valueChangedHandler'
+  'GCControllerButtonInput':
+    'prefix': 'GCControllerButtonInput'
+    'body': 'GCControllerButtonInput'
   'isPressed':
     'prefix': 'isPressed'
-    'body': 'isPressed()'
+    'body': 'isPressed'
   'setValueChangedHandler:':
     'prefix': 'setValueChangedHandler:'
     'body': 'setValueChangedHandler(${1:GCControllerButtonValueChangedHandler valueChangedHandler})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
   'valueChangedHandler':
     'prefix': 'valueChangedHandler'
-    'body': 'valueChangedHandler()'
+    'body': 'valueChangedHandler'
+  'GCControllerDirectionPad':
+    'prefix': 'GCControllerDirectionPad'
+    'body': 'GCControllerDirectionPad'
   'down':
     'prefix': 'down'
-    'body': 'down()'
+    'body': 'down'
   'left':
     'prefix': 'left'
-    'body': 'left()'
+    'body': 'left'
   'right':
     'prefix': 'right'
-    'body': 'right()'
+    'body': 'right'
   'setValueChangedHandler:':
     'prefix': 'setValueChangedHandler:'
     'body': 'setValueChangedHandler(${1:GCControllerDirectionPadValueChangedHandler valueChangedHandler})'
   'up':
     'prefix': 'up'
-    'body': 'up()'
+    'body': 'up'
   'valueChangedHandler':
     'prefix': 'valueChangedHandler'
-    'body': 'valueChangedHandler()'
+    'body': 'valueChangedHandler'
   'xAxis':
     'prefix': 'xAxis'
-    'body': 'xAxis()'
+    'body': 'xAxis'
   'yAxis':
     'prefix': 'yAxis'
-    'body': 'yAxis()'
+    'body': 'yAxis'
+  'GCControllerElement':
+    'prefix': 'GCControllerElement'
+    'body': 'GCControllerElement'
   'collection':
     'prefix': 'collection'
-    'body': 'collection()'
+    'body': 'collection'
   'isAnalog':
     'prefix': 'isAnalog'
-    'body': 'isAnalog()'
+    'body': 'isAnalog'
+  'GCExtendedGamepad':
+    'prefix': 'GCExtendedGamepad'
+    'body': 'GCExtendedGamepad'
   'buttonA':
     'prefix': 'buttonA'
-    'body': 'buttonA()'
+    'body': 'buttonA'
   'buttonB':
     'prefix': 'buttonB'
-    'body': 'buttonB()'
+    'body': 'buttonB'
   'buttonX':
     'prefix': 'buttonX'
-    'body': 'buttonX()'
+    'body': 'buttonX'
   'buttonY':
     'prefix': 'buttonY'
-    'body': 'buttonY()'
+    'body': 'buttonY'
   'controller':
     'prefix': 'controller'
-    'body': 'controller()'
+    'body': 'controller'
   'dpad':
     'prefix': 'dpad'
-    'body': 'dpad()'
+    'body': 'dpad'
   'leftShoulder':
     'prefix': 'leftShoulder'
-    'body': 'leftShoulder()'
+    'body': 'leftShoulder'
   'leftThumbstick':
     'prefix': 'leftThumbstick'
-    'body': 'leftThumbstick()'
+    'body': 'leftThumbstick'
   'leftTrigger':
     'prefix': 'leftTrigger'
-    'body': 'leftTrigger()'
+    'body': 'leftTrigger'
   'rightShoulder':
     'prefix': 'rightShoulder'
-    'body': 'rightShoulder()'
+    'body': 'rightShoulder'
   'rightThumbstick':
     'prefix': 'rightThumbstick'
-    'body': 'rightThumbstick()'
+    'body': 'rightThumbstick'
   'rightTrigger':
     'prefix': 'rightTrigger'
-    'body': 'rightTrigger()'
+    'body': 'rightTrigger'
   'saveSnapshot':
     'prefix': 'saveSnapshot'
-    'body': 'saveSnapshot()'
+    'body': 'saveSnapshot'
   'setValueChangedHandler:':
     'prefix': 'setValueChangedHandler:'
     'body': 'setValueChangedHandler(${1:GCExtendedGamepadValueChangedHandler valueChangedHandler})'
   'valueChangedHandler':
     'prefix': 'valueChangedHandler'
-    'body': 'valueChangedHandler()'
+    'body': 'valueChangedHandler'
+  'GCExtendedGamepadSnapshot':
+    'prefix': 'GCExtendedGamepadSnapshot'
+    'body': 'GCExtendedGamepadSnapshot'
   'initWithController:snapshotData:':
     'prefix': 'initWithController:snapshotData:'
     'body': 'initWithController(${1:GCController* controller}, snapshotData:${2:NSData* data})'
@@ -160,40 +181,46 @@
     'body': 'setSnapshotData(${1:NSData* snapshotData})'
   'snapshotData':
     'prefix': 'snapshotData'
-    'body': 'snapshotData()'
+    'body': 'snapshotData'
+  'GCGamepad':
+    'prefix': 'GCGamepad'
+    'body': 'GCGamepad'
   'buttonA':
     'prefix': 'buttonA'
-    'body': 'buttonA()'
+    'body': 'buttonA'
   'buttonB':
     'prefix': 'buttonB'
-    'body': 'buttonB()'
+    'body': 'buttonB'
   'buttonX':
     'prefix': 'buttonX'
-    'body': 'buttonX()'
+    'body': 'buttonX'
   'buttonY':
     'prefix': 'buttonY'
-    'body': 'buttonY()'
+    'body': 'buttonY'
   'controller':
     'prefix': 'controller'
-    'body': 'controller()'
+    'body': 'controller'
   'dpad':
     'prefix': 'dpad'
-    'body': 'dpad()'
+    'body': 'dpad'
   'leftShoulder':
     'prefix': 'leftShoulder'
-    'body': 'leftShoulder()'
+    'body': 'leftShoulder'
   'rightShoulder':
     'prefix': 'rightShoulder'
-    'body': 'rightShoulder()'
+    'body': 'rightShoulder'
   'saveSnapshot':
     'prefix': 'saveSnapshot'
-    'body': 'saveSnapshot()'
+    'body': 'saveSnapshot'
   'setValueChangedHandler:':
     'prefix': 'setValueChangedHandler:'
     'body': 'setValueChangedHandler(${1:GCGamepadValueChangedHandler valueChangedHandler})'
   'valueChangedHandler':
     'prefix': 'valueChangedHandler'
-    'body': 'valueChangedHandler()'
+    'body': 'valueChangedHandler'
+  'GCGamepadSnapshot':
+    'prefix': 'GCGamepadSnapshot'
+    'body': 'GCGamepadSnapshot'
   'initWithController:snapshotData:':
     'prefix': 'initWithController:snapshotData:'
     'body': 'initWithController(${1:GCController* controller}, snapshotData:${2:NSData* data})'
@@ -205,4 +232,4 @@
     'body': 'setSnapshotData(${1:NSData* snapshotData})'
   'snapshotData':
     'prefix': 'snapshotData'
-    'body': 'snapshotData()'
+    'body': 'snapshotData'

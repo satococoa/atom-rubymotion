@@ -20,24 +20,27 @@
   'AVPlayerViewTrimOKButton ()':
     'prefix': 'AVPlayerViewTrimOKButton'
     'body': 'AVPlayerViewTrimOKButton'
+  'AVPlayerView':
+    'prefix': 'AVPlayerView'
+    'body': 'AVPlayerView'
   'actionPopUpButtonMenu':
     'prefix': 'actionPopUpButtonMenu'
-    'body': 'actionPopUpButtonMenu()'
+    'body': 'actionPopUpButtonMenu'
   'beginTrimmingWithCompletionHandler:':
     'prefix': 'beginTrimmingWithCompletionHandler:'
     'body': 'beginTrimmingWithCompletionHandler(${1: handler})'
   'canBeginTrimming':
     'prefix': 'canBeginTrimming'
-    'body': 'canBeginTrimming()'
+    'body': 'canBeginTrimming'
   'controlsStyle':
     'prefix': 'controlsStyle'
-    'body': 'controlsStyle()'
+    'body': 'controlsStyle'
   'flashChapterNumber:chapterTitle:':
     'prefix': 'flashChapterNumber:chapterTitle:'
     'body': 'flashChapterNumber(${1: chapterNumber}, chapterTitle:${2: chapterTitle})'
   'player':
     'prefix': 'player'
-    'body': 'player()'
+    'body': 'player'
   'setActionPopUpButtonMenu:':
     'prefix': 'setActionPopUpButtonMenu:'
     'body': 'setActionPopUpButtonMenu(${1: actionPopUpButtonMenu})'
@@ -58,10 +61,10 @@
     'body': 'setShowsSharingServiceButton(${1: showsSharingServiceButton})'
   'showsFrameSteppingButtons':
     'prefix': 'showsFrameSteppingButtons'
-    'body': 'showsFrameSteppingButtons()'
+    'body': 'showsFrameSteppingButtons'
   'showsFullScreenToggleButton':
     'prefix': 'showsFullScreenToggleButton'
-    'body': 'showsFullScreenToggleButton()'
+    'body': 'showsFullScreenToggleButton'
   'showsSharingServiceButton':
     'prefix': 'showsSharingServiceButton'
-    'body': 'showsSharingServiceButton()'
+    'body': 'showsSharingServiceButton'

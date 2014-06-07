@@ -317,9 +317,12 @@
   'EKWednesday ()':
     'prefix': 'EKWednesday'
     'body': 'EKWednesday'
+  'EKAlarm':
+    'prefix': 'EKAlarm'
+    'body': 'EKAlarm'
   'absoluteDate':
     'prefix': 'absoluteDate'
-    'body': 'absoluteDate()'
+    'body': 'absoluteDate'
   'EKAlarm.alarmWithAbsoluteDate:':
     'prefix': 'alarmWithAbsoluteDate:'
     'body': 'alarmWithAbsoluteDate(${1: date})'
@@ -328,13 +331,13 @@
     'body': 'alarmWithRelativeOffset(${1: offset})'
   'emailAddress':
     'prefix': 'emailAddress'
-    'body': 'emailAddress()'
+    'body': 'emailAddress'
   'proximity':
     'prefix': 'proximity'
-    'body': 'proximity()'
+    'body': 'proximity'
   'relativeOffset':
     'prefix': 'relativeOffset'
-    'body': 'relativeOffset()'
+    'body': 'relativeOffset'
   'setAbsoluteDate:':
     'prefix': 'setAbsoluteDate:'
     'body': 'setAbsoluteDate(${1: absoluteDate})'
@@ -358,37 +361,40 @@
     'body': 'setUrl(${1: url})'
   'soundName':
     'prefix': 'soundName'
-    'body': 'soundName()'
+    'body': 'soundName'
   'structuredLocation':
     'prefix': 'structuredLocation'
-    'body': 'structuredLocation()'
+    'body': 'structuredLocation'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
   'url':
     'prefix': 'url'
-    'body': 'url()'
+    'body': 'url'
+  'EKCalendar':
+    'prefix': 'EKCalendar'
+    'body': 'EKCalendar'
   'allowedEntityTypes':
     'prefix': 'allowedEntityTypes'
-    'body': 'allowedEntityTypes()'
+    'body': 'allowedEntityTypes'
   'allowsContentModifications':
     'prefix': 'allowsContentModifications'
-    'body': 'allowsContentModifications()'
+    'body': 'allowsContentModifications'
   'EKCalendar.calendarForEntityType:eventStore:':
     'prefix': 'calendarForEntityType:eventStore:'
     'body': 'calendarForEntityType(${1: entityType}, eventStore:${2: eventStore})'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
-    'body': 'calendarIdentifier()'
+    'body': 'calendarIdentifier'
   'color':
     'prefix': 'color'
-    'body': 'color()'
+    'body': 'color'
   'isImmutable':
     'prefix': 'isImmutable'
-    'body': 'isImmutable()'
+    'body': 'isImmutable'
   'isSubscribed':
     'prefix': 'isSubscribed'
-    'body': 'isSubscribed()'
+    'body': 'isSubscribed'
   'setColor:':
     'prefix': 'setColor:'
     'body': 'setColor(${1: color})'
@@ -400,19 +406,22 @@
     'body': 'setTitle(${1: title})'
   'source':
     'prefix': 'source'
-    'body': 'source()'
+    'body': 'source'
   'supportedEventAvailabilities':
     'prefix': 'supportedEventAvailabilities'
-    'body': 'supportedEventAvailabilities()'
+    'body': 'supportedEventAvailabilities'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
   'type':
     'prefix': 'type'
-    'body': 'type()'
+    'body': 'type'
+  'EKCalendarItem':
+    'prefix': 'EKCalendarItem'
+    'body': 'EKCalendarItem'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'addAlarm:':
     'prefix': 'addAlarm:'
     'body': 'addAlarm(${1: alarm})'
@@ -421,46 +430,46 @@
     'body': 'addRecurrenceRule(${1: rule})'
   'alarms':
     'prefix': 'alarms'
-    'body': 'alarms()'
+    'body': 'alarms'
   'attendees':
     'prefix': 'attendees'
-    'body': 'attendees()'
+    'body': 'attendees'
   'calendar':
     'prefix': 'calendar'
-    'body': 'calendar()'
+    'body': 'calendar'
   'calendarItemExternalIdentifier':
     'prefix': 'calendarItemExternalIdentifier'
-    'body': 'calendarItemExternalIdentifier()'
+    'body': 'calendarItemExternalIdentifier'
   'calendarItemIdentifier':
     'prefix': 'calendarItemIdentifier'
-    'body': 'calendarItemIdentifier()'
+    'body': 'calendarItemIdentifier'
   'creationDate':
     'prefix': 'creationDate'
-    'body': 'creationDate()'
+    'body': 'creationDate'
   'hasAlarms':
     'prefix': 'hasAlarms'
-    'body': 'hasAlarms()'
+    'body': 'hasAlarms'
   'hasAttendees':
     'prefix': 'hasAttendees'
-    'body': 'hasAttendees()'
+    'body': 'hasAttendees'
   'hasNotes':
     'prefix': 'hasNotes'
-    'body': 'hasNotes()'
+    'body': 'hasNotes'
   'hasRecurrenceRules':
     'prefix': 'hasRecurrenceRules'
-    'body': 'hasRecurrenceRules()'
+    'body': 'hasRecurrenceRules'
   'lastModifiedDate':
     'prefix': 'lastModifiedDate'
-    'body': 'lastModifiedDate()'
+    'body': 'lastModifiedDate'
   'location':
     'prefix': 'location'
-    'body': 'location()'
+    'body': 'location'
   'notes':
     'prefix': 'notes'
-    'body': 'notes()'
+    'body': 'notes'
   'recurrenceRules':
     'prefix': 'recurrenceRules'
-    'body': 'recurrenceRules()'
+    'body': 'recurrenceRules'
   'removeAlarm:':
     'prefix': 'removeAlarm:'
     'body': 'removeAlarm(${1: alarm})'
@@ -493,43 +502,46 @@
     'body': 'setURL(${1: URL})'
   'timeZone':
     'prefix': 'timeZone'
-    'body': 'timeZone()'
+    'body': 'timeZone'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'EKEvent':
+    'prefix': 'EKEvent'
+    'body': 'EKEvent'
   'availability':
     'prefix': 'availability'
-    'body': 'availability()'
+    'body': 'availability'
   'birthdayPersonUniqueID':
     'prefix': 'birthdayPersonUniqueID'
-    'body': 'birthdayPersonUniqueID()'
+    'body': 'birthdayPersonUniqueID'
   'compareStartDateWithEvent:':
     'prefix': 'compareStartDateWithEvent:'
     'body': 'compareStartDateWithEvent(${1: other})'
   'endDate':
     'prefix': 'endDate'
-    'body': 'endDate()'
+    'body': 'endDate'
   'eventIdentifier':
     'prefix': 'eventIdentifier'
-    'body': 'eventIdentifier()'
+    'body': 'eventIdentifier'
   'EKEvent.eventWithEventStore:':
     'prefix': 'eventWithEventStore:'
     'body': 'eventWithEventStore(${1: eventStore})'
   'isAllDay':
     'prefix': 'isAllDay'
-    'body': 'isAllDay()'
+    'body': 'isAllDay'
   'isDetached':
     'prefix': 'isDetached'
-    'body': 'isDetached()'
+    'body': 'isDetached'
   'occurrenceDate':
     'prefix': 'occurrenceDate'
-    'body': 'occurrenceDate()'
+    'body': 'occurrenceDate'
   'organizer':
     'prefix': 'organizer'
-    'body': 'organizer()'
+    'body': 'organizer'
   'refresh':
     'prefix': 'refresh'
-    'body': 'refresh()'
+    'body': 'refresh'
   'setAllDay:':
     'prefix': 'setAllDay:'
     'body': 'setAllDay(${1: allDay})'
@@ -544,10 +556,13 @@
     'body': 'setStartDate(${1: startDate})'
   'startDate':
     'prefix': 'startDate'
-    'body': 'startDate()'
+    'body': 'startDate'
   'status':
     'prefix': 'status'
-    'body': 'status()'
+    'body': 'status'
+  'EKEventStore':
+    'prefix': 'EKEventStore'
+    'body': 'EKEventStore'
   'EKEventStore.authorizationStatusForEntityType:':
     'prefix': 'authorizationStatusForEntityType:'
     'body': 'authorizationStatusForEntityType(${1: entityType})'
@@ -571,16 +586,16 @@
     'body': 'commit(${1: error})'
   'defaultCalendarForNewEvents':
     'prefix': 'defaultCalendarForNewEvents'
-    'body': 'defaultCalendarForNewEvents()'
+    'body': 'defaultCalendarForNewEvents'
   'defaultCalendarForNewReminders':
     'prefix': 'defaultCalendarForNewReminders'
-    'body': 'defaultCalendarForNewReminders()'
+    'body': 'defaultCalendarForNewReminders'
   'enumerateEventsMatchingPredicate:usingBlock:':
     'prefix': 'enumerateEventsMatchingPredicate:usingBlock:'
     'body': 'enumerateEventsMatchingPredicate(${1: predicate}, usingBlock:${2: block})'
   'eventStoreIdentifier':
     'prefix': 'eventStoreIdentifier'
-    'body': 'eventStoreIdentifier()'
+    'body': 'eventStoreIdentifier'
   'eventWithIdentifier:':
     'prefix': 'eventWithIdentifier:'
     'body': 'eventWithIdentifier(${1: identifier})'
@@ -592,7 +607,7 @@
     'body': 'fetchRemindersMatchingPredicate(${1: predicate}, completion:${2: completion})'
   'init':
     'prefix': 'init'
-    'body': 'init()'
+    'body': 'init'
   'initWithAccessToEntityTypes:':
     'prefix': 'initWithAccessToEntityTypes:'
     'body': 'initWithAccessToEntityTypes(${1: entityTypes})'
@@ -610,7 +625,7 @@
     'body': 'predicateForRemindersInCalendars(${1: calendars})'
   'refreshSourcesIfNecessary':
     'prefix': 'refreshSourcesIfNecessary'
-    'body': 'refreshSourcesIfNecessary()'
+    'body': 'refreshSourcesIfNecessary'
   'removeCalendar:commit:error:':
     'prefix': 'removeCalendar:commit:error:'
     'body': 'removeCalendar(${1: calendar}, commit:${2: commit}, error:${3: error})'
@@ -625,7 +640,7 @@
     'body': 'requestAccessToEntityType(${1: entityType}, completion:${2: completion})'
   'reset':
     'prefix': 'reset'
-    'body': 'reset()'
+    'body': 'reset'
   'saveCalendar:commit:error:':
     'prefix': 'saveCalendar:commit:error:'
     'body': 'saveCalendar(${1: calendar}, commit:${2: commit}, error:${3: error})'
@@ -640,46 +655,55 @@
     'body': 'sourceWithIdentifier(${1: identifier})'
   'sources':
     'prefix': 'sources'
-    'body': 'sources()'
+    'body': 'sources'
+  'EKObject':
+    'prefix': 'EKObject'
+    'body': 'EKObject'
   'hasChanges':
     'prefix': 'hasChanges'
-    'body': 'hasChanges()'
+    'body': 'hasChanges'
   'isNew':
     'prefix': 'isNew'
-    'body': 'isNew()'
+    'body': 'isNew'
   'refresh':
     'prefix': 'refresh'
-    'body': 'refresh()'
+    'body': 'refresh'
   'reset':
     'prefix': 'reset'
-    'body': 'reset()'
+    'body': 'reset'
   'rollback':
     'prefix': 'rollback'
-    'body': 'rollback()'
+    'body': 'rollback'
+  'EKParticipant':
+    'prefix': 'EKParticipant'
+    'body': 'EKParticipant'
   'ABPersonInAddressBook:':
     'prefix': 'ABPersonInAddressBook:'
     'body': 'ABPersonInAddressBook(${1: addressBook})'
   'URL':
     'prefix': 'URL'
-    'body': 'URL()'
+    'body': 'URL'
   'isCurrentUser':
     'prefix': 'isCurrentUser'
-    'body': 'isCurrentUser()'
+    'body': 'isCurrentUser'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'participantRole':
     'prefix': 'participantRole'
-    'body': 'participantRole()'
+    'body': 'participantRole'
   'participantStatus':
     'prefix': 'participantStatus'
-    'body': 'participantStatus()'
+    'body': 'participantStatus'
   'participantType':
     'prefix': 'participantType'
-    'body': 'participantType()'
+    'body': 'participantType'
+  'EKRecurrenceDayOfWeek':
+    'prefix': 'EKRecurrenceDayOfWeek'
+    'body': 'EKRecurrenceDayOfWeek'
   'dayOfTheWeek':
     'prefix': 'dayOfTheWeek'
-    'body': 'dayOfTheWeek()'
+    'body': 'dayOfTheWeek'
   'EKRecurrenceDayOfWeek.dayOfWeek:':
     'prefix': 'dayOfWeek:'
     'body': 'dayOfWeek(${1: dayOfTheWeek})'
@@ -691,37 +715,43 @@
     'body': 'initWithDayOfTheWeek(${1: dayOfTheWeek}, weekNumber:${2: weekNumber})'
   'weekNumber':
     'prefix': 'weekNumber'
-    'body': 'weekNumber()'
+    'body': 'weekNumber'
+  'EKRecurrenceEnd':
+    'prefix': 'EKRecurrenceEnd'
+    'body': 'EKRecurrenceEnd'
   'endDate':
     'prefix': 'endDate'
-    'body': 'endDate()'
+    'body': 'endDate'
   'occurrenceCount':
     'prefix': 'occurrenceCount'
-    'body': 'occurrenceCount()'
+    'body': 'occurrenceCount'
   'EKRecurrenceEnd.recurrenceEndWithEndDate:':
     'prefix': 'recurrenceEndWithEndDate:'
     'body': 'recurrenceEndWithEndDate(${1: endDate})'
   'EKRecurrenceEnd.recurrenceEndWithOccurrenceCount:':
     'prefix': 'recurrenceEndWithOccurrenceCount:'
     'body': 'recurrenceEndWithOccurrenceCount(${1: occurrenceCount})'
+  'EKRecurrenceRule':
+    'prefix': 'EKRecurrenceRule'
+    'body': 'EKRecurrenceRule'
   'calendarIdentifier':
     'prefix': 'calendarIdentifier'
-    'body': 'calendarIdentifier()'
+    'body': 'calendarIdentifier'
   'daysOfTheMonth':
     'prefix': 'daysOfTheMonth'
-    'body': 'daysOfTheMonth()'
+    'body': 'daysOfTheMonth'
   'daysOfTheWeek':
     'prefix': 'daysOfTheWeek'
-    'body': 'daysOfTheWeek()'
+    'body': 'daysOfTheWeek'
   'daysOfTheYear':
     'prefix': 'daysOfTheYear'
-    'body': 'daysOfTheYear()'
+    'body': 'daysOfTheYear'
   'firstDayOfTheWeek':
     'prefix': 'firstDayOfTheWeek'
-    'body': 'firstDayOfTheWeek()'
+    'body': 'firstDayOfTheWeek'
   'frequency':
     'prefix': 'frequency'
-    'body': 'frequency()'
+    'body': 'frequency'
   'initRecurrenceWithFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end:':
     'prefix': 'initRecurrenceWithFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end:'
     'body': 'initRecurrenceWithFrequency(${1: type}, interval:${2: interval}, daysOfTheWeek:${3: days}, daysOfTheMonth:${4: monthDays}, monthsOfTheYear:${5: months}, weeksOfTheYear:${6: weeksOfTheYear}, daysOfTheYear:${7: daysOfTheYear}, setPositions:${8: setPositions}, end:${9: end})'
@@ -730,34 +760,37 @@
     'body': 'initRecurrenceWithFrequency(${1: type}, interval:${2: interval}, end:${3: end})'
   'interval':
     'prefix': 'interval'
-    'body': 'interval()'
+    'body': 'interval'
   'monthsOfTheYear':
     'prefix': 'monthsOfTheYear'
-    'body': 'monthsOfTheYear()'
+    'body': 'monthsOfTheYear'
   'recurrenceEnd':
     'prefix': 'recurrenceEnd'
-    'body': 'recurrenceEnd()'
+    'body': 'recurrenceEnd'
   'setPositions':
     'prefix': 'setPositions'
-    'body': 'setPositions()'
+    'body': 'setPositions'
   'setRecurrenceEnd:':
     'prefix': 'setRecurrenceEnd:'
     'body': 'setRecurrenceEnd(${1: recurrenceEnd})'
   'weeksOfTheYear':
     'prefix': 'weeksOfTheYear'
-    'body': 'weeksOfTheYear()'
+    'body': 'weeksOfTheYear'
+  'EKReminder':
+    'prefix': 'EKReminder'
+    'body': 'EKReminder'
   'completionDate':
     'prefix': 'completionDate'
-    'body': 'completionDate()'
+    'body': 'completionDate'
   'dueDateComponents':
     'prefix': 'dueDateComponents'
-    'body': 'dueDateComponents()'
+    'body': 'dueDateComponents'
   'isCompleted':
     'prefix': 'isCompleted'
-    'body': 'isCompleted()'
+    'body': 'isCompleted'
   'priority':
     'prefix': 'priority'
-    'body': 'priority()'
+    'body': 'priority'
   'EKReminder.reminderWithEventStore:':
     'prefix': 'reminderWithEventStore:'
     'body': 'reminderWithEventStore(${1: eventStore})'
@@ -778,28 +811,34 @@
     'body': 'setStartDateComponents(${1: startDateComponents})'
   'startDateComponents':
     'prefix': 'startDateComponents'
-    'body': 'startDateComponents()'
+    'body': 'startDateComponents'
+  'EKSource':
+    'prefix': 'EKSource'
+    'body': 'EKSource'
   'calendarsForEntityType:':
     'prefix': 'calendarsForEntityType:'
     'body': 'calendarsForEntityType(${1: entityType})'
   'sourceIdentifier':
     'prefix': 'sourceIdentifier'
-    'body': 'sourceIdentifier()'
+    'body': 'sourceIdentifier'
   'sourceType':
     'prefix': 'sourceType'
-    'body': 'sourceType()'
+    'body': 'sourceType'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'
+  'EKStructuredLocation':
+    'prefix': 'EKStructuredLocation'
+    'body': 'EKStructuredLocation'
   'geoLocation':
     'prefix': 'geoLocation'
-    'body': 'geoLocation()'
+    'body': 'geoLocation'
   'EKStructuredLocation.locationWithTitle:':
     'prefix': 'locationWithTitle:'
     'body': 'locationWithTitle(${1: title})'
   'radius':
     'prefix': 'radius'
-    'body': 'radius()'
+    'body': 'radius'
   'setGeoLocation:':
     'prefix': 'setGeoLocation:'
     'body': 'setGeoLocation(${1: geoLocation})'
@@ -811,4 +850,4 @@
     'body': 'setTitle(${1: title})'
   'title':
     'prefix': 'title'
-    'body': 'title()'
+    'body': 'title'

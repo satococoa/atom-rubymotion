@@ -5176,16 +5176,16 @@
     'body': 'IOBluetoothNSStringToDeviceAddress(${1:NSString* inNameString}, ${2:BluetoothDeviceAddress* outDeviceAddress})'
   'IOBluetoothNumberOfAvailableHIDDevices':
     'prefix': 'IOBluetoothNumberOfAvailableHIDDevices'
-    'body': 'IOBluetoothNumberOfAvailableHIDDevices()'
+    'body': 'IOBluetoothNumberOfAvailableHIDDevices'
   'IOBluetoothNumberOfKeyboardHIDDevices':
     'prefix': 'IOBluetoothNumberOfKeyboardHIDDevices'
-    'body': 'IOBluetoothNumberOfKeyboardHIDDevices()'
+    'body': 'IOBluetoothNumberOfKeyboardHIDDevices'
   'IOBluetoothNumberOfPointingHIDDevices':
     'prefix': 'IOBluetoothNumberOfPointingHIDDevices'
-    'body': 'IOBluetoothNumberOfPointingHIDDevices()'
+    'body': 'IOBluetoothNumberOfPointingHIDDevices'
   'IOBluetoothNumberOfTabletHIDDevices':
     'prefix': 'IOBluetoothNumberOfTabletHIDDevices'
-    'body': 'IOBluetoothNumberOfTabletHIDDevices()'
+    'body': 'IOBluetoothNumberOfTabletHIDDevices'
   'IOBluetoothOBEXSessionCreateWithIOBluetoothDeviceRefAndChannelNumber':
     'prefix': 'IOBluetoothOBEXSessionCreateWithIOBluetoothDeviceRefAndChannelNumber'
     'body': 'IOBluetoothOBEXSessionCreateWithIOBluetoothDeviceRefAndChannelNumber(${1:IOBluetoothDeviceRef inDeviceRef}, ${2:BluetoothRFCOMMChannelID inChannelID}, ${3:OBEXSessionRef* outSessionRef})'
@@ -5360,33 +5360,36 @@
   'OBEXSessionSetServerCallback':
     'prefix': 'OBEXSessionSetServerCallback'
     'body': 'OBEXSessionSetServerCallback(${1:OBEXSessionRef inSessionRef}, ${2:OBEXSessionEventCallback inCallback}, ${3:void* inUserRefCon})'
+  'IOBluetoothDevice':
+    'prefix': 'IOBluetoothDevice'
+    'body': 'IOBluetoothDevice'
   'RSSI':
     'prefix': 'RSSI'
-    'body': 'RSSI()'
+    'body': 'RSSI'
   'addToFavorites':
     'prefix': 'addToFavorites'
-    'body': 'addToFavorites()'
+    'body': 'addToFavorites'
   'addressString':
     'prefix': 'addressString'
-    'body': 'addressString()'
+    'body': 'addressString'
   'awakeAfterUsingCoder:':
     'prefix': 'awakeAfterUsingCoder:'
     'body': 'awakeAfterUsingCoder(${1:NSCoder* coder})'
   'classOfDevice':
     'prefix': 'classOfDevice'
-    'body': 'classOfDevice()'
+    'body': 'classOfDevice'
   'closeConnection':
     'prefix': 'closeConnection'
-    'body': 'closeConnection()'
+    'body': 'closeConnection'
   'connectionHandle':
     'prefix': 'connectionHandle'
-    'body': 'connectionHandle()'
+    'body': 'connectionHandle'
   'deviceClassMajor':
     'prefix': 'deviceClassMajor'
-    'body': 'deviceClassMajor()'
+    'body': 'deviceClassMajor'
   'deviceClassMinor':
     'prefix': 'deviceClassMinor'
-    'body': 'deviceClassMinor()'
+    'body': 'deviceClassMinor'
   'IOBluetoothDevice.deviceWithAddress:':
     'prefix': 'deviceWithAddress:'
     'body': 'deviceWithAddress(${1:BluetoothDeviceAddress* address})'
@@ -5395,112 +5398,112 @@
     'body': 'deviceWithAddressString(${1:NSString* address})'
   'IOBluetoothDevice.favoriteDevices':
     'prefix': 'favoriteDevices'
-    'body': 'favoriteDevices()'
+    'body': 'favoriteDevices'
   'getAddress':
     'prefix': 'getAddress'
-    'body': 'getAddress()'
+    'body': 'getAddress'
   'getAddressString':
     'prefix': 'getAddressString'
-    'body': 'getAddressString()'
+    'body': 'getAddressString'
   'getClassOfDevice':
     'prefix': 'getClassOfDevice'
-    'body': 'getClassOfDevice()'
+    'body': 'getClassOfDevice'
   'getClockOffset':
     'prefix': 'getClockOffset'
-    'body': 'getClockOffset()'
+    'body': 'getClockOffset'
   'getConnectionHandle':
     'prefix': 'getConnectionHandle'
-    'body': 'getConnectionHandle()'
+    'body': 'getConnectionHandle'
   'getDeviceClassMajor':
     'prefix': 'getDeviceClassMajor'
-    'body': 'getDeviceClassMajor()'
+    'body': 'getDeviceClassMajor'
   'getDeviceClassMinor':
     'prefix': 'getDeviceClassMinor'
-    'body': 'getDeviceClassMinor()'
+    'body': 'getDeviceClassMinor'
   'getDeviceRef':
     'prefix': 'getDeviceRef'
-    'body': 'getDeviceRef()'
+    'body': 'getDeviceRef'
   'getEncryptionMode':
     'prefix': 'getEncryptionMode'
-    'body': 'getEncryptionMode()'
+    'body': 'getEncryptionMode'
   'getLastInquiryUpdate':
     'prefix': 'getLastInquiryUpdate'
-    'body': 'getLastInquiryUpdate()'
+    'body': 'getLastInquiryUpdate'
   'getLastNameUpdate':
     'prefix': 'getLastNameUpdate'
-    'body': 'getLastNameUpdate()'
+    'body': 'getLastNameUpdate'
   'getLastServicesUpdate':
     'prefix': 'getLastServicesUpdate'
-    'body': 'getLastServicesUpdate()'
+    'body': 'getLastServicesUpdate'
   'getLinkType':
     'prefix': 'getLinkType'
-    'body': 'getLinkType()'
+    'body': 'getLinkType'
   'getName':
     'prefix': 'getName'
-    'body': 'getName()'
+    'body': 'getName'
   'getNameOrAddress':
     'prefix': 'getNameOrAddress'
-    'body': 'getNameOrAddress()'
+    'body': 'getNameOrAddress'
   'getPageScanMode':
     'prefix': 'getPageScanMode'
-    'body': 'getPageScanMode()'
+    'body': 'getPageScanMode'
   'getPageScanPeriodMode':
     'prefix': 'getPageScanPeriodMode'
-    'body': 'getPageScanPeriodMode()'
+    'body': 'getPageScanPeriodMode'
   'getPageScanRepetitionMode':
     'prefix': 'getPageScanRepetitionMode'
-    'body': 'getPageScanRepetitionMode()'
+    'body': 'getPageScanRepetitionMode'
   'getServiceClassMajor':
     'prefix': 'getServiceClassMajor'
-    'body': 'getServiceClassMajor()'
+    'body': 'getServiceClassMajor'
   'getServiceRecordForUUID:':
     'prefix': 'getServiceRecordForUUID:'
     'body': 'getServiceRecordForUUID(${1:IOBluetoothSDPUUID* sdpUUID})'
   'getServices':
     'prefix': 'getServices'
-    'body': 'getServices()'
+    'body': 'getServices'
   'handsFreeAudioGatewayDriverID':
     'prefix': 'handsFreeAudioGatewayDriverID'
-    'body': 'handsFreeAudioGatewayDriverID()'
+    'body': 'handsFreeAudioGatewayDriverID'
   'handsFreeAudioGatewayServiceRecord':
     'prefix': 'handsFreeAudioGatewayServiceRecord'
-    'body': 'handsFreeAudioGatewayServiceRecord()'
+    'body': 'handsFreeAudioGatewayServiceRecord'
   'handsFreeDeviceDriverID':
     'prefix': 'handsFreeDeviceDriverID'
-    'body': 'handsFreeDeviceDriverID()'
+    'body': 'handsFreeDeviceDriverID'
   'handsFreeDeviceServiceRecord':
     'prefix': 'handsFreeDeviceServiceRecord'
-    'body': 'handsFreeDeviceServiceRecord()'
+    'body': 'handsFreeDeviceServiceRecord'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'isFavorite':
     'prefix': 'isFavorite'
-    'body': 'isFavorite()'
+    'body': 'isFavorite'
   'isHandsFreeAudioGateway':
     'prefix': 'isHandsFreeAudioGateway'
-    'body': 'isHandsFreeAudioGateway()'
+    'body': 'isHandsFreeAudioGateway'
   'isHandsFreeDevice':
     'prefix': 'isHandsFreeDevice'
-    'body': 'isHandsFreeDevice()'
+    'body': 'isHandsFreeDevice'
   'isIncoming':
     'prefix': 'isIncoming'
-    'body': 'isIncoming()'
+    'body': 'isIncoming'
   'isPaired':
     'prefix': 'isPaired'
-    'body': 'isPaired()'
+    'body': 'isPaired'
   'lastNameUpdate':
     'prefix': 'lastNameUpdate'
-    'body': 'lastNameUpdate()'
+    'body': 'lastNameUpdate'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'nameOrAddress':
     'prefix': 'nameOrAddress'
-    'body': 'nameOrAddress()'
+    'body': 'nameOrAddress'
   'openConnection':
     'prefix': 'openConnection'
-    'body': 'openConnection()'
+    'body': 'openConnection'
   'openConnection:':
     'prefix': 'openConnection:'
     'body': 'openConnection(${1:id target})'
@@ -5533,7 +5536,7 @@
     'body': 'openRFCOMMChannelSync(${1:IOBluetoothRFCOMMChannel** rfcommChannel}, withChannelID:${2:BluetoothRFCOMMChannelID channelID}, delegate:${3:id channelDelegate})'
   'IOBluetoothDevice.pairedDevices':
     'prefix': 'pairedDevices'
-    'body': 'pairedDevices()'
+    'body': 'pairedDevices'
   'performSDPQuery:':
     'prefix': 'performSDPQuery:'
     'body': 'performSDPQuery(${1:id target})'
@@ -5542,10 +5545,10 @@
     'body': 'performSDPQuery(${1:id target}, uuids:${2:NSArray* uuidArray})'
   'rawRSSI':
     'prefix': 'rawRSSI'
-    'body': 'rawRSSI()'
+    'body': 'rawRSSI'
   'recentAccessDate':
     'prefix': 'recentAccessDate'
-    'body': 'recentAccessDate()'
+    'body': 'recentAccessDate'
   'IOBluetoothDevice.recentDevices:':
     'prefix': 'recentDevices:'
     'body': 'recentDevices(${1:unsigned long numDevices})'
@@ -5563,19 +5566,19 @@
     'body': 'remoteNameRequest(${1:id target}, withPageTimeout:${2:BluetoothHCIPageTimeout pageTimeoutValue})'
   'removeFromFavorites':
     'prefix': 'removeFromFavorites'
-    'body': 'removeFromFavorites()'
+    'body': 'removeFromFavorites'
   'requestAuthentication':
     'prefix': 'requestAuthentication'
-    'body': 'requestAuthentication()'
+    'body': 'requestAuthentication'
   'sendL2CAPEchoRequest:length:':
     'prefix': 'sendL2CAPEchoRequest:length:'
     'body': 'sendL2CAPEchoRequest(${1:void* data}, length:${2:UInt16 length})'
   'serviceClassMajor':
     'prefix': 'serviceClassMajor'
-    'body': 'serviceClassMajor()'
+    'body': 'serviceClassMajor'
   'services':
     'prefix': 'services'
-    'body': 'services()'
+    'body': 'services'
   'setSupervisionTimeout:':
     'prefix': 'setSupervisionTimeout:'
     'body': 'setSupervisionTimeout(${1:UInt16 timeout})'
@@ -5585,27 +5588,30 @@
   'IOBluetoothDevice.withDeviceRef:':
     'prefix': 'withDeviceRef:'
     'body': 'withDeviceRef(${1:IOBluetoothDeviceRef deviceRef})'
+  'IOBluetoothDeviceInquiry':
+    'prefix': 'IOBluetoothDeviceInquiry'
+    'body': 'IOBluetoothDeviceInquiry'
   'clearFoundDevices':
     'prefix': 'clearFoundDevices'
-    'body': 'clearFoundDevices()'
+    'body': 'clearFoundDevices'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'foundDevices':
     'prefix': 'foundDevices'
-    'body': 'foundDevices()'
+    'body': 'foundDevices'
   'initWithDelegate:':
     'prefix': 'initWithDelegate:'
     'body': 'initWithDelegate(${1:id delegate})'
   'inquiryLength':
     'prefix': 'inquiryLength'
-    'body': 'inquiryLength()'
+    'body': 'inquiryLength'
   'IOBluetoothDeviceInquiry.inquiryWithDelegate:':
     'prefix': 'inquiryWithDelegate:'
     'body': 'inquiryWithDelegate(${1:id delegate})'
   'searchType':
     'prefix': 'searchType'
-    'body': 'searchType()'
+    'body': 'searchType'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -5623,19 +5629,22 @@
     'body': 'setUpdateNewDeviceNames(${1:BOOL updateNewDeviceNames})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
   'updateNewDeviceNames':
     'prefix': 'updateNewDeviceNames'
-    'body': 'updateNewDeviceNames()'
+    'body': 'updateNewDeviceNames'
+  'IOBluetoothDevicePair':
+    'prefix': 'IOBluetoothDevicePair'
+    'body': 'IOBluetoothDevicePair'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'IOBluetoothDevicePair.pairWithDevice:':
     'prefix': 'pairWithDevice:'
     'body': 'pairWithDevice(${1:IOBluetoothDevice* device})'
@@ -5653,40 +5662,43 @@
     'body': 'setDevice(${1:IOBluetoothDevice* inDevice})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
   'stop':
     'prefix': 'stop'
-    'body': 'stop()'
+    'body': 'stop'
+  'IOBluetoothHandsFree':
+    'prefix': 'IOBluetoothHandsFree'
+    'body': 'IOBluetoothHandsFree'
   'SMSMode':
     'prefix': 'SMSMode'
-    'body': 'SMSMode()'
+    'body': 'SMSMode'
   'connect':
     'prefix': 'connect'
-    'body': 'connect()'
+    'body': 'connect'
   'connectSCO':
     'prefix': 'connectSCO'
-    'body': 'connectSCO()'
+    'body': 'connectSCO'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'deviceCallHoldModes':
     'prefix': 'deviceCallHoldModes'
-    'body': 'deviceCallHoldModes()'
+    'body': 'deviceCallHoldModes'
   'deviceSupportedFeatures':
     'prefix': 'deviceSupportedFeatures'
-    'body': 'deviceSupportedFeatures()'
+    'body': 'deviceSupportedFeatures'
   'deviceSupportedSMSServices':
     'prefix': 'deviceSupportedSMSServices'
-    'body': 'deviceSupportedSMSServices()'
+    'body': 'deviceSupportedSMSServices'
   'disconnect':
     'prefix': 'disconnect'
-    'body': 'disconnect()'
+    'body': 'disconnect'
   'disconnectSCO':
     'prefix': 'disconnectSCO'
-    'body': 'disconnectSCO()'
+    'body': 'disconnectSCO'
   'indicator:':
     'prefix': 'indicator:'
     'body': 'indicator(${1:NSString* indicatorName})'
@@ -5695,25 +5707,25 @@
     'body': 'initWithDevice(${1:IOBluetoothDevice* device}, delegate:${2:id inDelegate})'
   'inputVolume':
     'prefix': 'inputVolume'
-    'body': 'inputVolume()'
+    'body': 'inputVolume'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'isInputMuted':
     'prefix': 'isInputMuted'
-    'body': 'isInputMuted()'
+    'body': 'isInputMuted'
   'isOutputMuted':
     'prefix': 'isOutputMuted'
-    'body': 'isOutputMuted()'
+    'body': 'isOutputMuted'
   'isSCOConnected':
     'prefix': 'isSCOConnected'
-    'body': 'isSCOConnected()'
+    'body': 'isSCOConnected'
   'isSMSEnabled':
     'prefix': 'isSMSEnabled'
-    'body': 'isSMSEnabled()'
+    'body': 'isSMSEnabled'
   'outputVolume':
     'prefix': 'outputVolume'
-    'body': 'outputVolume()'
+    'body': 'outputVolume'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -5737,7 +5749,10 @@
     'body': 'setSupportedFeatures(${1:uint32_t supportedFeatures})'
   'supportedFeatures':
     'prefix': 'supportedFeatures'
-    'body': 'supportedFeatures()'
+    'body': 'supportedFeatures'
+  'IOBluetoothHandsFreeAudioGateway':
+    'prefix': 'IOBluetoothHandsFreeAudioGateway'
+    'body': 'IOBluetoothHandsFreeAudioGateway'
   'createIndicator:min:max:currentValue:':
     'prefix': 'createIndicator:min:max:currentValue:'
     'body': 'createIndicator(${1:NSString* indicatorName}, min:${2:int minValue}, max:${3:int maxValue}, currentValue:${4:int currentValue})'
@@ -5749,37 +5764,40 @@
     'body': 'processATCommand(${1:NSString* atCommand})'
   'sendOKResponse':
     'prefix': 'sendOKResponse'
-    'body': 'sendOKResponse()'
+    'body': 'sendOKResponse'
   'sendResponse:':
     'prefix': 'sendResponse:'
     'body': 'sendResponse(${1:NSString* response})'
   'sendResponse:withOK:':
     'prefix': 'sendResponse:withOK:'
     'body': 'sendResponse(${1:NSString* response}, withOK:${2:BOOL withOK})'
+  'IOBluetoothHandsFreeDevice':
+    'prefix': 'IOBluetoothHandsFreeDevice'
+    'body': 'IOBluetoothHandsFreeDevice'
   'acceptCall':
     'prefix': 'acceptCall'
-    'body': 'acceptCall()'
+    'body': 'acceptCall'
   'acceptCallOnPhone':
     'prefix': 'acceptCallOnPhone'
-    'body': 'acceptCallOnPhone()'
+    'body': 'acceptCallOnPhone'
   'addHeldCall':
     'prefix': 'addHeldCall'
-    'body': 'addHeldCall()'
+    'body': 'addHeldCall'
   'callTransfer':
     'prefix': 'callTransfer'
-    'body': 'callTransfer()'
+    'body': 'callTransfer'
   'currentCallList':
     'prefix': 'currentCallList'
-    'body': 'currentCallList()'
+    'body': 'currentCallList'
   'dialNumber:':
     'prefix': 'dialNumber:'
     'body': 'dialNumber(${1:NSString* aNumber})'
   'endCall':
     'prefix': 'endCall'
-    'body': 'endCall()'
+    'body': 'endCall'
   'holdCall':
     'prefix': 'holdCall'
-    'body': 'holdCall()'
+    'body': 'holdCall'
   'initWithDevice:delegate:':
     'prefix': 'initWithDevice:delegate:'
     'body': 'initWithDevice(${1:IOBluetoothDevice* device}, delegate:${2:id delegate})'
@@ -5791,16 +5809,16 @@
     'body': 'placeAllOthersOnHold(${1:int index})'
   'redial':
     'prefix': 'redial'
-    'body': 'redial()'
+    'body': 'redial'
   'releaseActiveCalls':
     'prefix': 'releaseActiveCalls'
-    'body': 'releaseActiveCalls()'
+    'body': 'releaseActiveCalls'
   'releaseCall:':
     'prefix': 'releaseCall:'
     'body': 'releaseCall(${1:int index})'
   'releaseHeldCalls':
     'prefix': 'releaseHeldCalls'
-    'body': 'releaseHeldCalls()'
+    'body': 'releaseHeldCalls'
   'sendATCommand:':
     'prefix': 'sendATCommand:'
     'body': 'sendATCommand(${1:NSString* atCommand})'
@@ -5815,85 +5833,91 @@
     'body': 'sendSMS(${1:NSString* aNumber}, message:${2:NSString* aMessage})'
   'subscriberNumber':
     'prefix': 'subscriberNumber'
-    'body': 'subscriberNumber()'
+    'body': 'subscriberNumber'
   'transferAudioToComputer':
     'prefix': 'transferAudioToComputer'
-    'body': 'transferAudioToComputer()'
+    'body': 'transferAudioToComputer'
   'transferAudioToPhone':
     'prefix': 'transferAudioToPhone'
-    'body': 'transferAudioToPhone()'
+    'body': 'transferAudioToPhone'
+  'IOBluetoothHostController':
+    'prefix': 'IOBluetoothHostController'
+    'body': 'IOBluetoothHostController'
   'addressAsString':
     'prefix': 'addressAsString'
-    'body': 'addressAsString()'
+    'body': 'addressAsString'
   'classOfDevice':
     'prefix': 'classOfDevice'
-    'body': 'classOfDevice()'
+    'body': 'classOfDevice'
   'IOBluetoothHostController.defaultController':
     'prefix': 'defaultController'
-    'body': 'defaultController()'
+    'body': 'defaultController'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'nameAsString':
     'prefix': 'nameAsString'
-    'body': 'nameAsString()'
+    'body': 'nameAsString'
   'powerState':
     'prefix': 'powerState'
-    'body': 'powerState()'
+    'body': 'powerState'
   'setClassOfDevice:forTimeInterval:':
     'prefix': 'setClassOfDevice:forTimeInterval:'
     'body': 'setClassOfDevice(${1:BluetoothClassOfDevice classOfDevice}, forTimeInterval:${2:NSTimeInterval seconds})'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'IOBluetoothL2CAPChannel':
+    'prefix': 'IOBluetoothL2CAPChannel'
+    'body': 'IOBluetoothL2CAPChannel'
   'PSM':
     'prefix': 'PSM'
-    'body': 'PSM()'
+    'body': 'PSM'
   'closeChannel':
     'prefix': 'closeChannel'
-    'body': 'closeChannel()'
+    'body': 'closeChannel'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'getDevice':
     'prefix': 'getDevice'
-    'body': 'getDevice()'
+    'body': 'getDevice'
   'getIncomingMTU':
     'prefix': 'getIncomingMTU'
-    'body': 'getIncomingMTU()'
+    'body': 'getIncomingMTU'
   'getLocalChannelID':
     'prefix': 'getLocalChannelID'
-    'body': 'getLocalChannelID()'
+    'body': 'getLocalChannelID'
   'getObjectID':
     'prefix': 'getObjectID'
-    'body': 'getObjectID()'
+    'body': 'getObjectID'
   'getOutgoingMTU':
     'prefix': 'getOutgoingMTU'
-    'body': 'getOutgoingMTU()'
+    'body': 'getOutgoingMTU'
   'getPSM':
     'prefix': 'getPSM'
-    'body': 'getPSM()'
+    'body': 'getPSM'
   'getRemoteChannelID':
     'prefix': 'getRemoteChannelID'
-    'body': 'getRemoteChannelID()'
+    'body': 'getRemoteChannelID'
   'incomingMTU':
     'prefix': 'incomingMTU'
-    'body': 'incomingMTU()'
+    'body': 'incomingMTU'
   'isIncoming':
     'prefix': 'isIncoming'
-    'body': 'isIncoming()'
+    'body': 'isIncoming'
   'localChannelID':
     'prefix': 'localChannelID'
-    'body': 'localChannelID()'
+    'body': 'localChannelID'
   'objectID':
     'prefix': 'objectID'
-    'body': 'objectID()'
+    'body': 'objectID'
   'outgoingMTU':
     'prefix': 'outgoingMTU'
-    'body': 'outgoingMTU()'
+    'body': 'outgoingMTU'
   'registerForChannelCloseNotification:selector:':
     'prefix': 'registerForChannelCloseNotification:selector:'
     'body': 'registerForChannelCloseNotification(${1:id observer}, selector:${2:SEL inSelector})'
@@ -5905,7 +5929,7 @@
     'body': 'registerForChannelOpenNotifications(${1:id object}, selector:${2:SEL selector}, withPSM:${3:BluetoothL2CAPPSM psm}, direction:${4:IOBluetoothUserNotificationChannelDirection inDirection})'
   'remoteChannelID':
     'prefix': 'remoteChannelID'
-    'body': 'remoteChannelID()'
+    'body': 'remoteChannelID'
   'requestRemoteMTU:':
     'prefix': 'requestRemoteMTU:'
     'body': 'requestRemoteMTU(${1:BluetoothL2CAPMTU remoteMTU})'
@@ -5924,18 +5948,21 @@
   'writeSync:length:':
     'prefix': 'writeSync:length:'
     'body': 'writeSync(${1:void* data}, length:${2:UInt16 length})'
+  'IOBluetoothOBEXSession':
+    'prefix': 'IOBluetoothOBEXSession'
+    'body': 'IOBluetoothOBEXSession'
   'closeTransportConnection':
     'prefix': 'closeTransportConnection'
-    'body': 'closeTransportConnection()'
+    'body': 'closeTransportConnection'
   'getDevice':
     'prefix': 'getDevice'
-    'body': 'getDevice()'
+    'body': 'getDevice'
   'getRFCOMMChannel':
     'prefix': 'getRFCOMMChannel'
-    'body': 'getRFCOMMChannel()'
+    'body': 'getRFCOMMChannel'
   'hasOpenTransportConnection':
     'prefix': 'hasOpenTransportConnection'
-    'body': 'hasOpenTransportConnection()'
+    'body': 'hasOpenTransportConnection'
   'initWithDevice:channelID:':
     'prefix': 'initWithDevice:channelID:'
     'body': 'initWithDevice(${1:IOBluetoothDevice* inDevice}, channelID:${2:BluetoothRFCOMMChannelID inChannelID})'
@@ -5947,16 +5974,16 @@
     'body': 'initWithSDPServiceRecord(${1:IOBluetoothSDPServiceRecord* inSDPServiceRecord})'
   'isSessionTargetAMac':
     'prefix': 'isSessionTargetAMac'
-    'body': 'isSessionTargetAMac()'
+    'body': 'isSessionTargetAMac'
   'openTransportConnection:selectorTarget:refCon:':
     'prefix': 'openTransportConnection:selectorTarget:refCon:'
     'body': 'openTransportConnection(${1:SEL inSelector}, selectorTarget:${2:id inTarget}, refCon:${3:void* inUserRefCon})'
   'restartTransmission':
     'prefix': 'restartTransmission'
-    'body': 'restartTransmission()'
+    'body': 'restartTransmission'
   'sendBufferTroughChannel':
     'prefix': 'sendBufferTroughChannel'
-    'body': 'sendBufferTroughChannel()'
+    'body': 'sendBufferTroughChannel'
   'sendDataToTransport:dataLength:':
     'prefix': 'sendDataToTransport:dataLength:'
     'body': 'sendDataToTransport(${1:void* inDataToSend}, dataLength:${2:size_t inDataLength})'
@@ -5975,36 +6002,39 @@
   'IOBluetoothOBEXSession.withSDPServiceRecord:':
     'prefix': 'withSDPServiceRecord:'
     'body': 'withSDPServiceRecord(${1:IOBluetoothSDPServiceRecord* inSDPServiceRecord})'
+  'IOBluetoothRFCOMMChannel':
+    'prefix': 'IOBluetoothRFCOMMChannel'
+    'body': 'IOBluetoothRFCOMMChannel'
   'closeChannel':
     'prefix': 'closeChannel'
-    'body': 'closeChannel()'
+    'body': 'closeChannel'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'getChannelID':
     'prefix': 'getChannelID'
-    'body': 'getChannelID()'
+    'body': 'getChannelID'
   'getDevice':
     'prefix': 'getDevice'
-    'body': 'getDevice()'
+    'body': 'getDevice'
   'getMTU':
     'prefix': 'getMTU'
-    'body': 'getMTU()'
+    'body': 'getMTU'
   'getObjectID':
     'prefix': 'getObjectID'
-    'body': 'getObjectID()'
+    'body': 'getObjectID'
   'getRFCOMMChannelRef':
     'prefix': 'getRFCOMMChannelRef'
-    'body': 'getRFCOMMChannelRef()'
+    'body': 'getRFCOMMChannelRef'
   'isIncoming':
     'prefix': 'isIncoming'
-    'body': 'isIncoming()'
+    'body': 'isIncoming'
   'isOpen':
     'prefix': 'isOpen'
-    'body': 'isOpen()'
+    'body': 'isOpen'
   'isTransmissionPaused':
     'prefix': 'isTransmissionPaused'
-    'body': 'isTransmissionPaused()'
+    'body': 'isTransmissionPaused'
   'registerForChannelCloseNotification:selector:':
     'prefix': 'registerForChannelCloseNotification:selector:'
     'body': 'registerForChannelCloseNotification(${1:id observer}, selector:${2:SEL inSelector})'
@@ -6041,6 +6071,9 @@
   'writeSync:length:':
     'prefix': 'writeSync:length:'
     'body': 'writeSync(${1:void* data}, length:${2:UInt16 length})'
+  'IOBluetoothSDPDataElement':
+    'prefix': 'IOBluetoothSDPDataElement'
+    'body': 'IOBluetoothSDPDataElement'
   'containsDataElement:':
     'prefix': 'containsDataElement:'
     'body': 'containsDataElement(${1:IOBluetoothSDPDataElement* dataElement})'
@@ -6049,34 +6082,34 @@
     'body': 'containsValue(${1:NSObject* cmpValue})'
   'getArrayValue':
     'prefix': 'getArrayValue'
-    'body': 'getArrayValue()'
+    'body': 'getArrayValue'
   'getDataValue':
     'prefix': 'getDataValue'
-    'body': 'getDataValue()'
+    'body': 'getDataValue'
   'getNumberValue':
     'prefix': 'getNumberValue'
-    'body': 'getNumberValue()'
+    'body': 'getNumberValue'
   'getSDPDataElementRef':
     'prefix': 'getSDPDataElementRef'
-    'body': 'getSDPDataElementRef()'
+    'body': 'getSDPDataElementRef'
   'getSize':
     'prefix': 'getSize'
-    'body': 'getSize()'
+    'body': 'getSize'
   'getSizeDescriptor':
     'prefix': 'getSizeDescriptor'
-    'body': 'getSizeDescriptor()'
+    'body': 'getSizeDescriptor'
   'getStringValue':
     'prefix': 'getStringValue'
-    'body': 'getStringValue()'
+    'body': 'getStringValue'
   'getTypeDescriptor':
     'prefix': 'getTypeDescriptor'
-    'body': 'getTypeDescriptor()'
+    'body': 'getTypeDescriptor'
   'getUUIDValue':
     'prefix': 'getUUIDValue'
-    'body': 'getUUIDValue()'
+    'body': 'getUUIDValue'
   'getValue':
     'prefix': 'getValue'
-    'body': 'getValue()'
+    'body': 'getValue'
   'initWithElementValue:':
     'prefix': 'initWithElementValue:'
     'body': 'initWithElementValue(${1:NSObject* element})'
@@ -6092,15 +6125,18 @@
   'IOBluetoothSDPDataElement.withType:sizeDescriptor:size:value:':
     'prefix': 'withType:sizeDescriptor:size:value:'
     'body': 'withType(${1:BluetoothSDPDataElementTypeDescriptor type}, sizeDescriptor:${2:BluetoothSDPDataElementSizeDescriptor newSizeDescriptor}, size:${3:uint32_t newSize}, value:${4:NSObject* newValue})'
+  'IOBluetoothSDPServiceAttribute':
+    'prefix': 'IOBluetoothSDPServiceAttribute'
+    'body': 'IOBluetoothSDPServiceAttribute'
   'getAttributeID':
     'prefix': 'getAttributeID'
-    'body': 'getAttributeID()'
+    'body': 'getAttributeID'
   'getDataElement':
     'prefix': 'getDataElement'
-    'body': 'getDataElement()'
+    'body': 'getDataElement'
   'getIDDataElement':
     'prefix': 'getIDDataElement'
-    'body': 'getIDDataElement()'
+    'body': 'getIDDataElement'
   'initWithID:attributeElement:':
     'prefix': 'initWithID:attributeElement:'
     'body': 'initWithID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElement:${2:IOBluetoothSDPDataElement* attributeElement})'
@@ -6113,21 +6149,24 @@
   'IOBluetoothSDPServiceAttribute.withID:attributeElementValue:':
     'prefix': 'withID:attributeElementValue:'
     'body': 'withID(${1:BluetoothSDPServiceAttributeID newAttributeID}, attributeElementValue:${2:NSObject* attributeElementValue})'
+  'IOBluetoothSDPServiceRecord':
+    'prefix': 'IOBluetoothSDPServiceRecord'
+    'body': 'IOBluetoothSDPServiceRecord'
   'attributes':
     'prefix': 'attributes'
-    'body': 'attributes()'
+    'body': 'attributes'
   'device':
     'prefix': 'device'
-    'body': 'device()'
+    'body': 'device'
   'getAttributeDataElement:':
     'prefix': 'getAttributeDataElement:'
     'body': 'getAttributeDataElement(${1:BluetoothSDPServiceAttributeID attributeID})'
   'getAttributes':
     'prefix': 'getAttributes'
-    'body': 'getAttributes()'
+    'body': 'getAttributes'
   'getDevice':
     'prefix': 'getDevice'
-    'body': 'getDevice()'
+    'body': 'getDevice'
   'getL2CAPPSM:':
     'prefix': 'getL2CAPPSM:'
     'body': 'getL2CAPPSM(${1:BluetoothL2CAPPSM* outPSM})'
@@ -6136,16 +6175,16 @@
     'body': 'getRFCOMMChannelID(${1:BluetoothRFCOMMChannelID* rfcommChannelID})'
   'getSDPServiceRecordRef':
     'prefix': 'getSDPServiceRecordRef'
-    'body': 'getSDPServiceRecordRef()'
+    'body': 'getSDPServiceRecordRef'
   'getServiceName':
     'prefix': 'getServiceName'
-    'body': 'getServiceName()'
+    'body': 'getServiceName'
   'getServiceRecordHandle:':
     'prefix': 'getServiceRecordHandle:'
     'body': 'getServiceRecordHandle(${1:BluetoothSDPServiceRecordHandle* outServiceRecordHandle})'
   'handsFreeSupportedFeatures':
     'prefix': 'handsFreeSupportedFeatures'
-    'body': 'handsFreeSupportedFeatures()'
+    'body': 'handsFreeSupportedFeatures'
   'hasServiceFromArray:':
     'prefix': 'hasServiceFromArray:'
     'body': 'hasServiceFromArray(${1:NSArray* array})'
@@ -6166,28 +6205,31 @@
     'body': 'publishedServiceRecordWithDictionary(${1:NSDictionary* serviceDict})'
   'removeServiceRecord':
     'prefix': 'removeServiceRecord'
-    'body': 'removeServiceRecord()'
+    'body': 'removeServiceRecord'
   'sortedAttributes':
     'prefix': 'sortedAttributes'
-    'body': 'sortedAttributes()'
+    'body': 'sortedAttributes'
   'IOBluetoothSDPServiceRecord.withSDPServiceRecordRef:':
     'prefix': 'withSDPServiceRecordRef:'
     'body': 'withSDPServiceRecordRef(${1:IOBluetoothSDPServiceRecordRef sdpServiceRecordRef})'
   'IOBluetoothSDPServiceRecord.withServiceDictionary:device:':
     'prefix': 'withServiceDictionary:device:'
     'body': 'withServiceDictionary(${1:NSDictionary* serviceDict}, device:${2:IOBluetoothDevice* device})'
+  'IOBluetoothSDPUUID':
+    'prefix': 'IOBluetoothSDPUUID'
+    'body': 'IOBluetoothSDPUUID'
   'classForArchiver':
     'prefix': 'classForArchiver'
-    'body': 'classForArchiver()'
+    'body': 'classForArchiver'
   'classForCoder':
     'prefix': 'classForCoder'
-    'body': 'classForCoder()'
+    'body': 'classForCoder'
   'classForPortCoder':
     'prefix': 'classForPortCoder'
-    'body': 'classForPortCoder()'
+    'body': 'classForPortCoder'
   'getSDPUUIDRef':
     'prefix': 'getSDPUUIDRef'
-    'body': 'getSDPUUIDRef()'
+    'body': 'getSDPUUIDRef'
   'getUUIDWithLength:':
     'prefix': 'getUUIDWithLength:'
     'body': 'getUUIDWithLength(${1:unsigned int newLength})'
@@ -6215,9 +6257,15 @@
   'IOBluetoothSDPUUID.withSDPUUIDRef:':
     'prefix': 'withSDPUUIDRef:'
     'body': 'withSDPUUIDRef(${1:IOBluetoothSDPUUIDRef sdpUUIDRef})'
+  'IOBluetoothUserNotification':
+    'prefix': 'IOBluetoothUserNotification'
+    'body': 'IOBluetoothUserNotification'
   'unregister':
     'prefix': 'unregister'
-    'body': 'unregister()'
+    'body': 'unregister'
+  'NSMutableDictionary':
+    'prefix': 'NSMutableDictionary'
+    'body': 'NSMutableDictionary'
   'addApplicationParameterHeader:length:':
     'prefix': 'addApplicationParameterHeader:length:'
     'body': 'addApplicationParameterHeader(${1:void* inHeaderData}, length:${2:uint32_t inHeaderDataLength})'
@@ -6286,10 +6334,13 @@
     'body': 'dictionaryWithOBEXHeadersData(${1:void* inHeadersData}, headersDataSize:${2:size_t inDataSize})'
   'getHeaderBytes':
     'prefix': 'getHeaderBytes'
-    'body': 'getHeaderBytes()'
+    'body': 'getHeaderBytes'
   'NSMutableDictionary.withOBEXHeadersData:headersDataSize:':
     'prefix': 'withOBEXHeadersData:headersDataSize:'
     'body': 'withOBEXHeadersData(${1:void* inHeadersData}, headersDataSize:${2:size_t inDataSize})'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'connectionComplete:status:':
     'prefix': 'connectionComplete:status:'
     'body': 'connectionComplete(${1:IOBluetoothDevice* device}, status:${2:IOReturn status})'
@@ -6367,7 +6418,7 @@
     'body': 'fileTransferServicesSendFileProgress(${1:OBEXFileTransferServices* inServices}, transferProgress:${2:NSDictionary* inProgressDescription})'
   'getL2CAPChannelRef':
     'prefix': 'getL2CAPChannelRef'
-    'body': 'getL2CAPChannelRef()'
+    'body': 'getL2CAPChannelRef'
   'handsFree:batteryCharge:':
     'prefix': 'handsFree:batteryCharge:'
     'body': 'handsFree(${1:IOBluetoothHandsFreeDevice* device}, batteryCharge:${2:NSNumber* batteryCharge})'
@@ -6485,24 +6536,27 @@
   'write:length:':
     'prefix': 'write:length:'
     'body': 'write(${1:void* data}, length:${2:UInt16 length})'
+  'OBEXFileTransferServices':
+    'prefix': 'OBEXFileTransferServices'
+    'body': 'OBEXFileTransferServices'
   'abort':
     'prefix': 'abort'
-    'body': 'abort()'
+    'body': 'abort'
   'changeCurrentFolderBackward':
     'prefix': 'changeCurrentFolderBackward'
-    'body': 'changeCurrentFolderBackward()'
+    'body': 'changeCurrentFolderBackward'
   'changeCurrentFolderForwardToPath:':
     'prefix': 'changeCurrentFolderForwardToPath:'
     'body': 'changeCurrentFolderForwardToPath(${1:NSString* inDirName})'
   'changeCurrentFolderToRoot':
     'prefix': 'changeCurrentFolderToRoot'
-    'body': 'changeCurrentFolderToRoot()'
+    'body': 'changeCurrentFolderToRoot'
   'connectToFTPService':
     'prefix': 'connectToFTPService'
-    'body': 'connectToFTPService()'
+    'body': 'connectToFTPService'
   'connectToObjectPushService':
     'prefix': 'connectToObjectPushService'
-    'body': 'connectToObjectPushService()'
+    'body': 'connectToObjectPushService'
   'copyRemoteFile:toLocalPath:':
     'prefix': 'copyRemoteFile:toLocalPath:'
     'body': 'copyRemoteFile(${1:NSString* inRemoteFileName}, toLocalPath:${2:NSString* inLocalPathAndName})'
@@ -6511,13 +6565,13 @@
     'body': 'createFolder(${1:NSString* inDirName})'
   'currentPath':
     'prefix': 'currentPath'
-    'body': 'currentPath()'
+    'body': 'currentPath'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'disconnect':
     'prefix': 'disconnect'
-    'body': 'disconnect()'
+    'body': 'disconnect'
   'getDefaultVCard:':
     'prefix': 'getDefaultVCard:'
     'body': 'getDefaultVCard(${1:NSString* inLocalPathAndName})'
@@ -6526,16 +6580,16 @@
     'body': 'initWithOBEXSession(${1:IOBluetoothOBEXSession* inOBEXSession})'
   'isBusy':
     'prefix': 'isBusy'
-    'body': 'isBusy()'
+    'body': 'isBusy'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'removeItem:':
     'prefix': 'removeItem:'
     'body': 'removeItem(${1:NSString* inItemName})'
   'retrieveFolderListing':
     'prefix': 'retrieveFolderListing'
-    'body': 'retrieveFolderListing()'
+    'body': 'retrieveFolderListing'
   'sendData:type:name:':
     'prefix': 'sendData:type:name:'
     'body': 'sendData(${1:NSData* inData}, type:${2:NSString* inType}, name:${3:NSString* inName})'
@@ -6548,6 +6602,9 @@
   'OBEXFileTransferServices.withOBEXSession:':
     'prefix': 'withOBEXSession:'
     'body': 'withOBEXSession(${1:IOBluetoothOBEXSession* inOBEXSession})'
+  'OBEXSession':
+    'prefix': 'OBEXSession'
+    'body': 'OBEXSession'
   'OBEXAbort:optionalHeadersLength:eventSelector:selectorTarget:refCon:':
     'prefix': 'OBEXAbort:optionalHeadersLength:eventSelector:selectorTarget:refCon:'
     'body': 'OBEXAbort(${1:void* inOptionalHeaders}, optionalHeadersLength:${2:size_t inOptionalHeadersLength}, eventSelector:${3:SEL inSelector}, selectorTarget:${4:id inTarget}, refCon:${5:void* inUserRefCon})'
@@ -6589,7 +6646,7 @@
     'body': 'clientHandleIncomingData(${1:OBEXTransportEvent* event})'
   'closeTransportConnection':
     'prefix': 'closeTransportConnection'
-    'body': 'closeTransportConnection()'
+    'body': 'closeTransportConnection'
   'getAvailableCommandPayloadLength:':
     'prefix': 'getAvailableCommandPayloadLength:'
     'body': 'getAvailableCommandPayloadLength(${1:OBEXOpCode inOpCode})'
@@ -6598,13 +6655,13 @@
     'body': 'getAvailableCommandResponsePayloadLength(${1:OBEXOpCode inOpCode})'
   'getMaxPacketLength':
     'prefix': 'getMaxPacketLength'
-    'body': 'getMaxPacketLength()'
+    'body': 'getMaxPacketLength'
   'hasOpenOBEXConnection':
     'prefix': 'hasOpenOBEXConnection'
-    'body': 'hasOpenOBEXConnection()'
+    'body': 'hasOpenOBEXConnection'
   'hasOpenTransportConnection':
     'prefix': 'hasOpenTransportConnection'
-    'body': 'hasOpenTransportConnection()'
+    'body': 'hasOpenTransportConnection'
   'openTransportConnection:selectorTarget:refCon:':
     'prefix': 'openTransportConnection:selectorTarget:refCon:'
     'body': 'openTransportConnection(${1:SEL inSelector}, selectorTarget:${2:id inTarget}, refCon:${3:void* inUserRefCon})'
@@ -6623,6 +6680,9 @@
   'setEventSelector:target:refCon:':
     'prefix': 'setEventSelector:target:refCon:'
     'body': 'setEventSelector(${1:SEL inEventSelector}, target:${2:id inEventSelectorTarget}, refCon:${3:id inUserRefCon})'
+  'IOBluetoothDeviceAsyncCallbacks':
+    'prefix': 'IOBluetoothDeviceAsyncCallbacks'
+    'body': 'IOBluetoothDeviceAsyncCallbacks'
   'connectionComplete:status:':
     'prefix': 'connectionComplete:status:'
     'body': 'connectionComplete(${1:IOBluetoothDevice* device}, status:${2:IOReturn status})'
@@ -6632,6 +6692,9 @@
   'sdpQueryComplete:status:':
     'prefix': 'sdpQueryComplete:status:'
     'body': 'sdpQueryComplete(${1:IOBluetoothDevice* device}, status:${2:IOReturn status})'
+  'IOBluetoothDeviceInquiryDelegate':
+    'prefix': 'IOBluetoothDeviceInquiryDelegate'
+    'body': 'IOBluetoothDeviceInquiryDelegate'
   'deviceInquiryComplete:error:aborted:':
     'prefix': 'deviceInquiryComplete:error:aborted:'
     'body': 'deviceInquiryComplete(${1:IOBluetoothDeviceInquiry* sender}, error:${2:IOReturn error}, aborted:${3:BOOL aborted})'
@@ -6647,6 +6710,9 @@
   'deviceInquiryUpdatingDeviceNamesStarted:devicesRemaining:':
     'prefix': 'deviceInquiryUpdatingDeviceNamesStarted:devicesRemaining:'
     'body': 'deviceInquiryUpdatingDeviceNamesStarted(${1:IOBluetoothDeviceInquiry* sender}, devicesRemaining:${2:uint32_t devicesRemaining})'
+  'IOBluetoothDevicePairDelegate':
+    'prefix': 'IOBluetoothDevicePairDelegate'
+    'body': 'IOBluetoothDevicePairDelegate'
   'devicePairingConnecting:':
     'prefix': 'devicePairingConnecting:'
     'body': 'devicePairingConnecting(${1:id sender})'
@@ -6668,12 +6734,18 @@
   'deviceSimplePairingComplete:status:':
     'prefix': 'deviceSimplePairingComplete:status:'
     'body': 'deviceSimplePairingComplete(${1:id sender}, status:${2:BluetoothHCIEventStatus status})'
+  'IOBluetoothHandsFreeAudioGatewayDelegate':
+    'prefix': 'IOBluetoothHandsFreeAudioGatewayDelegate'
+    'body': 'IOBluetoothHandsFreeAudioGatewayDelegate'
   'handsFree:hangup:':
     'prefix': 'handsFree:hangup:'
     'body': 'handsFree(${1:IOBluetoothHandsFreeAudioGateway* device}, hangup:${2:NSNumber* hangup})'
   'handsFree:redial:':
     'prefix': 'handsFree:redial:'
     'body': 'handsFree(${1:IOBluetoothHandsFreeAudioGateway* device}, redial:${2:NSNumber* redial})'
+  'IOBluetoothHandsFreeDelegate':
+    'prefix': 'IOBluetoothHandsFreeDelegate'
+    'body': 'IOBluetoothHandsFreeDelegate'
   'handsFree:connected:':
     'prefix': 'handsFree:connected:'
     'body': 'handsFree(${1:IOBluetoothHandsFree* device}, connected:${2:NSNumber* status})'
@@ -6686,6 +6758,9 @@
   'handsFree:scoConnectionOpened:':
     'prefix': 'handsFree:scoConnectionOpened:'
     'body': 'handsFree(${1:IOBluetoothHandsFree* device}, scoConnectionOpened:${2:NSNumber* status})'
+  'IOBluetoothHandsFreeDeviceDelegate':
+    'prefix': 'IOBluetoothHandsFreeDeviceDelegate'
+    'body': 'IOBluetoothHandsFreeDeviceDelegate'
   'handsFree:batteryCharge:':
     'prefix': 'handsFree:batteryCharge:'
     'body': 'handsFree(${1:IOBluetoothHandsFreeDevice* device}, batteryCharge:${2:NSNumber* batteryCharge})'
@@ -6725,12 +6800,18 @@
   'handsFree:unhandledResultCode:':
     'prefix': 'handsFree:unhandledResultCode:'
     'body': 'handsFree(${1:IOBluetoothHandsFreeDevice* device}, unhandledResultCode:${2:NSString* resultCode})'
+  'IOBluetoothHostControllerDelegate':
+    'prefix': 'IOBluetoothHostControllerDelegate'
+    'body': 'IOBluetoothHostControllerDelegate'
   'readLinkQualityForDeviceComplete:device:info:error:':
     'prefix': 'readLinkQualityForDeviceComplete:device:info:error:'
     'body': 'readLinkQualityForDeviceComplete(${1:id controller}, device:${2:IOBluetoothDevice* device}, info:${3:BluetoothHCILinkQualityInfo* info}, error:${4:IOReturn error})'
   'readRSSIForDeviceComplete:device:info:error:':
     'prefix': 'readRSSIForDeviceComplete:device:info:error:'
     'body': 'readRSSIForDeviceComplete(${1:id controller}, device:${2:IOBluetoothDevice* device}, info:${3:BluetoothHCIRSSIInfo* info}, error:${4:IOReturn error})'
+  'IOBluetoothL2CAPChannelDelegate':
+    'prefix': 'IOBluetoothL2CAPChannelDelegate'
+    'body': 'IOBluetoothL2CAPChannelDelegate'
   'l2capChannelClosed:':
     'prefix': 'l2capChannelClosed:'
     'body': 'l2capChannelClosed(${1:IOBluetoothL2CAPChannel* l2capChannel})'
@@ -6749,9 +6830,12 @@
   'l2capChannelWriteComplete:refcon:status:':
     'prefix': 'l2capChannelWriteComplete:refcon:status:'
     'body': 'l2capChannelWriteComplete(${1:IOBluetoothL2CAPChannel* l2capChannel}, refcon:${2:void* refcon}, status:${3:IOReturn error})'
+  'IOBluetoothL2CAPChannelDeprecated':
+    'prefix': 'IOBluetoothL2CAPChannelDeprecated'
+    'body': 'IOBluetoothL2CAPChannelDeprecated'
   'getL2CAPChannelRef':
     'prefix': 'getL2CAPChannelRef'
-    'body': 'getL2CAPChannelRef()'
+    'body': 'getL2CAPChannelRef'
   'registerIncomingDataListener:refCon:':
     'prefix': 'registerIncomingDataListener:refCon:'
     'body': 'registerIncomingDataListener(${1:IOBluetoothL2CAPChannelIncomingDataListener listener}, refCon:${2:void* refCon})'
@@ -6761,6 +6845,9 @@
   'write:length:':
     'prefix': 'write:length:'
     'body': 'write(${1:void* data}, length:${2:UInt16 length})'
+  'IOBluetoothRFCOMMChannelDelegate':
+    'prefix': 'IOBluetoothRFCOMMChannelDelegate'
+    'body': 'IOBluetoothRFCOMMChannelDelegate'
   'rfcommChannelClosed:':
     'prefix': 'rfcommChannelClosed:'
     'body': 'rfcommChannelClosed(${1:IOBluetoothRFCOMMChannel* rfcommChannel})'
@@ -6782,6 +6869,9 @@
   'rfcommChannelWriteComplete:refcon:status:':
     'prefix': 'rfcommChannelWriteComplete:refcon:status:'
     'body': 'rfcommChannelWriteComplete(${1:IOBluetoothRFCOMMChannel* rfcommChannel}, refcon:${2:void* refcon}, status:${3:IOReturn error})'
+  'OBEXFileTransferServicesDelegate':
+    'prefix': 'OBEXFileTransferServicesDelegate'
+    'body': 'OBEXFileTransferServicesDelegate'
   'fileTransferServicesAbortComplete:error:':
     'prefix': 'fileTransferServicesAbortComplete:error:'
     'body': 'fileTransferServicesAbortComplete(${1:OBEXFileTransferServices* inServices}, error:${2:OBEXError inError})'
@@ -7103,30 +7193,39 @@
   'CBPeripheralStateDisconnected (0)':
     'prefix': 'CBPeripheralStateDisconnected'
     'body': 'CBPeripheralStateDisconnected'
+  'CBATTRequest':
+    'prefix': 'CBATTRequest'
+    'body': 'CBATTRequest'
   'central':
     'prefix': 'central'
-    'body': 'central()'
+    'body': 'central'
   'characteristic':
     'prefix': 'characteristic'
-    'body': 'characteristic()'
+    'body': 'characteristic'
   'offset':
     'prefix': 'offset'
-    'body': 'offset()'
+    'body': 'offset'
   'setValue:':
     'prefix': 'setValue:'
     'body': 'setValue(${1:NSData* value})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBCentral':
+    'prefix': 'CBCentral'
+    'body': 'CBCentral'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'maximumUpdateValueLength':
     'prefix': 'maximumUpdateValueLength'
-    'body': 'maximumUpdateValueLength()'
+    'body': 'maximumUpdateValueLength'
+  'CBCentralManager':
+    'prefix': 'CBCentralManager'
+    'body': 'CBCentralManager'
   'cancelPeripheralConnection:':
     'prefix': 'cancelPeripheralConnection:'
     'body': 'cancelPeripheralConnection(${1:CBPeripheral* peripheral})'
@@ -7135,7 +7234,7 @@
     'body': 'connectPeripheral(${1:CBPeripheral* peripheral}, options:${2:NSDictionary* options})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithDelegate:queue:':
     'prefix': 'initWithDelegate:queue:'
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue})'
@@ -7144,7 +7243,7 @@
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue}, options:${3:NSDictionary* options})'
   'retrieveConnectedPeripherals':
     'prefix': 'retrieveConnectedPeripherals'
-    'body': 'retrieveConnectedPeripherals()'
+    'body': 'retrieveConnectedPeripherals'
   'retrieveConnectedPeripheralsWithServices:':
     'prefix': 'retrieveConnectedPeripheralsWithServices:'
     'body': 'retrieveConnectedPeripheralsWithServices(${1:NSArray* serviceUUIDs})'
@@ -7162,61 +7261,70 @@
     'body': 'setDelegate(${1:id delegate})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'stopScan':
     'prefix': 'stopScan'
-    'body': 'stopScan()'
+    'body': 'stopScan'
+  'CBCharacteristic':
+    'prefix': 'CBCharacteristic'
+    'body': 'CBCharacteristic'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'descriptors':
     'prefix': 'descriptors'
-    'body': 'descriptors()'
+    'body': 'descriptors'
   'isBroadcasted':
     'prefix': 'isBroadcasted'
-    'body': 'isBroadcasted()'
+    'body': 'isBroadcasted'
   'isNotifying':
     'prefix': 'isNotifying'
-    'body': 'isNotifying()'
+    'body': 'isNotifying'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'service':
     'prefix': 'service'
-    'body': 'service()'
+    'body': 'service'
   'setService:':
     'prefix': 'setService:'
     'body': 'setService(${1:CBService* service})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBDescriptor':
+    'prefix': 'CBDescriptor'
+    'body': 'CBDescriptor'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'characteristic':
     'prefix': 'characteristic'
-    'body': 'characteristic()'
+    'body': 'characteristic'
   'setCharacteristic:':
     'prefix': 'setCharacteristic:'
     'body': 'setCharacteristic(${1:CBCharacteristic* characteristic})'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBMutableCharacteristic':
+    'prefix': 'CBMutableCharacteristic'
+    'body': 'CBMutableCharacteristic'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'descriptors':
     'prefix': 'descriptors'
-    'body': 'descriptors()'
+    'body': 'descriptors'
   'initWithType:properties:value:permissions:':
     'prefix': 'initWithType:properties:value:permissions:'
     'body': 'initWithType(${1:CBUUID* UUID}, properties:${2:CBCharacteristicProperties properties}, value:${3:NSData* value}, permissions:${4:CBAttributePermissions permissions})'
   'permissions':
     'prefix': 'permissions'
-    'body': 'permissions()'
+    'body': 'permissions'
   'properties':
     'prefix': 'properties'
-    'body': 'properties()'
+    'body': 'properties'
   'setDescriptors:':
     'prefix': 'setDescriptors:'
     'body': 'setDescriptors(${1:NSArray* descriptors})'
@@ -7234,28 +7342,34 @@
     'body': 'setValue(${1:NSData* value})'
   'subscribedCentrals':
     'prefix': 'subscribedCentrals'
-    'body': 'subscribedCentrals()'
+    'body': 'subscribedCentrals'
   'value':
     'prefix': 'value'
-    'body': 'value()'
+    'body': 'value'
+  'CBMutableDescriptor':
+    'prefix': 'CBMutableDescriptor'
+    'body': 'CBMutableDescriptor'
   'initWithType:value:':
     'prefix': 'initWithType:value:'
     'body': 'initWithType(${1:CBUUID* UUID}, value:${2:id value})'
+  'CBMutableService':
+    'prefix': 'CBMutableService'
+    'body': 'CBMutableService'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'characteristics':
     'prefix': 'characteristics'
-    'body': 'characteristics()'
+    'body': 'characteristics'
   'includedServices':
     'prefix': 'includedServices'
-    'body': 'includedServices()'
+    'body': 'includedServices'
   'initWithType:primary:':
     'prefix': 'initWithType:primary:'
     'body': 'initWithType(${1:CBUUID* UUID}, primary:${2:BOOL isPrimary})'
   'isPrimary':
     'prefix': 'isPrimary'
-    'body': 'isPrimary()'
+    'body': 'isPrimary'
   'setCharacteristics:':
     'prefix': 'setCharacteristics:'
     'body': 'setCharacteristics(${1:NSArray* characteristics})'
@@ -7268,15 +7382,18 @@
   'setUUID:':
     'prefix': 'setUUID:'
     'body': 'setUUID(${1:CBUUID* UUID})'
+  'CBPeripheral':
+    'prefix': 'CBPeripheral'
+    'body': 'CBPeripheral'
   'RSSI':
     'prefix': 'RSSI'
-    'body': 'RSSI()'
+    'body': 'RSSI'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'discoverCharacteristics:forService:':
     'prefix': 'discoverCharacteristics:forService:'
     'body': 'discoverCharacteristics(${1:NSArray* characteristicUUIDs}, forService:${2:CBService* service})'
@@ -7291,16 +7408,16 @@
     'body': 'discoverServices(${1:NSArray* serviceUUIDs})'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'isConnected':
     'prefix': 'isConnected'
-    'body': 'isConnected()'
+    'body': 'isConnected'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'readRSSI':
     'prefix': 'readRSSI'
-    'body': 'readRSSI()'
+    'body': 'readRSSI'
   'readValueForCharacteristic:':
     'prefix': 'readValueForCharacteristic:'
     'body': 'readValueForCharacteristic(${1:CBCharacteristic* characteristic})'
@@ -7309,7 +7426,7 @@
     'body': 'readValueForDescriptor(${1:CBDescriptor* descriptor})'
   'services':
     'prefix': 'services'
-    'body': 'services()'
+    'body': 'services'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
@@ -7318,19 +7435,22 @@
     'body': 'setNotifyValue(${1:BOOL enabled}, forCharacteristic:${2:CBCharacteristic* characteristic})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'writeValue:forCharacteristic:type:':
     'prefix': 'writeValue:forCharacteristic:type:'
     'body': 'writeValue(${1:NSData* data}, forCharacteristic:${2:CBCharacteristic* characteristic}, type:${3:CBCharacteristicWriteType type})'
   'writeValue:forDescriptor:':
     'prefix': 'writeValue:forDescriptor:'
     'body': 'writeValue(${1:NSData* data}, forDescriptor:${2:CBDescriptor* descriptor})'
+  'CBPeripheralManager':
+    'prefix': 'CBPeripheralManager'
+    'body': 'CBPeripheralManager'
   'addService:':
     'prefix': 'addService:'
     'body': 'addService(${1:CBMutableService* service})'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithDelegate:queue:':
     'prefix': 'initWithDelegate:queue:'
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue})'
@@ -7339,10 +7459,10 @@
     'body': 'initWithDelegate(${1:id delegate}, queue:${2:dispatch_queue_t queue}, options:${3:NSDictionary* options})'
   'isAdvertising':
     'prefix': 'isAdvertising'
-    'body': 'isAdvertising()'
+    'body': 'isAdvertising'
   'removeAllServices':
     'prefix': 'removeAllServices'
-    'body': 'removeAllServices()'
+    'body': 'removeAllServices'
   'removeService:':
     'prefix': 'removeService:'
     'body': 'removeService(${1:CBMutableService* service})'
@@ -7360,31 +7480,37 @@
     'body': 'startAdvertising(${1:NSDictionary* advertisementData})'
   'state':
     'prefix': 'state'
-    'body': 'state()'
+    'body': 'state'
   'stopAdvertising':
     'prefix': 'stopAdvertising'
-    'body': 'stopAdvertising()'
+    'body': 'stopAdvertising'
   'updateValue:forCharacteristic:onSubscribedCentrals:':
     'prefix': 'updateValue:forCharacteristic:onSubscribedCentrals:'
     'body': 'updateValue(${1:NSData* value}, forCharacteristic:${2:CBMutableCharacteristic* characteristic}, onSubscribedCentrals:${3:NSArray* centrals})'
+  'CBService':
+    'prefix': 'CBService'
+    'body': 'CBService'
   'UUID':
     'prefix': 'UUID'
-    'body': 'UUID()'
+    'body': 'UUID'
   'characteristics':
     'prefix': 'characteristics'
-    'body': 'characteristics()'
+    'body': 'characteristics'
   'includedServices':
     'prefix': 'includedServices'
-    'body': 'includedServices()'
+    'body': 'includedServices'
   'isPrimary':
     'prefix': 'isPrimary'
-    'body': 'isPrimary()'
+    'body': 'isPrimary'
   'peripheral':
     'prefix': 'peripheral'
-    'body': 'peripheral()'
+    'body': 'peripheral'
   'setPeripheral:':
     'prefix': 'setPeripheral:'
     'body': 'setPeripheral(${1:CBPeripheral* peripheral})'
+  'CBUUID':
+    'prefix': 'CBUUID'
+    'body': 'CBUUID'
   'CBUUID.UUIDWithCFUUID:':
     'prefix': 'UUIDWithCFUUID:'
     'body': 'UUIDWithCFUUID(${1:CFUUIDRef theUUID})'
@@ -7399,7 +7525,10 @@
     'body': 'UUIDWithString(${1:NSString* theString})'
   'data':
     'prefix': 'data'
-    'body': 'data()'
+    'body': 'data'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'centralManager:didConnectPeripheral:':
     'prefix': 'centralManager:didConnectPeripheral:'
     'body': 'centralManager(${1:CBCentralManager* central}, didConnectPeripheral:${2:CBPeripheral* peripheral})'
@@ -7487,6 +7616,9 @@
   'peripheralManagerIsReadyToUpdateSubscribers:':
     'prefix': 'peripheralManagerIsReadyToUpdateSubscribers:'
     'body': 'peripheralManagerIsReadyToUpdateSubscribers(${1:CBPeripheralManager* peripheral})'
+  'CBCentralManagerDelegate':
+    'prefix': 'CBCentralManagerDelegate'
+    'body': 'CBCentralManagerDelegate'
   'centralManager:didConnectPeripheral:':
     'prefix': 'centralManager:didConnectPeripheral:'
     'body': 'centralManager(${1:CBCentralManager* central}, didConnectPeripheral:${2:CBPeripheral* peripheral})'
@@ -7511,6 +7643,9 @@
   'centralManagerDidUpdateState:':
     'prefix': 'centralManagerDidUpdateState:'
     'body': 'centralManagerDidUpdateState(${1:CBCentralManager* central})'
+  'CBPeripheralDelegate':
+    'prefix': 'CBPeripheralDelegate'
+    'body': 'CBPeripheralDelegate'
   'peripheral:didDiscoverCharacteristicsForService:error:':
     'prefix': 'peripheral:didDiscoverCharacteristicsForService:error:'
     'body': 'peripheral(${1:CBPeripheral* peripheral}, didDiscoverCharacteristicsForService:${2:CBService* service}, error:${3:NSError* error})'
@@ -7547,6 +7682,9 @@
   'peripheralDidUpdateRSSI:error:':
     'prefix': 'peripheralDidUpdateRSSI:error:'
     'body': 'peripheralDidUpdateRSSI(${1:CBPeripheral* peripheral}, error:${2:NSError* error})'
+  'CBPeripheralManagerDelegate':
+    'prefix': 'CBPeripheralManagerDelegate'
+    'body': 'CBPeripheralManagerDelegate'
   'peripheralManager:central:didSubscribeToCharacteristic:':
     'prefix': 'peripheralManager:central:didSubscribeToCharacteristic:'
     'body': 'peripheralManager(${1:CBPeripheralManager* peripheral}, central:${2:CBCentral* central}, didSubscribeToCharacteristic:${3:CBCharacteristic* characteristic})'

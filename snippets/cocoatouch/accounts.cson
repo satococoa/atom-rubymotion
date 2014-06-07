@@ -95,18 +95,21 @@
   'ACErrorUpdatingNonexistentAccount (15)':
     'prefix': 'ACErrorUpdatingNonexistentAccount'
     'body': 'ACErrorUpdatingNonexistentAccount'
+  'ACAccount':
+    'prefix': 'ACAccount'
+    'body': 'ACAccount'
   'accountDescription':
     'prefix': 'accountDescription'
-    'body': 'accountDescription()'
+    'body': 'accountDescription'
   'accountType':
     'prefix': 'accountType'
-    'body': 'accountType()'
+    'body': 'accountType'
   'credential':
     'prefix': 'credential'
-    'body': 'credential()'
+    'body': 'credential'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'
   'initWithAccountType:':
     'prefix': 'initWithAccountType:'
     'body': 'initWithAccountType(${1:ACAccountType* type})'
@@ -124,10 +127,13 @@
     'body': 'setUsername(${1:NSString* username})'
   'userFullName':
     'prefix': 'userFullName'
-    'body': 'userFullName()'
+    'body': 'userFullName'
   'username':
     'prefix': 'username'
-    'body': 'username()'
+    'body': 'username'
+  'ACAccountCredential':
+    'prefix': 'ACAccountCredential'
+    'body': 'ACAccountCredential'
   'initWithOAuth2Token:refreshToken:expiryDate:':
     'prefix': 'initWithOAuth2Token:refreshToken:expiryDate:'
     'body': 'initWithOAuth2Token(${1:NSString* token}, refreshToken:${2:NSString* refreshToken}, expiryDate:${3:NSDate* expiryDate})'
@@ -136,10 +142,13 @@
     'body': 'initWithOAuthToken(${1:NSString* token}, tokenSecret:${2:NSString* secret})'
   'oauthToken':
     'prefix': 'oauthToken'
-    'body': 'oauthToken()'
+    'body': 'oauthToken'
   'setOauthToken:':
     'prefix': 'setOauthToken:'
     'body': 'setOauthToken(${1:NSString* oauthToken})'
+  'ACAccountStore':
+    'prefix': 'ACAccountStore'
+    'body': 'ACAccountStore'
   'accountTypeWithAccountTypeIdentifier:':
     'prefix': 'accountTypeWithAccountTypeIdentifier:'
     'body': 'accountTypeWithAccountTypeIdentifier(${1:NSString* typeIdentifier})'
@@ -148,7 +157,7 @@
     'body': 'accountWithIdentifier(${1:NSString* identifier})'
   'accounts':
     'prefix': 'accounts'
-    'body': 'accounts()'
+    'body': 'accounts'
   'accountsWithAccountType:':
     'prefix': 'accountsWithAccountType:'
     'body': 'accountsWithAccountType(${1:ACAccountType* accountType})'
@@ -167,12 +176,15 @@
   'saveAccount:withCompletionHandler:':
     'prefix': 'saveAccount:withCompletionHandler:'
     'body': 'saveAccount(${1:ACAccount* account}, withCompletionHandler:${2:ACAccountStoreSaveCompletionHandler completionHandler})'
+  'ACAccountType':
+    'prefix': 'ACAccountType'
+    'body': 'ACAccountType'
   'accessGranted':
     'prefix': 'accessGranted'
-    'body': 'accessGranted()'
+    'body': 'accessGranted'
   'accountTypeDescription':
     'prefix': 'accountTypeDescription'
-    'body': 'accountTypeDescription()'
+    'body': 'accountTypeDescription'
   'identifier':
     'prefix': 'identifier'
-    'body': 'identifier()'
+    'body': 'identifier'

@@ -59,51 +59,69 @@
   'kCTErrorDomainPOSIX (1)':
     'prefix': 'kCTErrorDomainPOSIX'
     'body': 'KCTErrorDomainPOSIX'
+  'CTCall':
+    'prefix': 'CTCall'
+    'body': 'CTCall'
   'callID':
     'prefix': 'callID'
-    'body': 'callID()'
+    'body': 'callID'
   'callState':
     'prefix': 'callState'
-    'body': 'callState()'
+    'body': 'callState'
+  'CTCallCenter':
+    'prefix': 'CTCallCenter'
+    'body': 'CTCallCenter'
   'callEventHandler':
     'prefix': 'callEventHandler'
-    'body': 'callEventHandler()'
+    'body': 'callEventHandler'
   'currentCalls':
     'prefix': 'currentCalls'
-    'body': 'currentCalls()'
+    'body': 'currentCalls'
   'setCallEventHandler:':
     'prefix': 'setCallEventHandler:'
     'body': 'setCallEventHandler(${1:void (^)(CTCall *) callEventHandler})'
+  'CTCarrier':
+    'prefix': 'CTCarrier'
+    'body': 'CTCarrier'
   'allowsVOIP':
     'prefix': 'allowsVOIP'
-    'body': 'allowsVOIP()'
+    'body': 'allowsVOIP'
   'carrierName':
     'prefix': 'carrierName'
-    'body': 'carrierName()'
+    'body': 'carrierName'
   'isoCountryCode':
     'prefix': 'isoCountryCode'
-    'body': 'isoCountryCode()'
+    'body': 'isoCountryCode'
   'mobileCountryCode':
     'prefix': 'mobileCountryCode'
-    'body': 'mobileCountryCode()'
+    'body': 'mobileCountryCode'
   'mobileNetworkCode':
     'prefix': 'mobileNetworkCode'
-    'body': 'mobileNetworkCode()'
+    'body': 'mobileNetworkCode'
+  'CTSubscriber':
+    'prefix': 'CTSubscriber'
+    'body': 'CTSubscriber'
   'carrierToken':
     'prefix': 'carrierToken'
-    'body': 'carrierToken()'
+    'body': 'carrierToken'
+  'CTSubscriberInfo':
+    'prefix': 'CTSubscriberInfo'
+    'body': 'CTSubscriberInfo'
   'CTSubscriberInfo.subscriber':
     'prefix': 'subscriber'
-    'body': 'subscriber()'
+    'body': 'subscriber'
+  'CTTelephonyNetworkInfo':
+    'prefix': 'CTTelephonyNetworkInfo'
+    'body': 'CTTelephonyNetworkInfo'
   'currentRadioAccessTechnology':
     'prefix': 'currentRadioAccessTechnology'
-    'body': 'currentRadioAccessTechnology()'
+    'body': 'currentRadioAccessTechnology'
   'setSubscriberCellularProviderDidUpdateNotifier:':
     'prefix': 'setSubscriberCellularProviderDidUpdateNotifier:'
     'body': 'setSubscriberCellularProviderDidUpdateNotifier(${1:void (^)(CTCarrier *) subscriberCellularProviderDidUpdateNotifier})'
   'subscriberCellularProvider':
     'prefix': 'subscriberCellularProvider'
-    'body': 'subscriberCellularProvider()'
+    'body': 'subscriberCellularProvider'
   'subscriberCellularProviderDidUpdateNotifier':
     'prefix': 'subscriberCellularProviderDidUpdateNotifier'
-    'body': 'subscriberCellularProviderDidUpdateNotifier()'
+    'body': 'subscriberCellularProviderDidUpdateNotifier'

@@ -67,7 +67,10 @@
     'body': 'SKPaymentTransactionStateRestored'
   'SKTerminateForInvalidReceipt':
     'prefix': 'SKTerminateForInvalidReceipt'
-    'body': 'SKTerminateForInvalidReceipt()'
+    'body': 'SKTerminateForInvalidReceipt'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'paymentQueue:removedTransactions:':
     'prefix': 'paymentQueue:removedTransactions:'
     'body': 'paymentQueue(${1:SKPaymentQueue* queue}, removedTransactions:${2:NSArray* transactions})'
@@ -95,45 +98,51 @@
   'requestDidFinish:':
     'prefix': 'requestDidFinish:'
     'body': 'requestDidFinish(${1:SKRequest* request})'
+  'SKDownload':
+    'prefix': 'SKDownload'
+    'body': 'SKDownload'
   'contentIdentifier':
     'prefix': 'contentIdentifier'
-    'body': 'contentIdentifier()'
+    'body': 'contentIdentifier'
   'contentLength':
     'prefix': 'contentLength'
-    'body': 'contentLength()'
+    'body': 'contentLength'
   'contentURL':
     'prefix': 'contentURL'
-    'body': 'contentURL()'
+    'body': 'contentURL'
   'contentVersion':
     'prefix': 'contentVersion'
-    'body': 'contentVersion()'
+    'body': 'contentVersion'
   'downloadState':
     'prefix': 'downloadState'
-    'body': 'downloadState()'
+    'body': 'downloadState'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'progress':
     'prefix': 'progress'
-    'body': 'progress()'
+    'body': 'progress'
   'timeRemaining':
     'prefix': 'timeRemaining'
-    'body': 'timeRemaining()'
+    'body': 'timeRemaining'
   'transaction':
     'prefix': 'transaction'
-    'body': 'transaction()'
+    'body': 'transaction'
+  'SKMutablePayment':
+    'prefix': 'SKMutablePayment'
+    'body': 'SKMutablePayment'
   'applicationUsername':
     'prefix': 'applicationUsername'
-    'body': 'applicationUsername()'
+    'body': 'applicationUsername'
   'productIdentifier':
     'prefix': 'productIdentifier'
-    'body': 'productIdentifier()'
+    'body': 'productIdentifier'
   'quantity':
     'prefix': 'quantity'
-    'body': 'quantity()'
+    'body': 'quantity'
   'requestData':
     'prefix': 'requestData'
-    'body': 'requestData()'
+    'body': 'requestData'
   'setApplicationUsername:':
     'prefix': 'setApplicationUsername:'
     'body': 'setApplicationUsername(${1:NSString* applicationUsername})'
@@ -146,9 +155,12 @@
   'setRequestData:':
     'prefix': 'setRequestData:'
     'body': 'setRequestData(${1:NSData* requestData})'
+  'SKPayment':
+    'prefix': 'SKPayment'
+    'body': 'SKPayment'
   'applicationUsername':
     'prefix': 'applicationUsername'
-    'body': 'applicationUsername()'
+    'body': 'applicationUsername'
   'SKPayment.paymentWithProduct:':
     'prefix': 'paymentWithProduct:'
     'body': 'paymentWithProduct(${1:SKProduct* product})'
@@ -157,13 +169,16 @@
     'body': 'paymentWithProductIdentifier(${1:NSString* identifier})'
   'productIdentifier':
     'prefix': 'productIdentifier'
-    'body': 'productIdentifier()'
+    'body': 'productIdentifier'
   'quantity':
     'prefix': 'quantity'
-    'body': 'quantity()'
+    'body': 'quantity'
   'requestData':
     'prefix': 'requestData'
-    'body': 'requestData()'
+    'body': 'requestData'
+  'SKPaymentQueue':
+    'prefix': 'SKPaymentQueue'
+    'body': 'SKPaymentQueue'
   'addPayment:':
     'prefix': 'addPayment:'
     'body': 'addPayment(${1:SKPayment* payment})'
@@ -172,13 +187,13 @@
     'body': 'addTransactionObserver(${1:id observer})'
   'SKPaymentQueue.canMakePayments':
     'prefix': 'canMakePayments'
-    'body': 'canMakePayments()'
+    'body': 'canMakePayments'
   'cancelDownloads:':
     'prefix': 'cancelDownloads:'
     'body': 'cancelDownloads(${1:NSArray* downloads})'
   'SKPaymentQueue.defaultQueue':
     'prefix': 'defaultQueue'
-    'body': 'defaultQueue()'
+    'body': 'defaultQueue'
   'finishTransaction:':
     'prefix': 'finishTransaction:'
     'body': 'finishTransaction(${1:SKPaymentTransaction* transaction})'
@@ -190,7 +205,7 @@
     'body': 'removeTransactionObserver(${1:id observer})'
   'restoreCompletedTransactions':
     'prefix': 'restoreCompletedTransactions'
-    'body': 'restoreCompletedTransactions()'
+    'body': 'restoreCompletedTransactions'
   'restoreCompletedTransactionsWithApplicationUsername:':
     'prefix': 'restoreCompletedTransactionsWithApplicationUsername:'
     'body': 'restoreCompletedTransactionsWithApplicationUsername(${1:NSString* username})'
@@ -202,97 +217,121 @@
     'body': 'startDownloads(${1:NSArray* downloads})'
   'transactions':
     'prefix': 'transactions'
-    'body': 'transactions()'
+    'body': 'transactions'
+  'SKPaymentTransaction':
+    'prefix': 'SKPaymentTransaction'
+    'body': 'SKPaymentTransaction'
   'downloads':
     'prefix': 'downloads'
-    'body': 'downloads()'
+    'body': 'downloads'
   'error':
     'prefix': 'error'
-    'body': 'error()'
+    'body': 'error'
   'originalTransaction':
     'prefix': 'originalTransaction'
-    'body': 'originalTransaction()'
+    'body': 'originalTransaction'
   'payment':
     'prefix': 'payment'
-    'body': 'payment()'
+    'body': 'payment'
   'transactionDate':
     'prefix': 'transactionDate'
-    'body': 'transactionDate()'
+    'body': 'transactionDate'
   'transactionIdentifier':
     'prefix': 'transactionIdentifier'
-    'body': 'transactionIdentifier()'
+    'body': 'transactionIdentifier'
   'transactionReceipt':
     'prefix': 'transactionReceipt'
-    'body': 'transactionReceipt()'
+    'body': 'transactionReceipt'
   'transactionState':
     'prefix': 'transactionState'
-    'body': 'transactionState()'
+    'body': 'transactionState'
+  'SKProduct':
+    'prefix': 'SKProduct'
+    'body': 'SKProduct'
   'downloadContentLengths':
     'prefix': 'downloadContentLengths'
-    'body': 'downloadContentLengths()'
+    'body': 'downloadContentLengths'
   'downloadContentVersion':
     'prefix': 'downloadContentVersion'
-    'body': 'downloadContentVersion()'
+    'body': 'downloadContentVersion'
   'isDownloadable':
     'prefix': 'isDownloadable'
-    'body': 'isDownloadable()'
+    'body': 'isDownloadable'
   'localizedDescription':
     'prefix': 'localizedDescription'
-    'body': 'localizedDescription()'
+    'body': 'localizedDescription'
   'localizedTitle':
     'prefix': 'localizedTitle'
-    'body': 'localizedTitle()'
+    'body': 'localizedTitle'
   'price':
     'prefix': 'price'
-    'body': 'price()'
+    'body': 'price'
   'priceLocale':
     'prefix': 'priceLocale'
-    'body': 'priceLocale()'
+    'body': 'priceLocale'
   'productIdentifier':
     'prefix': 'productIdentifier'
-    'body': 'productIdentifier()'
+    'body': 'productIdentifier'
+  'SKProductsRequest':
+    'prefix': 'SKProductsRequest'
+    'body': 'SKProductsRequest'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'initWithProductIdentifiers:':
     'prefix': 'initWithProductIdentifiers:'
     'body': 'initWithProductIdentifiers(${1:NSSet* productIdentifiers})'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'SKProductsResponse':
+    'prefix': 'SKProductsResponse'
+    'body': 'SKProductsResponse'
   'invalidProductIdentifiers':
     'prefix': 'invalidProductIdentifiers'
-    'body': 'invalidProductIdentifiers()'
+    'body': 'invalidProductIdentifiers'
   'products':
     'prefix': 'products'
-    'body': 'products()'
+    'body': 'products'
+  'SKReceiptRefreshRequest':
+    'prefix': 'SKReceiptRefreshRequest'
+    'body': 'SKReceiptRefreshRequest'
   'initWithReceiptProperties:':
     'prefix': 'initWithReceiptProperties:'
     'body': 'initWithReceiptProperties(${1:NSDictionary* properties})'
   'receiptProperties':
     'prefix': 'receiptProperties'
-    'body': 'receiptProperties()'
+    'body': 'receiptProperties'
+  'SKRequest':
+    'prefix': 'SKRequest'
+    'body': 'SKRequest'
   'cancel':
     'prefix': 'cancel'
-    'body': 'cancel()'
+    'body': 'cancel'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
   'start':
     'prefix': 'start'
-    'body': 'start()'
+    'body': 'start'
+  'SKStoreProductViewController':
+    'prefix': 'SKStoreProductViewController'
+    'body': 'SKStoreProductViewController'
   'delegate':
     'prefix': 'delegate'
-    'body': 'delegate()'
+    'body': 'delegate'
   'loadProductWithParameters:completionBlock:':
     'prefix': 'loadProductWithParameters:completionBlock:'
     'body': 'loadProductWithParameters(${1:NSDictionary* parameters}, completionBlock:${2:void (^)(BOOL, NSError *) block})'
   'setDelegate:':
     'prefix': 'setDelegate:'
     'body': 'setDelegate(${1:id delegate})'
+  'SKPaymentTransactionObserver':
+    'prefix': 'SKPaymentTransactionObserver'
+    'body': 'SKPaymentTransactionObserver'
   'paymentQueue:removedTransactions:':
     'prefix': 'paymentQueue:removedTransactions:'
     'body': 'paymentQueue(${1:SKPaymentQueue* queue}, removedTransactions:${2:NSArray* transactions})'
@@ -308,15 +347,24 @@
   'paymentQueueRestoreCompletedTransactionsFinished:':
     'prefix': 'paymentQueueRestoreCompletedTransactionsFinished:'
     'body': 'paymentQueueRestoreCompletedTransactionsFinished(${1:SKPaymentQueue* queue})'
+  'SKProductsRequestDelegate':
+    'prefix': 'SKProductsRequestDelegate'
+    'body': 'SKProductsRequestDelegate'
   'productsRequest:didReceiveResponse:':
     'prefix': 'productsRequest:didReceiveResponse:'
     'body': 'productsRequest(${1:SKProductsRequest* request}, didReceiveResponse:${2:SKProductsResponse* response})'
+  'SKRequestDelegate':
+    'prefix': 'SKRequestDelegate'
+    'body': 'SKRequestDelegate'
   'request:didFailWithError:':
     'prefix': 'request:didFailWithError:'
     'body': 'request(${1:SKRequest* request}, didFailWithError:${2:NSError* error})'
   'requestDidFinish:':
     'prefix': 'requestDidFinish:'
     'body': 'requestDidFinish(${1:SKRequest* request})'
+  'SKStoreProductViewControllerDelegate':
+    'prefix': 'SKStoreProductViewControllerDelegate'
+    'body': 'SKStoreProductViewControllerDelegate'
   'productViewControllerDidFinish:':
     'prefix': 'productViewControllerDidFinish:'
     'body': 'productViewControllerDidFinish(${1:SKStoreProductViewController* viewController})'

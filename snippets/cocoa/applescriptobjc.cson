@@ -1,4 +1,7 @@
 '.source.rubymotion':
+  'NSBundle':
+    'prefix': 'NSBundle'
+    'body': 'NSBundle'
   'loadAppleScriptObjectiveCScripts':
     'prefix': 'loadAppleScriptObjectiveCScripts'
-    'body': 'loadAppleScriptObjectiveCScripts()'
+    'body': 'loadAppleScriptObjectiveCScripts'

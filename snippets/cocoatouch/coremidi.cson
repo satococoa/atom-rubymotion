@@ -379,22 +379,22 @@
     'body': 'MIDIGetDriverDeviceList(${1:MIDIDriverRef driver})'
   'MIDIGetDriverIORunLoop':
     'prefix': 'MIDIGetDriverIORunLoop'
-    'body': 'MIDIGetDriverIORunLoop()'
+    'body': 'MIDIGetDriverIORunLoop'
   'MIDIGetExternalDevice':
     'prefix': 'MIDIGetExternalDevice'
     'body': 'MIDIGetExternalDevice(${1:ItemCount deviceIndex0})'
   'MIDIGetNumberOfDestinations':
     'prefix': 'MIDIGetNumberOfDestinations'
-    'body': 'MIDIGetNumberOfDestinations()'
+    'body': 'MIDIGetNumberOfDestinations'
   'MIDIGetNumberOfDevices':
     'prefix': 'MIDIGetNumberOfDevices'
-    'body': 'MIDIGetNumberOfDevices()'
+    'body': 'MIDIGetNumberOfDevices'
   'MIDIGetNumberOfExternalDevices':
     'prefix': 'MIDIGetNumberOfExternalDevices'
-    'body': 'MIDIGetNumberOfExternalDevices()'
+    'body': 'MIDIGetNumberOfExternalDevices'
   'MIDIGetNumberOfSources':
     'prefix': 'MIDIGetNumberOfSources'
-    'body': 'MIDIGetNumberOfSources()'
+    'body': 'MIDIGetNumberOfSources'
   'MIDIGetSource':
     'prefix': 'MIDIGetSource'
     'body': 'MIDIGetSource(${1:ItemCount sourceIndex0})'
@@ -457,7 +457,7 @@
     'body': 'MIDIReceived(${1:MIDIEndpointRef src}, ${2:MIDIPacketList* pktlist})'
   'MIDIRestart':
     'prefix': 'MIDIRestart'
-    'body': 'MIDIRestart()'
+    'body': 'MIDIRestart'
   'MIDISend':
     'prefix': 'MIDISend'
     'body': 'MIDISend(${1:MIDIPortRef port}, ${2:MIDIEndpointRef dest}, ${3:MIDIPacketList* pktlist})'
@@ -497,15 +497,21 @@
   'MIDIThruConnectionSetParams':
     'prefix': 'MIDIThruConnectionSetParams'
     'body': 'MIDIThruConnectionSetParams(${1:MIDIThruConnectionRef connection}, ${2:CFDataRef inConnectionParams})'
+  'MIDINetworkConnection':
+    'prefix': 'MIDINetworkConnection'
+    'body': 'MIDINetworkConnection'
   'MIDINetworkConnection.connectionWithHost:':
     'prefix': 'connectionWithHost:'
     'body': 'connectionWithHost(${1:MIDINetworkHost* host})'
   'host':
     'prefix': 'host'
-    'body': 'host()'
+    'body': 'host'
+  'MIDINetworkHost':
+    'prefix': 'MIDINetworkHost'
+    'body': 'MIDINetworkHost'
   'address':
     'prefix': 'address'
-    'body': 'address()'
+    'body': 'address'
   'hasSameAddressAs:':
     'prefix': 'hasSameAddressAs:'
     'body': 'hasSameAddressAs(${1:MIDINetworkHost* other})'
@@ -520,16 +526,19 @@
     'body': 'hostWithName(${1:NSString* name}, netServiceName:${2:NSString* netServiceName}, netServiceDomain:${3:NSString* netServiceDomain})'
   'name':
     'prefix': 'name'
-    'body': 'name()'
+    'body': 'name'
   'netServiceDomain':
     'prefix': 'netServiceDomain'
-    'body': 'netServiceDomain()'
+    'body': 'netServiceDomain'
   'netServiceName':
     'prefix': 'netServiceName'
-    'body': 'netServiceName()'
+    'body': 'netServiceName'
   'port':
     'prefix': 'port'
-    'body': 'port()'
+    'body': 'port'
+  'MIDINetworkSession':
+    'prefix': 'MIDINetworkSession'
+    'body': 'MIDINetworkSession'
   'addConnection:':
     'prefix': 'addConnection:'
     'body': 'addConnection(${1:MIDINetworkConnection* connection})'
@@ -538,31 +547,31 @@
     'body': 'addContact(${1:MIDINetworkHost* contact})'
   'connectionPolicy':
     'prefix': 'connectionPolicy'
-    'body': 'connectionPolicy()'
+    'body': 'connectionPolicy'
   'connections':
     'prefix': 'connections'
-    'body': 'connections()'
+    'body': 'connections'
   'contacts':
     'prefix': 'contacts'
-    'body': 'contacts()'
+    'body': 'contacts'
   'MIDINetworkSession.defaultSession':
     'prefix': 'defaultSession'
-    'body': 'defaultSession()'
+    'body': 'defaultSession'
   'destinationEndpoint':
     'prefix': 'destinationEndpoint'
-    'body': 'destinationEndpoint()'
+    'body': 'destinationEndpoint'
   'isEnabled':
     'prefix': 'isEnabled'
-    'body': 'isEnabled()'
+    'body': 'isEnabled'
   'localName':
     'prefix': 'localName'
-    'body': 'localName()'
+    'body': 'localName'
   'networkName':
     'prefix': 'networkName'
-    'body': 'networkName()'
+    'body': 'networkName'
   'networkPort':
     'prefix': 'networkPort'
-    'body': 'networkPort()'
+    'body': 'networkPort'
   'removeConnection:':
     'prefix': 'removeConnection:'
     'body': 'removeConnection(${1:MIDINetworkConnection* connection})'
@@ -577,4 +586,4 @@
     'body': 'setEnabled(${1:BOOL enabled})'
   'sourceEndpoint':
     'prefix': 'sourceEndpoint'
-    'body': 'sourceEndpoint()'
+    'body': 'sourceEndpoint'

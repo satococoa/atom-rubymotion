@@ -2,18 +2,21 @@
   'ABCreateStringWithAddressDictionary':
     'prefix': 'ABCreateStringWithAddressDictionary'
     'body': 'ABCreateStringWithAddressDictionary(${1:NSDictionary* address}, ${2:BOOL addCountryName})'
+  'ABNewPersonViewController':
+    'prefix': 'ABNewPersonViewController'
+    'body': 'ABNewPersonViewController'
   'addressBook':
     'prefix': 'addressBook'
-    'body': 'addressBook()'
+    'body': 'addressBook'
   'displayedPerson':
     'prefix': 'displayedPerson'
-    'body': 'displayedPerson()'
+    'body': 'displayedPerson'
   'newPersonViewDelegate':
     'prefix': 'newPersonViewDelegate'
-    'body': 'newPersonViewDelegate()'
+    'body': 'newPersonViewDelegate'
   'parentGroup':
     'prefix': 'parentGroup'
-    'body': 'parentGroup()'
+    'body': 'parentGroup'
   'setAddressBook:':
     'prefix': 'setAddressBook:'
     'body': 'setAddressBook(${1:ABAddressBookRef addressBook})'
@@ -26,15 +29,18 @@
   'setParentGroup:':
     'prefix': 'setParentGroup:'
     'body': 'setParentGroup(${1:ABRecordRef parentGroup})'
+  'ABPeoplePickerNavigationController':
+    'prefix': 'ABPeoplePickerNavigationController'
+    'body': 'ABPeoplePickerNavigationController'
   'addressBook':
     'prefix': 'addressBook'
-    'body': 'addressBook()'
+    'body': 'addressBook'
   'displayedProperties':
     'prefix': 'displayedProperties'
-    'body': 'displayedProperties()'
+    'body': 'displayedProperties'
   'peoplePickerDelegate':
     'prefix': 'peoplePickerDelegate'
-    'body': 'peoplePickerDelegate()'
+    'body': 'peoplePickerDelegate'
   'setAddressBook:':
     'prefix': 'setAddressBook:'
     'body': 'setAddressBook(${1:ABAddressBookRef addressBook})'
@@ -44,24 +50,27 @@
   'setPeoplePickerDelegate:':
     'prefix': 'setPeoplePickerDelegate:'
     'body': 'setPeoplePickerDelegate(${1:id peoplePickerDelegate})'
+  'ABPersonViewController':
+    'prefix': 'ABPersonViewController'
+    'body': 'ABPersonViewController'
   'addressBook':
     'prefix': 'addressBook'
-    'body': 'addressBook()'
+    'body': 'addressBook'
   'allowsActions':
     'prefix': 'allowsActions'
-    'body': 'allowsActions()'
+    'body': 'allowsActions'
   'allowsEditing':
     'prefix': 'allowsEditing'
-    'body': 'allowsEditing()'
+    'body': 'allowsEditing'
   'displayedPerson':
     'prefix': 'displayedPerson'
-    'body': 'displayedPerson()'
+    'body': 'displayedPerson'
   'displayedProperties':
     'prefix': 'displayedProperties'
-    'body': 'displayedProperties()'
+    'body': 'displayedProperties'
   'personViewDelegate':
     'prefix': 'personViewDelegate'
-    'body': 'personViewDelegate()'
+    'body': 'personViewDelegate'
   'setAddressBook:':
     'prefix': 'setAddressBook:'
     'body': 'setAddressBook(${1:ABAddressBookRef addressBook})'
@@ -88,25 +97,28 @@
     'body': 'setShouldShowLinkedPeople(${1:BOOL shouldShowLinkedPeople})'
   'shouldShowLinkedPeople':
     'prefix': 'shouldShowLinkedPeople'
-    'body': 'shouldShowLinkedPeople()'
+    'body': 'shouldShowLinkedPeople'
+  'ABUnknownPersonViewController':
+    'prefix': 'ABUnknownPersonViewController'
+    'body': 'ABUnknownPersonViewController'
   'addressBook':
     'prefix': 'addressBook'
-    'body': 'addressBook()'
+    'body': 'addressBook'
   'allowsActions':
     'prefix': 'allowsActions'
-    'body': 'allowsActions()'
+    'body': 'allowsActions'
   'allowsAddingToAddressBook':
     'prefix': 'allowsAddingToAddressBook'
-    'body': 'allowsAddingToAddressBook()'
+    'body': 'allowsAddingToAddressBook'
   'alternateName':
     'prefix': 'alternateName'
-    'body': 'alternateName()'
+    'body': 'alternateName'
   'displayedPerson':
     'prefix': 'displayedPerson'
-    'body': 'displayedPerson()'
+    'body': 'displayedPerson'
   'message':
     'prefix': 'message'
-    'body': 'message()'
+    'body': 'message'
   'setAddressBook:':
     'prefix': 'setAddressBook:'
     'body': 'setAddressBook(${1:ABAddressBookRef addressBook})'
@@ -130,7 +142,10 @@
     'body': 'setUnknownPersonViewDelegate(${1:id unknownPersonViewDelegate})'
   'unknownPersonViewDelegate':
     'prefix': 'unknownPersonViewDelegate'
-    'body': 'unknownPersonViewDelegate()'
+    'body': 'unknownPersonViewDelegate'
+  'NSObject':
+    'prefix': 'NSObject'
+    'body': 'NSObject'
   'newPersonViewController:didCompleteWithNewPerson:':
     'prefix': 'newPersonViewController:didCompleteWithNewPerson:'
     'body': 'newPersonViewController(${1:ABNewPersonViewController* newPersonView}, didCompleteWithNewPerson:${2:ABRecordRef person})'
@@ -152,9 +167,15 @@
   'unknownPersonViewController:shouldPerformDefaultActionForPerson:property:identifier:':
     'prefix': 'unknownPersonViewController:shouldPerformDefaultActionForPerson:property:identifier:'
     'body': 'unknownPersonViewController(${1:ABUnknownPersonViewController* personViewController}, shouldPerformDefaultActionForPerson:${2:ABRecordRef person}, property:${3:ABPropertyID property}, identifier:${4:ABMultiValueIdentifier identifier})'
+  'ABNewPersonViewControllerDelegate':
+    'prefix': 'ABNewPersonViewControllerDelegate'
+    'body': 'ABNewPersonViewControllerDelegate'
   'newPersonViewController:didCompleteWithNewPerson:':
     'prefix': 'newPersonViewController:didCompleteWithNewPerson:'
     'body': 'newPersonViewController(${1:ABNewPersonViewController* newPersonView}, didCompleteWithNewPerson:${2:ABRecordRef person})'
+  'ABPeoplePickerNavigationControllerDelegate':
+    'prefix': 'ABPeoplePickerNavigationControllerDelegate'
+    'body': 'ABPeoplePickerNavigationControllerDelegate'
   'peoplePickerNavigationController:shouldContinueAfterSelectingPerson:':
     'prefix': 'peoplePickerNavigationController:shouldContinueAfterSelectingPerson:'
     'body': 'peoplePickerNavigationController(${1:ABPeoplePickerNavigationController* peoplePicker}, shouldContinueAfterSelectingPerson:${2:ABRecordRef person})'
@@ -164,9 +185,15 @@
   'peoplePickerNavigationControllerDidCancel:':
     'prefix': 'peoplePickerNavigationControllerDidCancel:'
     'body': 'peoplePickerNavigationControllerDidCancel(${1:ABPeoplePickerNavigationController* peoplePicker})'
+  'ABPersonViewControllerDelegate':
+    'prefix': 'ABPersonViewControllerDelegate'
+    'body': 'ABPersonViewControllerDelegate'
   'personViewController:shouldPerformDefaultActionForPerson:property:identifier:':
     'prefix': 'personViewController:shouldPerformDefaultActionForPerson:property:identifier:'
     'body': 'personViewController(${1:ABPersonViewController* personViewController}, shouldPerformDefaultActionForPerson:${2:ABRecordRef person}, property:${3:ABPropertyID property}, identifier:${4:ABMultiValueIdentifier identifier})'
+  'ABUnknownPersonViewControllerDelegate':
+    'prefix': 'ABUnknownPersonViewControllerDelegate'
+    'body': 'ABUnknownPersonViewControllerDelegate'
   'unknownPersonViewController:didResolveToPerson:':
     'prefix': 'unknownPersonViewController:didResolveToPerson:'
     'body': 'unknownPersonViewController(${1:ABUnknownPersonViewController* unknownCardViewController}, didResolveToPerson:${2:ABRecordRef person})'
