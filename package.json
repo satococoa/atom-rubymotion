@@ -1,7 +1,7 @@
 {
   "name": "RubyMotion",
   "main": "./lib/rubymotion",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": true,
   "description": "RubyMotion package for Atom",
   "activationEvents": [],
