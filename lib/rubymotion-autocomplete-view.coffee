@@ -32,7 +32,7 @@ class RubyMotionAutocompleteView extends AutocompleteView
 
   attach: ->
     word = @editor.getWordUnderCursor(includeNonWordCharacters: false)
-    return if word is ''
+    return if word.replace(/^\s*|\s*$/, '') is ''
     super
 
   confirmed: (match) ->
